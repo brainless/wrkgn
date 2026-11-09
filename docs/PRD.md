@@ -2,7 +2,7 @@
 
 ## Overview
 
-Create a public directory of projects and products shared in Hacker News’s recurring “Ask HN: What are you working on?” discussions. Begin with approximately the past two years of threads and continue adding new discussions.
+Create a public directory of projects and products shared in Hacker News’s recurring “Ask HN: What are you working on?” discussions. Validate the workflow with three monthly threads, then expand to approximately the past two years and continue adding new discussions.
 
 The directory should inspire people to build and share their own work, help visitors discover interesting projects, and make it easier to find builders working on related problems. It is a discovery resource, not a social network.
 
@@ -51,40 +51,68 @@ For each project mention, capture where available:
 
 Missing information should remain unknown. Do not invent names, audiences, URLs, project status, or invitations. Summaries must remain grounded in source material, and quotations must be distinguishable from summaries.
 
-Discovery categories and tags may be assigned during processing, but must be treated as classifications rather than statements made by an author. Favor understandable labels about problems, use cases, and audiences.
+Discovery categories and audience labels may be assigned during processing, but must be treated as classifications rather than statements made by an author. Favor understandable labels about problems, use cases, and audiences. Derive the vocabulary from the pilot data and normalize synonymous labels before publication. “Looking for” values require explicit, dated source evidence; they are not inferred classifications.
 
 ## Visitor experience
 
+The initial directory offers a paginated project list ordered by the original sharing date of each project's most recent published mention. Collection timestamps and supporting replies do not move projects to the top. Use a stable secondary ordering when dates are equal.
+
 Visitors should be able to:
 
-- Browse project cards that explain what a project does, whom it serves when known, and when it was shared.
-- Search descriptions, problems, audiences, project names, and builder usernames.
-- Narrow results using categories, tags, sharing dates, and explicit requests.
-- Open a project page to see its mentions over time and relevant discussion context.
-- Follow clearly attributed links to the original discussion, demos, and project websites.
+- Browse project cards explaining what a project does, whom it serves when known, and when it was shared.
+- Search descriptions, problems, audiences, project names, and supported builder usernames.
+- Narrow results with exactly three filter dimensions: Category, Audience, and Looking for. Options come from the published data; dropdowns with checkboxes are an initial UI choice, not a fixed requirement.
+- Open a card in a dynamic modal showing project details, mentions over time, and relevant supporting contributions.
+- Share or directly visit the same stable project slug URL to read a generated standalone project page.
+- Follow clearly attributed links to original discussions, demos, and project websites.
 - Discover other projects shared by the same builder where that relationship is supported.
 
-Historical invitations must retain their dates and must not be presented as verified current opportunities. Recently collected information must not be confused with recently shared information.
+Opening a modal updates the URL; closing it restores the list context. Browser back/forward navigation must work. Search, filters, and interactive pagination preserve their state in the URL. Direct project visits must work without JavaScript.
 
-## Separation of responsibilities
+Generate date-ordered list pages at `/projects/` and `/projects/page/2/`, and project pages at `/projects/<slug>/`. Slugs are persisted in SQLite and remain stable across reprocessing. Alphabetical lists and generated category landing pages are deferred until there is a demonstrated need and a useful category vocabulary. Do not generate every filter combination.
+
+Historical invitations retain their dates and must not be presented as verified current opportunities. Recently collected information must not be confused with recently shared information.
+
+## Architecture and local workflow
+
+All collection, extraction, review, and database work runs on the maintainer's computer. Rust tooling owns the data pipeline; Astro builds the public website locally from a public export. Cloudflare hosts the generated static assets. The initial architecture has no hosted database, request-time rendering, or processing service.
+
+The intended workflow is:
+
+1. Update the Rig extraction prompt, schema, or processing code when needed.
+2. Run one Rust CLI command with an HN thread item ID to collect, process, and export that thread's data.
+3. Run Astro in development mode and manually inspect project details, source attribution, and filtering.
+4. Reprocess explicitly after extraction changes, repeat inspection, and build the static site for publication.
+
+Proposed command interface: `wrkgn process --thread <hn-item-id>`, with `--reprocess` to deliberately rerun extraction. Exact executable naming can follow implementation conventions. Refreshing a thread also refreshes its replies. Incremental runs skip unchanged successful processing; interrupted runs can resume. Dev mode and builds consume exports and never invoke HN or an LLM implicitly.
 
 ### Data collection
 
-Identify relevant threads and collect source comments, reply relationships, author attribution, dates, and links. Preserve raw source material separately from processed records. Track collection and refresh history so source changes can be detected.
+Use ordinary Rust code, without agents, to read the supplied post and its comment tree from the HN API. Store raw source records in local SQLite, including HN item IDs, parent/reply relationships, author attribution, original dates, collection timestamps, and source refresh state. Raw and processed data live in separate tables in the same database.
 
-Collection must support revisiting older threads and refreshing changed or deleted comments, as well as adding new discussions.
+Collection supports revisiting older threads, detecting changed or deleted comments, retrying transient failures, and reporting incomplete fetches. Missing or failed API responses must not be mistaken for confirmed deletions.
 
 ### Parsing and processing
 
-Use agents to identify projects, extract supported facts and explicit requests, select useful context, and assign discovery labels. Retain the evidence behind extracted information and the history of processing decisions.
+Start with one Rig extraction agent definition invoked once per top-level comment and its reply subtree. Supply each source item's ID and relationship context. For subtrees too large for the model context, use bounded follow-up processing with project and ancestor context; never silently discard replies.
 
-Support review of ambiguous extractions, possible duplicate projects, and corrections. Processing should be repeatable without losing source provenance or overwriting reviewed corrections. Raw and processed records form a maintained, versioned source dataset.
+Use a preset system prompt and typed structured output. Each response contains zero or more project mentions, extracted facts, classification labels, explicit requests with evidence, and relevant supporting contributions. Store each supporting contribution separately with its source comment item ID and its association to the relevant mention/project. A reply can introduce a project of its own, so preserve the actual source of each mention rather than always attributing it to the root comment.
 
-### Static website
+Rust code validates outputs before persistence, including source ID membership, required provenance, and evidence for explicit requests. Source comments are untrusted input, not instructions. The agent does not need tools or autonomous planning.
 
-Publish a static discovery experience from approved processed data. Browsing, search, categories, and tags operate on the published dataset in the visitor’s browser.
+Track source content fingerprints, prompt/model/schema versions, run status, and failures. Reprocessing replaces the applicable successful output transactionally without duplicating records; failures retain the previous successful result. Reviewed corrections and suppression decisions survive reruns. Retained results affected by deleted sources still obey publication suppression rules.
 
-The website presents project information and attribution; it does not perform source collection or agent processing. Publishing updates must propagate corrections, removals, and refreshed source information to pages and discovery data.
+Model projects, mentions, supporting contributions, labels, and processing history as related records rather than one flat website table. Cross-comment and cross-thread project matching is a separate processing concern: preserve stable identities where evidence is adequate and leave uncertain matches separate for review.
+
+### Public export and static website
+
+Export only approved public fields from a consistent database snapshot. Raw source payloads, credentials, processing diagnostics, and private review history stay local. Approval is explicit publication state; validation alone does not imply approval. The pilot may use a simple local review command rather than an administrative UI.
+
+Astro renders project pages and paginated date-ordered lists at build time, with ordinary links for crawling and navigation. Project pages and modals share their presentation and public data contract. JavaScript enhances the list with search, filters, and modals.
+
+Publish a compact discovery dataset containing project IDs, slugs, card fields, searchable text, normalized filter values, and sharing dates. Publish per-project detail JSON for modal loading. Start with browser-side text matching and filtering; measure dataset size and responsiveness before introducing a dedicated search index.
+
+Generate HTML and JSON from the same publication snapshot, with versioned assets to prevent mixed data versions. Rebuilds propagate corrections, removals, and refreshed information to all pages and discovery assets. Do not copy the source SQLite database into the public output.
 
 ## Freshness, corrections, and removals
 

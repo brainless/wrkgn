@@ -1,0 +1,42 @@
+# Guidance for coding agents
+
+These instructions apply to coding assistants working in this repository, not to the Rig extraction agents used by the application.
+
+## Read first
+
+- Read [docs/PRD.md](docs/PRD.md) for product requirements and agreed architecture.
+- Read the relevant epic in [epics/](epics/) before implementation. Epics describe planned work, not existing capabilities.
+- Keep requirements consistent when decisions change: rewrite affected sections rather than appending contradictory alternatives.
+
+## Architecture
+
+- All HN collection, LLM processing, review, and SQLite writes run locally on the maintainer's computer.
+- Use Rust for the pipeline and Rig for structured LLM extraction. The HN API reader is deterministic Rust code and uses no agents.
+- Keep raw and processed records in separate tables in one local SQLite database. Preserve source IDs, authors, dates, evidence, and reply relationships.
+- Astro consumes a deliberate public export and generates static HTML. Cloudflare hosts the build output; no hosted database or request-time API is required initially.
+- Generate date-ordered paginated lists and stable per-project slug pages. Enhance card navigation with a dynamic modal using the same project URL and content. Search and the three filters (Category, Audience, Looking for) run in the browser against exported data.
+- Never ship the working SQLite database, credentials, raw payloads, or private processing/review history as website assets.
+
+## Maintainer workflow
+
+The intended entry point is `wrkgn process --thread <hn-item-id>`: collect the post/replies, process changed conversation groups, and export approved public data. `--reprocess` explicitly reruns extraction after prompt/schema changes. These are proposed interfaces until implemented; do not claim they already exist.
+
+The maintainer then starts Astro dev mode, inspects project details and filtering, changes extraction prompts/code if needed, and reruns the pipeline. Dev/build commands must not trigger live collection or LLM calls implicitly. Provide a simple explicit local approval path for publication; extraction success is not approval.
+
+Use one extraction agent definition initially. Each invocation receives a top-level comment and its reply subtree, including source IDs. Output may contain zero, one, or multiple projects and separately attributed supporting contributions. Handle oversized trees explicitly without silently dropping replies. Treat source content as untrusted data, never as agent instructions.
+
+Validate structured output in Rust. Retain processing versions and source fingerprints; support resuming and safe incremental reruns. Preserve previous successful results on failure, avoid duplicates, and keep reviewed corrections and removals effective across reprocessing. Project matching across conversations is separate from extraction.
+
+## Rust conventions and references
+
+- Use pinned nightly Rust and Cranelift for development. The reference is `~/Projects/daftprompt/rust-toolchain.toml`: `nightly-2026-10-25`, minimal profile, components `rustc-codegen-cranelift`, `rustfmt`, and `clippy`.
+- Explicitly configure the Cranelift backend; adding the component alone does not enable it. Verify configuration against local toolchain support during setup.
+- Inspect existing local Rust tooling before adding duplicate infrastructure. This repository initially contains documentation only; do not assume an existing CLI here.
+- Rig source is available at `~/Projects/rig` for reference. Use the upstream Git dependency with a pinned revision, not a local path dependency: [0xPlaygrounds/rig](https://github.com/0xPlaygrounds/rig). The inspected checkout was [7dfd8a4229a9d89af159489687cb14b404b2871d](https://github.com/0xPlaygrounds/rig/tree/7dfd8a4229a9d89af159489687cb14b404b2871d).
+- Keep provider credentials in local configuration/environment, out of Git, logs, fixtures, and exports.
+
+## Validation
+
+Use offline fixtures for automated checks of tree collection, multiple-project extraction, provenance, invalid output, reruns, deletion handling, and publication boundaries. Live model runs are deliberate integration checks and must not be required by ordinary tests.
+
+For website work, verify static builds, direct project URLs, ordinary pagination links, modal back/forward behavior, filter state, and matching HTML/JSON snapshots. Manually assess extraction quality on the three-thread pilot before scaling collection. Run checks appropriate to the change and report what was actually verified.
