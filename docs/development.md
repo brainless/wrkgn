@@ -49,17 +49,33 @@ Only a complete refresh can mark a previously stored item as absent from the cur
 
 A JSON `null`, malformed item, failed request, duplicate child reference, or parent mismatch makes the run incomplete and identifies the affected item in `fetch_failures`. An explicit `deleted` or `dead` field is stored as source state. A failed or null fetch never changes that state. No live collection runs during builds or tests; a deliberate live smoke test awaits a supplied monthly discussion ID.
 
-## CLI usage
+## Processing and review
 
-After choosing an actual HN discussion item ID, run either command deliberately:
+Set `WRKGN_MODEL` to an OpenAI completion model name and `OPENAI_API_KEY` in the local environment. Keep credentials out of Git and logs. Rig is pinned to upstream commit `7dfd8a4229a9d89af159489687cb14b404b2871d`. Model calls occur only during an explicit `process` command. Tests use a deterministic `Model` fixture and never need credentials.
 
 ```sh
 cargo run -- collect --thread <hn-item-id>
 cargo run -- process --thread <hn-item-id>
+cargo run -- process --thread <hn-item-id> --reprocess
+cargo run -- review pending
+cargo run -- review approve <mention-id>
+cargo run -- review correct <mention-key> description "Reviewed summary"
+cargo run -- review suppress-source <hn-item-id> "removal request"
+cargo run -- review suppress-project <project-id>
+cargo run -- review match <from-project-id> <to-project-id>
+cargo run -- export
 ```
 
-Pass `--db <path>` to either command to override `WRKGN_DB_PATH` and the default database path. `collect` only fetches and stores the thread and replies. A complete collection exits with status 0; an incomplete collection exits with status 1 and lists affected item IDs and failure reasons.
+`--db <path>` selects the local SQLite database. `--export <directory>` selects the public export directory; `WRKGN_EXPORT_PATH` overrides the default `local-data/public-export`. Collection must complete before processing. Unchanged, successful groups are skipped unless `--reprocess` is supplied. Prompt, model, schema, and source fingerprints determine whether a group is unchanged. A reply edit invalidates its top-level group. If one group fails, successful groups still commit, the failed group's previous result remains in SQLite, the processing run is marked incomplete, and the CLI exits nonzero. Oversized items or ancestor chains produce a recorded failure rather than truncated input.
 
-`process` currently performs the same collection, then reports that extraction and public export are not implemented. It exits with status 2 even when collection succeeds; it does not produce publication data or report pipeline success. `wrkgn --help` shows command usage. Builds and tests do not fetch Hacker News data or call a model.
+Each model invocation receives one top-level comment subtree, or bounded chunks with root and ancestor context. All source IDs must be accounted for. Typed results are checked against the supplied source IDs, URL presence, builder attribution, and exact evidence for explicit requests. Categories and audience labels are classifications; only evidenced requests become Looking for values. A repeat mention with an exact URL and the same supported builder can reuse a project. Other cross-conversation matches remain separate until `review match` explicitly merges their project identities. Project slugs are stored in SQLite.
 
-Run one collection command at a time for a given thread. A retry after an incomplete or interrupted run refetches the entire current tree, rather than only its failed item IDs, so changes elsewhere are also observed. A live smoke test still needs a supplied monthly discussion ID and deliberate execution.
+New mentions are pending review. `review pending` shows their IDs, keys, descriptions, source IDs, and sharing dates. `approve` publishes one pending mention; corrections persist by mention key across reruns. Successful reprocessing returns changed material to pending review. Source and project suppression survive reruns. There is no command to undo suppression yet; inspect and edit local SQLite deliberately if a suppression was erroneous.
+
+## Public snapshot contract
+
+`export` reads all approved projects from one SQLite transaction, applies corrections and suppression, and creates `snapshots/<version>/manifest.json`, `discovery.json`, and `projects/<slug>.json` under the export directory. `current.json` is replaced atomically and points to the completed snapshot. The version hashes both discovery and detail data. Astro should read `current.json` once per build, then read all JSON through its selected manifest. It must never copy the working database or raw payloads.
+
+Discovery records have stable `id` and `slug`, card fields (`name`, `description`, `problem`, `audience`), `builder_usernames`, `categories`, `audience_labels`, `looking_for`, `latest_shared_at`, and `searchable_text`. They are ordered by latest original mention date, then project ID. Detail records have `id`, `slug`, `name`, and dated `mentions`; each mention includes its source ID and URL, author, links, evidenced requests, and attributed supporting contributions. Dates are Unix seconds from HN source records. A current source edit, deletion, missing item, or suppression hides affected content; a failed rerun does not republish stale group results. Static HTML and modal data should both come from this snapshot.
+
+A live model quality check and the three-thread pilot remain deferred until real thread IDs, credentials, and deliberate execution are available. Schema validity alone does not establish extraction accuracy; manually inspect descriptions, labels, invitations, provenance, and grouping before publication.

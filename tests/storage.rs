@@ -22,7 +22,7 @@ fn migration_persists_nested_source_and_order() {
     let directory = tempdir().unwrap();
     let path = directory.path().join("nested/source.sqlite");
     let mut store = Store::open(&path).unwrap();
-    assert_eq!(store.schema_version().unwrap(), 2);
+    assert_eq!(store.schema_version().unwrap(), 3);
     let run = store.begin_run(100, 10).unwrap();
     store.upsert_item(run, 11, &item(100, None, 0)).unwrap();
     store
@@ -81,7 +81,7 @@ fn version_one_database_upgrades_without_losing_source() {
     drop(connection);
 
     let store = Store::open(&path).unwrap();
-    assert_eq!(store.schema_version().unwrap(), 2);
+    assert_eq!(store.schema_version().unwrap(), 3);
     assert_eq!(store.get_run(1).unwrap().unwrap().status, "running");
     assert!(!store.get_run(1).unwrap().unwrap().interrupted);
 }

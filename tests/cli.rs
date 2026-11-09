@@ -60,7 +60,7 @@ fn collect_reports_complete_source_collection() {
 }
 
 #[test]
-fn process_never_claims_pipeline_success_even_after_complete_collection() {
+fn process_requires_explicit_model_configuration() {
     let directory = tempdir().unwrap();
     let path = directory.path().join("source.sqlite");
     let api = FixtureApi {
@@ -68,10 +68,9 @@ fn process_never_claims_pipeline_success_even_after_complete_collection() {
         missing_child: false,
     };
     let (code, out, err) = invoke(&api, "process", path.to_str().unwrap());
-
-    assert_eq!(code, 2);
+    assert_eq!(code, 1);
     assert!(out.contains("Collection complete"));
-    assert!(err.contains("Extraction and public export are not implemented"));
+    assert!(err.contains("WRKGN_MODEL") || err.contains("OPENAI_API_KEY"));
     assert_eq!(api.calls.load(Ordering::SeqCst), 1);
 }
 
@@ -108,7 +107,7 @@ fn invalid_arguments_and_help_do_not_fetch_or_create_database() {
         &mut err,
     )
     .unwrap();
-    assert_eq!(code, 2);
+    assert_eq!(code, 1);
     assert!(String::from_utf8(err).unwrap().contains("positive integer"));
 
     let mut out = Vec::new();

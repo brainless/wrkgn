@@ -9,7 +9,7 @@ use rusqlite::{Connection, OptionalExtension, params};
 use serde_json::Value;
 use sha2::{Digest, Sha256};
 
-const LATEST_SCHEMA_VERSION: i64 = 2;
+const LATEST_SCHEMA_VERSION: i64 = 3;
 
 #[derive(Debug, Clone, PartialEq)]
 pub struct SourceItem {
@@ -133,7 +133,17 @@ impl Store {
             transaction.pragma_update(None, "user_version", 2)?;
             transaction.commit()?;
         }
+        if current < 3 {
+            let transaction = self.connection.transaction()?;
+            transaction.execute_batch(include_str!("../migrations/003_processing.sql"))?;
+            transaction.pragma_update(None, "user_version", 3)?;
+            transaction.commit()?;
+        }
         Ok(())
+    }
+
+    pub(crate) fn connection(&mut self) -> &mut Connection {
+        &mut self.connection
     }
 
     pub fn begin_run(&self, thread_id: i64, started_at: i64) -> rusqlite::Result<i64> {

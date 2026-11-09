@@ -1,6 +1,6 @@
 # Epic 02: Structured project extraction and public export
 
-Status: Planned
+Status: Implemented with offline fixtures. Live model quality check and three-thread pilot deferred until thread IDs and credentials are supplied.
 
 Depends on: [Epic 01](01-local-collection-and-storage.md)
 
