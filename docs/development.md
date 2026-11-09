@@ -79,3 +79,35 @@ New mentions are pending review. `review pending` shows their IDs, keys, descrip
 Discovery records have stable `id` and `slug`, card fields (`name`, `description`, `problem`, `audience`), `builder_usernames`, `categories`, `audience_labels`, `looking_for`, `latest_shared_at`, and `searchable_text`. They are ordered by latest original mention date, then project ID. Detail records have `id`, `slug`, `name`, and dated `mentions`; each mention includes its source ID and URL, author, links, evidenced requests, and attributed supporting contributions. Dates are Unix seconds from HN source records. A current source edit, deletion, missing item, or suppression hides affected content; a failed rerun does not republish stale group results. Static HTML and modal data should both come from this snapshot.
 
 A live model quality check and the three-thread pilot remain deferred until real thread IDs, credentials, and deliberate execution are available. Schema validity alone does not establish extraction accuracy; manually inspect descriptions, labels, invitations, provenance, and grouping before publication.
+
+## Static website (Epic 03)
+
+The Astro site lives in `website/`. It reads only `website/data/public/`, which is a selected, tracked public snapshot. An empty snapshot is committed initially; a synthetic representative fixture is in `website/tests/fixtures/representative/` for offline UI work and must not be presented as real HN content.
+
+After reviewing and approving mentions locally, run `cargo run -- export` from the repository root. Then explicitly stage the completed export and build from `website/`:
+
+```sh
+cd website
+npm ci
+npm run stage -- ../local-data/public-export
+npm run dev
+npm run build
+npm test
+```
+
+`npm run stage` takes one export directory containing `current.json`. It validates schema version 1, the selected manifest, every discovery record, every referenced project detail, and the public field allowlist. It copies only those files into a replacement staged snapshot; previous staged versions are removed. A missing or invalid export fails before replacing the staged data. `npm run dev` and `npm run build` consume the staged snapshot without running Rust, contacting HN or a model, or reading local credentials or SQLite. Static output goes to `website/dist/`; the versioned browser data is under `/data/<version>/`.
+
+Cloudflare repository builds should use `website/` as the build root, `npm run build` as the command, and `dist/` as the output directory. Deployment configuration and publication remain separate from this local setup. A real correction and removal contact destination must be supplied before launch; do not publish a placeholder route.
+
+The directory renders ordinary list and project links without JavaScript. With JavaScript, search matches the exported `searchable_text` for every published project. Category, Audience, and Looking for are the three filter dimensions: selected values are OR within one dimension and AND across dimensions and the text query. Criteria and interactive page state use URL parameters; invalid values are dropped and out-of-range pages clamp to the last available page. Opening a card fetches versioned detail JSON and the matching standalone page HTML, then displays its shared detail markup in a modal. A failed detail fetch navigates to the ordinary project page.
+
+### Manual browser checklist
+
+The maintainer will perform browser interaction checks. For a local synthetic dataset, run `npm run stage -- tests/fixtures/representative` from `website/`, start `npm run dev`, and then restore the approved or empty snapshot after testing. Check:
+
+- `/projects/` and `/projects/page/2/` show 12 and 1 cards respectively, with ordinary links; opening a direct `/projects/<slug>/` URL works with JavaScript disabled.
+- Search from page 1 finds both records containing `samplebuilder`; Category, Audience, and Looking for selections combine as documented. Reload and browser back/forward restore query, selections, and page; Clear all resets them. Try an empty result and a malformed or out-of-range `page` parameter.
+- Open a card in the modal, inspect dated mentions and supporting attribution, then close with the button, Escape, and browser Back. Confirm Forward reopens it and focus returns to the card after closing. Modified click should open the standalone page. Simulate a failed detail JSON request and confirm navigation falls back to that page.
+- At narrow and wide viewport sizes, check readable content, usable filters, keyboard focus, and modal fit. Confirm source links use HTTP(S) and historical invitations show their original dates.
+
+Before launch, replace the synthetic/empty staged data with a reviewed, approved export, manually assess extraction quality on the three-thread pilot, and set a real correction/removal contact route.

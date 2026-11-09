@@ -1,0 +1,14 @@
+---
+import '../styles/global.css';
+const { title, description = 'Explore projects and products shared in Hacker News “What are you working on?” discussions.' } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="description" content={description} /><title>{title} · wrkgn</title></head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header"><div class="site-header__inner container"><a class="wordmark" href="/projects/" aria-label="wrkgn, browse projects">wrkgn<span class="wordmark__dot">.</span></a><nav aria-label="Primary"><a href="/projects/">Explore projects <span aria-hidden="true">↗</span></a></nav></div></header>
+    <main id="main"><slot /></main>
+    <footer class="site-footer"><div class="container footer-grid"><div><div class="wordmark footer-wordmark">wrkgn<span class="wordmark__dot">.</span></div><p>Ideas in progress, shared in the open.</p></div><p class="footer-notice">An independent directory of projects shared on Hacker News. Project materials belong to their respective rights holders. Summaries and categories are generated or edited for discovery and may contain errors. Inclusion does not imply endorsement or a current invitation to collaborate.</p></div></footer>
+  </body>
+</html>
