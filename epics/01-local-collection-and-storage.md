@@ -1,6 +1,6 @@
 # Epic 01: Local HN collection and durable storage
 
-Status: Planned
+Status: Implemented and validated with offline fixtures. Live smoke test deferred until a monthly discussion ID is supplied.
 
 ## Outcome
 
@@ -27,6 +27,8 @@ Given an HN monthly discussion item ID, the maintainer can run a local Rust CLI 
 ## Validation
 
 Use an injectable API client or fixture transport to test nested traversal, repeat runs, edits, deletion signals, and transient failures without network access. Perform a deliberate live smoke test on a supplied discussion ID once available; do not invent a monthly thread ID.
+
+Implemented validation: offline fixtures cover nested ordering and attribution, repeat refreshes and edited fingerprints, explicit deleted/dead records, null and failed fetches, transient retries, invalid parent/cycle detection, interrupted and partial-run recovery, and absence/reappearance in a confirmed complete tree. A version-one database upgrade and CLI exit statuses are also tested. No live HN collection has been run because no discussion ID was supplied.
 
 ## Boundaries and handoff
 
