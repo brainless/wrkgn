@@ -10,7 +10,7 @@ The maintainer can collect and process a supplied thread with one command, inspe
 
 ## Scope
 
-1. Add Rig as a pinned upstream Git dependency, using the local clone for reference. Configure provider/model credentials locally. Define a preset system prompt and typed extraction schema, with version identifiers.
+1. Add Rig as a pinned upstream Git dependency, using the local clone for reference. Configure provider/model credentials locally through shell variables or a Git-ignored `.env` file loaded at CLI startup. OpenAI remains the default provider with an explicit completion model; Neuralwatt uses the OpenAI-compatible chat route and defaults to `glm-5.3-flash`. Include provider, model, and endpoint in processing identity. Define a preset system prompt and typed extraction schema, with version identifiers.
 2. Assemble one top-level comment and its reply subtree per extraction input, retaining IDs, authors, dates, and relationships. Define a bounded strategy for oversized trees that retains project/ancestor context and accounts for every source item. Do not silently truncate.
 3. Extract zero or more mentions, names when present, explicit URLs, factual descriptions, problems/audiences, proposed category/audience labels, explicit requests with evidence, and supporting contributions. Attribute reply-originated projects and contributions to their actual source items.
 4. Validate structured output in Rust before committing it. Reject invented/out-of-input source IDs and unsupported request evidence. Keep facts distinct from classifications; missing values remain unknown. Treat comments as data rather than executable instructions.

@@ -10,27 +10,82 @@ pub trait Model {
     fn extract(&self, prompt: &str) -> Result<Extraction, String>;
 }
 pub struct RigModel {
-    name: String,
+    provider: Provider,
+    model: String,
+    identity: String,
+    api_key: String,
+    base_url: String,
+}
+#[derive(Clone, Copy, Debug, PartialEq, Eq)]
+enum Provider {
+    OpenAi,
+    Neuralwatt,
 }
 impl RigModel {
     pub fn from_env() -> Result<Self, String> {
-        let name =
-            std::env::var("WRKGN_MODEL").map_err(|_| "WRKGN_MODEL is required".to_string())?;
-        if std::env::var_os("OPENAI_API_KEY").is_none() {
-            return Err("OPENAI_API_KEY is required".into());
+        Self::from_lookup(|key| std::env::var(key).ok())
+    }
+
+    fn from_lookup(mut get: impl FnMut(&str) -> Option<String>) -> Result<Self, String> {
+        let provider = match get("WRKGN_PROVIDER").as_deref().unwrap_or("openai") {
+            "openai" => Provider::OpenAi,
+            "neuralwatt" => Provider::Neuralwatt,
+            _ => return Err("WRKGN_PROVIDER must be openai or neuralwatt".into()),
+        };
+        let (provider_name, key_name, default_model, default_url) = match provider {
+            Provider::OpenAi => (
+                "openai",
+                "OPENAI_API_KEY",
+                None,
+                "https://api.openai.com/v1",
+            ),
+            Provider::Neuralwatt => (
+                "neuralwatt",
+                "NEURALWATT_API_KEY",
+                Some("glm-5.3-flash"),
+                "https://api.neuralwatt.com/v1",
+            ),
+        };
+        let model = get("WRKGN_MODEL")
+            .or_else(|| default_model.map(str::to_owned))
+            .filter(|value| !value.trim().is_empty())
+            .ok_or("WRKGN_MODEL is required")?;
+        let api_key = get(key_name)
+            .filter(|value| !value.trim().is_empty())
+            .ok_or_else(|| format!("{key_name} is required"))?;
+        let base_url = match provider {
+            Provider::OpenAi => get("OPENAI_BASE_URL"),
+            Provider::Neuralwatt => get("NEURALWATT_BASE_URL"),
         }
-        Ok(Self { name })
+        .filter(|value| !value.trim().is_empty())
+        .unwrap_or_else(|| default_url.to_owned());
+        // Include the endpoint in the cache identity without persisting a URL
+        // that might itself contain a private token.
+        let endpoint_hash = format!("{:x}", Sha256::digest(base_url.as_bytes()));
+        let identity = format!("{provider_name}/{model}@{}", &endpoint_hash[..16]);
+        Ok(Self {
+            provider,
+            model,
+            identity,
+            api_key,
+            base_url,
+        })
     }
 }
 impl Model for RigModel {
     fn name(&self) -> &str {
-        &self.name
+        &self.identity
     }
     fn extract(&self, prompt: &str) -> Result<Extraction, String> {
         use rig_agent::extractor::ExtractorBuilder;
-        use rig_core::providers::openai::OpenAI;
-        let client = OpenAI::from_env().map_err(|e| e.to_string())?;
-        let model = client.completion(self.name.as_str());
+        use rig_core::providers::openai::OpenAIConfig;
+        let client = OpenAIConfig::new(self.api_key.clone())
+            .with_base_url(self.base_url.clone())
+            .client();
+        let model: rig_core::DynModel<rig_core::operation::Completion> = match self.provider {
+            Provider::OpenAi => client.completion(self.model.as_str()).into(),
+            Provider::Neuralwatt => client.chat(self.model.as_str()).into(),
+        };
         let extractor = ExtractorBuilder::<Extraction>::new(model)
             .append_preamble(extraction::SYSTEM_PROMPT)
             .retries(1)
@@ -324,4 +379,62 @@ fn unix_time() -> i64 {
         .duration_since(UNIX_EPOCH)
         .unwrap_or_default()
         .as_secs() as i64
+}
+
+#[cfg(test)]
+mod rig_configuration_tests {
+    use super::{Model, Provider, RigModel};
+    use std::collections::HashMap;
+
+    fn configured(values: &[(&str, &str)]) -> Result<RigModel, String> {
+        let values: HashMap<_, _> = values.iter().copied().collect();
+        RigModel::from_lookup(|key| values.get(key).map(|value| (*value).to_owned()))
+    }
+
+    #[test]
+    fn openai_remains_default_and_requires_explicit_model() {
+        assert_eq!(
+            configured(&[("OPENAI_API_KEY", "test")]).err().as_deref(),
+            Some("WRKGN_MODEL is required")
+        );
+        let model = configured(&[("OPENAI_API_KEY", "test"), ("WRKGN_MODEL", "gpt-test")]).unwrap();
+        assert_eq!(model.provider, Provider::OpenAi);
+        assert_eq!(model.model, "gpt-test");
+        assert!(model.name().starts_with("openai/gpt-test@"));
+    }
+
+    #[test]
+    fn neuralwatt_defaults_and_provider_identity() {
+        let model = configured(&[
+            ("WRKGN_PROVIDER", "neuralwatt"),
+            ("NEURALWATT_API_KEY", "test"),
+        ])
+        .unwrap();
+        assert_eq!(model.provider, Provider::Neuralwatt);
+        assert_eq!(model.model, "glm-5.3-flash");
+        assert_eq!(model.base_url, "https://api.neuralwatt.com/v1");
+        assert!(model.name().starts_with("neuralwatt/glm-5.3-flash@"));
+        let other_endpoint = configured(&[
+            ("WRKGN_PROVIDER", "neuralwatt"),
+            ("NEURALWATT_API_KEY", "test"),
+            ("NEURALWATT_BASE_URL", "https://example.invalid/v1"),
+        ])
+        .unwrap();
+        assert_ne!(model.name(), other_endpoint.name());
+        assert!(!other_endpoint.name().contains("example.invalid"));
+    }
+
+    #[test]
+    fn provider_specific_credentials_and_invalid_provider() {
+        assert_eq!(
+            configured(&[("WRKGN_PROVIDER", "neuralwatt"), ("OPENAI_API_KEY", "test")])
+                .err()
+                .as_deref(),
+            Some("NEURALWATT_API_KEY is required")
+        );
+        assert_eq!(
+            configured(&[("WRKGN_PROVIDER", "other")]).err().as_deref(),
+            Some("WRKGN_PROVIDER must be openai or neuralwatt")
+        );
+    }
 }

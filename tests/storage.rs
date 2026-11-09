@@ -22,7 +22,7 @@ fn migration_persists_nested_source_and_order() {
     let directory = tempdir().unwrap();
     let path = directory.path().join("nested/source.sqlite");
     let mut store = Store::open(&path).unwrap();
-    assert_eq!(store.schema_version().unwrap(), 3);
+    assert_eq!(store.schema_version().unwrap(), 4);
     let run = store.begin_run(100, 10).unwrap();
     store.upsert_item(run, 11, &item(100, None, 0)).unwrap();
     store
@@ -81,9 +81,79 @@ fn version_one_database_upgrades_without_losing_source() {
     drop(connection);
 
     let store = Store::open(&path).unwrap();
-    assert_eq!(store.schema_version().unwrap(), 3);
+    assert_eq!(store.schema_version().unwrap(), 4);
     assert_eq!(store.get_run(1).unwrap().unwrap().status, "running");
     assert!(!store.get_run(1).unwrap().unwrap().interrupted);
+}
+
+#[test]
+fn version_three_upgrade_repairs_missing_failure_table_and_preserves_history() {
+    for missing_table in [true, false] {
+        let directory = tempdir().unwrap();
+        let path = directory.path().join("v3.sqlite");
+        let mut store = Store::open(&path).unwrap();
+        let run = store.begin_run(100, 10).unwrap();
+        store.upsert_item(run, 11, &item(100, None, 0)).unwrap();
+        store.finish_run(run, 12).unwrap();
+        let source_before = store.get_item(100).unwrap().unwrap();
+        drop(store);
+
+        let connection = rusqlite::Connection::open(&path).unwrap();
+        connection.execute("INSERT INTO processing_runs (id, thread_id, started_at, status, prompt_version, schema_version, model) VALUES (1, 100, 10, 'running', 'p1', 's1', 'fixture')", []).unwrap();
+        connection.execute("INSERT INTO projects (id, identity_key, slug, created_at) VALUES (1, 'fixture', 'stable-slug', 10)", []).unwrap();
+        connection.execute("INSERT INTO review_corrections (mention_key, field, value) VALUES ('fixture', 'description', 'Reviewed description')", []).unwrap();
+        if missing_table {
+            connection
+                .execute_batch("DROP TABLE processing_failures")
+                .unwrap();
+        } else {
+            connection
+                .execute(
+                    "INSERT INTO processing_failures VALUES (1, 100, 1, 0, 'previous failure')",
+                    [],
+                )
+                .unwrap();
+        }
+        connection.pragma_update(None, "user_version", 3).unwrap();
+        drop(connection);
+
+        let store = Store::open(&path).unwrap();
+        assert_eq!(store.schema_version().unwrap(), 4);
+        assert_eq!(store.get_item(100).unwrap().unwrap(), source_before);
+        assert_eq!(store.get_run(run).unwrap().unwrap().status, "complete");
+        drop(store);
+        let connection = rusqlite::Connection::open(&path).unwrap();
+        let failures: i64 = connection
+            .query_row("SELECT count(*) FROM processing_failures", [], |r| r.get(0))
+            .unwrap();
+        assert_eq!(failures, if missing_table { 0 } else { 1 });
+        connection
+            .execute(
+                "INSERT INTO processing_failures VALUES (1, 101, 1, 0, 'new failure')",
+                [],
+            )
+            .unwrap();
+        let slug: String = connection
+            .query_row("SELECT slug FROM projects WHERE id=1", [], |r| r.get(0))
+            .unwrap();
+        assert_eq!(slug, "stable-slug");
+        let correction: String = connection
+            .query_row(
+                "SELECT value FROM review_corrections WHERE mention_key='fixture'",
+                [],
+                |r| r.get(0),
+            )
+            .unwrap();
+        assert_eq!(correction, "Reviewed description");
+        drop(connection);
+        // Reopening is idempotent and retains newly recorded failures.
+        drop(Store::open(&path).unwrap());
+        let connection = rusqlite::Connection::open(&path).unwrap();
+        let count: i64 = connection
+            .query_row("SELECT count(*) FROM processing_failures", [], |r| r.get(0))
+            .unwrap();
+        assert_eq!(count, failures + 1);
+    }
 }
 
 #[test]

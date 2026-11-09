@@ -75,14 +75,14 @@ Historical invitations retain their dates and must not be presented as verified 
 
 ## Architecture and local workflow
 
-All collection, extraction, review, and database work runs on the maintainer's computer. Rust tooling owns the data pipeline; Astro builds the public website locally from a public export. Cloudflare hosts the generated static assets. The initial architecture has no hosted database, request-time rendering, or processing service.
+All collection, extraction, review, and database work runs on the maintainer's computer. Rust tooling owns the data pipeline. The Astro website lives in `website/` and builds from a deliberate public export included in the repository. Local development uses `npm run dev`; `npm run build` produces static assets locally or in Cloudflare's repository build. Cloudflare builds and hosts the website without custom deployment tooling. The initial architecture has no hosted database, request-time rendering, or processing service.
 
 The intended workflow is:
 
 1. Update the Rig extraction prompt, schema, or processing code when needed.
 2. Run one Rust CLI command with an HN thread item ID to collect, process, and export that thread's data.
 3. Run Astro in development mode and manually inspect project details, source attribution, and filtering.
-4. Reprocess explicitly after extraction changes, repeat inspection, and build the static site for publication.
+4. Reprocess explicitly after extraction changes, repeat inspection, and explicitly approve mentions for publication. Include the selected approved public snapshot in the repository and verify `npm run build` from `website/`. Cloudflare builds the committed website and public data from the repository.
 
 Proposed command interface: `wrkgn process --thread <hn-item-id>`, with `--reprocess` to deliberately rerun extraction. Exact executable naming can follow implementation conventions. Refreshing a thread also refreshes its replies. Incremental runs skip unchanged successful processing; interrupted runs can resume. Dev mode and builds consume exports and never invoke HN or an LLM implicitly.
 

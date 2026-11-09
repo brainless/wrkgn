@@ -2,14 +2,15 @@
 use crate::collector::{CollectionConfig, Collector, HnApi};
 use crate::processing::{self, RigModel};
 use crate::publication;
+use crate::review_grid;
 use crate::store::Store;
 use std::io::{self, Write};
 use std::path::PathBuf;
 const USAGE:&str="Usage:
   wrkgn collect --thread <id> [--db <path>]
   wrkgn process --thread <id> [--reprocess] [--db <path>] [--export <directory>]
-  wrkgn review pending [--db <path>]
-  wrkgn review approve <mention-id> [--db <path>]
+  wrkgn review pending [--json] [--db <path>]
+  wrkgn review approve <mention-id|first-last>... [--db <path>]
   wrkgn review correct <mention-key> <name|description|problem|audience|builder_username> <value> [--db <path>]
   wrkgn review suppress-source <source-id> <reason> [--db <path>]
   wrkgn review suppress-project <project-id> [--db <path>]
@@ -18,7 +19,11 @@ const USAGE:&str="Usage:
   wrkgn --help
 
 WRKGN_DB_PATH defaults to local-data/wrkgn.sqlite. WRKGN_EXPORT_PATH defaults to local-data/public-export.
-process uses WRKGN_MODEL and OPENAI_API_KEY. Review and export make no network calls.";
+The CLI loads .env from the current directory; shell variables take precedence.
+process uses WRKGN_PROVIDER=openai (default) with WRKGN_MODEL and OPENAI_API_KEY,
+or WRKGN_PROVIDER=neuralwatt with NEURALWATT_API_KEY and default model glm-5.3-flash.
+NEURALWATT_BASE_URL optionally overrides https://api.neuralwatt.com/v1.
+Review and export make no network calls.";
 fn path_arg(args: &[String], flag: &str) -> Result<Option<PathBuf>, String> {
     let mut value = None;
     let mut i = 0;
@@ -159,12 +164,27 @@ fn run<C: HnApi>(args: &[String], api: C, out: &mut impl Write) -> Result<(), St
             let p = positional(args);
             match p.as_slice() {
                 ["review", "pending"] => {
+                    let width = std::env::var("COLUMNS")
+                        .ok()
+                        .and_then(|c| c.parse().ok())
+                        .unwrap_or(100);
+                    let mentions = publication::pending_mentions(&mut store)?;
+                    write!(out, "{}", review_grid::render(&mentions, width))
+                        .map_err(|e| e.to_string())?;
+                    return Ok(());
+                }
+                ["review", "pending", "--json"] => {
                     for value in publication::pending(&mut store)? {
                         writeln!(out, "{value}").map_err(|e| e.to_string())?;
                     }
+                    return Ok(());
                 }
-                ["review", "approve", id] => {
-                    publication::approve(&mut store, parse_id(id)?)?;
+                ["review", "approve", ranges @ ..] => {
+                    let n = publication::approve_ranges(
+                        &mut store,
+                        &review_grid::parse_ranges(ranges)?,
+                    )?;
+                    writeln!(out, "Approved {n} mention(s).").map_err(|e| e.to_string())?;
                 }
                 ["review", "correct", key, field, value] => {
                     publication::correct(&mut store, key, field, Some(value))?;
@@ -174,6 +194,9 @@ fn run<C: HnApi>(args: &[String], api: C, out: &mut impl Write) -> Result<(), St
                 }
                 ["review", "suppress-project", id] => {
                     publication::suppress_project(&mut store, parse_id(id)?)?;
+                }
+                ["review", "match", from, to] => {
+                    publication::match_projects(&mut store, parse_id(from)?, parse_id(to)?)?;
                 }
                 _ => return Err(USAGE.into()),
             }

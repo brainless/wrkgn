@@ -45,20 +45,24 @@ Only a complete refresh can mark a previously stored item as absent from the cur
 
 ## HN collection library
 
+Schema version 4 repairs early version-three databases that lack `processing_failures`. Opening the database applies the upgrade automatically and preserves existing records. After a `no such table: processing_failures` error, rerun the original command with the updated CLI; no database reset is needed. That error can mask an extraction failure, which a subsequent run can now record and report.
+
 `Collector` accepts a supplied thread item ID and an `HnApi` transport. The production transport reads the public HN item endpoint with a 15-second request timeout; tests inject offline fixture responses. The collector fetches the root and each listed descendant, preserving the `kids` order as sibling positions and validating child parent IDs. At most eight item fetches run concurrently by default. Transient network errors, HTTP 429, and HTTP 5xx responses receive up to three attempts with bounded delay.
 
 A JSON `null`, malformed item, failed request, duplicate child reference, or parent mismatch makes the run incomplete and identifies the affected item in `fetch_failures`. An explicit `deleted` or `dead` field is stored as source state. A failed or null fetch never changes that state. No live collection runs during builds or tests; a deliberate live smoke test awaits a supplied monthly discussion ID.
 
 ## Processing and review
 
-Set `WRKGN_MODEL` to an OpenAI completion model name and `OPENAI_API_KEY` in the local environment. Keep credentials out of Git and logs. Rig is pinned to upstream commit `7dfd8a4229a9d89af159489687cb14b404b2871d`. Model calls occur only during an explicit `process` command. Tests use a deterministic `Model` fixture and never need credentials.
+The CLI loads `.env` from its current working directory before choosing database and export paths. Copy [`.env.example`](../.env.example) to `.env` and fill in credentials, or set shell variables; shell values take precedence. A missing `.env` is fine, while malformed content stops the command. Keep credentials out of Git and logs.
+
+`WRKGN_PROVIDER` defaults to `openai`. For OpenAI, set `OPENAI_API_KEY` and `WRKGN_MODEL` to an OpenAI completion model name. For Neuralwatt, set `WRKGN_PROVIDER=neuralwatt` and `NEURALWATT_API_KEY`; `WRKGN_MODEL` defaults to `glm-5.3-flash`, and `NEURALWATT_BASE_URL` defaults to `https://api.neuralwatt.com/v1`. Neuralwatt uses Rig's OpenAI-compatible chat route. Provider, model, and endpoint identify processed groups, so switching any of them triggers extraction again. Rig is pinned to upstream commit `7dfd8a4229a9d89af159489687cb14b404b2871d`. Model calls occur only during an explicit `process` command. Tests use a deterministic `Model` fixture and never need credentials.
 
 ```sh
 cargo run -- collect --thread <hn-item-id>
 cargo run -- process --thread <hn-item-id>
 cargo run -- process --thread <hn-item-id> --reprocess
 cargo run -- review pending
-cargo run -- review approve <mention-id>
+cargo run -- review approve 12-30 34
 cargo run -- review correct <mention-key> description "Reviewed summary"
 cargo run -- review suppress-source <hn-item-id> "removal request"
 cargo run -- review suppress-project <project-id>
@@ -70,7 +74,7 @@ cargo run -- export
 
 Each model invocation receives one top-level comment subtree, or bounded chunks with root and ancestor context. All source IDs must be accounted for. Typed results are checked against the supplied source IDs, URL presence, builder attribution, and exact evidence for explicit requests. Categories and audience labels are classifications; only evidenced requests become Looking for values. A repeat mention with an exact URL and the same supported builder can reuse a project. Other cross-conversation matches remain separate until `review match` explicitly merges their project identities. Project slugs are stored in SQLite.
 
-New mentions are pending review. `review pending` shows their IDs, keys, descriptions, source IDs, and sharing dates. `approve` publishes one pending mention; corrections persist by mention key across reruns. Successful reprocessing returns changed material to pending review. Source and project suppression survive reruns. There is no command to undo suppression yet; inspect and edit local SQLite deliberately if a suppression was erroneous.
+New mentions are pending review. `review pending` prints one readable card per mention: extracted fields with corrections applied, labels, Looking for, links, supporting replies, and an excerpt of the source comment. It ends with the pending IDs as compact ranges. Set `COLUMNS` to change the card width; `--json` prints the previous one-object-per-line output. `approve` takes IDs and inclusive ranges (`12-30 34`) and approves them in one transaction. Non-pending IDs inside a range are skipped. A range with no pending mentions fails without approving anything. Review the cards before approving a range; corrections persist by mention key across reruns. Successful reprocessing returns changed material to pending review. Source and project suppression survive reruns. There is no command to undo suppression yet; inspect and edit local SQLite deliberately if a suppression was erroneous.
 
 ## Public snapshot contract
 

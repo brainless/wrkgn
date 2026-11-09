@@ -36,13 +36,135 @@ pub fn pending(store: &mut Store) -> Result<Vec<Value>, String> {
     let mut st=conn.prepare("SELECT m.id,m.mention_key,m.name,m.description,m.source_item_id,s.created_at FROM mentions m JOIN source_items s ON s.item_id=m.source_item_id WHERE m.review_state='pending' ORDER BY m.id").map_err(|e|e.to_string())?;
     st.query_map([],|r|Ok(json!({"id":r.get::<_,i64>(0)?,"key":r.get::<_,String>(1)?,"name":r.get::<_,Option<String>>(2)?,"description":r.get::<_,String>(3)?,"source_item_id":r.get::<_,i64>(4)?,"shared_at":r.get::<_,Option<i64>>(5)?}))).map_err(|e|e.to_string())?.collect::<rusqlite::Result<Vec<_>>>().map_err(|e|e.to_string())
 }
-pub fn approve(store: &mut Store, id: i64) -> Result<(), String> {
-    let n=store.connection().execute("UPDATE mentions SET review_state='approved',reviewed_at=strftime('%s','now') WHERE id=?1 AND review_state='pending'",[id]).map_err(|e|e.to_string())?;
-    if n == 0 {
-        Err("pending mention not found".into())
-    } else {
-        Ok(())
+/// A pending mention with corrections applied, for reading in the review grid.
+pub struct PendingMention {
+    pub id: i64,
+    pub key: String,
+    pub project_id: i64,
+    pub thread_id: i64,
+    pub source_item_id: i64,
+    pub author: Option<String>,
+    pub shared_at: Option<i64>,
+    pub name: Option<String>,
+    pub description: String,
+    pub problem: Option<String>,
+    pub audience: Option<String>,
+    pub builder_username: Option<String>,
+    pub links: Vec<String>,
+    pub categories: Vec<String>,
+    pub audience_labels: Vec<String>,
+    pub looking_for: Vec<String>,
+    pub supporting: Vec<(Option<String>, String)>,
+    pub source_text: Option<String>,
+}
+pub fn pending_mentions(store: &mut Store) -> Result<Vec<PendingMention>, String> {
+    let conn = store.connection();
+    let strings = |sql: &str, id: i64| -> Result<Vec<String>, String> {
+        let mut st = conn.prepare(sql).map_err(|e| e.to_string())?;
+        st.query_map([id], |r| r.get(0))
+            .map_err(|e| e.to_string())?
+            .collect::<rusqlite::Result<_>>()
+            .map_err(|e| e.to_string())
+    };
+    let mut st=conn.prepare("SELECT m.id,m.mention_key,m.project_id,s.thread_id,m.source_item_id,s.author,s.created_at,m.name,m.description,m.problem,m.audience,m.builder_username,s.body FROM mentions m JOIN source_items s ON s.item_id=m.source_item_id WHERE m.review_state='pending' ORDER BY m.id").map_err(|e|e.to_string())?;
+    let rows = st
+        .query_map([], |r| {
+            Ok(PendingMention {
+                id: r.get(0)?,
+                key: r.get(1)?,
+                project_id: r.get(2)?,
+                thread_id: r.get(3)?,
+                source_item_id: r.get(4)?,
+                author: r.get(5)?,
+                shared_at: r.get(6)?,
+                name: r.get(7)?,
+                description: r.get(8)?,
+                problem: r.get(9)?,
+                audience: r.get(10)?,
+                builder_username: r.get(11)?,
+                source_text: r.get(12)?,
+                links: Vec::new(),
+                categories: Vec::new(),
+                audience_labels: Vec::new(),
+                looking_for: Vec::new(),
+                supporting: Vec::new(),
+            })
+        })
+        .map_err(|e| e.to_string())?
+        .collect::<rusqlite::Result<Vec<_>>>()
+        .map_err(|e| e.to_string())?;
+    let mut out = Vec::with_capacity(rows.len());
+    for mut m in rows {
+        let mut corrections = conn
+            .prepare("SELECT field,value FROM review_corrections WHERE mention_key=?1")
+            .map_err(|e| e.to_string())?;
+        let corrections = corrections
+            .query_map([&m.key], |r| {
+                Ok((r.get::<_, String>(0)?, r.get::<_, Option<String>>(1)?))
+            })
+            .map_err(|e| e.to_string())?
+            .collect::<rusqlite::Result<Vec<_>>>()
+            .map_err(|e| e.to_string())?;
+        for (field, value) in corrections {
+            match field.as_str() {
+                "name" => m.name = value,
+                "description" => m.description = value.unwrap_or_default(),
+                "problem" => m.problem = value,
+                "audience" => m.audience = value,
+                "builder_username" => m.builder_username = value,
+                _ => {}
+            }
+        }
+        m.links = strings(
+            "SELECT url FROM mention_links WHERE mention_id=?1 ORDER BY url",
+            m.id,
+        )?;
+        m.categories = strings(
+            "SELECT value FROM mention_labels WHERE mention_id=?1 AND kind='category' ORDER BY value",
+            m.id,
+        )?;
+        m.audience_labels = strings(
+            "SELECT value FROM mention_labels WHERE mention_id=?1 AND kind='audience' ORDER BY value",
+            m.id,
+        )?;
+        m.looking_for = strings(
+            "SELECT DISTINCT kind FROM mention_requests WHERE mention_id=?1 ORDER BY kind",
+            m.id,
+        )?;
+        let mut st=conn.prepare("SELECT s.author,c.summary FROM supporting_contributions c JOIN source_items s ON s.item_id=c.source_item_id WHERE c.mention_id=?1 ORDER BY s.created_at,c.source_item_id").map_err(|e|e.to_string())?;
+        m.supporting = st
+            .query_map([m.id], |r| Ok((r.get(0)?, r.get(1)?)))
+            .map_err(|e| e.to_string())?
+            .collect::<rusqlite::Result<_>>()
+            .map_err(|e| e.to_string())?;
+        out.push(m);
     }
+    Ok(out)
+}
+pub fn approve(store: &mut Store, id: i64) -> Result<(), String> {
+    approve_ranges(store, &[(id, id)]).map(|_| ())
+}
+/// Approves pending mentions in each inclusive ID range, in one transaction. IDs inside a
+/// range that are not pending are skipped, but a range without any pending mention aborts.
+pub fn approve_ranges(store: &mut Store, ranges: &[(i64, i64)]) -> Result<usize, String> {
+    let tx = store
+        .connection()
+        .transaction()
+        .map_err(|e| e.to_string())?;
+    let mut total = 0;
+    for &(first, last) in ranges {
+        let n=tx.execute("UPDATE mentions SET review_state='approved',reviewed_at=strftime('%s','now') WHERE review_state='pending' AND id BETWEEN ?1 AND ?2",[first,last]).map_err(|e|e.to_string())?;
+        if n == 0 {
+            return Err(if first == last {
+                format!("pending mention {first} not found")
+            } else {
+                format!("no pending mentions in {first}-{last}")
+            });
+        }
+        total += n;
+    }
+    tx.commit().map_err(|e| e.to_string())?;
+    Ok(total)
 }
 pub fn suppress_source(store: &mut Store, id: i64, reason: &str) -> Result<(), String> {
     store.connection().execute("INSERT INTO source_suppression VALUES(?1,?2) ON CONFLICT(source_item_id) DO UPDATE SET reason=excluded.reason",params![id,reason]).map_err(|e|e.to_string())?;

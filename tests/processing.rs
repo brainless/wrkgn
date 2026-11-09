@@ -338,3 +338,53 @@ fn manual_project_match_survives_reprocess() {
     publication::export(&mut store, &dir.path().join("public")).unwrap();
     assert_eq!(discovery(&dir).len(), 3);
 }
+fn review_cli(dir: &tempfile::TempDir, args: &[&str]) -> (u8, String, String) {
+    let mut args: Vec<String> = args.iter().map(|s| s.to_string()).collect();
+    for (flag, path) in [("--db", "db.sqlite"), ("--export", "public")] {
+        args.push(flag.into());
+        args.push(dir.path().join(path).to_str().unwrap().into());
+    }
+    let (mut out, mut err) = (Vec::new(), Vec::new());
+    let code = wrkgn::cli::run_with_api(&args, Api, &mut out, &mut err).unwrap();
+    (
+        code,
+        String::from_utf8(out).unwrap(),
+        String::from_utf8(err).unwrap(),
+    )
+}
+#[test]
+fn review_grid_lists_readable_cards_and_approves_ranges() {
+    let (dir, mut store) = setup();
+    process_thread(&mut store, 100, &model(fixtures()), false).unwrap();
+    let ids: Vec<i64> = publication::pending(&mut store)
+        .unwrap()
+        .iter()
+        .map(|v| v["id"].as_i64().unwrap())
+        .collect();
+    drop(store);
+    let (code, out, _) = review_cli(&dir, &["review", "pending"]);
+    assert_eq!(code, 0);
+    assert!(out.contains("Alpha organizes work"));
+    assert!(out.contains("(unnamed)"));
+    assert!(out.contains("Looking for  feedback"));
+    assert!(out.contains("@bob: Demo link"));
+    assert!(out.contains("Building Alpha https://alpha.test"));
+    assert!(!out.contains("\"description\""));
+    let range = format!("{}-{}", ids[0], ids[3]);
+    assert!(out.contains(&format!("Pending IDs: {range}")));
+    let (code, out, _) = review_cli(&dir, &["review", "pending", "--json"]);
+    assert_eq!((code, out.lines().count()), (0, 4));
+
+    let (code, _, err) = review_cli(&dir, &["review", "approve", "999-1000"]);
+    assert_eq!(code, 1);
+    assert!(err.contains("no pending mentions in 999-1000"));
+    let (code, out, _) = review_cli(&dir, &["review", "approve", &ids[0].to_string()]);
+    assert_eq!(code, 0);
+    assert!(out.contains("Approved 1 mention(s)."));
+    let (code, out, _) = review_cli(&dir, &["review", "approve", &range]);
+    assert_eq!(code, 0);
+    assert!(out.contains("Approved 3 mention(s)."));
+    assert_eq!(discovery(&dir).len(), 4);
+    let (_, out, _) = review_cli(&dir, &["review", "pending"]);
+    assert_eq!(out, "No pending mentions.\n");
+}
