@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import DiscoveryControls from './DiscoveryControls.astro';
 const { title, directory = false, description = 'Explore projects and products shared in Hacker News “What are you working on?” discussions.' } = Astro.props;
 ---
 <!doctype html>
@@ -7,8 +8,21 @@ const { title, directory = false, description = 'Explore projects and products s
   <head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="description" content={description} /><title>{title} · wrkgn</title></head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
-    <header class="site-header"><div class="site-header__inner container"><a class="wordmark" href="/projects/" aria-label="wrkgn, browse projects">wrkgn<span class="wordmark__dot">.</span></a><nav aria-label="Primary"><a href="/projects/">Explore projects <span aria-hidden="true">↗</span></a>{directory && <button type="button" class="nav-filters" data-filters-toggle aria-controls="directory-filters" aria-expanded="false" hidden>Filters</button>}</nav></div></header>
+    <aside class="site-sidebar" aria-label="Project navigation"><a class="wordmark" href="/" aria-label="wrkgn, browse projects">wrkgn<span class="wordmark__dot">.</span></a><DiscoveryControls directory={directory} /></aside>
+    <header class="site-header"><div class="site-header__inner container"><a class="wordmark" href="/" aria-label="wrkgn, browse projects">wrkgn<span class="wordmark__dot">.</span></a><nav aria-label="Primary"><button type="button" class="nav-filters" data-filters-toggle aria-controls="directory-filters" aria-expanded="false" hidden={directory}>Filters</button></nav></div></header>
     <main id="main"><slot /></main>
     <footer class="site-footer"><div class="container footer-grid"><div><div class="wordmark footer-wordmark">wrkgn<span class="wordmark__dot">.</span></div><p>Ideas in progress, shared in the open.</p></div><p class="footer-notice">An independent directory of projects shared on Hacker News. Project materials belong to their respective rights holders. Summaries and categories are generated or edited for discovery and may contain errors. Inclusion does not imply endorsement or a current invitation to collaborate.</p></div></footer>
+    <noscript><style>@media(max-width:767px){.site-sidebar .discovery-controls:not([hidden]){display:block!important}}</style></noscript>
   </body>
 </html>
+<script>
+  const toggle = document.querySelector('[data-filters-toggle]');
+  const sidebar = document.querySelector('.site-sidebar');
+  toggle?.addEventListener('click', () => {
+    const open = !sidebar.hasAttribute('data-mobile-filters-open');
+    if (!open && sidebar.contains(document.activeElement)) toggle.focus();
+    sidebar.toggleAttribute('data-mobile-filters-open', open);
+    toggle.setAttribute('aria-expanded', String(open));
+    if (open) sidebar.querySelector('#project-search')?.focus();
+  });
+</script>

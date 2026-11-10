@@ -1,4 +1,4 @@
-import { FILTERS, matchingProjects, optionsFrom, pageCount, readState, stateUrl } from '../lib/discovery-state.mjs';
+import { matchingProjects, optionsFrom, pageCount, readState, stateUrl } from '../lib/discovery-state.mjs';
 import { lookingForLabel, projectTitle, sharedDate, categoryLabel } from '../lib/display.mjs';
 
 function element(tag, className, value) {
@@ -33,7 +33,6 @@ function card(project, index, categories) {
   heading.append(link);
   summary.append(heading, element('p', 'project-card__description', project.description));
   const meta = element('div', 'project-card__meta');
-  appendMeta(meta, 'For', project.audience);
   appendMeta(meta, 'Shared by', project.builder_usernames.map((name) => `@${name}`).join(', '));
   body.append(summary, meta);
   article.append(top, body);
@@ -52,9 +51,9 @@ export async function initDiscovery() {
   const version = root.dataset.version;
   const categories = JSON.parse(root.dataset.categories);
   const pageSize = Number(root.dataset.pageSize);
-  const controls = root.querySelector('[data-controls]');
+  const controls = document.querySelector('[data-controls]');
   const filtersToggle = document.querySelector('[data-filters-toggle]');
-  const search = root.querySelector('#project-search');
+  const search = controls.querySelector('#project-search');
   const results = root.querySelector('[data-results]');
   const pagination = root.querySelector('[data-pagination]');
   const status = root.querySelector('[data-result-count]');
@@ -78,31 +77,12 @@ export async function initDiscovery() {
   let activeModal = null;
   let modalRequest = 0;
 
-  for (const [name, values] of Object.entries(options)) {
-    const box = root.querySelector(`[data-filter="${name}"] .filter-options`);
-    if (!values.length) { box.append(element('p', 'no-options', 'No values yet')); continue; }
-    values.forEach((value, index) => {
-      const label = element('label', 'filter-choice');
-      const input = element('input');
-      input.type = 'checkbox'; input.value = value; input.dataset.filterInput = name;
-      input.id = `filter-${name}-${index}`;
-      label.append(input, document.createTextNode(name === 'looking' ? lookingForLabel(value) : name === 'category' ? categoryLabel(value, categories) : value));
-      box.append(label);
-    });
-  }
   controls.hidden = false;
-  root.dataset.discoveryReady = '';
   filtersToggle.hidden = false;
-  filtersToggle.addEventListener('click', () => {
-    const open = !root.hasAttribute('data-mobile-filters-open');
-    root.toggleAttribute('data-mobile-filters-open', open);
-    filtersToggle.setAttribute('aria-expanded', String(open));
-    if (open) search.focus();
-  });
 
   function syncControls() {
     if (search.value !== state.q) search.value = state.q;
-    for (const input of root.querySelectorAll('[data-filter-input]')) input.checked = state[input.dataset.filterInput].includes(input.value);
+    for (const input of controls.querySelectorAll('[data-filter-input]')) input.checked = state[input.dataset.filterInput].includes(input.value);
   }
 
   function render() {
@@ -153,10 +133,11 @@ export async function initDiscovery() {
     const input = event.target.closest('[data-filter-input]');
     if (!input) return;
     const name = input.dataset.filterInput;
-    const selected = [...root.querySelectorAll(`[data-filter-input="${name}"]:checked`)].map((item) => item.value).sort((a, b) => a.localeCompare(b));
+    const selected = [...controls.querySelectorAll(`[data-filter-input="${name}"]:checked`)].map((item) => item.value).sort((a, b) => a.localeCompare(b));
     update({ ...state, [name]: selected, page: 1 });
   });
-  root.querySelector('[data-clear]').addEventListener('click', () => update({ q: '', category: [], audience: [], looking: [], page: 1 }));
+  controls.querySelector('[data-clear]').addEventListener('click', () => update({ q: '', category: [], audience: [], looking: [], page: 1 }));
+  controls.addEventListener('submit', (event) => event.preventDefault());
 
   root.addEventListener('click', (event) => {
     const link = event.target.closest('[data-page-link]');

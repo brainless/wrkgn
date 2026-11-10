@@ -45,6 +45,6 @@ export function stateUrl(state) {
   for (const name of Object.keys(FILTERS)) for (const value of state[name]) params.append(name, value);
   const hasCriteria = params.size > 0;
   if (state.page > 1 && hasCriteria) params.set('page', String(state.page));
-  if (!hasCriteria) return state.page > 1 ? `/projects/page/${state.page}/` : '/projects/';
-  return `/projects/?${params}`;
+  if (!hasCriteria) return state.page > 1 ? `/projects/page/${state.page}/` : '/';
+  return `/?${params}`;
 }

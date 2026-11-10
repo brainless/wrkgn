@@ -25,8 +25,8 @@ test('state normalizes invalid values and preserves repeated selected values', (
   assert.deepEqual(state.looking, ['feedback']);
   assert.equal(state.q, 'field');
   assert.equal(state.page, 999);
-  assert.equal(pageCount(matchingProjects(projects, state), 12), 1);
-  assert.equal(stateUrl({ ...state, page: 1 }), '/projects/?q=field&category=education&category=productivity&looking=feedback');
+  assert.equal(pageCount(matchingProjects(projects, state), 30), 1);
+  assert.equal(stateUrl({ ...state, page: 1 }), '/?q=field&category=education&category=productivity&looking=feedback');
   assert.equal(readState('https://example.test/projects/page/2/?page=bad&audience=unknown', options).page, 1);
 });
 
@@ -38,6 +38,9 @@ test('searches the full dataset with OR within and AND across dimensions', () =>
   assert.equal(matchingProjects(projects, { ...base, category: ['productivity'], audience: ['Researchers'], looking: ['feedback'] }).length, 1);
   assert.equal(matchingProjects(projects, { ...base, looking: ['feedback'], q: 'not present' }).length, 0);
   assert.equal(stateUrl({ ...base, page: 2 }), '/projects/page/2/');
+  assert.equal(stateUrl(base), '/');
+  assert.equal(stateUrl({ ...base, q: 'notes', page: 2 }), '/?q=notes&page=2');
+  assert.equal(readState('https://example.test/?q=notes&page=2', options).page, 2);
 });
 
 test('rejects a pointer outside the selected snapshot', () => {

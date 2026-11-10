@@ -59,9 +59,9 @@ The initial directory offers a paginated project list ordered by the original sh
 
 Visitors should be able to:
 
-- Browse project cards explaining what a project does, whom it serves when known, and when it was shared, in a grid that adapts to the available results width. Keep the list heading compact and the first results near the top of the page.
+- Browse uniform-height project cards showing a concise description, original sharing date, supported builder, and discovery tags in a grid that adapts to the available results width. Keep longer descriptions to four visible lines on cards and show audience information on project details. Show 30 projects per page, keep the list heading compact, and place the first results near the top of the page.
 - Search descriptions, problems, audiences, project names, and supported builder usernames.
-- Narrow results with exactly three filter dimensions: Category, Audience, and Looking for. Options come from the published data. On wide screens, show search and the three filters vertically in a left sidebar. On narrow screens, place the same controls in a collapsible panel above the results, opened by a Filters button in the primary navigation. Show the controls only when browser discovery data loads; ordinary lists remain usable without JavaScript.
+- Narrow results with exactly three filter dimensions: Category, Audience, and Looking for. Options come from the published data. On wide screens, show search and the three filters vertically in a fixed, viewport-height left sidebar shared by listing and detail pages, with the logo inside it. On narrow screens, place the same controls in a collapsible panel above the results, opened by a Filters button in the primary navigation. Listing controls appear when browser discovery data loads; detail-page controls submit an ordinary form to the directory. Ordinary lists remain usable without JavaScript.
 - Open a card in a dynamic modal showing project details, mentions over time, and relevant supporting contributions.
 - Share or directly visit the same stable project slug URL to read a generated standalone project page.
 - Follow clearly attributed links to original discussions, demos, and project websites.
@@ -69,7 +69,7 @@ Visitors should be able to:
 
 Opening a modal updates the URL; closing it restores the list context. Browser back/forward navigation must work. Search, filters, and interactive pagination preserve their state in the URL. Direct project visits must work without JavaScript.
 
-Generate date-ordered list pages at `/projects/` and `/projects/page/2/`, and project pages at `/projects/<slug>/`. Slugs are persisted in SQLite and remain stable across reprocessing. Alphabetical lists and generated category landing pages are deferred until there is a demonstrated need. Do not generate every filter combination.
+Generate the date-ordered first list page at `/`, an equivalent `/projects/` alias, later pages at `/projects/page/2/` onward, and project pages at `/projects/<slug>/`. Slugs are persisted in SQLite and remain stable across reprocessing. Alphabetical lists and generated category landing pages are deferred until there is a demonstrated need. Do not generate every filter combination.
 
 Historical invitations retain their dates and must not be presented as verified current opportunities. Recently collected information must not be confused with recently shared information.
 
