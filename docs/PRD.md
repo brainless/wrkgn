@@ -69,7 +69,7 @@ Visitors should be able to:
 
 Opening a modal updates the URL; closing it restores the list context. Browser back/forward navigation must work. Search, filters, and interactive pagination preserve their state in the URL. Direct project visits must work without JavaScript.
 
-Generate date-ordered list pages at `/projects/` and `/projects/page/2/`, and project pages at `/projects/<slug>/`. Slugs are persisted in SQLite and remain stable across reprocessing. Alphabetical lists and generated category landing pages are deferred until there is a demonstrated need and a useful category vocabulary. Do not generate every filter combination.
+Generate date-ordered list pages at `/projects/` and `/projects/page/2/`, and project pages at `/projects/<slug>/`. Slugs are persisted in SQLite and remain stable across reprocessing. Alphabetical lists and generated category landing pages are deferred until there is a demonstrated need. Do not generate every filter combination.
 
 Historical invitations retain their dates and must not be presented as verified current opportunities. Recently collected information must not be confused with recently shared information.
 
@@ -84,7 +84,7 @@ The intended workflow is:
 3. Run Astro in development mode and manually inspect project details, source attribution, and filtering.
 4. Reprocess explicitly after extraction changes, repeat inspection, and explicitly approve mentions for publication. Include the selected approved public snapshot in the repository and verify `npm run build` from `website/`. Cloudflare builds the committed website and public data from the repository.
 
-Command interface: `wrkgn collect --thread <hn-item-id>` is the only explicit HN refresh and also refreshes the thread's replies. `wrkgn process --thread <hn-item-id>` never fetches from HN; it requires the latest collection of that thread to be complete, extracts from stored source, and exports approved data, with `--reprocess` to deliberately rerun extraction. Exact executable naming can follow implementation conventions. Incremental runs skip unchanged successful processing; interrupted runs can resume. Dev mode and builds consume exports and never invoke HN or an LLM implicitly.
+Command interface: `wrkgn collect --thread <hn-item-id>` is the only explicit HN refresh and also refreshes the thread's replies. `wrkgn process --thread <hn-item-id>` never fetches from HN; it requires the latest collection of that thread to be complete, extracts from stored source, and exports approved data, with `--reprocess` to deliberately rerun extraction. `wrkgn review` approves, corrects, suppresses, and matches mentions locally; `wrkgn export` writes the public snapshot, and `npm run stage` in `website/` selects it for the build. Incremental runs skip unchanged successful processing; interrupted runs can resume. Dev mode and builds consume exports and never invoke HN or an LLM implicitly.
 
 ### Data collection
 
@@ -98,7 +98,7 @@ Start with one Rig extraction agent definition invoked once per top-level commen
 
 Use a preset system prompt and typed structured output. Each response contains zero or more project mentions, extracted facts, classification labels, explicit requests with evidence, and relevant supporting contributions. Store each supporting contribution separately with its source comment item ID and its association to the relevant mention/project. A reply can introduce a project of its own, so preserve the actual source of each mention rather than always attributing it to the root comment.
 
-Rust code validates outputs before persistence, including source ID membership, required provenance, and evidence for explicit requests. Source comments are untrusted input, not instructions. The agent does not need tools or autonomous planning.
+Rust code validates outputs before persistence, including source ID membership, required provenance, and evidence for explicit requests. Source comments are untrusted input, not instructions. The agent does not need tools or autonomous planning. Conversation groups may be extracted in parallel with bounded concurrency; provider rate limits and transport errors are retried with backoff, and persistent provider failures stop the run early so a later run can resume.
 
 Track source content fingerprints, prompt/model/schema versions, run status, and failures. Reprocessing replaces the applicable successful output transactionally without duplicating records; failures retain the previous successful result. Reviewed corrections and suppression decisions survive reruns. Retained results affected by deleted sources still obey publication suppression rules.
 
@@ -106,7 +106,7 @@ Model projects, mentions, supporting contributions, labels, and processing histo
 
 ### Public export and static website
 
-Export only approved public fields from a consistent database snapshot. Raw source payloads, credentials, processing diagnostics, and private review history stay local. Approval is explicit publication state; validation alone does not imply approval. The pilot may use a simple local review command rather than an administrative UI.
+Export only approved public fields from a consistent database snapshot. Raw source payloads, credentials, processing diagnostics, and private review history stay local. Approval is explicit publication state; validation alone does not imply approval. The pilot uses a local review command rather than an administrative UI.
 
 Astro renders project pages and paginated date-ordered lists at build time, with ordinary links for crawling and navigation. Project pages and modals share their presentation and public data contract. JavaScript enhances the list with search, filters, and modals.
 
