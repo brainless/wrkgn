@@ -59,7 +59,7 @@ The initial directory offers a paginated project list ordered by the original sh
 
 Visitors should be able to:
 
-- Browse project cards explaining what a project does, whom it serves when known, and when it was shared.
+- Browse project cards explaining what a project does, whom it serves when known, and when it was shared, in a responsive one-, two-, or three-column grid.
 - Search descriptions, problems, audiences, project names, and supported builder usernames.
 - Narrow results with exactly three filter dimensions: Category, Audience, and Looking for. Options come from the published data; dropdowns with checkboxes are an initial UI choice, not a fixed requirement.
 - Open a card in a dynamic modal showing project details, mentions over time, and relevant supporting contributions.
