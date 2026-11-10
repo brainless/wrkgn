@@ -15,13 +15,10 @@ function appendMeta(container, label, value) {
   container.append(paragraph);
 }
 
-function card(project, index, categories) {
+function card(project, categories) {
   const article = element('article', 'project-card');
-  const top = element('div', 'project-card__top');
-  top.append(element('span', 'project-card__index', String(index).padStart(2, '0')));
   const time = element('time', '', sharedDate(project.latest_shared_at));
   time.dateTime = new Date(project.latest_shared_at * 1000).toISOString();
-  top.append(time);
   const body = element('div', 'project-card__body');
   const summary = element('div');
   const heading = element('h3');
@@ -34,8 +31,9 @@ function card(project, index, categories) {
   summary.append(heading, element('p', 'project-card__description', project.description));
   const meta = element('div', 'project-card__meta');
   appendMeta(meta, 'Shared by', project.builder_usernames.map((name) => `@${name}`).join(', '));
+  meta.append(time);
   body.append(summary, meta);
-  article.append(top, body);
+  article.append(body);
   if (project.categories.length || project.looking_for.length) {
     const tags = element('div', 'project-card__tags');
     for (const category of project.categories) tags.append(element('span', 'tag', categoryLabel(category, categories)));
@@ -104,7 +102,7 @@ export async function initDiscovery() {
       results.replaceChildren(empty);
     } else {
       const list = element('div', 'project-list');
-      visible.forEach((project, index) => list.append(card(project, start + index + 1, categories)));
+      visible.forEach((project) => list.append(card(project, categories)));
       results.replaceChildren(list);
     }
     pagination.replaceChildren();
