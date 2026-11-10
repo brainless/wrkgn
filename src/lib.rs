@@ -1,3 +1,5 @@
+pub mod category;
+pub mod category_migration;
 pub mod cli;
 pub mod collector;
 pub mod config;

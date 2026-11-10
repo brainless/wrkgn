@@ -1,0 +1,84 @@
+{
+  "schema_version": 2,
+  "version": "c5ead36b8c32eadd",
+  "discovery": "discovery.json",
+  "project_details": "projects/<slug>.json",
+  "project_count": 83,
+  "categories": [
+    {
+      "slug": "ai-automation",
+      "label": "AI & automation",
+      "description": "Products whose core purpose uses AI, machine learning, or automation; using AI to build a product is insufficient."
+    },
+    {
+      "slug": "developer-tools",
+      "label": "Developer tools",
+      "description": "Tools for writing, testing, releasing, or maintaining software."
+    },
+    {
+      "slug": "productivity",
+      "label": "Productivity",
+      "description": "Tools for organizing work, notes, tasks, and personal information."
+    },
+    {
+      "slug": "education",
+      "label": "Education",
+      "description": "Learning, teaching, study, and educational resources."
+    },
+    {
+      "slug": "games",
+      "label": "Games",
+      "description": "Playable games and tools centered on gaming."
+    },
+    {
+      "slug": "creative-media",
+      "label": "Creative tools & media",
+      "description": "Tools and works for writing, design, images, audio, video, or other media."
+    },
+    {
+      "slug": "data-analytics",
+      "label": "Data & analytics",
+      "description": "Databases, data processing, visualization, and analysis."
+    },
+    {
+      "slug": "business-finance",
+      "label": "Business & finance",
+      "description": "Commerce, business operations, finance, and professional services."
+    },
+    {
+      "slug": "community-civic",
+      "label": "Community & civic",
+      "description": "Communities, social coordination, public affairs, and civic participation."
+    },
+    {
+      "slug": "hardware-diy",
+      "label": "Hardware & DIY",
+      "description": "Physical devices, electronics, fabrication, repair, and DIY builds."
+    },
+    {
+      "slug": "infrastructure-hosting",
+      "label": "Infrastructure & hosting",
+      "description": "Hosting, networking, storage, operating systems, and service infrastructure."
+    },
+    {
+      "slug": "security-privacy",
+      "label": "Security & privacy",
+      "description": "Authentication, protection, encryption, and privacy-focused products."
+    },
+    {
+      "slug": "science-research",
+      "label": "Science & research",
+      "description": "Scientific inquiry, research methods, and technical experiments."
+    },
+    {
+      "slug": "health-fitness",
+      "label": "Health & fitness",
+      "description": "Health, wellness, exercise, and fitness."
+    },
+    {
+      "slug": "lifestyle-hobbies",
+      "label": "Lifestyle & hobbies",
+      "description": "Personal interests, food, home, travel, and other hobbies."
+    }
+  ]
+}

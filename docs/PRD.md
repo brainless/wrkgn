@@ -51,7 +51,7 @@ For each project mention, capture where available:
 
 Missing information should remain unknown. Do not invent names, audiences, URLs, project status, or invitations. Summaries must remain grounded in source material, and quotations must be distinguishable from summaries.
 
-Discovery categories and audience labels may be assigned during processing, but must be treated as classifications rather than statements made by an author. Favor understandable labels about problems, use cases, and audiences. Derive the vocabulary from the pilot data and normalize synonymous labels before publication. “Looking for” values require explicit, dated source evidence; they are not inferred classifications.
+Discovery categories and audience labels may be assigned during processing, but must be treated as classifications rather than statements made by an author. Categories use the fixed 15-value taxonomy in [categories.md](categories.md), chosen from the pilot data by project purpose. Each mention has zero to five distinct categories. The public data stores stable category slugs and publishes the associated labels and definitions. Audience labels remain free text. “Looking for” values require explicit, dated source evidence; they are not inferred classifications.
 
 ## Visitor experience
 
@@ -80,11 +80,11 @@ All collection, extraction, review, and database work runs on the maintainer's c
 The intended workflow is:
 
 1. Update the Rig extraction prompt, schema, or processing code when needed.
-2. Run one Rust CLI command with an HN thread item ID to collect, process, and export that thread's data.
+2. Run `wrkgn collect` with an HN thread item ID to fetch the post and replies, then `wrkgn process` with the same ID to extract from the stored source and export that thread's data.
 3. Run Astro in development mode and manually inspect project details, source attribution, and filtering.
 4. Reprocess explicitly after extraction changes, repeat inspection, and explicitly approve mentions for publication. Include the selected approved public snapshot in the repository and verify `npm run build` from `website/`. Cloudflare builds the committed website and public data from the repository.
 
-Proposed command interface: `wrkgn process --thread <hn-item-id>`, with `--reprocess` to deliberately rerun extraction. Exact executable naming can follow implementation conventions. Refreshing a thread also refreshes its replies. Incremental runs skip unchanged successful processing; interrupted runs can resume. Dev mode and builds consume exports and never invoke HN or an LLM implicitly.
+Command interface: `wrkgn collect --thread <hn-item-id>` is the only explicit HN refresh and also refreshes the thread's replies. `wrkgn process --thread <hn-item-id>` never fetches from HN; it requires the latest collection of that thread to be complete, extracts from stored source, and exports approved data, with `--reprocess` to deliberately rerun extraction. Exact executable naming can follow implementation conventions. Incremental runs skip unchanged successful processing; interrupted runs can resume. Dev mode and builds consume exports and never invoke HN or an LLM implicitly.
 
 ### Data collection
 

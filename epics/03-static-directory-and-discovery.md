@@ -27,7 +27,7 @@ Visitors can browse and search approved projects, filter by their interests, and
 - From `website/`, install dependencies with `npm ci`, run `npm run dev` for inspection, and run `npm run build` to validate static output.
 - Commit website source and the selected approved public data. Cloudflare uses `website/` as the build root, `npm run build` as the build command, and `dist/` as the output directory. Repository hosting setup is outside this implementation; a successful static build is the deployment handoff.
 
-The committed starter snapshot is empty. `website/tests/fixtures/representative/` contains synthetic records for offline checks, not real HN content. The maintainer should stage an approved export before any public launch.
+The staged snapshot contains approved pilot records. `website/tests/fixtures/representative/` and `website/tests/fixtures/empty/` contain synthetic records for offline checks. The public manifest carries the fixed category taxonomy; filtering uses stable slugs while the website displays its labels.
 
 ## Acceptance criteria
 

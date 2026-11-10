@@ -1,4 +1,5 @@
 //! Local review controls and allowlisted, versioned public JSON export.
+use crate::category::{self, Category};
 use crate::store::Store;
 use rusqlite::{OptionalExtension, params};
 use serde::Serialize;
@@ -408,6 +409,11 @@ pub fn export(store: &mut Store, destination: &Path) -> Result<String, String> {
         for (kind, value) in labels {
             match kind.as_str() {
                 "category" => {
+                    if Category::from_slug(&value).is_none() {
+                        return Err(format!(
+                            "unknown stored category {value} on mention {key}; run `wrkgn categories normalize`"
+                        ));
+                    }
                     entry.3.insert(value);
                 }
                 "audience" => {
@@ -476,6 +482,7 @@ pub fn export(store: &mut Store, destination: &Path) -> Result<String, String> {
     for detail in &details {
         digest.update(serde_json::to_vec(detail).map_err(|e| e.to_string())?);
     }
+    digest.update(serde_json::to_vec(&category::metadata()).map_err(|e| e.to_string())?);
     let version = format!("{:x}", digest.finalize());
     let version = &version[..16];
     let snapshot = destination.join("snapshots").join(version);
@@ -495,7 +502,7 @@ pub fn export(store: &mut Store, destination: &Path) -> Result<String, String> {
         }
         write_json(
             &staging.join("manifest.json"),
-            &json!({"schema_version":1,"version":version,"discovery":"discovery.json","project_details":"projects/<slug>.json","project_count":details.len()}),
+            &json!({"schema_version":2,"version":version,"discovery":"discovery.json","project_details":"projects/<slug>.json","project_count":details.len(),"categories":category::metadata()}),
         )?;
         fs::rename(staging, &snapshot).map_err(|e| e.to_string())?;
     }
@@ -503,7 +510,7 @@ pub fn export(store: &mut Store, destination: &Path) -> Result<String, String> {
     let pointer = destination.join("current.json.tmp");
     write_json(
         &pointer,
-        &json!({"schema_version":1,"version":version,"snapshot":format!("snapshots/{version}/manifest.json")}),
+        &json!({"schema_version":2,"version":version,"snapshot":format!("snapshots/{version}/manifest.json")}),
     )?;
     fs::rename(pointer, destination.join("current.json")).map_err(|e| e.to_string())?;
     Ok(version.to_string())

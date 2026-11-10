@@ -59,19 +59,55 @@ fn collect_reports_complete_source_collection() {
     assert!(Store::open(path).unwrap().get_item(100).unwrap().is_some());
 }
 
+fn fixture(missing_child: bool) -> FixtureApi {
+    FixtureApi {
+        calls: AtomicUsize::new(0),
+        missing_child,
+    }
+}
+
 #[test]
 fn process_requires_explicit_model_configuration() {
     let directory = tempdir().unwrap();
     let path = directory.path().join("source.sqlite");
-    let api = FixtureApi {
-        calls: AtomicUsize::new(0),
-        missing_child: false,
-    };
+    let api = fixture(false);
+    let (code, _, _) = invoke(&api, "collect", path.to_str().unwrap());
+    assert_eq!(code, 0);
+    assert_eq!(api.calls.load(Ordering::SeqCst), 1);
+
     let (code, out, err) = invoke(&api, "process", path.to_str().unwrap());
     assert_eq!(code, 1);
-    assert!(out.contains("Collection complete"));
+    assert!(out.contains("Using collection run"));
+    assert!(!out.contains("Collection complete"));
     assert!(err.contains("WRKGN_MODEL") || err.contains("OPENAI_API_KEY"));
     assert_eq!(api.calls.load(Ordering::SeqCst), 1);
+}
+
+#[test]
+fn process_without_collection_fails_without_fetching() {
+    let directory = tempdir().unwrap();
+    let path = directory.path().join("source.sqlite");
+    let api = fixture(false);
+    let (code, _, err) = invoke(&api, "process", path.to_str().unwrap());
+    assert_eq!(code, 1);
+    assert!(err.contains("wrkgn collect --thread 100"));
+    assert_eq!(api.calls.load(Ordering::SeqCst), 0);
+}
+
+#[test]
+fn process_after_incomplete_collection_fails_without_fetching() {
+    let directory = tempdir().unwrap();
+    let path = directory.path().join("source.sqlite");
+    let api = fixture(true);
+    let (code, _, _) = invoke(&api, "collect", path.to_str().unwrap());
+    assert_eq!(code, 1);
+    let calls = api.calls.load(Ordering::SeqCst);
+
+    let (code, out, err) = invoke(&api, "process", path.to_str().unwrap());
+    assert_eq!(code, 1);
+    assert!(!out.contains("Using collection run"));
+    assert!(err.contains("run `wrkgn collect --thread 100` again first"));
+    assert_eq!(api.calls.load(Ordering::SeqCst), calls);
 }
 
 #[test]

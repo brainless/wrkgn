@@ -1,9 +1,13 @@
 use serde_json::{Value, json};
+use std::collections::{BTreeMap, BTreeSet};
 use std::sync::Mutex;
+use std::sync::atomic::{AtomicUsize, Ordering};
+use std::time::Duration;
 use tempfile::tempdir;
+use wrkgn::category::Category;
 use wrkgn::collector::{CollectionConfig, Collector, FetchError, HnApi};
 use wrkgn::extraction::{Extraction, Mention, Request, Supporting};
-use wrkgn::processing::{Model, process_thread};
+use wrkgn::processing::{Model, Options, Progress, process_thread, process_thread_with};
 use wrkgn::publication;
 use wrkgn::store::Store;
 struct Api;
@@ -66,7 +70,7 @@ fn mention(id: i64, name: Option<&str>, url: Option<&str>, description: &str) ->
             }
             .into(),
         ),
-        categories: vec!["productivity tools".into()],
+        categories: vec![Category::Productivity],
         audience_labels: vec!["writers".into()],
         requests: vec![],
         supporting: vec![],
@@ -136,6 +140,143 @@ fn discovery(dir: &tempfile::TempDir) -> Vec<Value> {
         .unwrap(),
     )
     .unwrap()
+}
+/// Answers by prompt content so results do not depend on call order, and
+/// records the peak number of overlapping calls.
+struct Parallel {
+    in_flight: AtomicUsize,
+    peak: AtomicUsize,
+}
+impl Model for Parallel {
+    fn name(&self) -> &str {
+        "fixture-v1"
+    }
+    fn extract(&self, prompt: &str) -> Result<Extraction, String> {
+        let now = self.in_flight.fetch_add(1, Ordering::SeqCst) + 1;
+        self.peak.fetch_max(now, Ordering::SeqCst);
+        std::thread::sleep(Duration::from_millis(50));
+        self.in_flight.fetch_sub(1, Ordering::SeqCst);
+        if prompt.contains("nothing here") {
+            Err("model failed".into())
+        } else {
+            answer(prompt)
+        }
+    }
+}
+/// The fixture answer for whichever group a prompt describes.
+fn answer(prompt: &str) -> Result<Extraction, String> {
+    let mut answers = fixtures().into_iter();
+    if prompt.contains("Building Alpha") {
+        answers.next().unwrap()
+    } else if prompt.contains("nothing here") {
+        answers.nth(1).unwrap()
+    } else {
+        answers.nth(2).unwrap()
+    }
+}
+fn options(concurrency: usize) -> Options {
+    Options {
+        concurrency,
+        initial_backoff: Duration::ZERO,
+        max_backoff: Duration::ZERO,
+        ..Options::default()
+    }
+}
+const RATE_LIMITED: &str =
+    "ProviderResponseError: status 429 Too Many Requests: Concurrent limit reached";
+/// Rate-limits the first `failures` calls, then answers normally.
+struct Flaky {
+    failures: AtomicUsize,
+    calls: AtomicUsize,
+}
+impl Model for Flaky {
+    fn name(&self) -> &str {
+        "fixture-v1"
+    }
+    fn extract(&self, prompt: &str) -> Result<Extraction, String> {
+        self.calls.fetch_add(1, Ordering::SeqCst);
+        let left = self.failures.load(Ordering::SeqCst);
+        if left > 0 {
+            self.failures.store(left - 1, Ordering::SeqCst);
+            return Err(RATE_LIMITED.into());
+        }
+        answer(prompt)
+    }
+}
+fn flaky(failures: usize) -> Flaky {
+    Flaky {
+        failures: AtomicUsize::new(failures),
+        calls: AtomicUsize::new(0),
+    }
+}
+#[test]
+fn rate_limited_calls_are_retried() {
+    let (_dir, mut store) = setup();
+    let model = flaky(2);
+    let report = process_thread_with(&mut store, 100, &model, false, &options(1), |_| {}).unwrap();
+    assert_eq!((report.processed, report.failed.len()), (3, 0));
+    assert_eq!(model.calls.load(Ordering::SeqCst), 5);
+}
+#[test]
+fn repeated_rate_limits_stop_the_run_and_leave_the_rest_unattempted() {
+    let (_dir, mut store) = setup();
+    let model = flaky(usize::MAX);
+    let mut seen: Vec<Progress> = Vec::new();
+    let report = process_thread_with(
+        &mut store,
+        100,
+        &model,
+        false,
+        &Options {
+            max_attempts: 2,
+            stop_after_transient_failures: 2,
+            ..options(1)
+        },
+        |p| seen.push(p),
+    )
+    .unwrap();
+    assert!(report.stopped_early);
+    assert_eq!((report.failed.len(), report.not_attempted), (2, 1));
+    assert_eq!(model.calls.load(Ordering::SeqCst), 4);
+    let last = seen.last().unwrap();
+    assert_eq!((last.done, last.total, last.failed), (2, 3, 2));
+    let resumed =
+        process_thread_with(&mut store, 100, &flaky(0), false, &options(1), |_| {}).unwrap();
+    assert_eq!((resumed.processed, resumed.skipped), (3, 0));
+}
+#[test]
+fn parallel_extraction_saves_each_group_with_its_own_result() {
+    let (_dir, mut store) = setup();
+    let model = Parallel {
+        in_flight: AtomicUsize::new(0),
+        peak: AtomicUsize::new(0),
+    };
+    let report = process_thread_with(&mut store, 100, &model, false, &options(10), |_| {}).unwrap();
+    assert_eq!(model.peak.load(Ordering::SeqCst), 3);
+    assert_eq!(report.processed, 2);
+    assert_eq!(report.failed, vec![(105, "model failed".to_string())]);
+    let pending = publication::pending(&mut store).unwrap();
+    let mut by_source: Vec<(i64, String)> = pending
+        .iter()
+        .map(|m| {
+            (
+                m["source_item_id"].as_i64().unwrap(),
+                m["description"].as_str().unwrap().to_string(),
+            )
+        })
+        .collect();
+    by_source.sort();
+    assert_eq!(
+        by_source,
+        vec![
+            (101, "Alpha organizes work".to_string()),
+            (101, "Beta helps writers".to_string()),
+            (103, "Gamma is a tool".to_string()),
+            (106, "Tool for writers".to_string()),
+        ]
+    );
+    let retry = process_thread_with(&mut store, 100, &model, false, &options(10), |_| {}).unwrap();
+    assert_eq!((retry.skipped, retry.failed.len()), (2, 1));
 }
 #[test]
 fn extraction_review_rerun_and_export() {
@@ -289,6 +430,126 @@ fn oversized_input_is_recorded_and_does_not_publish() {
 fn schema_rejects_unknown_fields() {
     let value = json!({"mentions":[],"secret":"do this"});
     assert!(serde_json::from_value::<Extraction>(value).is_err());
+}
+#[test]
+fn categories_reject_unknown_duplicate_and_more_than_five() {
+    let (_, store) = setup();
+    let item = store.get_item(101).unwrap().unwrap();
+    let source = BTreeMap::from([(101, &item)]);
+    let ids = BTreeSet::from([101]);
+    let mut m = mention(101, Some("Alpha"), None, "Alpha organizes work");
+    m.categories = vec![Category::Productivity, Category::Productivity];
+    assert!(
+        wrkgn::extraction::validate(
+            &Extraction {
+                mentions: vec![m.clone()]
+            },
+            &ids,
+            &source
+        )
+        .unwrap_err()
+        .contains("duplicate")
+    );
+    m.categories = wrkgn::category::Category::ALL[..6].to_vec();
+    assert!(
+        wrkgn::extraction::validate(
+            &Extraction {
+                mentions: vec![m.clone()]
+            },
+            &ids,
+            &source
+        )
+        .unwrap_err()
+        .contains("five")
+    );
+    let mut value = serde_json::to_value(Extraction { mentions: vec![m] }).unwrap();
+    value["mentions"][0]["categories"] = json!(["invented-category"]);
+    assert!(serde_json::from_value::<Extraction>(value).is_err());
+    let mut valid = mention(101, Some("Alpha"), None, "Alpha organizes work");
+    valid.categories.clear();
+    assert!(
+        wrkgn::extraction::validate(
+            &Extraction {
+                mentions: vec![valid.clone()]
+            },
+            &ids,
+            &source
+        )
+        .is_ok()
+    );
+    valid.categories = wrkgn::category::Category::ALL[..5].to_vec();
+    assert!(
+        wrkgn::extraction::validate(
+            &Extraction {
+                mentions: vec![valid]
+            },
+            &ids,
+            &source
+        )
+        .is_ok()
+    );
+}
+#[test]
+fn category_migration_is_atomic_and_preserves_review() {
+    let (dir, mut store) = setup();
+    let conn = rusqlite::Connection::open(dir.path().join("db.sqlite")).unwrap();
+    process_thread(&mut store, 100, &model(fixtures()), false).unwrap();
+    let pending = publication::pending(&mut store).unwrap();
+    let id = pending[0]["id"].as_i64().unwrap();
+    let key = pending[0]["key"].as_str().unwrap();
+    publication::approve(&mut store, id).unwrap();
+    publication::correct(&mut store, key, "name", Some("Corrected Alpha")).unwrap();
+    conn.execute(
+        "DELETE FROM mention_labels WHERE mention_id=?1 AND kind='category'",
+        [id],
+    )
+    .unwrap();
+    conn.execute(
+        "INSERT INTO mention_labels VALUES(?1,'category','AI agents')",
+        [id],
+    )
+    .unwrap();
+    conn.execute(
+        "INSERT INTO mention_labels VALUES(?1,'category','mystery')",
+        [id],
+    )
+    .unwrap();
+    assert!(
+        wrkgn::category_migration::normalize(&mut store)
+            .unwrap_err()
+            .contains("unknown categories")
+    );
+    let values = || -> Vec<String> {
+        let mut st=conn.prepare("SELECT value FROM mention_labels WHERE mention_id=?1 AND kind='category' ORDER BY value").unwrap();
+        st.query_map([id], |r| r.get(0))
+            .unwrap()
+            .collect::<rusqlite::Result<_>>()
+            .unwrap()
+    };
+    assert_eq!(values(), vec!["AI agents", "mystery"]);
+    conn.execute(
+        "DELETE FROM mention_labels WHERE mention_id=?1 AND value='mystery'",
+        [id],
+    )
+    .unwrap();
+    wrkgn::category_migration::normalize(&mut store).unwrap();
+    assert_eq!(values(), vec!["ai-automation"]);
+    wrkgn::category_migration::normalize(&mut store).unwrap();
+    assert_eq!(values(), vec!["ai-automation"]);
+    let state: String = conn
+        .query_row("SELECT review_state FROM mentions WHERE id=?1", [id], |r| {
+            r.get(0)
+        })
+        .unwrap();
+    assert_eq!(state, "approved");
+    let corrected: String = conn
+        .query_row(
+            "SELECT value FROM review_corrections WHERE mention_key=?1 AND field='name'",
+            [key],
+            |r| r.get(0),
+        )
+        .unwrap();
+    assert_eq!(corrected, "Corrected Alpha");
 }
 #[test]
 fn deleted_source_disappears_before_reprocessing() {

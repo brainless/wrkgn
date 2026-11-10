@@ -1,5 +1,5 @@
 import { FILTERS, matchingProjects, optionsFrom, pageCount, readState, stateUrl } from '../lib/discovery-state.mjs';
-import { lookingForLabel, projectTitle, sharedDate } from '../lib/display.mjs';
+import { lookingForLabel, projectTitle, sharedDate, categoryLabel } from '../lib/display.mjs';
 
 function element(tag, className, value) {
   const node = document.createElement(tag);
@@ -15,7 +15,7 @@ function appendMeta(container, label, value) {
   container.append(paragraph);
 }
 
-function card(project, index) {
+function card(project, index, categories) {
   const article = element('article', 'project-card');
   const top = element('div', 'project-card__top');
   top.append(element('span', 'project-card__index', String(index).padStart(2, '0')));
@@ -39,7 +39,7 @@ function card(project, index) {
   article.append(top, body);
   if (project.categories.length || project.looking_for.length) {
     const tags = element('div', 'project-card__tags');
-    for (const category of project.categories) tags.append(element('span', 'tag', category));
+    for (const category of project.categories) tags.append(element('span', 'tag', categoryLabel(category, categories)));
     for (const value of project.looking_for) tags.append(element('span', 'tag tag--invitation', `${lookingForLabel(value)} · when shared`));
     article.append(tags);
   }
@@ -50,6 +50,7 @@ export async function initDiscovery() {
   const root = document.querySelector('[data-directory]');
   if (!root) return;
   const version = root.dataset.version;
+  const categories = JSON.parse(root.dataset.categories);
   const pageSize = Number(root.dataset.pageSize);
   const controls = root.querySelector('[data-controls]');
   const search = root.querySelector('#project-search');
@@ -84,7 +85,7 @@ export async function initDiscovery() {
       const input = element('input');
       input.type = 'checkbox'; input.value = value; input.dataset.filterInput = name;
       input.id = `filter-${name}-${index}`;
-      label.append(input, document.createTextNode(name === 'looking' ? lookingForLabel(value) : value));
+      label.append(input, document.createTextNode(name === 'looking' ? lookingForLabel(value) : name === 'category' ? categoryLabel(value, categories) : value));
       box.append(label);
     });
   }
@@ -114,7 +115,7 @@ export async function initDiscovery() {
       results.replaceChildren(empty);
     } else {
       const list = element('div', 'project-list');
-      visible.forEach((project, index) => list.append(card(project, start + index + 1)));
+      visible.forEach((project, index) => list.append(card(project, start + index + 1, categories)));
       results.replaceChildren(list);
     }
     pagination.replaceChildren();

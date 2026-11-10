@@ -1,9 +1,10 @@
 ---
-import { projectTitle, sharedDate, lookingForLabel } from '../lib/display.mjs';
+import { projectTitle, sharedDate, lookingForLabel, categoryLabel } from '../lib/display.mjs';
+import { snapshot } from '../lib/snapshot.mjs';
 const { project, index } = Astro.props;
 ---
 <article class="project-card">
   <div class="project-card__top"><span class="project-card__index">{String(index).padStart(2, '0')}</span><time datetime={new Date(project.latest_shared_at * 1000).toISOString()}>{sharedDate(project.latest_shared_at)}</time></div>
   <div class="project-card__body"><div><h3><a data-project-link href={`/projects/${project.slug}/`}>{projectTitle(project)}<span class="card-arrow" aria-hidden="true">↗</span></a></h3><p class="project-card__description">{project.description}</p></div><div class="project-card__meta">{project.audience && <p><span class="meta-label">For</span> {project.audience}</p>}{project.builder_usernames.length > 0 && <p><span class="meta-label">Shared by</span> {project.builder_usernames.map((builder, i) => <span>{i > 0 ? ', ' : ''}@{builder}</span>)}</p>}</div></div>
-  {(project.categories.length > 0 || project.looking_for.length > 0) && <div class="project-card__tags">{project.categories.map((category) => <span class="tag">{category}</span>)}{project.looking_for.map((value) => <span class="tag tag--invitation">{lookingForLabel(value)} · when shared</span>)}</div>}
+  {(project.categories.length > 0 || project.looking_for.length > 0) && <div class="project-card__tags">{project.categories.map((category) => <span class="tag">{categoryLabel(category, snapshot.manifest.categories)}</span>)}{project.looking_for.map((value) => <span class="tag tag--invitation">{lookingForLabel(value)} · when shared</span>)}</div>}
 </article>

@@ -1,0 +1,38 @@
+{
+  "id": 28,
+  "slug": "project-904c8626fb",
+  "name": null,
+  "mentions": [
+    {
+      "name": null,
+      "description": "A hobby electronics project enabling cloud save synchronization between a real Super Nintendo console and emulators. The builder wired the SNES's spare controller port to a microcontroller acting as a WiFi bridge, and uses a flash cart whose reset vector is patched to a small save sync routine that talks to the microcontroller.",
+      "problem": null,
+      "audience": null,
+      "builder_username": "dannyboland",
+      "source_item_id": 50419245,
+      "source_url": "https://news.ycombinator.com/item?id=50419245",
+      "author": "dannyboland",
+      "shared_at": 1794183254,
+      "links": [],
+      "requests": [],
+      "supporting": [
+        {
+          "source_item_id": 50419245,
+          "source_url": "https://news.ycombinator.com/item?id=50419245",
+          "summary": "AI-assisted build process: the author used Claude to read from a logic analyser and iteratively flash firmware tweaks while doing the soldering themselves.",
+          "excerpt": "It was especially magical having Claude read from a logic analyser and flash firmware tweaks iteratively. I still got to wield the soldering iron at least.",
+          "author": "dannyboland",
+          "shared_at": 1794183254
+        },
+        {
+          "source_item_id": 50419245,
+          "source_url": "https://news.ycombinator.com/item?id=50419245",
+          "summary": "Technical approach: the SNES's spare controller port is wired to a microcontroller serving as a WiFi bridge, and a flash cart's reset vector is patched to a save sync routine that communicates with it.",
+          "excerpt": "I spent the weekend wiring the spare controller port to a microcontroller to act as WiFi bridge. I have a flash cart, so I patch the reset vector to a small save sync routine that talks to the microcontroller.",
+          "author": "dannyboland",
+          "shared_at": 1794183254
+        }
+      ]
+    }
+  ]
+}

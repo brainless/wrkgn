@@ -111,15 +111,23 @@ function readJson(root, relative) {
 export function loadSnapshot(root) {
   const pointer = readJson(root, 'current.json');
   object(pointer, 'current.json', ['schema_version', 'version', 'snapshot']);
-  if (pointer.schema_version !== 1 || !VERSION.test(pointer.version)) fail('current.json', 'unsupported schema or version');
+  if (pointer.schema_version !== 2 || !VERSION.test(pointer.version)) fail('current.json', 'unsupported schema or version');
   const prefix = `snapshots/${pointer.version}/`;
   if (pointer.snapshot !== `${prefix}manifest.json`) fail('current.json', 'manifest path does not match version');
   const manifest = readJson(root, pointer.snapshot);
-  object(manifest, pointer.snapshot, ['schema_version', 'version', 'discovery', 'project_details', 'project_count']);
-  if (manifest.schema_version !== 1 || manifest.version !== pointer.version || manifest.discovery !== 'discovery.json' || manifest.project_details !== 'projects/<slug>.json') fail(pointer.snapshot, 'unsupported or mismatched manifest');
+  object(manifest, pointer.snapshot, ['schema_version', 'version', 'discovery', 'project_details', 'project_count', 'categories']);
+  if (manifest.schema_version !== 2 || manifest.version !== pointer.version || manifest.discovery !== 'discovery.json' || manifest.project_details !== 'projects/<slug>.json') fail(pointer.snapshot, 'unsupported or mismatched manifest');
+  list(manifest.categories, `${pointer.snapshot}.categories`, (value, where) => {
+    object(value, where, ['slug', 'label', 'description']);
+    string(value.slug, `${where}.slug`); string(value.label, `${where}.label`); string(value.description, `${where}.description`);
+    if (!SLUG.test(value.slug) || !value.label.trim() || !value.description.trim()) fail(where, 'invalid category metadata');
+  });
+  const categorySlugs = new Set(manifest.categories.map((category) => category.slug));
+  if (categorySlugs.size !== manifest.categories.length || categorySlugs.size !== 15) fail(pointer.snapshot, 'expected 15 distinct categories');
   integer(manifest.project_count, `${pointer.snapshot}.project_count`);
   const rows = readJson(root, `${prefix}discovery.json`);
   list(rows, `${prefix}discovery.json`, discovery);
+  for (const row of rows) for (const category of row.categories) if (!categorySlugs.has(category)) fail(`${prefix}discovery.json`, `unknown category ${category}`);
   if (rows.length !== manifest.project_count) fail(pointer.snapshot, 'project count mismatch');
   const details = new Map();
   const ids = new Set();

@@ -48,7 +48,21 @@ fn card(out: &mut String, m: &PendingMention, width: usize) {
     if let Some(audience) = &m.audience {
         row(out, inner, "Audience", audience);
     }
-    row(out, inner, "Categories", &list(&m.categories));
+    row(
+        out,
+        inner,
+        "Categories",
+        &list(
+            &m.categories
+                .iter()
+                .map(|value| {
+                    crate::category::Category::from_slug(value)
+                        .map(|c| c.label().to_string())
+                        .unwrap_or_else(|| value.clone())
+                })
+                .collect::<Vec<_>>(),
+        ),
+    );
     row(out, inner, "Audiences", &list(&m.audience_labels));
     row(out, inner, "Looking for", &list(&m.looking_for));
     row(out, inner, "Links", &list(&m.links));

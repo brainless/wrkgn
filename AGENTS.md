@@ -19,7 +19,7 @@ These instructions apply to coding assistants working in this repository, not to
 
 ## Maintainer workflow
 
-The intended entry point is `wrkgn process --thread <hn-item-id>`: collect the post/replies, process changed conversation groups, and export approved public data. `--reprocess` explicitly reruns extraction after prompt/schema changes. These are proposed interfaces until implemented; do not claim they already exist.
+`wrkgn collect --thread <hn-item-id>` is the only explicit HN refresh (post and replies). `wrkgn process --thread <hn-item-id>` never fetches from HN: it requires the latest collection of that thread to be complete, reads stored source from SQLite, processes changed conversation groups, and exports approved public data. `--reprocess` explicitly reruns extraction after prompt/schema changes. These are proposed interfaces until implemented; do not claim they already exist.
 
 The maintainer then starts Astro dev mode, inspects project details and filtering, changes extraction prompts/code if needed, and reruns the pipeline. Dev/build commands must not trigger live collection or LLM calls implicitly. Provide a simple explicit local approval path for publication; extraction success is not approval.
 
