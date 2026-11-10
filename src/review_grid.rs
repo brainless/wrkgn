@@ -148,26 +148,8 @@ fn excerpt(text: &str, max: usize) -> String {
 
 /// Converts HN comment HTML to plain text with one paragraph per line.
 fn html_to_text(html: &str) -> String {
-    let html = html.replace("<p>", "\n");
-    let mut text = String::new();
-    let mut in_tag = false;
-    for c in html.chars() {
-        match c {
-            '<' => in_tag = true,
-            '>' => in_tag = false,
-            _ if !in_tag => text.push(c),
-            _ => {}
-        }
-    }
-    let text = text
-        .replace("&quot;", "\"")
-        .replace("&#x27;", "'")
-        .replace("&#39;", "'")
-        .replace("&#x2F;", "/")
-        .replace("&gt;", ">")
-        .replace("&lt;", "<")
-        .replace("&amp;", "&");
-    text.lines()
+    crate::html::plain_text(html)
+        .lines()
         .map(str::trim)
         .filter(|l| !l.is_empty())
         .collect::<Vec<_>>()
@@ -271,8 +253,10 @@ mod tests {
         assert_eq!(date(0), "1970-01-01");
         assert_eq!(date(1_762_646_400), "2025-11-09");
         assert_eq!(
-            html_to_text("Hi &amp; <i>bye</i><p>It&#x27;s <a href=\"x\">here</a>"),
-            "Hi & bye\nIt's here"
+            html_to_text(
+                "Hi &amp; <i>bye</i><p>It&#x27;s <a href=\"https:&#x2F;&#x2F;x.test&#x2F;\">here</a>"
+            ),
+            "Hi & bye\nIt's here (https://x.test/)"
         );
     }
 }

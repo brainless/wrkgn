@@ -6,7 +6,7 @@ use std::time::Duration;
 use tempfile::tempdir;
 use wrkgn::category::Category;
 use wrkgn::collector::{CollectionConfig, Collector, FetchError, HnApi};
-use wrkgn::extraction::{Extraction, Mention, Request, Supporting};
+use wrkgn::extraction::{Extraction, Mention, Request, RequestKind, Supporting, validate};
 use wrkgn::processing::{Model, Options, Progress, process_thread, process_thread_with};
 use wrkgn::publication;
 use wrkgn::store::Store;
@@ -61,15 +61,7 @@ fn mention(id: i64, name: Option<&str>, url: Option<&str>, description: &str) ->
         description: description.into(),
         problem: Some("organize work".into()),
         audience: Some("writers".into()),
-        builder_username: Some(
-            match id {
-                101 | 201 => "alice",
-                103 => "cara",
-                106 => "frank",
-                _ => "",
-            }
-            .into(),
-        ),
+        author_is_builder: matches!(id, 101 | 201 | 103 | 106),
         categories: vec![Category::Productivity],
         audience_labels: vec!["writers".into()],
         requests: vec![],
@@ -84,7 +76,7 @@ fn fixtures() -> Vec<Result<Extraction, String>> {
         "Alpha organizes work",
     );
     a.requests.push(Request {
-        kind: "feedback".into(),
+        kind: RequestKind::Feedback,
         source_item_id: 101,
         evidence: "Feedback welcome".into(),
     });
@@ -381,7 +373,7 @@ fn evidence_and_oversize_are_rejected() {
         "Alpha organizes work",
     );
     m.requests.push(Request {
-        kind: "collaborators".into(),
+        kind: RequestKind::Collaborators,
         source_item_id: 101,
         evidence: "please collaborate".into(),
     });
@@ -648,4 +640,158 @@ fn review_grid_lists_readable_cards_and_approves_ranges() {
     assert_eq!(discovery(&dir).len(), 4);
     let (_, out, _) = review_cli(&dir, &["review", "pending"]);
     assert_eq!(out, "No pending mentions.\n");
+}
+
+/// Bodies as the HN API returns them: HTML-escaped, with links as anchors.
+struct EscapedApi;
+impl HnApi for EscapedApi {
+    fn fetch_item(&self, id: i64) -> Result<Option<Value>, FetchError> {
+        Ok(Some(match id {
+            300 => json!({"id":300,"kids":[301]}),
+            301 => json!({"id":301,"parent":300,"by":"hana","time":3000,
+                "text":"<a href=\"https:&#x2F;&#x2F;pahunchi.netlify.app&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;pahunchi.netlify.app&#x2F;</a><p>A free app I&#x27;ve built, also hydrafetch.com. Feedback welcome.",
+                "kids":[302]}),
+            302 => json!({"id":302,"parent":301,"by":"ian","time":3001,
+                "text":"It&#x27;s  great\nstuff, see <a href=\"https:&#x2F;&#x2F;example.org&#x2F;long&#x2F;path&#x2F;page\">https:&#x2F;&#x2F;example.org&#x2F;lo...</a>"}),
+            _ => panic!("unexpected {id}"),
+        }))
+    }
+}
+fn escaped_store() -> (tempfile::TempDir, Store) {
+    let dir = tempdir().unwrap();
+    let mut store = Store::open(dir.path().join("db.sqlite")).unwrap();
+    let report = Collector::new(EscapedApi, CollectionConfig::default())
+        .collect(&mut store, 300)
+        .unwrap();
+    assert!(report.complete);
+    (dir, store)
+}
+fn escaped_mention() -> Mention {
+    let mut m = mention(
+        301,
+        Some("Pahunchi"),
+        Some("https://pahunchi.netlify.app/"),
+        "A free app",
+    );
+    m.author_is_builder = true;
+    m
+}
+fn validated(m: Mention) -> Result<(), String> {
+    let (_dir, store) = escaped_store();
+    let items = [
+        store.get_item(301).unwrap().unwrap(),
+        store.get_item(302).unwrap().unwrap(),
+    ];
+    let source = BTreeMap::from([(301, &items[0]), (302, &items[1])]);
+    validate(
+        &Extraction { mentions: vec![m] },
+        &BTreeSet::from([301, 302]),
+        &source,
+    )
+}
+#[test]
+fn validation_compares_against_decoded_text() {
+    let mut m = escaped_mention();
+    assert_eq!(validated(m.clone()), Ok(()));
+    m.urls = vec![
+        "https://pahunchi.netlify.app".into(),
+        "https://Pahunchi.Netlify.App/".into(),
+        "https://hydrafetch.com".into(),
+        "https://example.org/long/path/page".into(),
+    ];
+    m.requests.push(Request {
+        kind: RequestKind::Feedback,
+        source_item_id: 301,
+        evidence: "I\u{2019}ve built,   also hydrafetch.com. Feedback welcome".into(),
+    });
+    m.supporting.push(Supporting {
+        source_item_id: 302,
+        summary: "Praise".into(),
+        excerpt: Some("It\u{2019}s great   stuff".into()),
+    });
+    assert_eq!(validated(m), Ok(()));
+}
+#[test]
+fn validation_still_rejects_unsupported_urls_and_evidence() {
+    for url in [
+        "https://other.test/",
+        "https://pahunchi.netlify.app/x",
+        "http://pahunchi.netlify.app",
+    ] {
+        let mut m = escaped_mention();
+        m.urls = vec![url.into()];
+        assert_eq!(validated(m), Err("URL absent from source".into()), "{url}");
+    }
+    let mut m = escaped_mention();
+    m.requests.push(Request {
+        kind: RequestKind::Contributors,
+        source_item_id: 301,
+        evidence: "Contributors wanted".into(),
+    });
+    assert_eq!(validated(m), Err("unsupported request evidence".into()));
+    let mut m = escaped_mention();
+    m.supporting.push(Supporting {
+        source_item_id: 302,
+        summary: "Praise".into(),
+        excerpt: Some("terrible".into()),
+    });
+    assert_eq!(validated(m), Err("unsupported support excerpt".into()));
+}
+#[test]
+fn omitted_arrays_and_flags_default() {
+    let value = json!({"mentions":[{"source_item_id":1,"name":null,"description":"d",
+        "problem":null,"audience":null}]});
+    let m = &serde_json::from_value::<Extraction>(value)
+        .unwrap()
+        .mentions[0];
+    assert!(m.urls.is_empty() && m.requests.is_empty() && m.supporting.is_empty());
+    assert!(m.categories.is_empty() && m.audience_labels.is_empty() && !m.author_is_builder);
+    assert!(
+        serde_json::from_value::<Extraction>(json!({}))
+            .unwrap()
+            .mentions
+            .is_empty()
+    );
+    let invented = json!({"kind":"hiring","source_item_id":1,"evidence":"x"});
+    assert!(serde_json::from_value::<Request>(invented).is_err());
+}
+#[test]
+fn escaped_comment_is_saved_and_builder_comes_from_the_author() {
+    for (is_builder, expected) in [(true, Some("hana".to_string())), (false, None)] {
+        let (dir, mut store) = escaped_store();
+        let mut m = escaped_mention();
+        m.author_is_builder = is_builder;
+        let report = process_thread(
+            &mut store,
+            300,
+            &model(vec![Ok(Extraction { mentions: vec![m] })]),
+            false,
+        )
+        .unwrap();
+        assert!(report.failed.is_empty(), "{:?}", report.failed);
+        let stored: Option<String> = rusqlite::Connection::open(dir.path().join("db.sqlite"))
+            .unwrap()
+            .query_row("SELECT builder_username FROM mentions", [], |r| r.get(0))
+            .unwrap();
+        assert_eq!(stored, expected);
+    }
+}
+#[test]
+fn model_prompt_carries_plain_text() {
+    struct Capture(Mutex<String>);
+    impl Model for Capture {
+        fn name(&self) -> &str {
+            "fixture-v1"
+        }
+        fn extract(&self, prompt: &str) -> Result<Extraction, String> {
+            *self.0.lock().unwrap() = prompt.to_string();
+            Ok(Extraction { mentions: vec![] })
+        }
+    }
+    let (_dir, mut store) = escaped_store();
+    let capture = Capture(Mutex::new(String::new()));
+    process_thread(&mut store, 300, &capture, false).unwrap();
+    let prompt = capture.0.lock().unwrap().clone();
+    assert!(prompt.contains("https://pahunchi.netlify.app/"));
+    assert!(prompt.contains("I've built") && !prompt.contains("&#x"));
 }

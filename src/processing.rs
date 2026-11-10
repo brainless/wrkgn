@@ -160,6 +160,7 @@ pub fn is_transient(error: &str) -> bool {
         "rate_limit",
         "concurrent limit",
         "error sending request",
+        "error decoding response body",
         "timed out",
         "connection reset",
         "status 500",
@@ -451,9 +452,9 @@ fn mention_key(m: &Mention) -> String {
 fn hash(value: &str) -> String {
     format!("{:x}", Sha256::digest(value.as_bytes()))
 }
-fn identity_key(m: &Mention) -> String {
+fn identity_key(m: &Mention, builder: Option<&String>) -> String {
     // Cross-conversation reuse requires both an exact URL and supported builder identity.
-    if let (Some(url), Some(builder)) = (m.urls.first(), m.builder_username.as_ref()) {
+    if let (Some(url), Some(builder)) = (m.urls.first(), builder) {
         return format!("url:{}:{}", builder.to_lowercase(), url.to_lowercase());
     }
     mention_key(m)
@@ -466,7 +467,13 @@ fn save_mention(
     source: &BTreeMap<i64, &StoredSourceItem>,
     old: Option<i64>,
 ) -> Result<(), String> {
-    let identity = identity_key(m);
+    // The builder is the source item's author, and only when the model found
+    // that author claiming the project; commenters are never assumed to be builders.
+    let builder = m
+        .author_is_builder
+        .then(|| source[&m.source_item_id].source.author.clone())
+        .flatten();
+    let identity = identity_key(m, builder.as_ref());
     let slug_base = m.name.as_deref().unwrap_or("project");
     let slug = format!("{}-{}", slugify(slug_base), &hash(&identity)[..10]);
     let pid = if let Some(id) = old {
@@ -496,7 +503,7 @@ fn save_mention(
     };
     let sf = &source[&m.source_item_id].content_fingerprint;
     let review = "pending";
-    tx.execute("INSERT INTO mentions(project_id,root_item_id,source_item_id,mention_key,name,description,problem,audience,builder_username,review_state,source_fingerprint) VALUES(?1,?2,?3,?4,?5,?6,?7,?8,?9,?10,?11)",params![pid,root,m.source_item_id,key,m.name,m.description,m.problem,m.audience,m.builder_username,review,sf]).map_err(|e|e.to_string())?;
+    tx.execute("INSERT INTO mentions(project_id,root_item_id,source_item_id,mention_key,name,description,problem,audience,builder_username,review_state,source_fingerprint) VALUES(?1,?2,?3,?4,?5,?6,?7,?8,?9,?10,?11)",params![pid,root,m.source_item_id,key,m.name,m.description,m.problem,m.audience,builder,review,sf]).map_err(|e|e.to_string())?;
     let mid = tx.last_insert_rowid();
     for url in &m.urls {
         tx.execute(
@@ -524,7 +531,12 @@ fn save_mention(
     for request in &m.requests {
         tx.execute(
             "INSERT OR IGNORE INTO mention_requests VALUES(?1,?2,?3,?4)",
-            params![mid, request.kind, request.source_item_id, request.evidence],
+            params![
+                mid,
+                request.kind.as_str(),
+                request.source_item_id,
+                request.evidence
+            ],
         )
         .map_err(|e| e.to_string())?;
     }
