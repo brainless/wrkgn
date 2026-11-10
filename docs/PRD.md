@@ -59,9 +59,9 @@ The initial directory offers a paginated project list ordered by the original sh
 
 Visitors should be able to:
 
-- Browse project cards explaining what a project does, whom it serves when known, and when it was shared, in a responsive one-, two-, or three-column grid.
+- Browse project cards explaining what a project does, whom it serves when known, and when it was shared, in a grid that adapts to the available results width. Keep the list heading compact and the first results near the top of the page.
 - Search descriptions, problems, audiences, project names, and supported builder usernames.
-- Narrow results with exactly three filter dimensions: Category, Audience, and Looking for. Options come from the published data; dropdowns with checkboxes are an initial UI choice, not a fixed requirement.
+- Narrow results with exactly three filter dimensions: Category, Audience, and Looking for. Options come from the published data. On wide screens, show search and the three filters vertically in a left sidebar. On narrow screens, place the same controls in a collapsible panel above the results, opened by a Filters button in the primary navigation. Show the controls only when browser discovery data loads; ordinary lists remain usable without JavaScript.
 - Open a card in a dynamic modal showing project details, mentions over time, and relevant supporting contributions.
 - Share or directly visit the same stable project slug URL to read a generated standalone project page.
 - Follow clearly attributed links to original discussions, demos, and project websites.

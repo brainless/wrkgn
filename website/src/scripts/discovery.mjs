@@ -53,6 +53,7 @@ export async function initDiscovery() {
   const categories = JSON.parse(root.dataset.categories);
   const pageSize = Number(root.dataset.pageSize);
   const controls = root.querySelector('[data-controls]');
+  const filtersToggle = document.querySelector('[data-filters-toggle]');
   const search = root.querySelector('#project-search');
   const results = root.querySelector('[data-results]');
   const pagination = root.querySelector('[data-pagination]');
@@ -90,6 +91,14 @@ export async function initDiscovery() {
     });
   }
   controls.hidden = false;
+  root.dataset.discoveryReady = '';
+  filtersToggle.hidden = false;
+  filtersToggle.addEventListener('click', () => {
+    const open = !root.hasAttribute('data-mobile-filters-open');
+    root.toggleAttribute('data-mobile-filters-open', open);
+    filtersToggle.setAttribute('aria-expanded', String(open));
+    if (open) search.focus();
+  });
 
   function syncControls() {
     if (search.value !== state.q) search.value = state.q;
