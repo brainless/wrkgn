@@ -1,0 +1,14 @@
+---
+import SiteLayout from '../../components/SiteLayout.astro';
+import ProjectDetail from '../../components/ProjectDetail.astro';
+import { snapshot } from '../../lib/snapshot.mjs';
+import { projectTitle } from '../../lib/display.mjs';
+export function getStaticPaths() {
+  return snapshot.discovery.map((project) => ({ params: { slug: project.slug }, props: { project } }));
+}
+const { project } = Astro.props;
+const detail = snapshot.details.get(project.slug);
+const builders = new Set(project.builder_usernames);
+const related = snapshot.discovery.filter((item) => item.id !== project.id && item.builder_usernames.some((builder) => builders.has(builder)));
+---
+<SiteLayout title={projectTitle(project)} description={project.description}><div class="container detail-page" data-public-version={snapshot.pointer.version}><a class="back-link" href="/">← All projects</a><ProjectDetail project={project} detail={detail} related={related} /></div></SiteLayout>

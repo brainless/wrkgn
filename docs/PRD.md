@@ -51,7 +51,7 @@ For each project mention, capture where available:
 
 Missing information should remain unknown. Do not invent names, audiences, URLs, project status, or invitations. Summaries must remain grounded in source material, and quotations must be distinguishable from summaries.
 
-Discovery categories and audience labels may be assigned during processing, but must be treated as classifications rather than statements made by an author. Favor understandable labels about problems, use cases, and audiences. Derive the vocabulary from the pilot data and normalize synonymous labels before publication. “Looking for” values require explicit, dated source evidence; they are not inferred classifications.
+Discovery categories and audience labels may be assigned during processing, but must be treated as classifications rather than statements made by an author. Categories use the fixed 15-value taxonomy in [categories.md](categories.md), chosen from the pilot data by project purpose. Each mention has zero to five distinct categories. The public data stores stable category slugs and publishes the associated labels and definitions. Audience labels remain free text. “Looking for” values require explicit, dated source evidence; they are not inferred classifications.
 
 ## Visitor experience
 
@@ -59,9 +59,9 @@ The initial directory offers a paginated project list ordered by the original sh
 
 Visitors should be able to:
 
-- Browse project cards explaining what a project does, whom it serves when known, and when it was shared.
+- Browse uniform-height project cards showing a concise description, original sharing date, supported builder, and discovery tags in a grid that adapts to the available results width. Keep longer descriptions to six visible lines on cards, align discovery tags at the bottom, and show audience information on project details. Set titles, labels, and controls in DM Sans and longer reading text in Source Serif 4, loaded from Google Fonts. Show 30 projects per page, keep the list heading compact, and place the first results near the top of the page.
 - Search descriptions, problems, audiences, project names, and supported builder usernames.
-- Narrow results with exactly three filter dimensions: Category, Audience, and Looking for. Options come from the published data; dropdowns with checkboxes are an initial UI choice, not a fixed requirement.
+- Narrow results with exactly three filter dimensions: Category, Audience, and Looking for. Options come from the published data. On wide screens, show search and the three filters vertically in a fixed, viewport-height left sidebar shared by listing and detail pages, with the logo inside it. On narrow screens, place the same controls in a collapsible panel above the results, opened by a Filters button in the primary navigation. Listing controls appear when browser discovery data loads; detail-page controls submit an ordinary form to the directory. Ordinary lists remain usable without JavaScript.
 - Open a card in a dynamic modal showing project details, mentions over time, and relevant supporting contributions.
 - Share or directly visit the same stable project slug URL to read a generated standalone project page.
 - Follow clearly attributed links to original discussions, demos, and project websites.
@@ -69,22 +69,22 @@ Visitors should be able to:
 
 Opening a modal updates the URL; closing it restores the list context. Browser back/forward navigation must work. Search, filters, and interactive pagination preserve their state in the URL. Direct project visits must work without JavaScript.
 
-Generate date-ordered list pages at `/projects/` and `/projects/page/2/`, and project pages at `/projects/<slug>/`. Slugs are persisted in SQLite and remain stable across reprocessing. Alphabetical lists and generated category landing pages are deferred until there is a demonstrated need and a useful category vocabulary. Do not generate every filter combination.
+Generate the date-ordered first list page at `/`, an equivalent `/projects/` alias, later pages at `/projects/page/2/` onward, and project pages at `/projects/<slug>/`. Slugs are persisted in SQLite and remain stable across reprocessing. Alphabetical lists and generated category landing pages are deferred until there is a demonstrated need. Do not generate every filter combination.
 
 Historical invitations retain their dates and must not be presented as verified current opportunities. Recently collected information must not be confused with recently shared information.
 
 ## Architecture and local workflow
 
-All collection, extraction, review, and database work runs on the maintainer's computer. Rust tooling owns the data pipeline; Astro builds the public website locally from a public export. Cloudflare hosts the generated static assets. The initial architecture has no hosted database, request-time rendering, or processing service.
+All collection, extraction, review, and database work runs on the maintainer's computer. Rust tooling owns the data pipeline. The Astro website lives in `website/` and builds from a deliberate public export included in the repository. Local development uses `npm run dev`; `npm run build` produces static assets locally or in Cloudflare's repository build. Cloudflare builds and hosts the website without custom deployment tooling. The initial architecture has no hosted database, request-time rendering, or processing service.
 
 The intended workflow is:
 
 1. Update the Rig extraction prompt, schema, or processing code when needed.
-2. Run one Rust CLI command with an HN thread item ID to collect, process, and export that thread's data.
+2. Run `wrkgn collect` with an HN thread item ID to fetch the post and replies, then `wrkgn process` with the same ID to extract from the stored source and export that thread's data.
 3. Run Astro in development mode and manually inspect project details, source attribution, and filtering.
-4. Reprocess explicitly after extraction changes, repeat inspection, and build the static site for publication.
+4. Reprocess explicitly after extraction changes, repeat inspection, and explicitly approve mentions for publication. Include the selected approved public snapshot in the repository and verify `npm run build` from `website/`. Cloudflare builds the committed website and public data from the repository.
 
-Proposed command interface: `wrkgn process --thread <hn-item-id>`, with `--reprocess` to deliberately rerun extraction. Exact executable naming can follow implementation conventions. Refreshing a thread also refreshes its replies. Incremental runs skip unchanged successful processing; interrupted runs can resume. Dev mode and builds consume exports and never invoke HN or an LLM implicitly.
+Command interface: `wrkgn collect --thread <hn-item-id>` is the only explicit HN refresh and also refreshes the thread's replies. `wrkgn process --thread <hn-item-id>` never fetches from HN; it requires the latest collection of that thread to be complete, extracts from stored source, and exports approved data, with `--reprocess` to deliberately rerun extraction. `wrkgn review` approves, corrects, suppresses, and matches mentions locally; `wrkgn export` writes the public snapshot, and `npm run stage` in `website/` selects it for the build. Incremental runs skip unchanged successful processing; interrupted runs can resume. Dev mode and builds consume exports and never invoke HN or an LLM implicitly.
 
 ### Data collection
 
@@ -98,7 +98,7 @@ Start with one Rig extraction agent definition invoked once per top-level commen
 
 Use a preset system prompt and typed structured output. Each response contains zero or more project mentions, extracted facts, classification labels, explicit requests with evidence, and relevant supporting contributions. Store each supporting contribution separately with its source comment item ID and its association to the relevant mention/project. A reply can introduce a project of its own, so preserve the actual source of each mention rather than always attributing it to the root comment.
 
-Rust code validates outputs before persistence, including source ID membership, required provenance, and evidence for explicit requests. Source comments are untrusted input, not instructions. The agent does not need tools or autonomous planning.
+Rust code validates outputs before persistence, including source ID membership, required provenance, and evidence for explicit requests. Source comments are untrusted input, not instructions. The agent does not need tools or autonomous planning. Conversation groups may be extracted in parallel with bounded concurrency; provider rate limits and transport errors are retried with backoff, and persistent provider failures stop the run early so a later run can resume.
 
 Track source content fingerprints, prompt/model/schema versions, run status, and failures. Reprocessing replaces the applicable successful output transactionally without duplicating records; failures retain the previous successful result. Reviewed corrections and suppression decisions survive reruns. Retained results affected by deleted sources still obey publication suppression rules.
 
@@ -106,7 +106,7 @@ Model projects, mentions, supporting contributions, labels, and processing histo
 
 ### Public export and static website
 
-Export only approved public fields from a consistent database snapshot. Raw source payloads, credentials, processing diagnostics, and private review history stay local. Approval is explicit publication state; validation alone does not imply approval. The pilot may use a simple local review command rather than an administrative UI.
+Export only approved public fields from a consistent database snapshot. Raw source payloads, credentials, processing diagnostics, and private review history stay local. Approval is explicit publication state; validation alone does not imply approval. The pilot uses a local review command rather than an administrative UI.
 
 Astro renders project pages and paginated date-ordered lists at build time, with ordinary links for crawling and navigation. Project pages and modals share their presentation and public data contract. JavaScript enhances the list with search, filters, and modals.
 

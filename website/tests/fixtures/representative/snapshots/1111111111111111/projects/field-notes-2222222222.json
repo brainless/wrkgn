@@ -1,0 +1,35 @@
+{
+  "id": 2,
+  "slug": "field-notes-2222222222",
+  "name": "Field Notes",
+  "mentions": [
+    {
+      "name": "Field Notes",
+      "description": "A notebook for documenting field observations.",
+      "problem": "Observations become difficult to compare over time.",
+      "audience": "researchers",
+      "builder_username": "samplebuilder",
+      "source_item_id": 90000001,
+      "source_url": "https://news.ycombinator.com/item?id=90000001",
+      "author": "samplebuilder",
+      "shared_at": 1750000000,
+      "links": ["https://example.com/field-notes"],
+      "requests": [{"kind": "feedback", "source_item_id": 90000001, "source_url": "https://news.ycombinator.com/item?id=90000001", "evidence": "I would appreciate feedback.", "shared_at": 1750000000}],
+      "supporting": [{"source_item_id": 90000002, "source_url": "https://news.ycombinator.com/item?id=90000002", "summary": "A reader asked about exporting notes.", "excerpt": "Can I export notes?", "author": "sample-reader", "shared_at": 1750000100}]
+    },
+    {
+      "name": "Field Notes",
+      "description": "A notebook for documenting field observations.",
+      "problem": null,
+      "audience": "researchers",
+      "builder_username": "samplebuilder",
+      "source_item_id": 80000001,
+      "source_url": "https://news.ycombinator.com/item?id=80000001",
+      "author": "samplebuilder",
+      "shared_at": 1740000000,
+      "links": [],
+      "requests": [],
+      "supporting": []
+    }
+  ]
+}

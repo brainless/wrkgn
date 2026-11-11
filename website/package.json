@@ -1,0 +1,17 @@
+{
+  "name": "wrkgn-website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "stage": "node scripts/stage-snapshot.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.12"
+  },
+  "dependencies": {
+    "astro": "^7.1.3"
+  }
+}

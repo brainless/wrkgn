@@ -1,0 +1,21 @@
+[package]
+name = "wrkgn"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+rig-core = { git = "https://github.com/0xPlaygrounds/rig", rev = "7dfd8a4229a9d89af159489687cb14b404b2871d", features = ["reqwest"] }
+rig-agent = { git = "https://github.com/0xPlaygrounds/rig", rev = "7dfd8a4229a9d89af159489687cb14b404b2871d" }
+serde = { version = "1", features = ["derive"] }
+schemars = "1"
+dotenvy = "0.15"
+tokio = { version = "1", features = ["rt", "macros"] }
+
+rusqlite = { version = "0.41.1", features = ["bundled"] }
+serde_json = "1.0.154"
+sha2 = "0.10.9"
+ureq = { version = "3.5.0", default-features = false, features = ["rustls", "json"] }
+
+[dev-dependencies]
+tempfile = "3.27.0"

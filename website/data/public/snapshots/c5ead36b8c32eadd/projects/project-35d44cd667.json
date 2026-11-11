@@ -1,0 +1,21 @@
+{
+  "id": 11,
+  "slug": "project-35d44cd667",
+  "name": null,
+  "mentions": [
+    {
+      "name": null,
+      "description": "A consultant (HN user 'brainless', working remotely from India) builds and maintains a property tax exemption compliance platform for a non-profit client, and is building a work/coding agent around it. Incoming data is Excel/CSV exports from Entrata, Yardi, or manually managed Excel in a fixed expected format that is often missing or poorly managed upstream. Development and support are run entirely via Claude Code, with the non-profit creating feature mocks and a Google Sheet of bugs/feature requests. The proposed idea: host a backend for the work/coding agent on a server, with a desktop/web app managing users, permissions, and tasks between users and agents; the non-profit staff could inspect files, generate tasks for the coding agent (which the developer reviews), and email property managers about data issues. Property managers would eventually get their own desktop/web app to manage data at source, with the goal of growing into a larger AI-enabled product for property managers.",
+      "problem": "Incoming Excel/CSV data from Entrata, Yardi, or manual Excel is often missing or poorly managed upstream, so someone with file access needs to diagnose the issues, generate fix tasks for the coding agent, and communicate with property managers about data problems.",
+      "audience": "A non-profit client whose clients are 70+ property managers in NC/SC (some managing 10,000+ units), plus eventually the property managers themselves for source-data management.",
+      "builder_username": "brainless",
+      "source_item_id": 50420299,
+      "source_url": "https://news.ycombinator.com/item?id=50420299",
+      "author": "brainless",
+      "shared_at": 1794191664,
+      "links": [],
+      "requests": [],
+      "supporting": []
+    }
+  ]
+}

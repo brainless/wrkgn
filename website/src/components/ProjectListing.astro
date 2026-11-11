@@ -1,0 +1,21 @@
+---
+import SiteLayout from './SiteLayout.astro';
+import ProjectCard from './ProjectCard.astro';
+import { snapshot } from '../lib/snapshot.mjs';
+export const PAGE_SIZE = 30;
+const { page = 1 } = Astro.props;
+const projects = snapshot.discovery;
+const pageCount = Math.max(1, Math.ceil(projects.length / PAGE_SIZE));
+const shown = projects.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+const pageUrl = (number) => number === 1 ? '/' : `/projects/page/${number}/`;
+---
+<SiteLayout title="Explore projects" directory>
+  <section class="directory container" aria-labelledby="directory-heading" data-directory data-version={snapshot.pointer.version} data-categories={JSON.stringify(snapshot.manifest.categories)} data-page-size={PAGE_SIZE}>
+    <div class="directory-main"><div class="section-heading"><div><span class="eyebrow eyebrow--small">The directory</span><h1 id="directory-heading">Latest shared projects</h1></div><p data-total-count>{projects.length} {projects.length === 1 ? 'project' : 'projects'} published</p></div><p class="result-count" data-result-count role="status" aria-live="polite"></p>
+    <div data-results>{projects.length === 0 ? <div class="empty-state"><span class="empty-state__mark" aria-hidden="true">✳</span><h3>Nothing on the shelf yet.</h3><p>Approved projects will appear here after the first public snapshot is staged.</p></div> : <div class="project-list">{shown.map((project) => <ProjectCard project={project} />)}</div>}</div>
+    <div data-pagination>{pageCount > 1 && <nav class="pagination" aria-label="Project pages"><a class={page === 1 ? 'pagination__disabled' : ''} href={page > 1 ? pageUrl(page - 1) : undefined} aria-disabled={page === 1 ? 'true' : undefined}>← Previous</a><span>Page {page} of {pageCount}</span><a class={page === pageCount ? 'pagination__disabled' : ''} href={page < pageCount ? pageUrl(page + 1) : undefined} aria-disabled={page === pageCount ? 'true' : undefined}>Next →</a></nav>}</div>
+    </div>
+  </section>
+  <dialog class="project-modal" data-project-modal aria-label="Project details"><div class="modal-bar"><button type="button" data-modal-close aria-label="Close project details">← Back to results</button></div><div data-modal-content></div></dialog>
+</SiteLayout>
+<script>import { initDiscovery } from '../scripts/discovery.mjs'; initDiscovery();</script>
