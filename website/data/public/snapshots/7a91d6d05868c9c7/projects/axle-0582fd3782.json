@@ -1,0 +1,25 @@
+{
+  "id": 185,
+  "slug": "axle-0582fd3782",
+  "name": "Axle",
+  "mentions": [
+    {
+      "name": "Axle",
+      "description": "TypeScript-native open-source AI agent library that encapsulates the agent lifecycle: calling agent.send() handles all tool calls and returns Turns that can be rendered directly in React with a simple loop. It is portable across common model providers and protocols and can be used as a harness to test and play with newly released models. The 0.36 release adds a RemoteAgent interface for talking to a remote agent instance over RPC.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "johncch"
+      ],
+      "source_excerpt": "Axle is TypeScript-native.\n- Its goal in life is to encapsulate the agent lifecycle and make it really easy to render. Call agent.send() and it handles all the tool calls and returns Turns, which you can render directly in React with a simple loop.",
+      "source_item_id": 50429050,
+      "source_url": "https://news.ycombinator.com/item?id=50429050",
+      "author": "johncch",
+      "shared_at": 1794247220,
+      "links": [
+        "https://axle.fifthrevision.com",
+        "https://github.com/johncch/axle"
+      ]
+    }
+  ]
+}

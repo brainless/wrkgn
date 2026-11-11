@@ -1,0 +1,22 @@
+{
+  "id": 102,
+  "slug": "new-rust-compiler-built-from-scratch-2f24e4bc40",
+  "name": "New Rust compiler built from scratch",
+  "mentions": [
+    {
+      "name": "New Rust compiler built from scratch",
+      "description": "A brand new Rust compiler being built from scratch with the goal of radically improving Rust compile times, applying the same approach used to create agent-built C++ compilers that compile about 4x faster than GCC and Clang. The compiler is not yet at the self-hosting stage, but early results are promising.",
+      "problem": "Slow Rust compile times",
+      "audience": null,
+      "builder_usernames": [
+        "vishvananda"
+      ],
+      "source_excerpt": "I'm taking a radical approach to improving rust compile times. The reason it is radical is it involves building a brand new rust compiler.",
+      "source_item_id": 50421358,
+      "source_url": "https://news.ycombinator.com/item?id=50421358",
+      "author": "vishvananda",
+      "shared_at": 1794201487,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": 42,
+  "slug": "brief-case-study-bf56b8d47a",
+  "name": "Brief Case Study",
+  "mentions": [
+    {
+      "name": "Brief Case Study",
+      "description": "An interactive learning platform that turns real outage case studies into 5-minute system design scenarios: the player steps through fixing an outage as if they were the one on-call, then sees what the real team did and roughly how their own choices would have played out. Choices are scored against what was known at that minute rather than judged in hindsight, since many correct choices exist and companies sometimes got it wrong. The first published case covers Supabase's February outage, where a monitoring deploy cut off a whole AWS region.",
+      "problem": "System design is hard to grasp on paper — the concepts are known individually but are difficult to put together; the creator only found they clicked after reading case studies of real outages.",
+      "audience": "Developers studying system design (the creator's own path toward becoming a senior dev motivated it, and he invites others to learn from the cases).",
+      "builder_usernames": [
+        "fulopmilan"
+      ],
+      "source_excerpt": "So I've been turning them into 5 minute cases you can play through, as if you were the one fixing the outage. Then you see what the real team did, and roughly how your version of the choices would've gone.",
+      "source_item_id": 50446918,
+      "source_url": "https://news.ycombinator.com/item?id=50446918",
+      "author": "fulopmilan",
+      "shared_at": 1794348161,
+      "links": [
+        "https://briefcasestudy.com/system-design/c/0"
+      ]
+    }
+  ]
+}

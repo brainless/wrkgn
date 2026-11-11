@@ -1,0 +1,24 @@
+{
+  "id": 287,
+  "slug": "semiotique-f115bb6d69",
+  "name": "Semiotique",
+  "mentions": [
+    {
+      "name": "Semiotique",
+      "description": "This is an early-stage Python library with a vision of growing into a framework, SDK, and programming language for seamlessly meshing \"plain old code\" with LLM evaluations. Its runtime performs smart context engineering in the background to steer the LLM and improve its correctness, aiming to enable agentic applications that leverage LLM flexibility while retaining the determinism of regular code.",
+      "problem": "Seamlessly combining plain code with LLM evaluations is difficult, and LLM applications lack the determinism of regular code.",
+      "audience": "Developers building agentic applications.",
+      "builder_usernames": [
+        "vkgcr"
+      ],
+      "source_excerpt": "I've been working on Semiotique (still very early stage).\n\nRight now it's a python library, but the vision is to build a new framework / SDK / programming language which allows you to seamlessly mesh \"plain old code\" with LLM evaluations, while having a runtime which does \"smart\" context engineering in the background in order to steer the LLM and improve its correctness.",
+      "source_item_id": 50424679,
+      "source_url": "https://news.ycombinator.com/item?id=50424679",
+      "author": "vkgcr",
+      "shared_at": 1794227257,
+      "links": [
+        "https://github.com/VKCR/semiotique"
+      ]
+    }
+  ]
+}

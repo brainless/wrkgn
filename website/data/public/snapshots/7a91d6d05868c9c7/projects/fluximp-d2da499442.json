@@ -1,0 +1,24 @@
+{
+  "id": 270,
+  "slug": "fluximp-d2da499442",
+  "name": "fluximp",
+  "mentions": [
+    {
+      "name": "fluximp",
+      "description": "This AI coding agent optimizes token usage through context management: breaking the prefix to remove old items from the context and doing rolling summarization to keep prompt size down, aiming to beat standard context management approaches on total cost. On the same benchmark it reduces the number of requests by a factor of about 3 relative to oh-my-pi.",
+      "problem": "Provider-side prompt-cache economics have changed: input-to-cached-token cost ratios on some DS v4.1 Flash providers reach 33 to 50 with >99% cache hit rates, making prefix cache breaks much more expensive and it harder to get ahead on total cost versus usual context management approaches for long agent tasks.",
+      "audience": null,
+      "builder_usernames": [
+        "joshheitzman"
+      ],
+      "source_excerpt": "Optimizing token usage for my AI coding agent:  https://github.com/fluxmoot/fluximp",
+      "source_item_id": 50420060,
+      "source_url": "https://news.ycombinator.com/item?id=50420060",
+      "author": "joshheitzman",
+      "shared_at": 1794189745,
+      "links": [
+        "https://github.com/fluxmoot/fluximp"
+      ]
+    }
+  ]
+}

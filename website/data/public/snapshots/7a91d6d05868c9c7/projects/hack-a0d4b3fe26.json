@@ -1,0 +1,24 @@
+{
+  "id": 357,
+  "slug": "hack-a0d4b3fe26",
+  "name": "Hack",
+  "mentions": [
+    {
+      "name": "Hack",
+      "description": "iOS Hacker News client app that has been around for 9 years. This update adds support for iPhone Duo, whose vertical stack menu on the right side is incompatible with the app's original custom-view menu bars and navigation buttons, by switching to iOS native navigation bars and menu bars along with other improvements; it is in final testing ahead of submission to Apple.",
+      "problem": "The app's 9-year-old custom view menu bars and navigation buttons do not work well on iPhone Duo because of its vertical stack menu on the right side.",
+      "audience": null,
+      "builder_usernames": [
+        "busymom0"
+      ],
+      "source_excerpt": "Currently working on adding support for iPhone Duo to my hacker news app Hack.",
+      "source_item_id": 50417936,
+      "source_url": "https://news.ycombinator.com/item?id=50417936",
+      "author": "busymom0",
+      "shared_at": 1794175914,
+      "links": [
+        "https://apps.apple.com/app/id1464477788"
+      ]
+    }
+  ]
+}

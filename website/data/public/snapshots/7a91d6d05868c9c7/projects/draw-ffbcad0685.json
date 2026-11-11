@@ -1,0 +1,26 @@
+{
+  "id": 54,
+  "slug": "draw-ffbcad0685",
+  "name": "draw",
+  "mentions": [
+    {
+      "name": "draw",
+      "description": "A live architecture board that developers and their coding agents draw on together. The agent connects over MCP (Claude Code, Cursor, Codex, claude.ai) and draws what it changes as it works, with edges meant to cite a source line or fingerprint. Users can circle something in red crayon to get the agent to answer or fix it. Use cases include an incident scratch pad where the agent lays out its debugging findings, seeing how a change affects the architecture before reading the diff, flagging risky parts like a DB migration with every piece of code that reads that table, diagram branching (creating a branch of an existing diagram instead of cloning it), and a work-in-progress GitHub App that generates a diagram per PR. Open source under Apache-2.0.",
+      "problem": "Teams stopped reviewing code because large AI-generated PRs became unmanageable, and reading large LLM outputs after work was exhausting; the author had a hard time understanding what the agent wanted to do or had just completed.",
+      "audience": "A developer teams drowning in large AI-generated code changes, where code review became unmanageable and reading large LLM outputs was exhausting; the author struggled to understand what the coding agent wanted to do or had just completed.",
+      "builder_usernames": [
+        "mralanlee"
+      ],
+      "source_excerpt": "So I built https://draw.redcrayon.ai (with a few friends), inspired by tools we love like Excalidraw: a live architecture board you and your coding agent draw on together.",
+      "source_item_id": 50426572,
+      "source_url": "https://news.ycombinator.com/item?id=50426572",
+      "author": "mralanlee",
+      "shared_at": 1794236431,
+      "links": [
+        "https://docs.redcrayon.ai",
+        "https://draw.redcrayon.ai",
+        "https://github.com/redcrayonai/draw"
+      ]
+    }
+  ]
+}

@@ -8,7 +8,7 @@ collect → process → review / approve → export → stage → inspect / buil
 
 ## Local setup and paths
 
-Run the Rust commands below from the repository root. `cargo run --` runs the current CLI source; if you have installed an up-to-date `wrkgn` binary, you can use `wrkgn` instead.
+Run the Rust commands below from the repository root. `cargo run --bin wrkgn --` runs the current CLI source; if you have installed an up-to-date `wrkgn` binary, you can use `wrkgn` instead.
 
 - Rust uses the pinned nightly toolchain and Cranelift configuration. See [development setup](docs/development.md#rust-toolchain).
 - Copy `.env.example` to `.env` if needed and configure one provider's credentials locally. The CLI loads `.env` from the current directory; shell variables take precedence. Never commit credentials.
@@ -24,7 +24,7 @@ Keep the local database: it contains source history, review decisions, correctio
 Use the item ID from the HN discussion URL, for example `https://news.ycombinator.com/item?id=50417407`:
 
 ```sh
-cargo run -- collect --thread 50417407
+cargo run --bin wrkgn -- collect --thread 50417407
 ```
 
 This fetches the post and its reply tree and stores them locally. Repeat the same command to refresh edits, deletions, and replies. It is the only command that fetches HN data. It does not extract projects or update the staged website.
@@ -34,7 +34,7 @@ Processing requires the latest collection run for that thread to be complete. If
 ## 2. Process stored comments
 
 ```sh
-cargo run -- process --thread 50417407
+cargo run --bin wrkgn -- process --thread 50417407
 ```
 
 This calls the configured model using stored source, without fetching HN. One extraction agent handles a top-level comment and its reply subtree, with bounded chunks for oversized groups. Rust validates the results. New mentions are pending review; extraction success is not publication approval.
@@ -46,7 +46,7 @@ Successful unchanged groups are skipped. Changes to source, prompt/schema versio
 To reduce parallel model calls (default: 10):
 
 ```sh
-cargo run -- process --thread 50417407 --concurrency 3
+cargo run --bin wrkgn -- process --thread 50417407 --concurrency 3
 ```
 
 Rate-limit and transport failures receive retries with backoff shared across workers, pausing new requests while the provider recovers. Persistent failures stop new work; inspect the reported failures and resume once the provider issue is resolved.
@@ -56,7 +56,7 @@ If a structured response fails local provenance validation, the extractor gets u
 ### Force reprocessing
 
 ```sh
-cargo run -- process --thread 50417407 --reprocess
+cargo run --bin wrkgn -- process --thread 50417407 --reprocess
 ```
 
 Use this to deliberately rerun all groups, including current successful ones, such as when evaluating extraction quality. A properly versioned prompt/schema update already invalidates older results, so an ordinary `process` run is enough to migrate them. Resume a failed forced run **without** `--reprocess` to skip groups that have now succeeded.
@@ -66,8 +66,8 @@ Successful replacement results return to pending review. Corrections and suppres
 ## 3. Review and approve
 
 ```sh
-cargo run -- review pending
-cargo run -- review pending --json
+cargo run --bin wrkgn -- review pending
+cargo run --bin wrkgn -- review pending --json
 ```
 
 The readable cards show extracted fields, labels, builders, and source context; the JSON form exposes mention keys for corrections. Pending review covers the database, not just the last processed thread. Check source attribution, excerpt accuracy, descriptions, labels, URLs, and possible duplicate projects. Manually assess representative cases across the three-thread pilot before scaling up collection.
@@ -75,7 +75,7 @@ The readable cards show extracted fields, labels, builders, and source context; 
 Approve only reviewed mention IDs, individually or as inclusive ranges. These IDs are examples; use the IDs shown by your own review:
 
 ```sh
-cargo run -- review approve 12-30 34
+cargo run --bin wrkgn -- review approve 12-30 34
 ```
 
 Non-pending IDs inside a range are skipped. A range containing no pending mentions fails the approval transaction.
@@ -85,7 +85,7 @@ Non-pending IDs inside a range are skipped. A range containing no pending mentio
 Corrections take a **mention key**, rather than the numeric approval ID:
 
 ```sh
-cargo run -- review correct <mention-key> description "Reviewed factual description"
+cargo run --bin wrkgn -- review correct <mention-key> description "Reviewed factual description"
 ```
 
 Supported fields are `name`, `description`, `problem`, `audience`, and `builder_username`. Audience text is separate from taxonomy labels. There is no general CLI editor for categories, audience labels, excerpts, or additional builders; fix extraction and reprocess when those need changing. A correction does not approve a pending mention.
@@ -93,9 +93,9 @@ Supported fields are `name`, `description`, `problem`, `audience`, and `builder_
 ### Remove content or match duplicate projects
 
 ```sh
-cargo run -- review suppress-source <hn-item-id> "removal request"
-cargo run -- review suppress-project <project-id>
-cargo run -- review match <from-project-id> <to-project-id>
+cargo run --bin wrkgn -- review suppress-source <hn-item-id> "removal request"
+cargo run --bin wrkgn -- review suppress-project <project-id>
+cargo run --bin wrkgn -- review match <from-project-id> <to-project-id>
 ```
 
 Source suppression excludes that source's content from publication; project suppression excludes the project. Suppression survives reprocessing. There is currently no CLI command to undo it; an erroneous suppression requires deliberate local SQLite inspection and editing.
@@ -105,7 +105,7 @@ Match only when evidence shows two project records represent the same project. M
 ## 4. Export approved data
 
 ```sh
-cargo run -- export
+cargo run --bin wrkgn -- export
 ```
 
 Export includes approved public records across the database, with corrections and suppression applied. It writes a completed versioned snapshot and atomically updates `local-data/public-export/current.json`. Raw payloads, private review history, credentials, and SQLite are excluded.
@@ -115,7 +115,7 @@ Export includes approved public records across the database, with corrections an
 If export reports missing project excerpts or legacy audience labels, reprocess the affected threads with the current extractor and review the new results. Database migrations preserve legacy records; they do not silently relabel or approve them. For older free-text **category** data, the explicit offline migration is:
 
 ```sh
-cargo run -- categories normalize
+cargo run --bin wrkgn -- categories normalize
 ```
 
 Unknown category labels abort normalization before any write. This command does not fix legacy audiences or missing excerpts.

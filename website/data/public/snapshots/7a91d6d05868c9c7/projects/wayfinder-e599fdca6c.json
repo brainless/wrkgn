@@ -1,0 +1,24 @@
+{
+  "id": 79,
+  "slug": "wayfinder-e599fdca6c",
+  "name": "Wayfinder",
+  "mentions": [
+    {
+      "name": "Wayfinder",
+      "description": "A Rust-based tool that optimizes LLM agent memory on complex projects by adding a semantic layer on top of an LLM Wiki. It improves agent knowledge over a codebase, cut token usage by 30% in the author's benchmarks, and includes features for handling concurrent agents updating shared memory to keep information reliable and fresh. Published to PyPI (installable via \"uv tool install wayfinder-memory\") and compatible with almost all agent harnesses.",
+      "problem": "Existing approaches to improving agent knowledge over a codebase weren't giving the results the author wanted, and they wanted to keep it simple while optimizing agent memory on complex projects.",
+      "audience": null,
+      "builder_usernames": [
+        "zaterka"
+      ],
+      "source_excerpt": "I've been working on optimizing agent memory on complex projects. That resulted in  this simple Rust-based tool called Wayfinder: https://github.com/zaterka/wayfinder",
+      "source_item_id": 50417938,
+      "source_url": "https://news.ycombinator.com/item?id=50417938",
+      "author": "zaterka",
+      "shared_at": 1794175936,
+      "links": [
+        "https://github.com/zaterka/wayfinder"
+      ]
+    }
+  ]
+}

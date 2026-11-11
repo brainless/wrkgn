@@ -1,0 +1,24 @@
+{
+  "id": 44,
+  "slug": "twitch-streamed-linux-coding-competition-e1f7d95528",
+  "name": "Twitch-streamed Linux coding competition",
+  "mentions": [
+    {
+      "name": "Twitch-streamed Linux coding competition",
+      "description": "This project stages live competitive coding matches: two contestants are placed in a well-equipped Linux environment (checkpointed fly.io Sprites), given the same task, and race to complete it first, with the whole match streamed to Twitch. Contestants can bring their own dotfiles, workflows, harnesses, and editor configs, letting viewers watch how the work gets done. Planned 'weight classes' will fix the level of harness capability per tier — from no agents at all, to small local open-weight LLMs, to large open-weight models, to frontier models — and users will be ranked in each class so people can compete to deliver the most at various cost tiers.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "graerg"
+      ],
+      "source_excerpt": "I'm tinkering on a project to take two contestants and dump them into a reasonably nicely equipped linux environment (checkpointed fly.io Sprites), giving them a task, and watching them compete in real time to see who gets it done first. All of it streams to twitch.",
+      "source_item_id": 50419911,
+      "source_url": "https://news.ycombinator.com/item?id=50419911",
+      "author": "graerg",
+      "shared_at": 1794188464,
+      "links": [
+        "https://www.twitch.tv/videos/2923688013"
+      ]
+    }
+  ]
+}

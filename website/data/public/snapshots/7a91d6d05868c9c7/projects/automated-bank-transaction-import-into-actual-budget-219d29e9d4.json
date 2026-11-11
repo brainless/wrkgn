@@ -1,0 +1,22 @@
+{
+  "id": 809,
+  "slug": "automated-bank-transaction-import-into-actual-budget-219d29e9d4",
+  "name": "Automated bank transaction import into Actual Budget",
+  "mentions": [
+    {
+      "name": "Automated bank transaction import into Actual Budget",
+      "description": "This automation pulls transactions from the author's Canadian banks and imports them into Actual Budget, using AI to replace unreliable third-party sync services.",
+      "problem": "SimpleFIN or Plaid type services frequently break, make mistakes or require reauthentication every few hours for Canadian banks due to the lack of open banking, making them not so useful.",
+      "audience": null,
+      "builder_usernames": [
+        "zaptheimpaler"
+      ],
+      "source_excerpt": "Recently I automated pulling transactions from my banks (Canada, no open banking..) and putting them into Actual Budget.",
+      "source_item_id": 50421793,
+      "source_url": "https://news.ycombinator.com/item?id=50421793",
+      "author": "zaptheimpaler",
+      "shared_at": 1794205407,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": 244,
+  "slug": "camera-nocta-a1c1aad44c",
+  "name": "Camera Nocta",
+  "mentions": [
+    {
+      "name": "Camera Nocta",
+      "description": "A film-style black and white photography app for Android and iPhone (iOS pending App Store approval, currently in TestFlight). It features a custom RAW pipeline with the author's own denoise that preserves natural grain instead of the 'skin waxing' effect of typical noise reduction and AI, an opinionated UI geared toward shooting over editing, and custom color-pushing editing tools modeled on dye and pigment rather than saturation sliders. Tuned for portraits and fashion photography.",
+      "problem": "Bad noise reduction and AI processing produce an artificial 'skin waxing' look that the author dislikes; the app instead preserves natural grain in black and white photos.",
+      "audience": "Photographers and artists, especially those shooting portraits and fashion",
+      "builder_usernames": [
+        "simonsarris"
+      ],
+      "source_excerpt": "Camera Nocta. I started making an Android app to take better black and white photos of my wife, and it snowballed into a full fledged film-styles app for both Android and iPhone (if I ever get app store approval). It's best for portraits (tuned for a lot of skin) and fashion photography.",
+      "source_item_id": 50419925,
+      "source_url": "https://news.ycombinator.com/item?id=50419925",
+      "author": "simonsarris",
+      "shared_at": 1794188649,
+      "links": [
+        "https://play.google.com/store/apps/details?id=com.cafesarris.nocta",
+        "https://testflight.apple.com/join/Jtppv1Xc"
+      ]
+    }
+  ]
+}

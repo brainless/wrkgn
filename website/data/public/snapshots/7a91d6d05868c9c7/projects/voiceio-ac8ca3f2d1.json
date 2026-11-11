@@ -1,0 +1,24 @@
+{
+  "id": 570,
+  "slug": "voiceio-ac8ca3f2d1",
+  "name": "Voiceio",
+  "mentions": [
+    {
+      "name": "Voiceio",
+      "description": "A fully open-source voice-to-text transcription pipeline for Linux, billed as the fastest and most accurate Linux transcriber. The author patched upstream libraries like ONNX to make them work with latest models such as Parakeet.",
+      "problem": "Existing voice-to-text pipelines for Linux were poor.",
+      "audience": null,
+      "builder_usernames": [
+        "montenegrohugo"
+      ],
+      "source_excerpt": "All Voice-to-text pipelines for linux sucked, so I made my own. I also patched upstream libraries like ONNX to actually work with latest models (was a PITA to make parakeet work!)\n\nIt's now the fastest and most accurate linux transcriber.\n\n(fully FOSS of course)",
+      "source_item_id": 50423652,
+      "source_url": "https://news.ycombinator.com/item?id=50423652",
+      "author": "montenegrohugo",
+      "shared_at": 1794219702,
+      "links": [
+        "http://voiceio.dev"
+      ]
+    }
+  ]
+}

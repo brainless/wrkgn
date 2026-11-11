@@ -1,0 +1,24 @@
+{
+  "id": 130,
+  "slug": "aetheris-c73e509172",
+  "name": "Aetheris",
+  "mentions": [
+    {
+      "name": "Aetheris",
+      "description": "An almost purely analytical 3D geometry kernel/engine focused on performance and reliability, with aggressive optimization that makes building 3D models faster, trading away unusual modeling features like asymmetrical or variable-radius fillets. It can be used directly by agents instead of going through a UX layer.",
+      "problem": "Existing CAD tools like SolidWorks consume gigabytes of RAM for simple parts and crash randomly.",
+      "audience": null,
+      "builder_usernames": [
+        "YuechenLi"
+      ],
+      "source_excerpt": "https://github.com/yuechen-li-dev/Aetheris\n\nAetheris is focused on performance and reliability first and foremost, because I'm just so tired of SolidWorks eating up gigabytes of RAM for simple parts and crashing randomly. So, tge (almost) pure analytical geometry engine with aggressive optimization means it is faster in terms of building 3D models, but the trade-off is that it doesn't let you do weird modeling like asymmetrical/variable radius fillets.",
+      "source_item_id": 50419952,
+      "source_url": "https://news.ycombinator.com/item?id=50419952",
+      "author": "YuechenLi",
+      "shared_at": 1794188859,
+      "links": [
+        "https://github.com/yuechen-li-dev/Aetheris"
+      ]
+    }
+  ]
+}

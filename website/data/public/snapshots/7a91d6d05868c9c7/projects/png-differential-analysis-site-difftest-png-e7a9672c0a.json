@@ -1,0 +1,24 @@
+{
+  "id": 784,
+  "slug": "png-differential-analysis-site-difftest-png-e7a9672c0a",
+  "name": "PNG differential analysis site (difftest-png)",
+  "mentions": [
+    {
+      "name": "PNG differential analysis site (difftest-png)",
+      "description": "This website publishes differential analysis results for PNG libraries, comparing implementations against the 3rd edition of the PNG specification, with an option to select the 2nd edition. The underlying testing found numerous bugs in PNG libraries; the site still lacks an option to show only differences that matter by real-world judgement.",
+      "problem": "PNG libraries contain numerous bugs and deviations from the PNG specification.",
+      "audience": null,
+      "builder_usernames": [
+        "MrMetric"
+      ],
+      "source_excerpt": "you can see the PNG analysis results at https://wizardmaxx.ing/difftest-png/. It compares against the 3rd edition, and you can select the 2nd edition if you want to for some reason.",
+      "source_item_id": 50422504,
+      "source_url": "https://news.ycombinator.com/item?id=50422504",
+      "author": "MrMetric",
+      "shared_at": 1794211240,
+      "links": [
+        "https://wizardmaxx.ing/difftest-png/"
+      ]
+    }
+  ]
+}

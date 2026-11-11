@@ -1,0 +1,22 @@
+{
+  "id": 33,
+  "slug": "sarcasm-safe-runtime-capability-enforcing-assembler-179b1dc515",
+  "name": "SaRCAsm (safe runtime capability-enforcing assembler)",
+  "mentions": [
+    {
+      "name": "SaRCAsm (safe runtime capability-enforcing assembler)",
+      "description": "A safe runtime capability-enforcing assembler that makes assembly memory safe. It works and OpenSSL has been ported to it, though the author does not yet have full confidence in it. Once complete it will replace zunsafe, Fil-C's escape hatch, which is currently only used for OpenSSL's assembly; hand-written assembly is otherwise needed to avoid timing side channels.",
+      "problem": "Hand-written assembly (e.g. in OpenSSL) is unsafe and currently requires zunsafe, Fil-C's escape hatch, since without calls out to assembly OpenSSL has too high a risk of timing side channels.",
+      "audience": null,
+      "builder_usernames": [
+        "pizlonator"
+      ],
+      "source_excerpt": "The SaRCAsm (safe runtime capability-enforcing assembler) works and I have OpenSSL ported to it but I don’t yet have 100% confidence in this. Once this is done I’ll be able to get rid of zunsafe (the closest thing to an escape hatch in Fil-C; it’s only used for the assembly in OpenSSL; without calls out to assembly, OpenSSL has too high risk of timing side channels).",
+      "source_item_id": 50419720,
+      "source_url": "https://news.ycombinator.com/item?id=50419720",
+      "author": "pizlonator",
+      "shared_at": 1794186905,
+      "links": []
+    }
+  ]
+}

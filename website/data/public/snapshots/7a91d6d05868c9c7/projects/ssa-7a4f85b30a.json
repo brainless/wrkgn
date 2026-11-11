@@ -1,0 +1,22 @@
+{
+  "id": 588,
+  "slug": "ssa-7a4f85b30a",
+  "name": "ssa",
+  "mentions": [
+    {
+      "name": "ssa",
+      "description": "A shell-based AI CLI tool that runs small local models (around 2B parameters) to help debug Linux issues when offline, with the ability to switch to cloud-based models for harder tasks once back online, all while feeling like a CLI tool.",
+      "problem": "Getting useful debugging help for Linux issues when offline using small models that can run anywhere.",
+      "audience": null,
+      "builder_usernames": [
+        "pianopatrick"
+      ],
+      "source_excerpt": "I'm still working on my own shell based AI tool. This month I am testing and reworking it to try and get useful results with really small models, like 2B level.  Goal is to get help debugging Linux issues when offline with these small models that can run anywhere. Then also being able to access cloud based models to do harder stuff once online. all while feeling like a CLI tool.",
+      "source_item_id": 50417984,
+      "source_url": "https://news.ycombinator.com/item?id=50417984",
+      "author": "pianopatrick",
+      "shared_at": 1794176263,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": 212,
+  "slug": "switcheroo-273cad2912",
+  "name": "Switcheroo",
+  "mentions": [
+    {
+      "name": "Switcheroo",
+      "description": "Switcheroo is a simple, transparent tool that switches which account's usage is billed during a CLI session, letting users juggle multiple paid accounts for AI CLIs like Claude, Codex, and Gemini, as well as other CLIs like Vercel, Netlify, and GitHub, without changing configuration. It addresses hitting per-account usage limits mid-conversation when working across 2-3 subscriptions.",
+      "problem": "Users with multiple paid subscriptions (e.g., Claude and Codex) hit usage limits mid-conversation and have to manually switch accounts; existing solutions switch configuration rather than which account the usage is taken from.",
+      "audience": "Developers who maintain multiple paid accounts for AI coding CLIs and other services and hit per-account usage limits",
+      "builder_usernames": [
+        "ftchd"
+      ],
+      "source_excerpt": "What I need is something to switch the account where the usage is taken from, not the configuration.\n\nI made something simple & transparent named Switcheroo: https://github.com/FTCHD/switcheroo\n\nWorks with other AI CLIs like Gemini, and other various CLIs like Vercel (if you're managing multiple accounts like me), Netlify, Github etc",
+      "source_item_id": 50418068,
+      "source_url": "https://news.ycombinator.com/item?id=50418068",
+      "author": "ftchd",
+      "shared_at": 1794176695,
+      "links": [
+        "https://github.com/FTCHD/switcheroo"
+      ]
+    }
+  ]
+}

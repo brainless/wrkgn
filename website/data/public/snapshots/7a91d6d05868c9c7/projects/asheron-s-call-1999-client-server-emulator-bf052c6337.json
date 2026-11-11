@@ -1,0 +1,22 @@
+{
+  "id": 88,
+  "slug": "asheron-s-call-1999-client-server-emulator-bf052c6337",
+  "name": "Asheron's Call 1999 client server emulator",
+  "mentions": [
+    {
+      "name": "Asheron's Call 1999 client server emulator",
+      "description": "A server emulator that works with the original 1999 Asheron's Call game client, as well as the beta and preview clients. Built by reverse-engineering the launch-era network communication layer (which differs greatly from the end-of-retail 2015 client other emulators target), then restoring the abandoned or changed launch-era game mechanics and reconstructing the game world's original content and quests, using documented details from the game's running era together with tooling and Claude-assisted pattern matching.",
+      "problem": "Existing Asheron's Call server emulators only work with the end-of-retail (2015) client, and the launch-era game mechanics, content, and quests had been abandoned or changed over time.",
+      "audience": null,
+      "builder_usernames": [
+        "AtticusTheGreat"
+      ],
+      "source_excerpt": "For the past 6 months I've been working on building a server emulator that works with the original 1999 Asheron's Call game client (as well as the beta and preview clients we have access to).",
+      "source_item_id": 50428218,
+      "source_url": "https://news.ycombinator.com/item?id=50428218",
+      "author": "AtticusTheGreat",
+      "shared_at": 1794243391,
+      "links": []
+    }
+  ]
+}

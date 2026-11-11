@@ -1,0 +1,24 @@
+{
+  "id": 249,
+  "slug": "zshot-d6aa531f1d",
+  "name": "ZShot",
+  "mentions": [
+    {
+      "name": "ZShot",
+      "description": "A local-only browser tuned specifically for CLI and API usage — a browser you don't look at — that captures webpages as PNG images, MP4 video, WACZ archives, or SQLite databases. Includes a Mac app for discovering options, and an internal agent framework that performs browser flows like logging in, clicking, and screenshotting, automatically generates Playwright tests, and runs Playwright and Puppeteer test suites faster and with less memory. Multiple AI models bounce control of the web session between each other, letting a cheaper model escalate to Opus for higher-level behavior.",
+      "problem": "Fills the gap of needing a browser for programmatic use — 'I wish I had a browser, but not one to look at' — for local tooling and building services on top of it.",
+      "audience": null,
+      "builder_usernames": [
+        "netshade"
+      ],
+      "source_excerpt": "Working on ZShot [1]. I'm about a year in on a local-only browser tuned specifically for CLI and API usage - kinda filling the gap for \"geez, I sure wish I had a browser, but not one to look at\". You need a webpage as PNG, or an MP4, or a website as a WACZ or SQLite database.",
+      "source_item_id": 50336869,
+      "source_url": "https://news.ycombinator.com/item?id=50336869",
+      "author": "netshade",
+      "shared_at": 1793627885,
+      "links": [
+        "https://zshot-app.com/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": 806,
+  "slug": "browser-wasm-kernel-slopshare-dev-a01a86db6a",
+  "name": "Browser WASM kernel (slopshare.dev)",
+  "mentions": [
+    {
+      "name": "Browser WASM kernel (slopshare.dev)",
+      "description": "A Linux-kernel-like environment implemented in JavaScript that runs in the browser, where each program executes as WebAssembly. The whole system is bootstrapped from a C/C++ compiler compiled from source with a new target, and the project evolved Docker-like packaging for WASM. It can also run coding agents sandboxed inside the browser with HTTP policies and backend-managed skills/extensions, compiling Codex from source and running pi agent and CC (the old Node one) on a custom JavaScript runtime on top of QuickJS compiled inside the environment.",
+      "problem": null,
+      "audience": "People that feel a strong urge to run a browser inside a browser; also useful for running coding agents sandboxed inside the browser",
+      "builder_usernames": [
+        "daugasauron"
+      ],
+      "source_excerpt": "Not really sure what to call it, Linux kernel ish implemented in JS so you can run it in the browser. Each program runs in WASM. Everything bootstrapped from a C/Cpp compiler compiled from source with a new target. Also kinda turned into Docker for WASM.",
+      "source_item_id": 50418231,
+      "source_url": "https://news.ycombinator.com/item?id=50418231",
+      "author": "daugasauron",
+      "shared_at": 1794177607,
+      "links": [
+        "https://slopshare.dev"
+      ]
+    }
+  ]
+}

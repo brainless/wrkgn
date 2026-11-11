@@ -1,0 +1,22 @@
+{
+  "id": 722,
+  "slug": "ai-fork-co-maintenance-platform-bbc51853f6",
+  "name": "AI fork co-maintenance platform",
+  "mentions": [
+    {
+      "name": "AI fork co-maintenance platform",
+      "description": "This planned platform lets people maintaining software forks have their AI agents automatically share the ongoing work of review, CI, and rebasing on upstream, with trust established and reputation tracked so that it is difficult for bad actors to inject malware into a fork.",
+      "problem": "Many AI-written patches are similar but never merged upstream because they don't fit the maintainer's product vision, so the same patches get rewritten repeatedly instead of agents coalescing on forks; maintaining forks requires substantial ongoing investment in repository and build system setup, reviewing, CI, and rebasing, with some services limited or trial-size until they scale.",
+      "audience": null,
+      "builder_usernames": [
+        "jerkstate"
+      ],
+      "source_excerpt": "The idea is that people who are interested in maintaining a fork have their AI agents automatically share the ongoing work of review, CI, and rebase in a way where trust is established and reputation is tracked, in a way that makes it difficult for bad actors to inject malware into a fork.",
+      "source_item_id": 50428835,
+      "source_url": "https://news.ycombinator.com/item?id=50428835",
+      "author": "jerkstate",
+      "shared_at": 1794246334,
+      "links": []
+    }
+  ]
+}

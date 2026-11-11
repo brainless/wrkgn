@@ -1,0 +1,24 @@
+{
+  "id": 107,
+  "slug": "kim-1-development-6502-dev-environment-for-mac-cbf54a9b43",
+  "name": "KIM-1 Development (6502 dev environment for Mac)",
+  "mentions": [
+    {
+      "name": "KIM-1 Development (6502 dev environment for Mac)",
+      "description": "A 6502 development environment for the Mac, assembled with help from Claude, for compiling and linking 6502 assembly for the PAL-2 (a modern KIM-1 re-creation). The GitHub repo includes everything needed plus setup instructions, and some programs from The First Book of KIM re-formatted into a modern style compatible with modern assemblers.",
+      "problem": "The author wanted a way to compile and link the 6502 assembly programs from The First Book of KIM on a Mac.",
+      "audience": null,
+      "builder_usernames": [
+        "JKCalhoun"
+      ],
+      "source_excerpt": "I wanted to be able to compile/link the assembly from the book so leaned on Claude to set up a 6502 dev environment for my Mac. I put everything needed (and instructions) on GitHub [3].",
+      "source_item_id": 50332938,
+      "source_url": "https://news.ycombinator.com/item?id=50332938",
+      "author": "JKCalhoun",
+      "shared_at": 1793591597,
+      "links": [
+        "https://github.com/EngineersNeedArt/KIM-1_Development"
+      ]
+    }
+  ]
+}

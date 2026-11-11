@@ -1,0 +1,22 @@
+{
+  "id": 27,
+  "slug": "mains-power-frequency-monitor-8f962361d1",
+  "name": "Mains power frequency monitor",
+  "mentions": [
+    {
+      "name": "Mains power frequency monitor",
+      "description": "This open-source-to-be hardware tool monitors mains power frequency with microsecond resolution and is being optimized (better assembly code and optocoupler choice) to reach hundreds of nanoseconds of timing precision. It was conceived as an experiment to use the power grid as a kind of radio telescope for correlating phase jitter with space weather, and has already captured grid events such as generators spinning up to maintain frequency. The hardware will be open sourced when complete.",
+      "problem": "Wanted to determine whether mains power phase jitter correlates with space weather; that correlation experiment was never completed due to limited time.",
+      "audience": null,
+      "builder_usernames": [
+        "Saigonautica"
+      ],
+      "source_excerpt": "Ages ago, I had built a tool to monitor the mains power frequency with resolution of some microseconds. I looked at my old assembly code, and realized with better optimization and optocoupler choice, I could probably get that down to some hundreds of nanoseconds.\n\nThe original idea was to try and correlate phase jitter to space weather, essentially using the mains power system as a sort of radio telescope. I never did get it working (although I did not have much time to try, either). I was able to see interesting things like generators spinning up to maintain the frequency though.\n\nWill open source the hardware when done.",
+      "source_item_id": 50420484,
+      "source_url": "https://news.ycombinator.com/item?id=50420484",
+      "author": "Saigonautica",
+      "shared_at": 1794193246,
+      "links": []
+    }
+  ]
+}

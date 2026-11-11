@@ -1,0 +1,22 @@
+{
+  "id": 140,
+  "slug": "converse-xmpp-agent-coordination-daemon-6338e379e6",
+  "name": "Converse XMPP agent-coordination daemon",
+  "mentions": [
+    {
+      "name": "Converse XMPP agent-coordination daemon",
+      "description": "This project uses XMPP as a coordination layer for multiple LLM coding agents. A Converse XMPP client runs as a headless NodeJS daemon with a CLI that agents can invoke, and a /coordination skill (enabled by default via a Claude Code hook) ensures the daemon is running and has each agent join a password-restricted, members-only MUC shared with the other agents in the workspace and the human. Agents announce their tasks and statuses in the groupchat, coordinate so that when one agent's PR is merged the others become aware, rebase their own PRs and fix conflicts, and hand off newly arising sidequests to parallel Herdr tabs by asking in the MUC whether other agents are idle. Tasks can be assigned via XMPP DMs, groupchat, or Claude Code. Planned extensions include using PubSub to power a web UI with vertical swimlanes showing which agents are active, what they are working on, and for how long. The tools are harness-neutral and not locked to any particular inference provider.",
+      "problem": "Multiple parallel LLM agents working independently don't coordinate: they don't know when other agents' PRs are merged (so conflicts pile up) and sidequests or tangential requirements that arise mid-session have nowhere to go.",
+      "audience": null,
+      "builder_usernames": [
+        "jcbrand"
+      ],
+      "source_excerpt": "I'm exploring using XMPP as a coordination layer for multiple LLM agents.",
+      "source_item_id": 50422725,
+      "source_url": "https://news.ycombinator.com/item?id=50422725",
+      "author": "jcbrand",
+      "shared_at": 1794213067,
+      "links": []
+    }
+  ]
+}

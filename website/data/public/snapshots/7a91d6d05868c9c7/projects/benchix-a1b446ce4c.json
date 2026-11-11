@@ -1,0 +1,24 @@
+{
+  "id": 275,
+  "slug": "benchix-a1b446ce4c",
+  "name": "benchix",
+  "mentions": [
+    {
+      "name": "benchix",
+      "description": "A learning-project x86-64 kernel implementing a subset of the Linux syscall ABI, written in Rust. Current work adds tracing support, followed by allocators, including fallible allocation like the Linux kernel and questions around overcommitting and OOM handling. Built without LLMs to deeply understand OS kernels.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "debater-coder"
+      ],
+      "source_excerpt": "Now I'm going to be working on my Linux-subset ABI x86-64 kernel [0], specifically adding support for tracing, then working on allocators. It's written in Rust so I might have to figure out how to make allocation fallible like the Linux kernel does.",
+      "source_item_id": 50419449,
+      "source_url": "https://news.ycombinator.com/item?id=50419449",
+      "author": "debater-coder",
+      "shared_at": 1794184764,
+      "links": [
+        "https://github.com/debater-coder/benchix"
+      ]
+    }
+  ]
+}

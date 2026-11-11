@@ -1,0 +1,24 @@
+{
+  "id": 150,
+  "slug": "opennorme-f47b6e2a03",
+  "name": "OpenNorme",
+  "mentions": [
+    {
+      "name": "OpenNorme",
+      "description": "OpenNorme packages the entire Italian legal corpus into a single git repository containing all laws from 1861 to today, kept current through daily scraping of an official API. After every update, a GitHub Pages site is rebuilt with the new data so trends in legal changes can be explored via aggregations and charts, and it includes a Clippy-style assistant powered by an in-browser small language model.",
+      "problem": "Laws are hard to interpret and their changes over time are difficult to track, making it hard to understand what's going on.",
+      "audience": null,
+      "builder_usernames": [
+        "dej611"
+      ],
+      "source_excerpt": "So I've built OpenNorme for the Italian legal corpus here: a single git repo with all laws from 1861 to today with daily scraping from an official api.\nhttps://github.com/dej611/italian-laws-history\n\nAfter every update the github pages is rebuilt with the new data, so you can see some trends in there with some aggs and nice charts. Also, had some fun to build a clippy clone with an in browser SLM.",
+      "source_item_id": 50424272,
+      "source_url": "https://news.ycombinator.com/item?id=50424272",
+      "author": "dej611",
+      "shared_at": 1794224695,
+      "links": [
+        "https://github.com/dej611/italian-laws-history"
+      ]
+    }
+  ]
+}

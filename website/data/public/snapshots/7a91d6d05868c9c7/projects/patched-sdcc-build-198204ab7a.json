@@ -1,0 +1,22 @@
+{
+  "id": 786,
+  "slug": "patched-sdcc-build-198204ab7a",
+  "name": "Patched SDCC build",
+  "mentions": [
+    {
+      "name": "Patched SDCC build",
+      "description": "This is a patched build of the SDCC compiler with fixes for its miscompiles and performance issues, assembled from knowledge of the full downloaded issue tracker plus fuzzing; it is used to compile the author's Game Gear test ROMs.",
+      "problem": "SDCC is full of miscompiles and performance issues that kept causing problems while making the ROMs.",
+      "audience": null,
+      "builder_usernames": [
+        "MrMetric"
+      ],
+      "source_excerpt": "SDCC is the compiler I'm using for the ROMs and it's full of miscompiles and performance issues, so I'm running a patched build with everything I know about fixed, because I kept running into stupid issues while making the aforementioned ROMS (downloaded the whooole issue tracker and even fuzzed it a bit).",
+      "source_item_id": 50422504,
+      "source_url": "https://news.ycombinator.com/item?id=50422504",
+      "author": "MrMetric",
+      "shared_at": 1794211240,
+      "links": []
+    }
+  ]
+}

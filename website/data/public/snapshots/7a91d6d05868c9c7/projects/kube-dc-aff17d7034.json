@@ -1,0 +1,24 @@
+{
+  "id": 23,
+  "slug": "kube-dc-aff17d7034",
+  "name": "Kube-DC",
+  "mentions": [
+    {
+      "name": "Kube-DC",
+      "description": "A platform for building enterprise-grade private and public clouds, combining VMware, OpenShift, and Railway-like capabilities in a single product. It is completely multi-tenant, built entirely on the Kubernetes API with over 46 custom controllers written in Go and a Radix UI, and provides real managed services including nested Kubernetes, Postgres, Kafka, Valkey, and GitHub runners, plus VLANs, BGP, and shared GPU support. Currently deployed across 12 datacenters, sold mainly to government projects, with the team engaging existing IaaS and dedicated server providers.",
+      "problem": "DevOps, SRE, and platform teams need aggressive automation to run cloud infrastructure efficiently, targeting a 1:300 operator-to-developer ratio (now developers plus AI agent teams).",
+      "audience": "IaaS and dedicated server providers; DevOps, SRE, and platform teams",
+      "builder_usernames": [
+        "voatsap"
+      ],
+      "source_excerpt": "For the last 3 years, with a small team has been building https://kube-dc.com/ - a platform for building enterprise grade private and public clouds. Its like VMware + OpenShift + Railway in a single product: completely multi-tenant, built entirely on the K8s API (we built over 46 custom controllers in Go, with UI in Radix UI), with managed services like nested K8s, Postgres, Kafka, Valkey, and GitHub runners.",
+      "source_item_id": 50418230,
+      "source_url": "https://news.ycombinator.com/item?id=50418230",
+      "author": "voatsap",
+      "shared_at": 1794177602,
+      "links": [
+        "https://kube-dc.com/"
+      ]
+    }
+  ]
+}

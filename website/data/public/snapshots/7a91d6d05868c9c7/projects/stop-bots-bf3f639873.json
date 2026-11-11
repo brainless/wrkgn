@@ -1,0 +1,24 @@
+{
+  "id": 695,
+  "slug": "stop-bots-bf3f639873",
+  "name": "stop-bots",
+  "mentions": [
+    {
+      "name": "stop-bots",
+      "description": "A Rust terminal UI (TUI) for managing bot blocking at the nftables and nginx level, helping keep self-hosted servers safe from bots. Released under AGPL v3.",
+      "problem": "Self-hosted servers need protection from bots, and managing blocking across nftables and nginx is cumbersome.",
+      "audience": "Self-hosters",
+      "builder_usernames": [
+        "FabCH"
+      ],
+      "source_excerpt": "Trying to keep my selfhosted server safe with a Rust TUI for managing bot blocking at the nftables and nginx level.",
+      "source_item_id": 50418660,
+      "source_url": "https://news.ycombinator.com/item?id=50418660",
+      "author": "FabCH",
+      "shared_at": 1794179657,
+      "links": [
+        "https://github.com/ivankovic/stop-bots"
+      ]
+    }
+  ]
+}

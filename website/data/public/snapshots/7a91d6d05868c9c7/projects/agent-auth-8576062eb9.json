@@ -1,0 +1,24 @@
+{
+  "id": 781,
+  "slug": "agent-auth-8576062eb9",
+  "name": "agent-auth",
+  "mentions": [
+    {
+      "name": "agent-auth",
+      "description": "A tool that gives AI coding agents like Codex SSH authentication without storing private keys on the server. It presents a normal SSH_AUTH_SOCK to the agent, supports sudo through pam_ssh_agent_auth, and routes signing requests to the 1Password SSH agent on an available Mac or to Agent Witness on a phone.",
+      "problem": "Giving an AI agent the access it needs without leaving private keys and other credentials on the server.",
+      "audience": null,
+      "builder_usernames": [
+        "evanpurkhiser"
+      ],
+      "source_excerpt": "For SSH (and sudo through pam_ssh_agent_auth), I ended up building agent-auth and Agent Witness. Codex sees a normal SSH_AUTH_SOCK and supplies some context about why it needs a signature. If one of my Macs is available, agent-auth proxies the request to the 1Password SSH agent there. Otherwise it routes the request to Agent Witness on my phone.",
+      "source_item_id": 50418840,
+      "source_url": "https://news.ycombinator.com/item?id=50418840",
+      "author": "evanpurkhiser",
+      "shared_at": 1794180560,
+      "links": [
+        "https://github.com/evanpurkhiser/agent-auth"
+      ]
+    }
+  ]
+}

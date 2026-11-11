@@ -1,0 +1,24 @@
+{
+  "id": 606,
+  "slug": "rouler-b64d1ad25a",
+  "name": "Rouler",
+  "mentions": [
+    {
+      "name": "Rouler",
+      "description": "VPN split tunneling tool for Windows that steers connections per app or service, similar to Linux IP rules. Built entirely in Rust, including the kernel driver, with folder and Windows Store support in progress.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "brndnbuilds"
+      ],
+      "source_excerpt": "I've just released v1.0 of Rouler which is VPN split tunneling for windows. Think IP rules for Linux, but with per-app/service connection steering. The whole app is built in Rust, including the kernel driver. Having released v1 I'm now starting work on adding folder and windows store support. https://rouler.io",
+      "source_item_id": 50330659,
+      "source_url": "https://news.ycombinator.com/item?id=50330659",
+      "author": "brndnbuilds",
+      "shared_at": 1793572643,
+      "links": [
+        "https://rouler.io"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": 327,
+  "slug": "double-entry-trade-erp-b644945069",
+  "name": "Double-Entry Trade ERP",
+  "mentions": [
+    {
+      "name": "Double-Entry Trade ERP",
+      "description": "An ERP rebuilt around the plaintext-accounting model, extending double-entry accounting to double-entry trade between parties. It includes a textual DSL for modeling business scenarios (e.g., a sale spanning multiple invoices across countries and currencies) plus intermediate steps like transportation and manufacturing, and aims to collapse typical ERP complications with a simplified price engine that avoids dynamic calculations for most cases.",
+      "problem": "Typical ERP systems carry a lot of complications, and price engines in particular are normally overly complicated.",
+      "audience": null,
+      "builder_usernames": [
+        "mamcx"
+      ],
+      "source_excerpt": "Rebuilding my ERP to work more like the model of https://plaintextaccounting.org, where I expanded the idea of `double entry accounting` to `double entry trade between parties`, plus several other ideas for what I see a way to collapse a lot of complications that are typically for ERP systems.",
+      "source_item_id": 50418252,
+      "source_url": "https://news.ycombinator.com/item?id=50418252",
+      "author": "mamcx",
+      "shared_at": 1794177725,
+      "links": []
+    }
+  ]
+}

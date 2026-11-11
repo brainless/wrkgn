@@ -1,0 +1,24 @@
+{
+  "id": 603,
+  "slug": "deadwood-rs-d18c61f057",
+  "name": "deadwood-rs",
+  "mentions": [
+    {
+      "name": "deadwood-rs",
+      "description": "A Rust tool that finds dead code left behind by LLMs, akin to fallow but for Rust.",
+      "problem": "LLMs leave dead code behind in codebases.",
+      "audience": null,
+      "builder_usernames": [
+        "rlorenzo"
+      ],
+      "source_excerpt": "Just released this: https://github.com/rlorenzo/deadwood-rs\n\nSince everyone is rewriting everything into Rust I created a tool akin to fallow (https://fallow.tools), but for Rust:\n\nFinds dead code that LLMs leave behind.",
+      "source_item_id": 50419297,
+      "source_url": "https://news.ycombinator.com/item?id=50419297",
+      "author": "rlorenzo",
+      "shared_at": 1794183513,
+      "links": [
+        "https://github.com/rlorenzo/deadwood-rs"
+      ]
+    }
+  ]
+}

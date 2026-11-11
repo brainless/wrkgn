@@ -1,0 +1,22 @@
+{
+  "id": 433,
+  "slug": "freebsd-15-2-f1febd2cf5",
+  "name": "FreeBSD 15.2",
+  "mentions": [
+    {
+      "name": "FreeBSD 15.2",
+      "description": "FreeBSD 15.2, a FreeBSD operating system release scheduled for early December, handled by release engineering. The biggest change from the release engineering perspective is using got instead of git, dramatically reducing the dependency tree.",
+      "problem": "Git's large dependency tree; switching to got dramatically reduces it.",
+      "audience": null,
+      "builder_usernames": [
+        "cperciva"
+      ],
+      "source_excerpt": "FreeBSD 15.2!  Scheduled for release in early December.  Biggest change in 15.2 from my (release engineering) perspective is that I'm using got instead of git, dramatically reducing the dependency tree.",
+      "source_item_id": 50420008,
+      "source_url": "https://news.ycombinator.com/item?id=50420008",
+      "author": "cperciva",
+      "shared_at": 1794189315,
+      "links": []
+    }
+  ]
+}

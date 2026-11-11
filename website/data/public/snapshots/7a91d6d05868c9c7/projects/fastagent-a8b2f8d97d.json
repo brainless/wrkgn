@@ -1,0 +1,24 @@
+{
+  "id": 473,
+  "slug": "fastagent-a8b2f8d97d",
+  "name": "fastagent",
+  "mentions": [
+    {
+      "name": "fastagent",
+      "description": "An open-source tool for deploying durable AI agents as web services on AWS, Cloudflare, and Fly.io at very low cost using MicroVMs. Agents run in the background and complete their work silently without chat interaction, similar to how system monitoring and logging operate.",
+      "problem": "Agent workflows default to chat interaction, but the author believes agents should instead run as cloud services that work silently and complete tasks without conversation, like monitoring and logging systems.",
+      "audience": null,
+      "builder_usernames": [
+        "yangshi07"
+      ],
+      "source_excerpt": "I am working on https://github.com/fastagent-sh/fastagent\n\nWhich let me deploy pi-durable agents to AWS, Cloudflare, Fly.io as services with every cheap cost(in MicroVM)",
+      "source_item_id": 50420615,
+      "source_url": "https://news.ycombinator.com/item?id=50420615",
+      "author": "yangshi07",
+      "shared_at": 1794194279,
+      "links": [
+        "https://github.com/fastagent-sh/fastagent"
+      ]
+    }
+  ]
+}

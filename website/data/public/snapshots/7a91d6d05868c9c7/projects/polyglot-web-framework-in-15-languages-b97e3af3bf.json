@@ -1,0 +1,24 @@
+{
+  "id": 267,
+  "slug": "polyglot-web-framework-in-15-languages-b97e3af3bf",
+  "name": "Polyglot web framework in 15 languages",
+  "mentions": [
+    {
+      "name": "Polyglot web framework in 15 languages",
+      "description": "A polyglot web framework implemented in 15 programming languages, with C# and Lean4 as the reference implementations. AI writes all the code, while deterministic tools run structural and behavioral audits to keep every language port consistent with the reference implementations; the codebase is about 1.8M lines. It is a one-year part-time experiment testing how far \"working code → correct code → good code\" can go without a human reading the code, with deterministic audits correcting structure, AI mistakes, and validating behavior.",
+      "problem": "Can a large project be built with AI writing the code and AI plus deterministic tools verifying, guiding, and enforcing structural and behavioral consistency, without a human reading the code?",
+      "audience": null,
+      "builder_usernames": [
+        "srid68"
+      ],
+      "source_excerpt": "I'm building a polyglot web framework in 15 languages, with C# and Lean4 as the reference implementations. Structural and behavioral audits using deterministic tools check that every port stays consistent with the reference. It's about 1.8M lines now.",
+      "source_item_id": 50330163,
+      "source_url": "https://news.ycombinator.com/item?id=50330163",
+      "author": "srid68",
+      "shared_at": 1793569051,
+      "links": [
+        "https://claude.ai/artifact/5f1m1pTM7tZ4boQzwsoAG7"
+      ]
+    }
+  ]
+}

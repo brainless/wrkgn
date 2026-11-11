@@ -1,0 +1,24 @@
+{
+  "id": 242,
+  "slug": "fika-lingo-5f16138aec",
+  "name": "Fika Lingo",
+  "mentions": [
+    {
+      "name": "Fika Lingo",
+      "description": "This app offers language and vocabulary practice exercises as a Duolingo replacement, including matching-words practice and other exercise types; practice generation runs on-device with a local LLM, and users can supply their own topics such as \"Words that relate to Hacker News\". It currently requires English as the counterpart language, and LFM model finetuning is being explored to improve the local practice generation.",
+      "problem": null,
+      "audience": "Personal use; built as a replacement for the author's own Duolingo usage.",
+      "builder_usernames": [
+        "jkantola"
+      ],
+      "source_excerpt": "Also trying to replace own Duolingo usage with Fika Lingo (https://fikalingo.com) basic idea was to first repro the practice of matching words. There is now few other types of language / vocabulary practices. The practice generation works on-device with local LLM, you can give the topic yourself like \"Words that relate to Hacker News\".",
+      "source_item_id": 50402587,
+      "source_url": "https://news.ycombinator.com/item?id=50402587",
+      "author": "jkantola",
+      "shared_at": 1794038373,
+      "links": [
+        "https://fikalingo.com"
+      ]
+    }
+  ]
+}

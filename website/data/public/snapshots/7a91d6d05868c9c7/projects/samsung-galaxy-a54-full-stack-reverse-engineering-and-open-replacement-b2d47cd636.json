@@ -1,0 +1,22 @@
+{
+  "id": 16,
+  "slug": "samsung-galaxy-a54-full-stack-reverse-engineering-and-open-replacement-b2d47cd636",
+  "name": "Samsung Galaxy A54 full-stack reverse engineering and open replacement",
+  "mentions": [
+    {
+      "name": "Samsung Galaxy A54 full-stack reverse engineering and open replacement",
+      "description": "This project reverse engineers and replaces the entire software stack on a Samsung Galaxy A54 (Exynos 1380, Mali-G68). It boots a customized Linux kernel with no Android layer (Wayland and WPE WebKit only), replaces the vendor Wi-Fi/Bluetooth blob with a custom thin WLBT firmware built on mac80211, and uses a USB control transfer exploit to gain code execution in the PBL. It also reconstructs the LK-based S-Boot, uH, and harx bootloaders with byte-identical verification, patches mesa/panfrost, optimizes kernels so STT/TTS runs faster on GPU than CPU, and utilizes the NPU via a custom-built toolchain, all while running pKVM to get rid of the original hypervisors. The goal is full device ownership: no binary blobs and the ability to change software and control hardware on the fly.",
+      "problem": "The stock Samsung stack is full of binary blobs and proprietary hypervisors that prevent owners from properly owning the device, changing the software, or controlling the hardware on the fly.",
+      "audience": null,
+      "builder_usernames": [
+        "leobuskin"
+      ],
+      "source_excerpt": "I’m reverse engineering and replacing the entire stack on Samsung A54 (Exynos 1380, Mali-G68), started with booting to a customized linux kernel (7.3) w/o Android layer at all (Wayland and WPE WebKit only), built a custom WLBT thin firmware to replace the original fat blob (using mac80211 as the foundation), figured out how to exploit USB control transfer and got ACE in the PBL, reconstructed (with byte-identical verification) their LK-based S-Boot, uH and harx, patched mesa/panfrost, optimized kernels for this device (finally got STT/TTS running on GPU faster than on CPU), figured out how to utilize NPU, built a custom toolchain for it.",
+      "source_item_id": 50418955,
+      "source_url": "https://news.ycombinator.com/item?id=50418955",
+      "author": "leobuskin",
+      "shared_at": 1794181332,
+      "links": []
+    }
+  ]
+}

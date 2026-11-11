@@ -1,0 +1,22 @@
+{
+  "id": 230,
+  "slug": "ai-coding-agent-with-repo-derived-dsl-recipes-0771b43e4a",
+  "name": "AI coding agent with repo-derived DSL recipes",
+  "mentions": [
+    {
+      "name": "AI coding agent with repo-derived DSL recipes",
+      "description": "AI agent that learns how a developer writes code by reading their repository and automatically extracting DSL recipes from how they structure endpoints, handle data access, write workers, use queues, and organize tests. Recipes combine across stacks and patterns into millions of variations, aiming to make code generation deterministic, cut token usage and agent wall-time, and follow existing code conventions.",
+      "problem": "AI code generation is non-deterministic, consumes many tokens, and doesn't reliably follow a project's existing conventions.",
+      "audience": null,
+      "builder_usernames": [
+        "mtrx"
+      ],
+      "source_excerpt": "An AI agent that learns how you write code. It reads your repo and automatically extracts DSL recipes from the way you structure endpoints, handle data access, write workers, use queues, and organize tests. Those recipes can combine across stacks and patterns into millions of variations. The goal is to make the code generation as deterministic as possible, cutting the token usage and agent wall-time substantially, while following your code conventions.",
+      "source_item_id": 50423699,
+      "source_url": "https://news.ycombinator.com/item?id=50423699",
+      "author": "mtrx",
+      "shared_at": 1794220206,
+      "links": []
+    }
+  ]
+}

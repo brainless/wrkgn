@@ -1,0 +1,22 @@
+{
+  "id": 554,
+  "slug": "terraform-managed-authoritative-dns-and-ansible-setup-304c52df97",
+  "name": "Terraform-managed authoritative DNS and Ansible setup",
+  "mentions": [
+    {
+      "name": "Terraform-managed authoritative DNS and Ansible setup",
+      "description": "This project migrates the author's personal infrastructure to a well-documented setup, defining the authoritative DNS zones for their domains in Terraform and setting up related configurations with Ansible.",
+      "problem": "Previous setups were done ad hoc without documentation and left running on hope; this work adds documented, codified infrastructure management.",
+      "audience": "Personal infrastructure the author runs for their own domains",
+      "builder_usernames": [
+        "ibfreeekout"
+      ],
+      "source_excerpt": "Started with my main authoritative DNS for some of my domains today, still working on some Ansible setups but I have the zones down in Terraform now.",
+      "source_item_id": 50421019,
+      "source_url": "https://news.ycombinator.com/item?id=50421019",
+      "author": "ibfreeekout",
+      "shared_at": 1794197822,
+      "links": []
+    }
+  ]
+}

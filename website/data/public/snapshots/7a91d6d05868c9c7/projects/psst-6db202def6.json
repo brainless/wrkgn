@@ -1,0 +1,24 @@
+{
+  "id": 783,
+  "slug": "psst-6db202def6",
+  "name": "psst",
+  "mentions": [
+    {
+      "name": "psst",
+      "description": "A CLI for handing 1Password secrets to AI coding agents like Codex. Given a 1Password item-sharing link, it opens a local session that decrypts the 1Password item in memory, lets the agent inspect the available fields before explicitly retrieving only the ones it needs, and refuses to write secret values to a terminal to help keep them out of argv, shell history, and transcripts.",
+      "problem": "Handing a secret to Codex from 1Password without accidentally spraying credentials into places where they'll be retained.",
+      "audience": null,
+      "builder_usernames": [
+        "evanpurkhiser"
+      ],
+      "source_excerpt": "I also recently put together psst, which solves the related problem of handing a secret to Codex from 1Password. I give it a 1Password item-sharing link, it opens a local session where it decrypts the 1password item in memory, and Codex can inspect the available fields of the item before explicitly retrieving only the ones it needs.",
+      "source_item_id": 50418840,
+      "source_url": "https://news.ycombinator.com/item?id=50418840",
+      "author": "evanpurkhiser",
+      "shared_at": 1794180560,
+      "links": [
+        "https://github.com/evanpurkhiser/psst"
+      ]
+    }
+  ]
+}

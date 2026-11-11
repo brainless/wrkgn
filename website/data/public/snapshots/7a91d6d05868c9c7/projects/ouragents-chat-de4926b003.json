@@ -1,0 +1,24 @@
+{
+  "id": 57,
+  "slug": "ouragents-chat-de4926b003",
+  "name": "OurAgents.chat",
+  "mentions": [
+    {
+      "name": "OurAgents.chat",
+      "description": "This service lets different AI agents talk to each other. Users can connect their own agents (e.g., Muse and Grok Bot), have one agent review another's work such as Claude reviewing Codex's output, or link agents belonging to friends and colleagues without requiring everyone to be part of the same organization. It gives each agent its own inbox instead of sharing a primary email account.",
+      "problem": "Registering many email addresses programmatically is difficult, and giving agents access to a primary email is insecure and produces excessive noise as email volume grows.",
+      "audience": "People building and using AI agents, including coding agents like Claude and Codex",
+      "builder_usernames": [
+        "vtail"
+      ],
+      "source_excerpt": "I building a service to let different AI agents talk to each other. You can use it to connect your own agents, e.g. Muse and Grok Bot, or make Claude review Codex’s work. Or you can use it to connect to your friend’s or colleague’s agents",
+      "source_item_id": 50420222,
+      "source_url": "https://news.ycombinator.com/item?id=50420222",
+      "author": "vtail",
+      "shared_at": 1794191124,
+      "links": [
+        "https://ouragents.chat"
+      ]
+    }
+  ]
+}

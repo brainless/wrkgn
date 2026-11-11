@@ -1,0 +1,24 @@
+{
+  "id": 110,
+  "slug": "photogather-88e4308d5a",
+  "name": "PhotoGather",
+  "mentions": [
+    {
+      "name": "PhotoGather",
+      "description": "iPhone app that virtually stitches a user's entire photo library into a single gigapixel image navigated with pinch and zoom. On import it hierarchically groups photos by date and similarity, and users can edit groups, change the layout, and adjust photo sizes. Under the hood it computes best-fit rectangles for arbitrary thumbnail aspect ratios so groups recursively stitch into rectangular thumbnails, and the zoom UI works directly from nested thumbnails without tiling.",
+      "problem": "The author had 40k+ photos on an iPhone and wanted a better way to interact with them.",
+      "audience": null,
+      "builder_usernames": [
+        "rrrpdx1"
+      ],
+      "source_excerpt": "I'm working on an iPhone app called PhotoGather. https://apps.apple.com/us/app/photogather/id6738232616\nI've got 40k+ photos on my iphone, and wanted a better way to interact with them. The basic idea I had was to virtually stitch all the photos together into a gigapixel image, and navigate that image with pinch and zoom.",
+      "source_item_id": 50418095,
+      "source_url": "https://news.ycombinator.com/item?id=50418095",
+      "author": "rrrpdx1",
+      "shared_at": 1794176883,
+      "links": [
+        "https://apps.apple.com/us/app/photogather/id6738232616"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": 163,
+  "slug": "kavla-9bcb9d23ae",
+  "name": "Kavla",
+  "mentions": [
+    {
+      "name": "Kavla",
+      "description": "Open source SQL canvas that adds interactivity to queries: typing {var} in a SQL statement pops out a knob control that infers the column's type and values, e.g. a slider for a score threshold. Includes a browser-based demo running entirely in WASM with no login.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "aleda145"
+      ],
+      "source_excerpt": "Still working on Kavla, my open source SQL canvas https://github.com/aleda145/kavla\n\nI'm very excited by adding interactivity. I have a new \"knob\" feature that pops out when you type {var}. It infers the column's type and values.",
+      "source_item_id": 50417862,
+      "source_url": "https://news.ycombinator.com/item?id=50417862",
+      "author": "aleda145",
+      "shared_at": 1794175494,
+      "links": [
+        "https://app.kavla.dev/",
+        "https://github.com/aleda145/kavla"
+      ]
+    }
+  ]
+}

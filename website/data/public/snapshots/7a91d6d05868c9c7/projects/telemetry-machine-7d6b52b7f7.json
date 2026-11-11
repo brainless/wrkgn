@@ -1,0 +1,24 @@
+{
+  "id": 792,
+  "slug": "telemetry-machine-7d6b52b7f7",
+  "name": "Telemetry Machine",
+  "mentions": [
+    {
+      "name": "Telemetry Machine",
+      "description": "An observability platform combining Honeycomb-style powerful querying, Datadog-style UI, and ClickHouse-backed speed, positioned as a lower-cost alternative to Honeycomb or Datadog, with most users connecting via an agent.",
+      "problem": "Users who like Honeycomb or Datadog don't want to pay their high prices.",
+      "audience": "SREs, platform engineers, and users of observability tools like Honeycomb or Datadog",
+      "builder_usernames": [
+        "tmach32"
+      ],
+      "source_excerpt": "I built Telemetry Machine (https://telemetrymachine.com).\n\nThe TLDR is that if you like Honeycomb or Datadog but don't want to pay insane prices, you should check it out.\n\nThe longer story is that I love talking to SREs, platform engineers, etc about observability, so if you want to kvetch about it, please send me an email at jack@telemetrymachine.com!\n\nMy cofounder and I have been working on observability for a combined 15 years and we decided to take what we love most about all these tools. We've got the powerful querying of Honeycomb, the great UI of Datadog (though most users use us via agent anyway), and the speed of Clickhouse.",
+      "source_item_id": 50424573,
+      "source_url": "https://news.ycombinator.com/item?id=50424573",
+      "author": "tmach32",
+      "shared_at": 1794226674,
+      "links": [
+        "https://telemetrymachine.com"
+      ]
+    }
+  ]
+}

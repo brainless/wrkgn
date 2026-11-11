@@ -1,0 +1,24 @@
+{
+  "id": 422,
+  "slug": "greenflagged-dev-de8dbb1740",
+  "name": "greenflagged.dev",
+  "mentions": [
+    {
+      "name": "greenflagged.dev",
+      "description": "A package registry and package manager that monitors changes to popular NPM packages to help prevent supply chain attacks, automatically reading and judging package updates. It lets AI agents settle package versions as older versions get new vulnerabilities discovered, has caught several supply chain attacks since monitoring began, and an automatic response pipeline to validate and publish newly detected attacks is in development. Python support is being worked on.",
+      "problem": "Supply chain attacks and newly discovered vulnerabilities in published package versions.",
+      "audience": null,
+      "builder_usernames": [
+        "Azkar"
+      ],
+      "source_excerpt": "I originally thought it would be useful to have a package registry that helps prevent supply chain attacks. It reads and judges all of the changes to popular NPM packages. While building I realized that it’s a package manager that agents can settle package versions with as old versions have new vulnerabilities found.\n\nI’ve caught several supply chain attacks since I started monitoring, and am building an automatic response pipeline to validate and publish new attacks.\n\nI’ve also been working on python support and hope to have that released soon.",
+      "source_item_id": 50419193,
+      "source_url": "https://news.ycombinator.com/item?id=50419193",
+      "author": "Azkar",
+      "shared_at": 1794182931,
+      "links": [
+        "https://greenflagged.dev"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": 330,
+  "slug": "kdeps-eafa3c83d7",
+  "name": "kdeps",
+  "mentions": [
+    {
+      "name": "kdeps",
+      "description": "This framework enables secure and private AI agents by declaring workflow and agency behaviors in YAML and running them with local LLM models. Workflows can be exported to Docker, Kubernetes, ISO, or binary with the local llamafile or gguf model pre-baked, or run locally. It includes an agent-loop CLI for coding tasks using local LLM models as an alternative to mainstream coding agents, with a GitHub Actions job that harvests daily llamafile, gguf, and OpenRouter free models selectable via /model in the CLI.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jjuliano"
+      ],
+      "source_excerpt": "Secure and private AI agents. Declare behaviours of workflows and agencies in YAML, that uses local LLM models.\n\nYou can export the workflow to Docker, Kubernetes, ISO, or binary, with the local llamafile or gguf model pre-baked. Or just run locally.",
+      "source_item_id": 50424589,
+      "source_url": "https://news.ycombinator.com/item?id=50424589",
+      "author": "jjuliano",
+      "shared_at": 1794226803,
+      "links": [
+        "https://kdeps.com"
+      ]
+    }
+  ]
+}

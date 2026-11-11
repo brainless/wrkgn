@@ -1,0 +1,24 @@
+{
+  "id": 97,
+  "slug": "modmask-a8f6e70732",
+  "name": "modmask",
+  "mentions": [
+    {
+      "name": "modmask",
+      "description": "A small LLVM-based tool that prints the source code locations of functions unreachable from main, letting developers safely delete dead code without altering functionality; it was used to remove about 3000 lines of code in minutes.",
+      "problem": "Identifying unreachable code so unused functionality can be removed safely without altering behavior.",
+      "audience": null,
+      "builder_usernames": [
+        "FattiMei"
+      ],
+      "source_excerpt": "For the task of removing functionality I developed a small tool based on LLVM that prints the source code location of functions that are unreachable from main, so that I can safely remove them without altering functionality, deleted ~3000 LOC in a couple of minutes[2]",
+      "source_item_id": 50424725,
+      "source_url": "https://news.ycombinator.com/item?id=50424725",
+      "author": "FattiMei",
+      "shared_at": 1794227585,
+      "links": [
+        "https://github.com/FattiMei/modmask"
+      ]
+    }
+  ]
+}

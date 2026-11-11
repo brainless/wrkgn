@@ -1,0 +1,24 @@
+{
+  "id": 407,
+  "slug": "blockwatch-e8150e0b16",
+  "name": "blockwatch",
+  "mentions": [
+    {
+      "name": "blockwatch",
+      "description": "A cross-file deterministic drift checker that detects inconsistencies between source code, configs, and docs. Code is annotated with special rules (in source comments or a blockwatch.toml config file) describing how parts of the code, configs, and docs depend on each other, and the tool flags when they drift out of sync. It uses tree-sitter to parse source code and supports 35+ languages.",
+      "problem": "Large codebases that share constants across programming languages and configs, and whose docs should strictly reflect the current state of the code, are prone to drift that is hard to detect.",
+      "audience": "Developers working on large codebases",
+      "builder_usernames": [
+        "mennanov"
+      ],
+      "source_excerpt": "I'm working on a cross-file deterministic drift checker https://github.com/mennanov/blockwatch",
+      "source_item_id": 50345100,
+      "source_url": "https://news.ycombinator.com/item?id=50345100",
+      "author": "mennanov",
+      "shared_at": 1793659481,
+      "links": [
+        "https://github.com/mennanov/blockwatch"
+      ]
+    }
+  ]
+}

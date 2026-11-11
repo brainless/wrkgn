@@ -1,0 +1,22 @@
+{
+  "id": 68,
+  "slug": "python-midi-drum-track-extractor-cc19309740",
+  "name": "Python MIDI drum track extractor",
+  "mentions": [
+    {
+      "name": "Python MIDI drum track extractor",
+      "description": "A Python tool that extracts a MIDI drum track from an mp3 or other song file. It matches the current state of the art in academic publications on the MDB benchmark and runs faster than real time in PyTorch on a few-years-old MacBook. It also generates easy/medium/hard difficulty versions from the original expert track, coming close to official Rhythmverse charts, and the author experimented with extracting an instrument model for the drum sounds, which works well on clean mixes like Back In Black but struggles with dense mixes. The planned next step is building the author's own rhythm game.",
+      "problem": null,
+      "audience": "Eventually I want to buy an e-drum kit and learn to play along with my favorite songs",
+      "builder_usernames": [
+        "cvwright"
+      ],
+      "source_excerpt": "I’ve been building a little Python tool to extract a MIDI drum track from an mp3 or other song file.  Eventually I want to buy an e-drum kit and learn to play along with my favorite songs.\n\nFrom what I can tell, we’re about even with the current state of the art in academic publications right now, at least on MDB.  Runs faster than real time in pytorch on a few years old MacBook.\n\nIt even does a decent job creating easy/medium/hard versions from the original “expert” track.  I compared ours to some charts from Rhythmverse and while we’re not as good as the official ones, we’re pretty darn close.",
+      "source_item_id": 50419728,
+      "source_url": "https://news.ycombinator.com/item?id=50419728",
+      "author": "cvwright",
+      "shared_at": 1794186990,
+      "links": []
+    }
+  ]
+}

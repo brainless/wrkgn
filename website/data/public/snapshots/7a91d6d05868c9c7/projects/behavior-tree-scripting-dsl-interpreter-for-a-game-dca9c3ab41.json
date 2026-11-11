@@ -1,0 +1,22 @@
+{
+  "id": 596,
+  "slug": "behavior-tree-scripting-dsl-interpreter-for-a-game-dca9c3ab41",
+  "name": "Behavior-tree scripting DSL + interpreter for a game",
+  "mentions": [
+    {
+      "name": "Behavior-tree scripting DSL + interpreter for a game",
+      "description": "A DSL and interpreter for behavior-tree-style scripting in a game, built to allow player scripts and dogfooded for enemy AI. Stateful typed builders were split into an untyped AST and a typed IR, and a TypeScript schema -> codegen build step generates .ts/.rs code.",
+      "problem": "The off-the-shelf behavior tree dependency looked too limited (\"too easy\") and stateful typed builders were annoying and repetitive, so a custom DSL with an untyped-AST -> typed-IR pipeline and schema-driven codegen was built instead.",
+      "audience": "Players of the game, who are meant to be able to write scripts; dogfooded by the developer for enemy AI",
+      "builder_usernames": [
+        "Frotag"
+      ],
+      "source_excerpt": ">Making a simple game\n\n>Want player scripts to be possible (And dogfood it for enemy ai too)\n\n>Behavior tree dep looks too easy, let's make a dsl + interpreter\n\n>Typed builders are annoying (because stateful), lets separate into builders -> untyped ast -> typed ir\n\n>Hm, typed ir is super repetitive, now I have a schema (ts) -> codegen (ts) -> .ts / .rs build step\n\nFun waste of 2 weeks, not even counting the time spent on pl literature",
+      "source_item_id": 50418887,
+      "source_url": "https://news.ycombinator.com/item?id=50418887",
+      "author": "Frotag",
+      "shared_at": 1794180856,
+      "links": []
+    }
+  ]
+}

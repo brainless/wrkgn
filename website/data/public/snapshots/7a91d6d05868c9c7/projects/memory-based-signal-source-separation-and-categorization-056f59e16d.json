@@ -1,0 +1,22 @@
+{
+  "id": 567,
+  "slug": "memory-based-signal-source-separation-and-categorization-056f59e16d",
+  "name": "Memory-based signal source separation and categorization",
+  "mentions": [
+    {
+      "name": "Memory-based signal source separation and categorization",
+      "description": "This project performs signal analysis to drive desired signal-triggered actions, grouping, categorizing, and stratifying signals into useful buckets. It addresses shortcomings of blind source separation, which repeatedly guesses at sources and labels them as brand new, by keeping a memory of previously identified sources so distinctions persist across samples, analogous to how humans can tell pianos from drums and remember the distinction across songs.",
+      "problem": "Blind source separation continuously guesses at sources and labels them as brand new instead of having a memory of previously identified sources.",
+      "audience": null,
+      "builder_usernames": [
+        "gabinator"
+      ],
+      "source_excerpt": "Signal analysis to drive <desired signal-driven action>. Grouping/categorizing/stratifying signals into useful buckets to drive actions. Blind source separation has drawbacks like continuously guessing at sources and labeling them as brand new instead of having a memory of previously identified sources. Think of how humans can distinguish pianos from drums and remember the distinction across songs.",
+      "source_item_id": 50419049,
+      "source_url": "https://news.ycombinator.com/item?id=50419049",
+      "author": "gabinator",
+      "shared_at": 1794181939,
+      "links": []
+    }
+  ]
+}
