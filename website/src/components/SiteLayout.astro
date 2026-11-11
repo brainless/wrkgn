@@ -18,11 +18,54 @@ const { title, directory = false, description = 'Explore projects and products s
 <script>
   const toggle = document.querySelector('[data-filters-toggle]');
   const sidebar = document.querySelector('.site-sidebar');
-  toggle?.addEventListener('click', () => {
-    const open = !sidebar.hasAttribute('data-mobile-filters-open');
-    if (!open && sidebar.contains(document.activeElement)) toggle.focus();
+  const close = sidebar.querySelector('[data-filters-close]');
+  const mobile = matchMedia('(max-width:767px)');
+  const background = document.querySelectorAll('.skip-link, .site-header, main, .site-footer');
+  let savedScrollY = 0;
+
+  function setFiltersOpen(open) {
+    if (open === sidebar.hasAttribute('data-mobile-filters-open')) return;
+    if (open) {
+      savedScrollY = window.scrollY;
+      document.body.style.setProperty('--filter-scroll-offset', `-${savedScrollY}px`);
+    }
     sidebar.toggleAttribute('data-mobile-filters-open', open);
+    document.body.classList.toggle('mobile-filters-open', open);
     toggle.setAttribute('aria-expanded', String(open));
-    if (open) sidebar.querySelector('#project-search')?.focus();
+    background.forEach((node) => { node.inert = open; });
+    if (open) {
+      sidebar.setAttribute('role', 'dialog');
+      sidebar.setAttribute('aria-modal', 'true');
+      sidebar.querySelector('#project-search')?.focus({ preventScroll: true });
+    } else {
+      sidebar.removeAttribute('role');
+      sidebar.removeAttribute('aria-modal');
+      document.body.style.removeProperty('--filter-scroll-offset');
+      window.scrollTo({ top: savedScrollY, behavior: 'instant' });
+      (mobile.matches ? toggle : sidebar.querySelector('#project-search'))?.focus({ preventScroll: true });
+    }
+  }
+
+  toggle?.addEventListener('click', () => setFiltersOpen(!sidebar.hasAttribute('data-mobile-filters-open')));
+  close?.addEventListener('click', () => setFiltersOpen(false));
+  mobile.addEventListener('change', () => { if (!mobile.matches) setFiltersOpen(false); });
+  sidebar.addEventListener('keydown', (event) => {
+    if (!sidebar.hasAttribute('data-mobile-filters-open')) return;
+    if (event.key === 'Escape') {
+      event.preventDefault();
+      setFiltersOpen(false);
+    }
+    if (event.key === 'Tab') {
+      const items = [...sidebar.querySelectorAll('a[href], button, input')].filter((node) => node.getClientRects().length && !node.disabled);
+      const first = items[0];
+      const last = items.at(-1);
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last?.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first?.focus();
+      }
+    }
   });
 </script>

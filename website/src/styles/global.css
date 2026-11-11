@@ -26,6 +26,8 @@ main,.site-footer{margin-left:272px}
 .sidebar-actions{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
 .apply-button{border:0;border-radius:8px;background:#264c3d;color:#fff;padding:10px 14px;font-size:12px;font-weight:700;cursor:pointer}
 .sidebar-actions a{font-size:12px;font-weight:700;color:#a14c2c}
+.filter-footer{margin-top:22px}
+.filter-close{display:none}
 @media(max-width:767px){
   body{display:flex;flex-direction:column}
   .site-header{display:block;order:0}
@@ -33,6 +35,12 @@ main,.site-footer{margin-left:272px}
   .site-sidebar>.wordmark{display:none}
   .site-sidebar .discovery-controls{min-height:0;padding:22px 16px;border-bottom:1px solid #cfd7cc}
   .site-sidebar:not([data-mobile-filters-open]) .discovery-controls{display:none}
+  body.mobile-filters-open{position:fixed;top:var(--filter-scroll-offset);width:100%;overflow:hidden}
+  .site-sidebar[data-mobile-filters-open]{position:fixed;inset:0;width:100%;height:100dvh;z-index:20;overflow:hidden}
+  .site-sidebar[data-mobile-filters-open] .discovery-controls{display:flex;flex-direction:column;flex:1;min-height:0;padding:0;border:0;overflow:hidden}
+  .site-sidebar[data-mobile-filters-open] .filter-content{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;padding:22px 16px}
+  .site-sidebar[data-mobile-filters-open] .filter-footer{flex:none;display:flex;align-items:center;justify-content:space-between;gap:16px;margin:0;border-top:1px solid #cfd7cc;background:#edf1e9;padding:12px 16px calc(12px + env(safe-area-inset-bottom))}
+  .filter-close{display:block}
   main{order:2;margin-left:0}
   .site-footer{order:3;margin-left:0}
   .nav-filters:not([hidden]){display:inline-flex}
