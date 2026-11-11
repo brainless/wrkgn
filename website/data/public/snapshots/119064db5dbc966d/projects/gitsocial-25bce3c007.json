@@ -1,0 +1,42 @@
+{
+  "id": 648,
+  "slug": "gitsocial-25bce3c007",
+  "name": "GitSocial",
+  "mentions": [
+    {
+      "name": "GitSocial",
+      "description": "A self-hosted git forge that keeps all repository activity in git itself, including issues, pull requests, comments, and releases, aiming to serve as a viable self-hosted alternative to GitHub, GitLab, and Codeberg.",
+      "problem": null,
+      "audience": "Developers and self-hosters looking for a self-hosted alternative to GitHub, GitLab, and Codeberg",
+      "builder_usernames": [
+        "delf"
+      ],
+      "source_excerpt": "I've been working on https://gitsocial.org/ for a year and a half now. The approach is to keep it all in git: issues, PRs, comments, releases, etc.\n\nHoping it becomes a viable self-hosted alternative to GitHub, GitLab, and Codeberg!",
+      "source_item_id": 50418392,
+      "source_url": "https://news.ycombinator.com/item?id=50418392",
+      "author": "delf",
+      "shared_at": 1794178419,
+      "links": [
+        "https://gitsocial.org/"
+      ]
+    },
+    {
+      "name": "GitSocial",
+      "description": "This CLI/TUI tool stores code collaboration artifacts (issues, pull requests, etc.) directly in git itself, and can publish repositories as static sites to S3 buckets to use as remotes.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "delf"
+      ],
+      "source_excerpt": "I'm working on CLI/TUI tool that stores all code collaboration (issues, PRs, etc) in git itself. It lets you publish repositories as static sites to S3 buckets and use them as remotes:",
+      "source_item_id": 49690402,
+      "source_url": "https://news.ycombinator.com/item?id=49690402",
+      "author": "delf",
+      "shared_at": 1789346574,
+      "links": [
+        "https://github.com/gitsocial-org/gitsocial",
+        "https://gitsocial.org/"
+      ]
+    }
+  ]
+}

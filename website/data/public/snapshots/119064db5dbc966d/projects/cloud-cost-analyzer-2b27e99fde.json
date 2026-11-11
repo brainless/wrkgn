@@ -1,0 +1,24 @@
+{
+  "id": 1145,
+  "slug": "cloud-cost-analyzer-2b27e99fde",
+  "name": "Cloud Cost Analyzer",
+  "mentions": [
+    {
+      "name": "Cloud Cost Analyzer",
+      "description": "A developer-first, read-only, safety-first cloud cost analyzer that scans cloud infrastructure (AWS and Azure, with GCP planned) for waste such as over- or suboptimally provisioned databases, idle resources, forgotten EBS snapshots, outdated/previous-gen instance types, and vestigial networking. Its primary mode of operation is a Rust CLI that developers can run on their workstation or in GitHub Actions, GitLab CI, Jenkins, etc., producing an actionable report/test to control costs while maintaining performance, without exposing credentials or access tokens.",
+      "problem": "Cloud accounts contain waste — over/suboptimally provisioned databases, idle resources, forgotten EBS snapshots, outdated/previous-gen instance types, and vestigial networking leading nowhere.",
+      "audience": "A developer-first tool: developers run the Rust CLI themselves on their workstation or CI pipeline.",
+      "builder_usernames": [
+        "jorelfermin"
+      ],
+      "source_excerpt": "I have been working on a developer first, read-only first, safety first, Cloud Cost Analyzer. I focus on analyzing cloud infra for waste.",
+      "source_item_id": 49692024,
+      "source_url": "https://news.ycombinator.com/item?id=49692024",
+      "author": "jorelfermin",
+      "shared_at": 1789360329,
+      "links": [
+        "https://cca.dragonfractal.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": 1044,
+  "slug": "contextify-eb56657911",
+  "name": "Contextify",
+  "mentions": [
+    {
+      "name": "Contextify",
+      "description": "Cross-platform application (Linux, macOS, Windows) that files AI chats into a database the AI can read via a skill or MCP. It backs up Claude Code and Codex conversation transcripts (JSONL) into a complete, manageable history, letting users resume unfinished work, recover intent and scope, verify tasks got done, and recall how past problems were fixed through a 'total recall' skill (/total-recall or $total-recall). It can be self-hosted with all data kept local, or synced across desktops, laptops, and machines via the source-available Contextify Cloud server. Upcoming work includes an expanded Windows app and integration for a third-party local LLM.",
+      "problem": "Valuable AI conversation content is scattered and hard to manage, making it difficult to resume unfinished work, recover the original intent or scope, verify whether something was completed, and recall how a problem was fixed in a previous session.",
+      "audience": null,
+      "builder_usernames": [
+        "bredren"
+      ],
+      "source_excerpt": "I have been building Contextify.\n\nContextify (https://contextify.sh)\n\nIt is an application for Linux, macOS and Windows that files your AI chats into a database your AI can read using a skill or MCP.",
+      "source_item_id": 49706523,
+      "source_url": "https://news.ycombinator.com/item?id=49706523",
+      "author": "bredren",
+      "shared_at": 1789435060,
+      "links": [
+        "https://contextify.sh"
+      ]
+    }
+  ]
+}

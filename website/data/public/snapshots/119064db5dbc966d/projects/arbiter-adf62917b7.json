@@ -1,0 +1,24 @@
+{
+  "id": 1336,
+  "slug": "arbiter-adf62917b7",
+  "name": "Arbiter",
+  "mentions": [
+    {
+      "name": "Arbiter",
+      "description": "A deterministic judgement engine for disagreeing inputs, built on research into conflict logics. Its input interface is currently shaped for LLMs and it also exposes a normal API; planned next steps include an ingest pipeline and a more sophisticated logic engine.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "pnathan"
+      ],
+      "source_excerpt": "It's a deterministic judgement engine for disagreeing inputs. The input interface is shaped for LLMs now, but there's no particular reason it has to stay limited that way & it has a normal API.",
+      "source_item_id": 49704627,
+      "source_url": "https://news.ycombinator.com/item?id=49704627",
+      "author": "pnathan",
+      "shared_at": 1789422608,
+      "links": [
+        "https://arbiter.housecarl.cloud/"
+      ]
+    }
+  ]
+}

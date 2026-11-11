@@ -1,0 +1,22 @@
+{
+  "id": 847,
+  "slug": "reversible-incremental-sorting-algorithm-9fa07c7160",
+  "name": "Reversible incremental sorting algorithm",
+  "mentions": [
+    {
+      "name": "Reversible incremental sorting algorithm",
+      "description": "A sorting algorithm for scenarios where the cost of comparisons is high and heterogeneous, intended as a methodology for minimizing the number of pairwise human evaluations (e.g., in AI, marketing, search evaluation, and clinical trials). It tracks which pairs are solidly established, which parts of the ranking remain ambiguous, and which alternatives are still possible/impactful, deducing the fraction of the sorting that can be reused during updates — reversible incremental ranking with information-theoretic guarantees and updates that scale linearly with the number of items. It also has a machine learning application as differentiable sorting and ranking, with reported performance of 27ms and 0.18MB for sorting 8,000 items versus 1.9s and 488MB for softsort, and about 100ms and 15MB for 10^6 items, running in O(n log n) time and O(n) space like fastsoftsort while allowing linear-time ranking updates on subsequent runs.",
+      "problem": "Pairwise comparisons such as human evaluations are costly and heterogeneous, and existing differentiable sorting approaches like softsort are too slow and memory-heavy to run at scale.",
+      "audience": "Practitioners conducting pairwise human evaluations in AI, marketing, search evaluation, and clinical trials",
+      "builder_usernames": [
+        "Xmd5a"
+      ],
+      "source_excerpt": "I am working on a new kind of sorting \"algorithm\" for when the cost of comparisons is high and heterogeneous. The ideal use case is as a methodology for minimizing the number of pairwise human evaluations: in AI, marketing, search evaluation, clinical trials, etc...",
+      "source_item_id": 49955747,
+      "source_url": "https://news.ycombinator.com/item?id=49955747",
+      "author": "Xmd5a",
+      "shared_at": 1791133863,
+      "links": []
+    }
+  ]
+}

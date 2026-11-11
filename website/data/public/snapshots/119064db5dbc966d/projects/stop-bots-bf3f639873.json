@@ -1,0 +1,41 @@
+{
+  "id": 695,
+  "slug": "stop-bots-bf3f639873",
+  "name": "stop-bots",
+  "mentions": [
+    {
+      "name": "stop-bots",
+      "description": "A Rust terminal UI (TUI) for managing bot blocking at the nftables and nginx level, helping keep self-hosted servers safe from bots. Released under AGPL v3.",
+      "problem": "Self-hosted servers need protection from bots, and managing blocking across nftables and nginx is cumbersome.",
+      "audience": "Self-hosters",
+      "builder_usernames": [
+        "FabCH"
+      ],
+      "source_excerpt": "Trying to keep my selfhosted server safe with a Rust TUI for managing bot blocking at the nftables and nginx level.",
+      "source_item_id": 50418660,
+      "source_url": "https://news.ycombinator.com/item?id=50418660",
+      "author": "FabCH",
+      "shared_at": 1794179657,
+      "links": [
+        "https://github.com/ivankovic/stop-bots"
+      ]
+    },
+    {
+      "name": "stop-bots",
+      "description": "A UI for a curated list of measures to stop aggressive bots from getting your website, without hiding behind Cloudflare. The author reports it is surprisingly efficient in practice, especially when banning traffic from RU, US, IN and CN, while noting the original guidance warns against using it on a production server.",
+      "problem": "Bots aggressively scraping websites, with no desire to hide behind Cloudflare.",
+      "audience": null,
+      "builder_usernames": [
+        "FabCH"
+      ],
+      "source_excerpt": "Some time ago somebody posted an extensive list of things you can do to stop bots from aggressively getting your website, if you don’t want to hide behind Cloudfare.\n\nI thought I’d make a nice UI for that:\n\nhttps://github.com/ivankovic/stop-bots",
+      "source_item_id": 49696822,
+      "source_url": "https://news.ycombinator.com/item?id=49696822",
+      "author": "FabCH",
+      "shared_at": 1789393630,
+      "links": [
+        "https://github.com/ivankovic/stop-bots"
+      ]
+    }
+  ]
+}

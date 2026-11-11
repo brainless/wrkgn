@@ -1,0 +1,151 @@
+{
+  "schema_version": 3,
+  "version": "119064db5dbc966d",
+  "discovery": "discovery.json",
+  "project_details": "projects/<slug>.json",
+  "project_count": 1689,
+  "categories": [
+    {
+      "slug": "ai-automation",
+      "label": "AI & automation",
+      "description": "Products whose core purpose uses AI, machine learning, or automation; using AI to build a product is insufficient."
+    },
+    {
+      "slug": "developer-tools",
+      "label": "Developer tools",
+      "description": "Tools for writing, testing, releasing, or maintaining software."
+    },
+    {
+      "slug": "productivity",
+      "label": "Productivity",
+      "description": "Tools for organizing work, notes, tasks, and personal information."
+    },
+    {
+      "slug": "education",
+      "label": "Education",
+      "description": "Learning, teaching, study, and educational resources."
+    },
+    {
+      "slug": "games",
+      "label": "Games",
+      "description": "Playable games and tools centered on gaming."
+    },
+    {
+      "slug": "creative-media",
+      "label": "Creative tools & media",
+      "description": "Tools and works for writing, design, images, audio, video, or other media."
+    },
+    {
+      "slug": "data-analytics",
+      "label": "Data & analytics",
+      "description": "Databases, data processing, visualization, and analysis."
+    },
+    {
+      "slug": "business-finance",
+      "label": "Business & finance",
+      "description": "Commerce, business operations, finance, and professional services."
+    },
+    {
+      "slug": "community-civic",
+      "label": "Community & civic",
+      "description": "Communities, social coordination, public affairs, and civic participation."
+    },
+    {
+      "slug": "hardware-diy",
+      "label": "Hardware & DIY",
+      "description": "Physical devices, electronics, fabrication, repair, and DIY builds."
+    },
+    {
+      "slug": "infrastructure-hosting",
+      "label": "Infrastructure & hosting",
+      "description": "Hosting, networking, storage, operating systems, and service infrastructure."
+    },
+    {
+      "slug": "security-privacy",
+      "label": "Security & privacy",
+      "description": "Authentication, protection, encryption, and privacy-focused products."
+    },
+    {
+      "slug": "science-research",
+      "label": "Science & research",
+      "description": "Scientific inquiry, research methods, and technical experiments."
+    },
+    {
+      "slug": "health-fitness",
+      "label": "Health & fitness",
+      "description": "Health, wellness, exercise, and fitness."
+    },
+    {
+      "slug": "lifestyle-hobbies",
+      "label": "Lifestyle & hobbies",
+      "description": "Personal interests, food, home, travel, and other hobbies."
+    }
+  ],
+  "audiences": [
+    {
+      "slug": "developers",
+      "label": "Developers",
+      "description": "Software developers and testers."
+    },
+    {
+      "slug": "system-administrators",
+      "label": "System administrators",
+      "description": "Infrastructure operators and self-hosters."
+    },
+    {
+      "slug": "students-learners",
+      "label": "Students & learners",
+      "description": "People studying or learning skills."
+    },
+    {
+      "slug": "educators",
+      "label": "Educators",
+      "description": "Teachers and educational practitioners."
+    },
+    {
+      "slug": "researchers",
+      "label": "Researchers",
+      "description": "Scientific and technical investigators."
+    },
+    {
+      "slug": "creative-professionals",
+      "label": "Creative professionals",
+      "description": "Writers, artists, designers and media creators."
+    },
+    {
+      "slug": "gamers",
+      "label": "Gamers",
+      "description": "People playing games."
+    },
+    {
+      "slug": "makers-hobbyists",
+      "label": "Makers & hobbyists",
+      "description": "Hands-on makers and people pursuing hobbies."
+    },
+    {
+      "slug": "business-professionals",
+      "label": "Business professionals",
+      "description": "People doing business, finance or operational work."
+    },
+    {
+      "slug": "founders-business-owners",
+      "label": "Founders & business owners",
+      "description": "Entrepreneurs, founders and business owners."
+    },
+    {
+      "slug": "community-organizers",
+      "label": "Community organizers",
+      "description": "People coordinating communities, events and civic work."
+    },
+    {
+      "slug": "personal-use",
+      "label": "Personal use",
+      "description": "Explicit individual or personal use."
+    },
+    {
+      "slug": "general-public",
+      "label": "General public",
+      "description": "Explicit broad public or consumer audience."
+    }
+  ]
+}

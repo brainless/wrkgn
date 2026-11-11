@@ -1,0 +1,24 @@
+{
+  "id": 1378,
+  "slug": "kviklet-bc8b547ab3",
+  "name": "Kviklet",
+  "mentions": [
+    {
+      "name": "Kviklet",
+      "description": "Self-hosted database access management tool that provides code-review-style approval workflows for SQL statements before they run in production. Includes a Postgres proxy and a MySQL wire proxy so developers can keep using psql or DataGrip while every statement is logged, with SSO support and no password sharing.",
+      "problem": "Developers need to run SQL statements against production databases without a review process, which previously required insecure password sharing.",
+      "audience": "Development teams needing controlled, reviewed access to production databases.",
+      "builder_usernames": [
+        "jascha_eng"
+      ],
+      "source_excerpt": "Self hosted database access management, think Code Reviews for SQL Statements for when your devs need to go to prod:\nhttps://github.com/kviklet/kviklet\n\nRecently cleaned up my postgres proxy and built a MySQL wire proxy so that you can use psql/datagrip as a dev but every statement is still logged.\nWith SSO and no password sharing ofc!",
+      "source_item_id": 49691027,
+      "source_url": "https://news.ycombinator.com/item?id=49691027",
+      "author": "jascha_eng",
+      "shared_at": 1789351806,
+      "links": [
+        "https://github.com/kviklet/kviklet"
+      ]
+    }
+  ]
+}

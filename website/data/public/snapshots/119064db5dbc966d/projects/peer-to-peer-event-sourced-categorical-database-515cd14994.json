@@ -1,0 +1,22 @@
+{
+  "id": 1082,
+  "slug": "peer-to-peer-event-sourced-categorical-database-515cd14994",
+  "name": "Peer-to-peer event-sourced categorical database",
+  "mentions": [
+    {
+      "name": "Peer-to-peer event-sourced categorical database",
+      "description": "An in-process, peer-to-peer, event-sourced categorical database written in Rust. It embeds non-Turing-complete event source handlers in the database schema, uses a categorical type system that makes migrations provably secure, and performs all schema changes through migrations. It deliberately trades high scalability for features not typically found in databases, such as aggregates with CRDT counter merges and commands with compensation steps (e.g., inventory Stock/Reserve/Release and order workflows).",
+      "problem": "People building their own personal apps don't want to have to manage a server; this database works in-process at personal scale rather than high scale.",
+      "audience": "People going to build their own personal apps who don't want to manage a server.",
+      "builder_usernames": [
+        "noworriesnate"
+      ],
+      "source_excerpt": "I'm building an in-process, peer-to-peer, event sourced, categorical database in Rust. I think more and more people are going to start building their own personal apps, and people are not going to want to have to manage a server.",
+      "source_item_id": 49695862,
+      "source_url": "https://news.ycombinator.com/item?id=49695862",
+      "author": "noworriesnate",
+      "shared_at": 1789389600,
+      "links": []
+    }
+  ]
+}

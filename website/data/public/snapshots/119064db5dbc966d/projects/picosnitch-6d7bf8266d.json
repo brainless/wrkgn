@@ -1,0 +1,24 @@
+{
+  "id": 980,
+  "slug": "picosnitch-6d7bf8266d",
+  "name": "picosnitch",
+  "mentions": [
+    {
+      "name": "picosnitch",
+      "description": "This per-executable network monitor for Linux tracks network activity by executable, featuring a rewritten UI and a core ported from BCC to BPF CO-RE. Its completeness and accuracy were benchmarked with AI-designed tests, and published results identify a gap to fix in the next release.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "elesiuta"
+      ],
+      "source_excerpt": "I also recently resumed working on picosnitch, a per executable network monitor for Linux. I rewrote the UI, ported the core from BCC to BPF CO-RE, and used AI to benchmark the completeness and accuracy of it.",
+      "source_item_id": 49696243,
+      "source_url": "https://news.ycombinator.com/item?id=49696243",
+      "author": "elesiuta",
+      "shared_at": 1789391377,
+      "links": [
+        "https://elesiuta.github.io/picosnitch/comparison/"
+      ]
+    }
+  ]
+}

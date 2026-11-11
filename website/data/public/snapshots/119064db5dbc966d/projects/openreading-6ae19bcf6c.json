@@ -1,0 +1,25 @@
+{
+  "id": 992,
+  "slug": "openreading-6ae19bcf6c",
+  "name": "Openreading",
+  "mentions": [
+    {
+      "name": "Openreading",
+      "description": "Openreading is a document intelligence router that routes documents to other parsers with key techniques for managing failures, based on the author's team's enterprise document intelligence experience. It is open core and work-in-progress, with benchmarks and a managed version (durable compute, retries, parallel execution, intent understanding) planned for later.",
+      "problem": "Even with state-of-the-art OCR, SLMs, LLMs, and many parser services, most miss something in enterprise document intelligence, so failure handling has to be designed for.",
+      "audience": "Building document pipelines for sensitive industries like healthcare, insurance, and lending where existing parsing services miss things and failures need to be managed.",
+      "builder_usernames": [
+        "c0mpute"
+      ],
+      "source_excerpt": "We are bringing these ideas out as a router to other parsers, but with some key takes that allow you to manage failures. \n\"Failure is inevitable so route for it.\"\n\nIt is called Openreading - https://openreading.ai/ and open core here: https://github.com/openreading-ai/openreading-core",
+      "source_item_id": 49690724,
+      "source_url": "https://news.ycombinator.com/item?id=49690724",
+      "author": "c0mpute",
+      "shared_at": 1789349412,
+      "links": [
+        "https://github.com/openreading-ai/openreading-core",
+        "https://openreading.ai/"
+      ]
+    }
+  ]
+}

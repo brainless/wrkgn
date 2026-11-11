@@ -1,0 +1,24 @@
+{
+  "id": 1656,
+  "slug": "put-based-integrate-and-fire-neuron-experiment-c8c53de307",
+  "name": "PUT-based Integrate-and-Fire Neuron Experiment",
+  "mentions": [
+    {
+      "name": "PUT-based Integrate-and-Fire Neuron Experiment",
+      "description": "This analog electronics project uses a programmable unijunction transistor (PUT) to simulate an integrate-and-fire neuron, experimenting with variations of pulse-width and frequency of the input spike train to see how they affect when the neuron fires. Planned next step is adding a resistor to bleed charge from the timing capacitor to make it a leaky integrate-and-fire neuron, as part of the author's explorations in neuromorphic and analog computing.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mindcrime"
+      ],
+      "source_excerpt": "I've been doing a bunch of stuff with using a PUT[1] to simulate an IF (Integrate and Fire) neuron[2]. Right now I'm experimenting with variations of pulse-width and frequency of the input spike train, seeing how that affects when the \"neuron\" fires. In a future step I'll add a resistor to bleed off some of the charge from the timing capacitor, to make it more of a \"Leaky Integrate and Fire\" neuron.",
+      "source_item_id": 49690225,
+      "source_url": "https://news.ycombinator.com/item?id=49690225",
+      "author": "mindcrime",
+      "shared_at": 1789345184,
+      "links": [
+        "https://fogbeam.com/images/scope_20260913_202613.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": 1289,
+  "slug": "sql-formatter-9c6865db6b",
+  "name": "SQL Formatter",
+  "mentions": [
+    {
+      "name": "SQL Formatter",
+      "description": "A web-based SQL formatter that parses SQL queries into an AST using native engines where possible — GoogleSQL library for BigQuery, Microsoft ScriptDOM for MSSQL, and Apache Data Fusion Parser for other dialects — then regenerates the SQL in a consistent formatted style. It handles badly formatted SQL queries of all kinds.",
+      "problem": "Badly formatted SQL queries that need to be normalized into a consistent style.",
+      "audience": "for my own use; shared in hopes others find it useful",
+      "builder_usernames": [
+        "lvduan"
+      ],
+      "source_excerpt": "I built this sql formatter <https://sql.leuduan.work> for my own use - it works by parsing the SQL query to AST using native engines where possible (for BigQuery it use GoogleSQL library, for MSSQL it uses Microsoft ScriptDOM, the rest uses Apache Data Fusion Parser) and from the AST it re-generates the SQL query in a consistent formatted style. You can throw in all kind of badly formatted SQL queries and it will work just fine.",
+      "source_item_id": 49699426,
+      "source_url": "https://news.ycombinator.com/item?id=49699426",
+      "author": "lvduan",
+      "shared_at": 1789402678,
+      "links": [
+        "https://sql.leuduan.work"
+      ]
+    }
+  ]
+}

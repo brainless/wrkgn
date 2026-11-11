@@ -1,0 +1,22 @@
+{
+  "id": 1687,
+  "slug": "reusable-software-production-platform-4ed290a77a",
+  "name": "Reusable software production platform",
+  "mentions": [
+    {
+      "name": "Reusable software production platform",
+      "description": "A reusable software production platform that packages ~10 years of accumulated software infrastructure. The stack spans a lightweight PHP framework, an application kernel, a Preact UI layer, generic business modules, and deployment/provisioning with IaC. Recurring problems are solved once at the lowest sensible reusable layer so every app inherits the result, and new apps increasingly need only domain logic and UX on top. The author is exploring whether it can become a real software foundry/platform business.",
+      "problem": "Recurring infrastructure problems get re-solved across apps; this platform solves them once at the lowest sensible reusable layer so every app inherits the result.",
+      "audience": null,
+      "builder_usernames": [
+        "sarah-robiin"
+      ],
+      "source_excerpt": "I'm turning ~10 years of accumulated software infrastructure into a reusable software production platform.\n\nThe stack spans a lightweight PHP framework, application kernel, Preact UI layer, generic business modules, deployment/provisioning and IaC. The rule has always been: solve recurring problems once, move them to the lowest sensible reusable layer, and let every app inherit the result.",
+      "source_item_id": 49693304,
+      "source_url": "https://news.ycombinator.com/item?id=49693304",
+      "author": "sarah-robiin",
+      "shared_at": 1789371864,
+      "links": []
+    }
+  ]
+}

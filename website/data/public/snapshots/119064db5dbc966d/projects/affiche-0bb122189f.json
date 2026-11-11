@@ -1,0 +1,22 @@
+{
+  "id": 997,
+  "slug": "affiche-0bb122189f",
+  "name": "Affiche",
+  "mentions": [
+    {
+      "name": "Affiche",
+      "description": "Affiche is a cross-platform GUI system that separates an application's UI semantics from the toolkit that renders it, so the same application can be presented with native Win32, Cocoa/AppKit, Qt6, GTK3, GTK4, Swing, or a web browser. The UI can run locally or be rendered remotely by a client without the application being rewritten for that environment. Work also includes a declarative layout format and a visual designer; the project is private and under development.",
+      "problem": "Maintaining applications that need to survive changes in GUI toolkits, operating systems, deployment models, or client environments.",
+      "audience": "Maintainers and developers of applications that need to survive changes in GUI toolkits, operating systems, deployment models, or client environments.",
+      "builder_usernames": [
+        "neverartful"
+      ],
+      "source_excerpt": "I've been working on a cross-platform GUI system called Affiche.\n\nThe basic idea is to separate an application's UI semantics from the toolkit that actually renders it.",
+      "source_item_id": 49690413,
+      "source_url": "https://news.ycombinator.com/item?id=49690413",
+      "author": "neverartful",
+      "shared_at": 1789346674,
+      "links": []
+    }
+  ]
+}

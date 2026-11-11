@@ -1,0 +1,24 @@
+{
+  "id": 1133,
+  "slug": "online-guidance-solver-for-ksa-20fb395719",
+  "name": "Online guidance solver for KSA",
+  "mentions": [
+    {
+      "name": "Online guidance solver for KSA",
+      "description": "This online guidance solver lets you control a Kitten Space Agency (KSA) rocket from the command line for a variety of maneuvers such as launch and rendezvous. It uses successive convexification to turn the full nonlinear trajectory problem into a sequence of convex problems with linear constraints and quadratic objective. Planned follow-on experiments include full mission planning, Falcon-9-style ascent with split control, and vehicle swarms.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "sobellian"
+      ],
+      "source_excerpt": "I'm making an online guidance solver for KSA (https://ahwoo.com/app/100000/kitten-space-agency). It will allow you to control a KSA rocket from the command line for a variety of maneuvers (launch, rendezvous, etc). It uses successive convexification to turn the full nonlinear problem into a sequence of convex problems with linear constraints and quadratic objective.",
+      "source_item_id": 49687152,
+      "source_url": "https://news.ycombinator.com/item?id=49687152",
+      "author": "sobellian",
+      "shared_at": 1789324376,
+      "links": [
+        "https://ahwoo.com/app/100000/kitten-space-agency"
+      ]
+    }
+  ]
+}

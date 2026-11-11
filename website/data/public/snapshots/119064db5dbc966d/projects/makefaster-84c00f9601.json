@@ -1,0 +1,24 @@
+{
+  "id": 1239,
+  "slug": "makefaster-84c00f9601",
+  "name": "Makefaster",
+  "mentions": [
+    {
+      "name": "Makefaster",
+      "description": "This tool speeds up frontend performance by running autoresearch loops that apply distilled learnings from analyzing top GitHub repositories to the user's own repo. It works with existing Claude, Cursor, or Codex subscriptions through a custom TUI, and includes a leaderboard of the most common performance wins.",
+      "problem": null,
+      "audience": "Slow frontend performance in code repositories, which the tool helps speed up.",
+      "builder_usernames": [
+        "jjcm"
+      ],
+      "source_excerpt": "https://makefaster.dev\n\nI had a bunch of extra Fable credits, so I spent about $10k running autoresearch loops on 200 of the top github repos with frontends to try and speed up the frontend performance. I distilled them down into a leaderboard of the most common wins, and built out an autoresearch loop that takes those learnings and applies them to your repo.",
+      "source_item_id": 49687047,
+      "source_url": "https://news.ycombinator.com/item?id=49687047",
+      "author": "jjcm",
+      "shared_at": 1789323937,
+      "links": [
+        "https://makefaster.dev"
+      ]
+    }
+  ]
+}

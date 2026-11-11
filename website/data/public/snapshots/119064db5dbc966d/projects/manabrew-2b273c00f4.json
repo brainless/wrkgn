@@ -1,0 +1,24 @@
+{
+  "id": 1382,
+  "slug": "manabrew-2b273c00f4",
+  "name": "Manabrew",
+  "mentions": [
+    {
+      "name": "Manabrew",
+      "description": "Web app for playing Magic: the Gathering games locally in the browser, powered by the MTG Forge Java rules engine compiled to WebAssembly using GraalVM's new WebAssembly support.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "khaliostr"
+      ],
+      "source_excerpt": "GraalVM’s new WebAssembly support finally made this possible, and we now use it for local games in Manabrew.",
+      "source_item_id": 49697183,
+      "source_url": "https://news.ycombinator.com/item?id=49697183",
+      "author": "khaliostr",
+      "shared_at": 1789394996,
+      "links": [
+        "https://manabrew.app/blog/graalvm/"
+      ]
+    }
+  ]
+}

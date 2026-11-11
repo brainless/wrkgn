@@ -1,0 +1,24 @@
+{
+  "id": 1256,
+  "slug": "hammer-labs-35af457b10",
+  "name": "Hammer Labs",
+  "mentions": [
+    {
+      "name": "Hammer Labs",
+      "description": "A platform for studying when healthcare AI agents are wrong and when they should refuse to answer (judgement). It generates synthetic healthcare claims — utilization and case mix drawn from published data, priced using real fee schedules and contract terms, with differing payer behaviors — and plants errors on purpose so a correct answer exists before any model runs. On top of the data it builds benchmarks for overreach, refusal, errors by record type, and detection time, plus small MCP tools that refuse when evidence is missing, with every number including its source, date, and basis.",
+      "problem": "Real claims do not have an answer key, so human review cannot be reduced until you can measure when an agent is wrong; getting claims data can take a year of data agreements, privacy reviews, and procurement, and even then the correct decision may be unknown.",
+      "audience": null,
+      "builder_usernames": [
+        "kthakore"
+      ],
+      "source_excerpt": "I’m building Hammer Labs (https://hammer.ai) to study when healthcare AI agents are wrong and when they should refuse to answer (judgement).",
+      "source_item_id": 49690967,
+      "source_url": "https://news.ycombinator.com/item?id=49690967",
+      "author": "kthakore",
+      "shared_at": 1789351314,
+      "links": [
+        "https://hammer.ai"
+      ]
+    }
+  ]
+}

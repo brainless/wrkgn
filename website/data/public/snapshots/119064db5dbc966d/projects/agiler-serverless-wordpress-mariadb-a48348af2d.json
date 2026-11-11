@@ -1,0 +1,41 @@
+{
+  "id": 475,
+  "slug": "agiler-serverless-wordpress-mariadb-a48348af2d",
+  "name": "Agiler (Serverless WordPress + MariaDB)",
+  "mentions": [
+    {
+      "name": "Agiler (Serverless WordPress + MariaDB)",
+      "description": "Serverless WordPress hosting paired with a serverless MariaDB that requires no plugins or any modifications to customer code. The serverless MariaDB scales to zero, so development sites can cost less than $0.50/month. Also includes MCP and CLI tooling that exposes the infrastructure, WP CLI, and the database so AI agents can develop WordPress sites — debugging, changing pages and posts, etc. — while users can still use the WP admin interface.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rgbrenner"
+      ],
+      "source_excerpt": "Serverless Wordpress + MariaDB without requiring plugins or any modifications to customer code: https://www.agiler.io\n\nThe serverless MariaDB is important because it can scale to zero, so you have dev sites that cost less than $0.50/mo.\n\nAlso added MCP and CLI tooling that exposes all of the infrastructure + WP CLI + DB so agents can develop WP sites",
+      "source_item_id": 50418175,
+      "source_url": "https://news.ycombinator.com/item?id=50418175",
+      "author": "rgbrenner",
+      "shared_at": 1794177334,
+      "links": [
+        "https://www.agiler.io"
+      ]
+    },
+    {
+      "name": "Agiler",
+      "description": "Serverless hosting platform for WordPress with a serverless MariaDB, plus developer tooling including an MCP server and CLI that fully expose the WordPress CLI, database, and underlying infrastructure, so anything doable through the dashboard can be done by an agent via MCP or CLI. For example, an agent can debug a plugin by connecting to the site, reading or modifying its code, inspecting disk and database writes, and testing changes. It works with standard WordPress without modifying WP core or requiring plugins to be installed.",
+      "problem": "WordPress lacks the dev tooling the author wishes it had.",
+      "audience": null,
+      "builder_usernames": [
+        "rgbrenner"
+      ],
+      "source_excerpt": "Im building serverless hosting for Wordpress (+ serverless mariadb) with the dev tooling I wish Wordpress had.. including mcp and cli that fully exposes the wp cli, mariadb, and all of the underlying infrastructure.",
+      "source_item_id": 49929825,
+      "source_url": "https://news.ycombinator.com/item?id=49929825",
+      "author": "rgbrenner",
+      "shared_at": 1790915012,
+      "links": [
+        "https://www.agiler.io"
+      ]
+    }
+  ]
+}

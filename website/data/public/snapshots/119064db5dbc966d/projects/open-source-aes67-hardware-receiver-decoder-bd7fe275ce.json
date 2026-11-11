@@ -1,0 +1,25 @@
+{
+  "id": 1528,
+  "slug": "open-source-aes67-hardware-receiver-decoder-bd7fe275ce",
+  "name": "Open source AES67 hardware receiver/decoder",
+  "mentions": [
+    {
+      "name": "Open source AES67 hardware receiver/decoder",
+      "description": "An open source hardware receiver/decoder for AES67 audio-over-IP, built so speakers can connect over Ethernet using an open, inexpensive stack, with a focus on solving the tight timing and synchronization requirements of networked audio.",
+      "problem": "Physics and timing are brutal for networked audio — 1 ms synchronization is roughly not enough — and speakers lack open, inexpensive stacks for Ethernet connectivity.",
+      "audience": null,
+      "builder_usernames": [
+        "Jessie",
+        "gregsadetsky"
+      ],
+      "source_excerpt": "an open source AES67 hardware receiver/decoder - based on my friend Jessie's work [0]. I want speakers to have ethernet ports and to use an open/inexpensive stack. it's hard because physics/timing are brutal (1ms sync is ~not enough), but that's what makes it a great problem.",
+      "source_item_id": 49690457,
+      "source_url": "https://news.ycombinator.com/item?id=49690457",
+      "author": "gregsadetsky",
+      "shared_at": 1789347015,
+      "links": [
+        "https://jessie.grosen.systems/projects/aes67-receiver"
+      ]
+    }
+  ]
+}

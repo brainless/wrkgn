@@ -1,0 +1,24 @@
+{
+  "id": 1295,
+  "slug": "jatabag-22b3ad2b31",
+  "name": "jatabag",
+  "mentions": [
+    {
+      "name": "jatabag",
+      "description": "A web-based todo list app implementing the Grit task management approach, based on the original grit CLI app and whitepaper. It builds a DAG of tasks where each task node can receive annotated data (traits) indicating whether the task is actionable. The author has used it daily for about a year.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "solaire_oa"
+      ],
+      "source_excerpt": "It's lame, but a todo list app: jatabag.com\n\nIt's tailored toward implementing a web version of the original cli app and whitepaper \"grit\" https://github.com/climech/grit\n\nSo basically it creates a DAG and each task node can receive some annotated data (traits) about whether the task is actionable or not.\n\nI've been using it daily for a year or so.",
+      "source_item_id": 49697586,
+      "source_url": "https://news.ycombinator.com/item?id=49697586",
+      "author": "solaire_oa",
+      "shared_at": 1789396479,
+      "links": [
+        "https://jatabag.com"
+      ]
+    }
+  ]
+}

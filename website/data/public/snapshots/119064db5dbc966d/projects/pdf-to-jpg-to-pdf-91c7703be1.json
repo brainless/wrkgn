@@ -1,0 +1,24 @@
+{
+  "id": 889,
+  "slug": "pdf-to-jpg-to-pdf-91c7703be1",
+  "name": "PDF-to-JPG-to-PDF",
+  "mentions": [
+    {
+      "name": "PDF-to-JPG-to-PDF",
+      "description": "A pipeline that converts a non-editable PDF into JPG images and back into a PDF, working around locked PDF forms whose required fields can't be filled directly and that PDF editors can't open without a password; the images can then be annotated in Photoshop or an editor instead of printing, writing, and scanning.",
+      "problem": "The author was stuck unable to fill out a PDF I-864 for immigration because the required fields were non-editable, and opening the PDF in a PDF editor or Photoshop would require a password that was not available.",
+      "audience": null,
+      "builder_usernames": [
+        "yboris"
+      ],
+      "source_excerpt": "I was stuck unable to fill out a PDF I-864 for immigration because the required fields were non-editable. And opening the PDF in a PDF editor or Photoshop would require a password that was not available. So I had to create a PDF-to-JPG-to-PDF pipeline:\n\nhttps://github.com/whyboris/PDF-to-JPG-to-PDF",
+      "source_item_id": 49691712,
+      "source_url": "https://news.ycombinator.com/item?id=49691712",
+      "author": "yboris",
+      "shared_at": 1789357421,
+      "links": [
+        "https://github.com/whyboris/PDF-to-JPG-to-PDF"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": 1231,
+  "slug": "apphaven-390148217d",
+  "name": "AppHaven",
+  "mentions": [
+    {
+      "name": "AppHaven",
+      "description": "A hosting platform for AI-written apps that lets non-technical users deploy applications by asking AI agents such as Claude Code or Codex. The platform handles backups, login/access control, and vulnerability scanning, and ships a Claude Code plugin (under review at Anthropic, also installable from GitHub) for simple agent integration.",
+      "problem": "Deploying AI-written apps is difficult for users without technical skills.",
+      "audience": "Not-so-technical users who build apps with AI coding agents",
+      "builder_usernames": [
+        "t0mas88"
+      ],
+      "source_excerpt": "I'm working on a hosting platform for AI-written apps: https://apphaven.eu/\n\nThe idea is to make it easier for not-so-technical users to ask their Claude Code or Codex (or similar) agent to deploy the app. And then the platform handles backups, login/access control, vulnerability scanning etc.",
+      "source_item_id": 49719777,
+      "source_url": "https://news.ycombinator.com/item?id=49719777",
+      "author": "t0mas88",
+      "shared_at": 1789511627,
+      "links": [
+        "https://apphaven.eu/",
+        "https://docs.apphaven.eu/agent-integration"
+      ]
+    }
+  ]
+}

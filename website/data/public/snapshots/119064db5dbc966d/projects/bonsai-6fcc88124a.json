@@ -1,0 +1,41 @@
+{
+  "id": 571,
+  "slug": "bonsai-6fcc88124a",
+  "name": "Bonsai",
+  "mentions": [
+    {
+      "name": "Bonsai",
+      "description": "A voxel game engine under development for ~10 years. The world and objects in it are represented as SDF (density) fields, and the world generator and editor operate almost entirely on the GPU via a fused three-stage 'ubershader' pipeline: a user-configurable GLSL 'shaping' shader, a fused stage that convolves normals, runs a user-configurable 'decoration' function, and interprets SDF edits compiled from a graph into bytecode, and a final stage that packs occupancy, color, and normal into 32 bits. GPU results are passed back to the CPU for entity/structure spawning callbacks, then chunks are meshed with a fast binary algorithm and uploaded, retaining 16 bits per surface voxel and scaling to world sizes greater than 1B voxels cubed. The engine aims to give users both easy-to-use tools and granular control over the final output, while remaining fast.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jesse__"
+      ],
+      "source_excerpt": "I've been working on a voxel game engine called Bonsai for ~10 years.",
+      "source_item_id": 50328491,
+      "source_url": "https://news.ycombinator.com/item?id=50328491",
+      "author": "jesse__",
+      "shared_at": 1793559259,
+      "links": [
+        "https://github.com/scallyw4g/bonsai"
+      ]
+    },
+    {
+      "name": "Bonsai",
+      "description": "A voxel game engine developed over ~10 years and written entirely from scratch, including memory allocators, font rasterizer, collision detection, and the simulation loop, with the C runtime as its only external dependency. Worlds and most things in them are represented as collections of SDFs (density fields), and a world edit is defined by SDF parameters that are rasterized into the voxel grid by a GPU shader, supporting smooth unions with rounded contours. It centers on an editor and is nearing completion of a major rewrite, with plans to build games on top of it in closed-source repos.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jesse__"
+      ],
+      "source_excerpt": "I've been working on a voxel game engine called Bonsai for ~10 years.\n\nProbably the most interesting thing about it at the moment is the editor.  The world, and most things in it, are represented as collections of SDFs.",
+      "source_item_id": 49690404,
+      "source_url": "https://news.ycombinator.com/item?id=49690404",
+      "author": "jesse__",
+      "shared_at": 1789346588,
+      "links": [
+        "https://github.com/scallyw4g/bonsai"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": 977,
+  "slug": "notmutt-a9d0d65041",
+  "name": "notmutt",
+  "mentions": [
+    {
+      "name": "notmutt",
+      "description": "A tabbed, asynchronous terminal mail client built on notmuch, featuring a unified inbox, a built-in HTML viewer with image support, an MCP server, and Lua scripting. It is designed to be very fast so users never wait on operations, tightly integrating with notmuch's full-text search and tagging engine, and supports configurable workflows such as CRM queues and optional AI summaries. Written in Go with cgo bindings to notmuch.",
+      "problem": "Using neomutt with a unified inbox kept corrupting maildirs, and attempts to add async sending tasks to neomutt got no interest from that project, showing more was needed than just async mail sending.",
+      "audience": null,
+      "builder_usernames": [
+        "rjzzleep"
+      ],
+      "source_excerpt": "I'm building notmutt (notmuch + mutt). A tabbed, async terminal mail client with unified inbox, with included html viewer(with image support), mcp server, lua scripting.",
+      "source_item_id": 49691841,
+      "source_url": "https://news.ycombinator.com/item?id=49691841",
+      "author": "rjzzleep",
+      "shared_at": 1789358562,
+      "links": [
+        "https://fishman.github.io/notmutt/",
+        "https://github.com/fishman/notmutt"
+      ]
+    }
+  ]
+}

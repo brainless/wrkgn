@@ -1,0 +1,22 @@
+{
+  "id": 927,
+  "slug": "swapfile-support-on-zfs-and-bcachefs-f7d07019e8",
+  "name": "Swapfile support on ZFS and bcachefs",
+  "mentions": [
+    {
+      "name": "Swapfile support on ZFS and bcachefs",
+      "description": "Project to make swapfiles work, or work better, on ZFS and bcachefs filesystems.",
+      "problem": "Writing swap on ZFS and bcachefs may need to allocate memory exactly when the system is out of memory.",
+      "audience": null,
+      "builder_usernames": [
+        "eru"
+      ],
+      "source_excerpt": "Another somewhat ambitions project is to make swapfiles on ZFS and bcachefs work (or work better), at the moment the problem is that writing swap on them might need to allocate memory exactly when you are out of memory.",
+      "source_item_id": 49690680,
+      "source_url": "https://news.ycombinator.com/item?id=49690680",
+      "author": "eru",
+      "shared_at": 1789348978,
+      "links": []
+    }
+  ]
+}

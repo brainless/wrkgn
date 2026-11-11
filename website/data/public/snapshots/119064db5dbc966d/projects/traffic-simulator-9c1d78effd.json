@@ -1,0 +1,22 @@
+{
+  "id": 1457,
+  "slug": "traffic-simulator-9c1d78effd",
+  "name": "Traffic simulator",
+  "mentions": [
+    {
+      "name": "Traffic simulator",
+      "description": "This traffic simulator runs vehicle physics for large fleets of cars, computing over 62500 updates per tick across 16 threads. It supports 512 cars with full tire, drivetrain, suspension, and physics kernels at 120Hz, and can handle a great deal more cars at lower update rates (down to 6Hz) with reduced fidelity.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "monster_truck"
+      ],
+      "source_excerpt": "Still working on my traffic simulator. Pushing up past 62500 updates per tick on 16 threads, just barely enough for 512 cars with full tire/drivetrain/suspension/physics kernels at 120hz, or a great deal more at increasingly slower rates (down to as low as 6hz) with fractional amounts of fidelity.",
+      "source_item_id": 49690434,
+      "source_url": "https://news.ycombinator.com/item?id=49690434",
+      "author": "monster_truck",
+      "shared_at": 1789346863,
+      "links": []
+    }
+  ]
+}

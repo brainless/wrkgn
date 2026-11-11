@@ -1,0 +1,24 @@
+{
+  "id": 1309,
+  "slug": "auckland-stop-display-simple-44548c1740",
+  "name": "auckland-stop-display-simple",
+  "mentions": [
+    {
+      "name": "auckland-stop-display-simple",
+      "description": "Small scripts that query the local bus company's API to show when buses are arriving at stops, designed to eventually output the arrival data to an external display. Built with simple, understandable scripts and included curl examples because similar existing projects were hard to understand and relied on a deprecated API.",
+      "problem": "Existing similar projects were hard to understand and mostly used an old API that no longer exists.",
+      "audience": null,
+      "builder_usernames": [
+        "slyall"
+      ],
+      "source_excerpt": "I'm doing some programs to use the API for my local bus company to show when buses are arriving at stops. Final step is making it output the data to an external display.",
+      "source_item_id": 49690222,
+      "source_url": "https://news.ycombinator.com/item?id=49690222",
+      "author": "slyall",
+      "shared_at": 1789345135,
+      "links": [
+        "https://github.com/slyall/auckland-stop-display-simple"
+      ]
+    }
+  ]
+}

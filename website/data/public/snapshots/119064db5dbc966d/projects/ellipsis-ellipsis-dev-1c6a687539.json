@@ -1,0 +1,24 @@
+{
+  "id": 1300,
+  "slug": "ellipsis-ellipsis-dev-1c6a687539",
+  "name": "Ellipsis (ellipsis.dev)",
+  "mentions": [
+    {
+      "name": "Ellipsis (ellipsis.dev)",
+      "description": "Managed cloud for coding agents that spawns Claude Code, Codex, or OpenCode sessions via an API call. Agents are defined in YAML and deployed as endpoints via git push, with full VM support for installing any dependencies, sub-5-second startup checked out to the latest commit, IAM-like permissions for agents, and the ability to download or stream the full harness output. The builder is seeking a cofounder in SF or NY.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "hunterbrooks"
+      ],
+      "source_excerpt": "https://ellipsis.dev (W24), a Managed Cloud for Coding Agents\n\nIt allows you to spawn Claude Code/Codex/OpenCode sessions with an API call.\n\nYou can define an agent in YAML, and git push gets you an endpoint. Full VM support (can install any dependencies), Spawns in <5s, with latest commit check out, IAM-like permissions for the agent. You can download/stream the full harness output too.",
+      "source_item_id": 49717845,
+      "source_url": "https://news.ycombinator.com/item?id=49717845",
+      "author": "hunterbrooks",
+      "shared_at": 1789501447,
+      "links": [
+        "https://ellipsis.dev"
+      ]
+    }
+  ]
+}

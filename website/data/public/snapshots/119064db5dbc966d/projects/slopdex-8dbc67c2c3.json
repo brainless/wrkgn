@@ -1,0 +1,24 @@
+{
+  "id": 1262,
+  "slug": "slopdex-8dbc67c2c3",
+  "name": "slopdex",
+  "mentions": [
+    {
+      "name": "slopdex",
+      "description": "A CLI tool that improves agentic coding workflows by giving the coding agent an index into the source code, built with vector embeddings and LLM-generated descriptions and backed by local SQLite. It keeps things simple — no MCP, no server, no file watchers — and uses git commit hashes to reindex only what has changed.",
+      "problem": "The agent lacks an index into the source code when working on a codebase.",
+      "audience": null,
+      "builder_usernames": [
+        "ryuuseijin"
+      ],
+      "source_excerpt": "This is my attempt to improve my agentic coding workflow by giving the agent an index into the source code through vector embeddings and LLM generated descriptions with local sqlite as the storage backend.",
+      "source_item_id": 49692746,
+      "source_url": "https://news.ycombinator.com/item?id=49692746",
+      "author": "ryuuseijin",
+      "shared_at": 1789367526,
+      "links": [
+        "https://github.com/ninjaxtools/slopdex"
+      ]
+    }
+  ]
+}

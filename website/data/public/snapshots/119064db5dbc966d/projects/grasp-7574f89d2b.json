@@ -1,0 +1,22 @@
+{
+  "id": 1655,
+  "slug": "grasp-7574f89d2b",
+  "name": "Grasp",
+  "mentions": [
+    {
+      "name": "Grasp",
+      "description": "A programming language called Grasp in which the language itself is a graph, analogous to how Lisp is a list. The design leverages the idea that most data structures (matrices, trees, lists) can be represented as graphs, aiming to make esoteric languages like APL, Forth, and Lisp expressible as DSLs of Grasp, with any program written in it forming its own control flow graph (CFG).",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "totemandtoken"
+      ],
+      "source_excerpt": "I started working on a programming language I called Grasp.\n\nIf lisp is a list processing language, grasp is a graph programming language.\n\nThe idea was that most other data structures can be represented with a graph ( adjacency matrices are matrices, a tree is a type of directed acyclic graph, a list is a graph where each node connects to at most two nodes, etc) and so if you designed a programming language where the language is itself a graph, much like how lisp is itself a list, you could get other esoteric programming languages like APL, forth, lisp, and so on as DSLs of Grasp. Also any program you write would be its own CFG.",
+      "source_item_id": 49692031,
+      "source_url": "https://news.ycombinator.com/item?id=49692031",
+      "author": "totemandtoken",
+      "shared_at": 1789360363,
+      "links": []
+    }
+  ]
+}

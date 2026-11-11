@@ -1,0 +1,22 @@
+{
+  "id": 1041,
+  "slug": "portable-x11-environment-in-posix-shell-c-14c2ca990b",
+  "name": "Portable X11 environment in POSIX shell/C",
+  "mentions": [
+    {
+      "name": "Portable X11 environment in POSIX shell/C",
+      "description": "A custom portable X11 desktop environment built from POSIX shell and C, replacing nearly every stock component—menu, bar, window manager, and hotkey daemon (terminal kept to avoid carrying terminfo)—so the pieces run independently on Linux and BSD. AI assistance is used to write the components quickly, with the goal of a stable environment that functions as intended forever and can't be disrupted by upstream developer changes.",
+      "problem": "Stock X11 environment components are interdependent, and developer changes to them can disrupt the user's workflow and preferences.",
+      "audience": null,
+      "builder_usernames": [
+        "ocd"
+      ],
+      "source_excerpt": "I'm needlessly reinventing the wheel in replacing almost every part of my X11 environment like a menu, bar, wm+hkd (except terminal since I don't want to mess with carrying terminfo around) to be portable and not at all interdependent.",
+      "source_item_id": 49691165,
+      "source_url": "https://news.ycombinator.com/item?id=49691165",
+      "author": "ocd",
+      "shared_at": 1789352824,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": 1529,
+  "slug": "open-source-embroidery-machine-0a8b6f3945",
+  "name": "Open source embroidery machine",
+  "mentions": [
+    {
+      "name": "Open source embroidery machine",
+      "description": "An open source embroidery machine based on the Brother PE-150, using a replacement motherboard and a fully open hardware/software stack in place of the machines' proprietary 90s-era CF cards.",
+      "problem": "Brother PE-150 machines are readily available on eBay for ~$100 but only work with proprietary 90s-era CF cards that nobody has, or the cards sell for more than the machine.",
+      "audience": null,
+      "builder_usernames": [
+        "Owen",
+        "gregsadetsky"
+      ],
+      "source_excerpt": "an open source embroidery machine - based on my friend Owen's work [1]. Owen found Brother PE-150 machines which are readily available on eBay for ~$100 as they only work with proprietary 90s-era CF cards which nobody has (or sell for more than the machine). he designed a replacement motherboard (!!) and is running a fully open stack. it's wild.",
+      "source_item_id": 49690457,
+      "source_url": "https://news.ycombinator.com/item?id=49690457",
+      "author": "gregsadetsky",
+      "shared_at": 1789347015,
+      "links": [
+        "https://owentrueblood.com/blog/2024/12/10/reverse-engineering-the-brother-pe-150-embroidery-machine/"
+      ]
+    }
+  ]
+}

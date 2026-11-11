@@ -1,0 +1,24 @@
+{
+  "id": 1440,
+  "slug": "nah-49bc8e914b",
+  "name": "nah",
+  "mentions": [
+    {
+      "name": "nah",
+      "description": "A coding agent guard that blocks catastrophic tool calls from AI coding agents. It is easily extensible, features a simple TUI, and is designed to stay resilient against an adversarial agent that attempts to remove the guard.",
+      "problem": "AI coding agents can execute catastrophic tool calls, and an adversarial agent may attempt to remove the guard.",
+      "audience": null,
+      "builder_usernames": [
+        "schipperai"
+      ],
+      "source_excerpt": "I’m working on nah, a coding agent guard to block catastrophic tool calls.\n\nIt’s easily extensible, has a nice simple TUI, and is resilient to an adversarial agent that tries to remove the guard.",
+      "source_item_id": 49746241,
+      "source_url": "https://news.ycombinator.com/item?id=49746241",
+      "author": "schipperai",
+      "shared_at": 1789677657,
+      "links": [
+        "https://github.com/manuelschipper/nah"
+      ]
+    }
+  ]
+}

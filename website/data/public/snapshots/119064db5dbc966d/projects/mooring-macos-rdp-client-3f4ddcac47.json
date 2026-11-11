@@ -1,0 +1,24 @@
+{
+  "id": 863,
+  "slug": "mooring-macos-rdp-client-3f4ddcac47",
+  "name": "Mooring (macOS RDP client)",
+  "mentions": [
+    {
+      "name": "Mooring (macOS RDP client)",
+      "description": "A macOS RDP (Remote Desktop Protocol) client that improves on the native macOS tooling, adding retina full screen scaling, automatic reconnection, and network measurement that downgrades connection quality when necessary.",
+      "problem": "Solves gripes with the native macOS RDP tooling.",
+      "audience": null,
+      "builder_usernames": [
+        "kcirtapfrmspc"
+      ],
+      "source_excerpt": "I've been working on macOS RDP client that solve some of my gripes with the native tooling. Brings retina full screen scaling, auto reconnect, and measures network to downgrade if necessary.",
+      "source_item_id": 49974900,
+      "source_url": "https://news.ycombinator.com/item?id=49974900",
+      "author": "kcirtapfrmspc",
+      "shared_at": 1791267589,
+      "links": [
+        "https://kcirtapfromspace.github.io/mooring/"
+      ]
+    }
+  ]
+}

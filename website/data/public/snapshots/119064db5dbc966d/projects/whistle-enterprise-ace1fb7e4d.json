@@ -1,0 +1,41 @@
+{
+  "id": 540,
+  "slug": "whistle-enterprise-ace1fb7e4d",
+  "name": "Whistle Enterprise",
+  "mentions": [
+    {
+      "name": "Whistle Enterprise",
+      "description": "A document generation product whose underlying model the author is actively improving, fine-tuning and testing small language models as replacements for Phi4, which previously performed well for midrange laptop CPU inference balancing speed and quality.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "properbrew"
+      ],
+      "source_excerpt": "Still cracking on with https://whistle-enterprise.com and making improvements to the document generation model. I'm ditching my old trusty Phi4 model and testing out some other small models to fine tune, something about Phi4 just seemed to work quite well for what it was so it's a hard contender to beat for midrange laptop CPU inference at a decent rate and quality.",
+      "source_item_id": 50418031,
+      "source_url": "https://news.ycombinator.com/item?id=50418031",
+      "author": "properbrew",
+      "shared_at": 1794176467,
+      "links": [
+        "https://whistle-enterprise.com"
+      ]
+    },
+    {
+      "name": "Whistle Enterprise",
+      "description": "Meeting recording tool with audio processing and quality updates, extended via a new extensions system. Extensions hook into M365 or Google to send desktop notifications that start the recording, export recordings to SharePoint, and stop the recording at the registered meeting end. Offline and online functionality are kept completely separate, and the M365 extension has passed Microsoft validation with a verified blue tick.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "properbrew"
+      ],
+      "source_excerpt": "Still working away on the same thing - https://whistle-enterprise.com\n\nLatest updates around audio processing and quality are out, I've also made a substantial addition by implementing extensions.\n\nThis allows people to hook up to M365 or Google to get desktop notifications to start the recording, it can also export to share point and stop the recording at the registered meeting end.",
+      "source_item_id": 49693443,
+      "source_url": "https://news.ycombinator.com/item?id=49693443",
+      "author": "properbrew",
+      "shared_at": 1789372926,
+      "links": [
+        "https://whistle-enterprise.com"
+      ]
+    }
+  ]
+}

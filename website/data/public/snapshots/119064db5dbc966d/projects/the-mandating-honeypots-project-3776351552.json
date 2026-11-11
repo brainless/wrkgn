@@ -1,0 +1,24 @@
+{
+  "id": 1066,
+  "slug": "the-mandating-honeypots-project-3776351552",
+  "name": "The Mandating Honeypots Project",
+  "mentions": [
+    {
+      "name": "The Mandating Honeypots Project",
+      "description": "This project demonstrates that age-verification via the Linux D-Bus interface can be trivially defeated: a simple Python script anyone can copy and paste makes the D-Bus interface always report 18+, rendering such checks useless. It argues the only reason to want ID verification is as a surveillance honeypot, and proposes a heavily redundant password-protected tool parents could use to keep kids from tampering with the verification service. Planned follow-ups include a mobile device version, an ID-database-focused version, and possibly a Windows version once the 'GetUserAgeRangeAsync' API ships.",
+      "problem": "Age verification that asks the D-Bus interface is useless because anyone can tell it to always report 18+; the real driver for ID verification would be mass surveillance (a 'honeypot'), and governments justify it as 'for the kids'.",
+      "audience": "Parents (users of the proposed tamper-protection tool)",
+      "builder_usernames": [
+        "ToriTech"
+      ],
+      "source_excerpt": "I put together this thing I call The Mandating Honeypots Project and it shows how anyone with an internet connection and copy + paste skills can trick Linux D-Buses with a simple Python script, proving that if companies want to verify your age by asking the D-Bus interface, it's easy to just tell it to always send 18+, making the whole thing useless.",
+      "source_item_id": 49692227,
+      "source_url": "https://news.ycombinator.com/item?id=49692227",
+      "author": "ToriTech",
+      "shared_at": 1789362464,
+      "links": [
+        "https://github.com/Tori-Tech/Mandating-Honeypots-Project"
+      ]
+    }
+  ]
+}

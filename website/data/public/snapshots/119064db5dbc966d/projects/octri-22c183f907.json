@@ -1,0 +1,24 @@
+{
+  "id": 1666,
+  "slug": "octri-22c183f907",
+  "name": "Octri",
+  "mentions": [
+    {
+      "name": "Octri",
+      "description": "Octri is an all-in-one platform for API teams: feed it an OpenAPI, Postman, or AsyncAPI spec and it generates and manages editable API docs (with an API playground, RAG-based chat, custom components, and other interactive features), idiomatic SDKs in 10 languages built with per-language experienced developers, and API + SDK monitoring that maps telemetry back to the API spec to identify slow SDK methods and API paths, track uptime and status announcements, capture errors and stack traces, and filter PII with GDPR in mind. SDK customization is handled through a visual editor with real-time code preview covering client initialization patterns, positional args vs DTOs vs kwargs, HTTP client/library, tree-shakability, and method structure/naming so generated SDKs feel hand-written. It also includes Spec Audit (planned to be open source), which scores an OpenAPI spec, explains the problems it finds, and automatically fixes a number of them.",
+      "problem": "API tooling in this space often feels optimized for enterprise buyers rather than the developers actually using it, with rough UX around editing docs, customizing generated SDKs, and specs failing on first import due to small incompatibilities; Octri aims for a lower barrier to entry, affordable pricing for smaller teams, and improving/fixing inputs rather than failing on imperfect specs.",
+      "audience": "API teams, especially smaller teams; developers who maintain public APIs or SDKs",
+      "builder_usernames": [
+        "EmadKhair"
+      ],
+      "source_excerpt": "My siblings and I are building Octri, an all-in-one platform for API teams.\n\nhttps://octri.dev",
+      "source_item_id": 49712018,
+      "source_url": "https://news.ycombinator.com/item?id=49712018",
+      "author": "EmadKhair",
+      "shared_at": 1789477894,
+      "links": [
+        "https://octri.dev"
+      ]
+    }
+  ]
+}

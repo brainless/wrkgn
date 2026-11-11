@@ -1,0 +1,22 @@
+{
+  "id": 1012,
+  "slug": "prompt-injection-intercepting-llm-runner-563dd47d9c",
+  "name": "Prompt Injection-Intercepting LLM Runner",
+  "mentions": [
+    {
+      "name": "Prompt Injection-Intercepting LLM Runner",
+      "description": "A new kind of LLM runner that lets users understand the model's internal reasoning process and can be automated to intercept hallucinations and prompt injections before they cause damage. It aims to solve prompt injection; no public code exists yet, but the builder intends to open source it.",
+      "problem": "Prompt injections and hallucinations from LLMs cause damage before they can be stopped; this runner is being built to intercept them beforehand.",
+      "audience": null,
+      "builder_usernames": [
+        "nbpname"
+      ],
+      "source_excerpt": "I am building a new kind of LLM runner which lets you understand the internal reasoning process, and which can be automated to intercept hallucinations and prompt injections before they cause more damage.",
+      "source_item_id": 49693579,
+      "source_url": "https://news.ycombinator.com/item?id=49693579",
+      "author": "nbpname",
+      "shared_at": 1789374002,
+      "links": []
+    }
+  ]
+}

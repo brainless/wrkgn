@@ -1,0 +1,24 @@
+{
+  "id": 1069,
+  "slug": "flakiness-io-4a42dd6ddf",
+  "name": "Flakiness.io",
+  "mentions": [
+    {
+      "name": "Flakiness.io",
+      "description": "This service provides test analytics for GitHub and GitLab, connecting test results and artifacts with commit history and testing environment so test reports can show whether a pull request failure is a real regression or a known flake from the target branch. Its core is a specialized analytics engine for storing and querying large amounts of test results, with 2.5 billion test results processed to date. It offers a 1GB free plan (roughly 10M+ test results), with limits increasable to 100GB for large open source projects.",
+      "problem": "It is hard to tell whether a pull request test failure is a real regression or a known flake from the target branch.",
+      "audience": "Developers and QA engineers using GitHub or GitLab CI, including large open source projects (e.g., nuxt/nuxt, wordpress/gutenberg).",
+      "builder_usernames": [
+        "aslushnikov"
+      ],
+      "source_excerpt": "https://flakiness.io: test analytics for GitHub and GitLab.\n\nThe idea is to connect test results and artifacts with commit history and testing environment. This way test reports can show whether a failure in a pull request is a real regression or a known flake from a target branch.\n\nThe core of the service is a specialized analytics engine that makes it possible to store and query large amounts of test results [1]. Thanks to this engine, we've processed 2.5 billion test results to date.",
+      "source_item_id": 49695151,
+      "source_url": "https://news.ycombinator.com/item?id=49695151",
+      "author": "aslushnikov",
+      "shared_at": 1789385904,
+      "links": [
+        "https://flakiness.io"
+      ]
+    }
+  ]
+}

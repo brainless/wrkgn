@@ -1,0 +1,24 @@
+{
+  "id": 1286,
+  "slug": "vision3d-8b54d63b08",
+  "name": "vision3d",
+  "mentions": [
+    {
+      "name": "vision3d",
+      "description": "An open-source library that extends the torchvision API to 3D object detection tasks. It provides semantic tensor types (point clouds, images, bounding boxes) built on torchvision's TVTensor, transforms that verify geometric consistency when composed, dataloaders, 3D object detection metrics, and optional visualization utilities, aiming for interoperability with torchvision image transforms. Under the hood it uses the Torch Stable ABI for custom CUDA/C++ extensions so a single wheel works across PyTorch >= 2.10, and statically links the CUDA runtime so it works out of the box on hosts with CUDA >= 12.8. Work is underway to support static tensor shape type checking via Pyrefly.",
+      "problem": "Existing 3D object detection frameworks like mmdetection3d and OpenPCDet try to do too much beyond what is needed for a good 3D ML library.",
+      "audience": "Researchers and practitioners working on 3D object detection research and model training.",
+      "builder_usernames": [
+        "yeetypete"
+      ],
+      "source_excerpt": "I'm working on vision3d (https://github.com/yeetypete/vision3d) a 3D extension to torchvision. vision3d aims to elegantly extend the well-established torchvision API to 3D object detection tasks.",
+      "source_item_id": 49703194,
+      "source_url": "https://news.ycombinator.com/item?id=49703194",
+      "author": "yeetypete",
+      "shared_at": 1789416523,
+      "links": [
+        "https://github.com/yeetypete/vision3d"
+      ]
+    }
+  ]
+}

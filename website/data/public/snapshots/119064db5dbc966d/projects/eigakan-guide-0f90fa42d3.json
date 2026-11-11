@@ -1,0 +1,59 @@
+{
+  "id": 245,
+  "slug": "eigakan-guide-0f90fa42d3",
+  "name": "Eigakan Guide",
+  "mentions": [
+    {
+      "name": "Eigakan Guide",
+      "description": "This is a cinema showtime aggregator for Japan that lets users filter showtimes by area, cinema, date, time, and features such as IMAX, English audio, and English subtitles (e.g. IMAX showtimes with English audio on Friday after 7PM). It has added hundreds of cinemas and user features for saving search filters, movies, and specific showtimes. It also offers a ChatGPT plugin for natural-language showtime search inside ChatGPT and on-site AI search for queries like 'English audio showtimes near Shinjuku tomorrow'.",
+      "problem": "Popular cinema sites in Japan only allow very few filters, making it hard to find exactly the showtimes you're looking for.",
+      "audience": null,
+      "builder_usernames": [
+        "m007850"
+      ],
+      "source_excerpt": "I'm working on Eigakan Guide (https://eigakanguide.jp/en), a cinema showtime aggregator for Japan. Every popular cinema site in Japan only allows for very few filters, making it hard to find exactly what I was looking for.",
+      "source_item_id": 50333492,
+      "source_url": "https://news.ycombinator.com/item?id=50333492",
+      "author": "m007850",
+      "shared_at": 1793598035,
+      "links": [
+        "https://chatgpt.com/plugins/plugin_asdk_app_6abfdc298c20819192a2d44302a6e7a8",
+        "https://eigakanguide.jp/en"
+      ]
+    },
+    {
+      "name": "Eigakan Guide",
+      "description": "A cinema showtime aggregator for Japan that lets users search showtimes across the country by area, cinema, date, time, and premium formats like IMAX and Dolby Cinema, with filtering for English audio, English subtitles, and English metadata. Showtimes from every matching cinema are grouped by movie; it currently covers 27 cinema chains and 373 cinemas.",
+      "problem": "Finding movie showtimes in Japan is difficult; the goal is to make finding showtimes as simple as possible.",
+      "audience": null,
+      "builder_usernames": [
+        "m007850"
+      ],
+      "source_excerpt": "I'm building Eigakan Guide (https://eigakanguide.jp/en), a cinema showtime aggregator for Japan. It allows searching for showtimes all over Japan by area, cinema, date, time, and features like IMAX and Dolby Cinema.",
+      "source_item_id": 49934239,
+      "source_url": "https://news.ycombinator.com/item?id=49934239",
+      "author": "m007850",
+      "shared_at": 1790953086,
+      "links": [
+        "https://eigakanguide.jp/en"
+      ]
+    },
+    {
+      "name": "Eigakan Guide",
+      "description": "A cinema showtime search site for Japan that filters movie screenings by area, cinema, date, time, and features like IMAX, Dolby Cinema, 4DX, and subtitled screenings. It includes a dedicated English-subtitled screenings filter, infers English audio for Japanese-subtitled screenings of English-language films, is available in Japanese and English, and currently covers every TOHO Cinemas and Cinema Sunshine location in Japan, with AEON Cinema and more chains planned.",
+      "problem": "There was no easy-to-use way to search everything currently showing in Japan: existing sites like eiga.com offer only a few filters, and individual cinema websites require searching one location at a time. People also struggle to find screenings with English audio or English subtitles.",
+      "audience": "Moviegoers in Japan, including people looking for screenings with English audio or English subtitles.",
+      "builder_usernames": [
+        "m007850"
+      ],
+      "source_excerpt": "I'm building Eigakan Guide, a cinema showtime search site for Japan:\n\nhttps://eigakanguide.jp/en",
+      "source_item_id": 49693598,
+      "source_url": "https://news.ycombinator.com/item?id=49693598",
+      "author": "m007850",
+      "shared_at": 1789374179,
+      "links": [
+        "https://eigakanguide.jp/en"
+      ]
+    }
+  ]
+}

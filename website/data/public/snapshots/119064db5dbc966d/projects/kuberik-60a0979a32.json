@@ -1,0 +1,24 @@
+{
+  "id": 1225,
+  "slug": "kuberik-60a0979a32",
+  "name": "Kuberik",
+  "mentions": [
+    {
+      "name": "Kuberik",
+      "description": "A continuous delivery tool for Kubernetes built on top of Flux and the OpenKruise canary controller. It delivers full-featured, end-to-end deployment across multiple Kubernetes environments in a declarative way without pipeline engines, with each delivery stage implemented as a composable component (health checks, smoke tests, schedules, environment promotions, service dependencies). A recent release adds GitHub integration so users can track exactly what is deployed where and how far a change has progressed.",
+      "problem": "Reinventing the wheel with pipeline engines every time something needed to be deployed.",
+      "audience": null,
+      "builder_usernames": [
+        "LittleChimera"
+      ],
+      "source_excerpt": "Working on https://kuberik.com\n\nIt's a CD tool for Kubernetes built on top of Flux and OpenKruise canary controller to bring a full-featured end to end delivery on Kubernetes over multiple environments in a declarative way without the pipelines.",
+      "source_item_id": 49688790,
+      "source_url": "https://news.ycombinator.com/item?id=49688790",
+      "author": "LittleChimera",
+      "shared_at": 1789334162,
+      "links": [
+        "https://kuberik.com"
+      ]
+    }
+  ]
+}

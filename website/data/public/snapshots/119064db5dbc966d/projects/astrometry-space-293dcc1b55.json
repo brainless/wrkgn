@@ -1,0 +1,25 @@
+{
+  "id": 891,
+  "slug": "astrometry-space-293dcc1b55",
+  "name": "astrometry.space",
+  "mentions": [
+    {
+      "name": "astrometry.space",
+      "description": "A browser-based, professional-grade telescope processing pipeline for asteroid orbits and photometry (measuring how bright stars and asteroids are). All image processing and calculations run in the browser, written in Rust and compiled to WebAssembly, with only two backend queries to custom databases to identify known asteroids and stars, keeping the backend tiny. Currently desktop-only, rough, and supports the FITS file standard.",
+      "problem": "Built after watching astronomers repeat the same processing steps for years, to make their (and astrophotographers') work easier.",
+      "audience": "Astronomers and astrophotographers (desktop only).",
+      "builder_usernames": [
+        "ddahlen",
+        "fable"
+      ],
+      "source_excerpt": "I have slowly built out a set of tools for asteroid orbits and photometry (measuring how bright stars/asteroids are).\n\nIt is very rough still (Desktop only), and it only supports the FITs file standard.\n\nhttps://www.astrometry.space/\n\nBasically it is a full professional grade telescope processing pipeline in your browser. It does 2 queries to some custom databases to identify known asteroids and stars, but all image processing and calculations are done in the browser.",
+      "source_item_id": 49690394,
+      "source_url": "https://news.ycombinator.com/item?id=49690394",
+      "author": "ddahlen",
+      "shared_at": 1789346490,
+      "links": [
+        "https://www.astrometry.space/"
+      ]
+    }
+  ]
+}

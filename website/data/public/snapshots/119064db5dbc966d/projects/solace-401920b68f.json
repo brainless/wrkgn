@@ -1,0 +1,24 @@
+{
+  "id": 1291,
+  "slug": "solace-401920b68f",
+  "name": "Solace",
+  "mentions": [
+    {
+      "name": "Solace",
+      "description": "Solace is a programming language that targets JavaScript without being a superset of it, unlike TypeScript. It aims to provide zero-runtime-cost safeguards such as optional values and error unions with Zig-like syntax, along with pattern matching and traits. Development is still in progress, with generics posing tricky challenges to the current approaches.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "koehr"
+      ],
+      "source_excerpt": "I'm working on Solace¹, a programming language that targets JavaScript, but is not a superset, like Typescript.\nThe idea is, to allow zero-runtime-cost safeguards, like Optional Values and Error Unions (syntactically they look like Zig's), decent pattern matching and Traits.",
+      "source_item_id": 49687979,
+      "source_url": "https://news.ycombinator.com/item?id=49687979",
+      "author": "koehr",
+      "shared_at": 1789329162,
+      "links": [
+        "https://git.koehr.ing/n/solace"
+      ]
+    }
+  ]
+}

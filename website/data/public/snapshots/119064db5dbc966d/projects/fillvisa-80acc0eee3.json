@@ -1,0 +1,43 @@
+{
+  "id": 864,
+  "slug": "fillvisa-80acc0eee3",
+  "name": "Fillvisa",
+  "mentions": [
+    {
+      "name": "Fillvisa",
+      "description": "An open-source immigration legaltech platform built as an alternative to closed-source immigration software like Docketwise, aiming to bring open-source options to the legaltech space.",
+      "problem": "Legaltech has mostly been closed-software, with few open-source alternatives for immigration technology.",
+      "audience": null,
+      "builder_usernames": [
+        "junaid_97"
+      ],
+      "source_excerpt": "I'm building the Fillvisa: open-Source Alternative to Docketwise\n\nSo far, legaltech has mostly been closed-software. I'm building an open source alternative to Immigration tech software.",
+      "source_item_id": 49930031,
+      "source_url": "https://news.ycombinator.com/item?id=49930031",
+      "author": "junaid_97",
+      "shared_at": 1790917772,
+      "links": [
+        "https://fillvisa.com/demo",
+        "https://github.com/athos2113/fillvisa-os"
+      ]
+    },
+    {
+      "name": "FillVisa OS",
+      "description": "Open-source tool that converts official U.S. immigration (USCIS) PDF forms into smart, browser-fillable web forms. The web forms are replicas of the official USCIS forms and follow conditional logic, and the output is the official USCIS PDF form filled in, so users don't have to print forms and fill them by hand.",
+      "problem": "U.S. immigration still relies on outdated XFA PDFs that can't be filled in a browser, so most immigrants end up printing the form and filling it manually.",
+      "audience": null,
+      "builder_usernames": [
+        "junaid_97"
+      ],
+      "source_excerpt": "I'm buildingan open-source way to fill U.S. immigration forms without fighting clunky PDFs\n\nGithub: https://github.com/athos2113/fillvisa-os\n\nDemo: https://fillvisa.com/demo/\n\nUS Immigration still relies on outdated XFA PDFs - you can't fill them on your browser. Most immigrants end up printing the form and fill it manually.\n\nSo, I converted the PDF forms into smart web forms. They are replica of the official USCIS forms and follow conditonal logic. In the output, you get the official USCIS pdf form filled.",
+      "source_item_id": 49690808,
+      "source_url": "https://news.ycombinator.com/item?id=49690808",
+      "author": "junaid_97",
+      "shared_at": 1789350162,
+      "links": [
+        "https://fillvisa.com/demo/",
+        "https://github.com/athos2113/fillvisa-os"
+      ]
+    }
+  ]
+}

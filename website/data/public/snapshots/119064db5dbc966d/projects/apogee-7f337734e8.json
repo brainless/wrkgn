@@ -1,0 +1,26 @@
+{
+  "id": 1047,
+  "slug": "apogee-7f337734e8",
+  "name": "Apogee",
+  "mentions": [
+    {
+      "name": "Apogee",
+      "description": "A fully local, privacy-focused browser extension (rebuilt from Mozilla's discontinued Orbit) that summarizes articles and websites, YouTube videos, Wikipedia articles, and Hacker News and Reddit threads. It never sends or stores user data, connects directly to a local Ollama instance for inference, and uses WebGPU integration in Chrome and Transformers.js in Firefox for faster local responses.",
+      "problem": "Mozilla's cloud-hosted Orbit AI summarizer was discontinued, and cloud-based summarizers send or store user data remotely; Apogee addresses this with a fully local alternative.",
+      "audience": null,
+      "builder_usernames": [
+        "zxdc7896"
+      ],
+      "source_excerpt": "For the past month, I’ve been trying to rebuild Orbit from scratch, but with one major difference: Apogee is fully local and privacy-focused. Apogee doesn’t send or store your data. It can directly connect to your local Ollama instance for inference. I’ve also added WebGPU integration for Chrome and Transformers.js for Firefox to provide faster, local responses.\n\nIt can summarize: Articles and websites, YouTube and Billie videos, Wikipedia articles, Hacker News and Reddit threads.",
+      "source_item_id": 49690461,
+      "source_url": "https://news.ycombinator.com/item?id=49690461",
+      "author": "zxdc7896",
+      "shared_at": 1789347045,
+      "links": [
+        "https://addons.mozilla.org/en-US/firefox/addon/apogeeext/",
+        "https://chromewebstore.google.com/detail/apogee/pgemlpomhkdcjjjcpnjlebalnfglomog",
+        "https://github.com/darshi1337/apogee"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": 1168,
+  "slug": "kuluu-ffxi-04ae1f72b1",
+  "name": "kuluu-ffxi",
+  "mentions": [
+    {
+      "name": "kuluu-ffxi",
+      "description": "A faithful reimplementation of the Final Fantasy XI retail client (~0.9:1) that eliminates the original's performance jank and cruft while adding cross-platform support, with a plugin system and hackable source code that lets players layer on optional quality-of-life, graphical, and UI/UX improvements or build entirely new experiences across various private servers.",
+      "problem": "The original Final Fantasy XI retail client has significant performance jank and cruft.",
+      "audience": "Players of Final Fantasy XI on private servers, from those wanting a drop-in modern client replacement to those building entirely new experiences.",
+      "builder_usernames": [
+        "jondwillis"
+      ],
+      "source_excerpt": "Remaking the Final Fantasy XI client. The idea is to have a ~0.9:1 faithful reimplementation of the retail client without a lot of the performance jank and cruft that the original has, and then layer optional improvements, QoL, graphical improvements, UI/UX improvements etc., on top with a plugin system and hackable source code for players across various private servers.",
+      "source_item_id": 49702777,
+      "source_url": "https://news.ycombinator.com/item?id=49702777",
+      "author": "jondwillis",
+      "shared_at": 1789414939,
+      "links": [
+        "https://github.com/jondwillis/kuluu-ffxi"
+      ]
+    }
+  ]
+}

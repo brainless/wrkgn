@@ -1,0 +1,22 @@
+{
+  "id": 1651,
+  "slug": "options-market-making-system-8b8c62112c",
+  "name": "Options market-making system",
+  "mentions": [
+    {
+      "name": "Options market-making system",
+      "description": "An options market-making trading system built around a custom volatility model trained on historical data. It runs a passive delta-hedged market maker, renders a synthetic underlying price from multiple market data sources, and operates across a handful of high-performance servers, with development done through Claude Code sessions.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "zopf"
+      ],
+      "source_excerpt": "Options market-making. I trained a custom volatility model on historical data, built a passive delta hedge MM, render a synthetic underlying price from many market data sources, and a number of other interesting elements.",
+      "source_item_id": 49705167,
+      "source_url": "https://news.ycombinator.com/item?id=49705167",
+      "author": "zopf",
+      "shared_at": 1789425330,
+      "links": []
+    }
+  ]
+}

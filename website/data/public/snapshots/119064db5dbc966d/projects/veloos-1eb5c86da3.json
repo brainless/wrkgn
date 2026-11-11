@@ -1,0 +1,24 @@
+{
+  "id": 999,
+  "slug": "veloos-1eb5c86da3",
+  "name": "VeloOS",
+  "mentions": [
+    {
+      "name": "VeloOS",
+      "description": "VeloOS is a from-scratch x86_64 UEFI operating system that aims to look like Windows Vista while behaving like Linux. Development so far includes a custom bootloader and legacy BIOS VGA text buffer, with current work on a real USB-HID keyboard driver and getting the OS to boot on real hardware. The project is source-available and open to collaboration with other low-level OS developers.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "gtadesktop1"
+      ],
+      "source_excerpt": "I'm working on a own x86_64 UEFI Operating System (OS). The idea is to make an OS that looks like Windows Vista but behave like Linux, so it's a mix of Windows and Linux.",
+      "source_item_id": 49686820,
+      "source_url": "https://news.ycombinator.com/item?id=49686820",
+      "author": "gtadesktop1",
+      "shared_at": 1789322910,
+      "links": [
+        "https://codeberg.org/vntx-labs/VeloOS"
+      ]
+    }
+  ]
+}

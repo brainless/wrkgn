@@ -1,0 +1,22 @@
+{
+  "id": 966,
+  "slug": "text-application-network-protocol-03654569b0",
+  "name": "Text application network protocol",
+  "mentions": [
+    {
+      "name": "Text application network protocol",
+      "description": "This protocol enables efficient text applications over a network using a very lightweight client/server architecture, combining ideas from TN3270, SSH, and JavaScript to address latency problems. It aims to make applications very simple to implement, and the protocol, client, and server are agnostic to any particular UI toolkit. A proof of concept implements a simple forum with login, optimistic posting, quoting, and a text editor with mouse support in about 600 lines of code.",
+      "problem": "SSH is great, but latency kills many practical applications; this protocol attempts to solve that.",
+      "audience": null,
+      "builder_usernames": [
+        "publlus_enigma"
+      ],
+      "source_excerpt": "an efficient protocol for  text applications over a network. Think a combination of TN3270, SSH and JavaScript, with a very lightweight client/server architecture. Whilst SSH is great, latency kills many practical applications - this attempts to solve that.",
+      "source_item_id": 49691872,
+      "source_url": "https://news.ycombinator.com/item?id=49691872",
+      "author": "publlus_enigma",
+      "shared_at": 1789358918,
+      "links": []
+    }
+  ]
+}

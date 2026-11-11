@@ -1,0 +1,24 @@
+{
+  "id": 1237,
+  "slug": "sandlot-8881bd4e28",
+  "name": "Sandlot",
+  "mentions": [
+    {
+      "name": "Sandlot",
+      "description": "Sandlot is a Rust wrapper around SDL3 that enforces lifetimes and provides an idiomatic Rust interface, reducing opportunities for footguns compared to using SDL3 directly.",
+      "problem": "SDL3's raw interface leaves room for lifetime errors and other footguns when used from Rust.",
+      "audience": null,
+      "builder_usernames": [
+        "lyorig"
+      ],
+      "source_excerpt": "Currently iterating on Sandlot, an SDL3 wrapper in Rust that enforces lifetimes and generally offers an idiomatic Rust interface with less opportunities to shoot yourself in the foot.",
+      "source_item_id": 49705568,
+      "source_url": "https://news.ycombinator.com/item?id=49705568",
+      "author": "lyorig",
+      "shared_at": 1789427718,
+      "links": [
+        "https://github.com/lyorig/sandlot"
+      ]
+    }
+  ]
+}

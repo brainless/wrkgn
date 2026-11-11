@@ -1,0 +1,24 @@
+{
+  "id": 899,
+  "slug": "telox-432bc2fd96",
+  "name": "Telox",
+  "mentions": [
+    {
+      "name": "Telox",
+      "description": "An independent LaTeX engine written in Rust with no C dependencies. It aims to support bidirectional editing of LaTeX output — letting users drag objects around and interact with typeset pages — with realtime edits in the ~10 millisecond ballpark, in service of mathematical exposition.",
+      "problem": "There is currently no way to invert LaTeX engine output for bidirectional editing, so users cannot easily drag objects around or interact with the page in LaTeX.",
+      "audience": null,
+      "builder_usernames": [
+        "eigenblake"
+      ],
+      "source_excerpt": "I'm working on a new independent LaTeX engine written in Rust and no C dependencies at all. You can see it working at https://telox.dev/app/scratchpad/\n\nThere's currently not a way to invert LaTeX engine output for bidirectional editing. So you can't easily drag objects around or interact with the page on LaTeX.",
+      "source_item_id": 49690818,
+      "source_url": "https://news.ycombinator.com/item?id=49690818",
+      "author": "eigenblake",
+      "shared_at": 1789350213,
+      "links": [
+        "https://telox.dev/app/scratchpad/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": 1186,
+  "slug": "aviation-weather-notam-parsing-app-af9659235d",
+  "name": "Aviation Weather & NOTAM Parsing App",
+  "mentions": [
+    {
+      "name": "Aviation Weather & NOTAM Parsing App",
+      "description": "This app parses aviation weather notifications and NOTAMs (Notice to Air Missions) and displays them for pilots, with a goal of ensuring no relevant information is hidden while providing a mechanism to surface more important notices, such as a runway closure, above the noise of dozens of low-relevance notices about cranes and unlit objects.",
+      "problem": "The global NOTAM system is broken and operates on the basis of legal liability: NOTAMs are published to comply with requirements, and pilots are required to know all relevant information, but important things get lost in the noise—for example, a single runway-closure notice can be missed unless one carefully reads 100 notices.",
+      "audience": "Pilots",
+      "builder_usernames": [
+        "einhard"
+      ],
+      "source_excerpt": "I'm slowly working on an aviation and flight related weather notification and NOTAM (Notice to Air Missions) parsing app.",
+      "source_item_id": 49694890,
+      "source_url": "https://news.ycombinator.com/item?id=49694890",
+      "author": "einhard",
+      "shared_at": 1789383818,
+      "links": []
+    }
+  ]
+}
