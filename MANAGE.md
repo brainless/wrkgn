@@ -101,6 +101,7 @@ cargo run --bin wrkgn -- review match <from-project-id> <to-project-id>
 Source suppression excludes that source's content from publication; project suppression excludes the project. Suppression survives reprocessing. There is currently no CLI command to undo it; an erroneous suppression requires deliberate local SQLite inspection and editing.
 
 Match only when evidence shows two project records represent the same project. Matching moves mentions from the first project to the second and records the identity mapping for reruns. It is separate from extraction and does not approve mentions.
+Both projects must have the same known HN source author; suppressed projects cannot be manually matched. Automatic matching also requires that author and a shared explicit URL. URL order and an ordinary trailing slash do not affect matching, while URL path case, query, fragment, and distinct paths remain significant. Ambiguous URL matches remain separate for review; processing stops for the affected group if an ambiguous candidate is suppressed. Previously split projects are not silently merged by opening the database or exporting: inspect duplicate candidates and use `review match` only after checking their sources. Keep the database backed up before any deliberate identity cleanup.
 
 ## 4. Export approved data
 

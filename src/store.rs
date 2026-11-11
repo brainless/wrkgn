@@ -9,7 +9,7 @@ use rusqlite::{Connection, OptionalExtension, params};
 use serde_json::Value;
 use sha2::{Digest, Sha256};
 
-const LATEST_SCHEMA_VERSION: i64 = 5;
+const LATEST_SCHEMA_VERSION: i64 = 6;
 
 #[derive(Debug, Clone, PartialEq)]
 pub struct SourceItem {
@@ -149,6 +149,33 @@ impl Store {
             let transaction = self.connection.transaction()?;
             transaction.execute_batch(include_str!("../migrations/005_project_extraction.sql"))?;
             transaction.pragma_update(None, "user_version", 5)?;
+            transaction.commit()?;
+        }
+        if current < 6 {
+            let transaction = self.connection.transaction()?;
+            transaction.execute_batch(include_str!("../migrations/006_project_url_aliases.sql"))?;
+            let existing = {
+                let mut statement = transaction.prepare("SELECT s.author,l.url,m.project_id FROM mentions m JOIN source_items s ON s.item_id=m.source_item_id JOIN mention_links l ON l.mention_id=m.id")?;
+                statement
+                    .query_map([], |r| {
+                        Ok((
+                            r.get::<_, Option<String>>(0)?,
+                            r.get::<_, String>(1)?,
+                            r.get::<_, i64>(2)?,
+                        ))
+                    })?
+                    .collect::<rusqlite::Result<Vec<_>>>()?
+            };
+            for (author, url, pid) in existing {
+                if let (Some(author), Some(url)) = (author, crate::processing::canonical_url(&url))
+                {
+                    transaction.execute(
+                        "INSERT OR IGNORE INTO project_url_aliases VALUES(?1,?2,?3)",
+                        rusqlite::params![author, url, pid],
+                    )?;
+                }
+            }
+            transaction.pragma_update(None, "user_version", 6)?;
             transaction.commit()?;
         }
         Ok(())

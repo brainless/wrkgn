@@ -124,4 +124,6 @@ Before launch, replace the synthetic/empty staged data with a reviewed, approved
 
 ## Project extraction schema migration
 
+Database migration 6 stores private author and normalized URL aliases for project identity. It seeds aliases from existing mention links on first open and records them before replacement, so a successful zero-mention rerun does not erase a reviewed match or suppression. It does not modify existing project IDs, slugs, review decisions, or staged exports. Existing duplicates require source inspection and explicit `review match`; opening the database does not reconcile them automatically.
+
 Database migration 5 adds source excerpts and additional builder records without deleting legacy request/supporting history. Public schema 3 omits requests, supporting contributions, and Looking for, and adds audience taxonomy metadata, source excerpts, and per-mention builder usernames. Missing legacy source excerpts or unknown legacy audience labels cause export to stop with instructions to reprocess; labels and approvals are not silently rewritten. Reprocess and review before staging a new export. Existing staged schema-2 data remains readable by the website.

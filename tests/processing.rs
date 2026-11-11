@@ -31,7 +31,7 @@ impl HnApi for Api {
             }
             200 => json!({"id":200,"kids":[201]}),
             201 => {
-                json!({"id":201,"parent":200,"by":"alice","time":2000,"text":"Alpha again https://alpha.test"})
+                json!({"id":201,"parent":200,"by":"alice","time":2000,"text":"Alpha again https://alpha.test/ and https://alpha.test; Beta https://beta.test"})
             }
             _ => panic!("unexpected {id}"),
         }))
@@ -585,6 +585,9 @@ fn manual_project_match_survives_reprocess() {
         .as_i64()
         .unwrap();
     publication::match_projects(&mut store, beta, alpha).unwrap();
+    let conn = rusqlite::Connection::open(dir.path().join("db.sqlite")).unwrap();
+    let alias_target: i64 = conn.query_row("SELECT project_id FROM project_url_aliases WHERE author='alice' AND canonical_url='https://beta.test/'", [], |r| r.get(0)).unwrap();
+    assert_eq!(alias_target, alpha);
     publication::export(&mut store, &dir.path().join("public")).unwrap();
     assert_eq!(discovery(&dir).len(), 3);
     process_thread(&mut store, 100, &model(fixtures()), true).unwrap();
@@ -593,6 +596,254 @@ fn manual_project_match_survives_reprocess() {
     }
     publication::export(&mut store, &dir.path().join("public")).unwrap();
     assert_eq!(discovery(&dir).len(), 3);
+}
+#[test]
+fn url_order_and_trailing_slash_match_only_the_same_source_author() {
+    let (dir, mut store) = setup();
+    let mut alpha = mention(
+        101,
+        Some("Alpha"),
+        Some("https://alpha.test"),
+        "Alpha organizes work",
+    );
+    alpha.urls.push("https://beta.test".into());
+    let mut bob = mention(
+        102,
+        Some("Alpha"),
+        Some("https://alpha.test"),
+        "Bob's own project",
+    );
+    bob.source_excerpt = "Demo of Alpha".into();
+    process_thread(
+        &mut store,
+        100,
+        &model(vec![
+            Ok(Extraction {
+                mentions: vec![alpha, bob],
+            }),
+            Ok(Extraction { mentions: vec![] }),
+            Ok(Extraction { mentions: vec![] }),
+        ]),
+        false,
+    )
+    .unwrap();
+    let mut repeated = mention(
+        201,
+        Some("Alpha"),
+        Some("https://beta.test"),
+        "Alpha organizes work",
+    );
+    repeated.urls.push("https://alpha.test/".into());
+    process_thread(
+        &mut store,
+        200,
+        &model(vec![Ok(Extraction {
+            mentions: vec![repeated],
+        })]),
+        false,
+    )
+    .unwrap();
+    let conn = rusqlite::Connection::open(dir.path().join("db.sqlite")).unwrap();
+    let project = |source| {
+        conn.query_row(
+            "SELECT project_id FROM mentions WHERE source_item_id=?1",
+            [source],
+            |r| r.get::<_, i64>(0),
+        )
+        .unwrap()
+    };
+    assert_eq!(project(101), project(201));
+    assert_ne!(project(102), project(201));
+}
+
+#[test]
+fn suppressed_project_stays_suppressed_when_shared_again() {
+    let (dir, mut store) = setup();
+    let alpha = mention(
+        101,
+        Some("Alpha"),
+        Some("https://alpha.test"),
+        "Alpha organizes work",
+    );
+    process_thread(
+        &mut store,
+        100,
+        &model(vec![
+            Ok(Extraction {
+                mentions: vec![alpha],
+            }),
+            Ok(Extraction { mentions: vec![] }),
+            Ok(Extraction { mentions: vec![] }),
+        ]),
+        false,
+    )
+    .unwrap();
+    let conn = rusqlite::Connection::open(dir.path().join("db.sqlite")).unwrap();
+    let pid: i64 = conn
+        .query_row(
+            "SELECT project_id FROM mentions WHERE source_item_id=101",
+            [],
+            |r| r.get(0),
+        )
+        .unwrap();
+    publication::suppress_project(&mut store, pid).unwrap();
+    process_thread(
+        &mut store,
+        100,
+        &model(vec![
+            Ok(Extraction { mentions: vec![] }),
+            Ok(Extraction { mentions: vec![] }),
+            Ok(Extraction { mentions: vec![] }),
+        ]),
+        true,
+    )
+    .unwrap();
+    let repeated = mention(
+        201,
+        Some("Alpha"),
+        Some("https://alpha.test/"),
+        "Alpha organizes work",
+    );
+    process_thread(
+        &mut store,
+        200,
+        &model(vec![Ok(Extraction {
+            mentions: vec![repeated],
+        })]),
+        false,
+    )
+    .unwrap();
+    let repeated_pid: i64 = conn
+        .query_row(
+            "SELECT project_id FROM mentions WHERE source_item_id=201",
+            [],
+            |r| r.get(0),
+        )
+        .unwrap();
+    assert_eq!(pid, repeated_pid);
+}
+
+#[test]
+fn ambiguous_url_with_suppressed_identity_fails_closed() {
+    let (dir, mut store) = setup();
+    let alpha = mention(
+        101,
+        Some("Alpha"),
+        Some("https://alpha.test"),
+        "Alpha organizes work",
+    );
+    process_thread(
+        &mut store,
+        100,
+        &model(vec![
+            Ok(Extraction {
+                mentions: vec![alpha],
+            }),
+            Ok(Extraction { mentions: vec![] }),
+            Ok(Extraction { mentions: vec![] }),
+        ]),
+        false,
+    )
+    .unwrap();
+    let conn = rusqlite::Connection::open(dir.path().join("db.sqlite")).unwrap();
+    conn.execute(
+        "INSERT INTO projects(identity_key,slug,created_at,suppressed) VALUES('other','other',0,1)",
+        [],
+    )
+    .unwrap();
+    let other = conn.last_insert_rowid();
+    conn.execute(
+        "INSERT INTO project_url_aliases VALUES('alice','https://alpha.test/',?1)",
+        [other],
+    )
+    .unwrap();
+    let repeated = mention(
+        201,
+        Some("Alpha"),
+        Some("https://alpha.test/"),
+        "Alpha organizes work",
+    );
+    let report = process_thread(
+        &mut store,
+        200,
+        &model(vec![Ok(Extraction {
+            mentions: vec![repeated],
+        })]),
+        false,
+    )
+    .unwrap();
+    assert_eq!(report.failed.len(), 1);
+    assert!(report.failed[0].1.contains("suppressed project"));
+    let count: i64 = conn
+        .query_row(
+            "SELECT count(*) FROM mentions WHERE source_item_id=201",
+            [],
+            |r| r.get(0),
+        )
+        .unwrap();
+    assert_eq!(count, 0);
+}
+
+#[test]
+fn splitting_a_sole_mention_does_not_assign_both_projects_to_the_old_identity() {
+    let (dir, mut store) = setup();
+    let alpha = mention(
+        101,
+        Some("Alpha"),
+        Some("https://alpha.test"),
+        "Alpha organizes work",
+    );
+    process_thread(
+        &mut store,
+        100,
+        &model(vec![
+            Ok(Extraction {
+                mentions: vec![alpha.clone()],
+            }),
+            Ok(Extraction { mentions: vec![] }),
+            Ok(Extraction { mentions: vec![] }),
+        ]),
+        false,
+    )
+    .unwrap();
+    let conn = rusqlite::Connection::open(dir.path().join("db.sqlite")).unwrap();
+    let old: i64 = conn
+        .query_row(
+            "SELECT project_id FROM mentions WHERE source_item_id=101",
+            [],
+            |r| r.get(0),
+        )
+        .unwrap();
+    let beta = mention(
+        101,
+        Some("Beta"),
+        Some("https://beta.test"),
+        "Beta helps writers",
+    );
+    process_thread(
+        &mut store,
+        100,
+        &model(vec![
+            Ok(Extraction {
+                mentions: vec![alpha, beta],
+            }),
+            Ok(Extraction { mentions: vec![] }),
+            Ok(Extraction { mentions: vec![] }),
+        ]),
+        true,
+    )
+    .unwrap();
+    let mut st = conn
+        .prepare("SELECT project_id FROM mentions WHERE source_item_id=101 ORDER BY name")
+        .unwrap();
+    let ids: Vec<i64> = st
+        .query_map([], |r| r.get(0))
+        .unwrap()
+        .map(Result::unwrap)
+        .collect();
+    assert_eq!(ids.len(), 2);
+    assert_ne!(ids[0], ids[1]);
+    assert_eq!(ids.iter().filter(|id| **id == old).count(), 1);
 }
 fn review_cli(dir: &tempfile::TempDir, args: &[&str]) -> (u8, String, String) {
     let mut args: Vec<String> = args.iter().map(|s| s.to_string()).collect();
@@ -920,12 +1171,15 @@ fn public_reply_counts_deduplicate_overlapping_mentions_and_respect_suppression(
         cards.iter().find(|v| v["name"].is_null()).unwrap()["comment_count"],
         0
     );
-    publication::match_projects(
-        &mut store,
-        gamma["id"].as_i64().unwrap(),
-        alpha["id"].as_i64().unwrap(),
-    )
-    .unwrap();
+    assert_eq!(
+        publication::match_projects(
+            &mut store,
+            gamma["id"].as_i64().unwrap(),
+            alpha["id"].as_i64().unwrap(),
+        )
+        .unwrap_err(),
+        "projects must have the same known source author"
+    );
     publication::export(&mut store, &destination).unwrap();
     assert_eq!(
         discovery(&dir)

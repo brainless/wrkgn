@@ -202,9 +202,40 @@ pub fn match_projects(store: &mut Store, from: i64, to: i64) -> Result<(), Strin
     if !exists {
         return Err("target project not found".into());
     }
+    let authors = |pid| -> Result<Vec<Option<String>>, String> {
+        let mut st = tx.prepare("SELECT DISTINCT s.author FROM mentions m JOIN source_items s ON s.item_id=m.source_item_id WHERE m.project_id=?1").map_err(|e| e.to_string())?;
+        st.query_map([pid], |r| r.get(0))
+            .map_err(|e| e.to_string())?
+            .collect::<Result<Vec<_>, _>>()
+            .map_err(|e| e.to_string())
+    };
+    let from_authors = authors(from)?;
+    let to_authors = authors(to)?;
+    if from_authors.len() != 1
+        || to_authors.len() != 1
+        || from_authors[0].is_none()
+        || from_authors != to_authors
+    {
+        return Err("projects must have the same known source author".into());
+    }
+    let suppressed: i64 = tx.query_row("SELECT (SELECT suppressed FROM projects WHERE id=?1) + (SELECT suppressed FROM projects WHERE id=?2)", params![from,to], |r| r.get(0)).map_err(|e| e.to_string())?;
+    if suppressed != 0 {
+        return Err("suppressed projects cannot be matched".into());
+    }
     tx.execute("INSERT INTO project_matches(identity_key,project_id,reason) VALUES(?1,?2,'manual review') ON CONFLICT(identity_key) DO UPDATE SET project_id=excluded.project_id,reason=excluded.reason",params![identity,to]).map_err(|e|e.to_string())?;
     tx.execute(
         "UPDATE mentions SET project_id=?1 WHERE project_id=?2",
+        params![to, from],
+    )
+    .map_err(|e| e.to_string())?;
+    tx.execute("INSERT OR IGNORE INTO project_url_aliases(author,canonical_url,project_id) SELECT author,canonical_url,?1 FROM project_url_aliases WHERE project_id=?2", params![to,from]).map_err(|e| e.to_string())?;
+    tx.execute(
+        "DELETE FROM project_url_aliases WHERE project_id=?1",
+        [from],
+    )
+    .map_err(|e| e.to_string())?;
+    tx.execute(
+        "UPDATE project_matches SET project_id=?1 WHERE project_id=?2",
         params![to, from],
     )
     .map_err(|e| e.to_string())?;

@@ -35,6 +35,7 @@ The initial product does not include accounts, private messaging, social feeds, 
 A **project mention** is a specific instance of someone sharing or discussing a project in a source thread. A **project** may have multiple mentions across different threads and dates. One comment may describe multiple projects.
 
 Keep each mention’s source, author, date, and evidence intact even when grouping it under a project. Group mentions only when there is adequate evidence that they describe the same project; leave uncertain matches separate for review.
+Automatic cross-source grouping requires the same known HN source author and a shared explicit project URL. Compare the full URL sets independent of their order; normalize an ordinary trailing slash while preserving URL paths, path case, queries, and fragments. If more than one existing project qualifies, leave the new mention separate for review; stop the affected group if an ambiguous candidate is suppressed. Name similarity alone does not establish a match. Keep manually reviewed identity mappings and project suppression effective across reruns, including a rerun that temporarily extracts no mentions.
 
 For an extracted project mention, assume its source comment author is a builder. Extract additional builder or collaborator usernames only when explicitly named in that comment. This is an attribution convention, not independently verified ownership.
 

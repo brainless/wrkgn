@@ -612,17 +612,47 @@ fn save_group<M: Model>(
     let source: BTreeMap<i64, &StoredSourceItem> =
         items.iter().map(|i| (i.source.item_id, *i)).collect();
     let tx = conn.transaction().map_err(|e| e.to_string())?;
-    let mut prior: BTreeMap<i64, Vec<i64>> = BTreeMap::new();
+    let mut prior: BTreeMap<i64, Vec<(String, i64, BTreeSet<String>)>> = BTreeMap::new();
     {
         let mut st = tx
-            .prepare("SELECT source_item_id,project_id FROM mentions WHERE root_item_id=?1")
+            .prepare("SELECT id,source_item_id,mention_key,project_id FROM mentions WHERE root_item_id=?1")
             .map_err(|e| e.to_string())?;
         for row in st
-            .query_map([root], |r| Ok((r.get::<_, i64>(0)?, r.get::<_, i64>(1)?)))
+            .query_map([root], |r| {
+                Ok((
+                    r.get::<_, i64>(0)?,
+                    r.get::<_, i64>(1)?,
+                    r.get::<_, String>(2)?,
+                    r.get::<_, i64>(3)?,
+                ))
+            })
             .map_err(|e| e.to_string())?
         {
-            let (sid, pid) = row.map_err(|e| e.to_string())?;
-            prior.entry(sid).or_default().push(pid);
+            let (mid, sid, key, pid) = row.map_err(|e| e.to_string())?;
+            let mut links = tx
+                .prepare("SELECT url FROM mention_links WHERE mention_id=?1")
+                .map_err(|e| e.to_string())?;
+            let urls = links
+                .query_map([mid], |r| r.get::<_, String>(0))
+                .map_err(|e| e.to_string())?
+                .collect::<Result<Vec<_>, _>>()
+                .map_err(|e| e.to_string())?
+                .iter()
+                .filter_map(|u| canonical_url(u))
+                .collect::<BTreeSet<_>>();
+            if let Some(author) = source
+                .get(&sid)
+                .and_then(|item| item.source.author.as_deref())
+            {
+                for url in &urls {
+                    tx.execute(
+                        "INSERT OR IGNORE INTO project_url_aliases VALUES(?1,?2,?3)",
+                        params![author, url, pid],
+                    )
+                    .map_err(|e| e.to_string())?;
+                }
+            }
+            prior.entry(sid).or_default().push((key, pid, urls));
         }
     }
     let mut counts: BTreeMap<i64, usize> = BTreeMap::new();
@@ -633,18 +663,53 @@ fn save_group<M: Model>(
         .map_err(|e| e.to_string())?;
     let mut seen = BTreeSet::new();
     for mention in outputs {
-        let key = if counts[&mention.source_item_id] == 1 {
+        let generated_key = if counts[&mention.source_item_id] == 1 {
             format!("{}:sole", mention.source_item_id)
         } else {
             mention_key(mention)
         };
+        let candidates = prior.get(&mention.source_item_id);
+        let current_urls: BTreeSet<_> = mention
+            .urls
+            .iter()
+            .filter_map(|u| canonical_url(u))
+            .collect();
+        let exact = candidates.and_then(|p| p.iter().find(|(key, _, _)| key == &generated_key));
+        let overlaps: Vec<_> = candidates
+            .into_iter()
+            .flatten()
+            .filter(|(_, _, urls)| !urls.is_disjoint(&current_urls))
+            .collect();
+        let unique_overlap = overlaps.first().copied().filter(|(_, _, old_urls)| {
+            overlaps.len() == 1
+                && outputs
+                    .iter()
+                    .filter(|other| {
+                        other.source_item_id == mention.source_item_id
+                            && other
+                                .urls
+                                .iter()
+                                .filter_map(|url| canonical_url(url))
+                                .any(|url| old_urls.contains(&url))
+                    })
+                    .count()
+                    == 1
+        });
+        let matched = exact.or(unique_overlap);
+        let key = matched
+            .map(|(key, _, _)| key.clone())
+            .unwrap_or(generated_key);
         if !seen.insert(key.clone()) {
-            continue;
+            return Err(format!(
+                "ambiguous mention identity for source {}",
+                mention.source_item_id
+            ));
         }
-        let old = prior
-            .get(&mention.source_item_id)
-            .filter(|p| p.len() == 1)
-            .map(|p| p[0]);
+        let old = matched.map(|(_, pid, _)| *pid).or_else(|| {
+            candidates
+                .filter(|p| p.len() == 1 && counts[&mention.source_item_id] == 1)
+                .map(|p| p[0].1)
+        });
         save_mention(&tx, root, mention, &key, &source, old)?;
     }
     tx.execute("INSERT INTO processing_groups(root_item_id,thread_id,fingerprint,prompt_version,schema_version,model,status,run_id,item_count,processed_item_count,error) VALUES(?1,?2,?3,?4,?5,?6,'complete',?7,?8,?8,NULL) ON CONFLICT(root_item_id) DO UPDATE SET fingerprint=excluded.fingerprint,prompt_version=excluded.prompt_version,schema_version=excluded.schema_version,model=excluded.model,status='complete',run_id=excluded.run_id,item_count=excluded.item_count,processed_item_count=excluded.processed_item_count,error=NULL",params![root,thread_id,fp,extraction::PROMPT_VERSION,extraction::SCHEMA_VERSION,model.name(),run_id,source.len() as i64]).map_err(|e|e.to_string())?;
@@ -662,12 +727,46 @@ fn mention_key(m: &Mention) -> String {
 fn hash(value: &str) -> String {
     format!("{:x}", Sha256::digest(value.as_bytes()))
 }
-fn identity_key(m: &Mention, builder: Option<&String>) -> String {
-    // Cross-conversation reuse requires both an exact URL and supported builder identity.
-    if let (Some(url), Some(builder)) = (m.urls.first(), builder) {
-        return format!("url:{}:{}", builder.to_lowercase(), url.to_lowercase());
+pub(crate) fn canonical_url(raw: &str) -> Option<String> {
+    let mut url = url::Url::parse(raw).ok()?;
+    if !matches!(url.scheme(), "http" | "https") || url.host_str().is_none() {
+        return None;
     }
-    mention_key(m)
+    // A trailing slash is interchangeable for a project page; path case, query,
+    // fragment, host and scheme can each identify distinct projects.
+    let path = url.path().to_string();
+    if path.len() > 1 && path.ends_with('/') && !path.ends_with("//") {
+        url.set_path(&path[..path.len() - 1]);
+    }
+    Some(url.to_string())
+}
+#[cfg(test)]
+mod url_identity_tests {
+    use super::canonical_url;
+
+    #[test]
+    fn preserves_hosted_paths_case_queries_and_fragments() {
+        assert_eq!(
+            canonical_url("https://EXAMPLE.test/App/"),
+            canonical_url("https://example.test/App")
+        );
+        assert_ne!(
+            canonical_url("https://example.test/App"),
+            canonical_url("https://example.test/app")
+        );
+        assert_ne!(
+            canonical_url("https://github.com/alice/one"),
+            canonical_url("https://github.com/alice/two")
+        );
+        assert_ne!(
+            canonical_url("https://example.test/app?id=1"),
+            canonical_url("https://example.test/app?id=2")
+        );
+        assert_ne!(
+            canonical_url("https://example.test/app#one"),
+            canonical_url("https://example.test/app#two")
+        );
+    }
 }
 fn save_mention(
     tx: &rusqlite::Transaction<'_>,
@@ -678,7 +777,7 @@ fn save_mention(
     old: Option<i64>,
 ) -> Result<(), String> {
     let builder = source[&m.source_item_id].source.author.clone();
-    let identity = identity_key(m, builder.as_ref());
+    let identity = format!("mention2:{key}");
     let slug_base = m.name.as_deref().unwrap_or("project");
     let slug = format!("{}-{}", slugify(slug_base), &hash(&identity)[..10]);
     let pid = if let Some(id) = old {
@@ -692,19 +791,28 @@ fn save_mention(
         .optional()
         .map_err(|e| e.to_string())?
     {
-        mapped
+        if project_accepts_author(tx, mapped, builder.as_deref())? {
+            mapped
+        } else {
+            return Err("stored project match has a different or unknown source author".into());
+        }
     } else {
-        tx.execute(
-            "INSERT OR IGNORE INTO projects(identity_key,slug,created_at) VALUES(?1,?2,?3)",
-            params![identity, slug, unix_time()],
-        )
-        .map_err(|e| e.to_string())?;
-        tx.query_row(
-            "SELECT id FROM projects WHERE identity_key=?1",
-            [&identity],
-            |r| r.get(0),
-        )
-        .map_err(|e| e.to_string())?
+        match matching_project(tx, m, builder.as_deref())? {
+            Some(pid) => pid,
+            None => {
+                tx.execute(
+                    "INSERT OR IGNORE INTO projects(identity_key,slug,created_at) VALUES(?1,?2,?3)",
+                    params![identity, slug, unix_time()],
+                )
+                .map_err(|e| e.to_string())?;
+                tx.query_row(
+                    "SELECT id FROM projects WHERE identity_key=?1",
+                    [&identity],
+                    |r| r.get(0),
+                )
+                .map_err(|e| e.to_string())?
+            }
+        }
     };
     let sf = &source[&m.source_item_id].content_fingerprint;
     let review = "pending";
@@ -716,6 +824,13 @@ fn save_mention(
             params![mid, url],
         )
         .map_err(|e| e.to_string())?;
+        if let (Some(author), Some(canonical)) = (builder.as_deref(), canonical_url(url)) {
+            tx.execute(
+                "INSERT OR IGNORE INTO project_url_aliases VALUES(?1,?2,?3)",
+                params![author, canonical, pid],
+            )
+            .map_err(|e| e.to_string())?;
+        }
     }
     for label in &m.categories {
         tx.execute(
@@ -739,6 +854,110 @@ fn save_mention(
         .map_err(|e| e.to_string())?;
     }
     Ok(())
+}
+fn project_accepts_author(
+    tx: &rusqlite::Transaction<'_>,
+    pid: i64,
+    author: Option<&str>,
+) -> Result<bool, String> {
+    let Some(author) = author else {
+        return Ok(false);
+    };
+    let mut st = tx.prepare("SELECT DISTINCT s.author FROM mentions m JOIN source_items s ON s.item_id=m.source_item_id WHERE m.project_id=?1").map_err(|e| e.to_string())?;
+    let authors = st
+        .query_map([pid], |r| r.get::<_, Option<String>>(0))
+        .map_err(|e| e.to_string())?;
+    let mut found = false;
+    for value in authors {
+        found = true;
+        if value.map_err(|e| e.to_string())?.as_deref() != Some(author) {
+            return Ok(false);
+        }
+    }
+    let mut st = tx
+        .prepare("SELECT DISTINCT author FROM project_url_aliases WHERE project_id=?1")
+        .map_err(|e| e.to_string())?;
+    let authors = st
+        .query_map([pid], |r| r.get::<_, String>(0))
+        .map_err(|e| e.to_string())?;
+    let mut found_alias = false;
+    for value in authors {
+        found_alias = true;
+        if value.map_err(|e| e.to_string())? != author {
+            return Ok(false);
+        }
+    }
+    Ok(found || found_alias)
+}
+fn matching_project(
+    tx: &rusqlite::Transaction<'_>,
+    mention: &Mention,
+    author: Option<&str>,
+) -> Result<Option<i64>, String> {
+    let Some(author) = author else {
+        return Ok(None);
+    };
+    let urls: BTreeSet<String> = mention
+        .urls
+        .iter()
+        .filter_map(|url| canonical_url(url))
+        .collect();
+    if urls.is_empty() {
+        return Ok(None);
+    }
+    let mut st = tx
+        .prepare("SELECT project_id,canonical_url FROM project_url_aliases WHERE author=?1")
+        .map_err(|e| e.to_string())?;
+    let rows = st
+        .query_map([author], |r| {
+            Ok((r.get::<_, i64>(0)?, r.get::<_, String>(1)?))
+        })
+        .map_err(|e| e.to_string())?;
+    let mut candidates = BTreeSet::new();
+    for row in rows {
+        let (pid, url) = row.map_err(|e| e.to_string())?;
+        let same_source: bool = tx
+            .query_row(
+                "SELECT EXISTS(SELECT 1 FROM mentions WHERE project_id=?1 AND source_item_id=?2)",
+                params![pid, mention.source_item_id],
+                |r| r.get(0),
+            )
+            .map_err(|e| e.to_string())?;
+        if urls.contains(&url) && !same_source && project_accepts_author(tx, pid, Some(author))? {
+            let identity: String = tx
+                .query_row(
+                    "SELECT identity_key FROM projects WHERE id=?1",
+                    [pid],
+                    |r| r.get(0),
+                )
+                .map_err(|e| e.to_string())?;
+            let destination: Option<i64> = tx
+                .query_row(
+                    "SELECT project_id FROM project_matches WHERE identity_key=?1",
+                    [&identity],
+                    |r| r.get(0),
+                )
+                .optional()
+                .map_err(|e| e.to_string())?;
+            let target = destination.unwrap_or(pid);
+            if project_accepts_author(tx, target, Some(author))? {
+                candidates.insert(target);
+            }
+        }
+    }
+    if candidates.len() > 1 {
+        for pid in &candidates {
+            let suppressed: bool = tx
+                .query_row("SELECT suppressed FROM projects WHERE id=?1", [pid], |r| {
+                    r.get(0)
+                })
+                .map_err(|e| e.to_string())?;
+            if suppressed {
+                return Err("ambiguous URL match includes a suppressed project; review identities before processing".into());
+            }
+        }
+    }
+    Ok((candidates.len() == 1).then(|| *candidates.first().unwrap()))
 }
 fn slugify(s: &str) -> String {
     let mut out = String::new();
