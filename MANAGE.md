@@ -49,7 +49,9 @@ To reduce parallel model calls (default: 10):
 cargo run -- process --thread 50417407 --concurrency 3
 ```
 
-Rate-limit and transport failures receive retries with backoff. Persistent failures stop new work; inspect the reported failures and resume once the provider issue is resolved.
+Rate-limit and transport failures receive retries with backoff shared across workers, pausing new requests while the provider recovers. Persistent failures stop new work; inspect the reported failures and resume once the provider issue is resolved.
+
+If a structured response fails local provenance validation, the extractor gets up to two correction attempts with the original source and validation feedback. Every correction must pass the same checks. Exhausted failures retain previous successful results. Private failure rows include the source ID and a bounded rejected value; transport errors include bounded, credential-redacted causes. Inspect them using the SQL query printed with the run ID. These diagnostics are excluded from public exports.
 
 ### Force reprocessing
 

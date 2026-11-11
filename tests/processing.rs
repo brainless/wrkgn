@@ -331,7 +331,7 @@ fn invalid_output_and_failed_rerun_keep_prior_records() {
         publication::approve(&mut store, row["id"].as_i64().unwrap()).unwrap();
     }
     let bad = mention(999, Some("Invented"), None, "bad");
-    let report = process_thread(
+    let report = process_thread_with(
         &mut store,
         100,
         &model(vec![
@@ -342,6 +342,11 @@ fn invalid_output_and_failed_rerun_keep_prior_records() {
             Ok(Extraction { mentions: vec![] }),
         ]),
         true,
+        &Options {
+            max_validation_corrections: 0,
+            ..options(1)
+        },
+        |_| {},
     )
     .unwrap();
     assert_eq!(report.failed.len(), 1);
@@ -370,7 +375,7 @@ fn evidence_and_oversize_are_rejected() {
         "Alpha organizes work",
     );
     m.source_excerpt = "Unsupported text".into();
-    let report = process_thread(
+    let report = process_thread_with(
         &mut store,
         100,
         &model(vec![
@@ -379,6 +384,11 @@ fn evidence_and_oversize_are_rejected() {
             Ok(Extraction { mentions: vec![] }),
         ]),
         false,
+        &Options {
+            max_validation_corrections: 0,
+            ..options(1)
+        },
+        |_| {},
     )
     .unwrap();
     assert_eq!(report.failed.len(), 1);
@@ -704,19 +714,49 @@ fn validation_still_rejects_unsupported_urls_and_evidence() {
     ] {
         let mut m = escaped_mention();
         m.urls = vec![url.into()];
-        assert_eq!(validated(m), Err("URL absent from source".into()), "{url}");
+        assert_eq!(
+            validated(m),
+            Err(format!("URL absent from source: source 301, url {url:?}")),
+            "{url}"
+        );
     }
     let mut m = escaped_mention();
     m.source_excerpt = "Unsupported text".into();
     assert_eq!(
         validated(m),
-        Err("unsupported project source excerpt".into())
+        Err("unsupported project source excerpt: source 301, excerpt \"Unsupported text\"".into())
     );
     let mut m = escaped_mention();
     m.source_excerpt = "Unsupported text".into();
     assert_eq!(
         validated(m),
-        Err("unsupported project source excerpt".into())
+        Err("unsupported project source excerpt: source 301, excerpt \"Unsupported text\"".into())
+    );
+}
+#[test]
+fn validation_diagnostics_identify_source_and_bound_model_values() {
+    let mut m = escaped_mention();
+    m.source_item_id = 999;
+    assert_eq!(
+        validated(m),
+        Err("mention source outside input: source 999".into())
+    );
+
+    let mut m = escaped_mention();
+    m.urls = vec![format!("https://other.test/{}", "é".repeat(300))];
+    let error = validated(m).unwrap_err();
+    assert!(error.starts_with("URL absent from source: source 301, url \"https://other.test/"));
+    assert!(error.contains('…'));
+    assert!(!error.contains(&"é".repeat(150)));
+
+    let mut m = escaped_mention();
+    m.builders = vec!["unmentioned_builder".into()];
+    assert_eq!(
+        validated(m),
+        Err(
+            "unsupported additional builder username: source 301, builder \"unmentioned_builder\""
+                .into()
+        )
     );
 }
 #[test]

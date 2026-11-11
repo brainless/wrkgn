@@ -246,6 +246,38 @@ fn url_supported(url: &str, found: &[(Option<String>, String)]) -> bool {
         >= 2
 }
 
+/// Keep private failure rows useful without storing arbitrarily large model fields.
+fn diagnostic_value(value: &str) -> String {
+    let short: String = value.chars().take(120).collect();
+    let suffix = if value.chars().count() > 120 {
+        "…"
+    } else {
+        ""
+    };
+    format!(
+        "{}{}",
+        serde_json::to_string(&short).unwrap_or_default(),
+        suffix
+    )
+}
+fn diagnostic_url(value: &str) -> String {
+    let without_query = value.split(['?', '#']).next().unwrap_or(value);
+    let safe = if let Some((scheme, rest)) = without_query.split_once("://") {
+        if let Some((authority, path)) = rest.split_once('/') {
+            format!(
+                "{scheme}://{}/{}",
+                authority.rsplit('@').next().unwrap_or(authority),
+                path
+            )
+        } else {
+            format!("{scheme}://{}", rest.rsplit('@').next().unwrap_or(rest))
+        }
+    } else {
+        without_query.to_string()
+    };
+    diagnostic_value(&safe)
+}
+
 pub fn validate(
     output: &Extraction,
     ids: &BTreeSet<i64>,
@@ -260,40 +292,56 @@ pub fn validate(
     };
 
     for mention in &output.mentions {
+        let id = mention.source_item_id;
         if mention.categories.len() > 5 {
-            return Err("more than five categories on a mention".into());
+            return Err(format!(
+                "more than five categories on a mention: source {id}, count {}",
+                mention.categories.len()
+            ));
         }
         if mention.categories.iter().collect::<BTreeSet<_>>().len() != mention.categories.len() {
-            return Err("duplicate category on a mention".into());
+            return Err(format!(
+                "duplicate category on a mention: source {id}, count {}",
+                mention.categories.len()
+            ));
         }
         let item = source
             .get(&mention.source_item_id)
             .filter(|_| ids.contains(&mention.source_item_id))
-            .ok_or("mention source outside input")?;
+            .ok_or_else(|| format!("mention source outside input: source {id}"))?;
         if item.source.deleted || item.source.dead || !item.present_in_tree {
-            return Err("mention source is removed".into());
+            return Err(format!("mention source is removed: source {id}"));
         }
         if item.source.created_at.is_none() {
-            return Err("mention source has no sharing date".into());
+            return Err(format!("mention source has no sharing date: source {id}"));
         }
         if mention.description.trim().is_empty() {
-            return Err("empty description".into());
+            return Err(format!("empty description: source {id}"));
         }
         if mention.name.as_ref().is_some_and(|v| v.trim().is_empty()) {
-            return Err("empty name".into());
+            return Err(format!("empty name: source {id}"));
         }
         let found = text_urls(&[text_of(mention.source_item_id)]);
         for url in &mention.urls {
             if !url.starts_with("https://") && !url.starts_with("http://") {
-                return Err("invalid URL".into());
+                return Err(format!(
+                    "invalid URL: source {id}, url {}",
+                    diagnostic_url(url)
+                ));
             }
             if !url_supported(url, &found) {
-                return Err("URL absent from source".into());
+                return Err(format!(
+                    "URL absent from source: source {id}, url {}",
+                    diagnostic_url(url)
+                ));
             }
         }
         let text = text_of(mention.source_item_id);
         if !quoted(&text, &mention.source_excerpt) {
-            return Err("unsupported project source excerpt".into());
+            return Err(format!(
+                "unsupported project source excerpt: source {id}, excerpt {}",
+                diagnostic_value(&mention.source_excerpt)
+            ));
         }
         if mention.audience_labels.len() > 5
             || mention
@@ -303,7 +351,10 @@ pub fn validate(
                 .len()
                 != mention.audience_labels.len()
         {
-            return Err("audiences must contain at most five distinct labels".into());
+            return Err(format!(
+                "audiences must contain at most five distinct labels: source {id}, count {}",
+                mention.audience_labels.len()
+            ));
         }
         let mut builders = BTreeSet::new();
         for builder in &mention.builders {
@@ -317,7 +368,10 @@ pub fn validate(
                     .split(|c: char| !c.is_ascii_alphanumeric() && c != '_' && c != '-')
                     .any(|word| word == builder)
             {
-                return Err("unsupported additional builder username".into());
+                return Err(format!(
+                    "unsupported additional builder username: source {id}, builder {}",
+                    diagnostic_value(builder)
+                ));
             }
         }
     }
