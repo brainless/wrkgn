@@ -65,23 +65,30 @@ function supporting(value, where) {
   string(value.author, `${where}.author`, true);
   date(value.shared_at, `${where}.shared_at`, true);
 }
-function mention(value, where) {
-  object(value, where, ['name', 'description', 'problem', 'audience', 'builder_username', 'source_item_id', 'source_url', 'author', 'shared_at', 'links', 'requests', 'supporting']);
+function mention(value, where, schema = 2) {
+  object(value, where, ['name', 'description', 'problem', 'audience', 'builder_username', 'source_item_id', 'source_url', 'author', 'shared_at', 'links', ...(schema === 2 ? ['requests', 'supporting'] : ['source_excerpt', 'builder_usernames'])].filter((key) => schema === 2 || key !== 'builder_username'));
   string(value.name, `${where}.name`, true);
   string(value.description, `${where}.description`);
   if (!value.description.trim()) fail(`${where}.description`, 'empty description');
   string(value.problem, `${where}.problem`, true);
   string(value.audience, `${where}.audience`, true);
-  string(value.builder_username, `${where}.builder_username`, true);
+  if (schema === 2) string(value.builder_username, `${where}.builder_username`, true);
+  else {
+    string(value.source_excerpt, `${where}.source_excerpt`);
+    if (!value.source_excerpt.trim()) fail(`${where}.source_excerpt`, 'empty source excerpt');
+    strings(value.builder_usernames, `${where}.builder_usernames`);
+  }
   string(value.author, `${where}.author`, true);
   source(value, where);
   date(value.shared_at, `${where}.shared_at`);
   list(value.links, `${where}.links`, webUrl);
-  list(value.requests, `${where}.requests`, request);
-  list(value.supporting, `${where}.supporting`, supporting);
+  if (schema === 2) {
+    list(value.requests, `${where}.requests`, request);
+    list(value.supporting, `${where}.supporting`, supporting);
+  }
 }
-function discovery(value, where) {
-  object(value, where, ['id', 'slug', 'name', 'description', 'problem', 'audience', 'builder_usernames', 'categories', 'audience_labels', 'looking_for', 'latest_shared_at', 'searchable_text']);
+function discovery(value, where, schema = 2) {
+  object(value, where, ['id', 'slug', 'name', 'description', 'problem', 'audience', 'builder_usernames', 'categories', 'audience_labels', 'looking_for', 'latest_shared_at', 'searchable_text'].filter((key) => schema === 2 || key !== 'looking_for'));
   integer(value.id, `${where}.id`, true);
   string(value.slug, `${where}.slug`);
   if (!SLUG.test(value.slug)) fail(`${where}.slug`, 'unsafe slug');
@@ -93,8 +100,10 @@ function discovery(value, where) {
   strings(value.builder_usernames, `${where}.builder_usernames`);
   strings(value.categories, `${where}.categories`);
   strings(value.audience_labels, `${where}.audience_labels`);
-  strings(value.looking_for, `${where}.looking_for`);
-  for (const kind of value.looking_for) if (!REQUESTS.has(kind)) fail(`${where}.looking_for`, 'unknown request kind');
+  if (schema === 2) {
+    strings(value.looking_for, `${where}.looking_for`);
+    for (const kind of value.looking_for) if (!REQUESTS.has(kind)) fail(`${where}.looking_for`, 'unknown request kind');
+  }
   date(value.latest_shared_at, `${where}.latest_shared_at`);
   string(value.searchable_text, `${where}.searchable_text`);
 }
@@ -111,12 +120,12 @@ function readJson(root, relative) {
 export function loadSnapshot(root) {
   const pointer = readJson(root, 'current.json');
   object(pointer, 'current.json', ['schema_version', 'version', 'snapshot']);
-  if (pointer.schema_version !== 2 || !VERSION.test(pointer.version)) fail('current.json', 'unsupported schema or version');
+  if (![2, 3].includes(pointer.schema_version) || !VERSION.test(pointer.version)) fail('current.json', 'unsupported schema or version');
   const prefix = `snapshots/${pointer.version}/`;
   if (pointer.snapshot !== `${prefix}manifest.json`) fail('current.json', 'manifest path does not match version');
   const manifest = readJson(root, pointer.snapshot);
-  object(manifest, pointer.snapshot, ['schema_version', 'version', 'discovery', 'project_details', 'project_count', 'categories']);
-  if (manifest.schema_version !== 2 || manifest.version !== pointer.version || manifest.discovery !== 'discovery.json' || manifest.project_details !== 'projects/<slug>.json') fail(pointer.snapshot, 'unsupported or mismatched manifest');
+  object(manifest, pointer.snapshot, ['schema_version', 'version', 'discovery', 'project_details', 'project_count', 'categories', ...(pointer.schema_version === 3 ? ['audiences'] : [])]);
+  if (manifest.schema_version !== pointer.schema_version || manifest.version !== pointer.version || manifest.discovery !== 'discovery.json' || manifest.project_details !== 'projects/<slug>.json') fail(pointer.snapshot, 'unsupported or mismatched manifest');
   list(manifest.categories, `${pointer.snapshot}.categories`, (value, where) => {
     object(value, where, ['slug', 'label', 'description']);
     string(value.slug, `${where}.slug`); string(value.label, `${where}.label`); string(value.description, `${where}.description`);
@@ -124,10 +133,22 @@ export function loadSnapshot(root) {
   });
   const categorySlugs = new Set(manifest.categories.map((category) => category.slug));
   if (categorySlugs.size !== manifest.categories.length || categorySlugs.size !== 15) fail(pointer.snapshot, 'expected 15 distinct categories');
+  if (pointer.schema_version === 3) {
+    list(manifest.audiences, `${pointer.snapshot}.audiences`, (value, where) => {
+      object(value, where, ['slug', 'label', 'description']);
+      for (const field of ['slug', 'label', 'description']) string(value[field], `${where}.${field}`);
+      if (!SLUG.test(value.slug) || !value.label.trim() || !value.description.trim()) fail(where, 'invalid audience metadata');
+    });
+    if (!manifest.audiences.length || new Set(manifest.audiences.map((item) => item.slug)).size !== manifest.audiences.length) fail(pointer.snapshot, 'expected distinct audiences');
+  }
   integer(manifest.project_count, `${pointer.snapshot}.project_count`);
   const rows = readJson(root, `${prefix}discovery.json`);
-  list(rows, `${prefix}discovery.json`, discovery);
+  list(rows, `${prefix}discovery.json`, (value, where) => discovery(value, where, pointer.schema_version));
   for (const row of rows) for (const category of row.categories) if (!categorySlugs.has(category)) fail(`${prefix}discovery.json`, `unknown category ${category}`);
+  if (pointer.schema_version === 3) {
+    const audienceSlugs = new Set(manifest.audiences.map((item) => item.slug));
+    for (const row of rows) for (const audience of row.audience_labels) if (!audienceSlugs.has(audience)) fail(`${prefix}discovery.json`, `unknown audience ${audience}`);
+  }
   if (rows.length !== manifest.project_count) fail(pointer.snapshot, 'project count mismatch');
   const details = new Map();
   const ids = new Set();
@@ -138,7 +159,7 @@ export function loadSnapshot(root) {
     const detail = readJson(root, relative);
     object(detail, relative, ['id', 'slug', 'name', 'mentions']);
     if (detail.id !== row.id || detail.slug !== row.slug || detail.name !== row.name) fail(relative, 'identity differs from discovery');
-    list(detail.mentions, `${relative}.mentions`, mention);
+    list(detail.mentions, `${relative}.mentions`, (value, where) => mention(value, where, pointer.schema_version));
     if (detail.mentions.length === 0) fail(relative, 'project has no mentions');
     if (detail.mentions[0].shared_at !== row.latest_shared_at) fail(relative, 'latest sharing date differs from discovery');
     for (let i = 1; i < detail.mentions.length; i++) {

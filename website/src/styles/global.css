@@ -57,3 +57,5 @@ main,.site-footer{margin-left:272px}
 .detail-lead,.detail-section>p,.mention__content>p:not(.attribution),.supporting p:not(.attribution),.invitation blockquote,.supporting blockquote,.footer-notice,.empty-state p{font-family:'Source Serif 4',Georgia,serif}
 .project-card__meta time{flex:none;margin-left:auto;color:#89978e;font-size:12px;font-weight:400;white-space:nowrap;padding-top:1px}
 button,input,select,textarea{font-family:'DM Sans',Arial,sans-serif}
+
+.source-excerpt{font-family: 'Source Serif 4',Georgia,serif;border-left:2px solid #dce4da;margin:20px 0;padding-left:18px;line-height:1.7;color:#526158}

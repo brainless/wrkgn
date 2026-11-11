@@ -1,7 +1,6 @@
 export const FILTERS = {
   category: 'categories',
   audience: 'audience_labels',
-  looking: 'looking_for',
 };
 
 export function optionsFrom(projects) {

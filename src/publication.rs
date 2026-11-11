@@ -1,4 +1,5 @@
 //! Local review controls and allowlisted, versioned public JSON export.
+use crate::audience::{self, Audience};
 use crate::category::{self, Category};
 use crate::store::Store;
 use rusqlite::{OptionalExtension, params};
@@ -20,7 +21,6 @@ pub struct Discovery {
     pub builder_usernames: Vec<String>,
     pub categories: Vec<String>,
     pub audience_labels: Vec<String>,
-    pub looking_for: Vec<String>,
     pub latest_shared_at: i64,
     pub searchable_text: String,
 }
@@ -54,8 +54,8 @@ pub struct PendingMention {
     pub links: Vec<String>,
     pub categories: Vec<String>,
     pub audience_labels: Vec<String>,
-    pub looking_for: Vec<String>,
-    pub supporting: Vec<(Option<String>, String)>,
+    pub builders: Vec<String>,
+    pub source_excerpt: Option<String>,
     pub source_text: Option<String>,
 }
 pub fn pending_mentions(store: &mut Store) -> Result<Vec<PendingMention>, String> {
@@ -67,7 +67,7 @@ pub fn pending_mentions(store: &mut Store) -> Result<Vec<PendingMention>, String
             .collect::<rusqlite::Result<_>>()
             .map_err(|e| e.to_string())
     };
-    let mut st=conn.prepare("SELECT m.id,m.mention_key,m.project_id,s.thread_id,m.source_item_id,s.author,s.created_at,m.name,m.description,m.problem,m.audience,m.builder_username,s.body FROM mentions m JOIN source_items s ON s.item_id=m.source_item_id WHERE m.review_state='pending' ORDER BY m.id").map_err(|e|e.to_string())?;
+    let mut st=conn.prepare("SELECT m.id,m.mention_key,m.project_id,s.thread_id,m.source_item_id,s.author,s.created_at,m.name,m.description,m.problem,m.audience,m.builder_username,s.body,m.source_excerpt FROM mentions m JOIN source_items s ON s.item_id=m.source_item_id WHERE m.review_state='pending' ORDER BY m.id").map_err(|e|e.to_string())?;
     let rows = st
         .query_map([], |r| {
             Ok(PendingMention {
@@ -87,8 +87,8 @@ pub fn pending_mentions(store: &mut Store) -> Result<Vec<PendingMention>, String
                 links: Vec::new(),
                 categories: Vec::new(),
                 audience_labels: Vec::new(),
-                looking_for: Vec::new(),
-                supporting: Vec::new(),
+                builders: Vec::new(),
+                source_excerpt: r.get(13)?,
             })
         })
         .map_err(|e| e.to_string())?
@@ -128,16 +128,10 @@ pub fn pending_mentions(store: &mut Store) -> Result<Vec<PendingMention>, String
             "SELECT value FROM mention_labels WHERE mention_id=?1 AND kind='audience' ORDER BY value",
             m.id,
         )?;
-        m.looking_for = strings(
-            "SELECT DISTINCT kind FROM mention_requests WHERE mention_id=?1 ORDER BY kind",
+        m.builders = strings(
+            "SELECT username FROM mention_builders WHERE mention_id=?1 ORDER BY username",
             m.id,
         )?;
-        let mut st=conn.prepare("SELECT s.author,c.summary FROM supporting_contributions c JOIN source_items s ON s.item_id=c.source_item_id WHERE c.mention_id=?1 ORDER BY s.created_at,c.source_item_id").map_err(|e|e.to_string())?;
-        m.supporting = st
-            .query_map([m.id], |r| Ok((r.get(0)?, r.get(1)?)))
-            .map_err(|e| e.to_string())?
-            .collect::<rusqlite::Result<_>>()
-            .map_err(|e| e.to_string())?;
         out.push(m);
     }
     Ok(out)
@@ -254,7 +248,6 @@ type Record = (
 type Group = (
     String,
     Vec<Value>,
-    BTreeSet<String>,
     BTreeSet<String>,
     BTreeSet<String>,
     BTreeSet<String>,
@@ -385,14 +378,33 @@ pub fn export(store: &mut Store, destination: &Path) -> Result<String, String> {
             .collect::<rusqlite::Result<_>>()
             .map_err(|e| e.to_string())?
         };
-        let requests: Vec<Value> = {
-            let mut st=tx.prepare("SELECT r.kind,r.source_item_id,r.evidence,s.created_at FROM mention_requests r JOIN source_items s ON s.item_id=r.source_item_id WHERE r.mention_id=(SELECT id FROM mentions WHERE mention_key=?1) AND s.present_in_tree=1 AND s.deleted=0 AND s.dead=0 AND instr(COALESCE(s.body,''),r.evidence)>0 AND NOT EXISTS(SELECT 1 FROM source_suppression x WHERE x.source_item_id=s.item_id) ORDER BY r.kind,r.source_item_id").map_err(|e|e.to_string())?;
-            st.query_map([&key],|r|Ok(json!({"kind":r.get::<_,String>(0)?,"source_item_id":r.get::<_,i64>(1)?,"source_url":source_url(r.get::<_,i64>(1)?),"evidence":r.get::<_,String>(2)?,"shared_at":r.get::<_,Option<i64>>(3)?}))).map_err(|e|e.to_string())?.collect::<rusqlite::Result<_>>().map_err(|e|e.to_string())?
+        let mut builders: Vec<String> = {
+            let mut st = tx.prepare("SELECT username FROM mention_builders WHERE mention_id=(SELECT id FROM mentions WHERE mention_key=?1) ORDER BY username").map_err(|e| e.to_string())?;
+            st.query_map([&key], |r| r.get(0))
+                .map_err(|e| e.to_string())?
+                .collect::<rusqlite::Result<_>>()
+                .map_err(|e| e.to_string())?
         };
-        let supporting: Vec<Value> = {
-            let mut st=tx.prepare("SELECT c.source_item_id,c.summary,c.excerpt,s.author,s.created_at FROM supporting_contributions c JOIN source_items s ON s.item_id=c.source_item_id WHERE c.mention_id=(SELECT id FROM mentions WHERE mention_key=?1) AND s.present_in_tree=1 AND s.deleted=0 AND s.dead=0 AND (c.excerpt IS NULL OR instr(COALESCE(s.body,''),c.excerpt)>0) AND NOT EXISTS(SELECT 1 FROM source_suppression x WHERE x.source_item_id=s.item_id) ORDER BY s.created_at,c.source_item_id").map_err(|e|e.to_string())?;
-            st.query_map([&key],|r|{let id:i64=r.get(0)?;Ok(json!({"source_item_id":id,"source_url":source_url(id),"summary":r.get::<_,String>(1)?,"excerpt":r.get::<_,Option<String>>(2)?,"author":r.get::<_,Option<String>>(3)?,"shared_at":r.get::<_,Option<i64>>(4)?}))}).map_err(|e|e.to_string())?.collect::<rusqlite::Result<_>>().map_err(|e|e.to_string())?
-        };
+        if let Some(b) = builder.as_ref() {
+            builders.push(b.clone());
+        }
+        builders.sort();
+        builders.dedup();
+        let source_excerpt: Option<String> = tx
+            .query_row(
+                "SELECT source_excerpt FROM mentions WHERE mention_key=?1",
+                [&key],
+                |r| r.get(0),
+            )
+            .map_err(|e| e.to_string())?;
+        if source_excerpt
+            .as_deref()
+            .is_none_or(|s| s.trim().is_empty())
+        {
+            return Err(format!(
+                "mention {key} has no project source excerpt; reprocess this thread with the current extraction schema"
+            ));
+        }
         let entry = grouped.entry(pid).or_insert_with(|| {
             (
                 slug,
@@ -400,12 +412,9 @@ pub fn export(store: &mut Store, destination: &Path) -> Result<String, String> {
                 BTreeSet::new(),
                 BTreeSet::new(),
                 BTreeSet::new(),
-                BTreeSet::new(),
             )
         });
-        if let Some(b) = builder.as_ref() {
-            entry.2.insert(b.clone());
-        }
+        entry.2.extend(builders.iter().cloned());
         for (kind, value) in labels {
             match kind.as_str() {
                 "category" => {
@@ -417,22 +426,22 @@ pub fn export(store: &mut Store, destination: &Path) -> Result<String, String> {
                     entry.3.insert(value);
                 }
                 "audience" => {
+                    if Audience::from_slug(&value).is_none() {
+                        return Err(format!(
+                            "unknown stored audience {value} on mention {key}; reprocess this thread with the current extraction schema"
+                        ));
+                    }
                     entry.4.insert(value);
                 }
                 _ => {}
             }
         }
-        for req in &requests {
-            if let Some(kind) = req.get("kind").and_then(Value::as_str) {
-                entry.5.insert(kind.to_string());
-            }
-        }
-        entry.1.push(json!({"name":name,"description":description,"problem":problem,"audience":audience,"builder_username":builder,"source_item_id":source_id,"source_url":source_url(source_id),"author":source_author,"shared_at":shared_at,"links":links,"requests":requests,"supporting":supporting}));
+        entry.1.push(json!({"name":name,"description":description,"problem":problem,"audience":audience,"builder_usernames":builders,"source_excerpt":source_excerpt,"source_item_id":source_id,"source_url":source_url(source_id),"author":source_author,"shared_at":shared_at,"links":links}));
     }
     tx.commit().map_err(|e| e.to_string())?;
     let mut discovery = Vec::new();
     let mut details = Vec::new();
-    for (id, (slug, mentions, builders, categories, audiences, looking)) in grouped {
+    for (id, (slug, mentions, builders, categories, audiences)) in grouped {
         let first = &mentions[0];
         let name = first["name"].as_str().map(str::to_string);
         let description = first["description"].as_str().unwrap_or("").to_string();
@@ -442,7 +451,6 @@ pub fn export(store: &mut Store, destination: &Path) -> Result<String, String> {
         let builders: Vec<_> = builders.into_iter().collect();
         let categories: Vec<_> = categories.into_iter().collect();
         let audiences: Vec<_> = audiences.into_iter().collect();
-        let looking: Vec<_> = looking.into_iter().collect();
         let searchable_text = format!(
             "{} {} {} {} {}",
             name.as_deref().unwrap_or(""),
@@ -461,7 +469,6 @@ pub fn export(store: &mut Store, destination: &Path) -> Result<String, String> {
             builder_usernames: builders,
             categories,
             audience_labels: audiences,
-            looking_for: looking,
             latest_shared_at: latest,
             searchable_text,
         });
@@ -483,6 +490,7 @@ pub fn export(store: &mut Store, destination: &Path) -> Result<String, String> {
         digest.update(serde_json::to_vec(detail).map_err(|e| e.to_string())?);
     }
     digest.update(serde_json::to_vec(&category::metadata()).map_err(|e| e.to_string())?);
+    digest.update(serde_json::to_vec(&audience::metadata()).map_err(|e| e.to_string())?);
     let version = format!("{:x}", digest.finalize());
     let version = &version[..16];
     let snapshot = destination.join("snapshots").join(version);
@@ -502,7 +510,7 @@ pub fn export(store: &mut Store, destination: &Path) -> Result<String, String> {
         }
         write_json(
             &staging.join("manifest.json"),
-            &json!({"schema_version":2,"version":version,"discovery":"discovery.json","project_details":"projects/<slug>.json","project_count":details.len(),"categories":category::metadata()}),
+            &json!({"schema_version":3,"version":version,"discovery":"discovery.json","project_details":"projects/<slug>.json","project_count":details.len(),"categories":category::metadata(),"audiences":audience::metadata()}),
         )?;
         fs::rename(staging, &snapshot).map_err(|e| e.to_string())?;
     }
@@ -510,7 +518,7 @@ pub fn export(store: &mut Store, destination: &Path) -> Result<String, String> {
     let pointer = destination.join("current.json.tmp");
     write_json(
         &pointer,
-        &json!({"schema_version":2,"version":version,"snapshot":format!("snapshots/{version}/manifest.json")}),
+        &json!({"schema_version":3,"version":version,"snapshot":format!("snapshots/{version}/manifest.json")}),
     )?;
     fs::rename(pointer, destination.join("current.json")).map_err(|e| e.to_string())?;
     Ok(version.to_string())

@@ -1,14 +1,14 @@
 ---
 import { snapshot } from '../lib/snapshot.mjs';
 import { optionsFrom } from '../lib/discovery-state.mjs';
-import { categoryLabel, lookingForLabel } from '../lib/display.mjs';
+import { categoryLabel } from '../lib/display.mjs';
 const { directory = false } = Astro.props;
 const options = optionsFrom(snapshot.discovery);
 ---
 <form class="discovery-controls" id="directory-filters" data-controls action="/" method="get" hidden={directory}>
   <div class="search-wrap"><label for="project-search">Search projects</label><input id="project-search" name="q" type="search" placeholder="Search projects, problems, people…" autocomplete="off" /></div>
   <div class="filter-row">
-    {Object.entries(options).map(([name, values]) => <fieldset data-filter={name}><legend>{name === 'looking' ? 'Looking for' : name === 'category' ? 'Category' : 'Audience'}</legend><div class="filter-options">{values.length ? values.map((value, index) => <label class="filter-choice"><input type="checkbox" name={name} value={value} data-filter-input={name} id={`filter-${name}-${index}`} />{name === 'looking' ? lookingForLabel(value) : name === 'category' ? categoryLabel(value, snapshot.manifest.categories) : value}</label>) : <p class="no-options">No values yet</p>}</div></fieldset>)}
+    {Object.entries(options).map(([name, values]) => <fieldset data-filter={name}><legend>{name === 'category' ? 'Category' : 'Audience'}</legend><div class="filter-options">{values.length ? values.map((value, index) => <label class="filter-choice"><input type="checkbox" name={name} value={value} data-filter-input={name} id={`filter-${name}-${index}`} />{name === 'category' ? categoryLabel(value, snapshot.manifest.categories) : categoryLabel(value, snapshot.manifest.audiences || [])}</label>) : <p class="no-options">No values yet</p>}</div></fieldset>)}
     {directory ? <button class="clear-button" type="button" data-clear>Clear all</button> : <div class="sidebar-actions"><button class="apply-button" type="submit">Apply filters</button><a href="/">Clear all</a></div>}
   </div>
 </form>

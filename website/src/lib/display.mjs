@@ -7,6 +7,3 @@ export function safeWebUrl(value) {
   try { const url = new URL(value); return ['https:', 'http:'].includes(url.protocol) ? url.href : null; }
   catch { return null; }
 }
-export function lookingForLabel(value) {
-  return { feedback: 'Asked for feedback', contributors: 'Asked for contributors', collaborators: 'Asked for collaborators' }[value] || value;
-}

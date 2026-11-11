@@ -467,12 +467,7 @@ fn save_mention(
     source: &BTreeMap<i64, &StoredSourceItem>,
     old: Option<i64>,
 ) -> Result<(), String> {
-    // The builder is the source item's author, and only when the model found
-    // that author claiming the project; commenters are never assumed to be builders.
-    let builder = m
-        .author_is_builder
-        .then(|| source[&m.source_item_id].source.author.clone())
-        .flatten();
+    let builder = source[&m.source_item_id].source.author.clone();
     let identity = identity_key(m, builder.as_ref());
     let slug_base = m.name.as_deref().unwrap_or("project");
     let slug = format!("{}-{}", slugify(slug_base), &hash(&identity)[..10]);
@@ -503,7 +498,7 @@ fn save_mention(
     };
     let sf = &source[&m.source_item_id].content_fingerprint;
     let review = "pending";
-    tx.execute("INSERT INTO mentions(project_id,root_item_id,source_item_id,mention_key,name,description,problem,audience,builder_username,review_state,source_fingerprint) VALUES(?1,?2,?3,?4,?5,?6,?7,?8,?9,?10,?11)",params![pid,root,m.source_item_id,key,m.name,m.description,m.problem,m.audience,builder,review,sf]).map_err(|e|e.to_string())?;
+    tx.execute("INSERT INTO mentions(project_id,root_item_id,source_item_id,mention_key,name,description,problem,audience,builder_username,review_state,source_fingerprint,source_excerpt) VALUES(?1,?2,?3,?4,?5,?6,?7,?8,?9,?10,?11,?12)",params![pid,root,m.source_item_id,key,m.name,m.description,m.problem,m.audience,builder,review,sf,m.source_excerpt]).map_err(|e|e.to_string())?;
     let mid = tx.last_insert_rowid();
     for url in &m.urls {
         tx.execute(
@@ -520,35 +515,16 @@ fn save_mention(
         .map_err(|e| e.to_string())?;
     }
     for label in &m.audience_labels {
-        if let Some(value) = normalize("audience", label) {
-            tx.execute(
-                "INSERT OR IGNORE INTO mention_labels VALUES(?1,'audience',?2)",
-                params![mid, value],
-            )
-            .map_err(|e| e.to_string())?;
-        }
-    }
-    for request in &m.requests {
         tx.execute(
-            "INSERT OR IGNORE INTO mention_requests VALUES(?1,?2,?3,?4)",
-            params![
-                mid,
-                request.kind.as_str(),
-                request.source_item_id,
-                request.evidence
-            ],
+            "INSERT OR IGNORE INTO mention_labels VALUES(?1,'audience',?2)",
+            params![mid, label.slug()],
         )
         .map_err(|e| e.to_string())?;
     }
-    for support in &m.supporting {
+    for builder in &m.builders {
         tx.execute(
-            "INSERT OR IGNORE INTO supporting_contributions VALUES(?1,?2,?3,?4)",
-            params![
-                mid,
-                support.source_item_id,
-                support.summary,
-                support.excerpt
-            ],
+            "INSERT OR IGNORE INTO mention_builders VALUES(?1,?2)",
+            params![mid, builder],
         )
         .map_err(|e| e.to_string())?;
     }
@@ -569,18 +545,6 @@ fn slugify(s: &str) -> String {
     } else {
         trimmed.to_string()
     }
-}
-fn normalize(kind: &str, s: &str) -> Option<String> {
-    let key = s.trim().to_lowercase();
-    if key.is_empty() {
-        return None;
-    }
-    let value = match (kind, key.as_str()) {
-        ("audience", "developers" | "software developers") => "Developers",
-        ("audience", "students" | "learners") => "Students",
-        _ => return Some(s.trim().to_string()),
-    };
-    Some(value.into())
 }
 fn unix_time() -> i64 {
     SystemTime::now()

@@ -11,7 +11,7 @@ The directory should inspire people to build and share their own work, help visi
 - Focus on projects and products rather than comments as standalone content.
 - Organize discovery around the problems projects tackle and the people they serve. Technology choices are not the primary discovery lens.
 - Extract facts faithfully and distinguish them from editorial or automated classifications.
-- Never infer that a builder wants feedback, contributors, or collaborators. Surface these requests only when explicitly stated.
+- Requests for feedback, contributors, and collaborators are outside the current extraction and publication scope.
 - Preserve attribution, source links, and useful discussion context.
 - Show when information was shared so historical mentions do not imply current availability, activity, or intent.
 
@@ -26,7 +26,7 @@ The directory should inspire people to build and share their own work, help visi
 
 Collect the target discussions and their replies, then identify project-bearing contributions. Publish project entries with relevant supporting context, rather than reproducing every comment as a general discussion archive.
 
-Replies qualify as supporting context when they add useful information about a project, such as demos, explanations, clarifications, or substantive feedback. Unrelated conversation should not appear in the public directory.
+Replies provide context and may introduce separate projects attributed to their actual source comment. Do not extract separate supporting contributions or unrelated discussion.
 
 The initial product does not include accounts, private messaging, social feeds, follower relationships, or a separate discussion system. Visitors follow source or project links to engage with builders.
 
@@ -36,7 +36,7 @@ A **project mention** is a specific instance of someone sharing or discussing a 
 
 Keep each mention’s source, author, date, and evidence intact even when grouping it under a project. Group mentions only when there is adequate evidence that they describe the same project; leave uncertain matches separate for review.
 
-Do not assume that everyone discussing a project is its creator. Attribute statements to their authors and identify a builder or owner only when supported by the source.
+For an extracted project mention, assume its source comment author is a builder. Extract additional builder or collaborator usernames only when explicitly named in that comment. This is an attribution convention, not independently verified ownership.
 
 ## Information to capture
 
@@ -45,13 +45,13 @@ For each project mention, capture where available:
 - Project or product name and explicitly provided URLs.
 - A concise, factual description of what it does.
 - The problem it addresses and its intended audience, when supported by the source.
-- Explicit requests for feedback, contributors, or collaborators, with the supporting excerpt.
-- Relevant demos, explanations, and useful feedback from the discussion.
+- A verbatim excerpt identifying the project and explicitly named additional builders or collaborators.
+- Explicit project URLs, preferring a project origin over multiple demo paths when safe.
 - Source thread, comment, author, and sharing date.
 
-Missing information should remain unknown. Do not invent names, audiences, URLs, project status, or invitations. Summaries must remain grounded in source material, and quotations must be distinguishable from summaries.
+Missing information should remain unknown. A short descriptive name may be generated when no name is supplied; do not invent audiences, URLs, project status, or invitations. Summaries must remain grounded in source material, and quotations must be distinguishable from summaries.
 
-Discovery categories and audience labels may be assigned during processing, but must be treated as classifications rather than statements made by an author. Categories use the fixed 15-value taxonomy in [categories.md](categories.md), chosen from the pilot data by project purpose. Each mention has zero to five distinct categories. The public data stores stable category slugs and publishes the associated labels and definitions. Audience labels remain free text. “Looking for” values require explicit, dated source evidence; they are not inferred classifications.
+Discovery categories and audience labels may be assigned during processing, but must be treated as classifications rather than statements made by an author. Categories use the fixed 15-value taxonomy in [categories.md](categories.md), chosen from the pilot data by project purpose. Each mention has zero to five distinct categories. The public data stores stable category slugs and publishes the associated labels and definitions. Audience labels use the fixed taxonomy in [audiences.md](audiences.md), with zero to five distinct slugs grounded in an explicitly mentioned audience. Retain the optional factual audience text separately. Looking for is not extracted or published.
 
 ## Visitor experience
 
@@ -61,8 +61,8 @@ Visitors should be able to:
 
 - Browse uniform-height project cards showing a concise description, original sharing date, supported builder, and discovery tags in a grid that adapts to the available results width. Keep longer descriptions to six visible lines on cards, align discovery tags at the bottom, and show audience information on project details. Set titles, labels, and controls in DM Sans and longer reading text in Source Serif 4, loaded from Google Fonts. Show 30 projects per page, keep the list heading compact, and place the first results near the top of the page.
 - Search descriptions, problems, audiences, project names, and supported builder usernames.
-- Narrow results with exactly three filter dimensions: Category, Audience, and Looking for. Options come from the published data. On wide screens, show search and the three filters vertically in a fixed, viewport-height left sidebar shared by listing and detail pages, with the logo inside it. On narrow screens, place the same controls in a collapsible panel above the results, opened by a Filters button in the primary navigation. Listing controls appear when browser discovery data loads; detail-page controls submit an ordinary form to the directory. Ordinary lists remain usable without JavaScript.
-- Open a card in a dynamic modal showing project details, mentions over time, and relevant supporting contributions.
+- Narrow results with exactly two filter dimensions: Category and Audience. Options come from the published data. On wide screens, show search and the two filters vertically in a fixed, viewport-height left sidebar shared by listing and detail pages, with the logo inside it. On narrow screens, place the same controls in a collapsible panel above the results, opened by a Filters button in the primary navigation. Listing controls appear when browser discovery data loads; detail-page controls submit an ordinary form to the directory. Ordinary lists remain usable without JavaScript.
+- Open a card in a dynamic modal showing project details, mentions over time, and verbatim source excerpts.
 - Share or directly visit the same stable project slug URL to read a generated standalone project page.
 - Follow clearly attributed links to original discussions, demos, and project websites.
 - Discover other projects shared by the same builder where that relationship is supported.
@@ -96,13 +96,13 @@ Collection supports revisiting older threads, detecting changed or deleted comme
 
 Start with one Rig extraction agent definition invoked once per top-level comment and its reply subtree. Supply each source item's ID and relationship context. For subtrees too large for the model context, use bounded follow-up processing with project and ancestor context; never silently discard replies.
 
-Use a preset system prompt and typed structured output. Each response contains zero or more project mentions, extracted facts, classification labels, explicit requests with evidence, and relevant supporting contributions. Store each supporting contribution separately with its source comment item ID and its association to the relevant mention/project. A reply can introduce a project of its own, so preserve the actual source of each mention rather than always attributing it to the root comment.
+Use a preset system prompt and typed structured output. Each structured JSON response contains zero or more project mentions, extracted facts, classification labels, verbatim source excerpts, and additional explicitly named builders. Descriptions state project functionality directly without creator-focused narration. A reply can introduce a project of its own, so preserve the actual source of each mention rather than always attributing it to the root comment.
 
-Rust code validates outputs before persistence, including source ID membership, required provenance, and evidence for explicit requests. Source comments are untrusted input, not instructions. The agent does not need tools or autonomous planning. Conversation groups may be extracted in parallel with bounded concurrency; provider rate limits and transport errors are retried with backoff, and persistent provider failures stop the run early so a later run can resume.
+Rust code validates outputs before persistence, including source ID membership, required provenance, and verbatim project excerpts. Source comments are untrusted input, not instructions. The agent does not need tools or autonomous planning. Conversation groups may be extracted in parallel with bounded concurrency; provider rate limits and transport errors are retried with backoff, and persistent provider failures stop the run early so a later run can resume.
 
 Track source content fingerprints, prompt/model/schema versions, run status, and failures. Reprocessing replaces the applicable successful output transactionally without duplicating records; failures retain the previous successful result. Reviewed corrections and suppression decisions survive reruns. Retained results affected by deleted sources still obey publication suppression rules.
 
-Model projects, mentions, supporting contributions, labels, and processing history as related records rather than one flat website table. Cross-comment and cross-thread project matching is a separate processing concern: preserve stable identities where evidence is adequate and leave uncertain matches separate for review.
+Model projects, mentions, builder attribution, labels, and processing history as related records rather than one flat website table. Cross-comment and cross-thread project matching is a separate processing concern: preserve stable identities where evidence is adequate and leave uncertain matches separate for review.
 
 ### Public export and static website
 
@@ -144,7 +144,7 @@ Expand to approximately two years of discussions once the pilot demonstrates:
 - Project descriptions and extracted facts are supported by their sources.
 - Visitors can find projects by problem and audience without knowing implementation details.
 - Every published mention has attribution, a sharing date, and a source link.
-- Explicit requests are distinguishable from general sharing and retain their original context.
+- Project excerpts are distinguishable from generated descriptions and retain their original source attribution.
 - Repeated mentions can be explored without losing their individual histories.
 - Corrections and removals propagate through public pages and discovery results.
 

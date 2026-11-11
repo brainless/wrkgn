@@ -6,7 +6,7 @@ use std::time::Duration;
 use tempfile::tempdir;
 use wrkgn::category::Category;
 use wrkgn::collector::{CollectionConfig, Collector, FetchError, HnApi};
-use wrkgn::extraction::{Extraction, Mention, Request, RequestKind, Supporting, validate};
+use wrkgn::extraction::{Extraction, Mention, validate};
 use wrkgn::processing::{Model, Options, Progress, process_thread, process_thread_with};
 use wrkgn::publication;
 use wrkgn::store::Store;
@@ -22,7 +22,7 @@ impl HnApi for Api {
                 json!({"id":102,"parent":101,"by":"bob","time":1001,"text":"Demo of Alpha https://alpha.test"})
             }
             103 => {
-                json!({"id":103,"parent":101,"by":"cara","time":1002,"text":"I built Gamma https://gamma.test"})
+                json!({"id":103,"parent":101,"by":"cara","time":1002,"text":"I built Gamma with co-builder zara https://gamma.test"})
             }
             104 => json!({"id":104,"parent":101,"by":"dan","time":1003,"text":"off topic"}),
             105 => json!({"id":105,"parent":100,"by":"eve","time":1004,"text":"nothing here"}),
@@ -61,30 +61,27 @@ fn mention(id: i64, name: Option<&str>, url: Option<&str>, description: &str) ->
         description: description.into(),
         problem: Some("organize work".into()),
         audience: Some("writers".into()),
-        author_is_builder: matches!(id, 101 | 201 | 103 | 106),
+        source_excerpt: match id {
+            101 => name.unwrap_or("Alpha"),
+            103 => "Gamma",
+            106 => "Unnamed tool",
+            201 => "Alpha",
+            301 => "A free app",
+            _ => "unknown",
+        }
+        .into(),
+        builders: vec![],
         categories: vec![Category::Productivity],
-        audience_labels: vec!["writers".into()],
-        requests: vec![],
-        supporting: vec![],
+        audience_labels: vec![wrkgn::audience::Audience::CreativeProfessionals],
     }
 }
 fn fixtures() -> Vec<Result<Extraction, String>> {
-    let mut a = mention(
+    let a = mention(
         101,
         Some("Alpha"),
         Some("https://alpha.test"),
         "Alpha organizes work",
     );
-    a.requests.push(Request {
-        kind: RequestKind::Feedback,
-        source_item_id: 101,
-        evidence: "Feedback welcome".into(),
-    });
-    a.supporting.push(Supporting {
-        source_item_id: 102,
-        summary: "Demo link".into(),
-        excerpt: Some("Demo of Alpha".into()),
-    });
     let b = mention(
         101,
         Some("Beta"),
@@ -372,11 +369,7 @@ fn evidence_and_oversize_are_rejected() {
         Some("https://alpha.test"),
         "Alpha organizes work",
     );
-    m.requests.push(Request {
-        kind: RequestKind::Collaborators,
-        source_item_id: 101,
-        evidence: "please collaborate".into(),
-    });
+    m.source_excerpt = "Unsupported text".into();
     let report = process_thread(
         &mut store,
         100,
@@ -619,8 +612,9 @@ fn review_grid_lists_readable_cards_and_approves_ranges() {
     assert_eq!(code, 0);
     assert!(out.contains("Alpha organizes work"));
     assert!(out.contains("(unnamed)"));
-    assert!(out.contains("Looking for  feedback"));
-    assert!(out.contains("@bob: Demo link"));
+    assert!(!out.contains("Looking for"));
+    assert!(out.contains("Evidence"));
+    assert!(!out.contains("@bob: Demo link"));
     assert!(out.contains("Building Alpha https://alpha.test"));
     assert!(!out.contains("\"description\""));
     let range = format!("{}-{}", ids[0], ids[3]);
@@ -673,7 +667,7 @@ fn escaped_mention() -> Mention {
         Some("https://pahunchi.netlify.app/"),
         "A free app",
     );
-    m.author_is_builder = true;
+    m.source_excerpt = "A free app".into();
     m
 }
 fn validated(m: Mention) -> Result<(), String> {
@@ -697,18 +691,8 @@ fn validation_compares_against_decoded_text() {
         "https://pahunchi.netlify.app".into(),
         "https://Pahunchi.Netlify.App/".into(),
         "https://hydrafetch.com".into(),
-        "https://example.org/long/path/page".into(),
     ];
-    m.requests.push(Request {
-        kind: RequestKind::Feedback,
-        source_item_id: 301,
-        evidence: "I\u{2019}ve built,   also hydrafetch.com. Feedback welcome".into(),
-    });
-    m.supporting.push(Supporting {
-        source_item_id: 302,
-        summary: "Praise".into(),
-        excerpt: Some("It\u{2019}s great   stuff".into()),
-    });
+    m.source_excerpt = "I\u{2019}ve built,   also hydrafetch.com. Feedback welcome".into();
     assert_eq!(validated(m), Ok(()));
 }
 #[test]
@@ -723,44 +707,46 @@ fn validation_still_rejects_unsupported_urls_and_evidence() {
         assert_eq!(validated(m), Err("URL absent from source".into()), "{url}");
     }
     let mut m = escaped_mention();
-    m.requests.push(Request {
-        kind: RequestKind::Contributors,
-        source_item_id: 301,
-        evidence: "Contributors wanted".into(),
-    });
-    assert_eq!(validated(m), Err("unsupported request evidence".into()));
+    m.source_excerpt = "Unsupported text".into();
+    assert_eq!(
+        validated(m),
+        Err("unsupported project source excerpt".into())
+    );
     let mut m = escaped_mention();
-    m.supporting.push(Supporting {
-        source_item_id: 302,
-        summary: "Praise".into(),
-        excerpt: Some("terrible".into()),
-    });
-    assert_eq!(validated(m), Err("unsupported support excerpt".into()));
+    m.source_excerpt = "Unsupported text".into();
+    assert_eq!(
+        validated(m),
+        Err("unsupported project source excerpt".into())
+    );
 }
 #[test]
 fn omitted_arrays_and_flags_default() {
     let value = json!({"mentions":[{"source_item_id":1,"name":null,"description":"d",
-        "problem":null,"audience":null}]});
+        "problem":null,"audience":null,"source_excerpt":"d"}]});
     let m = &serde_json::from_value::<Extraction>(value)
         .unwrap()
         .mentions[0];
-    assert!(m.urls.is_empty() && m.requests.is_empty() && m.supporting.is_empty());
-    assert!(m.categories.is_empty() && m.audience_labels.is_empty() && !m.author_is_builder);
+    assert!(m.urls.is_empty() && m.builders.is_empty());
+    assert!(m.categories.is_empty() && m.audience_labels.is_empty());
     assert!(
         serde_json::from_value::<Extraction>(json!({}))
             .unwrap()
             .mentions
             .is_empty()
     );
-    let invented = json!({"kind":"hiring","source_item_id":1,"evidence":"x"});
-    assert!(serde_json::from_value::<Request>(invented).is_err());
+    assert!(
+        serde_json::from_value::<Mention>(
+            json!({"source_item_id":1,"description":"d","source_excerpt":"d","requests":[]})
+        )
+        .is_err()
+    );
 }
 #[test]
 fn escaped_comment_is_saved_and_builder_comes_from_the_author() {
-    for (is_builder, expected) in [(true, Some("hana".to_string())), (false, None)] {
+    {
+        let expected = Some("hana".to_string());
         let (dir, mut store) = escaped_store();
-        let mut m = escaped_mention();
-        m.author_is_builder = is_builder;
+        let m = escaped_mention();
         let report = process_thread(
             &mut store,
             300,
@@ -794,4 +780,72 @@ fn model_prompt_carries_plain_text() {
     let prompt = capture.0.lock().unwrap().clone();
     assert!(prompt.contains("https://pahunchi.netlify.app/"));
     assert!(prompt.contains("I've built") && !prompt.contains("&#x"));
+}
+
+#[test]
+fn export_requires_reprocessing_legacy_mentions_and_preserves_snapshot() {
+    let (dir, mut store) = setup();
+    process_thread(&mut store, 100, &model(fixtures()), false).unwrap();
+    for m in publication::pending(&mut store).unwrap() {
+        publication::approve(&mut store, m["id"].as_i64().unwrap()).unwrap();
+    }
+    let destination = dir.path().join("public");
+    publication::export(&mut store, &destination).unwrap();
+    let pointer = std::fs::read(destination.join("current.json")).unwrap();
+    let conn = rusqlite::Connection::open(dir.path().join("db.sqlite")).unwrap();
+    conn.execute("UPDATE mentions SET source_excerpt=NULL", [])
+        .unwrap();
+    assert!(
+        publication::export(&mut store, &destination)
+            .unwrap_err()
+            .contains("reprocess")
+    );
+    assert_eq!(
+        pointer,
+        std::fs::read(destination.join("current.json")).unwrap()
+    );
+}
+
+#[test]
+fn reply_project_preserves_its_author_and_additional_builders_in_export() {
+    let (dir, mut store) = setup();
+    let mut answers = fixtures();
+    answers[0]
+        .as_mut()
+        .unwrap()
+        .mentions
+        .iter_mut()
+        .find(|m| m.source_item_id == 103)
+        .unwrap()
+        .builders = vec!["zara".into()];
+    let report = process_thread(&mut store, 100, &model(answers), false).unwrap();
+    assert!(report.failed.is_empty());
+    for row in publication::pending(&mut store).unwrap() {
+        publication::approve(&mut store, row["id"].as_i64().unwrap()).unwrap();
+    }
+    let destination = dir.path().join("public");
+    let version = publication::export(&mut store, &destination).unwrap();
+    let gamma = discovery(&dir)
+        .into_iter()
+        .find(|p| p["name"] == "Gamma")
+        .unwrap();
+    assert_eq!(gamma["builder_usernames"], json!(["cara", "zara"]));
+    assert!(gamma.get("looking_for").is_none());
+    let detail: Value = serde_json::from_slice(
+        &std::fs::read(
+            destination
+                .join("snapshots")
+                .join(version)
+                .join("projects")
+                .join(format!("{}.json", gamma["slug"].as_str().unwrap())),
+        )
+        .unwrap(),
+    )
+    .unwrap();
+    let mention = &detail["mentions"][0];
+    assert_eq!(mention["source_item_id"], 103);
+    assert_eq!(mention["author"], "cara");
+    assert_eq!(mention["builder_usernames"], json!(["cara", "zara"]));
+    assert_eq!(mention["source_excerpt"], "Gamma");
+    assert!(mention.get("requests").is_none() && mention.get("supporting").is_none());
 }

@@ -22,21 +22,21 @@ test('snapshot contract accepts empty and representative publications', () => {
 test('state normalizes invalid values and preserves repeated selected values', () => {
   const state = readState('https://example.test/projects/?q=%20field%20&category=education&category=productivity&category=unknown&looking=feedback&page=999', options);
   assert.deepEqual(state.category, ['education', 'productivity']);
-  assert.deepEqual(state.looking, ['feedback']);
+  assert.equal(state.looking, undefined);
   assert.equal(state.q, 'field');
   assert.equal(state.page, 999);
   assert.equal(pageCount(matchingProjects(projects, state), 30), 1);
-  assert.equal(stateUrl({ ...state, page: 1 }), '/?q=field&category=education&category=productivity&looking=feedback');
+  assert.equal(stateUrl({ ...state, page: 1 }), '/?q=field&category=education&category=productivity');
   assert.equal(readState('https://example.test/projects/page/2/?page=bad&audience=unknown', options).page, 1);
 });
 
 test('searches the full dataset with OR within and AND across dimensions', () => {
-  const base = { q: '', category: [], audience: [], looking: [], page: 1 };
+  const base = { q: '', category: [], audience: [], page: 1 };
   assert.equal(matchingProjects(projects, { ...base, q: 'samplebuilder' }).length, 2);
   assert.equal(matchingProjects(projects, { ...base, category: ['education', 'productivity'] }).length, 13);
   assert.equal(matchingProjects(projects, { ...base, category: ['education'], audience: ['Researchers'] }).length, 0);
-  assert.equal(matchingProjects(projects, { ...base, category: ['productivity'], audience: ['Researchers'], looking: ['feedback'] }).length, 1);
-  assert.equal(matchingProjects(projects, { ...base, looking: ['feedback'], q: 'not present' }).length, 0);
+  assert.equal(matchingProjects(projects, { ...base, category: ['productivity'], audience: ['Researchers'] }).length, 1);
+  assert.equal(matchingProjects(projects, { ...base, q: 'not present' }).length, 0);
   assert.equal(stateUrl({ ...base, page: 2 }), '/projects/page/2/');
   assert.equal(stateUrl(base), '/');
   assert.equal(stateUrl({ ...base, q: 'notes', page: 2 }), '/?q=notes&page=2');
@@ -72,5 +72,43 @@ test('category slugs use manifest labels and invalid categories fail the build c
     rows[0].categories = ['unknown-category'];
     fs.writeFileSync(discoveryPath, JSON.stringify(rows));
     assert.throws(() => loadSnapshot(temp), /unknown category/);
+  } finally { fs.rmSync(temp, { recursive: true, force: true }); }
+});
+
+
+test('v3 accepts evidence and multiple builders, validates audience slugs and excludes retired fields', () => {
+  const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'wrkgn-v3-'));
+  const write = (file, value) => fs.writeFileSync(path.join(temp, file), JSON.stringify(value));
+  try {
+    fs.cpSync(fixture, temp, { recursive: true });
+    const snapshot = loadSnapshot(temp);
+    const prefix = `snapshots/${snapshot.pointer.version}/`;
+    write('current.json', { ...snapshot.pointer, schema_version: 3 });
+    write(`${prefix}manifest.json`, { ...snapshot.manifest, schema_version: 3, audiences: [{ slug: 'researchers', label: 'Researchers', description: 'People conducting research.' }] });
+    const rows = snapshot.discovery.map(({ looking_for, ...row }) => ({ ...row, audience_labels: ['researchers'] }));
+    write(`${prefix}discovery.json`, rows);
+    for (const [slug, detail] of snapshot.details) {
+      detail.mentions = detail.mentions.map(({ builder_username, requests, supporting, ...mention }) => ({ ...mention, source_excerpt: 'Synthetic project evidence.', builder_usernames: builder_username ? [builder_username, 'collaborator'] : [] }));
+      write(`${prefix}projects/${slug}.json`, detail);
+    }
+    const loaded = loadSnapshot(temp);
+    assert.equal(categoryLabel('researchers', loaded.manifest.audiences), 'Researchers');
+    assert.deepEqual(Object.keys(optionsFrom(loaded.discovery)), ['category', 'audience']);
+    const firstDetail = loaded.details.values().next().value;
+    const detailPath = `${prefix}projects/${firstDetail.slug}.json`;
+    for (const invalid of [null, '', '   ']) {
+      firstDetail.mentions[0].source_excerpt = invalid;
+      write(detailPath, firstDetail);
+      assert.throws(() => loadSnapshot(temp), /source_excerpt/);
+    }
+    firstDetail.mentions[0].source_excerpt = 'Synthetic project evidence.';
+    write(detailPath, firstDetail);
+    rows[0].audience_labels = ['invented'];
+    write(`${prefix}discovery.json`, rows);
+    assert.throws(() => loadSnapshot(temp), /unknown audience/);
+    rows[0].audience_labels = ['researchers'];
+    rows[0].looking_for = [];
+    write(`${prefix}discovery.json`, rows);
+    assert.throws(() => loadSnapshot(temp), /expected only/);
   } finally { fs.rmSync(temp, { recursive: true, force: true }); }
 });

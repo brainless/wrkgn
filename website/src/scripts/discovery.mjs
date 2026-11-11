@@ -1,5 +1,5 @@
 import { matchingProjects, optionsFrom, pageCount, readState, stateUrl } from '../lib/discovery-state.mjs';
-import { lookingForLabel, projectTitle, sharedDate, categoryLabel } from '../lib/display.mjs';
+import { projectTitle, sharedDate, categoryLabel } from '../lib/display.mjs';
 
 function element(tag, className, value) {
   const node = document.createElement(tag);
@@ -30,14 +30,13 @@ function card(project, categories) {
   heading.append(link);
   summary.append(heading, element('p', 'project-card__description', project.description));
   const meta = element('div', 'project-card__meta');
-  appendMeta(meta, 'Shared by', project.builder_usernames.map((name) => `@${name}`).join(', '));
+  appendMeta(meta, 'Builders', project.builder_usernames.map((name) => `@${name}`).join(', '));
   meta.append(time);
   body.append(summary, meta);
   article.append(body);
-  if (project.categories.length || project.looking_for.length) {
+  if (project.categories.length) {
     const tags = element('div', 'project-card__tags');
     for (const category of project.categories) tags.append(element('span', 'tag', categoryLabel(category, categories)));
-    for (const value of project.looking_for) tags.append(element('span', 'tag tag--invitation', `${lookingForLabel(value)} · when shared`));
     article.append(tags);
   }
   return article;

@@ -22,7 +22,7 @@ fn migration_persists_nested_source_and_order() {
     let directory = tempdir().unwrap();
     let path = directory.path().join("nested/source.sqlite");
     let mut store = Store::open(&path).unwrap();
-    assert_eq!(store.schema_version().unwrap(), 4);
+    assert_eq!(store.schema_version().unwrap(), 5);
     let run = store.begin_run(100, 10).unwrap();
     store.upsert_item(run, 11, &item(100, None, 0)).unwrap();
     store
@@ -81,7 +81,7 @@ fn version_one_database_upgrades_without_losing_source() {
     drop(connection);
 
     let store = Store::open(&path).unwrap();
-    assert_eq!(store.schema_version().unwrap(), 4);
+    assert_eq!(store.schema_version().unwrap(), 5);
     assert_eq!(store.get_run(1).unwrap().unwrap().status, "running");
     assert!(!store.get_run(1).unwrap().unwrap().interrupted);
 }
@@ -114,11 +114,16 @@ fn version_three_upgrade_repairs_missing_failure_table_and_preserves_history() {
                 )
                 .unwrap();
         }
+        connection
+            .execute_batch(
+                "DROP TABLE mention_builders; ALTER TABLE mentions DROP COLUMN source_excerpt;",
+            )
+            .unwrap();
         connection.pragma_update(None, "user_version", 3).unwrap();
         drop(connection);
 
         let store = Store::open(&path).unwrap();
-        assert_eq!(store.schema_version().unwrap(), 4);
+        assert_eq!(store.schema_version().unwrap(), 5);
         assert_eq!(store.get_item(100).unwrap().unwrap(), source_before);
         assert_eq!(store.get_run(run).unwrap().unwrap().status, "complete");
         drop(store);

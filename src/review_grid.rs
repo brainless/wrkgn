@@ -64,14 +64,11 @@ fn card(out: &mut String, m: &PendingMention, width: usize) {
         ),
     );
     row(out, inner, "Audiences", &list(&m.audience_labels));
-    row(out, inner, "Looking for", &list(&m.looking_for));
-    row(out, inner, "Links", &list(&m.links));
-    for (author, summary) in &m.supporting {
-        let author = author
-            .as_deref()
-            .map_or("unknown".into(), |a| format!("@{a}"));
-        row(out, inner, "Supporting", &format!("{author}: {summary}"));
+    row(out, inner, "Co-builders", &list(&m.builders));
+    if let Some(excerpt) = &m.source_excerpt {
+        row(out, inner, "Evidence", excerpt);
     }
+    row(out, inner, "Links", &list(&m.links));
     if let Some(text) = m.source_text.as_deref().map(html_to_text) {
         out.push_str(&format!("├{}┤\n", "─".repeat(width - 2)));
         let mut first = true;
