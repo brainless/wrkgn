@@ -75,14 +75,14 @@ Historical invitations retain their dates and must not be presented as verified 
 
 ## Architecture and local workflow
 
-All collection, extraction, review, and database work runs on the maintainer's computer. Rust tooling owns the data pipeline. The Astro website lives in `website/` and builds from a deliberate public export included in the repository. Local development uses `npm run dev`; `npm run build` produces static assets locally or in Cloudflare's repository build. Cloudflare builds and hosts the website without custom deployment tooling. The initial architecture has no hosted database, request-time rendering, or processing service.
+All collection, extraction, review, and database work runs on the maintainer's computer. Rust tooling owns the data pipeline. The Astro website lives in `website/` and builds from a deliberate public export included in the repository. Local development uses `npm run dev`; `npm run build` produces static assets locally or in Cloudflare's repository build. The Cloudflare repository integration is already working and hosts the site at https://wrkgn.com without custom deployment tooling. The initial architecture has no hosted database, request-time rendering, or processing service. [MANAGE.md](../MANAGE.md) is the operational runbook for collection, processing, review, staging, and publication.
 
 The intended workflow is:
 
 1. Update the Rig extraction prompt, schema, or processing code when needed.
-2. Run `wrkgn collect` with an HN thread item ID to fetch the post and replies, then `wrkgn process` with the same ID to extract from the stored source and export that thread's data.
-3. Run Astro in development mode and manually inspect project details, source attribution, and filtering.
-4. Reprocess explicitly after extraction changes, repeat inspection, and explicitly approve mentions for publication. Include the selected approved public snapshot in the repository and verify `npm run build` from `website/`. Cloudflare builds the committed website and public data from the repository.
+2. Run `wrkgn collect` with an HN thread item ID to fetch the post and replies, then `wrkgn process` with the same ID to extract from stored source. Version changes automatically invalidate older processing results; use `--reprocess` to force a rerun of unchanged successful groups.
+3. Review extracted mentions locally, apply corrections or suppression as needed, and explicitly approve selected mentions. Export approved public data across the database, then select that snapshot with `npm run stage` from `website/`.
+4. Run Astro in development mode and manually inspect project details, source attribution, and filtering. Repeat processing, review, export, and staging as needed. Verify website tests and the static build, commit the selected public snapshot and intended source changes, and push through the existing repository deployment workflow. Cloudflare builds the committed website and public data for wrkgn.com.
 
 Command interface: `wrkgn collect --thread <hn-item-id>` is the only explicit HN refresh and also refreshes the thread's replies. `wrkgn process --thread <hn-item-id>` never fetches from HN; it requires the latest collection of that thread to be complete, extracts from stored source, and exports approved data, with `--reprocess` to deliberately rerun extraction. `wrkgn review` approves, corrects, suppresses, and matches mentions locally; `wrkgn export` writes the public snapshot, and `npm run stage` in `website/` selects it for the build. Incremental runs skip unchanged successful processing; interrupted runs can resume. Dev mode and builds consume exports and never invoke HN or an LLM implicitly.
 

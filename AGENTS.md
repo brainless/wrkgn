@@ -4,6 +4,7 @@ These instructions apply to coding assistants working in this repository, not to
 
 ## Read first
 
+- Read [MANAGE.md](MANAGE.md) for the maintainer runbook, publication steps, and the existing Cloudflare integration at wrkgn.com. Keep it consistent when commands or workflow change.
 - Read [docs/PRD.md](docs/PRD.md) for product requirements and agreed architecture.
 - Read [docs/development.md](docs/development.md) for the implemented commands, data contracts, and local checks. [docs/categories.md](docs/categories.md) defines the fixed category taxonomy.
 - Epics 01–03 in [epics/](epics/) are implemented; read the relevant one for the original scope and acceptance criteria. New epics describe planned work, not existing capabilities.
@@ -14,7 +15,7 @@ These instructions apply to coding assistants working in this repository, not to
 - All HN collection, LLM processing, review, and SQLite writes run locally on the maintainer's computer.
 - Use Rust for the pipeline and Rig for structured LLM extraction. The HN API reader is deterministic Rust code and uses no agents.
 - Keep raw and processed records in separate tables in one local SQLite database. Preserve source IDs, authors, dates, evidence, and reply relationships.
-- Astro consumes a deliberate public export and generates static HTML. Cloudflare hosts the build output; no hosted database or request-time API is required initially.
+- Astro consumes a deliberate public export and generates static HTML. The Cloudflare repository integration already hosts wrkgn.com; no hosted database or request-time API is required initially.
 - Generate date-ordered paginated lists and stable per-project slug pages. Enhance card navigation with a dynamic modal using the same project URL and content. Search and the two filters (Category, Audience) run in the browser against exported data.
 - Never ship the working SQLite database, credentials, raw payloads, or private processing/review history as website assets.
 
