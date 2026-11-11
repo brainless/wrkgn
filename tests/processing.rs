@@ -889,3 +889,58 @@ fn reply_project_preserves_its_author_and_additional_builders_in_export() {
     assert_eq!(mention["source_excerpt"], "Gamma");
     assert!(mention.get("requests").is_none() && mention.get("supporting").is_none());
 }
+
+#[test]
+fn public_reply_counts_deduplicate_overlapping_mentions_and_respect_suppression() {
+    let (dir, mut store) = setup();
+    // Add a nested reply so two published source subtrees overlap after matching.
+    let mut nested = store.get_item(104).unwrap().unwrap().source;
+    nested.item_id = 107;
+    nested.parent_id = Some(103);
+    nested.raw_payload = json!({"id":107,"parent":103,"text":"nested reply"});
+    let run = store.begin_run(100, 3000).unwrap();
+    for id in [100, 101, 102, 103, 104, 105, 106] {
+        let source = store.get_item(id).unwrap().unwrap().source;
+        store.upsert_item(run, 3000, &source).unwrap();
+    }
+    store.upsert_item(run, 3000, &nested).unwrap();
+    store.finish_run(run, 3000).unwrap();
+    process_thread(&mut store, 100, &model(fixtures()), false).unwrap();
+    for row in publication::pending(&mut store).unwrap() {
+        publication::approve(&mut store, row["id"].as_i64().unwrap()).unwrap();
+    }
+    let destination = dir.path().join("public");
+    publication::export(&mut store, &destination).unwrap();
+    let cards = discovery(&dir);
+    let alpha = cards.iter().find(|v| v["name"] == "Alpha").unwrap();
+    let gamma = cards.iter().find(|v| v["name"] == "Gamma").unwrap();
+    assert_eq!(alpha["comment_count"], 4);
+    assert_eq!(gamma["comment_count"], 1);
+    assert_eq!(
+        cards.iter().find(|v| v["name"].is_null()).unwrap()["comment_count"],
+        0
+    );
+    publication::match_projects(
+        &mut store,
+        gamma["id"].as_i64().unwrap(),
+        alpha["id"].as_i64().unwrap(),
+    )
+    .unwrap();
+    publication::export(&mut store, &destination).unwrap();
+    assert_eq!(
+        discovery(&dir)
+            .iter()
+            .find(|v| v["id"] == alpha["id"])
+            .unwrap()["comment_count"],
+        4
+    );
+    publication::suppress_source(&mut store, 103, "removal").unwrap();
+    publication::export(&mut store, &destination).unwrap();
+    assert_eq!(
+        discovery(&dir)
+            .iter()
+            .find(|v| v["id"] == alpha["id"])
+            .unwrap()["comment_count"],
+        3
+    );
+}

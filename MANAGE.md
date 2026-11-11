@@ -134,7 +134,9 @@ npm run dev
 
 Staging validates the selected public snapshot and replaces `website/data/public/`, removing previous staged versions. You do not need to delete old staged data first. Failed validation leaves the staged snapshot intact. Dev and build commands consume only staged data; they never collect HN data, call the model, or approve records.
 
-Inspect list cards, direct project URLs, source excerpts and attribution, Category/Audience filtering, ordinary pagination, and modal back/forward behavior. Check narrow and wide layouts. See the [manual browser checklist](docs/development.md#manual-browser-checklist). Stop the dev server with Ctrl-C.
+Comment counts for sorting are exported from stored reply relationships. Run `export` and stage again to update counts after collection and review; no model rerun is needed solely to add counts.
+
+Inspect list cards, all four date/comment sort orders, direct project URLs, source excerpts and attribution, Category/Audience filtering, ordinary pagination, and modal back/forward behavior. Check narrow and wide layouts. See the [manual browser checklist](docs/development.md#manual-browser-checklist). Stop the dev server with Ctrl-C.
 
 The shared detail component currently shows the posting author and combined project-level builders; it does not separately render additional builders per mention. Reprocessing alone does not change that presentation.
 

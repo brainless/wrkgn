@@ -67,7 +67,7 @@ Visitors should be able to:
 - Follow clearly attributed links to original discussions, demos, and project websites.
 - Discover other projects shared by the same builder where that relationship is supported.
 
-Opening a modal updates the URL; closing it restores the list context. Browser back/forward navigation must work. Search, filters, and interactive pagination preserve their state in the URL. Direct project visits must work without JavaScript.
+Opening a modal updates the URL; closing it restores the list context. Browser back/forward navigation must work. Search, filters, sorting, and interactive pagination preserve their state in the URL. A Sort by dropdown at the far right of the result-count row offers comment count (low to high or high to low) and date (recent first or oldest first), defaulting to recent first. Sort the full matching dataset before pagination and reset to page one when sorting changes. Dates use the latest published mention; comment counts are distinct replies beneath published source comments across a project’s mentions, excluding deleted, dead, absent, and suppressed replies. Overlapping reply subtrees count each reply once. Counts reflect the last explicit collection; HN does not expose comment vote counts. Direct project visits must work without JavaScript.
 
 Generate the date-ordered first list page at `/`, an equivalent `/projects/` alias, later pages at `/projects/page/2/` onward, and project pages at `/projects/<slug>/`. Slugs are persisted in SQLite and remain stable across reprocessing. Alphabetical lists and generated category landing pages are deferred until there is a demonstrated need. Do not generate every filter combination.
 

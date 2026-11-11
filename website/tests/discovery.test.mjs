@@ -76,7 +76,7 @@ test('category slugs use manifest labels and invalid categories fail the build c
 });
 
 
-test('v3 accepts evidence and multiple builders, validates audience slugs and excludes retired fields', () => {
+test('v3 and v4 accept evidence and multiple builders, validates audience slugs and excludes retired fields', () => {
   const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'wrkgn-v3-'));
   const write = (file, value) => fs.writeFileSync(path.join(temp, file), JSON.stringify(value));
   try {
@@ -91,6 +91,21 @@ test('v3 accepts evidence and multiple builders, validates audience slugs and ex
       detail.mentions = detail.mentions.map(({ builder_username, requests, supporting, ...mention }) => ({ ...mention, source_excerpt: 'Synthetic project evidence.', builder_usernames: builder_username ? [builder_username, 'collaborator'] : [] }));
       write(`${prefix}projects/${slug}.json`, detail);
     }
+    write('current.json', { ...snapshot.pointer, schema_version: 4 });
+    write(`${prefix}manifest.json`, { ...snapshot.manifest, schema_version: 4, audiences: [{ slug: 'researchers', label: 'Researchers', description: 'People conducting research.' }] });
+    assert.throws(() => loadSnapshot(temp), /expected only/);
+    for (const row of rows) row.comment_count = 0;
+    write(`${prefix}discovery.json`, rows);
+    assert.equal(loadSnapshot(temp).discovery[0].comment_count, 0);
+    for (const invalid of [-1, 1.5, null]) {
+      rows[0].comment_count = invalid;
+      write(`${prefix}discovery.json`, rows);
+      assert.throws(() => loadSnapshot(temp), /comment_count/);
+    }
+    for (const row of rows) delete row.comment_count;
+    write(`${prefix}discovery.json`, rows);
+    write('current.json', { ...snapshot.pointer, schema_version: 3 });
+    write(`${prefix}manifest.json`, { ...snapshot.manifest, schema_version: 3, audiences: [{ slug: 'researchers', label: 'Researchers', description: 'People conducting research.' }] });
     const loaded = loadSnapshot(temp);
     assert.equal(categoryLabel('researchers', loaded.manifest.audiences), 'Researchers');
     assert.deepEqual(Object.keys(optionsFrom(loaded.discovery)), ['category', 'audience']);
@@ -111,4 +126,24 @@ test('v3 accepts evidence and multiple builders, validates audience slugs and ex
     write(`${prefix}discovery.json`, rows);
     assert.throws(() => loadSnapshot(temp), /expected only/);
   } finally { fs.rmSync(temp, { recursive: true, force: true }); }
+});
+
+test('sorts all matches before pagination with deterministic ties and URL round trips', () => {
+  const rows = projects.map((row, index) => ({ ...row, comment_count: index % 3 }));
+  const base = { q: '', category: [], audience: [], page: 2 };
+  const ids = (sort) => matchingProjects(rows, { ...base, sort }).map((row) => row.id);
+  assert.deepEqual(ids('date-desc'), rows.map((row) => row.id));
+  assert.equal(ids('date-asc').at(-1), rows[0].id);
+  for (const sort of ['comments-asc', 'comments-desc']) {
+    const ordered = matchingProjects(rows, { ...base, sort });
+    for (let i = 1; i < ordered.length; i++) {
+      const difference = ordered[i].comment_count - ordered[i - 1].comment_count;
+      assert.ok(sort === 'comments-asc' ? difference >= 0 : difference <= 0);
+    }
+    const url = stateUrl({ ...base, q: 'notes', category: ['productivity'], sort });
+    assert.deepEqual(readState(`https://example.test${url}`, options), { ...base, q: 'notes', category: ['productivity'], sort });
+  }
+  assert.equal(readState('https://example.test/?sort=votes-desc', options).sort, 'date-desc');
+  assert.equal(stateUrl({ ...base, page: 1, sort: 'date-desc' }), '/');
+  assert.equal(rows[0].id, projects[0].id);
 });

@@ -22,6 +22,7 @@ pub struct Discovery {
     pub categories: Vec<String>,
     pub audience_labels: Vec<String>,
     pub latest_shared_at: i64,
+    pub comment_count: i64,
     pub searchable_text: String,
 }
 #[derive(Serialize)]
@@ -438,7 +439,6 @@ pub fn export(store: &mut Store, destination: &Path) -> Result<String, String> {
         }
         entry.1.push(json!({"name":name,"description":description,"problem":problem,"audience":audience,"builder_usernames":builders,"source_excerpt":source_excerpt,"source_item_id":source_id,"source_url":source_url(source_id),"author":source_author,"shared_at":shared_at,"links":links}));
     }
-    tx.commit().map_err(|e| e.to_string())?;
     let mut discovery = Vec::new();
     let mut details = Vec::new();
     for (id, (slug, mentions, builders, categories, audiences)) in grouped {
@@ -459,6 +459,26 @@ pub fn export(store: &mut Store, destination: &Path) -> Result<String, String> {
             audience.as_deref().unwrap_or(""),
             builders.join(" ")
         );
+        // Count distinct replies across published mention subtrees. UNION also
+        // deduplicates overlapping trees when a project has several mentions.
+        let source_ids: Vec<_> = mentions
+            .iter()
+            .map(|m| m["source_item_id"].clone())
+            .collect();
+        let comment_count = tx.query_row(
+            "WITH RECURSIVE replies(item_id,thread_id) AS (
+                SELECT s.item_id,s.thread_id FROM source_items s
+                JOIN source_items parent ON parent.item_id=s.parent_id AND parent.thread_id=s.thread_id
+                WHERE parent.item_id IN (SELECT value FROM json_each(?1)) AND s.present_in_tree=1
+                UNION
+                SELECT s.item_id,s.thread_id FROM source_items s JOIN replies r
+                ON s.parent_id=r.item_id AND s.thread_id=r.thread_id WHERE s.present_in_tree=1
+            ) SELECT COUNT(*) FROM replies r JOIN source_items s ON s.item_id=r.item_id
+              WHERE s.deleted=0 AND s.dead=0 AND NOT EXISTS
+              (SELECT 1 FROM source_suppression x WHERE x.source_item_id=s.item_id)",
+            [serde_json::to_string(&source_ids).map_err(|e| e.to_string())?],
+            |r| r.get(0),
+        ).map_err(|e| e.to_string())?;
         discovery.push(Discovery {
             id,
             slug: slug.clone(),
@@ -470,6 +490,7 @@ pub fn export(store: &mut Store, destination: &Path) -> Result<String, String> {
             categories,
             audience_labels: audiences,
             latest_shared_at: latest,
+            comment_count,
             searchable_text,
         });
         details.push(Detail {
@@ -479,6 +500,7 @@ pub fn export(store: &mut Store, destination: &Path) -> Result<String, String> {
             mentions,
         });
     }
+    tx.commit().map_err(|e| e.to_string())?;
     discovery.sort_by(|a, b| {
         b.latest_shared_at
             .cmp(&a.latest_shared_at)
@@ -510,7 +532,7 @@ pub fn export(store: &mut Store, destination: &Path) -> Result<String, String> {
         }
         write_json(
             &staging.join("manifest.json"),
-            &json!({"schema_version":3,"version":version,"discovery":"discovery.json","project_details":"projects/<slug>.json","project_count":details.len(),"categories":category::metadata(),"audiences":audience::metadata()}),
+            &json!({"schema_version":4,"version":version,"discovery":"discovery.json","project_details":"projects/<slug>.json","project_count":details.len(),"categories":category::metadata(),"audiences":audience::metadata()}),
         )?;
         fs::rename(staging, &snapshot).map_err(|e| e.to_string())?;
     }
@@ -518,7 +540,7 @@ pub fn export(store: &mut Store, destination: &Path) -> Result<String, String> {
     let pointer = destination.join("current.json.tmp");
     write_json(
         &pointer,
-        &json!({"schema_version":3,"version":version,"snapshot":format!("snapshots/{version}/manifest.json")}),
+        &json!({"schema_version":4,"version":version,"snapshot":format!("snapshots/{version}/manifest.json")}),
     )?;
     fs::rename(pointer, destination.join("current.json")).map_err(|e| e.to_string())?;
     Ok(version.to_string())

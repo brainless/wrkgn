@@ -1,4 +1,4 @@
-import { matchingProjects, optionsFrom, pageCount, readState, stateUrl } from '../lib/discovery-state.mjs';
+import { DEFAULT_SORT, matchingProjects, optionsFrom, pageCount, readState, stateUrl } from '../lib/discovery-state.mjs';
 import { projectTitle, sharedDate, categoryLabel } from '../lib/display.mjs';
 
 function element(tag, className, value) {
@@ -53,6 +53,7 @@ export async function initDiscovery() {
   const search = controls.querySelector('#project-search');
   const results = root.querySelector('[data-results]');
   const pagination = root.querySelector('[data-pagination]');
+  const sort = root.querySelector('[data-sort]');
   const status = root.querySelector('[data-result-count]');
   const dialog = document.querySelector('[data-project-modal]');
   const modalContent = dialog.querySelector('[data-modal-content]');
@@ -74,15 +75,18 @@ export async function initDiscovery() {
   let activeModal = null;
   let modalRequest = 0;
 
+  root.querySelector('[data-sort-control]').hidden = false;
   controls.hidden = false;
   filtersToggle.hidden = false;
 
   function syncControls() {
+    sort.value = state.sort;
     if (search.value !== state.q) search.value = state.q;
     for (const input of controls.querySelectorAll('[data-filter-input]')) input.checked = state[input.dataset.filterInput].includes(input.value);
   }
 
   function render() {
+    if (![...sort.options].some((option) => option.value === state.sort)) state.sort = DEFAULT_SORT;
     const matches = matchingProjects(projects, state);
     state.page = Math.min(state.page, pageCount(matches, pageSize));
     const canonical = stateUrl(state);
@@ -125,6 +129,7 @@ export async function initDiscovery() {
     render();
   }
 
+  sort.addEventListener('change', () => update({ ...state, sort: sort.value, page: 1 }));
   search.addEventListener('input', () => update({ ...state, q: search.value.trim(), page: 1 }));
   controls.addEventListener('change', (event) => {
     const input = event.target.closest('[data-filter-input]');
@@ -133,7 +138,7 @@ export async function initDiscovery() {
     const selected = [...controls.querySelectorAll(`[data-filter-input="${name}"]:checked`)].map((item) => item.value).sort((a, b) => a.localeCompare(b));
     update({ ...state, [name]: selected, page: 1 });
   });
-  controls.querySelector('[data-clear]').addEventListener('click', () => update({ q: '', category: [], audience: [], looking: [], page: 1 }));
+  controls.querySelector('[data-clear]').addEventListener('click', () => update({ q: '', category: [], audience: [], sort: DEFAULT_SORT, page: 1 }));
   controls.addEventListener('submit', (event) => event.preventDefault());
 
   root.addEventListener('click', (event) => {

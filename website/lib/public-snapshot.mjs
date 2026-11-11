@@ -88,7 +88,7 @@ function mention(value, where, schema = 2) {
   }
 }
 function discovery(value, where, schema = 2) {
-  object(value, where, ['id', 'slug', 'name', 'description', 'problem', 'audience', 'builder_usernames', 'categories', 'audience_labels', 'looking_for', 'latest_shared_at', 'searchable_text'].filter((key) => schema === 2 || key !== 'looking_for'));
+  object(value, where, ['id', 'slug', 'name', 'description', 'problem', 'audience', 'builder_usernames', 'categories', 'audience_labels', 'looking_for', 'latest_shared_at', 'searchable_text', ...(schema >= 4 ? ['comment_count'] : [])].filter((key) => schema === 2 || key !== 'looking_for'));
   integer(value.id, `${where}.id`, true);
   string(value.slug, `${where}.slug`);
   if (!SLUG.test(value.slug)) fail(`${where}.slug`, 'unsafe slug');
@@ -104,6 +104,7 @@ function discovery(value, where, schema = 2) {
     strings(value.looking_for, `${where}.looking_for`);
     for (const kind of value.looking_for) if (!REQUESTS.has(kind)) fail(`${where}.looking_for`, 'unknown request kind');
   }
+  if (schema >= 4) integer(value.comment_count, `${where}.comment_count`);
   date(value.latest_shared_at, `${where}.latest_shared_at`);
   string(value.searchable_text, `${where}.searchable_text`);
 }
@@ -120,11 +121,11 @@ function readJson(root, relative) {
 export function loadSnapshot(root) {
   const pointer = readJson(root, 'current.json');
   object(pointer, 'current.json', ['schema_version', 'version', 'snapshot']);
-  if (![2, 3].includes(pointer.schema_version) || !VERSION.test(pointer.version)) fail('current.json', 'unsupported schema or version');
+  if (![2, 3, 4].includes(pointer.schema_version) || !VERSION.test(pointer.version)) fail('current.json', 'unsupported schema or version');
   const prefix = `snapshots/${pointer.version}/`;
   if (pointer.snapshot !== `${prefix}manifest.json`) fail('current.json', 'manifest path does not match version');
   const manifest = readJson(root, pointer.snapshot);
-  object(manifest, pointer.snapshot, ['schema_version', 'version', 'discovery', 'project_details', 'project_count', 'categories', ...(pointer.schema_version === 3 ? ['audiences'] : [])]);
+  object(manifest, pointer.snapshot, ['schema_version', 'version', 'discovery', 'project_details', 'project_count', 'categories', ...(pointer.schema_version >= 3 ? ['audiences'] : [])]);
   if (manifest.schema_version !== pointer.schema_version || manifest.version !== pointer.version || manifest.discovery !== 'discovery.json' || manifest.project_details !== 'projects/<slug>.json') fail(pointer.snapshot, 'unsupported or mismatched manifest');
   list(manifest.categories, `${pointer.snapshot}.categories`, (value, where) => {
     object(value, where, ['slug', 'label', 'description']);
@@ -133,7 +134,7 @@ export function loadSnapshot(root) {
   });
   const categorySlugs = new Set(manifest.categories.map((category) => category.slug));
   if (categorySlugs.size !== manifest.categories.length || categorySlugs.size !== 15) fail(pointer.snapshot, 'expected 15 distinct categories');
-  if (pointer.schema_version === 3) {
+  if (pointer.schema_version >= 3) {
     list(manifest.audiences, `${pointer.snapshot}.audiences`, (value, where) => {
       object(value, where, ['slug', 'label', 'description']);
       for (const field of ['slug', 'label', 'description']) string(value[field], `${where}.${field}`);
@@ -145,7 +146,7 @@ export function loadSnapshot(root) {
   const rows = readJson(root, `${prefix}discovery.json`);
   list(rows, `${prefix}discovery.json`, (value, where) => discovery(value, where, pointer.schema_version));
   for (const row of rows) for (const category of row.categories) if (!categorySlugs.has(category)) fail(`${prefix}discovery.json`, `unknown category ${category}`);
-  if (pointer.schema_version === 3) {
+  if (pointer.schema_version >= 3) {
     const audienceSlugs = new Set(manifest.audiences.map((item) => item.slug));
     for (const row of rows) for (const audience of row.audience_labels) if (!audienceSlugs.has(audience)) fail(`${prefix}discovery.json`, `unknown audience ${audience}`);
   }

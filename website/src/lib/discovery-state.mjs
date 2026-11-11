@@ -1,3 +1,12 @@
+export const DEFAULT_SORT = 'date-desc';
+export const SORT_OPTIONS = [
+  { value: 'comments-asc', label: 'By comments (low to high)' },
+  { value: 'comments-desc', label: 'By comments (high to low)' },
+  { value: 'date-desc', label: 'By date (recent first)' },
+  { value: 'date-asc', label: 'By date (oldest first)' },
+];
+const validSort = (value) => SORT_OPTIONS.some((option) => option.value === value) ? value : DEFAULT_SORT;
+
 export const FILTERS = {
   category: 'categories',
   audience: 'audience_labels',
@@ -23,16 +32,28 @@ export function readState(url, options) {
   return {
     q: (params.get('q') || '').trim(),
     ...selected,
+    sort: validSort(params.get('sort')),
     page: Number.isSafeInteger(page) && page > 0 ? page : 1,
   };
 }
 
 export function matchingProjects(projects, state) {
   const query = state.q.toLocaleLowerCase();
+  const sort = validSort(state.sort);
   return projects.filter((project) => {
     if (query && !project.searchable_text.toLocaleLowerCase().includes(query)) return false;
     return Object.entries(FILTERS).every(([name, field]) =>
       state[name].length === 0 || state[name].some((value) => project[field].includes(value)));
+  }).sort((a, b) => {
+    const dateOrder = b.latest_shared_at - a.latest_shared_at;
+    if (sort.startsWith('comments-')) {
+      // Legacy snapshots have unknown counts; keep them after known counts.
+      if (a.comment_count == null && b.comment_count != null) return 1;
+      if (b.comment_count == null && a.comment_count != null) return -1;
+      const difference = (a.comment_count ?? 0) - (b.comment_count ?? 0);
+      return (sort === 'comments-asc' ? difference : -difference) || dateOrder || a.id - b.id;
+    }
+    return (sort === 'date-asc' ? -dateOrder : dateOrder) || a.id - b.id;
   });
 }
 
@@ -42,6 +63,8 @@ export function stateUrl(state) {
   const params = new URLSearchParams();
   if (state.q) params.set('q', state.q);
   for (const name of Object.keys(FILTERS)) for (const value of state[name]) params.append(name, value);
+  const sort = validSort(state.sort);
+  if (sort !== DEFAULT_SORT) params.set('sort', sort);
   const hasCriteria = params.size > 0;
   if (state.page > 1 && hasCriteria) params.set('page', String(state.page));
   if (!hasCriteria) return state.page > 1 ? `/projects/page/${state.page}/` : '/';
