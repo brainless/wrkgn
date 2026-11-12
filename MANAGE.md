@@ -6,6 +6,24 @@ The site is hosted on Cloudflare at **https://wrkgn.com**, with the repository i
 collect → process → review / approve → export → stage → inspect / build → commit / push → Cloudflare
 ```
 
+## Automated monthly workflow
+
+The separate `wrkgn-monthly` binary reuses the existing collector, incremental processor, project matching, approval state, and exporter. The original `wrkgn` binary retains its manual review workflow.
+
+```sh
+cargo run --bin wrkgn-monthly --
+# Choose an inclusive range, newest month first:
+cargo run --bin wrkgn-monthly -- --from 2026-11 --through 2026-09
+# Refresh just one month:
+cargo run --bin wrkgn-monthly -- --from 2026-11 --through 2026-11 --concurrency 3
+```
+
+By default it starts at the current UTC month and covers 24 months inclusive. It searches the [HN Algolia index](https://hn.algolia.com/api) for monthly “What are you working on” story titles, accepting full and abbreviated month names (`November`, `Nov`, and `September`/`Sep`/`Sept`), optional `Ask HN:` prefixes, and question marks. It checks every search page and excludes unrelated titles. Every matching thread in a month is handled individually, in descending item-ID order, before proceeding to the previous month. Months without matches are skipped. Discovery depends on Algolia indexing; rerun later for newly indexed threads.
+
+Each thread refreshes the full reply tree to save new comments and detect edits, deletions, and new replies. Existing fingerprint/version checks skip unchanged successful conversation groups. After the whole thread processes successfully, its pending mentions are automatically approved, including previously pending results for that thread. Pending mentions in other threads remain pending. Corrections, matching, and suppression retain their existing behavior. The exporter writes all approved public records across the database after each thread, retaining earlier threads in the snapshot.
+
+A discovery, collection, processing, or export failure stops traversal and exits nonzero. Successful groups stay saved; rerun the same command to resume. Incomplete processing does not auto-approve that thread, but attempts export using existing approvals and freshness checks to remove stale public results. Approval and export are separate commits: if export fails after approval, rerunning retries export. The command uses the same `.env`, `--db`, `--export`, and `--concurrency` settings as `wrkgn`. It never stages or deploys the website. After it succeeds, run `npm run stage -- ../local-data/public-export` in `website/`, then inspect/build and publish as below.
+
 ## Local setup and paths
 
 Run the Rust commands below from the repository root. `cargo run --bin wrkgn --` runs the current CLI source; if you have installed an up-to-date `wrkgn` binary, you can use `wrkgn` instead.
@@ -27,9 +45,9 @@ Use the item ID from the HN discussion URL, for example `https://news.ycombinato
 cargo run --bin wrkgn -- collect --thread 50417407
 ```
 
-This fetches the post and its reply tree and stores them locally. Repeat the same command to refresh edits, deletions, and replies. It is the only command that fetches HN data. It does not extract projects or update the staged website.
+This fetches the post and its reply tree and stores them locally. Repeat the same command to refresh edits, deletions, and replies. In the manual `wrkgn` CLI, only `collect` fetches HN data. It does not extract projects or update the staged website.
 
-Processing requires the latest collection run for that thread to be complete. If collection fails or is incomplete, rerun `collect` before processing. Repeat collection and processing separately for each thread; the CLI has no collect-all command.
+Processing requires the latest collection run for that thread to be complete. If collection fails or is incomplete, rerun `collect` before processing. Repeat collection and processing separately for each thread, or use `wrkgn-monthly` for the automated path.
 
 ## 2. Process stored comments
 

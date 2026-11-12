@@ -78,14 +78,16 @@ Historical invitations retain their dates and must not be presented as verified 
 
 All collection, extraction, review, and database work runs on the maintainer's computer. Rust tooling owns the data pipeline. The Astro website lives in `website/` and builds from a deliberate public export included in the repository. Local development uses `npm run dev`; `npm run build` produces static assets locally or in Cloudflare's repository build. The Cloudflare repository integration is already working and hosts the site at https://wrkgn.com without custom deployment tooling. The initial architecture has no hosted database, request-time rendering, or processing service. [MANAGE.md](../MANAGE.md) is the operational runbook for collection, processing, review, staging, and publication.
 
-The intended workflow is:
+The manual workflow is:
 
 1. Update the Rig extraction prompt, schema, or processing code when needed.
 2. Run `wrkgn collect` with an HN thread item ID to fetch the post and replies, then `wrkgn process` with the same ID to extract from stored source. Version changes automatically invalidate older processing results; use `--reprocess` to force a rerun of unchanged successful groups.
 3. Review extracted mentions locally, apply corrections or suppression as needed, and explicitly approve selected mentions. Export approved public data across the database, then select that snapshot with `npm run stage` from `website/`.
 4. Run Astro in development mode and manually inspect project details, source attribution, and filtering. Repeat processing, review, export, and staging as needed. Verify website tests and the static build, commit the selected public snapshot and intended source changes, and push through the existing repository deployment workflow. Cloudflare builds the committed website and public data for wrkgn.com.
 
-Command interface: `wrkgn collect --thread <hn-item-id>` is the only explicit HN refresh and also refreshes the thread's replies. `wrkgn process --thread <hn-item-id>` never fetches from HN; it requires the latest collection of that thread to be complete, extracts from stored source, and exports approved data, with `--reprocess` to deliberately rerun extraction. `wrkgn review` approves, corrects, suppresses, and matches mentions locally; `wrkgn export` writes the public snapshot, and `npm run stage` in `website/` selects it for the build. Incremental runs skip unchanged successful processing; interrupted runs can resume. Dev mode and builds consume exports and never invoke HN or an LLM implicitly.
+Command interface: within the original binary, `wrkgn collect --thread <hn-item-id>` is the explicit HN refresh and also refreshes the thread's replies. `wrkgn process --thread <hn-item-id>` never fetches from HN; it requires the latest collection of that thread to be complete, extracts from stored source, and exports approved data, with `--reprocess` to deliberately rerun extraction. `wrkgn review` approves, corrects, suppresses, and matches mentions locally; `wrkgn export` writes the public snapshot, and `npm run stage` in `website/` selects it for the build. Incremental runs skip unchanged successful processing; interrupted runs can resume. Dev mode and builds consume exports and never invoke HN or an LLM implicitly.
+
+The separate `wrkgn-monthly` binary automates this workflow using the same internal components. It discovers discussions through HN Algolia search, accepting full and abbreviated month names, optional `Ask HN:` prefixes, and question marks. Starting at the current UTC month, it traverses 24 months newest first by default; `--from YYYY-MM` and `--through YYYY-MM` select an inclusive range. Handle every matching thread in a month individually: refresh the full source tree, process new or changed conversation groups, automatically approve that thread's pending mentions after successful processing, and export all approved public data across the database. Skip missing months, stop on failure, and resume safely on rerun. This explicitly invoked command bypasses manual review, preserves corrections and suppression, and leaves other threads' pending mentions unchanged. Website staging and publication remain separate actions.
 
 ### Data collection
 
@@ -107,7 +109,7 @@ Model projects, mentions, builder attribution, labels, and processing history as
 
 ### Public export and static website
 
-Export only approved public fields from a consistent database snapshot. Raw source payloads, credentials, processing diagnostics, and private review history stay local. Approval is explicit publication state; validation alone does not imply approval. The pilot uses a local review command rather than an administrative UI.
+Export only approved public fields from a consistent database snapshot. Raw source payloads, credentials, processing diagnostics, and private review history stay local. Approval is explicit publication state: the manual CLI requires local review approval, while invoking `wrkgn-monthly` authorizes automatic approval after successful processing of each thread. Both workflows use the same allowlisted public exporter.
 
 Astro renders project pages and paginated date-ordered lists at build time, with ordinary links for crawling and navigation. Project pages and modals share their presentation and public data contract. JavaScript enhances the list with search, filters, and modals.
 

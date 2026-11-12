@@ -103,18 +103,18 @@ fn thread_id(args: &[String]) -> Result<i64, String> {
 }
 /// One progress line on stderr: rewritten in place on a terminal, otherwise
 /// printed at each 10% step.
-struct Status {
+pub(crate) struct Status {
     tty: bool,
     shown: Option<usize>,
 }
 impl Status {
-    fn new() -> Self {
+    pub(crate) fn new() -> Self {
         Self {
             tty: io::stderr().is_terminal(),
             shown: None,
         }
     }
-    fn update(&mut self, p: processing::Progress) {
+    pub(crate) fn update(&mut self, p: processing::Progress) {
         if p.total == 0 {
             return;
         }
@@ -136,14 +136,14 @@ impl Status {
         };
         let _ = err.flush();
     }
-    fn finish(&self) {
+    pub(crate) fn finish(&self) {
         if self.tty && self.shown.is_some() {
             let _ = writeln!(io::stderr());
         }
     }
 }
 /// Counts failures by kind with one example group each, instead of every error.
-fn failure_summary(report: &processing::Report) -> String {
+pub(crate) fn failure_summary(report: &processing::Report) -> String {
     let mut kinds: BTreeMap<String, (usize, i64)> = BTreeMap::new();
     for (root, error) in &report.failed {
         kinds

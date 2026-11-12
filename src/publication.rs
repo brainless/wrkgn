@@ -140,6 +140,19 @@ pub fn pending_mentions(store: &mut Store) -> Result<Vec<PendingMention>, String
 pub fn approve(store: &mut Store, id: i64) -> Result<(), String> {
     approve_ranges(store, &[(id, id)]).map(|_| ())
 }
+/// Explicit automatic publication policy used by the separate monthly binary.
+/// Call only after a complete, successful processing pass of this thread.
+pub fn approve_thread(store: &mut Store, thread_id: i64) -> Result<usize, String> {
+    store
+        .connection()
+        .execute(
+            "UPDATE mentions SET review_state='approved',reviewed_at=strftime('%s','now')
+         WHERE review_state='pending' AND source_item_id IN
+             (SELECT item_id FROM source_items WHERE thread_id=?1)",
+            [thread_id],
+        )
+        .map_err(|e| e.to_string())
+}
 /// Approves pending mentions in each inclusive ID range, in one transaction. IDs inside a
 /// range that are not pending are skipped, but a range without any pending mention aborts.
 pub fn approve_ranges(store: &mut Store, ranges: &[(i64, i64)]) -> Result<usize, String> {

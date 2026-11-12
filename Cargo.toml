@@ -3,6 +3,7 @@ name = "wrkgn"
 version = "0.1.0"
 edition = "2024"
 publish = false
+default-run = "wrkgn"
 
 [dependencies]
 rig-core = { git = "https://github.com/0xPlaygrounds/rig", rev = "7dfd8a4229a9d89af159489687cb14b404b2871d", features = ["reqwest"] }
