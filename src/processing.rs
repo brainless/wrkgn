@@ -1,4 +1,6 @@
-use crate::extraction::{self, Extraction, Mention};
+use crate::extraction::{
+    self, Extraction, ExtractionPolicy, Mention, MonthlyPolicy, ProcessingUnit,
+};
 use crate::store::{ConversationNode, Store, StoredSourceItem};
 use rusqlite::{OptionalExtension, params};
 use sha2::{Digest, Sha256};
@@ -21,6 +23,12 @@ static RIG_RUNTIME: LazyLock<Result<tokio::runtime::Runtime, String>> = LazyLock
 pub trait Model {
     fn name(&self) -> &str;
     fn extract(&self, prompt: &str) -> Result<Extraction, String>;
+    fn extract_show(
+        &self,
+        _prompt: &str,
+    ) -> Result<crate::show_extraction::ShowExtraction, String> {
+        Err("model does not support Show HN extraction".into())
+    }
 }
 pub struct RigModel {
     provider: Provider,
@@ -114,6 +122,27 @@ impl Model for RigModel {
             .append_preamble(&preamble)
             // Keep provider retries behind the shared cooldown below. Rig's
             // internal retries also repeat transport errors, without backoff.
+            .retries(0)
+            .build();
+        RIG_RUNTIME
+            .as_ref()
+            .map_err(Clone::clone)?
+            .block_on(async { extractor.extract(prompt).await })
+            .map(|r| r.output)
+            .map_err(|e| rig_error(&e, &self.api_key, &self.base_url))
+    }
+    fn extract_show(&self, prompt: &str) -> Result<crate::show_extraction::ShowExtraction, String> {
+        use rig_agent::extractor::ExtractorBuilder;
+        use rig_core::providers::openai::OpenAIConfig;
+        let client = OpenAIConfig::new(self.api_key.clone())
+            .with_base_url(self.base_url.clone())
+            .client();
+        let model: rig_core::DynModel<rig_core::operation::Completion> = match self.provider {
+            Provider::OpenAi => client.completion(self.model.as_str()).into(),
+            Provider::Neuralwatt => client.chat(self.model.as_str()).into(),
+        };
+        let extractor = ExtractorBuilder::<crate::show_extraction::ShowExtraction>::new(model)
+            .append_preamble(crate::show_extraction::SYSTEM_PROMPT)
             .retries(0)
             .build();
         RIG_RUNTIME
@@ -276,12 +305,18 @@ pub fn process_thread_with<M: Model + Sync>(
     options: &Options,
     mut progress: impl FnMut(Progress),
 ) -> Result<Report, String> {
+    if store.extraction_mode(thread_id)? == Some(crate::store::ExtractionMode::ShowHn) {
+        return crate::show_extraction::process(
+            store, thread_id, model, reprocess, options, progress,
+        );
+    }
     let latest = store
         .latest_run_for_thread(thread_id)
         .map_err(|e| e.to_string())?;
     if latest.as_ref().is_none_or(|run| run.status != "complete") {
         return Err("latest collection for thread is incomplete".into());
     }
+    store.assign_extraction_mode(thread_id, crate::store::ExtractionMode::Monthly)?;
     let tree = store
         .conversation_groups(thread_id)
         .map_err(|e| e.to_string())?;
@@ -405,7 +440,7 @@ pub fn process_thread_with<M: Model + Sync>(
 }
 /// A provider failure pauses attempts from every worker in this processing run.
 #[derive(Default)]
-struct ProviderCooldown {
+pub(crate) struct ProviderCooldown {
     deadline: Mutex<Option<Instant>>,
 }
 
@@ -445,11 +480,19 @@ fn extract_with_retry<M: Model>(
     stop: &AtomicBool,
     cooldown: &ProviderCooldown,
 ) -> Result<Extraction, String> {
+    call_with_retry(|| model.extract(prompt), options, stop, cooldown)
+}
+pub(crate) fn call_with_retry<T>(
+    mut call: impl FnMut() -> Result<T, String>,
+    options: &Options,
+    stop: &AtomicBool,
+    cooldown: &ProviderCooldown,
+) -> Result<T, String> {
     let mut delay = options.initial_backoff.min(options.max_backoff);
     let mut attempt = 1;
     loop {
         cooldown.wait(stop);
-        match model.extract(prompt) {
+        match call() {
             Err(e) if is_transient(&e) => {
                 // An exhausted group must also pause newly claimed groups.
                 cooldown.extend(jitter(delay));
@@ -542,19 +585,27 @@ fn extract_group<M: Model>(
     stop: &AtomicBool,
     cooldown: &ProviderCooldown,
 ) -> Result<Vec<Mention>, String> {
-    let mut items = Vec::new();
-    extraction::flatten(group, &mut items);
-    let source: BTreeMap<i64, &StoredSourceItem> =
-        items.iter().map(|i| (i.source.item_id, *i)).collect();
-    let batches = extraction::batches(group)?;
+    let unit = MonthlyPolicy::assemble(group)?;
+    extract_unit(&unit, &MonthlyPolicy, model, options, stop, cooldown)
+}
+
+/// Executes prepared source batches without depending on a conversation tree.
+fn extract_unit<M: Model>(
+    unit: &ProcessingUnit<'_>,
+    policy: &impl ExtractionPolicy,
+    model: &M,
+    options: &Options,
+    stop: &AtomicBool,
+    cooldown: &ProviderCooldown,
+) -> Result<Vec<Mention>, String> {
     let mut outputs = Vec::new();
     let mut covered: BTreeSet<i64> = BTreeSet::new();
-    for batch in &batches {
-        let out = extract_validated_batch(model, batch, &source, options, stop, cooldown)?;
+    for batch in &unit.batches {
+        let out = extract_validated_batch(model, batch, unit, policy, options, stop, cooldown)?;
         covered.extend(&batch.ids);
         outputs.extend(out.mentions);
     }
-    if covered.len() != source.len() {
+    if covered != unit.sources.keys().copied().collect() {
         return Err("not every source item was included in extraction batches".into());
     }
     Ok(outputs)
@@ -564,7 +615,8 @@ fn extract_group<M: Model>(
 fn extract_validated_batch<M: Model>(
     model: &M,
     batch: &extraction::Batch,
-    source: &BTreeMap<i64, &StoredSourceItem>,
+    unit: &ProcessingUnit<'_>,
+    policy: &impl ExtractionPolicy,
     options: &Options,
     stop: &AtomicBool,
     cooldown: &ProviderCooldown,
@@ -573,7 +625,7 @@ fn extract_validated_batch<M: Model>(
     let max_corrections = options.max_validation_corrections.min(2);
     for correction in 0..=max_corrections {
         let output = extract_with_retry(model, &prompt, options, stop, cooldown)?;
-        match extraction::validate(&output, &batch.ids, source) {
+        match policy.validate(&output, batch, unit) {
             Ok(()) => return Ok(output),
             Err(error) if correction < max_corrections && !stop.load(Ordering::Relaxed) => {
                 // Keep model-produced text in a delimited data block. Large
@@ -597,7 +649,7 @@ fn extract_validated_batch<M: Model>(
     }
     unreachable!("bounded validation correction loop always returns")
 }
-fn save_group<M: Model>(
+pub(crate) fn save_group<M: Model>(
     conn: &mut rusqlite::Connection,
     run_id: i64,
     thread_id: i64,
@@ -605,6 +657,19 @@ fn save_group<M: Model>(
     model: &M,
     fp: &str,
     outputs: &[Mention],
+) -> Result<(), String> {
+    save_group_with(conn, run_id, thread_id, group, model, fp, outputs, None)
+}
+#[allow(clippy::too_many_arguments)]
+pub(crate) fn save_group_with<M: Model>(
+    conn: &mut rusqlite::Connection,
+    run_id: i64,
+    thread_id: i64,
+    group: &ConversationNode,
+    model: &M,
+    fp: &str,
+    outputs: &[Mention],
+    show: Option<&crate::show_extraction::ShowExtraction>,
 ) -> Result<(), String> {
     let root = group.item.source.item_id;
     let mut items = Vec::new();
@@ -713,6 +778,26 @@ fn save_group<M: Model>(
         save_mention(&tx, root, mention, &key, &source, old)?;
     }
     tx.execute("INSERT INTO processing_groups(root_item_id,thread_id,fingerprint,prompt_version,schema_version,model,status,run_id,item_count,processed_item_count,error) VALUES(?1,?2,?3,?4,?5,?6,'complete',?7,?8,?8,NULL) ON CONFLICT(root_item_id) DO UPDATE SET fingerprint=excluded.fingerprint,prompt_version=excluded.prompt_version,schema_version=excluded.schema_version,model=excluded.model,status='complete',run_id=excluded.run_id,item_count=excluded.item_count,processed_item_count=excluded.processed_item_count,error=NULL",params![root,thread_id,fp,extraction::PROMPT_VERSION,extraction::SCHEMA_VERSION,model.name(),run_id,source.len() as i64]).map_err(|e|e.to_string())?;
+    if let Some(output) = show {
+        tx.execute("UPDATE processing_groups SET prompt_version=?1,schema_version=?2 WHERE root_item_id=?3",params![crate::show_extraction::PROMPT_VERSION,crate::show_extraction::SCHEMA_VERSION,root]).map_err(|e|e.to_string())?;
+        tx.execute("INSERT INTO show_processing_results(thread_id,no_project_reason) VALUES(?1,?2) ON CONFLICT(thread_id) DO UPDATE SET no_project_reason=excluded.no_project_reason",params![thread_id,output.no_project_reason]).map_err(|e|e.to_string())?;
+        if let Some(project) = &output.project {
+            let mid: i64 = tx
+                .query_row(
+                    "SELECT id FROM mentions WHERE root_item_id=?1",
+                    [root],
+                    |r| r.get(0),
+                )
+                .map_err(|e| e.to_string())?;
+            for evidence in &project.evidence {
+                let authorization_fp = evidence
+                    .authorization_source_item_id
+                    .and_then(|id| source.get(&id))
+                    .map(|i| i.content_fingerprint.as_str());
+                tx.execute("INSERT INTO mention_evidence(mention_id,source_item_id,source_field,value,supports,source_fingerprint,authorization_source_item_id,authorization_fingerprint) VALUES(?1,?2,?3,?4,?5,?6,?7,?8)",params![mid,evidence.source_item_id,evidence.source_field,evidence.value,serde_json::to_string(&evidence.supports).map_err(|e|e.to_string())?,source[&evidence.source_item_id].content_fingerprint,evidence.authorization_source_item_id,authorization_fp]).map_err(|e|e.to_string())?;
+            }
+        }
+    }
     tx.commit().map_err(|e| e.to_string())
 }
 fn mention_key(m: &Mention) -> String {

@@ -65,8 +65,21 @@ function supporting(value, where) {
   string(value.author, `${where}.author`, true);
   date(value.shared_at, `${where}.shared_at`, true);
 }
+function evidence(value, where) {
+  object(value, where, ['source_item_id', 'source_field', 'value', 'supports', 'author', 'shared_at', 'source_url']);
+  source(value, where);
+  if (!['title', 'url', 'body'].includes(value.source_field)) fail(where, 'unknown evidence source field');
+  string(value.value, `${where}.value`);
+  if (!value.value.trim()) fail(where, 'empty evidence');
+  if (value.source_field === 'url') webUrl(value.value, `${where}.value`);
+  strings(value.supports, `${where}.supports`);
+  const fields = ['name', 'urls', 'description', 'problem', 'audience', 'builders', 'categories', 'audience_labels'];
+  if (value.supports.some((field) => !fields.includes(field))) fail(where, 'unknown supported field');
+  string(value.author, `${where}.author`, true);
+  date(value.shared_at, `${where}.shared_at`);
+}
 function mention(value, where, schema = 2) {
-  object(value, where, ['name', 'description', 'problem', 'audience', 'builder_username', 'source_item_id', 'source_url', 'author', 'shared_at', 'links', ...(schema === 2 ? ['requests', 'supporting'] : ['source_excerpt', 'builder_usernames'])].filter((key) => schema === 2 || key !== 'builder_username'));
+  object(value, where, ['name', 'description', 'problem', 'audience', 'builder_username', 'source_item_id', 'source_url', 'author', 'shared_at', 'links', ...(schema === 2 ? ['requests', 'supporting'] : ['source_excerpt', 'builder_usernames']), ...(schema >= 5 ? ['evidence'] : [])].filter((key) => schema === 2 || key !== 'builder_username'));
   string(value.name, `${where}.name`, true);
   string(value.description, `${where}.description`);
   if (!value.description.trim()) fail(`${where}.description`, 'empty description');
@@ -75,8 +88,12 @@ function mention(value, where, schema = 2) {
   if (schema === 2) string(value.builder_username, `${where}.builder_username`, true);
   else {
     string(value.source_excerpt, `${where}.source_excerpt`);
-    if (!value.source_excerpt.trim()) fail(`${where}.source_excerpt`, 'empty source excerpt');
+    if (schema < 5 && !value.source_excerpt.trim()) fail(`${where}.source_excerpt`, 'empty source excerpt');
     strings(value.builder_usernames, `${where}.builder_usernames`);
+  }
+  if (schema >= 5) {
+    list(value.evidence, `${where}.evidence`, evidence);
+    if (!value.evidence.length) fail(where, 'missing evidence');
   }
   string(value.author, `${where}.author`, true);
   source(value, where);
@@ -121,7 +138,7 @@ function readJson(root, relative) {
 export function loadSnapshot(root) {
   const pointer = readJson(root, 'current.json');
   object(pointer, 'current.json', ['schema_version', 'version', 'snapshot']);
-  if (![2, 3, 4].includes(pointer.schema_version) || !VERSION.test(pointer.version)) fail('current.json', 'unsupported schema or version');
+  if (![2, 3, 4, 5].includes(pointer.schema_version) || !VERSION.test(pointer.version)) fail('current.json', 'unsupported schema or version');
   const prefix = `snapshots/${pointer.version}/`;
   if (pointer.snapshot !== `${prefix}manifest.json`) fail('current.json', 'manifest path does not match version');
   const manifest = readJson(root, pointer.snapshot);

@@ -9,7 +9,21 @@ use rusqlite::{Connection, OptionalExtension, params};
 use serde_json::Value;
 use sha2::{Digest, Sha256};
 
-const LATEST_SCHEMA_VERSION: i64 = 6;
+const LATEST_SCHEMA_VERSION: i64 = 7;
+
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+pub enum ExtractionMode {
+    Monthly,
+    ShowHn,
+}
+impl ExtractionMode {
+    pub fn as_str(self) -> &'static str {
+        match self {
+            Self::Monthly => "monthly",
+            Self::ShowHn => "show_hn",
+        }
+    }
+}
 
 #[derive(Debug, Clone, PartialEq)]
 pub struct SourceItem {
@@ -178,7 +192,59 @@ impl Store {
             transaction.pragma_update(None, "user_version", 6)?;
             transaction.commit()?;
         }
+        if current < 7 {
+            let transaction = self.connection.transaction()?;
+            transaction.execute_batch(include_str!("../migrations/007_show_hn.sql"))?;
+            transaction.pragma_update(None, "user_version", 7)?;
+            transaction.commit()?;
+        }
         Ok(())
+    }
+
+    pub fn extraction_mode(&self, thread_id: i64) -> Result<Option<ExtractionMode>, String> {
+        let mode: Option<String> = self
+            .connection
+            .query_row(
+                "SELECT mode FROM thread_extraction_modes WHERE thread_id=?1",
+                [thread_id],
+                |r| r.get(0),
+            )
+            .optional()
+            .map_err(|e| e.to_string())?;
+        mode.map(|m| match m.as_str() {
+            "monthly" => Ok(ExtractionMode::Monthly),
+            "show_hn" => Ok(ExtractionMode::ShowHn),
+            _ => Err(format!("unknown extraction mode {m}")),
+        })
+        .transpose()
+    }
+    pub fn assign_extraction_mode(
+        &self,
+        thread_id: i64,
+        mode: ExtractionMode,
+    ) -> Result<(), String> {
+        self.connection
+            .execute(
+                "INSERT OR IGNORE INTO thread_extraction_modes(thread_id,mode) VALUES(?1,?2)",
+                params![thread_id, mode.as_str()],
+            )
+            .map_err(|e| e.to_string())?;
+        if self.extraction_mode(thread_id)? != Some(mode) {
+            return Err(format!(
+                "thread {thread_id} has a conflicting persisted extraction mode"
+            ));
+        }
+        Ok(())
+    }
+    pub fn suppressed_source_ids(
+        &self,
+        thread_id: i64,
+    ) -> Result<std::collections::BTreeSet<i64>, String> {
+        let mut st=self.connection.prepare("SELECT x.source_item_id FROM source_suppression x JOIN source_items s ON s.item_id=x.source_item_id WHERE s.thread_id=?1").map_err(|e| e.to_string())?;
+        st.query_map([thread_id], |r| r.get(0))
+            .map_err(|e| e.to_string())?
+            .collect::<rusqlite::Result<_>>()
+            .map_err(|e| e.to_string())
     }
 
     pub(crate) fn connection(&mut self) -> &mut Connection {

@@ -24,6 +24,25 @@ Each thread refreshes the full reply tree to save new comments and detect edits,
 
 A discovery, collection, processing, or export failure stops traversal and exits nonzero. Successful groups stay saved; rerun the same command to resume. Incomplete processing does not auto-approve that thread, but attempts export using existing approvals and freshness checks to remove stale public results. Approval and export are separate commits: if export fails after approval, rerunning retries export. The command uses the same `.env`, `--db`, `--export`, and `--concurrency` settings as `wrkgn`. It never stages or deploys the website. After it succeeds, run `npm run stage -- ../local-data/public-export` in `website/`, then inspect/build and publish as below.
 
+## Show HN workflow
+
+The separate `wrkgn-show-hn` command refreshes a story and its entire discussion, extracts its primary project, and exports approved data. Choose one story or an inclusive UTC date range (earlier `--from`, later `--through`):
+
+```sh
+cargo run --bin wrkgn-show-hn -- --thread <hn-item-id>
+cargo run --bin wrkgn-show-hn -- --from 2026-11-01 --through 2026-11-07
+# Deliberately authorize story-scoped approval after successful processing:
+cargo run --bin wrkgn-show-hn -- --from 2026-11-01 --through 2026-11-07 --auto-approve
+```
+
+Results await manual review by default. Use the existing `wrkgn review pending`, correction, approval, suppression and matching commands. `--auto-approve` approves only pending mentions of each successfully processed story. `--db`, `--export`, `--concurrency`, provider configuration and `.env` work as with the existing CLIs; `--reprocess` deliberately reruns extraction. Rerun without it to resume and reuse unchanged successful work. Stories finish newest first, one at a time. A failure stops the command; completed work remains saved.
+
+Date discovery uses Algolia, checks all pages, and partitions crowded UTC timestamp windows. Index lag means a later rerun may discover additional stories. Collected HN content supplies extraction data; linked websites are not crawled. Only live stories with a `Show HN:` prefix, author and submission date qualify. The persisted extraction mode prevents monthly and Show HN workflows from interpreting the same thread differently. Ordinary `wrkgn process` dispatches from that mode and still never fetches HN.
+
+Show HN facts use the title, URL and submitter explanations, plus additional builders explicitly identified by the submitter. Other participants provide context. The story retains its original date and submitter attribution; each evidence entry keeps its own source author/date. Source edits, deletion, suppression and lost builder authorization withhold stale results even if a rerun fails. Oversized discussions use bounded resumable chunks; incomplete work cannot publish a partial replacement. The initial strategy repeats submitter context and required ancestors to preserve builder authorization. If that context alone exceeds the 30 KB input bound, or consolidation cannot fit its bound, processing fails explicitly without truncating sources. A successful no-project result retires previous mentions while retaining identity history.
+
+Start with a small live pilot: title/link-only story, text story, submitter clarifications, and an oversized discussion. Inspect factual support and attribution before broad date discovery or automatic approval. These quality checks and browser interactions remain maintainer tests. Staging and deployment remain explicit steps below.
+
 ## Local setup and paths
 
 Run the Rust commands below from the repository root. `cargo run --bin wrkgn --` runs the current CLI source; if you have installed an up-to-date `wrkgn` binary, you can use `wrkgn` instead.
@@ -157,7 +176,7 @@ Comment counts for sorting are exported from stored reply relationships. Run `ex
 
 Inspect list cards, all four date/comment sort orders, direct project URLs, source excerpts and attribution, Category/Audience filtering, ordinary pagination, and modal back/forward behavior. Check narrow and wide layouts. See the [manual browser checklist](docs/development.md#manual-browser-checklist). Stop the dev server with Ctrl-C.
 
-The shared detail component currently shows the posting author and combined project-level builders; it does not separately render additional builders per mention. Reprocessing alone does not change that presentation.
+The shared detail component shows the story/comment posting author separately from the actual author and date of each supporting evidence entry. Builder attribution remains an assumption based on the source author and explicitly named additional builders, not verified ownership.
 
 ## 6. Publish through the existing Cloudflare integration
 

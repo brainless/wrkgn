@@ -2,7 +2,7 @@
 
 ## Overview
 
-Create a public directory of projects and products shared in Hacker News’s recurring “Ask HN: What are you working on?” discussions. Validate the workflow with three monthly threads, then expand to approximately the past two years and continue adding new discussions.
+Create a public directory of projects and products shared in Hacker News’s recurring “Ask HN: What are you working on?” discussions and stories with a `Show HN:` title prefix. Validate the workflow with three monthly threads, then expand to approximately the past two years and continue adding new discussions.
 
 The directory should inspire people to build and share their own work, help visitors discover interesting projects, and make it easier to find builders working on related problems. It is a discovery resource, not a social network.
 
@@ -37,7 +37,7 @@ A **project mention** is a specific instance of someone sharing or discussing a 
 Keep each mention’s source, author, date, and evidence intact even when grouping it under a project. Group mentions only when there is adequate evidence that they describe the same project; leave uncertain matches separate for review.
 Automatic cross-source grouping requires the same known HN source author and a shared explicit project URL. Compare the full URL sets independent of their order; normalize an ordinary trailing slash while preserving URL paths, path case, queries, and fragments. If more than one existing project qualifies, leave the new mention separate for review; stop the affected group if an ambiguous candidate is suppressed. Name similarity alone does not establish a match. Keep manually reviewed identity mappings and project suppression effective across reruns, including a rerun that temporarily extracts no mentions.
 
-For an extracted project mention, assume its source comment author is a builder. Extract additional builder or collaborator usernames only when explicitly named in that comment. This is an attribution convention, not independently verified ownership.
+For monthly mentions, assume the source comment author is a builder. For Show HN, the submitted story anchors one primary project and its original sharing date; assume its submitter is a builder. Supporting evidence authors remain distinct from that attribution. Extract additional builder or collaborator usernames only when explicitly named in that comment. This is an attribution convention, not independently verified ownership.
 
 ## Information to capture
 
@@ -97,7 +97,11 @@ Collection supports revisiting older threads, detecting changed or deleted comme
 
 ### Parsing and processing
 
-Start with one Rig extraction agent definition invoked once per top-level comment and its reply subtree. Supply each source item's ID and relationship context. For subtrees too large for the model context, use bounded follow-up processing with project and ancestor context; never silently discard replies.
+Use one Rig extraction implementation with explicit mode-specific schemas and instructions. Monthly mode processes each top-level comment subtree. Show HN mode processes the story and complete discussion, returning at most one primary project or a recorded no-project reason. Story title and submitted URL are first-class evidence. Only submitter statements or explicitly authorized additional builders support facts; keep authorization statements as dependencies. Other discussion provides context. Never extract incidental projects from Show HN comments. Persist the mode after validation and reject conflicts; collection alone leaves it unassigned. Backfill existing processed threads as monthly without changing their cache eligibility.
+
+Show HN evidence records identify source item, field, concise verbatim value, and supported extracted fields. Keep actual source authors and dates separate from story attribution. Suppression, edits, deletions and authorization changes invalidate dependent results and publication. Oversized stories use bounded resumable chunks with full coverage and bounded consolidation; fail explicitly when context cannot fit. A successful empty extraction retires previous mentions transactionally while preserving identities and review history.
+
+Monthly mode invokes the extractor once per top-level comment and its reply subtree. Supply each source item's ID and relationship context. For subtrees too large for the model context, use bounded follow-up processing with project and ancestor context; never silently discard replies.
 
 Use a preset system prompt and typed structured output. Each structured JSON response contains zero or more project mentions, extracted facts, classification labels, verbatim source excerpts, and additional explicitly named builders. Descriptions state project functionality directly without creator-focused narration. A reply can introduce a project of its own, so preserve the actual source of each mention rather than always attributing it to the root comment.
 
@@ -109,7 +113,7 @@ Model projects, mentions, builder attribution, labels, and processing history as
 
 ### Public export and static website
 
-Export only approved public fields from a consistent database snapshot. Raw source payloads, credentials, processing diagnostics, and private review history stay local. Approval is explicit publication state: the manual CLI requires local review approval, while invoking `wrkgn-monthly` authorizes automatic approval after successful processing of each thread. Both workflows use the same allowlisted public exporter.
+Export only approved public fields from a consistent database snapshot. Raw source payloads, credentials, processing diagnostics, and private review history stay local. Approval is explicit publication state: the manual CLI requires local review approval, while invoking `wrkgn-monthly` authorizes automatic approval after successful processing of each thread. All workflows use the same allowlisted public exporter. Show HN defaults to pending review; `--auto-approve` explicitly authorizes successful story-scoped approval. `wrkgn-show-hn --thread <id>` selects one story, or `--from YYYY-MM-DD --through YYYY-MM-DD` selects an inclusive UTC range in calendar order. Both automated CLIs finish each thread before the next and never stage or deploy. Public schema 5 adds multi-source evidence; readers retain support for schemas 2–4.
 
 Astro renders project pages and paginated date-ordered lists at build time, with ordinary links for crawling and navigation. Project pages and modals share their presentation and public data contract. JavaScript enhances the list with search, filters, and modals.
 

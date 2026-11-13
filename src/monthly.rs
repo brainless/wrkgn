@@ -2,7 +2,7 @@
 use crate::cli::{Status, failure_summary};
 use crate::collector::{CollectionConfig, Collector, HnApi};
 use crate::processing::{self, Model, RigModel};
-use crate::{publication, store::Store};
+use crate::{store::Store, workflow};
 use serde::Deserialize;
 use std::collections::BTreeSet;
 use std::io::Write;
@@ -226,49 +226,70 @@ pub fn sync_thread<C: HnApi, M: Model + Sync>(
     destination: &Path,
     out: &mut impl Write,
 ) -> Result<(), String> {
-    let collection = collector
-        .collect(store, thread)
-        .map_err(|e| e.to_string())?;
-    writeln!(
-        out,
-        "Thread {thread}: collected {} items, {} changed.",
-        collection.items_fetched,
-        collection.changed_item_ids.len()
-    )
-    .map_err(|e| e.to_string())?;
-    if !collection.complete {
+    if store.extraction_mode(thread)? == Some(crate::store::ExtractionMode::ShowHn) {
         return Err(format!(
-            "collection incomplete for thread {thread}: {} failed items; rerun to resume",
-            collection.failures.len()
+            "thread {thread} is assigned to show_hn extraction; monthly workflow cannot process it"
         ));
     }
     let mut status = Status::new();
-    let report =
-        processing::process_thread_with(store, thread, model, false, options, |p| status.update(p));
-    status.finish();
-    let report = report?;
-    writeln!(
-        out,
-        "Thread {thread}: {} processed, {} unchanged, {} failed, {} not attempted.",
-        report.processed,
-        report.skipped,
-        report.failed.len(),
-        report.not_attempted
-    )
-    .map_err(|e| e.to_string())?;
-    if !report.failed.is_empty() || report.not_attempted > 0 {
-        // Apply existing publication freshness checks even on partial failure.
-        publication::export(store, destination)?;
-        return Err(failure_summary(&report));
+    let result = workflow::sync_thread_checked(
+        store,
+        collector,
+        model,
+        thread,
+        &workflow::ThreadOptions {
+            processing: options,
+            reprocess: false,
+            approval: workflow::ApprovalPolicy::ApproveThread,
+            destination,
+        },
+        |store, thread| {
+            store.assign_extraction_mode(thread, crate::store::ExtractionMode::Monthly)?;
+            Ok(true)
+        },
+        |event| {
+            match event {
+                workflow::Event::Collected(collection) => writeln!(
+                    out,
+                    "Thread {thread}: collected {} items, {} changed.",
+                    collection.items_fetched,
+                    collection.changed_item_ids.len()
+                ),
+                workflow::Event::Progress(progress) => {
+                    status.update(progress);
+                    Ok(())
+                }
+                workflow::Event::Processed(report) => {
+                    status.finish();
+                    writeln!(
+                        out,
+                        "Thread {thread}: {} processed, {} unchanged, {} failed, {} not attempted.",
+                        report.processed,
+                        report.skipped,
+                        report.failed.len(),
+                        report.not_attempted
+                    )
+                }
+                workflow::Event::Exported { approved, version } => writeln!(
+                    out,
+                    "Thread {thread}: auto-approved {} mentions. Public snapshot: {version}",
+                    approved.expect("monthly workflow authorizes thread approval")
+                ),
+                workflow::Event::Skipped { .. } => {
+                    unreachable!("monthly processing is not skipped")
+                }
+            }
+            .map_err(|e| e.to_string())
+        },
+    );
+    match result {
+        Ok(()) => out.flush().map_err(|e| e.to_string()),
+        Err(workflow::Error::ProcessingIncomplete(report)) => Err(failure_summary(&report)),
+        Err(workflow::Error::Operation(error)) => {
+            status.finish();
+            Err(error)
+        }
     }
-    let approved = publication::approve_thread(store, thread)?;
-    let version = publication::export(store, destination)?;
-    writeln!(
-        out,
-        "Thread {thread}: auto-approved {approved} mentions. Public snapshot: {version}"
-    )
-    .map_err(|e| e.to_string())?;
-    out.flush().map_err(|e| e.to_string())
 }
 
 struct Args {

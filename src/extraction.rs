@@ -65,6 +65,52 @@ pub struct Batch {
     pub ids: BTreeSet<i64>,
 }
 
+/// A logical extraction unit. Its anchor may be any stored HN item; execution
+/// does not assume it is a comment or reconstruct its tree relationships.
+#[derive(Debug)]
+pub struct ProcessingUnit<'a> {
+    pub anchor: &'a StoredSourceItem,
+    pub sources: BTreeMap<i64, &'a StoredSourceItem>,
+    pub batches: Vec<Batch>,
+}
+
+/// Source assembly and validation belong to the extraction policy, while model
+/// retries, bounded concurrency and persistence belong to the processor.
+pub trait ExtractionPolicy: Sync {
+    fn validate(
+        &self,
+        output: &Extraction,
+        batch: &Batch,
+        unit: &ProcessingUnit<'_>,
+    ) -> Result<(), String>;
+}
+
+pub struct MonthlyPolicy;
+impl MonthlyPolicy {
+    pub fn assemble(group: &ConversationNode) -> Result<ProcessingUnit<'_>, String> {
+        let mut items = Vec::new();
+        flatten(group, &mut items);
+        Ok(ProcessingUnit {
+            anchor: &group.item,
+            sources: items
+                .into_iter()
+                .map(|item| (item.source.item_id, item))
+                .collect(),
+            batches: batches(group)?,
+        })
+    }
+}
+impl ExtractionPolicy for MonthlyPolicy {
+    fn validate(
+        &self,
+        output: &Extraction,
+        batch: &Batch,
+        unit: &ProcessingUnit<'_>,
+    ) -> Result<(), String> {
+        validate(output, &batch.ids, &unit.sources)
+    }
+}
+
 pub fn flatten<'a>(node: &'a ConversationNode, out: &mut Vec<&'a StoredSourceItem>) {
     out.push(&node.item);
     for child in &node.replies {

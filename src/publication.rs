@@ -387,6 +387,12 @@ pub fn export(store: &mut Store, destination: &Path) -> Result<String, String> {
         if current_groups.get(&root_id) != Some(&group_fp) {
             continue;
         }
+        let is_show: bool = tx.query_row("SELECT EXISTS(SELECT 1 FROM thread_extraction_modes WHERE thread_id=?1 AND mode='show_hn')", [source_id], |r|r.get(0)).map_err(|e|e.to_string())?;
+        let evidence = public_evidence(&tx, &key)?;
+        if evidence.is_none() || (is_show && evidence.as_ref().is_none_or(Vec::is_empty)) {
+            continue;
+        }
+        let mut evidence = evidence.unwrap();
         let corrected = |field: &str, original: Option<String>| -> Result<Option<String>, String> {
             let found: Option<Option<String>> = tx
                 .query_row(
@@ -450,6 +456,9 @@ pub fn export(store: &mut Store, destination: &Path) -> Result<String, String> {
                 "mention {key} has no project source excerpt; reprocess this thread with the current extraction schema"
             ));
         }
+        if evidence.is_empty() {
+            evidence.push(json!({"source_item_id":source_id,"source_field":"body","value":source_excerpt,"supports":[],"author":source_author,"shared_at":shared_at,"source_url":source_url(source_id)}));
+        }
         let entry = grouped.entry(pid).or_insert_with(|| {
             (
                 slug,
@@ -481,7 +490,7 @@ pub fn export(store: &mut Store, destination: &Path) -> Result<String, String> {
                 _ => {}
             }
         }
-        entry.1.push(json!({"name":name,"description":description,"problem":problem,"audience":audience,"builder_usernames":builders,"source_excerpt":source_excerpt,"source_item_id":source_id,"source_url":source_url(source_id),"author":source_author,"shared_at":shared_at,"links":links}));
+        entry.1.push(json!({"name":name,"description":description,"problem":problem,"audience":audience,"builder_usernames":builders,"source_excerpt":source_excerpt,"evidence":evidence,"source_item_id":source_id,"source_url":source_url(source_id),"author":source_author,"shared_at":shared_at,"links":links}));
     }
     let mut discovery = Vec::new();
     let mut details = Vec::new();
@@ -551,6 +560,7 @@ pub fn export(store: &mut Store, destination: &Path) -> Result<String, String> {
             .then(a.id.cmp(&b.id))
     });
     let mut digest = Sha256::new();
+    digest.update(b"public-schema-5");
     digest.update(serde_json::to_vec(&discovery).map_err(|e| e.to_string())?);
     for detail in &details {
         digest.update(serde_json::to_vec(detail).map_err(|e| e.to_string())?);
@@ -576,7 +586,7 @@ pub fn export(store: &mut Store, destination: &Path) -> Result<String, String> {
         }
         write_json(
             &staging.join("manifest.json"),
-            &json!({"schema_version":4,"version":version,"discovery":"discovery.json","project_details":"projects/<slug>.json","project_count":details.len(),"categories":category::metadata(),"audiences":audience::metadata()}),
+            &json!({"schema_version":5,"version":version,"discovery":"discovery.json","project_details":"projects/<slug>.json","project_count":details.len(),"categories":category::metadata(),"audiences":audience::metadata()}),
         )?;
         fs::rename(staging, &snapshot).map_err(|e| e.to_string())?;
     }
@@ -584,7 +594,7 @@ pub fn export(store: &mut Store, destination: &Path) -> Result<String, String> {
     let pointer = destination.join("current.json.tmp");
     write_json(
         &pointer,
-        &json!({"schema_version":4,"version":version,"snapshot":format!("snapshots/{version}/manifest.json")}),
+        &json!({"schema_version":5,"version":version,"snapshot":format!("snapshots/{version}/manifest.json")}),
     )?;
     fs::rename(pointer, destination.join("current.json")).map_err(|e| e.to_string())?;
     Ok(version.to_string())
@@ -595,4 +605,37 @@ fn write_json(path: &Path, value: &impl Serialize) -> Result<(), String> {
 }
 fn source_url(id: i64) -> String {
     format!("https://news.ycombinator.com/item?id={id}")
+}
+
+/// Returns None when any evidence or its submitter authorization is stale.
+fn public_evidence(
+    tx: &rusqlite::Transaction<'_>,
+    key: &str,
+) -> Result<Option<Vec<Value>>, String> {
+    let mut st = tx.prepare("SELECT e.source_item_id,e.source_field,e.value,e.supports,s.author,s.created_at,s.content_fingerprint=e.source_fingerprint AND s.present_in_tree=1 AND s.deleted=0 AND s.dead=0 AND NOT EXISTS(SELECT 1 FROM source_suppression x WHERE x.source_item_id=s.item_id),CASE WHEN e.authorization_source_item_id IS NULL THEN 1 ELSE EXISTS(SELECT 1 FROM source_items a WHERE a.item_id=e.authorization_source_item_id AND a.content_fingerprint=e.authorization_fingerprint AND a.present_in_tree=1 AND a.deleted=0 AND a.dead=0 AND NOT EXISTS(SELECT 1 FROM source_suppression x WHERE x.source_item_id=a.item_id)) END FROM mention_evidence e JOIN mentions m ON m.id=e.mention_id JOIN source_items s ON s.item_id=e.source_item_id WHERE m.mention_key=?1 ORDER BY e.rowid").map_err(|e| e.to_string())?;
+    let mut evidence = Vec::new();
+    let rows = st
+        .query_map([key], |r| {
+            Ok((
+                r.get::<_, i64>(0)?,
+                r.get::<_, String>(1)?,
+                r.get::<_, String>(2)?,
+                r.get::<_, String>(3)?,
+                r.get::<_, Option<String>>(4)?,
+                r.get::<_, Option<i64>>(5)?,
+                r.get::<_, bool>(6)?,
+                r.get::<_, bool>(7)?,
+            ))
+        })
+        .map_err(|e| e.to_string())?;
+    for row in rows {
+        let (id, field, value, supports, author, date, current, authorized) =
+            row.map_err(|e| e.to_string())?;
+        if !current || !authorized {
+            return Ok(None);
+        }
+        let supports: Vec<String> = serde_json::from_str(&supports).map_err(|e| e.to_string())?;
+        evidence.push(json!({"source_item_id":id,"source_field":field,"value":value,"supports":supports,"author":author,"shared_at":date,"source_url":source_url(id)}));
+    }
+    Ok(Some(evidence))
 }
