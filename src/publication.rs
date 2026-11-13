@@ -34,9 +34,63 @@ pub struct Detail {
 }
 
 pub fn pending(store: &mut Store) -> Result<Vec<Value>, String> {
-    let conn = store.connection();
-    let mut st=conn.prepare("SELECT m.id,m.mention_key,m.name,m.description,m.source_item_id,s.created_at FROM mentions m JOIN source_items s ON s.item_id=m.source_item_id WHERE m.review_state='pending' ORDER BY m.id").map_err(|e|e.to_string())?;
-    st.query_map([],|r|Ok(json!({"id":r.get::<_,i64>(0)?,"key":r.get::<_,String>(1)?,"name":r.get::<_,Option<String>>(2)?,"description":r.get::<_,String>(3)?,"source_item_id":r.get::<_,i64>(4)?,"shared_at":r.get::<_,Option<i64>>(5)?}))).map_err(|e|e.to_string())?.collect::<rusqlite::Result<Vec<_>>>().map_err(|e|e.to_string())
+    Ok(pending_mentions(store)?
+        .into_iter()
+        .map(|m| json!({"id":m.id,"key":m.key,"name":m.name,"description":m.description,"source_item_id":m.source_item_id,"shared_at":m.shared_at,"evidence":m.evidence}))
+        .collect())
+}
+
+/// Local review evidence. Authorization IDs identify the submitter statement
+/// shown among the mention's evidence; private fingerprints stay in SQLite.
+#[derive(Serialize)]
+pub struct PendingEvidence {
+    pub source_item_id: i64,
+    pub source_field: String,
+    pub value: String,
+    pub supports: Vec<String>,
+    pub author: Option<String>,
+    pub shared_at: Option<i64>,
+    pub source_url: String,
+    pub authorization_source_item_id: Option<i64>,
+}
+
+fn pending_evidence(
+    conn: &rusqlite::Connection,
+    mention_id: i64,
+) -> Result<Vec<PendingEvidence>, String> {
+    let mut st = conn.prepare(
+        "SELECT e.source_item_id,e.source_field,e.value,e.supports,s.author,s.created_at,e.authorization_source_item_id
+         FROM mention_evidence e JOIN source_items s ON s.item_id=e.source_item_id
+         WHERE e.mention_id=?1 ORDER BY e.rowid"
+    ).map_err(|e| e.to_string())?;
+    let rows = st
+        .query_map([mention_id], |r| {
+            Ok((
+                r.get::<_, i64>(0)?,
+                r.get::<_, String>(1)?,
+                r.get::<_, String>(2)?,
+                r.get::<_, String>(3)?,
+                r.get::<_, Option<String>>(4)?,
+                r.get::<_, Option<i64>>(5)?,
+                r.get::<_, Option<i64>>(6)?,
+            ))
+        })
+        .map_err(|e| e.to_string())?;
+    rows.map(|row| {
+        let (id, field, value, supports, author, shared_at, authorization_source_item_id) =
+            row.map_err(|e| e.to_string())?;
+        Ok(PendingEvidence {
+            source_item_id: id,
+            source_field: field,
+            value,
+            supports: serde_json::from_str(&supports).map_err(|e| e.to_string())?,
+            author,
+            shared_at,
+            source_url: source_url(id),
+            authorization_source_item_id,
+        })
+    })
+    .collect()
 }
 /// A pending mention with corrections applied, for reading in the review grid.
 pub struct PendingMention {
@@ -58,6 +112,7 @@ pub struct PendingMention {
     pub builders: Vec<String>,
     pub source_excerpt: Option<String>,
     pub source_text: Option<String>,
+    pub evidence: Vec<PendingEvidence>,
 }
 pub fn pending_mentions(store: &mut Store) -> Result<Vec<PendingMention>, String> {
     let conn = store.connection();
@@ -90,6 +145,7 @@ pub fn pending_mentions(store: &mut Store) -> Result<Vec<PendingMention>, String
                 audience_labels: Vec::new(),
                 builders: Vec::new(),
                 source_excerpt: r.get(13)?,
+                evidence: Vec::new(),
             })
         })
         .map_err(|e| e.to_string())?
@@ -133,6 +189,7 @@ pub fn pending_mentions(store: &mut Store) -> Result<Vec<PendingMention>, String
             "SELECT username FROM mention_builders WHERE mention_id=?1 ORDER BY username",
             m.id,
         )?;
+        m.evidence = pending_evidence(conn, m.id)?;
         out.push(m);
     }
     Ok(out)

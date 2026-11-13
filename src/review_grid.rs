@@ -65,16 +65,38 @@ fn card(out: &mut String, m: &PendingMention, width: usize) {
     );
     row(out, inner, "Audiences", &list(&m.audience_labels));
     row(out, inner, "Co-builders", &list(&m.builders));
-    if let Some(excerpt) = &m.source_excerpt {
-        row(out, inner, "Evidence", excerpt);
-    }
     row(out, inner, "Links", &list(&m.links));
-    if let Some(text) = m.source_text.as_deref().map(html_to_text) {
-        out.push_str(&format!("├{}┤\n", "─".repeat(width - 2)));
-        let mut first = true;
-        for paragraph in excerpt(&text, SOURCE_EXCERPT_CHARS).split('\n') {
-            row(out, inner, if first { "Comment" } else { "" }, paragraph);
-            first = false;
+    if m.evidence.is_empty() {
+        if let Some(excerpt) = &m.source_excerpt {
+            row(out, inner, "Evidence", excerpt);
+        }
+        if let Some(text) = m.source_text.as_deref().map(html_to_text) {
+            out.push_str(&format!("├{}┤\n", "─".repeat(width - 2)));
+            let mut first = true;
+            for paragraph in excerpt(&text, SOURCE_EXCERPT_CHARS).split('\n') {
+                row(out, inner, if first { "Comment" } else { "" }, paragraph);
+                first = false;
+            }
+        }
+    } else {
+        for evidence in &m.evidence {
+            out.push_str(&format!("├{}┤\n", "─".repeat(width - 2)));
+            let attribution = format!(
+                "{} · {} · {} · {}",
+                evidence.source_field,
+                evidence
+                    .author
+                    .as_deref()
+                    .map_or("unknown".into(), |a| format!("@{a}")),
+                evidence.shared_at.map_or("undated".into(), date),
+                evidence.source_url,
+            );
+            row(out, inner, "Evidence", &attribution);
+            row(out, inner, "Supports", &list(&evidence.supports));
+            row(out, inner, "Quote", &evidence.value);
+            if let Some(id) = evidence.authorization_source_item_id {
+                row(out, inner, "Auth source", &source_url(id));
+            }
         }
     }
     out.push_str(&format!("└{}┘\n\n", "─".repeat(width - 2)));

@@ -1,6 +1,6 @@
 # Epic 04 implementation record
 
-The requested work is divided among agents by task: shared workflow, extraction policy and execution, storage and publication, and discovery and CLI. The primary agent handles website contracts, documentation, and validation. No separate review pass is performed.
+The initial implementation was divided among agents by task: shared workflow, extraction policy and execution, storage and publication, and discovery and CLI. The primary agent handled website contracts, documentation, and validation. A subsequent review identified four follow-up fixes, delegated sequentially and reviewed individually.
 
 Phase 1 completed before Show HN implementation: extracted `workflow` orchestration with explicit approval policy and `ProcessingUnit`/`ExtractionPolicy` boundaries. Existing monthly versions, fingerprints and extraction input remain unchanged. Validation passed: `cargo fmt --check`, `env RUSTC_WRAPPER= cargo clippy --all-targets`, and `cargo test`. The wrapper override avoids a local sccache sandbox permission failure.
 
@@ -14,4 +14,12 @@ Phase 2 gate passed before binary creation: `cargo fmt --check`, `env RUSTC_WRAP
 
 Oversized-input limit: the initial chunk strategy repeats submitter context and required ancestors to preserve authority dependencies. It can process large third-party discussions, but explicitly fails when repeated submitter/ancestor context cannot fit 30 KB, or bounded consolidation cannot fit. No sources or intermediate evidence are silently truncated.
 
-Final checks with the new binary registered: formatting, all-target Clippy, full Rust suite, website tests (8), legacy static build and isolated mixed-v5 static build passed. Show HN processing now has 13 fixtures and CLI/discovery has 8 unit fixtures. `env RUSTC_WRAPPER= cargo run --bin wrkgn-show-hn -- --help` passed without network/model calls. No separate code review, live collection, LLM call, website staging, commit or deployment was performed.
+Initial handoff checks with the new binary registered: formatting, all-target Clippy, full Rust suite, website tests (8), legacy static build and isolated mixed-v5 static build passed. That handoff had 13 Show HN processing fixtures and 8 CLI/discovery unit fixtures. `env RUSTC_WRAPPER= cargo run --bin wrkgn-show-hn -- --help` passed without network/model calls. Live collection, LLM calls, website staging, commits and deployment were outside that validation.
+
+## Follow-up review fixes
+
+The four findings were fixed by separate agents, one at a time, with each change reviewed before the next assignment. Show HN URL validation now uses complete URL tokens in both evidence excerpts and their original source fields, preserving shared-hosting paths. Per-chunk cache keys track their actual dependencies while final freshness retains the whole thread. Every consolidation level receives bounded evidence-source author/date metadata and submitter identity. Pending-review cards and JSON expose supporting evidence and authorization statements before approval, while monthly cards retain their legacy excerpt and context.
+
+Show HN prompt and schema versions are now `show-hn-2`, and chunk cache identities use `show-chunks-2`; the next explicit processing invocation reevaluates prior Show HN successes. Monthly prompt/schema versions remain unchanged. No storage migration or public schema change is required.
+
+Combined validation passed: `cargo fmt --check`, `env RUSTC_WRAPPER= cargo clippy --all-targets`, `env RUSTC_WRAPPER= cargo test --quiet` (109 tests, including 22 Show HN processing fixtures), and `git diff --check`. The new fixtures cover URL truncation, independent chunk reuse, context/suppression invalidation, consolidation metadata at every level, total prompt bounds, and local review evidence in cards and JSON. Deterministic mocks verify metadata and policy plumbing; live model factual quality and browser interactions remain maintainer checks. These fixes do not change website code or staged data.

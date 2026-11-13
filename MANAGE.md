@@ -107,7 +107,7 @@ cargo run --bin wrkgn -- review pending
 cargo run --bin wrkgn -- review pending --json
 ```
 
-The readable cards show extracted fields, labels, builders, and source context; the JSON form exposes mention keys for corrections. Pending review covers the database, not just the last processed thread. Check source attribution, excerpt accuracy, descriptions, labels, URLs, and possible duplicate projects. Manually assess representative cases across the three-thread pilot before scaling up collection.
+The readable cards show extracted fields, labels, builders, and source context. Show HN cards include each stored evidence quotation with its source field, actual author/date, HN link, supported fields, and authorization-source link for additional builders; the submitter identifying statement appears among those quotations. Monthly cards retain their original single-comment excerpt and context. The JSON form retains mention keys for corrections and adds the same evidence records with authorization source IDs; corrections apply in both views. Pending review covers the database, not just the last processed thread. Check source attribution, excerpt accuracy, descriptions, labels, URLs, and possible duplicate projects. Manually assess representative cases across the three-thread pilot before scaling up collection.
 
 Approve only reviewed mention IDs, individually or as inclusive ranges. These IDs are examples; use the IDs shown by your own review:
 

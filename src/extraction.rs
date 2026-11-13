@@ -292,6 +292,12 @@ fn url_supported(url: &str, found: &[(Option<String>, String)]) -> bool {
         >= 2
 }
 
+/// Check complete URL tokens, preserving shared-hosting paths and allowing
+/// only the same conservative origin normalization as monthly extraction.
+pub(crate) fn url_supported_by_text(url: &str, texts: &[String]) -> bool {
+    url_supported(url, &text_urls(texts))
+}
+
 /// Keep private failure rows useful without storing arbitrarily large model fields.
 fn diagnostic_value(value: &str) -> String {
     let short: String = value.chars().take(120).collect();
