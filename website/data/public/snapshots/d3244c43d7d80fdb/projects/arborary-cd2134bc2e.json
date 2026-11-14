@@ -1,0 +1,35 @@
+{
+  "id": 3288,
+  "slug": "arborary-cd2134bc2e",
+  "name": "Arborary",
+  "mentions": [
+    {
+      "name": "Arborary",
+      "description": "A street tree inventory project that trains a vision model to detect trees from aerial photos in urban environments. The original goal was to fill in Central Park in NYC, which is missing from the city's public inventory; San Francisco has good initial results while NYC precision is still being improved.",
+      "problem": "New York City's public tree inventory is missing Central Park.",
+      "audience": null,
+      "builder_usernames": [
+        "efromvt"
+      ],
+      "source_excerpt": "On another project to inventory street trees - making progress on training a vision model for aerial tree photo detection in urban environments (original goal was to fill in central park in NYC, which is missing from their public inventory). Haven't gotten NYC to the level of precision I want, but SF has good initial results!",
+      "evidence": [
+        {
+          "source_item_id": 50420691,
+          "source_field": "body",
+          "value": "On another project to inventory street trees - making progress on training a vision model for aerial tree photo detection in urban environments (original goal was to fill in central park in NYC, which is missing from their public inventory). Haven't gotten NYC to the level of precision I want, but SF has good initial results!",
+          "supports": [],
+          "author": "efromvt",
+          "shared_at": 1794194949,
+          "source_url": "https://news.ycombinator.com/item?id=50420691"
+        }
+      ],
+      "source_item_id": 50420691,
+      "source_url": "https://news.ycombinator.com/item?id=50420691",
+      "author": "efromvt",
+      "shared_at": 1794194949,
+      "links": [
+        "https://arborary.world/cities/ussfo.html"
+      ]
+    }
+  ]
+}

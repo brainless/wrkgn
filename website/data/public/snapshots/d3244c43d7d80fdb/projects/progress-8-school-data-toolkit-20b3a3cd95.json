@@ -1,0 +1,33 @@
+{
+  "id": 1952,
+  "slug": "progress-8-school-data-toolkit-20b3a3cd95",
+  "name": "Progress 8 school data toolkit",
+  "mentions": [
+    {
+      "name": "Progress 8 school data toolkit",
+      "description": "This data toolkit takes in a CSV of pupil results and outputs Attainment 8 and Progress 8 results for UK secondary schools. The next step is wrapping it into a web app with further analysis, such as showing the Marginal Contribution of each subject.",
+      "problem": "There is no tool available to perform the DfE's Progress 8 calculations, so schools work from complex spreadsheets or wait for the DfE's league table announcements, and existing spreadsheet approaches are hard to use and slow to tweak.",
+      "audience": "UK secondary schools and school performance leaders in Multi-Academy Trusts.",
+      "builder_usernames": [
+        "bluehatbrit"
+      ],
+      "source_excerpt": "I put together a prototype project which would take in a csv of pupil results and spit out all the Attainment 8 and Progress 8 results. The next step is to wrap it up into a nice web app, and do further analysis. I'd like a school to be able to see things like the Marginal Contribution of each subject and such.",
+      "evidence": [
+        {
+          "source_item_id": 49244678,
+          "source_field": "body",
+          "value": "I put together a prototype project which would take in a csv of pupil results and spit out all the Attainment 8 and Progress 8 results. The next step is to wrap it up into a nice web app, and do further analysis. I'd like a school to be able to see things like the Marginal Contribution of each subject and such.",
+          "supports": [],
+          "author": "bluehatbrit",
+          "shared_at": 1786374301,
+          "source_url": "https://news.ycombinator.com/item?id=49244678"
+        }
+      ],
+      "source_item_id": 49244678,
+      "source_url": "https://news.ycombinator.com/item?id=49244678",
+      "author": "bluehatbrit",
+      "shared_at": 1786374301,
+      "links": []
+    }
+  ]
+}

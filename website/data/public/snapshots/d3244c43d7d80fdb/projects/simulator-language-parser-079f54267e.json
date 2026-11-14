@@ -1,0 +1,33 @@
+{
+  "id": 3448,
+  "slug": "simulator-language-parser-079f54267e",
+  "name": "Simulator Language Parser",
+  "mentions": [
+    {
+      "name": "Simulator Language Parser",
+      "description": "A parser for the simulator's own input language, so the circuit simulator can run on known inputs and automatically enforce asserts, letting the machine check results instead of the author.",
+      "problem": "Painful experience working with Verilog/VHDL",
+      "audience": null,
+      "builder_usernames": [
+        "anitil"
+      ],
+      "source_excerpt": "So far I've built a digital circuit simulator, a parser for my circuit design language, and now a parser for my simulator language (so I can run the sim on known inputs and have the machine enforce asserts for me). All to avoid the painful memories I have of verilog/vhdl.",
+      "evidence": [
+        {
+          "source_item_id": 49238620,
+          "source_field": "body",
+          "value": "So far I've built a digital circuit simulator, a parser for my circuit design language, and now a parser for my simulator language (so I can run the sim on known inputs and have the machine enforce asserts for me). All to avoid the painful memories I have of verilog/vhdl.",
+          "supports": [],
+          "author": "anitil",
+          "shared_at": 1786329313,
+          "source_url": "https://news.ycombinator.com/item?id=49238620"
+        }
+      ],
+      "source_item_id": 49238620,
+      "source_url": "https://news.ycombinator.com/item?id=49238620",
+      "author": "anitil",
+      "shared_at": 1786329313,
+      "links": []
+    }
+  ]
+}

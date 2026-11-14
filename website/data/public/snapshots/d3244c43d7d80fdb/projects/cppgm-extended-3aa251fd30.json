@@ -1,0 +1,35 @@
+{
+  "id": 103,
+  "slug": "cppgm-extended-3aa251fd30",
+  "name": "cppgm-extended",
+  "mentions": [
+    {
+      "name": "cppgm-extended",
+      "description": "This project teaches agents to build C++ compilers from scratch, documented in a long blog series; after iterating on many agent-built C++ compilers, it produced a version that compiles about 4x faster than GCC and Clang.",
+      "problem": "Existing C++ compilers (GCC and Clang) are comparatively slow.",
+      "audience": null,
+      "builder_usernames": [
+        "vishvananda"
+      ],
+      "source_excerpt": "After iterating on many agent built C++ compilers, I now have a version that compiles about 4x faster than GCC and Clang[3].",
+      "evidence": [
+        {
+          "source_item_id": 50421358,
+          "source_field": "body",
+          "value": "After iterating on many agent built C++ compilers, I now have a version that compiles about 4x faster than GCC and Clang[3].",
+          "supports": [],
+          "author": "vishvananda",
+          "shared_at": 1794201487,
+          "source_url": "https://news.ycombinator.com/item?id=50421358"
+        }
+      ],
+      "source_item_id": 50421358,
+      "source_url": "https://news.ycombinator.com/item?id=50421358",
+      "author": "vishvananda",
+      "shared_at": 1794201487,
+      "links": [
+        "https://github.com/vishvananda/cppgm-extended"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 1002,
+  "slug": "bastion-58110acc8b",
+  "name": "Bastion",
+  "mentions": [
+    {
+      "name": "Bastion",
+      "description": "A native macOS app that runs each MCP server once for every client on the Mac, storing credentials in the Keychain and logging every call.",
+      "problem": "MCP servers need per-client isolation with secure credential storage and a log of every call.",
+      "audience": null,
+      "builder_usernames": [
+        "olouv"
+      ],
+      "source_excerpt": "Bastion - (https://bastion.mgcrea.io/), which runs each MCP server once for every client on the Mac, with credentials in the Keychain and every call logged.",
+      "evidence": [
+        {
+          "source_item_id": 49697223,
+          "source_field": "body",
+          "value": "Bastion - (https://bastion.mgcrea.io/), which runs each MCP server once for every client on the Mac, with credentials in the Keychain and every call logged.",
+          "supports": [],
+          "author": "olouv",
+          "shared_at": 1789395188,
+          "source_url": "https://news.ycombinator.com/item?id=49697223"
+        }
+      ],
+      "source_item_id": 49697223,
+      "source_url": "https://news.ycombinator.com/item?id=49697223",
+      "author": "olouv",
+      "shared_at": 1789395188,
+      "links": [
+        "https://bastion.mgcrea.io/"
+      ]
+    }
+  ]
+}

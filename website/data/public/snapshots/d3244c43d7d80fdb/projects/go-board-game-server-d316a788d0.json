@@ -1,0 +1,35 @@
+{
+  "id": 2232,
+  "slug": "go-board-game-server-d316a788d0",
+  "name": "Go board game server",
+  "mentions": [
+    {
+      "name": "Go board game server",
+      "description": "A Go (the board game) server with a Rust backend, SQLite storage, and a Preact frontend. It is self-hosted on a Raspberry Pi and proxied to the public web via Tailscale; still unpolished but functional.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "sqwxl"
+      ],
+      "source_excerpt": "I'm working on a go (the game) server. still unpolished, but it's functional! currently hosted on a raspberry pi in my living room and proxied to the public Web via Tailscale.\nRust backend, SQLite, preact frontend.",
+      "evidence": [
+        {
+          "source_item_id": 49237832,
+          "source_field": "body",
+          "value": "I'm working on a go (the game) server. still unpolished, but it's functional! currently hosted on a raspberry pi in my living room and proxied to the public Web via Tailscale.\nRust backend, SQLite, preact frontend.",
+          "supports": [],
+          "author": "sqwxl",
+          "shared_at": 1786321867,
+          "source_url": "https://news.ycombinator.com/item?id=49237832"
+        }
+      ],
+      "source_item_id": 49237832,
+      "source_url": "https://news.ycombinator.com/item?id=49237832",
+      "author": "sqwxl",
+      "shared_at": 1786321867,
+      "links": [
+        "https://pi.basilisk-aeolian.ts.net"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 2171,
+  "slug": "pr-quality-gate-d3df1f7035",
+  "name": "PR quality gate",
+  "mentions": [
+    {
+      "name": "PR quality gate",
+      "description": "A pull request quality gate that grills the developer with questions to verify they understand the code changes they are making before allowing them to merge. Built because the author works on an AI product serving vulnerable users and wants to avoid moving too fast and ruining the customer experience.",
+      "problem": "Developers can merge AI-assisted code changes without fully understanding them, which is risky when the product serves vulnerable users.",
+      "audience": null,
+      "builder_usernames": [
+        "sailorganymede"
+      ],
+      "source_excerpt": "A PR quality gate which grills me to make sure I understand the code changes I am making before I merge.",
+      "evidence": [
+        {
+          "source_item_id": 49241545,
+          "source_field": "body",
+          "value": "A PR quality gate which grills me to make sure I understand the code changes I am making before I merge.",
+          "supports": [],
+          "author": "sailorganymede",
+          "shared_at": 1786355445,
+          "source_url": "https://news.ycombinator.com/item?id=49241545"
+        }
+      ],
+      "source_item_id": 49241545,
+      "source_url": "https://news.ycombinator.com/item?id=49241545",
+      "author": "sailorganymede",
+      "shared_at": 1786355445,
+      "links": []
+    }
+  ]
+}

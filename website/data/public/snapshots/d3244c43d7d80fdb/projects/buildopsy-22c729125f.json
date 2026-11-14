@@ -1,0 +1,35 @@
+{
+  "id": 756,
+  "slug": "buildopsy-22c729125f",
+  "name": "BuildOpsy",
+  "mentions": [
+    {
+      "name": "BuildOpsy",
+      "description": "BuildOpsy is a site publishing articles on system design, infrastructure failures, and postmortems of costly outages, along with engineering calculators for calculations engineers usually work out in a spreadsheet. Some calculators are available on the site's calculators page.",
+      "problem": "Engineers typically have to calculate these things ad hoc in a spreadsheet, even at 2am.",
+      "audience": "Engineers, particularly those doing infrastructure and system design work",
+      "builder_usernames": [
+        "pydevgo"
+      ],
+      "source_excerpt": "been building BuildOpsy mostly writing about system design, infrastructure failures and the occasional “well, that was an expensive outage” postmortem.\n\nAlso building calculators for things engineers usually calculate in a spreadsheet at 2am. you can see some on the site(https://buildopsy.com/calculators.html)",
+      "evidence": [
+        {
+          "source_item_id": 50332762,
+          "source_field": "body",
+          "value": "been building BuildOpsy mostly writing about system design, infrastructure failures and the occasional “well, that was an expensive outage” postmortem.\n\nAlso building calculators for things engineers usually calculate in a spreadsheet at 2am. you can see some on the site(https://buildopsy.com/calculators.html)",
+          "supports": [],
+          "author": "pydevgo",
+          "shared_at": 1793589573,
+          "source_url": "https://news.ycombinator.com/item?id=50332762"
+        }
+      ],
+      "source_item_id": 50332762,
+      "source_url": "https://news.ycombinator.com/item?id=50332762",
+      "author": "pydevgo",
+      "shared_at": 1793589573,
+      "links": [
+        "https://buildopsy.com/calculators.html"
+      ]
+    }
+  ]
+}

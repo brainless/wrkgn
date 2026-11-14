@@ -1,0 +1,33 @@
+{
+  "id": 970,
+  "slug": "rust-renderer-wgpu-445d487ec7",
+  "name": "Rust renderer (WGPU)",
+  "mentions": [
+    {
+      "name": "Rust renderer (WGPU)",
+      "description": "A renderer written in Rust on top of the WGPU graphics library, currently being upgraded from WGPU 24 to WGPU 30. The upgrade requires over 640 lines of code fixes so far to handle the library's breaking API changes.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Animats"
+      ],
+      "source_excerpt": "Updating a Rust renderer from WGPU 24 to WGPU 30. 640 lines of fixes needed so far, and more to do.",
+      "evidence": [
+        {
+          "source_item_id": 49692102,
+          "source_field": "body",
+          "value": "Updating a Rust renderer from WGPU 24 to WGPU 30. 640 lines of fixes needed so far, and more to do.",
+          "supports": [],
+          "author": "Animats",
+          "shared_at": 1789361193,
+          "source_url": "https://news.ycombinator.com/item?id=49692102"
+        }
+      ],
+      "source_item_id": 49692102,
+      "source_url": "https://news.ycombinator.com/item?id=49692102",
+      "author": "Animats",
+      "shared_at": 1789361193,
+      "links": []
+    }
+  ]
+}

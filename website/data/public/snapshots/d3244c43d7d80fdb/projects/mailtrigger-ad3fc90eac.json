@@ -1,0 +1,35 @@
+{
+  "id": 1634,
+  "slug": "mailtrigger-ad3fc90eac",
+  "name": "Mailtrigger",
+  "mentions": [
+    {
+      "name": "Mailtrigger",
+      "description": "A control-plane service that pairs with the ffl data plane to run the agent-first file delivery system, which is reported to be running well.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "bear330"
+      ],
+      "source_excerpt": "Right now, ffl serves as the data plane, while https://www.mailtrigger.net/doc/ works as the control plane, and the system is running very well.",
+      "evidence": [
+        {
+          "source_item_id": 49707690,
+          "source_field": "body",
+          "value": "Right now, ffl serves as the data plane, while https://www.mailtrigger.net/doc/ works as the control plane, and the system is running very well.",
+          "supports": [],
+          "author": "bear330",
+          "shared_at": 1789446359,
+          "source_url": "https://news.ycombinator.com/item?id=49707690"
+        }
+      ],
+      "source_item_id": 49707690,
+      "source_url": "https://news.ycombinator.com/item?id=49707690",
+      "author": "bear330",
+      "shared_at": 1789446359,
+      "links": [
+        "https://www.mailtrigger.net/doc/"
+      ]
+    }
+  ]
+}

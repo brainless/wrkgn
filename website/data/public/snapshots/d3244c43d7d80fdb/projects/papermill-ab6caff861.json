@@ -1,0 +1,36 @@
+{
+  "id": 2733,
+  "slug": "papermill-ab6caff861",
+  "name": "Papermill",
+  "mentions": [
+    {
+      "name": "Papermill",
+      "description": "Papermill is a document engine for AI that turns AI-generated content into polished documents using Press, a new document/templating language. It serves as a high-quality alternative to the common HTML-to-PDF route for document generation and is designed as a tool for AI agents. It ships an MCP server that lets models like Claude design fully-featured documents, which is used internally and by customers to quickly build new templates. Recently launched self-serve, with ongoing development of the typesetter and language.",
+      "problem": "The HTML-to-PDF route many people take for document generation is limited; Papermill provides higher-quality document output.",
+      "audience": null,
+      "builder_usernames": [
+        "davidpapermill"
+      ],
+      "source_excerpt": "Papermill - the document engine for AI. Turn AI content into polished documents using a new document/templating language called Press",
+      "evidence": [
+        {
+          "source_item_id": 48890616,
+          "source_field": "body",
+          "value": "Papermill - the document engine for AI. Turn AI content into polished documents using a new document/templating language called Press",
+          "supports": [],
+          "author": "davidpapermill",
+          "shared_at": 1783939126,
+          "source_url": "https://news.ycombinator.com/item?id=48890616"
+        }
+      ],
+      "source_item_id": 48890616,
+      "source_url": "https://news.ycombinator.com/item?id=48890616",
+      "author": "davidpapermill",
+      "shared_at": 1783939126,
+      "links": [
+        "https://docs.papermill.io/",
+        "https://papermill.io/"
+      ]
+    }
+  ]
+}

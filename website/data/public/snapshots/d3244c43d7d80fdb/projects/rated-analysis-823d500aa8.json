@@ -1,0 +1,35 @@
+{
+  "id": 1721,
+  "slug": "rated-analysis-823d500aa8",
+  "name": "Rated Analysis",
+  "mentions": [
+    {
+      "name": "Rated Analysis",
+      "description": "This web tool provides rating-relative chess analysis: for a given position it shows the move distribution (win/draw/loss rates) bucketed by rating from 400 up to 3000, so users can see which lines players at, above, or below their own rating actually play rather than only the top engine move. It consists of an offline job that computes and stores positional move distributions bucketed by rating from the free Lichess open game database, plus a webpage that serves the data with extras like loading the user's games from chess.com and lichess.org and a Stockfish comparison toggle.",
+      "problem": "Top engine moves are often lines that no one below master level actually plays, and existing tools don't show which moves players at or below a given rating realistically choose from a position.",
+      "audience": "Chess players, especially those below master level, who want to see which moves players at or around their own rating actually play",
+      "builder_usernames": [
+        "tpicks"
+      ],
+      "source_excerpt": "Rated Analysis, rating relative chess analysis: https://rated-analysis.pickle-dev.com/",
+      "evidence": [
+        {
+          "source_item_id": 49238460,
+          "source_field": "body",
+          "value": "Rated Analysis, rating relative chess analysis: https://rated-analysis.pickle-dev.com/",
+          "supports": [],
+          "author": "tpicks",
+          "shared_at": 1786327496,
+          "source_url": "https://news.ycombinator.com/item?id=49238460"
+        }
+      ],
+      "source_item_id": 49238460,
+      "source_url": "https://news.ycombinator.com/item?id=49238460",
+      "author": "tpicks",
+      "shared_at": 1786327496,
+      "links": [
+        "https://rated-analysis.pickle-dev.com/"
+      ]
+    }
+  ]
+}

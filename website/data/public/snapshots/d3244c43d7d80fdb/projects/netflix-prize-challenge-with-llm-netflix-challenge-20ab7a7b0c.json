@@ -1,0 +1,35 @@
+{
+  "id": 82,
+  "slug": "netflix-prize-challenge-with-llm-netflix-challenge-20ab7a7b0c",
+  "name": "netflix_challenge",
+  "mentions": [
+    {
+      "name": "netflix_challenge",
+      "description": "This project revisits the Netflix Prize challenge using LLMs, running experiments to push recommendation accuracy past the 9% improvement mark toward the 10% goal.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "quan"
+      ],
+      "source_excerpt": "I'm revisiting the Netflix Prize challenge with LLM. So far I've hit the 9% improvement mark within a couple weeks. I seem to have hit a wall in the last week or so with no further progress. I'm hopeful to hit the 10% goal with one of the many experimentations though.",
+      "evidence": [
+        {
+          "source_item_id": 50418592,
+          "source_field": "body",
+          "value": "I'm revisiting the Netflix Prize challenge with LLM. So far I've hit the 9% improvement mark within a couple weeks. I seem to have hit a wall in the last week or so with no further progress. I'm hopeful to hit the 10% goal with one of the many experimentations though.",
+          "supports": [],
+          "author": "quan",
+          "shared_at": 1794179378,
+          "source_url": "https://news.ycombinator.com/item?id=50418592"
+        }
+      ],
+      "source_item_id": 50418592,
+      "source_url": "https://news.ycombinator.com/item?id=50418592",
+      "author": "quan",
+      "shared_at": 1794179378,
+      "links": [
+        "https://github.com/mquan/netflix_challenge"
+      ]
+    }
+  ]
+}

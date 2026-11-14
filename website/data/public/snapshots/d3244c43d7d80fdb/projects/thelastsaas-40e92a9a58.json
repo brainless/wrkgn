@@ -1,0 +1,36 @@
+{
+  "id": 277,
+  "slug": "thelastsaas-40e92a9a58",
+  "name": "The Last SaaS",
+  "mentions": [
+    {
+      "name": "The Last SaaS",
+      "description": "Open source (MIT) platform acting as the glue between AI assistants, agents, and data. Provides a flexible data layer plus users, groups, granular permissions, notifications, durable work queues, and audit logs, with MCP and CLI interfaces that work across all agents and assistants such as Claude and GPT.",
+      "problem": "Small teams and agencies need to build one-off solutions for collaboration and operations within the tools they already use.",
+      "audience": "Small teams and agencies that need to build one-off solutions for collaboration and operations inside the harness they already use.",
+      "builder_usernames": [
+        "mkly"
+      ],
+      "source_excerpt": "The glue between AI assistants, agents, and data. 100% open source (MIT).",
+      "evidence": [
+        {
+          "source_item_id": 50426413,
+          "source_field": "body",
+          "value": "The glue between AI assistants, agents, and data. 100% open source (MIT).",
+          "supports": [],
+          "author": "mkly",
+          "shared_at": 1794235750,
+          "source_url": "https://news.ycombinator.com/item?id=50426413"
+        }
+      ],
+      "source_item_id": 50426413,
+      "source_url": "https://news.ycombinator.com/item?id=50426413",
+      "author": "mkly",
+      "shared_at": 1794235750,
+      "links": [
+        "https://github.com/mkly/thelastsaas",
+        "https://thelastsaas.com"
+      ]
+    }
+  ]
+}

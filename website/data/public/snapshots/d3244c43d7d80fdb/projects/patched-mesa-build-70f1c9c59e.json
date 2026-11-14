@@ -1,0 +1,33 @@
+{
+  "id": 787,
+  "slug": "patched-mesa-build-70f1c9c59e",
+  "name": "Patched Mesa build",
+  "mentions": [
+    {
+      "name": "Patched Mesa build",
+      "description": "A patched build of Mesa containing fixes for several bugs encountered while trying out mesh shaders.",
+      "problem": "Several bugs in Mesa were hit when trying out mesh shaders.",
+      "audience": null,
+      "builder_usernames": [
+        "MrMetric"
+      ],
+      "source_excerpt": "Also running a patched build of Mesa after running into several bugs when trying out mesh shaders",
+      "evidence": [
+        {
+          "source_item_id": 50422504,
+          "source_field": "body",
+          "value": "Also running a patched build of Mesa after running into several bugs when trying out mesh shaders",
+          "supports": [],
+          "author": "MrMetric",
+          "shared_at": 1794211240,
+          "source_url": "https://news.ycombinator.com/item?id=50422504"
+        }
+      ],
+      "source_item_id": 50422504,
+      "source_url": "https://news.ycombinator.com/item?id=50422504",
+      "author": "MrMetric",
+      "shared_at": 1794211240,
+      "links": []
+    }
+  ]
+}

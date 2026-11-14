@@ -1,0 +1,35 @@
+{
+  "id": 989,
+  "slug": "ottercalc-fb2f825ea9",
+  "name": "OtterCalc",
+  "mentions": [
+    {
+      "name": "OtterCalc",
+      "description": "A web-based natural language calculator similar to Soulver, supporting multiple languages and an AI mode. It can generate a small notebook from a problem description using AI, while the actual calculations run on a deterministic engine; collaboration features are currently in development.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "fasouto"
+      ],
+      "source_excerpt": "I'm working on a new type of calculator with natural language, similar to Soulver but for the web, in multiple languages and with AI mode\n\nhttps://ottercalc.com/\n\nIt has the ability to generate a small notebook from a problem description using AI (still has a lot of room to improve), but the calculation uses a deterministic engine.",
+      "evidence": [
+        {
+          "source_item_id": 49690978,
+          "source_field": "body",
+          "value": "I'm working on a new type of calculator with natural language, similar to Soulver but for the web, in multiple languages and with AI mode\n\nhttps://ottercalc.com/\n\nIt has the ability to generate a small notebook from a problem description using AI (still has a lot of room to improve), but the calculation uses a deterministic engine.",
+          "supports": [],
+          "author": "fasouto",
+          "shared_at": 1789351421,
+          "source_url": "https://news.ycombinator.com/item?id=49690978"
+        }
+      ],
+      "source_item_id": 49690978,
+      "source_url": "https://news.ycombinator.com/item?id=49690978",
+      "author": "fasouto",
+      "shared_at": 1789351421,
+      "links": [
+        "https://ottercalc.com/"
+      ]
+    }
+  ]
+}

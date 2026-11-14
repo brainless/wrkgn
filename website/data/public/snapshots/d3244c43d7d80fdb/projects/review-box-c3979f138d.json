@@ -1,0 +1,35 @@
+{
+  "id": 95,
+  "slug": "review-box-c3979f138d",
+  "name": "Review Box",
+  "mentions": [
+    {
+      "name": "Review Box",
+      "description": "A tool that helps with GitHub Pull Requests, featuring an integrated dashboard of what to review, symbol understanding, a clear split of reviewed/unreviewed files, and a result diff view that shows only how files will look after changes, reducing the need to open GitHub.",
+      "problem": null,
+      "audience": "Code reviewers and developers working with GitHub Pull Requests",
+      "builder_usernames": [
+        "rado_stankov"
+      ],
+      "source_excerpt": "Over the last year, I've been working on Review Box https://review-box.rstankov.com/ on the side. It is a tool to help me with GitHub Pull Requests.",
+      "evidence": [
+        {
+          "source_item_id": 50422299,
+          "source_field": "body",
+          "value": "Over the last year, I've been working on Review Box https://review-box.rstankov.com/ on the side. It is a tool to help me with GitHub Pull Requests.",
+          "supports": [],
+          "author": "rado_stankov",
+          "shared_at": 1794209742,
+          "source_url": "https://news.ycombinator.com/item?id=50422299"
+        }
+      ],
+      "source_item_id": 50422299,
+      "source_url": "https://news.ycombinator.com/item?id=50422299",
+      "author": "rado_stankov",
+      "shared_at": 1794209742,
+      "links": [
+        "https://review-box.rstankov.com/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": 1044,
+  "slug": "contextify-eb56657911",
+  "name": "Contextify",
+  "mentions": [
+    {
+      "name": "Contextify",
+      "description": "Cross-platform application (Linux, macOS, Windows) that files AI chats into a database the AI can read via a skill or MCP. It backs up Claude Code and Codex conversation transcripts (JSONL) into a complete, manageable history, letting users resume unfinished work, recover intent and scope, verify tasks got done, and recall how past problems were fixed through a 'total recall' skill (/total-recall or $total-recall). It can be self-hosted with all data kept local, or synced across desktops, laptops, and machines via the source-available Contextify Cloud server. Upcoming work includes an expanded Windows app and integration for a third-party local LLM.",
+      "problem": "Valuable AI conversation content is scattered and hard to manage, making it difficult to resume unfinished work, recover the original intent or scope, verify whether something was completed, and recall how a problem was fixed in a previous session.",
+      "audience": null,
+      "builder_usernames": [
+        "bredren"
+      ],
+      "source_excerpt": "I have been building Contextify.\n\nContextify (https://contextify.sh)\n\nIt is an application for Linux, macOS and Windows that files your AI chats into a database your AI can read using a skill or MCP.",
+      "evidence": [
+        {
+          "source_item_id": 49706523,
+          "source_field": "body",
+          "value": "I have been building Contextify.\n\nContextify (https://contextify.sh)\n\nIt is an application for Linux, macOS and Windows that files your AI chats into a database your AI can read using a skill or MCP.",
+          "supports": [],
+          "author": "bredren",
+          "shared_at": 1789435060,
+          "source_url": "https://news.ycombinator.com/item?id=49706523"
+        }
+      ],
+      "source_item_id": 49706523,
+      "source_url": "https://news.ycombinator.com/item?id=49706523",
+      "author": "bredren",
+      "shared_at": 1789435060,
+      "links": [
+        "https://contextify.sh"
+      ]
+    },
+    {
+      "name": "Contextify",
+      "description": "This tool backs up your Claude Code and Codex conversational history and makes the entire history available via a skill or MCP. It supports recalling past AI coding sessions: resuming unfinished work, recovering intent and scope, verifying what got done, recalling fixes, reconstructing decisions, branch/PR archaeology, recalling plans, and reviewing activity over a time window. It is invoked with phrases like \"use total recall\" or via /total-recall or $total-recall. The database can be self-hosted to keep history local and synced across multiple computers, and the local server is source available under FSL-1.1-Apache-2.0. There are macOS and Linux clients, with a Windows client in progress, all sharing a common Swift-based core.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "bredren"
+      ],
+      "source_excerpt": "I've been working on Contextify, which backs up your Claude Code and Codex conversational history and makes your entire history available via a skill or mcp.",
+      "evidence": [
+        {
+          "source_item_id": 49236853,
+          "source_field": "body",
+          "value": "I've been working on Contextify, which backs up your Claude Code and Codex conversational history and makes your entire history available via a skill or mcp.",
+          "supports": [],
+          "author": "bredren",
+          "shared_at": 1786314687,
+          "source_url": "https://news.ycombinator.com/item?id=49236853"
+        }
+      ],
+      "source_item_id": 49236853,
+      "source_url": "https://news.ycombinator.com/item?id=49236853",
+      "author": "bredren",
+      "shared_at": 1786314687,
+      "links": [
+        "https://contextify.sh"
+      ]
+    },
+    {
+      "name": "Contextify",
+      "description": "This tool makes it easy to use Claude Code or Codex interchangeably across multiple computers, with macOS and Linux clients. It offers a free personal edition, a hosted commercial cloud where workgroups share AI history, and a commercial self-hosted option, with a guide for setting up the source-available self-hosted cloud.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "bredren"
+      ],
+      "source_excerpt": "I've been working on Contextify: https://contextify.sh\n\nMakes it easy to use Claude Code or Codex interchangeably across multiple computers. Personal editions are free, I have a hosted commercial cloud (workgroups share AI history) and commercial self-hosted option available.",
+      "evidence": [
+        {
+          "source_item_id": 48889087,
+          "source_field": "body",
+          "value": "I've been working on Contextify: https://contextify.sh\n\nMakes it easy to use Claude Code or Codex interchangeably across multiple computers. Personal editions are free, I have a hosted commercial cloud (workgroups share AI history) and commercial self-hosted option available.",
+          "supports": [],
+          "author": "bredren",
+          "shared_at": 1783927593,
+          "source_url": "https://news.ycombinator.com/item?id=48889087"
+        }
+      ],
+      "source_item_id": 48889087,
+      "source_url": "https://news.ycombinator.com/item?id=48889087",
+      "author": "bredren",
+      "shared_at": 1783927593,
+      "links": [
+        "https://contextify.sh",
+        "https://contextify.sh/docs/self-hosted/"
+      ]
+    }
+  ]
+}

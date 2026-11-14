@@ -1,0 +1,35 @@
+{
+  "id": 2665,
+  "slug": "gnooma-74ff927c0e",
+  "name": "Gnooma",
+  "mentions": [
+    {
+      "name": "Gnooma",
+      "description": "A lightweight tool for reducing knowledge drift in teams. It introduces a new document type called a gnoom: a living document that knows who has read it, with read confirmations resetting whenever the document changes, so teams can see who is up to date. Offered as a free beta that requires no email.",
+      "problem": "Important decisions kept getting buried in chats and then discussed all over again.",
+      "audience": "Teams that need to keep members up to date on important decisions and documents",
+      "builder_usernames": [
+        "thoweck"
+      ],
+      "source_excerpt": "I’m working on https://gnooma.com, a lightweight tool for reducing knowledge drift in teams.\n\nIt introduces a new document type called a gnoom: a living document that knows who has read it. When the document changes, read confirmations reset, so you can see who is up to date.",
+      "evidence": [
+        {
+          "source_item_id": 48889626,
+          "source_field": "body",
+          "value": "I’m working on https://gnooma.com, a lightweight tool for reducing knowledge drift in teams.\n\nIt introduces a new document type called a gnoom: a living document that knows who has read it. When the document changes, read confirmations reset, so you can see who is up to date.",
+          "supports": [],
+          "author": "thoweck",
+          "shared_at": 1783931901,
+          "source_url": "https://news.ycombinator.com/item?id=48889626"
+        }
+      ],
+      "source_item_id": 48889626,
+      "source_url": "https://news.ycombinator.com/item?id=48889626",
+      "author": "thoweck",
+      "shared_at": 1783931901,
+      "links": [
+        "https://gnooma.com"
+      ]
+    }
+  ]
+}

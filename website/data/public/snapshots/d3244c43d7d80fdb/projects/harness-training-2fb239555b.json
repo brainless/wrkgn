@@ -1,0 +1,36 @@
+{
+  "id": 2662,
+  "slug": "harness-training-2fb239555b",
+  "name": "Harness Training",
+  "mentions": [
+    {
+      "name": "Harness Training",
+      "description": "A PyTorch-like training framework for agent harnesses. The harness is trained once with a frozen task LLM against a given task environment; the frozen trained harness can then be evaluated with any swapped-in task LLM on any new task environment. It interfaces with any OpenAI-compatible API for the task LLM and can train against Terminal-Bench or SWE-Bench tasks, and is extensible to other task environments. Results show improved general capabilities across many task LLMs and transfer of learnings to unseen task environments.",
+      "problem": "A general problem of making trained agent harnesses generalize: the harness is trained once with a frozen task LLM against a given task environment, then reused and evaluated with any task LLM on any new task environment.",
+      "audience": null,
+      "builder_usernames": [
+        "megadragon9"
+      ],
+      "source_excerpt": "I worked on this project (https://github.com/workofart/harness-training) for the past few months to reframe \"Agent-driven Self-improving Harness\" to \"Harness Training\".\n\nThe idea is simple, the harness is trained once with a frozen task LLM against a given task environment. Then you can then swap out the task LLM to any model and evaluate the \"frozen trained harness\" with any task LLM on any new task environment.",
+      "evidence": [
+        {
+          "source_item_id": 48987085,
+          "source_field": "body",
+          "value": "I worked on this project (https://github.com/workofart/harness-training) for the past few months to reframe \"Agent-driven Self-improving Harness\" to \"Harness Training\".\n\nThe idea is simple, the harness is trained once with a frozen task LLM against a given task environment. Then you can then swap out the task LLM to any model and evaluate the \"frozen trained harness\" with any task LLM on any new task environment.",
+          "supports": [],
+          "author": "megadragon9",
+          "shared_at": 1784597819,
+          "source_url": "https://news.ycombinator.com/item?id=48987085"
+        }
+      ],
+      "source_item_id": 48987085,
+      "source_url": "https://news.ycombinator.com/item?id=48987085",
+      "author": "megadragon9",
+      "shared_at": 1784597819,
+      "links": [
+        "https://github.com/workofart/harness-training",
+        "https://www.henrypan.com/blog/2026-07-18-harness-training"
+      ]
+    }
+  ]
+}

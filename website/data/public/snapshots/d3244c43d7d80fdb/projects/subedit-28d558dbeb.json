@@ -1,0 +1,35 @@
+{
+  "id": 414,
+  "slug": "subedit-28d558dbeb",
+  "name": "subedit",
+  "mentions": [
+    {
+      "name": "subedit",
+      "description": "An AI-native linter and formatter that automatically fixes the style of AI-generated code comments and Markdown, and falls back to asking AI via a hook to regenerate content when misalignment cannot be corrected deterministically.",
+      "problem": "AI-generated code comments or Markdown usually doesn't match the author's preferred style.",
+      "audience": null,
+      "builder_usernames": [
+        "mroops0111"
+      ],
+      "source_excerpt": "AI-generated code comments or Markdown usually isn't my style, so I built an AI-native linter and formatter, which automatically fixes the style or asks AI via a hook to regenerate if something is misaligned but cannot be reformatted deterministically.",
+      "evidence": [
+        {
+          "source_item_id": 50427411,
+          "source_field": "body",
+          "value": "AI-generated code comments or Markdown usually isn't my style, so I built an AI-native linter and formatter, which automatically fixes the style or asks AI via a hook to regenerate if something is misaligned but cannot be reformatted deterministically.",
+          "supports": [],
+          "author": "mroops0111",
+          "shared_at": 1794240253,
+          "source_url": "https://news.ycombinator.com/item?id=50427411"
+        }
+      ],
+      "source_item_id": 50427411,
+      "source_url": "https://news.ycombinator.com/item?id=50427411",
+      "author": "mroops0111",
+      "shared_at": 1794240253,
+      "links": [
+        "https://github.com/mroops0111/subedit"
+      ]
+    }
+  ]
+}

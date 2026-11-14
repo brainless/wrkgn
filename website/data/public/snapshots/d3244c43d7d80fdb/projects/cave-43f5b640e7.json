@@ -1,0 +1,35 @@
+{
+  "id": 890,
+  "slug": "cave-43f5b640e7",
+  "name": "Cave",
+  "mentions": [
+    {
+      "name": "Cave",
+      "description": "A Palantir-like system that packages data, ontology, logic, actions, security, and operational workflows into a single CLI. It is local-first, using git-friendly text .cave files and sqlite3 instead of k8s-style complexity. The next planned step is extending the language with AST-style traversal, modification, and generation for arbitrary ASTs and better integration with external file types and the filesystem.",
+      "problem": "Comparable systems bring k8s-style complexity blowup; Cave keeps the whole stack as simple local-first text files and sqlite3.",
+      "audience": null,
+      "builder_usernames": [
+        "mirekrusin"
+      ],
+      "source_excerpt": "Palantir like system – data, ontology, logic, actions, security, operational workflows – packaged as single cli, local first, git friendly text .cave files and sqlite3 instead of k8s-style complexity blowup.",
+      "evidence": [
+        {
+          "source_item_id": 49693228,
+          "source_field": "body",
+          "value": "Palantir like system – data, ontology, logic, actions, security, operational workflows – packaged as single cli, local first, git friendly text .cave files and sqlite3 instead of k8s-style complexity blowup.",
+          "supports": [],
+          "author": "mirekrusin",
+          "shared_at": 1789371304,
+          "source_url": "https://news.ycombinator.com/item?id=49693228"
+        }
+      ],
+      "source_item_id": 49693228,
+      "source_url": "https://news.ycombinator.com/item?id=49693228",
+      "author": "mirekrusin",
+      "shared_at": 1789371304,
+      "links": [
+        "https://mirekrusin.com/cave"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 973,
+  "slug": "monohunter-0aef9ad1ef",
+  "name": "monohunter",
+  "mentions": [
+    {
+      "name": "monohunter",
+      "description": "This tool finds single long-period mono-transits in public TESS light curves — single-transit events that periodic pipelines like SPOC/QLP, which fold on a period, structurally under-find. It is designed so many people can each search under-covered targets and combine their machine-readable finds, with runs covering thousands of stars at a time.",
+      "problem": "Single long-period mono-transits are structurally under-found by periodic transit pipelines (SPOC/QLP) that fold light curves on a period.",
+      "audience": "Many people who can each search under-covered targets and combine machine-readable finds.",
+      "builder_usernames": [
+        "Rinkia"
+      ],
+      "source_excerpt": "Find single long-period mono-transits in public TESS light curves — the single-transit events that periodic pipelines (SPOC/QLP, which fold on a period) structurally under-find. Built so many people can each search under-covered targets and combine machine-readable finds.",
+      "evidence": [
+        {
+          "source_item_id": 49693187,
+          "source_field": "body",
+          "value": "Find single long-period mono-transits in public TESS light curves — the single-transit events that periodic pipelines (SPOC/QLP, which fold on a period) structurally under-find. Built so many people can each search under-covered targets and combine machine-readable finds.",
+          "supports": [],
+          "author": "Rinkia",
+          "shared_at": 1789371064,
+          "source_url": "https://news.ycombinator.com/item?id=49693187"
+        }
+      ],
+      "source_item_id": 49693187,
+      "source_url": "https://news.ycombinator.com/item?id=49693187",
+      "author": "Rinkia",
+      "shared_at": 1789371064,
+      "links": [
+        "https://github.com/Rinkia/monohunter"
+      ]
+    }
+  ]
+}

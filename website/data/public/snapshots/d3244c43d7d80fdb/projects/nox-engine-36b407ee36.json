@@ -1,0 +1,35 @@
+{
+  "id": 323,
+  "slug": "nox-engine-36b407ee36",
+  "name": "NoxEngine",
+  "mentions": [
+    {
+      "name": "NoxEngine",
+      "description": "A diffusion inference engine for image and video generation that offers a Python API as an alternative to node editors like ComfyUI. After an initial Python/PyTorch version proved too slow, the inference was rewritten in C++/CUDA to reach near-hardware performance, with planned high-resolution benchmarks (1536² for images, 1344x768 for video) to show how it scales.",
+      "problem": "The author disliked node editors like ComfyUI and wanted a decent Python API to control diffusion inference; the first Python/PyTorch implementation was too slow.",
+      "audience": null,
+      "builder_usernames": [
+        "Spectrallic"
+      ],
+      "source_excerpt": "I'm working on a diffusion inference engine. I dislike node editors like ComfyUI and wanted a decent python API to control it.",
+      "evidence": [
+        {
+          "source_item_id": 50423319,
+          "source_field": "body",
+          "value": "I'm working on a diffusion inference engine. I dislike node editors like ComfyUI and wanted a decent python API to control it.",
+          "supports": [],
+          "author": "Spectrallic",
+          "shared_at": 1794217410,
+          "source_url": "https://news.ycombinator.com/item?id=50423319"
+        }
+      ],
+      "source_item_id": 50423319,
+      "source_url": "https://news.ycombinator.com/item?id=50423319",
+      "author": "Spectrallic",
+      "shared_at": 1794217410,
+      "links": [
+        "https://noxengine.dev/"
+      ]
+    }
+  ]
+}

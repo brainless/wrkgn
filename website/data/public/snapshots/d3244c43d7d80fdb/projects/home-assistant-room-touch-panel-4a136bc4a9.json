@@ -1,0 +1,33 @@
+{
+  "id": 311,
+  "slug": "home-assistant-room-touch-panel-4a136bc4a9",
+  "name": "Home Assistant Room Touch Panels",
+  "mentions": [
+    {
+      "name": "Home Assistant Room Touch Panels",
+      "description": "A touch panel for every room that integrates with Home Assistant and lets users trigger predefined smart home actions, built in Rust with Slint. An alpha version already works and the panel is being redesigned, with plans to eventually produce the author's own devices to keep the solution affordable, as part of an effort to turn it into a business.",
+      "problem": "Controlling smart homes through mobile apps or web apps does not fit well, and existing solutions are not widely available or affordable for everyone.",
+      "audience": "Everyone looking for an affordable, widely available way to control their smart home",
+      "builder_usernames": [
+        "mateioprea"
+      ],
+      "source_excerpt": "I'm working on an integrated system with Home Assistant for making it widely available and more affordable for everyone. The solution consists in doing a touch panel for every room that can run predefined actions.",
+      "evidence": [
+        {
+          "source_item_id": 50424847,
+          "source_field": "body",
+          "value": "I'm working on an integrated system with Home Assistant for making it widely available and more affordable for everyone. The solution consists in doing a touch panel for every room that can run predefined actions.",
+          "supports": [],
+          "author": "mateioprea",
+          "shared_at": 1794228377,
+          "source_url": "https://news.ycombinator.com/item?id=50424847"
+        }
+      ],
+      "source_item_id": 50424847,
+      "source_url": "https://news.ycombinator.com/item?id=50424847",
+      "author": "mateioprea",
+      "shared_at": 1794228377,
+      "links": []
+    }
+  ]
+}

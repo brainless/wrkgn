@@ -1,0 +1,35 @@
+{
+  "id": 1806,
+  "slug": "spacecap-82185b69c4",
+  "name": "Spacecap",
+  "mentions": [
+    {
+      "name": "Spacecap",
+      "description": "A fast, efficient, and simple screen recording tool for Linux that features recording, a replay buffer, and screenshots. It is written in Zig, uses Vulkan Video for encoding, and has a UI built with SDL3 and imgui.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mgerb"
+      ],
+      "source_excerpt": "I'm working on Spacecap: https://github.com/mgerb/spacecap\n\nIt's a screen recording tool for Linux. The goal is to make it as fast and efficient as possible, while also being simple to use and install.",
+      "evidence": [
+        {
+          "source_item_id": 49233545,
+          "source_field": "body",
+          "value": "I'm working on Spacecap: https://github.com/mgerb/spacecap\n\nIt's a screen recording tool for Linux. The goal is to make it as fast and efficient as possible, while also being simple to use and install.",
+          "supports": [],
+          "author": "mgerb",
+          "shared_at": 1786297067,
+          "source_url": "https://news.ycombinator.com/item?id=49233545"
+        }
+      ],
+      "source_item_id": 49233545,
+      "source_url": "https://news.ycombinator.com/item?id=49233545",
+      "author": "mgerb",
+      "shared_at": 1786297067,
+      "links": [
+        "https://github.com/mgerb/spacecap"
+      ]
+    }
+  ]
+}

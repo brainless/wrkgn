@@ -1,0 +1,35 @@
+{
+  "id": 502,
+  "slug": "native-postman-alternative-for-ios-and-mac-b90f039f0d",
+  "name": "Native Postman-style API tester for iOS and Mac",
+  "mentions": [
+    {
+      "name": "Native Postman-style API tester for iOS and Mac",
+      "description": "This native iOS and Mac app provides Postman-style API testing in a lightweight package that reaches feature parity at around 4 MB. It adds iCloud sync and MCP support so test suites can be controlled from Claude on a Mac, and is being released publicly this week.",
+      "problem": "Postman is a resource hog, frustrating its users.",
+      "audience": "Others who are feeling done with Postman and want an alternative.",
+      "builder_usernames": [
+        "anurodhp"
+      ],
+      "source_excerpt": "Got tired of postman being such a resource hog, so I made a native app that does much same thing for iOS and Mac.\n\nEventually reached parity at around 4mb and added iCloud synch and mcp so I can control my test suites from Claude on my Mac.\n\nMaking  it available for others to use this week after seeing a lot of people are also feeling done with postman",
+      "evidence": [
+        {
+          "source_item_id": 50420034,
+          "source_field": "body",
+          "value": "Got tired of postman being such a resource hog, so I made a native app that does much same thing for iOS and Mac.\n\nEventually reached parity at around 4mb and added iCloud synch and mcp so I can control my test suites from Claude on my Mac.\n\nMaking  it available for others to use this week after seeing a lot of people are also feeling done with postman",
+          "supports": [],
+          "author": "anurodhp",
+          "shared_at": 1794189493,
+          "source_url": "https://news.ycombinator.com/item?id=50420034"
+        }
+      ],
+      "source_item_id": 50420034,
+      "source_url": "https://news.ycombinator.com/item?id=50420034",
+      "author": "anurodhp",
+      "shared_at": 1794189493,
+      "links": [
+        "https://testflight.apple.com/join/Xp5qjGsg"
+      ]
+    }
+  ]
+}

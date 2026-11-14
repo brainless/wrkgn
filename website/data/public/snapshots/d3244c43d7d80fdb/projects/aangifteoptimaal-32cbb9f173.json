@@ -1,0 +1,35 @@
+{
+  "id": 90,
+  "slug": "aangifteoptimaal-32cbb9f173",
+  "name": "AangifteOptimaal",
+  "mentions": [
+    {
+      "name": "AangifteOptimaal",
+      "description": "An advanced calculator for Dutch income taxes that shows all intermediate calculation steps, dependencies, references to laws and yearly parameters. It supports comparing scenarios and optimizing how deductions are divided between partners using mixed integer linear programming (MILP). Tax rules are written as regular code converted into a calculation graph via Lisp macros; the graph drives the tax computation, visual dependency rendering, batch/reactive functions, and the MILP optimization form. Scenarios can be loaded from PDFs of tax returns to avoid manual data entry, and the app runs entirely locally in the browser with no backend.",
+      "problem": "Doing Dutch income taxes by hand (e.g. while freelancing) and finding the optimal division of deductions between partners is complex; manual data entry from tax returns adds friction.",
+      "audience": null,
+      "builder_usernames": [
+        "synthc"
+      ],
+      "source_excerpt": "I'm working on an advanced calculator for Dutch income taxes: https://aangifteoptimaal.nl",
+      "evidence": [
+        {
+          "source_item_id": 50438492,
+          "source_field": "body",
+          "value": "I'm working on an advanced calculator for Dutch income taxes: https://aangifteoptimaal.nl",
+          "supports": [],
+          "author": "synthc",
+          "shared_at": 1794307729,
+          "source_url": "https://news.ycombinator.com/item?id=50438492"
+        }
+      ],
+      "source_item_id": 50438492,
+      "source_url": "https://news.ycombinator.com/item?id=50438492",
+      "author": "synthc",
+      "shared_at": 1794307729,
+      "links": [
+        "https://aangifteoptimaal.nl"
+      ]
+    }
+  ]
+}

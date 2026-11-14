@@ -1,0 +1,33 @@
+{
+  "id": 109,
+  "slug": "archme-20ce154fdd",
+  "name": "Archme",
+  "mentions": [
+    {
+      "name": "Archme",
+      "description": "Archme is a CLI tool that scans a codebase and generates permanent C4 and sequence diagrams, keeping them up to date on each commit. Code review then happens as small changes to diagrams instead of 10k-line pull requests. It runs on the user's own computer so code never leaves the machine.",
+      "problem": "Code is no longer the right medium for understanding and collaboration in the era of AI and 10k-LOC pull requests.",
+      "audience": null,
+      "builder_usernames": [
+        "bengold14"
+      ],
+      "source_excerpt": "I built a new abstraction layer for code (https:// www.archme.io), as I believe it's no longer the right medium for understanding and collaboration in the era of AI and 10k LOC PRs.\n\nIt scans your codebase, turns it into permanent c4 & sequence diagrams and keeps them up to date on each commit. Then, instead of reviewing a 10k line coding PR, you review a 30 line change to sequence and C4 diagrams.\n\nnpm i -g @archme/cli && archme init to run it on your own computer, code never leaves your machine.",
+      "evidence": [
+        {
+          "source_item_id": 50417905,
+          "source_field": "body",
+          "value": "I built a new abstraction layer for code (https:// www.archme.io), as I believe it's no longer the right medium for understanding and collaboration in the era of AI and 10k LOC PRs.\n\nIt scans your codebase, turns it into permanent c4 & sequence diagrams and keeps them up to date on each commit. Then, instead of reviewing a 10k line coding PR, you review a 30 line change to sequence and C4 diagrams.\n\nnpm i -g @archme/cli && archme init to run it on your own computer, code never leaves your machine.",
+          "supports": [],
+          "author": "bengold14",
+          "shared_at": 1794175740,
+          "source_url": "https://news.ycombinator.com/item?id=50417905"
+        }
+      ],
+      "source_item_id": 50417905,
+      "source_url": "https://news.ycombinator.com/item?id=50417905",
+      "author": "bengold14",
+      "shared_at": 1794175740,
+      "links": []
+    }
+  ]
+}

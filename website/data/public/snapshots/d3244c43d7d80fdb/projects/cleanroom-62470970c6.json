@@ -1,0 +1,35 @@
+{
+  "id": 1602,
+  "slug": "cleanroom-62470970c6",
+  "name": "Cleanroom",
+  "mentions": [
+    {
+      "name": "Cleanroom",
+      "description": "A specification-first development system that uses Bazel macros to produce tested code by developing separate implementations and tests, then comparing them until both are correct. Specs are declarative and modular, primarily written by an LLM, with the goal of translating them into a formal reasoning framework so ungroundedness feedback helps the LLM write better specs; changes and refactors are made via specs first and aligned down to tests and code. Upcoming plans include supporting build systems other than Bazel, figuring out packaging, and adding more demos.",
+      "problem": "As components are divided into smaller parts, specifications become badly ungrounded (code depending on knowledge it cannot access, so something is hallucinated).",
+      "audience": "Developers working with AI-assisted code generation, particularly those using build systems like Bazel and monorepos.",
+      "builder_usernames": [
+        "seanmcdirmid"
+      ],
+      "source_excerpt": "I'm further along in my funemployment project:\n\nhttps://github.com/mcdirmid/cleanroom\n\nSo far I have bazel macros up that can produce tested code with a ~30GB MoE model (Jundot/Qwen3.6-35B-A3B-oQ6-mtp, I can get ~90 toks/sec on a M3 Max!) using cleanroom separate implementation and test development (and then comparing them until both are correct).",
+      "evidence": [
+        {
+          "source_item_id": 49690588,
+          "source_field": "body",
+          "value": "I'm further along in my funemployment project:\n\nhttps://github.com/mcdirmid/cleanroom\n\nSo far I have bazel macros up that can produce tested code with a ~30GB MoE model (Jundot/Qwen3.6-35B-A3B-oQ6-mtp, I can get ~90 toks/sec on a M3 Max!) using cleanroom separate implementation and test development (and then comparing them until both are correct).",
+          "supports": [],
+          "author": "seanmcdirmid",
+          "shared_at": 1789348094,
+          "source_url": "https://news.ycombinator.com/item?id=49690588"
+        }
+      ],
+      "source_item_id": 49690588,
+      "source_url": "https://news.ycombinator.com/item?id=49690588",
+      "author": "seanmcdirmid",
+      "shared_at": 1789348094,
+      "links": [
+        "https://github.com/mcdirmid/cleanroom"
+      ]
+    }
+  ]
+}

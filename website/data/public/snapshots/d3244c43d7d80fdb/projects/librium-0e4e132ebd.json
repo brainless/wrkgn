@@ -1,0 +1,35 @@
+{
+  "id": 436,
+  "slug": "librium-0e4e132ebd",
+  "name": "Librium",
+  "mentions": [
+    {
+      "name": "Librium",
+      "description": "A macOS document library app with tagging, collections and user attributes. Unlike other document apps that pull files into their own databases or reorganize folders, it indexes files in place so existing folder structures stay intact. It works with folders on local, external, network drives and the cloud, and search uses on-device text extraction and OCR. Currently in TestFlight beta with App Review submission planned.",
+      "problem": "Other document library apps pull files into their own databases or reorganize files into their own folder structures; Librium instead indexes files in place to preserve the user's existing folder organization.",
+      "audience": null,
+      "builder_usernames": [
+        "jdechko"
+      ],
+      "source_excerpt": "I’m working on a document library app for macOS with tagging, collections and user attributes.",
+      "evidence": [
+        {
+          "source_item_id": 50418763,
+          "source_field": "body",
+          "value": "I’m working on a document library app for macOS with tagging, collections and user attributes.",
+          "supports": [],
+          "author": "jdechko",
+          "shared_at": 1794180245,
+          "source_url": "https://news.ycombinator.com/item?id=50418763"
+        }
+      ],
+      "source_item_id": 50418763,
+      "source_url": "https://news.ycombinator.com/item?id=50418763",
+      "author": "jdechko",
+      "shared_at": 1794180245,
+      "links": [
+        "https://getlibrium.app/"
+      ]
+    }
+  ]
+}

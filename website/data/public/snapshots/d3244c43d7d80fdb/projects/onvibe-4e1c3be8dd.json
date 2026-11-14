@@ -1,0 +1,35 @@
+{
+  "id": 3503,
+  "slug": "onvibe-4e1c3be8dd",
+  "name": "Onvibe",
+  "mentions": [
+    {
+      "name": "Onvibe",
+      "description": "This platform creates websites through the chat interface of an LLM, working like a PaaS oriented to LLMs. Any UI that supports MCP should work. It includes Postgres, file uploads, and email, and its MCP server provides tools to run migrations, snapshots, and drafts.",
+      "problem": null,
+      "audience": "Anyone using an LLM chat interface to build their own custom tools; started so the author's wife and daughter could create their own tools.",
+      "builder_usernames": [
+        "ceritium"
+      ],
+      "source_excerpt": "A project where you create websites by just using the chat interface of your llm. It's like a paas but oriented to llms. If your ui support mcp It should work.",
+      "evidence": [
+        {
+          "source_item_id": 48785498,
+          "source_field": "body",
+          "value": "A project where you create websites by just using the chat interface of your llm. It's like a paas but oriented to llms. If your ui support mcp It should work.",
+          "supports": [],
+          "author": "ceritium",
+          "shared_at": 1783173915,
+          "source_url": "https://news.ycombinator.com/item?id=48785498"
+        }
+      ],
+      "source_item_id": 48785498,
+      "source_url": "https://news.ycombinator.com/item?id=48785498",
+      "author": "ceritium",
+      "shared_at": 1783173915,
+      "links": [
+        "https://onvibe.run/forkable"
+      ]
+    }
+  ]
+}

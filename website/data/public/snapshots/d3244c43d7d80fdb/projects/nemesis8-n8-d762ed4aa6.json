@@ -1,0 +1,35 @@
+{
+  "id": 3509,
+  "slug": "nemesis8-n8-d762ed4aa6",
+  "name": "Nemesis8 (n8)",
+  "mentions": [
+    {
+      "name": "Nemesis8 (n8)",
+      "description": "Agentic orchestration tool with CLI, TUI, ACP and MCP interfaces that launches and manages AI agents in Docker/Podman containers. Supports a TUI menu listing all sessions, listing/searching sessions, attach/detach/suspend/resume, scheduling, log/load/active file examination, MCP tool configuration, and service deployment, with a single --danger flag for unsupervised runs. Works with Antigravity, Claude Code, Codex, Grok Build, Hermes, Opencode and Pi, with server mode for dynamic port exposure when agents build and expose services to the local machine, and a web GUI for logs in progress.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "kordlessagain"
+      ],
+      "source_excerpt": "Nemesis8(n8) -> agentic orchestration. CLI/TUI/ACP/MCP interface. Uses Docker/Podman to launch and manage agents in containers.",
+      "evidence": [
+        {
+          "source_item_id": 48763504,
+          "source_field": "body",
+          "value": "Nemesis8(n8) -> agentic orchestration. CLI/TUI/ACP/MCP interface. Uses Docker/Podman to launch and manage agents in containers.",
+          "supports": [],
+          "author": "kordlessagain",
+          "shared_at": 1783008082,
+          "source_url": "https://news.ycombinator.com/item?id=48763504"
+        }
+      ],
+      "source_item_id": 48763504,
+      "source_url": "https://news.ycombinator.com/item?id=48763504",
+      "author": "kordlessagain",
+      "shared_at": 1783008082,
+      "links": [
+        "https://github.com/deepbluedynamics"
+      ]
+    }
+  ]
+}

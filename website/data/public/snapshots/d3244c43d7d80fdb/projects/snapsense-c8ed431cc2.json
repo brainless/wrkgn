@@ -1,0 +1,35 @@
+{
+  "id": 2908,
+  "slug": "snapsense-c8ed431cc2",
+  "name": "SnapSense",
+  "mentions": [
+    {
+      "name": "SnapSense",
+      "description": "A macOS app that OCRs screenshots and uses a local LLM to auto-rename them into readable filenames.",
+      "problem": "Opening the wrong screenshot with a default timestamped filename like 'Screenshot 2026-06-03 at 6.09.28 PM.png' repeatedly, since the files are not identifiable by name.",
+      "audience": null,
+      "builder_usernames": [
+        "enigma52"
+      ],
+      "source_excerpt": "I recently started working on SnapSense, a macOS app that OCRs your screenshots and uses a local LLM to auto-rename them into something readable.",
+      "evidence": [
+        {
+          "source_item_id": 48896343,
+          "source_field": "body",
+          "value": "I recently started working on SnapSense, a macOS app that OCRs your screenshots and uses a local LLM to auto-rename them into something readable.",
+          "supports": [],
+          "author": "enigma52",
+          "shared_at": 1783965522,
+          "source_url": "https://news.ycombinator.com/item?id=48896343"
+        }
+      ],
+      "source_item_id": 48896343,
+      "source_url": "https://news.ycombinator.com/item?id=48896343",
+      "author": "enigma52",
+      "shared_at": 1783965522,
+      "links": [
+        "https://github.com/Enigma-52/SnapSense"
+      ]
+    }
+  ]
+}

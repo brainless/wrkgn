@@ -1,0 +1,35 @@
+{
+  "id": 737,
+  "slug": "fxdax-9d703cd1ba",
+  "name": "fxdax",
+  "mentions": [
+    {
+      "name": "fxdax",
+      "description": "A port of Fuchsia's fxfs file system to Linux, built on top of a novel virtio device that stores file data in object storage. It is intended as a file system for VMs that supports DAX to avoid page cache duplication while maintaining high performance.",
+      "problem": "VM file systems duplicate page cache; fxdax supports DAX to avoid this duplication while maintaining high performance.",
+      "audience": null,
+      "builder_usernames": [
+        "rvcdbn"
+      ],
+      "source_excerpt": "fxdax - https://github.com/semistrict/fxdax a port of fuschia fxfs to linux on top of a novel virtio device that stores file\ndata in object storage. Intended use is file system for VMs that supports dax to avoid page cache duplication while\nmaintaining high performance",
+      "evidence": [
+        {
+          "source_item_id": 50420634,
+          "source_field": "body",
+          "value": "fxdax - https://github.com/semistrict/fxdax a port of fuschia fxfs to linux on top of a novel virtio device that stores file\ndata in object storage. Intended use is file system for VMs that supports dax to avoid page cache duplication while\nmaintaining high performance",
+          "supports": [],
+          "author": "rvcdbn",
+          "shared_at": 1794194436,
+          "source_url": "https://news.ycombinator.com/item?id=50420634"
+        }
+      ],
+      "source_item_id": 50420634,
+      "source_url": "https://news.ycombinator.com/item?id=50420634",
+      "author": "rvcdbn",
+      "shared_at": 1794194436,
+      "links": [
+        "https://github.com/semistrict/fxdax"
+      ]
+    }
+  ]
+}

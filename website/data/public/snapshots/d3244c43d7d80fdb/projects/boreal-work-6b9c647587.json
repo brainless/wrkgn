@@ -1,0 +1,35 @@
+{
+  "id": 1909,
+  "slug": "boreal-work-6b9c647587",
+  "name": "boreal-work",
+  "mentions": [
+    {
+      "name": "boreal-work",
+      "description": "A CLI-based project management tracker designed to be harness agnostic. It structures work into a cascading pool of milestones, then sprints, then tasks, each with gates and context requirements, into a pool for agents to claim, so multiple agents from different harnesses can work on the same project at once without losing drift of the project's intended focus. CLI commands are made for agents while TUI commands are for humans.",
+      "problem": "Keeping multiple agents from different harnesses working on the same project aligned with the project's intended focus without drifting.",
+      "audience": null,
+      "builder_usernames": [
+        "mattrichmo"
+      ],
+      "source_excerpt": "I built this cli-based project management tracker that is designed to be harness agnostic. Essentially creating a cascading pool of milestones, then sprints, then tasks, each with gates, and context requirements, into a pool for agents to claim. So multiple agents from different harnesses could all work on the same project at once without losing drift of the project's intended focus.",
+      "evidence": [
+        {
+          "source_item_id": 49249775,
+          "source_field": "body",
+          "value": "I built this cli-based project management tracker that is designed to be harness agnostic. Essentially creating a cascading pool of milestones, then sprints, then tasks, each with gates, and context requirements, into a pool for agents to claim. So multiple agents from different harnesses could all work on the same project at once without losing drift of the project's intended focus.",
+          "supports": [],
+          "author": "mattrichmo",
+          "shared_at": 1786396188,
+          "source_url": "https://news.ycombinator.com/item?id=49249775"
+        }
+      ],
+      "source_item_id": 49249775,
+      "source_url": "https://news.ycombinator.com/item?id=49249775",
+      "author": "mattrichmo",
+      "shared_at": 1786396188,
+      "links": [
+        "https://github.com/mattrichmo/boreal-work/"
+      ]
+    }
+  ]
+}

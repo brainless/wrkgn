@@ -1,0 +1,35 @@
+{
+  "id": 1898,
+  "slug": "darkaifactory-88bbcf55be",
+  "name": "darkaifactory",
+  "mentions": [
+    {
+      "name": "darkaifactory",
+      "description": "A microvm sandbox for running AI agents. It boots an upstream Linux kernel with a user-defined config, runs workloads in containers compatible with devcontainers, and provides observability via eBPF gadgets with all network and storage activity monitored, blockable, or recordable. Includes an HTTPS proxy with network traffic recording and playback from a content addressable store, the ability to send local directories to a remote sandbox and inspect an agent's filesystem changes before accepting them, and a multi-node cluster mode with a central orchestrator featuring a web UI and terminal viewer. Distributed as two self-contained executables.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "richiejp"
+      ],
+      "source_excerpt": "A microvm sandbox for AI agents because absolutely nobody else is working on that, but I am more insane than other people so that is my edge :-)",
+      "evidence": [
+        {
+          "source_item_id": 49296604,
+          "source_field": "body",
+          "value": "A microvm sandbox for AI agents because absolutely nobody else is working on that, but I am more insane than other people so that is my edge :-)",
+          "supports": [],
+          "author": "richiejp",
+          "shared_at": 1786701132,
+          "source_url": "https://news.ycombinator.com/item?id=49296604"
+        }
+      ],
+      "source_item_id": 49296604,
+      "source_url": "https://news.ycombinator.com/item?id=49296604",
+      "author": "richiejp",
+      "shared_at": 1786701132,
+      "links": [
+        "https://github.com/richiejp/darkaifactory"
+      ]
+    }
+  ]
+}

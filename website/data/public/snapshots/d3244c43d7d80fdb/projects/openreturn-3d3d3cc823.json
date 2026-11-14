@@ -1,0 +1,35 @@
+{
+  "id": 530,
+  "slug": "openreturn-3d3d3cc823",
+  "name": "OpenReturn",
+  "mentions": [
+    {
+      "name": "OpenReturn",
+      "description": "Open source agent and engine that calculates US Federal and California taxes, with the goal of building an AI system that acts as a CPA to enable super cheap tax estimates and planning.",
+      "problem": "Tax estimates and planning through a CPA are expensive; the project aims to make them super cheap.",
+      "audience": "Individuals who need to file US Federal and California taxes, wanting cheap estimates and planning",
+      "builder_usernames": [
+        "atcole"
+      ],
+      "source_excerpt": "I'm working on an open source agent and engine that can calculate your Federal and California taxes. My goal is to build an AI system that can act as your CPA, and hopefully allow you to do super cheap tax estimates and planning.",
+      "evidence": [
+        {
+          "source_item_id": 50421554,
+          "source_field": "body",
+          "value": "I'm working on an open source agent and engine that can calculate your Federal and California taxes. My goal is to build an AI system that can act as your CPA, and hopefully allow you to do super cheap tax estimates and planning.",
+          "supports": [],
+          "author": "atcole",
+          "shared_at": 1794203557,
+          "source_url": "https://news.ycombinator.com/item?id=50421554"
+        }
+      ],
+      "source_item_id": 50421554,
+      "source_url": "https://news.ycombinator.com/item?id=50421554",
+      "author": "atcole",
+      "shared_at": 1794203557,
+      "links": [
+        "https://github.com/captaincole/OpenReturn"
+      ]
+    }
+  ]
+}

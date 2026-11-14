@@ -1,0 +1,35 @@
+{
+  "id": 2228,
+  "slug": "gaussian-splatting-support-for-three-js-webgpu-4dad786338",
+  "name": "Gaussian Splatting support for Three.js (WebGPU)",
+  "mentions": [
+    {
+      "name": "Gaussian Splatting support for Three.js (WebGPU)",
+      "description": "Adds native Gaussian Splatting support to Three.js's WebGPU renderer, allowing Gaussian splat scenes to be rendered directly in the engine. The merged PR ships in the August Three.js release.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "bhouston"
+      ],
+      "source_excerpt": "Been working on adding support for Gaussian Splats directly in ThreeJS specifically for WebGPU:\n\nhttps://ben3d.ca/blog/gaussian-splatting-for-threejs\n\nThis PR was merged yesterday morning so the August ThreeJS release will have this new feature.",
+      "evidence": [
+        {
+          "source_item_id": 49233701,
+          "source_field": "body",
+          "value": "Been working on adding support for Gaussian Splats directly in ThreeJS specifically for WebGPU:\n\nhttps://ben3d.ca/blog/gaussian-splatting-for-threejs\n\nThis PR was merged yesterday morning so the August ThreeJS release will have this new feature.",
+          "supports": [],
+          "author": "bhouston",
+          "shared_at": 1786298063,
+          "source_url": "https://news.ycombinator.com/item?id=49233701"
+        }
+      ],
+      "source_item_id": 49233701,
+      "source_url": "https://news.ycombinator.com/item?id=49233701",
+      "author": "bhouston",
+      "shared_at": 1786298063,
+      "links": [
+        "https://ben3d.ca/blog/gaussian-splatting-for-threejs"
+      ]
+    }
+  ]
+}

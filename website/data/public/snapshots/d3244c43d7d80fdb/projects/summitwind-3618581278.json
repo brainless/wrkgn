@@ -1,0 +1,35 @@
+{
+  "id": 951,
+  "slug": "summitwind-3618581278",
+  "name": "SummitWind",
+  "mentions": [
+    {
+      "name": "SummitWind",
+      "description": "A mountaineering safety tool providing summit-level wind forecasts for 16 mountaineering objectives including Rainier, Whitney, Denali, Mont Blanc, and the Matterhorn. In browsers with WebGPU, it solves the wind field live as a compute shader (about 35 ms on an Apple GPU) as the timeline is scrubbed and draws the flow over a 3D terrain view; browsers without WebGPU get a precomputed field. Forecasts show ranges and uncertainty only, with no go/no-go verdicts. A planned free-play mode will let users set wind direction and speed themselves and watch the field re-solve.",
+      "problem": null,
+      "audience": "Mountaineers; built by the author for themselves and their friends",
+      "builder_usernames": [
+        "duranduran"
+      ],
+      "source_excerpt": "I've been working on a summit-level wind forecasts for 16 mountaineering objectives (Rainier, Whitney, Denali, Mont Blanc, the Matterhorn, ...).\n\nIt's mountaineering safety tool I've been making for my friends and I.",
+      "evidence": [
+        {
+          "source_item_id": 49691969,
+          "source_field": "body",
+          "value": "I've been working on a summit-level wind forecasts for 16 mountaineering objectives (Rainier, Whitney, Denali, Mont Blanc, the Matterhorn, ...).\n\nIt's mountaineering safety tool I've been making for my friends and I.",
+          "supports": [],
+          "author": "duranduran",
+          "shared_at": 1789359827,
+          "source_url": "https://news.ycombinator.com/item?id=49691969"
+        }
+      ],
+      "source_item_id": 49691969,
+      "source_url": "https://news.ycombinator.com/item?id=49691969",
+      "author": "duranduran",
+      "shared_at": 1789359827,
+      "links": [
+        "https://mattduran.dev/summitwind/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 221,
+  "slug": "nift-9d649763ed",
+  "name": "Nift",
+  "mentions": [
+    {
+      "name": "Nift",
+      "description": "A lightweight, fully keyboard-driven note-taking app where notes are one-liners. It supports minimal Markdown, task and reminder management, inline calculations, unlimited undo/redo, and organization by project and categories, storing data as simple text files. Planned extensions include kanban, Eisenhower matrix, back-linking, bookmark manager, and time-tracking, all from a single place without mouse use. Demo versions are feature complete except they don't save to file; the code is entirely hand-written without AI assistance.",
+      "problem": "Typical note-taking UIs add friction and mouse dependence that stop writing thoughts; this app aims for frictionless, keyboard-only note taking.",
+      "audience": null,
+      "builder_usernames": [
+        "t_mahmood"
+      ],
+      "source_excerpt": "I am working on a lightweight, note taking application that focuses on quick note taking, and fully keyboard based usage.\n\nIn my app Notes are all one liner, and it supports minimum Markdown, it can manage tasks, reminders, do inline calculations, unlimited undo/redo. Notes can organize by project and categories. Data is stored as simple text file.",
+      "evidence": [
+        {
+          "source_item_id": 50422925,
+          "source_field": "body",
+          "value": "I am working on a lightweight, note taking application that focuses on quick note taking, and fully keyboard based usage.\n\nIn my app Notes are all one liner, and it supports minimum Markdown, it can manage tasks, reminders, do inline calculations, unlimited undo/redo. Notes can organize by project and categories. Data is stored as simple text file.",
+          "supports": [],
+          "author": "t_mahmood",
+          "shared_at": 1794214491,
+          "source_url": "https://news.ycombinator.com/item?id=50422925"
+        }
+      ],
+      "source_item_id": 50422925,
+      "source_url": "https://news.ycombinator.com/item?id=50422925",
+      "author": "t_mahmood",
+      "shared_at": 1794214491,
+      "links": [
+        "https://mtarin.com/projects/nift/"
+      ]
+    }
+  ]
+}

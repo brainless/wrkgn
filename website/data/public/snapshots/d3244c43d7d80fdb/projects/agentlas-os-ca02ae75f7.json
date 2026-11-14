@@ -1,0 +1,35 @@
+{
+  "id": 314,
+  "slug": "agentlas-os-ca02ae75f7",
+  "name": "Agentlas-OS",
+  "mentions": [
+    {
+      "name": "Agentlas-OS",
+      "description": "Agentlas-OS is an agent routing system that defines an agent as a package of memory, skills, and its own scripting tools, running automation inside deterministic code. Its self-developed routing flow automatically selects and uses only the agents that match the current task, addressing the waste of including dozens or hundreds of accumulated agents in the system prompt.",
+      "problem": "As agents accumulate to dozens or hundreds over time, it is wasteful to include all of them in the system prompt; routing is needed to select only the relevant ones per task.",
+      "audience": null,
+      "builder_usernames": [
+        "rator9521"
+      ],
+      "source_excerpt": "I create agent routing. The key is how you define an agent. I define it as a package of memory, skills, and its own scripting tools. Within the deterministic code, it's not the agent that operates but the automation. Assigning responsibility and receiving probabilistic responses is the same as using LLM. However, as you go through life, agents gradually accumulate, eventually reaching dozens or hundreds. It's a waste to include all of this in the system prompt. With our self-developed routing flow, you can automatically select and use only the ones that perfectly match your task.",
+      "evidence": [
+        {
+          "source_item_id": 50420841,
+          "source_field": "body",
+          "value": "I create agent routing. The key is how you define an agent. I define it as a package of memory, skills, and its own scripting tools. Within the deterministic code, it's not the agent that operates but the automation. Assigning responsibility and receiving probabilistic responses is the same as using LLM. However, as you go through life, agents gradually accumulate, eventually reaching dozens or hundreds. It's a waste to include all of this in the system prompt. With our self-developed routing flow, you can automatically select and use only the ones that perfectly match your task.",
+          "supports": [],
+          "author": "rator9521",
+          "shared_at": 1794196137,
+          "source_url": "https://news.ycombinator.com/item?id=50420841"
+        }
+      ],
+      "source_item_id": 50420841,
+      "source_url": "https://news.ycombinator.com/item?id=50420841",
+      "author": "rator9521",
+      "shared_at": 1794196137,
+      "links": [
+        "https://github.com/agentlas-ai/Agentlas-OS"
+      ]
+    }
+  ]
+}

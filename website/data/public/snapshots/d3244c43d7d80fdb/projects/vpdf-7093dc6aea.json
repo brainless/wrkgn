@@ -1,0 +1,35 @@
+{
+  "id": 547,
+  "slug": "vpdf-7093dc6aea",
+  "name": "vpdf",
+  "mentions": [
+    {
+      "name": "vpdf",
+      "description": "A vim-inspired terminal PDF reader built with MuPDF and the Kitty Graphics Protocol, letting users read PDFs in the terminal using vim keybindings.",
+      "problem": "The author wanted to use vim bindings for reading PDFs, so built the reader mostly for personal use.",
+      "audience": null,
+      "builder_usernames": [
+        "letientai299"
+      ],
+      "source_excerpt": "A vim-inspired terminal PDF reader using MuPDF and Kitty Graphics Protocol, mostly for my personal use since I want to use vim bindings for reading PDFs.",
+      "evidence": [
+        {
+          "source_item_id": 50425922,
+          "source_field": "body",
+          "value": "A vim-inspired terminal PDF reader using MuPDF and Kitty Graphics Protocol, mostly for my personal use since I want to use vim bindings for reading PDFs.",
+          "supports": [],
+          "author": "letientai299",
+          "shared_at": 1794233614,
+          "source_url": "https://news.ycombinator.com/item?id=50425922"
+        }
+      ],
+      "source_item_id": 50425922,
+      "source_url": "https://news.ycombinator.com/item?id=50425922",
+      "author": "letientai299",
+      "shared_at": 1794233614,
+      "links": [
+        "https://github.com/letientai299/vpdf"
+      ]
+    }
+  ]
+}

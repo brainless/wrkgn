@@ -1,0 +1,35 @@
+{
+  "id": 370,
+  "slug": "steno-a829bc77c3",
+  "name": "Steno",
+  "mentions": [
+    {
+      "name": "Steno",
+      "description": "This app records a small multi-person in-person meeting and transcribes the audio into meeting notes using only local LLMs, keeping the data off the cloud entirely. It ships as a single download that runs on MacOS, Windows and Linux and handles both recording and transcription.",
+      "problem": "Recording a room on Android and getting good meeting notes (in Norwegian) from the audio is tricky when using only local LLMs and avoiding the data touching the cloud at any point.",
+      "audience": "Volunteers who run small in-person meetings",
+      "builder_usernames": [
+        "e12e"
+      ],
+      "source_excerpt": "But I have a wip single download app that lets one record and transcribe - should work on MacOS (tested), Windows (not yet tested), Linux (tested on chromeOS/Terminal).\n\nThe UI is a vibecoded mess:\n\nhttps://hypertekst.net/steno/",
+      "evidence": [
+        {
+          "source_item_id": 50419617,
+          "source_field": "body",
+          "value": "But I have a wip single download app that lets one record and transcribe - should work on MacOS (tested), Windows (not yet tested), Linux (tested on chromeOS/Terminal).\n\nThe UI is a vibecoded mess:\n\nhttps://hypertekst.net/steno/",
+          "supports": [],
+          "author": "e12e",
+          "shared_at": 1794186003,
+          "source_url": "https://news.ycombinator.com/item?id=50419617"
+        }
+      ],
+      "source_item_id": 50419617,
+      "source_url": "https://news.ycombinator.com/item?id=50419617",
+      "author": "e12e",
+      "shared_at": 1794186003,
+      "links": [
+        "https://hypertekst.net/steno/"
+      ]
+    }
+  ]
+}

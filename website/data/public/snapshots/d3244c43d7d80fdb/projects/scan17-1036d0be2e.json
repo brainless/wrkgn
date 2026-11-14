@@ -1,0 +1,35 @@
+{
+  "id": 2631,
+  "slug": "scan17-1036d0be2e",
+  "name": "Scan17",
+  "mentions": [
+    {
+      "name": "Scan17",
+      "description": "Scan17 is an automated network port change detection service that works like nmap port scan diffing: when a network port goes from closed to open, it sends an email or webhook alert so teams learn about exposed ports before attackers. It offers a REST API for automated workflows, plans with privately hosted engines, and a wait-list form on the website.",
+      "problem": "Outsourced firewall management can carelessly leave network ports open, exposing production databases, and teams need a way to find out before an attacker does.",
+      "audience": "Infosec / cyber security professionals; the author is recruiting early product designers / beta testers from that field.",
+      "builder_usernames": [
+        "opsdisk"
+      ],
+      "source_excerpt": "Automated network port change detection. Scan17 provides a solution to the question:\n\nSo your CTO decides to outsource firewall management - and the vendor carelessly leaves a network port open, exposing your production database. How does your team find out before an attacker?\n\nThink of it as nmap port scan diff-ing. If a network port goes from closed to open you get an email or webhook alert.",
+      "evidence": [
+        {
+          "source_item_id": 48887342,
+          "source_field": "body",
+          "value": "Automated network port change detection. Scan17 provides a solution to the question:\n\nSo your CTO decides to outsource firewall management - and the vendor carelessly leaves a network port open, exposing your production database. How does your team find out before an attacker?\n\nThink of it as nmap port scan diff-ing. If a network port goes from closed to open you get an email or webhook alert.",
+          "supports": [],
+          "author": "opsdisk",
+          "shared_at": 1783911672,
+          "source_url": "https://news.ycombinator.com/item?id=48887342"
+        }
+      ],
+      "source_item_id": 48887342,
+      "source_url": "https://news.ycombinator.com/item?id=48887342",
+      "author": "opsdisk",
+      "shared_at": 1783911672,
+      "links": [
+        "https://scan17.com/"
+      ]
+    }
+  ]
+}

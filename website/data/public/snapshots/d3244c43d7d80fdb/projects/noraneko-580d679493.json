@@ -1,0 +1,35 @@
+{
+  "id": 909,
+  "slug": "noraneko-580d679493",
+  "name": "Noraneko",
+  "mentions": [
+    {
+      "name": "Noraneko",
+      "description": "An iOS app for photographing and identifying street cats to help get them adopted. Recognition runs entirely on device: Apple Vision detects the cat, DINOv2-Small decides whether it is already in the user's library, and SigLIP2 names the coat pattern. It has no accounts and no backend. On top of the core identification there is a gamified layer inspired by Pokémon Go and Monster Hunter Now: users earn XP for finding new cats (with distance-based scoring rewarding photos taken from afar), need five distinct photos before the app guesses a cat's age, unlock five card designs per cat across five cat levels, and trade cards with other users over Wi-Fi (Bluetooth fallback). Traded cards carry the photo fingerprint, so encountering that same cat in the wild identifies it, without a server or global registry. Cats can also be turned into shareable adoption posters. The app is written mostly with Claude and is open on TestFlight.",
+      "problem": "Lots of stray cats live in the author's area, and they wanted a way to photograph and identify them to help the cats get adopted.",
+      "audience": null,
+      "builder_usernames": [
+        "stelabouras"
+      ],
+      "source_excerpt": "Noraneko - https://noraneko.cat\n\nLots of strays where I live, so I wanted an app to photograph and identify street cats and help get them adopted.",
+      "evidence": [
+        {
+          "source_item_id": 49696157,
+          "source_field": "body",
+          "value": "Noraneko - https://noraneko.cat\n\nLots of strays where I live, so I wanted an app to photograph and identify street cats and help get them adopted.",
+          "supports": [],
+          "author": "stelabouras",
+          "shared_at": 1789391001,
+          "source_url": "https://news.ycombinator.com/item?id=49696157"
+        }
+      ],
+      "source_item_id": 49696157,
+      "source_url": "https://news.ycombinator.com/item?id=49696157",
+      "author": "stelabouras",
+      "shared_at": 1789391001,
+      "links": [
+        "https://noraneko.cat"
+      ]
+    }
+  ]
+}

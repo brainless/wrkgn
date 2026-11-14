@@ -1,0 +1,33 @@
+{
+  "id": 17,
+  "slug": "coreboot-port-for-an-alder-lake-motherboard-7f34fbb2bf",
+  "name": "Alder Lake coreboot port",
+  "mentions": [
+    {
+      "name": "Alder Lake coreboot port",
+      "description": "An effort to port coreboot to an Alder Lake motherboard, currently focused on decompiling and documenting Intel CSME 16 firmware, a slow process aided by AI models (Opus 4.8, limited by provider guard rails).",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "MertsA"
+      ],
+      "source_excerpt": "I’m working on something similar for an Alder Lake motherboard to try to get coreboot ported. Right now I’m working through decompiling and documenting CSME 16 and it’s a slog with guard rails limiting me to Opus 4.8.",
+      "evidence": [
+        {
+          "source_item_id": 50421669,
+          "source_field": "body",
+          "value": "I’m working on something similar for an Alder Lake motherboard to try to get coreboot ported. Right now I’m working through decompiling and documenting CSME 16 and it’s a slog with guard rails limiting me to Opus 4.8.",
+          "supports": [],
+          "author": "MertsA",
+          "shared_at": 1794204596,
+          "source_url": "https://news.ycombinator.com/item?id=50421669"
+        }
+      ],
+      "source_item_id": 50421669,
+      "source_url": "https://news.ycombinator.com/item?id=50421669",
+      "author": "MertsA",
+      "shared_at": 1794204596,
+      "links": []
+    }
+  ]
+}

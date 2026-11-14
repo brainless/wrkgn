@@ -1,0 +1,35 @@
+{
+  "id": 2743,
+  "slug": "garmin-watch-byok-ai-app-4486682c7d",
+  "name": "Garmin watch BYOK AI app",
+  "mentions": [
+    {
+      "name": "Garmin watch BYOK AI app",
+      "description": "A Garmin watch AI app that supports bring-your-own-key (BYOK) inference. It has been updated to run OpenRouter's OAuth 2.0 PKCE flow entirely on the watch, giving users a seamless BYOK experience instead of requiring them to copy/paste their Gemini API key into settings.",
+      "problem": "Formerly users had to copy/paste their Gemini key into settings, which was a huge barrier.",
+      "audience": null,
+      "builder_usernames": [
+        "msyea"
+      ],
+      "source_excerpt": "I just updated my Garmin watch AI app (https://untether.watch/en/apps/byok) to run the whole flow on the watch for a seamless BYOK experience - formerly you had to copy/paste your Gemini key into settings, which was a huge barrier.",
+      "evidence": [
+        {
+          "source_item_id": 48895099,
+          "source_field": "body",
+          "value": "I just updated my Garmin watch AI app (https://untether.watch/en/apps/byok) to run the whole flow on the watch for a seamless BYOK experience - formerly you had to copy/paste your Gemini key into settings, which was a huge barrier.",
+          "supports": [],
+          "author": "msyea",
+          "shared_at": 1783960297,
+          "source_url": "https://news.ycombinator.com/item?id=48895099"
+        }
+      ],
+      "source_item_id": 48895099,
+      "source_url": "https://news.ycombinator.com/item?id=48895099",
+      "author": "msyea",
+      "shared_at": 1783960297,
+      "links": [
+        "https://untether.watch/en/apps/byok"
+      ]
+    }
+  ]
+}

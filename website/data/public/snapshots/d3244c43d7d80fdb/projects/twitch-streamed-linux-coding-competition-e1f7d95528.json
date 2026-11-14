@@ -1,0 +1,35 @@
+{
+  "id": 44,
+  "slug": "twitch-streamed-linux-coding-competition-e1f7d95528",
+  "name": "Live coding races on Twitch",
+  "mentions": [
+    {
+      "name": "Live coding races on Twitch",
+      "description": "A competitive coding platform that places two contestants into a fully equipped Linux environment (checkpointed fly.io Sprites), gives them a task, and streams the race in real time on Twitch to see who finishes first. Contestants can bring their dotfiles, workflows, harnesses, and editor configs. Planned weight classes cap harness capability per tier (from no AI agents, to small or large open-weight LLMs, up to frontier models), with rankings per weight class so people can compete on delivering the most at various cost tiers.",
+      "problem": null,
+      "audience": "People competing in coding tasks and viewers watching the matches stream on Twitch.",
+      "builder_usernames": [
+        "graerg"
+      ],
+      "source_excerpt": "I'm tinkering on a project to take two contestants and dump them into a reasonably nicely equipped linux environment (checkpointed fly.io Sprites), giving them a task, and watching them compete in real time to see who gets it done first. All of it streams to twitch.",
+      "evidence": [
+        {
+          "source_item_id": 50419911,
+          "source_field": "body",
+          "value": "I'm tinkering on a project to take two contestants and dump them into a reasonably nicely equipped linux environment (checkpointed fly.io Sprites), giving them a task, and watching them compete in real time to see who gets it done first. All of it streams to twitch.",
+          "supports": [],
+          "author": "graerg",
+          "shared_at": 1794188464,
+          "source_url": "https://news.ycombinator.com/item?id=50419911"
+        }
+      ],
+      "source_item_id": 50419911,
+      "source_url": "https://news.ycombinator.com/item?id=50419911",
+      "author": "graerg",
+      "shared_at": 1794188464,
+      "links": [
+        "https://www.twitch.tv/videos/2923688013"
+      ]
+    }
+  ]
+}

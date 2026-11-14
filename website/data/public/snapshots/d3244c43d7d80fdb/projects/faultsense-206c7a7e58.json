@@ -1,0 +1,35 @@
+{
+  "id": 3492,
+  "slug": "faultsense-206c7a7e58",
+  "name": "Faultsense",
+  "mentions": [
+    {
+      "name": "Faultsense",
+      "description": "Faultsense is an open source tool that runs end-to-end tests for web apps in production through actual user sessions, showing exactly which browser session cohorts are having issues.",
+      "problem": "E2e tests don't normally run in production through real user sessions, making it hard to know what browser session cohorts are having issues.",
+      "audience": null,
+      "builder_usernames": [
+        "mitchm"
+      ],
+      "source_excerpt": "What if your web apps e2e tests ran in production through actual user sessions? Know exactly what browser session cohorts are having issues. Open source, https://github.com/Faultsense/faultsense-agent",
+      "evidence": [
+        {
+          "source_item_id": 48886201,
+          "source_field": "body",
+          "value": "What if your web apps e2e tests ran in production through actual user sessions? Know exactly what browser session cohorts are having issues. Open source, https://github.com/Faultsense/faultsense-agent",
+          "supports": [],
+          "author": "mitchm",
+          "shared_at": 1783900982,
+          "source_url": "https://news.ycombinator.com/item?id=48886201"
+        }
+      ],
+      "source_item_id": 48886201,
+      "source_url": "https://news.ycombinator.com/item?id=48886201",
+      "author": "mitchm",
+      "shared_at": 1783900982,
+      "links": [
+        "https://github.com/Faultsense/faultsense-agent"
+      ]
+    }
+  ]
+}

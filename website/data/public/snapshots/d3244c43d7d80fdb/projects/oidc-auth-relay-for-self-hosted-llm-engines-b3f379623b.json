@@ -1,0 +1,33 @@
+{
+  "id": 604,
+  "slug": "oidc-auth-relay-for-self-hosted-llm-engines-b3f379623b",
+  "name": "OIDC auth relay for self-hosted LLM engines",
+  "mentions": [
+    {
+      "name": "OIDC auth relay for self-hosted LLM engines",
+      "description": "A thin OIDC authentication layer for self-hosted LLM engines, implemented as a compact Erlang program. Users log in with their organization's identity provider, generate a personal API key, and point their tooling/harnesses at the self-hosted relay instance. It deliberately ships no web chat interface and no pricing-based feature gating.",
+      "problem": "Self-hosted LLM engines lack a simple way to add organizational OIDC authentication and per-user API key access.",
+      "audience": "Self-hosted LLM engine operators and the developers on their teams who access models through the relay.",
+      "builder_usernames": [
+        "cmdrk"
+      ],
+      "source_excerpt": "Working on a tool to provide a thin OIDC auth layer for self-hosted LLM engines. Users log in with your Org's identity provider, generate an API key for themselves, point their harnesses at your instance of the relay, and then they're off to the races.",
+      "evidence": [
+        {
+          "source_item_id": 50418389,
+          "source_field": "body",
+          "value": "Working on a tool to provide a thin OIDC auth layer for self-hosted LLM engines. Users log in with your Org's identity provider, generate an API key for themselves, point their harnesses at your instance of the relay, and then they're off to the races.",
+          "supports": [],
+          "author": "cmdrk",
+          "shared_at": 1794178411,
+          "source_url": "https://news.ycombinator.com/item?id=50418389"
+        }
+      ],
+      "source_item_id": 50418389,
+      "source_url": "https://news.ycombinator.com/item?id=50418389",
+      "author": "cmdrk",
+      "shared_at": 1794178411,
+      "links": []
+    }
+  ]
+}

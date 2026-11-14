@@ -1,0 +1,33 @@
+{
+  "id": 160,
+  "slug": "adb-based-f-droid-app-installer-19c3806e1c",
+  "name": "Lightweight ADB-based F-Droid app",
+  "mentions": [
+    {
+      "name": "Lightweight ADB-based F-Droid app",
+      "description": "A lightweight F-Droid-style Android app that uses ADB to download apps directly to the phone, sparing users the lengthy manual installation procedures that have become a pain as Android restricts third-party apps. The app is essentially complete and planned for release on GitHub, with in-app security checks for downloads still being implemented since it bypasses Android's own security mechanisms.",
+      "problem": "Android is stopping third-party apps, and the existing procedures required to download and install apps are lengthy and painful.",
+      "audience": "Android users who want to install apps without lengthy manual procedures",
+      "builder_usernames": [
+        "KinetiNode"
+      ],
+      "source_excerpt": "After seeing that Android is stopping third party apps i decided to make a lightweight F droid app that uses adb to download stuff directly to the phone so you don't need to do all those lengthy procedures and stuff that are a pain.",
+      "evidence": [
+        {
+          "source_item_id": 50438615,
+          "source_field": "body",
+          "value": "After seeing that Android is stopping third party apps i decided to make a lightweight F droid app that uses adb to download stuff directly to the phone so you don't need to do all those lengthy procedures and stuff that are a pain.",
+          "supports": [],
+          "author": "KinetiNode",
+          "shared_at": 1794308734,
+          "source_url": "https://news.ycombinator.com/item?id=50438615"
+        }
+      ],
+      "source_item_id": 50438615,
+      "source_url": "https://news.ycombinator.com/item?id=50438615",
+      "author": "KinetiNode",
+      "shared_at": 1794308734,
+      "links": []
+    }
+  ]
+}

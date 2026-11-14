@@ -1,0 +1,35 @@
+{
+  "id": 3510,
+  "slug": "hyperia-060ca2cbe6",
+  "name": "Hyperia",
+  "mentions": [
+    {
+      "name": "Hyperia",
+      "description": "Agentic cross-platform terminal emulator forked from Hyper with a Rust sidecar. Features minimalist multi-pane views, tabs for pane groups, built-in browser panes with markdown conversion and screenshot ability, a fully searchable sticky notes feature (Stickys) with scheduling, webpanes with JavaScript injection and inspection/log reading by agents, intra-pane/tab communication so agents can talk to or control each other, an MCP/HTTP server for full agent control, bare metal agent support, 135+ tools exposed through a tool discovery tree, and full ACLs for destructive actions. Local Ollama model support for config/style and layout control is in progress.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "kordlessagain"
+      ],
+      "source_excerpt": "Hyperia -> Fork of Hyper, with a Rust sidecar. Agentic cross-platform terminal emulator. Minimalist multi-pane views, tabs for pane groups, built in browser panes (with markdown convertor and screenshot ability), and a fully searchable sticky notes feature.",
+      "evidence": [
+        {
+          "source_item_id": 48763504,
+          "source_field": "body",
+          "value": "Hyperia -> Fork of Hyper, with a Rust sidecar. Agentic cross-platform terminal emulator. Minimalist multi-pane views, tabs for pane groups, built in browser panes (with markdown convertor and screenshot ability), and a fully searchable sticky notes feature.",
+          "supports": [],
+          "author": "kordlessagain",
+          "shared_at": 1783008082,
+          "source_url": "https://news.ycombinator.com/item?id=48763504"
+        }
+      ],
+      "source_item_id": 48763504,
+      "source_url": "https://news.ycombinator.com/item?id=48763504",
+      "author": "kordlessagain",
+      "shared_at": 1783008082,
+      "links": [
+        "https://github.com/deepbluedynamics"
+      ]
+    }
+  ]
+}

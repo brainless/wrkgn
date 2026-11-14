@@ -1,0 +1,33 @@
+{
+  "id": 2022,
+  "slug": "constraint-aware-llm-steering-and-planning-system-5ac01803aa",
+  "name": "Constraint-aware LLM steering and planning system",
+  "mentions": [
+    {
+      "name": "Constraint-aware LLM steering and planning system",
+      "description": "This project adds steering and planning to LLMs and similar models (transformers, DiT, etc.) in a way that is aware of market, physics, and other ground-truth constraints. It combines reinforcement learning with optimization (e.g., MILP) on the planning side, and a small model built with it outperforms some of the largest frontier models in adversarial games, though it is not yet realtime enough to play RTS games.",
+      "problem": "Plain LLMs are the wrong mathematical object for gameplay and adversarial settings, lacking planning grounded in real-world constraints.",
+      "audience": null,
+      "builder_usernames": [
+        "idorosen"
+      ],
+      "source_excerpt": "My side project this quarter has been building a system that adds steering / planning to LLMs/WAMs/etc. (T, DiT, etc.) in a market/physics/other-ground-truth-constraints aware way.",
+      "evidence": [
+        {
+          "source_item_id": 49235924,
+          "source_field": "body",
+          "value": "My side project this quarter has been building a system that adds steering / planning to LLMs/WAMs/etc. (T, DiT, etc.) in a market/physics/other-ground-truth-constraints aware way.",
+          "supports": [],
+          "author": "idorosen",
+          "shared_at": 1786309776,
+          "source_url": "https://news.ycombinator.com/item?id=49235924"
+        }
+      ],
+      "source_item_id": 49235924,
+      "source_url": "https://news.ycombinator.com/item?id=49235924",
+      "author": "idorosen",
+      "shared_at": 1786309776,
+      "links": []
+    }
+  ]
+}

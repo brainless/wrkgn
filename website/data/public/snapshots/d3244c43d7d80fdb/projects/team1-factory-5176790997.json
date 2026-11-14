@@ -1,0 +1,35 @@
+{
+  "id": 1334,
+  "slug": "team1-factory-5176790997",
+  "name": "Team1-Factory",
+  "mentions": [
+    {
+      "name": "Team1-Factory",
+      "description": "This open-source AI pipeline turns GitHub issues into merged pull requests by leveraging the user's Claude Code CLI subscription, acting as an automated AI software factory. It runs with full permissions, so it is intended to be run on a VPS or isolated environment rather than a personal machine.",
+      "problem": null,
+      "audience": "People who already run Claude Code and are testing out new AI software factories or tools",
+      "builder_usernames": [
+        "Team1"
+      ],
+      "source_excerpt": "I just released an open-source AI pipeline that turns GitHub issues into merged PR's.\nIt uses your Claude Code CLI subscription.",
+      "evidence": [
+        {
+          "source_item_id": 49687885,
+          "source_field": "body",
+          "value": "I just released an open-source AI pipeline that turns GitHub issues into merged PR's.\nIt uses your Claude Code CLI subscription.",
+          "supports": [],
+          "author": "Team1",
+          "shared_at": 1789328592,
+          "source_url": "https://news.ycombinator.com/item?id=49687885"
+        }
+      ],
+      "source_item_id": 49687885,
+      "source_url": "https://news.ycombinator.com/item?id=49687885",
+      "author": "Team1",
+      "shared_at": 1789328592,
+      "links": [
+        "https://github.com/Team1-dev/Team1-Factory"
+      ]
+    }
+  ]
+}

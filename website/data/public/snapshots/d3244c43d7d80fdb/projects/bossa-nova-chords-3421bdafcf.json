@@ -1,0 +1,35 @@
+{
+  "id": 402,
+  "slug": "bossa-nova-chords-3421bdafcf",
+  "name": "Bossa Nova Chords Web App",
+  "mentions": [
+    {
+      "name": "Bossa Nova Chords Web App",
+      "description": "A web app that displays bossa nova guitar chords synchronized with their corresponding YouTube videos, so players can follow along with songs learned by ear and study complex chord voicings. The chords are manually added and only the UI was built with AI assistance.",
+      "problem": "The author wanted a fun way to share the chords of bossa nova songs learned by ear but was blocked by having zero front-end skills and little time.",
+      "audience": null,
+      "builder_usernames": [
+        "diehunde"
+      ],
+      "source_excerpt": "Now with the help of a model I created a nice webapp that syncs the chords with their youtube videos (the chords were all manually added, only the UI was vibecoded). It's been fun and a great way of learning the names of more complex voicings.",
+      "evidence": [
+        {
+          "source_item_id": 50420184,
+          "source_field": "body",
+          "value": "Now with the help of a model I created a nice webapp that syncs the chords with their youtube videos (the chords were all manually added, only the UI was vibecoded). It's been fun and a great way of learning the names of more complex voicings.",
+          "supports": [],
+          "author": "diehunde",
+          "shared_at": 1794190878,
+          "source_url": "https://news.ycombinator.com/item?id=50420184"
+        }
+      ],
+      "source_item_id": 50420184,
+      "source_url": "https://news.ycombinator.com/item?id=50420184",
+      "author": "diehunde",
+      "shared_at": 1794190878,
+      "links": [
+        "https://chords.pacuna.dev/songs/desafinado"
+      ]
+    }
+  ]
+}

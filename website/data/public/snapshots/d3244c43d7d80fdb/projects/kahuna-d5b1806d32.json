@@ -1,0 +1,35 @@
+{
+  "id": 1980,
+  "slug": "kahuna-d5b1806d32",
+  "name": "Kahuna",
+  "mentions": [
+    {
+      "name": "Kahuna",
+      "description": "A browser extension for managing IndexedDB databases, with a grid view that supports direct editing of values for all 42 data types that can be stored in IndexedDB.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "thinkdecidedo"
+      ],
+      "source_excerpt": "I am still working on my IndexedDB manager browser extension, Kahuna. The recent release added direct editing of values   from the grid view for all 42 data types that can be stored in IndexedDB.",
+      "evidence": [
+        {
+          "source_item_id": 49234742,
+          "source_field": "body",
+          "value": "I am still working on my IndexedDB manager browser extension, Kahuna. The recent release added direct editing of values   from the grid view for all 42 data types that can be stored in IndexedDB.",
+          "supports": [],
+          "author": "thinkdecidedo",
+          "shared_at": 1786303361,
+          "source_url": "https://news.ycombinator.com/item?id=49234742"
+        }
+      ],
+      "source_item_id": 49234742,
+      "source_url": "https://news.ycombinator.com/item?id=49234742",
+      "author": "thinkdecidedo",
+      "shared_at": 1786303361,
+      "links": [
+        "https://github.com/hummingme/kahuna"
+      ]
+    }
+  ]
+}

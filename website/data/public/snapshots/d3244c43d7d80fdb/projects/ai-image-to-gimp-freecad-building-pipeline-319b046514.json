@@ -1,0 +1,33 @@
+{
+  "id": 2139,
+  "slug": "ai-image-to-gimp-freecad-building-pipeline-319b046514",
+  "name": "AI image-to-Gimp/FreeCAD building pipeline",
+  "mentions": [
+    {
+      "name": "AI image-to-Gimp/FreeCAD building pipeline",
+      "description": "This AI pipeline analyzes an input image and generates TinyScheme code to draw a 2D representation of it in Gimp, then uses Rust and FreeCAD with additional information to produce a 3D representation of a building.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "emporas"
+      ],
+      "source_excerpt": "I am experimenting with using A.I. to see an image, and generate TinyScheme code to draw it on Gimp. As soon as I got the code for a 2D representation, then I bring out the heavy weaponry, Rust and Freecad, and with some more information added I generate the 3D representation of a building.",
+      "evidence": [
+        {
+          "source_item_id": 49234802,
+          "source_field": "body",
+          "value": "I am experimenting with using A.I. to see an image, and generate TinyScheme code to draw it on Gimp. As soon as I got the code for a 2D representation, then I bring out the heavy weaponry, Rust and Freecad, and with some more information added I generate the 3D representation of a building.",
+          "supports": [],
+          "author": "emporas",
+          "shared_at": 1786303653,
+          "source_url": "https://news.ycombinator.com/item?id=49234802"
+        }
+      ],
+      "source_item_id": 49234802,
+      "source_url": "https://news.ycombinator.com/item?id=49234802",
+      "author": "emporas",
+      "shared_at": 1786303653,
+      "links": []
+    }
+  ]
+}

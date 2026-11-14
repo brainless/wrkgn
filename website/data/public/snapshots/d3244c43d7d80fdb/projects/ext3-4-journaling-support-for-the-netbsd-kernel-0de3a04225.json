@@ -1,0 +1,33 @@
+{
+  "id": 2065,
+  "slug": "ext3-4-journaling-support-for-the-netbsd-kernel-0de3a04225",
+  "name": "ext3/4 journaling support for the NetBSD kernel",
+  "mentions": [
+    {
+      "name": "ext3/4 journaling support for the NetBSD kernel",
+      "description": "This project implements ext3/4 filesystem journaling support for the NetBSD kernel. It currently opens, reads, and replays the journal upon mount, with work remaining to log disk transactions during use.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "bitwize"
+      ],
+      "source_excerpt": "cleaning up my ext3/4 journalling code for the NetBSD kernel. I've got it opening, reading, and replaying the journal upon mount, now I need to move on to getting it to actually log disk transactions during use.",
+      "evidence": [
+        {
+          "source_item_id": 49233771,
+          "source_field": "body",
+          "value": "cleaning up my ext3/4 journalling code for the NetBSD kernel. I've got it opening, reading, and replaying the journal upon mount, now I need to move on to getting it to actually log disk transactions during use.",
+          "supports": [],
+          "author": "bitwize",
+          "shared_at": 1786298455,
+          "source_url": "https://news.ycombinator.com/item?id=49233771"
+        }
+      ],
+      "source_item_id": 49233771,
+      "source_url": "https://news.ycombinator.com/item?id=49233771",
+      "author": "bitwize",
+      "shared_at": 1786298455,
+      "links": []
+    }
+  ]
+}

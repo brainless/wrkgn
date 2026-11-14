@@ -1,0 +1,35 @@
+{
+  "id": 2117,
+  "slug": "personal-photo-storage-engine-fcbcbf0f22",
+  "name": "Personal photo storage engine",
+  "mentions": [
+    {
+      "name": "Personal photo storage engine",
+      "description": "A personal photo storage engine backed by a SQLite database and Cloudflare R2, built with Actix Web, Tera, and Datastar and hosted on fly.io. It powers the photo galleries for the author's music site at crusty-metallian.net.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "sentinel1909"
+      ],
+      "source_excerpt": "Finally, after at least 5 years of trying, I've figured out a photo storage engine for myself, backed by a SQLite database and Cloudflare R2.\n\nhttps://metallian-photos.fly.dev",
+      "evidence": [
+        {
+          "source_item_id": 49235454,
+          "source_field": "body",
+          "value": "Finally, after at least 5 years of trying, I've figured out a photo storage engine for myself, backed by a SQLite database and Cloudflare R2.\n\nhttps://metallian-photos.fly.dev",
+          "supports": [],
+          "author": "sentinel1909",
+          "shared_at": 1786307201,
+          "source_url": "https://news.ycombinator.com/item?id=49235454"
+        }
+      ],
+      "source_item_id": 49235454,
+      "source_url": "https://news.ycombinator.com/item?id=49235454",
+      "author": "sentinel1909",
+      "shared_at": 1786307201,
+      "links": [
+        "https://metallian-photos.fly.dev"
+      ]
+    }
+  ]
+}

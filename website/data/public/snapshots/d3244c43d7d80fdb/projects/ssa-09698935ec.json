@@ -1,0 +1,91 @@
+{
+  "id": 1527,
+  "slug": "ssa-09698935ec",
+  "name": "ssa",
+  "mentions": [
+    {
+      "name": "ssa",
+      "description": "An AI agent designed to feel like a unix utility, capable of writing and editing files; recent work changed how it handles file writes and edits.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "pianopatrick"
+      ],
+      "source_excerpt": "I worked on my AI agent that feels like a unix util. This month I changed the way it writes and edits files",
+      "evidence": [
+        {
+          "source_item_id": 49690410,
+          "source_field": "body",
+          "value": "I worked on my AI agent that feels like a unix util. This month I changed the way it writes and edits files",
+          "supports": [],
+          "author": "pianopatrick",
+          "shared_at": 1789346647,
+          "source_url": "https://news.ycombinator.com/item?id=49690410"
+        }
+      ],
+      "source_item_id": 49690410,
+      "source_url": "https://news.ycombinator.com/item?id=49690410",
+      "author": "pianopatrick",
+      "shared_at": 1789346647,
+      "links": [
+        "https://github.com/patrickjh/ssa"
+      ]
+    },
+    {
+      "name": "ssa",
+      "description": "A single-file AI agent written in POSIX sh. It can be used by downloading the file, marking it executable, and setting up environment variables.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "pianopatrick"
+      ],
+      "source_excerpt": "I rewrote my AI agent written in POSIX sh to be a single file. So now to use it all you have to do is download the file, mark it executable, and set up environment variables.",
+      "evidence": [
+        {
+          "source_item_id": 49234084,
+          "source_field": "body",
+          "value": "I rewrote my AI agent written in POSIX sh to be a single file. So now to use it all you have to do is download the file, mark it executable, and set up environment variables.",
+          "supports": [],
+          "author": "pianopatrick",
+          "shared_at": 1786299836,
+          "source_url": "https://news.ycombinator.com/item?id=49234084"
+        }
+      ],
+      "source_item_id": 49234084,
+      "source_url": "https://news.ycombinator.com/item?id=49234084",
+      "author": "pianopatrick",
+      "shared_at": 1786299836,
+      "links": [
+        "https://github.com/patrickjh/ssa"
+      ]
+    },
+    {
+      "name": "ssa",
+      "description": "An AI agent written in POSIX shell, useful for debugging command line problems on Linux, such as fixing apt problems.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "pianopatrick"
+      ],
+      "source_excerpt": "This month I worked on my own AI agent written in POSIX shell. It's been surprisingly useful for debugging command line problems on an old laptop running linux, like fixing an apt problem.",
+      "evidence": [
+        {
+          "source_item_id": 48886507,
+          "source_field": "body",
+          "value": "This month I worked on my own AI agent written in POSIX shell. It's been surprisingly useful for debugging command line problems on an old laptop running linux, like fixing an apt problem.",
+          "supports": [],
+          "author": "pianopatrick",
+          "shared_at": 1783903651,
+          "source_url": "https://news.ycombinator.com/item?id=48886507"
+        }
+      ],
+      "source_item_id": 48886507,
+      "source_url": "https://news.ycombinator.com/item?id=48886507",
+      "author": "pianopatrick",
+      "shared_at": 1783903651,
+      "links": [
+        "https://github.com/patrickjh/ssa"
+      ]
+    }
+  ]
+}

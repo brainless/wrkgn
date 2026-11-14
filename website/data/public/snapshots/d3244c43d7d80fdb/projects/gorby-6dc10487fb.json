@@ -1,0 +1,35 @@
+{
+  "id": 191,
+  "slug": "gorby-6dc10487fb",
+  "name": "Gorby",
+  "mentions": [
+    {
+      "name": "Gorby",
+      "description": "A writing app whose writing screen is being redesigned to be more useful and pleasant, with better themes, text and readability checks brought in from other parts of the app, and Harper.js grammar checking integrated so far in a newly added Electron-based desktop app. The goal is a tool useful for the writing process itself, not just for surfacing possible improvements or readability scores.",
+      "problem": "Writing tools that only help find possible improvements in text or give a readability score, rather than being useful for actual writing.",
+      "audience": null,
+      "builder_usernames": [
+        "rijavecb"
+      ],
+      "source_excerpt": "Lately, I've been redoing the entire writing screen in Gorby [1], trying to make it more useful and more pleasant to use. I've added better themes and brought some features and text checks from other parts of the app into the writing screen as well. I'm also working on integrating Harper.js for grammar checks.",
+      "evidence": [
+        {
+          "source_item_id": 50423743,
+          "source_field": "body",
+          "value": "Lately, I've been redoing the entire writing screen in Gorby [1], trying to make it more useful and more pleasant to use. I've added better themes and brought some features and text checks from other parts of the app into the writing screen as well. I'm also working on integrating Harper.js for grammar checks.",
+          "supports": [],
+          "author": "rijavecb",
+          "shared_at": 1794220516,
+          "source_url": "https://news.ycombinator.com/item?id=50423743"
+        }
+      ],
+      "source_item_id": 50423743,
+      "source_url": "https://news.ycombinator.com/item?id=50423743",
+      "author": "rijavecb",
+      "shared_at": 1794220516,
+      "links": [
+        "https://gorby.app/"
+      ]
+    }
+  ]
+}

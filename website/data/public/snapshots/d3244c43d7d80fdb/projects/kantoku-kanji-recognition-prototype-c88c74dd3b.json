@@ -1,0 +1,35 @@
+{
+  "id": 4444,
+  "slug": "kantoku-kanji-recognition-prototype-c88c74dd3b",
+  "name": "Kantoku prototype (handwritten kanji recognition model)",
+  "mentions": [
+    {
+      "name": "Kantoku prototype (handwritten kanji recognition model)",
+      "description": "An open source, open weight supervised learning model that recognizes Japanese kanji characters drawn on screen. The working prototype is a simple neural network written in Julia that takes vector-format stroke input, replacing the convolution layer with a path simplification algorithm; with about 20 samples per character it reached 100% accuracy on a small test set after 30 training iterations.",
+      "problem": "Traditional convolutional neural networks don't work out of the box on vector-format input.",
+      "audience": null,
+      "builder_usernames": [
+        "runarberg"
+      ],
+      "source_excerpt": "I just started on an open source and open weight supervised learning model to recognize japanese kanji characters drawn on the screen.",
+      "evidence": [
+        {
+          "source_item_id": 48025683,
+          "source_field": "body",
+          "value": "I just started on an open source and open weight supervised learning model to recognize japanese kanji characters drawn on the screen.",
+          "supports": [],
+          "author": "runarberg",
+          "shared_at": 1778002072,
+          "source_url": "https://news.ycombinator.com/item?id=48025683"
+        }
+      ],
+      "source_item_id": 48025683,
+      "source_url": "https://news.ycombinator.com/item?id=48025683",
+      "author": "runarberg",
+      "shared_at": 1778002072,
+      "links": [
+        "https://github.com/runarberg/kantoku-prototype"
+      ]
+    }
+  ]
+}

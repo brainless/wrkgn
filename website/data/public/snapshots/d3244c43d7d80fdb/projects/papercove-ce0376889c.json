@@ -1,0 +1,35 @@
+{
+  "id": 50,
+  "slug": "papercove-ce0376889c",
+  "name": "PaperCove",
+  "mentions": [
+    {
+      "name": "PaperCove",
+      "description": "A minimalist web reader for following RSS feeds, newsletters, and read-later articles in one place, helping keep reading material from piling up. Built with Laravel and Livewire, with Python for content extraction and Go for the email infrastructure; currently preparing a beta release to gather feedback.",
+      "problem": "Keeping RSS feeds, newsletters, and read-later articles from piling up.",
+      "audience": "personal-use",
+      "builder_usernames": [
+        "dummoria"
+      ],
+      "source_excerpt": "I’ve been working since the start of the year on a minimalist web reader (https://papercove.app) that I use every day to follow RSS feeds, newsletters and read-later, and that helps keep things from piling up.",
+      "evidence": [
+        {
+          "source_item_id": 50391077,
+          "source_field": "body",
+          "value": "I’ve been working since the start of the year on a minimalist web reader (https://papercove.app) that I use every day to follow RSS feeds, newsletters and read-later, and that helps keep things from piling up.",
+          "supports": [],
+          "author": "dummoria",
+          "shared_at": 1793964771,
+          "source_url": "https://news.ycombinator.com/item?id=50391077"
+        }
+      ],
+      "source_item_id": 50391077,
+      "source_url": "https://news.ycombinator.com/item?id=50391077",
+      "author": "dummoria",
+      "shared_at": 1793964771,
+      "links": [
+        "https://papercove.app"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 113,
+  "slug": "aisma-c1f895708e",
+  "name": "Aisma",
+  "mentions": [
+    {
+      "name": "Aisma",
+      "description": "Aisma is an AI-powered video editor that edits videos by parts: users describe edits in simple requests in any language, and the tool applies changes to specific shots within a video — even sub-second shots — without charging for the whole video. Users can continue editing short parts separately if a generation is incomplete, and Aisma returns credits for portions of the video that don't contain the requested subject. It also uses a feedback loop of misunderstood videos to train how it handles such content. Available on web, iOS and Android.",
+      "problem": "Existing video editors charge for the entire video even when only a short shot in the middle needs editing, and struggle with videos containing many very short shots, requiring repeated paid edits on the whole video.",
+      "audience": null,
+      "builder_usernames": [
+        "abalex"
+      ],
+      "source_excerpt": "Aisma is a video editor which can edit your video by parts.\n\nAlso Aisma understands very simple requests in any languages and can edit just a part of video, so no need to pay for whole video if you need to edit just something in the middle.",
+      "evidence": [
+        {
+          "source_item_id": 50436192,
+          "source_field": "body",
+          "value": "Aisma is a video editor which can edit your video by parts.\n\nAlso Aisma understands very simple requests in any languages and can edit just a part of video, so no need to pay for whole video if you need to edit just something in the middle.",
+          "supports": [],
+          "author": "abalex",
+          "shared_at": 1794286300,
+          "source_url": "https://news.ycombinator.com/item?id=50436192"
+        }
+      ],
+      "source_item_id": 50436192,
+      "source_url": "https://news.ycombinator.com/item?id=50436192",
+      "author": "abalex",
+      "shared_at": 1794286300,
+      "links": [
+        "https://aisma.ai"
+      ]
+    }
+  ]
+}

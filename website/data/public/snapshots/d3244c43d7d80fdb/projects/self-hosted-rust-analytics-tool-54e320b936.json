@@ -1,0 +1,33 @@
+{
+  "id": 3349,
+  "slug": "self-hosted-rust-analytics-tool-54e320b936",
+  "name": "Self-hosted Rust analytics tool",
+  "mentions": [
+    {
+      "name": "Self-hosted Rust analytics tool",
+      "description": "A self-hosted web analytics tool written in Rust that collects visitor data via a JavaScript beacon and by streaming Caddy access logs, built to replace the author's self-hosted Plausible and Umami.",
+      "problem": "Replaces self-hosted Plausible and Umami analytics.",
+      "audience": null,
+      "builder_usernames": [
+        "skwee357"
+      ],
+      "source_excerpt": "I also completely got rid of self-hosted plausible and umami analytics, and replaced them with vibe-coded built-in-rust (c) analytics tool that relies on both js-beacon and streaming of caddy access.log.",
+      "evidence": [
+        {
+          "source_item_id": 50391148,
+          "source_field": "body",
+          "value": "I also completely got rid of self-hosted plausible and umami analytics, and replaced them with vibe-coded built-in-rust (c) analytics tool that relies on both js-beacon and streaming of caddy access.log.",
+          "supports": [],
+          "author": "skwee357",
+          "shared_at": 1793965224,
+          "source_url": "https://news.ycombinator.com/item?id=50391148"
+        }
+      ],
+      "source_item_id": 50391148,
+      "source_url": "https://news.ycombinator.com/item?id=50391148",
+      "author": "skwee357",
+      "shared_at": 1793965224,
+      "links": []
+    }
+  ]
+}

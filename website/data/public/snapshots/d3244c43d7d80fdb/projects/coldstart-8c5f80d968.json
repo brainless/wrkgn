@@ -1,0 +1,35 @@
+{
+  "id": 2642,
+  "slug": "coldstart-8c5f80d968",
+  "name": "coldstart",
+  "mentions": [
+    {
+      "name": "coldstart",
+      "description": "A codebase notebook that helps AI agents work better in a codebase. It is written and maintained by the AI agent that is writing or reading the notes, keeping the codebase knowledge fresh across sessions.",
+      "problem": "Coldstart: an AI agent re-learns the codebase on every new session, which the author found genuinely frustrating.",
+      "audience": null,
+      "builder_usernames": [
+        "akashgoenka"
+      ],
+      "source_excerpt": "i built a tool called coldstart which is a codebase notebook. It is written and maintained by the AI agent that is writing or reading the notes and keeps it fresh, always.",
+      "evidence": [
+        {
+          "source_item_id": 48966988,
+          "source_field": "body",
+          "value": "i built a tool called coldstart which is a codebase notebook. It is written and maintained by the AI agent that is writing or reading the notes and keeps it fresh, always.",
+          "supports": [],
+          "author": "akashgoenka",
+          "shared_at": 1784459700,
+          "source_url": "https://news.ycombinator.com/item?id=48966988"
+        }
+      ],
+      "source_item_id": 48966988,
+      "source_url": "https://news.ycombinator.com/item?id=48966988",
+      "author": "akashgoenka",
+      "shared_at": 1784459700,
+      "links": [
+        "https://github.com/AkashGoenka/coldstart"
+      ]
+    }
+  ]
+}

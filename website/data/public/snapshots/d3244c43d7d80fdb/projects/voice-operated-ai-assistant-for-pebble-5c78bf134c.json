@@ -1,0 +1,33 @@
+{
+  "id": 2150,
+  "slug": "voice-operated-ai-assistant-for-pebble-5c78bf134c",
+  "name": "Voice-operated AI assistant for Pebble",
+  "mentions": [
+    {
+      "name": "Voice-operated AI assistant for Pebble",
+      "description": "A voice-operated AI assistant for the Pebble Time 2 open source watch. The watch's built-in transcription sends transcripts to a server on a VPS connected over Tailscale, which responds through a realtime Piper TTS server in one of three paths: a deterministic path matching triggers like \"Add task\" or \"Set a timer\" that writes to a database without any LLM call, a fast path routed through a gpt5.6 model (\"Luna\") that answers simple queries in under 8 seconds or defers, and a deferred path that hands complex tasks to a Hermes agent installation on the same VPS, with cached lines like \"this will take some time\" played while waiting. When the watch's quiet mode is on, responses are shown as text instead of spoken. The assistant is used to set up, review and close tasks, set timers and reminders, log weight, check in on projects running on Hermes, and ask day-to-day AI questions.",
+      "problem": null,
+      "audience": "personal-use",
+      "builder_usernames": [
+        "SamPatt"
+      ],
+      "source_excerpt": "I have a Pebble Time 2, which is an open source watch. I built a voice operated AI assistant for it.",
+      "evidence": [
+        {
+          "source_item_id": 49234527,
+          "source_field": "body",
+          "value": "I have a Pebble Time 2, which is an open source watch. I built a voice operated AI assistant for it.",
+          "supports": [],
+          "author": "SamPatt",
+          "shared_at": 1786302080,
+          "source_url": "https://news.ycombinator.com/item?id=49234527"
+        }
+      ],
+      "source_item_id": 49234527,
+      "source_url": "https://news.ycombinator.com/item?id=49234527",
+      "author": "SamPatt",
+      "shared_at": 1786302080,
+      "links": []
+    }
+  ]
+}

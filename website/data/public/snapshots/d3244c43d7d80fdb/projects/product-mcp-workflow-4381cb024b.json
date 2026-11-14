@@ -1,0 +1,33 @@
+{
+  "id": 963,
+  "slug": "product-mcp-workflow-4381cb024b",
+  "name": "Product MCP workflow",
+  "mentions": [
+    {
+      "name": "Product MCP workflow",
+      "description": "An MCP workflow that takes in sources such as feedback, pull requests, and the builder's own tasks, making it easy for an agent to guide the day's work.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "gschier"
+      ],
+      "source_excerpt": "I already have one for product that takes in a bunch of sources (feedback, PRs, my own tasks, etc) and makes it trivial for an agent to guide me through the day's tasks.",
+      "evidence": [
+        {
+          "source_item_id": 49699219,
+          "source_field": "body",
+          "value": "I already have one for product that takes in a bunch of sources (feedback, PRs, my own tasks, etc) and makes it trivial for an agent to guide me through the day's tasks.",
+          "supports": [],
+          "author": "gschier",
+          "shared_at": 1789401942,
+          "source_url": "https://news.ycombinator.com/item?id=49699219"
+        }
+      ],
+      "source_item_id": 49699219,
+      "source_url": "https://news.ycombinator.com/item?id=49699219",
+      "author": "gschier",
+      "shared_at": 1789401942,
+      "links": []
+    }
+  ]
+}

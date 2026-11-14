@@ -1,0 +1,35 @@
+{
+  "id": 2468,
+  "slug": "starlark-to-nbt-721a108390",
+  "name": "starlark-to-nbt",
+  "mentions": [
+    {
+      "name": "starlark-to-nbt",
+      "description": "This tool generates Minecraft structures using Starlark, compiling Starlark scripts into Minecraft's NBT format. It is planned to be integrated with the author's Minecraft MCP server so an LLM can build complex structures without needing too many MCP calls.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "wmil"
+      ],
+      "source_excerpt": "I'm working on generating Minecraft structures using Starlark. https://github.com/wmill/starlark-to-nbt/\n\nThe plan is to add it to my Minecraft MCP so I can have the llm build complex structures without too many MCP calls.",
+      "evidence": [
+        {
+          "source_item_id": 49220358,
+          "source_field": "body",
+          "value": "I'm working on generating Minecraft structures using Starlark. https://github.com/wmill/starlark-to-nbt/\n\nThe plan is to add it to my Minecraft MCP so I can have the llm build complex structures without too many MCP calls.",
+          "supports": [],
+          "author": "wmil",
+          "shared_at": 1786183773,
+          "source_url": "https://news.ycombinator.com/item?id=49220358"
+        }
+      ],
+      "source_item_id": 49220358,
+      "source_url": "https://news.ycombinator.com/item?id=49220358",
+      "author": "wmil",
+      "shared_at": 1786183773,
+      "links": [
+        "https://github.com/wmill/starlark-to-nbt/"
+      ]
+    }
+  ]
+}

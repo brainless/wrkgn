@@ -1,0 +1,35 @@
+{
+  "id": 122,
+  "slug": "whothatface-125ea92dc0",
+  "name": "WhoThatFace",
+  "mentions": [
+    {
+      "name": "WhoThatFace",
+      "description": "An AI-powered facial identification and recognition system that lets families and groups share training data to make it easier to assign faces to known people. Face assignment is mostly complete, with a roadmap toward a non-technical review interface, a client-server split, and cross-platform clients.",
+      "problem": "Assigning faces to known people is difficult, and the current single-location version sometimes struggles to differentiate related family members during the clustering stage.",
+      "audience": "Families and groups who want to share training data to assign faces to known people",
+      "builder_usernames": [
+        "weisnobody"
+      ],
+      "source_excerpt": "Using AI to build a Facial identification / recognition system (https://github.com/weisnobody/WhoThatFace)  that will allow families / groups to share the training data to make it easier to assign faces to known people.  Single location is currently working but it sometimes has trouble differentiating related family member during the clustering stage.",
+      "evidence": [
+        {
+          "source_item_id": 50435083,
+          "source_field": "body",
+          "value": "Using AI to build a Facial identification / recognition system (https://github.com/weisnobody/WhoThatFace)  that will allow families / groups to share the training data to make it easier to assign faces to known people.  Single location is currently working but it sometimes has trouble differentiating related family member during the clustering stage.",
+          "supports": [],
+          "author": "weisnobody",
+          "shared_at": 1794275541,
+          "source_url": "https://news.ycombinator.com/item?id=50435083"
+        }
+      ],
+      "source_item_id": 50435083,
+      "source_url": "https://news.ycombinator.com/item?id=50435083",
+      "author": "weisnobody",
+      "shared_at": 1794275541,
+      "links": [
+        "https://github.com/weisnobody/WhoThatFace"
+      ]
+    }
+  ]
+}

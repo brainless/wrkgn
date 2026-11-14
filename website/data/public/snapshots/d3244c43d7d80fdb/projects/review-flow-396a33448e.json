@@ -1,0 +1,35 @@
+{
+  "id": 2594,
+  "slug": "review-flow-396a33448e",
+  "name": "Review Flow",
+  "mentions": [
+    {
+      "name": "Review Flow",
+      "description": "An open-source Cursor / VSCode extension that makes the IDE a first-class environment for code reviews. It lets users navigate code and draft, modify, and submit comments on GitLab without switching to a browser, and auto-configures the Python environment using FastAPI for GitLab API calls. Suggestions, reviews, and contributions are invited.",
+      "problem": "Frustration of needing to switch between the browser and the IDE to navigate through code and leave comments on Gitlab at work.",
+      "audience": null,
+      "builder_usernames": [
+        "Luyanda"
+      ],
+      "source_excerpt": "I am working on this Review Flow. An extention for Cursor / VScode to enable IDE as first class for code reviews.",
+      "evidence": [
+        {
+          "source_item_id": 48885416,
+          "source_field": "body",
+          "value": "I am working on this Review Flow. An extention for Cursor / VScode to enable IDE as first class for code reviews.",
+          "supports": [],
+          "author": "Luyanda",
+          "shared_at": 1783894566,
+          "source_url": "https://news.ycombinator.com/item?id=48885416"
+        }
+      ],
+      "source_item_id": 48885416,
+      "source_url": "https://news.ycombinator.com/item?id=48885416",
+      "author": "Luyanda",
+      "shared_at": 1783894566,
+      "links": [
+        "https://github.com/LuyandaLia/reviewflow"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 3511,
+  "slug": "nuts-services-da6df72a65",
+  "name": "Nuts.services",
+  "mentions": [
+    {
+      "name": "Nuts.services",
+      "description": "Suite of unbundled services for agentic control that can run locally in a container, on Cloud Run, or via the author's hosted cloud (email-only login, self-hostable, eventually paid). Provides pure random numbers from an SDR radio at the author's house relayed to Cloud Run, the Grubcrawler agentic crawler, embeddings with vector inversion (Shivvr, newer embeddings coming), a Cloud Run based tunneling system, a Lightning Network interconnect (Charon.nuts.services), and Sailfish, a WIP to run optimized Gemma4 models with a drafter on 16GB GPUs, plus cloud training on n8's tool call extraction layer.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "kordlessagain"
+      ],
+      "source_excerpt": "Nuts.services (url there) -> unbundled services for agentic control. Supports running locally in a container, or on Cloud run, or just use what I have up there in the cloud.",
+      "evidence": [
+        {
+          "source_item_id": 48763504,
+          "source_field": "body",
+          "value": "Nuts.services (url there) -> unbundled services for agentic control. Supports running locally in a container, or on Cloud run, or just use what I have up there in the cloud.",
+          "supports": [],
+          "author": "kordlessagain",
+          "shared_at": 1783008082,
+          "source_url": "https://news.ycombinator.com/item?id=48763504"
+        }
+      ],
+      "source_item_id": 48763504,
+      "source_url": "https://news.ycombinator.com/item?id=48763504",
+      "author": "kordlessagain",
+      "shared_at": 1783008082,
+      "links": [
+        "https://github.com/deepbluedynamics"
+      ]
+    }
+  ]
+}

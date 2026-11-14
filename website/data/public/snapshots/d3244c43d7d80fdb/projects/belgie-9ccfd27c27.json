@@ -1,0 +1,35 @@
+{
+  "id": 2087,
+  "slug": "belgie-9ccfd27c27",
+  "name": "belgie",
+  "mentions": [
+    {
+      "name": "belgie",
+      "description": "This tool makes it easy for AI agents to dynamically generate user interfaces and code in a sandboxed environment. It can create React MCP UIs (and traditional Web UIs) from Python without needing a JS runtime installed, and provides a Deno-backed TypeScript sandbox for agent-generated code via pydantic-ai / langchain. A showcase use case is automatically generating UIs for SQL query results.",
+      "problem": "Agents lack an easy, sandboxed way to dynamically generate user interfaces and code, and doing so typically requires a JS runtime to be installed.",
+      "audience": null,
+      "builder_usernames": [
+        "mplemay"
+      ],
+      "source_excerpt": "I have been building belgie (https://github.com/mplemay/belgie) with the goal of making it easy for agents to dynamically generate user interfaces / code in a sandboxed environment.",
+      "evidence": [
+        {
+          "source_item_id": 49252988,
+          "source_field": "body",
+          "value": "I have been building belgie (https://github.com/mplemay/belgie) with the goal of making it easy for agents to dynamically generate user interfaces / code in a sandboxed environment.",
+          "supports": [],
+          "author": "mplemay",
+          "shared_at": 1786418518,
+          "source_url": "https://news.ycombinator.com/item?id=49252988"
+        }
+      ],
+      "source_item_id": 49252988,
+      "source_url": "https://news.ycombinator.com/item?id=49252988",
+      "author": "mplemay",
+      "shared_at": 1786418518,
+      "links": [
+        "https://github.com/mplemay/belgie"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 78,
+  "slug": "dualplayer-542bb31097",
+  "name": "DualPlayer",
+  "mentions": [
+    {
+      "name": "DualPlayer",
+      "description": "This browser-based player plays two audio tracks from the same movie on different devices, so one person can listen to the original language in headphones while another listens to the dub on speakers at the same time. It requires no installation or account, and the movie never leaves the user's computer.",
+      "problem": "The author is learning English and wanted to watch movies in the original with his girlfriend, who isn't learning English and didn't want to watch that way; no existing tool let two people hear different audio tracks of the same movie simultaneously.",
+      "audience": "Couples or households watching a movie together where one person wants the original audio and the other a dub",
+      "builder_usernames": [
+        "ivanzinoviev"
+      ],
+      "source_excerpt": "This player runs in a browser and lets you play two audio tracks from the same movie on different devices.\n\nIt doesn't require installation or an account and the movie doesn't leave your computer.",
+      "evidence": [
+        {
+          "source_item_id": 50424818,
+          "source_field": "body",
+          "value": "This player runs in a browser and lets you play two audio tracks from the same movie on different devices.\n\nIt doesn't require installation or an account and the movie doesn't leave your computer.",
+          "supports": [],
+          "author": "ivanzinoviev",
+          "shared_at": 1794228267,
+          "source_url": "https://news.ycombinator.com/item?id=50424818"
+        }
+      ],
+      "source_item_id": 50424818,
+      "source_url": "https://news.ycombinator.com/item?id=50424818",
+      "author": "ivanzinoviev",
+      "shared_at": 1794228267,
+      "links": [
+        "https://dualplayer.app/"
+      ]
+    }
+  ]
+}

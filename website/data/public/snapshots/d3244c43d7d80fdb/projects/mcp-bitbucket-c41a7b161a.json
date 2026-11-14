@@ -1,0 +1,35 @@
+{
+  "id": 905,
+  "slug": "mcp-bitbucket-c41a7b161a",
+  "name": "mcp-bitbucket",
+  "mentions": [
+    {
+      "name": "mcp-bitbucket",
+      "description": "A Model Context Protocol (MCP) server for Bitbucket written in Go, built as a learning project with an emphasis on a clean, security-conscious codebase, in contrast to existing vibe-coded MCP servers; work in progress.",
+      "problem": "Existing MCP servers lack clean codebases and appear vibe-coded, which was a concern at a security-focused company.",
+      "audience": null,
+      "builder_usernames": [
+        "pid0x17"
+      ],
+      "source_excerpt": "I am implementing my own MCP server in Go for Bitbucket. This is more of a learning project for me (I was curious about MCP servers), but I also didn't find any MCP servers that have a clean codebase. Many seem to be vibe-coded, and as I work at a company where security is really important, I thought I would implement my own. (Still a WIP: https://github.com/pid0x17/mcp-bitbucket).",
+      "evidence": [
+        {
+          "source_item_id": 49693463,
+          "source_field": "body",
+          "value": "I am implementing my own MCP server in Go for Bitbucket. This is more of a learning project for me (I was curious about MCP servers), but I also didn't find any MCP servers that have a clean codebase. Many seem to be vibe-coded, and as I work at a company where security is really important, I thought I would implement my own. (Still a WIP: https://github.com/pid0x17/mcp-bitbucket).",
+          "supports": [],
+          "author": "pid0x17",
+          "shared_at": 1789373068,
+          "source_url": "https://news.ycombinator.com/item?id=49693463"
+        }
+      ],
+      "source_item_id": 49693463,
+      "source_url": "https://news.ycombinator.com/item?id=49693463",
+      "author": "pid0x17",
+      "shared_at": 1789373068,
+      "links": [
+        "https://github.com/pid0x17/mcp-bitbucket"
+      ]
+    }
+  ]
+}

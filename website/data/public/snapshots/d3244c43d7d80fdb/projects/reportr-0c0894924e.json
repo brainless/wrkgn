@@ -1,0 +1,35 @@
+{
+  "id": 668,
+  "slug": "reportr-0c0894924e",
+  "name": "Reportr",
+  "mentions": [
+    {
+      "name": "Reportr",
+      "description": "An AI client for data analysis that connects to databases via MCP servers and displays large volumes of data, offering a custom client experience where Claude desktop falls short.",
+      "problem": "Claude desktop is not great at displaying large volumes of data when connected to databases through MCP servers; a custom client can do a much better job.",
+      "audience": null,
+      "builder_usernames": [
+        "sandhya6"
+      ],
+      "source_excerpt": "AI client for data analysis.\n\nYou can connect Claude desktop to databases using MCP servers, but Claude desktop is not great at displaying large volumes of data. A custom client can do a much better job.\n\nhttps://reportr.com/",
+      "evidence": [
+        {
+          "source_item_id": 50418122,
+          "source_field": "body",
+          "value": "AI client for data analysis.\n\nYou can connect Claude desktop to databases using MCP servers, but Claude desktop is not great at displaying large volumes of data. A custom client can do a much better job.\n\nhttps://reportr.com/",
+          "supports": [],
+          "author": "sandhya6",
+          "shared_at": 1794177057,
+          "source_url": "https://news.ycombinator.com/item?id=50418122"
+        }
+      ],
+      "source_item_id": 50418122,
+      "source_url": "https://news.ycombinator.com/item?id=50418122",
+      "author": "sandhya6",
+      "shared_at": 1794177057,
+      "links": [
+        "https://reportr.com/"
+      ]
+    }
+  ]
+}

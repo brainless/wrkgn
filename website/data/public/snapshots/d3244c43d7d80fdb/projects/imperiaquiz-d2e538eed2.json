@@ -1,0 +1,35 @@
+{
+  "id": 431,
+  "slug": "imperiaquiz-d2e538eed2",
+  "name": "ImperiaQuiz",
+  "mentions": [
+    {
+      "name": "ImperiaQuiz",
+      "description": "Online quiz game supporting 1 vs 1 vs 1 matches, with bot opponents when few players are online. Built with a Go backend and a React + Three.js frontend, it features over 20,000 questions generated with LLMs and hand-reviewed, and is a remake of the old ConQUIZtador game.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "xavortm"
+      ],
+      "source_excerpt": "An online quiz game https://imperiaquiz.com/en (1 vs 1 vs 1) or bots when there're not many online players. Go backend, React + Three frontend and a ton of questions (no API used there, I used LLMs and hand-reviews on many to fill up over 20,000 questions)\n\nA remake of the old ConQUIZtador game.",
+      "evidence": [
+        {
+          "source_item_id": 50426585,
+          "source_field": "body",
+          "value": "An online quiz game https://imperiaquiz.com/en (1 vs 1 vs 1) or bots when there're not many online players. Go backend, React + Three frontend and a ton of questions (no API used there, I used LLMs and hand-reviews on many to fill up over 20,000 questions)\n\nA remake of the old ConQUIZtador game.",
+          "supports": [],
+          "author": "xavortm",
+          "shared_at": 1794236473,
+          "source_url": "https://news.ycombinator.com/item?id=50426585"
+        }
+      ],
+      "source_item_id": 50426585,
+      "source_url": "https://news.ycombinator.com/item?id=50426585",
+      "author": "xavortm",
+      "shared_at": 1794236473,
+      "links": [
+        "https://imperiaquiz.com/en"
+      ]
+    }
+  ]
+}

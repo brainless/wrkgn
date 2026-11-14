@@ -1,0 +1,35 @@
+{
+  "id": 135,
+  "slug": "hale-7b963ea835",
+  "name": "Hale",
+  "mentions": [
+    {
+      "name": "Hale",
+      "description": "An abstract distributed systems programming language that offers fine-grained control over resources while requiring programmers to agree with the compiler on resource intent. Programs situate computations within a recursive graph structure incorporating message broker semantics, giving the compiler a unified view across arbitrary process boundaries. It supports effects and formal verification syntax so architectural decisions are checked by the compiler, and its infrastructure-aware compiler can configure the environments applications deploy to, handling everything from individual memory allocations to distributed fleet deployments. The language is close to v1.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rrook"
+      ],
+      "source_excerpt": "I'm working on Hale, an abstract distributed systems language.",
+      "evidence": [
+        {
+          "source_item_id": 50392170,
+          "source_field": "body",
+          "value": "I'm working on Hale, an abstract distributed systems language.",
+          "supports": [],
+          "author": "rrook",
+          "shared_at": 1793972455,
+          "source_url": "https://news.ycombinator.com/item?id=50392170"
+        }
+      ],
+      "source_item_id": 50392170,
+      "source_url": "https://news.ycombinator.com/item?id=50392170",
+      "author": "rrook",
+      "shared_at": 1793972455,
+      "links": [
+        "https://github.com/hale-lang/hale"
+      ]
+    }
+  ]
+}

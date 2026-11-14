@@ -1,0 +1,35 @@
+{
+  "id": 851,
+  "slug": "gitwarren-4865570996",
+  "name": "GitWarren",
+  "mentions": [
+    {
+      "name": "GitWarren",
+      "description": "This is a free and open source, local GitHub-like code review app (GitWarren) for comfortably reviewing code written by AI agents before the code ever leaves the user's computer. Once installed, the agent sends the user a GitWarren link each time it finishes a piece of work for review, replicating the GitHub code-review experience. It runs as a local WebUI or desktop app, and works with tailnet and SSH for reviewing code on remote machines, including mobile reviews from a phone on the tailnet.",
+      "problem": "Code written by AI agents needs review before it leaves the user's computer, and there is no comfortable local way to do that review.",
+      "audience": "Developers using AI coding agents who want to review agent-written code locally",
+      "builder_usernames": [
+        "xfor"
+      ],
+      "source_excerpt": "I’m working on local GitHub-like app where you can comfortably review code written by your agents before the code will ever leave your computer. Once installed, your agent can send you a link to GitWarren each time it will finish a piece of work for you to make a review. The idea is to replicate the GitHub code-review experience.\n\nFree and open source: https://github.com/klarluft/gitwarren-app\n\nIt works as a local WebUi or desktop app. Also works well with tailnet and ssh if you review a code on remote machines. If your phone is in tailnet you can make reviews on your mobile.",
+      "evidence": [
+        {
+          "source_item_id": 49963431,
+          "source_field": "body",
+          "value": "I’m working on local GitHub-like app where you can comfortably review code written by your agents before the code will ever leave your computer. Once installed, your agent can send you a link to GitWarren each time it will finish a piece of work for you to make a review. The idea is to replicate the GitHub code-review experience.\n\nFree and open source: https://github.com/klarluft/gitwarren-app\n\nIt works as a local WebUi or desktop app. Also works well with tailnet and ssh if you review a code on remote machines. If your phone is in tailnet you can make reviews on your mobile.",
+          "supports": [],
+          "author": "xfor",
+          "shared_at": 1791199369,
+          "source_url": "https://news.ycombinator.com/item?id=49963431"
+        }
+      ],
+      "source_item_id": 49963431,
+      "source_url": "https://news.ycombinator.com/item?id=49963431",
+      "author": "xfor",
+      "shared_at": 1791199369,
+      "links": [
+        "https://github.com/klarluft/gitwarren-app"
+      ]
+    }
+  ]
+}

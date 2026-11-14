@@ -1,0 +1,35 @@
+{
+  "id": 1130,
+  "slug": "agent-circus-84ff949688",
+  "name": "Agent Circus",
+  "mentions": [
+    {
+      "name": "Agent Circus",
+      "description": "AI sandbox framework for running AI agents, supporting execution of agents in Podman containers and independently updating agent harness versions without updating the CLI tool. Planned roadmap work includes a plugin system that clearly separates the framework core from pluggable extensions, where plugins bundle settings such as container image build commands, startup commands, and information forwarded from the host into agents' containers (environment variables, networking settings, etc.).",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rpoisel"
+      ],
+      "source_excerpt": "I am continuously working on my AI sandbox framework: Agent Circus.\n\nLately it supports running agents in Podman containers. It's also possible to independently update Agent harness versions without updating the CLI tool.",
+      "evidence": [
+        {
+          "source_item_id": 49704843,
+          "source_field": "body",
+          "value": "I am continuously working on my AI sandbox framework: Agent Circus.\n\nLately it supports running agents in Podman containers. It's also possible to independently update Agent harness versions without updating the CLI tool.",
+          "supports": [],
+          "author": "rpoisel",
+          "shared_at": 1789423580,
+          "source_url": "https://news.ycombinator.com/item?id=49704843"
+        }
+      ],
+      "source_item_id": 49704843,
+      "source_url": "https://news.ycombinator.com/item?id=49704843",
+      "author": "rpoisel",
+      "shared_at": 1789423580,
+      "links": [
+        "https://github.com/Embedded-Focus/agent-circus"
+      ]
+    }
+  ]
+}

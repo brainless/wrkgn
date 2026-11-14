@@ -1,0 +1,35 @@
+{
+  "id": 1630,
+  "slug": "concept-1ca3518608",
+  "name": "Concept",
+  "mentions": [
+    {
+      "name": "Concept",
+      "description": "A programming language positioned as a more ergonomic successor to C++ — 'TypeScript to C++'s JavaScript'. It generalizes C++20 concepts toward C++26-style contracts, brings a Rust-style borrow checker that is opt-in rather than opt-out, offers fast compile time, templates, comptime, and C++-familiar syntax such as `const auto` instead of `let`. The language is mostly done, not yet self-hosted, currently compiles to C11, and has finished kernel and allocator libraries with the scheduler in progress.",
+      "problem": "C++ lacks a real successor — Carbon is regarded as not a real programming language, let alone a successor to C++.",
+      "audience": "C++ users",
+      "builder_usernames": [
+        "YuechenLi"
+      ],
+      "source_excerpt": "2. Concept language: https://github.com/yuechen-li-dev/Concept",
+      "evidence": [
+        {
+          "source_item_id": 49690363,
+          "source_field": "body",
+          "value": "2. Concept language: https://github.com/yuechen-li-dev/Concept",
+          "supports": [],
+          "author": "YuechenLi",
+          "shared_at": 1789346248,
+          "source_url": "https://news.ycombinator.com/item?id=49690363"
+        }
+      ],
+      "source_item_id": 49690363,
+      "source_url": "https://news.ycombinator.com/item?id=49690363",
+      "author": "YuechenLi",
+      "shared_at": 1789346248,
+      "links": [
+        "https://github.com/yuechen-li-dev/Concept"
+      ]
+    }
+  ]
+}

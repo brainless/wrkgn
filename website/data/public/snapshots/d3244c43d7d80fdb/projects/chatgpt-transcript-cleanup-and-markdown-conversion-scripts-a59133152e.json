@@ -1,0 +1,33 @@
+{
+  "id": 1997,
+  "slug": "chatgpt-transcript-cleanup-and-markdown-conversion-scripts-a59133152e",
+  "name": "ChatGPT transcript cleanup and Markdown conversion scripts",
+  "mentions": [
+    {
+      "name": "ChatGPT transcript cleanup and Markdown conversion scripts",
+      "description": "Scripts that clean up saved ChatGPT transcripts and convert them into fairly minimal Markdown with custom restructuring, primarily for publishing conversations and LLM usage experiences on a blog and for extracting code samples as the basis of small projects.",
+      "problem": "Cleaning up saved ChatGPT transcripts is annoying because of how the app's JavaScript works, and some saved transcripts turned out to be incomplete.",
+      "audience": null,
+      "builder_usernames": [
+        "zahlman"
+      ],
+      "source_excerpt": "I've been hacking away on some scripts to clean up saved ChatGPT transcripts (surprisingly annoying because of how the app's JavaScript works, and I discovered too late that some of them were incomplete; but I have workarounds now) and convert them to a fairly minimal Markdown with some custom restructuring.",
+      "evidence": [
+        {
+          "source_item_id": 49235706,
+          "source_field": "body",
+          "value": "I've been hacking away on some scripts to clean up saved ChatGPT transcripts (surprisingly annoying because of how the app's JavaScript works, and I discovered too late that some of them were incomplete; but I have workarounds now) and convert them to a fairly minimal Markdown with some custom restructuring.",
+          "supports": [],
+          "author": "zahlman",
+          "shared_at": 1786308556,
+          "source_url": "https://news.ycombinator.com/item?id=49235706"
+        }
+      ],
+      "source_item_id": 49235706,
+      "source_url": "https://news.ycombinator.com/item?id=49235706",
+      "author": "zahlman",
+      "shared_at": 1786308556,
+      "links": []
+    }
+  ]
+}

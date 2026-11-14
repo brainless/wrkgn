@@ -1,0 +1,35 @@
+{
+  "id": 2541,
+  "slug": "duckies-ai-ea038f55fc",
+  "name": "Duckies AI",
+  "mentions": [
+    {
+      "name": "Duckies AI",
+      "description": "This is an AI-enhanced IDE with mentor/skill-level awareness baked in, combining rubber-ducking and mob programming. It features 'Duckies' with distinct personalities (skills) that each specialize in a particular kind of problem, 'teachable moments' bubbles that surface novel, tangential, or foundational information while you work, and skill-level detection with a routing model so it doesn't overwhelm users with unneeded explanations. Each duck runs on a tiered memory model rather than a flat context window: core memory defining its skills, long-term memory for company standards and code style, a separate project-scoped long-term memory, and short-term memory for the current task, so ducks reason like team members with real employment history rather than chatbots.",
+      "problem": "Juniors and new hires often fall into an impostor-syndrome trap when reading an unfamiliar codebase or reviewing a senior peer's PR; documentation usually runs into the curse of knowledge, written by people who have lost sight of what it's like to be new to the codebase.",
+      "audience": "Juniors and new hires who struggle with impostor syndrome when reading unfamiliar codebases or reviewing senior peers' PRs, and for whom documentation suffers from the curse of knowledge.",
+      "builder_usernames": [
+        "bryanculver"
+      ],
+      "source_excerpt": "I'm slowly building an IDE with mentor/skill-level awareness baked in.",
+      "evidence": [
+        {
+          "source_item_id": 48887099,
+          "source_field": "body",
+          "value": "I'm slowly building an IDE with mentor/skill-level awareness baked in.",
+          "supports": [],
+          "author": "bryanculver",
+          "shared_at": 1783909384,
+          "source_url": "https://news.ycombinator.com/item?id=48887099"
+        }
+      ],
+      "source_item_id": 48887099,
+      "source_url": "https://news.ycombinator.com/item?id=48887099",
+      "author": "bryanculver",
+      "shared_at": 1783909384,
+      "links": [
+        "https://www.duckiesai.com"
+      ]
+    }
+  ]
+}

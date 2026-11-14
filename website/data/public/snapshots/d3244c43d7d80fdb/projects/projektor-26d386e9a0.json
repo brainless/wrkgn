@@ -1,0 +1,63 @@
+{
+  "id": 1930,
+  "slug": "projektor-26d386e9a0",
+  "name": "Projektor",
+  "mentions": [
+    {
+      "name": "Projektor",
+      "description": "An AI-native project management tool where work is planned and AI agents pick it up autonomously, comparable to a self-hosted Jira on Cloudflare but faster with more agentic development tools. It includes tooling for autonomously working through epics, managing quality, and fixing identified bugs, and surfaces bug counts from agents and users to gauge project health.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tajd"
+      ],
+      "source_excerpt": "https://tajd.github.io/projektor/ Is an ai native project management tool where I can plan work on the train and then have my agents pick it up autonomously. Bootstrapped it quickly but then have been incrementally adding more functionality to it. It’s like self hosted jira on cloudflare but much faster and has more agentic development tools.",
+      "evidence": [
+        {
+          "source_item_id": 49235982,
+          "source_field": "body",
+          "value": "https://tajd.github.io/projektor/ Is an ai native project management tool where I can plan work on the train and then have my agents pick it up autonomously. Bootstrapped it quickly but then have been incrementally adding more functionality to it. It’s like self hosted jira on cloudflare but much faster and has more agentic development tools.",
+          "supports": [],
+          "author": "tajd",
+          "shared_at": 1786310119,
+          "source_url": "https://news.ycombinator.com/item?id=49235982"
+        }
+      ],
+      "source_item_id": 49235982,
+      "source_url": "https://news.ycombinator.com/item?id=49235982",
+      "author": "tajd",
+      "shared_at": 1786310119,
+      "links": [
+        "https://tajd.github.io/projektor/"
+      ]
+    },
+    {
+      "name": "Projektor",
+      "description": "This app provides task tracking and wiki functionality that can be deployed on Cloudflare using the user's own infrastructure, making it free to host and a simpler, cheaper alternative to Atlassian products.",
+      "problem": "Existing tools like Atlassian are more complex and costly to use.",
+      "audience": null,
+      "builder_usernames": [
+        "tajd"
+      ],
+      "source_excerpt": "A cloudflare hosted task and wiki deployment - https://tajd.github.io/projektor/ - free to host because it's on your infra on cloudflare. Built it because I could, and it was simpler and cheaper than using atlassian etc.",
+      "evidence": [
+        {
+          "source_item_id": 48893549,
+          "source_field": "body",
+          "value": "A cloudflare hosted task and wiki deployment - https://tajd.github.io/projektor/ - free to host because it's on your infra on cloudflare. Built it because I could, and it was simpler and cheaper than using atlassian etc.",
+          "supports": [],
+          "author": "tajd",
+          "shared_at": 1783954041,
+          "source_url": "https://news.ycombinator.com/item?id=48893549"
+        }
+      ],
+      "source_item_id": 48893549,
+      "source_url": "https://news.ycombinator.com/item?id=48893549",
+      "author": "tajd",
+      "shared_at": 1783954041,
+      "links": [
+        "https://tajd.github.io/projektor/"
+      ]
+    }
+  ]
+}

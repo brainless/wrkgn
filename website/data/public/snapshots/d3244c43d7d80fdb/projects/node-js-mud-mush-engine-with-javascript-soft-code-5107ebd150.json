@@ -1,0 +1,33 @@
+{
+  "id": 1940,
+  "slug": "node-js-mud-mush-engine-with-javascript-soft-code-5107ebd150",
+  "name": "Node.js MUD/MUSH engine with JavaScript soft-code",
+  "mentions": [
+    {
+      "name": "Node.js MUD/MUSH engine with JavaScript soft-code",
+      "description": "A MUD (closer to a MUSH) engine written in Node.js where everything is an entity with attributes, and the soft-code language is JavaScript executed via the Node.js vm module. Each soft-code execution runs in a new isolated context, and Proxy objects gate access to entities and attributes (e.g., attributes normally accessible only by their owners). Built-in commands include @eval and @set-attribute, and it has separate clients for Discord, Slack, and a local console; the MUSH outputs markdown so each client can format it however it likes. Basic sandboxing is in place (eval, Function, and Promise disabled) and it is a proof of concept the author plans to make public one day.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "kageneko"
+      ],
+      "source_excerpt": "This year, I am creating a nodejs MUD, well closer to a MUSH actually.\n\n* Everything is an Entity with Attributes\n* A player is an Entity with its client property set\n* There's a handful of built-in commands, but the important ones are @eval and @set-attribute\n* The soft-code language is ... JavaScript.\n* It uses the vm module from nodejs[0] to execute stuff.\n* It has separate clients (so far) for Discord, Slack, and local console. It's easy to add more and will be easier after I do this one refactor.",
+      "evidence": [
+        {
+          "source_item_id": 49238765,
+          "source_field": "body",
+          "value": "This year, I am creating a nodejs MUD, well closer to a MUSH actually.\n\n* Everything is an Entity with Attributes\n* A player is an Entity with its client property set\n* There's a handful of built-in commands, but the important ones are @eval and @set-attribute\n* The soft-code language is ... JavaScript.\n* It uses the vm module from nodejs[0] to execute stuff.\n* It has separate clients (so far) for Discord, Slack, and local console. It's easy to add more and will be easier after I do this one refactor.",
+          "supports": [],
+          "author": "kageneko",
+          "shared_at": 1786331009,
+          "source_url": "https://news.ycombinator.com/item?id=49238765"
+        }
+      ],
+      "source_item_id": 49238765,
+      "source_url": "https://news.ycombinator.com/item?id=49238765",
+      "author": "kageneko",
+      "shared_at": 1786331009,
+      "links": []
+    }
+  ]
+}

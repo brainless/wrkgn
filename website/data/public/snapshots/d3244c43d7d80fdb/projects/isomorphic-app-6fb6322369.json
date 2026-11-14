@@ -1,0 +1,63 @@
+{
+  "id": 80,
+  "slug": "isomorphic-app-6fb6322369",
+  "name": "Isomorphic",
+  "mentions": [
+    {
+      "name": "Isomorphic",
+      "description": "This app provides a shared knowledge/memory solution similar to Wayfinder's agent memory approach, built for use by non-technical teams.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "isomorphic-12"
+      ],
+      "source_excerpt": "I had to build something similar for non-technical teams: https://github.com/isomorphic-team/isomorphic-app",
+      "evidence": [
+        {
+          "source_item_id": 50426845,
+          "source_field": "body",
+          "value": "I had to build something similar for non-technical teams: https://github.com/isomorphic-team/isomorphic-app",
+          "supports": [],
+          "author": "isomorphic-12",
+          "shared_at": 1794237537,
+          "source_url": "https://news.ycombinator.com/item?id=50426845"
+        }
+      ],
+      "source_item_id": 50426845,
+      "source_url": "https://news.ycombinator.com/item?id=50426845",
+      "author": "isomorphic-12",
+      "shared_at": 1794237537,
+      "links": [
+        "https://github.com/isomorphic-team/isomorphic-app"
+      ]
+    },
+    {
+      "name": "Isomorphic",
+      "description": "Isomorphic is an open-source MCP that sits between the user and a markdown knowledge base in GitHub, operating inside Claude web, ChatGPT web, and similar AI chat interfaces rather than as a separate UX. It keeps organizational knowledge separate from the AI and interoperable, helping organizations build knowledge bases for customers, projects, and internal teams, and conforms to Google's Open Knowledge Format. Ongoing work includes permissioning, version control, search, and security features that catch when information goes stale or users upload sensitive info.",
+      "problem": "LLM-wikis rolled out for clients worked well with technical teams but failed with business teams, because no one wanted to learn git or GitHub even when Claude handled most of the work.",
+      "audience": "Organizations building knowledge bases ('brains') for customers, projects, and internal teams, including business teams that do not want to learn git or GitHub.",
+      "builder_usernames": [
+        "isomorphic-12"
+      ],
+      "source_excerpt": "So I built Isomorphic, an open-source MCP that sits between the user and a markdown knowledge base in GitHub. It's kind of like Obsidian but it's \"inside\" Claude web, ChatGPT web, etc.",
+      "evidence": [
+        {
+          "source_item_id": 50426725,
+          "source_field": "body",
+          "value": "So I built Isomorphic, an open-source MCP that sits between the user and a markdown knowledge base in GitHub. It's kind of like Obsidian but it's \"inside\" Claude web, ChatGPT web, etc.",
+          "supports": [],
+          "author": "isomorphic-12",
+          "shared_at": 1794237069,
+          "source_url": "https://news.ycombinator.com/item?id=50426725"
+        }
+      ],
+      "source_item_id": 50426725,
+      "source_url": "https://news.ycombinator.com/item?id=50426725",
+      "author": "isomorphic-12",
+      "shared_at": 1794237069,
+      "links": [
+        "https://github.com/isomorphic-team/isomorphic-app"
+      ]
+    }
+  ]
+}

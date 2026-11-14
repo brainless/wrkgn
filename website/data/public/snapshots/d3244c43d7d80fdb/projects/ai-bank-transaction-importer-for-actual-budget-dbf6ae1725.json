@@ -1,0 +1,33 @@
+{
+  "id": 3402,
+  "slug": "ai-bank-transaction-importer-for-actual-budget-dbf6ae1725",
+  "name": "AI bank transaction importer for Actual Budget",
+  "mentions": [
+    {
+      "name": "AI bank transaction importer for Actual Budget",
+      "description": "This automation pulls transactions from Canadian banks and imports them into Actual Budget, replacing bank aggregation services that are unreliable in Canada. It uses AI/automation to handle the syncing instead of SimpleFIN or Plaid.",
+      "problem": "Canada has no open banking, and SimpleFIN or Plaid type services frequently break, make mistakes, or require reauthentication every few hours for Canadian banks, making them not useful.",
+      "audience": null,
+      "builder_usernames": [
+        "zaptheimpaler"
+      ],
+      "source_excerpt": "Recently I automated pulling transactions from my banks (Canada, no open banking..) and putting them into Actual Budget. SimpleFIN or Plaid type services frequently break, make mistakes or require reauth every few hours for the banks here which makes them not so useful.",
+      "evidence": [
+        {
+          "source_item_id": 50421793,
+          "source_field": "body",
+          "value": "Recently I automated pulling transactions from my banks (Canada, no open banking..) and putting them into Actual Budget. SimpleFIN or Plaid type services frequently break, make mistakes or require reauth every few hours for the banks here which makes them not so useful.",
+          "supports": [],
+          "author": "zaptheimpaler",
+          "shared_at": 1794205407,
+          "source_url": "https://news.ycombinator.com/item?id=50421793"
+        }
+      ],
+      "source_item_id": 50421793,
+      "source_url": "https://news.ycombinator.com/item?id=50421793",
+      "author": "zaptheimpaler",
+      "shared_at": 1794205407,
+      "links": []
+    }
+  ]
+}

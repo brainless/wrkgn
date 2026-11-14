@@ -1,0 +1,35 @@
+{
+  "id": 660,
+  "slug": "spill-ce61ecd0bc",
+  "name": "Spill",
+  "mentions": [
+    {
+      "name": "Spill",
+      "description": "A modern torrent client that provides both a daemon and web UI out of the box, plus an embeddable BitTorrent engine that can be integrated into any Rust application.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "yuvadam"
+      ],
+      "source_excerpt": "Working on a modern implementation of a torrent client [1], it's already pretty usable for most scenarios. Provides both a daemon + web UI out of the box as well as an embeddable engine for any Rust application.",
+      "evidence": [
+        {
+          "source_item_id": 50417993,
+          "source_field": "body",
+          "value": "Working on a modern implementation of a torrent client [1], it's already pretty usable for most scenarios. Provides both a daemon + web UI out of the box as well as an embeddable engine for any Rust application.",
+          "supports": [],
+          "author": "yuvadam",
+          "shared_at": 1794176318,
+          "source_url": "https://news.ycombinator.com/item?id=50417993"
+        }
+      ],
+      "source_item_id": 50417993,
+      "source_url": "https://news.ycombinator.com/item?id=50417993",
+      "author": "yuvadam",
+      "shared_at": 1794176318,
+      "links": [
+        "https://spill.rs"
+      ]
+    }
+  ]
+}

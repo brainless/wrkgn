@@ -1,0 +1,35 @@
+{
+  "id": 260,
+  "slug": "staaash-3ef9e2c322",
+  "name": "Staaash",
+  "mentions": [
+    {
+      "name": "Staaash",
+      "description": "Self-hosted cloud drive that runs on your own server as a Google Drive alternative. Version 2 adds a desktop app with sync and a redesigned web app after a near-complete rewrite, and is in release-candidate stage ahead of the v2 launch.",
+      "problem": "v1 lacked a desktop app with sync, which v2 adds; the project exists as a self-hosted alternative to Google Drive.",
+      "audience": "People who want to run their own cloud storage (Google Drive alternative) on their own server.",
+      "builder_usernames": [
+        "itsmeares"
+      ],
+      "source_excerpt": "I've been working on a self-hosted cloud drive (like a Google Drive alternative to run on your own server), about to release v2.\n\nv1 didn't have a desktop app with sync, so I added one. I also redesigned the whole web app (a few pages are same as old design but I might change those later)",
+      "evidence": [
+        {
+          "source_item_id": 50425659,
+          "source_field": "body",
+          "value": "I've been working on a self-hosted cloud drive (like a Google Drive alternative to run on your own server), about to release v2.\n\nv1 didn't have a desktop app with sync, so I added one. I also redesigned the whole web app (a few pages are same as old design but I might change those later)",
+          "supports": [],
+          "author": "itsmeares",
+          "shared_at": 1794232571,
+          "source_url": "https://news.ycombinator.com/item?id=50425659"
+        }
+      ],
+      "source_item_id": 50425659,
+      "source_url": "https://news.ycombinator.com/item?id=50425659",
+      "author": "itsmeares",
+      "shared_at": 1794232571,
+      "links": [
+        "https://github.com/itsmeares/staaash"
+      ]
+    }
+  ]
+}

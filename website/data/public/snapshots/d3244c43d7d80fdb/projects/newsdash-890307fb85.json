@@ -1,0 +1,35 @@
+{
+  "id": 3357,
+  "slug": "newsdash-890307fb85",
+  "name": "Newsdash",
+  "mentions": [
+    {
+      "name": "Newsdash",
+      "description": "Climate news tool described as 'Perplexity for climate news,' currently hardcoded to be personally relevant and using Gemini for basic web search grounding.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "botanrice"
+      ],
+      "source_excerpt": "https://newsdash.concourse.codes - basically: Perplexity for climate news. hardcoded to be personally relevant rn, uses Gemini to do some basic web search grounding. Turned out to be fairly helpful",
+      "evidence": [
+        {
+          "source_item_id": 50426124,
+          "source_field": "body",
+          "value": "https://newsdash.concourse.codes - basically: Perplexity for climate news. hardcoded to be personally relevant rn, uses Gemini to do some basic web search grounding. Turned out to be fairly helpful",
+          "supports": [],
+          "author": "botanrice",
+          "shared_at": 1794234513,
+          "source_url": "https://news.ycombinator.com/item?id=50426124"
+        }
+      ],
+      "source_item_id": 50426124,
+      "source_url": "https://news.ycombinator.com/item?id=50426124",
+      "author": "botanrice",
+      "shared_at": 1794234513,
+      "links": [
+        "https://newsdash.concourse.codes"
+      ]
+    }
+  ]
+}

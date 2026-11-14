@@ -1,0 +1,33 @@
+{
+  "id": 986,
+  "slug": "post-quantum-long-term-file-encryption-tool-4c9cce3ac8",
+  "name": "Post-quantum long-term file encryption tool",
+  "mentions": [
+    {
+      "name": "Post-quantum long-term file encryption tool",
+      "description": "An encryption tool designed for encrypting and archiving long-term highly confidential files in the post-quantum era, intended to be released as open source after a period of dogfooding. The author plans to use it to encrypt and back up GPG keys offline, burn them onto M-DISC discs, and store them in a bank safe.",
+      "problem": "Securely preserving highly confidential files over the long term against decryption threats in the post-quantum era.",
+      "audience": null,
+      "builder_usernames": [
+        "LamGC"
+      ],
+      "source_excerpt": "I am currently developing a great encryption tool for long-term highly confidential files in the post quantum era, but I am still concerned about any issues with it, so I am personally using it for a period of time to prove that this tool can be released as open source!",
+      "evidence": [
+        {
+          "source_item_id": 49691501,
+          "source_field": "body",
+          "value": "I am currently developing a great encryption tool for long-term highly confidential files in the post quantum era, but I am still concerned about any issues with it, so I am personally using it for a period of time to prove that this tool can be released as open source!",
+          "supports": [],
+          "author": "LamGC",
+          "shared_at": 1789355616,
+          "source_url": "https://news.ycombinator.com/item?id=49691501"
+        }
+      ],
+      "source_item_id": 49691501,
+      "source_url": "https://news.ycombinator.com/item?id=49691501",
+      "author": "LamGC",
+      "shared_at": 1789355616,
+      "links": []
+    }
+  ]
+}

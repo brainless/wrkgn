@@ -1,0 +1,35 @@
+{
+  "id": 308,
+  "slug": "geopeek-2c516e2351",
+  "name": "GeoPeek",
+  "mentions": [
+    {
+      "name": "GeoPeek",
+      "description": "A macOS Quick Look extension for GeoJSON files: pressing Space on a .geojson in Finder shows a map preview instead of raw JSON, along with an attribute table and basic stats.",
+      "problem": "Previewing GeoJSON files in Finder only showed raw JSON; there was no quick way to see the underlying map.",
+      "audience": "People working with geospatial data",
+      "builder_usernames": [
+        "serifsadi"
+      ],
+      "source_excerpt": "GeoPeek, a small macOS Quick Look extension for GeoJSON. I work with geospatial data and wanted to press Space on a .geojson in Finder and see a map instead of raw JSON. It also shows an attribute table and basic stats.",
+      "evidence": [
+        {
+          "source_item_id": 50348920,
+          "source_field": "body",
+          "value": "GeoPeek, a small macOS Quick Look extension for GeoJSON. I work with geospatial data and wanted to press Space on a .geojson in Finder and see a map instead of raw JSON. It also shows an attribute table and basic stats.",
+          "supports": [],
+          "author": "serifsadi",
+          "shared_at": 1793689041,
+          "source_url": "https://news.ycombinator.com/item?id=50348920"
+        }
+      ],
+      "source_item_id": 50348920,
+      "source_url": "https://news.ycombinator.com/item?id=50348920",
+      "author": "serifsadi",
+      "shared_at": 1793689041,
+      "links": [
+        "https://github.com/serifsadi/geopeek"
+      ]
+    }
+  ]
+}

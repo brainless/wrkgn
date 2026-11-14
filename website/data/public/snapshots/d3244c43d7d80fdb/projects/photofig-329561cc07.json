@@ -1,0 +1,35 @@
+{
+  "id": 1777,
+  "slug": "photofig-329561cc07",
+  "name": "PhotoFig",
+  "mentions": [
+    {
+      "name": "PhotoFig",
+      "description": "A product-photo editor for online sellers that cleans up large batches of product images. It offers automated background removal plus first-class masking with SAM-assisted selection and a precise manual brush for corrections. The backend and storage are self-hosted on owned hardware, including a Kubernetes operator that bin-packs GPU workloads across workers.",
+      "problem": "Existing tools could remove backgrounds automatically but didn't give enough control when the result needed correcting; the author's wife had to carefully mask product photos for her online shop.",
+      "audience": "Online sellers who need to clean up hundreds of images for their shops.",
+      "builder_usernames": [
+        "karolist"
+      ],
+      "source_excerpt": "I’m working on PhotoFig: https://photofig.com, a recently launched product-photo editor for online sellers who need to clean up hundreds of images.",
+      "evidence": [
+        {
+          "source_item_id": 49234237,
+          "source_field": "body",
+          "value": "I’m working on PhotoFig: https://photofig.com, a recently launched product-photo editor for online sellers who need to clean up hundreds of images.",
+          "supports": [],
+          "author": "karolist",
+          "shared_at": 1786300698,
+          "source_url": "https://news.ycombinator.com/item?id=49234237"
+        }
+      ],
+      "source_item_id": 49234237,
+      "source_url": "https://news.ycombinator.com/item?id=49234237",
+      "author": "karolist",
+      "shared_at": 1786300698,
+      "links": [
+        "https://photofig.com"
+      ]
+    }
+  ]
+}

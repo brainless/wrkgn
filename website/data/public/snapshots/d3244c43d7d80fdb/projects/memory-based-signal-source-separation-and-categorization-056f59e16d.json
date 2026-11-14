@@ -1,0 +1,33 @@
+{
+  "id": 567,
+  "slug": "memory-based-signal-source-separation-and-categorization-056f59e16d",
+  "name": "Memory-based signal source separation",
+  "mentions": [
+    {
+      "name": "Memory-based signal source separation",
+      "description": "This project performs signal analysis to drive desired signal-based actions by grouping, categorizing, and stratifying signals into useful buckets. It addresses drawbacks of blind source separation, which repeatedly guesses at sources and labels them as brand new, by instead retaining a memory of previously identified sources (analogous to how humans can distinguish pianos from drums and remember the distinction across songs).",
+      "problem": "Blind source separation continuously guesses at sources and labels them as brand new instead of having a memory of previously identified sources.",
+      "audience": null,
+      "builder_usernames": [
+        "gabinator"
+      ],
+      "source_excerpt": "Signal analysis to drive <desired signal-driven action>. Grouping/categorizing/stratifying signals into useful buckets to drive actions. Blind source separation has drawbacks like continuously guessing at sources and labeling them as brand new instead of having a memory of previously identified sources. Think of how humans can distinguish pianos from drums and remember the distinction across songs.",
+      "evidence": [
+        {
+          "source_item_id": 50419049,
+          "source_field": "body",
+          "value": "Signal analysis to drive <desired signal-driven action>. Grouping/categorizing/stratifying signals into useful buckets to drive actions. Blind source separation has drawbacks like continuously guessing at sources and labeling them as brand new instead of having a memory of previously identified sources. Think of how humans can distinguish pianos from drums and remember the distinction across songs.",
+          "supports": [],
+          "author": "gabinator",
+          "shared_at": 1794181939,
+          "source_url": "https://news.ycombinator.com/item?id=50419049"
+        }
+      ],
+      "source_item_id": 50419049,
+      "source_url": "https://news.ycombinator.com/item?id=50419049",
+      "author": "gabinator",
+      "shared_at": 1794181939,
+      "links": []
+    }
+  ]
+}

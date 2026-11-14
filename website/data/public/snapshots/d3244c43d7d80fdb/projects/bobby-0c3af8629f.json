@@ -1,0 +1,35 @@
+{
+  "id": 513,
+  "slug": "bobby-0c3af8629f",
+  "name": "Bobby",
+  "mentions": [
+    {
+      "name": "Bobby",
+      "description": "This is a code review tool for pull requests focused on ergonomics. It renders files in organized trees/graphs generated from LSPs and symbol references instead of a linear file list, provides keyboard shortcuts for navigation, pan, zoom, commenting, noting, and submitting, is mostly GitHub-compatible with native features, offers LSP-powered symbol resolution for inspecting definitions and references, supports LLM-powered reviews, and includes inline LLM question answering.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "angrybayblade"
+      ],
+      "source_excerpt": "A PR Review tool for ergonomics - https://bobby.viraj.computer",
+      "evidence": [
+        {
+          "source_item_id": 50329920,
+          "source_field": "body",
+          "value": "A PR Review tool for ergonomics - https://bobby.viraj.computer",
+          "supports": [],
+          "author": "angrybayblade",
+          "shared_at": 1793567331,
+          "source_url": "https://news.ycombinator.com/item?id=50329920"
+        }
+      ],
+      "source_item_id": 50329920,
+      "source_url": "https://news.ycombinator.com/item?id=50329920",
+      "author": "angrybayblade",
+      "shared_at": 1793567331,
+      "links": [
+        "https://bobby.viraj.computer"
+      ]
+    }
+  ]
+}

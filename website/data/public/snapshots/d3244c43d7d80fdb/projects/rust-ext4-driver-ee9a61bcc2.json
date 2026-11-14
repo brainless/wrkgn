@@ -1,0 +1,33 @@
+{
+  "id": 797,
+  "slug": "rust-ext4-driver-ee9a61bcc2",
+  "name": "Rust ext4 driver",
+  "mentions": [
+    {
+      "name": "Rust ext4 driver",
+      "description": "An ext4 filesystem driver written in Rust, designed to be reusable as a FUSE driver and eventually a Windows kernel driver. It aims for a full ext4 implementation with ext2 and ext3 read/write support; most essential features are implemented, though xattrs support is still missing. The author uses AI only for unit tests and scoped code rewriting, and plans to add fuzzing in the long run.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jfrei"
+      ],
+      "source_excerpt": "I am working on a Rust-based ext4 driver. The idea is that it can be re-used as a FUSE-based driver as well as (Windows) kernel driver (eventually).",
+      "evidence": [
+        {
+          "source_item_id": 50341961,
+          "source_field": "body",
+          "value": "I am working on a Rust-based ext4 driver. The idea is that it can be re-used as a FUSE-based driver as well as (Windows) kernel driver (eventually).",
+          "supports": [],
+          "author": "jfrei",
+          "shared_at": 1793646499,
+          "source_url": "https://news.ycombinator.com/item?id=50341961"
+        }
+      ],
+      "source_item_id": 50341961,
+      "source_url": "https://news.ycombinator.com/item?id=50341961",
+      "author": "jfrei",
+      "shared_at": 1793646499,
+      "links": []
+    }
+  ]
+}

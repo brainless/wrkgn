@@ -1,0 +1,35 @@
+{
+  "id": 107,
+  "slug": "kim-1-development-6502-dev-environment-for-mac-cbf54a9b43",
+  "name": "KIM-1 6502 development environment",
+  "mentions": [
+    {
+      "name": "KIM-1 6502 development environment",
+      "description": "A 6502 assembly development environment for macOS, set up with Claude's help, that can compile and link the assembly programs from The First Book of KIM. The GitHub repo contains the full toolchain with setup instructions, plus modernized versions of several book programs reformatted into a style compatible with modern assemblers.",
+      "problem": "Wanted a way to compile and link the 6502 assembly programs from The First Book of KIM on a Mac.",
+      "audience": null,
+      "builder_usernames": [
+        "JKCalhoun"
+      ],
+      "source_excerpt": "I wanted to be able to compile/link the assembly from the book so leaned on Claude to set up a 6502 dev environment for my Mac. I put everything needed (and instructions) on GitHub [3].",
+      "evidence": [
+        {
+          "source_item_id": 50332938,
+          "source_field": "body",
+          "value": "I wanted to be able to compile/link the assembly from the book so leaned on Claude to set up a 6502 dev environment for my Mac. I put everything needed (and instructions) on GitHub [3].",
+          "supports": [],
+          "author": "JKCalhoun",
+          "shared_at": 1793591597,
+          "source_url": "https://news.ycombinator.com/item?id=50332938"
+        }
+      ],
+      "source_item_id": 50332938,
+      "source_url": "https://news.ycombinator.com/item?id=50332938",
+      "author": "JKCalhoun",
+      "shared_at": 1793591597,
+      "links": [
+        "https://github.com/EngineersNeedArt/KIM-1_Development"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 768,
+  "slug": "ur-55edb0f920",
+  "name": "Ur",
+  "mentions": [
+    {
+      "name": "Ur",
+      "description": "This project is a universal formatter and linter for every programming language, currently in preview. It is implemented in Rust as a reimagining of the Rascal meta language with features from JastAdd, is incremental and persistent between runs, and includes static analysis and code rewriting tools. It is built on top of Mambo, a library that persists all queries to disk automatically.",
+      "problem": null,
+      "audience": "Programmers working in any programming language",
+      "builder_usernames": [
+        "knuckleheads"
+      ],
+      "source_excerpt": "Ur is an (very in-progress) universal formatter and linter for every programming language. It's in preview right now, which just means friends are messing around with it and having a good time pointing out all the bugs.",
+      "evidence": [
+        {
+          "source_item_id": 50422886,
+          "source_field": "body",
+          "value": "Ur is an (very in-progress) universal formatter and linter for every programming language. It's in preview right now, which just means friends are messing around with it and having a good time pointing out all the bugs.",
+          "supports": [],
+          "author": "knuckleheads",
+          "shared_at": 1794214222,
+          "source_url": "https://news.ycombinator.com/item?id=50422886"
+        }
+      ],
+      "source_item_id": 50422886,
+      "source_url": "https://news.ycombinator.com/item?id=50422886",
+      "author": "knuckleheads",
+      "shared_at": 1794214222,
+      "links": [
+        "https://ur.dev/en/"
+      ]
+    },
+    {
+      "name": "Ur",
+      "description": "This tool is a universal formatter and linter designed to work with every programming language. It is currently in preview, with documentation mostly up to date.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "knuckleheads"
+      ],
+      "source_excerpt": "Ur is an (in-progress) universal formatter and linter for every programming language. It's in preview right now, which just means friends are messing around with it and having a good time pointing out all the bugs. Docs are mostly up to date, but buyer beware.",
+      "evidence": [
+        {
+          "source_item_id": 50342317,
+          "source_field": "body",
+          "value": "Ur is an (in-progress) universal formatter and linter for every programming language. It's in preview right now, which just means friends are messing around with it and having a good time pointing out all the bugs. Docs are mostly up to date, but buyer beware.",
+          "supports": [],
+          "author": "knuckleheads",
+          "shared_at": 1793647805,
+          "source_url": "https://news.ycombinator.com/item?id=50342317"
+        }
+      ],
+      "source_item_id": 50342317,
+      "source_url": "https://news.ycombinator.com/item?id=50342317",
+      "author": "knuckleheads",
+      "shared_at": 1793647805,
+      "links": [
+        "https://ur.dev/en/"
+      ]
+    }
+  ]
+}

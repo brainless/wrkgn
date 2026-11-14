@@ -1,0 +1,33 @@
+{
+  "id": 2675,
+  "slug": "natural-language-drone-mission-control-for-wildland-firefighting-9a308965fb",
+  "name": "Natural-language drone mission control for wildland firefighting",
+  "mentions": [
+    {
+      "name": "Natural-language drone mission control for wildland firefighting",
+      "description": "A drone flight system controlled through natural language instead of remote controllers: the operator describes the goal they want to achieve, and the drone flies according to the agreed intent, going beyond traditional autopilots' static pre-planned routes to enable more dynamic and flexible missions. Planned capability includes combining a live camera stream with a local vision model that identifies and notifies the operator of images of interest during flight, who can then re-task or adjust the mission. The author aims to expand the technology into the wildland firefighting vertical, leveraging drones in place of humans in helicopters and fixed-wing aircraft.",
+      "problem": "Traditional drones use static pre-planned autopilot routes and require a human on the control sticks the entire time, lacking dynamic and flexible mission control; in wildland firefighting, humans are put up in helicopters and fixed-wing aircraft where drones could replace enough use cases to be worthwhile.",
+      "audience": null,
+      "builder_usernames": [
+        "silksowed"
+      ],
+      "source_excerpt": "Flying drones with natural language input instead of remote controllers. Instead of having a human on the control sticks the entire time, what if they could describe the goal they are trying to achieve, and then the drone goes and flies according to the agreed intent?",
+      "evidence": [
+        {
+          "source_item_id": 48899031,
+          "source_field": "body",
+          "value": "Flying drones with natural language input instead of remote controllers. Instead of having a human on the control sticks the entire time, what if they could describe the goal they are trying to achieve, and then the drone goes and flies according to the agreed intent?",
+          "supports": [],
+          "author": "silksowed",
+          "shared_at": 1783977546,
+          "source_url": "https://news.ycombinator.com/item?id=48899031"
+        }
+      ],
+      "source_item_id": 48899031,
+      "source_url": "https://news.ycombinator.com/item?id=48899031",
+      "author": "silksowed",
+      "shared_at": 1783977546,
+      "links": []
+    }
+  ]
+}

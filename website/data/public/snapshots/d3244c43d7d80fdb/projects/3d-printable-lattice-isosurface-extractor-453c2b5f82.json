@@ -1,0 +1,36 @@
+{
+  "id": 1204,
+  "slug": "3d-printable-lattice-isosurface-extractor-453c2b5f82",
+  "name": "3D-printable lattice isosurface extractor",
+  "mentions": [
+    {
+      "name": "3D-printable lattice isosurface extractor",
+      "description": "This tool implements a specialized isosurface extraction algorithm for generating 3D-printable surface-based lattices. The lattice configuration is derived from a conventional triangle mesh that can be prepared in any STL editor, and the lattice shape comes from a precalculated Fourier polynomial in barycentric coordinates.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "okaleniuk"
+      ],
+      "source_excerpt": "I'm working on a highly specialized isosurface extraction algorithm for 3D-printable surface-based lattices.",
+      "evidence": [
+        {
+          "source_item_id": 49692770,
+          "source_field": "body",
+          "value": "I'm working on a highly specialized isosurface extraction algorithm for 3D-printable surface-based lattices.",
+          "supports": [],
+          "author": "okaleniuk",
+          "shared_at": 1789367693,
+          "source_url": "https://news.ycombinator.com/item?id=49692770"
+        }
+      ],
+      "source_item_id": 49692770,
+      "source_url": "https://news.ycombinator.com/item?id=49692770",
+      "author": "okaleniuk",
+      "shared_at": 1789367693,
+      "links": [
+        "https://okaleniuk.codeberg.page/blackboard/barycentric_fourier.html",
+        "https://www.linkedin.com/posts/okaleniuk_isosurface-mesh-stl-activity-7503473225214087168-GSLG"
+      ]
+    }
+  ]
+}

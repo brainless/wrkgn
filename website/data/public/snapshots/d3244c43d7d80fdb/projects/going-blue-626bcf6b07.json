@@ -1,0 +1,36 @@
+{
+  "id": 1028,
+  "slug": "going-blue-626bcf6b07",
+  "name": "Going Blue",
+  "mentions": [
+    {
+      "name": "Going Blue",
+      "description": "An expedition weather app that delivers detailed weather forecasts over low-bandwidth satellite messengers such as Garmin inReach, ZOLEO, and iPhone satellite messaging. It uses an rANS entropy coder fitted on historical weather forecasts to compress about 100 time periods (~4 days of hourly data) into a 160-character message using just a couple bits per variable on average.",
+      "problem": "Getting detailed weather forecasts through satellite messengers' tiny message limits of about 1,000 bits (160 characters).",
+      "audience": null,
+      "builder_usernames": [
+        "aaasen"
+      ],
+      "source_excerpt": "I'm building an expedition weather app that works via satellite messengers like Garmin inReach, ZOLEO, and iPhone satellite messaging.",
+      "evidence": [
+        {
+          "source_item_id": 49691011,
+          "source_field": "body",
+          "value": "I'm building an expedition weather app that works via satellite messengers like Garmin inReach, ZOLEO, and iPhone satellite messaging.",
+          "supports": [],
+          "author": "aaasen",
+          "shared_at": 1789351687,
+          "source_url": "https://news.ycombinator.com/item?id=49691011"
+        }
+      ],
+      "source_item_id": 49691011,
+      "source_url": "https://news.ycombinator.com/item?id=49691011",
+      "author": "aaasen",
+      "shared_at": 1789351687,
+      "links": [
+        "https://github.com/aaasen/goingblue",
+        "https://going.blue"
+      ]
+    }
+  ]
+}

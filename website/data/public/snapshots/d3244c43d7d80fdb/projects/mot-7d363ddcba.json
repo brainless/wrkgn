@@ -1,0 +1,35 @@
+{
+  "id": 2699,
+  "slug": "mot-7d363ddcba",
+  "name": "mot",
+  "mentions": [
+    {
+      "name": "mot",
+      "description": "A macOS terminal emulator with a cmd+space fullscreen quake-style overlay, quick-terminal tabs, and low input lag, built as an alternative to Ghostty and iTerm2.",
+      "problem": "Ghostty was taking too long to add quick-terminal tabs, which the author relied on as their main iTerm2 workflow, and they wanted a cmd+space fullscreen quake overlay with low input lag.",
+      "audience": null,
+      "builder_usernames": [
+        "mmarc"
+      ],
+      "source_excerpt": "Working on a macOS terminal because Ghostty is taking too long to add quick-terminal tabs which was my main workflow in iterm2.\n\nAll I wanted was cmd+space fullscreen quake-overlay with low input lag so I made it. It fits my workflow exactly so it might be a bit weird for someone else.",
+      "evidence": [
+        {
+          "source_item_id": 48898800,
+          "source_field": "body",
+          "value": "Working on a macOS terminal because Ghostty is taking too long to add quick-terminal tabs which was my main workflow in iterm2.\n\nAll I wanted was cmd+space fullscreen quake-overlay with low input lag so I made it. It fits my workflow exactly so it might be a bit weird for someone else.",
+          "supports": [],
+          "author": "mmarc",
+          "shared_at": 1783976406,
+          "source_url": "https://news.ycombinator.com/item?id=48898800"
+        }
+      ],
+      "source_item_id": 48898800,
+      "source_url": "https://news.ycombinator.com/item?id=48898800",
+      "author": "mmarc",
+      "shared_at": 1783976406,
+      "links": [
+        "https://getmot.app/"
+      ]
+    }
+  ]
+}

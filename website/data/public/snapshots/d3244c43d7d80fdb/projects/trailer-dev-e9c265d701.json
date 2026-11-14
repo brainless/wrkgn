@@ -1,0 +1,35 @@
+{
+  "id": 2842,
+  "slug": "trailer-dev-e9c265d701",
+  "name": "trailer.dev",
+  "mentions": [
+    {
+      "name": "trailer.dev",
+      "description": "This is a self-hostable development environment platform that lets teams set up complex, collaborative development environments without needing expertise in reverse proxies, NVIDIA drivers, or Docker. Kubernetes support is currently in development.",
+      "problem": "Data scientists often cannot set up complex environments for their projects — reverse proxies, NVIDIA drivers, Docker — especially ones that support collaborative work.",
+      "audience": "Data scientists who need complex, collaborative development environments but lack infrastructure expertise.",
+      "builder_usernames": [
+        "oesa"
+      ],
+      "source_excerpt": "https://trailer.dev, a self-hostable development environment platform.",
+      "evidence": [
+        {
+          "source_item_id": 48893564,
+          "source_field": "body",
+          "value": "https://trailer.dev, a self-hostable development environment platform.",
+          "supports": [],
+          "author": "oesa",
+          "shared_at": 1783954084,
+          "source_url": "https://news.ycombinator.com/item?id=48893564"
+        }
+      ],
+      "source_item_id": 48893564,
+      "source_url": "https://news.ycombinator.com/item?id=48893564",
+      "author": "oesa",
+      "shared_at": 1783954084,
+      "links": [
+        "https://trailer.dev"
+      ]
+    }
+  ]
+}

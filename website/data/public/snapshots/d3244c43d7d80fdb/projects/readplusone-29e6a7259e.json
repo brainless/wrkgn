@@ -1,0 +1,119 @@
+{
+  "id": 55,
+  "slug": "readplusone-29e6a7259e",
+  "name": "ReadPlusOne",
+  "mentions": [
+    {
+      "name": "ReadPlusOne",
+      "description": "Spanish language-learning app that uses LLMs to generate stories matched to the reader's vocabulary level. As you read, you tap unknown words and they are added to a spaced repetition system (SRS); the SRS is then pulled from when generating later stories so words are reviewed in context rather than as plain flashcards. An iOS native app is being built in Swift.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "brandonc7"
+      ],
+      "source_excerpt": "I’ve been still working on my Spanish learning project. To summarize it in short, it uses LLMs to generate stories at your specific vocab level. As you read you tap words you don’t know and they get added to a spaced repetition system (SRS). The SRS is then pulled from later when generating stories to help you review those words with context rather than just a flash card.",
+      "evidence": [
+        {
+          "source_item_id": 50428237,
+          "source_field": "body",
+          "value": "I’ve been still working on my Spanish learning project. To summarize it in short, it uses LLMs to generate stories at your specific vocab level. As you read you tap words you don’t know and they get added to a spaced repetition system (SRS). The SRS is then pulled from later when generating stories to help you review those words with context rather than just a flash card.",
+          "supports": [],
+          "author": "brandonc7",
+          "shared_at": 1794243483,
+          "source_url": "https://news.ycombinator.com/item?id=50428237"
+        }
+      ],
+      "source_item_id": 50428237,
+      "source_url": "https://news.ycombinator.com/item?id=50428237",
+      "author": "brandonc7",
+      "shared_at": 1794243483,
+      "links": [
+        "https://readplusone.com"
+      ]
+    },
+    {
+      "name": "ReadPlusOne",
+      "description": "A comprehensible input reader app for learning Spanish. Stories are followed by a review system that drills the top words the system thinks the learner needs to review, showing each word's definition, a synonym and an example sentence without English translation. Onboarding was reworked to feel less like a quiz, and the app runs as a PWA for mobile use.",
+      "problem": "Reading with 98% word knowledge is not always enough to learn new words from context, so the system adapts with targeted reviews while staying focused on comprehensible input.",
+      "audience": "Spanish learners",
+      "builder_usernames": [
+        "brandonc7"
+      ],
+      "source_excerpt": "I’ve been working on my comprehensible input reader app for Spanish. I’ve recently added a nice review system at the end of each story, that goes over the top words the system thinks you need to review, but shows the definition, synonym and an example sentence all without a English translation. I’ve also improved the onboarding system to feel less challenging and less like a quiz.",
+      "evidence": [
+        {
+          "source_item_id": 49698973,
+          "source_field": "body",
+          "value": "I’ve been working on my comprehensible input reader app for Spanish. I’ve recently added a nice review system at the end of each story, that goes over the top words the system thinks you need to review, but shows the definition, synonym and an example sentence all without a English translation. I’ve also improved the onboarding system to feel less challenging and less like a quiz.",
+          "supports": [],
+          "author": "brandonc7",
+          "shared_at": 1789401002,
+          "source_url": "https://news.ycombinator.com/item?id=49698973"
+        }
+      ],
+      "source_item_id": 49698973,
+      "source_url": "https://news.ycombinator.com/item?id=49698973",
+      "author": "brandonc7",
+      "shared_at": 1789401002,
+      "links": [
+        "https://readplusone.com"
+      ]
+    },
+    {
+      "name": "ReadPlusOne",
+      "description": "A Spanish comprehensible input reading app that combines graded readers with spaced repetition (Anki-style). Stories are generated with LLMs tailored to the learner's Spanish level; users click words they don't know, and the system naturally reintroduces those words in future stories so they keep appearing in context. Natural language processing (mostly with spaCy) powers the system. It launched in beta, with plans for a paid tier offering higher story generation limits alongside a free tier.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "brandonc7"
+      ],
+      "source_excerpt": "I’ve been working on my comprehensible input reader for Spanish still. I launched the beta exactly last month and it has been going well.\n\nThe project combines the idea of graded readers with spaced repetition systems like Anki. You generate stories with LLMs that are tailored to your Spanish level, then click the words you don’t know. As you read more stories, the system brings those words back naturally in future stories so you keep seeing them in context.",
+      "evidence": [
+        {
+          "source_item_id": 49244506,
+          "source_field": "body",
+          "value": "I’ve been working on my comprehensible input reader for Spanish still. I launched the beta exactly last month and it has been going well.\n\nThe project combines the idea of graded readers with spaced repetition systems like Anki. You generate stories with LLMs that are tailored to your Spanish level, then click the words you don’t know. As you read more stories, the system brings those words back naturally in future stories so you keep seeing them in context.",
+          "supports": [],
+          "author": "brandonc7",
+          "shared_at": 1786373587,
+          "source_url": "https://news.ycombinator.com/item?id=49244506"
+        }
+      ],
+      "source_item_id": 49244506,
+      "source_url": "https://news.ycombinator.com/item?id=49244506",
+      "author": "brandonc7",
+      "shared_at": 1786373587,
+      "links": [
+        "https://readplusone.com"
+      ]
+    },
+    {
+      "name": "ReadPlusOne",
+      "description": "This app helps users learn Spanish through comprehensible input: it uses LLMs to generate stories targeted to each user's knowledge, and while extensively reading, users select any words they don't understand. Those words are added to a spaced repetition deck and worked into future stories when it's time to review them. Vocabulary knowledge is tracked at the lemma level (storing a word's lemma and modifiers instead of every inflection), and the LLM is told what the user knows without sending every known lemma. The beta launched last Tuesday.",
+      "problem": "Similar language learning tools have users choose a fixed CEFR level (A1, B2, etc.) instead of creating the perfect story for the user's granular vocabulary knowledge, which the author feels defeats the point of using an LLM.",
+      "audience": "People learning Spanish",
+      "builder_usernames": [
+        "brandonc7"
+      ],
+      "source_excerpt": "I've been working on a Spanish language learning tool that helps users learn with comprehensible input. It uses LLMs to generate targeted stories for the users and while the user is extensively reading they select any words they don't understand.",
+      "evidence": [
+        {
+          "source_item_id": 48893434,
+          "source_field": "body",
+          "value": "I've been working on a Spanish language learning tool that helps users learn with comprehensible input. It uses LLMs to generate targeted stories for the users and while the user is extensively reading they select any words they don't understand.",
+          "supports": [],
+          "author": "brandonc7",
+          "shared_at": 1783953517,
+          "source_url": "https://news.ycombinator.com/item?id=48893434"
+        }
+      ],
+      "source_item_id": 48893434,
+      "source_url": "https://news.ycombinator.com/item?id=48893434",
+      "author": "brandonc7",
+      "shared_at": 1783953517,
+      "links": [
+        "https://readplusone.com"
+      ]
+    }
+  ]
+}

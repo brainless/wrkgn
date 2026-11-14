@@ -1,0 +1,36 @@
+{
+  "id": 885,
+  "slug": "ai-trading-competition-2f340b45a6",
+  "name": "AI Trading Competition",
+  "mentions": [
+    {
+      "name": "AI Trading Competition",
+      "description": "This project runs an ongoing paper-trading experiment with 29 accounts on real US stock prices, each funded with $100k in paper money since July 27. Four AI models (ChatGPT, Claude, Grok, Gemini) each write a trading rulebook and rewrite it every day based on their own results, while one control account runs a fixed rulebook no AI touches. All results are published publicly, including losses and retired strategies, with the full trade file available as CSV.",
+      "problem": "Tests whether AI-written trading rulebooks can outperform a fixed non-AI rulebook and the S&P 500.",
+      "audience": null,
+      "builder_usernames": [
+        "chumzygood"
+      ],
+      "source_excerpt": "I run a small experiment on this: 29 paper-trading accounts on real US stock prices, $100k each, since July 27. Four AI models (ChatGPT, Claude, Grok, Gemini) each write a trading rulebook and rewrite it every day from their own results. One account is a fixed rulebook that no AI ever touches, as a control.",
+      "evidence": [
+        {
+          "source_item_id": 49691483,
+          "source_field": "body",
+          "value": "I run a small experiment on this: 29 paper-trading accounts on real US stock prices, $100k each, since July 27. Four AI models (ChatGPT, Claude, Grok, Gemini) each write a trading rulebook and rewrite it every day from their own results. One account is a fixed rulebook that no AI ever touches, as a control.",
+          "supports": [],
+          "author": "chumzygood",
+          "shared_at": 1789355501,
+          "source_url": "https://news.ycombinator.com/item?id=49691483"
+        }
+      ],
+      "source_item_id": 49691483,
+      "source_url": "https://news.ycombinator.com/item?id=49691483",
+      "author": "chumzygood",
+      "shared_at": 1789355501,
+      "links": [
+        "https://aitradingcompetition.com/which-ai-is-winning.html",
+        "https://github.com/ckamelhar-collab/ai-trading-arena-data"
+      ]
+    }
+  ]
+}

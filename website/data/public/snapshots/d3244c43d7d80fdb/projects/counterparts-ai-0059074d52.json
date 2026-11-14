@@ -1,0 +1,35 @@
+{
+  "id": 125,
+  "slug": "counterparts-ai-0059074d52",
+  "name": "Counterparts",
+  "mentions": [
+    {
+      "name": "Counterparts",
+      "description": "This tool gives Claude a memory system modeled after human memory: it forgets older memories so nothing gets stale, dreams to merge similar memories, updates memories when facts change, and has prospective memory to remind you about things in the future. Over time it develops a persistent identity and gets to know the user better, working alongside Claude's built-in memory file. It is free, open source, and runs totally locally with no API keys.",
+      "problem": "AI memory becomes stale, piles up into hundreds of md docs, and is limited to a one-page built-in memory file.",
+      "audience": null,
+      "builder_usernames": [
+        "mlapeter"
+      ],
+      "source_excerpt": "For last several months I've been building https://counterparts.ai, memory for claude modeled after human memory. It forgets older memories so things never get stale, it dreams to merge similar ones, it updates memories when facts change, it has prospective memory to remind you in the future, etc.",
+      "evidence": [
+        {
+          "source_item_id": 50419490,
+          "source_field": "body",
+          "value": "For last several months I've been building https://counterparts.ai, memory for claude modeled after human memory. It forgets older memories so things never get stale, it dreams to merge similar ones, it updates memories when facts change, it has prospective memory to remind you in the future, etc.",
+          "supports": [],
+          "author": "mlapeter",
+          "shared_at": 1794185056,
+          "source_url": "https://news.ycombinator.com/item?id=50419490"
+        }
+      ],
+      "source_item_id": 50419490,
+      "source_url": "https://news.ycombinator.com/item?id=50419490",
+      "author": "mlapeter",
+      "shared_at": 1794185056,
+      "links": [
+        "https://counterparts.ai"
+      ]
+    }
+  ]
+}

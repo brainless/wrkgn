@@ -1,0 +1,35 @@
+{
+  "id": 142,
+  "slug": "orpheum-c1fc7b8a72",
+  "name": "Orpheum",
+  "mentions": [
+    {
+      "name": "Orpheum",
+      "description": "A self-hosted video media server, comparable to Plex or Jellyfin, shipped as a single Go binary deployable via Docker. It reaches a home server from anywhere without port forwarding, VPN, or Tailscale, even behind carrier-grade NAT, and supports casting to other devices, synchronized watch-together playback with voice chat, dialogue boost, loudness levelling, real adaptive quality tuned for home upload bandwidth, and hardware transcoding. The library scanner explains its matches and flags guessed titles and missing disks, metadata corrections can be written back as NFO files readable by Kodi and Jellyfin, and watch state, preferences, and shares are kept in automatic backups. Security is a primary concern: the network-facing core never opens media files or runs FFmpeg, a network-isolated media node handles all file reads and transcoding over Unix sockets, FFmpeg is sandboxed with Landlock and seccomp, the library can be mounted read-only, and servers and releases use a cryptographically signed chain. The beta is planned to open in about a month.",
+      "problem": "Existing media servers commonly involve paywalls, bandwidth limiting, and crippled behavior, and reaching a home server remotely typically requires port forwarding, a VPN, or Tailscale.",
+      "audience": null,
+      "builder_usernames": [
+        "kstenerud"
+      ],
+      "source_excerpt": "I'm building a self-hosted media server for video, like Plex or Jellyfin. I'll be opening the beta in about a month.",
+      "evidence": [
+        {
+          "source_item_id": 50328605,
+          "source_field": "body",
+          "value": "I'm building a self-hosted media server for video, like Plex or Jellyfin. I'll be opening the beta in about a month.",
+          "supports": [],
+          "author": "kstenerud",
+          "shared_at": 1793559891,
+          "source_url": "https://news.ycombinator.com/item?id=50328605"
+        }
+      ],
+      "source_item_id": 50328605,
+      "source_url": "https://news.ycombinator.com/item?id=50328605",
+      "author": "kstenerud",
+      "shared_at": 1793559891,
+      "links": [
+        "https://orpheum-app.com/"
+      ]
+    }
+  ]
+}

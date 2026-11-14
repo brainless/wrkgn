@@ -1,0 +1,35 @@
+{
+  "id": 2785,
+  "slug": "autoptt-06398fa05e",
+  "name": "AutoPTT",
+  "mentions": [
+    {
+      "name": "AutoPTT",
+      "description": "AutoPTT is getting a redesigned UI styled similar to Discord's settings, built with a pure C UI library (Nuklear) instead of Electron to keep resource usage low; gamers make up a large portion of its user base.",
+      "problem": "Avoiding the bloat and high resource usage of Electron-based UIs while keeping the app lightweight.",
+      "audience": "Gamers are a large portion of the user base",
+      "builder_usernames": [
+        "veyh"
+      ],
+      "source_excerpt": "I'm working on better UI for my app AutoPTT [1]. It's probably going to look somewhat similar to Discord's settings, except I won't be using Electron.",
+      "evidence": [
+        {
+          "source_item_id": 48886289,
+          "source_field": "body",
+          "value": "I'm working on better UI for my app AutoPTT [1]. It's probably going to look somewhat similar to Discord's settings, except I won't be using Electron.",
+          "supports": [],
+          "author": "veyh",
+          "shared_at": 1783901702,
+          "source_url": "https://news.ycombinator.com/item?id=48886289"
+        }
+      ],
+      "source_item_id": 48886289,
+      "source_url": "https://news.ycombinator.com/item?id=48886289",
+      "author": "veyh",
+      "shared_at": 1783901702,
+      "links": [
+        "https://autoptt.com/"
+      ]
+    }
+  ]
+}

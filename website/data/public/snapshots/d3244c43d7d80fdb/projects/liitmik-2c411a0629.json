@@ -1,0 +1,35 @@
+{
+  "id": 235,
+  "slug": "liitmik-2c411a0629",
+  "name": "Liitmik",
+  "mentions": [
+    {
+      "name": "Liitmik",
+      "description": "A Windows/Mac/Linux desktop app for lawyers that connects to a filesystem-based project catalog and enables quickly spinning up AI agent sessions: the user selects the right project via autocomplete search and launches an agent (Claude Code, Codex, OpenCode) in an isolated VM. This provides strict context management and strict agent isolation on the lawyer's own machine, letting sensitive-data professionals use widely used models and harnesses in a stricter-than-default environment.",
+      "problem": "Lawyers and similar professionals working with sensitive data don't need custom agents; they need a way to use widely used models and agent harnesses in an environment more strict than the defaults provide, with fast session creation.",
+      "audience": "Lawyers and other similar professionals working with sensitive data.",
+      "builder_usernames": [
+        "jkasevits"
+      ],
+      "source_excerpt": "I am working on Liitmik, www.liitmik.com. It is a win/mac/linux desktop app that lawyers can point to their filesystem-based project catalog and it will then enable them to spin up AI agent sessions quickly by selecting the right project from their catalog via autocomplete search and starting the agent (Claude Code, Codex, OpenCode) in an isolated VM.",
+      "evidence": [
+        {
+          "source_item_id": 50424049,
+          "source_field": "body",
+          "value": "I am working on Liitmik, www.liitmik.com. It is a win/mac/linux desktop app that lawyers can point to their filesystem-based project catalog and it will then enable them to spin up AI agent sessions quickly by selecting the right project from their catalog via autocomplete search and starting the agent (Claude Code, Codex, OpenCode) in an isolated VM.",
+          "supports": [],
+          "author": "jkasevits",
+          "shared_at": 1794222966,
+          "source_url": "https://news.ycombinator.com/item?id=50424049"
+        }
+      ],
+      "source_item_id": 50424049,
+      "source_url": "https://news.ycombinator.com/item?id=50424049",
+      "author": "jkasevits",
+      "shared_at": 1794222966,
+      "links": [
+        "https://www.liitmik.com"
+      ]
+    }
+  ]
+}

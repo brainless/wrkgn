@@ -1,0 +1,35 @@
+{
+  "id": 812,
+  "slug": "leafle-433d529691",
+  "name": "Leafle",
+  "mentions": [
+    {
+      "name": "Leafle",
+      "description": "This app recommends new books to read based on a deeper understanding of the reader's taste than 'people who read X also read Y' suggestions, using LLMs to reverse-engineer what the reader likes in books. It filters recommendations to books that can be borrowed right away from the user's local library and works with ~6,500 public libraries around the world.",
+      "problem": "Conventional recommendation methods like 'people who read X also read Y' fail to capture deeper personal reading taste, and suggested books often aren't actually available to borrow from one's local library.",
+      "audience": "The author themselves; the app is built mostly for personal use.",
+      "builder_usernames": [
+        "kidnoodle"
+      ],
+      "source_excerpt": "working on http://leafle.org my app (mostly for me) to find new books to read that I wouldn’t have thought of (mostly recently Cosmicomics) based on a deeper understanding of what I like in books than people who read X also read Y, that I can actually borrow right away from my local library. Works on ~6,500 public libraries around the world.",
+      "evidence": [
+        {
+          "source_item_id": 50423296,
+          "source_field": "body",
+          "value": "working on http://leafle.org my app (mostly for me) to find new books to read that I wouldn’t have thought of (mostly recently Cosmicomics) based on a deeper understanding of what I like in books than people who read X also read Y, that I can actually borrow right away from my local library. Works on ~6,500 public libraries around the world.",
+          "supports": [],
+          "author": "kidnoodle",
+          "shared_at": 1794217261,
+          "source_url": "https://news.ycombinator.com/item?id=50423296"
+        }
+      ],
+      "source_item_id": 50423296,
+      "source_url": "https://news.ycombinator.com/item?id=50423296",
+      "author": "kidnoodle",
+      "shared_at": 1794217261,
+      "links": [
+        "http://leafle.org"
+      ]
+    }
+  ]
+}

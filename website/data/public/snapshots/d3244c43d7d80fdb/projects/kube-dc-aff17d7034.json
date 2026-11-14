@@ -1,0 +1,35 @@
+{
+  "id": 23,
+  "slug": "kube-dc-aff17d7034",
+  "name": "kube-dc",
+  "mentions": [
+    {
+      "name": "kube-dc",
+      "description": "A platform for building enterprise-grade private and public clouds, combining VMware, OpenShift, and Railway-style functionality in a single completely multi-tenant product. Built entirely on the Kubernetes API with over 46 custom Go controllers and a Radix UI, it provides real managed services — nested Kubernetes, Postgres, Kafka, Valkey, and GitHub runners — plus VLANs, BGP, and shared GPU support. Built from experience delivering 100+ private clouds as a services company, its aggressive automation is designed to let DevOps, SRE, and platform teams operate at a 1:300 ratio per developer (now including dev + AI agent teams). Currently deployed across 12 datacenters and raising a seed round.",
+      "problem": "Building and operating enterprise private and public clouds requires stitching together separate products and heavy manual effort; the platform aims to automate it so small DevOps/SRE/platform teams can support a 1:300 ratio per developer.",
+      "audience": "DevOps, SRE, and platform teams; existing IaaS and dedicated server providers; some government projects",
+      "builder_usernames": [
+        "voatsap"
+      ],
+      "source_excerpt": "For the last 3 years, with a small team has been building https://kube-dc.com/ - a platform for building enterprise grade private and public clouds. Its like VMware + OpenShift + Railway in a single product: completely multi-tenant, built entirely on the K8s API (we built over 46 custom controllers in Go, with UI in Radix UI), with managed services like nested K8s, Postgres, Kafka, Valkey, and GitHub runners.",
+      "evidence": [
+        {
+          "source_item_id": 50418230,
+          "source_field": "body",
+          "value": "For the last 3 years, with a small team has been building https://kube-dc.com/ - a platform for building enterprise grade private and public clouds. Its like VMware + OpenShift + Railway in a single product: completely multi-tenant, built entirely on the K8s API (we built over 46 custom controllers in Go, with UI in Radix UI), with managed services like nested K8s, Postgres, Kafka, Valkey, and GitHub runners.",
+          "supports": [],
+          "author": "voatsap",
+          "shared_at": 1794177602,
+          "source_url": "https://news.ycombinator.com/item?id=50418230"
+        }
+      ],
+      "source_item_id": 50418230,
+      "source_url": "https://news.ycombinator.com/item?id=50418230",
+      "author": "voatsap",
+      "shared_at": 1794177602,
+      "links": [
+        "https://kube-dc.com/"
+      ]
+    }
+  ]
+}

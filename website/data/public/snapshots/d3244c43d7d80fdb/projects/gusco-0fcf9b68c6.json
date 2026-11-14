@@ -1,0 +1,91 @@
+{
+  "id": 590,
+  "slug": "gusco-0fcf9b68c6",
+  "name": "Gusco",
+  "mentions": [
+    {
+      "name": "Gusco",
+      "description": "Gusco is a file manager that can run either in the terminal or as a native-yet-texty GUI app. It recently added an audio player aimed at people who hoard lots of files, and is built by wrapping a Bubble Tea TUI app in a GUI-ish bundle with Gio UI.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "gusco"
+      ],
+      "source_excerpt": "Still building the file manager I've always wanted: https://intestinate.com/gusco/\n\nAdded an audio player this past month for all fellow file hoarders out there.\n\nAlso, you can now choose if you want Gusco to live in your terminal or run as a native-yet-texty app.",
+      "evidence": [
+        {
+          "source_item_id": 50336437,
+          "source_field": "body",
+          "value": "Still building the file manager I've always wanted: https://intestinate.com/gusco/\n\nAdded an audio player this past month for all fellow file hoarders out there.\n\nAlso, you can now choose if you want Gusco to live in your terminal or run as a native-yet-texty app.",
+          "supports": [],
+          "author": "gusco",
+          "shared_at": 1793625397,
+          "source_url": "https://news.ycombinator.com/item?id=50336437"
+        }
+      ],
+      "source_item_id": 50336437,
+      "source_url": "https://news.ycombinator.com/item?id=50336437",
+      "author": "gusco",
+      "shared_at": 1793625397,
+      "links": [
+        "https://intestinate.com/gusco/"
+      ]
+    },
+    {
+      "name": "Gusco",
+      "description": "A terminal user interface (TUI) file manager written in Go with Bitwarden, SFTP, and S3 support that runs pretty much anywhere. A built-in audio player is currently in development, aimed at people who purchase and organize their music in files and directories.",
+      "problem": "People who purchase and organize music in files and directories lack a worthy competitor to Cubic Player.",
+      "audience": null,
+      "builder_usernames": [
+        "gusco"
+      ],
+      "source_excerpt": "TUI file manager with Bitwarden/SFTP/S3 support written in go.\n\nRuns pretty much anywhere.\n\nCurrent feature in the works is built-in audio player.\n\nAs someone who still likes to purchase and organize music in files and directories, I couldn't resist the itch to code a worthy competitor to Cubic Player :)",
+      "evidence": [
+        {
+          "source_item_id": 49696015,
+          "source_field": "body",
+          "value": "TUI file manager with Bitwarden/SFTP/S3 support written in go.\n\nRuns pretty much anywhere.\n\nCurrent feature in the works is built-in audio player.\n\nAs someone who still likes to purchase and organize music in files and directories, I couldn't resist the itch to code a worthy competitor to Cubic Player :)",
+          "supports": [],
+          "author": "gusco",
+          "shared_at": 1789390373,
+          "source_url": "https://news.ycombinator.com/item?id=49696015"
+        }
+      ],
+      "source_item_id": 49696015,
+      "source_url": "https://news.ycombinator.com/item?id=49696015",
+      "author": "gusco",
+      "shared_at": 1789390373,
+      "links": [
+        "https://intestinate.com/gusco/"
+      ]
+    },
+    {
+      "name": "Orthodox file manager with Bitwarden client (gusco)",
+      "description": "An orthodox file manager that doubles as a Bitwarden client, with proper vim modes and keybindings planned next.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "gusco"
+      ],
+      "source_excerpt": "Very pleased with https://intestinate.com/gusco/\nMy orthodox file manager which now doubles as a Bitwarden client.",
+      "evidence": [
+        {
+          "source_item_id": 49246803,
+          "source_field": "body",
+          "value": "Very pleased with https://intestinate.com/gusco/\nMy orthodox file manager which now doubles as a Bitwarden client.",
+          "supports": [],
+          "author": "gusco",
+          "shared_at": 1786382526,
+          "source_url": "https://news.ycombinator.com/item?id=49246803"
+        }
+      ],
+      "source_item_id": 49246803,
+      "source_url": "https://news.ycombinator.com/item?id=49246803",
+      "author": "gusco",
+      "shared_at": 1786382526,
+      "links": [
+        "https://intestinate.com/gusco/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 16,
+  "slug": "samsung-galaxy-a54-full-stack-reverse-engineering-and-open-replacement-b2d47cd636",
+  "name": "Samsung A54 blob-free Linux stack replacement",
+  "mentions": [
+    {
+      "name": "Samsung A54 blob-free Linux stack replacement",
+      "description": "A full-stack reverse engineering effort to properly own a Samsung A54 (Exynos 1380, Mali-G68): it boots a customized Linux 7.3 kernel without the Android layer (Wayland and WPE WebKit only), replaces the stock Wi-Fi/BT blob with a custom thin mac80211-based WLBT firmware, exploits USB control transfers for ACE in the PBL, reconstructs the LK-based S-Boot, uH and harx with byte-identical verification, patches mesa/panfrost, optimizes GPU kernels so STT/TTS run on GPU faster than CPU, enables NPU use via a custom-built toolchain, and targets pKVM with the original hypervisors removed — no binary blobs, with software and hardware changeable on the fly.",
+      "problem": "The device is locked down with binary blobs and original hypervisors that prevent true ownership and on-the-fly control of its software and hardware.",
+      "audience": null,
+      "builder_usernames": [
+        "leobuskin"
+      ],
+      "source_excerpt": "I’m reverse engineering and replacing the entire stack on Samsung A54 (Exynos 1380, Mali-G68), started with booting to a customized linux kernel (7.3) w/o Android layer at all (Wayland and WPE WebKit only), built a custom WLBT thin firmware to replace the original fat blob (using mac80211 as the foundation)",
+      "evidence": [
+        {
+          "source_item_id": 50418955,
+          "source_field": "body",
+          "value": "I’m reverse engineering and replacing the entire stack on Samsung A54 (Exynos 1380, Mali-G68), started with booting to a customized linux kernel (7.3) w/o Android layer at all (Wayland and WPE WebKit only), built a custom WLBT thin firmware to replace the original fat blob (using mac80211 as the foundation)",
+          "supports": [],
+          "author": "leobuskin",
+          "shared_at": 1794181332,
+          "source_url": "https://news.ycombinator.com/item?id=50418955"
+        }
+      ],
+      "source_item_id": 50418955,
+      "source_url": "https://news.ycombinator.com/item?id=50418955",
+      "author": "leobuskin",
+      "shared_at": 1794181332,
+      "links": []
+    }
+  ]
+}

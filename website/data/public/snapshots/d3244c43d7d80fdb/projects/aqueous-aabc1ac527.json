@@ -1,0 +1,35 @@
+{
+  "id": 382,
+  "slug": "aqueous-aabc1ac527",
+  "name": "Aqueous",
+  "mentions": [
+    {
+      "name": "Aqueous",
+      "description": "A next-generation compressed archive format. It supports streamed processing so very large inputs (e.g. disk images) can be handled without keeping intermediate results in memory or a spill file, and includes sparse file handling plus in-place move and delete operations on archive members.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "lifthrasiir"
+      ],
+      "source_excerpt": "Working on Aqueous [1], a next-generation compressed archive format.",
+      "evidence": [
+        {
+          "source_item_id": 50422068,
+          "source_field": "body",
+          "value": "Working on Aqueous [1], a next-generation compressed archive format.",
+          "supports": [],
+          "author": "lifthrasiir",
+          "shared_at": 1794207853,
+          "source_url": "https://news.ycombinator.com/item?id=50422068"
+        }
+      ],
+      "source_item_id": 50422068,
+      "source_url": "https://news.ycombinator.com/item?id=50422068",
+      "author": "lifthrasiir",
+      "shared_at": 1794207853,
+      "links": [
+        "https://lifthrasiir.github.io/aqueous/"
+      ]
+    }
+  ]
+}

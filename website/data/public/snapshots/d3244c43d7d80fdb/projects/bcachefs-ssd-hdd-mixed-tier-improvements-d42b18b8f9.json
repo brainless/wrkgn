@@ -1,0 +1,35 @@
+{
+  "id": 924,
+  "slug": "bcachefs-ssd-hdd-mixed-tier-improvements-d42b18b8f9",
+  "name": "bcachefs SSD+HDD mixed-tier improvements",
+  "mentions": [
+    {
+      "name": "bcachefs SSD+HDD mixed-tier improvements",
+      "description": "Work to improve bcachefs for setups that mix SSDs and HDDs in one filesystem, so foreground operations get SSD-class write latencies instead of being dragged down by the HDD, with the HDD relegated to background work.",
+      "problem": "Even when the SSD is set up for foreground operations and the HDD only for background, write latencies usually end up matching the HDD's.",
+      "audience": null,
+      "builder_usernames": [
+        "eru"
+      ],
+      "source_excerpt": "I'm working on making bcachefs useful when you mix both SSD and HDD in one filesystem.",
+      "evidence": [
+        {
+          "source_item_id": 49690680,
+          "source_field": "body",
+          "value": "I'm working on making bcachefs useful when you mix both SSD and HDD in one filesystem.",
+          "supports": [],
+          "author": "eru",
+          "shared_at": 1789348978,
+          "source_url": "https://news.ycombinator.com/item?id=49690680"
+        }
+      ],
+      "source_item_id": 49690680,
+      "source_url": "https://news.ycombinator.com/item?id=49690680",
+      "author": "eru",
+      "shared_at": 1789348978,
+      "links": [
+        "https://paquari.com/posts/bcachefs-ssd-hdd-progress/"
+      ]
+    }
+  ]
+}

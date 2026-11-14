@@ -1,0 +1,35 @@
+{
+  "id": 2367,
+  "slug": "hnewsflash-ff08056090",
+  "name": "HNewsflash",
+  "mentions": [
+    {
+      "name": "HNewsflash",
+      "description": "This iOS Hacker News reader accumulates the top upvoted HN stories over a given timeframe and lets users scroll through their discussions. It offers bookmarks, code block and markdown rendering, and no ads or tracking. Because the official HN API returns only one item per request, a Go + Postgres backend service archives the top stories, flattens comment trees into a single response, and caches them.",
+      "problem": "Occasional HN users who don't check the front page daily miss out on the latest top posts and news.",
+      "audience": "Occasional Hacker News users who do not open the front page on a daily basis and don't want to miss out on the latest posts and news.",
+      "builder_usernames": [
+        "burrrno"
+      ],
+      "source_excerpt": "I just released HNewsflash [1], an iOS Hacker News reader, which accumulates the top upvoted HN stories over a given timeframe and lets you scroll through its discussions.",
+      "evidence": [
+        {
+          "source_item_id": 49241629,
+          "source_field": "body",
+          "value": "I just released HNewsflash [1], an iOS Hacker News reader, which accumulates the top upvoted HN stories over a given timeframe and lets you scroll through its discussions.",
+          "supports": [],
+          "author": "burrrno",
+          "shared_at": 1786356205,
+          "source_url": "https://news.ycombinator.com/item?id=49241629"
+        }
+      ],
+      "source_item_id": 49241629,
+      "source_url": "https://news.ycombinator.com/item?id=49241629",
+      "author": "burrrno",
+      "shared_at": 1786356205,
+      "links": [
+        "https://apps.apple.com/app/id6450697950"
+      ]
+    }
+  ]
+}

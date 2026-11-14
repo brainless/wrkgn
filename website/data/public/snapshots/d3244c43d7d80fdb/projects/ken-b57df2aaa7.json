@@ -1,0 +1,35 @@
+{
+  "id": 911,
+  "slug": "ken-b57df2aaa7",
+  "name": "ken",
+  "mentions": [
+    {
+      "name": "ken",
+      "description": "A dependently typed programming language based on Observational Type Theory, designed for AI agents to write and humans to read — 'Lean4 for software engineering'. It uses constructivist logic where propositions can be true, false, or unknown; ships a compiler targeting the Linux ABI (in progress) with an interpreter that acts as an oracle for tests; has a built-in row polymorphic effect model; and provides fine-grained capability and resource-based security. The goal is a comprehensive first-party software catalog.",
+      "problem": null,
+      "audience": "Agents that write code and humans who read it",
+      "builder_usernames": [
+        "patlasswell"
+      ],
+      "source_excerpt": "I'm working on a programming language for agents to write and humans to read. Think Lean4 but built for software engineering. It's dependently typed based on Observational Type Theory.",
+      "evidence": [
+        {
+          "source_item_id": 49706588,
+          "source_field": "body",
+          "value": "I'm working on a programming language for agents to write and humans to read. Think Lean4 but built for software engineering. It's dependently typed based on Observational Type Theory.",
+          "supports": [],
+          "author": "patlasswell",
+          "shared_at": 1789435698,
+          "source_url": "https://news.ycombinator.com/item?id=49706588"
+        }
+      ],
+      "source_item_id": 49706588,
+      "source_url": "https://news.ycombinator.com/item?id=49706588",
+      "author": "patlasswell",
+      "shared_at": 1789435698,
+      "links": [
+        "https://github.com/swe-toolkit/ken"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 2751,
+  "slug": "trilogy-a4bf61d716",
+  "name": "Trilogy typed SQL engine",
+  "mentions": [
+    {
+      "name": "Trilogy typed SQL engine",
+      "description": "A typed SQL engine. The author applies agent-assisted Lean formalization alongside previous fuzz coverage to surface untested case interactions and flush out null behavior in the engine.",
+      "problem": "Edge-case interactions and null behavior in the SQL engine that had not yet been encountered in the wild.",
+      "audience": null,
+      "builder_usernames": [
+        "efromvt"
+      ],
+      "source_excerpt": "Late the bandwagon but have been experimenting with agent assisted lean/formalization for the first time; it's been surprisingly high ROI vs previous fuzz coverage and has forced me to think through some interactions of cases that  I hadn't yet encountered in the wild. Very useful for flushing out null behavior in my typed SQL engine [1].",
+      "evidence": [
+        {
+          "source_item_id": 50420691,
+          "source_field": "body",
+          "value": "Late the bandwagon but have been experimenting with agent assisted lean/formalization for the first time; it's been surprisingly high ROI vs previous fuzz coverage and has forced me to think through some interactions of cases that  I hadn't yet encountered in the wild. Very useful for flushing out null behavior in my typed SQL engine [1].",
+          "supports": [],
+          "author": "efromvt",
+          "shared_at": 1794194949,
+          "source_url": "https://news.ycombinator.com/item?id=50420691"
+        }
+      ],
+      "source_item_id": 50420691,
+      "source_url": "https://news.ycombinator.com/item?id=50420691",
+      "author": "efromvt",
+      "shared_at": 1794194949,
+      "links": [
+        "https://trilogydata.dev/"
+      ]
+    },
+    {
+      "name": "Trilogy",
+      "description": "Trilogy is a typed SQL language with composable functions of arbitrary complexity and a native semantic layer. Current work optimizes how well AI agents work with the language, achieving a 2-3x higher success rate and significantly lower total token usage on complex tasks, with the agent-focused design changes also measurably improving ergonomics for human users.",
+      "problem": "AI agents have low success rates and high token consumption when working with a new language on complex tasks, and the language's initial syntax dump is currently rough and needs reduction via ablation.",
+      "audience": null,
+      "builder_usernames": [
+        "efromvt"
+      ],
+      "source_excerpt": "Same as last month for once - optimizing how well agents can work with a new language [1]. I've been able to 2-3x success rate and drop total tokens for complex tasks significantly (though the initial syntax dump is rough - need to do some ablation there to get it down).\n\nThe best part has been that I think it's significantly improved things for humans too; it's weirdly satisfying to be able to measure improved ergonomics. Also, since a big pitch/theory was that the language should be ideal for agents as a result of the original nice things for humans it was designed for, it's a relief to be able actually measure a concrete lift.\n\n[1] https://trilogydata.dev/ - SQL with types, composable functions of arbitrary complexity, and a native semantic layer.",
+      "evidence": [
+        {
+          "source_item_id": 48887590,
+          "source_field": "body",
+          "value": "Same as last month for once - optimizing how well agents can work with a new language [1]. I've been able to 2-3x success rate and drop total tokens for complex tasks significantly (though the initial syntax dump is rough - need to do some ablation there to get it down).\n\nThe best part has been that I think it's significantly improved things for humans too; it's weirdly satisfying to be able to measure improved ergonomics. Also, since a big pitch/theory was that the language should be ideal for agents as a result of the original nice things for humans it was designed for, it's a relief to be able actually measure a concrete lift.\n\n[1] https://trilogydata.dev/ - SQL with types, composable functions of arbitrary complexity, and a native semantic layer.",
+          "supports": [],
+          "author": "efromvt",
+          "shared_at": 1783913887,
+          "source_url": "https://news.ycombinator.com/item?id=48887590"
+        }
+      ],
+      "source_item_id": 48887590,
+      "source_url": "https://news.ycombinator.com/item?id=48887590",
+      "author": "efromvt",
+      "shared_at": 1783913887,
+      "links": [
+        "https://trilogydata.dev/"
+      ]
+    }
+  ]
+}

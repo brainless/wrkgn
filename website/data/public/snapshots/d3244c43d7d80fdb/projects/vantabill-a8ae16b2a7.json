@@ -1,0 +1,35 @@
+{
+  "id": 175,
+  "slug": "vantabill-a8ae16b2a7",
+  "name": "Vantabill",
+  "mentions": [
+    {
+      "name": "Vantabill",
+      "description": "Free offline invoicing software that installs as a single binary on Linux, Windows, and macOS and takes users from quote to receipt with simple clicks. The data layer is abstracted to exist outside the app so data is never locked in or stored on external servers; the binaries are unsigned, so operating systems may show warnings during setup.",
+      "problem": "The author needed to invoice occasional work without paying for SaaS, without data living on someone else's server, and without the LAMP/LEMP or Node.js stacks required by other open-source options.",
+      "audience": null,
+      "builder_usernames": [
+        "codenius"
+      ],
+      "source_excerpt": "Vantabill (https://www.codenius.com/products/vantabill/) - I needed to make invoices for the occasional work I completed, but didn't have the budget to pay for a SaaS nor did I want my data to be online on someones server/database. I also disliked that all the other Open Source options out there required me to install LAMP/LEMP or the Node.js stack. So I built this app. It's installable as a single binary on Linux, Windows and MacOS. Your data is never locked into the app (I abstracted the data layer to exist outside the app) and you can go from quote to receipt with simple clicks.",
+      "evidence": [
+        {
+          "source_item_id": 50430650,
+          "source_field": "body",
+          "value": "Vantabill (https://www.codenius.com/products/vantabill/) - I needed to make invoices for the occasional work I completed, but didn't have the budget to pay for a SaaS nor did I want my data to be online on someones server/database. I also disliked that all the other Open Source options out there required me to install LAMP/LEMP or the Node.js stack. So I built this app. It's installable as a single binary on Linux, Windows and MacOS. Your data is never locked into the app (I abstracted the data layer to exist outside the app) and you can go from quote to receipt with simple clicks.",
+          "supports": [],
+          "author": "codenius",
+          "shared_at": 1794252999,
+          "source_url": "https://news.ycombinator.com/item?id=50430650"
+        }
+      ],
+      "source_item_id": 50430650,
+      "source_url": "https://news.ycombinator.com/item?id=50430650",
+      "author": "codenius",
+      "shared_at": 1794252999,
+      "links": [
+        "https://www.codenius.com/products/vantabill/"
+      ]
+    }
+  ]
+}

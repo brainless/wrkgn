@@ -1,0 +1,33 @@
+{
+  "id": 94,
+  "slug": "family-genealogy-digitization-d52b0801f7",
+  "name": "Family Genealogy Digitization",
+  "mentions": [
+    {
+      "name": "Family Genealogy Digitization",
+      "description": "This project digitizes a family genealogy book originally compiled in the 1990s, tracing the family back to the 1600s. About 280 pages were scanned with the Google Drive mobile scanner, then transcribed with Claude using a swarm of subagents that flagged bad images and illegible text. From the transcription it produces a digital PDF of the book, an mdbook site, a GEDCOM export, and an interactive website for browsing the family tree, with plans to extend the genealogy with information from both sides of the family.",
+      "problem": "The genealogy risked being lost forever: the computer used to author the book is gone, the physical copies could be lost, and no relatives seemed likely to carry on the work.",
+      "audience": "The author's own family, for preserving and exploring their genealogy.",
+      "builder_usernames": [
+        "dgunay"
+      ],
+      "source_excerpt": "The computer my grandma used to author the book is AFAIK lost, so I also didn't want the genealogy to be lost forever if we lose the physical copies, so I took my copy and digitized it.",
+      "evidence": [
+        {
+          "source_item_id": 50437466,
+          "source_field": "body",
+          "value": "The computer my grandma used to author the book is AFAIK lost, so I also didn't want the genealogy to be lost forever if we lose the physical copies, so I took my copy and digitized it.",
+          "supports": [],
+          "author": "dgunay",
+          "shared_at": 1794298516,
+          "source_url": "https://news.ycombinator.com/item?id=50437466"
+        }
+      ],
+      "source_item_id": 50437466,
+      "source_url": "https://news.ycombinator.com/item?id=50437466",
+      "author": "dgunay",
+      "shared_at": 1794298516,
+      "links": []
+    }
+  ]
+}

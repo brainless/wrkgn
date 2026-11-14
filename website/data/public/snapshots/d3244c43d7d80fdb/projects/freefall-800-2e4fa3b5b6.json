@@ -1,0 +1,36 @@
+{
+  "id": 896,
+  "slug": "freefall-800-2e4fa3b5b6",
+  "name": "freefall_800",
+  "mentions": [
+    {
+      "name": "freefall_800",
+      "description": "Open source replacement control firmware for Masterbuilt Gravity series electronically controlled charcoal smokers, reverse engineered from the stock control PCB and rebuilt from scratch. Basic functionality is working with a fully local control web app, plus an Android app and Home Assistant integration. Ongoing work includes interface refinements and more advanced control sequencing features.",
+      "problem": "The smoker hardware is good, but like most IoT devices, the stock firmware and app are poor.",
+      "audience": null,
+      "builder_usernames": [
+        "prbs23"
+      ],
+      "source_excerpt": "I'm working on building open source control firmware that runs on the Masterbuilt Gravity series electronically controlled charcoal smokers.\n\nhttps://gitlab.com/prbs23/freefall_800",
+      "evidence": [
+        {
+          "source_item_id": 49690330,
+          "source_field": "body",
+          "value": "I'm working on building open source control firmware that runs on the Masterbuilt Gravity series electronically controlled charcoal smokers.\n\nhttps://gitlab.com/prbs23/freefall_800",
+          "supports": [],
+          "author": "prbs23",
+          "shared_at": 1789345989,
+          "source_url": "https://news.ycombinator.com/item?id=49690330"
+        }
+      ],
+      "source_item_id": 49690330,
+      "source_url": "https://news.ycombinator.com/item?id=49690330",
+      "author": "prbs23",
+      "shared_at": 1789345989,
+      "links": [
+        "https://gitlab.com/prbs23/freefall_800",
+        "https://www.prbs23.com/blog/posts/reverse-engineering-gravity-800/"
+      ]
+    }
+  ]
+}

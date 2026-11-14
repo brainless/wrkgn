@@ -1,0 +1,35 @@
+{
+  "id": 1662,
+  "slug": "benzi-aa03be71a3",
+  "name": "Benzi",
+  "mentions": [
+    {
+      "name": "Benzi",
+      "description": "A locally running, language-agnostic and model-agnostic code intelligence system. Benzi combines a compiler, harness, and runtime tracer/debugger built from the ground up so AI models can write code as neatly as they understand it, and provides instant call-flow, data-flow, and control-flow lookups on any codebase for any AI model. It scores 78.2% on SWE-bench Verified for under 10 cents per fix and is benchmarked against Claude Code, Open Code, and Deepseek Harness, where it is claimed to be cheaper and faster.",
+      "problem": "AI coding agents/harnesses are expensive and slow; Benzi fixes code for under 10 cents per SWE-bench fix while being cheaper and faster than Claude Code, Open Code, and Deepseek Harness.",
+      "audience": null,
+      "builder_usernames": [
+        "tweedler290"
+      ],
+      "source_excerpt": "I made a code intelligence system from scratch! language agnostic and model agnostic. runs locally. Benzi is a compiler+harness+runtime tracer/debugger built from ground up to write code as neatly as it understands it.",
+      "evidence": [
+        {
+          "source_item_id": 49696819,
+          "source_field": "body",
+          "value": "I made a code intelligence system from scratch! language agnostic and model agnostic. runs locally. Benzi is a compiler+harness+runtime tracer/debugger built from ground up to write code as neatly as it understands it.",
+          "supports": [],
+          "author": "tweedler290",
+          "shared_at": 1789393622,
+          "source_url": "https://news.ycombinator.com/item?id=49696819"
+        }
+      ],
+      "source_item_id": 49696819,
+      "source_url": "https://news.ycombinator.com/item?id=49696819",
+      "author": "tweedler290",
+      "shared_at": 1789393622,
+      "links": [
+        "https://github.com/oooscoos/Benzi"
+      ]
+    }
+  ]
+}

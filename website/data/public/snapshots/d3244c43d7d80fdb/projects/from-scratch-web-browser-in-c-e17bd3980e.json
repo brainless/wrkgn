@@ -1,0 +1,33 @@
+{
+  "id": 3248,
+  "slug": "from-scratch-web-browser-in-c-e17bd3980e",
+  "name": "From-scratch web browser in C",
+  "mentions": [
+    {
+      "name": "From-scratch web browser in C",
+      "description": "A web browser written from scratch in C without any libraries or AI assistance. It navigates and renders Wikipedia, supports TLS, builds on Windows, macOS and Linux, and loads PNG and JPEG images. It is planned to be open-sourced once it supports most of CSS 2.2 layout and renders Hacker News.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "silvajoao"
+      ],
+      "source_excerpt": "I've been building a web browser in C from scratch, without any libraries and without AI.\n\nThis is finally approaching a usable state: navigates and renders Wikipedia, supports TLS, builds on Windows, macOS and Linux, loads PNGs and JPEGs, etc.",
+      "evidence": [
+        {
+          "source_item_id": 50424134,
+          "source_field": "body",
+          "value": "I've been building a web browser in C from scratch, without any libraries and without AI.\n\nThis is finally approaching a usable state: navigates and renders Wikipedia, supports TLS, builds on Windows, macOS and Linux, loads PNGs and JPEGs, etc.",
+          "supports": [],
+          "author": "silvajoao",
+          "shared_at": 1794223664,
+          "source_url": "https://news.ycombinator.com/item?id=50424134"
+        }
+      ],
+      "source_item_id": 50424134,
+      "source_url": "https://news.ycombinator.com/item?id=50424134",
+      "author": "silvajoao",
+      "shared_at": 1794223664,
+      "links": []
+    }
+  ]
+}

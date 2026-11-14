@@ -1,0 +1,35 @@
+{
+  "id": 714,
+  "slug": "threadshelf-6e42922b50",
+  "name": "ThreadShelf",
+  "mentions": [
+    {
+      "name": "ThreadShelf",
+      "description": "ThreadShelf is a local-first archive for AI conversations from providers that lack sane export options, such as Google AI Studio, OpenRouter (including chats), and LM Studio. It supports semantic search, MCP integration, and continuing old conversations with llama.cpp.",
+      "problem": "No existing chat archive supported OpenRouter or Google AI Studio chat exports.",
+      "audience": null,
+      "builder_usernames": [
+        "chrystianpl"
+      ],
+      "source_excerpt": "Local-first archive for AI conversations for providers without sane exports like Google AI Studio, OpenRouter (including chats), LM Studio, and others, as I couldn't find any chat archive with OpenRouter/Google AI Studio chat support. It supports semantic search, MCP integration, and continuing old conversations with llama.cpp.\nnpx threadshelf\nhttps://github.com/ChrystianSchutz/ThreadShelf",
+      "evidence": [
+        {
+          "source_item_id": 50423418,
+          "source_field": "body",
+          "value": "Local-first archive for AI conversations for providers without sane exports like Google AI Studio, OpenRouter (including chats), LM Studio, and others, as I couldn't find any chat archive with OpenRouter/Google AI Studio chat support. It supports semantic search, MCP integration, and continuing old conversations with llama.cpp.\nnpx threadshelf\nhttps://github.com/ChrystianSchutz/ThreadShelf",
+          "supports": [],
+          "author": "chrystianpl",
+          "shared_at": 1794218110,
+          "source_url": "https://news.ycombinator.com/item?id=50423418"
+        }
+      ],
+      "source_item_id": 50423418,
+      "source_url": "https://news.ycombinator.com/item?id=50423418",
+      "author": "chrystianpl",
+      "shared_at": 1794218110,
+      "links": [
+        "https://github.com/ChrystianSchutz/ThreadShelf"
+      ]
+    }
+  ]
+}

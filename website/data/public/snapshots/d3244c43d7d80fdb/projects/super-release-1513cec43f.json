@@ -1,0 +1,63 @@
+{
+  "id": 551,
+  "slug": "super-release-1513cec43f",
+  "name": "super-release",
+  "mentions": [
+    {
+      "name": "super-release",
+      "description": "A release tool written in Rust that serves as an alternative to semantic-release, with mono-repo support. It automates shipping packages and is built to make releasing from larger JavaScript/TypeScript mono-repos easier.",
+      "problem": "Shipping packages in larger JavaScript/TypeScript mono-repos is difficult; this tool makes that process easier.",
+      "audience": "Developers shipping packages from larger JavaScript/TypeScript mono-repos",
+      "builder_usernames": [
+        "bowlingx"
+      ],
+      "source_excerpt": "I'm working on https://github.com/BowlingX/super-release, an alternative written in rust for semantic-release and mono-repo support. I build it mainly to make shipping packages in larger JavaScript/Typescript mono-repos easier.",
+      "evidence": [
+        {
+          "source_item_id": 50419638,
+          "source_field": "body",
+          "value": "I'm working on https://github.com/BowlingX/super-release, an alternative written in rust for semantic-release and mono-repo support. I build it mainly to make shipping packages in larger JavaScript/Typescript mono-repos easier.",
+          "supports": [],
+          "author": "bowlingx",
+          "shared_at": 1794186151,
+          "source_url": "https://news.ycombinator.com/item?id=50419638"
+        }
+      ],
+      "source_item_id": 50419638,
+      "source_url": "https://news.ycombinator.com/item?id=50419638",
+      "author": "bowlingx",
+      "shared_at": 1794186151,
+      "links": [
+        "https://github.com/BowlingX/super-release"
+      ]
+    },
+    {
+      "name": "super-release",
+      "description": "A semantic-release alternative written in Rust that supports monorepos while otherwise behaving similarly to semantic-release. It ships with an official GitHub Action and supports pull request previews.",
+      "problem": "semantic-release does not officially support monorepos, forcing users onto workarounds or community projects on top of it, and it has performance issues in repos with many tags and branches.",
+      "audience": "Developers managing releases in monorepos and companies using semantic-release workarounds.",
+      "builder_usernames": [
+        "bowlingx"
+      ],
+      "source_excerpt": "Working on https://github.com/BowlingX/super-release, a semantic-release alternative written in rust - that supports mono-repos (but otherwise behaves similar).",
+      "evidence": [
+        {
+          "source_item_id": 49242987,
+          "source_field": "body",
+          "value": "Working on https://github.com/BowlingX/super-release, a semantic-release alternative written in rust - that supports mono-repos (but otherwise behaves similar).",
+          "supports": [],
+          "author": "bowlingx",
+          "shared_at": 1786366446,
+          "source_url": "https://news.ycombinator.com/item?id=49242987"
+        }
+      ],
+      "source_item_id": 49242987,
+      "source_url": "https://news.ycombinator.com/item?id=49242987",
+      "author": "bowlingx",
+      "shared_at": 1786366446,
+      "links": [
+        "https://github.com/BowlingX/super-release"
+      ]
+    }
+  ]
+}

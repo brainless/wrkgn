@@ -1,0 +1,33 @@
+{
+  "id": 2347,
+  "slug": "trainradar-55fbce699c",
+  "name": "trainradar",
+  "mentions": [
+    {
+      "name": "trainradar",
+      "description": "A high-speed train viewer web app that displays train data collected through web scraping, built with a React frontend and a FastAPI backend using PostgreSQL and OAuth2. It also serves as a personal learning project for sharpening software development skills, covering scraping without being detected or banned and React state-management strategies to reduce UI re-renders.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "eljonny"
+      ],
+      "source_excerpt": "my own high speed train viewer (trainradar) that i use to further develop my software development skills. so far i'm happy with it and its performance, and it has forced me to learn how to scrape without being detected/banned\n\ni'm using react on the front, pretty interesting how it manages states in the frontend and how to come up with new strategies to not trigger so manny re-renders of the UI, and on the back i use fastapi with postgresql and oauth2",
+      "evidence": [
+        {
+          "source_item_id": 49233989,
+          "source_field": "body",
+          "value": "my own high speed train viewer (trainradar) that i use to further develop my software development skills. so far i'm happy with it and its performance, and it has forced me to learn how to scrape without being detected/banned\n\ni'm using react on the front, pretty interesting how it manages states in the frontend and how to come up with new strategies to not trigger so manny re-renders of the UI, and on the back i use fastapi with postgresql and oauth2",
+          "supports": [],
+          "author": "eljonny",
+          "shared_at": 1786299395,
+          "source_url": "https://news.ycombinator.com/item?id=49233989"
+        }
+      ],
+      "source_item_id": 49233989,
+      "source_url": "https://news.ycombinator.com/item?id=49233989",
+      "author": "eljonny",
+      "shared_at": 1786299395,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 5917,
+  "slug": "dressed-e7aef0b4a9",
+  "name": "DRESSED",
+  "mentions": [
+    {
+      "name": "DRESSED",
+      "description": "AI personal stylist that generates outfit recommendations from clothes the user actually owns. Users scan their closet once, then the app picks a daily outfit based on the day's weather and Google Calendar events, differentiating looks for occasions like client dinners versus work-from-home days. Tech stack includes a React SPA, Netlify serverless functions, Supabase, Google Calendar OAuth, and Stripe.",
+      "problem": "AI styling advice is useless without a database of what the person actually owns; knowing the user's actual wardrobe makes the recommendations work.",
+      "audience": null,
+      "builder_usernames": [
+        "brysonmeunier"
+      ],
+      "source_excerpt": "I'm building DRESSED (trydressed.com) — an AI personal stylist that builds outfit recommendations from clothes you actually own. You scan your closet once, and every morning it picks an outfit based on today's weather and your Google Calendar events.",
+      "evidence": [
+        {
+          "source_item_id": 47621377,
+          "source_field": "body",
+          "value": "I'm building DRESSED (trydressed.com) — an AI personal stylist that builds outfit recommendations from clothes you actually own. You scan your closet once, and every morning it picks an outfit based on today's weather and your Google Calendar events.",
+          "supports": [],
+          "author": "brysonmeunier",
+          "shared_at": 1775171290,
+          "source_url": "https://news.ycombinator.com/item?id=47621377"
+        }
+      ],
+      "source_item_id": 47621377,
+      "source_url": "https://news.ycombinator.com/item?id=47621377",
+      "author": "brysonmeunier",
+      "shared_at": 1775171290,
+      "links": [
+        "https://trydressed.com"
+      ]
+    }
+  ]
+}

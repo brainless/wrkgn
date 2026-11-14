@@ -1,0 +1,35 @@
+{
+  "id": 268,
+  "slug": "agent-commerce-6fde605979",
+  "name": "Agent-run print-on-demand e-commerce storefront",
+  "mentions": [
+    {
+      "name": "Agent-run print-on-demand e-commerce storefront",
+      "description": "This project tests whether an AI agent can autonomously run a full e-commerce website: a storefront connected to a print-on-demand supplier where the agent releases new products and designs and keeps orders running without hiccups.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "theturtletalks"
+      ],
+      "source_excerpt": "I’m seeing if an agent can run a full e-commerce website. Nothing fancy, just a storefront that connects to a print on demand supplier. The agent releases new products and designs and makes sure there’s no hiccups in the orders.",
+      "evidence": [
+        {
+          "source_item_id": 50420781,
+          "source_field": "body",
+          "value": "I’m seeing if an agent can run a full e-commerce website. Nothing fancy, just a storefront that connects to a print on demand supplier. The agent releases new products and designs and makes sure there’s no hiccups in the orders.",
+          "supports": [],
+          "author": "theturtletalks",
+          "shared_at": 1794195613,
+          "source_url": "https://news.ycombinator.com/item?id=50420781"
+        }
+      ],
+      "source_item_id": 50420781,
+      "source_url": "https://news.ycombinator.com/item?id=50420781",
+      "author": "theturtletalks",
+      "shared_at": 1794195613,
+      "links": [
+        "https://agent-commerce-teal.vercel.app/"
+      ]
+    }
+  ]
+}

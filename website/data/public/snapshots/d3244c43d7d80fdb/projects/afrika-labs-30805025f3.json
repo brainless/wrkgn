@@ -1,0 +1,63 @@
+{
+  "id": 1234,
+  "slug": "afrika-labs-30805025f3",
+  "name": "Afrika Labs",
+  "mentions": [
+    {
+      "name": "Afrika Labs",
+      "description": "An open speech-to-text model for Kikuyu (~8M speakers), built by fine-tuning Whisper on a cleaned 144-hour Kikuyu corpus. The first model achieves 32.9% WER / 10.5% CER, close to the published SOTA of 26% from a model 6x larger. Part of a broader effort to bring working ASR to Africa's 2,000+ languages, most of which lack it; the author also found systematic encoding corruption (mangled diacritics) in the source corpus's unscripted transcripts.",
+      "problem": "Almost none of Africa's 2,000+ languages have working ASR; Kikuyu lacked an open speech-to-text model.",
+      "audience": null,
+      "builder_usernames": [
+        "3093"
+      ],
+      "source_excerpt": "Afrika Labs (https://afrikalabs.org). An open speech-to-text for Kikuyu (Kĩkũyũ, ~8M speakers).\n\nAlmost none of Africa's 2,000+ languages have working ASR. Fine-tuned Whisper on a cleaned 144h Kikuyu corpus.",
+      "evidence": [
+        {
+          "source_item_id": 49737549,
+          "source_field": "body",
+          "value": "Afrika Labs (https://afrikalabs.org). An open speech-to-text for Kikuyu (Kĩkũyũ, ~8M speakers).\n\nAlmost none of Africa's 2,000+ languages have working ASR. Fine-tuned Whisper on a cleaned 144h Kikuyu corpus.",
+          "supports": [],
+          "author": "3093",
+          "shared_at": 1789630175,
+          "source_url": "https://news.ycombinator.com/item?id=49737549"
+        }
+      ],
+      "source_item_id": 49737549,
+      "source_url": "https://news.ycombinator.com/item?id=49737549",
+      "author": "3093",
+      "shared_at": 1789630175,
+      "links": [
+        "https://afrikalabs.org"
+      ]
+    },
+    {
+      "name": "Afrika Labs",
+      "description": "Open speech-to-text (ASR) for Kikuyu (Gĩkũyũ), built by fine-tuning Whisper on ~217 hours of transcribed Kikuyu audio and repurposing the Swahili token since no Kikuyu token exists. Starting with Kikuyu (~8M speakers) and aiming for a usable v0 (~26% WER is realistic based on similar work), then extending to other African languages.",
+      "problem": "Almost none of Africa's 2,000+ languages have working ASR (automatic speech recognition).",
+      "audience": "Kikuyu speakers (~8M speakers) and, as the project expands, speakers of other African languages",
+      "builder_usernames": [
+        "3093"
+      ],
+      "source_excerpt": "Afrika Labs (https://afrikalabs.org) — open speech-to-text for Kikuyu (Gĩkũyũ, ~8M speakers, my mother tongue), as a start, then other African languages.",
+      "evidence": [
+        {
+          "source_item_id": 49241196,
+          "source_field": "body",
+          "value": "Afrika Labs (https://afrikalabs.org) — open speech-to-text for Kikuyu (Gĩkũyũ, ~8M speakers, my mother tongue), as a start, then other African languages.",
+          "supports": [],
+          "author": "3093",
+          "shared_at": 1786352830,
+          "source_url": "https://news.ycombinator.com/item?id=49241196"
+        }
+      ],
+      "source_item_id": 49241196,
+      "source_url": "https://news.ycombinator.com/item?id=49241196",
+      "author": "3093",
+      "shared_at": 1786352830,
+      "links": [
+        "https://afrikalabs.org"
+      ]
+    }
+  ]
+}

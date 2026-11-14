@@ -1,0 +1,33 @@
+{
+  "id": 1138,
+  "slug": "mcp-based-intelligent-email-assistant-0b6ac41ce8",
+  "name": "MCP-based intelligent email assistant",
+  "mentions": [
+    {
+      "name": "MCP-based intelligent email assistant",
+      "description": "An intelligent email product built on MCP and AI agents, delivered initially as a ChatGPT app. It connects to Gmail and Outlook mailboxes (with IMAP and other providers planned later), provides a unified interface across major providers that works with any top LLM, open-source or proprietary, and derives email intelligence through transient agents powered by open-source models without ever storing emails. The long-term goal is a voice-first, provider-agnostic intelligent email service that improves over time as it builds up intelligence about the user and their mailboxes.",
+      "problem": "Existing AI email products such as Superhuman, Shortwave, Saner.AI and the Gmail/Outlook ChatGPT apps tie into specific mailboxes and don't offer a unified interface across all major providers, cross-LLM use via MCP, or privacy-focused processing that never stores emails.",
+      "audience": null,
+      "builder_usernames": [
+        "swhh"
+      ],
+      "source_excerpt": "I have built an intelligent email product based on MCP and agents, which will be available initially as a ChatGPT app. The codebase is pretty much done (having been written by me over six months with help from Cursor, Codex and Claude Code) and the system is up and running in the cloud (for Gmail and Outlook mailboxes initially but later IMAP providers and others).",
+      "evidence": [
+        {
+          "source_item_id": 49743163,
+          "source_field": "body",
+          "value": "I have built an intelligent email product based on MCP and agents, which will be available initially as a ChatGPT app. The codebase is pretty much done (having been written by me over six months with help from Cursor, Codex and Claude Code) and the system is up and running in the cloud (for Gmail and Outlook mailboxes initially but later IMAP providers and others).",
+          "supports": [],
+          "author": "swhh",
+          "shared_at": 1789662598,
+          "source_url": "https://news.ycombinator.com/item?id=49743163"
+        }
+      ],
+      "source_item_id": 49743163,
+      "source_url": "https://news.ycombinator.com/item?id=49743163",
+      "author": "swhh",
+      "shared_at": 1789662598,
+      "links": []
+    }
+  ]
+}

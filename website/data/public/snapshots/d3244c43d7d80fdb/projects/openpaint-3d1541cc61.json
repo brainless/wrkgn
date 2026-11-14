@@ -1,0 +1,36 @@
+{
+  "id": 1087,
+  "slug": "openpaint-3d1541cc61",
+  "name": "OpenPaint",
+  "mentions": [
+    {
+      "name": "OpenPaint",
+      "description": "A simple MS Paint-like cross-platform image editor for Mac, Linux, and Windows, revived as version 2.0 after 17 years. It stays faithful to the original Paint experience while adding quality-of-life improvements such as multiple tabs with image previews, cross-platform support, and a cleaned-up modernization of the old wxWidgets-based codebase.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "murdockq"
+      ],
+      "source_excerpt": "I've have jumped back into maintaining and cleaning up OpenPaint, a project I originally started about 17 years ago to bring a simple MS Paint-like editor to Mac, Linux, and Windows.",
+      "evidence": [
+        {
+          "source_item_id": 49703687,
+          "source_field": "body",
+          "value": "I've have jumped back into maintaining and cleaning up OpenPaint, a project I originally started about 17 years ago to bring a simple MS Paint-like editor to Mac, Linux, and Windows.",
+          "supports": [],
+          "author": "murdockq",
+          "shared_at": 1789418601,
+          "source_url": "https://news.ycombinator.com/item?id=49703687"
+        }
+      ],
+      "source_item_id": 49703687,
+      "source_url": "https://news.ycombinator.com/item?id=49703687",
+      "author": "murdockq",
+      "shared_at": 1789418601,
+      "links": [
+        "https://github.com/murdockq/OpenPaint/tree/dev",
+        "https://murdockq.github.io/OpenPaint/"
+      ]
+    }
+  ]
+}

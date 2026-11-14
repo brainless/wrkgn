@@ -1,0 +1,35 @@
+{
+  "id": 388,
+  "slug": "bopbop-9298af8722",
+  "name": "bopbop.dev",
+  "mentions": [
+    {
+      "name": "bopbop.dev",
+      "description": "Chrome extension that lets AI agents such as Claude Code, Codex, and others control the user's browser, with a bundled skill/MCP to connect to it. The author built it after finding browser agents slow and token-inefficient, and has used it daily for a month in place of Claude in Chrome.",
+      "problem": "Browser agents are slow and inefficient with tokens; with token prices expected to rise, the author wanted to use tokens more efficiently when agents do web tasks.",
+      "audience": "People working with coding agents like Claude Code and Codex who want faster, more token-efficient browser use",
+      "builder_usernames": [
+        "ycombinatornews"
+      ],
+      "source_excerpt": "I made https://bopbop.dev to control browser and do same things faster and with less tokens.\n\nIt is a Chrome extension that lets Claude Code, Codex or other agents use your browser. Comes with a skill/mcp to connect to it.",
+      "evidence": [
+        {
+          "source_item_id": 50421309,
+          "source_field": "body",
+          "value": "I made https://bopbop.dev to control browser and do same things faster and with less tokens.\n\nIt is a Chrome extension that lets Claude Code, Codex or other agents use your browser. Comes with a skill/mcp to connect to it.",
+          "supports": [],
+          "author": "ycombinatornews",
+          "shared_at": 1794200864,
+          "source_url": "https://news.ycombinator.com/item?id=50421309"
+        }
+      ],
+      "source_item_id": 50421309,
+      "source_url": "https://news.ycombinator.com/item?id=50421309",
+      "author": "ycombinatornews",
+      "shared_at": 1794200864,
+      "links": [
+        "https://bopbop.dev"
+      ]
+    }
+  ]
+}

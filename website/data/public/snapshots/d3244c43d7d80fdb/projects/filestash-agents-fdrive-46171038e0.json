@@ -1,0 +1,36 @@
+{
+  "id": 497,
+  "slug": "filestash-agents-fdrive-46171038e0",
+  "name": "fdrive",
+  "mentions": [
+    {
+      "name": "fdrive",
+      "description": "A shared folder that syncs for AI agents: users mount their existing data, apply controls and permissions, and can monitor what the agents are doing in real time. Code is open source under the fdrive repository, part of the Filestash project.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mickael-kerjean"
+      ],
+      "source_excerpt": "Working on a shared folder that syncs for agents, where you mount your existing data, apply controls / permissions and can monitor whats going on in real time: https://www.filestash.app/agents/, the code is in: https://github.com/mickael-kerjean/fdrive",
+      "evidence": [
+        {
+          "source_item_id": 50419535,
+          "source_field": "body",
+          "value": "Working on a shared folder that syncs for agents, where you mount your existing data, apply controls / permissions and can monitor whats going on in real time: https://www.filestash.app/agents/, the code is in: https://github.com/mickael-kerjean/fdrive",
+          "supports": [],
+          "author": "mickael-kerjean",
+          "shared_at": 1794185366,
+          "source_url": "https://news.ycombinator.com/item?id=50419535"
+        }
+      ],
+      "source_item_id": 50419535,
+      "source_url": "https://news.ycombinator.com/item?id=50419535",
+      "author": "mickael-kerjean",
+      "shared_at": 1794185366,
+      "links": [
+        "https://github.com/mickael-kerjean/fdrive",
+        "https://www.filestash.app/agents/"
+      ]
+    }
+  ]
+}

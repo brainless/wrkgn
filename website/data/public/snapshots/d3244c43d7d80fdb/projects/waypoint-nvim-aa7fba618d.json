@@ -1,0 +1,35 @@
+{
+  "id": 2871,
+  "slug": "waypoint-nvim-aa7fba618d",
+  "name": "waypoint.nvim",
+  "mentions": [
+    {
+      "name": "waypoint.nvim",
+      "description": "A Neovim bookmark plugin (waypoint.nvim) that adds bookmarking features missing from existing bookmark plugins, aimed at helping navigate large codebases the user didn't write.",
+      "problem": "Navigating large, unfamiliar codebases at work makes it easy to get lost; existing bookmark plugins lack needed features.",
+      "audience": null,
+      "builder_usernames": [
+        "patrick-sharp"
+      ],
+      "source_excerpt": "I'm working on a neovim plugin: https://github.com/patrick-sharp/waypoint.nvim\n\nIt's a bookmark plugin with a couple features I felt were missing from existing bookmark plugins. At my job I often have to navigate large codebases that I didn't write, and it's easy to get lost. This plugin should help with that.",
+      "evidence": [
+        {
+          "source_item_id": 48894972,
+          "source_field": "body",
+          "value": "I'm working on a neovim plugin: https://github.com/patrick-sharp/waypoint.nvim\n\nIt's a bookmark plugin with a couple features I felt were missing from existing bookmark plugins. At my job I often have to navigate large codebases that I didn't write, and it's easy to get lost. This plugin should help with that.",
+          "supports": [],
+          "author": "patrick-sharp",
+          "shared_at": 1783959773,
+          "source_url": "https://news.ycombinator.com/item?id=48894972"
+        }
+      ],
+      "source_item_id": 48894972,
+      "source_url": "https://news.ycombinator.com/item?id=48894972",
+      "author": "patrick-sharp",
+      "shared_at": 1783959773,
+      "links": [
+        "https://github.com/patrick-sharp/waypoint.nvim"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 822,
+  "slug": "gramps-web-cli-tool-go-d9d3e84365",
+  "name": "Gramps Web CLI tool",
+  "mentions": [
+    {
+      "name": "Gramps Web CLI tool",
+      "description": "A command-line tool written in Go for interacting with a self-hosted Gramps Web genealogy service, enabling genealogy research and data management from the terminal while keeping ownership of one's own data instead of relying on hosted services like Ancestry.",
+      "problem": null,
+      "audience": "Existing genealogy services don't let users own their own data, and there's no CLI option for interacting with Gramps.",
+      "builder_usernames": [
+        "loufe"
+      ],
+      "source_excerpt": "Trying to finish up a command line tool in go to interface with my Gramps Web service.",
+      "evidence": [
+        {
+          "source_item_id": 50419734,
+          "source_field": "body",
+          "value": "Trying to finish up a command line tool in go to interface with my Gramps Web service.",
+          "supports": [],
+          "author": "loufe",
+          "shared_at": 1794187029,
+          "source_url": "https://news.ycombinator.com/item?id=50419734"
+        }
+      ],
+      "source_item_id": 50419734,
+      "source_url": "https://news.ycombinator.com/item?id=50419734",
+      "author": "loufe",
+      "shared_at": 1794187029,
+      "links": []
+    }
+  ]
+}

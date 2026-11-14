@@ -1,0 +1,35 @@
+{
+  "id": 187,
+  "slug": "homeassistant-koplugin-c47e5a5549",
+  "name": "homeassistant.koplugin",
+  "mentions": [
+    {
+      "name": "homeassistant.koplugin",
+      "description": "A KOReader plugin that lets users control Home Assistant entities directly from the open-source ebook reader without leaving the book they are reading. The author has iterated on it for almost a year, shifting from adding many features toward keeping it simple and avoiding unnecessary complexity.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "sputge"
+      ],
+      "source_excerpt": "I'm working on a small KOReader (an open-source ebook reader software) plugin that lets you control Home Assistant entities without leaving your current book.",
+      "evidence": [
+        {
+          "source_item_id": 50422463,
+          "source_field": "body",
+          "value": "I'm working on a small KOReader (an open-source ebook reader software) plugin that lets you control Home Assistant entities without leaving your current book.",
+          "supports": [],
+          "author": "sputge",
+          "shared_at": 1794210996,
+          "source_url": "https://news.ycombinator.com/item?id=50422463"
+        }
+      ],
+      "source_item_id": 50422463,
+      "source_url": "https://news.ycombinator.com/item?id=50422463",
+      "author": "sputge",
+      "shared_at": 1794210996,
+      "links": [
+        "https://github.com/moritz-john/homeassistant.koplugin"
+      ]
+    }
+  ]
+}

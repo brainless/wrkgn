@@ -1,0 +1,35 @@
+{
+  "id": 46,
+  "slug": "recap360-9a162b4280",
+  "name": "Recap360",
+  "mentions": [
+    {
+      "name": "Recap360",
+      "description": "A macOS video player focused on 360 camera footage, released as a ~5MB Mac App Store download with no ads and no accounts. It loads hours-long 360 videos in seconds directly from MicroSD, and displays a map overlay plus graphs of internal metadata such as speed, altitude, ascent rate, and internal temperature. Supports GoPro MAX, DJI Osmo 360, and Insta360, and also plays dash cams and body cams (Vantrue, Boblov).",
+      "problem": "The software bundled with 360 cameras (GoPro and DJI) was clunky and powerful but not what the author wanted for reviewing ride footage, with large downloads and slow loading.",
+      "audience": "Cyclists and 360 camera owners who want to review recorded footage after a ride",
+      "builder_usernames": [
+        "moj"
+      ],
+      "source_excerpt": "A video player focussed on 360 videos.\n\nI got a 360 camera (GoPro MAX v1) for my bicycle, after re-discovering bicycling during COVID. I soon found it was fun to review the video after a ride, but the software was a bit clunky. Upgraded to a DJI Osmo 360, and found the software likewise powerful, but still not what I wanted.\n\nAs an audio video developer I knew I could make it work the way I wanted, and this year I finally set about doing that:  https://recap360.app  (macOS-only at the moment).",
+      "evidence": [
+        {
+          "source_item_id": 50427167,
+          "source_field": "body",
+          "value": "A video player focussed on 360 videos.\n\nI got a 360 camera (GoPro MAX v1) for my bicycle, after re-discovering bicycling during COVID. I soon found it was fun to review the video after a ride, but the software was a bit clunky. Upgraded to a DJI Osmo 360, and found the software likewise powerful, but still not what I wanted.\n\nAs an audio video developer I knew I could make it work the way I wanted, and this year I finally set about doing that:  https://recap360.app  (macOS-only at the moment).",
+          "supports": [],
+          "author": "moj",
+          "shared_at": 1794239167,
+          "source_url": "https://news.ycombinator.com/item?id=50427167"
+        }
+      ],
+      "source_item_id": 50427167,
+      "source_url": "https://news.ycombinator.com/item?id=50427167",
+      "author": "moj",
+      "shared_at": 1794239167,
+      "links": [
+        "https://recap360.app"
+      ]
+    }
+  ]
+}

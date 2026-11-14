@@ -1,0 +1,36 @@
+{
+  "id": 1040,
+  "slug": "dbsp-for-postgres-and-duckdb-pg-dbsp-duckdbsp-acf887b95e",
+  "name": "DBSP for Postgres and DuckDB (pg_dbsp, duckDBSP)",
+  "mentions": [
+    {
+      "name": "DBSP for Postgres and DuckDB (pg_dbsp, duckDBSP)",
+      "description": "Applies DBSP theory to Postgres and DuckDB to enable incrementally maintained materialized views.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "getravi"
+      ],
+      "source_excerpt": "Applied DBSP theory to Postgres https://github.com/getravi/pg_dbsp and DuckDB https://github.com/getravi/duckDBSP. The idea is to have incrementally maintained materialized views.",
+      "evidence": [
+        {
+          "source_item_id": 49690298,
+          "source_field": "body",
+          "value": "Applied DBSP theory to Postgres https://github.com/getravi/pg_dbsp and DuckDB https://github.com/getravi/duckDBSP. The idea is to have incrementally maintained materialized views.",
+          "supports": [],
+          "author": "getravi",
+          "shared_at": 1789345743,
+          "source_url": "https://news.ycombinator.com/item?id=49690298"
+        }
+      ],
+      "source_item_id": 49690298,
+      "source_url": "https://news.ycombinator.com/item?id=49690298",
+      "author": "getravi",
+      "shared_at": 1789345743,
+      "links": [
+        "https://github.com/getravi/duckDBSP",
+        "https://github.com/getravi/pg_dbsp"
+      ]
+    }
+  ]
+}

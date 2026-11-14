@@ -1,0 +1,33 @@
+{
+  "id": 3241,
+  "slug": "lean-4-formatter-8a9c4218fb",
+  "name": "Lean 4 formatter",
+  "mentions": [
+    {
+      "name": "Lean 4 formatter",
+      "description": "A production-worthy code formatter for the Lean 4 programming language, configurable in the style of clang-format. It handles Lean's partial elaboration with backtracking and can already format important open source Lean libraries; mathlib4 remains the hardest case.",
+      "problem": "Formatting mathlib4 has no viable plan yet, since it would likely require per-directory quirks files, which is probably a nonstarter.",
+      "audience": null,
+      "builder_usernames": [
+        "reinitctxoffset"
+      ],
+      "source_excerpt": "Production-worthy formatter for lean4.\n\nRight now it copes with important open source libraries on the model of clang-format's configuration, which is a real trick given the partial elaboration you need (with backtracking). But that works.\n\nmathlib4 is the final boss, I don't currently even have a plan without per-directory quirks files which is probably a nonstarter.",
+      "evidence": [
+        {
+          "source_item_id": 48886623,
+          "source_field": "body",
+          "value": "Production-worthy formatter for lean4.\n\nRight now it copes with important open source libraries on the model of clang-format's configuration, which is a real trick given the partial elaboration you need (with backtracking). But that works.\n\nmathlib4 is the final boss, I don't currently even have a plan without per-directory quirks files which is probably a nonstarter.",
+          "supports": [],
+          "author": "reinitctxoffset",
+          "shared_at": 1783904633,
+          "source_url": "https://news.ycombinator.com/item?id=48886623"
+        }
+      ],
+      "source_item_id": 48886623,
+      "source_url": "https://news.ycombinator.com/item?id=48886623",
+      "author": "reinitctxoffset",
+      "shared_at": 1783904633,
+      "links": []
+    }
+  ]
+}

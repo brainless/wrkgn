@@ -1,0 +1,35 @@
+{
+  "id": 1880,
+  "slug": "viva-5f4b4ad566",
+  "name": "viva",
+  "mentions": [
+    {
+      "name": "viva",
+      "description": "This tool helps author and review documentation. Users specify the kind of doc they want and attach links, files, or repo paths; it then asks clarifying questions until it has the data it needs, drafts the doc, and provides a review interface where users can approve, request more info, request changes, or make direct edits, iterating until all sections are approved.",
+      "problem": "Working with agents generates a lot of markdown input and output that needs to be authored and reviewed as documents.",
+      "audience": null,
+      "builder_usernames": [
+        "ryanchants"
+      ],
+      "source_excerpt": "Working with agents generates a lot of markdown input and output. So I'm working on viva, a tool to help author and review docs.\n\nYou tell it what kind of doc you want, attach any necessary links/files/repo paths/etc, then it asks you clarifying questions until it has the data it needs. Then it authors a doc and give you a review interface. You can approve, request more info, request changes, make direct edits, etc.",
+      "evidence": [
+        {
+          "source_item_id": 49234495,
+          "source_field": "body",
+          "value": "Working with agents generates a lot of markdown input and output. So I'm working on viva, a tool to help author and review docs.\n\nYou tell it what kind of doc you want, attach any necessary links/files/repo paths/etc, then it asks you clarifying questions until it has the data it needs. Then it authors a doc and give you a review interface. You can approve, request more info, request changes, make direct edits, etc.",
+          "supports": [],
+          "author": "ryanchants",
+          "shared_at": 1786301949,
+          "source_url": "https://news.ycombinator.com/item?id=49234495"
+        }
+      ],
+      "source_item_id": 49234495,
+      "source_url": "https://news.ycombinator.com/item?id=49234495",
+      "author": "ryanchants",
+      "shared_at": 1786301949,
+      "links": [
+        "https://github.com/jacquardlabs/viva"
+      ]
+    }
+  ]
+}

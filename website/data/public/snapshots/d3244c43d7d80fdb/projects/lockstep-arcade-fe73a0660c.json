@@ -1,0 +1,35 @@
+{
+  "id": 2712,
+  "slug": "lockstep-arcade-fe73a0660c",
+  "name": "Lockstep Arcade",
+  "mentions": [
+    {
+      "name": "Lockstep Arcade",
+      "description": "A collection of networked multiplayer games built around a lockstep deterministic network model with 'delay frames' between acting directly on user input and progressing the shared network state. Each included game takes a different approach to solving the network delay problem of providing immediate feedback to user input while hiding that actual changes to shared state are delayed.",
+      "problem": "The network delay problem in multiplayer games: providing immediate feedback to user input while hiding the fact that actual changes to shared network state are delayed.",
+      "audience": null,
+      "builder_usernames": [
+        "crispweed"
+      ],
+      "source_excerpt": "I'm working on a collection of networked games, around the central theme of a lockstep deterministic network model with 'delay frames' (between acting directly on user input and progressing actual shared network state).\n\nYou can try this here: https://locksteparcade.com/Client",
+      "evidence": [
+        {
+          "source_item_id": 48889499,
+          "source_field": "body",
+          "value": "I'm working on a collection of networked games, around the central theme of a lockstep deterministic network model with 'delay frames' (between acting directly on user input and progressing actual shared network state).\n\nYou can try this here: https://locksteparcade.com/Client",
+          "supports": [],
+          "author": "crispweed",
+          "shared_at": 1783931012,
+          "source_url": "https://news.ycombinator.com/item?id=48889499"
+        }
+      ],
+      "source_item_id": 48889499,
+      "source_url": "https://news.ycombinator.com/item?id=48889499",
+      "author": "crispweed",
+      "shared_at": 1783931012,
+      "links": [
+        "https://locksteparcade.com/Client"
+      ]
+    }
+  ]
+}

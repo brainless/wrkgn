@@ -1,0 +1,35 @@
+{
+  "id": 3268,
+  "slug": "web-port-of-uofiddler-8191dbfba1",
+  "name": "Sosarium",
+  "mentions": [
+    {
+      "name": "Sosarium",
+      "description": "An open-source Ultima Online toolchain built around a CLI that spins up UO servers (ServUO, Sphere, and others) and deploys them to a local machine, a VPS, or Railway. It also extends to the client side, deploying a ClassicUO-based web client so the game can be played from a webpage without installing the native client, and it adds player-like server bots that began with local decision trees, were hooked up with Jev and Clef, and use Haiku for speech generation.",
+      "problem": "Running Ultima Online on macOS is always a struggle, and UO servers can feel lonely without other players.",
+      "audience": "People into Ultima Online",
+      "builder_usernames": [
+        "gokaygurcan"
+      ],
+      "source_excerpt": "Started with a funny experiment, to have a CLI that can spin up a server (ServUO, Sphere, whatever), then deploy it somewhere (local, VPS, or Railway). Then saw interesting stuff that people did on top of existing ClassicUO, and decided to extend CLI's capabilities to client area too. So, I was able to deploy a server and a web-client (that you can open a webpage and play the game without the actual client installed on your machine). This was a significant step because running UO on macOS is always a struggle.",
+      "evidence": [
+        {
+          "source_item_id": 50419315,
+          "source_field": "body",
+          "value": "Started with a funny experiment, to have a CLI that can spin up a server (ServUO, Sphere, whatever), then deploy it somewhere (local, VPS, or Railway). Then saw interesting stuff that people did on top of existing ClassicUO, and decided to extend CLI's capabilities to client area too. So, I was able to deploy a server and a web-client (that you can open a webpage and play the game without the actual client installed on your machine). This was a significant step because running UO on macOS is always a struggle.",
+          "supports": [],
+          "author": "gokaygurcan",
+          "shared_at": 1794183648,
+          "source_url": "https://news.ycombinator.com/item?id=50419315"
+        }
+      ],
+      "source_item_id": 50419315,
+      "source_url": "https://news.ycombinator.com/item?id=50419315",
+      "author": "gokaygurcan",
+      "shared_at": 1794183648,
+      "links": [
+        "https://sosarium.com"
+      ]
+    }
+  ]
+}

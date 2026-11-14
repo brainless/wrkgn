@@ -1,0 +1,35 @@
+{
+  "id": 1406,
+  "slug": "keepsake-94a23c603b",
+  "name": "keepsake",
+  "mentions": [
+    {
+      "name": "keepsake",
+      "description": "A convention for organizing personal video files on your own object storage buckets. It is designed to offload phone videos to free up device space and persist them in self-controlled storage, making the archived videos more useful than a flat collection of object paths.",
+      "problem": "Phone storage fills up with videos, and users want to offload them while keeping the files persisted in self-controlled storage rather than relying on hosted services.",
+      "audience": null,
+      "builder_usernames": [
+        "rexf"
+      ],
+      "source_excerpt": "working on a convention to organize your own video files on your own buckets https://github.com/xta/keepsake\n\nmy goal is to offload phone videos (to free up device space) and persist them in self controlled storage. the convention makes this significantly more useful than a collection of object paths",
+      "evidence": [
+        {
+          "source_item_id": 49691941,
+          "source_field": "body",
+          "value": "working on a convention to organize your own video files on your own buckets https://github.com/xta/keepsake\n\nmy goal is to offload phone videos (to free up device space) and persist them in self controlled storage. the convention makes this significantly more useful than a collection of object paths",
+          "supports": [],
+          "author": "rexf",
+          "shared_at": 1789359611,
+          "source_url": "https://news.ycombinator.com/item?id=49691941"
+        }
+      ],
+      "source_item_id": 49691941,
+      "source_url": "https://news.ycombinator.com/item?id=49691941",
+      "author": "rexf",
+      "shared_at": 1789359611,
+      "links": [
+        "https://github.com/xta/keepsake"
+      ]
+    }
+  ]
+}

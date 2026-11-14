@@ -1,0 +1,33 @@
+{
+  "id": 410,
+  "slug": "atomvm-iot-automation-platform-93e3010f17",
+  "name": "AI-agent IoT automation platform on AtomVM",
+  "mentions": [
+    {
+      "name": "AI-agent IoT automation platform on AtomVM",
+      "description": "This IoT automation platform is built on top of AtomVM and lets AI agents control a fleet of devices, providing device management, telemetry, and OTA updates. It exposes device capabilities such as sensors, actuators, and cameras as tools via MCP, giving AI agents the ability to interact with the physical world. It supports all ESP32 variants with partial support for the RPi Pico 2 W; the backend is Elixir/Phoenix and the firmware is written in Gleam with occasional Erlang.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "garikz"
+      ],
+      "source_excerpt": "I'm working on an IoT automation platform built on top of AtomVM that lets AI agents control a fleet of devices, including device management, telemetry, OTA updates, etc.\n\nThe idea is to expose device capabilities (sensors, actuators, cameras) as tools via MCP, effectively giving AI agents the ability to interact with the physical world.",
+      "evidence": [
+        {
+          "source_item_id": 50423612,
+          "source_field": "body",
+          "value": "I'm working on an IoT automation platform built on top of AtomVM that lets AI agents control a fleet of devices, including device management, telemetry, OTA updates, etc.\n\nThe idea is to expose device capabilities (sensors, actuators, cameras) as tools via MCP, effectively giving AI agents the ability to interact with the physical world.",
+          "supports": [],
+          "author": "garikz",
+          "shared_at": 1794219432,
+          "source_url": "https://news.ycombinator.com/item?id=50423612"
+        }
+      ],
+      "source_item_id": 50423612,
+      "source_url": "https://news.ycombinator.com/item?id=50423612",
+      "author": "garikz",
+      "shared_at": 1794219432,
+      "links": []
+    }
+  ]
+}

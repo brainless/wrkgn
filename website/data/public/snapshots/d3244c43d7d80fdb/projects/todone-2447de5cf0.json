@@ -1,0 +1,35 @@
+{
+  "id": 2105,
+  "slug": "todone-2447de5cf0",
+  "name": "Todone",
+  "mentions": [
+    {
+      "name": "Todone",
+      "description": "Todone is a CLI and GitHub Action that scans comments containing URLs to GitHub issues, Figma comments, or browser support pages, and automatically opens an issue when the referenced issue or comment is resolved or the target browser gains support for the feature. It is extensible via a plugin system and is being prepared for a 1.0 launch.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "cprecioso"
+      ],
+      "source_excerpt": "I’ve been gearing up for launching Todone, a CLI / GitHub Action that can scan comments with URLs to GitHub issues, Figma comments, or browser support pages, and more (plugin system available); and open an issue when the issue or comment is resolved, or your target browser has that feature, etc",
+      "evidence": [
+        {
+          "source_item_id": 49234991,
+          "source_field": "body",
+          "value": "I’ve been gearing up for launching Todone, a CLI / GitHub Action that can scan comments with URLs to GitHub issues, Figma comments, or browser support pages, and more (plugin system available); and open an issue when the issue or comment is resolved, or your target browser has that feature, etc",
+          "supports": [],
+          "author": "cprecioso",
+          "shared_at": 1786304527,
+          "source_url": "https://news.ycombinator.com/item?id=49234991"
+        }
+      ],
+      "source_item_id": 49234991,
+      "source_url": "https://news.ycombinator.com/item?id=49234991",
+      "author": "cprecioso",
+      "shared_at": 1786304527,
+      "links": [
+        "https://github.com/todone-run/todone"
+      ]
+    }
+  ]
+}

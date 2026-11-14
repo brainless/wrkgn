@@ -1,0 +1,35 @@
+{
+  "id": 5912,
+  "slug": "all-about-berlin-change-monitoring-pipeline-6f3b3461b7",
+  "name": "All About Berlin change-monitoring pipeline",
+  "mentions": [
+    {
+      "name": "All About Berlin change-monitoring pipeline",
+      "description": "This pipeline monitors various sources for changing information and creates a pull request or email notification when something changes — for example, it updates constants.json when the income tax threshold (§ 32a EStG) changes — and sends a daily email digest of relevant discussions in relevant communities. It is written with Claude Code under tight supervision and uses ChatGPT's smallest model to extract numeric values from monitored pages, with the goal of lightening the maintainer's workload and improving the quality of the information shared.",
+      "problem": "As the website about German bureaucracy grows, it becomes harder to keep track of certain facts.",
+      "audience": null,
+      "builder_usernames": [
+        "nicbou"
+      ],
+      "source_excerpt": "I'm building a pipeline that monitors various sources for changing information, and creates a pull request or an email notification when something changes.",
+      "evidence": [
+        {
+          "source_item_id": 47741148,
+          "source_field": "body",
+          "value": "I'm building a pipeline that monitors various sources for changing information, and creates a pull request or an email notification when something changes.",
+          "supports": [],
+          "author": "nicbou",
+          "shared_at": 1776009062,
+          "source_url": "https://news.ycombinator.com/item?id=47741148"
+        }
+      ],
+      "source_item_id": 47741148,
+      "source_url": "https://news.ycombinator.com/item?id=47741148",
+      "author": "nicbou",
+      "shared_at": 1776009062,
+      "links": [
+        "https://github.com/All-About-Berlin/aab/tree/ai"
+      ]
+    }
+  ]
+}

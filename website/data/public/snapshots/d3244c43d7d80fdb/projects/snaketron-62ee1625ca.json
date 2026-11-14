@@ -1,0 +1,36 @@
+{
+  "id": 2099,
+  "slug": "snaketron-62ee1625ca",
+  "name": "Snaketron",
+  "mentions": [
+    {
+      "name": "Snaketron",
+      "description": "A multi-player Snake game written in Rust and built for auto-scalable cloud hosting. The websocket is not tied to the host running the game, so it can scale and rebalance in the middle of a match without disrupting gameplay.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "lopatin"
+      ],
+      "source_excerpt": "I'm reviving my multi-player Snake game Snaketron. It's written in Rust and probably the most technically interesting thing about it is that it's built for auto scalable Cloud hosting. The websocket isn't tied to the host actually running the game. And it can scale and rebalance in the middle of the a match without disrupting the game.",
+      "evidence": [
+        {
+          "source_item_id": 49236483,
+          "source_field": "body",
+          "value": "I'm reviving my multi-player Snake game Snaketron. It's written in Rust and probably the most technically interesting thing about it is that it's built for auto scalable Cloud hosting. The websocket isn't tied to the host actually running the game. And it can scale and rebalance in the middle of the a match without disrupting the game.",
+          "supports": [],
+          "author": "lopatin",
+          "shared_at": 1786312554,
+          "source_url": "https://news.ycombinator.com/item?id=49236483"
+        }
+      ],
+      "source_item_id": 49236483,
+      "source_url": "https://news.ycombinator.com/item?id=49236483",
+      "author": "lopatin",
+      "shared_at": 1786312554,
+      "links": [
+        "https://github.com/lopatin/Snaketron",
+        "https://snaketron.io"
+      ]
+    }
+  ]
+}

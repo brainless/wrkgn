@@ -1,0 +1,35 @@
+{
+  "id": 1418,
+  "slug": "resterm-5840d93935",
+  "name": "Resterm",
+  "mentions": [
+    {
+      "name": "Resterm",
+      "description": "Terminal API client that uses .http files as the source of truth, treating API definitions as code rather than collections like in tools such as Postman, Bruno, or Yaak. Supports gRPC, GraphQL, websockets, SSE, local mocks, and SSH/Kubernetes access.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "unkn0wn_root"
+      ],
+      "source_excerpt": "Been working on terminal API client that uses .http file as source-of-truth. It's more like API-as-a-code then similar tools like Postman, Bruno or Yaak. Supports gRPC, graphQL, websockets, SSE, local mocks, SSH/k8s etc.",
+      "evidence": [
+        {
+          "source_item_id": 49692972,
+          "source_field": "body",
+          "value": "Been working on terminal API client that uses .http file as source-of-truth. It's more like API-as-a-code then similar tools like Postman, Bruno or Yaak. Supports gRPC, graphQL, websockets, SSE, local mocks, SSH/k8s etc.",
+          "supports": [],
+          "author": "unkn0wn_root",
+          "shared_at": 1789369421,
+          "source_url": "https://news.ycombinator.com/item?id=49692972"
+        }
+      ],
+      "source_item_id": 49692972,
+      "source_url": "https://news.ycombinator.com/item?id=49692972",
+      "author": "unkn0wn_root",
+      "shared_at": 1789369421,
+      "links": [
+        "https://github.com/unkn0wn-root/resterm"
+      ]
+    }
+  ]
+}

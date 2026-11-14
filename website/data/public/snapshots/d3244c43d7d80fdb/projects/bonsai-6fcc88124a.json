@@ -1,0 +1,64 @@
+{
+  "id": 571,
+  "slug": "bonsai-6fcc88124a",
+  "name": "Bonsai",
+  "mentions": [
+    {
+      "name": "Bonsai",
+      "description": "A voxel game engine in development for ~10 years that represents worlds as collections of SDFs (density fields). The world generator and editor run almost entirely on the GPU via a three-stage pipeline: a user-configurable GLSL 'shaping' shader, a fused stage that computes normals, runs a user-configurable 'decoration' function and applies SDF edits compiled from a graph structure into bytecode, and a final convolution/packing stage producing 32-bit occupancy, color, and normal per voxel. The entire pipeline is a single fused 'ubershader' dispatched three times to keep driver overhead near zero. GPU results are passed back to the CPU for entity/structure spawning callbacks, then meshed with a fast binary meshing algorithm; surface chunks store 16 bits per voxel (1 occupancy bit, 15 normal bits) and scale to worlds larger than 1B voxels cubed. Profiling shows ~500B-1T perlin samples per second on a 3080ti mobile, with headroom from 16/8-bit textures. Designed to give users easy-to-use tools plus granular control over final output.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jesse__"
+      ],
+      "source_excerpt": "I've been working on a voxel game engine called Bonsai for ~10 years.",
+      "evidence": [
+        {
+          "source_item_id": 50328491,
+          "source_field": "body",
+          "value": "I've been working on a voxel game engine called Bonsai for ~10 years.",
+          "supports": [],
+          "author": "jesse__",
+          "shared_at": 1793559259,
+          "source_url": "https://news.ycombinator.com/item?id=50328491"
+        }
+      ],
+      "source_item_id": 50328491,
+      "source_url": "https://news.ycombinator.com/item?id=50328491",
+      "author": "jesse__",
+      "shared_at": 1793559259,
+      "links": [
+        "https://github.com/scallyw4g/bonsai",
+        "https://github.com/scallyw4g/poof"
+      ]
+    },
+    {
+      "name": "Bonsai",
+      "description": "A voxel game engine developed over ~10 years and written entirely from scratch, including memory allocators, font rasterizer, collision detection, and the simulation loop, with the C runtime as its only external dependency. Worlds and most things in them are represented as collections of SDFs (density fields), and a world edit is defined by SDF parameters that are rasterized into the voxel grid by a GPU shader, supporting smooth unions with rounded contours. It centers on an editor and is nearing completion of a major rewrite, with plans to build games on top of it in closed-source repos.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jesse__"
+      ],
+      "source_excerpt": "I've been working on a voxel game engine called Bonsai for ~10 years.\n\nProbably the most interesting thing about it at the moment is the editor.  The world, and most things in it, are represented as collections of SDFs.",
+      "evidence": [
+        {
+          "source_item_id": 49690404,
+          "source_field": "body",
+          "value": "I've been working on a voxel game engine called Bonsai for ~10 years.\n\nProbably the most interesting thing about it at the moment is the editor.  The world, and most things in it, are represented as collections of SDFs.",
+          "supports": [],
+          "author": "jesse__",
+          "shared_at": 1789346588,
+          "source_url": "https://news.ycombinator.com/item?id=49690404"
+        }
+      ],
+      "source_item_id": 49690404,
+      "source_url": "https://news.ycombinator.com/item?id=49690404",
+      "author": "jesse__",
+      "shared_at": 1789346588,
+      "links": [
+        "https://github.com/scallyw4g/bonsai"
+      ]
+    }
+  ]
+}

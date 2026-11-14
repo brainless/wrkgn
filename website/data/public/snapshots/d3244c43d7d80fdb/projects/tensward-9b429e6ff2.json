@@ -1,0 +1,35 @@
+{
+  "id": 306,
+  "slug": "tensward-9b429e6ff2",
+  "name": "Tensward",
+  "mentions": [
+    {
+      "name": "Tensward",
+      "description": "This is a local AI inference optimisation tool that detects the user's environment and helps optimise inference, running completely locally with no cloud dependency.",
+      "problem": "Deploying local models and the balancing act of inference optimisation in client environments was a huge headache.",
+      "audience": null,
+      "builder_usernames": [
+        "tensward"
+      ],
+      "source_excerpt": "the idea to create Tesnward - a local AI inference optimisation tool - Tensward detect your environment and help you optimise inference, it runs completely local",
+      "evidence": [
+        {
+          "source_item_id": 50428144,
+          "source_field": "body",
+          "value": "the idea to create Tesnward - a local AI inference optimisation tool - Tensward detect your environment and help you optimise inference, it runs completely local",
+          "supports": [],
+          "author": "tensward",
+          "shared_at": 1794243133,
+          "source_url": "https://news.ycombinator.com/item?id=50428144"
+        }
+      ],
+      "source_item_id": 50428144,
+      "source_url": "https://news.ycombinator.com/item?id=50428144",
+      "author": "tensward",
+      "shared_at": 1794243133,
+      "links": [
+        "https://github.com/Tensward/tensward"
+      ]
+    }
+  ]
+}

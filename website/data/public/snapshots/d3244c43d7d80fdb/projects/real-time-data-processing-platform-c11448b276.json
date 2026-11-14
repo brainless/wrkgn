@@ -1,0 +1,33 @@
+{
+  "id": 2212,
+  "slug": "real-time-data-processing-platform-c11448b276",
+  "name": "Real-time data processing platform",
+  "mentions": [
+    {
+      "name": "Real-time data processing platform",
+      "description": "This platform performs real-time data processing in Go, handling approximately 40 concurrent WebSocket streams with microsecond decision latency. It connects three LLM providers in parallel as a consensus layer for automated decision making, which only acts when all three providers agree.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "evtenko"
+      ],
+      "source_excerpt": "Developing a real-time data processing platform in Go, handling approximately 40 concurrent WebSocket streams with microsecond decision latency. The most interesting part was the parallel connection of three LLM providers as a consensus layer for automated decision making, which only works when all three providers agree.",
+      "evidence": [
+        {
+          "source_item_id": 49311738,
+          "source_field": "body",
+          "value": "Developing a real-time data processing platform in Go, handling approximately 40 concurrent WebSocket streams with microsecond decision latency. The most interesting part was the parallel connection of three LLM providers as a consensus layer for automated decision making, which only works when all three providers agree.",
+          "supports": [],
+          "author": "evtenko",
+          "shared_at": 1786810149,
+          "source_url": "https://news.ycombinator.com/item?id=49311738"
+        }
+      ],
+      "source_item_id": 49311738,
+      "source_url": "https://news.ycombinator.com/item?id=49311738",
+      "author": "evtenko",
+      "shared_at": 1786810149,
+      "links": []
+    }
+  ]
+}

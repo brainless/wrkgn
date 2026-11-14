@@ -1,0 +1,35 @@
+{
+  "id": 2621,
+  "slug": "vantio-ai-c9ec81c2aa",
+  "name": "Vantio AI",
+  "mentions": [
+    {
+      "name": "Vantio AI",
+      "description": "This platform secures autonomous AI agents in the enterprise at the kernel level using eBPF. It provides compliance reporting and metrics backed by cryptographically sealed telemetry logs, blocks all PII from leaving the network, and supplies the guardrails needed to run an entire enterprise without humans in the loop. It is currently undergoing a 30-day soak test against an AI Red Team, during which it has blocked 35,000 exploit attacks and rogue actions from hallucinating AI agents.",
+      "problem": "Autonomous AI agents in enterprises are exposed to exploit attacks and rogue actions, and lack kernel-level enforcement, PII protection, and compliance guardrails.",
+      "audience": "Enterprises building fully autonomous companies and AI-agent operations, for which the team seeks design partners.",
+      "builder_usernames": [
+        "zach_vantio"
+      ],
+      "source_excerpt": "Vantio AI secures autonomous agents at the kernal level using eBPF.  We provide full compliance reporting and metrics using cryptograhically sealed telemetry logs, block all PII from leaving your network, and provide the guardrails needed for you to build an entire enterprise (99%) without humans in the loop.",
+      "evidence": [
+        {
+          "source_item_id": 48913360,
+          "source_field": "body",
+          "value": "Vantio AI secures autonomous agents at the kernal level using eBPF.  We provide full compliance reporting and metrics using cryptograhically sealed telemetry logs, block all PII from leaving your network, and provide the guardrails needed for you to build an entire enterprise (99%) without humans in the loop.",
+          "supports": [],
+          "author": "zach_vantio",
+          "shared_at": 1784065777,
+          "source_url": "https://news.ycombinator.com/item?id=48913360"
+        }
+      ],
+      "source_item_id": 48913360,
+      "source_url": "https://news.ycombinator.com/item?id=48913360",
+      "author": "zach_vantio",
+      "shared_at": 1784065777,
+      "links": [
+        "https://vantio.ai"
+      ]
+    }
+  ]
+}

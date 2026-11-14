@@ -1,0 +1,33 @@
+{
+  "id": 1403,
+  "slug": "lightweight-browser-for-agents-8c7bd1b121",
+  "name": "Lightweight browser for agents",
+  "mentions": [
+    {
+      "name": "Lightweight browser for agents",
+      "description": "A lightweight browser built for agents, inspired by lightpanda/obscura/kindsurf. The author abandoned it after concluding that the web spec is too vast for a lightweight browser to work on modern sites.",
+      "problem": "Building a browser that actually works for modern sites requires a huge implementation, while keeping it lightweight means it won't work for most sites; the author suggests using chrome-headless-shell or webkit instead.",
+      "audience": null,
+      "builder_usernames": [
+        "ospider"
+      ],
+      "source_excerpt": "I tried to build a lightweight browser for agents, like lightpanda/obscura/kindsurf. But I then found out it's a dead end for me and all the others.",
+      "evidence": [
+        {
+          "source_item_id": 49693596,
+          "source_field": "body",
+          "value": "I tried to build a lightweight browser for agents, like lightpanda/obscura/kindsurf. But I then found out it's a dead end for me and all the others.",
+          "supports": [],
+          "author": "ospider",
+          "shared_at": 1789374155,
+          "source_url": "https://news.ycombinator.com/item?id=49693596"
+        }
+      ],
+      "source_item_id": 49693596,
+      "source_url": "https://news.ycombinator.com/item?id=49693596",
+      "author": "ospider",
+      "shared_at": 1789374155,
+      "links": []
+    }
+  ]
+}

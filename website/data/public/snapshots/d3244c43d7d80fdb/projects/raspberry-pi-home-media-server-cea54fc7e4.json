@@ -1,0 +1,33 @@
+{
+  "id": 842,
+  "slug": "raspberry-pi-home-media-server-cea54fc7e4",
+  "name": "AI-assisted home media server on headless Debian (Raspberry Pi)",
+  "mentions": [
+    {
+      "name": "AI-assisted home media server on headless Debian (Raspberry Pi)",
+      "description": "This home media server runs headless Debian on a Raspberry Pi, streaming music and videos and holding ROMs on a big 6-drive enclosure built from repurposed old HDDs. It automatically standardizes file names and handles tagging and subtitles, and is configured and customized through Claude, letting the owner request changes in natural language (e.g., filing game soundtracks under the game name) instead of typing terminal commands.",
+      "problem": "The builder found Linux TUIs obscure, inscrutable, and unintuitive and for years struggled to make headway with command-line Linux; the AI-assisted setup lets them run a fully customized home server without writing more than a dozen lines of code or commands.",
+      "audience": "Home media use for the builder's own household; explicitly personal use with their own media, ROMs, and old HDDs.",
+      "builder_usernames": [
+        "mock-possum"
+      ],
+      "source_excerpt": "I’ve been working on setting up a home media server, using headless Debian on a pi - I’ve got it set up to stream music and videos, hold all my ROMs, I’ve got it automatically standardizing file names and handling tagging and subtitles - all attached to a big 6-drive enclosure that I just stuffed all my random old HDDs into.",
+      "evidence": [
+        {
+          "source_item_id": 50390231,
+          "source_field": "body",
+          "value": "I’ve been working on setting up a home media server, using headless Debian on a pi - I’ve got it set up to stream music and videos, hold all my ROMs, I’ve got it automatically standardizing file names and handling tagging and subtitles - all attached to a big 6-drive enclosure that I just stuffed all my random old HDDs into.",
+          "supports": [],
+          "author": "mock-possum",
+          "shared_at": 1793957957,
+          "source_url": "https://news.ycombinator.com/item?id=50390231"
+        }
+      ],
+      "source_item_id": 50390231,
+      "source_url": "https://news.ycombinator.com/item?id=50390231",
+      "author": "mock-possum",
+      "shared_at": 1793957957,
+      "links": []
+    }
+  ]
+}

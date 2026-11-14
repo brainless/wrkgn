@@ -1,0 +1,63 @@
+{
+  "id": 2354,
+  "slug": "feral-ce76e6adbb",
+  "name": "Feral",
+  "mentions": [
+    {
+      "name": "Feral",
+      "description": "This AI agent generates promotional content for social media designed to deeply resonate with a target audience. It wraps LLMs like Claude and ChatGPT in a marketing harness that handles business context, angle discovery, and tracking of previous posts, so it can produce a reliable stream of varied posts instead of converging, repetitive, salesy output.",
+      "problem": "Using Claude and ChatGPT directly yields only a few good posts: after 10–15 outputs the angles converge, the language repeats, everything becomes too salesy, and the user must manually provide business context, find angles, and track previous posts.",
+      "audience": "People with a business and a target audience who need promotional social media content",
+      "builder_usernames": [
+        "creature_x"
+      ],
+      "source_excerpt": "Building an AI agent that creates promotional content for social media, in a way that deeply resonates with your target audience. I tried using Claude and ChatGPT first, and they could give me a few good posts, but not a reliable stream of them. After 10–15 outputs, the angles converged, the language repeated, and everything became too salesy. I was still providing business context, finding angles, tracking previous posts.\n\nIt was clear to me that a marketing harness was needed around the LLMs for this purpose, and so Feral was born.\n\nhttps://feralhq.com",
+      "evidence": [
+        {
+          "source_item_id": 49234662,
+          "source_field": "body",
+          "value": "Building an AI agent that creates promotional content for social media, in a way that deeply resonates with your target audience. I tried using Claude and ChatGPT first, and they could give me a few good posts, but not a reliable stream of them. After 10–15 outputs, the angles converged, the language repeated, and everything became too salesy. I was still providing business context, finding angles, tracking previous posts.\n\nIt was clear to me that a marketing harness was needed around the LLMs for this purpose, and so Feral was born.\n\nhttps://feralhq.com",
+          "supports": [],
+          "author": "creature_x",
+          "shared_at": 1786302920,
+          "source_url": "https://news.ycombinator.com/item?id=49234662"
+        }
+      ],
+      "source_item_id": 49234662,
+      "source_url": "https://news.ycombinator.com/item?id=49234662",
+      "author": "creature_x",
+      "shared_at": 1786302920,
+      "links": [
+        "https://feralhq.com"
+      ]
+    },
+    {
+      "name": "Feral",
+      "description": "This AI agent learns a user's business and audience, then creates social media content designed to genuinely resonate with that audience, with output deliberately tuned to avoid generic AI slop.",
+      "problem": "The author is bad at content creation and had a graveyard of under-promoted apps that never went anywhere; showing up consistently on socials matters but generic AI content feels sloppy.",
+      "audience": null,
+      "builder_usernames": [
+        "creature_x"
+      ],
+      "source_excerpt": "I’m building Feral, an AI agent that learns your business and audience, then creates content that actually resonates with your people.",
+      "evidence": [
+        {
+          "source_item_id": 48923218,
+          "source_field": "body",
+          "value": "I’m building Feral, an AI agent that learns your business and audience, then creates content that actually resonates with your people.",
+          "supports": [],
+          "author": "creature_x",
+          "shared_at": 1784132568,
+          "source_url": "https://news.ycombinator.com/item?id=48923218"
+        }
+      ],
+      "source_item_id": 48923218,
+      "source_url": "https://news.ycombinator.com/item?id=48923218",
+      "author": "creature_x",
+      "shared_at": 1784132568,
+      "links": [
+        "https://feralhq.com"
+      ]
+    }
+  ]
+}

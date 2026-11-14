@@ -1,0 +1,36 @@
+{
+  "id": 2060,
+  "slug": "deviceterm-09cfbdf071",
+  "name": "Deviceterm",
+  "mentions": [
+    {
+      "name": "Deviceterm",
+      "description": "A macOS terminal (built as a libghostty wrapper) that runs iOS simulators and mirrored physical devices in a Metal-rendered pane inside the terminal. It integrates with standard tooling—e.g., anything in a tab that runs `xcrun simctl boot` causes the simulator to appear as a pane in that tab—and includes a CLI covering capabilities simctl/devicectl lack, such as taps, gestures, rotation, and the accessibility tree.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "sethd"
+      ],
+      "source_excerpt": "I built a macOS terminal (libghostty wrapper) that runs iOS simulators (and mirrored physical devices) in a Metal-rendered pane inside the terminal.",
+      "evidence": [
+        {
+          "source_item_id": 49238564,
+          "source_field": "body",
+          "value": "I built a macOS terminal (libghostty wrapper) that runs iOS simulators (and mirrored physical devices) in a Metal-rendered pane inside the terminal.",
+          "supports": [],
+          "author": "sethd",
+          "shared_at": 1786328671,
+          "source_url": "https://news.ycombinator.com/item?id=49238564"
+        }
+      ],
+      "source_item_id": 49238564,
+      "source_url": "https://news.ycombinator.com/item?id=49238564",
+      "author": "sethd",
+      "shared_at": 1786328671,
+      "links": [
+        "https://deviceterm.com",
+        "https://github.com/sethdeckard/deviceterm"
+      ]
+    }
+  ]
+}

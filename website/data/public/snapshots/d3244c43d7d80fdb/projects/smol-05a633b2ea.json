@@ -1,0 +1,36 @@
+{
+  "id": 1787,
+  "slug": "smol-05a633b2ea",
+  "name": "smol",
+  "mentions": [
+    {
+      "name": "smol",
+      "description": "A minimal AI agent harness implemented in 9 lines of Python, with additional minimal implementations in Clojure, Go, and PHP. It aims to be cheaper, faster, and use less peak RAM per task than comparable agent tools such as OpenCode, Hermes, Codex, and pi, exploring what the minimal setup is for an agent to work well.",
+      "problem": "Existing agent harnesses are heavier: more expensive, slower, and use more peak RAM per task.",
+      "audience": null,
+      "builder_usernames": [
+        "tosh"
+      ],
+      "source_excerpt": "smol, a smol agent harness in 9 lines python\n\nhttps://smolenv.com\n\nalso has minimal implementations in clojure, go, php:\n\nhttps://github.com/smol-env/smol\n\ncheaper, faster, less peak RAM per task than OpenCode, Hermes, Codex, pi",
+      "evidence": [
+        {
+          "source_item_id": 49233616,
+          "source_field": "body",
+          "value": "smol, a smol agent harness in 9 lines python\n\nhttps://smolenv.com\n\nalso has minimal implementations in clojure, go, php:\n\nhttps://github.com/smol-env/smol\n\ncheaper, faster, less peak RAM per task than OpenCode, Hermes, Codex, pi",
+          "supports": [],
+          "author": "tosh",
+          "shared_at": 1786297527,
+          "source_url": "https://news.ycombinator.com/item?id=49233616"
+        }
+      ],
+      "source_item_id": 49233616,
+      "source_url": "https://news.ycombinator.com/item?id=49233616",
+      "author": "tosh",
+      "shared_at": 1786297527,
+      "links": [
+        "https://github.com/smol-env/smol",
+        "https://smolenv.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 635,
+  "slug": "polign-recall-d73a298cc6",
+  "name": "Polign Recall",
+  "mentions": [
+    {
+      "name": "Polign Recall",
+      "description": "State and memory management for AI agents, providing append-only state logging and governance. Memory and storage run entirely in a BYOC (bring your own cloud) setup and can work with confidential workloads.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "anuptalwalkar"
+      ],
+      "source_excerpt": "Polign Recall, a state and memory management for agents that can provide append only state logging and governance. The memory and storage is completely on BYOC setup and can work with confidential workloads",
+      "evidence": [
+        {
+          "source_item_id": 50418653,
+          "source_field": "body",
+          "value": "Polign Recall, a state and memory management for agents that can provide append only state logging and governance. The memory and storage is completely on BYOC setup and can work with confidential workloads",
+          "supports": [],
+          "author": "anuptalwalkar",
+          "shared_at": 1794179621,
+          "source_url": "https://news.ycombinator.com/item?id=50418653"
+        }
+      ],
+      "source_item_id": 50418653,
+      "source_url": "https://news.ycombinator.com/item?id=50418653",
+      "author": "anuptalwalkar",
+      "shared_at": 1794179621,
+      "links": [
+        "https://github.com/Polign/recall"
+      ]
+    }
+  ]
+}

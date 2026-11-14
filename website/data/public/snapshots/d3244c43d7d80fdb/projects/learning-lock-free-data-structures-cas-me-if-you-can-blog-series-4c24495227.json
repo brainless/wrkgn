@@ -1,0 +1,37 @@
+{
+  "id": 2532,
+  "slug": "learning-lock-free-data-structures-cas-me-if-you-can-blog-series-4c24495227",
+  "name": "Learning Lock-Free Data Structures (CAS Me If You Can blog series)",
+  "mentions": [
+    {
+      "name": "Learning Lock-Free Data Structures (CAS Me If You Can blog series)",
+      "description": "A three-part blog series on learning lock-free data structures. It walks through building a Treiber Stack first in Go and then in C++, diagnosing ABA and use-after-free issues in the C++ implementation, touching on hazard pointers, and finishing with a benchmark comparison between a mutex-based and a lock-free version of the stack. LLMs were used as a teaching aid to explain concepts and handle setup, without generating code.",
+      "problem": "Learning lock-free data structures is difficult and can otherwise require reading dense and obscure books.",
+      "audience": null,
+      "builder_usernames": [
+        "manish_gill"
+      ],
+      "source_excerpt": "Learning Lock-Free Data Structures:\n\n- https://parallelthoughts.xyz/2026/03/cas-me-if-you-can-part-1/\n\n- https://parallelthoughts.xyz/2026/06/cas-me-if-you-can-part-2/\n\n- https://parallelthoughts.xyz/2026/07/cas-me-if-you-can-part-3/\n\nMostly me exploring how to build a Treiber Stack (first in Go, then in C++) -> Figuring out ABA and Use-After-Free in the C++ implementation, and then touching a bit of Hazard Pointers, and ending with a benchmark comparison b/w a mutex and a lock-free version of the stack.",
+      "evidence": [
+        {
+          "source_item_id": 48894044,
+          "source_field": "body",
+          "value": "Learning Lock-Free Data Structures:\n\n- https://parallelthoughts.xyz/2026/03/cas-me-if-you-can-part-1/\n\n- https://parallelthoughts.xyz/2026/06/cas-me-if-you-can-part-2/\n\n- https://parallelthoughts.xyz/2026/07/cas-me-if-you-can-part-3/\n\nMostly me exploring how to build a Treiber Stack (first in Go, then in C++) -> Figuring out ABA and Use-After-Free in the C++ implementation, and then touching a bit of Hazard Pointers, and ending with a benchmark comparison b/w a mutex and a lock-free version of the stack.",
+          "supports": [],
+          "author": "manish_gill",
+          "shared_at": 1783955891,
+          "source_url": "https://news.ycombinator.com/item?id=48894044"
+        }
+      ],
+      "source_item_id": 48894044,
+      "source_url": "https://news.ycombinator.com/item?id=48894044",
+      "author": "manish_gill",
+      "shared_at": 1783955891,
+      "links": [
+        "https://parallelthoughts.xyz/2026/03/cas-me-if-you-can-part-1/",
+        "https://parallelthoughts.xyz/2026/06/cas-me-if-you-can-part-2/",
+        "https://parallelthoughts.xyz/2026/07/cas-me-if-you-can-part-3/"
+      ]
+    }
+  ]
+}

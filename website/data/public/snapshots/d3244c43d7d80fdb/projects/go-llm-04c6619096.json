@@ -1,0 +1,35 @@
+{
+  "id": 383,
+  "slug": "go-llm-04c6619096",
+  "name": "go-llm",
+  "mentions": [
+    {
+      "name": "go-llm",
+      "description": "A locally-runnable AI assistant that supports voice notes through Telegram and connections to MCP servers, and runs in a single Docker container using less than 100MB of memory. It includes a couple of easter eggs, and planned next steps include direct email and calendar access.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "djthorpe"
+      ],
+      "source_excerpt": "But you can run mine locally, and it has a couple of easter eggs ;-) as well as voice notes through telegram, connect MCP servers, and runs in a single Docker container needing less than 100MB of memory.",
+      "evidence": [
+        {
+          "source_item_id": 50422326,
+          "source_field": "body",
+          "value": "But you can run mine locally, and it has a couple of easter eggs ;-) as well as voice notes through telegram, connect MCP servers, and runs in a single Docker container needing less than 100MB of memory.",
+          "supports": [],
+          "author": "djthorpe",
+          "shared_at": 1794209876,
+          "source_url": "https://news.ycombinator.com/item?id=50422326"
+        }
+      ],
+      "source_item_id": 50422326,
+      "source_url": "https://news.ycombinator.com/item?id=50422326",
+      "author": "djthorpe",
+      "shared_at": 1794209876,
+      "links": [
+        "https://github.com/mutablelogic/go-llm"
+      ]
+    }
+  ]
+}

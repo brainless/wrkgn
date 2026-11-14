@@ -1,0 +1,33 @@
+{
+  "id": 2604,
+  "slug": "integrated-fitness-progress-dashboard-efeb7cd72f",
+  "name": "Integrated fitness progress dashboard",
+  "mentions": [
+    {
+      "name": "Integrated fitness progress dashboard",
+      "description": "This dashboard aggregates daily health and fitness data from a digital scale, an Apple Watch (sleep and running performance), and a Beastmaker Motherboard electronic hangboard that measures applied force. Each morning it shows the previous day's progress in weight loss, strength gain, and cardio performance. Data flows from Apple Health (hourly exports of scale and watch data) and via real-time BLE from the electronic board, potentially routed through an always-on Raspberry Pi 5 into a small server app that draws charts.",
+      "problem": "After gaining weight over the past three years despite a decade of climbing, the author wants a motivating \"do X, see Y gain\" feedback loop by seeing daily progress across fragmented weight, strength, and cardio data sources.",
+      "audience": "personal-use",
+      "builder_usernames": [
+        "enraged_camel"
+      ],
+      "source_excerpt": "So I started building an integrated dashboard that can aggregate data from multiple systems:\n\n- My digital scale\n\n- Apple Watch (sleep + running performance)\n\n- Beastmaker Motherboard, which is an electronic board that you attach a hangboard to and it shows you various stats like how much force you're applying",
+      "evidence": [
+        {
+          "source_item_id": 48885438,
+          "source_field": "body",
+          "value": "So I started building an integrated dashboard that can aggregate data from multiple systems:\n\n- My digital scale\n\n- Apple Watch (sleep + running performance)\n\n- Beastmaker Motherboard, which is an electronic board that you attach a hangboard to and it shows you various stats like how much force you're applying",
+          "supports": [],
+          "author": "enraged_camel",
+          "shared_at": 1783894689,
+          "source_url": "https://news.ycombinator.com/item?id=48885438"
+        }
+      ],
+      "source_item_id": 48885438,
+      "source_url": "https://news.ycombinator.com/item?id=48885438",
+      "author": "enraged_camel",
+      "shared_at": 1783894689,
+      "links": []
+    }
+  ]
+}

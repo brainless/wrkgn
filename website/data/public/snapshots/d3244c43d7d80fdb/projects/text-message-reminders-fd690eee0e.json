@@ -1,0 +1,33 @@
+{
+  "id": 2108,
+  "slug": "text-message-reminders-fd690eee0e",
+  "name": "Text Message Reminders",
+  "mentions": [
+    {
+      "name": "Text Message Reminders",
+      "description": "A text-message reminder automation service: users text the service number a request like \"call Dave in 2 hours\", and the service sends back a reminder text at that scheduled time. Currently in private beta.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "reidjs"
+      ],
+      "source_excerpt": "Text message reminders and automation.\n\nSend the service number a text message like \"call Dave in 2 hours\"\n\nand then in 2 hours you get a text back that says \"call Dave\"",
+      "evidence": [
+        {
+          "source_item_id": 49235539,
+          "source_field": "body",
+          "value": "Text message reminders and automation.\n\nSend the service number a text message like \"call Dave in 2 hours\"\n\nand then in 2 hours you get a text back that says \"call Dave\"",
+          "supports": [],
+          "author": "reidjs",
+          "shared_at": 1786307593,
+          "source_url": "https://news.ycombinator.com/item?id=49235539"
+        }
+      ],
+      "source_item_id": 49235539,
+      "source_url": "https://news.ycombinator.com/item?id=49235539",
+      "author": "reidjs",
+      "shared_at": 1786307593,
+      "links": []
+    }
+  ]
+}

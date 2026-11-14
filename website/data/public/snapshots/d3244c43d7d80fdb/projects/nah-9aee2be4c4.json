@@ -1,0 +1,35 @@
+{
+  "id": 2050,
+  "slug": "nah-9aee2be4c4",
+  "name": "nah",
+  "mentions": [
+    {
+      "name": "nah",
+      "description": "An agent hook guard (CLI) that blocks catastrophic AI agent actions such as filesystem destruction, secrets exfiltration, and git disasters. It is designed to be hard for agents to remove, unlike existing hook guards agents can easily bypass, and is extensible: users can point their agent at the bundled docs to build custom guards. Work is underway on strong Python and TypeScript pseudo-interpreters to detect disasters in inline code with fewer false positives, complementing an already strong Bash parser.",
+      "problem": "Existing agent hook guards can be easily removed by agents (who often do so to proceed with their task), leaving them unprotected.",
+      "audience": null,
+      "builder_usernames": [
+        "schipperai"
+      ],
+      "source_excerpt": "I’m working on “nah” [1] an agent hook guard that blocks catastrophic agent actions like filesystem destruction, secrets exfiltration, and git disasters.",
+      "evidence": [
+        {
+          "source_item_id": 49234565,
+          "source_field": "body",
+          "value": "I’m working on “nah” [1] an agent hook guard that blocks catastrophic agent actions like filesystem destruction, secrets exfiltration, and git disasters.",
+          "supports": [],
+          "author": "schipperai",
+          "shared_at": 1786302340,
+          "source_url": "https://news.ycombinator.com/item?id=49234565"
+        }
+      ],
+      "source_item_id": 49234565,
+      "source_url": "https://news.ycombinator.com/item?id=49234565",
+      "author": "schipperai",
+      "shared_at": 1786302340,
+      "links": [
+        "https://nahguard.ai"
+      ]
+    }
+  ]
+}

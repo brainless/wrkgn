@@ -1,0 +1,35 @@
+{
+  "id": 128,
+  "slug": "helioscad-cb99f600da",
+  "name": "HeliosCAD",
+  "mentions": [
+    {
+      "name": "HeliosCAD",
+      "description": "This is a code-based CAD application built on the author's Aetheris geometry kernel, designed for LLMs first and foremost. Work in progress includes adding visual programming to the UI and IntelliDraft, a new drafting approach closer to how mechanical engineers actually do sketching.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "YuechenLi"
+      ],
+      "source_excerpt": "Building a working CAD software based on my own geometry kernel, Aetheris.\n\nhttps://github.com/yuechen-li-dev/HeliosCAD\n\nSince it's code based CAD for LLMs first and foremost, I'm trying to add visual programming into the UI, as well a new way of drafting that's closer to how mechanical engineers actually do sketching called IntelliDraft.",
+      "evidence": [
+        {
+          "source_item_id": 50419474,
+          "source_field": "body",
+          "value": "Building a working CAD software based on my own geometry kernel, Aetheris.\n\nhttps://github.com/yuechen-li-dev/HeliosCAD\n\nSince it's code based CAD for LLMs first and foremost, I'm trying to add visual programming into the UI, as well a new way of drafting that's closer to how mechanical engineers actually do sketching called IntelliDraft.",
+          "supports": [],
+          "author": "YuechenLi",
+          "shared_at": 1794184955,
+          "source_url": "https://news.ycombinator.com/item?id=50419474"
+        }
+      ],
+      "source_item_id": 50419474,
+      "source_url": "https://news.ycombinator.com/item?id=50419474",
+      "author": "YuechenLi",
+      "shared_at": 1794184955,
+      "links": [
+        "https://github.com/yuechen-li-dev/HeliosCAD"
+      ]
+    }
+  ]
+}

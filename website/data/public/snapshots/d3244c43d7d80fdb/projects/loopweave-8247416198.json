@@ -1,0 +1,35 @@
+{
+  "id": 2465,
+  "slug": "loopweave-8247416198",
+  "name": "Loopweave",
+  "mentions": [
+    {
+      "name": "Loopweave",
+      "description": "This tool takes a drag-and-dropped WAV/MP3 file, automatically finds suitable loop points, blends the transition, and exports a seamless loop for use in games, soundscapes, ASMR, and similar contexts. It is free and open source.",
+      "problem": "Hunting down perfectly seamless looping WAV files on the internet is difficult and frustrating.",
+      "audience": null,
+      "builder_usernames": [
+        "vunderba"
+      ],
+      "source_excerpt": "I just finished a loop generator program. I needed some sound effects (ambient noise, fire crackling, rain, waterfalls) but trying to hunt down perfectly seamless looping WAV files on the internet was fraying at my sanity.\n\nSo I created a tool where you can simply drag in a WAV/MP3 file, and it will automatically find suitable loop points, blend the transition, and export a seamless loop for use in games, soundscapes, ASMR, etc.",
+      "evidence": [
+        {
+          "source_item_id": 49150104,
+          "source_field": "body",
+          "value": "I just finished a loop generator program. I needed some sound effects (ambient noise, fire crackling, rain, waterfalls) but trying to hunt down perfectly seamless looping WAV files on the internet was fraying at my sanity.\n\nSo I created a tool where you can simply drag in a WAV/MP3 file, and it will automatically find suitable loop points, blend the transition, and export a seamless loop for use in games, soundscapes, ASMR, etc.",
+          "supports": [],
+          "author": "vunderba",
+          "shared_at": 1785719479,
+          "source_url": "https://news.ycombinator.com/item?id=49150104"
+        }
+      ],
+      "source_item_id": 49150104,
+      "source_url": "https://news.ycombinator.com/item?id=49150104",
+      "author": "vunderba",
+      "shared_at": 1785719479,
+      "links": [
+        "https://github.com/scpedicini/loopweave"
+      ]
+    }
+  ]
+}

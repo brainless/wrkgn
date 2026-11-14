@@ -1,0 +1,36 @@
+{
+  "id": 1112,
+  "slug": "eacl-enterprise-access-control-e8a14e2647",
+  "name": "EACL (Enterprise Access ControL)",
+  "mentions": [
+    {
+      "name": "EACL (Enterprise Access ControL)",
+      "description": "EACL (Enterprise Access ControL) is a situated ReBAC authorization library inspired by SpiceDB, built in Clojure and backed by Datomic Pro, Datahike, Datalevin, or DataScript. Permissions are stored as data that co-exist with the application's data, which provides reduced network latency, strong local consistency, and opportunities for real-time view maintenance. It ships with a performance demo (1M permissioned entities, 3.8M relationships), an in-browser toy Google Drive clone, and handles authorization in the Datahike HTTP server; EACL V8 RC was released to Clojars.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "pgt"
+      ],
+      "source_excerpt": "EACL: Enterprise Access ControL is a situated ReBAC authorization library inspired by SpiceDB, built in Clojure and backed by Datomic Pro, Datahike, Datalevin or DataScript.",
+      "evidence": [
+        {
+          "source_item_id": 49695226,
+          "source_field": "body",
+          "value": "EACL: Enterprise Access ControL is a situated ReBAC authorization library inspired by SpiceDB, built in Clojure and backed by Datomic Pro, Datahike, Datalevin or DataScript.",
+          "supports": [],
+          "author": "pgt",
+          "shared_at": 1789386340,
+          "source_url": "https://news.ycombinator.com/item?id=49695226"
+        }
+      ],
+      "source_item_id": 49695226,
+      "source_url": "https://news.ycombinator.com/item?id=49695226",
+      "author": "pgt",
+      "shared_at": 1789386340,
+      "links": [
+        "https://eacl.dev/#rationale",
+        "https://github.com/theronic/eacl"
+      ]
+    }
+  ]
+}

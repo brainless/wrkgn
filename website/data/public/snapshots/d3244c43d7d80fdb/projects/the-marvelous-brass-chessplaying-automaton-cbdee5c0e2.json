@@ -1,0 +1,63 @@
+{
+  "id": 233,
+  "slug": "the-marvelous-brass-chessplaying-automaton-cbdee5c0e2",
+  "name": "The Marvelous Brass Chessplaying Automaton",
+  "mentions": [
+    {
+      "name": "The Marvelous Brass Chessplaying Automaton",
+      "description": "A chess database, playing, and opening training app for Apple platforms, built as a native alternative to ChessBase with iCloud sync between devices. It handles repertoire management and spaced repetition opening memorisation, and produces human-like computer opponents at all levels using a transformer-based model (similar to the Maia 3 paper) combined with a very small search. The app also includes chess variants: a companion Apple Watch app playing 5x5 chess, a 10x10 chess Easter egg game, and in-development hexagonal chess.",
+      "problem": "Chess tools like ChessBase lack an Apple-native GUI and cross-device sync, and repertoire/memorisation tools like chessbook.com have room for improvement; building weaker, enjoyable computer opponents is hard, especially for variants that lack large databases of human games for training.",
+      "audience": "Chess players on Apple devices",
+      "builder_usernames": [
+        "Oreb"
+      ],
+      "source_excerpt": "Just like the last time I posted in this thread, I’m working on The Marvelous Brass Chessplaying Automaton, a chess database/playing/opening training app for Apple platforms:",
+      "evidence": [
+        {
+          "source_item_id": 50418301,
+          "source_field": "body",
+          "value": "Just like the last time I posted in this thread, I’m working on The Marvelous Brass Chessplaying Automaton, a chess database/playing/opening training app for Apple platforms:",
+          "supports": [],
+          "author": "Oreb",
+          "shared_at": 1794177982,
+          "source_url": "https://news.ycombinator.com/item?id=50418301"
+        }
+      ],
+      "source_item_id": 50418301,
+      "source_url": "https://news.ycombinator.com/item?id=50418301",
+      "author": "Oreb",
+      "shared_at": 1794177982,
+      "links": [
+        "https://testflight.apple.com/join/mqfhpmHY"
+      ]
+    },
+    {
+      "name": "The Marvelous Brass Chessplaying Automaton",
+      "description": "A native chess app for Apple platforms, supporting iPhone, iPad, Mac, and Apple Watch with a visionOS port planned. It offers a native Apple look and feel, iCloud sync, and is designed to serve chess players from club players to professionals, including use for chess training.",
+      "problem": "There is no Apple-native chess app comparable to ChessBase, and the author is frustrated by the trend of macOS apps built with Electron or other cross-platform frameworks instead of native toolkits.",
+      "audience": "Aims to satisfy chess players from club level to professionals; the author also uses it for personal chess training.",
+      "builder_usernames": [
+        "Oreb"
+      ],
+      "source_excerpt": "I’m working on The Marvelous Brass Chessplaying Automaton, a chess app for Apple platforms:",
+      "evidence": [
+        {
+          "source_item_id": 49234576,
+          "source_field": "body",
+          "value": "I’m working on The Marvelous Brass Chessplaying Automaton, a chess app for Apple platforms:",
+          "supports": [],
+          "author": "Oreb",
+          "shared_at": 1786302410,
+          "source_url": "https://news.ycombinator.com/item?id=49234576"
+        }
+      ],
+      "source_item_id": 49234576,
+      "source_url": "https://news.ycombinator.com/item?id=49234576",
+      "author": "Oreb",
+      "shared_at": 1786302410,
+      "links": [
+        "https://testflight.apple.com/join/mqfhpmHY"
+      ]
+    }
+  ]
+}

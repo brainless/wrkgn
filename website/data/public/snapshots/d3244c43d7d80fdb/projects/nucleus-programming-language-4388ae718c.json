@@ -1,0 +1,35 @@
+{
+  "id": 1135,
+  "slug": "nucleus-programming-language-4388ae718c",
+  "name": "Nucleus programming language",
+  "mentions": [
+    {
+      "name": "Nucleus programming language",
+      "description": "A self-hosted systems programming language that combines Lisp syntax and structural macros with C semantics. Features include strong typing, protocols similar to Clojure or Rust traits, non-nullable references, error values, bound error handlers like Common Lisp, optional lexical lifetimes, namespaces, and no mandatory runtime overhead relative to C.",
+      "problem": "Existing attempts at combining Lisp syntax and structural macros with C semantics may have been compelling at a certain point in time, but a new systems programming language in 2026 should offer more.",
+      "audience": "Systems programming developers",
+      "builder_usernames": [
+        "Zak"
+      ],
+      "source_excerpt": "Nucleus programming language: https://github.com/zakwilson/nucleus/",
+      "evidence": [
+        {
+          "source_item_id": 49704286,
+          "source_field": "body",
+          "value": "Nucleus programming language: https://github.com/zakwilson/nucleus/",
+          "supports": [],
+          "author": "Zak",
+          "shared_at": 1789421130,
+          "source_url": "https://news.ycombinator.com/item?id=49704286"
+        }
+      ],
+      "source_item_id": 49704286,
+      "source_url": "https://news.ycombinator.com/item?id=49704286",
+      "author": "Zak",
+      "shared_at": 1789421130,
+      "links": [
+        "https://github.com/zakwilson/nucleus/"
+      ]
+    }
+  ]
+}

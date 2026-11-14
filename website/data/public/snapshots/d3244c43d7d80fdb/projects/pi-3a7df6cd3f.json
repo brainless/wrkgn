@@ -1,0 +1,33 @@
+{
+  "id": 3305,
+  "slug": "pi-3a7df6cd3f",
+  "name": "pi",
+  "mentions": [
+    {
+      "name": "pi",
+      "description": "An AI agent built entirely on Cloudflare Workers that can be spun up with just an inference key, providing a file view, a ChatGPT-like experience, the ability to build and host custom apps, and alarms that wake it up to perform plain-language tasks. The author is exploring how to package it and where it would be useful for other apps.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "anilgulecha"
+      ],
+      "source_excerpt": "It started with building pi in the cloud - with pure cloud flare workers. I have it working now, and can spin up - the  wrangler agent can fully run it as long as you pass it an inference key, including a file view, a chatgpt like experience, and ability to build and host custom apps. Can use alarms to wake up to do plain language tasks, etc.",
+      "evidence": [
+        {
+          "source_item_id": 50390420,
+          "source_field": "body",
+          "value": "It started with building pi in the cloud - with pure cloud flare workers. I have it working now, and can spin up - the  wrangler agent can fully run it as long as you pass it an inference key, including a file view, a chatgpt like experience, and ability to build and host custom apps. Can use alarms to wake up to do plain language tasks, etc.",
+          "supports": [],
+          "author": "anilgulecha",
+          "shared_at": 1793959550,
+          "source_url": "https://news.ycombinator.com/item?id=50390420"
+        }
+      ],
+      "source_item_id": 50390420,
+      "source_url": "https://news.ycombinator.com/item?id=50390420",
+      "author": "anilgulecha",
+      "shared_at": 1793959550,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 1814,
+  "slug": "portable-usb-pd-bench-power-supply-67c89fe123",
+  "name": "Portable USB-PD bench power supply",
+  "mentions": [
+    {
+      "name": "Portable USB-PD bench power supply",
+      "description": "A small, portable USB-PD bench power supply offering regulated 3V3, 5V, and 12V outputs plus unregulated PPS/EPR AVS pass-through, run by an RP2040 that drives an OLED screen and buttons for configuration. A separate galvanically isolated USB-C CDC-ACM port handles data: it dumps CSV by default and switches to a native protocol via handshake with a desktop app (live graphs, configuration, alarms) and a CLI (config control, live readings, TOML-defined test plans), with a PyO3 wrapper for easy scripting. Firmware is Rust/Embassy and the GUI/CLI are Rust/egui/Ratatui; the goal is a form factor about the size of a pack of cigarettes.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tomchuk"
+      ],
+      "source_excerpt": "Also working on a small, portable USB-PD bench power supply: Regulated 3V3, 5V, 12V & unregulated PPS/EPR AVS pass-through. RP2040 running the show, driving a little OLED screen & some buttons for configuration.",
+      "evidence": [
+        {
+          "source_item_id": 49245510,
+          "source_field": "body",
+          "value": "Also working on a small, portable USB-PD bench power supply: Regulated 3V3, 5V, 12V & unregulated PPS/EPR AVS pass-through. RP2040 running the show, driving a little OLED screen & some buttons for configuration.",
+          "supports": [],
+          "author": "tomchuk",
+          "shared_at": 1786377828,
+          "source_url": "https://news.ycombinator.com/item?id=49245510"
+        }
+      ],
+      "source_item_id": 49245510,
+      "source_url": "https://news.ycombinator.com/item?id=49245510",
+      "author": "tomchuk",
+      "shared_at": 1786377828,
+      "links": []
+    }
+  ]
+}

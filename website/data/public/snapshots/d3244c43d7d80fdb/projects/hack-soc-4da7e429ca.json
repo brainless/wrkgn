@@ -1,0 +1,35 @@
+{
+  "id": 907,
+  "slug": "hack-soc-4da7e429ca",
+  "name": "hack-soc",
+  "mentions": [
+    {
+      "name": "hack-soc",
+      "description": "A SystemVerilog implementation of the Nand2Tetris part 1 Hack computer running on an FPGA, extended into a toy SoC, with an assembler and UART loader written in Rust; a UART FSM that replaces the program in ROM is still to be written.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "arrhythmic"
+      ],
+      "source_excerpt": "I also implemented Nand2Tetris part 1 in SystemVerilog, have it running on an FPGA and almost completed extending as a toy SoC. I wrote the assembler and UART loader in Rust, but I still need to write the UART FSM that replaces the program in \"ROM\".\n\nhttps://github.com/MSamman/hack-soc",
+      "evidence": [
+        {
+          "source_item_id": 49825401,
+          "source_field": "body",
+          "value": "I also implemented Nand2Tetris part 1 in SystemVerilog, have it running on an FPGA and almost completed extending as a toy SoC. I wrote the assembler and UART loader in Rust, but I still need to write the UART FSM that replaces the program in \"ROM\".\n\nhttps://github.com/MSamman/hack-soc",
+          "supports": [],
+          "author": "arrhythmic",
+          "shared_at": 1790216245,
+          "source_url": "https://news.ycombinator.com/item?id=49825401"
+        }
+      ],
+      "source_item_id": 49825401,
+      "source_url": "https://news.ycombinator.com/item?id=49825401",
+      "author": "arrhythmic",
+      "shared_at": 1790216245,
+      "links": [
+        "https://github.com/MSamman/hack-soc"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 1180,
+  "slug": "podium-36235ee0af",
+  "name": "Podium",
+  "mentions": [
+    {
+      "name": "Podium",
+      "description": "A multi-harness orchestrator that runs AI agents on your VPS, with a built-in issue tracker (similar to Linear) and an agent-to-agent communication system. Agents can split big tasks into subtasks themselves, run each with a different harness and model, and communicate so they keep running for days until everything is completed and integrated. Free and open-source.",
+      "problem": "There are lots of tools in the agent-orchestration space, but the combination of an agent-focused issue tracker and agent-to-agent communication is unique and delivers a working software factory.",
+      "audience": null,
+      "builder_usernames": [
+        "mgw"
+      ],
+      "source_excerpt": "https://github.com/madeinorbit/podium\n\nA multi-harness orchestrator running agents on your VPS, with a built-in issue tracker (like Linear) and gas town like communication system.",
+      "evidence": [
+        {
+          "source_item_id": 49694327,
+          "source_field": "body",
+          "value": "https://github.com/madeinorbit/podium\n\nA multi-harness orchestrator running agents on your VPS, with a built-in issue tracker (like Linear) and gas town like communication system.",
+          "supports": [],
+          "author": "mgw",
+          "shared_at": 1789379701,
+          "source_url": "https://news.ycombinator.com/item?id=49694327"
+        }
+      ],
+      "source_item_id": 49694327,
+      "source_url": "https://news.ycombinator.com/item?id=49694327",
+      "author": "mgw",
+      "shared_at": 1789379701,
+      "links": [
+        "https://github.com/madeinorbit/podium"
+      ]
+    },
+    {
+      "name": "Podium",
+      "description": "An agent development environment (ADE) for building and orchestrating AI agent fleets. It offers one-click onboarding of new VPSs into an agent fleet, agent orchestration across machines and different harnesses, and cross-machine agent communication — for example, a Codex coordinator on one machine can run a Grok implementer subagent on another machine and they can talk to each other. Not yet ready for public consumption, but has been the author's exclusive daily driver for the past month.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mgw"
+      ],
+      "source_excerpt": "We are building an ADE (Agent Development Environment) called Podium: https://github.com/madeinorbit/podium",
+      "evidence": [
+        {
+          "source_item_id": 49241555,
+          "source_field": "body",
+          "value": "We are building an ADE (Agent Development Environment) called Podium: https://github.com/madeinorbit/podium",
+          "supports": [],
+          "author": "mgw",
+          "shared_at": 1786355605,
+          "source_url": "https://news.ycombinator.com/item?id=49241555"
+        }
+      ],
+      "source_item_id": 49241555,
+      "source_url": "https://news.ycombinator.com/item?id=49241555",
+      "author": "mgw",
+      "shared_at": 1786355605,
+      "links": [
+        "https://github.com/madeinorbit/podium"
+      ]
+    }
+  ]
+}

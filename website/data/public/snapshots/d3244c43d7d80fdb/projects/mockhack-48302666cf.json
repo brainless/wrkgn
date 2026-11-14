@@ -1,0 +1,33 @@
+{
+  "id": 599,
+  "slug": "mockhack-48302666cf",
+  "name": "MockHack",
+  "mentions": [
+    {
+      "name": "MockHack",
+      "description": "A security testing site at mockhack.com where visitors can try to hack it; the builder runs obliterated LLMs (DeepSeek-V4.1-Flash-Obliterated, OrcaCyber-Zero, etc.) in their own sandbox to attempt to hack his own sites in response to constant bot attacks.",
+      "problem": "The site is getting hit constantly by bots trying to hack it, so the builder red-teams his own sites using sandboxed hacking LLMs.",
+      "audience": null,
+      "builder_usernames": [
+        "timm37"
+      ],
+      "source_excerpt": "I'm getting hit constantly by bots trying to hack my site, so I'm trying to hack my own sites. Pretty much I have a few obliterated LLMs (DeepSeek-V4.1-Flash-Obliterated, OrcaCyber-Zero, etc) which run on their own sandbox to try to hack me.\n\nIf anyone wants to try it, you can test it on mockhack.com",
+      "evidence": [
+        {
+          "source_item_id": 50422597,
+          "source_field": "body",
+          "value": "I'm getting hit constantly by bots trying to hack my site, so I'm trying to hack my own sites. Pretty much I have a few obliterated LLMs (DeepSeek-V4.1-Flash-Obliterated, OrcaCyber-Zero, etc) which run on their own sandbox to try to hack me.\n\nIf anyone wants to try it, you can test it on mockhack.com",
+          "supports": [],
+          "author": "timm37",
+          "shared_at": 1794212026,
+          "source_url": "https://news.ycombinator.com/item?id=50422597"
+        }
+      ],
+      "source_item_id": 50422597,
+      "source_url": "https://news.ycombinator.com/item?id=50422597",
+      "author": "timm37",
+      "shared_at": 1794212026,
+      "links": []
+    }
+  ]
+}

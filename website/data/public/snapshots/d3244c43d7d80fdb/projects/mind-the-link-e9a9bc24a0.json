@@ -1,0 +1,36 @@
+{
+  "id": 319,
+  "slug": "mind-the-link-e9a9bc24a0",
+  "name": "Mind the Link",
+  "mentions": [
+    {
+      "name": "Mind the Link",
+      "description": "This app is a bookmarking/read-later service where bookmarks are private by default but can be shared publicly, similar to Hacker News. It supports tags, collections, and importing browser bookmarks, and offers a companion Chrome extension.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "hazeim254"
+      ],
+      "source_excerpt": "I'm working on https://mindthelink.com, a bookmarking/read-later app. Bookmarks are private by default, but you can share links publicly, a bit like HN. I've added some features lately: tags, collections, importing browser bookmarks, etc.",
+      "evidence": [
+        {
+          "source_item_id": 50423904,
+          "source_field": "body",
+          "value": "I'm working on https://mindthelink.com, a bookmarking/read-later app. Bookmarks are private by default, but you can share links publicly, a bit like HN. I've added some features lately: tags, collections, importing browser bookmarks, etc.",
+          "supports": [],
+          "author": "hazeim254",
+          "shared_at": 1794221842,
+          "source_url": "https://news.ycombinator.com/item?id=50423904"
+        }
+      ],
+      "source_item_id": 50423904,
+      "source_url": "https://news.ycombinator.com/item?id=50423904",
+      "author": "hazeim254",
+      "shared_at": 1794221842,
+      "links": [
+        "https://chromewebstore.google.com/detail/mind-the-link/faebhhdbheecpaokpcjkmaholfnacjkn",
+        "https://mindthelink.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 2388,
+  "slug": "experimental-merge-queue-with-history-amending-c51a885cb2",
+  "name": "Experimental merge queue with history amending",
+  "mentions": [
+    {
+      "name": "Experimental merge queue with history amending",
+      "description": "An experimental merge queue that amends and inserts incoming changes into git history in place instead of dumping them at the end of the branch.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "4b11b4"
+      ],
+      "source_excerpt": "An experimental merge queue that takes changes amends/inserts into history instead of dumping at the end",
+      "evidence": [
+        {
+          "source_item_id": 49239167,
+          "source_field": "body",
+          "value": "An experimental merge queue that takes changes amends/inserts into history instead of dumping at the end",
+          "supports": [],
+          "author": "4b11b4",
+          "shared_at": 1786335565,
+          "source_url": "https://news.ycombinator.com/item?id=49239167"
+        }
+      ],
+      "source_item_id": 49239167,
+      "source_url": "https://news.ycombinator.com/item?id=49239167",
+      "author": "4b11b4",
+      "shared_at": 1786335565,
+      "links": []
+    }
+  ]
+}

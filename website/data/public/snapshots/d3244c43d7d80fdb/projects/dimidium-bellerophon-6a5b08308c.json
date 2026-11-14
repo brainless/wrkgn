@@ -1,0 +1,63 @@
+{
+  "id": 87,
+  "slug": "dimidium-bellerophon-6a5b08308c",
+  "name": "Dimidium_Bellerophon",
+  "mentions": [
+    {
+      "name": "Dimidium_Bellerophon",
+      "description": "A DSL for 3D printer automation, currently implemented as an IDE built on Java (Spark). The author is exploring a non-planar slicer that would output the DSL instead of static G-Code, enabling more dynamic, point-by-point control; the slicer's features are currently being mapped out. The backend may be ported from Java to C#.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Disla_chunga"
+      ],
+      "source_excerpt": "Still working on https://github.com/Disla-Novo/Dimidium_Bellerophon, a DSL for 3D printer automation.",
+      "evidence": [
+        {
+          "source_item_id": 50420373,
+          "source_field": "body",
+          "value": "Still working on https://github.com/Disla-Novo/Dimidium_Bellerophon, a DSL for 3D printer automation.",
+          "supports": [],
+          "author": "Disla_chunga",
+          "shared_at": 1794192309,
+          "source_url": "https://news.ycombinator.com/item?id=50420373"
+        }
+      ],
+      "source_item_id": 50420373,
+      "source_url": "https://news.ycombinator.com/item?id=50420373",
+      "author": "Disla_chunga",
+      "shared_at": 1794192309,
+      "links": [
+        "https://github.com/Disla-Novo/Dimidium_Bellerophon"
+      ]
+    },
+    {
+      "name": "Bellerophon",
+      "description": "Bellerophon is a DSL with a decoupled firmware adapter architecture for 3D printer control, letting the same source code compile to Klipper, Marlin, or RepRap without rewriting logic per target. It has been used to generate print patterns with math that a slicer wouldn't produce. The application is currently being migrated from browser localStorage to a proper JSON persistence layer.",
+      "problem": "Printer control logic normally has to be rewritten for each firmware target (Klipper, Marlin, RepRap).",
+      "audience": null,
+      "builder_usernames": [
+        "Disla_chunga"
+      ],
+      "source_excerpt": "I'm building Bellerophon, a DSL with decoupled firmware adapter architecture for 3D printer control, so the same source code can compile to Klipper, Marlin, or RepRap without rewriting logic per target.",
+      "evidence": [
+        {
+          "source_item_id": 49689671,
+          "source_field": "body",
+          "value": "I'm building Bellerophon, a DSL with decoupled firmware adapter architecture for 3D printer control, so the same source code can compile to Klipper, Marlin, or RepRap without rewriting logic per target.",
+          "supports": [],
+          "author": "Disla_chunga",
+          "shared_at": 1789340754,
+          "source_url": "https://news.ycombinator.com/item?id=49689671"
+        }
+      ],
+      "source_item_id": 49689671,
+      "source_url": "https://news.ycombinator.com/item?id=49689671",
+      "author": "Disla_chunga",
+      "shared_at": 1789340754,
+      "links": [
+        "https://github.com/Disla-Novo/Dimidium_Bellerophon"
+      ]
+    }
+  ]
+}

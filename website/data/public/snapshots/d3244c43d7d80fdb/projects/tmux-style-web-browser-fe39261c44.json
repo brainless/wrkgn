@@ -1,0 +1,33 @@
+{
+  "id": 3147,
+  "slug": "tmux-style-web-browser-fe39261c44",
+  "name": "Tmux-style web browser",
+  "mentions": [
+    {
+      "name": "Tmux-style web browser",
+      "description": "This is a web browser with tmux/iTerm2-style tabs and panes that can save window configurations and tab contents to a file checked into projects and loaded back as source-controlled views, letting developers keep project documentation links and local development browser tools (like database viewers) in dedicated views. Features include a Chrome-devtools-style viewport manager, a session manager that treats browser sessions as first-class entities with attach/detach tabs and an incognito toggle, a system light/dark override for testing appearance modes, a reload trigger that reloads one tab when a target tab reloads, and a structured log file viewer with search/filter and play/pause. It emphasizes keyboard-driven navigation via a global nav mode toggle for moving between panes and tabs, with planned features including screenshot/video capture and 'tab links' that sync navigation of shared tabs across multiple views.",
+      "problem": "The author always wanted a browser with tmux/iTerm2-style tabs/panes because daily-driver browsers and OS window managers force people to hack side-by-side views together; alternatives like Zen have split panes but not the robust tab/panel system wanted, and flipping the OS light/dark setting to test modes is tedious.",
+      "audience": "Daily-driver browser users and developers who juggle project documentation, local dev tools, and side-by-side views",
+      "builder_usernames": [
+        "corytheboyd"
+      ],
+      "source_excerpt": "I have always wanted a web browser with tmux/iterm2 style tabs/panes, as well as the ability to save the window configuration and tab contents to a file that can be checked in to projects and loaded.",
+      "evidence": [
+        {
+          "source_item_id": 48897343,
+          "source_field": "body",
+          "value": "I have always wanted a web browser with tmux/iterm2 style tabs/panes, as well as the ability to save the window configuration and tab contents to a file that can be checked in to projects and loaded.",
+          "supports": [],
+          "author": "corytheboyd",
+          "shared_at": 1783969940,
+          "source_url": "https://news.ycombinator.com/item?id=48897343"
+        }
+      ],
+      "source_item_id": 48897343,
+      "source_url": "https://news.ycombinator.com/item?id=48897343",
+      "author": "corytheboyd",
+      "shared_at": 1783969940,
+      "links": []
+    }
+  ]
+}

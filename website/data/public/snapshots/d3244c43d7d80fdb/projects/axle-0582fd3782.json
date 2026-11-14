@@ -1,0 +1,36 @@
+{
+  "id": 185,
+  "slug": "axle-0582fd3782",
+  "name": "Axle",
+  "mentions": [
+    {
+      "name": "Axle",
+      "description": "Open-source, TypeScript-native agent library that encapsulates the agent lifecycle. Calling agent.send() handles tool calls and returns Turns that can be rendered directly in React with a simple loop. It is portable across common AI providers and protocols and can serve as a harness for testing newly released models. Release 0.36 adds a RemoteAgent interface for talking to a remote agent instance over RPC.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "johncch"
+      ],
+      "source_excerpt": "I’ve been slowly chipping away at my open-source agent library, Axle.\n\nI know it’s small fry compared to the other players, but I’ve been working on it for more than two years. It’s got some nifty ideas and I’m really proud of it.\n\nSome highlights:\n\n- Axle is TypeScript-native.\n- Its goal in life is to encapsulate the agent lifecycle and make it really easy to render. Call agent.send() and it handles all the tool calls and returns Turns, which you can render directly in React with a simple loop.",
+      "evidence": [
+        {
+          "source_item_id": 50429050,
+          "source_field": "body",
+          "value": "I’ve been slowly chipping away at my open-source agent library, Axle.\n\nI know it’s small fry compared to the other players, but I’ve been working on it for more than two years. It’s got some nifty ideas and I’m really proud of it.\n\nSome highlights:\n\n- Axle is TypeScript-native.\n- Its goal in life is to encapsulate the agent lifecycle and make it really easy to render. Call agent.send() and it handles all the tool calls and returns Turns, which you can render directly in React with a simple loop.",
+          "supports": [],
+          "author": "johncch",
+          "shared_at": 1794247220,
+          "source_url": "https://news.ycombinator.com/item?id=50429050"
+        }
+      ],
+      "source_item_id": 50429050,
+      "source_url": "https://news.ycombinator.com/item?id=50429050",
+      "author": "johncch",
+      "shared_at": 1794247220,
+      "links": [
+        "https://axle.fifthrevision.com",
+        "https://github.com/johncch/axle"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 1795,
+  "slug": "opair-1cae72a390",
+  "name": "Opair",
+  "mentions": [
+    {
+      "name": "Opair",
+      "description": "A coding harness for AI agents that eschews autonomy: tools grant access to specific executables with dangerous arguments blockable instead of shell access, separate driver and navigator modes enable or block writable tool access, and role-based model configuration controls model options depending on whether the agent is planning, reviewing, or driving. Currently WIP with no installation process yet, but used by its author as a daily driver in preference to Claude Code.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "philbo"
+      ],
+      "source_excerpt": "Opair, a coding harness that eschews autonomy.",
+      "evidence": [
+        {
+          "source_item_id": 49239843,
+          "source_field": "body",
+          "value": "Opair, a coding harness that eschews autonomy.",
+          "supports": [],
+          "author": "philbo",
+          "shared_at": 1786342483,
+          "source_url": "https://news.ycombinator.com/item?id=49239843"
+        }
+      ],
+      "source_item_id": 49239843,
+      "source_url": "https://news.ycombinator.com/item?id=49239843",
+      "author": "philbo",
+      "shared_at": 1786342483,
+      "links": [
+        "https://gitlab.com/philbooth/opair"
+      ]
+    },
+    {
+      "name": "opair",
+      "description": "Opair is a coding harness that eschews autonomy and instead works like a pair programming partner, with distinct \"driver\" and \"navigator\" modes. It is early-stage (a few weekends of work so far) and already used to develop itself.",
+      "problem": "The author got frustrated that nobody else was building the coding harness they actually wanted to use.",
+      "audience": null,
+      "builder_usernames": [
+        "philbo"
+      ],
+      "source_excerpt": "It's a coding harness that eschews autonomy and instead works like a pair programming partner, with distinct \"driver\" and \"navigator\" modes. I've only spent 3 weekends on it so far, so it's a long way from finished. But I am at least using opair to work on opair now, which is nice.",
+      "evidence": [
+        {
+          "source_item_id": 48890939,
+          "source_field": "body",
+          "value": "It's a coding harness that eschews autonomy and instead works like a pair programming partner, with distinct \"driver\" and \"navigator\" modes. I've only spent 3 weekends on it so far, so it's a long way from finished. But I am at least using opair to work on opair now, which is nice.",
+          "supports": [],
+          "author": "philbo",
+          "shared_at": 1783941389,
+          "source_url": "https://news.ycombinator.com/item?id=48890939"
+        }
+      ],
+      "source_item_id": 48890939,
+      "source_url": "https://news.ycombinator.com/item?id=48890939",
+      "author": "philbo",
+      "shared_at": 1783941389,
+      "links": [
+        "https://gitlab.com/philbooth/opair"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 792,
+  "slug": "telemetry-machine-7d6b52b7f7",
+  "name": "Telemetry Machine",
+  "mentions": [
+    {
+      "name": "Telemetry Machine",
+      "description": "Telemetry Machine is an observability platform that combines powerful querying (like Honeycomb), a polished UI (like Datadog), and the speed of ClickHouse, aimed at offering these capabilities at lower prices than incumbent tools. Most users interact with it via an agent.",
+      "problem": "Observability tools like Honeycomb and Datadog charge very high prices.",
+      "audience": "SREs, platform engineers, and teams that like Honeycomb or Datadog but don't want to pay high prices for observability",
+      "builder_usernames": [
+        "tmach32"
+      ],
+      "source_excerpt": "I built Telemetry Machine (https://telemetrymachine.com).\n\nThe TLDR is that if you like Honeycomb or Datadog but don't want to pay insane prices, you should check it out.",
+      "evidence": [
+        {
+          "source_item_id": 50424573,
+          "source_field": "body",
+          "value": "I built Telemetry Machine (https://telemetrymachine.com).\n\nThe TLDR is that if you like Honeycomb or Datadog but don't want to pay insane prices, you should check it out.",
+          "supports": [],
+          "author": "tmach32",
+          "shared_at": 1794226674,
+          "source_url": "https://news.ycombinator.com/item?id=50424573"
+        }
+      ],
+      "source_item_id": 50424573,
+      "source_url": "https://news.ycombinator.com/item?id=50424573",
+      "author": "tmach32",
+      "shared_at": 1794226674,
+      "links": [
+        "https://telemetrymachine.com"
+      ]
+    },
+    {
+      "name": "Telemetry Machine",
+      "description": "An observability platform for tracking software, starting with OTel traces and logs. It is OpenTelemetry-native and wide-events-native, inviting users to attach high-cardinality attributes to spans and logs, and works well with agents. It runs on bare metal with a custom state-of-the-art storage engine for infra efficiency, and is priced below competitors by staying lean and avoiding a large salesforce.",
+      "problem": "Observability struggles with adoption because it is too expensive; existing vendors focus on extracting money from giant customers and maintaining large salesforces rather than helping people run their software well.",
+      "audience": "Developers running services who need observability; the team is seeking engagement with observability users (and non-users) to hear their problems and thoughts.",
+      "builder_usernames": [
+        "tmach32"
+      ],
+      "source_excerpt": "So that's what we're building at telemetrymachine.com: an observability product focused on helping you actually track your software (starting with OTel traces and logs).",
+      "evidence": [
+        {
+          "source_item_id": 49693337,
+          "source_field": "body",
+          "value": "So that's what we're building at telemetrymachine.com: an observability product focused on helping you actually track your software (starting with OTel traces and logs).",
+          "supports": [],
+          "author": "tmach32",
+          "shared_at": 1789372136,
+          "source_url": "https://news.ycombinator.com/item?id=49693337"
+        }
+      ],
+      "source_item_id": 49693337,
+      "source_url": "https://news.ycombinator.com/item?id=49693337",
+      "author": "tmach32",
+      "shared_at": 1789372136,
+      "links": [
+        "https://telemetrymachine.com"
+      ]
+    }
+  ]
+}

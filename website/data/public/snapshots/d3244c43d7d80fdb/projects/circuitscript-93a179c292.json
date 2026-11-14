@@ -1,0 +1,36 @@
+{
+  "id": 2543,
+  "slug": "circuitscript-93a179c292",
+  "name": "Circuitscript",
+  "mentions": [
+    {
+      "name": "Circuitscript",
+      "description": "A Python-inspired language for describing electronic schematics as code rather than clicking around graphical CAD tools, with a browser-based Bench IDE for trying it out. Recent additions include initial ngspice netlist export so a Circuitscript design can be simulated from the same source file, and bus support for less tedious connection of wide parallel lines like I2C and SPI. Nested for-loops were used to generate and test a 161-LED charlieplexed array without hand copy-pasting LEDs and connections.",
+      "problem": "Designing schematics by clicking around graphical CAD tools (KiCad, Allegro, Altium) is tedious; the project lets designers express circuit intent as code that is clear and reviewable in text.",
+      "audience": "Electronics designers and hobbyists frustrated with graphical schematic CAD tools, including KiCad users looking to convert existing designs.",
+      "builder_usernames": [
+        "liu3hao"
+      ],
+      "source_excerpt": "still making progress on Circuitscript, a Python-inspired language for describing electronic schematics: https://circuitscript.net/. You can try it in the browser via the Bench IDE: https://bench.circuitscript.net/",
+      "evidence": [
+        {
+          "source_item_id": 48889495,
+          "source_field": "body",
+          "value": "still making progress on Circuitscript, a Python-inspired language for describing electronic schematics: https://circuitscript.net/. You can try it in the browser via the Bench IDE: https://bench.circuitscript.net/",
+          "supports": [],
+          "author": "liu3hao",
+          "shared_at": 1783930992,
+          "source_url": "https://news.ycombinator.com/item?id=48889495"
+        }
+      ],
+      "source_item_id": 48889495,
+      "source_url": "https://news.ycombinator.com/item?id=48889495",
+      "author": "liu3hao",
+      "shared_at": 1783930992,
+      "links": [
+        "https://bench.circuitscript.net/",
+        "https://circuitscript.net/"
+      ]
+    }
+  ]
+}

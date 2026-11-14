@@ -1,0 +1,35 @@
+{
+  "id": 275,
+  "slug": "benchix-a1b446ce4c",
+  "name": "benchix",
+  "mentions": [
+    {
+      "name": "benchix",
+      "description": "A Linux-subset ABI x86-64 kernel written in Rust, built as a learning project to understand OS kernels. Work in progress includes adding tracing support and developing allocators, exploring fallible allocation, overcommit approaches, and OOM handling.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "debater-coder"
+      ],
+      "source_excerpt": "Now I'm going to be working on my Linux-subset ABI x86-64 kernel [0], specifically adding support for tracing, then working on allocators. It's written in Rust so I might have to figure out how to make allocation fallible like the Linux kernel does.",
+      "evidence": [
+        {
+          "source_item_id": 50419449,
+          "source_field": "body",
+          "value": "Now I'm going to be working on my Linux-subset ABI x86-64 kernel [0], specifically adding support for tracing, then working on allocators. It's written in Rust so I might have to figure out how to make allocation fallible like the Linux kernel does.",
+          "supports": [],
+          "author": "debater-coder",
+          "shared_at": 1794184764,
+          "source_url": "https://news.ycombinator.com/item?id=50419449"
+        }
+      ],
+      "source_item_id": 50419449,
+      "source_url": "https://news.ycombinator.com/item?id=50419449",
+      "author": "debater-coder",
+      "shared_at": 1794184764,
+      "links": [
+        "https://github.com/debater-coder/benchix"
+      ]
+    }
+  ]
+}

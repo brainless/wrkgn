@@ -1,0 +1,35 @@
+{
+  "id": 1823,
+  "slug": "seizu-3fd65114c5",
+  "name": "Seizu",
+  "mentions": [
+    {
+      "name": "Seizu",
+      "description": "Seizu is a RAG/MCP/agent service with workflows for security, built on top of Cartography, which pulls infrastructure and SaaS information into a Neo4j database with a standardized ontology to support attack path analysis, vulnerability assessment, and inventory. Seizu adds reporting, graph exploration, and automations on top of that RAG, including pre-made automations: automatic dependency vulnerability fixes that use codex/claude/opencode in a sandbox to assess whether dependency changes require code updates and auto-fix broken tests, a workflow for running Cartography syncs with split stages, parallel execution, and custom schedules, and a generic staged/parallel/chained AI agent workflow powered by Seizu's custom agent with broad LLM provider and sandbox support. Workflows are built on Temporal.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ryan_lane"
+      ],
+      "source_excerpt": "As a side project, I've been working on a RAG/MCP/agent service with workflows, for security: https://mappedsky.com/seizu/\n\nThis primarily builds on top of cartography (https://docs.cartography.dev/), which I'm a contributor to, which pulls infrastructure, SaaS, etc info into a Neo4j database, makes edges, and has a standardize ontology, so you can do attack path analysis, vulnerability assessment, inventory, etc.\n\nSeizu uses the RAG built by cartography, and adds reporting, graph exploration, automations and more on-top of it.",
+      "evidence": [
+        {
+          "source_item_id": 49239138,
+          "source_field": "body",
+          "value": "As a side project, I've been working on a RAG/MCP/agent service with workflows, for security: https://mappedsky.com/seizu/\n\nThis primarily builds on top of cartography (https://docs.cartography.dev/), which I'm a contributor to, which pulls infrastructure, SaaS, etc info into a Neo4j database, makes edges, and has a standardize ontology, so you can do attack path analysis, vulnerability assessment, inventory, etc.\n\nSeizu uses the RAG built by cartography, and adds reporting, graph exploration, automations and more on-top of it.",
+          "supports": [],
+          "author": "ryan_lane",
+          "shared_at": 1786335205,
+          "source_url": "https://news.ycombinator.com/item?id=49239138"
+        }
+      ],
+      "source_item_id": 49239138,
+      "source_url": "https://news.ycombinator.com/item?id=49239138",
+      "author": "ryan_lane",
+      "shared_at": 1786335205,
+      "links": [
+        "https://mappedsky.com/seizu/"
+      ]
+    }
+  ]
+}

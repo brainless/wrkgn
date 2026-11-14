@@ -1,0 +1,63 @@
+{
+  "id": 1722,
+  "slug": "the-waterline-87c630b491",
+  "name": "The Waterline",
+  "mentions": [
+    {
+      "name": "The Waterline",
+      "description": "This site pulls public government data about water levels in the western US, updates the website, and sends out a newsletter. It was launched as a side project/eval to see how well Claude could complete a decent-sized project mostly independently.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "idopmstuff"
+      ],
+      "source_excerpt": "I posted about https://the-waterline.com/, a site I launched as a side project/eval to see how well Claude can do a decent-sized project (mostly) independently. It pulls public government data about water levels in the western US, updates the website and sends out a newsletter.",
+      "evidence": [
+        {
+          "source_item_id": 49235288,
+          "source_field": "body",
+          "value": "I posted about https://the-waterline.com/, a site I launched as a side project/eval to see how well Claude can do a decent-sized project (mostly) independently. It pulls public government data about water levels in the western US, updates the website and sends out a newsletter.",
+          "supports": [],
+          "author": "idopmstuff",
+          "shared_at": 1786306232,
+          "source_url": "https://news.ycombinator.com/item?id=49235288"
+        }
+      ],
+      "source_item_id": 49235288,
+      "source_url": "https://news.ycombinator.com/item?id=49235288",
+      "author": "idopmstuff",
+      "shared_at": 1786306232,
+      "links": [
+        "https://the-waterline.com/"
+      ]
+    },
+    {
+      "name": "The Waterline",
+      "description": "A website that pulls public data from government PDFs and APIs, uses LLMs to parse it, and turns it into an easily readable site presenting the latest water information for the western US, with weekly email updates sent via Buttondown.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "idopmstuff"
+      ],
+      "source_excerpt": "Working on a few of them, including The Waterline (https://the-waterline.com/) for water info for the western US",
+      "evidence": [
+        {
+          "source_item_id": 48885689,
+          "source_field": "body",
+          "value": "Working on a few of them, including The Waterline (https://the-waterline.com/) for water info for the western US",
+          "supports": [],
+          "author": "idopmstuff",
+          "shared_at": 1783896735,
+          "source_url": "https://news.ycombinator.com/item?id=48885689"
+        }
+      ],
+      "source_item_id": 48885689,
+      "source_url": "https://news.ycombinator.com/item?id=48885689",
+      "author": "idopmstuff",
+      "shared_at": 1783896735,
+      "links": [
+        "https://the-waterline.com/"
+      ]
+    }
+  ]
+}

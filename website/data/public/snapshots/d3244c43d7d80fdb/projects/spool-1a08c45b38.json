@@ -1,0 +1,35 @@
+{
+  "id": 332,
+  "slug": "spool-1a08c45b38",
+  "name": "Spool",
+  "mentions": [
+    {
+      "name": "Spool",
+      "description": "This open-source tool runs persistent Claude Code loops. Users can create and manage multiple agent loops from a web UI, chat with them through Telegram or Slack while they work, and let the loops communicate with each other. Each loop can run directly on the user's environment, in its own container, or on Anthropic's cloud.",
+      "problem": "The author wanted a way to manage multiple long-running Claude Code loops without babysitting terminal sessions and to interact with them as they work.",
+      "audience": null,
+      "builder_usernames": [
+        "enesalatas"
+      ],
+      "source_excerpt": "I’m working on Spool, an open-source tool for running persistent Claude Code loops.\n\nhttps://github.com/enes-alatas/spool",
+      "evidence": [
+        {
+          "source_item_id": 50418478,
+          "source_field": "body",
+          "value": "I’m working on Spool, an open-source tool for running persistent Claude Code loops.\n\nhttps://github.com/enes-alatas/spool",
+          "supports": [],
+          "author": "enesalatas",
+          "shared_at": 1794178868,
+          "source_url": "https://news.ycombinator.com/item?id=50418478"
+        }
+      ],
+      "source_item_id": 50418478,
+      "source_url": "https://news.ycombinator.com/item?id=50418478",
+      "author": "enesalatas",
+      "shared_at": 1794178868,
+      "links": [
+        "https://github.com/enes-alatas/spool"
+      ]
+    }
+  ]
+}

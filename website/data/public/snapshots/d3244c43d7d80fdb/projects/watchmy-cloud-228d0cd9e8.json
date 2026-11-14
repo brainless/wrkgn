@@ -1,0 +1,35 @@
+{
+  "id": 2659,
+  "slug": "watchmy-cloud-228d0cd9e8",
+  "name": "WatchMy.cloud",
+  "mentions": [
+    {
+      "name": "WatchMy.cloud",
+      "description": "This service monitors AWS billing like a smoke detector, sending alerts through Slack, Jira, or SMS/Text when costs look abnormal and pinpointing where spending suddenly skyrocketed (compute, storage, data transfer) — e.g. a forgotten running instance, leaked API keys adding charges, or Kubernetes autoscaling running too aggressively.",
+      "problem": "AWS cost surprises: the author forgot a large EC2 instance running alongside Bedrock and got a ~$1,700 bill two weeks later. Native options like Cost Explorer, CloudWatch alarms, and AWS Budgets rely on remembering to set them up, while FinOps platforms are complex dashboards with heavy setup.",
+      "audience": null,
+      "builder_usernames": [
+        "cosmoz"
+      ],
+      "source_excerpt": "https://watchmy.cloud/ - a smoke detector for your AWS bill",
+      "evidence": [
+        {
+          "source_item_id": 48998284,
+          "source_field": "body",
+          "value": "https://watchmy.cloud/ - a smoke detector for your AWS bill",
+          "supports": [],
+          "author": "cosmoz",
+          "shared_at": 1784667831,
+          "source_url": "https://news.ycombinator.com/item?id=48998284"
+        }
+      ],
+      "source_item_id": 48998284,
+      "source_url": "https://news.ycombinator.com/item?id=48998284",
+      "author": "cosmoz",
+      "shared_at": 1784667831,
+      "links": [
+        "https://watchmy.cloud/"
+      ]
+    }
+  ]
+}

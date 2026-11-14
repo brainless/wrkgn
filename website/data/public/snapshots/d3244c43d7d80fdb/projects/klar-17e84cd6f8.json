@@ -1,0 +1,36 @@
+{
+  "id": 2043,
+  "slug": "klar-17e84cd6f8",
+  "name": "Klar",
+  "mentions": [
+    {
+      "name": "Klar",
+      "description": "AI-powered anti-spam filter for Apple Mail on Mac. A trained classification model sorts incoming messages into ham, spam, and marketing categories, with a paid version that learns from the user's own emails locally on their Mac. The classification engine is open source.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "nha1"
+      ],
+      "source_excerpt": "Working on an AI anti-spam filter for Apple Mail on Mac\n\nSo I have been training the model to classify messages (ham/spam/marketing).",
+      "evidence": [
+        {
+          "source_item_id": 49241883,
+          "source_field": "body",
+          "value": "Working on an AI anti-spam filter for Apple Mail on Mac\n\nSo I have been training the model to classify messages (ham/spam/marketing).",
+          "supports": [],
+          "author": "nha1",
+          "shared_at": 1786358081,
+          "source_url": "https://news.ycombinator.com/item?id=49241883"
+        }
+      ],
+      "source_item_id": 49241883,
+      "source_url": "https://news.ycombinator.com/item?id=49241883",
+      "author": "nha1",
+      "shared_at": 1786358081,
+      "links": [
+        "https://github.com/klar-im/engine",
+        "https://klar.im"
+      ]
+    }
+  ]
+}

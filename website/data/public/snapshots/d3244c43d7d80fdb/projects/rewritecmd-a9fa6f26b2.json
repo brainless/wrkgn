@@ -1,0 +1,35 @@
+{
+  "id": 5919,
+  "slug": "rewritecmd-a9fa6f26b2",
+  "name": "RewriteCmd",
+  "mentions": [
+    {
+      "name": "RewriteCmd",
+      "description": "A free macOS menu bar app that rewrites text in place across any application. Select text and hit Cmd-Shift-R to have it rewritten instantly. It is BYOK: it uses the user's own Claude/OpenAI/Mistral API key, so text never touches a third-party server.",
+      "problem": "Fixes the friction of copy/pasting text into GPT to correct or improve it.",
+      "audience": null,
+      "builder_usernames": [
+        "Louis9"
+      ],
+      "source_excerpt": "I built a free macOS menu bar app that rewrites text in place across any\napplication. Select text, hit Cmd-Shift-R, text gets rewritten instantly.\n\nBYOK — uses your own Claude/OpenAI/Mistral API key, so text never touches\na third-party server.",
+      "evidence": [
+        {
+          "source_item_id": 47620226,
+          "source_field": "body",
+          "value": "I built a free macOS menu bar app that rewrites text in place across any\napplication. Select text, hit Cmd-Shift-R, text gets rewritten instantly.\n\nBYOK — uses your own Claude/OpenAI/Mistral API key, so text never touches\na third-party server.",
+          "supports": [],
+          "author": "Louis9",
+          "shared_at": 1775164168,
+          "source_url": "https://news.ycombinator.com/item?id=47620226"
+        }
+      ],
+      "source_item_id": 47620226,
+      "source_url": "https://news.ycombinator.com/item?id=47620226",
+      "author": "Louis9",
+      "shared_at": 1775164168,
+      "links": [
+        "https://rewritecmd.com"
+      ]
+    }
+  ]
+}

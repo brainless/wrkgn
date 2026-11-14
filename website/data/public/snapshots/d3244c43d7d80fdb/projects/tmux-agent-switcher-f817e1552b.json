@@ -1,0 +1,35 @@
+{
+  "id": 1778,
+  "slug": "tmux-agent-switcher-f817e1552b",
+  "name": "tmux-agent-switcher",
+  "mentions": [
+    {
+      "name": "tmux-agent-switcher",
+      "description": "A tmux plugin that helps manage work with many AI agents inside tmux. Pressing ctrl+n opens a sidebar listing all current tmux tabs/windows along with the agents' statuses, and offers several navigation modes: vim-style j/k bindings with numeric quick jumps, session-number-then-tab-number navigation, and search for users with many sessions open. Built to keep an existing tmux workflow instead of switching to other agent-management tools.",
+      "problem": "Keeping track of and switching between many agent sessions in tmux is hard, and existing tools in this space require giving up one's core tmux setup.",
+      "audience": null,
+      "builder_usernames": [
+        "ymir_e"
+      ],
+      "source_excerpt": "A tmux plugin that makes is better to work with many agents:\n\nhttps://github.com/Ymirke/tmux-agent-switcher\n\nYou press ctrl+n and you get a sidebar showing all the tmux tabs you currently have and the statuses of the agents.",
+      "evidence": [
+        {
+          "source_item_id": 49237500,
+          "source_field": "body",
+          "value": "A tmux plugin that makes is better to work with many agents:\n\nhttps://github.com/Ymirke/tmux-agent-switcher\n\nYou press ctrl+n and you get a sidebar showing all the tmux tabs you currently have and the statuses of the agents.",
+          "supports": [],
+          "author": "ymir_e",
+          "shared_at": 1786319294,
+          "source_url": "https://news.ycombinator.com/item?id=49237500"
+        }
+      ],
+      "source_item_id": 49237500,
+      "source_url": "https://news.ycombinator.com/item?id=49237500",
+      "author": "ymir_e",
+      "shared_at": 1786319294,
+      "links": [
+        "https://github.com/Ymirke/tmux-agent-switcher"
+      ]
+    }
+  ]
+}

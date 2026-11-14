@@ -1,0 +1,35 @@
+{
+  "id": 1201,
+  "slug": "fyai-f7ef7ee851",
+  "name": "fyai",
+  "mentions": [
+    {
+      "name": "fyai",
+      "description": "fyai is an opinionated AI agent harness built as a Unix tool, premised on the idea that AI will become a commodity and that control of your own data is what matters. Its state is durable and stored in a disk deduplicated arena, making git-like branching free with modest storage compared to JSONL/SQLite. Latest additions include full markdown/mermaid rendering support and very alpha Claude Code and Codex session import; it is still alpha but usable.",
+      "problem": "The author argues that as AI becomes a commodity, having control of your own data is what matters, and other agent harnesses' JSONL/SQLite storage is comparatively costly.",
+      "audience": null,
+      "builder_usernames": [
+        "fypanto"
+      ],
+      "source_excerpt": "I'm working on fyai, a rather opinionated agent harness, built to work as a unix tool and the idea that eventually AI is going to be a commodity, where having control of your own data is what's important.",
+      "evidence": [
+        {
+          "source_item_id": 49694479,
+          "source_field": "body",
+          "value": "I'm working on fyai, a rather opinionated agent harness, built to work as a unix tool and the idea that eventually AI is going to be a commodity, where having control of your own data is what's important.",
+          "supports": [],
+          "author": "fypanto",
+          "shared_at": 1789380731,
+          "source_url": "https://news.ycombinator.com/item?id=49694479"
+        }
+      ],
+      "source_item_id": 49694479,
+      "source_url": "https://news.ycombinator.com/item?id=49694479",
+      "author": "fypanto",
+      "shared_at": 1789380731,
+      "links": [
+        "https://github.com/pantoniou/fyai"
+      ]
+    }
+  ]
+}

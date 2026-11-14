@@ -1,0 +1,33 @@
+{
+  "id": 327,
+  "slug": "double-entry-trade-erp-b644945069",
+  "name": "Double-entry trade ERP",
+  "mentions": [
+    {
+      "name": "Double-entry trade ERP",
+      "description": "An ERP rebuilt around a plaintext-accounting-inspired model that extends double entry accounting to double entry trade between parties, aimed at collapsing complications typical of ERP systems. It uses a textual DSL to model business scenarios (e.g., a sale spanning multiple invoices across countries and currencies, with intermediate steps like transportation and manufacturing) and includes a simplified price engine that avoids dynamic calculations.",
+      "problem": "ERP systems are typically complicated, especially price engines with dynamic calculations; this project simplifies the model and the price engine for most cases.",
+      "audience": null,
+      "builder_usernames": [
+        "mamcx"
+      ],
+      "source_excerpt": "Rebuilding my ERP to work more like the model of https://plaintextaccounting.org, where I expanded the idea of `double entry accounting` to `double entry trade between parties`, plus several other ideas for what I see a way to collapse a lot of complications that are typically for ERP systems.",
+      "evidence": [
+        {
+          "source_item_id": 50418252,
+          "source_field": "body",
+          "value": "Rebuilding my ERP to work more like the model of https://plaintextaccounting.org, where I expanded the idea of `double entry accounting` to `double entry trade between parties`, plus several other ideas for what I see a way to collapse a lot of complications that are typically for ERP systems.",
+          "supports": [],
+          "author": "mamcx",
+          "shared_at": 1794177725,
+          "source_url": "https://news.ycombinator.com/item?id=50418252"
+        }
+      ],
+      "source_item_id": 50418252,
+      "source_url": "https://news.ycombinator.com/item?id=50418252",
+      "author": "mamcx",
+      "shared_at": 1794177725,
+      "links": []
+    }
+  ]
+}

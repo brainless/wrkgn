@@ -1,0 +1,35 @@
+{
+  "id": 1858,
+  "slug": "jet-lag-coach-4e449afb14",
+  "name": "Jet Lag Coach",
+  "mentions": [
+    {
+      "name": "Jet Lag Coach",
+      "description": "An app that calculates the optimum jet lag management plan from a combination of flights, telling users the optimum times for light exposure, sleeping, and drinking coffee. It treats the schedule as a constrained optimization problem, optimizing a cost function while keeping the plan realistic, and can handle complex combinations of flights and layovers compared to similar apps.",
+      "problem": "Managing jet lag from complex multi-flight itineraries; other similar apps cannot handle complex combinations of flights and layovers.",
+      "audience": null,
+      "builder_usernames": [
+        "tartieret"
+      ],
+      "source_excerpt": "Over the last 6-9 months, I build an app to calculate the optimum jet lag management plan from a combination of flight. It tells you the optimum times for light exposure, sleeping, taking coffee...",
+      "evidence": [
+        {
+          "source_item_id": 49249287,
+          "source_field": "body",
+          "value": "Over the last 6-9 months, I build an app to calculate the optimum jet lag management plan from a combination of flight. It tells you the optimum times for light exposure, sleeping, taking coffee...",
+          "supports": [],
+          "author": "tartieret",
+          "shared_at": 1786393881,
+          "source_url": "https://news.ycombinator.com/item?id=49249287"
+        }
+      ],
+      "source_item_id": 49249287,
+      "source_url": "https://news.ycombinator.com/item?id=49249287",
+      "author": "tartieret",
+      "shared_at": 1786393881,
+      "links": [
+        "https://www.jetlagcoach.com"
+      ]
+    }
+  ]
+}

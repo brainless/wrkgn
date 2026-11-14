@@ -1,0 +1,35 @@
+{
+  "id": 658,
+  "slug": "old-agent-d6ad5c54fd",
+  "name": "Old Agent",
+  "mentions": [
+    {
+      "name": "Old Agent",
+      "description": "A sysadmin agent that runs AI on machines up to 30 years old, written entirely in legacy Perl. It supports legacy operating systems such as HP-UX, OpenStep, Solaris 8, Tru64, Irix, old Linux, legacy FreeBSD, and NetBSD, includes an optional Tk desktop interface, and ships a proxy for modern TLS connectivity.",
+      "problem": null,
+      "audience": "System administrators managing legacy machines",
+      "builder_usernames": [
+        "kristopolous"
+      ],
+      "source_excerpt": "Sysadmin agents on old machines.\n\nRun AI on machines 30 years old.\n\nEntirely in legacy Perl.",
+      "evidence": [
+        {
+          "source_item_id": 50419039,
+          "source_field": "body",
+          "value": "Sysadmin agents on old machines.\n\nRun AI on machines 30 years old.\n\nEntirely in legacy Perl.",
+          "supports": [],
+          "author": "kristopolous",
+          "shared_at": 1794181883,
+          "source_url": "https://news.ycombinator.com/item?id=50419039"
+        }
+      ],
+      "source_item_id": 50419039,
+      "source_url": "https://news.ycombinator.com/item?id=50419039",
+      "author": "kristopolous",
+      "shared_at": 1794181883,
+      "links": [
+        "https://github.com/kristopolous/old-agent"
+      ]
+    }
+  ]
+}

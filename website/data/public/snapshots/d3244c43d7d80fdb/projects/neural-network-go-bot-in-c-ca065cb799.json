@@ -1,0 +1,33 @@
+{
+  "id": 237,
+  "slug": "neural-network-go-bot-in-c-ca065cb799",
+  "name": "C-based neural network Go bot",
+  "mentions": [
+    {
+      "name": "C-based neural network Go bot",
+      "description": "This project builds neural networks (MLPs) written in C that learn to play the board game Go. Networks are trained in small cohorts (with 0 or 1 hidden layers), with better-performing members seeding later cohorts, while the author experiments to find the best network shape. Plans include determining which output values to correct during backpropagation training and connecting to Gnu Go to get real-world performance scores. It runs entirely on CPU with an emphasis on well-laid-out, cache-friendly data structures, with possible future scaling via a many-core server for parallelization rather than GPUs. AI (ChatGPT) is used only as a mentoring/sounding-board aid, not to write the code.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "godshatter"
+      ],
+      "source_excerpt": "Now, I'm building a set of neural networks (MLPs) in C. Deepmind employees aren't going to lose any sleep over this upcoming go bot threat, but I'm having fun and learning a lot.",
+      "evidence": [
+        {
+          "source_item_id": 50431773,
+          "source_field": "body",
+          "value": "Now, I'm building a set of neural networks (MLPs) in C. Deepmind employees aren't going to lose any sleep over this upcoming go bot threat, but I'm having fun and learning a lot.",
+          "supports": [],
+          "author": "godshatter",
+          "shared_at": 1794256917,
+          "source_url": "https://news.ycombinator.com/item?id=50431773"
+        }
+      ],
+      "source_item_id": 50431773,
+      "source_url": "https://news.ycombinator.com/item?id=50431773",
+      "author": "godshatter",
+      "shared_at": 1794256917,
+      "links": []
+    }
+  ]
+}

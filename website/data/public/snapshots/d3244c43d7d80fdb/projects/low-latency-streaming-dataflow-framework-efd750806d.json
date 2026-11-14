@@ -1,0 +1,33 @@
+{
+  "id": 2116,
+  "slug": "low-latency-streaming-dataflow-framework-efd750806d",
+  "name": "Low-latency streaming dataflow framework",
+  "mentions": [
+    {
+      "name": "Low-latency streaming dataflow framework",
+      "description": "A low-latency streaming dataflow framework, modeled on GNU Radio but designed to be actually usable in production, with deterministic latency as a first-class objective. Features include live graph reconfiguration, timed events, easy SIMD support, support for non-MMU-based architectures, and imperative configuration management and querying at the single runtime level. It can be compiled to WASM to run in the browser (with CORS headers), and IO, user interfaces, and GUIs are built via TypeScript.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dummydummy1234"
+      ],
+      "source_excerpt": "So I am working on building a low latency streaming dataflow framework - ala gnuradio but actually usable in production. The idea is to have deterministic latency as a first class objective and let all the other benefits fall out of that.",
+      "evidence": [
+        {
+          "source_item_id": 49235757,
+          "source_field": "body",
+          "value": "So I am working on building a low latency streaming dataflow framework - ala gnuradio but actually usable in production. The idea is to have deterministic latency as a first class objective and let all the other benefits fall out of that.",
+          "supports": [],
+          "author": "dummydummy1234",
+          "shared_at": 1786308818,
+          "source_url": "https://news.ycombinator.com/item?id=49235757"
+        }
+      ],
+      "source_item_id": 49235757,
+      "source_url": "https://news.ycombinator.com/item?id=49235757",
+      "author": "dummydummy1234",
+      "shared_at": 1786308818,
+      "links": []
+    }
+  ]
+}

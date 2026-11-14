@@ -1,0 +1,35 @@
+{
+  "id": 526,
+  "slug": "newspeak-postgresql-tcp-protocol-implementation-f88bdc4a9f",
+  "name": "Newspeak PostgreSQL TCP protocol implementation",
+  "mentions": [
+    {
+      "name": "Newspeak PostgreSQL TCP protocol implementation",
+      "description": "Implements the PostgreSQL TCP wire protocol in Newspeak so a Chrome web browser can talk to a GnuCash database and parse Postgres result sets from simple queries. Built on the author's Newspeak TCP library and still at a bare-minimum, possibly broken stage.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "goodthink"
+      ],
+      "source_excerpt": "Writing a Newspeak implementation of the PostgreSQL TCP protocol!. Talking to a GnuCash database from Chrome web browser. Uses my Newspeak TCP library. Both are bare minimum, probably very broken, but I am able to parse a Postgres result set from a simple query.",
+      "evidence": [
+        {
+          "source_item_id": 50419409,
+          "source_field": "body",
+          "value": "Writing a Newspeak implementation of the PostgreSQL TCP protocol!. Talking to a GnuCash database from Chrome web browser. Uses my Newspeak TCP library. Both are bare minimum, probably very broken, but I am able to parse a Postgres result set from a simple query.",
+          "supports": [],
+          "author": "goodthink",
+          "shared_at": 1794184428,
+          "source_url": "https://news.ycombinator.com/item?id=50419409"
+        }
+      ],
+      "source_item_id": 50419409,
+      "source_url": "https://news.ycombinator.com/item?id=50419409",
+      "author": "goodthink",
+      "shared_at": 1794184428,
+      "links": [
+        "https://youtu.be/D5wupSxi9Y8"
+      ]
+    }
+  ]
+}

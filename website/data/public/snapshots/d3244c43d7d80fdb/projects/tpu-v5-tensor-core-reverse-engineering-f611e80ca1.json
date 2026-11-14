@@ -1,0 +1,35 @@
+{
+  "id": 595,
+  "slug": "tpu-v5-tensor-core-reverse-engineering-f611e80ca1",
+  "name": "TPU v5 Tensor Core Reverse Engineering",
+  "mentions": [
+    {
+      "name": "TPU v5 Tensor Core Reverse Engineering",
+      "description": "A reverse-engineering effort documenting the tensor core on Google's TPU v5 at the instruction level, publishing findings on undocumented TPU architecture as a potentially viable alternative to Nvidia GPUs for machine learning.",
+      "problem": "TPUs could be a viable alternative to Nvidia GPUs for machine learning, but their architecture remains largely undocumented.",
+      "audience": null,
+      "builder_usernames": [
+        "gherkinlabs"
+      ],
+      "source_excerpt": "We've been reverse engineering the tensor core on TPU v5: https://gherkinlabs.com/v5e-tensorcore-instructions",
+      "evidence": [
+        {
+          "source_item_id": 50417953,
+          "source_field": "body",
+          "value": "We've been reverse engineering the tensor core on TPU v5: https://gherkinlabs.com/v5e-tensorcore-instructions",
+          "supports": [],
+          "author": "gherkinlabs",
+          "shared_at": 1794176017,
+          "source_url": "https://news.ycombinator.com/item?id=50417953"
+        }
+      ],
+      "source_item_id": 50417953,
+      "source_url": "https://news.ycombinator.com/item?id=50417953",
+      "author": "gherkinlabs",
+      "shared_at": 1794176017,
+      "links": [
+        "https://gherkinlabs.com/v5e-tensorcore-instructions"
+      ]
+    }
+  ]
+}

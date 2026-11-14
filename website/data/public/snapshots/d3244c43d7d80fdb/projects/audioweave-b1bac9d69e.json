@@ -1,0 +1,63 @@
+{
+  "id": 348,
+  "slug": "audioweave-b1bac9d69e",
+  "name": "AudioWeave",
+  "mentions": [
+    {
+      "name": "AudioWeave",
+      "description": "An ad-free, offline-first Android podcast player built natively with Kotlin and Jetpack Compose, using Room and Media3/ExoPlayer. It is privacy-focused with no tracking or ads, and is currently in public beta.",
+      "problem": "The author was unhappy with existing podcast apps after switching from iOS.",
+      "audience": "The author, who built it mostly for personal use",
+      "builder_usernames": [
+        "mike_pol"
+      ],
+      "source_excerpt": "working on AudioWeave, an ad free, offline first Android podcast player.\n\nswitching from iOS, I wasn't happy with the existing podcast apps, so I built this mostly for myself.",
+      "evidence": [
+        {
+          "source_item_id": 50421513,
+          "source_field": "body",
+          "value": "working on AudioWeave, an ad free, offline first Android podcast player.\n\nswitching from iOS, I wasn't happy with the existing podcast apps, so I built this mostly for myself.",
+          "supports": [],
+          "author": "mike_pol",
+          "shared_at": 1794203038,
+          "source_url": "https://news.ycombinator.com/item?id=50421513"
+        }
+      ],
+      "source_item_id": 50421513,
+      "source_url": "https://news.ycombinator.com/item?id=50421513",
+      "author": "mike_pol",
+      "shared_at": 1794203038,
+      "links": [
+        "https://play.google.com/store/apps/details?id=com.enyodigital.audioweave"
+      ]
+    },
+    {
+      "name": "AudioWeave",
+      "description": "AudioWeave is an ad-free, offline-first Android podcast player with a privacy-focused design that includes no tracking or ads. It is built strictly natively with Kotlin and Jetpack Compose, using Room for storage and Media3/ExoPlayer for playback, and is currently in public beta with possible open sourcing planned.",
+      "problem": "Existing podcast apps didn't satisfy the builder after switching from iOS, lacking a nice-looking, privacy-focused, ad-free option.",
+      "audience": null,
+      "builder_usernames": [
+        "mike_pol"
+      ],
+      "source_excerpt": "working on AudioWeave, an ad free, offline first Android podcast player.",
+      "evidence": [
+        {
+          "source_item_id": 50350801,
+          "source_field": "body",
+          "value": "working on AudioWeave, an ad free, offline first Android podcast player.",
+          "supports": [],
+          "author": "mike_pol",
+          "shared_at": 1793706421,
+          "source_url": "https://news.ycombinator.com/item?id=50350801"
+        }
+      ],
+      "source_item_id": 50350801,
+      "source_url": "https://news.ycombinator.com/item?id=50350801",
+      "author": "mike_pol",
+      "shared_at": 1793706421,
+      "links": [
+        "https://play.google.com/store/apps/details?id=com.enyodigital.audioweave"
+      ]
+    }
+  ]
+}

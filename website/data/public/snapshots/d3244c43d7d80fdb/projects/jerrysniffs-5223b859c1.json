@@ -1,0 +1,63 @@
+{
+  "id": 1912,
+  "slug": "jerrysniffs-5223b859c1",
+  "name": "jerrysniffs",
+  "mentions": [
+    {
+      "name": "jerrysniffs",
+      "description": "Credit-based, zero-subscription search service offering Google, Twitter/X, and Reddit search plus URL fetching that returns results as markdown for feeding into LLMs. Accessible via MCP, API, dashboard, and SDK; each $10 purchase provides 15K Google searches, 3K Twitter searches/lookups, 2K Reddit searches, and 15K URL fetches, with credits that never expire and can be stacked. Supports adding more social media sources.",
+      "problem": "Search APIs typically rely on subscriptions; this service offers pay-as-you-go credits that never expire instead.",
+      "audience": "Developers feeding search results into their LLMs.",
+      "builder_usernames": [
+        "freakynit"
+      ],
+      "source_excerpt": "Zero-subscriptions google + social media search mcp/api/dashboard/sdk.\n\nEvery $10 gets you 15K google searches + 3K Twitter search/lookups + 2K Reddit + 15K Url fetches as markdown for feeding to your llm's.",
+      "evidence": [
+        {
+          "source_item_id": 49238914,
+          "source_field": "body",
+          "value": "Zero-subscriptions google + social media search mcp/api/dashboard/sdk.\n\nEvery $10 gets you 15K google searches + 3K Twitter search/lookups + 2K Reddit + 15K Url fetches as markdown for feeding to your llm's.",
+          "supports": [],
+          "author": "freakynit",
+          "shared_at": 1786332678,
+          "source_url": "https://news.ycombinator.com/item?id=49238914"
+        }
+      ],
+      "source_item_id": 49238914,
+      "source_url": "https://news.ycombinator.com/item?id=49238914",
+      "author": "freakynit",
+      "shared_at": 1786332678,
+      "links": [
+        "https://jerrysniffs.online"
+      ]
+    },
+    {
+      "name": "Jerrysniffs",
+      "description": "Pay-as-you-go web and social media search service with no subscriptions: each $10 recharge provides 15K Google searches, 3K Twitter searches, 2K Reddit searches, and 15K URL fetches returned as proper markdown. Usable via API, MCP, SDK, or a dashboard, with credits used whenever needed and recharged on demand.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "freakynit"
+      ],
+      "source_excerpt": "No subscriptions web and social media search.\n\nEvery $10 gives you 15K google searches, 3K Twitter, 2K Reddit, and 15K URL fetches as proper markdowns.\n\nUse when you want, recharge when you want. No pressure.\n\nUse through API/MCP/SDK or Dashboard.",
+      "evidence": [
+        {
+          "source_item_id": 48944486,
+          "source_field": "body",
+          "value": "No subscriptions web and social media search.\n\nEvery $10 gives you 15K google searches, 3K Twitter, 2K Reddit, and 15K URL fetches as proper markdowns.\n\nUse when you want, recharge when you want. No pressure.\n\nUse through API/MCP/SDK or Dashboard.",
+          "supports": [],
+          "author": "freakynit",
+          "shared_at": 1784275079,
+          "source_url": "https://news.ycombinator.com/item?id=48944486"
+        }
+      ],
+      "source_item_id": 48944486,
+      "source_url": "https://news.ycombinator.com/item?id=48944486",
+      "author": "freakynit",
+      "shared_at": 1784275079,
+      "links": [
+        "https://jerrysniffs.online"
+      ]
+    }
+  ]
+}

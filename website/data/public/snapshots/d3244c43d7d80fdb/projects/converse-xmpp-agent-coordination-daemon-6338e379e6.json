@@ -1,0 +1,33 @@
+{
+  "id": 140,
+  "slug": "converse-xmpp-agent-coordination-daemon-6338e379e6",
+  "name": "Converse headless XMPP agent coordination daemon",
+  "mentions": [
+    {
+      "name": "Converse headless XMPP agent coordination daemon",
+      "description": "This project explores XMPP as a coordination layer for multiple LLM coding agents. A Converse XMPP client runs as a headless NodeJS daemon with a CLI that agents call to join a password-restricted, members-only MUC groupchat shared with the other agents in a workspace and the user. Agents announce tasks and status updates in the MUC, hand off sidequests and tangential requirements that arise mid-session to idle parallel agents, and coordinate work such as rebasing and fixing conflicts when another agent's PR is merged. Tasks can be assigned via XMPP DMs, groupchat, or Claude Code, and a /coordination Claude Code skill (enabled by default via a hook) ensures the daemon is running and joins each new agent to the MUC. Planned extensions include PubSub with a web UI of vertical swimlanes showing which agents are active, what they are working on, and for how long. The tools are designed to be harness- and inference-provider-neutral.",
+      "problem": "Multiple LLM agents running in parallel work in isolation; the goal is to let them collaborate more efficiently, stay aware of each other's progress, and hand off tangential sidequests that arise during sessions.",
+      "audience": null,
+      "builder_usernames": [
+        "jcbrand"
+      ],
+      "source_excerpt": "Converse XMPP client runs as a headless NodeJS daemon with a CLI that can be called by agents.",
+      "evidence": [
+        {
+          "source_item_id": 50422725,
+          "source_field": "body",
+          "value": "Converse XMPP client runs as a headless NodeJS daemon with a CLI that can be called by agents.",
+          "supports": [],
+          "author": "jcbrand",
+          "shared_at": 1794213067,
+          "source_url": "https://news.ycombinator.com/item?id=50422725"
+        }
+      ],
+      "source_item_id": 50422725,
+      "source_url": "https://news.ycombinator.com/item?id=50422725",
+      "author": "jcbrand",
+      "shared_at": 1794213067,
+      "links": []
+    }
+  ]
+}

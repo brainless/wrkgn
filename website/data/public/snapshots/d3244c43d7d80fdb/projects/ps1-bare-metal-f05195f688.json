@@ -1,0 +1,35 @@
+{
+  "id": 1874,
+  "slug": "ps1-bare-metal-f05195f688",
+  "name": "ps1-bare-metal",
+  "mentions": [
+    {
+      "name": "ps1-bare-metal",
+      "description": "This repository provides a PlayStation 1 bare-metal programming tutorial, including examples, headers, CMake build scripts and tools, and is used by other PS1 homebrew projects as a dependency. It is being overhauled, with plans to split the examples from the core and add examples for SPU sound playback, CD-ROM drive access, and possibly I/O on PS1-based arcade systems.",
+      "problem": "The repo was never meant to be an SDK, but it effectively became one that PS1 homebrew projects pull as a submodule and depend on, prompting a planned split between the examples and the core, plus requests for additional examples.",
+      "audience": null,
+      "builder_usernames": [
+        "spicyjpeg"
+      ],
+      "source_excerpt": "An overhaul of my original PlayStation bare-metal programming tutorial repo: https://github.com/spicyjpeg/ps1-bare-metal",
+      "evidence": [
+        {
+          "source_item_id": 49233651,
+          "source_field": "body",
+          "value": "An overhaul of my original PlayStation bare-metal programming tutorial repo: https://github.com/spicyjpeg/ps1-bare-metal",
+          "supports": [],
+          "author": "spicyjpeg",
+          "shared_at": 1786297713,
+          "source_url": "https://news.ycombinator.com/item?id=49233651"
+        }
+      ],
+      "source_item_id": 49233651,
+      "source_url": "https://news.ycombinator.com/item?id=49233651",
+      "author": "spicyjpeg",
+      "shared_at": 1786297713,
+      "links": [
+        "https://github.com/spicyjpeg/ps1-bare-metal"
+      ]
+    }
+  ]
+}

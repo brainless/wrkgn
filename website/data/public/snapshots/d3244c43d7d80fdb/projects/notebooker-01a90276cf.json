@@ -1,0 +1,35 @@
+{
+  "id": 2791,
+  "slug": "notebooker-01a90276cf",
+  "name": "Notebooker",
+  "mentions": [
+    {
+      "name": "Notebooker",
+      "description": "This app is a cloud-hosted open notebook positioned as a NotebookLM competitor. It adds a plugin system for generating additional \"creations\", a quick way to spin up a compatible Cloudflare Workers AI setup for testing models, Raindrop.io-style bookmarking, and an experimental wiki generation feature. It has soft launched.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mistakevin"
+      ],
+      "source_excerpt": "I’m working on a NotebookLM competitor, sort of an open-notebook in the cloud with a lot of features I’ve added (and made available as either PRs back to the base repo or public fork) such as a plugin system to add more generated “creations” or a quick way to spin up your own compatible cloudflare workers ai setup to test out models. I’m trying to incorporate the same bookmarking features I love so much with Raindrop.io (big fan) and experimenting with a new wiki generation feature.",
+      "evidence": [
+        {
+          "source_item_id": 48889904,
+          "source_field": "body",
+          "value": "I’m working on a NotebookLM competitor, sort of an open-notebook in the cloud with a lot of features I’ve added (and made available as either PRs back to the base repo or public fork) such as a plugin system to add more generated “creations” or a quick way to spin up your own compatible cloudflare workers ai setup to test out models. I’m trying to incorporate the same bookmarking features I love so much with Raindrop.io (big fan) and experimenting with a new wiki generation feature.",
+          "supports": [],
+          "author": "mistakevin",
+          "shared_at": 1783934307,
+          "source_url": "https://news.ycombinator.com/item?id=48889904"
+        }
+      ],
+      "source_item_id": 48889904,
+      "source_url": "https://news.ycombinator.com/item?id=48889904",
+      "author": "mistakevin",
+      "shared_at": 1783934307,
+      "links": [
+        "https://notebooker.ai"
+      ]
+    }
+  ]
+}

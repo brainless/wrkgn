@@ -1,0 +1,35 @@
+{
+  "id": 3267,
+  "slug": "ultima-online-server-and-web-client-deployment-cli-9a35ae4973",
+  "name": "Gemwright",
+  "mentions": [
+    {
+      "name": "Gemwright",
+      "description": "An open-source web port of UOFiddler for browsing Ultima Online game content — gumps, tile and item data, and animations — from the browser, since running the desktop UOFiddler on macOS is a struggle.",
+      "problem": "Running UOFiddler on macOS is also another struggle when you need to work with UO game content (gumps, tile or item data, animations, etc).",
+      "audience": "People into Ultima Online",
+      "builder_usernames": [
+        "gokaygurcan"
+      ],
+      "source_excerpt": "While doing this, I realized I need to find some game content (gumps, tile or item data, animations, etc). Similar to UO client, running UOFiddler on macOS is also another struggle. So I decided to port it to web.",
+      "evidence": [
+        {
+          "source_item_id": 50419315,
+          "source_field": "body",
+          "value": "While doing this, I realized I need to find some game content (gumps, tile or item data, animations, etc). Similar to UO client, running UOFiddler on macOS is also another struggle. So I decided to port it to web.",
+          "supports": [],
+          "author": "gokaygurcan",
+          "shared_at": 1794183648,
+          "source_url": "https://news.ycombinator.com/item?id=50419315"
+        }
+      ],
+      "source_item_id": 50419315,
+      "source_url": "https://news.ycombinator.com/item?id=50419315",
+      "author": "gokaygurcan",
+      "shared_at": 1794183648,
+      "links": [
+        "https://gemwright.org"
+      ]
+    }
+  ]
+}

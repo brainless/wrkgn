@@ -1,0 +1,35 @@
+{
+  "id": 409,
+  "slug": "unpoll-76f1d2cf60",
+  "name": "Unpoll",
+  "mentions": [
+    {
+      "name": "Unpoll",
+      "description": "This service handles polling, cursors, webhooks, and retries for WhatsApp's Agent API, letting serverless apps that scale down to zero send and receive WhatsApp messages via plain HTTP requests and webhooks. Users add their agent's token, which is stored encrypted.",
+      "problem": "WhatsApp's Agent API requires a constant poller to keep running, which doesn't work for serverless apps that scale to zero when there is no traffic.",
+      "audience": null,
+      "builder_usernames": [
+        "sarmadgulzar"
+      ],
+      "source_excerpt": "So I built Unpoll (unpoll.cc) that takes care of polling, cursor, webhooks and retries. You can simply add your agent's token which is stored encrypted and then send & receive messages by plain old HTTP requests and webhooks.",
+      "evidence": [
+        {
+          "source_item_id": 50423795,
+          "source_field": "body",
+          "value": "So I built Unpoll (unpoll.cc) that takes care of polling, cursor, webhooks and retries. You can simply add your agent's token which is stored encrypted and then send & receive messages by plain old HTTP requests and webhooks.",
+          "supports": [],
+          "author": "sarmadgulzar",
+          "shared_at": 1794220970,
+          "source_url": "https://news.ycombinator.com/item?id=50423795"
+        }
+      ],
+      "source_item_id": 50423795,
+      "source_url": "https://news.ycombinator.com/item?id=50423795",
+      "author": "sarmadgulzar",
+      "shared_at": 1794220970,
+      "links": [
+        "https://unpoll.cc"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": 2690,
+  "slug": "hnsubstacks-e866ba49b3",
+  "name": "hnsubstacks",
+  "mentions": [
+    {
+      "name": "hnsubstacks",
+      "description": "A website that filters Hacker News posts to surface links from Substacks and blogs, deployed serverlessly on Cloudflare Workers as a personal toy project.",
+      "problem": "The author wanted a personal way to filter Hacker News for Substack and blog posts while exploring a serverless deployment.",
+      "audience": null,
+      "builder_usernames": [
+        "cartucho1"
+      ],
+      "source_excerpt": "I made an HN filter for substacks and blogs:\nhttps://hnsubstacks.com/",
+      "evidence": [
+        {
+          "source_item_id": 48887614,
+          "source_field": "body",
+          "value": "I made an HN filter for substacks and blogs:\nhttps://hnsubstacks.com/",
+          "supports": [],
+          "author": "cartucho1",
+          "shared_at": 1783914010,
+          "source_url": "https://news.ycombinator.com/item?id=48887614"
+        }
+      ],
+      "source_item_id": 48887614,
+      "source_url": "https://news.ycombinator.com/item?id=48887614",
+      "author": "cartucho1",
+      "shared_at": 1783914010,
+      "links": [
+        "https://github.com/ariroffe/hnsubstacks/",
+        "https://hnsubstacks.com/"
+      ]
+    }
+  ]
+}

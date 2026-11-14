@@ -1,0 +1,35 @@
+{
+  "id": 1405,
+  "slug": "mejl-6247e54914",
+  "name": "Mejl",
+  "mentions": [
+    {
+      "name": "Mejl",
+      "description": "A Gmail client in which every inbox view is built around Gmail labels. Users can paste exported Notion Mail auto-label instructions in as view descriptions.",
+      "problem": "Notion Mail shut down, leaving its users without their label-based inbox setup; this client lets them import those exported auto-label instructions.",
+      "audience": "Gmail users, especially former Notion Mail users",
+      "builder_usernames": [
+        "segersniels"
+      ],
+      "source_excerpt": "I'm building a gmail client where every \"inbox view\" is build around gmail labels: https://mejl.cc\n\nNotion Mail shut down this week, so if you used it you can paste your exported auto-label instructions in as view descriptions",
+      "evidence": [
+        {
+          "source_item_id": 49828455,
+          "source_field": "body",
+          "value": "I'm building a gmail client where every \"inbox view\" is build around gmail labels: https://mejl.cc\n\nNotion Mail shut down this week, so if you used it you can paste your exported auto-label instructions in as view descriptions",
+          "supports": [],
+          "author": "segersniels",
+          "shared_at": 1790244043,
+          "source_url": "https://news.ycombinator.com/item?id=49828455"
+        }
+      ],
+      "source_item_id": 49828455,
+      "source_url": "https://news.ycombinator.com/item?id=49828455",
+      "author": "segersniels",
+      "shared_at": 1790244043,
+      "links": [
+        "https://mejl.cc"
+      ]
+    }
+  ]
+}

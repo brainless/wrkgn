@@ -1,0 +1,35 @@
+{
+  "id": 3406,
+  "slug": "mib-8e3bc2382f",
+  "name": "mib",
+  "mentions": [
+    {
+      "name": "mib",
+      "description": "A minimal GUI Markdown scratchpad app for Linux/Wayland designed for throwaway notes. Built as an exploration of how small a GUI app can be, it comes in under 300 KiB with extremely fast startup, and the code is open for others (or their agents) to shrink further.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "osigurdson"
+      ],
+      "source_excerpt": "I wanted to explore what is possible in terms of making a very minimal GUI app on Linux / Wayland. It's a Markdown scratchpad thing for throwaway notes https://github.com/osigurdson/mib.\n\nI was able to get it down to under 300KiB and I absolutely love how fast it starts (incandescent light-bulb fast).",
+      "evidence": [
+        {
+          "source_item_id": 50493482,
+          "source_field": "body",
+          "value": "I wanted to explore what is possible in terms of making a very minimal GUI app on Linux / Wayland. It's a Markdown scratchpad thing for throwaway notes https://github.com/osigurdson/mib.\n\nI was able to get it down to under 300KiB and I absolutely love how fast it starts (incandescent light-bulb fast).",
+          "supports": [],
+          "author": "osigurdson",
+          "shared_at": 1794626670,
+          "source_url": "https://news.ycombinator.com/item?id=50493482"
+        }
+      ],
+      "source_item_id": 50493482,
+      "source_url": "https://news.ycombinator.com/item?id=50493482",
+      "author": "osigurdson",
+      "shared_at": 1794626670,
+      "links": [
+        "https://github.com/osigurdson/mib"
+      ]
+    }
+  ]
+}

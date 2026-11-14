@@ -1,0 +1,67 @@
+{
+  "id": 1804,
+  "slug": "golf-course-architecture-design-program-4c1dc96630",
+  "name": "Golf course architecture design program",
+  "mentions": [
+    {
+      "name": "Golf course architecture design program",
+      "description": "This program helps golf courses and golf course architects design better courses. It covers methods for identifying architecturally interesting areas of a course, designing dynamic pin placements for more interesting play, and measuring how adding or removing hazards dynamically affects different skill levels. It includes an open-source golf dispersion pattern generator intended to be improved collaboratively, with the goal of starting a golf architecture consulting company to help design and redesign courses.",
+      "problem": "Golf analytics companies already hold dispersion data and almost certainly won't share it, so an open-source dispersion pattern generator was created to allow improvement by others.",
+      "audience": "Golf courses and golf course architects.",
+      "builder_usernames": [
+        "scoofy"
+      ],
+      "source_excerpt": "I'm building a program that should help golf courses and golf course architects design better courses. I've been writing about it on my blog. My goal is to start a golf architecture consulting company, and help design/redesign courses that are better.",
+      "evidence": [
+        {
+          "source_item_id": 49235219,
+          "source_field": "body",
+          "value": "I'm building a program that should help golf courses and golf course architects design better courses. I've been writing about it on my blog. My goal is to start a golf architecture consulting company, and help design/redesign courses that are better.",
+          "supports": [],
+          "author": "scoofy",
+          "shared_at": 1786305808,
+          "source_url": "https://news.ycombinator.com/item?id=49235219"
+        }
+      ],
+      "source_item_id": 49235219,
+      "source_url": "https://news.ycombinator.com/item?id=49235219",
+      "author": "scoofy",
+      "shared_at": 1786305808,
+      "links": [
+        "https://golfcoursewiki.substack.com/p/friday-pins-vs-sunday-pins-or-how",
+        "https://golfcoursewiki.substack.com/p/how-to-bake-a-dispersion-pattern",
+        "https://golfcoursewiki.substack.com/p/i-spent-the-last-month-and-a-half",
+        "https://golfcoursewiki.substack.com/p/measure-2000-times-cut-once"
+      ]
+    },
+    {
+      "name": "Golf Course Architecture Strategy Model",
+      "description": "A model that illustrates and measures the strategic elements of golf hole architecture using a golf simulator. It helps clubs identify why boring holes are boring and why interesting holes are interesting, and lets them inexpensively test permutations of design changes instead of paying an architect hundreds of thousands of dollars without knowing whether a design will work. The author intends to build a golf architecture consulting company around it, targeting smaller courses at the lowest cost possible.",
+      "problem": "Golf course design changes are expensive and uncertain; clubs normally pay architects hundreds of thousands of dollars without knowing whether a design will work.",
+      "audience": "Smaller golf courses and clubs looking for low-cost ways to improve the strategic interest of their holes.",
+      "builder_usernames": [
+        "scoofy"
+      ],
+      "source_excerpt": "I’m building a model that illustrates the golf course architecture strategic elements of a golf hole using a golf simulator.\n\nGeneral thesis here on my blog: https://golfcoursewiki.substack.com/p/i-spent-the-last-month-and-a-half\n\nI hope to start a golf architecture consulting company with the model, with a target of helping smaller courses improve the strategic interest of their at the lowest cost possible.",
+      "evidence": [
+        {
+          "source_item_id": 48897962,
+          "source_field": "body",
+          "value": "I’m building a model that illustrates the golf course architecture strategic elements of a golf hole using a golf simulator.\n\nGeneral thesis here on my blog: https://golfcoursewiki.substack.com/p/i-spent-the-last-month-and-a-half\n\nI hope to start a golf architecture consulting company with the model, with a target of helping smaller courses improve the strategic interest of their at the lowest cost possible.",
+          "supports": [],
+          "author": "scoofy",
+          "shared_at": 1783972760,
+          "source_url": "https://news.ycombinator.com/item?id=48897962"
+        }
+      ],
+      "source_item_id": 48897962,
+      "source_url": "https://news.ycombinator.com/item?id=48897962",
+      "author": "scoofy",
+      "shared_at": 1783972760,
+      "links": [
+        "https://golfcoursewiki.substack.com/p/i-spent-the-last-month-and-a-half",
+        "https://golfcoursewiki.substack.com/p/measure-2000-times-cut-once"
+      ]
+    }
+  ]
+}

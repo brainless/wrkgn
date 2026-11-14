@@ -1,0 +1,37 @@
+{
+  "id": 54,
+  "slug": "draw-ffbcad0685",
+  "name": "Red Crayon Draw",
+  "mentions": [
+    {
+      "name": "Red Crayon Draw",
+      "description": "A live collaborative architecture diagram board for reviewing coding agent work. Agents connect over MCP (Claude Code, Cursor, Codex, claude.ai) and draw what they change on the board as they work, with edges citing source lines, so users read diagrams instead of walls of text; circling something in red asks the agent to answer or fix it. Uses include an incident scratch pad where the agent lays out debugging findings, seeing how a change affects architecture before reading the diff, flagging risky parts like DB migrations with all code touching the table, a GitHub App that generates a diagram per PR (work in progress), and diagram branching instead of cloning.",
+      "problem": "AI output made large PRs unmanageable, so teams stopped reviewing code; the author struggled to understand what the agent wanted to do or had just completed, beyond decision fatigue.",
+      "audience": "Developers and engineering teams reviewing AI-generated code changes, especially those overwhelmed by large LLM output",
+      "builder_usernames": [
+        "mralanlee"
+      ],
+      "source_excerpt": "So I built https://draw.redcrayon.ai (with a few friends), inspired by tools we love like Excalidraw: a live architecture board you and your coding agent draw on together. The agent connects over MCP (Claude Code, Cursor, Codex, claude.ai) and draws what it changes as it works.",
+      "evidence": [
+        {
+          "source_item_id": 50426572,
+          "source_field": "body",
+          "value": "So I built https://draw.redcrayon.ai (with a few friends), inspired by tools we love like Excalidraw: a live architecture board you and your coding agent draw on together. The agent connects over MCP (Claude Code, Cursor, Codex, claude.ai) and draws what it changes as it works.",
+          "supports": [],
+          "author": "mralanlee",
+          "shared_at": 1794236431,
+          "source_url": "https://news.ycombinator.com/item?id=50426572"
+        }
+      ],
+      "source_item_id": 50426572,
+      "source_url": "https://news.ycombinator.com/item?id=50426572",
+      "author": "mralanlee",
+      "shared_at": 1794236431,
+      "links": [
+        "https://docs.redcrayon.ai",
+        "https://draw.redcrayon.ai",
+        "https://github.com/redcrayonai/draw"
+      ]
+    }
+  ]
+}

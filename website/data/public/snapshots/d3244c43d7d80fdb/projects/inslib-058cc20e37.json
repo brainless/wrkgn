@@ -1,0 +1,35 @@
+{
+  "id": 607,
+  "slug": "inslib-058cc20e37",
+  "name": "inslib",
+  "mentions": [
+    {
+      "name": "inslib",
+      "description": "An open-source inertial navigation library released in embedded C and Python, developed from the author's PhD thesis work; benchmarks in the comment show it beating ArduPilot's navigation subsystem.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "janosch9001"
+      ],
+      "source_excerpt": "I’ve been working on my inertial navigation library. It actually beats ArduPilot’s navigation subsystem in my benchmarks. I’ve been working on these algorithms since my PhD thesis and now I am releasing the stuff as open source embedded C and Python library",
+      "evidence": [
+        {
+          "source_item_id": 50418341,
+          "source_field": "body",
+          "value": "I’ve been working on my inertial navigation library. It actually beats ArduPilot’s navigation subsystem in my benchmarks. I’ve been working on these algorithms since my PhD thesis and now I am releasing the stuff as open source embedded C and Python library",
+          "supports": [],
+          "author": "janosch9001",
+          "shared_at": 1794178185,
+          "source_url": "https://news.ycombinator.com/item?id=50418341"
+        }
+      ],
+      "source_item_id": 50418341,
+      "source_url": "https://news.ycombinator.com/item?id=50418341",
+      "author": "janosch9001",
+      "shared_at": 1794178185,
+      "links": [
+        "https://github.com/jnz/inslib"
+      ]
+    }
+  ]
+}

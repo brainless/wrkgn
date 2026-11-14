@@ -1,0 +1,35 @@
+{
+  "id": 85,
+  "slug": "probl-be829e2734",
+  "name": "probl",
+  "mentions": [
+    {
+      "name": "probl",
+      "description": "A probabilistic programming language supporting conditionals like `if 45% { x } else { y }`. It works by creating many weighted worlds that are merged when identical, with operators like `observe` to remove possibilities; a sampling mode instead runs many simulations to get an approximate result.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "xinu2020"
+      ],
+      "source_excerpt": "- https://probl.dev: A \"probabilistic\" programming language where we can do things like `if 45% { x } else { y }`. It works by creating many weighted worlds, that are then merged when identical. Operators like `observe` can remove possibilities. There is also a sampling mode that instead run many simulations to get an approximate result.",
+      "evidence": [
+        {
+          "source_item_id": 50418491,
+          "source_field": "body",
+          "value": "- https://probl.dev: A \"probabilistic\" programming language where we can do things like `if 45% { x } else { y }`. It works by creating many weighted worlds, that are then merged when identical. Operators like `observe` can remove possibilities. There is also a sampling mode that instead run many simulations to get an approximate result.",
+          "supports": [],
+          "author": "xinu2020",
+          "shared_at": 1794178925,
+          "source_url": "https://news.ycombinator.com/item?id=50418491"
+        }
+      ],
+      "source_item_id": 50418491,
+      "source_url": "https://news.ycombinator.com/item?id=50418491",
+      "author": "xinu2020",
+      "shared_at": 1794178925,
+      "links": [
+        "https://probl.dev"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 208,
+  "slug": "snes-cloud-save-sync-bridge-5cb679e7a9",
+  "name": "SNES cloud save sync bridge",
+  "mentions": [
+    {
+      "name": "SNES cloud save sync bridge",
+      "description": "This project enables cloud save syncing between a real Super Nintendo console and emulators. A spare controller port is wired to a microcontroller that acts as a WiFi bridge, and on a flash cart the reset vector is patched to a small save sync routine that talks to the microcontroller.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dannyboland"
+      ],
+      "source_excerpt": "Cloud save sync between a real Super Nintendo and emulators.\n\nI’ve just got back into hobby electronics after a fifteen year diversion into software. I set up my workbench this week and this is my first project, something I first imagined building twenty years ago!\n\nI spent the weekend wiring the spare controller port to a microcontroller to act as WiFi bridge. I have a flash cart, so I patch the reset vector to a small save sync routine that talks to the microcontroller.",
+      "evidence": [
+        {
+          "source_item_id": 50419245,
+          "source_field": "body",
+          "value": "Cloud save sync between a real Super Nintendo and emulators.\n\nI’ve just got back into hobby electronics after a fifteen year diversion into software. I set up my workbench this week and this is my first project, something I first imagined building twenty years ago!\n\nI spent the weekend wiring the spare controller port to a microcontroller to act as WiFi bridge. I have a flash cart, so I patch the reset vector to a small save sync routine that talks to the microcontroller.",
+          "supports": [],
+          "author": "dannyboland",
+          "shared_at": 1794183254,
+          "source_url": "https://news.ycombinator.com/item?id=50419245"
+        }
+      ],
+      "source_item_id": 50419245,
+      "source_url": "https://news.ycombinator.com/item?id=50419245",
+      "author": "dannyboland",
+      "shared_at": 1794183254,
+      "links": []
+    }
+  ]
+}

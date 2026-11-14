@@ -1,0 +1,33 @@
+{
+  "id": 3282,
+  "slug": "research-c0ba89c434",
+  "name": "Research",
+  "mentions": [
+    {
+      "name": "Research",
+      "description": "This AI agent learns how you write code. It reads your repository and automatically extracts DSL recipes from the way you structure endpoints, handle data access, write workers, use queues, and organize tests. Recipes can combine across stacks and patterns into millions of variations, making code generation as deterministic as possible while cutting token usage and agent wall-time substantially and following your code conventions.",
+      "problem": "AI code generation is non-deterministic, consumes excessive tokens and agent wall-time, and doesn't follow existing code conventions.",
+      "audience": null,
+      "builder_usernames": [
+        "mtrx"
+      ],
+      "source_excerpt": "Research:\n\n  An AI agent that learns how you write code. It reads your repo and automatically extracts DSL recipes from the way you structure endpoints, handle data access, write workers, use queues, and organize tests. Those recipes can combine across stacks and patterns into millions of variations. The goal is to make the code generation as deterministic as possible, cutting the token usage and agent wall-time substantially, while following your code conventions.",
+      "evidence": [
+        {
+          "source_item_id": 50423699,
+          "source_field": "body",
+          "value": "Research:\n\n  An AI agent that learns how you write code. It reads your repo and automatically extracts DSL recipes from the way you structure endpoints, handle data access, write workers, use queues, and organize tests. Those recipes can combine across stacks and patterns into millions of variations. The goal is to make the code generation as deterministic as possible, cutting the token usage and agent wall-time substantially, while following your code conventions.",
+          "supports": [],
+          "author": "mtrx",
+          "shared_at": 1794220206,
+          "source_url": "https://news.ycombinator.com/item?id=50423699"
+        }
+      ],
+      "source_item_id": 50423699,
+      "source_url": "https://news.ycombinator.com/item?id=50423699",
+      "author": "mtrx",
+      "shared_at": 1794220206,
+      "links": []
+    }
+  ]
+}

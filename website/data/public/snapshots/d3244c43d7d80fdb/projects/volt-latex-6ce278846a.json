@@ -1,0 +1,35 @@
+{
+  "id": 364,
+  "slug": "volt-latex-6ce278846a",
+  "name": "VoltLaTeX",
+  "mentions": [
+    {
+      "name": "VoltLaTeX",
+      "description": "This project rewrites the LaTeX typesetting engine from scratch in Zig, byte compatible with pdfTeX, XeTeX, and LuaTeX, while compiling faster and providing better error messages for a modern developer experience.",
+      "problem": "Existing LaTeX engines compile slowly and produce poor error messages.",
+      "audience": null,
+      "builder_usernames": [
+        "beck5"
+      ],
+      "source_excerpt": "I am rewriting LaTeX from scratch in zig. Byte compatible with pdfTeX XeteX and luaTeX.\n\nIt’s faster at compiling, better errors with modern DX.",
+      "evidence": [
+        {
+          "source_item_id": 50422755,
+          "source_field": "body",
+          "value": "I am rewriting LaTeX from scratch in zig. Byte compatible with pdfTeX XeteX and luaTeX.\n\nIt’s faster at compiling, better errors with modern DX.",
+          "supports": [],
+          "author": "beck5",
+          "shared_at": 1794213287,
+          "source_url": "https://news.ycombinator.com/item?id=50422755"
+        }
+      ],
+      "source_item_id": 50422755,
+      "source_url": "https://news.ycombinator.com/item?id=50422755",
+      "author": "beck5",
+      "shared_at": 1794213287,
+      "links": [
+        "http://www.voltlatex.com"
+      ]
+    }
+  ]
+}

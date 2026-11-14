@@ -1,0 +1,35 @@
+{
+  "id": 238,
+  "slug": "minecraft-mcp-project-2a315829df",
+  "name": "Minecraft MCP",
+  "mentions": [
+    {
+      "name": "Minecraft MCP",
+      "description": "This project connects AI models to Minecraft via MCP so they can build in the game. The models use image analysis on topographic maps of the terrain and build using Starlark scripts, which keeps tool calls low and fast enough to work in voice mode.",
+      "problem": "AI building through many individual tool calls is too slow for real-time voice-mode interaction.",
+      "audience": null,
+      "builder_usernames": [
+        "wmil"
+      ],
+      "source_excerpt": "Still working on my Minecraft MCP project. The models have good image analysis now so I'm feeding them topographic maps of the terrain and they build using Starlark scripts.",
+      "evidence": [
+        {
+          "source_item_id": 50422387,
+          "source_field": "body",
+          "value": "Still working on my Minecraft MCP project. The models have good image analysis now so I'm feeding them topographic maps of the terrain and they build using Starlark scripts.",
+          "supports": [],
+          "author": "wmil",
+          "shared_at": 1794210372,
+          "source_url": "https://news.ycombinator.com/item?id=50422387"
+        }
+      ],
+      "source_item_id": 50422387,
+      "source_url": "https://news.ycombinator.com/item?id=50422387",
+      "author": "wmil",
+      "shared_at": 1794210372,
+      "links": [
+        "https://www.youtube.com/watch?v=FxZU1DuSEGg"
+      ]
+    }
+  ]
+}

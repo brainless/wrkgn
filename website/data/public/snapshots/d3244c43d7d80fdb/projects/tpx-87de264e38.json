@@ -1,0 +1,35 @@
+{
+  "id": 1733,
+  "slug": "tpx-87de264e38",
+  "name": "TPX",
+  "mentions": [
+    {
+      "name": "TPX",
+      "description": "A specification, TPX, that enables building SaaS where the user brings their own LLM inference. Side effects include letting enterprises plug their preferred LLM into the SaaS they use, letting self-hosters extend their rigs into the web, allowing simple SaaS products to offer LLM integrations without their pricing model being upended by LLM hosting and infrastructure, enabling personal AI with context on everything a user is doing, and providing a no-op provider for people who are anti-LLM.",
+      "problem": "SaaS products' pricing models can be upended by the cost of LLM hosting and infrastructure.",
+      "audience": "SaaS builders, enterprises, self-hosters, and simple SaaS products",
+      "builder_usernames": [
+        "polvi"
+      ],
+      "source_excerpt": "A new spec, TPX, which is meant to enable building SaaS where the user brings their own inference:",
+      "evidence": [
+        {
+          "source_item_id": 49233723,
+          "source_field": "body",
+          "value": "A new spec, TPX, which is meant to enable building SaaS where the user brings their own inference:",
+          "supports": [],
+          "author": "polvi",
+          "shared_at": 1786298237,
+          "source_url": "https://news.ycombinator.com/item?id=49233723"
+        }
+      ],
+      "source_item_id": 49233723,
+      "source_url": "https://news.ycombinator.com/item?id=49233723",
+      "author": "polvi",
+      "shared_at": 1786298237,
+      "links": [
+        "https://tokenpony.dev/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 563,
+  "slug": "integrated-ai-powered-firefox-fork-2360a23dbe",
+  "name": "Custom Firefox fork all-in-one workspace",
+  "mentions": [
+    {
+      "name": "Custom Firefox fork all-in-one workspace",
+      "description": "A personal Firefox fork that removes unwanted features (Firefox sync, VPN) and reworks Mozilla's UX/UI choices, then adds integrated mail and calendar, a document library system (similar to Notion), native ad-blocking, a terminal, task tracking (like Trello), and time tracking (like Harvest), with integrated AI (Apple Intelligence on macOS and Claude). The deep integration lets the user do things like schedule AI web searches that deliver a custom daily brief via email, keep a queryable memory of work across multiple clients, pull analytics from multiple web dashboards into one cohesive view, program the web on a node-based infinite canvas with live websites, and automatically update tasks from activity such as sending a client email — replacing half a dozen separate applications.",
+      "problem": "Daily work requires half a dozen separate applications, and stock Firefox includes unwanted features and poor UX/UI choices.",
+      "audience": "Personal use for the author's own daily work",
+      "builder_usernames": [
+        "ramijames"
+      ],
+      "source_excerpt": "I've started maintaining my own Firefox fork that:\n\n- removes the stuff that I don't care about (Firefox sync, VPN, etc.)\n\n- fixes a lot of the awful UX/UI choices that the (frankly) incompetent product team at Mozilla refuse to\n\n- actually adds stuff that I do like integrated mail and calendar, a document library system (basically Notion), native ad-blocking, terminal, task-tracking like Trello, time-tracking like Harvest, etc.",
+      "evidence": [
+        {
+          "source_item_id": 50418336,
+          "source_field": "body",
+          "value": "I've started maintaining my own Firefox fork that:\n\n- removes the stuff that I don't care about (Firefox sync, VPN, etc.)\n\n- fixes a lot of the awful UX/UI choices that the (frankly) incompetent product team at Mozilla refuse to\n\n- actually adds stuff that I do like integrated mail and calendar, a document library system (basically Notion), native ad-blocking, terminal, task-tracking like Trello, time-tracking like Harvest, etc.",
+          "supports": [],
+          "author": "ramijames",
+          "shared_at": 1794178147,
+          "source_url": "https://news.ycombinator.com/item?id=50418336"
+        }
+      ],
+      "source_item_id": 50418336,
+      "source_url": "https://news.ycombinator.com/item?id=50418336",
+      "author": "ramijames",
+      "shared_at": 1794178147,
+      "links": []
+    }
+  ]
+}

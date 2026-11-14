@@ -1,0 +1,36 @@
+{
+  "id": 2527,
+  "slug": "onebusaway-transit-api-server-e5f5d10224",
+  "name": "OneBusAway transit API server",
+  "mentions": [
+    {
+      "name": "OneBusAway transit API server",
+      "description": "A new transit API server from the OneBusAway project; a blog post walks through the basics of setting it up with Bay Area transit data, with operator data for other locations available via Transit.land.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "aaronbrethorst"
+      ],
+      "source_excerpt": "If you want to explore our new transit API server, I wrote up a blog post a couple months ago to walk you through the basics: https://opentransitsoftwarefoundation.org/2026/04/setting-up-maglev-bay-area-transit-data/",
+      "evidence": [
+        {
+          "source_item_id": 48888489,
+          "source_field": "body",
+          "value": "If you want to explore our new transit API server, I wrote up a blog post a couple months ago to walk you through the basics: https://opentransitsoftwarefoundation.org/2026/04/setting-up-maglev-bay-area-transit-data/",
+          "supports": [],
+          "author": "aaronbrethorst",
+          "shared_at": 1783922714,
+          "source_url": "https://news.ycombinator.com/item?id=48888489"
+        }
+      ],
+      "source_item_id": 48888489,
+      "source_url": "https://news.ycombinator.com/item?id=48888489",
+      "author": "aaronbrethorst",
+      "shared_at": 1783922714,
+      "links": [
+        "https://github.com/onebusaway",
+        "https://opentransitsoftwarefoundation.org/2026/04/setting-up-maglev-bay-area-transit-data/"
+      ]
+    }
+  ]
+}

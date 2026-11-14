@@ -1,0 +1,35 @@
+{
+  "id": 434,
+  "slug": "oculette-199468e4c3",
+  "name": "Oculette",
+  "mentions": [
+    {
+      "name": "Oculette",
+      "description": "This hardware device pairs an ESP32 camera with a vision model that can be prompted to watch physical things and send webhooks, aimed at objects without APIs such as analog gauges, legacy equipment, and sourdough starters. The dogfooded prototype powers an air quality API that reads the display on a cheap air quality monitor, and it exposes direct camera access via MCP so AI agents like Claude can view the camera to help debug the hardware.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "oculetteai"
+      ],
+      "source_excerpt": "I'm building Oculette (https://prelaunch.oculette.ai/).\n\nBasically, I hooked up an ESP32 camera to a vision model so I can prompt it to watch stuff and send webhooks. Thinking analog gauges, legacy equipment, sourdough starters (still no API), and stuff like that.",
+      "evidence": [
+        {
+          "source_item_id": 50420607,
+          "source_field": "body",
+          "value": "I'm building Oculette (https://prelaunch.oculette.ai/).\n\nBasically, I hooked up an ESP32 camera to a vision model so I can prompt it to watch stuff and send webhooks. Thinking analog gauges, legacy equipment, sourdough starters (still no API), and stuff like that.",
+          "supports": [],
+          "author": "oculetteai",
+          "shared_at": 1794194203,
+          "source_url": "https://news.ycombinator.com/item?id=50420607"
+        }
+      ],
+      "source_item_id": 50420607,
+      "source_url": "https://news.ycombinator.com/item?id=50420607",
+      "author": "oculetteai",
+      "shared_at": 1794194203,
+      "links": [
+        "https://prelaunch.oculette.ai/"
+      ]
+    }
+  ]
+}

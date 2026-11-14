@@ -1,0 +1,33 @@
+{
+  "id": 3354,
+  "slug": "project-e2e62aa7cd",
+  "name": null,
+  "mentions": [
+    {
+      "name": null,
+      "description": "This platform provides a cost-effective Linux-based controller for agricultural, water treatment, and fertigation machinery. It can extend to any number of analog (AO/AI) and digital (DI/DO) inputs and outputs to control the machine, replacing the traditional expensive PLC-plus-SCADA-and-Internet setup and enabling even budget machinery to include connectivity. Cloud and machine backends are written in Go with React UIs for the cloud and the machine.",
+      "problem": "Traditional machines use a PLC connected to SCADA and the Internet, which is expensive and leaves the lower end of the market unable to install connectivity inside each machine.",
+      "audience": "Agricultural, water treatment, and fertigation machinery makers, especially cost-sensitive ones at the lower end of the market that previously couldn't afford connectivity in each machine.",
+      "builder_usernames": [
+        "artificialprint"
+      ],
+      "source_excerpt": "Me and my friend are building a platform for agricultural / water treatment / fertigation machinery.\n\nTraditionally these kind of machines would use a PLC, and then get connected to Scada and Internet, but that's expensive.\n\nWe have built Linux based controller that can extend into any number of AO, AI, DI, DO inputs and control the machine. It's very cost effective, and unlocks a lower bottom of the market that before didn't even dream about installing connectivity inside each machine.",
+      "evidence": [
+        {
+          "source_item_id": 50422510,
+          "source_field": "body",
+          "value": "Me and my friend are building a platform for agricultural / water treatment / fertigation machinery.\n\nTraditionally these kind of machines would use a PLC, and then get connected to Scada and Internet, but that's expensive.\n\nWe have built Linux based controller that can extend into any number of AO, AI, DI, DO inputs and control the machine. It's very cost effective, and unlocks a lower bottom of the market that before didn't even dream about installing connectivity inside each machine.",
+          "supports": [],
+          "author": "artificialprint",
+          "shared_at": 1794211272,
+          "source_url": "https://news.ycombinator.com/item?id=50422510"
+        }
+      ],
+      "source_item_id": 50422510,
+      "source_url": "https://news.ycombinator.com/item?id=50422510",
+      "author": "artificialprint",
+      "shared_at": 1794211272,
+      "links": []
+    }
+  ]
+}

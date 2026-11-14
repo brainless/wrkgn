@@ -1,0 +1,36 @@
+{
+  "id": 1147,
+  "slug": "notespace-a3bb23e29d",
+  "name": "notespace",
+  "mentions": [
+    {
+      "name": "notespace",
+      "description": "Forum software designed to stay inside Cloudflare's free plan (Workers, D1, R2) for hosting small forums of a couple hundred users, with AI-powered moderation. Written mostly in Rust as Cloudflare Workers WASM, it can also self-host as a single binary with SQLite, released under the MIT license.",
+      "problem": "Hosting small forums affordably within Cloudflare's free plan and defending against bot infestation; the author is still working out a good defense to the bot-infestation problem.",
+      "audience": null,
+      "builder_usernames": [
+        "kbaker"
+      ],
+      "source_excerpt": "trying to target and stay inside Cloudflare's free plan (workers, D1, R2 etc.) for hosting small simple forums of a couple hundred users. Along with AI-powered moderation.\n\nJS-ful in some parts - but mostly Rust cloudflare workers WASM. It can self-host as well in a single binary + sqlite. MIT.\n\nTrying to figure out a good defense to the bot-infestation problem next.",
+      "evidence": [
+        {
+          "source_item_id": 49703225,
+          "source_field": "body",
+          "value": "trying to target and stay inside Cloudflare's free plan (workers, D1, R2 etc.) for hosting small simple forums of a couple hundred users. Along with AI-powered moderation.\n\nJS-ful in some parts - but mostly Rust cloudflare workers WASM. It can self-host as well in a single binary + sqlite. MIT.\n\nTrying to figure out a good defense to the bot-infestation problem next.",
+          "supports": [],
+          "author": "kbaker",
+          "shared_at": 1789416644,
+          "source_url": "https://news.ycombinator.com/item?id=49703225"
+        }
+      ],
+      "source_item_id": 49703225,
+      "source_url": "https://news.ycombinator.com/item?id=49703225",
+      "author": "kbaker",
+      "shared_at": 1789416644,
+      "links": [
+        "https://dev.notespace.org",
+        "https://github.com/kevinbaker/notespace"
+      ]
+    }
+  ]
+}

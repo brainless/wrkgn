@@ -1,0 +1,35 @@
+{
+  "id": 2602,
+  "slug": "studyengine-f8ac8c516d",
+  "name": "StudyEngine",
+  "mentions": [
+    {
+      "name": "StudyEngine",
+      "description": "A study webapp where users upload lecture notes, textbooks, and papers; it extracts topics and tracks mastery over time. It uses an LLM to generate questions and flash cards, applies learning science ideas by testing recognition (multiple choice) first and switching to recall after mastery is reached, and is adding RAG to surface where in the source material to review when going over quiz results. Currently for the author and friends, with possible cost optimization and broader opening up if a good eval setup is achieved.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ryanchants"
+      ],
+      "source_excerpt": "StudyEngine is a webapp I'm using while doing my masters in comp sci. I upload lecture notes, textbooks, papers, etc. It then extracts topics and tracks my mastery of them over time. It uses an LLM to generate questions and flash cards. It loops in some newer learning science ideas. It tests recognition first(multiple choice), and then once a level of mastery is matched, it switches to recall.",
+      "evidence": [
+        {
+          "source_item_id": 48885543,
+          "source_field": "body",
+          "value": "StudyEngine is a webapp I'm using while doing my masters in comp sci. I upload lecture notes, textbooks, papers, etc. It then extracts topics and tracks my mastery of them over time. It uses an LLM to generate questions and flash cards. It loops in some newer learning science ideas. It tests recognition first(multiple choice), and then once a level of mastery is matched, it switches to recall.",
+          "supports": [],
+          "author": "ryanchants",
+          "shared_at": 1783895498,
+          "source_url": "https://news.ycombinator.com/item?id=48885543"
+        }
+      ],
+      "source_item_id": 48885543,
+      "source_url": "https://news.ycombinator.com/item?id=48885543",
+      "author": "ryanchants",
+      "shared_at": 1783895498,
+      "links": [
+        "https://studyengine.app"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 522,
+  "slug": "cadenya-98084ad570",
+  "name": "Cadenya",
+  "mentions": [
+    {
+      "name": "Cadenya",
+      "description": "An agent runtime that connects to an existing API or MCP server, letting users wire a conversation UI directly to their API without the usual agent-building plumbing.",
+      "problem": "The plumbing needed to build agents is overwhelming just to reach a hello-world state; the author simply wanted to connect a conversation UI to their API.",
+      "audience": null,
+      "builder_usernames": [
+        "btables"
+      ],
+      "source_excerpt": "An agent runtime that connects to your existing API or MCP: \nhttps://cadenya.com",
+      "evidence": [
+        {
+          "source_item_id": 50425855,
+          "source_field": "body",
+          "value": "An agent runtime that connects to your existing API or MCP: \nhttps://cadenya.com",
+          "supports": [],
+          "author": "btables",
+          "shared_at": 1794233372,
+          "source_url": "https://news.ycombinator.com/item?id=50425855"
+        }
+      ],
+      "source_item_id": 50425855,
+      "source_url": "https://news.ycombinator.com/item?id=50425855",
+      "author": "btables",
+      "shared_at": 1794233372,
+      "links": [
+        "https://cadenya.com"
+      ]
+    }
+  ]
+}

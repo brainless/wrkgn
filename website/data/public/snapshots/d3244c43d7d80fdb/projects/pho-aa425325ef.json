@@ -1,0 +1,35 @@
+{
+  "id": 1354,
+  "slug": "pho-aa425325ef",
+  "name": "Pho",
+  "mentions": [
+    {
+      "name": "Pho",
+      "description": "A keyboard-driven terminal UI (TUI) for reviewing pull requests across multiple repositories, designed as a fast, direct replacement for GitHub's web UI for most day-to-day review workflows.",
+      "problem": "The daily volume of pull requests to review keeps increasing, and the GitHub web UI is unpleasant to use.",
+      "audience": null,
+      "builder_usernames": [
+        "stag"
+      ],
+      "source_excerpt": "Working on Pho [1] my own TUI for pull requests across multiple repositories. It aims to be direct replacement of Github web UI for 80% of the use cases.",
+      "evidence": [
+        {
+          "source_item_id": 49692870,
+          "source_field": "body",
+          "value": "Working on Pho [1] my own TUI for pull requests across multiple repositories. It aims to be direct replacement of Github web UI for 80% of the use cases.",
+          "supports": [],
+          "author": "stag",
+          "shared_at": 1789368627,
+          "source_url": "https://news.ycombinator.com/item?id=49692870"
+        }
+      ],
+      "source_item_id": 49692870,
+      "source_url": "https://news.ycombinator.com/item?id=49692870",
+      "author": "stag",
+      "shared_at": 1789368627,
+      "links": [
+        "https://github.com/utkarsh261/pho"
+      ]
+    }
+  ]
+}

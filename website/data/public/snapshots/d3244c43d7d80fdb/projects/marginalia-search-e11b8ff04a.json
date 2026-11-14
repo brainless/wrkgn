@@ -1,0 +1,33 @@
+{
+  "id": 2510,
+  "slug": "marginalia-search-e11b8ff04a",
+  "name": "Marginalia search",
+  "mentions": [
+    {
+      "name": "Marginalia search",
+      "description": "This search engine's backend is being migrated from docker-compose to systemd, using an exotic setup with network namespacing, NUMA awareness, and multiple public IPs so nginx can point straight at services, cutting about 10ms off response times by removing docker's networking layer. It also sequesters wide domains (those with tens of thousands of subdomains) into a separate crawler and index partition.",
+      "problem": "Per top-domain rate limits on wide domains (tens of thousands of subdomains) make crawls slow for the main crawler, and docker's janky ipvlan management prevented reliably restarting such services without spare IPs.",
+      "audience": null,
+      "builder_usernames": [
+        "marginalia_nu"
+      ],
+      "source_excerpt": "I've been migrating marginalia search off docker-compose and onto systemd.",
+      "evidence": [
+        {
+          "source_item_id": 48889534,
+          "source_field": "body",
+          "value": "I've been migrating marginalia search off docker-compose and onto systemd.",
+          "supports": [],
+          "author": "marginalia_nu",
+          "shared_at": 1783931271,
+          "source_url": "https://news.ycombinator.com/item?id=48889534"
+        }
+      ],
+      "source_item_id": 48889534,
+      "source_url": "https://news.ycombinator.com/item?id=48889534",
+      "author": "marginalia_nu",
+      "shared_at": 1783931271,
+      "links": []
+    }
+  ]
+}

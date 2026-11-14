@@ -1,0 +1,33 @@
+{
+  "id": 1202,
+  "slug": "k3d-local-development-environment-with-argocd-sync-608bc381db",
+  "name": "k3d local development environment with ArgoCD sync",
+  "mentions": [
+    {
+      "name": "k3d local development environment with ArgoCD sync",
+      "description": "A local development environment that mirrors a Kubernetes production setup by running everything locally on k3d, with manifests synced via ArgoCD. It addresses the mismatch between a separate local Docker Compose setup and Kubernetes in production, making it possible to work on Kubernetes-specific concerns like ingress and network policies locally. The setup is planned to be packaged as a documented justfile.",
+      "problem": "Local Docker Compose setups and production Kubernetes behave differently for Kubernetes-specific work such as ingress and network policies, making local development against production-like environments difficult.",
+      "audience": "Developers who need a local environment that matches their Kubernetes production setup",
+      "builder_usernames": [
+        "bowersbros"
+      ],
+      "source_excerpt": "I've finally taken the plunge into running it all locally on k3d, and have a pretty nice setup now with the manifests syncing with ArgoCD.",
+      "evidence": [
+        {
+          "source_item_id": 49710078,
+          "source_field": "body",
+          "value": "I've finally taken the plunge into running it all locally on k3d, and have a pretty nice setup now with the manifests syncing with ArgoCD.",
+          "supports": [],
+          "author": "bowersbros",
+          "shared_at": 1789466139,
+          "source_url": "https://news.ycombinator.com/item?id=49710078"
+        }
+      ],
+      "source_item_id": 49710078,
+      "source_url": "https://news.ycombinator.com/item?id=49710078",
+      "author": "bowersbros",
+      "shared_at": 1789466139,
+      "links": []
+    }
+  ]
+}

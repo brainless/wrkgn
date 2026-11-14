@@ -1,0 +1,33 @@
+{
+  "id": 3477,
+  "slug": "codebase-explainability-snapshot-tool-52fd72f23d",
+  "name": "Codebase Explainability Snapshot Tool",
+  "mentions": [
+    {
+      "name": "Codebase Explainability Snapshot Tool",
+      "description": "A codebase explainability tool that has an LLM produce a navigable snapshot of what is going on in a project, going a step deeper than text-only \"teach me this project\" explanations. It aims to preserve comprehension as code generation scales, exploring a scalable, LLM-accelerated bottom-up approach after big-bang LLM prototypes underperformed even with large wishlists and guidance.",
+      "problem": "Text alone is too limited for codebase comprehension, and comprehension tends to be given up as code generation scales.",
+      "audience": null,
+      "builder_usernames": [
+        "jakevoytko"
+      ],
+      "source_excerpt": "My side project is now codebase explainability. I basically don't buy the premise that we just have to give up on comprehension as code generation scales; I just think that text is too limited by itself. So going a step deeper than asking Claudex \"teach me this project\", but having it produce a navigable snapshot of what's going on.",
+      "evidence": [
+        {
+          "source_item_id": 48886680,
+          "source_field": "body",
+          "value": "My side project is now codebase explainability. I basically don't buy the premise that we just have to give up on comprehension as code generation scales; I just think that text is too limited by itself. So going a step deeper than asking Claudex \"teach me this project\", but having it produce a navigable snapshot of what's going on.",
+          "supports": [],
+          "author": "jakevoytko",
+          "shared_at": 1783905132,
+          "source_url": "https://news.ycombinator.com/item?id=48886680"
+        }
+      ],
+      "source_item_id": 48886680,
+      "source_url": "https://news.ycombinator.com/item?id=48886680",
+      "author": "jakevoytko",
+      "shared_at": 1783905132,
+      "links": []
+    }
+  ]
+}

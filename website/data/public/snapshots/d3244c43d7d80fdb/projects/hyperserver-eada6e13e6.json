@@ -1,0 +1,35 @@
+{
+  "id": 152,
+  "slug": "hyperserver-eada6e13e6",
+  "name": "HyperServer",
+  "mentions": [
+    {
+      "name": "HyperServer",
+      "description": "A Go framework for building server-rendered web apps with HTMX, built on standard net/http handlers and html/template. It requires no ORM, makes authentication, sessions, and storage optional, and is designed as a reusable library rather than a starter repository to copy. Currently labeled experimental, it powers a functional and fast blog, with plans to use it as a platform for other web projects.",
+      "problem": "Inspired by Pagoda but dissatisfied with its dependence on third-party libraries and its starter-repository approach, the author wanted a dependency-light, reusable Go framework for server-rendered HTMX apps.",
+      "audience": null,
+      "builder_usernames": [
+        "trentnix"
+      ],
+      "source_excerpt": "The second project is HyperServer. HyperServer is a Go framework for server-rendered apps with HTMX that I've been working on off and on for a few years.",
+      "evidence": [
+        {
+          "source_item_id": 50424823,
+          "source_field": "body",
+          "value": "The second project is HyperServer. HyperServer is a Go framework for server-rendered apps with HTMX that I've been working on off and on for a few years.",
+          "supports": [],
+          "author": "trentnix",
+          "shared_at": 1794228278,
+          "source_url": "https://news.ycombinator.com/item?id=50424823"
+        }
+      ],
+      "source_item_id": 50424823,
+      "source_url": "https://news.ycombinator.com/item?id=50424823",
+      "author": "trentnix",
+      "shared_at": 1794228278,
+      "links": [
+        "https://github.com/trentnix/hyperserver"
+      ]
+    }
+  ]
+}

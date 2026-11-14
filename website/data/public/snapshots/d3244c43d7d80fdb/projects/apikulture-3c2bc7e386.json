@@ -1,0 +1,35 @@
+{
+  "id": 449,
+  "slug": "apikulture-3c2bc7e386",
+  "name": "APIKulture",
+  "mentions": [
+    {
+      "name": "APIKulture",
+      "description": "A lightweight desktop API client and alternative to Postman, Insomnia, and Bruno. It remembers JSONPath expressions between requests, is built with C++ and wxWidgets, and uses about 40MB of RAM while running fast, compared to roughly 400MB used by the comparable programs.",
+      "problem": "Postman and Insomnia became forced-corporate-cloud products that were no longer usable, and Bruno lacked remembering JSONPath expressions between requests, a feature considered fundamental for the author's workflow.",
+      "audience": null,
+      "builder_usernames": [
+        "Shorel"
+      ],
+      "source_excerpt": "APIKulture. An alternative to Postman/Insomnia/Bruno.\n\nTo be honest, I started this because Postman and Insomnia became forced-corporate-cloud not usable for me anymore, and Bruno lacked a feature I considered fundamental for my workflow.\n\nThe feature is to remember the JSONPath expressions between requests",
+      "evidence": [
+        {
+          "source_item_id": 50418022,
+          "source_field": "body",
+          "value": "APIKulture. An alternative to Postman/Insomnia/Bruno.\n\nTo be honest, I started this because Postman and Insomnia became forced-corporate-cloud not usable for me anymore, and Bruno lacked a feature I considered fundamental for my workflow.\n\nThe feature is to remember the JSONPath expressions between requests",
+          "supports": [],
+          "author": "Shorel",
+          "shared_at": 1794176423,
+          "source_url": "https://news.ycombinator.com/item?id=50418022"
+        }
+      ],
+      "source_item_id": 50418022,
+      "source_url": "https://news.ycombinator.com/item?id=50418022",
+      "author": "Shorel",
+      "shared_at": 1794176423,
+      "links": [
+        "https://www.apikulture.com/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": 1649,
+  "slug": "specpilot-14f0713316",
+  "name": "SpecPilot",
+  "mentions": [
+    {
+      "name": "SpecPilot",
+      "description": "SpecPilot is a spec-driven development layer that sits in front of AI coding agents like Claude Code, Cursor, Copilot, and others. It deliberately doesn't generate code itself; instead it scaffolds a .specs/ folder and hands spec writing off to whichever agent is already in use, so specs become the artifact the agent is held to rather than a prompt retyped every session. It began as an open-source TypeScript CLI and was later given a guided chat front door of 27 questions that runs fully offline in the browser, outputting the .specs/ tree plus an IDE onboarding prompt. A recently shipped MCP server (published to the official MCP registry and Smithery) lets the agent run the questionnaire itself, and planned brownfield support would point the tool at an existing repo and backfill specs from the code. The tool is free, open source, and has no login; the author sees spec enforcement — checking diffs against specs and failing loudly — as where the lasting value lies.",
+      "problem": "Coding agents only write better code when they have something firmer than a chat prompt to work against; prompts get retyped every session, and spec generation alone is easy to copy while spec enforcement is where the value is.",
+      "audience": "Developers using AI coding agents such as Claude Code, Cursor, and Copilot",
+      "builder_usernames": [
+        "girish_r"
+      ],
+      "source_excerpt": "I'm working on SpecPilot (https://specpilot.dev), a spec-driven development layer that sits in front of Claude Code, Cursor, Copilot and the rest.",
+      "evidence": [
+        {
+          "source_item_id": 49691289,
+          "source_field": "body",
+          "value": "I'm working on SpecPilot (https://specpilot.dev), a spec-driven development layer that sits in front of Claude Code, Cursor, Copilot and the rest.",
+          "supports": [],
+          "author": "girish_r",
+          "shared_at": 1789353844,
+          "source_url": "https://news.ycombinator.com/item?id=49691289"
+        }
+      ],
+      "source_item_id": 49691289,
+      "source_url": "https://news.ycombinator.com/item?id=49691289",
+      "author": "girish_r",
+      "shared_at": 1789353844,
+      "links": [
+        "https://github.com/girishr/SpecPilot",
+        "https://specpilot.dev"
+      ]
+    }
+  ]
+}

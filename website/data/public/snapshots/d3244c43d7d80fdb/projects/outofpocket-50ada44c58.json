@@ -1,0 +1,35 @@
+{
+  "id": 2976,
+  "slug": "outofpocket-50ada44c58",
+  "name": "OutOfPocket",
+  "mentions": [
+    {
+      "name": "OutOfPocket",
+      "description": "A web calculator for estimating what it costs to serve an AI feature. It shows cost per request and cost per month and breaks down which part of the bill is largest (usually output tokens). No signup is required and all the math is displayed on the page.",
+      "problem": "Understanding what an AI feature costs to serve and which cost component (typically output tokens) is driving the bill.",
+      "audience": null,
+      "builder_usernames": [
+        "jsh1"
+      ],
+      "source_excerpt": "It's a calculator for what an AI feature costs to serve. Cost per request, cost per month, which part of the bill is eating you (output tokens, usually). No signup, all the math is on the page.",
+      "evidence": [
+        {
+          "source_item_id": 48888320,
+          "source_field": "body",
+          "value": "It's a calculator for what an AI feature costs to serve. Cost per request, cost per month, which part of the bill is eating you (output tokens, usually). No signup, all the math is on the page.",
+          "supports": [],
+          "author": "jsh1",
+          "shared_at": 1783920800,
+          "source_url": "https://news.ycombinator.com/item?id=48888320"
+        }
+      ],
+      "source_item_id": 48888320,
+      "source_url": "https://news.ycombinator.com/item?id=48888320",
+      "author": "jsh1",
+      "shared_at": 1783920800,
+      "links": [
+        "https://outofpocket.ai"
+      ]
+    }
+  ]
+}

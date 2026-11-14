@@ -1,0 +1,33 @@
+{
+  "id": 1865,
+  "slug": "portable-aqi-meter-82a7b4da20",
+  "name": "Portable AQI meter",
+  "mentions": [
+    {
+      "name": "Portable AQI meter",
+      "description": "Portable air quality meter built into a small 3D-printed box containing a Raspberry Pi Pico, 18650 battery, e-ink display, and SEN66 sensor. Pressing a button runs the sensor for about 40 seconds to get a good reading, shows AQI, temperature, and CO2 on the e-ink display, then powers off with zero standby power draw, letting the battery last roughly 1500 readings; readings match the builder's permanently placed indoor and outdoor sensors.",
+      "problem": "Air quality in Central Oregon can quickly get bad.",
+      "audience": null,
+      "builder_usernames": [
+        "biotinker"
+      ],
+      "source_excerpt": "Most recently I made a portable AQI meter, since the air quality here in Central Oregon can quickly get bad.\n\nIt's a small 3d printed box containing a rpi pico, an 18650 battery, an e-ink display, and a SEN66 sensor.",
+      "evidence": [
+        {
+          "source_item_id": 49235683,
+          "source_field": "body",
+          "value": "Most recently I made a portable AQI meter, since the air quality here in Central Oregon can quickly get bad.\n\nIt's a small 3d printed box containing a rpi pico, an 18650 battery, an e-ink display, and a SEN66 sensor.",
+          "supports": [],
+          "author": "biotinker",
+          "shared_at": 1786308424,
+          "source_url": "https://news.ycombinator.com/item?id=49235683"
+        }
+      ],
+      "source_item_id": 49235683,
+      "source_url": "https://news.ycombinator.com/item?id=49235683",
+      "author": "biotinker",
+      "shared_at": 1786308424,
+      "links": []
+    }
+  ]
+}

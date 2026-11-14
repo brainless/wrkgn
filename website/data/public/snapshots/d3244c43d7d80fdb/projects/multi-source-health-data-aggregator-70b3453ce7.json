@@ -1,0 +1,33 @@
+{
+  "id": 2605,
+  "slug": "multi-source-health-data-aggregator-70b3453ce7",
+  "name": "Multi-source health data aggregator",
+  "mentions": [
+    {
+      "name": "Multi-source health data aggregator",
+      "description": "This Go application ingests health data from multiple sources at a wider scale: annual preventive-care bloodwork, InBody measurements including grip strength, regional air quality, Apple Watch data (steps, sleep, resting heart rate), and a planned nutrition/allergy or minerals/vitamins screen. It is intended to surface trends and apply AI to correlate seemingly unrelated data layers, such as how sleep quality is affected by above-average daily steps combined with poor air quality like wildfires or pollen season. The first import use case, Apple Watch data, is nearly finished.",
+      "problem": "Health data is spread across disconnected sources, making it hard to see trends and understand how factors like activity level and air quality affect sleep quality.",
+      "audience": "personal-use",
+      "builder_usernames": [
+        "botulidze"
+      ],
+      "source_excerpt": "I've built a Go application to ingest those data sources and currently finishing my first import use case - Apple Watch data.",
+      "evidence": [
+        {
+          "source_item_id": 48885551,
+          "source_field": "body",
+          "value": "I've built a Go application to ingest those data sources and currently finishing my first import use case - Apple Watch data.",
+          "supports": [],
+          "author": "botulidze",
+          "shared_at": 1783895565,
+          "source_url": "https://news.ycombinator.com/item?id=48885551"
+        }
+      ],
+      "source_item_id": 48885551,
+      "source_url": "https://news.ycombinator.com/item?id=48885551",
+      "author": "botulidze",
+      "shared_at": 1783895565,
+      "links": []
+    }
+  ]
+}

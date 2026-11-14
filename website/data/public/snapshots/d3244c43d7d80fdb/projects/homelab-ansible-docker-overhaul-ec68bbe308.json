@@ -1,0 +1,33 @@
+{
+  "id": 1051,
+  "slug": "homelab-ansible-docker-overhaul-ec68bbe308",
+  "name": "Homelab Ansible/Docker overhaul",
+  "mentions": [
+    {
+      "name": "Homelab Ansible/Docker overhaul",
+      "description": "A homelab overhaul that tidies up the setup by moving configuration management to Ansible, dockerising non-critical services, and running scheduled backups to a separate NAS.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tomaytotomato"
+      ],
+      "source_excerpt": "Updating my homelab setup to be much tidier, moving stuff to Ansible, dockerising non-critical services. Running scheduled backups to a separate NAS",
+      "evidence": [
+        {
+          "source_item_id": 49695328,
+          "source_field": "body",
+          "value": "Updating my homelab setup to be much tidier, moving stuff to Ansible, dockerising non-critical services. Running scheduled backups to a separate NAS",
+          "supports": [],
+          "author": "tomaytotomato",
+          "shared_at": 1789386927,
+          "source_url": "https://news.ycombinator.com/item?id=49695328"
+        }
+      ],
+      "source_item_id": 49695328,
+      "source_url": "https://news.ycombinator.com/item?id=49695328",
+      "author": "tomaytotomato",
+      "shared_at": 1789386927,
+      "links": []
+    }
+  ]
+}

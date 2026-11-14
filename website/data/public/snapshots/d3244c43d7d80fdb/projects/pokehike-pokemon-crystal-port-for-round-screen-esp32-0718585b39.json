@@ -1,0 +1,35 @@
+{
+  "id": 269,
+  "slug": "pokehike-pokemon-crystal-port-for-round-screen-esp32-0718585b39",
+  "name": "Pokehike (Pokemon Crystal port for ESP32)",
+  "mentions": [
+    {
+      "name": "Pokehike (Pokemon Crystal port for ESP32)",
+      "description": "A Rust port of Pokemon Crystal for a specific ESP32 dev board with a round AMOLED screen, started as a Pokemon-themed tamagotchi clone with step counting to motivate walking and grown into a full port of the whole game. It has a redesigned UI for round screens with touch controls, Bluetooth and Wi-Fi trading, autosave, contextual action buttons, and an experimental auto play mode that advances the game while you walk in real life, keeps a log of interesting events, and lets you take over at any time.",
+      "problem": "The author wanted motivation to walk more, using step counting in a Pokemon-themed tamagotchi clone.",
+      "audience": null,
+      "builder_usernames": [
+        "AurelioB"
+      ],
+      "source_excerpt": "The goal was to have a basic pokemon themed tamagotchi clone with step counting that motivated me to walk more. It snowballed into a full fledged rust port of the whole game, with a completely redesigned UI meant for round screens and touch controls. It's got bluetooth and wifi trading, autosave, contextual action buttons, etc.",
+      "evidence": [
+        {
+          "source_item_id": 50423092,
+          "source_field": "body",
+          "value": "The goal was to have a basic pokemon themed tamagotchi clone with step counting that motivated me to walk more. It snowballed into a full fledged rust port of the whole game, with a completely redesigned UI meant for round screens and touch controls. It's got bluetooth and wifi trading, autosave, contextual action buttons, etc.",
+          "supports": [],
+          "author": "AurelioB",
+          "shared_at": 1794215674,
+          "source_url": "https://news.ycombinator.com/item?id=50423092"
+        }
+      ],
+      "source_item_id": 50423092,
+      "source_url": "https://news.ycombinator.com/item?id=50423092",
+      "author": "AurelioB",
+      "shared_at": 1794215674,
+      "links": [
+        "https://pokehike.bernalr.com/"
+      ]
+    }
+  ]
+}

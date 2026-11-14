@@ -1,0 +1,36 @@
+{
+  "id": 295,
+  "slug": "opentaint-17ffa9fc19",
+  "name": "opentaint",
+  "mentions": [
+    {
+      "name": "opentaint",
+      "description": "This is a data-flow-based, lightweight formal verification engine for application security, positioned as \"SAST++\". It is deep enough to provide real formal guarantees about a codebase (zero findings is meaningful rather than a sign the tool is broken), fast enough to shift formal verification left and run on every feature during development, and expressive/customizable enough to write specs for most OWASP Top 10 vulnerability types, including broken access control and business logic flaws. It includes skills for writing specs.",
+      "problem": "Existing SAST tools lack meaningful formal guarantees and are too slow to run during feature development, so verification can't be shifted left.",
+      "audience": "Developers who want formal security verification applied to every feature during development, including agentic development sessions",
+      "builder_usernames": [
+        "seqradev"
+      ],
+      "source_excerpt": "A data-flow-based, lightweight formal verification engine for application security. Basically, it's SAST++:",
+      "evidence": [
+        {
+          "source_item_id": 50419065,
+          "source_field": "body",
+          "value": "A data-flow-based, lightweight formal verification engine for application security. Basically, it's SAST++:",
+          "supports": [],
+          "author": "seqradev",
+          "shared_at": 1794181991,
+          "source_url": "https://news.ycombinator.com/item?id=50419065"
+        }
+      ],
+      "source_item_id": 50419065,
+      "source_url": "https://news.ycombinator.com/item?id=50419065",
+      "author": "seqradev",
+      "shared_at": 1794181991,
+      "links": [
+        "https://github.com/seqra/opentaint/",
+        "https://opentaint.org/blog/sast-is-dead/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 3348,
+  "slug": "new-rust-compiler-for-faster-compile-times-b542f9e538",
+  "name": "New Rust compiler for faster compile times",
+  "mentions": [
+    {
+      "name": "New Rust compiler for faster compile times",
+      "description": "This project builds a brand-new Rust compiler from scratch to radically improve Rust compile times, extending the approach used to create agent-built C++ compilers. It has not yet reached the Rust self-hosting stage, but early results are promising.",
+      "problem": "Rust compile times are slow.",
+      "audience": null,
+      "builder_usernames": [
+        "vishvananda"
+      ],
+      "source_excerpt": "I'm taking a radical approach to improving rust compile times. The reason it is radical is it involves building a brand new rust compiler.",
+      "evidence": [
+        {
+          "source_item_id": 50421358,
+          "source_field": "body",
+          "value": "I'm taking a radical approach to improving rust compile times. The reason it is radical is it involves building a brand new rust compiler.",
+          "supports": [],
+          "author": "vishvananda",
+          "shared_at": 1794201487,
+          "source_url": "https://news.ycombinator.com/item?id=50421358"
+        }
+      ],
+      "source_item_id": 50421358,
+      "source_url": "https://news.ycombinator.com/item?id=50421358",
+      "author": "vishvananda",
+      "shared_at": 1794201487,
+      "links": []
+    }
+  ]
+}

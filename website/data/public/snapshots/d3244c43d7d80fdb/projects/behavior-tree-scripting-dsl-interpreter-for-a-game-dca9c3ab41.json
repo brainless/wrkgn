@@ -1,0 +1,33 @@
+{
+  "id": 596,
+  "slug": "behavior-tree-scripting-dsl-interpreter-for-a-game-dca9c3ab41",
+  "name": "Simple game with custom scripting DSL",
+  "mentions": [
+    {
+      "name": "Simple game with custom scripting DSL",
+      "description": "A simple game in development that will support player-written scripts, with the scripting system also used for enemy AI. Instead of using a behavior tree dependency, the author is building a custom DSL with an interpreter, structured as typed builders producing an untyped AST and then a typed IR, with a TypeScript schema driving a codegen build step that emits .ts and .rs files.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Frotag"
+      ],
+      "source_excerpt": ">Making a simple game\n\n>Want player scripts to be possible (And dogfood it for enemy ai too)\n\n>Behavior tree dep looks too easy, let's make a dsl + interpreter",
+      "evidence": [
+        {
+          "source_item_id": 50418887,
+          "source_field": "body",
+          "value": ">Making a simple game\n\n>Want player scripts to be possible (And dogfood it for enemy ai too)\n\n>Behavior tree dep looks too easy, let's make a dsl + interpreter",
+          "supports": [],
+          "author": "Frotag",
+          "shared_at": 1794180856,
+          "source_url": "https://news.ycombinator.com/item?id=50418887"
+        }
+      ],
+      "source_item_id": 50418887,
+      "source_url": "https://news.ycombinator.com/item?id=50418887",
+      "author": "Frotag",
+      "shared_at": 1794180856,
+      "links": []
+    }
+  ]
+}

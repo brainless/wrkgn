@@ -1,0 +1,33 @@
+{
+  "id": 2828,
+  "slug": "exercise-video-collage-summarizer-bc15da457a",
+  "name": "Exercise video collage summarizer",
+  "mentions": [
+    {
+      "name": "Exercise video collage summarizer",
+      "description": "This tool takes a video of an exercise, workout, or dance as input and outputs a single collage image summarizing it. It was chosen as a small-scope problem while the team hardens larger internal tools, and is expected to be released in about a month. Most of the work has gone into handling codec and ffmpeg behavior edge cases rather than computer vision tuning.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "escapecharacter"
+      ],
+      "source_excerpt": "Input: video of an exercise/workout/dance. \nOutput: single collage image as summary.",
+      "evidence": [
+        {
+          "source_item_id": 48897907,
+          "source_field": "body",
+          "value": "Input: video of an exercise/workout/dance. \nOutput: single collage image as summary.",
+          "supports": [],
+          "author": "escapecharacter",
+          "shared_at": 1783972502,
+          "source_url": "https://news.ycombinator.com/item?id=48897907"
+        }
+      ],
+      "source_item_id": 48897907,
+      "source_url": "https://news.ycombinator.com/item?id=48897907",
+      "author": "escapecharacter",
+      "shared_at": 1783972502,
+      "links": []
+    }
+  ]
+}

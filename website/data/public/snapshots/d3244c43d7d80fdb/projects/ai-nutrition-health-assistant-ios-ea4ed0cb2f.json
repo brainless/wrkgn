@@ -1,0 +1,33 @@
+{
+  "id": 1824,
+  "slug": "ai-nutrition-health-assistant-ios-ea4ed0cb2f",
+  "name": "AI nutrition & health assistant (iOS)",
+  "mentions": [
+    {
+      "name": "AI nutrition & health assistant (iOS)",
+      "description": "An iOS AI assistant that uses LLMs to estimate and track nutrients and calories in logged food. It integrates with Apple Health to factor in activity, sleep, and body metrics, rates each day's eating (poor/neutral/good) against personal health goals with advice, and shows a traffic-light colored calendar view. Users can log contextual notes, and a memory system gives sessions continuity. It saves extracted or inferred nutritional data (e.g., photos of nutrition labels, repeated logs, home-made meals and recipes) in a reusable library. It connects to the Hevy workout tracker to monitor exercise and adjust training programs via chat, and includes an Apple Watch companion app with a complication showing the up-to-date calorie deficit.",
+      "problem": "The author wanted nutrition and health tracking completely tailored to them, rather than relying on existing AI nutrition tracking apps.",
+      "audience": "Primarily the author's own personal use; shared with a few friends but not publicly onboarded yet",
+      "builder_usernames": [
+        "runeb"
+      ],
+      "source_excerpt": "It's an iOS app that uses LLMs to estimate and track nutrients and calories in all the food I eat. It is plugged in to Apple Health so it sees all my activity, sleep, body metrics, etc.",
+      "evidence": [
+        {
+          "source_item_id": 49239357,
+          "source_field": "body",
+          "value": "It's an iOS app that uses LLMs to estimate and track nutrients and calories in all the food I eat. It is plugged in to Apple Health so it sees all my activity, sleep, body metrics, etc.",
+          "supports": [],
+          "author": "runeb",
+          "shared_at": 1786337959,
+          "source_url": "https://news.ycombinator.com/item?id=49239357"
+        }
+      ],
+      "source_item_id": 49239357,
+      "source_url": "https://news.ycombinator.com/item?id=49239357",
+      "author": "runeb",
+      "shared_at": 1786337959,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 188,
+  "slug": "orbitome-b001818fea",
+  "name": "Orbitome",
+  "mentions": [
+    {
+      "name": "Orbitome",
+      "description": "This app encourages in-person meetups among groups of friends. Users place a pin on a map and share it with their group: those with the app get a notification, while non-app friends are invited through a universal link that lets them see the location, time, and number of confirmed attendees on the web (the app is required to confirm attendance). It is built with FlutterFlow, Firebase, and local SQLite, and is available in five languages.",
+      "problem": "Cold-start problem: opening the map before any of your friends use the app shows it almost empty. Bots also abused the SMS login, triggering 1,744 code requests in nine days, which required adding defenses such as a daily check comparing codes sent and sign-ins per country.",
+      "audience": "Groups of friends who already know each other, organizing in-person outings together.",
+      "builder_usernames": [
+        "cbramante"
+      ],
+      "source_excerpt": "I have developed an app designed to encourage in-person meetups among groups of friends. It makes it easier to organize outings for people who already know each other. You place a pin on a map and share it with your group.",
+      "evidence": [
+        {
+          "source_item_id": 50424512,
+          "source_field": "body",
+          "value": "I have developed an app designed to encourage in-person meetups among groups of friends. It makes it easier to organize outings for people who already know each other. You place a pin on a map and share it with your group.",
+          "supports": [],
+          "author": "cbramante",
+          "shared_at": 1794226230,
+          "source_url": "https://news.ycombinator.com/item?id=50424512"
+        }
+      ],
+      "source_item_id": 50424512,
+      "source_url": "https://news.ycombinator.com/item?id=50424512",
+      "author": "cbramante",
+      "shared_at": 1794226230,
+      "links": [
+        "https://www.orbitome.com/?utm_source=hn&utm_medium=community&utm_campaign=whatareyouworkingon_nov"
+      ]
+    }
+  ]
+}

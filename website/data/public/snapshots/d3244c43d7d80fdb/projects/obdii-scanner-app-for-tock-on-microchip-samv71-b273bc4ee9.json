@@ -1,0 +1,33 @@
+{
+  "id": 3022,
+  "slug": "obdii-scanner-app-for-tock-on-microchip-samv71-b273bc4ee9",
+  "name": "OBDII scanner app for Tock on Microchip SAMV71",
+  "mentions": [
+    {
+      "name": "OBDII scanner app for Tock on Microchip SAMV71",
+      "description": "This is an OBDII scanner application built on the author's port of Tock OS to the Microchip SAMV71 microcontroller. It reads vehicle diagnostic data over the CAN bus and serves to prove out the SAMV71's CAN peripheral in a real-world environment, providing a foundation before layering additional protocols like UDS on top.",
+      "problem": "Validating CAN peripheral support in the Tock OS port for the Microchip SAMV71 under real-world conditions before building higher-level functionality like UDS.",
+      "audience": null,
+      "builder_usernames": [
+        "rta5"
+      ],
+      "source_excerpt": "I've been working on an OBDII scanner application for my port of Tock to the Microchip SAMV71. The idea is that it will help prove out the CAN peripheral in a real world environment before I start layering other things like UDS on top of it.",
+      "evidence": [
+        {
+          "source_item_id": 48891264,
+          "source_field": "body",
+          "value": "I've been working on an OBDII scanner application for my port of Tock to the Microchip SAMV71. The idea is that it will help prove out the CAN peripheral in a real world environment before I start layering other things like UDS on top of it.",
+          "supports": [],
+          "author": "rta5",
+          "shared_at": 1783943503,
+          "source_url": "https://news.ycombinator.com/item?id=48891264"
+        }
+      ],
+      "source_item_id": 48891264,
+      "source_url": "https://news.ycombinator.com/item?id=48891264",
+      "author": "rta5",
+      "shared_at": 1783943503,
+      "links": []
+    }
+  ]
+}

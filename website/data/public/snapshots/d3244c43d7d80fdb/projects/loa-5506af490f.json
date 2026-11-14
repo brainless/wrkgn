@@ -1,0 +1,33 @@
+{
+  "id": 1678,
+  "slug": "loa-5506af490f",
+  "name": "Loa",
+  "mentions": [
+    {
+      "name": "Loa",
+      "description": "This app is an open source coding agent named Loa designed to run against self-hosted LLM environments such as Ollama, targeting non-cloud-sized models (e.g. a 27b model). It decomposes tasks into very simple single steps that smaller models can solve, dynamically mutates and restructures its execution plan as new context arrives, and maintains a layered memory/context system combining chat history, step results, an action backlog, reasoning explanations, and a working memory of facts and decisions. It provides a full observability UI showing memory contents, composed context, plan dependencies, artifacts, and an audit log of all executed actions, accepts mid-execution steering messages that can alter or mutate the plan, and includes error-correction and self-reflection logic (e.g. JSON repair fallbacks and hypothesis-driven retries or plan changes). It deliberately trades execution time (many inferences) for reasoning and result quality, aiming to be a hands-off agent that is briefed once and completes the task without constant reprompting, and can also serve as an analysis and discussion partner. A stable beta is planned for release.",
+      "problem": "Existing coding agents target cloud-sized models and try to solve whole tasks in a handful of inferences, overloading the model and often requiring users to reprompt repeatedly until something is correctly solved; smaller self-hosted models struggle with monolithic multi-step tasks.",
+      "audience": "Developers who want a hands-off coding agent running on self-hosted models",
+      "builder_usernames": [
+        "voodooEntity"
+      ],
+      "source_excerpt": "Ill wrap it up here and say : the Agents name is \"Loa\" and i probably will post it on hackernews as soon i got a relatively stable beta to release.",
+      "evidence": [
+        {
+          "source_item_id": 49693278,
+          "source_field": "body",
+          "value": "Ill wrap it up here and say : the Agents name is \"Loa\" and i probably will post it on hackernews as soon i got a relatively stable beta to release.",
+          "supports": [],
+          "author": "voodooEntity",
+          "shared_at": 1789371653,
+          "source_url": "https://news.ycombinator.com/item?id=49693278"
+        }
+      ],
+      "source_item_id": 49693278,
+      "source_url": "https://news.ycombinator.com/item?id=49693278",
+      "author": "voodooEntity",
+      "shared_at": 1789371653,
+      "links": []
+    }
+  ]
+}

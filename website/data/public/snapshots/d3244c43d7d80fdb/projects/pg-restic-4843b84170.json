@@ -1,0 +1,35 @@
+{
+  "id": 250,
+  "slug": "pg-restic-4843b84170",
+  "name": "pg-restic",
+  "mentions": [
+    {
+      "name": "pg-restic",
+      "description": "A small Docker container that backs up Postgres databases to S3, B2, or any S3-compatible storage using restic (and also works with restic's rest-server). It runs pg_dumpall on a cron schedule and streams the dump straight into a restic repository so nothing touches local disk, producing encrypted, deduplicated snapshots with retention policies and daily pruning. Failed dumps save no snapshot, and it ships pg_dumpall 18 so it can back up Postgres versions from 9.2 to 18.",
+      "problem": "Existing backup images shipped older pg_dump versions that couldn't back up newer Postgres versions, and the author needed Postgres backups at both work and home.",
+      "audience": null,
+      "builder_usernames": [
+        "sriramiyer"
+      ],
+      "source_excerpt": "pg-restic – Postgres backups to S3/B2 (or any S3-compatible storage) using restic, in one small Docker container.",
+      "evidence": [
+        {
+          "source_item_id": 50419041,
+          "source_field": "body",
+          "value": "pg-restic – Postgres backups to S3/B2 (or any S3-compatible storage) using restic, in one small Docker container.",
+          "supports": [],
+          "author": "sriramiyer",
+          "shared_at": 1794181891,
+          "source_url": "https://news.ycombinator.com/item?id=50419041"
+        }
+      ],
+      "source_item_id": 50419041,
+      "source_url": "https://news.ycombinator.com/item?id=50419041",
+      "author": "sriramiyer",
+      "shared_at": 1794181891,
+      "links": [
+        "https://github.com/isriram/pg-restic"
+      ]
+    }
+  ]
+}

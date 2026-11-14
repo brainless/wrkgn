@@ -1,0 +1,35 @@
+{
+  "id": 3073,
+  "slug": "inputbuffer-116c76dbb9",
+  "name": "InputBuffer",
+  "mentions": [
+    {
+      "name": "InputBuffer",
+      "description": "A user insight tool that collects product feedback via widget or API and automatically organizes it by content category (e.g. billing) or target (e.g. a specific page, API endpoint, or CLI command). It offers a non-rigid categorization flow with a triage option, a quick analytics dashboard, and AI-powered chat for interrogating feedback directly with clear citations. Works with both small and large amounts of input across SaaS platforms, developer tools, and open source projects, with plans to auto-gather input from platforms like GitHub issues.",
+      "problem": "Existing user insight tools gathered feedback well but made it hard to answer the questions being asked and were a huge chore to keep organized.",
+      "audience": "Product managers and product teams who need to organize and learn from user feedback",
+      "builder_usernames": [
+        "Dashron"
+      ],
+      "source_excerpt": "So I hacked on https://inputbuffer.io and just opened it to a wider audience.\n\nYou hook up your user feedback source (via widget or API) and it will organize everything by content category (e.g. billing) or target (e.g. a specific page, API endpoint, CLI command etc).",
+      "evidence": [
+        {
+          "source_item_id": 48891115,
+          "source_field": "body",
+          "value": "So I hacked on https://inputbuffer.io and just opened it to a wider audience.\n\nYou hook up your user feedback source (via widget or API) and it will organize everything by content category (e.g. billing) or target (e.g. a specific page, API endpoint, CLI command etc).",
+          "supports": [],
+          "author": "Dashron",
+          "shared_at": 1783942544,
+          "source_url": "https://news.ycombinator.com/item?id=48891115"
+        }
+      ],
+      "source_item_id": 48891115,
+      "source_url": "https://news.ycombinator.com/item?id=48891115",
+      "author": "Dashron",
+      "shared_at": 1783942544,
+      "links": [
+        "https://inputbuffer.io"
+      ]
+    }
+  ]
+}

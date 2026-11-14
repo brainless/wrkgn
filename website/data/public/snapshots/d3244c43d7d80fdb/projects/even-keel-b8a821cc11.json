@@ -1,0 +1,35 @@
+{
+  "id": 303,
+  "slug": "even-keel-b8a821cc11",
+  "name": "Even Keel",
+  "mentions": [
+    {
+      "name": "Even Keel",
+      "description": "An agent-orchestration application that takes tickets from trackers (GitHub, Linear, and Huly in v0.1.4) and hands each one to an AI agent (Claude or Codex via subscriptions/API keys), starting an agent for every issue and working task by task, one at a time per folder. It includes a parallel mode for running more than one project at a time, and v0.2 is planned with more supported trackers, agents, and features.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Namerek"
+      ],
+      "source_excerpt": "For now Im working on an agent-orchestration application that is taking tickets from a tracker and giving them to an Agent. It's called Even Keel.",
+      "evidence": [
+        {
+          "source_item_id": 50333273,
+          "source_field": "body",
+          "value": "For now Im working on an agent-orchestration application that is taking tickets from a tracker and giving them to an Agent. It's called Even Keel.",
+          "supports": [],
+          "author": "Namerek",
+          "shared_at": 1793595124,
+          "source_url": "https://news.ycombinator.com/item?id=50333273"
+        }
+      ],
+      "source_item_id": 50333273,
+      "source_url": "https://news.ycombinator.com/item?id=50333273",
+      "author": "Namerek",
+      "shared_at": 1793595124,
+      "links": [
+        "https://github.com/NamerekT/even-keel"
+      ]
+    }
+  ]
+}

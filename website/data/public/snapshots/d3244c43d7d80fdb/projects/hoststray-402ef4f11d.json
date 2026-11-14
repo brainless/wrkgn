@@ -1,0 +1,35 @@
+{
+  "id": 483,
+  "slug": "hoststray-402ef4f11d",
+  "name": "HostsTray",
+  "mentions": [
+    {
+      "name": "HostsTray",
+      "description": "This tray utility manages the hosts file and includes a built-in reverse HTTPS proxy that installs a self-signed CA and generates certificates on the fly. It forces browsers to flush DNS by killing background keep-alive connections (e.g. Chrome's), and exposes a simple API (which also serves a skill for it) so a local coding agent can control it.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "maxmart"
+      ],
+      "source_excerpt": "HostsTray, tray utility to manage your hosts file, that also has a reverse HTTPS proxy builtin, that installs a self-signed CA and generates certs on-the-fly.\n\nhttps://github.com/maxmart/hoststray",
+      "evidence": [
+        {
+          "source_item_id": 50417869,
+          "source_field": "body",
+          "value": "HostsTray, tray utility to manage your hosts file, that also has a reverse HTTPS proxy builtin, that installs a self-signed CA and generates certs on-the-fly.\n\nhttps://github.com/maxmart/hoststray",
+          "supports": [],
+          "author": "maxmart",
+          "shared_at": 1794175549,
+          "source_url": "https://news.ycombinator.com/item?id=50417869"
+        }
+      ],
+      "source_item_id": 50417869,
+      "source_url": "https://news.ycombinator.com/item?id=50417869",
+      "author": "maxmart",
+      "shared_at": 1794175549,
+      "links": [
+        "https://github.com/maxmart/hoststray"
+      ]
+    }
+  ]
+}

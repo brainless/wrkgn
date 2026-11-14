@@ -1,0 +1,33 @@
+{
+  "id": 3505,
+  "slug": "jewelry-dsl-and-cad-interpreter-2a6bb94819",
+  "name": "Jewelry DSL and CAD interpreter",
+  "mentions": [
+    {
+      "name": "Jewelry DSL and CAD interpreter",
+      "description": "A tiny domain-specific language for describing jewelry pieces, with an interpreter that produces CAD files from those descriptions, enabling manufacture via 3D printing or lost-wax casting.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "alphaBetaGamma"
+      ],
+      "source_excerpt": "I wrote a tiny DSL to describe the jewelry pieces, and an interpreter to produce CAD files. We then either 3D print them or have them produced by lost-wax.",
+      "evidence": [
+        {
+          "source_item_id": 48762881,
+          "source_field": "body",
+          "value": "I wrote a tiny DSL to describe the jewelry pieces, and an interpreter to produce CAD files. We then either 3D print them or have them produced by lost-wax.",
+          "supports": [],
+          "author": "alphaBetaGamma",
+          "shared_at": 1783005183,
+          "source_url": "https://news.ycombinator.com/item?id=48762881"
+        }
+      ],
+      "source_item_id": 48762881,
+      "source_url": "https://news.ycombinator.com/item?id=48762881",
+      "author": "alphaBetaGamma",
+      "shared_at": 1783005183,
+      "links": []
+    }
+  ]
+}

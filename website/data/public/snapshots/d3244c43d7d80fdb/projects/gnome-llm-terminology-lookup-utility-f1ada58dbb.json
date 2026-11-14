@@ -1,0 +1,33 @@
+{
+  "id": 3010,
+  "slug": "gnome-llm-terminology-lookup-utility-f1ada58dbb",
+  "name": "GNOME LLM terminology lookup utility",
+  "mentions": [
+    {
+      "name": "GNOME LLM terminology lookup utility",
+      "description": "This GNOME desktop utility performs LLM-based terminology lookups: the user highlights a word or term and it sends it with a contextual screenshot to an LLM for an explanation, working like an improved version of the macOS and Kindle lookup features.",
+      "problem": "The author struggles with terminology and found existing lookup tools on macOS and Kindle lacking.",
+      "audience": "The author, who struggles with terminology and wants faster, context-aware lookups than the built-in macOS or Kindle dictionary features.",
+      "builder_usernames": [
+        "ktrnka"
+      ],
+      "source_excerpt": "I struggle with terminology so I made a little Gnome utility for easier LLM-based terminology lookups from a highlighted word/term + contextual screenshot. So far it's working pretty well, kinda like a better version of the Mac OS or Kindle ones.",
+      "evidence": [
+        {
+          "source_item_id": 48887019,
+          "source_field": "body",
+          "value": "I struggle with terminology so I made a little Gnome utility for easier LLM-based terminology lookups from a highlighted word/term + contextual screenshot. So far it's working pretty well, kinda like a better version of the Mac OS or Kindle ones.",
+          "supports": [],
+          "author": "ktrnka",
+          "shared_at": 1783908508,
+          "source_url": "https://news.ycombinator.com/item?id=48887019"
+        }
+      ],
+      "source_item_id": 48887019,
+      "source_url": "https://news.ycombinator.com/item?id=48887019",
+      "author": "ktrnka",
+      "shared_at": 1783908508,
+      "links": []
+    }
+  ]
+}

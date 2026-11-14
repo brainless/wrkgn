@@ -1,0 +1,64 @@
+{
+  "id": 157,
+  "slug": "modelmathics-d0734c2d36",
+  "name": "Modelmathics",
+  "mentions": [
+    {
+      "name": "Modelmathics",
+      "description": "An interactive course for learning how LLMs work by building one from scratch. Learners start from an empty Python file and write the model themselves — a tokenizer, a bigram model, attention, and a Transformer — with tests validating each step before progressing. At the end, published open weights run on the learner's own code. Stage 1 (11 lessons) is live as a free private beta, delivered via a terminal app (mm) with the learner's code kept in local files.",
+      "problem": "Understanding how LLMs really work",
+      "audience": null,
+      "builder_usernames": [
+        "lucasov"
+      ],
+      "source_excerpt": "I wanted to understand how LLMs really work, so I’m building Modelmathics (https://modelmathics.com) and doing every lesson myself as I go.\n\nYou start from an empty Python file and write the model yourself: a tokenizer, a bigram model, attention, a Transformer. At the end, published open weights run on your own code. Tests check each step before you move on.",
+      "evidence": [
+        {
+          "source_item_id": 50422300,
+          "source_field": "body",
+          "value": "I wanted to understand how LLMs really work, so I’m building Modelmathics (https://modelmathics.com) and doing every lesson myself as I go.\n\nYou start from an empty Python file and write the model yourself: a tokenizer, a bigram model, attention, a Transformer. At the end, published open weights run on your own code. Tests check each step before you move on.",
+          "supports": [],
+          "author": "lucasov",
+          "shared_at": 1794209745,
+          "source_url": "https://news.ycombinator.com/item?id=50422300"
+        }
+      ],
+      "source_item_id": 50422300,
+      "source_url": "https://news.ycombinator.com/item?id=50422300",
+      "author": "lucasov",
+      "shared_at": 1794209745,
+      "links": [
+        "https://modelmathics.com",
+        "https://try.modelmathics.com"
+      ]
+    },
+    {
+      "name": "Modelmathics",
+      "description": "An interactive educational tool for learning how large language models (LLMs) actually work under the hood, with a hosted version available to try online.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "lucasov"
+      ],
+      "source_excerpt": "I am teaching myself how LLMs really really work with this tool that I am building https://modelmathics.com",
+      "evidence": [
+        {
+          "source_item_id": 50390573,
+          "source_field": "body",
+          "value": "I am teaching myself how LLMs really really work with this tool that I am building https://modelmathics.com",
+          "supports": [],
+          "author": "lucasov",
+          "shared_at": 1793960826,
+          "source_url": "https://news.ycombinator.com/item?id=50390573"
+        }
+      ],
+      "source_item_id": 50390573,
+      "source_url": "https://news.ycombinator.com/item?id=50390573",
+      "author": "lucasov",
+      "shared_at": 1793960826,
+      "links": [
+        "https://modelmathics.com"
+      ]
+    }
+  ]
+}

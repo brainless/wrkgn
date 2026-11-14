@@ -1,0 +1,35 @@
+{
+  "id": 313,
+  "slug": "okular-mupdf-ng-f2d290f69d",
+  "name": "okular-mupdf-ng",
+  "mentions": [
+    {
+      "name": "okular-mupdf-ng",
+      "description": "A project to reduce the attack surface of Linux document readers, starting with Okular, by sandboxing the most dangerous components: the document parser and renderer.",
+      "problem": "Linux document readers have a large attack surface, with the document parser and renderer being the most dangerous components.",
+      "audience": null,
+      "builder_usernames": [
+        "rzy"
+      ],
+      "source_excerpt": "I've been working on a project to reduce attack surface of Linux document readers, starting with Okular: https://github.com/l4rzy/okular-mupdf-ng\n\nThe idea is to sandbox the most dangerous parts of it: The Document parser and renderer.",
+      "evidence": [
+        {
+          "source_item_id": 50418059,
+          "source_field": "body",
+          "value": "I've been working on a project to reduce attack surface of Linux document readers, starting with Okular: https://github.com/l4rzy/okular-mupdf-ng\n\nThe idea is to sandbox the most dangerous parts of it: The Document parser and renderer.",
+          "supports": [],
+          "author": "rzy",
+          "shared_at": 1794176647,
+          "source_url": "https://news.ycombinator.com/item?id=50418059"
+        }
+      ],
+      "source_item_id": 50418059,
+      "source_url": "https://news.ycombinator.com/item?id=50418059",
+      "author": "rzy",
+      "shared_at": 1794176647,
+      "links": [
+        "https://github.com/l4rzy/okular-mupdf-ng"
+      ]
+    }
+  ]
+}

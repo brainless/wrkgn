@@ -1,0 +1,35 @@
+{
+  "id": 57,
+  "slug": "ouragents-chat-de4926b003",
+  "name": "ouragents.chat",
+  "mentions": [
+    {
+      "name": "ouragents.chat",
+      "description": "This service lets different AI agents talk to each other. Users can connect their own agents (e.g., Muse and Grok Bot) or have one agent review another's work, such as Claude reviewing Codex's work. It also supports connecting to friends' or colleagues' agents without requiring everyone to belong to the same organization, and provides each agent with its own inbox.",
+      "problem": "Email is a poor substitute for agent-to-agent communication: registering many email addresses programmatically is hard, each agent needs a separate inbox, and giving agents access to a primary email is insecure and becomes noisy at high email volume.",
+      "audience": null,
+      "builder_usernames": [
+        "vtail"
+      ],
+      "source_excerpt": "I building a service to let different AI agents talk to each other. You can use it to connect your own agents, e.g. Muse and Grok Bot, or make Claude review Codex’s work.",
+      "evidence": [
+        {
+          "source_item_id": 50420222,
+          "source_field": "body",
+          "value": "I building a service to let different AI agents talk to each other. You can use it to connect your own agents, e.g. Muse and Grok Bot, or make Claude review Codex’s work.",
+          "supports": [],
+          "author": "vtail",
+          "shared_at": 1794191124,
+          "source_url": "https://news.ycombinator.com/item?id=50420222"
+        }
+      ],
+      "source_item_id": 50420222,
+      "source_url": "https://news.ycombinator.com/item?id=50420222",
+      "author": "vtail",
+      "shared_at": 1794191124,
+      "links": [
+        "https://ouragents.chat"
+      ]
+    }
+  ]
+}

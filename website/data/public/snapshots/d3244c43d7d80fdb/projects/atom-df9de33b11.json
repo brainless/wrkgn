@@ -1,0 +1,36 @@
+{
+  "id": 832,
+  "slug": "atom-df9de33b11",
+  "name": "atom",
+  "mentions": [
+    {
+      "name": "atom",
+      "description": "A work-in-progress relational/logic programming language inspired by Datalog and Bruce MacLennan's relational programming work. It adopts the open-world assumption to support missing values and heterogeneous data while enforcing data integrity, and aims to provide strong correctness guarantees in the LLM era.",
+      "problem": "Logic languages are expected to become increasingly important in the LLM era to provide strong correctness guarantees and serve as a source of reinforcement learning; relational data models offer advantages over the object-oriented view.",
+      "audience": null,
+      "builder_usernames": [
+        "roland_nilsson"
+      ],
+      "source_excerpt": "I'm working on a new relational / logic language inspired by datalog and Bruce MacLennan's pioneering work on relational programming, but adopting the open-world assumption to allow missing values / heterogeneous data and enforce data integrity.",
+      "evidence": [
+        {
+          "source_item_id": 50423840,
+          "source_field": "body",
+          "value": "I'm working on a new relational / logic language inspired by datalog and Bruce MacLennan's pioneering work on relational programming, but adopting the open-world assumption to allow missing values / heterogeneous data and enforce data integrity.",
+          "supports": [],
+          "author": "roland_nilsson",
+          "shared_at": 1794221319,
+          "source_url": "https://news.ycombinator.com/item?id=50423840"
+        }
+      ],
+      "source_item_id": 50423840,
+      "source_url": "https://news.ycombinator.com/item?id=50423840",
+      "author": "roland_nilsson",
+      "shared_at": 1794221319,
+      "links": [
+        "https://github.com/roland-redmount/atom",
+        "https://roland-redmount.github.io/atom/"
+      ]
+    }
+  ]
+}

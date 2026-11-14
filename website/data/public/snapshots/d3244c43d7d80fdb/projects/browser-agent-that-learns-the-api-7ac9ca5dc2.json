@@ -1,0 +1,35 @@
+{
+  "id": 2499,
+  "slug": "browser-agent-that-learns-the-api-7ac9ca5dc2",
+  "name": "Browser agent that learns the API",
+  "mentions": [
+    {
+      "name": "Browser agent that learns the API",
+      "description": "This browser agent learns the APIs of web apps instead of relying on their UI, working like a perfect MCP for each web app. By operating at the API level rather than clicking through the interface, it runs agent tasks much faster than UI-driven browser agents like Claude in the browser.",
+      "problem": "UI-based browser agents such as Claude in the browser are super slow because they just rely on the UI; learning each web app's API removes that bottleneck and makes the agent much faster.",
+      "audience": null,
+      "builder_usernames": [
+        "korabs"
+      ],
+      "source_excerpt": "A browser agent that learns the API :) Things like Claude in the browser are super slow, mostly because they just rely on the UI. With MCP they're much better. By learning the API it's like having a perfect MCP for each web app, making it much faster.",
+      "evidence": [
+        {
+          "source_item_id": 48945987,
+          "source_field": "body",
+          "value": "A browser agent that learns the API :) Things like Claude in the browser are super slow, mostly because they just rely on the UI. With MCP they're much better. By learning the API it's like having a perfect MCP for each web app, making it much faster.",
+          "supports": [],
+          "author": "korabs",
+          "shared_at": 1784287639,
+          "source_url": "https://news.ycombinator.com/item?id=48945987"
+        }
+      ],
+      "source_item_id": 48945987,
+      "source_url": "https://news.ycombinator.com/item?id=48945987",
+      "author": "korabs",
+      "shared_at": 1784287639,
+      "links": [
+        "https://pluno.ai/blog/how-we-accidentally-built-a-faster-browser-agent"
+      ]
+    }
+  ]
+}

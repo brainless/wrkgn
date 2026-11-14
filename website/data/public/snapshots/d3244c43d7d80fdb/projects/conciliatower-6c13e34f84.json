@@ -1,0 +1,37 @@
+{
+  "id": 878,
+  "slug": "conciliatower-6c13e34f84",
+  "name": "Conciliatower",
+  "mentions": [
+    {
+      "name": "Conciliatower",
+      "description": "A browser-based WASM remake of SimTower, produced through a six-month rewrite with Claude Code that replicates the original game's functionality from a Ghidra decompilation of the binary, an AI-generated summary of the original source code, and the author's memory of the gameplay. No new art was created: players load their own original game binary, which on-page code parses to pull out the original assets, preserving the original look and feel.",
+      "problem": "The original SimTower was too difficult to get running through emulation, preventing re-play of the game.",
+      "audience": null,
+      "builder_usernames": [
+        "jonahss"
+      ],
+      "source_excerpt": "I had claude faithfully rewrite SimTower so I could play it in the browser:\n\nhttps://kvetch.io/conciliatower\n\nI wanted to re-play SimTower but found it too difficult to get running through emulation. Instead, I worked for 6 months with Claude Code on a complete rewrite, replicating all the functionality from a Ghidra decompilation of the binary, an AI-generated summary of the original source code and my memory of the gameplay. Then deployed it to the web as WASM.\nI wanted the original feel of the game, so didn't create new art. Instead, you load an original binary you provide, and the on-page code parses it and pulls out the original assets.",
+      "evidence": [
+        {
+          "source_item_id": 49702448,
+          "source_field": "body",
+          "value": "I had claude faithfully rewrite SimTower so I could play it in the browser:\n\nhttps://kvetch.io/conciliatower\n\nI wanted to re-play SimTower but found it too difficult to get running through emulation. Instead, I worked for 6 months with Claude Code on a complete rewrite, replicating all the functionality from a Ghidra decompilation of the binary, an AI-generated summary of the original source code and my memory of the gameplay. Then deployed it to the web as WASM.\nI wanted the original feel of the game, so didn't create new art. Instead, you load an original binary you provide, and the on-page code parses it and pulls out the original assets.",
+          "supports": [],
+          "author": "jonahss",
+          "shared_at": 1789413552,
+          "source_url": "https://news.ycombinator.com/item?id=49702448"
+        }
+      ],
+      "source_item_id": 49702448,
+      "source_url": "https://news.ycombinator.com/item?id=49702448",
+      "author": "jonahss",
+      "shared_at": 1789413552,
+      "links": [
+        "https://github.com/Jonahss/concilia-tower",
+        "https://kvetch.io/conciliatower",
+        "https://www.wyldcard.io/blog/simtower-remake-playable-in-browser"
+      ]
+    }
+  ]
+}

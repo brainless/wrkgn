@@ -1,0 +1,35 @@
+{
+  "id": 644,
+  "slug": "clview-d76659d4fc",
+  "name": "clview",
+  "mentions": [
+    {
+      "name": "clview",
+      "description": "A CLI command that displays PDFs, images, Word documents, spreadsheets, drawings, Markdown, and HTML directly inside terminal emulators such as kitty and ghostty. It works well with tmux and through SSH connections.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ferd"
+      ],
+      "source_excerpt": "A cli command to view PDFs, images, Word documents, spreadsheets, drawings, Markdown and HTML inside the terminal (kitty, ghostty, etc.)\n\nWorks well with tmux and through ssh too:",
+      "evidence": [
+        {
+          "source_item_id": 50420065,
+          "source_field": "body",
+          "value": "A cli command to view PDFs, images, Word documents, spreadsheets, drawings, Markdown and HTML inside the terminal (kitty, ghostty, etc.)\n\nWorks well with tmux and through ssh too:",
+          "supports": [],
+          "author": "ferd",
+          "shared_at": 1794189811,
+          "source_url": "https://news.ycombinator.com/item?id=50420065"
+        }
+      ],
+      "source_item_id": 50420065,
+      "source_url": "https://news.ycombinator.com/item?id=50420065",
+      "author": "ferd",
+      "shared_at": 1794189811,
+      "links": [
+        "https://github.com/dobladez/clview"
+      ]
+    }
+  ]
+}

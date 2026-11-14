@@ -1,0 +1,33 @@
+{
+  "id": 2641,
+  "slug": "twin-tap-tempo-toy-tttt-d44cf812b9",
+  "name": "Twin tap tempo toy (Tttt)",
+  "mentions": [
+    {
+      "name": "Twin tap tempo toy (Tttt)",
+      "description": "A DIY MIDI clock to dual tap tempo converter device (\"Twin tap tempo toy\" or Tttt) built on an Arduino Esplora linked to a dual-channel optocoupler/relay. It outputs simultaneous tap tempo signals so analogue delay and tremolo pedals can be slaved to a DAW's tempo (Reaper). The software side is done; the author is troubleshooting the Arduino-to-relay connection and plans to publish the code and docs on GitHub.",
+      "problem": "Off-the-shelf devices that can drive multiple analogue tap-tempo pedals simultaneously from a DAW are hard to find and expensive; only one product (Disaster Area Designs micro.clock) readily fits the need.",
+      "audience": "The author, for syncing their own analogue delay and tremolo pedals to their DAW in a home music setup.",
+      "builder_usernames": [
+        "jefc1111"
+      ],
+      "source_excerpt": "I'm making a midi clock -> dual tap tempo device (I'm calling it the Twin tap tempo toy, or Tttt). It's based on an Arduino Esplora linked to a dual channel optocoupler / relay.",
+      "evidence": [
+        {
+          "source_item_id": 48891018,
+          "source_field": "body",
+          "value": "I'm making a midi clock -> dual tap tempo device (I'm calling it the Twin tap tempo toy, or Tttt). It's based on an Arduino Esplora linked to a dual channel optocoupler / relay.",
+          "supports": [],
+          "author": "jefc1111",
+          "shared_at": 1783941909,
+          "source_url": "https://news.ycombinator.com/item?id=48891018"
+        }
+      ],
+      "source_item_id": 48891018,
+      "source_url": "https://news.ycombinator.com/item?id=48891018",
+      "author": "jefc1111",
+      "shared_at": 1783941909,
+      "links": []
+    }
+  ]
+}

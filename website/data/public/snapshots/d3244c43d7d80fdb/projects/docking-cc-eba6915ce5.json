@@ -1,0 +1,64 @@
+{
+  "id": 681,
+  "slug": "docking-cc-eba6915ce5",
+  "name": "docking.cc",
+  "mentions": [
+    {
+      "name": "docking.cc",
+      "description": "A Linux dock bar supporting Wayland and X11 that runs on Linux and the Free/Open/NetBSD BSDs, with Windows support being experimented on. It ships 60+ native applets including WhatsApp, Hacker News, Reddit, Calendar, and Weather.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "edumucelli"
+      ],
+      "source_excerpt": "https://docking.cc is a Linux dock bar with Wayland, X11, Linux, Free/Open/NetBSD and experimenting on Windows\n\nIt has 60+ native applets like WhatsApp, Hacker News, Reddit, Calendar, Weather, ...",
+      "evidence": [
+        {
+          "source_item_id": 50418390,
+          "source_field": "body",
+          "value": "https://docking.cc is a Linux dock bar with Wayland, X11, Linux, Free/Open/NetBSD and experimenting on Windows\n\nIt has 60+ native applets like WhatsApp, Hacker News, Reddit, Calendar, Weather, ...",
+          "supports": [],
+          "author": "edumucelli",
+          "shared_at": 1794178414,
+          "source_url": "https://news.ycombinator.com/item?id=50418390"
+        }
+      ],
+      "source_item_id": 50418390,
+      "source_url": "https://news.ycombinator.com/item?id=50418390",
+      "author": "edumucelli",
+      "shared_at": 1794178414,
+      "links": [
+        "https://docking.cc"
+      ]
+    },
+    {
+      "name": "docking",
+      "description": "A dock bar application for Linux with support for both X11 and Wayland, pre-built packages for all major distributions, and almost 60 built-in applets.",
+      "problem": null,
+      "audience": "Linux users who use a dock bar",
+      "builder_usernames": [
+        "edumucelli"
+      ],
+      "source_excerpt": "I have been working on dock bar for Linux\n\n* https://docking.cc\n\n* https://github.com/edumucelli/docking\n\nIt has X11 and Wayland support, pre-built packages for all major distributions, almost 60 baked in applets.",
+      "evidence": [
+        {
+          "source_item_id": 48889670,
+          "source_field": "body",
+          "value": "I have been working on dock bar for Linux\n\n* https://docking.cc\n\n* https://github.com/edumucelli/docking\n\nIt has X11 and Wayland support, pre-built packages for all major distributions, almost 60 baked in applets.",
+          "supports": [],
+          "author": "edumucelli",
+          "shared_at": 1783932340,
+          "source_url": "https://news.ycombinator.com/item?id=48889670"
+        }
+      ],
+      "source_item_id": 48889670,
+      "source_url": "https://news.ycombinator.com/item?id=48889670",
+      "author": "edumucelli",
+      "shared_at": 1783932340,
+      "links": [
+        "https://docking.cc",
+        "https://github.com/edumucelli/docking"
+      ]
+    }
+  ]
+}

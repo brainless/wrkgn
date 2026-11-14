@@ -1,0 +1,33 @@
+{
+  "id": 2012,
+  "slug": "moe-support-for-from-scratch-gpt-2-llm-code-5d02321535",
+  "name": "MoE support for from-scratch GPT-2 LLM code",
+  "mentions": [
+    {
+      "name": "MoE support for from-scratch GPT-2 LLM code",
+      "description": "This project adds minimal Mixture-of-Experts (MoE) support to the GPT-2 code from Sebastian Raschka's book \"Build a Large Language Model (From Scratch)\", with a plan to run a from-scratch base model training on the author's own hardware before the end of the month.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "gpjt"
+      ],
+      "source_excerpt": "I'm adding MoE support to the GPT-2 code from Sebastian Raschka's \"Build a Large Language Model (From Scratch)\".  Just the minimal changes.  Planning to do (or at least start!) a from-scratch base model training run on my own hardware before the end of the month.",
+      "evidence": [
+        {
+          "source_item_id": 49234419,
+          "source_field": "body",
+          "value": "I'm adding MoE support to the GPT-2 code from Sebastian Raschka's \"Build a Large Language Model (From Scratch)\".  Just the minimal changes.  Planning to do (or at least start!) a from-scratch base model training run on my own hardware before the end of the month.",
+          "supports": [],
+          "author": "gpjt",
+          "shared_at": 1786301588,
+          "source_url": "https://news.ycombinator.com/item?id=49234419"
+        }
+      ],
+      "source_item_id": 49234419,
+      "source_url": "https://news.ycombinator.com/item?id=49234419",
+      "author": "gpjt",
+      "shared_at": 1786301588,
+      "links": []
+    }
+  ]
+}

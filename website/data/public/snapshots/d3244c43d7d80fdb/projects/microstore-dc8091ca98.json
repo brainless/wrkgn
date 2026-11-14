@@ -1,0 +1,35 @@
+{
+  "id": 2059,
+  "slug": "microstore-dc8091ca98",
+  "name": "MicroStore",
+  "mentions": [
+    {
+      "name": "MicroStore",
+      "description": "A FOSS command-line tool that builds a static web page for a small brick-and-mortar store. The generated site displays sales and the types of items the store offers, and is meant to be linked from a QR code on a banner outside the store to increase foot traffic.",
+      "problem": "Small stores with heavy foot traffic are underserved by big tech web offerings and lack an easy way to advertise sales and inventory online.",
+      "audience": "Small brick-and-mortar stores with lots of foot traffic that are underserved by big tech offerings",
+      "builder_usernames": [
+        "marking-time"
+      ],
+      "source_excerpt": "I am working on a CLI tool that will build a static web page for a small brick and mortar store. The software is FOSS and could be useful for the small store that has a lot of foot traffic, but is under served by many of the big tech offerings. The idea is that foot traffic can be increased by using a QR code placed on a banner outside the store directing them to the website that can display sales and types of items that the store offers.",
+      "evidence": [
+        {
+          "source_item_id": 49237921,
+          "source_field": "body",
+          "value": "I am working on a CLI tool that will build a static web page for a small brick and mortar store. The software is FOSS and could be useful for the small store that has a lot of foot traffic, but is under served by many of the big tech offerings. The idea is that foot traffic can be increased by using a QR code placed on a banner outside the store directing them to the website that can display sales and types of items that the store offers.",
+          "supports": [],
+          "author": "marking-time",
+          "shared_at": 1786322549,
+          "source_url": "https://news.ycombinator.com/item?id=49237921"
+        }
+      ],
+      "source_item_id": 49237921,
+      "source_url": "https://news.ycombinator.com/item?id=49237921",
+      "author": "marking-time",
+      "shared_at": 1786322549,
+      "links": [
+        "https://codeberg.org/Marking-Time/MicroStore"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 236,
+  "slug": "tisvlay-106a3c2b52",
+  "name": "TisVlay",
+  "mentions": [
+    {
+      "name": "TisVlay",
+      "description": "TisVlay is a FOSS Linux tool for TV display control, covering power, volume, backlight, AV mute, and input switching, plus per-device profile automation via desktop session integration (idle/lock, boot/suspend, remote login/streaming). It also lets the TV lock, sleep or wake the PC and remotely drive the desktop, supports various vendor interface protocols for multi-display setups, and mitigates energy usage, OLED panel burn-in, and projector bulb burn-out. Still in beta (pre v1.0), it is daily drivable and fully documented, with current focus on distro packaging and custom ATmega firmware in Rust for HDMI CEC USB adapters to work around TV firmware bugs.",
+      "problem": "Solves personal pain points in using HDMI TVs and projectors with PCs, and mitigates energy usage, OLED panel burn-in, and projector bulb burn-out.",
+      "audience": null,
+      "builder_usernames": [
+        "ruffsl"
+      ],
+      "source_excerpt": "For about 10 months or so I've been working on this FOSS hobby project to get more practice at Linux packaging, cargo utilities, and migrating to Nix and NixOS (as well as solve some personal pain points in using a HDMI TVs and projectors with PCs).\n\nhttps://tisvlay.readthedocs.io/\n\n> TisVlay brings TV Display control for Linux, including: power, volume, backlight, AV mute, input switching plus more, with per-device profile automation via desktop session integration (idle/lock, boot/suspend, remote login/streaming, etc), and in reverse, letting the TV lock, sleep or wake the PC and its remote drive the desktop, while supporting various vendor interface protocols for multi-display setups, mitigating energy usage and OLED panel burn-in or projector bulb burn-out.",
+      "evidence": [
+        {
+          "source_item_id": 50418465,
+          "source_field": "body",
+          "value": "For about 10 months or so I've been working on this FOSS hobby project to get more practice at Linux packaging, cargo utilities, and migrating to Nix and NixOS (as well as solve some personal pain points in using a HDMI TVs and projectors with PCs).\n\nhttps://tisvlay.readthedocs.io/\n\n> TisVlay brings TV Display control for Linux, including: power, volume, backlight, AV mute, input switching plus more, with per-device profile automation via desktop session integration (idle/lock, boot/suspend, remote login/streaming, etc), and in reverse, letting the TV lock, sleep or wake the PC and its remote drive the desktop, while supporting various vendor interface protocols for multi-display setups, mitigating energy usage and OLED panel burn-in or projector bulb burn-out.",
+          "supports": [],
+          "author": "ruffsl",
+          "shared_at": 1794178805,
+          "source_url": "https://news.ycombinator.com/item?id=50418465"
+        }
+      ],
+      "source_item_id": 50418465,
+      "source_url": "https://news.ycombinator.com/item?id=50418465",
+      "author": "ruffsl",
+      "shared_at": 1794178805,
+      "links": [
+        "https://tisvlay.readthedocs.io/"
+      ]
+    }
+  ]
+}

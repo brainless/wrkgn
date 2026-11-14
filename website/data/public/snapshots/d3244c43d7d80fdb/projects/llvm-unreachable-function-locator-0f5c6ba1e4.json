@@ -1,0 +1,33 @@
+{
+  "id": 3345,
+  "slug": "llvm-unreachable-function-locator-0f5c6ba1e4",
+  "name": "LLVM unreachable-function locator",
+  "mentions": [
+    {
+      "name": "LLVM unreachable-function locator",
+      "description": "A small LLVM-based tool that prints the source code locations of functions unreachable from main, used to identify code that can be safely deleted without altering functionality. It was used to remove roughly 3000 lines of code in minutes, though integration with CMake is still a work in progress.",
+      "problem": "Removing unused functionality safely is difficult without knowing which functions are unreachable from main.",
+      "audience": null,
+      "builder_usernames": [
+        "FattiMei"
+      ],
+      "source_excerpt": "For the task of removing functionality I developed a small tool based on LLVM that prints the source code location of functions that are unreachable from main, so that I can safely remove them without altering functionality, deleted ~3000 LOC in a couple of minutes",
+      "evidence": [
+        {
+          "source_item_id": 50424725,
+          "source_field": "body",
+          "value": "For the task of removing functionality I developed a small tool based on LLVM that prints the source code location of functions that are unreachable from main, so that I can safely remove them without altering functionality, deleted ~3000 LOC in a couple of minutes",
+          "supports": [],
+          "author": "FattiMei",
+          "shared_at": 1794227585,
+          "source_url": "https://news.ycombinator.com/item?id=50424725"
+        }
+      ],
+      "source_item_id": 50424725,
+      "source_url": "https://news.ycombinator.com/item?id=50424725",
+      "author": "FattiMei",
+      "shared_at": 1794227585,
+      "links": []
+    }
+  ]
+}

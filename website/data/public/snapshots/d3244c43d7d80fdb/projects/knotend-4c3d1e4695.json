@@ -1,0 +1,35 @@
+{
+  "id": 580,
+  "slug": "knotend-4c3d1e4695",
+  "name": "Knotend",
+  "mentions": [
+    {
+      "name": "Knotend",
+      "description": "A grid-based flowchart editor where, instead of a freeform canvas, all nodes are uniform-sized and sit in grid cells, with spreadsheet-style keyboard navigation. It aims to make editing flowcharts much faster through keyboard-centric editing and autolayout.",
+      "problem": "Editing flowcharts is slow; the tool makes it faster via keyboard-centric interaction and autolayout.",
+      "audience": null,
+      "builder_usernames": [
+        "escot"
+      ],
+      "source_excerpt": "A new kind of grid-based flowchart editor. The design is to have a grid instead of a canvas, and all nodes are the same size and sit in a cell. On top of that, there’s keyboard navigation kind of like a spreadsheet.\n\nThe idea is to make editing flowcharts way faster by being keyboard centric and having autolayout.\n\nhttps://www.knotend.com",
+      "evidence": [
+        {
+          "source_item_id": 50419838,
+          "source_field": "body",
+          "value": "A new kind of grid-based flowchart editor. The design is to have a grid instead of a canvas, and all nodes are the same size and sit in a cell. On top of that, there’s keyboard navigation kind of like a spreadsheet.\n\nThe idea is to make editing flowcharts way faster by being keyboard centric and having autolayout.\n\nhttps://www.knotend.com",
+          "supports": [],
+          "author": "escot",
+          "shared_at": 1794187878,
+          "source_url": "https://news.ycombinator.com/item?id=50419838"
+        }
+      ],
+      "source_item_id": 50419838,
+      "source_url": "https://news.ycombinator.com/item?id=50419838",
+      "author": "escot",
+      "shared_at": 1794187878,
+      "links": [
+        "https://www.knotend.com"
+      ]
+    }
+  ]
+}

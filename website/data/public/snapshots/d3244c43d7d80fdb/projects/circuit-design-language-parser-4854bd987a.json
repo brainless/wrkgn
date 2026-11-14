@@ -1,0 +1,33 @@
+{
+  "id": 3447,
+  "slug": "circuit-design-language-parser-4854bd987a",
+  "name": "Circuit Design Language Parser",
+  "mentions": [
+    {
+      "name": "Circuit Design Language Parser",
+      "description": "A parser for the author's custom circuit design language, feeding circuit designs into the accompanying digital circuit simulator as part of the Jane Street ASIC reverse engineering puzzle tooling.",
+      "problem": "Painful experience working with Verilog/VHDL",
+      "audience": null,
+      "builder_usernames": [
+        "anitil"
+      ],
+      "source_excerpt": "So far I've built a digital circuit simulator, a parser for my circuit design language, and now a parser for my simulator language (so I can run the sim on known inputs and have the machine enforce asserts for me). All to avoid the painful memories I have of verilog/vhdl.",
+      "evidence": [
+        {
+          "source_item_id": 49238620,
+          "source_field": "body",
+          "value": "So far I've built a digital circuit simulator, a parser for my circuit design language, and now a parser for my simulator language (so I can run the sim on known inputs and have the machine enforce asserts for me). All to avoid the painful memories I have of verilog/vhdl.",
+          "supports": [],
+          "author": "anitil",
+          "shared_at": 1786329313,
+          "source_url": "https://news.ycombinator.com/item?id=49238620"
+        }
+      ],
+      "source_item_id": 49238620,
+      "source_url": "https://news.ycombinator.com/item?id=49238620",
+      "author": "anitil",
+      "shared_at": 1786329313,
+      "links": []
+    }
+  ]
+}

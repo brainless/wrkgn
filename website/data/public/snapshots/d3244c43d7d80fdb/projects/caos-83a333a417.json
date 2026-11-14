@@ -1,0 +1,35 @@
+{
+  "id": 2414,
+  "slug": "caos-83a333a417",
+  "name": "CAOS",
+  "mentions": [
+    {
+      "name": "CAOS",
+      "description": "Self-hosted workspace for managing security questionnaires, privacy assessments, vendor risk reviews, procurement due diligence, and evidence requests as structured, answerable projects. Questionnaires become a system of record: finished answers and compliance documents form a searchable, citable corpus, so each new questionnaire starts from prior answers with every claim traceable to its source document. Recently open-sourced.",
+      "problem": "SaaS vendors managing PII data must handle security questionnaires, privacy assessments, vendor risk reviews, procurement due diligence, and evidence requests from customer security teams; with 500+ enterprise customers and annual vendor reviews, tracking these in Google Drive and Jira became unmanageable.",
+      "audience": "SaaS vendors that manage PII data and must respond to customer security teams' assessments, vendor risk reviews, and evidence requests.",
+      "builder_usernames": [
+        "joddystreet"
+      ],
+      "source_excerpt": "CAOS is a dedicated workspace that helps us manage these assessments like projects, additionally, CAOS turns the questionnaires into a system of record. Questionnaires become structured, answerable work. Finished answers and your compliance documents become a searchable, citable corpus. The next questionnaire starts from what you already said, with every claim traceable to the document or prior answer it came from.\n\nIt is self-hosted. Your policies, your answers, and your customers' questionnaires stay on your infrastructure.\n\nRecently open-sourced - https://github.com/DigiCred-OSS/caos-os",
+      "evidence": [
+        {
+          "source_item_id": 49241155,
+          "source_field": "body",
+          "value": "CAOS is a dedicated workspace that helps us manage these assessments like projects, additionally, CAOS turns the questionnaires into a system of record. Questionnaires become structured, answerable work. Finished answers and your compliance documents become a searchable, citable corpus. The next questionnaire starts from what you already said, with every claim traceable to the document or prior answer it came from.\n\nIt is self-hosted. Your policies, your answers, and your customers' questionnaires stay on your infrastructure.\n\nRecently open-sourced - https://github.com/DigiCred-OSS/caos-os",
+          "supports": [],
+          "author": "joddystreet",
+          "shared_at": 1786352402,
+          "source_url": "https://news.ycombinator.com/item?id=49241155"
+        }
+      ],
+      "source_item_id": 49241155,
+      "source_url": "https://news.ycombinator.com/item?id=49241155",
+      "author": "joddystreet",
+      "shared_at": 1786352402,
+      "links": [
+        "https://github.com/DigiCred-OSS/caos-os"
+      ]
+    }
+  ]
+}

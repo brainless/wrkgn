@@ -1,0 +1,35 @@
+{
+  "id": 925,
+  "slug": "stabilizer-db6a3275b0",
+  "name": "Stabilizer",
+  "mentions": [
+    {
+      "name": "Stabilizer",
+      "description": "Effort to resurrect Stabilizer, a tool that makes program performance less dependent on the linker and layout lottery, which has fallen victim to bitrot.",
+      "problem": "The original tool has fallen victim to bitrot.",
+      "audience": null,
+      "builder_usernames": [
+        "eru"
+      ],
+      "source_excerpt": "I'm also working on resurrecting stabilizer (https://github.com/matthiasgoergens/stabilizer).  Stabilizer is a way to make program performance less dependent on the linker and layout lottery.  But it has sadly fallen victim to bitrot.",
+      "evidence": [
+        {
+          "source_item_id": 49690680,
+          "source_field": "body",
+          "value": "I'm also working on resurrecting stabilizer (https://github.com/matthiasgoergens/stabilizer).  Stabilizer is a way to make program performance less dependent on the linker and layout lottery.  But it has sadly fallen victim to bitrot.",
+          "supports": [],
+          "author": "eru",
+          "shared_at": 1789348978,
+          "source_url": "https://news.ycombinator.com/item?id=49690680"
+        }
+      ],
+      "source_item_id": 49690680,
+      "source_url": "https://news.ycombinator.com/item?id=49690680",
+      "author": "eru",
+      "shared_at": 1789348978,
+      "links": [
+        "https://github.com/matthiasgoergens/stabilizer"
+      ]
+    }
+  ]
+}

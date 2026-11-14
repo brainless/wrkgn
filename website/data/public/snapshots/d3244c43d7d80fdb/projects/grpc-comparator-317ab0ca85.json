@@ -1,0 +1,33 @@
+{
+  "id": 1409,
+  "slug": "grpc-comparator-317ab0ca85",
+  "name": "grpc-comparator",
+  "mentions": [
+    {
+      "name": "grpc-comparator",
+      "description": "A proxy that sits between an original service and its replacement, calculating timing and any deltas in responses for the response attributes the user configures it to care about.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "iamdeedubs"
+      ],
+      "source_excerpt": "grpc-comparator proxies between an original service, and it's replacement calculating timing and any deltas in responses. You instruct it which response attributes you care about.",
+      "evidence": [
+        {
+          "source_item_id": 49707272,
+          "source_field": "body",
+          "value": "grpc-comparator proxies between an original service, and it's replacement calculating timing and any deltas in responses. You instruct it which response attributes you care about.",
+          "supports": [],
+          "author": "iamdeedubs",
+          "shared_at": 1789441991,
+          "source_url": "https://news.ycombinator.com/item?id=49707272"
+        }
+      ],
+      "source_item_id": 49707272,
+      "source_url": "https://news.ycombinator.com/item?id=49707272",
+      "author": "iamdeedubs",
+      "shared_at": 1789441991,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 679,
+  "slug": "hatamoto-30b50d5c86",
+  "name": "Hatamoto",
+  "mentions": [
+    {
+      "name": "Hatamoto",
+      "description": "A web platform designed as a complete replacement for WordPress and its most-used plugins, all built into the system. It ships as a single Go binary with no Node and no compilation, runs on Postgres, supports sandboxed plugins, and includes built-in AI analytics.",
+      "problem": "WordPress depends on separate installs of its most-used plugins and complex tooling (Node, compilation); this consolidates everything into one Go binary.",
+      "audience": null,
+      "builder_usernames": [
+        "zenincognito"
+      ],
+      "source_excerpt": "https://hatamoto.dev - a complete replacement to Wordpress and its most used plugins built into the system. One go binary, no node , no compilation, Postgres and sandboxes plugins. Built in AI analytics",
+      "evidence": [
+        {
+          "source_item_id": 50329548,
+          "source_field": "body",
+          "value": "https://hatamoto.dev - a complete replacement to Wordpress and its most used plugins built into the system. One go binary, no node , no compilation, Postgres and sandboxes plugins. Built in AI analytics",
+          "supports": [],
+          "author": "zenincognito",
+          "shared_at": 1793565367,
+          "source_url": "https://news.ycombinator.com/item?id=50329548"
+        }
+      ],
+      "source_item_id": 50329548,
+      "source_url": "https://news.ycombinator.com/item?id=50329548",
+      "author": "zenincognito",
+      "shared_at": 1793565367,
+      "links": [
+        "https://hatamoto.dev"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 304,
+  "slug": "exhibit-7b6fb9ddc6",
+  "name": "Exhibit",
+  "mentions": [
+    {
+      "name": "Exhibit",
+      "description": "A personal apps platform where an agent builds small apps for the user, their friends, and family. Apps run on the platform or can be downloaded for use elsewhere with no lock-in. It enforces a deny-by-default security policy to safely run untrusted AI-generated code, offers API connectors to bring in the user's data, can be self-hosted today, with a hosted version in the works.",
+      "problem": "Every interface tends to start with a chatbot, and app platforms create lock-in and 'special sauce'; running untrusted AI-generated code is also risky.",
+      "audience": "Small apps made for oneself, friends, and family",
+      "builder_usernames": [
+        "dizzard"
+      ],
+      "source_excerpt": "I'm building a personal apps platform! I still am hoping for a future where every interface doesn't start with a chatbot.\n\nhttps://github.com/momja/exhibit\n\nYou can use an agent to build small apps for you, your friends, family, etc. and use them on the platform. You can also download them and take it with you so there's no lock-in or special sauce. Its deny-by-default security policy helps you wrangle untrusted AI code and I'm iterating on API connectors to bring your data in.",
+      "evidence": [
+        {
+          "source_item_id": 50421200,
+          "source_field": "body",
+          "value": "I'm building a personal apps platform! I still am hoping for a future where every interface doesn't start with a chatbot.\n\nhttps://github.com/momja/exhibit\n\nYou can use an agent to build small apps for you, your friends, family, etc. and use them on the platform. You can also download them and take it with you so there's no lock-in or special sauce. Its deny-by-default security policy helps you wrangle untrusted AI code and I'm iterating on API connectors to bring your data in.",
+          "supports": [],
+          "author": "dizzard",
+          "shared_at": 1794199878,
+          "source_url": "https://news.ycombinator.com/item?id=50421200"
+        }
+      ],
+      "source_item_id": 50421200,
+      "source_url": "https://news.ycombinator.com/item?id=50421200",
+      "author": "dizzard",
+      "shared_at": 1794199878,
+      "links": [
+        "https://github.com/momja/exhibit"
+      ]
+    }
+  ]
+}

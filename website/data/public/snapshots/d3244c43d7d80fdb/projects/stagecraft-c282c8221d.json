@@ -1,0 +1,35 @@
+{
+  "id": 470,
+  "slug": "stagecraft-c282c8221d",
+  "name": "Stagecraft",
+  "mentions": [
+    {
+      "name": "Stagecraft",
+      "description": "Stagecraft is a CI framework built on top of Hera, the Argo Workflows Python SDK. It provides CI primitives that make it easier for teams to build CI pipelines on Argo Workflows, avoiding the need to maintain a custom CI product on top of it.",
+      "problem": "The team is limited to Argo Workflows for CI, and building and maintaining their own CI product on top of it was a burden they wanted to escape.",
+      "audience": "The author's team building CI pipelines on Argo Workflows.",
+      "builder_usernames": [
+        "elliottmoos"
+      ],
+      "source_excerpt": "So, I’ve been working on this CI “framework” on top of Hera (the Argo Workflows Python SDK, which is really neat) that will hopefully make it easier for our team to build CI pipelines, with CI “primitives.”\n\nIt’s called Stagecraft: https://github.com/elliottmoos/stagecraft",
+      "evidence": [
+        {
+          "source_item_id": 50418942,
+          "source_field": "body",
+          "value": "So, I’ve been working on this CI “framework” on top of Hera (the Argo Workflows Python SDK, which is really neat) that will hopefully make it easier for our team to build CI pipelines, with CI “primitives.”\n\nIt’s called Stagecraft: https://github.com/elliottmoos/stagecraft",
+          "supports": [],
+          "author": "elliottmoos",
+          "shared_at": 1794181247,
+          "source_url": "https://news.ycombinator.com/item?id=50418942"
+        }
+      ],
+      "source_item_id": 50418942,
+      "source_url": "https://news.ycombinator.com/item?id=50418942",
+      "author": "elliottmoos",
+      "shared_at": 1794181247,
+      "links": [
+        "https://github.com/elliottmoos/stagecraft"
+      ]
+    }
+  ]
+}

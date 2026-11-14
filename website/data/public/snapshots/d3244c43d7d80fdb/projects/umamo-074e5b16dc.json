@@ -1,0 +1,35 @@
+{
+  "id": 990,
+  "slug": "umamo-074e5b16dc",
+  "name": "Umamo",
+  "mentions": [
+    {
+      "name": "Umamo",
+      "description": "A free and open-source, cross-platform rigging editor for 2D puppet animation, built as a drop-in replacement for the Live2D Cubism Editor. It is fully compatible with Live2D's CMO3 and MOC3 file formats so it works within the existing Cubism market share. The v0.3.0 release adds a full pipeline for ingesting layered artwork plus texture atlas packing and editing. Currently in early alpha, with a planned Christmas release of an end-user workable experience.",
+      "problem": "Live2D holds a monopoly on the 2D puppet animation market with a slow, buggy editor that requires a monthly subscription to use and perpetual licensing costs to use the runtime.",
+      "audience": null,
+      "builder_usernames": [
+        "Washuu"
+      ],
+      "source_excerpt": "I'm working on Umamo(https://www.umamo.org/)!  It's FOSS cross-platform rigging editor for 2D puppet animation built as a drop-in replacement for the Live2D Cubism Editor.  It's fully compatible with Live2D's CMO3 and MOC3 file formats so it works within the existing Cubism market share.",
+      "evidence": [
+        {
+          "source_item_id": 49706490,
+          "source_field": "body",
+          "value": "I'm working on Umamo(https://www.umamo.org/)!  It's FOSS cross-platform rigging editor for 2D puppet animation built as a drop-in replacement for the Live2D Cubism Editor.  It's fully compatible with Live2D's CMO3 and MOC3 file formats so it works within the existing Cubism market share.",
+          "supports": [],
+          "author": "Washuu",
+          "shared_at": 1789434718,
+          "source_url": "https://news.ycombinator.com/item?id=49706490"
+        }
+      ],
+      "source_item_id": 49706490,
+      "source_url": "https://news.ycombinator.com/item?id=49706490",
+      "author": "Washuu",
+      "shared_at": 1789434718,
+      "links": [
+        "https://github.com/umamoorg/umamo"
+      ]
+    }
+  ]
+}

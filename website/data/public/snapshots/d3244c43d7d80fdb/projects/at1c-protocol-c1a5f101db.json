@@ -1,0 +1,35 @@
+{
+  "id": 799,
+  "slug": "at1c-protocol-c1a5f101db",
+  "name": "AT1C Protocol",
+  "mentions": [
+    {
+      "name": "AT1C Protocol",
+      "description": "AT1C Protocol is an SDK (published as the @at1c/sdk npm package) for building AI agents that require human consent before acting. Its receipt mechanism lets users verify what agents did rather than trusting the operator, enabling consent-gated, auditable agent behavior.",
+      "problem": "AI agent actions lack verifiable human consent and independent verification, requiring users to blindly trust the operator.",
+      "audience": "Developers building AI agents",
+      "builder_usernames": [
+        "At1C"
+      ],
+      "source_excerpt": "AT1C Protocol AI Agents require Human consent. Don't trust us Verify the Receipt.",
+      "evidence": [
+        {
+          "source_item_id": 50328982,
+          "source_field": "body",
+          "value": "AT1C Protocol AI Agents require Human consent. Don't trust us Verify the Receipt.",
+          "supports": [],
+          "author": "At1C",
+          "shared_at": 1793562159,
+          "source_url": "https://news.ycombinator.com/item?id=50328982"
+        }
+      ],
+      "source_item_id": 50328982,
+      "source_url": "https://news.ycombinator.com/item?id=50328982",
+      "author": "At1C",
+      "shared_at": 1793562159,
+      "links": [
+        "https://www.npmjs.com/package/@at1c/sdk"
+      ]
+    }
+  ]
+}

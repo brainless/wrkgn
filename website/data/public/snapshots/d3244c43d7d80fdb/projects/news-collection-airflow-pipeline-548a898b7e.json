@@ -1,0 +1,33 @@
+{
+  "id": 683,
+  "slug": "news-collection-airflow-pipeline-548a898b7e",
+  "name": "Airflow news collection pipeline",
+  "mentions": [
+    {
+      "name": "Airflow news collection pipeline",
+      "description": "This project is an Airflow pipeline focused on collecting news, built partly for the author's own use and partly as a learning platform. News processing is initially done with a stronger LLM and results saved, with the eventual goal of attempting to train a small language model (SLM) on those results.",
+      "problem": null,
+      "audience": "The author's own personal use",
+      "builder_usernames": [
+        "Havoc"
+      ],
+      "source_excerpt": "Building my an airflow pipeline focused on collecting news.\n\nPartly because I want one, but also because it makes for a good learning platform. e.g. initially do some of the processing with a stronger llm...save result and then attempt to train a SLM or similar",
+      "evidence": [
+        {
+          "source_item_id": 50419269,
+          "source_field": "body",
+          "value": "Building my an airflow pipeline focused on collecting news.\n\nPartly because I want one, but also because it makes for a good learning platform. e.g. initially do some of the processing with a stronger llm...save result and then attempt to train a SLM or similar",
+          "supports": [],
+          "author": "Havoc",
+          "shared_at": 1794183379,
+          "source_url": "https://news.ycombinator.com/item?id=50419269"
+        }
+      ],
+      "source_item_id": 50419269,
+      "source_url": "https://news.ycombinator.com/item?id=50419269",
+      "author": "Havoc",
+      "shared_at": 1794183379,
+      "links": []
+    }
+  ]
+}

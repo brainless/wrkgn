@@ -1,0 +1,119 @@
+{
+  "id": 111,
+  "slug": "easel-a740063856",
+  "name": "Easel",
+  "mentions": [
+    {
+      "name": "Easel",
+      "description": "Easel is a game programming language that makes games multiplayer automatically. Every program written in Easel is guaranteed deterministic and snapshottable, which the language uses to perform rollback netcode automatically. The rollback is incremental, storing deltas of only what has changed via a copy-on-write mechanism, making it efficient for games where players move through large worlds that are mostly dormant except near players. Current work focuses on making the multiplayer even more efficient so beginner coders can build large multiplayer games without worrying about it.",
+      "problem": "Making multiplayer games is difficult for beginners, and raw coding needs to be fun and engaging for teenagers in the age of AI; automatic multiplayer lets learners build games with friends and family.",
+      "audience": "Teenagers who love to play multiplayer games and beginner coders looking for a fun way to learn to code.",
+      "builder_usernames": [
+        "BSTRhino"
+      ],
+      "source_excerpt": "For 4+ years I've been working on a game programming language which makes your game multiplayer automatically! Every program written in Easel is guaranteed deterministic and snapshottable, which it uses to automatically perform rollback netcode.",
+      "evidence": [
+        {
+          "source_item_id": 50419021,
+          "source_field": "body",
+          "value": "For 4+ years I've been working on a game programming language which makes your game multiplayer automatically! Every program written in Easel is guaranteed deterministic and snapshottable, which it uses to automatically perform rollback netcode.",
+          "supports": [],
+          "author": "BSTRhino",
+          "shared_at": 1794181766,
+          "source_url": "https://news.ycombinator.com/item?id=50419021"
+        }
+      ],
+      "source_item_id": 50419021,
+      "source_url": "https://news.ycombinator.com/item?id=50419021",
+      "author": "BSTRhino",
+      "shared_at": 1794181766,
+      "links": [
+        "https://easel.games"
+      ]
+    },
+    {
+      "name": "Easel",
+      "description": "A programming language that lets users code multiplayer games like singleplayer games. Every program written in Easel is guaranteed deterministic and snapshottable, which lets it automatically make games multiplayer using rollback netcode, so no server deployment or networking/synchronization knowledge is required. Currently adding tilemaps.",
+      "problem": "Making multiplayer games normally requires deploying a server and learning networking and synchronization.",
+      "audience": "Teenagers who make games in Scratch, who can make multiplayer games to play with their friends without deploying a server or learning networking",
+      "builder_usernames": [
+        "BSTRhino"
+      ],
+      "source_excerpt": "A programming language which lets you code multiplayer games like singleplayer games. Every program written in Easel is guaranteed deterministic and snapshottable, which is how it can automatically make your game multiplayer automatically using rollback netcode.",
+      "evidence": [
+        {
+          "source_item_id": 49691768,
+          "source_field": "body",
+          "value": "A programming language which lets you code multiplayer games like singleplayer games. Every program written in Easel is guaranteed deterministic and snapshottable, which is how it can automatically make your game multiplayer automatically using rollback netcode.",
+          "supports": [],
+          "author": "BSTRhino",
+          "shared_at": 1789357859,
+          "source_url": "https://news.ycombinator.com/item?id=49691768"
+        }
+      ],
+      "source_item_id": 49691768,
+      "source_url": "https://news.ycombinator.com/item?id=49691768",
+      "author": "BSTRhino",
+      "shared_at": 1789357859,
+      "links": [
+        "https://easel.games"
+      ]
+    },
+    {
+      "name": "Easel",
+      "description": "A programming language that makes games multiplayer automatically. It integrates rollback netcode into the language itself, guaranteeing deterministic code that can be snapshotted and rolled back, and handles networking and servers automatically so games can be coded as if they were singleplayer. The author has been working on it for four years.",
+      "problem": "Implementing multiplayer in games normally requires manually building rollback netcode, networking, and server infrastructure.",
+      "audience": null,
+      "builder_usernames": [
+        "BSTRhino"
+      ],
+      "source_excerpt": "A programming language that makes your game multiplayer automatically! It integrates rollback netcode into the programming language itself, guaranteeing that whatever you code is deterministic and can be snapshotted and rolled back. Then it integrates the networking and server automatically so you can just code your game like a singleplayer game and it'll be multiplayer automatically!",
+      "evidence": [
+        {
+          "source_item_id": 49237513,
+          "source_field": "body",
+          "value": "A programming language that makes your game multiplayer automatically! It integrates rollback netcode into the programming language itself, guaranteeing that whatever you code is deterministic and can be snapshotted and rolled back. Then it integrates the networking and server automatically so you can just code your game like a singleplayer game and it'll be multiplayer automatically!",
+          "supports": [],
+          "author": "BSTRhino",
+          "shared_at": 1786319419,
+          "source_url": "https://news.ycombinator.com/item?id=49237513"
+        }
+      ],
+      "source_item_id": 49237513,
+      "source_url": "https://news.ycombinator.com/item?id=49237513",
+      "author": "BSTRhino",
+      "shared_at": 1786319419,
+      "links": [
+        "https://easel.games"
+      ]
+    },
+    {
+      "name": "Easel",
+      "description": "Easel is a game programming language that makes your game multiplayer automatically. Recent work includes developing tutorials to make the language easier to learn.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "BSTRhino"
+      ],
+      "source_excerpt": "A game programming language that makes your game multiplayer automatically. This month I’ve been developing the tutorials so it’s easier to learn.",
+      "evidence": [
+        {
+          "source_item_id": 48897749,
+          "source_field": "body",
+          "value": "A game programming language that makes your game multiplayer automatically. This month I’ve been developing the tutorials so it’s easier to learn.",
+          "supports": [],
+          "author": "BSTRhino",
+          "shared_at": 1783971697,
+          "source_url": "https://news.ycombinator.com/item?id=48897749"
+        }
+      ],
+      "source_item_id": 48897749,
+      "source_url": "https://news.ycombinator.com/item?id=48897749",
+      "author": "BSTRhino",
+      "shared_at": 1783971697,
+      "links": [
+        "https://easel.games"
+      ]
+    }
+  ]
+}

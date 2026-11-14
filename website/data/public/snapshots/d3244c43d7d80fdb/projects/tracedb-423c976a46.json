@@ -1,0 +1,35 @@
+{
+  "id": 1200,
+  "slug": "tracedb-423c976a46",
+  "name": "TraceDB",
+  "mentions": [
+    {
+      "name": "TraceDB",
+      "description": "Observability platform aimed at overhauling root-cause analysis. It works with OpenTelemetry tracing to piece together what failed, where a failure started, and how it spread, and the builder reports near-100% root-cause accuracy on synthetic test data while seeking validation on real production workloads.",
+      "problem": "Existing observability setups charge a premium to index millions of near-identical spans, sample away the rare spans that might explain an outage, and still leave engineers to manually piece together what failed, where it started, and how it spread.",
+      "audience": null,
+      "builder_usernames": [
+        "idea0rbit"
+      ],
+      "source_excerpt": "I’m building TraceDB[1] because I think observability needs an overhaul. We pay a premium to index millions of near-identical spans, sample away the rare ones that might explain an outage, and still have to piece together what failed, where it started, and how it spread.",
+      "evidence": [
+        {
+          "source_item_id": 49691334,
+          "source_field": "body",
+          "value": "I’m building TraceDB[1] because I think observability needs an overhaul. We pay a premium to index millions of near-identical spans, sample away the rare ones that might explain an outage, and still have to piece together what failed, where it started, and how it spread.",
+          "supports": [],
+          "author": "idea0rbit",
+          "shared_at": 1789354119,
+          "source_url": "https://news.ycombinator.com/item?id=49691334"
+        }
+      ],
+      "source_item_id": 49691334,
+      "source_url": "https://news.ycombinator.com/item?id=49691334",
+      "author": "idea0rbit",
+      "shared_at": 1789354119,
+      "links": [
+        "https://tracedb.ai"
+      ]
+    }
+  ]
+}

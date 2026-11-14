@@ -1,0 +1,35 @@
+{
+  "id": 97,
+  "slug": "modmask-a8f6e70732",
+  "name": "modmask",
+  "mentions": [
+    {
+      "name": "modmask",
+      "description": "A minimal X11 application that prints the keyboard state and keycode on every key press, built to look up the state of special function keys like Alt-GR without searching the web. It began as the st terminal with unused functionality stripped out, and was ultimately rebuilt from a minimal Rosetta Code window-creation example.",
+      "problem": "Finding the keyboard state of special function keys like Alt-GR previously required searching the web.",
+      "audience": null,
+      "builder_usernames": [
+        "FattiMei"
+      ],
+      "source_excerpt": "A minimal X11 application that prints state and keycode on key press. I needed the state for special function keys like Alt-GR, but I didn't want to search the web for it.",
+      "evidence": [
+        {
+          "source_item_id": 50424725,
+          "source_field": "body",
+          "value": "A minimal X11 application that prints state and keycode on key press. I needed the state for special function keys like Alt-GR, but I didn't want to search the web for it.",
+          "supports": [],
+          "author": "FattiMei",
+          "shared_at": 1794227585,
+          "source_url": "https://news.ycombinator.com/item?id=50424725"
+        }
+      ],
+      "source_item_id": 50424725,
+      "source_url": "https://news.ycombinator.com/item?id=50424725",
+      "author": "FattiMei",
+      "shared_at": 1794227585,
+      "links": [
+        "https://github.com/FattiMei/modmask"
+      ]
+    }
+  ]
+}

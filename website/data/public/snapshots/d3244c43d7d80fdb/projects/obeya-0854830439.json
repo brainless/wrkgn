@@ -1,0 +1,63 @@
+{
+  "id": 63,
+  "slug": "obeya-0854830439",
+  "name": "Obeya",
+  "mentions": [
+    {
+      "name": "Obeya",
+      "description": "An open-source spatial workspace for directing AI coding agents like an engineering director. Each project gets a canvas with work laid out as cards, each card backed by an agent running in its own worktree. Agent chat is condensed to WhatsApp-style back-and-forth instead of raw tool-call logs, results are narrated demo videos the user can comment on by voice to have the agent run another round, and it supports remote control from a phone plus remote workers to scale beyond a single machine.",
+      "problem": "The author was overwhelmed by walls of text from parallel Claude Code sessions, which limited the number of sessions they could steer in parallel to about five.",
+      "audience": null,
+      "builder_usernames": [
+        "sadilek"
+      ],
+      "source_excerpt": "I'm building an open-source \"spatial workspace for directing AI coding agents like an engineering director\".",
+      "evidence": [
+        {
+          "source_item_id": 50422924,
+          "source_field": "body",
+          "value": "I'm building an open-source \"spatial workspace for directing AI coding agents like an engineering director\".",
+          "supports": [],
+          "author": "sadilek",
+          "shared_at": 1794214478,
+          "source_url": "https://news.ycombinator.com/item?id=50422924"
+        }
+      ],
+      "source_item_id": 50422924,
+      "source_url": "https://news.ycombinator.com/item?id=50422924",
+      "author": "sadilek",
+      "shared_at": 1794214478,
+      "links": [
+        "https://github.com/sadilek/obeya"
+      ]
+    },
+    {
+      "name": "Obeya",
+      "description": "Open-source spatial workspace for directing AI coding agents like an engineering director. Each project gets a canvas with work laid out as cards, an agent running in a worktree per card, and chat condensed to WhatsApp-style back-and-forth instead of litany of tool calls. Agents usually return a narrated demo video that can be commented on by voice to send the agent another round, with remote control from a phone and remote workers to scale beyond one machine.",
+      "problem": "Walls of text from parallel Claude Code sessions limited the number of sessions that could be steered in parallel to maybe 5 or 6.",
+      "audience": "developers working with AI coding agents who need to steer many parallel sessions",
+      "builder_usernames": [
+        "sadilek"
+      ],
+      "source_excerpt": "I'm building an open-source \"spatial workspace for directing AI coding agents like an engineering director\".\n\nI got overwhelmed by walls of text of parallel Claude Code sessions.",
+      "evidence": [
+        {
+          "source_item_id": 50390534,
+          "source_field": "body",
+          "value": "I'm building an open-source \"spatial workspace for directing AI coding agents like an engineering director\".\n\nI got overwhelmed by walls of text of parallel Claude Code sessions.",
+          "supports": [],
+          "author": "sadilek",
+          "shared_at": 1793960562,
+          "source_url": "https://news.ycombinator.com/item?id=50390534"
+        }
+      ],
+      "source_item_id": 50390534,
+      "source_url": "https://news.ycombinator.com/item?id=50390534",
+      "author": "sadilek",
+      "shared_at": 1793960562,
+      "links": [
+        "https://github.com/sadilek/obeya"
+      ]
+    }
+  ]
+}

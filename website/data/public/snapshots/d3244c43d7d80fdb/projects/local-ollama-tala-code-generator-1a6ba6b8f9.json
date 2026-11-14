@@ -1,0 +1,33 @@
+{
+  "id": 1514,
+  "slug": "local-ollama-tala-code-generator-1a6ba6b8f9",
+  "name": "Local Ollama TALA code generator",
+  "mentions": [
+    {
+      "name": "Local Ollama TALA code generator",
+      "description": "This project trains a local 1.5B-parameter Ollama model to generate TALA code, enabling creation of flowcharts exportable to mermaid and napkin formats for hackathon use; it is currently collecting quality training data and weighing whether the model is feasible with limited snippets versus synthetic data.",
+      "problem": "Collecting enough quality training data is hard: cloning the official d2 repository yielded only 79 code snippets, leaving the builder unsure how to train with so little data or whether to generate synthetic data instead.",
+      "audience": "Hackathon participants who use mermaid/napkin-style flowcharts",
+      "builder_usernames": [
+        "darkhorse_chenn"
+      ],
+      "source_excerpt": "i thought like why not we train a local ollama  model 1.5 b parameters and make it generate tala code ,so i can develop flowcharts which we can get in mermaid ,napkin which we use for hackathons",
+      "evidence": [
+        {
+          "source_item_id": 49693270,
+          "source_field": "body",
+          "value": "i thought like why not we train a local ollama  model 1.5 b parameters and make it generate tala code ,so i can develop flowcharts which we can get in mermaid ,napkin which we use for hackathons",
+          "supports": [],
+          "author": "darkhorse_chenn",
+          "shared_at": 1789371605,
+          "source_url": "https://news.ycombinator.com/item?id=49693270"
+        }
+      ],
+      "source_item_id": 49693270,
+      "source_url": "https://news.ycombinator.com/item?id=49693270",
+      "author": "darkhorse_chenn",
+      "shared_at": 1789371605,
+      "links": []
+    }
+  ]
+}

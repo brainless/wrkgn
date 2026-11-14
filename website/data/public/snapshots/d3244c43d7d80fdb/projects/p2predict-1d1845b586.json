@@ -1,0 +1,35 @@
+{
+  "id": 1057,
+  "slug": "p2predict-1d1845b586",
+  "name": "P2Predict",
+  "mentions": [
+    {
+      "name": "P2Predict",
+      "description": "This parametric pricing tool for procurement and sales learns from a company's purchase history which factors actually drive a part's price (supplier, material, spec, region), and lets an AI agent ask whether a quote is fair, returning a price estimate with a confidence range and a spec-by-spec breakdown. Use cases include data-driven negotiation targets, engineering value workshops (estimating BOM savings from spec changes), and sales bid preparation. It runs as a CLI, ships an MCP server so it plugs into Claude, GPT, or other agent harnesses, and works 100% locally and privately; it is free for internal company use and source-available. The author also validated its math on public TDC ADMET pharma benchmarks (placing 7th of 24 on one board) and used it to predict rent savings when moving apartments.",
+      "problem": "Price quotes and negotiation targets are often guesses; buyers and sellers lack data on what actually drives a part's price.",
+      "audience": "Procurement and sales teams, plus engineering teams running value workshops to cut BOM costs.",
+      "builder_usernames": [
+        "ahmedkhafsi"
+      ],
+      "source_excerpt": "Working on P2Predict, a parametric pricing tool for agents, mainly in procurement, but also sales. Point it at your own purchase history and it learns what actually drives the price of a part (supplier, material, spec, region, whatever), then an AI agent can ask it things like \"is this $14.20 quote fair\" and get back a number with a confidence range and a spec-by-spec breakdown instead of a guess.",
+      "evidence": [
+        {
+          "source_item_id": 49710319,
+          "source_field": "body",
+          "value": "Working on P2Predict, a parametric pricing tool for agents, mainly in procurement, but also sales. Point it at your own purchase history and it learns what actually drives the price of a part (supplier, material, spec, region, whatever), then an AI agent can ask it things like \"is this $14.20 quote fair\" and get back a number with a confidence range and a spec-by-spec breakdown instead of a guess.",
+          "supports": [],
+          "author": "ahmedkhafsi",
+          "shared_at": 1789468219,
+          "source_url": "https://news.ycombinator.com/item?id=49710319"
+        }
+      ],
+      "source_item_id": 49710319,
+      "source_url": "https://news.ycombinator.com/item?id=49710319",
+      "author": "ahmedkhafsi",
+      "shared_at": 1789468219,
+      "links": [
+        "https://github.com/ahmed-khalil-hafsi/P2Predict"
+      ]
+    }
+  ]
+}

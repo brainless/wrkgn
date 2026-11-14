@@ -1,0 +1,33 @@
+{
+  "id": 2329,
+  "slug": "local-llm-testing-and-benchmarks-d4083de182",
+  "name": "Local LLM testing and benchmarks",
+  "mentions": [
+    {
+      "name": "Local LLM testing and benchmarks",
+      "description": "This project tests and benchmarks local LLMs, currently using OpenVINO, and maintains private benchmarks indicating that edge models should not be trusted too much.",
+      "problem": "Motivated by fear of price spikes for hosted LLMs.",
+      "audience": null,
+      "builder_usernames": [
+        "goerch"
+      ],
+      "source_excerpt": "I'm slowly finding my way back to testing local LLMs (out of fear of price spikes). Currently positively surprised by OpenVINO. But my private benchmarks indicate not to trust edge models too much.",
+      "evidence": [
+        {
+          "source_item_id": 49234479,
+          "source_field": "body",
+          "value": "I'm slowly finding my way back to testing local LLMs (out of fear of price spikes). Currently positively surprised by OpenVINO. But my private benchmarks indicate not to trust edge models too much.",
+          "supports": [],
+          "author": "goerch",
+          "shared_at": 1786301838,
+          "source_url": "https://news.ycombinator.com/item?id=49234479"
+        }
+      ],
+      "source_item_id": 49234479,
+      "source_url": "https://news.ycombinator.com/item?id=49234479",
+      "author": "goerch",
+      "shared_at": 1786301838,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 355,
+  "slug": "meli-6489243a5b",
+  "name": "Meli",
+  "mentions": [
+    {
+      "name": "Meli",
+      "description": "A privacy-focused spending tracker for Mac that turns credit card alert emails into spending insights and budgets. It connects to the inbox read-only (OAuth for Google/Microsoft or IMAP) and reads only alerts from supported senders, with all parsing done on-device so financial data stays local instead of in the cloud via aggregators like Plaid. Works with seven major US banks (AMEX, Capital One, Chase, Citi, Discover, Bank of America, Wells Fargo) plus PayPal and Venmo, automating what otherwise required maintaining spreadsheets.",
+      "problem": "Financial aggregators like Plaid store data in the cloud and maintaining spreadsheets by hand required a lot of work, so the author wanted automated spending tracking with financial data kept locally on the device.",
+      "audience": "Mac users who want to track personal spending without sending financial data to the cloud",
+      "builder_usernames": [
+        "alphax314"
+      ],
+      "source_excerpt": "Meli: A spending tracker for Mac designed with privacy in mind. Turns credit card alert emails into spending insights and budgets. I was in security for 15+ years and I built it because I didn't want to use Plaid or other aggregators and wanted my financial data locally on my device and not in the cloud.",
+      "evidence": [
+        {
+          "source_item_id": 50418119,
+          "source_field": "body",
+          "value": "Meli: A spending tracker for Mac designed with privacy in mind. Turns credit card alert emails into spending insights and budgets. I was in security for 15+ years and I built it because I didn't want to use Plaid or other aggregators and wanted my financial data locally on my device and not in the cloud.",
+          "supports": [],
+          "author": "alphax314",
+          "shared_at": 1794177050,
+          "source_url": "https://news.ycombinator.com/item?id=50418119"
+        }
+      ],
+      "source_item_id": 50418119,
+      "source_url": "https://news.ycombinator.com/item?id=50418119",
+      "author": "alphax314",
+      "shared_at": 1794177050,
+      "links": [
+        "https://trymeli.app"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 1293,
+  "slug": "lokalbot-2d543ab984",
+  "name": "LokalBot",
+  "mentions": [
+    {
+      "name": "LokalBot",
+      "description": "Open-source Mac app that transcribes meetings and can save screen context so it can be searched later. Runs locally by default, using Qwen LLMs as the main engine.",
+      "problem": "Forgetting where you heard something or what was agreed on in a call.",
+      "audience": null,
+      "builder_usernames": [
+        "stevyhacker"
+      ],
+      "source_excerpt": "I’m building LokalBot https://github.com/stevyhacker/lokalbot because I keep forgetting where I heard something or what we agreed on in a call.\n\nIt’s an open-source Mac app that transcribes meetings and can save screen context, so I can search through it later. It runs locally by default with Qwen LLMs as the main engine.",
+      "evidence": [
+        {
+          "source_item_id": 49709312,
+          "source_field": "body",
+          "value": "I’m building LokalBot https://github.com/stevyhacker/lokalbot because I keep forgetting where I heard something or what we agreed on in a call.\n\nIt’s an open-source Mac app that transcribes meetings and can save screen context, so I can search through it later. It runs locally by default with Qwen LLMs as the main engine.",
+          "supports": [],
+          "author": "stevyhacker",
+          "shared_at": 1789459912,
+          "source_url": "https://news.ycombinator.com/item?id=49709312"
+        }
+      ],
+      "source_item_id": 49709312,
+      "source_url": "https://news.ycombinator.com/item?id=49709312",
+      "author": "stevyhacker",
+      "shared_at": 1789459912,
+      "links": [
+        "https://github.com/stevyhacker/lokalbot"
+      ]
+    }
+  ]
+}

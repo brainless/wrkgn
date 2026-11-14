@@ -1,0 +1,35 @@
+{
+  "id": 1162,
+  "slug": "tuivir-829bb78d04",
+  "name": "Tuivir",
+  "mentions": [
+    {
+      "name": "Tuivir",
+      "description": "This is a Rust-based terminal UI (TUI) for managing containers, VMs, and microVMs in a provider-agnostic way. It supports Docker, Incus, and Docker Sandbox, with Podman, Apple Containers, and Tart on the way. Users can manage resources, inspect logs and details, and open persistent side shell sessions using an Alacritty backend, so sessions survive navigating elsewhere.",
+      "problem": "Existing TUI tools like LazyDocker only cover Docker; this tool was built to work across all virtualization providers and to offer better shell integration.",
+      "audience": null,
+      "builder_usernames": [
+        "saif97"
+      ],
+      "source_excerpt": "I've been working on Tuivir, a Rust TUI for managing containers, VMs, and microVMs. One TUI Provider Agnostic.",
+      "evidence": [
+        {
+          "source_item_id": 49721654,
+          "source_field": "body",
+          "value": "I've been working on Tuivir, a Rust TUI for managing containers, VMs, and microVMs. One TUI Provider Agnostic.",
+          "supports": [],
+          "author": "saif97",
+          "shared_at": 1789528033,
+          "source_url": "https://news.ycombinator.com/item?id=49721654"
+        }
+      ],
+      "source_item_id": 49721654,
+      "source_url": "https://news.ycombinator.com/item?id=49721654",
+      "author": "saif97",
+      "shared_at": 1789528033,
+      "links": [
+        "https://github.com/saif97/Tuivir"
+      ]
+    }
+  ]
+}

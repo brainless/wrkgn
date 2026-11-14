@@ -1,0 +1,35 @@
+{
+  "id": 3287,
+  "slug": "gaming-wiki-analysis-63c4cbccc5",
+  "name": "Gaming Wiki Analysis",
+  "mentions": [
+    {
+      "name": "Gaming Wiki Analysis",
+      "description": "This project ports the Wikipedia \"Getting to Philosophy\" click-trail experiment to gaming wikis, using AI agents to gather data and producing an interactive mesh visualization of the link paths, with work underway to turn it into an immersive article sharing emerging patterns and differences across the various wikis.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "AntonyGarand"
+      ],
+      "source_excerpt": "Recently, this has been porting the wikipedia \"Getting to philosophy\"[0] to other gaming wikis, and working alongside agents got me to a really nice visualization[1] for it.\n\nI'm now slowly working towards converting this to an immersive article so I can share some of the emerging patterns and evaluating the differences within the various wikis.",
+      "evidence": [
+        {
+          "source_item_id": 50426813,
+          "source_field": "body",
+          "value": "Recently, this has been porting the wikipedia \"Getting to philosophy\"[0] to other gaming wikis, and working alongside agents got me to a really nice visualization[1] for it.\n\nI'm now slowly working towards converting this to an immersive article so I can share some of the emerging patterns and evaluating the differences within the various wikis.",
+          "supports": [],
+          "author": "AntonyGarand",
+          "shared_at": 1794237423,
+          "source_url": "https://news.ycombinator.com/item?id=50426813"
+        }
+      ],
+      "source_item_id": 50426813,
+      "source_url": "https://news.ycombinator.com/item?id=50426813",
+      "author": "AntonyGarand",
+      "shared_at": 1794237423,
+      "links": [
+        "https://antonygarand.github.io/gaming-wiki-analysis/mesh/"
+      ]
+    }
+  ]
+}

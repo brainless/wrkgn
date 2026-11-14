@@ -1,0 +1,35 @@
+{
+  "id": 392,
+  "slug": "hono-inertia-8f8eb15f7c",
+  "name": "hono-inertia",
+  "mentions": [
+    {
+      "name": "hono-inertia",
+      "description": "An adapter that integrates Inertia.js with the Hono web framework, aiming to become the best Inertia adapter for Hono and a strong way to do server-side rendering in Vue or other frontend frameworks, avoiding reliance on full-stack frameworks.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "brachkow"
+      ],
+      "source_excerpt": "1. v4 of my Inertia.js adapter for the Hono framework – https://github.com/brachkow/hono-inertia/pull/6\n\nI want to expand the thing I made to write Things To Have without relying on annoying \"full-stack\" frameworks, into:\n\n- the best Inertia adapter for Hono\n\n- the best way to do SSR in Vue (or whatever framework you use)",
+      "evidence": [
+        {
+          "source_item_id": 50424195,
+          "source_field": "body",
+          "value": "1. v4 of my Inertia.js adapter for the Hono framework – https://github.com/brachkow/hono-inertia/pull/6\n\nI want to expand the thing I made to write Things To Have without relying on annoying \"full-stack\" frameworks, into:\n\n- the best Inertia adapter for Hono\n\n- the best way to do SSR in Vue (or whatever framework you use)",
+          "supports": [],
+          "author": "brachkow",
+          "shared_at": 1794224182,
+          "source_url": "https://news.ycombinator.com/item?id=50424195"
+        }
+      ],
+      "source_item_id": 50424195,
+      "source_url": "https://news.ycombinator.com/item?id=50424195",
+      "author": "brachkow",
+      "shared_at": 1794224182,
+      "links": [
+        "https://github.com/brachkow/hono-inertia/pull/6"
+      ]
+    }
+  ]
+}

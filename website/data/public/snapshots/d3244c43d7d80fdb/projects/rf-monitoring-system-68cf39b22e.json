@@ -1,0 +1,33 @@
+{
+  "id": 2511,
+  "slug": "rf-monitoring-system-68cf39b22e",
+  "name": "RF Monitoring System",
+  "mentions": [
+    {
+      "name": "RF Monitoring System",
+      "description": "This RF monitoring system identifies and correlates nearby Bluetooth/BLE/WiFi devices (e.g. linking a parked car to a named set of earbuds by MAC address), alerts on sudden cross-spectrum interference such as cheap jammers used to knock out WiFi cameras, alerts when known devices lose contact or leave the premises, and reviews device movement across a campus or neighborhood using multiple RF pods. It runs on low-power hardware like a Raspberry Pi, supports multiple RF sensors, provides a web UI, can publish events to an external security system, and is gaining an LLM interface so a non-technical operator can set policies and ask questions. It could be sold as an appliance system or a license for a DIY build.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rf-monitor"
+      ],
+      "source_excerpt": "I'm building an RF monitoring system.\n\nIt can tell you things like:\n\n- The car that parked nearby last night coincided with \"Chad's Galaxy Buds\"  with MAC address aa:bb:cc:dd:ee:ff. The buds also drove by briefly the previous night.\n\n- Alert on sudden cross-specturm interference (e.g. burglars using a cheap jammer to knock out WiFi cameras).\n\n- Alert on known device contact loss (powered off / left premises).\n\n- Review device movement across a campus/neighborhood (using multiple RF pods).\n\nI have a working PoC. It can run on a low-power computer (e.g. RPi) supporting multiple RF sensors (BT/BLE/WiFi). Has a web UI. Can publish events to an external security system. Currently working on an LLM interface to make it easy for a non-technical operator to set policies and ask questions.",
+      "evidence": [
+        {
+          "source_item_id": 48892954,
+          "source_field": "body",
+          "value": "I'm building an RF monitoring system.\n\nIt can tell you things like:\n\n- The car that parked nearby last night coincided with \"Chad's Galaxy Buds\"  with MAC address aa:bb:cc:dd:ee:ff. The buds also drove by briefly the previous night.\n\n- Alert on sudden cross-specturm interference (e.g. burglars using a cheap jammer to knock out WiFi cameras).\n\n- Alert on known device contact loss (powered off / left premises).\n\n- Review device movement across a campus/neighborhood (using multiple RF pods).\n\nI have a working PoC. It can run on a low-power computer (e.g. RPi) supporting multiple RF sensors (BT/BLE/WiFi). Has a web UI. Can publish events to an external security system. Currently working on an LLM interface to make it easy for a non-technical operator to set policies and ask questions.",
+          "supports": [],
+          "author": "rf-monitor",
+          "shared_at": 1783951654,
+          "source_url": "https://news.ycombinator.com/item?id=48892954"
+        }
+      ],
+      "source_item_id": 48892954,
+      "source_url": "https://news.ycombinator.com/item?id=48892954",
+      "author": "rf-monitor",
+      "shared_at": 1783951654,
+      "links": []
+    }
+  ]
+}

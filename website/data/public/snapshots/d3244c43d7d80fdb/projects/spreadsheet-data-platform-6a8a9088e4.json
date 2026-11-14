@@ -1,0 +1,35 @@
+{
+  "id": 1827,
+  "slug": "spreadsheet-data-platform-6a8a9088e4",
+  "name": "Spreadsheet Data Platform",
+  "mentions": [
+    {
+      "name": "Spreadsheet Data Platform",
+      "description": "A spreadsheet platform in which every component is a plugin that users can supply or write themselves: custom formula functions, custom cell value formatting, custom templates and scripts that generate spreadsheets, and context-executing scripts or plugins that shorten common snippets. It includes a terminal where everything in the spreadsheet is a file — cells can be read and written as paths like /cell/A1.txt or /spreadsheet/123/cell/A1, with environment values such as SPREADSHEET_ID.",
+      "problem": "Conventional spreadsheets limit formula functions, value formatting, templates, and icon-based interaction; this platform lets users replace each of these with their own plugins and scripts.",
+      "audience": null,
+      "builder_usernames": [
+        "MiroslavPokorny"
+      ],
+      "source_excerpt": "Im working on what i call a spreadsheet data platform. It looks like a spreadsheet but all the components are plugins which means the user can provide (even write their own).",
+      "evidence": [
+        {
+          "source_item_id": 49238081,
+          "source_field": "body",
+          "value": "Im working on what i call a spreadsheet data platform. It looks like a spreadsheet but all the components are plugins which means the user can provide (even write their own).",
+          "supports": [],
+          "author": "MiroslavPokorny",
+          "shared_at": 1786323947,
+          "source_url": "https://news.ycombinator.com/item?id=49238081"
+        }
+      ],
+      "source_item_id": 49238081,
+      "source_url": "https://news.ycombinator.com/item?id=49238081",
+      "author": "MiroslavPokorny",
+      "shared_at": 1786323947,
+      "links": [
+        "https://github.com/mP1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 205,
+  "slug": "lipik-3a55a6530b",
+  "name": "Lipik",
+  "mentions": [
+    {
+      "name": "Lipik",
+      "description": "Free open-source dictation app for Mac: hold fn, speak, release, and cleaned-up text lands in any app. It removes ums and self-corrections, turns spoken punctuation into real punctuation, and runs both speech-to-text and clean-up locally on the Mac. On 106 English test clips, fully correct lines rose from 28% to 76% with clean-up on; Hinglish (Hindi + English in Roman letters) support is in progress, currently passing 7 of 20 test lines.",
+      "problem": "Standard dictation output is messy: fillers like ums, self-corrections, and spoken punctuation stay in the text, leaving only 28% of lines fully correct before clean-up.",
+      "audience": null,
+      "builder_usernames": [
+        "herculeswarrior"
+      ],
+      "source_excerpt": "Lipik, a free open-source dictation app for Mac (https://github.com/Gourav2609/lipik). Hold fn, talk, let go, and clean text lands in any app: ums and self-corrections removed, spoken punctuation turned into real punctuation.",
+      "evidence": [
+        {
+          "source_item_id": 50333797,
+          "source_field": "body",
+          "value": "Lipik, a free open-source dictation app for Mac (https://github.com/Gourav2609/lipik). Hold fn, talk, let go, and clean text lands in any app: ums and self-corrections removed, spoken punctuation turned into real punctuation.",
+          "supports": [],
+          "author": "herculeswarrior",
+          "shared_at": 1793601833,
+          "source_url": "https://news.ycombinator.com/item?id=50333797"
+        }
+      ],
+      "source_item_id": 50333797,
+      "source_url": "https://news.ycombinator.com/item?id=50333797",
+      "author": "herculeswarrior",
+      "shared_at": 1793601833,
+      "links": [
+        "https://github.com/Gourav2609/lipik"
+      ]
+    }
+  ]
+}

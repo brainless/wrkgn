@@ -1,0 +1,36 @@
+{
+  "id": 244,
+  "slug": "camera-nocta-a1c1aad44c",
+  "name": "Camera Nocta",
+  "mentions": [
+    {
+      "name": "Camera Nocta",
+      "description": "A mobile photography app for Android and iPhone that captures black-and-white and film-style photos, tuned for portraits and fashion photography. It uses a custom RAW pipeline with its own denoise to preserve natural grain instead of the 'skin waxing' effect of typical noise reduction and AI, has an opinionated UI geared toward shooting over editing, and features color tools that push color more like dye and pigment than standard saturation tools. It is released on Android with a TestFlight build for iOS.",
+      "problem": "Existing noise reduction and AI processing produce unnatural 'skin waxing' in photos, which the author wanted to avoid in favor of natural grain.",
+      "audience": "Portrait and fashion photographers",
+      "builder_usernames": [
+        "simonsarris"
+      ],
+      "source_excerpt": "Camera Nocta. I started making an Android app to take better black and white photos of my wife, and it snowballed into a full fledged film-styles app for both Android and iPhone (if I ever get app store approval). It's best for portraits (tuned for a lot of skin) and fashion photography.",
+      "evidence": [
+        {
+          "source_item_id": 50419925,
+          "source_field": "body",
+          "value": "Camera Nocta. I started making an Android app to take better black and white photos of my wife, and it snowballed into a full fledged film-styles app for both Android and iPhone (if I ever get app store approval). It's best for portraits (tuned for a lot of skin) and fashion photography.",
+          "supports": [],
+          "author": "simonsarris",
+          "shared_at": 1794188649,
+          "source_url": "https://news.ycombinator.com/item?id=50419925"
+        }
+      ],
+      "source_item_id": 50419925,
+      "source_url": "https://news.ycombinator.com/item?id=50419925",
+      "author": "simonsarris",
+      "shared_at": 1794188649,
+      "links": [
+        "https://play.google.com/store/apps/details?id=com.cafesarris.nocta",
+        "https://testflight.apple.com/join/Jtppv1Xc"
+      ]
+    }
+  ]
+}

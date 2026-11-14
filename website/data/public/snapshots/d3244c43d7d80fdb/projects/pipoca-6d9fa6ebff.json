@@ -1,0 +1,35 @@
+{
+  "id": 1229,
+  "slug": "pipoca-6d9fa6ebff",
+  "name": "Pipoca",
+  "mentions": [
+    {
+      "name": "Pipoca",
+      "description": "Chat app for small groups that works like Twitter in chat form: everything is tag-based with no channels, and users create and share lenses (saved searches) so they can speak across multiple channels at once, filter out specific people or topics, and organize conversations after the fact.",
+      "problem": "Chat apps focus too much on scaling to large, low-trust groups instead of serving small, trusted groups.",
+      "audience": "Small groups of people, no larger than Dunbar's number",
+      "builder_usernames": [
+        "zeldahessler"
+      ],
+      "source_excerpt": "I've been working on a chat app for small groups as an alternative to chat apps focused on large, low-trust groups. I think people focus on \"scaling\" too much. I want to make software for groups no larger than Dunbar's number.\n\nAnyhow it's basically just twitter but as a chat app. Everything is tag-based and there are no channels. Instead, users create and share lenses, which are just saved searches.",
+      "evidence": [
+        {
+          "source_item_id": 49694356,
+          "source_field": "body",
+          "value": "I've been working on a chat app for small groups as an alternative to chat apps focused on large, low-trust groups. I think people focus on \"scaling\" too much. I want to make software for groups no larger than Dunbar's number.\n\nAnyhow it's basically just twitter but as a chat app. Everything is tag-based and there are no channels. Instead, users create and share lenses, which are just saved searches.",
+          "supports": [],
+          "author": "zeldahessler",
+          "shared_at": 1789379877,
+          "source_url": "https://news.ycombinator.com/item?id=49694356"
+        }
+      ],
+      "source_item_id": 49694356,
+      "source_url": "https://news.ycombinator.com/item?id=49694356",
+      "author": "zeldahessler",
+      "shared_at": 1789379877,
+      "links": [
+        "https://pipoca.chat"
+      ]
+    }
+  ]
+}

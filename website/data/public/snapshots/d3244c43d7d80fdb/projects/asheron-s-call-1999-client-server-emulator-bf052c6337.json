@@ -1,0 +1,33 @@
+{
+  "id": 88,
+  "slug": "asheron-s-call-1999-client-server-emulator-bf052c6337",
+  "name": "Asheron's Call 1999 server emulator",
+  "mentions": [
+    {
+      "name": "Asheron's Call 1999 server emulator",
+      "description": "A server emulator that works with the original 1999 Asheron's Call game client (as well as surviving beta and preview clients), enabling play of the game as it existed at launch. It reproduces the launch-era network protocol that differs drastically from the 2015 end-of-retail client other emulators target, and restores the original game mechanics, quests, and world content that were abandoned or changed over time, aided by AI-assisted tooling and detailed community documentation.",
+      "problem": "The 1999 client's network communication layer is so different from the end-of-retail (2015) client that other Asheron's Call server emulators can't support it, and launch-era game mechanics, content, and quests were abandoned or changed over time.",
+      "audience": null,
+      "builder_usernames": [
+        "AtticusTheGreat"
+      ],
+      "source_excerpt": "For the past 6 months I've been working on building a server emulator that works with the original 1999 Asheron's Call game client (as well as the beta and preview clients we have access to).",
+      "evidence": [
+        {
+          "source_item_id": 50428218,
+          "source_field": "body",
+          "value": "For the past 6 months I've been working on building a server emulator that works with the original 1999 Asheron's Call game client (as well as the beta and preview clients we have access to).",
+          "supports": [],
+          "author": "AtticusTheGreat",
+          "shared_at": 1794243391,
+          "source_url": "https://news.ycombinator.com/item?id=50428218"
+        }
+      ],
+      "source_item_id": 50428218,
+      "source_url": "https://news.ycombinator.com/item?id=50428218",
+      "author": "AtticusTheGreat",
+      "shared_at": 1794243391,
+      "links": []
+    }
+  ]
+}

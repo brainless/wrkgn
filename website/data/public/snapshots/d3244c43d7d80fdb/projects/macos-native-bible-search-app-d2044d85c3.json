@@ -1,0 +1,33 @@
+{
+  "id": 474,
+  "slug": "macos-native-bible-search-app-d2044d85c3",
+  "name": "Fast macOS Bible Search App",
+  "mentions": [
+    {
+      "name": "Fast macOS Bible Search App",
+      "description": "This fast macOS-native app provides Bible search, laying out all 31k verses in under 10ms in a single scrollable window and filtering results on each keystroke in under 6ms. It supports deep search syntax (ranges, quoting), lets users click an English word to search for verses containing the underlying Greek, Hebrew, or Aramaic word, matches Greek words against Old Testament verses via the Septuagint, and includes built-in Greek and Hebrew lexicons that display entries for each original-language term.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "TimTheTinker"
+      ],
+      "source_excerpt": "A fast macOS-native Bible search app\n\n- lays out all 31k verses in <10ms in a single scrollable window (tested on my M1 Pro MacBook)\n\n- each keystroke in the search bar filters results and lays them out in <6ms",
+      "evidence": [
+        {
+          "source_item_id": 50420956,
+          "source_field": "body",
+          "value": "A fast macOS-native Bible search app\n\n- lays out all 31k verses in <10ms in a single scrollable window (tested on my M1 Pro MacBook)\n\n- each keystroke in the search bar filters results and lays them out in <6ms",
+          "supports": [],
+          "author": "TimTheTinker",
+          "shared_at": 1794197175,
+          "source_url": "https://news.ycombinator.com/item?id=50420956"
+        }
+      ],
+      "source_item_id": 50420956,
+      "source_url": "https://news.ycombinator.com/item?id=50420956",
+      "author": "TimTheTinker",
+      "shared_at": 1794197175,
+      "links": []
+    }
+  ]
+}

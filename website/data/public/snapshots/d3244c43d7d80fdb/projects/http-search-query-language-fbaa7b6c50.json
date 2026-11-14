@@ -1,0 +1,35 @@
+{
+  "id": 1260,
+  "slug": "http-search-query-language-fbaa7b6c50",
+  "name": "http-search-query-language",
+  "mentions": [
+    {
+      "name": "http-search-query-language",
+      "description": "A research project analyzing 68 query languages for performing search/query operations over HTTP, specifically in the context of the new HTTP QUERY method. It helps API designers determine whether one of the analyzed query languages already fits the content of a QUERY request or whether a brand-new, purpose-built query language is a better choice.",
+      "problem": "API authors need to figure out whether an existing query language fits the query content of an HTTP QUERY request, or whether none does and a new purpose-built query language is warranted.",
+      "audience": "API designers and developers choosing a query language for the HTTP QUERY method in their own APIs",
+      "builder_usernames": [
+        "bpedro"
+      ],
+      "source_excerpt": "https://github.com/imminent-technology/http-search-query-language\n\nResearch on which query language to use when performing search/query operations over HTTP — specifically in the context of the new HTTP QUERY method.\n\nUse this research to figure out, for your own API, whether one of the 68 query languages analyzed here already fits the query content of a QUERY request — or whether none of them do, and you're better off designing a brand new, purpose-built query language instead.",
+      "evidence": [
+        {
+          "source_item_id": 49693412,
+          "source_field": "body",
+          "value": "https://github.com/imminent-technology/http-search-query-language\n\nResearch on which query language to use when performing search/query operations over HTTP — specifically in the context of the new HTTP QUERY method.\n\nUse this research to figure out, for your own API, whether one of the 68 query languages analyzed here already fits the query content of a QUERY request — or whether none of them do, and you're better off designing a brand new, purpose-built query language instead.",
+          "supports": [],
+          "author": "bpedro",
+          "shared_at": 1789372725,
+          "source_url": "https://news.ycombinator.com/item?id=49693412"
+        }
+      ],
+      "source_item_id": 49693412,
+      "source_url": "https://news.ycombinator.com/item?id=49693412",
+      "author": "bpedro",
+      "shared_at": 1789372725,
+      "links": [
+        "https://github.com/imminent-technology/http-search-query-language"
+      ]
+    }
+  ]
+}

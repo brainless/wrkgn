@@ -1,0 +1,35 @@
+{
+  "id": 2661,
+  "slug": "grafily-91fd9e96f4",
+  "name": "Grafily",
+  "mentions": [
+    {
+      "name": "Grafily",
+      "description": "An Obsidian plugin for building and rendering family tree graphs for genealogy research. It visualizes family member relationships as an interactive tree/graph view (similar to myheritage.com's viewer) directly inside Obsidian, so genealogy data stays local instead of being stored on a third-party platform.",
+      "problem": "Genealogy data typically must be stored on third-party platforms like myheritage.com, and Obsidian lacked a tree/graph viewer for family member relationships; the author wanted a private, local alternative.",
+      "audience": "Genealogy researchers who want to keep family research data local and private",
+      "builder_usernames": [
+        "TheBestTvarynka"
+      ],
+      "source_excerpt": "I'm working on the Obsidian plugin for building and rendering family graphs [1]. I started my own genealogy research in 2025 and did not want to store data on a 3rd-party platform.",
+      "evidence": [
+        {
+          "source_item_id": 48892403,
+          "source_field": "body",
+          "value": "I'm working on the Obsidian plugin for building and rendering family graphs [1]. I started my own genealogy research in 2025 and did not want to store data on a 3rd-party platform.",
+          "supports": [],
+          "author": "TheBestTvarynka",
+          "shared_at": 1783949440,
+          "source_url": "https://news.ycombinator.com/item?id=48892403"
+        }
+      ],
+      "source_item_id": 48892403,
+      "source_url": "https://news.ycombinator.com/item?id=48892403",
+      "author": "TheBestTvarynka",
+      "shared_at": 1783949440,
+      "links": [
+        "https://github.com/TheBestTvarynka/grafily"
+      ]
+    }
+  ]
+}

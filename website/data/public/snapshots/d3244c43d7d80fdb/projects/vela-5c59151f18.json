@@ -1,0 +1,36 @@
+{
+  "id": 39,
+  "slug": "vela-5c59151f18",
+  "name": "Vela",
+  "mentions": [
+    {
+      "name": "Vela",
+      "description": "Vela is a Vulkan 1.4-based desktop environment built on wlroots with a custom renderer, aiming to be faster than Plasma with a focus on fractional scaling, sharpness, and usability. A benchmark suite under development shows roughly 40% lower RAM usage, 40% faster input lag, lower CPU usage in some activities, and faster responsiveness during high CPU usage from other tasks.",
+      "problem": "Existing desktop environments are heavier and slower; the project targets lower RAM usage, reduced input lag, and better responsiveness under high CPU load.",
+      "audience": null,
+      "builder_usernames": [
+        "BrandoDev_it"
+      ],
+      "source_excerpt": "Vela! A new desktop environment made to use just Vulkan 1.4, expecting to be faster than Plasma* and made with wlroots, but using a custom renderer. It has focus on fractional scaling, sharpness and usability.",
+      "evidence": [
+        {
+          "source_item_id": 50425176,
+          "source_field": "body",
+          "value": "Vela! A new desktop environment made to use just Vulkan 1.4, expecting to be faster than Plasma* and made with wlroots, but using a custom renderer. It has focus on fractional scaling, sharpness and usability.",
+          "supports": [],
+          "author": "BrandoDev_it",
+          "shared_at": 1794230162,
+          "source_url": "https://news.ycombinator.com/item?id=50425176"
+        }
+      ],
+      "source_item_id": 50425176,
+      "source_url": "https://news.ycombinator.com/item?id=50425176",
+      "author": "BrandoDev_it",
+      "shared_at": 1794230162,
+      "links": [
+        "https://github.com/vela-desktop/vela",
+        "https://velade.org"
+      ]
+    }
+  ]
+}

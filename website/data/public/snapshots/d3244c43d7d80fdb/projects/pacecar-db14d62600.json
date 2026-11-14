@@ -1,0 +1,35 @@
+{
+  "id": 537,
+  "slug": "pacecar-db14d62600",
+  "name": "Pacecar",
+  "mentions": [
+    {
+      "name": "Pacecar",
+      "description": "This GitHub App reviews pull requests by commenting on PR open and update events, including drafts. It is built to be cheap enough to keep running and fast enough to avoid waiting, addressing PR review as the bottleneck in AI coding workflows.",
+      "problem": "The bottleneck in most AI coding workflows is the actual PR review",
+      "audience": "The bottleneck in most AI coding workflows is the actual PR review",
+      "builder_usernames": [
+        "pacecar"
+      ],
+      "source_excerpt": "Working on a GitHub App that reviews PRs. https://pacecar.sh\n\nThe bottleneck in most AI coding workflows is the actual PR review, so this just comments on open and update, including drafts.",
+      "evidence": [
+        {
+          "source_item_id": 50421680,
+          "source_field": "body",
+          "value": "Working on a GitHub App that reviews PRs. https://pacecar.sh\n\nThe bottleneck in most AI coding workflows is the actual PR review, so this just comments on open and update, including drafts.",
+          "supports": [],
+          "author": "pacecar",
+          "shared_at": 1794204672,
+          "source_url": "https://news.ycombinator.com/item?id=50421680"
+        }
+      ],
+      "source_item_id": 50421680,
+      "source_url": "https://news.ycombinator.com/item?id=50421680",
+      "author": "pacecar",
+      "shared_at": 1794204672,
+      "links": [
+        "https://pacecar.sh"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 3225,
+  "slug": "ptz-camera-fov-move-calibrator-with-onvif-proxy-826640c0cc",
+  "name": "PTZ camera FOV-move calibrator with ONVIF proxy",
+  "mentions": [
+    {
+      "name": "PTZ camera FOV-move calibrator with ONVIF proxy",
+      "description": "A tool that characterises PTZ cameras with computer-vision tools and calibrates movement curves, producing a data file that an ONVIF proxy uses to emulate the more advanced move commands the cameras lack.",
+      "problem": "Many PTZ cameras don't support FOV move, which NVRs need for ML object detection and tracking, and only offer a clunky continuous move and stop.",
+      "audience": null,
+      "builder_usernames": [
+        "jhogendorn"
+      ],
+      "source_excerpt": "Been beating my head against a camera tool for a while now, finally making headway. Many ptz cameras dont support fov move, which nvrs need for ml object detection and tracking. They just have a super clunky continuous move and stop. So my tool characterises the camera with cv tools and calibrates movement curves to produce a data file that can be used by my onvif proxy to emulate the more advanced move commands.",
+      "evidence": [
+        {
+          "source_item_id": 48889370,
+          "source_field": "body",
+          "value": "Been beating my head against a camera tool for a while now, finally making headway. Many ptz cameras dont support fov move, which nvrs need for ml object detection and tracking. They just have a super clunky continuous move and stop. So my tool characterises the camera with cv tools and calibrates movement curves to produce a data file that can be used by my onvif proxy to emulate the more advanced move commands.",
+          "supports": [],
+          "author": "jhogendorn",
+          "shared_at": 1783930000,
+          "source_url": "https://news.ycombinator.com/item?id=48889370"
+        }
+      ],
+      "source_item_id": 48889370,
+      "source_url": "https://news.ycombinator.com/item?id=48889370",
+      "author": "jhogendorn",
+      "shared_at": 1783930000,
+      "links": []
+    }
+  ]
+}

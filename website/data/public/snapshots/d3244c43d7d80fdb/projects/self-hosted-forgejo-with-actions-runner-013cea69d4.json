@@ -1,0 +1,33 @@
+{
+  "id": 3350,
+  "slug": "self-hosted-forgejo-with-actions-runner-013cea69d4",
+  "name": "Self-hosted Forgejo with Actions runner",
+  "mentions": [
+    {
+      "name": "Self-hosted Forgejo with Actions runner",
+      "description": "Self-hosted code hosting and CI setup using Forgejo with an Actions runner to replace GitHub and GitLab, backed by a backup plan covering documents, the Immich library, the SaaS database, and the Forgejo repositories.",
+      "problem": "Replaces GitHub and GitLab with a self-hosted code hosting and CI setup.",
+      "audience": null,
+      "builder_usernames": [
+        "skwee357"
+      ],
+      "source_excerpt": "I completely ditched Github and Gitlab for self hosted forgejo + actions runner. I set up proper backup plan for everything I care (documents, immich library, my SaaS DB, and the forgejo repositories).",
+      "evidence": [
+        {
+          "source_item_id": 50391148,
+          "source_field": "body",
+          "value": "I completely ditched Github and Gitlab for self hosted forgejo + actions runner. I set up proper backup plan for everything I care (documents, immich library, my SaaS DB, and the forgejo repositories).",
+          "supports": [],
+          "author": "skwee357",
+          "shared_at": 1793965224,
+          "source_url": "https://news.ycombinator.com/item?id=50391148"
+        }
+      ],
+      "source_item_id": 50391148,
+      "source_url": "https://news.ycombinator.com/item?id=50391148",
+      "author": "skwee357",
+      "shared_at": 1793965224,
+      "links": []
+    }
+  ]
+}

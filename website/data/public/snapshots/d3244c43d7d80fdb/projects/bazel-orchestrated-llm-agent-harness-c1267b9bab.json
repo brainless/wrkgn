@@ -1,0 +1,33 @@
+{
+  "id": 1730,
+  "slug": "bazel-orchestrated-llm-agent-harness-c1267b9bab",
+  "name": "Bazel-orchestrated LLM agent harness",
+  "mentions": [
+    {
+      "name": "Bazel-orchestrated LLM agent harness",
+      "description": "An agent harness in which orchestration happens via Bazel, with agents fully isolated except for context expressed in Starlark. Agent executions are organized as a DAG like a build, where the output of one agent can serve as context for another, plus a feedback mechanism for arbiter nodes. Context isolation separates test writing from code writing using a specification as the source of truth; an arbiter runs the tests and feeds back to tests or implementation depending on who it blames for failures, so less reliable LLMs (like Qwen on a MacBook Pro) can be used to develop code. Planned for release on GitHub.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "seanmcdirmid"
+      ],
+      "source_excerpt": "I’m currently trying to get an agent harness going where orchestration happens via bazel, and agents are completely isolated beyond what context you give them access to as expressed in starlark. Agent executions are organized as a DAG like a build would be, where the output of one agent can serve as context for another (there is also a feedback mechanism which is needed for arbiter nodes).",
+      "evidence": [
+        {
+          "source_item_id": 49234551,
+          "source_field": "body",
+          "value": "I’m currently trying to get an agent harness going where orchestration happens via bazel, and agents are completely isolated beyond what context you give them access to as expressed in starlark. Agent executions are organized as a DAG like a build would be, where the output of one agent can serve as context for another (there is also a feedback mechanism which is needed for arbiter nodes).",
+          "supports": [],
+          "author": "seanmcdirmid",
+          "shared_at": 1786302242,
+          "source_url": "https://news.ycombinator.com/item?id=49234551"
+        }
+      ],
+      "source_item_id": 49234551,
+      "source_url": "https://news.ycombinator.com/item?id=49234551",
+      "author": "seanmcdirmid",
+      "shared_at": 1786302242,
+      "links": []
+    }
+  ]
+}

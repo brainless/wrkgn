@@ -1,0 +1,35 @@
+{
+  "id": 178,
+  "slug": "nokia-1100-linux-lte-replacement-motherboard-a2222fc1d2",
+  "name": "Nokia 1100 Linux LTE replacement motherboard",
+  "mentions": [
+    {
+      "name": "Nokia 1100 Linux LTE replacement motherboard",
+      "description": "A replacement motherboard for the Nokia 1100 that runs Linux and supports LTE, built on an Allwinner T113-S3 SoC with a Quectel EC25 LTE module. The software already works well on a MangoPi dev board, and two PCBs have been designed: a test-fit board that breaks the phone's keypad and LCD out to pin headers, and the actual full board. Voice calling works over LTE (verified on T-Mobile in the US); the next step is ordering the PCBA, which is expensive. Videos and photos of the test setup and board layout are on the project page.",
+      "problem": "Making voice calling work over LTE is tricky because of carrier rules.",
+      "audience": null,
+      "builder_usernames": [
+        "mlaux"
+      ],
+      "source_excerpt": "I'm making a replacement motherboard for the Nokia 1100 that runs Linux and supports LTE. I have the software working well on a MangoPi dev board and I've designed two PCBs: one \"test fit\" board that just breaks out the phone keypad/LCD to pin headers, and the actual board with everything on it.",
+      "evidence": [
+        {
+          "source_item_id": 50418085,
+          "source_field": "body",
+          "value": "I'm making a replacement motherboard for the Nokia 1100 that runs Linux and supports LTE. I have the software working well on a MangoPi dev board and I've designed two PCBs: one \"test fit\" board that just breaks out the phone keypad/LCD to pin headers, and the actual board with everything on it.",
+          "supports": [],
+          "author": "mlaux",
+          "shared_at": 1794176834,
+          "source_url": "https://news.ycombinator.com/item?id=50418085"
+        }
+      ],
+      "source_item_id": 50418085,
+      "source_url": "https://news.ycombinator.com/item?id=50418085",
+      "author": "mlaux",
+      "shared_at": 1794176834,
+      "links": [
+        "https://constcast.org/n1100c/"
+      ]
+    }
+  ]
+}

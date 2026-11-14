@@ -1,0 +1,33 @@
+{
+  "id": 65,
+  "slug": "proportional-width-font-terminal-6131fa6c08",
+  "name": "Proportional width font terminal",
+  "mentions": [
+    {
+      "name": "Proportional width font terminal",
+      "description": "This project is a terminal emulator that uses a proportional width font, so characters like 'i' and 'w' take up their appropriate horizontal space instead of the same monospaced width, while still using computation to keep table output from commands like ls -l and top aligned.",
+      "problem": "Terminals have required monospaced fonts where every character occupies the same horizontal space, a legacy of slow computers, which wastes horizontal space for narrow characters like 'i'.",
+      "audience": "developers",
+      "builder_usernames": [
+        "solyin"
+      ],
+      "source_excerpt": "A proportional width font terminal. \"i\" and \"w\" shouldn't take up the same amount of horizontal space.",
+      "evidence": [
+        {
+          "source_item_id": 50389705,
+          "source_field": "body",
+          "value": "A proportional width font terminal. \"i\" and \"w\" shouldn't take up the same amount of horizontal space.",
+          "supports": [],
+          "author": "solyin",
+          "shared_at": 1793954328,
+          "source_url": "https://news.ycombinator.com/item?id=50389705"
+        }
+      ],
+      "source_item_id": 50389705,
+      "source_url": "https://news.ycombinator.com/item?id=50389705",
+      "author": "solyin",
+      "shared_at": 1793954328,
+      "links": []
+    }
+  ]
+}

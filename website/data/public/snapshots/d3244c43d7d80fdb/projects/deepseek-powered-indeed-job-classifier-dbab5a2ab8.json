@@ -1,0 +1,33 @@
+{
+  "id": 3089,
+  "slug": "deepseek-powered-indeed-job-classifier-dbab5a2ab8",
+  "name": "DeepSeek-powered Indeed job classifier",
+  "mentions": [
+    {
+      "name": "DeepSeek-powered Indeed job classifier",
+      "description": "A personal job-discovery pipeline that scrapes Indeed listings and uses DeepSeek to classify each job against custom criteria (e.g., high face-to-face customer time, not sales), to surface promising jobs for direct outreach to hiring teams.",
+      "problem": "The author's criteria (high total customer face-to-face time, high face-to-face time per customer, probably not sales) are too abstract to map cleanly to traditional job board filters, and coverage of scraped listings is an issue.",
+      "audience": null,
+      "builder_usernames": [
+        "maxaw"
+      ],
+      "source_excerpt": "as these are too abstract to map cleanly to traditional job board filters I’m scraping indeed and using deepseek to classify jobs according to this criteria, with an aim to discover really good jobs and then put a lot of effort into each of those jobs, like reaching out to hiring teams directly etc.",
+      "evidence": [
+        {
+          "source_item_id": 48887529,
+          "source_field": "body",
+          "value": "as these are too abstract to map cleanly to traditional job board filters I’m scraping indeed and using deepseek to classify jobs according to this criteria, with an aim to discover really good jobs and then put a lot of effort into each of those jobs, like reaching out to hiring teams directly etc.",
+          "supports": [],
+          "author": "maxaw",
+          "shared_at": 1783913365,
+          "source_url": "https://news.ycombinator.com/item?id=48887529"
+        }
+      ],
+      "source_item_id": 48887529,
+      "source_url": "https://news.ycombinator.com/item?id=48887529",
+      "author": "maxaw",
+      "shared_at": 1783913365,
+      "links": []
+    }
+  ]
+}

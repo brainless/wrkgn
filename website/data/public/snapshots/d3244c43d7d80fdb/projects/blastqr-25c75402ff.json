@@ -1,0 +1,35 @@
+{
+  "id": 48,
+  "slug": "blastqr-25c75402ff",
+  "name": "blastQR",
+  "mentions": [
+    {
+      "name": "blastQR",
+      "description": "A FOSS cross-platform app and CLI tool that transfers files truly offline using animated QR code sequences, currently reaching peak transfer speeds of 1.4MB/s. Suited for large-screen broadcasts so people can receive information during internet blackouts, quick private offline sharing of pictures and small files, air-gapped systems, and use on airplanes.",
+      "problem": "Enables file sharing when there is no internet connection, such as during digital blackouts, government internet cutoffs, on air-gapped systems, or in airplanes.",
+      "audience": "personal-use sharing of photos and small files in daily life, people receiving broadcasts during internet blackouts, and operators of air-gapped systems",
+      "builder_usernames": [
+        "cukha"
+      ],
+      "source_excerpt": "Truly offline file transfers through animated QR code sequences. It's one of the projects I've been working on for the past 2 years: blastQR.",
+      "evidence": [
+        {
+          "source_item_id": 50442122,
+          "source_field": "body",
+          "value": "Truly offline file transfers through animated QR code sequences. It's one of the projects I've been working on for the past 2 years: blastQR.",
+          "supports": [],
+          "author": "cukha",
+          "shared_at": 1794325983,
+          "source_url": "https://news.ycombinator.com/item?id=50442122"
+        }
+      ],
+      "source_item_id": 50442122,
+      "source_url": "https://news.ycombinator.com/item?id=50442122",
+      "author": "cukha",
+      "shared_at": 1794325983,
+      "links": [
+        "https://codeberg.org/cukha/blastqr"
+      ]
+    }
+  ]
+}

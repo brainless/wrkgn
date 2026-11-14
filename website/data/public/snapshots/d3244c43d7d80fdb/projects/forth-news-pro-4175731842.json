@@ -1,0 +1,36 @@
+{
+  "id": 1219,
+  "slug": "forth-news-pro-4175731842",
+  "name": "Forth News Pro",
+  "mentions": [
+    {
+      "name": "Forth News Pro",
+      "description": "News monitoring web app (an extension of forth.news) that exposes and organizes hundreds of newsworthy primary sources — statements, press releases, press pool reports, emergency alerts, etc. — collected from press email lists, X/Twitter, Bluesky, and RSS. It presents sources in a TweetDeck-style panel UI and sends notifications. Its latest update lets some panels be based on an LLM prompt (e.g. \"everything about the Iran War and its effects in the U.S.\") that searches the entire catalog of sources as they are posted.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jaredwiener"
+      ],
+      "source_excerpt": "https://pro.forth.news\n\nIt's an extension of a longer-running project (https://www.forth.news) where it exposes and organizes 100s of newsworthy primary sources -- statements, press releases, press pool reports, emergency alerts, etc, whether from press email lists, X/Twitter, Bluesky, RSS, etc. The web UI is similar to TweetDeck - and it sends notifications.\n\nLatest update now allows some panels to be based on an LLM prompt (i.e. \"everything about the Iran War and its effects in the U.S.\") which searches the entire catalog of sources as they are posted.",
+      "evidence": [
+        {
+          "source_item_id": 49691617,
+          "source_field": "body",
+          "value": "https://pro.forth.news\n\nIt's an extension of a longer-running project (https://www.forth.news) where it exposes and organizes 100s of newsworthy primary sources -- statements, press releases, press pool reports, emergency alerts, etc, whether from press email lists, X/Twitter, Bluesky, RSS, etc. The web UI is similar to TweetDeck - and it sends notifications.\n\nLatest update now allows some panels to be based on an LLM prompt (i.e. \"everything about the Iran War and its effects in the U.S.\") which searches the entire catalog of sources as they are posted.",
+          "supports": [],
+          "author": "jaredwiener",
+          "shared_at": 1789356726,
+          "source_url": "https://news.ycombinator.com/item?id=49691617"
+        }
+      ],
+      "source_item_id": 49691617,
+      "source_url": "https://news.ycombinator.com/item?id=49691617",
+      "author": "jaredwiener",
+      "shared_at": 1789356726,
+      "links": [
+        "https://pro.forth.news",
+        "https://www.forth.news"
+      ]
+    }
+  ]
+}

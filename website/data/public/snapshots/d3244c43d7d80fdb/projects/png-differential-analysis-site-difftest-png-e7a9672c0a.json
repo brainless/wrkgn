@@ -1,0 +1,35 @@
+{
+  "id": 784,
+  "slug": "png-differential-analysis-site-difftest-png-e7a9672c0a",
+  "name": "PNG differential analysis results",
+  "mentions": [
+    {
+      "name": "PNG differential analysis results",
+      "description": "A published page of PNG differential analysis results, comparing behavior against the 3rd edition with an option to select the 2nd edition; it still lacks an option to show what would matter by real-world judgement. The underlying differential analysis surfaced numerous bugs in PNG libraries.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "MrMetric"
+      ],
+      "source_excerpt": "but you can see the PNG analysis results at https://wizardmaxx.ing/difftest-png/. It compares against the 3rd edition, and you can select the 2nd edition if you want to for some reason. It's still missing an option to show what you'd care about by real-world judgement",
+      "evidence": [
+        {
+          "source_item_id": 50422504,
+          "source_field": "body",
+          "value": "but you can see the PNG analysis results at https://wizardmaxx.ing/difftest-png/. It compares against the 3rd edition, and you can select the 2nd edition if you want to for some reason. It's still missing an option to show what you'd care about by real-world judgement",
+          "supports": [],
+          "author": "MrMetric",
+          "shared_at": 1794211240,
+          "source_url": "https://news.ycombinator.com/item?id=50422504"
+        }
+      ],
+      "source_item_id": 50422504,
+      "source_url": "https://news.ycombinator.com/item?id=50422504",
+      "author": "MrMetric",
+      "shared_at": 1794211240,
+      "links": [
+        "https://wizardmaxx.ing/difftest-png/"
+      ]
+    }
+  ]
+}

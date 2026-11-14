@@ -1,0 +1,35 @@
+{
+  "id": 588,
+  "slug": "ssa-7a4f85b30a",
+  "name": "ssa",
+  "mentions": [
+    {
+      "name": "ssa",
+      "description": "A shell-based AI CLI tool being reworked to produce useful results with very small local models (around 2B) for debugging Linux issues offline, with the ability to access cloud-based models for harder tasks once online, while feeling like a CLI tool.",
+      "problem": "Getting useful AI-assisted debugging of Linux issues when offline, where only small models that can run anywhere are available.",
+      "audience": null,
+      "builder_usernames": [
+        "pianopatrick"
+      ],
+      "source_excerpt": "I'm still working on my own shell based AI tool. This month I am testing and reworking it to try and get useful results with really small models, like 2B level.  Goal is to get help debugging Linux issues when offline with these small models that can run anywhere. Then also being able to access cloud based models to do harder stuff once online. all while feeling like a CLI tool.\n\ngithub.com/patrickjh/ssa",
+      "evidence": [
+        {
+          "source_item_id": 50417984,
+          "source_field": "body",
+          "value": "I'm still working on my own shell based AI tool. This month I am testing and reworking it to try and get useful results with really small models, like 2B level.  Goal is to get help debugging Linux issues when offline with these small models that can run anywhere. Then also being able to access cloud based models to do harder stuff once online. all while feeling like a CLI tool.\n\ngithub.com/patrickjh/ssa",
+          "supports": [],
+          "author": "pianopatrick",
+          "shared_at": 1794176263,
+          "source_url": "https://news.ycombinator.com/item?id=50417984"
+        }
+      ],
+      "source_item_id": 50417984,
+      "source_url": "https://news.ycombinator.com/item?id=50417984",
+      "author": "pianopatrick",
+      "shared_at": 1794176263,
+      "links": [
+        "https://github.com/patrickjh/ssa"
+      ]
+    }
+  ]
+}

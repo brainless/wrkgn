@@ -1,0 +1,33 @@
+{
+  "id": 2559,
+  "slug": "real-time-tensor-processing-compiler-7a15dc8df7",
+  "name": "Real-time tensor processing compiler",
+  "mentions": [
+    {
+      "name": "Real-time tensor processing compiler",
+      "description": "This compiler targets real-time tensor processing workloads such as DSP and ML: programs written in a fully general language like LISP or Haskell are compiled from lambda calculus for fast, reliable execution, so code that looks like DSP/ML math compiles and runs optimally with on-budget execution guaranteed by construction, without explicitly modeling the lower levels of the machine.",
+      "problem": "Writing real-time DSP/ML programs normally requires explicitly modeling the lower levels of the machine to guarantee execution on budget.",
+      "audience": null,
+      "builder_usernames": [
+        "tern"
+      ],
+      "source_excerpt": "A compiler for real-time tensor processing (arbitrary DSP, ML). In something like LISP or Haskell, the goal is to compile lambda calculus for fast/reliable execution—as such, you can express a program in a fully general language that can represent any computation and execute it without explicitly modeling the lower levels of the machine.",
+      "evidence": [
+        {
+          "source_item_id": 48886944,
+          "source_field": "body",
+          "value": "A compiler for real-time tensor processing (arbitrary DSP, ML). In something like LISP or Haskell, the goal is to compile lambda calculus for fast/reliable execution—as such, you can express a program in a fully general language that can represent any computation and execute it without explicitly modeling the lower levels of the machine.",
+          "supports": [],
+          "author": "tern",
+          "shared_at": 1783907735,
+          "source_url": "https://news.ycombinator.com/item?id=48886944"
+        }
+      ],
+      "source_item_id": 48886944,
+      "source_url": "https://news.ycombinator.com/item?id=48886944",
+      "author": "tern",
+      "shared_at": 1783907735,
+      "links": []
+    }
+  ]
+}

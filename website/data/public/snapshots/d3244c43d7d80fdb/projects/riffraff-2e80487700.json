@@ -1,0 +1,35 @@
+{
+  "id": 2229,
+  "slug": "riffraff-2e80487700",
+  "name": "RiffRaff",
+  "mentions": [
+    {
+      "name": "RiffRaff",
+      "description": "This app aggregates local music events in the author's area by scraping a variety of websites and APIs, with some LLM processing mixed in, and publishes the results as an event listing site.",
+      "problem": "Manually searching many different websites and Instagram to find local music events is tedious.",
+      "audience": null,
+      "builder_usernames": [
+        "devops_monkey"
+      ],
+      "source_excerpt": "I'm building an app that aggregates music events in my area.  I got tired of trying to manually search different web sites, instagram, etc.  So it scrapes a bunch of websites and APIs plus some LLM-magic sprinkled in to create https://riffraff.show",
+      "evidence": [
+        {
+          "source_item_id": 49245775,
+          "source_field": "body",
+          "value": "I'm building an app that aggregates music events in my area.  I got tired of trying to manually search different web sites, instagram, etc.  So it scrapes a bunch of websites and APIs plus some LLM-magic sprinkled in to create https://riffraff.show",
+          "supports": [],
+          "author": "devops_monkey",
+          "shared_at": 1786378849,
+          "source_url": "https://news.ycombinator.com/item?id=49245775"
+        }
+      ],
+      "source_item_id": 49245775,
+      "source_url": "https://news.ycombinator.com/item?id=49245775",
+      "author": "devops_monkey",
+      "shared_at": 1786378849,
+      "links": [
+        "https://riffraff.show"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 133,
+  "slug": "tutor-f2206de3b7",
+  "name": "Tutor",
+  "mentions": [
+    {
+      "name": "Tutor",
+      "description": "Open-source local AI study tool that extracts concepts from study materials (books, online documentation, and YouTube courses), generates lessons in simple language, and tests the learner. It runs locally with the user's own API key and works with any API provider the user prefers.",
+      "problem": "The builder was laid off and, as a slow learner, needed to accelerate refreshing their knowledge to pass interviews.",
+      "audience": null,
+      "builder_usernames": [
+        "edelind"
+      ],
+      "source_excerpt": "So I built Tutor, an open-source local project that extracts all the concepts (using AI) from study materials (I started with books and online documentation, but recently added YouTube courses as well), creates lessons in simple language, and also tests you.",
+      "evidence": [
+        {
+          "source_item_id": 50423663,
+          "source_field": "body",
+          "value": "So I built Tutor, an open-source local project that extracts all the concepts (using AI) from study materials (I started with books and online documentation, but recently added YouTube courses as well), creates lessons in simple language, and also tests you.",
+          "supports": [],
+          "author": "edelind",
+          "shared_at": 1794219783,
+          "source_url": "https://news.ycombinator.com/item?id=50423663"
+        }
+      ],
+      "source_item_id": 50423663,
+      "source_url": "https://news.ycombinator.com/item?id=50423663",
+      "author": "edelind",
+      "shared_at": 1794219783,
+      "links": [
+        "https://github.com/demetrius-edelin/tutor"
+      ]
+    }
+  ]
+}

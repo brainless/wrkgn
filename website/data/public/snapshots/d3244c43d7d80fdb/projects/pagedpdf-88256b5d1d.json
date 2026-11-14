@@ -1,0 +1,35 @@
+{
+  "id": 3270,
+  "slug": "pagedpdf-88256b5d1d",
+  "name": "PagedPDF",
+  "mentions": [
+    {
+      "name": "PagedPDF",
+      "description": "This API converts HTML to PDF and fixes common PDF generation issues: headers no longer get cut off, footers render with legible page numbers, table rows are kept from splitting across pages, and it warns when a font or image fails to load. A demo on the homepage can be tried without signing up.",
+      "problem": "Many HTML-to-PDF solutions cut off headers, render footer page numbers illegibly small (e.g. 0.7pt with Puppeteer), split table rows between pages, and silently fail on unloaded fonts or images.",
+      "audience": null,
+      "builder_usernames": [
+        "codynaut"
+      ],
+      "source_excerpt": "I'm currently working on building a html to PDF api (https://pagedpdf.com) to fix common issues with generating pdfs.",
+      "evidence": [
+        {
+          "source_item_id": 50469974,
+          "source_field": "body",
+          "value": "I'm currently working on building a html to PDF api (https://pagedpdf.com) to fix common issues with generating pdfs.",
+          "supports": [],
+          "author": "codynaut",
+          "shared_at": 1794500884,
+          "source_url": "https://news.ycombinator.com/item?id=50469974"
+        }
+      ],
+      "source_item_id": 50469974,
+      "source_url": "https://news.ycombinator.com/item?id=50469974",
+      "author": "codynaut",
+      "shared_at": 1794500884,
+      "links": [
+        "https://pagedpdf.com"
+      ]
+    }
+  ]
+}

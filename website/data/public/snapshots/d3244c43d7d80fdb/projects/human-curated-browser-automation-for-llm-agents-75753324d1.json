@@ -1,0 +1,33 @@
+{
+  "id": 1871,
+  "slug": "human-curated-browser-automation-for-llm-agents-75753324d1",
+  "name": "Human-curated browser automation for LLM agents",
+  "mentions": [
+    {
+      "name": "Human-curated browser automation for LLM agents",
+      "description": "This project combines browser automation with LLM agents and a human-curated layer: humans curate logical views of the DOM and expose only the tools relevant to each view, which shrinks the search space for each agent iteration by many dimensions. With this curation, the author achieves deterministic results over hundreds of actions in complex business workflows, whereas a naive approach using raw locators and JavaScript degrades after roughly 10-20 actions. The author is also exploring whether the approach generalizes, suggesting that an LLM driving a tool like GitHub through curated browser automation might be superior to direct API access.",
+      "problem": "Naive LLM browser agents interacting with the DOM via raw locators and JavaScript barely complete 10-20 actions in complex workflows before behavior becomes unreliable; a human-curated layer of logical DOM views and scoped tools is proposed to fix this.",
+      "audience": null,
+      "builder_usernames": [
+        "bob1029"
+      ],
+      "source_excerpt": "If a human curates all logical views of the DOM and exposes tools that are only relevant for each, the search space for each agent iteration is reduced by many dimensions. I have achieved deterministic results over hundreds of actions in complex business workflows. Without the human curated layer we barely make it 10-20 actions before things get weird.",
+      "evidence": [
+        {
+          "source_item_id": 49238236,
+          "source_field": "body",
+          "value": "If a human curates all logical views of the DOM and exposes tools that are only relevant for each, the search space for each agent iteration is reduced by many dimensions. I have achieved deterministic results over hundreds of actions in complex business workflows. Without the human curated layer we barely make it 10-20 actions before things get weird.",
+          "supports": [],
+          "author": "bob1029",
+          "shared_at": 1786325473,
+          "source_url": "https://news.ycombinator.com/item?id=49238236"
+        }
+      ],
+      "source_item_id": 49238236,
+      "source_url": "https://news.ycombinator.com/item?id=49238236",
+      "author": "bob1029",
+      "shared_at": 1786325473,
+      "links": []
+    }
+  ]
+}

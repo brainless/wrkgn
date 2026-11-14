@@ -1,0 +1,36 @@
+{
+  "id": 156,
+  "slug": "orbi-fac193f93d",
+  "name": "Orbi",
+  "mentions": [
+    {
+      "name": "Orbi",
+      "description": "Open-source (AGPL-3.0) AI agent that takes a request all the way to a release: you describe what you want in a sentence, an AI agent writes the code and opens a PR, a separate review session checks it against the acceptance criteria, and Orbi merges and tags a release. It also handles ops issues like deploys and debugging; in October 190 of 197 PRs merged into its own repo were opened by Orbi.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "xqliu"
+      ],
+      "source_excerpt": "Orbi (https://orbi.build/?ref=hn-50417407, source: https://github.com/orbi-build/orbi), an open-source (AGPL-3.0) agent that takes a request all the way to a release. You describe what you want in a sentence; an AI agent writes the code and opens a PR, a separate review session checks it against the acceptance criteria, then Orbi merges and tags a release. It also handles ops issues like deploys and debugging.",
+      "evidence": [
+        {
+          "source_item_id": 50420491,
+          "source_field": "body",
+          "value": "Orbi (https://orbi.build/?ref=hn-50417407, source: https://github.com/orbi-build/orbi), an open-source (AGPL-3.0) agent that takes a request all the way to a release. You describe what you want in a sentence; an AI agent writes the code and opens a PR, a separate review session checks it against the acceptance criteria, then Orbi merges and tags a release. It also handles ops issues like deploys and debugging.",
+          "supports": [],
+          "author": "xqliu",
+          "shared_at": 1794193276,
+          "source_url": "https://news.ycombinator.com/item?id=50420491"
+        }
+      ],
+      "source_item_id": 50420491,
+      "source_url": "https://news.ycombinator.com/item?id=50420491",
+      "author": "xqliu",
+      "shared_at": 1794193276,
+      "links": [
+        "https://github.com/orbi-build/orbi",
+        "https://orbi.build/?ref=hn-50417407"
+      ]
+    }
+  ]
+}

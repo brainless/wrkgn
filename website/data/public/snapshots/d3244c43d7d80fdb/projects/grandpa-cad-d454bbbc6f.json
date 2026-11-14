@@ -1,0 +1,63 @@
+{
+  "id": 913,
+  "slug": "grandpa-cad-d454bbbc6f",
+  "name": "Grandpa CAD",
+  "mentions": [
+    {
+      "name": "Grandpa CAD",
+      "description": "AI modeling tool for 3D printing that turns prompts into printable models. An agent searches, builds, and verifies the generated parts, and its capabilities have progressed from simple shapes (a cube with a hole through it) to practical items like a Raspberry Pi 4 case.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ponyous"
+      ],
+      "source_excerpt": "https://grandpacad.com - AI modeling for 3D printing\nBeen at it for about year and a half.\n\nReally exciting stuff is happening literally every month, because underlying models are getting better and better. When I started it was pretty basic: “make a cube with a hole through it”. Now it’s at the point “make a raspberry pi 4 case” and the agent searches, builds, verifies…",
+      "evidence": [
+        {
+          "source_item_id": 49686727,
+          "source_field": "body",
+          "value": "https://grandpacad.com - AI modeling for 3D printing\nBeen at it for about year and a half.\n\nReally exciting stuff is happening literally every month, because underlying models are getting better and better. When I started it was pretty basic: “make a cube with a hole through it”. Now it’s at the point “make a raspberry pi 4 case” and the agent searches, builds, verifies…",
+          "supports": [],
+          "author": "ponyous",
+          "shared_at": 1789322405,
+          "source_url": "https://news.ycombinator.com/item?id=49686727"
+        }
+      ],
+      "source_item_id": 49686727,
+      "source_url": "https://news.ycombinator.com/item?id=49686727",
+      "author": "ponyous",
+      "shared_at": 1789322405,
+      "links": [
+        "https://grandpacad.com"
+      ]
+    },
+    {
+      "name": "GrandpaCAD",
+      "description": "AI-powered 3D modeling software focused on simplicity, designed so that anyone—even complete beginners like the author's grandpa—can create 3D models without struggling with traditional CAD tools. The project recently received European funding and is gaining traction.",
+      "problem": "Traditional CAD tools are too difficult for beginners to learn; teaching the author's grandpa to 3D model failed until an AI-assisted approach was found.",
+      "audience": "People with no CAD background who want to 3D model, like the author's grandpa",
+      "builder_usernames": [
+        "ponyous"
+      ],
+      "source_excerpt": "GrandpaCAD - AI 3D modeling software focused on simplicity. Made it so even my grandpa could model.",
+      "evidence": [
+        {
+          "source_item_id": 49234709,
+          "source_field": "body",
+          "value": "GrandpaCAD - AI 3D modeling software focused on simplicity. Made it so even my grandpa could model.",
+          "supports": [],
+          "author": "ponyous",
+          "shared_at": 1786303198,
+          "source_url": "https://news.ycombinator.com/item?id=49234709"
+        }
+      ],
+      "source_item_id": 49234709,
+      "source_url": "https://news.ycombinator.com/item?id=49234709",
+      "author": "ponyous",
+      "shared_at": 1786303198,
+      "links": [
+        "https://grandpacad.com"
+      ]
+    }
+  ]
+}

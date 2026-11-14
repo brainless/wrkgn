@@ -1,0 +1,35 @@
+{
+  "id": 1075,
+  "slug": "stressingllms-a06737f4cc",
+  "name": "StressingLLMs",
+  "mentions": [
+    {
+      "name": "StressingLLMs",
+      "description": "This project explores reverse engineering using LLMs together with Ghidra, with a particular focus on how code complexity affects the LLM-assisted analysis process. Results of experiments run with opencode are published as a write-up on GitHub Pages.",
+      "problem": "Understanding how complexity affects the reverse engineering process when using LLMs.",
+      "audience": null,
+      "builder_usernames": [
+        "__alexander"
+      ],
+      "source_excerpt": "I have been exploring reverse engineering using LLMs and Ghidra. A particular interest is in trying to understand how complexity can affect the process. I’m still learning but it’s been a fun way to explore LLMs. Here are my results using opencode  https://alexander-hanel.github.io/StressingLLMs/opencode.html",
+      "evidence": [
+        {
+          "source_item_id": 49706616,
+          "source_field": "body",
+          "value": "I have been exploring reverse engineering using LLMs and Ghidra. A particular interest is in trying to understand how complexity can affect the process. I’m still learning but it’s been a fun way to explore LLMs. Here are my results using opencode  https://alexander-hanel.github.io/StressingLLMs/opencode.html",
+          "supports": [],
+          "author": "__alexander",
+          "shared_at": 1789435912,
+          "source_url": "https://news.ycombinator.com/item?id=49706616"
+        }
+      ],
+      "source_item_id": 49706616,
+      "source_url": "https://news.ycombinator.com/item?id=49706616",
+      "author": "__alexander",
+      "shared_at": 1789435912,
+      "links": [
+        "https://alexander-hanel.github.io/StressingLLMs/opencode.html"
+      ]
+    }
+  ]
+}

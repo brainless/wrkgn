@@ -1,0 +1,36 @@
+{
+  "id": 58,
+  "slug": "foveonic-6070d53278",
+  "name": "Foveonic",
+  "mentions": [
+    {
+      "name": "Foveonic",
+      "description": "A new editor and image-processing engine for files from Foveon sensor cameras (manufactured ~2002-2019), processing X3F files in about a second with manufacturer-intention color handling and a generational-leap noise reduction. It handles the four different Foveon sensor architectures differently, and is being optimized with downsampled sensor layers for snappy multi-shot editing plus a caching/scheduling redesign so downsampled edits multiplex into a single GPU pass.",
+      "problem": "Existing Foveon processing software is either wildly slow (multi-second waits per UI interaction) or does not process according to manufacturer intention, leaving color casts unhandled so images look green/magenta in different areas, across four different sensor architectures.",
+      "audience": "Owners of Foveon sensor cameras whose existing software is wildly slow or produces color-cast artifacts, forcing multi-second waits per UI interaction and green/magenta casts in shots.",
+      "builder_usernames": [
+        "hankbond"
+      ],
+      "source_excerpt": "A new editor and processing engine for the Foveon Sensor cameras that were manufactured around 2002-2019.  The existing software is either wildly slow, or does not process according to manufacturer intention.  Think choosing between waiting multiple seconds after every single UI interaction to display changes, or color casts not being handled and the images looking green/magenta in different areas of the shot.",
+      "evidence": [
+        {
+          "source_item_id": 50420213,
+          "source_field": "body",
+          "value": "A new editor and processing engine for the Foveon Sensor cameras that were manufactured around 2002-2019.  The existing software is either wildly slow, or does not process according to manufacturer intention.  Think choosing between waiting multiple seconds after every single UI interaction to display changes, or color casts not being handled and the images looking green/magenta in different areas of the shot.",
+          "supports": [],
+          "author": "hankbond",
+          "shared_at": 1794191053,
+          "source_url": "https://news.ycombinator.com/item?id=50420213"
+        }
+      ],
+      "source_item_id": 50420213,
+      "source_url": "https://news.ycombinator.com/item?id=50420213",
+      "author": "hankbond",
+      "shared_at": 1794191053,
+      "links": [
+        "https://github.com/hank-bond/foveonic",
+        "https://www.dpreview.com/forums/threads/foveonic-process-your-x3fs-in-one-second.4869451/post-71337683"
+      ]
+    }
+  ]
+}

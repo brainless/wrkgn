@@ -1,0 +1,35 @@
+{
+  "id": 212,
+  "slug": "switcheroo-273cad2912",
+  "name": "Switcheroo",
+  "mentions": [
+    {
+      "name": "Switcheroo",
+      "description": "A simple and transparent CLI utility that switches which account's usage is drawn from when running AI CLIs like Claude and Codex, letting users with multiple paid subscriptions keep the same conversation going after hitting a limit without changing configuration. It also works with other AI CLIs like Gemini and other CLIs such as Vercel, Netlify, and GitHub for managing multiple accounts.",
+      "problem": "Hitting subscription usage limits means using 2-3 paid accounts for the same conversation on a daily basis, with no way to switch the account the usage is taken from.",
+      "audience": "Developers who use AI coding CLIs and other developer CLIs while managing multiple paid accounts",
+      "builder_usernames": [
+        "ftchd"
+      ],
+      "source_excerpt": "What I need is something to switch the account where the usage is taken from, not the configuration.\n\nI made something simple & transparent named Switcheroo: https://github.com/FTCHD/switcheroo\n\nWorks with other AI CLIs like Gemini, and other various CLIs like Vercel (if you're managing multiple accounts like me), Netlify, Github etc",
+      "evidence": [
+        {
+          "source_item_id": 50418068,
+          "source_field": "body",
+          "value": "What I need is something to switch the account where the usage is taken from, not the configuration.\n\nI made something simple & transparent named Switcheroo: https://github.com/FTCHD/switcheroo\n\nWorks with other AI CLIs like Gemini, and other various CLIs like Vercel (if you're managing multiple accounts like me), Netlify, Github etc",
+          "supports": [],
+          "author": "ftchd",
+          "shared_at": 1794176695,
+          "source_url": "https://news.ycombinator.com/item?id=50418068"
+        }
+      ],
+      "source_item_id": 50418068,
+      "source_url": "https://news.ycombinator.com/item?id=50418068",
+      "author": "ftchd",
+      "shared_at": 1794176695,
+      "links": [
+        "https://github.com/FTCHD/switcheroo"
+      ]
+    }
+  ]
+}

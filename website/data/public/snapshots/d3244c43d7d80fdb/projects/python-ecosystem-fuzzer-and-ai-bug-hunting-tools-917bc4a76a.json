@@ -1,0 +1,36 @@
+{
+  "id": 479,
+  "slug": "python-ecosystem-fuzzer-and-ai-bug-hunting-tools-917bc4a76a",
+  "name": "ReviewToolkits",
+  "mentions": [
+    {
+      "name": "ReviewToolkits",
+      "description": "A bug-hunting effort for the Python ecosystem that combines fuzzers and AI-assisted tools developed by the author, offering on-request analysis of Python packages and extensions.",
+      "problem": "Hidden bugs in Python ecosystem packages and extensions.",
+      "audience": "Developers and maintainers with Python packages or extensions who want them analyzed for bugs.",
+      "builder_usernames": [
+        "lumpa"
+      ],
+      "source_excerpt": "Hunting bugs in the Python ecosystem using fuzzers and AI tools I develop. If you have a Python package or extension you'd like analyzed, just let me know.",
+      "evidence": [
+        {
+          "source_item_id": 50418189,
+          "source_field": "body",
+          "value": "Hunting bugs in the Python ecosystem using fuzzers and AI tools I develop. If you have a Python package or extension you'd like analyzed, just let me know.",
+          "supports": [],
+          "author": "lumpa",
+          "shared_at": 1794177419,
+          "source_url": "https://news.ycombinator.com/item?id=50418189"
+        }
+      ],
+      "source_item_id": 50418189,
+      "source_url": "https://news.ycombinator.com/item?id=50418189",
+      "author": "lumpa",
+      "shared_at": 1794177419,
+      "links": [
+        "https://github.com/ReviewToolkits",
+        "https://github.com/devdanzin/fusil"
+      ]
+    }
+  ]
+}

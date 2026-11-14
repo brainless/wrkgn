@@ -1,0 +1,35 @@
+{
+  "id": 2719,
+  "slug": "scryer-fe91974f84",
+  "name": "Scryer",
+  "mentions": [
+    {
+      "name": "Scryer",
+      "description": "A desktop tool that brings model-driven development to AI coding agents. It systematizes the markdown specs people use into a model graph, anchors claims to code, and represents the result as a wiki. Planned changes to a codebase are surfaced as a diff of the model's definition, so you see a complete diff of everything the agent plans to do instead of reading its plan as an essay, making it possible to properly track what gets implemented and how. Still experimental.",
+      "problem": "AI-generated code from intent/specs (vibe coding) is a blessing and a curse: agent plans read as essays, making it hard to keep track of what gets implemented and how",
+      "audience": "Developers working with AI coding agents on real codebases; the author uses it for work and is seeking feedback from others",
+      "builder_usernames": [
+        "prohobo"
+      ],
+      "source_excerpt": "Bringing model-driven development to coding agents with a desktop tool called Scryer:\n\nhttps://github.com/aklos/scryer",
+      "evidence": [
+        {
+          "source_item_id": 48901254,
+          "source_field": "body",
+          "value": "Bringing model-driven development to coding agents with a desktop tool called Scryer:\n\nhttps://github.com/aklos/scryer",
+          "supports": [],
+          "author": "prohobo",
+          "shared_at": 1783993157,
+          "source_url": "https://news.ycombinator.com/item?id=48901254"
+        }
+      ],
+      "source_item_id": 48901254,
+      "source_url": "https://news.ycombinator.com/item?id=48901254",
+      "author": "prohobo",
+      "shared_at": 1783993157,
+      "links": [
+        "https://github.com/aklos/scryer"
+      ]
+    }
+  ]
+}

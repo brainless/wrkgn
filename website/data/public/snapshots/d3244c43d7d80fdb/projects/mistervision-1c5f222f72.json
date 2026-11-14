@@ -1,0 +1,35 @@
+{
+  "id": 151,
+  "slug": "mistervision-1c5f222f72",
+  "name": "MiSTerVision",
+  "mentions": [
+    {
+      "name": "MiSTerVision",
+      "description": "A CRT-friendly Jellyfin and Plex client for MiSTer FPGA written in Go. Forked from the stagnant MiSTerFin project and ported to Go, it adds Plex support, improves the UX and performance, and fills in Jellyfin compatibility gaps so users can watch self-hosted movies and shows on a CRT-connected MiSTer. It has had roughly 25 public releases.",
+      "problem": "The author wanted to watch movies and shows ripped to a Plex server on a CRT-connected MiSTer FPGA, but the existing MiSTerFin Jellyfin client was stagnant, lacked Plex support, and had UX, performance, and compatibility gaps.",
+      "audience": "Anyone with a MiSTer FPGA",
+      "builder_usernames": [
+        "trentnix"
+      ],
+      "source_excerpt": "The first project is MiSTerVision, a CRT-friendly Jellyfin and Plex client for MiSTer FPGA built in Go. I have a MiSTer FPGA connected to a late model Sony Trinitron CRT and wanted to watch movies and shows I've ripped to my Plex server.",
+      "evidence": [
+        {
+          "source_item_id": 50424823,
+          "source_field": "body",
+          "value": "The first project is MiSTerVision, a CRT-friendly Jellyfin and Plex client for MiSTer FPGA built in Go. I have a MiSTer FPGA connected to a late model Sony Trinitron CRT and wanted to watch movies and shows I've ripped to my Plex server.",
+          "supports": [],
+          "author": "trentnix",
+          "shared_at": 1794228278,
+          "source_url": "https://news.ycombinator.com/item?id=50424823"
+        }
+      ],
+      "source_item_id": 50424823,
+      "source_url": "https://news.ycombinator.com/item?id=50424823",
+      "author": "trentnix",
+      "shared_at": 1794228278,
+      "links": [
+        "https://github.com/trentnix/mistervision"
+      ]
+    }
+  ]
+}

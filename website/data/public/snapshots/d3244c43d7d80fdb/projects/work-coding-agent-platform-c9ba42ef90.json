@@ -1,0 +1,33 @@
+{
+  "id": 3281,
+  "slug": "work-coding-agent-platform-c9ba42ef90",
+  "name": "Work/coding agent platform",
+  "mentions": [
+    {
+      "name": "Work/coding agent platform",
+      "description": "A hosted backend for a work/coding agent paired with a desktop/web app that manages users, permissions, and tasks between human users and agents. The non-profit client can use it to access incoming Excel/CSV data files, figure out what is wrong with missing or poorly managed upstream data, generate tasks for the coding agent for the author to review, and email property managers about data issues, with the aim of growing into a larger AI-enabled product for property managers.",
+      "problem": "Incoming property data exports from Entrata, Yardi, or manual Excel are often missing or poorly managed upstream against a fixed expected format, requiring manual diagnosis and task creation to fix.",
+      "audience": null,
+      "builder_usernames": [
+        "brainless"
+      ],
+      "source_excerpt": "I am building a work/coding agent with my consulting client(s) in mind.",
+      "evidence": [
+        {
+          "source_item_id": 50420299,
+          "source_field": "body",
+          "value": "I am building a work/coding agent with my consulting client(s) in mind.",
+          "supports": [],
+          "author": "brainless",
+          "shared_at": 1794191664,
+          "source_url": "https://news.ycombinator.com/item?id=50420299"
+        }
+      ],
+      "source_item_id": 50420299,
+      "source_url": "https://news.ycombinator.com/item?id=50420299",
+      "author": "brainless",
+      "shared_at": 1794191664,
+      "links": []
+    }
+  ]
+}

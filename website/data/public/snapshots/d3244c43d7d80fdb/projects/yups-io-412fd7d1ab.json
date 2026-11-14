@@ -1,0 +1,35 @@
+{
+  "id": 1263,
+  "slug": "yups-io-412fd7d1ab",
+  "name": "yups.io",
+  "mentions": [
+    {
+      "name": "yups.io",
+      "description": "A gateway service that redirects URLs to the correct proxy/frontend. It supports an official syntax like ?url=<target> as well as flexible URL formats for error handling.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "JaviLopezG"
+      ],
+      "source_excerpt": "I just published a first version of a gateway that redirects to the correct proxy/frontend\n\nhttps://yups.io\n\nThe \"official\" syntaxis is\n\nhttps://yups.io/?url=https://twitter.com/Wikipedia",
+      "evidence": [
+        {
+          "source_item_id": 49688328,
+          "source_field": "body",
+          "value": "I just published a first version of a gateway that redirects to the correct proxy/frontend\n\nhttps://yups.io\n\nThe \"official\" syntaxis is\n\nhttps://yups.io/?url=https://twitter.com/Wikipedia",
+          "supports": [],
+          "author": "JaviLopezG",
+          "shared_at": 1789331171,
+          "source_url": "https://news.ycombinator.com/item?id=49688328"
+        }
+      ],
+      "source_item_id": 49688328,
+      "source_url": "https://news.ycombinator.com/item?id=49688328",
+      "author": "JaviLopezG",
+      "shared_at": 1789331171,
+      "links": [
+        "https://yups.io"
+      ]
+    }
+  ]
+}

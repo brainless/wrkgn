@@ -1,0 +1,35 @@
+{
+  "id": 888,
+  "slug": "fabulae-orbilii-75d63f9954",
+  "name": "Fabulae Orbilii",
+  "mentions": [
+    {
+      "name": "Fabulae Orbilii",
+      "description": "A Latin language audiobook site presenting both volumes of A.D. Godley's \"The Fables of Orbilius\", entertaining intermediate Latin stories written at the turn of the 20th century for use in British schools. Audio is delivered in restored classical Latin pronunciation with spoken nuances such as vowel nasalization, elision, and prodelision. A wav2vec2 model generates forced-alignment data so readers can follow along with the text as it is read aloud, and each word is enriched with pedagogical details including lemma, citation forms/principal parts, morphological segmentation and analysis, inflectional class with declension/conjugation tables, contextual lexical (L&S) sense, Classical Latin IPA pronunciation, UD-style syntactic function and relations, predicate valency, and concise English definitions. The documents are entirely XML, rendered in-browser via XSLT so the underlying XML structure is visible, with per-sentence provenance records showing the language model and parameters used for each enrichment task. The site UI is bilingual, viewable in Latin or English.",
+      "problem": null,
+      "audience": "Intermediate Latin learners (the stories were written for use in British schools)",
+      "builder_usernames": [
+        "spudlyo"
+      ],
+      "source_excerpt": "https://fabulae.orbilii.com - A Latin language audiobook containing both volumes of A.D. Godley's \"The Fables of Orbilius\" which are entertaining intermediate Latin stories written at the turn of the 20th century for use in British schools.",
+      "evidence": [
+        {
+          "source_item_id": 49686934,
+          "source_field": "body",
+          "value": "https://fabulae.orbilii.com - A Latin language audiobook containing both volumes of A.D. Godley's \"The Fables of Orbilius\" which are entertaining intermediate Latin stories written at the turn of the 20th century for use in British schools.",
+          "supports": [],
+          "author": "spudlyo",
+          "shared_at": 1789323396,
+          "source_url": "https://news.ycombinator.com/item?id=49686934"
+        }
+      ],
+      "source_item_id": 49686934,
+      "source_url": "https://news.ycombinator.com/item?id=49686934",
+      "author": "spudlyo",
+      "shared_at": 1789323396,
+      "links": [
+        "https://fabulae.orbilii.com"
+      ]
+    }
+  ]
+}

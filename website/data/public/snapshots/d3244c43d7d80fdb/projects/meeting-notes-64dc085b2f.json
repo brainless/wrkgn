@@ -1,0 +1,33 @@
+{
+  "id": 3470,
+  "slug": "meeting-notes-64dc085b2f",
+  "name": "Meeting Notes",
+  "mentions": [
+    {
+      "name": "Meeting Notes",
+      "description": "A local meeting transcription app, a Granola clone built before Granola existed, that used Whisper for transcription.",
+      "problem": "Seamless local audio capture was janky and unreliable because unsigned apps lack access to much better system audio resources.",
+      "audience": "Personal use by the author.",
+      "builder_usernames": [
+        "c_hastings"
+      ],
+      "source_excerpt": "Project: Meeting Notes - Before Granola existed, this was a local granola clone that used whisper. Only later did I find that the real gap in making this work seamlessly without the janky MIDI Audio Capture was that if it was a \"signed\" app it got access to much better resources.",
+      "evidence": [
+        {
+          "source_item_id": 49238463,
+          "source_field": "body",
+          "value": "Project: Meeting Notes - Before Granola existed, this was a local granola clone that used whisper. Only later did I find that the real gap in making this work seamlessly without the janky MIDI Audio Capture was that if it was a \"signed\" app it got access to much better resources.",
+          "supports": [],
+          "author": "c_hastings",
+          "shared_at": 1786327527,
+          "source_url": "https://news.ycombinator.com/item?id=49238463"
+        }
+      ],
+      "source_item_id": 49238463,
+      "source_url": "https://news.ycombinator.com/item?id=49238463",
+      "author": "c_hastings",
+      "shared_at": 1786327527,
+      "links": []
+    }
+  ]
+}

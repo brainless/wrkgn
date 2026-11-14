@@ -1,0 +1,35 @@
+{
+  "id": 471,
+  "slug": "tinta-387fca005c",
+  "name": "Tinta",
+  "mentions": [
+    {
+      "name": "Tinta",
+      "description": "Tinta is an Android journaling app that runs all AI on the phone, working in airplane mode once the models are downloaded. After writing or dictating an entry, a small on-device model (LFM2.5 1.2B) asks a follow-up question to prompt further reflection, and an embedding model finds older entries about the same topic and shows excerpts of them beneath the new entry. It is optimized to run the models on the CPU to give a good experience on budget phones.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ubicray"
+      ],
+      "source_excerpt": "I’m building Tinta, a journal app for Android where all the AI runs on the phone. It works in airplane mode once the models are downloaded.",
+      "evidence": [
+        {
+          "source_item_id": 50330022,
+          "source_field": "body",
+          "value": "I’m building Tinta, a journal app for Android where all the AI runs on the phone. It works in airplane mode once the models are downloaded.",
+          "supports": [],
+          "author": "ubicray",
+          "shared_at": 1793568112,
+          "source_url": "https://news.ycombinator.com/item?id=50330022"
+        }
+      ],
+      "source_item_id": 50330022,
+      "source_url": "https://news.ycombinator.com/item?id=50330022",
+      "author": "ubicray",
+      "shared_at": 1793568112,
+      "links": [
+        "https://tinta.page"
+      ]
+    }
+  ]
+}

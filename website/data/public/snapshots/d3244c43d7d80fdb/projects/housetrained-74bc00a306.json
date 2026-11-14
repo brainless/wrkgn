@@ -1,0 +1,35 @@
+{
+  "id": 510,
+  "slug": "housetrained-74bc00a306",
+  "name": "Housetrained",
+  "mentions": [
+    {
+      "name": "Housetrained",
+      "description": "A self-hosted puppy potty tracker forked from the open source Baby Buddy project. It logs potty breaks to help house train a new puppy and runs locally for privacy.",
+      "problem": "Needed a way to track a puppy's potty breaks to help with house training.",
+      "audience": null,
+      "builder_usernames": [
+        "bsmith"
+      ],
+      "source_excerpt": "We just got a puppy, and needed a way to track potties to help us with house training. So, with AI/Claude's help, I found a similar open source package (Baby Buddy), forked it, and very quickly made it my own. Self-hosted, local for privacy reasons.",
+      "evidence": [
+        {
+          "source_item_id": 50354505,
+          "source_field": "body",
+          "value": "We just got a puppy, and needed a way to track potties to help us with house training. So, with AI/Claude's help, I found a similar open source package (Baby Buddy), forked it, and very quickly made it my own. Self-hosted, local for privacy reasons.",
+          "supports": [],
+          "author": "bsmith",
+          "shared_at": 1793724987,
+          "source_url": "https://news.ycombinator.com/item?id=50354505"
+        }
+      ],
+      "source_item_id": 50354505,
+      "source_url": "https://news.ycombinator.com/item?id=50354505",
+      "author": "bsmith",
+      "shared_at": 1793724987,
+      "links": [
+        "https://github.com/viciousnemesis/housetrained"
+      ]
+    }
+  ]
+}

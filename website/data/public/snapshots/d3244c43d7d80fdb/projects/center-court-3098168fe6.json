@@ -1,0 +1,35 @@
+{
+  "id": 35,
+  "slug": "center-court-3098168fe6",
+  "name": "Center Court",
+  "mentions": [
+    {
+      "name": "Center Court",
+      "description": "This site provides fast live NBA boxscores and statistics, bridging slow mainstream sports sites and advanced stat-focused sites that lack a good live experience. It stores raw play-by-play payloads immutably and derives every statistic as a pure fold over the event log at request time, enabling full re-derivation of a game's state at any point or time range. Pages are server-side rendered with progressive JS enhancements, and URLs are immutable and cached behind a CDN.",
+      "problem": "Major sports sites like ESPN.com have terrible UI/UX and slow live boxscores, while advanced stat-focused sites don't offer a good live experience.",
+      "audience": "NBA fans looking for a fast, live boxscore experience",
+      "builder_usernames": [
+        "bretthopper"
+      ],
+      "source_excerpt": "After a few false starts over the years, I have a new concept called Center Court that I'm so excited about.\n\nIt's primary purpose is for live boxscores because all of the major sports sites have terrible UI/UX experiences.",
+      "evidence": [
+        {
+          "source_item_id": 50424262,
+          "source_field": "body",
+          "value": "After a few false starts over the years, I have a new concept called Center Court that I'm so excited about.\n\nIt's primary purpose is for live boxscores because all of the major sports sites have terrible UI/UX experiences.",
+          "supports": [],
+          "author": "bretthopper",
+          "shared_at": 1794224646,
+          "source_url": "https://news.ycombinator.com/item?id=50424262"
+        }
+      ],
+      "source_item_id": 50424262,
+      "source_url": "https://news.ycombinator.com/item?id=50424262",
+      "author": "bretthopper",
+      "shared_at": 1794224646,
+      "links": [
+        "https://centercourtlive.com/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 366,
+  "slug": "model-style-not-a-bench-e40385c0d9",
+  "name": "Model Style not-a-Bench",
+  "mentions": [
+    {
+      "name": "Model Style not-a-Bench",
+      "description": "This is a benchmark-alternative tool for quickly eyeballing and comparing various LLMs, with a focus on 4-bit quantized models under 100GB of weights (excluding storage offload approaches), letting users judge models' stylistic choices directly rather than relying on benchmark scores.",
+      "problem": "Recent LLMs release with very promising benchmarks but disappoint by failing simple tasks or sanity checks, and benchmarks don't reveal the models' stylistic choices.",
+      "audience": null,
+      "builder_usernames": [
+        "techsystems"
+      ],
+      "source_excerpt": "So I made 'Model Style not-a-Bench' to be able to quickly eyeball various LLMs, most preferably at 4-bit quants, under 100GB weights (excluding storage offloads like Qwen Flash Next's approach).",
+      "evidence": [
+        {
+          "source_item_id": 50423768,
+          "source_field": "body",
+          "value": "So I made 'Model Style not-a-Bench' to be able to quickly eyeball various LLMs, most preferably at 4-bit quants, under 100GB weights (excluding storage offloads like Qwen Flash Next's approach).",
+          "supports": [],
+          "author": "techsystems",
+          "shared_at": 1794220714,
+          "source_url": "https://news.ycombinator.com/item?id=50423768"
+        }
+      ],
+      "source_item_id": 50423768,
+      "source_url": "https://news.ycombinator.com/item?id=50423768",
+      "author": "techsystems",
+      "shared_at": 1794220714,
+      "links": [
+        "https://msnab.pages.dev"
+      ]
+    }
+  ]
+}

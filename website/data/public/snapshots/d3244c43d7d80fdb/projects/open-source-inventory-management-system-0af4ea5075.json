@@ -1,0 +1,35 @@
+{
+  "id": 418,
+  "slug": "open-source-inventory-management-system-0af4ea5075",
+  "name": "Selene Software Inventory",
+  "mentions": [
+    {
+      "name": "Selene Software Inventory",
+      "description": "An open-source inventory management system designed to handle multiple stores, each with its own inventory and products. Products are organized into categories and sub-categories, with location management for each item. It was intended as the base for online stores and a brick-and-mortar shop, and development is ongoing.",
+      "problem": "The author couldn't find an open-source inventory management system they liked.",
+      "audience": null,
+      "builder_usernames": [
+        "psion"
+      ],
+      "source_excerpt": "I couldn't find an open-source inventory management system I liked, so I started working on one.  It was designed to handle multiple stores, each with their own inventory and products.  Each product in categories and sub-categories, and location management for each item.",
+      "evidence": [
+        {
+          "source_item_id": 50419762,
+          "source_field": "body",
+          "value": "I couldn't find an open-source inventory management system I liked, so I started working on one.  It was designed to handle multiple stores, each with their own inventory and products.  Each product in categories and sub-categories, and location management for each item.",
+          "supports": [],
+          "author": "psion",
+          "shared_at": 1794187293,
+          "source_url": "https://news.ycombinator.com/item?id=50419762"
+        }
+      ],
+      "source_item_id": 50419762,
+      "source_url": "https://news.ycombinator.com/item?id=50419762",
+      "author": "psion",
+      "shared_at": 1794187293,
+      "links": [
+        "https://github.com/SeleneSoftware/inventory"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 249,
+  "slug": "zshot-d6aa531f1d",
+  "name": "ZShot",
+  "mentions": [
+    {
+      "name": "ZShot",
+      "description": "A local-only browser tuned specifically for CLI and API usage — a headless browser for when you need a browser you don't look at. It can render a webpage as a PNG or MP4, or capture a site as a WACZ archive or SQLite database, and ships with a Mac app to help discover its options. It includes an internal agent framework for browser automation tasks like logging in, clicking a button, and taking a screenshot, which also automatically generates Playwright tests and can run Playwright and Puppeteer test suites. Multiple AI models can bounce control of the web session between each other, letting a cheaper model escalate to a stronger model (e.g., Opus) when needed.",
+      "problem": "Fills the gap of needing a browser for local tooling and building services on top of, but without a visible interface — \"I sure wish I had a browser, but not one to look at\".",
+      "audience": null,
+      "builder_usernames": [
+        "netshade"
+      ],
+      "source_excerpt": "Working on ZShot [1]. I'm about a year in on a local-only browser tuned specifically for CLI and API usage - kinda filling the gap for \"geez, I sure wish I had a browser, but not one to look at\". You need a webpage as PNG, or an MP4, or a website as a WACZ or SQLite database.",
+      "evidence": [
+        {
+          "source_item_id": 50336869,
+          "source_field": "body",
+          "value": "Working on ZShot [1]. I'm about a year in on a local-only browser tuned specifically for CLI and API usage - kinda filling the gap for \"geez, I sure wish I had a browser, but not one to look at\". You need a webpage as PNG, or an MP4, or a website as a WACZ or SQLite database.",
+          "supports": [],
+          "author": "netshade",
+          "shared_at": 1793627885,
+          "source_url": "https://news.ycombinator.com/item?id=50336869"
+        }
+      ],
+      "source_item_id": 50336869,
+      "source_url": "https://news.ycombinator.com/item?id=50336869",
+      "author": "netshade",
+      "shared_at": 1793627885,
+      "links": [
+        "https://zshot-app.com/"
+      ]
+    }
+  ]
+}

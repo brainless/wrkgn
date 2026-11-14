@@ -1,0 +1,33 @@
+{
+  "id": 119,
+  "slug": "collins-651s-1-receiver-repair-b7ee6b2bf6",
+  "name": "Collins 651S-1 receiver repair",
+  "mentions": [
+    {
+      "name": "Collins 651S-1 receiver repair",
+      "description": "This project repairs a Collins 651S-1 radio receiver whose 65-95 MHz VCO module has failed. A similar but not identical replacement module from a different model receiver was installed, and an op-amp based circuit was added to simulate the missing DC tracking signal output. By over-damping the PLL loop filter the receiver now locks and receives properly, with the loop stable and responsive across 17 to 29.9999 MHz, though reception below that range is not yet working.",
+      "problem": "The receiver's 65-95 MHz VCO module is bad, preventing it from locking and receiving, and the replacement module lacks one of the two DC tracking signal outputs.",
+      "audience": null,
+      "builder_usernames": [
+        "mikewarot"
+      ],
+      "source_excerpt": "Repair of a Collins 651S-1 receiver. The 65-95 mhz vco module is bad, but if you over damp the pll loop filter it does eventually lock and receive properly. I found a similar but not identical replacement from a different model receiver. It lacks one of the two DC tracking signal outputs but I added an op amp based circuit to simulate the missing signal.\n\nThe loop is stable and responsive when receiving from 17 to 29.9999 Mhz, but not much below that... Almost got it",
+      "evidence": [
+        {
+          "source_item_id": 50332029,
+          "source_field": "body",
+          "value": "Repair of a Collins 651S-1 receiver. The 65-95 mhz vco module is bad, but if you over damp the pll loop filter it does eventually lock and receive properly. I found a similar but not identical replacement from a different model receiver. It lacks one of the two DC tracking signal outputs but I added an op amp based circuit to simulate the missing signal.\n\nThe loop is stable and responsive when receiving from 17 to 29.9999 Mhz, but not much below that... Almost got it",
+          "supports": [],
+          "author": "mikewarot",
+          "shared_at": 1793583606,
+          "source_url": "https://news.ycombinator.com/item?id=50332029"
+        }
+      ],
+      "source_item_id": 50332029,
+      "source_url": "https://news.ycombinator.com/item?id=50332029",
+      "author": "mikewarot",
+      "shared_at": 1793583606,
+      "links": []
+    }
+  ]
+}

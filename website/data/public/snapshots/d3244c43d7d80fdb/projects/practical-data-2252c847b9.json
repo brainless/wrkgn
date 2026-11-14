@@ -1,0 +1,35 @@
+{
+  "id": 83,
+  "slug": "practical-data-2252c847b9",
+  "name": "Practical Data",
+  "mentions": [
+    {
+      "name": "Practical Data",
+      "description": "An open-source Chrome extension that highlights and shades numeric data tables on web pages. Because a simple rule like 'big numbers = green' fails for inverted or ambiguous data (e.g., earthquake casualties, batter strikeouts, or a 'cost' column), it uses Jev and other small decision models to determine the cardinality and ordinality of the data before applying shading.",
+      "problem": "There is no easy universal rule for shading table data, since many datasets are inverted or ambiguous about whether bigger numbers are better.",
+      "audience": null,
+      "builder_usernames": [
+        "philrenaud"
+      ],
+      "source_excerpt": "I've been building a Chrome extension[0] that highlights and shades data tables on the web.",
+      "evidence": [
+        {
+          "source_item_id": 50442252,
+          "source_field": "body",
+          "value": "I've been building a Chrome extension[0] that highlights and shades data tables on the web.",
+          "supports": [],
+          "author": "philrenaud",
+          "shared_at": 1794326629,
+          "source_url": "https://news.ycombinator.com/item?id=50442252"
+        }
+      ],
+      "source_item_id": 50442252,
+      "source_url": "https://news.ycombinator.com/item?id=50442252",
+      "author": "philrenaud",
+      "shared_at": 1794326629,
+      "links": [
+        "https://practicaldata.dev/"
+      ]
+    }
+  ]
+}

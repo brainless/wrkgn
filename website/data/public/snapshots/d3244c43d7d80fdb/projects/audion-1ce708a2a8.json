@@ -1,0 +1,63 @@
+{
+  "id": 477,
+  "slug": "audion-1ce708a2a8",
+  "name": "Audion",
+  "mentions": [
+    {
+      "name": "Audion",
+      "description": "Audion is a code-first language for creating installations and interactive art. It provides BPM-synchronized threads while also supporting drawing, file IO, networking, and hardware control, combining music timing with general-purpose programming capabilities.",
+      "problem": "Existing creative-coding tools fall short: Max/MSP gets messy on very large projects, Python does not work well for music making, and Tidal/Pi/Supercollider are limited to sound only.",
+      "audience": null,
+      "builder_usernames": [
+        "skor"
+      ],
+      "source_excerpt": "I needed a code-first approach for making installations and interactive art. MaxMsp gets messy with very big projects. Python didn't really work well for music making and Tidal/Pi/Sclang are only meant for sound. So I needed something that has bpm synchronized threads, but can draw and do anything else like file IO, networking, hardware control etc. It works quite well now.",
+      "evidence": [
+        {
+          "source_item_id": 50418237,
+          "source_field": "body",
+          "value": "I needed a code-first approach for making installations and interactive art. MaxMsp gets messy with very big projects. Python didn't really work well for music making and Tidal/Pi/Sclang are only meant for sound. So I needed something that has bpm synchronized threads, but can draw and do anything else like file IO, networking, hardware control etc. It works quite well now.",
+          "supports": [],
+          "author": "skor",
+          "shared_at": 1794177632,
+          "source_url": "https://news.ycombinator.com/item?id=50418237"
+        }
+      ],
+      "source_item_id": 50418237,
+      "source_url": "https://news.ycombinator.com/item?id=50418237",
+      "author": "skor",
+      "shared_at": 1794177632,
+      "links": [
+        "https://github.com/audion-lang/audion"
+      ]
+    },
+    {
+      "name": "Audion",
+      "description": "Audion is an interpreted scripting language designed to be fun to write, aimed at creating interactive music and audio/visual installations. It integrates with SuperCollider, any DAW, and hardware, and includes built-in BPM synchronization between real OS threads and Ableton sync.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "skor"
+      ],
+      "source_excerpt": "Audion, interpreted scripting language that is fun to write and lets you make interactive music, a/v installations using supercollider or any daw and hardware. BPM synchronization between real OS threads and Ableton sync is built in as well.",
+      "evidence": [
+        {
+          "source_item_id": 49236317,
+          "source_field": "body",
+          "value": "Audion, interpreted scripting language that is fun to write and lets you make interactive music, a/v installations using supercollider or any daw and hardware. BPM synchronization between real OS threads and Ableton sync is built in as well.",
+          "supports": [],
+          "author": "skor",
+          "shared_at": 1786311734,
+          "source_url": "https://news.ycombinator.com/item?id=49236317"
+        }
+      ],
+      "source_item_id": 49236317,
+      "source_url": "https://news.ycombinator.com/item?id=49236317",
+      "author": "skor",
+      "shared_at": 1786311734,
+      "links": [
+        "https://github.com/audion-lang/audion"
+      ]
+    }
+  ]
+}

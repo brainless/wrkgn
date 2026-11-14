@@ -1,0 +1,35 @@
+{
+  "id": 2115,
+  "slug": "amika-dev-d7af0db6ac",
+  "name": "amika.dev",
+  "mentions": [
+    {
+      "name": "amika.dev",
+      "description": "A platform that puts sandboxed agents on cloud VMs and lets you message them over the internet, creating agent + human devboxes. Coding agents can be chatted with from the web or automated via an API while directly controlling the VM, and it is being built to work on any computer, homelab, or Kubernetes cluster.",
+      "problem": null,
+      "audience": "Tech folks building or using agent + human devboxes",
+      "builder_usernames": [
+        "dbmikus"
+      ],
+      "source_excerpt": "I'm working on https://www.amika.dev/, which lets you put sandboxed agents on cloud VMs and then message them over the internet.\n\nIt's for agent + human devboxes, for chatting with coding agents from the web, or automating them with an API. Thing like Claude Code web, but any agent and you directly control the VM, too.\n\nWe're working to make amika.dev work on any computer, homelab, or K8S cluster. For tech folks, I describe it kinda like if Tailscale and Firecracker had a baby.",
+      "evidence": [
+        {
+          "source_item_id": 49233657,
+          "source_field": "body",
+          "value": "I'm working on https://www.amika.dev/, which lets you put sandboxed agents on cloud VMs and then message them over the internet.\n\nIt's for agent + human devboxes, for chatting with coding agents from the web, or automating them with an API. Thing like Claude Code web, but any agent and you directly control the VM, too.\n\nWe're working to make amika.dev work on any computer, homelab, or K8S cluster. For tech folks, I describe it kinda like if Tailscale and Firecracker had a baby.",
+          "supports": [],
+          "author": "dbmikus",
+          "shared_at": 1786297761,
+          "source_url": "https://news.ycombinator.com/item?id=49233657"
+        }
+      ],
+      "source_item_id": 49233657,
+      "source_url": "https://news.ycombinator.com/item?id=49233657",
+      "author": "dbmikus",
+      "shared_at": 1786297761,
+      "links": [
+        "https://www.amika.dev/"
+      ]
+    }
+  ]
+}

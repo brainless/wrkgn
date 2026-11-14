@@ -1,0 +1,35 @@
+{
+  "id": 782,
+  "slug": "agent-witness-72a5f72631",
+  "name": "Agent Witness",
+  "mentions": [
+    {
+      "name": "Agent Witness",
+      "description": "A PWA that acts as a remote ssh-agent. Private keys are wrapped, encrypted, and stored in IndexedDB locally on the phone; the vault can only be unwrapped with a secret derived from a passkey, and all key handling and signing happens locally through the browser's Web Crypto APIs as non-extractable CryptoKey objects. Incoming signing requests arrive as push notifications showing the reason supplied, the command being run, and the key requested; after passkey authorization only the resulting signature goes back to the server, so the private key never leaves the phone.",
+      "problem": "Handling private key signing for headless agents remotely without exposing private keys, keeping them on the phone instead of the server.",
+      "audience": null,
+      "builder_usernames": [
+        "evanpurkhiser"
+      ],
+      "source_excerpt": "Agent Witness runs as a PWA and is essentially a remote ssh-agent. The private keys are wrapped, encrypted, and stored in IndexedDB locally on the phone. The vault can only be unwrapped with a secret derived from a passkey, and all key handling and signing happens locally through the browser's Web Crypto APIs.",
+      "evidence": [
+        {
+          "source_item_id": 50418840,
+          "source_field": "body",
+          "value": "Agent Witness runs as a PWA and is essentially a remote ssh-agent. The private keys are wrapped, encrypted, and stored in IndexedDB locally on the phone. The vault can only be unwrapped with a secret derived from a passkey, and all key handling and signing happens locally through the browser's Web Crypto APIs.",
+          "supports": [],
+          "author": "evanpurkhiser",
+          "shared_at": 1794180560,
+          "source_url": "https://news.ycombinator.com/item?id=50418840"
+        }
+      ],
+      "source_item_id": 50418840,
+      "source_url": "https://news.ycombinator.com/item?id=50418840",
+      "author": "evanpurkhiser",
+      "shared_at": 1794180560,
+      "links": [
+        "https://github.com/evanpurkhiser/agent-witness"
+      ]
+    }
+  ]
+}

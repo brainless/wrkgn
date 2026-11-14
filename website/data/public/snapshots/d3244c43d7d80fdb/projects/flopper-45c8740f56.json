@@ -1,0 +1,35 @@
+{
+  "id": 460,
+  "slug": "flopper-45c8740f56",
+  "name": "Flopper",
+  "mentions": [
+    {
+      "name": "Flopper",
+      "description": "This platform aggregates a holistic view of the GPU market, including providers, rental prices, vendor information, and GPU specs. It also offers a calculator that uses power/flops and model requirements to estimate how many GPUs are needed to run a given model, configurable by model, precision, context, concurrency, tokens/sec, output length, and cache.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "triwats"
+      ],
+      "source_excerpt": "Still plugging away on Flopper to build a holistic view of the GPU market including providers, rental prices, vendor information and mostly - specs for GPUs.\n\nAdded a way to look at power/flops and new model requirements lately to try and estimate how many GPUs you need to run a certain model",
+      "evidence": [
+        {
+          "source_item_id": 50417948,
+          "source_field": "body",
+          "value": "Still plugging away on Flopper to build a holistic view of the GPU market including providers, rental prices, vendor information and mostly - specs for GPUs.\n\nAdded a way to look at power/flops and new model requirements lately to try and estimate how many GPUs you need to run a certain model",
+          "supports": [],
+          "author": "triwats",
+          "shared_at": 1794175980,
+          "source_url": "https://news.ycombinator.com/item?id=50417948"
+        }
+      ],
+      "source_item_id": 50417948,
+      "source_url": "https://news.ycombinator.com/item?id=50417948",
+      "author": "triwats",
+      "shared_at": 1794175980,
+      "links": [
+        "https://flopper.io/tools/llm-gpu-calculator?model=llama-3-3-70b-instruct&precision=bf16&ctx=32768&conc=32&tps=1000&out=512&cache=50"
+      ]
+    }
+  ]
+}

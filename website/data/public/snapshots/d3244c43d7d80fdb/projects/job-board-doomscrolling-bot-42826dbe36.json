@@ -1,0 +1,33 @@
+{
+  "id": 1207,
+  "slug": "job-board-doomscrolling-bot-42826dbe36",
+  "name": "Job board doomscrolling bot",
+  "mentions": [
+    {
+      "name": "Job board doomscrolling bot",
+      "description": "A bot that automatically browses job boards to surface potential job matches. It recycles parsing logic across target sites, favoring schema.org JSON-LD parsing over DOM-based scraping, and is built as a local-first app intended to run across multiple clients, with a browser extension to collect potential matches passively. It is being reworked around vanilla Web Components, view transitions, and Signals to reduce framework dependence.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "chaosharmonic"
+      ],
+      "source_excerpt": "I've been tweaking a bot that I built to doomscroll job boards for me, to recycle more parsing logic between target sites. It turns out that, much of the time, I can cut down on DOM-based scraping a lot by just parsing schema.org-based JSON-LD. Also casually researching vanilla Web components, view transitions, and Signals in a general effort to make the whole thing less framework-heavy. (Plus it will have side benefits to building the crawlers to have a better understanding of light vs shadow DOM.) Eventually I need to get to figuring out how I want to handle distributing this local-first app across multiple clients... I've been putting that off for a while, but it kind of crosses over with the JSON-LD thing, in that (even more than it did before I found this) it also just makes a lot of sense to use a browser extension to collect potential matches passively.",
+      "evidence": [
+        {
+          "source_item_id": 49687009,
+          "source_field": "body",
+          "value": "I've been tweaking a bot that I built to doomscroll job boards for me, to recycle more parsing logic between target sites. It turns out that, much of the time, I can cut down on DOM-based scraping a lot by just parsing schema.org-based JSON-LD. Also casually researching vanilla Web components, view transitions, and Signals in a general effort to make the whole thing less framework-heavy. (Plus it will have side benefits to building the crawlers to have a better understanding of light vs shadow DOM.) Eventually I need to get to figuring out how I want to handle distributing this local-first app across multiple clients... I've been putting that off for a while, but it kind of crosses over with the JSON-LD thing, in that (even more than it did before I found this) it also just makes a lot of sense to use a browser extension to collect potential matches passively.",
+          "supports": [],
+          "author": "chaosharmonic",
+          "shared_at": 1789323744,
+          "source_url": "https://news.ycombinator.com/item?id=49687009"
+        }
+      ],
+      "source_item_id": 49687009,
+      "source_url": "https://news.ycombinator.com/item?id=49687009",
+      "author": "chaosharmonic",
+      "shared_at": 1789323744,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 357,
+  "slug": "hack-a0d4b3fe26",
+  "name": "Hack",
+  "mentions": [
+    {
+      "name": "Hack",
+      "description": "iOS Hacker News client app that has been around for 9 years, currently being updated to replace its custom-view menu bars and navigation buttons with iOS native navigation bars and menu bars in order to support iPhone Duo's vertical stack side menu, along with other improvements; in final testing ahead of App Store submission.",
+      "problem": "The app's custom-view menu bars and navigation buttons don't work well with iPhone Duo's vertical stack menu on the right side.",
+      "audience": null,
+      "builder_usernames": [
+        "busymom0"
+      ],
+      "source_excerpt": "Currently working on adding support for iPhone Duo to my hacker news app Hack. The app has been around for 9 years and when I made it, the menu bars and navigation buttons were custom views. That doesn't seem to work well for iPhone duo due to its vertical stack menu on the right side. So, I've been switching over to iOS native navigation bars and menu bars along with a bunch of other improvements.",
+      "evidence": [
+        {
+          "source_item_id": 50417936,
+          "source_field": "body",
+          "value": "Currently working on adding support for iPhone Duo to my hacker news app Hack. The app has been around for 9 years and when I made it, the menu bars and navigation buttons were custom views. That doesn't seem to work well for iPhone duo due to its vertical stack menu on the right side. So, I've been switching over to iOS native navigation bars and menu bars along with a bunch of other improvements.",
+          "supports": [],
+          "author": "busymom0",
+          "shared_at": 1794175914,
+          "source_url": "https://news.ycombinator.com/item?id=50417936"
+        }
+      ],
+      "source_item_id": 50417936,
+      "source_url": "https://news.ycombinator.com/item?id=50417936",
+      "author": "busymom0",
+      "shared_at": 1794175914,
+      "links": [
+        "https://apps.apple.com/app/id1464477788"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 659,
+  "slug": "turbolytics-97ec51d311",
+  "name": "Turbolytics",
+  "mentions": [
+    {
+      "name": "Turbolytics",
+      "description": "A data monitoring service that monitors PostgreSQL and Kafka Connect deployments and sends alerts on issues such as Debezium WAL growth in Postgres.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dm03514"
+      ],
+      "source_excerpt": "I'm working on a data monitoring company:\n\nhttps://turbolytics.io/blog/debezium-wal-growth-postgres\n\nHappy to get your postgres and kafka connect monitored and alerted on for free!",
+      "evidence": [
+        {
+          "source_item_id": 50419157,
+          "source_field": "body",
+          "value": "I'm working on a data monitoring company:\n\nhttps://turbolytics.io/blog/debezium-wal-growth-postgres\n\nHappy to get your postgres and kafka connect monitored and alerted on for free!",
+          "supports": [],
+          "author": "dm03514",
+          "shared_at": 1794182633,
+          "source_url": "https://news.ycombinator.com/item?id=50419157"
+        }
+      ],
+      "source_item_id": 50419157,
+      "source_url": "https://news.ycombinator.com/item?id=50419157",
+      "author": "dm03514",
+      "shared_at": 1794182633,
+      "links": [
+        "https://turbolytics.io/blog/debezium-wal-growth-postgres"
+      ]
+    }
+  ]
+}

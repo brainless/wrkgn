@@ -1,0 +1,35 @@
+{
+  "id": 341,
+  "slug": "recvmail-net-46486d0ea0",
+  "name": "recvmail",
+  "mentions": [
+    {
+      "name": "recvmail",
+      "description": "This service provides a way for AI agents to receive email and complete email verification when signing up for online accounts.",
+      "problem": "There was no good way for agents to sign up for accounts that require email verification, so the author built this to scratch that itch.",
+      "audience": null,
+      "builder_usernames": [
+        "zmj"
+      ],
+      "source_excerpt": "I built https://recvmail.net to scratch my itch for a way for agents to sign up for accounts with email verification.",
+      "evidence": [
+        {
+          "source_item_id": 50425301,
+          "source_field": "body",
+          "value": "I built https://recvmail.net to scratch my itch for a way for agents to sign up for accounts with email verification.",
+          "supports": [],
+          "author": "zmj",
+          "shared_at": 1794230818,
+          "source_url": "https://news.ycombinator.com/item?id=50425301"
+        }
+      ],
+      "source_item_id": 50425301,
+      "source_url": "https://news.ycombinator.com/item?id=50425301",
+      "author": "zmj",
+      "shared_at": 1794230818,
+      "links": [
+        "https://recvmail.net"
+      ]
+    }
+  ]
+}

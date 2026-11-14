@@ -1,0 +1,63 @@
+{
+  "id": 338,
+  "slug": "abejora-3d0ac0c018",
+  "name": "Abejora",
+  "mentions": [
+    {
+      "name": "Abejora",
+      "description": "Time tracking app for freelancers and small teams that has been rebuilt to support access for AI agents, letting users' own agents handle the repetitive parts of time tracking while change history and full undo/redo functionality keep users in control.",
+      "problem": "The timesheet tool the builders paid for raised its prices and moved regularly used features behind more expensive plans; adding three new colleagues would have cost $500 a year more for the same software.",
+      "audience": "Freelancers and small teams.",
+      "builder_usernames": [
+        "abejora"
+      ],
+      "source_excerpt": "https://www.abejora.com - time tracking for freelancers and small teams",
+      "evidence": [
+        {
+          "source_item_id": 50417530,
+          "source_field": "body",
+          "value": "https://www.abejora.com - time tracking for freelancers and small teams",
+          "supports": [],
+          "author": "abejora",
+          "shared_at": 1794173558,
+          "source_url": "https://news.ycombinator.com/item?id=50417530"
+        }
+      ],
+      "source_item_id": 50417530,
+      "source_url": "https://news.ycombinator.com/item?id=50417530",
+      "author": "abejora",
+      "shared_at": 1794173558,
+      "links": [
+        "https://www.abejora.com"
+      ]
+    },
+    {
+      "name": "Abejora",
+      "description": "Timesheet software for freelancers and small teams, positioned as an affordable alternative to timesheet SaaS companies whose prices have risen sharply. Pricing does not scale with user count and features are functionally complete with no arbitrary plan tiers. Built with Elixir and Phoenix LiveView and deployed on a Talos Kubernetes cluster. Recent work focuses on the temporal nature of timesheet data — handling historical versions, retiring, locking, changing, and reopening records or rates — to keep everything accessible and user friendly.",
+      "problem": "Timesheet SaaS companies have engaged in price gouging, charging far more as team size grows and using arbitrary tiers to force users into more expensive plans.",
+      "audience": "Freelancers and small teams seeking affordable, functionally complete timesheet software without arbitrary pricing tiers",
+      "builder_usernames": [
+        "abejora"
+      ],
+      "source_excerpt": "https://www.abejora.com - timesheet software for freelancers and small teams",
+      "evidence": [
+        {
+          "source_item_id": 49692982,
+          "source_field": "body",
+          "value": "https://www.abejora.com - timesheet software for freelancers and small teams",
+          "supports": [],
+          "author": "abejora",
+          "shared_at": 1789369502,
+          "source_url": "https://news.ycombinator.com/item?id=49692982"
+        }
+      ],
+      "source_item_id": 49692982,
+      "source_url": "https://news.ycombinator.com/item?id=49692982",
+      "author": "abejora",
+      "shared_at": 1789369502,
+      "links": [
+        "https://www.abejora.com"
+      ]
+    }
+  ]
+}

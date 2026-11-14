@@ -1,0 +1,35 @@
+{
+  "id": 292,
+  "slug": "meshlive-45821f55c8",
+  "name": "MeshLive",
+  "mentions": [
+    {
+      "name": "MeshLive",
+      "description": "Open-source app for voice/video calls and livestreaming over Bluetooth mesh without internet, where nearby phones relay to extend the range. Available on Android (recently released on the Play Store), iOS, macOS, and Windows; still experimental, with live video working over BLE.",
+      "problem": "Enables voice/video calls and livestreaming without internet connectivity.",
+      "audience": null,
+      "builder_usernames": [
+        "gptgautam1"
+      ],
+      "source_excerpt": "I've been working on MeshLive, an open-source app for voice/video calls and livestreaming over Bluetooth mesh without internet. Nearby phone relay to extend the range.",
+      "evidence": [
+        {
+          "source_item_id": 50431262,
+          "source_field": "body",
+          "value": "I've been working on MeshLive, an open-source app for voice/video calls and livestreaming over Bluetooth mesh without internet. Nearby phone relay to extend the range.",
+          "supports": [],
+          "author": "gptgautam1",
+          "shared_at": 1794255150,
+          "source_url": "https://news.ycombinator.com/item?id=50431262"
+        }
+      ],
+      "source_item_id": 50431262,
+      "source_url": "https://news.ycombinator.com/item?id=50431262",
+      "author": "gptgautam1",
+      "shared_at": 1794255150,
+      "links": [
+        "https://github.com/MeshLive"
+      ]
+    }
+  ]
+}

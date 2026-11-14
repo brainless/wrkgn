@@ -1,0 +1,35 @@
+{
+  "id": 1775,
+  "slug": "snomed-rust-e81569f5a3",
+  "name": "snomed-rust",
+  "mentions": [
+    {
+      "name": "snomed-rust",
+      "description": "Rust implementation of SNOMED (Systematised Nomenclature of Medicine), built against the official specifications with test automation and relational database storage. Work in progress on stores for PostgreSQL, SQLite, MySQL, MariaDB, MSSQL, and Oracle.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jph"
+      ],
+      "source_excerpt": "Systematised Nomenclature of Medicine (SNOMED) using Rust:",
+      "evidence": [
+        {
+          "source_item_id": 49241681,
+          "source_field": "body",
+          "value": "Systematised Nomenclature of Medicine (SNOMED) using Rust:",
+          "supports": [],
+          "author": "jph",
+          "shared_at": 1786356624,
+          "source_url": "https://news.ycombinator.com/item?id=49241681"
+        }
+      ],
+      "source_item_id": 49241681,
+      "source_url": "https://news.ycombinator.com/item?id=49241681",
+      "author": "jph",
+      "shared_at": 1786356624,
+      "links": [
+        "https://github.com/snomed-rust/snomed-rust"
+      ]
+    }
+  ]
+}

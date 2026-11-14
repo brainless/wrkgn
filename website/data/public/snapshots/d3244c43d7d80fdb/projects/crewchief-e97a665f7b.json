@@ -1,0 +1,36 @@
+{
+  "id": 1699,
+  "slug": "crewchief-e97a665f7b",
+  "name": "CrewChief",
+  "mentions": [
+    {
+      "name": "CrewChief",
+      "description": "An iPhone automotive diagnostic app that scans OBD2 diagnostic codes and hooks them up to a custom AI diagnostic prompt. It tracks vehicle repair tasks, provides easy access to VIN info for parts search and DMV records, and generates in-depth diagnostic reports: a code database includes manufacturer-specific DTCs for 10 major makes plus per-model data down to the generation level (known failure patterns, common codes per engine), with AI reports conditioned on the exact year/make/model/engine. Repair price calculations mix fetched parts price data with a guided prompt using published labor-hour records and regional averages. It speaks generic OBD2 (ELM327) over Bluetooth, so cheap adapters work.",
+      "problem": "The builder wanted a single tool to track vehicle tasks, easily access VIN info for parts search, and DMV records, and saw nothing on the market with comparable depth of diagnostic reporting.",
+      "audience": "Car, motorcycle, tractor, and truck owners doing their own vehicle diagnostics and repairs",
+      "builder_usernames": [
+        "meandave"
+      ],
+      "source_excerpt": "I've been building the most advanced automotive diagnostic app on the market\n\nI used to be a mechanic, and spend a lot of my free time working on project vehicles, motorcycles, tractors, trucks etc. I wanted a tool to track the tasks I needed done, then a way to easily access VIN info for parts search, then I DMV records, and finally built an iphone app to scan the OBD2 diagnostic codes and hook them up to a custom ai diagnostic prompt.",
+      "evidence": [
+        {
+          "source_item_id": 49234857,
+          "source_field": "body",
+          "value": "I've been building the most advanced automotive diagnostic app on the market\n\nI used to be a mechanic, and spend a lot of my free time working on project vehicles, motorcycles, tractors, trucks etc. I wanted a tool to track the tasks I needed done, then a way to easily access VIN info for parts search, then I DMV records, and finally built an iphone app to scan the OBD2 diagnostic codes and hook them up to a custom ai diagnostic prompt.",
+          "supports": [],
+          "author": "meandave",
+          "shared_at": 1786303888,
+          "source_url": "https://news.ycombinator.com/item?id=49234857"
+        }
+      ],
+      "source_item_id": 49234857,
+      "source_url": "https://news.ycombinator.com/item?id=49234857",
+      "author": "meandave",
+      "shared_at": 1786303888,
+      "links": [
+        "https://apps.apple.com/us/app/crewchief-auto/id6760673109",
+        "https://crewchief.cc"
+      ]
+    }
+  ]
+}

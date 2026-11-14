@@ -1,0 +1,33 @@
+{
+  "id": 1126,
+  "slug": "datalog-writebacks-through-derived-columns-049f70bd0c",
+  "name": "Datalog writebacks through derived columns",
+  "mentions": [
+    {
+      "name": "Datalog writebacks through derived columns",
+      "description": "This is a client-side technique for enabling writebacks through derived (computed) columns in Datalog queries: any value appearing anywhere in a query — including string-transformed, concatenated, or arithmetic derivations — can be edited back to the underlying data, and the approach should work with any Datalog-based database. For example, a movie's title and rating can be edited through a derived card column.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Xmd5a"
+      ],
+      "source_excerpt": "Datalog writebacks through derived columns. Any query. Any cell. And probably any datalog-based database too, it's just a client-side trick.",
+      "evidence": [
+        {
+          "source_item_id": 49693144,
+          "source_field": "body",
+          "value": "Datalog writebacks through derived columns. Any query. Any cell. And probably any datalog-based database too, it's just a client-side trick.",
+          "supports": [],
+          "author": "Xmd5a",
+          "shared_at": 1789370771,
+          "source_url": "https://news.ycombinator.com/item?id=49693144"
+        }
+      ],
+      "source_item_id": 49693144,
+      "source_url": "https://news.ycombinator.com/item?id=49693144",
+      "author": "Xmd5a",
+      "shared_at": 1789370771,
+      "links": []
+    }
+  ]
+}

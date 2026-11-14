@@ -1,0 +1,35 @@
+{
+  "id": 2042,
+  "slug": "beck-0cd59a6e7c",
+  "name": "Beck",
+  "mentions": [
+    {
+      "name": "Beck",
+      "description": "A programming language designed to encompass frontend, backend, database, container, and cluster in one, eliminating the need to stitch together multiple languages. It uses functional programming and event sourcing to make distributed web application code extremely simple while avoiding bad architecture and gaps.",
+      "problem": "Modern distributed web application development requires stitching together multiple languages across frontend, backend, database, containers, and clusters, leading to complex architectures with gaps.",
+      "audience": "Stated goal is solving modern distributed web application development, implying web developers building full-stack apps.",
+      "builder_usernames": [
+        "gste"
+      ],
+      "source_excerpt": "I started making a programming language that is designed to encompass frontend, backend, database, container, and cluster, so that there it is not necessary to stitch together other languages.\n\nIt uses functional programming and event sourcing to try and effectively \"solve\" modern distributed web application development, so that your app code in this language can be extremely simple but not have bad architecture and gaps.",
+      "evidence": [
+        {
+          "source_item_id": 49235029,
+          "source_field": "body",
+          "value": "I started making a programming language that is designed to encompass frontend, backend, database, container, and cluster, so that there it is not necessary to stitch together other languages.\n\nIt uses functional programming and event sourcing to try and effectively \"solve\" modern distributed web application development, so that your app code in this language can be extremely simple but not have bad architecture and gaps.",
+          "supports": [],
+          "author": "gste",
+          "shared_at": 1786304708,
+          "source_url": "https://news.ycombinator.com/item?id=49235029"
+        }
+      ],
+      "source_item_id": 49235029,
+      "source_url": "https://news.ycombinator.com/item?id=49235029",
+      "author": "gste",
+      "shared_at": 1786304708,
+      "links": [
+        "https://github.com/georgestephenson/beck"
+      ]
+    }
+  ]
+}

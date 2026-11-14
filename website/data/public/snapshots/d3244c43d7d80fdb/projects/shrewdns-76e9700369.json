@@ -1,0 +1,35 @@
+{
+  "id": 390,
+  "slug": "shrewdns-76e9700369",
+  "name": "ShrewDNS",
+  "mentions": [
+    {
+      "name": "ShrewDNS",
+      "description": "This is a networking-over-DNS client and server written in Go. It acts as a building block that represents DNS channels as UDP endpoints, allowing users to build custom network topologies on top — for example running WireGuard, SSH, a SOCKS5 proxy (via quicmux over QUIC), or even Mosh straight over DNS. It also ships with an Android app.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Wicher"
+      ],
+      "source_excerpt": "A networking-over-DNS client and server, in Go. https://sr.ht/~nullenenenen/ShrewDNS/",
+      "evidence": [
+        {
+          "source_item_id": 50330035,
+          "source_field": "body",
+          "value": "A networking-over-DNS client and server, in Go. https://sr.ht/~nullenenenen/ShrewDNS/",
+          "supports": [],
+          "author": "Wicher",
+          "shared_at": 1793568159,
+          "source_url": "https://news.ycombinator.com/item?id=50330035"
+        }
+      ],
+      "source_item_id": 50330035,
+      "source_url": "https://news.ycombinator.com/item?id=50330035",
+      "author": "Wicher",
+      "shared_at": 1793568159,
+      "links": [
+        "https://sr.ht/~nullenenenen/ShrewDNS/"
+      ]
+    }
+  ]
+}

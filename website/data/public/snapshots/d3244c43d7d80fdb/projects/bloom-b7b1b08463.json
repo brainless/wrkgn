@@ -1,0 +1,37 @@
+{
+  "id": 231,
+  "slug": "bloom-b7b1b08463",
+  "name": "Bloom",
+  "mentions": [
+    {
+      "name": "Bloom",
+      "description": "This is an open source Android app for note-taking and task management that is compatible with org-mode. It supports capture templates, app shortcuts for quick capture, sync conflict notifications with resolution by picking or merging revisions, a customizable agenda showing overdue, due soon, and upcoming events, a quick add overlay from the agenda widget, task refile by drilling into files/headings or searching, auto-archiving of done tasks, and org-attach-compliant attachments with inline image rendering including width control.",
+      "problem": "Existing org-mode Android app Orgzly Revived caused friction, prompting a purpose-built replacement.",
+      "audience": "Android phone users",
+      "builder_usernames": [
+        "rrajath"
+      ],
+      "source_excerpt": "I've been building Bloom, an open source Android app for note-taking and task management that's compatible with org-mode.",
+      "evidence": [
+        {
+          "source_item_id": 50422870,
+          "source_field": "body",
+          "value": "I've been building Bloom, an open source Android app for note-taking and task management that's compatible with org-mode.",
+          "supports": [],
+          "author": "rrajath",
+          "shared_at": 1794214117,
+          "source_url": "https://news.ycombinator.com/item?id=50422870"
+        }
+      ],
+      "source_item_id": 50422870,
+      "source_url": "https://news.ycombinator.com/item?id=50422870",
+      "author": "rrajath",
+      "shared_at": 1794214117,
+      "links": [
+        "https://f-droid.org/packages/com.rrajath.grove",
+        "https://github.com/rrajath/bloom",
+        "https://play.google.com/store/apps/details?id=com.rrajath.grove"
+      ]
+    }
+  ]
+}

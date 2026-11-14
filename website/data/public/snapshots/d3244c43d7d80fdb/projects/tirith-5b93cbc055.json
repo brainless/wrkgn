@@ -1,0 +1,33 @@
+{
+  "id": 1995,
+  "slug": "tirith-5b93cbc055",
+  "name": "Tirith",
+  "mentions": [
+    {
+      "name": "Tirith",
+      "description": "Data ontology platform (in the spirit of Palantir Gotham) that ingests textual, structured, and freeform sources (images and video possibly later), detects relationships between objects, and provides graph, geospatial, and analyst views. Its relationship detection leverages NLP and OpenAI-compatible models such as DeepSeek.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "wingtw"
+      ],
+      "source_excerpt": "Been building a data ontology project i call Tirith - think palantir's gotham + their different modules on top. Can ingest from different sources (textual, structured or freeform for now, images + video coming maybe later), detect relationships between objects, view graph, geospatial view and rudimentary analysts view.",
+      "evidence": [
+        {
+          "source_item_id": 49234534,
+          "source_field": "body",
+          "value": "Been building a data ontology project i call Tirith - think palantir's gotham + their different modules on top. Can ingest from different sources (textual, structured or freeform for now, images + video coming maybe later), detect relationships between objects, view graph, geospatial view and rudimentary analysts view.",
+          "supports": [],
+          "author": "wingtw",
+          "shared_at": 1786302109,
+          "source_url": "https://news.ycombinator.com/item?id=49234534"
+        }
+      ],
+      "source_item_id": 49234534,
+      "source_url": "https://news.ycombinator.com/item?id=49234534",
+      "author": "wingtw",
+      "shared_at": 1786302109,
+      "links": []
+    }
+  ]
+}

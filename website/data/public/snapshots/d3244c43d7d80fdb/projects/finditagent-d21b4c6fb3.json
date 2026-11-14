@@ -1,0 +1,35 @@
+{
+  "id": 463,
+  "slug": "finditagent-d21b4c6fb3",
+  "name": "FinditAgent",
+  "mentions": [
+    {
+      "name": "FinditAgent",
+      "description": "FinditAgent is a Windows tool that lets AI agents research large collections of local files without a vector database, acting like grep on steroids across almost any file format while giving the AI no direct access to the local file system. The user asks a question, the AI creates the search strategy and queries, and FinditAgent performs the searches and sends back only results or UTF-8 excerpts. It offers predefined connections to the APIs of most cloud models as well as to local AI via Ollama. It is a one-click Windows install, free for private and experimental use, available on GitHub, and the underlying search engine has been developed for over 30 years.",
+      "problem": "Enables AI agents to search large local file collections without a vector database and without exposing the local file system directly to the AI.",
+      "audience": null,
+      "builder_usernames": [
+        "Michael_Houben"
+      ],
+      "source_excerpt": "final polishing of FinditAgent, a Windows tool which allows AI agents to research large collections of local files without vector database (more like grep on steroids, for almost any file-format) - and without giving the AI any access to local file systems.",
+      "evidence": [
+        {
+          "source_item_id": 50423344,
+          "source_field": "body",
+          "value": "final polishing of FinditAgent, a Windows tool which allows AI agents to research large collections of local files without vector database (more like grep on steroids, for almost any file-format) - and without giving the AI any access to local file systems.",
+          "supports": [],
+          "author": "Michael_Houben",
+          "shared_at": 1794217607,
+          "source_url": "https://news.ycombinator.com/item?id=50423344"
+        }
+      ],
+      "source_item_id": 50423344,
+      "source_url": "https://news.ycombinator.com/item?id=50423344",
+      "author": "Michael_Houben",
+      "shared_at": 1794217607,
+      "links": [
+        "https://github.com/MHoub/Findit-Agent-Frontend"
+      ]
+    }
+  ]
+}

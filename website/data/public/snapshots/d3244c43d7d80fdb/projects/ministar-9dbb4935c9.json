@@ -1,0 +1,35 @@
+{
+  "id": 820,
+  "slug": "ministar-9dbb4935c9",
+  "name": "ministar",
+  "mentions": [
+    {
+      "name": "ministar",
+      "description": "Astrophotography tool that automates the hard parts of untracked astrophotography: it uses plate solving to help point the camera at the target and live-stacks captures while accounting for the rotation of the Earth. It is early-stage and hacky, with plans to port to Linux/Raspberry Pi so a minimal high-quality astronomy setup (DSLR, 3-way head, tripod, power bank, and a single-board computer) can be used anywhere. Early results include shots of the h-Persei cluster.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "nameless912"
+      ],
+      "source_excerpt": "The second thing I'm working on is an astrophotography tool called ministar (https://github.com/galbacarys/ministar). The premise is basically, let's automate the hard parts of untracked astrophotography by using plate solving to help you point your camera to your target, and then live-stacking the result taking into account the rotation of the Earth.",
+      "evidence": [
+        {
+          "source_item_id": 50419614,
+          "source_field": "body",
+          "value": "The second thing I'm working on is an astrophotography tool called ministar (https://github.com/galbacarys/ministar). The premise is basically, let's automate the hard parts of untracked astrophotography by using plate solving to help you point your camera to your target, and then live-stacking the result taking into account the rotation of the Earth.",
+          "supports": [],
+          "author": "nameless912",
+          "shared_at": 1794185964,
+          "source_url": "https://news.ycombinator.com/item?id=50419614"
+        }
+      ],
+      "source_item_id": 50419614,
+      "source_url": "https://news.ycombinator.com/item?id=50419614",
+      "author": "nameless912",
+      "shared_at": 1794185964,
+      "links": [
+        "https://github.com/galbacarys/ministar"
+      ]
+    }
+  ]
+}

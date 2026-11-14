@@ -1,0 +1,35 @@
+{
+  "id": 13,
+  "slug": "all-about-berlin-60fdc4d302",
+  "name": "All About Berlin",
+  "mentions": [
+    {
+      "name": "All About Berlin",
+      "description": "This independent website is the author's primary source of income and has lost 80-85% of its traffic versus the same month pre-LLMs, as AI systems train on its work and use it to deny it an audience. In response, the author is cutting operating costs to the bare minimum: shutting down one service, replacing a VPS with Cloudflare Workers, trimming SaaS subscriptions, and self-hosting what they can.",
+      "problem": "AI systems train on the site's content and use it to divert its audience; traffic is down 80-85% from pre-LLM levels and the author fears the site will be dead within a year.",
+      "audience": null,
+      "builder_usernames": [
+        "nicbou"
+      ],
+      "source_excerpt": "AI is still killing the website I live from[0], training its AI on my work and using it to deny me an audience. Traffic is down 80-85% from the same month pre-LLMs.\n\nSo I'm cutting operating costs to the bare minimum. Today I shut down one service and replaced a VPS with Cloudflare Workers.",
+      "evidence": [
+        {
+          "source_item_id": 50424132,
+          "source_field": "body",
+          "value": "AI is still killing the website I live from[0], training its AI on my work and using it to deny me an audience. Traffic is down 80-85% from the same month pre-LLMs.\n\nSo I'm cutting operating costs to the bare minimum. Today I shut down one service and replaced a VPS with Cloudflare Workers.",
+          "supports": [],
+          "author": "nicbou",
+          "shared_at": 1794223640,
+          "source_url": "https://news.ycombinator.com/item?id=50424132"
+        }
+      ],
+      "source_item_id": 50424132,
+      "source_url": "https://news.ycombinator.com/item?id=50424132",
+      "author": "nicbou",
+      "shared_at": 1794223640,
+      "links": [
+        "https://nicolasbouliane.com/blog/death-by-ai"
+      ]
+    }
+  ]
+}

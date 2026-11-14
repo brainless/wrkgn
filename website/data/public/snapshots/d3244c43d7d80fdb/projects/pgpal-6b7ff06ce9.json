@@ -1,0 +1,35 @@
+{
+  "id": 469,
+  "slug": "pgpal-6b7ff06ce9",
+  "name": "pgpal",
+  "mentions": [
+    {
+      "name": "pgpal",
+      "description": "An encrypted messaging and key management app in which all crypto operations happen client-side, so private keys and unencrypted message text never leave the device.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "philbo"
+      ],
+      "source_excerpt": "Also hacking away at a little encrypted messaging / key management app, where all the crypto happens client-side so your private keys and unencrypted message text never leave your device:\n\nhttps://www.pgpal.org/",
+      "evidence": [
+        {
+          "source_item_id": 50421602,
+          "source_field": "body",
+          "value": "Also hacking away at a little encrypted messaging / key management app, where all the crypto happens client-side so your private keys and unencrypted message text never leave your device:\n\nhttps://www.pgpal.org/",
+          "supports": [],
+          "author": "philbo",
+          "shared_at": 1794204044,
+          "source_url": "https://news.ycombinator.com/item?id=50421602"
+        }
+      ],
+      "source_item_id": 50421602,
+      "source_url": "https://news.ycombinator.com/item?id=50421602",
+      "author": "philbo",
+      "shared_at": 1794204044,
+      "links": [
+        "https://www.pgpal.org/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 322,
+  "slug": "ember-e98f90a92b",
+  "name": "Ember",
+  "mentions": [
+    {
+      "name": "Ember",
+      "description": "Ember is a day planner app with dynamic rescheduling: moving a task or changing how long it takes shifts everything scheduled after it, and the plan flows around fixed events like meetings instead of becoming stale. The current build is web + Capacitor, with a native Kotlin app in development to replace it, and full duplex voice models being explored so tasks can be added or moved by conversing with an agent.",
+      "problem": "Most planners treat your schedule as fixed, so when a meeting runs long or a task takes longer than expected, the plan is wrong and you have to fix it by hand or give up on it.",
+      "audience": null,
+      "builder_usernames": [
+        "hhhkm"
+      ],
+      "source_excerpt": "For the past two years I've been working on my day planner app Ember.\n\nMost planners treat your schedule as fixed, so the moment a meeting runs long or a task takes twice as long, the plan is wrong and you either fix it by hand or give up on it. In Ember, if you move a task or change how long it takes, everything after it shifts later, and it flows around fixed things like meetings.",
+      "evidence": [
+        {
+          "source_item_id": 50393956,
+          "source_field": "body",
+          "value": "For the past two years I've been working on my day planner app Ember.\n\nMost planners treat your schedule as fixed, so the moment a meeting runs long or a task takes twice as long, the plan is wrong and you either fix it by hand or give up on it. In Ember, if you move a task or change how long it takes, everything after it shifts later, and it flows around fixed things like meetings.",
+          "supports": [],
+          "author": "hhhkm",
+          "shared_at": 1793980579,
+          "source_url": "https://news.ycombinator.com/item?id=50393956"
+        }
+      ],
+      "source_item_id": 50393956,
+      "source_url": "https://news.ycombinator.com/item?id=50393956",
+      "author": "hhhkm",
+      "shared_at": 1793980579,
+      "links": [
+        "https://emberflow.space"
+      ]
+    }
+  ]
+}

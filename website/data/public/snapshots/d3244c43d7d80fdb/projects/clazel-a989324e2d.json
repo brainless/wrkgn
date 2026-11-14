@@ -1,0 +1,35 @@
+{
+  "id": 168,
+  "slug": "clazel-a989324e2d",
+  "name": "Clazel",
+  "mentions": [
+    {
+      "name": "Clazel",
+      "description": "Clazel is an experiment in using AI to build a formally verified web browser in Rust. It currently works as a Lynx-style text browser with sandboxed rendering, HTML parsing, and link navigation, with the goal of seeing how far the approach can be taken.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "atiernanberry"
+      ],
+      "source_excerpt": "I'm working on Clazel, an experiment in using AI to make a formally verified web browser in Rust.\n\nSo far it’s a Lynx-style text browser with sandboxed rendering, HTML parsing and link navigation, but I want to see how far I can take it",
+      "evidence": [
+        {
+          "source_item_id": 50440506,
+          "source_field": "body",
+          "value": "I'm working on Clazel, an experiment in using AI to make a formally verified web browser in Rust.\n\nSo far it’s a Lynx-style text browser with sandboxed rendering, HTML parsing and link navigation, but I want to see how far I can take it",
+          "supports": [],
+          "author": "atiernanberry",
+          "shared_at": 1794319228,
+          "source_url": "https://news.ycombinator.com/item?id=50440506"
+        }
+      ],
+      "source_item_id": 50440506,
+      "source_url": "https://news.ycombinator.com/item?id=50440506",
+      "author": "atiernanberry",
+      "shared_at": 1794319228,
+      "links": [
+        "https://github.com/clazel/browser"
+      ]
+    }
+  ]
+}

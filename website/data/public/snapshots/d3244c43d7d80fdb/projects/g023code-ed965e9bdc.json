@@ -1,0 +1,63 @@
+{
+  "id": 1036,
+  "slug": "g023code-ed965e9bdc",
+  "name": "g023code",
+  "mentions": [
+    {
+      "name": "g023code",
+      "description": "A coding harness for DeepSeek V4.x that lets the LLM set its own reasoning for each response, enables bi-directional communication between subagents, and includes a todo sub-orchestrator that passes issues surfaced by one subagent to the next so they are fixed before the next task begins. It also caps reasoning at 75% to curb overthinking and includes cost-effective processing and cost efficiency management.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "g023"
+      ],
+      "source_excerpt": "Working on a DeepSeek V4.x coding harness.",
+      "evidence": [
+        {
+          "source_item_id": 49706994,
+          "source_field": "body",
+          "value": "Working on a DeepSeek V4.x coding harness.",
+          "supports": [],
+          "author": "g023",
+          "shared_at": 1789439830,
+          "source_url": "https://news.ycombinator.com/item?id=49706994"
+        }
+      ],
+      "source_item_id": 49706994,
+      "source_url": "https://news.ycombinator.com/item?id=49706994",
+      "author": "g023",
+      "shared_at": 1789439830,
+      "links": [
+        "https://github.com/g023/g023code"
+      ]
+    },
+    {
+      "name": "g023 Code",
+      "description": "A coding harness built specifically for the DeepSeek v4 flash model, using Ollama for vision support and the model's built-in web search capability natively. Implemented entirely in Python to keep it easy to use, with a focus on cache efficiency and tight context.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "g023"
+      ],
+      "source_excerpt": "g023 Code - https://github.com/g023/g023code a deepseek v4 flash harness built specifically for that model, that uses Ollama for its vision support, and uses the built in web search capability natively. Created only in Python to keep it easy to implement and use. Made to achieve cache efficiency, and keep context tight.",
+      "evidence": [
+        {
+          "source_item_id": 49233950,
+          "source_field": "body",
+          "value": "g023 Code - https://github.com/g023/g023code a deepseek v4 flash harness built specifically for that model, that uses Ollama for its vision support, and uses the built in web search capability natively. Created only in Python to keep it easy to implement and use. Made to achieve cache efficiency, and keep context tight.",
+          "supports": [],
+          "author": "g023",
+          "shared_at": 1786299228,
+          "source_url": "https://news.ycombinator.com/item?id=49233950"
+        }
+      ],
+      "source_item_id": 49233950,
+      "source_url": "https://news.ycombinator.com/item?id=49233950",
+      "author": "g023",
+      "shared_at": 1786299228,
+      "links": [
+        "https://github.com/g023/g023code"
+      ]
+    }
+  ]
+}

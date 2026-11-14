@@ -1,0 +1,35 @@
+{
+  "id": 411,
+  "slug": "leafle-91f97a4370",
+  "name": "Leafle",
+  "mentions": [
+    {
+      "name": "Leafle",
+      "description": "A personalized book recommendation service that also suggests library books to borrow. It uses LLMs as the user-facing interface and as a research/reverse-engineering tool, and applies automated quality filtering (e.g., banning low-quality OpenRouter providers based on their output) before recommendations reach users. The builder promotes it with flyers at local libraries.",
+      "problem": "Finding worthwhile books (including library books) that a reader wouldn't have thought of reading on their own.",
+      "audience": null,
+      "builder_usernames": [
+        "kidnoodle"
+      ],
+      "source_excerpt": "Still working away on my book (and library book) recommendations service https://leafle.org",
+      "evidence": [
+        {
+          "source_item_id": 50389863,
+          "source_field": "body",
+          "value": "Still working away on my book (and library book) recommendations service https://leafle.org",
+          "supports": [],
+          "author": "kidnoodle",
+          "shared_at": 1793955502,
+          "source_url": "https://news.ycombinator.com/item?id=50389863"
+        }
+      ],
+      "source_item_id": 50389863,
+      "source_url": "https://news.ycombinator.com/item?id=50389863",
+      "author": "kidnoodle",
+      "shared_at": 1793955502,
+      "links": [
+        "https://leafle.org"
+      ]
+    }
+  ]
+}

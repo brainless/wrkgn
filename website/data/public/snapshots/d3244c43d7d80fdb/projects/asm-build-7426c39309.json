@@ -1,0 +1,35 @@
+{
+  "id": 272,
+  "slug": "asm-build-7426c39309",
+  "name": "asm.build",
+  "mentions": [
+    {
+      "name": "asm.build",
+      "description": "A package manager for assembly projects. Its thesis is that programming languages existed as an abstraction for humans: as AI makes writing code cheap, code can be written in assembly for each architecture as long as specifications are done well, and runtime costs matter more — so have your AI write assembly instead of Rust.",
+      "problem": "Programming languages exist as abstractions for humans; as writing code becomes cheaper, the costs of running matter more, so code should be generated per architecture in assembly rather than in higher-level languages like Rust.",
+      "audience": null,
+      "builder_usernames": [
+        "stubbi"
+      ],
+      "source_excerpt": "https://asm.build - the package manager for assembly projects.\n\nthe plot: Programming languages existed as an abstraction for humans. As writing code becomes cheaper, we can write it for each architecture as long as the specification is done well. The costs of running will matter more in relation. So don’t make your AI write rust, but assembly",
+      "evidence": [
+        {
+          "source_item_id": 50417899,
+          "source_field": "body",
+          "value": "https://asm.build - the package manager for assembly projects.\n\nthe plot: Programming languages existed as an abstraction for humans. As writing code becomes cheaper, we can write it for each architecture as long as the specification is done well. The costs of running will matter more in relation. So don’t make your AI write rust, but assembly",
+          "supports": [],
+          "author": "stubbi",
+          "shared_at": 1794175715,
+          "source_url": "https://news.ycombinator.com/item?id=50417899"
+        }
+      ],
+      "source_item_id": 50417899,
+      "source_url": "https://news.ycombinator.com/item?id=50417899",
+      "author": "stubbi",
+      "shared_at": 1794175715,
+      "links": [
+        "https://asm.build"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 1331,
+  "slug": "easylang-browser-ide-1c07b90ff6",
+  "name": "Easylang browser IDE",
+  "mentions": [
+    {
+      "name": "Easylang browser IDE",
+      "description": "A browser-based IDE for the Easylang programming language. Its smart tab completion parses the entire program up to the cursor on every tab press, letting users avoid a lot of typing and potential errors — for example, typing a few characters and pressing tab quickly produces a circle drawn on screen.",
+      "problem": "Avoids a bunch of typing and potential errors while writing code.",
+      "audience": null,
+      "builder_usernames": [
+        "chrka"
+      ],
+      "source_excerpt": "I'm currently working on the browser editor for my programming language, With the smart tab completion - which parses the entire program up to the cursor every time you press tab - you can avoid a bunch of typing and also potential errors.",
+      "evidence": [
+        {
+          "source_item_id": 49696771,
+          "source_field": "body",
+          "value": "I'm currently working on the browser editor for my programming language, With the smart tab completion - which parses the entire program up to the cursor every time you press tab - you can avoid a bunch of typing and also potential errors.",
+          "supports": [],
+          "author": "chrka",
+          "shared_at": 1789393425,
+          "source_url": "https://news.ycombinator.com/item?id=49696771"
+        }
+      ],
+      "source_item_id": 49696771,
+      "source_url": "https://news.ycombinator.com/item?id=49696771",
+      "author": "chrka",
+      "shared_at": 1789393425,
+      "links": [
+        "https://easylang.online/ide/"
+      ]
+    }
+  ]
+}

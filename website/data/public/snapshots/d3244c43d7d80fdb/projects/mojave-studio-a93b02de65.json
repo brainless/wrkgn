@@ -1,0 +1,35 @@
+{
+  "id": 329,
+  "slug": "mojave-studio-a93b02de65",
+  "name": "Mojave Studio",
+  "mentions": [
+    {
+      "name": "Mojave Studio",
+      "description": "Mojave Studio is a Mac image editor featuring \"Smart Folders,\" an equivalent to Photoshop Smart Objects. An embedded sub-document is shown inline (like examining shadow DOM in a web inspector) with its identity transform, while the rest of the document gets the inverse transform applied to show how it sits in context; sub-documents can be transformed with affine and/or homographic transforms.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jpsimons"
+      ],
+      "source_excerpt": "I'm really pleased with how my equivalent to Smart Objects turned out in Mojave Studio, my Mac image editor.",
+      "evidence": [
+        {
+          "source_item_id": 50421785,
+          "source_field": "body",
+          "value": "I'm really pleased with how my equivalent to Smart Objects turned out in Mojave Studio, my Mac image editor.",
+          "supports": [],
+          "author": "jpsimons",
+          "shared_at": 1794205377,
+          "source_url": "https://news.ycombinator.com/item?id=50421785"
+        }
+      ],
+      "source_item_id": 50421785,
+      "source_url": "https://news.ycombinator.com/item?id=50421785",
+      "author": "jpsimons",
+      "shared_at": 1794205377,
+      "links": [
+        "https://mojavepaint.app/blog/smart-folders"
+      ]
+    }
+  ]
+}

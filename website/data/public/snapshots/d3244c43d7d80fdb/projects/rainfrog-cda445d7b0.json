@@ -1,0 +1,35 @@
+{
+  "id": 3459,
+  "slug": "rainfrog-cda445d7b0",
+  "name": "rainfrog",
+  "mentions": [
+    {
+      "name": "rainfrog",
+      "description": "Rainfrog is a terminal UI database tool that recently added autocomplete. It is built as a lightweight, keyboard-centric alternative to dbeaver and pgAdmin, and covers the vast majority of the author's day-to-day database tasks.",
+      "problem": "Existing database tools like dbeaver and pgAdmin are heavyweight and not keyboard-centric; rainfrog offers a lightweight, keyboard-driven alternative.",
+      "audience": null,
+      "builder_usernames": [
+        "achristmascarl"
+      ],
+      "source_excerpt": "I recently added autocomplete to rainfrog, the terminal UI database tool I've been working on: https://github.com/achristmascarl/rainfrog\n\nI initially made it as a lightweight, keyboard-centric alternative to dbeaver/pgadmin, and it now covers 95%+ of the database-related tasks I need to do at my job.",
+      "evidence": [
+        {
+          "source_item_id": 49234491,
+          "source_field": "body",
+          "value": "I recently added autocomplete to rainfrog, the terminal UI database tool I've been working on: https://github.com/achristmascarl/rainfrog\n\nI initially made it as a lightweight, keyboard-centric alternative to dbeaver/pgadmin, and it now covers 95%+ of the database-related tasks I need to do at my job.",
+          "supports": [],
+          "author": "achristmascarl",
+          "shared_at": 1786301928,
+          "source_url": "https://news.ycombinator.com/item?id=49234491"
+        }
+      ],
+      "source_item_id": 49234491,
+      "source_url": "https://news.ycombinator.com/item?id=49234491",
+      "author": "achristmascarl",
+      "shared_at": 1786301928,
+      "links": [
+        "https://github.com/achristmascarl/rainfrog"
+      ]
+    }
+  ]
+}

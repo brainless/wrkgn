@@ -1,0 +1,35 @@
+{
+  "id": 2831,
+  "slug": "postkit-67a8697c83",
+  "name": "Postkit",
+  "mentions": [
+    {
+      "name": "Postkit",
+      "description": "This app provides a Postgres-based foundation for building applications, bundling the application-independent basics like login and permissions so developers can start a new app with it and add their own features with consistent structure.",
+      "problem": "With vibe coding/LLM-assisted engineering it is hard to get the basic, application-independent stuff correct, so this provides a consistent base to build on.",
+      "audience": null,
+      "builder_usernames": [
+        "varun_chopra"
+      ],
+      "source_excerpt": "Postkit: https://github.com/varunchopra/postkit\n\nThis is basically my version of \"what all could you throw into Postgres?\"\n\nMy problem with vibe coding/LLM assisted engineering is that it's hard to get the basic stuff that is independent of the application itself, correct, so I just use this and make sure everything I build has some consistency.\n\nYou can pop this in and use it as the base for your app and add login, permissions, etc. quite cleanly.",
+      "evidence": [
+        {
+          "source_item_id": 48887153,
+          "source_field": "body",
+          "value": "Postkit: https://github.com/varunchopra/postkit\n\nThis is basically my version of \"what all could you throw into Postgres?\"\n\nMy problem with vibe coding/LLM assisted engineering is that it's hard to get the basic stuff that is independent of the application itself, correct, so I just use this and make sure everything I build has some consistency.\n\nYou can pop this in and use it as the base for your app and add login, permissions, etc. quite cleanly.",
+          "supports": [],
+          "author": "varun_chopra",
+          "shared_at": 1783909853,
+          "source_url": "https://news.ycombinator.com/item?id=48887153"
+        }
+      ],
+      "source_item_id": 48887153,
+      "source_url": "https://news.ycombinator.com/item?id=48887153",
+      "author": "varun_chopra",
+      "shared_at": 1783909853,
+      "links": [
+        "https://github.com/varunchopra/postkit"
+      ]
+    }
+  ]
+}

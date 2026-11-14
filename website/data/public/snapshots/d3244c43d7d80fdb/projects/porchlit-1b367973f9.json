@@ -1,0 +1,35 @@
+{
+  "id": 552,
+  "slug": "porchlit-1b367973f9",
+  "name": "Porchlit",
+  "mentions": [
+    {
+      "name": "Porchlit",
+      "description": "A free web app that converts RSS, Atom, and blog feeds into audio feeds using Kokoro TTS, letting users listen to written blogs as audio. Core features are working, with UI and copy polish still planned.",
+      "problem": "The author wanted to listen to acoup and other history blogs while sleeping, which reading alone doesn't allow.",
+      "audience": "The author built it for personal use, wanting to listen to history blogs like ACOUP while sleeping.",
+      "builder_usernames": [
+        "aleksiy123"
+      ],
+      "source_excerpt": "Turning RSS, atom, blog feeds into audio feeds with kokoro tts. Free, web app only.",
+      "evidence": [
+        {
+          "source_item_id": 50330263,
+          "source_field": "body",
+          "value": "Turning RSS, atom, blog feeds into audio feeds with kokoro tts. Free, web app only.",
+          "supports": [],
+          "author": "aleksiy123",
+          "shared_at": 1793569801,
+          "source_url": "https://news.ycombinator.com/item?id=50330263"
+        }
+      ],
+      "source_item_id": 50330263,
+      "source_url": "https://news.ycombinator.com/item?id=50330263",
+      "author": "aleksiy123",
+      "shared_at": 1793569801,
+      "links": [
+        "https://porchlit.app/"
+      ]
+    }
+  ]
+}

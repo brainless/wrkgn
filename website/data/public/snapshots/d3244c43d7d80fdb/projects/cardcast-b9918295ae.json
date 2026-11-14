@@ -1,0 +1,91 @@
+{
+  "id": 1961,
+  "slug": "cardcast-b9918295ae",
+  "name": "Cardcast",
+  "mentions": [
+    {
+      "name": "Cardcast",
+      "description": "A webcam-based way to play Magic: The Gathering online with friends: point a webcam down at your desk and play with paper cards over a video call, specifically tailored toward Magic and Commander. Recent work focuses on marketing, bug fixes, and community building, including social media, icon design, and printing Cardcast-branded Magic cards to hand out at local TCGs.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "niothiel"
+      ],
+      "source_excerpt": "More work on https://cardcast.gg. It's a way for my friends and I to play Magic: The Gathering online using a webcam.",
+      "evidence": [
+        {
+          "source_item_id": 49238419,
+          "source_field": "body",
+          "value": "More work on https://cardcast.gg. It's a way for my friends and I to play Magic: The Gathering online using a webcam.",
+          "supports": [],
+          "author": "niothiel",
+          "shared_at": 1786327151,
+          "source_url": "https://news.ycombinator.com/item?id=49238419"
+        }
+      ],
+      "source_item_id": 49238419,
+      "source_url": "https://news.ycombinator.com/item?id=49238419",
+      "author": "niothiel",
+      "shared_at": 1786327151,
+      "links": [
+        "https://cardcast.gg"
+      ]
+    },
+    {
+      "name": "CardCast",
+      "description": "A webcam-based platform for playing Magic: The Gathering online with friends. It features automated card tracking that scans and identifies cards on a set interval without manual clicks, uses computer vision for card recognition, and runs on LiveKit for its video infrastructure.",
+      "problem": "Spelltable has been neglected by WotC and lacked the features the author wanted for online MTG play.",
+      "audience": "Magic: The Gathering players",
+      "builder_usernames": [
+        "niothiel"
+      ],
+      "source_excerpt": "Happily continuing work on https://cardcast.gg. It's a way for my friends and I to play Magic: The Gathering online using a webcam. Spelltable has been neglected by WoTC, and we wanted more features, so I rolled my own (and learned some Computer Vision stuff in the process!)",
+      "evidence": [
+        {
+          "source_item_id": 48885962,
+          "source_field": "body",
+          "value": "Happily continuing work on https://cardcast.gg. It's a way for my friends and I to play Magic: The Gathering online using a webcam. Spelltable has been neglected by WoTC, and we wanted more features, so I rolled my own (and learned some Computer Vision stuff in the process!)",
+          "supports": [],
+          "author": "niothiel",
+          "shared_at": 1783899194,
+          "source_url": "https://news.ycombinator.com/item?id=48885962"
+        }
+      ],
+      "source_item_id": 48885962,
+      "source_url": "https://news.ycombinator.com/item?id=48885962",
+      "author": "niothiel",
+      "shared_at": 1783899194,
+      "links": [
+        "https://cardcast.gg"
+      ]
+    },
+    {
+      "name": "CardCast",
+      "description": "A web platform for playing Magic: The Gathering online using a webcam, built as a more feature-rich alternative to WotC's neglected Spelltable. It includes automated card tracking that scans and identifies cards on a set interval using computer vision (no clicking needed), and video service powered by LiveKit.",
+      "problem": "Spelltable has been neglected by WotC and lacks features the author wanted.",
+      "audience": "People who play Magic: The Gathering",
+      "builder_usernames": [
+        "niothiel"
+      ],
+      "source_excerpt": "Happily continuing work on https://cardcast.gg. It's a way for my friends and I to play Magic: The Gathering online using a webcam. Spelltable has been neglected by WoTC, and we wanted more features, so I rolled my own (and learned some Computer Vision stuff in the process!)",
+      "evidence": [
+        {
+          "source_item_id": 48854672,
+          "source_field": "body",
+          "value": "Happily continuing work on https://cardcast.gg. It's a way for my friends and I to play Magic: The Gathering online using a webcam. Spelltable has been neglected by WoTC, and we wanted more features, so I rolled my own (and learned some Computer Vision stuff in the process!)",
+          "supports": [],
+          "author": "niothiel",
+          "shared_at": 1783646777,
+          "source_url": "https://news.ycombinator.com/item?id=48854672"
+        }
+      ],
+      "source_item_id": 48854672,
+      "source_url": "https://news.ycombinator.com/item?id=48854672",
+      "author": "niothiel",
+      "shared_at": 1783646777,
+      "links": [
+        "https://cardcast.gg"
+      ]
+    }
+  ]
+}

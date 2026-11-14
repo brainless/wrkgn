@@ -1,0 +1,35 @@
+{
+  "id": 1055,
+  "slug": "stagewatch-6d380edab3",
+  "name": "StageWatch",
+  "mentions": [
+    {
+      "name": "StageWatch",
+      "description": "A simple order status tracker for small fabricators and craftsmen. Businesses define their process and instantiate it per customer order; the customer receives a link to a status page and can subscribe to status notifications. This saves time by preventing customers from calling to ask about their order status. Built as a vanilla Rails app running on a Hetzner VPS.",
+      "problem": "Customers repeatedly call the business asking for the status of their order, wasting time.",
+      "audience": "Small German fabricators and craftsmen running small businesses",
+      "builder_usernames": [
+        "robowo"
+      ],
+      "source_excerpt": "https://stagewatch.de/\n\nBasically a simple pizza status tracker for small German fabricators and craftsman. You define the process, instantiate it per customer order who receives the link to a status page with a possibility to subscribe to status notifications as well. The benefit is that people don't call you anymore asking for the status of their order, saving time.",
+      "evidence": [
+        {
+          "source_item_id": 49692679,
+          "source_field": "body",
+          "value": "https://stagewatch.de/\n\nBasically a simple pizza status tracker for small German fabricators and craftsman. You define the process, instantiate it per customer order who receives the link to a status page with a possibility to subscribe to status notifications as well. The benefit is that people don't call you anymore asking for the status of their order, saving time.",
+          "supports": [],
+          "author": "robowo",
+          "shared_at": 1789366799,
+          "source_url": "https://news.ycombinator.com/item?id=49692679"
+        }
+      ],
+      "source_item_id": 49692679,
+      "source_url": "https://news.ycombinator.com/item?id=49692679",
+      "author": "robowo",
+      "shared_at": 1789366799,
+      "links": [
+        "https://stagewatch.de/"
+      ]
+    }
+  ]
+}

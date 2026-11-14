@@ -1,0 +1,35 @@
+{
+  "id": 930,
+  "slug": "beauty-775acabd27",
+  "name": "Beauty",
+  "mentions": [
+    {
+      "name": "Beauty",
+      "description": "Beauty is a free markdown note app that runs entirely on-device. It supports slash commands for styling, ':' for emojis, and text shortcuts like '< 3' for a heart or '- >' for an arrow, inspired by input behaviors from AI coding editors. It offers live multiplayer editing like Google Docs but P2P over WebRTC with strong cryptography, limited to sharing files while they are open. Rendering, GPU, RAM and bundle sizes are heavily optimized, with the Mac app under 50 MB; an iOS version with iCloud sync is planned soon.",
+      "problem": "Other writing experiences were frustrating: the author gravitated to Apple Notes for simplicity but missed many features, and wished input behaviors from Cursor, Codex and CC existed in a regular text editor.",
+      "audience": null,
+      "builder_usernames": [
+        "thiagoperes"
+      ],
+      "source_excerpt": "I built a simple, stoic and free markdown note app (free) called Beauty. https://www.markdown.beauty/",
+      "evidence": [
+        {
+          "source_item_id": 49690202,
+          "source_field": "body",
+          "value": "I built a simple, stoic and free markdown note app (free) called Beauty. https://www.markdown.beauty/",
+          "supports": [],
+          "author": "thiagoperes",
+          "shared_at": 1789344983,
+          "source_url": "https://news.ycombinator.com/item?id=49690202"
+        }
+      ],
+      "source_item_id": 49690202,
+      "source_url": "https://news.ycombinator.com/item?id=49690202",
+      "author": "thiagoperes",
+      "shared_at": 1789344983,
+      "links": [
+        "https://www.markdown.beauty/"
+      ]
+    }
+  ]
+}

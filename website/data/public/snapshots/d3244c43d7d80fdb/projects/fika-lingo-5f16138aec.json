@@ -1,0 +1,63 @@
+{
+  "id": 242,
+  "slug": "fika-lingo-5f16138aec",
+  "name": "Fika Lingo",
+  "mentions": [
+    {
+      "name": "Fika Lingo",
+      "description": "A language-learning app offering matching-words practice plus other language and vocabulary exercise types, with exercises generated on-device by a local LLM; users can supply their own topics such as \"Words that relate to Hacker News\". The author is also experimenting with fine-tuning LFM models to improve the local practice generation.",
+      "problem": "English currently needs to be the counterpart of the practices; quality cannot be guaranteed for other language pairs like German to Italian.",
+      "audience": "Personal use (replacing the author's own Duolingo usage).",
+      "builder_usernames": [
+        "jkantola"
+      ],
+      "source_excerpt": "Also trying to replace own Duolingo usage with Fika Lingo (https://fikalingo.com) basic idea was to first repro the practice of matching words. There is now few other types of language / vocabulary practices. The practice generation works on-device with local LLM, you can give the topic yourself like \"Words that relate to Hacker News\".",
+      "evidence": [
+        {
+          "source_item_id": 50402587,
+          "source_field": "body",
+          "value": "Also trying to replace own Duolingo usage with Fika Lingo (https://fikalingo.com) basic idea was to first repro the practice of matching words. There is now few other types of language / vocabulary practices. The practice generation works on-device with local LLM, you can give the topic yourself like \"Words that relate to Hacker News\".",
+          "supports": [],
+          "author": "jkantola",
+          "shared_at": 1794038373,
+          "source_url": "https://news.ycombinator.com/item?id=50402587"
+        }
+      ],
+      "source_item_id": 50402587,
+      "source_url": "https://news.ycombinator.com/item?id=50402587",
+      "author": "jkantola",
+      "shared_at": 1794038373,
+      "links": [
+        "https://fikalingo.com"
+      ]
+    },
+    {
+      "name": "Fikalingo",
+      "description": "Language learning app that generates practice exercises with an on-device LLM from user-given topics, such as word guessing practices for a topic like \"words i might need as a auto mechanic\". Released so far for iOS and web.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jkantola"
+      ],
+      "source_excerpt": "Also working on https://fikalingo.com, basically replacing my current language learning app usage with that own made app. It has on-device based LLLm practice generation based on user given topic.",
+      "evidence": [
+        {
+          "source_item_id": 49698995,
+          "source_field": "body",
+          "value": "Also working on https://fikalingo.com, basically replacing my current language learning app usage with that own made app. It has on-device based LLLm practice generation based on user given topic.",
+          "supports": [],
+          "author": "jkantola",
+          "shared_at": 1789401089,
+          "source_url": "https://news.ycombinator.com/item?id=49698995"
+        }
+      ],
+      "source_item_id": 49698995,
+      "source_url": "https://news.ycombinator.com/item?id=49698995",
+      "author": "jkantola",
+      "shared_at": 1789401089,
+      "links": [
+        "https://fikalingo.com"
+      ]
+    }
+  ]
+}

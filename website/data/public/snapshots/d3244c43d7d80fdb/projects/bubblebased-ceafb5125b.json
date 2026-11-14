@@ -1,0 +1,35 @@
+{
+  "id": 1626,
+  "slug": "bubblebased-ceafb5125b",
+  "name": "bubbleBASED",
+  "mentions": [
+    {
+      "name": "bubbleBASED",
+      "description": "A peer-to-peer streaming and sharing social app organized around \"bubbles,\" where members seed media for one another via WebTorrent instead of relying on centralized cloud hosting. Broadcasters record with MediaRecorder, chunk video every 8 seconds, and seed each chunk as a torrent; viewers assemble playback with MSE (ManagedMediaSource on Safari). A server-side \"always-on peer\" keeps streams alive if the broadcaster's tab closes, a dedicated bittorrent-tracker instance supports sustained swarms, GraphQL subscriptions push magnet links to viewers, and users can add CJ.com affiliate links that surface platform ads for revenue.",
+      "problem": "Enabling browser-to-browser streaming for small, private groups and cutting out centralized hosting (e.g., AWS) by having every member act as a peer seeding media for the rest of the bubble.",
+      "audience": "Small, private groups who want to stream and share media with each other",
+      "builder_usernames": [
+        "bc3mc2"
+      ],
+      "source_excerpt": "I'm working on a p2p streaming/sharing app called bubbleBASED.  Its here https://bubblebased.com/ its based! on bubbles!  But it uses Webtorrent to stream and share content in context bubbles.",
+      "evidence": [
+        {
+          "source_item_id": 49692221,
+          "source_field": "body",
+          "value": "I'm working on a p2p streaming/sharing app called bubbleBASED.  Its here https://bubblebased.com/ its based! on bubbles!  But it uses Webtorrent to stream and share content in context bubbles.",
+          "supports": [],
+          "author": "bc3mc2",
+          "shared_at": 1789362325,
+          "source_url": "https://news.ycombinator.com/item?id=49692221"
+        }
+      ],
+      "source_item_id": 49692221,
+      "source_url": "https://news.ycombinator.com/item?id=49692221",
+      "author": "bc3mc2",
+      "shared_at": 1789362325,
+      "links": [
+        "https://bubblebased.com/"
+      ]
+    }
+  ]
+}

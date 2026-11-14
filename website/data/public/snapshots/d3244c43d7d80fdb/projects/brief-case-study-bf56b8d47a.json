@@ -1,0 +1,35 @@
+{
+  "id": 42,
+  "slug": "brief-case-study-bf56b8d47a",
+  "name": "Brief Case Study",
+  "mentions": [
+    {
+      "name": "Brief Case Study",
+      "description": "This project turns real outage case studies into 5-minute interactive scenarios for learning system design: you play through the outage as if you were the one fixing it, then see what the real team did and how your version of the choices would have gone. Choices are scored against what was known at that minute, since many valid options exist and companies sometimes got it wrong. The first case covers Supabase's February outage, where a monitoring deploy cut off a whole AWS region.",
+      "problem": "System design concepts make sense individually but are hard to put together from theory alone; reading case studies of real outages is what made them click, so the project packages that experience into playable cases.",
+      "audience": "Aspiring senior developers and engineers learning system design.",
+      "builder_usernames": [
+        "fulopmilan"
+      ],
+      "source_excerpt": "So I've been turning them into 5 minute cases you can play through, as if you were the one fixing the outage. Then you see what the real team did, and roughly how your version of the choices would've gone.",
+      "evidence": [
+        {
+          "source_item_id": 50446918,
+          "source_field": "body",
+          "value": "So I've been turning them into 5 minute cases you can play through, as if you were the one fixing the outage. Then you see what the real team did, and roughly how your version of the choices would've gone.",
+          "supports": [],
+          "author": "fulopmilan",
+          "shared_at": 1794348161,
+          "source_url": "https://news.ycombinator.com/item?id=50446918"
+        }
+      ],
+      "source_item_id": 50446918,
+      "source_url": "https://news.ycombinator.com/item?id=50446918",
+      "author": "fulopmilan",
+      "shared_at": 1794348161,
+      "links": [
+        "https://briefcasestudy.com/system-design/c/0"
+      ]
+    }
+  ]
+}

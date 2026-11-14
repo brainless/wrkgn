@@ -1,0 +1,35 @@
+{
+  "id": 351,
+  "slug": "pocket-text-lab-e4e81d7f52",
+  "name": "Pocket Text Lab",
+  "mentions": [
+    {
+      "name": "Pocket Text Lab",
+      "description": "A text classification pipeline that runs entirely in the browser using WebGPU/WASM, executing Python via Pyodide. It downloads an embedding model, trains a Linear SVM classifier whose hyperparameters are selected by grid cross-validation, and calibrates the classifier to produce reliable confidence scores. Users paste their own data (no uploads) to train a model in-browser.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "abhgh"
+      ],
+      "source_excerpt": "Given the popularity of decision models I tried to create a standard text classification pipeline that runs entirely in the browser using webgpu/wasm. Downloads an embedding model, trains the classifier (a Linear SVM for now, whose hyperparams are determined by cross validation over a grid), calibrates the classifier so that reliable confidence scores may be produced. This is in Python that is run using Pyodide. You can paste your own data (no uploads supported) to train a model on it.",
+      "evidence": [
+        {
+          "source_item_id": 50419211,
+          "source_field": "body",
+          "value": "Given the popularity of decision models I tried to create a standard text classification pipeline that runs entirely in the browser using webgpu/wasm. Downloads an embedding model, trains the classifier (a Linear SVM for now, whose hyperparams are determined by cross validation over a grid), calibrates the classifier so that reliable confidence scores may be produced. This is in Python that is run using Pyodide. You can paste your own data (no uploads supported) to train a model on it.",
+          "supports": [],
+          "author": "abhgh",
+          "shared_at": 1794183041,
+          "source_url": "https://news.ycombinator.com/item?id=50419211"
+        }
+      ],
+      "source_item_id": 50419211,
+      "source_url": "https://news.ycombinator.com/item?id=50419211",
+      "author": "abhgh",
+      "shared_at": 1794183041,
+      "links": [
+        "https://pocket-text-lab.abhishek-ghose-82.workers.dev/"
+      ]
+    }
+  ]
+}

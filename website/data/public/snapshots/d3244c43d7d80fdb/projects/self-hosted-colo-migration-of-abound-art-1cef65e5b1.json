@@ -1,0 +1,35 @@
+{
+  "id": 18,
+  "slug": "self-hosted-colo-migration-of-abound-art-1cef65e5b1",
+  "name": "abound.art",
+  "mentions": [
+    {
+      "name": "abound.art",
+      "description": "This project migrates the author's web application from Google Cloud hosting (costing $200/month) to a self-owned PowerEdge R7625 physical server racked in a nearby colo, running on the author's own IP addresses and ASN.",
+      "problem": "The application currently costs $200/month to host on GCP.",
+      "audience": null,
+      "builder_usernames": [
+        "abound"
+      ],
+      "source_excerpt": "Project #1: I've been working on migrating an application [1] from GCP (where I pay $200/mo to host it) to a physical server (PowerEdge R7625) I've racked in a colo near me, running on my own IPs/ASN [2] and all that jazz.",
+      "evidence": [
+        {
+          "source_item_id": 50418055,
+          "source_field": "body",
+          "value": "Project #1: I've been working on migrating an application [1] from GCP (where I pay $200/mo to host it) to a physical server (PowerEdge R7625) I've racked in a colo near me, running on my own IPs/ASN [2] and all that jazz.",
+          "supports": [],
+          "author": "abound",
+          "shared_at": 1794176621,
+          "source_url": "https://news.ycombinator.com/item?id=50418055"
+        }
+      ],
+      "source_item_id": 50418055,
+      "source_url": "https://news.ycombinator.com/item?id=50418055",
+      "author": "abound",
+      "shared_at": 1794176621,
+      "links": [
+        "https://abound.art"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": 316,
+  "slug": "webfrolic-7a98b0e023",
+  "name": "Webfrolic",
+  "mentions": [
+    {
+      "name": "Webfrolic",
+      "description": "Identity, security, and access platform architected to combine workforce identity, customer identity, fine-grained authorization, an IT service desk, and a customer support desk — comparable to Okta plus Auth0 plus Authzed plus ServiceNow plus Zendesk. Work in progress: settling how AI agent needs fit into the architecture while avoiding security and performance foot guns from administrator configuration, and running feature stress testing and performance testing.",
+      "problem": "Gaps between specs vs implementation and between asks vs real needs in the identity, security, and access space, based on a couple of decades of enterprise experience.",
+      "audience": null,
+      "builder_usernames": [
+        "sandeepkd"
+      ],
+      "source_excerpt": "Consider Okta (Workforce identity)+ Auth0 (Customer Identity), Authzed (authorization) + ServiceNow (IT service Desk) + Zendesk (Customer Support Desk) architected together",
+      "evidence": [
+        {
+          "source_item_id": 50418247,
+          "source_field": "body",
+          "value": "Consider Okta (Workforce identity)+ Auth0 (Customer Identity), Authzed (authorization) + ServiceNow (IT service Desk) + Zendesk (Customer Support Desk) architected together",
+          "supports": [],
+          "author": "sandeepkd",
+          "shared_at": 1794177691,
+          "source_url": "https://news.ycombinator.com/item?id=50418247"
+        }
+      ],
+      "source_item_id": 50418247,
+      "source_url": "https://news.ycombinator.com/item?id=50418247",
+      "author": "sandeepkd",
+      "shared_at": 1794177691,
+      "links": [
+        "https://demo.webfrolic.com",
+        "https://webfrolic.com"
+      ]
+    }
+  ]
+}

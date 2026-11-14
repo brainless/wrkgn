@@ -1,0 +1,35 @@
+{
+  "id": 226,
+  "slug": "loop-7b6f198a9a",
+  "name": "Loop",
+  "mentions": [
+    {
+      "name": "Loop",
+      "description": "A mobile-first companion workspace for coding agents that treats agent results as the primary unit of work to navigate, replacing chat-based mobile UIs. It runs on the user's own computer with no account, server, or app store, pairing via a Cloudflare quick-tunnel QR code. It wraps existing agents such as Codex, Claude Code, Pi, OpenCode, Antigravity, Muse Code, Grok Build, or any ACP agent, keeping each agent's own context, tools, sign-in, and billing, and also supports local models through Pi or OpenCode.",
+      "problem": "Mobile UIs for coding agents are all chat-based, which is a poor mobile UX when you're doing multiple things at once, such as holding a newborn while talking to agents one-handed.",
+      "audience": "A coding agent users who want to work from a phone, especially those multitasking while doing hands-on tasks",
+      "builder_usernames": [
+        "jamesasefa"
+      ],
+      "source_excerpt": "I’m working on Loop: a mobile-first companion workspace for coding harnesses.",
+      "evidence": [
+        {
+          "source_item_id": 50422176,
+          "source_field": "body",
+          "value": "I’m working on Loop: a mobile-first companion workspace for coding harnesses.",
+          "supports": [],
+          "author": "jamesasefa",
+          "shared_at": 1794208856,
+          "source_url": "https://news.ycombinator.com/item?id=50422176"
+        }
+      ],
+      "source_item_id": 50422176,
+      "source_url": "https://news.ycombinator.com/item?id=50422176",
+      "author": "jamesasefa",
+      "shared_at": 1794208856,
+      "links": [
+        "https://github.com/j-asefa/loop"
+      ]
+    }
+  ]
+}

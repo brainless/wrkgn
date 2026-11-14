@@ -1,0 +1,92 @@
+{
+  "id": 506,
+  "slug": "quantra-36cfc7795c",
+  "name": "Quantra",
+  "mentions": [
+    {
+      "name": "Quantra",
+      "description": "Open source quantitative finance pricing platform built on top of QuantLib. Acts as a distributed QuantLib, exposing pricing, curve construction, and risk analytics through APIs with an abstraction layer, so applications can integrate QuantLib functionality without working with the C++ library directly.",
+      "problem": "Working with QuantLib directly means dealing with its C++ library, which is hard to integrate with applications.",
+      "audience": "Developers building applications that need quantitative finance pricing and risk analytics without integrating the C++ QuantLib library directly",
+      "builder_usernames": [
+        "melenaboija"
+      ],
+      "source_excerpt": "I'm building an open source quantitative finance pricing platform built on top of QuantLib.\n\nThink of it as a distributed QuantLib, exposing pricing, curve construction, risk analytics... through APIs, making QuantLib easy to integrate with applications without having to deal with the C++ library directly and an extra layer of abstraction on top of it.",
+      "evidence": [
+        {
+          "source_item_id": 50420897,
+          "source_field": "body",
+          "value": "I'm building an open source quantitative finance pricing platform built on top of QuantLib.\n\nThink of it as a distributed QuantLib, exposing pricing, curve construction, risk analytics... through APIs, making QuantLib easy to integrate with applications without having to deal with the C++ library directly and an extra layer of abstraction on top of it.",
+          "supports": [],
+          "author": "melenaboija",
+          "shared_at": 1794196607,
+          "source_url": "https://news.ycombinator.com/item?id=50420897"
+        }
+      ],
+      "source_item_id": 50420897,
+      "source_url": "https://news.ycombinator.com/item?id=50420897",
+      "author": "melenaboija",
+      "shared_at": 1794196607,
+      "links": [
+        "https://quantra.io/"
+      ]
+    },
+    {
+      "name": "Quantra",
+      "description": "An open-source distributed derivatives pricing engine built on QuantLib and using gRPC and FlatBuffers.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "melenaboija"
+      ],
+      "source_excerpt": "An opensource derivatives pricing engine, distributed and built on QuantLib and gRPC + FlatBuffers.",
+      "evidence": [
+        {
+          "source_item_id": 49235522,
+          "source_field": "body",
+          "value": "An opensource derivatives pricing engine, distributed and built on QuantLib and gRPC + FlatBuffers.",
+          "supports": [],
+          "author": "melenaboija",
+          "shared_at": 1786307503,
+          "source_url": "https://news.ycombinator.com/item?id=49235522"
+        }
+      ],
+      "source_item_id": 49235522,
+      "source_url": "https://news.ycombinator.com/item?id=49235522",
+      "author": "melenaboija",
+      "shared_at": 1786307503,
+      "links": [
+        "https://github.com/joseprupi/quantraserver",
+        "https://quantra.io/"
+      ]
+    },
+    {
+      "name": "Quantra",
+      "description": "An open financial pricing engine and app built on top of QuantLib, exposed via https://quantra.io/.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "melenaboija"
+      ],
+      "source_excerpt": "An open pricing engine and app based on Quantlib.\n\nhttps://quantra.io/",
+      "evidence": [
+        {
+          "source_item_id": 48886882,
+          "source_field": "body",
+          "value": "An open pricing engine and app based on Quantlib.\n\nhttps://quantra.io/",
+          "supports": [],
+          "author": "melenaboija",
+          "shared_at": 1783907244,
+          "source_url": "https://news.ycombinator.com/item?id=48886882"
+        }
+      ],
+      "source_item_id": 48886882,
+      "source_url": "https://news.ycombinator.com/item?id=48886882",
+      "author": "melenaboija",
+      "shared_at": 1783907244,
+      "links": [
+        "https://quantra.io/"
+      ]
+    }
+  ]
+}

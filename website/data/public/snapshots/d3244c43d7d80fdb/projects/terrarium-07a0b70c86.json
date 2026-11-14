@@ -1,0 +1,36 @@
+{
+  "id": 261,
+  "slug": "terrarium-07a0b70c86",
+  "name": "Terrarium",
+  "mentions": [
+    {
+      "name": "Terrarium",
+      "description": "Terrarium is a minimal, secure microVM sandbox written in Rust for sandboxing agents. It is heavily inspired by libkrun but takes a different security mindset: the guest is always considered hostile and security is set up with that assumption in mind.",
+      "problem": "The author could not find a minimal secure microVM sandbox for sandboxing agents.",
+      "audience": null,
+      "builder_usernames": [
+        "cryi"
+      ],
+      "source_excerpt": "I looked for a minimal secure microVM sandbox for sandboxing agents few months back and did not find one. So I built one in rust: https://github.com/terrarium-sh/terrarium (https://terrarium.sh/) . It has all the perks you would expect. Heavily inspired by libkrun, but with different mindset - guest is always considered hostile and security is set up with that in mind.",
+      "evidence": [
+        {
+          "source_item_id": 50429284,
+          "source_field": "body",
+          "value": "I looked for a minimal secure microVM sandbox for sandboxing agents few months back and did not find one. So I built one in rust: https://github.com/terrarium-sh/terrarium (https://terrarium.sh/) . It has all the perks you would expect. Heavily inspired by libkrun, but with different mindset - guest is always considered hostile and security is set up with that in mind.",
+          "supports": [],
+          "author": "cryi",
+          "shared_at": 1794248123,
+          "source_url": "https://news.ycombinator.com/item?id=50429284"
+        }
+      ],
+      "source_item_id": 50429284,
+      "source_url": "https://news.ycombinator.com/item?id=50429284",
+      "author": "cryi",
+      "shared_at": 1794248123,
+      "links": [
+        "https://github.com/terrarium-sh/terrarium",
+        "https://terrarium.sh/"
+      ]
+    }
+  ]
+}

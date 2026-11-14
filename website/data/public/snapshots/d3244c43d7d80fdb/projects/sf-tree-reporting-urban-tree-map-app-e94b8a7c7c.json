@@ -1,0 +1,35 @@
+{
+  "id": 3438,
+  "slug": "sf-tree-reporting-urban-tree-map-app-e94b8a7c7c",
+  "name": "SF Tree Reporting (urban tree map app)",
+  "mentions": [
+    {
+      "name": "SF Tree Reporting (urban tree map app)",
+      "description": "This app is an urban tree map that lets users record trees as they walk and merges those recordings into the general city tree data. It uses DuckDB pipelines for processing.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "efromvt"
+      ],
+      "source_excerpt": "I finished wiring up the backend data merge so user(s) (aka me, really) can record trees as they walk and have those merged into the general city data on my urban tree map app[1].",
+      "evidence": [
+        {
+          "source_item_id": 49235937,
+          "source_field": "body",
+          "value": "I finished wiring up the backend data merge so user(s) (aka me, really) can record trees as they walk and have those merged into the general city data on my urban tree map app[1].",
+          "supports": [],
+          "author": "efromvt",
+          "shared_at": 1786309848,
+          "source_url": "https://news.ycombinator.com/item?id=49235937"
+        }
+      ],
+      "source_item_id": 49235937,
+      "source_url": "https://news.ycombinator.com/item?id=49235937",
+      "author": "efromvt",
+      "shared_at": 1786309848,
+      "links": [
+        "https://greenmtnboy.github.io/sf_tree_reporting"
+      ]
+    }
+  ]
+}

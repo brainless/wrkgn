@@ -1,0 +1,33 @@
+{
+  "id": 1832,
+  "slug": "cross-device-roaming-context-focused-ui-53d102d18e",
+  "name": "Cross-device roaming context-focused UI",
+  "mentions": [
+    {
+      "name": "Cross-device roaming context-focused UI",
+      "description": "A cross-device roaming, context-focused UI that binds a user's devices, tools, and applications to a work context (e.g. work://customer-foo/project-bar/task-baz), so that switching tasks makes every bound device, tool, or application load the data related to that task — relevant files mounted, browser tabs opened, and notes loaded. A custom small database engine is being built to support this use-case, with the goal of making context switching across customer devices cheap.",
+      "problem": "Switching context is very expensive, especially when working across multiple customer devices, and native Linux UI tooling was too poor to support the needed context-focused experience.",
+      "audience": null,
+      "builder_usernames": [
+        "idontneedcoffee"
+      ],
+      "source_excerpt": "I am building my \"dream tool\" too, a cross-device roaming profile-experience context-focused UI.",
+      "evidence": [
+        {
+          "source_item_id": 49236295,
+          "source_field": "body",
+          "value": "I am building my \"dream tool\" too, a cross-device roaming profile-experience context-focused UI.",
+          "supports": [],
+          "author": "idontneedcoffee",
+          "shared_at": 1786311640,
+          "source_url": "https://news.ycombinator.com/item?id=49236295"
+        }
+      ],
+      "source_item_id": 49236295,
+      "source_url": "https://news.ycombinator.com/item?id=49236295",
+      "author": "idontneedcoffee",
+      "shared_at": 1786311640,
+      "links": []
+    }
+  ]
+}

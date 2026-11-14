@@ -1,0 +1,36 @@
+{
+  "id": 253,
+  "slug": "open-source-personal-expense-tracker-expense-tracker-3c951ea6fb",
+  "name": "expense-tracker",
+  "mentions": [
+    {
+      "name": "expense-tracker",
+      "description": "Open source personal expense tracker focused on low-friction data ingestion: receipts are registered by sending them to a Telegram bot and then reconciled by uploading bank statements, which are parsed with AWS Textract, Bedrock, and BDA. Reports and further features are planned once ingestion is solid.",
+      "problem": "The author was a happy user of an offline expense tracker that wiped their data when the Play Store auto-updated it, motivating an open source tracker under their control.",
+      "audience": "Low-friction expense tracking for the author's own personal use",
+      "builder_usernames": [
+        "AlexITC"
+      ],
+      "source_excerpt": "An opensource personal expense tracker, I was a happy user from an offline expense tracker which wiped my data when playstore decided auto-updating it,",
+      "evidence": [
+        {
+          "source_item_id": 50391569,
+          "source_field": "body",
+          "value": "An opensource personal expense tracker, I was a happy user from an offline expense tracker which wiped my data when playstore decided auto-updating it,",
+          "supports": [],
+          "author": "AlexITC",
+          "shared_at": 1793968169,
+          "source_url": "https://news.ycombinator.com/item?id=50391569"
+        }
+      ],
+      "source_item_id": 50391569,
+      "source_url": "https://news.ycombinator.com/item?id=50391569",
+      "author": "AlexITC",
+      "shared_at": 1793968169,
+      "links": [
+        "https://alexitc.com/blog/2026-10-16-opensourcing-my-expense-tracker/",
+        "https://github.com/AlexITC/expense-tracker/"
+      ]
+    }
+  ]
+}

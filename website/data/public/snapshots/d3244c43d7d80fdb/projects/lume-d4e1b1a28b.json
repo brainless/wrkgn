@@ -1,0 +1,35 @@
+{
+  "id": 3512,
+  "slug": "lume-d4e1b1a28b",
+  "name": "Lume",
+  "mentions": [
+    {
+      "name": "Lume",
+      "description": "Pure Rust in-memory hybrid search engine that pairs vector search (using the Shivvr embedder) with a Roaring bitmap solution for document search. Very fast, and serving as a reference for composable agentic search while it looks for a home.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "kordlessagain"
+      ],
+      "source_excerpt": "Have also been working on Lume, a pure Rust hybrid search engine (uses Shivvr the embedder above for vector search). Stupid fast. In memory. Roaring bitmap solution for document search.",
+      "evidence": [
+        {
+          "source_item_id": 48763504,
+          "source_field": "body",
+          "value": "Have also been working on Lume, a pure Rust hybrid search engine (uses Shivvr the embedder above for vector search). Stupid fast. In memory. Roaring bitmap solution for document search.",
+          "supports": [],
+          "author": "kordlessagain",
+          "shared_at": 1783008082,
+          "source_url": "https://news.ycombinator.com/item?id=48763504"
+        }
+      ],
+      "source_item_id": 48763504,
+      "source_url": "https://news.ycombinator.com/item?id=48763504",
+      "author": "kordlessagain",
+      "shared_at": 1783008082,
+      "links": [
+        "https://github.com/deepbluedynamics/lume"
+      ]
+    }
+  ]
+}

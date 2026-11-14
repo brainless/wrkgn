@@ -1,0 +1,35 @@
+{
+  "id": 897,
+  "slug": "abracadanames-1eb8889e99",
+  "name": "Abracadanames",
+  "mentions": [
+    {
+      "name": "Abracadanames",
+      "description": "A website for discovering first names through an interactive full-screen wall UI with infinite browsing, keeping most screen space on the core content. A name sampling algorithm makes browsing enjoyable, with gender selection as the only default filter. The search field supports natural-language queries via a local multilingual interpretation engine with a cloud LLM fallback, backed by a custom database engine built in Rust and compiled to WASM for performance on Cloudflare Workers, without an external database service.",
+      "problem": "Existing first-name websites frustrated the author's family member; they feel cluttered and not smooth to use, almost like a one-to-one translation of the underlying database queries, requiring upfront filters and sorting with paginated results.",
+      "audience": null,
+      "builder_usernames": [
+        "PopFlamingo"
+      ],
+      "source_excerpt": "I’m building a website for discovering first names that’s enjoyable to explore: https://abracadanames.com",
+      "evidence": [
+        {
+          "source_item_id": 49686440,
+          "source_field": "body",
+          "value": "I’m building a website for discovering first names that’s enjoyable to explore: https://abracadanames.com",
+          "supports": [],
+          "author": "PopFlamingo",
+          "shared_at": 1789321026,
+          "source_url": "https://news.ycombinator.com/item?id=49686440"
+        }
+      ],
+      "source_item_id": 49686440,
+      "source_url": "https://news.ycombinator.com/item?id=49686440",
+      "author": "PopFlamingo",
+      "shared_at": 1789321026,
+      "links": [
+        "https://abracadanames.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 130,
+  "slug": "aetheris-c73e509172",
+  "name": "Aetheris",
+  "mentions": [
+    {
+      "name": "Aetheris",
+      "description": "This is an (almost) pure analytical geometry engine for CAD focused on performance and reliability first and foremost, with aggressive optimization that makes building 3D models faster. The trade-off is that it does not support unusual modeling operations like asymmetrical or variable radius fillets, and it can be used directly by AI agents.",
+      "problem": "The author is tired of SolidWorks eating up gigabytes of RAM for simple parts and crashing randomly, so Aetheris prioritizes performance and reliability instead.",
+      "audience": null,
+      "builder_usernames": [
+        "YuechenLi"
+      ],
+      "source_excerpt": "https://github.com/yuechen-li-dev/Aetheris\n\nAetheris is focused on performance and reliability first and foremost, because I'm just so tired of SolidWorks eating up gigabytes of RAM for simple parts and crashing randomly. So, tge (almost) pure analytical geometry engine with aggressive optimization means it is faster in terms of building 3D models, but the trade-off is that it doesn't let you do weird modeling like asymmetrical/variable radius fillets.",
+      "evidence": [
+        {
+          "source_item_id": 50419952,
+          "source_field": "body",
+          "value": "https://github.com/yuechen-li-dev/Aetheris\n\nAetheris is focused on performance and reliability first and foremost, because I'm just so tired of SolidWorks eating up gigabytes of RAM for simple parts and crashing randomly. So, tge (almost) pure analytical geometry engine with aggressive optimization means it is faster in terms of building 3D models, but the trade-off is that it doesn't let you do weird modeling like asymmetrical/variable radius fillets.",
+          "supports": [],
+          "author": "YuechenLi",
+          "shared_at": 1794188859,
+          "source_url": "https://news.ycombinator.com/item?id=50419952"
+        }
+      ],
+      "source_item_id": 50419952,
+      "source_url": "https://news.ycombinator.com/item?id=50419952",
+      "author": "YuechenLi",
+      "shared_at": 1794188859,
+      "links": [
+        "https://github.com/yuechen-li-dev/Aetheris"
+      ]
+    }
+  ]
+}

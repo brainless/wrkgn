@@ -1,0 +1,33 @@
+{
+  "id": 2748,
+  "slug": "music-metadata-aggregator-5f53f47b6c",
+  "name": "Music metadata aggregator",
+  "mentions": [
+    {
+      "name": "Music metadata aggregator",
+      "description": "A music metadata aggregator that only incorporates metadata the builder can rely on: track credits, instruments (when available), lyrics, BPM/energy, and genre. It generates lists of similar tracks from a selected genre, artist, or song, and lets the user adjust the weights of era, instruments, and genre. Old-school NLP analysis of lyrics is planned as the next step. Not public yet and still very alpha.",
+      "problem": "Existing machine learning approaches to music attributes like mood and Spotify valence are inconsistent, so nobody reliably knows how to aggregate trustworthy music metadata.",
+      "audience": null,
+      "builder_usernames": [
+        "raffraffraff"
+      ],
+      "source_excerpt": "Just a personal project right now but it's a music metadata aggregator.\n\nI find that nobody really knows how to do this. Machine learning can detect some song attributes well (bpm, ez right?) but it's inconsistent with some things (eg mood, spotify valence)",
+      "evidence": [
+        {
+          "source_item_id": 48889715,
+          "source_field": "body",
+          "value": "Just a personal project right now but it's a music metadata aggregator.\n\nI find that nobody really knows how to do this. Machine learning can detect some song attributes well (bpm, ez right?) but it's inconsistent with some things (eg mood, spotify valence)",
+          "supports": [],
+          "author": "raffraffraff",
+          "shared_at": 1783932884,
+          "source_url": "https://news.ycombinator.com/item?id=48889715"
+        }
+      ],
+      "source_item_id": 48889715,
+      "source_url": "https://news.ycombinator.com/item?id=48889715",
+      "author": "raffraffraff",
+      "shared_at": 1783932884,
+      "links": []
+    }
+  ]
+}

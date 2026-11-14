@@ -1,0 +1,35 @@
+{
+  "id": 3333,
+  "slug": "nodom-3d13163226",
+  "name": "NoDOM",
+  "mentions": [
+    {
+      "name": "NoDOM",
+      "description": "A web GUI framework closely integrated with DuckDB-WASM, using a declarative JSON layout and modern data-oriented C++ with no allocations or copying on the render hot path.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "osullivj"
+      ],
+      "source_excerpt": "Yet another web gui framework; NoDOM: github.com/osullivj/nodom\n\nClosely integrated with DuckDB-WASM. Declarative JSON layout. Modern data oriented C++; no alloc or copying on render hotpath.",
+      "evidence": [
+        {
+          "source_item_id": 50455584,
+          "source_field": "body",
+          "value": "Yet another web gui framework; NoDOM: github.com/osullivj/nodom\n\nClosely integrated with DuckDB-WASM. Declarative JSON layout. Modern data oriented C++; no alloc or copying on render hotpath.",
+          "supports": [],
+          "author": "osullivj",
+          "shared_at": 1794416045,
+          "source_url": "https://news.ycombinator.com/item?id=50455584"
+        }
+      ],
+      "source_item_id": 50455584,
+      "source_url": "https://news.ycombinator.com/item?id=50455584",
+      "author": "osullivj",
+      "shared_at": 1794416045,
+      "links": [
+        "https://github.com/osullivj/nodom"
+      ]
+    }
+  ]
+}

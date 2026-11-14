@@ -1,0 +1,35 @@
+{
+  "id": 3413,
+  "slug": "fresh-jobs-index-49f88c6da5",
+  "name": "Fresh Jobs Index",
+  "mentions": [
+    {
+      "name": "Fresh Jobs Index",
+      "description": "A job postings index built from employers' own applicant tracking systems rather than job boards. It polls about 17,000 public Greenhouse, Lever, Ashby, Workday, SmartRecruiters, and Workable boards (hourly, with Workday daily), dedupes postings into one schema with parsed salary, seniority, and remote/region fields, and keeps closed jobs with a closed_at date so users can see how long roles actually stay open. Offered as a paid Apify actor charged per job returned, with per-company hiring rollups planned next.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "cleanrowdata"
+      ],
+      "source_excerpt": "A job postings index built from employers' own applicant tracking systems instead of job boards. It polls about 17,000 public Greenhouse, Lever, Ashby, Workday, SmartRecruiters and Workable boards (hourly, Workday daily), dedupes them into one schema (parsed salary, seniority, remote/region), and keeps closed jobs with a closed_at date, so you can see how long roles really stay open.",
+      "evidence": [
+        {
+          "source_item_id": 50261392,
+          "source_field": "body",
+          "value": "A job postings index built from employers' own applicant tracking systems instead of job boards. It polls about 17,000 public Greenhouse, Lever, Ashby, Workday, SmartRecruiters and Workable boards (hourly, Workday daily), dedupes them into one schema (parsed salary, seniority, remote/region), and keeps closed jobs with a closed_at date, so you can see how long roles really stay open.",
+          "supports": [],
+          "author": "cleanrowdata",
+          "shared_at": 1793117477,
+          "source_url": "https://news.ycombinator.com/item?id=50261392"
+        }
+      ],
+      "source_item_id": 50261392,
+      "source_url": "https://news.ycombinator.com/item?id=50261392",
+      "author": "cleanrowdata",
+      "shared_at": 1793117477,
+      "links": [
+        "https://apify.com/cleanrowdata/fresh-jobs-index"
+      ]
+    }
+  ]
+}

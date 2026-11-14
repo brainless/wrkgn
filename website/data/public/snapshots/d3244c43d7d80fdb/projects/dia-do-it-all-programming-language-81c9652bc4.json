@@ -1,0 +1,36 @@
+{
+  "id": 216,
+  "slug": "dia-do-it-all-programming-language-81c9652bc4",
+  "name": "dia",
+  "mentions": [
+    {
+      "name": "dia",
+      "description": "A programming language called dia (\"do it all\") designed as a batteries-included language with standard libraries, so software can be built with or without AI assistance while reusing building blocks instead of reimplementing them. Features include Rust-inspired syntax and type features with arena-based memory safety (no lifetime parameters), a cross-platform GUI library with a prosemirror-like WYSIWYG text editor, modular UI components (text rendering, event/input system, signals-based reactive library) reusable in other contexts, transpilation to C for broad platform support, a native JSX-like syntax (DSX) usable with any suitably signed function, incremental compilation with HMR, and effortless C interop via a bundled clang compiler. Not yet open-sourced.",
+      "problem": "Developers have to reimplement building blocks; the language aims to make building with or without AI assistance effortless by including batteries and reusable modules.",
+      "audience": null,
+      "builder_usernames": [
+        "andeee23"
+      ],
+      "source_excerpt": "My own programming language called: dia (stands for do it all).",
+      "evidence": [
+        {
+          "source_item_id": 50421383,
+          "source_field": "body",
+          "value": "My own programming language called: dia (stands for do it all).",
+          "supports": [],
+          "author": "andeee23",
+          "shared_at": 1794201748,
+          "source_url": "https://news.ycombinator.com/item?id=50421383"
+        }
+      ],
+      "source_item_id": 50421383,
+      "source_url": "https://news.ycombinator.com/item?id=50421383",
+      "author": "andeee23",
+      "shared_at": 1794201748,
+      "links": [
+        "https://dia-lang.org/",
+        "https://dia-lang.org/vision"
+      ]
+    }
+  ]
+}
