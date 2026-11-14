@@ -1,0 +1,24 @@
+{
+  "id": 2907,
+  "slug": "claude-governance-458ee7febb",
+  "name": "claude-governance",
+  "mentions": [
+    {
+      "name": "claude-governance",
+      "description": "A governance tool for Claude Code that lets teams define deterministic policies for AI tool calls, enforced across a fleet and remaining in effect even when individual users run with --dangerously-skip-permissions.",
+      "problem": "Ensuring tool-call policies stay enforced even when users bypass Claude Code's permission checks with --dangerously-skip-permissions.",
+      "audience": "Teams enforcing tool-call policies across a fleet of Claude Code users",
+      "builder_usernames": [
+        "niyikiza"
+      ],
+      "source_excerpt": "I'm working on a Claude Code governance tool that allows to define deterministic policies for tool call that can be enforced across a fleet and will be in effect even when individual users run with --dangerously-skip-permissions",
+      "source_item_id": 48889156,
+      "source_url": "https://news.ycombinator.com/item?id=48889156",
+      "author": "niyikiza",
+      "shared_at": 1783928272,
+      "links": [
+        "https://github.com/tenuo-ai/claude-governance"
+      ]
+    }
+  ]
+}

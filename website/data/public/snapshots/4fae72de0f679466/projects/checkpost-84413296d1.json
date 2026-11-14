@@ -1,0 +1,24 @@
+{
+  "id": 2803,
+  "slug": "checkpost-84413296d1",
+  "name": "Checkpost",
+  "mentions": [
+    {
+      "name": "Checkpost",
+      "description": "Checkpost is a lightweight, open-source osquery manager that is easy to self-host and ships as a single binary, requiring only osquery on enrolled endpoints. It is read-only and makes no changes to enrolled hosts. It can run adhoc or scheduled queries and send results to ClickHouse, or store them locally in Parquet files and browse them with DuckDB. It can also initiate YARA scans and collect results, and supports policy evaluation and alerting.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "cv_h"
+      ],
+      "source_excerpt": "I’m working on https://checkpost.dev, a lightweight and easy-to-use osquery manager. It is open source, easy to self-host, and ships as a single binary. It only requires osquery to be installed on the endpoints. Checkpost is readonly and doesn't make any changes on the enrolled hosts.\n\nIt can run adhoc or scheduled queries and send the results to ClickHouse, or store them locally in Parquet files and use DuckDB to browse the results. It can also initiate YARA scans and collect the results. It also supports policy evaluation and alerting.",
+      "source_item_id": 48888161,
+      "source_url": "https://news.ycombinator.com/item?id=48888161",
+      "author": "cv_h",
+      "shared_at": 1783919351,
+      "links": [
+        "https://checkpost.dev"
+      ]
+    }
+  ]
+}

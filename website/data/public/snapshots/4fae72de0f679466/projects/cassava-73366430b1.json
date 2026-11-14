@@ -1,0 +1,41 @@
+{
+  "id": 1710,
+  "slug": "cassava-73366430b1",
+  "name": "Cassava",
+  "mentions": [
+    {
+      "name": "Cassava",
+      "description": "CSV editor positioned between a plain text editor and Excel. Recent releases added first-class xls/xlsx file opening and an autofill handle. The project's goals are to treat CSV files as first-class spreadsheets—doing nothing that isn't supported by serializing to/from CSV—and to be as performant as a favorite text editor while retaining the ergonomics of a tabular data editor.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "wkirby"
+      ],
+      "source_excerpt": "Still plugging away on Cassava, a CSV editor that sits somewhere between sublime text and Excel: https://cassava.dev/. Our most recent releases added first-class xls/xlsx file opening and an autofill handle.",
+      "source_item_id": 49241996,
+      "source_url": "https://news.ycombinator.com/item?id=49241996",
+      "author": "wkirby",
+      "shared_at": 1786358996,
+      "links": [
+        "https://cassava.dev/"
+      ]
+    },
+    {
+      "name": "Cassava",
+      "description": "A spreadsheet tool built in Rust that treats CSV files as first-class citizens, aiming to bring the ergonomics and speed of a text editor to working with tabular data. Built with a Rust GUI and currently seeking alpha/beta users.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "wkirby"
+      ],
+      "source_excerpt": "I've spent the last 8 weeks or so building the spreadsheet tool I want to see in the world. CSVs as first-class citizens with the ergonomics and speed of my text editor. It's been a great opportunity to explore building GUIs in rust, and to really experiment with coding assistants.\n\nI'm looking for alpha/beta users https://cassava.dev/.",
+      "source_item_id": 48896106,
+      "source_url": "https://news.ycombinator.com/item?id=48896106",
+      "author": "wkirby",
+      "shared_at": 1783964345,
+      "links": [
+        "https://cassava.dev/"
+      ]
+    }
+  ]
+}

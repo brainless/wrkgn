@@ -1,0 +1,22 @@
+{
+  "id": 2216,
+  "slug": "in-browser-legacy-java-swing-app-runner-cheerpj-wasm-0bb3a560f0",
+  "name": "In-browser legacy Java Swing app runner (CheerpJ/WASM)",
+  "mentions": [
+    {
+      "name": "In-browser legacy Java Swing app runner (CheerpJ/WASM)",
+      "description": "Runs legacy 20+ year old Java Swing desktop applications inside a web browser using WebAssembly, JS glue code, and the CheerpJ/OpenJDK runtime. Notes that WASM offers fast startup speed and a small memory footprint (beating the JVM) but performs poorly on compute, and that JDBC is broken because WASM lacks networking sockets.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tesnorindian"
+      ],
+      "source_excerpt": "Making legacy 20+ years Java Swing apps run inside a Browser using WASM and JS glue code with CheerpJ/OpenJDK runtime.",
+      "source_item_id": 49240325,
+      "source_url": "https://news.ycombinator.com/item?id=49240325",
+      "author": "tesnorindian",
+      "shared_at": 1786345790,
+      "links": []
+    }
+  ]
+}

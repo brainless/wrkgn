@@ -1,0 +1,24 @@
+{
+  "id": 2597,
+  "slug": "prereview-7d0f4cb2be",
+  "name": "prereview",
+  "mentions": [
+    {
+      "name": "prereview",
+      "description": "This tool speeds up the review-fix loop for LLM-generated artifacts from coding agents. Run it in a repo (or point it at a file, directory, or running dev server) and click what's wrong — a diff line, a markdown/html block, a region of an image, or a box on a live site — to leave a comment. Comments are written to a CSV that an LLM agent reads to make fixes and report back via comments or accept/reject suggestions. It ships with a Claude Code skill and uses an open CSV protocol so any LLM CLI can drive it. Ships as a single static Go binary, works fully offline, reviews docs/images/live UI as well as code, and comments re-anchor when files change. MIT licensed.",
+      "problem": "Reviewing and refining AI coding agent output is slow and cumbersome — previously done by copy-pasting snippets, screenshotting the UI, and describing problems in prose one message at a time.",
+      "audience": null,
+      "builder_usernames": [
+        "realrocker"
+      ],
+      "source_excerpt": "so i built prereview to speed up that review-fix loop. you run it in your repo (or point it at a file, a dir, or a running dev server), click what's wrong: a diff line, a markdown/html block, a region of an image, a box on a live site — and leave a comment. the comments go to a csv, your agent reads it and fixes things and tells you what it did via a comment or even posts suggestions which you can accept or reject.",
+      "source_item_id": 48892774,
+      "source_url": "https://news.ycombinator.com/item?id=48892774",
+      "author": "realrocker",
+      "shared_at": 1783951043,
+      "links": [
+        "https://github.com/livetemplate/prereview"
+      ]
+    }
+  ]
+}

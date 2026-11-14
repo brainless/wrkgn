@@ -1,0 +1,24 @@
+{
+  "id": 1690,
+  "slug": "sawdust-eec79ac93f",
+  "name": "Sawdust",
+  "mentions": [
+    {
+      "name": "Sawdust",
+      "description": "A skeuomorphic carpentry simulator with an agent MCP that works from real wood specs and a shop of tools like miter saws, router tables, and table saws instead of CAD-style extruded rectangles. Agents create parametric YAML procedures with full agent-human parity across every surface, including a human UI for the procedures, and can file feature requests when they reach for a tool that doesn't exist. Exports include 3D printing files, video walkthroughs, STEP files, a BOM, and a cut plan; projects can be viewed life-size in AR, and a Notion-like interface is included for authoring build guides. Users add the MCP to their agent of choice and can send a picture, description, or sketch and say \"build this with Sawdust\".",
+      "problem": "CAD tools like SketchUp force users to work with abstract primitives such as extruding rectangles instead of real wood dimensions and shop operations.",
+      "audience": null,
+      "builder_usernames": [
+        "taylorfinley"
+      ],
+      "source_excerpt": "I got laid off at the end of April and have been building my own personal dream tool since, it's a skeuomorphic carpentry simulator with an agent MCP. You start with real wood specs and a shop full of miter saws, router tables, table saws and the like. Think of it like Sketchup but no extruding rectangles.",
+      "source_item_id": 49234277,
+      "source_url": "https://news.ycombinator.com/item?id=49234277",
+      "author": "taylorfinley",
+      "shared_at": 1786300917,
+      "links": [
+        "https://sawdust.diy"
+      ]
+    }
+  ]
+}

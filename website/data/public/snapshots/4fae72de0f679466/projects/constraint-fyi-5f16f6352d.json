@@ -1,0 +1,24 @@
+{
+  "id": 1974,
+  "slug": "constraint-fyi-5f16f6352d",
+  "name": "constraint.fyi",
+  "mentions": [
+    {
+      "name": "constraint.fyi",
+      "description": "A constraint-tracking tool for Clues by Sam logic puzzles that goes beyond the game's color tags. It represents clues as Boolean formulas and checks whether a player's deductions and hypothetical scenarios are consistent without revealing the solution, supporting same/opposite suspect statuses, overlapping relationships, cardinality constraints (e.g. '2 of these 5 are criminal'), hypothetical branches, and clue provenance. Deliberately omits auto-solving individual variables to preserve the game's fun.",
+      "problem": "In harder Clues by Sam puzzles, the built-in color tags aren't enough to represent everything you need to track: suspect status relationships, overlapping relationships, cardinality constraints, hypothetical branches, or where a clue came from.",
+      "audience": "Puzzle players of Clues by Sam deduction puzzles who need to track complex clues beyond color tags",
+      "builder_usernames": [
+        "reedlaw"
+      ],
+      "source_excerpt": "I made https://constraint.fyi/ after getting frustrated on some of the harder Clues by Sam (https://cluesbysam.com/) puzzles for which the color tags aren't enough to represent everything you need to track: whether suspects have the same or opposite status, overlapping relationships, cardinality constraints (e.g. \"2 of these 5 are criminal\"), hypothetical branches, or where a clue came from.",
+      "source_item_id": 49242320,
+      "source_url": "https://news.ycombinator.com/item?id=49242320",
+      "author": "reedlaw",
+      "shared_at": 1786361819,
+      "links": [
+        "https://constraint.fyi/"
+      ]
+    }
+  ]
+}

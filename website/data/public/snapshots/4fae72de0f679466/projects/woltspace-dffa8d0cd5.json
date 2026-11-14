@@ -1,0 +1,25 @@
+{
+  "id": 2260,
+  "slug": "woltspace-dffa8d0cd5",
+  "name": "Woltspace",
+  "mentions": [
+    {
+      "name": "Woltspace",
+      "description": "This is an open-source agent orchestration framework built around \"wolts\" (agents with rodent identities) that run coding harnesses such as Claude Code, Codex, or OpenCode, each carrying persistent identity and memory. It runs sessions in tmux inside a Docker container so they persist and can be resumed from anywhere, hosts apps directly from the user's machine via Cloudflare tunnels (custom or ephemeral domains), and offers a Telegram integration for remote access to sessions and a CLI. Wolts can chat with each other through an inter-wolt communication layer (IWCL) for orchestration, render arbitrary HTML on their own websites, and use TUI/CLI with custom tmux configs; it is self-documenting with features exposed as agent skills.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jerpint"
+      ],
+      "source_excerpt": "Working on https://www.woltspace.com/ over the last few months. It’s my take at an agent orchestration framework\n\nIt builds around the concept of “wolts” running a lodge.",
+      "source_item_id": 49235427,
+      "source_url": "https://news.ycombinator.com/item?id=49235427",
+      "author": "jerpint",
+      "shared_at": 1786307050,
+      "links": [
+        "https://github.com/jerpint/woltspace",
+        "https://www.woltspace.com/"
+      ]
+    }
+  ]
+}

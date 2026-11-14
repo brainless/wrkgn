@@ -1,0 +1,22 @@
+{
+  "id": 2710,
+  "slug": "determined-a70b473b0e",
+  "name": "Determined",
+  "mentions": [
+    {
+      "name": "Determined",
+      "description": "Determined is a mostly deterministic (non-AI) code analyzer for Python and JS/HTML, with Go and Rust support added and other languages possible, that gathers facts about a codebase so appropriate context can be provided to AI assistants, with light AI interpretation layered over the collected facts.",
+      "problem": "The author's program became so complex that they could no longer get all the appropriate context into an AI to figure out where to go next, so they built a deterministic analyzer to gather that context.",
+      "audience": "The author built it to analyze their own complex program when it became impossible to fit enough context into an AI; it is aimed at developers working on large codebases with AI assistance.",
+      "builder_usernames": [
+        "bartleeanderson"
+      ],
+      "source_excerpt": "So I am building Determined, deterministic analyzer for Python and Js/html. I added Go and Rust because I heard they were popular and it can add others as well.",
+      "source_item_id": 48941735,
+      "source_url": "https://news.ycombinator.com/item?id=48941735",
+      "author": "bartleeanderson",
+      "shared_at": 1784245380,
+      "links": []
+    }
+  ]
+}

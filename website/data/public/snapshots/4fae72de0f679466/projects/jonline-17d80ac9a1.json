@@ -1,0 +1,28 @@
+{
+  "id": 2456,
+  "slug": "jonline-17d80ac9a1",
+  "name": "Jonline",
+  "mentions": [
+    {
+      "name": "Jonline",
+      "description": "Federated social media service whose React frontend is being rewritten in Elm. Recent additions include ffmpeg/imagemagick-based image and video resizing, all servers unified behind a single Traefik ingress, cross-site authentication using public/private key pairs generated in the browser, Homebrew/macOS and Linux tarball distributions for self-hosting, and iCal calendar sync that pulls events from locally-oriented ICS feeds. The service runs instances at jonline.io, bullcity.social, and oakcity.social, and powers the author's band's new website at ato.band.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "pseudocomposer"
+      ],
+      "source_excerpt": "I’ve been working on an Elm rewrite of the React FE of my federated social media service, Jonline (https://github.com/JonLatane/jonline). It’s up at https://jonline.io (and https://bullcity.social and http://oakcity.social).",
+      "source_item_id": 49149784,
+      "source_url": "https://news.ycombinator.com/item?id=49149784",
+      "author": "pseudocomposer",
+      "shared_at": 1785716434,
+      "links": [
+        "http://oakcity.social",
+        "https://ato.band",
+        "https://bullcity.social",
+        "https://github.com/JonLatane/jonline",
+        "https://jonline.io"
+      ]
+    }
+  ]
+}

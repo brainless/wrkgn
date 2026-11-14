@@ -1,0 +1,24 @@
+{
+  "id": 2981,
+  "slug": "rsplayer-d00f3d5d18",
+  "name": "rsplayer",
+  "mentions": [
+    {
+      "name": "rsplayer",
+      "description": "A daemon-focused, CLI-driven music player for GNU/Linux that integrates with playerctl by exposing itself to D-Bus using zbus.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "salmonik"
+      ],
+      "source_excerpt": "A daemon-focused CLI driven music player for GNU/Linux.\nI recently got it working with playerctl by exposing it to dbus using zbus, great fun.",
+      "source_item_id": 48886836,
+      "source_url": "https://news.ycombinator.com/item?id=48886836",
+      "author": "salmonik",
+      "shared_at": 1783906826,
+      "links": [
+        "https://git.2137697.xyz/salmon/rsplayer"
+      ]
+    }
+  ]
+}

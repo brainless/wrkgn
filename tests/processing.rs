@@ -1198,3 +1198,262 @@ fn public_reply_counts_deduplicate_overlapping_mentions_and_respect_suppression(
         3
     );
 }
+
+#[test]
+fn distinct_projects_sharing_one_source_url_keep_stable_reviewed_identities() {
+    let (dir, mut store) = setup();
+    let alpha = mention(
+        101,
+        Some("Alpha"),
+        Some("https://alpha.test"),
+        "Alpha organizes work",
+    );
+    let beta = mention(
+        101,
+        Some("Beta"),
+        Some("https://alpha.test"),
+        "Beta helps writers",
+    );
+    let answers = |mentions| {
+        model(vec![
+            Ok(Extraction { mentions }),
+            Ok(Extraction { mentions: vec![] }),
+            Ok(Extraction { mentions: vec![] }),
+        ])
+    };
+    process_thread(&mut store, 100, &answers(vec![alpha.clone()]), false).unwrap();
+    let conn = rusqlite::Connection::open(dir.path().join("db.sqlite")).unwrap();
+    let (_old_id, old_key, old_project): (i64, String, i64) = conn
+        .query_row(
+            "SELECT id,mention_key,project_id FROM mentions WHERE source_item_id=101",
+            [],
+            |r| Ok((r.get(0)?, r.get(1)?, r.get(2)?)),
+        )
+        .unwrap();
+    publication::correct(&mut store, &old_key, "description", Some("Reviewed Alpha")).unwrap();
+    publication::suppress_project(&mut store, old_project).unwrap();
+    for mentions in [vec![alpha.clone(), beta.clone()], vec![beta, alpha]] {
+        let report = process_thread(&mut store, 100, &answers(mentions), true).unwrap();
+        assert!(report.failed.is_empty(), "{:?}", report.failed);
+        let rows: Vec<(String, String, i64)> = conn.prepare("SELECT name,mention_key,project_id FROM mentions WHERE source_item_id=101 ORDER BY name").unwrap()
+            .query_map([], |r| Ok((r.get(0)?, r.get(1)?, r.get(2)?))).unwrap().map(Result::unwrap).collect();
+        assert_eq!(rows.len(), 2);
+        assert_eq!(rows[0].1, old_key);
+        assert_eq!(rows[0].2, old_project);
+        assert_ne!(rows[0].2, rows[1].2);
+        let corrected: String = conn
+            .query_row(
+                "SELECT value FROM review_corrections WHERE mention_key=?1",
+                [&rows[0].1],
+                |r| r.get(0),
+            )
+            .unwrap();
+        assert_eq!(corrected, "Reviewed Alpha");
+    }
+    let mut renamed = mention(
+        101,
+        Some("Renamed"),
+        Some("https://alpha.test"),
+        "Renamed tool",
+    );
+    renamed.source_excerpt = "Alpha".into();
+    let report = process_thread(&mut store, 100, &answers(vec![renamed]), true).unwrap();
+    assert_eq!(report.failed.len(), 1);
+    assert!(report.failed[0].1.contains("ambiguous mention identity"));
+    let count: i64 = conn
+        .query_row(
+            "SELECT count(*) FROM mentions WHERE source_item_id=101",
+            [],
+            |r| r.get(0),
+        )
+        .unwrap();
+    assert_eq!(count, 2);
+    let beta_before: (String, i64) = conn
+        .query_row(
+            "SELECT mention_key,project_id FROM mentions WHERE source_item_id=101 AND name='Beta'",
+            [],
+            |r| Ok((r.get(0)?, r.get(1)?)),
+        )
+        .unwrap();
+    let beta = mention(
+        101,
+        Some("Beta"),
+        Some("https://alpha.test"),
+        "Beta helps writers",
+    );
+    let report = process_thread(&mut store, 100, &answers(vec![beta]), true).unwrap();
+    assert!(report.failed.is_empty(), "{:?}", report.failed);
+    let beta_after: (String, i64) = conn
+        .query_row(
+            "SELECT mention_key,project_id FROM mentions WHERE source_item_id=101",
+            [],
+            |r| Ok((r.get(0)?, r.get(1)?)),
+        )
+        .unwrap();
+    assert_eq!(beta_before, beta_after);
+    assert_ne!(beta_after.0, old_key);
+    let suppressed: bool = conn
+        .query_row(
+            "SELECT suppressed FROM projects WHERE id=?1",
+            [beta_after.1],
+            |r| r.get(0),
+        )
+        .unwrap();
+    assert!(!suppressed);
+}
+
+#[test]
+fn exact_url_identity_survives_a_name_change_and_additional_sibling_link() {
+    let (dir, mut store) = setup();
+    let alpha = mention(
+        101,
+        Some("Alpha"),
+        Some("https://alpha.test"),
+        "Alpha organizes work",
+    );
+    let beta = mention(
+        101,
+        Some("Beta"),
+        Some("https://beta.test"),
+        "Beta helps writers",
+    );
+    let answers = |mentions| {
+        model(vec![
+            Ok(Extraction { mentions }),
+            Ok(Extraction { mentions: vec![] }),
+            Ok(Extraction { mentions: vec![] }),
+        ])
+    };
+    let report = process_thread(
+        &mut store,
+        100,
+        &answers(vec![alpha.clone(), beta.clone()]),
+        false,
+    )
+    .unwrap();
+    assert!(report.failed.is_empty());
+    let conn = rusqlite::Connection::open(dir.path().join("db.sqlite")).unwrap();
+    let (_old_id, old_key, old_project): (i64, String, i64) = conn
+        .query_row(
+            "SELECT id,mention_key,project_id FROM mentions WHERE source_item_id=101 AND name='Alpha'",
+            [],
+            |r| Ok((r.get(0)?, r.get(1)?, r.get(2)?)),
+        )
+        .unwrap();
+    publication::correct(&mut store, &old_key, "description", Some("Reviewed Alpha")).unwrap();
+    publication::suppress_project(&mut store, old_project).unwrap();
+    let mut renamed = alpha;
+    renamed.name = Some("Alpha tools".into());
+    renamed.urls.push("https://beta.test".into());
+    for mentions in [vec![renamed.clone(), beta.clone()], vec![beta, renamed]] {
+        let report = process_thread(&mut store, 100, &answers(mentions), true).unwrap();
+        assert!(report.failed.is_empty(), "{:?}", report.failed);
+        let (key, project, correction, suppressed): (String, i64, String, bool) = conn
+            .query_row(
+                "SELECT m.mention_key,m.project_id,c.value,p.suppressed FROM mentions m JOIN review_corrections c ON c.mention_key=m.mention_key JOIN projects p ON p.id=m.project_id WHERE m.source_item_id=101 AND m.name='Alpha tools'",
+                [],
+                |r| Ok((r.get(0)?, r.get(1)?, r.get(2)?, r.get(3)?)),
+            )
+            .unwrap();
+        assert_eq!(key, old_key);
+        assert_eq!(project, old_project);
+        assert_eq!(correction, "Reviewed Alpha");
+        assert!(suppressed);
+    }
+}
+
+#[test]
+fn indistinguishable_shared_url_mentions_fail_without_replacing_prior_result() {
+    let (dir, mut store) = setup();
+    let alpha = mention(
+        101,
+        Some("Alpha"),
+        Some("https://alpha.test"),
+        "Alpha organizes work",
+    );
+    let answers = |mentions| {
+        model(vec![
+            Ok(Extraction { mentions }),
+            Ok(Extraction { mentions: vec![] }),
+            Ok(Extraction { mentions: vec![] }),
+        ])
+    };
+    process_thread(&mut store, 100, &answers(vec![alpha.clone()]), false).unwrap();
+    let report =
+        process_thread(&mut store, 100, &answers(vec![alpha.clone(), alpha]), true).unwrap();
+    assert_eq!(report.failed.len(), 1);
+    assert!(report.failed[0].1.contains("ambiguous mention identity"));
+    let conn = rusqlite::Connection::open(dir.path().join("db.sqlite")).unwrap();
+    let count: i64 = conn
+        .query_row(
+            "SELECT count(*) FROM mentions WHERE source_item_id=101",
+            [],
+            |r| r.get(0),
+        )
+        .unwrap();
+    assert_eq!(count, 1);
+}
+
+#[test]
+fn shared_url_split_cannot_bypass_another_sources_suppressed_project() {
+    let (dir, mut store) = setup();
+    let prior = mention(
+        201,
+        Some("Alpha"),
+        Some("https://alpha.test"),
+        "Alpha organizes work",
+    );
+    process_thread(
+        &mut store,
+        200,
+        &model(vec![Ok(Extraction {
+            mentions: vec![prior],
+        })]),
+        false,
+    )
+    .unwrap();
+    let conn = rusqlite::Connection::open(dir.path().join("db.sqlite")).unwrap();
+    let project: i64 = conn
+        .query_row(
+            "SELECT project_id FROM mentions WHERE source_item_id=201",
+            [],
+            |r| r.get(0),
+        )
+        .unwrap();
+    publication::suppress_project(&mut store, project).unwrap();
+    let alpha = mention(
+        101,
+        Some("Alpha"),
+        Some("https://alpha.test"),
+        "Alpha organizes work",
+    );
+    let beta = mention(
+        101,
+        Some("Beta"),
+        Some("https://alpha.test"),
+        "Beta helps writers",
+    );
+    let report = process_thread(
+        &mut store,
+        100,
+        &model(vec![
+            Ok(Extraction {
+                mentions: vec![alpha, beta],
+            }),
+            Ok(Extraction { mentions: vec![] }),
+            Ok(Extraction { mentions: vec![] }),
+        ]),
+        false,
+    )
+    .unwrap();
+    assert_eq!(report.failed.len(), 1);
+    assert!(report.failed[0].1.contains("suppressed project"));
+    let count: i64 = conn
+        .query_row(
+            "SELECT count(*) FROM mentions WHERE source_item_id=101",
+            [],
+            |r| r.get(0),
+        )
+        .unwrap();
+    assert_eq!(count, 0);
+}

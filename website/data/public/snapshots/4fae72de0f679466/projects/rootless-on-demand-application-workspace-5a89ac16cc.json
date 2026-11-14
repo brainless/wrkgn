@@ -1,0 +1,22 @@
+{
+  "id": 2684,
+  "slug": "rootless-on-demand-application-workspace-5a89ac16cc",
+  "name": "Rootless on-demand application workspace",
+  "mentions": [
+    {
+      "name": "Rootless on-demand application workspace",
+      "description": "A rootless, namespace-based on-demand application workspace where each app component runs in a heavily locked down container. Components are built and deployed in a web workspace with sandboxed terminals (with coding-agent access limited to the component's code and the user's home directory), heavy RBAC, and least-privilege permissions. It is designed for the agentic era, where apps are built on demand every few minutes and existing systems weren't built to handle that; it may be open sourced.",
+      "problem": "Current systems weren't built to deal with a whole new app being built every few minutes, and Claw-style agents still feel like school projects.",
+      "audience": "Individuals deploying an infrastructure-grade application workspace for themselves, with agents building apps inside it",
+      "builder_usernames": [
+        "devttyeu"
+      ],
+      "source_excerpt": "Building a rootless, namespace powered (deeply stretching the definition of a container), on demand application workspace.",
+      "source_item_id": 48886558,
+      "source_url": "https://news.ycombinator.com/item?id=48886558",
+      "author": "devttyeu",
+      "shared_at": 1783904118,
+      "links": []
+    }
+  ]
+}

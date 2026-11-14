@@ -1,0 +1,24 @@
+{
+  "id": 2847,
+  "slug": "nextperf-7b064d26fc",
+  "name": "NextPerf",
+  "mentions": [
+    {
+      "name": "NextPerf",
+      "description": "This tool scans Next.js sites to identify what is slowing them down, highlighting issues such as slow LCP, heavy JavaScript, and third-party impact. It provides suggestions and prioritizes them, working best with Next.js apps.",
+      "problem": "Performance issues when reviewing Next.js apps, with no clear way to see what is slow and what to fix first.",
+      "audience": "Developers reviewing and optimizing Next.js apps.",
+      "builder_usernames": [
+        "shandiz"
+      ],
+      "source_excerpt": "I ran into the same performance issues when reviewing Next.js apps, so I made a tool that scans Next.js sites and tells you what's slow. It's basically a performance tool that works best with Next.js apps, and highlights things like slow LCP, heavy JavaScript, and third-party impact and gives you suggestions and prioritizes them.",
+      "source_item_id": 48886150,
+      "source_url": "https://news.ycombinator.com/item?id=48886150",
+      "author": "shandiz",
+      "shared_at": 1783900583,
+      "links": [
+        "https://www.nextperf.dev/"
+      ]
+    }
+  ]
+}

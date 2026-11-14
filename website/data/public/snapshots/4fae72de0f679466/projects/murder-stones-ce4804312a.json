@@ -1,0 +1,24 @@
+{
+  "id": 1748,
+  "slug": "murder-stones-ce4804312a",
+  "name": "Murder Stones",
+  "mentions": [
+    {
+      "name": "Murder Stones",
+      "description": "This site catalogues murder stones — stone memorials placed where someone was killed, mostly 18th–19th century UK examples, some of which are lost. It aims to be a definitive, publicly editable archive by collating snippets and references into a CSV-to-SQLite pipeline that generates a static site hosted on Netlify, with a local Flask app for hand-editing the database and forcing rebuilds.",
+      "problem": "There was no definitive list of murder stones and very little coverage on Wikipedia.",
+      "audience": null,
+      "builder_usernames": [
+        "jimnotgym"
+      ],
+      "source_excerpt": "I am working on cataloguing Murder Stones!\n\nThese were stone memorials placed where someone was killed, especially in the UK. Most of them are 18th-19th century. Some are lost.\n\nAfter watching a YouTube video about it and finding there was no definitive list, I registered https://murder-stones.org on Friday night and fired up claude code.",
+      "source_item_id": 49235833,
+      "source_url": "https://news.ycombinator.com/item?id=49235833",
+      "author": "jimnotgym",
+      "shared_at": 1786309274,
+      "links": [
+        "https://murder-stones.org"
+      ]
+    }
+  ]
+}

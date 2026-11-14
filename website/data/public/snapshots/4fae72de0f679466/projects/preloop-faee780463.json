@@ -1,0 +1,24 @@
+{
+  "id": 1695,
+  "slug": "preloop-faee780463",
+  "name": "Preloop",
+  "mentions": [
+    {
+      "name": "Preloop",
+      "description": "Preloop runs unmodified GitHub Actions workflows locally or self-hosted in isolated cross-platform microVMs (built on smolvm, which uses the libkrun VMM). The runner was rewritten and the control plane reverse-engineered to follow the exact official runner protocol; each job runs in a microVM that boots in ~400ms from a packed image. It can pause on every failure so the user or an agent can immediately shell in at that point, fix, and retry in a new environment, and it implements the full DAP protocol for interactively stepping through and investigating context at each step/job.",
+      "problem": "GitHub Actions' reliability issues and the inability to run or test workflows locally.",
+      "audience": null,
+      "builder_usernames": [
+        "Bnjoroge"
+      ],
+      "source_excerpt": "I'm working on Preloop(https://preloop.dev), a way to run your unmodified Github Actions locally or self-hosted in isolated cross-platform microvms(uses smolvm which uses libkrun vmm).",
+      "source_item_id": 49234674,
+      "source_url": "https://news.ycombinator.com/item?id=49234674",
+      "author": "Bnjoroge",
+      "shared_at": 1786303006,
+      "links": [
+        "https://github.com/preloopdev/preloop"
+      ]
+    }
+  ]
+}

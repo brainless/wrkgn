@@ -1,0 +1,24 @@
+{
+  "id": 2667,
+  "slug": "misonos-f3acd0f151",
+  "name": "misonos",
+  "mentions": [
+    {
+      "name": "misonos",
+      "description": "A Sonos controller PWA with custom navigation and SMAPI servers for streaming the Live Music Archive, including Grateful Dead and Phish shows. Uses Tailscale so it works seamlessly on an S1 Sonos system at home and an S2 system elsewhere.",
+      "problem": "The official Sonos controller lacked the navigation the author wanted and access to live music archive content.",
+      "audience": "Personal use across the author's own Sonos systems at home and away.",
+      "builder_usernames": [
+        "agtilden"
+      ],
+      "source_excerpt": "I finally decided to put together a Sonos controller with the navigation I wanted and SMAPI servers for the live music archive, and all the grateful dead and phish shows. Thanks Claude! A PWA with tailscale and I have a controller that does what I want and works at home on an S1 system and at the beach on an S2 - seamlessly.",
+      "source_item_id": 48886327,
+      "source_url": "https://news.ycombinator.com/item?id=48886327",
+      "author": "agtilden",
+      "shared_at": 1783902059,
+      "links": [
+        "https://github.com/agtilden/misonos"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": 3013,
+  "slug": "code-world-model-for-simultaneous-move-markets-7fb49d0b0f",
+  "name": "Code World Model for Simultaneous-Move Markets",
+  "mentions": [
+    {
+      "name": "Code World Model for Simultaneous-Move Markets",
+      "description": "A code world model for simultaneous-move settings such as capital markets and order-book markets. It extends DeepMind's CWM approach with a simultaneous-move MCTS variant (decoupled UCB per player) so training approximates a Nash equilibrium instead of converging to an exploitable pure strategy. Unlike learned neural world models such as JEPA, it keeps a deterministic, inspectable code-based simulator, providing better auditability and easier RL-like training.",
+      "problem": "Standard MCTS/IS-MCTS used in code world models assumes a single active player at each node, which fails in simultaneous-move settings like Orbit Wars or order-book markets, converging to an exploitable pure strategy rather than a Nash equilibrium; learned neural world models like JEPA lack determinism, speed, and debuggability.",
+      "audience": null,
+      "builder_usernames": [
+        "jsemrau"
+      ],
+      "source_excerpt": "Code World Models in Simultaneous Move settings like Capital Markets. DeepMind's CWM approach relies on standard MCTS/IS-MCTS, which assumes a single active player at each node.\n\nThis doesn't work in simultaneous-move settings like Orbit Wars (or order-book markets), converging to an exploitable pure strategy rather than a Nash equilibrium.",
+      "source_item_id": 48887001,
+      "source_url": "https://news.ycombinator.com/item?id=48887001",
+      "author": "jsemrau",
+      "shared_at": 1783908311,
+      "links": [
+        "https://github.com/ternary-ai/ow-code-world-model",
+        "https://jdsemrau.substack.com/p/a-self-improving-code-world-model"
+      ]
+    }
+  ]
+}

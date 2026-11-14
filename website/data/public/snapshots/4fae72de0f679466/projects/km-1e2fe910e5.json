@@ -1,0 +1,24 @@
+{
+  "id": 2495,
+  "slug": "km-1e2fe910e5",
+  "name": "km",
+  "mentions": [
+    {
+      "name": "km",
+      "description": "This tool provides local search over your own data exports with LLM/RAG. It ingests Twitter archive, Google MyActivity, ChatGPT logs, and Reddit GDPR exports, dedupes roughly 500k items into a single SQLite file, and keeps provenance for every save, like, bookmark, and page visit. It binds to 127.0.0.1 and makes no external calls, and is open for contributions.",
+      "problem": "The author wanted their own AI assistant that understands what they like reading based on their data, without handing it to someone else's server just to make it searchable.",
+      "audience": null,
+      "builder_usernames": [
+        "joeamroo"
+      ],
+      "source_excerpt": "km (https://github.com/joeamroo/knowledgemaxxing): local search over your own\ndata exports, with LLM/RAG. It takes the Twitter archive, Google MyActivity, ChatGPT logs, and Reddit GDPR export you requested once and never opened, dedupes roughly 500k items into a single SQLite file, and keeps provenance for every save, like, bookmark, and page visit. Binds to 127.0.0.1 and makes no external calls.",
+      "source_item_id": 49149742,
+      "source_url": "https://news.ycombinator.com/item?id=49149742",
+      "author": "joeamroo",
+      "shared_at": 1785715892,
+      "links": [
+        "https://github.com/joeamroo/knowledgemaxxing"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": 2100,
+  "slug": "palladium-5a3ca86fde",
+  "name": "Palladium",
+  "mentions": [
+    {
+      "name": "Palladium",
+      "description": "A JAX Pallas demo for Apple GPUs that translates JAX jaxprs into Metal Shading Language, compiles the generated shaders, and executes them with buffers exchanged between Python and native code via nanobind. Built as an exercise to learn MSL, GPU kernel programming, and brush up on numerical computing.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "njng"
+      ],
+      "source_excerpt": "I'm currently working on a JAX Pallas demo for Apple GPU that works by translating jaxprs into Metal shading language, compiling that, and then executing with buffers from Python exchanged with nanobind.",
+      "source_item_id": 49242611,
+      "source_url": "https://news.ycombinator.com/item?id=49242611",
+      "author": "njng",
+      "shared_at": 1786363786,
+      "links": [
+        "https://github.com/nicholasjng/palladium"
+      ]
+    }
+  ]
+}

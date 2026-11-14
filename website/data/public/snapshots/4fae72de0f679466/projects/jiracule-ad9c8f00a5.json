@@ -1,0 +1,25 @@
+{
+  "id": 2962,
+  "slug": "jiracule-ad9c8f00a5",
+  "name": "Jiracule",
+  "mentions": [
+    {
+      "name": "Jiracule",
+      "description": "A lightweight, fast alternate web client for Jira that avoids the heavy memory usage and slowness of the official Jira interface.",
+      "problem": "The official Jira web client is slow and resource-heavy, taking around 1GB of RAM.",
+      "audience": null,
+      "builder_usernames": [
+        "pavo-etc"
+      ],
+      "source_excerpt": "An alternate web client for Jira that doesn't take a 1GB of ram and slow as molasses.",
+      "source_item_id": 48887073,
+      "source_url": "https://news.ycombinator.com/item?id=48887073",
+      "author": "pavo-etc",
+      "shared_at": 1783909112,
+      "links": [
+        "https://github.com/zachpmanson/jiracule",
+        "https://jiracule.zachmanson.com"
+      ]
+    }
+  ]
+}

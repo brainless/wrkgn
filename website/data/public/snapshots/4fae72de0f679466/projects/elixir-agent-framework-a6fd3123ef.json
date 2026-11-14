@@ -1,0 +1,22 @@
+{
+  "id": 2560,
+  "slug": "elixir-agent-framework-a6fd3123ef",
+  "name": "Elixir agent framework",
+  "mentions": [
+    {
+      "name": "Elixir agent framework",
+      "description": "This Elixir-based agent framework pairs an append-only log with a content hypergraph, along with tools that regularly pull data from other services into Postgres. It is built as a kind of 'exoskeleton' around Claude/Codex so it does not compete with fast-moving agent tools.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tern"
+      ],
+      "source_excerpt": "My take on an agent framework ... append only log + content hypergraph in Elixir, tools that regularly pull data from other services into Postgres—built as a kind of 'exoskeleton' around claude/codex so it's not competing with fast-moving tools.",
+      "source_item_id": 48886944,
+      "source_url": "https://news.ycombinator.com/item?id=48886944",
+      "author": "tern",
+      "shared_at": 1783907735,
+      "links": []
+    }
+  ]
+}

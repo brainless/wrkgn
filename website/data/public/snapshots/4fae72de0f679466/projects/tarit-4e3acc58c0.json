@@ -1,0 +1,24 @@
+{
+  "id": 1859,
+  "slug": "tarit-4e3acc58c0",
+  "name": "tarit",
+  "mentions": [
+    {
+      "name": "tarit",
+      "description": "A from-scratch replacement for Firecracker: a microVM monitor designed ground-up around what AI agents need, avoiding pain points like snapshotting live VMs and orchestration overhead, and built using rust-vmm.",
+      "problem": "Existing VM tooling like Firecracker struggles later on with snapshotting live VMs and orchestration overhead for AI agent workloads.",
+      "audience": null,
+      "builder_usernames": [
+        "mkagenius"
+      ],
+      "source_excerpt": "Building a replacement for firecracker.\n\nThinking ground up what AI agents would need rather than struggling later on with snapshotting live vms, or orchestration overhead etc.\n\nrust-vmm proved really great for this.\n\nhttps://github.com/instavm/tarit",
+      "source_item_id": 49233991,
+      "source_url": "https://news.ycombinator.com/item?id=49233991",
+      "author": "mkagenius",
+      "shared_at": 1786299407,
+      "links": [
+        "https://github.com/instavm/tarit"
+      ]
+    }
+  ]
+}

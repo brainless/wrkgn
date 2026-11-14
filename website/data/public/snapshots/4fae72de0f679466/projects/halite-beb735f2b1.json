@@ -1,0 +1,24 @@
+{
+  "id": 2452,
+  "slug": "halite-beb735f2b1",
+  "name": "Halite",
+  "mentions": [
+    {
+      "name": "Halite",
+      "description": "A recipe manager PWA that ingests recipes from social sites and videos (including ones where ingredients or instructions are only spoken or shown on screen) and accepts pasted text or JSON. Recipe extraction uses yt-dlp with a Gemini fallback for videos, direct fetch with a scrape proxy fallback for sites, and a monitor that watches for breakages. Recipes can be edited by natural-language request (e.g., \"double the garlic\" rewrites the ingredient list), and an MCP connection to Claude lets Claude find, edit, or create new recipes for meal planning.",
+      "problem": "Recipes on social sites and in videos are hard to extract when spoken or shown on screen, and editing recipe ingredient lists is tedious.",
+      "audience": "Wants to pull in recipes from social sites and videos where ingredients/instructions are only spoken or shown, and finds manually editing recipes annoying",
+      "builder_usernames": [
+        "mattmaking"
+      ],
+      "source_excerpt": "A recipe manager PWA - https://halite.cc - I wanted to pull in recipes from social sites, videos where they only speak or show the ingredients/instructions, and be able to paste in text or json from recipes I'm making myself. Uses yt-dlp with a Gemini fallback, sites go direct fetch --> scrape proxy, and a monitor watches for breakages.",
+      "source_item_id": 49216888,
+      "source_url": "https://news.ycombinator.com/item?id=49216888",
+      "author": "mattmaking",
+      "shared_at": 1786141099,
+      "links": [
+        "https://halite.cc"
+      ]
+    }
+  ]
+}

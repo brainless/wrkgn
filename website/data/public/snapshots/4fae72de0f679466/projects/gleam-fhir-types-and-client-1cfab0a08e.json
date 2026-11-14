@@ -1,0 +1,24 @@
+{
+  "id": 2883,
+  "slug": "gleam-fhir-types-and-client-1cfab0a08e",
+  "name": "Gleam FHIR types and client",
+  "mentions": [
+    {
+      "name": "Gleam FHIR types and client",
+      "description": "This library provides FHIR (healthcare interoperability) types and an HTTP client for the Gleam language. FHIR choice types are modeled as sum types, and cardinality is handled with Option for 0..1 and List for 0..*. It works with any HTTP client on the Erlang or JavaScript targets, so it can be used on a server or in the browser. It is relatively new and untested in real-world use.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dematz"
+      ],
+      "source_excerpt": "gleam fhir types and client https://fhir.hexdocs.pm/",
+      "source_item_id": 48892114,
+      "source_url": "https://news.ycombinator.com/item?id=48892114",
+      "author": "dematz",
+      "shared_at": 1783948126,
+      "links": [
+        "https://fhir.hexdocs.pm/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": 2459,
+  "slug": "todo-driven-development-ce7ac829ae",
+  "name": "Todo driven development",
+  "mentions": [
+    {
+      "name": "Todo driven development",
+      "description": "This is an enhancement to the Gleam test runner gleeunit that adds \"todo\" as a separate reporting category. Instead of unfinished work showing up as failing tests, incomplete tests appear as yellow \"todo\" results, so when implementing part of a feature you can immediately see whether you get actual passing tests or real failures, without reading failure details to separate todos from genuine breaks.",
+      "problem": "Failing-test counts don't distinguish placeholder \"todo\" tests from real failures, so you can't tell at a glance whether a partial implementation was correct and have to read the details of the failures instead.",
+      "audience": null,
+      "builder_usernames": [
+        "eterm"
+      ],
+      "source_excerpt": "the one I really want to get over the line is \"Todo driven development\" - An edit to the gleam test-runner gleeunit that adds \"todo\" as a separate reporting category.",
+      "source_item_id": 49149008,
+      "source_url": "https://news.ycombinator.com/item?id=49149008",
+      "author": "eterm",
+      "shared_at": 1785709185,
+      "links": []
+    }
+  ]
+}

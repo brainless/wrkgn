@@ -1,0 +1,24 @@
+{
+  "id": 2647,
+  "slug": "stencilize-99ad818397",
+  "name": "Stencilize",
+  "mentions": [
+    {
+      "name": "Stencilize",
+      "description": "A webapp that automates creating printable PCB solder paste stencils from PCB designs. It handles the PCB Designer to DXF to CAD workflow, adding margins and outlines and producing a printable stencil, so users can make their own stencils instead of paying to include them with PCB orders. It runs entirely on the local machine and is hosted on Cloudflare Pages.",
+      "problem": "Ordering stencils with PCBs from manufacturers is expensive, and doing the manual DXF-to-CAD stencil workflow by hand (adding margin and outline, printing) becomes very tedious, while hand-pasting without a stencil is regrettable.",
+      "audience": "Hobbyists and makers who order PCBs and hand-apply solder paste",
+      "builder_usernames": [
+        "radwouters"
+      ],
+      "source_excerpt": "I have been working on Stencilize: https://stencilize.me/\n\nIt's a little webapp that solved a problem I had when ordering PCBs: I was too cheap to buy the stencil when ordering the PCBs from China, but then I regretted it when I had to paste by hand.",
+      "source_item_id": 48889055,
+      "source_url": "https://news.ycombinator.com/item?id=48889055",
+      "author": "radwouters",
+      "shared_at": 1783927322,
+      "links": [
+        "https://stencilize.me/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": 1792,
+  "slug": "reactome-biological-pathway-graph-visualizer-f49daeff4a",
+  "name": "Reactome Biological Pathway Graph Visualizer",
+  "mentions": [
+    {
+      "name": "Reactome Biological Pathway Graph Visualizer",
+      "description": "This tool visualizes biological pathways using data pulled from the Reactome knowledge graph. It experiments with different graph visualization algorithms, which are approximations to the NP-hard problem of arranging graphs so all vertices are distinct with a global minimum of overlapping edges. The next step is implementing a novel algorithm found in a dissertation that does not share its code; it is not yet deployed.",
+      "problem": "Graph layout is NP-hard; existing algorithms are approximations for arranging graphs so vertices are distinct and edge overlaps are globally minimized.",
+      "audience": null,
+      "builder_usernames": [
+        "bogzz"
+      ],
+      "source_excerpt": "I'm working on a tool for visualizing biological pathways, pulling data from the Reactome knowledge graph for now.",
+      "source_item_id": 49235758,
+      "source_url": "https://news.ycombinator.com/item?id=49235758",
+      "author": "bogzz",
+      "shared_at": 1786308819,
+      "links": []
+    }
+  ]
+}

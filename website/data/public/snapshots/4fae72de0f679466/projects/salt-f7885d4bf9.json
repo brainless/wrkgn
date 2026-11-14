@@ -1,0 +1,24 @@
+{
+  "id": 1879,
+  "slug": "salt-f7885d4bf9",
+  "name": "SALT",
+  "mentions": [
+    {
+      "name": "SALT",
+      "description": "A shard balancing capability for Playwright Test that uses the new API released in Playwright v1.62 together with historical test durations to balance tests across shards. It implements SALT, a specialized variant of the LPT job scheduling algorithm tailored to Playwright test suites; in WordPress's Gutenberg project it cut test runtime from 35 minutes to 23.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "aslushnikov"
+      ],
+      "source_excerpt": "I've been working on shard balancing for Playwright Test. The idea is to use the new API released in Playwright v1.62 together with historical test durations to balance tests across shards.\n\nI ended up designing a specialized variant of LPT that works well for Playwright test suites. It's now used in WordPress's Gutenberg project, where it cut test runtime from 35 minutes to 23.\n\nThe algorithm is called SALT.",
+      "source_item_id": 49236669,
+      "source_url": "https://news.ycombinator.com/item?id=49236669",
+      "author": "aslushnikov",
+      "shared_at": 1786313520,
+      "links": [
+        "https://blog.flakiness.io/posts/2026/salt/"
+      ]
+    }
+  ]
+}

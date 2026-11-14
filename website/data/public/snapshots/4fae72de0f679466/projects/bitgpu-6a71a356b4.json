@@ -1,0 +1,42 @@
+{
+  "id": 1855,
+  "slug": "bitgpu-6a71a356b4",
+  "name": "bitgpu",
+  "mentions": [
+    {
+      "name": "bitgpu",
+      "description": "A fast WebGPU runtime for running 1-bit (binary-weight) LLMs directly in the browser.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "stfurkan"
+      ],
+      "source_excerpt": "1. bitgpu: Fast WebGPU runtime for 1-bit (binary-weight) LLMs in the browser.",
+      "source_item_id": 49241435,
+      "source_url": "https://news.ycombinator.com/item?id=49241435",
+      "author": "stfurkan",
+      "shared_at": 1786354701,
+      "links": [
+        "https://github.com/stfurkan/bitgpu",
+        "https://stfurkan.github.io/bitgpu/examples/chat.html"
+      ]
+    },
+    {
+      "name": "bitgpu",
+      "description": "This is an open-source LLM inference engine that runs large language models directly in the browser via WebGPU, with a chat example demonstrating it in action.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "stfurkan"
+      ],
+      "source_excerpt": "I'm currently working on an open-source LLM inference engine [1] for browsers via webGPU. If anyone wants to try or has any suggestions, I'm happy to listen :)",
+      "source_item_id": 49148988,
+      "source_url": "https://news.ycombinator.com/item?id=49148988",
+      "author": "stfurkan",
+      "shared_at": 1785709005,
+      "links": [
+        "https://github.com/stfurkan/bitgpu"
+      ]
+    }
+  ]
+}

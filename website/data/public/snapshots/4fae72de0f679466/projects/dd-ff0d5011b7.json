@@ -1,0 +1,24 @@
+{
+  "id": 2547,
+  "slug": "dd-ff0d5011b7",
+  "name": "DD",
+  "mentions": [
+    {
+      "name": "DD",
+      "description": "A Docker rewrite for macOS that runs Docker on Macs without a virtual machine, outperforming qemu-based approaches. Upcoming features include rendering native apps and workspaces; it is being rebranded from its original working name, DD.",
+      "problem": "The author was annoyed by the speed of Docker on Macs.",
+      "audience": null,
+      "builder_usernames": [
+        "rh94"
+      ],
+      "source_excerpt": "https://github.com/ricccrd/dd\n\nI was annoyed by the speed of docker on Mac’s, so I took a journey and decided to rewrite everything about it. DD was original working name and I’m in process of rebranding. But we can run docker on Mac’s with no vm. And its destroying qemu.",
+      "source_item_id": 48889338,
+      "source_url": "https://news.ycombinator.com/item?id=48889338",
+      "author": "rh94",
+      "shared_at": 1783929809,
+      "links": [
+        "https://github.com/ricccrd/dd"
+      ]
+    }
+  ]
+}

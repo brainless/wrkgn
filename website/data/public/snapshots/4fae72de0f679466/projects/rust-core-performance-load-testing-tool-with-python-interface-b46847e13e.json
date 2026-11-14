@@ -1,0 +1,22 @@
+{
+  "id": 2204,
+  "slug": "rust-core-performance-load-testing-tool-with-python-interface-b46847e13e",
+  "name": "Rust-core performance/load testing tool with Python interface",
+  "mentions": [
+    {
+      "name": "Rust-core performance/load testing tool with Python interface",
+      "description": "A performance testing tool with a Rust core built on Tokio and Reqwest for fast, concurrent, high-throughput load generation. It exposes a Python interface built with Typer and PyO3, so it can be used as a regular CLI or performance tests can be written directly in Python, keeping the developer experience simple and familiar.",
+      "problem": null,
+      "audience": "Developers writing and running performance tests",
+      "builder_usernames": [
+        "gremlin0"
+      ],
+      "source_excerpt": "I’m building a performance testing tool with a Rust core using Tokio and Reqwest, with a Python interface built around Typer and PyO3. You can use it as a regular CLI, but you can also write performance tests directly in Python.",
+      "source_item_id": 49240156,
+      "source_url": "https://news.ycombinator.com/item?id=49240156",
+      "author": "gremlin0",
+      "shared_at": 1786344536,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": 2774,
+  "slug": "onlytrades-280b10d3b2",
+  "name": "OnlyTrades",
+  "mentions": [
+    {
+      "name": "OnlyTrades",
+      "description": "An algorithmic trading platform built from the author's own personal trading tools. It is written entirely in Rust, while user trading algorithms are written in TypeScript and executed via a Cloudflare Workers-inspired approach. The server runs in under a megabyte of RAM, user function invocations use negligible memory, and round-trip latency is about 3ms on the author's primary server (around 50ms on the current low-cost server).",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "apatheticonion"
+      ],
+      "source_excerpt": "https://onlytrades.live/\n\nBeing unemployed and wanting to make something, I started studying quantitative trading concepts and got into algorithmic trading.\n\nI decided to build out an algorithmic trading platform using the tools I developed for myself.\n\nIt's written entirely in Rust but user algorithms are written in TypeScript. It uses a Cloudflare-workers inspired approach to run the user functions.",
+      "source_item_id": 48889935,
+      "source_url": "https://news.ycombinator.com/item?id=48889935",
+      "author": "apatheticonion",
+      "shared_at": 1783934491,
+      "links": [
+        "https://onlytrades.live/"
+      ]
+    }
+  ]
+}

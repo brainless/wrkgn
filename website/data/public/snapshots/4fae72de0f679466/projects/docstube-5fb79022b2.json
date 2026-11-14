@@ -1,0 +1,24 @@
+{
+  "id": 2581,
+  "slug": "docstube-5fb79022b2",
+  "name": "docstube",
+  "mentions": [
+    {
+      "name": "docstube",
+      "description": "This tool generates technical documentation from a codebase, fact-checks every claim against the source code, writes docs for the people actually reading them, and keeps them in sync as the code changes. Its advanced verification engine validates documentation both deterministically and using AI agents, so the output can be trusted. It is currently in private alpha with a public launch planned for the first half of 08/2026.",
+      "problem": "Keeping public technical documentation up to date was a struggle, and AI-generated docs required corrections that were as hard as writing them manually.",
+      "audience": null,
+      "builder_usernames": [
+        "matus_congrady"
+      ],
+      "source_excerpt": "docstube generates documentation from your codebase, fact-checks every claim against the source, writes it for the people actually reading it, and keeps it in sync as your code changes. What sets it apart from other such tools is its advanced verification engine (validates both deterministically and using AI agents). So you can actually trust the outcome.",
+      "source_item_id": 48890727,
+      "source_url": "https://news.ycombinator.com/item?id=48890727",
+      "author": "matus_congrady",
+      "shared_at": 1783939884,
+      "links": [
+        "https://docstube.dev"
+      ]
+    }
+  ]
+}

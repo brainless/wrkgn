@@ -1,0 +1,22 @@
+{
+  "id": 2711,
+  "slug": "agentic-access-management-platform-60097bbaa1",
+  "name": "Agentic Access Management Platform",
+  "mentions": [
+    {
+      "name": "Agentic Access Management Platform",
+      "description": "An agentic access management platform that provisions employee access to services from any LLM surface such as Claude Code or ChatGPT. A natural-language request (e.g., \"give James access to WorkOS until today\") triggers checks of what access the person should have based on department and role (Product PM → Viewer, Engineering SDE-1 → Developer, SDE-3 → Admin), supports custom policies and roles, and grants approved access within an hour. Phase 1 targets deployment at the builder's company.",
+      "problem": "Simple access requests to tools like Lovable, Claude, or WorkOS end up as a 1-2 day dependency on leadership; large companies avoid this with HRMS suites, ServiceNow, or Azure AD, but those require navigating enterprise contracts with both the HRMS and every service used.",
+      "audience": "Companies that need to grant employees role-based, time-bound access to tools and services without leadership bottlenecks.",
+      "builder_usernames": [
+        "aadv1k"
+      ],
+      "source_excerpt": "I am building an agentic access management platform, where you can simply say \"Hey, could you give James access to WorkOS until today?\" from any LLM surface (Claude Code, ChatGPT), the platform goes ahead and checks what kind of access SHOULD James have given his department, and role (Product, PM? Viewer; Engineering, SDE-1? Developer; Engineering, SDE-3? Admin) and provides it within an hour.",
+      "source_item_id": 48903951,
+      "source_url": "https://news.ycombinator.com/item?id=48903951",
+      "author": "aadv1k",
+      "shared_at": 1784019670,
+      "links": []
+    }
+  ]
+}

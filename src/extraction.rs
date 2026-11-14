@@ -118,13 +118,27 @@ pub fn flatten<'a>(node: &'a ConversationNode, out: &mut Vec<&'a StoredSourceIte
     }
 }
 pub fn group_fingerprint(node: &ConversationNode) -> String {
+    group_fingerprint_at_root_position(node, node.item.source.sibling_position)
+}
+
+/// Preserve the existing fingerprint format while comparing a group's previous
+/// position in the thread. Its rank among independent groups is not model input.
+pub(crate) fn group_fingerprint_at_root_position(
+    node: &ConversationNode,
+    root_position: i64,
+) -> String {
     let mut items = Vec::new();
     flatten(node, &mut items);
     let mut h = Sha256::new();
     for item in items {
         h.update(item.source.item_id.to_be_bytes());
         h.update(item.source.parent_id.unwrap_or(0).to_be_bytes());
-        h.update(item.source.sibling_position.to_be_bytes());
+        let position = if item.source.item_id == node.item.source.item_id {
+            root_position
+        } else {
+            item.source.sibling_position
+        };
+        h.update(position.to_be_bytes());
         h.update(item.content_fingerprint.as_bytes());
         h.update([item.present_in_tree as u8]);
     }
@@ -247,6 +261,25 @@ fn url_parts(url: &str) -> (Option<String>, String) {
 fn text_urls(texts: &[String]) -> Vec<(Option<String>, String)> {
     let mut found = Vec::new();
     for token in texts.iter().flat_map(|t| t.split_whitespace()) {
+        // HN anchors need not have spaces around them: plain_text can produce
+        // `Name(https://example.org)` or `[1]https://example.org`. Locate the
+        // first explicit URL after a wrapper without treating a URL embedded
+        // in another URL's path/query as a separate source link.
+        let first_url = [token.find("https://"), token.find("http://")]
+            .into_iter()
+            .flatten()
+            .min();
+        let token = match first_url {
+            Some(at)
+                if token[..at]
+                    .chars()
+                    .next_back()
+                    .is_some_and(|c| matches!(c, '(' | '[' | ']' | '<' | '"' | '\'' | ':')) =>
+            {
+                &token[at..]
+            }
+            _ => token,
+        };
         let token = token.trim_start_matches(['(', '<', '[', '"', '\'']);
         found.push(url_parts(token.trim_end_matches([
             '.', ',', ';', ':', '!', '?', ')', ']', '>', '"', '\'',
@@ -433,6 +466,46 @@ pub fn validate(
 #[cfg(test)]
 mod tests {
     use super::*;
+    #[test]
+    fn links_attached_to_labels_and_footnotes_are_supported() {
+        for (source, url) in [
+            (
+                "one screen.(https://banquish.test)",
+                "https://banquish.test",
+            ),
+            ("FormBeep(https://formbeep.test)", "https://formbeep.test"),
+            (
+                "[1]https://homepage.test/en-US",
+                "https://homepage.test/en-US",
+            ),
+            (
+                "Ferrite ([github.com/builder/Ferrite](https://github.com/builder/Ferrite)),",
+                "https://github.com/builder/Ferrite",
+            ),
+        ] {
+            let found = text_urls(&[source.into()]);
+            assert!(url_supported(url, &found), "{source}");
+            assert!(!url_supported(&format!("{url}/invented"), &found));
+        }
+        let found = text_urls(&["Name(http://example.test/path)".into()]);
+        assert!(url_supported("http://example.test/path", &found));
+        assert!(!url_supported("https://example.test/path", &found));
+    }
+    #[test]
+    fn embedded_urls_do_not_become_separate_source_links() {
+        for source in [
+            "prefixhttps://other.test",
+            "https://example.test/path/(https://other.test)",
+            "https://example.test/?redirect=https://other.test",
+            "https://example.test/?redirect=(https://other.test)",
+            "https://user:https://other.test@example.test/path",
+        ] {
+            assert!(!url_supported(
+                "https://other.test",
+                &text_urls(&[source.into()])
+            ));
+        }
+    }
     #[test]
     fn origins_require_multiple_paths_and_preserve_hosted_projects() {
         let found =

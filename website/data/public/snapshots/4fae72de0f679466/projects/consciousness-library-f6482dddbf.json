@@ -1,0 +1,24 @@
+{
+  "id": 1716,
+  "slug": "consciousness-library-f6482dddbf",
+  "name": "Consciousness Library",
+  "mentions": [
+    {
+      "name": "Consciousness Library",
+      "description": "This is a free, open library for psychedelic and consciousness research that pulls papers from over a dozen academic APIs every 20 minutes, dedupes them, organizes them by relevance, and synthesizes evidence. It holds over 35,700 papers by 82,200+ authors across 37 topics, with a 2D map of the whole corpus, evidence syntheses on topic pages, and the ability to generate custom syntheses from any prompt. Its relevance pipeline uses a cheap keyword prefilter followed by an LLM rubric that accepts or rejects papers. It is free with no ads and no signup to read, and operates as a self-funded registered 501(c)(3).",
+      "problem": "Academic API results include many keyword false positives, such as papers on LSD the psychedelic vs Lumpy Skin Disease or ketamine for depression vs feline anesthesia, making relevance filtering the hardest part of building the corpus to get right.",
+      "audience": null,
+      "builder_usernames": [
+        "elliotec"
+      ],
+      "source_excerpt": "I've been building https://consciousnesslibrary.org, an open library for psychedelic and consciousness research that pulls from over a dozen academic APIs every 20 minutes, dedupes them, organizes by relevance, and synthesizes evidence.",
+      "source_item_id": 49236056,
+      "source_url": "https://news.ycombinator.com/item?id=49236056",
+      "author": "elliotec",
+      "shared_at": 1786310517,
+      "links": [
+        "https://consciousnesslibrary.org"
+      ]
+    }
+  ]
+}

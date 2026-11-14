@@ -1,0 +1,24 @@
+{
+  "id": 2147,
+  "slug": "whatsinmycloud-com-6540826d65",
+  "name": "whatsinmycloud.com",
+  "mentions": [
+    {
+      "name": "whatsinmycloud.com",
+      "description": "This tool scans an AWS account to identify wasted spend and security holes, then delivers ten prioritized fixes. It requires only read-only access (describe/list/get, no write permissions) and is currently free while feedback is gathered.",
+      "problem": "More people are shipping to AWS without having spent years learning it, and AWS does a poor job of showing what is actually costing money or sitting wide open.",
+      "audience": null,
+      "builder_usernames": [
+        "stephencloud"
+      ],
+      "source_excerpt": "I just finished dev on whatsinmycloud.com. It scans your AWS account, finds the wasted spend and security holes, and gives you ten prioritised fixes.",
+      "source_item_id": 49289445,
+      "source_url": "https://news.ycombinator.com/item?id=49289445",
+      "author": "stephencloud",
+      "shared_at": 1786643070,
+      "links": [
+        "https://whatsinmycloud.com"
+      ]
+    }
+  ]
+}

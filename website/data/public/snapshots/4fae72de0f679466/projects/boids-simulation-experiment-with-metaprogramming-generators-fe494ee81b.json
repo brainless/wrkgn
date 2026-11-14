@@ -1,0 +1,22 @@
+{
+  "id": 2531,
+  "slug": "boids-simulation-experiment-with-metaprogramming-generators-fe494ee81b",
+  "name": "Boids simulation experiment with metaprogramming generators",
+  "mentions": [
+    {
+      "name": "Boids simulation experiment with metaprogramming generators",
+      "description": "A boids flocking simulation experiment written in Go that achieves around 8,000 agents at 60 fps on a single CPU thread. The experiment's goal is to encode optimal cache-friendly data structures into metaprogramming generators so that Claude can write a high-level DSL that generates code down to the level of these simulations.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "coldstartops"
+      ],
+      "source_excerpt": "funilly enough I was also running this boids experiment a few months ago. Managed to get around 8k at 60 fps on 1 thread on my cpu, using golang.\n\nMy goal for this experiment was to encode the optimal cache data structures into meta programming generators such that claude can write high level DSL and generate down to this level of simulations.",
+      "source_item_id": 48890055,
+      "source_url": "https://news.ycombinator.com/item?id=48890055",
+      "author": "coldstartops",
+      "shared_at": 1783935270,
+      "links": []
+    }
+  ]
+}

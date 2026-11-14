@@ -1,0 +1,22 @@
+{
+  "id": 2819,
+  "slug": "erp-business-engine-backend-c21d43ad8b",
+  "name": "ERP business engine backend",
+  "mentions": [
+    {
+      "name": "ERP business engine backend",
+      "description": "This project rebuilds an ERP-like system into a proper ERP backend conceived as a \"business engine\" that covers most business scenarios, with multi-company, branch, and currency support. It models currency and unit of measure as full core types and traces everything related to business transactions from production to beyond the sale. A persistent workflow engine (like Temporal) is being considered, and an MVP UI is being built to validate the core; whether to open source it is still under debate.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mamcx"
+      ],
+      "source_excerpt": "Rebuilding my long ERP-like project to become more like a \"business engine\" to become a proper ERP backend (so it can cover most business scenarios and is multi-company, branch, currency, etc).",
+      "source_item_id": 48886460,
+      "source_url": "https://news.ycombinator.com/item?id=48886460",
+      "author": "mamcx",
+      "shared_at": 1783903318,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": 2002,
+  "slug": "context-management-platform-8bfa9d7021",
+  "name": "Context Management Platform",
+  "mentions": [
+    {
+      "name": "Context Management Platform",
+      "description": "This platform provides context management built around structured text formats (YAML, JSON, XML, Markdown), with editors using CodeMirror for code and ProseMirror for markdown, eventually extending to media assets like images, videos, and audio. It connects sources (GitHub, Google Docs, local file system) through transformations (templates, apps, LLMs/generative AI, simulations) to sinks via changesets, acting as a cache layer that supports a graph of operations (source->executor->sink->...) and traces the lineage of assets through the system.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "stillpointlab"
+      ],
+      "source_excerpt": "I'm working on a platform for context management that includes apps that operate on structured text formats (e.g. YAML, JSON, XML, MD) and provides editors for structured text formats (code editing using codemirror, markdown editing using prosemirror) and eventually all media assets (images, videos, audio).",
+      "source_item_id": 49234768,
+      "source_url": "https://news.ycombinator.com/item?id=49234768",
+      "author": "stillpointlab",
+      "shared_at": 1786303491,
+      "links": []
+    }
+  ]
+}

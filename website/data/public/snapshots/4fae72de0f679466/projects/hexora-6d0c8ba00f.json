@@ -1,0 +1,24 @@
+{
+  "id": 2807,
+  "slug": "hexora-6d0c8ba00f",
+  "name": "hexora",
+  "mentions": [
+    {
+      "name": "hexora",
+      "description": "hexora is a library that detects malicious Python code using static analysis combined with machine learning. It deobfuscates Python code so obfuscated samples can be analyzed instead of merely flagged as potentially harmful, and unlike LLM-based approaches it is not susceptible to prompt injection. A recently added ML model filters out false positives, and in the past month it found and flagged more than 40 malicious Python packages.",
+      "problem": "LLM-based approaches to detecting malicious code are susceptible to prompt injection and only see obfuscated code as 'potentially harmful' without decoding it, while malicious Python packages go undetected.",
+      "audience": null,
+      "builder_usernames": [
+        "f311a"
+      ],
+      "source_excerpt": "I'm working on hexora, a library that detects malicious Python code using static analysis and machine learning.",
+      "source_item_id": 48888775,
+      "source_url": "https://news.ycombinator.com/item?id=48888775",
+      "author": "f311a",
+      "shared_at": 1783925013,
+      "links": [
+        "https://github.com/rushter/hexora"
+      ]
+    }
+  ]
+}

@@ -29,7 +29,8 @@ const HELP: &str = "Usage: wrkgn-monthly [--from YYYY-MM] [--through YYYY-MM]
 Defaults: current UTC month through 23 months earlier (24 months inclusive).
 Search every month newest first, collecting, processing, automatically approving,
 and exporting each matching thread before starting the next. Missing months are
-skipped. Rerun to refresh source and resume unchanged successful groups.
+skipped. Thread and discovery failures are logged while remaining work continues;
+the final summary exits nonzero if any failed. Rerun to resume successful groups.
 Uses the same .env, provider, database and export settings as wrkgn.
 This command bypasses manual review. Website staging remains explicit.";
 
@@ -98,6 +99,18 @@ impl Month {
         .iter()
         .any(|name| normalized == format!("what are you working on ({name} {})", self.year))
     }
+
+    fn search_queries(self) -> Vec<String> {
+        let full = MONTHS[self.month as usize - 1];
+        let mut names = BTreeSet::from([full, &full[..3]]);
+        if self.month == 9 {
+            names.insert("Sept");
+        }
+        names
+            .into_iter()
+            .map(|name| format!("What are you working on {name} {}", self.year))
+            .collect()
+    }
 }
 
 impl std::fmt::Display for Month {
@@ -136,12 +149,14 @@ struct SearchPage {
     hits: Vec<SearchHit>,
     #[serde(rename = "nbPages")]
     pages: usize,
-    #[serde(rename = "exhaustiveNbHits")]
-    exhaustive: Option<bool>,
+    #[serde(rename = "nbHits")]
+    total: usize,
+    #[serde(rename = "hitsPerPage")]
+    per_page: usize,
 }
 
-// Search broadly by title/year so abbreviations do not depend on typo matching.
-// Fetch all pages, then validate the complete title locally.
+// Fetch every advertised page and check the result window, then validate titles.
+// exhaustiveNbHits=false describes an estimated count, not pagination failure.
 fn discover_pages(
     month: Month,
     mut fetch: impl FnMut(usize) -> Result<SearchPage, String>,
@@ -150,8 +165,13 @@ fn discover_pages(
     let mut page = 0;
     loop {
         let result = fetch(page)?;
-        if result.exhaustive == Some(false) {
-            return Err(format!("search results for {month} are not exhaustive"));
+        if result.per_page == 0
+            || result.total > result.pages.saturating_mul(result.per_page)
+            || (result.total > 0 && result.hits.is_empty())
+        {
+            return Err(format!(
+                "search results for {month} exceed the available pagination window or returned an incomplete page"
+            ));
         }
         for hit in result.hits {
             if hit
@@ -178,45 +198,57 @@ fn discover_pages(
 
 impl Discovery for HttpDiscovery {
     fn threads(&self, month: Month) -> Result<Vec<i64>, String> {
-        discover_pages(month, |page| {
-            let mut url = url::Url::parse("https://hn.algolia.com/api/v1/search").unwrap();
-            url.query_pairs_mut()
-                .append_pair("query", &format!("What are you working on {}", month.year))
-                .append_pair("tags", "story")
-                .append_pair("restrictSearchableAttributes", "title")
-                .append_pair("typoTolerance", "false")
-                .append_pair("hitsPerPage", "100")
-                .append_pair("page", &page.to_string());
-            for attempt in 0..3 {
-                match self.agent.get(url.as_str()).call() {
-                    Ok(mut response) => {
-                        return response
-                            .body_mut()
-                            .read_json::<SearchPage>()
-                            .map_err(|e| format!("invalid discovery response for {month}: {e}"));
-                    }
-                    Err(error) => {
-                        let retry = matches!(
-                            error,
-                            ureq::Error::StatusCode(429 | 500..=599)
-                                | ureq::Error::Timeout(_)
-                                | ureq::Error::Io(_)
-                                | ureq::Error::HostNotFound
-                        );
-                        if !retry || attempt == 2 {
-                            return Err(format!("thread discovery failed for {month}: {error}"));
-                        }
-                        std::thread::sleep(Duration::from_secs(1 << attempt));
-                    }
-                }
-            }
-            unreachable!()
-        })
+        let mut ids = BTreeSet::new();
+        for query in month.search_queries() {
+            ids.extend(discover_pages(month, |page| {
+                self.search_page(month, &query, page)
+            })?);
+        }
+        Ok(ids.into_iter().rev().collect())
     }
 }
 
-/// A complete thread is processed before approval; failures stop traversal so a
-/// rerun can resume using the existing successful-group fingerprints.
+impl HttpDiscovery {
+    fn search_page(&self, month: Month, query: &str, page: usize) -> Result<SearchPage, String> {
+        let mut url = url::Url::parse("https://hn.algolia.com/api/v1/search").unwrap();
+        url.query_pairs_mut()
+            .append_pair("query", query)
+            .append_pair("tags", "story")
+            .append_pair("restrictSearchableAttributes", "title")
+            .append_pair("typoTolerance", "false")
+            .append_pair("queryType", "prefixNone")
+            .append_pair("removeWordsIfNoResults", "none")
+            .append_pair("hitsPerPage", "100")
+            .append_pair("page", &page.to_string());
+        for attempt in 0..3 {
+            match self.agent.get(url.as_str()).call() {
+                Ok(mut response) => {
+                    return response
+                        .body_mut()
+                        .read_json::<SearchPage>()
+                        .map_err(|e| format!("invalid discovery response for {month}: {e}"));
+                }
+                Err(error) => {
+                    let retry = matches!(
+                        error,
+                        ureq::Error::StatusCode(429 | 500..=599)
+                            | ureq::Error::Timeout(_)
+                            | ureq::Error::Io(_)
+                            | ureq::Error::HostNotFound
+                    );
+                    if !retry || attempt == 2 {
+                        return Err(format!("thread discovery failed for {month}: {error}"));
+                    }
+                    std::thread::sleep(Duration::from_secs(1 << attempt));
+                }
+            }
+        }
+        unreachable!()
+    }
+}
+
+/// A complete thread is processed before approval. A failed thread retains its
+/// successful groups so a later run can resume without approving partial work.
 pub fn sync_thread<C: HnApi, M: Model + Sync>(
     store: &mut Store,
     collector: &Collector<C>,
@@ -384,9 +416,26 @@ fn execute<C: HnApi, M: Model + Sync, D: Discovery>(
     out: &mut impl Write,
 ) -> Result<(), String> {
     let mut month = args.from;
+    let mut failures = Vec::new();
+    let mut succeeded = 0;
+    let mut failed_threads = 0;
+    let mut failed_months = 0;
     loop {
-        let threads = discovery.threads(month)?;
-        writeln!(out, "{month}: {} matching threads.", threads.len()).map_err(|e| e.to_string())?;
+        let threads = match discovery.threads(month) {
+            Ok(threads) => {
+                writeln!(out, "{month}: {} matching threads.", threads.len())
+                    .map_err(|e| e.to_string())?;
+                threads
+            }
+            Err(error) => {
+                let failure = format!("{month} discovery failed: {error}");
+                writeln!(out, "{failure}").map_err(|e| e.to_string())?;
+                out.flush().map_err(|e| e.to_string())?;
+                failures.push(failure);
+                failed_months += 1;
+                vec![]
+            }
+        };
         // Deduplicate discovery responses before doing any collection or model work.
         for thread in threads
             .into_iter()
@@ -394,22 +443,75 @@ fn execute<C: HnApi, M: Model + Sync, D: Discovery>(
             .into_iter()
             .rev()
         {
-            sync_thread(
+            let mut output = ObservedWriter {
+                inner: out,
+                failed: false,
+            };
+            let result = sync_thread(
                 store,
                 collector,
                 model,
                 thread,
                 &args.options,
                 &args.export,
-                out,
-            )?;
+                &mut output,
+            );
+            if output.failed {
+                return Err(result
+                    .err()
+                    .unwrap_or_else(|| "monthly output failed".into()));
+            }
+            match result {
+                Ok(()) => succeeded += 1,
+                Err(error) => {
+                    let failure = format!("Thread {thread} ({month}) failed: {error}");
+                    writeln!(out, "{failure}").map_err(|e| e.to_string())?;
+                    out.flush().map_err(|e| e.to_string())?;
+                    failures.push(failure);
+                    failed_threads += 1;
+                }
+            }
         }
         if month == args.through {
             break;
         }
         month = month.previous().ok_or("month range underflow")?;
     }
-    Ok(())
+    writeln!(out, "Monthly summary: {succeeded} thread(s) succeeded, {failed_threads} thread(s) failed, {failed_months} month discovery failure(s).")
+        .map_err(|e| e.to_string())?;
+    out.flush().map_err(|e| e.to_string())?;
+    if failures.is_empty() {
+        Ok(())
+    } else {
+        Err(format!(
+            "monthly run completed with {failed_threads} failed thread(s) and {failed_months} month discovery failure(s):\n{}\nRerun the same command to retry failures and skip unchanged successful groups.",
+            failures.join("\n")
+        ))
+    }
+}
+
+/// A presentation failure must stop the command even though workflow operation
+/// errors otherwise remain local to the thread being handled.
+struct ObservedWriter<'a, W> {
+    inner: &'a mut W,
+    failed: bool,
+}
+impl<W: Write> Write for ObservedWriter<'_, W> {
+    fn write(&mut self, buf: &[u8]) -> std::io::Result<usize> {
+        let result = self.inner.write(buf);
+        self.failed |= result.is_err();
+        result
+    }
+    fn write_all(&mut self, buf: &[u8]) -> std::io::Result<()> {
+        let result = self.inner.write_all(buf);
+        self.failed |= result.is_err();
+        result
+    }
+    fn flush(&mut self) -> std::io::Result<()> {
+        let result = self.inner.flush();
+        self.failed |= result.is_err();
+        result
+    }
 }
 
 #[cfg(test)]
@@ -453,7 +555,7 @@ mod tests {
         let ids = discover_pages(Month::parse("2026-11").unwrap(), |page| {
             calls.push(page);
             serde_json::from_value(serde_json::json!({
-                "nbPages":2, "exhaustiveNbHits":true,
+                "nbPages":2, "nbHits":6, "hitsPerPage":3, "exhaustiveNbHits":false,
                 "hits": [
                     {"objectID":"100", "title":"Ask HN: What are you working on? (November 2026)"},
                     {"objectID":if page == 0 {"200"} else {"300"}, "title":"What are you working on (Nov 2026)?"},
@@ -465,12 +567,39 @@ mod tests {
         assert_eq!(ids, vec![300, 200, 100]);
         assert!(
             discover_pages(Month::parse("2026-11").unwrap(), |_| Ok(SearchPage {
-                hits: vec![],
+                hits: vec![SearchHit {
+                    id: "100".into(),
+                    title: Some("What are you working on (Nov 2026)".into()),
+                }],
                 pages: 1,
-                exhaustive: Some(false),
+                total: 200,
+                per_page: 100,
             }))
             .is_err()
         );
+    }
+
+    #[test]
+    fn estimated_empty_results_are_valid_and_queries_cover_month_spellings() {
+        let ids = discover_pages(Month::parse("2026-11").unwrap(), |_| {
+            serde_json::from_value(serde_json::json!({
+                "hits":[], "nbPages":0, "nbHits":0, "hitsPerPage":100,
+                "exhaustiveNbHits":false
+            }))
+            .map_err(|e| e.to_string())
+        })
+        .unwrap();
+        assert!(ids.is_empty());
+        let month = Month::parse("2026-11").unwrap();
+        assert_eq!(
+            month.search_queries(),
+            [
+                "What are you working on Nov 2026",
+                "What are you working on November 2026"
+            ]
+        );
+        assert_eq!(Month::parse("2026-05").unwrap().search_queries().len(), 1);
+        assert_eq!(Month::parse("2026-09").unwrap().search_queries().len(), 3);
     }
 
     #[test]
@@ -492,14 +621,17 @@ mod tests {
     }
 
     #[test]
-    fn traversal_finishes_every_thread_before_older_months_and_stops_on_failure() {
+    fn traversal_continues_same_month_and_older_months_after_failures() {
         use crate::collector::FetchError;
         use crate::extraction::Extraction;
         use std::sync::Mutex;
-        struct Fixture(Mutex<Vec<String>>, bool);
+        struct Fixture(Mutex<Vec<String>>, bool, bool);
         impl Discovery for &Fixture {
             fn threads(&self, month: Month) -> Result<Vec<i64>, String> {
                 self.0.lock().unwrap().push(format!("search {month}"));
+                if self.2 && month.month == 12 {
+                    return Err("fixture discovery unavailable".into());
+                }
                 Ok(match month.month {
                     1 => vec![100, 200, 100],
                     12 => vec![],
@@ -511,7 +643,7 @@ mod tests {
         impl HnApi for &Fixture {
             fn fetch_item(&self, id: i64) -> Result<Option<serde_json::Value>, FetchError> {
                 self.0.lock().unwrap().push(format!("fetch {id}"));
-                Ok(if self.1 && id == 100 {
+                Ok(if self.1 && id == 200 {
                     None
                 } else {
                     Some(serde_json::json!({"id":id,"kids":[]}))
@@ -527,10 +659,12 @@ mod tests {
                 panic!("no comments to process")
             }
         }
-        for fail in [false, true] {
+        for (fail_thread, fail_discovery) in
+            [(false, false), (true, false), (false, true), (true, true)]
+        {
             let dir = tempfile::tempdir().unwrap();
             let mut store = Store::open(dir.path().join("db")).unwrap();
-            let fixture = Fixture(Mutex::new(vec![]), fail);
+            let fixture = Fixture(Mutex::new(vec![]), fail_thread, fail_discovery);
             let args = Args {
                 from: Month::parse("2026-01").unwrap(),
                 through: Month::parse("2025-11").unwrap(),
@@ -548,30 +682,175 @@ mod tests {
                 &args,
                 &mut output,
             );
-            assert_eq!(result.is_err(), fail);
+            assert_eq!(result.is_err(), fail_thread || fail_discovery);
             let calls = fixture.0.lock().unwrap();
-            if fail {
-                assert_eq!(*calls, ["search 2026-01", "fetch 200", "fetch 100"]);
-            } else {
-                assert_eq!(
-                    *calls,
-                    [
-                        "search 2026-01",
-                        "fetch 200",
-                        "fetch 100",
-                        "search 2025-12",
-                        "search 2025-11",
-                        "fetch 300"
-                    ]
-                );
-                assert_eq!(
-                    String::from_utf8(output)
-                        .unwrap()
-                        .matches("Public snapshot:")
-                        .count(),
-                    3
+            assert_eq!(
+                *calls,
+                [
+                    "search 2026-01",
+                    "fetch 200",
+                    "fetch 100",
+                    "search 2025-12",
+                    "search 2025-11",
+                    "fetch 300"
+                ]
+            );
+            let output = String::from_utf8(output).unwrap();
+            assert_eq!(
+                output.matches("Public snapshot:").count(),
+                if fail_thread { 2 } else { 3 }
+            );
+            if fail_thread {
+                let failure = "Thread 200 (2026-01) failed:";
+                assert!(output.find(failure).unwrap() < output.find("Thread 100:").unwrap());
+                assert!(result.as_ref().unwrap_err().contains(failure));
+            }
+            if fail_discovery {
+                assert!(output.contains("2025-12 discovery failed: fixture discovery unavailable"));
+                assert!(!output.contains("2025-12: 0 matching threads"));
+                assert!(
+                    result
+                        .as_ref()
+                        .unwrap_err()
+                        .contains("2025-12 discovery failed")
                 );
             }
+            assert!(output.contains("Monthly summary:"));
         }
+    }
+
+    #[test]
+    fn processing_failure_retains_pending_work_while_later_threads_publish_and_resume() {
+        use crate::collector::FetchError;
+        use crate::extraction::{Extraction, Mention};
+        use std::sync::Mutex;
+        use std::sync::atomic::{AtomicBool, Ordering};
+        struct Api;
+        impl HnApi for Api {
+            fn fetch_item(&self, id: i64) -> Result<Option<serde_json::Value>, FetchError> {
+                Ok(Some(if id % 100 == 0 {
+                    serde_json::json!({"id":id,"kids":if id == 200 {vec![201,202]} else {vec![id+1]}})
+                } else {
+                    serde_json::json!({"id":id,"parent":id/100*100,"by":"alice","time":id,
+                        "text":format!("Project {id} https://example.test/p{id}")})
+                }))
+            }
+        }
+        struct Search;
+        impl Discovery for Search {
+            fn threads(&self, month: Month) -> Result<Vec<i64>, String> {
+                Ok(if month.month == 1 {
+                    vec![100, 200]
+                } else {
+                    vec![300]
+                })
+            }
+        }
+        struct Fixture {
+            fail: AtomicBool,
+            calls: Mutex<Vec<i64>>,
+        }
+        impl Model for Fixture {
+            fn name(&self) -> &str {
+                "continue-fixture"
+            }
+            fn extract(&self, prompt: &str) -> Result<Extraction, String> {
+                let records: serde_json::Value = serde_json::from_str(
+                    prompt.strip_prefix("Source records (JSON data): ").unwrap(),
+                )
+                .unwrap();
+                let id = records[0]["id"].as_i64().unwrap();
+                self.calls.lock().unwrap().push(id);
+                if id == 201 && self.fail.load(Ordering::SeqCst) {
+                    return Err("fixture extraction failure".into());
+                }
+                Ok(Extraction {
+                    mentions: vec![Mention {
+                        source_item_id: id,
+                        name: Some(format!("Project {id}")),
+                        urls: vec![format!("https://example.test/p{id}")],
+                        description: format!("Project {id}"),
+                        problem: None,
+                        audience: None,
+                        source_excerpt: format!("Project {id}"),
+                        builders: vec![],
+                        categories: vec![],
+                        audience_labels: vec![],
+                    }],
+                })
+            }
+        }
+        let dir = tempfile::tempdir().unwrap();
+        let mut store = Store::open(dir.path().join("db")).unwrap();
+        let collector = Collector::new(Api, CollectionConfig::default());
+        let model = Fixture {
+            fail: AtomicBool::new(true),
+            calls: Mutex::new(vec![]),
+        };
+        let args = Args {
+            from: Month::parse("2026-01").unwrap(),
+            through: Month::parse("2025-12").unwrap(),
+            db: None,
+            export: dir.path().join("export"),
+            options: processing::Options {
+                concurrency: 1,
+                ..processing::Options::default()
+            },
+        };
+        let mut output = vec![];
+        let error =
+            execute(&mut store, &collector, &model, &Search, &args, &mut output).unwrap_err();
+        assert!(error.contains("Thread 200 (2026-01) failed: processing incomplete (run 1)"));
+        assert!(error.contains("WHERE run_id=1"));
+        let pending = crate::publication::pending_mentions(&mut store).unwrap();
+        assert_eq!(pending.len(), 1);
+        assert_eq!(pending[0].source_item_id, 202);
+        let approved: i64 = store
+            .connection()
+            .query_row(
+                "SELECT COUNT(*) FROM mentions WHERE review_state='approved'",
+                [],
+                |r| r.get(0),
+            )
+            .unwrap();
+        assert_eq!(approved, 2);
+        assert_eq!(*model.calls.lock().unwrap(), [201, 202, 101, 301]);
+        model.fail.store(false, Ordering::SeqCst);
+        execute(&mut store, &collector, &model, &Search, &args, &mut vec![]).unwrap();
+        assert!(
+            crate::publication::pending_mentions(&mut store)
+                .unwrap()
+                .is_empty()
+        );
+        assert_eq!(*model.calls.lock().unwrap(), [201, 202, 101, 301, 201]);
+
+        // An output error is fatal even if the writer would recover on its
+        // next call: otherwise the failure could be mislabeled as a bad thread.
+        struct FailOnce(bool);
+        impl Write for FailOnce {
+            fn write(&mut self, bytes: &[u8]) -> std::io::Result<usize> {
+                if !self.0 && bytes.starts_with(b"Thread ") {
+                    self.0 = true;
+                    Err(std::io::Error::other("fixture output failure"))
+                } else {
+                    Ok(bytes.len())
+                }
+            }
+            fn flush(&mut self) -> std::io::Result<()> {
+                Ok(())
+            }
+        }
+        let mut store = Store::open(dir.path().join("output-db")).unwrap();
+        let error = execute(
+            &mut store,
+            &collector,
+            &model,
+            &Search,
+            &args,
+            &mut FailOnce(false),
+        )
+        .unwrap_err();
+        assert!(error.contains("fixture output failure"));
+        assert!(store.get_item(100).unwrap().is_none());
     }
 }

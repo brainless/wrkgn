@@ -1,0 +1,24 @@
+{
+  "id": 2537,
+  "slug": "gnu-hurd-ext2-jbd2-journaling-driver-1f0b386332",
+  "name": "GNU Hurd ext2 JBD2 journaling driver",
+  "mentions": [
+    {
+      "name": "GNU Hurd ext2 JBD2 journaling driver",
+      "description": "A JBD2-compliant journaling driver merged into GNU Hurd's ext2 filesystem, providing write journaling support to the Hurd; work now continues on improving documentation and related polish.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "backend_dev82"
+      ],
+      "source_excerpt": "I also recently got JBD2 compliant driver merged into GNU HURD's ext2, and I'm now improving documentation, and things like that.",
+      "source_item_id": 48886376,
+      "source_url": "https://news.ycombinator.com/item?id=48886376",
+      "author": "backend_dev82",
+      "shared_at": 1783902523,
+      "links": [
+        "https://github.com/mnikic/hurd-journaling"
+      ]
+    }
+  ]
+}

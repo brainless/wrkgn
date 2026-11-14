@@ -1,0 +1,24 @@
+{
+  "id": 1917,
+  "slug": "flask-based-personal-blog-4fc3b40e4c",
+  "name": "Flask-based personal blog",
+  "mentions": [
+    {
+      "name": "Flask-based personal blog",
+      "description": "Personal blog rebuilt in Flask (Python) with database-backed storage instead of the original PHP scripts and filesystem storage. Work in progress adds author biography pages (a feature from the old PHP version that was never ported) to support posts by multiple authors, plus a database schema update for per-post licensing so it no longer reports a single fixed CC license. The code ships with a Docker image and can be rebranded for others' use.",
+      "problem": "Author biography pages were never implemented in the Flask rewrite (the /author/NOTIMPLEMENTED URL), and the site currently hard-codes one CC license for all posts instead of per-post licensing.",
+      "audience": null,
+      "builder_usernames": [
+        "Magicrafter13"
+      ],
+      "source_excerpt": "In the immediate, I'm trying to add functionality to my blog, that used to exist before I rewrote it.",
+      "source_item_id": 49250631,
+      "source_url": "https://news.ycombinator.com/item?id=49250631",
+      "author": "Magicrafter13",
+      "shared_at": 1786400404,
+      "links": [
+        "https://gitlab.matthewrease.net/matthew/blog"
+      ]
+    }
+  ]
+}

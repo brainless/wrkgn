@@ -1,0 +1,24 @@
+{
+  "id": 2029,
+  "slug": "otto-harness-3211c9522b",
+  "name": "Otto Harness",
+  "mentions": [
+    {
+      "name": "Otto Harness",
+      "description": "An agent harness for running agent tasks, similar to Airflow, currently in alpha. Each run executes in a container with a single network bridge carrying all tool calls and model communication, and each run gets a capability token whose grants the host checks for attempted tool calls. The core is thin, with credentials handling and model communication provided as packages. Example jobs trigger on a Slack alert channel and debug alerts using GitHub, kube, and a work MCP, dropping a comment on every alert with the cause. Still closed source, with plans to change that after more testing.",
+      "problem": "Existing agent tools like OpenClaw are too insecure to use.",
+      "audience": null,
+      "builder_usernames": [
+        "jordiee"
+      ],
+      "source_excerpt": "An agent harness that is kind of like airflow for agent tasks.\n\nI thought open claw was cool but could never use something so insecure.\n\nEach run is in a container. One network bridge out so everything from tool calls to model communication goes over the bridge.",
+      "source_item_id": 49238047,
+      "source_url": "https://news.ycombinator.com/item?id=49238047",
+      "author": "jordiee",
+      "shared_at": 1786323670,
+      "links": [
+        "https://ottoharness.com"
+      ]
+    }
+  ]
+}

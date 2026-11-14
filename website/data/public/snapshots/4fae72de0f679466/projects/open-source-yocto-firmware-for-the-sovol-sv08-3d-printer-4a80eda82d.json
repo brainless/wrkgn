@@ -1,0 +1,22 @@
+{
+  "id": 1757,
+  "slug": "open-source-yocto-firmware-for-the-sovol-sv08-3d-printer-4a80eda82d",
+  "name": "Open source Yocto firmware for the Sovol SV08 3D printer",
+  "mentions": [
+    {
+      "name": "Open source Yocto firmware for the Sovol SV08 3D printer",
+      "description": "A clean, Yocto-based open source system image for the Sovol SV08 3D printer, rebuilt from other sources to replace the vendor's GPL-violating binaries that ship without source code. The implementation is designed so support can be added for similar 3D printers.",
+      "problem": "The Sovol SV08 ships with open source binaries but no source code, and the vendor is known to be violating the GPL.",
+      "audience": null,
+      "builder_usernames": [
+        "voakbasda"
+      ],
+      "source_excerpt": "Recently bought a Sovol SV08 printer.  It comes with open source binaries, but there is no source code.  Turns out they are a known to be violating the GPL.  Looks like it can be rebuilt from other sources, so I have started to put together a clean implementation using Yocto. It will be possible to add support for similar 3D printers.",
+      "source_item_id": 49234102,
+      "source_url": "https://news.ycombinator.com/item?id=49234102",
+      "author": "voakbasda",
+      "shared_at": 1786299931,
+      "links": []
+    }
+  ]
+}

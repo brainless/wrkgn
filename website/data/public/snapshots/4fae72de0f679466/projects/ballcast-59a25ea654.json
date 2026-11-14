@@ -1,0 +1,24 @@
+{
+  "id": 2079,
+  "slug": "ballcast-59a25ea654",
+  "name": "Ballcast",
+  "mentions": [
+    {
+      "name": "Ballcast",
+      "description": "This service hosts an XGBoost model for MLB totals predictions that runs every thirty minutes, incorporating hyperlocal weather data joined with player attributes provably affected by that weather. It includes a built-in Kelly Criterion calculator as a decision-making tool for bet-sizing, and provides robust historical model evaluations at its validation page. The model still needs some bet-sizing calibration but is close to production-ready.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "timeisapear"
+      ],
+      "source_excerpt": "Hosting an XGBoost-model for MLB totals predictions. It runs every thirty minutes: incorporating weather at the hyperlocal level and joins with player attributes that are provably affected by that weather. It also provides advanced decision-making tools with a Kelly Criterion calculator built in.",
+      "source_item_id": 49235879,
+      "source_url": "https://news.ycombinator.com/item?id=49235879",
+      "author": "timeisapear",
+      "shared_at": 1786309545,
+      "links": [
+        "https://ballcast.app"
+      ]
+    }
+  ]
+}

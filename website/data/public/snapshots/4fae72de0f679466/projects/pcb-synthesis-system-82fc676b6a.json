@@ -1,0 +1,22 @@
+{
+  "id": 2704,
+  "slug": "pcb-synthesis-system-82fc676b6a",
+  "name": "PCB synthesis system",
+  "mentions": [
+    {
+      "name": "PCB synthesis system",
+      "description": "This system automates PCB design: given a KiCad schematic and extra metadata, it lays out and routes an entire double-sided PCB (about 50 components in 4 minutes) without human intervention, producing compact, valid, fully design-rule-compliant boards. It uses constraint logic programming to solve the hard layout problems, with hierarchical decomposition of the circuit design to reduce combinatorial explosion, and aims to scale to larger boards and more complex designs.",
+      "problem": "Manual PCB layout in tools like KiCad is time-consuming and labour-intensive, and low-cost remote labour platforms still require more work; the author built it to avoid learning KiCad's layout features properly.",
+      "audience": null,
+      "builder_usernames": [
+        "lambdaone"
+      ],
+      "source_excerpt": "I'm working on improving my PCB synthesis system; given a KiCad schematic and some extra metadata it can currently lay out and route an entire double-sided PCB with about 50 components in 4 minutes without any human intervention.",
+      "source_item_id": 48890403,
+      "source_url": "https://news.ycombinator.com/item?id=48890403",
+      "author": "lambdaone",
+      "shared_at": 1783937706,
+      "links": []
+    }
+  ]
+}

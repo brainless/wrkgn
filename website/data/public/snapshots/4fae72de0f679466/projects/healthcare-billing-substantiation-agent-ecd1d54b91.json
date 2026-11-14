@@ -1,0 +1,24 @@
+{
+  "id": 2729,
+  "slug": "healthcare-billing-substantiation-agent-ecd1d54b91",
+  "name": "Healthcare billing substantiation agent",
+  "mentions": [
+    {
+      "name": "Healthcare billing substantiation agent",
+      "description": "This app runs an agent that interacts with healthcare providers on the user's behalf to proactively obtain itemized bills and other substantiation documents needed for reimbursement claims. It is built as a React frontend with a Laravel backend on EC2, where the agent runs.",
+      "problem": "The paperwork involved in getting reimbursed from a healthcare cost sharing ministry.",
+      "audience": null,
+      "builder_usernames": [
+        "gburgett"
+      ],
+      "source_excerpt": "Im building an agent that interacts with health care providers on your behalf to proactively get itemized bills and other substantiation as needed. Born out of my own frustration with the paperwork for getting reimbursed from my healthcare cost sharing ministry.",
+      "source_item_id": 48894378,
+      "source_url": "https://news.ycombinator.com/item?id=48894378",
+      "author": "gburgett",
+      "shared_at": 1783957210,
+      "links": [
+        "https://www.healthsharetech.com"
+      ]
+    }
+  ]
+}

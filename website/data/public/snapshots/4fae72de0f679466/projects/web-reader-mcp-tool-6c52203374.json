@@ -1,0 +1,22 @@
+{
+  "id": 2208,
+  "slug": "web-reader-mcp-tool-6c52203374",
+  "name": "Web-reader MCP tool",
+  "mentions": [
+    {
+      "name": "Web-reader MCP tool",
+      "description": "This is a self-built web-reader tool designed to be hooked into an LLM as an MCP server, created as a do-it-yourself alternative to commercial offerings. It fetches web page content for LLM use, and its author has found the web hostile to it: roughly 50% of sites block requests that don't come from residential IPs, presumably in response to mass scraping.",
+      "problem": "Building a usable web reader is difficult because around half of sites block any traffic not originating from a residential IP, apparently as a response to mass scraping.",
+      "audience": null,
+      "builder_usernames": [
+        "Havoc"
+      ],
+      "source_excerpt": "Working on a web-reader tool of the kinda you might hook into an LLM as a MCP. Wanted to see how far I can get on my own rather than using something commercial.",
+      "source_item_id": 49241038,
+      "source_url": "https://news.ycombinator.com/item?id=49241038",
+      "author": "Havoc",
+      "shared_at": 1786351478,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": 2833,
+  "slug": "slidr-e0f9406a98",
+  "name": "Slidr",
+  "mentions": [
+    {
+      "name": "Slidr",
+      "description": "A markdown-based presentation tool built to avoid HTML dependency, with custom extensions and plugins. It supports basic structures for easily creating presentations and aims to convert them into editable ODP format.",
+      "problem": "New markdown-based presentation tools have far too much HTML dependency; converting to editable ODP is currently a difficult part.",
+      "audience": null,
+      "builder_usernames": [
+        "rjzzleep"
+      ],
+      "source_excerpt": "recently decided that all the new markdown based presentation tools have far too much HTML dependency, so I decided to build my own, with custom extensions and plugins. It's supposed to support some basic structures that allow easy creation of presentations, but the editable odp conversion is proving to be a nightmare.",
+      "source_item_id": 48894366,
+      "source_url": "https://news.ycombinator.com/item?id=48894366",
+      "author": "rjzzleep",
+      "shared_at": 1783957160,
+      "links": [
+        "https://github.com/slidr-cli/slidr"
+      ]
+    }
+  ]
+}

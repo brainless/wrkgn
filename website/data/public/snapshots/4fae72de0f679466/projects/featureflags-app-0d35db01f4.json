@@ -1,0 +1,24 @@
+{
+  "id": 2944,
+  "slug": "featureflags-app-0d35db01f4",
+  "name": "featureflags.app",
+  "mentions": [
+    {
+      "name": "featureflags.app",
+      "description": "A simple feature management system for .NET that provides an easy-to-use UI for configuring feature flags, serving as an alternative to Azure's feature management tooling.",
+      "problem": "The built-in .NET feature management libraries work well but lack an easy-to-use UI for configuring flags without having to use Azure.",
+      "audience": null,
+      "builder_usernames": [
+        "avlcodemonkey"
+      ],
+      "source_excerpt": "I've spent a few months building a simple feature management system for .NET - https://featureflags.app.",
+      "source_item_id": 48898600,
+      "source_url": "https://news.ycombinator.com/item?id=48898600",
+      "author": "avlcodemonkey",
+      "shared_at": 1783975561,
+      "links": [
+        "https://featureflags.app"
+      ]
+    }
+  ]
+}

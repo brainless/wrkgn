@@ -1,0 +1,22 @@
+{
+  "id": 2980,
+  "slug": "acoustic-sink-basin-analyzer-for-a-hackerspace-eead8c6e73",
+  "name": "Acoustic sink-basin analyzer for a hackerspace",
+  "mentions": [
+    {
+      "name": "Acoustic sink-basin analyzer for a hackerspace",
+      "description": "This hardware device uses acoustic analysis on an RP2040 microcontroller to automatically detect dishes and cups left in a sink basin at a hackerspace, without using cameras. It has very low false positives but can only successfully detect certain materials or large masses.",
+      "problem": "Dishes and cups are left in the shared hackerspace sink, and camera-based detection is not acceptable.",
+      "audience": null,
+      "builder_usernames": [
+        "teaearlgraycold"
+      ],
+      "source_excerpt": "An acoustic analyzer for a sink basin in a hackerspace. It will allow for automatic detection of dishes/cups left in the sink without cameras and can be handled by an rp2040. So far looks like it has very low false positives but can only successfully detect certain materials or large masses.",
+      "source_item_id": 48887105,
+      "source_url": "https://news.ycombinator.com/item?id=48887105",
+      "author": "teaearlgraycold",
+      "shared_at": 1783909418,
+      "links": []
+    }
+  ]
+}

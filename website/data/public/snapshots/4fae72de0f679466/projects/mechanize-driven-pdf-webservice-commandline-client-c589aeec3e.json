@@ -1,0 +1,22 @@
+{
+  "id": 1899,
+  "slug": "mechanize-driven-pdf-webservice-commandline-client-c589aeec3e",
+  "name": "Mechanize-driven PDF webservice commandline client",
+  "mentions": [
+    {
+      "name": "Mechanize-driven PDF webservice commandline client",
+      "description": "This commandline tool uses Ruby's mechanize to automate access to a PDF-processing webservice that the author currently uses manually through a browser interface, handling PDF tasks such as size optimization. The author would prefer a fully local solution but depends on the webservice because it solves PDF tasks locally unavailable tools handle poorly.",
+      "problem": "Local PDF tooling falls short: ghostscript produces much worse results (including size optimization), so the author relies on a webservice via a manual browser workflow and wants to automate it from the commandline.",
+      "audience": null,
+      "builder_usernames": [
+        "shevy-java"
+      ],
+      "source_excerpt": "the task for\ntoday will be to use mechanize (in ruby) to automatically tap\ninto a webservice which I use manually right now via a browser\ninterface. I want to do this all from the commandline next.\n(Ideally I'd not want to depend on this and do it locally, but\nit does various things with .pdf files which I have not yet\nbeen able to do myself.",
+      "source_item_id": 49233809,
+      "source_url": "https://news.ycombinator.com/item?id=49233809",
+      "author": "shevy-java",
+      "shared_at": 1786298632,
+      "links": []
+    }
+  ]
+}

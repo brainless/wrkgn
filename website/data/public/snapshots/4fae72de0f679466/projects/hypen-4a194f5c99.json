@@ -1,0 +1,24 @@
+{
+  "id": 2476,
+  "slug": "hypen-4a194f5c99",
+  "name": "Hypen",
+  "mentions": [
+    {
+      "name": "Hypen",
+      "description": "A cross-platform UI framework for building native mobile, desktop and web apps using TypeScript, Rust, Go, Kotlin and Swift. It centers on server-driven UI, where the app lives in the cloud but renders real native components on the client, with full WASM compilation coming soon. Features include an out-of-the-box routing system, Tailwind support, accessibility and animations, switching between DOM and canvas rendering on the web with one boolean, embedding and nesting Hypen apps inside each other, deploying the whole app to Cloudflare via an adapter, pushing mobile app updates by deploying to the backend to skip app store reviews, sharing state across devices without building a sync layer, using a database as a direct state source via persistence plugins, and upcoming support for letting LLMs use apps by exposing state and actions as tools.",
+      "problem": "Existing mobile development stacks (native, React Native, Flutter) disappointed the author, who had built similar server-driven UI systems for internal company use multiple times over 10+ years.",
+      "audience": "Developers building cross-platform mobile, desktop and web apps with a server-driven UI",
+      "builder_usernames": [
+        "hypendev"
+      ],
+      "source_excerpt": "I'm working on https://hypen.space/\n\nIt's a cross-platform UI framework for developing native mobile, desktop and web apps using Typescript, Rust, Go, Kotlin and Swift.\n\nCurrently it's aimed at \"server-driven UI\" where your app lives in the cloud but renders on the client, with full compilation to WASM packages coming soon.",
+      "source_item_id": 49152824,
+      "source_url": "https://news.ycombinator.com/item?id=49152824",
+      "author": "hypendev",
+      "shared_at": 1785745686,
+      "links": [
+        "https://hypen.space/"
+      ]
+    }
+  ]
+}

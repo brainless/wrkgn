@@ -1,0 +1,24 @@
+{
+  "id": 2233,
+  "slug": "readcontrol-5cc1678fd8",
+  "name": "ReadControl",
+  "mentions": [
+    {
+      "name": "ReadControl",
+      "description": "A free and open-source read-later app for macOS, built around an engine written in Rust so that clients for other operating systems can be implemented later.",
+      "problem": "Existing read-later apps did not fulfill the author's needs, prompting them to build their own.",
+      "audience": null,
+      "builder_usernames": [
+        "boniattirodrigo"
+      ],
+      "source_excerpt": "Building a free and open-source read-later macOS app. https://readcontrol.app\n\nI used many different read-later apps, and none of them fulfilled my needs, so I decided to create my own. The engine is written in Rust so other OS clients can be implemented later.",
+      "source_item_id": 49265248,
+      "source_url": "https://news.ycombinator.com/item?id=49265248",
+      "author": "boniattirodrigo",
+      "shared_at": 1786486669,
+      "links": [
+        "https://readcontrol.app"
+      ]
+    }
+  ]
+}

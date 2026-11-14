@@ -1,0 +1,24 @@
+{
+  "id": 2176,
+  "slug": "orbital-9b53bfe225",
+  "name": "Orbital",
+  "mentions": [
+    {
+      "name": "Orbital",
+      "description": "This tool lets users orchestrate AI agents as nodes in a graph with explicit dependencies, so multiple agents can be fanned out in parallel and their progress tracked, offering more control than a chat-thread interface.",
+      "problem": "Chat-thread interfaces give poor control and visibility when running multiple AI agents in parallel.",
+      "audience": "Coding/agent workflows",
+      "builder_usernames": [
+        "whosgotch"
+      ],
+      "source_excerpt": "I've been building something in this direction - instead of a chat thread, agents are nodes in a graph with explicit dependencies, so you can fan out a few in parallel and see where each one is. The control story is much better than a chat. Not my daily driver for coding yet.",
+      "source_item_id": 49243540,
+      "source_url": "https://news.ycombinator.com/item?id=49243540",
+      "author": "whosgotch",
+      "shared_at": 1786369305,
+      "links": [
+        "https://github.com/whosgotch/orbital"
+      ]
+    }
+  ]
+}

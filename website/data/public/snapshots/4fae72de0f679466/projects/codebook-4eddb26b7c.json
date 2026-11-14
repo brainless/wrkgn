@@ -1,0 +1,24 @@
+{
+  "id": 2648,
+  "slug": "codebook-4eddb26b7c",
+  "name": "Codebook",
+  "mentions": [
+    {
+      "name": "Codebook",
+      "description": "Codebook is a code reader built on top of sem (tree-sitter) designed to make reading large pull requests easier. It decomposes changes into entities and sorts them by number of dependencies so the most important functions appear first, lets users click through each function's dependencies, and allows marking items as reviewed while reading.",
+      "problem": "Reading and reviewing massive pull requests is hard, and the standard GitHub review flow doesn't surface the most important changes first.",
+      "audience": "Developers reviewing large pull requests",
+      "builder_usernames": [
+        "boron1006"
+      ],
+      "source_excerpt": "Codebook - https://github.com/0x007BA7/codebook\n\nIt’s a better code reader built on top of sem (treesitter). I’m getting a lot of massive PRs at work now, and this has helped a lot with reading them. It decomposes the changes into entities and sorts based on what has the most dependencies. This tends to put the most important functions first. Plus I can click through the dependencies  for each function and mark things as reviewed as I’m reading them.",
+      "source_item_id": 48886524,
+      "source_url": "https://news.ycombinator.com/item?id=48886524",
+      "author": "boron1006",
+      "shared_at": 1783903769,
+      "links": [
+        "https://github.com/0x007BA7/codebook"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": 2554,
+  "slug": "canine-742bfa363f",
+  "name": "Canine",
+  "mentions": [
+    {
+      "name": "Canine",
+      "description": "Open source, free Heroku alternative that provides a one-click install against a Kubernetes instance and a Heroku-like interface for deploying applications. It wraps a Kubernetes cluster to simplify deployments, and users who outgrow it can eject Canine and continue using Kubernetes directly without migrations. Development focuses on bug fixes, helper text for clarity, and supporting unusual setups such as homelabs with changing IPs.",
+      "problem": "Even years after Heroku, the developer experience it provided is still missing from deployment platforms.",
+      "audience": "Developers; the project has passed 2,000 developers",
+      "builder_usernames": [
+        "czhu12"
+      ],
+      "source_excerpt": "Been working on an open source, free, Heroku alternative at https://canine.sh for about two years. Its basically a one-click install against a Kubernetes instance to give you a Heroku interface.",
+      "source_item_id": 48898495,
+      "source_url": "https://news.ycombinator.com/item?id=48898495",
+      "author": "czhu12",
+      "shared_at": 1783975120,
+      "links": [
+        "https://canine.sh"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": 2145,
+  "slug": "promptship-65d141dc4a",
+  "name": "Promptship",
+  "mentions": [
+    {
+      "name": "Promptship",
+      "description": "A cloud platform where AI agents, not humans, act as the operators. Agents can attach databases, clone environments with data for instant production-like testing environments, use per-environment access tokens, and their actions are recorded in append-only logs/traces. Planned for public beta after internal use by the author's small team.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "denizeren"
+      ],
+      "source_excerpt": "I've been building https://promptship.dev for a while now. Basically a cloud where the operators are the agents not the humans. The platform allows agents to attach DBs, clone envs with data (instant prod like env for testing, etc), per-env access tokens for agents, append-only logging/traces for agent actions.",
+      "source_item_id": 49241202,
+      "source_url": "https://news.ycombinator.com/item?id=49241202",
+      "author": "denizeren",
+      "shared_at": 1786352879,
+      "links": [
+        "https://promptship.dev"
+      ]
+    }
+  ]
+}

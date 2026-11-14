@@ -1,0 +1,24 @@
+{
+  "id": 2778,
+  "slug": "beolis-b087cf9f6f",
+  "name": "beolis",
+  "mentions": [
+    {
+      "name": "beolis",
+      "description": "A team tool for managing agent-driven software development through a Kanban board and workflows. Instead of starting from a prompt or chat with an agent, work begins from a defined workflow: create the ticket, build a plan, review it, and then run workflows that cover the implementation.",
+      "problem": "Chatting with an agent to implement work gives worse results than starting from a structured workflow; the tool replaces prompt-based development with ticket definition, planning, review, and implementation workflows.",
+      "audience": "Development teams building with AI agents.",
+      "builder_usernames": [
+        "fabioz"
+      ],
+      "source_excerpt": "I'm working on a tool to manage developing with Agents for teams, using a UI like a Kanban board and workflows, so the development starts from a given workflow and not from a prompt, the idea being that instead of starting from a prompt/talk with the agent you define the ticket, create a plan, review and then have workflows that cover the implementation -- I find that I have better results than trying to do a chat with the agent for implementing.",
+      "source_item_id": 48897318,
+      "source_url": "https://news.ycombinator.com/item?id=48897318",
+      "author": "fabioz",
+      "shared_at": 1783969832,
+      "links": [
+        "https://beolis.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": 2919,
+  "slug": "chiptune-e3a098e332",
+  "name": "Chiptune",
+  "mentions": [
+    {
+      "name": "Chiptune",
+      "description": "A web-based chiptune music player that emulates classic sound chip formats such as SID and NSF. Recent work adds SID support and automatically derives song duration for emulated formats lacking tagged length metadata (e.g., converting NSF to NSFE) by playing songs and detecting repeated sequences of writes to the emulated sound chip registers.",
+      "problem": "Some emulated chiptune formats have no tagged song duration, so timing information must be inferred by analyzing repeated sound chip register writes.",
+      "audience": null,
+      "builder_usernames": [
+        "montag"
+      ],
+      "source_excerpt": "I am working on https://chiptune.app.\n\nMost recently, adding SID support, and adding timing information to the emulated formats that don’t have any tagged song duration (e.g., converting NSF to NSFE). This means playing the songs one by one and watching for repeated sequences of writes to the sound chip registers.",
+      "source_item_id": 48886495,
+      "source_url": "https://news.ycombinator.com/item?id=48886495",
+      "author": "montag",
+      "shared_at": 1783903593,
+      "links": [
+        "https://chiptune.app"
+      ]
+    }
+  ]
+}

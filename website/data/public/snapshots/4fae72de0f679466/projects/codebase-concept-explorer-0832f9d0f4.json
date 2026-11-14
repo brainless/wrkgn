@@ -1,0 +1,22 @@
+{
+  "id": 2723,
+  "slug": "codebase-concept-explorer-0832f9d0f4",
+  "name": "Codebase Concept Explorer",
+  "mentions": [
+    {
+      "name": "Codebase Concept Explorer",
+      "description": "A code exploration and indexing tool with CLI and MCP interfaces for exploring concepts and the impacts of changes in a codebase. It is essentially an overwrought \"find all uses\" that doesn't depend on exact symbol or string matching. The tool indexes the code and bundles modules into \"concepts\" (auto-discovered or preconfigured), also indexing dependencies, inheritance trees, symbols, and symbol usage. Users can ask questions like \"what's the impact of extending the domain model of XYZ\" or \"I want to remove this property\" and it shows where to start, where to look next, and fuzzy edges or dependencies that might need deeper exploration. It surfaces non-obvious connections a junior dev or LLM might miss, such as a model mapped to an API DTO or intermediary states, lets users ask in terms of business concepts instead of exact symbol names, and is limited to dotnet only.",
+      "problem": "Codebase exploration and impact analysis traditionally depends on exact symbol or string matching, and requires knowing the exact symbol name in the code rather than being able to ask in terms of business concepts.",
+      "audience": null,
+      "builder_usernames": [
+        "Tallain"
+      ],
+      "source_excerpt": "2. A code exploration / indexing tool with CLI and MCP interfaces for exploring concepts and impacts of changes in a codebase.\n\nEssentially, an overwrought \"find all uses\" that doesn't depend on exact symbol or string matching.\n\nI have a codebase of non-trivial size, but thankfully it's fairly well-structured. This tool indexes the code and bundles modules into \"concepts\" -- these can be auto-discovered or preconfigured. Dependencies, inheritance trees, symbols and symbol usage are all also indexed.",
+      "source_item_id": 48894638,
+      "source_url": "https://news.ycombinator.com/item?id=48894638",
+      "author": "Tallain",
+      "shared_at": 1783958186,
+      "links": []
+    }
+  ]
+}

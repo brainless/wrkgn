@@ -1,0 +1,24 @@
+{
+  "id": 2633,
+  "slug": "gamepass-fyi-0d665dca57",
+  "name": "gamepass.fyi",
+  "mentions": [
+    {
+      "name": "gamepass.fyi",
+      "description": "This web app makes it easy to compare Xbox Game Pass tiers (Essential vs Premium) so users can pick the cheaper tier that fits their needs and save a few bucks. Since there is no API for the 'Leaving Soon' list, it uses a scraper whose content is parsed through an LLM call and matched to games. It includes a swipe mechanism to favorite or trash games, keeping the tier comparison uncluttered by titles like FIFA or CoD. Hosted at https://gamepass.fyi.",
+      "problem": "It is hard to see the difference between Xbox Game Pass tiers to know whether you only need Essential or Premium, and there is no API for the Leaving Soon list.",
+      "audience": "Gamers deciding which Xbox Game Pass subscription tier they need.",
+      "builder_usernames": [
+        "midasz"
+      ],
+      "source_excerpt": "Wanted to make it easy to see the difference between the Xbox Gamepass tiers, maybe you only need essential or premium - saving a few bucks. With Claude it's been pretty fun to add new features. Since there's no API for Leaving Soon I built a scraper, content gets parsed through an LLM call and matched to games. There's a swipe mechanism to favorite or trash games, so you comparison doesn't get cluttered up by fifa's or cod's. It's just been a fun playground, I host it on https://gamepass.fyi",
+      "source_item_id": 48897194,
+      "source_url": "https://news.ycombinator.com/item?id=48897194",
+      "author": "midasz",
+      "shared_at": 1783969275,
+      "links": [
+        "https://gamepass.fyi"
+      ]
+    }
+  ]
+}

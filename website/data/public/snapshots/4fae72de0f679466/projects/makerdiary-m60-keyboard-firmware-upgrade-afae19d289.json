@@ -1,0 +1,22 @@
+{
+  "id": 1803,
+  "slug": "makerdiary-m60-keyboard-firmware-upgrade-afae19d289",
+  "name": "Makerdiary M60 keyboard firmware upgrade",
+  "mentions": [
+    {
+      "name": "Makerdiary M60 keyboard firmware upgrade",
+      "description": "Custom firmware overhaul for the Makerdiary M60 Python-programmable keyboard. The project brings the aging firmware stack (CircuitPython, BLE firmware, bootloader) up to date with LLM assistance and resolves years-old bugs, while adding features such as instant USB/Bluetooth switching via keyboard shortcut, connection-color-coded backlighting, layer-based backlighting that lights relevant keys, a better battery gauge, improved sleep/suspend timing, backlight calibration, and better debounce. The hardware was also upgraded with added batteries for the author's three units.",
+      "problem": "The keyboard's stock firmware was somewhat buggy and the upstream firmware was never upgraded, leaving years-old bugs unresolved and desired features unimplemented.",
+      "audience": null,
+      "builder_usernames": [
+        "D13Fd"
+      ],
+      "source_excerpt": "I have a keyboard I bought in 2020 called the Makerdiary M60 keyboard. It runs Python, and over the years I've coded in various functions. But it was somewhat buggy, and the upstream firmware was never upgraded.",
+      "source_item_id": 49235230,
+      "source_url": "https://news.ycombinator.com/item?id=49235230",
+      "author": "D13Fd",
+      "shared_at": 1786305882,
+      "links": []
+    }
+  ]
+}

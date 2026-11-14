@@ -1,0 +1,24 @@
+{
+  "id": 2897,
+  "slug": "bastion-973e93fec2",
+  "name": "Bastion",
+  "mentions": [
+    {
+      "name": "Bastion",
+      "description": "This is an open source tool that runs background coding agents and dev environments in isolated virtual machines. It lets users migrate long-running coding sessions to run remotely on a homelab and run multiple agents in parallel without race conditions or risk to the host machine.",
+      "problem": "Running multiple long-running coding sessions locally can cause race conditions and break the host machine.",
+      "audience": "Developers running coding agents and long-running development sessions",
+      "builder_usernames": [
+        "almostlit"
+      ],
+      "source_excerpt": "https://bastion.computer\n\nThis is an open source tool to run background coding agents + dev environment in isolated VMs. So far it has allowed me to migrate a majority of long running coding sessions to my homelab to run remotely. I can also run multiple in parallel without worrying about race conditions or my host machine breaking.",
+      "source_item_id": 48886297,
+      "source_url": "https://news.ycombinator.com/item?id=48886297",
+      "author": "almostlit",
+      "shared_at": 1783901798,
+      "links": [
+        "https://bastion.computer"
+      ]
+    }
+  ]
+}

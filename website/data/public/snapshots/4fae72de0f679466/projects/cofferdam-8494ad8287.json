@@ -1,0 +1,41 @@
+{
+  "id": 1929,
+  "slug": "cofferdam-8494ad8287",
+  "name": "CofferDam",
+  "mentions": [
+    {
+      "name": "CofferDam",
+      "description": "A Rust-based CLI tool that parses the AST of a codebase and enforces architectural preferences, such as not reimplementing design system components and following DRY principles.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tajd"
+      ],
+      "source_excerpt": "https://tajd.github.io/cofferdam/ which is a rust based cli tool I wrote to parse the ast of codebase and enforce architectural preferences - eg don’t reimplement design system for components down to DRY",
+      "source_item_id": 49235982,
+      "source_url": "https://news.ycombinator.com/item?id=49235982",
+      "author": "tajd",
+      "shared_at": 1786310119,
+      "links": [
+        "https://tajd.github.io/cofferdam/"
+      ]
+    },
+    {
+      "name": "Cofferdam",
+      "description": "This tool enforces code architecture and conventions, runs very quickly, and is designed to be easily extendable.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tajd"
+      ],
+      "source_excerpt": "A tool for enforcing code architecture and conventions - https://tajd.github.io/cofferdam/ - these sorts of tools come along every week, but this one is mine and it's v quick to run and extendable.",
+      "source_item_id": 48893549,
+      "source_url": "https://news.ycombinator.com/item?id=48893549",
+      "author": "tajd",
+      "shared_at": 1783954041,
+      "links": [
+        "https://tajd.github.io/cofferdam/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": 1813,
+  "slug": "claude-chatbot-over-garmin-inreach-on-cloudflare-worker-5cd7c12e85",
+  "name": "Claude chatbot over Garmin InReach on Cloudflare Worker",
+  "mentions": [
+    {
+      "name": "Claude chatbot over Garmin InReach on Cloudflare Worker",
+      "description": "A Cloudflare Worker that wires Twilio to the Anthropic API so the user can chat with Claude over a Garmin InReach satellite messenger during a 3-week backcountry trip to Alaska's North Slope. Location metadata is included in the system prompt for accurate location-based info such as weather and hunting regulations, and access to Garmin's professional-plan inReach Portal Connect inbound/outbound APIs is pending.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tomchuk"
+      ],
+      "source_excerpt": "Wired up Twilio & Anthropic API on a Cloudflare Worker so I can chat with Claude via Garmin InReach during a 3-week backcountry trip to Alaska's North Slope. Location metadata is included in the system prompt for accurate location-based info (weather, hunting regs, etc).",
+      "source_item_id": 49245510,
+      "source_url": "https://news.ycombinator.com/item?id=49245510",
+      "author": "tomchuk",
+      "shared_at": 1786377828,
+      "links": []
+    }
+  ]
+}

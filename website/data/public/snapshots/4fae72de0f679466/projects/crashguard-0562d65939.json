@@ -1,0 +1,41 @@
+{
+  "id": 2054,
+  "slug": "crashguard-0562d65939",
+  "name": "CrashGuard",
+  "mentions": [
+    {
+      "name": "CrashGuard",
+      "description": "Self-hosted open source system for monitoring and alerting on stalled, crashed, or overdue asynchronous workflows. Includes a Stream Deck plugin that surfaces workflow status on the Stream Deck XL and, when a button goes red, opens the admin portal to the failed workflow.",
+      "problem": "Monitoring odd asynchronous workflows through log analysis was a pain, so this provides dedicated monitoring and alerting instead.",
+      "audience": null,
+      "builder_usernames": [
+        "felix-the-cat"
+      ],
+      "source_excerpt": "I'm working on a self-hosted open source system for monitoring and alerting on stalled / crashed / overdue asynchronous workflows. I had some weird things I needed to monitor and log analysis was kind of a PITA for dealing with them so I built this instead",
+      "source_item_id": 49243693,
+      "source_url": "https://news.ycombinator.com/item?id=49243693",
+      "author": "felix-the-cat",
+      "shared_at": 1786370022,
+      "links": [
+        "https://crashguard.io"
+      ]
+    },
+    {
+      "name": "CrashGuard",
+      "description": "A self-hosted open source system for monitoring and alerting on stalled, crashed, or overdue asynchronous workflows. Includes a Stream Deck plugin so workflow status can be monitored from a Stream Deck device; clicking a button that goes red opens the admin portal showing the failed workflow. Currently in alpha.",
+      "problem": "Monitoring unusual asynchronous workflows via log analysis was painful, so the author built a dedicated monitoring and alerting system instead.",
+      "audience": null,
+      "builder_usernames": [
+        "felix-the-cat"
+      ],
+      "source_excerpt": "I'm working on a self-hosted open source system for monitoring and alerting on stalled / crashed / overdue asynchronous workflows. I had some weird things I needed to monitor and log analysis was kind of a PITA for dealing with them so I built this instead",
+      "source_item_id": 48893310,
+      "source_url": "https://news.ycombinator.com/item?id=48893310",
+      "author": "felix-the-cat",
+      "shared_at": 1783952985,
+      "links": [
+        "https://crashguard.io"
+      ]
+    }
+  ]
+}

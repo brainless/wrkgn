@@ -1,0 +1,24 @@
+{
+  "id": 2966,
+  "slug": "llama-cpp-mtp-variation-with-recovered-pp-tps-0405536f13",
+  "name": "llama.cpp MTP variation with recovered PP TPS",
+  "mentions": [
+    {
+      "name": "llama.cpp MTP variation with recovered PP TPS",
+      "description": "A variation of multi-token prediction (MTP) for llama.cpp that recovers prompt-processing throughput (PP TPS) back to the level seen with MTP disabled, while keeping most of MTP's benefits to text-generation throughput (TG TPS). It is planned to be proposed as a patch back to llama.cpp or provided as a fork.",
+      "problem": "MTP degrades prompt-processing throughput (PP TPS) relative to running with MTP disabled.",
+      "audience": null,
+      "builder_usernames": [
+        "i_am_rocoe"
+      ],
+      "source_excerpt": "I'm working on a variation of MTP that recovers PP TPS (back to the same as with MTP disabled), keeping most of MTP's benefits to TG TPS.",
+      "source_item_id": 48887400,
+      "source_url": "https://news.ycombinator.com/item?id=48887400",
+      "author": "i_am_rocoe",
+      "shared_at": 1783912162,
+      "links": [
+        "https://news.ycombinator.com/item?id=48700782"
+      ]
+    }
+  ]
+}

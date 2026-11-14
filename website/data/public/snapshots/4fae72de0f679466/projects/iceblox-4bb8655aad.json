@@ -1,0 +1,24 @@
+{
+  "id": 1993,
+  "slug": "iceblox-4bb8655aad",
+  "name": "iceblox",
+  "mentions": [
+    {
+      "name": "iceblox",
+      "description": "A Linux runtime that runs Roblox on Linux, tuned to perform well even on old and low-end PCs. It exists because Roblox has no native Linux client and common workarounds assume modern hardware; it just reached 1.0 and adds Bazzite / Fedora Atomic support.",
+      "problem": "Roblox has no native Linux client, and existing community workarounds quietly assume fairly modern machines — Sober recently dropped support for non-AVX CPUs, leaving users on older or low-end hardware out of luck.",
+      "audience": "Roblox players on Linux, especially those on older or low-end PCs",
+      "builder_usernames": [
+        "iceblox"
+      ],
+      "source_excerpt": "I've been building iceblox, a linux runtime that runs Roblox extraordinarily well on Linux, and on the old and cheap PCs (blazing fast on new).",
+      "source_item_id": 49253629,
+      "source_url": "https://news.ycombinator.com/item?id=49253629",
+      "author": "iceblox",
+      "shared_at": 1786424981,
+      "links": [
+        "https://iceblox.app"
+      ]
+    }
+  ]
+}

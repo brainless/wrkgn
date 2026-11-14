@@ -1,0 +1,25 @@
+{
+  "id": 2623,
+  "slug": "fixbugs-81ec6c955c",
+  "name": "FixBugs",
+  "mentions": [
+    {
+      "name": "FixBugs",
+      "description": "This AI agent ingests the rich context surrounding production bugs to reproduce them in a sandbox, identify the root cause, generate a fix, verify the fix, and review generated code with multiple AI models to catch potential regressions. It is available as a self-hosted VSCode extension with full code and data privacy and zero data retention, and as a GitHub app installed per repository.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "kirtivr"
+      ],
+      "source_excerpt": "FixBugs, an agent that ingests the rich context surrounding production bugs to reproduce them in a sandbox and generate verified fixes. It's available in the form of a self-hosted VSCode extension and as a Github app.",
+      "source_item_id": 48928186,
+      "source_url": "https://news.ycombinator.com/item?id=48928186",
+      "author": "kirtivr",
+      "shared_at": 1784155646,
+      "links": [
+        "https://fixbugs.ai/go/github-app",
+        "https://fixbugs.ai/go/vscode-extension"
+      ]
+    }
+  ]
+}

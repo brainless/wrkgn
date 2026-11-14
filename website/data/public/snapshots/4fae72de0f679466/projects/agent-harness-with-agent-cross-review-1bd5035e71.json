@@ -1,0 +1,22 @@
+{
+  "id": 2443,
+  "slug": "agent-harness-with-agent-cross-review-1bd5035e71",
+  "name": "Agent harness with agent cross-review",
+  "mentions": [
+    {
+      "name": "Agent harness with agent cross-review",
+      "description": "An agent harness in which agents evaluate each other's work, since agents show some success at recognizing when another agent's work is flawed. Early tests indicate the back-and-forth between agents yields more stable and better results.",
+      "problem": "The builder does not trust any single agent to avoid dumb mistakes, so agents review one another's work to improve output quality.",
+      "audience": null,
+      "builder_usernames": [
+        "aprentic"
+      ],
+      "source_excerpt": "Like everyone else, I'm also working on an agent harness. tl;dr I don't trust any agent to not be dumb, but the agents seem to have some success recognizing when the work of an other agent is dumb. In early tests, the back and forth seems to provide more stable and better results.",
+      "source_item_id": 49233846,
+      "source_url": "https://news.ycombinator.com/item?id=49233846",
+      "author": "aprentic",
+      "shared_at": 1786298791,
+      "links": []
+    }
+  ]
+}

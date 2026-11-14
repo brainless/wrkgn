@@ -1,0 +1,25 @@
+{
+  "id": 2772,
+  "slug": "keibidrop-7a4bc1f16f",
+  "name": "KEIBIDROP",
+  "mentions": [
+    {
+      "name": "KEIBIDROP",
+      "description": "Tool that makes remote files appear as local, hiding network latency so users can open and edit a peer's file without downloading it upfront or re-uploading it fully. The next version (0.4.0) plans multi-user support, switching the networking layer from TCP to UDP (QUIC), optimization of live-edit regions of files, and further testing for data-heavy workflows.",
+      "problem": "Opening and editing files stored on a remote peer normally requires downloading them upfront and re-uploading changes due to network latency.",
+      "audience": null,
+      "builder_usernames": [
+        "coldstartops"
+      ],
+      "source_excerpt": "KEIBIDROP: Makes remote files appear as local (it hides the network latency in order to let you open and edit a peers file without downloading it upfront or re-uploading it fully back).",
+      "source_item_id": 48889860,
+      "source_url": "https://news.ycombinator.com/item?id=48889860",
+      "author": "coldstartops",
+      "shared_at": 1783934023,
+      "links": [
+        "https://github.com/KeibiSoft/KeibiDrop/",
+        "https://keibidrop.com/"
+      ]
+    }
+  ]
+}

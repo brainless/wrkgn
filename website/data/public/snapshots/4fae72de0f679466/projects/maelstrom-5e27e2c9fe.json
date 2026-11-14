@@ -1,0 +1,24 @@
+{
+  "id": 2708,
+  "slug": "maelstrom-5e27e2c9fe",
+  "name": "maelstrom",
+  "mentions": [
+    {
+      "name": "maelstrom",
+      "description": "An agentic framework started in January that increases the robustness of agents so small 30b-class models can function reliably over long time horizons. It provides auditability by durably storing full agent sessions, which can be branched, rolled back, or restarted from any point, along with all over-the-wire communications, and reliability through sane fallbacks for common failure cases. The current iteration (sketch 7/draft 7 or 8) is specifically a coding agent framework, with plans to expand the core to handle a variety of tasks.",
+      "problem": "Agents, especially small 30b-class models, lack the robustness to function reliably over long time horizons.",
+      "audience": null,
+      "builder_usernames": [
+        "all2"
+      ],
+      "source_excerpt": "an agentic framework that I started on in January - maelstrom. You can find the current code here: https://github.com/zerohumancompany2/maelstrom-code/tree/sketch7-mvp",
+      "source_item_id": 48893883,
+      "source_url": "https://news.ycombinator.com/item?id=48893883",
+      "author": "all2",
+      "shared_at": 1783955268,
+      "links": [
+        "https://github.com/zerohumancompany2/maelstrom-code/tree/sketch7-mvp"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": 2017,
+  "slug": "inkedout-059f5a8771",
+  "name": "InkedOut",
+  "mentions": [
+    {
+      "name": "InkedOut",
+      "description": "A browser-based PDF redaction tool that runs entirely client-side with nothing uploaded, removes the underlying text rather than covering it with black boxes, and verifies its own output before letting the user download. Created as a standalone product that a medical app can connect to for PII redaction.",
+      "problem": "Existing tools that redact PDFs properly are paid desktop or enterprise software, while free browser tools simply put a black box over text without actually removing the underlying text.",
+      "audience": null,
+      "builder_usernames": [
+        "Nightbowl12"
+      ],
+      "source_excerpt": "I created InkedOut - a pdf redaction tool. It runs entirely in the browser, nothing gets uploaded, the text is removed rather than covered (crucial if you're familiar with the Meta lawyers debacle from 2025), and it verifies its own output before letting the user download.",
+      "source_item_id": 49244376,
+      "source_url": "https://news.ycombinator.com/item?id=49244376",
+      "author": "Nightbowl12",
+      "shared_at": 1786373029,
+      "links": [
+        "https://getinkedout.com"
+      ]
+    }
+  ]
+}

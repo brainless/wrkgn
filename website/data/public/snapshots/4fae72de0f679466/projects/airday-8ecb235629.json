@@ -1,0 +1,24 @@
+{
+  "id": 2745,
+  "slug": "airday-8ecb235629",
+  "name": "Airday",
+  "mentions": [
+    {
+      "name": "Airday",
+      "description": "An end-to-end encrypted, local-first sync engine built on traditional client-server sync, using encrypted logs plus integer-sequenced snapshots and sending bundles of Loro CRDT operations. The client is wrapped in WASM to power a web app and a CLI, with a Swift wrapper underway to port it to native iOS; the bundle is 3MB (1.2MB gzipped). Recent work includes performance optimization and data remodeling to keep CRDT data from falling through the gaps.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "aguacaterojo"
+      ],
+      "source_excerpt": "Underpinning my current app is an e2ee local-first sync engine, basically it is a traditional client-server sync (encrypted logs + snapshots sequenced with integers). It sends bundles of Loro CRDT operations. I wrapped the client side in WASM to power the web app and the CLI and have started a swift wrapper to port to native iOS. Bundle size is 3MB/1.2MB g-zipped so pretty happy with it.",
+      "source_item_id": 48885746,
+      "source_url": "https://news.ycombinator.com/item?id=48885746",
+      "author": "aguacaterojo",
+      "shared_at": 1783897165,
+      "links": [
+        "https://github.com/airdaydev/airday"
+      ]
+    }
+  ]
+}

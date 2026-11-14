@@ -1,0 +1,24 @@
+{
+  "id": 1887,
+  "slug": "modern-webkit-backport-for-safari-7-on-os-x-mavericks-fe77cdae16",
+  "name": "Modern WebKit backport for Safari 7 on OS X Mavericks",
+  "mentions": [
+    {
+      "name": "Modern WebKit backport for Safari 7 on OS X Mavericks",
+      "description": "A backport of the modern 2026 WebKit framework to Safari 7 on OS X Mavericks (2013), making the legacy browser able to access the modern web again, including webapps like Figma. Claude wrote the code; the author's role was deciding larger infrastructure questions and finding and reproducing bugs.",
+      "problem": "Safari 7 on OS X Mavericks (2013) is an ancient browser that can no longer access the modern web.",
+      "audience": null,
+      "builder_usernames": [
+        "Wowfunhappy"
+      ],
+      "source_excerpt": "I'm backporting the modern 2026 WebKit framework to work with Safari 7 on OS X Mavericks, from 2013.\n\nWith the updated frameworks in place, this ancient browser becomes able to access the modern web again! Even webapps like Figma work!",
+      "source_item_id": 49235398,
+      "source_url": "https://news.ycombinator.com/item?id=49235398",
+      "author": "Wowfunhappy",
+      "shared_at": 1786306860,
+      "links": [
+        "https://github.com/Wowfunhappy/WebKit"
+      ]
+    }
+  ]
+}

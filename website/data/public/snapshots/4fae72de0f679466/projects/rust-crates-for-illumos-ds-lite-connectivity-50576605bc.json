@@ -1,0 +1,24 @@
+{
+  "id": 2008,
+  "slug": "rust-crates-for-illumos-ds-lite-connectivity-50576605bc",
+  "name": "Rust crates for illumos DS-Lite connectivity",
+  "mentions": [
+    {
+      "name": "Rust crates for illumos DS-Lite connectivity",
+      "description": "Two Rust crates published to support connecting an illumos server directly to a Japanese ISP over DS-Lite, handling the tunnel and the DHCPv6 prefix delegation that stock illumos could not manage. The work also involved tracing a four-byte ABI mismatch between a 64-bit Rust process and a 32-bit illumos service, and the experience is documented in a blog post.",
+      "problem": "Stock illumos could not manage the DHCPv6 prefix delegation required by the author's ISP connection.",
+      "audience": "Explicit personal project: connecting the author's own illumos server to their own Japanese ISP connection.",
+      "builder_usernames": [
+        "mskalski"
+      ],
+      "source_excerpt": "I wanted to connect my illumos server directly to my Japanese ISP through DS-Lite, and ended up writing and publishing two Rust crates along the way.",
+      "source_item_id": 49240692,
+      "source_url": "https://news.ycombinator.com/item?id=49240692",
+      "author": "mskalski",
+      "shared_at": 1786348779,
+      "links": [
+        "https://skalski.dev/connecting-my-illumos-box-to-a-japanese-isp/"
+      ]
+    }
+  ]
+}

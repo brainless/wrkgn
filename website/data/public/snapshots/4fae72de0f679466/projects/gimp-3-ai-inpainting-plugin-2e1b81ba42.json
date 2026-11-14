@@ -1,0 +1,22 @@
+{
+  "id": 2157,
+  "slug": "gimp-3-ai-inpainting-plugin-2e1b81ba42",
+  "name": "Gimp 3 AI inpainting plugin",
+  "mentions": [
+    {
+      "name": "Gimp 3 AI inpainting plugin",
+      "description": "A Gimp 3 plugin for AI inpainting. Users manage prompts and select an image model via OpenRouter, then send an image layer with instructions for modifications, which the model applies. The plugin focuses on a UI that is as simple as possible, with plans to release via Show HN when ready.",
+      "problem": "Existing AI inpainting plugins for Gimp 3 couldn't be found that really work, prompting the author to build their own.",
+      "audience": null,
+      "builder_usernames": [
+        "bambax"
+      ],
+      "source_excerpt": "I've been looking for a plugin for \"AI inpainting\" for Gimp3 but couldn't find any that really works? Which seems weird? Anyway, I decided to make my own. Functionally it's pretty simple: you manage prompts and image model (on Openrouter), and then send a layer with instructions for modifications by the model.",
+      "source_item_id": 49245090,
+      "source_url": "https://news.ycombinator.com/item?id=49245090",
+      "author": "bambax",
+      "shared_at": 1786376308,
+      "links": []
+    }
+  ]
+}

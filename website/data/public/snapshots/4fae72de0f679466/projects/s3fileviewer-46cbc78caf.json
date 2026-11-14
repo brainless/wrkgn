@@ -1,0 +1,24 @@
+{
+  "id": 2788,
+  "slug": "s3fileviewer-46cbc78caf",
+  "name": "s3fileviewer",
+  "mentions": [
+    {
+      "name": "s3fileviewer",
+      "description": "A self-hosted, browser-based interface for previewing S3 files. It allows querying and viewing files beyond the size limits of the S3 console and provides information about column types in data files.",
+      "problem": "The S3 console does not allow querying or viewing files beyond a certain size, and non-IT teams are often denied access out of concern for handling confidential data via the console.",
+      "audience": "Non-IT teams in organizations who just want a preview of the data in files or want to do some simple explorations, and who are frequently denied S3 console access over concerns about confidential data.",
+      "builder_usernames": [
+        "cgopalan"
+      ],
+      "source_excerpt": "A self-hosted, better browser interface to preview s3 files. This overcomes the limitation of the s3 console not allowing querying or viewing files beyond a certain size. It also gives you information about the column types.",
+      "source_item_id": 48893449,
+      "source_url": "https://news.ycombinator.com/item?id=48893449",
+      "author": "cgopalan",
+      "shared_at": 1783953587,
+      "links": [
+        "https://github.com/cgopalan/s3fileviewer"
+      ]
+    }
+  ]
+}

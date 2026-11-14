@@ -1,0 +1,22 @@
+{
+  "id": 2736,
+  "slug": "offline-ci-cd-system-f21720e745",
+  "name": "Offline CI/CD system",
+  "mentions": [
+    {
+      "name": "Offline CI/CD system",
+      "description": "This offline CI/CD system packages code, copies artifacts, deploys them, runs validation, and executes AI-generated deployment scripts. It works with any Git repository and a network-reachable target machine, regardless of where the Git server is hosted.",
+      "problem": "GitHub Actions workflows don't fit because much of the code isn't hosted on GitHub and deployment environments are all different.",
+      "audience": null,
+      "builder_usernames": [
+        "cloudcanalx"
+      ],
+      "source_excerpt": "So I started building an offline CI/CD system. It can package code, copy artifacts, deploy them, run validation, and execute AI-generated deployment scripts. As long as your code lives in a Git repository and the target machine is reachable over the network, it works regardless of where the Git server is hosted.",
+      "source_item_id": 48902833,
+      "source_url": "https://news.ycombinator.com/item?id=48902833",
+      "author": "cloudcanalx",
+      "shared_at": 1784009154,
+      "links": []
+    }
+  ]
+}

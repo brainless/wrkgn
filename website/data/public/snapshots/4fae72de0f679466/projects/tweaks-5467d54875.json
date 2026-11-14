@@ -1,0 +1,24 @@
+{
+  "id": 1843,
+  "slug": "tweaks-5467d54875",
+  "name": "Tweaks",
+  "mentions": [
+    {
+      "name": "Tweaks",
+      "description": "An inline editing feature called Tweaks for the jar.tools class decompiler that lets users modify compiled Java class files without decompilation — changing values such as numbers, strings, and access modifiers directly in the bytecode without needing to recompile the .class file.",
+      "problem": "Updating values in compiled Java classes normally requires decompiling and recompiling the .class file.",
+      "audience": null,
+      "builder_usernames": [
+        "Igor_Wiwi"
+      ],
+      "source_excerpt": "Adding Java class inline editing without decompilation feature to https://jar.tools/class-decompiler - so you can update some class values (number or strings, or event access modifiers) without needing to recompile the .class file. I called it Tweaks",
+      "source_item_id": 49233845,
+      "source_url": "https://news.ycombinator.com/item?id=49233845",
+      "author": "Igor_Wiwi",
+      "shared_at": 1786298783,
+      "links": [
+        "https://jar.tools/class-decompiler"
+      ]
+    }
+  ]
+}

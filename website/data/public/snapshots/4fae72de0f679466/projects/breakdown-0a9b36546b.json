@@ -1,0 +1,24 @@
+{
+  "id": 1786,
+  "slug": "breakdown-0a9b36546b",
+  "name": "Breakdown",
+  "mentions": [
+    {
+      "name": "Breakdown",
+      "description": "Breakdown is a Mac menubar tool that diagnoses connection problems by pinpointing whether lag or glitches in apps like Zoom stem from the user's LAN/Wi-Fi, their ISP path, the broader Internet, or the app itself. It adapts its monitoring to the apps and traffic in use rather than relying on static monitoring endpoints, keeps energy and CPU usage low enough to run 24/7, and provides at-a-glance status in the menubar with in-depth detail in the dropdown. It is free for typical uses and Mac-only for now, with a possible Windows port if there is demand.",
+      "problem": "The author got sick of Zoom calls lagging or glitching with no way to tell whether the issue was their own LAN/Wi-Fi, their ISP path, some broader Internet issue, or Zoom itself.",
+      "audience": null,
+      "builder_usernames": [
+        "joelm"
+      ],
+      "source_excerpt": "So, I built a tool to answer that. Major goals have been to keep low energy/cpu usage (so I can run it 24/7), have it adapt to the apps/traffic I'm using (rather than use static monitoring endpoints), and to deliver both at-a-glance answers in the menubar and in-depth detail in the dropdown.\n\nIt's called Breakdown. It's a free (for typical uses). It's Mac-only for now (but if enough people ask for Windows I'll port it).\n\nhttps://breakdown.live",
+      "source_item_id": 49237825,
+      "source_url": "https://news.ycombinator.com/item?id=49237825",
+      "author": "joelm",
+      "shared_at": 1786321836,
+      "links": [
+        "https://breakdown.live"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": 2697,
+  "slug": "your-own-gallery-022dc54b98",
+  "name": "Your Own Gallery",
+  "mentions": [
+    {
+      "name": "Your Own Gallery",
+      "description": "A self-hosted photo gallery that keeps photos and processing on the user's own computer instead of cloud services like Google Photos or Apple Photos. It tags images for textual search (e.g. \"cloudy mountains with trees\"), identifies dogs and humans, and offers many ways to filter, sort and search large photo libraries, with support for NearlyFreeSpeech hosting. It can be deployed as a full web app or backend-only, with an iOS client app in development.",
+      "problem": "The author, a photographer, often wants to quickly show someone a photo but spends minutes browsing a 30,000-photo library, and is not fond of Lightroom Cloud, Google Photos, or Apple Photos.",
+      "audience": "Photographers and individuals with large personal photo libraries who want to keep their photos off Google or Apple cloud services.",
+      "builder_usernames": [
+        "sillysideprojs"
+      ],
+      "source_excerpt": "I'm not fond of Lightroom Cloud, Google Photos, Apple Photos, etc, so I built my own, Your Own Gallery (Own Your Gallery).\n\nIt can tag images for textual search (\"cloudy mountains with trees\"), identify dogs and humans, and supports lots of other ways of filtering/sorting/searching photos. All the processing is done on your own computer",
+      "source_item_id": 48952606,
+      "source_url": "https://news.ycombinator.com/item?id=48952606",
+      "author": "sillysideprojs",
+      "shared_at": 1784324971,
+      "links": [
+        "https://github.com/TravisBumgarner/your-own-gallery/"
+      ]
+    }
+  ]
+}

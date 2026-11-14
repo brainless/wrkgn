@@ -1,0 +1,22 @@
+{
+  "id": 2750,
+  "slug": "terminal-file-deduper-c2e8a9909d",
+  "name": "Terminal file deduper",
+  "mentions": [
+    {
+      "name": "Terminal file deduper",
+      "description": "A CLI/terminal file deduplication tool that opens an ncurses interface when pointed at a directory, recursively scans and hashes files to group duplicates, and ranks the dupes in a top-like table so users can choose which copies to keep entirely from the keyboard. It auto-ignores developer directories like node_modules, offers a preview mode (key 'p') that autoplays duplicate videos in muted tiles for media files, and supports a dry run mode plus sending duplicates to trash instead of hard deletion.",
+      "problem": "Moving many files from an old laptop to a new one leaves lots of duplicate videos in scattered directories with different file names.",
+      "audience": null,
+      "builder_usernames": [
+        "ac2u"
+      ],
+      "source_excerpt": "A CLI/Terminal file deduper.\n\nMoving a lot of files from old laptop to new, lots of duplicate videos in scattered directories with different file names.",
+      "source_item_id": 48892894,
+      "source_url": "https://news.ycombinator.com/item?id=48892894",
+      "author": "ac2u",
+      "shared_at": 1783951431,
+      "links": []
+    }
+  ]
+}

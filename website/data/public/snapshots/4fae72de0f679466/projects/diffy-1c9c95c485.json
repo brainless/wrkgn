@@ -1,0 +1,24 @@
+{
+  "id": 2591,
+  "slug": "diffy-1c9c95c485",
+  "name": "diffy",
+  "mentions": [
+    {
+      "name": "diffy",
+      "description": "A web tool that makes reviewing GitHub pull requests easier, especially large PRs where GitHub freezes and memory usage spikes. It renders diffs and file trees using Pierre's Diffs and Trees, and in under 2MB provides 50+ themes, split/side-by-side view, comments, review flow, and syntax highlighting for 100+ languages.",
+      "problem": "Reviewing large GitHub PRs is difficult because GitHub starts freezing and memory usage spikes.",
+      "audience": "Developers reviewing GitHub pull requests, especially large ones.",
+      "builder_usernames": [
+        "suveshmoza"
+      ],
+      "source_excerpt": "diffy makes reviewing GitHub PRs easier, especially the large ones where GitHub starts freezing and memory usage spikes. I'm using Pierre's Diffs and Trees for rendering the diff and file-tree. Under 2MB, you get 50+ themes, split/side-by-side view, comments, review flow, syntax highlighting for 100+ languages and much more.",
+      "source_item_id": 48896692,
+      "source_url": "https://news.ycombinator.com/item?id=48896692",
+      "author": "suveshmoza",
+      "shared_at": 1783967071,
+      "links": [
+        "https://diffy-website.vercel.app/"
+      ]
+    }
+  ]
+}

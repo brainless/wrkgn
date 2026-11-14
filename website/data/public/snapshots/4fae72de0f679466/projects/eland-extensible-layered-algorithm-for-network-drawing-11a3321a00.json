@@ -1,0 +1,22 @@
+{
+  "id": 1726,
+  "slug": "eland-extensible-layered-algorithm-for-network-drawing-11a3321a00",
+  "name": "Eland (Extensible Layered Algorithm for Network Drawing)",
+  "mentions": [
+    {
+      "name": "Eland (Extensible Layered Algorithm for Network Drawing)",
+      "description": "A graph layout library strongly inspired by Elk, completely reimplemented so that individual steps of the layered layout algorithm can be replaced with custom implementations while keeping the rest unchanged. Each step uses contracts that specify which graph properties it requires, which it adds, and which it invalidates, to ensure the validity of the pipeline.",
+      "problem": "Existing graph layout libraries tend to be black boxes that cannot be tweaked; adjusting part of the algorithm requires forking the library or writing your own.",
+      "audience": null,
+      "builder_usernames": [
+        "mcv"
+      ],
+      "source_excerpt": "I'm working on Eland (Extensible Layered Algorithm for Network Drawing), a graph layout library strongly inspired by Elk, but a complete reimplementation.",
+      "source_item_id": 49234224,
+      "source_url": "https://news.ycombinator.com/item?id=49234224",
+      "author": "mcv",
+      "shared_at": 1786300642,
+      "links": []
+    }
+  ]
+}

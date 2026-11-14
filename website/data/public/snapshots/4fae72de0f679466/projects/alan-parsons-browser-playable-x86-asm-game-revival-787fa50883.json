@@ -1,0 +1,25 @@
+{
+  "id": 2003,
+  "slug": "alan-parsons-browser-playable-x86-asm-game-revival-787fa50883",
+  "name": "Alan Parsons (browser-playable x86 ASM game revival)",
+  "mentions": [
+    {
+      "name": "Alan Parsons (browser-playable x86 ASM game revival)",
+      "description": "This is a browser-playable revival of an ancient UIUC x86 ASM game originally built in the summer of 2002 for the ECE291 course. The project ported the game to the web by converting the x86 assembly to C, then compiling through emscripten to WebAssembly, so it now plays well on mobile and in most browsers. An earlier attempt as a direct x86asm-to-WebAssembly transpiler failed due to stack issues.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "gottebp"
+      ],
+      "source_excerpt": "I resurrected an ancient UIUC x86 ASM game, built with some friends in the summer of 2002 for ECE291.",
+      "source_item_id": 49235442,
+      "source_url": "https://news.ycombinator.com/item?id=49235442",
+      "author": "gottebp",
+      "shared_at": 1786307112,
+      "links": [
+        "https://github.com/gottebp/alan_parsons_project",
+        "https://particlefield.com/projects/alan-parsons/game.html"
+      ]
+    }
+  ]
+}

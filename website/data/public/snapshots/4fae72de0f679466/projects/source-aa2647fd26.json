@@ -1,0 +1,24 @@
+{
+  "id": 2657,
+  "slug": "source-aa2647fd26",
+  "name": "Source",
+  "mentions": [
+    {
+      "name": "Source",
+      "description": "An experimental Git server written in Go that stores repositories in a database rather than on a filesystem. It relies on databases for durability, replication, and distribution instead of introducing complex distributed filesystem infrastructure into the stack.",
+      "problem": "Avoids the need for complex distributed filesystem infrastructure in the stack to get durability, replication, and distribution for Git repositories.",
+      "audience": null,
+      "builder_usernames": [
+        "chaffity"
+      ],
+      "source_excerpt": "I've been working on Source [1], an experimental Git server written in Go.\n\nSource stores repositories in a database rather than a filesystem [2]. The primary goal is to rely on databases for durability, replication, and distribution, rather than introducing complex distributed filesystem infrastructure into the stack.",
+      "source_item_id": 48889368,
+      "source_url": "https://news.ycombinator.com/item?id=48889368",
+      "author": "chaffity",
+      "shared_at": 1783929992,
+      "links": [
+        "https://github.com/iainjreid/source"
+      ]
+    }
+  ]
+}

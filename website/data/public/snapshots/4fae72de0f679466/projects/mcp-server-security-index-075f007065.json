@@ -1,0 +1,24 @@
+{
+  "id": 2561,
+  "slug": "mcp-server-security-index-075f007065",
+  "name": "MCP Server Security Index",
+  "mentions": [
+    {
+      "name": "MCP Server Security Index",
+      "description": "A free browsable index of MCP servers, automatically scored for security and enterprise suitability. It periodically collects MCP servers and every new version from the Official MCP registry and assigns each a score based on 29 distinct criteria, including runtime guardrails (destructive tools, over-broad permissions, rug pulls), SAST scans, and transport & trust model. The index surfaces findings such as 1 in 10 servers being essentially unusable (score 40/100 or below), 18% of popular servers with 1000+ GitHub stars containing security issues, and 184 servers that changed their tool definitions after publication, which may indicate a rug pull attack. Browsing is free; requesting an API key enables automated, programmatic lookups for any workflow.",
+      "problem": "Manually approving or rejecting MCP servers for enterprise use made the security team a bottleneck to AI adoption, so the process is automated with continuous scoring from the Official MCP registry.",
+      "audience": "Security-minded people who want to be at the forefront of AI adoption, and security teams tired of being called the bottleneck.",
+      "builder_usernames": [
+        "mavzer"
+      ],
+      "source_excerpt": "https://index.canopii.dev\n\nPart of my job is to approve / reject MCP servers based on how secure they are and whether they are suitable for use in an enterprise environment. I was tired of my team being called the bottleneck to AI adoption, so I set out to automate the whole process.\n\nI periodically collect the MCP servers and every new version from the Official MCP registry and assign them a score based on 29 distinct criteria like runtime guardrails (e.g. destructive tools, over broad permissions, rug pulls), SAST scans and transport & trust model.",
+      "source_item_id": 48885595,
+      "source_url": "https://news.ycombinator.com/item?id=48885595",
+      "author": "mavzer",
+      "shared_at": 1783895950,
+      "links": [
+        "https://index.canopii.dev"
+      ]
+    }
+  ]
+}

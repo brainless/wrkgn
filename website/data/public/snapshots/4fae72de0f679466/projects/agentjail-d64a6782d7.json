@@ -1,0 +1,24 @@
+{
+  "id": 2975,
+  "slug": "agentjail-d64a6782d7",
+  "name": "agentjail",
+  "mentions": [
+    {
+      "name": "agentjail",
+      "description": "Policy guardrails for coding agents. This tool runs agents in an OS-native sandbox with sub-4ms start time and enforces Rego-backed policies via OPA (a CNCF graduated project), with policy evaluation in under 3ms. It ships policies for AWS, local files, Kubernetes, databases, and more, so agents no longer need to be manually babysat.",
+      "problem": "Coding agents otherwise require constant manual babysitting/supervision to keep their access in check.",
+      "audience": "Developers who run coding agents.",
+      "builder_usernames": [
+        "LuD1161"
+      ],
+      "source_excerpt": "Policy guardrails for Coding Agents. \nNever babysit your agents - github.com/lud1161/agentjail",
+      "source_item_id": 48897116,
+      "source_url": "https://news.ycombinator.com/item?id=48897116",
+      "author": "LuD1161",
+      "shared_at": 1783968900,
+      "links": [
+        "https://github.com/lud1161/agentjail"
+      ]
+    }
+  ]
+}
