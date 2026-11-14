@@ -1,0 +1,35 @@
+{
+  "id": 8349,
+  "slug": "charity-record-a70238f824",
+  "name": "Charity Record",
+  "mentions": [
+    {
+      "name": "Charity Record",
+      "description": "A web app that tracks charitable donations for taxpayers, supporting tax-deduction workflows such as TXF export and PDF report generation. Built with Django 5.2, Postgres, HTMX and Alpine.js, with Polar for subscriptions, hosted on a DigitalOcean droplet.",
+      "problem": "Intuit's ItsDeductible, which the author's family used for years, shut down in October, leaving a gap for donation tracking and tax deduction valuation.",
+      "audience": "taxpayers who need to track and document charitable donations for tax deductions",
+      "builder_usernames": [
+        "pk3"
+      ],
+      "source_excerpt": "I'm working on a charitable donation tracker for taxpayers. My wife and I used Intuit's ItsDeductible for years until it shut down in October. With a little encouragement, I built Charity Record.",
+      "evidence": [
+        {
+          "source_item_id": 46273050,
+          "source_field": "body",
+          "value": "I'm working on a charitable donation tracker for taxpayers. My wife and I used Intuit's ItsDeductible for years until it shut down in October. With a little encouragement, I built Charity Record.",
+          "supports": [],
+          "author": "pk3",
+          "shared_at": 1765797848,
+          "source_url": "https://news.ycombinator.com/item?id=46273050"
+        }
+      ],
+      "source_item_id": 46273050,
+      "source_url": "https://news.ycombinator.com/item?id=46273050",
+      "author": "pk3",
+      "shared_at": 1765797848,
+      "links": [
+        "https://charityrecord.com"
+      ]
+    }
+  ]
+}

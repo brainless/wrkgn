@@ -1,0 +1,35 @@
+{
+  "id": 7725,
+  "slug": "prompt-lab-d869a952d2",
+  "name": "Prompt Lab",
+  "mentions": [
+    {
+      "name": "Prompt Lab",
+      "description": "An open-source, cross-platform desktop app for building and providing code-related context to chat-based large language models. It lets users manually prompt with just the code context they want, for tasks like debugging issues or brainstorming architecture solutions in their repos.",
+      "problem": "Agents give the model access to everything and let it figure things out, whereas the author sometimes prefers a chat interface for debugging or brainstorming architecture while supplying only specific code context to the LLM.",
+      "audience": "Sometimes the author would rather interact with a chat interface to debug an issue or brainstorm architecture solutions in their repos; agents hand the model access to everything and let it figure things out, whereas manual prompting keeps their mental model of the codebase up to date and lets them provide just the context they want to the LLM.",
+      "builder_usernames": [
+        "haideralshamma"
+      ],
+      "source_excerpt": "I am building an open-source, cross-platform desktop app for building and providing code-related context to chat based large language models. [1].",
+      "evidence": [
+        {
+          "source_item_id": 46579118,
+          "source_field": "body",
+          "value": "I am building an open-source, cross-platform desktop app for building and providing code-related context to chat based large language models. [1].",
+          "supports": [],
+          "author": "haideralshamma",
+          "shared_at": 1768160428,
+          "source_url": "https://news.ycombinator.com/item?id=46579118"
+        }
+      ],
+      "source_item_id": 46579118,
+      "source_url": "https://news.ycombinator.com/item?id=46579118",
+      "author": "haideralshamma",
+      "shared_at": 1768160428,
+      "links": [
+        "https://github.com/haideralsh/prompt-lab"
+      ]
+    }
+  ]
+}

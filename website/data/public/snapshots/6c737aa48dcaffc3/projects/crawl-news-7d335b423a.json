@@ -1,0 +1,35 @@
+{
+  "id": 5814,
+  "slug": "crawl-news-7d335b423a",
+  "name": "Crawl.news",
+  "mentions": [
+    {
+      "name": "Crawl.news",
+      "description": "A news aggregator website that collects and presents news content at crawl.news.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jasoncartwright"
+      ],
+      "source_excerpt": "A news aggregator https://crawl.news",
+      "evidence": [
+        {
+          "source_item_id": 47748573,
+          "source_field": "body",
+          "value": "A news aggregator https://crawl.news",
+          "supports": [],
+          "author": "jasoncartwright",
+          "shared_at": 1776063239,
+          "source_url": "https://news.ycombinator.com/item?id=47748573"
+        }
+      ],
+      "source_item_id": 47748573,
+      "source_url": "https://news.ycombinator.com/item?id=47748573",
+      "author": "jasoncartwright",
+      "shared_at": 1776063239,
+      "links": [
+        "https://crawl.news"
+      ]
+    }
+  ]
+}

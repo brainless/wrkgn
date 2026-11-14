@@ -1,0 +1,33 @@
+{
+  "id": 3520,
+  "slug": "esp32-h2-thread-migration-for-homebrew-esphome-devices-893de0b0cf",
+  "name": "ESP32-H2 Thread migration for homebrew ESPHome devices",
+  "mentions": [
+    {
+      "name": "ESP32-H2 Thread migration for homebrew ESPHome devices",
+      "description": "An ongoing refactoring of homebrew ESPHome devices to run on the ESP32-H2 for native Thread support, enabling removal of weak IoT Wi-Fi SSIDs while expanding the Thread network's node count for better mesh coverage.",
+      "problem": "Wi-Fi IoT devices create weak SSIDs, while a Thread-based mesh expands node count for better connectivity.",
+      "audience": null,
+      "builder_usernames": [
+        "shifto"
+      ],
+      "source_excerpt": "Currently I'm refactoring a lot of homebrew ESPhome devices to use the ESP32-H2 as it supports Thread. This allows me to remove weak IoT SSIDs while expanding my Thread network node count for better mesh.",
+      "evidence": [
+        {
+          "source_item_id": 48539319,
+          "source_field": "body",
+          "value": "Currently I'm refactoring a lot of homebrew ESPhome devices to use the ESP32-H2 as it supports Thread. This allows me to remove weak IoT SSIDs while expanding my Thread network node count for better mesh.",
+          "supports": [],
+          "author": "shifto",
+          "shared_at": 1781519836,
+          "source_url": "https://news.ycombinator.com/item?id=48539319"
+        }
+      ],
+      "source_item_id": 48539319,
+      "source_url": "https://news.ycombinator.com/item?id=48539319",
+      "author": "shifto",
+      "shared_at": 1781519836,
+      "links": []
+    }
+  ]
+}

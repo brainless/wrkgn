@@ -1,0 +1,35 @@
+{
+  "id": 9903,
+  "slug": "exp-quake-quake-software-renderer-with-unreal-1-dithering-097704b179",
+  "name": "exp-quake: Quake software renderer with Unreal 1 dithering",
+  "mentions": [
+    {
+      "name": "exp-quake: Quake software renderer with Unreal 1 dithering",
+      "description": "An experimental build of Quake's software renderer that applies the famous Unreal 1 dithering technique to its output, packaged with a clean Linux build. The dithering approach is based on Tim Sweeney's write-up of Unreal's texturing method.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "klaussilveira"
+      ],
+      "source_excerpt": "After that Deus Ex remaster fiasco, I wanted to see how the famous Unreal 1 dithering technique would look on Quake's software renderer. Getting a clean build of it on Linux was fun in itself: https://github.com/klaussilveira/exp-quake",
+      "evidence": [
+        {
+          "source_item_id": 45419859,
+          "source_field": "body",
+          "value": "After that Deus Ex remaster fiasco, I wanted to see how the famous Unreal 1 dithering technique would look on Quake's software renderer. Getting a clean build of it on Linux was fun in itself: https://github.com/klaussilveira/exp-quake",
+          "supports": [],
+          "author": "klaussilveira",
+          "shared_at": 1759186500,
+          "source_url": "https://news.ycombinator.com/item?id=45419859"
+        }
+      ],
+      "source_item_id": 45419859,
+      "source_url": "https://news.ycombinator.com/item?id=45419859",
+      "author": "klaussilveira",
+      "shared_at": 1759186500,
+      "links": [
+        "https://github.com/klaussilveira/exp-quake"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 7489,
+  "slug": "belgian-parliament-tracker-6e3fc0ecdb",
+  "name": "Belgian parliament tracker",
+  "mentions": [
+    {
+      "name": "Belgian parliament tracker",
+      "description": "A tracker for the Belgian parliament with a daily scraper/parser that transforms published data into parquet files, an LLM summarizer for larger discussions, and an automatically generated static site providing insight into votes and discussions.",
+      "problem": "The Belgian parliament has a very old website and publishes most data, including votes and discussions, as a weekly PDF report.",
+      "audience": null,
+      "builder_usernames": [
+        "coinfused"
+      ],
+      "source_excerpt": "I’ve been working on a tracker for the Belgian parliament [0]. Similar story: very old site + data mostly gets published as a weekly pdf report (including votes and discussions).",
+      "evidence": [
+        {
+          "source_item_id": 46585470,
+          "source_field": "body",
+          "value": "I’ve been working on a tracker for the Belgian parliament [0]. Similar story: very old site + data mostly gets published as a weekly pdf report (including votes and discussions).",
+          "supports": [],
+          "author": "coinfused",
+          "shared_at": 1768205348,
+          "source_url": "https://news.ycombinator.com/item?id=46585470"
+        }
+      ],
+      "source_item_id": 46585470,
+      "source_url": "https://news.ycombinator.com/item?id=46585470",
+      "author": "coinfused",
+      "shared_at": 1768205348,
+      "links": [
+        "https://zijwerkenvooru.be/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 4139,
+  "slug": "packagexray-4da0a3b667",
+  "name": "PackageXray",
+  "mentions": [
+    {
+      "name": "PackageXray",
+      "description": "A website that scans NuGet package dependencies for known security issues: users paste their NuGet package references and receive email notifications if a package they use is found in a vulnerability database.",
+      "problem": "Keeping track of whether the NuGet packages you depend on have known vulnerabilities requires manual checking; this service monitors them and alerts you by email.",
+      "audience": ".NET/NuGet developers who want to know when their dependencies have known vulnerabilities",
+      "builder_usernames": [
+        "tallymark"
+      ],
+      "source_excerpt": "I’m working on a website where you can paste your NuGet package references and get notified by email if/when a package you’re using is found in a vulnerability database.",
+      "evidence": [
+        {
+          "source_item_id": 48532193,
+          "source_field": "body",
+          "value": "I’m working on a website where you can paste your NuGet package references and get notified by email if/when a package you’re using is found in a vulnerability database.",
+          "supports": [],
+          "author": "tallymark",
+          "shared_at": 1781468358,
+          "source_url": "https://news.ycombinator.com/item?id=48532193"
+        }
+      ],
+      "source_item_id": 48532193,
+      "source_url": "https://news.ycombinator.com/item?id=48532193",
+      "author": "tallymark",
+      "shared_at": 1781468358,
+      "links": [
+        "https://packagexray.com/"
+      ]
+    }
+  ]
+}

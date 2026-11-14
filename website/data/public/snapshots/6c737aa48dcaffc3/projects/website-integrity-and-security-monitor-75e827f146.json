@@ -1,0 +1,33 @@
+{
+  "id": 5161,
+  "slug": "website-integrity-and-security-monitor-75e827f146",
+  "name": "Website integrity and security monitor",
+  "mentions": [
+    {
+      "name": "Website integrity and security monitor",
+      "description": "A website integrity and security monitor that scans sites for accessibility issues (missing alt text, form labels, heading hierarchy, lang attribute), content policy violations, performance problems (load time, excessive inline JS/styles), security risks (SSL expiry, security headers, revealing Server header), SEO gaps (missing title/meta description, multiple H1s), site integrity (broken links, deprecated tags, insecure http links), and spelling errors. Built with a Java/PostgreSQL backend and a JS/React front end, usable interactively via the front end or API-driven, delivered as a fully self-service product targeting a June launch.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dardeaup"
+      ],
+      "source_excerpt": "I'm building a website integrity and security monitor. The backend is written in Java/PostgreSQL. The front end is written in JS/React. It will allow for interactive use via front end or be API driven.",
+      "evidence": [
+        {
+          "source_item_id": 47745240,
+          "source_field": "body",
+          "value": "I'm building a website integrity and security monitor. The backend is written in Java/PostgreSQL. The front end is written in JS/React. It will allow for interactive use via front end or be API driven.",
+          "supports": [],
+          "author": "dardeaup",
+          "shared_at": 1776033145,
+          "source_url": "https://news.ycombinator.com/item?id=47745240"
+        }
+      ],
+      "source_item_id": 47745240,
+      "source_url": "https://news.ycombinator.com/item?id=47745240",
+      "author": "dardeaup",
+      "shared_at": 1776033145,
+      "links": []
+    }
+  ]
+}

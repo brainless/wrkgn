@@ -1,0 +1,33 @@
+{
+  "id": 3922,
+  "slug": "native-tui-app-library-1d750ae70e",
+  "name": "Native TUI app library",
+  "mentions": [
+    {
+      "name": "Native TUI app library",
+      "description": "This is a native library for building terminal user interface (TUI) applications without the large runtime bloat of Node, Bun, or Go.",
+      "problem": "Node, Bun, and Go bring 20-60MB of bloat when building TUI apps.",
+      "audience": null,
+      "builder_usernames": [
+        "ricardobeat"
+      ],
+      "source_excerpt": "native library to build TUI apps without the 20-60MB bloat of node/bun/go",
+      "evidence": [
+        {
+          "source_item_id": 48532433,
+          "source_field": "body",
+          "value": "native library to build TUI apps without the 20-60MB bloat of node/bun/go",
+          "supports": [],
+          "author": "ricardobeat",
+          "shared_at": 1781469738,
+          "source_url": "https://news.ycombinator.com/item?id=48532433"
+        }
+      ],
+      "source_item_id": 48532433,
+      "source_url": "https://news.ycombinator.com/item?id=48532433",
+      "author": "ricardobeat",
+      "shared_at": 1781469738,
+      "links": []
+    }
+  ]
+}

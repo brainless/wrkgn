@@ -1,0 +1,33 @@
+{
+  "id": 4677,
+  "slug": "ghidra-delinker-extension-4be515be6e",
+  "name": "ghidra-delinker-extension",
+  "mentions": [
+    {
+      "name": "ghidra-delinker-extension",
+      "description": "A Ghidra extension for delinking binaries, exporting program analysis back into object files. Current work is wrapping up an OMF object file exporter, with planned support for generating debugging symbols (at least DWARF and CodeView, possibly STABS and CTF). It has also received a community PR adding PowerPC support and an open issue requesting delinking of shared objects.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "boricj"
+      ],
+      "source_excerpt": "Still working on ghidra-delinker-extension, trying to wrap up the OMF object file exporter at the moment. Then I'd like to implement generation of debugging symbols (at least DWARF and CodeView, maybe STABS and CTF), although lately I've received a PR for PowerPC and an issue for delinking shared objects.",
+      "evidence": [
+        {
+          "source_item_id": 48087246,
+          "source_field": "body",
+          "value": "Still working on ghidra-delinker-extension, trying to wrap up the OMF object file exporter at the moment. Then I'd like to implement generation of debugging symbols (at least DWARF and CodeView, maybe STABS and CTF), although lately I've received a PR for PowerPC and an issue for delinking shared objects.",
+          "supports": [],
+          "author": "boricj",
+          "shared_at": 1778442904,
+          "source_url": "https://news.ycombinator.com/item?id=48087246"
+        }
+      ],
+      "source_item_id": 48087246,
+      "source_url": "https://news.ycombinator.com/item?id=48087246",
+      "author": "boricj",
+      "shared_at": 1778442904,
+      "links": []
+    }
+  ]
+}

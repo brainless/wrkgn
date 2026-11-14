@@ -1,0 +1,33 @@
+{
+  "id": 11148,
+  "slug": "anubis-2fa408f84d",
+  "name": "Anubis",
+  "mentions": [
+    {
+      "name": "Anubis",
+      "description": "Work on Anubis, a bot-challenge/anti-bot protection tool, making it less aggressive so it only challenges the worst bad bots. The update adds a sample rule (bot/lies-browser-but-http-1.1) that detects bots claiming to be browsers while using HTTP/1.1 — a pattern bots can't fake client side — already deployed on the author's website, where it has issued thousands of challenges.",
+      "problem": "Anubis was too aggressive, challenging more traffic than necessary, while bad bots fake browser-like client-side signals (e.g., claiming a browser user agent over HTTP/1.1).",
+      "audience": "Anti-bot tooling for website operators; this update targets sites protected by Anubis.",
+      "builder_usernames": [
+        "xena"
+      ],
+      "source_excerpt": "I'm working on making Anubis way less aggressive so that it only challenges the worst of the bad bots. I found a pattern that the bots can't fake client side and I've turned that into a sample rule that I've deployed to my website.",
+      "evidence": [
+        {
+          "source_item_id": 43821062,
+          "source_field": "body",
+          "value": "I'm working on making Anubis way less aggressive so that it only challenges the worst of the bad bots. I found a pattern that the bots can't fake client side and I've turned that into a sample rule that I've deployed to my website.",
+          "supports": [],
+          "author": "xena",
+          "shared_at": 1745845244,
+          "source_url": "https://news.ycombinator.com/item?id=43821062"
+        }
+      ],
+      "source_item_id": 43821062,
+      "source_url": "https://news.ycombinator.com/item?id=43821062",
+      "author": "xena",
+      "shared_at": 1745845244,
+      "links": []
+    }
+  ]
+}

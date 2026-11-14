@@ -1,0 +1,35 @@
+{
+  "id": 8346,
+  "slug": "petra-bridge-24d7472051",
+  "name": "Petra-Bridge",
+  "mentions": [
+    {
+      "name": "Petra-Bridge",
+      "description": "An Obsidian plugin that serves an API which the Petra CLI tool uses to interact with the Obsidian vault, so a Claude Skill can create markdown files in the vault and read from them for context.",
+      "problem": "AI assistants like Claude clutter the author's files with random markdown files, so the plugin gives the CLI tool an API to interact with the Obsidian vault instead.",
+      "audience": null,
+      "builder_usernames": [
+        "hazmazlaz"
+      ],
+      "source_excerpt": "Just a simple Obsidian plugin to serve an API that the CLI tool can use to interact with the Obsidian vault.",
+      "evidence": [
+        {
+          "source_item_id": 46277171,
+          "source_field": "body",
+          "value": "Just a simple Obsidian plugin to serve an API that the CLI tool can use to interact with the Obsidian vault.",
+          "supports": [],
+          "author": "hazmazlaz",
+          "shared_at": 1765818401,
+          "source_url": "https://news.ycombinator.com/item?id=46277171"
+        }
+      ],
+      "source_item_id": 46277171,
+      "source_url": "https://news.ycombinator.com/item?id=46277171",
+      "author": "hazmazlaz",
+      "shared_at": 1765818401,
+      "links": [
+        "https://github.com/H4ZM47/petra-bridge"
+      ]
+    }
+  ]
+}

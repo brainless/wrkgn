@@ -1,0 +1,35 @@
+{
+  "id": 8610,
+  "slug": "tuvix-rss-6b1c4aaf34",
+  "name": "Tuvix RSS",
+  "mentions": [
+    {
+      "name": "Tuvix RSS",
+      "description": "This app is an open-source, self-hostable RSS aggregator, with a free hosted instance currently run by the author.",
+      "problem": null,
+      "audience": "Self-hosters, with a free hosted instance also available",
+      "builder_usernames": [
+        "TechSquidTV"
+      ],
+      "source_excerpt": "An RSS aggregator app.\nOpen source, self-hostable, and I'm running a free hosted instance at the moment.",
+      "evidence": [
+        {
+          "source_item_id": 46267093,
+          "source_field": "body",
+          "value": "An RSS aggregator app.\nOpen source, self-hostable, and I'm running a free hosted instance at the moment.",
+          "supports": [],
+          "author": "TechSquidTV",
+          "shared_at": 1765747493,
+          "source_url": "https://news.ycombinator.com/item?id=46267093"
+        }
+      ],
+      "source_item_id": 46267093,
+      "source_url": "https://news.ycombinator.com/item?id=46267093",
+      "author": "TechSquidTV",
+      "shared_at": 1765747493,
+      "links": [
+        "https://github.com/TechSquidTV/Tuvix-RSS"
+      ]
+    }
+  ]
+}

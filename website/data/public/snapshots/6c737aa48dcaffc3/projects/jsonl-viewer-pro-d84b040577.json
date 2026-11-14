@@ -1,0 +1,35 @@
+{
+  "id": 8548,
+  "slug": "jsonl-viewer-pro-d84b040577",
+  "name": "JSONL Viewer Pro",
+  "mentions": [
+    {
+      "name": "JSONL Viewer Pro",
+      "description": "A desktop app built with C++ and ImGui for viewing JSONL files, with recent support for reading uncompressed parquet files; the next step is integrating a visual data pipeline using ImNodes, targeting both macOS and Windows.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "hilti"
+      ],
+      "source_excerpt": "My first app is a JSONL Viewer. Recently I‘ve added support to read parquet files (uncompressed) too.\n\nhttps://iotdata.systems/jsonlviewerpro/",
+      "evidence": [
+        {
+          "source_item_id": 46267458,
+          "source_field": "body",
+          "value": "My first app is a JSONL Viewer. Recently I‘ve added support to read parquet files (uncompressed) too.\n\nhttps://iotdata.systems/jsonlviewerpro/",
+          "supports": [],
+          "author": "hilti",
+          "shared_at": 1765749574,
+          "source_url": "https://news.ycombinator.com/item?id=46267458"
+        }
+      ],
+      "source_item_id": 46267458,
+      "source_url": "https://news.ycombinator.com/item?id=46267458",
+      "author": "hilti",
+      "shared_at": 1765749574,
+      "links": [
+        "https://iotdata.systems/jsonlviewerpro/"
+      ]
+    }
+  ]
+}

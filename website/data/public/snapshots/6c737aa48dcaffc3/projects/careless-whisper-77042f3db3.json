@@ -1,0 +1,147 @@
+{
+  "id": 4990,
+  "slug": "careless-whisper-77042f3db3",
+  "name": "Careless Whisper",
+  "mentions": [
+    {
+      "name": "Careless Whisper",
+      "description": "A web app shared via its site URL, carelesswhisper.app; the comment provides no further details about its features or purpose.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Tsarp"
+      ],
+      "source_excerpt": "https://carelesswhisper.app",
+      "evidence": [
+        {
+          "source_item_id": 48090848,
+          "source_field": "body",
+          "value": "https://carelesswhisper.app",
+          "supports": [],
+          "author": "Tsarp",
+          "shared_at": 1778470945,
+          "source_url": "https://news.ycombinator.com/item?id=48090848"
+        }
+      ],
+      "source_item_id": 48090848,
+      "source_url": "https://news.ycombinator.com/item?id=48090848",
+      "author": "Tsarp",
+      "shared_at": 1778470945,
+      "links": [
+        "https://carelesswhisper.app"
+      ]
+    },
+    {
+      "name": "Careless Whisper",
+      "description": "A local dictation app that transcribes spoken dictations faster than cloud tools, completing transcription in under 2 seconds regardless of dictation length.",
+      "problem": "Cloud dictation tools are slower, especially for longer dictations.",
+      "audience": null,
+      "builder_usernames": [
+        "Tsarp"
+      ],
+      "source_excerpt": "Making local running dictations transcribe faster than cloud tools even for longer dictations. <2.0 seconds for any length of dictation.",
+      "evidence": [
+        {
+          "source_item_id": 46959403,
+          "source_field": "body",
+          "value": "Making local running dictations transcribe faster than cloud tools even for longer dictations. <2.0 seconds for any length of dictation.",
+          "supports": [],
+          "author": "Tsarp",
+          "shared_at": 1770729895,
+          "source_url": "https://news.ycombinator.com/item?id=46959403"
+        }
+      ],
+      "source_item_id": 46959403,
+      "source_url": "https://news.ycombinator.com/item?id=46959403",
+      "author": "Tsarp",
+      "shared_at": 1770729895,
+      "links": [
+        "https://carelesswhisper.app"
+      ]
+    },
+    {
+      "name": "Careless Whisper",
+      "description": "A local-first voice dictation app that makes long dictations (even over 10 minutes) appear in under 2 seconds by pushing what is possible with current STT models. All processing is done locally with zero network calls.",
+      "problem": "Long dictations (even over 10 minutes) are slow to appear with current speech-to-text models.",
+      "audience": null,
+      "builder_usernames": [
+        "Tsarp"
+      ],
+      "source_excerpt": "Voice interfaces. Currently this dictation app https://carelesswhisper.app\n\nManaged to make long dictations even >10mins appear in < 2seconds by pushing what is possible with current STT models.\n\nAll processing done locally with 0 network calls.",
+      "evidence": [
+        {
+          "source_item_id": 46596551,
+          "source_field": "body",
+          "value": "Voice interfaces. Currently this dictation app https://carelesswhisper.app\n\nManaged to make long dictations even >10mins appear in < 2seconds by pushing what is possible with current STT models.\n\nAll processing done locally with 0 network calls.",
+          "supports": [],
+          "author": "Tsarp",
+          "shared_at": 1768269414,
+          "source_url": "https://news.ycombinator.com/item?id=46596551"
+        }
+      ],
+      "source_item_id": 46596551,
+      "source_url": "https://news.ycombinator.com/item?id=46596551",
+      "author": "Tsarp",
+      "shared_at": 1768269414,
+      "links": [
+        "https://carelesswhisper.app"
+      ]
+    },
+    {
+      "name": "Careless Whisper",
+      "description": "A fast, locally running dictation tool built for developers, featuring voice activity detection (VAD), noise profiling, and low-level audio work.",
+      "problem": null,
+      "audience": "developers",
+      "builder_usernames": [
+        "Tsarp"
+      ],
+      "source_excerpt": "Fastest locally running dictation tool for developers. Done with VAD, noise profiling, low level audio work.",
+      "evidence": [
+        {
+          "source_item_id": 44709637,
+          "source_field": "body",
+          "value": "Fastest locally running dictation tool for developers. Done with VAD, noise profiling, low level audio work.",
+          "supports": [],
+          "author": "Tsarp",
+          "shared_at": 1753701201,
+          "source_url": "https://news.ycombinator.com/item?id=44709637"
+        }
+      ],
+      "source_item_id": 44709637,
+      "source_url": "https://news.ycombinator.com/item?id=44709637",
+      "author": "Tsarp",
+      "shared_at": 1753701201,
+      "links": [
+        "https://carelesswhisper.app"
+      ]
+    },
+    {
+      "name": "VoiceType",
+      "description": "A local dictation tool that runs entirely on-device with no subscription, positioned as a Wisprflow and Superwhisper alternative, best for dictating into Cursor, Windsurf, ChatGPT, or while talking to an LLM.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Tsarp"
+      ],
+      "source_excerpt": "wisprflow, superwhisper alternative\n\n- runs locally so no subscription\n\n- dictation tool, best for when using cursor, windsurf, chatgpt or talking to an LLM",
+      "evidence": [
+        {
+          "source_item_id": 43831802,
+          "source_field": "body",
+          "value": "wisprflow, superwhisper alternative\n\n- runs locally so no subscription\n\n- dictation tool, best for when using cursor, windsurf, chatgpt or talking to an LLM",
+          "supports": [],
+          "author": "Tsarp",
+          "shared_at": 1745930440,
+          "source_url": "https://news.ycombinator.com/item?id=43831802"
+        }
+      ],
+      "source_item_id": 43831802,
+      "source_url": "https://news.ycombinator.com/item?id=43831802",
+      "author": "Tsarp",
+      "shared_at": 1745930440,
+      "links": [
+        "https://carelesswhisper.app"
+      ]
+    }
+  ]
+}

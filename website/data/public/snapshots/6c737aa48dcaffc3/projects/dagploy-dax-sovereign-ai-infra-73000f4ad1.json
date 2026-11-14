@@ -1,0 +1,36 @@
+{
+  "id": 3885,
+  "slug": "dagploy-dax-sovereign-ai-infra-73000f4ad1",
+  "name": "Dagploy (Dax) — Sovereign AI Infra",
+  "mentions": [
+    {
+      "name": "Dagploy (Dax) — Sovereign AI Infra",
+      "description": "Open-source sovereign AI infrastructure platform that deploys private AI in an organization's own cloud in minutes. It automates AIOps infrastructure complexity — GPU VM provisioning, NVIDIA driver setup, Docker setup, model download, and launching the inference server — so users can run any open-source models and AI tools inside their cloud with full control.",
+      "problem": "Setting up private AI infrastructure is complex, involving GPU VM provisioning, NVIDIA driver setup, Docker configuration, model downloads, and inference server deployment.",
+      "audience": "Cloud organizations deploying private AI inside their own infrastructure",
+      "builder_usernames": [
+        "yodi"
+      ],
+      "source_excerpt": "I'm build open source : Sovereign AI Infra, Deployed in Minutes.\nDeliver Private AI in your cloud organization. Everything in full control.\n\nThe idea is simple: Its handle of the complexity for AIOps infra like GPU VM provisioning, NVIDIA driver setup, Docker setup, model download, and launching the inference server. User can run any OSS and AI tools inside their cloud.",
+      "evidence": [
+        {
+          "source_item_id": 48529944,
+          "source_field": "body",
+          "value": "I'm build open source : Sovereign AI Infra, Deployed in Minutes.\nDeliver Private AI in your cloud organization. Everything in full control.\n\nThe idea is simple: Its handle of the complexity for AIOps infra like GPU VM provisioning, NVIDIA driver setup, Docker setup, model download, and launching the inference server. User can run any OSS and AI tools inside their cloud.",
+          "supports": [],
+          "author": "yodi",
+          "shared_at": 1781457774,
+          "source_url": "https://news.ycombinator.com/item?id=48529944"
+        }
+      ],
+      "source_item_id": 48529944,
+      "source_url": "https://news.ycombinator.com/item?id=48529944",
+      "author": "yodi",
+      "shared_at": 1781457774,
+      "links": [
+        "https://github.com/dagploy/dax",
+        "https://www.dagploy.com"
+      ]
+    }
+  ]
+}

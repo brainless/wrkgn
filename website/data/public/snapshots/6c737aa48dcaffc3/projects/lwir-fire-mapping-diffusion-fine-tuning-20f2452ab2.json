@@ -1,0 +1,33 @@
+{
+  "id": 6664,
+  "slug": "lwir-fire-mapping-diffusion-fine-tuning-20f2452ab2",
+  "name": "LWIR fire mapping diffusion fine-tuning",
+  "mentions": [
+    {
+      "name": "LWIR fire mapping diffusion fine-tuning",
+      "description": "This project fine-tunes image models so diffusion can output LWIR (long-wave infrared) fire mapping data from RGB picture images; work so far includes manually labeling and matching RGB and LWIR image pairs and finding better pose matches when the flights differ.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "8note"
+      ],
+      "source_excerpt": "learning how to fine tune image models, for an attempt at getting diffusion to output LWIR fire mapping data from RGB picture images",
+      "evidence": [
+        {
+          "source_item_id": 47304312,
+          "source_field": "body",
+          "value": "learning how to fine tune image models, for an attempt at getting diffusion to output LWIR fire mapping data from RGB picture images",
+          "supports": [],
+          "author": "8note",
+          "shared_at": 1773024359,
+          "source_url": "https://news.ycombinator.com/item?id=47304312"
+        }
+      ],
+      "source_item_id": 47304312,
+      "source_url": "https://news.ycombinator.com/item?id=47304312",
+      "author": "8note",
+      "shared_at": 1773024359,
+      "links": []
+    }
+  ]
+}

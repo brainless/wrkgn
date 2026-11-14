@@ -1,0 +1,36 @@
+{
+  "id": 10027,
+  "slug": "rootly-burnout-detector-1d19a50c81",
+  "name": "Rootly Burnout Detector",
+  "mentions": [
+    {
+      "name": "Rootly Burnout Detector",
+      "description": "A burnout detector for SREs that helps teams identify incident responders who may be overworked or getting burned out. It combines objective signals from incident management tools (Rootly/PagerDuty), GitHub, and Slack with self-reported survey data to generate a Copenhagen Burnout Inventory (CBI) score. The tool is fully open-source and can be tested locally, with an alternative hosted version using mock data.",
+      "problem": "Teams lack a way to identify incident responders who may be overworked or getting burned out.",
+      "audience": "SRE teams and incident responders, with particularly positive feedback from managers of large and distributed organizations",
+      "builder_usernames": [
+        "sylvainkalache"
+      ],
+      "source_excerpt": "A burnout detector for SREs. The goal is to help teams identify incident responders who may be overworked/getting burned out.",
+      "evidence": [
+        {
+          "source_item_id": 45419069,
+          "source_field": "body",
+          "value": "A burnout detector for SREs. The goal is to help teams identify incident responders who may be overworked/getting burned out.",
+          "supports": [],
+          "author": "sylvainkalache",
+          "shared_at": 1759181843,
+          "source_url": "https://news.ycombinator.com/item?id=45419069"
+        }
+      ],
+      "source_item_id": 45419069,
+      "source_url": "https://news.ycombinator.com/item?id=45419069",
+      "author": "sylvainkalache",
+      "shared_at": 1759181843,
+      "links": [
+        "https://github.com/Rootly-AI-Labs/rootly-burnout-detector-web",
+        "https://www.oncallburnout.com/"
+      ]
+    }
+  ]
+}

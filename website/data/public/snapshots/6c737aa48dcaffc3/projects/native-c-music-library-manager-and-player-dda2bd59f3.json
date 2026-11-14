@@ -1,0 +1,35 @@
+{
+  "id": 8120,
+  "slug": "native-c-music-library-manager-and-player-dda2bd59f3",
+  "name": "Native C++ Music Library Manager and Player",
+  "mentions": [
+    {
+      "name": "Native C++ Music Library Manager and Player",
+      "description": "A native music library manager and player for Windows, macOS and other Unix systems, self-built in modern C++ with a 100% custom UI (Direct2D/CoreGraphics/Cairo backends). It aims for responsiveness, power-user friendliness and compactness, with fast incremental imports, multiple column sorting, multiple element selection, keyboard-first navigation, and strict separation of core logic from the UI thread to avoid lag and hangs. Its UI takes inspiration from pre-2010 skeuomorphic, dense interfaces.",
+      "problem": "The author finds existing music players laggy and hang-prone; foobar2000 doesn't meet their requirements, and an old unsupported version of iTunes they find satisfying doesn't support FLAC.",
+      "audience": null,
+      "builder_usernames": [
+        "anpep"
+      ],
+      "source_excerpt": "I’m self-teaching modern C++ by developing a native music library manager and player for Windows, macOS and other Unix systems.",
+      "evidence": [
+        {
+          "source_item_id": 46269766,
+          "source_field": "body",
+          "value": "I’m self-teaching modern C++ by developing a native music library manager and player for Windows, macOS and other Unix systems.",
+          "supports": [],
+          "author": "anpep",
+          "shared_at": 1765765947,
+          "source_url": "https://news.ycombinator.com/item?id=46269766"
+        }
+      ],
+      "source_item_id": 46269766,
+      "source_url": "https://news.ycombinator.com/item?id=46269766",
+      "author": "anpep",
+      "shared_at": 1765765947,
+      "links": [
+        "https://i.redd.it/ocx9m5av6d6g1.jpeg"
+      ]
+    }
+  ]
+}

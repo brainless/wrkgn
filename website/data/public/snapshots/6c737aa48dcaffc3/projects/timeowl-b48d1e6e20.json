@@ -1,0 +1,35 @@
+{
+  "id": 9344,
+  "slug": "timeowl-b48d1e6e20",
+  "name": "TimeOwl",
+  "mentions": [
+    {
+      "name": "TimeOwl",
+      "description": "A RescueTime alternative for KDE Plasma that runs in the background as a daemon and records time spent on each window into a SQLite database. A Firefox extension is planned next to capture time spent browsing the web; window tracking on Wayland required a workaround script because the protocol doesn't support it.",
+      "problem": "Tracking window usage on Wayland is hard because the protocol doesn't support it, and existing tools like RescueTime don't fill the need on KDE Plasma.",
+      "audience": null,
+      "builder_usernames": [
+        "alabhyajindal"
+      ],
+      "source_excerpt": "I created a RescueTime alternative for KDE Plasma. It runs in the background as a daemon and records time spent on each window in a SQLite database.",
+      "evidence": [
+        {
+          "source_item_id": 45872512,
+          "source_field": "body",
+          "value": "I created a RescueTime alternative for KDE Plasma. It runs in the background as a daemon and records time spent on each window in a SQLite database.",
+          "supports": [],
+          "author": "alabhyajindal",
+          "shared_at": 1762749925,
+          "source_url": "https://news.ycombinator.com/item?id=45872512"
+        }
+      ],
+      "source_item_id": 45872512,
+      "source_url": "https://news.ycombinator.com/item?id=45872512",
+      "author": "alabhyajindal",
+      "shared_at": 1762749925,
+      "links": [
+        "https://github.com/alabhyajindal/timeowl"
+      ]
+    }
+  ]
+}

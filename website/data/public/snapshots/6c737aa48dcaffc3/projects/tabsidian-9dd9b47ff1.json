@@ -1,0 +1,35 @@
+{
+  "id": 9385,
+  "slug": "tabsidian-9dd9b47ff1",
+  "name": "tabSidian",
+  "mentions": [
+    {
+      "name": "tabSidian",
+      "description": "A browser extension that saves a list of all open tabs into a markdown document. The output is formatted with a templating language and can be saved directly to an Obsidian vault; if no vault is available, it provides a downloadable markdown file and a clipboard copy. Links to browser extension stores are available on its GitHub page.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "cgranier"
+      ],
+      "source_excerpt": "I'm working on a browser extension that lets you save a list of all your open tabs into a markdown document. You can format the output using a templating language and it saves direct to your Obsidian vault if you have one (otherwise gives you a markdown file to download, plus a clipboard copy).",
+      "evidence": [
+        {
+          "source_item_id": 45932355,
+          "source_field": "body",
+          "value": "I'm working on a browser extension that lets you save a list of all your open tabs into a markdown document. You can format the output using a templating language and it saves direct to your Obsidian vault if you have one (otherwise gives you a markdown file to download, plus a clipboard copy).",
+          "supports": [],
+          "author": "cgranier",
+          "shared_at": 1763155419,
+          "source_url": "https://news.ycombinator.com/item?id=45932355"
+        }
+      ],
+      "source_item_id": 45932355,
+      "source_url": "https://news.ycombinator.com/item?id=45932355",
+      "author": "cgranier",
+      "shared_at": 1763155419,
+      "links": [
+        "https://github.com/cgranier/tabSidian"
+      ]
+    }
+  ]
+}

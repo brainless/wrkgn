@@ -1,0 +1,35 @@
+{
+  "id": 6164,
+  "slug": "multitui-f0997fd6e3",
+  "name": "MultiTUI",
+  "mentions": [
+    {
+      "name": "MultiTUI",
+      "description": "Native macOS sandbox terminal that provides a UI for sandbox-exec to protect the filesystem, sandboxes network access per domain, and filters secrets via gitleaks. Highly customizable, it generates native macOS app wrappers for each terminal app, each with its own rules and customizations, and offers options like vertical tabs.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "davidcann"
+      ],
+      "source_excerpt": "Native macOS sandbox terminal:\n\n- UI for sandbox-exec to protect filesystem\n- Network sandbox per domain\n- Secrets filter via gitleaks\n- Vertical tabs option",
+      "evidence": [
+        {
+          "source_item_id": 47305933,
+          "source_field": "body",
+          "value": "Native macOS sandbox terminal:\n\n- UI for sandbox-exec to protect filesystem\n- Network sandbox per domain\n- Secrets filter via gitleaks\n- Vertical tabs option",
+          "supports": [],
+          "author": "davidcann",
+          "shared_at": 1773042394,
+          "source_url": "https://news.ycombinator.com/item?id=47305933"
+        }
+      ],
+      "source_item_id": 47305933,
+      "source_url": "https://news.ycombinator.com/item?id=47305933",
+      "author": "davidcann",
+      "shared_at": 1773042394,
+      "links": [
+        "https://multitui.com"
+      ]
+    }
+  ]
+}

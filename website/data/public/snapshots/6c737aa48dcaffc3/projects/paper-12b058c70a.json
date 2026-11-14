@@ -1,0 +1,33 @@
+{
+  "id": 11374,
+  "slug": "paper-12b058c70a",
+  "name": "PAPER",
+  "mentions": [
+    {
+      "name": "PAPER",
+      "description": "A Python package installer designed from the ground up to avoid Pip's design mistakes, taking advantage of new packaging standards and offering Pipx-like functionality. Unlike uv or Poetry it is not a project manager or workflow tool: it installs the packages (and dependencies) you ask for, when and where you ask. It provides a programmatic API via a separate wheel (no subprocess-to-CLI needed), installs cross-environment, targets a ~1MB base disk footprint with aggressive caching and hard-linking, bootstraps itself as a zipapp with no hidden vendored dependencies, supports optional dependencies for non-essential functionality, and uses a CLI of separate hyphenated commands rather than subcommands.",
+      "problem": "Existing installers like Pip are large and slow, and force other tools to shell out to a CLI instead of offering a programmatic API; PAPER avoids these design mistakes.",
+      "audience": null,
+      "builder_usernames": [
+        "zahlman"
+      ],
+      "source_excerpt": "I'm developing PAPER (the Python Application, Package and Environment wRangler, a Python package installer)",
+      "evidence": [
+        {
+          "source_item_id": 43825508,
+          "source_field": "body",
+          "value": "I'm developing PAPER (the Python Application, Package and Environment wRangler, a Python package installer)",
+          "supports": [],
+          "author": "zahlman",
+          "shared_at": 1745870835,
+          "source_url": "https://news.ycombinator.com/item?id=43825508"
+        }
+      ],
+      "source_item_id": 43825508,
+      "source_url": "https://news.ycombinator.com/item?id=43825508",
+      "author": "zahlman",
+      "shared_at": 1745870835,
+      "links": []
+    }
+  ]
+}

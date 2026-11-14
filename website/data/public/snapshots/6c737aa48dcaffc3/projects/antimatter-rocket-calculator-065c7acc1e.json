@@ -1,0 +1,35 @@
+{
+  "id": 4602,
+  "slug": "antimatter-rocket-calculator-065c7acc1e",
+  "name": "Antimatter Rocket Calculator",
+  "mentions": [
+    {
+      "name": "Antimatter Rocket Calculator",
+      "description": "Web-based antimatter rocket calculator: given a travel distance, an allowable time to reach it, a payload mass, and an expected exhaust velocity, it estimates the time required to convert energy into antimatter fuel and how much antimatter is needed to arrive at the destination starting from the Moon. Side calculations include radiator size, the estimated footprint of the fusion reactor, and the amount of metamaterial needed, with ballpark answers intended for plotting sci-fi novel timelines.",
+      "problem": "Working out the energy-conversion time and the amount of antimatter fuel required for a rocket trip from the Moon to a given distance is difficult; the calculator provides ballpark order-of-magnitude answers.",
+      "audience": null,
+      "builder_usernames": [
+        "thangalin"
+      ],
+      "source_excerpt": "http://autonoma.ca/calculators/rocket/antimatter/\n\nGiven a distance, an allowable time to reach that distance, a payload to send, and an expected exhaust velocity, how would you calculate the time required to convert energy into antimatter fuel and how much antimatter needed to arrive at the destination (starting from the Moon)?\n\nThere are a few side calculations, such as the size of the radiator, estimated footprint of the fusion reactor itself, and how much metamaterial is needed. This is to help figure out timelines for a sci-fi novel, so ballpark answers are completely fine.",
+      "evidence": [
+        {
+          "source_item_id": 48088136,
+          "source_field": "body",
+          "value": "http://autonoma.ca/calculators/rocket/antimatter/\n\nGiven a distance, an allowable time to reach that distance, a payload to send, and an expected exhaust velocity, how would you calculate the time required to convert energy into antimatter fuel and how much antimatter needed to arrive at the destination (starting from the Moon)?\n\nThere are a few side calculations, such as the size of the radiator, estimated footprint of the fusion reactor itself, and how much metamaterial is needed. This is to help figure out timelines for a sci-fi novel, so ballpark answers are completely fine.",
+          "supports": [],
+          "author": "thangalin",
+          "shared_at": 1778447721,
+          "source_url": "https://news.ycombinator.com/item?id=48088136"
+        }
+      ],
+      "source_item_id": 48088136,
+      "source_url": "https://news.ycombinator.com/item?id=48088136",
+      "author": "thangalin",
+      "shared_at": 1778447721,
+      "links": [
+        "http://autonoma.ca/calculators/rocket/antimatter/"
+      ]
+    }
+  ]
+}

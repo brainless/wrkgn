@@ -1,0 +1,63 @@
+{
+  "id": 6704,
+  "slug": "ch340-usb-uart-converter-board-f6ebaede0f",
+  "name": "CH340 USB-UART converter board",
+  "mentions": [
+    {
+      "name": "CH340 USB-UART converter board",
+      "description": "A USB-to-UART converter board built around the CH340 chip. Its complete schematic was coded in Circuitscript, imported as a netlist into KiCad pcbnew for PCB layout, fabricated with JLCPCB, and tested working after the boards arrived.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "liu3hao"
+      ],
+      "source_excerpt": "I have created a usb-uart converter board with the CH340 chip. The complete schematic was coded with Circuitscript and then imported as a netlist into kicad pcbnew to do the pcb layout. The design was produced with JLCPCB and after receiving the boards I tested them and they do work! The design files are here https://github.com/liu3hao/usb-uart-bridge.",
+      "evidence": [
+        {
+          "source_item_id": 46944257,
+          "source_field": "body",
+          "value": "I have created a usb-uart converter board with the CH340 chip. The complete schematic was coded with Circuitscript and then imported as a netlist into kicad pcbnew to do the pcb layout. The design was produced with JLCPCB and after receiving the boards I tested them and they do work! The design files are here https://github.com/liu3hao/usb-uart-bridge.",
+          "supports": [],
+          "author": "liu3hao",
+          "shared_at": 1770638117,
+          "source_url": "https://news.ycombinator.com/item?id=46944257"
+        }
+      ],
+      "source_item_id": 46944257,
+      "source_url": "https://news.ycombinator.com/item?id=46944257",
+      "author": "liu3hao",
+      "shared_at": 1770638117,
+      "links": [
+        "https://github.com/liu3hao/usb-uart-bridge"
+      ]
+    },
+    {
+      "name": "USB-UART converter board (usb-uart-bridge)",
+      "description": "A USB-UART converter board built around the CH340 chip. The complete schematic was coded in Circuitscript, imported as a netlist into KiCad pcbnew for PCB layout, produced with JLCPCB, and verified working after the boards arrived.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "liu3hao"
+      ],
+      "source_excerpt": "I have created a usb-uart converter board with the CH340 chip. The complete schematic was coded with Circuitscript and then imported as a netlist into kicad pcbnew to do the pcb layout. The design was produced with JLCPCB and after receiving the boards I tested them and they do work!",
+      "evidence": [
+        {
+          "source_item_id": 46582988,
+          "source_field": "body",
+          "value": "I have created a usb-uart converter board with the CH340 chip. The complete schematic was coded with Circuitscript and then imported as a netlist into kicad pcbnew to do the pcb layout. The design was produced with JLCPCB and after receiving the boards I tested them and they do work!",
+          "supports": [],
+          "author": "liu3hao",
+          "shared_at": 1768183372,
+          "source_url": "https://news.ycombinator.com/item?id=46582988"
+        }
+      ],
+      "source_item_id": 46582988,
+      "source_url": "https://news.ycombinator.com/item?id=46582988",
+      "author": "liu3hao",
+      "shared_at": 1768183372,
+      "links": [
+        "https://github.com/liu3hao/usb-uart-bridge"
+      ]
+    }
+  ]
+}

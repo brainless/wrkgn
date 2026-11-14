@@ -1,0 +1,35 @@
+{
+  "id": 10878,
+  "slug": "thingio-payment-unlocked-vending-cabinet-e81a86596e",
+  "name": "Thingio (payment-unlocked vending cabinet)",
+  "mentions": [
+    {
+      "name": "Thingio (payment-unlocked vending cabinet)",
+      "description": "A smart vending cabinet styled like a little free library that sells products, originally excess honey from community bee hives. An LTE module connected to a solenoid lock listens for a 'checkout complete' callback from a Stripe payment link to unlock the cabinet, and weight sensing tracks the current product inventory inside. The service has been expanded to be product-agnostic so others can use it.",
+      "problem": "Provides a way to sell and distribute excess honey from community bee hives locally in a neighborhood, supporting wellness outreach that combats food deserts through small-scale farming.",
+      "audience": "Neighborhood residents buying honey; operated by a family friend doing wellness outreach in the community",
+      "builder_usernames": [
+        "zciwor"
+      ],
+      "source_excerpt": "A little free library style box, but not free and not a library (https://thingio.dev)\n\nI've got an LTE module connected to a solenoid lock. The module listens for a \"checkout complete\" callback from a Stripe payment link which will unlock the solenoid. There's also some weight sensing involved to track the current product inventory inside the cabinet.",
+      "evidence": [
+        {
+          "source_item_id": 43821636,
+          "source_field": "body",
+          "value": "A little free library style box, but not free and not a library (https://thingio.dev)\n\nI've got an LTE module connected to a solenoid lock. The module listens for a \"checkout complete\" callback from a Stripe payment link which will unlock the solenoid. There's also some weight sensing involved to track the current product inventory inside the cabinet.",
+          "supports": [],
+          "author": "zciwor",
+          "shared_at": 1745849015,
+          "source_url": "https://news.ycombinator.com/item?id=43821636"
+        }
+      ],
+      "source_item_id": 43821636,
+      "source_url": "https://news.ycombinator.com/item?id=43821636",
+      "author": "zciwor",
+      "shared_at": 1745849015,
+      "links": [
+        "https://thingio.dev"
+      ]
+    }
+  ]
+}

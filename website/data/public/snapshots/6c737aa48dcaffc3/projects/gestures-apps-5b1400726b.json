@@ -1,0 +1,35 @@
+{
+  "id": 8044,
+  "slug": "gestures-apps-5b1400726b",
+  "name": "gestures-apps",
+  "mentions": [
+    {
+      "name": "gestures-apps",
+      "description": "A framework for building two-player online browser games with webcam-based gesture controls, covering all aspects including hand tracking, UI, networking, and game state.",
+      "problem": "There was no existing framework that covers all aspects of this kind of webcam-gesture browser game (hand tracking, UI, networking, game state).",
+      "audience": null,
+      "builder_usernames": [
+        "ManuelKiessling"
+      ],
+      "source_excerpt": "Turns out, there isn’t a framework for these kinds of things that covers all aspects (hand tracking, UI, networking, game state), so I built it:\n\nhttps://github.com/manuelkiessling/gestures-apps",
+      "evidence": [
+        {
+          "source_item_id": 46483085,
+          "source_field": "body",
+          "value": "Turns out, there isn’t a framework for these kinds of things that covers all aspects (hand tracking, UI, networking, game state), so I built it:\n\nhttps://github.com/manuelkiessling/gestures-apps",
+          "supports": [],
+          "author": "ManuelKiessling",
+          "shared_at": 1767483996,
+          "source_url": "https://news.ycombinator.com/item?id=46483085"
+        }
+      ],
+      "source_item_id": 46483085,
+      "source_url": "https://news.ycombinator.com/item?id=46483085",
+      "author": "ManuelKiessling",
+      "shared_at": 1767483996,
+      "links": [
+        "https://github.com/manuelkiessling/gestures-apps"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 3747,
+  "slug": "bjolang-8e29830d63",
+  "name": "bjolang",
+  "mentions": [
+    {
+      "name": "bjolang",
+      "description": "A statically typed s-expression language for .NET with fast RRB vectors and CHAMP maps. It has no object system, using instead a trait system with associated types, and uses Hindley-Milner type inference with some limitations to simplify parallel compilation. Planned features include coroutines surfaced as \"bjoroutines\" via a \"bjo\" keyword (intended to later implement Concurrent ML-style concurrency) and generalized comprehensions such as (summing (in-vec my-vec)). Its looping system is inspired by the author's hygienic looping system for Guile Scheme.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "bjoli"
+      ],
+      "source_excerpt": "A statically typed s-expression language for dotnet (called bjolang. Because I made it), with fast Rrb vectors and champ maps. No object system, but a trait system with associated types.",
+      "evidence": [
+        {
+          "source_item_id": 48541451,
+          "source_field": "body",
+          "value": "A statically typed s-expression language for dotnet (called bjolang. Because I made it), with fast Rrb vectors and champ maps. No object system, but a trait system with associated types.",
+          "supports": [],
+          "author": "bjoli",
+          "shared_at": 1781532217,
+          "source_url": "https://news.ycombinator.com/item?id=48541451"
+        }
+      ],
+      "source_item_id": 48541451,
+      "source_url": "https://news.ycombinator.com/item?id=48541451",
+      "author": "bjoli",
+      "shared_at": 1781532217,
+      "links": []
+    }
+  ]
+}

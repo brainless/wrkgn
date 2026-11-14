@@ -1,0 +1,92 @@
+{
+  "id": 1632,
+  "slug": "ffl-af9d05c598",
+  "name": "ffl",
+  "mentions": [
+    {
+      "name": "ffl",
+      "description": "An agent-first file transfer/delivery platform that serves as the data plane of the delivery system, paired with an MCP companion (ffl-mcp) and a control-plane service.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "bear330"
+      ],
+      "source_excerpt": "After fully developing https://github.com/nuwainfo/ffl and https://github.com/nuwainfo/ffl-mcp, I’m now working to make ffl an agent‑first file transfer/delivery platform.",
+      "evidence": [
+        {
+          "source_item_id": 49707690,
+          "source_field": "body",
+          "value": "After fully developing https://github.com/nuwainfo/ffl and https://github.com/nuwainfo/ffl-mcp, I’m now working to make ffl an agent‑first file transfer/delivery platform.",
+          "supports": [],
+          "author": "bear330",
+          "shared_at": 1789446359,
+          "source_url": "https://news.ycombinator.com/item?id=49707690"
+        }
+      ],
+      "source_item_id": 49707690,
+      "source_url": "https://news.ycombinator.com/item?id=49707690",
+      "author": "bear330",
+      "shared_at": 1789446359,
+      "links": [
+        "https://github.com/nuwainfo/ffl"
+      ]
+    },
+    {
+      "name": "ffl",
+      "description": "A single-binary file transfer tool built as an Actually Portable Executable (APE) on Cosmopolitan Libc. It turns any file or folder into a secure peer-to-peer HTTPS link via WebRTC, letting users share files with one command across platforms (demoed round-trip transfer between Windows x64 and Android arm64 with the same binary).",
+      "problem": "Moving large files (logs, DB dumps) in and out of containers was painful; this tool reduces it to a single command.",
+      "audience": null,
+      "builder_usernames": [
+        "bear330"
+      ],
+      "source_excerpt": "I'm working on ffl (https://github.com/nuwainfo/ffl), an Actually Portable Executable (APE) that turns any file or folder into a secure P2P HTTPS link via WebRTC.",
+      "evidence": [
+        {
+          "source_item_id": 46276230,
+          "source_field": "body",
+          "value": "I'm working on ffl (https://github.com/nuwainfo/ffl), an Actually Portable Executable (APE) that turns any file or folder into a secure P2P HTTPS link via WebRTC.",
+          "supports": [],
+          "author": "bear330",
+          "shared_at": 1765814559,
+          "source_url": "https://news.ycombinator.com/item?id=46276230"
+        }
+      ],
+      "source_item_id": 46276230,
+      "source_url": "https://news.ycombinator.com/item?id=46276230",
+      "author": "bear330",
+      "shared_at": 1765814559,
+      "links": [
+        "https://github.com/nuwainfo/ffl"
+      ]
+    },
+    {
+      "name": "FastFileLink",
+      "description": "A file-sharing CLI and app that uses WebRTC for P2P transfer while exposing HTTPS links, making it compatible with browsers and tools like curl/wget. For huge files it supports resumable upload to an infra-backed server with fast global downloads, and the CLI will also support receiving files via WebRTC. It is open source and used to move files between containers and hosts.",
+      "problem": "Moving files between containers and hosts is awkward when volumes aren't mounted, and exchanging large files remotely typically requires a relay server.",
+      "audience": "Internal users moving files between containers and hosts, and WFH employees exchanging large files",
+      "builder_usernames": [
+        "bear330"
+      ],
+      "source_excerpt": "I am working on FastFileLink (https://fastfilelink.com/), yet another file-sharing CLI/app that uses WebRTC for P2P transfer but exposes HTTPS links, making it compatible with browsers and tools like curl/wget.",
+      "evidence": [
+        {
+          "source_item_id": 45421371,
+          "source_field": "body",
+          "value": "I am working on FastFileLink (https://fastfilelink.com/), yet another file-sharing CLI/app that uses WebRTC for P2P transfer but exposes HTTPS links, making it compatible with browsers and tools like curl/wget.",
+          "supports": [],
+          "author": "bear330",
+          "shared_at": 1759200008,
+          "source_url": "https://news.ycombinator.com/item?id=45421371"
+        }
+      ],
+      "source_item_id": 45421371,
+      "source_url": "https://news.ycombinator.com/item?id=45421371",
+      "author": "bear330",
+      "shared_at": 1759200008,
+      "links": [
+        "https://fastfilelink.com/",
+        "https://github.com/nuwainfo/ffl"
+      ]
+    }
+  ]
+}

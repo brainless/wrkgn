@@ -1,0 +1,35 @@
+{
+  "id": 8446,
+  "slug": "claude-issue-solver-53785ef0e3",
+  "name": "claude-issue-solver",
+  "mentions": [
+    {
+      "name": "claude-issue-solver",
+      "description": "A CLI that automates solving GitHub issues with Claude Code: run claude-issue, pick an issue from a list, and it spins up a git worktree, opens Claude in a new terminal, and auto-creates a pull request when Claude commits, condensing the multi-step issue-fixing workflow into one command.",
+      "problem": "The manual workflow of reading an issue, creating a branch, copying issue text, pasting it into Claude, and creating a PR was tedious; this reduces it to a single command.",
+      "audience": "Developers working with GitHub issues who use Claude Code for coding assistance.",
+      "builder_usernames": [
+        "mikeouroumis"
+      ],
+      "source_excerpt": "Working on claude-issue-solver - a CLI that automates solving GitHub issues with Claude Code.\n\nYou run claude-issue, pick an issue from a list, and it spins up a git worktree, opens Claude in a new terminal, and auto-creates a PR when Claude commits.",
+      "evidence": [
+        {
+          "source_item_id": 46287313,
+          "source_field": "body",
+          "value": "Working on claude-issue-solver - a CLI that automates solving GitHub issues with Claude Code.\n\nYou run claude-issue, pick an issue from a list, and it spins up a git worktree, opens Claude in a new terminal, and auto-creates a PR when Claude commits.",
+          "supports": [],
+          "author": "mikeouroumis",
+          "shared_at": 1765884485,
+          "source_url": "https://news.ycombinator.com/item?id=46287313"
+        }
+      ],
+      "source_item_id": 46287313,
+      "source_url": "https://news.ycombinator.com/item?id=46287313",
+      "author": "mikeouroumis",
+      "shared_at": 1765884485,
+      "links": [
+        "https://github.com/MikeOuroumis/claude-issue-solver"
+      ]
+    }
+  ]
+}

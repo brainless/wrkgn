@@ -1,0 +1,35 @@
+{
+  "id": 6524,
+  "slug": "blobsearch-e8bc5e121e",
+  "name": "blobsearch",
+  "mentions": [
+    {
+      "name": "blobsearch",
+      "description": "This is a zero-ops, S3-based log search tool that serves as a cheap alternative to CloudWatch and similar cloud logging services, avoiding vendor dependence and extra cloud costs.",
+      "problem": "CloudWatch and comparable logging services are expensive and create dependence on cloud providers, so a cheaper alternative was needed.",
+      "audience": "Needed a cheap alternative to CloudWatch and other cloud logging services without paying the \"cloud tax\" or depending on them.",
+      "builder_usernames": [
+        "conqrr"
+      ],
+      "source_excerpt": "Zero ops S3 based log search: https://github.com/amr8t/blobsearch",
+      "evidence": [
+        {
+          "source_item_id": 47305010,
+          "source_field": "body",
+          "value": "Zero ops S3 based log search: https://github.com/amr8t/blobsearch",
+          "supports": [],
+          "author": "conqrr",
+          "shared_at": 1773032172,
+          "source_url": "https://news.ycombinator.com/item?id=47305010"
+        }
+      ],
+      "source_item_id": 47305010,
+      "source_url": "https://news.ycombinator.com/item?id=47305010",
+      "author": "conqrr",
+      "shared_at": 1773032172,
+      "links": [
+        "https://github.com/amr8t/blobsearch"
+      ]
+    }
+  ]
+}

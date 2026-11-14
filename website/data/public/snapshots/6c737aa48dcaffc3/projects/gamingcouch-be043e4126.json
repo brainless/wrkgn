@@ -1,0 +1,35 @@
+{
+  "id": 8947,
+  "slug": "gamingcouch-be043e4126",
+  "name": "GamingCouch",
+  "mentions": [
+    {
+      "name": "GamingCouch",
+      "description": "A web-based local multiplayer party game platform, described as a lovechild of Jackbox Games and Mario Party, currently in free Early Access with 18 competitive mini-games. Players use their mobile phones (or game pads) as controllers, everything runs in the browser with no downloads or installs, and games support up to 8 players in action-based rounds of about one minute with no language-based trivia or asynchronous games. The platform plans to open up to third-party developers and game jams, handling network connectivity and controllers so third-party devs can focus on building multiplayer mini-games.",
+      "problem": "Third-party developers building multiplayer mini-games would otherwise spend an eternity on networking code and building infrastructure; the platform takes care of network connectivity and controllers for them.",
+      "audience": "Party game players (up to 8 per game) using mobile phones or game pads as controllers, plus (in the future) third-party developers building multiplayer mini-games.",
+      "builder_usernames": [
+        "ChaosOp"
+      ],
+      "source_excerpt": "I'm building a web-based local multiplayer party game platform. It's like a lovechild of Jackbox Games and Mario Party: https://gamingcouch.com.",
+      "evidence": [
+        {
+          "source_item_id": 46118712,
+          "source_field": "body",
+          "value": "I'm building a web-based local multiplayer party game platform. It's like a lovechild of Jackbox Games and Mario Party: https://gamingcouch.com.",
+          "supports": [],
+          "author": "ChaosOp",
+          "shared_at": 1764661450,
+          "source_url": "https://news.ycombinator.com/item?id=46118712"
+        }
+      ],
+      "source_item_id": 46118712,
+      "source_url": "https://news.ycombinator.com/item?id=46118712",
+      "author": "ChaosOp",
+      "shared_at": 1764661450,
+      "links": [
+        "https://gamingcouch.com"
+      ]
+    }
+  ]
+}

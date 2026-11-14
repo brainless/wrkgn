@@ -1,0 +1,33 @@
+{
+  "id": 9083,
+  "slug": "sshfs-c582534dd2",
+  "name": "sshfs",
+  "mentions": [
+    {
+      "name": "sshfs",
+      "description": "A kernel extension-free sshfs for macOS, implemented as a standalone command-line binary that proxies NFS to SFTP. It requires no special permissions, app sandboxing, or user approval in System Settings (unlike an earlier FSKit-based attempt), works out of the box, and delivers reasonable performance.",
+      "problem": "Existing sshfs on macOS depends on kernel extensions, and the FSKit route is too constrained by the extension security model, which requires app sandboxing and user approval in System Settings.",
+      "audience": null,
+      "builder_usernames": [
+        "jabedude"
+      ],
+      "source_excerpt": "A kernel extension-less sshfs for macOS. I tried using FSKit and got halfway before I felt too constrained by the extension security model (must be app sandboxed, must be approved by the user in system settings). Now it’s just a standalone command line binary that doesn’t require any special permissions since it proxies NFS to SFTP.",
+      "evidence": [
+        {
+          "source_item_id": 45869388,
+          "source_field": "body",
+          "value": "A kernel extension-less sshfs for macOS. I tried using FSKit and got halfway before I felt too constrained by the extension security model (must be app sandboxed, must be approved by the user in system settings). Now it’s just a standalone command line binary that doesn’t require any special permissions since it proxies NFS to SFTP.",
+          "supports": [],
+          "author": "jabedude",
+          "shared_at": 1762723905,
+          "source_url": "https://news.ycombinator.com/item?id=45869388"
+        }
+      ],
+      "source_item_id": 45869388,
+      "source_url": "https://news.ycombinator.com/item?id=45869388",
+      "author": "jabedude",
+      "shared_at": 1762723905,
+      "links": []
+    }
+  ]
+}

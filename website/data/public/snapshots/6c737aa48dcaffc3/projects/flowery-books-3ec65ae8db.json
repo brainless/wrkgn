@@ -1,0 +1,35 @@
+{
+  "id": 8045,
+  "slug": "flowery-books-3ec65ae8db",
+  "name": "Flowery Books",
+  "mentions": [
+    {
+      "name": "Flowery Books",
+      "description": "An e-book reader and library of selected classics from Standard Ebooks. Current work includes adding persistence for the bookmark widget (its position is currently lost when closing the app or navigating away from a chapter), exploring cross-device bookmark synchronization, which is complicated by text reflow across screen sizes, and designing unread/reading/read/abandoned book states for the library's shelf/stack UI.",
+      "problem": "The bookmark widget's position is lost when navigating away from a chapter or closing the app, and synchronizing bookmark locations across devices is tricky because of reflow depending on screen size.",
+      "audience": null,
+      "builder_usernames": [
+        "the_florist"
+      ],
+      "source_excerpt": "https://flowery.app/books – An e-book reader and library of selected classics from Standard Ebooks.",
+      "evidence": [
+        {
+          "source_item_id": 46483825,
+          "source_field": "body",
+          "value": "https://flowery.app/books – An e-book reader and library of selected classics from Standard Ebooks.",
+          "supports": [],
+          "author": "the_florist",
+          "shared_at": 1767490106,
+          "source_url": "https://news.ycombinator.com/item?id=46483825"
+        }
+      ],
+      "source_item_id": 46483825,
+      "source_url": "https://news.ycombinator.com/item?id=46483825",
+      "author": "the_florist",
+      "shared_at": 1767490106,
+      "links": [
+        "https://flowery.app/books"
+      ]
+    }
+  ]
+}

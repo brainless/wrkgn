@@ -1,0 +1,35 @@
+{
+  "id": 11085,
+  "slug": "lspwatch-9eba96f619",
+  "name": "lspwatch",
+  "mentions": [
+    {
+      "name": "lspwatch",
+      "description": "A telemetry-capturing proxy for the Language Server Protocol (LSP) that makes instrumenting language servers easy. Support for MCP (Model Context Protocol) is being added, with the proxy positioned as a general platform for monitoring or debugging MCP servers or clients.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "noor_z"
+      ],
+      "source_excerpt": "Working on supporting MCP (model context protocol) in my LSP (language server protocol) proxy: https://github.com/noredeen/lspwatch.\n\nI wrote this tool to make instrumenting language servers very easy.",
+      "evidence": [
+        {
+          "source_item_id": 43822805,
+          "source_field": "body",
+          "value": "Working on supporting MCP (model context protocol) in my LSP (language server protocol) proxy: https://github.com/noredeen/lspwatch.\n\nI wrote this tool to make instrumenting language servers very easy.",
+          "supports": [],
+          "author": "noor_z",
+          "shared_at": 1745855341,
+          "source_url": "https://news.ycombinator.com/item?id=43822805"
+        }
+      ],
+      "source_item_id": 43822805,
+      "source_url": "https://news.ycombinator.com/item?id=43822805",
+      "author": "noor_z",
+      "shared_at": 1745855341,
+      "links": [
+        "https://github.com/noredeen/lspwatch"
+      ]
+    }
+  ]
+}

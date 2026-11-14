@@ -1,0 +1,35 @@
+{
+  "id": 3994,
+  "slug": "vocast-a0bcbe81d7",
+  "name": "Vocast",
+  "mentions": [
+    {
+      "name": "Vocast",
+      "description": "A self-hosted TTS CLI application that converts articles into spoken audio, which can be streamed from a PC to a mobile device when out and about. Planned features include queuing RSS feed items for audio conversion and triggering conversion from a phone.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "8bitsout"
+      ],
+      "source_excerpt": "I'm working on my self-host TTS cli application for turning articles into spoken audio which I can stream from my PC to mobile device when I'm out and about.\n\nIt's called Vocast: https://github.com/cnrmurphy/vocast",
+      "evidence": [
+        {
+          "source_item_id": 48530812,
+          "source_field": "body",
+          "value": "I'm working on my self-host TTS cli application for turning articles into spoken audio which I can stream from my PC to mobile device when I'm out and about.\n\nIt's called Vocast: https://github.com/cnrmurphy/vocast",
+          "supports": [],
+          "author": "8bitsout",
+          "shared_at": 1781461634,
+          "source_url": "https://news.ycombinator.com/item?id=48530812"
+        }
+      ],
+      "source_item_id": 48530812,
+      "source_url": "https://news.ycombinator.com/item?id=48530812",
+      "author": "8bitsout",
+      "shared_at": 1781461634,
+      "links": [
+        "https://github.com/cnrmurphy/vocast"
+      ]
+    }
+  ]
+}

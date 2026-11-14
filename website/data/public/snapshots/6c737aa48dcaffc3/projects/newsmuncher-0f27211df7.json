@@ -1,0 +1,35 @@
+{
+  "id": 9718,
+  "slug": "newsmuncher-0f27211df7",
+  "name": "Newsmuncher",
+  "mentions": [
+    {
+      "name": "Newsmuncher",
+      "description": "A news aggregator that scrapes sources and uses embeddings with similarity clustering to build timelines of news stories. Data cleaning and UI refinement remain, with plans to either monetize news data or build a news analysis / intelligence platform.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "balksi"
+      ],
+      "source_excerpt": "I am working on yet another news aggregator: newsmuncher.com\n\nSo far i've got the scraping and embeddings / similarity clustering down (to build timelines of news stories), lots of data cleaning and UI refinement required. I find it hard to make choices, maybe I need a cofounder who can pair up with me. Looking to either monetize news data or build a news analysis / intelligence platform.",
+      "evidence": [
+        {
+          "source_item_id": 45887079,
+          "source_field": "body",
+          "value": "I am working on yet another news aggregator: newsmuncher.com\n\nSo far i've got the scraping and embeddings / similarity clustering down (to build timelines of news stories), lots of data cleaning and UI refinement required. I find it hard to make choices, maybe I need a cofounder who can pair up with me. Looking to either monetize news data or build a news analysis / intelligence platform.",
+          "supports": [],
+          "author": "balksi",
+          "shared_at": 1762867928,
+          "source_url": "https://news.ycombinator.com/item?id=45887079"
+        }
+      ],
+      "source_item_id": 45887079,
+      "source_url": "https://news.ycombinator.com/item?id=45887079",
+      "author": "balksi",
+      "shared_at": 1762867928,
+      "links": [
+        "https://newsmuncher.com"
+      ]
+    }
+  ]
+}

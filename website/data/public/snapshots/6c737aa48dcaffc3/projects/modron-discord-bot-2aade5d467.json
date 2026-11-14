@@ -1,0 +1,35 @@
+{
+  "id": 5431,
+  "slug": "modron-discord-bot-2aade5d467",
+  "name": "Modron Discord Bot",
+  "mentions": [
+    {
+      "name": "Modron Discord Bot",
+      "description": "An open-source Discord moderation bot that automatically catches spam messages and spam links, deletes them, and reposts messages into the correct channel, streamlining moderation for large Discord communities and being easy to set up.",
+      "problem": "In large Discord communities, spammers repeatedly post spam links and messages across all channels, forcing moderators to delete them one by one and repost content into the right channel, which is repetitive and time-consuming.",
+      "audience": "Managers and moderators of Discord communities, such as the author's 1k+ member community",
+      "builder_usernames": [
+        "thisisharsh7"
+      ],
+      "source_excerpt": "So I build a discord bot that would make this lot easier it catches the spam message post them into actual channel and also delete spam links. It's open source and easy to setup.",
+      "evidence": [
+        {
+          "source_item_id": 47747515,
+          "source_field": "body",
+          "value": "So I build a discord bot that would make this lot easier it catches the spam message post them into actual channel and also delete spam links. It's open source and easy to setup.",
+          "supports": [],
+          "author": "thisisharsh7",
+          "shared_at": 1776053607,
+          "source_url": "https://news.ycombinator.com/item?id=47747515"
+        }
+      ],
+      "source_item_id": 47747515,
+      "source_url": "https://news.ycombinator.com/item?id=47747515",
+      "author": "thisisharsh7",
+      "shared_at": 1776053607,
+      "links": [
+        "https://github.com/thisisharsh7/modron-discord-bot"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 4174,
+  "slug": "claude-brief-be09801d17",
+  "name": "claude-brief",
+  "mentions": [
+    {
+      "name": "claude-brief",
+      "description": "A live session summariser for Claude Code that docks a pane next to the terminal (supporting iTerm2, tmux, kitty, ghostty, and Apple Terminal) showing a running summary of what the current session is doing, letting users re-orient across multiple Claude Code terminals at a glance. It is distributed as a Claude Code plugin.",
+      "problem": "The author kept losing track of too many Claude Code terminals running at once, tabbing between them with no idea where each session was.",
+      "audience": null,
+      "builder_usernames": [
+        "tigerquoll"
+      ],
+      "source_excerpt": "claude-brief: a live session summariser for Claude Code. It docks a pane right next to your terminal (iTerm2, tmux, kitty, ghostty, Apple Terminal) showing a running summary of what the current session is doing.",
+      "evidence": [
+        {
+          "source_item_id": 48535829,
+          "source_field": "body",
+          "value": "claude-brief: a live session summariser for Claude Code. It docks a pane right next to your terminal (iTerm2, tmux, kitty, ghostty, Apple Terminal) showing a running summary of what the current session is doing.",
+          "supports": [],
+          "author": "tigerquoll",
+          "shared_at": 1781490012,
+          "source_url": "https://news.ycombinator.com/item?id=48535829"
+        }
+      ],
+      "source_item_id": 48535829,
+      "source_url": "https://news.ycombinator.com/item?id=48535829",
+      "author": "tigerquoll",
+      "shared_at": 1781490012,
+      "links": [
+        "https://github.com/tigerquoll/claude-brief"
+      ]
+    }
+  ]
+}

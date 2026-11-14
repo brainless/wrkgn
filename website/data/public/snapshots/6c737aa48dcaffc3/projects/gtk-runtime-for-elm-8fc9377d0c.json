@@ -1,0 +1,33 @@
+{
+  "id": 7787,
+  "slug": "gtk-runtime-for-elm-8fc9377d0c",
+  "name": "GTK runtime for Elm",
+  "mentions": [
+    {
+      "name": "GTK runtime for Elm",
+      "description": "A GTK runtime for Elm that lets developers write Elm, compile it to JavaScript, execute it with QuickJS, and bridge to GTK to render native apps driven by the JS state machine. It aims for Elm's goals of no runtime errors and fearless refactoring while making native Linux GUI development more accessible and amenable to rapid prototyping.",
+      "problem": "Building native Linux GUI apps lacks accessible, rapid-prototyping-friendly tooling.",
+      "audience": "Improved accessibility for developers who want to create a native \"Linux\" app; the author wants Linux to be the default choice when building a new GUI app.",
+      "builder_usernames": [
+        "cma256"
+      ],
+      "source_excerpt": "As of yesterday I decided I want to try adding a GTK runtime for Elm. Write Elm, compile to JS, execute with QuickJS, bridge to GTK, render a native app using the JS state machine.",
+      "evidence": [
+        {
+          "source_item_id": 46588104,
+          "source_field": "body",
+          "value": "As of yesterday I decided I want to try adding a GTK runtime for Elm. Write Elm, compile to JS, execute with QuickJS, bridge to GTK, render a native app using the JS state machine.",
+          "supports": [],
+          "author": "cma256",
+          "shared_at": 1768224022,
+          "source_url": "https://news.ycombinator.com/item?id=46588104"
+        }
+      ],
+      "source_item_id": 46588104,
+      "source_url": "https://news.ycombinator.com/item?id=46588104",
+      "author": "cma256",
+      "shared_at": 1768224022,
+      "links": []
+    }
+  ]
+}

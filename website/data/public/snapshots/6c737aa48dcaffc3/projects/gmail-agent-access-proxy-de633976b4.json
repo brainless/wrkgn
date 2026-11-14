@@ -1,0 +1,33 @@
+{
+  "id": 6516,
+  "slug": "gmail-agent-access-proxy-de633976b4",
+  "name": "Gmail Agent Access Proxy",
+  "mentions": [
+    {
+      "name": "Gmail Agent Access Proxy",
+      "description": "A proxy server that gives an AI agent access to the author's Gmail with granular, user-defined permissions, e.g. allowing the agent to create filters and apply custom labels while blocking it from sending messages to trash.",
+      "problem": "The author's inbox is 99% full after years of giving their email out to every company on the web, so they want to safely delegate email cleanup to an agent without granting unrestricted access.",
+      "audience": "Personal use: the author's own Gmail account and inbox",
+      "builder_usernames": [
+        "maxaw"
+      ],
+      "source_excerpt": "A proxy server to give my agent access to my Gmail with permissions as granular as I like. Like can create filters to custom label but not send to trash.",
+      "evidence": [
+        {
+          "source_item_id": 47304229,
+          "source_field": "body",
+          "value": "A proxy server to give my agent access to my Gmail with permissions as granular as I like. Like can create filters to custom label but not send to trash.",
+          "supports": [],
+          "author": "maxaw",
+          "shared_at": 1773023603,
+          "source_url": "https://news.ycombinator.com/item?id=47304229"
+        }
+      ],
+      "source_item_id": 47304229,
+      "source_url": "https://news.ycombinator.com/item?id=47304229",
+      "author": "maxaw",
+      "shared_at": 1773023603,
+      "links": []
+    }
+  ]
+}

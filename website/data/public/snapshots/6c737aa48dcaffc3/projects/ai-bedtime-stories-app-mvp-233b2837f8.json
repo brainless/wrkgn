@@ -1,0 +1,33 @@
+{
+  "id": 11056,
+  "slug": "ai-bedtime-stories-app-mvp-233b2837f8",
+  "name": "AI bedtime stories app (MVP)",
+  "mentions": [
+    {
+      "name": "AI bedtime stories app (MVP)",
+      "description": "This app generates personalized bedtime stories from user-supplied character names and a theme, then reads them aloud via text-to-speech, including the option to clone a parent's voice for narration. Planned differentiators include connecting stories into a continuous narrative based on previous ones and adapting fairy-tale context to local folklore (e.g., Polish vs. British).",
+      "problem": "Existing services like this mostly don't support using a parent's voice, and very few can connect stories together into a continuous narrative based on previous ones.",
+      "audience": null,
+      "builder_usernames": [
+        "hsuduebc2"
+      ],
+      "source_excerpt": "I'm building an MVP for an \"AI bedtime stories\" app. The idea is that you just input the character names, a theme, and choose a voice (including the option to clone a parent's voice for narration). It generates a story and reads it out using TTS.",
+      "evidence": [
+        {
+          "source_item_id": 43821465,
+          "source_field": "body",
+          "value": "I'm building an MVP for an \"AI bedtime stories\" app. The idea is that you just input the character names, a theme, and choose a voice (including the option to clone a parent's voice for narration). It generates a story and reads it out using TTS.",
+          "supports": [],
+          "author": "hsuduebc2",
+          "shared_at": 1745847792,
+          "source_url": "https://news.ycombinator.com/item?id=43821465"
+        }
+      ],
+      "source_item_id": 43821465,
+      "source_url": "https://news.ycombinator.com/item?id=43821465",
+      "author": "hsuduebc2",
+      "shared_at": 1745847792,
+      "links": []
+    }
+  ]
+}

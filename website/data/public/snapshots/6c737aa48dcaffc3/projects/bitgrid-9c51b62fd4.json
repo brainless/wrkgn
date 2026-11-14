@@ -1,0 +1,36 @@
+{
+  "id": 10329,
+  "slug": "bitgrid-9c51b62fd4",
+  "name": "BitGrid",
+  "mentions": [
+    {
+      "name": "BitGrid",
+      "description": "This project explores a novel compute architecture for LLMs: a vast 2D grid of 4x16-bit lookup tables with latches, like an FPGA simplified and optimized for overall throughput rather than latency. The work centers on building the software for it — translating expressions into a directed acyclic graph of binary logical operations (largely with LLM assistance) and mapping that graph onto the grid — and estimating how large a distributed BitGrid would need to be to hold a frontier model like ChatGPT5, including silicon area at 7nm and power requirements, aiming to drastically cut cost and power for LLM inference. The author hopes to submit a design to the TinyTapeout Sky25a run to get an ASIC made.",
+      "problem": "Frontier LLM compute is extremely expensive in cost and power; the project aims to run large models far more cheaply and efficiently by mapping them directly into a grid of lookup tables.",
+      "audience": null,
+      "builder_usernames": [
+        "mikewarot"
+      ],
+      "source_excerpt": "BitGrid[1] - I'm trying to figure out how to do software for a BitGrid. Long, long ago I looked at computing, and decided that the best high performance strategy was something like an FPGA, but simplified, and optimized around overall performance, and not simply the lowest latency and most efficient use of silicon towards that goal. A vast 2d grid of 4x16 bit look up tables, with latches, seems to be optimal, to me.",
+      "evidence": [
+        {
+          "source_item_id": 45052047,
+          "source_field": "body",
+          "value": "BitGrid[1] - I'm trying to figure out how to do software for a BitGrid. Long, long ago I looked at computing, and decided that the best high performance strategy was something like an FPGA, but simplified, and optimized around overall performance, and not simply the lowest latency and most efficient use of silicon towards that goal. A vast 2d grid of 4x16 bit look up tables, with latches, seems to be optimal, to me.",
+          "supports": [],
+          "author": "mikewarot",
+          "shared_at": 1756388420,
+          "source_url": "https://news.ycombinator.com/item?id=45052047"
+        }
+      ],
+      "source_item_id": 45052047,
+      "source_url": "https://news.ycombinator.com/item?id=45052047",
+      "author": "mikewarot",
+      "shared_at": 1756388420,
+      "links": [
+        "https://esolangs.org/wiki/Bitgrid",
+        "https://github.com/mikewarot/Bitgrid_Python"
+      ]
+    }
+  ]
+}

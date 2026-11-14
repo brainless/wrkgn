@@ -1,0 +1,63 @@
+{
+  "id": 9270,
+  "slug": "clues-by-sam-286dd3916a",
+  "name": "Clues by Sam",
+  "mentions": [
+    {
+      "name": "Clues by Sam",
+      "description": "A daily logic puzzle web game where players can only make deductions that are provable by logic, with no guessing required. Puzzle generation relies on a constraint solving algorithm to guarantee this property, and difficulty resets each Monday and ramps up toward Sunday.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tikotus"
+      ],
+      "source_excerpt": "I posted in this monthly thread first time in May when I launched a daily logic puzzle, Clues by Sam. Since then it's grown significantly, and I couldn't be happier!",
+      "evidence": [
+        {
+          "source_item_id": 45869392,
+          "source_field": "body",
+          "value": "I posted in this monthly thread first time in May when I launched a daily logic puzzle, Clues by Sam. Since then it's grown significantly, and I couldn't be happier!",
+          "supports": [],
+          "author": "tikotus",
+          "shared_at": 1762723913,
+          "source_url": "https://news.ycombinator.com/item?id=45869392"
+        }
+      ],
+      "source_item_id": 45869392,
+      "source_url": "https://news.ycombinator.com/item?id=45869392",
+      "author": "tikotus",
+      "shared_at": 1762723913,
+      "links": [
+        "https://cluesbysam.com"
+      ]
+    },
+    {
+      "name": "Clues by Sam",
+      "description": "A daily logic puzzle web game where players deduce innocent and guilty characters from clues. It includes a constraint-solving level generator that produces puzzles always solvable purely through logic (no guessing needed), tuned to avoid both overly long deduction chains and trivially obvious steps, and a share feature that reflects how many illogical guesses were made.",
+      "problem": "Generating puzzle levels that are provably solvable by logic alone (no guessing required) while still being fun — avoiding crazy long deduction chains as well as obvious deductions — proved difficult.",
+      "audience": null,
+      "builder_usernames": [
+        "tikotus"
+      ],
+      "source_excerpt": "I just put live a daily logic puzzle, Clues by Sam. I've been working on it for a while now, mainly on the level generator. It was tricky to generate levels that are solvable using logic (no guessing needed), and also fun to solve (no crazy long deduction chains, but also not just obvious things).",
+      "evidence": [
+        {
+          "source_item_id": 43821457,
+          "source_field": "body",
+          "value": "I just put live a daily logic puzzle, Clues by Sam. I've been working on it for a while now, mainly on the level generator. It was tricky to generate levels that are solvable using logic (no guessing needed), and also fun to solve (no crazy long deduction chains, but also not just obvious things).",
+          "supports": [],
+          "author": "tikotus",
+          "shared_at": 1745847745,
+          "source_url": "https://news.ycombinator.com/item?id=43821457"
+        }
+      ],
+      "source_item_id": 43821457,
+      "source_url": "https://news.ycombinator.com/item?id=43821457",
+      "author": "tikotus",
+      "shared_at": 1745847745,
+      "links": [
+        "https://cluesbysam.com"
+      ]
+    }
+  ]
+}

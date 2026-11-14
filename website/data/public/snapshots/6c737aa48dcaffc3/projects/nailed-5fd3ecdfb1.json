@@ -1,0 +1,35 @@
+{
+  "id": 6018,
+  "slug": "nailed-5fd3ecdfb1",
+  "name": "nailed",
+  "mentions": [
+    {
+      "name": "nailed",
+      "description": "A generic PKCS#11 interface to Apple's Secure Enclave, enabling applications to use Secure Enclave keys through the standard PKCS#11 API. It was built primarily for use with OpenVPN and works like secretive or /usr/lib/ssh-keychain.dylib, but is not limited to SSH.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "thr0w4w4y1337"
+      ],
+      "source_excerpt": "I've built a generic PKCS#11 interface to the Apple's Secure Enclave[1]\n\nPrimarily to use in conjunction with OpenVPN. Like secretive or /usr/lib/ssh-keychain.dylib[2], but not just for SSH.",
+      "evidence": [
+        {
+          "source_item_id": 47306222,
+          "source_field": "body",
+          "value": "I've built a generic PKCS#11 interface to the Apple's Secure Enclave[1]\n\nPrimarily to use in conjunction with OpenVPN. Like secretive or /usr/lib/ssh-keychain.dylib[2], but not just for SSH.",
+          "supports": [],
+          "author": "thr0w4w4y1337",
+          "shared_at": 1773044876,
+          "source_url": "https://news.ycombinator.com/item?id=47306222"
+        }
+      ],
+      "source_item_id": 47306222,
+      "source_url": "https://news.ycombinator.com/item?id=47306222",
+      "author": "thr0w4w4y1337",
+      "shared_at": 1773044876,
+      "links": [
+        "https://github.com/ne-bknn/nailed"
+      ]
+    }
+  ]
+}

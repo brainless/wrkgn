@@ -1,0 +1,35 @@
+{
+  "id": 9924,
+  "slug": "aip-a3062b25fa",
+  "name": "aip",
+  "mentions": [
+    {
+      "name": "aip",
+      "description": "A collection of Go libraries providing safe default choices for implementing Google's API Improvement Proposals in ConnectRPC services. It includes AIP-161 field masks (with semantics differing from standard field masks) plus middleware for AIP-157 read filtering, and an AUP-160 filter implementation borrowed with attribution from the LuCI project. Planned expansion includes supporting data sources beyond SQL databases and page tokens, and exporting more frequently used middleware.",
+      "problem": "Implementing Google's API Improvement Proposals in ConnectRPC services lacks safe defaults.",
+      "audience": null,
+      "builder_usernames": [
+        "hxtk"
+      ],
+      "source_excerpt": "I'm working on https://github.com/hxtk/aip as a collection of libraries giving safe default choices to implement Google's API improvement proposals in ConnectRPC services. It borrows (with attribution per the license) an unexported implementation of AUP-160 filters from the LuCI project, and I intend to expand it to support data sources other than SQL databases and page tokens, and it also exports an implementation of AIP-161 field masks (which have different semantics compared to standard field masks) and middleware to help with using them for AIP-157 read filtering.",
+      "evidence": [
+        {
+          "source_item_id": 45419667,
+          "source_field": "body",
+          "value": "I'm working on https://github.com/hxtk/aip as a collection of libraries giving safe default choices to implement Google's API improvement proposals in ConnectRPC services. It borrows (with attribution per the license) an unexported implementation of AUP-160 filters from the LuCI project, and I intend to expand it to support data sources other than SQL databases and page tokens, and it also exports an implementation of AIP-161 field masks (which have different semantics compared to standard field masks) and middleware to help with using them for AIP-157 read filtering.",
+          "supports": [],
+          "author": "hxtk",
+          "shared_at": 1759185164,
+          "source_url": "https://news.ycombinator.com/item?id=45419667"
+        }
+      ],
+      "source_item_id": 45419667,
+      "source_url": "https://news.ycombinator.com/item?id=45419667",
+      "author": "hxtk",
+      "shared_at": 1759185164,
+      "links": [
+        "https://github.com/hxtk/aip"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 6575,
+  "slug": "logbench-e49346e89d",
+  "name": "logbench",
+  "mentions": [
+    {
+      "name": "logbench",
+      "description": "A debugging tool that improves on console.log, designed to be useful for both humans and AI agents reading the output.",
+      "problem": "console.log is not well suited for output consumed by humans and AI agents.",
+      "audience": "Humans and AI agents",
+      "builder_usernames": [
+        "albingroen"
+      ],
+      "source_excerpt": "I am building a better console.log, for humans and agents\n\nhttps://github.com/albingroen/logbench",
+      "evidence": [
+        {
+          "source_item_id": 47308215,
+          "source_field": "body",
+          "value": "I am building a better console.log, for humans and agents\n\nhttps://github.com/albingroen/logbench",
+          "supports": [],
+          "author": "albingroen",
+          "shared_at": 1773059486,
+          "source_url": "https://news.ycombinator.com/item?id=47308215"
+        }
+      ],
+      "source_item_id": 47308215,
+      "source_url": "https://news.ycombinator.com/item?id=47308215",
+      "author": "albingroen",
+      "shared_at": 1773059486,
+      "links": [
+        "https://github.com/albingroen/logbench"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 3658,
+  "slug": "simtezilo-372dddede9",
+  "name": "simtezilo",
+  "mentions": [
+    {
+      "name": "simtezilo",
+      "description": "An open source haptics engine for Gran Turismo 7 that also provides pit radio feedback. It outputs bass shaker audio signals for chassis bumps, engine vibration (loosely based on engine geometry), and gear change events, with wind simulation in progress. It targets the Raspberry Pi Zero 2 but also compiles for Linux, macOS, and Windows; the wind simulation uses an ESP32-based PWM controller that connects over Bluetooth with a custom GATT profile.",
+      "problem": "Existing haptics solutions require running a Windows host, which the author wanted to avoid.",
+      "audience": null,
+      "builder_usernames": [
+        "vwhitteron"
+      ],
+      "source_excerpt": "For a while now I've been working on an open source haptics engine for Gran Turismo 7 that also does some pit radio feedback as well. It currently outputs a bass shaker audio signal for chassis bump, engine vibration (loosely based on engine geometry) and gear change events.",
+      "evidence": [
+        {
+          "source_item_id": 48535139,
+          "source_field": "body",
+          "value": "For a while now I've been working on an open source haptics engine for Gran Turismo 7 that also does some pit radio feedback as well. It currently outputs a bass shaker audio signal for chassis bump, engine vibration (loosely based on engine geometry) and gear change events.",
+          "supports": [],
+          "author": "vwhitteron",
+          "shared_at": 1781485071,
+          "source_url": "https://news.ycombinator.com/item?id=48535139"
+        }
+      ],
+      "source_item_id": 48535139,
+      "source_url": "https://news.ycombinator.com/item?id=48535139",
+      "author": "vwhitteron",
+      "shared_at": 1781485071,
+      "links": [
+        "https://www.simtezilo.com"
+      ]
+    }
+  ]
+}

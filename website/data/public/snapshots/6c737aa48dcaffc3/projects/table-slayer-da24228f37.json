@@ -1,0 +1,64 @@
+{
+  "id": 5961,
+  "slug": "table-slayer-da24228f37",
+  "name": "Table Slayer",
+  "mentions": [
+    {
+      "name": "Table Slayer",
+      "description": "A web tool for projecting DnD maps onto purpose-built TV-in-table setups, with hardware being developed to support large format touch displays. Open source on GitHub.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "snide"
+      ],
+      "source_excerpt": "Over the last year I've been hacking on Table Slayer [0] a web tool for projecting DnD maps on purpose built TV-in-table setups. Right now I'm working on making hardware that supports large format touch displays.",
+      "evidence": [
+        {
+          "source_item_id": 47303875,
+          "source_field": "body",
+          "value": "Over the last year I've been hacking on Table Slayer [0] a web tool for projecting DnD maps on purpose built TV-in-table setups. Right now I'm working on making hardware that supports large format touch displays.",
+          "supports": [],
+          "author": "snide",
+          "shared_at": 1773020693,
+          "source_url": "https://news.ycombinator.com/item?id=47303875"
+        }
+      ],
+      "source_item_id": 47303875,
+      "source_url": "https://news.ycombinator.com/item?id=47303875",
+      "author": "snide",
+      "shared_at": 1773020693,
+      "links": [
+        "https://tableslayer.com"
+      ]
+    },
+    {
+      "name": "Table Slayer",
+      "description": "This app provides tooling to display battlemaps on TV-based tabletops for tabletop roleplaying games like Dungeons and Dragons. It is open source and built with Svelte, Partykit, Turso, and Three JS, and a prototype hardware component (a large-format touch screen) is being built for people to purchase alongside it.",
+      "problem": null,
+      "audience": "Players of tabletop roleplaying games like Dungeons and Dragons",
+      "builder_usernames": [
+        "snide"
+      ],
+      "source_excerpt": "I'm building Table Slayer[0]. It provides tooling to display battlemaps on TV-based tabletops for games like Dungeons and Dragons. The source is open[1] and it's built with Svelte, Partykit, Turso and Three JS.\n\nI'm currently building a prototype hardware component (essentially a large format touch screen) that people can purchase alongside.",
+      "evidence": [
+        {
+          "source_item_id": 45424481,
+          "source_field": "body",
+          "value": "I'm building Table Slayer[0]. It provides tooling to display battlemaps on TV-based tabletops for games like Dungeons and Dragons. The source is open[1] and it's built with Svelte, Partykit, Turso and Three JS.\n\nI'm currently building a prototype hardware component (essentially a large format touch screen) that people can purchase alongside.",
+          "supports": [],
+          "author": "snide",
+          "shared_at": 1759234323,
+          "source_url": "https://news.ycombinator.com/item?id=45424481"
+        }
+      ],
+      "source_item_id": 45424481,
+      "source_url": "https://news.ycombinator.com/item?id=45424481",
+      "author": "snide",
+      "shared_at": 1759234323,
+      "links": [
+        "https://github.com/Siege-Perilous/tableslayer",
+        "https://tableslayer.com"
+      ]
+    }
+  ]
+}

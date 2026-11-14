@@ -1,0 +1,35 @@
+{
+  "id": 11048,
+  "slug": "promptlibrary-58dfb2fa84",
+  "name": "PromptLibrary",
+  "mentions": [
+    {
+      "name": "PromptLibrary",
+      "description": "A prompt library for organising prompts and making them accessible from multiple clients, including chatbots via a Chrome extension, CLIs, and IDE extensions. Prompts are stored once and can be retrieved anywhere; variables can be filled in to create variations of the same prompt, and prompts can have versions. A landing page is live, with general availability planned within about 10 days.",
+      "problem": "The author wanted a library to store their own prompts once and retrieve them in multiple locations, such as trying a prompt in Claude Desktop and then loading it into Roo Code or Claude Code.",
+      "audience": null,
+      "builder_usernames": [
+        "prash2488"
+      ],
+      "source_excerpt": "I am working on a PromptLibrary (https://promptlib.prashamhtrivedi.in/) to organise my prompts and make it accessible from multiple clients (Including chatbots (via chrome extensions), CLIs, IDE extensions amongst the few).",
+      "evidence": [
+        {
+          "source_item_id": 43817962,
+          "source_field": "body",
+          "value": "I am working on a PromptLibrary (https://promptlib.prashamhtrivedi.in/) to organise my prompts and make it accessible from multiple clients (Including chatbots (via chrome extensions), CLIs, IDE extensions amongst the few).",
+          "supports": [],
+          "author": "prash2488",
+          "shared_at": 1745818707,
+          "source_url": "https://news.ycombinator.com/item?id=43817962"
+        }
+      ],
+      "source_item_id": 43817962,
+      "source_url": "https://news.ycombinator.com/item?id=43817962",
+      "author": "prash2488",
+      "shared_at": 1745818707,
+      "links": [
+        "https://promptlib.prashamhtrivedi.in/"
+      ]
+    }
+  ]
+}

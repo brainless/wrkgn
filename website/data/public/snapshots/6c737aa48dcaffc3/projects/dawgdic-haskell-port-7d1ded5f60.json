@@ -1,0 +1,35 @@
+{
+  "id": 10450,
+  "slug": "dawgdic-haskell-port-7d1ded5f60",
+  "name": "dawgdic/Haskell port",
+  "mentions": [
+    {
+      "name": "dawgdic/Haskell port",
+      "description": "A work-in-progress Haskell port of the dawgdic C++ library implementing the DAWG (directed acyclic word graph) data structure, being built to understand DAWG internals as part of the morphological analysis behind the author's anti-spam bot plugin.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "swamp-agr"
+      ],
+      "source_excerpt": "More precisely, right now it is about understanding DAWG data structure by porting it from C++[2] to Haskell[3].",
+      "evidence": [
+        {
+          "source_item_id": 44776437,
+          "source_field": "body",
+          "value": "More precisely, right now it is about understanding DAWG data structure by porting it from C++[2] to Haskell[3].",
+          "supports": [],
+          "author": "swamp-agr",
+          "shared_at": 1754227528,
+          "source_url": "https://news.ycombinator.com/item?id=44776437"
+        }
+      ],
+      "source_item_id": 44776437,
+      "source_url": "https://news.ycombinator.com/item?id=44776437",
+      "author": "swamp-agr",
+      "shared_at": 1754227528,
+      "links": [
+        "https://github.com/swamp-agr/dawgdic"
+      ]
+    }
+  ]
+}

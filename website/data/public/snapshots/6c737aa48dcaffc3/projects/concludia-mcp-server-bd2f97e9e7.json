@@ -1,0 +1,33 @@
+{
+  "id": 6707,
+  "slug": "concludia-mcp-server-bd2f97e9e7",
+  "name": "Concludia MCP server",
+  "mentions": [
+    {
+      "name": "Concludia MCP server",
+      "description": "A private MCP server for Concludia whose tools let an LLM read and validate Concludia arguments; it generated the counterpoints for the \"carbon offset\" argument.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tunesmith"
+      ],
+      "source_excerpt": "I've actually had a lot of fun hooking it up to LLM. I have a private MCP server for it. The tools tell it how to read a concludia argument and validate it. It's what generated all the counterpoints for the \"carbon offset\" argument",
+      "evidence": [
+        {
+          "source_item_id": 46940404,
+          "source_field": "body",
+          "value": "I've actually had a lot of fun hooking it up to LLM. I have a private MCP server for it. The tools tell it how to read a concludia argument and validate it. It's what generated all the counterpoints for the \"carbon offset\" argument",
+          "supports": [],
+          "author": "tunesmith",
+          "shared_at": 1770599365,
+          "source_url": "https://news.ycombinator.com/item?id=46940404"
+        }
+      ],
+      "source_item_id": 46940404,
+      "source_url": "https://news.ycombinator.com/item?id=46940404",
+      "author": "tunesmith",
+      "shared_at": 1770599365,
+      "links": []
+    }
+  ]
+}

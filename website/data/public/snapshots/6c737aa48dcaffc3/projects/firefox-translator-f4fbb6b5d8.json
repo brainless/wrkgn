@@ -1,0 +1,35 @@
+{
+  "id": 10386,
+  "slug": "firefox-translator-f4fbb6b5d8",
+  "name": "firefox-translator",
+  "mentions": [
+    {
+      "name": "firefox-translator",
+      "description": "This Android app provides offline-only translation using Mozilla's translation models running on device, along with Tesseract. It is currently alpha quality but working, and the developer is figuring out F-Droid publishing.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "deivid"
+      ],
+      "source_excerpt": "An offline-only translator app for Android, using Mozilla's translation models (on device) and Tesseract.\n\nApp is alpha quality but working: https://github.com/davidventura/firefox-translator",
+      "evidence": [
+        {
+          "source_item_id": 44705005,
+          "source_field": "body",
+          "value": "An offline-only translator app for Android, using Mozilla's translation models (on device) and Tesseract.\n\nApp is alpha quality but working: https://github.com/davidventura/firefox-translator",
+          "supports": [],
+          "author": "deivid",
+          "shared_at": 1753652790,
+          "source_url": "https://news.ycombinator.com/item?id=44705005"
+        }
+      ],
+      "source_item_id": 44705005,
+      "source_url": "https://news.ycombinator.com/item?id=44705005",
+      "author": "deivid",
+      "shared_at": 1753652790,
+      "links": [
+        "https://github.com/davidventura/firefox-translator"
+      ]
+    }
+  ]
+}

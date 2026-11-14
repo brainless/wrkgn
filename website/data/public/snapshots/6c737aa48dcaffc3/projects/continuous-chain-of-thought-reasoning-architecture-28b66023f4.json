@@ -1,0 +1,33 @@
+{
+  "id": 7679,
+  "slug": "continuous-chain-of-thought-reasoning-architecture-28b66023f4",
+  "name": "Continuous chain-of-thought reasoning architecture",
+  "mentions": [
+    {
+      "name": "Continuous chain-of-thought reasoning architecture",
+      "description": "A continuous chain-of-thought reasoning architecture for generative AI models, similar to Meta's COCONUT but with the forward and backward passes over reasoning tokens trained in parallel for speed rather than serially, while keeping the reasoning tokens causal at inference. The architecture is modality agnostic (not reliant on language for its chains of thought), and the goal is to bring chain-of-thought reasoning to protein and antibody generation, serving as an OpenAI o1 or DeepSeek R1 equivalent for domain-specialized scientific AI.",
+      "problem": "Training chain-of-thought reasoning tokens serially is slow, and existing chain-of-thought approaches rely on language, limiting non-language modalities.",
+      "audience": null,
+      "builder_usernames": [
+        "in-silico"
+      ],
+      "source_excerpt": "I'm working on a continuous chain-of-thought reasoning architecture for generative AI models.",
+      "evidence": [
+        {
+          "source_item_id": 46579360,
+          "source_field": "body",
+          "value": "I'm working on a continuous chain-of-thought reasoning architecture for generative AI models.",
+          "supports": [],
+          "author": "in-silico",
+          "shared_at": 1768161594,
+          "source_url": "https://news.ycombinator.com/item?id=46579360"
+        }
+      ],
+      "source_item_id": 46579360,
+      "source_url": "https://news.ycombinator.com/item?id=46579360",
+      "author": "in-silico",
+      "shared_at": 1768161594,
+      "links": []
+    }
+  ]
+}

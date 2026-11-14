@@ -1,0 +1,33 @@
+{
+  "id": 6461,
+  "slug": "personal-journaling-app-with-ios-shortcuts-authoring-and-go-server-rendering-eb5fb39421",
+  "name": "Personal journaling app with iOS Shortcuts authoring and Go server rendering",
+  "mentions": [
+    {
+      "name": "Personal journaling app with iOS Shortcuts authoring and Go server rendering",
+      "description": "A personal journaling program where entries are written entirely through iOS Shortcuts — the only functions are creating a new entry, or creating a new entry with a photo and metadata taken from that photo. Rendering of the journal is handled by a Go server, which the builder wrote as an excuse to learn Go.",
+      "problem": "There was no existing journaling program the builder liked.",
+      "audience": null,
+      "builder_usernames": [
+        "yoz-y"
+      ],
+      "source_excerpt": "I realized that there is no journaling program I like, so I wrote my own. Authoring is done purely by iOS shortcuts and is writer (the only thing I want is to create a new entry, or create a new entry with a photo and metadata from said photo)\n\nRendering is done by a go server. I wanted to learn go for quite a while and this is the perfect excuse.",
+      "evidence": [
+        {
+          "source_item_id": 47307184,
+          "source_field": "body",
+          "value": "I realized that there is no journaling program I like, so I wrote my own. Authoring is done purely by iOS shortcuts and is writer (the only thing I want is to create a new entry, or create a new entry with a photo and metadata from said photo)\n\nRendering is done by a go server. I wanted to learn go for quite a while and this is the perfect excuse.",
+          "supports": [],
+          "author": "yoz-y",
+          "shared_at": 1773052181,
+          "source_url": "https://news.ycombinator.com/item?id=47307184"
+        }
+      ],
+      "source_item_id": 47307184,
+      "source_url": "https://news.ycombinator.com/item?id=47307184",
+      "author": "yoz-y",
+      "shared_at": 1773052181,
+      "links": []
+    }
+  ]
+}

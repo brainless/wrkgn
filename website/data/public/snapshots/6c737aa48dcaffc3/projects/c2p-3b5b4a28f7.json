@@ -1,0 +1,36 @@
+{
+  "id": 11079,
+  "slug": "c2p-3b5b4a28f7",
+  "name": "c2p",
+  "mentions": [
+    {
+      "name": "c2p",
+      "description": "A VS Code and Cursor extension that helps developers quickly copy all code in a workspace to the clipboard for use with LLMs. It displays the token count for each file and the total token count across the workspace, ignores files listed in .gitignore by default, and offers customizable behavior through extension settings.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dh1011"
+      ],
+      "source_excerpt": "I’m developing a VS Code and Cursor extension that helps developers quickly copy all code in a workspace to the clipboard for use with LLMs.",
+      "evidence": [
+        {
+          "source_item_id": 43826738,
+          "source_field": "body",
+          "value": "I’m developing a VS Code and Cursor extension that helps developers quickly copy all code in a workspace to the clipboard for use with LLMs.",
+          "supports": [],
+          "author": "dh1011",
+          "shared_at": 1745878744,
+          "source_url": "https://news.ycombinator.com/item?id=43826738"
+        }
+      ],
+      "source_item_id": 43826738,
+      "source_url": "https://news.ycombinator.com/item?id=43826738",
+      "author": "dh1011",
+      "shared_at": 1745878744,
+      "links": [
+        "https://github.com/dh1011/c2p",
+        "https://marketplace.visualstudio.com/items?itemName=H337.c2p"
+      ]
+    }
+  ]
+}

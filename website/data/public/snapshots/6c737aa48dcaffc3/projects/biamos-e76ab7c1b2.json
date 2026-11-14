@@ -1,0 +1,35 @@
+{
+  "id": 6636,
+  "slug": "biamos-e76ab7c1b2",
+  "name": "BiamOS",
+  "mentions": [
+    {
+      "name": "BiamOS",
+      "description": "This desktop app is an agentic workspace layer that runs web apps in a built-in Chromium webview with persistent sessions (Ghost-Auth), letting a local LLM interact directly with the DOM. The AI reads active context from services like Gmail, Notion, and Slack and generates a unified UI, turning fragmented SaaS silos into a single agentic dashboard. Built with Electron 34, React 19, Hono, and SQLite; currently early alpha.",
+      "problem": "The workspace is still static and fragmented, requiring jumping between isolated SaaS silos instead of a single unified view.",
+      "audience": null,
+      "builder_usernames": [
+        "BiamOS"
+      ],
+      "source_excerpt": "I spent the last two weekends hacking together BiamOS (https://github.com/BiamOS/BiamOS) because I’m tired of how static our workspace still is.",
+      "evidence": [
+        {
+          "source_item_id": 47368689,
+          "source_field": "body",
+          "value": "I spent the last two weekends hacking together BiamOS (https://github.com/BiamOS/BiamOS) because I’m tired of how static our workspace still is.",
+          "supports": [],
+          "author": "BiamOS",
+          "shared_at": 1773430439,
+          "source_url": "https://news.ycombinator.com/item?id=47368689"
+        }
+      ],
+      "source_item_id": 47368689,
+      "source_url": "https://news.ycombinator.com/item?id=47368689",
+      "author": "BiamOS",
+      "shared_at": 1773430439,
+      "links": [
+        "https://github.com/BiamOS/BiamOS"
+      ]
+    }
+  ]
+}

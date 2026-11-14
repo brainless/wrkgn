@@ -1,0 +1,33 @@
+{
+  "id": 9311,
+  "slug": "ai-interpretability-infrastructure-for-hallucination-detection-efb6cf5a17",
+  "name": "AI interpretability infrastructure for hallucination detection",
+  "mentions": [
+    {
+      "name": "AI interpretability infrastructure for hallucination detection",
+      "description": "This AI interpretability infrastructure detects hallucinations and failure modes and performs causal tracing in transformer-based foundation models. It is non-SAE and domain-agnostic, working on any kind of tokens or sequence data (e.g. English text, biological sequences, physics data). Early tests suggest the detection setup could broadly work for any property, though it has mostly been validated on hallucinations, and an alpha version runs through HuggingFace.",
+      "problem": "Hallucinations and other failure modes in transformer-based foundation models.",
+      "audience": "This infrastructure supports detecting hallucinations and failure modes in transformer-based foundation models.",
+      "builder_usernames": [
+        "varun764"
+      ],
+      "source_excerpt": "Working on AI interpretability infrastructure! Starting with hallucination/failure mode detection and causal tracing in transformer-based foundation models. It's non-SAE, domain-agnostic, and works for any kind of tokens or sequence data (e.g. not just English text - biological sequences, physics data, etc).",
+      "evidence": [
+        {
+          "source_item_id": 45880102,
+          "source_field": "body",
+          "value": "Working on AI interpretability infrastructure! Starting with hallucination/failure mode detection and causal tracing in transformer-based foundation models. It's non-SAE, domain-agnostic, and works for any kind of tokens or sequence data (e.g. not just English text - biological sequences, physics data, etc).",
+          "supports": [],
+          "author": "varun764",
+          "shared_at": 1762804216,
+          "source_url": "https://news.ycombinator.com/item?id=45880102"
+        }
+      ],
+      "source_item_id": 45880102,
+      "source_url": "https://news.ycombinator.com/item?id=45880102",
+      "author": "varun764",
+      "shared_at": 1762804216,
+      "links": []
+    }
+  ]
+}

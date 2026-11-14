@@ -1,0 +1,35 @@
+{
+  "id": 6848,
+  "slug": "pta-standards-610765fcdb",
+  "name": "pta-standards",
+  "mentions": [
+    {
+      "name": "pta-standards",
+      "description": "Formal specifications for plain text accounting formats covering Beancount, Ledger, and hledger. It includes EBNF/ABNF grammars, JSON Schema and Protobuf AST definitions, tree-sitter grammars, Alloy models for invariants, and conformance test suites, so anyone can build a correct, interoperable PTA implementation without reverse-engineering existing tools.",
+      "problem": "Building a correct, interoperable plain text accounting implementation currently requires reverse-engineering existing tools.",
+      "audience": null,
+      "builder_usernames": [
+        "robcohen"
+      ],
+      "source_excerpt": "I started this project to create proper formal specifications for plain text accounting formats, covering Beancount, Ledger, and hledger. It includes EBNF/ABNF grammars, JSON Schema and Protobuf AST definitions, tree-sitter grammars, Alloy models for invariants, and conformance test suites. The idea is to make it possible for anyone to build a correct, interoperable PTA implementation without reverse-engineering existing tools.",
+      "evidence": [
+        {
+          "source_item_id": 46959847,
+          "source_field": "body",
+          "value": "I started this project to create proper formal specifications for plain text accounting formats, covering Beancount, Ledger, and hledger. It includes EBNF/ABNF grammars, JSON Schema and Protobuf AST definitions, tree-sitter grammars, Alloy models for invariants, and conformance test suites. The idea is to make it possible for anyone to build a correct, interoperable PTA implementation without reverse-engineering existing tools.",
+          "supports": [],
+          "author": "robcohen",
+          "shared_at": 1770732207,
+          "source_url": "https://news.ycombinator.com/item?id=46959847"
+        }
+      ],
+      "source_item_id": 46959847,
+      "source_url": "https://news.ycombinator.com/item?id=46959847",
+      "author": "robcohen",
+      "shared_at": 1770732207,
+      "links": [
+        "https://github.com/rustledger/pta-standards"
+      ]
+    }
+  ]
+}

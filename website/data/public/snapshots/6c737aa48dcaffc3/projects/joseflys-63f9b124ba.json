@@ -1,0 +1,36 @@
+{
+  "id": 8169,
+  "slug": "joseflys-63f9b124ba",
+  "name": "joseflys",
+  "mentions": [
+    {
+      "name": "joseflys",
+      "description": "Open-source suite of aviation tools that performs all flight computations client-side, covering the math from private pilot ground school and serving as a replacement for the E6-B flight computer, including navigation calculations shareable via example links.",
+      "problem": "Serves as a way to learn ground school math and as a replacement for the physical E6-B flight computer.",
+      "audience": "Student pilots doing ground school for their private pilot license",
+      "builder_usernames": [
+        "jfroma"
+      ],
+      "source_excerpt": "I started a project involving several aviation tools while doing ground school for my private pilot license. It started as a way of learning the maths, and a replacement for the E6-B computer.\n\nIt is opensource, all the computations are done on the client side,",
+      "evidence": [
+        {
+          "source_item_id": 46273068,
+          "source_field": "body",
+          "value": "I started a project involving several aviation tools while doing ground school for my private pilot license. It started as a way of learning the maths, and a replacement for the E6-B computer.\n\nIt is opensource, all the computations are done on the client side,",
+          "supports": [],
+          "author": "jfroma",
+          "shared_at": 1765797956,
+          "source_url": "https://news.ycombinator.com/item?id=46273068"
+        }
+      ],
+      "source_item_id": 46273068,
+      "source_url": "https://news.ycombinator.com/item?id=46273068",
+      "author": "jfroma",
+      "shared_at": 1765797956,
+      "links": [
+        "https://github.com/jfromaniello/joseflys",
+        "https://joseflys.com"
+      ]
+    }
+  ]
+}

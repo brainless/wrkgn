@@ -1,0 +1,35 @@
+{
+  "id": 8010,
+  "slug": "ghost-trap-7218a79ead",
+  "name": "ghost_trap",
+  "mentions": [
+    {
+      "name": "ghost_trap",
+      "description": "A small tool for fending off LLM scrapers and crawlers: a GitHub action that injects polymorphic prompt injections at the bottom of a repository's README.md, and a JavaScript snippet that injects polymorphic prompt injections into HTML so JavaScript-emulating crawlers such as Google's are also deterred.",
+      "problem": "LLM scrapers and sophisticated JavaScript-emulating crawlers harvest content from READMEs and HTML pages; the tool injects polymorphic prompt injections to fend them off.",
+      "audience": null,
+      "builder_usernames": [
+        "voodooEntity"
+      ],
+      "source_excerpt": "2. ghost_trap ( https://github.com/voodooEntity/ghost_trap )\nA very small project i recently put out, nothing to serious but kinda funny and maybe usefull to one or another. It provides \n- An github action that will inject polymorphic prompt injections to the bottom of your README.md so LLM scrapers may be fend off\n- An javascript that will inject polymorphic prompt injections into your html so more sophisticated crawlers like google etc which emulate javascript also may be fend off",
+      "evidence": [
+        {
+          "source_item_id": 46587223,
+          "source_field": "body",
+          "value": "2. ghost_trap ( https://github.com/voodooEntity/ghost_trap )\nA very small project i recently put out, nothing to serious but kinda funny and maybe usefull to one or another. It provides \n- An github action that will inject polymorphic prompt injections to the bottom of your README.md so LLM scrapers may be fend off\n- An javascript that will inject polymorphic prompt injections into your html so more sophisticated crawlers like google etc which emulate javascript also may be fend off",
+          "supports": [],
+          "author": "voodooEntity",
+          "shared_at": 1768218983,
+          "source_url": "https://news.ycombinator.com/item?id=46587223"
+        }
+      ],
+      "source_item_id": 46587223,
+      "source_url": "https://news.ycombinator.com/item?id=46587223",
+      "author": "voodooEntity",
+      "shared_at": 1768218983,
+      "links": [
+        "https://github.com/voodooEntity/ghost_trap"
+      ]
+    }
+  ]
+}

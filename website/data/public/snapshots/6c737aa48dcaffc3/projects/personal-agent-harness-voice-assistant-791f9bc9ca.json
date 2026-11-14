@@ -1,0 +1,33 @@
+{
+  "id": 3626,
+  "slug": "personal-agent-harness-voice-assistant-791f9bc9ca",
+  "name": "Personal agent harness voice assistant",
+  "mentions": [
+    {
+      "name": "Personal agent harness voice assistant",
+      "description": "A small self-built agent harness running at home as a personal assistant, built mainly to learn how agent harnesses work. It already supports voice-set kitchen timers — saying something like \"set a 10 minute timer for the pasta\" starts a named timer that announces \"ding! Pasta timer\" when it expires, with support for many concurrent named timers — controlled via a web app on a phone. The goal is to add better hardware (a Raspberry Pi) and wake-word support for a fully hands-free kitchen/cooking-oriented voice assistant.",
+      "problem": "The current phone web app can't easily support wake-word activation without hacking, and better hardware is needed for hands-free use while cooking.",
+      "audience": "Explicitly for the author's own personal use as a home personal assistant.",
+      "builder_usernames": [
+        "nk91"
+      ],
+      "source_excerpt": "I’m working on small agent harness at home for a personal assistant. In spirit it’s similar to OpenClaw or Hermes Agent but I’m mostly using it for learning about agent harnesses to get a better understanding of the ecosystem.",
+      "evidence": [
+        {
+          "source_item_id": 48532932,
+          "source_field": "body",
+          "value": "I’m working on small agent harness at home for a personal assistant. In spirit it’s similar to OpenClaw or Hermes Agent but I’m mostly using it for learning about agent harnesses to get a better understanding of the ecosystem.",
+          "supports": [],
+          "author": "nk91",
+          "shared_at": 1781472378,
+          "source_url": "https://news.ycombinator.com/item?id=48532932"
+        }
+      ],
+      "source_item_id": 48532932,
+      "source_url": "https://news.ycombinator.com/item?id=48532932",
+      "author": "nk91",
+      "shared_at": 1781472378,
+      "links": []
+    }
+  ]
+}

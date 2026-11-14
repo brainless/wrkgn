@@ -1,0 +1,91 @@
+{
+  "id": 2744,
+  "slug": "untether-15ea7b1bc5",
+  "name": "Untether",
+  "mentions": [
+    {
+      "name": "Untether",
+      "description": "A suite of digital-minimalism apps that let users stay connected and perform quick actions on their watch while keeping their smartphone out of sight (and their hands).",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "msyea"
+      ],
+      "source_excerpt": "Otherwise I'm still working on Untether (https://untether.watch) - a suite of digital-minimalism apps that let you stay connected and do quick actions on the watch while keeping your smartphone out of sight (and your hands).",
+      "evidence": [
+        {
+          "source_item_id": 48895099,
+          "source_field": "body",
+          "value": "Otherwise I'm still working on Untether (https://untether.watch) - a suite of digital-minimalism apps that let you stay connected and do quick actions on the watch while keeping your smartphone out of sight (and your hands).",
+          "supports": [],
+          "author": "msyea",
+          "shared_at": 1783960297,
+          "source_url": "https://news.ycombinator.com/item?id=48895099"
+        }
+      ],
+      "source_item_id": 48895099,
+      "source_url": "https://news.ycombinator.com/item?id=48895099",
+      "author": "msyea",
+      "shared_at": 1783960297,
+      "links": [
+        "https://untether.watch"
+      ]
+    },
+    {
+      "name": "Untether",
+      "description": "A Garmin Connect IQ watch app with a required Android companion app that shifts brief phone interactions to the wrist to reduce daily phone use. It lets users do essential quick actions from the watch, reply to any Android notification, and make notes using the headphone mic and speech-to-text, keeping the phone out of sight.",
+      "problem": "Dumbphones are too extreme since a smartphone is still needed for day-to-day activities like banking, so the goal is shifting 20-30 micro phone interactions per day to the wrist to reduce phone use.",
+      "audience": "People who want to reduce their daily phone use without giving up their smartphone",
+      "builder_usernames": [
+        "msyea"
+      ],
+      "source_excerpt": "I'm working on <https://untether.watch>. Trying to shift 20-30 micro phone interactions to the wrist per day to ultimately reduce phone use. Dumbphones are too extreme - you need a smartphone for certain day-to-day activities (banking etc.)\n\nThe watch is a great form factor - it's got a crap screen (MIP), the ergonomics are awkward (rotate and look down), it has limited capabilities. But that's the point! Do essential quick actions and leave the phone out of site.\n\nRequires Android companion app to do the heavy lifting. Use the (head)phone mic and STT to reply to any android notification and make notes. More features to come.",
+      "evidence": [
+        {
+          "source_item_id": 48088244,
+          "source_field": "body",
+          "value": "I'm working on <https://untether.watch>. Trying to shift 20-30 micro phone interactions to the wrist per day to ultimately reduce phone use. Dumbphones are too extreme - you need a smartphone for certain day-to-day activities (banking etc.)\n\nThe watch is a great form factor - it's got a crap screen (MIP), the ergonomics are awkward (rotate and look down), it has limited capabilities. But that's the point! Do essential quick actions and leave the phone out of site.\n\nRequires Android companion app to do the heavy lifting. Use the (head)phone mic and STT to reply to any android notification and make notes. More features to come.",
+          "supports": [],
+          "author": "msyea",
+          "shared_at": 1778448379,
+          "source_url": "https://news.ycombinator.com/item?id=48088244"
+        }
+      ],
+      "source_item_id": 48088244,
+      "source_url": "https://news.ycombinator.com/item?id=48088244",
+      "author": "msyea",
+      "shared_at": 1778448379,
+      "links": [
+        "https://untether.watch"
+      ]
+    },
+    {
+      "name": "Untether",
+      "description": "A Garmin watch app that provides a general AI assistant and queries the watch's rich sensor data, including health, physical, environmental, and location sensors. It is privacy focused, using the user's own API keys with Gemini, and makes API calls directly from the watch with no backend.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "msyea"
+      ],
+      "source_excerpt": "I’m working a Garmin watch app to query all the rich data on the watch (health, physical, environmental, location sensors) from the watch + general AI assistant. Privacy focused using your own keys and Gemini. API calls direct from watch - no backend.",
+      "evidence": [
+        {
+          "source_item_id": 45870575,
+          "source_field": "body",
+          "value": "I’m working a Garmin watch app to query all the rich data on the watch (health, physical, environmental, location sensors) from the watch + general AI assistant. Privacy focused using your own keys and Gemini. API calls direct from watch - no backend.",
+          "supports": [],
+          "author": "msyea",
+          "shared_at": 1762732761,
+          "source_url": "https://news.ycombinator.com/item?id=45870575"
+        }
+      ],
+      "source_item_id": 45870575,
+      "source_url": "https://news.ycombinator.com/item?id=45870575",
+      "author": "msyea",
+      "shared_at": 1762732761,
+      "links": [
+        "https://untether.watch"
+      ]
+    }
+  ]
+}

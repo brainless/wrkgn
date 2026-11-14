@@ -1,0 +1,35 @@
+{
+  "id": 5340,
+  "slug": "iup-go-iup-fork-5a0e7743b4",
+  "name": "iup-go (IUP fork)",
+  "mentions": [
+    {
+      "name": "iup-go (IUP fork)",
+      "description": "Cross-platform UI library fork of IUP offering native controls, packaged for Go. Adds multiple drivers/backends (Cocoa, WinUI, Qt, GTK4, FLTK, EFL), new controls such as Table, Popover, SWITCH toggle, and modern tray support, a WebBrowser control using modern browsers with a JAVASCRIPT attribute for hybrid native/web apps, and an EGL-based GLCanvas for X11 and Wayland with proper Wayland support across Linux toolkits.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "gen2brain"
+      ],
+      "source_excerpt": "I have been working for several months (maybe half a year) on the IUP fork, a cross-platform UI library with native controls https://github.com/gen2brain/iup-go .",
+      "evidence": [
+        {
+          "source_item_id": 47748935,
+          "source_field": "body",
+          "value": "I have been working for several months (maybe half a year) on the IUP fork, a cross-platform UI library with native controls https://github.com/gen2brain/iup-go .",
+          "supports": [],
+          "author": "gen2brain",
+          "shared_at": 1776065883,
+          "source_url": "https://news.ycombinator.com/item?id=47748935"
+        }
+      ],
+      "source_item_id": 47748935,
+      "source_url": "https://news.ycombinator.com/item?id=47748935",
+      "author": "gen2brain",
+      "shared_at": 1776065883,
+      "links": [
+        "https://github.com/gen2brain/iup-go"
+      ]
+    }
+  ]
+}

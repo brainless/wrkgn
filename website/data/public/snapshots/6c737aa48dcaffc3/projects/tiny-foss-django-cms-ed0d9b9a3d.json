@@ -1,0 +1,33 @@
+{
+  "id": 8344,
+  "slug": "tiny-foss-django-cms-ed0d9b9a3d",
+  "name": "Tiny FOSS Django CMS",
+  "mentions": [
+    {
+      "name": "Tiny FOSS Django CMS",
+      "description": "A tiny, FOSS content management system built on Django for personal websites. It supports updating any page content, uploading and displaying images, and running multiple blog instances, using django-prose-editor for content editing plus Page and Blog apps. Planned next steps include SEO features, generalizing app functions beyond blogs, improving code quality, and separating the apps so anyone can add them to their own Django website.",
+      "problem": "django-cms is too heavyweight for a small personal website.",
+      "audience": "Django users who want to add the apps to their own websites",
+      "builder_usernames": [
+        "sodimel"
+      ],
+      "source_excerpt": "I do a lot of django-cms by day, but it's too much for a small personal website, so I started to create a (tiny, foss) CMS based on Django, django-prose-editor for the content, and some new apps (for now, Page & Blog).",
+      "evidence": [
+        {
+          "source_item_id": 46272236,
+          "source_field": "body",
+          "value": "I do a lot of django-cms by day, but it's too much for a small personal website, so I started to create a (tiny, foss) CMS based on Django, django-prose-editor for the content, and some new apps (for now, Page & Blog).",
+          "supports": [],
+          "author": "sodimel",
+          "shared_at": 1765791476,
+          "source_url": "https://news.ycombinator.com/item?id=46272236"
+        }
+      ],
+      "source_item_id": 46272236,
+      "source_url": "https://news.ycombinator.com/item?id=46272236",
+      "author": "sodimel",
+      "shared_at": 1765791476,
+      "links": []
+    }
+  ]
+}

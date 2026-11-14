@@ -1,0 +1,315 @@
+{
+  "id": 1076,
+  "slug": "riffradar-f7906260db",
+  "name": "RiffRadar",
+  "mentions": [
+    {
+      "name": "RiffRadar",
+      "description": "This app generates better music recommendations on Spotify, experimenting with multiple recommendation algorithms that will soon be exposed as selectable options for its playlists.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "vulkoingim"
+      ],
+      "source_excerpt": "Still hacking on https://riffradar.org/ and trying to make better recommendations on Spotify. Lately I've been experimenting with a couple of different recommendation algorithms, and will expose them soon as selection options for the different playlists.",
+      "evidence": [
+        {
+          "source_item_id": 49693158,
+          "source_field": "body",
+          "value": "Still hacking on https://riffradar.org/ and trying to make better recommendations on Spotify. Lately I've been experimenting with a couple of different recommendation algorithms, and will expose them soon as selection options for the different playlists.",
+          "supports": [],
+          "author": "vulkoingim",
+          "shared_at": 1789370872,
+          "source_url": "https://news.ycombinator.com/item?id=49693158"
+        }
+      ],
+      "source_item_id": 49693158,
+      "source_url": "https://news.ycombinator.com/item?id=49693158",
+      "author": "vulkoingim",
+      "shared_at": 1789370872,
+      "links": [
+        "https://riffradar.org/"
+      ]
+    },
+    {
+      "name": "Riffradar",
+      "description": "Riffradar is a Spotify playlist and recommendation tool that generates daily-updating playlists. Users select genres and see which bands match their selection from their library or globally, then refine playlists with advanced filters such as excluding recently played tracks, release dates, collaborations, and different sort methods. A recent feature lets users pick one or more playlists and create a \"mirror\" containing tracks from the artists in those playlists, with additional playlist modes in development.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "vulkoingim"
+      ],
+      "source_excerpt": "Been working on https://riffradar.org/ - better Spotify recommendations through playlists that update daily.",
+      "evidence": [
+        {
+          "source_item_id": 49241889,
+          "source_field": "body",
+          "value": "Been working on https://riffradar.org/ - better Spotify recommendations through playlists that update daily.",
+          "supports": [],
+          "author": "vulkoingim",
+          "shared_at": 1786358125,
+          "source_url": "https://news.ycombinator.com/item?id=49241889"
+        }
+      ],
+      "source_item_id": 49241889,
+      "source_url": "https://news.ycombinator.com/item?id=49241889",
+      "author": "vulkoingim",
+      "shared_at": 1786358125,
+      "links": [
+        "https://riffradar.org/"
+      ]
+    },
+    {
+      "name": "RiffRadar",
+      "description": "This tool improves music recommendations on Spotify: users pick genres and apply filters to receive auto-updating playlists built from their music library, and can select one or more playlists to create a \"mirror\" playlist containing tracks from the artists in those playlists.",
+      "problem": "Spotify's recommendations could be better; this tool generates more relevant playlists from the user's own music library.",
+      "audience": null,
+      "builder_usernames": [
+        "vulkoingim"
+      ],
+      "source_excerpt": "Better recommendations on Spotify: https://riffradar.org/\n\nChoose your genres (and more filters) and get auto updating playlists from your music library. Also just added a new feature - select a few (or one) playlists and create a \"mirror\", with tracks belonging to the artists of your selected playlists.",
+      "evidence": [
+        {
+          "source_item_id": 48532207,
+          "source_field": "body",
+          "value": "Better recommendations on Spotify: https://riffradar.org/\n\nChoose your genres (and more filters) and get auto updating playlists from your music library. Also just added a new feature - select a few (or one) playlists and create a \"mirror\", with tracks belonging to the artists of your selected playlists.",
+          "supports": [],
+          "author": "vulkoingim",
+          "shared_at": 1781468442,
+          "source_url": "https://news.ycombinator.com/item?id=48532207"
+        }
+      ],
+      "source_item_id": 48532207,
+      "source_url": "https://news.ycombinator.com/item?id=48532207",
+      "author": "vulkoingim",
+      "shared_at": 1781468442,
+      "links": [
+        "https://riffradar.org/"
+      ]
+    },
+    {
+      "name": "RiffRadar",
+      "description": "A Spotify recommendation engine that creates playlists from the music in the user's library based on genres they select, refreshed every day like a user-curated version of Spotify's Daily Mixes. Supports advanced filters for customization, and draws recommendations from artists the user follows or artists belonging to playlists the user follows or has created; it works best when the user follows a good number of artists.",
+      "problem": "Spotify's built-in recommendations are repetitive.",
+      "audience": null,
+      "builder_usernames": [
+        "vulkoingim"
+      ],
+      "source_excerpt": "Been working on and off on a Spotify recommendation egnine after getting tired of Spotify’s repetitive recommendations.\n\nYou get to choose the genres you're interested in, and it creates playlists from the music in your library.",
+      "evidence": [
+        {
+          "source_item_id": 48087309,
+          "source_field": "body",
+          "value": "Been working on and off on a Spotify recommendation egnine after getting tired of Spotify’s repetitive recommendations.\n\nYou get to choose the genres you're interested in, and it creates playlists from the music in your library.",
+          "supports": [],
+          "author": "vulkoingim",
+          "shared_at": 1778443239,
+          "source_url": "https://news.ycombinator.com/item?id=48087309"
+        }
+      ],
+      "source_item_id": 48087309,
+      "source_url": "https://news.ycombinator.com/item?id=48087309",
+      "author": "vulkoingim",
+      "shared_at": 1778443239,
+      "links": [
+        "https://riffradar.org/"
+      ]
+    },
+    {
+      "name": "Riff Radar",
+      "description": "A Spotify music recommendation service that builds daily-updated playlists from the music in the user's library. Users pick the genres they're interested in, can apply advanced filters to customize results, and can optionally draw recommendations from artists they follow or artists from playlists they follow or created. It works best when the user follows a good amount of artists, as those (plus followed playlists) are the pools of artists recommendations are based on.",
+      "problem": "Spotify's recommendations are repetitive, and the author wanted better, personalized daily mixes.",
+      "audience": null,
+      "builder_usernames": [
+        "vulkoingim"
+      ],
+      "source_excerpt": "Been working on and off on a Spotify recommendation egnine after getting tired of Spotify’s repetitive recommendations.\n\nYou get to choose the genres you're interested in, and it creates playlists from the music in your library. They get updated every day - think a better, curated by you version of the Daily Mixes. You can add some advanced filters as well, if you really want to customise what music you'll get.",
+      "evidence": [
+        {
+          "source_item_id": 47748741,
+          "source_field": "body",
+          "value": "Been working on and off on a Spotify recommendation egnine after getting tired of Spotify’s repetitive recommendations.\n\nYou get to choose the genres you're interested in, and it creates playlists from the music in your library. They get updated every day - think a better, curated by you version of the Daily Mixes. You can add some advanced filters as well, if you really want to customise what music you'll get.",
+          "supports": [],
+          "author": "vulkoingim",
+          "shared_at": 1776064438,
+          "source_url": "https://news.ycombinator.com/item?id=47748741"
+        }
+      ],
+      "source_item_id": 47748741,
+      "source_url": "https://news.ycombinator.com/item?id=47748741",
+      "author": "vulkoingim",
+      "shared_at": 1776064438,
+      "links": [
+        "https://riffradar.org/"
+      ]
+    },
+    {
+      "name": "Riff Radar",
+      "description": "This app is a Spotify recommendation engine that creates daily-updated playlists from the music in the user's library, based on genres they choose. It offers advanced filters to customize recommendations and can optionally draw suggestions from artists in playlists the user follows or created; it works best when the user follows a good number of artists.",
+      "problem": "Spotify's repetitive recommendations",
+      "audience": null,
+      "builder_usernames": [
+        "vulkoingim"
+      ],
+      "source_excerpt": "Built my own Spotify recommendation egnine after getting tired of Spotify’s repetitive recommendations.\n\nYou get to choose the genres you're interested in, and it creates playlists from the music in your library. They get updated every day - think a better, curated by you version of the Daily Mixes.",
+      "evidence": [
+        {
+          "source_item_id": 46943104,
+          "source_field": "body",
+          "value": "Built my own Spotify recommendation egnine after getting tired of Spotify’s repetitive recommendations.\n\nYou get to choose the genres you're interested in, and it creates playlists from the music in your library. They get updated every day - think a better, curated by you version of the Daily Mixes.",
+          "supports": [],
+          "author": "vulkoingim",
+          "shared_at": 1770626894,
+          "source_url": "https://news.ycombinator.com/item?id=46943104"
+        }
+      ],
+      "source_item_id": 46943104,
+      "source_url": "https://news.ycombinator.com/item?id=46943104",
+      "author": "vulkoingim",
+      "shared_at": 1770626894,
+      "links": [
+        "https://riffradar.org/"
+      ]
+    },
+    {
+      "name": "RiffRadar",
+      "description": "A Spotify recommendation tool that creates playlists from the music in the user's library based on genres they choose, updated every day like a user-curated version of Daily Mixes. Supports advanced filters and optional recommendations drawn from artists in playlists the user follows or has created.",
+      "problem": "Spotify's repetitive recommendations.",
+      "audience": "Spotify users",
+      "builder_usernames": [
+        "vulkoingim"
+      ],
+      "source_excerpt": "Built my own Spotify recommendation egnine after getting tired of Spotify’s repetitive recommendations.\n\nYou get to choose the genres you're interested in, and it creates playlists from the music in your library. They get updated every day - think a better, curated by you version of the Daily Mixes.",
+      "evidence": [
+        {
+          "source_item_id": 46578026,
+          "source_field": "body",
+          "value": "Built my own Spotify recommendation egnine after getting tired of Spotify’s repetitive recommendations.\n\nYou get to choose the genres you're interested in, and it creates playlists from the music in your library. They get updated every day - think a better, curated by you version of the Daily Mixes.",
+          "supports": [],
+          "author": "vulkoingim",
+          "shared_at": 1768155120,
+          "source_url": "https://news.ycombinator.com/item?id=46578026"
+        }
+      ],
+      "source_item_id": 46578026,
+      "source_url": "https://news.ycombinator.com/item?id=46578026",
+      "author": "vulkoingim",
+      "shared_at": 1768155120,
+      "links": [
+        "https://riffradar.org/"
+      ]
+    },
+    {
+      "name": "RiffRadar",
+      "description": "A web app that improves Spotify recommendations by letting users pick genres they're interested in and automatically generating daily playlists from the music in their own library — like an enhanced version of Spotify's Daily Mixes — with optional advanced filters for deeper customization.",
+      "problem": "Spotify's built-in Daily Mixes are subpar at surfacing genre-targeted playlists from the user's own library.",
+      "audience": null,
+      "builder_usernames": [
+        "vulkoingim"
+      ],
+      "source_excerpt": "Working on a little project to make Spotify recommendations better.\n\nYou get to choose the genres you're interested in, and it creates playlists from the music in your library. They get updated every day - think a better version of the Daily Mixes. You can add some advanced filters as well, if you really want to customise what music you'll get.",
+      "evidence": [
+        {
+          "source_item_id": 46266714,
+          "source_field": "body",
+          "value": "Working on a little project to make Spotify recommendations better.\n\nYou get to choose the genres you're interested in, and it creates playlists from the music in your library. They get updated every day - think a better version of the Daily Mixes. You can add some advanced filters as well, if you really want to customise what music you'll get.",
+          "supports": [],
+          "author": "vulkoingim",
+          "shared_at": 1765745213,
+          "source_url": "https://news.ycombinator.com/item?id=46266714"
+        }
+      ],
+      "source_item_id": 46266714,
+      "source_url": "https://news.ycombinator.com/item?id=46266714",
+      "author": "vulkoingim",
+      "shared_at": 1765745213,
+      "links": [
+        "https://riffradar.org/"
+      ]
+    },
+    {
+      "name": "RiffRadar",
+      "description": "This web app generates daily playlists from the user's Spotify library based on the genres they select, refreshing them every day as an improved version of Spotify's Daily Mixes, with advanced filters to customize the music that gets included.",
+      "problem": "Spotify's built-in recommendations and Daily Mixes don't let listeners control which genres they actually want to hear.",
+      "audience": "Spotify listeners who want genre-tailored daily playlists generated from their own library",
+      "builder_usernames": [
+        "vulkoingim"
+      ],
+      "source_excerpt": "Working on a little project to make Spotify recommendations better.\n\nYou get to choose the genres you're interested in, and it creates playlists from the music in your library. They get updated every day - think a better version of the Daily Mixes. You can add some advanced filters as well, if you really want to customise what music you'll get.",
+      "evidence": [
+        {
+          "source_item_id": 45873184,
+          "source_field": "body",
+          "value": "Working on a little project to make Spotify recommendations better.\n\nYou get to choose the genres you're interested in, and it creates playlists from the music in your library. They get updated every day - think a better version of the Daily Mixes. You can add some advanced filters as well, if you really want to customise what music you'll get.",
+          "supports": [],
+          "author": "vulkoingim",
+          "shared_at": 1762757939,
+          "source_url": "https://news.ycombinator.com/item?id=45873184"
+        }
+      ],
+      "source_item_id": 45873184,
+      "source_url": "https://news.ycombinator.com/item?id=45873184",
+      "author": "vulkoingim",
+      "shared_at": 1762757939,
+      "links": [
+        "https://riffradar.org/"
+      ]
+    },
+    {
+      "name": "Riff Radar",
+      "description": "Riff Radar is a web app that creates Spotify playlists from a user's followed artists' complete discography, with multiple options for tailoring the playlists. Playlists are updated daily, positioned as a better version of Spotify's daily mixes, and the app also displays the user's listening statistics.",
+      "problem": "The author was tired of Spotify recommending the same songs from the same artists over and over again.",
+      "audience": null,
+      "builder_usernames": [
+        "vulkoingim"
+      ],
+      "source_excerpt": "So I built Riff Radar - it creates playlists from your followed artists' complete discography, and allows you to tailor them in multiple ways. Those playlists are my top listened to. I know, because you can also see your listening statistics (at the mercy of Spotify's API).",
+      "evidence": [
+        {
+          "source_item_id": 45422909,
+          "source_field": "body",
+          "value": "So I built Riff Radar - it creates playlists from your followed artists' complete discography, and allows you to tailor them in multiple ways. Those playlists are my top listened to. I know, because you can also see your listening statistics (at the mercy of Spotify's API).",
+          "supports": [],
+          "author": "vulkoingim",
+          "shared_at": 1759217756,
+          "source_url": "https://news.ycombinator.com/item?id=45422909"
+        }
+      ],
+      "source_item_id": 45422909,
+      "source_url": "https://news.ycombinator.com/item?id=45422909",
+      "author": "vulkoingim",
+      "shared_at": 1759217756,
+      "links": [
+        "https://riffradar.org/"
+      ]
+    },
+    {
+      "name": "Riff Radar",
+      "description": "This app generates varied, targeted music playlists from a user's Spotify library, designed to avoid the repetitive songs Spotify recommends or puts in its playlists. The generated playlists have become the builder's most-listened playlists, and a few friends also use it.",
+      "problem": "Spotify recommends or creates playlists with the same songs over and over again.",
+      "audience": null,
+      "builder_usernames": [
+        "vulkoingim"
+      ],
+      "source_excerpt": "I got tired of Spotify recommending me, or creating playlists with the same songs over and over again, so I built something to make varied, targeted playlists from my library.\n\nI've been using it for months now, and the playlists generated are my top listened to playlists - I'm literally listening to them every day. Personally I'm super happy with it, and a few friends have also been using it quite successfully.\n\nhttps://riffradar.org/",
+      "evidence": [
+        {
+          "source_item_id": 44710434,
+          "source_field": "body",
+          "value": "I got tired of Spotify recommending me, or creating playlists with the same songs over and over again, so I built something to make varied, targeted playlists from my library.\n\nI've been using it for months now, and the playlists generated are my top listened to playlists - I'm literally listening to them every day. Personally I'm super happy with it, and a few friends have also been using it quite successfully.\n\nhttps://riffradar.org/",
+          "supports": [],
+          "author": "vulkoingim",
+          "shared_at": 1753707649,
+          "source_url": "https://news.ycombinator.com/item?id=44710434"
+        }
+      ],
+      "source_item_id": 44710434,
+      "source_url": "https://news.ycombinator.com/item?id=44710434",
+      "author": "vulkoingim",
+      "shared_at": 1753707649,
+      "links": [
+        "https://riffradar.org/"
+      ]
+    }
+  ]
+}

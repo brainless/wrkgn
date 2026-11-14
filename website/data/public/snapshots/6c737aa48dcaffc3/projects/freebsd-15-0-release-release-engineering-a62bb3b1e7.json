@@ -1,0 +1,33 @@
+{
+  "id": 9817,
+  "slug": "freebsd-15-0-release-release-engineering-a62bb3b1e7",
+  "name": "FreeBSD 15.0-RELEASE release engineering",
+  "mentions": [
+    {
+      "name": "FreeBSD 15.0-RELEASE release engineering",
+      "description": "Release engineering effort for FreeBSD 15.0-RELEASE, switching the base system distribution from a single tarball to around 500 packages, with resulting changes to the build process, download/update mirrors, and installer. This is the biggest release in 20 years due to the new base system distribution system.",
+      "problem": "Major releases are always a lot of work; this is probably the biggest release in 20 years due to the new base system distribution system landing.",
+      "audience": null,
+      "builder_usernames": [
+        "cperciva"
+      ],
+      "source_excerpt": "Release engineering for FreeBSD 15.0-RELEASE.  Major releases are always a lot of work, but this is probably the biggest release in 20 years due to the new base system distribution system landing.  (We're switching from \"here's a tarball containing everything\" to \"here's 500 packages\", with resulting changes in the build process, download/update mirrors, installer, etc.)",
+      "evidence": [
+        {
+          "source_item_id": 45419134,
+          "source_field": "body",
+          "value": "Release engineering for FreeBSD 15.0-RELEASE.  Major releases are always a lot of work, but this is probably the biggest release in 20 years due to the new base system distribution system landing.  (We're switching from \"here's a tarball containing everything\" to \"here's 500 packages\", with resulting changes in the build process, download/update mirrors, installer, etc.)",
+          "supports": [],
+          "author": "cperciva",
+          "shared_at": 1759182215,
+          "source_url": "https://news.ycombinator.com/item?id=45419134"
+        }
+      ],
+      "source_item_id": 45419134,
+      "source_url": "https://news.ycombinator.com/item?id=45419134",
+      "author": "cperciva",
+      "shared_at": 1759182215,
+      "links": []
+    }
+  ]
+}

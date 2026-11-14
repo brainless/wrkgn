@@ -1,0 +1,33 @@
+{
+  "id": 7198,
+  "slug": "openttd-12-2-c-rewrite-40af960f4c",
+  "name": "OpenTTD 12.2 C rewrite",
+  "mentions": [
+    {
+      "name": "OpenTTD 12.2 C rewrite",
+      "description": "A rewrite of OpenTTD version 12.2 that strips out the C++ and reorganizes the game back into C code, simplifying the codebase as groundwork before adding features. It converts the game to more realistic time pacing and adds scheduling features and more event-based gameplay.",
+      "problem": "OpenTTD's game time is unrealistically fast, and the codebase had reached a complicated breaking point.",
+      "audience": null,
+      "builder_usernames": [
+        "JamesTRexx"
+      ],
+      "source_excerpt": "Pulling apart and de-++-ing OpenTTD version 12.2 to scratch my itch of simplifying and reorganising the game back to C code. I rewrote it years ago to convert it to more realistic time (it's just way too fast), add scheduling features and make it more event based.",
+      "evidence": [
+        {
+          "source_item_id": 46940788,
+          "source_field": "body",
+          "value": "Pulling apart and de-++-ing OpenTTD version 12.2 to scratch my itch of simplifying and reorganising the game back to C code. I rewrote it years ago to convert it to more realistic time (it's just way too fast), add scheduling features and make it more event based.",
+          "supports": [],
+          "author": "JamesTRexx",
+          "shared_at": 1770602875,
+          "source_url": "https://news.ycombinator.com/item?id=46940788"
+        }
+      ],
+      "source_item_id": 46940788,
+      "source_url": "https://news.ycombinator.com/item?id=46940788",
+      "author": "JamesTRexx",
+      "shared_at": 1770602875,
+      "links": []
+    }
+  ]
+}

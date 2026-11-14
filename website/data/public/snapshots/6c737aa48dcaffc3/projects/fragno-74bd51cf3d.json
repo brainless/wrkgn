@@ -1,0 +1,63 @@
+{
+  "id": 8248,
+  "slug": "fragno-74bd51cf3d",
+  "name": "Fragno",
+  "mentions": [
+    {
+      "name": "Fragno",
+      "description": "A meta framework for building \"full-stack\" libraries that bundle frontend hooks, backend routes, and a database schema into a single package. It lets library authors define webhook handlers and simple database operations, moving complexity from the library user to the author and making API integrations easier.",
+      "problem": "API integrations push complexity onto library users; writing to a database from a library is a powerful but complex concept.",
+      "audience": "Library authors",
+      "builder_usernames": [
+        "WilcoKruijer"
+      ],
+      "source_excerpt": "I'm working on a meta framework for building \"full-stack\" libraries. I.e. libraries that bundle frontend hooks, backend routes, and a database schema into a single package.",
+      "evidence": [
+        {
+          "source_item_id": 46265187,
+          "source_field": "body",
+          "value": "I'm working on a meta framework for building \"full-stack\" libraries. I.e. libraries that bundle frontend hooks, backend routes, and a database schema into a single package.",
+          "supports": [],
+          "author": "WilcoKruijer",
+          "shared_at": 1765735265,
+          "source_url": "https://news.ycombinator.com/item?id=46265187"
+        }
+      ],
+      "source_item_id": 46265187,
+      "source_url": "https://news.ycombinator.com/item?id=46265187",
+      "author": "WilcoKruijer",
+      "shared_at": 1765735265,
+      "links": [
+        "https://github.com/rejot-dev/fragno"
+      ]
+    },
+    {
+      "name": "Fragno",
+      "description": "A meta framework for building \"full-stack\" libraries that bundle frontend hooks, backend routes, and a database schema into a single package. It lets library authors define webhook handlers and simple database operations, moving integration complexity from users to authors.",
+      "problem": "Integrating libraries puts too much complexity on users; this moves that complexity to library authors to make integrations easier.",
+      "audience": "Library authors building libraries for applications",
+      "builder_usernames": [
+        "WilcoKruijer"
+      ],
+      "source_excerpt": "I'm working on a meta framework for building \"full-stack\" libraries. I.e. libraries that bundle frontend hooks, backend routes, and a database schema into a single package.",
+      "evidence": [
+        {
+          "source_item_id": 46219989,
+          "source_field": "body",
+          "value": "I'm working on a meta framework for building \"full-stack\" libraries. I.e. libraries that bundle frontend hooks, backend routes, and a database schema into a single package.",
+          "supports": [],
+          "author": "WilcoKruijer",
+          "shared_at": 1765385107,
+          "source_url": "https://news.ycombinator.com/item?id=46219989"
+        }
+      ],
+      "source_item_id": 46219989,
+      "source_url": "https://news.ycombinator.com/item?id=46219989",
+      "author": "WilcoKruijer",
+      "shared_at": 1765385107,
+      "links": [
+        "https://github.com/rejot-dev/fragno"
+      ]
+    }
+  ]
+}

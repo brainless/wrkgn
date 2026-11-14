@@ -1,0 +1,35 @@
+{
+  "id": 9151,
+  "slug": "mipsmatch-6e931108d9",
+  "name": "mipsmatch",
+  "mentions": [
+    {
+      "name": "mipsmatch",
+      "description": "A tool for \"grep\"ing MIPS binaries to find duplicate code (functions, segments, sections), primarily to aid in decompiling. It matches instructions while avoiding location-dependent references, then creates a hash that can be used to search binaries in linear or faster time. Still a work in progress, but already in use on at least one decompilation project.",
+      "problem": "Finding duplicate code in MIPS binaries to speed up and support decompilation work.",
+      "audience": null,
+      "builder_usernames": [
+        "jonhohle"
+      ],
+      "source_excerpt": "A tool for “grep”ing MIPS binaries[0] to find duplicate code (functions, segments, sections) primarily to aid in decompiling.",
+      "evidence": [
+        {
+          "source_item_id": 45877986,
+          "source_field": "body",
+          "value": "A tool for “grep”ing MIPS binaries[0] to find duplicate code (functions, segments, sections) primarily to aid in decompiling.",
+          "supports": [],
+          "author": "jonhohle",
+          "shared_at": 1762794169,
+          "source_url": "https://news.ycombinator.com/item?id=45877986"
+        }
+      ],
+      "source_item_id": 45877986,
+      "source_url": "https://news.ycombinator.com/item?id=45877986",
+      "author": "jonhohle",
+      "shared_at": 1762794169,
+      "links": [
+        "https://github.com/ttkb-oss/mipsmatch"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 5288,
+  "slug": "ezthrottle-a8ff5aa868",
+  "name": "EZThrottle",
+  "mentions": [
+    {
+      "name": "EZThrottle",
+      "description": "EZThrottle is an API rate limit router that gives each user a per-user queue to solve noisy-neighbor problems, automatically reroutes 500 errors to other regions, and lets the API provider tune the speed of requests via headers. Its edge servers perform all retries across different regions and can send webhooks across regions, so delivery succeeds as long as the user and their downstream are up in one region. It should be a major speed boost because non-BEAM servers waste performance on sleeping threads.",
+      "problem": "Modern orchestrators are reactive and don't handle spikey traffic; retry libraries cause retry storms for downstream dependencies and public APIs.",
+      "audience": null,
+      "builder_usernames": [
+        "rjpruitt16"
+      ],
+      "source_excerpt": "An api rate limit router - it’s gives a queue per user to solve noisy neighbors, it allows\nthe user user to reroute 500s to other regions automatically, the api provider can tune the speed of request with headers.",
+      "evidence": [
+        {
+          "source_item_id": 47753251,
+          "source_field": "body",
+          "value": "An api rate limit router - it’s gives a queue per user to solve noisy neighbors, it allows\nthe user user to reroute 500s to other regions automatically, the api provider can tune the speed of request with headers.",
+          "supports": [],
+          "author": "rjpruitt16",
+          "shared_at": 1776093424,
+          "source_url": "https://news.ycombinator.com/item?id=47753251"
+        }
+      ],
+      "source_item_id": 47753251,
+      "source_url": "https://news.ycombinator.com/item?id=47753251",
+      "author": "rjpruitt16",
+      "shared_at": 1776093424,
+      "links": [
+        "https://EZThrottle.network"
+      ]
+    }
+  ]
+}

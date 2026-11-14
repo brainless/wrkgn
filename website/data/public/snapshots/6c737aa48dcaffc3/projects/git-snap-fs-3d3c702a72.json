@@ -1,0 +1,35 @@
+{
+  "id": 8994,
+  "slug": "git-snap-fs-3d3c702a72",
+  "name": "git-snap-fs",
+  "mentions": [
+    {
+      "name": "git-snap-fs",
+      "description": "A filesystem tool that simultaneously mounts all commits in a git repository as directories, reusing the same inodes for identical content. Originally written in Python, the recreated version is in Rust and was also an experiment in coding with OpenAI's codex.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "eru"
+      ],
+      "source_excerpt": "I recreated a little tool to simultaneously mount all the commits in a git repository as directories at the same time (but re-use the same inodes for the same content).\n\nThe code is at https://github.com/matthiasgoergens/git-snap-fs",
+      "evidence": [
+        {
+          "source_item_id": 45870772,
+          "source_field": "body",
+          "value": "I recreated a little tool to simultaneously mount all the commits in a git repository as directories at the same time (but re-use the same inodes for the same content).\n\nThe code is at https://github.com/matthiasgoergens/git-snap-fs",
+          "supports": [],
+          "author": "eru",
+          "shared_at": 1762734512,
+          "source_url": "https://news.ycombinator.com/item?id=45870772"
+        }
+      ],
+      "source_item_id": 45870772,
+      "source_url": "https://news.ycombinator.com/item?id=45870772",
+      "author": "eru",
+      "shared_at": 1762734512,
+      "links": [
+        "https://github.com/matthiasgoergens/git-snap-fs"
+      ]
+    }
+  ]
+}

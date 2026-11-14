@@ -1,0 +1,35 @@
+{
+  "id": 7547,
+  "slug": "nthesis-document-chat-8469bf66e1",
+  "name": "Nthesis document chat",
+  "mentions": [
+    {
+      "name": "Nthesis document chat",
+      "description": "A web app that lets people chat with the documents in the Hacker News 'What are you working on?' post, with the indexed content updating live, and also provides a basic text search over the same documents.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "osigurdson"
+      ],
+      "source_excerpt": "I built a way to chat with the documents in this post (updates live).\n\nhttps://nthesis.ai/public/702445eb-f0e4-4730-b34f-f34eb06dd6aa/chat\n\nOr you can do a basic text search: https://nthesis.ai/public/hn-working-on",
+      "evidence": [
+        {
+          "source_item_id": 46579535,
+          "source_field": "body",
+          "value": "I built a way to chat with the documents in this post (updates live).\n\nhttps://nthesis.ai/public/702445eb-f0e4-4730-b34f-f34eb06dd6aa/chat\n\nOr you can do a basic text search: https://nthesis.ai/public/hn-working-on",
+          "supports": [],
+          "author": "osigurdson",
+          "shared_at": 1768162539,
+          "source_url": "https://news.ycombinator.com/item?id=46579535"
+        }
+      ],
+      "source_item_id": 46579535,
+      "source_url": "https://news.ycombinator.com/item?id=46579535",
+      "author": "osigurdson",
+      "shared_at": 1768162539,
+      "links": [
+        "https://nthesis.ai"
+      ]
+    }
+  ]
+}

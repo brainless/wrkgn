@@ -1,0 +1,35 @@
+{
+  "id": 5704,
+  "slug": "findsubstack-e90ee3fe22",
+  "name": "FindSubstack",
+  "mentions": [
+    {
+      "name": "FindSubstack",
+      "description": "A newsfeed built from 130k Substack RSS feeds, filtered to posts from the past 24 hours, that surfaces recent Substack writing to help discover writers beyond what recommendation algorithms show.",
+      "problem": "Substack content discovery is dominated by algorithmic recommendations, making it hard to find new writers.",
+      "audience": "Helps the builder personally discover new Substack writers; built to scratch the author's own itch.",
+      "builder_usernames": [
+        "meander_water"
+      ],
+      "source_excerpt": "https://findsubstack.com\n\nIt's a newsfeed constructed from 130k substack RSS feeds but limited to the past 24h.\n\nIts helping me discover writers other than just what the algorithm gives me.",
+      "evidence": [
+        {
+          "source_item_id": 47749303,
+          "source_field": "body",
+          "value": "https://findsubstack.com\n\nIt's a newsfeed constructed from 130k substack RSS feeds but limited to the past 24h.\n\nIts helping me discover writers other than just what the algorithm gives me.",
+          "supports": [],
+          "author": "meander_water",
+          "shared_at": 1776068877,
+          "source_url": "https://news.ycombinator.com/item?id=47749303"
+        }
+      ],
+      "source_item_id": 47749303,
+      "source_url": "https://news.ycombinator.com/item?id=47749303",
+      "author": "meander_water",
+      "shared_at": 1776068877,
+      "links": [
+        "https://findsubstack.com"
+      ]
+    }
+  ]
+}

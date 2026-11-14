@@ -1,0 +1,33 @@
+{
+  "id": 7767,
+  "slug": "project-df6c6ed46b",
+  "name": null,
+  "mentions": [
+    {
+      "name": null,
+      "description": "A peer-to-peer synchronous IPv6 file sync tool for transferring and navigating files between devices without needing servers, Dropbox, or WeTransfer. Inspired by croc, rclone, syncthing, and magic wormhole, it offers a Slint GUI, cross-platform support on mobile and desktop (via FUSE or no-FUSE), and post-quantum encryption at the transport level. It is nearing release under MPL-2.0, with a Unikraft-based unikernel relay server (for key negotiation and other tasks) being explored as a cloud function.",
+      "problem": "The author struggles to share files between devices and questions why servers or services like Dropbox and WeTransfer are needed for this.",
+      "audience": "The author's own pain point of sharing files between their personal devices; implied personal use.",
+      "builder_usernames": [
+        "coldstartops"
+      ],
+      "source_excerpt": "KeibiDrop: A peer to peer synchronous IPV6 file sync tool.\n\nI always struggle to share files between my devices, or to navigate them. Why do I need servers, or dropbox or wetransfer?",
+      "evidence": [
+        {
+          "source_item_id": 46585826,
+          "source_field": "body",
+          "value": "KeibiDrop: A peer to peer synchronous IPV6 file sync tool.\n\nI always struggle to share files between my devices, or to navigate them. Why do I need servers, or dropbox or wetransfer?",
+          "supports": [],
+          "author": "coldstartops",
+          "shared_at": 1768208217,
+          "source_url": "https://news.ycombinator.com/item?id=46585826"
+        }
+      ],
+      "source_item_id": 46585826,
+      "source_url": "https://news.ycombinator.com/item?id=46585826",
+      "author": "coldstartops",
+      "shared_at": 1768208217,
+      "links": []
+    }
+  ]
+}

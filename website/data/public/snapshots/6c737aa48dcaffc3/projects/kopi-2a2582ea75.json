@@ -1,0 +1,35 @@
+{
+  "id": 8420,
+  "slug": "kopi-2a2582ea75",
+  "name": "Kopi",
+  "mentions": [
+    {
+      "name": "Kopi",
+      "description": "A CLI tool that replaces the slow process of restoring massive production database backups on a dev machine with a 'surgical slicing' approach, spinning up lightweight, referentially intact Docker containers in seconds. It spins up the exact schema of the source database and generates safe synthetic datasets, and can optionally replicate the actual source data with automatically anonymized PII. It can replicate a database in as little as 9 seconds and is Open Core with Community Edition and Pro/Enterprise editions.",
+      "problem": "Restoring massive production database backups on a dev machine is a slow process.",
+      "audience": "Developers working on dev machines who need production database backups restored locally",
+      "builder_usernames": [
+        "ItsBob"
+      ],
+      "source_excerpt": "I'm working on something called Kopi: a CLI tool that replaces the slow process of restoring massive production database backups on a dev machine with a \"surgical slicing\" approach, spinning up lightweight, referentially intact Docker containers in seconds",
+      "evidence": [
+        {
+          "source_item_id": 46266422,
+          "source_field": "body",
+          "value": "I'm working on something called Kopi: a CLI tool that replaces the slow process of restoring massive production database backups on a dev machine with a \"surgical slicing\" approach, spinning up lightweight, referentially intact Docker containers in seconds",
+          "supports": [],
+          "author": "ItsBob",
+          "shared_at": 1765743441,
+          "source_url": "https://news.ycombinator.com/item?id=46266422"
+        }
+      ],
+      "source_item_id": 46266422,
+      "source_url": "https://news.ycombinator.com/item?id=46266422",
+      "author": "ItsBob",
+      "shared_at": 1765743441,
+      "links": [
+        "https://kopidev.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 8604,
+  "slug": "local-kubernetes-dev-environment-96c80a78ee",
+  "name": "Local Kubernetes dev environment",
+  "mentions": [
+    {
+      "name": "Local Kubernetes dev environment",
+      "description": "This project builds a local Kubernetes development environment that mirrors a production setup as closely as possible, running ingress, external-dns, an ACME certificate authority, a load balancer, Argo, a container registry, and prometheus-operator entirely locally; a similar environment is being set up at work in Docker Desktop on Windows and Mac.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mafwi"
+      ],
+      "source_excerpt": "Home, on going work to get local Kubernetes dev env running as close to a production one as possible - ingress, external-dns, ACME CA, load balancer, Argo, registry, prom-operator etc., running entirely locally.  Work, similar but in Docker Desktop on Windows and Mac.",
+      "evidence": [
+        {
+          "source_item_id": 46266559,
+          "source_field": "body",
+          "value": "Home, on going work to get local Kubernetes dev env running as close to a production one as possible - ingress, external-dns, ACME CA, load balancer, Argo, registry, prom-operator etc., running entirely locally.  Work, similar but in Docker Desktop on Windows and Mac.",
+          "supports": [],
+          "author": "mafwi",
+          "shared_at": 1765744271,
+          "source_url": "https://news.ycombinator.com/item?id=46266559"
+        }
+      ],
+      "source_item_id": 46266559,
+      "source_url": "https://news.ycombinator.com/item?id=46266559",
+      "author": "mafwi",
+      "shared_at": 1765744271,
+      "links": []
+    }
+  ]
+}

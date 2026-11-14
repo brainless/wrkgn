@@ -1,0 +1,35 @@
+{
+  "id": 10405,
+  "slug": "hessra-net-4b467dcfa3",
+  "name": "hessra.net",
+  "mentions": [
+    {
+      "name": "hessra.net",
+      "description": "A token-based authorization system for machines, built using biscuits. Any service, machine, or IoT device can authenticate to the service and receive policy-based authorization tokens for each request; tokens are included with the request and verified without further round trips using the service's public key, and are single-use and scoped to a single request. Includes service-chains, where a token must be signed by notable components along the request path and checked at each step to cut down on lateral movement, and multi-party authorization, where N authorization services must each sign the token per their policy before it authorizes an action, useful for managing capabilities of software deployed into customer environments or for B2B agents getting sign-off from both parties.",
+      "problem": "Machine-to-machine authorization normally costs extra round trips and leaves room for lateral movement; these single-use, request-scoped tokens verify without RTTs and constrain signing to expected components along the request path.",
+      "audience": "Teams operating services, machines, and IoT devices that need machine-to-machine authorization, including managing capabilities of software deployed into customer environments and B2B agent sign-off.",
+      "builder_usernames": [
+        "ymyms"
+      ],
+      "source_excerpt": "I'm working on hessra.net, a token-based authorization system for machines and built using biscuits. The idea is that any service/machine/IoT device can authenticate to the service and get authorization tokens for each request based on policy. Then the tokens can be included with the request and verified without any further RTTs using the service's public key. The tokens are meant to be single-use and scoped to a single request.",
+      "evidence": [
+        {
+          "source_item_id": 44705438,
+          "source_field": "body",
+          "value": "I'm working on hessra.net, a token-based authorization system for machines and built using biscuits. The idea is that any service/machine/IoT device can authenticate to the service and get authorization tokens for each request based on policy. Then the tokens can be included with the request and verified without any further RTTs using the service's public key. The tokens are meant to be single-use and scoped to a single request.",
+          "supports": [],
+          "author": "ymyms",
+          "shared_at": 1753656649,
+          "source_url": "https://news.ycombinator.com/item?id=44705438"
+        }
+      ],
+      "source_item_id": 44705438,
+      "source_url": "https://news.ycombinator.com/item?id=44705438",
+      "author": "ymyms",
+      "shared_at": 1753656649,
+      "links": [
+        "https://hessra.net"
+      ]
+    }
+  ]
+}

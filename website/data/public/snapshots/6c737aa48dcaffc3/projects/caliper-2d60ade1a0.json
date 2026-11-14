@@ -1,0 +1,63 @@
+{
+  "id": 4684,
+  "slug": "caliper-2d60ade1a0",
+  "name": "Caliper",
+  "mentions": [
+    {
+      "name": "Caliper",
+      "description": "This tool sets code quality guardrails for AI-generated code. It extracts deterministic quality checks from a project's CLAUDE.md and runs them after every agent turn, performs a lightweight AI-powered review at every commit with feedback sent directly to the coding agent, and runs a deeper 'traditional' AI review at merge time or on demand. It is free to use with a bring-your-own API key.",
+      "problem": "Setting strong code quality guardrails in an era where most code is not handwritten.",
+      "audience": null,
+      "builder_usernames": [
+        "jtbetz22"
+      ],
+      "source_excerpt": "I'm continuing to focus on ways to set strong code quality guardrails in an era where most code is not handwritten.\n\nThe result is http://getcaliper.dev.",
+      "evidence": [
+        {
+          "source_item_id": 48087433,
+          "source_field": "body",
+          "value": "I'm continuing to focus on ways to set strong code quality guardrails in an era where most code is not handwritten.\n\nThe result is http://getcaliper.dev.",
+          "supports": [],
+          "author": "jtbetz22",
+          "shared_at": 1778443898,
+          "source_url": "https://news.ycombinator.com/item?id=48087433"
+        }
+      ],
+      "source_item_id": 48087433,
+      "source_url": "https://news.ycombinator.com/item?id=48087433",
+      "author": "jtbetz22",
+      "shared_at": 1778443898,
+      "links": [
+        "http://getcaliper.dev"
+      ]
+    },
+    {
+      "name": "Caliper",
+      "description": "Caliper is a code quality system for AI-powered software development that runs multiple layers of checks throughout the dev cycle: lightweight checks after every agent turn, with increasingly complex checks pre-commit and pre-merge. It catches violations of a project's own conventions (as defined in CLAUDE.md) immediately and gets the model to make corrections before small issues become costly to unwind.",
+      "problem": "With high AI-generated code volumes, code review only as a final check before merge is too late and too burdensome; 40% of agent turns produce code that violates a project's own conventions.",
+      "audience": null,
+      "builder_usernames": [
+        "jtbetz22"
+      ],
+      "source_excerpt": "That's why I built Caliper (http://getcaliper.dev). It's a system that institutes multiple layers of code quality checks throughout the dev cycle. The lightest-weight checks get executed after every agent turn, and then increasingly more complex checks get run pre-commit and pre-merge.",
+      "evidence": [
+        {
+          "source_item_id": 47743448,
+          "source_field": "body",
+          "value": "That's why I built Caliper (http://getcaliper.dev). It's a system that institutes multiple layers of code quality checks throughout the dev cycle. The lightest-weight checks get executed after every agent turn, and then increasingly more complex checks get run pre-commit and pre-merge.",
+          "supports": [],
+          "author": "jtbetz22",
+          "shared_at": 1776022131,
+          "source_url": "https://news.ycombinator.com/item?id=47743448"
+        }
+      ],
+      "source_item_id": 47743448,
+      "source_url": "https://news.ycombinator.com/item?id=47743448",
+      "author": "jtbetz22",
+      "shared_at": 1776022131,
+      "links": [
+        "http://getcaliper.dev"
+      ]
+    }
+  ]
+}

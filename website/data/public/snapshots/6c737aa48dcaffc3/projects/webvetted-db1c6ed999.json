@@ -1,0 +1,35 @@
+{
+  "id": 8590,
+  "slug": "webvetted-db1c6ed999",
+  "name": "WebVetted",
+  "mentions": [
+    {
+      "name": "WebVetted",
+      "description": "A vetting tool for Facebook Marketplace sellers: you enter a name and it assembles an OSINT-style report on any Facebook user, letting sellers vet buyers before meeting them in person. It is early stage but reportedly works well.",
+      "problem": "Sellers on Facebook Marketplace lack a way to vet buyers before meeting them in real life.",
+      "audience": "Sellers on Facebook Marketplace.",
+      "builder_usernames": [
+        "hienyimba"
+      ],
+      "source_excerpt": "A vetting tool for sellers on Fabebook Marketplace (which we all love to hate) to vet Buyers before they meet them irl. check it > https://webvetted.com/detect/social/facebook",
+      "evidence": [
+        {
+          "source_item_id": 46268223,
+          "source_field": "body",
+          "value": "A vetting tool for sellers on Fabebook Marketplace (which we all love to hate) to vet Buyers before they meet them irl. check it > https://webvetted.com/detect/social/facebook",
+          "supports": [],
+          "author": "hienyimba",
+          "shared_at": 1765754581,
+          "source_url": "https://news.ycombinator.com/item?id=46268223"
+        }
+      ],
+      "source_item_id": 46268223,
+      "source_url": "https://news.ycombinator.com/item?id=46268223",
+      "author": "hienyimba",
+      "shared_at": 1765754581,
+      "links": [
+        "https://webvetted.com/detect/social/facebook"
+      ]
+    }
+  ]
+}

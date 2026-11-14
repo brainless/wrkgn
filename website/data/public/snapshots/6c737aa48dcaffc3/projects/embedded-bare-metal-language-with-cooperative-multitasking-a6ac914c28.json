@@ -1,0 +1,33 @@
+{
+  "id": 5931,
+  "slug": "embedded-bare-metal-language-with-cooperative-multitasking-a6ac914c28",
+  "name": "Embedded bare-metal language with cooperative multitasking",
+  "mentions": [
+    {
+      "name": "Embedded bare-metal language with cooperative multitasking",
+      "description": "A programming language for embedded bare-metal devices with built-in cooperative multitasking. Every `[]` block runs independently and automatically yields after each logical line of code, and an event/messaging system lets blocks be triggered by events, wait for events internally, and receive events injected from interrupts, making it easy to model embedded systems as independent state machines. It is currently mostly an interpreter written in Rust that can also emit C code, with syntax still being experimented on.",
+      "problem": "A lot of embedded projects introduce an RTOS and then end up inheriting the complexity that comes with it; the language aims to keep the mental model simple.",
+      "audience": null,
+      "builder_usernames": [
+        "keithnz"
+      ],
+      "source_excerpt": "Also working on a language for embedded bare-metal devices with built-in cooperative multitasking.\n\nA lot of embedded projects introduce an RTOS and then end up inheriting the complexity that comes with it. The idea here is to keep the mental model simple: every `[]` block runs independently and automatically yields after each logical line of code.",
+      "evidence": [
+        {
+          "source_item_id": 47303844,
+          "source_field": "body",
+          "value": "Also working on a language for embedded bare-metal devices with built-in cooperative multitasking.\n\nA lot of embedded projects introduce an RTOS and then end up inheriting the complexity that comes with it. The idea here is to keep the mental model simple: every `[]` block runs independently and automatically yields after each logical line of code.",
+          "supports": [],
+          "author": "keithnz",
+          "shared_at": 1773020482,
+          "source_url": "https://news.ycombinator.com/item?id=47303844"
+        }
+      ],
+      "source_item_id": 47303844,
+      "source_url": "https://news.ycombinator.com/item?id=47303844",
+      "author": "keithnz",
+      "shared_at": 1773020482,
+      "links": []
+    }
+  ]
+}

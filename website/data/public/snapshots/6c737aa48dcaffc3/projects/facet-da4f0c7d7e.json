@@ -1,0 +1,33 @@
+{
+  "id": 8468,
+  "slug": "facet-da4f0c7d7e",
+  "name": "FACET",
+  "mentions": [
+    {
+      "name": "FACET",
+      "description": "This project provides a deterministic execution layer for AI systems, treating LLMs as constrained components inside explicitly defined workflows with strict input/output schemas, validated DAGs, clear failure modes, and replayable execution, so AI behavior becomes testable, debuggable, and reproducible.",
+      "problem": "Most \"AI unreliability\" isn't model-related — it comes from ambiguous structure and hidden assumptions around the model.",
+      "audience": null,
+      "builder_usernames": [
+        "rokoss21"
+      ],
+      "source_excerpt": "We’re exploring this through a project called FACET, focused on making AI behavior testable, debuggable, and reproducible in the same way we expect from other parts of a system.",
+      "evidence": [
+        {
+          "source_item_id": 46282415,
+          "source_field": "body",
+          "value": "We’re exploring this through a project called FACET, focused on making AI behavior testable, debuggable, and reproducible in the same way we expect from other parts of a system.",
+          "supports": [],
+          "author": "rokoss21",
+          "shared_at": 1765841171,
+          "source_url": "https://news.ycombinator.com/item?id=46282415"
+        }
+      ],
+      "source_item_id": 46282415,
+      "source_url": "https://news.ycombinator.com/item?id=46282415",
+      "author": "rokoss21",
+      "shared_at": 1765841171,
+      "links": []
+    }
+  ]
+}

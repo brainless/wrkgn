@@ -1,0 +1,63 @@
+{
+  "id": 4665,
+  "slug": "woofware-pawprint-99426d6bf6",
+  "name": "WoofWare.PawPrint",
+  "mentions": [
+    {
+      "name": "WoofWare.PawPrint",
+      "description": "A deterministic .NET runtime, maintained as the author's main project and recently upgraded to target .NET 10.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Smaug123"
+      ],
+      "source_excerpt": "Main project is a deterministic .NET runtime (https://github.com/Smaug123/WoofWare.PawPrint). Today I upgraded it to net10, which has naturally caused dozens of regressions which Claude is beavering away at.",
+      "evidence": [
+        {
+          "source_item_id": 48087419,
+          "source_field": "body",
+          "value": "Main project is a deterministic .NET runtime (https://github.com/Smaug123/WoofWare.PawPrint). Today I upgraded it to net10, which has naturally caused dozens of regressions which Claude is beavering away at.",
+          "supports": [],
+          "author": "Smaug123",
+          "shared_at": 1778443822,
+          "source_url": "https://news.ycombinator.com/item?id=48087419"
+        }
+      ],
+      "source_item_id": 48087419,
+      "source_url": "https://news.ycombinator.com/item?id=48087419",
+      "author": "Smaug123",
+      "shared_at": 1778443822,
+      "links": [
+        "https://github.com/Smaug123/WoofWare.PawPrint"
+      ]
+    },
+    {
+      "name": "WoofWare.PawPrint",
+      "description": "A deterministic .NET runtime being built so that a property-based testing framework can identify deadlocks in simple buggy multithreaded code; it can already solve a few Advent of Code problems and supports limited exception handling, limited virtual method dispatch, and limited casting between types, but cannot yet run Hello World.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Smaug123"
+      ],
+      "source_excerpt": "Next: get the deterministic .NET runtime to a point where a property-based testing framework can identify the deadlock in some very simple buggy multithreaded code. (The framework is not yet able to run Hello World - did you know that's an incredibly complicated program in .NET? - but it can solve a few Advent of Code problems right now, can perform some limited exception handling, limited virtual method dispatch, limited casting between types. Even getting to Hello World might take a year if I'm unlucky.)",
+      "evidence": [
+        {
+          "source_item_id": 45869787,
+          "source_field": "body",
+          "value": "Next: get the deterministic .NET runtime to a point where a property-based testing framework can identify the deadlock in some very simple buggy multithreaded code. (The framework is not yet able to run Hello World - did you know that's an incredibly complicated program in .NET? - but it can solve a few Advent of Code problems right now, can perform some limited exception handling, limited virtual method dispatch, limited casting between types. Even getting to Hello World might take a year if I'm unlucky.)",
+          "supports": [],
+          "author": "Smaug123",
+          "shared_at": 1762726962,
+          "source_url": "https://news.ycombinator.com/item?id=45869787"
+        }
+      ],
+      "source_item_id": 45869787,
+      "source_url": "https://news.ycombinator.com/item?id=45869787",
+      "author": "Smaug123",
+      "shared_at": 1762726962,
+      "links": [
+        "https://github.com/Smaug123/WoofWare.PawPrint"
+      ]
+    }
+  ]
+}

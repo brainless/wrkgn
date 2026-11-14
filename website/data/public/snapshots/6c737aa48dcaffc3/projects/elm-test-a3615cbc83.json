@@ -1,0 +1,35 @@
+{
+  "id": 7108,
+  "slug": "elm-test-a3615cbc83",
+  "name": "elm-test",
+  "mentions": [
+    {
+      "name": "elm-test",
+      "description": "Elm property-based testing library. Current work optimizes PBT generation and shrinking performance using JS TypedArrays, cutting a PBT-heavy test suite's runtime from 1336ms to 891ms, and experiments with adding coverage-guided, AFL-style PBT input generation on top of the library's existing random input generation.",
+      "problem": "PBT generation and shrinking in elm-test were slow, and the library only supported random input generation with no coverage-guided input generation.",
+      "audience": null,
+      "builder_usernames": [
+        "mjaniczek"
+      ],
+      "source_excerpt": "I'm optimizing performance of PBT generation and shrinking in [elm-test](https://github.com/elm-explorations/test/compare/master...janiczek-benchmark-js-randomrun) - on its own PBT-heavy test suite I got it down from 1336ms to 891ms by using JS TypedArrays.\n\nI'm also experimenting with coverage-guided PBT input generation in the same library, AFL-style -- right now elm-test only has random input generation.",
+      "evidence": [
+        {
+          "source_item_id": 46939458,
+          "source_field": "body",
+          "value": "I'm optimizing performance of PBT generation and shrinking in [elm-test](https://github.com/elm-explorations/test/compare/master...janiczek-benchmark-js-randomrun) - on its own PBT-heavy test suite I got it down from 1336ms to 891ms by using JS TypedArrays.\n\nI'm also experimenting with coverage-guided PBT input generation in the same library, AFL-style -- right now elm-test only has random input generation.",
+          "supports": [],
+          "author": "mjaniczek",
+          "shared_at": 1770591452,
+          "source_url": "https://news.ycombinator.com/item?id=46939458"
+        }
+      ],
+      "source_item_id": 46939458,
+      "source_url": "https://news.ycombinator.com/item?id=46939458",
+      "author": "mjaniczek",
+      "shared_at": 1770591452,
+      "links": [
+        "https://github.com/elm-explorations/test/compare/master...janiczek-benchmark-js-randomrun"
+      ]
+    }
+  ]
+}

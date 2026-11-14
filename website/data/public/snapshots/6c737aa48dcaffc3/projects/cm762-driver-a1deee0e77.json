@@ -1,0 +1,35 @@
+{
+  "id": 7098,
+  "slug": "cm762-driver-a1deee0e77",
+  "name": "CM762_Driver",
+  "mentions": [
+    {
+      "name": "CM762_Driver",
+      "description": "A Linux kernel driver adding kernel 6.x support for a cheap USB WiFi adapter.",
+      "problem": "The USB WiFi adapter lacked support on newer Linux kernels (6.x).",
+      "audience": null,
+      "builder_usernames": [
+        "saarp"
+      ],
+      "source_excerpt": "https://github.com/saarp/CM762_Driver\n\nI added Linux kernel 6.x support for a cheap USB Wifi adapter I bought on AMZN.",
+      "evidence": [
+        {
+          "source_item_id": 46962807,
+          "source_field": "body",
+          "value": "https://github.com/saarp/CM762_Driver\n\nI added Linux kernel 6.x support for a cheap USB Wifi adapter I bought on AMZN.",
+          "supports": [],
+          "author": "saarp",
+          "shared_at": 1770742506,
+          "source_url": "https://news.ycombinator.com/item?id=46962807"
+        }
+      ],
+      "source_item_id": 46962807,
+      "source_url": "https://news.ycombinator.com/item?id=46962807",
+      "author": "saarp",
+      "shared_at": 1770742506,
+      "links": [
+        "https://github.com/saarp/CM762_Driver"
+      ]
+    }
+  ]
+}

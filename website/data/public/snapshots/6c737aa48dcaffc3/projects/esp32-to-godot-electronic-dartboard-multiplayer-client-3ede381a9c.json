@@ -1,0 +1,33 @@
+{
+  "id": 4719,
+  "slug": "esp32-to-godot-electronic-dartboard-multiplayer-client-3ede381a9c",
+  "name": "ESP32-to-Godot electronic dartboard multiplayer client",
+  "mentions": [
+    {
+      "name": "ESP32-to-Godot electronic dartboard multiplayer client",
+      "description": "This hardware-and-software project bridges an electronic dartboard to enable three-player (1v1v1) play, which the board's native modes don't support. An ESP32 syncs to the dartboard, captures dart hits, and forwards them to a client written in Godot, with a server being built for stats tracking. It arose from the author and friends wanting to play darts together on a single board at home.",
+      "problem": "Electronic dartboards only support 1v1 or 1v2, where one player gets twice as many turns as the others (and always wins), so three people cannot play fairly on one board locally.",
+      "audience": null,
+      "builder_usernames": [
+        "sedatesteak"
+      ],
+      "source_excerpt": "I have an esp32 syncing to the board and forwarding the hits to a client written in godot. I'm now spinning up the server for stats tracking etc.",
+      "evidence": [
+        {
+          "source_item_id": 48091389,
+          "source_field": "body",
+          "value": "I have an esp32 syncing to the board and forwarding the hits to a client written in godot. I'm now spinning up the server for stats tracking etc.",
+          "supports": [],
+          "author": "sedatesteak",
+          "shared_at": 1778478078,
+          "source_url": "https://news.ycombinator.com/item?id=48091389"
+        }
+      ],
+      "source_item_id": 48091389,
+      "source_url": "https://news.ycombinator.com/item?id=48091389",
+      "author": "sedatesteak",
+      "shared_at": 1778478078,
+      "links": []
+    }
+  ]
+}

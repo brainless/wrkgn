@@ -1,0 +1,33 @@
+{
+  "id": 10497,
+  "slug": "mortgage-scenario-planning-tool-b0ee475405",
+  "name": "Mortgage Scenario Planning Tool",
+  "mentions": [
+    {
+      "name": "Mortgage Scenario Planning Tool",
+      "description": "A mortgage scenario planning tool that goes beyond basic payment estimates by accounting for individualized inputs such as down payment percentage, closing costs, and other fees to calculate how much cash on hand a buyer actually needs to transact on a mortgage. Built as a React application that replicates the multiplayer collaboration aspects of Google Sheets, translating the logic from a lender's client-facing spreadsheet.",
+      "problem": "Simple mortgage calculators only estimate the monthly payment and ignore per-individual inputs like closing costs and other fees needed to determine how much cash on hand a buyer needs to actually complete a mortgage transaction.",
+      "audience": "Individual home buyers evaluating mortgage scenarios; based on a spreadsheet a lender uses with clients.",
+      "builder_usernames": [
+        "jeremy_k"
+      ],
+      "source_excerpt": "I'm working on a mortgage scenario planning tool. A simple mortgage calculator can give you an estimate as to how much a mortgage payment will be but there are so many other inputs that must be taken into account on a per individual basis.",
+      "evidence": [
+        {
+          "source_item_id": 44711518,
+          "source_field": "body",
+          "value": "I'm working on a mortgage scenario planning tool. A simple mortgage calculator can give you an estimate as to how much a mortgage payment will be but there are so many other inputs that must be taken into account on a per individual basis.",
+          "supports": [],
+          "author": "jeremy_k",
+          "shared_at": 1753714667,
+          "source_url": "https://news.ycombinator.com/item?id=44711518"
+        }
+      ],
+      "source_item_id": 44711518,
+      "source_url": "https://news.ycombinator.com/item?id=44711518",
+      "author": "jeremy_k",
+      "shared_at": 1753714667,
+      "links": []
+    }
+  ]
+}

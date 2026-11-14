@@ -1,0 +1,33 @@
+{
+  "id": 5525,
+  "slug": "calendar-api-64d158e108",
+  "name": "Calendar API",
+  "mentions": [
+    {
+      "name": "Calendar API",
+      "description": "This calendar API provides events CRUD endpoints and is planned to add booking, appointment, and free slot finding functionality, intended to support multiple resource types such as rooms, machines, people, and chairs; API design (REST vs GraphQL) for these features is still being explored.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "theturtlemoves"
+      ],
+      "source_excerpt": "I'm still working on my Calendar API. Currently I'm implementing the events CRUD endpoints. I haven't addressed booking / appointment / free slot finding yet, I intend to investigate how other API's handle this. Especially since I want to support multiple resource types (rooms, machines, people, chairs....).",
+      "evidence": [
+        {
+          "source_item_id": 47755214,
+          "source_field": "body",
+          "value": "I'm still working on my Calendar API. Currently I'm implementing the events CRUD endpoints. I haven't addressed booking / appointment / free slot finding yet, I intend to investigate how other API's handle this. Especially since I want to support multiple resource types (rooms, machines, people, chairs....).",
+          "supports": [],
+          "author": "theturtlemoves",
+          "shared_at": 1776100975,
+          "source_url": "https://news.ycombinator.com/item?id=47755214"
+        }
+      ],
+      "source_item_id": 47755214,
+      "source_url": "https://news.ycombinator.com/item?id=47755214",
+      "author": "theturtlemoves",
+      "shared_at": 1776100975,
+      "links": []
+    }
+  ]
+}

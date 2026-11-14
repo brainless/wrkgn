@@ -1,0 +1,35 @@
+{
+  "id": 5864,
+  "slug": "apostrophecms-postgres-and-sqlite-support-774e869cdf",
+  "name": "ApostropheCMS Postgres and SQLite support",
+  "mentions": [
+    {
+      "name": "ApostropheCMS Postgres and SQLite support",
+      "description": "ApostropheCMS is gaining Postgres and SQLite database support alongside its existing MongoDB API. The work is being done as a series of personal weekend projects using Claude Code AI agents, treating it as an adapter-pattern problem validated against a large multi-level test suite, with the feature targeted to land in May.",
+      "problem": "ApostropheCMS was heavily committed to the MongoDB API, which it exposes as part of its own API, making support for other databases unrealistic before AI coding agents.",
+      "audience": null,
+      "builder_usernames": [
+        "boutell"
+      ],
+      "source_excerpt": "I've been busy adding postgres and sqlite support to apostrophecms:\n\nhttps://apostrophecms.com",
+      "evidence": [
+        {
+          "source_item_id": 47744663,
+          "source_field": "body",
+          "value": "I've been busy adding postgres and sqlite support to apostrophecms:\n\nhttps://apostrophecms.com",
+          "supports": [],
+          "author": "boutell",
+          "shared_at": 1776029035,
+          "source_url": "https://news.ycombinator.com/item?id=47744663"
+        }
+      ],
+      "source_item_id": 47744663,
+      "source_url": "https://news.ycombinator.com/item?id=47744663",
+      "author": "boutell",
+      "shared_at": 1776029035,
+      "links": [
+        "https://apostrophecms.com"
+      ]
+    }
+  ]
+}

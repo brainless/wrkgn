@@ -1,0 +1,35 @@
+{
+  "id": 8770,
+  "slug": "beads-rs-82672a79b0",
+  "name": "beads-rs",
+  "mentions": [
+    {
+      "name": "beads-rs",
+      "description": "A Rust clone of beads, a distributed issue tracking system that uses CRDTs for real-time sync so multiple coding agents can be coordinated at the same time. It lives entirely in git, with instant sync locally and around 0.6s sync after the last action via git.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "saturatedfat"
+      ],
+      "source_excerpt": "i made a clone of beads in rust that uses CRDTs for real time sync to coordinate a bunch of coding agents at the same time! if running locally, it's instant, for git it takes around .6s after your last action. lives entirely in git, and is like... an actual distributed database/issue system, just works, and u never gotta think about it.",
+      "evidence": [
+        {
+          "source_item_id": 46270529,
+          "source_field": "body",
+          "value": "i made a clone of beads in rust that uses CRDTs for real time sync to coordinate a bunch of coding agents at the same time! if running locally, it's instant, for git it takes around .6s after your last action. lives entirely in git, and is like... an actual distributed database/issue system, just works, and u never gotta think about it.",
+          "supports": [],
+          "author": "saturatedfat",
+          "shared_at": 1765773239,
+          "source_url": "https://news.ycombinator.com/item?id=46270529"
+        }
+      ],
+      "source_item_id": 46270529,
+      "source_url": "https://news.ycombinator.com/item?id=46270529",
+      "author": "saturatedfat",
+      "shared_at": 1765773239,
+      "links": [
+        "https://github.com/delightful-ai/beads-rs/tree/main"
+      ]
+    }
+  ]
+}

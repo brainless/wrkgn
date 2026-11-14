@@ -1,0 +1,33 @@
+{
+  "id": 6803,
+  "slug": "book-on-building-shopify-apps-with-net-and-c-dcb2f1f02a",
+  "name": "Book on building Shopify apps with .NET and C#",
+  "mentions": [
+    {
+      "name": "Book on building Shopify apps with .NET and C#",
+      "description": "A book on building Shopify apps with .NET and C#. A complete rewrite is planned because the current edition uses Shopify's deprecated REST API and some unsupported methods, and the update was held back until it could be rewritten around ShopifySharp's new fluent query builders.",
+      "problem": "The book still uses Shopify's deprecated REST API and some methods that aren't supported anymore, so an update is long overdue.",
+      "audience": null,
+      "builder_usernames": [
+        "nozzlegear"
+      ],
+      "source_excerpt": "I plan on diving in on a complete rewrite of the book I wrote on building Shopify apps with .NET and C#. It's long overdue, the book still uses Shopify's deprecated rest API and some methods that aren't supported anymore, but I've been holding off on an update until I could rewrite it with the new fluent query builders in ShopifySharp.",
+      "evidence": [
+        {
+          "source_item_id": 46939904,
+          "source_field": "body",
+          "value": "I plan on diving in on a complete rewrite of the book I wrote on building Shopify apps with .NET and C#. It's long overdue, the book still uses Shopify's deprecated rest API and some methods that aren't supported anymore, but I've been holding off on an update until I could rewrite it with the new fluent query builders in ShopifySharp.",
+          "supports": [],
+          "author": "nozzlegear",
+          "shared_at": 1770595296,
+          "source_url": "https://news.ycombinator.com/item?id=46939904"
+        }
+      ],
+      "source_item_id": 46939904,
+      "source_url": "https://news.ycombinator.com/item?id=46939904",
+      "author": "nozzlegear",
+      "shared_at": 1770595296,
+      "links": []
+    }
+  ]
+}

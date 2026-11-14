@@ -1,0 +1,33 @@
+{
+  "id": 8960,
+  "slug": "self-hosted-recipe-app-e79eea9a95",
+  "name": "Self-hosted recipe app",
+  "mentions": [
+    {
+      "name": "Self-hosted recipe app",
+      "description": "This is a recipe app built to run independently of AWS or Cloudflare, so users can still access their recipes even when major cloud services go down. Launch is planned in 2026.",
+      "problem": "Recipe apps that depend on cloud providers like AWS or Cloudflare become inaccessible when those services go down.",
+      "audience": null,
+      "builder_usernames": [
+        "_88q3"
+      ],
+      "source_excerpt": "A recipe app that is not dependent on AWS or Cloudflare. When everything else goes down, at least you can cook :)",
+      "evidence": [
+        {
+          "source_item_id": 46119569,
+          "source_field": "body",
+          "value": "A recipe app that is not dependent on AWS or Cloudflare. When everything else goes down, at least you can cook :)",
+          "supports": [],
+          "author": "_88q3",
+          "shared_at": 1764669673,
+          "source_url": "https://news.ycombinator.com/item?id=46119569"
+        }
+      ],
+      "source_item_id": 46119569,
+      "source_url": "https://news.ycombinator.com/item?id=46119569",
+      "author": "_88q3",
+      "shared_at": 1764669673,
+      "links": []
+    }
+  ]
+}

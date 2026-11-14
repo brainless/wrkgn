@@ -1,0 +1,35 @@
+{
+  "id": 6718,
+  "slug": "micropay-bcd516cc70",
+  "name": "Micropay",
+  "mentions": [
+    {
+      "name": "Micropay",
+      "description": "A payments API for mobile money in Africa, described as what Stripe did for credit cards but for mobile money. It lets developers integrate mobile money payments (such as M-Pesa, where people pay directly from their cell phone number without bank accounts) into their apps in hours instead of the weeks such integrations typically take.",
+      "problem": "Integrating payments in Africa is hard: developers spend weeks on what should take hours, and existing solutions like Mastercard, PayPal, and Apple Pay are useless for the 50+ million people in Kenya who pay via M-Pesa and don't have bank accounts.",
+      "audience": "Developers building apps in Africa who need to accept mobile money payments from users without bank accounts.",
+      "builder_usernames": [
+        "defencetechhn"
+      ],
+      "source_excerpt": "Micropay - Stripe for the next billion people (https://micropay.dev/)\n\nHi HN, I built this because I got tired of fighting with integrating payments in Africa.",
+      "evidence": [
+        {
+          "source_item_id": 46950026,
+          "source_field": "body",
+          "value": "Micropay - Stripe for the next billion people (https://micropay.dev/)\n\nHi HN, I built this because I got tired of fighting with integrating payments in Africa.",
+          "supports": [],
+          "author": "defencetechhn",
+          "shared_at": 1770666143,
+          "source_url": "https://news.ycombinator.com/item?id=46950026"
+        }
+      ],
+      "source_item_id": 46950026,
+      "source_url": "https://news.ycombinator.com/item?id=46950026",
+      "author": "defencetechhn",
+      "shared_at": 1770666143,
+      "links": [
+        "https://micropay.dev/"
+      ]
+    }
+  ]
+}

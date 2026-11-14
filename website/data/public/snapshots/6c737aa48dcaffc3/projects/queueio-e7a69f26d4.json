@@ -1,0 +1,35 @@
+{
+  "id": 6879,
+  "slug": "queueio-e7a69f26d4",
+  "name": "queueio",
+  "mentions": [
+    {
+      "name": "queueio",
+      "description": "A background task runner for Python that uses async functions to communicate with the queueing system while encouraging regular synchronous, blocking code for the actual work. It lets developers compose task signatures in a standard code flow, going beyond what Celery canvas offers.",
+      "problem": "The author wanted the ability to compose background task signatures in a more standard code flow, which existing tools like Celery canvas don't fully provide.",
+      "audience": "Python developers who need background task execution and composition.",
+      "builder_usernames": [
+        "ryanhiebert"
+      ],
+      "source_excerpt": "I'm working on queueio (https://github.com/ryanhiebert/queueio), a background task runner for python that uses asyc function to communicate with the queueing system, but encourages using regular synchronous and blocking code for the actual work.",
+      "evidence": [
+        {
+          "source_item_id": 46953416,
+          "source_field": "body",
+          "value": "I'm working on queueio (https://github.com/ryanhiebert/queueio), a background task runner for python that uses asyc function to communicate with the queueing system, but encourages using regular synchronous and blocking code for the actual work.",
+          "supports": [],
+          "author": "ryanhiebert",
+          "shared_at": 1770681630,
+          "source_url": "https://news.ycombinator.com/item?id=46953416"
+        }
+      ],
+      "source_item_id": 46953416,
+      "source_url": "https://news.ycombinator.com/item?id=46953416",
+      "author": "ryanhiebert",
+      "shared_at": 1770681630,
+      "links": [
+        "https://github.com/ryanhiebert/queueio"
+      ]
+    }
+  ]
+}

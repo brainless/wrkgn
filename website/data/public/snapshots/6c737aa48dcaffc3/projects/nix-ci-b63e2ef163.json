@@ -1,0 +1,35 @@
+{
+  "id": 8764,
+  "slug": "nix-ci-b63e2ef163",
+  "name": "nix-ci",
+  "mentions": [
+    {
+      "name": "nix-ci",
+      "description": "A continuous integration service that requires no configuration, runs builds in seconds instead of minutes, and reproduces builds locally.",
+      "problem": "CI usually involves configuration, takes around 30 minutes to run, and is not reproducible locally.",
+      "audience": null,
+      "builder_usernames": [
+        "Norfair"
+      ],
+      "source_excerpt": "https://nix-ci.com\n\nWhat if CI didn't have to involve any configuration, could run in 30sec instead of 30min, and would be reproducible locally?",
+      "evidence": [
+        {
+          "source_item_id": 46277332,
+          "source_field": "body",
+          "value": "https://nix-ci.com\n\nWhat if CI didn't have to involve any configuration, could run in 30sec instead of 30min, and would be reproducible locally?",
+          "supports": [],
+          "author": "Norfair",
+          "shared_at": 1765819078,
+          "source_url": "https://news.ycombinator.com/item?id=46277332"
+        }
+      ],
+      "source_item_id": 46277332,
+      "source_url": "https://news.ycombinator.com/item?id=46277332",
+      "author": "Norfair",
+      "shared_at": 1765819078,
+      "links": [
+        "https://nix-ci.com"
+      ]
+    }
+  ]
+}

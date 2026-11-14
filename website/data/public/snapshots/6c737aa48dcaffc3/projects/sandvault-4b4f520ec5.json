@@ -1,0 +1,35 @@
+{
+  "id": 5270,
+  "slug": "sandvault-4b4f520ec5",
+  "name": "sandvault",
+  "mentions": [
+    {
+      "name": "sandvault",
+      "description": "A macOS sandbox with browser automation capabilities that lets AI agents control the Chrome browser from within the sandbox, making it easier to code and test websites inside the sandbox.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "netcoyote"
+      ],
+      "source_excerpt": "I added browser automation capabilities to sandvault [0], a MacOS sandbox, to allow AI agents to control Chrome browser from within the sandbox, which makes coding & testing websites from within the sandbox much easier.",
+      "evidence": [
+        {
+          "source_item_id": 47754095,
+          "source_field": "body",
+          "value": "I added browser automation capabilities to sandvault [0], a MacOS sandbox, to allow AI agents to control Chrome browser from within the sandbox, which makes coding & testing websites from within the sandbox much easier.",
+          "supports": [],
+          "author": "netcoyote",
+          "shared_at": 1776096304,
+          "source_url": "https://news.ycombinator.com/item?id=47754095"
+        }
+      ],
+      "source_item_id": 47754095,
+      "source_url": "https://news.ycombinator.com/item?id=47754095",
+      "author": "netcoyote",
+      "shared_at": 1776096304,
+      "links": [
+        "https://github.com/webcoyote/sandvault"
+      ]
+    }
+  ]
+}

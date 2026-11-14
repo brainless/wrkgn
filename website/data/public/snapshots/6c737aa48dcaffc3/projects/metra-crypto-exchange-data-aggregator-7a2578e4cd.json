@@ -1,0 +1,36 @@
+{
+  "id": 8378,
+  "slug": "metra-crypto-exchange-data-aggregator-7a2578e4cd",
+  "name": "Metra (crypto exchange data aggregator)",
+  "mentions": [
+    {
+      "name": "Metra (crypto exchange data aggregator)",
+      "description": "An open-source aggregator for crypto exchange data. It reads public data streams from exchanges, handles the websocket connection quirks of each exchange, cleans and normalizes the data into a uniform structure (currently supporting only spot trades), and exposes it downstream as an SSE stream. Built with Go, Templ, and Mithril.js.",
+      "problem": "Each crypto exchange has its own websocket quirks and data formats, requiring cleanup and normalization into a uniform structure.",
+      "audience": null,
+      "builder_usernames": [
+        "l0gicpath"
+      ],
+      "source_excerpt": "It’s an aggregator for crypto exchange data.\n\nThe app reads the public data stream from exchanges, handles the nitty, gritty details of each exchange’s websocket connections, deals with its quirks, cleans up and normalizes the data into a uniform structure (currently only supporting spot trades) then exposes it downstream as an SSE stream.\n\nUses Go, Templ, and Mithril.js, and is open source",
+      "evidence": [
+        {
+          "source_item_id": 46268546,
+          "source_field": "body",
+          "value": "It’s an aggregator for crypto exchange data.\n\nThe app reads the public data stream from exchanges, handles the nitty, gritty details of each exchange’s websocket connections, deals with its quirks, cleans up and normalizes the data into a uniform structure (currently only supporting spot trades) then exposes it downstream as an SSE stream.\n\nUses Go, Templ, and Mithril.js, and is open source",
+          "supports": [],
+          "author": "l0gicpath",
+          "shared_at": 1765756746,
+          "source_url": "https://news.ycombinator.com/item?id=46268546"
+        }
+      ],
+      "source_item_id": 46268546,
+      "source_url": "https://news.ycombinator.com/item?id=46268546",
+      "author": "l0gicpath",
+      "shared_at": 1765756746,
+      "links": [
+        "https://github.com/hadydotai/metra-sh",
+        "https://metra.sh"
+      ]
+    }
+  ]
+}

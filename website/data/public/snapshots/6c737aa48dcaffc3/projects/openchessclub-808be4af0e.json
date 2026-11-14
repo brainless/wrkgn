@@ -1,0 +1,36 @@
+{
+  "id": 9089,
+  "slug": "openchessclub-808be4af0e",
+  "name": "OpenChessClub",
+  "mentions": [
+    {
+      "name": "OpenChessClub",
+      "description": "Open-source, free chess club management software that records members and games and assigns a local club rating. Planned features include a QR code generator for member check-in during meetings and automatic player matching. Primarily aimed at smaller chess clubs.",
+      "problem": "The author started a local chess club and could only find paid software for managing it, with no open-source/free options for recording members, games, and club ratings.",
+      "audience": "Smaller chess clubs",
+      "builder_usernames": [
+        "whatamidoingyo"
+      ],
+      "source_excerpt": "I wanted something that would allow us to record members, games, etc., and also allow us to be assigned a local club rating. Anyway, after doing some searching and only finding paid software, I decided to just build something. That lead to https://openchessclub.org",
+      "evidence": [
+        {
+          "source_item_id": 45877320,
+          "source_field": "body",
+          "value": "I wanted something that would allow us to record members, games, etc., and also allow us to be assigned a local club rating. Anyway, after doing some searching and only finding paid software, I decided to just build something. That lead to https://openchessclub.org",
+          "supports": [],
+          "author": "whatamidoingyo",
+          "shared_at": 1762791066,
+          "source_url": "https://news.ycombinator.com/item?id=45877320"
+        }
+      ],
+      "source_item_id": 45877320,
+      "source_url": "https://news.ycombinator.com/item?id=45877320",
+      "author": "whatamidoingyo",
+      "shared_at": 1762791066,
+      "links": [
+        "https://github.com/OpenChessClub/openchessclub",
+        "https://openchessclub.org"
+      ]
+    }
+  ]
+}

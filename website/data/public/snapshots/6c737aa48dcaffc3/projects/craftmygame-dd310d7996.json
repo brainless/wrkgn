@@ -1,0 +1,119 @@
+{
+  "id": 6000,
+  "slug": "craftmygame-dd310d7996",
+  "name": "CraftMyGame",
+  "mentions": [
+    {
+      "name": "CraftMyGame",
+      "description": "A no-code game engine and visual editor that grows a library of reusable building blocks — multiplayer, event systems, NPC behaviors, pathfinding, and mobile controls — extracted from games the author ships. It includes an asset marketplace where artists upload tilesets and characters that drop directly into the editor with in-game previews, and an LLM builder (coding agent) that assembles a game from a text description by pulling marketplace assets and wiring up existing building blocks, producing a game users can then tweak in the manual editor.",
+      "problem": "Even with a no-code editor, users don't know where to start; the AI builder assembles a starting game from existing building blocks so users have a game ready to work on.",
+      "audience": null,
+      "builder_usernames": [
+        "heyitssim"
+      ],
+      "source_excerpt": "I love making games, and I've been building a no-code game engine by extracting reusable components every time I ship a new game. It started as me scratching my own itch, and now it's turning into a real platform.",
+      "evidence": [
+        {
+          "source_item_id": 47305544,
+          "source_field": "body",
+          "value": "I love making games, and I've been building a no-code game engine by extracting reusable components every time I ship a new game. It started as me scratching my own itch, and now it's turning into a real platform.",
+          "supports": [],
+          "author": "heyitssim",
+          "shared_at": 1773038658,
+          "source_url": "https://news.ycombinator.com/item?id=47305544"
+        }
+      ],
+      "source_item_id": 47305544,
+      "source_url": "https://news.ycombinator.com/item?id=47305544",
+      "author": "heyitssim",
+      "shared_at": 1773038658,
+      "links": [
+        "https://craftmygame.com"
+      ]
+    },
+    {
+      "name": "CraftMyGame",
+      "description": "No-code 2D game engine and visual editor that grows a library of reusable building blocks (multiplayer, event systems, NPC behaviors, pathfinding) extracted from each game the author ships. Includes a node-graph visual event system for game logic (trigger, conditions, chained actions, similar to Unreal Blueprints but focused on 2D) and a marketplace where pixel artists upload tilesets and characters that are usable directly inside the engine without ZIP downloads or import setup. Games can also be exported to Godot 4 with terrain, animations, and hitboxes, so nothing is locked in.",
+      "problem": "Most people who want to make games need assets and don't know how to get or make them.",
+      "audience": null,
+      "builder_usernames": [
+        "heyitssim"
+      ],
+      "source_excerpt": "I love making games, and I’ve been building a no-code game engine by extracting reusable components every time I ship a new game.",
+      "evidence": [
+        {
+          "source_item_id": 46940523,
+          "source_field": "body",
+          "value": "I love making games, and I’ve been building a no-code game engine by extracting reusable components every time I ship a new game.",
+          "supports": [],
+          "author": "heyitssim",
+          "shared_at": 1770600556,
+          "source_url": "https://news.ycombinator.com/item?id=46940523"
+        }
+      ],
+      "source_item_id": 46940523,
+      "source_url": "https://news.ycombinator.com/item?id=46940523",
+      "author": "heyitssim",
+      "shared_at": 1770600556,
+      "links": [
+        "https://craftmygame.com"
+      ]
+    },
+    {
+      "name": "CraftMyGame",
+      "description": "A no-code multiplayer game editor and engine that lets anyone build multiplayer games in a few clicks without writing code and share them instantly. The platform ships the tedious parts out of the box—multiplayer networking, controls, mobile/responsive layouts, inventories, save/load, leaderboards, quests, and dialogue—while users just select and configure features via clicks. The engine reads a config file and renders the game for players, with templates provided as starting points.",
+      "problem": "The features necessary for a multiplayer game (multiplayer, controls, inventories, save/load, leaderboards, quests, dialogue, etc.) are annoying to set up manually, so the platform handles them out of the box without code.",
+      "audience": "Anyone who wants to make games without code; game designers are being onboarded to stress-test the editor and engine.",
+      "builder_usernames": [
+        "heyitssim"
+      ],
+      "source_excerpt": "I've been working on a no-code multiplayer game editor. The idea is to let anyone create multiplayer games in a few clicks without writing code—and share them instantly.\n\nThe platform handles all what's necessary (and annoying to setup) out of the box: multiplayer,  controls, mobile/responsive/  inventories, save/load, leaderboards, quests, dialogue, etc...",
+      "evidence": [
+        {
+          "source_item_id": 46270489,
+          "source_field": "body",
+          "value": "I've been working on a no-code multiplayer game editor. The idea is to let anyone create multiplayer games in a few clicks without writing code—and share them instantly.\n\nThe platform handles all what's necessary (and annoying to setup) out of the box: multiplayer,  controls, mobile/responsive/  inventories, save/load, leaderboards, quests, dialogue, etc...",
+          "supports": [],
+          "author": "heyitssim",
+          "shared_at": 1765772763,
+          "source_url": "https://news.ycombinator.com/item?id=46270489"
+        }
+      ],
+      "source_item_id": 46270489,
+      "source_url": "https://news.ycombinator.com/item?id=46270489",
+      "author": "heyitssim",
+      "shared_at": 1765772763,
+      "links": [
+        "https://craftmygame.com/"
+      ]
+    },
+    {
+      "name": "CraftMyGame",
+      "description": "A no-code multiplayer game editor that lets anyone create multiplayer games in a few clicks without writing code and share them instantly. Users pick a template (platformer, tower defense, battle arena, etc.), customize it through a UI, and get real-time multiplayer with up to a large number of players—no networking code, everything hosted. Built-in game systems include AI behaviors, combat, inventories, save/load, and live leaderboards. The engine reads a config file and renders it for players, with LLM-based generation planned after the foundation is solid.",
+      "problem": "Creating multiplayer games normally requires writing code and handling networking and hosting.",
+      "audience": "Anyone who wants to create multiplayer games without coding, with game designers being onboarded to stress-test the editor/engine",
+      "builder_usernames": [
+        "heyitssim"
+      ],
+      "source_excerpt": "I've been working on a no-code multiplayer game editor. The idea is to let anyone create multiplayer games in a few clicks without writing code—and share them instantly.",
+      "evidence": [
+        {
+          "source_item_id": 46118728,
+          "source_field": "body",
+          "value": "I've been working on a no-code multiplayer game editor. The idea is to let anyone create multiplayer games in a few clicks without writing code—and share them instantly.",
+          "supports": [],
+          "author": "heyitssim",
+          "shared_at": 1764661697,
+          "source_url": "https://news.ycombinator.com/item?id=46118728"
+        }
+      ],
+      "source_item_id": 46118728,
+      "source_url": "https://news.ycombinator.com/item?id=46118728",
+      "author": "heyitssim",
+      "shared_at": 1764661697,
+      "links": [
+        "https://craftmygame.com"
+      ]
+    }
+  ]
+}

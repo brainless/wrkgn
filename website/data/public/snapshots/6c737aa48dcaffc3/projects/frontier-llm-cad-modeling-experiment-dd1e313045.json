@@ -1,0 +1,33 @@
+{
+  "id": 8170,
+  "slug": "frontier-llm-cad-modeling-experiment-dd1e313045",
+  "name": "Frontier LLM CAD modeling experiment",
+  "mentions": [
+    {
+      "name": "Frontier LLM CAD modeling experiment",
+      "description": "This experiment tests whether frontier LLMs can do practical CAD modeling, using a single task: designing a wall mount for a bike pump in OpenSCAD or CadQuery. Since prompting LLMs with photos and a written description produces unusable designs, it adds a Mujoco simulator the LLMs can use to test and iterate on their designs. The goal is an interesting blog post and possibly a usable wall mount design.",
+      "problem": "Frontier LLMs (Gemini, ChatGPT, Claude) do not produce usable CAD designs when prompted with only photos and a written description of the part.",
+      "audience": null,
+      "builder_usernames": [
+        "KerrickStaley"
+      ],
+      "source_excerpt": "I'm experimenting to see if frontier LLMs can do practical CAD modeling. I'm starting with a single task: designing a wall mount for my bike pump in OpenSCAD or CadQuery (two code-based CAD systems).\n\nNone of the frontier LLMs (Gemini, ChatGPT, Claude) produce usable designs when just prompted with some photos of the pump and a written description of the mount. I'm now building a simulator in Mujoco that the LLMs can use to test and iterate on their designs to see if they can do better in this setting.",
+      "evidence": [
+        {
+          "source_item_id": 46266725,
+          "source_field": "body",
+          "value": "I'm experimenting to see if frontier LLMs can do practical CAD modeling. I'm starting with a single task: designing a wall mount for my bike pump in OpenSCAD or CadQuery (two code-based CAD systems).\n\nNone of the frontier LLMs (Gemini, ChatGPT, Claude) produce usable designs when just prompted with some photos of the pump and a written description of the mount. I'm now building a simulator in Mujoco that the LLMs can use to test and iterate on their designs to see if they can do better in this setting.",
+          "supports": [],
+          "author": "KerrickStaley",
+          "shared_at": 1765745265,
+          "source_url": "https://news.ycombinator.com/item?id=46266725"
+        }
+      ],
+      "source_item_id": 46266725,
+      "source_url": "https://news.ycombinator.com/item?id=46266725",
+      "author": "KerrickStaley",
+      "shared_at": 1765745265,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 5461,
+  "slug": "e-way-e-scooter-reverse-engineering-with-apple-watch-app-9779543a59",
+  "name": "E-way e-scooter reverse engineering with Apple Watch app",
+  "mentions": [
+    {
+      "name": "E-way e-scooter reverse engineering with Apple Watch app",
+      "description": "A reverse engineering project targeting a Wilfa (E-way subbrand) e-scooter's Bluetooth protocol. The author sniffed iPhone BT logs and decompiled the Android app (with LLM assistance) to crack the authorization scheme. The end goal is an Apple Watch-only app that displays scooter stats and adds gimmicks such as wrist-rotation gestures for switching gears.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "asimovDev"
+      ],
+      "source_excerpt": "Bought an e-scooter from Wilfa (under the E-way subbrand). Been reversing it slowly. End goal is to have an Apple Watch only app with stats and maybe some fun gimmicks like using wrist rotation and gestures for switching gears and such.",
+      "evidence": [
+        {
+          "source_item_id": 47749877,
+          "source_field": "body",
+          "value": "Bought an e-scooter from Wilfa (under the E-way subbrand). Been reversing it slowly. End goal is to have an Apple Watch only app with stats and maybe some fun gimmicks like using wrist rotation and gestures for switching gears and such.",
+          "supports": [],
+          "author": "asimovDev",
+          "shared_at": 1776074206,
+          "source_url": "https://news.ycombinator.com/item?id=47749877"
+        }
+      ],
+      "source_item_id": 47749877,
+      "source_url": "https://news.ycombinator.com/item?id=47749877",
+      "author": "asimovDev",
+      "shared_at": 1776074206,
+      "links": []
+    }
+  ]
+}

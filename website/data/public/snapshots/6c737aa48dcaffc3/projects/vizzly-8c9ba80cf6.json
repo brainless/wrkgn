@@ -1,0 +1,35 @@
+{
+  "id": 9984,
+  "slug": "vizzly-8c9ba80cf6",
+  "name": "Vizzly",
+  "mentions": [
+    {
+      "name": "Vizzly",
+      "description": "A visual testing and review tool that makes visual quality part of the development workflow rather than an after-the-fact testing phase. It offers a local TDD CLI (vizzly tdd) for iterating on UI changes instantly against real screenshots, accepts screenshots from existing infrastructure (Playwright, Puppeteer, BrowserStack, CI runners), and builds a per-commit visual review dashboard with position-based comments, review rules, and deep links. The CLI/SDK are open and the local TDD features can be used without the hosted service, with the goal of closing the developer-designer gap.",
+      "problem": "Most visual testing tools spin up a recreated environment (copy the DOM + assets, render in their own infra) and compare diffs, so what they check isn't what users actually see, forcing developers to debug rendering quirks in someone else's browser; visual quality is also usually an after-the-fact testing phase instead of part of the dev workflow.",
+      "audience": "focusing on developer workflows first; asks for feedback from folks who've wrestled with visual diffs",
+      "builder_usernames": [
+        "Robdel12"
+      ],
+      "source_excerpt": "I’ve been working on [Vizzly](https://vizzly.dev) -- my attempt to make visual quality part of the development workflow, not an after-the-fact testing phase.",
+      "evidence": [
+        {
+          "source_item_id": 45471268,
+          "source_field": "body",
+          "value": "I’ve been working on [Vizzly](https://vizzly.dev) -- my attempt to make visual quality part of the development workflow, not an after-the-fact testing phase.",
+          "supports": [],
+          "author": "Robdel12",
+          "shared_at": 1759561943,
+          "source_url": "https://news.ycombinator.com/item?id=45471268"
+        }
+      ],
+      "source_item_id": 45471268,
+      "source_url": "https://news.ycombinator.com/item?id=45471268",
+      "author": "Robdel12",
+      "shared_at": 1759561943,
+      "links": [
+        "https://vizzly.dev"
+      ]
+    }
+  ]
+}

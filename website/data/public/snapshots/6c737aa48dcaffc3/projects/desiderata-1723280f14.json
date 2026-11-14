@@ -1,0 +1,35 @@
+{
+  "id": 4731,
+  "slug": "desiderata-1723280f14",
+  "name": "Desiderata",
+  "mentions": [
+    {
+      "name": "Desiderata",
+      "description": "An LLM benchmark for open-weight models only, using secret questions. Each question is asked multiple times to calculate a consistency score. Results are available in JSON, containing the hash of the question with the number of correct and incorrect answers, the number of unique answers, and the number of times no answer is given (using \\boxed{}).",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "bnmik"
+      ],
+      "source_excerpt": "I am working on Desiderata (https://github.com/github-of-NMI/Desiderata).\n\nAn LLM benchmark for open-weight models only, with secret questions.\n\nThe questions are asked multiple times to calculate a consistency score.",
+      "evidence": [
+        {
+          "source_item_id": 48087599,
+          "source_field": "body",
+          "value": "I am working on Desiderata (https://github.com/github-of-NMI/Desiderata).\n\nAn LLM benchmark for open-weight models only, with secret questions.\n\nThe questions are asked multiple times to calculate a consistency score.",
+          "supports": [],
+          "author": "bnmik",
+          "shared_at": 1778444860,
+          "source_url": "https://news.ycombinator.com/item?id=48087599"
+        }
+      ],
+      "source_item_id": 48087599,
+      "source_url": "https://news.ycombinator.com/item?id=48087599",
+      "author": "bnmik",
+      "shared_at": 1778444860,
+      "links": [
+        "https://github.com/github-of-NMI/Desiderata"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 10333,
+  "slug": "cellm-1bf477df4b",
+  "name": "Cellm",
+  "mentions": [
+    {
+      "name": "Cellm",
+      "description": "An Excel extension that lets users call LLMs directly in cell formulas, e.g. =PROMPT(A1, \"Rate the sentiment of the customer feedback as positive, neutral, or negative\"), and drag the formula down to apply the same prompt to thousands of rows. It supports MCP and structured output to spill multiple return values into adjacent cells, and is used for tasks like classifying research papers, monitoring competitor blogs daily before meetings, and benchmarking new AI models against datasets such as SimpleQA, MMLU-Pro, and GPQA Diamond. The goal is to enable non-technical people to automate manual, repetitive tasks with AI.",
+      "problem": "Manual, repetitive work, such as the author's girlfriend having to manually classify 7,500 research papers; Cellm automates that kind of repetitive work.",
+      "audience": "Normal people (non-techies) who want to automate manual, repetitive tasks with AI like programmers routinely do.",
+      "builder_usernames": [
+        "kaspermarstal"
+      ],
+      "source_excerpt": "I'm continuing the work on Cellm, an Excel extension that let's you call LLMs in cell formulas like =PROMPT(A1, \"Rate the sentiment of the customer feedback as positive, neutral, or negative\"), and then drag the formula down to apply the same prompt to thousands of rows.",
+      "evidence": [
+        {
+          "source_item_id": 44704050,
+          "source_field": "body",
+          "value": "I'm continuing the work on Cellm, an Excel extension that let's you call LLMs in cell formulas like =PROMPT(A1, \"Rate the sentiment of the customer feedback as positive, neutral, or negative\"), and then drag the formula down to apply the same prompt to thousands of rows.",
+          "supports": [],
+          "author": "kaspermarstal",
+          "shared_at": 1753645504,
+          "source_url": "https://news.ycombinator.com/item?id=44704050"
+        }
+      ],
+      "source_item_id": 44704050,
+      "source_url": "https://news.ycombinator.com/item?id=44704050",
+      "author": "kaspermarstal",
+      "shared_at": 1753645504,
+      "links": [
+        "https://github.com/getcellm/cellm"
+      ]
+    }
+  ]
+}

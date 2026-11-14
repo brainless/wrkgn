@@ -1,0 +1,33 @@
+{
+  "id": 6734,
+  "slug": "c1001-mmwave-contactless-sleep-monitor-373ad8831f",
+  "name": "C1001 mmWave contactless sleep monitor",
+  "mentions": [
+    {
+      "name": "C1001 mmWave contactless sleep monitor",
+      "description": "This contactless sleep monitoring device is built around the C1001 mmWave sensor that hangs near the bed. It collects overnight telemetry including respiratory rate, heart rate (BPM), number of turnovers, apnea detection, and overall sleep quality. The data is sent to a server that generates a nightly report and passes it to an LLM for analysis.",
+      "problem": "Wearable health trackers like bracelets and smartwatches are uncomfortable and often forgotten, making overnight health monitoring impractical for people like the author's grandmother.",
+      "audience": "Elderly people and others who find wearable health trackers uncomfortable or easy to forget, such as the author's grandmother",
+      "builder_usernames": [
+        "droppenheimer27"
+      ],
+      "source_excerpt": "I’ve been working on a solution based on the C1001 mmWave sensor. It collects telemetry throughout the night, including respiratory rate, heart rate (BPM), number of turnovers, apnea detection, and overall sleep quality - you just need to hang it around the bed. The data is sent to a server, which generates a nightly report and passes it to an LLM for analysis.",
+      "evidence": [
+        {
+          "source_item_id": 46943799,
+          "source_field": "body",
+          "value": "I’ve been working on a solution based on the C1001 mmWave sensor. It collects telemetry throughout the night, including respiratory rate, heart rate (BPM), number of turnovers, apnea detection, and overall sleep quality - you just need to hang it around the bed. The data is sent to a server, which generates a nightly report and passes it to an LLM for analysis.",
+          "supports": [],
+          "author": "droppenheimer27",
+          "shared_at": 1770633857,
+          "source_url": "https://news.ycombinator.com/item?id=46943799"
+        }
+      ],
+      "source_item_id": 46943799,
+      "source_url": "https://news.ycombinator.com/item?id=46943799",
+      "author": "droppenheimer27",
+      "shared_at": 1770633857,
+      "links": []
+    }
+  ]
+}

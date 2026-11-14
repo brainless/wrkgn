@@ -1,0 +1,33 @@
+{
+  "id": 10164,
+  "slug": "performance-portability-study-numpy-to-jax-pytorch-1ab3f2d584",
+  "name": "Performance Portability Study: NumPy to JAX/PyTorch",
+  "mentions": [
+    {
+      "name": "Performance Portability Study: NumPy to JAX/PyTorch",
+      "description": "This research project converts a Python application from loops to NumPy vectorization to JAX and PyTorch compilation, exploring the performance portability of these frameworks across different devices and backends including GPUs, and benchmarks the results against hand-optimized C++ implementations, which so far remain the fastest.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "FattiMei"
+      ],
+      "source_excerpt": "A research project on converting a python application from loops to numpy vectorization to jax and pytorch compilation (the latter is fast!). I'm exploring the performance portability of such frameworks across different devices and backends (also gpu). I have also C++ hand optimized implementations that so far are unbeaten",
+      "evidence": [
+        {
+          "source_item_id": 45424324,
+          "source_field": "body",
+          "value": "A research project on converting a python application from loops to numpy vectorization to jax and pytorch compilation (the latter is fast!). I'm exploring the performance portability of such frameworks across different devices and backends (also gpu). I have also C++ hand optimized implementations that so far are unbeaten",
+          "supports": [],
+          "author": "FattiMei",
+          "shared_at": 1759232801,
+          "source_url": "https://news.ycombinator.com/item?id=45424324"
+        }
+      ],
+      "source_item_id": 45424324,
+      "source_url": "https://news.ycombinator.com/item?id=45424324",
+      "author": "FattiMei",
+      "shared_at": 1759232801,
+      "links": []
+    }
+  ]
+}

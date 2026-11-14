@@ -1,0 +1,36 @@
+{
+  "id": 8790,
+  "slug": "isograph-1ef8ce562a",
+  "name": "Isograph",
+  "mentions": [
+    {
+      "name": "Isograph",
+      "description": "This incremental compiler for Isograph literals no longer bails on the first error, enabling LSP features like hover and go-to-definition on valid parts of files even in the presence of errors, surfacing errors in VSCode, and providing auto-fixes that generate the Isograph literal declaring a selected missing field.",
+      "problem": "The previous batch compiler bailed on the first error, preventing LSP results on unbroken code and making errors harder to surface and fix in the editor.",
+      "audience": "Developers working with Isograph literals in editors like VSCode, who want better error reporting and tooling despite compile errors.",
+      "builder_usernames": [
+        "rbalicki"
+      ],
+      "source_excerpt": "Just released the next version of Isograph https://isograph.dev/blog/2025/12/14/isograph-0.5.0/\n\nTLDR the incremental compiler rewrite is finally bearing fruit. Namely, because we no longer have a batch compiler (i.e. we don't bail on the first error), we can\n\n- provide LSP results (hover, goto def, etc) on non-broken parts of your isograph literals, even in the presence of errors",
+      "evidence": [
+        {
+          "source_item_id": 46267263,
+          "source_field": "body",
+          "value": "Just released the next version of Isograph https://isograph.dev/blog/2025/12/14/isograph-0.5.0/\n\nTLDR the incremental compiler rewrite is finally bearing fruit. Namely, because we no longer have a batch compiler (i.e. we don't bail on the first error), we can\n\n- provide LSP results (hover, goto def, etc) on non-broken parts of your isograph literals, even in the presence of errors",
+          "supports": [],
+          "author": "rbalicki",
+          "shared_at": 1765748519,
+          "source_url": "https://news.ycombinator.com/item?id=46267263"
+        }
+      ],
+      "source_item_id": 46267263,
+      "source_url": "https://news.ycombinator.com/item?id=46267263",
+      "author": "rbalicki",
+      "shared_at": 1765748519,
+      "links": [
+        "https://isograph.dev/blog/2025/12/14/isograph-0.5.0/",
+        "https://www.youtube.com/watch?v=6tNWbVOjpQw&t=314s"
+      ]
+    }
+  ]
+}

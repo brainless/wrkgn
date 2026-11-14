@@ -1,0 +1,33 @@
+{
+  "id": 6442,
+  "slug": "stringlines-dcf2794a7e",
+  "name": "stringlines",
+  "mentions": [
+    {
+      "name": "stringlines",
+      "description": "A small mobile-friendly app that records GTFS-RT transit feeds and displays them to help plan transit in the NYC area, including recently-departed trips for judging the feasibility of tight connections on NJTransit rail lines.",
+      "problem": "Popular map apps (Apple, Google, Transit, Citymapper) don't show recently-departed trips, making them much less useful for judging the feasibility of tight connections on the NJTransit rail lines.",
+      "audience": "The author's own personal use",
+      "builder_usernames": [
+        "gcr"
+      ],
+      "source_excerpt": "stringlines: i'm working on a small app for my own personal use that will help me plan transit in the NYC area better. A lot of map apps (Apple, Google, Transit, Citymapper) don't show recently-departed trips, making them much less useful for judging the feasibility of tight connections on the NJTransit rail lines. So I'm building out some infrastructure to record the GTFS-RT feeds and display them in a mobile-friendly format.",
+      "evidence": [
+        {
+          "source_item_id": 47313888,
+          "source_field": "body",
+          "value": "stringlines: i'm working on a small app for my own personal use that will help me plan transit in the NYC area better. A lot of map apps (Apple, Google, Transit, Citymapper) don't show recently-departed trips, making them much less useful for judging the feasibility of tight connections on the NJTransit rail lines. So I'm building out some infrastructure to record the GTFS-RT feeds and display them in a mobile-friendly format.",
+          "supports": [],
+          "author": "gcr",
+          "shared_at": 1773083360,
+          "source_url": "https://news.ycombinator.com/item?id=47313888"
+        }
+      ],
+      "source_item_id": 47313888,
+      "source_url": "https://news.ycombinator.com/item?id=47313888",
+      "author": "gcr",
+      "shared_at": 1773083360,
+      "links": []
+    }
+  ]
+}

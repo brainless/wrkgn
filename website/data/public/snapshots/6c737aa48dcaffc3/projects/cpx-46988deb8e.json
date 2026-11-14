@@ -1,0 +1,35 @@
+{
+  "id": 8615,
+  "slug": "cpx-46988deb8e",
+  "name": "cpx",
+  "mentions": [
+    {
+      "name": "cpx",
+      "description": "A cargo-like CLI tool for C++ that jumpstarts projects across different build systems (vcpkg, bazel, and meson). Planned features bring CLion-style workflows to the CLI, with Docker-based builds and SSH support exposed through a TUI setup; the Docker side is nearly complete and SSH is in progress.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "keinmarer"
+      ],
+      "source_excerpt": "Working on cargo like tooling for cpp. It just let you jump start a project for different build systems(vcpkg, bazel and meson). I am also planning to bring CLion features build on docker, ssh to cli with tui setup. Docker side is close to complete working on ssh for now.",
+      "evidence": [
+        {
+          "source_item_id": 46283566,
+          "source_field": "body",
+          "value": "Working on cargo like tooling for cpp. It just let you jump start a project for different build systems(vcpkg, bazel and meson). I am also planning to bring CLion features build on docker, ssh to cli with tui setup. Docker side is close to complete working on ssh for now.",
+          "supports": [],
+          "author": "keinmarer",
+          "shared_at": 1765848441,
+          "source_url": "https://news.ycombinator.com/item?id=46283566"
+        }
+      ],
+      "source_item_id": 46283566,
+      "source_url": "https://news.ycombinator.com/item?id=46283566",
+      "author": "keinmarer",
+      "shared_at": 1765848441,
+      "links": [
+        "https://cpx-dev.vercel.app/"
+      ]
+    }
+  ]
+}

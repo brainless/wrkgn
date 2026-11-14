@@ -1,0 +1,35 @@
+{
+  "id": 5075,
+  "slug": "oceanconnect-b498b95cca",
+  "name": "OceanConnect",
+  "mentions": [
+    {
+      "name": "OceanConnect",
+      "description": "This web application is being assessed and transitioned into maintenance mode after its original developer left the organization. Recent work focuses on reliability and fault tolerance, improving database performance (Postgres/query plans), reducing noisy error reporting and common errors, and creating documentation and deployment systems so future maintainers can easily take over, deploy, and maintain it.",
+      "problem": "The original developer left, so the application needs assessment and winding down to a stable, low-maintenance state without demanding too much attention.",
+      "audience": null,
+      "builder_usernames": [
+        "steve_adams_86"
+      ],
+      "source_excerpt": "Lately I’ve been working on https://oceanconnect.ca\n\nThe original developer has left our organization so I’ve been tasked with general assessment and winding it down to enter maintenance mode.",
+      "evidence": [
+        {
+          "source_item_id": 48091177,
+          "source_field": "body",
+          "value": "Lately I’ve been working on https://oceanconnect.ca\n\nThe original developer has left our organization so I’ve been tasked with general assessment and winding it down to enter maintenance mode.",
+          "supports": [],
+          "author": "steve_adams_86",
+          "shared_at": 1778475296,
+          "source_url": "https://news.ycombinator.com/item?id=48091177"
+        }
+      ],
+      "source_item_id": 48091177,
+      "source_url": "https://news.ycombinator.com/item?id=48091177",
+      "author": "steve_adams_86",
+      "shared_at": 1778475296,
+      "links": [
+        "https://oceanconnect.ca"
+      ]
+    }
+  ]
+}

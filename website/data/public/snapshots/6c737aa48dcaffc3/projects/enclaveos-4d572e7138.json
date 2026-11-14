@@ -1,0 +1,35 @@
+{
+  "id": 8713,
+  "slug": "enclaveos-4d572e7138",
+  "name": "EnclaveOS",
+  "mentions": [
+    {
+      "name": "EnclaveOS",
+      "description": "This project builds FOSS primitives for tamper-evident secure enclaves, with the goal of making secure enclaves as much of a default on the internet as TLS.",
+      "problem": "Tamper-evident secure enclaves are not yet a default on the internet the way TLS is.",
+      "audience": null,
+      "builder_usernames": [
+        "lrvick"
+      ],
+      "source_excerpt": "Building the FOSS primitives to make tamper evident secure enclaves as much of a default on the internet as TLS: https://distrust.co/blog/enclaveos.html",
+      "evidence": [
+        {
+          "source_item_id": 46269265,
+          "source_field": "body",
+          "value": "Building the FOSS primitives to make tamper evident secure enclaves as much of a default on the internet as TLS: https://distrust.co/blog/enclaveos.html",
+          "supports": [],
+          "author": "lrvick",
+          "shared_at": 1765762210,
+          "source_url": "https://news.ycombinator.com/item?id=46269265"
+        }
+      ],
+      "source_item_id": 46269265,
+      "source_url": "https://news.ycombinator.com/item?id=46269265",
+      "author": "lrvick",
+      "shared_at": 1765762210,
+      "links": [
+        "https://distrust.co/blog/enclaveos.html"
+      ]
+    }
+  ]
+}

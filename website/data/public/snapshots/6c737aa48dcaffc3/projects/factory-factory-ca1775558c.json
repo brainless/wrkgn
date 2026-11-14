@@ -1,0 +1,35 @@
+{
+  "id": 7239,
+  "slug": "factory-factory-ca1775558c",
+  "name": "factory-factory",
+  "mentions": [
+    {
+      "name": "factory-factory",
+      "description": "This IDE manages a swarm of Claude agents and increasingly bakes development workflows into them (e.g. design -> build -> review -> push -> address comments).",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "prplfsh"
+      ],
+      "source_excerpt": "creating an IDE for managing a swarm of claude agents, and more importantly, increasingly baking workflows into them (e.g. design -> build -> review -> push -> address comments).",
+      "evidence": [
+        {
+          "source_item_id": 46949369,
+          "source_field": "body",
+          "value": "creating an IDE for managing a swarm of claude agents, and more importantly, increasingly baking workflows into them (e.g. design -> build -> review -> push -> address comments).",
+          "supports": [],
+          "author": "prplfsh",
+          "shared_at": 1770663729,
+          "source_url": "https://news.ycombinator.com/item?id=46949369"
+        }
+      ],
+      "source_item_id": 46949369,
+      "source_url": "https://news.ycombinator.com/item?id=46949369",
+      "author": "prplfsh",
+      "shared_at": 1770663729,
+      "links": [
+        "https://github.com/purplefish-ai/factory-factory"
+      ]
+    }
+  ]
+}

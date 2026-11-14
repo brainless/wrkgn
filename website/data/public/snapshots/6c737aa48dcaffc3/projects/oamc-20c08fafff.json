@@ -1,0 +1,35 @@
+{
+  "id": 5301,
+  "slug": "oamc-20c08fafff",
+  "name": "oamc",
+  "mentions": [
+    {
+      "name": "oamc",
+      "description": "A local-first tool that turns research material into a maintained markdown wiki. Sources are ingested into a structured wiki of source pages, concept pages, entity pages, and synthesis pages; questions are then asked against the wiki, and useful answers are written back as new pages. Everything stays file-based and Obsidian-friendly, with a local dashboard and a macOS menubar app so it keeps running in the background.",
+      "problem": "Repeatedly querying raw notes or documents isn't cumulative; chat lacks accumulation and a full RAG stack is too heavy to set up.",
+      "audience": "Individuals doing personal research and maintaining project memory",
+      "builder_usernames": [
+        "michiosw"
+      ],
+      "source_excerpt": "I built a local-first tool for turning research material into a maintained markdown wiki.\n\nThe idea is simple: instead of repeatedly querying raw notes or documents, sources get ingested into a structured wiki with source pages, concept pages, entity pages, and synthesis pages. Then questions are asked against that wiki, and useful answers get written back as new pages.",
+      "evidence": [
+        {
+          "source_item_id": 47751025,
+          "source_field": "body",
+          "value": "I built a local-first tool for turning research material into a maintained markdown wiki.\n\nThe idea is simple: instead of repeatedly querying raw notes or documents, sources get ingested into a structured wiki with source pages, concept pages, entity pages, and synthesis pages. Then questions are asked against that wiki, and useful answers get written back as new pages.",
+          "supports": [],
+          "author": "michiosw",
+          "shared_at": 1776083356,
+          "source_url": "https://news.ycombinator.com/item?id=47751025"
+        }
+      ],
+      "source_item_id": 47751025,
+      "source_url": "https://news.ycombinator.com/item?id=47751025",
+      "author": "michiosw",
+      "shared_at": 1776083356,
+      "links": [
+        "https://github.com/michiosw/oamc"
+      ]
+    }
+  ]
+}

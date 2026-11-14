@@ -1,0 +1,36 @@
+{
+  "id": 9342,
+  "slug": "vididoo-8114b5526c",
+  "name": "vididoo",
+  "mentions": [
+    {
+      "name": "vididoo",
+      "description": "This browser-based media editing app handles common video editing tasks such as cutting, resizing, compressing, and blending audio. Because it runs entirely in the browser, users' files never leave their machine, and it is fast thanks to libraries like Media Bunny.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "bilater"
+      ],
+      "source_excerpt": "I created a media editing app that lets you do some of the most common video editing tasks (cut, resize, compress, blend audio etc). It's browser based so your files never leave your machine and is very fast (leveraging the latest and greatest libraries such as Media Bunny).",
+      "evidence": [
+        {
+          "source_item_id": 45878239,
+          "source_field": "body",
+          "value": "I created a media editing app that lets you do some of the most common video editing tasks (cut, resize, compress, blend audio etc). It's browser based so your files never leave your machine and is very fast (leveraging the latest and greatest libraries such as Media Bunny).",
+          "supports": [],
+          "author": "bilater",
+          "shared_at": 1762795440,
+          "source_url": "https://news.ycombinator.com/item?id=45878239"
+        }
+      ],
+      "source_item_id": 45878239,
+      "source_url": "https://news.ycombinator.com/item?id=45878239",
+      "author": "bilater",
+      "shared_at": 1762795440,
+      "links": [
+        "https://github.com/btahir/vididoo",
+        "https://vididoo.vercel.app/"
+      ]
+    }
+  ]
+}

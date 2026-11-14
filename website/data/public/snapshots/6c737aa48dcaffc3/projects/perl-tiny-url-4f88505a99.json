@@ -1,0 +1,35 @@
+{
+  "id": 6010,
+  "slug": "perl-tiny-url-4f88505a99",
+  "name": "Perl Tiny URL",
+  "mentions": [
+    {
+      "name": "Perl Tiny URL",
+      "description": "A tiny URL shortener written in Perl and meant to run locally, providing short URLs for internal/VPN resources on a per-client basis. It typically runs as a small daemon or container per client and serves a dashboard of frequently or recently used links; security is intentionally minimal since it is local, omitting authentication.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mkovach"
+      ],
+      "source_excerpt": "I also built a tiny URL system in Perl <https://gitlab.com/siddfinch/perl-tiny-url>, meant to run locally. The idea is simple: short URLs for internal/VPN resources per client. I usually spin up a small daemon (or container) per client and get a dashboard of links I use frequently or recently.",
+      "evidence": [
+        {
+          "source_item_id": 47310091,
+          "source_field": "body",
+          "value": "I also built a tiny URL system in Perl <https://gitlab.com/siddfinch/perl-tiny-url>, meant to run locally. The idea is simple: short URLs for internal/VPN resources per client. I usually spin up a small daemon (or container) per client and get a dashboard of links I use frequently or recently.",
+          "supports": [],
+          "author": "mkovach",
+          "shared_at": 1773068785,
+          "source_url": "https://news.ycombinator.com/item?id=47310091"
+        }
+      ],
+      "source_item_id": 47310091,
+      "source_url": "https://news.ycombinator.com/item?id=47310091",
+      "author": "mkovach",
+      "shared_at": 1773068785,
+      "links": [
+        "https://gitlab.com/siddfinch/perl-tiny-url"
+      ]
+    }
+  ]
+}

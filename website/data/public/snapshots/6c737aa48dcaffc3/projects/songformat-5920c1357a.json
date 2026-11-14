@@ -1,0 +1,63 @@
+{
+  "id": 2687,
+  "slug": "songformat-5920c1357a",
+  "name": "Songformat",
+  "mentions": [
+    {
+      "name": "Songformat",
+      "description": "A text-based song format for generating music. Songs are written entirely in text using a TOML-based format that includes most features found in a DAW. The format can be described in a SKILL file so AI can write songs in it, which can then be converted to audio.",
+      "problem": "The author wanted to be able to create a song entirely using text.",
+      "audience": null,
+      "builder_usernames": [
+        "meltmymind"
+      ],
+      "source_excerpt": "A text-based song format for generating music. I wanted to be able to create a song entirely using text, so I created a TOML-based format for doing so, and gave it most of the features you would find in a DAW. Since the format can be described in a SKILL file, AI can be used to write a song in this format, which can then be converted to audio.",
+      "evidence": [
+        {
+          "source_item_id": 48885943,
+          "source_field": "body",
+          "value": "A text-based song format for generating music. I wanted to be able to create a song entirely using text, so I created a TOML-based format for doing so, and gave it most of the features you would find in a DAW. Since the format can be described in a SKILL file, AI can be used to write a song in this format, which can then be converted to audio.",
+          "supports": [],
+          "author": "meltmymind",
+          "shared_at": 1783899033,
+          "source_url": "https://news.ycombinator.com/item?id=48885943"
+        }
+      ],
+      "source_item_id": 48885943,
+      "source_url": "https://news.ycombinator.com/item?id=48885943",
+      "author": "meltmymind",
+      "shared_at": 1783899033,
+      "links": [
+        "https://songformat.com"
+      ]
+    },
+    {
+      "name": "TOML-based song format",
+      "description": "A TOML-based text format for composing songs that combine both note-playing instruments and drum instruments, with the melody syntax inspired by Strudel. The homepage documents the format with an example and demo songs.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "meltmymind"
+      ],
+      "source_excerpt": "I'm working on something similar, for composing songs with both note-playing instruments and drum instruments. The format is TOML-based, and for melody I was inspired by strudel, but I had considered using ABC notation as well. The home page has an example of the format, and some demo songs: https://songformat.com",
+      "evidence": [
+        {
+          "source_item_id": 48096258,
+          "source_field": "body",
+          "value": "I'm working on something similar, for composing songs with both note-playing instruments and drum instruments. The format is TOML-based, and for melody I was inspired by strudel, but I had considered using ABC notation as well. The home page has an example of the format, and some demo songs: https://songformat.com",
+          "supports": [],
+          "author": "meltmymind",
+          "shared_at": 1778513087,
+          "source_url": "https://news.ycombinator.com/item?id=48096258"
+        }
+      ],
+      "source_item_id": 48096258,
+      "source_url": "https://news.ycombinator.com/item?id=48096258",
+      "author": "meltmymind",
+      "shared_at": 1778513087,
+      "links": [
+        "https://songformat.com"
+      ]
+    }
+  ]
+}

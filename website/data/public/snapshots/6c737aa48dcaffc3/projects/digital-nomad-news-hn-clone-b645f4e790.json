@@ -1,0 +1,35 @@
+{
+  "id": 8498,
+  "slug": "digital-nomad-news-hn-clone-b645f4e790",
+  "name": "Digital nomad news HN clone",
+  "mentions": [
+    {
+      "name": "Digital nomad news HN clone",
+      "description": "This is a Hacker News-style link aggregation site for digital nomad news. It lets the builder share and browse links, with a unique English Title field so Korean and Japanese articles can be shared without others having to translate the titles first.",
+      "problem": "People consuming Korean and Japanese articles would otherwise have to translate the titles before understanding why they should read them; the builder also wanted to share links while researching DNS and global mobility.",
+      "audience": "Digital nomads and anyone following global mobility news, including readers of Korean and Japanese articles.",
+      "builder_usernames": [
+        "eswat"
+      ],
+      "source_excerpt": "Last week I spun up a HN clone for digital nomad news.\n\nSince I was researching DNS and global mobility, and wanted to share links with others, figured I'd just spin up a link site (though I'm still the only user).",
+      "evidence": [
+        {
+          "source_item_id": 46267419,
+          "source_field": "body",
+          "value": "Last week I spun up a HN clone for digital nomad news.\n\nSince I was researching DNS and global mobility, and wanted to share links with others, figured I'd just spin up a link site (though I'm still the only user).",
+          "supports": [],
+          "author": "eswat",
+          "shared_at": 1765749370,
+          "source_url": "https://news.ycombinator.com/item?id=46267419"
+        }
+      ],
+      "source_item_id": 46267419,
+      "source_url": "https://news.ycombinator.com/item?id=46267419",
+      "author": "eswat",
+      "shared_at": 1765749370,
+      "links": [
+        "https://news.reorient.guide/"
+      ]
+    }
+  ]
+}

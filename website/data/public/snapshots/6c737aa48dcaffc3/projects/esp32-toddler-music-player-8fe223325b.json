@@ -1,0 +1,33 @@
+{
+  "id": 8613,
+  "slug": "esp32-toddler-music-player-8fe223325b",
+  "name": "ESP32 toddler music player",
+  "mentions": [
+    {
+      "name": "ESP32 toddler music player",
+      "description": "A DIY music player built for the author's 2-year-old son, using an ESP32, SD card reader, GC9A01 round LCD, PCM5102A DAC, and XH-A232 amplifier in a 3D-printed enclosure. A custom UI is currently being developed, with plans to add Bluetooth speaker support, web-based configuration, and OTA updates.",
+      "problem": "Premade kids' audio toys like the Yoto player exist, but the author preferred building one himself.",
+      "audience": "The author's 2-year-old son (family/personal use)",
+      "builder_usernames": [
+        "fsniper"
+      ],
+      "source_excerpt": "A music player for my 2 years old son. There are premade toys like Yoto player. But what is the fun in buying ready made?\n\nesp32+sdcard reader+gc9a01 lcd and a pcm5102a+xh-a232 (overkill 30W! solution! Will replace in time)\n\nAdd some 3d printed enclosure and you are done. I am currently vibe coding a UI into it. I am planning to cram in adsp Bluetooth speaker support and some web config, maybe ota updates..",
+      "evidence": [
+        {
+          "source_item_id": 46276994,
+          "source_field": "body",
+          "value": "A music player for my 2 years old son. There are premade toys like Yoto player. But what is the fun in buying ready made?\n\nesp32+sdcard reader+gc9a01 lcd and a pcm5102a+xh-a232 (overkill 30W! solution! Will replace in time)\n\nAdd some 3d printed enclosure and you are done. I am currently vibe coding a UI into it. I am planning to cram in adsp Bluetooth speaker support and some web config, maybe ota updates..",
+          "supports": [],
+          "author": "fsniper",
+          "shared_at": 1765817724,
+          "source_url": "https://news.ycombinator.com/item?id=46276994"
+        }
+      ],
+      "source_item_id": 46276994,
+      "source_url": "https://news.ycombinator.com/item?id=46276994",
+      "author": "fsniper",
+      "shared_at": 1765817724,
+      "links": []
+    }
+  ]
+}

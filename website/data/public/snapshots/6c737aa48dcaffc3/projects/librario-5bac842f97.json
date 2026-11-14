@@ -1,0 +1,36 @@
+{
+  "id": 9013,
+  "slug": "librario-5bac842f97",
+  "name": "Librario",
+  "mentions": [
+    {
+      "name": "Librario",
+      "description": "A simple book metadata aggregation API written in Go. It fetches book information from multiple sources, intelligently merges everything, and stores the results in a PostgreSQL database for future lookups, serving as a comprehensive book data source for booksellers, libraries, and book-related services. Currently a pre-alpha build with comprehensive documentation written; code planned for GitHub under an AGPL license.",
+      "problem": "Book information is scattered across multiple sources; the API consolidates and merges it into one comprehensive dataset, solving a problem the author personally has.",
+      "audience": "Online booksellers, libraries, book-related startups, bookworms, and more.",
+      "builder_usernames": [
+        "jamesponddotco"
+      ],
+      "source_excerpt": "Librario is a simple book metadata aggregation API written in Go. It fetches information about books from multiple sources, merges everything intelligently, and then saves it all to a PostgreSQL database for future lookups.",
+      "evidence": [
+        {
+          "source_item_id": 45875237,
+          "source_field": "body",
+          "value": "Librario is a simple book metadata aggregation API written in Go. It fetches information about books from multiple sources, merges everything intelligently, and then saves it all to a PostgreSQL database for future lookups.",
+          "supports": [],
+          "author": "jamesponddotco",
+          "shared_at": 1762777255,
+          "source_url": "https://news.ycombinator.com/item?id=45875237"
+        }
+      ],
+      "source_item_id": 45875237,
+      "source_url": "https://news.ycombinator.com/item?id=45875237",
+      "author": "jamesponddotco",
+      "shared_at": 1762777255,
+      "links": [
+        "https://github.com/pagina394/librario",
+        "https://paste.sr.ht/~jamesponddotco/5612eaa80fc7eee8b6180a31093cccb2d82a9e52"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": 8156,
+  "slug": "gsql-aa6247c223",
+  "name": "gsql",
+  "mentions": [
+    {
+      "name": "gsql",
+      "description": "A domain-specific language that adds parametric polymorphism to SQL, together with a compiler for it, aiming to eliminate repetitive schema patterns when writing SQL. A source repository and an in-browser playground are available.",
+      "problem": "Repetitive schema pattern issues in SQL, which the author had long been looking to solve.",
+      "audience": null,
+      "builder_usernames": [
+        "barishnamazov"
+      ],
+      "source_excerpt": "This week I created a DSL that allows parametric polymorphism for SQL, and I wrote a compiler for it.",
+      "evidence": [
+        {
+          "source_item_id": 46267986,
+          "source_field": "body",
+          "value": "This week I created a DSL that allows parametric polymorphism for SQL, and I wrote a compiler for it.",
+          "supports": [],
+          "author": "barishnamazov",
+          "shared_at": 1765752799,
+          "source_url": "https://news.ycombinator.com/item?id=46267986"
+        }
+      ],
+      "source_item_id": 46267986,
+      "source_url": "https://news.ycombinator.com/item?id=46267986",
+      "author": "barishnamazov",
+      "shared_at": 1765752799,
+      "links": [
+        "https://barish.me/blog/parametric-polymorphism-for-sql/",
+        "https://github.com/BarishNamazov/gsql/"
+      ]
+    }
+  ]
+}

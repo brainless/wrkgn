@@ -1,0 +1,35 @@
+{
+  "id": 6045,
+  "slug": "eazip-4989c8021c",
+  "name": "Eazip",
+  "mentions": [
+    {
+      "name": "Eazip",
+      "description": "This API service lets developers bundle remote files (from S3, R2, CDN, or other URLs) into a ZIP archive with a single POST request: the service fetches the files, packages them, and returns a signed download link. It supports ZIP64 for files over 4GB, up to 5,000 files per job, zero egress fees on downloads, and requires no infrastructure to manage. A free tier is available without a credit card.",
+      "problem": "Creating ZIPs from remote files (S3, R2, CDN) usually means downloading to a server, zipping locally, managing temp storage, and cleaning up, which is painful at scale, especially with large files or thousands of items.",
+      "audience": "The comment targets developers building on top of the API, with feedback requested from the HN community.",
+      "builder_usernames": [
+        "ryan14975"
+      ],
+      "source_excerpt": "Eazip (https://eazip.io) — ZIP remote files in one API call.\n\nI built a service that lets developers bundle remote files into a ZIP with a single POST request. You send a list of URLs, we fetch, package, and return a signed download link.",
+      "evidence": [
+        {
+          "source_item_id": 47307278,
+          "source_field": "body",
+          "value": "Eazip (https://eazip.io) — ZIP remote files in one API call.\n\nI built a service that lets developers bundle remote files into a ZIP with a single POST request. You send a list of URLs, we fetch, package, and return a signed download link.",
+          "supports": [],
+          "author": "ryan14975",
+          "shared_at": 1773052835,
+          "source_url": "https://news.ycombinator.com/item?id=47307278"
+        }
+      ],
+      "source_item_id": 47307278,
+      "source_url": "https://news.ycombinator.com/item?id=47307278",
+      "author": "ryan14975",
+      "shared_at": 1773052835,
+      "links": [
+        "https://eazip.io"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 5414,
+  "slug": "ag-sh-98072af952",
+  "name": "ag.sh",
+  "mentions": [
+    {
+      "name": "ag.sh",
+      "description": "A terminal tool that makes working with AI agents in parallel easier, automatically handling worktrees, tmux sessions, and branches with minimal tools and no dependencies.",
+      "problem": "Manually managing worktrees, tmux sessions, and branches while running agents in parallel, while wanting to stay in the terminal.",
+      "audience": null,
+      "builder_usernames": [
+        "hathers"
+      ],
+      "source_excerpt": "Working on tooling to help make working with agents in parallel easier, with minimal tools/no deps - https://github.com/andrewhathaway/ag.sh I don’t want to manually manage worktrees, tmux sessions, branches but want to remain in the terminal.",
+      "evidence": [
+        {
+          "source_item_id": 47748119,
+          "source_field": "body",
+          "value": "Working on tooling to help make working with agents in parallel easier, with minimal tools/no deps - https://github.com/andrewhathaway/ag.sh I don’t want to manually manage worktrees, tmux sessions, branches but want to remain in the terminal.",
+          "supports": [],
+          "author": "hathers",
+          "shared_at": 1776059784,
+          "source_url": "https://news.ycombinator.com/item?id=47748119"
+        }
+      ],
+      "source_item_id": 47748119,
+      "source_url": "https://news.ycombinator.com/item?id=47748119",
+      "author": "hathers",
+      "shared_at": 1776059784,
+      "links": [
+        "https://github.com/andrewhathaway/ag.sh"
+      ]
+    }
+  ]
+}

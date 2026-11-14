@@ -1,0 +1,35 @@
+{
+  "id": 10069,
+  "slug": "xqlite-4a234c184f",
+  "name": "xqlite",
+  "mentions": [
+    {
+      "name": "xqlite",
+      "description": "An Elixir library for working with SQLite, with the FFI code written in Rust via the rusqlite crate. It aims to be a super stable SQLite driver for the Elixir ecosystem, avoiding the intermittent crashes of the currently used exqlite library. Remaining work includes shipping a precompiled native library and proper release tagging; the software is otherwise functional.",
+      "problem": "The Elixir ecosystem lacks a super stable SQLite driver; the currently used exqlite library reportedly crashes every now and then.",
+      "audience": "Elixir developers needing a stable SQLite driver",
+      "builder_usernames": [
+        "pdimitar"
+      ],
+      "source_excerpt": "Finishing up https://github.com/dimitarvp/xqlite -- an Elixir library for working with SQLite, with the FFI code written in Rust via the `rusqlite` crate.",
+      "evidence": [
+        {
+          "source_item_id": 45448704,
+          "source_field": "body",
+          "value": "Finishing up https://github.com/dimitarvp/xqlite -- an Elixir library for working with SQLite, with the FFI code written in Rust via the `rusqlite` crate.",
+          "supports": [],
+          "author": "pdimitar",
+          "shared_at": 1759407607,
+          "source_url": "https://news.ycombinator.com/item?id=45448704"
+        }
+      ],
+      "source_item_id": 45448704,
+      "source_url": "https://news.ycombinator.com/item?id=45448704",
+      "author": "pdimitar",
+      "shared_at": 1759407607,
+      "links": [
+        "https://github.com/dimitarvp/xqlite"
+      ]
+    }
+  ]
+}

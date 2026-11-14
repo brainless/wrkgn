@@ -1,0 +1,35 @@
+{
+  "id": 4382,
+  "slug": "rvw-bf46870e22",
+  "name": "RVW",
+  "mentions": [
+    {
+      "name": "RVW",
+      "description": "RVW is an adaptation of the standard transformer model capable of online continual learning without catastrophic forgetting. Early experiments are published as a pre-print, and ongoing work scales the approach to more parameters and improves performance, including a Nemotron-flavored variant that showed no forgetting across mixed-domain training, a Llama 3.2-flavored ~2B parameter model in training, and potential future work on Gemma 4.",
+      "problem": "Enables online continual learning in transformer models without catastrophic forgetting.",
+      "audience": null,
+      "builder_usernames": [
+        "jballanc"
+      ],
+      "source_excerpt": "I've been working on RVW, my adaptation of the standard transformer model that is capable of online continual learning without catastrophic forgetting.",
+      "evidence": [
+        {
+          "source_item_id": 48088370,
+          "source_field": "body",
+          "value": "I've been working on RVW, my adaptation of the standard transformer model that is capable of online continual learning without catastrophic forgetting.",
+          "supports": [],
+          "author": "jballanc",
+          "shared_at": 1778449196,
+          "source_url": "https://news.ycombinator.com/item?id=48088370"
+        }
+      ],
+      "source_item_id": 48088370,
+      "source_url": "https://news.ycombinator.com/item?id=48088370",
+      "author": "jballanc",
+      "shared_at": 1778449196,
+      "links": [
+        "https://doi.org/10.5281/zenodo.20064617"
+      ]
+    }
+  ]
+}

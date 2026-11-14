@@ -1,0 +1,35 @@
+{
+  "id": 10382,
+  "slug": "o11y-526544e51a",
+  "name": "o11y",
+  "mentions": [
+    {
+      "name": "o11y",
+      "description": "A local production-like Kubernetes environment running in Minikube, deployed with a single Terraform apply command. It deploys home-made services (frontend, backend, and websockets) accessible over HTTPS via Ingress resources, along with the full open source observability stack (Grafana, Prometheus, Loki, Tempo) configured and running together. Recent work adds Kubernetes Gateway API via Istio and an auth microservice that issues JWTs with a public JWKS endpoint, so the API gateway validates tokens and claims upstream while downstream API services need no knowledge of authentication.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "chazapp"
+      ],
+      "source_excerpt": "I've been building for some time a local production like environment running in Minikube, deployed in a single `terraform apply` command. The plan is to deploy in one command a couple of home made services, frontend, backend, some websockets in between, and have everything accessible over HTTPS via Ingress resources. That, and all the open source observability tools you can imagine (Grafana/Prometheus/Loki/Tempo), configured and running at once.\n\nSee https://github.com/chazapp/o11y.",
+      "evidence": [
+        {
+          "source_item_id": 44705252,
+          "source_field": "body",
+          "value": "I've been building for some time a local production like environment running in Minikube, deployed in a single `terraform apply` command. The plan is to deploy in one command a couple of home made services, frontend, backend, some websockets in between, and have everything accessible over HTTPS via Ingress resources. That, and all the open source observability tools you can imagine (Grafana/Prometheus/Loki/Tempo), configured and running at once.\n\nSee https://github.com/chazapp/o11y.",
+          "supports": [],
+          "author": "chazapp",
+          "shared_at": 1753654818,
+          "source_url": "https://news.ycombinator.com/item?id=44705252"
+        }
+      ],
+      "source_item_id": 44705252,
+      "source_url": "https://news.ycombinator.com/item?id=44705252",
+      "author": "chazapp",
+      "shared_at": 1753654818,
+      "links": [
+        "https://github.com/chazapp/o11y"
+      ]
+    }
+  ]
+}

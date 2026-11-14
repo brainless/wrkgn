@@ -1,0 +1,91 @@
+{
+  "id": 4712,
+  "slug": "jrecc-c33c074cc4",
+  "name": "JRECC",
+  "mentions": [
+    {
+      "name": "JRECC",
+      "description": "A Java remotely executing caching compiler that integrates with Maven projects to provide Gradle/Bazel-style benefits: local and remote builds and tests share the same cache, and builds and tests are distributed across many machines. Cache hits speed up large project builds and make them more reliable by avoiding flaky test failures in otherwise identical builds.",
+      "problem": "Large project builds and tests are slow, and builds lack shared caching, making them less reliable with potentially flaky test failures in otherwise identical builds.",
+      "audience": "Java developers working on Maven projects",
+      "builder_usernames": [
+        "chhs"
+      ],
+      "source_excerpt": "I'm working on JRECC, a Java remotely executing caching compiler.\n\nIt's designed to integrate with Maven projects, to bring in the benefits of tools like Gradle and Bazel, where local and remote builds and tests share the same cache, and builds and tests are distributed over many machines. Cache hits greatly speed up large project builds, while also making it more reliable, since you're not potentially getting flaky test failures in your otherwise identical builds.",
+      "evidence": [
+        {
+          "source_item_id": 48088256,
+          "source_field": "body",
+          "value": "I'm working on JRECC, a Java remotely executing caching compiler.\n\nIt's designed to integrate with Maven projects, to bring in the benefits of tools like Gradle and Bazel, where local and remote builds and tests share the same cache, and builds and tests are distributed over many machines. Cache hits greatly speed up large project builds, while also making it more reliable, since you're not potentially getting flaky test failures in your otherwise identical builds.",
+          "supports": [],
+          "author": "chhs",
+          "shared_at": 1778448449,
+          "source_url": "https://news.ycombinator.com/item?id=48088256"
+        }
+      ],
+      "source_item_id": 48088256,
+      "source_url": "https://news.ycombinator.com/item?id=48088256",
+      "author": "chhs",
+      "shared_at": 1778448449,
+      "links": [
+        "https://jrecc.net"
+      ]
+    },
+    {
+      "name": "JRECC",
+      "description": "A Java remotely executing caching compiler designed to integrate with Maven projects, bringing Gradle/Bazel-style benefits: local and remote builds and tests share the same cache, and builds and tests are distributed across many machines. Cache hits greatly speed up large project builds and make them more reliable by avoiding flaky test failures in otherwise identical builds.",
+      "problem": "Large Maven project builds are slow and otherwise identical builds can suffer flaky test failures without a shared build/test cache.",
+      "audience": "Java developers using Maven projects",
+      "builder_usernames": [
+        "chhs"
+      ],
+      "source_excerpt": "I'm working on JRECC, a Java remotely executing caching compiler.",
+      "evidence": [
+        {
+          "source_item_id": 47304497,
+          "source_field": "body",
+          "value": "I'm working on JRECC, a Java remotely executing caching compiler.",
+          "supports": [],
+          "author": "chhs",
+          "shared_at": 1773026188,
+          "source_url": "https://news.ycombinator.com/item?id=47304497"
+        }
+      ],
+      "source_item_id": 47304497,
+      "source_url": "https://news.ycombinator.com/item?id=47304497",
+      "author": "chhs",
+      "shared_at": 1773026188,
+      "links": [
+        "https://jrecc.net"
+      ]
+    },
+    {
+      "name": "JRECC",
+      "description": "JRECC is a Java remotely executing caching compiler that integrates with Maven projects to provide Gradle/Bazel-style build benefits. Local and remote builds and tests share the same cache, and builds and tests are distributed across many machines. Cache hits greatly speed up large project builds and improve reliability by avoiding flaky test failures in otherwise identical builds.",
+      "problem": "Large project builds are slow without cache hits and unreliable due to flaky test failures; Maven lacks shared cache and distributed build capabilities.",
+      "audience": "Developers building Java projects with Maven",
+      "builder_usernames": [
+        "chhs"
+      ],
+      "source_excerpt": "I'm working on JRECC, a Java remotely executing caching compiler.\n\nIt's designed to integrate with Maven projects, to bring in the benefits of tools like Gradle and Bazel, where local and remote builds and tests share the same cache, and builds and tests are distributed over many machines.",
+      "evidence": [
+        {
+          "source_item_id": 46952801,
+          "source_field": "body",
+          "value": "I'm working on JRECC, a Java remotely executing caching compiler.\n\nIt's designed to integrate with Maven projects, to bring in the benefits of tools like Gradle and Bazel, where local and remote builds and tests share the same cache, and builds and tests are distributed over many machines.",
+          "supports": [],
+          "author": "chhs",
+          "shared_at": 1770678012,
+          "source_url": "https://news.ycombinator.com/item?id=46952801"
+        }
+      ],
+      "source_item_id": 46952801,
+      "source_url": "https://news.ycombinator.com/item?id=46952801",
+      "author": "chhs",
+      "shared_at": 1770678012,
+      "links": [
+        "https://jrecc.net/"
+      ]
+    }
+  ]
+}

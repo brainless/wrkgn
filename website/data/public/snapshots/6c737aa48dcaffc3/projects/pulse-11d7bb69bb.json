@@ -1,0 +1,35 @@
+{
+  "id": 8214,
+  "slug": "pulse-11d7bb69bb",
+  "name": "Pulse",
+  "mentions": [
+    {
+      "name": "Pulse",
+      "description": "A tiny CLI for running self-experiments on personal productivity. It automatically checks in and observes commits and code changes, with the goal of comparing work across three conditions: no AI, moderate AI (e.g. searching, inline assist), and full AI (agents).",
+      "problem": "There was little real data on whether AI tools help or hurt personal productivity, leaving mostly speculation.",
+      "audience": null,
+      "builder_usernames": [
+        "devalexwells"
+      ],
+      "source_excerpt": "I'm _currently_ writing a tiny CLI to run self-experiments on my own productivity, auto-checking in / observing commits/code changes.",
+      "evidence": [
+        {
+          "source_item_id": 46266193,
+          "source_field": "body",
+          "value": "I'm _currently_ writing a tiny CLI to run self-experiments on my own productivity, auto-checking in / observing commits/code changes.",
+          "supports": [],
+          "author": "devalexwells",
+          "shared_at": 1765741949,
+          "source_url": "https://news.ycombinator.com/item?id=46266193"
+        }
+      ],
+      "source_item_id": 46266193,
+      "source_url": "https://news.ycombinator.com/item?id=46266193",
+      "author": "devalexwells",
+      "shared_at": 1765741949,
+      "links": [
+        "https://github.com/wellwright-labs/pulse"
+      ]
+    }
+  ]
+}

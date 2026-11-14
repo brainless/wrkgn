@@ -1,0 +1,33 @@
+{
+  "id": 7895,
+  "slug": "freebsd-ec2-amis-4874ff3c7f",
+  "name": "FreeBSD EC2 AMIs",
+  "mentions": [
+    {
+      "name": "FreeBSD EC2 AMIs",
+      "description": "This project publishes updated FreeBSD AMIs for EC2 every time there is a security or errata update, so users don't have to wait for patches to download when they first launch an instance.",
+      "problem": "FreeBSD/EC2 users previously had to wait for patches to download when first launching an instance after a security or errata update.",
+      "audience": "FreeBSD/EC2 users",
+      "builder_usernames": [
+        "cperciva"
+      ],
+      "source_excerpt": "Publishing updated FreeBSD AMIs every time there is a security or errata update.  This will make life easier for FreeBSD/EC2 users since they won't need to wait for patches to download when they first launch an instance.",
+      "evidence": [
+        {
+          "source_item_id": 46578755,
+          "source_field": "body",
+          "value": "Publishing updated FreeBSD AMIs every time there is a security or errata update.  This will make life easier for FreeBSD/EC2 users since they won't need to wait for patches to download when they first launch an instance.",
+          "supports": [],
+          "author": "cperciva",
+          "shared_at": 1768158636,
+          "source_url": "https://news.ycombinator.com/item?id=46578755"
+        }
+      ],
+      "source_item_id": 46578755,
+      "source_url": "https://news.ycombinator.com/item?id=46578755",
+      "author": "cperciva",
+      "shared_at": 1768158636,
+      "links": []
+    }
+  ]
+}

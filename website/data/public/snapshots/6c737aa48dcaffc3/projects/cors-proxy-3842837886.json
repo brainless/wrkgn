@@ -1,0 +1,33 @@
+{
+  "id": 10990,
+  "slug": "cors-proxy-3842837886",
+  "name": "CORS Proxy",
+  "mentions": [
+    {
+      "name": "CORS Proxy",
+      "description": "This project is a CORS proxy built to correctly handle credentials and secrets, allowing static-first apps to access real APIs without running into CORS restrictions. It aims to change the stigma that CORS proxies are only for fetching undocumented APIs.",
+      "problem": "CORS proxies carry a stigma of being used mainly for fetching undocumented APIs, discouraging their legitimate use for accessing real APIs from static-first apps.",
+      "audience": null,
+      "builder_usernames": [
+        "reynaldi"
+      ],
+      "source_excerpt": "Currently building a CORS Proxy.\n\nAfter working on it for a while, I noticed there’s a stigma around using CORS proxies, often associated with fetching undocumented APIs.",
+      "evidence": [
+        {
+          "source_item_id": 43822728,
+          "source_field": "body",
+          "value": "Currently building a CORS Proxy.\n\nAfter working on it for a while, I noticed there’s a stigma around using CORS proxies, often associated with fetching undocumented APIs.",
+          "supports": [],
+          "author": "reynaldi",
+          "shared_at": 1745854972,
+          "source_url": "https://news.ycombinator.com/item?id=43822728"
+        }
+      ],
+      "source_item_id": 43822728,
+      "source_url": "https://news.ycombinator.com/item?id=43822728",
+      "author": "reynaldi",
+      "shared_at": 1745854972,
+      "links": []
+    }
+  ]
+}

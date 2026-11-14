@@ -1,0 +1,35 @@
+{
+  "id": 7528,
+  "slug": "save-my-music-3a193a1b64",
+  "name": "Save My Music",
+  "mentions": [
+    {
+      "name": "Save My Music",
+      "description": "This webapp keeps track of a user's playlists and notifies them when a song is silently removed by a streaming service.",
+      "problem": "Streaming services like Spotify silently remove tracks from playlists when they lose the rights, with no notification, so songs just disappear.",
+      "audience": "Music listeners who use streaming services and want to protect their personal playlists",
+      "builder_usernames": [
+        "le_meer"
+      ],
+      "source_excerpt": "Building a webapp to keep track of your playlists and notify you when a song disappears\n\nhttps://github.com/thehappyidiot/save-my-music",
+      "evidence": [
+        {
+          "source_item_id": 46579980,
+          "source_field": "body",
+          "value": "Building a webapp to keep track of your playlists and notify you when a song disappears\n\nhttps://github.com/thehappyidiot/save-my-music",
+          "supports": [],
+          "author": "le_meer",
+          "shared_at": 1768164993,
+          "source_url": "https://news.ycombinator.com/item?id=46579980"
+        }
+      ],
+      "source_item_id": 46579980,
+      "source_url": "https://news.ycombinator.com/item?id=46579980",
+      "author": "le_meer",
+      "shared_at": 1768164993,
+      "links": [
+        "https://github.com/thehappyidiot/save-my-music"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 3524,
+  "slug": "comper-b0f7758947",
+  "name": "Comper",
+  "mentions": [
+    {
+      "name": "Comper",
+      "description": "A collaborative canvas and context engine for all the code and docs in a company, with a zoomable UI and CLI where co-workers and agents can collaborate. It maps technical debt, agent readiness, code complexity, security scanning, and bus factor so teams can easily see how all the software in their company runs. The backend is built in Rust, including an incremental git blame engine built on GitOxide, and the frontend uses PixiJS to enable exploration at gaming speed with 60Hz refresh rates.",
+      "problem": "It is hard to easily see how all the software in a company runs, including technical debt, code complexity, and risk.",
+      "audience": "Companies and engineering teams that want visibility into their code, docs, and software",
+      "builder_usernames": [
+        "jtwaleson"
+      ],
+      "source_excerpt": "We're a collaborative canvas + context engine for all the code and docs in your company, with a zoomable UI + CLI , where you can collaborate with your co-workers and agents.",
+      "evidence": [
+        {
+          "source_item_id": 48530596,
+          "source_field": "body",
+          "value": "We're a collaborative canvas + context engine for all the code and docs in your company, with a zoomable UI + CLI , where you can collaborate with your co-workers and agents.",
+          "supports": [],
+          "author": "jtwaleson",
+          "shared_at": 1781460619,
+          "source_url": "https://news.ycombinator.com/item?id=48530596"
+        }
+      ],
+      "source_item_id": 48530596,
+      "source_url": "https://news.ycombinator.com/item?id=48530596",
+      "author": "jtwaleson",
+      "shared_at": 1781460619,
+      "links": [
+        "https://getcomper.ai"
+      ]
+    }
+  ]
+}

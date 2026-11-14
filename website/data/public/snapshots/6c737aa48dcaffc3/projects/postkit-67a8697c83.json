@@ -1,0 +1,63 @@
+{
+  "id": 2831,
+  "slug": "postkit-67a8697c83",
+  "name": "Postkit",
+  "mentions": [
+    {
+      "name": "Postkit",
+      "description": "This app provides a Postgres-based foundation for building applications, bundling the application-independent basics like login and permissions so developers can start a new app with it and add their own features with consistent structure.",
+      "problem": "With vibe coding/LLM-assisted engineering it is hard to get the basic, application-independent stuff correct, so this provides a consistent base to build on.",
+      "audience": null,
+      "builder_usernames": [
+        "varun_chopra"
+      ],
+      "source_excerpt": "Postkit: https://github.com/varunchopra/postkit\n\nThis is basically my version of \"what all could you throw into Postgres?\"\n\nMy problem with vibe coding/LLM assisted engineering is that it's hard to get the basic stuff that is independent of the application itself, correct, so I just use this and make sure everything I build has some consistency.\n\nYou can pop this in and use it as the base for your app and add login, permissions, etc. quite cleanly.",
+      "evidence": [
+        {
+          "source_item_id": 48887153,
+          "source_field": "body",
+          "value": "Postkit: https://github.com/varunchopra/postkit\n\nThis is basically my version of \"what all could you throw into Postgres?\"\n\nMy problem with vibe coding/LLM assisted engineering is that it's hard to get the basic stuff that is independent of the application itself, correct, so I just use this and make sure everything I build has some consistency.\n\nYou can pop this in and use it as the base for your app and add login, permissions, etc. quite cleanly.",
+          "supports": [],
+          "author": "varun_chopra",
+          "shared_at": 1783909853,
+          "source_url": "https://news.ycombinator.com/item?id=48887153"
+        }
+      ],
+      "source_item_id": 48887153,
+      "source_url": "https://news.ycombinator.com/item?id=48887153",
+      "author": "varun_chopra",
+      "shared_at": 1783909853,
+      "links": [
+        "https://github.com/varunchopra/postkit"
+      ]
+    },
+    {
+      "name": "Postkit",
+      "description": "Postkit provides auth, permissions, config, usage metering, and job queues as pure SQL functions inside Postgres, so new apps get backend infrastructure built in without external services. It implements Zanzibar-style ReBAC permissions, a double-entry ledger for usage metering, and transactional job queues using SKIP LOCKED, comprising about 15k lines of SQL across five modules with a Python SDK; the SQL works from any language.",
+      "problem": "When quickly spinning up apps with Claude Code, the same infrastructure is needed every time - user auth, permissions, usage tracking, and job queues - requiring external services to set up and slowing iteration.",
+      "audience": "Developers spinning up new apps (especially with AI coding assistants like Claude Code) who need ready-made backend infrastructure.",
+      "builder_usernames": [
+        "varun_chopra"
+      ],
+      "source_excerpt": "Working on Postkit - auth, permissions, config, metering, and job queues as pure SQL functions inside Postgres.",
+      "evidence": [
+        {
+          "source_item_id": 46940595,
+          "source_field": "body",
+          "value": "Working on Postkit - auth, permissions, config, metering, and job queues as pure SQL functions inside Postgres.",
+          "supports": [],
+          "author": "varun_chopra",
+          "shared_at": 1770601221,
+          "source_url": "https://news.ycombinator.com/item?id=46940595"
+        }
+      ],
+      "source_item_id": 46940595,
+      "source_url": "https://news.ycombinator.com/item?id=46940595",
+      "author": "varun_chopra",
+      "shared_at": 1770601221,
+      "links": [
+        "https://github.com/varunchopra/postkit"
+      ]
+    }
+  ]
+}

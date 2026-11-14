@@ -1,0 +1,63 @@
+{
+  "id": 5150,
+  "slug": "hammock-d50b9e8058",
+  "name": "hammock",
+  "mentions": [
+    {
+      "name": "hammock",
+      "description": "A Clojure editor.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "habitmelon"
+      ],
+      "source_excerpt": "I just learned about this yesterday when I shared my Clojure editor: https://github.com/tlehman/hammock",
+      "evidence": [
+        {
+          "source_item_id": 47747733,
+          "source_field": "body",
+          "value": "I just learned about this yesterday when I shared my Clojure editor: https://github.com/tlehman/hammock",
+          "supports": [],
+          "author": "habitmelon",
+          "shared_at": 1776055873,
+          "source_url": "https://news.ycombinator.com/item?id=47747733"
+        }
+      ],
+      "source_item_id": 47747733,
+      "source_url": "https://news.ycombinator.com/item?id=47747733",
+      "author": "habitmelon",
+      "shared_at": 1776055873,
+      "links": [
+        "https://github.com/tlehman/hammock"
+      ]
+    },
+    {
+      "name": "Hammock",
+      "description": "An Emacs-like editor that uses Clojure instead of Emacs Lisp as its extension language. It has a C kernel and embeds libsci (Small Clojure Interpreter, built with GraalVM), so it has no Java dependency at runtime.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "habitmelon"
+      ],
+      "source_excerpt": "Working on an Emacs-like editor that uses Clojure instead of Emacs Lisp. It has a C kernel and then uses libsci (Small Clojure Interpreter, built with GraalVM, so it has no Java dependency at runtime).\n\nI call it Hammock, in honor of Rich Hickey's \"Hammock Driven Design\"",
+      "evidence": [
+        {
+          "source_item_id": 47747676,
+          "source_field": "body",
+          "value": "Working on an Emacs-like editor that uses Clojure instead of Emacs Lisp. It has a C kernel and then uses libsci (Small Clojure Interpreter, built with GraalVM, so it has no Java dependency at runtime).\n\nI call it Hammock, in honor of Rich Hickey's \"Hammock Driven Design\"",
+          "supports": [],
+          "author": "habitmelon",
+          "shared_at": 1776055256,
+          "source_url": "https://news.ycombinator.com/item?id=47747676"
+        }
+      ],
+      "source_item_id": 47747676,
+      "source_url": "https://news.ycombinator.com/item?id=47747676",
+      "author": "habitmelon",
+      "shared_at": 1776055256,
+      "links": [
+        "https://github.com/tlehman/hammock"
+      ]
+    }
+  ]
+}

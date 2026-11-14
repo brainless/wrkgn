@@ -1,0 +1,35 @@
+{
+  "id": 5279,
+  "slug": "agent-tuning-4c13f0dea9",
+  "name": "agent-tuning",
+  "mentions": [
+    {
+      "name": "agent-tuning",
+      "description": "This project demonstrates that Claude Opus can be self-reflecting: its attention and context are large enough that it is aware of its own instructions and the task, and it can write its own instructions to optimize solving the task across recursive iterations.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dataviz1000"
+      ],
+      "source_excerpt": "I've been working on proving that Claude Opus  can be self-reflecting meaning that its attention and context are large enough that it is aware of its own instructions, aware of the task, and capable of writing its own instructions to optimize solving the task in recursive iterations. [0]",
+      "evidence": [
+        {
+          "source_item_id": 47745124,
+          "source_field": "body",
+          "value": "I've been working on proving that Claude Opus  can be self-reflecting meaning that its attention and context are large enough that it is aware of its own instructions, aware of the task, and capable of writing its own instructions to optimize solving the task in recursive iterations. [0]",
+          "supports": [],
+          "author": "dataviz1000",
+          "shared_at": 1776032052,
+          "source_url": "https://news.ycombinator.com/item?id=47745124"
+        }
+      ],
+      "source_item_id": 47745124,
+      "source_url": "https://news.ycombinator.com/item?id=47745124",
+      "author": "dataviz1000",
+      "shared_at": 1776032052,
+      "links": [
+        "https://github.com/adam-s/agent-tuning"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 9171,
+  "slug": "smol-63132fa524",
+  "name": "Smol",
+  "mentions": [
+    {
+      "name": "Smol",
+      "description": "An open-source PostgreSQL index type for analytics workloads, designed as a read-only drop-in replacement for B-trees. Smol is multiplicatively faster than B-trees and radically smaller, and is limited to embedded and self-hosted PostgreSQL instances (not RDS/Aurora).",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "asah"
+      ],
+      "source_excerpt": "New (open source) PostgreSQL index type for analytics workloads, which is a read-only drop-in replacement for B-trees. Smol is multiplicatively faster than B-Trees and radically smaller.",
+      "evidence": [
+        {
+          "source_item_id": 45870002,
+          "source_field": "body",
+          "value": "New (open source) PostgreSQL index type for analytics workloads, which is a read-only drop-in replacement for B-trees. Smol is multiplicatively faster than B-Trees and radically smaller.",
+          "supports": [],
+          "author": "asah",
+          "shared_at": 1762728430,
+          "source_url": "https://news.ycombinator.com/item?id=45870002"
+        }
+      ],
+      "source_item_id": 45870002,
+      "source_url": "https://news.ycombinator.com/item?id=45870002",
+      "author": "asah",
+      "shared_at": 1762728430,
+      "links": [
+        "https://github.com/asah/smol"
+      ]
+    }
+  ]
+}

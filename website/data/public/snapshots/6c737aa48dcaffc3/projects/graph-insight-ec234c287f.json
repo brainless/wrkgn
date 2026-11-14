@@ -1,0 +1,35 @@
+{
+  "id": 10030,
+  "slug": "graph-insight-ec234c287f",
+  "name": "graph insight",
+  "mentions": [
+    {
+      "name": "graph insight",
+      "description": "A semantic graph tool for exploring research papers that extracts keyphrases, builds a 3D graph, and lets users navigate from documents to topics to clusters. It has processed ~28k papers and mapped 100k+ topics, aiming to speed up literature review and reveal hidden links between research areas.",
+      "problem": "Literature review is slow and research areas read as isolated PDFs rather than a connected landscape, making hidden links between papers hard to spot.",
+      "audience": "Researchers and engineers reviewing research literature; the author also suggests it could apply to news/media streams.",
+      "builder_usernames": [
+        "zilyova"
+      ],
+      "source_excerpt": "I'm working on graph insight, a semantic graph tool for exploring research papers.\nIt extracts keyphrases, builds a 3D graph, and lets you navigate from documents > topics > clusters.",
+      "evidence": [
+        {
+          "source_item_id": 45487866,
+          "source_field": "body",
+          "value": "I'm working on graph insight, a semantic graph tool for exploring research papers.\nIt extracts keyphrases, builds a 3D graph, and lets you navigate from documents > topics > clusters.",
+          "supports": [],
+          "author": "zilyova",
+          "shared_at": 1759727928,
+          "source_url": "https://news.ycombinator.com/item?id=45487866"
+        }
+      ],
+      "source_item_id": 45487866,
+      "source_url": "https://news.ycombinator.com/item?id=45487866",
+      "author": "zilyova",
+      "shared_at": 1759727928,
+      "links": [
+        "https://www.reddit.com/r/deeplearning/comments/1nic3ft/3d_semantic_graph_of_arxiv_texttospeech_papers/"
+      ]
+    }
+  ]
+}

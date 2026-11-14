@@ -1,0 +1,92 @@
+{
+  "id": 1735,
+  "slug": "engine-build-469a70afb9",
+  "name": "engine.build",
+  "mentions": [
+    {
+      "name": "engine.build",
+      "description": "This is an externally orchestrated, spec-driven agentic build system: after planning work and writing a spec, users delegate the build to a durable orchestrator that coordinates layers of agents through a build -> verify -> review -> triage -> fix -> verify-fixes loop until the resulting code matches the spec. It is offered as an MCP server or CLI, allows mixing and matching models from any provider for any part of the pipeline, and will be free to use and fully open source (Apache 2.0).",
+      "problem": "Micromanaging agents is what causes AI burnout; the builder wants to plan work, walk away, and come back knowing it has been correctly implemented.",
+      "audience": null,
+      "builder_usernames": [
+        "alasano"
+      ],
+      "source_excerpt": "It's an externally orchestrated (meaning it's not the agent running the loop) spec driven agentic build system.",
+      "evidence": [
+        {
+          "source_item_id": 49234737,
+          "source_field": "body",
+          "value": "It's an externally orchestrated (meaning it's not the agent running the loop) spec driven agentic build system.",
+          "supports": [],
+          "author": "alasano",
+          "shared_at": 1786303301,
+          "source_url": "https://news.ycombinator.com/item?id=49234737"
+        }
+      ],
+      "source_item_id": 49234737,
+      "source_url": "https://news.ycombinator.com/item?id=49234737",
+      "author": "alasano",
+      "shared_at": 1786303301,
+      "links": [
+        "https://engine.build"
+      ]
+    },
+    {
+      "name": "engine.build",
+      "description": "A durable orchestration loop for implementing code with LLMs that forces review and verification gates until the code matches exactly what was asked for. It complements existing harnesses and agent tools: agents investigate, plan, and hand off implementation to the engine, and different LLMs can be mixed and matched in different roles (e.g., one model implementing while others review). Sandboxing is supported out of the box, starting with Microsandbox, and it is open source and free.",
+      "problem": "Code written by LLMs often doesn't match exactly what was asked for, so verification gates are needed.",
+      "audience": null,
+      "builder_usernames": [
+        "alasano"
+      ],
+      "source_excerpt": "It's a durable orchestration loop for implementing code with LLMs that forces review and verification gates until the code matches exactly what you asked for.",
+      "evidence": [
+        {
+          "source_item_id": 48533443,
+          "source_field": "body",
+          "value": "It's a durable orchestration loop for implementing code with LLMs that forces review and verification gates until the code matches exactly what you asked for.",
+          "supports": [],
+          "author": "alasano",
+          "shared_at": 1781475446,
+          "source_url": "https://news.ycombinator.com/item?id=48533443"
+        }
+      ],
+      "source_item_id": 48533443,
+      "source_url": "https://news.ycombinator.com/item?id=48533443",
+      "author": "alasano",
+      "shared_at": 1781475446,
+      "links": [
+        "https://engine.build"
+      ]
+    },
+    {
+      "name": "engine.build",
+      "description": "A durable orchestration system for AI code generation. Starting from a spec or programmatic task list, the engine runs the whole workflow — implementation, verification, review, fixes, and finalization — treating agentic coding like a durable CI-style process with state, retries, reviewer feedback, commits, and auditability built in. Orchestration is external: LLM agents are used as tools spawned in the loop without awareness of it. It integrates through MCP/CLI and other integration points so users keep their existing IDE or coding agent (Codex, Claude Code, OpenCode, Cursor, etc.) and supports any LLM provider, allowing different models for implementing versus reviewing at each phase. It is planned to be open sourced soon.",
+      "problem": "Solves the problem of not being able to trust LLMs to complete long-running, high-quality implementations without having to babysit and monitor the process — the most exhausting part of coding with AI.",
+      "audience": null,
+      "builder_usernames": [
+        "alasano"
+      ],
+      "source_excerpt": "I'm working on https://engine.build\n\nIt's a durable orchestration system for AI code generation which solves the problem of not being able to trust LLMs to complete long running (and high quality) implementations without having to babysit them and monitor the process, which is what I think is the most exhausting part of coding with AI.",
+      "evidence": [
+        {
+          "source_item_id": 48088239,
+          "source_field": "body",
+          "value": "I'm working on https://engine.build\n\nIt's a durable orchestration system for AI code generation which solves the problem of not being able to trust LLMs to complete long running (and high quality) implementations without having to babysit them and monitor the process, which is what I think is the most exhausting part of coding with AI.",
+          "supports": [],
+          "author": "alasano",
+          "shared_at": 1778448365,
+          "source_url": "https://news.ycombinator.com/item?id=48088239"
+        }
+      ],
+      "source_item_id": 48088239,
+      "source_url": "https://news.ycombinator.com/item?id=48088239",
+      "author": "alasano",
+      "shared_at": 1778448365,
+      "links": [
+        "https://engine.build",
+        "https://x.com/enginedotbuild"
+      ]
+    }
+  ]
+}

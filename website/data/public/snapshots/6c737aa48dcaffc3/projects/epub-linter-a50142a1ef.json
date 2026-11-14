@@ -1,0 +1,33 @@
+{
+  "id": 4162,
+  "slug": "epub-linter-a50142a1ef",
+  "name": "EPUB linter",
+  "mentions": [
+    {
+      "name": "EPUB linter",
+      "description": "A linter for EPUB files that detects issues not covered by EPUBCheck or Ace by DAISY. It aims for speed, accurate diagnostics with exact problem start/end positions in the XHTML, clear issue descriptions including references, and output in the SARIF format.",
+      "problem": "Existing EPUB linting tools (EPUBCheck and Ace by DAISY) don't cover certain EPUB issues.",
+      "audience": null,
+      "builder_usernames": [
+        "naglis"
+      ],
+      "source_excerpt": "I am working on a linter for EPUBs for issues not covered by EPUBCheck/Ace by DAISY.",
+      "evidence": [
+        {
+          "source_item_id": 48532635,
+          "source_field": "body",
+          "value": "I am working on a linter for EPUBs for issues not covered by EPUBCheck/Ace by DAISY.",
+          "supports": [],
+          "author": "naglis",
+          "shared_at": 1781470775,
+          "source_url": "https://news.ycombinator.com/item?id=48532635"
+        }
+      ],
+      "source_item_id": 48532635,
+      "source_url": "https://news.ycombinator.com/item?id=48532635",
+      "author": "naglis",
+      "shared_at": 1781470775,
+      "links": []
+    }
+  ]
+}

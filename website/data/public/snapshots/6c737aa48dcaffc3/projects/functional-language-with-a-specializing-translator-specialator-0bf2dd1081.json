@@ -1,0 +1,33 @@
+{
+  "id": 10501,
+  "slug": "functional-language-with-a-specializing-translator-specialator-0bf2dd1081",
+  "name": "Functional language with a specializing translator (specialator)",
+  "mentions": [
+    {
+      "name": "Functional language with a specializing translator (specialator)",
+      "description": "A functional language paired with a specializing translator ('specialator') based on graph-reduction beneath lambdas. The specialator specializes away interpretive and meta-programming-like overhead, then translates the result into usable source code in a chosen target language — currently JS and C — yielding conventional imperative code when specialization succeeds and more functional-style code otherwise. The language features an expressive type system based on self-dependent sub-typing, intended to be used with a decidability checker. It is an experimental work-in-progress.",
+      "problem": "Interpretive and meta-programming-like overhead in functional programs, which the specialator aims to specialize away before generating code.",
+      "audience": null,
+      "builder_usernames": [
+        "ThyerMJ26"
+      ],
+      "source_excerpt": "I've been working on a functional language and a specializing translator (a specialator) based on graph-reduction beneath lambdas.",
+      "evidence": [
+        {
+          "source_item_id": 44712498,
+          "source_field": "body",
+          "value": "I've been working on a functional language and a specializing translator (a specialator) based on graph-reduction beneath lambdas.",
+          "supports": [],
+          "author": "ThyerMJ26",
+          "shared_at": 1753720527,
+          "source_url": "https://news.ycombinator.com/item?id=44712498"
+        }
+      ],
+      "source_item_id": 44712498,
+      "source_url": "https://news.ycombinator.com/item?id=44712498",
+      "author": "ThyerMJ26",
+      "shared_at": 1753720527,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 4100,
+  "slug": "hyperplane-eval-367b6a0c7e",
+  "name": "Hyperplane Eval",
+  "mentions": [
+    {
+      "name": "Hyperplane Eval",
+      "description": "Hyperplane Eval is a local property-based testing tool for AI agents that automatically discovers behavioral failure regions in agent behavior instead of relying on manually written prompts.",
+      "problem": "Testing AI agents via manually written prompts misses behavioral failure regions, which the tool discovers automatically.",
+      "audience": null,
+      "builder_usernames": [
+        "marten-aqua"
+      ],
+      "source_excerpt": "I’m working on Hyperplane Eval, a local property-based testing tool for AI agents that automatically discovers behavioral failure regions instead of relying on manually written prompts.",
+      "evidence": [
+        {
+          "source_item_id": 48572426,
+          "source_field": "body",
+          "value": "I’m working on Hyperplane Eval, a local property-based testing tool for AI agents that automatically discovers behavioral failure regions instead of relying on manually written prompts.",
+          "supports": [],
+          "author": "marten-aqua",
+          "shared_at": 1781712339,
+          "source_url": "https://news.ycombinator.com/item?id=48572426"
+        }
+      ],
+      "source_item_id": 48572426,
+      "source_url": "https://news.ycombinator.com/item?id=48572426",
+      "author": "marten-aqua",
+      "shared_at": 1781712339,
+      "links": [
+        "https://github.com/Aquithm/hyperplane"
+      ]
+    }
+  ]
+}

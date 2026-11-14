@@ -1,0 +1,33 @@
+{
+  "id": 5300,
+  "slug": "uk-company-accounts-worker-treatment-analyzer-d1a9762227",
+  "name": "UK Company Accounts Worker Treatment Analyzer",
+  "mentions": [
+    {
+      "name": "UK Company Accounts Worker Treatment Analyzer",
+      "description": "This tool analyses UK company accounts data, sourced from Companies House as XBRL or PDF, to highlight various forms of unfair treatment of workers, such as serious wage decline in spite of soaring profits. It surfaces findings like per-worker pay losses (e.g. £4,196 lost between 2024 and 2025 due to falling pay and inflation), presenting nominal and real wages alongside inflation metrics in plain wording for a non-technical audience. Planned features include sector/industry analysis and comparisons, an inequality leaderboard, sentiment analysis from director reports, and search and filter.",
+      "problem": "Unfair treatment of workers, such as serious wage decline despite soaring profits, is hidden in company accounts data and not easily surfaced, especially given messy edge cases in Companies House data (e.g. negative turnover, variable 52/53-week accounting periods) and the difficulty of explaining wage and inflation metrics to a non-technical audience.",
+      "audience": "A non-technical audience; the author says they have a specific audience in mind but the site is not yet public.",
+      "builder_usernames": [
+        "KiwiCoder"
+      ],
+      "source_excerpt": "I've built a tool that analyses UK company accounts data to highlight various forms of unfair treatment of workers, such as serious wage decline in spite of soaring profits.",
+      "evidence": [
+        {
+          "source_item_id": 47756053,
+          "source_field": "body",
+          "value": "I've built a tool that analyses UK company accounts data to highlight various forms of unfair treatment of workers, such as serious wage decline in spite of soaring profits.",
+          "supports": [],
+          "author": "KiwiCoder",
+          "shared_at": 1776104876,
+          "source_url": "https://news.ycombinator.com/item?id=47756053"
+        }
+      ],
+      "source_item_id": 47756053,
+      "source_url": "https://news.ycombinator.com/item?id=47756053",
+      "author": "KiwiCoder",
+      "shared_at": 1776104876,
+      "links": []
+    }
+  ]
+}

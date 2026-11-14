@@ -1,0 +1,35 @@
+{
+  "id": 4906,
+  "slug": "releasedog-32adafcd27",
+  "name": "ReleaseDog",
+  "mentions": [
+    {
+      "name": "ReleaseDog",
+      "description": "This tool collects changes from JIRA, Slack, and GitHub and automatically creates changelogs and release notes.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "arunkant"
+      ],
+      "source_excerpt": "I'm working on https://releasedog.com/ - It collects changes from JIRA/slack/github and create a changelog/release notes.",
+      "evidence": [
+        {
+          "source_item_id": 48087535,
+          "source_field": "body",
+          "value": "I'm working on https://releasedog.com/ - It collects changes from JIRA/slack/github and create a changelog/release notes.",
+          "supports": [],
+          "author": "arunkant",
+          "shared_at": 1778444529,
+          "source_url": "https://news.ycombinator.com/item?id=48087535"
+        }
+      ],
+      "source_item_id": 48087535,
+      "source_url": "https://news.ycombinator.com/item?id=48087535",
+      "author": "arunkant",
+      "shared_at": 1778444529,
+      "links": [
+        "https://releasedog.com/"
+      ]
+    }
+  ]
+}

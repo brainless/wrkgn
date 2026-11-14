@@ -1,0 +1,92 @@
+{
+  "id": 10158,
+  "slug": "happy-coder-b0edb989b2",
+  "name": "Happy Coder",
+  "mentions": [
+    {
+      "name": "Happy Coder",
+      "description": "Open source native mobile (plus web) app for Codex and Claude Code that lets users spawn and control multiple CLI coding agent sessions in parallel. Happy Coder runs on the user's own hardware, is end-to-end encrypted, and is MIT licensed. A command-line wrapper starts a Codex or Claude Code session in the terminal and continues it from the phone with real-time two-way sync, so sessions can be controlled from any internet-connected computer and a phone with zero workflow disruption. An optional voice agent lets users talk to it, and it then writes prompts for the coding agents and answers questions about what the agent on the computer is doing.",
+      "problem": "Running CLI coding agents is tied to the terminal, disrupting workflow when switching between computer and phone; the goal is zero workflow disruption by letting sessions start in a terminal and continue from a phone in real time.",
+      "audience": null,
+      "builder_usernames": [
+        "marxism"
+      ],
+      "source_excerpt": "I'm working on Happy Coder, an open source Codex and Claude Code native mobile app (plus a web app).\n\nHappy lets you spawn and control multiple Codex/Claude Code sessions in parallel.",
+      "evidence": [
+        {
+          "source_item_id": 45422162,
+          "source_field": "body",
+          "value": "I'm working on Happy Coder, an open source Codex and Claude Code native mobile app (plus a web app).\n\nHappy lets you spawn and control multiple Codex/Claude Code sessions in parallel.",
+          "supports": [],
+          "author": "marxism",
+          "shared_at": 1759209537,
+          "source_url": "https://news.ycombinator.com/item?id=45422162"
+        }
+      ],
+      "source_item_id": 45422162,
+      "source_url": "https://news.ycombinator.com/item?id=45422162",
+      "author": "marxism",
+      "shared_at": 1759209537,
+      "links": [
+        "https://github.com/slopus/happy"
+      ]
+    },
+    {
+      "name": "Happy Coder",
+      "description": "This is an open source (MIT-licensed) native mobile app plus web app for controlling multiple Codex and Claude Code coding-agent sessions in parallel. It runs on the user's own hardware, is end-to-end encrypted, and syncs in real time between the terminal and the phone via a command line wrapper, so a session started in the terminal can be continued from the phone and vice versa. It includes an optional voice agent that takes spoken input, writes prompts for Codex/Claude Code, and answers questions about what the running coding agent is doing.",
+      "problem": "Running and monitoring CLI coding agents normally requires being at the terminal; the goal is zero workflow disruption by letting sessions run on any internet-connected computer and be controlled from a phone.",
+      "audience": null,
+      "builder_usernames": [
+        "marxism"
+      ],
+      "source_excerpt": "I'm working on Happy Coder, an open source Codex and Claude Code native mobile app (plus a web app).\n\nHappy lets you spawn and control multiple Codex/Claude Code sessions in parallel. Happy Coder runs on your hardware, works from your phone and desktop, costs nothing, End to End encrypted, and permissive MIT License.",
+      "evidence": [
+        {
+          "source_item_id": 45381000,
+          "source_field": "body",
+          "value": "I'm working on Happy Coder, an open source Codex and Claude Code native mobile app (plus a web app).\n\nHappy lets you spawn and control multiple Codex/Claude Code sessions in parallel. Happy Coder runs on your hardware, works from your phone and desktop, costs nothing, End to End encrypted, and permissive MIT License.",
+          "supports": [],
+          "author": "marxism",
+          "shared_at": 1758845562,
+          "source_url": "https://news.ycombinator.com/item?id=45381000"
+        }
+      ],
+      "source_item_id": 45381000,
+      "source_url": "https://news.ycombinator.com/item?id=45381000",
+      "author": "marxism",
+      "shared_at": 1758845562,
+      "links": [
+        "https://github.com/slopus/happy"
+      ]
+    },
+    {
+      "name": "Happy Coder",
+      "description": "Open-source companion app for Claude Code that sends discrete push notifications to the user's watch when a Claude Code session needs permissions or input, making it easier to keep multiple parallel sessions moving without wasting time. A Voice Agent feature in development by another contributor lets the user talk ideas to a voice agent, which buffers and gathers their thoughts and then writes the prompt for Claude Code, enabling walk-and-code workflows such as dumping ideas into plan mode while commuting.",
+      "problem": "Struggling to stay on top of multiple Claude Code sessions in parallel; without push notifications when Claude Code needs permissions or input, time gets wasted.",
+      "audience": "Developers running multiple Claude Code sessions in parallel",
+      "builder_usernames": [
+        "giaccoangelo",
+        "marxism"
+      ],
+      "source_excerpt": "I contribute to the Happy Coder app https://github.com/slopus/happy (MIT License)\n\nI've gotten a lot of use out of Claude Code in the past few months. The big problem for me is struggling to stay on top of multiple sessions in parallel.",
+      "evidence": [
+        {
+          "source_item_id": 45047168,
+          "source_field": "body",
+          "value": "I contribute to the Happy Coder app https://github.com/slopus/happy (MIT License)\n\nI've gotten a lot of use out of Claude Code in the past few months. The big problem for me is struggling to stay on top of multiple sessions in parallel.",
+          "supports": [],
+          "author": "marxism",
+          "shared_at": 1756343387,
+          "source_url": "https://news.ycombinator.com/item?id=45047168"
+        }
+      ],
+      "source_item_id": 45047168,
+      "source_url": "https://news.ycombinator.com/item?id=45047168",
+      "author": "marxism",
+      "shared_at": 1756343387,
+      "links": [
+        "https://github.com/slopus/happy"
+      ]
+    }
+  ]
+}

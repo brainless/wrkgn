@@ -1,0 +1,33 @@
+{
+  "id": 11191,
+  "slug": "progressive-browser-loading-of-terminal-fonts-f102e86557",
+  "name": "Progressive browser loading of terminal fonts",
+  "mentions": [
+    {
+      "name": "Progressive browser loading of terminal fonts",
+      "description": "A project to make terminal fonts (like Cascadia Code) render in the browser progressively, avoiding the need for one giant font download up front.",
+      "problem": "Using terminal fonts in the browser currently requires a giant single download.",
+      "audience": null,
+      "builder_usernames": [
+        "jasonthorsness"
+      ],
+      "source_excerpt": "getting terminal fonts (like Cascadia Code) to work in the browser more progressively without requiring such a giant single download",
+      "evidence": [
+        {
+          "source_item_id": 43816215,
+          "source_field": "body",
+          "value": "getting terminal fonts (like Cascadia Code) to work in the browser more progressively without requiring such a giant single download",
+          "supports": [],
+          "author": "jasonthorsness",
+          "shared_at": 1745798361,
+          "source_url": "https://news.ycombinator.com/item?id=43816215"
+        }
+      ],
+      "source_item_id": 43816215,
+      "source_url": "https://news.ycombinator.com/item?id=43816215",
+      "author": "jasonthorsness",
+      "shared_at": 1745798361,
+      "links": []
+    }
+  ]
+}

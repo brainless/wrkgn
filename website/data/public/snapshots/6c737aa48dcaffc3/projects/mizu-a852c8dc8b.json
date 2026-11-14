@@ -1,0 +1,63 @@
+{
+  "id": 8769,
+  "slug": "mizu-a852c8dc8b",
+  "name": "Mizu",
+  "mentions": [
+    {
+      "name": "Mizu",
+      "description": "Mizu is a small Go web framework built directly on Go 1.22 http.ServeMux, keeping APIs close to the standard library. It offers explicit middleware chains with clear scoping, no reflection, no codegen, and no global state, a real request context type that interoperates with net/http, and first-class graceful shutdown and error handling.",
+      "problem": "Popular Go web frameworks suffer from hidden context mutation, magic middleware ordering, reflection-heavy binding, APIs drifting away from the standard library, and accumulated technical debt and footguns (e.g., in the Gin ecosystem).",
+      "audience": "Go developers happy with net/http who want slightly better ergonomics and structure without losing control.",
+      "builder_usernames": [
+        "tamnd"
+      ],
+      "source_excerpt": "I'm working on Mizu, a small Go web framework built around a simple idea: net/http is already good, frameworks should not fight it.",
+      "evidence": [
+        {
+          "source_item_id": 46270521,
+          "source_field": "body",
+          "value": "I'm working on Mizu, a small Go web framework built around a simple idea: net/http is already good, frameworks should not fight it.",
+          "supports": [],
+          "author": "tamnd",
+          "shared_at": 1765773141,
+          "source_url": "https://news.ycombinator.com/item?id=46270521"
+        }
+      ],
+      "source_item_id": 46270521,
+      "source_url": "https://news.ycombinator.com/item?id=46270521",
+      "author": "tamnd",
+      "shared_at": 1765773141,
+      "links": [
+        "https://docs.go-mizu.dev/overview/intro"
+      ]
+    },
+    {
+      "name": "Mizu",
+      "description": "A lightweight web framework for Go that keeps things simple and Go-first. Everything is written in plain Go with no hidden abstractions, letting projects start as a single file and grow into a full project without changing coding style; it aims to flow with your code rather than force its own patterns.",
+      "problem": "Existing web frameworks can introduce hidden abstractions and force their own patterns, making Go projects harder to keep simple and idiomatic.",
+      "audience": null,
+      "builder_usernames": [
+        "tamnd"
+      ],
+      "source_excerpt": "I am building Mizu, a lightweight web framework for Go that aims to keep things simple and Go-first. Everything is written in plain Go with no hidden abstractions, and you can start with a single file then grow into a full project without changing your coding style.",
+      "evidence": [
+        {
+          "source_item_id": 45875443,
+          "source_field": "body",
+          "value": "I am building Mizu, a lightweight web framework for Go that aims to keep things simple and Go-first. Everything is written in plain Go with no hidden abstractions, and you can start with a single file then grow into a full project without changing your coding style.",
+          "supports": [],
+          "author": "tamnd",
+          "shared_at": 1762778949,
+          "source_url": "https://news.ycombinator.com/item?id=45875443"
+        }
+      ],
+      "source_item_id": 45875443,
+      "source_url": "https://news.ycombinator.com/item?id=45875443",
+      "author": "tamnd",
+      "shared_at": 1762778949,
+      "links": [
+        "https://docs.go-mizu.dev/overview/intro"
+      ]
+    }
+  ]
+}

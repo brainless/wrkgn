@@ -1,0 +1,36 @@
+{
+  "id": 9003,
+  "slug": "offline-openstreetmap-on-raspberry-pi-for-internet-in-a-box-6f8cde3c39",
+  "name": "Offline OpenStreetMap on Raspberry Pi for Internet in a Box",
+  "mentions": [
+    {
+      "name": "Offline OpenStreetMap on Raspberry Pi for Internet in a Box",
+      "description": "This project runs OpenStreetMap fully self-hosted off the grid on a Raspberry Pi 500 (and a Pi Zero 2W) to serve offline maps for Internet in a Box. Street and satellite tiles come from maps.black, and search uses Nominatim's experimental SQLite3 mode, which the author is effectively testing in practice. It currently covers administrative boundaries and natural features, with plans to add more POI types while keeping the database file small. Compared with Internet in a Box's existing OSM offering, it provides current data that is much easier to update, 3D buildings, and stronger search.",
+      "problem": "Internet in a Box's existing OSM offering ships data that is five years old, uses tech that makes updates harder, and has much more limited search.",
+      "audience": null,
+      "builder_usernames": [
+        "orblivion"
+      ],
+      "source_excerpt": "Running OpenStreetMap off the grid (self-hosted to say the least) on a Raspberry Pi 500 (and to some extent a Pi Zero 2W) for Internet In a Box:",
+      "evidence": [
+        {
+          "source_item_id": 45870817,
+          "source_field": "body",
+          "value": "Running OpenStreetMap off the grid (self-hosted to say the least) on a Raspberry Pi 500 (and to some extent a Pi Zero 2W) for Internet In a Box:",
+          "supports": [],
+          "author": "orblivion",
+          "shared_at": 1762734856,
+          "source_url": "https://news.ycombinator.com/item?id=45870817"
+        }
+      ],
+      "source_item_id": 45870817,
+      "source_url": "https://news.ycombinator.com/item?id=45870817",
+      "author": "orblivion",
+      "shared_at": 1762734856,
+      "links": [
+        "https://internet-in-a-box.org/",
+        "https://www.linkedin.com/posts/danielkrol_openstreetmap-activity-7380654210146648064-c2Mc/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 5971,
+  "slug": "hobby-x86-kernel-80486-target-23347429f3",
+  "name": "Hobby x86 kernel (80486 target)",
+  "mentions": [
+    {
+      "name": "Hobby x86 kernel (80486 target)",
+      "description": "This hobby x86 kernel targets vintage hardware (an 80486DX2-66 PC with 32MB of RAM). It supports basic virtual memory with kmalloc()/kfree(), task switching, user mode, and a few syscalls, and includes a floppy driver that can semi-reliably detect and read data off floppy disks. A userspace ext2 parser written for the project is planned to be brought into the kernel to provide filesystem support.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "vkoskiv"
+      ],
+      "source_excerpt": "My hobby x86 kernel. I'm targeting my 80486DX2-66 PC with 32MB of RAM.",
+      "evidence": [
+        {
+          "source_item_id": 47325511,
+          "source_field": "body",
+          "value": "My hobby x86 kernel. I'm targeting my 80486DX2-66 PC with 32MB of RAM.",
+          "supports": [],
+          "author": "vkoskiv",
+          "shared_at": 1773160330,
+          "source_url": "https://news.ycombinator.com/item?id=47325511"
+        }
+      ],
+      "source_item_id": 47325511,
+      "source_url": "https://news.ycombinator.com/item?id=47325511",
+      "author": "vkoskiv",
+      "shared_at": 1773160330,
+      "links": []
+    }
+  ]
+}

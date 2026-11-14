@@ -1,0 +1,35 @@
+{
+  "id": 9577,
+  "slug": "aye-chat-7ae1d279df",
+  "name": "Aye Chat",
+  "mentions": [
+    {
+      "name": "Aye Chat",
+      "description": "Aye Chat is an AI development tool for the terminal that makes code changes directly and lets users revert them through a snapshot feature, while staying in the terminal to run a favorite terminal editor. It supports different models, requires no sign-up at the moment, and is free during beta.",
+      "problem": "The builders were annoyed by extra confirmation questions from other AI assistants and having to switch between consoles to use an editor or revert changes.",
+      "audience": null,
+      "builder_usernames": [
+        "b-kuiper"
+      ],
+      "source_excerpt": "we are working on Aye Chat: an AI development tool for the terminal. It will make changes directly and let you revert changes through our snapshot feature, all while you can stay in the terminal to execute your favorite (terminal) editor and what not.",
+      "evidence": [
+        {
+          "source_item_id": 45874560,
+          "source_field": "body",
+          "value": "we are working on Aye Chat: an AI development tool for the terminal. It will make changes directly and let you revert changes through our snapshot feature, all while you can stay in the terminal to execute your favorite (terminal) editor and what not.",
+          "supports": [],
+          "author": "b-kuiper",
+          "shared_at": 1762770846,
+          "source_url": "https://news.ycombinator.com/item?id=45874560"
+        }
+      ],
+      "source_item_id": 45874560,
+      "source_url": "https://news.ycombinator.com/item?id=45874560",
+      "author": "b-kuiper",
+      "shared_at": 1762770846,
+      "links": [
+        "https://github.com/acrotron/aye-chat"
+      ]
+    }
+  ]
+}

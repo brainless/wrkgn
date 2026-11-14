@@ -1,0 +1,33 @@
+{
+  "id": 6809,
+  "slug": "reproducible-llm-provider-quality-test-runs-ca98ac409a",
+  "name": "Reproducible LLM provider quality test runs",
+  "mentions": [
+    {
+      "name": "Reproducible LLM provider quality test runs",
+      "description": "A reproducible testing system for catching quality issues and degradation from LLM providers. It has models generate artifacts (e.g., a connect 4 engine), runs them through extensive tests to score how valid each solution is as a percentage (NN/100% accurate), and repeats the same tests at fixed intervals to track degradation over time. About 10 such tests exist so far, with more in progress.",
+      "problem": "LLM provider quality issues and output degradation are hard to verify; simple \"the model made code\" checks don't show measurable degradation.",
+      "audience": null,
+      "builder_usernames": [
+        "flutas"
+      ],
+      "source_excerpt": "Working on reproducible test runs to catch quality issues from LLM providers.\n\nMy main goal is not just a \"the model made code, yay!\" setup, but verifiable outputs that can show degradation as percentages.\n\ni.e. have the model make something like a connect 4 engine, and then run it through a lot of tests to see how \"valid\" it's solution is. Then score that solution as NN/100% accurate. Then do many runs of the same test at a fixed interval.\n\nI have ~10 tests like this so far, working on more.",
+      "evidence": [
+        {
+          "source_item_id": 46939645,
+          "source_field": "body",
+          "value": "Working on reproducible test runs to catch quality issues from LLM providers.\n\nMy main goal is not just a \"the model made code, yay!\" setup, but verifiable outputs that can show degradation as percentages.\n\ni.e. have the model make something like a connect 4 engine, and then run it through a lot of tests to see how \"valid\" it's solution is. Then score that solution as NN/100% accurate. Then do many runs of the same test at a fixed interval.\n\nI have ~10 tests like this so far, working on more.",
+          "supports": [],
+          "author": "flutas",
+          "shared_at": 1770592865,
+          "source_url": "https://news.ycombinator.com/item?id=46939645"
+        }
+      ],
+      "source_item_id": 46939645,
+      "source_url": "https://news.ycombinator.com/item?id=46939645",
+      "author": "flutas",
+      "shared_at": 1770592865,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 6034,
+  "slug": "chrononotes-30a0882ee8",
+  "name": "ChronoNotes",
+  "mentions": [
+    {
+      "name": "ChronoNotes",
+      "description": "A simple note-taking tool that manages \"trackers\" (tagged items such as [BUG-N]) and has built-in filtering to \"trace\" updates, so progress can be followed without jumping around a single text file or using grep. It includes a backend and is being dogfooded by its creator.",
+      "problem": "A single text file was all the author needed for notes, but it made it difficult to keep track of a variety of things; using the file as a manual tag-based project tracker meant jumping around the file or using grep to follow progress.",
+      "audience": "Fellow note takers; the author also keeps it for personal use.",
+      "builder_usernames": [
+        "qporest"
+      ],
+      "source_excerpt": "I condensed the idea to just that - a very simple tool which manages \"trackers\", and has a simple filtering built in to \"trace\" the updates. I've been using it, since I've added the BE, and dogfooding it a bunch. Would love for fellow note takers to take a look. It's not perfect, but I'm keeping it around for myself :)",
+      "evidence": [
+        {
+          "source_item_id": 47305273,
+          "source_field": "body",
+          "value": "I condensed the idea to just that - a very simple tool which manages \"trackers\", and has a simple filtering built in to \"trace\" the updates. I've been using it, since I've added the BE, and dogfooding it a bunch. Would love for fellow note takers to take a look. It's not perfect, but I'm keeping it around for myself :)",
+          "supports": [],
+          "author": "qporest",
+          "shared_at": 1773035252,
+          "source_url": "https://news.ycombinator.com/item?id=47305273"
+        }
+      ],
+      "source_item_id": 47305273,
+      "source_url": "https://news.ycombinator.com/item?id=47305273",
+      "author": "qporest",
+      "shared_at": 1773035252,
+      "links": [
+        "https://chrononotes.com/"
+      ]
+    }
+  ]
+}

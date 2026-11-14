@@ -1,0 +1,63 @@
+{
+  "id": 1305,
+  "slug": "authproxy-2e93add990",
+  "name": "AuthProxy",
+  "mentions": [
+    {
+      "name": "AuthProxy",
+      "description": "AuthProxy is an open source embedded integration-platform-as-a-service with an embedded connector marketplace for connecting to third-party systems and a proxy that handles credentials automatically. It has been in development for a couple of years and is currently being used to build an MCP gateway for internal tooling.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rmorlok"
+      ],
+      "source_excerpt": "I've been working on AuthProxy, an open source embedded integration-platform-as-a-service. It has an embedded connector marketplace that lets you connect to 3rd party systems, then provides a proxy that handles the credentials automatically.",
+      "evidence": [
+        {
+          "source_item_id": 49697352,
+          "source_field": "body",
+          "value": "I've been working on AuthProxy, an open source embedded integration-platform-as-a-service. It has an embedded connector marketplace that lets you connect to 3rd party systems, then provides a proxy that handles the credentials automatically.",
+          "supports": [],
+          "author": "rmorlok",
+          "shared_at": 1789395709,
+          "source_url": "https://news.ycombinator.com/item?id=49697352"
+        }
+      ],
+      "source_item_id": 49697352,
+      "source_url": "https://news.ycombinator.com/item?id=49697352",
+      "author": "rmorlok",
+      "shared_at": 1789395709,
+      "links": [
+        "https://github.com/rmorlok/authproxy"
+      ]
+    },
+    {
+      "name": "authproxy",
+      "description": "Open source integration-platform-as-a-service (iPaaS) auth proxy that provides an embeddable integration marketplace where users can connect third-party apps, plus a proxy endpoint for host applications to send authenticated outbound requests. Token refresh, auditing, and related concerns stay with the proxy so the host application or agent can focus on business logic.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rmorlok"
+      ],
+      "source_excerpt": "I've been working on my open source integration-platform-as-a-service (iPaaS) auth proxy. It provides an embeddable integration marketplace where users can connect 3rd party apps, and it provides a proxy endpoint to the host application to send authenticated outbound requests. That way token refresh, audit, etc stay with this system and frees the host application/agent/whatever free to just focus on the business logic.",
+      "evidence": [
+        {
+          "source_item_id": 48089165,
+          "source_field": "body",
+          "value": "I've been working on my open source integration-platform-as-a-service (iPaaS) auth proxy. It provides an embeddable integration marketplace where users can connect 3rd party apps, and it provides a proxy endpoint to the host application to send authenticated outbound requests. That way token refresh, audit, etc stay with this system and frees the host application/agent/whatever free to just focus on the business logic.",
+          "supports": [],
+          "author": "rmorlok",
+          "shared_at": 1778455281,
+          "source_url": "https://news.ycombinator.com/item?id=48089165"
+        }
+      ],
+      "source_item_id": 48089165,
+      "source_url": "https://news.ycombinator.com/item?id=48089165",
+      "author": "rmorlok",
+      "shared_at": 1778455281,
+      "links": [
+        "https://github.com/rmorlok/authproxy"
+      ]
+    }
+  ]
+}

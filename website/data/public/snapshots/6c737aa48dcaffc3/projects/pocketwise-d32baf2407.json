@@ -1,0 +1,63 @@
+{
+  "id": 7843,
+  "slug": "pocketwise-d32baf2407",
+  "name": "PocketWise",
+  "mentions": [
+    {
+      "name": "PocketWise",
+      "description": "PocketWise is a simple double-entry accounting app that uses end-to-end encryption with a zero-trust server model: all encryption and decryption happens in the browser, and the server only sees encrypted data.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ashish01"
+      ],
+      "source_excerpt": "Still working on PocketWise (https://pocketwise.app), a simple double-entry accounting app. Just finished adding end-to-end encryption with a zero-trust server model. All encryption and decryption happens in the browser (using PRF), and the server only sees encrypted data.",
+      "evidence": [
+        {
+          "source_item_id": 46579385,
+          "source_field": "body",
+          "value": "Still working on PocketWise (https://pocketwise.app), a simple double-entry accounting app. Just finished adding end-to-end encryption with a zero-trust server model. All encryption and decryption happens in the browser (using PRF), and the server only sees encrypted data.",
+          "supports": [],
+          "author": "ashish01",
+          "shared_at": 1768161730,
+          "source_url": "https://news.ycombinator.com/item?id=46579385"
+        }
+      ],
+      "source_item_id": 46579385,
+      "source_url": "https://news.ycombinator.com/item?id=46579385",
+      "author": "ashish01",
+      "shared_at": 1768161730,
+      "links": [
+        "https://pocketwise.app"
+      ]
+    },
+    {
+      "name": "PocketWise",
+      "description": "A lightweight personal finance tracking app that aims to make double entry accounting simple and approachable for everyday use.",
+      "problem": "Double entry accounting is not simple or approachable for everyday use.",
+      "audience": "Everyday users",
+      "builder_usernames": [
+        "ashish01"
+      ],
+      "source_excerpt": "I am working on PocketWise (https://pocketwise.app) a lightweight personal finance tracking app. Goal is to make double entry accounting simple and approachable for everyday use.",
+      "evidence": [
+        {
+          "source_item_id": 45871650,
+          "source_field": "body",
+          "value": "I am working on PocketWise (https://pocketwise.app) a lightweight personal finance tracking app. Goal is to make double entry accounting simple and approachable for everyday use.",
+          "supports": [],
+          "author": "ashish01",
+          "shared_at": 1762741538,
+          "source_url": "https://news.ycombinator.com/item?id=45871650"
+        }
+      ],
+      "source_item_id": 45871650,
+      "source_url": "https://news.ycombinator.com/item?id=45871650",
+      "author": "ashish01",
+      "shared_at": 1762741538,
+      "links": [
+        "https://pocketwise.app"
+      ]
+    }
+  ]
+}

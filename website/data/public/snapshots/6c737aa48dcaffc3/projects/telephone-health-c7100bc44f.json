@@ -1,0 +1,35 @@
+{
+  "id": 6107,
+  "slug": "telephone-health-c7100bc44f",
+  "name": "telephone.health",
+  "mentions": [
+    {
+      "name": "telephone.health",
+      "description": "A site that evaluates how well LLMs can take narrative medical text, convert it to a structured form (FHIR R4, for application consumption), and convert it back to narrative text for human consumption. Findings include Mistral outperforming Gemini 3 Pro in certain use cases, cross-LLM pipelines working better than single-LLM conversion, and very high costs.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "VadimPR"
+      ],
+      "source_excerpt": "https://telephone.health, which shows how well LLMs can take narrative medical text, convert it to a structured form (FHIR R4, for application consumption), and then convert it back to narrative text for human consumption.",
+      "evidence": [
+        {
+          "source_item_id": 47306875,
+          "source_field": "body",
+          "value": "https://telephone.health, which shows how well LLMs can take narrative medical text, convert it to a structured form (FHIR R4, for application consumption), and then convert it back to narrative text for human consumption.",
+          "supports": [],
+          "author": "VadimPR",
+          "shared_at": 1773050065,
+          "source_url": "https://news.ycombinator.com/item?id=47306875"
+        }
+      ],
+      "source_item_id": 47306875,
+      "source_url": "https://news.ycombinator.com/item?id=47306875",
+      "author": "VadimPR",
+      "shared_at": 1773050065,
+      "links": [
+        "https://telephone.health"
+      ]
+    }
+  ]
+}

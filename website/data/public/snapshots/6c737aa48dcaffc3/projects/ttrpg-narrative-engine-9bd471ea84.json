@@ -1,0 +1,35 @@
+{
+  "id": 8266,
+  "slug": "ttrpg-narrative-engine-9bd471ea84",
+  "name": "TTRPG Narrative Engine",
+  "mentions": [
+    {
+      "name": "TTRPG Narrative Engine",
+      "description": "This tool is a session prep platform for tabletop RPG game masters, built as a narrative engine rather than a static wiki. It supports interconnected world-building (NPCs, factions, locations) and story-building (situations, fronts, clocks), with bidirectional linking so a story hook connected to an NPC is visible from that NPC's view. It includes a clock system with milestone consequences that can spawn or edit entities, situations that fire different consequences depending on player outcomes, and material waste detection that flags under-connected prepped-but-unused content. The main workflow is mindmap-based, with each entity getting its own context layer of direct relationships. Planned work includes automatic player-facing content that publishes public notes from involved entities as players complete situations, replacing a separate campaign log. Built with TypeScript, Effect-TS, SolidJS, Cytoscape, and Leaflet.",
+      "problem": "Most existing tools are great for storing lore, but they don't help you run the story; the goal is a \"create now, refine later\" workflow that gets ideas into structure fast and can be refined during play.",
+      "audience": "Tabletop RPG game masters and anyone who preps campaigns",
+      "builder_usernames": [
+        "wintermut3"
+      ],
+      "source_excerpt": "TTRPG Narrative Engine — https://test.qualy.dev\n\nI'm building a session prep tool for tabletop RPG game masters. The idea is to make a narrative engine rather than another static wiki.",
+      "evidence": [
+        {
+          "source_item_id": 46270937,
+          "source_field": "body",
+          "value": "TTRPG Narrative Engine — https://test.qualy.dev\n\nI'm building a session prep tool for tabletop RPG game masters. The idea is to make a narrative engine rather than another static wiki.",
+          "supports": [],
+          "author": "wintermut3",
+          "shared_at": 1765778300,
+          "source_url": "https://news.ycombinator.com/item?id=46270937"
+        }
+      ],
+      "source_item_id": 46270937,
+      "source_url": "https://news.ycombinator.com/item?id=46270937",
+      "author": "wintermut3",
+      "shared_at": 1765778300,
+      "links": [
+        "https://test.qualy.dev"
+      ]
+    }
+  ]
+}

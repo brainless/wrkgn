@@ -1,0 +1,33 @@
+{
+  "id": 3814,
+  "slug": "typespec-binary-parser-library-and-emitter-78c5e01c06",
+  "name": "TypeSpec binary parser library and emitter",
+  "mentions": [
+    {
+      "name": "TypeSpec binary parser library and emitter",
+      "description": "A TypeSpec library and emitter that lets developers describe binary file layouts in TypeSpec, specifying where and what each piece of data in the file is, and generates the parser and typed interfaces so a binary stream can be dropped into a parse function to get a typed object back.",
+      "problem": "Hand-parsing binary file formats requires lots of trial and error; the author wanted a descriptor language that generates the parser and interfaces so a binary stream can be parsed into a typed object.",
+      "audience": null,
+      "builder_usernames": [
+        "Dathuil"
+      ],
+      "source_excerpt": "What I would have prefered is some sort of descriptor language that lets me generate the parser and interfaces for everything so I just drop the binary stream into a parse function and get my typed object back.\n\nI'm working on creating a TypeSpec Library and Emitter for this so that you can describe everything in Typespec as to where and what is in the file and have it parse.",
+      "evidence": [
+        {
+          "source_item_id": 48539648,
+          "source_field": "body",
+          "value": "What I would have prefered is some sort of descriptor language that lets me generate the parser and interfaces for everything so I just drop the binary stream into a parse function and get my typed object back.\n\nI'm working on creating a TypeSpec Library and Emitter for this so that you can describe everything in Typespec as to where and what is in the file and have it parse.",
+          "supports": [],
+          "author": "Dathuil",
+          "shared_at": 1781522238,
+          "source_url": "https://news.ycombinator.com/item?id=48539648"
+        }
+      ],
+      "source_item_id": 48539648,
+      "source_url": "https://news.ycombinator.com/item?id=48539648",
+      "author": "Dathuil",
+      "shared_at": 1781522238,
+      "links": []
+    }
+  ]
+}

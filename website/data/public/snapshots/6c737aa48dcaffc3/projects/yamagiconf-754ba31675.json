@@ -1,0 +1,36 @@
+{
+  "id": 7569,
+  "slug": "yamagiconf-754ba31675",
+  "name": "yamagiconf",
+  "mentions": [
+    {
+      "name": "yamagiconf",
+      "description": "An opinionated YAML parser without the YAML problems, created as an alternative that avoids issues like the Norway problem.",
+      "problem": "Avoids the YAML problems, such as the Norway problem, found in standard YAML parsing.",
+      "audience": null,
+      "builder_usernames": [
+        "denysvitali",
+        "romshark"
+      ],
+      "source_excerpt": "About the YAML problems: a friend of mine created https://github.com/romshark/yamagiconf - which is an opinionated parser w/o the YAML problems",
+      "evidence": [
+        {
+          "source_item_id": 46580879,
+          "source_field": "body",
+          "value": "About the YAML problems: a friend of mine created https://github.com/romshark/yamagiconf - which is an opinionated parser w/o the YAML problems",
+          "supports": [],
+          "author": "denysvitali",
+          "shared_at": 1768169719,
+          "source_url": "https://news.ycombinator.com/item?id=46580879"
+        }
+      ],
+      "source_item_id": 46580879,
+      "source_url": "https://news.ycombinator.com/item?id=46580879",
+      "author": "denysvitali",
+      "shared_at": 1768169719,
+      "links": [
+        "https://github.com/romshark/yamagiconf"
+      ]
+    }
+  ]
+}

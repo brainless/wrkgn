@@ -1,0 +1,35 @@
+{
+  "id": 3739,
+  "slug": "saigon-safe-beb979665c",
+  "name": "Saigon Safe",
+  "mentions": [
+    {
+      "name": "Saigon Safe",
+      "description": "Fork of Bitwarden's Chrome and Firefox browser extensions (password manager) with UX improvements to make the tool usable, including a feature to handle passwords under duress. The Firefox version is released as the Saigon Safe add-on; the Chrome version is still in progress.",
+      "problem": "Bitwarden's official browser extensions have UX that makes the password manager hard to use.",
+      "audience": null,
+      "builder_usernames": [
+        "itake"
+      ],
+      "source_excerpt": "Fork of Bitwarden's Chrome and Firefox extensions (password manager) with UX improvements to make the tool useable.\n\nThe coolest feature I added was a tool to handle passwords under duress.",
+      "evidence": [
+        {
+          "source_item_id": 48537304,
+          "source_field": "body",
+          "value": "Fork of Bitwarden's Chrome and Firefox extensions (password manager) with UX improvements to make the tool useable.\n\nThe coolest feature I added was a tool to handle passwords under duress.",
+          "supports": [],
+          "author": "itake",
+          "shared_at": 1781504453,
+          "source_url": "https://news.ycombinator.com/item?id=48537304"
+        }
+      ],
+      "source_item_id": 48537304,
+      "source_url": "https://news.ycombinator.com/item?id=48537304",
+      "author": "itake",
+      "shared_at": 1781504453,
+      "links": [
+        "https://addons.mozilla.org/en-GB/firefox/addon/saigon-safe/"
+      ]
+    }
+  ]
+}

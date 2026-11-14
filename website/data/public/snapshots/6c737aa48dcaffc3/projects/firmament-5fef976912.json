@@ -1,0 +1,33 @@
+{
+  "id": 3713,
+  "slug": "firmament-5fef976912",
+  "name": "Firmament",
+  "mentions": [
+    {
+      "name": "Firmament",
+      "description": "A clustering system for Podman volumes that uses Serf and the built-in Podman import/export API to move volumes to where they need to be in the cluster. Still an early-stage idea, planned to start after Materia reaches 1.0.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "stryan"
+      ],
+      "source_excerpt": "I've also been kicking around a clustering system for Podman volumes called Firmament  that uses Serf and the built-in Podman import/export API to move volumes to where they need to be in the cluster.",
+      "evidence": [
+        {
+          "source_item_id": 48531836,
+          "source_field": "body",
+          "value": "I've also been kicking around a clustering system for Podman volumes called Firmament  that uses Serf and the built-in Podman import/export API to move volumes to where they need to be in the cluster.",
+          "supports": [],
+          "author": "stryan",
+          "shared_at": 1781466375,
+          "source_url": "https://news.ycombinator.com/item?id=48531836"
+        }
+      ],
+      "source_item_id": 48531836,
+      "source_url": "https://news.ycombinator.com/item?id=48531836",
+      "author": "stryan",
+      "shared_at": 1781466375,
+      "links": []
+    }
+  ]
+}

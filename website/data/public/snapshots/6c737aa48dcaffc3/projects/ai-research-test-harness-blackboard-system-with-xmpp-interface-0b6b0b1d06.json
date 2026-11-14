@@ -1,0 +1,33 @@
+{
+  "id": 10762,
+  "slug": "ai-research-test-harness-blackboard-system-with-xmpp-interface-0b6b0b1d06",
+  "name": "AI research test harness (Blackboard system with XMPP interface)",
+  "mentions": [
+    {
+      "name": "AI research test harness (Blackboard system with XMPP interface)",
+      "description": "A test harness for AI research experiments that uses XMPP as a convenient interface to interact with a blackboard-system-based AI, covering symbolic and neuro-symbolic approaches. The XMPP handling is isolated into a single deployable unit, while the blackboard components are Spring-managed beans wired together in a Spring Boot application that exposes a REST API. The whole system is Dockerized with a docker compose file so it can be started with a single command. Planned work includes integrating Apache Camel into the XMPP receiver for complex message routing, possibly adopting the OpenAI API model to allow swappable AI backends, and running parallel tests.",
+      "problem": "The original code was written in an exploratory programming style with XMPP logic tightly coupled to the blackboard system and no dependency injection, making it hard to extend, reuse, or modify; the rework decouples the components so AI backends can be swapped out and parallel tests run.",
+      "audience": null,
+      "builder_usernames": [
+        "mindcrime"
+      ],
+      "source_excerpt": "I've spent most of the weekend working on some \"test harness\" code for doing AI research.",
+      "evidence": [
+        {
+          "source_item_id": 44705397,
+          "source_field": "body",
+          "value": "I've spent most of the weekend working on some \"test harness\" code for doing AI research.",
+          "supports": [],
+          "author": "mindcrime",
+          "shared_at": 1753656197,
+          "source_url": "https://news.ycombinator.com/item?id=44705397"
+        }
+      ],
+      "source_item_id": 44705397,
+      "source_url": "https://news.ycombinator.com/item?id=44705397",
+      "author": "mindcrime",
+      "shared_at": 1753656197,
+      "links": []
+    }
+  ]
+}

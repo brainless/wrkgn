@@ -1,0 +1,147 @@
+{
+  "id": 4946,
+  "slug": "dataraven-f9ba498f7b",
+  "name": "DataRaven",
+  "mentions": [
+    {
+      "name": "DataRaven",
+      "description": "A managed rclone platform for object storage that lets teams run cloud-to-cloud transfers, migrations, and scheduled syncs without owning infrastructure. It adds operational features rclone lacks out of the box: notifications, centralized logs, team access, audit logs, and analytics such as bytes transferred, objects changed, and failure rates. It also offers a guided onboarding flow, support for more storage providers, and bring-your-own-vault (BYOV) secret support.",
+      "problem": "rclone lacks operational features out of the box such as notifications, centralized logs, team access, audit logs, and transfer analytics.",
+      "audience": "Teams running cloud-to-cloud transfers, migrations, and scheduled syncs without having to own any infrastructure.",
+      "builder_usernames": [
+        "coreylane"
+      ],
+      "source_excerpt": "https://dataraven.io managed rclone for object storage.\nIt’s for teams running cloud-to-cloud transfers, migrations, and scheduled syncs without having to own any infra.",
+      "evidence": [
+        {
+          "source_item_id": 48096464,
+          "source_field": "body",
+          "value": "https://dataraven.io managed rclone for object storage.\nIt’s for teams running cloud-to-cloud transfers, migrations, and scheduled syncs without having to own any infra.",
+          "supports": [],
+          "author": "coreylane",
+          "shared_at": 1778513935,
+          "source_url": "https://news.ycombinator.com/item?id=48096464"
+        }
+      ],
+      "source_item_id": 48096464,
+      "source_url": "https://news.ycombinator.com/item?id=48096464",
+      "author": "coreylane",
+      "shared_at": 1778513935,
+      "links": [
+        "https://dataraven.io"
+      ]
+    },
+    {
+      "name": "Dataraven",
+      "description": "A low-cost, cloud-agnostic data movement platform focused on object storage that wraps rclone for reliable, fast cloud-to-cloud transfers. It adds operational features including team workspaces with role-based access control and full audit logs, transfer failure and resource change notifications via Slack, Teams, or JSON webhooks, centralized log storage and archiving, bring-your-own-vault integrations (1Password, Doppler, Infisical) for zero-knowledge credential handling, API keys, rclone.conf import for rapid onboarding, and 10 Gbps connected infrastructure for large transfers.",
+      "problem": "Cloud-to-cloud object storage transfers lack the operational features—access control, auditing, notifications, and secure credential handling—that clients need, which this platform wraps around rclone.",
+      "audience": null,
+      "builder_usernames": [
+        "coreylane"
+      ],
+      "source_excerpt": "Working on https://dataraven.io/ – a low-cost, cloud-agnostic data movement platform focused on object storage. In the past month I've added API keys, audit logs, and rclone.conf import for rapid onboarding.",
+      "evidence": [
+        {
+          "source_item_id": 47336995,
+          "source_field": "body",
+          "value": "Working on https://dataraven.io/ – a low-cost, cloud-agnostic data movement platform focused on object storage. In the past month I've added API keys, audit logs, and rclone.conf import for rapid onboarding.",
+          "supports": [],
+          "author": "coreylane",
+          "shared_at": 1773243402,
+          "source_url": "https://news.ycombinator.com/item?id=47336995"
+        }
+      ],
+      "source_item_id": 47336995,
+      "source_url": "https://news.ycombinator.com/item?id=47336995",
+      "author": "coreylane",
+      "shared_at": 1773243402,
+      "links": [
+        "https://dataraven.io/"
+      ]
+    },
+    {
+      "name": "DataRaven",
+      "description": "A low-cost, cloud-native data movement platform focused on object storage, built on top of RClone. It adds operational features including team workspaces with role-based access control, alerts on transfer failures or resource changes via Slack, Teams, and Discord, centralized log storage, zero-knowledge credential handling through vault integrations with 1Password, Doppler, or Infisical, and 10 Gbps connected infrastructure on the Pro tier for large transfers.",
+      "problem": "RClone handles the data movement itself but lacks the operational features clients need, such as team access control, notifications, centralized logging, and credential management.",
+      "audience": null,
+      "builder_usernames": [
+        "coreylane"
+      ],
+      "source_excerpt": "Working on https://dataraven.io/ – a low-cost, cloud-native data movement platform focused on object storage.\n\nRClone is doing the heavy lifting (amazing project). I'm wrapping it with the operational features clients have asked me for over the years:",
+      "evidence": [
+        {
+          "source_item_id": 46941251,
+          "source_field": "body",
+          "value": "Working on https://dataraven.io/ – a low-cost, cloud-native data movement platform focused on object storage.\n\nRClone is doing the heavy lifting (amazing project). I'm wrapping it with the operational features clients have asked me for over the years:",
+          "supports": [],
+          "author": "coreylane",
+          "shared_at": 1770607725,
+          "source_url": "https://news.ycombinator.com/item?id=46941251"
+        }
+      ],
+      "source_item_id": 46941251,
+      "source_url": "https://news.ycombinator.com/item?id=46941251",
+      "author": "coreylane",
+      "shared_at": 1770607725,
+      "links": [
+        "https://dataraven.io/"
+      ]
+    },
+    {
+      "name": "DataRaven",
+      "description": "This platform provides low-cost, cloud native data movement with an initial focus on object storage, built on top of RClone. It adds team workspaces with role-based access control, alerts on transfer failures or resource changes via Slack, Teams, and Discord, centralized log storage, zero-knowledge credential handling through integrations with 1Password, Doppler, or Infisical, and 10 Gbps connected high-throughput Linux systems for large transfers on the Pro tier.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "coreylane"
+      ],
+      "source_excerpt": "Working on https://dataraven.io/ - a low-cost cloud native data movement platform, focusing on object storage initially",
+      "evidence": [
+        {
+          "source_item_id": 46897272,
+          "source_field": "body",
+          "value": "Working on https://dataraven.io/ - a low-cost cloud native data movement platform, focusing on object storage initially",
+          "supports": [],
+          "author": "coreylane",
+          "shared_at": 1770280867,
+          "source_url": "https://news.ycombinator.com/item?id=46897272"
+        }
+      ],
+      "source_item_id": 46897272,
+      "source_url": "https://news.ycombinator.com/item?id=46897272",
+      "author": "coreylane",
+      "shared_at": 1770280867,
+      "links": [
+        "https://dataraven.io/"
+      ]
+    },
+    {
+      "name": "DataRaven",
+      "description": "A managed service for cloud-to-cloud object storage transfer that moves data easily and quickly between AWS S3, Azure Blob, Google Cloud Storage, Cloudflare R2, Backblaze B2, Wasabi, and any S3-compatible endpoint. It is built on the open source tool RClone.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "coreylane"
+      ],
+      "source_excerpt": "A managed service for cloud to cloud object storage transfer to easily and quickly transfer data between AWS S3, Azure Blob, Google Cloud Storage, Cloudflare R2, Backblaze B2, Wasabi, and any S3-compatible endpoint. It's built on amazing open source tool RClone.",
+      "evidence": [
+        {
+          "source_item_id": 46681078,
+          "source_field": "body",
+          "value": "A managed service for cloud to cloud object storage transfer to easily and quickly transfer data between AWS S3, Azure Blob, Google Cloud Storage, Cloudflare R2, Backblaze B2, Wasabi, and any S3-compatible endpoint. It's built on amazing open source tool RClone.",
+          "supports": [],
+          "author": "coreylane",
+          "shared_at": 1768840957,
+          "source_url": "https://news.ycombinator.com/item?id=46681078"
+        }
+      ],
+      "source_item_id": 46681078,
+      "source_url": "https://news.ycombinator.com/item?id=46681078",
+      "author": "coreylane",
+      "shared_at": 1768840957,
+      "links": [
+        "https://dataraven.io/"
+      ]
+    }
+  ]
+}

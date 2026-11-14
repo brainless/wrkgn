@@ -1,0 +1,63 @@
+{
+  "id": 9042,
+  "slug": "audio-cd-ripper-06648058a7",
+  "name": "audio-cd-ripper",
+  "mentions": [
+    {
+      "name": "audio-cd-ripper",
+      "description": "This is a command-line tool that reads audio CD table-of-contents and track data, converts the tracks to FLAC, and embeds metadata from MusicBrainz.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "bloomca"
+      ],
+      "source_excerpt": "and a CLI tool to do so + convert to FLAC and embed metadata from MusicBrainz (https://github.com/Bloomca/audio-cd-ripper)",
+      "evidence": [
+        {
+          "source_item_id": 45876893,
+          "source_field": "body",
+          "value": "and a CLI tool to do so + convert to FLAC and embed metadata from MusicBrainz (https://github.com/Bloomca/audio-cd-ripper)",
+          "supports": [],
+          "author": "bloomca",
+          "shared_at": 1762788579,
+          "source_url": "https://news.ycombinator.com/item?id=45876893"
+        }
+      ],
+      "source_item_id": 45876893,
+      "source_url": "https://news.ycombinator.com/item?id=45876893",
+      "author": "bloomca",
+      "shared_at": 1762788579,
+      "links": [
+        "https://github.com/Bloomca/audio-cd-ripper"
+      ]
+    },
+    {
+      "name": "audio-cd-ripper",
+      "description": "A CD ripper that extracts all tracks from an audio CD, encodes them as FLAC, and fetches metadata from MusicBrainz.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "bloomca"
+      ],
+      "source_excerpt": "a ripper -- https://github.com/Bloomca/audio-cd-ripper, which rips all tracks and encodes it as FLAC and fetches metadata from MusicBrainz.",
+      "evidence": [
+        {
+          "source_item_id": 45420601,
+          "source_field": "body",
+          "value": "a ripper -- https://github.com/Bloomca/audio-cd-ripper, which rips all tracks and encodes it as FLAC and fetches metadata from MusicBrainz.",
+          "supports": [],
+          "author": "bloomca",
+          "shared_at": 1759192234,
+          "source_url": "https://news.ycombinator.com/item?id=45420601"
+        }
+      ],
+      "source_item_id": 45420601,
+      "source_url": "https://news.ycombinator.com/item?id=45420601",
+      "author": "bloomca",
+      "shared_at": 1759192234,
+      "links": [
+        "https://github.com/Bloomca/audio-cd-ripper"
+      ]
+    }
+  ]
+}

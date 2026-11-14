@@ -1,0 +1,35 @@
+{
+  "id": 6173,
+  "slug": "agent-triage-297cfbbd5e",
+  "name": "agent-triage",
+  "mentions": [
+    {
+      "name": "agent-triage",
+      "description": "A CLI that automates diagnosing AI agent failures in production. It ingests traces from LangSmith, Langfuse, OpenTelemetry, or a JSON file, pulls system prompts directly from the logs, extracts behavioral rules, and uses an LLM-as-a-judge to replay each conversation step-by-step. It flags which turn broke things, which agent caused it, and traces cascading failures across routing, handoffs, and retrieval, then aggregates root causes (e.g. \"24 out of 51 failures are missing escalations\") so users know what to fix first. Runs locally, with only LLM API calls leaving the machine.",
+      "problem": "The author was spending too much time staring at logs and web dashboards trying to figure out why multi-agent setups kept failing in production.",
+      "audience": null,
+      "builder_usernames": [
+        "oren1531"
+      ],
+      "source_excerpt": "I built agent-triage - CLI that automates diagnosing AI agent failures in production.",
+      "evidence": [
+        {
+          "source_item_id": 47324123,
+          "source_field": "body",
+          "value": "I built agent-triage - CLI that automates diagnosing AI agent failures in production.",
+          "supports": [],
+          "author": "oren1531",
+          "shared_at": 1773154536,
+          "source_url": "https://news.ycombinator.com/item?id=47324123"
+        }
+      ],
+      "source_item_id": 47324123,
+      "source_url": "https://news.ycombinator.com/item?id=47324123",
+      "author": "oren1531",
+      "shared_at": 1773154536,
+      "links": [
+        "https://github.com/converra/agent-triage"
+      ]
+    }
+  ]
+}

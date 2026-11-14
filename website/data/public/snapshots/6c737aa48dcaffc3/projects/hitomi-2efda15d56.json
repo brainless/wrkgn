@@ -1,0 +1,35 @@
+{
+  "id": 4376,
+  "slug": "hitomi-2efda15d56",
+  "name": "Hitomi",
+  "mentions": [
+    {
+      "name": "Hitomi",
+      "description": "A native, cross-platform log/data analyzer that opens large CSV files, logs, and even command stdout in constant time using an incremental combinatorial parser that processes chunked input from a stream, so the UI is ready as soon as the first chunk is parsed. Features include a two-mode filter (a convenient UI mode plus an extensible DSL for complex cases), a timeline-mode scrollbar for log and time-series analysis, auto-fitting column widths, and no web bloat. Available for Windows and Linux, with macOS in progress.",
+      "problem": "Opening large CSV files is frustrating, and Excel has many quirks when working with CSV files.",
+      "audience": null,
+      "builder_usernames": [
+        "SdtEE"
+      ],
+      "source_excerpt": "This starts from my frustration when opening large CSV files, but later evolved to a log/data analyzer that loads arbitrary format in constant time (O(1)).\n\nhttps://github.com/Verticalysis/Hitomi",
+      "evidence": [
+        {
+          "source_item_id": 48090009,
+          "source_field": "body",
+          "value": "This starts from my frustration when opening large CSV files, but later evolved to a log/data analyzer that loads arbitrary format in constant time (O(1)).\n\nhttps://github.com/Verticalysis/Hitomi",
+          "supports": [],
+          "author": "SdtEE",
+          "shared_at": 1778462448,
+          "source_url": "https://news.ycombinator.com/item?id=48090009"
+        }
+      ],
+      "source_item_id": 48090009,
+      "source_url": "https://news.ycombinator.com/item?id=48090009",
+      "author": "SdtEE",
+      "shared_at": 1778462448,
+      "links": [
+        "https://github.com/Verticalysis/Hitomi"
+      ]
+    }
+  ]
+}

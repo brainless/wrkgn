@@ -1,0 +1,35 @@
+{
+  "id": 4163,
+  "slug": "copdb-139fd2c6d7",
+  "name": "CopDB",
+  "mentions": [
+    {
+      "name": "CopDB",
+      "description": "CopDB is a database cataloging police officer records across jurisdictions. It started with Utah and is expanding to add jurisdictions outside Utah, with plans for mass imports from select other data sources.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "monkaiju"
+      ],
+      "source_excerpt": "Still working on CopDB, started adding jurisdictions outside of Utah and were thinking about doing some mass imports from select other data sources.",
+      "evidence": [
+        {
+          "source_item_id": 48534249,
+          "source_field": "body",
+          "value": "Still working on CopDB, started adding jurisdictions outside of Utah and were thinking about doing some mass imports from select other data sources.",
+          "supports": [],
+          "author": "monkaiju",
+          "shared_at": 1781479914,
+          "source_url": "https://news.ycombinator.com/item?id=48534249"
+        }
+      ],
+      "source_item_id": 48534249,
+      "source_url": "https://news.ycombinator.com/item?id=48534249",
+      "author": "monkaiju",
+      "shared_at": 1781479914,
+      "links": [
+        "https://app.copdb.org/"
+      ]
+    }
+  ]
+}

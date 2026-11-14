@@ -1,0 +1,33 @@
+{
+  "id": 10805,
+  "slug": "modern-development-environment-for-win98-php-git-client-d59195db88",
+  "name": "Modern development environment for Win98 (PHP Git client)",
+  "mentions": [
+    {
+      "name": "Modern development environment for Win98 (PHP Git client)",
+      "description": "A retro development environment for Windows 98 in which a server exposes Git as HTTP endpoints and a Git client written in PHP runs under MS-DOS, sidestepping the need to backport Git in C or use Cygwin. Vim 7.3 and GNU coreutils already run in MS-DOS, and a one-click installer is planned to bundle XAMPP, Vim, and all the created tooling.",
+      "problem": "Git cannot run natively on Win98/MS-DOS; backporting Git would require learning C, which the author has no patience for, and Cygwin is not wanted.",
+      "audience": null,
+      "builder_usernames": [
+        "nake89"
+      ],
+      "source_excerpt": "Creating a modern development environment for win98. Currently I’m working on a git client. I have no patience for learning C. So backporting git is not an option. I also don’t want to use cygwin. So I’m using a server to expose git as http endpoints and coding a git client in php to use in msdos. I have Vim 7.3 and and gnu coreutils working in msdos already. So soon I will have a very nice dev environment. I want to create a one click installer which gives you xampp, vim and then all the tooling I’ve created.",
+      "evidence": [
+        {
+          "source_item_id": 43821967,
+          "source_field": "body",
+          "value": "Creating a modern development environment for win98. Currently I’m working on a git client. I have no patience for learning C. So backporting git is not an option. I also don’t want to use cygwin. So I’m using a server to expose git as http endpoints and coding a git client in php to use in msdos. I have Vim 7.3 and and gnu coreutils working in msdos already. So soon I will have a very nice dev environment. I want to create a one click installer which gives you xampp, vim and then all the tooling I’ve created.",
+          "supports": [],
+          "author": "nake89",
+          "shared_at": 1745850897,
+          "source_url": "https://news.ycombinator.com/item?id=43821967"
+        }
+      ],
+      "source_item_id": 43821967,
+      "source_url": "https://news.ycombinator.com/item?id=43821967",
+      "author": "nake89",
+      "shared_at": 1745850897,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 8155,
+  "slug": "straylight-9f98f7a801",
+  "name": "Straylight",
+  "mentions": [
+    {
+      "name": "Straylight",
+      "description": "A hobby operating system kernel targeting RISC-V, written in Ada, released as a first alpha version. It implements core kernel subsystems such as virtual memory, allocators, and drivers. The author plans to document how the subsystems work so the documentation can serve as learning material for others interested in OS development.",
+      "problem": null,
+      "audience": "Other people interested in OS development, who may use the documentation as learning material",
+      "builder_usernames": [
+        "ajxs"
+      ],
+      "source_excerpt": "I just released the first alpha version of my RISC-V hobby kernel, written in Ada: https://github.com/ajxs/straylight",
+      "evidence": [
+        {
+          "source_item_id": 46267567,
+          "source_field": "body",
+          "value": "I just released the first alpha version of my RISC-V hobby kernel, written in Ada: https://github.com/ajxs/straylight",
+          "supports": [],
+          "author": "ajxs",
+          "shared_at": 1765750201,
+          "source_url": "https://news.ycombinator.com/item?id=46267567"
+        }
+      ],
+      "source_item_id": 46267567,
+      "source_url": "https://news.ycombinator.com/item?id=46267567",
+      "author": "ajxs",
+      "shared_at": 1765750201,
+      "links": [
+        "https://github.com/ajxs/straylight"
+      ]
+    }
+  ]
+}

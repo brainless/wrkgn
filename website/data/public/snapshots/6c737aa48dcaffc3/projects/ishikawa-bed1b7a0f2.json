@@ -1,0 +1,33 @@
+{
+  "id": 8007,
+  "slug": "ishikawa-bed1b7a0f2",
+  "name": "Ishikawa",
+  "mentions": [
+    {
+      "name": "Ishikawa",
+      "description": "An automated pentesting and reconnaissance tool that orchestrates well-established tools (nmap, wfuzz, sslscan, etc.) rather than reinventing them. It runs actions ranging from simple lookups like resolveIPFromDomain to wrappers around existing tools, collects findings into a central graph, and produces a full mapping of the target.",
+      "problem": "Existing pentesting/recon solutions perform many useless scans; Ishikawa only fires actions that make sense based on the already gathered data (e.g., running sslscan on a discovered HTTPS port).",
+      "audience": null,
+      "builder_usernames": [
+        "voodooEntity"
+      ],
+      "source_excerpt": "2. Ishikawa : an automated pentesting/recon tool \nIshikawa does not try to reinvent well established pentesting/recon tools, instead it utilizes and orchestrates them. The tool consists of actions that either do very simple things like resolveIPFromDomain , or actions which utilize existing tools like nmap, wfuzz, etc.. - collects the info in the central graph and at the end you get a full mapping of your target.",
+      "evidence": [
+        {
+          "source_item_id": 46587223,
+          "source_field": "body",
+          "value": "2. Ishikawa : an automated pentesting/recon tool \nIshikawa does not try to reinvent well established pentesting/recon tools, instead it utilizes and orchestrates them. The tool consists of actions that either do very simple things like resolveIPFromDomain , or actions which utilize existing tools like nmap, wfuzz, etc.. - collects the info in the central graph and at the end you get a full mapping of your target.",
+          "supports": [],
+          "author": "voodooEntity",
+          "shared_at": 1768218983,
+          "source_url": "https://news.ycombinator.com/item?id=46587223"
+        }
+      ],
+      "source_item_id": 46587223,
+      "source_url": "https://news.ycombinator.com/item?id=46587223",
+      "author": "voodooEntity",
+      "shared_at": 1768218983,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 8804,
+  "slug": "forensic-analysis-of-a-compromised-box-image-false-flag-iran-attribution-20d44363a0",
+  "name": "Forensic analysis of a compromised box image (false-flag Iran attribution)",
+  "mentions": [
+    {
+      "name": "Forensic analysis of a compromised box image (false-flag Iran attribution)",
+      "description": "This project is a forensic investigation of a disk/memory image of a compromised machine ('box') that appears to have been owned by multiple people or groups attempting to frame Iran as the source of the attack, with the plan to analyze the image over the holiday.",
+      "problem": "A machine was compromised by what looks like multiple attackers/groups who tried to frame Iran as the source of the attack, and the incident needs investigation.",
+      "audience": null,
+      "builder_usernames": [
+        "heavyset_go"
+      ],
+      "source_excerpt": "I have an image of a box that got owned by what looks like multiple people/groups who were trying to frame Iran as the source of the attack.\n\nWill be interesting to poke at over the holiday.",
+      "evidence": [
+        {
+          "source_item_id": 46267002,
+          "source_field": "body",
+          "value": "I have an image of a box that got owned by what looks like multiple people/groups who were trying to frame Iran as the source of the attack.\n\nWill be interesting to poke at over the holiday.",
+          "supports": [],
+          "author": "heavyset_go",
+          "shared_at": 1765746951,
+          "source_url": "https://news.ycombinator.com/item?id=46267002"
+        }
+      ],
+      "source_item_id": 46267002,
+      "source_url": "https://news.ycombinator.com/item?id=46267002",
+      "author": "heavyset_go",
+      "shared_at": 1765746951,
+      "links": []
+    }
+  ]
+}

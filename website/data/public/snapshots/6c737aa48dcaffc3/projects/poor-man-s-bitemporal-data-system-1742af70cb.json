@@ -1,0 +1,35 @@
+{
+  "id": 7733,
+  "slug": "poor-man-s-bitemporal-data-system-1742af70cb",
+  "name": "Poor Man's Bitemporal Data System",
+  "mentions": [
+    {
+      "name": "Poor Man's Bitemporal Data System",
+      "description": "This project is a bitemporal data system that stores facts which can be asserted and redacted, with reads of the current state computed from them. The basic concept now works; remaining work includes extensive testing and benchmarking to ensure it will not lose data or denial-of-service itself due to the large object-map to facts fan-out, plus a follow-up long-form blog post documenting the approach.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "adityaathalye"
+      ],
+      "source_excerpt": "Just got started again on my \"Poor Man's Bitemporal Data System\" (discussed here: https://news.ycombinator.com/item?id=45118585 ).\n\nHolidays nuked all the hot-cached context in my head. I spent a few days just spinning wheels until it repopulated. But the basic idea works now!\n\nMuch testing and benchmarking work remains to make sure it's not going to lose data, and that it won't denial-of-service itself (because object-map -> facts fan-out is big).",
+      "evidence": [
+        {
+          "source_item_id": 46578164,
+          "source_field": "body",
+          "value": "Just got started again on my \"Poor Man's Bitemporal Data System\" (discussed here: https://news.ycombinator.com/item?id=45118585 ).\n\nHolidays nuked all the hot-cached context in my head. I spent a few days just spinning wheels until it repopulated. But the basic idea works now!\n\nMuch testing and benchmarking work remains to make sure it's not going to lose data, and that it won't denial-of-service itself (because object-map -> facts fan-out is big).",
+          "supports": [],
+          "author": "adityaathalye",
+          "shared_at": 1768155937,
+          "source_url": "https://news.ycombinator.com/item?id=46578164"
+        }
+      ],
+      "source_item_id": 46578164,
+      "source_url": "https://news.ycombinator.com/item?id=46578164",
+      "author": "adityaathalye",
+      "shared_at": 1768155937,
+      "links": [
+        "https://news.ycombinator.com/item?id=45118585"
+      ]
+    }
+  ]
+}

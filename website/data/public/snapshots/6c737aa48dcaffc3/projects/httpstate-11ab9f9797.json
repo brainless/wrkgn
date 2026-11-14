@@ -1,0 +1,92 @@
+{
+  "id": 2071,
+  "slug": "httpstate-11ab9f9797",
+  "name": "httpstate",
+  "mentions": [
+    {
+      "name": "httpstate",
+      "description": "A batteries-included library and server for exchanging small bits of data between apps.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "moralestapia"
+      ],
+      "source_excerpt": "https://httpstate.com // a super easy to use, batteries included, library and server to exchange small bits of data between apps",
+      "evidence": [
+        {
+          "source_item_id": 49233599,
+          "source_field": "body",
+          "value": "https://httpstate.com // a super easy to use, batteries included, library and server to exchange small bits of data between apps",
+          "supports": [],
+          "author": "moralestapia",
+          "shared_at": 1786297436,
+          "source_url": "https://news.ycombinator.com/item?id=49233599"
+        }
+      ],
+      "source_item_id": 49233599,
+      "source_url": "https://news.ycombinator.com/item?id=49233599",
+      "author": "moralestapia",
+      "shared_at": 1786297436,
+      "links": [
+        "https://httpstate.com"
+      ]
+    },
+    {
+      "name": "httpstate",
+      "description": "A data layer designed to connect everything with everything, providing connectivity between data across systems.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "moralestapia"
+      ],
+      "source_excerpt": "httpstate\n\nA data layer to connect everything with everything",
+      "evidence": [
+        {
+          "source_item_id": 48886933,
+          "source_field": "body",
+          "value": "httpstate\n\nA data layer to connect everything with everything",
+          "supports": [],
+          "author": "moralestapia",
+          "shared_at": 1783907666,
+          "source_url": "https://news.ycombinator.com/item?id=48886933"
+        }
+      ],
+      "source_item_id": 48886933,
+      "source_url": "https://news.ycombinator.com/item?id=48886933",
+      "author": "moralestapia",
+      "shared_at": 1783907666,
+      "links": [
+        "https://httpstate.com"
+      ]
+    },
+    {
+      "name": "HTTPState",
+      "description": "A minimal, reactive, real-time state layer over HTTP. Each state is addressed by a UUID (max 128 bytes) and read/written via a simple GET/POST API or client libraries in 8 languages, enabling instant data sync across apps, devices, and services. Open source under a permissive license, it supports use cases like adding pub/sub communication, streaming sensor data to web/mobile UIs, persisting state across app runs, and syncing state across app instances, with planned features such as SMS/email updates, CAS-style optimistic concurrency, an iOS widget client, API keys, and a PostgreSQL extension.",
+      "problem": "Adding real-time communication and state sync across apps, devices, or services is made as easy as one or two lines of code, without acting as a storage layer.",
+      "audience": "Developers building apps, devices, or services who need quick real-time state synchronization and pub/sub-style communication, including embedded device users (C/C++ and MicroPython clients are on the roadmap).",
+      "builder_usernames": [
+        "moralestapia"
+      ],
+      "source_excerpt": "HTTPState\n\nhttps://httpstate.com\n\nhttps://github.com/httpstate/httpstate\n\nA minimal, reactive, real-time state layer over HTTP. Pick a UUID, read/write ≤128 bytes, and instantly sync data across apps, devices, or services.",
+      "evidence": [
+        {
+          "source_item_id": 47750704,
+          "source_field": "body",
+          "value": "HTTPState\n\nhttps://httpstate.com\n\nhttps://github.com/httpstate/httpstate\n\nA minimal, reactive, real-time state layer over HTTP. Pick a UUID, read/write ≤128 bytes, and instantly sync data across apps, devices, or services.",
+          "supports": [],
+          "author": "moralestapia",
+          "shared_at": 1776081152,
+          "source_url": "https://news.ycombinator.com/item?id=47750704"
+        }
+      ],
+      "source_item_id": 47750704,
+      "source_url": "https://news.ycombinator.com/item?id=47750704",
+      "author": "moralestapia",
+      "shared_at": 1776081152,
+      "links": [
+        "https://github.com/httpstate/httpstate",
+        "https://httpstate.com"
+      ]
+    }
+  ]
+}

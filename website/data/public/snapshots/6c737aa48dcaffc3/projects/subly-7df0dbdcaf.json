@@ -1,0 +1,66 @@
+{
+  "id": 6051,
+  "slug": "subly-7df0dbdcaf",
+  "name": "Subly",
+  "mentions": [
+    {
+      "name": "Subly",
+      "description": "A Telegram bot that translates videos with AI-generated subtitles in about two minutes: paste a YouTube, TikTok, or Instagram link (or upload a file), pick a language, and get back the video with burned-in subtitles. Supports 40+ languages and includes a Telegram Mini App for a more visual experience.",
+      "problem": "Foreign shows such as Chinese dramas often release new episodes without subtitles in viewers' languages, affecting speakers of many languages watching foreign content.",
+      "audience": "general-public",
+      "builder_usernames": [
+        "do_anh_tu"
+      ],
+      "source_excerpt": "I wrote this Telegram bot that translates any video with AI-generated subtitles in about 2 minutes. You paste a YouTube, TikTok, or Instagram link, pick your language, and get back the video with burned-in subtitles.",
+      "evidence": [
+        {
+          "source_item_id": 47305041,
+          "source_field": "body",
+          "value": "I wrote this Telegram bot that translates any video with AI-generated subtitles in about 2 minutes. You paste a YouTube, TikTok, or Instagram link, pick your language, and get back the video with burned-in subtitles.",
+          "supports": [],
+          "author": "do_anh_tu",
+          "shared_at": 1773032415,
+          "source_url": "https://news.ycombinator.com/item?id=47305041"
+        }
+      ],
+      "source_item_id": 47305041,
+      "source_url": "https://news.ycombinator.com/item?id=47305041",
+      "author": "do_anh_tu",
+      "shared_at": 1773032415,
+      "links": [
+        "https://subly.xyz",
+        "https://t.me/subly1bot"
+      ]
+    },
+    {
+      "name": "Subly",
+      "description": "Subly is an AI-powered translation toolkit consisting of a Telegram bot for translating video and image content, plus Firefox and Chrome browser extensions that translate web pages. The extensions use smart content extraction to translate articles while preserving the page layout, and work with the user's own OpenRouter or Gemini API key, translating a full article for roughly $0.01.",
+      "problem": "The author built it because no Firefox translate addon was good or simple enough, and Chrome's built-in translate has low quality and often fails to understand article context.",
+      "audience": "Translating web content and media for everyday readers; the author notes the need arose from using Firefox daily and existing translate addons being inadequate",
+      "builder_usernames": [
+        "do_anh_tu"
+      ],
+      "source_excerpt": "I wrote a Telegram bot for video/image translation, and also Firefox/Chrome addons to help translate web content with smart content extraction and non-breaking layouts.",
+      "evidence": [
+        {
+          "source_item_id": 46269217,
+          "source_field": "body",
+          "value": "I wrote a Telegram bot for video/image translation, and also Firefox/Chrome addons to help translate web content with smart content extraction and non-breaking layouts.",
+          "supports": [],
+          "author": "do_anh_tu",
+          "shared_at": 1765761868,
+          "source_url": "https://news.ycombinator.com/item?id=46269217"
+        }
+      ],
+      "source_item_id": 46269217,
+      "source_url": "https://news.ycombinator.com/item?id=46269217",
+      "author": "do_anh_tu",
+      "shared_at": 1765761868,
+      "links": [
+        "https://addons.mozilla.org/en-US/firefox/addon/subly-xyz/",
+        "https://addons.subly.xyz",
+        "https://subly.xyz"
+      ]
+    }
+  ]
+}

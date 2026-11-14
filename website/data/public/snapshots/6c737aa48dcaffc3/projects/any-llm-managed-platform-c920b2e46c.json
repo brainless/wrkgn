@@ -1,0 +1,35 @@
+{
+  "id": 8412,
+  "slug": "any-llm-managed-platform-c920b2e46c",
+  "name": "any-llm managed platform",
+  "mentions": [
+    {
+      "name": "any-llm managed platform",
+      "description": "A managed platform for people using multiple LLM providers to manage API keys safely and track usage. API keys are encrypted in the browser before being stored so the service never sees plaintext keys, and usage tracking is limited to tokens and costs with no prompts or responses. It integrates with any-llm and any-llm-gateway so apps can fetch provider keys securely without hardcoding credentials. Currently in alpha.",
+      "problem": "Juggling API keys across multiple LLM providers is risky; there's a need for a safer way to manage keys and track usage without exposing plaintext credentials or logging prompts.",
+      "audience": "For people using multiple LLM providers, such as OpenAI, Anthropic, Google, or local models, who need a safer way to manage API keys and track usage.",
+      "builder_usernames": [
+        "mzlaai"
+      ],
+      "source_excerpt": "Been working on any-llm managed platform, a service for people using multiple LLM providers who want a safer way to manage API keys and track usage.\n\nAPI keys are encrypted in your browser before they’re stored, so we never see plaintext keys. Usage tracking is limited to tokens and costs, no prompts or responses.\n\nIt integrates with any-llm and any-llm-gateway, so apps can fetch provider keys securely without hardcoding credentials.",
+      "evidence": [
+        {
+          "source_item_id": 46284271,
+          "source_field": "body",
+          "value": "Been working on any-llm managed platform, a service for people using multiple LLM providers who want a safer way to manage API keys and track usage.\n\nAPI keys are encrypted in your browser before they’re stored, so we never see plaintext keys. Usage tracking is limited to tokens and costs, no prompts or responses.\n\nIt integrates with any-llm and any-llm-gateway, so apps can fetch provider keys securely without hardcoding credentials.",
+          "supports": [],
+          "author": "mzlaai",
+          "shared_at": 1765854256,
+          "source_url": "https://news.ycombinator.com/item?id=46284271"
+        }
+      ],
+      "source_item_id": 46284271,
+      "source_url": "https://news.ycombinator.com/item?id=46284271",
+      "author": "mzlaai",
+      "shared_at": 1765854256,
+      "links": [
+        "https://link.mozilla.ai/any-llm-managed-platform"
+      ]
+    }
+  ]
+}

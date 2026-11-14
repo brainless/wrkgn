@@ -1,0 +1,33 @@
+{
+  "id": 7103,
+  "slug": "job-application-answer-assistant-chrome-extension-e5e11a1474",
+  "name": "Job application answer assistant Chrome extension",
+  "mentions": [
+    {
+      "name": "Job application answer assistant Chrome extension",
+      "description": "This Chrome extension helps answer open-ended questions in job application forms, such as cover letters, \"Tell us about the time when...\" and \"Why do you want to work at...\". Users bookmark a job description, which is parsed, then paste a question and the extension generates an answer based on their resume, the job description, and their previously given answers to similar questions in other applications. The generated answer can be refined through a follow-up chat and exported as a PDF. It also works as a simple job application tracker.",
+      "problem": "Answering cover letter and open-ended questions in job application forms takes lots of time and effort.",
+      "audience": null,
+      "builder_usernames": [
+        "erichi"
+      ],
+      "source_excerpt": "I'm working on a chrome extension that helps answering \"Cover letter / Tell us about the time when... / Why do you want to work at...\" questions in job application forms.\n\nYou can bookmark a job description (it will be parsed), then paste a question and it generates an answer based on your resume, the job description, and your previously given answers for similar questions in other applications. The generated answer can be refined through a follow-up chat and exported as a PDF. \nIt also works as a simple job application tracker.\n\nSaves me tons of time and effort every day!",
+      "evidence": [
+        {
+          "source_item_id": 46939461,
+          "source_field": "body",
+          "value": "I'm working on a chrome extension that helps answering \"Cover letter / Tell us about the time when... / Why do you want to work at...\" questions in job application forms.\n\nYou can bookmark a job description (it will be parsed), then paste a question and it generates an answer based on your resume, the job description, and your previously given answers for similar questions in other applications. The generated answer can be refined through a follow-up chat and exported as a PDF. \nIt also works as a simple job application tracker.\n\nSaves me tons of time and effort every day!",
+          "supports": [],
+          "author": "erichi",
+          "shared_at": 1770591465,
+          "source_url": "https://news.ycombinator.com/item?id=46939461"
+        }
+      ],
+      "source_item_id": 46939461,
+      "source_url": "https://news.ycombinator.com/item?id=46939461",
+      "author": "erichi",
+      "shared_at": 1770591465,
+      "links": []
+    }
+  ]
+}

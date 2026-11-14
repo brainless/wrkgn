@@ -1,0 +1,33 @@
+{
+  "id": 7753,
+  "slug": "experimental-hpc-batch-system-493fc8b293",
+  "name": "Experimental HPC batch system",
+  "mentions": [
+    {
+      "name": "Experimental HPC batch system",
+      "description": "This is a prototype of an experimental HPC-style batch system that uses distributed Erlang for the control plane and relies on systemd transient units for much of the heavy lifting, inspired by HTCondor and Joyent's Manta.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "cmdrk"
+      ],
+      "source_excerpt": "Another prototype, for an experimental HPC-ish batch system. Using distributed Erlang for the control plane, and doing a lot of the heavy lifting with systemd transient units. Very much inspired by HTCondor as well as Joyent's (RIP to a real one) Manta.",
+      "evidence": [
+        {
+          "source_item_id": 46582249,
+          "source_field": "body",
+          "value": "Another prototype, for an experimental HPC-ish batch system. Using distributed Erlang for the control plane, and doing a lot of the heavy lifting with systemd transient units. Very much inspired by HTCondor as well as Joyent's (RIP to a real one) Manta.",
+          "supports": [],
+          "author": "cmdrk",
+          "shared_at": 1768178566,
+          "source_url": "https://news.ycombinator.com/item?id=46582249"
+        }
+      ],
+      "source_item_id": 46582249,
+      "source_url": "https://news.ycombinator.com/item?id=46582249",
+      "author": "cmdrk",
+      "shared_at": 1768178566,
+      "links": []
+    }
+  ]
+}

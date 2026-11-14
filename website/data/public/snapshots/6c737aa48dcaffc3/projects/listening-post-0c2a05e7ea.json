@@ -1,0 +1,35 @@
+{
+  "id": 7062,
+  "slug": "listening-post-0c2a05e7ea",
+  "name": "Listening Post",
+  "mentions": [
+    {
+      "name": "Listening Post",
+      "description": "This macOS app continuously identifies music playing around the user and scrobbles the tracks to Last.fm, ListenBrainz and LB-compatible sites, a Mastodon account, local Shortcuts workflows, and/or local files. It also supports Apple Music and Deezer. It is in public beta and looking for testers.",
+      "problem": "Most scrobblers only keep track of Apple Music or Spotify plays, but streaming stations or radio playing all day never make it into the user's playing charts or recommendations.",
+      "audience": null,
+      "builder_usernames": [
+        "czottmann"
+      ],
+      "source_excerpt": "I'm working on a macOS app that identifies music playing around you, constantly. You can scrobble them to Last.fm, ListenBrainz, LB-compatible sites, a Mastodon account, local Shortcuts workflows, and/or or local files. It also support Apple Music and Deezer.",
+      "evidence": [
+        {
+          "source_item_id": 46944226,
+          "source_field": "body",
+          "value": "I'm working on a macOS app that identifies music playing around you, constantly. You can scrobble them to Last.fm, ListenBrainz, LB-compatible sites, a Mastodon account, local Shortcuts workflows, and/or or local files. It also support Apple Music and Deezer.",
+          "supports": [],
+          "author": "czottmann",
+          "shared_at": 1770637732,
+          "source_url": "https://news.ycombinator.com/item?id=46944226"
+        }
+      ],
+      "source_item_id": 46944226,
+      "source_url": "https://news.ycombinator.com/item?id=46944226",
+      "author": "czottmann",
+      "shared_at": 1770637732,
+      "links": [
+        "https://actions.work/listening-post/?ref=hn"
+      ]
+    }
+  ]
+}

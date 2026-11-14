@@ -1,0 +1,33 @@
+{
+  "id": 10930,
+  "slug": "linear-time-heap-operation-sequences-a9abc1d93f",
+  "name": "Linear-time heap operation sequences",
+  "mentions": [
+    {
+      "name": "Linear-time heap operation sequences",
+      "description": "A theoretical computer science project to run sequences of heap operations (insert and delete-min) in linear time instead of O(n log n) total time. The tradeoff for the linear bound is that only the final state of the heap is learned, not which element got deleted when.",
+      "problem": "Running sequences of heap operations normally takes O(n log n) total time; the project aims to achieve linear total time.",
+      "audience": null,
+      "builder_usernames": [
+        "eru"
+      ],
+      "source_excerpt": "I'm working on running sequences of heap operations (insert and delete-min) in linear time instead of O(n log n) total time.  It's a silly little project in theoretical computer science I have.",
+      "evidence": [
+        {
+          "source_item_id": 43822664,
+          "source_field": "body",
+          "value": "I'm working on running sequences of heap operations (insert and delete-min) in linear time instead of O(n log n) total time.  It's a silly little project in theoretical computer science I have.",
+          "supports": [],
+          "author": "eru",
+          "shared_at": 1745854610,
+          "source_url": "https://news.ycombinator.com/item?id=43822664"
+        }
+      ],
+      "source_item_id": 43822664,
+      "source_url": "https://news.ycombinator.com/item?id=43822664",
+      "author": "eru",
+      "shared_at": 1745854610,
+      "links": []
+    }
+  ]
+}

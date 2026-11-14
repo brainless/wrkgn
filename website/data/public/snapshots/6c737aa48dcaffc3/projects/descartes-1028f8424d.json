@@ -1,0 +1,35 @@
+{
+  "id": 4352,
+  "slug": "descartes-1028f8424d",
+  "name": "Descartes",
+  "mentions": [
+    {
+      "name": "Descartes",
+      "description": "A system diagnostics and monitoring tool that runs background monitoring of a machine, with an agent that builds layers of tailor-made deterministic rules and statistical models to learn the system's normal behaviour and only \"wakes up\" when something unusual happens, either to update its rules and models or alert the user. It is planned to also serve as an ops \"point of contact\" interface between the user and their agents for the machine or fleet of machines it manages.",
+      "problem": "Diagnosing what is wrong with a machine.",
+      "audience": "Ops users managing a machine or fleet of machines, and their agents",
+      "builder_usernames": [
+        "ElFitz"
+      ],
+      "source_excerpt": "I’m working on Descartes[^0]. First to help diagnose what’s wrong with a machine.\n\nI’ve started implementing actual background monitoring of the system, and next will be letting an agent build its own layers of tailor-made deterministic rules and statistical models, to \"learn\" what the system’s normal behaviour is and only \"wake up\" the agent when something unusual is going on. Either to update its rules and models, or alert the user.",
+      "evidence": [
+        {
+          "source_item_id": 48538347,
+          "source_field": "body",
+          "value": "I’m working on Descartes[^0]. First to help diagnose what’s wrong with a machine.\n\nI’ve started implementing actual background monitoring of the system, and next will be letting an agent build its own layers of tailor-made deterministic rules and statistical models, to \"learn\" what the system’s normal behaviour is and only \"wake up\" the agent when something unusual is going on. Either to update its rules and models, or alert the user.",
+          "supports": [],
+          "author": "ElFitz",
+          "shared_at": 1781512588,
+          "source_url": "https://news.ycombinator.com/item?id=48538347"
+        }
+      ],
+      "source_item_id": 48538347,
+      "source_url": "https://news.ycombinator.com/item?id=48538347",
+      "author": "ElFitz",
+      "shared_at": 1781512588,
+      "links": [
+        "https://github.com/lightless-labs/descartes"
+      ]
+    }
+  ]
+}

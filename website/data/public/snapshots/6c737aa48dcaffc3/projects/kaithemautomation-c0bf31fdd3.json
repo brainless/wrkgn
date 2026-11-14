@@ -1,0 +1,33 @@
+{
+  "id": 9368,
+  "slug": "kaithemautomation-c0bf31fdd3",
+  "name": "KaithemAutomation",
+  "mentions": [
+    {
+      "name": "KaithemAutomation",
+      "description": "An automation server (KaithemAutomation) being refactored so its device driver plugins use JSON schemas for configuration instead of the old flat, strings-only key-value format with a set_config_properties UI-hint function, with auto-upgrade shims to keep old configs working.",
+      "problem": "The old flat key-value config format for device driver plugins felt un-best-practicesful and needed replacement.",
+      "audience": null,
+      "builder_usernames": [
+        "eternityforest"
+      ],
+      "source_excerpt": "Disenhackifying one of the last pieces of my KaithemAutomation server that still feels not best practicesful.\n\nDevice driver plugins used to have a very simple flat key value, strings only format, with a set_config_properties function to tell the host what kind of UI to show.\n\nThat's all getting replaced with JSON schemas, with some auto-upgrade shims so old config keeps working.",
+      "evidence": [
+        {
+          "source_item_id": 45871014,
+          "source_field": "body",
+          "value": "Disenhackifying one of the last pieces of my KaithemAutomation server that still feels not best practicesful.\n\nDevice driver plugins used to have a very simple flat key value, strings only format, with a set_config_properties function to tell the host what kind of UI to show.\n\nThat's all getting replaced with JSON schemas, with some auto-upgrade shims so old config keeps working.",
+          "supports": [],
+          "author": "eternityforest",
+          "shared_at": 1762736860,
+          "source_url": "https://news.ycombinator.com/item?id=45871014"
+        }
+      ],
+      "source_item_id": 45871014,
+      "source_url": "https://news.ycombinator.com/item?id=45871014",
+      "author": "eternityforest",
+      "shared_at": 1762736860,
+      "links": []
+    }
+  ]
+}

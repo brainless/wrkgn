@@ -1,0 +1,35 @@
+{
+  "id": 3428,
+  "slug": "medtronic-to-pebble-blood-glucose-watchface-cf55030f44",
+  "name": "Medtronic-to-Pebble blood glucose watchface",
+  "mentions": [
+    {
+      "name": "Medtronic-to-Pebble blood glucose watchface",
+      "description": "A Pebble watch app that reads blood glucose readings directly from a Medtronic insulin pump, without needing a phone nearby; builds on the reverse engineering work from the OpenMinimed project.",
+      "problem": "Reading blood glucose levels normally requires having a phone nearby; a direct pump-to-watch connection removes that dependency.",
+      "audience": "Reads blood glucose readings from a Medtronic insulin pump directly on a Pebble watch, without needing a phone nearby; builds on the reverse engineering work from the OpenMinimed project.",
+      "builder_usernames": [
+        "fyhn"
+      ],
+      "source_excerpt": "Direct Medtronic insulin pump -> Pebble watch connection, so I can read my blood glucose easily without a phone nearby.",
+      "evidence": [
+        {
+          "source_item_id": 49709367,
+          "source_field": "body",
+          "value": "Direct Medtronic insulin pump -> Pebble watch connection, so I can read my blood glucose easily without a phone nearby.",
+          "supports": [],
+          "author": "fyhn",
+          "shared_at": 1789460362,
+          "source_url": "https://news.ycombinator.com/item?id=49709367"
+        }
+      ],
+      "source_item_id": 49709367,
+      "source_url": "https://news.ycombinator.com/item?id=49709367",
+      "author": "fyhn",
+      "shared_at": 1789460362,
+      "links": [
+        "https://apps.repebble.com/b785c22984c843299e95bba0"
+      ]
+    }
+  ]
+}

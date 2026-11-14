@@ -1,0 +1,63 @@
+{
+  "id": 8882,
+  "slug": "iplocate-2816c67914",
+  "name": "IPLocate",
+  "mentions": [
+    {
+      "name": "IPLocate",
+      "description": "IP intelligence service offering IP geolocation data, VPN and proxy detection across dozens of providers, and a free API. It builds and tests its own geolocation database from scratch and is working on surfacing additional metadata in its databases and API, plus better public detail and evidence on geolocation accuracy and data-preference policies.",
+      "problem": "Geolocation accuracy is subject to misinformation (including from other providers), and VPN/proxy detection coverage can be improved; the project addresses these by documenting accuracy evidence and expanding detection data.",
+      "audience": null,
+      "builder_usernames": [
+        "tallytarik"
+      ],
+      "source_excerpt": "Working on improving the data pipeline for https://iplocate.io - an IP intelligence service I've worked on since 2017.",
+      "evidence": [
+        {
+          "source_item_id": 46281336,
+          "source_field": "body",
+          "value": "Working on improving the data pipeline for https://iplocate.io - an IP intelligence service I've worked on since 2017.",
+          "supports": [],
+          "author": "tallytarik",
+          "shared_at": 1765835984,
+          "source_url": "https://news.ycombinator.com/item?id=46281336"
+        }
+      ],
+      "source_item_id": 46281336,
+      "source_url": "https://news.ycombinator.com/item?id=46281336",
+      "author": "tallytarik",
+      "shared_at": 1765835984,
+      "links": [
+        "https://iplocate.io"
+      ]
+    },
+    {
+      "name": "IPLocate",
+      "description": "An IP intelligence service providing IP geolocation data. Current work improves the data pipeline with a focus on geolocation accuracy and on sharing more information about why a resource is said to be located in a certain place.",
+      "problem": "There is very little publicly available data on IP geolocation methodology; most industry players don't discuss their methods, and those that do aren't honest about how strategies lead to predictions or their realistic inaccuracies.",
+      "audience": null,
+      "builder_usernames": [
+        "tallytarik"
+      ],
+      "source_excerpt": "Working on improving the data pipeline for https://iplocate.io - an IP intelligence service I've worked on since 2017.",
+      "evidence": [
+        {
+          "source_item_id": 45565206,
+          "source_field": "body",
+          "value": "Working on improving the data pipeline for https://iplocate.io - an IP intelligence service I've worked on since 2017.",
+          "supports": [],
+          "author": "tallytarik",
+          "shared_at": 1760336074,
+          "source_url": "https://news.ycombinator.com/item?id=45565206"
+        }
+      ],
+      "source_item_id": 45565206,
+      "source_url": "https://news.ycombinator.com/item?id=45565206",
+      "author": "tallytarik",
+      "shared_at": 1760336074,
+      "links": [
+        "https://iplocate.io"
+      ]
+    }
+  ]
+}

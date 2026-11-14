@@ -1,0 +1,33 @@
+{
+  "id": 7482,
+  "slug": "gemini-cli-media-file-renamer-ecd9437676",
+  "name": "gemini-cli media file renamer",
+  "mentions": [
+    {
+      "name": "gemini-cli media file renamer",
+      "description": "This workflow uses gemini-cli to analyze each mp4 video file in the user's Movies folder and each image file in their Pictures folder and rename the files with meaningful names based on the content of the video or image.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "greenido"
+      ],
+      "source_excerpt": "I'm doing it with gemini-cli:\n1. analyze '/Users/YOURNAME/Movies/' and for each mp4 file give a meaningful name base on the content of the video\n2. analyze '/Users/YOURNAME/Pictures/' and for each image file give a meaningful name base on the content of the image",
+      "evidence": [
+        {
+          "source_item_id": 46672188,
+          "source_field": "body",
+          "value": "I'm doing it with gemini-cli:\n1. analyze '/Users/YOURNAME/Movies/' and for each mp4 file give a meaningful name base on the content of the video\n2. analyze '/Users/YOURNAME/Pictures/' and for each image file give a meaningful name base on the content of the image",
+          "supports": [],
+          "author": "greenido",
+          "shared_at": 1768770679,
+          "source_url": "https://news.ycombinator.com/item?id=46672188"
+        }
+      ],
+      "source_item_id": 46672188,
+      "source_url": "https://news.ycombinator.com/item?id=46672188",
+      "author": "greenido",
+      "shared_at": 1768770679,
+      "links": []
+    }
+  ]
+}

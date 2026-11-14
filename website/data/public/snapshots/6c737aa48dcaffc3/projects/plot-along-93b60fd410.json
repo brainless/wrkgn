@@ -1,0 +1,35 @@
+{
+  "id": 4401,
+  "slug": "plot-along-93b60fd410",
+  "name": "Plot Along",
+  "mentions": [
+    {
+      "name": "Plot Along",
+      "description": "This app is a mapping tool for planning motorcycle rides, usable for personal ride planning or collaboratively with groups. It offers live cursors (like Figma), an elevation chart with grade overlay, and QR-code enabled collaboration links to make in-person sharing simple. It is built with a Mapbox frontend on a monolithic Cloudflare Worker, with fully automated CI/CD running roughly 4000 unit tests and over 300 e2e tests; Claude implemented nearly the entire codebase, managed via a self-hosted Gitea project with milestones and issues. An Android app is in Play Store review for early access testers.",
+      "problem": "Existing mapping apps were too slow and cumbersome for planning motorcycle rides, both for the author alone and with groups.",
+      "audience": "Motorcycle riders and pleasure & sport drivers planning rides for themselves and with groups.",
+      "builder_usernames": [
+        "motoroco"
+      ],
+      "source_excerpt": "I wanted a faster, easier mapping app to plan motorcycle rides for myself and with groups, so I finally bit the bullet and started building my own at the beginning of this year.",
+      "evidence": [
+        {
+          "source_item_id": 48088998,
+          "source_field": "body",
+          "value": "I wanted a faster, easier mapping app to plan motorcycle rides for myself and with groups, so I finally bit the bullet and started building my own at the beginning of this year.",
+          "supports": [],
+          "author": "motoroco",
+          "shared_at": 1778453713,
+          "source_url": "https://news.ycombinator.com/item?id=48088998"
+        }
+      ],
+      "source_item_id": 48088998,
+      "source_url": "https://news.ycombinator.com/item?id=48088998",
+      "author": "motoroco",
+      "shared_at": 1778453713,
+      "links": [
+        "https://plotalong.app"
+      ]
+    }
+  ]
+}

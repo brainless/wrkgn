@@ -1,0 +1,35 @@
+{
+  "id": 6642,
+  "slug": "pipestep-2af1d060ed",
+  "name": "PipeStep",
+  "mentions": [
+    {
+      "name": "PipeStep",
+      "description": "PipeStep is a step-through debugger for GitHub Actions workflows. It parses workflow YAML, spins up the right Docker container, and lets users pause before each step, inspect the container, shell in, set breakpoints, and skip or retry steps. It deliberately does not replicate the full Actions runtime (no secrets, matrix builds, or uses: execution) and is meant for diagnosing CI failures without pushing more commits. Installable via pip, requires Python 3.11+ and Docker, MIT licensed.",
+      "problem": "Debugging CI involves a commit-push-wait-read-logs cycle that everyone accepts as normal; PipeStep helps figure out why a workflow broke without pushing 10 more commits.",
+      "audience": null,
+      "builder_usernames": [
+        "photobombastic"
+      ],
+      "source_excerpt": "Building a step-through debugger for GitHub Actions workflows called PipeStep (https://github.com/Photobombastic/pipestep).",
+      "evidence": [
+        {
+          "source_item_id": 47323242,
+          "source_field": "body",
+          "value": "Building a step-through debugger for GitHub Actions workflows called PipeStep (https://github.com/Photobombastic/pipestep).",
+          "supports": [],
+          "author": "photobombastic",
+          "shared_at": 1773150659,
+          "source_url": "https://news.ycombinator.com/item?id=47323242"
+        }
+      ],
+      "source_item_id": 47323242,
+      "source_url": "https://news.ycombinator.com/item?id=47323242",
+      "author": "photobombastic",
+      "shared_at": 1773150659,
+      "links": [
+        "https://github.com/Photobombastic/pipestep"
+      ]
+    }
+  ]
+}

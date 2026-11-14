@@ -1,0 +1,33 @@
+{
+  "id": 7455,
+  "slug": "allzonefiles-io-48d608c501",
+  "name": "AllZonefiles.io",
+  "mentions": [
+    {
+      "name": "AllZonefiles.io",
+      "description": "A domain-data hub that aggregates and serves large-scale zone files, currently covering ~354M domains across 1,575 zones, including ~114M domains from 317 ccTLDs. Work is under way on an extended dataset parsed from WHOIS adding create/expire/update timestamps, NS records, and IANA registrar info. Built with Go, bare-metal Linux, PostgreSQL, and Bootstrap 5, it is designed to make downloading and maintaining the most complete domain lists automated and predictable.",
+      "problem": "Obtaining complete domain lists normally involves manual registry workflows and fragmented sources; collecting ccTLD zone data was the hardest part operationally.",
+      "audience": null,
+      "builder_usernames": [
+        "iryndin"
+      ],
+      "source_excerpt": "I’m continuing to work on AllZonefiles.io — a domain-data hub that aggregates and serves large-scale zone files. Right now it covers ~354M domains across 1,575 zones, including ~114M domains from 317 ccTLDs, which turned out to be the hardest part operationally.",
+      "evidence": [
+        {
+          "source_item_id": 46874767,
+          "source_field": "body",
+          "value": "I’m continuing to work on AllZonefiles.io — a domain-data hub that aggregates and serves large-scale zone files. Right now it covers ~354M domains across 1,575 zones, including ~114M domains from 317 ccTLDs, which turned out to be the hardest part operationally.",
+          "supports": [],
+          "author": "iryndin",
+          "shared_at": 1770142357,
+          "source_url": "https://news.ycombinator.com/item?id=46874767"
+        }
+      ],
+      "source_item_id": 46874767,
+      "source_url": "https://news.ycombinator.com/item?id=46874767",
+      "author": "iryndin",
+      "shared_at": 1770142357,
+      "links": []
+    }
+  ]
+}

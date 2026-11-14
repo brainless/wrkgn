@@ -1,0 +1,63 @@
+{
+  "id": 11086,
+  "slug": "mcp-language-server-573b93e031",
+  "name": "mcp-language-server",
+  "mentions": [
+    {
+      "name": "mcp-language-server",
+      "description": "An MCP (Model Context Protocol) server that runs a language server, bridging MCP and LSP so that MCP clients can work with language servers.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "isaacphi"
+      ],
+      "source_excerpt": "I'm also working on something related to MCP and LSP: https://github.com/isaacphi/mcp-language-server it's an MCP server that runs a language server.",
+      "evidence": [
+        {
+          "source_item_id": 43852938,
+          "source_field": "body",
+          "value": "I'm also working on something related to MCP and LSP: https://github.com/isaacphi/mcp-language-server it's an MCP server that runs a language server.",
+          "supports": [],
+          "author": "isaacphi",
+          "shared_at": 1746064537,
+          "source_url": "https://news.ycombinator.com/item?id=43852938"
+        }
+      ],
+      "source_item_id": 43852938,
+      "source_url": "https://news.ycombinator.com/item?id=43852938",
+      "author": "isaacphi",
+      "shared_at": 1746064537,
+      "links": [
+        "https://github.com/isaacphi/mcp-language-server"
+      ]
+    },
+    {
+      "name": "mcp-language-server",
+      "description": "An MCP server that runs and exposes a language server, giving AI coding tools access to code intelligence instead of relying on grep-based search, which works better for many tasks. Written in Go.",
+      "problem": "Current tools mostly use grep, which works much worse than a language server for many coding tasks.",
+      "audience": null,
+      "builder_usernames": [
+        "isaacphi"
+      ],
+      "source_excerpt": "An MCP server that runs and exposes a language server. Current tools seem to mostly use grep but this works much better for many tasks.",
+      "evidence": [
+        {
+          "source_item_id": 43851600,
+          "source_field": "body",
+          "value": "An MCP server that runs and exposes a language server. Current tools seem to mostly use grep but this works much better for many tasks.",
+          "supports": [],
+          "author": "isaacphi",
+          "shared_at": 1746053583,
+          "source_url": "https://news.ycombinator.com/item?id=43851600"
+        }
+      ],
+      "source_item_id": 43851600,
+      "source_url": "https://news.ycombinator.com/item?id=43851600",
+      "author": "isaacphi",
+      "shared_at": 1746053583,
+      "links": [
+        "https://github.com/isaacphi/mcp-language-server"
+      ]
+    }
+  ]
+}

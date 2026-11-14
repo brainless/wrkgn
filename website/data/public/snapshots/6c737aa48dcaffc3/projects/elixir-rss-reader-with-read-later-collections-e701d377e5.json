@@ -1,0 +1,33 @@
+{
+  "id": 10996,
+  "slug": "elixir-rss-reader-with-read-later-collections-e701d377e5",
+  "name": "Elixir RSS reader with read-later collections",
+  "mentions": [
+    {
+      "name": "Elixir RSS reader with read-later collections",
+      "description": "An Elixir app that lets an administrator add new RSS feeds, renders article titles and summaries on a single page to scroll through, and pushes the ones they like to a landing page as a collection to read later. The parser is modified and adapted to handle sites that deviate from the conventional RSS structure.",
+      "problem": "Many of the sites the builder likes don't have the conventional RSS \"structure\", so the main parser has to be modified and adapted to the outliers.",
+      "audience": null,
+      "builder_usernames": [
+        "wturner"
+      ],
+      "source_excerpt": "I've been using elixir to build an app that lets an administrator add new rss feeds, render the article titles and summaries to a single page, scroll through them and push the ones they like to a landing page as a collection to read later.",
+      "evidence": [
+        {
+          "source_item_id": 43821126,
+          "source_field": "body",
+          "value": "I've been using elixir to build an app that lets an administrator add new rss feeds, render the article titles and summaries to a single page, scroll through them and push the ones they like to a landing page as a collection to read later.",
+          "supports": [],
+          "author": "wturner",
+          "shared_at": 1745845601,
+          "source_url": "https://news.ycombinator.com/item?id=43821126"
+        }
+      ],
+      "source_item_id": 43821126,
+      "source_url": "https://news.ycombinator.com/item?id=43821126",
+      "author": "wturner",
+      "shared_at": 1745845601,
+      "links": []
+    }
+  ]
+}

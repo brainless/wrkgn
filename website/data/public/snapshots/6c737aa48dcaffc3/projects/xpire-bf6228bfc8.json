@@ -1,0 +1,35 @@
+{
+  "id": 9143,
+  "slug": "xpire-bf6228bfc8",
+  "name": "xpire",
+  "mentions": [
+    {
+      "name": "xpire",
+      "description": "A CLI tool, written in Go, that adds expiry dates to filesystem structures. It leverages filesystem-specific features (such as snapshots) to avoid long treewalks when searching and stores the dates in the filesystem itself rather than a separate database. It currently supports btrfs snapshots and zfs datasets.",
+      "problem": "Long treewalks for searching expiry dates and the need for a separate database to store them.",
+      "audience": null,
+      "builder_usernames": [
+        "benibr"
+      ],
+      "source_excerpt": "Working on a CLI tool called xpire which can add expiry dates to filesystem structures: https://github.com/benibr/xpire",
+      "evidence": [
+        {
+          "source_item_id": 45887590,
+          "source_field": "body",
+          "value": "Working on a CLI tool called xpire which can add expiry dates to filesystem structures: https://github.com/benibr/xpire",
+          "supports": [],
+          "author": "benibr",
+          "shared_at": 1762871030,
+          "source_url": "https://news.ycombinator.com/item?id=45887590"
+        }
+      ],
+      "source_item_id": 45887590,
+      "source_url": "https://news.ycombinator.com/item?id=45887590",
+      "author": "benibr",
+      "shared_at": 1762871030,
+      "links": [
+        "https://github.com/benibr/xpire"
+      ]
+    }
+  ]
+}

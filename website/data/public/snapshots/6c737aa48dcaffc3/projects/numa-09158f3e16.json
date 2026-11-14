@@ -1,0 +1,35 @@
+{
+  "id": 5523,
+  "slug": "numa-09158f3e16",
+  "name": "numa",
+  "mentions": [
+    {
+      "name": "numa",
+      "description": "This is numa, a DNS-over-HTTPS resolver. Version 0.13.0 adds request hedging that fires a parallel query after 10ms if the primary stalls (inspired by Google's Tail at Scale paper), a wire-level cache with serve-stale support (RFC 8767), and a DoT client for encrypted upstream, addressing tail latency in DoH query handling.",
+      "problem": "Tail latency in DNS-over-HTTPS resolution, with the project shipping fixes and a write-up of the investigation.",
+      "audience": null,
+      "builder_usernames": [
+        "rdme"
+      ],
+      "source_excerpt": "Just shipped numa v0.13.0:\nadded request hedging (fires a parallel query after 10ms if the primary stalls, inspired by Google's Tail at Scale paper) wire-level cache with serve-stale (RFC 8767) and a DoT client for encrypted upstream.",
+      "evidence": [
+        {
+          "source_item_id": 47750977,
+          "source_field": "body",
+          "value": "Just shipped numa v0.13.0:\nadded request hedging (fires a parallel query after 10ms if the primary stalls, inspired by Google's Tail at Scale paper) wire-level cache with serve-stale (RFC 8767) and a DoT client for encrypted upstream.",
+          "supports": [],
+          "author": "rdme",
+          "shared_at": 1776083110,
+          "source_url": "https://news.ycombinator.com/item?id=47750977"
+        }
+      ],
+      "source_item_id": 47750977,
+      "source_url": "https://news.ycombinator.com/item?id=47750977",
+      "author": "rdme",
+      "shared_at": 1776083110,
+      "links": [
+        "https://numa.rs/blog/posts/fixing-doh-tail-latency.html"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 9021,
+  "slug": "laketower-5148a9f31c",
+  "name": "Laketower",
+  "mentions": [
+    {
+      "name": "Laketower",
+      "description": "A lightweight data lakehouse exploration and management app available as both web and CLI, using DuckDB as the default query engine. It can run locally or self-hosted with static configuration, with Iceberg and DuckLake support planned.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rmnclmnt"
+      ],
+      "source_excerpt": "Laketower: https://github.com/datalpia/laketower\nA lightweight data lakehouse exploration and management app (web+cli), using DuckDB as the default query engine. It can run locally or self hosted, and for now statically configured only. Hope to integrate Iceberg and Ducklake support by end of year.",
+      "evidence": [
+        {
+          "source_item_id": 45885018,
+          "source_field": "body",
+          "value": "Laketower: https://github.com/datalpia/laketower\nA lightweight data lakehouse exploration and management app (web+cli), using DuckDB as the default query engine. It can run locally or self hosted, and for now statically configured only. Hope to integrate Iceberg and Ducklake support by end of year.",
+          "supports": [],
+          "author": "rmnclmnt",
+          "shared_at": 1762847202,
+          "source_url": "https://news.ycombinator.com/item?id=45885018"
+        }
+      ],
+      "source_item_id": 45885018,
+      "source_url": "https://news.ycombinator.com/item?id=45885018",
+      "author": "rmnclmnt",
+      "shared_at": 1762847202,
+      "links": [
+        "https://github.com/datalpia/laketower"
+      ]
+    },
+    {
+      "name": "LakeTower",
+      "description": "This is an open-source Data Lakehouse management utility application for local development. It currently supports Delta Lake (using delta-rs plus duckdb) for table metadata inspection and querying, with planned features including dashboards as code, a simple Markdown notebook-like mode, and Apache Iceberg support.",
+      "problem": "Data lakehouse development workflows with Databricks customers are slow, and the tool aims to accelerate them by filling a gap in local development tooling.",
+      "audience": "Developers building data solutions for Databricks",
+      "builder_usernames": [
+        "rmnclmnt"
+      ],
+      "source_excerpt": "Slowly building an open-source Data Lakehouse management utility application for local development, scratching my own itch and trying to accelerate development workflows with customers developing for Databricks.",
+      "evidence": [
+        {
+          "source_item_id": 43818344,
+          "source_field": "body",
+          "value": "Slowly building an open-source Data Lakehouse management utility application for local development, scratching my own itch and trying to accelerate development workflows with customers developing for Databricks.",
+          "supports": [],
+          "author": "rmnclmnt",
+          "shared_at": 1745822823,
+          "source_url": "https://news.ycombinator.com/item?id=43818344"
+        }
+      ],
+      "source_item_id": 43818344,
+      "source_url": "https://news.ycombinator.com/item?id=43818344",
+      "author": "rmnclmnt",
+      "shared_at": 1745822823,
+      "links": [
+        "https://github.com/datalpia/laketower"
+      ]
+    }
+  ]
+}

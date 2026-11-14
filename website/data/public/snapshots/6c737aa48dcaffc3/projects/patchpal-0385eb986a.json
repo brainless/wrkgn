@@ -1,0 +1,35 @@
+{
+  "id": 7086,
+  "slug": "patchpal-0385eb986a",
+  "name": "PatchPal",
+  "mentions": [
+    {
+      "name": "PatchPal",
+      "description": "Open-source agentic coding assistant written in Python that supports both local and cloud models and is easy to modify and extend for custom workflows. It can be accessed through a terminal as well as a Python API/REPL, with recent releases adding custom tools, agent skills, and built-in support for Ralph Wiggum loops.",
+      "problem": "Existing agentic coding assistants (Claude Code, Aider, Opencode, Codex, etc.) didn't offer support for both local and cloud models together with easy modification and extension for custom workflows.",
+      "audience": null,
+      "builder_usernames": [
+        "wiseprobe"
+      ],
+      "source_excerpt": "Working on https://github.com/wiseprobe/patchpal , an open-source agentic coding assistant in Python.",
+      "evidence": [
+        {
+          "source_item_id": 46946448,
+          "source_field": "body",
+          "value": "Working on https://github.com/wiseprobe/patchpal , an open-source agentic coding assistant in Python.",
+          "supports": [],
+          "author": "wiseprobe",
+          "shared_at": 1770651858,
+          "source_url": "https://news.ycombinator.com/item?id=46946448"
+        }
+      ],
+      "source_item_id": 46946448,
+      "source_url": "https://news.ycombinator.com/item?id=46946448",
+      "author": "wiseprobe",
+      "shared_at": 1770651858,
+      "links": [
+        "https://github.com/wiseprobe/patchpal"
+      ]
+    }
+  ]
+}

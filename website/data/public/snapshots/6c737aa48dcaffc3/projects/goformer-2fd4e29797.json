@@ -1,0 +1,36 @@
+{
+  "id": 6002,
+  "slug": "goformer-2fd4e29797",
+  "name": "goformer",
+  "mentions": [
+    {
+      "name": "goformer",
+      "description": "A pure Go library that loads HuggingFace safetensors directly and runs BERT inference to generate embeddings, with no ONNX export step or Python in the build pipeline. Embeddings match the Python reference to cosine similarity > 0.9999, running at about 154ms per embedding.",
+      "problem": "Using BGE-small-en-v1.5 and FAISS from Go means CGO, requiring a C toolchain and platform-specific binaries in builds; this library eliminates those ML dependencies.",
+      "audience": null,
+      "builder_usernames": [
+        "mikeayles"
+      ],
+      "source_excerpt": "goformer (https://www.mikeayles.com/blog/goformer/) loads HuggingFace safetensors directly and runs BERT inference. No ONNX export step, no Python in the build pipeline. It produces embeddings that match the Python reference to cosine similarity > 0.9999.",
+      "evidence": [
+        {
+          "source_item_id": 47306582,
+          "source_field": "body",
+          "value": "goformer (https://www.mikeayles.com/blog/goformer/) loads HuggingFace safetensors directly and runs BERT inference. No ONNX export step, no Python in the build pipeline. It produces embeddings that match the Python reference to cosine similarity > 0.9999.",
+          "supports": [],
+          "author": "mikeayles",
+          "shared_at": 1773047674,
+          "source_url": "https://news.ycombinator.com/item?id=47306582"
+        }
+      ],
+      "source_item_id": 47306582,
+      "source_url": "https://news.ycombinator.com/item?id=47306582",
+      "author": "mikeayles",
+      "shared_at": 1773047674,
+      "links": [
+        "https://github.com/MichaelAyles/goformer",
+        "https://www.mikeayles.com/blog/goformer/"
+      ]
+    }
+  ]
+}

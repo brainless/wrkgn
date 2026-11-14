@@ -1,0 +1,63 @@
+{
+  "id": 2977,
+  "slug": "ai-benchy-929f4bc477",
+  "name": "AI Benchy",
+  "mentions": [
+    {
+      "name": "AI Benchy",
+      "description": "A free AI benchmarks website that the builder maintains and improves as a hobby project, presenting AI benchmark results at aibenchy.com.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "XCSme"
+      ],
+      "source_excerpt": "Improving my free/hobby AI Benchmarks website: https://aibenchy.com",
+      "evidence": [
+        {
+          "source_item_id": 48894310,
+          "source_field": "body",
+          "value": "Improving my free/hobby AI Benchmarks website: https://aibenchy.com",
+          "supports": [],
+          "author": "XCSme",
+          "shared_at": 1783956873,
+          "source_url": "https://news.ycombinator.com/item?id=48894310"
+        }
+      ],
+      "source_item_id": 48894310,
+      "source_url": "https://news.ycombinator.com/item?id=48894310",
+      "author": "XCSme",
+      "shared_at": 1783956873,
+      "links": [
+        "https://aibenchy.com"
+      ]
+    },
+    {
+      "name": "AI Benchy",
+      "description": "This is a benchmark and leaderboard site for AI models, built to measure real-world performance beyond standard published benchmarks. It was motivated by models like MiniMax M2.5 that scored well on standard benchmarks but performed poorly in practice, burning through hundreds of thousands of reasoning tokens per request.",
+      "problem": "Standard AI benchmarks don't reflect practical performance; models can score well on benchmarks yet perform poorly in practice and consume excessive reasoning tokens per request.",
+      "audience": null,
+      "builder_usernames": [
+        "XCSme"
+      ],
+      "source_excerpt": "Started on making my own AI model benchmarks and leaderboard[0], after I tested MiniMax M2.5, which was supposedly good based on standard benchmarks, but peformed really poorly in practice and burned through hundreds of thousands of reasoning tokens for each request...",
+      "evidence": [
+        {
+          "source_item_id": 47306753,
+          "source_field": "body",
+          "value": "Started on making my own AI model benchmarks and leaderboard[0], after I tested MiniMax M2.5, which was supposedly good based on standard benchmarks, but peformed really poorly in practice and burned through hundreds of thousands of reasoning tokens for each request...",
+          "supports": [],
+          "author": "XCSme",
+          "shared_at": 1773049069,
+          "source_url": "https://news.ycombinator.com/item?id=47306753"
+        }
+      ],
+      "source_item_id": 47306753,
+      "source_url": "https://news.ycombinator.com/item?id=47306753",
+      "author": "XCSme",
+      "shared_at": 1773049069,
+      "links": [
+        "https://aibenchy.com"
+      ]
+    }
+  ]
+}

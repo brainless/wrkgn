@@ -1,0 +1,35 @@
+{
+  "id": 11063,
+  "slug": "lowlow-bot-236e01dff7",
+  "name": "lowlow.bot",
+  "mentions": [
+    {
+      "name": "lowlow.bot",
+      "description": "This service tracks price changes on any website, offering a weekly digest email, a list of tracked items, and a price history chart. It alerts users when tracked products go on sale or come back in stock, useful for waiting on big purchases and stocking up on non-perishable essentials. Inspired by camelcamelcamel but not limited to Amazon.",
+      "problem": "Existing price trackers like camelcamelcamel only work for Amazon; the author wanted price tracking that works on any website.",
+      "audience": null,
+      "builder_usernames": [
+        "sameline"
+      ],
+      "source_excerpt": "I’ve been building https://lowlow.bot, it tracks price changes on any website. I was inspired by https://camelcamelcamel.com, but wanted something that worked for more than just Amazon.",
+      "evidence": [
+        {
+          "source_item_id": 43819939,
+          "source_field": "body",
+          "value": "I’ve been building https://lowlow.bot, it tracks price changes on any website. I was inspired by https://camelcamelcamel.com, but wanted something that worked for more than just Amazon.",
+          "supports": [],
+          "author": "sameline",
+          "shared_at": 1745838781,
+          "source_url": "https://news.ycombinator.com/item?id=43819939"
+        }
+      ],
+      "source_item_id": 43819939,
+      "source_url": "https://news.ycombinator.com/item?id=43819939",
+      "author": "sameline",
+      "shared_at": 1745838781,
+      "links": [
+        "https://lowlow.bot"
+      ]
+    }
+  ]
+}

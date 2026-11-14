@@ -1,0 +1,63 @@
+{
+  "id": 91,
+  "slug": "feedsync-e8cf54dfd7",
+  "name": "FeedSync",
+  "mentions": [
+    {
+      "name": "FeedSync",
+      "description": "A hosted tool that pushes RSS feed updates to Discord. It has attracted sign-ups without any marketing, is used by the author and a few friends, and is currently built with Phoenix LiveView deployed in a single region, with a SPA being explored as a lower-latency alternative.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "hsx"
+      ],
+      "source_excerpt": "I’m still working on https://feedsync.net, a tool to push RSS feed updates to Discord.",
+      "evidence": [
+        {
+          "source_item_id": 50390265,
+          "source_field": "body",
+          "value": "I’m still working on https://feedsync.net, a tool to push RSS feed updates to Discord.",
+          "supports": [],
+          "author": "hsx",
+          "shared_at": 1793958283,
+          "source_url": "https://news.ycombinator.com/item?id=50390265"
+        }
+      ],
+      "source_item_id": 50390265,
+      "source_url": "https://news.ycombinator.com/item?id=50390265",
+      "author": "hsx",
+      "shared_at": 1793958283,
+      "links": [
+        "https://feedsync.net"
+      ]
+    },
+    {
+      "name": "FeedSync",
+      "description": "An Elixir app that polls RSS feeds and pipes new entries to Discord. It is nearly ready for release with a planned free trial requiring no credit card, and the roadmap includes extending it with change detection that notifies when an HTML element on a website changes.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "hsx"
+      ],
+      "source_excerpt": "I’ve been building an Elixir app to poll RSS feeds and pipe new entries to Discord.",
+      "evidence": [
+        {
+          "source_item_id": 43818575,
+          "source_field": "body",
+          "value": "I’ve been building an Elixir app to poll RSS feeds and pipe new entries to Discord.",
+          "supports": [],
+          "author": "hsx",
+          "shared_at": 1745825178,
+          "source_url": "https://news.ycombinator.com/item?id=43818575"
+        }
+      ],
+      "source_item_id": 43818575,
+      "source_url": "https://news.ycombinator.com/item?id=43818575",
+      "author": "hsx",
+      "shared_at": 1745825178,
+      "links": [
+        "https://feedsync.net"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 10889,
+  "slug": "mpls-coffee-f97a2eb723",
+  "name": "MPLS Coffee",
+  "mentions": [
+    {
+      "name": "MPLS Coffee",
+      "description": "This app shows the coffee shops nearest to the user. Each shop listing includes a Gemini AI overview describing the shop's offerings and other potentially useful information. It currently covers Minneapolis and Chicago.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "clintmcmahon"
+      ],
+      "source_excerpt": "A simple coffee shop app that shows the nearest coffees shops that are closest to you. Using Google's AI, each shop has a Gemini AI overview that describes the shops offerings and other information that might be useful to the user.",
+      "evidence": [
+        {
+          "source_item_id": 43823472,
+          "source_field": "body",
+          "value": "A simple coffee shop app that shows the nearest coffees shops that are closest to you. Using Google's AI, each shop has a Gemini AI overview that describes the shops offerings and other information that might be useful to the user.",
+          "supports": [],
+          "author": "clintmcmahon",
+          "shared_at": 1745859116,
+          "source_url": "https://news.ycombinator.com/item?id=43823472"
+        }
+      ],
+      "source_item_id": 43823472,
+      "source_url": "https://news.ycombinator.com/item?id=43823472",
+      "author": "clintmcmahon",
+      "shared_at": 1745859116,
+      "links": [
+        "https://mplscoffee.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 6336,
+  "slug": "zfetch-309e9d5760",
+  "name": "zfetch",
+  "mentions": [
+    {
+      "name": "zfetch",
+      "description": "zfetch is a single static binary that fetches URLs over HTTPS with strict security defaults, intended to replace curl in restricted environments where a small, auditable tool with no runtime dependencies is needed. It is also usable as a Zig library for embedding HTTP(S) fetches in other programs, and it vendors and links BoringSSL.",
+      "problem": "In restricted environments, existing tools like curl are not small or auditable and come with runtime dependencies.",
+      "audience": "For applications and teams working in restricted environments that need a small, auditable HTTP fetch tool with no runtime dependencies; also developers embedding HTTP(S) fetches in their own programs.",
+      "builder_usernames": [
+        "shirian"
+      ],
+      "source_excerpt": "Me and Claude have been working on zfetch (https://github.com/roobie/zfetch), which is a single static binary that fetches URLs over HTTPS with strict security defaults. For many applications, it should be able to replace curl in restricted environments where you need a small, auditable tool with no runtime dependencies.\n\nIt should also be usable as a Zig library for embedding HTTP(S) fetches in your own programs.",
+      "evidence": [
+        {
+          "source_item_id": 47308592,
+          "source_field": "body",
+          "value": "Me and Claude have been working on zfetch (https://github.com/roobie/zfetch), which is a single static binary that fetches URLs over HTTPS with strict security defaults. For many applications, it should be able to replace curl in restricted environments where you need a small, auditable tool with no runtime dependencies.\n\nIt should also be usable as a Zig library for embedding HTTP(S) fetches in your own programs.",
+          "supports": [],
+          "author": "shirian",
+          "shared_at": 1773061836,
+          "source_url": "https://news.ycombinator.com/item?id=47308592"
+        }
+      ],
+      "source_item_id": 47308592,
+      "source_url": "https://news.ycombinator.com/item?id=47308592",
+      "author": "shirian",
+      "shared_at": 1773061836,
+      "links": [
+        "https://github.com/roobie/zfetch"
+      ]
+    }
+  ]
+}

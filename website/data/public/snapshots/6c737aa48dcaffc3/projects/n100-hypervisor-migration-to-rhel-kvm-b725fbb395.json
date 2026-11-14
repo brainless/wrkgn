@@ -1,0 +1,33 @@
+{
+  "id": 10852,
+  "slug": "n100-hypervisor-migration-to-rhel-kvm-b725fbb395",
+  "name": "N100 hypervisor migration to RHEL/KVM",
+  "mentions": [
+    {
+      "name": "N100 hypervisor migration to RHEL/KVM",
+      "description": "A home lab project to migrate two N100 hypervisors off Proxmox back to RHEL + Cockpit or another Linux + KVM implementation, followed by Kubernetes, Ansible, and Terraform work.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "stego-tech"
+      ],
+      "source_excerpt": "Also looking to redo my two N100 hypervisors off Proxmox and back to RHEL + Cockpit, or some other Linux + KVM implementation; from there, it's all about Kubernetes, Ansible, and Terraform.",
+      "evidence": [
+        {
+          "source_item_id": 43823348,
+          "source_field": "body",
+          "value": "Also looking to redo my two N100 hypervisors off Proxmox and back to RHEL + Cockpit, or some other Linux + KVM implementation; from there, it's all about Kubernetes, Ansible, and Terraform.",
+          "supports": [],
+          "author": "stego-tech",
+          "shared_at": 1745858388,
+          "source_url": "https://news.ycombinator.com/item?id=43823348"
+        }
+      ],
+      "source_item_id": 43823348,
+      "source_url": "https://news.ycombinator.com/item?id=43823348",
+      "author": "stego-tech",
+      "shared_at": 1745858388,
+      "links": []
+    }
+  ]
+}

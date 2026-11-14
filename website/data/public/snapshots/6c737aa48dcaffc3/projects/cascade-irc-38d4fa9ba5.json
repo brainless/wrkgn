@@ -1,0 +1,35 @@
+{
+  "id": 3696,
+  "slug": "cascade-irc-38d4fa9ba5",
+  "name": "cascade-irc",
+  "mentions": [
+    {
+      "name": "cascade-irc",
+      "description": "An IRC client focused on extensibility, IRCv3 compatibility, and a modern UI and UX, with plans to build external features on top of the IRCv3 protocol beyond the protocol itself.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "oooyay"
+      ],
+      "source_excerpt": "I've been building my own IRC client: https://github.com/matt0x6F/irc-client/ (#cascade-irc on Libera)\n\nThe client focuses on extensibility, IRCv3 compatibility, and a modern UI and UX. I am realizing that IRCv3 is capable of being built on top of though, so I may start incorporating external features outside of the protocol itself.",
+      "evidence": [
+        {
+          "source_item_id": 48533880,
+          "source_field": "body",
+          "value": "I've been building my own IRC client: https://github.com/matt0x6F/irc-client/ (#cascade-irc on Libera)\n\nThe client focuses on extensibility, IRCv3 compatibility, and a modern UI and UX. I am realizing that IRCv3 is capable of being built on top of though, so I may start incorporating external features outside of the protocol itself.",
+          "supports": [],
+          "author": "oooyay",
+          "shared_at": 1781477895,
+          "source_url": "https://news.ycombinator.com/item?id=48533880"
+        }
+      ],
+      "source_item_id": 48533880,
+      "source_url": "https://news.ycombinator.com/item?id=48533880",
+      "author": "oooyay",
+      "shared_at": 1781477895,
+      "links": [
+        "https://github.com/matt0x6F/irc-client/"
+      ]
+    }
+  ]
+}

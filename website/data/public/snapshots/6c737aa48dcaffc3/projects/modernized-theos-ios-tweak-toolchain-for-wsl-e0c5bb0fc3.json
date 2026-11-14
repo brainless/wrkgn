@@ -1,0 +1,33 @@
+{
+  "id": 4882,
+  "slug": "modernized-theos-ios-tweak-toolchain-for-wsl-e0c5bb0fc3",
+  "name": "Modernized Theos/iOS tweak toolchain for WSL",
+  "mentions": [
+    {
+      "name": "Modernized Theos/iOS tweak toolchain for WSL",
+      "description": "This project modernizes the legacy Theos/iOS toolchain used to build jailbreak tweaks, fixing its archaic and broken state so it is (mostly) usable on WSL for creating tweaks targeting older devices like the iPhone 4s.",
+      "problem": "The old Theos/iOS toolchain is archaic and broken, making it hard to build legacy iOS jailbreak tweaks.",
+      "audience": null,
+      "builder_usernames": [
+        "bitcrusher32"
+      ],
+      "source_excerpt": "I tried using the old Theos/iOS toolchain to make my own tweak but it was archaic and broken. So I spent my weekend fixing it up, modernizing the toolchain into being (mostly) usable on WSL.",
+      "evidence": [
+        {
+          "source_item_id": 48104516,
+          "source_field": "body",
+          "value": "I tried using the old Theos/iOS toolchain to make my own tweak but it was archaic and broken. So I spent my weekend fixing it up, modernizing the toolchain into being (mostly) usable on WSL.",
+          "supports": [],
+          "author": "bitcrusher32",
+          "shared_at": 1778563545,
+          "source_url": "https://news.ycombinator.com/item?id=48104516"
+        }
+      ],
+      "source_item_id": 48104516,
+      "source_url": "https://news.ycombinator.com/item?id=48104516",
+      "author": "bitcrusher32",
+      "shared_at": 1778563545,
+      "links": []
+    }
+  ]
+}

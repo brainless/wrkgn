@@ -1,0 +1,33 @@
+{
+  "id": 6032,
+  "slug": "hugo-static-fanfiction-site-d159c95e87",
+  "name": "Hugo static fanfiction site",
+  "mentions": [
+    {
+      "name": "Hugo static fanfiction site",
+      "description": "This static website built with Hugo and served via nginx hosts fanfiction, with experiments like audio embeds. It works around static-site-generator friction by using pandoc for most markdown-to-HTML conversion and goldmark for pages where a table of contents matters.",
+      "problem": "AO3 outages prompted self-hosting fanfiction; Hugo resists running pandoc with custom arguments, pandoc won't generate a ToC on the markdown files, and goldmark misprocesses markdown italics inside HTML tags.",
+      "audience": null,
+      "builder_usernames": [
+        "optimizedsphere"
+      ],
+      "source_excerpt": "a static Hugo website (for hosting fanfiction; there've been a few AO3 outages lately and I thought it would be fun to experiment with things like audio embeds)",
+      "evidence": [
+        {
+          "source_item_id": 47313765,
+          "source_field": "body",
+          "value": "a static Hugo website (for hosting fanfiction; there've been a few AO3 outages lately and I thought it would be fun to experiment with things like audio embeds)",
+          "supports": [],
+          "author": "optimizedsphere",
+          "shared_at": 1773082946,
+          "source_url": "https://news.ycombinator.com/item?id=47313765"
+        }
+      ],
+      "source_item_id": 47313765,
+      "source_url": "https://news.ycombinator.com/item?id=47313765",
+      "author": "optimizedsphere",
+      "shared_at": 1773082946,
+      "links": []
+    }
+  ]
+}

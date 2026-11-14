@@ -1,0 +1,33 @@
+{
+  "id": 8132,
+  "slug": "internal-api-call-configuration-tool-9f41f691e0",
+  "name": "Internal API call configuration tool",
+  "mentions": [
+    {
+      "name": "Internal API call configuration tool",
+      "description": "This internal tool acts as a configuration and dependency/context manager for performing hundreds of API calls. It was recently updated to add an httpx backend alongside the existing urllib3 backend and introduced an async API, with plans to integrate pyreqwest.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "sirfz"
+      ],
+      "source_excerpt": "I've recently updated an internal tool which basically acts as a configuration and dependency/context manager for performing hundreds of api calls. I added an httpx backend (to test vs the current urllib3 backend) and also introduced an async API (httpx as well).",
+      "evidence": [
+        {
+          "source_item_id": 46266647,
+          "source_field": "body",
+          "value": "I've recently updated an internal tool which basically acts as a configuration and dependency/context manager for performing hundreds of api calls. I added an httpx backend (to test vs the current urllib3 backend) and also introduced an async API (httpx as well).",
+          "supports": [],
+          "author": "sirfz",
+          "shared_at": 1765744757,
+          "source_url": "https://news.ycombinator.com/item?id=46266647"
+        }
+      ],
+      "source_item_id": 46266647,
+      "source_url": "https://news.ycombinator.com/item?id=46266647",
+      "author": "sirfz",
+      "shared_at": 1765744757,
+      "links": []
+    }
+  ]
+}

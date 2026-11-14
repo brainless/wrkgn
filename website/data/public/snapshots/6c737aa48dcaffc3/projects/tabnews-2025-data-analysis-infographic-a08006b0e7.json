@@ -1,0 +1,35 @@
+{
+  "id": 8075,
+  "slug": "tabnews-2025-data-analysis-infographic-a08006b0e7",
+  "name": "TabNews 2025 Data Analysis Infographic",
+  "mentions": [
+    {
+      "name": "TabNews 2025 Data Analysis Infographic",
+      "description": "This project crawls and analyzes 6,380 posts from TabNews, a Brazilian developer community, and presents the findings as an interactive infographic built with pure HTML/CSS (scraping done in Python, no JS frameworks). It surfaces insights such as AI/ML topics dominating about 50% of discussions, Monday 8am being the best time to post, and longer titles (100+ characters) performing better.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "andreyandrade"
+      ],
+      "source_excerpt": "Built a crawler to analyze 6,380 posts from TabNews (Brazilian dev community) and turned the data into an interactive infographic. Found that AI/ML dominates ~50% of discussions, Monday 8am is the best time to post, and longer titles (100+ chars) actually perform better.",
+      "evidence": [
+        {
+          "source_item_id": 46482994,
+          "source_field": "body",
+          "value": "Built a crawler to analyze 6,380 posts from TabNews (Brazilian dev community) and turned the data into an interactive infographic. Found that AI/ML dominates ~50% of discussions, Monday 8am is the best time to post, and longer titles (100+ chars) actually perform better.",
+          "supports": [],
+          "author": "andreyandrade",
+          "shared_at": 1767483381,
+          "source_url": "https://news.ycombinator.com/item?id=46482994"
+        }
+      ],
+      "source_item_id": 46482994,
+      "source_url": "https://news.ycombinator.com/item?id=46482994",
+      "author": "andreyandrade",
+      "shared_at": 1767483381,
+      "links": [
+        "https://andreyandrade.com/static/tabnews-2025/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 9362,
+  "slug": "bazel-c-build-foundation-4dff263693",
+  "name": "Bazel C++ build foundation",
+  "mentions": [
+    {
+      "name": "Bazel C++ build foundation",
+      "description": "This project provides a foundational layer for building C++ applications with Bazel, offering a standardized set of paths and third-party libraries that work seamlessly across multiple developer teams. Library upgrades happen transparently in the background so developers can focus on business-specific logic rather than build system intricacies. It also serves as a learning exercise for mastering Bazel.",
+      "problem": "C++ developers have to deal with build system intricacies and coordinating third-party library upgrades across teams, distracting them from business-specific logic.",
+      "audience": "Multiple developer teams building C++ applications.",
+      "builder_usernames": [
+        "denvercoder904"
+      ],
+      "source_excerpt": "I am building a foundational layer for building C++ apps using Bazel.\n\nI am working on creating a standardized set of paths and third party libraries that work seamlessly across multiple developer teams. Allowing library upgrades to happen transparently in the background.",
+      "evidence": [
+        {
+          "source_item_id": 45870449,
+          "source_field": "body",
+          "value": "I am building a foundational layer for building C++ apps using Bazel.\n\nI am working on creating a standardized set of paths and third party libraries that work seamlessly across multiple developer teams. Allowing library upgrades to happen transparently in the background.",
+          "supports": [],
+          "author": "denvercoder904",
+          "shared_at": 1762731708,
+          "source_url": "https://news.ycombinator.com/item?id=45870449"
+        }
+      ],
+      "source_item_id": 45870449,
+      "source_url": "https://news.ycombinator.com/item?id=45870449",
+      "author": "denvercoder904",
+      "shared_at": 1762731708,
+      "links": []
+    }
+  ]
+}

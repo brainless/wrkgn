@@ -1,0 +1,35 @@
+{
+  "id": 4040,
+  "slug": "streamcondor-4e64d671e9",
+  "name": "StreamCondor",
+  "mentions": [
+    {
+      "name": "StreamCondor",
+      "description": "StreamCondor is a system tray app that monitors and launches livestreams. It uses Streamlink as its backend for stream handling, stays out of the way, and notifies the user about livestreams.",
+      "problem": "Streamlink is a capable tool for livestreams but has no UI; the author wanted something unobtrusive that stays in the system tray and provides notifications.",
+      "audience": null,
+      "builder_usernames": [
+        "tarzasai"
+      ],
+      "source_excerpt": "I continue to work on my monitor+launcher for livestreams. It uses Streamlink that is a magnificent piece of work but has no UI. Anyway I wanted something that stays out of the way and notify me (I love system tray apps). Does it make any sense?\n\nhttps://github.com/tarzasai/StreamCondor",
+      "evidence": [
+        {
+          "source_item_id": 48537728,
+          "source_field": "body",
+          "value": "I continue to work on my monitor+launcher for livestreams. It uses Streamlink that is a magnificent piece of work but has no UI. Anyway I wanted something that stays out of the way and notify me (I love system tray apps). Does it make any sense?\n\nhttps://github.com/tarzasai/StreamCondor",
+          "supports": [],
+          "author": "tarzasai",
+          "shared_at": 1781508155,
+          "source_url": "https://news.ycombinator.com/item?id=48537728"
+        }
+      ],
+      "source_item_id": 48537728,
+      "source_url": "https://news.ycombinator.com/item?id=48537728",
+      "author": "tarzasai",
+      "shared_at": 1781508155,
+      "links": [
+        "https://github.com/tarzasai/StreamCondor"
+      ]
+    }
+  ]
+}

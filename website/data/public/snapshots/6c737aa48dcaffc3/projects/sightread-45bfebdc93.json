@@ -1,0 +1,63 @@
+{
+  "id": 7300,
+  "slug": "sightread-45bfebdc93",
+  "name": "Sightread",
+  "mentions": [
+    {
+      "name": "Sightread",
+      "description": "This web app generates sheet music for practicing sight reading and music dictation. It currently focuses on rhythm-only exercises and recently added support for asymmetric (odd) rhythms such as 7/8.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ssttoo"
+      ],
+      "source_excerpt": "Just pushed another update to https://sightread.org which generates sheet music to practice sight reading and music dictation. Still rhythm-only, now with support for asymmetric (odd) rhythms like 7/8",
+      "evidence": [
+        {
+          "source_item_id": 46942462,
+          "source_field": "body",
+          "value": "Just pushed another update to https://sightread.org which generates sheet music to practice sight reading and music dictation. Still rhythm-only, now with support for asymmetric (odd) rhythms like 7/8",
+          "supports": [],
+          "author": "ssttoo",
+          "shared_at": 1770621395,
+          "source_url": "https://news.ycombinator.com/item?id=46942462"
+        }
+      ],
+      "source_item_id": 46942462,
+      "source_url": "https://news.ycombinator.com/item?id=46942462",
+      "author": "ssttoo",
+      "shared_at": 1770621395,
+      "links": [
+        "https://sightread.org"
+      ]
+    },
+    {
+      "name": "SightRead",
+      "description": "A free, ad-free web app for practicing music sight reading, built in vanilla JavaScript (using the abcjs notation library). Currently supports rhythm-only practice, with more features planned.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ssttoo"
+      ],
+      "source_excerpt": "https://SightRead.org - free, ad-free, etc, vanilla js (except for the abcjs notation library) web app to practice sight reading. Currently rhythm-only, but more is planned.",
+      "evidence": [
+        {
+          "source_item_id": 45872944,
+          "source_field": "body",
+          "value": "https://SightRead.org - free, ad-free, etc, vanilla js (except for the abcjs notation library) web app to practice sight reading. Currently rhythm-only, but more is planned.",
+          "supports": [],
+          "author": "ssttoo",
+          "shared_at": 1762754919,
+          "source_url": "https://news.ycombinator.com/item?id=45872944"
+        }
+      ],
+      "source_item_id": 45872944,
+      "source_url": "https://news.ycombinator.com/item?id=45872944",
+      "author": "ssttoo",
+      "shared_at": 1762754919,
+      "links": [
+        "https://SightRead.org"
+      ]
+    }
+  ]
+}

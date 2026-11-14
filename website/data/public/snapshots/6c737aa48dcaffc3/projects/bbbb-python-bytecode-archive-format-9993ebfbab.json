@@ -1,0 +1,33 @@
+{
+  "id": 6212,
+  "slug": "bbbb-python-bytecode-archive-format-9993ebfbab",
+  "name": "bbbb (Python bytecode archive format)",
+  "mentions": [
+    {
+      "name": "bbbb (Python bytecode archive format)",
+      "description": "A \"bytecode archive\" format for Python that speeds up imports for some projects, mainly by avoiding filesystem work at import time; planned to be offered as an install-time option in PAPER, with bbbb later making wheels that include precompiled bytecode.",
+      "problem": "Python imports can be slow because of filesystem work at import time.",
+      "audience": null,
+      "builder_usernames": [
+        "zahlman"
+      ],
+      "source_excerpt": "work on others (in particular, a \"bytecode archive\" format for Python that speeds up imports for some projects, mainly by avoiding filesystem work at import time — I want to offer it as an install-time option in PAPER, and later have `bbbb` make wheels with the bytecode precompiled that way)",
+      "evidence": [
+        {
+          "source_item_id": 47303920,
+          "source_field": "body",
+          "value": "work on others (in particular, a \"bytecode archive\" format for Python that speeds up imports for some projects, mainly by avoiding filesystem work at import time — I want to offer it as an install-time option in PAPER, and later have `bbbb` make wheels with the bytecode precompiled that way)",
+          "supports": [],
+          "author": "zahlman",
+          "shared_at": 1773021059,
+          "source_url": "https://news.ycombinator.com/item?id=47303920"
+        }
+      ],
+      "source_item_id": 47303920,
+      "source_url": "https://news.ycombinator.com/item?id=47303920",
+      "author": "zahlman",
+      "shared_at": 1773021059,
+      "links": []
+    }
+  ]
+}

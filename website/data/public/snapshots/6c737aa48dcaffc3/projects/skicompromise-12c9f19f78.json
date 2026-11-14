@@ -1,0 +1,35 @@
+{
+  "id": 6974,
+  "slug": "skicompromise-12c9f19f78",
+  "name": "SkiCompromise",
+  "mentions": [
+    {
+      "name": "SkiCompromise",
+      "description": "This web app helps groups of friends living in different Swiss towns agree on which ski field to meet at. It precomputed public transport times from Switzerland's most populated towns to about 350 ski fields, and lets users prioritize the shortest overall travel time versus the fairest option (smallest variance in travel time across group members). Built with Django and free to use, with planned integration of live snow conditions and open lift status.",
+      "problem": "Friends living in different Swiss towns struggled to agree on the best ski field to meet at.",
+      "audience": null,
+      "builder_usernames": [
+        "p1nkpineapple"
+      ],
+      "source_excerpt": "So I made a little web app to help:\n\nhttps://skicompromise.ch\n\nThis was a fun little project I did over the Christmas holidays but only finished off recently. Basically I precalculated the public transport time between the most populated towns in Switzerland to every ski field (about 350 of them!) and then built a little web app around it using Django.",
+      "evidence": [
+        {
+          "source_item_id": 46942324,
+          "source_field": "body",
+          "value": "So I made a little web app to help:\n\nhttps://skicompromise.ch\n\nThis was a fun little project I did over the Christmas holidays but only finished off recently. Basically I precalculated the public transport time between the most populated towns in Switzerland to every ski field (about 350 of them!) and then built a little web app around it using Django.",
+          "supports": [],
+          "author": "p1nkpineapple",
+          "shared_at": 1770619923,
+          "source_url": "https://news.ycombinator.com/item?id=46942324"
+        }
+      ],
+      "source_item_id": 46942324,
+      "source_url": "https://news.ycombinator.com/item?id=46942324",
+      "author": "p1nkpineapple",
+      "shared_at": 1770619923,
+      "links": [
+        "https://skicompromise.ch"
+      ]
+    }
+  ]
+}

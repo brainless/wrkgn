@@ -1,0 +1,35 @@
+{
+  "id": 11181,
+  "slug": "blacklight-9fe83b076b",
+  "name": "Blacklight",
+  "mentions": [
+    {
+      "name": "Blacklight",
+      "description": "A pluggable secret and key scanner built from scratch that scans databases, file systems, and buckets for static keys and credentials, and lets users plug in new file types and parsers.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "debarshri"
+      ],
+      "source_excerpt": "I have working on a pluggable secret and key scanner from scratch [1]\n\nThe idea is to build scanning databases, file systems, buckets, etc. for static keys and credentials while allowing users to add new file types and parsers.",
+      "evidence": [
+        {
+          "source_item_id": 43818134,
+          "source_field": "body",
+          "value": "I have working on a pluggable secret and key scanner from scratch [1]\n\nThe idea is to build scanning databases, file systems, buckets, etc. for static keys and credentials while allowing users to add new file types and parsers.",
+          "supports": [],
+          "author": "debarshri",
+          "shared_at": 1745820526,
+          "source_url": "https://news.ycombinator.com/item?id=43818134"
+        }
+      ],
+      "source_item_id": 43818134,
+      "source_url": "https://news.ycombinator.com/item?id=43818134",
+      "author": "debarshri",
+      "shared_at": 1745820526,
+      "links": [
+        "https://github.com/adaptive-scale/blacklight"
+      ]
+    }
+  ]
+}

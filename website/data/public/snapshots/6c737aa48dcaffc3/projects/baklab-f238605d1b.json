@@ -1,0 +1,35 @@
+{
+  "id": 9033,
+  "slug": "baklab-f238605d1b",
+  "name": "Baklab",
+  "mentions": [
+    {
+      "name": "Baklab",
+      "description": "A self-hosted Reddit-like community platform written in Go. Users can create their own sub-communities and set up categories and boards within them. Boards support regular posts, Q&A, or live chat, and posts can be voted on. Described as a hybrid of Reddit and Discord leaning toward a traditional web community, with server-side rendering for SEO friendliness. An extension of the author's previous Hacker News clone, dizkaz.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Kholin"
+      ],
+      "source_excerpt": "I've built a self-hosted reddit-like community platform in Go: https://baklab.app\n\nUsers can create their own sub-communities, and within them, set up different categories and boards. Posts can be voted on, and board types can include regular posts, Q&A, or live chat. It's like a hybrid of Reddit and Discord but leans more towards a traditional web community. It also supports server-side rendering, making it SEO-friendly.",
+      "evidence": [
+        {
+          "source_item_id": 45871436,
+          "source_field": "body",
+          "value": "I've built a self-hosted reddit-like community platform in Go: https://baklab.app\n\nUsers can create their own sub-communities, and within them, set up different categories and boards. Posts can be voted on, and board types can include regular posts, Q&A, or live chat. It's like a hybrid of Reddit and Discord but leans more towards a traditional web community. It also supports server-side rendering, making it SEO-friendly.",
+          "supports": [],
+          "author": "Kholin",
+          "shared_at": 1762740062,
+          "source_url": "https://news.ycombinator.com/item?id=45871436"
+        }
+      ],
+      "source_item_id": 45871436,
+      "source_url": "https://news.ycombinator.com/item?id=45871436",
+      "author": "Kholin",
+      "shared_at": 1762740062,
+      "links": [
+        "https://baklab.app"
+      ]
+    }
+  ]
+}

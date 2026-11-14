@@ -1,0 +1,35 @@
+{
+  "id": 9762,
+  "slug": "mochi-46f4fe5833",
+  "name": "Mochi",
+  "mentions": [
+    {
+      "name": "Mochi",
+      "description": "This programming language includes a VM and transpiler that were originally implemented by hand and later polished with Codex. It ships with roughly 150–300 algorithms implemented directly in Mochi, which are transpiled to more than 25 programming languages such as C, Haskell, Java, Go, and Scala. The author plans to return to the project after finishing other books to add better use cases.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tamnd"
+      ],
+      "source_excerpt": "I actually used The Algorithms as a reference when working on my own programming language, Mochi, which includes around 150–300 algorithms (I don't remember exactly) implemented directly in Mochi. These are then transpiled to over 25 programming languages such as C, Haskell, Java, Go, Scala, and more:\nhttps://github.com/mochilang/mochi/tree/main/tests/algorithms/x",
+      "evidence": [
+        {
+          "source_item_id": 45567589,
+          "source_field": "body",
+          "value": "I actually used The Algorithms as a reference when working on my own programming language, Mochi, which includes around 150–300 algorithms (I don't remember exactly) implemented directly in Mochi. These are then transpiled to over 25 programming languages such as C, Haskell, Java, Go, Scala, and more:\nhttps://github.com/mochilang/mochi/tree/main/tests/algorithms/x",
+          "supports": [],
+          "author": "tamnd",
+          "shared_at": 1760358439,
+          "source_url": "https://news.ycombinator.com/item?id=45567589"
+        }
+      ],
+      "source_item_id": 45567589,
+      "source_url": "https://news.ycombinator.com/item?id=45567589",
+      "author": "tamnd",
+      "shared_at": 1760358439,
+      "links": [
+        "https://github.com/mochilang/mochi/tree/main/tests/algorithms/x"
+      ]
+    }
+  ]
+}

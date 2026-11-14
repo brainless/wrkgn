@@ -1,0 +1,33 @@
+{
+  "id": 9531,
+  "slug": "llm-photo-memory-experiments-281d0ebc15",
+  "name": "LLM photo memory experiments",
+  "mentions": [
+    {
+      "name": "LLM photo memory experiments",
+      "description": "A set of experiments exploring how LLMs visually understand a person's photos to learn about them, informed by recent findings from deepseek-OCR. Part of the experiments store the extracted memories with GraphRAG so they can be effectively retrieved without losing too much information.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "nvdnadj92"
+      ],
+      "source_excerpt": "Building a set of experiments that explores LLMs visual understanding of your photos to learn about you, especially given the recent learnings from deepseek-OCR. Part of the experiments delve into storing the memories with GraphRAG so they can be effectively retrieved without losing too information.",
+      "evidence": [
+        {
+          "source_item_id": 45870041,
+          "source_field": "body",
+          "value": "Building a set of experiments that explores LLMs visual understanding of your photos to learn about you, especially given the recent learnings from deepseek-OCR. Part of the experiments delve into storing the memories with GraphRAG so they can be effectively retrieved without losing too information.",
+          "supports": [],
+          "author": "nvdnadj92",
+          "shared_at": 1762728744,
+          "source_url": "https://news.ycombinator.com/item?id=45870041"
+        }
+      ],
+      "source_item_id": 45870041,
+      "source_url": "https://news.ycombinator.com/item?id=45870041",
+      "author": "nvdnadj92",
+      "shared_at": 1762728744,
+      "links": []
+    }
+  ]
+}

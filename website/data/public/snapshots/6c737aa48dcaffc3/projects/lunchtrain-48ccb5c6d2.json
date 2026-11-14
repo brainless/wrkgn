@@ -1,0 +1,35 @@
+{
+  "id": 9396,
+  "slug": "lunchtrain-48ccb5c6d2",
+  "name": "Lunchtrain",
+  "mentions": [
+    {
+      "name": "Lunchtrain",
+      "description": "A web page that gives a one-glance view of what to eat for lunch in Lindholmen, Gothenburg, Sweden. It uses an LLM in the backend to process differently structured dynamic data (such as lunch menus), which would otherwise require highly specific custom code per source.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "johannnishant"
+      ],
+      "source_excerpt": "https://lunchtrain.se/ \nA one glance page to find what to eat for lunch in Lindholmen, Gothenburg, Sweden",
+      "evidence": [
+        {
+          "source_item_id": 45873253,
+          "source_field": "body",
+          "value": "https://lunchtrain.se/ \nA one glance page to find what to eat for lunch in Lindholmen, Gothenburg, Sweden",
+          "supports": [],
+          "author": "johannnishant",
+          "shared_at": 1762758606,
+          "source_url": "https://news.ycombinator.com/item?id=45873253"
+        }
+      ],
+      "source_item_id": 45873253,
+      "source_url": "https://news.ycombinator.com/item?id=45873253",
+      "author": "johannnishant",
+      "shared_at": 1762758606,
+      "links": [
+        "https://lunchtrain.se/"
+      ]
+    }
+  ]
+}

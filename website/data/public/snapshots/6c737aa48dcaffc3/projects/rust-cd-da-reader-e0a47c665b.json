@@ -1,0 +1,63 @@
+{
+  "id": 9041,
+  "slug": "rust-cd-da-reader-e0a47c665b",
+  "name": "rust-cd-da-reader",
+  "mentions": [
+    {
+      "name": "rust-cd-da-reader",
+      "description": "This is a Rust library that reads the table of contents and raw track data from audio CDs.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "bloomca"
+      ],
+      "source_excerpt": "I already wrote a Rust library to read TOC + raw track data from audio CDs (https://github.com/Bloomca/rust-cd-da-reader)",
+      "evidence": [
+        {
+          "source_item_id": 45876893,
+          "source_field": "body",
+          "value": "I already wrote a Rust library to read TOC + raw track data from audio CDs (https://github.com/Bloomca/rust-cd-da-reader)",
+          "supports": [],
+          "author": "bloomca",
+          "shared_at": 1762788579,
+          "source_url": "https://news.ycombinator.com/item?id=45876893"
+        }
+      ],
+      "source_item_id": 45876893,
+      "source_url": "https://news.ycombinator.com/item?id=45876893",
+      "author": "bloomca",
+      "shared_at": 1762788579,
+      "links": [
+        "https://github.com/Bloomca/rust-cd-da-reader"
+      ]
+    },
+    {
+      "name": "rust-cd-da-reader",
+      "description": "A Rust library that reads the table of contents (TOC) and raw PCM data from an audio CD drive, working on Windows, macOS, and Linux.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "bloomca"
+      ],
+      "source_excerpt": "I built a simple Rust library to read TOC and raw PCM data from a CD drive -- https://github.com/Bloomca/rust-cd-da-reader (works on Windows, macOS and Linux)",
+      "evidence": [
+        {
+          "source_item_id": 45420601,
+          "source_field": "body",
+          "value": "I built a simple Rust library to read TOC and raw PCM data from a CD drive -- https://github.com/Bloomca/rust-cd-da-reader (works on Windows, macOS and Linux)",
+          "supports": [],
+          "author": "bloomca",
+          "shared_at": 1759192234,
+          "source_url": "https://news.ycombinator.com/item?id=45420601"
+        }
+      ],
+      "source_item_id": 45420601,
+      "source_url": "https://news.ycombinator.com/item?id=45420601",
+      "author": "bloomca",
+      "shared_at": 1759192234,
+      "links": [
+        "https://github.com/Bloomca/rust-cd-da-reader"
+      ]
+    }
+  ]
+}

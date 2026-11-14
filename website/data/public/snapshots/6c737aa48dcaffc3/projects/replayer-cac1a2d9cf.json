@@ -1,0 +1,36 @@
+{
+  "id": 8401,
+  "slug": "replayer-cac1a2d9cf",
+  "name": "replayer",
+  "mentions": [
+    {
+      "name": "replayer",
+      "description": "An HTTP request replay and comparison tool written in Go. It replays real traffic, compares multiple environments, detects broken endpoints, generates HTML/JSON reports, and analyzes latency. Currently at v0.4.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "kx0101"
+      ],
+      "source_excerpt": "It's an HTTP request replay and comparison tool in Go. You can replay real traffic, compare multiple environments, detect broken endpoints, generate HTML/JSON reports, and analyze latency",
+      "evidence": [
+        {
+          "source_item_id": 46274256,
+          "source_field": "body",
+          "value": "It's an HTTP request replay and comparison tool in Go. You can replay real traffic, compare multiple environments, detect broken endpoints, generate HTML/JSON reports, and analyze latency",
+          "supports": [],
+          "author": "kx0101",
+          "shared_at": 1765805370,
+          "source_url": "https://news.ycombinator.com/item?id=46274256"
+        }
+      ],
+      "source_item_id": 46274256,
+      "source_url": "https://news.ycombinator.com/item?id=46274256",
+      "author": "kx0101",
+      "shared_at": 1765805370,
+      "links": [
+        "https://github.com/kx0101/replayer",
+        "https://www.replayer.online/"
+      ]
+    }
+  ]
+}

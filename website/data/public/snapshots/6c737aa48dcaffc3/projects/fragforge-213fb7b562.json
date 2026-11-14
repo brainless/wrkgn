@@ -1,0 +1,35 @@
+{
+  "id": 5311,
+  "slug": "fragforge-213fb7b562",
+  "name": "FragForge",
+  "mentions": [
+    {
+      "name": "FragForge",
+      "description": "This site provides a database of optimal per-game graphics settings tuned to specific hardware, built by extracting settings from Twitch streamer clips and pairing them with each streamer's known hardware setup, with 200+ curated configs that go beyond generic \"set everything to low\" advice.",
+      "problem": "Players burn significant time manually tweaking graphics settings like shadow quality and anti-aliasing to find the sweet spot between FPS and visual fidelity for their hardware.",
+      "audience": "Gamers who want optimal per-game graphics settings tuned to their specific hardware instead of tweaking manually.",
+      "builder_usernames": [
+        "samoilev"
+      ],
+      "source_excerpt": "I built FragForge (https://fragforge.app/) to scratch my own itch: one place to find optimal per-game settings tuned to specific hardware.",
+      "evidence": [
+        {
+          "source_item_id": 47752344,
+          "source_field": "body",
+          "value": "I built FragForge (https://fragforge.app/) to scratch my own itch: one place to find optimal per-game settings tuned to specific hardware.",
+          "supports": [],
+          "author": "samoilev",
+          "shared_at": 1776089842,
+          "source_url": "https://news.ycombinator.com/item?id=47752344"
+        }
+      ],
+      "source_item_id": 47752344,
+      "source_url": "https://news.ycombinator.com/item?id=47752344",
+      "author": "samoilev",
+      "shared_at": 1776089842,
+      "links": [
+        "https://fragforge.app/"
+      ]
+    }
+  ]
+}

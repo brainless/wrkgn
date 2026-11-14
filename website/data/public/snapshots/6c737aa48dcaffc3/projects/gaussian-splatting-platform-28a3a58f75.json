@@ -1,0 +1,35 @@
+{
+  "id": 3896,
+  "slug": "gaussian-splatting-platform-28a3a58f75",
+  "name": "Gaussian Splatting Platform",
+  "mentions": [
+    {
+      "name": "Gaussian Splatting Platform",
+      "description": "This platform hosts Gaussian splatting capture and rendering on cloud GPUs so developers can integrate capture and splat rendering into their own applications. Currently in beta with ongoing pipeline optimizations, it is adding more API parameters/knobs so users can tune their own pipelines, and plans a capture guide. The builder is seeking testers and feedback on experience and reliability.",
+      "problem": "Capture is the hard part for most folks, so the platform aims to simplify integrating capture and splat rendering.",
+      "audience": "Developers integrating capture and splat rendering into their own apps.",
+      "builder_usernames": [
+        "zzulanas"
+      ],
+      "source_excerpt": "I'm working on building a Gaussian Splatting PLatformhosted on Cloud GPUs so folks can integrate capture/splat rendering in their own apps.\n\nhttps://splat-3d.com\n\nCurrently in beta, working out some pipeline optimizations.",
+      "evidence": [
+        {
+          "source_item_id": 48531505,
+          "source_field": "body",
+          "value": "I'm working on building a Gaussian Splatting PLatformhosted on Cloud GPUs so folks can integrate capture/splat rendering in their own apps.\n\nhttps://splat-3d.com\n\nCurrently in beta, working out some pipeline optimizations.",
+          "supports": [],
+          "author": "zzulanas",
+          "shared_at": 1781464694,
+          "source_url": "https://news.ycombinator.com/item?id=48531505"
+        }
+      ],
+      "source_item_id": 48531505,
+      "source_url": "https://news.ycombinator.com/item?id=48531505",
+      "author": "zzulanas",
+      "shared_at": 1781464694,
+      "links": [
+        "https://splat-3d.com"
+      ]
+    }
+  ]
+}

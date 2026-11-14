@@ -1,0 +1,35 @@
+{
+  "id": 3964,
+  "slug": "goblin-141c76995b",
+  "name": "goblin",
+  "mentions": [
+    {
+      "name": "goblin",
+      "description": "A scripting language that compiles to Go, featuring dynamic, minimal syntax for scripting. Programs compile to a single static binary with no runtime to ship, making deployment easy anywhere, and can use Go's concurrency primitives (goroutines/channels). Intentionally feature-light so someone with programming experience can pick it up in half an hour; still very early stage.",
+      "problem": null,
+      "audience": "People with programming experience looking for a small, easy-to-learn scripting language",
+      "builder_usernames": [
+        "asaka"
+      ],
+      "source_excerpt": "Working on goblin, a scripting language that compiles to Go.",
+      "evidence": [
+        {
+          "source_item_id": 48538966,
+          "source_field": "body",
+          "value": "Working on goblin, a scripting language that compiles to Go.",
+          "supports": [],
+          "author": "asaka",
+          "shared_at": 1781517138,
+          "source_url": "https://news.ycombinator.com/item?id=48538966"
+        }
+      ],
+      "source_item_id": 48538966,
+      "source_url": "https://news.ycombinator.com/item?id=48538966",
+      "author": "asaka",
+      "shared_at": 1781517138,
+      "links": [
+        "https://github.com/aisk/goblin"
+      ]
+    }
+  ]
+}

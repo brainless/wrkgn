@@ -1,0 +1,36 @@
+{
+  "id": 5171,
+  "slug": "dr-pd-66441154a3",
+  "name": "Dr. PD",
+  "mentions": [
+    {
+      "name": "Dr. PD",
+      "description": "An open-source USB-C Power Delivery analyzer and programmable sink. It can sit inline between a USB-PD source and sink to display the communication between them, or connect directly to a source and emulate a sink to characterize chargers and power supplies. The hardware, firmware, and host software are all open source; the control software runs locally in Chrome or Edge with no drivers or installation required, and the platform provides Python, JavaScript, SCPI, and USBTMC interfaces for automation.",
+      "problem": "Serious USB-PD analysis is hard to access; the project aims to make it more accessible.",
+      "audience": null,
+      "builder_usernames": [
+        "mtabini"
+      ],
+      "source_excerpt": "Dr. PD is an open-source USB-C Power Delivery analyzer and programmable sink. It can sit inline between a USB-PD source and sink to show you the communication between them, or connect directly to a source and emulate a sink so you can characterize chargers and power supplies.",
+      "evidence": [
+        {
+          "source_item_id": 47745625,
+          "source_field": "body",
+          "value": "Dr. PD is an open-source USB-C Power Delivery analyzer and programmable sink. It can sit inline between a USB-PD source and sink to show you the communication between them, or connect directly to a source and emulate a sink so you can characterize chargers and power supplies.",
+          "supports": [],
+          "author": "mtabini",
+          "shared_at": 1776036837,
+          "source_url": "https://news.ycombinator.com/item?id=47745625"
+        }
+      ],
+      "source_item_id": 47745625,
+      "source_url": "https://news.ycombinator.com/item?id=47745625",
+      "author": "mtabini",
+      "shared_at": 1776036837,
+      "links": [
+        "https://hackaday.io/project/205495-dr-pd",
+        "https://www.crowdsupply.com/t76-org/dr-pd"
+      ]
+    }
+  ]
+}

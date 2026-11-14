@@ -1,0 +1,91 @@
+{
+  "id": 6814,
+  "slug": "weblock-ce8058519f",
+  "name": "WebLock",
+  "mentions": [
+    {
+      "name": "WebLock",
+      "description": "A very restricted, whitelist-first mobile browser for kids, intended to be used instead of Safari so parents can feel calm about their children's web browsing.",
+      "problem": "The author wants to feel calm when his children browse the web.",
+      "audience": "parents of kids",
+      "builder_usernames": [
+        "mgz"
+      ],
+      "source_excerpt": "* https://weblock.online - a VERY restricted, whitelist-first mobile browser for kids, use it instead of Safari. I want to feel calm when my children browse the web.",
+      "evidence": [
+        {
+          "source_item_id": 46943354,
+          "source_field": "body",
+          "value": "* https://weblock.online - a VERY restricted, whitelist-first mobile browser for kids, use it instead of Safari. I want to feel calm when my children browse the web.",
+          "supports": [],
+          "author": "mgz",
+          "shared_at": 1770629352,
+          "source_url": "https://news.ycombinator.com/item?id=46943354"
+        }
+      ],
+      "source_item_id": 46943354,
+      "source_url": "https://news.ycombinator.com/item?id=46943354",
+      "author": "mgz",
+      "shared_at": 1770629352,
+      "links": [
+        "https://weblock.online"
+      ]
+    },
+    {
+      "name": "Weblock Browser",
+      "description": "An iOS restricted browser for kids with strong parental controls. It classifies websites with AI to determine whether a site is safe for a child to visit, using domain content categories from the Cloudflare Intel API as context; if AI disallows a website, the child can ask a parent to allow it.",
+      "problem": null,
+      "audience": "Kids and their parents",
+      "builder_usernames": [
+        "mgz"
+      ],
+      "source_excerpt": "I work on my iOS app - Weblock Browser, a restricted browser for kids with strong parental controls: https://weblock.online\nRecently I've added AI classification of websites to determine if a website is safe for a child to visit. If AI disallows a website, you can ask your parent to allow it.",
+      "evidence": [
+        {
+          "source_item_id": 46585616,
+          "source_field": "body",
+          "value": "I work on my iOS app - Weblock Browser, a restricted browser for kids with strong parental controls: https://weblock.online\nRecently I've added AI classification of websites to determine if a website is safe for a child to visit. If AI disallows a website, you can ask your parent to allow it.",
+          "supports": [],
+          "author": "mgz",
+          "shared_at": 1768206457,
+          "source_url": "https://news.ycombinator.com/item?id=46585616"
+        }
+      ],
+      "source_item_id": 46585616,
+      "source_url": "https://news.ycombinator.com/item?id=46585616",
+      "author": "mgz",
+      "shared_at": 1768206457,
+      "links": [
+        "https://weblock.online"
+      ]
+    },
+    {
+      "name": "Weblock",
+      "description": "A restricted, whitelist-only browser for kids on iOS that lets children open only parent-approved websites. When a child wants to visit an unknown website, the parent receives a notification and can allow or deny the request.",
+      "problem": "Children can otherwise open any website on a device; parents need a way to restrict kids to only approved websites.",
+      "audience": "Parents who want to restrict their children's web browsing to approved websites.",
+      "builder_usernames": [
+        "mgz"
+      ],
+      "source_excerpt": "Just launched a restricted browser for kids for iOS: https://weblock.online\nNow testing on my kids. The idea is that the browser is whitelist-only, so kids can open only approved websites. I receive a notification when they want to visit an unknown website and I can allow or deny it.",
+      "evidence": [
+        {
+          "source_item_id": 46270795,
+          "source_field": "body",
+          "value": "Just launched a restricted browser for kids for iOS: https://weblock.online\nNow testing on my kids. The idea is that the browser is whitelist-only, so kids can open only approved websites. I receive a notification when they want to visit an unknown website and I can allow or deny it.",
+          "supports": [],
+          "author": "mgz",
+          "shared_at": 1765776663,
+          "source_url": "https://news.ycombinator.com/item?id=46270795"
+        }
+      ],
+      "source_item_id": 46270795,
+      "source_url": "https://news.ycombinator.com/item?id=46270795",
+      "author": "mgz",
+      "shared_at": 1765776663,
+      "links": [
+        "https://weblock.online"
+      ]
+    }
+  ]
+}

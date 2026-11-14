@@ -1,0 +1,37 @@
+{
+  "id": 3535,
+  "slug": "whistle-subtitles-673384417a",
+  "name": "Whistle Subtitles",
+  "mentions": [
+    {
+      "name": "Whistle Subtitles",
+      "description": "This free app generates subtitles for multi-person videos and old movies using NVIDIA's Parakeet ASR model, with a European-language focus (e.g., English, French, German, Spanish, Polish, and more). It ships as offline installers for Linux, Windows, and macOS, and diarization-based speaker tagging is still in development.",
+      "problem": "Subtitling old movies and multi-person videos to make them more accessible.",
+      "audience": null,
+      "builder_usernames": [
+        "properbrew"
+      ],
+      "source_excerpt": "Not the Whistle Enterprise software, however I had a friend with a similar requirement so I built Whistle Subtitles, you can download it from:",
+      "evidence": [
+        {
+          "source_item_id": 48538428,
+          "source_field": "body",
+          "value": "Not the Whistle Enterprise software, however I had a friend with a similar requirement so I built Whistle Subtitles, you can download it from:",
+          "supports": [],
+          "author": "properbrew",
+          "shared_at": 1781513369,
+          "source_url": "https://news.ycombinator.com/item?id=48538428"
+        }
+      ],
+      "source_item_id": 48538428,
+      "source_url": "https://news.ycombinator.com/item?id=48538428",
+      "author": "properbrew",
+      "shared_at": 1781513369,
+      "links": [
+        "https://downloads.blazingbanana.com/whistle-subtitles/unstable/linux/x86_64/WhistleSubtitles-unstable.deb",
+        "https://downloads.blazingbanana.com/whistle-subtitles/unstable/macos/arm64/WhistleSubtitles-unstable.dmg",
+        "https://downloads.blazingbanana.com/whistle-subtitles/unstable/windows/x86_64/WhistleSubtitles-unstable-setup.exe"
+      ]
+    }
+  ]
+}

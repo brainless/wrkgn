@@ -1,0 +1,63 @@
+{
+  "id": 4675,
+  "slug": "larm-8c40e4d5ad",
+  "name": "Larm",
+  "mentions": [
+    {
+      "name": "Larm",
+      "description": "This app is an uptime monitoring service designed to be genuinely reliable and to only alert users when something is actually going wrong. It includes polished status pages, offers a free tier sufficient for most users (with a paid tier gating expensive features like SMS alerts), and provides a public response time checker tool powered by its probe infrastructure.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "joladev"
+      ],
+      "source_excerpt": "I’ve been building an uptime monitor service for a while now, something that is genuinely reliable and only alerts you when something is actually going on. Also comes with very pretty status pages!",
+      "evidence": [
+        {
+          "source_item_id": 48089529,
+          "source_field": "body",
+          "value": "I’ve been building an uptime monitor service for a while now, something that is genuinely reliable and only alerts you when something is actually going on. Also comes with very pretty status pages!",
+          "supports": [],
+          "author": "joladev",
+          "shared_at": 1778458226,
+          "source_url": "https://news.ycombinator.com/item?id=48089529"
+        }
+      ],
+      "source_item_id": 48089529,
+      "source_url": "https://news.ycombinator.com/item?id=48089529",
+      "author": "joladev",
+      "shared_at": 1778458226,
+      "links": [
+        "https://larm.dev"
+      ]
+    },
+    {
+      "name": "Larm",
+      "description": "An uptime monitoring service focused on reliability and reduction in false positives. It features a Phoenix LiveView dashboard, Go probes running on four continents connected to the backend via websocket tunnels, and ClickHouse for reporting, plus a CLI and an MCP interface. A free response time checking tool lets users test how fast their site is.",
+      "problem": "False positives and unreliable results in uptime monitoring.",
+      "audience": "Built for the author's own use, shared in case others find it useful.",
+      "builder_usernames": [
+        "joladev"
+      ],
+      "source_excerpt": "https://larm.dev, an uptime monitoring service with a focus on reliability and reduction in false positives. I’ve been building it for myself really but I figure it’s worth sharing it with people in case someone else finds it useful too.",
+      "evidence": [
+        {
+          "source_item_id": 47748218,
+          "source_field": "body",
+          "value": "https://larm.dev, an uptime monitoring service with a focus on reliability and reduction in false positives. I’ve been building it for myself really but I figure it’s worth sharing it with people in case someone else finds it useful too.",
+          "supports": [],
+          "author": "joladev",
+          "shared_at": 1776060583,
+          "source_url": "https://news.ycombinator.com/item?id=47748218"
+        }
+      ],
+      "source_item_id": 47748218,
+      "source_url": "https://news.ycombinator.com/item?id=47748218",
+      "author": "joladev",
+      "shared_at": 1776060583,
+      "links": [
+        "https://larm.dev"
+      ]
+    }
+  ]
+}

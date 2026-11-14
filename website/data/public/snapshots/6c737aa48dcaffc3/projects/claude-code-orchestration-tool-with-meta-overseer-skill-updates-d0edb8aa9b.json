@@ -1,0 +1,33 @@
+{
+  "id": 7698,
+  "slug": "claude-code-orchestration-tool-with-meta-overseer-skill-updates-d0edb8aa9b",
+  "name": "Claude Code Orchestration Tool with Meta Overseer Skill Updates",
+  "mentions": [
+    {
+      "name": "Claude Code Orchestration Tool with Meta Overseer Skill Updates",
+      "description": "A Claude Code orchestration tool that automatically updates agent skills based on ambiguities flagged by a meta overseer that reasons on top of worker agents' reasoning. Ambiguities trigger asynchronous requests for human input, and the system uses that feedback to update skills or split them into smaller ones for tighter context control, forming a human-in-the-loop (HITL) training loop that constantly refreshes skills and adapts the agent swarm to new tasks. The author frames it as recursive transfer of human expertise into skills.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mercat"
+      ],
+      "source_excerpt": "I am building a Claude code orchestration tool that automatically updates agent skills based on ambiguities flagged in agent responses by a meta overseer. The overseer reasons on top of the worker agents’ reasoning. When that happens, it sends me async requests and early on there are a lot of them. Based on my input, the system updates skills or splits them into smaller ones for tighter context control. This sets up a HITL driven training loop that constantly refreshes skills and adapts the agent swarm to new tasks.",
+      "evidence": [
+        {
+          "source_item_id": 46598481,
+          "source_field": "body",
+          "value": "I am building a Claude code orchestration tool that automatically updates agent skills based on ambiguities flagged in agent responses by a meta overseer. The overseer reasons on top of the worker agents’ reasoning. When that happens, it sends me async requests and early on there are a lot of them. Based on my input, the system updates skills or splits them into smaller ones for tighter context control. This sets up a HITL driven training loop that constantly refreshes skills and adapts the agent swarm to new tasks.",
+          "supports": [],
+          "author": "mercat",
+          "shared_at": 1768292396,
+          "source_url": "https://news.ycombinator.com/item?id=46598481"
+        }
+      ],
+      "source_item_id": 46598481,
+      "source_url": "https://news.ycombinator.com/item?id=46598481",
+      "author": "mercat",
+      "shared_at": 1768292396,
+      "links": []
+    }
+  ]
+}

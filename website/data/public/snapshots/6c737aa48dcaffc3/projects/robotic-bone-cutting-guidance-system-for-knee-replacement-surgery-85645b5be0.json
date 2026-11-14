@@ -1,0 +1,33 @@
+{
+  "id": 9795,
+  "slug": "robotic-bone-cutting-guidance-system-for-knee-replacement-surgery-85645b5be0",
+  "name": "Robotic bone-cutting guidance system for knee replacement surgery",
+  "mentions": [
+    {
+      "name": "Robotic bone-cutting guidance system for knee replacement surgery",
+      "description": "A robotic surgical guidance system that helps surgeons make precise bone cuts during knee replacement surgery, where manual cuts are still the standard. It uses 4K stereoscopic camera capture and multiple ML models to match bone position with sub-millimeter precision. The surgeon screws a metal base piece into the bone, the system detects its position in space, and a Stewart Platform robotically adjusts a second piece placed onto the base so it is oriented exactly where the surgeon needs to cut. Compared with incumbent robotic systems it is many times cheaper, significantly decreases surgery time, reduces error, and works with minimal training. Debuting at a tradeshow in October.",
+      "problem": "Manual bone cuts are still the standard in knee replacement surgery, and existing robotic systems are very costly, big, and add time to the surgery while the patient is under anesthesia with a tourniquet on.",
+      "audience": "surgeons performing knee replacement surgery",
+      "builder_usernames": [
+        "stevepotter"
+      ],
+      "source_excerpt": "I'm working on a system that helps surgeons make precise bone cuts during knee replacement surgery.  Believe it or not, manual cuts are still the standard in that type of procedure.  Robotic systems exist but they are very costly, big, and actually add time to the surgery (bad news when you are under anesthesia and your leg is in a tourniquet).",
+      "evidence": [
+        {
+          "source_item_id": 45419210,
+          "source_field": "body",
+          "value": "I'm working on a system that helps surgeons make precise bone cuts during knee replacement surgery.  Believe it or not, manual cuts are still the standard in that type of procedure.  Robotic systems exist but they are very costly, big, and actually add time to the surgery (bad news when you are under anesthesia and your leg is in a tourniquet).",
+          "supports": [],
+          "author": "stevepotter",
+          "shared_at": 1759182687,
+          "source_url": "https://news.ycombinator.com/item?id=45419210"
+        }
+      ],
+      "source_item_id": 45419210,
+      "source_url": "https://news.ycombinator.com/item?id=45419210",
+      "author": "stevepotter",
+      "shared_at": 1759182687,
+      "links": []
+    }
+  ]
+}

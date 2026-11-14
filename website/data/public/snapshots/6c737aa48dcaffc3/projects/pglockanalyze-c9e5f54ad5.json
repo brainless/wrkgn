@@ -1,0 +1,35 @@
+{
+  "id": 10387,
+  "slug": "pglockanalyze-c9e5f54ad5",
+  "name": "pglockanalyze",
+  "mentions": [
+    {
+      "name": "pglockanalyze",
+      "description": "A CLI tool that makes reasoning about Postgres locks easier. Given a database (typically an ephemeral one spawned by a CI pipeline) and a set of DDL statements or migrations, it opens a transaction, executes the statements, reads the pg_locks view to analyze the locks they acquire, rolls back or commits the transaction depending on flags, and outputs results for each statement. It acts as a complement, not a replacement, to static analysis and the official Postgres docs.",
+      "problem": "Reasoning about the locks acquired by Postgres DDL statements and migrations is difficult; static analysis and documentation alone don't show what locks statements actually take.",
+      "audience": null,
+      "builder_usernames": [
+        "pasxizeis"
+      ],
+      "source_excerpt": "A CLI tool to make reasoning about Postgres locks a bit easier.\n\nGiven a database[1] and a set of DDL statements/migrations you want to check, pglockanalyze will open a transaction, execute the statements, read the pg_locks view to analyze the locks they acquire and rollback (or commit, depending on the flags you passed) the transaction.",
+      "evidence": [
+        {
+          "source_item_id": 44708212,
+          "source_field": "body",
+          "value": "A CLI tool to make reasoning about Postgres locks a bit easier.\n\nGiven a database[1] and a set of DDL statements/migrations you want to check, pglockanalyze will open a transaction, execute the statements, read the pg_locks view to analyze the locks they acquire and rollback (or commit, depending on the flags you passed) the transaction.",
+          "supports": [],
+          "author": "pasxizeis",
+          "shared_at": 1753688065,
+          "source_url": "https://news.ycombinator.com/item?id=44708212"
+        }
+      ],
+      "source_item_id": 44708212,
+      "source_url": "https://news.ycombinator.com/item?id=44708212",
+      "author": "pasxizeis",
+      "shared_at": 1753688065,
+      "links": [
+        "https://github.com/agis/pglockanalyze"
+      ]
+    }
+  ]
+}

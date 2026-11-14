@@ -1,0 +1,35 @@
+{
+  "id": 5114,
+  "slug": "jikimi-188bc3279c",
+  "name": "Jikimi",
+  "mentions": [
+    {
+      "name": "Jikimi",
+      "description": "A privacy-first parental control platform. It runs an on-device OCR engine (PaddleOCR) that reads screen text locally and feeds it into an AI sentiment analysis pipeline, with no screenshots leaving the machine, and sends alerts when concerning interactions such as grooming or bullying are detected. The Rust client includes DNS filtering, game detection (Steam/Wine/Proton), and screen time enforcement, and shipped on Linux first with Windows support in progress.",
+      "problem": "Kids were spending too much uncontrolled time on the computer, and the parents were worried about online predatory behaviour like grooming and bullying.",
+      "audience": "Parents and families who want transparent and effective tools to protect children online.",
+      "builder_usernames": [
+        "jikimi"
+      ],
+      "source_excerpt": "I've been building Jikimi, a privacy-first parental control platform.",
+      "evidence": [
+        {
+          "source_item_id": 47746809,
+          "source_field": "body",
+          "value": "I've been building Jikimi, a privacy-first parental control platform.",
+          "supports": [],
+          "author": "jikimi",
+          "shared_at": 1776046742,
+          "source_url": "https://news.ycombinator.com/item?id=47746809"
+        }
+      ],
+      "source_item_id": 47746809,
+      "source_url": "https://news.ycombinator.com/item?id=47746809",
+      "author": "jikimi",
+      "shared_at": 1776046742,
+      "links": [
+        "https://jikimi.app"
+      ]
+    }
+  ]
+}

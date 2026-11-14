@@ -1,0 +1,33 @@
+{
+  "id": 4776,
+  "slug": "mpc-protocol-simulator-764e50275d",
+  "name": "MPC Protocol Simulator",
+  "mentions": [
+    {
+      "name": "MPC Protocol Simulator",
+      "description": "A tool that simulates and benchmarks MPC (multi-party computation) protocols on a local machine with configurable network parameters, without needing to spawn real distributed servers. It uses mathematical formulas to compute message delays, and also supports writing MPC protocols using traditional networking.",
+      "problem": null,
+      "audience": "Protocol researchers and cryptography engineers",
+      "builder_usernames": [
+        "heio10"
+      ],
+      "source_excerpt": "A tool to simulate and benchmarks MPC protocols in your local machine with your desired network parameters, without need to spawn real distributed servers. The simulator uses math formulas to compute the delays to send the messages.",
+      "evidence": [
+        {
+          "source_item_id": 48096194,
+          "source_field": "body",
+          "value": "A tool to simulate and benchmarks MPC protocols in your local machine with your desired network parameters, without need to spawn real distributed servers. The simulator uses math formulas to compute the delays to send the messages.",
+          "supports": [],
+          "author": "heio10",
+          "shared_at": 1778512768,
+          "source_url": "https://news.ycombinator.com/item?id=48096194"
+        }
+      ],
+      "source_item_id": 48096194,
+      "source_url": "https://news.ycombinator.com/item?id=48096194",
+      "author": "heio10",
+      "shared_at": 1778512768,
+      "links": []
+    }
+  ]
+}

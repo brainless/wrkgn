@@ -1,0 +1,35 @@
+{
+  "id": 8151,
+  "slug": "lowcostmail-2c5385debf",
+  "name": "LowCostMail",
+  "mentions": [
+    {
+      "name": "LowCostMail",
+      "description": "A low-cost email hosting service for custom domains, offering $10/year for 5GB with unlimited mailboxes, domains, aliases, SMTP, IMAP, and webmail. It focuses on high-quality hosting, deliverability, and zero spam tolerance as a bootstrapped alternative to pricier providers like FastMail.",
+      "problem": "Mainstream email providers are expensive and carry lock-in risks, leaving developers without a stupid-cheap, high-quality custom-domain email hosting option.",
+      "audience": "Developers who need cheap, high-quality custom-domain email hosting",
+      "builder_usernames": [
+        "lzy"
+      ],
+      "source_excerpt": "Working on a low cost email service. Ditched Gmail for my custom domains to avoid lock-in risks, and I believe devs really need stupid-cheap ($10/yr 5GB, unlimited mailboxes/domains/aliases/SMTP/IMAP/webmail) high-quality hosting that nails deliverability with zero spam tolerance.",
+      "evidence": [
+        {
+          "source_item_id": 46268930,
+          "source_field": "body",
+          "value": "Working on a low cost email service. Ditched Gmail for my custom domains to avoid lock-in risks, and I believe devs really need stupid-cheap ($10/yr 5GB, unlimited mailboxes/domains/aliases/SMTP/IMAP/webmail) high-quality hosting that nails deliverability with zero spam tolerance.",
+          "supports": [],
+          "author": "lzy",
+          "shared_at": 1765759654,
+          "source_url": "https://news.ycombinator.com/item?id=46268930"
+        }
+      ],
+      "source_item_id": 46268930,
+      "source_url": "https://news.ycombinator.com/item?id=46268930",
+      "author": "lzy",
+      "shared_at": 1765759654,
+      "links": [
+        "https://www.lowcostmail.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 4686,
+  "slug": "clear-41c1122eb9",
+  "name": "CLEAR",
+  "mentions": [
+    {
+      "name": "CLEAR",
+      "description": "A memory-safe programming language similar to Rust with a declarative concurrency model, aiming to be much safer, simpler, and easier to write while staying nearly as fast and efficient as Rust. Developers can start with slow, untyped code, and internal tooling guides them toward adding types, optimizations, and concurrency strategies for maximum performance.",
+      "problem": "Rust code is safe and fast but complex and hard to write; the language aims to make Rust-style code nearly as easy to write as Ruby.",
+      "audience": "developers",
+      "builder_usernames": [
+        "onlyrealcuzzo"
+      ],
+      "source_excerpt": "I'm building a memory safe programming language that's like Rust, with a declarative concurrency model, which makes it much safer, simpler, and easier and nearly as fast & efficient\n\nhttps://github.com/cuzzo/clear",
+      "evidence": [
+        {
+          "source_item_id": 48090215,
+          "source_field": "body",
+          "value": "I'm building a memory safe programming language that's like Rust, with a declarative concurrency model, which makes it much safer, simpler, and easier and nearly as fast & efficient\n\nhttps://github.com/cuzzo/clear",
+          "supports": [],
+          "author": "onlyrealcuzzo",
+          "shared_at": 1778464608,
+          "source_url": "https://news.ycombinator.com/item?id=48090215"
+        }
+      ],
+      "source_item_id": 48090215,
+      "source_url": "https://news.ycombinator.com/item?id=48090215",
+      "author": "onlyrealcuzzo",
+      "shared_at": 1778464608,
+      "links": [
+        "https://github.com/cuzzo/clear"
+      ]
+    }
+  ]
+}

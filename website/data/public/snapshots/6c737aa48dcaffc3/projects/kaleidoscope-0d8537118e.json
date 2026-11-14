@@ -1,0 +1,35 @@
+{
+  "id": 9425,
+  "slug": "kaleidoscope-0d8537118e",
+  "name": "Kaleidoscope",
+  "mentions": [
+    {
+      "name": "Kaleidoscope",
+      "description": "A multi-agent terminal UI (TUI) that uses opencode and tmux to run multiple LLM agents in parallel on the same problem, increasing the odds that at least one agent builds the desired result. It can also be used to improve itself.",
+      "problem": "Single LLM runs are unreliable — like a slot machine — and running 3 agents in parallel on even tough problems is enough to get one that builds what you want.",
+      "audience": null,
+      "builder_usernames": [
+        "dividedcomet"
+      ],
+      "source_excerpt": "A multi-agent TUI that uses opencode and tmux to help me solve the frustrating LLM slot machine problem. I find that running 3 agents in parallel on even tough problems is enough to have one that builds what I want.",
+      "evidence": [
+        {
+          "source_item_id": 45875980,
+          "source_field": "body",
+          "value": "A multi-agent TUI that uses opencode and tmux to help me solve the frustrating LLM slot machine problem. I find that running 3 agents in parallel on even tough problems is enough to have one that builds what I want.",
+          "supports": [],
+          "author": "dividedcomet",
+          "shared_at": 1762782503,
+          "source_url": "https://news.ycombinator.com/item?id=45875980"
+        }
+      ],
+      "source_item_id": 45875980,
+      "source_url": "https://news.ycombinator.com/item?id=45875980",
+      "author": "dividedcomet",
+      "shared_at": 1762782503,
+      "links": [
+        "https://github.com/paradise-runner/kaleidoscope"
+      ]
+    }
+  ]
+}

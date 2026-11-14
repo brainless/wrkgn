@@ -1,0 +1,35 @@
+{
+  "id": 10058,
+  "slug": "miniwg-68a69cea5f",
+  "name": "miniwg",
+  "mentions": [
+    {
+      "name": "miniwg",
+      "description": "A minimal, educational WireGuard implementation written to practice networking and cryptography. It supports creating tunnels between two miniwg instances and between miniwg and the Linux kernel's WireGuard implementation, and is still in heavy development.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "drio"
+      ],
+      "source_excerpt": "I'm writing a minimal, educational WireGuard implementation to practice networking and cryptography: https://github.com/drio/miniwg. It's still in heavy development, but it's been a great learning experience. I've already been able to create tunnels between two miniwg instances and between miniwg and Jason's WireGuard from the Linux kernel.",
+      "evidence": [
+        {
+          "source_item_id": 45431527,
+          "source_field": "body",
+          "value": "I'm writing a minimal, educational WireGuard implementation to practice networking and cryptography: https://github.com/drio/miniwg. It's still in heavy development, but it's been a great learning experience. I've already been able to create tunnels between two miniwg instances and between miniwg and Jason's WireGuard from the Linux kernel.",
+          "supports": [],
+          "author": "drio",
+          "shared_at": 1759267986,
+          "source_url": "https://news.ycombinator.com/item?id=45431527"
+        }
+      ],
+      "source_item_id": 45431527,
+      "source_url": "https://news.ycombinator.com/item?id=45431527",
+      "author": "drio",
+      "shared_at": 1759267986,
+      "links": [
+        "https://github.com/drio/miniwg"
+      ]
+    }
+  ]
+}

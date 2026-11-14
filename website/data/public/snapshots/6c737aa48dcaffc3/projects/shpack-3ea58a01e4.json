@@ -1,0 +1,35 @@
+{
+  "id": 4126,
+  "slug": "shpack-3ea58a01e4",
+  "name": "shpack",
+  "mentions": [
+    {
+      "name": "shpack",
+      "description": "A tool that speeds up C/C++ compiler bootstrapping, starting from a single binary of less than 1KB and reaching GCC 4.7 in 2-3 minutes on x86_64 and aarch64.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "stabbles"
+      ],
+      "source_excerpt": "Speeding up C/C++ compiler bootstrapping, starting at a single binary of <1KB. Currently it gets to GCC 4.7 in 2-3 minutes on x86_64 and aarch64: https://github.com/haampie/shpack",
+      "evidence": [
+        {
+          "source_item_id": 48533034,
+          "source_field": "body",
+          "value": "Speeding up C/C++ compiler bootstrapping, starting at a single binary of <1KB. Currently it gets to GCC 4.7 in 2-3 minutes on x86_64 and aarch64: https://github.com/haampie/shpack",
+          "supports": [],
+          "author": "stabbles",
+          "shared_at": 1781472990,
+          "source_url": "https://news.ycombinator.com/item?id=48533034"
+        }
+      ],
+      "source_item_id": 48533034,
+      "source_url": "https://news.ycombinator.com/item?id=48533034",
+      "author": "stabbles",
+      "shared_at": 1781472990,
+      "links": [
+        "https://github.com/haampie/shpack"
+      ]
+    }
+  ]
+}

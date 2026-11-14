@@ -1,0 +1,35 @@
+{
+  "id": 5965,
+  "slug": "codirigent-351e97a5e5",
+  "name": "Codirigent",
+  "mentions": [
+    {
+      "name": "Codirigent",
+      "description": "A terminal-based IDE built in Rust for running parallel coding CLI workflows with Claude Code, Codex, and Gemini. It offers custom layouts with drag-and-drop window management, auto-resume of the last working session on startup, notifications, direct image copy-paste into the AI coding CLIs, and a file tree with right-click to insert file paths into a session. Works on Windows and macOS and is fully open source.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "cyw"
+      ],
+      "source_excerpt": "I used Rust to build a terminal based IDE for parallel coding cli workflow. It works with Claude Code, Codex and Gemini!",
+      "evidence": [
+        {
+          "source_item_id": 47303773,
+          "source_field": "body",
+          "value": "I used Rust to build a terminal based IDE for parallel coding cli workflow. It works with Claude Code, Codex and Gemini!",
+          "supports": [],
+          "author": "cyw",
+          "shared_at": 1773019829,
+          "source_url": "https://news.ycombinator.com/item?id=47303773"
+        }
+      ],
+      "source_item_id": 47303773,
+      "source_url": "https://news.ycombinator.com/item?id=47303773",
+      "author": "cyw",
+      "shared_at": 1773019829,
+      "links": [
+        "https://github.com/oso95/Codirigent"
+      ]
+    }
+  ]
+}

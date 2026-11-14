@@ -1,0 +1,35 @@
+{
+  "id": 4839,
+  "slug": "lambda-erp-384200a19b",
+  "name": "Lambda ERP",
+  "mentions": [
+    {
+      "name": "Lambda ERP",
+      "description": "A chat-native ERP system that replaces traditional ERP interfaces with prompting, allowing all ERP functionality to be performed via LLM chat.",
+      "problem": "Dealing with complicated ERP systems is difficult; LLMs could make them much simpler to use.",
+      "audience": null,
+      "builder_usernames": [
+        "jcfrei"
+      ],
+      "source_excerpt": "I think LLMs will make dealing with complicated ERPs much simpler. So I built a chat-native one that can do all the functionality just via prompting: https://github.com/lambdadevelopment/lambda-erp",
+      "evidence": [
+        {
+          "source_item_id": 48092102,
+          "source_field": "body",
+          "value": "I think LLMs will make dealing with complicated ERPs much simpler. So I built a chat-native one that can do all the functionality just via prompting: https://github.com/lambdadevelopment/lambda-erp",
+          "supports": [],
+          "author": "jcfrei",
+          "shared_at": 1778485082,
+          "source_url": "https://news.ycombinator.com/item?id=48092102"
+        }
+      ],
+      "source_item_id": 48092102,
+      "source_url": "https://news.ycombinator.com/item?id=48092102",
+      "author": "jcfrei",
+      "shared_at": 1778485082,
+      "links": [
+        "https://github.com/lambdadevelopment/lambda-erp"
+      ]
+    }
+  ]
+}

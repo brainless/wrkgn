@@ -1,0 +1,33 @@
+{
+  "id": 5983,
+  "slug": "bambu-print-farm-manager-f1a636f9ce",
+  "name": "Bambu print farm manager",
+  "mentions": [
+    {
+      "name": "Bambu print farm manager",
+      "description": "This tool manages a farm of Bambu 3D printers, replicating key features of Bambu's cloud app (handy) over LAN mode. It pulls camera images, the currently printing file with its preview image and pause points, shows a dashboard with projected timing, sends notifications when jobs start, stop, or pause, and supports remote printer control. Planned features include delayed overnight printing, manual print queueing, automatic print scheduling with projected plate-switch times to maximize printer utilization, inventory management, and tracking of magnet and filament usage integrated with BoM and production quantity tracking.",
+      "problem": null,
+      "audience": "The author's wife, who runs 8 Bambu printers for her product business selling items with 16 different printed parts.",
+      "builder_usernames": [
+        "swsieber"
+      ],
+      "source_excerpt": "I'm writing a print farm manager for my wife, who has 8 bambu printers. I've put one of them in lan mode for testing, but I'm pretty close to replicating the important handy (Bambu's cloud app) features",
+      "evidence": [
+        {
+          "source_item_id": 47310678,
+          "source_field": "body",
+          "value": "I'm writing a print farm manager for my wife, who has 8 bambu printers. I've put one of them in lan mode for testing, but I'm pretty close to replicating the important handy (Bambu's cloud app) features",
+          "supports": [],
+          "author": "swsieber",
+          "shared_at": 1773071513,
+          "source_url": "https://news.ycombinator.com/item?id=47310678"
+        }
+      ],
+      "source_item_id": 47310678,
+      "source_url": "https://news.ycombinator.com/item?id=47310678",
+      "author": "swsieber",
+      "shared_at": 1773071513,
+      "links": []
+    }
+  ]
+}

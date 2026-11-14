@@ -1,0 +1,175 @@
+{
+  "id": 655,
+  "slug": "smolvm-225664e590",
+  "name": "smolvm",
+  "mentions": [
+    {
+      "name": "smolvm",
+      "description": "A lightweight, embeddable virtual machine sandbox positioned as a Docker replacement, focused on stronger isolation and more efficient resource utilization — designed to be embedded into applications like an 'SQLite of VMs'.",
+      "problem": "Docker's isolation and resource overhead are suboptimal; this aims for better isolation with lighter resource utilization.",
+      "audience": null,
+      "builder_usernames": [
+        "binsquare"
+      ],
+      "source_excerpt": "Building a replacement for docker focused on better isolation and more lightweight resource utilization.\n\nIt's a sandbox that you can embed ala the sqlite of VM's.\n\nLink: https://github.com/smol-machines/smolvm",
+      "evidence": [
+        {
+          "source_item_id": 50418115,
+          "source_field": "body",
+          "value": "Building a replacement for docker focused on better isolation and more lightweight resource utilization.\n\nIt's a sandbox that you can embed ala the sqlite of VM's.\n\nLink: https://github.com/smol-machines/smolvm",
+          "supports": [],
+          "author": "binsquare",
+          "shared_at": 1794177009,
+          "source_url": "https://news.ycombinator.com/item?id=50418115"
+        }
+      ],
+      "source_item_id": 50418115,
+      "source_url": "https://news.ycombinator.com/item?id=50418115",
+      "author": "binsquare",
+      "shared_at": 1794177009,
+      "links": [
+        "https://github.com/smol-machines/smolvm"
+      ]
+    },
+    {
+      "name": "smol machines",
+      "description": "A sandboxing primitive that works locally and remotely to enable \"branchable compute\": users can checkpoint, branch, and roll back entire virtual machines, like git but applied to the whole computer.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "binsquare"
+      ],
+      "source_excerpt": "I'm building smol machines, a new sandboxing primitive that works locally/remotely to introduce \"branchable compute\".",
+      "evidence": [
+        {
+          "source_item_id": 49702966,
+          "source_field": "body",
+          "value": "I'm building smol machines, a new sandboxing primitive that works locally/remotely to introduce \"branchable compute\".",
+          "supports": [],
+          "author": "binsquare",
+          "shared_at": 1789415617,
+          "source_url": "https://news.ycombinator.com/item?id=49702966"
+        }
+      ],
+      "source_item_id": 49702966,
+      "source_url": "https://news.ycombinator.com/item?id=49702966",
+      "author": "binsquare",
+      "shared_at": 1789415617,
+      "links": [
+        "https://github.com/smol-machines/smolvm"
+      ]
+    },
+    {
+      "name": "smolvm",
+      "description": "A lightweight, portable virtual machine that simplifies or replaces the need for containers.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "binsquare"
+      ],
+      "source_excerpt": "A lightweight ,portable virtual machine that simplifies/replaces need for containers.",
+      "evidence": [
+        {
+          "source_item_id": 49236673,
+          "source_field": "body",
+          "value": "A lightweight ,portable virtual machine that simplifies/replaces need for containers.",
+          "supports": [],
+          "author": "binsquare",
+          "shared_at": 1786313538,
+          "source_url": "https://news.ycombinator.com/item?id=49236673"
+        }
+      ],
+      "source_item_id": 49236673,
+      "source_url": "https://news.ycombinator.com/item?id=49236673",
+      "author": "binsquare",
+      "shared_at": 1786313538,
+      "links": [
+        "https://github.com/smol-machines/smolvm"
+      ]
+    },
+    {
+      "name": "smolvm",
+      "description": "A new VM/container hybrid primitive that combines the isolation of a VM with the speed and flexibility of containers; the open-source foundation of smol machines' cloud infrastructure.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "binsquare"
+      ],
+      "source_excerpt": "I am building it on top of a new primitive called smolvm: a hybrid that combines isolation of VM with speed and flexibility of containers.\n\nhttps://github.com/smol-machines/smolvm",
+      "evidence": [
+        {
+          "source_item_id": 48886913,
+          "source_field": "body",
+          "value": "I am building it on top of a new primitive called smolvm: a hybrid that combines isolation of VM with speed and flexibility of containers.\n\nhttps://github.com/smol-machines/smolvm",
+          "supports": [],
+          "author": "binsquare",
+          "shared_at": 1783907522,
+          "source_url": "https://news.ycombinator.com/item?id=48886913"
+        }
+      ],
+      "source_item_id": 48886913,
+      "source_url": "https://news.ycombinator.com/item?id=48886913",
+      "author": "binsquare",
+      "shared_at": 1783907522,
+      "links": [
+        "https://github.com/smol-machines/smolvm"
+      ]
+    },
+    {
+      "name": "smol machine",
+      "description": "This is a free, open-source virtual machine that aims to offer the fast boot times and portability of containers.",
+      "problem": "Virtual machines lack the fast boot and portability of containers.",
+      "audience": null,
+      "builder_usernames": [
+        "binsquare"
+      ],
+      "source_excerpt": "I'm working on building a virtual machine that has the fast boot and portability of containers.\n\nIt's called a smol machine free and oss, https://github.com/smol-machines/smolvm",
+      "evidence": [
+        {
+          "source_item_id": 48091620,
+          "source_field": "body",
+          "value": "I'm working on building a virtual machine that has the fast boot and portability of containers.\n\nIt's called a smol machine free and oss, https://github.com/smol-machines/smolvm",
+          "supports": [],
+          "author": "binsquare",
+          "shared_at": 1778480507,
+          "source_url": "https://news.ycombinator.com/item?id=48091620"
+        }
+      ],
+      "source_item_id": 48091620,
+      "source_url": "https://news.ycombinator.com/item?id=48091620",
+      "author": "binsquare",
+      "shared_at": 1778480507,
+      "links": [
+        "https://github.com/smol-machines/smolvm"
+      ]
+    },
+    {
+      "name": "smolvm",
+      "description": "A free, open-source virtual machine designed to start as fast as containers and to be as portable and easy to use as containers. It targets sandboxing workloads locally and remotely and is positioned as a better infrastructure primitive than Firecracker.",
+      "problem": "The author found Firecracker a pain to use and containers have many gotchas, so they are building an easier-to-use VM alternative.",
+      "audience": null,
+      "builder_usernames": [
+        "binsquare"
+      ],
+      "source_excerpt": "I am building a virtual machine that starts as fast as containers and can be made portable and easy to use like containers.\n\nfree, open source -> https://github.com/smol-machines/smolvm",
+      "evidence": [
+        {
+          "source_item_id": 47745536,
+          "source_field": "body",
+          "value": "I am building a virtual machine that starts as fast as containers and can be made portable and easy to use like containers.\n\nfree, open source -> https://github.com/smol-machines/smolvm",
+          "supports": [],
+          "author": "binsquare",
+          "shared_at": 1776035979,
+          "source_url": "https://news.ycombinator.com/item?id=47745536"
+        }
+      ],
+      "source_item_id": 47745536,
+      "source_url": "https://news.ycombinator.com/item?id=47745536",
+      "author": "binsquare",
+      "shared_at": 1776035979,
+      "links": [
+        "https://github.com/smol-machines/smolvm"
+      ]
+    }
+  ]
+}

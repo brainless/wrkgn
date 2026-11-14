@@ -1,0 +1,35 @@
+{
+  "id": 4780,
+  "slug": "betterleaks-d82bc7ee8d",
+  "name": "Betterleaks",
+  "mentions": [
+    {
+      "name": "Betterleaks",
+      "description": "A secret-scanning tool and successor to Gitleaks. Version 1.2.0 added GitHub as a source to scan for exposed secrets and introduced a new filtering system powered by CEL for more expressive filters.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "zricethezav"
+      ],
+      "source_excerpt": "I've been working on Betterleaks for the past three months. It's the successor to Gitleaks since I'm not focused on that project much anymore. I just released v1.2.0 which added GitHub as a source to scan for secrets against and a new filtering system powered by CEL for more expressiveness.",
+      "evidence": [
+        {
+          "source_item_id": 48086774,
+          "source_field": "body",
+          "value": "I've been working on Betterleaks for the past three months. It's the successor to Gitleaks since I'm not focused on that project much anymore. I just released v1.2.0 which added GitHub as a source to scan for secrets against and a new filtering system powered by CEL for more expressiveness.",
+          "supports": [],
+          "author": "zricethezav",
+          "shared_at": 1778439746,
+          "source_url": "https://news.ycombinator.com/item?id=48086774"
+        }
+      ],
+      "source_item_id": 48086774,
+      "source_url": "https://news.ycombinator.com/item?id=48086774",
+      "author": "zricethezav",
+      "shared_at": 1778439746,
+      "links": [
+        "https://betterleaks.com"
+      ]
+    }
+  ]
+}

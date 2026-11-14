@@ -1,0 +1,35 @@
+{
+  "id": 7499,
+  "slug": "jpeg2000-571251217f",
+  "name": "jpeg2000",
+  "mentions": [
+    {
+      "name": "jpeg2000",
+      "description": "A JPEG 2000 image decoder written in Rust. It implements the format's discrete wavelet transforms and fills the gap of no existing Rust implementation of JPEG 2000; the builder undertook it to learn wavelet transforms and to use Rust in a non-trivial capacity.",
+      "problem": "JPEG 2000 did not have a Rust implementation.",
+      "audience": null,
+      "builder_usernames": [
+        "Lanzaa"
+      ],
+      "source_excerpt": "I'm working on a jpeg2000[0] decoder in Rust:\n\nhttps://github.com/iszak/jpeg2000",
+      "evidence": [
+        {
+          "source_item_id": 46593714,
+          "source_field": "body",
+          "value": "I'm working on a jpeg2000[0] decoder in Rust:\n\nhttps://github.com/iszak/jpeg2000",
+          "supports": [],
+          "author": "Lanzaa",
+          "shared_at": 1768249277,
+          "source_url": "https://news.ycombinator.com/item?id=46593714"
+        }
+      ],
+      "source_item_id": 46593714,
+      "source_url": "https://news.ycombinator.com/item?id=46593714",
+      "author": "Lanzaa",
+      "shared_at": 1768249277,
+      "links": [
+        "https://github.com/iszak/jpeg2000"
+      ]
+    }
+  ]
+}

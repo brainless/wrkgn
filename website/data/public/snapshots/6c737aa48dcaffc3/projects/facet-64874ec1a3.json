@@ -1,0 +1,33 @@
+{
+  "id": 8930,
+  "slug": "facet-64874ec1a3",
+  "name": "FACET",
+  "mentions": [
+    {
+      "name": "FACET",
+      "description": "FACET is a deterministic execution layer for AI systems that treats LLMs as constrained components inside explicitly defined workflows. It enforces strict input/output schemas, validated DAGs, replayable execution, and observable failure modes, with the goal of making AI behavior testable and debuggable rather than probabilistic and opaque.",
+      "problem": "Most instability in production AI systems isn't model-related — it comes from ambiguous structure around the model.",
+      "audience": null,
+      "builder_usernames": [
+        "rokoss21"
+      ],
+      "source_excerpt": "I’m working on a deterministic execution layer for AI systems.\n\nThe goal is to treat LLMs as constrained components inside explicitly defined workflows: strict input/output schemas, validated DAGs, replayable execution, and observable failure modes. Most instability I’ve seen in production AI systems isn’t model-related — it comes from ambiguous structure around the model.\n\nWe’re exploring this through a project called FACET, focused on making AI behavior testable and debuggable rather than probabilistic and opaque.",
+      "evidence": [
+        {
+          "source_item_id": 46282466,
+          "source_field": "body",
+          "value": "I’m working on a deterministic execution layer for AI systems.\n\nThe goal is to treat LLMs as constrained components inside explicitly defined workflows: strict input/output schemas, validated DAGs, replayable execution, and observable failure modes. Most instability I’ve seen in production AI systems isn’t model-related — it comes from ambiguous structure around the model.\n\nWe’re exploring this through a project called FACET, focused on making AI behavior testable and debuggable rather than probabilistic and opaque.",
+          "supports": [],
+          "author": "rokoss21",
+          "shared_at": 1765841365,
+          "source_url": "https://news.ycombinator.com/item?id=46282466"
+        }
+      ],
+      "source_item_id": 46282466,
+      "source_url": "https://news.ycombinator.com/item?id=46282466",
+      "author": "rokoss21",
+      "shared_at": 1765841365,
+      "links": []
+    }
+  ]
+}

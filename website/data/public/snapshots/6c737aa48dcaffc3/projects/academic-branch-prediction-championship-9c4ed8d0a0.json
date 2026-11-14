@@ -1,0 +1,35 @@
+{
+  "id": 7037,
+  "slug": "academic-branch-prediction-championship-9c4ed8d0a0",
+  "name": "Academic Branch Prediction Championship",
+  "mentions": [
+    {
+      "name": "Academic Branch Prediction Championship",
+      "description": "An academic championship competition for branch predictors that, unlike prior championships, incorporates real-world design constraints such as prediction latency and energy consumption. It is open to everyone, with documentation and a tutorial on the website/repository to help participants get started.",
+      "problem": "Real-world design constraints, such as how long a prediction takes to produce and how much energy it consumes, have never been seriously considered in previous branch prediction championships.",
+      "audience": null,
+      "builder_usernames": [
+        "aclindsa"
+      ],
+      "source_excerpt": "I am organizing an academic branch prediction championship: https://cbp-ng.bpchamp.com/\n\nThis is not the first championship in branch prediction, but real-world design constraints have never been seriously considered before (How long does it take to produce a prediction? How much energy does it consume?).",
+      "evidence": [
+        {
+          "source_item_id": 46959346,
+          "source_field": "body",
+          "value": "I am organizing an academic branch prediction championship: https://cbp-ng.bpchamp.com/\n\nThis is not the first championship in branch prediction, but real-world design constraints have never been seriously considered before (How long does it take to produce a prediction? How much energy does it consume?).",
+          "supports": [],
+          "author": "aclindsa",
+          "shared_at": 1770729559,
+          "source_url": "https://news.ycombinator.com/item?id=46959346"
+        }
+      ],
+      "source_item_id": 46959346,
+      "source_url": "https://news.ycombinator.com/item?id=46959346",
+      "author": "aclindsa",
+      "shared_at": 1770729559,
+      "links": [
+        "https://cbp-ng.bpchamp.com/"
+      ]
+    }
+  ]
+}

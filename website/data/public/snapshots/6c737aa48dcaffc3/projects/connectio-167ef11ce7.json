@@ -1,0 +1,63 @@
+{
+  "id": 3986,
+  "slug": "connectio-167ef11ce7",
+  "name": "Connectio",
+  "mentions": [
+    {
+      "name": "Connectio",
+      "description": "A local proxy manager that connects servers and exposes a single URL externally. It was initially built to work with MCP servers, enabling OAuth to work locally through a UI -> backend -> MCP client flow, and gains new features over time.",
+      "problem": "Needed OAuth to work locally when going through UI -> backend -> MCP client with MCP servers.",
+      "audience": null,
+      "builder_usernames": [
+        "pulkitbanta"
+      ],
+      "source_excerpt": "I continue to work on https://github.com/PulkitBanta/connectio. A local proxy manager to connect servers and expose a single url outside.",
+      "evidence": [
+        {
+          "source_item_id": 48565655,
+          "source_field": "body",
+          "value": "I continue to work on https://github.com/PulkitBanta/connectio. A local proxy manager to connect servers and expose a single url outside.",
+          "supports": [],
+          "author": "pulkitbanta",
+          "shared_at": 1781670410,
+          "source_url": "https://news.ycombinator.com/item?id=48565655"
+        }
+      ],
+      "source_item_id": 48565655,
+      "source_url": "https://news.ycombinator.com/item?id=48565655",
+      "author": "pulkitbanta",
+      "shared_at": 1781670410,
+      "links": [
+        "https://github.com/PulkitBanta/connectio"
+      ]
+    },
+    {
+      "name": "connectio",
+      "description": "This app runs a local proxy server that takes configurable rules and lets users add applications, exposing the server's address on the network so everything can be accessed from there. It is a work in progress with further improvements planned.",
+      "problem": "While building an MCP application at the author's organization, code changes had to be made to match AWS load balancer requirements; this proxy app aims to handle that with rules instead.",
+      "audience": null,
+      "builder_usernames": [
+        "pulkitbanta"
+      ],
+      "source_excerpt": "I'm working on a local proxy application locally. I was building a mcp application in my organization and had to make some code changes to match what we wanted on the AWS load balancer. So I thought why not have an application that runs a server, takes some rules and allows users to add applications.",
+      "evidence": [
+        {
+          "source_item_id": 47755142,
+          "source_field": "body",
+          "value": "I'm working on a local proxy application locally. I was building a mcp application in my organization and had to make some code changes to match what we wanted on the AWS load balancer. So I thought why not have an application that runs a server, takes some rules and allows users to add applications.",
+          "supports": [],
+          "author": "pulkitbanta",
+          "shared_at": 1776100605,
+          "source_url": "https://news.ycombinator.com/item?id=47755142"
+        }
+      ],
+      "source_item_id": 47755142,
+      "source_url": "https://news.ycombinator.com/item?id=47755142",
+      "author": "pulkitbanta",
+      "shared_at": 1776100605,
+      "links": [
+        "https://github.com/PulkitBanta/connectio"
+      ]
+    }
+  ]
+}

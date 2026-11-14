@@ -1,0 +1,33 @@
+{
+  "id": 8099,
+  "slug": "cargo-but-for-c-9d64f49bf1",
+  "name": "Cargo but for C",
+  "mentions": [
+    {
+      "name": "Cargo but for C",
+      "description": "This build tool and package manager aims to be Cargo for the C language: it pins dependencies precisely and builds everything from source with no binary repository, avoids depending on a scripting language or a complex DSL, and strikes a balance between \"builds are data\" and \"builds are code\". The goal is to be as big an improvement over existing C build tools (Conan, CMake, Make) as uv was over existing Python tools, despite no upstream libraries adopting it natively.",
+      "problem": "C build tooling has a huge gap: no tool pins dependencies precisely and builds everything from source, existing options depend on scripting languages (Conan uses Python) or overly complex DSLs (CMake, Make), and none balance \"builds are data\" with \"builds are code\".",
+      "audience": null,
+      "builder_usernames": [
+        "dboon"
+      ],
+      "source_excerpt": "I'm working on \"Cargo but for C\".\n\nIt started out as something marginally more useful than vendoring your dependencies as submodules + baking in the knowledge of how to build a bunch of common projects.",
+      "evidence": [
+        {
+          "source_item_id": 46266594,
+          "source_field": "body",
+          "value": "I'm working on \"Cargo but for C\".\n\nIt started out as something marginally more useful than vendoring your dependencies as submodules + baking in the knowledge of how to build a bunch of common projects.",
+          "supports": [],
+          "author": "dboon",
+          "shared_at": 1765744504,
+          "source_url": "https://news.ycombinator.com/item?id=46266594"
+        }
+      ],
+      "source_item_id": 46266594,
+      "source_url": "https://news.ycombinator.com/item?id=46266594",
+      "author": "dboon",
+      "shared_at": 1765744504,
+      "links": []
+    }
+  ]
+}

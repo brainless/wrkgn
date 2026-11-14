@@ -1,0 +1,35 @@
+{
+  "id": 7085,
+  "slug": "daigest-86b03efa4e",
+  "name": "Daigest",
+  "mentions": [
+    {
+      "name": "Daigest",
+      "description": "An AI-powered industry monitoring service that lets users pick keywords and sources (news sites, blogs, YouTube, communities) and sends scheduled summary digests. Unlike Google Alerts, it reads the content and delivers a digest instead of a list of links, replacing 30+ minutes of daily manual site-checking with a 3-minute read.",
+      "problem": "The builder was spending 30+ minutes per day manually checking the same sites for industry news.",
+      "audience": "Anyone who monitors industry news",
+      "builder_usernames": [
+        "sangkwun"
+      ],
+      "source_excerpt": "Working on Daigest (https://daige.st) — it monitors your industry using AI.",
+      "evidence": [
+        {
+          "source_item_id": 47014113,
+          "source_field": "body",
+          "value": "Working on Daigest (https://daige.st) — it monitors your industry using AI.",
+          "supports": [],
+          "author": "sangkwun",
+          "shared_at": 1771072721,
+          "source_url": "https://news.ycombinator.com/item?id=47014113"
+        }
+      ],
+      "source_item_id": 47014113,
+      "source_url": "https://news.ycombinator.com/item?id=47014113",
+      "author": "sangkwun",
+      "shared_at": 1771072721,
+      "links": [
+        "https://daige.st"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 9478,
+  "slug": "vantage-7033e4a199",
+  "name": "Vantage",
+  "mentions": [
+    {
+      "name": "Vantage",
+      "description": "Cloud cost management platform (FinOps) featuring an agent that identifies and remediates cloud infrastructure cost issues across providers such as AWS, Azure, and Datadog. The agent runs in Slack, surfacing cost savings initiatives for teams to inspect and approve before the agent applies fixes.",
+      "problem": "Cloud infrastructure cost issues go unidentified and unremediated across providers like AWS, Azure, and Datadog.",
+      "audience": null,
+      "builder_usernames": [
+        "StratusBen"
+      ],
+      "source_excerpt": "Working on https://www.vantage.sh/\n\nSpecifically working on our FinOps agent which can identify and remediate cloud infa cost related issues across AWS, Azure, Datadog, etc. The agent lives in Slack and surfaces cost savings initiatives for teams to inspect and approve for the agent to fix.",
+      "evidence": [
+        {
+          "source_item_id": 45869997,
+          "source_field": "body",
+          "value": "Working on https://www.vantage.sh/\n\nSpecifically working on our FinOps agent which can identify and remediate cloud infa cost related issues across AWS, Azure, Datadog, etc. The agent lives in Slack and surfaces cost savings initiatives for teams to inspect and approve for the agent to fix.",
+          "supports": [],
+          "author": "StratusBen",
+          "shared_at": 1762728410,
+          "source_url": "https://news.ycombinator.com/item?id=45869997"
+        }
+      ],
+      "source_item_id": 45869997,
+      "source_url": "https://news.ycombinator.com/item?id=45869997",
+      "author": "StratusBen",
+      "shared_at": 1762728410,
+      "links": [
+        "https://www.vantage.sh/"
+      ]
+    }
+  ]
+}

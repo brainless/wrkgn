@@ -1,0 +1,35 @@
+{
+  "id": 9005,
+  "slug": "flavia-c7022304d8",
+  "name": "Flavia",
+  "mentions": [
+    {
+      "name": "Flavia",
+      "description": "This is an ultra-low latency voice AI data analyst that joins meetings. Users connect data sources such as CSVs, Postgres databases, BigQuery, and PostHog analytics, then ask questions by voice and receive charts, tables, and analysis in under one second, powered by Cerebras inference (2000 tokens per second) and low-latency sandboxes spun up on the fly. It can also join Google Meet or Teams meetings, share its screen, and let everyone in the meeting ask questions and see live results. It is currently used mainly by product managers and executives for analytics and data science use cases, with plans to open-source it if there is demand.",
+      "problem": null,
+      "audience": "Product managers and executives, using it mainly for analytics and data science use cases",
+      "builder_usernames": [
+        "deepdarkforest"
+      ],
+      "source_excerpt": "I'm working on Flavia, an ultra-low latency voice AI data analyst that can join your meetings. You can throw in data(csv's, postgres db's, bigquery, posthog analytics for now) and you just talk and ask questions.",
+      "evidence": [
+        {
+          "source_item_id": 45869958,
+          "source_field": "body",
+          "value": "I'm working on Flavia, an ultra-low latency voice AI data analyst that can join your meetings. You can throw in data(csv's, postgres db's, bigquery, posthog analytics for now) and you just talk and ask questions.",
+          "supports": [],
+          "author": "deepdarkforest",
+          "shared_at": 1762728143,
+          "source_url": "https://news.ycombinator.com/item?id=45869958"
+        }
+      ],
+      "source_item_id": 45869958,
+      "source_url": "https://news.ycombinator.com/item?id=45869958",
+      "author": "deepdarkforest",
+      "shared_at": 1762728143,
+      "links": [
+        "https://www.tryflavia.com/"
+      ]
+    }
+  ]
+}

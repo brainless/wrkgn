@@ -1,0 +1,33 @@
+{
+  "id": 5679,
+  "slug": "amdgpu-native-wayland-compositor-in-risc-v-assembly-f89d6ddfe6",
+  "name": "AMDGPU Native Wayland Compositor in RISC-V Assembly",
+  "mentions": [
+    {
+      "name": "AMDGPU Native Wayland Compositor in RISC-V Assembly",
+      "description": "A native Wayland compositor for Linux targeting AMDGPU, written in RISC-V assembly and run on x86_64 via a small interpreter that is itself written in x86_64 assembly. Ongoing work includes an XDG-compliant config file loader for xkb configuration of Linux input event devices, which will mmap only the first 4KiB page.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "sylware"
+      ],
+      "source_excerpt": "Still on and off on my AMDGPU native wayland compositor for linux,\nthat written in RISC-V assembly, running on x86_64 via a small interpreter\nwritten itself in x86_64 assembly.",
+      "evidence": [
+        {
+          "source_item_id": 47752346,
+          "source_field": "body",
+          "value": "Still on and off on my AMDGPU native wayland compositor for linux,\nthat written in RISC-V assembly, running on x86_64 via a small interpreter\nwritten itself in x86_64 assembly.",
+          "supports": [],
+          "author": "sylware",
+          "shared_at": 1776089846,
+          "source_url": "https://news.ycombinator.com/item?id=47752346"
+        }
+      ],
+      "source_item_id": 47752346,
+      "source_url": "https://news.ycombinator.com/item?id=47752346",
+      "author": "sylware",
+      "shared_at": 1776089846,
+      "links": []
+    }
+  ]
+}

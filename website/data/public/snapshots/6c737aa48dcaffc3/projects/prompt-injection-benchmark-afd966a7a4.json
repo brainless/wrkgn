@@ -1,0 +1,35 @@
+{
+  "id": 9187,
+  "slug": "prompt-injection-benchmark-afd966a7a4",
+  "name": "Prompt injection benchmark",
+  "mentions": [
+    {
+      "name": "Prompt injection benchmark",
+      "description": "This blog post introduces a benchmark for prompt injection, the problem where LLMs cannot reliably distinguish a user's instructions from untrusted content such as web search results.",
+      "problem": "LLMs can't reliably distinguish between the user's instructions and untrusted content like web search results.",
+      "audience": null,
+      "builder_usernames": [
+        "alexbecker"
+      ],
+      "source_excerpt": "I'm working on _prompt injection_, the problem where LLMs can't reliably distinguish between the user's instructions and untrusted content like web search results.\n\nJust published a blog post a few minutes ago: https://alexcbecker.net/blog/prompt-injection-benchmark.html",
+      "evidence": [
+        {
+          "source_item_id": 45869960,
+          "source_field": "body",
+          "value": "I'm working on _prompt injection_, the problem where LLMs can't reliably distinguish between the user's instructions and untrusted content like web search results.\n\nJust published a blog post a few minutes ago: https://alexcbecker.net/blog/prompt-injection-benchmark.html",
+          "supports": [],
+          "author": "alexbecker",
+          "shared_at": 1762728151,
+          "source_url": "https://news.ycombinator.com/item?id=45869960"
+        }
+      ],
+      "source_item_id": 45869960,
+      "source_url": "https://news.ycombinator.com/item?id=45869960",
+      "author": "alexbecker",
+      "shared_at": 1762728151,
+      "links": [
+        "https://alexcbecker.net/blog/prompt-injection-benchmark.html"
+      ]
+    }
+  ]
+}

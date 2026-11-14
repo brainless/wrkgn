@@ -1,0 +1,35 @@
+{
+  "id": 8345,
+  "slug": "petra-e939d65d91",
+  "name": "Petra",
+  "mentions": [
+    {
+      "name": "Petra",
+      "description": "A command-line tool for Obsidian that interacts with the vault through the API served by the Petra-Bridge plugin, letting a Claude Skill create markdown files in the vault and read from them when the model needs context.",
+      "problem": "AI assistants like Claude clutter the author's files with random markdown files, so the author wanted a clean way for Claude to write into and read from their Obsidian vault.",
+      "audience": null,
+      "builder_usernames": [
+        "hazmazlaz"
+      ],
+      "source_excerpt": "Petra (Obsidian CLI) and Petra-Bridge (Obsidian API for the CLI tool integration).",
+      "evidence": [
+        {
+          "source_item_id": 46277171,
+          "source_field": "body",
+          "value": "Petra (Obsidian CLI) and Petra-Bridge (Obsidian API for the CLI tool integration).",
+          "supports": [],
+          "author": "hazmazlaz",
+          "shared_at": 1765818401,
+          "source_url": "https://news.ycombinator.com/item?id=46277171"
+        }
+      ],
+      "source_item_id": 46277171,
+      "source_url": "https://news.ycombinator.com/item?id=46277171",
+      "author": "hazmazlaz",
+      "shared_at": 1765818401,
+      "links": [
+        "https://github.com/H4ZM47/petra-obsidian-cli"
+      ]
+    }
+  ]
+}

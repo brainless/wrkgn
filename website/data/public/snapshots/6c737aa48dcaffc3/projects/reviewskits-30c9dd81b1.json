@@ -1,0 +1,36 @@
+{
+  "id": 5229,
+  "slug": "reviewskits-30c9dd81b1",
+  "name": "Reviewskits",
+  "mentions": [
+    {
+      "name": "Reviewskits",
+      "description": "Reviewskits is an open-source, unified platform for collecting all customer sentiment, starting with a headless testimonial engine. It offers clean APIs and SDKs for React, Vue, and Svelte so teams keep 100% control over the UI instead of embedding heavy iframe widgets, and it can be self-hosted to own your data or used as a managed cloud service. The roadmap consolidates testimonials with feature requests and feedback loops to replace multiple separate feedback tools.",
+      "problem": "Startups typically use 3+ different tools (e.g. Senja/Testimonial.to for testimonials, Canny for feature voting, another for bug reports), resulting in fragmented data and a mess of different invoices.",
+      "audience": "Startups and dev-first teams that need to manage user feedback",
+      "builder_usernames": [
+        "LordKode"
+      ],
+      "source_excerpt": "I’m building Reviewskits (https://reviewskits.com).\n\nMost startups today use 3+ different tools to manage user feedback: one for testimonials (Senja/Testimonial.to), one for feature voting (Canny), and another for bug reports. It’s a mess of different invoices and fragmented data.\n\nWe are building a unified platform for all customer sentiment, starting with a headless testimonial engine.",
+      "evidence": [
+        {
+          "source_item_id": 47773910,
+          "source_field": "body",
+          "value": "I’m building Reviewskits (https://reviewskits.com).\n\nMost startups today use 3+ different tools to manage user feedback: one for testimonials (Senja/Testimonial.to), one for feature voting (Canny), and another for bug reports. It’s a mess of different invoices and fragmented data.\n\nWe are building a unified platform for all customer sentiment, starting with a headless testimonial engine.",
+          "supports": [],
+          "author": "LordKode",
+          "shared_at": 1776219602,
+          "source_url": "https://news.ycombinator.com/item?id=47773910"
+        }
+      ],
+      "source_item_id": 47773910,
+      "source_url": "https://news.ycombinator.com/item?id=47773910",
+      "author": "LordKode",
+      "shared_at": 1776219602,
+      "links": [
+        "https://github.com/reviews-kits-team/reviews-kits",
+        "https://reviewskits.com/"
+      ]
+    }
+  ]
+}

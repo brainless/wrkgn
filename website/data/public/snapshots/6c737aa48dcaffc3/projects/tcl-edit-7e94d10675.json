@@ -1,0 +1,35 @@
+{
+  "id": 6009,
+  "slug": "tcl-edit-7e94d10675",
+  "name": "TCL-Edit",
+  "mentions": [
+    {
+      "name": "TCL-Edit",
+      "description": "A small Tcl/Tk text editor, cleaned up and released as the first item from the author's years-accumulated personal utility collection (stuff42.tar.gz). It is styled as a Tcl/Tk clone of the Rust clone of Microsoft Edit.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mkovach"
+      ],
+      "source_excerpt": "The first thing I cleaned up was TCL-Edit <https://gitlab.com/siddfinch/tcl-editor>, a small Tcl/Tk text editor I wrote a long time ago. After seeing the Rust clone of Microsoft EDIT, I realized the obvious next step was to build a Tcl/Tk clone of the Rust clone of Microsoft Edit.",
+      "evidence": [
+        {
+          "source_item_id": 47310091,
+          "source_field": "body",
+          "value": "The first thing I cleaned up was TCL-Edit <https://gitlab.com/siddfinch/tcl-editor>, a small Tcl/Tk text editor I wrote a long time ago. After seeing the Rust clone of Microsoft EDIT, I realized the obvious next step was to build a Tcl/Tk clone of the Rust clone of Microsoft Edit.",
+          "supports": [],
+          "author": "mkovach",
+          "shared_at": 1773068785,
+          "source_url": "https://news.ycombinator.com/item?id=47310091"
+        }
+      ],
+      "source_item_id": 47310091,
+      "source_url": "https://news.ycombinator.com/item?id=47310091",
+      "author": "mkovach",
+      "shared_at": 1773068785,
+      "links": [
+        "https://gitlab.com/siddfinch/tcl-editor"
+      ]
+    }
+  ]
+}

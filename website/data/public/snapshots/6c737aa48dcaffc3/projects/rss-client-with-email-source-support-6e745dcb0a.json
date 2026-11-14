@@ -1,0 +1,33 @@
+{
+  "id": 11243,
+  "slug": "rss-client-with-email-source-support-6e745dcb0a",
+  "name": "RSS client with email source support",
+  "mentions": [
+    {
+      "name": "RSS client with email source support",
+      "description": "An RSS client that treats RSS feeds as data sources for reading news, extended to parse pages and collect links, with email being added as a new source type so the app can read emails alongside news.",
+      "problem": null,
+      "audience": "The author's own reading use — consuming news and emails within one app",
+      "builder_usernames": [
+        "renegat0x0"
+      ],
+      "source_excerpt": "Some time ago I create a RSS client. RSS feeds operated as Sources for data. I have extended them to be able to parse pages, collect links.\n\nCurrently I have decided that I can add \"Email\" as source, to be able to read not only news, but emails in my app.",
+      "evidence": [
+        {
+          "source_item_id": 43819005,
+          "source_field": "body",
+          "value": "Some time ago I create a RSS client. RSS feeds operated as Sources for data. I have extended them to be able to parse pages, collect links.\n\nCurrently I have decided that I can add \"Email\" as source, to be able to read not only news, but emails in my app.",
+          "supports": [],
+          "author": "renegat0x0",
+          "shared_at": 1745829602,
+          "source_url": "https://news.ycombinator.com/item?id=43819005"
+        }
+      ],
+      "source_item_id": 43819005,
+      "source_url": "https://news.ycombinator.com/item?id=43819005",
+      "author": "renegat0x0",
+      "shared_at": 1745829602,
+      "links": []
+    }
+  ]
+}

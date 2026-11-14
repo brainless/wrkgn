@@ -1,0 +1,33 @@
+{
+  "id": 6211,
+  "slug": "generic-tree-processing-library-e316b1aa05",
+  "name": "Generic tree-processing library",
+  "mentions": [
+    {
+      "name": "Generic tree-processing library",
+      "description": "A generic tree-processing library that makes operations on directory trees much nicer than Python's standard library walk functions; it is a dependency of PAPER and is being documented and prepared for a proper release.",
+      "problem": "Operations on directory trees are cumbersome with the standard library \"walk\"s.",
+      "audience": null,
+      "builder_usernames": [
+        "zahlman"
+      ],
+      "source_excerpt": "I need to document and properly release one of the pieces that PAPER is relying on (some generic tree-processing code that makes operations on directory trees a lot nicer than with the standard library \"walk\"s)",
+      "evidence": [
+        {
+          "source_item_id": 47303920,
+          "source_field": "body",
+          "value": "I need to document and properly release one of the pieces that PAPER is relying on (some generic tree-processing code that makes operations on directory trees a lot nicer than with the standard library \"walk\"s)",
+          "supports": [],
+          "author": "zahlman",
+          "shared_at": 1773021059,
+          "source_url": "https://news.ycombinator.com/item?id=47303920"
+        }
+      ],
+      "source_item_id": 47303920,
+      "source_url": "https://news.ycombinator.com/item?id=47303920",
+      "author": "zahlman",
+      "shared_at": 1773021059,
+      "links": []
+    }
+  ]
+}

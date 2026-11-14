@@ -1,0 +1,35 @@
+{
+  "id": 6849,
+  "slug": "peervault-59f6b959a1",
+  "name": "peervault",
+  "mentions": [
+    {
+      "name": "peervault",
+      "description": "An Obsidian plugin that syncs vaults directly between devices over P2P connections with no central server, with optional S3 fallback. It uses Loro CRDTs so concurrent edits merge cleanly, and Iroh compiled to WebAssembly handles networking with NAT traversal and end-to-end encryption.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "robcohen"
+      ],
+      "source_excerpt": "This is an Obsidian plugin that lets you sync your vaults directly between your devices over P2P connections, no central server involved. Has S3 fallback if you want. It uses Loro CRDTs so concurrent edits merge cleanly, and Iroh compiled to WASM handles the networking with NAT traversal and end-to-end encryption. Until iroh-docs or iroh-willow comes out with WASM support, this seems to be the best solution for obsidian syncing.",
+      "evidence": [
+        {
+          "source_item_id": 46959847,
+          "source_field": "body",
+          "value": "This is an Obsidian plugin that lets you sync your vaults directly between your devices over P2P connections, no central server involved. Has S3 fallback if you want. It uses Loro CRDTs so concurrent edits merge cleanly, and Iroh compiled to WASM handles the networking with NAT traversal and end-to-end encryption. Until iroh-docs or iroh-willow comes out with WASM support, this seems to be the best solution for obsidian syncing.",
+          "supports": [],
+          "author": "robcohen",
+          "shared_at": 1770732207,
+          "source_url": "https://news.ycombinator.com/item?id=46959847"
+        }
+      ],
+      "source_item_id": 46959847,
+      "source_url": "https://news.ycombinator.com/item?id=46959847",
+      "author": "robcohen",
+      "shared_at": 1770732207,
+      "links": [
+        "https://github.com/robcohen/peervault"
+      ]
+    }
+  ]
+}

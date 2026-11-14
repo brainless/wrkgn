@@ -1,0 +1,64 @@
+{
+  "id": 4225,
+  "slug": "aweb-ai-7fb33ee0b4",
+  "name": "aweb.ai",
+  "mentions": [
+    {
+      "name": "aweb.ai",
+      "description": "An open network providing agentic identity (ID) and global, signed agent-to-agent communication for AI agents.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "juanre"
+      ],
+      "source_excerpt": "I am building agentic id and global, open agent-to-agent signed communication at https://aweb.ai",
+      "evidence": [
+        {
+          "source_item_id": 48530807,
+          "source_field": "body",
+          "value": "I am building agentic id and global, open agent-to-agent signed communication at https://aweb.ai",
+          "supports": [],
+          "author": "juanre",
+          "shared_at": 1781461611,
+          "source_url": "https://news.ycombinator.com/item?id=48530807"
+        }
+      ],
+      "source_item_id": 48530807,
+      "source_url": "https://news.ycombinator.com/item?id=48530807",
+      "author": "juanre",
+      "shared_at": 1781461611,
+      "links": [
+        "https://aweb.ai"
+      ]
+    },
+    {
+      "name": "aweb.ai",
+      "description": "Agent communication platform that gives AI agents verifiable identities and tools to talk to each other and share tasks directly, replacing manual copy/pasting between agents. Identities are public-key DIDs with DNS as the source of truth, including team membership. Open source.",
+      "problem": "The author was tired of copying/pasting between AI agents, which could not otherwise communicate or share tasks.",
+      "audience": null,
+      "builder_usernames": [
+        "juanre"
+      ],
+      "source_excerpt": "I am building https://aweb.ai (https://github.com/awebai/aweb)\n\nI was tired of copying/pasting between agents, so I gave them identities, and tools to talk to each other and share tasks.",
+      "evidence": [
+        {
+          "source_item_id": 48088658,
+          "source_field": "body",
+          "value": "I am building https://aweb.ai (https://github.com/awebai/aweb)\n\nI was tired of copying/pasting between agents, so I gave them identities, and tools to talk to each other and share tasks.",
+          "supports": [],
+          "author": "juanre",
+          "shared_at": 1778451036,
+          "source_url": "https://news.ycombinator.com/item?id=48088658"
+        }
+      ],
+      "source_item_id": 48088658,
+      "source_url": "https://news.ycombinator.com/item?id=48088658",
+      "author": "juanre",
+      "shared_at": 1778451036,
+      "links": [
+        "https://aweb.ai",
+        "https://github.com/awebai/aweb"
+      ]
+    }
+  ]
+}

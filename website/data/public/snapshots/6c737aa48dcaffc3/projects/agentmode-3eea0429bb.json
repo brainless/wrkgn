@@ -1,0 +1,35 @@
+{
+  "id": 6794,
+  "slug": "agentmode-3eea0429bb",
+  "name": "AgentMode",
+  "mentions": [
+    {
+      "name": "AgentMode",
+      "description": "A hosted version of OpenClaw that provides one-click deployment of a full AI agent with configurable skills and channels, with each user getting their own isolated sandbox environment on Cloudflare Workers, handling VPS setup, Docker, API keys, and security patching.",
+      "problem": "Setting up OpenClaw is a pain: VPS, Docker, API keys in plaintext, security patches.",
+      "audience": null,
+      "builder_usernames": [
+        "rmonvfer"
+      ],
+      "source_excerpt": "https://agentmode.co\n\nHosted OpenClaw, one click and you get a full agent with configurable skills, channels and the whole thing, all running in its own sandbox.",
+      "evidence": [
+        {
+          "source_item_id": 46940061,
+          "source_field": "body",
+          "value": "https://agentmode.co\n\nHosted OpenClaw, one click and you get a full agent with configurable skills, channels and the whole thing, all running in its own sandbox.",
+          "supports": [],
+          "author": "rmonvfer",
+          "shared_at": 1770596604,
+          "source_url": "https://news.ycombinator.com/item?id=46940061"
+        }
+      ],
+      "source_item_id": 46940061,
+      "source_url": "https://news.ycombinator.com/item?id=46940061",
+      "author": "rmonvfer",
+      "shared_at": 1770596604,
+      "links": [
+        "https://agentmode.co"
+      ]
+    }
+  ]
+}

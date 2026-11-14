@@ -1,0 +1,36 @@
+{
+  "id": 5368,
+  "slug": "atlas-27c5751900",
+  "name": "Atlas",
+  "mentions": [
+    {
+      "name": "Atlas",
+      "description": "This is a recovery analytics platform for athletes that pulls Apple Watch health signals (HRV, sleep stages, respiratory rate, blood oxygen, resting heart rate) and turns them into two scores: recovery and training readiness, so training happens when the body is actually ready. It ships as a live iOS app.",
+      "problem": "Apple Watch collects useful health signals like HRV, sleep stages, respiratory rate, blood oxygen, and resting HR, but Apple does essentially nothing actionable with them beyond ring animations and step counts.",
+      "audience": "Athletes",
+      "builder_usernames": [
+        "jtempleton"
+      ],
+      "source_excerpt": "Building Atlas, a recovery analytics platform for athletes.\n\nThe core frustration: Apple Watch collects HRV, sleep stages, respiratory rate, blood oxygen, resting HR. Apple does basically nothing useful with any of it. You get ring animations and step counts.\n\nAtlas pulls all of that together and turns it into two scores: recovery and training readiness.",
+      "evidence": [
+        {
+          "source_item_id": 47748709,
+          "source_field": "body",
+          "value": "Building Atlas, a recovery analytics platform for athletes.\n\nThe core frustration: Apple Watch collects HRV, sleep stages, respiratory rate, blood oxygen, resting HR. Apple does basically nothing useful with any of it. You get ring animations and step counts.\n\nAtlas pulls all of that together and turns it into two scores: recovery and training readiness.",
+          "supports": [],
+          "author": "jtempleton",
+          "shared_at": 1776064209,
+          "source_url": "https://news.ycombinator.com/item?id=47748709"
+        }
+      ],
+      "source_item_id": 47748709,
+      "source_url": "https://news.ycombinator.com/item?id=47748709",
+      "author": "jtempleton",
+      "shared_at": 1776064209,
+      "links": [
+        "https://apps.apple.com/app/atlas-body/id6760951718",
+        "https://atlasbody.co/"
+      ]
+    }
+  ]
+}

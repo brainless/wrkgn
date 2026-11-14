@@ -1,0 +1,33 @@
+{
+  "id": 7631,
+  "slug": "claude-code-autonomous-dev-flow-54d5bf00fa",
+  "name": "Claude Code autonomous dev flow",
+  "mentions": [
+    {
+      "name": "Claude Code autonomous dev flow",
+      "description": "An experimental autonomous development workflow where a Claude Code bot gets its own AWS account and personal JIRA tickets, then builds against them with AWS CDK in a loop of code-deploy-run integration tests-address failures until integration tests pass in its own dev environment and branches can merge.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jwally"
+      ],
+      "source_excerpt": "Also experimenting with a new Claude-Code flow; give the bot its own AWS account, Put a bunch of tickets on my personal JIRA, be persnickity about what constitutes \"pass\" and tell the bot \"follow these instructions, pull down tickets until there are no more. Your branch cannot merge until you have integration tests passing in your own dev env first\" (I use AWS CDK). Then let it loose to build. The instant feedback loop that Claude has with Build-Code->Deploy to AWS->Run Integration Tests->Address Failures is really nifty fwiw...",
+      "evidence": [
+        {
+          "source_item_id": 46578367,
+          "source_field": "body",
+          "value": "Also experimenting with a new Claude-Code flow; give the bot its own AWS account, Put a bunch of tickets on my personal JIRA, be persnickity about what constitutes \"pass\" and tell the bot \"follow these instructions, pull down tickets until there are no more. Your branch cannot merge until you have integration tests passing in your own dev env first\" (I use AWS CDK). Then let it loose to build. The instant feedback loop that Claude has with Build-Code->Deploy to AWS->Run Integration Tests->Address Failures is really nifty fwiw...",
+          "supports": [],
+          "author": "jwally",
+          "shared_at": 1768156781,
+          "source_url": "https://news.ycombinator.com/item?id=46578367"
+        }
+      ],
+      "source_item_id": 46578367,
+      "source_url": "https://news.ycombinator.com/item?id=46578367",
+      "author": "jwally",
+      "shared_at": 1768156781,
+      "links": []
+    }
+  ]
+}

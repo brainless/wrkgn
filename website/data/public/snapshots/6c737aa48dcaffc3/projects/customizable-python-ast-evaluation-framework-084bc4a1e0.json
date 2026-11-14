@@ -1,0 +1,33 @@
+{
+  "id": 5627,
+  "slug": "customizable-python-ast-evaluation-framework-084bc4a1e0",
+  "name": "Customizable Python AST evaluation framework",
+  "mentions": [
+    {
+      "name": "Customizable Python AST evaluation framework",
+      "description": "A small Python library/framework for customising how the Python AST is walked and evaluated. It is intended to be used to configure a safe-ish sandboxed way of evaluating user-submitted expressions and code, and unlike existing alternatives it does not bake unwanted behavior into library internals.",
+      "problem": "Existing libraries for sandboxed AST evaluation bake in internals the author didn't want, so a more customizable alternative is needed.",
+      "audience": "developers",
+      "builder_usernames": [
+        "swarles"
+      ],
+      "source_excerpt": "A small Python library/framework for customising how the AST is walked and evaluated. I plan to use it in another project to configure a safe-ish sandboxed way of evaluating user submitted expressions and code.",
+      "evidence": [
+        {
+          "source_item_id": 47746647,
+          "source_field": "body",
+          "value": "A small Python library/framework for customising how the AST is walked and evaluated. I plan to use it in another project to configure a safe-ish sandboxed way of evaluating user submitted expressions and code.",
+          "supports": [],
+          "author": "swarles",
+          "shared_at": 1776045342,
+          "source_url": "https://news.ycombinator.com/item?id=47746647"
+        }
+      ],
+      "source_item_id": 47746647,
+      "source_url": "https://news.ycombinator.com/item?id=47746647",
+      "author": "swarles",
+      "shared_at": 1776045342,
+      "links": []
+    }
+  ]
+}

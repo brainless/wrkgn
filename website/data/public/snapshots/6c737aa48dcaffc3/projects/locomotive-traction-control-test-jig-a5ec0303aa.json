@@ -1,0 +1,33 @@
+{
+  "id": 9865,
+  "slug": "locomotive-traction-control-test-jig-a5ec0303aa",
+  "name": "Locomotive traction control test jig",
+  "mentions": [
+    {
+      "name": "Locomotive traction control test jig",
+      "description": "A testing jig for a locomotive traction control system. A microcontroller connected to a DDS waveform generator simulates the wheel-speed sensor, and various ADCs and DACs read in analog voltages that are compared to determine loss of traction, built around 1980s-style analog computing.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "r4ge"
+      ],
+      "source_excerpt": "Testing jig for a traction control system for a locomotive. Microcontroller connected to a DDS waveform generator simulates the sensor that picks wheel speed, various ADCs and DACs read in analog voltages that are compared to determine loss of traction. 1980s analog computing at its finest.",
+      "evidence": [
+        {
+          "source_item_id": 45419030,
+          "source_field": "body",
+          "value": "Testing jig for a traction control system for a locomotive. Microcontroller connected to a DDS waveform generator simulates the sensor that picks wheel speed, various ADCs and DACs read in analog voltages that are compared to determine loss of traction. 1980s analog computing at its finest.",
+          "supports": [],
+          "author": "r4ge",
+          "shared_at": 1759181642,
+          "source_url": "https://news.ycombinator.com/item?id=45419030"
+        }
+      ],
+      "source_item_id": 45419030,
+      "source_url": "https://news.ycombinator.com/item?id=45419030",
+      "author": "r4ge",
+      "shared_at": 1759181642,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 8907,
+  "slug": "safeexec-cc81fd79d6",
+  "name": "safeexec",
+  "mentions": [
+    {
+      "name": "safeexec",
+      "description": "A safety tool for AI coding agents like Codex and Claude Code that prevents destructive commands such as rm -rf or git reset --hard from being run by accident when using the --dangerously-bypass-permissions flag.",
+      "problem": "AI coding agents running with bypassed permissions can accidentally execute destructive commands like rm -rf or git reset --hard.",
+      "audience": null,
+      "builder_usernames": [
+        "agentifysh"
+      ],
+      "source_excerpt": "https://github.com/agentify-sh/safeexec/ - this will prevent rm -rf or git reset --hard being run by off chance when used with --dangerously-bypass-permissions flag",
+      "evidence": [
+        {
+          "source_item_id": 46280849,
+          "source_field": "body",
+          "value": "https://github.com/agentify-sh/safeexec/ - this will prevent rm -rf or git reset --hard being run by off chance when used with --dangerously-bypass-permissions flag",
+          "supports": [],
+          "author": "agentifysh",
+          "shared_at": 1765833704,
+          "source_url": "https://news.ycombinator.com/item?id=46280849"
+        }
+      ],
+      "source_item_id": 46280849,
+      "source_url": "https://news.ycombinator.com/item?id=46280849",
+      "author": "agentifysh",
+      "shared_at": 1765833704,
+      "links": [
+        "https://github.com/agentify-sh/safeexec/"
+      ]
+    }
+  ]
+}

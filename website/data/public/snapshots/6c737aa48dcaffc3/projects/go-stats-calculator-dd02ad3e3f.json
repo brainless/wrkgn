@@ -1,0 +1,35 @@
+{
+  "id": 6991,
+  "slug": "go-stats-calculator-dd02ad3e3f",
+  "name": "go-stats-calculator",
+  "mentions": [
+    {
+      "name": "go-stats-calculator",
+      "description": "A CLI tool that computes statistics such as mean, median, variance, standard deviation, and skewness from files or standard input.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jftuga"
+      ],
+      "source_excerpt": "I recently updated my go-stats-calculator to include many more stats [2]:\n\n    CLI tool for computing statistics (mean, median, variance, std-dev, skewness, etc.) from files or standard input.",
+      "evidence": [
+        {
+          "source_item_id": 46941779,
+          "source_field": "body",
+          "value": "I recently updated my go-stats-calculator to include many more stats [2]:\n\n    CLI tool for computing statistics (mean, median, variance, std-dev, skewness, etc.) from files or standard input.",
+          "supports": [],
+          "author": "jftuga",
+          "shared_at": 1770613685,
+          "source_url": "https://news.ycombinator.com/item?id=46941779"
+        }
+      ],
+      "source_item_id": 46941779,
+      "source_url": "https://news.ycombinator.com/item?id=46941779",
+      "author": "jftuga",
+      "shared_at": 1770613685,
+      "links": [
+        "https://github.com/jftuga/go-stats-calculator"
+      ]
+    }
+  ]
+}

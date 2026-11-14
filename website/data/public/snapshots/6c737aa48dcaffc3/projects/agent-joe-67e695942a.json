@@ -1,0 +1,35 @@
+{
+  "id": 4066,
+  "slug": "agent-joe-67e695942a",
+  "name": "agent-joe",
+  "mentions": [
+    {
+      "name": "agent-joe",
+      "description": "A coding agent without shell access that can read and edit code, verify changes, and run tests. Due to the shell limitation it currently targets only Rust projects.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "kapperchino"
+      ],
+      "source_excerpt": "I’m working on a coding agent that doesn’t have access to the shell. Essentially all it could do is edit and read code, verify and run tests. But due to that limitation I’ve made it target only rust projects for the time being.\n\nhttps://github.com/Kapperchino/agent-joe",
+      "evidence": [
+        {
+          "source_item_id": 48531771,
+          "source_field": "body",
+          "value": "I’m working on a coding agent that doesn’t have access to the shell. Essentially all it could do is edit and read code, verify and run tests. But due to that limitation I’ve made it target only rust projects for the time being.\n\nhttps://github.com/Kapperchino/agent-joe",
+          "supports": [],
+          "author": "kapperchino",
+          "shared_at": 1781465988,
+          "source_url": "https://news.ycombinator.com/item?id=48531771"
+        }
+      ],
+      "source_item_id": 48531771,
+      "source_url": "https://news.ycombinator.com/item?id=48531771",
+      "author": "kapperchino",
+      "shared_at": 1781465988,
+      "links": [
+        "https://github.com/Kapperchino/agent-joe"
+      ]
+    }
+  ]
+}

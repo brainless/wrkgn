@@ -1,0 +1,35 @@
+{
+  "id": 4714,
+  "slug": "baml-fb99f91dc4",
+  "name": "BAML",
+  "mentions": [
+    {
+      "name": "BAML",
+      "description": "BAML is a programming language that is embeddable in other programming languages, with a type system similar to TypeScript and a runtime similar to Go. It is currently used for structured outputs with LLMs, with orchestration and more planned, and the team is working on making the language Turing-complete with an early access preview for interested users.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "aaronvg"
+      ],
+      "source_excerpt": "We are working on making our programming language BAML turing-complete. https://github.com/boundaryml/baml\n\nIt is a language that is embeddable in other programming languages, with the type system similar to typescript, and a runtime that is similar to Go.\n\nPeople use it currently for structured outputs with llms but soon we will support orchestration and more.",
+      "evidence": [
+        {
+          "source_item_id": 48089917,
+          "source_field": "body",
+          "value": "We are working on making our programming language BAML turing-complete. https://github.com/boundaryml/baml\n\nIt is a language that is embeddable in other programming languages, with the type system similar to typescript, and a runtime that is similar to Go.\n\nPeople use it currently for structured outputs with llms but soon we will support orchestration and more.",
+          "supports": [],
+          "author": "aaronvg",
+          "shared_at": 1778461506,
+          "source_url": "https://news.ycombinator.com/item?id=48089917"
+        }
+      ],
+      "source_item_id": 48089917,
+      "source_url": "https://news.ycombinator.com/item?id=48089917",
+      "author": "aaronvg",
+      "shared_at": 1778461506,
+      "links": [
+        "https://github.com/boundaryml/baml"
+      ]
+    }
+  ]
+}

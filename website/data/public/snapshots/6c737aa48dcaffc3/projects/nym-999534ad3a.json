@@ -1,0 +1,35 @@
+{
+  "id": 3678,
+  "slug": "nym-999534ad3a",
+  "name": "Nym",
+  "mentions": [
+    {
+      "name": "Nym",
+      "description": "A personal agent that creates and operates all of its own accounts instead of acting as the user, receiving only selective read-only access to the user's accounts. Nyms get their own email addresses at nym-mail.com, can be CC'd on email chains, and can only respond to people on that chain under a 5-day lease (or permanently for people the user specifically adds), with the goal of reliable agents that operate safely in the world without exposing the user's accounts or personal identity.",
+      "problem": "Existing personal agents act as you, which risks your reputation, your data and more; their identity model is wrong.",
+      "audience": "Individuals who want agents to help them do what they want without exposing their accounts and personal identity to potential harms",
+      "builder_usernames": [
+        "ianbutler"
+      ],
+      "source_excerpt": "Nym is a personal agent that has (and can make) all of its own accounts and only gets selective read only access to yours.",
+      "evidence": [
+        {
+          "source_item_id": 48530982,
+          "source_field": "body",
+          "value": "Nym is a personal agent that has (and can make) all of its own accounts and only gets selective read only access to yours.",
+          "supports": [],
+          "author": "ianbutler",
+          "shared_at": 1781462437,
+          "source_url": "https://news.ycombinator.com/item?id=48530982"
+        }
+      ],
+      "source_item_id": 48530982,
+      "source_url": "https://news.ycombinator.com/item?id=48530982",
+      "author": "ianbutler",
+      "shared_at": 1781462437,
+      "links": [
+        "https://www.usenym.com/"
+      ]
+    }
+  ]
+}

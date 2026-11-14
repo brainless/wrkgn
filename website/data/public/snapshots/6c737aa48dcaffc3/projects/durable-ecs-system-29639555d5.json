@@ -1,0 +1,33 @@
+{
+  "id": 3990,
+  "slug": "durable-ecs-system-29639555d5",
+  "name": "Durable ECS system",
+  "mentions": [
+    {
+      "name": "Durable ECS system",
+      "description": "A durable Entity Component System (ECS) aimed mostly at games but generally useful, built to exercise a storage engine with Git-like properties. It targets instant durability: powering the computer off at the mains mid-run and restarting should resume instantly with no loading phase. The lower layers are working and the ECS layer and its API design are being mapped out.",
+      "problem": "Applications can't survive being powered off mid-run and instantly carry on without a loading phase.",
+      "audience": null,
+      "builder_usernames": [
+        "quatonion"
+      ],
+      "source_excerpt": "I'm working on a durable ECS system, mostly for games, though generally useful.  It's to exercise a storage engine I have been building with Git like properties.",
+      "evidence": [
+        {
+          "source_item_id": 48537898,
+          "source_field": "body",
+          "value": "I'm working on a durable ECS system, mostly for games, though generally useful.  It's to exercise a storage engine I have been building with Git like properties.",
+          "supports": [],
+          "author": "quatonion",
+          "shared_at": 1781509721,
+          "source_url": "https://news.ycombinator.com/item?id=48537898"
+        }
+      ],
+      "source_item_id": 48537898,
+      "source_url": "https://news.ycombinator.com/item?id=48537898",
+      "author": "quatonion",
+      "shared_at": 1781509721,
+      "links": []
+    }
+  ]
+}

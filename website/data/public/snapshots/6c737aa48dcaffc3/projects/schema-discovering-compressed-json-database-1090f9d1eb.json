@@ -1,0 +1,33 @@
+{
+  "id": 7296,
+  "slug": "schema-discovering-compressed-json-database-1090f9d1eb",
+  "name": "Schema-discovering compressed JSON database",
+  "mentions": [
+    {
+      "name": "Schema-discovering compressed JSON database",
+      "description": "This project is a new type of JSON database that performs schema discovery on the fly and uses the discovered schema to compress the stored data, removing the need for short key names to save space and reducing overall storage requirements.",
+      "problem": "JSON databases require short key names to save space and can have high storage requirements.",
+      "audience": null,
+      "builder_usernames": [
+        "michaelmior"
+      ],
+      "source_excerpt": "I have a side project of a new type of JSON database. Schema discovery is performed on the fly and that schema is then used to compress the stored data. This eliminates the need to use short key names to save space in addition to reducing overall storage requirements.",
+      "evidence": [
+        {
+          "source_item_id": 46972432,
+          "source_field": "body",
+          "value": "I have a side project of a new type of JSON database. Schema discovery is performed on the fly and that schema is then used to compress the stored data. This eliminates the need to use short key names to save space in addition to reducing overall storage requirements.",
+          "supports": [],
+          "author": "michaelmior",
+          "shared_at": 1770799212,
+          "source_url": "https://news.ycombinator.com/item?id=46972432"
+        }
+      ],
+      "source_item_id": 46972432,
+      "source_url": "https://news.ycombinator.com/item?id=46972432",
+      "author": "michaelmior",
+      "shared_at": 1770799212,
+      "links": []
+    }
+  ]
+}

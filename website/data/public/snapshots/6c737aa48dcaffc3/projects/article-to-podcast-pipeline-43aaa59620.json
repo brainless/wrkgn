@@ -1,0 +1,33 @@
+{
+  "id": 3553,
+  "slug": "article-to-podcast-pipeline-43aaa59620",
+  "name": "Article-to-podcast pipeline",
+  "mentions": [
+    {
+      "name": "Article-to-podcast pipeline",
+      "description": "This tool lets the user drop links to articles into a web UI built with Claude, which uses Haiku to clean the article text into a transcript and generates audio locally with Kokoro TTS. The resulting audio is published via RSS for listening in Apple Podcasts, providing personally curated audio for car commutes.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "bronco21016"
+      ],
+      "source_excerpt": "I drop links to articles in a WebUI Claude built and it uses Haiku to clean it up a bit to a transcript then Kokoro TTS locally to make audio.\n\nI consume the same way. RSS in Apple Podcasts. Such a great way to spend time in the car since it’s so personally curated.",
+      "evidence": [
+        {
+          "source_item_id": 48535464,
+          "source_field": "body",
+          "value": "I drop links to articles in a WebUI Claude built and it uses Haiku to clean it up a bit to a transcript then Kokoro TTS locally to make audio.\n\nI consume the same way. RSS in Apple Podcasts. Such a great way to spend time in the car since it’s so personally curated.",
+          "supports": [],
+          "author": "bronco21016",
+          "shared_at": 1781487446,
+          "source_url": "https://news.ycombinator.com/item?id=48535464"
+        }
+      ],
+      "source_item_id": 48535464,
+      "source_url": "https://news.ycombinator.com/item?id=48535464",
+      "author": "bronco21016",
+      "shared_at": 1781487446,
+      "links": []
+    }
+  ]
+}

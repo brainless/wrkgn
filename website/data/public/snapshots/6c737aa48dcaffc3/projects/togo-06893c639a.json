@@ -1,0 +1,35 @@
+{
+  "id": 8739,
+  "slug": "togo-06893c639a",
+  "name": "ToGo",
+  "mentions": [
+    {
+      "name": "ToGo",
+      "description": "Python bindings for TG, a C geometry library providing fast point-in-polygon operations, with a Shapely-compatible API for Python developers.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mindflayer"
+      ],
+      "source_excerpt": "Python bindings for TG (Geometry library for C - Fast point-in-polygon) with Shapely-compatible API",
+      "evidence": [
+        {
+          "source_item_id": 46266961,
+          "source_field": "body",
+          "value": "Python bindings for TG (Geometry library for C - Fast point-in-polygon) with Shapely-compatible API",
+          "supports": [],
+          "author": "mindflayer",
+          "shared_at": 1765746753,
+          "source_url": "https://news.ycombinator.com/item?id=46266961"
+        }
+      ],
+      "source_item_id": 46266961,
+      "source_url": "https://news.ycombinator.com/item?id=46266961",
+      "author": "mindflayer",
+      "shared_at": 1765746753,
+      "links": [
+        "https://github.com/mindflayer/togo"
+      ]
+    }
+  ]
+}

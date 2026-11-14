@@ -1,0 +1,35 @@
+{
+  "id": 8467,
+  "slug": "infralyst-2e325beb78",
+  "name": "Infralyst",
+  "mentions": [
+    {
+      "name": "Infralyst",
+      "description": "Self-serve AWS cost savings tool for Terraform users. Connects AWS (via a read-only role Terraform module), GitHub, and Terraform state, then finds underused resources and opens pull requests to downsize them, gated by best-practice checks to avoid sketchy changes. Offers a free tier with 3 downsizing PRs per workspace and a $99/mo Pro plan with unlimited PRs.",
+      "problem": "AWS teams spend on underused resources and lack an easy, safe way to downsize them.",
+      "audience": "Self-serve offering aimed at teams running AWS with Terraform.",
+      "builder_usernames": [
+        "heidarb"
+      ],
+      "source_excerpt": "Self serve AWS cost savings for Terraform users. Connect AWS (read only role via a Terraform module), GitHub and Terraform state. Infralyst finds underused resources and opens a PR to downsize, gated by best practice checks so it doesn’t suggest sketchy changes.",
+      "evidence": [
+        {
+          "source_item_id": 46273436,
+          "source_field": "body",
+          "value": "Self serve AWS cost savings for Terraform users. Connect AWS (read only role via a Terraform module), GitHub and Terraform state. Infralyst finds underused resources and opens a PR to downsize, gated by best practice checks so it doesn’t suggest sketchy changes.",
+          "supports": [],
+          "author": "heidarb",
+          "shared_at": 1765800523,
+          "source_url": "https://news.ycombinator.com/item?id=46273436"
+        }
+      ],
+      "source_item_id": 46273436,
+      "source_url": "https://news.ycombinator.com/item?id=46273436",
+      "author": "heidarb",
+      "shared_at": 1765800523,
+      "links": [
+        "https://infralyst.io"
+      ]
+    }
+  ]
+}

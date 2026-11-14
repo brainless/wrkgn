@@ -1,0 +1,35 @@
+{
+  "id": 7079,
+  "slug": "shoton-b41db77f52",
+  "name": "ShotOn",
+  "mentions": [
+    {
+      "name": "ShotOn",
+      "description": "Client-side web app that makes photos share-ready by adding \"shot on\" watermarks and photo frames using camera metadata from EXIF data, plus film-simulation-style filters. A browser-based camera mode is in development, with WebGL being considered for smooth real-time filtering on the live camera feed.",
+      "problem": "Making photos share-ready with watermarks and filters otherwise requires downloading another app.",
+      "audience": null,
+      "builder_usernames": [
+        "mehswe"
+      ],
+      "source_excerpt": "Building ShotOn (https://shoton.app/) – make your photo share ready in a few clicks without downloading another app.\n\nIt basically is a client side web app that adds \"shot on\" watermarks / photo frames with camera metadata from EXIF data. Also have film simulations like filters to elevate you photo.",
+      "evidence": [
+        {
+          "source_item_id": 46960417,
+          "source_field": "body",
+          "value": "Building ShotOn (https://shoton.app/) – make your photo share ready in a few clicks without downloading another app.\n\nIt basically is a client side web app that adds \"shot on\" watermarks / photo frames with camera metadata from EXIF data. Also have film simulations like filters to elevate you photo.",
+          "supports": [],
+          "author": "mehswe",
+          "shared_at": 1770735058,
+          "source_url": "https://news.ycombinator.com/item?id=46960417"
+        }
+      ],
+      "source_item_id": 46960417,
+      "source_url": "https://news.ycombinator.com/item?id=46960417",
+      "author": "mehswe",
+      "shared_at": 1770735058,
+      "links": [
+        "https://shoton.app/"
+      ]
+    }
+  ]
+}

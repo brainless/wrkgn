@@ -1,0 +1,35 @@
+{
+  "id": 5543,
+  "slug": "rackery-f907820810",
+  "name": "Rackery",
+  "mentions": [
+    {
+      "name": "Rackery",
+      "description": "Cross-platform desktop app for bird photographers that uses photo metadata and vision ML models to detect and classify birds — including many birds in a single photo as well as individual birds — and generate an eBird checklist formatted CSV for importing.",
+      "problem": null,
+      "audience": "Bird photographers",
+      "builder_usernames": [
+        "NautilusWave"
+      ],
+      "source_excerpt": "I've been vibe coding a cross platform desktop app targeting bird photographers, that uses photo metadata and vision ML models to generate an eBird checklist formatted CSV for importing. It can detect and classify many birds in a single photo as well as individual birds.",
+      "evidence": [
+        {
+          "source_item_id": 47746994,
+          "source_field": "body",
+          "value": "I've been vibe coding a cross platform desktop app targeting bird photographers, that uses photo metadata and vision ML models to generate an eBird checklist formatted CSV for importing. It can detect and classify many birds in a single photo as well as individual birds.",
+          "supports": [],
+          "author": "NautilusWave",
+          "shared_at": 1776048553,
+          "source_url": "https://news.ycombinator.com/item?id=47746994"
+        }
+      ],
+      "source_item_id": 47746994,
+      "source_url": "https://news.ycombinator.com/item?id=47746994",
+      "author": "NautilusWave",
+      "shared_at": 1776048553,
+      "links": [
+        "https://github.com/jkanethird/rackery"
+      ]
+    }
+  ]
+}

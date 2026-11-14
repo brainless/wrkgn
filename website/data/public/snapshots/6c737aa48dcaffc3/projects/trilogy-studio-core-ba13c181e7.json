@@ -1,0 +1,35 @@
+{
+  "id": 10060,
+  "slug": "trilogy-studio-core-ba13c181e7",
+  "name": "Trilogy Studio Core",
+  "mentions": [
+    {
+      "name": "Trilogy Studio Core",
+      "description": "Dashboard feature work in Trilogy Studio Core, a data studio for building interactive dashboards. The author is experimenting with dashboard features using the GCAT space dataset, demonstrated by a launch-stats example dashboard that runs on DuckDB with a GCAT space data model.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "efromvt"
+      ],
+      "source_excerpt": "Been exploring the amazing GCAT space dataset - it’s been a good way to drive some dashboard feature experimentation using fun data. Still need to work on my dashboard design skills, though.",
+      "evidence": [
+        {
+          "source_item_id": 45420183,
+          "source_field": "body",
+          "value": "Been exploring the amazing GCAT space dataset - it’s been a good way to drive some dashboard feature experimentation using fun data. Still need to work on my dashboard design skills, though.",
+          "supports": [],
+          "author": "efromvt",
+          "shared_at": 1759188867,
+          "source_url": "https://news.ycombinator.com/item?id=45420183"
+        }
+      ],
+      "source_item_id": 45420183,
+      "source_url": "https://news.ycombinator.com/item?id=45420183",
+      "author": "efromvt",
+      "shared_at": 1759188867,
+      "links": [
+        "https://trilogydata.dev/trilogy-studio-core/#screen=dashboard-import&model=https%3A%2F%2Ftrilogy-data.github.io%2Ftrilogy-public-models%2Fstudio%2Fgcat_space.json&dashboard=launch_stats&modelName=gcat_space&connection=duckdb"
+      ]
+    }
+  ]
+}

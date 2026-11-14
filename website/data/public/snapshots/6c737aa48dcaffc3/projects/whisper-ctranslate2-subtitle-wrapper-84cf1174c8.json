@@ -1,0 +1,33 @@
+{
+  "id": 6053,
+  "slug": "whisper-ctranslate2-subtitle-wrapper-84cf1174c8",
+  "name": "whisper-ctranslate2 subtitle wrapper",
+  "mentions": [
+    {
+      "name": "whisper-ctranslate2 subtitle wrapper",
+      "description": "A thin wrapper around whisper-ctranslate2 that auto-subtitles videos already stored locally, written for self-hosted use to support language learning. The author forces a language manually because automatic language detection proved unreliable.",
+      "problem": "There was no self-hosted tool to auto-subtitle locally stored videos, which would help with language learning.",
+      "audience": "personal-use",
+      "builder_usernames": [
+        "aix1"
+      ],
+      "source_excerpt": "It seems that all I need is a thin wrapper around whisper-ctranslate2. So I wrote one and am playing with it right now.",
+      "evidence": [
+        {
+          "source_item_id": 47306614,
+          "source_field": "body",
+          "value": "It seems that all I need is a thin wrapper around whisper-ctranslate2. So I wrote one and am playing with it right now.",
+          "supports": [],
+          "author": "aix1",
+          "shared_at": 1773047902,
+          "source_url": "https://news.ycombinator.com/item?id=47306614"
+        }
+      ],
+      "source_item_id": 47306614,
+      "source_url": "https://news.ycombinator.com/item?id=47306614",
+      "author": "aix1",
+      "shared_at": 1773047902,
+      "links": []
+    }
+  ]
+}

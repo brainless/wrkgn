@@ -1,0 +1,33 @@
+{
+  "id": 4583,
+  "slug": "budget-unity-body-facial-mocap-solution-55cd3b85b0",
+  "name": "Budget Unity Body/Facial Mocap Solution",
+  "mentions": [
+    {
+      "name": "Budget Unity Body/Facial Mocap Solution",
+      "description": "A budget body and facial motion capture solution for Unity that bundles together free, cheap, and open source components. For facial capture it includes a custom converter from Deadface (Mediapipe-based) output with ARKit blendshapes and eye movement. For body capture it uses a custom hook to SlimeVR that enables mocap with cheap IMU-based DIY trackers. It also incorporates a custom (open source, paid) physics rig solution providing accurate rigid body real-time collision that saves on cleanup work. It is planned for release as a plugin for an in-development sandbox game.",
+      "problem": "Motion capture is hard, and existing solutions are locked behind subscriptions or are very expensive.",
+      "audience": null,
+      "builder_usernames": [
+        "harrisoned"
+      ],
+      "source_excerpt": "I have been working for some time on a budget body/facial mocap solution with Unity. Mocap is hard, and what exists is locked behind subscriptions or is just very expensive.",
+      "evidence": [
+        {
+          "source_item_id": 48086971,
+          "source_field": "body",
+          "value": "I have been working for some time on a budget body/facial mocap solution with Unity. Mocap is hard, and what exists is locked behind subscriptions or is just very expensive.",
+          "supports": [],
+          "author": "harrisoned",
+          "shared_at": 1778441015,
+          "source_url": "https://news.ycombinator.com/item?id=48086971"
+        }
+      ],
+      "source_item_id": 48086971,
+      "source_url": "https://news.ycombinator.com/item?id=48086971",
+      "author": "harrisoned",
+      "shared_at": 1778441015,
+      "links": []
+    }
+  ]
+}

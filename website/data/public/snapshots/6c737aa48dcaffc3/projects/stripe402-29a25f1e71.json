@@ -1,0 +1,35 @@
+{
+  "id": 6075,
+  "slug": "stripe402-29a25f1e71",
+  "name": "stripe402",
+  "mentions": [
+    {
+      "name": "stripe402",
+      "description": "This project implements the HTTP 402 (Payment Required) flow on top of familiar payment rails like Stripe so API and resource builders can get paid per request. It removes the need for consumers to sign up for accounts or obtain API keys, aiming to reduce friction for digital payments in the agentic commerce world, with possible support for on-chain or other rails later.",
+      "problem": "Paying per request for APIs today requires a painful workflow of user account sign-ups and API key management, creating friction for digital payments.",
+      "audience": "those building APIs and resources who want to charge per request",
+      "builder_usernames": [
+        "whatl3y"
+      ],
+      "source_excerpt": "I am building https://stripe402.com to try to make it dead simple for those building APIs/resources to get paid per request through stripe without user's needing to sign up for accounts, get API keys, any of that normal painful workflow required today.",
+      "evidence": [
+        {
+          "source_item_id": 47308038,
+          "source_field": "body",
+          "value": "I am building https://stripe402.com to try to make it dead simple for those building APIs/resources to get paid per request through stripe without user's needing to sign up for accounts, get API keys, any of that normal painful workflow required today.",
+          "supports": [],
+          "author": "whatl3y",
+          "shared_at": 1773058395,
+          "source_url": "https://news.ycombinator.com/item?id=47308038"
+        }
+      ],
+      "source_item_id": 47308038,
+      "source_url": "https://news.ycombinator.com/item?id=47308038",
+      "author": "whatl3y",
+      "shared_at": 1773058395,
+      "links": [
+        "https://stripe402.com"
+      ]
+    }
+  ]
+}

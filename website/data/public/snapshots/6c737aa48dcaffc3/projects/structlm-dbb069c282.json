@@ -1,0 +1,35 @@
+{
+  "id": 10404,
+  "slug": "structlm-dbb069c282",
+  "name": "structlm",
+  "mentions": [
+    {
+      "name": "structlm",
+      "description": "A library that generates schemas for structured JSON outputs from LLMs using a TypeScript-like custom schema definition, based on the idea that LLMs read TypeScript types better than JSON schema types. Reported results show accuracy on par with or better than JSON schemas while using 20-40% fewer tokens.",
+      "problem": "JSON schema types are less effectively read by LLMs and consume more tokens than TypeScript-style type definitions.",
+      "audience": null,
+      "builder_usernames": [
+        "lunarcave"
+      ],
+      "source_excerpt": "I've been tinkering around with a library that can generate schemas for structured JSON outputs, according to a Typescript-like custom schema definition: https://github.com/nadeesha/structlm",
+      "evidence": [
+        {
+          "source_item_id": 44706824,
+          "source_field": "body",
+          "value": "I've been tinkering around with a library that can generate schemas for structured JSON outputs, according to a Typescript-like custom schema definition: https://github.com/nadeesha/structlm",
+          "supports": [],
+          "author": "lunarcave",
+          "shared_at": 1753671934,
+          "source_url": "https://news.ycombinator.com/item?id=44706824"
+        }
+      ],
+      "source_item_id": 44706824,
+      "source_url": "https://news.ycombinator.com/item?id=44706824",
+      "author": "lunarcave",
+      "shared_at": 1753671934,
+      "links": [
+        "https://github.com/nadeesha/structlm"
+      ]
+    }
+  ]
+}

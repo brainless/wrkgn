@@ -1,0 +1,35 @@
+{
+  "id": 6328,
+  "slug": "uvmap-ai-134954f598",
+  "name": "uvmap.ai",
+  "mentions": [
+    {
+      "name": "uvmap.ai",
+      "description": "A browser tool for editing 3D model textures directly from the model view. Users load a glTF, click the part they want to change, SAM3 masks that region, the mask is sent to Nano Banana to generate the edit, and the result is placed back onto the texture. The goal is to make texture iteration much less tedious.",
+      "problem": "Editing 3D model textures is tedious because work bounces between a UV map, an image editor, and an AI tool.",
+      "audience": null,
+      "builder_usernames": [
+        "subzel0"
+      ],
+      "source_excerpt": "A browser tool for editing 3D model textures directly from the model view instead of bouncing between a UV map, an image editor, and an AI tool. You load a glTF, click the part you want to change, it uses SAM3 to mask that region, then sends it to Nano Banana and puts the result back onto the texture.",
+      "evidence": [
+        {
+          "source_item_id": 47309721,
+          "source_field": "body",
+          "value": "A browser tool for editing 3D model textures directly from the model view instead of bouncing between a UV map, an image editor, and an AI tool. You load a glTF, click the part you want to change, it uses SAM3 to mask that region, then sends it to Nano Banana and puts the result back onto the texture.",
+          "supports": [],
+          "author": "subzel0",
+          "shared_at": 1773067064,
+          "source_url": "https://news.ycombinator.com/item?id=47309721"
+        }
+      ],
+      "source_item_id": 47309721,
+      "source_url": "https://news.ycombinator.com/item?id=47309721",
+      "author": "subzel0",
+      "shared_at": 1773067064,
+      "links": [
+        "https://github.com/RefactorHQ/UVMapAI"
+      ]
+    }
+  ]
+}

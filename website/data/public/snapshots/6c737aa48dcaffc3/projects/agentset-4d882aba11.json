@@ -1,0 +1,93 @@
+{
+  "id": 6904,
+  "slug": "agentset-4d882aba11",
+  "name": "Agentset",
+  "mentions": [
+    {
+      "name": "Agentset",
+      "description": "Open-source RAG infrastructure that handles ingestion through retrieval with optimizations baked in, scoring 97.9% on HotpotQA versus 88.8% for standard RAG. It is model-agnostic, supports 22+ file types, includes built-in citations and an MCP server, and is MIT licensed.",
+      "problem": null,
+      "audience": "Every team building with RAG, which works in the demo but breaks in production.",
+      "builder_usernames": [
+        "tifa2up"
+      ],
+      "source_excerpt": "https://agentset.ai/\n\nOpen-source RAG infrastructure.Every team I talk to has the same experience: RAG works in the demo, breaks in production.",
+      "evidence": [
+        {
+          "source_item_id": 46944390,
+          "source_field": "body",
+          "value": "https://agentset.ai/\n\nOpen-source RAG infrastructure.Every team I talk to has the same experience: RAG works in the demo, breaks in production.",
+          "supports": [],
+          "author": "tifa2up",
+          "shared_at": 1770639112,
+          "source_url": "https://news.ycombinator.com/item?id=46944390"
+        }
+      ],
+      "source_item_id": 46944390,
+      "source_url": "https://news.ycombinator.com/item?id=46944390",
+      "author": "tifa2up",
+      "shared_at": 1770639112,
+      "links": [
+        "https://agentset.ai/",
+        "https://github.com/agentset-ai/agentset"
+      ]
+    },
+    {
+      "name": "Agentset",
+      "description": "RAG-as-a-service platform that works well out of the box, achieving strong performance by baking in best practices before any tweaking. Retrieval is currently single-shot, with plans to explore agentic retrieval based on Claude ADK.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tifa2up"
+      ],
+      "source_excerpt": "I'm building https://github.com/agentset-ai/agentset, RAG as a service that works quite well out of the box.",
+      "evidence": [
+        {
+          "source_item_id": 45873248,
+          "source_field": "body",
+          "value": "I'm building https://github.com/agentset-ai/agentset, RAG as a service that works quite well out of the box.",
+          "supports": [],
+          "author": "tifa2up",
+          "shared_at": 1762758546,
+          "source_url": "https://news.ycombinator.com/item?id=45873248"
+        }
+      ],
+      "source_item_id": 45873248,
+      "source_url": "https://news.ycombinator.com/item?id=45873248",
+      "author": "tifa2up",
+      "shared_at": 1762758546,
+      "links": [
+        "https://github.com/agentset-ai/agentset"
+      ]
+    },
+    {
+      "name": "Agentset",
+      "description": "Open source RAG-as-a-service platform that bakes in retrieval best practices and keeps evolving them so customers get high-quality retrieval without deep expertise or staying up to date. Its flagship feature is Agentic RAG, which is difficult to build from scratch.",
+      "problem": "Agentic RAG is quite difficult to build from scratch, and keeping up with retrieval best practices requires going deep and staying up to date.",
+      "audience": null,
+      "builder_usernames": [
+        "tifa2up"
+      ],
+      "source_excerpt": "Working on an open source RAG-as-a-service platform that bakes in the best practices and continues to evolve them so that customers get the best retrieval without having to go deep or stay up to date.\n\nOur flagship feature is Agentic RAG, which is quite difficult to build from scratch.",
+      "evidence": [
+        {
+          "source_item_id": 44708388,
+          "source_field": "body",
+          "value": "Working on an open source RAG-as-a-service platform that bakes in the best practices and continues to evolve them so that customers get the best retrieval without having to go deep or stay up to date.\n\nOur flagship feature is Agentic RAG, which is quite difficult to build from scratch.",
+          "supports": [],
+          "author": "tifa2up",
+          "shared_at": 1753689382,
+          "source_url": "https://news.ycombinator.com/item?id=44708388"
+        }
+      ],
+      "source_item_id": 44708388,
+      "source_url": "https://news.ycombinator.com/item?id=44708388",
+      "author": "tifa2up",
+      "shared_at": 1753689382,
+      "links": [
+        "https://agentset.ai",
+        "https://github.com/agentset-ai/agentset"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 10494,
+  "slug": "open-source-chessbase-replacement-chess-analytics-tool-a1c3ecffec",
+  "name": "Open-source Chessbase replacement (chess analytics tool)",
+  "mentions": [
+    {
+      "name": "Open-source Chessbase replacement (chess analytics tool)",
+      "description": "A free and open source, cross-platform chess analytics tool positioned as a Chessbase replacement. It uses DuckDB with LLM-generated queries over preprocessed game PGNs and piece hashes to answer natural language questions like head-to-head scores, top US juniors, or games featuring specific openings and sacrifices, and can import a user's Chess.com and Lichess games for similar analysis. It was also used to generate an Adult Chess improvers FIDE rank list across world federations.",
+      "problem": "Chessbase can be intimidating for a casual Chess.com beginner looking to go into serious chess prep, so the tool aims to lower the barrier of entry to chess improvement tools.",
+      "audience": "Casual Chess.com beginners moving into serious chess preparation and improvement who find Chessbase intimidating",
+      "builder_usernames": [
+        "thepoet"
+      ],
+      "source_excerpt": "I am working on a chess analytics tool, specifically a free and open source replacement of Chessbase in this age of LLMs that can run on all platforms. The idea is to lower the barrier of entry to use a chess improvement tool since Chessbase can be intimidating for a causal Chess.com beginner looking to go into serious chess prep.",
+      "evidence": [
+        {
+          "source_item_id": 44704290,
+          "source_field": "body",
+          "value": "I am working on a chess analytics tool, specifically a free and open source replacement of Chessbase in this age of LLMs that can run on all platforms. The idea is to lower the barrier of entry to use a chess improvement tool since Chessbase can be intimidating for a causal Chess.com beginner looking to go into serious chess prep.",
+          "supports": [],
+          "author": "thepoet",
+          "shared_at": 1753647085,
+          "source_url": "https://news.ycombinator.com/item?id=44704290"
+        }
+      ],
+      "source_item_id": 44704290,
+      "source_url": "https://news.ycombinator.com/item?id=44704290",
+      "author": "thepoet",
+      "shared_at": 1753647085,
+      "links": [
+        "https://chess-ranking.pages.dev"
+      ]
+    }
+  ]
+}

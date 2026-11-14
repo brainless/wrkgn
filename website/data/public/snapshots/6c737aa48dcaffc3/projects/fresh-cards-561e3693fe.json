@@ -1,0 +1,35 @@
+{
+  "id": 4530,
+  "slug": "fresh-cards-561e3693fe",
+  "name": "Fresh Cards",
+  "mentions": [
+    {
+      "name": "Fresh Cards",
+      "description": "A flashcards app for Mac and iOS that syncs data using Core Data with CloudKit. To work around CloudKit throttling with large numbers of objects, it creates snapshot objects that carry many records in bulk and expands them into a local SQLite database, with careful attention to UX details.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "allenu"
+      ],
+      "source_excerpt": "I've been working on an update to my flashcards app for over a year and half now and I'm finally nearing completion. This is for Mac and iOS only and the app uses Core Data with CloudKit for syncing its data, which has been interesting learning the ins and outs of.",
+      "evidence": [
+        {
+          "source_item_id": 48089036,
+          "source_field": "body",
+          "value": "I've been working on an update to my flashcards app for over a year and half now and I'm finally nearing completion. This is for Mac and iOS only and the app uses Core Data with CloudKit for syncing its data, which has been interesting learning the ins and outs of.",
+          "supports": [],
+          "author": "allenu",
+          "shared_at": 1778454082,
+          "source_url": "https://news.ycombinator.com/item?id=48089036"
+        }
+      ],
+      "source_item_id": 48089036,
+      "source_url": "https://news.ycombinator.com/item?id=48089036",
+      "author": "allenu",
+      "shared_at": 1778454082,
+      "links": [
+        "https://www.freshcardsapp.com/3/"
+      ]
+    }
+  ]
+}

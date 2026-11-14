@@ -1,0 +1,33 @@
+{
+  "id": 4317,
+  "slug": "agentic-iterative-code-optimization-e6a76350b5",
+  "name": "Agentic iterative code optimization",
+  "mentions": [
+    {
+      "name": "Agentic iterative code optimization",
+      "description": "A methodology for speeding up code with LLMs: the model builds a real-world representative benchmark, then iteratively optimizes it without cheating the benchmark while ensuring a quality metric (e.g., MSE for machine learning algorithms) does not regress. Highly effective with GPT 5.5, and a recent prompt optimization yields another 2x average speed improvement on top.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "minimaxir"
+      ],
+      "source_excerpt": "I have been experimenting more with agentic iterative optimization: using LLMs to actually speed up code by finding and testing lower-level optimizations, specifically by having it build a real-world representative benchmark, then tell the LLM to optimize that benchmark without a) cheating the benchmark and b) ensuring code quality by some metric does not regress, e.g. MSE for machine learning algorithms.",
+      "evidence": [
+        {
+          "source_item_id": 48531503,
+          "source_field": "body",
+          "value": "I have been experimenting more with agentic iterative optimization: using LLMs to actually speed up code by finding and testing lower-level optimizations, specifically by having it build a real-world representative benchmark, then tell the LLM to optimize that benchmark without a) cheating the benchmark and b) ensuring code quality by some metric does not regress, e.g. MSE for machine learning algorithms.",
+          "supports": [],
+          "author": "minimaxir",
+          "shared_at": 1781464686,
+          "source_url": "https://news.ycombinator.com/item?id=48531503"
+        }
+      ],
+      "source_item_id": 48531503,
+      "source_url": "https://news.ycombinator.com/item?id=48531503",
+      "author": "minimaxir",
+      "shared_at": 1781464686,
+      "links": []
+    }
+  ]
+}

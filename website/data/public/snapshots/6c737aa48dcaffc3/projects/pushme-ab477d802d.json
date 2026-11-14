@@ -1,0 +1,35 @@
+{
+  "id": 7073,
+  "slug": "pushme-ab477d802d",
+  "name": "PushMe",
+  "mentions": [
+    {
+      "name": "PushMe",
+      "description": "PushMe is a notification service that sends alerts for anything the user cares about. It combines a crawling engine and de-duplication with LLM-generated custom keyword filters, and each event is checked against the original prompt with an LLM before being sent out, to avoid the false positives of plain keyword matching.",
+      "problem": "The builder was wasting too much time scrolling news, and keyword-based alerts produce mostly false matches (381 of 388 potential matches failed verification).",
+      "audience": "The comment describes a personal use case: the builder was wasting too much time scrolling news and wants notifications for anything they care about.",
+      "builder_usernames": [
+        "yodakohl"
+      ],
+      "source_excerpt": "Building PushMe: A service that sends you notifications for anything you care about.\n\nI was wasting way to much time scrolling news. It consist of a crawling engine, de-duplication, llm creating a custom keyword filter and each event is checked against the original prompt for verification using a llm before sending it out.",
+      "evidence": [
+        {
+          "source_item_id": 46949374,
+          "source_field": "body",
+          "value": "Building PushMe: A service that sends you notifications for anything you care about.\n\nI was wasting way to much time scrolling news. It consist of a crawling engine, de-duplication, llm creating a custom keyword filter and each event is checked against the original prompt for verification using a llm before sending it out.",
+          "supports": [],
+          "author": "yodakohl",
+          "shared_at": 1770663753,
+          "source_url": "https://news.ycombinator.com/item?id=46949374"
+        }
+      ],
+      "source_item_id": 46949374,
+      "source_url": "https://news.ycombinator.com/item?id=46949374",
+      "author": "yodakohl",
+      "shared_at": 1770663753,
+      "links": [
+        "https://pushme.site"
+      ]
+    }
+  ]
+}

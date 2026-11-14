@@ -1,0 +1,36 @@
+{
+  "id": 6157,
+  "slug": "checkpoint-e5ceef3022",
+  "name": "Checkpoint",
+  "mentions": [
+    {
+      "name": "Checkpoint",
+      "description": "Checkpoint is a free, open source backup system for developers that protects files Git ignores, such as .env files, databases, credentials, and local configs. It runs silently in the background, watches the project for changes, and backs up to encrypted cloud storage (Dropbox, Google Drive, OneDrive, iCloud). It supports SQLite, PostgreSQL, MySQL, and MongoDB, and includes a native macOS menu bar dashboard. Current version is v2.7.0.",
+      "problem": "Git doesn't back up databases and nothing else was doing it either; the author started the project after an AI coding agent destroyed their SQLite database mid-session for the third time.",
+      "audience": "An open source backup system for developers.",
+      "builder_usernames": [
+        "fuxcodestudio"
+      ],
+      "source_excerpt": "I working on an app I built called Checkpoint. It’s an open source backup system for developers that protects everything Git ignores. .env files, databases, credentials, local configs.",
+      "evidence": [
+        {
+          "source_item_id": 47381650,
+          "source_field": "body",
+          "value": "I working on an app I built called Checkpoint. It’s an open source backup system for developers that protects everything Git ignores. .env files, databases, credentials, local configs.",
+          "supports": [],
+          "author": "fuxcodestudio",
+          "shared_at": 1773525345,
+          "source_url": "https://news.ycombinator.com/item?id=47381650"
+        }
+      ],
+      "source_item_id": 47381650,
+      "source_url": "https://news.ycombinator.com/item?id=47381650",
+      "author": "fuxcodestudio",
+      "shared_at": 1773525345,
+      "links": [
+        "https://checkpoint.fluxcode.studio",
+        "https://github.com/fluxcodestudio/Checkpoint"
+      ]
+    }
+  ]
+}

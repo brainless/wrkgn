@@ -1,0 +1,33 @@
+{
+  "id": 8461,
+  "slug": "semi-local-dmarc-tool-bcf9c96f5a",
+  "name": "Semi-local DMARC tool",
+  "mentions": [
+    {
+      "name": "Semi-local DMARC tool",
+      "description": "A DMARC tool designed to run semi-locally for a set of low-volume email domains, built as a simpler alternative to existing DMARC tools. It is still in the reading specs and tinkering stage.",
+      "problem": "The author was unhappy with all the existing DMARC tools and wants something simple to run semi-locally for a bunch of low-volume email domains.",
+      "audience": "People running low-volume email domains",
+      "builder_usernames": [
+        "elric"
+      ],
+      "source_excerpt": "Also dicking around with DMARC tools. Was unhappy with all the existing tools, want something simple I can run semi-locally for a bunch of low volume email domains. Haven't decided yet how that will turn out, still in the reading specs & tinkering stage.",
+      "evidence": [
+        {
+          "source_item_id": 46273700,
+          "source_field": "body",
+          "value": "Also dicking around with DMARC tools. Was unhappy with all the existing tools, want something simple I can run semi-locally for a bunch of low volume email domains. Haven't decided yet how that will turn out, still in the reading specs & tinkering stage.",
+          "supports": [],
+          "author": "elric",
+          "shared_at": 1765802325,
+          "source_url": "https://news.ycombinator.com/item?id=46273700"
+        }
+      ],
+      "source_item_id": 46273700,
+      "source_url": "https://news.ycombinator.com/item?id=46273700",
+      "author": "elric",
+      "shared_at": 1765802325,
+      "links": []
+    }
+  ]
+}

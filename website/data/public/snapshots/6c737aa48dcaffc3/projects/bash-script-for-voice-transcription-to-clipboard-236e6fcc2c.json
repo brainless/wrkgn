@@ -1,0 +1,33 @@
+{
+  "id": 8095,
+  "slug": "bash-script-for-voice-transcription-to-clipboard-236e6fcc2c",
+  "name": "Bash script for voice transcription to clipboard",
+  "mentions": [
+    {
+      "name": "Bash script for voice transcription to clipboard",
+      "description": "A self-stitched bash script for Linux that transcribes voice and copies the transcription to the clipboard, currently using the Parakeet TDT 0.6B model, serving as a stand-in for WisprFlow on the author's Manjaro KDE daily driver.",
+      "problem": "The author liked WisprFlow on macOS but their daily driver is Manjaro KDE, where it isn't available.",
+      "audience": null,
+      "builder_usernames": [
+        "mysfi"
+      ],
+      "source_excerpt": "I have stitched together a bash script that copies the transcription (right now I am using the Parakeet TDT 0.6B) to my clipboard.",
+      "evidence": [
+        {
+          "source_item_id": 46268453,
+          "source_field": "body",
+          "value": "I have stitched together a bash script that copies the transcription (right now I am using the Parakeet TDT 0.6B) to my clipboard.",
+          "supports": [],
+          "author": "mysfi",
+          "shared_at": 1765756125,
+          "source_url": "https://news.ycombinator.com/item?id=46268453"
+        }
+      ],
+      "source_item_id": 46268453,
+      "source_url": "https://news.ycombinator.com/item?id=46268453",
+      "author": "mysfi",
+      "shared_at": 1765756125,
+      "links": []
+    }
+  ]
+}

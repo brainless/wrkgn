@@ -1,0 +1,65 @@
+{
+  "id": 8299,
+  "slug": "helpdesk-df25345a65",
+  "name": "HelpDesk",
+  "mentions": [
+    {
+      "name": "HelpDesk",
+      "description": "A self-hosted IT helpdesk system for small IT teams, built with Python, Flask, and SQLAlchemy. It provides ticketing, email via Microsoft Graph for MS Office, a documents section for info and repeat answers, purchasing, inventory, projects (groups of tickets), and newly added ticket approvals for manager sign-off. It can run from the Python files or as a portable executable on any Windows computer, and is designed to stay inside the network with ZeroTier access so it can be reached from anywhere without being exposed live on the internet.",
+      "problem": "The project began because the author needed their own helpdesk and didn't want to pay a fortune to online providers.",
+      "audience": "Small IT teams needing an affordable, self-hosted helpdesk.",
+      "builder_usernames": [
+        "djinnrutger"
+      ],
+      "source_excerpt": "I am still working on my helpdesk. An easy to use self-hosted IT Helpdesk system for small IT teams.",
+      "evidence": [
+        {
+          "source_item_id": 46290926,
+          "source_field": "body",
+          "value": "I am still working on my helpdesk. An easy to use self-hosted IT Helpdesk system for small IT teams.",
+          "supports": [],
+          "author": "djinnrutger",
+          "shared_at": 1765904080,
+          "source_url": "https://news.ycombinator.com/item?id=46290926"
+        }
+      ],
+      "source_item_id": 46290926,
+      "source_url": "https://news.ycombinator.com/item?id=46290926",
+      "author": "djinnrutger",
+      "shared_at": 1765904080,
+      "links": [
+        "https://github.com/DjinnRutger/HelpDesk-Public/tree/main",
+        "https://helpfuldjinn.com/"
+      ]
+    },
+    {
+      "name": "HelpDesk-Public",
+      "description": "An easy-to-use, self-hosted IT helpdesk system designed for small IT teams, offering an affordable alternative to expensive online helpdesk providers.",
+      "problem": "The author needed a helpdesk for their own use and did not want to pay a fortune to online helpdesk providers.",
+      "audience": "Small IT teams",
+      "builder_usernames": [
+        "djinnrutger"
+      ],
+      "source_excerpt": "I am working on a easy to use self-hosted IT Helpdesk system for small IT teams.",
+      "evidence": [
+        {
+          "source_item_id": 46151408,
+          "source_field": "body",
+          "value": "I am working on a easy to use self-hosted IT Helpdesk system for small IT teams.",
+          "supports": [],
+          "author": "djinnrutger",
+          "shared_at": 1764874783,
+          "source_url": "https://news.ycombinator.com/item?id=46151408"
+        }
+      ],
+      "source_item_id": 46151408,
+      "source_url": "https://news.ycombinator.com/item?id=46151408",
+      "author": "djinnrutger",
+      "shared_at": 1764874783,
+      "links": [
+        "https://github.com/DjinnRutger/HelpDesk-Public/tree/main",
+        "https://helpfuldjinn.com/"
+      ]
+    }
+  ]
+}

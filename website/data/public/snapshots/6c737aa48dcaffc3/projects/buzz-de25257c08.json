@@ -1,0 +1,35 @@
+{
+  "id": 9202,
+  "slug": "buzz-de25257c08",
+  "name": "buzz",
+  "mentions": [
+    {
+      "name": "buzz",
+      "description": "This programming language has been in development for four years and currently focuses on tooling: a language server protocol (LSP) implementation, a debug adapter (DAP), and a code formatter. Fuzzing with AFL++ has been set up and has uncovered a number of bugs.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "giann"
+      ],
+      "source_excerpt": "Been working on my programming language https://github.com/buzz-language/buzz for 4 years now (with some down periods).\nCurrently mainly working on the tooling: LSP, DAP and formatter.\nAlso managed to get fuzzing working with AFL++ and found a bunch of bugs with it.",
+      "evidence": [
+        {
+          "source_item_id": 45875646,
+          "source_field": "body",
+          "value": "Been working on my programming language https://github.com/buzz-language/buzz for 4 years now (with some down periods).\nCurrently mainly working on the tooling: LSP, DAP and formatter.\nAlso managed to get fuzzing working with AFL++ and found a bunch of bugs with it.",
+          "supports": [],
+          "author": "giann",
+          "shared_at": 1762780448,
+          "source_url": "https://news.ycombinator.com/item?id=45875646"
+        }
+      ],
+      "source_item_id": 45875646,
+      "source_url": "https://news.ycombinator.com/item?id=45875646",
+      "author": "giann",
+      "shared_at": 1762780448,
+      "links": [
+        "https://github.com/buzz-language/buzz"
+      ]
+    }
+  ]
+}

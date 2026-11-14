@@ -1,0 +1,36 @@
+{
+  "id": 4478,
+  "slug": "smalldocs-76501277b4",
+  "name": "SmallDocs",
+  "mentions": [
+    {
+      "name": "SmallDocs",
+      "description": "SmallDocs (SDocs) is a CLI and browser-based Markdown viewer: running `sdoc file.md` instantly opens the rendered Markdown file in the browser. Document content is encoded compressed base64 in the URL fragment, which is never sent to the server, so rendered files stay entirely local while remaining privately shareable via the URL. The webapp is a purely client-side decoding and rendering engine, works without installing anything, and the installer can optionally add a note to AI agent base files (e.g. ~/.claude/CLAUDE.md) so agent chats know about SDocs and can pop open rendered files such as plans when finished.",
+      "problem": "Avoids having to install anything to get a good Markdown viewing experience and having to find the right terminal session to know an AI agent's plan is done.",
+      "audience": null,
+      "builder_usernames": [
+        "FailMore"
+      ],
+      "source_excerpt": "I’ve built SmallDocs (https://sdocs.dev; Show HN: https://news.ycombinator.com/item?id=47777633; live usage stats: https://sdocs.dev/analytics).\n\nSDocs is cli (`sdoc file.md`) -> instantly rendered Markdown file in the browser",
+      "evidence": [
+        {
+          "source_item_id": 48091340,
+          "source_field": "body",
+          "value": "I’ve built SmallDocs (https://sdocs.dev; Show HN: https://news.ycombinator.com/item?id=47777633; live usage stats: https://sdocs.dev/analytics).\n\nSDocs is cli (`sdoc file.md`) -> instantly rendered Markdown file in the browser",
+          "supports": [],
+          "author": "FailMore",
+          "shared_at": 1778477390,
+          "source_url": "https://news.ycombinator.com/item?id=48091340"
+        }
+      ],
+      "source_item_id": 48091340,
+      "source_url": "https://news.ycombinator.com/item?id=48091340",
+      "author": "FailMore",
+      "shared_at": 1778477390,
+      "links": [
+        "https://news.ycombinator.com/item?id=47777633",
+        "https://sdocs.dev"
+      ]
+    }
+  ]
+}

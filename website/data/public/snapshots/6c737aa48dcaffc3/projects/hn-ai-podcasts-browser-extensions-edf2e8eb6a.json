@@ -1,0 +1,35 @@
+{
+  "id": 4717,
+  "slug": "hn-ai-podcasts-browser-extensions-edf2e8eb6a",
+  "name": "HN AI Podcasts Browser Extensions",
+  "mentions": [
+    {
+      "name": "HN AI Podcasts Browser Extensions",
+      "description": "Browser extensions that create podcasts from Hacker News stories, using a shared quota across users. Includes links to the extensions from the repository readme.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "hn-ai-podcasts"
+      ],
+      "source_excerpt": "I worked on browser extensions to create podcast from hn stories, with a shared quota.",
+      "evidence": [
+        {
+          "source_item_id": 48100322,
+          "source_field": "body",
+          "value": "I worked on browser extensions to create podcast from hn stories, with a shared quota.",
+          "supports": [],
+          "author": "hn-ai-podcasts",
+          "shared_at": 1778531677,
+          "source_url": "https://news.ycombinator.com/item?id=48100322"
+        }
+      ],
+      "source_item_id": 48100322,
+      "source_url": "https://news.ycombinator.com/item?id=48100322",
+      "author": "hn-ai-podcasts",
+      "shared_at": 1778531677,
+      "links": [
+        "https://github.com/hn-ai-podcasts/browser-extensions"
+      ]
+    }
+  ]
+}

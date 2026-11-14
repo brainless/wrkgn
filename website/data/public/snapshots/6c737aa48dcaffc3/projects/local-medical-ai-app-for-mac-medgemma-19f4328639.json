@@ -1,0 +1,35 @@
+{
+  "id": 9790,
+  "slug": "local-medical-ai-app-for-mac-medgemma-19f4328639",
+  "name": "Local Medical AI App for Mac (MedGemma)",
+  "mentions": [
+    {
+      "name": "Local Medical AI App for Mac (MedGemma)",
+      "description": "A local medical AI app for Mac, published on the App Store, that runs the MedGemma 4B model on-device to analyze medical images and generate diagnostic insights and reports. It supports chat and report generation, is explicitly not intended for real diagnostics (more of a second view), and the author is experimenting with integrating the larger 27B model, which looks better even with 4-bit quantization.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mcemilg"
+      ],
+      "source_excerpt": "I'm building a local medical AI app for Mac, recently published on the App Store. https://apple.co/4mlYANu\n\nIt uses medgemma 4B for analyzing medical images and generating diagnostic insights and reports, ofc must be used by caution, its not for real diagnostics, can be something to have another view maybe.\n\nCurrently, it supports chat and report generation",
+      "evidence": [
+        {
+          "source_item_id": 45568585,
+          "source_field": "body",
+          "value": "I'm building a local medical AI app for Mac, recently published on the App Store. https://apple.co/4mlYANu\n\nIt uses medgemma 4B for analyzing medical images and generating diagnostic insights and reports, ofc must be used by caution, its not for real diagnostics, can be something to have another view maybe.\n\nCurrently, it supports chat and report generation",
+          "supports": [],
+          "author": "mcemilg",
+          "shared_at": 1760365049,
+          "source_url": "https://news.ycombinator.com/item?id=45568585"
+        }
+      ],
+      "source_item_id": 45568585,
+      "source_url": "https://news.ycombinator.com/item?id=45568585",
+      "author": "mcemilg",
+      "shared_at": 1760365049,
+      "links": [
+        "https://apple.co/4mlYANu"
+      ]
+    }
+  ]
+}

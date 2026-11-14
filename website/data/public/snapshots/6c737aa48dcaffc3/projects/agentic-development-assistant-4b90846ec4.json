@@ -1,0 +1,33 @@
+{
+  "id": 3706,
+  "slug": "agentic-development-assistant-4b90846ec4",
+  "name": "Agentic development assistant",
+  "mentions": [
+    {
+      "name": "Agentic development assistant",
+      "description": "This app combines an idea-to-implementation-plan-to-agent workflow with code dependency graph analysis and sandboxing (semi-structured build manifests with auto-installing tools and isolation). Features include a virtualized code workspace over gRPC that works locally or remotely, Starlark for scripting, a debugger with an investigation log and proposed fixes, a dependency analyzer, a security reviewer, and per-agent models/providers so more expensive models handle complex work like design or debugging while cheaper models write code. It supports most any LLM provider, including local ones, with seamless switching between providers or models mid-work if one is offline or going in circles.",
+      "problem": "The author was annoyed with existing agentic developer tools and doesn't trust most models not to accidentally delete everything from the computer.",
+      "audience": "An individual developer using it daily for development at home and at work; a replacement for existing agentic developer tools.",
+      "builder_usernames": [
+        "soysamurai"
+      ],
+      "source_excerpt": "So I built an app that combines that workflow with some code dependency graph and sandboxing ideas (semi-structured build manifests with auto-installing tools / isolation) from a startup I previously co-founded, along with a handful of other tools / features (like virtualized code workspace over gRPC that works locally or remotely, starlark for scripting, a debugger with an investigation log and proposed fixes, dependency analyzer, security reviewer, and per-agent models/providers so I can use more expensive models for more complex work, like design or debugging work, and cheaper models for writing code) and built my own day-to-day development assistant that I’m pretty happy with!",
+      "evidence": [
+        {
+          "source_item_id": 48542554,
+          "source_field": "body",
+          "value": "So I built an app that combines that workflow with some code dependency graph and sandboxing ideas (semi-structured build manifests with auto-installing tools / isolation) from a startup I previously co-founded, along with a handful of other tools / features (like virtualized code workspace over gRPC that works locally or remotely, starlark for scripting, a debugger with an investigation log and proposed fixes, dependency analyzer, security reviewer, and per-agent models/providers so I can use more expensive models for more complex work, like design or debugging work, and cheaper models for writing code) and built my own day-to-day development assistant that I’m pretty happy with!",
+          "supports": [],
+          "author": "soysamurai",
+          "shared_at": 1781536684,
+          "source_url": "https://news.ycombinator.com/item?id=48542554"
+        }
+      ],
+      "source_item_id": 48542554,
+      "source_url": "https://news.ycombinator.com/item?id=48542554",
+      "author": "soysamurai",
+      "shared_at": 1781536684,
+      "links": []
+    }
+  ]
+}

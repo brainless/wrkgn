@@ -1,0 +1,35 @@
+{
+  "id": 6902,
+  "slug": "rtk-93a4f377cd",
+  "name": "rtk",
+  "mentions": [
+    {
+      "name": "rtk",
+      "description": "A CLI wrapper/filter that makes LLM agent interactions more signal-to-noise efficient by silencing or summarizing redundant command output (like repeated ls -al or cat calls), so coding agents only receive the necessary delta. It reduces token waste and context pollution, keeping sessions useful for longer before the agent loses the plot.",
+      "problem": "Coding agents burn tokens on info they already have (the \"Token Tax\") and fill the context window with redundant noise from repeated orientation commands like ls -al and cat.",
+      "audience": null,
+      "builder_usernames": [
+        "patrick4urcloud"
+      ],
+      "source_excerpt": "rtk acts as a CLI wrapper/filter to make LLM interactions more signal-to-noise efficient. It silences or summarizes redundant outputs so the agent only receives the necessary \"delta.\"",
+      "evidence": [
+        {
+          "source_item_id": 46940735,
+          "source_field": "body",
+          "value": "rtk acts as a CLI wrapper/filter to make LLM interactions more signal-to-noise efficient. It silences or summarizes redundant outputs so the agent only receives the necessary \"delta.\"",
+          "supports": [],
+          "author": "patrick4urcloud",
+          "shared_at": 1770602410,
+          "source_url": "https://news.ycombinator.com/item?id=46940735"
+        }
+      ],
+      "source_item_id": 46940735,
+      "source_url": "https://news.ycombinator.com/item?id=46940735",
+      "author": "patrick4urcloud",
+      "shared_at": 1770602410,
+      "links": [
+        "https://github.com/rtk-ai/rtk"
+      ]
+    }
+  ]
+}

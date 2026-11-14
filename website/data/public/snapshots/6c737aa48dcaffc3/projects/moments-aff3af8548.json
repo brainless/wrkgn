@@ -1,0 +1,35 @@
+{
+  "id": 7671,
+  "slug": "moments-aff3af8548",
+  "name": "Moments",
+  "mentions": [
+    {
+      "name": "Moments",
+      "description": "A journaling app that captures entries via text message instead of requiring users to open an app. It grew out of a low-friction personal setup (a Twilio number and a server logging messages to a txt file committed to a GitHub repo) and was rebuilt to support photos and voice notes, produce timestamped entries with version history, and visualize the accumulated journal.",
+      "problem": "Traditional journaling is high-friction, and the best thoughts tend to arrive at inconvenient times, making it hard to journal consistently.",
+      "audience": "Journaling app aimed at individuals who want to capture personal thoughts on the go.",
+      "builder_usernames": [
+        "wluer"
+      ],
+      "source_excerpt": "I've been working on Moments (textmoments.com). It's a journaling app that you text instead of open.",
+      "evidence": [
+        {
+          "source_item_id": 46615484,
+          "source_field": "body",
+          "value": "I've been working on Moments (textmoments.com). It's a journaling app that you text instead of open.",
+          "supports": [],
+          "author": "wluer",
+          "shared_at": 1768395344,
+          "source_url": "https://news.ycombinator.com/item?id=46615484"
+        }
+      ],
+      "source_item_id": 46615484,
+      "source_url": "https://news.ycombinator.com/item?id=46615484",
+      "author": "wluer",
+      "shared_at": 1768395344,
+      "links": [
+        "https://textmoments.com"
+      ]
+    }
+  ]
+}

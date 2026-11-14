@@ -1,0 +1,33 @@
+{
+  "id": 4792,
+  "slug": "forth-vm-spreadsheet-like-rpl-calculator-5e3adec973",
+  "name": "Forth VM spreadsheet-like RPL calculator",
+  "mentions": [
+    {
+      "name": "Forth VM spreadsheet-like RPL calculator",
+      "description": "A Forth virtual machine written in C, originally created in 1996 from TCJ articles by Brad Rodriguez and now fixed to compile with modern GCC after valgrind cleanup. It is being adapted to power a spreadsheet-like system with reasonable decimal numeric precision, envisioned as an RPL calculator with an Excel-like front end.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "cryo32"
+      ],
+      "source_excerpt": "Wrote a Forth VM in C in about 1996 based on TCJ articles by Brag Rodriguez. Managed to get it to compile with modern GCC this morning and fix all the horrible issues with valgrind. Trying to adapt it to a context where it'll be usable for a spreadsheet-like system with reasonable decimal numeric precision. Consider it an RPL calculator with an Excel-like front end.",
+      "evidence": [
+        {
+          "source_item_id": 48087262,
+          "source_field": "body",
+          "value": "Wrote a Forth VM in C in about 1996 based on TCJ articles by Brag Rodriguez. Managed to get it to compile with modern GCC this morning and fix all the horrible issues with valgrind. Trying to adapt it to a context where it'll be usable for a spreadsheet-like system with reasonable decimal numeric precision. Consider it an RPL calculator with an Excel-like front end.",
+          "supports": [],
+          "author": "cryo32",
+          "shared_at": 1778442966,
+          "source_url": "https://news.ycombinator.com/item?id=48087262"
+        }
+      ],
+      "source_item_id": 48087262,
+      "source_url": "https://news.ycombinator.com/item?id=48087262",
+      "author": "cryo32",
+      "shared_at": 1778442966,
+      "links": []
+    }
+  ]
+}

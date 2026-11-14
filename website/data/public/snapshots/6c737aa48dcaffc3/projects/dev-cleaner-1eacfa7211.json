@@ -1,0 +1,33 @@
+{
+  "id": 7185,
+  "slug": "dev-cleaner-1eacfa7211",
+  "name": "Dev Cleaner",
+  "mentions": [
+    {
+      "name": "Dev Cleaner",
+      "description": "An offline, cross-platform desktop application that scans for development cache files and build artifacts such as node_modules, .cargo/registry, and .npm, and safely removes them to help developers reclaim disk space. It is closed source with a planned paid license.",
+      "problem": "Development caches and build artifacts (like node_modules, .cargo/registry, and .npm) accumulate and consume disk space.",
+      "audience": "Developers who need to reclaim disk space used by development caches.",
+      "builder_usernames": [
+        "deevus"
+      ],
+      "source_excerpt": "Dev Cleaner is a desktop application for scanning and cleaning development cache files and build artifacts. It helps developers reclaim disk space by identifying and safely removing caches like node_modules, .cargo/registry, .npm, and other build artifacts.",
+      "evidence": [
+        {
+          "source_item_id": 46942246,
+          "source_field": "body",
+          "value": "Dev Cleaner is a desktop application for scanning and cleaning development cache files and build artifacts. It helps developers reclaim disk space by identifying and safely removing caches like node_modules, .cargo/registry, .npm, and other build artifacts.",
+          "supports": [],
+          "author": "deevus",
+          "shared_at": 1770619234,
+          "source_url": "https://news.ycombinator.com/item?id=46942246"
+        }
+      ],
+      "source_item_id": 46942246,
+      "source_url": "https://news.ycombinator.com/item?id=46942246",
+      "author": "deevus",
+      "shared_at": 1770619234,
+      "links": []
+    }
+  ]
+}

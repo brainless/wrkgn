@@ -1,0 +1,37 @@
+{
+  "id": 7585,
+  "slug": "px-ae8aa17245",
+  "name": "PX",
+  "mentions": [
+    {
+      "name": "PX",
+      "description": "PX is a daily developer tool (CLI) that takes backend engineers from working code on a laptop to deployed code in a freshly-built cloud cluster within seconds. It is cloud independent, programming language agnostic, and open source friendly, letting developers wield cloud hardware with open source tech instead of locking into proprietary cloud APIs. The current version focuses on one-off and batch workloads on GCP, with cron-style scheduled jobs, a monitoring/debugging/admin dashboard, and formal support for AWS, DigitalOcean, and Azure on the roadmap.",
+      "problem": "Backend developers lack a simple way to deploy code to cloud clusters without locking in to proprietary cloud APIs; PX is the backend development tool the author always wished his team could have.",
+      "audience": "backend engineers",
+      "builder_usernames": [
+        "pixelmonkey"
+      ],
+      "source_excerpt": "PX is a daily developer tool that helps backend engineers go from working code on a laptop to deployed code in a freshly-built cloud cluster -- all within seconds.",
+      "evidence": [
+        {
+          "source_item_id": 46588594,
+          "source_field": "body",
+          "value": "PX is a daily developer tool that helps backend engineers go from working code on a laptop to deployed code in a freshly-built cloud cluster -- all within seconds.",
+          "supports": [],
+          "author": "pixelmonkey",
+          "shared_at": 1768226350,
+          "source_url": "https://news.ycombinator.com/item?id=46588594"
+        }
+      ],
+      "source_item_id": 46588594,
+      "source_url": "https://news.ycombinator.com/item?id=46588594",
+      "author": "pixelmonkey",
+      "shared_at": 1768226350,
+      "links": [
+        "https://amontalenti.com/2025/12/11/px-launch-overview",
+        "https://px.app/",
+        "https://px.app/docs/quick-start.html"
+      ]
+    }
+  ]
+}

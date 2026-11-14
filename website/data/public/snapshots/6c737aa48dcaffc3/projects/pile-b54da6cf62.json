@@ -1,0 +1,33 @@
+{
+  "id": 11235,
+  "slug": "pile-b54da6cf62",
+  "name": "pile",
+  "mentions": [
+    {
+      "name": "pile",
+      "description": "A framework and CLI for managing a large number of docker-compose files running on the same machine. It organizes compose files that may live in different directories and adds helper commands (pile ports, pile commands, pile state) that surface container information in legible output, improving on the hard-to-read default docker CLI output such as docker ps when running 20+ containers locally.",
+      "problem": "Running many interdependent docker-compose services is hard to organize, and default docker CLI output (e.g., docker ps) is illegible when managing 20+ containers locally.",
+      "audience": null,
+      "builder_usernames": [
+        "whydoineedthis"
+      ],
+      "source_excerpt": "pile - a framework & cli for managing a large number of docker-compose files running on the same machine.",
+      "evidence": [
+        {
+          "source_item_id": 43836007,
+          "source_field": "body",
+          "value": "pile - a framework & cli for managing a large number of docker-compose files running on the same machine.",
+          "supports": [],
+          "author": "whydoineedthis",
+          "shared_at": 1745949950,
+          "source_url": "https://news.ycombinator.com/item?id=43836007"
+        }
+      ],
+      "source_item_id": 43836007,
+      "source_url": "https://news.ycombinator.com/item?id=43836007",
+      "author": "whydoineedthis",
+      "shared_at": 1745949950,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 5413,
+  "slug": "elixir-hls-streaming-engine-c6e91cd8a7",
+  "name": "Elixir HLS Streaming Engine",
+  "mentions": [
+    {
+      "name": "Elixir HLS Streaming Engine",
+      "description": "An HLS streaming engine written in Elixir that handles asset segmentation, transcoding, and streaming. It supports VOD playout and live streaming by dynamically building HLS playlists from various sources, including transcoded VOD assets and other HLS livestreams. It includes a scheduling system, with a Lua engine being integrated to enable dynamic scheduling via user-provided scripts. The goal is to extend it into a full internet TV delivery stack comparable to Pluto or Roku TV, deliverable through any CDN.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "solid_fuel"
+      ],
+      "source_excerpt": "I've been building an HLS streaming engine with Elixir.  It takes care of asset segmentation, transcoding, and streaming.  It supports regular VOD playout, as well as live streaming by dynamically building HLS playlists from a variety of sources, including transcoded VOD assets and other HLS livestreams.  It has a basic scheduling system and I'm integrating a lua engine to allow dynamic scheduling using user-provided scripts.",
+      "evidence": [
+        {
+          "source_item_id": 47747260,
+          "source_field": "body",
+          "value": "I've been building an HLS streaming engine with Elixir.  It takes care of asset segmentation, transcoding, and streaming.  It supports regular VOD playout, as well as live streaming by dynamically building HLS playlists from a variety of sources, including transcoded VOD assets and other HLS livestreams.  It has a basic scheduling system and I'm integrating a lua engine to allow dynamic scheduling using user-provided scripts.",
+          "supports": [],
+          "author": "solid_fuel",
+          "shared_at": 1776051138,
+          "source_url": "https://news.ycombinator.com/item?id=47747260"
+        }
+      ],
+      "source_item_id": 47747260,
+      "source_url": "https://news.ycombinator.com/item?id=47747260",
+      "author": "solid_fuel",
+      "shared_at": 1776051138,
+      "links": []
+    }
+  ]
+}

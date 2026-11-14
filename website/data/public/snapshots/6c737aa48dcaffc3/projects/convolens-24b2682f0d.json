@@ -1,0 +1,35 @@
+{
+  "id": 6307,
+  "slug": "convolens-24b2682f0d",
+  "name": "ConvoLens",
+  "mentions": [
+    {
+      "name": "ConvoLens",
+      "description": "This app explores the content of video interviews from YouTube channels by enabling keyword research, RAG-based retrieval, and visualization of discussed topics with a 2D projection and semantic graph. It can also generate a new video or audio from a playlist of video segments. It uses YouTube as its data source, processes content with Gemini 3.1 Flash Lite, and runs locally via Docker Compose.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "didmar8312"
+      ],
+      "source_excerpt": "Building ConvoLens [1] - app to explore the content of video interviews from YouTube channels I like (such as Dwarkesh Patel's): research by keyword, RAG, visualization of discussed topics with a 2D projection, semantic graph, and the possibility to generate a new video or audio from a playlist of video segments.",
+      "evidence": [
+        {
+          "source_item_id": 47306159,
+          "source_field": "body",
+          "value": "Building ConvoLens [1] - app to explore the content of video interviews from YouTube channels I like (such as Dwarkesh Patel's): research by keyword, RAG, visualization of discussed topics with a 2D projection, semantic graph, and the possibility to generate a new video or audio from a playlist of video segments.",
+          "supports": [],
+          "author": "didmar8312",
+          "shared_at": 1773044389,
+          "source_url": "https://news.ycombinator.com/item?id=47306159"
+        }
+      ],
+      "source_item_id": 47306159,
+      "source_url": "https://news.ycombinator.com/item?id=47306159",
+      "author": "didmar8312",
+      "shared_at": 1773044389,
+      "links": [
+        "https://github.com/didmar/convolens"
+      ]
+    }
+  ]
+}

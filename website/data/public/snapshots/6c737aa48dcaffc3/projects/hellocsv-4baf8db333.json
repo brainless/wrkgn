@@ -1,0 +1,35 @@
+{
+  "id": 10833,
+  "slug": "hellocsv-4baf8db333",
+  "name": "HelloCSV",
+  "mentions": [
+    {
+      "name": "HelloCSV",
+      "description": "HelloCSV is an open source FlatFile alternative for importing CSV/flat-file data that runs 100% in the user's browser rather than sending data to remote servers. It is adding localStorage support so users can refresh the page without losing their import progress.",
+      "problem": "FlatFile sends imported data to remote servers; the builders work at a healthcare company and need full control over their data storage, so they built a fully client-side alternative.",
+      "audience": null,
+      "builder_usernames": [
+        "czhu12"
+      ],
+      "source_excerpt": "Been building HelloCSV - an open source FlatFile alternative. I've been building this for work and the folks at work were cool enough to let me just build it in open source.\n\nhttps://hellocsv.github.io/HelloCSV/\n\nIt basically runs 100% on your / your users browser, and I'm adding localstorage support so the user can refresh their page without losing their progress.",
+      "evidence": [
+        {
+          "source_item_id": 43824553,
+          "source_field": "body",
+          "value": "Been building HelloCSV - an open source FlatFile alternative. I've been building this for work and the folks at work were cool enough to let me just build it in open source.\n\nhttps://hellocsv.github.io/HelloCSV/\n\nIt basically runs 100% on your / your users browser, and I'm adding localstorage support so the user can refresh their page without losing their progress.",
+          "supports": [],
+          "author": "czhu12",
+          "shared_at": 1745865578,
+          "source_url": "https://news.ycombinator.com/item?id=43824553"
+        }
+      ],
+      "source_item_id": 43824553,
+      "source_url": "https://news.ycombinator.com/item?id=43824553",
+      "author": "czhu12",
+      "shared_at": 1745865578,
+      "links": [
+        "https://hellocsv.github.io/HelloCSV/"
+      ]
+    }
+  ]
+}

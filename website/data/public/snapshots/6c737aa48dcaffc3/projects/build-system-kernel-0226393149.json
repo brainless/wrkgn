@@ -1,0 +1,33 @@
+{
+  "id": 9570,
+  "slug": "build-system-kernel-0226393149",
+  "name": "Build-system kernel",
+  "mentions": [
+    {
+      "name": "Build-system kernel",
+      "description": "A \"more sanitary\" build-your-own-build-system toolkit / build-system kernel, created after the author struggled to avoid collisions in a complicated set of GNU Makefiles written for a simulation library at work.",
+      "problem": "Building complicated systems with GNU Makefiles requires working hard to avoid collisions.",
+      "audience": null,
+      "builder_usernames": [
+        "olivia-banks"
+      ],
+      "source_excerpt": "I wrote a pretty complicated set of GNU Makefiles for a simulation library at work, but was annoyed I had to work so hard to avoid collisions, so I'm working on a \"more sanitary\" build-your-own-build-system/build-system-kernel type deal.",
+      "evidence": [
+        {
+          "source_item_id": 45869838,
+          "source_field": "body",
+          "value": "I wrote a pretty complicated set of GNU Makefiles for a simulation library at work, but was annoyed I had to work so hard to avoid collisions, so I'm working on a \"more sanitary\" build-your-own-build-system/build-system-kernel type deal.",
+          "supports": [],
+          "author": "olivia-banks",
+          "shared_at": 1762727340,
+          "source_url": "https://news.ycombinator.com/item?id=45869838"
+        }
+      ],
+      "source_item_id": 45869838,
+      "source_url": "https://news.ycombinator.com/item?id=45869838",
+      "author": "olivia-banks",
+      "shared_at": 1762727340,
+      "links": []
+    }
+  ]
+}

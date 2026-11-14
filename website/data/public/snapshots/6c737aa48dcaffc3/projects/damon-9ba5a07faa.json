@@ -1,0 +1,35 @@
+{
+  "id": 10884,
+  "slug": "damon-9ba5a07faa",
+  "name": "Damon",
+  "mentions": [
+    {
+      "name": "Damon",
+      "description": "A Nomad events stream operator that automates cluster operations as a lightweight Go binary. It monitors the Nomad events stream and triggers actions via configurable providers: spawning auxiliary jobs to back up data from services like PostgreSQL or Redis based on job meta tags, running a lightweight DNS server for cross-namespace service discovery that works as a drop-in resolver for HAProxy and Nginx, and executing user-defined shell scripts as Nomad jobs on event triggers. Its provider-based architecture is extensible with custom tags, job and ACL templates, event triggers, and go-plugin support for runtime extension.",
+      "problem": "Eliminates repetitive, mundane DevOps and operational tasks that teams keep putting off, reducing gruntwork in Nomad clusters.",
+      "audience": "Teams running Nomad clusters who want to automate repetitive operational tasks",
+      "builder_usernames": [
+        "pacmansyyu"
+      ],
+      "source_excerpt": "I'm working on Damon[1], a Nomad Events stream operator that automates cluster operations and eliminates repetitive DevOps tasks. It's a lightweight Go binary that monitors the Nomad events stream and triggers actions based on configurable providers.",
+      "evidence": [
+        {
+          "source_item_id": 43817851,
+          "source_field": "body",
+          "value": "I'm working on Damon[1], a Nomad Events stream operator that automates cluster operations and eliminates repetitive DevOps tasks. It's a lightweight Go binary that monitors the Nomad events stream and triggers actions based on configurable providers.",
+          "supports": [],
+          "author": "pacmansyyu",
+          "shared_at": 1745817789,
+          "source_url": "https://news.ycombinator.com/item?id=43817851"
+        }
+      ],
+      "source_item_id": 43817851,
+      "source_url": "https://news.ycombinator.com/item?id=43817851",
+      "author": "pacmansyyu",
+      "shared_at": 1745817789,
+      "links": [
+        "https://github.com/Thunderbottom/damon"
+      ]
+    }
+  ]
+}

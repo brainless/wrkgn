@@ -1,0 +1,33 @@
+{
+  "id": 10675,
+  "slug": "3d-printed-acoustic-metasurface-absorber-tiles-5d3e166000",
+  "name": "3D-printed acoustic metasurface absorber tiles",
+  "mentions": [
+    {
+      "name": "3D-printed acoustic metasurface absorber tiles",
+      "description": "This project prototypes 3D-printed Helmholtz resonator tiles, based on an acoustic metasurface research paper, that passively absorb specific low frequencies (male voice range, 80–300 Hz) to reduce fatigue and increase productivity in workplaces with continuous calls. It includes a script that takes a target frequency and square tile dimension as inputs and outputs a printable 3D .stl object, plus a DIY impedance test tube built from a PVC pipe, speaker, amplifier, audio interface, measurement mics, and 3D-printed adapters, tested with publicly available software.",
+      "problem": "Absorbing low frequencies (80–300 Hz, male voice) normally requires a fair bit of dampening material, and workplace noise from continuous calls contributes to fatigue.",
+      "audience": "Workplaces where making/taking calls is continuous and noise causes fatigue",
+      "builder_usernames": [
+        "mtlsnk"
+      ],
+      "source_excerpt": "I'm experimenting/prototyping 3D models to passively absorb specific low frequencies, with the idea of reducing fatigue/increasing productivity in the workplace (where making/taking calls is continuous).",
+      "evidence": [
+        {
+          "source_item_id": 44704372,
+          "source_field": "body",
+          "value": "I'm experimenting/prototyping 3D models to passively absorb specific low frequencies, with the idea of reducing fatigue/increasing productivity in the workplace (where making/taking calls is continuous).",
+          "supports": [],
+          "author": "mtlsnk",
+          "shared_at": 1753647791,
+          "source_url": "https://news.ycombinator.com/item?id=44704372"
+        }
+      ],
+      "source_item_id": 44704372,
+      "source_url": "https://news.ycombinator.com/item?id=44704372",
+      "author": "mtlsnk",
+      "shared_at": 1753647791,
+      "links": []
+    }
+  ]
+}

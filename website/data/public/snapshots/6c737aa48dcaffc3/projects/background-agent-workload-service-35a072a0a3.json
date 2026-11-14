@@ -1,0 +1,33 @@
+{
+  "id": 8424,
+  "slug": "background-agent-workload-service-35a072a0a3",
+  "name": "Background agent workload service",
+  "mentions": [
+    {
+      "name": "Background agent workload service",
+      "description": "A service for posting generic agent/task workloads and executing and observing them in the background over long timelines. Background agents monitor aspects of the user's digital life and keep them healthy, such as checking whether all tax credits are being used to maximize after-tax cash, constantly monitoring the network and alerting when something is off, and scanning public contributions to remind the user to post something new. Built with Go on the backend, React for the UI, SQLite, containers for async work, and OpenAI.",
+      "problem": "The author wants background agents to monitor various aspects of their digital life and keep those healthy, so they can stay on top of everything without manual attention.",
+      "audience": "Just a tool to make sure I am on top of everything.",
+      "builder_usernames": [
+        "sublimefire"
+      ],
+      "source_excerpt": "A service that allows you to post generic agent/task workload and execute and observe it in the background. Sort of for long timelines.",
+      "evidence": [
+        {
+          "source_item_id": 46273142,
+          "source_field": "body",
+          "value": "A service that allows you to post generic agent/task workload and execute and observe it in the background. Sort of for long timelines.",
+          "supports": [],
+          "author": "sublimefire",
+          "shared_at": 1765798561,
+          "source_url": "https://news.ycombinator.com/item?id=46273142"
+        }
+      ],
+      "source_item_id": 46273142,
+      "source_url": "https://news.ycombinator.com/item?id=46273142",
+      "author": "sublimefire",
+      "shared_at": 1765798561,
+      "links": []
+    }
+  ]
+}

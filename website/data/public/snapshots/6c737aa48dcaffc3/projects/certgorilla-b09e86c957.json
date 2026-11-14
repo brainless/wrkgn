@@ -1,0 +1,35 @@
+{
+  "id": 6424,
+  "slug": "certgorilla-b09e86c957",
+  "name": "CertGorilla",
+  "mentions": [
+    {
+      "name": "CertGorilla",
+      "description": "This tool monitors SSL certificates. It ships with a probe that can scan private infrastructure to collect certificates for monitoring, and provides a web interface for monitoring the SSL certificates of any public domain.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "suresh70"
+      ],
+      "source_excerpt": "I am working on a SSL certificate monitor. It comes with its own probe that can scan your private infra and collect the certs for monitoring. It also has a web interface for monitoring SSL certificate of any public domain.",
+      "evidence": [
+        {
+          "source_item_id": 47304028,
+          "source_field": "body",
+          "value": "I am working on a SSL certificate monitor. It comes with its own probe that can scan your private infra and collect the certs for monitoring. It also has a web interface for monitoring SSL certificate of any public domain.",
+          "supports": [],
+          "author": "suresh70",
+          "shared_at": 1773021897,
+          "source_url": "https://news.ycombinator.com/item?id=47304028"
+        }
+      ],
+      "source_item_id": 47304028,
+      "source_url": "https://news.ycombinator.com/item?id=47304028",
+      "author": "suresh70",
+      "shared_at": 1773021897,
+      "links": [
+        "https://www.certgorilla.com"
+      ]
+    }
+  ]
+}

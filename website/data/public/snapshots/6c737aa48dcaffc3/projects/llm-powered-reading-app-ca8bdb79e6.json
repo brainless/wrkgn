@@ -1,0 +1,33 @@
+{
+  "id": 10552,
+  "slug": "llm-powered-reading-app-ca8bdb79e6",
+  "name": "LLM-powered reading app",
+  "mentions": [
+    {
+      "name": "LLM-powered reading app",
+      "description": "This reading app integrates LLMs with the user's content to create a good overall reading experience that helps readers learn and understand documents more easily, like macOS Preview combined with LLMs. The web app currently uses LLM APIs, with local LLM support planned for the future.",
+      "problem": "Current LLM providers let users upload documents and ask questions about them, but don't provide a good overall reading experience that helps learning and understanding.",
+      "audience": null,
+      "builder_usernames": [
+        "motwanimo"
+      ],
+      "source_excerpt": "I'm working on a reading app. It integrates llms with your content. I know that the current llm providers already help you upload and ask qs about the docuemnt.\n\nBut I'm focused on building a good reading experience overall - which helps you learn and understand the content more easily. Imagine Macos preview integrated with llms.",
+      "evidence": [
+        {
+          "source_item_id": 44708168,
+          "source_field": "body",
+          "value": "I'm working on a reading app. It integrates llms with your content. I know that the current llm providers already help you upload and ask qs about the docuemnt.\n\nBut I'm focused on building a good reading experience overall - which helps you learn and understand the content more easily. Imagine Macos preview integrated with llms.",
+          "supports": [],
+          "author": "motwanimo",
+          "shared_at": 1753687593,
+          "source_url": "https://news.ycombinator.com/item?id=44708168"
+        }
+      ],
+      "source_item_id": 44708168,
+      "source_url": "https://news.ycombinator.com/item?id=44708168",
+      "author": "motwanimo",
+      "shared_at": 1753687593,
+      "links": []
+    }
+  ]
+}

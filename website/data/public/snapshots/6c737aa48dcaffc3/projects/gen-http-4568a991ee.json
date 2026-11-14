@@ -1,0 +1,35 @@
+{
+  "id": 6391,
+  "slug": "gen-http-4568a991ee",
+  "name": "gen_http",
+  "mentions": [
+    {
+      "name": "gen_http",
+      "description": "A low-level HTTP client library for Erlang that full-featured clients can build on top of. It aims for lower process overhead and memory use than Erlang's default httpc client and adds HTTP2 support, inspired by Mint in Elixir.",
+      "problem": "Erlang's default HTTP client httpc has a lot of process overhead, consumes memory, and doesn't support HTTP2.",
+      "audience": null,
+      "builder_usernames": [
+        "codeadict"
+      ],
+      "source_excerpt": "Working on https://github.com/codeadict/gen_http a low level HTTP client library for Erlang that full featured clients can build on top of. Erlang's default HTTP client httpc is great but has a lot of process overhead, consumes memory and doesn't support HTTP2. This is heavily inspired by Mint in Elixir",
+      "evidence": [
+        {
+          "source_item_id": 47311671,
+          "source_field": "body",
+          "value": "Working on https://github.com/codeadict/gen_http a low level HTTP client library for Erlang that full featured clients can build on top of. Erlang's default HTTP client httpc is great but has a lot of process overhead, consumes memory and doesn't support HTTP2. This is heavily inspired by Mint in Elixir",
+          "supports": [],
+          "author": "codeadict",
+          "shared_at": 1773075273,
+          "source_url": "https://news.ycombinator.com/item?id=47311671"
+        }
+      ],
+      "source_item_id": 47311671,
+      "source_url": "https://news.ycombinator.com/item?id=47311671",
+      "author": "codeadict",
+      "shared_at": 1773075273,
+      "links": [
+        "https://github.com/codeadict/gen_http"
+      ]
+    }
+  ]
+}

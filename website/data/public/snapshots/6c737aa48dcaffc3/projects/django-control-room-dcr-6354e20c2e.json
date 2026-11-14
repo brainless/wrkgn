@@ -1,0 +1,35 @@
+{
+  "id": 4592,
+  "slug": "django-control-room-dcr-6354e20c2e",
+  "name": "Django Control Room (DCR)",
+  "mentions": [
+    {
+      "name": "Django Control Room (DCR)",
+      "description": "This framework lets developers easily create operational tools (panels) inside the Django Admin, with published panels for Redis, caches, Celery, and more. It provides self-hosted alternatives to external services so fewer third-party dependencies are needed, making it easier to build and productionize Django apps. Work in progress includes a base library layer for tools to inherit from, a common design language, and a formalized plugin system.",
+      "problem": "Building and productionizing Django apps often requires many external services for operations tooling; DCR addresses this by providing self-hosted alternatives.",
+      "audience": "Django developers building and productionizing Django applications",
+      "builder_usernames": [
+        "yassi_dev"
+      ],
+      "source_excerpt": "I am working on a framework that lets you easily create tools inside the Django Admin - https://djangocontrolroom.com\n\nI've published several panels under this banner already (tools for redis, caches, celery, etc.); I am currently working on a base library layer for tools to inherit from and to make it easier to create new tools.",
+      "evidence": [
+        {
+          "source_item_id": 48087725,
+          "source_field": "body",
+          "value": "I am working on a framework that lets you easily create tools inside the Django Admin - https://djangocontrolroom.com\n\nI've published several panels under this banner already (tools for redis, caches, celery, etc.); I am currently working on a base library layer for tools to inherit from and to make it easier to create new tools.",
+          "supports": [],
+          "author": "yassi_dev",
+          "shared_at": 1778445470,
+          "source_url": "https://news.ycombinator.com/item?id=48087725"
+        }
+      ],
+      "source_item_id": 48087725,
+      "source_url": "https://news.ycombinator.com/item?id=48087725",
+      "author": "yassi_dev",
+      "shared_at": 1778445470,
+      "links": [
+        "https://djangocontrolroom.com"
+      ]
+    }
+  ]
+}

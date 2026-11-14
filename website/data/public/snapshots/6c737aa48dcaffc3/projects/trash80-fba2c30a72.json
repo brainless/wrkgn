@@ -1,0 +1,35 @@
+{
+  "id": 11398,
+  "slug": "trash80-fba2c30a72",
+  "name": "Trash80",
+  "mentions": [
+    {
+      "name": "Trash80",
+      "description": "This is a TRS-80 Model I emulator written in JavaScript that runs in both the browser and the terminal. Its Z80 core passes the ZEXALL test suite and runs real TRS-80 software, including games. It ships with a clean-room-style Level 2 ROM featuring a fairly complete BASIC with readline-style control commands, history, and a proper cursor, plus a virtual disk containing an ASCII fractal browser written in Z80 assembly. Unicode sextant block graphics map to TRS-80 Model I semigraphics so it runs well even in the terminal; a line-mode provides a readline-like interface for line-based applications, and TRS-80 BASIC files can be run through the emulator via shebang.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "DougHaber"
+      ],
+      "source_excerpt": "One is a TRS-80 Model I emulator in JavaScript called Trash80. About 10 months ago I started this project just for fun while experimenting with what now seems to be called agentic loops.",
+      "evidence": [
+        {
+          "source_item_id": 48532999,
+          "source_field": "body",
+          "value": "One is a TRS-80 Model I emulator in JavaScript called Trash80. About 10 months ago I started this project just for fun while experimenting with what now seems to be called agentic loops.",
+          "supports": [],
+          "author": "DougHaber",
+          "shared_at": 1781472766,
+          "source_url": "https://news.ycombinator.com/item?id=48532999"
+        }
+      ],
+      "source_item_id": 48532999,
+      "source_url": "https://news.ycombinator.com/item?id=48532999",
+      "author": "DougHaber",
+      "shared_at": 1781472766,
+      "links": [
+        "https://www.leshylabs.com"
+      ]
+    }
+  ]
+}

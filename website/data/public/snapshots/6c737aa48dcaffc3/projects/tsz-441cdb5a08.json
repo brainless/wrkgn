@@ -1,0 +1,35 @@
+{
+  "id": 4416,
+  "slug": "tsz-441cdb5a08",
+  "name": "tsz",
+  "mentions": [
+    {
+      "name": "tsz",
+      "description": "A performance-first TypeScript checker written in Rust, aiming for full tsc compatibility with additional soundness. It has reached a 99.8% tsc conformance test pass rate, and single-file benchmarks run 3-5x faster than tsgo.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mohsen1"
+      ],
+      "source_excerpt": "Working on tsz (https://tsz.dev)\n\na performance-first TypeScript checker written in Rust. Started 5 months ago and it's been mostly AI-written code.\n99.8% tsc conformance test pass rate today. Single file benchmarks are 3–5x faster than tsgo.",
+      "evidence": [
+        {
+          "source_item_id": 48087749,
+          "source_field": "body",
+          "value": "Working on tsz (https://tsz.dev)\n\na performance-first TypeScript checker written in Rust. Started 5 months ago and it's been mostly AI-written code.\n99.8% tsc conformance test pass rate today. Single file benchmarks are 3–5x faster than tsgo.",
+          "supports": [],
+          "author": "mohsen1",
+          "shared_at": 1778445621,
+          "source_url": "https://news.ycombinator.com/item?id=48087749"
+        }
+      ],
+      "source_item_id": 48087749,
+      "source_url": "https://news.ycombinator.com/item?id=48087749",
+      "author": "mohsen1",
+      "shared_at": 1778445621,
+      "links": [
+        "https://tsz.dev"
+      ]
+    }
+  ]
+}

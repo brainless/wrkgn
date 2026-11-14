@@ -1,0 +1,35 @@
+{
+  "id": 8188,
+  "slug": "sel4-rs-2ed6f47864",
+  "name": "sel4-rs",
+  "mentions": [
+    {
+      "name": "sel4-rs",
+      "description": "A hand port of the SeL4 microkernel to Rust, undertaken to learn how kernels and capabilities work. The project currently has a stub that boots the CPU into 64-bit x86_64 mode and runs Rust code, with work in progress on locating the root process via multiboot for memory setup. It is a for-fun/learning project rather than an attempt to improve on the formally verified C implementation.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "josephg"
+      ],
+      "source_excerpt": "I've spent the last week starting to hand port SeL4 to rust. Mostly because I want to learn how kernels & capabilities work.",
+      "evidence": [
+        {
+          "source_item_id": 46270433,
+          "source_field": "body",
+          "value": "I've spent the last week starting to hand port SeL4 to rust. Mostly because I want to learn how kernels & capabilities work.",
+          "supports": [],
+          "author": "josephg",
+          "shared_at": 1765772305,
+          "source_url": "https://news.ycombinator.com/item?id=46270433"
+        }
+      ],
+      "source_item_id": 46270433,
+      "source_url": "https://news.ycombinator.com/item?id=46270433",
+      "author": "josephg",
+      "shared_at": 1765772305,
+      "links": [
+        "https://github.com/josephg/sel4-rs"
+      ]
+    }
+  ]
+}

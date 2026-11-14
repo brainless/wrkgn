@@ -1,0 +1,35 @@
+{
+  "id": 5445,
+  "slug": "cubectl-827d690f8a",
+  "name": "cubectl",
+  "mentions": [
+    {
+      "name": "cubectl",
+      "description": "A joke CLI tool written in Go that parodies kubectl. Instead of controlling Kubernetes clusters, it controls a 3D cube in the terminal. It is a fun hobby project.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "yoshihicode"
+      ],
+      "source_excerpt": "I'm building a joke CLI tool written in Go called cubectl.\nIt’s a parody of kubectl.",
+      "evidence": [
+        {
+          "source_item_id": 47823557,
+          "source_field": "body",
+          "value": "I'm building a joke CLI tool written in Go called cubectl.\nIt’s a parody of kubectl.",
+          "supports": [],
+          "author": "yoshihicode",
+          "shared_at": 1776598604,
+          "source_url": "https://news.ycombinator.com/item?id=47823557"
+        }
+      ],
+      "source_item_id": 47823557,
+      "source_url": "https://news.ycombinator.com/item?id=47823557",
+      "author": "yoshihicode",
+      "shared_at": 1776598604,
+      "links": [
+        "https://github.com/yoshihicode/cubectl"
+      ]
+    }
+  ]
+}

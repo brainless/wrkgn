@@ -1,0 +1,35 @@
+{
+  "id": 9356,
+  "slug": "toktop-96b5d399a9",
+  "name": "toktop",
+  "mentions": [
+    {
+      "name": "toktop",
+      "description": "A terminal UI (TUI) app for monitoring OpenAI and Anthropic API usage directly inside the terminal or IDE, so developers can check usage without leaving their workflow. Built with ratatui and released open-source under the MIT license.",
+      "problem": "Tracking OpenAI and Anthropic usage requires visiting their web dashboards, pulling users away from the terminal or IDE where they spend most of their time.",
+      "audience": null,
+      "builder_usernames": [
+        "harrisontin"
+      ],
+      "source_excerpt": "A TUI to monitor your OpenAI and Anthropic usage inside your terminal.",
+      "evidence": [
+        {
+          "source_item_id": 45872705,
+          "source_field": "body",
+          "value": "A TUI to monitor your OpenAI and Anthropic usage inside your terminal.",
+          "supports": [],
+          "author": "harrisontin",
+          "shared_at": 1762752138,
+          "source_url": "https://news.ycombinator.com/item?id=45872705"
+        }
+      ],
+      "source_item_id": 45872705,
+      "source_url": "https://news.ycombinator.com/item?id=45872705",
+      "author": "harrisontin",
+      "shared_at": 1762752138,
+      "links": [
+        "https://github.com/htin1/toktop"
+      ]
+    }
+  ]
+}

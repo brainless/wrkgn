@@ -1,0 +1,33 @@
+{
+  "id": 10403,
+  "slug": "datagrid-toolkit-aa2e4d4ebc",
+  "name": "DataGrid Toolkit",
+  "mentions": [
+    {
+      "name": "DataGrid Toolkit",
+      "description": "A headless, stateless data grid toolkit that lets developers pick their own building blocks and modules to build anything from an Excel-like data grid to a traditional paginated DataTables-style table. It ships with multiple renderers (Canvas, HTML, or a hybrid), is written in TypeScript, and stores data in Rust/WebAssembly.",
+      "problem": "People constantly look at your data grid and ask \"but can it do this?\", so the toolkit instead lets developers assemble the grid modules they need.",
+      "audience": "Developers can choose their own building blocks/modules to assemble custom data grids.",
+      "builder_usernames": [
+        "robbiejs"
+      ],
+      "source_excerpt": "I am working on DataGrid Toolkit. Based on my experiences building and selling (Excel like) data grids, people always look for your data grid, \"but can it do this\"? With DataGrid Toolkit, a developer can choose his own building blocks/modules and make a more Excel-like data grid, or make a more DataTables style traditional paginated table. The toolkit is headless and stateless by design and comes with different renderers. Canvas, html or some hybrid. It is written in Typescript and the data store is in Rust/Webassembly.",
+      "evidence": [
+        {
+          "source_item_id": 44704671,
+          "source_field": "body",
+          "value": "I am working on DataGrid Toolkit. Based on my experiences building and selling (Excel like) data grids, people always look for your data grid, \"but can it do this\"? With DataGrid Toolkit, a developer can choose his own building blocks/modules and make a more Excel-like data grid, or make a more DataTables style traditional paginated table. The toolkit is headless and stateless by design and comes with different renderers. Canvas, html or some hybrid. It is written in Typescript and the data store is in Rust/Webassembly.",
+          "supports": [],
+          "author": "robbiejs",
+          "shared_at": 1753650228,
+          "source_url": "https://news.ycombinator.com/item?id=44704671"
+        }
+      ],
+      "source_item_id": 44704671,
+      "source_url": "https://news.ycombinator.com/item?id=44704671",
+      "author": "robbiejs",
+      "shared_at": 1753650228,
+      "links": []
+    }
+  ]
+}

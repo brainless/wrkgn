@@ -1,0 +1,35 @@
+{
+  "id": 4414,
+  "slug": "virtualzoo-38faee68f5",
+  "name": "VirtualZoo",
+  "mentions": [
+    {
+      "name": "VirtualZoo",
+      "description": "A simulation in which a simulated organism develops its own small language purely through learning from sensory input, implementing the symbol grounding ideas from Stevan Harnad's 1990 symbol grounding problem paper.",
+      "problem": "The symbol grounding problem: how symbols/language can emerge grounded in sensory input rather than being arbitrarily assigned (Harnad, 1990).",
+      "audience": null,
+      "builder_usernames": [
+        "jstrebel"
+      ],
+      "source_excerpt": "I am trying to build a simulation that lets a simulated organism come up with its own small language, purely learned from sensory input",
+      "evidence": [
+        {
+          "source_item_id": 48092237,
+          "source_field": "body",
+          "value": "I am trying to build a simulation that lets a simulated organism come up with its own small language, purely learned from sensory input",
+          "supports": [],
+          "author": "jstrebel",
+          "shared_at": 1778486103,
+          "source_url": "https://news.ycombinator.com/item?id=48092237"
+        }
+      ],
+      "source_item_id": 48092237,
+      "source_url": "https://news.ycombinator.com/item?id=48092237",
+      "author": "jstrebel",
+      "shared_at": 1778486103,
+      "links": [
+        "https://github.com/JoergStrebel/VirtualZoo/blob/main/computer_consciousness.md"
+      ]
+    }
+  ]
+}

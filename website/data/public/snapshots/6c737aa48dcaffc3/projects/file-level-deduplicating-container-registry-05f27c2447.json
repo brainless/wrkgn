@@ -1,0 +1,33 @@
+{
+  "id": 6606,
+  "slug": "file-level-deduplicating-container-registry-05f27c2447",
+  "name": "File-level deduplicating container registry",
+  "mentions": [
+    {
+      "name": "File-level deduplicating container registry",
+      "description": "This is a Docker/container registry that deduplicates image data at the file level instead of the layer level, resulting in faster pushes and cheaper storage costs.",
+      "problem": "Container registries deduplicate only at the layer level, leading to slower pushes and higher storage costs.",
+      "audience": null,
+      "builder_usernames": [
+        "a_t48"
+      ],
+      "source_excerpt": "A docker/container registry that deduplicates at the file level instead of the layer level. Faster pushes, cheaper storage costs.",
+      "evidence": [
+        {
+          "source_item_id": 47305440,
+          "source_field": "body",
+          "value": "A docker/container registry that deduplicates at the file level instead of the layer level. Faster pushes, cheaper storage costs.",
+          "supports": [],
+          "author": "a_t48",
+          "shared_at": 1773037374,
+          "source_url": "https://news.ycombinator.com/item?id=47305440"
+        }
+      ],
+      "source_item_id": 47305440,
+      "source_url": "https://news.ycombinator.com/item?id=47305440",
+      "author": "a_t48",
+      "shared_at": 1773037374,
+      "links": []
+    }
+  ]
+}

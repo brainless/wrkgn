@@ -1,0 +1,35 @@
+{
+  "id": 10550,
+  "slug": "signalk-meshtastic-ef8b6adbbf",
+  "name": "signalk-meshtastic",
+  "mentions": [
+    {
+      "name": "signalk-meshtastic",
+      "description": "An integration that connects Meshtastic mesh radio devices with the Signal K marine software ecosystem. It facilitates communications between ship and shore party, alerts, and vessel commands (such as turning on deck lights) without reliance on telecommunications infrastructure. Communication and telemetry sharing between different vessels is a potential future direction.",
+      "problem": "Ship-to-shore communication, alerts, and boat commands normally depend on telecommunications infrastructure; this enables them over a Meshtastic mesh network instead.",
+      "audience": null,
+      "builder_usernames": [
+        "bergie"
+      ],
+      "source_excerpt": "I'm trying to integrate Meshtastic devices with the Signal K marine software ecosystem.\n\nThe idea is to facilitate communications between ship and the shore party, as well as to have alerts, some commands (\"boat, turn deck light on\") without reliance on telecommunications infrastructure.",
+      "evidence": [
+        {
+          "source_item_id": 44706021,
+          "source_field": "body",
+          "value": "I'm trying to integrate Meshtastic devices with the Signal K marine software ecosystem.\n\nThe idea is to facilitate communications between ship and the shore party, as well as to have alerts, some commands (\"boat, turn deck light on\") without reliance on telecommunications infrastructure.",
+          "supports": [],
+          "author": "bergie",
+          "shared_at": 1753662732,
+          "source_url": "https://news.ycombinator.com/item?id=44706021"
+        }
+      ],
+      "source_item_id": 44706021,
+      "source_url": "https://news.ycombinator.com/item?id=44706021",
+      "author": "bergie",
+      "shared_at": 1753662732,
+      "links": [
+        "https://github.com/meri-imperiumi/signalk-meshtastic"
+      ]
+    }
+  ]
+}

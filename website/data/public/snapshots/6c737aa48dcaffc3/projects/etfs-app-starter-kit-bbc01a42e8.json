@@ -1,0 +1,35 @@
+{
+  "id": 9486,
+  "slug": "etfs-app-starter-kit-bbc01a42e8",
+  "name": "etfs-app-starter-kit",
+  "mentions": [
+    {
+      "name": "etfs-app-starter-kit",
+      "description": "An app skeleton plus tooling for building serious business applications on top of Symfony, designed so that even very complex apps avoid running into architectural trouble.",
+      "problem": "Business applications built on Symfony can run into architectural trouble as they grow very complex.",
+      "audience": "Developers building serious business applications with Symfony",
+      "builder_usernames": [
+        "ManuelKiessling"
+      ],
+      "source_excerpt": "I‘m trying to create an app skeleton plus tooling that allows to build serious business applications on top of Symfony, where you don’t run into architectural trouble even with very complex apps:",
+      "evidence": [
+        {
+          "source_item_id": 45877862,
+          "source_field": "body",
+          "value": "I‘m trying to create an app skeleton plus tooling that allows to build serious business applications on top of Symfony, where you don’t run into architectural trouble even with very complex apps:",
+          "supports": [],
+          "author": "ManuelKiessling",
+          "shared_at": 1762793577,
+          "source_url": "https://news.ycombinator.com/item?id=45877862"
+        }
+      ],
+      "source_item_id": 45877862,
+      "source_url": "https://news.ycombinator.com/item?id=45877862",
+      "author": "ManuelKiessling",
+      "shared_at": 1762793577,
+      "links": [
+        "https://github.com/dx-tooling/etfs-app-starter-kit"
+      ]
+    }
+  ]
+}

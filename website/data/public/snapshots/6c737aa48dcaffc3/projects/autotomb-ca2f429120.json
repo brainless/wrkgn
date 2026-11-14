@@ -1,0 +1,35 @@
+{
+  "id": 9968,
+  "slug": "autotomb-ca2f429120",
+  "name": "Autotomb",
+  "mentions": [
+    {
+      "name": "Autotomb",
+      "description": "This tool identifies physical objects, artifacts, and specimens mentioned in Egyptological excavation diaries (e.g., Giza) and generates corresponding 3D model sets from those descriptions using Meshy, which are deployed as a virtual reality scene built with A-Frame. The result works like an immersive word cloud where the words are 3D objects and the scene can be navigated with the body; the desktop pipeline is functional but the project is still early.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Cook4986"
+      ],
+      "source_excerpt": "“Autotomb” identifies physical objects/artifacts/specimens mentioned in Egyptological (e.g., Giza) excavation diaries then generates (Meshy) 3D model sets based on those descriptions which are deployed in in virtual reality (AFrame). The output is like an immersive word cloud but the words are 3D objects and you can navigate the scene with your body.",
+      "evidence": [
+        {
+          "source_item_id": 45423861,
+          "source_field": "body",
+          "value": "“Autotomb” identifies physical objects/artifacts/specimens mentioned in Egyptological (e.g., Giza) excavation diaries then generates (Meshy) 3D model sets based on those descriptions which are deployed in in virtual reality (AFrame). The output is like an immersive word cloud but the words are 3D objects and you can navigate the scene with your body.",
+          "supports": [],
+          "author": "Cook4986",
+          "shared_at": 1759228025,
+          "source_url": "https://news.ycombinator.com/item?id=45423861"
+        }
+      ],
+      "source_item_id": 45423861,
+      "source_url": "https://news.ycombinator.com/item?id=45423861",
+      "author": "Cook4986",
+      "shared_at": 1759228025,
+      "links": [
+        "https://github.com/Cook4986/AutoTomb"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 6422,
+  "slug": "pyrs-91c055e262",
+  "name": "pyrs",
+  "mentions": [
+    {
+      "name": "pyrs",
+      "description": "A Python 3.14 interpreter written in Rust, built entirely with coding agents. It has grown to 350k lines, ships as native and WebAssembly binaries (with a limited wasm version runnable online), and a full CPython test suite benchmark is being added. Built for fun to test the limits of current coding agents, not to replace CPython.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "blueblazin"
+      ],
+      "source_excerpt": "A fully vibe coded python 3.14 interpreter in Rust: https://blueblazin.github.io/pyrs\n\nNow at 350k lines. Native and wasm binaries (you can try the limited wasm version online). Currently adding a full CPython test suite benchmark.\n\nJust for fun, not trying to replace CPython here. Mainly to test the limits of current coding agents.",
+      "evidence": [
+        {
+          "source_item_id": 47304478,
+          "source_field": "body",
+          "value": "A fully vibe coded python 3.14 interpreter in Rust: https://blueblazin.github.io/pyrs\n\nNow at 350k lines. Native and wasm binaries (you can try the limited wasm version online). Currently adding a full CPython test suite benchmark.\n\nJust for fun, not trying to replace CPython here. Mainly to test the limits of current coding agents.",
+          "supports": [],
+          "author": "blueblazin",
+          "shared_at": 1773025956,
+          "source_url": "https://news.ycombinator.com/item?id=47304478"
+        }
+      ],
+      "source_item_id": 47304478,
+      "source_url": "https://news.ycombinator.com/item?id=47304478",
+      "author": "blueblazin",
+      "shared_at": 1773025956,
+      "links": [
+        "https://blueblazin.github.io/pyrs"
+      ]
+    }
+  ]
+}

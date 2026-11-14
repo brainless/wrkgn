@@ -1,0 +1,35 @@
+{
+  "id": 6155,
+  "slug": "justpath-c2cb3d7c0f",
+  "name": "justpath",
+  "mentions": [
+    {
+      "name": "justpath",
+      "description": "A Python command line utility that inspects the PATH environment variable. Recent updates added a new color scheme using rich, changed symlink processing logic, and migrated packaging from poetry to uv. A homebrew installer PR was contributed by someone else.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "epogrebnyak"
+      ],
+      "source_excerpt": "I just released an update to a command line utility that inspects PATH environment variable. It's in Python, switched to uv from poetry, added new color scheme with rich and made some change to the logic how symlinks are processed.\n\nhttps://github.com/epogrebnyak/justpath",
+      "evidence": [
+        {
+          "source_item_id": 47309717,
+          "source_field": "body",
+          "value": "I just released an update to a command line utility that inspects PATH environment variable. It's in Python, switched to uv from poetry, added new color scheme with rich and made some change to the logic how symlinks are processed.\n\nhttps://github.com/epogrebnyak/justpath",
+          "supports": [],
+          "author": "epogrebnyak",
+          "shared_at": 1773067040,
+          "source_url": "https://news.ycombinator.com/item?id=47309717"
+        }
+      ],
+      "source_item_id": 47309717,
+      "source_url": "https://news.ycombinator.com/item?id=47309717",
+      "author": "epogrebnyak",
+      "shared_at": 1773067040,
+      "links": [
+        "https://github.com/epogrebnyak/justpath"
+      ]
+    }
+  ]
+}

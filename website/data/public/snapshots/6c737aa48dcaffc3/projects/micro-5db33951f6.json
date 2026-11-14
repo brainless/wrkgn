@@ -1,0 +1,150 @@
+{
+  "id": 337,
+  "slug": "micro-5db33951f6",
+  "name": "Micro",
+  "mentions": [
+    {
+      "name": "Micro",
+      "description": "Micro is a long-running personal project that started as a Go framework and has evolved into a personal assistant and home server, pursuing the original mission of being a Google alternative or superapp. It currently has a PWA and an Android app is being worked on.",
+      "problem": "The author keeps trying to kill the project but it won't go away, and it probably needs a ground-up rewrite.",
+      "audience": "Not really for anyone else at the moment; the author posts it publicly but it is currently for their own use.",
+      "builder_usernames": [
+        "asim"
+      ],
+      "source_excerpt": "Almost 12 years on Micro https://micro.mu. something I keep trying to kill and won't go away. Started as a Go framework now more of a personal assistant and home server.",
+      "evidence": [
+        {
+          "source_item_id": 50423750,
+          "source_field": "body",
+          "value": "Almost 12 years on Micro https://micro.mu. something I keep trying to kill and won't go away. Started as a Go framework now more of a personal assistant and home server.",
+          "supports": [],
+          "author": "asim",
+          "shared_at": 1794220589,
+          "source_url": "https://news.ycombinator.com/item?id=50423750"
+        }
+      ],
+      "source_item_id": 50423750,
+      "source_url": "https://news.ycombinator.com/item?id=50423750",
+      "author": "asim",
+      "shared_at": 1794220589,
+      "links": [
+        "https://micro.mu"
+      ]
+    },
+    {
+      "name": "Micro",
+      "description": "Micro is a personal AI agent that the author has iterated from tools into an assistant, now aiming to make it generally useful. It runs as a single Go binary with no separate frontend and can be self-hosted from the provided repository.",
+      "problem": "Existing AI assistants like ChatGPT, Claude, and Gemini don't offer what the author wants; the project aims to be a generally useful personal alternative.",
+      "audience": "Personal users looking for a self-hostable AI agent as an alternative to mainstream assistants.",
+      "builder_usernames": [
+        "asim"
+      ],
+      "source_excerpt": "Micro - a personal AI agent - https://micro.mu",
+      "evidence": [
+        {
+          "source_item_id": 49695308,
+          "source_field": "body",
+          "value": "Micro - a personal AI agent - https://micro.mu",
+          "supports": [],
+          "author": "asim",
+          "shared_at": 1789386791,
+          "source_url": "https://news.ycombinator.com/item?id=49695308"
+        }
+      ],
+      "source_item_id": 49695308,
+      "source_url": "https://news.ycombinator.com/item?id=49695308",
+      "author": "asim",
+      "shared_at": 1789386791,
+      "links": [
+        "https://github.com/micro/mu",
+        "https://micro.mu"
+      ]
+    },
+    {
+      "name": "Mu",
+      "description": "An MCP server and web app that provides real-time access to news, markets, weather, video, places, search, and other key tools and services behind a single API and access token for AI agents.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "asim"
+      ],
+      "source_excerpt": "Mu - Tools for Agents. An MCP server and web app that provides real time access to news, markets, weather, video, places, search, etc. It's sort of extension of a previous idea I had to put all the key tools and services behind a single api and access token.",
+      "evidence": [
+        {
+          "source_item_id": 49237903,
+          "source_field": "body",
+          "value": "Mu - Tools for Agents. An MCP server and web app that provides real time access to news, markets, weather, video, places, search, etc. It's sort of extension of a previous idea I had to put all the key tools and services behind a single api and access token.",
+          "supports": [],
+          "author": "asim",
+          "shared_at": 1786322419,
+          "source_url": "https://news.ycombinator.com/item?id=49237903"
+        }
+      ],
+      "source_item_id": 49237903,
+      "source_url": "https://news.ycombinator.com/item?id=49237903",
+      "author": "asim",
+      "shared_at": 1786322419,
+      "links": [
+        "https://github.com/micro/mu",
+        "https://micro.mu"
+      ]
+    },
+    {
+      "name": "Micro",
+      "description": "Micro is a long-running project pursuing the original goal of building a replacement for Google, reimagined every couple of years over the past decade.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "asim"
+      ],
+      "source_excerpt": "The same thing for 10 years and every couple years it gets reimagined while trying to get to the original goal of building a replacement for Google. It's called Micro.\n\nhttps://micro.mu",
+      "evidence": [
+        {
+          "source_item_id": 48086865,
+          "source_field": "body",
+          "value": "The same thing for 10 years and every couple years it gets reimagined while trying to get to the original goal of building a replacement for Google. It's called Micro.\n\nhttps://micro.mu",
+          "supports": [],
+          "author": "asim",
+          "shared_at": 1778440290,
+          "source_url": "https://news.ycombinator.com/item?id=48086865"
+        }
+      ],
+      "source_item_id": 48086865,
+      "source_url": "https://news.ycombinator.com/item?id=48086865",
+      "author": "asim",
+      "shared_at": 1778440290,
+      "links": [
+        "https://micro.mu"
+      ]
+    },
+    {
+      "name": "Micro",
+      "description": "Micro is a platform offering apps without ads, algorithms, or tracking. The business model is planned to revolve around MCP and x402, with a dedicated developers offering.",
+      "problem": "Apps are typically cluttered with ads, algorithms, and tracking.",
+      "audience": null,
+      "builder_usernames": [
+        "asim"
+      ],
+      "source_excerpt": "Micro - apps without the ads, algorithms or tracking. https://micro.mu\n\nThe business model is likely going to revolve around mcp and x402 https://micro.mu/developers/",
+      "evidence": [
+        {
+          "source_item_id": 47744275,
+          "source_field": "body",
+          "value": "Micro - apps without the ads, algorithms or tracking. https://micro.mu\n\nThe business model is likely going to revolve around mcp and x402 https://micro.mu/developers/",
+          "supports": [],
+          "author": "asim",
+          "shared_at": 1776026695,
+          "source_url": "https://news.ycombinator.com/item?id=47744275"
+        }
+      ],
+      "source_item_id": 47744275,
+      "source_url": "https://news.ycombinator.com/item?id=47744275",
+      "author": "asim",
+      "shared_at": 1776026695,
+      "links": [
+        "https://micro.mu",
+        "https://micro.mu/developers/"
+      ]
+    }
+  ]
+}

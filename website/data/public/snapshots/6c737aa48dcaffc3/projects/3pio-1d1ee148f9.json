@@ -1,0 +1,35 @@
+{
+  "id": 10161,
+  "slug": "3pio-1d1ee148f9",
+  "name": "3pio",
+  "mentions": [
+    {
+      "name": "3pio",
+      "description": "A drop-in test runner that context-optimizes test output. It wraps your existing test runner and tests with zero changes to the codebase or tooling, reducing context clutter from test output.",
+      "problem": "Test output creates context clutter; this tool optimizes the output for much less clutter.",
+      "audience": null,
+      "builder_usernames": [
+        "heyzk"
+      ],
+      "source_excerpt": "I just shipped 3pio, a drop-in test runner that context-optimizes your test output. It uses your existing test runner and tests so zero changes to your codebase or tooling to use it.\n\nIME it results in much less context clutter from your test output.\n\nhttps://github.com/zk/3pio",
+      "evidence": [
+        {
+          "source_item_id": 45420403,
+          "source_field": "body",
+          "value": "I just shipped 3pio, a drop-in test runner that context-optimizes your test output. It uses your existing test runner and tests so zero changes to your codebase or tooling to use it.\n\nIME it results in much less context clutter from your test output.\n\nhttps://github.com/zk/3pio",
+          "supports": [],
+          "author": "heyzk",
+          "shared_at": 1759190763,
+          "source_url": "https://news.ycombinator.com/item?id=45420403"
+        }
+      ],
+      "source_item_id": 45420403,
+      "source_url": "https://news.ycombinator.com/item?id=45420403",
+      "author": "heyzk",
+      "shared_at": 1759190763,
+      "links": [
+        "https://github.com/zk/3pio"
+      ]
+    }
+  ]
+}

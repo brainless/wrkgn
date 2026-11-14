@@ -1,0 +1,33 @@
+{
+  "id": 10998,
+  "slug": "deno-tui-library-025a761e23",
+  "name": "Deno TUI library",
+  "mentions": [
+    {
+      "name": "Deno TUI library",
+      "description": "A terminal user interface (TUI) library for Deno, being built because the existing Deno TUI library is buggy and non-ergonomic. It is intended to power a dashboard for keeping tabs on the state of the different processes in the Wii balance board music control setup.",
+      "problem": "The existing TUI library for Deno is kind of buggy and non-ergonomic, so the author is writing their own to build a monitoring dashboard.",
+      "audience": null,
+      "builder_usernames": [
+        "TOGoS"
+      ],
+      "source_excerpt": "The bit of hair on this yak that I'm currently shaving is building a TUI library for Deno so that I can build a nice dashboard for keeping tabs on the state of all the different pieces.",
+      "evidence": [
+        {
+          "source_item_id": 43822736,
+          "source_field": "body",
+          "value": "The bit of hair on this yak that I'm currently shaving is building a TUI library for Deno so that I can build a nice dashboard for keeping tabs on the state of all the different pieces.",
+          "supports": [],
+          "author": "TOGoS",
+          "shared_at": 1745855023,
+          "source_url": "https://news.ycombinator.com/item?id=43822736"
+        }
+      ],
+      "source_item_id": 43822736,
+      "source_url": "https://news.ycombinator.com/item?id=43822736",
+      "author": "TOGoS",
+      "shared_at": 1745855023,
+      "links": []
+    }
+  ]
+}

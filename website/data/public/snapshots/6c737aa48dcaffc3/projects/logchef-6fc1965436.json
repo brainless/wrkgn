@@ -1,0 +1,36 @@
+{
+  "id": 10270,
+  "slug": "logchef-6fc1965436",
+  "name": "LogChef",
+  "mentions": [
+    {
+      "name": "LogChef",
+      "description": "An open source (AGPLv3) log analytics UI for ClickHouse focused on powerful querying and exploration without the complexity of full observability platforms. It provides a schema-agnostic interface for any log table structure, supports both simple search syntax and full ClickHouse SQL, and includes team-based RBAC for multi-tenant environments. Recent AI features include natural-language SQL generation and an MCP server integration so AI assistants can query logs. It doesn't handle log collection itself, instead integrating with Vector, Fluentd, or OpenTelemetry Collector, and deploys as a single binary with a SQLite DB. The roadmap includes REST APIs, client libraries, visualizations, and alerting; it handles millions of log entries daily in production.",
+      "problem": "Full observability platforms are complex; LogChef provides a specialized, simpler log analytics layer that leverages ClickHouse's columnar performance instead.",
+      "audience": "Teams and organizations running log analytics on ClickHouse, including multi-tenant environments",
+      "builder_usernames": [
+        "mr-karan"
+      ],
+      "source_excerpt": "I've been working on LogChef (https://logchef.app) - a specialized log analytics UI for ClickHouse that focuses on powerful querying and exploration without the complexity of full observability platforms.",
+      "evidence": [
+        {
+          "source_item_id": 45422419,
+          "source_field": "body",
+          "value": "I've been working on LogChef (https://logchef.app) - a specialized log analytics UI for ClickHouse that focuses on powerful querying and exploration without the complexity of full observability platforms.",
+          "supports": [],
+          "author": "mr-karan",
+          "shared_at": 1759212313,
+          "source_url": "https://news.ycombinator.com/item?id=45422419"
+        }
+      ],
+      "source_item_id": 45422419,
+      "source_url": "https://news.ycombinator.com/item?id=45422419",
+      "author": "mr-karan",
+      "shared_at": 1759212313,
+      "links": [
+        "https://github.com/mr-karan/logchef",
+        "https://logchef.app"
+      ]
+    }
+  ]
+}

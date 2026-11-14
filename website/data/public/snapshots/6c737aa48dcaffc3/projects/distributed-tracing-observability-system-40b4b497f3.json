@@ -1,0 +1,33 @@
+{
+  "id": 6222,
+  "slug": "distributed-tracing-observability-system-40b4b497f3",
+  "name": "Distributed tracing observability system",
+  "mentions": [
+    {
+      "name": "Distributed tracing observability system",
+      "description": "An observability system that uses distributed tracing to build a live model of how errors propagate across services and exposes that root-cause context directly at each affected service, aiming to become a high-precision RCA engine that surfaces answers instead of making people dig through raw telemetry.",
+      "problem": "When one failure fans out across 20 services, teams end up with 20 alerts and 20 separate investigations even though there is really just one root cause.",
+      "audience": null,
+      "builder_usernames": [
+        "idea0rbit"
+      ],
+      "source_excerpt": "I’m building an observability system that tries to surface answers instead of making people dig through huge amounts of raw telemetry.\n\nThe basic idea is that when one failure fans out across 20 services, you often end up with 20 alerts and 20 separate investigations, even though there is really just one root cause. I’m using distributed tracing to build a live model of how errors propagate through the system, and then exposing that context directly at each affected service.",
+      "evidence": [
+        {
+          "source_item_id": 47304144,
+          "source_field": "body",
+          "value": "I’m building an observability system that tries to surface answers instead of making people dig through huge amounts of raw telemetry.\n\nThe basic idea is that when one failure fans out across 20 services, you often end up with 20 alerts and 20 separate investigations, even though there is really just one root cause. I’m using distributed tracing to build a live model of how errors propagate through the system, and then exposing that context directly at each affected service.",
+          "supports": [],
+          "author": "idea0rbit",
+          "shared_at": 1773022943,
+          "source_url": "https://news.ycombinator.com/item?id=47304144"
+        }
+      ],
+      "source_item_id": 47304144,
+      "source_url": "https://news.ycombinator.com/item?id=47304144",
+      "author": "idea0rbit",
+      "shared_at": 1773022943,
+      "links": []
+    }
+  ]
+}

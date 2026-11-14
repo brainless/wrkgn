@@ -1,0 +1,35 @@
+{
+  "id": 8625,
+  "slug": "playwriter-dcf44dff36",
+  "name": "Playwriter",
+  "mentions": [
+    {
+      "name": "Playwriter",
+      "description": "This is a browser automation Chrome extension and MCP that lets agents drive a browser using the Playwright API directly, with the extension acting as a CDP protocol proxy over WebSockets. It consumes less context than the Playwright MCP while being more capable, and is used for automating workflows in development as well as boring tasks like filing taxes.",
+      "problem": "Existing browser automation MCPs like Playwright MCP consume a lot of context and are less capable.",
+      "audience": "Developers automating browser workflows; also useful for personal automation tasks",
+      "builder_usernames": [
+        "xmorse"
+      ],
+      "source_excerpt": "A browser automation Chrome extension and MCP. It consumes less context than playwright MCP and is more capable: it uses the playwright API directly, the Chrome extension is a CDP protocol proxy via WebSockets.",
+      "evidence": [
+        {
+          "source_item_id": 46276915,
+          "source_field": "body",
+          "value": "A browser automation Chrome extension and MCP. It consumes less context than playwright MCP and is more capable: it uses the playwright API directly, the Chrome extension is a CDP protocol proxy via WebSockets.",
+          "supports": [],
+          "author": "xmorse",
+          "shared_at": 1765817318,
+          "source_url": "https://news.ycombinator.com/item?id=46276915"
+        }
+      ],
+      "source_item_id": 46276915,
+      "source_url": "https://news.ycombinator.com/item?id=46276915",
+      "author": "xmorse",
+      "shared_at": 1765817318,
+      "links": [
+        "https://playwriter.dev"
+      ]
+    }
+  ]
+}

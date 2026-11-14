@@ -1,0 +1,35 @@
+{
+  "id": 5188,
+  "slug": "tsplat-ba0517d86c",
+  "name": "tsplat",
+  "mentions": [
+    {
+      "name": "tsplat",
+      "description": "A terminal-based Gaussian splat viewer that renders .ply splat files directly in the terminal, usable over SSH on remote servers without display devices or open ports. It runs on CPU only, is written in Rust, and helps quickly check which .ply files correspond to which scenes and get a rough sense of their quality. The project page also includes a tutorial on the forward rasterization process for Gaussian splatting on CPUs.",
+      "problem": "Inspecting Gaussian splat training results on a remote server with no open ports or display device previously required downloading everything locally.",
+      "audience": null,
+      "builder_usernames": [
+        "darshanmakwana"
+      ],
+      "source_excerpt": "This weekend I put together a terminal-based Gaussian splats viewer that renders directly in the terminal. It works over SSH and currently runs on CPU only and written in rust with claude code. I’ve found it to be pretty useful for quickly checking which .ply files correspond to which scenes and getting a rough sense of their quality.\n\nAlong the way, I also wrote a small tutorial on the forward rasterization process for Gaussian splatting on CPUs. You can check out the project here\n\nhttps://github.com/darshanmakwana412/tsplat",
+      "evidence": [
+        {
+          "source_item_id": 47752566,
+          "source_field": "body",
+          "value": "This weekend I put together a terminal-based Gaussian splats viewer that renders directly in the terminal. It works over SSH and currently runs on CPU only and written in rust with claude code. I’ve found it to be pretty useful for quickly checking which .ply files correspond to which scenes and getting a rough sense of their quality.\n\nAlong the way, I also wrote a small tutorial on the forward rasterization process for Gaussian splatting on CPUs. You can check out the project here\n\nhttps://github.com/darshanmakwana412/tsplat",
+          "supports": [],
+          "author": "darshanmakwana",
+          "shared_at": 1776090729,
+          "source_url": "https://news.ycombinator.com/item?id=47752566"
+        }
+      ],
+      "source_item_id": 47752566,
+      "source_url": "https://news.ycombinator.com/item?id=47752566",
+      "author": "darshanmakwana",
+      "shared_at": 1776090729,
+      "links": [
+        "https://github.com/darshanmakwana412/tsplat"
+      ]
+    }
+  ]
+}

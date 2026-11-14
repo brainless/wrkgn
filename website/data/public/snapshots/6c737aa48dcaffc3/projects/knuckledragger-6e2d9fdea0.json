@@ -1,0 +1,35 @@
+{
+  "id": 9910,
+  "slug": "knuckledragger-6e2d9fdea0",
+  "name": "Knuckledragger",
+  "mentions": [
+    {
+      "name": "Knuckledragger",
+      "description": "A proof assistant shallowly based on z3py for constructing and checking formal proofs; it was recently used to prove the infinitude of primes, a theorem z3 cannot prove on its own.",
+      "problem": "z3 on its own cannot prove nontrivial theorems such as the infinitude of primes.",
+      "audience": null,
+      "builder_usernames": [
+        "philzook"
+      ],
+      "source_excerpt": "I'm working on Knuckledragger, a proof assistant shallowly based upon z3py https://github.com/philzook58/knuckledragger",
+      "evidence": [
+        {
+          "source_item_id": 45420360,
+          "source_field": "body",
+          "value": "I'm working on Knuckledragger, a proof assistant shallowly based upon z3py https://github.com/philzook58/knuckledragger",
+          "supports": [],
+          "author": "philzook",
+          "shared_at": 1759190461,
+          "source_url": "https://news.ycombinator.com/item?id=45420360"
+        }
+      ],
+      "source_item_id": 45420360,
+      "source_url": "https://news.ycombinator.com/item?id=45420360",
+      "author": "philzook",
+      "shared_at": 1759190461,
+      "links": [
+        "https://github.com/philzook58/knuckledragger"
+      ]
+    }
+  ]
+}

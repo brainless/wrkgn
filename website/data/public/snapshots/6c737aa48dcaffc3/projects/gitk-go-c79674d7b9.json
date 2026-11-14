@@ -1,0 +1,35 @@
+{
+  "id": 8304,
+  "slug": "gitk-go-c79674d7b9",
+  "name": "gitk-go",
+  "mentions": [
+    {
+      "name": "gitk-go",
+      "description": "This is a Git history explorer GUI built in Go using Tk, heavily inspired by gitk. It loads commits in batches (1000 by default) and lazily loads more as you scroll, and automatically reflects repository changes such as switching branches or adding stashes in the UI. It works with a Tk-based interface rather than a web UI.",
+      "problem": "gitk loads the whole repository into memory, causing memory spikes and a sluggish UI when navigating large repositories like nixpkgs; other alternatives are proprietary (e.g. Sublime Merge), buggy, or have slow interfaces.",
+      "audience": "The author's own use; the comment states the program is probably not useful for anyone but the author, and it replaces gitk for his use cases.",
+      "builder_usernames": [
+        "kokada"
+      ],
+      "source_excerpt": "I am working (mostly vibecoded) a Git history explorer in Go+modernc.org/Tk9.0: https://github.com/thiagokokada/gitk-go. It is heavily inspired in gitk, this is why the name and usage of Tk for the interface.",
+      "evidence": [
+        {
+          "source_item_id": 46266892,
+          "source_field": "body",
+          "value": "I am working (mostly vibecoded) a Git history explorer in Go+modernc.org/Tk9.0: https://github.com/thiagokokada/gitk-go. It is heavily inspired in gitk, this is why the name and usage of Tk for the interface.",
+          "supports": [],
+          "author": "kokada",
+          "shared_at": 1765746389,
+          "source_url": "https://news.ycombinator.com/item?id=46266892"
+        }
+      ],
+      "source_item_id": 46266892,
+      "source_url": "https://news.ycombinator.com/item?id=46266892",
+      "author": "kokada",
+      "shared_at": 1765746389,
+      "links": [
+        "https://github.com/thiagokokada/gitk-go"
+      ]
+    }
+  ]
+}

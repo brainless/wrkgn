@@ -1,0 +1,35 @@
+{
+  "id": 9915,
+  "slug": "yggdrasil-e15d2a8bc0",
+  "name": "Yggdrasil",
+  "mentions": [
+    {
+      "name": "Yggdrasil",
+      "description": "Yggdrasil is a platform that consumes and stores all of a user's LLM queries and conversations, keeping them easy to query and reference. Conversations are organized in a branching tree interface called Heimdall for discussing and planning with AI assistance before invoking its simple agent, Valkyrie. It lets users (or a developer replacing them) browse past LLM conversations, mind maps, questions asked, and explored branches as a navigable thought process, and is designed around a human + AI assistance philosophy while avoiding context pollution.",
+      "problem": "LLM front ends have terrible native branching features, and users risk context pollution and over-dependence on LLM-assisted coding; Yggdrasil bets on human + AI assistance instead of agents/AI doing everything.",
+      "audience": "Developers who use LLMs for coding assistance, planning, and exploratory learning",
+      "builder_usernames": [
+        "yggdrasil_ai"
+      ],
+      "source_excerpt": "I have been building https://github.com/zayr0-9/Yggdrasil\n\nIt started as a solution to LLM front ends having terrible native branching features. But slowly I realize most of our data will be going through LLM's so Yggdrasil is evolving into a platform which consumes all your LLM queries, while keeping it easy to query and reference.",
+      "evidence": [
+        {
+          "source_item_id": 45420716,
+          "source_field": "body",
+          "value": "I have been building https://github.com/zayr0-9/Yggdrasil\n\nIt started as a solution to LLM front ends having terrible native branching features. But slowly I realize most of our data will be going through LLM's so Yggdrasil is evolving into a platform which consumes all your LLM queries, while keeping it easy to query and reference.",
+          "supports": [],
+          "author": "yggdrasil_ai",
+          "shared_at": 1759193331,
+          "source_url": "https://news.ycombinator.com/item?id=45420716"
+        }
+      ],
+      "source_item_id": 45420716,
+      "source_url": "https://news.ycombinator.com/item?id=45420716",
+      "author": "yggdrasil_ai",
+      "shared_at": 1759193331,
+      "links": [
+        "https://github.com/zayr0-9/Yggdrasil"
+      ]
+    }
+  ]
+}

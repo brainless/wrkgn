@@ -1,0 +1,35 @@
+{
+  "id": 10787,
+  "slug": "exp-dhewm3-fb02aa461e",
+  "name": "exp-dhewm3",
+  "mentions": [
+    {
+      "name": "exp-dhewm3",
+      "description": "A modified Doom 3 renderer (built on dhewm3) that implements John Carmack's experimental shadow mapping approach found in the GPLed Doom 3 code, adding Poisson disc sampling and fixing the peter panning artifact present in the original experimental renderer. The author includes visual comparisons of shadow mapping versus the original stencil shadows.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "klaussilveira"
+      ],
+      "source_excerpt": "I've decided to go on that rabbit hole of Doom 3 graphics, specifically Carmack's experimental renderer and ended up implementing his approach, as well as adding some poisson disc sampling and fixed the peter panning: https://github.com/klaussilveira/exp-dhewm3",
+      "evidence": [
+        {
+          "source_item_id": 43831695,
+          "source_field": "body",
+          "value": "I've decided to go on that rabbit hole of Doom 3 graphics, specifically Carmack's experimental renderer and ended up implementing his approach, as well as adding some poisson disc sampling and fixed the peter panning: https://github.com/klaussilveira/exp-dhewm3",
+          "supports": [],
+          "author": "klaussilveira",
+          "shared_at": 1745929721,
+          "source_url": "https://news.ycombinator.com/item?id=43831695"
+        }
+      ],
+      "source_item_id": 43831695,
+      "source_url": "https://news.ycombinator.com/item?id=43831695",
+      "author": "klaussilveira",
+      "shared_at": 1745929721,
+      "links": [
+        "https://github.com/klaussilveira/exp-dhewm3"
+      ]
+    }
+  ]
+}

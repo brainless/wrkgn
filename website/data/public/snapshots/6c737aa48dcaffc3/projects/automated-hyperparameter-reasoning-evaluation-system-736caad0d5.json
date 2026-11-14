@@ -1,0 +1,33 @@
+{
+  "id": 10377,
+  "slug": "automated-hyperparameter-reasoning-evaluation-system-736caad0d5",
+  "name": "Automated hyperparameter reasoning evaluation system",
+  "mentions": [
+    {
+      "name": "Automated hyperparameter reasoning evaluation system",
+      "description": "An automated evaluation system that converges on the most effective hyperparameters per model for reasoning tasks, with planned follow-on work to optimize system prompts for various tasks (using DSPy or a homegrown system) and MCP servers that expose these capabilities to LLMs.",
+      "problem": "It is important to know the most effective hyperparameters per model, and an automated system is the best way to converge on those numbers.",
+      "audience": null,
+      "builder_usernames": [
+        "nowittyusername"
+      ],
+      "source_excerpt": "currently at the moment starting small and working on developing automated hyperparameter reasoning evaluation system. its important to know the most affective hyperparameters per model and no better way to converge on those numbers then an automated system.",
+      "evidence": [
+        {
+          "source_item_id": 44704981,
+          "source_field": "body",
+          "value": "currently at the moment starting small and working on developing automated hyperparameter reasoning evaluation system. its important to know the most affective hyperparameters per model and no better way to converge on those numbers then an automated system.",
+          "supports": [],
+          "author": "nowittyusername",
+          "shared_at": 1753652667,
+          "source_url": "https://news.ycombinator.com/item?id=44704981"
+        }
+      ],
+      "source_item_id": 44704981,
+      "source_url": "https://news.ycombinator.com/item?id=44704981",
+      "author": "nowittyusername",
+      "shared_at": 1753652667,
+      "links": []
+    }
+  ]
+}

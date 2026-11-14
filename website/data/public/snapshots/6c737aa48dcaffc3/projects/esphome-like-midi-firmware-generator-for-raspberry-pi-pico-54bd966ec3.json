@@ -1,0 +1,33 @@
+{
+  "id": 9556,
+  "slug": "esphome-like-midi-firmware-generator-for-raspberry-pi-pico-54bd966ec3",
+  "name": "ESPHome-like MIDI firmware generator for Raspberry Pi Pico",
+  "mentions": [
+    {
+      "name": "ESPHome-like MIDI firmware generator for Raspberry Pi Pico",
+      "description": "A C++ code generator, inspired by ESPHome, that produces firmware for MIDI devices on the Raspberry Pi Pico from a simple YAML configuration file, enabling firmware for any MIDI device configuration to be generated in seconds instead of hand-programming each device.",
+      "problem": "Hand-programming MIDI device firmware is slow and device-specific; the author wanted a generic approach rather than hardcoding a single MIDI hub, so any configuration can be turned into firmware quickly.",
+      "audience": null,
+      "builder_usernames": [
+        "dmoreno"
+      ],
+      "source_excerpt": "A cpp code generator like esphome, to generate the firmware for midi devices in a simple yaml file, for raspberry Pico.",
+      "evidence": [
+        {
+          "source_item_id": 45869811,
+          "source_field": "body",
+          "value": "A cpp code generator like esphome, to generate the firmware for midi devices in a simple yaml file, for raspberry Pico.",
+          "supports": [],
+          "author": "dmoreno",
+          "shared_at": 1762727142,
+          "source_url": "https://news.ycombinator.com/item?id=45869811"
+        }
+      ],
+      "source_item_id": 45869811,
+      "source_url": "https://news.ycombinator.com/item?id=45869811",
+      "author": "dmoreno",
+      "shared_at": 1762727142,
+      "links": []
+    }
+  ]
+}

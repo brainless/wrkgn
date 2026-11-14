@@ -1,0 +1,35 @@
+{
+  "id": 4142,
+  "slug": "dj-queue-0d9558f8e0",
+  "name": "dj_queue",
+  "mentions": [
+    {
+      "name": "dj_queue",
+      "description": "A database-backed task queue backend for django.tasks, designed the way the author would want Django to ship a built-in queue backend, in the spirit of Rails' Solid Queue.",
+      "problem": "Django lacks a built-in, database-backed queue backend comparable to Rails' Solid Queue.",
+      "audience": "Django developers",
+      "builder_usernames": [
+        "coriocactus"
+      ],
+      "source_excerpt": "A DB-backed queue backend for django.tasks\n\nBasically what would I want to see if Django shipped a queue backend like Rails did with Solid Queue?\n\nhttps://github.com/coriocactus/dj_queue",
+      "evidence": [
+        {
+          "source_item_id": 48552999,
+          "source_field": "body",
+          "value": "A DB-backed queue backend for django.tasks\n\nBasically what would I want to see if Django shipped a queue backend like Rails did with Solid Queue?\n\nhttps://github.com/coriocactus/dj_queue",
+          "supports": [],
+          "author": "coriocactus",
+          "shared_at": 1781604648,
+          "source_url": "https://news.ycombinator.com/item?id=48552999"
+        }
+      ],
+      "source_item_id": 48552999,
+      "source_url": "https://news.ycombinator.com/item?id=48552999",
+      "author": "coriocactus",
+      "shared_at": 1781604648,
+      "links": [
+        "https://github.com/coriocactus/dj_queue"
+      ]
+    }
+  ]
+}

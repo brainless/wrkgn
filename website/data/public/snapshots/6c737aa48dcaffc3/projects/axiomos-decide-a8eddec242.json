@@ -1,0 +1,35 @@
+{
+  "id": 7061,
+  "slug": "axiomos-decide-a8eddec242",
+  "name": "Axiomos Decide",
+  "mentions": [
+    {
+      "name": "Axiomos Decide",
+      "description": "This web tool is a ROI simulator for AI infrastructure decisions, comparing cloud (AWS/GCP) costs against buying on-premise GPU clusters. It takes real workload parameters such as tokens/sec, model size, and duty cycle, then models throughput and utilization to find the break-even point. The core diagnostic is free, with a paid $99 board-ready PDF report to help justify the CapEx/OpEx switch to CFOs.",
+      "problem": "Teams burn cash on cloud AI compute without a clear basis for deciding when buying their own GPU clusters breaks even, and struggle with GPU cost projections for a 'cloud exit'.",
+      "audience": "Teams deciding whether to keep running AI workloads on cloud providers or invest in their own GPU clusters, including CFOs evaluating the CapEx/OpEx switch",
+      "builder_usernames": [
+        "pierreseck"
+      ],
+      "source_excerpt": "Axiomos Decide – A ROI simulator for AI infrastructure (Cloud vs. On-prem)\n\nI’m building a tool to help teams decide if they should keep burning cash on AWS/GCP or buy their own GPU clusters.",
+      "evidence": [
+        {
+          "source_item_id": 46959775,
+          "source_field": "body",
+          "value": "Axiomos Decide – A ROI simulator for AI infrastructure (Cloud vs. On-prem)\n\nI’m building a tool to help teams decide if they should keep burning cash on AWS/GCP or buy their own GPU clusters.",
+          "supports": [],
+          "author": "pierreseck",
+          "shared_at": 1770731836,
+          "source_url": "https://news.ycombinator.com/item?id=46959775"
+        }
+      ],
+      "source_item_id": 46959775,
+      "source_url": "https://news.ycombinator.com/item?id=46959775",
+      "author": "pierreseck",
+      "shared_at": 1770731836,
+      "links": [
+        "https://axiomos.ai/decide"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 6331,
+  "slug": "evvl-d269937b16",
+  "name": "evvl",
+  "mentions": [
+    {
+      "name": "evvl",
+      "description": "This tool combines GitHub Gists with AI output comparisons (evals), letting users share and compare AI outputs.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "michaelbuckbee"
+      ],
+      "source_excerpt": "https://evvl.ai - combination of Github Gists and AI output comparisons (evals)",
+      "evidence": [
+        {
+          "source_item_id": 47303613,
+          "source_field": "body",
+          "value": "https://evvl.ai - combination of Github Gists and AI output comparisons (evals)",
+          "supports": [],
+          "author": "michaelbuckbee",
+          "shared_at": 1773018660,
+          "source_url": "https://news.ycombinator.com/item?id=47303613"
+        }
+      ],
+      "source_item_id": 47303613,
+      "source_url": "https://news.ycombinator.com/item?id=47303613",
+      "author": "michaelbuckbee",
+      "shared_at": 1773018660,
+      "links": [
+        "https://evvl.ai"
+      ]
+    },
+    {
+      "name": "evvl",
+      "description": "A web app and downloadable desktop app for evaluating and comparing the outputs of different AI models, model configurations, and prompt versions, similar to Postman or Insomnia but for AI. It is free, stores the user's API keys in localstorage, and makes direct calls to the APIs (unless there's a CORS issue).",
+      "problem": "The author kept building hacky ad-hoc eval tools to compare the outputs of different models, model configs, and prompt versions, so they rolled the functionality into a proper app.",
+      "audience": null,
+      "builder_usernames": [
+        "michaelbuckbee"
+      ],
+      "source_excerpt": "I kept making a hacky eval tool to try and compare the outputs of different models, model configs, prompt versions, etc and finally rolled it up into a web app + downloadable app (kind of like Postman or Insomnia, but for AI).",
+      "evidence": [
+        {
+          "source_item_id": 46582367,
+          "source_field": "body",
+          "value": "I kept making a hacky eval tool to try and compare the outputs of different models, model configs, prompt versions, etc and finally rolled it up into a web app + downloadable app (kind of like Postman or Insomnia, but for AI).",
+          "supports": [],
+          "author": "michaelbuckbee",
+          "shared_at": 1768179373,
+          "source_url": "https://news.ycombinator.com/item?id=46582367"
+        }
+      ],
+      "source_item_id": 46582367,
+      "source_url": "https://news.ycombinator.com/item?id=46582367",
+      "author": "michaelbuckbee",
+      "shared_at": 1768179373,
+      "links": [
+        "https://evvl.ai"
+      ]
+    }
+  ]
+}

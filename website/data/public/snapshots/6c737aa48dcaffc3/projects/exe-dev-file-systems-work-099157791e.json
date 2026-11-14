@@ -1,0 +1,33 @@
+{
+  "id": 7701,
+  "slug": "exe-dev-file-systems-work-099157791e",
+  "name": "exe.dev file systems work",
+  "mentions": [
+    {
+      "name": "exe.dev file systems work",
+      "description": "File systems work at exe.dev, starting with copy-on-write VM cloning built on existing software, plus a rethink of the standard cloud approach of putting everything on a NAS by default, which the team believes is wrong and will require doing unusual things.",
+      "problem": "The team believes the standard cloud approach of putting everything on a NAS by default is wrong.",
+      "audience": null,
+      "builder_usernames": [
+        "crawshaw"
+      ],
+      "source_excerpt": "In particular, we are spending a lot of time on file systems. The easy one is copy-on-write VM cloning, which existing software provides for us. More interestingly, I believe the standard cloud approach of putting everything on a NAS by default is wrong.",
+      "evidence": [
+        {
+          "source_item_id": 46578423,
+          "source_field": "body",
+          "value": "In particular, we are spending a lot of time on file systems. The easy one is copy-on-write VM cloning, which existing software provides for us. More interestingly, I believe the standard cloud approach of putting everything on a NAS by default is wrong.",
+          "supports": [],
+          "author": "crawshaw",
+          "shared_at": 1768157023,
+          "source_url": "https://news.ycombinator.com/item?id=46578423"
+        }
+      ],
+      "source_item_id": 46578423,
+      "source_url": "https://news.ycombinator.com/item?id=46578423",
+      "author": "crawshaw",
+      "shared_at": 1768157023,
+      "links": []
+    }
+  ]
+}

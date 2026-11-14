@@ -1,0 +1,36 @@
+{
+  "id": 8679,
+  "slug": "next-ai-draw-io-4bc7d7e555",
+  "name": "next-ai-draw-io",
+  "mentions": [
+    {
+      "name": "next-ai-draw-io",
+      "description": "Open-source tool that lets you co-draw diagrams with an LLM inside draw.io/diagrams.net. The AI edits the real draw.io XML rather than generating a static picture, so the model and user share the same canvas: it can rough out AWS/GCP/Azure architectures, then the user keeps working in the normal editor (dragging boxes, renaming) while issuing chat commands like \"clean this up\", \"split this service out\", or \"add a read replica here\". It can rebuild a diagram from a screenshot or PDF and iterate via chat plus manual edits, supports uploading PDFs/text to turn existing docs into diagrams, and offers bring-your-own API keys for multiple LLM providers.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jiangdayuan"
+      ],
+      "source_excerpt": "I’m working on an open-source thing that lets you co-draw diagrams with an LLM inside draw.io/diagrams.net.",
+      "evidence": [
+        {
+          "source_item_id": 46268177,
+          "source_field": "body",
+          "value": "I’m working on an open-source thing that lets you co-draw diagrams with an LLM inside draw.io/diagrams.net.",
+          "supports": [],
+          "author": "jiangdayuan",
+          "shared_at": 1765754227,
+          "source_url": "https://news.ycombinator.com/item?id=46268177"
+        }
+      ],
+      "source_item_id": 46268177,
+      "source_url": "https://news.ycombinator.com/item?id=46268177",
+      "author": "jiangdayuan",
+      "shared_at": 1765754227,
+      "links": [
+        "https://github.com/DayuanJiang/next-ai-draw-io",
+        "https://next-ai-drawio.jiang.jp/"
+      ]
+    }
+  ]
+}

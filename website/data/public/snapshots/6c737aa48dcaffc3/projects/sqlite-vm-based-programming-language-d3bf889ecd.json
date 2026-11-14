@@ -1,0 +1,33 @@
+{
+  "id": 9891,
+  "slug": "sqlite-vm-based-programming-language-d3bf889ecd",
+  "name": "SQLite VM-based programming language",
+  "mentions": [
+    {
+      "name": "SQLite VM-based programming language",
+      "description": "A programming language implemented on top of SQLite's virtual machine (VDBE). Rather than exposing the VDBE for hand-written bytecode, it extends SQLite's parser to support constructs like `let <var> = <expr>` and functions, and ships a standard library for building web servers and similar applications. Planned features include transactional functions via function coloring (like async functions), where each function call opens a new savepoint that the user can roll back if the call goes wrong.",
+      "problem": "Exposing SQLite's VDBE directly for hand-made bytecodes would require too much effort for a side project, so the language extends SQLite's parser instead; managing execution state is the current challenge being addressed with transactional functions using savepoints.",
+      "audience": null,
+      "builder_usernames": [
+        "SchwKatze"
+      ],
+      "source_excerpt": "I'm doing a PL based on SQLite's VM.\n\nI first tried to expose the VDBE to public usage, so it could be easier to right hand-made bytecodes, but it would require an effort that I'm not quite have to a side project. So instead I'm extending SQLite's parser to accept things like `let <var> = <expr>`, and functions. Alongside, I'm doing a \"standard library\" so you could build web servers and stuff.",
+      "evidence": [
+        {
+          "source_item_id": 45425104,
+          "source_field": "body",
+          "value": "I'm doing a PL based on SQLite's VM.\n\nI first tried to expose the VDBE to public usage, so it could be easier to right hand-made bytecodes, but it would require an effort that I'm not quite have to a side project. So instead I'm extending SQLite's parser to accept things like `let <var> = <expr>`, and functions. Alongside, I'm doing a \"standard library\" so you could build web servers and stuff.",
+          "supports": [],
+          "author": "SchwKatze",
+          "shared_at": 1759238593,
+          "source_url": "https://news.ycombinator.com/item?id=45425104"
+        }
+      ],
+      "source_item_id": 45425104,
+      "source_url": "https://news.ycombinator.com/item?id=45425104",
+      "author": "SchwKatze",
+      "shared_at": 1759238593,
+      "links": []
+    }
+  ]
+}

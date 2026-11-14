@@ -1,0 +1,35 @@
+{
+  "id": 5183,
+  "slug": "bmsu-18f4f9113d",
+  "name": "bmsu",
+  "mentions": [
+    {
+      "name": "bmsu",
+      "description": "A single-file rsync-based backup and sync shell script for backing up files to an external drive and syncing them to laptops and phones, with easy restoring. It keeps all traffic on the local network, requires only SSH on sync targets besides rsync itself, and wraps rsync in 1,000+ lines of defensive checks and validations rather than replacing it. Versioned backups can be enabled through rsync's own flags via a config value.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "nickjj"
+      ],
+      "source_excerpt": "I evolved an rsync based backup script I've been using for almost a decade into https://github.com/nickjj/bmsu. I use this for backing up my life's work to an external drive but also syncing files to my laptop and phone too. It supports easy restoring as well.\n\nNo traffic ever leaves your local network and since it uses rsync under the hood the devices being sync'd to don't need to run anything other than SSH.\n\nIt's a single file shell script that has no dependencies except rsync.",
+      "evidence": [
+        {
+          "source_item_id": 47743411,
+          "source_field": "body",
+          "value": "I evolved an rsync based backup script I've been using for almost a decade into https://github.com/nickjj/bmsu. I use this for backing up my life's work to an external drive but also syncing files to my laptop and phone too. It supports easy restoring as well.\n\nNo traffic ever leaves your local network and since it uses rsync under the hood the devices being sync'd to don't need to run anything other than SSH.\n\nIt's a single file shell script that has no dependencies except rsync.",
+          "supports": [],
+          "author": "nickjj",
+          "shared_at": 1776021978,
+          "source_url": "https://news.ycombinator.com/item?id=47743411"
+        }
+      ],
+      "source_item_id": 47743411,
+      "source_url": "https://news.ycombinator.com/item?id=47743411",
+      "author": "nickjj",
+      "shared_at": 1776021978,
+      "links": [
+        "https://github.com/nickjj/bmsu"
+      ]
+    }
+  ]
+}

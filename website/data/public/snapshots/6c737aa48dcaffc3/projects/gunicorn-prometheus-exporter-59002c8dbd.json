@@ -1,0 +1,35 @@
+{
+  "id": 10016,
+  "slug": "gunicorn-prometheus-exporter-59002c8dbd",
+  "name": "gunicorn-prometheus-exporter",
+  "mentions": [
+    {
+      "name": "gunicorn-prometheus-exporter",
+      "description": "A Gunicorn worker plugin that exports Prometheus metrics for WSGI servers, monitoring worker performance including memory usage, CPU usage, request durations, and error tracking. Features Redis-based storage, YAML configuration support, advanced signal handling, and support for multiple worker types. It also provides request-level tracking, such as counts of requests to particular endpoints, for any WSGI-conformant framework like Flask or Django.",
+      "problem": "Aims to replace Gunicorn's built-in instrumentation with richer metrics and extra information beyond what it currently provides.",
+      "audience": null,
+      "builder_usernames": [
+        "proshan"
+      ],
+      "source_excerpt": "A comprehensive Prometheus metrics exporter for Gunicorn WSGI servers with support for multiple worker types and advanced monitoring capabilities, featuring innovative Redis-based storage, YAML configuration support, and advanced signal handling. This Gunicorn worker plugin exports Prometheus metrics to monitor worker performance, including memory usage, CPU usage, request durations, and error tracking",
+      "evidence": [
+        {
+          "source_item_id": 45426324,
+          "source_field": "body",
+          "value": "A comprehensive Prometheus metrics exporter for Gunicorn WSGI servers with support for multiple worker types and advanced monitoring capabilities, featuring innovative Redis-based storage, YAML configuration support, and advanced signal handling. This Gunicorn worker plugin exports Prometheus metrics to monitor worker performance, including memory usage, CPU usage, request durations, and error tracking",
+          "supports": [],
+          "author": "proshan",
+          "shared_at": 1759244350,
+          "source_url": "https://news.ycombinator.com/item?id=45426324"
+        }
+      ],
+      "source_item_id": 45426324,
+      "source_url": "https://news.ycombinator.com/item?id=45426324",
+      "author": "proshan",
+      "shared_at": 1759244350,
+      "links": [
+        "https://github.com/Agent-Hellboy/gunicorn-prometheus-exporter"
+      ]
+    }
+  ]
+}

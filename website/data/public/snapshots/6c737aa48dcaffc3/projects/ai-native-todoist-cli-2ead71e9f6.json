@@ -1,0 +1,35 @@
+{
+  "id": 5351,
+  "slug": "ai-native-todoist-cli-2ead71e9f6",
+  "name": "AI-native Todoist CLI",
+  "mentions": [
+    {
+      "name": "AI-native Todoist CLI",
+      "description": "This is an AI-native command-line interface for Todoist that treats both humans and AI agents as first-class users. It supports automating action item extraction from Obsidian notes and provides TTY-aware output, a schema command for agent discovery, and idempotent operations.",
+      "problem": "The author needed to solve the personal problem of automating action item extraction from his Obsidian notes into Todoist.",
+      "audience": "AI agents and the author for personal task management; also useful to humans using Todoist",
+      "builder_usernames": [
+        "craigmccaskill"
+      ],
+      "source_excerpt": "I've been building an AI-native CLI for Todoist [1]. Started to solve a personal problem, automating action item extraction from my Obsidian notes, but it's become something bigger. The CLI treats both humans and AI agents as first-class users: TTY-aware output, a schema command for agent discovery, idempotent operations, that kind of thing.",
+      "evidence": [
+        {
+          "source_item_id": 47746507,
+          "source_field": "body",
+          "value": "I've been building an AI-native CLI for Todoist [1]. Started to solve a personal problem, automating action item extraction from my Obsidian notes, but it's become something bigger. The CLI treats both humans and AI agents as first-class users: TTY-aware output, a schema command for agent discovery, idempotent operations, that kind of thing.",
+          "supports": [],
+          "author": "craigmccaskill",
+          "shared_at": 1776043912,
+          "source_url": "https://news.ycombinator.com/item?id=47746507"
+        }
+      ],
+      "source_item_id": 47746507,
+      "source_url": "https://news.ycombinator.com/item?id=47746507",
+      "author": "craigmccaskill",
+      "shared_at": 1776043912,
+      "links": [
+        "https://github.com/craigmccaskill/todoist-cli/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 4539,
+  "slug": "wine-bar-7935394e03",
+  "name": "Wine Bar",
+  "mentions": [
+    {
+      "name": "Wine Bar",
+      "description": "An open-source Wine prefix manager that provides a user-friendly way to run Windows apps on Linux, including Apple Silicon Macs running Linux (arm64 via a 4K-page kernel in a micro-VM with FEX-EMU and an x86_64 rootfs) as well as regular x86_64 Linux. It allows installing Windows components with winetricks before installers run, and automatically places installed Windows executables on a \"Desktop\" in the UI. Available as a Snap (x86_64 and arm64) from the Snap Store.",
+      "problem": "The author was unhappy with existing Wine launchers (Lutris, Heroic, Bottles), none of which support Linux on Apple hardware, and wanted more control (e.g., winetricks support) and more user-friendliness (e.g., installed executables appearing automatically in the UI).",
+      "audience": null,
+      "builder_usernames": [
+        "JosifA"
+      ],
+      "source_excerpt": "Since last summer, I am working on a yet another Wine prefix manager, called Wine Bar [1]. My main motivation was to have a user-friendly and opensource tool that can run (some) Windows apps on my Macbook Air M2 running Linux.",
+      "evidence": [
+        {
+          "source_item_id": 48092691,
+          "source_field": "body",
+          "value": "Since last summer, I am working on a yet another Wine prefix manager, called Wine Bar [1]. My main motivation was to have a user-friendly and opensource tool that can run (some) Windows apps on my Macbook Air M2 running Linux.",
+          "supports": [],
+          "author": "JosifA",
+          "shared_at": 1778490438,
+          "source_url": "https://news.ycombinator.com/item?id=48092691"
+        }
+      ],
+      "source_item_id": 48092691,
+      "source_url": "https://news.ycombinator.com/item?id=48092691",
+      "author": "JosifA",
+      "shared_at": 1778490438,
+      "links": [
+        "https://github.com/Tulon/WineBar"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 10645,
+  "slug": "portsentry-5c2a7c447e",
+  "name": "portsentry",
+  "mentions": [
+    {
+      "name": "portsentry",
+      "description": "A portscan detection and response tool originally released in 1997 and abandoned in 2003, adopted by its new maintainer in 2022 to add several needed features.",
+      "problem": "The original tool was abandoned in 2003 and lacked several features the author needed as a long-time user.",
+      "audience": null,
+      "builder_usernames": [
+        "protohuf"
+      ],
+      "source_excerpt": "I work on portsentry (https://portsentry.xyz) - A portscan detection and response tool. It was first released in 1997 and abandoned in 2003. I’ve been a user for a long time but needed several features so I adopted the project in 2022.",
+      "evidence": [
+        {
+          "source_item_id": 44710298,
+          "source_field": "body",
+          "value": "I work on portsentry (https://portsentry.xyz) - A portscan detection and response tool. It was first released in 1997 and abandoned in 2003. I’ve been a user for a long time but needed several features so I adopted the project in 2022.",
+          "supports": [],
+          "author": "protohuf",
+          "shared_at": 1753706705,
+          "source_url": "https://news.ycombinator.com/item?id=44710298"
+        }
+      ],
+      "source_item_id": 44710298,
+      "source_url": "https://news.ycombinator.com/item?id=44710298",
+      "author": "protohuf",
+      "shared_at": 1753706705,
+      "links": [
+        "https://portsentry.xyz"
+      ]
+    }
+  ]
+}

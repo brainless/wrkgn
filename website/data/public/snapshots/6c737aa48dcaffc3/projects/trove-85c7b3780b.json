@@ -1,0 +1,35 @@
+{
+  "id": 5395,
+  "slug": "trove-85c7b3780b",
+  "name": "Trove",
+  "mentions": [
+    {
+      "name": "Trove",
+      "description": "A really simple web app for stashing files without having to configure anything, built with Go, Docker, and Alpine.js.",
+      "problem": "Storing files often requires configuration; this app removes that friction.",
+      "audience": null,
+      "builder_usernames": [
+        "agjmills"
+      ],
+      "source_excerpt": "Trove - a really simple web app where I can shove some files without having to really think about configuring anything",
+      "evidence": [
+        {
+          "source_item_id": 47743249,
+          "source_field": "body",
+          "value": "Trove - a really simple web app where I can shove some files without having to really think about configuring anything",
+          "supports": [],
+          "author": "agjmills",
+          "shared_at": 1776021111,
+          "source_url": "https://news.ycombinator.com/item?id=47743249"
+        }
+      ],
+      "source_item_id": 47743249,
+      "source_url": "https://news.ycombinator.com/item?id=47743249",
+      "author": "agjmills",
+      "shared_at": 1776021111,
+      "links": [
+        "https://agjmills.github.io/trove/"
+      ]
+    }
+  ]
+}

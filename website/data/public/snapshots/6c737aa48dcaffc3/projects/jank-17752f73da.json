@@ -1,0 +1,35 @@
+{
+  "id": 5149,
+  "slug": "jank-17752f73da",
+  "name": "jank",
+  "mentions": [
+    {
+      "name": "jank",
+      "description": "The jank programming language, a native Clojure dialect that is also a C++ dialect, including a JIT compiler and nREPL server. A custom IR is being built to enable optimization passes at the level of Clojure semantics, which LLVM cannot perform at the LLVM IR level.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Jeaye"
+      ],
+      "source_excerpt": "I'm working on the jank programming language!\n\nhttps://github.com/jank-lang/jank\n\nIt's a native Clojure dialect which is also a C++ dialect, including a JIT compiler and nREPL server. I'm currently building out a custom IR so I can do optimization passes at the level of Clojure semantics, since LLVM will not be able to do them at the LLVM IR level.",
+      "evidence": [
+        {
+          "source_item_id": 47744843,
+          "source_field": "body",
+          "value": "I'm working on the jank programming language!\n\nhttps://github.com/jank-lang/jank\n\nIt's a native Clojure dialect which is also a C++ dialect, including a JIT compiler and nREPL server. I'm currently building out a custom IR so I can do optimization passes at the level of Clojure semantics, since LLVM will not be able to do them at the LLVM IR level.",
+          "supports": [],
+          "author": "Jeaye",
+          "shared_at": 1776030000,
+          "source_url": "https://news.ycombinator.com/item?id=47744843"
+        }
+      ],
+      "source_item_id": 47744843,
+      "source_url": "https://news.ycombinator.com/item?id=47744843",
+      "author": "Jeaye",
+      "shared_at": 1776030000,
+      "links": [
+        "https://github.com/jank-lang/jank"
+      ]
+    }
+  ]
+}

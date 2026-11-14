@@ -1,0 +1,35 @@
+{
+  "id": 6837,
+  "slug": "stacktape-3697b8582d",
+  "name": "Stacktape",
+  "mentions": [
+    {
+      "name": "Stacktape",
+      "description": "An open-source, IaC-first deployment platform for AWS positioned as an alternative to SST, Serverless Framework, and PaaS services like Render.com and Flightcontrol. It deploys to the user's own AWS account with a PaaS-like console UI, auto-generates IaC configuration by scanning the user's code, and includes a built-in EC2 runner claimed to be 2-6x faster than AWS CodeBuild. Its dev mode deploys only the stack parts that cannot be locally emulated (e.g. Lambda functions, Cognito) with fast re-deploys while emulating everything else (containers, SQL databases, Redis, DynamoDB) locally, and it offers an --agent flag optimized for coding agents.",
+      "problem": "Deploying to AWS requires mastering complex IaC and AWS configuration, and testing/developing cloud apps is costly with slow feedback loops because parts of the stack cannot be locally emulated.",
+      "audience": "Developers deploying and testing applications on AWS, including those working with coding agents.",
+      "builder_usernames": [
+        "matus_congrady"
+      ],
+      "source_excerpt": "An alternative to tools lik sst.dev or serverless framework, or a PaaS services like Render.com or Flightcontrol.\n\nDeploys to user's own AWS. IaC-first. Has a PaaS-like console UI.",
+      "evidence": [
+        {
+          "source_item_id": 46944167,
+          "source_field": "body",
+          "value": "An alternative to tools lik sst.dev or serverless framework, or a PaaS services like Render.com or Flightcontrol.\n\nDeploys to user's own AWS. IaC-first. Has a PaaS-like console UI.",
+          "supports": [],
+          "author": "matus_congrady",
+          "shared_at": 1770637157,
+          "source_url": "https://news.ycombinator.com/item?id=46944167"
+        }
+      ],
+      "source_item_id": 46944167,
+      "source_url": "https://news.ycombinator.com/item?id=46944167",
+      "author": "matus_congrady",
+      "shared_at": 1770637157,
+      "links": [
+        "https://github.com/stacktape/stacktape"
+      ]
+    }
+  ]
+}

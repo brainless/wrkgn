@@ -1,0 +1,35 @@
+{
+  "id": 8880,
+  "slug": "hof-aa18b1578e",
+  "name": "Hof",
+  "mentions": [
+    {
+      "name": "Hof",
+      "description": "This is a custom alternative and extension to GitHub Copilot, an AI coding agent built on ADK, CUE, and Dagger. It keeps the developer in control of how an AI helper writes their code and lets the builder dig into the internals of how agents work and tune their knobs and levers. It is part of the Hof dev toolkit, described as a swiss army knife for dev work and slated for a rename.",
+      "problem": "The author no longer believes it is a good idea to let big AI companies determine how you write code with your AI helper, not wanting to repeat the past 25 years of ceding control of interfaces to Big Tech with their primary work tool.",
+      "audience": null,
+      "builder_usernames": [
+        "verdverm"
+      ],
+      "source_excerpt": "Custom Copilot alternative / extension because I no longer believe it is a good idea to let Big Ai determine how you write code with your new helper. Big Tech f'd up a lot of things the last 25 years as we ceded control of our interfaces to them. I don't want to make the same mistake with my primary work tool.",
+      "evidence": [
+        {
+          "source_item_id": 46266033,
+          "source_field": "body",
+          "value": "Custom Copilot alternative / extension because I no longer believe it is a good idea to let Big Ai determine how you write code with your new helper. Big Tech f'd up a lot of things the last 25 years as we ceded control of our interfaces to them. I don't want to make the same mistake with my primary work tool.",
+          "supports": [],
+          "author": "verdverm",
+          "shared_at": 1765740996,
+          "source_url": "https://news.ycombinator.com/item?id=46266033"
+        }
+      ],
+      "source_item_id": 46266033,
+      "source_url": "https://news.ycombinator.com/item?id=46266033",
+      "author": "verdverm",
+      "shared_at": 1765740996,
+      "links": [
+        "https://github.com/hofstadter-io/hof/tree/_next/lib/agent"
+      ]
+    }
+  ]
+}

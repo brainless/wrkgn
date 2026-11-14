@@ -1,0 +1,35 @@
+{
+  "id": 5557,
+  "slug": "cbs-h-ab84a5b431",
+  "name": "cbs.h",
+  "mentions": [
+    {
+      "name": "cbs.h",
+      "description": "A build system for C (and potentially C++) called cbs.h that lets projects be built by writing the build logic in C itself, similar to how Zig uses build.zig.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "luxgile"
+      ],
+      "source_excerpt": "Working on (another) build system for C and potentially C++ called 'cbs.h', the idea is to use C to build the project similar to how Zig uses build.zig.",
+      "evidence": [
+        {
+          "source_item_id": 47749941,
+          "source_field": "body",
+          "value": "Working on (another) build system for C and potentially C++ called 'cbs.h', the idea is to use C to build the project similar to how Zig uses build.zig.",
+          "supports": [],
+          "author": "luxgile",
+          "shared_at": 1776074690,
+          "source_url": "https://news.ycombinator.com/item?id=47749941"
+        }
+      ],
+      "source_item_id": 47749941,
+      "source_url": "https://news.ycombinator.com/item?id=47749941",
+      "author": "luxgile",
+      "shared_at": 1776074690,
+      "links": [
+        "https://codeberg.org/Luxgile/cbs.h/src/branch/main/cbs.c"
+      ]
+    }
+  ]
+}

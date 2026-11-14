@@ -1,0 +1,35 @@
+{
+  "id": 6757,
+  "slug": "who-s-hiring-job-board-405cb6eb02",
+  "name": "Who's Hiring Job Board",
+  "mentions": [
+    {
+      "name": "Who's Hiring Job Board",
+      "description": "A scraper that pulls every job posting from the Hacker News Who's Hiring thread and runs it through DeepSeek to parse the unstructured text into a uniform schema (role, company, location, remote, salary, stack), presented in a searchable and filterable UI. Built with FastAPI, Next.js, and PostgreSQL, containerized on AWS ECS Fargate behind an ALB with the frontend on Amplify. Email-based job match notifications and saving jobs are planned features.",
+      "problem": "Existing Who's Hiring thread tools lacked the filtering and UI the author wanted.",
+      "audience": null,
+      "builder_usernames": [
+        "abbyw2002"
+      ],
+      "source_excerpt": "I built a scraper that pulls every job posting from the Who's Hiring thread, runs it through DeepSeek to parse the unstructured text into a uniform schema (role, company, location, remote, salary, stack), and presents them in a searchable/filterable UI.",
+      "evidence": [
+        {
+          "source_item_id": 46996432,
+          "source_field": "body",
+          "value": "I built a scraper that pulls every job posting from the Who's Hiring thread, runs it through DeepSeek to parse the unstructured text into a uniform schema (role, company, location, remote, salary, stack), and presents them in a searchable/filterable UI.",
+          "supports": [],
+          "author": "abbyw2002",
+          "shared_at": 1770936859,
+          "source_url": "https://news.ycombinator.com/item?id=46996432"
+        }
+      ],
+      "source_item_id": 46996432,
+      "source_url": "https://news.ycombinator.com/item?id=46996432",
+      "author": "abbyw2002",
+      "shared_at": 1770936859,
+      "links": [
+        "https://main.d1j1xagueqmavc.amplifyapp.com/dashboard"
+      ]
+    }
+  ]
+}

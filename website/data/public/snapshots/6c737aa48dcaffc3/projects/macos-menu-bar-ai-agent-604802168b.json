@@ -1,0 +1,33 @@
+{
+  "id": 4441,
+  "slug": "macos-menu-bar-ai-agent-604802168b",
+  "name": "macOS Menu-Bar AI Agent",
+  "mentions": [
+    {
+      "name": "macOS Menu-Bar AI Agent",
+      "description": "This macOS menu-bar AI agent drives real desktop apps: hitting ⌘⌘ and typing a task (optionally @-mentioning apps like @slack) dispatches an agent powered by Claude Code or Codex that clicks, types, scrolls, switches apps, and reads the screen via accessibility APIs with a visible cursor so the user can watch it work. Everything runs locally on the user's own logged-in Mac (BYOK to Anthropic/OpenAI) with no cloud VM or re-auth flow; it snapshots the frontmost app for ambient context and supports parallel tasks with persistent history and workspaces. It is pre-release.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "obaid"
+      ],
+      "source_excerpt": "a macOS menu-bar AI agent that drives your real apps similar to Perplexity Computer. Hit ⌘⌘, type a task (optionally @-mentioning apps like @slack), and an agent Claude Code or Codex; clicks, types, scrolls, switches apps, and reads the screen via accessibility APIs, with a visible cursor so you can watch it work.",
+      "evidence": [
+        {
+          "source_item_id": 48091492,
+          "source_field": "body",
+          "value": "a macOS menu-bar AI agent that drives your real apps similar to Perplexity Computer. Hit ⌘⌘, type a task (optionally @-mentioning apps like @slack), and an agent Claude Code or Codex; clicks, types, scrolls, switches apps, and reads the screen via accessibility APIs, with a visible cursor so you can watch it work.",
+          "supports": [],
+          "author": "obaid",
+          "shared_at": 1778479298,
+          "source_url": "https://news.ycombinator.com/item?id=48091492"
+        }
+      ],
+      "source_item_id": 48091492,
+      "source_url": "https://news.ycombinator.com/item?id=48091492",
+      "author": "obaid",
+      "shared_at": 1778479298,
+      "links": []
+    }
+  ]
+}

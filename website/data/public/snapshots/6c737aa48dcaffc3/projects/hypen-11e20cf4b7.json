@@ -1,0 +1,35 @@
+{
+  "id": 5152,
+  "slug": "hypen-11e20cf4b7",
+  "name": "Hypen",
+  "mentions": [
+    {
+      "name": "Hypen",
+      "description": "Hypen is a UI framework that streams native UI from the server to any platform, including Android, iOS, Web, and soon Desktop. Backends can be written in Rust, TypeScript, Kotlin, Swift, or Go, and it ships with reactivity, Tailwind support, and routing out of the box. It lets developers update apps without going through the app store, share one codebase across platforms, and build custom server-driven modules. Planned features include canvas support for rendering anything in canvas, a stdlib so apps can also be compiled as client-only, and an easy app deployment flow. It is in early alpha and will be open sourced in a few days.",
+      "problem": "Updating native apps normally requires app store releases, and targeting multiple platforms typically means separate codebases.",
+      "audience": null,
+      "builder_usernames": [
+        "hypendev"
+      ],
+      "source_excerpt": "I am building Hypen, a UI framework that enables you to stream native UI to any platform (Android, iOS, Web, Desktop soon) from the server.",
+      "evidence": [
+        {
+          "source_item_id": 47756130,
+          "source_field": "body",
+          "value": "I am building Hypen, a UI framework that enables you to stream native UI to any platform (Android, iOS, Web, Desktop soon) from the server.",
+          "supports": [],
+          "author": "hypendev",
+          "shared_at": 1776105211,
+          "source_url": "https://news.ycombinator.com/item?id=47756130"
+        }
+      ],
+      "source_item_id": 47756130,
+      "source_url": "https://news.ycombinator.com/item?id=47756130",
+      "author": "hypendev",
+      "shared_at": 1776105211,
+      "links": [
+        "https://hypen.space"
+      ]
+    }
+  ]
+}

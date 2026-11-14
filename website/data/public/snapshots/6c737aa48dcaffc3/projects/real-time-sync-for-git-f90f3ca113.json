@@ -1,0 +1,33 @@
+{
+  "id": 11035,
+  "slug": "real-time-sync-for-git-f90f3ca113",
+  "name": "Real-time sync for Git",
+  "mentions": [
+    {
+      "name": "Real-time sync for Git",
+      "description": "A proof-of-concept for real-time sync in Git: represents the Git working directory as a tree CRDT and syncs it through FUSE and peer-to-peer networking, so developers on the same branch or on other devices can have their working directories synced. Also aims for richer commit history that shows who, what, and when for a change at a keystroke level.",
+      "problem": "Git is clunky for working on the same commit with other developers or across devices because Git tracks what changed, not how it changed.",
+      "audience": "Developers collaborating on the same branch or across devices who want Git working directories kept in sync",
+      "builder_usernames": [
+        "he1d1"
+      ],
+      "source_excerpt": "So I'm working on real-time sync for Git!\nI'd represent the working directory as a tree CRDT [1] and sync that through FUSE and p2p networking.",
+      "evidence": [
+        {
+          "source_item_id": 43818439,
+          "source_field": "body",
+          "value": "So I'm working on real-time sync for Git!\nI'd represent the working directory as a tree CRDT [1] and sync that through FUSE and p2p networking.",
+          "supports": [],
+          "author": "he1d1",
+          "shared_at": 1745823953,
+          "source_url": "https://news.ycombinator.com/item?id=43818439"
+        }
+      ],
+      "source_item_id": 43818439,
+      "source_url": "https://news.ycombinator.com/item?id=43818439",
+      "author": "he1d1",
+      "shared_at": 1745823953,
+      "links": []
+    }
+  ]
+}

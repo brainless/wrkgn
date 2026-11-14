@@ -1,0 +1,35 @@
+{
+  "id": 4672,
+  "slug": "homebidder-f65b85d210",
+  "name": "HomeBidder",
+  "mentions": [
+    {
+      "name": "HomeBidder",
+      "description": "This tool estimates a realistic bid price for houses based on comps, adding confidence intervals, adjustments for lot size and fixer status, and quality-of-life information such as transit access and pollution levels. It is heavily optimized for San Francisco and is being iterated and validated on other cities.",
+      "problem": "Listing prices on sites like Zillow are artificially low, making it hard to know a realistic amount to bid on a house.",
+      "audience": "A tool for prospective home buyers who want a realistic bid price instead of relying on artificially low listing prices; initially built for the author's own house-hunting needs.",
+      "builder_usernames": [
+        "r888888888"
+      ],
+      "source_excerpt": "I am building HomeBidder (https://homebidder-web.fly.dev), a tool for figuring out a realistic bid price for houses. I got sick of seeing artificially low listing prices on sites like Zillow so built this tool to give me a more realistic number based on comps.",
+      "evidence": [
+        {
+          "source_item_id": 48096476,
+          "source_field": "body",
+          "value": "I am building HomeBidder (https://homebidder-web.fly.dev), a tool for figuring out a realistic bid price for houses. I got sick of seeing artificially low listing prices on sites like Zillow so built this tool to give me a more realistic number based on comps.",
+          "supports": [],
+          "author": "r888888888",
+          "shared_at": 1778513996,
+          "source_url": "https://news.ycombinator.com/item?id=48096476"
+        }
+      ],
+      "source_item_id": 48096476,
+      "source_url": "https://news.ycombinator.com/item?id=48096476",
+      "author": "r888888888",
+      "shared_at": 1778513996,
+      "links": [
+        "https://homebidder-web.fly.dev"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 6143,
+  "slug": "dynowizard-a4f5d48941",
+  "name": "DynoWizard",
+  "mentions": [
+    {
+      "name": "DynoWizard",
+      "description": "A tool for designing single-table DynamoDB schemas: users define entities and access patterns, get suggested key and GSI designs, and generate access-pattern code (TypeScript and Python), infrastructure code (CDK, CloudFormation, Terraform), and documentation to share with stakeholders. Currently an MVP in progress, with a waitlist on the landing page, and plans to add features for understanding and validating designs beyond what a chatbot can provide.",
+      "problem": "Designing single-table DynamoDB schemas has been a manual pen-and-paper (or Excel/Confluence) process, though the method based on The DynamoDB Book can be automated to an extent.",
+      "audience": "For developers who design single-table DynamoDB schemas and currently draft them manually with pen and paper or spreadsheets.",
+      "builder_usernames": [
+        "gerlv"
+      ],
+      "source_excerpt": "Building DynoWizard [1] - tool for designing single table DynamoDB tables.",
+      "evidence": [
+        {
+          "source_item_id": 47306092,
+          "source_field": "body",
+          "value": "Building DynoWizard [1] - tool for designing single table DynamoDB tables.",
+          "supports": [],
+          "author": "gerlv",
+          "shared_at": 1773043738,
+          "source_url": "https://news.ycombinator.com/item?id=47306092"
+        }
+      ],
+      "source_item_id": 47306092,
+      "source_url": "https://news.ycombinator.com/item?id=47306092",
+      "author": "gerlv",
+      "shared_at": 1773043738,
+      "links": [
+        "https://www.dynowizard.com"
+      ]
+    }
+  ]
+}

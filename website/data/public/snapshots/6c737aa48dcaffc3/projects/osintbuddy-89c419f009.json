@@ -1,0 +1,64 @@
+{
+  "id": 9956,
+  "slug": "osintbuddy-89c419f009",
+  "name": "OSINTBuddy",
+  "mentions": [
+    {
+      "name": "OSINTBuddy",
+      "description": "OSINTBuddy is an open source intelligence (OSINT) tool with a plugin system. Current work focuses on adding entity attachments to the plugin system and building a wayback machine plugin.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jerlendds"
+      ],
+      "source_excerpt": "OSINTBuddy - https://github.com/osintbuddy/osintbuddy",
+      "evidence": [
+        {
+          "source_item_id": 45427086,
+          "source_field": "body",
+          "value": "OSINTBuddy - https://github.com/osintbuddy/osintbuddy",
+          "supports": [],
+          "author": "jerlendds",
+          "shared_at": 1759247537,
+          "source_url": "https://news.ycombinator.com/item?id=45427086"
+        }
+      ],
+      "source_item_id": 45427086,
+      "source_url": "https://news.ycombinator.com/item?id=45427086",
+      "author": "jerlendds",
+      "shared_at": 1759247537,
+      "links": [
+        "https://github.com/osintbuddy/osintbuddy"
+      ]
+    },
+    {
+      "name": "OSINTBuddy",
+      "description": "An open-source intelligence (OSINT) platform offering node graphs, data mining, and a plugin system. The project was rewritten in Rust this year and is nearly at feature parity with the original Python version, with work underway on designing the Python plugin system.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jerlendds"
+      ],
+      "source_excerpt": "https://github.com/osintbuddy/osintbuddy - Node graphs, data mining, and plugins. This year I've rewritten the project to learn Rust and we're nearly at feature parity compared to the old Python version (github.com/jerlendds/osintbuddy).",
+      "evidence": [
+        {
+          "source_item_id": 44704238,
+          "source_field": "body",
+          "value": "https://github.com/osintbuddy/osintbuddy - Node graphs, data mining, and plugins. This year I've rewritten the project to learn Rust and we're nearly at feature parity compared to the old Python version (github.com/jerlendds/osintbuddy).",
+          "supports": [],
+          "author": "jerlendds",
+          "shared_at": 1753646751,
+          "source_url": "https://news.ycombinator.com/item?id=44704238"
+        }
+      ],
+      "source_item_id": 44704238,
+      "source_url": "https://news.ycombinator.com/item?id=44704238",
+      "author": "jerlendds",
+      "shared_at": 1753646751,
+      "links": [
+        "https://github.com/jerlendds/osintbuddy",
+        "https://github.com/osintbuddy/osintbuddy"
+      ]
+    }
+  ]
+}

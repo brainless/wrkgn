@@ -1,0 +1,33 @@
+{
+  "id": 10049,
+  "slug": "sms-text-only-assistant-6ab10af906",
+  "name": "SMS text-only assistant",
+  "mentions": [
+    {
+      "name": "SMS text-only assistant",
+      "description": "An SMS-based, text-only interface that lets users search for library books, find the next train, and serve up the current week's NFL schedule. Started as a project to gain comfort with local LLMs and function calling, with SMS messaging handled through a cheap Android phone using TextBee.dev.",
+      "problem": "Originally built to gain comfort with local LLMs and function calling; currently Ollama runs too slowly on a Macbook Air M2.",
+      "audience": null,
+      "builder_usernames": [
+        "newbalance"
+      ],
+      "source_excerpt": "SMS based text only interface to search for library books, find the next train, and serve up the current week NFL schedule.",
+      "evidence": [
+        {
+          "source_item_id": 45426975,
+          "source_field": "body",
+          "value": "SMS based text only interface to search for library books, find the next train, and serve up the current week NFL schedule.",
+          "supports": [],
+          "author": "newbalance",
+          "shared_at": 1759247011,
+          "source_url": "https://news.ycombinator.com/item?id=45426975"
+        }
+      ],
+      "source_item_id": 45426975,
+      "source_url": "https://news.ycombinator.com/item?id=45426975",
+      "author": "newbalance",
+      "shared_at": 1759247011,
+      "links": []
+    }
+  ]
+}

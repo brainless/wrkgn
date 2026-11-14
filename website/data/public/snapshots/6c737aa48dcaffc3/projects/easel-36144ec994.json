@@ -1,0 +1,35 @@
+{
+  "id": 4978,
+  "slug": "easel-36144ec994",
+  "name": "Easel",
+  "mentions": [
+    {
+      "name": "Easel",
+      "description": "A reactive programming language for making games. Properties signal when they change, and registered blocks tell the engine how to use a property not just once but every time it changes, offering a more declarative and productive way to build games.",
+      "problem": "Imperative game code requires handling property changes manually; a declarative reactive approach is more productive.",
+      "audience": null,
+      "builder_usernames": [
+        "BSTRhino"
+      ],
+      "source_excerpt": "A reactive programming language for games! Properties signal when they change and you can register blocks that tell the engine how to use that property, not just once but every time it changes. It’s a more declarative way of making games which I think is lots more productive.",
+      "evidence": [
+        {
+          "source_item_id": 48086894,
+          "source_field": "body",
+          "value": "A reactive programming language for games! Properties signal when they change and you can register blocks that tell the engine how to use that property, not just once but every time it changes. It’s a more declarative way of making games which I think is lots more productive.",
+          "supports": [],
+          "author": "BSTRhino",
+          "shared_at": 1778440501,
+          "source_url": "https://news.ycombinator.com/item?id=48086894"
+        }
+      ],
+      "source_item_id": 48086894,
+      "source_url": "https://news.ycombinator.com/item?id=48086894",
+      "author": "BSTRhino",
+      "shared_at": 1778440501,
+      "links": [
+        "https://easel,games"
+      ]
+    }
+  ]
+}

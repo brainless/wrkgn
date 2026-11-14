@@ -1,0 +1,35 @@
+{
+  "id": 6410,
+  "slug": "ruscv-5cc92ba0d0",
+  "name": "ruscv",
+  "mentions": [
+    {
+      "name": "ruscv",
+      "description": "A RISC-V assembler and simulator implemented in Rust, built as a way to learn the RISC-V ISA and gain confidence in the Rust language; currently working on pseudoinstruction support.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "servomac"
+      ],
+      "source_excerpt": "I'm implementing a RISC-V assembler and simulator in Rust. It's been a great excuse to learn the ISA and gain some confidence in the language. Now I'm working on pseudoinstructions and it makes me feel like i'm back in college!",
+      "evidence": [
+        {
+          "source_item_id": 47364961,
+          "source_field": "body",
+          "value": "I'm implementing a RISC-V assembler and simulator in Rust. It's been a great excuse to learn the ISA and gain some confidence in the language. Now I'm working on pseudoinstructions and it makes me feel like i'm back in college!",
+          "supports": [],
+          "author": "servomac",
+          "shared_at": 1773412106,
+          "source_url": "https://news.ycombinator.com/item?id=47364961"
+        }
+      ],
+      "source_item_id": 47364961,
+      "source_url": "https://news.ycombinator.com/item?id=47364961",
+      "author": "servomac",
+      "shared_at": 1773412106,
+      "links": [
+        "https://github.com/servomac/ruscv/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 6662,
+  "slug": "urban-dictionary-semantic-search-65e0ce2d6e",
+  "name": "Urban Dictionary Semantic Search",
+  "mentions": [
+    {
+      "name": "Urban Dictionary Semantic Search",
+      "description": "A semantic search engine for Urban Dictionary that lets users search slang phrases the youth keeps redefining, with a goal of finding words originating from a given city without returning mismatched results. It uses embedding models (currently nomic-embed-text) to build vectors from definitions.",
+      "problem": "Some Urban Dictionary definitions are very low quality, making it hard to get enriched vectors, and it's difficult to find a good open source embedding model.",
+      "audience": null,
+      "builder_usernames": [
+        "kushalccc"
+      ],
+      "source_excerpt": "A semantic search engine for urban dictionary to be able to search for stupid phrases that the youth keeps redefining",
+      "evidence": [
+        {
+          "source_item_id": 47304386,
+          "source_field": "body",
+          "value": "A semantic search engine for urban dictionary to be able to search for stupid phrases that the youth keeps redefining",
+          "supports": [],
+          "author": "kushalccc",
+          "shared_at": 1773025144,
+          "source_url": "https://news.ycombinator.com/item?id=47304386"
+        }
+      ],
+      "source_item_id": 47304386,
+      "source_url": "https://news.ycombinator.com/item?id=47304386",
+      "author": "kushalccc",
+      "shared_at": 1773025144,
+      "links": []
+    }
+  ]
+}

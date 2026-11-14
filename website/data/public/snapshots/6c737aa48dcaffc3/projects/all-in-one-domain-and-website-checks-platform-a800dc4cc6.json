@@ -1,0 +1,33 @@
+{
+  "id": 10503,
+  "slug": "all-in-one-domain-and-website-checks-platform-a800dc4cc6",
+  "name": "All-in-one domain and website checks platform",
+  "mentions": [
+    {
+      "name": "All-in-one domain and website checks platform",
+      "description": "This Django app consolidates the many domain and website checks the author would otherwise run through 10+ different services into a single place, and adds scheduled monitoring and alerting. It is currently hosted on a Raspberry Pi running Coolify in a home server, exposed through a Cloudflare Tunnel.",
+      "problem": "Running 10+ different checks on domains/websites required juggling 10+ different services.",
+      "audience": null,
+      "builder_usernames": [
+        "seriocomic"
+      ],
+      "source_excerpt": "Frustrated with running 10+ different checks on domains/websites I've built or working on with 10+ different services, I've built - with help from Claude Code - a Django app that tries to wrap all those key checks into one place. On top of that, I've built in scheduled monitoring and alerting.",
+      "evidence": [
+        {
+          "source_item_id": 44706050,
+          "source_field": "body",
+          "value": "Frustrated with running 10+ different checks on domains/websites I've built or working on with 10+ different services, I've built - with help from Claude Code - a Django app that tries to wrap all those key checks into one place. On top of that, I've built in scheduled monitoring and alerting.",
+          "supports": [],
+          "author": "seriocomic",
+          "shared_at": 1753663079,
+          "source_url": "https://news.ycombinator.com/item?id=44706050"
+        }
+      ],
+      "source_item_id": 44706050,
+      "source_url": "https://news.ycombinator.com/item?id=44706050",
+      "author": "seriocomic",
+      "shared_at": 1753663079,
+      "links": []
+    }
+  ]
+}

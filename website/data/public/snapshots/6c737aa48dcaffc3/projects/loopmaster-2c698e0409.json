@@ -1,0 +1,64 @@
+{
+  "id": 4876,
+  "slug": "loopmaster-2c698e0409",
+  "name": "Loopmaster",
+  "mentions": [
+    {
+      "name": "Loopmaster",
+      "description": "A browser-based music creation tool, similar to the audion scripting language but running in the browser.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "stagas"
+      ],
+      "source_excerpt": "I've been working on something similar[0], but for the browser, maybe you like it.",
+      "evidence": [
+        {
+          "source_item_id": 48088518,
+          "source_field": "body",
+          "value": "I've been working on something similar[0], but for the browser, maybe you like it.",
+          "supports": [],
+          "author": "stagas",
+          "shared_at": 1778450189,
+          "source_url": "https://news.ycombinator.com/item?id=48088518"
+        }
+      ],
+      "source_item_id": 48088518,
+      "source_url": "https://news.ycombinator.com/item?id=48088518",
+      "author": "stagas",
+      "shared_at": 1778450189,
+      "links": [
+        "https://loopmaster.xyz"
+      ]
+    },
+    {
+      "name": "Loopmaster",
+      "description": "An open-source music livecoding app for making music with code, shipping with ready-made instruments plus tutorials and videos to help beginners get started. Plans include expanding it into a general-purpose creative editor as a standalone Electron app that bundles other livecoding languages, including for graphics.",
+      "problem": "Music livecoding is hard for newbies, so the app focuses on being as beginner-friendly as possible.",
+      "audience": "Livecoding newcomers and hobbyist musicians looking for a beginner-friendly way to make music with code",
+      "builder_usernames": [
+        "stagas"
+      ],
+      "source_excerpt": "A music livecoding app[0], it's open-source[1] and it's been in the works for years in various iterations, but I've finally settled on the format and delivery. I'm now trying to make it as newbie friendly as possible by doing tutorials[2] and videos[3] and having ready-made instruments[4] to begin with.",
+      "evidence": [
+        {
+          "source_item_id": 47305163,
+          "source_field": "body",
+          "value": "A music livecoding app[0], it's open-source[1] and it's been in the works for years in various iterations, but I've finally settled on the format and delivery. I'm now trying to make it as newbie friendly as possible by doing tutorials[2] and videos[3] and having ready-made instruments[4] to begin with.",
+          "supports": [],
+          "author": "stagas",
+          "shared_at": 1773033783,
+          "source_url": "https://news.ycombinator.com/item?id=47305163"
+        }
+      ],
+      "source_item_id": 47305163,
+      "source_url": "https://news.ycombinator.com/item?id=47305163",
+      "author": "stagas",
+      "shared_at": 1773033783,
+      "links": [
+        "https://github.com/loopmaster-xyz/loopmaster",
+        "https://loopmaster.xyz"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 8544,
+  "slug": "qave-chat-9ee534504d",
+  "name": "qave.chat",
+  "mentions": [
+    {
+      "name": "qave.chat",
+      "description": "This is a Slack-style chat platform optimized for developer workflows, iterating toward Slack feature parity. It features keyboard-driven commands and supports writing and storing scripts without spinning up a new server to make chat ops easier, with a secrets store planned. Currently in early alpha and publicly tryable.",
+      "problem": "Wanted Slack to be more supportive for developers, so the author is iterating on feature parity with Slack but optimized for developer workflows.",
+      "audience": "Aims to make chat more supportive for developers, since Slack is not optimized for developer workflows.",
+      "builder_usernames": [
+        "kndwin"
+      ],
+      "source_excerpt": "Been working on https://qave.chat, Wanted Slack to be more supportive for developers so been iterating on feature parity with Slack but optimised for developer workflows.\n\nThis looks like keyboard driven commands, secrets store (to be done) and scripts that you can write and store without spinning up a new server (easier chat ops)",
+      "evidence": [
+        {
+          "source_item_id": 46267296,
+          "source_field": "body",
+          "value": "Been working on https://qave.chat, Wanted Slack to be more supportive for developers so been iterating on feature parity with Slack but optimised for developer workflows.\n\nThis looks like keyboard driven commands, secrets store (to be done) and scripts that you can write and store without spinning up a new server (easier chat ops)",
+          "supports": [],
+          "author": "kndwin",
+          "shared_at": 1765748677,
+          "source_url": "https://news.ycombinator.com/item?id=46267296"
+        }
+      ],
+      "source_item_id": 46267296,
+      "source_url": "https://news.ycombinator.com/item?id=46267296",
+      "author": "kndwin",
+      "shared_at": 1765748677,
+      "links": [
+        "https://qave.chat"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 7505,
+  "slug": "web-based-music-tracker-b4ec61357c",
+  "name": "Web-based music tracker",
+  "mentions": [
+    {
+      "name": "Web-based music tracker",
+      "description": "This website lets users make music through a tracker-style interface similar to FastTracker and OpenMPT. It is written in pure Rust using Leptos on the frontend (no JavaScript so far), with work so far focused on the music-making interface and backend development just beginning using sqlx. It has no manual, so use at your own risk.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mondobe"
+      ],
+      "source_excerpt": "I've been working on a music-making website since late spring. This is my first real frontend project, and I'm writing it in pure Rust using Leptos (so far, haven't had to write a single line of JavaScript!)\n\nMost of my work so far has been on the actual music-making interface, but I'm beginning work on the backend now. I've only worked with Django before (for a school project at Georgia Tech), so I'll be deep in the `sqlx` documentation for a while.\n\nThere's no manual, so use at your own risk (it's similar to tracker programs like FastTracker and OpenMPT): https://mondobe.com/tracker",
+      "evidence": [
+        {
+          "source_item_id": 46578241,
+          "source_field": "body",
+          "value": "I've been working on a music-making website since late spring. This is my first real frontend project, and I'm writing it in pure Rust using Leptos (so far, haven't had to write a single line of JavaScript!)\n\nMost of my work so far has been on the actual music-making interface, but I'm beginning work on the backend now. I've only worked with Django before (for a school project at Georgia Tech), so I'll be deep in the `sqlx` documentation for a while.\n\nThere's no manual, so use at your own risk (it's similar to tracker programs like FastTracker and OpenMPT): https://mondobe.com/tracker",
+          "supports": [],
+          "author": "mondobe",
+          "shared_at": 1768156224,
+          "source_url": "https://news.ycombinator.com/item?id=46578241"
+        }
+      ],
+      "source_item_id": 46578241,
+      "source_url": "https://news.ycombinator.com/item?id=46578241",
+      "author": "mondobe",
+      "shared_at": 1768156224,
+      "links": [
+        "https://mondobe.com/tracker"
+      ]
+    },
+    {
+      "name": "Web-based chiptune music tracker",
+      "description": "A music tracker app (the '90s-style music-making software popular with chiptune artists) built with a Rust frontend using the Leptos framework, involving multithreading, audio playback, DOM interactions, and web workers with no JavaScript. The author plans to add a backend and potentially release it as a paid app.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mondobe"
+      ],
+      "source_excerpt": "I'm getting into frontend web development with Rust by making a tracker [1] (not the advertising kind, rather a type of music-making app that was popular with chiptune artists in the '90s).",
+      "evidence": [
+        {
+          "source_item_id": 44706667,
+          "source_field": "body",
+          "value": "I'm getting into frontend web development with Rust by making a tracker [1] (not the advertising kind, rather a type of music-making app that was popular with chiptune artists in the '90s).",
+          "supports": [],
+          "author": "mondobe",
+          "shared_at": 1753670119,
+          "source_url": "https://news.ycombinator.com/item?id=44706667"
+        }
+      ],
+      "source_item_id": 44706667,
+      "source_url": "https://news.ycombinator.com/item?id=44706667",
+      "author": "mondobe",
+      "shared_at": 1753670119,
+      "links": [
+        "https://mondobe.com/tracker"
+      ]
+    }
+  ]
+}

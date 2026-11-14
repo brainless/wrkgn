@@ -1,0 +1,35 @@
+{
+  "id": 4429,
+  "slug": "vllm-on-eks-fdb71a61e7",
+  "name": "vllm-on-eks",
+  "mentions": [
+    {
+      "name": "vllm-on-eks",
+      "description": "This project runs vLLM on a Kubernetes cluster (EKS) for LLM inference and includes a gateway that maintains a sub-2-second time-to-first-token SLO. Built as a hands-on learning effort around inference, it emphasizes in-flight requests as a key metric (each engine streaming tokens for ~70 concurrent requests at a time).",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "nicoinstrument"
+      ],
+      "source_excerpt": "I'm learning about inference by running vLLM on a k8s cluster (EKS), building a gateway to keep a <2s TTFT SLO.",
+      "evidence": [
+        {
+          "source_item_id": 48086775,
+          "source_field": "body",
+          "value": "I'm learning about inference by running vLLM on a k8s cluster (EKS), building a gateway to keep a <2s TTFT SLO.",
+          "supports": [],
+          "author": "nicoinstrument",
+          "shared_at": 1778439775,
+          "source_url": "https://news.ycombinator.com/item?id=48086775"
+        }
+      ],
+      "source_item_id": 48086775,
+      "source_url": "https://news.ycombinator.com/item?id=48086775",
+      "author": "nicoinstrument",
+      "shared_at": 1778439775,
+      "links": [
+        "https://github.com/Nicolas-Richard/vllm-on-eks"
+      ]
+    }
+  ]
+}

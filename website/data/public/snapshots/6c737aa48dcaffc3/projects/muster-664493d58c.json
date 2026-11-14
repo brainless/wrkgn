@@ -1,0 +1,35 @@
+{
+  "id": 4742,
+  "slug": "muster-664493d58c",
+  "name": "muster",
+  "mentions": [
+    {
+      "name": "muster",
+      "description": "An agentic coding scaffold/framework (with the muster-pattern-library) for building projects like Raspberry Pi setups. It provides a library of reusable patterns (e.g., C3.dropfolder-trigger, R2.device-binding, C4.lazy-resource-gate, and composites like T2R4.device-triggered-conveyor) that implementations wire together, favoring systemd units first, an idempotent installer script, and minimal custom code around them.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "insapio"
+      ],
+      "source_excerpt": "muster and muster-pattern-library. (https://github.com/azide0x37/muster)\n\nan agentic coding scaffold/framework you can reference when building out your next random raspi project. prefer to build around  systemd units first; make an idempotent installer script, then put as little as possible custom coding around that.",
+      "evidence": [
+        {
+          "source_item_id": 48088505,
+          "source_field": "body",
+          "value": "muster and muster-pattern-library. (https://github.com/azide0x37/muster)\n\nan agentic coding scaffold/framework you can reference when building out your next random raspi project. prefer to build around  systemd units first; make an idempotent installer script, then put as little as possible custom coding around that.",
+          "supports": [],
+          "author": "insapio",
+          "shared_at": 1778450068,
+          "source_url": "https://news.ycombinator.com/item?id=48088505"
+        }
+      ],
+      "source_item_id": 48088505,
+      "source_url": "https://news.ycombinator.com/item?id=48088505",
+      "author": "insapio",
+      "shared_at": 1778450068,
+      "links": [
+        "https://github.com/azide0x37/muster"
+      ]
+    }
+  ]
+}

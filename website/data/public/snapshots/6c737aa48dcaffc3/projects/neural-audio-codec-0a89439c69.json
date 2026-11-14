@@ -1,0 +1,33 @@
+{
+  "id": 8257,
+  "slug": "neural-audio-codec-0a89439c69",
+  "name": "Neural audio codec",
+  "mentions": [
+    {
+      "name": "Neural audio codec",
+      "description": "This neural audio codec experiments with unconventional methods: echo state networks with logarithmically spread leak rates acting as a digital cochlea, and a complex mass-spring-damper system simulating the hairs of the cochlea. Both approaches produce striking visuals and appear to cluster reasonably well. Work continues on RVQ and audio loss (GANs and spectral loss), with the goal of beating SNAC.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "robviren"
+      ],
+      "source_excerpt": "I'm trying to make a neural audio codec using a variety of misguided methods. One I am using ESNs wrong spreading leak rates in a logarithmic fashion acting like a digital cochlea. The other is trying to do the same with a complex mass-spring-damper system to simulate the various hairs of the cochlea as well. Both approaches make super interesting visuals and appear to cluster reasonably well, but I am still learning about RVQ and audio loss (involves GANs and spectral loss). I kinda wanna beat SNAC if I can.",
+      "evidence": [
+        {
+          "source_item_id": 46266862,
+          "source_field": "body",
+          "value": "I'm trying to make a neural audio codec using a variety of misguided methods. One I am using ESNs wrong spreading leak rates in a logarithmic fashion acting like a digital cochlea. The other is trying to do the same with a complex mass-spring-damper system to simulate the various hairs of the cochlea as well. Both approaches make super interesting visuals and appear to cluster reasonably well, but I am still learning about RVQ and audio loss (involves GANs and spectral loss). I kinda wanna beat SNAC if I can.",
+          "supports": [],
+          "author": "robviren",
+          "shared_at": 1765746219,
+          "source_url": "https://news.ycombinator.com/item?id=46266862"
+        }
+      ],
+      "source_item_id": 46266862,
+      "source_url": "https://news.ycombinator.com/item?id=46266862",
+      "author": "robviren",
+      "shared_at": 1765746219,
+      "links": []
+    }
+  ]
+}

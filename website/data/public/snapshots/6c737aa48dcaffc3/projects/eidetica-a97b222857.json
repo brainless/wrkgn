@@ -1,0 +1,36 @@
+{
+  "id": 9055,
+  "slug": "eidetica-a97b222857",
+  "name": "Eidetica",
+  "mentions": [
+    {
+      "name": "Eidetica",
+      "description": "A decentralized database built on top of syncing CRDTs, currently in a proof-of-concept stage with known security holes. Features are still being built out and kept unstable rather than finalized. Accompanied by the write-up 'Using CRDTs + Sync as a Database'.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Arcuru"
+      ],
+      "source_excerpt": "https://eidetica.dev\n\nI've been building a Decentralized Database built on top of syncing CRDTs, and recently got it to a point I can demo. It's definitely in a \"proof-of-concept\" stage though, known security holes and all.",
+      "evidence": [
+        {
+          "source_item_id": 45873556,
+          "source_field": "body",
+          "value": "https://eidetica.dev\n\nI've been building a Decentralized Database built on top of syncing CRDTs, and recently got it to a point I can demo. It's definitely in a \"proof-of-concept\" stage though, known security holes and all.",
+          "supports": [],
+          "author": "Arcuru",
+          "shared_at": 1762761507,
+          "source_url": "https://news.ycombinator.com/item?id=45873556"
+        }
+      ],
+      "source_item_id": 45873556,
+      "source_url": "https://news.ycombinator.com/item?id=45873556",
+      "author": "Arcuru",
+      "shared_at": 1762761507,
+      "links": [
+        "https://eidetica.dev",
+        "https://jackson.dev/post/crdts_as_database/"
+      ]
+    }
+  ]
+}

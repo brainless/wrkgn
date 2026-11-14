@@ -1,0 +1,33 @@
+{
+  "id": 11123,
+  "slug": "ocaml-multicast-dns-mdns-implementation-667d10f2ee",
+  "name": "OCaml multicast DNS (mDNS) implementation",
+  "mentions": [
+    {
+      "name": "OCaml multicast DNS (mDNS) implementation",
+      "description": "A multicast DNS (mDNS) library written in OCaml, implementing RFC 6762. It supports building custom queries and responders, and includes a conventional querier that works as a stub resolver for .local names to provide resolver functionality like avahi. It began as a way to publish the addresses of containers and VMs running on a workstation to the local network.",
+      "problem": "The author wanted a service that publishes the addresses of containers and VMs running on their workstation to the local network.",
+      "audience": "Developers building custom mDNS queries and responders; users of the conventional querier as a stub resolver for .local",
+      "builder_usernames": [
+        "sleepydog"
+      ],
+      "source_excerpt": "I'm working on a multicast dns implementation in OCaml. It's a library allowing one to build custom queries/responders, plus a conventional querier that can be used as a stub resolver for .local to get the resolver functionality of avahi.",
+      "evidence": [
+        {
+          "source_item_id": 43821860,
+          "source_field": "body",
+          "value": "I'm working on a multicast dns implementation in OCaml. It's a library allowing one to build custom queries/responders, plus a conventional querier that can be used as a stub resolver for .local to get the resolver functionality of avahi.",
+          "supports": [],
+          "author": "sleepydog",
+          "shared_at": 1745850306,
+          "source_url": "https://news.ycombinator.com/item?id=43821860"
+        }
+      ],
+      "source_item_id": 43821860,
+      "source_url": "https://news.ycombinator.com/item?id=43821860",
+      "author": "sleepydog",
+      "shared_at": 1745850306,
+      "links": []
+    }
+  ]
+}

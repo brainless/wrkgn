@@ -1,0 +1,33 @@
+{
+  "id": 10439,
+  "slug": "htmlsync-io-9e23fad112",
+  "name": "htmlsync.io",
+  "mentions": [
+    {
+      "name": "htmlsync.io",
+      "description": "This tool synchronizes localStorage between devices, letting users access data from single-file HTML web apps (often AI-generated apps that save data in localStorage) from another device such as a phone.",
+      "problem": "Single-file HTML web apps that save data in localStorage keep that data confined to one device; the builder wanted access to it from a phone.",
+      "audience": null,
+      "builder_usernames": [
+        "meistertigran"
+      ],
+      "source_excerpt": "I am working on htmlsync.io, an easy way to synchronize localStorage between devices. I found myself using AI a lot to generate single-file HTML web apps that saved data in localStorage and wanted to have access to them from phone. This was my solution.",
+      "evidence": [
+        {
+          "source_item_id": 44705074,
+          "source_field": "body",
+          "value": "I am working on htmlsync.io, an easy way to synchronize localStorage between devices. I found myself using AI a lot to generate single-file HTML web apps that saved data in localStorage and wanted to have access to them from phone. This was my solution.",
+          "supports": [],
+          "author": "meistertigran",
+          "shared_at": 1753653275,
+          "source_url": "https://news.ycombinator.com/item?id=44705074"
+        }
+      ],
+      "source_item_id": 44705074,
+      "source_url": "https://news.ycombinator.com/item?id=44705074",
+      "author": "meistertigran",
+      "shared_at": 1753653275,
+      "links": []
+    }
+  ]
+}

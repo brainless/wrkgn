@@ -1,0 +1,33 @@
+{
+  "id": 9408,
+  "slug": "arduino-implementation-of-reticulum-7f53b99ca4",
+  "name": "Arduino implementation of Reticulum",
+  "mentions": [
+    {
+      "name": "Arduino implementation of Reticulum",
+      "description": "An Arduino implementation of the Reticulum network protocol, still early and needing more testing. A node's address is the hash of its public key, which can be announced on the network or not.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "konsumer"
+      ],
+      "source_excerpt": "I started working on a Arduino implementation, but it needs more testing.\n\nIt works like your address is the hash of your pubkey, and you can announce that or not.",
+      "evidence": [
+        {
+          "source_item_id": 45871911,
+          "source_field": "body",
+          "value": "I started working on a Arduino implementation, but it needs more testing.\n\nIt works like your address is the hash of your pubkey, and you can announce that or not.",
+          "supports": [],
+          "author": "konsumer",
+          "shared_at": 1762743851,
+          "source_url": "https://news.ycombinator.com/item?id=45871911"
+        }
+      ],
+      "source_item_id": 45871911,
+      "source_url": "https://news.ycombinator.com/item?id=45871911",
+      "author": "konsumer",
+      "shared_at": 1762743851,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 10627,
+  "slug": "pgqueuer-7c5bf31f82",
+  "name": "pgqueuer",
+  "mentions": [
+    {
+      "name": "pgqueuer",
+      "description": "This tool turns a vanilla PostgreSQL database into a horizontally-scalable job queue, requiring zero additional infrastructure.",
+      "problem": "Teams running Postgres want to ditch maintaining separate queue clusters for job processing.",
+      "audience": "Developers and operators already running PostgreSQL who need background job processing without extra queue infrastructure.",
+      "builder_usernames": [
+        "jeeybee"
+      ],
+      "source_excerpt": "pgqueuer turns vanilla PostgreSQL into horizontally-scalable job queue with zero extra infrastructure. If you’re running Postgres and want to ditch extra queue clusters, give it a spin and let me know how it holds up.",
+      "evidence": [
+        {
+          "source_item_id": 44710219,
+          "source_field": "body",
+          "value": "pgqueuer turns vanilla PostgreSQL into horizontally-scalable job queue with zero extra infrastructure. If you’re running Postgres and want to ditch extra queue clusters, give it a spin and let me know how it holds up.",
+          "supports": [],
+          "author": "jeeybee",
+          "shared_at": 1753706139,
+          "source_url": "https://news.ycombinator.com/item?id=44710219"
+        }
+      ],
+      "source_item_id": 44710219,
+      "source_url": "https://news.ycombinator.com/item?id=44710219",
+      "author": "jeeybee",
+      "shared_at": 1753706139,
+      "links": [
+        "https://github.com/janbjorge/pgqueuer"
+      ]
+    }
+  ]
+}

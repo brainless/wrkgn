@@ -1,0 +1,35 @@
+{
+  "id": 4804,
+  "slug": "daily-movie-tv-news-update-agent-d5bab0ee2a",
+  "name": "Daily movie & TV news update agent",
+  "mentions": [
+    {
+      "name": "Daily movie & TV news update agent",
+      "description": "A subscription-based agent that helps users keep up with movie and TV news by sending updates every morning and storing user preferences so it can learn what each person likes.",
+      "problem": "It's hard to keep up with movie and TV news, such as tracking when a film like the new Backrooms movie is coming out.",
+      "audience": null,
+      "builder_usernames": [
+        "jonathang6k"
+      ],
+      "source_excerpt": "So, I built an agent to help remind me -- it's a subscription based service that sends you updates every morning, and stores your preferences so it can learn what you like.",
+      "evidence": [
+        {
+          "source_item_id": 48087775,
+          "source_field": "body",
+          "value": "So, I built an agent to help remind me -- it's a subscription based service that sends you updates every morning, and stores your preferences so it can learn what you like.",
+          "supports": [],
+          "author": "jonathang6k",
+          "shared_at": 1778445751,
+          "source_url": "https://news.ycombinator.com/item?id=48087775"
+        }
+      ],
+      "source_item_id": 48087775,
+      "source_url": "https://news.ycombinator.com/item?id=48087775",
+      "author": "jonathang6k",
+      "shared_at": 1778445751,
+      "links": [
+        "https://holly.garelick.net"
+      ]
+    }
+  ]
+}

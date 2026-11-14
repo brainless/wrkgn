@@ -1,0 +1,35 @@
+{
+  "id": 10906,
+  "slug": "sandboxer-222fc66fe9",
+  "name": "sandboxer",
+  "mentions": [
+    {
+      "name": "sandboxer",
+      "description": "A multi-tenant sandboxing server that runs arbitrary Docker containers behind a simple HTTP interface and UI, with easy container forking. Each sandbox automatically gets a unique URL so intermediate progress of an app being built can be previewed. The goal is to hand each AI agent iteration its own sandbox, forked from the previous iteration, where agents build apps in private sandboxes.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ammmir"
+      ],
+      "source_excerpt": "I then took the code and vibe coded my way to a multi-tenant (untested!) sandboxing server that lets you run arbitrary Docker containers and provides a simple HTTP interface and UI. A cute, novel idea is that you can fork containers easily, as seen in the video in my repo",
+      "evidence": [
+        {
+          "source_item_id": 43822887,
+          "source_field": "body",
+          "value": "I then took the code and vibe coded my way to a multi-tenant (untested!) sandboxing server that lets you run arbitrary Docker containers and provides a simple HTTP interface and UI. A cute, novel idea is that you can fork containers easily, as seen in the video in my repo",
+          "supports": [],
+          "author": "ammmir",
+          "shared_at": 1745855737,
+          "source_url": "https://news.ycombinator.com/item?id=43822887"
+        }
+      ],
+      "source_item_id": 43822887,
+      "source_url": "https://news.ycombinator.com/item?id=43822887",
+      "author": "ammmir",
+      "shared_at": 1745855737,
+      "links": [
+        "https://github.com/ammmir/sandboxer"
+      ]
+    }
+  ]
+}

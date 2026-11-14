@@ -1,0 +1,35 @@
+{
+  "id": 6712,
+  "slug": "wireshark-4a3e3c4807",
+  "name": "Wireshark",
+  "mentions": [
+    {
+      "name": "Wireshark",
+      "description": "An effort to improve the accessibility (#a11y) of Wireshark, the network protocol capture/analysis tool, whose current accessibility is poor; includes a first submitted PR and relearning the Qt/C++ codebase so blind and low-vision IT professionals can use the tool.",
+      "problem": "Wireshark's current accessibility is poor, affecting the many blind and low vision IT folks for whom the tool is a job requirement.",
+      "audience": "Blind and low vision IT folks for whom this tool is a job requirement",
+      "builder_usernames": [
+        "bondolo"
+      ],
+      "source_excerpt": "For now I have mostly moved on from gaming and am instead working on improving the accessibility (#a11y) of the Wireshark network protocol capture/analysis tool. There are a lot of blind and low vision IT folks for whom this tool is a job requirement.",
+      "evidence": [
+        {
+          "source_item_id": 46953722,
+          "source_field": "body",
+          "value": "For now I have mostly moved on from gaming and am instead working on improving the accessibility (#a11y) of the Wireshark network protocol capture/analysis tool. There are a lot of blind and low vision IT folks for whom this tool is a job requirement.",
+          "supports": [],
+          "author": "bondolo",
+          "shared_at": 1770683630,
+          "source_url": "https://news.ycombinator.com/item?id=46953722"
+        }
+      ],
+      "source_item_id": 46953722,
+      "source_url": "https://news.ycombinator.com/item?id=46953722",
+      "author": "bondolo",
+      "shared_at": 1770683630,
+      "links": [
+        "https://wireshark.org"
+      ]
+    }
+  ]
+}

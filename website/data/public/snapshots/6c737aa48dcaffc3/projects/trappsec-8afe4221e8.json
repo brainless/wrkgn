@@ -1,0 +1,36 @@
+{
+  "id": 7094,
+  "slug": "trappsec-8afe4221e8",
+  "name": "trappsec",
+  "mentions": [
+    {
+      "name": "trappsec",
+      "description": "An experimental open source framework that helps developers detect attackers probing API business logic. It embeds realistic decoy routes and honey fields that are difficult to distinguish from real API constructs, nudging attackers to authenticate and converting reconnaissance into actionable security telemetry.",
+      "problem": "Attackers probing API business logic are hard to detect, and reconnaissance does not produce actionable security telemetry.",
+      "audience": "Developers",
+      "builder_usernames": [
+        "kyuradar"
+      ],
+      "source_excerpt": "I'm working on trappsec - an experimental open source framework that helps developers detect attackers who probe API business logic.\n\nBy embedding realistic decoy routes and honey fields that are difficult to distinguish from real API constructs, attackers are nudged to authenticate — converting reconnaissance into actionable security telemetry.",
+      "evidence": [
+        {
+          "source_item_id": 46973868,
+          "source_field": "body",
+          "value": "I'm working on trappsec - an experimental open source framework that helps developers detect attackers who probe API business logic.\n\nBy embedding realistic decoy routes and honey fields that are difficult to distinguish from real API constructs, attackers are nudged to authenticate — converting reconnaissance into actionable security telemetry.",
+          "supports": [],
+          "author": "kyuradar",
+          "shared_at": 1770811112,
+          "source_url": "https://news.ycombinator.com/item?id=46973868"
+        }
+      ],
+      "source_item_id": 46973868,
+      "source_url": "https://news.ycombinator.com/item?id=46973868",
+      "author": "kyuradar",
+      "shared_at": 1770811112,
+      "links": [
+        "https://github.com/trappsec-dev/trappsec",
+        "https://trappsec.dev"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 8351,
+  "slug": "hikugen-c3872d828e",
+  "name": "hikugen",
+  "mentions": [
+    {
+      "name": "hikugen",
+      "description": "A multi-purpose Python scraping library (hikugen, providing HikuExtractor) that turns any webpage into structured data. It uses LLMs to generate Python code that scrapes a webpage to fit any Pydantic model provided, returning typed extraction results.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "goncharom"
+      ],
+      "source_excerpt": "A multi-purpose scrapper to turn any webpage into structured data: https://news.ycombinator.com/item?id=45870231\n\nIt uses LLMs to generate python code to scrap a webpage to fit any Pydantic model provided",
+      "evidence": [
+        {
+          "source_item_id": 46267169,
+          "source_field": "body",
+          "value": "A multi-purpose scrapper to turn any webpage into structured data: https://news.ycombinator.com/item?id=45870231\n\nIt uses LLMs to generate python code to scrap a webpage to fit any Pydantic model provided",
+          "supports": [],
+          "author": "goncharom",
+          "shared_at": 1765747932,
+          "source_url": "https://news.ycombinator.com/item?id=46267169"
+        }
+      ],
+      "source_item_id": 46267169,
+      "source_url": "https://news.ycombinator.com/item?id=46267169",
+      "author": "goncharom",
+      "shared_at": 1765747932,
+      "links": [
+        "https://news.ycombinator.com/item?id=45870231"
+      ]
+    },
+    {
+      "name": "Hikugen",
+      "description": "A Python library for extracting structured data from arbitrary web pages using LLMs. Instead of sending the page's HTML to the LLM, Hikugen asks the model to generate Python code that fetches the data, and enforces that the generated data conforms to a user-defined Pydantic schema.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "goncharom"
+      ],
+      "source_excerpt": "Instead of sending the page's HTML to an LLM, Hikugen asks it to generate python code to fetch the data and enforces the generated data conforms to a Pydantic schema defined by the user.",
+      "evidence": [
+        {
+          "source_item_id": 45870880,
+          "source_field": "body",
+          "value": "Instead of sending the page's HTML to an LLM, Hikugen asks it to generate python code to fetch the data and enforces the generated data conforms to a Pydantic schema defined by the user.",
+          "supports": [],
+          "author": "goncharom",
+          "shared_at": 1762735581,
+          "source_url": "https://news.ycombinator.com/item?id=45870880"
+        }
+      ],
+      "source_item_id": 45870880,
+      "source_url": "https://news.ycombinator.com/item?id=45870880",
+      "author": "goncharom",
+      "shared_at": 1762735581,
+      "links": [
+        "https://news.ycombinator.com/item?id=45870231"
+      ]
+    }
+  ]
+}

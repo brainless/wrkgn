@@ -1,0 +1,64 @@
+{
+  "id": 1868,
+  "slug": "go-micro-22a693515f",
+  "name": "go-micro",
+  "mentions": [
+    {
+      "name": "go-micro",
+      "description": "A service framework and agent harness written in Go for building agent-based services.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "asim"
+      ],
+      "source_excerpt": "Also have an agent harness and service framework in Go",
+      "evidence": [
+        {
+          "source_item_id": 49237903,
+          "source_field": "body",
+          "value": "Also have an agent harness and service framework in Go",
+          "supports": [],
+          "author": "asim",
+          "shared_at": 1786322419,
+          "source_url": "https://news.ycombinator.com/item?id=49237903"
+        }
+      ],
+      "source_item_id": 49237903,
+      "source_url": "https://news.ycombinator.com/item?id=49237903",
+      "author": "asim",
+      "shared_at": 1786322419,
+      "links": [
+        "https://github.com/micro/go-micro"
+      ]
+    },
+    {
+      "name": "Go Micro",
+      "description": "An open source Go microservices framework. Development has been revived and the v5 CLI and API rewritten from scratch, aiming to rebuild value around the framework after the VC-funded company behind it wound down and alienated the community.",
+      "problem": "The VC-funded company behind the tools veered in a direction that alienated the community, creating confusion; with the company dead, there's an opportunity to rebuild value around the Go Micro framework.",
+      "audience": null,
+      "builder_usernames": [
+        "asim"
+      ],
+      "source_excerpt": "I have revived my work on Go Micro (https://github.com/micro/go-micro) and rewritten the v5 cli/api from scratch (https://github.com/micro/micro). As a VC funded company there was a lot of confusion around the tools we were building and we veered off in a direction that alienated the community.",
+      "evidence": [
+        {
+          "source_item_id": 43819458,
+          "source_field": "body",
+          "value": "I have revived my work on Go Micro (https://github.com/micro/go-micro) and rewritten the v5 cli/api from scratch (https://github.com/micro/micro). As a VC funded company there was a lot of confusion around the tools we were building and we veered off in a direction that alienated the community.",
+          "supports": [],
+          "author": "asim",
+          "shared_at": 1745834296,
+          "source_url": "https://news.ycombinator.com/item?id=43819458"
+        }
+      ],
+      "source_item_id": 43819458,
+      "source_url": "https://news.ycombinator.com/item?id=43819458",
+      "author": "asim",
+      "shared_at": 1745834296,
+      "links": [
+        "https://github.com/micro/go-micro",
+        "https://github.com/micro/micro"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 9298,
+  "slug": "price-drop-alert-e195f6b270",
+  "name": "Price Drop Alert",
+  "mentions": [
+    {
+      "name": "Price Drop Alert",
+      "description": "A price drop alert scraper written in Python that runs as a daily cron job. It checks the prices of a list of URLs (mostly the author's clothing staples from outdoor retailers) and sends an email with any products that have gone on sale. The author has run it for over a year and now has a landing page gauging interest in a stupid-simple price watch service that requires no extension install or account.",
+      "problem": "Existing price-tracking options require installing a browser extension or creating an account; this service aims to be stupid-simple instead.",
+      "audience": "Shoppers who want a simple price-drop alert service without needing to install an extension or create an account; originally built for the author's own shopping",
+      "builder_usernames": [
+        "Curiositry"
+      ],
+      "source_excerpt": "I have been tinkering on a little price drop alert scraper written in Python. It's run as a cron job, and every day it checks the prices of a list of urls (my clothing staples from various outdoor retailers, mostly) and sends me an email with any products that have gone on sale.",
+      "evidence": [
+        {
+          "source_item_id": 45873004,
+          "source_field": "body",
+          "value": "I have been tinkering on a little price drop alert scraper written in Python. It's run as a cron job, and every day it checks the prices of a list of urls (my clothing staples from various outdoor retailers, mostly) and sends me an email with any products that have gone on sale.",
+          "supports": [],
+          "author": "Curiositry",
+          "shared_at": 1762755624,
+          "source_url": "https://news.ycombinator.com/item?id=45873004"
+        }
+      ],
+      "source_item_id": 45873004,
+      "source_url": "https://news.ycombinator.com/item?id=45873004",
+      "author": "Curiositry",
+      "shared_at": 1762755624,
+      "links": [
+        "https://www.curiositry.com/price-drop-alert/"
+      ]
+    }
+  ]
+}

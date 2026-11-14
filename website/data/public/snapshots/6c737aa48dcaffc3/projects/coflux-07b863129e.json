@@ -1,0 +1,35 @@
+{
+  "id": 5297,
+  "slug": "coflux-07b863129e",
+  "name": "Coflux",
+  "mentions": [
+    {
+      "name": "Coflux",
+      "description": "Workflow orchestration engine where workflows are defined declaratively in plain Python using decorated task functions. Workers connect to an orchestration server and get assigned work, with inter-task calls intercepted and re-scheduled by the server, and tasks executed in pre-warmed, isolated processes for low latency. Supports retries, caching, and timeouts via decorator attributes, plus suspense (tasks sleep until a dependency result is available), memoisation of steps within a run, and re-running steps in different workspaces with updated code or environments. Also supports agentic systems by exposing tasks as tools to LLM calls with sandboxing, and Claude can drive it via the CLI to submit workflows, investigate failures, and re-run steps. Includes a self-contained CLI that starts a single-Docker-container server and workers, dev mode that auto-restarts workers on local changes, and a hosted UI showing real-time execution graphs, logs, metrics, and assets without requiring an account.",
+      "problem": "Existing workflow orchestration tools were consistently unsatisfying.",
+      "audience": null,
+      "builder_usernames": [
+        "joefreeman"
+      ],
+      "source_excerpt": "With Coflux (https://coflux.com), workflows are defined declaratively in plain Python with decorated functions (tasks).",
+      "evidence": [
+        {
+          "source_item_id": 47748628,
+          "source_field": "body",
+          "value": "With Coflux (https://coflux.com), workflows are defined declaratively in plain Python with decorated functions (tasks).",
+          "supports": [],
+          "author": "joefreeman",
+          "shared_at": 1776063663,
+          "source_url": "https://news.ycombinator.com/item?id=47748628"
+        }
+      ],
+      "source_item_id": 47748628,
+      "source_url": "https://news.ycombinator.com/item?id=47748628",
+      "author": "joefreeman",
+      "shared_at": 1776063663,
+      "links": [
+        "https://coflux.com"
+      ]
+    }
+  ]
+}

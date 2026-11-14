@@ -1,0 +1,205 @@
+{
+  "id": 4811,
+  "slug": "vt-code-86b87be3a9",
+  "name": "VT Code",
+  "mentions": [
+    {
+      "name": "VT Code",
+      "description": "An open-source coding agent with code understanding and robust shell safety. It supports multiple LLM providers with automatic failover and efficient context management, and is written in Rust.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "vinhnx"
+      ],
+      "source_excerpt": "I've been building VT Code (https://github.com/vinhnx/vtcode), an open-source coding agent with code understanding and robust shell safety. Supports multiple LLM providers with automatic failover and efficient context management. Written in Rust.",
+      "evidence": [
+        {
+          "source_item_id": 48090963,
+          "source_field": "body",
+          "value": "I've been building VT Code (https://github.com/vinhnx/vtcode), an open-source coding agent with code understanding and robust shell safety. Supports multiple LLM providers with automatic failover and efficient context management. Written in Rust.",
+          "supports": [],
+          "author": "vinhnx",
+          "shared_at": 1778472348,
+          "source_url": "https://news.ycombinator.com/item?id=48090963"
+        }
+      ],
+      "source_item_id": 48090963,
+      "source_url": "https://news.ycombinator.com/item?id=48090963",
+      "author": "vinhnx",
+      "shared_at": 1778472348,
+      "links": [
+        "https://github.com/vinhnx/vtcode"
+      ]
+    },
+    {
+      "name": "VT Code",
+      "description": "A terminal-native coding agent built in Rust that can execute shell commands. Current work includes self-benchmarking with Terminal bench, fuzzing its security parsers, normalizing extended thinking traces across AI providers, and improving the agent's UI/UX, TUI components, and harness.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "vinhnx"
+      ],
+      "source_excerpt": "This month, I'm working on VT Code, a terminal-native coding agent I've been building in Rust (https://github.com/vinhnx/vtcode).",
+      "evidence": [
+        {
+          "source_item_id": 47308976,
+          "source_field": "body",
+          "value": "This month, I'm working on VT Code, a terminal-native coding agent I've been building in Rust (https://github.com/vinhnx/vtcode).",
+          "supports": [],
+          "author": "vinhnx",
+          "shared_at": 1773063766,
+          "source_url": "https://news.ycombinator.com/item?id=47308976"
+        }
+      ],
+      "source_item_id": 47308976,
+      "source_url": "https://news.ycombinator.com/item?id=47308976",
+      "author": "vinhnx",
+      "shared_at": 1773063766,
+      "links": [
+        "https://github.com/vinhnx/vtcode"
+      ]
+    },
+    {
+      "name": "VT Code",
+      "description": "VT Code is a coding agent. Current work focuses on hardening the execution harness, improving tool discovery mechanisms, refining context engineering, and performance optimization.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "vinhnx"
+      ],
+      "source_excerpt": "This January, I'm still working on my coding agent VT Code. Hardening execution harness, improving tool discovery mechanisms, refining context engineering and performance optimization.\n\nhttps://github.com/vinhnx/vtcode",
+      "evidence": [
+        {
+          "source_item_id": 46656305,
+          "source_field": "body",
+          "value": "This January, I'm still working on my coding agent VT Code. Hardening execution harness, improving tool discovery mechanisms, refining context engineering and performance optimization.\n\nhttps://github.com/vinhnx/vtcode",
+          "supports": [],
+          "author": "vinhnx",
+          "shared_at": 1768638942,
+          "source_url": "https://news.ycombinator.com/item?id=46656305"
+        }
+      ],
+      "source_item_id": 46656305,
+      "source_url": "https://news.ycombinator.com/item?id=46656305",
+      "author": "vinhnx",
+      "shared_at": 1768638942,
+      "links": [
+        "https://github.com/vinhnx/vtcode"
+      ]
+    },
+    {
+      "name": "VT Code",
+      "description": "This is a coding agent in active development that has recently added support for Anthropic Agent Skills.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "vinhnx"
+      ],
+      "source_excerpt": "This month I'm continuing development on VT Code, my coding agent. I recently added Anthropic Agent Skills support and am really excited about it.",
+      "evidence": [
+        {
+          "source_item_id": 46269882,
+          "source_field": "body",
+          "value": "This month I'm continuing development on VT Code, my coding agent. I recently added Anthropic Agent Skills support and am really excited about it.",
+          "supports": [],
+          "author": "vinhnx",
+          "shared_at": 1765767002,
+          "source_url": "https://news.ycombinator.com/item?id=46269882"
+        }
+      ],
+      "source_item_id": 46269882,
+      "source_url": "https://news.ycombinator.com/item?id=46269882",
+      "author": "vinhnx",
+      "shared_at": 1765767002,
+      "links": [
+        "https://github.com/vinhnx/vtcode"
+      ]
+    },
+    {
+      "name": "VT Code",
+      "description": "VT Code is a Rust-based terminal coding agent with semantic code intelligence via Tree-sitter. It supports multiple LLM providers (OpenAI, Anthropic, Google Gemini, xAI, DeepSeek, OpenRouter, Z.AI, Moonshot AI, MiniMax, and Ollama local & Cloud) with automatic failover and efficient context management, and fully supports the Agent Client Protocol and Model Context Protocol. Preferences are stored in vtcode.toml, and Visual Studio Code and Open VSX extensions are available for install in VS Code, Cursor, Windsurf, and Eclipse.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "vinhnx"
+      ],
+      "source_excerpt": "I'm building a coding agent, named VT Code [0]. VT Code is a Rust-based terminal coding agent with semantic code intelligence via Tree-sitter. Supports multiple LLM providers with automatic failover and efficient context management.",
+      "evidence": [
+        {
+          "source_item_id": 45871828,
+          "source_field": "body",
+          "value": "I'm building a coding agent, named VT Code [0]. VT Code is a Rust-based terminal coding agent with semantic code intelligence via Tree-sitter. Supports multiple LLM providers with automatic failover and efficient context management.",
+          "supports": [],
+          "author": "vinhnx",
+          "shared_at": 1762743131,
+          "source_url": "https://news.ycombinator.com/item?id=45871828"
+        }
+      ],
+      "source_item_id": 45871828,
+      "source_url": "https://news.ycombinator.com/item?id=45871828",
+      "author": "vinhnx",
+      "shared_at": 1762743131,
+      "links": [
+        "https://github.com/vinhnx/vtcode"
+      ]
+    },
+    {
+      "name": "VT Code",
+      "description": "A Rust-based terminal coding agent that provides semantic code intelligence via Tree-sitter parsers (Rust, Python, JavaScript/TypeScript, Go, Java) and ast-grep for structural pattern matching and refactoring. It supports multiple LLM providers — OpenAI, Anthropic, xAI, DeepSeek, Gemini, OpenRouter, Z.AI, Moonshot AI — with automatic failover, prompt caching, and token-efficient context management, configured entirely through vtcode.toml. It is a fully compatible Agent Client Protocol (ACP) agent that works with any ACP client, with first-class support for Zed plus Neovim and marimo notebook integration.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "vinhnx"
+      ],
+      "source_excerpt": "I'm currently building my own coding agent, VT Code. VT Code is a Rust-based terminal coding agent with semantic code intelligence via Tree-sitter (parsers for Rust, Python, JavaScript/TypeScript, Go, Java) and ast-grep (structural pattern matching and refactoring).",
+      "evidence": [
+        {
+          "source_item_id": 45565389,
+          "source_field": "body",
+          "value": "I'm currently building my own coding agent, VT Code. VT Code is a Rust-based terminal coding agent with semantic code intelligence via Tree-sitter (parsers for Rust, Python, JavaScript/TypeScript, Go, Java) and ast-grep (structural pattern matching and refactoring).",
+          "supports": [],
+          "author": "vinhnx",
+          "shared_at": 1760337579,
+          "source_url": "https://news.ycombinator.com/item?id=45565389"
+        }
+      ],
+      "source_item_id": 45565389,
+      "source_url": "https://news.ycombinator.com/item?id=45565389",
+      "author": "vinhnx",
+      "shared_at": 1760337579,
+      "links": [
+        "https://crates.io/crates/vtcode",
+        "https://docs.rs/vtcode",
+        "https://github.com/vinhnx/vtcode"
+      ]
+    },
+    {
+      "name": "VT Code",
+      "description": "VT Code is a Rust-based terminal coding agent with semantic code understanding powered by tree-sitter and ast-grep, fully configurable and open-source.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "vinhnx"
+      ],
+      "source_excerpt": "I'm working a coding agent, named VT Code. It is a Rust-based terminal coding agent with semantic code understanding powered by tree-sitter and ast-grep, and fully configurable and open-source.",
+      "evidence": [
+        {
+          "source_item_id": 45421609,
+          "source_field": "body",
+          "value": "I'm working a coding agent, named VT Code. It is a Rust-based terminal coding agent with semantic code understanding powered by tree-sitter and ast-grep, and fully configurable and open-source.",
+          "supports": [],
+          "author": "vinhnx",
+          "shared_at": 1759202779,
+          "source_url": "https://news.ycombinator.com/item?id=45421609"
+        }
+      ],
+      "source_item_id": 45421609,
+      "source_url": "https://news.ycombinator.com/item?id=45421609",
+      "author": "vinhnx",
+      "shared_at": 1759202779,
+      "links": [
+        "https://github.com/vinhnx/vtcode"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 6589,
+  "slug": "zork-like-dungeon-explorer-for-vibe-coded-projects-0b34a1411c",
+  "name": "Zork-like dungeon explorer for vibe-coded projects",
+  "mentions": [
+    {
+      "name": "Zork-like dungeon explorer for vibe-coded projects",
+      "description": "An interactive code exploration tool that presents a codebase as a Zork-style text-adventure dungeon. Starting at the entry point, the user explores each code path to build a map of what the system does, takes notes along the way, and moves up and down levels of abstraction like dungeon levels. It integrates a static analyzer for Python and JavaScript that detects 90+ 'vibe slop' anti-patterns using mostly ASTs and, in some cases, AST plus small language models, surfacing complaints that give classes and methods a sense of their own emotional state. It also generates data flow schematics that visualize the entire project as a wire diagram.",
+      "problem": "Digging through a codebase to understand what is going on and map its structure and code paths is slow and difficult, especially for vibe-coded projects.",
+      "audience": null,
+      "builder_usernames": [
+        "sunir"
+      ],
+      "source_excerpt": "I'm building a zork-like dungeon explorer for vibe coded projects. Ok, the zork interface is not that important, but it adds an extra layer of fun, and does reflect the reality of how I dig through a codebase to understand it.",
+      "evidence": [
+        {
+          "source_item_id": 47303877,
+          "source_field": "body",
+          "value": "I'm building a zork-like dungeon explorer for vibe coded projects. Ok, the zork interface is not that important, but it adds an extra layer of fun, and does reflect the reality of how I dig through a codebase to understand it.",
+          "supports": [],
+          "author": "sunir",
+          "shared_at": 1773020702,
+          "source_url": "https://news.ycombinator.com/item?id=47303877"
+        }
+      ],
+      "source_item_id": 47303877,
+      "source_url": "https://news.ycombinator.com/item?id=47303877",
+      "author": "sunir",
+      "shared_at": 1773020702,
+      "links": []
+    }
+  ]
+}

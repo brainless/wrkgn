@@ -1,0 +1,36 @@
+{
+  "id": 7586,
+  "slug": "nyc-coffee-map-4176800ee9",
+  "name": "NYC Coffee Map",
+  "mentions": [
+    {
+      "name": "NYC Coffee Map",
+      "description": "A React Native mobile app that maps all coffee shops in New York City. It integrates with Google Places to return AI-generated summaries of each coffee shop via Google's AI summary feature. Planned next steps include building a local LLM into the app to replace the Google integration and power question-and-answer features; for now it is a quick app to help find coffee.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "clintmcmahon"
+      ],
+      "source_excerpt": "A React Native mobile coffee shop map of all coffee shops in New York City. It's integrated with Google Places so I can return summaries of each coffee shops via Googles AI summary feature.",
+      "evidence": [
+        {
+          "source_item_id": 46588786,
+          "source_field": "body",
+          "value": "A React Native mobile coffee shop map of all coffee shops in New York City. It's integrated with Google Places so I can return summaries of each coffee shops via Googles AI summary feature.",
+          "supports": [],
+          "author": "clintmcmahon",
+          "shared_at": 1768227259,
+          "source_url": "https://news.ycombinator.com/item?id=46588786"
+        }
+      ],
+      "source_item_id": 46588786,
+      "source_url": "https://news.ycombinator.com/item?id=46588786",
+      "author": "clintmcmahon",
+      "shared_at": 1768227259,
+      "links": [
+        "https://apps.apple.com/us/app/nyc-coffee-map/id6755573635",
+        "https://play.google.com/store/apps/details?id=com.parkasoftware.nyccoffee"
+      ]
+    }
+  ]
+}

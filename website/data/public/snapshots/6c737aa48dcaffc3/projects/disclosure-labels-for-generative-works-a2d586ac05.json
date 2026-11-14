@@ -1,0 +1,35 @@
+{
+  "id": 7696,
+  "slug": "disclosure-labels-for-generative-works-a2d586ac05",
+  "name": "Disclosure Labels for Generative Works",
+  "mentions": [
+    {
+      "name": "Disclosure Labels for Generative Works",
+      "description": "This site generates 'nutrition label'-style disclosure labels for generative works. It runs with no backend and stores nothing: the form is deterministic, populated on load from a data stream of bits decoded from a base-64 query parameter, and the URL's query parameter updates in real time as the form is filled, so reloading restores the form without local storage or cookies.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "blargwill"
+      ],
+      "source_excerpt": "I had a day-dream about nutrition labels for generative works, I made this site to feel it out: https://disclosure.launchbowl.com/",
+      "evidence": [
+        {
+          "source_item_id": 46579805,
+          "source_field": "body",
+          "value": "I had a day-dream about nutrition labels for generative works, I made this site to feel it out: https://disclosure.launchbowl.com/",
+          "supports": [],
+          "author": "blargwill",
+          "shared_at": 1768164158,
+          "source_url": "https://news.ycombinator.com/item?id=46579805"
+        }
+      ],
+      "source_item_id": 46579805,
+      "source_url": "https://news.ycombinator.com/item?id=46579805",
+      "author": "blargwill",
+      "shared_at": 1768164158,
+      "links": [
+        "https://disclosure.launchbowl.com/"
+      ]
+    }
+  ]
+}

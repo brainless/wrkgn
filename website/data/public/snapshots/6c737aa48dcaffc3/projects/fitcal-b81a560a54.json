@@ -1,0 +1,35 @@
+{
+  "id": 6296,
+  "slug": "fitcal-b81a560a54",
+  "name": "FitCal",
+  "mentions": [
+    {
+      "name": "FitCal",
+      "description": "This app syncs Strava activities to a Google calendar, so completed workouts appear as calendar events alongside planned training, letting users see their workout history and consistency over time at a glance. Built with Elixir and Phoenix.",
+      "problem": "Workouts uploaded to Garmin and Strava didn't show up back in the user's calendar, making it hard to see training consistency over time at a glance.",
+      "audience": null,
+      "builder_usernames": [
+        "ryoung"
+      ],
+      "source_excerpt": "https://fitcal.app syncs Strava activities to your Google calendar.  No fancy features, just does what it says on the tin.",
+      "evidence": [
+        {
+          "source_item_id": 47303485,
+          "source_field": "body",
+          "value": "https://fitcal.app syncs Strava activities to your Google calendar.  No fancy features, just does what it says on the tin.",
+          "supports": [],
+          "author": "ryoung",
+          "shared_at": 1773017698,
+          "source_url": "https://news.ycombinator.com/item?id=47303485"
+        }
+      ],
+      "source_item_id": 47303485,
+      "source_url": "https://news.ycombinator.com/item?id=47303485",
+      "author": "ryoung",
+      "shared_at": 1773017698,
+      "links": [
+        "https://fitcal.app"
+      ]
+    }
+  ]
+}

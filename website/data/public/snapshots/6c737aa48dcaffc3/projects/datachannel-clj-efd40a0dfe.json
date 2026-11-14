@@ -1,0 +1,35 @@
+{
+  "id": 4740,
+  "slug": "datachannel-clj-efd40a0dfe",
+  "name": "datachannel-clj",
+  "mentions": [
+    {
+      "name": "datachannel-clj",
+      "description": "This library is a pure Clojure implementation of WebRTC Data Channels (SCTP over DTLS over UDP), providing a minimal, dependency-free (aside from Clojure itself) way to establish peer-to-peer data channels on the JVM.",
+      "problem": "The author had always wanted a dependency-free way to establish WebRTC data channels in Clojure on the JVM.",
+      "audience": null,
+      "builder_usernames": [
+        "simonpure"
+      ],
+      "source_excerpt": "I've been working on a pure Clojure implementation of WebRTC Data Channels (SCTP over DTLS over UDP). The library provides a minimal, dependency-free (except for Clojure itself) way to establish peer-to-peer data channels on the JVM.",
+      "evidence": [
+        {
+          "source_item_id": 48089030,
+          "source_field": "body",
+          "value": "I've been working on a pure Clojure implementation of WebRTC Data Channels (SCTP over DTLS over UDP). The library provides a minimal, dependency-free (except for Clojure itself) way to establish peer-to-peer data channels on the JVM.",
+          "supports": [],
+          "author": "simonpure",
+          "shared_at": 1778454027,
+          "source_url": "https://news.ycombinator.com/item?id=48089030"
+        }
+      ],
+      "source_item_id": 48089030,
+      "source_url": "https://news.ycombinator.com/item?id=48089030",
+      "author": "simonpure",
+      "shared_at": 1778454027,
+      "links": [
+        "https://github.com/alpeware/datachannel-clj"
+      ]
+    }
+  ]
+}

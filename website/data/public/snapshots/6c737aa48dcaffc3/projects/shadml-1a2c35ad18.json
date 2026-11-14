@@ -1,0 +1,35 @@
+{
+  "id": 5577,
+  "slug": "shadml-1a2c35ad18",
+  "name": "shadml",
+  "mentions": [
+    {
+      "name": "shadml",
+      "description": "A shader programming language mixing Haskell and F# features that transpiles to WGSL. It supports traits, bitfields, algebraic data types (ADTs), and module/import externs for binding to other WGSL code. The project was born from a fork called fwgsl and is in very early stages.",
+      "problem": "The author got tired of the lack of functional programming features in WGSL.",
+      "audience": null,
+      "builder_usernames": [
+        "swoorup"
+      ],
+      "source_excerpt": "So making a new language that is a mix of haskell and F# that transpiles to wgsl. It has traits, bitfields, adts, module/imports externs to bind to other wgsl. Was born from a fork called fwgsl.",
+      "evidence": [
+        {
+          "source_item_id": 47764355,
+          "source_field": "body",
+          "value": "So making a new language that is a mix of haskell and F# that transpiles to wgsl. It has traits, bitfields, adts, module/imports externs to bind to other wgsl. Was born from a fork called fwgsl.",
+          "supports": [],
+          "author": "swoorup",
+          "shared_at": 1776167166,
+          "source_url": "https://news.ycombinator.com/item?id=47764355"
+        }
+      ],
+      "source_item_id": 47764355,
+      "source_url": "https://news.ycombinator.com/item?id=47764355",
+      "author": "swoorup",
+      "shared_at": 1776167166,
+      "links": [
+        "https://github.com/Swoorup/shadml"
+      ]
+    }
+  ]
+}

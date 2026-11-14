@@ -1,0 +1,36 @@
+{
+  "id": 5305,
+  "slug": "clawtique-617ade1beb",
+  "name": "Clawtique",
+  "mentions": [
+    {
+      "name": "Clawtique",
+      "description": "A CLI that keeps OpenClaw organized around the concept of a 'dress' — a bundle of everything OpenClaw needs to achieve a goal (skills, plugins, memory segments, crons). Users can dress and undress OpenClaw to try out setups and remove them cleanly without leaving dangling dependencies; the roadmap includes having OpenClaw invoke the CLI itself to manage its own components.",
+      "problem": "After a few days of adding skills, plugins and crons to OpenClaw, things become scattered: memory files spread across the workspace, plugin configs stored here and there, and skills not always visible to crons.",
+      "audience": null,
+      "builder_usernames": [
+        "maxalbarello"
+      ],
+      "source_excerpt": "I started working on a CLI to keep OpenClaw organized: https://clawtique.ai\n\nThe analogy is that of a boutique. OpenClaw goes to the boutique and is \"dressed up\" properly so that all the various components are organized and easy to maintain. Clawtique is organized around the concept of a \"dress\", basically a bundle of everything OpenClaw needs to achieve a goal (skills, plugins, memory segments, crons, ...).",
+      "evidence": [
+        {
+          "source_item_id": 47750484,
+          "source_field": "body",
+          "value": "I started working on a CLI to keep OpenClaw organized: https://clawtique.ai\n\nThe analogy is that of a boutique. OpenClaw goes to the boutique and is \"dressed up\" properly so that all the various components are organized and easy to maintain. Clawtique is organized around the concept of a \"dress\", basically a bundle of everything OpenClaw needs to achieve a goal (skills, plugins, memory segments, crons, ...).",
+          "supports": [],
+          "author": "maxalbarello",
+          "shared_at": 1776079325,
+          "source_url": "https://news.ycombinator.com/item?id=47750484"
+        }
+      ],
+      "source_item_id": 47750484,
+      "source_url": "https://news.ycombinator.com/item?id=47750484",
+      "author": "maxalbarello",
+      "shared_at": 1776079325,
+      "links": [
+        "https://clawtique.ai",
+        "https://github.com/onfabric/clawtique"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": 8041,
+  "slug": "weather-sense-5cb6df8d90",
+  "name": "weather-sense",
+  "mentions": [
+    {
+      "name": "weather-sense",
+      "description": "This is a weather site whose UI shows color gradients that reflect the color of the sky based on the time of day, with smoothly transitioning and vibrant sky colors. The first half was manually coded without AI; Claude Opus 4.5 helped add several planned features, and the project is open source.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Leftium"
+      ],
+      "source_excerpt": "https://weather-sense.leftium.com\n\n- The first half was all manually coded, no AI.",
+      "evidence": [
+        {
+          "source_item_id": 46483075,
+          "source_field": "body",
+          "value": "https://weather-sense.leftium.com\n\n- The first half was all manually coded, no AI.",
+          "supports": [],
+          "author": "Leftium",
+          "shared_at": 1767483936,
+          "source_url": "https://news.ycombinator.com/item?id=46483075"
+        }
+      ],
+      "source_item_id": 46483075,
+      "source_url": "https://news.ycombinator.com/item?id=46483075",
+      "author": "Leftium",
+      "shared_at": 1767483936,
+      "links": [
+        "https://github.com/Leftium/weather-sense",
+        "https://weather-sense.leftium.com"
+      ]
+    }
+  ]
+}

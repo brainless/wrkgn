@@ -1,0 +1,35 @@
+{
+  "id": 6236,
+  "slug": "chief-6f6c69be53",
+  "name": "Chief",
+  "mentions": [
+    {
+      "name": "Chief",
+      "description": "A CLI that autonomously works through a PRD using AI coding agents like Claude Code. It loops through user stories one at a time with fresh context per story, tracks progress in markdown between iterations, and makes one clean commit per completed story. Includes a TUI for watching it work and supports running multiple PRDs in parallel via git worktrees. Everything is stored as markdown files and git, keeping the tool lightweight and transparent.",
+      "problem": "Existing \"autonomous coding\" tooling felt overly complex and opaque; Chief is intentionally lightweight and transparent with no magic.",
+      "audience": null,
+      "builder_usernames": [
+        "thecodemonkey"
+      ],
+      "source_excerpt": "I'm working on Chief [1], a CLI that autonomously works through a PRD using AI coding agents like Claude Code.",
+      "evidence": [
+        {
+          "source_item_id": 47323172,
+          "source_field": "body",
+          "value": "I'm working on Chief [1], a CLI that autonomously works through a PRD using AI coding agents like Claude Code.",
+          "supports": [],
+          "author": "thecodemonkey",
+          "shared_at": 1773150311,
+          "source_url": "https://news.ycombinator.com/item?id=47323172"
+        }
+      ],
+      "source_item_id": 47323172,
+      "source_url": "https://news.ycombinator.com/item?id=47323172",
+      "author": "thecodemonkey",
+      "shared_at": 1773150311,
+      "links": [
+        "https://github.com/MiniCodeMonkey/chief"
+      ]
+    }
+  ]
+}

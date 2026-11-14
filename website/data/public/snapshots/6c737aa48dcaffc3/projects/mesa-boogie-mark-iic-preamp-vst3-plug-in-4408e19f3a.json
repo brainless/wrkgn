@@ -1,0 +1,33 @@
+{
+  "id": 10392,
+  "slug": "mesa-boogie-mark-iic-preamp-vst3-plug-in-4408e19f3a",
+  "name": "Mesa Boogie Mark IIC+ Preamp VST3 Plug-In",
+  "mentions": [
+    {
+      "name": "Mesa Boogie Mark IIC+ Preamp VST3 Plug-In",
+      "description": "A VST3 audio plug-in that simulates a Mesa Boogie Mark IIC+ preamp purely from the circuit, using an iterative solver on a system of equations with the previous sample's state vector as the guess for each sample. Performance scales with input frequency; on a MacBook M3 it produces 2x oversampled output at 48000Hz using 50–70% of a single core, reducible to about 25% by relaxing the solution tolerance with minimal quality loss.",
+      "problem": "The circuit-simulation approach seems unpopular for professional plug-ins because it was not viable for real time until modern CPU enhancements became available.",
+      "audience": null,
+      "builder_usernames": [
+        "jsd1982"
+      ],
+      "source_excerpt": "I've built a VST3 plug-in that simulates a Mesa Boogie Mark IIC+ preamp purely from the circuit.",
+      "evidence": [
+        {
+          "source_item_id": 44711734,
+          "source_field": "body",
+          "value": "I've built a VST3 plug-in that simulates a Mesa Boogie Mark IIC+ preamp purely from the circuit.",
+          "supports": [],
+          "author": "jsd1982",
+          "shared_at": 1753716009,
+          "source_url": "https://news.ycombinator.com/item?id=44711734"
+        }
+      ],
+      "source_item_id": 44711734,
+      "source_url": "https://news.ycombinator.com/item?id=44711734",
+      "author": "jsd1982",
+      "shared_at": 1753716009,
+      "links": []
+    }
+  ]
+}

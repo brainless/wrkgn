@@ -1,0 +1,35 @@
+{
+  "id": 5387,
+  "slug": "co-wiki-1cdd6b4202",
+  "name": "Co-Wiki",
+  "mentions": [
+    {
+      "name": "Co-Wiki",
+      "description": "Co-Wiki is a wiki-based warm storage layer designed to sit between LLM context windows and vector databases, built for human-agent co-authorship. The complete, documented, open design aims to solve endless chat threads, RAG chunking failures, and the lack of second brain infrastructure, and is published for others to implement.",
+      "problem": "Solves chat hell, RAG chunking failures, and the missing second brain infrastructure.",
+      "audience": null,
+      "builder_usernames": [
+        "PaulShomo"
+      ],
+      "source_excerpt": "This morning published a design manifesto for the Co-Wiki — a wiki-based warm storage layer that sits between LLM context windows and vector DBs, designed for human-agent co-authorship.",
+      "evidence": [
+        {
+          "source_item_id": 47745084,
+          "source_field": "body",
+          "value": "This morning published a design manifesto for the Co-Wiki — a wiki-based warm storage layer that sits between LLM context windows and vector DBs, designed for human-agent co-authorship.",
+          "supports": [],
+          "author": "PaulShomo",
+          "shared_at": 1776031675,
+          "source_url": "https://news.ycombinator.com/item?id=47745084"
+        }
+      ],
+      "source_item_id": 47745084,
+      "source_url": "https://news.ycombinator.com/item?id=47745084",
+      "author": "PaulShomo",
+      "shared_at": 1776031675,
+      "links": [
+        "https://gist.github.com/paulshomo/69cf99e3185fa7ad0f50fc0e38bcd424"
+      ]
+    }
+  ]
+}

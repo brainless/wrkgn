@@ -1,0 +1,33 @@
+{
+  "id": 5887,
+  "slug": "simracing-trainer-76ada99aee",
+  "name": "Simracing trainer",
+  "mentions": [
+    {
+      "name": "Simracing trainer",
+      "description": "A sim racing training tool that reads iRacing telemetry in real time and compares it against reference lap telemetry to find the biggest lap time delta jumps. An increasingly sophisticated GOFAI rule and pattern matching system tries to find the root cause of each time loss; the report is condensed into clear advice by a cheap LLM call and delivered as instant spoken feedback via the free Microsoft TTS API. Additional tools track improvement across sessions, find statistically problematic or inconsistent corners, and train muscle memory by tracing fast drivers' brake traces using the user's pedal.",
+      "problem": "The standard practice loop of turning laps, loading telemetry, comparing against a reference lap and retrying is not as efficient as it could be, and manual telemetry analysis is very rote and rules-based.",
+      "audience": null,
+      "builder_usernames": [
+        "fcatalan"
+      ],
+      "source_excerpt": "Simracing trainer.\n\nI love simracing, I'm moderately competitive and want to improve, and I like to be efficient with my practice. So having access to and using a lot of telemetry, I noticed that the \"turn a few laps, load telemetry, compare against reference lap, try again\" is not as efficient as it could be.",
+      "evidence": [
+        {
+          "source_item_id": 47749053,
+          "source_field": "body",
+          "value": "Simracing trainer.\n\nI love simracing, I'm moderately competitive and want to improve, and I like to be efficient with my practice. So having access to and using a lot of telemetry, I noticed that the \"turn a few laps, load telemetry, compare against reference lap, try again\" is not as efficient as it could be.",
+          "supports": [],
+          "author": "fcatalan",
+          "shared_at": 1776066864,
+          "source_url": "https://news.ycombinator.com/item?id=47749053"
+        }
+      ],
+      "source_item_id": 47749053,
+      "source_url": "https://news.ycombinator.com/item?id=47749053",
+      "author": "fcatalan",
+      "shared_at": 1776066864,
+      "links": []
+    }
+  ]
+}

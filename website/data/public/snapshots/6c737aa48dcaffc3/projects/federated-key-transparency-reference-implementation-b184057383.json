@@ -1,0 +1,36 @@
+{
+  "id": 9989,
+  "slug": "federated-key-transparency-reference-implementation-b184057383",
+  "name": "Federated Key Transparency reference implementation",
+  "mentions": [
+    {
+      "name": "Federated Key Transparency reference implementation",
+      "description": "A reference implementation of the federated Key Transparency specification, enabling the Fediverse to build end-to-end encryption with a stronger, less-centralized notion of trust than TOFU.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "some_furry"
+      ],
+      "source_excerpt": "A reference implementation for the specification I wrote last year for federated Key Transparency, so that the Fediverse can build end-to-end encryption (E2EE) with stronger, less-centralized notion of trust than TOFU -- https://github.com/fedi-e2ee/public-key-directory-specification",
+      "evidence": [
+        {
+          "source_item_id": 45420494,
+          "source_field": "body",
+          "value": "A reference implementation for the specification I wrote last year for federated Key Transparency, so that the Fediverse can build end-to-end encryption (E2EE) with stronger, less-centralized notion of trust than TOFU -- https://github.com/fedi-e2ee/public-key-directory-specification",
+          "supports": [],
+          "author": "some_furry",
+          "shared_at": 1759191513,
+          "source_url": "https://news.ycombinator.com/item?id=45420494"
+        }
+      ],
+      "source_item_id": 45420494,
+      "source_url": "https://news.ycombinator.com/item?id=45420494",
+      "author": "some_furry",
+      "shared_at": 1759191513,
+      "links": [
+        "https://github.com/fedi-e2ee/public-key-directory-specification",
+        "https://soatok.blog/category/technology/open-source/fediverse-e2ee-project/"
+      ]
+    }
+  ]
+}

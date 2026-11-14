@@ -1,0 +1,36 @@
+{
+  "id": 8928,
+  "slug": "sportwarzsim-8fd5bb50be",
+  "name": "SportWarzSim",
+  "mentions": [
+    {
+      "name": "SportWarzSim",
+      "description": "This app simulates sports fandom on a map, modeling scenarios like franchise expansion and relocation. It is built as a set of Jupyter notebooks served via Voila, with a more interactive notebook included, runs on free-tier hosting, and can also be run locally via Docker. The name hints at a possible future as a simulation game.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "daltont"
+      ],
+      "source_excerpt": "An exercise in simulating sports fandom on a map. To do things like simulate expansion and relocation of franchises.",
+      "evidence": [
+        {
+          "source_item_id": 46224589,
+          "source_field": "body",
+          "value": "An exercise in simulating sports fandom on a map. To do things like simulate expansion and relocation of franchises.",
+          "supports": [],
+          "author": "daltont",
+          "shared_at": 1765404559,
+          "source_url": "https://news.ycombinator.com/item?id=46224589"
+        }
+      ],
+      "source_item_id": 46224589,
+      "source_url": "https://news.ycombinator.com/item?id=46224589",
+      "author": "daltont",
+      "shared_at": 1765404559,
+      "links": [
+        "https://github.com/daltontf/SportWarzSim",
+        "https://sportwarzsim-production.up.railway.app/"
+      ]
+    }
+  ]
+}

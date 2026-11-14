@@ -1,0 +1,33 @@
+{
+  "id": 8784,
+  "slug": "llm-fiction-writing-workflow-f2e1651970",
+  "name": "LLM fiction writing workflow",
+  "mentions": [
+    {
+      "name": "LLM fiction writing workflow",
+      "description": "An LLM-powered fiction writing workflow with associated tools, built on agentic coding tools like Claude Code using rules, subagents, structure, guidance, prompting, and critique. Almost all of the flow lives on the filesystem with a custom command-line tool, making it accessible to agentic programming tools. Stories can be rerendered—rewritten slightly for voice, translated, or targeted at different reading levels or backgrounds—including translations for language learners. Plans include stories that stretch the medium, such as CYOA and multi-perspective stories with reader autonomy, with a focus on finished products rather than interactive experiences.",
+      "problem": "Producing quality content is hard and expensive.",
+      "audience": null,
+      "builder_usernames": [
+        "ianbicking"
+      ],
+      "source_excerpt": "I've been working on a LLM fiction writing workflow and associated tools. It's built on agentic coding tools with lots of structure, guidance, prompting, and critique. Almost all of the flow is on the filesystem and using a custom command-line tool, making it accessible to agentic programming tools.",
+      "evidence": [
+        {
+          "source_item_id": 46270896,
+          "source_field": "body",
+          "value": "I've been working on a LLM fiction writing workflow and associated tools. It's built on agentic coding tools with lots of structure, guidance, prompting, and critique. Almost all of the flow is on the filesystem and using a custom command-line tool, making it accessible to agentic programming tools.",
+          "supports": [],
+          "author": "ianbicking",
+          "shared_at": 1765777768,
+          "source_url": "https://news.ycombinator.com/item?id=46270896"
+        }
+      ],
+      "source_item_id": 46270896,
+      "source_url": "https://news.ycombinator.com/item?id=46270896",
+      "author": "ianbicking",
+      "shared_at": 1765777768,
+      "links": []
+    }
+  ]
+}

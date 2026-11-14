@@ -1,0 +1,33 @@
+{
+  "id": 10475,
+  "slug": "nova-javascript-engine-8604fcf5c0",
+  "name": "Nova JavaScript engine",
+  "mentions": [
+    {
+      "name": "Nova JavaScript engine",
+      "description": "A JavaScript engine that now implements JavaScript object \"shapes\" (hidden classes), a key performance feature, with planned use of shapes for property lookup caching, API cleanup, and performance-related improvements.",
+      "problem": "Without object shapes, property lookups in a JavaScript engine would be terribly slow.",
+      "audience": null,
+      "builder_usernames": [
+        "aapoalas"
+      ],
+      "source_excerpt": "I merged support for JavaScript object \"shapes\" in my Nova JavaScript engine last week",
+      "evidence": [
+        {
+          "source_item_id": 44704711,
+          "source_field": "body",
+          "value": "I merged support for JavaScript object \"shapes\" in my Nova JavaScript engine last week",
+          "supports": [],
+          "author": "aapoalas",
+          "shared_at": 1753650573,
+          "source_url": "https://news.ycombinator.com/item?id=44704711"
+        }
+      ],
+      "source_item_id": 44704711,
+      "source_url": "https://news.ycombinator.com/item?id=44704711",
+      "author": "aapoalas",
+      "shared_at": 1753650573,
+      "links": []
+    }
+  ]
+}

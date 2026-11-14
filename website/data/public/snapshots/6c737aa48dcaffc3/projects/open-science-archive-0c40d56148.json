@@ -1,0 +1,122 @@
+{
+  "id": 5153,
+  "slug": "open-science-archive-0c40d56148",
+  "name": "Open Science Archive",
+  "mentions": [
+    {
+      "name": "Open Science Archive",
+      "description": "Open infrastructure for scientific databases, letting every scientific field spin up its own Protein Data Bank-style archive in one click. Demos are live mirroring/extending PDB and GEO; planned work includes APIs with good developer experience, ML-friendly export, and a unified AI-driven UI that works for all scientific data types.",
+      "problem": "Scientific fields lack shared, one-click deployable data archives comparable to the Protein Data Bank.",
+      "audience": "Scientific researchers who need field-specific public data archives",
+      "builder_usernames": [
+        "rorytbyrne"
+      ],
+      "source_excerpt": "Open Science Archive: open infrastructure for scientific databases, so that every field gets its own Protein Data Bank in 1-click.",
+      "evidence": [
+        {
+          "source_item_id": 47744573,
+          "source_field": "body",
+          "value": "Open Science Archive: open infrastructure for scientific databases, so that every field gets its own Protein Data Bank in 1-click.",
+          "supports": [],
+          "author": "rorytbyrne",
+          "shared_at": 1776028461,
+          "source_url": "https://news.ycombinator.com/item?id=47744573"
+        }
+      ],
+      "source_item_id": 47744573,
+      "source_url": "https://news.ycombinator.com/item?id=47744573",
+      "author": "rorytbyrne",
+      "shared_at": 1776028461,
+      "links": [
+        "https://github.com/opensciencearchive/server",
+        "https://lingual.bio",
+        "https://opensciencearchive.org/",
+        "https://pockets.bio"
+      ]
+    },
+    {
+      "name": "Open Science Archive",
+      "description": "An open source, domain-agnostic scientific database, described as a \"Protein Data Bank-in-a-box\".",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rorytbyrne"
+      ],
+      "source_excerpt": "A domain-agnostic, open source scientific database.\n\n“Protein Data Bank-in-a-box”\n\nhttps://opensciencearchive.org",
+      "evidence": [
+        {
+          "source_item_id": 46583413,
+          "source_field": "body",
+          "value": "A domain-agnostic, open source scientific database.\n\n“Protein Data Bank-in-a-box”\n\nhttps://opensciencearchive.org",
+          "supports": [],
+          "author": "rorytbyrne",
+          "shared_at": 1768186285,
+          "source_url": "https://news.ycombinator.com/item?id=46583413"
+        }
+      ],
+      "source_item_id": 46583413,
+      "source_url": "https://news.ycombinator.com/item?id=46583413",
+      "author": "rorytbyrne",
+      "shared_at": 1768186285,
+      "links": [
+        "https://opensciencearchive.org"
+      ]
+    },
+    {
+      "name": "Protein Data Bank-in-a-Box",
+      "description": "A domain-agnostic, open source scientific database.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rorytbyrne"
+      ],
+      "source_excerpt": "A domain-agnostic, open source scientific database.\n\n“Protein Data Bank-in-a-Box”\n\nhttps://opensciencearchive.org",
+      "evidence": [
+        {
+          "source_item_id": 46583399,
+          "source_field": "body",
+          "value": "A domain-agnostic, open source scientific database.\n\n“Protein Data Bank-in-a-Box”\n\nhttps://opensciencearchive.org",
+          "supports": [],
+          "author": "rorytbyrne",
+          "shared_at": 1768186207,
+          "source_url": "https://news.ycombinator.com/item?id=46583399"
+        }
+      ],
+      "source_item_id": 46583399,
+      "source_url": "https://news.ycombinator.com/item?id=46583399",
+      "author": "rorytbyrne",
+      "shared_at": 1768186207,
+      "links": [
+        "https://opensciencearchive.org"
+      ]
+    },
+    {
+      "name": "Open Science Archive",
+      "description": "A domain-agnostic scientific data archive inspired by the Protein Data Bank. It handles deposition, validation, curation, storage, and searching of scientific data, with plugin interfaces for domain-specific components. Designed as \"PDB-in-a-box\" so scientific organisations can spin up professional-grade data infrastructure in days, accelerating AI-for-science efforts.",
+      "problem": "Setting up professional-grade scientific data infrastructure is slow and difficult, which hampers AI-for-science efforts.",
+      "audience": "Scientific organisations that need to stand up professional-grade data infrastructure quickly to support AI-for-science efforts.",
+      "builder_usernames": [
+        "rorytbyrne"
+      ],
+      "source_excerpt": "https://opensciencearchive.org\n\nI’ve started building a domain-agnostic scientific data archive, inspired by the Protein Data Bank. It handles the deposition, validation, curation, storage, and searching of scientific data, with plugin interfaces for domain-specific components.\n\nThe goal is to accelerate AI-for-science efforts by making it easy for scientific organisations to spin-up professional-grade data infrastructure in a matter of days. “PDB-in-a-box”.",
+      "evidence": [
+        {
+          "source_item_id": 46274080,
+          "source_field": "body",
+          "value": "https://opensciencearchive.org\n\nI’ve started building a domain-agnostic scientific data archive, inspired by the Protein Data Bank. It handles the deposition, validation, curation, storage, and searching of scientific data, with plugin interfaces for domain-specific components.\n\nThe goal is to accelerate AI-for-science efforts by making it easy for scientific organisations to spin-up professional-grade data infrastructure in a matter of days. “PDB-in-a-box”.",
+          "supports": [],
+          "author": "rorytbyrne",
+          "shared_at": 1765804502,
+          "source_url": "https://news.ycombinator.com/item?id=46274080"
+        }
+      ],
+      "source_item_id": 46274080,
+      "source_url": "https://news.ycombinator.com/item?id=46274080",
+      "author": "rorytbyrne",
+      "shared_at": 1765804502,
+      "links": [
+        "https://opensciencearchive.org"
+      ]
+    }
+  ]
+}

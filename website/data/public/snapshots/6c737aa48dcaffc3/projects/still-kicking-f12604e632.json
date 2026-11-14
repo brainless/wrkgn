@@ -1,0 +1,35 @@
+{
+  "id": 5085,
+  "slug": "still-kicking-f12604e632",
+  "name": "Still Kicking",
+  "mentions": [
+    {
+      "name": "Still Kicking",
+      "description": "A picture-frame device that monitors the motion of an elderly person living alone, detecting falls and sleep quality and sending basic reports to a phone app. It is built from an mmWave sensor connected to an ESP32, and a planned commercial version would include a small cell modem so it works with no networking setup and acts as a gateway when more than one unit is in a house.",
+      "problem": "The author's mother lives alone and is getting to the point where she might not be able to live alone; the device aims to give her more time at home.",
+      "audience": null,
+      "builder_usernames": [
+        "cmos"
+      ],
+      "source_excerpt": "I built \"Still Kicking\", a picture frame that monitors her motion and sends back basic reports and can detect falls and sleep quality to a phone app, to help give her more time at home.",
+      "evidence": [
+        {
+          "source_item_id": 47745676,
+          "source_field": "body",
+          "value": "I built \"Still Kicking\", a picture frame that monitors her motion and sends back basic reports and can detect falls and sleep quality to a phone app, to help give her more time at home.",
+          "supports": [],
+          "author": "cmos",
+          "shared_at": 1776037140,
+          "source_url": "https://news.ycombinator.com/item?id=47745676"
+        }
+      ],
+      "source_item_id": 47745676,
+      "source_url": "https://news.ycombinator.com/item?id=47745676",
+      "author": "cmos",
+      "shared_at": 1776037140,
+      "links": [
+        "https://moveometer.com"
+      ]
+    }
+  ]
+}

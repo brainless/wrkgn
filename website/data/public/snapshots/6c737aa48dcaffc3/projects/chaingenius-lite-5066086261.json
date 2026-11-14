@@ -1,0 +1,35 @@
+{
+  "id": 7008,
+  "slug": "chaingenius-lite-5066086261",
+  "name": "Chaingenius Lite",
+  "mentions": [
+    {
+      "name": "Chaingenius Lite",
+      "description": "This project fine-tunes Gemini 2.5 Flash on EVM blockchain execution structures, aiming to create a compact representation language for EVM executions analogous to how SMILES or SELFIES encode molecules. It uses perplexity combined with PageRank to perform transaction anomaly detection on blockchain executions.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "spennant"
+      ],
+      "source_excerpt": "Fine tuning Gemini 2.5 flash on EVM Blockchain execution structures and using perplexity with PageRank to perform transaction anomaly detection.",
+      "evidence": [
+        {
+          "source_item_id": 46946501,
+          "source_field": "body",
+          "value": "Fine tuning Gemini 2.5 flash on EVM Blockchain execution structures and using perplexity with PageRank to perform transaction anomaly detection.",
+          "supports": [],
+          "author": "spennant",
+          "shared_at": 1770652127,
+          "source_url": "https://news.ycombinator.com/item?id=46946501"
+        }
+      ],
+      "source_item_id": 46946501,
+      "source_url": "https://news.ycombinator.com/item?id=46946501",
+      "author": "spennant",
+      "shared_at": 1770652127,
+      "links": [
+        "https://lite.chaingenius.ai/theory"
+      ]
+    }
+  ]
+}

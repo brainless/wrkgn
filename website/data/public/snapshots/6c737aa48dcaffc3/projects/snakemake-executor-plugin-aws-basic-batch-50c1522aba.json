@@ -1,0 +1,35 @@
+{
+  "id": 8296,
+  "slug": "snakemake-executor-plugin-aws-basic-batch-50c1522aba",
+  "name": "snakemake-executor-plugin-aws-basic-batch",
+  "mentions": [
+    {
+      "name": "snakemake-executor-plugin-aws-basic-batch",
+      "description": "An experimental, not yet fully working Snakemake executor plugin variant for AWS Batch that explores three ideas: relying on existing job definitions managed through IaC instead of dynamic creation, implementing a fire-and-forget model where the main snakemake process also runs on Batch, and slimming down the snakemake container by stripping off unnecessary features.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "radus"
+      ],
+      "source_excerpt": "2) https://github.com/radusuciu/snakemake-executor-plugin-aws-basic-batch/. This is more experimental and not yet fully working. I wanted to try a few things. a) can we rely on existing job definitions (managed through IaC instead). b) can we implement a fire-and-forget model where the main snakemake process runs on Batch as well? c) Can we slim down the snakemake container by stripping off unnecessary features.",
+      "evidence": [
+        {
+          "source_item_id": 46267152,
+          "source_field": "body",
+          "value": "2) https://github.com/radusuciu/snakemake-executor-plugin-aws-basic-batch/. This is more experimental and not yet fully working. I wanted to try a few things. a) can we rely on existing job definitions (managed through IaC instead). b) can we implement a fire-and-forget model where the main snakemake process runs on Batch as well? c) Can we slim down the snakemake container by stripping off unnecessary features.",
+          "supports": [],
+          "author": "radus",
+          "shared_at": 1765747843,
+          "source_url": "https://news.ycombinator.com/item?id=46267152"
+        }
+      ],
+      "source_item_id": 46267152,
+      "source_url": "https://news.ycombinator.com/item?id=46267152",
+      "author": "radus",
+      "shared_at": 1765747843,
+      "links": [
+        "https://github.com/radusuciu/snakemake-executor-plugin-aws-basic-batch/"
+      ]
+    }
+  ]
+}

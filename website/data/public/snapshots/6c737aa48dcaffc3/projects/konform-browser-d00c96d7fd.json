@@ -1,0 +1,35 @@
+{
+  "id": 6940,
+  "slug": "konform-browser-d00c96d7fd",
+  "name": "Konform Browser",
+  "mentions": [
+    {
+      "name": "Konform Browser",
+      "description": "Firefox fork web browser with a simple onboarding screen offering multiple default configurations that are easy to switch between, since a single default config cannot suit all situations such as intranet admin web UIs versus everyday browsing. Free software with no revenue model, currently shipping for Linux with packaged binaries and repositories plus build-from-source support for people who want to bring their own patches; Android support is a future goal.",
+      "problem": "No single default browser configuration can be ideal for even most situations; intranet admin web UIs and everyday browsing call for very different defaults.",
+      "audience": "Public users; the project became generally available and actively supports public users, with contributions welcome.",
+      "builder_usernames": [
+        "konform"
+      ],
+      "source_excerpt": "A web browser. Well, a Firefox fork. Check it out!\n\nhttps://codeberg.org/konform-browser",
+      "evidence": [
+        {
+          "source_item_id": 46954901,
+          "source_field": "body",
+          "value": "A web browser. Well, a Firefox fork. Check it out!\n\nhttps://codeberg.org/konform-browser",
+          "supports": [],
+          "author": "konform",
+          "shared_at": 1770693272,
+          "source_url": "https://news.ycombinator.com/item?id=46954901"
+        }
+      ],
+      "source_item_id": 46954901,
+      "source_url": "https://news.ycombinator.com/item?id=46954901",
+      "author": "konform",
+      "shared_at": 1770693272,
+      "links": [
+        "https://codeberg.org/konform-browser"
+      ]
+    }
+  ]
+}

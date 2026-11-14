@@ -1,0 +1,33 @@
+{
+  "id": 8918,
+  "slug": "headless-browser-fingerprinting-anti-cloaking-a622543f12",
+  "name": "Headless browser fingerprinting / anti-cloaking",
+  "mentions": [
+    {
+      "name": "Headless browser fingerprinting / anti-cloaking",
+      "description": "This project performs headless browser fingerprinting, operating a site that logs all requests and collects information from the JavaScript environment to detect signals that a session is run by a bot instead of a human (183 unique signals so far). Its current focus is anti-cloaking for anti-phishing and other Internet security applications: defeating cloaking techniques that phishing sites use to show malicious content to ordinary users while presenting benign content to bots to evade detection. It has observed flaws such as fake mobile phone APIs injected into the DOM, browsers running with TLS validation and same-origin policy disabled, localhost services with permissive CORS headers, and proxies without websocket support, and sells quick overviews (with ideas for automated reports, manual headless-browser pentests, industry reports, and tooling access) showing headless browser operators what they are doing wrong.",
+      "problem": "Phishing sites cloak themselves so they present malicious content to ordinary users and benign content to bots, evading detection; security vendors that scan VirusTotal submissions or domains from CT logs have major flaws in their headless browser setups that make it worryingly easy to cloak from them. Open problems include choosing the best way to sell the product, convincing buyers of its value, whether to pivot away from anti-phishing, and attributing bot operators to sell to them.",
+      "audience": null,
+      "builder_usernames": [
+        "jstanley"
+      ],
+      "source_excerpt": "I'm working on headless browser fingerprinting.\n\nWe're focusing on \"anti-cloaking\" for anti-phishing and other Internet security applications at the moment. Phishing sites can \"cloak\" themselves so that they present malicious content to ordinary users and benign content to bots, and thereby evade detection. Anti-cloaking is doing things to defeat cloaking.",
+      "evidence": [
+        {
+          "source_item_id": 46271878,
+          "source_field": "body",
+          "value": "I'm working on headless browser fingerprinting.\n\nWe're focusing on \"anti-cloaking\" for anti-phishing and other Internet security applications at the moment. Phishing sites can \"cloak\" themselves so that they present malicious content to ordinary users and benign content to bots, and thereby evade detection. Anti-cloaking is doing things to defeat cloaking.",
+          "supports": [],
+          "author": "jstanley",
+          "shared_at": 1765788242,
+          "source_url": "https://news.ycombinator.com/item?id=46271878"
+        }
+      ],
+      "source_item_id": 46271878,
+      "source_url": "https://news.ycombinator.com/item?id=46271878",
+      "author": "jstanley",
+      "shared_at": 1765788242,
+      "links": []
+    }
+  ]
+}

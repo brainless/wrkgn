@@ -1,0 +1,35 @@
+{
+  "id": 7059,
+  "slug": "bigjujumap-b42cb1a2e5",
+  "name": "BigJuJuMap",
+  "mentions": [
+    {
+      "name": "BigJuJuMap",
+      "description": "A special UIKit map package designed to be integrated into SwiftUI, providing map support to compensate for SwiftUI's weak native mapping capabilities. The author polished and documented it as a standalone reusable component after breaking it out of other work.",
+      "problem": "SwiftUI map support is a big Achilles heel, being virtually non-existent natively.",
+      "audience": null,
+      "builder_usernames": [
+        "ChrisMarshallNY"
+      ],
+      "source_excerpt": "It’s a special UIKit map package, designed to be integrated into SwiftUI, as map support is a big SwiftUI Achilles heel.",
+      "evidence": [
+        {
+          "source_item_id": 46944032,
+          "source_field": "body",
+          "value": "It’s a special UIKit map package, designed to be integrated into SwiftUI, as map support is a big SwiftUI Achilles heel.",
+          "supports": [],
+          "author": "ChrisMarshallNY",
+          "shared_at": 1770635997,
+          "source_url": "https://news.ycombinator.com/item?id=46944032"
+        }
+      ],
+      "source_item_id": 46944032,
+      "source_url": "https://news.ycombinator.com/item?id=46944032",
+      "author": "ChrisMarshallNY",
+      "shared_at": 1770635997,
+      "links": [
+        "https://github.com/LittleGreenViper/BigJuJuMap"
+      ]
+    }
+  ]
+}

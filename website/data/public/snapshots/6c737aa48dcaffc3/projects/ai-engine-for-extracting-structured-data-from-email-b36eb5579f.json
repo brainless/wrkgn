@@ -1,0 +1,33 @@
+{
+  "id": 10967,
+  "slug": "ai-engine-for-extracting-structured-data-from-email-b36eb5579f",
+  "name": "AI engine for extracting structured data from email",
+  "mentions": [
+    {
+      "name": "AI engine for extracting structured data from email",
+      "description": "An AI engine that pulls structured data out of incoming email, connecting either via IMAP on a user's email server or via Amazon SES. Using structured-output AI, it eliminates the need to hand-write per-sender ingestors, such as the roughly 10,000 airline, hotel and travel-booking parsers TripIt had to build.",
+      "problem": "Extracting structured data from emails traditionally required writing thousands of per-sender ingestors, as with TripIt's airline and hotel parsers; with structured-output AI, the need to write specific ingestors goes away.",
+      "audience": null,
+      "builder_usernames": [
+        "rchowe"
+      ],
+      "source_excerpt": "The second is an AI engine for pulling structured data out of incoming email (either via IMAP on your email server or via SES). If you think of the engine that powers TripIt, they had to write about 10,000 different ingestors for each airline and hotel and travel booking site. With a structured output AI, the need to write specific ingestors goes away.",
+      "evidence": [
+        {
+          "source_item_id": 43816226,
+          "source_field": "body",
+          "value": "The second is an AI engine for pulling structured data out of incoming email (either via IMAP on your email server or via SES). If you think of the engine that powers TripIt, they had to write about 10,000 different ingestors for each airline and hotel and travel booking site. With a structured output AI, the need to write specific ingestors goes away.",
+          "supports": [],
+          "author": "rchowe",
+          "shared_at": 1745798484,
+          "source_url": "https://news.ycombinator.com/item?id=43816226"
+        }
+      ],
+      "source_item_id": 43816226,
+      "source_url": "https://news.ycombinator.com/item?id=43816226",
+      "author": "rchowe",
+      "shared_at": 1745798484,
+      "links": []
+    }
+  ]
+}

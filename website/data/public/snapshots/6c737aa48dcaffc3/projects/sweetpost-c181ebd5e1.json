@@ -1,0 +1,37 @@
+{
+  "id": 8116,
+  "slug": "sweetpost-c181ebd5e1",
+  "name": "SweetPost",
+  "mentions": [
+    {
+      "name": "SweetPost",
+      "description": "A CC0 postcard app for creating and mailing physical postcards featuring artworks from museum collections in the creative commons. It integrates the Met, the Cleveland Museum of Art, and the Art Institute of Chicago, with an experimental Wikimedia Commons feature. Mail delivery is currently US-only, and the app is also available as a Chrome extension and Firefox add-on ('New Tab, New Art') that brings the artwork into the browser's new tab page.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "thebigship"
+      ],
+      "source_excerpt": "I'm working on a postcard maker for museum collection artworks in the creative commons. It's in a phase where I'm looking to get feedback from people who might like to use it. Right now it only sends mail in the US. I've integrated the Met, Cleveland Museum of Art and AIC, with an experimental feature for Wikimedia Commons.",
+      "evidence": [
+        {
+          "source_item_id": 46270329,
+          "source_field": "body",
+          "value": "I'm working on a postcard maker for museum collection artworks in the creative commons. It's in a phase where I'm looking to get feedback from people who might like to use it. Right now it only sends mail in the US. I've integrated the Met, Cleveland Museum of Art and AIC, with an experimental feature for Wikimedia Commons.",
+          "supports": [],
+          "author": "thebigship",
+          "shared_at": 1765771290,
+          "source_url": "https://news.ycombinator.com/item?id=46270329"
+        }
+      ],
+      "source_item_id": 46270329,
+      "source_url": "https://news.ycombinator.com/item?id=46270329",
+      "author": "thebigship",
+      "shared_at": 1765771290,
+      "links": [
+        "https://addons.mozilla.org/en-US/firefox/addon/new-tab-new-art/",
+        "https://chromewebstore.google.com/detail/new-tab-new-art/oldcmmikbakmkmikgikndeekekdihgnf?authuser=0&hl=en",
+        "https://sweetpost.art/"
+      ]
+    }
+  ]
+}

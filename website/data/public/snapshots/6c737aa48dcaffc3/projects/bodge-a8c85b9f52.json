@@ -1,0 +1,63 @@
+{
+  "id": 7464,
+  "slug": "bodge-a8c85b9f52",
+  "name": "Bodge",
+  "mentions": [
+    {
+      "name": "Bodge",
+      "description": "A Lua-based functions-as-a-service (FaaS) platform for building and maintaining small side projects with minimal overhead. Hosted functions can power APIs, email notifications, scrapers, webhook handlers, and other small utilities, and the platform is open for others to use for free.",
+      "problem": "Small side projects often aren't worth the overhead required to put them together and keep them maintained.",
+      "audience": "Open to others building small side projects; free to play with for now.",
+      "builder_usernames": [
+        "azdle"
+      ],
+      "source_excerpt": "My meta side project for building other side projects: https://bodge.app/\n\nI've always had a bunch of small side projects that I want to do that aren't worth the overhead required to actually put them together & keep them maintained. So, I built a small Lua-based FaaS platform to make each individual project less work whenever inspiration strikes.",
+      "evidence": [
+        {
+          "source_item_id": 46578392,
+          "source_field": "body",
+          "value": "My meta side project for building other side projects: https://bodge.app/\n\nI've always had a bunch of small side projects that I want to do that aren't worth the overhead required to actually put them together & keep them maintained. So, I built a small Lua-based FaaS platform to make each individual project less work whenever inspiration strikes.",
+          "supports": [],
+          "author": "azdle",
+          "shared_at": 1768156900,
+          "source_url": "https://news.ycombinator.com/item?id=46578392"
+        }
+      ],
+      "source_item_id": 46578392,
+      "source_url": "https://news.ycombinator.com/item?id=46578392",
+      "author": "azdle",
+      "shared_at": 1768156900,
+      "links": [
+        "https://bodge.app/"
+      ]
+    },
+    {
+      "name": "Bodge",
+      "description": "Bodge is a \"Micro Functions as a Service\" platform that hosts Lua scripts which run in response to incoming HTTP requests to static URLs. It is the author's revival of the defunct webscript.io service, which they missed after it shut down. A demo is available on the homepage while work on abuse prevention continues before signups open.",
+      "problem": "The author constantly missed webscript.io, a hosted scripting service that went away years ago, so they built their own replacement.",
+      "audience": "Developers who want hosted Lua scripts triggered by HTTP requests; initially built for the author's own personal use, now being opened up for paid users.",
+      "builder_usernames": [
+        "azdle"
+      ],
+      "source_excerpt": "I'm working on https://bodge.app/\n\nI'm calling it a \"Micro Functions as a Service\" platform.\n\nWhat it really is, is hosted Lua scripts that run in response to incoming HTTP requests to static URLs.",
+      "evidence": [
+        {
+          "source_item_id": 45562350,
+          "source_field": "body",
+          "value": "I'm working on https://bodge.app/\n\nI'm calling it a \"Micro Functions as a Service\" platform.\n\nWhat it really is, is hosted Lua scripts that run in response to incoming HTTP requests to static URLs.",
+          "supports": [],
+          "author": "azdle",
+          "shared_at": 1760306366,
+          "source_url": "https://news.ycombinator.com/item?id=45562350"
+        }
+      ],
+      "source_item_id": 45562350,
+      "source_url": "https://news.ycombinator.com/item?id=45562350",
+      "author": "azdle",
+      "shared_at": 1760306366,
+      "links": [
+        "https://bodge.app/"
+      ]
+    }
+  ]
+}

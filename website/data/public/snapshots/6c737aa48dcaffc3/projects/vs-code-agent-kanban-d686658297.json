@@ -1,0 +1,35 @@
+{
+  "id": 6245,
+  "slug": "vs-code-agent-kanban-d686658297",
+  "name": "VS Code Agent Kanban",
+  "mentions": [
+    {
+      "name": "VS Code Agent Kanban",
+      "description": "A VS Code extension that implements a Kanban board backed by markdown files. It enables communicating with GitHub Copilot chat through markdown files so considerations, decisions and actions leave a clear permanent record, and adds visual organization plus shortcut commands to make managing the markdown files easier than the author's previous manual workflow.",
+      "problem": "The author's similar but more manual markdown-based workflow worked well but was harder to manage; this extension simplifies managing the markdown files and adds visual organization with shortcut commands.",
+      "audience": null,
+      "builder_usernames": [
+        "gbro3n"
+      ],
+      "source_excerpt": "It's a VS Code extension that implements a Kanban board backed by markdown files. It's set up to allow you to communicate with GitHub Copilot chat via markdown files, so you have a clear permanent record of your considerations, decisions and actions. I'd been getting great results with a similar but more manual workflow, so I built this to make managing the markdown files easier and to give me the ability to visually organise with some shortcut commands.",
+      "evidence": [
+        {
+          "source_item_id": 47308375,
+          "source_field": "body",
+          "value": "It's a VS Code extension that implements a Kanban board backed by markdown files. It's set up to allow you to communicate with GitHub Copilot chat via markdown files, so you have a clear permanent record of your considerations, decisions and actions. I'd been getting great results with a similar but more manual workflow, so I built this to make managing the markdown files easier and to give me the ability to visually organise with some shortcut commands.",
+          "supports": [],
+          "author": "gbro3n",
+          "shared_at": 1773060595,
+          "source_url": "https://news.ycombinator.com/item?id=47308375"
+        }
+      ],
+      "source_item_id": 47308375,
+      "source_url": "https://news.ycombinator.com/item?id=47308375",
+      "author": "gbro3n",
+      "shared_at": 1773060595,
+      "links": [
+        "https://www.appsoftware.com/products/developer-tools/agent-kanban"
+      ]
+    }
+  ]
+}

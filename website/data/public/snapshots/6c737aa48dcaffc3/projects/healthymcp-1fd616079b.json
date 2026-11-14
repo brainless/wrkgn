@@ -1,0 +1,63 @@
+{
+  "id": 10091,
+  "slug": "healthymcp-1fd616079b",
+  "name": "HealthyMCP",
+  "mentions": [
+    {
+      "name": "HealthyMCP",
+      "description": "A dedicated service for tracking MCP server statuses. It currently offers ping monitoring, tool validation, resource checks, and SSL, DNS, and HTTP header tests, with planned features including protocol version logging, custom tool-call monitoring, and response schema tracking.",
+      "problem": "MCP servers (such as proxies to internal APIs) are tricky to hook into regular CI/CD regression testing, so a dedicated status-tracking service for MCP servers is useful.",
+      "audience": "Developers and teams running MCP servers who need to integrate server health checks into CI/CD pipelines",
+      "builder_usernames": [
+        "sponrad"
+      ],
+      "source_excerpt": "Side project: https://healthymcp.com\n\nAt work we have an MCP that is mostly a proxy to our API and it was a little tricky to get it hooked into our regular CI/CD regression testing so I thought a dedicated service to track MCP server statuses could be useful.",
+      "evidence": [
+        {
+          "source_item_id": 45468424,
+          "source_field": "body",
+          "value": "Side project: https://healthymcp.com\n\nAt work we have an MCP that is mostly a proxy to our API and it was a little tricky to get it hooked into our regular CI/CD regression testing so I thought a dedicated service to track MCP server statuses could be useful.",
+          "supports": [],
+          "author": "sponrad",
+          "shared_at": 1759529483,
+          "source_url": "https://news.ycombinator.com/item?id=45468424"
+        }
+      ],
+      "source_item_id": 45468424,
+      "source_url": "https://news.ycombinator.com/item?id=45468424",
+      "author": "sponrad",
+      "shared_at": 1759529483,
+      "links": [
+        "https://healthymcp.com"
+      ]
+    },
+    {
+      "name": "HealthyMCP",
+      "description": "A monitoring and validation tool for MCP servers. It works like a regular server uptime checker but adds capabilities an MCP client has, such as access to tool and resource calls, so it can test and validate the whole flow end to end, including calls relayed to an API.",
+      "problem": "Setting up extra monitoring and validation for MCP servers takes significant time; teams want assurance that the whole flow, including calls relayed to an API, is actually being tested and validated.",
+      "audience": "Setting up extra monitoring and validation for MCP servers takes significant time; teams want assurance that the whole flow, including calls relayed to an API, is actually being tested and validated.",
+      "builder_usernames": [
+        "sponrad"
+      ],
+      "source_excerpt": "At my day job we have an MCP server and had to spend quite a lot of time setting up extra monitoring and validation for it so I'm building a tool to do those things. Pretty much a regular server uptime checker, but also with some extra's that an MCP client gets access to tool and resource calls.",
+      "evidence": [
+        {
+          "source_item_id": 44711548,
+          "source_field": "body",
+          "value": "At my day job we have an MCP server and had to spend quite a lot of time setting up extra monitoring and validation for it so I'm building a tool to do those things. Pretty much a regular server uptime checker, but also with some extra's that an MCP client gets access to tool and resource calls.",
+          "supports": [],
+          "author": "sponrad",
+          "shared_at": 1753714831,
+          "source_url": "https://news.ycombinator.com/item?id=44711548"
+        }
+      ],
+      "source_item_id": 44711548,
+      "source_url": "https://news.ycombinator.com/item?id=44711548",
+      "author": "sponrad",
+      "shared_at": 1753714831,
+      "links": [
+        "https://healthymcp.com/"
+      ]
+    }
+  ]
+}

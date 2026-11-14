@@ -1,0 +1,63 @@
+{
+  "id": 5365,
+  "slug": "getainative-f74af2b6e2",
+  "name": "getAiNative",
+  "mentions": [
+    {
+      "name": "getAiNative",
+      "description": "A tool that wraps AI-assisted coding in the guardrails of an existing engineering process: plan the work, implement, write tests, commit, open a PR, and get it reviewed, so AI is integrated into how teams actually ship code instead of being treated like autocomplete.",
+      "problem": "Engineering teams buy Copilot or Cursor seats, use them for a few weeks, and output doesn't really change because they treat AI like autocomplete rather than integrating it into how they ship code, leading to messy diffs and hallucinated tests that nobody trusts.",
+      "audience": "Engineering teams that have adopted AI coding tools like Copilot or Cursor.",
+      "builder_usernames": [
+        "funnyfoobar"
+      ],
+      "source_excerpt": "Working on https://getAiNative.com\n\nI kept seeing the same thing across engineering teams: everyone bought Copilot or Cursor seats, people used it for a few weeks, and then output didn't really change.\n\nThe tooling is good but teams are treating AI like autocomplete instead of integrating it into how they actually ship code.\n\nMy take is that AI starts making a real difference when you apply the same discipline you already have for software engineering.\n\nPlan the work, implement, write tests, commit, open a PR, get it reviewed. If you just vibe code with no structure around it, you get messy diffs and hallucinated tests that nobody trusts.\n\nSo I'm building around that workflow. Think of it as giving AI the guardrails of your existing eng process.",
+      "evidence": [
+        {
+          "source_item_id": 47755047,
+          "source_field": "body",
+          "value": "Working on https://getAiNative.com\n\nI kept seeing the same thing across engineering teams: everyone bought Copilot or Cursor seats, people used it for a few weeks, and then output didn't really change.\n\nThe tooling is good but teams are treating AI like autocomplete instead of integrating it into how they actually ship code.\n\nMy take is that AI starts making a real difference when you apply the same discipline you already have for software engineering.\n\nPlan the work, implement, write tests, commit, open a PR, get it reviewed. If you just vibe code with no structure around it, you get messy diffs and hallucinated tests that nobody trusts.\n\nSo I'm building around that workflow. Think of it as giving AI the guardrails of your existing eng process.",
+          "supports": [],
+          "author": "funnyfoobar",
+          "shared_at": 1776100149,
+          "source_url": "https://news.ycombinator.com/item?id=47755047"
+        }
+      ],
+      "source_item_id": 47755047,
+      "source_url": "https://news.ycombinator.com/item?id=47755047",
+      "author": "funnyfoobar",
+      "shared_at": 1776100149,
+      "links": [
+        "https://getAiNative.com"
+      ]
+    },
+    {
+      "name": "AI Native SDLC workshop site",
+      "description": "A website for a planned workshop that packages the author's AI workflows so companies can benefit from an AI-native software development lifecycle (SDLC).",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "funnyfoobar"
+      ],
+      "source_excerpt": "Planning to package this as a workshop, so companies could be benefit from AI Native SDLC.\n\nPut together the site yesterday https://getainative.com",
+      "evidence": [
+        {
+          "source_item_id": 47303611,
+          "source_field": "body",
+          "value": "Planning to package this as a workshop, so companies could be benefit from AI Native SDLC.\n\nPut together the site yesterday https://getainative.com",
+          "supports": [],
+          "author": "funnyfoobar",
+          "shared_at": 1773018644,
+          "source_url": "https://news.ycombinator.com/item?id=47303611"
+        }
+      ],
+      "source_item_id": 47303611,
+      "source_url": "https://news.ycombinator.com/item?id=47303611",
+      "author": "funnyfoobar",
+      "shared_at": 1773018644,
+      "links": [
+        "https://getainative.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 10349,
+  "slug": "hackernews-coffee-92a9f886b7",
+  "name": "hackernews.coffee",
+  "mentions": [
+    {
+      "name": "hackernews.coffee",
+      "description": "This tool reranks the Hacker News frontpage based on the user's interests rather than just trending content. It builds a personal profile from a small number of selected past articles and keeps both the profile and how it produces recommendations transparent and editable, so users stay in control of what 'personal' looks like.",
+      "problem": "People want personal content systems, but there is a lack of ones where they stay in control of what 'personal' actually looks like, given the prevalence of opaque LLM-powered tools and black-box recommendation algorithms.",
+      "audience": null,
+      "builder_usernames": [
+        "azath92"
+      ],
+      "source_excerpt": "Continuing to work on https://www.hackernews.coffee/ to rerank the HN frontpage based on my interests, not just what's trending.",
+      "evidence": [
+        {
+          "source_item_id": 44710438,
+          "source_field": "body",
+          "value": "Continuing to work on https://www.hackernews.coffee/ to rerank the HN frontpage based on my interests, not just what's trending.",
+          "supports": [],
+          "author": "azath92",
+          "shared_at": 1753707665,
+          "source_url": "https://news.ycombinator.com/item?id=44710438"
+        }
+      ],
+      "source_item_id": 44710438,
+      "source_url": "https://news.ycombinator.com/item?id=44710438",
+      "author": "azath92",
+      "shared_at": 1753707665,
+      "links": [
+        "https://www.hackernews.coffee/"
+      ]
+    }
+  ]
+}

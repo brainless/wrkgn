@@ -1,0 +1,35 @@
+{
+  "id": 6126,
+  "slug": "adhyeta-tools-5a178eebbf",
+  "name": "adhyeta-tools",
+  "mentions": [
+    {
+      "name": "adhyeta-tools",
+      "description": "This tool suite provides image extraction from PDFs, OCR, and a web UI for proofreading. It uses Qwen 3/3.5 models for OCR on books in Indic scripts, with support for configuring a different model and a possible Tesseract backend planned.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "sieve"
+      ],
+      "source_excerpt": "I am continuing with my proofreading and language learning efforts and have been working on tooling for it.\n\n= Proofreading =\n\nhttps://github.com/adhyeta-org-in/adhyeta-tools\n\nprovides image extraction from PDF, OCR as well as a basic but nice proofreading web-ui.\n\nQwen 3/3.5 is good enough for OCR on books in Indic scripts. So that is what I am using. But you can configure the model that you want to use.\n\nI may add a tesseract back end as well if necessary.",
+      "evidence": [
+        {
+          "source_item_id": 47307791,
+          "source_field": "body",
+          "value": "I am continuing with my proofreading and language learning efforts and have been working on tooling for it.\n\n= Proofreading =\n\nhttps://github.com/adhyeta-org-in/adhyeta-tools\n\nprovides image extraction from PDF, OCR as well as a basic but nice proofreading web-ui.\n\nQwen 3/3.5 is good enough for OCR on books in Indic scripts. So that is what I am using. But you can configure the model that you want to use.\n\nI may add a tesseract back end as well if necessary.",
+          "supports": [],
+          "author": "sieve",
+          "shared_at": 1773056778,
+          "source_url": "https://news.ycombinator.com/item?id=47307791"
+        }
+      ],
+      "source_item_id": 47307791,
+      "source_url": "https://news.ycombinator.com/item?id=47307791",
+      "author": "sieve",
+      "shared_at": 1773056778,
+      "links": [
+        "https://github.com/adhyeta-org-in/adhyeta-tools"
+      ]
+    }
+  ]
+}

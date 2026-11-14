@@ -1,0 +1,63 @@
+{
+  "id": 8511,
+  "slug": "simple-photo-c09b430859",
+  "name": "Simple.Photo",
+  "mentions": [
+    {
+      "name": "Simple.Photo",
+      "description": "This tool makes it easy to create and share beautiful photo galleries that tell a story: folders of photos become a web gallery that works well on all devices. It offers a free, open-source CLI interface for self-hosting galleries, plus a managed SaaS version with a visual builder and hosted serving via CDN.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "vladoh"
+      ],
+      "source_excerpt": "I'm working on a way to make it super easy to create and share beautiful photo galleries that tell a story. Take your folders with photos and create a web gallery that works great on all devices.\n\nThe project has a CLI interface that is free and open-source, but you have to self-host the gallery. We are also building a SaaS app which is basically a managed version of the open-source tool with a visual builder and we take care of the hosting and CDN.",
+      "evidence": [
+        {
+          "source_item_id": 46266590,
+          "source_field": "body",
+          "value": "I'm working on a way to make it super easy to create and share beautiful photo galleries that tell a story. Take your folders with photos and create a web gallery that works great on all devices.\n\nThe project has a CLI interface that is free and open-source, but you have to self-host the gallery. We are also building a SaaS app which is basically a managed version of the open-source tool with a visual builder and we take care of the hosting and CDN.",
+          "supports": [],
+          "author": "vladoh",
+          "shared_at": 1765744480,
+          "source_url": "https://news.ycombinator.com/item?id=46266590"
+        }
+      ],
+      "source_item_id": 46266590,
+      "source_url": "https://news.ycombinator.com/item?id=46266590",
+      "author": "vladoh",
+      "shared_at": 1765744480,
+      "links": [
+        "https://simple.photo"
+      ]
+    },
+    {
+      "name": "Simple Photo Gallery",
+      "description": "Open-source tool that generates photo galleries from a folder of photos, outputting static sites that are easy to self-host. Galleries work across devices, support rich photo descriptions, and are shareable via a simple link. V1 earned 200+ GitHub stars, V2 was recently released, and a SaaS offering for users who don't want to use the CLI or self-host is planned.",
+      "problem": "There was no good tool for sharing travel and family photos with friends and family in a beautiful web gallery that works on all devices and supports rich descriptions.",
+      "audience": "People sharing personal photos (e.g., travel and family photos) with friends and family via a simple link",
+      "builder_usernames": [
+        "vladoh"
+      ],
+      "source_excerpt": "I'm working on a open-source tool to create photo galleries from a folder of photos: https://simple.photo. It creates galleries as static sites that are easy to self-host.",
+      "evidence": [
+        {
+          "source_item_id": 45562175,
+          "source_field": "body",
+          "value": "I'm working on a open-source tool to create photo galleries from a folder of photos: https://simple.photo. It creates galleries as static sites that are easy to self-host.",
+          "supports": [],
+          "author": "vladoh",
+          "shared_at": 1760305122,
+          "source_url": "https://news.ycombinator.com/item?id=45562175"
+        }
+      ],
+      "source_item_id": 45562175,
+      "source_url": "https://news.ycombinator.com/item?id=45562175",
+      "author": "vladoh",
+      "shared_at": 1760305122,
+      "links": [
+        "https://simple.photo"
+      ]
+    }
+  ]
+}

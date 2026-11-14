@@ -1,0 +1,35 @@
+{
+  "id": 9281,
+  "slug": "gearsec-b2a4620e36",
+  "name": "GearSec",
+  "mentions": [
+    {
+      "name": "GearSec",
+      "description": "This platform simplifies access control in enterprises by creating accesses via policies instead of credentials. Organizations only need to define policies specifying who (people, services, or AI agents) can access which systems, so they no longer have to deal with credentials directly.",
+      "problem": "Many cybersecurity attacks stem from stolen credentials, such as the Shai Hulud supply chain attack, and credential sprawl makes it hard to figure out who has access to what systems.",
+      "audience": "Enterprises that need to manage and secure access to their systems, including IT/security teams dealing with credential sprawl",
+      "builder_usernames": [
+        "vedhant"
+      ],
+      "source_excerpt": "At https://gearsec.io, we are building a platform where accesses are created via policies. The result is that, the enterprise doesnt deal with credentials anymore. They only need to define policies and nothing more.",
+      "evidence": [
+        {
+          "source_item_id": 45897462,
+          "source_field": "body",
+          "value": "At https://gearsec.io, we are building a platform where accesses are created via policies. The result is that, the enterprise doesnt deal with credentials anymore. They only need to define policies and nothing more.",
+          "supports": [],
+          "author": "vedhant",
+          "shared_at": 1762934234,
+          "source_url": "https://news.ycombinator.com/item?id=45897462"
+        }
+      ],
+      "source_item_id": 45897462,
+      "source_url": "https://news.ycombinator.com/item?id=45897462",
+      "author": "vedhant",
+      "shared_at": 1762934234,
+      "links": [
+        "https://gearsec.io"
+      ]
+    }
+  ]
+}

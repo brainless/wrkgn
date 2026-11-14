@@ -1,0 +1,35 @@
+{
+  "id": 10678,
+  "slug": "anomail-395bfc82e1",
+  "name": "Anomail",
+  "mentions": [
+    {
+      "name": "Anomail",
+      "description": "A simple RSS-to-email service that automatically delivers RSS feed updates to users' email inboxes. Currently in beta testing with a few friends and open to feedback from anyone.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "m2has"
+      ],
+      "source_excerpt": "I’m working on a pretty simple rss-to-email service. Currently a few friends are beta testing it but anyone is free to check it out and give feedback: https://anomail.co/",
+      "evidence": [
+        {
+          "source_item_id": 44706138,
+          "source_field": "body",
+          "value": "I’m working on a pretty simple rss-to-email service. Currently a few friends are beta testing it but anyone is free to check it out and give feedback: https://anomail.co/",
+          "supports": [],
+          "author": "m2has",
+          "shared_at": 1753664188,
+          "source_url": "https://news.ycombinator.com/item?id=44706138"
+        }
+      ],
+      "source_item_id": 44706138,
+      "source_url": "https://news.ycombinator.com/item?id=44706138",
+      "author": "m2has",
+      "shared_at": 1753664188,
+      "links": [
+        "https://anomail.co/"
+      ]
+    }
+  ]
+}

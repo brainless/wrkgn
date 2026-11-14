@@ -1,0 +1,35 @@
+{
+  "id": 8970,
+  "slug": "quote-machine-19b8e0067a",
+  "name": "Quote Machine",
+  "mentions": [
+    {
+      "name": "Quote Machine",
+      "description": "A free quote generation service that runs entirely in the browser with no sign-up and produces live PDFs. It is built as a React app with no backend, hosted on GCP at almost no cost, and the author plans to open-source it.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "vazkus"
+      ],
+      "source_excerpt": "Ha! I built a similar service for quote generation a couple of month ago: https://quotemachine.cc\n\nNo signups, free for all, browser-only, live pdfs, etc\n\nBuilt it for a friend and decided to share with all, it's just a react app (no backend) running on GCP and costs almost nothing to run.",
+      "evidence": [
+        {
+          "source_item_id": 45875547,
+          "source_field": "body",
+          "value": "Ha! I built a similar service for quote generation a couple of month ago: https://quotemachine.cc\n\nNo signups, free for all, browser-only, live pdfs, etc\n\nBuilt it for a friend and decided to share with all, it's just a react app (no backend) running on GCP and costs almost nothing to run.",
+          "supports": [],
+          "author": "vazkus",
+          "shared_at": 1762779717,
+          "source_url": "https://news.ycombinator.com/item?id=45875547"
+        }
+      ],
+      "source_item_id": 45875547,
+      "source_url": "https://news.ycombinator.com/item?id=45875547",
+      "author": "vazkus",
+      "shared_at": 1762779717,
+      "links": [
+        "https://quotemachine.cc"
+      ]
+    }
+  ]
+}

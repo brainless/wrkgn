@@ -1,0 +1,64 @@
+{
+  "id": 1222,
+  "slug": "ragextract-967dfd7583",
+  "name": "Ragextract",
+  "mentions": [
+    {
+      "name": "Ragextract",
+      "description": "This AI tool processes documents and extracts their content into organized rows in a fully featured AI table/datagrid, relaunched from an earlier document processing and RAG API. It aims to be a low-friction AI utility, avoiding the gating, sales meetings, and subscriptions of big-name document-first AI table products.",
+      "problem": "Document-first AI tables are gated behind a few big names, a sales meeting, or another subscription.",
+      "audience": "Anyone working with a lot of documents who needs their extraction organized into rows; particularly people considering leaving Airtable.",
+      "builder_usernames": [
+        "jimle_uk"
+      ],
+      "source_excerpt": "Relaunched https://ragextract.com over the past month - from document processing and RAG API to fully featured AI table/datagrid.",
+      "evidence": [
+        {
+          "source_item_id": 49694859,
+          "source_field": "body",
+          "value": "Relaunched https://ragextract.com over the past month - from document processing and RAG API to fully featured AI table/datagrid.",
+          "supports": [],
+          "author": "jimle_uk",
+          "shared_at": 1789383553,
+          "source_url": "https://news.ycombinator.com/item?id=49694859"
+        }
+      ],
+      "source_item_id": 49694859,
+      "source_url": "https://news.ycombinator.com/item?id=49694859",
+      "author": "jimle_uk",
+      "shared_at": 1789383553,
+      "links": [
+        "https://ragextract.com"
+      ]
+    },
+    {
+      "name": "Ragextract",
+      "description": "A document RAG API based on multimodal embeddings, intended for data extraction from documents. It offers a simpler, lighter-weight alternative to VLM (OCR)-based processing for document workflows that involve search, cutting down on VLM (OCR) costs.",
+      "problem": "Document workflows that involve search face high VLM (OCR) costs; Ragextract reduces those costs with a simpler multimodal-embedding RAG approach.",
+      "audience": "Startups, SMEs and freelancers; the author uses it for clients in finance, insurance and proptech.",
+      "builder_usernames": [
+        "jimle_uk"
+      ],
+      "source_excerpt": "ragextract.com\n\nA document RAG API based on multimodal embeddings that's intended for data extraction. If your document workflow involves search and you're looking for ways to cut down on VLM (OCR) costs, Ragextract provides a simpler alternative (less bells & whistles) which makes sense for startups, SMEs and freelancers.",
+      "evidence": [
+        {
+          "source_item_id": 46944770,
+          "source_field": "body",
+          "value": "ragextract.com\n\nA document RAG API based on multimodal embeddings that's intended for data extraction. If your document workflow involves search and you're looking for ways to cut down on VLM (OCR) costs, Ragextract provides a simpler alternative (less bells & whistles) which makes sense for startups, SMEs and freelancers.",
+          "supports": [],
+          "author": "jimle_uk",
+          "shared_at": 1770642039,
+          "source_url": "https://news.ycombinator.com/item?id=46944770"
+        }
+      ],
+      "source_item_id": 46944770,
+      "source_url": "https://news.ycombinator.com/item?id=46944770",
+      "author": "jimle_uk",
+      "shared_at": 1770642039,
+      "links": [
+        "https://ragextract.com",
+        "https://subworkflow.ai/blog/ragextract/introducing-ragextract"
+      ]
+    }
+  ]
+}

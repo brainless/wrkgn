@@ -1,0 +1,33 @@
+{
+  "id": 10804,
+  "slug": "browser-based-mud-ebc40e4930",
+  "name": "Browser-based MUD",
+  "mentions": [
+    {
+      "name": "Browser-based MUD",
+      "description": "A browser-based MUD (multi-user dungeon) whose game engine runs in a web worker and communicates with the UI via message passing. Area data files are stored remotely and cached with a service worker so the MUD can run offline, and multiplayer is handled by the MUD opening an outbound connection (likely websocket) to a connection collector host that routes other players' IO, with IndexedDB as the likely database.",
+      "problem": null,
+      "audience": "MUD players, whether playing solo offline or connecting remotely for multiplayer",
+      "builder_usernames": [
+        "kageneko"
+      ],
+      "source_excerpt": "The new one is browser based.\n\nThe mud engine runs in a web worker and takes advantage of some of the modern web tricks to do stuff. For instance, data files (think: area files that don't change often) can be stored remotely and then cached with a service worker. This allows the MUD to run offline.",
+      "evidence": [
+        {
+          "source_item_id": 43822449,
+          "source_field": "body",
+          "value": "The new one is browser based.\n\nThe mud engine runs in a web worker and takes advantage of some of the modern web tricks to do stuff. For instance, data files (think: area files that don't change often) can be stored remotely and then cached with a service worker. This allows the MUD to run offline.",
+          "supports": [],
+          "author": "kageneko",
+          "shared_at": 1745853488,
+          "source_url": "https://news.ycombinator.com/item?id=43822449"
+        }
+      ],
+      "source_item_id": 43822449,
+      "source_url": "https://news.ycombinator.com/item?id=43822449",
+      "author": "kageneko",
+      "shared_at": 1745853488,
+      "links": []
+    }
+  ]
+}

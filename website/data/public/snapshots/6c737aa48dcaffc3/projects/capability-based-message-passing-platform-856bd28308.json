@@ -1,0 +1,33 @@
+{
+  "id": 7478,
+  "slug": "capability-based-message-passing-platform-856bd28308",
+  "name": "Capability-based message-passing platform",
+  "mentions": [
+    {
+      "name": "Capability-based message-passing platform",
+      "description": "A prototype software platform built around capabilities and message passing, targeting Linux and bare-metal RISC-V. It pursues a stackless design running on a flat address space with lightweight processes to minimize message-passing latency, and sandboxing so every process only accesses capabilities explicitly passed via messages. Work centers on a stackless scheduler, with a plan for preempting long-running or misbehaved tasks without per-process stacks or context-switch memory overhead. Planned next steps include layering Cap'n Proto or another high-performance serialization system to create a distributed, introspectable environment of object-capabilities exchanging typed messages — a hybrid of Smalltalk and the Erlang VM for building an entire operating system and user-space.",
+      "problem": "Exploring what a post-UNIX paradigm of computing could look like.",
+      "audience": null,
+      "builder_usernames": [
+        "sph"
+      ],
+      "source_excerpt": "these past few months I've been prototyping a software platform built around capabilities and message passing, targeting Linux and bare-metal RISC-V.",
+      "evidence": [
+        {
+          "source_item_id": 46578427,
+          "source_field": "body",
+          "value": "these past few months I've been prototyping a software platform built around capabilities and message passing, targeting Linux and bare-metal RISC-V.",
+          "supports": [],
+          "author": "sph",
+          "shared_at": 1768157044,
+          "source_url": "https://news.ycombinator.com/item?id=46578427"
+        }
+      ],
+      "source_item_id": 46578427,
+      "source_url": "https://news.ycombinator.com/item?id=46578427",
+      "author": "sph",
+      "shared_at": 1768157044,
+      "links": []
+    }
+  ]
+}

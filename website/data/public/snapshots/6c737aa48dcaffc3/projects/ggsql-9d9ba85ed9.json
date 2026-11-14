@@ -1,0 +1,33 @@
+{
+  "id": 4461,
+  "slug": "ggsql-9d9ba85ed9",
+  "name": "GGSQL",
+  "mentions": [
+    {
+      "name": "GGSQL",
+      "description": "A grammar-of-graphics plotting layer inside SQL, built as the plotting half of Bedevere Wise. Users write declarative VISUALIZE syntax mapping columns to x, y, and color and issuing a DRAW command (e.g. DRAW point) to pop a chart in the editor, with nothing leaving the device.",
+      "problem": null,
+      "audience": "Biostatistics and clinical-data users of Bedevere Wise who want to chart datasets locally",
+      "builder_usernames": [
+        "caerbannogwhite"
+      ],
+      "source_excerpt": "The plotting half is GGSQL. I read Thomas Lin Pedersen / Posit's alpha release a couple of weeks ago (https://news.ycombinator.com/item?id=47833558) and that's when I realised I could add the \"Grammar of Graphics inside SQL\" into Bedevere.",
+      "evidence": [
+        {
+          "source_item_id": 48093815,
+          "source_field": "body",
+          "value": "The plotting half is GGSQL. I read Thomas Lin Pedersen / Posit's alpha release a couple of weeks ago (https://news.ycombinator.com/item?id=47833558) and that's when I realised I could add the \"Grammar of Graphics inside SQL\" into Bedevere.",
+          "supports": [],
+          "author": "caerbannogwhite",
+          "shared_at": 1778500284,
+          "source_url": "https://news.ycombinator.com/item?id=48093815"
+        }
+      ],
+      "source_item_id": 48093815,
+      "source_url": "https://news.ycombinator.com/item?id=48093815",
+      "author": "caerbannogwhite",
+      "shared_at": 1778500284,
+      "links": []
+    }
+  ]
+}

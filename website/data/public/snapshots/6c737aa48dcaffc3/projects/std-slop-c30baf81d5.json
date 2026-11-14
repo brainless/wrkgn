@@ -1,0 +1,35 @@
+{
+  "id": 5968,
+  "slug": "std-slop-c30baf81d5",
+  "name": "std_slop",
+  "mentions": [
+    {
+      "name": "std_slop",
+      "description": "A SQLite-centric coding agent that takes a different approach: all context is managed in SQLite, and a \"mail model\" uses the git email workflow as the agentic plan → code → review loop, with patches guaranteed bisect-safe. Instead of free-form read/write/patch tools, everything runs in a JavaScript control plane via a REPL, and JS functions can be persisted in the database for future use specific to the codebase.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "hsaliak"
+      ],
+      "source_excerpt": "https://github.com/hsaliak/std_slop a sqlite centric coding agent. it does a few things differently.",
+      "evidence": [
+        {
+          "source_item_id": 47304661,
+          "source_field": "body",
+          "value": "https://github.com/hsaliak/std_slop a sqlite centric coding agent. it does a few things differently.",
+          "supports": [],
+          "author": "hsaliak",
+          "shared_at": 1773027879,
+          "source_url": "https://news.ycombinator.com/item?id=47304661"
+        }
+      ],
+      "source_item_id": 47304661,
+      "source_url": "https://news.ycombinator.com/item?id=47304661",
+      "author": "hsaliak",
+      "shared_at": 1773027879,
+      "links": [
+        "https://github.com/hsaliak/std_slop"
+      ]
+    }
+  ]
+}

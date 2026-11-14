@@ -1,0 +1,35 @@
+{
+  "id": 8923,
+  "slug": "flotte-72b5d97c14",
+  "name": "Flotte",
+  "mentions": [
+    {
+      "name": "Flotte",
+      "description": "Flotte is an SSH access management solution for hobbyist and small to medium-sized businesses, aiming to provide fast just-in-time SSH certificate attestation. It focuses on making user on/offboarding fast, efficient login and sudo workflows without password lookups, mitigating private key leaks (especially in BYOD/BYOK environments), and helping admins manage server access quickly.",
+      "problem": "SSH access management is cumbersome: on/offboarding users is slow, passwords must be looked up for logins and sudo, and private keys can leak, especially in BYOD/BYOK environments.",
+      "audience": "Hobbyists and small to medium-sized businesses, with a focus on helping admins manage server access fast",
+      "builder_usernames": [
+        "K0IN"
+      ],
+      "source_excerpt": "Flotte, a ssh access management solution for hobbyist and small to medium-sized businesses.\n\nWe aim to provide a fast JIT ssh cert attestation.\n\nWith focus on:\n* making on/offboard users fast\n* efficient workflows (no need to lookup passwords for logins or sudo)\n* mitigate private key leaks (especially in BYOD/BYOK environments) \n* Help admins manage server access fast",
+      "evidence": [
+        {
+          "source_item_id": 46216285,
+          "source_field": "body",
+          "value": "Flotte, a ssh access management solution for hobbyist and small to medium-sized businesses.\n\nWe aim to provide a fast JIT ssh cert attestation.\n\nWith focus on:\n* making on/offboard users fast\n* efficient workflows (no need to lookup passwords for logins or sudo)\n* mitigate private key leaks (especially in BYOD/BYOK environments) \n* Help admins manage server access fast",
+          "supports": [],
+          "author": "K0IN",
+          "shared_at": 1765363617,
+          "source_url": "https://news.ycombinator.com/item?id=46216285"
+        }
+      ],
+      "source_item_id": 46216285,
+      "source_url": "https://news.ycombinator.com/item?id=46216285",
+      "author": "K0IN",
+      "shared_at": 1765363617,
+      "links": [
+        "https://github.com/flotte-sh"
+      ]
+    }
+  ]
+}

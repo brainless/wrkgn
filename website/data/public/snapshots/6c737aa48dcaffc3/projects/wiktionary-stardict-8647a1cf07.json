@@ -1,0 +1,35 @@
+{
+  "id": 5363,
+  "slug": "wiktionary-stardict-8647a1cf07",
+  "name": "wiktionary_stardict",
+  "mentions": [
+    {
+      "name": "wiktionary_stardict",
+      "description": "This tool converts Wiktionary HTML snapshots into StarDict dictionary files for use with the KOReader e-reader application.",
+      "problem": "No existing tool converted Wiktionary HTML snapshots into StarDict dictionaries for KOReader, so the author built one.",
+      "audience": null,
+      "builder_usernames": [
+        "xxyzz"
+      ],
+      "source_excerpt": "Create StarDict files from Wiktionary HTML snapshots for KOReader: https://xxyzz.github.io/wiktionary_stardict/",
+      "evidence": [
+        {
+          "source_item_id": 47745491,
+          "source_field": "body",
+          "value": "Create StarDict files from Wiktionary HTML snapshots for KOReader: https://xxyzz.github.io/wiktionary_stardict/",
+          "supports": [],
+          "author": "xxyzz",
+          "shared_at": 1776035549,
+          "source_url": "https://news.ycombinator.com/item?id=47745491"
+        }
+      ],
+      "source_item_id": 47745491,
+      "source_url": "https://news.ycombinator.com/item?id=47745491",
+      "author": "xxyzz",
+      "shared_at": 1776035549,
+      "links": [
+        "https://xxyzz.github.io/wiktionary_stardict/"
+      ]
+    }
+  ]
+}

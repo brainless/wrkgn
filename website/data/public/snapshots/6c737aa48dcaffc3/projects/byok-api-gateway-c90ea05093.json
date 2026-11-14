@@ -1,0 +1,33 @@
+{
+  "id": 6549,
+  "slug": "byok-api-gateway-c90ea05093",
+  "name": "BYOK API Gateway",
+  "mentions": [
+    {
+      "name": "BYOK API Gateway",
+      "description": "A BYOK (bring-your-own-key) API gateway that enforces hard spending budgets at the infrastructure layer instead of only issuing alerts. It was created after an unexpected bill from an unattended overnight agent run, has been self-run for about 10 months, and was recently opened up.",
+      "problem": "Unexpectedly large API bills from runaway agent runs, since alert-based controls alone do not stop the spend.",
+      "audience": null,
+      "builder_usernames": [
+        "qzira"
+      ],
+      "source_excerpt": "Built a BYOK API gateway after getting an unexpected bill from an \novernight agent run — hard budget enforcement at the infra layer, \nnot just alerts. Been running it myself for ~10 months, just opened it up.",
+      "evidence": [
+        {
+          "source_item_id": 47410153,
+          "source_field": "body",
+          "value": "Built a BYOK API gateway after getting an unexpected bill from an \novernight agent run — hard budget enforcement at the infra layer, \nnot just alerts. Been running it myself for ~10 months, just opened it up.",
+          "supports": [],
+          "author": "qzira",
+          "shared_at": 1773738058,
+          "source_url": "https://news.ycombinator.com/item?id=47410153"
+        }
+      ],
+      "source_item_id": 47410153,
+      "source_url": "https://news.ycombinator.com/item?id=47410153",
+      "author": "qzira",
+      "shared_at": 1773738058,
+      "links": []
+    }
+  ]
+}

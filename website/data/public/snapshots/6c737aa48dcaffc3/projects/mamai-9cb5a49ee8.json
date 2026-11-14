@@ -1,0 +1,35 @@
+{
+  "id": 5647,
+  "slug": "mamai-9cb5a49ee8",
+  "name": "Mamai",
+  "mentions": [
+    {
+      "name": "Mamai",
+      "description": "An Android app that lets nurse-midwives in Zanzibar get medical advice. It runs the Gemma 4 model entirely on-device and works completely offline. The first beta version has been released.",
+      "problem": null,
+      "audience": "Nurse-midwives in Zanzibar",
+      "builder_usernames": [
+        "nmrenyi"
+      ],
+      "source_excerpt": "I built an Android app for nurse-midwives in Zanzibar to get medical advice. It's running Gemma 4 model on device, completely offline. I just released the first beta version.",
+      "evidence": [
+        {
+          "source_item_id": 47745401,
+          "source_field": "body",
+          "value": "I built an Android app for nurse-midwives in Zanzibar to get medical advice. It's running Gemma 4 model on device, completely offline. I just released the first beta version.",
+          "supports": [],
+          "author": "nmrenyi",
+          "shared_at": 1776034656,
+          "source_url": "https://news.ycombinator.com/item?id=47745401"
+        }
+      ],
+      "source_item_id": 47745401,
+      "source_url": "https://news.ycombinator.com/item?id=47745401",
+      "author": "nmrenyi",
+      "shared_at": 1776034656,
+      "links": [
+        "https://github.com/nmrenyi/mamai"
+      ]
+    }
+  ]
+}

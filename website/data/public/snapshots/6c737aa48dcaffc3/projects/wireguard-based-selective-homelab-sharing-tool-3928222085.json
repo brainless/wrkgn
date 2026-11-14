@@ -1,0 +1,33 @@
+{
+  "id": 5093,
+  "slug": "wireguard-based-selective-homelab-sharing-tool-3928222085",
+  "name": "WireGuard-based selective homelab sharing tool",
+  "mentions": [
+    {
+      "name": "WireGuard-based selective homelab sharing tool",
+      "description": "A WireGuard-based tool for selectively sharing specific homelab services with friends, restricting access so a guest can use one service such as Jellyfin on a single machine without SSH access or visibility of other devices.",
+      "problem": "Tailscale's ACL editor is confusing and poorly documented for setting up very specific per-machine, per-port access rules in personal homelab use.",
+      "audience": "The author's friends, who are granted selective access to specific homelab services.",
+      "builder_usernames": [
+        "dhrm1k"
+      ],
+      "source_excerpt": "i’ve actually been building something pretty similar on top of wireguard too\n\nmy use case is a bit different though. i started because i wanted to give friends access to specific things in my homelab, but very selectively. like “you can use jellyfin on this one machine, but you can’t ssh, and you can’t even see my other devices”",
+      "evidence": [
+        {
+          "source_item_id": 47751487,
+          "source_field": "body",
+          "value": "i’ve actually been building something pretty similar on top of wireguard too\n\nmy use case is a bit different though. i started because i wanted to give friends access to specific things in my homelab, but very selectively. like “you can use jellyfin on this one machine, but you can’t ssh, and you can’t even see my other devices”",
+          "supports": [],
+          "author": "dhrm1k",
+          "shared_at": 1776086030,
+          "source_url": "https://news.ycombinator.com/item?id=47751487"
+        }
+      ],
+      "source_item_id": 47751487,
+      "source_url": "https://news.ycombinator.com/item?id=47751487",
+      "author": "dhrm1k",
+      "shared_at": 1776086030,
+      "links": []
+    }
+  ]
+}

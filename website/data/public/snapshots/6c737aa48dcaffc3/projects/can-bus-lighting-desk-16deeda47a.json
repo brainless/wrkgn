@@ -1,0 +1,33 @@
+{
+  "id": 7137,
+  "slug": "can-bus-lighting-desk-16deeda47a",
+  "name": "CAN-bus lighting desk",
+  "mentions": [
+    {
+      "name": "CAN-bus lighting desk",
+      "description": "A theatrical lighting desk built from many modules, re-implemented with CAN-bus communications between modules after the original bus proved flaky. Recent work includes cutting boot time from nearly two minutes to under 10 seconds using a buildroot-built custom kernel, so reboots during a show don't leave the lights out for long.",
+      "problem": "The original communications bus between the many modules was flaky, making the desk unpleasant to use, and boot time was nearly two minutes, leaving the lights out too long if rebooting during a show.",
+      "audience": null,
+      "builder_usernames": [
+        "niccl"
+      ],
+      "source_excerpt": "back working on my lighting desk, after a couple of years of hating it because the communications bus between the many different modules was flakey and so the whole thing wasn't fun to use. I bit the bullet last year and re-implemented everything with CAN-bus communications and it's actually fun to use now.\n\nCurrent work has been improving boot time. Was nearly two minutes because of one board, and that's a long time for the lights to be out if you have to reboot during a show.",
+      "evidence": [
+        {
+          "source_item_id": 46950648,
+          "source_field": "body",
+          "value": "back working on my lighting desk, after a couple of years of hating it because the communications bus between the many different modules was flakey and so the whole thing wasn't fun to use. I bit the bullet last year and re-implemented everything with CAN-bus communications and it's actually fun to use now.\n\nCurrent work has been improving boot time. Was nearly two minutes because of one board, and that's a long time for the lights to be out if you have to reboot during a show.",
+          "supports": [],
+          "author": "niccl",
+          "shared_at": 1770668538,
+          "source_url": "https://news.ycombinator.com/item?id=46950648"
+        }
+      ],
+      "source_item_id": 46950648,
+      "source_url": "https://news.ycombinator.com/item?id=46950648",
+      "author": "niccl",
+      "shared_at": 1770668538,
+      "links": []
+    }
+  ]
+}

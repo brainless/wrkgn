@@ -1,0 +1,33 @@
+{
+  "id": 6223,
+  "slug": "cross-toolkit-gui-widgets-project-13348098ba",
+  "name": "Cross-Toolkit GUI Widgets Project",
+  "mentions": [
+    {
+      "name": "Cross-Toolkit GUI Widgets Project",
+      "description": "This project provides an abstraction layer over GUI toolkits, representing widgets as abstract objects (e.g. buttons with click handlers) so the same widget definitions can be used across many GUI toolkits and languages, including Ruby (with JRuby/Swing), Python, Java, and JavaScript/web. Widget usage and customization, including method invocations, can be described via a YAML file, making it easier to tweak individual widgets without sifting through code; the author mainly applies this to smaller single-purpose widget components such as a GUI over wget. Long-term goals include a simple DSL that lets anyone easily customize everything and a widget set broad enough to build things like a webmin-style GUI for a whole operating system plus games such as solitaire and reversi.",
+      "problem": "GUI code is typically tied to a specific toolkit or language, and customizing individual widgets normally requires sifting through source code; this project addresses that with abstract, reusable widget objects and YAML-based description of widget usage and customization.",
+      "audience": null,
+      "builder_usernames": [
+        "shevy-java"
+      ],
+      "source_excerpt": "I improved the widgets-project I maintain. This one is\nto be used to support as many different GUI toolkits\nas possible (including use cases for javascript + the\nweb).",
+      "evidence": [
+        {
+          "source_item_id": 47305315,
+          "source_field": "body",
+          "value": "I improved the widgets-project I maintain. This one is\nto be used to support as many different GUI toolkits\nas possible (including use cases for javascript + the\nweb).",
+          "supports": [],
+          "author": "shevy-java",
+          "shared_at": 1773035710,
+          "source_url": "https://news.ycombinator.com/item?id=47305315"
+        }
+      ],
+      "source_item_id": 47305315,
+      "source_url": "https://news.ycombinator.com/item?id=47305315",
+      "author": "shevy-java",
+      "shared_at": 1773035710,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": 5412,
+  "slug": "workglow-9b64e461a2",
+  "name": "Workglow",
+  "mentions": [
+    {
+      "name": "Workglow",
+      "description": "Workglow is a workflow development library written from scratch in which each task has either static or dynamic input, output, and config JSON schemas, making it easier to create a UI for workflows. It ships with a basic web UI at workglow.dev where workflows can be run, with AI models executing in the browser, and a desktop app waitlist for running GGUF models.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "sroussey"
+      ],
+      "source_excerpt": "Like an idiot, I wrote a workflow dev library from scratch. (https://github.com/workglow-dev/workglow). Each task has either static or dynamic input, output, and config json schemas. Which makes creating a UI for it a little easier.",
+      "evidence": [
+        {
+          "source_item_id": 47746478,
+          "source_field": "body",
+          "value": "Like an idiot, I wrote a workflow dev library from scratch. (https://github.com/workglow-dev/workglow). Each task has either static or dynamic input, output, and config json schemas. Which makes creating a UI for it a little easier.",
+          "supports": [],
+          "author": "sroussey",
+          "shared_at": 1776043653,
+          "source_url": "https://news.ycombinator.com/item?id=47746478"
+        }
+      ],
+      "source_item_id": 47746478,
+      "source_url": "https://news.ycombinator.com/item?id=47746478",
+      "author": "sroussey",
+      "shared_at": 1776043653,
+      "links": [
+        "https://github.com/workglow-dev/workglow",
+        "https://workglow.dev/"
+      ]
+    },
+    {
+      "name": "WorkGlow",
+      "description": "A workflow library and node-based editor with AI features for RAG and image pipelines that runs entirely in the browser, with desktop support planned next month and cloud hosting available on request.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "sroussey"
+      ],
+      "source_excerpt": "Working on a workflow library and node based editor that has a little bit of AI stuff for RAG and image pipelines that runs all in the browser (desktop next month, cloud whenever someone asks). Just a toy at this point.",
+      "evidence": [
+        {
+          "source_item_id": 46941478,
+          "source_field": "body",
+          "value": "Working on a workflow library and node based editor that has a little bit of AI stuff for RAG and image pipelines that runs all in the browser (desktop next month, cloud whenever someone asks). Just a toy at this point.",
+          "supports": [],
+          "author": "sroussey",
+          "shared_at": 1770610165,
+          "source_url": "https://news.ycombinator.com/item?id=46941478"
+        }
+      ],
+      "source_item_id": 46941478,
+      "source_url": "https://news.ycombinator.com/item?id=46941478",
+      "author": "sroussey",
+      "shared_at": 1770610165,
+      "links": [
+        "https://workglow.dev/"
+      ]
+    },
+    {
+      "name": "Workglow",
+      "description": "A workflow graph automation site with drag-and-drop node connections that runs entirely locally, using local models via transformers.js and TensorFlow MediaPipe so it costs nothing to operate. Currently handles mostly text workflows, with image processing in progress and possibly audio and video later. It is described as a toy limited to a single local user.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "sroussey"
+      ],
+      "source_excerpt": "https://workglow.dev\n\nIt is a workflow graph automation site (drag and drop and connect nodes), but is a toy and only allows a local user and local models (both transformers.js and tensor-flow mediapipe), so costs me nothing. Mostly text stuff at the moment, but working on a slate of image stuff this week, may get to audio and video as well, we shall see.",
+      "evidence": [
+        {
+          "source_item_id": 46281715,
+          "source_field": "body",
+          "value": "https://workglow.dev\n\nIt is a workflow graph automation site (drag and drop and connect nodes), but is a toy and only allows a local user and local models (both transformers.js and tensor-flow mediapipe), so costs me nothing. Mostly text stuff at the moment, but working on a slate of image stuff this week, may get to audio and video as well, we shall see.",
+          "supports": [],
+          "author": "sroussey",
+          "shared_at": 1765837799,
+          "source_url": "https://news.ycombinator.com/item?id=46281715"
+        }
+      ],
+      "source_item_id": 46281715,
+      "source_url": "https://news.ycombinator.com/item?id=46281715",
+      "author": "sroussey",
+      "shared_at": 1765837799,
+      "links": [
+        "https://workglow.dev"
+      ]
+    }
+  ]
+}

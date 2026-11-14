@@ -1,0 +1,33 @@
+{
+  "id": 9261,
+  "slug": "cdn-hosted-read-only-sqlite-replica-for-a-django-site-9e0bb0ebd3",
+  "name": "CDN-hosted read-only SQLite replica for a Django site",
+  "mentions": [
+    {
+      "name": "CDN-hosted read-only SQLite replica for a Django site",
+      "description": "This project prototypes making a read-only replica of a Django PostgreSQL site's 1 MB database in SQLite and hosting it on a CDN, so read-only replicas can pull it and the site runs more reliably. The database export takes only seconds, unlike the earlier static HTML rendering approach that took hours to reproduce the site.",
+      "problem": "The author's Django PostgreSQL site needed to be more reliable; static HTML renderings took several hours to reproduce the site.",
+      "audience": null,
+      "builder_usernames": [
+        "kukkeliskuu"
+      ],
+      "source_excerpt": "I need to make a Django postgres site that I am running more reliable. Earlier I was experimenting with making static HTML renderings of the pages. That is certainly nice, but it took several hours to reproduce the site. I am currently prototyping making read-only replica of the database in SQLite (the database is only 1 MB) and hosting it on CDN, and then pulling that for the read-only replicas. The database export takes only some seconds.",
+      "evidence": [
+        {
+          "source_item_id": 45876657,
+          "source_field": "body",
+          "value": "I need to make a Django postgres site that I am running more reliable. Earlier I was experimenting with making static HTML renderings of the pages. That is certainly nice, but it took several hours to reproduce the site. I am currently prototyping making read-only replica of the database in SQLite (the database is only 1 MB) and hosting it on CDN, and then pulling that for the read-only replicas. The database export takes only some seconds.",
+          "supports": [],
+          "author": "kukkeliskuu",
+          "shared_at": 1762787104,
+          "source_url": "https://news.ycombinator.com/item?id=45876657"
+        }
+      ],
+      "source_item_id": 45876657,
+      "source_url": "https://news.ycombinator.com/item?id=45876657",
+      "author": "kukkeliskuu",
+      "shared_at": 1762787104,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": 11167,
+  "slug": "autotude-551d443ec0",
+  "name": "autotude",
+  "mentions": [
+    {
+      "name": "autotude",
+      "description": "A reinforcement learning project that builds bots for the multiplayer game Planeball. The game's Java client/server (from 2010) was patched to be controllable through protobuf messages, enabling recording of games between humans, a replay viewer that displays the whole map, defining bots in Python/PyTorch and running them in fast offline training mode, and running Python-defined bots online against human players. The goal is to produce an easy-to-use reinforcement learning environment that other people can play with.",
+      "problem": "The game (a Java app written in 2010) had to be adapted to work as a reinforcement learning environment, and it previously had no recording feature.",
+      "audience": "Other people who want to play with the reinforcement learning environment; the replay viewer is aimed at existing players of the game.",
+      "builder_usernames": [
+        "cgadski"
+      ],
+      "source_excerpt": "I've been working on using reinforcement learning to build some better bots for my favorite multiplayer game. Project is up here: https://github.com/cgadski/autotude",
+      "evidence": [
+        {
+          "source_item_id": 43820940,
+          "source_field": "body",
+          "value": "I've been working on using reinforcement learning to build some better bots for my favorite multiplayer game. Project is up here: https://github.com/cgadski/autotude",
+          "supports": [],
+          "author": "cgadski",
+          "shared_at": 1745844549,
+          "source_url": "https://news.ycombinator.com/item?id=43820940"
+        }
+      ],
+      "source_item_id": 43820940,
+      "source_url": "https://news.ycombinator.com/item?id=43820940",
+      "author": "cgadski",
+      "shared_at": 1745844549,
+      "links": [
+        "http://altistats.com/viewer/?f=4b020f28-af0b-4aa0-96be-a73f01c1142f.pb&t=1008",
+        "https://github.com/cgadski/autotude",
+        "https://planeball.com"
+      ]
+    }
+  ]
+}

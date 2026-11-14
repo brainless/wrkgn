@@ -1,0 +1,33 @@
+{
+  "id": 6022,
+  "slug": "decentralized-drone-as-a-service-daas-orchestration-layer-1110043ad5",
+  "name": "Decentralized Drone-as-a-Service (DaaS) orchestration layer",
+  "mentions": [
+    {
+      "name": "Decentralized Drone-as-a-Service (DaaS) orchestration layer",
+      "description": "This service treats aerial robotics as a simple API endpoint: users submit a JSON payload with geocoordinates and mission requirements (e.g., 4K video capture or infrared photos), and the backend handles fleet logistics, selecting the optimal VTOL units from distributed sub-stations based on battery state-of-charge and proximity.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "raooll"
+      ],
+      "source_excerpt": "I’m building a decentralized Drone-as-a-Service (DaaS) orchestration layer that treats aerial robotics as a simple API endpoint.\n\nThe system allows users to submit a JSON payload containing geocoordinates and mission requirements (e.g., capture_type: \"4K_video\" | \"IR_photo\"), the backend then handles the fleet logistics, selecting the optimal VTOL units from distributed sub-stations based on battery state-of-charge and proximity.",
+      "evidence": [
+        {
+          "source_item_id": 47305126,
+          "source_field": "body",
+          "value": "I’m building a decentralized Drone-as-a-Service (DaaS) orchestration layer that treats aerial robotics as a simple API endpoint.\n\nThe system allows users to submit a JSON payload containing geocoordinates and mission requirements (e.g., capture_type: \"4K_video\" | \"IR_photo\"), the backend then handles the fleet logistics, selecting the optimal VTOL units from distributed sub-stations based on battery state-of-charge and proximity.",
+          "supports": [],
+          "author": "raooll",
+          "shared_at": 1773033301,
+          "source_url": "https://news.ycombinator.com/item?id=47305126"
+        }
+      ],
+      "source_item_id": 47305126,
+      "source_url": "https://news.ycombinator.com/item?id=47305126",
+      "author": "raooll",
+      "shared_at": 1773033301,
+      "links": []
+    }
+  ]
+}

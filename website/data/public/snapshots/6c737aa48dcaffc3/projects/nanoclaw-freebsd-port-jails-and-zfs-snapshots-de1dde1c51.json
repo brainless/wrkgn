@@ -1,0 +1,33 @@
+{
+  "id": 6504,
+  "slug": "nanoclaw-freebsd-port-jails-and-zfs-snapshots-de1dde1c51",
+  "name": "NanoClaw FreeBSD port (jails and ZFS snapshots)",
+  "mentions": [
+    {
+      "name": "NanoClaw FreeBSD port (jails and ZFS snapshots)",
+      "description": "This project ports NanoClaw to run on FreeBSD using jails and ZFS snapshots instead of Docker containers. It is early-stage work motivated by the author's preference for the BSDs for personal use, since Docker images keep them tied to Linux otherwise.",
+      "problem": "Docker and Linux are a constraint ('I use linux because I have to - docker/docker images is what we are stuck with'), prompting a BSD-native approach using jails and ZFS snapshots.",
+      "audience": "Reliance on Linux and Docker images, which the author would rather avoid for personal computing, motivates a BSD-native alternative.",
+      "builder_usernames": [
+        "jmspring"
+      ],
+      "source_excerpt": "looking at porting NanoClaw to use FreeBSD jails and ZFS snapshots. Why? I use linux because I have to - docker/docker images is what we are stuck with. For personal stuff - I prefer the BSDs.",
+      "evidence": [
+        {
+          "source_item_id": 47304437,
+          "source_field": "body",
+          "value": "looking at porting NanoClaw to use FreeBSD jails and ZFS snapshots. Why? I use linux because I have to - docker/docker images is what we are stuck with. For personal stuff - I prefer the BSDs.",
+          "supports": [],
+          "author": "jmspring",
+          "shared_at": 1773025596,
+          "source_url": "https://news.ycombinator.com/item?id=47304437"
+        }
+      ],
+      "source_item_id": 47304437,
+      "source_url": "https://news.ycombinator.com/item?id=47304437",
+      "author": "jmspring",
+      "shared_at": 1773025596,
+      "links": []
+    }
+  ]
+}

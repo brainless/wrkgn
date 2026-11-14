@@ -1,0 +1,35 @@
+{
+  "id": 6185,
+  "slug": "brewdio-0d4d4337c1",
+  "name": "Brewdio",
+  "mentions": [
+    {
+      "name": "Brewdio",
+      "description": "Open source homebrewing (beer) software built on core Rust libraries with a web app and a terminal UI, plus an Android app in development. It is designed to be offline-first using a CRDT persistence layer with an optional sync server, and is adding \"bring your own AI\" assistant integration to help tweak recipes and make suggestions.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "alexsparrow"
+      ],
+      "source_excerpt": "I'm building open source homebrewing (as in beer) software at https://www.brewdio.beer.",
+      "evidence": [
+        {
+          "source_item_id": 47304285,
+          "source_field": "body",
+          "value": "I'm building open source homebrewing (as in beer) software at https://www.brewdio.beer.",
+          "supports": [],
+          "author": "alexsparrow",
+          "shared_at": 1773024155,
+          "source_url": "https://news.ycombinator.com/item?id=47304285"
+        }
+      ],
+      "source_item_id": 47304285,
+      "source_url": "https://news.ycombinator.com/item?id=47304285",
+      "author": "alexsparrow",
+      "shared_at": 1773024155,
+      "links": [
+        "https://www.brewdio.beer"
+      ]
+    }
+  ]
+}

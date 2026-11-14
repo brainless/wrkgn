@@ -1,0 +1,36 @@
+{
+  "id": 9149,
+  "slug": "kronicler-276fabb65c",
+  "name": "Kronicler",
+  "mentions": [
+    {
+      "name": "Kronicler",
+      "description": "A Python performance capture library that records real-time performance metrics from backend systems. Functions are instrumented with an @kronicler.capture decorator (plus FastAPI middleware), and metrics are stored in a custom columnar database written in Rust. Logs can be exposed via a /logs server route returning DB.logs(), and metrics can be viewed with charts in the usekronicler.com online dashboard. Work on concurrency and other improvements is ongoing.",
+      "problem": "I/O operations get costly when writing lots of performance data to disk, and building good real-time analytics tools takes a lot of time.",
+      "audience": "Python backend developers who need visibility into the performance of the backend systems they maintain.",
+      "builder_usernames": [
+        "roggenbuck"
+      ],
+      "source_excerpt": "This is why I wrote kronicler to record performance metrics while being fast and simple to implement. I built my own columnar database in Rust to capture and analyze these logs.",
+      "evidence": [
+        {
+          "source_item_id": 45870113,
+          "source_field": "body",
+          "value": "This is why I wrote kronicler to record performance metrics while being fast and simple to implement. I built my own columnar database in Rust to capture and analyze these logs.",
+          "supports": [],
+          "author": "roggenbuck",
+          "shared_at": 1762729244,
+          "source_url": "https://news.ycombinator.com/item?id=45870113"
+        }
+      ],
+      "source_item_id": 45870113,
+      "source_url": "https://news.ycombinator.com/item?id=45870113",
+      "author": "roggenbuck",
+      "shared_at": 1762729244,
+      "links": [
+        "https://github.com/jakeroggenbuck/kronicler",
+        "https://usekronicler.com"
+      ]
+    }
+  ]
+}

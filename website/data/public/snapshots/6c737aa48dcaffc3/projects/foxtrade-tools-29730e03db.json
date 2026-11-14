@@ -1,0 +1,35 @@
+{
+  "id": 4656,
+  "slug": "foxtrade-tools-29730e03db",
+  "name": "FoxTrade Tools",
+  "mentions": [
+    {
+      "name": "FoxTrade Tools",
+      "description": "This tool speeds up iteration on backtesting algo trading strategies. It includes a visual strategy builder, lets users backtest on the site or as an MT5 EA from the same JSON configuration, and automatically feeds trades from EA runs in live or paper mode back to the site for analysis. Clicking any trade in a backtest result shows exactly which strategy rules were true at the bar that fired the trade.",
+      "problem": "Iterating on backtests of algo trading strategies is slow.",
+      "audience": null,
+      "builder_usernames": [
+        "bad2j"
+      ],
+      "source_excerpt": "Working on a tool to speed up iterations of backtesting Algo trading strategies (https://foxtradetools.com/):\n\n- Visual tool for building strategies",
+      "evidence": [
+        {
+          "source_item_id": 48099577,
+          "source_field": "body",
+          "value": "Working on a tool to speed up iterations of backtesting Algo trading strategies (https://foxtradetools.com/):\n\n- Visual tool for building strategies",
+          "supports": [],
+          "author": "bad2j",
+          "shared_at": 1778527822,
+          "source_url": "https://news.ycombinator.com/item?id=48099577"
+        }
+      ],
+      "source_item_id": 48099577,
+      "source_url": "https://news.ycombinator.com/item?id=48099577",
+      "author": "bad2j",
+      "shared_at": 1778527822,
+      "links": [
+        "https://foxtradetools.com/"
+      ]
+    }
+  ]
+}

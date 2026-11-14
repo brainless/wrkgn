@@ -1,0 +1,35 @@
+{
+  "id": 4911,
+  "slug": "contextflo-633e2d3fa0",
+  "name": "contextflo",
+  "mentions": [
+    {
+      "name": "contextflo",
+      "description": "This tool makes company data accessible via Claude, ChatGPT, and Cursor so anyone can run ad hoc queries without setting up a complex BI product. It supports Postgres, Snowflake, ClickHouse, BigQuery, and Amplitude, with emerging use cases for querying across different data sources (e.g., Postgres + GA4) via chat.",
+      "problem": "Companies with small (one-person) data teams lack an easy way to make their data accessible to everyone without deploying a complex BI product.",
+      "audience": "Companies with one-person data teams and anyone who wants to run ad hoc queries on company data without setting up a complex BI product.",
+      "builder_usernames": [
+        "depthfirst"
+      ],
+      "source_excerpt": "working on contextflo https://contextflo.com - building for companies with 1 person data teams who just want their data to be accessible via claude/chatgpt/cursor to everyone, no need to setup a complex BI product when you just want to run adhoc queries on your data. supports postgres, snowflake, clickhouse, bigquery, amplitude.",
+      "evidence": [
+        {
+          "source_item_id": 48091800,
+          "source_field": "body",
+          "value": "working on contextflo https://contextflo.com - building for companies with 1 person data teams who just want their data to be accessible via claude/chatgpt/cursor to everyone, no need to setup a complex BI product when you just want to run adhoc queries on your data. supports postgres, snowflake, clickhouse, bigquery, amplitude.",
+          "supports": [],
+          "author": "depthfirst",
+          "shared_at": 1778482299,
+          "source_url": "https://news.ycombinator.com/item?id=48091800"
+        }
+      ],
+      "source_item_id": 48091800,
+      "source_url": "https://news.ycombinator.com/item?id=48091800",
+      "author": "depthfirst",
+      "shared_at": 1778482299,
+      "links": [
+        "https://contextflo.com"
+      ]
+    }
+  ]
+}

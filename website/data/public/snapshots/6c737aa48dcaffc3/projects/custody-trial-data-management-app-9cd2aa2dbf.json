@@ -1,0 +1,33 @@
+{
+  "id": 10913,
+  "slug": "custody-trial-data-management-app-9cd2aa2dbf",
+  "name": "Custody trial data management app",
+  "mentions": [
+    {
+      "name": "Custody trial data management app",
+      "description": "A Django app that organizes all data related to a custody trial. Emails, SMS messages, notes, official records, and voice memos can be attached to a timeline, tagged, and searched, and a command-line interface allows quickly adding notes and attaching files in addition to the UI.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "kukkeliskuu"
+      ],
+      "source_excerpt": "(3) Django app to handle all the data related to custody trial. Emails, SMS, notes, official records, voice memos, etc. can be attached to a timeline, and tagge and searchable. It has command line interface for adding data, in addition to UI, so I can quickly add notes and attach files.",
+      "evidence": [
+        {
+          "source_item_id": 43819449,
+          "source_field": "body",
+          "value": "(3) Django app to handle all the data related to custody trial. Emails, SMS, notes, official records, voice memos, etc. can be attached to a timeline, and tagge and searchable. It has command line interface for adding data, in addition to UI, so I can quickly add notes and attach files.",
+          "supports": [],
+          "author": "kukkeliskuu",
+          "shared_at": 1745834249,
+          "source_url": "https://news.ycombinator.com/item?id=43819449"
+        }
+      ],
+      "source_item_id": 43819449,
+      "source_url": "https://news.ycombinator.com/item?id=43819449",
+      "author": "kukkeliskuu",
+      "shared_at": 1745834249,
+      "links": []
+    }
+  ]
+}

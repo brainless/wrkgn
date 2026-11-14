@@ -1,0 +1,33 @@
+{
+  "id": 11057,
+  "slug": "programmable-software-synthesizer-ecb6ad57d5",
+  "name": "Programmable software synthesizer",
+  "mentions": [
+    {
+      "name": "Programmable software synthesizer",
+      "description": "A from-scratch software synthesizer implementing a basic subtractive synth with primitive oscillators, random noise, high and low pass filters, and an ADSR envelope. It includes input and output drivers for Windows and Linux (WASAPI, ALSA, Windows Raw Input, evdev), and upcoming Lua bindings will let the core engine be configured programmatically—hooking up inputs, modifying synth parameters, and routing output—with the goal of using it to make an album.",
+      "problem": null,
+      "audience": "The author, for composing an album",
+      "builder_usernames": [
+        "acureau"
+      ],
+      "source_excerpt": "I've been writing a software synthesizer, I want to use it to make an album when it's finished. As of now I've implemented a basic subtractive synth with the usual primitive oscillators, random noise, high and low pass filters, and an ADSR envelope.",
+      "evidence": [
+        {
+          "source_item_id": 43821593,
+          "source_field": "body",
+          "value": "I've been writing a software synthesizer, I want to use it to make an album when it's finished. As of now I've implemented a basic subtractive synth with the usual primitive oscillators, random noise, high and low pass filters, and an ADSR envelope.",
+          "supports": [],
+          "author": "acureau",
+          "shared_at": 1745848737,
+          "source_url": "https://news.ycombinator.com/item?id=43821593"
+        }
+      ],
+      "source_item_id": 43821593,
+      "source_url": "https://news.ycombinator.com/item?id=43821593",
+      "author": "acureau",
+      "shared_at": 1745848737,
+      "links": []
+    }
+  ]
+}

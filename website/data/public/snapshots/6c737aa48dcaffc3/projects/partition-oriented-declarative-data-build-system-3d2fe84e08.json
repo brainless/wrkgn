@@ -1,0 +1,33 @@
+{
+  "id": 9863,
+  "slug": "partition-oriented-declarative-data-build-system-3d2fe84e08",
+  "name": "Partition-oriented declarative data build system",
+  "mentions": [
+    {
+      "name": "Partition-oriented declarative data build system",
+      "description": "This is a partition-oriented declarative data build system for data orchestration. Jobs declare their input and output partition dependencies, which are then automatically fulfilled, enabling Kubernetes-like continuous reconciliation of desired partitions. Instead of triggering pipelines and hoping upstream jobs still work, users continuously declare which output data partitions should exist and the system automatically builds the dependencies for them, replacing the complex DAGs built in tools like Airflow.",
+      "problem": "Writing orchestration code for data jobs with complex partition dependency relationships is painful; existing orchestrators like Airflow, Prefect, and Dagster solve the wrong problem and don't internalize the right complexity.",
+      "audience": null,
+      "builder_usernames": [
+        "stuartaxelowen"
+      ],
+      "source_excerpt": "I'm working on a partition-oriented declarative data build system. The inspiration comes from working with systems like Airflow and AWS step functions, where data orchestration is described explicitly, and the dependency relationships between input and produced data partitions is complex.",
+      "evidence": [
+        {
+          "source_item_id": 45419334,
+          "source_field": "body",
+          "value": "I'm working on a partition-oriented declarative data build system. The inspiration comes from working with systems like Airflow and AWS step functions, where data orchestration is described explicitly, and the dependency relationships between input and produced data partitions is complex.",
+          "supports": [],
+          "author": "stuartaxelowen",
+          "shared_at": 1759183383,
+          "source_url": "https://news.ycombinator.com/item?id=45419334"
+        }
+      ],
+      "source_item_id": 45419334,
+      "source_url": "https://news.ycombinator.com/item?id=45419334",
+      "author": "stuartaxelowen",
+      "shared_at": 1759183383,
+      "links": []
+    }
+  ]
+}

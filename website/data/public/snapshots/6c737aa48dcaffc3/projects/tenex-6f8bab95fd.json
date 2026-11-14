@@ -1,0 +1,63 @@
+{
+  "id": 6130,
+  "slug": "tenex-6f8bab95fd",
+  "name": "Tenex",
+  "mentions": [
+    {
+      "name": "Tenex",
+      "description": "Tenex is a TUI-based agent orchestrator for managing large fleets of AI coding agents. It tackles the 'review' bottleneck of working with 20+ agents at once, supports multi-project agent worktrees, and is adding Mac and Windows support (WSL for now, native later). Planned features include a mobile version and a meta-agent that can control Tenex over an API via tool calls to spawn and review agent fleets.",
+      "problem": "Solving the 'review' bottleneck people experience when running many AI coding agents, and the difficulty of managing 20+ agents at once.",
+      "audience": null,
+      "builder_usernames": [
+        "Mockapapella"
+      ],
+      "source_excerpt": "I'm working on a TUI-based agent orchestrator called Tenex: https://github.com/Mockapapella/tenex",
+      "evidence": [
+        {
+          "source_item_id": 47304057,
+          "source_field": "body",
+          "value": "I'm working on a TUI-based agent orchestrator called Tenex: https://github.com/Mockapapella/tenex",
+          "supports": [],
+          "author": "Mockapapella",
+          "shared_at": 1773022125,
+          "source_url": "https://news.ycombinator.com/item?id=47304057"
+        }
+      ],
+      "source_item_id": 47304057,
+      "source_url": "https://news.ycombinator.com/item?id=47304057",
+      "author": "Mockapapella",
+      "shared_at": 1773022125,
+      "links": [
+        "https://github.com/Mockapapella/tenex"
+      ]
+    },
+    {
+      "name": "Tenex",
+      "description": "A TUI for managing swarms of AI agents. It lets the user run ten review agents in parallel on code changes and aggregates their findings into a single agent that assesses and addresses them, with additional features added over time and first production use underway.",
+      "problem": "Single-pass AI agent code reviews proved unreliable — the first review would catch nothing while a second would — which reduced confidence in agent capabilities when reviewing increasingly ambitious PRs.",
+      "audience": "The comment frames use around reviewing pull requests with AI agents, i.e. developers working on software.",
+      "builder_usernames": [
+        "Mockapapella"
+      ],
+      "source_excerpt": "Tenex, a TUI for managing swarms of AI agents.",
+      "evidence": [
+        {
+          "source_item_id": 46271120,
+          "source_field": "body",
+          "value": "Tenex, a TUI for managing swarms of AI agents.",
+          "supports": [],
+          "author": "Mockapapella",
+          "shared_at": 1765780370,
+          "source_url": "https://news.ycombinator.com/item?id=46271120"
+        }
+      ],
+      "source_item_id": 46271120,
+      "source_url": "https://news.ycombinator.com/item?id=46271120",
+      "author": "Mockapapella",
+      "shared_at": 1765780370,
+      "links": [
+        "https://github.com/Mockapapella/tenex"
+      ]
+    }
+  ]
+}

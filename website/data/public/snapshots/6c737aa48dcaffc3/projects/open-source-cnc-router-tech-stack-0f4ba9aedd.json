@@ -1,0 +1,33 @@
+{
+  "id": 6675,
+  "slug": "open-source-cnc-router-tech-stack-0f4ba9aedd",
+  "name": "Open-source CNC router tech stack",
+  "mentions": [
+    {
+      "name": "Open-source CNC router tech stack",
+      "description": "This project operates a CNC router (a robotic drill that carves 3D shapes into wood) entirely through an open-source tech stack: Inkscape for 2D vector design, FreeCAD for 3D CAD/CAM, Kiri-moto to convert 2D/SVG designs into 3D shapes, and Universal G-Code Sender to import CAM designs and drive the machine via G-code. OBS and a set of webcams live-stream tool usage to PeerTube Live.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dv35z"
+      ],
+      "source_excerpt": "I have a CNC router (robotic drill which can carve 3D shapes into wood). Last year I challenged myself to operate it completely through an open-source tech stack.",
+      "evidence": [
+        {
+          "source_item_id": 47305231,
+          "source_field": "body",
+          "value": "I have a CNC router (robotic drill which can carve 3D shapes into wood). Last year I challenged myself to operate it completely through an open-source tech stack.",
+          "supports": [],
+          "author": "dv35z",
+          "shared_at": 1773034546,
+          "source_url": "https://news.ycombinator.com/item?id=47305231"
+        }
+      ],
+      "source_item_id": 47305231,
+      "source_url": "https://news.ycombinator.com/item?id=47305231",
+      "author": "dv35z",
+      "shared_at": 1773034546,
+      "links": []
+    }
+  ]
+}

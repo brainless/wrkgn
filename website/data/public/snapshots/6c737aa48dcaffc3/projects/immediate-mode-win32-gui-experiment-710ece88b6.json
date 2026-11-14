@@ -1,0 +1,33 @@
+{
+  "id": 5875,
+  "slug": "immediate-mode-win32-gui-experiment-710ece88b6",
+  "name": "Immediate Mode Win32 GUI Experiment",
+  "mentions": [
+    {
+      "name": "Immediate Mode Win32 GUI Experiment",
+      "description": "An immediate mode GUI Win32 app built on top of Windows.UI.Composition visuals, which may grow into a reusable GUI library. A hobby project/experiment motivated by frustration with a problem in Microsoft's UI XAML (linked issue).",
+      "problem": "Frustration with a problem in Microsoft's UI XAML, tracked in the linked microsoft-ui-xaml GitHub issue.",
+      "audience": null,
+      "builder_usernames": [
+        "PKop"
+      ],
+      "source_excerpt": "I'm building an immediate mode GUI Win32 app on top of Windows.UI.Composition visuals, maybe building up a library with it along the way. Just a hobby project / experiment. I hate this problem [0] so I went down a rabbit hole trying to solve it.",
+      "evidence": [
+        {
+          "source_item_id": 47745818,
+          "source_field": "body",
+          "value": "I'm building an immediate mode GUI Win32 app on top of Windows.UI.Composition visuals, maybe building up a library with it along the way. Just a hobby project / experiment. I hate this problem [0] so I went down a rabbit hole trying to solve it.",
+          "supports": [],
+          "author": "PKop",
+          "shared_at": 1776037951,
+          "source_url": "https://news.ycombinator.com/item?id=47745818"
+        }
+      ],
+      "source_item_id": 47745818,
+      "source_url": "https://news.ycombinator.com/item?id=47745818",
+      "author": "PKop",
+      "shared_at": 1776037951,
+      "links": []
+    }
+  ]
+}

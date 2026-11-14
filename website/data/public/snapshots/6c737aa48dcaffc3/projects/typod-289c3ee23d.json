@@ -1,0 +1,35 @@
+{
+  "id": 6916,
+  "slug": "typod-289c3ee23d",
+  "name": "Typod",
+  "mentions": [
+    {
+      "name": "Typod",
+      "description": "This static site podcast player focuses on fast loading and minimal interaction with its repository: it processes images (converting to webp) and loads the podcast feed list from a Gist. It was rebuilt from the ground up using Opus 4.6 and a frontend-design skill, going from brief to ready-to-use in about a couple of hours.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "pglevy"
+      ],
+      "source_excerpt": "Just tried out Opus 4.6 to make a ground-up new version of a perennial side project: static site podcast player.\n\nFor this one I focused on loading speed and reducing interaction with repo. So it processes the images (converting to webp) and loads the feed list from a Gist.",
+      "evidence": [
+        {
+          "source_item_id": 46944620,
+          "source_field": "body",
+          "value": "Just tried out Opus 4.6 to make a ground-up new version of a perennial side project: static site podcast player.\n\nFor this one I focused on loading speed and reducing interaction with repo. So it processes the images (converting to webp) and loads the feed list from a Gist.",
+          "supports": [],
+          "author": "pglevy",
+          "shared_at": 1770641049,
+          "source_url": "https://news.ycombinator.com/item?id=46944620"
+        }
+      ],
+      "source_item_id": 46944620,
+      "source_url": "https://news.ycombinator.com/item?id=46944620",
+      "author": "pglevy",
+      "shared_at": 1770641049,
+      "links": [
+        "https://github.com/pglevy/typod"
+      ]
+    }
+  ]
+}

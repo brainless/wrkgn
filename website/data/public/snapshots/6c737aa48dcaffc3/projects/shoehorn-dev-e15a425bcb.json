@@ -1,0 +1,65 @@
+{
+  "id": 6810,
+  "slug": "shoehorn-dev-e15a425bcb",
+  "name": "shoehorn.dev",
+  "mentions": [
+    {
+      "name": "shoehorn.dev",
+      "description": "An opinionated, self-hosted, event-driven internal developer platform positioned as a modern, smarter alternative to Backstage. It is Kubernetes-native with an API-first Go microservice backend and deploys in about 15 minutes via Docker Compose or Helm charts, and can be configured through a Terraform provider. A Kubernetes push-agent pushes kinds, auto-creates entities into the API in batches, and forwards pod events. The modular Svelte frontend lets users choose what to show, with features including OIDC and org-data sync for Okta, Zitadel, and Entra ID, RBAC management, Meilisearch-based instant search, auto-generated org charts from nested teams/departments, Svelte Flow-based dependency (relations) visualization, entity compliance views, full GitHub integration, and a widget/integration community.",
+      "problem": null,
+      "audience": "Engineering teams via an internal developer platform, with self-hosting support",
+      "builder_usernames": [
+        "leroyalcheese"
+      ],
+      "source_excerpt": "we've been building on a next gen event-driven internal developer platform, an an opinionated selfhosted platform \"shoehorn.dev\" - deploy with ease within 15 min (docker compose or helmcharts). You could say its a modern backstage.",
+      "evidence": [
+        {
+          "source_item_id": 46945541,
+          "source_field": "body",
+          "value": "we've been building on a next gen event-driven internal developer platform, an an opinionated selfhosted platform \"shoehorn.dev\" - deploy with ease within 15 min (docker compose or helmcharts). You could say its a modern backstage.",
+          "supports": [],
+          "author": "leroyalcheese",
+          "shared_at": 1770647140,
+          "source_url": "https://news.ycombinator.com/item?id=46945541"
+        }
+      ],
+      "source_item_id": 46945541,
+      "source_url": "https://news.ycombinator.com/item?id=46945541",
+      "author": "leroyalcheese",
+      "shared_at": 1770647140,
+      "links": [
+        "https://github.com/shoehorn-dev",
+        "https://registry.terraform.io/providers/shoehorn-dev/shoehorn/latest",
+        "https://shoehorn.dev/"
+      ]
+    },
+    {
+      "name": "Shoehorn",
+      "description": "An opinionated, self-hosted developer portal (Backstage-like) with fast setup via CLI, a modern event-driven architecture, instant search, and multitenancy by design. Built for Kubernetes using Golang backend microservices and a Svelte 5 frontend, with an alpha release planned for Q1.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "leroyalcheese"
+      ],
+      "source_excerpt": "We're building a modern self-hosted 'backstage' ish product but opinionated with fast setup, cli, modern event-driven architecture, instant search and built for kubernetes. Using golang backend microservices and svelte5 frontend. Its multitenant by design. : https://shoehorn.dev. Alpha will be released Q1 :)",
+      "evidence": [
+        {
+          "source_item_id": 46586728,
+          "source_field": "body",
+          "value": "We're building a modern self-hosted 'backstage' ish product but opinionated with fast setup, cli, modern event-driven architecture, instant search and built for kubernetes. Using golang backend microservices and svelte5 frontend. Its multitenant by design. : https://shoehorn.dev. Alpha will be released Q1 :)",
+          "supports": [],
+          "author": "leroyalcheese",
+          "shared_at": 1768215103,
+          "source_url": "https://news.ycombinator.com/item?id=46586728"
+        }
+      ],
+      "source_item_id": 46586728,
+      "source_url": "https://news.ycombinator.com/item?id=46586728",
+      "author": "leroyalcheese",
+      "shared_at": 1768215103,
+      "links": [
+        "https://shoehorn.dev"
+      ]
+    }
+  ]
+}

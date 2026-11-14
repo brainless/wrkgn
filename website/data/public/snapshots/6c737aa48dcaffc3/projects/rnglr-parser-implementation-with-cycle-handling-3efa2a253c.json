@@ -1,0 +1,33 @@
+{
+  "id": 5220,
+  "slug": "rnglr-parser-implementation-with-cycle-handling-3efa2a253c",
+  "name": "RNGLR parser implementation with cycle handling",
+  "mentions": [
+    {
+      "name": "RNGLR parser implementation with cycle handling",
+      "description": "An implementation of RNGLR, a polynomial-time parser for any context-free grammar, running as a table-based interpreter and extended with special code to handle grammar cycles more efficiently.",
+      "problem": "Grammar cycles are handled inefficiently in table-based parser interpreters.",
+      "audience": null,
+      "builder_usernames": [
+        "Apanatshka"
+      ],
+      "source_excerpt": "I have an RNGLR implementation (a polynomial-time parser for any context-free grammar), that's still a table-based interpreter like more LR-based parsers out there. I've extended that implementation with special code to handle cycles more efficiently.",
+      "evidence": [
+        {
+          "source_item_id": 47749163,
+          "source_field": "body",
+          "value": "I have an RNGLR implementation (a polynomial-time parser for any context-free grammar), that's still a table-based interpreter like more LR-based parsers out there. I've extended that implementation with special code to handle cycles more efficiently.",
+          "supports": [],
+          "author": "Apanatshka",
+          "shared_at": 1776067555,
+          "source_url": "https://news.ycombinator.com/item?id=47749163"
+        }
+      ],
+      "source_item_id": 47749163,
+      "source_url": "https://news.ycombinator.com/item?id=47749163",
+      "author": "Apanatshka",
+      "shared_at": 1776067555,
+      "links": []
+    }
+  ]
+}

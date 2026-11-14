@@ -1,0 +1,35 @@
+{
+  "id": 9229,
+  "slug": "stagehand-b670744df7",
+  "name": "Stagehand",
+  "mentions": [
+    {
+      "name": "Stagehand",
+      "description": "Open-source browser automation framework rebuilt from the ground up as a Playwright alternative, focused on automation and self-healing using LLMs; version 3 is a total rewrite.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "pkiv"
+      ],
+      "source_excerpt": "I'm working on rebuilding Playwright from the ground up, but focused on automation and self healing using LLMs.\n\nIt's called Stagehand (https://github.com/browserbase/stagehand) and we just released v3, which is a total rewrite.",
+      "evidence": [
+        {
+          "source_item_id": 45869381,
+          "source_field": "body",
+          "value": "I'm working on rebuilding Playwright from the ground up, but focused on automation and self healing using LLMs.\n\nIt's called Stagehand (https://github.com/browserbase/stagehand) and we just released v3, which is a total rewrite.",
+          "supports": [],
+          "author": "pkiv",
+          "shared_at": 1762723867,
+          "source_url": "https://news.ycombinator.com/item?id=45869381"
+        }
+      ],
+      "source_item_id": 45869381,
+      "source_url": "https://news.ycombinator.com/item?id=45869381",
+      "author": "pkiv",
+      "shared_at": 1762723867,
+      "links": [
+        "https://github.com/browserbase/stagehand"
+      ]
+    }
+  ]
+}

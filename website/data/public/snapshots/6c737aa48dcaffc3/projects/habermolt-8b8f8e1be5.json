@@ -1,0 +1,36 @@
+{
+  "id": 6150,
+  "slug": "habermolt-8b8f8e1be5",
+  "name": "Habermolt",
+  "mentions": [
+    {
+      "name": "Habermolt",
+      "description": "An open-source platform where users teach an AI agent their own views (by populating a user.md) and send it to deliberate asynchronously with other people's agents, producing a consensus statement; builds on the Habermas Machine (Science, 2024, Google DeepMind / MIT) and aims to make deliberative democracy something anyone can use, with live multi-agent deliberations such as agents agreeing on 'Personal Agent Portable, Company Data Stays'.",
+      "problem": "Representative democracy scales but doesn't listen, and deliberative democracy listens but doesn't scale. AI agents representing you might be the first mechanism that does both.",
+      "audience": "Representative and deliberative democracy that doesn't scale: representative democracy scales but doesn't listen, while deliberative democracy listens but doesn't scale; the project explores AI agents representing people as a mechanism that does both, plus improving one-time-visitor retention.",
+      "builder_usernames": [
+        "oscarduys"
+      ],
+      "source_excerpt": "The platform my research partner and I have been working on is called Habermolt (https://habermolt.com).\n\nThe idea is to create an open-source platform where you teach an AI agent your views (basically just populate a user.md) and send it to deliberate with other people's agents. A consensus statement comes out the other side.",
+      "evidence": [
+        {
+          "source_item_id": 47322651,
+          "source_field": "body",
+          "value": "The platform my research partner and I have been working on is called Habermolt (https://habermolt.com).\n\nThe idea is to create an open-source platform where you teach an AI agent your views (basically just populate a user.md) and send it to deliberate with other people's agents. A consensus statement comes out the other side.",
+          "supports": [],
+          "author": "oscarduys",
+          "shared_at": 1773147407,
+          "source_url": "https://news.ycombinator.com/item?id=47322651"
+        }
+      ],
+      "source_item_id": 47322651,
+      "source_url": "https://news.ycombinator.com/item?id=47322651",
+      "author": "oscarduys",
+      "shared_at": 1773147407,
+      "links": [
+        "https://github.com/OzDuys/habermolt",
+        "https://habermolt.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 8129,
+  "slug": "plain-english-hardware-product-generator-856bd9b1e1",
+  "name": "Plain-English hardware product generator",
+  "mentions": [
+    {
+      "name": "Plain-English hardware product generator",
+      "description": "This project generates manufacturable hardware output — PCB, enclosure, and firmware — from plain-English product descriptions. It slots a library of pre-validated subcircuits (microcontroller, power, USB, IO, Bluetooth/Wi-Fi) together on a grid with deterministic routing, so a design that compiles works, and produces enclosure concept art with an image model that is fed to an OpenSCAD-generating model alongside hard constraints like board size, mounting holes, and connector placement, aiming to automate the full hardware product pipeline.",
+      "problem": "Most proof-of-concept hardware products are built from the same common subcircuits, yet producing manufacturable files still requires substantial manual work.",
+      "audience": null,
+      "builder_usernames": [
+        "mikeayles"
+      ],
+      "source_excerpt": "I'm currently working on something that lets you describe a hardware product in plain English and get actual manufacturable files out — PCB, enclosure, firmware, the lot.",
+      "evidence": [
+        {
+          "source_item_id": 46267863,
+          "source_field": "body",
+          "value": "I'm currently working on something that lets you describe a hardware product in plain English and get actual manufacturable files out — PCB, enclosure, firmware, the lot.",
+          "supports": [],
+          "author": "mikeayles",
+          "shared_at": 1765751827,
+          "source_url": "https://news.ycombinator.com/item?id=46267863"
+        }
+      ],
+      "source_item_id": 46267863,
+      "source_url": "https://news.ycombinator.com/item?id=46267863",
+      "author": "mikeayles",
+      "shared_at": 1765751827,
+      "links": []
+    }
+  ]
+}

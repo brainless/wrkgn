@@ -1,0 +1,36 @@
+{
+  "id": 9011,
+  "slug": "community-platform-revival-in-go-a065f3aacc",
+  "name": "Community platform revival in Go",
+  "mentions": [
+    {
+      "name": "Community platform revival in Go",
+      "description": "A community/social networking platform originally written in Java in 2006 to rescue the Electric Minds community after its CommunityWare platform was shut down, now being revived and rewritten in Go. The code is being ported without AI (Claude was used only to translate the old HTML pages into modern HTML with Tailwind CSS). Once it regains its 2006-era functionality it will be launched, with plans to go beyond that by making it distributed and more interoperable, with the goal of making social networking human again.",
+      "problem": "Human-centered community platforms like Electric Minds sputtered out with the rise of platforms like Facebook, and social networking lost its human character; the author sees room for a platform like the one they used to run.",
+      "audience": null,
+      "builder_usernames": [
+        "amysox"
+      ],
+      "source_excerpt": "I'm reviving a project I last touched in 2006, in the hopes that it might be of use today in making social networking human again.\n\nBack in the day, after the company I worked for bought the Electric Minds community and migrated it to its own CommunityWare system, and then the company that bought our company decided to shut the platform down, I reimplemented the community platform in Java and helped rescue the community. See: https://erbosoft.com/blog/2025/09/08/electric-minds/\n\nEMinds eventually sputtered out because of the rise of platforms like Facebook.  Well, now we see what came of that. So I think there's room for a platform like the one I used to have. See: https://erbosoft.com/blog/2025/11/03/what-we-once-had-and-could-have-again/\n\nThe new system is being written in Go. I'm porting the code over without using AI, though I have used Claude to translate the old crusty HTML pages into modern HTML with Tailwind CSS.  Once it gets to the functionality I had back in 2006, I'll put it up...and then see about going beyond that, including how to make it distributed and provide more interoperability.",
+      "evidence": [
+        {
+          "source_item_id": 45879544,
+          "source_field": "body",
+          "value": "I'm reviving a project I last touched in 2006, in the hopes that it might be of use today in making social networking human again.\n\nBack in the day, after the company I worked for bought the Electric Minds community and migrated it to its own CommunityWare system, and then the company that bought our company decided to shut the platform down, I reimplemented the community platform in Java and helped rescue the community. See: https://erbosoft.com/blog/2025/09/08/electric-minds/\n\nEMinds eventually sputtered out because of the rise of platforms like Facebook.  Well, now we see what came of that. So I think there's room for a platform like the one I used to have. See: https://erbosoft.com/blog/2025/11/03/what-we-once-had-and-could-have-again/\n\nThe new system is being written in Go. I'm porting the code over without using AI, though I have used Claude to translate the old crusty HTML pages into modern HTML with Tailwind CSS.  Once it gets to the functionality I had back in 2006, I'll put it up...and then see about going beyond that, including how to make it distributed and provide more interoperability.",
+          "supports": [],
+          "author": "amysox",
+          "shared_at": 1762801604,
+          "source_url": "https://news.ycombinator.com/item?id=45879544"
+        }
+      ],
+      "source_item_id": 45879544,
+      "source_url": "https://news.ycombinator.com/item?id=45879544",
+      "author": "amysox",
+      "shared_at": 1762801604,
+      "links": [
+        "https://erbosoft.com/blog/2025/09/08/electric-minds/",
+        "https://erbosoft.com/blog/2025/11/03/what-we-once-had-and-could-have-again/"
+      ]
+    }
+  ]
+}

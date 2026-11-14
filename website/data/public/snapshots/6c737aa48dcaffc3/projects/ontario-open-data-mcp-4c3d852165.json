@@ -1,0 +1,35 @@
+{
+  "id": 6413,
+  "slug": "ontario-open-data-mcp-4c3d852165",
+  "name": "Ontario open data MCP",
+  "mentions": [
+    {
+      "name": "Ontario open data MCP",
+      "description": "This MCP server exposes Ontario open data to LLMs. It uses DuckDB as a common local database to cache and run queries against CSVs and other data formats, enabling insights that go across datasets.",
+      "problem": "A wealth of Ontario open data is locked behind CSVs and other data formats, making it hard to query and combine.",
+      "audience": null,
+      "builder_usernames": [
+        "sprine"
+      ],
+      "source_excerpt": "I've been working on a Ontario open data MCP: \nhttps://github.com/sprine/ontario-data-mcp",
+      "evidence": [
+        {
+          "source_item_id": 47315861,
+          "source_field": "body",
+          "value": "I've been working on a Ontario open data MCP: \nhttps://github.com/sprine/ontario-data-mcp",
+          "supports": [],
+          "author": "sprine",
+          "shared_at": 1773092060,
+          "source_url": "https://news.ycombinator.com/item?id=47315861"
+        }
+      ],
+      "source_item_id": 47315861,
+      "source_url": "https://news.ycombinator.com/item?id=47315861",
+      "author": "sprine",
+      "shared_at": 1773092060,
+      "links": [
+        "https://github.com/sprine/ontario-data-mcp"
+      ]
+    }
+  ]
+}

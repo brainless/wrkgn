@@ -1,0 +1,63 @@
+{
+  "id": 10009,
+  "slug": "doomberg-terminal-e5e895402c",
+  "name": "Doomberg Terminal",
+  "mentions": [
+    {
+      "name": "Doomberg Terminal",
+      "description": "A Chrome Extension that performs algorithmic trading using Robinhood's web interface and market data.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dataviz1000"
+      ],
+      "source_excerpt": "Doomberg Terminal: A Chrome Extension that performs algorithmic trading using Robinhood's web interface and market data.",
+      "evidence": [
+        {
+          "source_item_id": 45420115,
+          "source_field": "body",
+          "value": "Doomberg Terminal: A Chrome Extension that performs algorithmic trading using Robinhood's web interface and market data.",
+          "supports": [],
+          "author": "dataviz1000",
+          "shared_at": 1759188244,
+          "source_url": "https://news.ycombinator.com/item?id=45420115"
+        }
+      ],
+      "source_item_id": 45420115,
+      "source_url": "https://news.ycombinator.com/item?id=45420115",
+      "author": "dataviz1000",
+      "shared_at": 1759188244,
+      "links": [
+        "https://github.com/adam-s/doomberg-terminal"
+      ]
+    },
+    {
+      "name": "Doomberg Terminal",
+      "description": "A Chrome extension that uses VSCode's core libraries exactly as they are used in an Electron app to drive VSCode and Cursor, relying on VSCode's IPC/RPC to let all execution contexts and remote runtimes communicate with each other; this approach addressed problems the author had automating browsers with a Chrome extension.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dataviz1000"
+      ],
+      "source_excerpt": "This is following my work using VSCode's core libraries in a Chrome extension exactly as they are used in an Electron app to drive VSCode and Cursor.",
+      "evidence": [
+        {
+          "source_item_id": 44703795,
+          "source_field": "body",
+          "value": "This is following my work using VSCode's core libraries in a Chrome extension exactly as they are used in an Electron app to drive VSCode and Cursor.",
+          "supports": [],
+          "author": "dataviz1000",
+          "shared_at": 1753643937,
+          "source_url": "https://news.ycombinator.com/item?id=44703795"
+        }
+      ],
+      "source_item_id": 44703795,
+      "source_url": "https://news.ycombinator.com/item?id=44703795",
+      "author": "dataviz1000",
+      "shared_at": 1753643937,
+      "links": [
+        "https://github.com/adam-s/doomberg-terminal"
+      ]
+    }
+  ]
+}

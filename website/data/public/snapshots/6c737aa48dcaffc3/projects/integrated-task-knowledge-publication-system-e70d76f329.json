@@ -1,0 +1,33 @@
+{
+  "id": 3893,
+  "slug": "integrated-task-knowledge-publication-system-e70d76f329",
+  "name": "Integrated task/knowledge/publication system",
+  "mentions": [
+    {
+      "name": "Integrated task/knowledge/publication system",
+      "description": "An integrated system combining task management, knowledge, and publication, being rebuilt from a previous implementation built atop Gemini's Gemtext format to use the more fully featured Djot document format.",
+      "problem": "The previous Gemtext-based design had lots of burrs, especially on the publication side, which a more fully featured document format like Djot can lift.",
+      "audience": null,
+      "builder_usernames": [
+        "tel"
+      ],
+      "source_excerpt": "I'm also rebuilding an integrated task/knowledge/publication system I'd previously built atop Gemini's Gemtext format. While I loved the simplicity, I've discovered that there are lots of burrs in that design, especially on the publication side, which I'd be able to lift by using a more fully featured document format like Djot.",
+      "evidence": [
+        {
+          "source_item_id": 48531643,
+          "source_field": "body",
+          "value": "I'm also rebuilding an integrated task/knowledge/publication system I'd previously built atop Gemini's Gemtext format. While I loved the simplicity, I've discovered that there are lots of burrs in that design, especially on the publication side, which I'd be able to lift by using a more fully featured document format like Djot.",
+          "supports": [],
+          "author": "tel",
+          "shared_at": 1781465355,
+          "source_url": "https://news.ycombinator.com/item?id=48531643"
+        }
+      ],
+      "source_item_id": 48531643,
+      "source_url": "https://news.ycombinator.com/item?id=48531643",
+      "author": "tel",
+      "shared_at": 1781465355,
+      "links": []
+    }
+  ]
+}

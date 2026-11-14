@@ -1,0 +1,63 @@
+{
+  "id": 4670,
+  "slug": "repple-6d83bc6c6b",
+  "name": "Repple",
+  "mentions": [
+    {
+      "name": "Repple",
+      "description": "A spaced repetition and incremental reading app with a PDF library. It combines flashcards with a reader and note-taking view, includes a few quality-of-life AI features, and exposes a REST API for the flashcard side. It aims for a cleaner UX than Anki and to fill the gap left by the discontinued Polar Bookshelf.",
+      "problem": "The author loved Anki for 10+ years but wanted a cleaner UX and a reader view; the Anki ownership change and the demise of Polar Bookshelf motivated building a replacement.",
+      "audience": null,
+      "builder_usernames": [
+        "tootyskooty"
+      ],
+      "source_excerpt": "I'm working on Repple (https://repple.sh)! It's a modern spaced repetition x incremental reading/PDF library app with a few (tasteful!) QOL AI features.",
+      "evidence": [
+        {
+          "source_item_id": 48087450,
+          "source_field": "body",
+          "value": "I'm working on Repple (https://repple.sh)! It's a modern spaced repetition x incremental reading/PDF library app with a few (tasteful!) QOL AI features.",
+          "supports": [],
+          "author": "tootyskooty",
+          "shared_at": 1778443976,
+          "source_url": "https://news.ycombinator.com/item?id=48087450"
+        }
+      ],
+      "source_item_id": 48087450,
+      "source_url": "https://news.ycombinator.com/item?id=48087450",
+      "author": "tootyskooty",
+      "shared_at": 1778443976,
+      "links": [
+        "https://repple.sh"
+      ]
+    },
+    {
+      "name": "Repple",
+      "description": "A free flashcard app with spaced repetition scheduling plus AI features: automatic image generation for image fields, optional rephrasing of wording on each review to avoid pattern matching, and semantic search. Includes tab-autocomplete for text fields, a PDF library with incremental reading, orphan card detection for poorly connected knowledge, and a REST API exposing decks, cards, and reviews so others can build on top of it.",
+      "problem": "A long-time Anki user wanted a flashcard tool with a cleaner UI that is easier to experiment with; the recent Anki ownership change prompted building an alternative.",
+      "audience": null,
+      "builder_usernames": [
+        "tootyskooty"
+      ],
+      "source_excerpt": "I'm building Repple (https://repple.sh), a free flashcard app with spaced repetition scheduling and some (tasteful imo) AI additions.",
+      "evidence": [
+        {
+          "source_item_id": 47756564,
+          "source_field": "body",
+          "value": "I'm building Repple (https://repple.sh), a free flashcard app with spaced repetition scheduling and some (tasteful imo) AI additions.",
+          "supports": [],
+          "author": "tootyskooty",
+          "shared_at": 1776107380,
+          "source_url": "https://news.ycombinator.com/item?id=47756564"
+        }
+      ],
+      "source_item_id": 47756564,
+      "source_url": "https://news.ycombinator.com/item?id=47756564",
+      "author": "tootyskooty",
+      "shared_at": 1776107380,
+      "links": [
+        "https://repple.sh"
+      ]
+    }
+  ]
+}

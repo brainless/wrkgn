@@ -1,0 +1,33 @@
+{
+  "id": 8031,
+  "slug": "bulk-grocery-jar-content-detection-app-b7378ca42b",
+  "name": "Bulk grocery jar content detection app",
+  "mentions": [
+    {
+      "name": "Bulk grocery jar content detection app",
+      "description": "This app detects what is inside each customer's glass jar (pasta, rice, sugar, etc.) at a local bulk grocery shop to improve the checkout process. Since customers bring their own jars that have no barcodes, the app identifies the contents so staff don't have to visually inspect each jar and manually type product codes into the till.",
+      "problem": "Customers fill their own glass jars at a bulk grocery shop, so there are no barcodes; the manager wastes too much time looking at what's inside each jar and typing the code into the till.",
+      "audience": null,
+      "builder_usernames": [
+        "grbi"
+      ],
+      "source_excerpt": "An app for my local bulk grocery shop to detect what is inside each glass jar to improve the checkout process.",
+      "evidence": [
+        {
+          "source_item_id": 46482666,
+          "source_field": "body",
+          "value": "An app for my local bulk grocery shop to detect what is inside each glass jar to improve the checkout process.",
+          "supports": [],
+          "author": "grbi",
+          "shared_at": 1767481494,
+          "source_url": "https://news.ycombinator.com/item?id=46482666"
+        }
+      ],
+      "source_item_id": 46482666,
+      "source_url": "https://news.ycombinator.com/item?id=46482666",
+      "author": "grbi",
+      "shared_at": 1767481494,
+      "links": []
+    }
+  ]
+}

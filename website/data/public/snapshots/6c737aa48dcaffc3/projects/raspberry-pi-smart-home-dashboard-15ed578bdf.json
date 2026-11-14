@@ -1,0 +1,33 @@
+{
+  "id": 4473,
+  "slug": "raspberry-pi-smart-home-dashboard-15ed578bdf",
+  "name": "Raspberry Pi smart home dashboard",
+  "mentions": [
+    {
+      "name": "Raspberry Pi smart home dashboard",
+      "description": "A custom smart home dashboard for a Raspberry Pi 3a+ with an official touchscreen, written in Rust with Slint and rendered directly via OpenGL without any display manager or window system. It talks to Home Assistant, automatically switching to a live camera view with stats when a 3D print starts, monitoring washer/dryer status through TP-Link Tapo smart plugs, and pulling up Ring camera live feeds whenever motion is detected. The Pi 3a+ uses hardware h264 decoding for decent playback performance, making it a silent, low-power desk touchscreen that can be tweaked to display anything.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "montecarl"
+      ],
+      "source_excerpt": "So I'm writing a custom dashboard for it using Rust/Slint[1]. It directly uses opengl without any display manager/window system. It mostly talks to home assistant.",
+      "evidence": [
+        {
+          "source_item_id": 48090933,
+          "source_field": "body",
+          "value": "So I'm writing a custom dashboard for it using Rust/Slint[1]. It directly uses opengl without any display manager/window system. It mostly talks to home assistant.",
+          "supports": [],
+          "author": "montecarl",
+          "shared_at": 1778471817,
+          "source_url": "https://news.ycombinator.com/item?id=48090933"
+        }
+      ],
+      "source_item_id": 48090933,
+      "source_url": "https://news.ycombinator.com/item?id=48090933",
+      "author": "montecarl",
+      "shared_at": 1778471817,
+      "links": []
+    }
+  ]
+}

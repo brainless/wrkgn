@@ -1,0 +1,33 @@
+{
+  "id": 10912,
+  "slug": "dance-event-calendar-in-finland-823312b842",
+  "name": "Dance event calendar in Finland",
+  "mentions": [
+    {
+      "name": "Dance event calendar in Finland",
+      "description": "A Django-based dance event calendar for Finland that has been running in production for over a year and serves 1-2M page views per month. Unauthenticated user views are being copied to an S3 bucket and delivered through Cloudflare.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "kukkeliskuu"
+      ],
+      "source_excerpt": "(2) Dance event calendar in Finland, running in production for over a year. 1-2M page views/month. Django app, but I am now implementing a copy of the unauthenticated user views to S3 bucket and delivering it through Cloudflare.",
+      "evidence": [
+        {
+          "source_item_id": 43819449,
+          "source_field": "body",
+          "value": "(2) Dance event calendar in Finland, running in production for over a year. 1-2M page views/month. Django app, but I am now implementing a copy of the unauthenticated user views to S3 bucket and delivering it through Cloudflare.",
+          "supports": [],
+          "author": "kukkeliskuu",
+          "shared_at": 1745834249,
+          "source_url": "https://news.ycombinator.com/item?id=43819449"
+        }
+      ],
+      "source_item_id": 43819449,
+      "source_url": "https://news.ycombinator.com/item?id=43819449",
+      "author": "kukkeliskuu",
+      "shared_at": 1745834249,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 6720,
+  "slug": "context-bonsai-c520834286",
+  "name": "context bonsai",
+  "mentions": [
+    {
+      "name": "context bonsai",
+      "description": "A tool that gives LLM harnesses the ability to surgically edit their conversation context. Messages can be removed either by natural-language instruction or by message ID ranges, with each removal leaving behind a summary and keywords. A companion retrieve tool can pull original removed messages back into context when the LLM decides they are useful again.",
+      "problem": "Keeps LLM context windows small and focused by proactively removing content that is no longer useful, staying ahead of autocompaction.",
+      "audience": null,
+      "builder_usernames": [
+        "planckscnst"
+      ],
+      "source_excerpt": "My favorite is what I call \"context bonsai\" where I'm giving LLM harnesses the ability to surgically edit the context. It's available as a tool. You can say \"remove that failed debugging session and write a summary of what we learned.\" Or you can take a more hands-on approach and say \"remove messages msg_ID1 through msg_ID2\". The removal leaves a summary and keywords, and the original messages can be pulled back into context if the LLM thinks they're useful.",
+      "evidence": [
+        {
+          "source_item_id": 46940741,
+          "source_field": "body",
+          "value": "My favorite is what I call \"context bonsai\" where I'm giving LLM harnesses the ability to surgically edit the context. It's available as a tool. You can say \"remove that failed debugging session and write a summary of what we learned.\" Or you can take a more hands-on approach and say \"remove messages msg_ID1 through msg_ID2\". The removal leaves a summary and keywords, and the original messages can be pulled back into context if the LLM thinks they're useful.",
+          "supports": [],
+          "author": "planckscnst",
+          "shared_at": 1770602441,
+          "source_url": "https://news.ycombinator.com/item?id=46940741"
+        }
+      ],
+      "source_item_id": 46940741,
+      "source_url": "https://news.ycombinator.com/item?id=46940741",
+      "author": "planckscnst",
+      "shared_at": 1770602441,
+      "links": [
+        "https://github.com/Vibecodelicious/opencode/blob/surgical_compaction/README.md"
+      ]
+    }
+  ]
+}

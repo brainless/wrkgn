@@ -1,0 +1,35 @@
+{
+  "id": 4692,
+  "slug": "veilleur-9c36201a11",
+  "name": "Veilleur",
+  "mentions": [
+    {
+      "name": "Veilleur",
+      "description": "This tool turns any blog listing page into a RSS feed, so articles from JavaScript-rendered blogs without a feed can be loaded into the Cham archive.",
+      "problem": "Blogs rendered with JavaScript often lack a RSS feed.",
+      "audience": null,
+      "builder_usernames": [
+        "jfim"
+      ],
+      "source_excerpt": "and veilleur (https://github.com/jfim/veilleur) which turns any blog listing into a RSS feed. So this way I can take blogs that are rendered using JavaScript, don't have a RSS feed and load the articles directly into Cham.",
+      "evidence": [
+        {
+          "source_item_id": 48093204,
+          "source_field": "body",
+          "value": "and veilleur (https://github.com/jfim/veilleur) which turns any blog listing into a RSS feed. So this way I can take blogs that are rendered using JavaScript, don't have a RSS feed and load the articles directly into Cham.",
+          "supports": [],
+          "author": "jfim",
+          "shared_at": 1778495492,
+          "source_url": "https://news.ycombinator.com/item?id=48093204"
+        }
+      ],
+      "source_item_id": 48093204,
+      "source_url": "https://news.ycombinator.com/item?id=48093204",
+      "author": "jfim",
+      "shared_at": 1778495492,
+      "links": [
+        "https://github.com/jfim/veilleur"
+      ]
+    }
+  ]
+}

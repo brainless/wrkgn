@@ -1,0 +1,35 @@
+{
+  "id": 4104,
+  "slug": "vilya-bd7a6fee76",
+  "name": "Vilya",
+  "mentions": [
+    {
+      "name": "Vilya",
+      "description": "A Python tool that brings Windows+K-style wireless display functionality to Arch Linux, enabling users to connect and use Miracast external displays on their laptops.",
+      "problem": "Miracast external displays don't work properly on Arch Linux, which lacks the Windows+K wireless display connection functionality.",
+      "audience": null,
+      "builder_usernames": [
+        "marsface12"
+      ],
+      "source_excerpt": "I built Vilya, an attempt to fix Miracast external displays on my own laptop. Windows + K functionality on Arch Linux with python.",
+      "evidence": [
+        {
+          "source_item_id": 48540511,
+          "source_field": "body",
+          "value": "I built Vilya, an attempt to fix Miracast external displays on my own laptop. Windows + K functionality on Arch Linux with python.",
+          "supports": [],
+          "author": "marsface12",
+          "shared_at": 1781527878,
+          "source_url": "https://news.ycombinator.com/item?id=48540511"
+        }
+      ],
+      "source_item_id": 48540511,
+      "source_url": "https://news.ycombinator.com/item?id=48540511",
+      "author": "marsface12",
+      "shared_at": 1781527878,
+      "links": [
+        "https://github.com/JuanDAlvarado/vilya"
+      ]
+    }
+  ]
+}

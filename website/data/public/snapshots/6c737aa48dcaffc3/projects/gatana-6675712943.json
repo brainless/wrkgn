@@ -1,0 +1,35 @@
+{
+  "id": 8436,
+  "slug": "gatana-6675712943",
+  "name": "Gatana",
+  "mentions": [
+    {
+      "name": "Gatana",
+      "description": "An enterprise/organization-focused MCP gateway with sophisticated credentials management, OIDC/SAML integration, team and profile support, external secret stores (AWS/GCP/Azure/HashiCorp Vault), envelope encryption, and an in-band MCP authorization trigger for cases like trying to use a tool that Gatana does not yet have credentials for. Aimed at Agent-to-Agent workloads, dev teams, and GitHub Copilot agents; built on k8s, NodeJS, and React, with Google KMS, hosted on GKE using GKE Sandbox for local server isolation.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "thecopy"
+      ],
+      "source_excerpt": "https://docs.gatana.ai/\n\nEnterprise/Organization focused MCP gateway with support for sophisticated credentials management, integrates with OIDC/SAML, team and profiles support, external secret stores (AWS/GCP/Azure/Hashicrop Vault), using envelope encryption, and in-band-MCP authorization trigger for e.g. trying to use a tool which Gatana not yet has credentials for.",
+      "evidence": [
+        {
+          "source_item_id": 46273104,
+          "source_field": "body",
+          "value": "https://docs.gatana.ai/\n\nEnterprise/Organization focused MCP gateway with support for sophisticated credentials management, integrates with OIDC/SAML, team and profiles support, external secret stores (AWS/GCP/Azure/Hashicrop Vault), using envelope encryption, and in-band-MCP authorization trigger for e.g. trying to use a tool which Gatana not yet has credentials for.",
+          "supports": [],
+          "author": "thecopy",
+          "shared_at": 1765798176,
+          "source_url": "https://news.ycombinator.com/item?id=46273104"
+        }
+      ],
+      "source_item_id": 46273104,
+      "source_url": "https://news.ycombinator.com/item?id=46273104",
+      "author": "thecopy",
+      "shared_at": 1765798176,
+      "links": [
+        "https://docs.gatana.ai/"
+      ]
+    }
+  ]
+}

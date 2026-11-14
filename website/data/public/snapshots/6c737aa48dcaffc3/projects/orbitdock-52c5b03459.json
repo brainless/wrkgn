@@ -1,0 +1,35 @@
+{
+  "id": 6267,
+  "slug": "orbitdock-52c5b03459",
+  "name": "OrbitDock",
+  "mentions": [
+    {
+      "name": "OrbitDock",
+      "description": "A native iOS/macOS app for controlling and managing AI coding agents, like a Claude Code remote or a native Codex app but agent-agnostic. Pairs with a Rust binary server that can run on any container or computer and be connected to from the app. Takes a stab at real-time code review with a built-in magit-like code review UI, while aiming to complement rather than replace tools like emacs and ghostty.",
+      "problem": "The author wanted a real native iOS/macOS client to truly control and manage AI agents, since existing options like Claude Code remote or the Codex app aren't fully native.",
+      "audience": "Developers who want a native client to control and manage AI coding agents from iOS/macOS",
+      "builder_usernames": [
+        "Robdel12"
+      ],
+      "source_excerpt": "I wanted a real native app (iOS/macOS) as a client for my agents and to be able to truly control / mange them from it. So, think Claude Code remote but not just Claude and a proper native app. Or the Codex app but actually native.\n\nThe server is a rust binary so you can toss it on any container/computer and connect to it in the app.",
+      "evidence": [
+        {
+          "source_item_id": 47304455,
+          "source_field": "body",
+          "value": "I wanted a real native app (iOS/macOS) as a client for my agents and to be able to truly control / mange them from it. So, think Claude Code remote but not just Claude and a proper native app. Or the Codex app but actually native.\n\nThe server is a rust binary so you can toss it on any container/computer and connect to it in the app.",
+          "supports": [],
+          "author": "Robdel12",
+          "shared_at": 1773025800,
+          "source_url": "https://news.ycombinator.com/item?id=47304455"
+        }
+      ],
+      "source_item_id": 47304455,
+      "source_url": "https://news.ycombinator.com/item?id=47304455",
+      "author": "Robdel12",
+      "shared_at": 1773025800,
+      "links": [
+        "https://github.com/Robdel12/OrbitDock"
+      ]
+    }
+  ]
+}

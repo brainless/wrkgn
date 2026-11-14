@@ -1,0 +1,36 @@
+{
+  "id": 9352,
+  "slug": "homelab-autoscaler-95b9b0fd04",
+  "name": "homelab-autoscaler",
+  "mentions": [
+    {
+      "name": "homelab-autoscaler",
+      "description": "A custom provider for the Kubernetes cluster autoscaler aimed at homelabs that turns cluster nodes on and off without reprovisioning them. It works with any node power mechanism, such as IPMI or Wake-on-LAN; for example, some nodes are switched on and off via a curl request to Home Assistant controlling a power plug.",
+      "problem": "Powering homelab cluster nodes on and off normally requires reprovisioning them.",
+      "audience": "Homelab operators running Kubernetes clusters on physical nodes they power on and off.",
+      "builder_usernames": [
+        "elsombrero"
+      ],
+      "source_excerpt": "A custom provider for kubernetes cluster autoscaler for homelabs that lets you turn on and off the nodes without reprovisioning them.",
+      "evidence": [
+        {
+          "source_item_id": 45885820,
+          "source_field": "body",
+          "value": "A custom provider for kubernetes cluster autoscaler for homelabs that lets you turn on and off the nodes without reprovisioning them.",
+          "supports": [],
+          "author": "elsombrero",
+          "shared_at": 1762856425,
+          "source_url": "https://news.ycombinator.com/item?id=45885820"
+        }
+      ],
+      "source_item_id": 45885820,
+      "source_url": "https://news.ycombinator.com/item?id=45885820",
+      "author": "elsombrero",
+      "shared_at": 1762856425,
+      "links": [
+        "https://autoscaler.homecluster.dev",
+        "https://github.com/homecluster-dev/homelab-autoscaler"
+      ]
+    }
+  ]
+}

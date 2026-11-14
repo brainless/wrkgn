@@ -1,0 +1,36 @@
+{
+  "id": 9995,
+  "slug": "shodoku-c4a5a80140",
+  "name": "Shodoku",
+  "mentions": [
+    {
+      "name": "Shodoku",
+      "description": "A kanji learning app that uses free dictionary data and the FSRS spaced repetition system to maximize context per card and optimize memory retention. It teaches reading and writing characters simultaneously, presents rich per-card information (radical breakdowns, related words, kanji sharing components) so learners can form connections, and lets users bookmark words containing a kanji so they resurface at the top of later reviews; recall of bookmarked words determines how the card is graded.",
+      "problem": "Existing tools fall short: WaniKani only teaches readings via pre-made mnemonics, and Anki's minimal flash cards show only small bits of information per card, limiting the connections that make characters easier to learn.",
+      "audience": "Kanji learners; the author personally uses it for Japanese study.",
+      "builder_usernames": [
+        "runarberg"
+      ],
+      "source_excerpt": "A kanji learning app using free dictionary data and the FSRS spaced repetition system for maximum context per card and optimal memory retention.",
+      "evidence": [
+        {
+          "source_item_id": 45420160,
+          "source_field": "body",
+          "value": "A kanji learning app using free dictionary data and the FSRS spaced repetition system for maximum context per card and optimal memory retention.",
+          "supports": [],
+          "author": "runarberg",
+          "shared_at": 1759188657,
+          "source_url": "https://news.ycombinator.com/item?id=45420160"
+        }
+      ],
+      "source_item_id": 45420160,
+      "source_url": "https://news.ycombinator.com/item?id=45420160",
+      "author": "runarberg",
+      "shared_at": 1759188657,
+      "links": [
+        "https://github.com/runarberg/shodoku",
+        "https://shodoku.app/"
+      ]
+    }
+  ]
+}

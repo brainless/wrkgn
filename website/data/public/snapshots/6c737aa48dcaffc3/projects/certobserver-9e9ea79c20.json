@@ -1,0 +1,35 @@
+{
+  "id": 7584,
+  "slug": "certobserver-9e9ea79c20",
+  "name": "CertObserver",
+  "mentions": [
+    {
+      "name": "CertObserver",
+      "description": "A service that monitors certificates and sends alerts before they expire. It aims for ease of use with simple, affordable pay-as-you-go pricing (no plan selection required). Planned features include Slack alert delivery and use of certificate transparency logs for alerts and possibly other purposes.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rellem"
+      ],
+      "source_excerpt": "I've recently launched https://certobserver.com, a service for getting alerts before certificates expire. The goal is to be very easy to use with simple (pay-as-you-go, so no need to choose a plan) and affordable pricing.",
+      "evidence": [
+        {
+          "source_item_id": 46586337,
+          "source_field": "body",
+          "value": "I've recently launched https://certobserver.com, a service for getting alerts before certificates expire. The goal is to be very easy to use with simple (pay-as-you-go, so no need to choose a plan) and affordable pricing.",
+          "supports": [],
+          "author": "rellem",
+          "shared_at": 1768212220,
+          "source_url": "https://news.ycombinator.com/item?id=46586337"
+        }
+      ],
+      "source_item_id": 46586337,
+      "source_url": "https://news.ycombinator.com/item?id=46586337",
+      "author": "rellem",
+      "shared_at": 1768212220,
+      "links": [
+        "https://certobserver.com"
+      ]
+    }
+  ]
+}

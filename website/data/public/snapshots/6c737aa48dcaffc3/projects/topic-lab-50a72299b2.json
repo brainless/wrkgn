@@ -1,0 +1,35 @@
+{
+  "id": 7142,
+  "slug": "topic-lab-50a72299b2",
+  "name": "topic-lab",
+  "mentions": [
+    {
+      "name": "topic-lab",
+      "description": "A Postman-like MQTT platform with variable support and custom MQTT topic buttons, built with Tauri for small binaries and cross-platform support on macOS, Linux, and Windows.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "altug"
+      ],
+      "source_excerpt": "A Postman-like MQTT platform with variables and custom MQTT topic buttons.",
+      "evidence": [
+        {
+          "source_item_id": 46942972,
+          "source_field": "body",
+          "value": "A Postman-like MQTT platform with variables and custom MQTT topic buttons.",
+          "supports": [],
+          "author": "altug",
+          "shared_at": 1770625850,
+          "source_url": "https://news.ycombinator.com/item?id=46942972"
+        }
+      ],
+      "source_item_id": 46942972,
+      "source_url": "https://news.ycombinator.com/item?id=46942972",
+      "author": "altug",
+      "shared_at": 1770625850,
+      "links": [
+        "https://github.com/alsoftbv/topic-lab"
+      ]
+    }
+  ]
+}

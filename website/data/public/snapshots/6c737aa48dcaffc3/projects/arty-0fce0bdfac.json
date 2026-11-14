@@ -1,0 +1,35 @@
+{
+  "id": 9117,
+  "slug": "arty-0fce0bdfac",
+  "name": "Arty",
+  "mentions": [
+    {
+      "name": "Arty",
+      "description": "An open-source iOS voice agent that uses the OpenAI Realtime API with a bring-your-own-key setup. It ships with connectors for Hacker News, Google Drive, GitHub, and web search, and runs with local tools (no MCP support yet), staying self-contained except for the OpenAI model and any connected third-party services. Users can request additional connectors via GitHub issues.",
+      "problem": "Frustration with the limitations of the OpenAI Realtime Voice iOS app, which cannot connect to services like Google Drive.",
+      "audience": null,
+      "builder_usernames": [
+        "tleyden5iwx"
+      ],
+      "source_excerpt": "I built Arty: https://github.com/vibemachine-labs/arty\n\nIt's an open-source iOS voice agent that uses the OpenAI Realtime API (bring your own key).\n\nCurrent connectors: Hacker News (check demo in readme!), Google Drive, GitHub, and web search.\n\nI got frustrated with the limitations of the OpenAI Realtime Voice iOS app—for example, it can't even connect to Google Drive.",
+      "evidence": [
+        {
+          "source_item_id": 45875885,
+          "source_field": "body",
+          "value": "I built Arty: https://github.com/vibemachine-labs/arty\n\nIt's an open-source iOS voice agent that uses the OpenAI Realtime API (bring your own key).\n\nCurrent connectors: Hacker News (check demo in readme!), Google Drive, GitHub, and web search.\n\nI got frustrated with the limitations of the OpenAI Realtime Voice iOS app—for example, it can't even connect to Google Drive.",
+          "supports": [],
+          "author": "tleyden5iwx",
+          "shared_at": 1762781801,
+          "source_url": "https://news.ycombinator.com/item?id=45875885"
+        }
+      ],
+      "source_item_id": 45875885,
+      "source_url": "https://news.ycombinator.com/item?id=45875885",
+      "author": "tleyden5iwx",
+      "shared_at": 1762781801,
+      "links": [
+        "https://github.com/vibemachine-labs/arty"
+      ]
+    }
+  ]
+}

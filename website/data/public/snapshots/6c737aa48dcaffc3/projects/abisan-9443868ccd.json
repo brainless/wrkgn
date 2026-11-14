@@ -1,0 +1,35 @@
+{
+  "id": 9014,
+  "slug": "abisan-9443868ccd",
+  "name": "ABISan",
+  "mentions": [
+    {
+      "name": "ABISan",
+      "description": "An ABI sanitizer for assembly: a custom assembler built on top of LLVM's assembler (llvm-mc) that emits instrumentation code to catch ABI violations at runtime, such as clobbering nonvolatile registers, misaligning the stack pointer, misusing the redzone, and assuming volatile registers survive function calls. Basic x86_64 support is in progress, with planned work including a kernel-module runtime to instrument Linux, ports to other architectures like POWER or RISC-V, and dynamic linking support.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "bkallus"
+      ],
+      "source_excerpt": "ABISan. Think of it like UBSan, but for assembly.",
+      "evidence": [
+        {
+          "source_item_id": 45872481,
+          "source_field": "body",
+          "value": "ABISan. Think of it like UBSan, but for assembly.",
+          "supports": [],
+          "author": "bkallus",
+          "shared_at": 1762749478,
+          "source_url": "https://news.ycombinator.com/item?id=45872481"
+        }
+      ],
+      "source_item_id": 45872481,
+      "source_url": "https://news.ycombinator.com/item?id=45872481",
+      "author": "bkallus",
+      "shared_at": 1762749478,
+      "links": [
+        "https://github.com/kenballus/llvm-project/tree/abisan/llvm/tools/abisan"
+      ]
+    }
+  ]
+}

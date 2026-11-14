@@ -1,0 +1,35 @@
+{
+  "id": 8233,
+  "slug": "bookpace-c1c9bae810",
+  "name": "BookPace",
+  "mentions": [
+    {
+      "name": "BookPace",
+      "description": "This app tracks book reading progress and pace. Users add a book name, number of pages, and a daily page goal, and it calculates the number of days needed and the date the book will be finished. It recalculates when the daily page target changes. It is built as a PWA, with notifications still in development. It deliberately avoids AI features.",
+      "problem": "The author was overwhelmed by the number of books they want to read; existing apps track which books you are reading but not at what pace.",
+      "audience": "Readers who want to plan their own reading pace",
+      "builder_usernames": [
+        "paperplaneflyr"
+      ],
+      "source_excerpt": "https://bookpace.pages.dev\n\nIt's essentially a book progress tracker. There are many apps that allow you to add the books which you are reading currently, but not at what pace.",
+      "evidence": [
+        {
+          "source_item_id": 46270623,
+          "source_field": "body",
+          "value": "https://bookpace.pages.dev\n\nIt's essentially a book progress tracker. There are many apps that allow you to add the books which you are reading currently, but not at what pace.",
+          "supports": [],
+          "author": "paperplaneflyr",
+          "shared_at": 1765774353,
+          "source_url": "https://news.ycombinator.com/item?id=46270623"
+        }
+      ],
+      "source_item_id": 46270623,
+      "source_url": "https://news.ycombinator.com/item?id=46270623",
+      "author": "paperplaneflyr",
+      "shared_at": 1765774353,
+      "links": [
+        "https://bookpace.pages.dev"
+      ]
+    }
+  ]
+}

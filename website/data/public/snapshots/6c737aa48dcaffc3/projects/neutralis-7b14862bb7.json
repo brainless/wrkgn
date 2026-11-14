@@ -1,0 +1,33 @@
+{
+  "id": 9746,
+  "slug": "neutralis-7b14862bb7",
+  "name": "Neutralis",
+  "mentions": [
+    {
+      "name": "Neutralis",
+      "description": "An intelligent fault detection diagnostics system for industrial-scale heat pump systems, combining a machine learning model with a sensor suite and an \"OS\" for technicians and maintainers to optimize their post-installation workflow processes. The system targets the difficulty of pinpointing diagnostics in systems with 6-7 figure datapoints and hundreds of components, exploring reinforcement learning on manufacturer stress-test datasets, digital-twin simulation, and a highly specialized LLM that produces step-by-step fix guides from system data.",
+      "problem": "Heat pumps are replacing boilers as electrical thermal supply systems in the EU due to legislative changes, but performing accurate fault diagnostics at industrial scale is hard: systems have massive datapoints and hundreds of components requiring justifiably accurate real-time inference, and candidate approaches (reinforcement learning lacking full-system site data, digital twins that fail to align simulations with reality, specialized LLMs) each face major obstacles.",
+      "audience": "Technicians and maintainers of industrial-scale heat pump systems",
+      "builder_usernames": [
+        "Will_Neutralis"
+      ],
+      "source_excerpt": "The project is this, an Intelligent fault detection diagnostics system tailored for industrial scale Heat Pump systems.",
+      "evidence": [
+        {
+          "source_item_id": 45932319,
+          "source_field": "body",
+          "value": "The project is this, an Intelligent fault detection diagnostics system tailored for industrial scale Heat Pump systems.",
+          "supports": [],
+          "author": "Will_Neutralis",
+          "shared_at": 1763155154,
+          "source_url": "https://news.ycombinator.com/item?id=45932319"
+        }
+      ],
+      "source_item_id": 45932319,
+      "source_url": "https://news.ycombinator.com/item?id=45932319",
+      "author": "Will_Neutralis",
+      "shared_at": 1763155154,
+      "links": []
+    }
+  ]
+}

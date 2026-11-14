@@ -1,0 +1,33 @@
+{
+  "id": 8478,
+  "slug": "self-hosted-github-actions-ci-runners-8f6c38bb8a",
+  "name": "Self-hosted GitHub Actions CI runners",
+  "mentions": [
+    {
+      "name": "Self-hosted GitHub Actions CI runners",
+      "description": "An open-source project that reduces GitHub Actions CI costs by running workflow jobs on self-hosted runners on owned hardware. It aims to fill the gap between local workflow execution tools like act and cloud-based self-hosted runner setups, keeping operations simple, avoiding unneeded features, and treating caching-based efficiency gains as a bonus.",
+      "problem": "GitHub Actions CI costs are high, and there is a gap between local workflow execution tools like act and cloud-based self-hosted runner setups for teams that need simple, low-cost ops.",
+      "audience": null,
+      "builder_usernames": [
+        "vrajat"
+      ],
+      "source_excerpt": "I’m building an open-source project to reduce GitHub Actions CI costs by running jobs on self-hosted runners on owned hardware.\nThe motivation is to fill the gap between local workflow execution by projects like https://github.com/nektos/act and self-hosted runner setups on the cloud.",
+      "evidence": [
+        {
+          "source_item_id": 46270946,
+          "source_field": "body",
+          "value": "I’m building an open-source project to reduce GitHub Actions CI costs by running jobs on self-hosted runners on owned hardware.\nThe motivation is to fill the gap between local workflow execution by projects like https://github.com/nektos/act and self-hosted runner setups on the cloud.",
+          "supports": [],
+          "author": "vrajat",
+          "shared_at": 1765778411,
+          "source_url": "https://news.ycombinator.com/item?id=46270946"
+        }
+      ],
+      "source_item_id": 46270946,
+      "source_url": "https://news.ycombinator.com/item?id=46270946",
+      "author": "vrajat",
+      "shared_at": 1765778411,
+      "links": []
+    }
+  ]
+}

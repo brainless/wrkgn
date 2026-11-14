@@ -1,0 +1,35 @@
+{
+  "id": 6561,
+  "slug": "kiosk24-b66b58d4d9",
+  "name": "kiosk24",
+  "mentions": [
+    {
+      "name": "kiosk24",
+      "description": "This service takes hourly visual snapshots of the front pages of selected news websites so they can be tracked over time. It is self-hosted, with the agent running on a Raspberry Pi 5.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "herol3oy"
+      ],
+      "source_excerpt": "I working on a service[1] for myself to track visually the first page of some news websites hourly. Hosting the agent on my RP5.\n\n[1]https://kiosk24.site",
+      "evidence": [
+        {
+          "source_item_id": 47306924,
+          "source_field": "body",
+          "value": "I working on a service[1] for myself to track visually the first page of some news websites hourly. Hosting the agent on my RP5.\n\n[1]https://kiosk24.site",
+          "supports": [],
+          "author": "herol3oy",
+          "shared_at": 1773050383,
+          "source_url": "https://news.ycombinator.com/item?id=47306924"
+        }
+      ],
+      "source_item_id": 47306924,
+      "source_url": "https://news.ycombinator.com/item?id=47306924",
+      "author": "herol3oy",
+      "shared_at": 1773050383,
+      "links": [
+        "https://kiosk24.site"
+      ]
+    }
+  ]
+}

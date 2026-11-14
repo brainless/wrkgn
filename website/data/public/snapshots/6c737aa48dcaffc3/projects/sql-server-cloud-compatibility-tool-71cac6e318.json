@@ -1,0 +1,33 @@
+{
+  "id": 10794,
+  "slug": "sql-server-cloud-compatibility-tool-71cac6e318",
+  "name": "SQL Server Cloud Compatibility Tool",
+  "mentions": [
+    {
+      "name": "SQL Server Cloud Compatibility Tool",
+      "description": "This tool checks whether an application built on SQL Server will work on cloud platforms such as Azure SQL DB, AWS RDS, and GCP CloudSQL. It captures all SQL statements from an app, runs them through multiple SQL parsers to identify every system object used (tables, functions, stored procedures, etc.), and checks them against a built catalog of system objects for every version of SQL Server on every platform. It then produces a report showing which platforms the app will work on, which it won't, and which system objects are the problem. Other database engines are planned once the tool works end to end.",
+      "problem": "Cloud flavors of SQL Server (Azure SQL DB, AWS RDS, GCP CloudSQL) have compatible SQL dialects but differ in missing features (e.g., CDC and Auditing on RDS) and system objects, making it difficult to know whether an app will work on these platforms.",
+      "audience": "This targets developers building apps on SQL Server who need to know whether their app will run on cloud-hosted SQL Server flavors.",
+      "builder_usernames": [
+        "james_anderson"
+      ],
+      "source_excerpt": "Working on a database compatibility tool. So your app works on SQL Server 2022 on-prem, but does it work on Azure SQL DB, AWS RDS, GCP CloudSQL, etc?\n\nThese cloud flavours have a compatible SQL dialect, but it's often details like missing features (CDC and Auditing on RDS are good examples) or differences in system objects that make it difficult to support your app on these platforms.\n\nI capture all sql statements, run them through multiple SQL parsers to find all the system objects your app is using (tables, functions, stored procedures, etc). I then check them all against a catalog I have built of all system objects for every version of SQL Server on every platform.",
+      "evidence": [
+        {
+          "source_item_id": 43820516,
+          "source_field": "body",
+          "value": "Working on a database compatibility tool. So your app works on SQL Server 2022 on-prem, but does it work on Azure SQL DB, AWS RDS, GCP CloudSQL, etc?\n\nThese cloud flavours have a compatible SQL dialect, but it's often details like missing features (CDC and Auditing on RDS are good examples) or differences in system objects that make it difficult to support your app on these platforms.\n\nI capture all sql statements, run them through multiple SQL parsers to find all the system objects your app is using (tables, functions, stored procedures, etc). I then check them all against a catalog I have built of all system objects for every version of SQL Server on every platform.",
+          "supports": [],
+          "author": "james_anderson",
+          "shared_at": 1745842248,
+          "source_url": "https://news.ycombinator.com/item?id=43820516"
+        }
+      ],
+      "source_item_id": 43820516,
+      "source_url": "https://news.ycombinator.com/item?id=43820516",
+      "author": "james_anderson",
+      "shared_at": 1745842248,
+      "links": []
+    }
+  ]
+}

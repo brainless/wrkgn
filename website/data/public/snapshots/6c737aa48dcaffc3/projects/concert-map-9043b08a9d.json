@@ -1,0 +1,35 @@
+{
+  "id": 10316,
+  "slug": "concert-map-9043b08a9d",
+  "name": "Concert Map",
+  "mentions": [
+    {
+      "name": "Concert Map",
+      "description": "An interactive map of live music events worldwide that shows concerts and festivals on a map and highlights the most relevant events for any area, so users can skim and find shows worth traveling to. Relevance is personalized when users import their top artists, otherwise based on global artist popularity. Built with leaflet.js and experimenting with supercluster; currently integrating more event providers and improving loading performance.",
+      "problem": "Finding concerts and festivals is difficult when travel plans are flexible, such as catching a show along a road trip, picking a good weekend to visit a city with live music, or choosing a festival worth traveling for.",
+      "audience": "Music fans and travelers with flexible plans looking for concerts and festivals worth traveling to.",
+      "builder_usernames": [
+        "thmtz"
+      ],
+      "source_excerpt": "I'm building Concert Map [1], an interactive map of live music events all over the world.",
+      "evidence": [
+        {
+          "source_item_id": 45029381,
+          "source_field": "body",
+          "value": "I'm building Concert Map [1], an interactive map of live music events all over the world.",
+          "supports": [],
+          "author": "thmtz",
+          "shared_at": 1756228036,
+          "source_url": "https://news.ycombinator.com/item?id=45029381"
+        }
+      ],
+      "source_item_id": 45029381,
+      "source_url": "https://news.ycombinator.com/item?id=45029381",
+      "author": "thmtz",
+      "shared_at": 1756228036,
+      "links": [
+        "https://www.concert-map.com/"
+      ]
+    }
+  ]
+}

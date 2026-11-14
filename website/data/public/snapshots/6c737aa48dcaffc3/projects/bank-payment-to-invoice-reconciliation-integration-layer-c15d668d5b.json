@@ -1,0 +1,33 @@
+{
+  "id": 6089,
+  "slug": "bank-payment-to-invoice-reconciliation-integration-layer-c15d668d5b",
+  "name": "Bank Payment-to-Invoice Reconciliation Integration Layer",
+  "mentions": [
+    {
+      "name": "Bank Payment-to-Invoice Reconciliation Integration Layer",
+      "description": "This integration layer connects client data, bank statements, and invoices in a single database, parsing data from multiple banks (including their data-handling quirks) and independent payment processors to automatically pair payments with the corresponding invoices. Built in Python with a modular architecture using builders, dependency injection, typer, and data classes, it aims to ease the work of accountants and administration by reducing manual correction and matching work.",
+      "problem": "A lot of correcting mistakes and manually pairing payments to the correct invoice is currently done by hand.",
+      "audience": "Accountants and administration staff who currently spend time correcting mistakes and manually pairing payments to invoices.",
+      "builder_usernames": [
+        "SparklyCircuit"
+      ],
+      "source_excerpt": "With my small team we're working on a dense integration layer between client data, bank statements, and invoices along with dedicated software in cooperation with accountants to simplify flow of data from independent payment processors and pairing appropriate payments with corresponding invoices in one database, in code.",
+      "evidence": [
+        {
+          "source_item_id": 47322533,
+          "source_field": "body",
+          "value": "With my small team we're working on a dense integration layer between client data, bank statements, and invoices along with dedicated software in cooperation with accountants to simplify flow of data from independent payment processors and pairing appropriate payments with corresponding invoices in one database, in code.",
+          "supports": [],
+          "author": "SparklyCircuit",
+          "shared_at": 1773146820,
+          "source_url": "https://news.ycombinator.com/item?id=47322533"
+        }
+      ],
+      "source_item_id": 47322533,
+      "source_url": "https://news.ycombinator.com/item?id=47322533",
+      "author": "SparklyCircuit",
+      "shared_at": 1773146820,
+      "links": []
+    }
+  ]
+}

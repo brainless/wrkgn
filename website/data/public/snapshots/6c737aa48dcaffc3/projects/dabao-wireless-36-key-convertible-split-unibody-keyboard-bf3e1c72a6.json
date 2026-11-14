@@ -1,0 +1,35 @@
+{
+  "id": 6967,
+  "slug": "dabao-wireless-36-key-convertible-split-unibody-keyboard-bf3e1c72a6",
+  "name": "Dabao (wireless 36-key convertible split/unibody keyboard)",
+  "mentions": [
+    {
+      "name": "Dabao (wireless 36-key convertible split/unibody keyboard)",
+      "description": "An open-source wireless 36-key ergonomic keyboard that can be used as either a unibody or split keyboard. Instead of the usual two microcontrollers and batteries (one per half), it uses a single microcontroller and a GPIO expander bridging the two halves via a magnetic 4-pin connector, plus a reversible PCB to keep overall costs low. Runs ZMK firmware, with PCBs brought up and the case design still in progress; all files are open-source on GitHub.",
+      "problem": "Split keyboards are cumbersome to use when moving around at coworking spaces, cafes, or on the couch, where a unibody keyboard is more convenient but has less ideal ergonomics.",
+      "audience": null,
+      "builder_usernames": [
+        "thehaikuza"
+      ],
+      "source_excerpt": "I'm deep in the rabbit hole of ergonomic keyboards and working on the design of a wireless, 36-key keyboard that can be used as a unibody or split.",
+      "evidence": [
+        {
+          "source_item_id": 46967608,
+          "source_field": "body",
+          "value": "I'm deep in the rabbit hole of ergonomic keyboards and working on the design of a wireless, 36-key keyboard that can be used as a unibody or split.",
+          "supports": [],
+          "author": "thehaikuza",
+          "shared_at": 1770761072,
+          "source_url": "https://news.ycombinator.com/item?id=46967608"
+        }
+      ],
+      "source_item_id": 46967608,
+      "source_url": "https://news.ycombinator.com/item?id=46967608",
+      "author": "thehaikuza",
+      "shared_at": 1770761072,
+      "links": [
+        "https://github.com/justinmklam/dabao"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 6050,
+  "slug": "openrun-383e499a03",
+  "name": "OpenRun",
+  "mentions": [
+    {
+      "name": "OpenRun",
+      "description": "OpenRun makes it easy for teams to securely deploy internal tools and webapps. It runs as a proxy that adds SAML/OAuth-based authentication with RBAC, and deploys containerized apps either to a single machine with Docker or onto Kubernetes. It is adding support for exposing Postgres schemas per app, so each app can get a dedicated schema or limited/full access to another app's schema with row level security rules.",
+      "problem": "While creating new apps has gotten easier, securely deploying them across teams remains a challenge.",
+      "audience": "Teams deploying internal tools and webapps",
+      "builder_usernames": [
+        "ajayvk"
+      ],
+      "source_excerpt": "Have been building a project https://github.com/openrundev/openrun/ which aims to make it easy for teams to easily deploy internal tools/webapps. While creating new apps has gotten easier, securely deploying them across teams remains a challenge. OpenRun runs as a proxy which adds SAML/OAuth based auth with RBAC.",
+      "evidence": [
+        {
+          "source_item_id": 47303707,
+          "source_field": "body",
+          "value": "Have been building a project https://github.com/openrundev/openrun/ which aims to make it easy for teams to easily deploy internal tools/webapps. While creating new apps has gotten easier, securely deploying them across teams remains a challenge. OpenRun runs as a proxy which adds SAML/OAuth based auth with RBAC.",
+          "supports": [],
+          "author": "ajayvk",
+          "shared_at": 1773019278,
+          "source_url": "https://news.ycombinator.com/item?id=47303707"
+        }
+      ],
+      "source_item_id": 47303707,
+      "source_url": "https://news.ycombinator.com/item?id=47303707",
+      "author": "ajayvk",
+      "shared_at": 1773019278,
+      "links": [
+        "https://github.com/openrundev/openrun/"
+      ]
+    },
+    {
+      "name": "OpenRun",
+      "description": "A platform for declarative deployment of web apps. Runs as a web server performing GitOps-driven app deployments, currently supporting deployment on standalone machines via Docker/Podman, with Kubernetes support in progress. On Kubernetes it would replace build jobs (Jenkins/Actions), CD (ArgoCD) and IDPs (Backstage), using the same declarative config across environments with no YAML to maintain.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ajayvk"
+      ],
+      "source_excerpt": "Building https://github.com/openrundev/openrun, a platform for declarative deployment of web apps.\n\nOpenRun runs as a web server, which does GitOps driven app deployments. You can currently deploy apps on a standalone machine, on top of Docker/Podman.",
+      "evidence": [
+        {
+          "source_item_id": 45871671,
+          "source_field": "body",
+          "value": "Building https://github.com/openrundev/openrun, a platform for declarative deployment of web apps.\n\nOpenRun runs as a web server, which does GitOps driven app deployments. You can currently deploy apps on a standalone machine, on top of Docker/Podman.",
+          "supports": [],
+          "author": "ajayvk",
+          "shared_at": 1762741722,
+          "source_url": "https://news.ycombinator.com/item?id=45871671"
+        }
+      ],
+      "source_item_id": 45871671,
+      "source_url": "https://news.ycombinator.com/item?id=45871671",
+      "author": "ajayvk",
+      "shared_at": 1762741722,
+      "links": [
+        "https://github.com/openrundev/openrun"
+      ]
+    }
+  ]
+}

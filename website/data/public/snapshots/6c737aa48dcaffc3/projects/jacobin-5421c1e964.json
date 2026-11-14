@@ -1,0 +1,64 @@
+{
+  "id": 5238,
+  "slug": "jacobin-5421c1e964",
+  "name": "Jacobin",
+  "mentions": [
+    {
+      "name": "Jacobin",
+      "description": "A Java Virtual Machine (JVM) written entirely in Go, working toward feature parity with Java 21. Unlike the HotSpot JVM (written in Java and C++), it lets users watch bytecode instructions execute as they run, and it emphasizes rigorous testing with a test codebase 160% the size of its production code and over 5,000 commits.",
+      "problem": "The HotSpot JVM's architecture and mixed Java/C++ implementation make it impossible to watch bytecode instructions execute as they run.",
+      "audience": null,
+      "builder_usernames": [
+        "ternaryoperator"
+      ],
+      "source_excerpt": "Jacobin[0] a JVM written in entirely in go. While we still have a way to go to get to feature parity for Java 21, we can sit back and watch the bytecode instructions fly by as they execute, which is something you can't do with the JDK due to the HotSpot JVM's architecture and the fact that it's written in both Java and C++.",
+      "evidence": [
+        {
+          "source_item_id": 47747387,
+          "source_field": "body",
+          "value": "Jacobin[0] a JVM written in entirely in go. While we still have a way to go to get to feature parity for Java 21, we can sit back and watch the bytecode instructions fly by as they execute, which is something you can't do with the JDK due to the HotSpot JVM's architecture and the fact that it's written in both Java and C++.",
+          "supports": [],
+          "author": "ternaryoperator",
+          "shared_at": 1776052418,
+          "source_url": "https://news.ycombinator.com/item?id=47747387"
+        }
+      ],
+      "source_item_id": 47747387,
+      "source_url": "https://news.ycombinator.com/item?id=47747387",
+      "author": "ternaryoperator",
+      "shared_at": 1776052418,
+      "links": [
+        "https://jacobin.org"
+      ]
+    },
+    {
+      "name": "Jacobin",
+      "description": "A Java Virtual Machine for Java 21 implemented in Go, providing an alternative JVM that runs Java bytecode.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ternaryoperator"
+      ],
+      "source_excerpt": "Jacobin, a JVM for Java 21 written in go\n\nWebsite: https://jacobin.org\n\nGitHub: https://github.com/platypusguy/jacobin",
+      "evidence": [
+        {
+          "source_item_id": 45420563,
+          "source_field": "body",
+          "value": "Jacobin, a JVM for Java 21 written in go\n\nWebsite: https://jacobin.org\n\nGitHub: https://github.com/platypusguy/jacobin",
+          "supports": [],
+          "author": "ternaryoperator",
+          "shared_at": 1759191974,
+          "source_url": "https://news.ycombinator.com/item?id=45420563"
+        }
+      ],
+      "source_item_id": 45420563,
+      "source_url": "https://news.ycombinator.com/item?id=45420563",
+      "author": "ternaryoperator",
+      "shared_at": 1759191974,
+      "links": [
+        "https://github.com/platypusguy/jacobin",
+        "https://jacobin.org"
+      ]
+    }
+  ]
+}

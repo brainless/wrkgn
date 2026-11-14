@@ -1,0 +1,33 @@
+{
+  "id": 5943,
+  "slug": "llm-mud-style-world-sim-fa2d0ce313",
+  "name": "LLM MUD-style world sim",
+  "mentions": [
+    {
+      "name": "LLM MUD-style world sim",
+      "description": "A tiny MUD-style world simulation sandbox where LLMs control each character. Agents take actions, pray to the creator of their world, and can receive responses in a separate cycle, with a few simple rules leading to emergent storytelling. It's a goalless toy, like a more advanced Tamagotchi.",
+      "problem": "LLM agents kept repeating a small set of actions and rarely tried experimental ones; prompt tweaking helped them branch out, but instilling a creative spark for exploration through prompting remains unsolved, and there isn't enough compute to run larger experiments with many seed worlds.",
+      "audience": null,
+      "builder_usernames": [
+        "TheAceOfHearts"
+      ],
+      "source_excerpt": "I vibe coded a tiny MUD-style world sim where LLMs control each character. It's basically a little toy sandbox where LLMs can play around. There's no real goal to this, I just thought that it would be fun, like a more advanced tamagochi.",
+      "evidence": [
+        {
+          "source_item_id": 47304343,
+          "source_field": "body",
+          "value": "I vibe coded a tiny MUD-style world sim where LLMs control each character. It's basically a little toy sandbox where LLMs can play around. There's no real goal to this, I just thought that it would be fun, like a more advanced tamagochi.",
+          "supports": [],
+          "author": "TheAceOfHearts",
+          "shared_at": 1773024672,
+          "source_url": "https://news.ycombinator.com/item?id=47304343"
+        }
+      ],
+      "source_item_id": 47304343,
+      "source_url": "https://news.ycombinator.com/item?id=47304343",
+      "author": "TheAceOfHearts",
+      "shared_at": 1773024672,
+      "links": []
+    }
+  ]
+}

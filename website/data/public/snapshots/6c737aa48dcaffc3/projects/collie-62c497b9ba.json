@@ -1,0 +1,35 @@
+{
+  "id": 10521,
+  "slug": "collie-62c497b9ba",
+  "name": "Collie",
+  "mentions": [
+    {
+      "name": "Collie",
+      "description": "A web-based text editor that helps teachers detect student assignments written by AI. It analyzes not just the final assignment but all the keystrokes used during the writing process, and its assessment of whether an essay is AI generated is accessible only to teachers.",
+      "problem": "Analyzing only the final text of an assignment to detect AI writing is futile, since billions are being pumped into making LLM text look more human, so assessment based on final text alone is guesswork at best.",
+      "audience": "Teachers who need to assess whether student assignments were written by AI.",
+      "builder_usernames": [
+        "enjeyw"
+      ],
+      "source_excerpt": "It's a tool to help teachers detect student assignments that have been written by AI. Unlike other solutions out there, it's an entire web-based text editor that analyses not just the final assignment, but all the keystrokes used during the writing process.",
+      "evidence": [
+        {
+          "source_item_id": 44704871,
+          "source_field": "body",
+          "value": "It's a tool to help teachers detect student assignments that have been written by AI. Unlike other solutions out there, it's an entire web-based text editor that analyses not just the final assignment, but all the keystrokes used during the writing process.",
+          "supports": [],
+          "author": "enjeyw",
+          "shared_at": 1753651849,
+          "source_url": "https://news.ycombinator.com/item?id=44704871"
+        }
+      ],
+      "source_item_id": 44704871,
+      "source_url": "https://news.ycombinator.com/item?id=44704871",
+      "author": "enjeyw",
+      "shared_at": 1753651849,
+      "links": [
+        "https://collie.ink/"
+      ]
+    }
+  ]
+}

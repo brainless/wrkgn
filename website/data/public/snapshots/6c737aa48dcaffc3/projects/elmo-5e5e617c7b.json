@@ -1,0 +1,35 @@
+{
+  "id": 9902,
+  "slug": "elmo-5e5e617c7b",
+  "name": "elmo",
+  "mentions": [
+    {
+      "name": "elmo",
+      "description": "This tool automatically builds a searchable knowledge base around a coding project based on the developer's conversations with AI coding tools. It runs without requiring attention, reusing the same underlying tool (Claude/Codex/Gemini) and its quota so there is no additional AI cost, and outputs an ./elmodocs directory in the project root that can be referenced from CLAUDE.md/AGENTS.md/GEMINI.md or included directly in the coding context.",
+      "problem": "Building a knowledge base around a coding project normally requires manual attention and extra AI spend; elmo works automatically and reuses the developer's existing coding-tool quota.",
+      "audience": null,
+      "builder_usernames": [
+        "erichi"
+      ],
+      "source_excerpt": "https://elmo.dev - a tool that automatically builds a searchable knowledge base around your project based on your conversation with coding tools.",
+      "evidence": [
+        {
+          "source_item_id": 45421798,
+          "source_field": "body",
+          "value": "https://elmo.dev - a tool that automatically builds a searchable knowledge base around your project based on your conversation with coding tools.",
+          "supports": [],
+          "author": "erichi",
+          "shared_at": 1759205351,
+          "source_url": "https://news.ycombinator.com/item?id=45421798"
+        }
+      ],
+      "source_item_id": 45421798,
+      "source_url": "https://news.ycombinator.com/item?id=45421798",
+      "author": "erichi",
+      "shared_at": 1759205351,
+      "links": [
+        "https://elmo.dev"
+      ]
+    }
+  ]
+}

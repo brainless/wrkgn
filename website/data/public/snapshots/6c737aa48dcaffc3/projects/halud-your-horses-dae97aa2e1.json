@@ -1,0 +1,35 @@
+{
+  "id": 8480,
+  "slug": "halud-your-horses-dae97aa2e1",
+  "name": "HALUD YOUR HORSES",
+  "mentions": [
+    {
+      "name": "HALUD YOUR HORSES",
+      "description": "A containerized development workflow that reduces exposure to supply-chain attacks in the JavaScript and Node.js ecosystem. Each project runs inside an isolated container with its own node_modules volume, so nothing from npm executes directly on the host machine. The tools are simple shell scripts that create, enter, and fork project-specific development images.",
+      "problem": "Reduces exposure to supply-chain attacks in the JavaScript and Node.js ecosystem.",
+      "audience": null,
+      "builder_usernames": [
+        "neechoop"
+      ],
+      "source_excerpt": "HALUD YOUR HORSES is a small containerized development workflow designed to reduce exposure to supply-chain attacks in the JavaScript and Node.js ecosystem. Every project runs inside an isolated container with its own node_modules volume. Nothing from npm executes directly on the host machine. The tools are simple shell scripts that create, enter, and fork project-specific development images.",
+      "evidence": [
+        {
+          "source_item_id": 46268148,
+          "source_field": "body",
+          "value": "HALUD YOUR HORSES is a small containerized development workflow designed to reduce exposure to supply-chain attacks in the JavaScript and Node.js ecosystem. Every project runs inside an isolated container with its own node_modules volume. Nothing from npm executes directly on the host machine. The tools are simple shell scripts that create, enter, and fork project-specific development images.",
+          "supports": [],
+          "author": "neechoop",
+          "shared_at": 1765753995,
+          "source_url": "https://news.ycombinator.com/item?id=46268148"
+        }
+      ],
+      "source_item_id": 46268148,
+      "source_url": "https://news.ycombinator.com/item?id=46268148",
+      "author": "neechoop",
+      "shared_at": 1765753995,
+      "links": [
+        "https://github.com/maya-undefined/halud_your_horses"
+      ]
+    }
+  ]
+}

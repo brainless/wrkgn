@@ -1,0 +1,33 @@
+{
+  "id": 8094,
+  "slug": "transcription-based-video-editing-script-f888114e21",
+  "name": "Transcription-based video editing script",
+  "mentions": [
+    {
+      "name": "Transcription-based video editing script",
+      "description": "Transcription-based video editing script written as a couple hundred lines of Python wrapping Whisper and FFmpeg. A first pass produces a timestamped transcript and a plain text transcript for editing; after the words are edited into any order, a second pass reassembles the video. It also speeds up silences 4x within retained sequences and can burn in captions when silence removal makes the audio choppy.",
+      "problem": "A co-worker had difficulty editing a work demo, where editing out silences had previously required manual work.",
+      "audience": null,
+      "builder_usernames": [
+        "bazzargh"
+      ],
+      "source_excerpt": "So a couple of hours later I'd written a script that does transcription based editing: on the first pass it grabs a timestamped transcript and a plain text transcript for editing; you edit the words into any order you like and a second pass reassembles the video (it's just a couple of hundred lines of python wrapping whisper and ffmpeg).",
+      "evidence": [
+        {
+          "source_item_id": 46270519,
+          "source_field": "body",
+          "value": "So a couple of hours later I'd written a script that does transcription based editing: on the first pass it grabs a timestamped transcript and a plain text transcript for editing; you edit the words into any order you like and a second pass reassembles the video (it's just a couple of hundred lines of python wrapping whisper and ffmpeg).",
+          "supports": [],
+          "author": "bazzargh",
+          "shared_at": 1765773121,
+          "source_url": "https://news.ycombinator.com/item?id=46270519"
+        }
+      ],
+      "source_item_id": 46270519,
+      "source_url": "https://news.ycombinator.com/item?id=46270519",
+      "author": "bazzargh",
+      "shared_at": 1765773121,
+      "links": []
+    }
+  ]
+}

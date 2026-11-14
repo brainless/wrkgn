@@ -1,0 +1,35 @@
+{
+  "id": 10399,
+  "slug": "dsc-dc2d882bd7",
+  "name": "DSC",
+  "mentions": [
+    {
+      "name": "DSC",
+      "description": "A tensor library written from scratch in C++ with a PyTorch-like API that runs on both CPU and GPU (AMD and NVIDIA) and is capable of running LLMs like Qwen. A native profiler to trace CPU and GPU kernels is being implemented, with the goal of being competitive with PyTorch eager.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "nirw4nna"
+      ],
+      "source_excerpt": "I'm currently working on DSC, a tensor library I wrote from scratch in C++ with a PyTorch-like API.",
+      "evidence": [
+        {
+          "source_item_id": 44704901,
+          "source_field": "body",
+          "value": "I'm currently working on DSC, a tensor library I wrote from scratch in C++ with a PyTorch-like API.",
+          "supports": [],
+          "author": "nirw4nna",
+          "shared_at": 1753652023,
+          "source_url": "https://news.ycombinator.com/item?id=44704901"
+        }
+      ],
+      "source_item_id": 44704901,
+      "source_url": "https://news.ycombinator.com/item?id=44704901",
+      "author": "nirw4nna",
+      "shared_at": 1753652023,
+      "links": [
+        "https://github.com/nirw4nna/dsc"
+      ]
+    }
+  ]
+}

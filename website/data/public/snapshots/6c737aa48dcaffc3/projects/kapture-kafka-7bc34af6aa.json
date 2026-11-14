@@ -1,0 +1,35 @@
+{
+  "id": 4752,
+  "slug": "kapture-kafka-7bc34af6aa",
+  "name": "Kapture Kafka",
+  "mentions": [
+    {
+      "name": "Kapture Kafka",
+      "description": "A desktop app for Kafka protocol inspection, like Wireshark or Fiddler but native for Kafka. It intercepts and decodes Kafka traffic, letting users debug local Kafka apps against any cluster and inspect the protocol directly.",
+      "problem": null,
+      "audience": "Debugging local Kafka applications against clusters",
+      "builder_usernames": [
+        "chtefi"
+      ],
+      "source_excerpt": "Working on https://kapturekafka.dev, a desktop app for Kafka protocol inspection. Think Wireshark or Fiddler, but native for Kafka.",
+      "evidence": [
+        {
+          "source_item_id": 48089228,
+          "source_field": "body",
+          "value": "Working on https://kapturekafka.dev, a desktop app for Kafka protocol inspection. Think Wireshark or Fiddler, but native for Kafka.",
+          "supports": [],
+          "author": "chtefi",
+          "shared_at": 1778455884,
+          "source_url": "https://news.ycombinator.com/item?id=48089228"
+        }
+      ],
+      "source_item_id": 48089228,
+      "source_url": "https://news.ycombinator.com/item?id=48089228",
+      "author": "chtefi",
+      "shared_at": 1778455884,
+      "links": [
+        "https://kapturekafka.dev"
+      ]
+    }
+  ]
+}

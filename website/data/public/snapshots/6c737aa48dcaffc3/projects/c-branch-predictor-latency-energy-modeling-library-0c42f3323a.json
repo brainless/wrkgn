@@ -1,0 +1,33 @@
+{
+  "id": 7038,
+  "slug": "c-branch-predictor-latency-energy-modeling-library-0c42f3323a",
+  "name": "C++ Branch Predictor Latency/Energy Modeling Library",
+  "mentions": [
+    {
+      "name": "C++ Branch Predictor Latency/Energy Modeling Library",
+      "description": "A C++ library that uses operator overloading to track the latency and energy consumed by math operations while a branch predictor generates predictions. Beyond computation, it also models hardware components such as registers and RAMs.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "aclindsa"
+      ],
+      "source_excerpt": "We wrote a new C++ library which uses operator overloading to track the latency/energy used by math operations as the predictor predicts. In addition to computation, this library models registers, RAMs, etc.",
+      "evidence": [
+        {
+          "source_item_id": 46959346,
+          "source_field": "body",
+          "value": "We wrote a new C++ library which uses operator overloading to track the latency/energy used by math operations as the predictor predicts. In addition to computation, this library models registers, RAMs, etc.",
+          "supports": [],
+          "author": "aclindsa",
+          "shared_at": 1770729559,
+          "source_url": "https://news.ycombinator.com/item?id=46959346"
+        }
+      ],
+      "source_item_id": 46959346,
+      "source_url": "https://news.ycombinator.com/item?id=46959346",
+      "author": "aclindsa",
+      "shared_at": 1770729559,
+      "links": []
+    }
+  ]
+}

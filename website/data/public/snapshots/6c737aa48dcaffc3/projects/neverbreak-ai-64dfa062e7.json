@@ -1,0 +1,35 @@
+{
+  "id": 5446,
+  "slug": "neverbreak-ai-64dfa062e7",
+  "name": "neverbreak.ai",
+  "mentions": [
+    {
+      "name": "neverbreak.ai",
+      "description": "An AI tool that fixes failing CI and opens pull requests with proof. It reproduces the failure, applies a fix, and re-runs the tests in a fresh environment to confirm they pass before opening a PR — if the test doesn't actually pass, no PR is opened. Each PR includes a short GIF of the fix working. Supports C, Python, Go, Node.js, and Java on GitHub Actions and GitLab CI, and is currently in beta.",
+      "problem": "Most \"AI CI fix\" tools just read the error log and guess a patch, without verifying that the fix actually works.",
+      "audience": "Currently in beta with a few users; works on GitHub Actions and GitLab CI for teams whose CI builds fail.",
+      "builder_usernames": [
+        "giis"
+      ],
+      "source_excerpt": "https://neverbreak.ai that fixes failing CI and opens a PR with _proof_. Most \"AI CI fix\" tools read the error log and guess a patch. We actually reproduce the failure, fix it then re-run the test in a fresh environment to confirm it passes before opening the PR.",
+      "evidence": [
+        {
+          "source_item_id": 47746612,
+          "source_field": "body",
+          "value": "https://neverbreak.ai that fixes failing CI and opens a PR with _proof_. Most \"AI CI fix\" tools read the error log and guess a patch. We actually reproduce the failure, fix it then re-run the test in a fresh environment to confirm it passes before opening the PR.",
+          "supports": [],
+          "author": "giis",
+          "shared_at": 1776044978,
+          "source_url": "https://news.ycombinator.com/item?id=47746612"
+        }
+      ],
+      "source_item_id": 47746612,
+      "source_url": "https://news.ycombinator.com/item?id=47746612",
+      "author": "giis",
+      "shared_at": 1776044978,
+      "links": [
+        "https://neverbreak.ai"
+      ]
+    }
+  ]
+}

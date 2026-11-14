@@ -1,0 +1,33 @@
+{
+  "id": 7665,
+  "slug": "air-gapped-low-bandwidth-inference-gateways-e3ec708b14",
+  "name": "Air-gapped low-bandwidth inference gateways",
+  "mentions": [
+    {
+      "name": "Air-gapped low-bandwidth inference gateways",
+      "description": "A prototype of air-gapped or very low-bandwidth inference gateways where interaction with a model happens over narrow channels (serial, optical, audio, etc.) with explicit threat models and monitoring, exploring what inference might look like for AGI/ASI-level systems with a fundamentally different risk profile.",
+      "problem": "Assuming unrestricted API inference forever leaves an attack channel for highly capable models, since attackers always have indirect access through inference.",
+      "audience": null,
+      "builder_usernames": [
+        "luiscosio"
+      ],
+      "source_excerpt": "For example, we’re prototyping ideas like air-gapped or very low-bandwidth inference gateways, where interaction happens over narrow channels (serial, optical, audio, etc.), with explicit threat models and monitoring.",
+      "evidence": [
+        {
+          "source_item_id": 46580241,
+          "source_field": "body",
+          "value": "For example, we’re prototyping ideas like air-gapped or very low-bandwidth inference gateways, where interaction happens over narrow channels (serial, optical, audio, etc.), with explicit threat models and monitoring.",
+          "supports": [],
+          "author": "luiscosio",
+          "shared_at": 1768166620,
+          "source_url": "https://news.ycombinator.com/item?id=46580241"
+        }
+      ],
+      "source_item_id": 46580241,
+      "source_url": "https://news.ycombinator.com/item?id=46580241",
+      "author": "luiscosio",
+      "shared_at": 1768166620,
+      "links": []
+    }
+  ]
+}

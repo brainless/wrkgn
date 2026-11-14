@@ -1,0 +1,35 @@
+{
+  "id": 5168,
+  "slug": "succession-38254dc6ed",
+  "name": "succession",
+  "mentions": [
+    {
+      "name": "succession",
+      "description": "A tool providing infinite context and persistent instruction following for LLM agents by building a persistent, self-resolving identity for the agent. It addresses instruction drift that worsens as instructions get farther from the start of the context, keeping agents grounded in their instructions over long sessions.",
+      "problem": "LLMs suffer instruction drift and poor persistent instruction following as context length grows, since system instructions like claude.md are only injected at the start of the conversation.",
+      "audience": null,
+      "builder_usernames": [
+        "danieltanfh95"
+      ],
+      "source_excerpt": "My solution for infinite context, and persistent instruction following (very important for replsh and grounding, LLMs are very bad at using tools outside of their training/harness) is to build a persistent and self-resolving identity for the agent.",
+      "evidence": [
+        {
+          "source_item_id": 47750886,
+          "source_field": "body",
+          "value": "My solution for infinite context, and persistent instruction following (very important for replsh and grounding, LLMs are very bad at using tools outside of their training/harness) is to build a persistent and self-resolving identity for the agent.",
+          "supports": [],
+          "author": "danieltanfh95",
+          "shared_at": 1776082406,
+          "source_url": "https://news.ycombinator.com/item?id=47750886"
+        }
+      ],
+      "source_item_id": 47750886,
+      "source_url": "https://news.ycombinator.com/item?id=47750886",
+      "author": "danieltanfh95",
+      "shared_at": 1776082406,
+      "links": [
+        "https://github.com/danieltanfh95/agent-lineage-evolution/"
+      ]
+    }
+  ]
+}

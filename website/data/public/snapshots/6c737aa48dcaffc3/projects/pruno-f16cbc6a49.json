@@ -1,0 +1,35 @@
+{
+  "id": 9877,
+  "slug": "pruno-f16cbc6a49",
+  "name": "Pruno",
+  "mentions": [
+    {
+      "name": "Pruno",
+      "description": "This tool automates removal of unused dependencies from software projects, working like Dependabot or Renovate but for dependency cleanup. It detects dependencies that are no longer used and removes them, saving teams time. It is still a work in progress and the author is seeking feedback.",
+      "problem": "Dependency creep: as a system grows, the number of dependencies skyrockets, and in Python/JavaScript projects it is especially hard to determine which dependencies are not used anymore.",
+      "audience": "Teams suffering from dependency creep: as systems grow, the number of dependencies skyrockets, and in Python/JavaScript projects it is especially hard to determine which dependencies are no longer used.",
+      "builder_usernames": [
+        "nemwiz"
+      ],
+      "source_excerpt": "I'm working on Pruno (https://pruno.dev/), it's similar to Dependabot/Renovate bot but it removes dependencies instead.",
+      "evidence": [
+        {
+          "source_item_id": 45422175,
+          "source_field": "body",
+          "value": "I'm working on Pruno (https://pruno.dev/), it's similar to Dependabot/Renovate bot but it removes dependencies instead.",
+          "supports": [],
+          "author": "nemwiz",
+          "shared_at": 1759209667,
+          "source_url": "https://news.ycombinator.com/item?id=45422175"
+        }
+      ],
+      "source_item_id": 45422175,
+      "source_url": "https://news.ycombinator.com/item?id=45422175",
+      "author": "nemwiz",
+      "shared_at": 1759209667,
+      "links": [
+        "https://pruno.dev/"
+      ]
+    }
+  ]
+}

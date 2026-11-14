@@ -1,0 +1,35 @@
+{
+  "id": 6119,
+  "slug": "icloudpd-rs-89f189ea8d",
+  "name": "icloudpd-rs",
+  "mentions": [
+    {
+      "name": "icloudpd-rs",
+      "description": "A fast iCloud Photos downloader rewritten from scratch in Rust as a replacement for the unmaintained Python icloudpd. It supports parallel downloads, SQLite state tracking, and resumable transfers, delivering 5x faster download speeds in benchmarks while shipping as a single binary with Docker and Homebrew packaging.",
+      "problem": "The original Python icloudpd is looking for a new maintainer, leaving the tool without active maintenance.",
+      "audience": null,
+      "builder_usernames": [
+        "rhoopr"
+      ],
+      "source_excerpt": "icloudpd-rs - Fast iCloud Photos downloader, Rust alternative to icloudpd\n\nThe original Python icloudpd is looking for a new maintainer. I’ve been building a ground-up Rust replacement with parallel downloads, SQLite state tracking, and resumable transfers. 5x faster downloads in benchmarks, single binary, Docker and Homebrew ready.",
+      "evidence": [
+        {
+          "source_item_id": 47303410,
+          "source_field": "body",
+          "value": "icloudpd-rs - Fast iCloud Photos downloader, Rust alternative to icloudpd\n\nThe original Python icloudpd is looking for a new maintainer. I’ve been building a ground-up Rust replacement with parallel downloads, SQLite state tracking, and resumable transfers. 5x faster downloads in benchmarks, single binary, Docker and Homebrew ready.",
+          "supports": [],
+          "author": "rhoopr",
+          "shared_at": 1773017075,
+          "source_url": "https://news.ycombinator.com/item?id=47303410"
+        }
+      ],
+      "source_item_id": 47303410,
+      "source_url": "https://news.ycombinator.com/item?id=47303410",
+      "author": "rhoopr",
+      "shared_at": 1773017075,
+      "links": [
+        "https://github.com/rhoopr/icloudpd-rs"
+      ]
+    }
+  ]
+}

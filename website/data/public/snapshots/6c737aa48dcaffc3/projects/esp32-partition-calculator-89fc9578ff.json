@@ -1,0 +1,35 @@
+{
+  "id": 11186,
+  "slug": "esp32-partition-calculator-89fc9578ff",
+  "name": "ESP32 Partition Calculator",
+  "mentions": [
+    {
+      "name": "ESP32 Partition Calculator",
+      "description": "An online calculator for ESP32 flash partition tables. It lets users compute ESP32 partition layouts in the browser instead of doing the math manually or using the previously available Google-Sheets-based tool.",
+      "problem": "Calculating ESP32 partition layouts manually is a huge pain, and the only existing tool was Google-Sheets-based.",
+      "audience": null,
+      "builder_usernames": [
+        "platevoltage"
+      ],
+      "source_excerpt": "I made an online partition calculator for ESP32. I made it because calculating this manually is a huge pain, and the only tool I could find was google-sheet based.",
+      "evidence": [
+        {
+          "source_item_id": 43827508,
+          "source_field": "body",
+          "value": "I made an online partition calculator for ESP32. I made it because calculating this manually is a huge pain, and the only tool I could find was google-sheet based.",
+          "supports": [],
+          "author": "platevoltage",
+          "shared_at": 1745886023,
+          "source_url": "https://news.ycombinator.com/item?id=43827508"
+        }
+      ],
+      "source_item_id": 43827508,
+      "source_url": "https://news.ycombinator.com/item?id=43827508",
+      "author": "platevoltage",
+      "shared_at": 1745886023,
+      "links": [
+        "https://esp32.jgarrettcorbin.com"
+      ]
+    }
+  ]
+}

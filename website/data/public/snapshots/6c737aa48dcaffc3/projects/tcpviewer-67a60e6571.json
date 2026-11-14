@@ -1,0 +1,64 @@
+{
+  "id": 1796,
+  "slug": "tcpviewer-67a60e6571",
+  "name": "TCPViewer",
+  "mentions": [
+    {
+      "name": "TCPViewer",
+      "description": "A native macOS packet analyzer built as an alternative to Wireshark. Written in Cocoa (not SwiftUI) on top of libwireshark, it shows detailed packet views and supports protocols including TCP, UDP, DNS, and HTTP2.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "nghiatran_uit"
+      ],
+      "source_excerpt": "I spent few months to buil the alternative to Wireshark. Native macOS app, built with Cocoa (Sorry SwiftUI), on top of libwireshark, so you can see the packet details like Wireshark. Support TCP, UDP, DNS, HTTP2, ...\n\nhttps://tcpviewer.proxyman.com/",
+      "evidence": [
+        {
+          "source_item_id": 49234563,
+          "source_field": "body",
+          "value": "I spent few months to buil the alternative to Wireshark. Native macOS app, built with Cocoa (Sorry SwiftUI), on top of libwireshark, so you can see the packet details like Wireshark. Support TCP, UDP, DNS, HTTP2, ...\n\nhttps://tcpviewer.proxyman.com/",
+          "supports": [],
+          "author": "nghiatran_uit",
+          "shared_at": 1786302318,
+          "source_url": "https://news.ycombinator.com/item?id=49234563"
+        }
+      ],
+      "source_item_id": 49234563,
+      "source_url": "https://news.ycombinator.com/item?id=49234563",
+      "author": "nghiatran_uit",
+      "shared_at": 1786302318,
+      "links": [
+        "https://tcpviewer.proxyman.com/"
+      ]
+    },
+    {
+      "name": "TCPViewer",
+      "description": "Native macOS network packet viewer positioned as an easier-to-use alternative to Wireshark. Built on top of Wireshark libraries so it shows packet details like Wireshark, with a simpler interface. Open source and licensed under GPL-2.0.",
+      "problem": "Wireshark can see packet details but is not easy to use; TCPViewer aims to be a much easier-to-use alternative.",
+      "audience": null,
+      "builder_usernames": [
+        "nghiatran_uit"
+      ],
+      "source_excerpt": "I've worked on the new Alternative to Wireshark - TCPViewer https://tcpviewer.proxyman.com/\n\nNative macOS app, and build on top of Wireshark Libs, so you can see packet details like Wireshark, and it's much easier to use.\n\nOpen Source and License under GPL-2.0 at https://github.com/ProxymanApp/TCPViewer",
+      "evidence": [
+        {
+          "source_item_id": 48531531,
+          "source_field": "body",
+          "value": "I've worked on the new Alternative to Wireshark - TCPViewer https://tcpviewer.proxyman.com/\n\nNative macOS app, and build on top of Wireshark Libs, so you can see packet details like Wireshark, and it's much easier to use.\n\nOpen Source and License under GPL-2.0 at https://github.com/ProxymanApp/TCPViewer",
+          "supports": [],
+          "author": "nghiatran_uit",
+          "shared_at": 1781464826,
+          "source_url": "https://news.ycombinator.com/item?id=48531531"
+        }
+      ],
+      "source_item_id": 48531531,
+      "source_url": "https://news.ycombinator.com/item?id=48531531",
+      "author": "nghiatran_uit",
+      "shared_at": 1781464826,
+      "links": [
+        "https://github.com/ProxymanApp/TCPViewer",
+        "https://tcpviewer.proxyman.com/"
+      ]
+    }
+  ]
+}

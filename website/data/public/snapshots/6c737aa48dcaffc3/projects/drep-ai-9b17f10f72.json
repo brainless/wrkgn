@@ -1,0 +1,35 @@
+{
+  "id": 9527,
+  "slug": "drep-ai-9b17f10f72",
+  "name": "drep-ai",
+  "mentions": [
+    {
+      "name": "drep-ai",
+      "description": "A code review app powered by local or self-hosted LLMs, similar to Greptile or Copilot, that reviews and lints code with additional capabilities those tools lack.",
+      "problem": "Started as a way to lint the author's own code, addressing gaps in existing AI code review tools like Greptile and Copilot.",
+      "audience": null,
+      "builder_usernames": [
+        "randoengy"
+      ],
+      "source_excerpt": "I'm working on my own code review app powered by local or self hosted LLMs. It started as a way to lint my own code and took off from there. It's basically like greptile or co-pilot, but has some things that they don't:",
+      "evidence": [
+        {
+          "source_item_id": 45871015,
+          "source_field": "body",
+          "value": "I'm working on my own code review app powered by local or self hosted LLMs. It started as a way to lint my own code and took off from there. It's basically like greptile or co-pilot, but has some things that they don't:",
+          "supports": [],
+          "author": "randoengy",
+          "shared_at": 1762736869,
+          "source_url": "https://news.ycombinator.com/item?id=45871015"
+        }
+      ],
+      "source_item_id": 45871015,
+      "source_url": "https://news.ycombinator.com/item?id=45871015",
+      "author": "randoengy",
+      "shared_at": 1762736869,
+      "links": [
+        "https://drep-ai.org"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 5853,
+  "slug": "receiptbin-0af8a57780",
+  "name": "ReceiptBin",
+  "mentions": [
+    {
+      "name": "ReceiptBin",
+      "description": "Plenty of existing receipt-tracking apps feel out of place on iOS and lock basic features like OCR and autofill behind paywalls.",
+      "problem": "I built ReceiptBin because I wanted a simple way to track receipts and link them to my budgeting app.",
+      "audience": "This app tracks receipts and links them to a budgeting app, using Apple's VisionKit and Foundation Models for OCR and autofill at no cost. Receipts sync through iCloud, reports are generated entirely on-device, and the app supports widgets and Siri Shortcuts. The author plans a further update with bug fixes and new functionality.",
+      "builder_usernames": [
+        "nfredericks"
+      ],
+      "source_excerpt": "I built ReceiptBin because I wanted a simple way to track receipts and link them to my budgeting app.",
+      "evidence": [
+        {
+          "source_item_id": 47751091,
+          "source_field": "body",
+          "value": "I built ReceiptBin because I wanted a simple way to track receipts and link them to my budgeting app.",
+          "supports": [],
+          "author": "nfredericks",
+          "shared_at": 1776083760,
+          "source_url": "https://news.ycombinator.com/item?id=47751091"
+        }
+      ],
+      "source_item_id": 47751091,
+      "source_url": "https://news.ycombinator.com/item?id=47751091",
+      "author": "nfredericks",
+      "shared_at": 1776083760,
+      "links": [
+        "https://apps.apple.com/ca/app/receiptbin/id6761148891"
+      ]
+    }
+  ]
+}

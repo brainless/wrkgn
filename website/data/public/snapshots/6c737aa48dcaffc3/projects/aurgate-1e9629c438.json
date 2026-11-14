@@ -1,0 +1,33 @@
+{
+  "id": 3886,
+  "slug": "aurgate-1e9629c438",
+  "name": "aurgate",
+  "mentions": [
+    {
+      "name": "aurgate",
+      "description": "A minimal AUR helper for Arch Linux that provides a \"full diff\" workflow, making package upgrades feel like a full diff review, with support for graphical diff tools such as meld and the VS Code diff viewer.",
+      "problem": "Addresses the risk of AUR supply chain attacks by making package upgrades reviewable as full diffs.",
+      "audience": null,
+      "builder_usernames": [
+        "dominiwe"
+      ],
+      "source_excerpt": "First, `aurgate`, a small AUR helper which is more barebones than  alternatives but provides a \"full diff\" workflow. The idea is to make upgrades feel like a \"full diff review\" and also support graphical tools like meld or the vs code diff viewer.",
+      "evidence": [
+        {
+          "source_item_id": 48540191,
+          "source_field": "body",
+          "value": "First, `aurgate`, a small AUR helper which is more barebones than  alternatives but provides a \"full diff\" workflow. The idea is to make upgrades feel like a \"full diff review\" and also support graphical tools like meld or the vs code diff viewer.",
+          "supports": [],
+          "author": "dominiwe",
+          "shared_at": 1781525811,
+          "source_url": "https://news.ycombinator.com/item?id=48540191"
+        }
+      ],
+      "source_item_id": 48540191,
+      "source_url": "https://news.ycombinator.com/item?id=48540191",
+      "author": "dominiwe",
+      "shared_at": 1781525811,
+      "links": []
+    }
+  ]
+}

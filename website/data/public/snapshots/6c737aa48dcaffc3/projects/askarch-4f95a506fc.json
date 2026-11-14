@@ -1,0 +1,35 @@
+{
+  "id": 11134,
+  "slug": "askarch-4f95a506fc",
+  "name": "AskArch",
+  "mentions": [
+    {
+      "name": "AskArch",
+      "description": "An AI software architect chat app that answers questions about a codebase by extracting relevant information from both code and documentation at sufficient density to fit within the context window, and by deriving efficient criteria from arbitrarily phrased questions.",
+      "problem": "Extracting relevant information from code and documentation with enough density to stay within the context window, and turning arbitrarily phrased questions into efficient criteria.",
+      "audience": null,
+      "builder_usernames": [
+        "gengstrand"
+      ],
+      "source_excerpt": "I recently released an AI software architect chat app.\n\nhttps://www.exploravention.com/products/askarch/",
+      "evidence": [
+        {
+          "source_item_id": 43823108,
+          "source_field": "body",
+          "value": "I recently released an AI software architect chat app.\n\nhttps://www.exploravention.com/products/askarch/",
+          "supports": [],
+          "author": "gengstrand",
+          "shared_at": 1745856975,
+          "source_url": "https://news.ycombinator.com/item?id=43823108"
+        }
+      ],
+      "source_item_id": 43823108,
+      "source_url": "https://news.ycombinator.com/item?id=43823108",
+      "author": "gengstrand",
+      "shared_at": 1745856975,
+      "links": [
+        "https://www.exploravention.com/products/askarch/"
+      ]
+    }
+  ]
+}

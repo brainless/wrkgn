@@ -1,0 +1,35 @@
+{
+  "id": 8011,
+  "slug": "moollm-83844fc96b",
+  "name": "MOOLLM",
+  "mentions": [
+    {
+      "name": "MOOLLM",
+      "description": "A microworld operating system that treats the LLM as eval(), built on top of Anthropic's Skills framework with seven extensions: skill instantiation with per-instance state, K-line semantic activation names, empathic templates, three-tier persistence (platform/narrative/state), batching many turns into one call, machine-readable CARD.yml skill interfaces, and semantically meaningful comments that the model interprets. Instead of prompt engineering, the LLM inhabits a persistent github-repo filesystem microworld where characters keep state in directories and can reflect on and edit themselves; everything is inspectable and editable by both human and model, and it is model- and platform-independent (runs on Cursor and other tools/orchestrators). Includes a 150+ file text adventure example with 6000+ lines of session transcripts and 79 Anthropic-compatible skills.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "DonHopkins"
+      ],
+      "source_excerpt": "MOOLLM -- treating the LLM as eval() for a microworld operating system.\n\nStarted this incarnation on Dec 30, 2025 -- but it's the crystallization of decades of earlier prototypes, all the way back to my Commodore-64 Logo Adventure. Built on top of Anthropic's Skills framework, extended with seven innovations (and counting):",
+      "evidence": [
+        {
+          "source_item_id": 46579525,
+          "source_field": "body",
+          "value": "MOOLLM -- treating the LLM as eval() for a microworld operating system.\n\nStarted this incarnation on Dec 30, 2025 -- but it's the crystallization of decades of earlier prototypes, all the way back to my Commodore-64 Logo Adventure. Built on top of Anthropic's Skills framework, extended with seven innovations (and counting):",
+          "supports": [],
+          "author": "DonHopkins",
+          "shared_at": 1768162475,
+          "source_url": "https://news.ycombinator.com/item?id=46579525"
+        }
+      ],
+      "source_item_id": 46579525,
+      "source_url": "https://news.ycombinator.com/item?id=46579525",
+      "author": "DonHopkins",
+      "shared_at": 1768162475,
+      "links": [
+        "https://github.com/SimHacker/moollm"
+      ]
+    }
+  ]
+}

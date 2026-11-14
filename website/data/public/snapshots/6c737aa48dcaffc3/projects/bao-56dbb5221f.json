@@ -1,0 +1,63 @@
+{
+  "id": 6342,
+  "slug": "bao-56dbb5221f",
+  "name": "Bao",
+  "mentions": [
+    {
+      "name": "Bao",
+      "description": "This app takes an approach where data remains on local devices while the cloud provides encrypted storage for synchronization and peer exchange. Because cloud providers cannot access the data, the need for due diligence on cloud apps is reduced.",
+      "problem": "Applications on the public cloud raise strong concerns about data protection, and ensuring the security of customers' data in the cloud consumes a meaningful part of an architect's time.",
+      "audience": null,
+      "builder_usernames": [
+        "francink"
+      ],
+      "source_excerpt": "I am working on https://baolib.org.\n\nApplications on the public cloud raise strong concerns about data protection. As an architect, I spend a meaningful part of my time ensuring the security of customers’ data in the cloud.\n\nBao introduces an innovative approach where data remains on local devices while the cloud provides encrypted storage for synchronization and peer exchange. Because cloud providers cannot access the data, the need for due diligence is reduced.",
+      "evidence": [
+        {
+          "source_item_id": 47314933,
+          "source_field": "body",
+          "value": "I am working on https://baolib.org.\n\nApplications on the public cloud raise strong concerns about data protection. As an architect, I spend a meaningful part of my time ensuring the security of customers’ data in the cloud.\n\nBao introduces an innovative approach where data remains on local devices while the cloud provides encrypted storage for synchronization and peer exchange. Because cloud providers cannot access the data, the need for due diligence is reduced.",
+          "supports": [],
+          "author": "francink",
+          "shared_at": 1773087858,
+          "source_url": "https://news.ycombinator.com/item?id=47314933"
+        }
+      ],
+      "source_item_id": 47314933,
+      "source_url": "https://news.ycombinator.com/item?id=47314933",
+      "author": "francink",
+      "shared_at": 1773087858,
+      "links": [
+        "https://baolib.org"
+      ]
+    },
+    {
+      "name": "baolib",
+      "description": "Open-source library that encrypts application data on cloud storage, designed for local applications where remote storage serves as a synchronization medium between different peers. Encrypted content is accessible only to granted peers, and the library provides both file and SQL interfaces.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "francink"
+      ],
+      "source_excerpt": "I am working on an open-source library for encryption of application data on cloud storage  (https://baolib.org/). The idea is a local application where a remote storage is a synchronization media between different peers. \nThe storage is encrypted and content is accessible only to the granted peers. The library supports file and SQL interface.",
+      "evidence": [
+        {
+          "source_item_id": 47257935,
+          "source_field": "body",
+          "value": "I am working on an open-source library for encryption of application data on cloud storage  (https://baolib.org/). The idea is a local application where a remote storage is a synchronization media between different peers. \nThe storage is encrypted and content is accessible only to the granted peers. The library supports file and SQL interface.",
+          "supports": [],
+          "author": "francink",
+          "shared_at": 1772689032,
+          "source_url": "https://news.ycombinator.com/item?id=47257935"
+        }
+      ],
+      "source_item_id": 47257935,
+      "source_url": "https://news.ycombinator.com/item?id=47257935",
+      "author": "francink",
+      "shared_at": 1772689032,
+      "links": [
+        "https://baolib.org/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 6747,
+  "slug": "project-builder-9e66f275d1",
+  "name": "Project Builder",
+  "mentions": [
+    {
+      "name": "Project Builder",
+      "description": "This self-hosted project builder scaffolds new app projects from a name plus a few configuration options (payments, analytics), generating a templated Terraform build that deploys to GCP and app stores in one to three clicks. It provides a dashboard for editing each project's code via code-server with hot reloading, running applications in a small Kubernetes cluster with one pod per project, and a Deploy button that updates the production Cloud Run service. Git and versioning support is a work in progress.",
+      "problem": "Starting a new project eats cycles on boilerplate like auth setup, marketing pages, SEO, and mobile app release pipelines before real work begins.",
+      "audience": "Spins up templated application builds with Terraform for one-click deploy to GCP and app stores.",
+      "builder_usernames": [
+        "AJRF"
+      ],
+      "source_excerpt": "My project builder just takes a name, a few configuration options (do you need payments? Analytics?) and spits out a templated build with Terraform that I can 1 (okay maybe 3) click deploy to GCP + App Stores.",
+      "evidence": [
+        {
+          "source_item_id": 46943492,
+          "source_field": "body",
+          "value": "My project builder just takes a name, a few configuration options (do you need payments? Analytics?) and spits out a templated build with Terraform that I can 1 (okay maybe 3) click deploy to GCP + App Stores.",
+          "supports": [],
+          "author": "AJRF",
+          "shared_at": 1770630740,
+          "source_url": "https://news.ycombinator.com/item?id=46943492"
+        }
+      ],
+      "source_item_id": 46943492,
+      "source_url": "https://news.ycombinator.com/item?id=46943492",
+      "author": "AJRF",
+      "shared_at": 1770630740,
+      "links": []
+    }
+  ]
+}

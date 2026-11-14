@@ -1,0 +1,35 @@
+{
+  "id": 6339,
+  "slug": "ruley-linter-9d009abd8a",
+  "name": "Ruley Linter",
+  "mentions": [
+    {
+      "name": "Ruley Linter",
+      "description": "A simple HTML linter that lets users specify validators on tags of their choice, such as running a regex against an attribute's value or text node, enforcing min/max attribute length, marking attributes as required or blacklisted, and whitelisting or blacklisting allowed attribute values.",
+      "problem": "Built out of frustration with an electronics shop chain's contradictory requirements when preparing a product description HTML for the author's company's product.",
+      "audience": null,
+      "builder_usernames": [
+        "worldwidepaniel"
+      ],
+      "source_excerpt": "Built a very simple HTML linter.\n\nAs of now You can specify those validators on a tags of your choice:\n\n- Run a regex against a attribute's value/text node\n\n- Min/max length a attribute\n\n- Make a attribute required/blacklist it\n\n- Make a whitelist/blacklist of allowed values for a attribute\n\nhttps://github.com/worldwidepaniel/ruley-linter",
+      "evidence": [
+        {
+          "source_item_id": 47315238,
+          "source_field": "body",
+          "value": "Built a very simple HTML linter.\n\nAs of now You can specify those validators on a tags of your choice:\n\n- Run a regex against a attribute's value/text node\n\n- Min/max length a attribute\n\n- Make a attribute required/blacklist it\n\n- Make a whitelist/blacklist of allowed values for a attribute\n\nhttps://github.com/worldwidepaniel/ruley-linter",
+          "supports": [],
+          "author": "worldwidepaniel",
+          "shared_at": 1773088976,
+          "source_url": "https://news.ycombinator.com/item?id=47315238"
+        }
+      ],
+      "source_item_id": 47315238,
+      "source_url": "https://news.ycombinator.com/item?id=47315238",
+      "author": "worldwidepaniel",
+      "shared_at": 1773088976,
+      "links": [
+        "https://github.com/worldwidepaniel/ruley-linter"
+      ]
+    }
+  ]
+}

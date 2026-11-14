@@ -1,0 +1,35 @@
+{
+  "id": 5257,
+  "slug": "mssql-rs-892c9e0787",
+  "name": "mssql-rs",
+  "mentions": [
+    {
+      "name": "mssql-rs",
+      "description": "A Rust library implementing the MSSQL TDS protocol for building high-performance SQL Server clients. Its APIs allow near-direct data serialization to the wire instead of datatype materialization in Rust, making it suitable for high-performance language interop.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "saurabh5001"
+      ],
+      "source_excerpt": "Working on https://github.com/microsoft/mssql-rs\n\nIt has some interesting applications for building high performance clients for mssql with tds protocol implementation. \nThe APIs allow almost direct data serialization to wire instead of datatype materialization in rust. \nMakes for a suitable contender for high performance language interop.",
+      "evidence": [
+        {
+          "source_item_id": 47744887,
+          "source_field": "body",
+          "value": "Working on https://github.com/microsoft/mssql-rs\n\nIt has some interesting applications for building high performance clients for mssql with tds protocol implementation. \nThe APIs allow almost direct data serialization to wire instead of datatype materialization in rust. \nMakes for a suitable contender for high performance language interop.",
+          "supports": [],
+          "author": "saurabh5001",
+          "shared_at": 1776030357,
+          "source_url": "https://news.ycombinator.com/item?id=47744887"
+        }
+      ],
+      "source_item_id": 47744887,
+      "source_url": "https://news.ycombinator.com/item?id=47744887",
+      "author": "saurabh5001",
+      "shared_at": 1776030357,
+      "links": [
+        "https://github.com/microsoft/mssql-rs"
+      ]
+    }
+  ]
+}

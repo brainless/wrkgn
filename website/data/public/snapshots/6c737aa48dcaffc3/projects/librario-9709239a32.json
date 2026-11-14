@@ -1,0 +1,35 @@
+{
+  "id": 8335,
+  "slug": "librario-9709239a32",
+  "name": "Librario",
+  "mentions": [
+    {
+      "name": "Librario",
+      "description": "A book metadata aggregation API written in Go that fetches book information from multiple sources, intelligently merges the results, and stores everything in a PostgreSQL database for future lookups.",
+      "problem": null,
+      "audience": "Online booksellers, libraries, book-related startups, bookworms, and more",
+      "builder_usernames": [
+        "jamesponddotco"
+      ],
+      "source_excerpt": "Still working on Librario, a simple book metadata aggregation API written in Go. It fetches information about books from multiple sources, merges everything intelligently, and then saves it all to a PostgreSQL database for future lookups.",
+      "evidence": [
+        {
+          "source_item_id": 46266949,
+          "source_field": "body",
+          "value": "Still working on Librario, a simple book metadata aggregation API written in Go. It fetches information about books from multiple sources, merges everything intelligently, and then saves it all to a PostgreSQL database for future lookups.",
+          "supports": [],
+          "author": "jamesponddotco",
+          "shared_at": 1765746672,
+          "source_url": "https://news.ycombinator.com/item?id=46266949"
+        }
+      ],
+      "source_item_id": 46266949,
+      "source_url": "https://news.ycombinator.com/item?id=46266949",
+      "author": "jamesponddotco",
+      "shared_at": 1765746672,
+      "links": [
+        "https://sr.ht/~pagina394/librario/"
+      ]
+    }
+  ]
+}

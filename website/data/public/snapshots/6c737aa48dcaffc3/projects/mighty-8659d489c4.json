@@ -1,0 +1,35 @@
+{
+  "id": 10021,
+  "slug": "mighty-8659d489c4",
+  "name": "Mighty",
+  "mentions": [
+    {
+      "name": "Mighty",
+      "description": "This library lets you render Astro components everywhere, building on Astro's Container API. It provides Vite integration with local dev and hot reload, styling support, a simple way to import Astro components, and backend adapters for Hono and Laravel at first release.",
+      "problem": "Astro historically lacked a renderToString-style API for server rendering; the newer Container API still has rough edges: importing components is a hassle, there is no Vite integration (no local dev or hot reload), and no styling support.",
+      "audience": null,
+      "builder_usernames": [
+        "adevilinyc"
+      ],
+      "source_excerpt": "I'm building Mighty, a library that lets you render Astro components everywhere.",
+      "evidence": [
+        {
+          "source_item_id": 45420138,
+          "source_field": "body",
+          "value": "I'm building Mighty, a library that lets you render Astro components everywhere.",
+          "supports": [],
+          "author": "adevilinyc",
+          "shared_at": 1759188481,
+          "source_url": "https://news.ycombinator.com/item?id=45420138"
+        }
+      ],
+      "source_item_id": 45420138,
+      "source_url": "https://news.ycombinator.com/item?id=45420138",
+      "author": "adevilinyc",
+      "shared_at": 1759188481,
+      "links": [
+        "https://go-mighty.vercel.app/"
+      ]
+    }
+  ]
+}

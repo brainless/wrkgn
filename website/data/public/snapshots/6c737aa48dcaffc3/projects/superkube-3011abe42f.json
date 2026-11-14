@@ -1,0 +1,35 @@
+{
+  "id": 4749,
+  "slug": "superkube-3011abe42f",
+  "name": "superkube",
+  "mentions": [
+    {
+      "name": "superkube",
+      "description": "A Kubernetes-compatible single binary service for various runtimes, written in Rust. Currently supports docker, containerd, and wasm runtimes, with JVM and KVM support in progress. Works as is on macOS and includes a mock runtime for testing distributed services.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "debarshri"
+      ],
+      "source_excerpt": "I am writing kubernetes compatible single binary service for various runtimes in rust [1]. Currently supports docker, containerd, wasm runtimes. I am adding support for jvm and kvm, etc. Works as is in macos. There is mock runtime too to mock it for various testing various distributed services etc.",
+      "evidence": [
+        {
+          "source_item_id": 48095064,
+          "source_field": "body",
+          "value": "I am writing kubernetes compatible single binary service for various runtimes in rust [1]. Currently supports docker, containerd, wasm runtimes. I am adding support for jvm and kvm, etc. Works as is in macos. There is mock runtime too to mock it for various testing various distributed services etc.",
+          "supports": [],
+          "author": "debarshri",
+          "shared_at": 1778507737,
+          "source_url": "https://news.ycombinator.com/item?id=48095064"
+        }
+      ],
+      "source_item_id": 48095064,
+      "source_url": "https://news.ycombinator.com/item?id=48095064",
+      "author": "debarshri",
+      "shared_at": 1778507737,
+      "links": [
+        "https://github.com/debarshibasak/superkube"
+      ]
+    }
+  ]
+}

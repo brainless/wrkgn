@@ -1,0 +1,36 @@
+{
+  "id": 4557,
+  "slug": "orcamarka-f81e26a537",
+  "name": "OrcaMarka",
+  "mentions": [
+    {
+      "name": "OrcaMarka",
+      "description": "A web-based tool that simplifies reading web content on e-paper devices, split into two parts: a mobile-friendly app at app.orcamarka.com for bookmarking websites, text snippets, or images into a pure text format, and a reader site at m.orcamarka.com optimized for the limited browsers on devices like the Kindle (auto-redirecting to the app for capable browsers). The reader displays a QR code that can be scanned with the app to sync and load saved text without typing URLs on E-ink. It is a free web app with no installation required, and the author is seeking beta testers for workflow feedback.",
+      "problem": "Reading web content on e-paper devices is painful due to limited device browsers and the difficulty of typing URLs on E-ink screens.",
+      "audience": "general-public",
+      "builder_usernames": [
+        "saladsmander"
+      ],
+      "source_excerpt": "I’m working on OrcaMarka, a tool designed to simplify reading web content on e-paper devices.",
+      "evidence": [
+        {
+          "source_item_id": 48090681,
+          "source_field": "body",
+          "value": "I’m working on OrcaMarka, a tool designed to simplify reading web content on e-paper devices.",
+          "supports": [],
+          "author": "saladsmander",
+          "shared_at": 1778469088,
+          "source_url": "https://news.ycombinator.com/item?id=48090681"
+        }
+      ],
+      "source_item_id": 48090681,
+      "source_url": "https://news.ycombinator.com/item?id=48090681",
+      "author": "saladsmander",
+      "shared_at": 1778469088,
+      "links": [
+        "https://app.orcamarka.com",
+        "https://m.orcamarka.com"
+      ]
+    }
+  ]
+}

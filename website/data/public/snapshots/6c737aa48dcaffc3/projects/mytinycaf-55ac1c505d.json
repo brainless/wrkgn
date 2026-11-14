@@ -1,0 +1,63 @@
+{
+  "id": 1301,
+  "slug": "mytinycaf-55ac1c505d",
+  "name": "MyTinyCafé",
+  "mentions": [
+    {
+      "name": "MyTinyCafé",
+      "description": "A PWA that helps people be the barista at home and take free online orders from friends and family.",
+      "problem": null,
+      "audience": "Home baristas taking orders from friends and family",
+      "builder_usernames": [
+        "krlx"
+      ],
+      "source_excerpt": "I am still working on MyTinyCafé https://mytinycafe.com/ a PWA to help you be the barista at home and take (free) online order from friends and family.",
+      "evidence": [
+        {
+          "source_item_id": 49690898,
+          "source_field": "body",
+          "value": "I am still working on MyTinyCafé https://mytinycafe.com/ a PWA to help you be the barista at home and take (free) online order from friends and family.",
+          "supports": [],
+          "author": "krlx",
+          "shared_at": 1789350766,
+          "source_url": "https://news.ycombinator.com/item?id=49690898"
+        }
+      ],
+      "source_item_id": 49690898,
+      "source_url": "https://news.ycombinator.com/item?id=49690898",
+      "author": "krlx",
+      "shared_at": 1789350766,
+      "links": [
+        "https://mytinycafe.com/"
+      ]
+    },
+    {
+      "name": "My Tiny Café",
+      "description": "A progressive web app that turns the home into a tiny café: family members and guests browse a menu and order drinks (and any custom items) as if at a fancy downtown café, while the author plays barista filling each order. It sends Web Push notifications so new orders are never missed, and is built as a Nuxt 3 app with Appwrite as the backend, with rough edges but sufficient for household use.",
+      "problem": null,
+      "audience": "The author's wife and daughter primarily, plus visiting friends who can order exactly the available beverages so everything is ready when they arrive.",
+      "builder_usernames": [
+        "krlx"
+      ],
+      "source_excerpt": "An PWA primarily for my wife and my daughter. They can order their hot chocolate and their coffee as if they were going to grab something at a fancy café downtown, but instead it's at home and I'm the barista.",
+      "evidence": [
+        {
+          "source_item_id": 46267172,
+          "source_field": "body",
+          "value": "An PWA primarily for my wife and my daughter. They can order their hot chocolate and their coffee as if they were going to grab something at a fancy café downtown, but instead it's at home and I'm the barista.",
+          "supports": [],
+          "author": "krlx",
+          "shared_at": 1765747949,
+          "source_url": "https://news.ycombinator.com/item?id=46267172"
+        }
+      ],
+      "source_item_id": 46267172,
+      "source_url": "https://news.ycombinator.com/item?id=46267172",
+      "author": "krlx",
+      "shared_at": 1765747949,
+      "links": [
+        "https://mytinycafe.com/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 3795,
+  "slug": "pyc-0c2aff398d",
+  "name": "pyc",
+  "mentions": [
+    {
+      "name": "pyc",
+      "description": "This compiler for Python 3.14.x generates static code, enabling Python programs to be deployed without exporting the entire environment or building a container. It is early stage and still a work in progress.",
+      "problem": "Deploying Python code currently requires either exporting the entire environment or building a container; the latter is not possible in a number of deployment cases, and the former carries dependency radius gotchas.",
+      "audience": "People deploying Python code",
+      "builder_usernames": [
+        "hpcjoe"
+      ],
+      "source_excerpt": "pyc is a work in progress.",
+      "evidence": [
+        {
+          "source_item_id": 48531799,
+          "source_field": "body",
+          "value": "pyc is a work in progress.",
+          "supports": [],
+          "author": "hpcjoe",
+          "shared_at": 1781466128,
+          "source_url": "https://news.ycombinator.com/item?id=48531799"
+        }
+      ],
+      "source_item_id": 48531799,
+      "source_url": "https://news.ycombinator.com/item?id=48531799",
+      "author": "hpcjoe",
+      "shared_at": 1781466128,
+      "links": [
+        "https://github.com/joelandman/pyc"
+      ]
+    }
+  ]
+}

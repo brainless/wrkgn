@@ -1,0 +1,33 @@
+{
+  "id": 5782,
+  "slug": "postgresql-backed-persistent-queues-crate-for-rust-e5c933e49e",
+  "name": "PostgreSQL-backed persistent queues crate for Rust",
+  "mentions": [
+    {
+      "name": "PostgreSQL-backed persistent queues crate for Rust",
+      "description": "A PostgreSQL-backed persistent queue crate for Rust offering essential job-queue features such as retryability, scheduling, poison job detection, barriers, and backoff strategies. The author built it after finding no existing crate ergonomic enough with these features, currently uses it in another project, and plans to open-source it in the near future.",
+      "problem": "No existing Rust crate was ergonomic enough or provided the author's deemed-essential queue features (retryability, scheduling, poison job detection, barriers, backoff strategies).",
+      "audience": null,
+      "builder_usernames": [
+        "xlii"
+      ],
+      "source_excerpt": "Postgresql backed persistent queues crate for Rust.\n\nI couldn't find any crate that would be ergonomic enough to use and provide features I deem essential, i.e. retryability, scheduling, poison job detection, barriers, backoff strategies etc.",
+      "evidence": [
+        {
+          "source_item_id": 47748560,
+          "source_field": "body",
+          "value": "Postgresql backed persistent queues crate for Rust.\n\nI couldn't find any crate that would be ergonomic enough to use and provide features I deem essential, i.e. retryability, scheduling, poison job detection, barriers, backoff strategies etc.",
+          "supports": [],
+          "author": "xlii",
+          "shared_at": 1776063175,
+          "source_url": "https://news.ycombinator.com/item?id=47748560"
+        }
+      ],
+      "source_item_id": 47748560,
+      "source_url": "https://news.ycombinator.com/item?id=47748560",
+      "author": "xlii",
+      "shared_at": 1776063175,
+      "links": []
+    }
+  ]
+}

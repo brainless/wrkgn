@@ -1,0 +1,35 @@
+{
+  "id": 8450,
+  "slug": "htvend-c7be091ffe",
+  "name": "htvend",
+  "mentions": [
+    {
+      "name": "htvend",
+      "description": "This tool captures the internet dependencies needed to perform a task by building a manifest of internet assets that can be checked into a project. The manifest acts as an upstream package lock file for any asset type and can be reused to rebuild an application if upstream assets are removed or when there is no internet connectivity. It includes an experimental GitHub action that integrates with GitHub builds and archives assets to S3.",
+      "problem": "Rebuilding an application fails when upstream internet assets are removed or when working without internet connectivity.",
+      "audience": null,
+      "builder_usernames": [
+        "aeijdenberg"
+      ],
+      "source_excerpt": "htvend is a tool to help you capture any internet dependencies needed in order to perform a task.\n\nIt builds a manifest of internet assets needed, which you can check-in with your project.",
+      "evidence": [
+        {
+          "source_item_id": 46272643,
+          "source_field": "body",
+          "value": "htvend is a tool to help you capture any internet dependencies needed in order to perform a task.\n\nIt builds a manifest of internet assets needed, which you can check-in with your project.",
+          "supports": [],
+          "author": "aeijdenberg",
+          "shared_at": 1765794531,
+          "source_url": "https://news.ycombinator.com/item?id=46272643"
+        }
+      ],
+      "source_item_id": 46272643,
+      "source_url": "https://news.ycombinator.com/item?id=46272643",
+      "author": "aeijdenberg",
+      "shared_at": 1765794531,
+      "links": [
+        "https://github.com/continusec/htvend/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 6433,
+  "slug": "securenote-4fa03d1c16",
+  "name": "SecureNote",
+  "mentions": [
+    {
+      "name": "SecureNote",
+      "description": "This app provides fully encrypted note sharing: notes are encrypted locally on the client before being sent to the server. It functions like a mixture of GitHub Gists (without Git) and 1Password shares, used to share snippets and private information.",
+      "problem": "There was a need for a tool combining GitHub Gists (sans Git) and 1Password shares to securely share snippets and private stuff.",
+      "audience": null,
+      "builder_usernames": [
+        "pdappollonio"
+      ],
+      "source_excerpt": "https://securenote.app.\n\nFull encryption for notes (uses local encryption before you even sent the note to the server).\n\nI wanted a mixture of Github Gists (sans Git) and 1Password shares so I've been using it eitj great success at my current company to share snippets and private stuff.",
+      "evidence": [
+        {
+          "source_item_id": 47305146,
+          "source_field": "body",
+          "value": "https://securenote.app.\n\nFull encryption for notes (uses local encryption before you even sent the note to the server).\n\nI wanted a mixture of Github Gists (sans Git) and 1Password shares so I've been using it eitj great success at my current company to share snippets and private stuff.",
+          "supports": [],
+          "author": "pdappollonio",
+          "shared_at": 1773033509,
+          "source_url": "https://news.ycombinator.com/item?id=47305146"
+        }
+      ],
+      "source_item_id": 47305146,
+      "source_url": "https://news.ycombinator.com/item?id=47305146",
+      "author": "pdappollonio",
+      "shared_at": 1773033509,
+      "links": [
+        "https://securenote.app"
+      ]
+    },
+    {
+      "name": "securenote.app",
+      "description": "A note-taking service with markdown support that fully encrypts data before it leaves the user's computer, so the operator has no way to read the notes since it never has access to the password that encrypted them. Still iterating, including potential improvements to the simple design.",
+      "problem": "Notes stored with a service provider can be read by that provider; this service encrypts notes client-side so the operator cannot see them.",
+      "audience": null,
+      "builder_usernames": [
+        "pdappollonio"
+      ],
+      "source_excerpt": "I finally put my \"securenote.app\" domain to good use. It's a note taking service with markdown support where the data is fully encrypted before it even leaves your computer with no way for me to see your notes (as I don't have access to the password that encrypted it).",
+      "evidence": [
+        {
+          "source_item_id": 46941793,
+          "source_field": "body",
+          "value": "I finally put my \"securenote.app\" domain to good use. It's a note taking service with markdown support where the data is fully encrypted before it even leaves your computer with no way for me to see your notes (as I don't have access to the password that encrypted it).",
+          "supports": [],
+          "author": "pdappollonio",
+          "shared_at": 1770613861,
+          "source_url": "https://news.ycombinator.com/item?id=46941793"
+        }
+      ],
+      "source_item_id": 46941793,
+      "source_url": "https://news.ycombinator.com/item?id=46941793",
+      "author": "pdappollonio",
+      "shared_at": 1770613861,
+      "links": [
+        "https://securenote.app"
+      ]
+    }
+  ]
+}

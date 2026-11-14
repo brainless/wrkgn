@@ -1,0 +1,35 @@
+{
+  "id": 8369,
+  "slug": "strata-7668ca6c35",
+  "name": "Strata",
+  "mentions": [
+    {
+      "name": "Strata",
+      "description": "A log analyzer built on a native C++ engine with a Flutter UI that opens 50GB log files in 8 seconds without excessive RAM usage and maintains 60fps scrolling. Runs on Windows, Linux, and macOS, and includes DevOps/SRE features such as live SSH tailing, JSON analysis and formatting, and context-aware search with regex, text, and JSON-field queries. Currently in beta with about 70% of the functionality done.",
+      "problem": "Existing log analysis tools choke on huge log files, eating RAM and becoming unusable.",
+      "audience": "DevOps teams and SREs",
+      "builder_usernames": [
+        "StrataCreator"
+      ],
+      "source_excerpt": "I'm working on a Log analyzer, something that doesn't choke on huge files. I ended up building something that can open a 50GB log file in 8 seconds and not eat your RAM, while maintaining 60fps when scrolling.",
+      "evidence": [
+        {
+          "source_item_id": 46300743,
+          "source_field": "body",
+          "value": "I'm working on a Log analyzer, something that doesn't choke on huge files. I ended up building something that can open a 50GB log file in 8 seconds and not eat your RAM, while maintaining 60fps when scrolling.",
+          "supports": [],
+          "author": "StrataCreator",
+          "shared_at": 1765970601,
+          "source_url": "https://news.ycombinator.com/item?id=46300743"
+        }
+      ],
+      "source_item_id": 46300743,
+      "source_url": "https://news.ycombinator.com/item?id=46300743",
+      "author": "StrataCreator",
+      "shared_at": 1765970601,
+      "links": [
+        "https://getstrata.co.uk/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 5080,
+  "slug": "ai-driven-linux-distro-with-model-backed-home-2fd067e1a5",
+  "name": "AI-driven Linux distro with model-backed /home",
+  "mentions": [
+    {
+      "name": "AI-driven Linux distro with model-backed /home",
+      "description": "This experimental Linux distribution stores /home as an encoded binary model instead of ordinary files and boots into a custom Vulkan-based, GPU-accelerated browser interface (like a game engine or Blender with hidden controls and parameters), where updates are driven by AI given a prompt. It uses BPF and sched_ext to manage behind-the-scenes telemetry and observability, informing the AI so it can tweak the system's run state. The system runs as root with no unique OS users, and the AI protects the model unless given the appropriate secret; it is an experiment, not a production system.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Sh0000reZ"
+      ],
+      "source_excerpt": "Linux distribution experiment where all user data (/home) is loaded from a model\n\nDistro boots to a custom Vulkan based, GPU accelerated browser; like a game engine or blender where the controls/parameters are hidden and updates are driven by AI given a prompt",
+      "evidence": [
+        {
+          "source_item_id": 48096573,
+          "source_field": "body",
+          "value": "Linux distribution experiment where all user data (/home) is loaded from a model\n\nDistro boots to a custom Vulkan based, GPU accelerated browser; like a game engine or blender where the controls/parameters are hidden and updates are driven by AI given a prompt",
+          "supports": [],
+          "author": "Sh0000reZ",
+          "shared_at": 1778514424,
+          "source_url": "https://news.ycombinator.com/item?id=48096573"
+        }
+      ],
+      "source_item_id": 48096573,
+      "source_url": "https://news.ycombinator.com/item?id=48096573",
+      "author": "Sh0000reZ",
+      "shared_at": 1778514424,
+      "links": []
+    }
+  ]
+}

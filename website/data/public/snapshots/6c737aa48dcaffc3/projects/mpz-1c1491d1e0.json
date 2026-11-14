@@ -1,0 +1,35 @@
+{
+  "id": 9403,
+  "slug": "mpz-1c1491d1e0",
+  "name": "mpz",
+  "mentions": [
+    {
+      "name": "mpz",
+      "description": "This music player app currently works as a standalone player and is adding MPD client mode, enabling playback on a separate MPD server/device while keeping the same music player interface. The project's code is at the linked GitHub repository.",
+      "problem": "The author wanted the ability to play music on a separate device without giving up the music player UX they like.",
+      "audience": null,
+      "builder_usernames": [
+        "oleg_antonyan"
+      ],
+      "source_excerpt": "Working on adding MPD [1] client mode to my music player: https://github.com/olegantonyan/mpz\n\nCurrently it works as standalone player. Addition of MPD client mode opens possibility to play music on a separate device while keeping the UX of the music player that I like.",
+      "evidence": [
+        {
+          "source_item_id": 45874256,
+          "source_field": "body",
+          "value": "Working on adding MPD [1] client mode to my music player: https://github.com/olegantonyan/mpz\n\nCurrently it works as standalone player. Addition of MPD client mode opens possibility to play music on a separate device while keeping the UX of the music player that I like.",
+          "supports": [],
+          "author": "oleg_antonyan",
+          "shared_at": 1762767692,
+          "source_url": "https://news.ycombinator.com/item?id=45874256"
+        }
+      ],
+      "source_item_id": 45874256,
+      "source_url": "https://news.ycombinator.com/item?id=45874256",
+      "author": "oleg_antonyan",
+      "shared_at": 1762767692,
+      "links": [
+        "https://github.com/olegantonyan/mpz"
+      ]
+    }
+  ]
+}

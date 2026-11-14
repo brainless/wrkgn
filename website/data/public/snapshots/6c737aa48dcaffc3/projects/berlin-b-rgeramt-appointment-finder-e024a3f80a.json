@@ -1,0 +1,36 @@
+{
+  "id": 10299,
+  "slug": "berlin-b-rgeramt-appointment-finder-e024a3f80a",
+  "name": "Berlin Bürgeramt appointment finder",
+  "mentions": [
+    {
+      "name": "Berlin Bürgeramt appointment finder",
+      "description": "A tool that finds open appointment slots for the Berlin Bürgeramt (city residents' office). After being blocked last month by anti-bot measures, it is being rebuilt to drive a real browser via Playwright instead of using Python requests, with help from city employees confirming it follows the rules.",
+      "problem": "The tool was blocked by the Bürgeramt's anti-bot measures, making appointment availability hard to monitor.",
+      "audience": null,
+      "builder_usernames": [
+        "nicbou"
+      ],
+      "source_excerpt": "A few years ago I've made an appointment finder for the Berlin Bürgeramt. It got blocked by anti bot measures last month so I'm now fixing it. Basically, I'm moving from Python requests to running an actual browser with Playwright.",
+      "evidence": [
+        {
+          "source_item_id": 45383841,
+          "source_field": "body",
+          "value": "A few years ago I've made an appointment finder for the Berlin Bürgeramt. It got blocked by anti bot measures last month so I'm now fixing it. Basically, I'm moving from Python requests to running an actual browser with Playwright.",
+          "supports": [],
+          "author": "nicbou",
+          "shared_at": 1758872302,
+          "source_url": "https://news.ycombinator.com/item?id=45383841"
+        }
+      ],
+      "source_item_id": 45383841,
+      "source_url": "https://news.ycombinator.com/item?id=45383841",
+      "author": "nicbou",
+      "shared_at": 1758872302,
+      "links": [
+        "https://github.com/All-About-Berlin/burgeramt-appointments",
+        "https://nicolasbouliane.com/projects/appointment-finder"
+      ]
+    }
+  ]
+}

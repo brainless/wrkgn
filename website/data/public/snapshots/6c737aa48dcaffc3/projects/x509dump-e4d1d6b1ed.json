@@ -1,0 +1,35 @@
+{
+  "id": 5189,
+  "slug": "x509dump-e4d1d6b1ed",
+  "name": "x509dump",
+  "mentions": [
+    {
+      "name": "x509dump",
+      "description": "A command-line tool that decodes X.509 certificates and certificate signing requests (CSRs) into structured JSON instead of OpenSSL-style text output. It decodes the underlying ASN.1/DER structure so fields and extensions are fully expanded, making the output easy to work with programmatically. Planned expansions include support for more PKI artifacts such as CRLs and keys, and more tolerant handling of less well-formed real-world inputs (missing PEM headers/footers, whitespace, or extra surrounding text). Free to download.",
+      "problem": "OpenSSL-style certificate text output is hard to work with programmatically, and real-world certificate data often contains less well-formed inputs (missing PEM headers/footers, whitespace, or extra surrounding text).",
+      "audience": null,
+      "builder_usernames": [
+        "phil_r"
+      ],
+      "source_excerpt": "It’s a command-line tool for decoding certificates and CSRs into structured JSON rather than OpenSSL-style text output.",
+      "evidence": [
+        {
+          "source_item_id": 47746705,
+          "source_field": "body",
+          "value": "It’s a command-line tool for decoding certificates and CSRs into structured JSON rather than OpenSSL-style text output.",
+          "supports": [],
+          "author": "phil_r",
+          "shared_at": 1776045909,
+          "source_url": "https://news.ycombinator.com/item?id=47746705"
+        }
+      ],
+      "source_item_id": 47746705,
+      "source_url": "https://news.ycombinator.com/item?id=47746705",
+      "author": "phil_r",
+      "shared_at": 1776045909,
+      "links": [
+        "https://www.redkestrel.co.uk/products/x509dump"
+      ]
+    }
+  ]
+}

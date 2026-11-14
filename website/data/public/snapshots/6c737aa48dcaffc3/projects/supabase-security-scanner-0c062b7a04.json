@@ -1,0 +1,33 @@
+{
+  "id": 6385,
+  "slug": "supabase-security-scanner-0c062b7a04",
+  "name": "Supabase security scanner",
+  "mentions": [
+    {
+      "name": "Supabase security scanner",
+      "description": "A security scanner for Supabase projects that includes proof-of-concept exploits and verification of findings before and after remediation, eliminating false positives. The author is offering free scans at launch.",
+      "problem": "Security scanning tools produce false positives and lack proof-of-concept verification before and after remediation.",
+      "audience": null,
+      "builder_usernames": [
+        "RamblingCTO"
+      ],
+      "source_excerpt": "Also launching a supabase security scanner. If someone wants a free scan hit me up. Includes POCs and verification before and after remidiation. Goodbye false positives.",
+      "evidence": [
+        {
+          "source_item_id": 47306242,
+          "source_field": "body",
+          "value": "Also launching a supabase security scanner. If someone wants a free scan hit me up. Includes POCs and verification before and after remidiation. Goodbye false positives.",
+          "supports": [],
+          "author": "RamblingCTO",
+          "shared_at": 1773045039,
+          "source_url": "https://news.ycombinator.com/item?id=47306242"
+        }
+      ],
+      "source_item_id": 47306242,
+      "source_url": "https://news.ycombinator.com/item?id=47306242",
+      "author": "RamblingCTO",
+      "shared_at": 1773045039,
+      "links": []
+    }
+  ]
+}

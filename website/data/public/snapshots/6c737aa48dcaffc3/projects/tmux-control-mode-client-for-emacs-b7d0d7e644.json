@@ -1,0 +1,35 @@
+{
+  "id": 4102,
+  "slug": "tmux-control-mode-client-for-emacs-b7d0d7e644",
+  "name": "Tmux control-mode client for Emacs",
+  "mentions": [
+    {
+      "name": "Tmux control-mode client for Emacs",
+      "description": "An Emacs client that uses tmux's control mode to bring tmux session handling into Emacs, aiming to replicate how well tmux integrates with iTerm, including for running TUIs on remote hosts. Work in progress.",
+      "problem": "The author found themselves ditching Emacs for iTerm when running TUIs inside tmux on remote hosts, since tmux works so well inside iTerm; this tool tries to replicate that experience inside Emacs.",
+      "audience": null,
+      "builder_usernames": [
+        "csheaff"
+      ],
+      "source_excerpt": "Tmux control-mode client for Emacs\n\nhttps://github.com/csheaff/tmux-control\n\nI found myself ditching Emacs for iTerm when running TUIs inside tmux on remote hosts. I'm trying to replicate how good tmux is inside iTerm, but it's tough. wip.",
+      "evidence": [
+        {
+          "source_item_id": 48532539,
+          "source_field": "body",
+          "value": "Tmux control-mode client for Emacs\n\nhttps://github.com/csheaff/tmux-control\n\nI found myself ditching Emacs for iTerm when running TUIs inside tmux on remote hosts. I'm trying to replicate how good tmux is inside iTerm, but it's tough. wip.",
+          "supports": [],
+          "author": "csheaff",
+          "shared_at": 1781470273,
+          "source_url": "https://news.ycombinator.com/item?id=48532539"
+        }
+      ],
+      "source_item_id": 48532539,
+      "source_url": "https://news.ycombinator.com/item?id=48532539",
+      "author": "csheaff",
+      "shared_at": 1781470273,
+      "links": [
+        "https://github.com/csheaff/tmux-control"
+      ]
+    }
+  ]
+}

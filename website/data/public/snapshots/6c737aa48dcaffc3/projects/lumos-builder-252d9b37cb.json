@@ -1,0 +1,35 @@
+{
+  "id": 11078,
+  "slug": "lumos-builder-252d9b37cb",
+  "name": "Lumos Builder",
+  "mentions": [
+    {
+      "name": "Lumos Builder",
+      "description": "An AI web app builder that generates application code and automatically sets up a Postgres database (via Neon), making it easier to get started and enabling large complex apps that require auth and a database, while also handling simple websites. Built on Next.js with easily exportable and viewable code, and powered primarily by Claude Sonnet 3.7 and Gemini Pro 2.5 with other models selectable.",
+      "problem": "AI web app builders typically don't set up a database for you, making it harder to get started and to build large complex apps that require auth and a database.",
+      "audience": null,
+      "builder_usernames": [
+        "abiraja"
+      ],
+      "source_excerpt": "Working on a web app builder that generates code via AI, much like hundreds of other tools out there. The differentiator is that the tool automatically sets up a Postgres DB (using Neon) for you. So, it's a lot easier to get started and it can handle large complex apps that require auth and database, but it can also build simple websites.",
+      "evidence": [
+        {
+          "source_item_id": 43822362,
+          "source_field": "body",
+          "value": "Working on a web app builder that generates code via AI, much like hundreds of other tools out there. The differentiator is that the tool automatically sets up a Postgres DB (using Neon) for you. So, it's a lot easier to get started and it can handle large complex apps that require auth and database, but it can also build simple websites.",
+          "supports": [],
+          "author": "abiraja",
+          "shared_at": 1745853062,
+          "source_url": "https://news.ycombinator.com/item?id=43822362"
+        }
+      ],
+      "source_item_id": 43822362,
+      "source_url": "https://news.ycombinator.com/item?id=43822362",
+      "author": "abiraja",
+      "shared_at": 1745853062,
+      "links": [
+        "https://lumosbuilder.com?ref=hn"
+      ]
+    }
+  ]
+}

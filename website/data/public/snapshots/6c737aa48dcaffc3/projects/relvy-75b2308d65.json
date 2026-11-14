@@ -1,0 +1,35 @@
+{
+  "id": 7307,
+  "slug": "relvy-75b2308d65",
+  "name": "Relvy",
+  "mentions": [
+    {
+      "name": "Relvy",
+      "description": "An on-call runbook execution engine that takes plain-text runbook steps — such as checking logs for a service or looking at a dashboard — and executes them automatically when an alert fires.",
+      "problem": null,
+      "audience": "On-call engineers",
+      "builder_usernames": [
+        "behat"
+      ],
+      "source_excerpt": "An on-call runbook execution engine - being able to take plain text runbook steps like \n- look at logs for $service, check for dependency failures\n- look at so-and-so dashboard.\n\nand execute them when an alert fires.",
+      "evidence": [
+        {
+          "source_item_id": 46949241,
+          "source_field": "body",
+          "value": "An on-call runbook execution engine - being able to take plain text runbook steps like \n- look at logs for $service, check for dependency failures\n- look at so-and-so dashboard.\n\nand execute them when an alert fires.",
+          "supports": [],
+          "author": "behat",
+          "shared_at": 1770663135,
+          "source_url": "https://news.ycombinator.com/item?id=46949241"
+        }
+      ],
+      "source_item_id": 46949241,
+      "source_url": "https://news.ycombinator.com/item?id=46949241",
+      "author": "behat",
+      "shared_at": 1770663135,
+      "links": [
+        "https://www.relvy.ai"
+      ]
+    }
+  ]
+}

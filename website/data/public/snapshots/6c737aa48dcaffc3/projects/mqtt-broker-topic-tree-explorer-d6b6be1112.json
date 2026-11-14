@@ -1,0 +1,35 @@
+{
+  "id": 6419,
+  "slug": "mqtt-broker-topic-tree-explorer-d6b6be1112",
+  "name": "MQTT Broker/Topic Tree Explorer",
+  "mentions": [
+    {
+      "name": "MQTT Broker/Topic Tree Explorer",
+      "description": "A visual explorer for MQTT brokers and topic trees that helps users understand what kinds of data are moving through their broker and which data is busiest, presented in an appealing way. Open source under the MIT license.",
+      "problem": "It's hard to understand what kinds of data are moving through an MQTT broker and what the busiest data is.",
+      "audience": null,
+      "builder_usernames": [
+        "secretdark"
+      ],
+      "source_excerpt": "I've been working on an MQTT Broker/Topic tree explorer. It's intended to help someone understand what kinds of data are moving through their broker, what the busiest data is, and just generally be pretty.",
+      "evidence": [
+        {
+          "source_item_id": 47307732,
+          "source_field": "body",
+          "value": "I've been working on an MQTT Broker/Topic tree explorer. It's intended to help someone understand what kinds of data are moving through their broker, what the busiest data is, and just generally be pretty.",
+          "supports": [],
+          "author": "secretdark",
+          "shared_at": 1773056278,
+          "source_url": "https://news.ycombinator.com/item?id=47307732"
+        }
+      ],
+      "source_item_id": 47307732,
+      "source_url": "https://news.ycombinator.com/item?id=47307732",
+      "author": "secretdark",
+      "shared_at": 1773056278,
+      "links": [
+        "https://ryanbateman.github.io/mqtt_vis/"
+      ]
+    }
+  ]
+}

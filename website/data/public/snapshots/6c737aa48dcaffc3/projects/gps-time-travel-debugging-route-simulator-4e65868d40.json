@@ -1,0 +1,33 @@
+{
+  "id": 3699,
+  "slug": "gps-time-travel-debugging-route-simulator-4e65868d40",
+  "name": "GPS time-travel debugging route simulator",
+  "mentions": [
+    {
+      "name": "GPS time-travel debugging route simulator",
+      "description": "This tool traces a route on a map and makes a mobile device think it is traveling that route, simulating not just GPS coordinates but speed, direction, motion detection, and precise timing between waypoints. Trips can be played forward and backward step by step, providing time-travel debugging for GPS applications. A demo is running, but it currently requires a drop-in replacement library for CoreLocation, which may make the approach infeasible.",
+      "problem": "There are no good tools for tracing a route on a map and having a mobile device think it's traveling that route.",
+      "audience": "GPS application developers who need realistic route simulation on mobile devices",
+      "builder_usernames": [
+        "lylejantzi3rd"
+      ],
+      "source_excerpt": "I'm working on GPS tools to help support my current contract. I've found there are no good tools for tracing a route on a map and having a mobile device think it's traveling that route. I'm not just talking GPS coordinates, but speed, direction, motion detection, precise timing between waypoints, being able to play these trips forward and backward, step by step, etc. I'm talking time-travel debugging for GPS applications.",
+      "evidence": [
+        {
+          "source_item_id": 48530090,
+          "source_field": "body",
+          "value": "I'm working on GPS tools to help support my current contract. I've found there are no good tools for tracing a route on a map and having a mobile device think it's traveling that route. I'm not just talking GPS coordinates, but speed, direction, motion detection, precise timing between waypoints, being able to play these trips forward and backward, step by step, etc. I'm talking time-travel debugging for GPS applications.",
+          "supports": [],
+          "author": "lylejantzi3rd",
+          "shared_at": 1781458384,
+          "source_url": "https://news.ycombinator.com/item?id=48530090"
+        }
+      ],
+      "source_item_id": 48530090,
+      "source_url": "https://news.ycombinator.com/item?id=48530090",
+      "author": "lylejantzi3rd",
+      "shared_at": 1781458384,
+      "links": []
+    }
+  ]
+}

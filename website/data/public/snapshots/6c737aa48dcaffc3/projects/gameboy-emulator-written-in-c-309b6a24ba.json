@@ -1,0 +1,33 @@
+{
+  "id": 10558,
+  "slug": "gameboy-emulator-written-in-c-309b6a24ba",
+  "name": "GameBoy emulator written in C++",
+  "mentions": [
+    {
+      "name": "GameBoy emulator written in C++",
+      "description": "A GameBoy emulator written in C++ that emulates the gbz80 chipset. The CPU fetch-decode-execute cycle is complete, CPU instruction implementation is in progress, and the next steps are a basic MBC (Memory Bank Controller) and cycle accuracy.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "OdinsonVingtor"
+      ],
+      "source_excerpt": "During past 5 months I've been working (not with the diligence I wanted) on a GameBoy emulator written in C++. It started with me trying to emulate the gbz80 chipset, then the \"why not?\" question did hit my mind.",
+      "evidence": [
+        {
+          "source_item_id": 44705388,
+          "source_field": "body",
+          "value": "During past 5 months I've been working (not with the diligence I wanted) on a GameBoy emulator written in C++. It started with me trying to emulate the gbz80 chipset, then the \"why not?\" question did hit my mind.",
+          "supports": [],
+          "author": "OdinsonVingtor",
+          "shared_at": 1753656076,
+          "source_url": "https://news.ycombinator.com/item?id=44705388"
+        }
+      ],
+      "source_item_id": 44705388,
+      "source_url": "https://news.ycombinator.com/item?id=44705388",
+      "author": "OdinsonVingtor",
+      "shared_at": 1753656076,
+      "links": []
+    }
+  ]
+}

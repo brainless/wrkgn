@@ -1,0 +1,35 @@
+{
+  "id": 7029,
+  "slug": "contextcanvas-893842c59e",
+  "name": "ContextCanvas",
+  "mentions": [
+    {
+      "name": "ContextCanvas",
+      "description": "This is a visual interface for managing AI context. Instead of working with text, users draw lasso selections on an embedding map and chat with the selected data, since points close together in embedding space are semantically similar; selections can be refined iteratively. It is built with Svelte 5 and DuckDB WASM for fast spatial queries, runs entirely client-side so data never leaves the browser, and is based on Apple Embeddings Atlas. The roadmap includes turning visual selections into API endpoints that agents can query programmatically.",
+      "problem": "Managing AI context by wrestling with text instead of visually selecting semantically similar data.",
+      "audience": null,
+      "builder_usernames": [
+        "milind-soni"
+      ],
+      "source_excerpt": "ContextCanvas(https://github.com/milind-soni/contextcanvas)\nI'm working on a visual interface for managing AI context. Instead of wrestling with text, you draw selections on an embedding map and chat with the selected data.",
+      "evidence": [
+        {
+          "source_item_id": 46958189,
+          "source_field": "body",
+          "value": "ContextCanvas(https://github.com/milind-soni/contextcanvas)\nI'm working on a visual interface for managing AI context. Instead of wrestling with text, you draw selections on an embedding map and chat with the selected data.",
+          "supports": [],
+          "author": "milind-soni",
+          "shared_at": 1770722242,
+          "source_url": "https://news.ycombinator.com/item?id=46958189"
+        }
+      ],
+      "source_item_id": 46958189,
+      "source_url": "https://news.ycombinator.com/item?id=46958189",
+      "author": "milind-soni",
+      "shared_at": 1770722242,
+      "links": [
+        "https://github.com/milind-soni/contextcanvas"
+      ]
+    }
+  ]
+}

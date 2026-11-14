@@ -1,0 +1,35 @@
+{
+  "id": 5098,
+  "slug": "railraptor-317d17f004",
+  "name": "RailRaptor",
+  "mentions": [
+    {
+      "name": "RailRaptor",
+      "description": "This is a fully offline, client-side train journey planner for UK rail, built from national rail data feeds. It runs entirely in the browser without a persistent network connection and offers more flexible search than operator sites, including complex filters and searching to/from multiple stations. It surfaces routes the standard train operators don't show, such as creative connections at different stations and journeys via stations that get travelers closer to their destination. Planned features include fares, VSTP data, and direct links to book tickets.",
+      "problem": "UK rail search is oddly constrained: all train operators offer basically the same experience and surface the same routes, with no flexible multi-destination search like Skyscanner and Kiwi offer for flights.",
+      "audience": null,
+      "builder_usernames": [
+        "marcusdev"
+      ],
+      "source_excerpt": "I'm working on a fully offline, client-side train journey planner for UK rail - https://railraptor.com",
+      "evidence": [
+        {
+          "source_item_id": 47744257,
+          "source_field": "body",
+          "value": "I'm working on a fully offline, client-side train journey planner for UK rail - https://railraptor.com",
+          "supports": [],
+          "author": "marcusdev",
+          "shared_at": 1776026599,
+          "source_url": "https://news.ycombinator.com/item?id=47744257"
+        }
+      ],
+      "source_item_id": 47744257,
+      "source_url": "https://news.ycombinator.com/item?id=47744257",
+      "author": "marcusdev",
+      "shared_at": 1776026599,
+      "links": [
+        "https://railraptor.com"
+      ]
+    }
+  ]
+}

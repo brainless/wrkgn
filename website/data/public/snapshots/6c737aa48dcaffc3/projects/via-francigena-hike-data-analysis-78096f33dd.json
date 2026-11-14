@@ -1,0 +1,35 @@
+{
+  "id": 10085,
+  "slug": "via-francigena-hike-data-analysis-78096f33dd",
+  "name": "Via Francigena Hike Data Analysis",
+  "mentions": [
+    {
+      "name": "Via Francigena Hike Data Analysis",
+      "description": "This project integrates GPX tracks, geotagged photos, and Oura Ring biometric data from an incremental hike along the Via Francigena to illustrate the journey and analyze how different terrains and altitudes affected the collected biometrics. GPX layers are ingested and parsed into DuckDB using Python to extract tags and load API data, with data staged in MinIO and plans to eventually push to Cloudflare free tools or Vercel.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "swasheck"
+      ],
+      "source_excerpt": "i've been incrementally hiking the via francigena (https://www.viefrancigene.org/en/walking/) and am working through integrating my gpx, geotagged photos, and oura ring data to both illustrate my journey and analyze how different terrains and altitudes affected the collected biometrics.",
+      "evidence": [
+        {
+          "source_item_id": 45419920,
+          "source_field": "body",
+          "value": "i've been incrementally hiking the via francigena (https://www.viefrancigene.org/en/walking/) and am working through integrating my gpx, geotagged photos, and oura ring data to both illustrate my journey and analyze how different terrains and altitudes affected the collected biometrics.",
+          "supports": [],
+          "author": "swasheck",
+          "shared_at": 1759186847,
+          "source_url": "https://news.ycombinator.com/item?id=45419920"
+        }
+      ],
+      "source_item_id": 45419920,
+      "source_url": "https://news.ycombinator.com/item?id=45419920",
+      "author": "swasheck",
+      "shared_at": 1759186847,
+      "links": [
+        "https://www.viefrancigene.org/en/walking/"
+      ]
+    }
+  ]
+}

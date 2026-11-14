@@ -1,0 +1,33 @@
+{
+  "id": 9294,
+  "slug": "ssh-shell-chat-server-296e2e48e8",
+  "name": "SSH shell chat server",
+  "mentions": [
+    {
+      "name": "SSH shell chat server",
+      "description": "This is a chat server accessed by SSHing into the machine, where the shell session you get serves as the chat client itself rather than a separate chat client.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "asalahli"
+      ],
+      "source_excerpt": "Recently I've been wanting to build a chat server that works over ssh. And by that I don't mean it uses the ssh protocol but that you ssh into the server and the shell you get is the chat client.",
+      "evidence": [
+        {
+          "source_item_id": 45976500,
+          "source_field": "body",
+          "value": "Recently I've been wanting to build a chat server that works over ssh. And by that I don't mean it uses the ssh protocol but that you ssh into the server and the shell you get is the chat client.",
+          "supports": [],
+          "author": "asalahli",
+          "shared_at": 1763534060,
+          "source_url": "https://news.ycombinator.com/item?id=45976500"
+        }
+      ],
+      "source_item_id": 45976500,
+      "source_url": "https://news.ycombinator.com/item?id=45976500",
+      "author": "asalahli",
+      "shared_at": 1763534060,
+      "links": []
+    }
+  ]
+}

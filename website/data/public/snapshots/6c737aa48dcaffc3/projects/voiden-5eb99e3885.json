@@ -1,0 +1,120 @@
+{
+  "id": 869,
+  "slug": "voiden-5eb99e3885",
+  "name": "Voiden",
+  "mentions": [
+    {
+      "name": "Voiden",
+      "description": "Voiden is an open-source API IDE that is being extended with an MCP (Model Context Protocol) integration. The new capability lets AI test APIs and create MCPs, effectively going headless.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "nikolasdimi"
+      ],
+      "source_excerpt": "Building the MCP for Voiden, the API IDE we open sourced a year ago almost. Added the ability to test APIs through AI also create MCP. Basically going headless\n\ngithub: https://github.com/VoidenHQ/voiden",
+      "evidence": [
+        {
+          "source_item_id": 49932966,
+          "source_field": "body",
+          "value": "Building the MCP for Voiden, the API IDE we open sourced a year ago almost. Added the ability to test APIs through AI also create MCP. Basically going headless\n\ngithub: https://github.com/VoidenHQ/voiden",
+          "supports": [],
+          "author": "nikolasdimi",
+          "shared_at": 1790945550,
+          "source_url": "https://news.ycombinator.com/item?id=49932966"
+        }
+      ],
+      "source_item_id": 49932966,
+      "source_url": "https://news.ycombinator.com/item?id=49932966",
+      "author": "nikolasdimi",
+      "shared_at": 1790945550,
+      "links": [
+        "https://github.com/VoidenHQ/voiden"
+      ]
+    },
+    {
+      "name": "Voiden",
+      "description": "API testing tool that released the Voiden Runner, letting users test APIs directly in the terminal.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "nikolasdimi"
+      ],
+      "source_excerpt": "Voiden: Released the Voiden Runner so that users can test APIs directly in the terminal. https://github.com/VoidenHQ/voiden",
+      "evidence": [
+        {
+          "source_item_id": 48538941,
+          "source_field": "body",
+          "value": "Voiden: Released the Voiden Runner so that users can test APIs directly in the terminal. https://github.com/VoidenHQ/voiden",
+          "supports": [],
+          "author": "nikolasdimi",
+          "shared_at": 1781516812,
+          "source_url": "https://news.ycombinator.com/item?id=48538941"
+        }
+      ],
+      "source_item_id": 48538941,
+      "source_url": "https://news.ycombinator.com/item?id=48538941",
+      "author": "nikolasdimi",
+      "shared_at": 1781516812,
+      "links": [
+        "https://github.com/VoidenHQ/voiden"
+      ]
+    },
+    {
+      "name": "Voiden",
+      "description": "A tool that makes working with APIs simple and modular.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "nikolasdimi"
+      ],
+      "source_excerpt": "I am working on making working with APIs simple and modular: https://github.com/VoidenHQ/voiden",
+      "evidence": [
+        {
+          "source_item_id": 48121781,
+          "source_field": "body",
+          "value": "I am working on making working with APIs simple and modular: https://github.com/VoidenHQ/voiden",
+          "supports": [],
+          "author": "nikolasdimi",
+          "shared_at": 1778679618,
+          "source_url": "https://news.ycombinator.com/item?id=48121781"
+        }
+      ],
+      "source_item_id": 48121781,
+      "source_url": "https://news.ycombinator.com/item?id=48121781",
+      "author": "nikolasdimi",
+      "shared_at": 1778679618,
+      "links": [
+        "https://github.com/VoidenHQ/voiden"
+      ]
+    },
+    {
+      "name": "Voiden",
+      "description": "Voiden is an API tool that has just released community plugins, letting anyone build plugins to extend and grow the tool's functionality without bloating the core product. Plugin-building documentation is provided at docs.voiden.md.",
+      "problem": "The API tool could become bloated with new features, so growth is instead delegated to community-built plugins.",
+      "audience": null,
+      "builder_usernames": [
+        "nikolasdimi"
+      ],
+      "source_excerpt": "Today I released the community plugins for Voiden.\n\nThis is a big one because one of the things I dont want is the API tool to become bloated with new features - so I want to allow anyone to build plugins to grow the tool.",
+      "evidence": [
+        {
+          "source_item_id": 47328211,
+          "source_field": "body",
+          "value": "Today I released the community plugins for Voiden.\n\nThis is a big one because one of the things I dont want is the API tool to become bloated with new features - so I want to allow anyone to build plugins to grow the tool.",
+          "supports": [],
+          "author": "nikolasdimi",
+          "shared_at": 1773173507,
+          "source_url": "https://news.ycombinator.com/item?id=47328211"
+        }
+      ],
+      "source_item_id": 47328211,
+      "source_url": "https://news.ycombinator.com/item?id=47328211",
+      "author": "nikolasdimi",
+      "shared_at": 1773173507,
+      "links": [
+        "https://docs.voiden.md/docs/plugins/build-a-plugin",
+        "https://github.com/VoidenHQ/voiden"
+      ]
+    }
+  ]
+}

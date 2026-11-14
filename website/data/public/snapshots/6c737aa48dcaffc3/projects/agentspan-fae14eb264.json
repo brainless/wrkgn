@@ -1,0 +1,63 @@
+{
+  "id": 5081,
+  "slug": "agentspan-fae14eb264",
+  "name": "Agentspan",
+  "mentions": [
+    {
+      "name": "Agentspan",
+      "description": "A durable runtime for AI agents that applies the Conductor OSS execution model to agent executions. Every run gets an ID, state is persisted so executions survive process death, runs can pause for human approval and resume later, and everything can be inspected after the fact. It provides crash recovery, retries, distributed tool execution, cancellation, observability, and execution history for agents that touch real systems, instead of being just an LLM loop inside one Python process.",
+      "problem": "Agents are typically just an LLM loop running inside one Python process, so once they touch real systems they lack crash recovery, retries, human approval, distributed tool execution, cancellation, observability, and execution history.",
+      "audience": null,
+      "builder_usernames": [
+        "opiniateddev"
+      ],
+      "source_excerpt": "I'm working on Agentspan: https://github.com/agentspan-ai/agentspan\n\nIt's a durable runtime for AI agents.\n\nThe thesis: agents should not just be an LLM loop running inside one Python process. Once agents touch real systems, you need crash recovery, retries, human approval, distributed tool execution, cancellation, observability, and execution history.",
+      "evidence": [
+        {
+          "source_item_id": 48090626,
+          "source_field": "body",
+          "value": "I'm working on Agentspan: https://github.com/agentspan-ai/agentspan\n\nIt's a durable runtime for AI agents.\n\nThe thesis: agents should not just be an LLM loop running inside one Python process. Once agents touch real systems, you need crash recovery, retries, human approval, distributed tool execution, cancellation, observability, and execution history.",
+          "supports": [],
+          "author": "opiniateddev",
+          "shared_at": 1778468566,
+          "source_url": "https://news.ycombinator.com/item?id=48090626"
+        }
+      ],
+      "source_item_id": 48090626,
+      "source_url": "https://news.ycombinator.com/item?id=48090626",
+      "author": "opiniateddev",
+      "shared_at": 1778468566,
+      "links": [
+        "https://github.com/agentspan-ai/agentspan"
+      ]
+    },
+    {
+      "name": "AgentSpan",
+      "description": "This is a runtime for AI agents, built on top of Conductor OSS.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "opiniateddev"
+      ],
+      "source_excerpt": "Runtime for agents\nhttps://github.com/agentspan-ai/agentspan\nBuilt on top of Conductor OSS - https://github.com/conductor-oss/conductor",
+      "evidence": [
+        {
+          "source_item_id": 47745540,
+          "source_field": "body",
+          "value": "Runtime for agents\nhttps://github.com/agentspan-ai/agentspan\nBuilt on top of Conductor OSS - https://github.com/conductor-oss/conductor",
+          "supports": [],
+          "author": "opiniateddev",
+          "shared_at": 1776035998,
+          "source_url": "https://news.ycombinator.com/item?id=47745540"
+        }
+      ],
+      "source_item_id": 47745540,
+      "source_url": "https://news.ycombinator.com/item?id=47745540",
+      "author": "opiniateddev",
+      "shared_at": 1776035998,
+      "links": [
+        "https://github.com/agentspan-ai/agentspan"
+      ]
+    }
+  ]
+}

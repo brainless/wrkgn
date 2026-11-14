@@ -1,0 +1,35 @@
+{
+  "id": 8203,
+  "slug": "netbox-designs-8aab2bcde1",
+  "name": "NetBox Designs",
+  "mentions": [
+    {
+      "name": "NetBox Designs",
+      "description": "NetBox Designs lets users express composable, versioned, and templatizable building blocks for high-level infrastructure designs and render them into low-level designs in a Source of Truth like NetBox. It eliminates the lossy translation from design artifacts such as Visio diagrams and spreadsheets, and lets users verify whether their low-level design still matches the high-level design and, if not, where they diverge.",
+      "problem": "High-level infrastructure designs are socialized as building blocks in Visio diagrams and spreadsheets, and translating them into the low-level design (the Source of Truth, like NetBox) is a lossy process, made worse by the sheer size of infrastructure being designed and deployed.",
+      "audience": "Infrastructure architects who design and document large-scale infrastructure in building blocks.",
+      "builder_usernames": [
+        "mrmrcoleman"
+      ],
+      "source_excerpt": "NetBox Designs allows users to express composable, versioned, and templatizable building blocks that can be rendered to low level designs. No lossy translations, and you can always check in the future \"does my LLD still match my HLD and if not, where?\"",
+      "evidence": [
+        {
+          "source_item_id": 46278031,
+          "source_field": "body",
+          "value": "NetBox Designs allows users to express composable, versioned, and templatizable building blocks that can be rendered to low level designs. No lossy translations, and you can always check in the future \"does my LLD still match my HLD and if not, where?\"",
+          "supports": [],
+          "author": "mrmrcoleman",
+          "shared_at": 1765821786,
+          "source_url": "https://news.ycombinator.com/item?id=46278031"
+        }
+      ],
+      "source_item_id": 46278031,
+      "source_url": "https://news.ycombinator.com/item?id=46278031",
+      "author": "mrmrcoleman",
+      "shared_at": 1765821786,
+      "links": [
+        "https://netboxlabs.com/blog/netbox-designs-introducing-declarative-infrastructure/"
+      ]
+    }
+  ]
+}

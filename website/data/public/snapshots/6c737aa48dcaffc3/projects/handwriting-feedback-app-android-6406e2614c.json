@@ -1,0 +1,35 @@
+{
+  "id": 3675,
+  "slug": "handwriting-feedback-app-android-6406e2614c",
+  "name": "Handwriting feedback app (Android)",
+  "mentions": [
+    {
+      "name": "Handwriting feedback app (Android)",
+      "description": "This Android app gives feedback on handwriting: the user writes on paper, takes a picture, and the app uses an LLM to analyze it and provide specific feedback on what to improve. It offers 5 free tries per month due to LLM API costs; no iPhone version yet.",
+      "problem": "Poor handwriting that generic advice like \"try harder\" or \"make it neater\" doesn't help improve, because it doesn't point out what specifically to fix",
+      "audience": "The author's 8-year-old son, a student whose poor handwriting is affecting his exams",
+      "builder_usernames": [
+        "handwriting"
+      ],
+      "source_excerpt": "So I created an Android app for this (no iphone for now): you write on paper, take a picture and get feedback on what to improve",
+      "evidence": [
+        {
+          "source_item_id": 48539575,
+          "source_field": "body",
+          "value": "So I created an Android app for this (no iphone for now): you write on paper, take a picture and get feedback on what to improve",
+          "supports": [],
+          "author": "handwriting",
+          "shared_at": 1781521762,
+          "source_url": "https://news.ycombinator.com/item?id=48539575"
+        }
+      ],
+      "source_item_id": 48539575,
+      "source_url": "https://news.ycombinator.com/item?id=48539575",
+      "author": "handwriting",
+      "shared_at": 1781521762,
+      "links": [
+        "https://play.google.com/store/apps/details?id=com.handwritehq"
+      ]
+    }
+  ]
+}

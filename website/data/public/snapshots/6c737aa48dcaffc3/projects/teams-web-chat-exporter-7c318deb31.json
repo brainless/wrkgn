@@ -1,0 +1,63 @@
+{
+  "id": 3823,
+  "slug": "teams-web-chat-exporter-7c318deb31",
+  "name": "Teams Web Chat Exporter",
+  "mentions": [
+    {
+      "name": "Teams Web Chat Exporter",
+      "description": "This browser extension exports conversations from Microsoft Teams directly from the web client, without requiring instance admin enablement or Microsoft Graph API permissions. It is published on GitHub and the popular browsers' extension stores and is used by more than 15,000 people.",
+      "problem": "Existing Teams export tools require an instance admin to enable the feature, Microsoft Graph API permissions, or other requirements that individual users cannot fulfill.",
+      "audience": null,
+      "builder_usernames": [
+        "gediz"
+      ],
+      "source_excerpt": "A browser extension to export conversations from Teams. I initially needed a readily available tool, I was ready to pay a few bucks for it. Turns out there isn’t an alternative for me because existing ones require instance admin to enable this, Microsoft Graph API permission, or some other requirement which I could not fulfill.",
+      "evidence": [
+        {
+          "source_item_id": 48531958,
+          "source_field": "body",
+          "value": "A browser extension to export conversations from Teams. I initially needed a readily available tool, I was ready to pay a few bucks for it. Turns out there isn’t an alternative for me because existing ones require instance admin to enable this, Microsoft Graph API permission, or some other requirement which I could not fulfill.",
+          "supports": [],
+          "author": "gediz",
+          "shared_at": 1781467077,
+          "source_url": "https://news.ycombinator.com/item?id=48531958"
+        }
+      ],
+      "source_item_id": 48531958,
+      "source_url": "https://news.ycombinator.com/item?id=48531958",
+      "author": "gediz",
+      "shared_at": 1781467077,
+      "links": [
+        "https://github.com/gediz/teams-web-chat-exporter"
+      ]
+    },
+    {
+      "name": "Teams Web Chat Exporter",
+      "description": "A browser extension that exports long Microsoft Teams chats, built as an open-source alternative to the Graph API and PowerShell scripts. Available for Chrome and Firefox with around 800 users.",
+      "problem": "Microsoft Teams offers no built-in way to export long chats; the Graph API or PowerShell scripts are required, and API access is often not enabled by IT managers, so existing solutions don't help.",
+      "audience": "Business users of Microsoft Teams chat",
+      "builder_usernames": [
+        "gediz"
+      ],
+      "source_excerpt": "So I built (vibe-coded) a browser extension for myself, then decided to open source it. There are still some edges to smooth out but it’s going fine.\n\nTurns out it was a common pain point. Now it has around 800 users in Chrome+Firefox. Mostly chrome.\n\nhttps://github.com/gediz/teams-web-chat-exporter",
+      "evidence": [
+        {
+          "source_item_id": 46282083,
+          "source_field": "body",
+          "value": "So I built (vibe-coded) a browser extension for myself, then decided to open source it. There are still some edges to smooth out but it’s going fine.\n\nTurns out it was a common pain point. Now it has around 800 users in Chrome+Firefox. Mostly chrome.\n\nhttps://github.com/gediz/teams-web-chat-exporter",
+          "supports": [],
+          "author": "gediz",
+          "shared_at": 1765839616,
+          "source_url": "https://news.ycombinator.com/item?id=46282083"
+        }
+      ],
+      "source_item_id": 46282083,
+      "source_url": "https://news.ycombinator.com/item?id=46282083",
+      "author": "gediz",
+      "shared_at": 1765839616,
+      "links": [
+        "https://github.com/gediz/teams-web-chat-exporter"
+      ]
+    }
+  ]
+}

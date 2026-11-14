@@ -1,0 +1,35 @@
+{
+  "id": 9235,
+  "slug": "metro-4247a28f8f",
+  "name": "Metro",
+  "mentions": [
+    {
+      "name": "Metro",
+      "description": "A web app for music practice that includes a metronome, an ABC notation editor with MIDI playback and PDF rendering, and an embedded YouTube video player with timestamp-based chapter/section creation and looping for practicing. It is offline-first with everything saved to Local Storage, and sharing works serverlessly via query parameters after compression and base64 encoding. Built with React, Material UI, ToneJS, ABCJS, and Cloudflare (Pages, Workers, D1 Storage); an AI assistant for the ABC editor is planned next.",
+      "problem": "Editing ABC notation text gets painful fast, motivating a planned AI assistant in the ABC editor.",
+      "audience": "A musician building the app for their own music practice needs (\"my music needs\"), with features aimed at practicing pieces.",
+      "builder_usernames": [
+        "kidproquo"
+      ],
+      "source_excerpt": "A web app for my music needs - metronome, ABC notation editor with MIDI playback and PDF render, an embedded YouTube video player with a chapter/section creator based on timestamps and a looping feature for the chapters for practicing",
+      "evidence": [
+        {
+          "source_item_id": 45880511,
+          "source_field": "body",
+          "value": "A web app for my music needs - metronome, ABC notation editor with MIDI playback and PDF render, an embedded YouTube video player with a chapter/section creator based on timestamps and a looping feature for the chapters for practicing",
+          "supports": [],
+          "author": "kidproquo",
+          "shared_at": 1762806423,
+          "source_url": "https://news.ycombinator.com/item?id=45880511"
+        }
+      ],
+      "source_item_id": 45880511,
+      "source_url": "https://news.ycombinator.com/item?id=45880511",
+      "author": "kidproquo",
+      "shared_at": 1762806423,
+      "links": [
+        "https://metro.scopecreeplabs.com"
+      ]
+    }
+  ]
+}

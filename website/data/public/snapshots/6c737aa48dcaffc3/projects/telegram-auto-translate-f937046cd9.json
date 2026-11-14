@@ -1,0 +1,35 @@
+{
+  "id": 8652,
+  "slug": "telegram-auto-translate-f937046cd9",
+  "name": "telegram-auto-translate",
+  "mentions": [
+    {
+      "name": "telegram-auto-translate",
+      "description": "A Telegram bot that uses Claude Opus 4.5 to automatically translate outgoing messages, enabling users to hold detailed conversations and debates in languages they don't speak.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Manouchehri"
+      ],
+      "source_excerpt": "I wrote a Telegram translate bot that uses Opus 4.5 for outgoing messages.\n\nSuper simple, yet it’s already good enough that I’ve had detailed conversations and debates in languages that I don’t speak at all.\n\nhttps://github.com/aimoda/telegram-auto-translate",
+      "evidence": [
+        {
+          "source_item_id": 46269169,
+          "source_field": "body",
+          "value": "I wrote a Telegram translate bot that uses Opus 4.5 for outgoing messages.\n\nSuper simple, yet it’s already good enough that I’ve had detailed conversations and debates in languages that I don’t speak at all.\n\nhttps://github.com/aimoda/telegram-auto-translate",
+          "supports": [],
+          "author": "Manouchehri",
+          "shared_at": 1765761546,
+          "source_url": "https://news.ycombinator.com/item?id=46269169"
+        }
+      ],
+      "source_item_id": 46269169,
+      "source_url": "https://news.ycombinator.com/item?id=46269169",
+      "author": "Manouchehri",
+      "shared_at": 1765761546,
+      "links": [
+        "https://github.com/aimoda/telegram-auto-translate"
+      ]
+    }
+  ]
+}

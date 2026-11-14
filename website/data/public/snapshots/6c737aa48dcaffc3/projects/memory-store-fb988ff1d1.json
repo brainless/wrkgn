@@ -1,0 +1,35 @@
+{
+  "id": 6737,
+  "slug": "memory-store-fb988ff1d1",
+  "name": "Memory Store",
+  "mentions": [
+    {
+      "name": "Memory Store",
+      "description": "Memory Store provides persistent, shared memory for all your AI agents. It is an MCP server that ingests context from workplace tools (Slack, email, calendar) and makes it available to any MCP-compatible agent, so a decision made in one tool is known to the others and project status changes keep every agent up to date. Live in beta now.",
+      "problem": "When using multiple AI tools (Claude, ChatGPT, Cursor, etc.), none of them know what the others know, so users end up maintaining .md files, pasting context between chats, and re-explaining their project every time they start a new conversation; power users spend more time briefing their agents than doing actual work.",
+      "audience": "Users of multiple AI tools (Claude, ChatGPT, Cursor, etc.) and power users who spend more time briefing their agents than doing actual work",
+      "builder_usernames": [
+        "diwank"
+      ],
+      "source_excerpt": "Working on Memory Store: persistent, shared memory for all your AI agents.\n\nhttps://memory.store",
+      "evidence": [
+        {
+          "source_item_id": 46941107,
+          "source_field": "body",
+          "value": "Working on Memory Store: persistent, shared memory for all your AI agents.\n\nhttps://memory.store",
+          "supports": [],
+          "author": "diwank",
+          "shared_at": 1770606158,
+          "source_url": "https://news.ycombinator.com/item?id=46941107"
+        }
+      ],
+      "source_item_id": 46941107,
+      "source_url": "https://news.ycombinator.com/item?id=46941107",
+      "author": "diwank",
+      "shared_at": 1770606158,
+      "links": [
+        "https://memory.store"
+      ]
+    }
+  ]
+}

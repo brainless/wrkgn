@@ -1,0 +1,120 @@
+{
+  "id": 1560,
+  "slug": "val-050dfbee6a",
+  "name": "Val",
+  "mentions": [
+    {
+      "name": "Val",
+      "description": "A content management system (CMS) available at val.build that recently added TanStack support and is approaching its v1 release.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "freekh"
+      ],
+      "source_excerpt": "Been working on this CMS for some time now: https://val.build\nJust added tanstack support. Approaching v1 very soon.",
+      "evidence": [
+        {
+          "source_item_id": 49695281,
+          "source_field": "body",
+          "value": "Been working on this CMS for some time now: https://val.build\nJust added tanstack support. Approaching v1 very soon.",
+          "supports": [],
+          "author": "freekh",
+          "shared_at": 1789386665,
+          "source_url": "https://news.ycombinator.com/item?id=49695281"
+        }
+      ],
+      "source_item_id": 49695281,
+      "source_url": "https://news.ycombinator.com/item?id=49695281",
+      "author": "freekh",
+      "shared_at": 1789386665,
+      "links": [
+        "https://val.build"
+      ]
+    },
+    {
+      "name": "Val CMS",
+      "description": "Val CMS is a content management system under active development, with many pull requests merged recently, working toward native TanStack Start integration.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "freekh"
+      ],
+      "source_excerpt": "Still working on Val CMS: https://val.build\nLots of PRs merged these last weeks and looking forward to getting native tanstack start integration finished.",
+      "evidence": [
+        {
+          "source_item_id": 48538036,
+          "source_field": "body",
+          "value": "Still working on Val CMS: https://val.build\nLots of PRs merged these last weeks and looking forward to getting native tanstack start integration finished.",
+          "supports": [],
+          "author": "freekh",
+          "shared_at": 1781510733,
+          "source_url": "https://news.ycombinator.com/item?id=48538036"
+        }
+      ],
+      "source_item_id": 48538036,
+      "source_url": "https://news.ycombinator.com/item?id=48538036",
+      "author": "freekh",
+      "shared_at": 1781510733,
+      "links": [
+        "https://val.build"
+      ]
+    },
+    {
+      "name": "Val",
+      "description": "A code-only CMS that manages website content entirely in code rather than a visual interface. Planned next steps are tasteful AI features followed by internationalization (i18n).",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "freekh"
+      ],
+      "source_excerpt": "Still working on code only CMS: https://val.build",
+      "evidence": [
+        {
+          "source_item_id": 47311616,
+          "source_field": "body",
+          "value": "Still working on code only CMS: https://val.build",
+          "supports": [],
+          "author": "freekh",
+          "shared_at": 1773075131,
+          "source_url": "https://news.ycombinator.com/item?id=47311616"
+        }
+      ],
+      "source_item_id": 47311616,
+      "source_url": "https://news.ycombinator.com/item?id=47311616",
+      "author": "freekh",
+      "shared_at": 1773075131,
+      "links": [
+        "https://github.com/valbuild/val/blob/main/packages/next/README.md",
+        "https://val.build"
+      ]
+    },
+    {
+      "name": "Val CMS",
+      "description": "A lightweight content management system where content is stored as code, with internationalization (i18n) support currently in development. It integrates with Next.js.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "freekh"
+      ],
+      "source_excerpt": "Working on i18n for Val CMS, a lightweight CMS where content is stored as code.",
+      "evidence": [
+        {
+          "source_item_id": 46944790,
+          "source_field": "body",
+          "value": "Working on i18n for Val CMS, a lightweight CMS where content is stored as code.",
+          "supports": [],
+          "author": "freekh",
+          "shared_at": 1770642203,
+          "source_url": "https://news.ycombinator.com/item?id=46944790"
+        }
+      ],
+      "source_item_id": 46944790,
+      "source_url": "https://news.ycombinator.com/item?id=46944790",
+      "author": "freekh",
+      "shared_at": 1770642203,
+      "links": [
+        "https://github.com/valbuild/val/blob/main/packages/next/README.md"
+      ]
+    }
+  ]
+}

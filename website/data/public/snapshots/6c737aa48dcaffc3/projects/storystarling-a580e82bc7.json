@@ -1,0 +1,63 @@
+{
+  "id": 6535,
+  "slug": "storystarling-a580e82bc7",
+  "name": "StoryStarling",
+  "mentions": [
+    {
+      "name": "StoryStarling",
+      "description": "This service turns a described story idea into a fully illustrated, printed children's book. Stories and illustrations are generated from scratch (not templates): users can start from a short prompt like \"dinosaurs soccer\" or a full storyline, pick an art style, and optionally upload reference photos of their kid; a 28-page book is built in a few minutes, then printed and shipped. It supports bilingual books in 38 languages, including RTL scripts (Arabic, Hebrew), CJK, and less common languages like Estonian, Maltese, and Irish. The pipeline is orchestrated with LangGraph, Celery workers generate images and render text in parallel, and LLMs critique illustrations for consistency mistakes and can trigger automatic regenerations. Books are printed in Germany at around 20 EUR for booklets and 40 EUR for hardcovers.",
+      "problem": "There is not much children's book content available in less common languages like Estonian, Maltese, and Irish.",
+      "audience": null,
+      "builder_usernames": [
+        "storystarling"
+      ],
+      "source_excerpt": "StoryStarling. You describe a story idea and it generates a fully illustrated children's book, then we print and ship it.",
+      "evidence": [
+        {
+          "source_item_id": 47306256,
+          "source_field": "body",
+          "value": "StoryStarling. You describe a story idea and it generates a fully illustrated children's book, then we print and ship it.",
+          "supports": [],
+          "author": "storystarling",
+          "shared_at": 1773045173,
+          "source_url": "https://news.ycombinator.com/item?id=47306256"
+        }
+      ],
+      "source_item_id": 47306256,
+      "source_url": "https://news.ycombinator.com/item?id=47306256",
+      "author": "storystarling",
+      "shared_at": 1773045173,
+      "links": [
+        "https://storystarling.com"
+      ]
+    },
+    {
+      "name": "StoryStarling",
+      "description": "This platform turns a described story concept into an original, illustrated children's picture book that is professionally printed and shipped to the buyer's door. Unlike personalized-book services that use template stories with a name swapped in, it generates a complete original narrative with consistent illustrations throughout, supports uploading reference photos so characters resemble the child, and offers 30+ languages including bilingual editions on the same page. Users can edit or regenerate individual pages iteratively, and the service is currently refining showcase features and adding right-to-left (RTL) language support.",
+      "problem": "Personalized children's book companies only offer template stories with a name swapped in rather than original narratives built from the customer's own idea.",
+      "audience": "People creating custom children's picture books, including books about their own kids",
+      "builder_usernames": [
+        "storystarling"
+      ],
+      "source_excerpt": "StoryStarling - Turn your story idea into a printed children's book\n\nhttps://storystarling.com\n\nWorking on a platform where you describe a story concept and it becomes a real, illustrated picture book - professionally printed and shipped to your door.",
+      "evidence": [
+        {
+          "source_item_id": 46939855,
+          "source_field": "body",
+          "value": "StoryStarling - Turn your story idea into a printed children's book\n\nhttps://storystarling.com\n\nWorking on a platform where you describe a story concept and it becomes a real, illustrated picture book - professionally printed and shipped to your door.",
+          "supports": [],
+          "author": "storystarling",
+          "shared_at": 1770594771,
+          "source_url": "https://news.ycombinator.com/item?id=46939855"
+        }
+      ],
+      "source_item_id": 46939855,
+      "source_url": "https://news.ycombinator.com/item?id=46939855",
+      "author": "storystarling",
+      "shared_at": 1770594771,
+      "links": [
+        "https://storystarling.com"
+      ]
+    }
+  ]
+}

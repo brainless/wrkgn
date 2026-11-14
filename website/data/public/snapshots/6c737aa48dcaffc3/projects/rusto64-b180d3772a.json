@@ -1,0 +1,36 @@
+{
+  "id": 9880,
+  "slug": "rusto64-b180d3772a",
+  "name": "rusto64",
+  "mentions": [
+    {
+      "name": "rusto64",
+      "description": "A Nintendo 64 emulator written in Rust with WebAssembly (WASM) compatibility. Development is still in progress with no visual or sound output yet; the current focus is building tools to debug the emulator's execution, with a live web demo of the debugger available.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "doi9t"
+      ],
+      "source_excerpt": "I'm working on a Nintendo 64 emulator made in Rust (WASM compatible).\n\nhttps://gitlab.com/rusto64/core\n\nNo visual or sound yet; still working on making tools to debug the execution.\n\nLive demo of the debugger : https://n64.watier.ca/",
+      "evidence": [
+        {
+          "source_item_id": 45420429,
+          "source_field": "body",
+          "value": "I'm working on a Nintendo 64 emulator made in Rust (WASM compatible).\n\nhttps://gitlab.com/rusto64/core\n\nNo visual or sound yet; still working on making tools to debug the execution.\n\nLive demo of the debugger : https://n64.watier.ca/",
+          "supports": [],
+          "author": "doi9t",
+          "shared_at": 1759190982,
+          "source_url": "https://news.ycombinator.com/item?id=45420429"
+        }
+      ],
+      "source_item_id": 45420429,
+      "source_url": "https://news.ycombinator.com/item?id=45420429",
+      "author": "doi9t",
+      "shared_at": 1759190982,
+      "links": [
+        "https://gitlab.com/rusto64/core",
+        "https://n64.watier.ca/"
+      ]
+    }
+  ]
+}

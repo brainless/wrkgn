@@ -1,0 +1,33 @@
+{
+  "id": 6607,
+  "slug": "open-source-edge-inaturalist-rebuild-2f0e105899",
+  "name": "Open-source edge iNaturalist rebuild",
+  "mentions": [
+    {
+      "name": "Open-source edge iNaturalist rebuild",
+      "description": "An open-source rebuild of iNaturalist that uses open-weight models capable of running on edge compute for species/nature observation, aiming for better privacy and hopefully improved accuracy.",
+      "problem": "Better privacy (and hopefully accuracy) compared to the existing service, by running open-weight models on edge compute.",
+      "audience": null,
+      "builder_usernames": [
+        "hirako2000"
+      ],
+      "source_excerpt": "Rebuilding iNaturalist with open source/weights models that can run on edge compute for better privacy, and hopefully accuracy.",
+      "evidence": [
+        {
+          "source_item_id": 47306161,
+          "source_field": "body",
+          "value": "Rebuilding iNaturalist with open source/weights models that can run on edge compute for better privacy, and hopefully accuracy.",
+          "supports": [],
+          "author": "hirako2000",
+          "shared_at": 1773044396,
+          "source_url": "https://news.ycombinator.com/item?id=47306161"
+        }
+      ],
+      "source_item_id": 47306161,
+      "source_url": "https://news.ycombinator.com/item?id=47306161",
+      "author": "hirako2000",
+      "shared_at": 1773044396,
+      "links": []
+    }
+  ]
+}

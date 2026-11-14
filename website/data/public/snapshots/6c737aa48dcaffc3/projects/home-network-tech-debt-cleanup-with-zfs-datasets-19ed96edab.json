@@ -1,0 +1,33 @@
+{
+  "id": 9771,
+  "slug": "home-network-tech-debt-cleanup-with-zfs-datasets-19ed96edab",
+  "name": "Home network tech debt cleanup with ZFS datasets",
+  "mentions": [
+    {
+      "name": "Home network tech debt cleanup with ZFS datasets",
+      "description": "This project fixes six years of accumulated tech debt across a home network's router, server, and NAS, including reorganizing the server's ZFS RAID storage into separate datasets with different settings for different parts of the RAID, which also defragments older fragmented files.",
+      "problem": "Past work on the home router, server, and NAS was half-assed, leaving tech debt accumulated over the last six years.",
+      "audience": null,
+      "builder_usernames": [
+        "tombert"
+      ],
+      "source_excerpt": "I've been doing a lot of fixing of tech debt in my home network from the last six years.  I've admittedly kind of half-assed a lot of the work with my home router and my server and my NAS and I want these things to be done correctly.",
+      "evidence": [
+        {
+          "source_item_id": 45563728,
+          "source_field": "body",
+          "value": "I've been doing a lot of fixing of tech debt in my home network from the last six years.  I've admittedly kind of half-assed a lot of the work with my home router and my server and my NAS and I want these things to be done correctly.",
+          "supports": [],
+          "author": "tombert",
+          "shared_at": 1760318093,
+          "source_url": "https://news.ycombinator.com/item?id=45563728"
+        }
+      ],
+      "source_item_id": 45563728,
+      "source_url": "https://news.ycombinator.com/item?id=45563728",
+      "author": "tombert",
+      "shared_at": 1760318093,
+      "links": []
+    }
+  ]
+}

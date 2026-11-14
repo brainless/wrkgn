@@ -1,0 +1,35 @@
+{
+  "id": 7718,
+  "slug": "dnsradar-3bec085c6b",
+  "name": "DNSRadar",
+  "mentions": [
+    {
+      "name": "DNSRadar",
+      "description": "DNS record checking service designed to process millions of DNS records as fast as possible, currently hitting around 500 QPS in tests against Cloudflare's DNS with plans to scale horizontally. Built on a Sanic-based API with a proper database structure; the OpenAPI spec, documentation (via Mintlify), landing page, and dashboard were mostly generated with Claude/Claude Code. Almost ready to go live and already in use at Fernand.",
+      "problem": "The author's previous DNS checking system at ImprovMX.com was inefficient and produced false positives, and Fernand also needs such a service; with more AI-built products emerging, the market for DNS record checking is growing.",
+      "audience": null,
+      "builder_usernames": [
+        "cx42net"
+      ],
+      "source_excerpt": "I've been working on https://DNSRadar.dev for the past three weeks now.",
+      "evidence": [
+        {
+          "source_item_id": 46651779,
+          "source_field": "body",
+          "value": "I've been working on https://DNSRadar.dev for the past three weeks now.",
+          "supports": [],
+          "author": "cx42net",
+          "shared_at": 1768595333,
+          "source_url": "https://news.ycombinator.com/item?id=46651779"
+        }
+      ],
+      "source_item_id": 46651779,
+      "source_url": "https://news.ycombinator.com/item?id=46651779",
+      "author": "cx42net",
+      "shared_at": 1768595333,
+      "links": [
+        "https://DNSRadar.dev"
+      ]
+    }
+  ]
+}

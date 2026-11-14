@@ -1,0 +1,33 @@
+{
+  "id": 5382,
+  "slug": "surname-social-network-26d0792270",
+  "name": "Surname social network",
+  "mentions": [
+    {
+      "name": "Surname social network",
+      "description": "A small social network hosted at a domain named after the author's rare surname, connecting everyone who shares that surname. It uses Facebook's NLLB machine translation to translate posts between languages, since the community is mainly split between the Americas and Europe.",
+      "problem": "The rare-surname community is geographically split between the Americas and Europe, and members speak different languages.",
+      "audience": "People who share the author's rare surname, split between the Americas and Europe",
+      "builder_usernames": [
+        "pg_bot"
+      ],
+      "source_excerpt": "I own {{mylastname}}.com and have been making a small social network for everyone who shares my surname. (it's rare) I'm using Facebook's NLLB to translate posts to different languages since we are mainly split between the Americas and Europe.",
+      "evidence": [
+        {
+          "source_item_id": 47753435,
+          "source_field": "body",
+          "value": "I own {{mylastname}}.com and have been making a small social network for everyone who shares my surname. (it's rare) I'm using Facebook's NLLB to translate posts to different languages since we are mainly split between the Americas and Europe.",
+          "supports": [],
+          "author": "pg_bot",
+          "shared_at": 1776094140,
+          "source_url": "https://news.ycombinator.com/item?id=47753435"
+        }
+      ],
+      "source_item_id": 47753435,
+      "source_url": "https://news.ycombinator.com/item?id=47753435",
+      "author": "pg_bot",
+      "shared_at": 1776094140,
+      "links": []
+    }
+  ]
+}

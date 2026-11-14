@@ -1,0 +1,33 @@
+{
+  "id": 5448,
+  "slug": "7kwh-solar-battery-control-and-monitoring-system-7670bc1cf0",
+  "name": "7kWh solar battery control and monitoring system",
+  "mentions": [
+    {
+      "name": "7kWh solar battery control and monitoring system",
+      "description": "A weatherproof 7kWh battery, originally built for a Burning Man project, being rebuilt with a control hub that reads data from the batteries and solar controller, remote and on-device UIs to control all the hardware from one place, and a LoRa transceiver for monitoring battery and solar status from a distance.",
+      "problem": "There is a lot of DIY solar and battery hardware that needs to sync and coordinate, but no great software solution exists for this.",
+      "audience": "Lots of DIY solar and battery hardware users who need their gear to sync and coordinate",
+      "builder_usernames": [
+        "mbgerring"
+      ],
+      "source_excerpt": "I’m re-habbing a weatherproof 7kWh battery I built for a Burning Man project last year.\n\nI’m adding:\n\n- A control hub that reads data from the batteries and the solar controller\n\n- Remote and on-device UIs that allow a user to control all the hardware from one place\n\n- A LoRa transceiver that allows monitoring the battery and solar status from a distance",
+      "evidence": [
+        {
+          "source_item_id": 47747135,
+          "source_field": "body",
+          "value": "I’m re-habbing a weatherproof 7kWh battery I built for a Burning Man project last year.\n\nI’m adding:\n\n- A control hub that reads data from the batteries and the solar controller\n\n- Remote and on-device UIs that allow a user to control all the hardware from one place\n\n- A LoRa transceiver that allows monitoring the battery and solar status from a distance",
+          "supports": [],
+          "author": "mbgerring",
+          "shared_at": 1776049950,
+          "source_url": "https://news.ycombinator.com/item?id=47747135"
+        }
+      ],
+      "source_item_id": 47747135,
+      "source_url": "https://news.ycombinator.com/item?id=47747135",
+      "author": "mbgerring",
+      "shared_at": 1776049950,
+      "links": []
+    }
+  ]
+}

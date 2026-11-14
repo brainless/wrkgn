@@ -1,0 +1,33 @@
+{
+  "id": 4651,
+  "slug": "stateless-radius-server-implementation-f32ca845c7",
+  "name": "Stateless RADIUS server implementation",
+  "mentions": [
+    {
+      "name": "Stateless RADIUS server implementation",
+      "description": "This project is a ground-up implementation of the RADIUS network authentication protocol, with everything running on stateless compute. It currently has EAP-TLS, TTLS, and PEAP working, with many problems left to solve.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mlhpdx"
+      ],
+      "source_excerpt": "I’m working on a ground-up implementation of RADIUS with everything running on stateless compute. It’s a beast with many problems to solve but I have EAP-TLS, TTLS and PEAP all working. I’d love to connect with folks interested in this kind of thing.",
+      "evidence": [
+        {
+          "source_item_id": 48087356,
+          "source_field": "body",
+          "value": "I’m working on a ground-up implementation of RADIUS with everything running on stateless compute. It’s a beast with many problems to solve but I have EAP-TLS, TTLS and PEAP all working. I’d love to connect with folks interested in this kind of thing.",
+          "supports": [],
+          "author": "mlhpdx",
+          "shared_at": 1778443495,
+          "source_url": "https://news.ycombinator.com/item?id=48087356"
+        }
+      ],
+      "source_item_id": 48087356,
+      "source_url": "https://news.ycombinator.com/item?id=48087356",
+      "author": "mlhpdx",
+      "shared_at": 1778443495,
+      "links": []
+    }
+  ]
+}

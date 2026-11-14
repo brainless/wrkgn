@@ -1,0 +1,64 @@
+{
+  "id": 3763,
+  "slug": "pirsch-efbaa84ebe",
+  "name": "Pirsch",
+  "mentions": [
+    {
+      "name": "Pirsch",
+      "description": "Open-source web analytics core (the v7 rewrite) that powers the Pirsch analytics product. The rewrite adds dynamic reports with ClickHouse queries generated on the fly, better performance, much cleaner and less code, and better and faster data ingestion including full support for JSON metadata.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "marvinblum"
+      ],
+      "source_excerpt": "I'm rewriting the open-source core [0] of our product [1] to add more flexible reports.",
+      "evidence": [
+        {
+          "source_item_id": 48539486,
+          "source_field": "body",
+          "value": "I'm rewriting the open-source core [0] of our product [1] to add more flexible reports.",
+          "supports": [],
+          "author": "marvinblum",
+          "shared_at": 1781521153,
+          "source_url": "https://news.ycombinator.com/item?id=48539486"
+        }
+      ],
+      "source_item_id": 48539486,
+      "source_url": "https://news.ycombinator.com/item?id=48539486",
+      "author": "marvinblum",
+      "shared_at": 1781521153,
+      "links": [
+        "https://github.com/pirsch-analytics/pirsch",
+        "https://pirsch.io/"
+      ]
+    },
+    {
+      "name": "Pirsch Analytics",
+      "description": "Privacy-friendly web analytics tool that measures website traffic while protecting visitor privacy. The author has been building it for more than four years and works on it full-time.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "marvinblum"
+      ],
+      "source_excerpt": "I'm still working like crazy on our privacy-friendly web analytics tool Pirsch Analytics (pirsch.io)",
+      "evidence": [
+        {
+          "source_item_id": 43826221,
+          "source_field": "body",
+          "value": "I'm still working like crazy on our privacy-friendly web analytics tool Pirsch Analytics (pirsch.io)",
+          "supports": [],
+          "author": "marvinblum",
+          "shared_at": 1745875085,
+          "source_url": "https://news.ycombinator.com/item?id=43826221"
+        }
+      ],
+      "source_item_id": 43826221,
+      "source_url": "https://news.ycombinator.com/item?id=43826221",
+      "author": "marvinblum",
+      "shared_at": 1745875085,
+      "links": [
+        "https://pirsch.io"
+      ]
+    }
+  ]
+}

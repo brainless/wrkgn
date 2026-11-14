@@ -1,0 +1,35 @@
+{
+  "id": 4438,
+  "slug": "chasing-losses-e3c6b13452",
+  "name": "Chasing Losses",
+  "mentions": [
+    {
+      "name": "Chasing Losses",
+      "description": "An experiment investigating whether LLMs chase losses when playing roulette, which has found that different models bet different amounts at different frequencies even when given identical prompts.",
+      "problem": "Ongoing challenge of balancing how much to guide the models without steering them, while wanting to observe how they react under pressure.",
+      "audience": null,
+      "builder_usernames": [
+        "aspectrr"
+      ],
+      "source_excerpt": "[Chasing Losses](https://github.com/aspectrr/chasing_losses) I was interested in if LLMs chased losses when playing roulette, still investigating this but i've found that different models will bet different amounts at different frequencies even when prompted the same.",
+      "evidence": [
+        {
+          "source_item_id": 48096737,
+          "source_field": "body",
+          "value": "[Chasing Losses](https://github.com/aspectrr/chasing_losses) I was interested in if LLMs chased losses when playing roulette, still investigating this but i've found that different models will bet different amounts at different frequencies even when prompted the same.",
+          "supports": [],
+          "author": "aspectrr",
+          "shared_at": 1778515092,
+          "source_url": "https://news.ycombinator.com/item?id=48096737"
+        }
+      ],
+      "source_item_id": 48096737,
+      "source_url": "https://news.ycombinator.com/item?id=48096737",
+      "author": "aspectrr",
+      "shared_at": 1778515092,
+      "links": [
+        "https://github.com/aspectrr/chasing_losses"
+      ]
+    }
+  ]
+}

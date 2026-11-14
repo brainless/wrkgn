@@ -1,0 +1,35 @@
+{
+  "id": 7152,
+  "slug": "chemistry-arena-7525b775cc",
+  "name": "Chemistry Arena",
+  "mentions": [
+    {
+      "name": "Chemistry Arena",
+      "description": "This project benchmarks current state-of-the-art LLMs on drug discovery tasks. The plan is to annotate the benchmark data and sell it for post-training of scientific reasoning models.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "deepakorani"
+      ],
+      "source_excerpt": "I have been working on chemistry arena designed to benchmark the current SoTA LLM's on drug discovery tasks. My plan was to then focus on getting this annotated to sell this data for post training of scientific reasoning models.",
+      "evidence": [
+        {
+          "source_item_id": 46944546,
+          "source_field": "body",
+          "value": "I have been working on chemistry arena designed to benchmark the current SoTA LLM's on drug discovery tasks. My plan was to then focus on getting this annotated to sell this data for post training of scientific reasoning models.",
+          "supports": [],
+          "author": "deepakorani",
+          "shared_at": 1770640426,
+          "source_url": "https://news.ycombinator.com/item?id=46944546"
+        }
+      ],
+      "source_item_id": 46944546,
+      "source_url": "https://news.ycombinator.com/item?id=46944546",
+      "author": "deepakorani",
+      "shared_at": 1770640426,
+      "links": [
+        "https://github.com/deepakorani/chemistry-arena"
+      ]
+    }
+  ]
+}

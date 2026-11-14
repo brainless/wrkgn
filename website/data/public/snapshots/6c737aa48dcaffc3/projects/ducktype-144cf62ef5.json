@@ -1,0 +1,33 @@
+{
+  "id": 4280,
+  "slug": "ducktype-144cf62ef5",
+  "name": "DuckType",
+  "mentions": [
+    {
+      "name": "DuckType",
+      "description": "A dictation and meetings app that supports arbitrary speech-to-text API providers (e.g. Deepgram, Speechmatics, ElevenLabs) and offline models, free forever for BYOK and offline use with an optional subscription. It includes a dictionary and voice shortcuts (e.g. saying \"linkedin link\" pastes the actual link) and can import meeting data from Granola to unlock meetings behind its 30-day paywall.",
+      "problem": "Existing dictation and meeting apps are user-hostile, buggy, or feature-limited: many opt into context awareness that streams entire page contents to their servers, open source options lack dictionaries, shortcuts, and proprietary API support, and Granola locks users' own meeting notes behind a 30-day paywall.",
+      "audience": null,
+      "builder_usernames": [
+        "throw14082020"
+      ],
+      "source_excerpt": "So I made my own dictation app. Supports arbitrary API providers (e.g. Deepgram, Speechmatics, Elevenlabs), Offline models and a subscription if you want it.",
+      "evidence": [
+        {
+          "source_item_id": 48531184,
+          "source_field": "body",
+          "value": "So I made my own dictation app. Supports arbitrary API providers (e.g. Deepgram, Speechmatics, Elevenlabs), Offline models and a subscription if you want it.",
+          "supports": [],
+          "author": "throw14082020",
+          "shared_at": 1781463362,
+          "source_url": "https://news.ycombinator.com/item?id=48531184"
+        }
+      ],
+      "source_item_id": 48531184,
+      "source_url": "https://news.ycombinator.com/item?id=48531184",
+      "author": "throw14082020",
+      "shared_at": 1781463362,
+      "links": []
+    }
+  ]
+}

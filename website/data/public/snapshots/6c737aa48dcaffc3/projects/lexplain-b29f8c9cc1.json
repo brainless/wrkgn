@@ -1,0 +1,35 @@
+{
+  "id": 5324,
+  "slug": "lexplain-b29f8c9cc1",
+  "name": "Lexplain",
+  "mentions": [
+    {
+      "name": "Lexplain",
+      "description": "AI-powered service that explains Linux kernel commits and release notes, letting engineers scan kernel changes quickly — covering what the code actually does, why it matters, and what it means for real production systems. Provides 7,000+ commit analyses and release notes for the 7.0-rc series, with 7.0 stable release notes in progress.",
+      "problem": "Keeping up with kernel changes is hard for engineers who aren't kernel developers, and unexpected kernel behavior silently impacting production systems happens more often than it should.",
+      "audience": "Most engineers running Linux in production aren't kernel developers.",
+      "builder_usernames": [
+        "daisydevel"
+      ],
+      "source_excerpt": "Building Lexplain (https://lexplain.net/release-notes), an AI-powered service that explains Linux kernel commits and release notes.",
+      "evidence": [
+        {
+          "source_item_id": 47755353,
+          "source_field": "body",
+          "value": "Building Lexplain (https://lexplain.net/release-notes), an AI-powered service that explains Linux kernel commits and release notes.",
+          "supports": [],
+          "author": "daisydevel",
+          "shared_at": 1776101680,
+          "source_url": "https://news.ycombinator.com/item?id=47755353"
+        }
+      ],
+      "source_item_id": 47755353,
+      "source_url": "https://news.ycombinator.com/item?id=47755353",
+      "author": "daisydevel",
+      "shared_at": 1776101680,
+      "links": [
+        "https://lexplain.net/release-notes"
+      ]
+    }
+  ]
+}

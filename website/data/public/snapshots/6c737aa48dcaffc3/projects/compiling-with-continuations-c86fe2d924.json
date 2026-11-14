@@ -1,0 +1,33 @@
+{
+  "id": 4233,
+  "slug": "compiling-with-continuations-c86fe2d924",
+  "name": "Compiling with Continuations",
+  "mentions": [
+    {
+      "name": "Compiling with Continuations",
+      "description": "A study effort working through the book \"Compiling with Continuations\" by Andrew W. Appel, which covers compiling via continuation-passing style (CPS). The reader has just started the book with the goal of learning whether CPS-compiled code produces good stack traces.",
+      "problem": "Uncertainty about whether CPS-compiled code produces good stack traces.",
+      "audience": null,
+      "builder_usernames": [
+        "wmedrano"
+      ],
+      "source_excerpt": "I just started Compiling with Continuations by Andrew W. Appel.\n\nI hope that by the end of the book I don't find out that CPS compiled code produces bad stack traces.",
+      "evidence": [
+        {
+          "source_item_id": 48536197,
+          "source_field": "body",
+          "value": "I just started Compiling with Continuations by Andrew W. Appel.\n\nI hope that by the end of the book I don't find out that CPS compiled code produces bad stack traces.",
+          "supports": [],
+          "author": "wmedrano",
+          "shared_at": 1781493595,
+          "source_url": "https://news.ycombinator.com/item?id=48536197"
+        }
+      ],
+      "source_item_id": 48536197,
+      "source_url": "https://news.ycombinator.com/item?id=48536197",
+      "author": "wmedrano",
+      "shared_at": 1781493595,
+      "links": []
+    }
+  ]
+}

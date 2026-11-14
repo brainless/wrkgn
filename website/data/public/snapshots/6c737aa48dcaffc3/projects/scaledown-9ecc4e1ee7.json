@@ -1,0 +1,35 @@
+{
+  "id": 10053,
+  "slug": "scaledown-9ecc4e1ee7",
+  "name": "ScaleDown",
+  "mentions": [
+    {
+      "name": "ScaleDown",
+      "description": "ScaleDown is a context pruning API that prunes away irrelevant parts of a context for a given prompt (context-aware pruning). It integrates with a single extra API call before the final LLM API call, addressing performance degradation that occurs with long AI chats and large contexts.",
+      "problem": "LLM context lengths are effectively capped at around 200k tokens and performance drops off a cliff beyond that, which users notice with long AI chats.",
+      "audience": "Developers building AI applications that pass long contexts to LLMs",
+      "builder_usernames": [
+        "csoham"
+      ],
+      "source_excerpt": "I'm working on ScaleDown [1], a context pruning API.\n\nSo over the past few years, I have seen how contexts have been steadily growing in AI apps. And while the context lengths of LLMs have also been increasing, they are still effectively about 200k tokens. The performance drops off a cliff after that (you might have noticed it as well with long AI chats).\n\nIt is a simple API that prunes away irrelevant parts of a context for a given prompt, a.k.a. context-aware pruning. Integration is super simple: just an extra API call before the final LLM API call.",
+      "evidence": [
+        {
+          "source_item_id": 45422749,
+          "source_field": "body",
+          "value": "I'm working on ScaleDown [1], a context pruning API.\n\nSo over the past few years, I have seen how contexts have been steadily growing in AI apps. And while the context lengths of LLMs have also been increasing, they are still effectively about 200k tokens. The performance drops off a cliff after that (you might have noticed it as well with long AI chats).\n\nIt is a simple API that prunes away irrelevant parts of a context for a given prompt, a.k.a. context-aware pruning. Integration is super simple: just an extra API call before the final LLM API call.",
+          "supports": [],
+          "author": "csoham",
+          "shared_at": 1759216109,
+          "source_url": "https://news.ycombinator.com/item?id=45422749"
+        }
+      ],
+      "source_item_id": 45422749,
+      "source_url": "https://news.ycombinator.com/item?id=45422749",
+      "author": "csoham",
+      "shared_at": 1759216109,
+      "links": [
+        "https://scaledown.ai"
+      ]
+    }
+  ]
+}

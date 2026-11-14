@@ -1,0 +1,33 @@
+{
+  "id": 5727,
+  "slug": "latent-diffusion-model-for-storm-behavior-prediction-a3479c16f9",
+  "name": "Latent diffusion model for storm behavior prediction",
+  "mentions": [
+    {
+      "name": "Latent diffusion model for storm behavior prediction",
+      "description": "This project trains a latent diffusion model on weather radar data to predict short-term storm behavior. It has shown decent results on downscaled data at a +30 minute horizon, with full-resolution models in training for +1h and +2h horizons.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "wave100"
+      ],
+      "source_excerpt": "I'm training a latent diffusion model on weather radar data to predict short-term storm behavior. Decent results so far on downscaled data at +30min, training a full-res model at +1h and +2h horizons now.",
+      "evidence": [
+        {
+          "source_item_id": 47756164,
+          "source_field": "body",
+          "value": "I'm training a latent diffusion model on weather radar data to predict short-term storm behavior. Decent results so far on downscaled data at +30min, training a full-res model at +1h and +2h horizons now.",
+          "supports": [],
+          "author": "wave100",
+          "shared_at": 1776105425,
+          "source_url": "https://news.ycombinator.com/item?id=47756164"
+        }
+      ],
+      "source_item_id": 47756164,
+      "source_url": "https://news.ycombinator.com/item?id=47756164",
+      "author": "wave100",
+      "shared_at": 1776105425,
+      "links": []
+    }
+  ]
+}

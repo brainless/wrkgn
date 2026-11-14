@@ -1,0 +1,33 @@
+{
+  "id": 6295,
+  "slug": "lte-based-wireless-horticultural-sensors-9f907ea279",
+  "name": "LTE-based wireless horticultural sensors",
+  "mentions": [
+    {
+      "name": "LTE-based wireless horticultural sensors",
+      "description": "This project builds wireless, LTE-based sensors covering most major horticultural sensing needs. Measurements include CO2, air temperature, pressure, and relative humidity, photosynthetically active radiation (PAR), and add-ons such as wind speed, wind direction, soil moisture, electrical conductivity (EC), plus pH, EC, and flow rate. Everything runs on battery while maintaining accuracy, using LTE (2–4G) instead of common LPWAN options like LoRa.",
+      "problem": "Running everything on battery while maintaining accuracy is hard, especially over LTE (2–4G) rather than common LPWAN options like LoRa; as a primarily software-focused builder, the hardware learning curve has been huge. Also, most CO2 sensors used in closed plant production setups are not meant to operate below 400 ppm.",
+      "audience": null,
+      "builder_usernames": [
+        "davehcker"
+      ],
+      "source_excerpt": "Building wireless (LTE-based) sensors for most major horticultural sensing needs. Measurements include:\n\n- CO2. Side note: I was surprised to find that most (all?) CO2 sensors used in closed plant production setups are not meant to operate below 400 ppm.\n\n- Air temperature, pressure, relative humidity\n\n- Photosynthetically Active Radiation (PAR)\n\n- Addons like: wind speed, wind direction, soil moisture and Electrical Conductivity (EC)\n\n- The coolest and most challenging: pH, EC, and flow rate",
+      "evidence": [
+        {
+          "source_item_id": 47307456,
+          "source_field": "body",
+          "value": "Building wireless (LTE-based) sensors for most major horticultural sensing needs. Measurements include:\n\n- CO2. Side note: I was surprised to find that most (all?) CO2 sensors used in closed plant production setups are not meant to operate below 400 ppm.\n\n- Air temperature, pressure, relative humidity\n\n- Photosynthetically Active Radiation (PAR)\n\n- Addons like: wind speed, wind direction, soil moisture and Electrical Conductivity (EC)\n\n- The coolest and most challenging: pH, EC, and flow rate",
+          "supports": [],
+          "author": "davehcker",
+          "shared_at": 1773054207,
+          "source_url": "https://news.ycombinator.com/item?id=47307456"
+        }
+      ],
+      "source_item_id": 47307456,
+      "source_url": "https://news.ycombinator.com/item?id=47307456",
+      "author": "davehcker",
+      "shared_at": 1773054207,
+      "links": []
+    }
+  ]
+}

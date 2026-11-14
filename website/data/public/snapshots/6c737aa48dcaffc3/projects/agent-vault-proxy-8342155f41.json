@@ -1,0 +1,35 @@
+{
+  "id": 3718,
+  "slug": "agent-vault-proxy-8342155f41",
+  "name": "agent-vault-proxy",
+  "mentions": [
+    {
+      "name": "agent-vault-proxy",
+      "description": "This open-source security tool is a local proxy that injects real secrets into requests in-flight, so a compromised or prompt-injected agent has nothing to steal, protecting against credential stealers and agents leaking secrets.",
+      "problem": "Protects against credential stealers (think Shai-hulud and similar) and prompt-injected agents leaking your secrets.",
+      "audience": null,
+      "builder_usernames": [
+        "radku"
+      ],
+      "source_excerpt": "agent-vault-proxy is a local proxy that injects real secrets into requests in-flight, so a compromised or prompt-injected agent has nothing to steal, feedback welcome: https://github.com/inflightsec/agent-vault-proxy",
+      "evidence": [
+        {
+          "source_item_id": 48531904,
+          "source_field": "body",
+          "value": "agent-vault-proxy is a local proxy that injects real secrets into requests in-flight, so a compromised or prompt-injected agent has nothing to steal, feedback welcome: https://github.com/inflightsec/agent-vault-proxy",
+          "supports": [],
+          "author": "radku",
+          "shared_at": 1781466798,
+          "source_url": "https://news.ycombinator.com/item?id=48531904"
+        }
+      ],
+      "source_item_id": 48531904,
+      "source_url": "https://news.ycombinator.com/item?id=48531904",
+      "author": "radku",
+      "shared_at": 1781466798,
+      "links": [
+        "https://github.com/inflightsec/agent-vault-proxy"
+      ]
+    }
+  ]
+}

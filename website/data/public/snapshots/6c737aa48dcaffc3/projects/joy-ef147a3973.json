@@ -1,0 +1,36 @@
+{
+  "id": 5394,
+  "slug": "joy-ef147a3973",
+  "name": "Joy",
+  "mentions": [
+    {
+      "name": "Joy",
+      "description": "Joy is a CLI for product management that keeps the backlog as plain text in a git repo, so tasks can be added with commands like `joy add \"fix the login bug\"`. AI agents work through the same workflow as humans, with identities, capabilities, and cost budgets, and every action is recorded in the git log.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Joyrst"
+      ],
+      "source_excerpt": "I’m building Joy, a CLI for product management. Your backlog is plain text in your git repo. joy add \"fix the login bug\", done.\nAI works through the same workflow as humans: identities, capabilities, cost budgets, every action in the git log.",
+      "evidence": [
+        {
+          "source_item_id": 47747208,
+          "source_field": "body",
+          "value": "I’m building Joy, a CLI for product management. Your backlog is plain text in your git repo. joy add \"fix the login bug\", done.\nAI works through the same workflow as humans: identities, capabilities, cost budgets, every action in the git log.",
+          "supports": [],
+          "author": "Joyrst",
+          "shared_at": 1776050766,
+          "source_url": "https://news.ycombinator.com/item?id=47747208"
+        }
+      ],
+      "source_item_id": 47747208,
+      "source_url": "https://news.ycombinator.com/item?id=47747208",
+      "author": "Joyrst",
+      "shared_at": 1776050766,
+      "links": [
+        "https://joyint.com/en/docs/architecture",
+        "https://joyint.com/en/joy/docs"
+      ]
+    }
+  ]
+}

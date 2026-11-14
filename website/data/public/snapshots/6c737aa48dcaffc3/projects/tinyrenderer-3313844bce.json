@@ -1,0 +1,35 @@
+{
+  "id": 6082,
+  "slug": "tinyrenderer-3313844bce",
+  "name": "tinyrenderer",
+  "mentions": [
+    {
+      "name": "tinyrenderer",
+      "description": "A work-in-progress pure C implementation of the tinyrenderer computer graphics tutorial, worked through from first principles up to the early shading lessons, including a side-quest hand-written TGA image file reader and writer. Texture mapping is not yet finished.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tkocmathla"
+      ],
+      "source_excerpt": "I got this itch too when I came across tinyrenderer [1] and worked through the early lessons through shading, but didn't quite finish the texture mapping yet [2]. It was fun to work in pure C from first principles, even side-questing to write a simple TGA file reader and writer.",
+      "evidence": [
+        {
+          "source_item_id": 47307509,
+          "source_field": "body",
+          "value": "I got this itch too when I came across tinyrenderer [1] and worked through the early lessons through shading, but didn't quite finish the texture mapping yet [2]. It was fun to work in pure C from first principles, even side-questing to write a simple TGA file reader and writer.",
+          "supports": [],
+          "author": "tkocmathla",
+          "shared_at": 1773054624,
+          "source_url": "https://news.ycombinator.com/item?id=47307509"
+        }
+      ],
+      "source_item_id": 47307509,
+      "source_url": "https://news.ycombinator.com/item?id=47307509",
+      "author": "tkocmathla",
+      "shared_at": 1773054624,
+      "links": [
+        "https://github.com/tkocmathla/tinyrenderer"
+      ]
+    }
+  ]
+}

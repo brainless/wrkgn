@@ -1,0 +1,33 @@
+{
+  "id": 9809,
+  "slug": "3d-portal-mill-voxel-simulator-867d4a7cc7",
+  "name": "3D portal mill voxel simulator",
+  "mentions": [
+    {
+      "name": "3D portal mill voxel simulator",
+      "description": "A simulator for a 3D portal mill in which a virtual toolbit cuts a shape out of a three-dimensional array of voxels, displayed with a very simple engine built with PyGame. It was used for debugging runs and trials of machining designs instead of cutting real wood, saving time and material.",
+      "problem": "Testing milling designs on real wood got expensive fast, so designs were debugged and trialed in simulation instead.",
+      "audience": null,
+      "builder_usernames": [
+        "jacquesm"
+      ],
+      "source_excerpt": "I built something a little bit like this for a simulator of a 3D portal mill. Trying it on real wood got expensive fast so for debugging runs and trials of designs I would run a simulation where the toolbit would hack out the shape out of a three dimensional array of voxels. This was then displayed using a very simple engine built with PyGame.",
+      "evidence": [
+        {
+          "source_item_id": 45419846,
+          "source_field": "body",
+          "value": "I built something a little bit like this for a simulator of a 3D portal mill. Trying it on real wood got expensive fast so for debugging runs and trials of designs I would run a simulation where the toolbit would hack out the shape out of a three dimensional array of voxels. This was then displayed using a very simple engine built with PyGame.",
+          "supports": [],
+          "author": "jacquesm",
+          "shared_at": 1759186371,
+          "source_url": "https://news.ycombinator.com/item?id=45419846"
+        }
+      ],
+      "source_item_id": 45419846,
+      "source_url": "https://news.ycombinator.com/item?id=45419846",
+      "author": "jacquesm",
+      "shared_at": 1759186371,
+      "links": []
+    }
+  ]
+}

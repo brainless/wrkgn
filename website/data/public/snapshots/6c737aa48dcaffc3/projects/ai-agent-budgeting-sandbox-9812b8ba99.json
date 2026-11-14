@@ -1,0 +1,33 @@
+{
+  "id": 7447,
+  "slug": "ai-agent-budgeting-sandbox-9812b8ba99",
+  "name": "AI agent budgeting sandbox",
+  "mentions": [
+    {
+      "name": "AI agent budgeting sandbox",
+      "description": "A developer-facing sandbox providing a budgeting and cost-control layer for AI agents. Agents operate with virtual credits and can temporarily rebalance budgets or split shared API costs, while everything stays under explicit human-defined limits with full audit logs and kill switches. It is intentionally not real money or a financial product, but infrastructure for coordinating agent spend safely.",
+      "problem": "In multi-agent setups, agents hoarded resources or exhausted shared budgets unpredictably.",
+      "audience": "Developers building and running multi-agent AI setups.",
+      "builder_usernames": [
+        "saipal"
+      ],
+      "source_excerpt": "I’ve been working on a developer-facing sandbox for AI agents that focuses on budgeting and cost control, not payments.",
+      "evidence": [
+        {
+          "source_item_id": 46939597,
+          "source_field": "body",
+          "value": "I’ve been working on a developer-facing sandbox for AI agents that focuses on budgeting and cost control, not payments.",
+          "supports": [],
+          "author": "saipal",
+          "shared_at": 1770592449,
+          "source_url": "https://news.ycombinator.com/item?id=46939597"
+        }
+      ],
+      "source_item_id": 46939597,
+      "source_url": "https://news.ycombinator.com/item?id=46939597",
+      "author": "saipal",
+      "shared_at": 1770592449,
+      "links": []
+    }
+  ]
+}

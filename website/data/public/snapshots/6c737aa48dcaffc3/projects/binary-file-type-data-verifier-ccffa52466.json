@@ -1,0 +1,35 @@
+{
+  "id": 4596,
+  "slug": "binary-file-type-data-verifier-ccffa52466",
+  "name": "Binary file type data verifier",
+  "mentions": [
+    {
+      "name": "Binary file type data verifier",
+      "description": "This app verifies the binary data of files across more than 200 common file types, checking integrity to the extent the formats allow. It is one of three apps built with a Zig core, C FFI, and Windows/Mac frontends.",
+      "problem": "Many common formats lack internal integrity protection — e.g., HEIC/HEIF has no integrity data and a failed decode cannot be relied on to detect errors, since all binary values are allowed in the stream format.",
+      "audience": null,
+      "builder_usernames": [
+        "pmarreck"
+      ],
+      "source_excerpt": "One verifies the binary data of over 200+ common filetypes, to the extent possible.",
+      "evidence": [
+        {
+          "source_item_id": 48113112,
+          "source_field": "body",
+          "value": "One verifies the binary data of over 200+ common filetypes, to the extent possible.",
+          "supports": [],
+          "author": "pmarreck",
+          "shared_at": 1778613592,
+          "source_url": "https://news.ycombinator.com/item?id=48113112"
+        }
+      ],
+      "source_item_id": 48113112,
+      "source_url": "https://news.ycombinator.com/item?id=48113112",
+      "author": "pmarreck",
+      "shared_at": 1778613592,
+      "links": [
+        "https://mecha.llc/software/"
+      ]
+    }
+  ]
+}

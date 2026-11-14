@@ -1,0 +1,36 @@
+{
+  "id": 11097,
+  "slug": "selenecms-1380b3fadd",
+  "name": "SeleneCMS",
+  "mentions": [
+    {
+      "name": "SeleneCMS",
+      "description": "SeleneCMS is an open-source PHP content management system built on Symfony. The heavy lifting of the CMS is done in a reusable Symfony bundle (SeleneCMSBundle), with only a minimal amount of logic in the actual application side. The project is under active development with substantial work remaining, and contributions are welcome.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "psion"
+      ],
+      "source_excerpt": "Still trying to make my CMS a thing:\nhttps://github.com/SeleneSoftware/SeleneCMS\nhttps://github.com/SeleneSoftware/SeleneCMSBundle\n\nIt's a PHP application running in Symfony.  All the CMS heavy lifting is done in the Bundle, and a minimal amount happens in the actual application side.  I have worked hard on what is there, and still have a ton of work to go.  Always could use the help.",
+      "evidence": [
+        {
+          "source_item_id": 43826633,
+          "source_field": "body",
+          "value": "Still trying to make my CMS a thing:\nhttps://github.com/SeleneSoftware/SeleneCMS\nhttps://github.com/SeleneSoftware/SeleneCMSBundle\n\nIt's a PHP application running in Symfony.  All the CMS heavy lifting is done in the Bundle, and a minimal amount happens in the actual application side.  I have worked hard on what is there, and still have a ton of work to go.  Always could use the help.",
+          "supports": [],
+          "author": "psion",
+          "shared_at": 1745877947,
+          "source_url": "https://news.ycombinator.com/item?id=43826633"
+        }
+      ],
+      "source_item_id": 43826633,
+      "source_url": "https://news.ycombinator.com/item?id=43826633",
+      "author": "psion",
+      "shared_at": 1745877947,
+      "links": [
+        "https://github.com/SeleneSoftware/SeleneCMS",
+        "https://github.com/SeleneSoftware/SeleneCMSBundle"
+      ]
+    }
+  ]
+}

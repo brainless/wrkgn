@@ -1,0 +1,35 @@
+{
+  "id": 10153,
+  "slug": "codeinput-5ab16f7797",
+  "name": "CodeInput",
+  "mentions": [
+    {
+      "name": "CodeInput",
+      "description": "This system schedules Cloudflare WASM workers as a lightweight alternative to GitHub Actions for running jobs.",
+      "problem": "GitHub Actions is heavyweight; the builder wants a lighter-weight way to schedule WASM-based Cloudflare Workers.",
+      "audience": null,
+      "builder_usernames": [
+        "csomar"
+      ],
+      "source_excerpt": "https://codeinput.com\n\nKind of have been wasting time with Cloudflare workers engine. Trying to build a system that schedules these workers for a lightweight alternative to GitHub actions.",
+      "evidence": [
+        {
+          "source_item_id": 45422284,
+          "source_field": "body",
+          "value": "https://codeinput.com\n\nKind of have been wasting time with Cloudflare workers engine. Trying to build a system that schedules these workers for a lightweight alternative to GitHub actions.",
+          "supports": [],
+          "author": "csomar",
+          "shared_at": 1759210922,
+          "source_url": "https://news.ycombinator.com/item?id=45422284"
+        }
+      ],
+      "source_item_id": 45422284,
+      "source_url": "https://news.ycombinator.com/item?id=45422284",
+      "author": "csomar",
+      "shared_at": 1759210922,
+      "links": [
+        "https://codeinput.com"
+      ]
+    }
+  ]
+}

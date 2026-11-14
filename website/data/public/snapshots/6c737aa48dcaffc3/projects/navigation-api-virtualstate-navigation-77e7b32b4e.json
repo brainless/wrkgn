@@ -1,0 +1,35 @@
+{
+  "id": 9321,
+  "slug": "navigation-api-virtualstate-navigation-77e7b32b4e",
+  "name": "Navigation API (virtualstate/navigation)",
+  "mentions": [
+    {
+      "name": "Navigation API (virtualstate/navigation)",
+      "description": "An implementation of the web Navigation API for Node, Bun, Deno, and as a browser polyfill, providing async state navigations. It has 90% test coverage, uses web platform tests to verify compatibility, is already in use by some larger companies, and targets the Navigation API that is soon to become a baseline in evergreen browsers (with React recently adding Navigation API support for the browser reload indicator).",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "fabiancook"
+      ],
+      "source_excerpt": "On and off working on the Navigation API for Node, Bun, Deno, & as a browser polyfill.",
+      "evidence": [
+        {
+          "source_item_id": 45869553,
+          "source_field": "body",
+          "value": "On and off working on the Navigation API for Node, Bun, Deno, & as a browser polyfill.",
+          "supports": [],
+          "author": "fabiancook",
+          "shared_at": 1762725174,
+          "source_url": "https://news.ycombinator.com/item?id=45869553"
+        }
+      ],
+      "source_item_id": 45869553,
+      "source_url": "https://news.ycombinator.com/item?id=45869553",
+      "author": "fabiancook",
+      "shared_at": 1762725174,
+      "links": [
+        "https://github.com/virtualstate/navigation"
+      ]
+    }
+  ]
+}

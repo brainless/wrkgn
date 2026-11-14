@@ -1,0 +1,33 @@
+{
+  "id": 7440,
+  "slug": "translatevoice-1c3487c859",
+  "name": "TranslateVoice",
+  "mentions": [
+    {
+      "name": "TranslateVoice",
+      "description": "iPhone voice translation app where tapping the microphone uses 4o realtime to translate between two people. Has three working modes: Interpreter mode for pure two-way translation with chat history transcribed in each person's language, Friend mode where the app acts like a helpful friend to gather information toward a stated goal, and Stealth mode (still buggy) that transcribes and translates everything spoken via AirPods and suggests what to say based on an initial goal and written instructions.",
+      "problem": "OpenAI's 4o app did not follow prompts well for live translation — it randomly tried to communicate with the user instead of strictly translating and cut speakers off before they finished — and existing alternatives were probably paid.",
+      "audience": null,
+      "builder_usernames": [
+        "mesmertech"
+      ],
+      "source_excerpt": "TranslateVoice(name TBD) - An iphone voice translate app where you tap microphone button and it uses 4o realtime to translate between you and someone else.",
+      "evidence": [
+        {
+          "source_item_id": 46951820,
+          "source_field": "body",
+          "value": "TranslateVoice(name TBD) - An iphone voice translate app where you tap microphone button and it uses 4o realtime to translate between you and someone else.",
+          "supports": [],
+          "author": "mesmertech",
+          "shared_at": 1770673109,
+          "source_url": "https://news.ycombinator.com/item?id=46951820"
+        }
+      ],
+      "source_item_id": 46951820,
+      "source_url": "https://news.ycombinator.com/item?id=46951820",
+      "author": "mesmertech",
+      "shared_at": 1770673109,
+      "links": []
+    }
+  ]
+}

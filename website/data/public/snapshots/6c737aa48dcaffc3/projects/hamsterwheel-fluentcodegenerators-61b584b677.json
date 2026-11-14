@@ -1,0 +1,35 @@
+{
+  "id": 10026,
+  "slug": "hamsterwheel-fluentcodegenerators-61b584b677",
+  "name": "HamsterWheel.FluentCodeGenerators",
+  "mentions": [
+    {
+      "name": "HamsterWheel.FluentCodeGenerators",
+      "description": "This C# library provides a fluent API for writing Roslyn source code generators. It automatically emits using statements, formats generated code, helps import types, handles indentation and balancing parentheses, supports parameters and async method generation, offers nicer wrappers around Roslyn's IncrementalValueProvider, and allows sharing pieces of code between files/classes (e.g. interface implementations).",
+      "problem": "Native Roslyn APIs are complicated to get started with when writing source code generators.",
+      "audience": null,
+      "builder_usernames": [
+        "npodbielski"
+      ],
+      "source_excerpt": "It is small helpful library that helps to write Roslyn source code generators using fluent API.\nMight be a bit niche use, but native Roslyn APIs are a bit complicated to get started writing source code generator. Fluent API helps with that greatly.",
+      "evidence": [
+        {
+          "source_item_id": 45430800,
+          "source_field": "body",
+          "value": "It is small helpful library that helps to write Roslyn source code generators using fluent API.\nMight be a bit niche use, but native Roslyn APIs are a bit complicated to get started writing source code generator. Fluent API helps with that greatly.",
+          "supports": [],
+          "author": "npodbielski",
+          "shared_at": 1759264069,
+          "source_url": "https://news.ycombinator.com/item?id=45430800"
+        }
+      ],
+      "source_item_id": 45430800,
+      "source_url": "https://news.ycombinator.com/item?id=45430800",
+      "author": "npodbielski",
+      "shared_at": 1759264069,
+      "links": [
+        "https://github.com/npodbielski/HamsterWheel.FluentCodeGenerators"
+      ]
+    }
+  ]
+}

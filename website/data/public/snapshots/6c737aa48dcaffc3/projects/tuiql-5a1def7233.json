@@ -1,0 +1,35 @@
+{
+  "id": 4396,
+  "slug": "tuiql-5a1def7233",
+  "name": "TUIQL",
+  "mentions": [
+    {
+      "name": "TUIQL",
+      "description": "A lightweight TUI (terminal UI) database client that supports Turso, designed as a fast alternative to heavy GUI database clients. It renders text data with minimal RAM usage, supports day-to-day database workflows, and can be launched from any terminal with a saved connection.",
+      "problem": "Heavy database clients take gigabytes of RAM when rendering data that is text.",
+      "audience": null,
+      "builder_usernames": [
+        "okira_e"
+      ],
+      "source_excerpt": "I am currently building a powerful TUI database client (that supports Turso as well) as I grew fed up with heavy db clients that take gigabytes of ram when rendering data that is text. It's also very convenient since you can launch it with a saved connection from any terminal anywhere. It's still early in 0.1v at https://github.com/okira-e/TUIQL but already supports everything day-to-day that you would need.",
+      "evidence": [
+        {
+          "source_item_id": 48092990,
+          "source_field": "body",
+          "value": "I am currently building a powerful TUI database client (that supports Turso as well) as I grew fed up with heavy db clients that take gigabytes of ram when rendering data that is text. It's also very convenient since you can launch it with a saved connection from any terminal anywhere. It's still early in 0.1v at https://github.com/okira-e/TUIQL but already supports everything day-to-day that you would need.",
+          "supports": [],
+          "author": "okira_e",
+          "shared_at": 1778493460,
+          "source_url": "https://news.ycombinator.com/item?id=48092990"
+        }
+      ],
+      "source_item_id": 48092990,
+      "source_url": "https://news.ycombinator.com/item?id=48092990",
+      "author": "okira_e",
+      "shared_at": 1778493460,
+      "links": [
+        "https://github.com/okira-e/TUIQL"
+      ]
+    }
+  ]
+}

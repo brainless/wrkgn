@@ -1,0 +1,35 @@
+{
+  "id": 10899,
+  "slug": "batchscan-aa2457b09f",
+  "name": "batchscan",
+  "mentions": [
+    {
+      "name": "batchscan",
+      "description": "This workflow processes a personal photo collection, generating a text description, a list of keywords, and the mood for each photo by feeding images through Gemini. A planned next step is face detection so the most recurring faces can be labeled and all images tagged accordingly. It currently runs on the author's machine, taking 30+ seconds per image, and is shared as a git repo; the author describes it as a personal project at this point.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "lodovic"
+      ],
+      "source_excerpt": "I doubt it's useful to anyone but myself at this point, but it does work on my machine (taking 30+ sec per image). here's the git repo https://github.com/gdoct/batchscan",
+      "evidence": [
+        {
+          "source_item_id": 43837529,
+          "source_field": "body",
+          "value": "I doubt it's useful to anyone but myself at this point, but it does work on my machine (taking 30+ sec per image). here's the git repo https://github.com/gdoct/batchscan",
+          "supports": [],
+          "author": "lodovic",
+          "shared_at": 1745957727,
+          "source_url": "https://news.ycombinator.com/item?id=43837529"
+        }
+      ],
+      "source_item_id": 43837529,
+      "source_url": "https://news.ycombinator.com/item?id=43837529",
+      "author": "lodovic",
+      "shared_at": 1745957727,
+      "links": [
+        "https://github.com/gdoct/batchscan"
+      ]
+    }
+  ]
+}

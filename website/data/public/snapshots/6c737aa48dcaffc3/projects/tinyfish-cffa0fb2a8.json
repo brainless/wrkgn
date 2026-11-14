@@ -1,0 +1,33 @@
+{
+  "id": 6898,
+  "slug": "tinyfish-cffa0fb2a8",
+  "name": "TinyFish",
+  "mentions": [
+    {
+      "name": "TinyFish",
+      "description": "Browser automation APIs built for AI agents. TinyFish provides structured browser primitives that agents can actually reason about — DOM state, element targeting, and action verification — so an agent knows whether an action succeeded rather than just that it clicked something, avoiding the fragile screenshot-and-click approach of typical agent frameworks. It is being used with a few enterprise teams on their agent pipelines.",
+      "problem": "Most agent frameworks treat the browser like a human would (screenshot, click, pray), which breaks constantly and leaves agents without confirmation that their actions succeeded.",
+      "audience": "Enterprise teams working on AI agent pipelines.",
+      "builder_usernames": [
+        "tiny-automates"
+      ],
+      "source_excerpt": "i'm building TinyFish (https://tinyfish.ai)- browser automation APIs built for AI agents.",
+      "evidence": [
+        {
+          "source_item_id": 46956043,
+          "source_field": "body",
+          "value": "i'm building TinyFish (https://tinyfish.ai)- browser automation APIs built for AI agents.",
+          "supports": [],
+          "author": "tiny-automates",
+          "shared_at": 1770704651,
+          "source_url": "https://news.ycombinator.com/item?id=46956043"
+        }
+      ],
+      "source_item_id": 46956043,
+      "source_url": "https://news.ycombinator.com/item?id=46956043",
+      "author": "tiny-automates",
+      "shared_at": 1770704651,
+      "links": []
+    }
+  ]
+}

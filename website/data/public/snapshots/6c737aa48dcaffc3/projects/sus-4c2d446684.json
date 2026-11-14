@@ -1,0 +1,35 @@
+{
+  "id": 6337,
+  "slug": "sus-4c2d446684",
+  "name": "SUS",
+  "mentions": [
+    {
+      "name": "SUS",
+      "description": "SUS is a custom hardware description language used to build high-bandwidth memory streaming interfaces for HBM on VCK5000 and U280 FPGAs. It aims for consistent 450MHz synthesis so a narrower 256-bit interface can sustain full bandwidth in place of a 512-bit interface; current FMax results range 440-490MHz with some edge cases remaining.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "VonTum"
+      ],
+      "source_excerpt": "I've been building high-bandwidth memory streaming interfaces for HBM on VCK5000 & U280 FPGAs in my own language - \"SUS\".",
+      "evidence": [
+        {
+          "source_item_id": 47303765,
+          "source_field": "body",
+          "value": "I've been building high-bandwidth memory streaming interfaces for HBM on VCK5000 & U280 FPGAs in my own language - \"SUS\".",
+          "supports": [],
+          "author": "VonTum",
+          "shared_at": 1773019796,
+          "source_url": "https://news.ycombinator.com/item?id=47303765"
+        }
+      ],
+      "source_item_id": 47303765,
+      "source_url": "https://news.ycombinator.com/item?id=47303765",
+      "author": "VonTum",
+      "shared_at": 1773019796,
+      "links": [
+        "https://github.com/pc2/sus-xrt"
+      ]
+    }
+  ]
+}

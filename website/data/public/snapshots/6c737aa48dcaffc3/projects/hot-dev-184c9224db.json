@@ -1,0 +1,35 @@
+{
+  "id": 6892,
+  "slug": "hot-dev-184c9224db",
+  "name": "Hot Dev",
+  "mentions": [
+    {
+      "name": "Hot Dev",
+      "description": "A backend workflow platform. It features Hot, a functional expression-based language with types and built-in parallel constructs for integrations. Workflows are driven by event handlers (e.g. on \"user:created\") and scheduled events (e.g. \"every hour\"), any Hot function can be turned into an MCP Tool, and a real-time API exposes running tasks with workflow Streams subscribable via SSE updates. Observability includes a system-level dashboard, call-level tracing, and alerts to email, Slack, PagerDuty, or webhooks. Projects are developed locally and pushed to production with `hot deploy`, and an upcoming Hot Box feature will run any OCI container as a Hot function.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "csummers"
+      ],
+      "source_excerpt": "I'm building Hot Dev, a backend workflow platform.",
+      "evidence": [
+        {
+          "source_item_id": 46944835,
+          "source_field": "body",
+          "value": "I'm building Hot Dev, a backend workflow platform.",
+          "supports": [],
+          "author": "csummers",
+          "shared_at": 1770642584,
+          "source_url": "https://news.ycombinator.com/item?id=46944835"
+        }
+      ],
+      "source_item_id": 46944835,
+      "source_url": "https://news.ycombinator.com/item?id=46944835",
+      "author": "csummers",
+      "shared_at": 1770642584,
+      "links": [
+        "https://hot.dev"
+      ]
+    }
+  ]
+}

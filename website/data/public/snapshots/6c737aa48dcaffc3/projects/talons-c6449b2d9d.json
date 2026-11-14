@@ -1,0 +1,35 @@
+{
+  "id": 7555,
+  "slug": "talons-c6449b2d9d",
+  "name": "Talons",
+  "mentions": [
+    {
+      "name": "Talons",
+      "description": "A stripped-down fork of the Claws Mail GTK email client (itself descended from Sylpheed), revitalized with Zig. The build system was migrated from autotools to Zig's build system, and development focuses on deleting features, tidying up the code, preferring stack allocation, and minimizing global state, with plans to port the trickier network code to Zig using its built-in testing.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "olowe"
+      ],
+      "source_excerpt": "Talons[1] is my stripped down fork of claws-mail[2] which itself is a fork of Sylpheed[3].",
+      "evidence": [
+        {
+          "source_item_id": 46584877,
+          "source_field": "body",
+          "value": "Talons[1] is my stripped down fork of claws-mail[2] which itself is a fork of Sylpheed[3].",
+          "supports": [],
+          "author": "olowe",
+          "shared_at": 1768199907,
+          "source_url": "https://news.ycombinator.com/item?id=46584877"
+        }
+      ],
+      "source_item_id": 46584877,
+      "source_url": "https://news.ycombinator.com/item?id=46584877",
+      "author": "olowe",
+      "shared_at": 1768199907,
+      "links": [
+        "https://git.olowe.co/?action=summary&path=talons"
+      ]
+    }
+  ]
+}

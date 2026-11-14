@@ -1,0 +1,33 @@
+{
+  "id": 9772,
+  "slug": "voice-first-migraine-tracker-8b428320f6",
+  "name": "Voice-first migraine tracker",
+  "mentions": [
+    {
+      "name": "Voice-first migraine tracker",
+      "description": "This app is a voice-first migraine tracker that logs migraine-relevant life data (food, medications, headache and nausea levels) by pressing record on an Apple Watch and speaking. Recordings are transcribed with Deepgram, then the unstructured data is sent to an LLM for analysis to find root causes, with a \"chat with your data\" page for asking questions and drawing conclusions. The main webapp is complete and being packaged as an iOS app to pull biometrics from HealthKit, with plans to release on GitHub or possibly the App Store.",
+      "problem": "Existing migraine tracking apps rely on complex forms that are hard to use while actually having a migraine, and the author wants to identify the root causes of their migraines.",
+      "audience": null,
+      "builder_usernames": [
+        "justinc8687"
+      ],
+      "source_excerpt": "I've been suffering from migraines for the last month, so have channeled my (non-migraine) time into a migraine tracker to try and find the root causes.  All the tracking apps I tried all have nice complex forms, which is all well and good, unless...you are having a migraine.",
+      "evidence": [
+        {
+          "source_item_id": 45565087,
+          "source_field": "body",
+          "value": "I've been suffering from migraines for the last month, so have channeled my (non-migraine) time into a migraine tracker to try and find the root causes.  All the tracking apps I tried all have nice complex forms, which is all well and good, unless...you are having a migraine.",
+          "supports": [],
+          "author": "justinc8687",
+          "shared_at": 1760334782,
+          "source_url": "https://news.ycombinator.com/item?id=45565087"
+        }
+      ],
+      "source_item_id": 45565087,
+      "source_url": "https://news.ycombinator.com/item?id=45565087",
+      "author": "justinc8687",
+      "shared_at": 1760334782,
+      "links": []
+    }
+  ]
+}

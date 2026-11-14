@@ -1,0 +1,35 @@
+{
+  "id": 4281,
+  "slug": "opencook-f3acfde278",
+  "name": "OpenCook",
+  "mentions": [
+    {
+      "name": "OpenCook",
+      "description": "An open source recipe web app with AI features, rebuilt by extracting the author's curated recipes from StashCook using Codex.",
+      "problem": "StashCook requires a subscription just to read your own recipes on the web app, locking recipe data behind a paywall.",
+      "audience": null,
+      "builder_usernames": [
+        "throw14082020"
+      ],
+      "source_excerpt": "Another app: OpenCook https://open-cook.com/ . We curated and wrote our own recipes into StashCook, which requires a subscription just to read your own recipes on the web app.",
+      "evidence": [
+        {
+          "source_item_id": 48531184,
+          "source_field": "body",
+          "value": "Another app: OpenCook https://open-cook.com/ . We curated and wrote our own recipes into StashCook, which requires a subscription just to read your own recipes on the web app.",
+          "supports": [],
+          "author": "throw14082020",
+          "shared_at": 1781463362,
+          "source_url": "https://news.ycombinator.com/item?id=48531184"
+        }
+      ],
+      "source_item_id": 48531184,
+      "source_url": "https://news.ycombinator.com/item?id=48531184",
+      "author": "throw14082020",
+      "shared_at": 1781463362,
+      "links": [
+        "https://open-cook.com/"
+      ]
+    }
+  ]
+}

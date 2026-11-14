@@ -1,0 +1,35 @@
+{
+  "id": 10479,
+  "slug": "byte-vision-aa170b3417",
+  "name": "Byte-Vision",
+  "mentions": [
+    {
+      "name": "Byte-Vision",
+      "description": "Byte-Vision is a privacy-first document intelligence platform that transforms static documents into an interactive, searchable knowledge base. Built on Elasticsearch with RAG (Retrieval-Augmented Generation) capabilities, it offers document parsing, OCR processing, and conversational AI interfaces.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "kbrisso"
+      ],
+      "source_excerpt": "Byte-Vision is a privacy-first document intelligence platform that transforms static documents into an interactive, searchable knowledge base. Built on Elasticsearch with RAG (Retrieval-Augmented Generation) capabilities, it offers document parsing, OCR processing, and conversational AI interfaces.",
+      "evidence": [
+        {
+          "source_item_id": 44703838,
+          "source_field": "body",
+          "value": "Byte-Vision is a privacy-first document intelligence platform that transforms static documents into an interactive, searchable knowledge base. Built on Elasticsearch with RAG (Retrieval-Augmented Generation) capabilities, it offers document parsing, OCR processing, and conversational AI interfaces.",
+          "supports": [],
+          "author": "kbrisso",
+          "shared_at": 1753644221,
+          "source_url": "https://news.ycombinator.com/item?id=44703838"
+        }
+      ],
+      "source_item_id": 44703838,
+      "source_url": "https://news.ycombinator.com/item?id=44703838",
+      "author": "kbrisso",
+      "shared_at": 1753644221,
+      "links": [
+        "https://github.com/kbrisso/byte-vision"
+      ]
+    }
+  ]
+}

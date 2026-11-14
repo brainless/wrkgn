@@ -1,0 +1,35 @@
+{
+  "id": 8919,
+  "slug": "magikrun-0be414e6a3",
+  "name": "magikrun",
+  "mentions": [
+    {
+      "name": "magikrun",
+      "description": "A distributed systems project exploring a CAP theorem \"split\" that flips the theorem's limitations to enable massive scaling far beyond traditional consensus protocols. Motivated by federating 100+ service meshes across on-prem and AWS in a hybrid cloud project; prototyped with libp2p, with the networking layer treated as a means to the end goal of extreme distributed scaling.",
+      "problem": "Traditional consensus protocols limit how far distributed systems can scale; the project aims to invert/split CAP constraints to enable extreme distributed scaling.",
+      "audience": null,
+      "builder_usernames": [
+        "flavioaiello"
+      ],
+      "source_excerpt": "https://github.com/magikrun\n\nBack in 2020, while federating more than 100 service meshes across on-prem and AWS for a big hybrid cloud project, I had an idea: what if we could \"split\" the CAP theorem in a way that flips its limitations, enabling massive scaling far beyond traditional consensus protocols? Fast-forward five years:I started prototyping with libp2p, but the networking layer was always just a means to an end; the real goal is that CAP inversion/split for extreme distributed scaling.",
+      "evidence": [
+        {
+          "source_item_id": 46374571,
+          "source_field": "body",
+          "value": "https://github.com/magikrun\n\nBack in 2020, while federating more than 100 service meshes across on-prem and AWS for a big hybrid cloud project, I had an idea: what if we could \"split\" the CAP theorem in a way that flips its limitations, enabling massive scaling far beyond traditional consensus protocols? Fast-forward five years:I started prototyping with libp2p, but the networking layer was always just a means to an end; the real goal is that CAP inversion/split for extreme distributed scaling.",
+          "supports": [],
+          "author": "flavioaiello",
+          "shared_at": 1766574926,
+          "source_url": "https://news.ycombinator.com/item?id=46374571"
+        }
+      ],
+      "source_item_id": 46374571,
+      "source_url": "https://news.ycombinator.com/item?id=46374571",
+      "author": "flavioaiello",
+      "shared_at": 1766574926,
+      "links": [
+        "https://github.com/magikrun"
+      ]
+    }
+  ]
+}

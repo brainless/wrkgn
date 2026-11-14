@@ -1,0 +1,35 @@
+{
+  "id": 11344,
+  "slug": "notai-9b190f80a0",
+  "name": "NotAI",
+  "mentions": [
+    {
+      "name": "NotAI",
+      "description": "This tool automatically surfaces relevant information while you work so you don't have to search for things manually. Users can select text and write notes in place, and relevant notes reappear when matching context is on screen; it also automatically captures information as it appears, such as adding contact names seen in a messenger or memorizing meeting details. It is fully local with no network requests or server-side processing (~40ms reaction time), ships as a single native executable small enough to run on 5-7 year old laptops, and offers verifiable privacy since users can block it from the network via a firewall.",
+      "problem": "Manually searching for and structuring information while working, bloated apps that drain battery, and privacy products whose guarantees can't be trusted.",
+      "audience": "The author built it for himself first and foremost.",
+      "builder_usernames": [
+        "shkurski_"
+      ],
+      "source_excerpt": "A tool that automatically shows you relevant information as you work so you don't have to search for things manually. With privacy guarantees.",
+      "evidence": [
+        {
+          "source_item_id": 43833845,
+          "source_field": "body",
+          "value": "A tool that automatically shows you relevant information as you work so you don't have to search for things manually. With privacy guarantees.",
+          "supports": [],
+          "author": "shkurski_",
+          "shared_at": 1745939882,
+          "source_url": "https://news.ycombinator.com/item?id=43833845"
+        }
+      ],
+      "source_item_id": 43833845,
+      "source_url": "https://news.ycombinator.com/item?id=43833845",
+      "author": "shkurski_",
+      "shared_at": 1745939882,
+      "links": [
+        "https://shkur.ski/notai"
+      ]
+    }
+  ]
+}

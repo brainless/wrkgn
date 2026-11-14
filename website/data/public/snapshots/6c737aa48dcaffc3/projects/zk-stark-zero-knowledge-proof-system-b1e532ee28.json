@@ -1,0 +1,35 @@
+{
+  "id": 11316,
+  "slug": "zk-stark-zero-knowledge-proof-system-b1e532ee28",
+  "name": "zk-STARK zero-knowledge proof system",
+  "mentions": [
+    {
+      "name": "zk-STARK zero-knowledge proof system",
+      "description": "A zero-knowledge proof system (zk-STARK) that runs on Android, macOS, Linux, and WebAssembly, with Vulkan/CUDA backends (Metal support coming). Current work focuses on optimizing composition polynomial evaluation, which is currently suboptimal.",
+      "problem": "Composition polynomial evaluation is currently suboptimal and is the focus of ongoing optimization.",
+      "audience": null,
+      "builder_usernames": [
+        "byteware"
+      ],
+      "source_excerpt": "first order zero knowledge proof system (zk-stark), it works on android, macos, linux, webassembly, vulkan/cuda backend (metal coming), but the composition polynomial evaluation is suboptimal so i am working on that now",
+      "evidence": [
+        {
+          "source_item_id": 43818638,
+          "source_field": "body",
+          "value": "first order zero knowledge proof system (zk-stark), it works on android, macos, linux, webassembly, vulkan/cuda backend (metal coming), but the composition polynomial evaluation is suboptimal so i am working on that now",
+          "supports": [],
+          "author": "byteware",
+          "shared_at": 1745825841,
+          "source_url": "https://news.ycombinator.com/item?id=43818638"
+        }
+      ],
+      "source_item_id": 43818638,
+      "source_url": "https://news.ycombinator.com/item?id=43818638",
+      "author": "byteware",
+      "shared_at": 1745825841,
+      "links": [
+        "https://theorium.org/constraints.html"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 7252,
+  "slug": "llm-text-rephraser-fb8851e006",
+  "name": "LLM Text Rephraser",
+  "mentions": [
+    {
+      "name": "LLM Text Rephraser",
+      "description": "This is a small LLM-based tool that rephrases text, with attention to preserving the original meaning and the requested tone when rewriting.",
+      "problem": "Model output often looks correct while subtly changing meaning or missing the requested tone, which turned out to be a bigger challenge than generation itself.",
+      "audience": null,
+      "builder_usernames": [
+        "aiwriterk"
+      ],
+      "source_excerpt": "I’m building a small LLM-based text rephrase tool, but it turned into something different than I expected.",
+      "evidence": [
+        {
+          "source_item_id": 46942022,
+          "source_field": "body",
+          "value": "I’m building a small LLM-based text rephrase tool, but it turned into something different than I expected.",
+          "supports": [],
+          "author": "aiwriterk",
+          "shared_at": 1770616677,
+          "source_url": "https://news.ycombinator.com/item?id=46942022"
+        }
+      ],
+      "source_item_id": 46942022,
+      "source_url": "https://news.ycombinator.com/item?id=46942022",
+      "author": "aiwriterk",
+      "shared_at": 1770616677,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 5193,
+  "slug": "aeolus-184657d6f2",
+  "name": "Aeolus",
+  "mentions": [
+    {
+      "name": "Aeolus",
+      "description": "A Python library providing a unified interface for air quality data from sources around the world. It normalizes access to many air quality networks behind one API, sparing users the work of integrating each network's API individually (e.g. the EEA's CSV endpoint that returns a .zip with an \"text/html\" mimetype). Open source and freely available.",
+      "problem": "Air quality data is widely available, but managing access to multiple networks with inconsistent, low-quality APIs is a massive task, and integrating new APIs could be a full-time job.",
+      "audience": "Initially built for the author's own use in developing a company that turns air quality data into actionable information, but open source and freely available to others.",
+      "builder_usernames": [
+        "ruaraidh"
+      ],
+      "source_excerpt": "Aeolus, a Python library to provide a unified interface for air quality data from sources around the world: https://github.com/southlondonscientific/aeolus",
+      "evidence": [
+        {
+          "source_item_id": 47749841,
+          "source_field": "body",
+          "value": "Aeolus, a Python library to provide a unified interface for air quality data from sources around the world: https://github.com/southlondonscientific/aeolus",
+          "supports": [],
+          "author": "ruaraidh",
+          "shared_at": 1776073820,
+          "source_url": "https://news.ycombinator.com/item?id=47749841"
+        }
+      ],
+      "source_item_id": 47749841,
+      "source_url": "https://news.ycombinator.com/item?id=47749841",
+      "author": "ruaraidh",
+      "shared_at": 1776073820,
+      "links": [
+        "https://github.com/southlondonscientific/aeolus"
+      ]
+    }
+  ]
+}

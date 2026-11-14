@@ -1,0 +1,33 @@
+{
+  "id": 6231,
+  "slug": "testeranto-0e0cb423a7",
+  "name": "Testeranto",
+  "mentions": [
+    {
+      "name": "Testeranto",
+      "description": "An AI-powered BDD test framework for polyglot projects with implementations in TypeScript, Go, Rust, Ruby, Java, and Python. Users add the languages they need and launch a server; Testeranto runs the BDD tests in Docker, produces results and logs, and feeds those logs, test results, and code into an LLM that fixes the tests — the user writes the tests and the LLM fills in the code.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "adamwong246"
+      ],
+      "source_excerpt": "Testeranto - The AI powered BDD test framework for polyglot projects. There is a implementation now in ts, golang, rust, ruby, java and python. Add the language(s) that you need to your project and launch the server. Testeranto will run your BDD tests in docker and produce a set of results and logs. These logs, test results and your code are fed into an LLM, which fixes your tests for you. In essence, you write the tests and the LLM fills in the code.",
+      "evidence": [
+        {
+          "source_item_id": 47303767,
+          "source_field": "body",
+          "value": "Testeranto - The AI powered BDD test framework for polyglot projects. There is a implementation now in ts, golang, rust, ruby, java and python. Add the language(s) that you need to your project and launch the server. Testeranto will run your BDD tests in docker and produce a set of results and logs. These logs, test results and your code are fed into an LLM, which fixes your tests for you. In essence, you write the tests and the LLM fills in the code.",
+          "supports": [],
+          "author": "adamwong246",
+          "shared_at": 1773019806,
+          "source_url": "https://news.ycombinator.com/item?id=47303767"
+        }
+      ],
+      "source_item_id": 47303767,
+      "source_url": "https://news.ycombinator.com/item?id=47303767",
+      "author": "adamwong246",
+      "shared_at": 1773019806,
+      "links": []
+    }
+  ]
+}

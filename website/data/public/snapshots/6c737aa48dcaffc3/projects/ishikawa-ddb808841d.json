@@ -1,0 +1,33 @@
+{
+  "id": 6630,
+  "slug": "ishikawa-ddb808841d",
+  "name": "Ishikawa",
+  "mentions": [
+    {
+      "name": "Ishikawa",
+      "description": "A Golang-based framework and architecture for automated attack surface mapping and vulnerability scanning. It dynamically maps information into one central directed knowledge graph, is multithreaded by default, and reuses existing tools such as nmap, nuclei, katana, and wfuzz. Its self-supervising decentralized design makes every worker also a scheduler, dispatching new jobs via delta causality, cartesian fanout, and graph overlay mapping (including local-only witness nodes), so no central scheduler or total job queue is needed and the knowledge graph grows organically. The project was developed privately over ~10 years, is currently unpublished due to German legal constraints, and requires no LLM/NN; a detailed blog article with example visual data is in progress.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "voodooEntity"
+      ],
+      "source_excerpt": "Ishikawa : a framework/architecture for automated Attack Surface Mapping & Vulnerability scanning",
+      "evidence": [
+        {
+          "source_item_id": 47307112,
+          "source_field": "body",
+          "value": "Ishikawa : a framework/architecture for automated Attack Surface Mapping & Vulnerability scanning",
+          "supports": [],
+          "author": "voodooEntity",
+          "shared_at": 1773051603,
+          "source_url": "https://news.ycombinator.com/item?id=47307112"
+        }
+      ],
+      "source_item_id": 47307112,
+      "source_url": "https://news.ycombinator.com/item?id=47307112",
+      "author": "voodooEntity",
+      "shared_at": 1773051603,
+      "links": []
+    }
+  ]
+}

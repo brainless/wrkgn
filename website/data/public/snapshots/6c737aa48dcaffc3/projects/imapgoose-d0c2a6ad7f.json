@@ -1,0 +1,35 @@
+{
+  "id": 9721,
+  "slug": "imapgoose-d0c2a6ad7f",
+  "name": "ImapGoose",
+  "mentions": [
+    {
+      "name": "ImapGoose",
+      "description": "A daemon that keeps a remote IMAP mailbox in sync with a local tree of Maildir. It relies on IMAP extensions to minimize traffic and avoids polling entirely, relying on the server to notify of new messages or changes as they happen. It is currently quite stable; a known issue is that it can take a while to detect a timeout when the system is suspended and woken up again.",
+      "problem": "It can take a while to detect a timeout when the system is suspended and woken up again (there's no portable API to detect suspend/resume).",
+      "audience": null,
+      "builder_usernames": [
+        "WhyNotHugo"
+      ],
+      "source_excerpt": "I’ve recently written ImapGoose, a daemon which keeps a remote IMAP mailbox in sync with a local tree of Maildir: https://whynothugo.nl/tags/imapgoose/",
+      "evidence": [
+        {
+          "source_item_id": 45869477,
+          "source_field": "body",
+          "value": "I’ve recently written ImapGoose, a daemon which keeps a remote IMAP mailbox in sync with a local tree of Maildir: https://whynothugo.nl/tags/imapgoose/",
+          "supports": [],
+          "author": "WhyNotHugo",
+          "shared_at": 1762724602,
+          "source_url": "https://news.ycombinator.com/item?id=45869477"
+        }
+      ],
+      "source_item_id": 45869477,
+      "source_url": "https://news.ycombinator.com/item?id=45869477",
+      "author": "WhyNotHugo",
+      "shared_at": 1762724602,
+      "links": [
+        "https://whynothugo.nl/tags/imapgoose/"
+      ]
+    }
+  ]
+}

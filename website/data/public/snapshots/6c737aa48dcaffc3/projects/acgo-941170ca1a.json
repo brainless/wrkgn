@@ -1,0 +1,35 @@
+{
+  "id": 5897,
+  "slug": "acgo-941170ca1a",
+  "name": "acgo",
+  "mentions": [
+    {
+      "name": "acgo",
+      "description": "An AI coding agent tool written in Go that accepts natural-language instructions, lets an LLM interpret intent, and executes coding work through tools such as file read/write, code search, and terminal commands. It exposes hooks and monitors the agent's working lifecycle so a harness can constrain the agent's behavior, with the agent acting as the smallest execution core and the harness acting as its execution agent.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "wangsj"
+      ],
+      "source_excerpt": "https://github.com/vince-0202/acgo\n\nOver the past few weeks, I have been building an AI coding tool in Go. The core loop is straightforward: accept a natural-language instruction, let the LLM interpret intent, then execute coding work through tools such as file read/write, code search, and terminal commands.",
+      "evidence": [
+        {
+          "source_item_id": 47746534,
+          "source_field": "body",
+          "value": "https://github.com/vince-0202/acgo\n\nOver the past few weeks, I have been building an AI coding tool in Go. The core loop is straightforward: accept a natural-language instruction, let the LLM interpret intent, then execute coding work through tools such as file read/write, code search, and terminal commands.",
+          "supports": [],
+          "author": "wangsj",
+          "shared_at": 1776044165,
+          "source_url": "https://news.ycombinator.com/item?id=47746534"
+        }
+      ],
+      "source_item_id": 47746534,
+      "source_url": "https://news.ycombinator.com/item?id=47746534",
+      "author": "wangsj",
+      "shared_at": 1776044165,
+      "links": [
+        "https://github.com/vince-0202/acgo"
+      ]
+    }
+  ]
+}

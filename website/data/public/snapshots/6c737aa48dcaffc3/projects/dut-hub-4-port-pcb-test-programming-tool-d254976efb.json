@@ -1,0 +1,36 @@
+{
+  "id": 6958,
+  "slug": "dut-hub-4-port-pcb-test-programming-tool-d254976efb",
+  "name": "DUT Hub (4-port PCB test & programming tool)",
+  "mentions": [
+    {
+      "name": "DUT Hub (4-port PCB test & programming tool)",
+      "description": "A 4-port automated PCB test and programming tool. It provides a 4-channel DUT interface with individual power control (TPS22992), a JTAG multiplexer for programming, per-channel voltage/current power monitoring via PAC1954, Raspberry Pi Pico control logic, USB-CDC host communication (one port per DUT), 1.8V-5V IO support, and MicroPython support for test script automation.",
+      "problem": "The author needed a way to produce a batch of PCBs efficiently and couldn't find a solution that was flexible and didn't cost many thousands of dollars.",
+      "audience": "Needed a flexible, affordable way to produce PCBs in batch; existing solutions lacked flexibility or cost many thousands of dollars.",
+      "builder_usernames": [
+        "nabilt"
+      ],
+      "source_excerpt": "I built (and currently testing) a 4 port automated PCB test & programming tool. I needed a way to produce a bunch of PCBs efficiently and couldn't find a solution that was flexible and didn't cost many thousands of dollars.",
+      "evidence": [
+        {
+          "source_item_id": 46954574,
+          "source_field": "body",
+          "value": "I built (and currently testing) a 4 port automated PCB test & programming tool. I needed a way to produce a bunch of PCBs efficiently and couldn't find a solution that was flexible and didn't cost many thousands of dollars.",
+          "supports": [],
+          "author": "nabilt",
+          "shared_at": 1770690466,
+          "source_url": "https://news.ycombinator.com/item?id=46954574"
+        }
+      ],
+      "source_item_id": 46954574,
+      "source_url": "https://news.ycombinator.com/item?id=46954574",
+      "author": "nabilt",
+      "shared_at": 1770690466,
+      "links": [
+        "https://github.com/Netlist-Studio/dut_hub_hw",
+        "https://www.youtube.com/watch?v=NKTlRVKJuS8&t"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 4452,
+  "slug": "shellbox-ffaed18595",
+  "name": "Shellbox",
+  "mentions": [
+    {
+      "name": "Shellbox",
+      "description": "This service provides instant Linux boxes accessible via SSH that suspend on disconnect, aiming to deliver \"real\" Linux with IPv6 exposure and support for nested virtualization and Docker.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "messh"
+      ],
+      "source_excerpt": "Instant linux boxes via ssh that suspend on disconnect. Checkout https://shellbox.dev\n\nThe idea is to have \"real\" linux, exposing ipv6, supporting nested virtualization, docker, etc.",
+      "evidence": [
+        {
+          "source_item_id": 48087945,
+          "source_field": "body",
+          "value": "Instant linux boxes via ssh that suspend on disconnect. Checkout https://shellbox.dev\n\nThe idea is to have \"real\" linux, exposing ipv6, supporting nested virtualization, docker, etc.",
+          "supports": [],
+          "author": "messh",
+          "shared_at": 1778446758,
+          "source_url": "https://news.ycombinator.com/item?id=48087945"
+        }
+      ],
+      "source_item_id": 48087945,
+      "source_url": "https://news.ycombinator.com/item?id=48087945",
+      "author": "messh",
+      "shared_at": 1778446758,
+      "links": [
+        "https://shellbox.dev"
+      ]
+    }
+  ]
+}

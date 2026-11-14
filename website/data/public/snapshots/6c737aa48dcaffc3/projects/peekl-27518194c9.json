@@ -1,0 +1,35 @@
+{
+  "id": 4412,
+  "slug": "peekl-27518194c9",
+  "name": "Peekl",
+  "mentions": [
+    {
+      "name": "Peekl",
+      "description": "Peekl is a configuration management tool written in Golang, positioned as an alternative to Ansible and Puppet. It combines Puppet's agent/server model with the ease of writing Ansible code, aiming to fix Puppet's slow catalog application (Ruby running in a JVM) and Ansible's agentless design, which makes deploying at scale time-consuming. It is open source on GitHub, with the author welcoming issues and pull requests.",
+      "problem": "Puppet is a slow, decades-old application where applying a catalog can take very long on complex setups, while Ansible's lack of an agent makes it hard to deploy at scale, spending more time running playbooks than doing actual work.",
+      "audience": null,
+      "builder_usernames": [
+        "redat00"
+      ],
+      "source_excerpt": "It's called Peekl, and the idea behind it was to merge the two things I loved about both Ansible, and Puppet :\n- The agent/server model of Puppet;\n- The ease of writing Ansible code.",
+      "evidence": [
+        {
+          "source_item_id": 48092647,
+          "source_field": "body",
+          "value": "It's called Peekl, and the idea behind it was to merge the two things I loved about both Ansible, and Puppet :\n- The agent/server model of Puppet;\n- The ease of writing Ansible code.",
+          "supports": [],
+          "author": "redat00",
+          "shared_at": 1778490028,
+          "source_url": "https://news.ycombinator.com/item?id=48092647"
+        }
+      ],
+      "source_item_id": 48092647,
+      "source_url": "https://news.ycombinator.com/item?id=48092647",
+      "author": "redat00",
+      "shared_at": 1778490028,
+      "links": [
+        "https://github.com/peeklapp/peekl"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 6418,
+  "slug": "carolina-cloud-74aaa655f2",
+  "name": "Carolina Cloud",
+  "mentions": [
+    {
+      "name": "Carolina Cloud",
+      "description": "Carolina Cloud is a cloud hosting service being migrated from a custom-built orchestrator to Kubernetes to gain pod movement flexibility and KubeVirt live migration capabilities. The migration will enable draining nodes one by one and relocating them to a cheaper second colocation site in South Carolina, moving away from the current colocation facility.",
+      "problem": "The custom orchestrator built for the service lacked the freedom of pod movement and live migration capabilities needed to relocate infrastructure between colocation facilities.",
+      "audience": null,
+      "builder_usernames": [
+        "bojangleslover"
+      ],
+      "source_excerpt": "Currently moving Carolina Cloud to Kubernetes. I had built a custom orchestrator but really want the freedom of pod movement as well as KubeVirt's live migration capabilities. My ultimate plan is to open a second location in South Carolina at a cheaper colocation and then drain the nodes one by one, moving them to there, and leave my prior colocation.",
+      "evidence": [
+        {
+          "source_item_id": 47307406,
+          "source_field": "body",
+          "value": "Currently moving Carolina Cloud to Kubernetes. I had built a custom orchestrator but really want the freedom of pod movement as well as KubeVirt's live migration capabilities. My ultimate plan is to open a second location in South Carolina at a cheaper colocation and then drain the nodes one by one, moving them to there, and leave my prior colocation.",
+          "supports": [],
+          "author": "bojangleslover",
+          "shared_at": 1773053822,
+          "source_url": "https://news.ycombinator.com/item?id=47307406"
+        }
+      ],
+      "source_item_id": 47307406,
+      "source_url": "https://news.ycombinator.com/item?id=47307406",
+      "author": "bojangleslover",
+      "shared_at": 1773053822,
+      "links": []
+    }
+  ]
+}

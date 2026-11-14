@@ -1,0 +1,35 @@
+{
+  "id": 6861,
+  "slug": "lightning-image-viewer-9a2bbe4189",
+  "name": "lightning-image-viewer",
+  "mentions": [
+    {
+      "name": "lightning-image-viewer",
+      "description": "A tiny desktop image viewer that displays images in a transparent borderless overlay with no UI, letting users inspect image details with a single hand move by zooming with scroll and panning with drag simultaneously (like map apps), with only the display borders limiting the visible image surface. It toggles between the file manager and image view almost instantly, closing with a left click anywhere or the keyboard Enter key. Recently rewritten in Rust from an original C codebase.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "shatsky"
+      ],
+      "source_excerpt": "https://github.com/shatsky/lightning-image-viewer\n\nTiny desktop (pre)viewer which displays image in transparent overlay without any UI, allowing to look into specific image detail with single hand move (zoom with scroll and pan with drag simultaneously like in map apps, with nothing but display borders limiting visible image surface) and toggle between file manager and image view almost instantly (close with left click anywhere/keyboard Enter).",
+      "evidence": [
+        {
+          "source_item_id": 46944552,
+          "source_field": "body",
+          "value": "https://github.com/shatsky/lightning-image-viewer\n\nTiny desktop (pre)viewer which displays image in transparent overlay without any UI, allowing to look into specific image detail with single hand move (zoom with scroll and pan with drag simultaneously like in map apps, with nothing but display borders limiting visible image surface) and toggle between file manager and image view almost instantly (close with left click anywhere/keyboard Enter).",
+          "supports": [],
+          "author": "shatsky",
+          "shared_at": 1770640483,
+          "source_url": "https://news.ycombinator.com/item?id=46944552"
+        }
+      ],
+      "source_item_id": 46944552,
+      "source_url": "https://news.ycombinator.com/item?id=46944552",
+      "author": "shatsky",
+      "shared_at": 1770640483,
+      "links": [
+        "https://github.com/shatsky/lightning-image-viewer"
+      ]
+    }
+  ]
+}

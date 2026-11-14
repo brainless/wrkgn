@@ -1,0 +1,35 @@
+{
+  "id": 7044,
+  "slug": "mnexium-bc346ebd23",
+  "name": "Mnexium",
+  "mentions": [
+    {
+      "name": "Mnexium",
+      "description": "Mnexium is a memory and context layer for AI applications. It provides persistent chat history, long-term semantic memory, user profiles, agent state, and rolling summarization, sitting between the app and the model. It works across OpenAI, Claude, and Gemini so models can be switched without losing context, and is available as JS/TS and Python SDKs.",
+      "problem": "Every team building AI apps re-implements slightly broken memory systems, and memory is typically tied to a single model or vendor instead of being user-owned and portable.",
+      "audience": "Teams building AI applications that would otherwise re-implement memory systems; memory is designed to be user-owned and portable rather than vendor-tied.",
+      "builder_usernames": [
+        "Mnexium"
+      ],
+      "source_excerpt": "I’m working on Mnexium, a memory + context layer for AI apps.\n\nIt handles persistent chat history, long-term semantic memory, user profiles, agent state, and rolling summarization.",
+      "evidence": [
+        {
+          "source_item_id": 47019107,
+          "source_field": "body",
+          "value": "I’m working on Mnexium, a memory + context layer for AI apps.\n\nIt handles persistent chat history, long-term semantic memory, user profiles, agent state, and rolling summarization.",
+          "supports": [],
+          "author": "Mnexium",
+          "shared_at": 1771108533,
+          "source_url": "https://news.ycombinator.com/item?id=47019107"
+        }
+      ],
+      "source_item_id": 47019107,
+      "source_url": "https://news.ycombinator.com/item?id=47019107",
+      "author": "Mnexium",
+      "shared_at": 1771108533,
+      "links": [
+        "https://mnexium.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": 2632,
+  "slug": "underscore-6fd0d81b29",
+  "name": "Underscore",
+  "mentions": [
+    {
+      "name": "Underscore",
+      "description": "On-demand, procedural audio programs built with LLMs, designed to be embeddable in software such as games and health/wellness apps.",
+      "problem": null,
+      "audience": "Developers who might embed the audio programs in software such as games and health/wellness apps.",
+      "builder_usernames": [
+        "osetinsky"
+      ],
+      "source_excerpt": "Underscore: https://underscore.audio/\n\nOn-demand, procedural audio programs (w/LLMs). I’m working to make these embeddable in software such as games and health/wellness apps.\n\nWould love to hear how developers might use it.",
+      "evidence": [
+        {
+          "source_item_id": 48887296,
+          "source_field": "body",
+          "value": "Underscore: https://underscore.audio/\n\nOn-demand, procedural audio programs (w/LLMs). I’m working to make these embeddable in software such as games and health/wellness apps.\n\nWould love to hear how developers might use it.",
+          "supports": [],
+          "author": "osetinsky",
+          "shared_at": 1783911267,
+          "source_url": "https://news.ycombinator.com/item?id=48887296"
+        }
+      ],
+      "source_item_id": 48887296,
+      "source_url": "https://news.ycombinator.com/item?id=48887296",
+      "author": "osetinsky",
+      "shared_at": 1783911267,
+      "links": [
+        "https://underscore.audio/"
+      ]
+    },
+    {
+      "name": "Underscore",
+      "description": "This project uses LLMs to generate procedural ambient music by writing actual SuperCollider synth source code rather than audio files, so the music runs live and can be embedded in and controlled in real time by software like games. The pipeline depends on prompt engineering, aesthetic curation, and a compiler with automatic repair in the agent loop when generated code doesn't build. It currently produces single-synth musical systems, with research underway on orchestrating multiple synths into fuller, evolving compositions with deep musical form and structure, aiming to make algorithmic music more accessible to artists.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "osetinsky"
+      ],
+      "source_excerpt": "1. Underscore - https://underscore.audio\n\ni've spent the last couple years experimenting with LLMs that write procedural, ambient music: instead of generating an audio file, we're using systems that write actual source code (supercollider synths) so the music runs live and can be embedded in and controlled in real time by software like games.",
+      "evidence": [
+        {
+          "source_item_id": 48542958,
+          "source_field": "body",
+          "value": "1. Underscore - https://underscore.audio\n\ni've spent the last couple years experimenting with LLMs that write procedural, ambient music: instead of generating an audio file, we're using systems that write actual source code (supercollider synths) so the music runs live and can be embedded in and controlled in real time by software like games.",
+          "supports": [],
+          "author": "osetinsky",
+          "shared_at": 1781538141,
+          "source_url": "https://news.ycombinator.com/item?id=48542958"
+        }
+      ],
+      "source_item_id": 48542958,
+      "source_url": "https://news.ycombinator.com/item?id=48542958",
+      "author": "osetinsky",
+      "shared_at": 1781538141,
+      "links": [
+        "https://underscore.audio"
+      ]
+    },
+    {
+      "name": "Underscore",
+      "description": "This web SDK and browser sandbox lets users build procedural music systems with LLMs. Instead of generating finished audio files, an LLM helps write and revise a SuperCollider-based system that runs in the browser via WebAssembly, yielding executable music that is inspectable, editable, versionable, and controllable at runtime. It targets adaptive sound for software such as games, creative tools, meditation apps, AI agents, and interactive art.",
+      "problem": "Static audio files feel too dead for adaptive sound in software, and hiring a composer or sound designer for every variation is unrealistic.",
+      "audience": "Builders of games, creative tools, meditation apps, AI agents, and interactive art looking for adaptive sound.",
+      "builder_usernames": [
+        "osetinsky"
+      ],
+      "source_excerpt": "I’m working on Underscore: a web SDK and browser sandbox for making procedural music systems with LLMs.",
+      "evidence": [
+        {
+          "source_item_id": 48090733,
+          "source_field": "body",
+          "value": "I’m working on Underscore: a web SDK and browser sandbox for making procedural music systems with LLMs.",
+          "supports": [],
+          "author": "osetinsky",
+          "shared_at": 1778469622,
+          "source_url": "https://news.ycombinator.com/item?id=48090733"
+        }
+      ],
+      "source_item_id": 48090733,
+      "source_url": "https://news.ycombinator.com/item?id=48090733",
+      "author": "osetinsky",
+      "shared_at": 1778469622,
+      "links": [
+        "https://underscore.audio"
+      ]
+    }
+  ]
+}

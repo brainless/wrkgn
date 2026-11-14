@@ -1,0 +1,36 @@
+{
+  "id": 10860,
+  "slug": "chat-server-and-client-examples-2171e3c79b",
+  "name": "Chat server and client examples",
+  "mentions": [
+    {
+      "name": "Chat server and client examples",
+      "description": "Example implementations accompanying the game server framework: a chat server written in Erlang and a matching chat client built with Godot.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "cmdrk"
+      ],
+      "source_excerpt": "Chat server implementation (Erlang):\nhttps://github.com/saltysystems/chat_server_example\n\nChat client implementation (Godot):\nhttps://github.com/saltysystems/chat-client-example",
+      "evidence": [
+        {
+          "source_item_id": 43833980,
+          "source_field": "body",
+          "value": "Chat server implementation (Erlang):\nhttps://github.com/saltysystems/chat_server_example\n\nChat client implementation (Godot):\nhttps://github.com/saltysystems/chat-client-example",
+          "supports": [],
+          "author": "cmdrk",
+          "shared_at": 1745940468,
+          "source_url": "https://news.ycombinator.com/item?id=43833980"
+        }
+      ],
+      "source_item_id": 43833980,
+      "source_url": "https://news.ycombinator.com/item?id=43833980",
+      "author": "cmdrk",
+      "shared_at": 1745940468,
+      "links": [
+        "https://github.com/saltysystems/chat-client-example",
+        "https://github.com/saltysystems/chat_server_example"
+      ]
+    }
+  ]
+}

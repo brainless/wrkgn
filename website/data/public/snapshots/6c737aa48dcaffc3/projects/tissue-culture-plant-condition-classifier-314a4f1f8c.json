@@ -1,0 +1,33 @@
+{
+  "id": 5108,
+  "slug": "tissue-culture-plant-condition-classifier-314a4f1f8c",
+  "name": "Tissue culture plant condition classifier",
+  "mentions": [
+    {
+      "name": "Tissue culture plant condition classifier",
+      "description": "This experimental system classifies plant conditions from images of tissue cultures, similar to automated plant health diagnosis. It struggles to generalize across species while getting good training data and effective results: once white balance, species variation, optical clarity and distortion from the culture vessel drift, results decline sharply, making it neat but usable only within its own setup. The experiments use much smaller training datasets than comparable single-species systems, and a color card for white balance helps keep classification from confusing light sources with actual plant condition.",
+      "problem": "Cannot find a way to generalize across species while still getting good training data and effective results; white balance, species variation, optical clarity and vessel distortion degrade classification, limiting the system outside its own setup.",
+      "audience": null,
+      "builder_usernames": [
+        "steve_adams_86"
+      ],
+      "source_excerpt": "I've been thinking about similar systems for tissue cultures but I can't seem to find a way to generalize and still get good training data or effective results. Once you lose track of white balance, species, optical clarity and distortion from the vessel, etc... Results decline quite a bit in my experience. It makes it a neat yet fairly useless system outside of itself.",
+      "evidence": [
+        {
+          "source_item_id": 47755413,
+          "source_field": "body",
+          "value": "I've been thinking about similar systems for tissue cultures but I can't seem to find a way to generalize and still get good training data or effective results. Once you lose track of white balance, species, optical clarity and distortion from the vessel, etc... Results decline quite a bit in my experience. It makes it a neat yet fairly useless system outside of itself.",
+          "supports": [],
+          "author": "steve_adams_86",
+          "shared_at": 1776101982,
+          "source_url": "https://news.ycombinator.com/item?id=47755413"
+        }
+      ],
+      "source_item_id": 47755413,
+      "source_url": "https://news.ycombinator.com/item?id=47755413",
+      "author": "steve_adams_86",
+      "shared_at": 1776101982,
+      "links": []
+    }
+  ]
+}

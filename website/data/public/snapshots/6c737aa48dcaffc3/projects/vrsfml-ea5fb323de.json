@@ -1,0 +1,38 @@
+{
+  "id": 11388,
+  "slug": "vrsfml-ea5fb323de",
+  "name": "VRSFML",
+  "mentions": [
+    {
+      "name": "VRSFML",
+      "description": "An opinionated fork of SFML with autobatching that automatically coalesces draw calls for objects using the same RenderStates, turning e.g. 10,000 sprite draws into a single call. It also adds modern OpenGL and first-class Emscripten support, a new audio API supporting multiple simultaneous devices, compile-time API safety, a built-in SFML::ImGui module, SDL3 instead of bespoke platform-dependent code, rendering of 500k+ objects in one draw call, fast compilation, and minimal run-time debug overhead.",
+      "problem": "Upstream SFML issues one draw call per object, so drawing many objects requires thousands of separate draw calls.",
+      "audience": null,
+      "builder_usernames": [
+        "SuperV1234"
+      ],
+      "source_excerpt": "I've recently added autobatching to my SFML fork (https://github.com/vittorioromeo/VRSFML/tree/bubble_idle). Drawing multiple objects that use the same RenderStates will now be automatically coalesced into a single draw call, for example:",
+      "evidence": [
+        {
+          "source_item_id": 43815776,
+          "source_field": "body",
+          "value": "I've recently added autobatching to my SFML fork (https://github.com/vittorioromeo/VRSFML/tree/bubble_idle). Drawing multiple objects that use the same RenderStates will now be automatically coalesced into a single draw call, for example:",
+          "supports": [],
+          "author": "SuperV1234",
+          "shared_at": 1745794054,
+          "source_url": "https://news.ycombinator.com/item?id=43815776"
+        }
+      ],
+      "source_item_id": 43815776,
+      "source_url": "https://news.ycombinator.com/item?id=43815776",
+      "author": "SuperV1234",
+      "shared_at": 1745794054,
+      "links": [
+        "https://github.com/vittorioromeo/VRSFML",
+        "https://vittorioromeo.github.io/VRSFML_HTML5_Examples/",
+        "https://www.vittorioromeo.com/index/blog/vrsfml.html",
+        "https://www.vittorioromeo.com/index/blog/vrsfml2.html"
+      ]
+    }
+  ]
+}

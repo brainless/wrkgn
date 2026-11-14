@@ -1,0 +1,35 @@
+{
+  "id": 8685,
+  "slug": "blog-post-on-onnx-runtime-coreml-fp16-defaults-673a4c42bc",
+  "name": "Blog post on ONNX Runtime CoreML FP16 defaults",
+  "mentions": [
+    {
+      "name": "Blog post on ONNX Runtime CoreML FP16 defaults",
+      "description": "A blog post explaining default behavior in ONNX Runtime when using the CoreML execution provider, covering how the default arguments cause models to run in FP16 instead of FP32.",
+      "problem": "ONNX Runtime's CoreML execution provider defaults run models in FP16 rather than FP32, a non-obvious behavior caused by default arguments.",
+      "audience": null,
+      "builder_usernames": [
+        "Two_hands"
+      ],
+      "source_excerpt": "Working on a blog post about default behaviour in ONNX Runtime when using the CoreML execution provider. Basically the default args lead to your model being ran in FP16 not FP32.",
+      "evidence": [
+        {
+          "source_item_id": 46268164,
+          "source_field": "body",
+          "value": "Working on a blog post about default behaviour in ONNX Runtime when using the CoreML execution provider. Basically the default args lead to your model being ran in FP16 not FP32.",
+          "supports": [],
+          "author": "Two_hands",
+          "shared_at": 1765754158,
+          "source_url": "https://news.ycombinator.com/item?id=46268164"
+        }
+      ],
+      "source_item_id": 46268164,
+      "source_url": "https://news.ycombinator.com/item?id=46268164",
+      "author": "Two_hands",
+      "shared_at": 1765754158,
+      "links": [
+        "https://ym2132.github.io"
+      ]
+    }
+  ]
+}

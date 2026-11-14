@@ -1,0 +1,33 @@
+{
+  "id": 10785,
+  "slug": "reverse-typesetting-b79ab68d43",
+  "name": "Reverse typesetting",
+  "mentions": [
+    {
+      "name": "Reverse typesetting",
+      "description": "Reverse typesetting tool that reflows page layouts for documents whose typesetting structure is unknown, such as scanned physical books or PDF papers. It infers layout using naive rules-based heuristics on bounding-box dimensions and gaps, then reflows the pages to fit e-ink readers. Built in Common Lisp, targeting an Emacs mode for interactive execution with manual feedback.",
+      "problem": "Scanned physical books and PDF papers have fixed page layouts with unknown typesetting structure, so their content cannot be reflowed for resizing to e-ink readers.",
+      "audience": "The author's own use — reading on a pocket-sized e-ink reader carried around (\"User #1 is me\").",
+      "builder_usernames": [
+        "perihelions"
+      ],
+      "source_excerpt": "Reverse typesetting: reflowing page layouts where you don't have knowledge of the typesetting structure, i.e. a scanned physical book or PDF paper. Naive rules-based heuristics based on the dimensions of bounding boxes and gaps. Point is to reflow things for resizing to eink readers. (Specifically the size that fits in my pocket which I carry around. User #1 is me). Building in Common Lisp and targeting an Emacs mode for interactive execution with manual feedback.",
+      "evidence": [
+        {
+          "source_item_id": 43818532,
+          "source_field": "body",
+          "value": "Reverse typesetting: reflowing page layouts where you don't have knowledge of the typesetting structure, i.e. a scanned physical book or PDF paper. Naive rules-based heuristics based on the dimensions of bounding boxes and gaps. Point is to reflow things for resizing to eink readers. (Specifically the size that fits in my pocket which I carry around. User #1 is me). Building in Common Lisp and targeting an Emacs mode for interactive execution with manual feedback.",
+          "supports": [],
+          "author": "perihelions",
+          "shared_at": 1745824762,
+          "source_url": "https://news.ycombinator.com/item?id=43818532"
+        }
+      ],
+      "source_item_id": 43818532,
+      "source_url": "https://news.ycombinator.com/item?id=43818532",
+      "author": "perihelions",
+      "shared_at": 1745824762,
+      "links": []
+    }
+  ]
+}

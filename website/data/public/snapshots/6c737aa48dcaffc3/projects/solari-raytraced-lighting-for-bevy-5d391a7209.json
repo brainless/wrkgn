@@ -1,0 +1,35 @@
+{
+  "id": 9978,
+  "slug": "solari-raytraced-lighting-for-bevy-5d391a7209",
+  "name": "Solari (raytraced lighting for Bevy)",
+  "mentions": [
+    {
+      "name": "Solari (raytraced lighting for Bevy)",
+      "description": "This project adds raytraced lighting to the Bevy game engine using wgpu's new hardware raytracing support in WGSL. The initial prototype launches with the Bevy 0.17 release, with ongoing work on shader experiments and rendering optimizations.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jms55"
+      ],
+      "source_excerpt": "I've been working on raytraced lighting in the Bevy game engine, using wgpu's new support for hardware raytracing in WGSL. The initial prototype is launching with the release of Bevy 0.17 tomorrow, but there's still a ton left to improve. Lots of experimenting with shaders and different optimizations.",
+      "evidence": [
+        {
+          "source_item_id": 45420121,
+          "source_field": "body",
+          "value": "I've been working on raytraced lighting in the Bevy game engine, using wgpu's new support for hardware raytracing in WGSL. The initial prototype is launching with the release of Bevy 0.17 tomorrow, but there's still a ton left to improve. Lots of experimenting with shaders and different optimizations.",
+          "supports": [],
+          "author": "jms55",
+          "shared_at": 1759188297,
+          "source_url": "https://news.ycombinator.com/item?id=45420121"
+        }
+      ],
+      "source_item_id": 45420121,
+      "source_url": "https://news.ycombinator.com/item?id=45420121",
+      "author": "jms55",
+      "shared_at": 1759188297,
+      "links": [
+        "https://jms55.github.io/posts/2025-09-20-solari-bevy-0-17"
+      ]
+    }
+  ]
+}

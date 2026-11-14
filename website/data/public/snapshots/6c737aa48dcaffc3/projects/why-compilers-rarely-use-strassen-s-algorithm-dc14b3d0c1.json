@@ -1,0 +1,35 @@
+{
+  "id": 4069,
+  "slug": "why-compilers-rarely-use-strassen-s-algorithm-dc14b3d0c1",
+  "name": "Why Compilers Rarely Use Strassen's Algorithm",
+  "mentions": [
+    {
+      "name": "Why Compilers Rarely Use Strassen's Algorithm",
+      "description": "This article examines why compilers rarely use Strassen's algorithm for matrix multiplication, part of the author's research into matmul algorithms and their hardware implementations as groundwork toward starting a hardware startup.",
+      "problem": "Despite faster alternatives existing, the naive O(n^3) matrix multiplication algorithm is what everyone uses, as compilers rarely adopt Strassen's algorithm.",
+      "audience": null,
+      "builder_usernames": [
+        "muragekibicho"
+      ],
+      "source_excerpt": "I was looking at matmul algorithms and their hardware implementations (to start a hardware startup) and I saw that the naive O(n^3) version is what everyone uses.\n\nhttps://leetarxiv.substack.com/p/why-compilers-rarely-use-strassens-algorithm",
+      "evidence": [
+        {
+          "source_item_id": 48532916,
+          "source_field": "body",
+          "value": "I was looking at matmul algorithms and their hardware implementations (to start a hardware startup) and I saw that the naive O(n^3) version is what everyone uses.\n\nhttps://leetarxiv.substack.com/p/why-compilers-rarely-use-strassens-algorithm",
+          "supports": [],
+          "author": "muragekibicho",
+          "shared_at": 1781472292,
+          "source_url": "https://news.ycombinator.com/item?id=48532916"
+        }
+      ],
+      "source_item_id": 48532916,
+      "source_url": "https://news.ycombinator.com/item?id=48532916",
+      "author": "muragekibicho",
+      "shared_at": 1781472292,
+      "links": [
+        "https://leetarxiv.substack.com/p/why-compilers-rarely-use-strassens-algorithm"
+      ]
+    }
+  ]
+}

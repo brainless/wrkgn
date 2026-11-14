@@ -1,0 +1,63 @@
+{
+  "id": 4533,
+  "slug": "rootcx-a84780aaf4",
+  "name": "RootCX",
+  "mentions": [
+    {
+      "name": "RootCX",
+      "description": "This platform provides governed infrastructure for internal tools and AI agents, delivering the security, auditability, hosting, and permissioning primitives needed to move AI-built internal software from \"cool demo\" to production-ready and enterprise-trustworthy.",
+      "problem": "Everybody uses Claude Code or AI coding tools to build internal software, but they lack the governed infrastructure layer required for enterprise trust.",
+      "audience": "People using AI coding tools to build internal software who need enterprise-grade trust",
+      "builder_usernames": [
+        "seyz"
+      ],
+      "source_excerpt": "I build a governed infrastructure for internal tools and AI agents: https://rootcx.com",
+      "evidence": [
+        {
+          "source_item_id": 48092515,
+          "source_field": "body",
+          "value": "I build a governed infrastructure for internal tools and AI agents: https://rootcx.com",
+          "supports": [],
+          "author": "seyz",
+          "shared_at": 1778488670,
+          "source_url": "https://news.ycombinator.com/item?id=48092515"
+        }
+      ],
+      "source_item_id": 48092515,
+      "source_url": "https://news.ycombinator.com/item?id=48092515",
+      "author": "seyz",
+      "shared_at": 1778488670,
+      "links": [
+        "https://rootcx.com"
+      ]
+    },
+    {
+      "name": "RootCX",
+      "description": "RootCX is a customer \"operating system\" that replaces dozens of SaaS tools by making the customer the core: CRM, support, billing, workflows, and AI plug into one shared customer base, reducing the juggling of patchwork apps, APIs, and workflow hacks needed to keep customer context alive.",
+      "problem": "The SaaS boom created an ocean of best-of-breed tools each solving one slice, so companies run on a patchwork of apps, APIs, and workflow hacks just to keep customer context alive.",
+      "audience": "Companies that juggle many best-of-breed SaaS tools to run customer-facing operations",
+      "builder_usernames": [
+        "seyz"
+      ],
+      "source_excerpt": "I’m building RootCX (https://rootcx.com). A customer \"operating system\" replacing dozens of SaaS tools.\n\nAs a second-time founder, I've watched the SaaS boom create an ocean of best-of-breed tools. Each solving one slice of the problem. One solving it end-to-end.\n\nNow every company runs on a patchwork of apps, APIs, and workflow hacks just to keep customer context alive. It's insane how normalized that's become.\n\nRootCX starts from the opposite premise: the customer is the core, not the app.\nEverything: CRM, support, billing, workflows, AI, ... plugs into one shared customer base. Less juggling tools, more actually running the business.",
+      "evidence": [
+        {
+          "source_item_id": 45875332,
+          "source_field": "body",
+          "value": "I’m building RootCX (https://rootcx.com). A customer \"operating system\" replacing dozens of SaaS tools.\n\nAs a second-time founder, I've watched the SaaS boom create an ocean of best-of-breed tools. Each solving one slice of the problem. One solving it end-to-end.\n\nNow every company runs on a patchwork of apps, APIs, and workflow hacks just to keep customer context alive. It's insane how normalized that's become.\n\nRootCX starts from the opposite premise: the customer is the core, not the app.\nEverything: CRM, support, billing, workflows, AI, ... plugs into one shared customer base. Less juggling tools, more actually running the business.",
+          "supports": [],
+          "author": "seyz",
+          "shared_at": 1762778149,
+          "source_url": "https://news.ycombinator.com/item?id=45875332"
+        }
+      ],
+      "source_item_id": 45875332,
+      "source_url": "https://news.ycombinator.com/item?id=45875332",
+      "author": "seyz",
+      "shared_at": 1762778149,
+      "links": [
+        "https://rootcx.com"
+      ]
+    }
+  ]
+}

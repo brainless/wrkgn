@@ -1,0 +1,35 @@
+{
+  "id": 8295,
+  "slug": "snakemake-executor-plugin-aws-batch-fork-30e4a4f24c",
+  "name": "snakemake-executor-plugin-aws-batch (fork)",
+  "mentions": [
+    {
+      "name": "snakemake-executor-plugin-aws-batch (fork)",
+      "description": "A Snakemake executor plugin that supports workflow execution on AWS Batch, dynamically creating job definitions based on rule resource configuration. This fork adds missing features such as using different containers for different rules, consumable resources, and secrets support by extending the batch job building code.",
+      "problem": "The existing snakemake AWS Batch executor plugin was missing support for features like using different containers for different rules, consumable resources, and secrets.",
+      "audience": null,
+      "builder_usernames": [
+        "radus"
+      ],
+      "source_excerpt": "I'm working on adding features to the snakemake aws batch executor plugin. The existing plugin supports execution on AWS Batch by dynamically creating job definitions based on rule resource configuration, but was missing support for features like using different containers for different rules, consumable resources, secrets, etc. Two approaches:\n\n1) https://github.com/radusuciu/snakemake-executor-plugin-aws-batch (my fork). Just add the features to the batch job building code",
+      "evidence": [
+        {
+          "source_item_id": 46267152,
+          "source_field": "body",
+          "value": "I'm working on adding features to the snakemake aws batch executor plugin. The existing plugin supports execution on AWS Batch by dynamically creating job definitions based on rule resource configuration, but was missing support for features like using different containers for different rules, consumable resources, secrets, etc. Two approaches:\n\n1) https://github.com/radusuciu/snakemake-executor-plugin-aws-batch (my fork). Just add the features to the batch job building code",
+          "supports": [],
+          "author": "radus",
+          "shared_at": 1765747843,
+          "source_url": "https://news.ycombinator.com/item?id=46267152"
+        }
+      ],
+      "source_item_id": 46267152,
+      "source_url": "https://news.ycombinator.com/item?id=46267152",
+      "author": "radus",
+      "shared_at": 1765747843,
+      "links": [
+        "https://github.com/radusuciu/snakemake-executor-plugin-aws-batch"
+      ]
+    }
+  ]
+}

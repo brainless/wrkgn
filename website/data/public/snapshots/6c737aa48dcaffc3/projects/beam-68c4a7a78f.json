@@ -1,0 +1,35 @@
+{
+  "id": 10381,
+  "slug": "beam-68c4a7a78f",
+  "name": "Beam",
+  "mentions": [
+    {
+      "name": "Beam",
+      "description": "A web app that transfers files between nearby devices using QR codes. It works completely offline with no servers involved and leaves no trace, making it suited for sharing sensitive documents or moving files when USB, email, or cloud storage can't be used.",
+      "problem": "Transferring files between nearby devices when you can't use USB, email, or cloud storage, especially for sensitive documents that require privacy.",
+      "audience": null,
+      "builder_usernames": [
+        "anhldbk"
+      ],
+      "source_excerpt": "I'm working on Beam, a web app that lets you transfer files between nearby devices using QR codes - completely offline, with no servers involved, and leaving absolutely no trace.\n\nBeam is perfect for sharing sensitive documents, transferring files when you can't use USB, email, or cloud storage.",
+      "evidence": [
+        {
+          "source_item_id": 44707314,
+          "source_field": "body",
+          "value": "I'm working on Beam, a web app that lets you transfer files between nearby devices using QR codes - completely offline, with no servers involved, and leaving absolutely no trace.\n\nBeam is perfect for sharing sensitive documents, transferring files when you can't use USB, email, or cloud storage.",
+          "supports": [],
+          "author": "anhldbk",
+          "shared_at": 1753678227,
+          "source_url": "https://news.ycombinator.com/item?id=44707314"
+        }
+      ],
+      "source_item_id": 44707314,
+      "source_url": "https://news.ycombinator.com/item?id=44707314",
+      "author": "anhldbk",
+      "shared_at": 1753678227,
+      "links": [
+        "https://get-beam.vercel.app"
+      ]
+    }
+  ]
+}

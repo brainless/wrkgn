@@ -1,0 +1,35 @@
+{
+  "id": 5034,
+  "slug": "right-words-5209ff09f5",
+  "name": "Right Words",
+  "mentions": [
+    {
+      "name": "Right Words",
+      "description": "A twice-weekly word puzzle web game where players trace two-word phrases on a grid by finding a path with exactly one gap (the space between words), described as NYT Strands but with a jump. Built with React and TypeScript, deployed on Vercel with no backend, with puzzles stored as JSON. Puzzle generation packs multiple snaking paths onto a grid like jigsaw pieces, constrained so each answer has exactly one valid path.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "right-words-dev"
+      ],
+      "source_excerpt": "I made Right Words (https://www.rightwords.io/) a fun little solo project, tl;dr it's a twice weekly word puzzle where you trace two-word phrases on a grid by finding a path with exactly one gap (the space between words). Think NYT Strands but with a jump!",
+      "evidence": [
+        {
+          "source_item_id": 48091348,
+          "source_field": "body",
+          "value": "I made Right Words (https://www.rightwords.io/) a fun little solo project, tl;dr it's a twice weekly word puzzle where you trace two-word phrases on a grid by finding a path with exactly one gap (the space between words). Think NYT Strands but with a jump!",
+          "supports": [],
+          "author": "right-words-dev",
+          "shared_at": 1778477550,
+          "source_url": "https://news.ycombinator.com/item?id=48091348"
+        }
+      ],
+      "source_item_id": 48091348,
+      "source_url": "https://news.ycombinator.com/item?id=48091348",
+      "author": "right-words-dev",
+      "shared_at": 1778477550,
+      "links": [
+        "https://www.rightwords.io/"
+      ]
+    }
+  ]
+}

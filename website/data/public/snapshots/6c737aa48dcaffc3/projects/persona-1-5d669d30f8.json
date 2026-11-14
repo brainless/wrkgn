@@ -1,0 +1,36 @@
+{
+  "id": 9170,
+  "slug": "persona-1-5d669d30f8",
+  "name": "Persona-1",
+  "mentions": [
+    {
+      "name": "Persona-1",
+      "description": "Realtime talking-head avatar AI model that runs at ~2x realtime on an RTX 4090 and significantly faster on enterprise-grade GPUs. Designed primarily for language learning as a conversational partner, pairing a generated face with the voice to build speaking confidence; the surrounding system adds canvas tool use for speaking prompts and images, plus memory to keep conversations less stale.",
+      "problem": "Speaking a new language with confidence is hard; adding a face to the voice helps trigger the fight-or-flight response, which is the hardest part of speaking a new language.",
+      "audience": "Language learners using an AI conversational partner to practice speaking; with potential for other use cases beyond language learning",
+      "builder_usernames": [
+        "kraddypatties"
+      ],
+      "source_excerpt": "We've been tinkering with building realtime talking head models (avatar models, etc.) for a while now, and finally have something that works (well enough)! Operates at ~2x realtime on a 4090, significantly faster than that on enterprise grade GPUs.",
+      "evidence": [
+        {
+          "source_item_id": 45871197,
+          "source_field": "body",
+          "value": "We've been tinkering with building realtime talking head models (avatar models, etc.) for a while now, and finally have something that works (well enough)! Operates at ~2x realtime on a 4090, significantly faster than that on enterprise grade GPUs.",
+          "supports": [],
+          "author": "kraddypatties",
+          "shared_at": 1762738264,
+          "source_url": "https://news.ycombinator.com/item?id=45871197"
+        }
+      ],
+      "source_item_id": 45871197,
+      "source_url": "https://news.ycombinator.com/item?id=45871197",
+      "author": "kraddypatties",
+      "shared_at": 1762738264,
+      "links": [
+        "https://playground.keyframelabs.com/playground/persona-1",
+        "https://www.keyframelabs.com/blog/persona-1"
+      ]
+    }
+  ]
+}

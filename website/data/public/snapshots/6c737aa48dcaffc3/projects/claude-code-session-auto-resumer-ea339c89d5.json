@@ -1,0 +1,33 @@
+{
+  "id": 3938,
+  "slug": "claude-code-session-auto-resumer-ea339c89d5",
+  "name": "Claude Code session auto-resumer",
+  "mentions": [
+    {
+      "name": "Claude Code session auto-resumer",
+      "description": "This tool automatically resumes a Claude Code session in the same terminal once the user's quota resets, removing the need to manually type \"please continue\" after waiting for quota to resume.",
+      "problem": "When the Claude Code quota runs out, the user has to wake up and manually type \"please continue\" to resume the session once quota resumes.",
+      "audience": null,
+      "builder_usernames": [
+        "pradeep1177"
+      ],
+      "source_excerpt": "I've been thinking about and working on a solution to automatically resume a Claude code session in the same terminal when my quota resumes. I hate waking up and typing \"please continue\"",
+      "evidence": [
+        {
+          "source_item_id": 48529524,
+          "source_field": "body",
+          "value": "I've been thinking about and working on a solution to automatically resume a Claude code session in the same terminal when my quota resumes. I hate waking up and typing \"please continue\"",
+          "supports": [],
+          "author": "pradeep1177",
+          "shared_at": 1781455928,
+          "source_url": "https://news.ycombinator.com/item?id=48529524"
+        }
+      ],
+      "source_item_id": 48529524,
+      "source_url": "https://news.ycombinator.com/item?id=48529524",
+      "author": "pradeep1177",
+      "shared_at": 1781455928,
+      "links": []
+    }
+  ]
+}

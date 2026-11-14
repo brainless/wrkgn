@@ -1,0 +1,35 @@
+{
+  "id": 4760,
+  "slug": "fdeploy-caddb76a65",
+  "name": "fDeploy",
+  "mentions": [
+    {
+      "name": "fDeploy",
+      "description": "Self-hosted Windows deployment automation tool, a lightweight on-prem alternative to Octopus Deploy. It consists of a Server (a Windows service with a Web UI) that orchestrates releases and Agents installed on target Windows machines that execute deployment steps such as IIS sites, file copies, and scripts across environments.",
+      "problem": "Serves as a lightweight, self-hosted/on-prem alternative to Octopus Deploy for automating Windows deployments.",
+      "audience": null,
+      "builder_usernames": [
+        "dt3ft"
+      ],
+      "source_excerpt": "I'm working on https://fdeploy.com\n\nfDeploy is a self-hosted Windows deployment automation tool — a lightweight, on-prem alternative to Octopus Deploy. It consists of a Server (Windows service with a Web UI) that orchestrates releases, and Agents installed on target windows machines that execute deployment steps (IIS sites, file copies, scripts, etc.) across environments.",
+      "evidence": [
+        {
+          "source_item_id": 48088364,
+          "source_field": "body",
+          "value": "I'm working on https://fdeploy.com\n\nfDeploy is a self-hosted Windows deployment automation tool — a lightweight, on-prem alternative to Octopus Deploy. It consists of a Server (Windows service with a Web UI) that orchestrates releases, and Agents installed on target windows machines that execute deployment steps (IIS sites, file copies, scripts, etc.) across environments.",
+          "supports": [],
+          "author": "dt3ft",
+          "shared_at": 1778449164,
+          "source_url": "https://news.ycombinator.com/item?id=48088364"
+        }
+      ],
+      "source_item_id": 48088364,
+      "source_url": "https://news.ycombinator.com/item?id=48088364",
+      "author": "dt3ft",
+      "shared_at": 1778449164,
+      "links": [
+        "https://fdeploy.com"
+      ]
+    }
+  ]
+}

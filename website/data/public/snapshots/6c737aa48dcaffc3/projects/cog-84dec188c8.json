@@ -1,0 +1,35 @@
+{
+  "id": 10651,
+  "slug": "cog-84dec188c8",
+  "name": "cog",
+  "mentions": [
+    {
+      "name": "cog",
+      "description": "A toy HTML engine written in Rust, built as a first step toward the long-term goal of creating a full web browser in Rust.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "thatrandybrown"
+      ],
+      "source_excerpt": "lately I've been building a toy html engine in rust[1]. I hope to eventually build a full rust browser.",
+      "evidence": [
+        {
+          "source_item_id": 44724814,
+          "source_field": "body",
+          "value": "lately I've been building a toy html engine in rust[1]. I hope to eventually build a full rust browser.",
+          "supports": [],
+          "author": "thatrandybrown",
+          "shared_at": 1753803953,
+          "source_url": "https://news.ycombinator.com/item?id=44724814"
+        }
+      ],
+      "source_item_id": 44724814,
+      "source_url": "https://news.ycombinator.com/item?id=44724814",
+      "author": "thatrandybrown",
+      "shared_at": 1753803953,
+      "links": [
+        "https://github.com/thatrandybrown/cog"
+      ]
+    }
+  ]
+}

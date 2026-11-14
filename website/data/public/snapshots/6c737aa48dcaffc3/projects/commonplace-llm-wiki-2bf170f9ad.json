@@ -1,0 +1,36 @@
+{
+  "id": 5275,
+  "slug": "commonplace-llm-wiki-2bf170f9ad",
+  "name": "Commonplace (LLM wiki)",
+  "mentions": [
+    {
+      "name": "Commonplace (LLM wiki)",
+      "description": "An LLM wiki (in Karpathy's sense) — a knowledge system with agent-operated memory. It is being used to develop a first-principles theory of what matters in such systems (agent-limited context, statelessness, use goals), with the theory readable online. It also maintains an index of similar agent-memory systems. Work in progress.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "zby"
+      ],
+      "source_excerpt": "I am working on an llm wiki (as defined by Karpathy https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)\n\nLooks like it is a crowded area now - my angle is to start with theory of what is important in a system like that, from first principles (like agent limited context, statelessness, use goals etc). Currently I use it to develop that theory",
+      "evidence": [
+        {
+          "source_item_id": 47749871,
+          "source_field": "body",
+          "value": "I am working on an llm wiki (as defined by Karpathy https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)\n\nLooks like it is a crowded area now - my angle is to start with theory of what is important in a system like that, from first principles (like agent limited context, statelessness, use goals etc). Currently I use it to develop that theory",
+          "supports": [],
+          "author": "zby",
+          "shared_at": 1776074135,
+          "source_url": "https://news.ycombinator.com/item?id=47749871"
+        }
+      ],
+      "source_item_id": 47749871,
+      "source_url": "https://news.ycombinator.com/item?id=47749871",
+      "author": "zby",
+      "shared_at": 1776074135,
+      "links": [
+        "https://github.com/zby/commonplace",
+        "https://zby.github.io/commonplace/"
+      ]
+    }
+  ]
+}

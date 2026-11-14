@@ -1,0 +1,36 @@
+{
+  "id": 5334,
+  "slug": "java2graph-2c76cdde6f",
+  "name": "java2graph",
+  "mentions": [
+    {
+      "name": "java2graph",
+      "description": "A semantic code graph for the Java language that provides AI agents with deep understanding of a codebase, helping them grasp context rather than just reading text.",
+      "problem": "AI agents tend to work with code as plain text without deep understanding of codebase context.",
+      "audience": "AI agents working with Java codebases, used by the developers who run them",
+      "builder_usernames": [
+        "decancode",
+        "neuvem"
+      ],
+      "source_excerpt": "https://www.github.com/neuvem/java2graph —- A semantic code graph for AI agents (for Java language)\n\nThe goal is to provide AI agents with deep understanding of the codebase and help them understand the context, not just text",
+      "evidence": [
+        {
+          "source_item_id": 47747475,
+          "source_field": "body",
+          "value": "https://www.github.com/neuvem/java2graph —- A semantic code graph for AI agents (for Java language)\n\nThe goal is to provide AI agents with deep understanding of the codebase and help them understand the context, not just text",
+          "supports": [],
+          "author": "decancode",
+          "shared_at": 1776053179,
+          "source_url": "https://news.ycombinator.com/item?id=47747475"
+        }
+      ],
+      "source_item_id": 47747475,
+      "source_url": "https://news.ycombinator.com/item?id=47747475",
+      "author": "decancode",
+      "shared_at": 1776053179,
+      "links": [
+        "https://www.github.com/neuvem/java2graph"
+      ]
+    }
+  ]
+}

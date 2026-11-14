@@ -1,0 +1,35 @@
+{
+  "id": 6924,
+  "slug": "luxaforpresence-95742ab8d8",
+  "name": "LuxaforPresence",
+  "mentions": [
+    {
+      "name": "LuxaforPresence",
+      "description": "A macOS app that detects when an active meeting is running in commonly used apps and turns on a LED \"presence\" light to show others that the user is on air. The current release candidate supports detecting Teams meetings and Slack huddles.",
+      "problem": "People nearby have no way of knowing when the user is currently in a meeting or on a call.",
+      "audience": null,
+      "builder_usernames": [
+        "kantselovich"
+      ],
+      "source_excerpt": "Working on MacOS app that detects an active meeting in one of the commonly used apps and then turns on a LED \"presence\" light.  The purpose to let others know that you are \"on air\" at this moment.",
+      "evidence": [
+        {
+          "source_item_id": 46947509,
+          "source_field": "body",
+          "value": "Working on MacOS app that detects an active meeting in one of the commonly used apps and then turns on a LED \"presence\" light.  The purpose to let others know that you are \"on air\" at this moment.",
+          "supports": [],
+          "author": "kantselovich",
+          "shared_at": 1770655803,
+          "source_url": "https://news.ycombinator.com/item?id=46947509"
+        }
+      ],
+      "source_item_id": 46947509,
+      "source_url": "https://news.ycombinator.com/item?id=46947509",
+      "author": "kantselovich",
+      "shared_at": 1770655803,
+      "links": [
+        "https://github.com/kantselovich/LuxaforPresence/pull/3"
+      ]
+    }
+  ]
+}

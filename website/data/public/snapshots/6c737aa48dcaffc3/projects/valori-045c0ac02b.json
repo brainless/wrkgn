@@ -1,0 +1,35 @@
+{
+  "id": 9199,
+  "slug": "valori-045c0ac02b",
+  "name": "Valori",
+  "mentions": [
+    {
+      "name": "Valori",
+      "description": "A Python-native vector database built as modular, hackable building blocks for embeddings, covering storage, indexing, and quantization. It lets users plug in their own models and search pipelines without touching C++.",
+      "problem": "Customizing vector databases typically requires working in C++.",
+      "audience": null,
+      "builder_usernames": [
+        "varshith17"
+      ],
+      "source_excerpt": "Building Valori, a Python-native vector database.\nIt’s basically Lego blocks for embeddings: storage, indexing, quantization — all modular, all hackable.\nThe goal? Let anyone plug in their own models and search pipelines without touching C++.",
+      "evidence": [
+        {
+          "source_item_id": 45884586,
+          "source_field": "body",
+          "value": "Building Valori, a Python-native vector database.\nIt’s basically Lego blocks for embeddings: storage, indexing, quantization — all modular, all hackable.\nThe goal? Let anyone plug in their own models and search pipelines without touching C++.",
+          "supports": [],
+          "author": "varshith17",
+          "shared_at": 1762841678,
+          "source_url": "https://news.ycombinator.com/item?id=45884586"
+        }
+      ],
+      "source_item_id": 45884586,
+      "source_url": "https://news.ycombinator.com/item?id=45884586",
+      "author": "varshith17",
+      "shared_at": 1762841678,
+      "links": [
+        "https://pypi.org/project/valori/"
+      ]
+    }
+  ]
+}

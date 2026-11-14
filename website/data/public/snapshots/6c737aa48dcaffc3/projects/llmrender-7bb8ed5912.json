@@ -1,0 +1,35 @@
+{
+  "id": 3692,
+  "slug": "llmrender-7bb8ed5912",
+  "name": "LLMRender",
+  "mentions": [
+    {
+      "name": "LLMRender",
+      "description": "This library is a tiny (10kb) Markdown to React renderer that supports standard Markdown plus LaTeX math and syntax highlighting, and works well with streaming by doing stable partial rendering. It offers features usually reserved for LLM chatbots while also handling normal everyday Markdown.",
+      "problem": "Combining a mainstream Markdown renderer with KaTeX (LaTeX) and Prism.js (syntax highlighting) adds ~300kb of gzipped JavaScript to frontend projects.",
+      "audience": "Frontend developers working on projects that render Markdown, including LLM chatbot interfaces",
+      "builder_usernames": [
+        "franciscop"
+      ],
+      "source_excerpt": "I just wrapped up https://llmrender.com/, a tiny (10kb) Markdown to React renderer works with all of the Markdown + LaTeX math you'd normally expect in a normal project.",
+      "evidence": [
+        {
+          "source_item_id": 48535471,
+          "source_field": "body",
+          "value": "I just wrapped up https://llmrender.com/, a tiny (10kb) Markdown to React renderer works with all of the Markdown + LaTeX math you'd normally expect in a normal project.",
+          "supports": [],
+          "author": "franciscop",
+          "shared_at": 1781487489,
+          "source_url": "https://news.ycombinator.com/item?id=48535471"
+        }
+      ],
+      "source_item_id": 48535471,
+      "source_url": "https://news.ycombinator.com/item?id=48535471",
+      "author": "franciscop",
+      "shared_at": 1781487489,
+      "links": [
+        "https://llmrender.com/"
+      ]
+    }
+  ]
+}

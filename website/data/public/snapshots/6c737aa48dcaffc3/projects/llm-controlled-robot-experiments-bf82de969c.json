@@ -1,0 +1,35 @@
+{
+  "id": 5583,
+  "slug": "llm-controlled-robot-experiments-bf82de969c",
+  "name": "LLM-controlled robot experiments",
+  "mentions": [
+    {
+      "name": "LLM-controlled robot experiments",
+      "description": "This project connects LLMs directly to robots so they can perform robot tasks by controlling motors and sampling camera and sensor data. The LLMs control the robot by writing code, either taking a camera image and issuing control commands in a slow sense-act-repeat loop or writing code that runs in a loop closer to the robot, as demonstrated in the hand-tracking example. Initial results are encouraging, and a larger robot has been acquired for further experiments.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "colinator"
+      ],
+      "source_excerpt": "I'm connecting LLMs directly to robots, to see how well they can perform robot things by directly controlling motors and sampling the camera/sensors. Initial results are encouraging!",
+      "evidence": [
+        {
+          "source_item_id": 47746754,
+          "source_field": "body",
+          "value": "I'm connecting LLMs directly to robots, to see how well they can perform robot things by directly controlling motors and sampling the camera/sensors. Initial results are encouraging!",
+          "supports": [],
+          "author": "colinator",
+          "shared_at": 1776046355,
+          "source_url": "https://news.ycombinator.com/item?id=47746754"
+        }
+      ],
+      "source_item_id": 47746754,
+      "source_url": "https://news.ycombinator.com/item?id=47746754",
+      "author": "colinator",
+      "shared_at": 1776046355,
+      "links": [
+        "https://colinator.github.io/Ariel/post1.html"
+      ]
+    }
+  ]
+}

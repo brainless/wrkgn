@@ -1,0 +1,35 @@
+{
+  "id": 6390,
+  "slug": "flynn-0e57c2444f",
+  "name": "flynn",
+  "mentions": [
+    {
+      "name": "flynn",
+      "description": "A modern Telnet client and terminal emulator for 68k Macintosh systems running System 6, with a fully working implementation supporting VT100, VT220, xterm, glyph/emoji support, and dark/light mode, running on real hardware.",
+      "problem": "A more modern Telnet client was needed for 68k Macintosh systems running System 6.",
+      "audience": null,
+      "builder_usernames": [
+        "ecliptik"
+      ],
+      "source_excerpt": "Started vibe coding a more modern Telnet client for 68k Macintosh systems running System 6 last week, and within a couple of days have a fully working terminal emulator with VT100, VT220, xterm, glyph/emoji support, and dark/light mode.",
+      "evidence": [
+        {
+          "source_item_id": 47310607,
+          "source_field": "body",
+          "value": "Started vibe coding a more modern Telnet client for 68k Macintosh systems running System 6 last week, and within a couple of days have a fully working terminal emulator with VT100, VT220, xterm, glyph/emoji support, and dark/light mode.",
+          "supports": [],
+          "author": "ecliptik",
+          "shared_at": 1773071248,
+          "source_url": "https://news.ycombinator.com/item?id=47310607"
+        }
+      ],
+      "source_item_id": 47310607,
+      "source_url": "https://news.ycombinator.com/item?id=47310607",
+      "author": "ecliptik",
+      "shared_at": 1773071248,
+      "links": [
+        "https://github.com/ecliptik/flynn"
+      ]
+    }
+  ]
+}

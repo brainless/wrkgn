@@ -1,0 +1,33 @@
+{
+  "id": 11061,
+  "slug": "server-rendered-saas-template-c2be3ceb24",
+  "name": "Server-rendered SaaS template",
+  "mentions": [
+    {
+      "name": "Server-rendered SaaS template",
+      "description": "This SaaS starter template uses Dokploy to deploy a NodeJS app alongside a Pocketbase instance on the same server for fast database reads and writes. It avoids the Pocketbase client library entirely—API calls are wrapped in dedicated server-side API routes—and the whole app is server side rendered, with custom cookie middleware enabling Pocketbase's built-in auth in an SSR setup.",
+      "problem": "Backend-in-a-box tools like Pocketbase push a client-library-directly-to-DB paradigm and their auth isn't SSR-ready out of the box, requiring custom cookie middleware to make it work with server side rendering.",
+      "audience": null,
+      "builder_usernames": [
+        "reassess_blind"
+      ],
+      "source_excerpt": "Working on redesigning my SaaS template. It uses Dokploy to deploy the NodeJS app, and Pocketbase instance within the same server, so DB reads and writes are very fast. Also doesn't use the Pocketbase client library at all, all calls are wrapped in their own API routes and everything is server side rendered.",
+      "evidence": [
+        {
+          "source_item_id": 43818166,
+          "source_field": "body",
+          "value": "Working on redesigning my SaaS template. It uses Dokploy to deploy the NodeJS app, and Pocketbase instance within the same server, so DB reads and writes are very fast. Also doesn't use the Pocketbase client library at all, all calls are wrapped in their own API routes and everything is server side rendered.",
+          "supports": [],
+          "author": "reassess_blind",
+          "shared_at": 1745820949,
+          "source_url": "https://news.ycombinator.com/item?id=43818166"
+        }
+      ],
+      "source_item_id": 43818166,
+      "source_url": "https://news.ycombinator.com/item?id=43818166",
+      "author": "reassess_blind",
+      "shared_at": 1745820949,
+      "links": []
+    }
+  ]
+}

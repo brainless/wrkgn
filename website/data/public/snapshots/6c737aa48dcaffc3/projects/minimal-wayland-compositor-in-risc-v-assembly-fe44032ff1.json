@@ -1,0 +1,33 @@
+{
+  "id": 8269,
+  "slug": "minimal-wayland-compositor-in-risc-v-assembly-fe44032ff1",
+  "name": "Minimal Wayland compositor in RISC-V assembly",
+  "mentions": [
+    {
+      "name": "Minimal Wayland compositor in RISC-V assembly",
+      "description": "A minimal Wayland compositor for Linux targeting AMD GPUs without libdrm, written in 64-bit RISC-V assembly and run on x86_64 via a small RISC-V machine-code interpreter written in x86_64 assembly. Programs use a deliberately simple custom file format wrapped in an ELF capsule. It starts with SHM buffer support (linux dma-buf planned later), already includes AMD GPU code for SHM, and speaks the Wayland wire format natively instead of using the Wayland project's C libraries. The author wants to move away from X11 and may fork xwayland for legacy compatibility with the Steam client and some games.",
+      "problem": "Offers a path away from X11 on Linux; legacy compatibility with X11 software such as the Steam client and some games remains a challenge that may require a forked xwayland.",
+      "audience": null,
+      "builder_usernames": [
+        "sylware"
+      ],
+      "source_excerpt": "On and off, I am currently coding a minimal wayland compositor for linux and AMD GPU(no libdrm), in RISC-V assembly (64bits), which I run on x86_64 with a small RISC-V machine code interpreter written itself in x86_64 assembly.",
+      "evidence": [
+        {
+          "source_item_id": 46272593,
+          "source_field": "body",
+          "value": "On and off, I am currently coding a minimal wayland compositor for linux and AMD GPU(no libdrm), in RISC-V assembly (64bits), which I run on x86_64 with a small RISC-V machine code interpreter written itself in x86_64 assembly.",
+          "supports": [],
+          "author": "sylware",
+          "shared_at": 1765794158,
+          "source_url": "https://news.ycombinator.com/item?id=46272593"
+        }
+      ],
+      "source_item_id": 46272593,
+      "source_url": "https://news.ycombinator.com/item?id=46272593",
+      "author": "sylware",
+      "shared_at": 1765794158,
+      "links": []
+    }
+  ]
+}

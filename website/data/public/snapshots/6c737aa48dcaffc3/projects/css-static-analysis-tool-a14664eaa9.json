@@ -1,0 +1,33 @@
+{
+  "id": 6268,
+  "slug": "css-static-analysis-tool-a14664eaa9",
+  "name": "CSS Static Analysis Tool",
+  "mentions": [
+    {
+      "name": "CSS Static Analysis Tool",
+      "description": "A CSS static analysis tool that consumes HTML and CSS and provides tooling to preview which properties are inherited given the current context, what is being overwritten, and the active display mode, including detecting inconsistent display modes depending on where you are in the HTML. Currently a prototype.",
+      "problem": "It is hard to see which CSS properties are inherited or overwritten in a given HTML context, and display modes can be inconsistent depending on position in the HTML.",
+      "audience": null,
+      "builder_usernames": [
+        "css_apologist"
+      ],
+      "source_excerpt": "actual css static analysis -- consume html + css, and provide tooling to preview what properties are inherited given the context you're in -- what you're overwriting, what display mode you're in. If there's inconsistent display modes depending on where in the html you are.",
+      "evidence": [
+        {
+          "source_item_id": 47311560,
+          "source_field": "body",
+          "value": "actual css static analysis -- consume html + css, and provide tooling to preview what properties are inherited given the context you're in -- what you're overwriting, what display mode you're in. If there's inconsistent display modes depending on where in the html you are.",
+          "supports": [],
+          "author": "css_apologist",
+          "shared_at": 1773074900,
+          "source_url": "https://news.ycombinator.com/item?id=47311560"
+        }
+      ],
+      "source_item_id": 47311560,
+      "source_url": "https://news.ycombinator.com/item?id=47311560",
+      "author": "css_apologist",
+      "shared_at": 1773074900,
+      "links": []
+    }
+  ]
+}

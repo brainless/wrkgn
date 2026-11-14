@@ -1,0 +1,33 @@
+{
+  "id": 6758,
+  "slug": "killer-queen-live-win-probability-predictor-bf7b23a43f",
+  "name": "Killer Queen live win probability predictor",
+  "mentions": [
+    {
+      "name": "Killer Queen live win probability predictor",
+      "description": "This project is a live win probability predictor for the 10-player arcade game Killer Queen, predicting the winner causally, event by event. It compares a nanoGPT-based model that treats events as tokens (about 65% accuracy) against a LightGBM baseline trained on hand-engineered expert features (about 70% accuracy), and is moving to a hybrid approach that feeds expert features back in as additional tokens or auxiliary loss heads and uses the LightGBM model as a teacher for knowledge distillation. It generates personalized post-game feedback by tracking sharp swings in win probability (ΔWP) to automatically produce highlight and lowlight reels right after a match, and uses ΔWP as a heuristic to identify match turning points for automated YouTube summaries.",
+      "problem": "Identifying the exact moments where plays were effective or catastrophic requires manually scrubbing through hours of Twitch footage; on the modeling side, the transformer approach trails a LightGBM baseline by 5% accuracy despite being roughly 4 orders of magnitude more expensive to train.",
+      "audience": "Players of the 10-player arcade game Killer Queen, plus content creators summarizing matches for YouTube",
+      "builder_usernames": [
+        "robrenaud"
+      ],
+      "source_excerpt": "I’ve been experimenting with a live win probability predictor for the 10-player arcade game Killer Queen. The goal is to predict the winner in a causal, event-by-event fashion.",
+      "evidence": [
+        {
+          "source_item_id": 46941412,
+          "source_field": "body",
+          "value": "I’ve been experimenting with a live win probability predictor for the 10-player arcade game Killer Queen. The goal is to predict the winner in a causal, event-by-event fashion.",
+          "supports": [],
+          "author": "robrenaud",
+          "shared_at": 1770609428,
+          "source_url": "https://news.ycombinator.com/item?id=46941412"
+        }
+      ],
+      "source_item_id": 46941412,
+      "source_url": "https://news.ycombinator.com/item?id=46941412",
+      "author": "robrenaud",
+      "shared_at": 1770609428,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 10936,
+  "slug": "nexula-e81008e747",
+  "name": "Nexula",
+  "mentions": [
+    {
+      "name": "Nexula",
+      "description": "An evolutionary image generation system that extracts embeddings with CLIP, clusters them via HDBSCAN, and visualizes them with UMAP. User behavior (time spent) drives fitness scores, and top samples recombine through weighted interpolation to generate new images. It is built on a Django backend with session-based personalization without login.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ghgr"
+      ],
+      "source_excerpt": "Nexula — an evolutionary image generation system. Embeddings extracted with CLIP, clustered via HDBSCAN, visualized with UMAP. User behavior (time spent) drives fitness scores; top samples recombine through weighted interpolation to generate new images. Built on Django backend, session-based personalization without login.",
+      "evidence": [
+        {
+          "source_item_id": 43822721,
+          "source_field": "body",
+          "value": "Nexula — an evolutionary image generation system. Embeddings extracted with CLIP, clustered via HDBSCAN, visualized with UMAP. User behavior (time spent) drives fitness scores; top samples recombine through weighted interpolation to generate new images. Built on Django backend, session-based personalization without login.",
+          "supports": [],
+          "author": "ghgr",
+          "shared_at": 1745854958,
+          "source_url": "https://news.ycombinator.com/item?id=43822721"
+        }
+      ],
+      "source_item_id": 43822721,
+      "source_url": "https://news.ycombinator.com/item?id=43822721",
+      "author": "ghgr",
+      "shared_at": 1745854958,
+      "links": []
+    }
+  ]
+}

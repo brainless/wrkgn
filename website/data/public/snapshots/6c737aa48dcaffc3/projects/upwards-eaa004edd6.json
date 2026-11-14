@@ -1,0 +1,35 @@
+{
+  "id": 8500,
+  "slug": "upwards-eaa004edd6",
+  "name": "Upwards",
+  "mentions": [
+    {
+      "name": "Upwards",
+      "description": "A job application tracker built as a client-side React app using LiveStore, a reactive state library on top of WASM, SQLite, and OPFS. Users can track applications, leave notes and updates, and gain insights into their data, with all data stored completely within the browser.",
+      "problem": "The author is currently on the job hunt and needed a way to track job applications.",
+      "audience": "Job seekers",
+      "builder_usernames": [
+        "ralphdelia"
+      ],
+      "source_excerpt": "I am currently on the job hunt and made a job application tracker.  It's a CSR React app that uses LiveStore (https://livestore.dev/), a reactive state library built on top of WASM, SQLite, and OPFS. The app enables you to track applications, leave notes and updates, and gain insights into your data, while storing your data completely within the browser.",
+      "evidence": [
+        {
+          "source_item_id": 46275933,
+          "source_field": "body",
+          "value": "I am currently on the job hunt and made a job application tracker.  It's a CSR React app that uses LiveStore (https://livestore.dev/), a reactive state library built on top of WASM, SQLite, and OPFS. The app enables you to track applications, leave notes and updates, and gain insights into your data, while storing your data completely within the browser.",
+          "supports": [],
+          "author": "ralphdelia",
+          "shared_at": 1765813352,
+          "source_url": "https://news.ycombinator.com/item?id=46275933"
+        }
+      ],
+      "source_item_id": 46275933,
+      "source_url": "https://news.ycombinator.com/item?id=46275933",
+      "author": "ralphdelia",
+      "shared_at": 1765813352,
+      "links": [
+        "https://upwards.dev/"
+      ]
+    }
+  ]
+}

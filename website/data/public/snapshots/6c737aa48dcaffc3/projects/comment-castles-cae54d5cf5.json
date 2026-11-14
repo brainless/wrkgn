@@ -1,0 +1,35 @@
+{
+  "id": 10474,
+  "slug": "comment-castles-cae54d5cf5",
+  "name": "Comment Castles",
+  "mentions": [
+    {
+      "name": "Comment Castles",
+      "description": "A Reddit clone (social discussion platform) called Comment Castles. The author recently implemented BBCodes-style text formatting with bracket syntax (e.g. b[text here] for bold) supporting bold, italic, underline, highlight, and strikethrough, with composable codes like bui[text here].",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "codingclaws"
+      ],
+      "source_excerpt": "My Reddit clone called Comment Castles [0].\n\nEarlier today I implemented \"bbcodes\" for bold, italic, underline, em (grey background color) and strikethrough.",
+      "evidence": [
+        {
+          "source_item_id": 44703472,
+          "source_field": "body",
+          "value": "My Reddit clone called Comment Castles [0].\n\nEarlier today I implemented \"bbcodes\" for bold, italic, underline, em (grey background color) and strikethrough.",
+          "supports": [],
+          "author": "codingclaws",
+          "shared_at": 1753641625,
+          "source_url": "https://news.ycombinator.com/item?id=44703472"
+        }
+      ],
+      "source_item_id": 44703472,
+      "source_url": "https://news.ycombinator.com/item?id=44703472",
+      "author": "codingclaws",
+      "shared_at": 1753641625,
+      "links": [
+        "https://github.com/ferg1e/comment-castles"
+      ]
+    }
+  ]
+}

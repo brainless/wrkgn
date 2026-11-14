@@ -1,0 +1,64 @@
+{
+  "id": 3629,
+  "slug": "pglite-84d09ce3d9",
+  "name": "PGlite",
+  "mentions": [
+    {
+      "name": "PGlite",
+      "description": "PGlite is Postgres compiled to WebAssembly, published as an npm package that is approaching 10M weekly downloads, with plans for further development underway.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tdrz"
+      ],
+      "source_excerpt": "PGlite - Postgres in WASM https://pglite.dev\n\nWe're very close to 10M weekly downloads https://www.npmjs.com/package/@electric-sql/pglite",
+      "evidence": [
+        {
+          "source_item_id": 48538336,
+          "source_field": "body",
+          "value": "PGlite - Postgres in WASM https://pglite.dev\n\nWe're very close to 10M weekly downloads https://www.npmjs.com/package/@electric-sql/pglite",
+          "supports": [],
+          "author": "tdrz",
+          "shared_at": 1781512531,
+          "source_url": "https://news.ycombinator.com/item?id=48538336"
+        }
+      ],
+      "source_item_id": 48538336,
+      "source_url": "https://news.ycombinator.com/item?id=48538336",
+      "author": "tdrz",
+      "shared_at": 1781512531,
+      "links": [
+        "https://pglite.dev",
+        "https://www.npmjs.com/package/@electric-sql/pglite"
+      ]
+    },
+    {
+      "name": "PGlite",
+      "description": "PGlite is PostgreSQL compiled to WebAssembly, an embeddable database that runs in-browser and server-side. Roadmap items include easier PostgreSQL version upgrades, PostGIS extension support (already running server-side in Node, Bun and Deno but blocked by Chrome), multi-connection multiplexing over a single instance, and a native library.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tdrz"
+      ],
+      "source_excerpt": "I'm one of the maintainers of PGlite - PostgreSQL in WASM.",
+      "evidence": [
+        {
+          "source_item_id": 46944906,
+          "source_field": "body",
+          "value": "I'm one of the maintainers of PGlite - PostgreSQL in WASM.",
+          "supports": [],
+          "author": "tdrz",
+          "shared_at": 1770643192,
+          "source_url": "https://news.ycombinator.com/item?id=46944906"
+        }
+      ],
+      "source_item_id": 46944906,
+      "source_url": "https://news.ycombinator.com/item?id=46944906",
+      "author": "tdrz",
+      "shared_at": 1770643192,
+      "links": [
+        "https://pglite.dev"
+      ]
+    }
+  ]
+}

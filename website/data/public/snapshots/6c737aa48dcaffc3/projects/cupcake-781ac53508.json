@@ -1,0 +1,35 @@
+{
+  "id": 9222,
+  "slug": "cupcake-781ac53508",
+  "name": "Cupcake",
+  "mentions": [
+    {
+      "name": "Cupcake",
+      "description": "A governance/policy-enforcement layer for AI agents that binds OPA/Rego policies to agent runtimes via hooks (created the feature request for Claude Code hooks that enabled this). It provides deterministic guarantees and lets enterprises factor in their own alignment constraints, rather than relying on system prompts. Nearly ready for release, with a formal release planned in a couple of weeks.",
+      "problem": "The author believes we will never strictly rely on \"better\" models in the wild without deterministic guarantees or ways for enterprises to factor in their own alignment - system prompts don't cut it.",
+      "audience": null,
+      "builder_usernames": [
+        "ramoz"
+      ],
+      "source_excerpt": "Cupcake is a governance/policy-enforcement layer for agents. Its innovation is binding OPA/rego to agent runtimes (via hooks).",
+      "evidence": [
+        {
+          "source_item_id": 45871317,
+          "source_field": "body",
+          "value": "Cupcake is a governance/policy-enforcement layer for agents. Its innovation is binding OPA/rego to agent runtimes (via hooks).",
+          "supports": [],
+          "author": "ramoz",
+          "shared_at": 1762739205,
+          "source_url": "https://news.ycombinator.com/item?id=45871317"
+        }
+      ],
+      "source_item_id": 45871317,
+      "source_url": "https://news.ycombinator.com/item?id=45871317",
+      "author": "ramoz",
+      "shared_at": 1762739205,
+      "links": [
+        "https://github.com/eqtylab/cupcake"
+      ]
+    }
+  ]
+}

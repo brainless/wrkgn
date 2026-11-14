@@ -1,0 +1,35 @@
+{
+  "id": 7460,
+  "slug": "linux-printing-scanning-stack-improvements-2aab2bb0d7",
+  "name": "Linux printing & scanning stack improvements",
+  "mentions": [
+    {
+      "name": "Linux printing & scanning stack improvements",
+      "description": "This project improves the Linux printing and scanning stack—CUPS, SANE, AirSane, legacy drivers, and x86 proprietary driver emulation on ARM via Box86—fixing basic bugs and low-hanging-fruit optimizations in a 20+ year old stack maintained by only a handful of people, ahead of the CUPS v3 shift to modern driverless printing.",
+      "problem": "The Linux printing stack is 20+ years old, still full of basic bugs and easy optimizations, maintains legacy compatibility with roughly 5 driver architectures and 4 user-selectable rasterizers, and is supported by only four people (scanning by a single person).",
+      "audience": null,
+      "builder_usernames": [
+        "ValdikSS"
+      ],
+      "source_excerpt": "Spent about 2 years improving printing and scanning stack of Linux: CUPS, SANE, AirSane, as well as some legacy drivers, and also x86 proprietary driver emulation on ARM with Box86.",
+      "evidence": [
+        {
+          "source_item_id": 46579361,
+          "source_field": "body",
+          "value": "Spent about 2 years improving printing and scanning stack of Linux: CUPS, SANE, AirSane, as well as some legacy drivers, and also x86 proprietary driver emulation on ARM with Box86.",
+          "supports": [],
+          "author": "ValdikSS",
+          "shared_at": 1768161595,
+          "source_url": "https://news.ycombinator.com/item?id=46579361"
+        }
+      ],
+      "source_item_id": 46579361,
+      "source_url": "https://news.ycombinator.com/item?id=46579361",
+      "author": "ValdikSS",
+      "shared_at": 1768161595,
+      "links": [
+        "https://github.com/OpenPrinting/"
+      ]
+    }
+  ]
+}

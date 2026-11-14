@@ -1,0 +1,33 @@
+{
+  "id": 7961,
+  "slug": "self-hosted-facebook-ish-social-media-pwa-0b59055786",
+  "name": "Self-hosted Facebook-ish social media PWA",
+  "mentions": [
+    {
+      "name": "Self-hosted Facebook-ish social media PWA",
+      "description": "A simple Facebook-style social media PWA designed to be easily self-hosted on low-end Raspberry Pi-level hardware, built with Bun, SQLite, and Mantine. It targets small groups rather than scale, is simple to spin up and manage, and is intended to run as multiple separate instances (e.g., one for family, one for college friends, one for local friends).",
+      "problem": "The author's friend group is increasingly concerned with the gradual enshittification of services they depend on and lacks self-hostable options (beyond Nextcloud, Mattermost/Zulip) that cover Facebook-like needs.",
+      "audience": "Small friend groups and families (under ~1000 users per instance)",
+      "builder_usernames": [
+        "Octoth0rpe"
+      ],
+      "source_excerpt": "A very simple facebook-ish social media PWA that is meant to be easily selfhosted on low end raspberry pi level hardware, bun + sqlite + mantine.",
+      "evidence": [
+        {
+          "source_item_id": 46579829,
+          "source_field": "body",
+          "value": "A very simple facebook-ish social media PWA that is meant to be easily selfhosted on low end raspberry pi level hardware, bun + sqlite + mantine.",
+          "supports": [],
+          "author": "Octoth0rpe",
+          "shared_at": 1768164290,
+          "source_url": "https://news.ycombinator.com/item?id=46579829"
+        }
+      ],
+      "source_item_id": 46579829,
+      "source_url": "https://news.ycombinator.com/item?id=46579829",
+      "author": "Octoth0rpe",
+      "shared_at": 1768164290,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": 5941,
+  "slug": "crosspoint-sync-909a945edb",
+  "name": "CrossPoint Sync",
+  "mentions": [
+    {
+      "name": "CrossPoint Sync",
+      "description": "A mobile app for the Xteink 4 eink reader running the CrossPoint community firmware that lets users upload and manage files and send web articles to the reader from an iPhone. It is published on the iOS App Store with an Android beta pending release.",
+      "problem": "The reader's stock firmware is horrible and there was no easy way to upload and manage files or send web articles to the device from an iPhone on the go.",
+      "audience": "The niche community of Xteink 4 eink reader users running the CrossPoint community firmware.",
+      "builder_usernames": [
+        "zabi_rauf"
+      ],
+      "source_excerpt": "I wanted to be able to upload, manage files etc. from my iPhone on the go and also send over web articles. So I build this app CrossPoint Sync https://crosspointsync.com to do just that.",
+      "evidence": [
+        {
+          "source_item_id": 47304514,
+          "source_field": "body",
+          "value": "I wanted to be able to upload, manage files etc. from my iPhone on the go and also send over web articles. So I build this app CrossPoint Sync https://crosspointsync.com to do just that.",
+          "supports": [],
+          "author": "zabi_rauf",
+          "shared_at": 1773026319,
+          "source_url": "https://news.ycombinator.com/item?id=47304514"
+        }
+      ],
+      "source_item_id": 47304514,
+      "source_url": "https://news.ycombinator.com/item?id=47304514",
+      "author": "zabi_rauf",
+      "shared_at": 1773026319,
+      "links": [
+        "https://apps.apple.com/app/crosspoint-sync/id6758985427",
+        "https://crosspointsync.com",
+        "https://crosspointsync.com/android/join-beta",
+        "https://github.com/zabirauf/crosspoint-sync"
+      ]
+    }
+  ]
+}

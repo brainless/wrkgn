@@ -1,0 +1,92 @@
+{
+  "id": 2527,
+  "slug": "onebusaway-transit-api-server-e5f5d10224",
+  "name": "OneBusAway transit API server",
+  "mentions": [
+    {
+      "name": "OneBusAway transit API server",
+      "description": "A new transit API server from the OneBusAway project; a blog post walks through the basics of setting it up with Bay Area transit data, with operator data for other locations available via Transit.land.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "aaronbrethorst"
+      ],
+      "source_excerpt": "If you want to explore our new transit API server, I wrote up a blog post a couple months ago to walk you through the basics: https://opentransitsoftwarefoundation.org/2026/04/setting-up-maglev-bay-area-transit-data/",
+      "evidence": [
+        {
+          "source_item_id": 48888489,
+          "source_field": "body",
+          "value": "If you want to explore our new transit API server, I wrote up a blog post a couple months ago to walk you through the basics: https://opentransitsoftwarefoundation.org/2026/04/setting-up-maglev-bay-area-transit-data/",
+          "supports": [],
+          "author": "aaronbrethorst",
+          "shared_at": 1783922714,
+          "source_url": "https://news.ycombinator.com/item?id=48888489"
+        }
+      ],
+      "source_item_id": 48888489,
+      "source_url": "https://news.ycombinator.com/item?id=48888489",
+      "author": "aaronbrethorst",
+      "shared_at": 1783922714,
+      "links": [
+        "https://github.com/onebusaway",
+        "https://opentransitsoftwarefoundation.org/2026/04/setting-up-maglev-bay-area-transit-data/"
+      ]
+    },
+    {
+      "name": "Maglev",
+      "description": "An open source Golang server that can power real-time transit apps. It is already used in production and can be set up as a local install in about 15 minutes.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "aaronbrethorst"
+      ],
+      "source_excerpt": "like Maglev, a Golang server that can power realtime transit apps. Maglev is already being used in production, and you can set up a local install in about 15 minutes",
+      "evidence": [
+        {
+          "source_item_id": 48533660,
+          "source_field": "body",
+          "value": "like Maglev, a Golang server that can power realtime transit apps. Maglev is already being used in production, and you can set up a local install in about 15 minutes",
+          "supports": [],
+          "author": "aaronbrethorst",
+          "shared_at": 1781476627,
+          "source_url": "https://news.ycombinator.com/item?id=48533660"
+        }
+      ],
+      "source_item_id": 48533660,
+      "source_url": "https://news.ycombinator.com/item?id=48533660",
+      "author": "aaronbrethorst",
+      "shared_at": 1781476627,
+      "links": [
+        "https://opentransitsoftwarefoundation.org/2026/04/setting-up-maglev-bay-area-transit-data/"
+      ]
+    },
+    {
+      "name": "Maglev",
+      "description": "An open source Golang server that can power realtime transit apps. It is one of the open source projects underlying OneBusAway Cloud, and a blog post explains how to set it up with Bay Area transit data.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "aaronbrethorst"
+      ],
+      "source_excerpt": "All of this depends on a bunch of really cool open source projects we’re building, like Maglev, a Golang server that can power realtime transit apps. I wrote up a blog post explaining how to set it up here: https://opentransitsoftwarefoundation.org/2026/04/setting-up-maglev-bay-area-transit-data/",
+      "evidence": [
+        {
+          "source_item_id": 48088461,
+          "source_field": "body",
+          "value": "All of this depends on a bunch of really cool open source projects we’re building, like Maglev, a Golang server that can power realtime transit apps. I wrote up a blog post explaining how to set it up here: https://opentransitsoftwarefoundation.org/2026/04/setting-up-maglev-bay-area-transit-data/",
+          "supports": [],
+          "author": "aaronbrethorst",
+          "shared_at": 1778449819,
+          "source_url": "https://news.ycombinator.com/item?id=48088461"
+        }
+      ],
+      "source_item_id": 48088461,
+      "source_url": "https://news.ycombinator.com/item?id=48088461",
+      "author": "aaronbrethorst",
+      "shared_at": 1778449819,
+      "links": [
+        "https://opentransitsoftwarefoundation.org/2026/04/setting-up-maglev-bay-area-transit-data/"
+      ]
+    }
+  ]
+}

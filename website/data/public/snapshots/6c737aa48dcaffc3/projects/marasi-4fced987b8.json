@@ -1,0 +1,36 @@
+{
+  "id": 7640,
+  "slug": "marasi-4fced987b8",
+  "name": "Marasi",
+  "mentions": [
+    {
+      "name": "Marasi",
+      "description": "Open source application security testing proxy with a Lua extension system. A recent update adds modules for use during testing (encoding, encryption, request/response manipulation) and lets extensions extend the application's GUI: since the proxy is a library and the GUI is a separate application, the GUI injects its specific render and update methods to bridge the two.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "aasz"
+      ],
+      "source_excerpt": "I've just pushed a big update to the Lua extension system in Marasi (an open source application security testing proxy).",
+      "evidence": [
+        {
+          "source_item_id": 46585769,
+          "source_field": "body",
+          "value": "I've just pushed a big update to the Lua extension system in Marasi (an open source application security testing proxy).",
+          "supports": [],
+          "author": "aasz",
+          "shared_at": 1768207739,
+          "source_url": "https://news.ycombinator.com/item?id=46585769"
+        }
+      ],
+      "source_item_id": 46585769,
+      "source_url": "https://news.ycombinator.com/item?id=46585769",
+      "author": "aasz",
+      "shared_at": 1768207739,
+      "links": [
+        "https://github.com/tfkr-ae/marasi-app",
+        "https://marasi.app"
+      ]
+    }
+  ]
+}

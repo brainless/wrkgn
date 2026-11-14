@@ -1,0 +1,65 @@
+{
+  "id": 6241,
+  "slug": "talimio-9a6f6ed055",
+  "name": "Talimio",
+  "mentions": [
+    {
+      "name": "Talimio",
+      "description": "This app generates fully personalized, interactive courses from a prompt. Adaptive practice uses an LLM to generate and grade questions in real time, then applies Item Response Theory (IRT) to estimate the learner's ability and schedule the optimal next question. It includes interactive gradable math graphs built with JSXGraph and a single-image Docker deployment for easy self-hosting. It is open source.",
+      "problem": "Replaces flashcards, especially for math and topics where each question needs to be fresh even when covering the same concept.",
+      "audience": null,
+      "builder_usernames": [
+        "SamDc73"
+      ],
+      "source_excerpt": "https://talimio.com/ Generate fully personalized courses from a prompt. Fully interactive.",
+      "evidence": [
+        {
+          "source_item_id": 47305792,
+          "source_field": "body",
+          "value": "https://talimio.com/ Generate fully personalized courses from a prompt. Fully interactive.",
+          "supports": [],
+          "author": "SamDc73",
+          "shared_at": 1773041032,
+          "source_url": "https://news.ycombinator.com/item?id=47305792"
+        }
+      ],
+      "source_item_id": 47305792,
+      "source_url": "https://news.ycombinator.com/item?id=47305792",
+      "author": "SamDc73",
+      "shared_at": 1773041032,
+      "links": [
+        "https://github.com/SamDc73/Talimio",
+        "https://talimio.com/"
+      ]
+    },
+    {
+      "name": "Talimio",
+      "description": "This app generates fully personalized, interactive courses from a prompt. Adaptive practice has an LLM generate and grade questions in real time, using Item Response Theory (IRT) to estimate learner ability and schedule the optimal next question, replacing flashcards for subjects like math where each question needs to be fresh. It also supports gradable interactive math graphs (JSXGraph) and ships as a single-image Docker deployment for easy self-hosting, with the source open on GitHub.",
+      "problem": "Flashcards repeat the same questions, while math and similar topics need fresh questions even when covering the same concept.",
+      "audience": "students-learners",
+      "builder_usernames": [
+        "SamDc73"
+      ],
+      "source_excerpt": "https://talimio.com/ Generate fully personalized courses from a prompt. Fully interactive.\n\nNew features shipped last month:\n\n- Adaptive practice: LLM generates and grades questions in real-time, then uses Item Response Theory (IRT) to estimate your ability and schedule the optimal next question. Replaces flashcards; especially for math and topics where each question needs to be fresh even when covering the same concept. - Interactive math graphs (JSXGraph) that are gradable - Single-image Docker deployment for easy self-hosting",
+      "evidence": [
+        {
+          "source_item_id": 47305790,
+          "source_field": "body",
+          "value": "https://talimio.com/ Generate fully personalized courses from a prompt. Fully interactive.\n\nNew features shipped last month:\n\n- Adaptive practice: LLM generates and grades questions in real-time, then uses Item Response Theory (IRT) to estimate your ability and schedule the optimal next question. Replaces flashcards; especially for math and topics where each question needs to be fresh even when covering the same concept. - Interactive math graphs (JSXGraph) that are gradable - Single-image Docker deployment for easy self-hosting",
+          "supports": [],
+          "author": "SamDc73",
+          "shared_at": 1773041023,
+          "source_url": "https://news.ycombinator.com/item?id=47305790"
+        }
+      ],
+      "source_item_id": 47305790,
+      "source_url": "https://news.ycombinator.com/item?id=47305790",
+      "author": "SamDc73",
+      "shared_at": 1773041023,
+      "links": [
+        "https://github.com/SamDc73/Talimio",
+        "https://talimio.com/"
+      ]
+    }
+  ]
+}

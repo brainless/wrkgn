@@ -1,0 +1,35 @@
+{
+  "id": 4302,
+  "slug": "webcli-4c6eee747d",
+  "name": "WebCLI",
+  "mentions": [
+    {
+      "name": "WebCLI",
+      "description": "This CLI tool pipes and translates the web into text so AI agents can drive a browser like a Unix command line. It supports running any browser task, with humans handling only steps that require them (MFA, login, CAPTCHA), and offers CLI or REPL usage with commands like web go, web say, web find, and web do. A web teach command writes SKILL.md files into the current directory tree so an agent can hit the ground running. It positions itself as an improvisational alternative to verbose MCP and to scripted browser automation like Playwright and Puppeteer.",
+      "problem": "Screenshot-based browser interaction is a dead end and MCP is too verbose and clunky; agents' native language is text, so the browser needs to be translated into text for them.",
+      "audience": null,
+      "builder_usernames": [
+        "keepamovin"
+      ],
+      "source_excerpt": "WebCLI - screenshots are a dead end. MCP is too verbose and clunky. Agents native language is text. Web CLI is just a Unix-y CLI that pipes/translates the web to text. Run any task on a web browser, but don't do it yourself (only the parts you have to - MFA, Login, CAPTCHA, whatever).",
+      "evidence": [
+        {
+          "source_item_id": 48538560,
+          "source_field": "body",
+          "value": "WebCLI - screenshots are a dead end. MCP is too verbose and clunky. Agents native language is text. Web CLI is just a Unix-y CLI that pipes/translates the web to text. Run any task on a web browser, but don't do it yourself (only the parts you have to - MFA, Login, CAPTCHA, whatever).",
+          "supports": [],
+          "author": "keepamovin",
+          "shared_at": 1781514282,
+          "source_url": "https://news.ycombinator.com/item?id=48538560"
+        }
+      ],
+      "source_item_id": 48538560,
+      "source_url": "https://news.ycombinator.com/item?id=48538560",
+      "author": "keepamovin",
+      "shared_at": 1781514282,
+      "links": [
+        "https://webcli.sh/"
+      ]
+    }
+  ]
+}

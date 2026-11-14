@@ -1,0 +1,33 @@
+{
+  "id": 10351,
+  "slug": "playwright-style-browser-automation-api-for-chrome-extensions-c1ba0e2597",
+  "name": "Playwright-style browser automation API for Chrome extensions",
+  "mentions": [
+    {
+      "name": "Playwright-style browser automation API for Chrome extensions",
+      "description": "A library that reimplements the Puppeteer/Playwright client API on top of native Chrome extension APIs, enabling browser automation to run inside a Chrome extension without the Chrome DevTools Protocol. Chrome extension APIs cover roughly 85% of CDP/Webdriver BiDi functionality (e.g., calling functions with chrome.scripting.executeScript() instead of script.callFunction) while preserving security features that shouldn't be bypassed; a proof of concept is planned in 2-3 weeks.",
+      "problem": "Running Playwright inside a Chrome extension currently requires the Chrome DevTools Protocol (CDP) to automate a browser, which hurts the user experience, is very slow, and opens security vulnerabilities.",
+      "audience": null,
+      "builder_usernames": [
+        "dataviz1000"
+      ],
+      "source_excerpt": "I'm copying the Puppeteer / Playwright client API to run in a Chrome extension using the native Chrome extension APIs.",
+      "evidence": [
+        {
+          "source_item_id": 44703795,
+          "source_field": "body",
+          "value": "I'm copying the Puppeteer / Playwright client API to run in a Chrome extension using the native Chrome extension APIs.",
+          "supports": [],
+          "author": "dataviz1000",
+          "shared_at": 1753643937,
+          "source_url": "https://news.ycombinator.com/item?id=44703795"
+        }
+      ],
+      "source_item_id": 44703795,
+      "source_url": "https://news.ycombinator.com/item?id=44703795",
+      "author": "dataviz1000",
+      "shared_at": 1753643937,
+      "links": []
+    }
+  ]
+}

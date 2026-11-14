@@ -1,0 +1,35 @@
+{
+  "id": 5466,
+  "slug": "hodlings-262bc996fc",
+  "name": "HODLings",
+  "mentions": [
+    {
+      "name": "HODLings",
+      "description": "This app is a private crypto portfolio tracker for mobile devices that stores all data locally and doesn't track its users. It connects only to the free CoinGecko API for latest prices and to GitHub for reference and historical data, with a background job updating the GitHub reference data hourly. It has no login, no cloud, and no ads.",
+      "problem": "Existing crypto trackers track users; this one keeps holdings private with fully local storage.",
+      "audience": "Personal crypto holders who want to track holdings privately.",
+      "builder_usernames": [
+        "GeoSys"
+      ],
+      "source_excerpt": "I've been working on HODLings, a private crypto tracker, which doesn't track you!",
+      "evidence": [
+        {
+          "source_item_id": 47744919,
+          "source_field": "body",
+          "value": "I've been working on HODLings, a private crypto tracker, which doesn't track you!",
+          "supports": [],
+          "author": "GeoSys",
+          "shared_at": 1776030542,
+          "source_url": "https://news.ycombinator.com/item?id=47744919"
+        }
+      ],
+      "source_item_id": 47744919,
+      "source_url": "https://news.ycombinator.com/item?id=47744919",
+      "author": "GeoSys",
+      "shared_at": 1776030542,
+      "links": [
+        "https://www.geosystemsdev.com/products/hodlings/"
+      ]
+    }
+  ]
+}

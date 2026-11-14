@@ -1,0 +1,36 @@
+{
+  "id": 10949,
+  "slug": "server-radar-a3e79c428c",
+  "name": "Server Radar",
+  "mentions": [
+    {
+      "name": "Server Radar",
+      "description": "This app is a price tracker for the Hetzner Auction, featuring dark mode, sorting, grouping, layout improvements, and a drawer with an auction view. It also includes a Cloud Server Availability page that reports Hetzner Cloud resource availability, added after people on /r/hetzner complained about a lack of resources.",
+      "problem": "People on /r/hetzner complained about a lack of Hetzner Cloud resources, prompting the Cloud Server Availability page.",
+      "audience": null,
+      "builder_usernames": [
+        "else42"
+      ],
+      "source_excerpt": "Worked a little on Server Radar [1] again, the Hetzner Auction price tracker.",
+      "evidence": [
+        {
+          "source_item_id": 43818390,
+          "source_field": "body",
+          "value": "Worked a little on Server Radar [1] again, the Hetzner Auction price tracker.",
+          "supports": [],
+          "author": "else42",
+          "shared_at": 1745823448,
+          "source_url": "https://news.ycombinator.com/item?id=43818390"
+        }
+      ],
+      "source_item_id": 43818390,
+      "source_url": "https://news.ycombinator.com/item?id=43818390",
+      "author": "else42",
+      "shared_at": 1745823448,
+      "links": [
+        "https://radar.iodev.org/",
+        "https://radar.iodev.org/cloud-status"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 5333,
+  "slug": "banking-sector-voice-agent-766bed74bc",
+  "name": "Banking-sector voice agent",
+  "mentions": [
+    {
+      "name": "Banking-sector voice agent",
+      "description": "This voice agent implements deterministic workflows using OpenAI realtime voice and finite state machines for a client in the banking sector.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "davemo"
+      ],
+      "source_excerpt": "A voice-agent for a client in the banking sector, implementing deterministic workflows using openai realtime voice + finite state machines",
+      "evidence": [
+        {
+          "source_item_id": 47746056,
+          "source_field": "body",
+          "value": "A voice-agent for a client in the banking sector, implementing deterministic workflows using openai realtime voice + finite state machines",
+          "supports": [],
+          "author": "davemo",
+          "shared_at": 1776039886,
+          "source_url": "https://news.ycombinator.com/item?id=47746056"
+        }
+      ],
+      "source_item_id": 47746056,
+      "source_url": "https://news.ycombinator.com/item?id=47746056",
+      "author": "davemo",
+      "shared_at": 1776039886,
+      "links": [
+        "https://blog.davemo.com/posts/2026-02-14-deterministic-core-agentic-shell.html"
+      ]
+    }
+  ]
+}

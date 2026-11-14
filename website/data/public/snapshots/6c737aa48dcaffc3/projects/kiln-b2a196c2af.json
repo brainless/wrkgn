@@ -1,0 +1,35 @@
+{
+  "id": 6977,
+  "slug": "kiln-b2a196c2af",
+  "name": "Kiln",
+  "mentions": [
+    {
+      "name": "Kiln",
+      "description": "Kiln is a simplified agent task orchestrator that uses the user's local Claude Code installation as the agent and GitHub as its interface. Users move cards across kanban columns (Backlog -> Research -> Plan -> Implement), and Kiln runs Claude locally, opens pull requests, and keeps everything tracked in GitHub. Open source under the MIT License.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "elondemirock"
+      ],
+      "source_excerpt": "Simplified agent task orchestrator named Kiln:\n\nhttps://kiln.bot\n\nUses your local Claude Code as the agent and GitHub as its UI, things you already have. Open source, MIT License.\n\nYou move cards across kanban columns (Backlog -> Research -> Plan -> Implement) and Kiln runs Claude locally, opens PRs, and keeps everything tracked in GitHub.",
+      "evidence": [
+        {
+          "source_item_id": 46939641,
+          "source_field": "body",
+          "value": "Simplified agent task orchestrator named Kiln:\n\nhttps://kiln.bot\n\nUses your local Claude Code as the agent and GitHub as its UI, things you already have. Open source, MIT License.\n\nYou move cards across kanban columns (Backlog -> Research -> Plan -> Implement) and Kiln runs Claude locally, opens PRs, and keeps everything tracked in GitHub.",
+          "supports": [],
+          "author": "elondemirock",
+          "shared_at": 1770592828,
+          "source_url": "https://news.ycombinator.com/item?id=46939641"
+        }
+      ],
+      "source_item_id": 46939641,
+      "source_url": "https://news.ycombinator.com/item?id=46939641",
+      "author": "elondemirock",
+      "shared_at": 1770592828,
+      "links": [
+        "https://kiln.bot"
+      ]
+    }
+  ]
+}

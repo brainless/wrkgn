@@ -1,0 +1,35 @@
+{
+  "id": 4190,
+  "slug": "newspeak-football-pool-88c2df8985",
+  "name": "Newspeak football pool",
+  "mentions": [
+    {
+      "name": "Newspeak football pool",
+      "description": "This app is a rewrite of a friend's football pool in Newspeak, replacing a Squeak/Seaside version that ran for more than a decade; it stores all data locally in IndexedDB via the author's own Newspeak library for that API.",
+      "problem": "The decade-old Squeak/Seaside setup had grown tiresome to maintain, and a recent hack of the VPS server provided the impetus for another iteration.",
+      "audience": null,
+      "builder_usernames": [
+        "goodthink"
+      ],
+      "source_excerpt": "Re-writing my friends football pool in Newspeak. The Squeak/Seaside version has served him well for more than a decade but I've grown tired of the setup. My VPS server got hacked recently affording the impetus to try another iteration. Storing all the data locally in IndexedDB, using my own Newspeak library for  that API.",
+      "evidence": [
+        {
+          "source_item_id": 48535556,
+          "source_field": "body",
+          "value": "Re-writing my friends football pool in Newspeak. The Squeak/Seaside version has served him well for more than a decade but I've grown tired of the setup. My VPS server got hacked recently affording the impetus to try another iteration. Storing all the data locally in IndexedDB, using my own Newspeak library for  that API.",
+          "supports": [],
+          "author": "goodthink",
+          "shared_at": 1781488009,
+          "source_url": "https://news.ycombinator.com/item?id=48535556"
+        }
+      ],
+      "source_item_id": 48535556,
+      "source_url": "https://news.ycombinator.com/item?id=48535556",
+      "author": "goodthink",
+      "shared_at": 1781488009,
+      "links": [
+        "https://newspeaklanguage.org"
+      ]
+    }
+  ]
+}

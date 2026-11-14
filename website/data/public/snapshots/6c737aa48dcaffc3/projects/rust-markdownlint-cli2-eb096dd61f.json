@@ -1,0 +1,33 @@
+{
+  "id": 9593,
+  "slug": "rust-markdownlint-cli2-eb096dd61f",
+  "name": "Rust markdownlint-cli2",
+  "mentions": [
+    {
+      "name": "Rust markdownlint-cli2",
+      "description": "A Rust implementation of markdownlint-cli2, a command-line markdown linter, built to eliminate the Node.js runtime dependency that projects currently need when using the original tool.",
+      "problem": "Using markdownlint-cli2 requires a node dependency in projects, which the author finds tiresome.",
+      "audience": null,
+      "builder_usernames": [
+        "simonsaysso"
+      ],
+      "source_excerpt": "am working on a Rust version of markdownlint-cli2. I'm tired of having a node dependency in my projects",
+      "evidence": [
+        {
+          "source_item_id": 45869356,
+          "source_field": "body",
+          "value": "am working on a Rust version of markdownlint-cli2. I'm tired of having a node dependency in my projects",
+          "supports": [],
+          "author": "simonsaysso",
+          "shared_at": 1762723745,
+          "source_url": "https://news.ycombinator.com/item?id=45869356"
+        }
+      ],
+      "source_item_id": 45869356,
+      "source_url": "https://news.ycombinator.com/item?id=45869356",
+      "author": "simonsaysso",
+      "shared_at": 1762723745,
+      "links": []
+    }
+  ]
+}

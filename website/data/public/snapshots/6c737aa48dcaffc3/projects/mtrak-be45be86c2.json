@@ -1,0 +1,35 @@
+{
+  "id": 9602,
+  "slug": "mtrak-be45be86c2",
+  "name": "MTrak",
+  "mentions": [
+    {
+      "name": "MTrak",
+      "description": "A TUI MIDI tracker written in Go in which users enter raw MIDI messages in hex into the tracks. It can be connected to synths such as Fluidsynth or Surge XT via JACK MIDI, though it currently consumes a lot of CPU time, likely due to its use of BubbleTea without optimization.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "clx75"
+      ],
+      "source_excerpt": "MTrak - https://github.com/cellux/mtrak\n\nThis is a TUI MIDI tracker written in Go. Not too user-friendly: one has to enter raw MIDI messages in hex into the tracks.",
+      "evidence": [
+        {
+          "source_item_id": 45873973,
+          "source_field": "body",
+          "value": "MTrak - https://github.com/cellux/mtrak\n\nThis is a TUI MIDI tracker written in Go. Not too user-friendly: one has to enter raw MIDI messages in hex into the tracks.",
+          "supports": [],
+          "author": "clx75",
+          "shared_at": 1762765216,
+          "source_url": "https://news.ycombinator.com/item?id=45873973"
+        }
+      ],
+      "source_item_id": 45873973,
+      "source_url": "https://news.ycombinator.com/item?id=45873973",
+      "author": "clx75",
+      "shared_at": 1762765216,
+      "links": [
+        "https://github.com/cellux/mtrak"
+      ]
+    }
+  ]
+}

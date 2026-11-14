@@ -1,0 +1,63 @@
+{
+  "id": 5896,
+  "slug": "grith-1df49e3d36",
+  "name": "grith",
+  "mentions": [
+    {
+      "name": "grith",
+      "description": "grith is a security proxy for AI coding agents, enforced at the OS syscall level. It wraps any CLI agent (e.g., Claude Code, Codex, Aider) with `grith exec -- <agent>` so every syscall passes through a multi-filter scoring engine before execution. Permission decisions are deterministic with no LLM reasoning in the permission path, adding ~15ms overhead. Runs on Linux, with macOS/Windows planned; licensed AGPL as open-core.",
+      "problem": "AI coding agents execute file reads, shell commands, and network requests with the user's full system privileges, so prompt injection (e.g., a malicious README directing the agent to exfiltrate ~/.ssh/id_rsa) goes unchecked, and agent auto mode corrupts the permission layer by asking the model to audit its own actions. Supply-chain attacks like the backdoored axios npm package exploit agents running npm install autonomously without human review. grith is built to defend against this threat model.",
+      "audience": null,
+      "builder_usernames": [
+        "edf13"
+      ],
+      "source_excerpt": "Building grith (grith.ai) - a security proxy for AI coding agents enforced at the OS syscall level.",
+      "evidence": [
+        {
+          "source_item_id": 47748290,
+          "source_field": "body",
+          "value": "Building grith (grith.ai) - a security proxy for AI coding agents enforced at the OS syscall level.",
+          "supports": [],
+          "author": "edf13",
+          "shared_at": 1776061249,
+          "source_url": "https://news.ycombinator.com/item?id=47748290"
+        }
+      ],
+      "source_item_id": 47748290,
+      "source_url": "https://news.ycombinator.com/item?id=47748290",
+      "author": "edf13",
+      "shared_at": 1776061249,
+      "links": [
+        "https://grith.ai"
+      ]
+    },
+    {
+      "name": "grith",
+      "description": "grith provides OS-level syscall interception for AI coding agents. It wraps any CLI agent (Cline, Aider, Codex, Claude Code) without modification, capturing every file open, network call, and process spawn, then evaluates each call through 17 independent security filters in parallel across three phases (~15ms total). A composite score routes each call to auto-allow, auto-deny, or async review, eliminating approval fatigue, and it also provides per-session cost tracking and audit trails as a side effect of intercepting everything.",
+      "problem": "AI coding agents have unrestricted access to the filesystem, shell, and network, making them prompt injection vectors with full machine access when processing untrusted content, and no existing tool evaluates what the agent actually does at the syscall level.",
+      "audience": null,
+      "builder_usernames": [
+        "edf13"
+      ],
+      "source_excerpt": "Building grith — OS-level syscall interception for AI coding agents.",
+      "evidence": [
+        {
+          "source_item_id": 47305991,
+          "source_field": "body",
+          "value": "Building grith — OS-level syscall interception for AI coding agents.",
+          "supports": [],
+          "author": "edf13",
+          "shared_at": 1773042840,
+          "source_url": "https://news.ycombinator.com/item?id=47305991"
+        }
+      ],
+      "source_item_id": 47305991,
+      "source_url": "https://news.ycombinator.com/item?id=47305991",
+      "author": "edf13",
+      "shared_at": 1773042840,
+      "links": [
+        "https://grith.ai"
+      ]
+    }
+  ]
+}

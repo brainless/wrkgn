@@ -1,0 +1,35 @@
+{
+  "id": 3552,
+  "slug": "paperdive-3e764e7614",
+  "name": "Paperdive",
+  "mentions": [
+    {
+      "name": "Paperdive",
+      "description": "This app runs a semi-automated pipeline built with Python and Claude that generates a podcast doing deep dives into AI research papers. It fetches papers, scores them on novelty, importance, and relevancy, writes the podcast script, generates audio with Eleven Labs voices, and publishes to an RSS feed compatible with Apple Podcasts. It releases 4-5 episodes a day, with staged episodes reviewed before promotion to the production feed, and also produces weekly and monthly research reviews.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "thatsgcasey"
+      ],
+      "source_excerpt": "In April I started playing round with generating a semi-automated pipeline with python and Claude to generate a private podcast that does a deep dive into AI research papers.  I think it is really cool.  It fetches papers, scores them based on novelty, importance, relevancy, etc., and then writes the podcast script.  It then generates the show by using Eleven Labs voices and then puts it in an RSS feed that Apple Podcasts is ok with.",
+      "evidence": [
+        {
+          "source_item_id": 48534483,
+          "source_field": "body",
+          "value": "In April I started playing round with generating a semi-automated pipeline with python and Claude to generate a private podcast that does a deep dive into AI research papers.  I think it is really cool.  It fetches papers, scores them based on novelty, importance, relevancy, etc., and then writes the podcast script.  It then generates the show by using Eleven Labs voices and then puts it in an RSS feed that Apple Podcasts is ok with.",
+          "supports": [],
+          "author": "thatsgcasey",
+          "shared_at": 1781481286,
+          "source_url": "https://news.ycombinator.com/item?id=48534483"
+        }
+      ],
+      "source_item_id": 48534483,
+      "source_url": "https://news.ycombinator.com/item?id=48534483",
+      "author": "thatsgcasey",
+      "shared_at": 1781481286,
+      "links": [
+        "https://paperdive.ai/"
+      ]
+    }
+  ]
+}

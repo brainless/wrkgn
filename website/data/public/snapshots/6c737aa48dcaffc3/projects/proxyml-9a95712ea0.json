@@ -1,0 +1,37 @@
+{
+  "id": 4472,
+  "slug": "proxyml-9a95712ea0",
+  "name": "ProxyML",
+  "mentions": [
+    {
+      "name": "ProxyML",
+      "description": "ProxyML explains ML predictions without direct access to the underlying data or model. Users provide basic statistics about their data, which are used to generate synthetic data; a surrogate model is then trained to predict the target model's predictions on that synthetic data. Aimed at model risk management and governance, such as creating challenger models for SR 11-7 compliance without the hassle of obtaining the original data or setting up the black-box model. It is available as a Python SDK, a schema builder, and a hosted service.",
+      "problem": "Model risk management and governance (e.g., SR 11-7 challenger models) normally requires gaining access to the original data and setting up the black-box model; the author previously had to build throwaway models just to justify needing a better one.",
+      "audience": null,
+      "builder_usernames": [
+        "LurkerAbove"
+      ],
+      "source_excerpt": "I had an idea about explaining ML predictions without direct access to the data or the model:  provide basic stats about your data, use them to generate synthetic data, then train a surrogate to predict your model's predictions on the synthetic data.\n\nCould be handy for model risk management and governance, e.g. if you need a challenger model for SR 11-7 without all the hassle of getting access to the original data, getting the black box model set up, and so on.",
+      "evidence": [
+        {
+          "source_item_id": 48094207,
+          "source_field": "body",
+          "value": "I had an idea about explaining ML predictions without direct access to the data or the model:  provide basic stats about your data, use them to generate synthetic data, then train a surrogate to predict your model's predictions on the synthetic data.\n\nCould be handy for model risk management and governance, e.g. if you need a challenger model for SR 11-7 without all the hassle of getting access to the original data, getting the black box model set up, and so on.",
+          "supports": [],
+          "author": "LurkerAbove",
+          "shared_at": 1778503123,
+          "source_url": "https://news.ycombinator.com/item?id=48094207"
+        }
+      ],
+      "source_item_id": 48094207,
+      "source_url": "https://news.ycombinator.com/item?id=48094207",
+      "author": "LurkerAbove",
+      "shared_at": 1778503123,
+      "links": [
+        "https://github.com/proxyml/proxyml-sdk-python",
+        "https://github.com/proxyml/schema-builder",
+        "https://proxyml.ai/"
+      ]
+    }
+  ]
+}

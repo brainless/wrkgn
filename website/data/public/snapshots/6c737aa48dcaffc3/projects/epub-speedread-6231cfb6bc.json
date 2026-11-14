@@ -1,0 +1,35 @@
+{
+  "id": 6244,
+  "slug": "epub-speedread-6231cfb6bc",
+  "name": "epub_speedread",
+  "mentions": [
+    {
+      "name": "epub_speedread",
+      "description": "An epub reader built as a speed-reading app first and foremost, presenting text one word at a time using RSVP (rapid serial visual presentation). It answers questions about the book with an LLM without revealing spoilers and can create illustrations to supplement the reading experience.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "achatham"
+      ],
+      "source_excerpt": "Making my own epub reader with the kitchen sink of features I'd like. It's a speed-reading app first and foremost, using RSVP (rapid serial visual presentation, one word at a time). Also answers questions about the book with an LLM without spoilers, and can create illustrations.",
+      "evidence": [
+        {
+          "source_item_id": 47303818,
+          "source_field": "body",
+          "value": "Making my own epub reader with the kitchen sink of features I'd like. It's a speed-reading app first and foremost, using RSVP (rapid serial visual presentation, one word at a time). Also answers questions about the book with an LLM without spoilers, and can create illustrations.",
+          "supports": [],
+          "author": "achatham",
+          "shared_at": 1773020249,
+          "source_url": "https://news.ycombinator.com/item?id=47303818"
+        }
+      ],
+      "source_item_id": 47303818,
+      "source_url": "https://news.ycombinator.com/item?id=47303818",
+      "author": "achatham",
+      "shared_at": 1773020249,
+      "links": [
+        "https://github.com/achatham/epub_speedread"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 7883,
+  "slug": "hold-for-me-fd3c52ba15",
+  "name": "Hold for Me",
+  "mentions": [
+    {
+      "name": "Hold for Me",
+      "description": "This tool uses an LLM to detect when somebody picks up your call, built around ADB, so users don't have to manually watch for the moment a call is answered.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "predkambrij"
+      ],
+      "source_excerpt": "\"Hold for Me\": uses LLM to detect when somebody picks up your call",
+      "evidence": [
+        {
+          "source_item_id": 46581488,
+          "source_field": "body",
+          "value": "\"Hold for Me\": uses LLM to detect when somebody picks up your call",
+          "supports": [],
+          "author": "predkambrij",
+          "shared_at": 1768173133,
+          "source_url": "https://news.ycombinator.com/item?id=46581488"
+        }
+      ],
+      "source_item_id": 46581488,
+      "source_url": "https://news.ycombinator.com/item?id=46581488",
+      "author": "predkambrij",
+      "shared_at": 1768173133,
+      "links": [
+        "https://github.com/predkambrij/Hold-for-Me-using-ADB"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 9555,
+  "slug": "qcready-26b0bdf9a4",
+  "name": "QCReady",
+  "mentions": [
+    {
+      "name": "QCReady",
+      "description": "A free, no-sign-up web tool that measures a domain's Post-Quantum Cryptography readiness. It uses Certificate Transparency to discover all TLS endpoints in a domain, checks PQC usage among all the domain's TLS servers, and reports how far the domain is from PQC readiness (the percentage of TLS servers serving PQ cryptography).",
+      "problem": "Organizations lack visibility into whether the TLS servers across their domains support post-quantum cryptography",
+      "audience": "Domain owners and operators who want to assess their servers' Post-Quantum Cryptography readiness",
+      "builder_usernames": [
+        "weddpros"
+      ],
+      "source_excerpt": "Last week I launched https://qcready.com which measures your Post-Quantum Cryptography readiness.\n\n- no sign up, free\n\n- checks PQC usage among all the servers in a domain\n\n- uses Certificate Transparency to find all your TLS endpoints\n\n- tells you how far you are from PQC readiness",
+      "evidence": [
+        {
+          "source_item_id": 45874516,
+          "source_field": "body",
+          "value": "Last week I launched https://qcready.com which measures your Post-Quantum Cryptography readiness.\n\n- no sign up, free\n\n- checks PQC usage among all the servers in a domain\n\n- uses Certificate Transparency to find all your TLS endpoints\n\n- tells you how far you are from PQC readiness",
+          "supports": [],
+          "author": "weddpros",
+          "shared_at": 1762770471,
+          "source_url": "https://news.ycombinator.com/item?id=45874516"
+        }
+      ],
+      "source_item_id": 45874516,
+      "source_url": "https://news.ycombinator.com/item?id=45874516",
+      "author": "weddpros",
+      "shared_at": 1762770471,
+      "links": [
+        "https://qcready.com"
+      ]
+    }
+  ]
+}

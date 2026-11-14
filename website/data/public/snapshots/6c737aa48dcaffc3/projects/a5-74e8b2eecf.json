@@ -1,0 +1,64 @@
+{
+  "id": 6055,
+  "slug": "a5-74e8b2eecf",
+  "name": "A5",
+  "mentions": [
+    {
+      "name": "A5",
+      "description": "A5 is a pentagonal geospatial index with semantics familiar to H3 users, whose cells have exactly the same area globally. It ships implementations in TypeScript, Python, and Rust, and has a growing ecosystem of community ports and integrations, including DuckDB and QGIS.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "pheelicks"
+      ],
+      "source_excerpt": "A5 - a pentagonal geospatial index: https://a5geo.org\n\nIf you’ve used H3 the semantics should be familiar. The biggest differentiator is the fact that cells have exactly the same area globally, for why this matters see: https://a5geo.org/docs/recipes/a5-vs-h3",
+      "evidence": [
+        {
+          "source_item_id": 47307902,
+          "source_field": "body",
+          "value": "A5 - a pentagonal geospatial index: https://a5geo.org\n\nIf you’ve used H3 the semantics should be familiar. The biggest differentiator is the fact that cells have exactly the same area globally, for why this matters see: https://a5geo.org/docs/recipes/a5-vs-h3",
+          "supports": [],
+          "author": "pheelicks",
+          "shared_at": 1773057433,
+          "source_url": "https://news.ycombinator.com/item?id=47307902"
+        }
+      ],
+      "source_item_id": 47307902,
+      "source_url": "https://news.ycombinator.com/item?id=47307902",
+      "author": "pheelicks",
+      "shared_at": 1773057433,
+      "links": [
+        "https://a5geo.org"
+      ]
+    },
+    {
+      "name": "A5",
+      "description": "An open-source pentagonal geospatial indexing system. Familiar to users of H3 or S2, but built on pentagons with practically uniform cell areas, whereas alternative systems have a variance of around 2 between their largest and smallest cells, making them less useful for aggregation. The project website includes visual demos.",
+      "problem": "Alternative geospatial indexing systems such as H3 and S2 have a variance of around 2 between their largest and smallest cell areas, making them less useful for aggregation.",
+      "audience": null,
+      "builder_usernames": [
+        "pheelicks"
+      ],
+      "source_excerpt": "A pentagonal geospatial indexing system: https://a5geo.org/\n\nIf you’ve used H3 or S2 it should be familiar, the major difference (apart from the fact it uses pentagons) is that the cell areas are practically uniform, whereas alternative systems have a variance of around 2 between the largest and smallest cells, making them less useful for aggregation. The site has many visual demos, e.g. https://a5geo.org/examples/area\n\nThe code is open source: https://github.com/felixpalmer/a5",
+      "evidence": [
+        {
+          "source_item_id": 43819142,
+          "source_field": "body",
+          "value": "A pentagonal geospatial indexing system: https://a5geo.org/\n\nIf you’ve used H3 or S2 it should be familiar, the major difference (apart from the fact it uses pentagons) is that the cell areas are practically uniform, whereas alternative systems have a variance of around 2 between the largest and smallest cells, making them less useful for aggregation. The site has many visual demos, e.g. https://a5geo.org/examples/area\n\nThe code is open source: https://github.com/felixpalmer/a5",
+          "supports": [],
+          "author": "pheelicks",
+          "shared_at": 1745831203,
+          "source_url": "https://news.ycombinator.com/item?id=43819142"
+        }
+      ],
+      "source_item_id": 43819142,
+      "source_url": "https://news.ycombinator.com/item?id=43819142",
+      "author": "pheelicks",
+      "shared_at": 1745831203,
+      "links": [
+        "https://a5geo.org/",
+        "https://github.com/felixpalmer/a5"
+      ]
+    }
+  ]
+}

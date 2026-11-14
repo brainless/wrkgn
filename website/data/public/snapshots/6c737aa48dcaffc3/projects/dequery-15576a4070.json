@@ -1,0 +1,35 @@
+{
+  "id": 10768,
+  "slug": "dequery-15576a4070",
+  "name": "Dequery",
+  "mentions": [
+    {
+      "name": "Dequery",
+      "description": "A SQL debugger that runs and visualizes queries step-by-step, exposing every clause, condition, and expression including GROUP BY, aggregates/window functions, DISTINCT (ON), subqueries (even correlated ones), and CTEs. It lets users search for full or partial rows and view the complete query lineage, showing which intermediate rows from which CTEs/subqueries contributed to a result. It runs entirely offline with no AI usage, and is offered as a free in-browser version (using PGLite WASM) plus a paid desktop version.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "xarici_ishler"
+      ],
+      "source_excerpt": "The first ever SQL debugger – runs & visualizes your query step-by-step, every clause, condition, expression, incl. GROUP BY, aggregates / windows, DISTINCT (ON), subqueries (even correlated ones!), CTEs, you name it.",
+      "evidence": [
+        {
+          "source_item_id": 43815778,
+          "source_field": "body",
+          "value": "The first ever SQL debugger – runs & visualizes your query step-by-step, every clause, condition, expression, incl. GROUP BY, aggregates / windows, DISTINCT (ON), subqueries (even correlated ones!), CTEs, you name it.",
+          "supports": [],
+          "author": "xarici_ishler",
+          "shared_at": 1745794091,
+          "source_url": "https://news.ycombinator.com/item?id=43815778"
+        }
+      ],
+      "source_item_id": 43815778,
+      "source_url": "https://news.ycombinator.com/item?id=43815778",
+      "author": "xarici_ishler",
+      "shared_at": 1745794091,
+      "links": [
+        "https://www.loom.com/share/c03b57fa61fc4c509b1e2134e53b70dd"
+      ]
+    }
+  ]
+}

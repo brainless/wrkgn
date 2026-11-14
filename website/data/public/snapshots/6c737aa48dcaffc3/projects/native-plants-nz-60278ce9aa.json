@@ -1,0 +1,35 @@
+{
+  "id": 11131,
+  "slug": "native-plants-nz-60278ce9aa",
+  "name": "Native Plants NZ",
+  "mentions": [
+    {
+      "name": "Native Plants NZ",
+      "description": "A website about New Zealand native plants that was automatically generated as a test of putting guardrails around a site's format and content. Test guardrails were added after AI generation initially produced hallucinated content and made-up links, minimizing those issues.",
+      "problem": "AI-generated website content initially suffered from too much content hallucination and made-up links, addressed by writing test guardrails.",
+      "audience": null,
+      "builder_usernames": [
+        "beatthatflight"
+      ],
+      "source_excerpt": "https://www.nativeplants.nz/\n\nBasically a test of putting guard rails around format and content of a website and seeing how much I could automatically generate on a topic of interest to myself.",
+      "evidence": [
+        {
+          "source_item_id": 43827803,
+          "source_field": "body",
+          "value": "https://www.nativeplants.nz/\n\nBasically a test of putting guard rails around format and content of a website and seeing how much I could automatically generate on a topic of interest to myself.",
+          "supports": [],
+          "author": "beatthatflight",
+          "shared_at": 1745889128,
+          "source_url": "https://news.ycombinator.com/item?id=43827803"
+        }
+      ],
+      "source_item_id": 43827803,
+      "source_url": "https://news.ycombinator.com/item?id=43827803",
+      "author": "beatthatflight",
+      "shared_at": 1745889128,
+      "links": [
+        "https://www.nativeplants.nz/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 10520,
+  "slug": "real-time-transit-vehicle-visualization-d3a589bbe2",
+  "name": "Real-time transit vehicle visualization",
+  "mentions": [
+    {
+      "name": "Real-time transit vehicle visualization",
+      "description": "A visualization of all public transit vehicles moving in real time across the Bay Area and New York, built from the same processed GTFS data used by the author's transit app. Geocoding via OpenStreetMap is being added so users can search for destinations for routing.",
+      "problem": "Processing all the GTFS data was initially a large hurdle, but it became feasible once the data was already processed for the transit app.",
+      "audience": null,
+      "builder_usernames": [
+        "edfungus"
+      ],
+      "source_excerpt": "recently decided to use the same data to create a visualization of all the transit vehicles moving in real time",
+      "evidence": [
+        {
+          "source_item_id": 44708361,
+          "source_field": "body",
+          "value": "recently decided to use the same data to create a visualization of all the transit vehicles moving in real time",
+          "supports": [],
+          "author": "edfungus",
+          "shared_at": 1753689199,
+          "source_url": "https://news.ycombinator.com/item?id=44708361"
+        }
+      ],
+      "source_item_id": 44708361,
+      "source_url": "https://news.ycombinator.com/item?id=44708361",
+      "author": "edfungus",
+      "shared_at": 1753689199,
+      "links": [
+        "https://realtime.abetterride.app"
+      ]
+    }
+  ]
+}

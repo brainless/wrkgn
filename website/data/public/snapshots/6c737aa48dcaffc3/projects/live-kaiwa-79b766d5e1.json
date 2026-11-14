@@ -1,0 +1,63 @@
+{
+  "id": 5299,
+  "slug": "live-kaiwa-79b766d5e1",
+  "name": "Live Kaiwa",
+  "mentions": [
+    {
+      "name": "Live Kaiwa",
+      "description": "A real-time Japanese conversation assistant that listens, transcribes, translates, and suggests responses so users can follow along in conversations they would otherwise get lost in.",
+      "problem": "Missing nuance in real-life situations in Japan where understanding actually matters, such as PTA meetings, bank appointments, and neighborhood councils.",
+      "audience": "People living in Japan who need help following important Japanese conversations, such as PTA meetings, bank appointments, and neighborhood councils.",
+      "builder_usernames": [
+        "diasks2"
+      ],
+      "source_excerpt": "Live Kaiwa (https://livekaiwa.com/) — A real-time Japanese conversation assistant. It listens, transcribes, translates, and suggests responses so you can follow along in conversations you'd otherwise get lost in. I built it because I live in Japan and needed something for the situations where missing a nuance actually matters — PTA meetings, bank appointments, neighborhood councils.",
+      "evidence": [
+        {
+          "source_item_id": 47745052,
+          "source_field": "body",
+          "value": "Live Kaiwa (https://livekaiwa.com/) — A real-time Japanese conversation assistant. It listens, transcribes, translates, and suggests responses so you can follow along in conversations you'd otherwise get lost in. I built it because I live in Japan and needed something for the situations where missing a nuance actually matters — PTA meetings, bank appointments, neighborhood councils.",
+          "supports": [],
+          "author": "diasks2",
+          "shared_at": 1776031456,
+          "source_url": "https://news.ycombinator.com/item?id=47745052"
+        }
+      ],
+      "source_item_id": 47745052,
+      "source_url": "https://news.ycombinator.com/item?id=47745052",
+      "author": "diasks2",
+      "shared_at": 1776031456,
+      "links": [
+        "https://livekaiwa.com/"
+      ]
+    },
+    {
+      "name": "Live Kaiwa",
+      "description": "Real-time Japanese conversation support tool that transcribes Japanese speech live and provides English translations, summary bullets, and suggested responses during ongoing conversations. Browser microphone audio streams via WebRTC to a server running Kotoba Whisper with multi-pass transcription (a quick first pass followed by higher-accuracy re-transcription that replaces earlier text), and each transcript batch is sent to an LLM whose output is streamed back to the UI live. Session data stays entirely in the browser with nothing stored server-side.",
+      "problem": "Fast speech, local dialect, and references to people and events from decades ago made neighborhood meetings in rural Japan nearly impossible to follow, despite day-to-day Japanese being fine.",
+      "audience": "The author, for following local neighborhood meetings in rural Japan",
+      "builder_usernames": [
+        "diasks2"
+      ],
+      "source_excerpt": "Live Kaiwa — real-time Japanese conversation support",
+      "evidence": [
+        {
+          "source_item_id": 47304556,
+          "source_field": "body",
+          "value": "Live Kaiwa — real-time Japanese conversation support",
+          "supports": [],
+          "author": "diasks2",
+          "shared_at": 1773026806,
+          "source_url": "https://news.ycombinator.com/item?id=47304556"
+        }
+      ],
+      "source_item_id": 47304556,
+      "source_url": "https://news.ycombinator.com/item?id=47304556",
+      "author": "diasks2",
+      "shared_at": 1773026806,
+      "links": [
+        "https://livekaiwa.com"
+      ]
+    }
+  ]
+}

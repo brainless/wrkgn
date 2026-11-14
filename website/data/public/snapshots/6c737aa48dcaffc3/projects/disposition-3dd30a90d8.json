@@ -1,0 +1,120 @@
+{
+  "id": 2987,
+  "slug": "disposition-3dd30a90d8",
+  "name": "disposition",
+  "mentions": [
+    {
+      "name": "disposition",
+      "description": "A Graphviz dot substitute written in pure Rust that renders graphs with predictable, stable layout, edge routing that avoids overlapping labels, dark and light mode styling via Tailwind CSS, interactivity implemented in pure CSS, and markdown support for descriptions.",
+      "problem": "The original Graphviz dot lacks predictable/stable layout, dark and light mode CSS, pure-CSS interactivity, and markdown descriptions.",
+      "audience": null,
+      "builder_usernames": [
+        "azriel91"
+      ],
+      "source_excerpt": "A graphviz dot substitute in pure rust:\n\nhttps://azriel.im/disposition/",
+      "evidence": [
+        {
+          "source_item_id": 48886932,
+          "source_field": "body",
+          "value": "A graphviz dot substitute in pure rust:\n\nhttps://azriel.im/disposition/",
+          "supports": [],
+          "author": "azriel91",
+          "shared_at": 1783907660,
+          "source_url": "https://news.ycombinator.com/item?id=48886932"
+        }
+      ],
+      "source_item_id": 48886932,
+      "source_url": "https://news.ycombinator.com/item?id=48886932",
+      "author": "azriel91",
+      "shared_at": 1783907660,
+      "links": [
+        "https://azriel.im/disposition/"
+      ]
+    },
+    {
+      "name": "Disposition",
+      "description": "A diagram generator similar to graphviz that supports markdown, used to visualise what infrastructure exists, will exist, will be deleted, or is in progress while automation is running.",
+      "problem": "No good way to visualise what infrastructure exists, will exist, will be deleted, or is in progress when automation is running.",
+      "audience": null,
+      "builder_usernames": [
+        "azriel91"
+      ],
+      "source_excerpt": "- side-side: https://azriel.im/disposition - a diagram generator like graphviz, but supports markdown, to visualise what infrastructure exists / will exist / will be deleted / is in progress when automation is running",
+      "evidence": [
+        {
+          "source_item_id": 48531563,
+          "source_field": "body",
+          "value": "- side-side: https://azriel.im/disposition - a diagram generator like graphviz, but supports markdown, to visualise what infrastructure exists / will exist / will be deleted / is in progress when automation is running",
+          "supports": [],
+          "author": "azriel91",
+          "shared_at": 1781465011,
+          "source_url": "https://news.ycombinator.com/item?id=48531563"
+        }
+      ],
+      "source_item_id": 48531563,
+      "source_url": "https://news.ycombinator.com/item?id=48531563",
+      "author": "azriel91",
+      "shared_at": 1781465011,
+      "links": [
+        "https://azriel.im/disposition"
+      ]
+    },
+    {
+      "name": "disposition",
+      "description": "A GraphViz replacement for generating graph diagrams, written in Rust. It supports stable node positions and styling, including default styles and dark mode styles. Planned features include edge labels, images in nodes, generating diagrams for different screen sizes, and possibly LSP support.",
+      "problem": "The hardest part is calculating coordinates for edges: ranking/positioning nodes when edges connect nodes of different nesting levels, and ensuring edges don't overlap with nodes or with each other.",
+      "audience": null,
+      "builder_usernames": [
+        "azriel91"
+      ],
+      "source_excerpt": "Working on a GraphViz replacement (again):\n\nSite: https://azriel.im/disposition\n\nRepo: https://github.com/azriel91/disposition\n\nIt's written in Rust, has stable node positions, is stylable (and has default styling, dark mode styles), among other things.",
+      "evidence": [
+        {
+          "source_item_id": 48090921,
+          "source_field": "body",
+          "value": "Working on a GraphViz replacement (again):\n\nSite: https://azriel.im/disposition\n\nRepo: https://github.com/azriel91/disposition\n\nIt's written in Rust, has stable node positions, is stylable (and has default styling, dark mode styles), among other things.",
+          "supports": [],
+          "author": "azriel91",
+          "shared_at": 1778471680,
+          "source_url": "https://news.ycombinator.com/item?id=48090921"
+        }
+      ],
+      "source_item_id": 48090921,
+      "source_url": "https://news.ycombinator.com/item?id=48090921",
+      "author": "azriel91",
+      "shared_at": 1778471680,
+      "links": [
+        "https://azriel.im/disposition",
+        "https://github.com/azriel91/disposition"
+      ]
+    },
+    {
+      "name": "Disposition",
+      "description": "An SVG diagram generator written in pure Rust that substitutes for GraphViz, supporting default and customisable styling, light and dark mode, and stable/predictable layout.",
+      "problem": "Solves problems that were hard to work around with GraphViz, such as default and customisable styling, light and dark mode, and stable/predictable layout.",
+      "audience": null,
+      "builder_usernames": [
+        "azriel91"
+      ],
+      "source_excerpt": "An SVG diagram generator to substitute GraphViz in pure Rust:\n\nhttps://azriel.im/disposition",
+      "evidence": [
+        {
+          "source_item_id": 47755888,
+          "source_field": "body",
+          "value": "An SVG diagram generator to substitute GraphViz in pure Rust:\n\nhttps://azriel.im/disposition",
+          "supports": [],
+          "author": "azriel91",
+          "shared_at": 1776104144,
+          "source_url": "https://news.ycombinator.com/item?id=47755888"
+        }
+      ],
+      "source_item_id": 47755888,
+      "source_url": "https://news.ycombinator.com/item?id=47755888",
+      "author": "azriel91",
+      "shared_at": 1776104144,
+      "links": [
+        "https://azriel.im/disposition"
+      ]
+    }
+  ]
+}

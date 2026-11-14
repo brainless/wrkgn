@@ -1,0 +1,33 @@
+{
+  "id": 11215,
+  "slug": "distributed-object-storage-system-7b4f7bcf82",
+  "name": "Distributed object storage system",
+  "mentions": [
+    {
+      "name": "Distributed object storage system",
+      "description": "A self-built distributed object storage system designed to serve as the backing store behind a personal website, replacing the currently used Backblaze B2 service.",
+      "problem": null,
+      "audience": "The author's own website",
+      "builder_usernames": [
+        "zzlk"
+      ],
+      "source_excerpt": "I'm working on a distributed object storage system to be the backing store behind my website (https://scmscx.com). It currently uses back blaze b2 which is good and cheap but I thought it would be fun to roll my own.",
+      "evidence": [
+        {
+          "source_item_id": 43816113,
+          "source_field": "body",
+          "value": "I'm working on a distributed object storage system to be the backing store behind my website (https://scmscx.com). It currently uses back blaze b2 which is good and cheap but I thought it would be fun to roll my own.",
+          "supports": [],
+          "author": "zzlk",
+          "shared_at": 1745797404,
+          "source_url": "https://news.ycombinator.com/item?id=43816113"
+        }
+      ],
+      "source_item_id": 43816113,
+      "source_url": "https://news.ycombinator.com/item?id=43816113",
+      "author": "zzlk",
+      "shared_at": 1745797404,
+      "links": []
+    }
+  ]
+}

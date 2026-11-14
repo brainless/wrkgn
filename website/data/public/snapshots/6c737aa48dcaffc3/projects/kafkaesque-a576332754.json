@@ -1,0 +1,35 @@
+{
+  "id": 4868,
+  "slug": "kafkaesque-a576332754",
+  "name": "Kafkaesque",
+  "mentions": [
+    {
+      "name": "Kafkaesque",
+      "description": "A wire-protocol compatible Kafka mocking service. It stands in for real Kafka so developers can exercise code in tests without running embedded or dockerised Kafka instances.",
+      "problem": "Testing against Kafka typically requires running embedded or dockerised Kafka, which the tool replaces with a lightweight mock.",
+      "audience": "Developers who currently use embedded or dockerised Kafka in their tests.",
+      "builder_usernames": [
+        "dcminter"
+      ],
+      "source_excerpt": "Kafkaesque, a wire-protocol compatible Kafka mocking service.\n\nhttps://github.com/dcminter/kafkaesque\n\nWorth kicking the wheels if you're currently using embedded or dockerised Kafka in your tests.",
+      "evidence": [
+        {
+          "source_item_id": 48087404,
+          "source_field": "body",
+          "value": "Kafkaesque, a wire-protocol compatible Kafka mocking service.\n\nhttps://github.com/dcminter/kafkaesque\n\nWorth kicking the wheels if you're currently using embedded or dockerised Kafka in your tests.",
+          "supports": [],
+          "author": "dcminter",
+          "shared_at": 1778443729,
+          "source_url": "https://news.ycombinator.com/item?id=48087404"
+        }
+      ],
+      "source_item_id": 48087404,
+      "source_url": "https://news.ycombinator.com/item?id=48087404",
+      "author": "dcminter",
+      "shared_at": 1778443729,
+      "links": [
+        "https://github.com/dcminter/kafkaesque"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 8540,
+  "slug": "openmakersuite-f524f074b6",
+  "name": "openmakersuite",
+  "mentions": [
+    {
+      "name": "openmakersuite",
+      "description": "Open-source ERP system for makerspaces and community shared systems. It began as a kanban-style tool where members could request re-orders of supplies like cleaning products, and has evolved into asset tagging and asset maintenance, with ESP32-based device control in development to enable/disable devices via QR codes.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "imroot"
+      ],
+      "source_excerpt": "Open Source ERP system for Makerspaces and Community shared system.\n\nStarted out as a kanban style of system where anyone could request that we re-order cleaning supplies at a Makerspace.  Has evolved to tagging assets and maintaining those assets and I'm working on adding ESP32 based device control to enable/disable devices through those QR codes.\n\nhttps://github.com/uid0/openmakersuite",
+      "evidence": [
+        {
+          "source_item_id": 46269088,
+          "source_field": "body",
+          "value": "Open Source ERP system for Makerspaces and Community shared system.\n\nStarted out as a kanban style of system where anyone could request that we re-order cleaning supplies at a Makerspace.  Has evolved to tagging assets and maintaining those assets and I'm working on adding ESP32 based device control to enable/disable devices through those QR codes.\n\nhttps://github.com/uid0/openmakersuite",
+          "supports": [],
+          "author": "imroot",
+          "shared_at": 1765760834,
+          "source_url": "https://news.ycombinator.com/item?id=46269088"
+        }
+      ],
+      "source_item_id": 46269088,
+      "source_url": "https://news.ycombinator.com/item?id=46269088",
+      "author": "imroot",
+      "shared_at": 1765760834,
+      "links": [
+        "https://github.com/uid0/openmakersuite"
+      ]
+    }
+  ]
+}

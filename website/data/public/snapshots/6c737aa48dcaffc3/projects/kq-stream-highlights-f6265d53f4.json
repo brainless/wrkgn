@@ -1,0 +1,35 @@
+{
+  "id": 7707,
+  "slug": "kq-stream-highlights-f6265d53f4",
+  "name": "KQ Stream Highlights",
+  "mentions": [
+    {
+      "name": "KQ Stream Highlights",
+      "description": "A highlight-generation tool for the 5v5 arcade game Killer Queen Arcade that builds on a live win probability model fed by the game's events API. It generates post-game instant replays showing the most pivotal moments from the most recently finished game (for arcade observer displays or as filler between matches on Twitch streams) and personalized per-tournament/yearly highlights recaps, with the potential to generalize to summarizing long Twitch streams for YouTube.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "robrenaud"
+      ],
+      "source_excerpt": "Now I am trying to use that model to make:\n\n1.  A post game instant replay that shows the most important/pivotal moments from the most recently finished game.  Some arcades have a seperate display for observers, it could work well there, or as good filler between matches on twitch streams.\n\n2.  A personalized per tournament/yearly highlights recap.",
+      "evidence": [
+        {
+          "source_item_id": 46581736,
+          "source_field": "body",
+          "value": "Now I am trying to use that model to make:\n\n1.  A post game instant replay that shows the most important/pivotal moments from the most recently finished game.  Some arcades have a seperate display for observers, it could work well there, or as good filler between matches on twitch streams.\n\n2.  A personalized per tournament/yearly highlights recap.",
+          "supports": [],
+          "author": "robrenaud",
+          "shared_at": 1768174673,
+          "source_url": "https://news.ycombinator.com/item?id=46581736"
+        }
+      ],
+      "source_item_id": 46581736,
+      "source_url": "https://news.ycombinator.com/item?id=46581736",
+      "author": "robrenaud",
+      "shared_at": 1768174673,
+      "links": [
+        "https://github.com/rrenaud/kq_stream_highlights"
+      ]
+    }
+  ]
+}

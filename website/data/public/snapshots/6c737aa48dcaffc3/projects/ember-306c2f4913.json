@@ -1,0 +1,36 @@
+{
+  "id": 6313,
+  "slug": "ember-306c2f4913",
+  "name": "Ember",
+  "mentions": [
+    {
+      "name": "Ember",
+      "description": "A drop-in replacement for Redis written in Rust. Existing Redis client code should work without changes; it outperforms Redis in many areas and adds out-of-the-box features such as protobuf storage, Raft/SWIM, and encryption at rest.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "kacy"
+      ],
+      "source_excerpt": "I’ve been consumed by building https://emberdb.com https://github.com/kacy/ember over the last few months.\n\nIt’s a drop-in replacement for Redis written in Rust. Most if not all of your client code should work without issues. Outperforms in many areas and has more out of the box features like proto storage, raft/swim, and encryption at rest.",
+      "evidence": [
+        {
+          "source_item_id": 47304278,
+          "source_field": "body",
+          "value": "I’ve been consumed by building https://emberdb.com https://github.com/kacy/ember over the last few months.\n\nIt’s a drop-in replacement for Redis written in Rust. Most if not all of your client code should work without issues. Outperforms in many areas and has more out of the box features like proto storage, raft/swim, and encryption at rest.",
+          "supports": [],
+          "author": "kacy",
+          "shared_at": 1773024108,
+          "source_url": "https://news.ycombinator.com/item?id=47304278"
+        }
+      ],
+      "source_item_id": 47304278,
+      "source_url": "https://news.ycombinator.com/item?id=47304278",
+      "author": "kacy",
+      "shared_at": 1773024108,
+      "links": [
+        "https://emberdb.com",
+        "https://github.com/kacy/ember"
+      ]
+    }
+  ]
+}

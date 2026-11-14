@@ -1,0 +1,35 @@
+{
+  "id": 5639,
+  "slug": "operator-a15d584a5e",
+  "name": "Operator",
+  "mentions": [
+    {
+      "name": "Operator",
+      "description": "This tool audits codebases by mapping the whole code and then running N iterations to automatically find code issues, inspired by the Ralph loop and bash scripts.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "threefiftyone96"
+      ],
+      "source_excerpt": "Inspired by Ralph loop and bash scripts, I created my own version of it where I focus on finding code issues and auditing my codebase. It runs N iterations after mapping the whole code.",
+      "evidence": [
+        {
+          "source_item_id": 47744888,
+          "source_field": "body",
+          "value": "Inspired by Ralph loop and bash scripts, I created my own version of it where I focus on finding code issues and auditing my codebase. It runs N iterations after mapping the whole code.",
+          "supports": [],
+          "author": "threefiftyone96",
+          "shared_at": 1776030357,
+          "source_url": "https://news.ycombinator.com/item?id=47744888"
+        }
+      ],
+      "source_item_id": 47744888,
+      "source_url": "https://news.ycombinator.com/item?id=47744888",
+      "author": "threefiftyone96",
+      "shared_at": 1776030357,
+      "links": [
+        "https://github.com/BVCampos/operator"
+      ]
+    }
+  ]
+}

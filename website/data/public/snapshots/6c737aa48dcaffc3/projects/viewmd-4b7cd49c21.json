@@ -1,0 +1,33 @@
+{
+  "id": 10452,
+  "slug": "viewmd-4b7cd49c21",
+  "name": "ViewMD",
+  "mentions": [
+    {
+      "name": "ViewMD",
+      "description": "A simple, read-only Markdown viewer app for the Mac that renders .md files in a neatly formatted view. It skips editing features like split screens found in other markdown apps and instead focuses on clean reading, instantly reloading with the latest version when the file is updated externally (e.g., by an editor like Sublime Text), which is useful for reading .md files output by developer AI agents like Claude Code.",
+      "problem": "Other markdown apps incorporate editing and split screens, but the author just wanted a neatly formatted read-only view for Markdown files.",
+      "audience": "Developers using AI coding agents like Claude Code who need to read .md files such as CLAUDE.md and README.md.",
+      "builder_usernames": [
+        "kdinn"
+      ],
+      "source_excerpt": "A clear, simple Markdown viewer for the Mac: ViewMD\n\nWhen using developer AI agents like Claude Code, often they output, and use, .md files like CLAUDE.md, README.md, etc. You largely want to just read these, and if Claude updates them, read the latest version.",
+      "evidence": [
+        {
+          "source_item_id": 44707174,
+          "source_field": "body",
+          "value": "A clear, simple Markdown viewer for the Mac: ViewMD\n\nWhen using developer AI agents like Claude Code, often they output, and use, .md files like CLAUDE.md, README.md, etc. You largely want to just read these, and if Claude updates them, read the latest version.",
+          "supports": [],
+          "author": "kdinn",
+          "shared_at": 1753676025,
+          "source_url": "https://news.ycombinator.com/item?id=44707174"
+        }
+      ],
+      "source_item_id": 44707174,
+      "source_url": "https://news.ycombinator.com/item?id=44707174",
+      "author": "kdinn",
+      "shared_at": 1753676025,
+      "links": []
+    }
+  ]
+}

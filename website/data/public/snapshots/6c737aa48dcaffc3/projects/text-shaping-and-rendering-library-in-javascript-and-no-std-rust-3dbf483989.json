@@ -1,0 +1,33 @@
+{
+  "id": 5644,
+  "slug": "text-shaping-and-rendering-library-in-javascript-and-no-std-rust-3dbf483989",
+  "name": "Text shaping and rendering library in JavaScript and no_std Rust",
+  "mentions": [
+    {
+      "name": "Text shaping and rendering library in JavaScript and no_std Rust",
+      "description": "A complex text shaping and rendering library implemented in both JavaScript and no_std Rust, supporting ligatures, bidirectional text, Arabic, Indic, CJK, Khmer, and other scripts. It is designed to be super small and memory efficient: the JS version is under 25 KB gzipped and the Rust version targets roughly 130 KB compiled. A demo running on an ESP32 is planned.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jansan"
+      ],
+      "source_excerpt": "A complex text shaping and rendering library in Javascript and no_std Rust that supports Ligatures, Bidi, Arabic, indic, CJK, Khmer, etc and is super small and memory efficient. JS version is <25 KB gripped, Rust version is aimed at approx. 130 KB compiled size. My plan is to show a demo of it running on an esp32 soon.",
+      "evidence": [
+        {
+          "source_item_id": 47745223,
+          "source_field": "body",
+          "value": "A complex text shaping and rendering library in Javascript and no_std Rust that supports Ligatures, Bidi, Arabic, indic, CJK, Khmer, etc and is super small and memory efficient. JS version is <25 KB gripped, Rust version is aimed at approx. 130 KB compiled size. My plan is to show a demo of it running on an esp32 soon.",
+          "supports": [],
+          "author": "jansan",
+          "shared_at": 1776033012,
+          "source_url": "https://news.ycombinator.com/item?id=47745223"
+        }
+      ],
+      "source_item_id": 47745223,
+      "source_url": "https://news.ycombinator.com/item?id=47745223",
+      "author": "jansan",
+      "shared_at": 1776033012,
+      "links": []
+    }
+  ]
+}

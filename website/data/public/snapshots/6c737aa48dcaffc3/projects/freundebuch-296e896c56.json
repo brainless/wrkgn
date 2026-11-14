@@ -1,0 +1,63 @@
+{
+  "id": 1840,
+  "slug": "freundebuch-296e896c56",
+  "name": "Freundebuch",
+  "mentions": [
+    {
+      "name": "Freundebuch",
+      "description": "This is a personal CRM for storing contacts with all their details, mapping out relationships between people, and syncing those details into a phone's address book. It includes an MCP server so it can be plugged into an agent, with the main use case being dictating rough phrases to have the agent create encounters and automatically link the right people to them.",
+      "problem": "The author was unhappy that Monica, which they used for years, had little development activity, and that Chandler (Monica's next-gen version) had taken a journaling-focused direction they didn't like; they needed a tool for contacts, relationship mapping, and phone address book details.",
+      "audience": "A personal-use audience: the author's own contact and relationship management, dictated encounter logging via an agent.",
+      "builder_usernames": [
+        "0XAFFE"
+      ],
+      "source_excerpt": "I'm still working on Freundebuch, a personal CRM.",
+      "evidence": [
+        {
+          "source_item_id": 49241741,
+          "source_field": "body",
+          "value": "I'm still working on Freundebuch, a personal CRM.",
+          "supports": [],
+          "author": "0XAFFE",
+          "shared_at": 1786357042,
+          "source_url": "https://news.ycombinator.com/item?id=49241741"
+        }
+      ],
+      "source_item_id": 49241741,
+      "source_url": "https://news.ycombinator.com/item?id=49241741",
+      "author": "0XAFFE",
+      "shared_at": 1786357042,
+      "links": [
+        "https://github.com/datenknoten/freundebuch/"
+      ]
+    },
+    {
+      "name": "Freundebuch",
+      "description": "This app is a personal CRM that stores contacts with all their details, maps out relationships between people, and syncs those details into the phone's address book via CardDAV. The author is already dogfooding it.",
+      "problem": "Existing tools fell short: Monica was no longer actively developed, its next-gen successor Chandler took a journaling-oriented direction the author disliked, and Monica's CardDAV interface duplicated contacts in the phone's address book.",
+      "audience": "A tool for individuals managing their personal contacts and relationships.",
+      "builder_usernames": [
+        "0XAFFE"
+      ],
+      "source_excerpt": "I'm working on Freundebuch, a personal CRM.",
+      "evidence": [
+        {
+          "source_item_id": 48538895,
+          "source_field": "body",
+          "value": "I'm working on Freundebuch, a personal CRM.",
+          "supports": [],
+          "author": "0XAFFE",
+          "shared_at": 1781516477,
+          "source_url": "https://news.ycombinator.com/item?id=48538895"
+        }
+      ],
+      "source_item_id": 48538895,
+      "source_url": "https://news.ycombinator.com/item?id=48538895",
+      "author": "0XAFFE",
+      "shared_at": 1781516477,
+      "links": [
+        "https://github.com/datenknoten/freundebuch/"
+      ]
+    }
+  ]
+}

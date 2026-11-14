@@ -1,0 +1,36 @@
+{
+  "id": 5597,
+  "slug": "inkfeed-8715555e43",
+  "name": "Inkfeed",
+  "mentions": [
+    {
+      "name": "Inkfeed",
+      "description": "A free and open-source web-based RSS reader for the Kindle that works in the Kindle browser, so articles can be read directly without sending them via Amazon or Calibre.",
+      "problem": "Reading RSS articles on a Kindle normally requires sending articles via Amazon or Calibre.",
+      "audience": null,
+      "builder_usernames": [
+        "adhamsalama"
+      ],
+      "source_excerpt": "I'm working on a FOSS Web-based RSS reader for the Kindle that works on the Kindle browser, no need to send articles via Amazon or Calibre!\n\nIt's called Inkfeed",
+      "evidence": [
+        {
+          "source_item_id": 47746568,
+          "source_field": "body",
+          "value": "I'm working on a FOSS Web-based RSS reader for the Kindle that works on the Kindle browser, no need to send articles via Amazon or Calibre!\n\nIt's called Inkfeed",
+          "supports": [],
+          "author": "adhamsalama",
+          "shared_at": 1776044488,
+          "source_url": "https://news.ycombinator.com/item?id=47746568"
+        }
+      ],
+      "source_item_id": 47746568,
+      "source_url": "https://news.ycombinator.com/item?id=47746568",
+      "author": "adhamsalama",
+      "shared_at": 1776044488,
+      "links": [
+        "https://github.com/adhamsalama/inkfeed-reader",
+        "https://inkfeed.xyz"
+      ]
+    }
+  ]
+}

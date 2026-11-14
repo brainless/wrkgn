@@ -1,0 +1,35 @@
+{
+  "id": 7002,
+  "slug": "vidstudio-13bcb9764f",
+  "name": "VidStudio",
+  "mentions": [
+    {
+      "name": "VidStudio",
+      "description": "A browser-based video processing tool that runs entirely client-side using a multithreaded FFmpeg WASM build, so video files stay private on the user's device. It controls how many threads are spawned at each step of the processing pipeline to make the multithreaded build work reliably.",
+      "problem": "Video processing typically requires uploading files to a server; this tool keeps processing private by running entirely in the browser.",
+      "audience": null,
+      "builder_usernames": [
+        "kolx"
+      ],
+      "source_excerpt": "Private, in browser only video processing - https://vidstudio.app",
+      "evidence": [
+        {
+          "source_item_id": 46965314,
+          "source_field": "body",
+          "value": "Private, in browser only video processing - https://vidstudio.app",
+          "supports": [],
+          "author": "kolx",
+          "shared_at": 1770751054,
+          "source_url": "https://news.ycombinator.com/item?id=46965314"
+        }
+      ],
+      "source_item_id": 46965314,
+      "source_url": "https://news.ycombinator.com/item?id=46965314",
+      "author": "kolx",
+      "shared_at": 1770751054,
+      "links": [
+        "https://vidstudio.app"
+      ]
+    }
+  ]
+}

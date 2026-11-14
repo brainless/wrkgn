@@ -1,0 +1,35 @@
+{
+  "id": 10373,
+  "slug": "handy-446c7519f9",
+  "name": "Handy",
+  "mentions": [
+    {
+      "name": "Handy",
+      "description": "Open-source, cross-platform dictation app similar to SuperWhisper that transcribes speech to text using whisper.cpp, with acceleration on most devices via the Vulkan backend.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "sipjca"
+      ],
+      "source_excerpt": "Been working on https://handy.computer. It's similar to SuperWhisper and others, but is open source and cross platform\n\nIt uses whisper.cpp under the hood and should be accelerated on most devices using the Vulkan backend",
+      "evidence": [
+        {
+          "source_item_id": 44704762,
+          "source_field": "body",
+          "value": "Been working on https://handy.computer. It's similar to SuperWhisper and others, but is open source and cross platform\n\nIt uses whisper.cpp under the hood and should be accelerated on most devices using the Vulkan backend",
+          "supports": [],
+          "author": "sipjca",
+          "shared_at": 1753651000,
+          "source_url": "https://news.ycombinator.com/item?id=44704762"
+        }
+      ],
+      "source_item_id": 44704762,
+      "source_url": "https://news.ycombinator.com/item?id=44704762",
+      "author": "sipjca",
+      "shared_at": 1753651000,
+      "links": [
+        "https://handy.computer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 8687,
+  "slug": "qemu-vfio-user-pci-endpoint-device-for-virtualized-computational-storage-a7f34d6216",
+  "name": "QEMU vfio-user PCI endpoint device for virtualized computational storage",
+  "mentions": [
+    {
+      "name": "QEMU vfio-user PCI endpoint device for virtualized computational storage",
+      "description": "A QEMU device that exposes a vfio-user socket for a PCI endpoint controller, accompanied by a Linux PCI endpoint controller driver and a userspace endpoint function. Together these components are used to build a virtualized computational storage device for research. It is currently unstable, with plans for a fully working implementation by the end of the next month.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "maxboone"
+      ],
+      "source_excerpt": "QEMU device that exposes a vfio-user socket for a PCI endpoint controller, Linux PCI endpoint controller driver and a userspace endpoint function.\n\nIt's very unstable at the moment but plan to have it fully implemented and working by the end of next month.\n\nUsing it to build a virtualized computational storage device for research.",
+      "evidence": [
+        {
+          "source_item_id": 46266423,
+          "source_field": "body",
+          "value": "QEMU device that exposes a vfio-user socket for a PCI endpoint controller, Linux PCI endpoint controller driver and a userspace endpoint function.\n\nIt's very unstable at the moment but plan to have it fully implemented and working by the end of next month.\n\nUsing it to build a virtualized computational storage device for research.",
+          "supports": [],
+          "author": "maxboone",
+          "shared_at": 1765743456,
+          "source_url": "https://news.ycombinator.com/item?id=46266423"
+        }
+      ],
+      "source_item_id": 46266423,
+      "source_url": "https://news.ycombinator.com/item?id=46266423",
+      "author": "maxboone",
+      "shared_at": 1765743456,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 8616,
+  "slug": "soc2-eb07edf052",
+  "name": "soc2",
+  "mentions": [
+    {
+      "name": "soc2",
+      "description": "A SOC2 compliance checker that uses Checkov and Terraform to assess compliance.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "autotune"
+      ],
+      "source_excerpt": "https://github.com/elliotechne/soc2 is a SOC2 compliance checker using checkov and Terraform.",
+      "evidence": [
+        {
+          "source_item_id": 46266028,
+          "source_field": "body",
+          "value": "https://github.com/elliotechne/soc2 is a SOC2 compliance checker using checkov and Terraform.",
+          "supports": [],
+          "author": "autotune",
+          "shared_at": 1765740960,
+          "source_url": "https://news.ycombinator.com/item?id=46266028"
+        }
+      ],
+      "source_item_id": 46266028,
+      "source_url": "https://news.ycombinator.com/item?id=46266028",
+      "author": "autotune",
+      "shared_at": 1765740960,
+      "links": [
+        "https://github.com/elliotechne/soc2"
+      ]
+    }
+  ]
+}

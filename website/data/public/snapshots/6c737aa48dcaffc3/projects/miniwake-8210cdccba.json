@@ -1,0 +1,33 @@
+{
+  "id": 6829,
+  "slug": "miniwake-8210cdccba",
+  "name": "miniWake",
+  "mentions": [
+    {
+      "name": "miniWake",
+      "description": "Windows tray app that keeps the computer awake by triggering invisible mouse events. It installs without admin rights, turns off when the session locks and back on at unlock to save battery, and can be toggled manually by double-clicking the icon.",
+      "problem": "Existing keep-awake equivalents such as PowerTools or USB mouse jigglers exist, but this version does just one thing simply and better.",
+      "audience": null,
+      "builder_usernames": [
+        "bambax"
+      ],
+      "source_excerpt": "- miniWake: keeps the computer awake\n\nAlternatives: Powertools; USB mouse jigglers\n\nFeatures: installs without admin rights; triggers invisible mouse events; turns off at LOCK, turns back on at LOCKOFF (saves battery); manual turn off or on via double-click on the icon",
+      "evidence": [
+        {
+          "source_item_id": 46942703,
+          "source_field": "body",
+          "value": "- miniWake: keeps the computer awake\n\nAlternatives: Powertools; USB mouse jigglers\n\nFeatures: installs without admin rights; triggers invisible mouse events; turns off at LOCK, turns back on at LOCKOFF (saves battery); manual turn off or on via double-click on the icon",
+          "supports": [],
+          "author": "bambax",
+          "shared_at": 1770623604,
+          "source_url": "https://news.ycombinator.com/item?id=46942703"
+        }
+      ],
+      "source_item_id": 46942703,
+      "source_url": "https://news.ycombinator.com/item?id=46942703",
+      "author": "bambax",
+      "shared_at": 1770623604,
+      "links": []
+    }
+  ]
+}

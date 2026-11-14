@@ -1,0 +1,147 @@
+{
+  "id": 3077,
+  "slug": "securitybot-dev-9da2a1bbc9",
+  "name": "SecurityBot.dev",
+  "mentions": [
+    {
+      "name": "SecurityBot.dev",
+      "description": "SecurityBot.dev is a website monitoring tool that includes a broken link monitor for detecting broken links; the broken link monitor has recently received significant improvements.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "wjgilmore"
+      ],
+      "source_excerpt": "I continue working on SecurityBot.dev, having lately made significant improvements to the broken link monitor.\n\nhttps://securitybot.dev",
+      "evidence": [
+        {
+          "source_item_id": 48886184,
+          "source_field": "body",
+          "value": "I continue working on SecurityBot.dev, having lately made significant improvements to the broken link monitor.\n\nhttps://securitybot.dev",
+          "supports": [],
+          "author": "wjgilmore",
+          "shared_at": 1783900886,
+          "source_url": "https://news.ycombinator.com/item?id=48886184"
+        }
+      ],
+      "source_item_id": 48886184,
+      "source_url": "https://news.ycombinator.com/item?id=48886184",
+      "author": "wjgilmore",
+      "shared_at": 1783900886,
+      "links": [
+        "https://securitybot.dev"
+      ]
+    },
+    {
+      "name": "SecurityBot",
+      "description": "This all-in-one monitoring tool tracks security, uptime, and SEO, and provides simple Slack alerting integration to help identify issues in web products.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "wjgilmore"
+      ],
+      "source_excerpt": "https://securitybot.dev\nAll-in-one security, uptime, and SEO monitoring tool. I love working on this, and it has been so useful helping to identify various issues in my other products. Simple Slack alerting integration.",
+      "evidence": [
+        {
+          "source_item_id": 48542434,
+          "source_field": "body",
+          "value": "https://securitybot.dev\nAll-in-one security, uptime, and SEO monitoring tool. I love working on this, and it has been so useful helping to identify various issues in my other products. Simple Slack alerting integration.",
+          "supports": [],
+          "author": "wjgilmore",
+          "shared_at": 1781536184,
+          "source_url": "https://news.ycombinator.com/item?id=48542434"
+        }
+      ],
+      "source_item_id": 48542434,
+      "source_url": "https://news.ycombinator.com/item?id=48542434",
+      "author": "wjgilmore",
+      "shared_at": 1781536184,
+      "links": [
+        "https://securitybot.dev"
+      ]
+    },
+    {
+      "name": "SecurityBot.dev",
+      "description": "An all-in-one monitoring tool for websites that combines uptime, performance, security, and SEO checks. Features include standard uptime monitoring, a PageSpeed Insights monitor, and a broken link checker, with new monitor types added over time based on the builder's own needs and user feedback. It has been running since its launch a few months ago and recently approached its 1 millionth uptime check.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "wjgilmore"
+      ],
+      "source_excerpt": "SecurityBot.dev is an all-in-one uptime, performance, security, and SEO monitoring tool. I launched it a few months ago and have been iterating on it ever since.",
+      "evidence": [
+        {
+          "source_item_id": 46280726,
+          "source_field": "body",
+          "value": "SecurityBot.dev is an all-in-one uptime, performance, security, and SEO monitoring tool. I launched it a few months ago and have been iterating on it ever since.",
+          "supports": [],
+          "author": "wjgilmore",
+          "shared_at": 1765833086,
+          "source_url": "https://news.ycombinator.com/item?id=46280726"
+        }
+      ],
+      "source_item_id": 46280726,
+      "source_url": "https://news.ycombinator.com/item?id=46280726",
+      "author": "wjgilmore",
+      "shared_at": 1765833086,
+      "links": [
+        "https://securitybot.dev/"
+      ]
+    },
+    {
+      "name": "SecurityBot",
+      "description": "A service that combines uptime, performance, SEO, and security monitoring for websites. It includes PageSpeed Insights analysis, a broken link auditor (401, 404, 500, etc.), and historical ping/uptime results. It also ships an MCP server that delivers broken link results to Cursor so they can be rapidly resolved.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "wjgilmore"
+      ],
+      "source_excerpt": "I am working on SecurityBot https://securitybot.dev a service that combines uptime, performance, SEO, and security monitoring. Among other things it inckudes PageSpeed Insights analysis, a broken link auditor (401, 404, 500, etc), and historical ping/uptime results.",
+      "evidence": [
+        {
+          "source_item_id": 45882033,
+          "source_field": "body",
+          "value": "I am working on SecurityBot https://securitybot.dev a service that combines uptime, performance, SEO, and security monitoring. Among other things it inckudes PageSpeed Insights analysis, a broken link auditor (401, 404, 500, etc), and historical ping/uptime results.",
+          "supports": [],
+          "author": "wjgilmore",
+          "shared_at": 1762815069,
+          "source_url": "https://news.ycombinator.com/item?id=45882033"
+        }
+      ],
+      "source_item_id": 45882033,
+      "source_url": "https://news.ycombinator.com/item?id=45882033",
+      "author": "wjgilmore",
+      "shared_at": 1762815069,
+      "links": [
+        "https://securitybot.dev"
+      ]
+    },
+    {
+      "name": "SecurityBot",
+      "description": "A free security and uptime monitoring service that checks HTTP security headers including CSP, robots.txt, and security.txt, along with open/closed ports, ping times, uptime, and more.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "wjgilmore"
+      ],
+      "source_excerpt": "Been having a lot of fun building SecurityBot (https://securitybot.dev/), a free security and uptime monitoring service. It keeps tab on your HTTP security headers including CSP, robots.txt, security.txt. open/closed ports, ping times, uptime, and more.",
+      "evidence": [
+        {
+          "source_item_id": 45424810,
+          "source_field": "body",
+          "value": "Been having a lot of fun building SecurityBot (https://securitybot.dev/), a free security and uptime monitoring service. It keeps tab on your HTTP security headers including CSP, robots.txt, security.txt. open/closed ports, ping times, uptime, and more.",
+          "supports": [],
+          "author": "wjgilmore",
+          "shared_at": 1759236755,
+          "source_url": "https://news.ycombinator.com/item?id=45424810"
+        }
+      ],
+      "source_item_id": 45424810,
+      "source_url": "https://news.ycombinator.com/item?id=45424810",
+      "author": "wjgilmore",
+      "shared_at": 1759236755,
+      "links": [
+        "https://securitybot.dev/"
+      ]
+    }
+  ]
+}

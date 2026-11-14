@@ -1,0 +1,91 @@
+{
+  "id": 7844,
+  "slug": "scryspell-2c1347c435",
+  "name": "Scryspell",
+  "mentions": [
+    {
+      "name": "Scryspell",
+      "description": "A session recording and product analytics tool that has reached version 1.0, with work now focused on selling and marketing it in a crowded product space.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "takkatakka"
+      ],
+      "source_excerpt": "A session recording and product analytics tool: https://scryspell.com/",
+      "evidence": [
+        {
+          "source_item_id": 46590174,
+          "source_field": "body",
+          "value": "A session recording and product analytics tool: https://scryspell.com/",
+          "supports": [],
+          "author": "takkatakka",
+          "shared_at": 1768233530,
+          "source_url": "https://news.ycombinator.com/item?id=46590174"
+        }
+      ],
+      "source_item_id": 46590174,
+      "source_url": "https://news.ycombinator.com/item?id=46590174",
+      "author": "takkatakka",
+      "shared_at": 1768233530,
+      "links": [
+        "https://scryspell.com/"
+      ]
+    },
+    {
+      "name": "Scryspell",
+      "description": "This app records user sessions and provides web analytics, letting developers replay exactly what their users saw — including browser console logs and network traffic — to fix UI and UX issues. It ships preset analytics charts (top entry page, top exit page, etc.) and is adding support for user-defined trend and funnel charts, with a goal of simple analytics plus session recording with masking.",
+      "problem": "Developers struggle to fix UI and UX issues without seeing exactly what their users experienced.",
+      "audience": "Helps developers fix UI and UX issues by letting them see exactly what their users saw.",
+      "builder_usernames": [
+        "takkatakka"
+      ],
+      "source_excerpt": "Working on a session recording app: https://scryspell.com\n\nCurrently it's meant to help devs fix UI and UX issues by seeing exactly what their users saw, including a log of the browser console and network traffic.",
+      "evidence": [
+        {
+          "source_item_id": 45431301,
+          "source_field": "body",
+          "value": "Working on a session recording app: https://scryspell.com\n\nCurrently it's meant to help devs fix UI and UX issues by seeing exactly what their users saw, including a log of the browser console and network traffic.",
+          "supports": [],
+          "author": "takkatakka",
+          "shared_at": 1759266669,
+          "source_url": "https://news.ycombinator.com/item?id=45431301"
+        }
+      ],
+      "source_item_id": 45431301,
+      "source_url": "https://news.ycombinator.com/item?id=45431301",
+      "author": "takkatakka",
+      "shared_at": 1759266669,
+      "links": [
+        "https://scryspell.com"
+      ]
+    },
+    {
+      "name": "Scryspell",
+      "description": "A simple session recording and analytics tool for websites, with session recording as the core feature (built on the rrweb library and the Mutation Observer API), plus standard analytics. Built as a lightweight alternative to tools like Squeaky (which shut down) and PostHog (whose large UI the author found overwhelming), with a React/TypeScript/TanStack Query frontend and Java/Spring Boot/PostgreSQL backend.",
+      "problem": "Existing session recording options fell short: Squeaky shut down, and PostHog's huge UI is overwhelming for users who just want simple session recording and analytics.",
+      "audience": null,
+      "builder_usernames": [
+        "takkatakka"
+      ],
+      "source_excerpt": "https://scryspell.com - a simple session recording and analytics tool.",
+      "evidence": [
+        {
+          "source_item_id": 45043492,
+          "source_field": "body",
+          "value": "https://scryspell.com - a simple session recording and analytics tool.",
+          "supports": [],
+          "author": "takkatakka",
+          "shared_at": 1756320689,
+          "source_url": "https://news.ycombinator.com/item?id=45043492"
+        }
+      ],
+      "source_item_id": 45043492,
+      "source_url": "https://news.ycombinator.com/item?id=45043492",
+      "author": "takkatakka",
+      "shared_at": 1756320689,
+      "links": [
+        "https://scryspell.com"
+      ]
+    }
+  ]
+}

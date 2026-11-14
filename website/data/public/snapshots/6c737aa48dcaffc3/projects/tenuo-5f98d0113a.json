@@ -1,0 +1,35 @@
+{
+  "id": 8323,
+  "slug": "tenuo-5f98d0113a",
+  "name": "Tenuo",
+  "mentions": [
+    {
+      "name": "Tenuo",
+      "description": "This project is a capability-based authorization model for AI agents in which authority is explicit, task-scoped, and attenuating, adapted for workflows where delegation happens dynamically mid-task. It lets permissions be scoped per task (e.g., read-only on a table or a cap of 3 VMs) instead of granting ambient authority over all tools, with sub-agents not inheriting full access by default. It is closest to Macaroons/Biscuit, and the early prototype has a Rust core, a Python SDK, and a LangChain integration.",
+      "problem": "Once an AI agent is given tools it gains ambient authority over all of them, with no clean way to express task-scoped permissions; sub-agents spawned mid-execution inherit full access by default, and IAM keeps authority tied to the agent's identity even as intent shifts during execution.",
+      "audience": null,
+      "builder_usernames": [
+        "niyikiza"
+      ],
+      "source_excerpt": "I'm exploring a capability-based model instead: authority is explicit, task-scoped, and attenuating. Closest to Macaroons/Biscuit, but adapted for workflows where delegation happens dynamically mid-task.\n\nEarly prototype (Rust core, Python SDK, LangChain integration), still thinking it through. Notes here: https://niyikiza.com/posts/capability-delegation/",
+      "evidence": [
+        {
+          "source_item_id": 46270697,
+          "source_field": "body",
+          "value": "I'm exploring a capability-based model instead: authority is explicit, task-scoped, and attenuating. Closest to Macaroons/Biscuit, but adapted for workflows where delegation happens dynamically mid-task.\n\nEarly prototype (Rust core, Python SDK, LangChain integration), still thinking it through. Notes here: https://niyikiza.com/posts/capability-delegation/",
+          "supports": [],
+          "author": "niyikiza",
+          "shared_at": 1765775396,
+          "source_url": "https://news.ycombinator.com/item?id=46270697"
+        }
+      ],
+      "source_item_id": 46270697,
+      "source_url": "https://news.ycombinator.com/item?id=46270697",
+      "author": "niyikiza",
+      "shared_at": 1765775396,
+      "links": [
+        "https://niyikiza.com/posts/capability-delegation/"
+      ]
+    }
+  ]
+}

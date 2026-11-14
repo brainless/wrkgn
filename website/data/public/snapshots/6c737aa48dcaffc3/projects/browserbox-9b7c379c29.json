@@ -1,0 +1,65 @@
+{
+  "id": 3493,
+  "slug": "browserbox-9b7c379c29",
+  "name": "BrowserBox",
+  "mentions": [
+    {
+      "name": "BrowserBox",
+      "description": "BrowserBox is a browser platform that has just landed WebAuthn passkey support, currently available for macOS clients.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "keepamovin"
+      ],
+      "source_excerpt": "BrowserBox just landed WebAuthn (passkeys) - for now just macOS clients: https://github.com/BrowserBox/BrowserBox",
+      "evidence": [
+        {
+          "source_item_id": 48888067,
+          "source_field": "body",
+          "value": "BrowserBox just landed WebAuthn (passkeys) - for now just macOS clients: https://github.com/BrowserBox/BrowserBox",
+          "supports": [],
+          "author": "keepamovin",
+          "shared_at": 1783918390,
+          "source_url": "https://news.ycombinator.com/item?id=48888067"
+        }
+      ],
+      "source_item_id": 48888067,
+      "source_url": "https://news.ycombinator.com/item?id=48888067",
+      "author": "keepamovin",
+      "shared_at": 1783918390,
+      "links": [
+        "https://github.com/BrowserBox/BrowserBox"
+      ]
+    },
+    {
+      "name": "BrowserBox",
+      "description": "BrowserBox demos embed a remote browser in an iframe to provide \"embed anything browser view\" custom elements. The demos focus on retro desktops to emphasize the browser, since common web tropes like the retro desktop can never actually ship a real browser without BrowserBox.",
+      "problem": "Common web tropes like the retro desktop can never actually ship a real browser without something like BrowserBox.",
+      "audience": null,
+      "builder_usernames": [
+        "keepamovin"
+      ],
+      "source_excerpt": "BrowserBox demos: https://win9-5.com/demo\n\nThese embed a remote browser in an iframe to give you “embed anything browser view” custom elements. The demos focus on retro desktops to emphasize the browser - as these common web tropes, the retro desktop, can never actually ship a real browser without something like bbx.",
+      "evidence": [
+        {
+          "source_item_id": 48088962,
+          "source_field": "body",
+          "value": "BrowserBox demos: https://win9-5.com/demo\n\nThese embed a remote browser in an iframe to give you “embed anything browser view” custom elements. The demos focus on retro desktops to emphasize the browser - as these common web tropes, the retro desktop, can never actually ship a real browser without something like bbx.",
+          "supports": [],
+          "author": "keepamovin",
+          "shared_at": 1778453464,
+          "source_url": "https://news.ycombinator.com/item?id=48088962"
+        }
+      ],
+      "source_item_id": 48088962,
+      "source_url": "https://news.ycombinator.com/item?id=48088962",
+      "author": "keepamovin",
+      "shared_at": 1778453464,
+      "links": [
+        "https://browserbox.io",
+        "https://github.com/BrowserBox/BrowserBox",
+        "https://win9-5.com/demo"
+      ]
+    }
+  ]
+}

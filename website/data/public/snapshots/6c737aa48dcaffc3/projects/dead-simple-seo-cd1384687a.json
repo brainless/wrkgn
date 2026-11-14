@@ -1,0 +1,35 @@
+{
+  "id": 7779,
+  "slug": "dead-simple-seo-cd1384687a",
+  "name": "Dead Simple SEO",
+  "mentions": [
+    {
+      "name": "Dead Simple SEO",
+      "description": "An MIT-licensed Vite plugin that generates crawlable static SEO pages for React apps. It bundles and executes a static HTML pipeline in a node vm within the Vite process, outputting an index.html for each .md and .tsx file in the SEO source folder. The output is static HTML with no JavaScript dependency or rehydration step, reusing the main app's layout, headers, and footers, served from a standard nginx setup.",
+      "problem": "React app content that relies on JavaScript isn't crawlable; the author needed crawlable static links in the footer served from a standard nginx setup.",
+      "audience": "Developers of React apps who need SEO.",
+      "builder_usernames": [
+        "tmzt"
+      ],
+      "source_excerpt": "I built a MIT-licensed vite plugin (deadsimpleseo.github.io) to help with SEO for developers of React apps.",
+      "evidence": [
+        {
+          "source_item_id": 46633736,
+          "source_field": "body",
+          "value": "I built a MIT-licensed vite plugin (deadsimpleseo.github.io) to help with SEO for developers of React apps.",
+          "supports": [],
+          "author": "tmzt",
+          "shared_at": 1768490485,
+          "source_url": "https://news.ycombinator.com/item?id=46633736"
+        }
+      ],
+      "source_item_id": 46633736,
+      "source_url": "https://news.ycombinator.com/item?id=46633736",
+      "author": "tmzt",
+      "shared_at": 1768490485,
+      "links": [
+        "https://deadsimpleseo.github.io"
+      ]
+    }
+  ]
+}

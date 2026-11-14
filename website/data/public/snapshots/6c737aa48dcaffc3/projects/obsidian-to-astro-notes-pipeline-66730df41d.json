@@ -1,0 +1,33 @@
+{
+  "id": 3982,
+  "slug": "obsidian-to-astro-notes-pipeline-66730df41d",
+  "name": "Obsidian to Astro notes pipeline",
+  "mentions": [
+    {
+      "name": "Obsidian to Astro notes pipeline",
+      "description": "This pipeline converts Obsidian markdown notes into a format Astro understands for publishing blogs and notes, since Astro doesn't natively support Obsidian markdown syntax; it is built around working with ASTs.",
+      "problem": "Astro doesn't understand Obsidian markdown syntax, so there was no good pipeline for publishing Obsidian notes to an Astro blog.",
+      "audience": null,
+      "builder_usernames": [
+        "laxpsy"
+      ],
+      "source_excerpt": "Wanted a good Obsidian -> Astro blog/notes pipeline since Astro doesn't understand Obsidian markdown syntax, wrapping my head around ASTs for that.",
+      "evidence": [
+        {
+          "source_item_id": 48545312,
+          "source_field": "body",
+          "value": "Wanted a good Obsidian -> Astro blog/notes pipeline since Astro doesn't understand Obsidian markdown syntax, wrapping my head around ASTs for that.",
+          "supports": [],
+          "author": "laxpsy",
+          "shared_at": 1781548728,
+          "source_url": "https://news.ycombinator.com/item?id=48545312"
+        }
+      ],
+      "source_item_id": 48545312,
+      "source_url": "https://news.ycombinator.com/item?id=48545312",
+      "author": "laxpsy",
+      "shared_at": 1781548728,
+      "links": []
+    }
+  ]
+}

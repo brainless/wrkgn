@@ -1,0 +1,63 @@
+{
+  "id": 1225,
+  "slug": "kuberik-60a0979a32",
+  "name": "Kuberik",
+  "mentions": [
+    {
+      "name": "Kuberik",
+      "description": "A continuous delivery tool for Kubernetes built on top of Flux and the OpenKruise canary controller. It delivers full-featured, end-to-end deployment across multiple Kubernetes environments in a declarative way without pipeline engines, with each delivery stage implemented as a composable component (health checks, smoke tests, schedules, environment promotions, service dependencies). A recent release adds GitHub integration so users can track exactly what is deployed where and how far a change has progressed.",
+      "problem": "Reinventing the wheel with pipeline engines every time something needed to be deployed.",
+      "audience": null,
+      "builder_usernames": [
+        "LittleChimera"
+      ],
+      "source_excerpt": "Working on https://kuberik.com\n\nIt's a CD tool for Kubernetes built on top of Flux and OpenKruise canary controller to bring a full-featured end to end delivery on Kubernetes over multiple environments in a declarative way without the pipelines.",
+      "evidence": [
+        {
+          "source_item_id": 49688790,
+          "source_field": "body",
+          "value": "Working on https://kuberik.com\n\nIt's a CD tool for Kubernetes built on top of Flux and OpenKruise canary controller to bring a full-featured end to end delivery on Kubernetes over multiple environments in a declarative way without the pipelines.",
+          "supports": [],
+          "author": "LittleChimera",
+          "shared_at": 1789334162,
+          "source_url": "https://news.ycombinator.com/item?id=49688790"
+        }
+      ],
+      "source_item_id": 49688790,
+      "source_url": "https://news.ycombinator.com/item?id=49688790",
+      "author": "LittleChimera",
+      "shared_at": 1789334162,
+      "links": [
+        "https://kuberik.com"
+      ]
+    },
+    {
+      "name": "Kuberik",
+      "description": "A continuous delivery (CD) tool for Kubernetes built on top of Flux and the OpenKruise canary controller, providing full end-to-end application delivery on Kubernetes in a declarative way without pipelines. Every stage of delivery is a composable component, such as health checks, smoke tests, schedules, and environment promotions.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "LittleChimera"
+      ],
+      "source_excerpt": "Working on https://kuberik.com\n\nIt's a CD tool for Kubernetes built on top of Flux and OpenKruise canary controller to bring a full end to end delivery on Kubernetes in a declarative way without the pipelines. Every stage of the delivery is just a composable component (health checks, smoke tests, schedules, environment promotions).",
+      "evidence": [
+        {
+          "source_item_id": 48537930,
+          "source_field": "body",
+          "value": "Working on https://kuberik.com\n\nIt's a CD tool for Kubernetes built on top of Flux and OpenKruise canary controller to bring a full end to end delivery on Kubernetes in a declarative way without the pipelines. Every stage of the delivery is just a composable component (health checks, smoke tests, schedules, environment promotions).",
+          "supports": [],
+          "author": "LittleChimera",
+          "shared_at": 1781509996,
+          "source_url": "https://news.ycombinator.com/item?id=48537930"
+        }
+      ],
+      "source_item_id": 48537930,
+      "source_url": "https://news.ycombinator.com/item?id=48537930",
+      "author": "LittleChimera",
+      "shared_at": 1781509996,
+      "links": [
+        "https://kuberik.com"
+      ]
+    }
+  ]
+}

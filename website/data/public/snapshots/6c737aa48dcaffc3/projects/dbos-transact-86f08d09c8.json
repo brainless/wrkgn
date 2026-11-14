@@ -1,0 +1,36 @@
+{
+  "id": 10561,
+  "slug": "dbos-transact-86f08d09c8",
+  "name": "DBOS Transact",
+  "mentions": [
+    {
+      "name": "DBOS Transact",
+      "description": "This is DBOS Transact, an open source library that adds durability and reliability to your codebase. It is expanding to support Golang and Java, in addition to its existing language support.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jedberg"
+      ],
+      "source_excerpt": "I'm working on DBOS Transact [0], our open source library that adds durability and reliability to your codebase.  We're about to launch support for Golang [1] and Java, and that's going to bring some really interesting customer problems.",
+      "evidence": [
+        {
+          "source_item_id": 44704361,
+          "source_field": "body",
+          "value": "I'm working on DBOS Transact [0], our open source library that adds durability and reliability to your codebase.  We're about to launch support for Golang [1] and Java, and that's going to bring some really interesting customer problems.",
+          "supports": [],
+          "author": "jedberg",
+          "shared_at": 1753647726,
+          "source_url": "https://news.ycombinator.com/item?id=44704361"
+        }
+      ],
+      "source_item_id": 44704361,
+      "source_url": "https://news.ycombinator.com/item?id=44704361",
+      "author": "jedberg",
+      "shared_at": 1753647726,
+      "links": [
+        "https://github.com/dbos-inc",
+        "https://github.com/dbos-inc/dbos-transact-go"
+      ]
+    }
+  ]
+}

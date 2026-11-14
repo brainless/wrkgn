@@ -1,0 +1,35 @@
+{
+  "id": 8287,
+  "slug": "sixth-coast-9f34ebbe02",
+  "name": "Sixth Coast",
+  "mentions": [
+    {
+      "name": "Sixth Coast",
+      "description": "A feed aggregator backed by a web crawler that automatically discovers interesting RSS feeds across the web. Posts are sorted by inverse posting frequency, using the time between posts as a proxy for quality, surfacing interesting sites a reader wouldn't otherwise find.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "lostqubit"
+      ],
+      "source_excerpt": "It's feed aggregator backed by a web crawler that tries to find interesting RSS feeds. Posts are sorted by inverse frequency with the hope that time between posts will serve as a good proxy for quality.",
+      "evidence": [
+        {
+          "source_item_id": 46274951,
+          "source_field": "body",
+          "value": "It's feed aggregator backed by a web crawler that tries to find interesting RSS feeds. Posts are sorted by inverse frequency with the hope that time between posts will serve as a good proxy for quality.",
+          "supports": [],
+          "author": "lostqubit",
+          "shared_at": 1765808734,
+          "source_url": "https://news.ycombinator.com/item?id=46274951"
+        }
+      ],
+      "source_item_id": 46274951,
+      "source_url": "https://news.ycombinator.com/item?id=46274951",
+      "author": "lostqubit",
+      "shared_at": 1765808734,
+      "links": [
+        "https://www.sixthcoast.com/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 9751,
+  "slug": "upss-universal-prompt-security-standard-ce37d7f5f3",
+  "name": "UPSS (Universal Prompt Security Standard)",
+  "mentions": [
+    {
+      "name": "UPSS (Universal Prompt Security Standard)",
+      "description": "An open-source framework for managing LLM prompts securely at scale. It externalizes prompts from application code via secure configuration management, provides a modular middleware architecture with composable security primitives (BasicSanitizer, LightweightAuditor, SimpleRBAC, InputValidator), and delivers complete audit trails and version control with approval workflows. Version 1.1.0 ships a Python implementation plus examples for Node.js, Java, Go, and Rust, and the project seeks community contributions for security primitives, framework integrations, language implementations, and adoption stories.",
+      "problem": "Most organizations hardcode prompts directly into application code, creating security vulnerabilities (90% prompt injection success rate in typical deployments), operational inefficiency (3-5 day deployment cycles for simple prompt changes), and compliance gaps (insufficient audit trails for SOC 2, ISO 27001).",
+      "audience": "Startups and enterprises needing practical, not theoretical, security for LLM prompts",
+      "builder_usernames": [
+        "alvinveroy"
+      ],
+      "source_excerpt": "Working on UPSS (Universal Prompt Security Standard) - an open-source framework for managing LLM prompts securely at scale.",
+      "evidence": [
+        {
+          "source_item_id": 45884634,
+          "source_field": "body",
+          "value": "Working on UPSS (Universal Prompt Security Standard) - an open-source framework for managing LLM prompts securely at scale.",
+          "supports": [],
+          "author": "alvinveroy",
+          "shared_at": 1762842327,
+          "source_url": "https://news.ycombinator.com/item?id=45884634"
+        }
+      ],
+      "source_item_id": 45884634,
+      "source_url": "https://news.ycombinator.com/item?id=45884634",
+      "author": "alvinveroy",
+      "shared_at": 1762842327,
+      "links": [
+        "https://github.com/upss-standard/universal-prompt-security-standard"
+      ]
+    }
+  ]
+}

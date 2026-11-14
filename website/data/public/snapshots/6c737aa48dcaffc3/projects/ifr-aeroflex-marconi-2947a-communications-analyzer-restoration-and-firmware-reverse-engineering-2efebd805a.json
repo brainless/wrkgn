@@ -1,0 +1,33 @@
+{
+  "id": 10294,
+  "slug": "ifr-aeroflex-marconi-2947a-communications-analyzer-restoration-and-firmware-reverse-engineering-2efebd805a",
+  "name": "IFR/Aeroflex/Marconi 2947A Communications Analyzer restoration and firmware reverse engineering",
+  "mentions": [
+    {
+      "name": "IFR/Aeroflex/Marconi 2947A Communications Analyzer restoration and firmware reverse engineering",
+      "description": "This project restores an IFR/Aeroflex/Marconi 2947A Communications Analyzer to working condition and uses Ghidra to disassemble the firmware running on its main CPUs, including a 68000-based cellular option, treating it like a million-piece jigsaw puzzle.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mikewarot"
+      ],
+      "source_excerpt": "I've helped a friend get an IFR/Aeroflex/Marconi 2947A Communications Analyzer working, and am now in the process of using Ghidra to disassemble the firmware that runs on the main CPU. (There are several, including a 68000 based cellular option). I think of it as a million piece jigsaw puzzle.",
+      "evidence": [
+        {
+          "source_item_id": 45382946,
+          "source_field": "body",
+          "value": "I've helped a friend get an IFR/Aeroflex/Marconi 2947A Communications Analyzer working, and am now in the process of using Ghidra to disassemble the firmware that runs on the main CPU. (There are several, including a 68000 based cellular option). I think of it as a million piece jigsaw puzzle.",
+          "supports": [],
+          "author": "mikewarot",
+          "shared_at": 1758864088,
+          "source_url": "https://news.ycombinator.com/item?id=45382946"
+        }
+      ],
+      "source_item_id": 45382946,
+      "source_url": "https://news.ycombinator.com/item?id=45382946",
+      "author": "mikewarot",
+      "shared_at": 1758864088,
+      "links": []
+    }
+  ]
+}

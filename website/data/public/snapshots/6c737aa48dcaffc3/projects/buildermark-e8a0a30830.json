@@ -1,0 +1,63 @@
+{
+  "id": 4707,
+  "slug": "buildermark-e8a0a30830",
+  "name": "Buildermark",
+  "mentions": [
+    {
+      "name": "Buildermark",
+      "description": "This open-source, local, cross-platform tool (written in Go) calculates how much of a codebase is written by AI agents.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "davidcann"
+      ],
+      "source_excerpt": "Buildermark calculates how much of your code is written by agents. Open source, local, and cross-platform (written in Go).\n\nhttps://buildermark.dev",
+      "evidence": [
+        {
+          "source_item_id": 48086835,
+          "source_field": "body",
+          "value": "Buildermark calculates how much of your code is written by agents. Open source, local, and cross-platform (written in Go).\n\nhttps://buildermark.dev",
+          "supports": [],
+          "author": "davidcann",
+          "shared_at": 1778440109,
+          "source_url": "https://news.ycombinator.com/item?id=48086835"
+        }
+      ],
+      "source_item_id": 48086835,
+      "source_url": "https://news.ycombinator.com/item?id=48086835",
+      "author": "davidcann",
+      "shared_at": 1778440109,
+      "links": [
+        "https://buildermark.dev"
+      ]
+    },
+    {
+      "name": "Buildermark",
+      "description": "Open source, local tool that calculates how much of your code is written with coding agents. It scans your Claude and Codex history to find edits and matches them to git commits, even if the code was auto-formatted. Includes a browsable view of the prompts that produced a project's code.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "davidcann"
+      ],
+      "source_excerpt": "I’m working on Buildermark (open source, local) that calculates how much of your code is written with coding agents.\n\nIt scans your claude and codex history to find edits and matches those to git commits (even if the code was auto-formatted).",
+      "evidence": [
+        {
+          "source_item_id": 47744893,
+          "source_field": "body",
+          "value": "I’m working on Buildermark (open source, local) that calculates how much of your code is written with coding agents.\n\nIt scans your claude and codex history to find edits and matches those to git commits (even if the code was auto-formatted).",
+          "supports": [],
+          "author": "davidcann",
+          "shared_at": 1776030389,
+          "source_url": "https://news.ycombinator.com/item?id=47744893"
+        }
+      ],
+      "source_item_id": 47744893,
+      "source_url": "https://news.ycombinator.com/item?id=47744893",
+      "author": "davidcann",
+      "shared_at": 1776030389,
+      "links": [
+        "https://buildermark.dev/"
+      ]
+    }
+  ]
+}

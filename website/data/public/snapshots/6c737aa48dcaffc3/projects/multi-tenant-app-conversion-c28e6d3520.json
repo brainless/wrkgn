@@ -1,0 +1,33 @@
+{
+  "id": 6655,
+  "slug": "multi-tenant-app-conversion-c28e6d3520",
+  "name": "Multi-tenant app conversion",
+  "mentions": [
+    {
+      "name": "Multi-tenant app conversion",
+      "description": "An app that originally shipped as a single-tenant, mono-node, per-client deployment is being converted to a multi-tenant, multi-node architecture using cloud storage and a small cluster; the current work is largely the migration and operations side rather than user-facing features.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "chantepierre"
+      ],
+      "source_excerpt": "Converting an app that started per-client deploy, single-tenant, cloud-ignorant and mono-node to multi-tenant, multi-node, cloud storage and a cluster of a few nodes.",
+      "evidence": [
+        {
+          "source_item_id": 47308350,
+          "source_field": "body",
+          "value": "Converting an app that started per-client deploy, single-tenant, cloud-ignorant and mono-node to multi-tenant, multi-node, cloud storage and a cluster of a few nodes.",
+          "supports": [],
+          "author": "chantepierre",
+          "shared_at": 1773060446,
+          "source_url": "https://news.ycombinator.com/item?id=47308350"
+        }
+      ],
+      "source_item_id": 47308350,
+      "source_url": "https://news.ycombinator.com/item?id=47308350",
+      "author": "chantepierre",
+      "shared_at": 1773060446,
+      "links": []
+    }
+  ]
+}

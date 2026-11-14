@@ -1,0 +1,35 @@
+{
+  "id": 5662,
+  "slug": "linux-kernel-patch-for-enforcing-landlock-rulesets-from-ebpf-f4d8b14203",
+  "name": "Linux kernel patch for enforcing Landlock rulesets from eBPF",
+  "mentions": [
+    {
+      "name": "Linux kernel patch for enforcing Landlock rulesets from eBPF",
+      "description": "This project is a Linux kernel patch that adds support for enforcing Landlock rulesets from eBPF. It is currently at RFC (request for comments) stage and discussed on the linux-security-module mailing list.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "razighter777"
+      ],
+      "source_excerpt": "Patch for linux kernel adding support for enforcing Landlock rulesets from eBPF. In RFC stage now.",
+      "evidence": [
+        {
+          "source_item_id": 47746230,
+          "source_field": "body",
+          "value": "Patch for linux kernel adding support for enforcing Landlock rulesets from eBPF. In RFC stage now.",
+          "supports": [],
+          "author": "razighter777",
+          "shared_at": 1776041543,
+          "source_url": "https://news.ycombinator.com/item?id=47746230"
+        }
+      ],
+      "source_item_id": 47746230,
+      "source_url": "https://news.ycombinator.com/item?id=47746230",
+      "author": "razighter777",
+      "shared_at": 1776041543,
+      "links": [
+        "https://lore.kernel.org/linux-security-module/adjwZAevNaDguilw@suesslenovo/T/"
+      ]
+    }
+  ]
+}

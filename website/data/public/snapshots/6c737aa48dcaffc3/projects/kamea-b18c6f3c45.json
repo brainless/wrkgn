@@ -1,0 +1,35 @@
+{
+  "id": 6088,
+  "slug": "kamea-b18c6f3c45",
+  "name": "Kamea",
+  "mentions": [
+    {
+      "name": "Kamea",
+      "description": "A 16×16 multiplication table (finite algebra with a single binary operation) that encodes quoting, evaluation, branching, recursion, an 8-state counter, and IO as lookups in the same table. Includes 83 Lean theorems verified with no gaps, found via axiom-driven SAT search (Z3) with Lean verifying the witness. Proves universal results for all satisfying algebras — every model is rigid, judgment and synthesis cannot commute, and the tester's acceptance partition carries irreducible information. The table fits in 256 bytes and can be recovered from a shuffled black-box oracle in 62 probes.",
+      "problem": "Whether a finite algebra with a single binary operation can be forced by axioms to contain its own representation layer.",
+      "audience": null,
+      "builder_usernames": [
+        "kameama"
+      ],
+      "source_excerpt": "A 16×16 multiplication table that encodes quoting, evaluation, branching, recursion, an 8-state counter, and IO — all as lookups in the same table. 83 Lean theorems, zero sorry.",
+      "evidence": [
+        {
+          "source_item_id": 47304953,
+          "source_field": "body",
+          "value": "A 16×16 multiplication table that encodes quoting, evaluation, branching, recursion, an 8-state counter, and IO — all as lookups in the same table. 83 Lean theorems, zero sorry.",
+          "supports": [],
+          "author": "kameama",
+          "shared_at": 1773031380,
+          "source_url": "https://news.ycombinator.com/item?id=47304953"
+        }
+      ],
+      "source_item_id": 47304953,
+      "source_url": "https://news.ycombinator.com/item?id=47304953",
+      "author": "kameama",
+      "shared_at": 1773031380,
+      "links": [
+        "https://github.com/stefanopalmieri/Kamea"
+      ]
+    }
+  ]
+}

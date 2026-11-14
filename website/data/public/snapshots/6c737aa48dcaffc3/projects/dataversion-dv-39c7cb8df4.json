@@ -1,0 +1,35 @@
+{
+  "id": 8133,
+  "slug": "dataversion-dv-39c7cb8df4",
+  "name": "DataVersion (DV)",
+  "mentions": [
+    {
+      "name": "DataVersion (DV)",
+      "description": "DataVersion (DV) is lineage-aware, versioned data management described as Git for data. It records data lineage at commit/snapshot level as data is captured, transformed, and committed, so when things break it knows which downstream data is impacted, can roll back the whole chain to a previous state instantly without data copy/restore, and can backfill data across the chain automatically. Teams and AI agents can see where data came from, how it was transformed, and revert safely with a single click, and analysts can build pipelines by describing business questions to AI.",
+      "problem": "Engineers waste up to 40% of their time monitoring, investigating and fixing data, teams can't trust the accuracy, source, or freshness of dashboard metrics, AI can't show proof of where answers came from, and bad data spreads across the company before being spotted and takes weeks to clean up.",
+      "audience": "Data engineers, analysts, and AI agents that need trustworthy, traceable data",
+      "builder_usernames": [
+        "vpfaiz"
+      ],
+      "source_excerpt": "DV changes this, giving you lineage-aware, versioned data. It records data-lineage when data is captured, transformed, and committed, at commit/snapshot level. So when things break, DV knows what other data is impacted downstream, and it can rollback the whole chain to the previous state, instantly - no data copy/restore needed.",
+      "evidence": [
+        {
+          "source_item_id": 46271822,
+          "source_field": "body",
+          "value": "DV changes this, giving you lineage-aware, versioned data. It records data-lineage when data is captured, transformed, and committed, at commit/snapshot level. So when things break, DV knows what other data is impacted downstream, and it can rollback the whole chain to the previous state, instantly - no data copy/restore needed.",
+          "supports": [],
+          "author": "vpfaiz",
+          "shared_at": 1765787709,
+          "source_url": "https://news.ycombinator.com/item?id=46271822"
+        }
+      ],
+      "source_item_id": 46271822,
+      "source_url": "https://news.ycombinator.com/item?id=46271822",
+      "author": "vpfaiz",
+      "shared_at": 1765787709,
+      "links": [
+        "https://www.dataversion.app/"
+      ]
+    }
+  ]
+}

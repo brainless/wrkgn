@@ -1,0 +1,33 @@
+{
+  "id": 5771,
+  "slug": "data-efficient-transformer-attention-mechanism-d923d39402",
+  "name": "Data-efficient transformer attention mechanism",
+  "mentions": [
+    {
+      "name": "Data-efficient transformer attention mechanism",
+      "description": "This project is a transformer attention mechanism that appears more data-efficient than standard dot-product attention, with work underway on a performant backwards (gradient) kernel for it.",
+      "problem": "Usual dot-product attention is less data-efficient.",
+      "audience": null,
+      "builder_usernames": [
+        "AlexCoventry"
+      ],
+      "source_excerpt": "I have a transformer attention mechanism which seems to be more data-efficient than the usual dot product, and I'm trying to write a performant backwards kernel for it.",
+      "evidence": [
+        {
+          "source_item_id": 47746931,
+          "source_field": "body",
+          "value": "I have a transformer attention mechanism which seems to be more data-efficient than the usual dot product, and I'm trying to write a performant backwards kernel for it.",
+          "supports": [],
+          "author": "AlexCoventry",
+          "shared_at": 1776047833,
+          "source_url": "https://news.ycombinator.com/item?id=47746931"
+        }
+      ],
+      "source_item_id": 47746931,
+      "source_url": "https://news.ycombinator.com/item?id=47746931",
+      "author": "AlexCoventry",
+      "shared_at": 1776047833,
+      "links": []
+    }
+  ]
+}

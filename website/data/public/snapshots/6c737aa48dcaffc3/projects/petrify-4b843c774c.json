@@ -1,0 +1,35 @@
+{
+  "id": 5123,
+  "slug": "petrify-4b843c774c",
+  "name": "Petrify",
+  "mentions": [
+    {
+      "name": "Petrify",
+      "description": "Petrify is a machine learning model compiler for the JVM. It reads models from ONNX or other model formats, walks tree or linear models, and encodes them as equivalent JVM bytecode in a stateless class that can be invoked directly. Unlike interpreter-based ONNX runtimes, it compiles models to native bytecode, yielding a much simpler setup with zero dependencies.",
+      "problem": "Existing ONNX runtimes are essentially interpreters that are huge (90+ MB), JNI-based, and drag in gargantuan dependencies.",
+      "audience": null,
+      "builder_usernames": [
+        "exabrial"
+      ],
+      "source_excerpt": "Petrify is a machine learning model compiler for the the JVM. It reads your model from an ONNX or other model format, walks the Trees or Linear models, and encodes the model in equivalent JVM bytecode as a stateless class you can invoke.",
+      "evidence": [
+        {
+          "source_item_id": 47745559,
+          "source_field": "body",
+          "value": "Petrify is a machine learning model compiler for the the JVM. It reads your model from an ONNX or other model format, walks the Trees or Linear models, and encodes the model in equivalent JVM bytecode as a stateless class you can invoke.",
+          "supports": [],
+          "author": "exabrial",
+          "shared_at": 1776036208,
+          "source_url": "https://news.ycombinator.com/item?id=47745559"
+        }
+      ],
+      "source_item_id": 47745559,
+      "source_url": "https://news.ycombinator.com/item?id=47745559",
+      "author": "exabrial",
+      "shared_at": 1776036208,
+      "links": [
+        "https://github.com/exabrial/petrify"
+      ]
+    }
+  ]
+}

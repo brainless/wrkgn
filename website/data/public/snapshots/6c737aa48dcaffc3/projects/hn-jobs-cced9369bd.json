@@ -1,0 +1,35 @@
+{
+  "id": 8400,
+  "slug": "hn-jobs-cced9369bd",
+  "name": "hn-jobs",
+  "mentions": [
+    {
+      "name": "hn-jobs",
+      "description": "A RAG-based chat assistant that converses with users about their current work status and what they're looking for, then suggests the best-suited roles from HN Who's Hiring threads. It is in an early stage, with the latest thread indexed and a CLI chat tool for talking with the LLM.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "kostarelo"
+      ],
+      "source_excerpt": "I'm building a chat-assistant that will be able to discuss with you and find more about what's your current work status and what you're looking for. Then it will suggest best suited roles for you from the HN Who's Hiring threads.",
+      "evidence": [
+        {
+          "source_item_id": 46299420,
+          "source_field": "body",
+          "value": "I'm building a chat-assistant that will be able to discuss with you and find more about what's your current work status and what you're looking for. Then it will suggest best suited roles for you from the HN Who's Hiring threads.",
+          "supports": [],
+          "author": "kostarelo",
+          "shared_at": 1765959003,
+          "source_url": "https://news.ycombinator.com/item?id=46299420"
+        }
+      ],
+      "source_item_id": 46299420,
+      "source_url": "https://news.ycombinator.com/item?id=46299420",
+      "author": "kostarelo",
+      "shared_at": 1765959003,
+      "links": [
+        "https://github.com/kbariotis/hn-jobs"
+      ]
+    }
+  ]
+}

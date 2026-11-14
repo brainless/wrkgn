@@ -1,0 +1,63 @@
+{
+  "id": 8929,
+  "slug": "wosp-daf192a494",
+  "name": "Wosp",
+  "mentions": [
+    {
+      "name": "Wosp",
+      "description": "Wosp (word-oriented search and print) is a command-line tool for advanced full-text search of written documents. It works in a completely different way than grep, enabling operations that grep fundamentally cannot, such as fuzzy searching and proximity searching.",
+      "problem": "grep fundamentally cannot perform operations like fuzzy searching and proximity searching, and the author needed such advanced full-text search for scientific research.",
+      "audience": null,
+      "builder_usernames": [
+        "atrettel"
+      ],
+      "source_excerpt": "I'm working on a command-line tool for advanced full-text search of written documents. It works in a completely different way than grep, so it can do a lot of operations that grep fundamentally cannot like fuzzy searching and proximity searching.",
+      "evidence": [
+        {
+          "source_item_id": 46219055,
+          "source_field": "body",
+          "value": "I'm working on a command-line tool for advanced full-text search of written documents. It works in a completely different way than grep, so it can do a lot of operations that grep fundamentally cannot like fuzzy searching and proximity searching.",
+          "supports": [],
+          "author": "atrettel",
+          "shared_at": 1765381555,
+          "source_url": "https://news.ycombinator.com/item?id=46219055"
+        }
+      ],
+      "source_item_id": 46219055,
+      "source_url": "https://news.ycombinator.com/item?id=46219055",
+      "author": "atrettel",
+      "shared_at": 1765381555,
+      "links": [
+        "https://github.com/atrettel/wosp"
+      ]
+    },
+    {
+      "name": "Wosp",
+      "description": "A command-line tool for advanced full-text search of written documents. Called Wosp (word-oriented search and print), it works differently than grep, enabling operations that grep fundamentally cannot, such as proximity searching. First functional version has been released.",
+      "problem": "grep fundamentally cannot perform many search operations, such as proximity searching.",
+      "audience": null,
+      "builder_usernames": [
+        "atrettel"
+      ],
+      "source_excerpt": "I'm working on a command-line tool for advanced full-text search of written documents.  It works in a completely different way than grep, so it can do a lot of operations that grep fundamentally cannot like proximity searching.\n\nI called it Wosp for word-oriented search and print.  I released the first functional version a few days ago: https://github.com/atrettel/wosp",
+      "evidence": [
+        {
+          "source_item_id": 45869768,
+          "source_field": "body",
+          "value": "I'm working on a command-line tool for advanced full-text search of written documents.  It works in a completely different way than grep, so it can do a lot of operations that grep fundamentally cannot like proximity searching.\n\nI called it Wosp for word-oriented search and print.  I released the first functional version a few days ago: https://github.com/atrettel/wosp",
+          "supports": [],
+          "author": "atrettel",
+          "shared_at": 1762726795,
+          "source_url": "https://news.ycombinator.com/item?id=45869768"
+        }
+      ],
+      "source_item_id": 45869768,
+      "source_url": "https://news.ycombinator.com/item?id=45869768",
+      "author": "atrettel",
+      "shared_at": 1762726795,
+      "links": [
+        "https://github.com/atrettel/wosp"
+      ]
+    }
+  ]
+}

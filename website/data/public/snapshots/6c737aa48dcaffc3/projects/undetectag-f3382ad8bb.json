@@ -1,0 +1,35 @@
+{
+  "id": 10796,
+  "slug": "undetectag-f3382ad8bb",
+  "name": "Undetectag",
+  "mentions": [
+    {
+      "name": "Undetectag",
+      "description": "This device turns an AirTag on and off at specific intervals so it cannot be detected right away by anti-tracking apps. It lets an owner hide an AirTag in property such as a car; a thief cannot use an app to detect it and the AirTag will not warn them of its presence, and after some hours it turns back on so the owner can find out the location of the stolen property. The device is not foolproof since the timing has to be right, and the creator is considering offering different interval setups in the future.",
+      "problem": "Current AirTags are detectable right away and cannot be used to track stolen property.",
+      "audience": null,
+      "builder_usernames": [
+        "pompidoo"
+      ],
+      "source_excerpt": "I developed a device that turns an Airtag on and off at specific intervals.\nCurrent Airtags are detectable right away and cannot be used to track stolen property.",
+      "evidence": [
+        {
+          "source_item_id": 43819848,
+          "source_field": "body",
+          "value": "I developed a device that turns an Airtag on and off at specific intervals.\nCurrent Airtags are detectable right away and cannot be used to track stolen property.",
+          "supports": [],
+          "author": "pompidoo",
+          "shared_at": 1745838045,
+          "source_url": "https://news.ycombinator.com/item?id=43819848"
+        }
+      ],
+      "source_item_id": 43819848,
+      "source_url": "https://news.ycombinator.com/item?id=43819848",
+      "author": "pompidoo",
+      "shared_at": 1745838045,
+      "links": [
+        "https://undetectag.com"
+      ]
+    }
+  ]
+}

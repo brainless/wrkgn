@@ -1,0 +1,33 @@
+{
+  "id": 8972,
+  "slug": "npc-item-attack-game-interaction-system-af4bc72b34",
+  "name": "NPC/Item/Attack game interaction system",
+  "mentions": [
+    {
+      "name": "NPC/Item/Attack game interaction system",
+      "description": "A past, abandoned attempt at building a game system similar to Easel, structured around NPC, Item, and Attack classes with a corresponding NPC Manager, Item Manager, and Attack Manager that calculated all their interactions and states each cycle.",
+      "problem": "Handling interactions between different game elements — declaring which objects were affected by attacks or were player/NPC interactive, plus inheritance and whether objects or a manager should perform calculations — became deeply tangled and a fresh reset would have been better.",
+      "audience": null,
+      "builder_usernames": [
+        "eastoeast"
+      ],
+      "source_excerpt": "I ended up having NPC, Item, Attack classes and for each a NPC Manager, Item Manager, and Attack Manager to calculate all their interactions and states.",
+      "evidence": [
+        {
+          "source_item_id": 45871457,
+          "source_field": "body",
+          "value": "I ended up having NPC, Item, Attack classes and for each a NPC Manager, Item Manager, and Attack Manager to calculate all their interactions and states.",
+          "supports": [],
+          "author": "eastoeast",
+          "shared_at": 1762740171,
+          "source_url": "https://news.ycombinator.com/item?id=45871457"
+        }
+      ],
+      "source_item_id": 45871457,
+      "source_url": "https://news.ycombinator.com/item?id=45871457",
+      "author": "eastoeast",
+      "shared_at": 1762740171,
+      "links": []
+    }
+  ]
+}

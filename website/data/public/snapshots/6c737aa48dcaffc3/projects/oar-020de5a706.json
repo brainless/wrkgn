@@ -1,0 +1,63 @@
+{
+  "id": 9429,
+  "slug": "oar-020de5a706",
+  "name": "Oar",
+  "mentions": [
+    {
+      "name": "Oar",
+      "description": "This is a GitOps continuous deployment tool for Docker Compose, offering an ArgoCD-like workflow for managing Docker Compose deployments.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Ch00k"
+      ],
+      "source_excerpt": "Oar - GitOps with Docker Compose (think ArgoCD for Docker Compose) - https://github.com/oar-cd/oar",
+      "evidence": [
+        {
+          "source_item_id": 45872953,
+          "source_field": "body",
+          "value": "Oar - GitOps with Docker Compose (think ArgoCD for Docker Compose) - https://github.com/oar-cd/oar",
+          "supports": [],
+          "author": "Ch00k",
+          "shared_at": 1762755023,
+          "source_url": "https://news.ycombinator.com/item?id=45872953"
+        }
+      ],
+      "source_item_id": 45872953,
+      "source_url": "https://news.ycombinator.com/item?id=45872953",
+      "author": "Ch00k",
+      "shared_at": 1762755023,
+      "links": [
+        "https://github.com/oar-cd/oar"
+      ]
+    },
+    {
+      "name": "Oar",
+      "description": "Oar is a GitOps continuous delivery tool for Docker Compose, offering ArgoCD-like deployment workflows without the complexity of Kubernetes.",
+      "problem": "Existing GitOps CD tools like ArgoCD bring Kubernetes complexity that is unnecessary for Docker Compose-based deployments.",
+      "audience": null,
+      "builder_usernames": [
+        "Ch00k"
+      ],
+      "source_excerpt": "Oar, a GitOps Continuous Delivery tool for Docker Compose. Think ArgoCD, but you don't need or want all that Kubernetes complexity.",
+      "evidence": [
+        {
+          "source_item_id": 45422581,
+          "source_field": "body",
+          "value": "Oar, a GitOps Continuous Delivery tool for Docker Compose. Think ArgoCD, but you don't need or want all that Kubernetes complexity.",
+          "supports": [],
+          "author": "Ch00k",
+          "shared_at": 1759214226,
+          "source_url": "https://news.ycombinator.com/item?id=45422581"
+        }
+      ],
+      "source_item_id": 45422581,
+      "source_url": "https://news.ycombinator.com/item?id=45422581",
+      "author": "Ch00k",
+      "shared_at": 1759214226,
+      "links": [
+        "https://github.com/oar-cd/oar"
+      ]
+    }
+  ]
+}

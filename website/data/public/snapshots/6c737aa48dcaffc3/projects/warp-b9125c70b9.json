@@ -1,0 +1,35 @@
+{
+  "id": 5373,
+  "slug": "warp-b9125c70b9",
+  "name": "Warp",
+  "mentions": [
+    {
+      "name": "Warp",
+      "description": "Warp is a storage engine where each entity is its own actor with its own SQLite shard, using the BEAM for concurrency (one actor per entity). Designed for DDD and event sourcing, it reports 1.5M events/sec on an M1 in Docker with 5 cores, is written in Gleam, and offers a TypeScript SDK for use from Node. High availability relies on BEAM distribution and consistent hashing to assign entities to nodes, with Litestream streaming SQLite WAL changes to S3 for backup and fast recovery.",
+      "problem": "Developers doing DDD and event sourcing have had to squeeze aggregates and domain events into Postgres tables, and scaling paths like CockroachDB or ScyllaDB were daunting.",
+      "audience": "Developers practicing DDD and event sourcing, including TypeScript/Node developers via the SDK.",
+      "builder_usernames": [
+        "dwighson"
+      ],
+      "source_excerpt": "Building Warp (https://warp.thegeeksquad.io), a storage engine where each entity is its own actor with its own SQLite shard.",
+      "evidence": [
+        {
+          "source_item_id": 47750620,
+          "source_field": "body",
+          "value": "Building Warp (https://warp.thegeeksquad.io), a storage engine where each entity is its own actor with its own SQLite shard.",
+          "supports": [],
+          "author": "dwighson",
+          "shared_at": 1776080514,
+          "source_url": "https://news.ycombinator.com/item?id=47750620"
+        }
+      ],
+      "source_item_id": 47750620,
+      "source_url": "https://news.ycombinator.com/item?id=47750620",
+      "author": "dwighson",
+      "shared_at": 1776080514,
+      "links": [
+        "https://warp.thegeeksquad.io"
+      ]
+    }
+  ]
+}

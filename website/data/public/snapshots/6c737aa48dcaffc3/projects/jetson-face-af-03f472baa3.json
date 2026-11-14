@@ -1,0 +1,35 @@
+{
+  "id": 6826,
+  "slug": "jetson-face-af-03f472baa3",
+  "name": "Jetson Face AF",
+  "mentions": [
+    {
+      "name": "Jetson Face AF",
+      "description": "A tech demo that augments a Nikon camera's autofocus with an NVIDIA Jetson Orin Nano: video flows from the camera over HDMI to the Jetson for processing, and focus control is sent back over USB. The goal is face-priority autofocus that knows which faces the photographer cares about, augmenting rather than replacing the camera's AF while keeping Nikon's shooting ergonomics intact.",
+      "problem": "Nikon AF does a great job of recognizing faces, but it doesn't know which faces the photographer cares about; even flagship cameras lag the processing power of external hardware like a Jetson Nano and lack an easy external processing loop for extra smarts and automation.",
+      "audience": null,
+      "builder_usernames": [
+        "jerich"
+      ],
+      "source_excerpt": "I hacked together a tech demo of a personal project to add a Jetson Orin Nano to augment the Nikon autofocus system. (Camera->HDMI->Jetson processing->USB control->Camera)",
+      "evidence": [
+        {
+          "source_item_id": 46954342,
+          "source_field": "body",
+          "value": "I hacked together a tech demo of a personal project to add a Jetson Orin Nano to augment the Nikon autofocus system. (Camera->HDMI->Jetson processing->USB control->Camera)",
+          "supports": [],
+          "author": "jerich",
+          "shared_at": 1770688401,
+          "source_url": "https://news.ycombinator.com/item?id=46954342"
+        }
+      ],
+      "source_item_id": 46954342,
+      "source_url": "https://news.ycombinator.com/item?id=46954342",
+      "author": "jerich",
+      "shared_at": 1770688401,
+      "links": [
+        "https://github.com/jerich/jetson-face-af"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 7182,
+  "slug": "ai-web-agent-in-a-wasm-sandbox-428d177035",
+  "name": "AI web agent in a WASM sandbox",
+  "mentions": [
+    {
+      "name": "AI web agent in a WASM sandbox",
+      "description": "This AI web agent runs entirely in a WASM sandbox with predefined skills, requiring no external sandbox servers. It creates websites, mobile apps, PowerPoint (.pptx) files, Word (.docx) files, visualizes CSV data, and creates Remotion videos. Submitted for the Gemini 3 Hackathon.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ojr"
+      ],
+      "source_excerpt": "AI web agent that lives in a wasm sandbox with predefined skills, it creates websites, mobile apps, powerpoint slides (.pptx files), word documents (.docx files), visualize csv data, and creates remotion videos, no external sandbox servers, all in wasm.",
+      "evidence": [
+        {
+          "source_item_id": 46958772,
+          "source_field": "body",
+          "value": "AI web agent that lives in a wasm sandbox with predefined skills, it creates websites, mobile apps, powerpoint slides (.pptx files), word documents (.docx files), visualize csv data, and creates remotion videos, no external sandbox servers, all in wasm.",
+          "supports": [],
+          "author": "ojr",
+          "shared_at": 1770726150,
+          "source_url": "https://news.ycombinator.com/item?id=46958772"
+        }
+      ],
+      "source_item_id": 46958772,
+      "source_url": "https://news.ycombinator.com/item?id=46958772",
+      "author": "ojr",
+      "shared_at": 1770726150,
+      "links": [
+        "https://devpost.com/software/slidebits-betty"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 3633,
+  "slug": "parkeergarages-delft-8eddf67c12",
+  "name": "Parkeergarages Delft",
+  "mentions": [
+    {
+      "name": "Parkeergarages Delft",
+      "description": "A public dashboard that monitors the occupancy of public parking garages in Delft, recently redesigned to include references to relevant city council discussions that remain unsettled due to missing data.",
+      "problem": "The city council requested this parking occupancy information from the municipality last year, but it still has not been delivered.",
+      "audience": null,
+      "builder_usernames": [
+        "ricohageman"
+      ],
+      "source_excerpt": "I'm maintaining a public dashboard that monitors the occupancy of public parking garages in my city (https://www.parkeergaragesdelft.nl). Last year the city council requested this information from the municipality but it's still not delivered. I just finished a redesign that includes references to the relevant city council discussions that aren't settled due to missing data.",
+      "evidence": [
+        {
+          "source_item_id": 48530885,
+          "source_field": "body",
+          "value": "I'm maintaining a public dashboard that monitors the occupancy of public parking garages in my city (https://www.parkeergaragesdelft.nl). Last year the city council requested this information from the municipality but it's still not delivered. I just finished a redesign that includes references to the relevant city council discussions that aren't settled due to missing data.",
+          "supports": [],
+          "author": "ricohageman",
+          "shared_at": 1781461974,
+          "source_url": "https://news.ycombinator.com/item?id=48530885"
+        }
+      ],
+      "source_item_id": 48530885,
+      "source_url": "https://news.ycombinator.com/item?id=48530885",
+      "author": "ricohageman",
+      "shared_at": 1781461974,
+      "links": [
+        "https://www.parkeergaragesdelft.nl"
+      ]
+    },
+    {
+      "name": "Parkeergarages Delft",
+      "description": "A parking garage occupancy tracker for Delft that logs the city's real-time availability feed, which the city publishes with no historical record, and presents the collected history plus analysis of weekly occupancy patterns. The public site (in Dutch) aims to present civic data clearly and keep the city council accountable.",
+      "problem": "A city council decision on car-free city center policies was delayed due to missing data, and the city only publishes real-time parking availability with no historical record.",
+      "audience": null,
+      "builder_usernames": [
+        "ricohageman"
+      ],
+      "source_excerpt": "Built a parking garage occupancy tracker for my city (https://www.parkeergaragesdelft.nl/) after a city council decision on car-free city center policies got delayed due to missing data. The city only publishes real-time availability with no historical record, so I started logging it. The site now shows historical data plus analysis of weekly patterns.",
+      "evidence": [
+        {
+          "source_item_id": 46580460,
+          "source_field": "body",
+          "value": "Built a parking garage occupancy tracker for my city (https://www.parkeergaragesdelft.nl/) after a city council decision on car-free city center policies got delayed due to missing data. The city only publishes real-time availability with no historical record, so I started logging it. The site now shows historical data plus analysis of weekly patterns.",
+          "supports": [],
+          "author": "ricohageman",
+          "shared_at": 1768167685,
+          "source_url": "https://news.ycombinator.com/item?id=46580460"
+        }
+      ],
+      "source_item_id": 46580460,
+      "source_url": "https://news.ycombinator.com/item?id=46580460",
+      "author": "ricohageman",
+      "shared_at": 1768167685,
+      "links": [
+        "https://www.parkeergaragesdelft.nl/"
+      ]
+    }
+  ]
+}

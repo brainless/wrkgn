@@ -1,0 +1,33 @@
+{
+  "id": 6441,
+  "slug": "rsyncthing-d8f68e13e0",
+  "name": "rsyncthing",
+  "mentions": [
+    {
+      "name": "rsyncthing",
+      "description": "A command-line CLI that lets users quickly bootstrap Syncthing fileshares to new hosts over SSH, eliminating the manual 'introduce devices to each other' setup process.",
+      "problem": "Setting up Syncthing across hosts requires a tedious 'introduce devices to each other' process.",
+      "audience": null,
+      "builder_usernames": [
+        "gcr"
+      ],
+      "source_excerpt": "rsyncthing: A command-line CLI that lets users quickly bootstrap Syncthing fileshares to new hosts over SSH. No more \"introduce devices to each other\" song-and-dance.",
+      "evidence": [
+        {
+          "source_item_id": 47313888,
+          "source_field": "body",
+          "value": "rsyncthing: A command-line CLI that lets users quickly bootstrap Syncthing fileshares to new hosts over SSH. No more \"introduce devices to each other\" song-and-dance.",
+          "supports": [],
+          "author": "gcr",
+          "shared_at": 1773083360,
+          "source_url": "https://news.ycombinator.com/item?id=47313888"
+        }
+      ],
+      "source_item_id": 47313888,
+      "source_url": "https://news.ycombinator.com/item?id=47313888",
+      "author": "gcr",
+      "shared_at": 1773083360,
+      "links": []
+    }
+  ]
+}

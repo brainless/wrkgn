@@ -1,0 +1,35 @@
+{
+  "id": 7553,
+  "slug": "magic-input-2ed5668034",
+  "name": "Magic Input",
+  "mentions": [
+    {
+      "name": "Magic Input",
+      "description": "This app turns an iPhone into a wireless keyboard and trackpad for a Mac. The iOS app discovers nearby Macs via MultipeerConnectivity and streams keyboard input and touch gestures to a macOS companion app that injects events at the system level (requiring Accessibility permissions). Devices connect peer-to-peer with no shared Wi-Fi network required, and it currently supports basic typing and cursor control, aimed at working in cramped spaces like airplane seats.",
+      "problem": "Working on a laptop in cramped airplane seats is difficult due to limited elbow room, and existing iPhone-to-Mac remote keyboard apps are dated and require both devices on the same Wi-Fi network, which isn't always possible or affordable (e.g., on planes).",
+      "audience": null,
+      "builder_usernames": [
+        "willswire"
+      ],
+      "source_excerpt": "So over the last few days I’ve been tinkering with a project I call Magic Input. It turns your iPhone into a wireless keyboard and trackpad for your Mac.",
+      "evidence": [
+        {
+          "source_item_id": 46587467,
+          "source_field": "body",
+          "value": "So over the last few days I’ve been tinkering with a project I call Magic Input. It turns your iPhone into a wireless keyboard and trackpad for your Mac.",
+          "supports": [],
+          "author": "willswire",
+          "shared_at": 1768220552,
+          "source_url": "https://news.ycombinator.com/item?id=46587467"
+        }
+      ],
+      "source_item_id": 46587467,
+      "source_url": "https://news.ycombinator.com/item?id=46587467",
+      "author": "willswire",
+      "shared_at": 1768220552,
+      "links": [
+        "https://testflight.apple.com/join/T1PgucDs"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": 10490,
+  "slug": "procurator-ai-8c37516b6b",
+  "name": "ProCurator AI",
+  "mentions": [
+    {
+      "name": "ProCurator AI",
+      "description": "ProCurator AI is a custom AI newsletter curation platform that automates AI-generated news digests, aggregating existing newsletter content rather than adding another newsletter to the pile. It offers a free signup for testing (signup was temporarily broken due to a bug, later fixed with an extra signup tab on the login page). The author built it with Cursor and Claude Code, and generated the homepage with a one-shot Claude build using Nunjucks on Netlify; the subscribe button was still not working at the time of posting.",
+      "problem": "The author's friend had been manually producing GPT news digests, and with newsletter growth there are already too many newsletters — aggregation of existing content beats adding another newsletter to the pile.",
+      "audience": null,
+      "builder_usernames": [
+        "marc101"
+      ],
+      "source_excerpt": "Finally caved and built a custom AI newsletter curation platform for a friend who's been pestering me to automate his GPT news digests. Still no idea if there's real demand, but the learning experience with Cursor and Claude Code has been worth it.",
+      "evidence": [
+        {
+          "source_item_id": 44704423,
+          "source_field": "body",
+          "value": "Finally caved and built a custom AI newsletter curation platform for a friend who's been pestering me to automate his GPT news digests. Still no idea if there's real demand, but the learning experience with Cursor and Claude Code has been worth it.",
+          "supports": [],
+          "author": "marc101",
+          "shared_at": 1753648236,
+          "source_url": "https://news.ycombinator.com/item?id=44704423"
+        }
+      ],
+      "source_item_id": 44704423,
+      "source_url": "https://news.ycombinator.com/item?id=44704423",
+      "author": "marc101",
+      "shared_at": 1753648236,
+      "links": [
+        "https://my.procuratorai.com/login",
+        "https://www.procuratorai.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 6964,
+  "slug": "code-review-tooling-for-ai-assisted-coding-7f76cc2b91",
+  "name": "Code review tooling for AI-assisted coding",
+  "mentions": [
+    {
+      "name": "Code review tooling for AI-assisted coding",
+      "description": "This project provides code review tooling for reviewing your own branches and commits when using an AI agent to assist with writing code. Rather than automating the review away, it focuses on better tools for reviewing AI-generated code and tracking tech debt in code generated locally.",
+      "problem": "Existing tools in the AI coding space attempt to automate away the review, leaving a gap for better tools to review and track tech debt in code generated locally with AI agents.",
+      "audience": "Developers who use AI agents to assist with writing code",
+      "builder_usernames": [
+        "ebhn"
+      ],
+      "source_excerpt": "Working on new code review tooling specifically for reviewing your own branches/commits when you use an \"AI Agent\" to assist with writing code. It seems all of the tools people are building in this space attempt to automate away the review, but I want better tools for reviewing (and tracking tech debt) in the code  I just generated locally.",
+      "evidence": [
+        {
+          "source_item_id": 46937733,
+          "source_field": "body",
+          "value": "Working on new code review tooling specifically for reviewing your own branches/commits when you use an \"AI Agent\" to assist with writing code. It seems all of the tools people are building in this space attempt to automate away the review, but I want better tools for reviewing (and tracking tech debt) in the code  I just generated locally.",
+          "supports": [],
+          "author": "ebhn",
+          "shared_at": 1770579567,
+          "source_url": "https://news.ycombinator.com/item?id=46937733"
+        }
+      ],
+      "source_item_id": 46937733,
+      "source_url": "https://news.ycombinator.com/item?id=46937733",
+      "author": "ebhn",
+      "shared_at": 1770579567,
+      "links": []
+    }
+  ]
+}

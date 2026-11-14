@@ -1,0 +1,33 @@
+{
+  "id": 10765,
+  "slug": "3d-tree-cutting-planner-7a02e1eca1",
+  "name": "3D tree cutting planner",
+  "mentions": [
+    {
+      "name": "3D tree cutting planner",
+      "description": "This tool plans tree felling cuts: photos of a tree taken from six angles feed into a 3D model generator, the eroded model becomes a 3D graph representation of the tree, and the tool suggests which cuts to make and where given a restricted fall path, such as one constrained by a neighbor's yard. Fallen branches are modeled in their final state along the fall plane, with individual correction vectors mapping them back to their original state in an order that avoids intersecting other branch vectors. A planned second rendition treats the problem as physics rather than a graph problem, using energy-minimisation methods, and the tool is intended to be appified.",
+      "problem": "Planning the safe felling of a difficult tree with a restricted fall path took hours of manual planning.",
+      "audience": "Tree surgeons (arborists) interested in the tool; motivated by felling a difficult tree in a friend's yard",
+      "builder_usernames": [
+        "tetris11"
+      ],
+      "source_excerpt": "A tree cutting tool.\n\nTake photos of the tree from 6 different angles, feed into a 3D model generator, erode the model and generate a 3D graph representation of the tree.\n\nThe tool suggests which cuts to make and where, given a restricted fall path (e.g. constrained by a neighbors yard on one side).",
+      "evidence": [
+        {
+          "source_item_id": 43819676,
+          "source_field": "body",
+          "value": "A tree cutting tool.\n\nTake photos of the tree from 6 different angles, feed into a 3D model generator, erode the model and generate a 3D graph representation of the tree.\n\nThe tool suggests which cuts to make and where, given a restricted fall path (e.g. constrained by a neighbors yard on one side).",
+          "supports": [],
+          "author": "tetris11",
+          "shared_at": 1745836397,
+          "source_url": "https://news.ycombinator.com/item?id=43819676"
+        }
+      ],
+      "source_item_id": 43819676,
+      "source_url": "https://news.ycombinator.com/item?id=43819676",
+      "author": "tetris11",
+      "shared_at": 1745836397,
+      "links": []
+    }
+  ]
+}

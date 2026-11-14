@@ -1,0 +1,35 @@
+{
+  "id": 10597,
+  "slug": "promptslice-384abd243e",
+  "name": "PromptSlice",
+  "mentions": [
+    {
+      "name": "PromptSlice",
+      "description": "A web tool for creating, testing, and optimizing prompts, tools, and context for AI agents. It provides a first-class prompt editor with Cursor-style chat where users can ask it to make tweaks, overhaul sections, and optimize ambiguity, distinguishing it from other prompt editors like Langsmith.",
+      "problem": "The author needed a way to create, test, and optimize prompts while building agents for other use cases, and existing prompt editors lacked a first-class prompt editor with chat-based editing.",
+      "audience": null,
+      "builder_usernames": [
+        "joshmlewis"
+      ],
+      "source_excerpt": "I've been building promptslice.com as a way to create, test, and optimize prompts + tools + context. I needed it when building agents for other use cases so I built it. Unlike Langsmith and some of the other prompt editors, this has a first class editor for your prompt with \"Cursor style\" chat where you can ask it to make tweaks, overhaul sections, optimize ambiguity, etc.",
+      "evidence": [
+        {
+          "source_item_id": 44705710,
+          "source_field": "body",
+          "value": "I've been building promptslice.com as a way to create, test, and optimize prompts + tools + context. I needed it when building agents for other use cases so I built it. Unlike Langsmith and some of the other prompt editors, this has a first class editor for your prompt with \"Cursor style\" chat where you can ask it to make tweaks, overhaul sections, optimize ambiguity, etc.",
+          "supports": [],
+          "author": "joshmlewis",
+          "shared_at": 1753659412,
+          "source_url": "https://news.ycombinator.com/item?id=44705710"
+        }
+      ],
+      "source_item_id": 44705710,
+      "source_url": "https://news.ycombinator.com/item?id=44705710",
+      "author": "joshmlewis",
+      "shared_at": 1753659412,
+      "links": [
+        "https://promptslice.com"
+      ]
+    }
+  ]
+}

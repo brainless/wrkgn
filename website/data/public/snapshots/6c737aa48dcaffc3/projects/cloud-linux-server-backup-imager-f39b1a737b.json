@@ -1,0 +1,33 @@
+{
+  "id": 3906,
+  "slug": "cloud-linux-server-backup-imager-f39b1a737b",
+  "name": "Cloud Linux server backup imager",
+  "mentions": [
+    {
+      "name": "Cloud Linux server backup imager",
+      "description": "This utility backs up and images cloud Linux servers by unmounting the root disk and taking a snapshot of it.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "andrewstuart"
+      ],
+      "source_excerpt": "I made a utility that backs up/images a cloud Linux server by unmounting the root disk and snapshotting it.",
+      "evidence": [
+        {
+          "source_item_id": 48532495,
+          "source_field": "body",
+          "value": "I made a utility that backs up/images a cloud Linux server by unmounting the root disk and snapshotting it.",
+          "supports": [],
+          "author": "andrewstuart",
+          "shared_at": 1781470058,
+          "source_url": "https://news.ycombinator.com/item?id=48532495"
+        }
+      ],
+      "source_item_id": 48532495,
+      "source_url": "https://news.ycombinator.com/item?id=48532495",
+      "author": "andrewstuart",
+      "shared_at": 1781470058,
+      "links": []
+    }
+  ]
+}

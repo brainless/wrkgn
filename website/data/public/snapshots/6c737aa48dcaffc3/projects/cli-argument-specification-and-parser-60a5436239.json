@@ -1,0 +1,33 @@
+{
+  "id": 11363,
+  "slug": "cli-argument-specification-and-parser-60a5436239",
+  "name": "CLI Argument Specification and Parser",
+  "mentions": [
+    {
+      "name": "CLI Argument Specification and Parser",
+      "description": "A CLI argument specification with an implementing parser, designed to standardize command-line argument conventions as an alternative to Python's argparse — supporting consistent usage/help invocation and predictable behavior when no arguments are given.",
+      "problem": "Frustrated with Python's argparse and with inconsistent argument conventions across work tools, where pulling up a usage string might require help, -h, --help, -help, +help, or +<prog>.help, and not all scripts display a usage string when no args are given.",
+      "audience": "Developers writing command-line programs and scripts",
+      "builder_usernames": [
+        "addoo"
+      ],
+      "source_excerpt": "A CLI argument specification and a parser that implements it. Mostly because I’m annoyed with Python’s argparse, so I’m adding blackjack and removing hookers.",
+      "evidence": [
+        {
+          "source_item_id": 43832354,
+          "source_field": "body",
+          "value": "A CLI argument specification and a parser that implements it. Mostly because I’m annoyed with Python’s argparse, so I’m adding blackjack and removing hookers.",
+          "supports": [],
+          "author": "addoo",
+          "shared_at": 1745933512,
+          "source_url": "https://news.ycombinator.com/item?id=43832354"
+        }
+      ],
+      "source_item_id": 43832354,
+      "source_url": "https://news.ycombinator.com/item?id=43832354",
+      "author": "addoo",
+      "shared_at": 1745933512,
+      "links": []
+    }
+  ]
+}

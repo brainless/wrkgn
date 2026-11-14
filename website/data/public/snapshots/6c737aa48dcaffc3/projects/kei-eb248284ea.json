@@ -1,0 +1,35 @@
+{
+  "id": 4711,
+  "slug": "kei-eb248284ea",
+  "name": "kei",
+  "mentions": [
+    {
+      "name": "kei",
+      "description": "This is a cloud-to-local photo and video sync engine, with iCloud Photos support fully implemented including Apple's undocumented SyncToken. Planned improvements include quality-of-life work, architecture cleanups, and additional providers such as Immich, Nextcloud, and Google Takeout.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rhoopr"
+      ],
+      "source_excerpt": "I continue to be working on kei, my cloud->local photo/video sync engine.\n\niCloud Photos is fully baked along with implementing their completely undocumented SyncToken. I’m doing some QoL work in the next few weeks, tightening up some early architecture decisions, and then adding more providers (Immich, NextCloud, Google Takeout… else TBD).",
+      "evidence": [
+        {
+          "source_item_id": 48089820,
+          "source_field": "body",
+          "value": "I continue to be working on kei, my cloud->local photo/video sync engine.\n\niCloud Photos is fully baked along with implementing their completely undocumented SyncToken. I’m doing some QoL work in the next few weeks, tightening up some early architecture decisions, and then adding more providers (Immich, NextCloud, Google Takeout… else TBD).",
+          "supports": [],
+          "author": "rhoopr",
+          "shared_at": 1778460643,
+          "source_url": "https://news.ycombinator.com/item?id=48089820"
+        }
+      ],
+      "source_item_id": 48089820,
+      "source_url": "https://news.ycombinator.com/item?id=48089820",
+      "author": "rhoopr",
+      "shared_at": 1778460643,
+      "links": [
+        "https://github.com/rhoopr/kei"
+      ]
+    }
+  ]
+}

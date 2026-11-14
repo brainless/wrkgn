@@ -1,0 +1,33 @@
+{
+  "id": 7732,
+  "slug": "forum-post-bias-sentiment-duplicate-account-detector-af9ca6b013",
+  "name": "Forum Post Bias, Sentiment & Duplicate Account Detector",
+  "mentions": [
+    {
+      "name": "Forum Post Bias, Sentiment & Duplicate Account Detector",
+      "description": "A work-in-progress LLM-based tool that analyzes forum posts (including Hacker News) to classify ideological tendencies, biases, and sentiment, measuring the temperature and intensity of posters and replies. It also aims to detect potential duplicate accounts (the same user operating multiple accounts) by comparing language and grammatical usage across posts. No repository exists yet.",
+      "problem": "There is little existing detection of duplicate/sockpuppet accounts in forums or message boards, despite its potential usefulness (e.g., in law enforcement).",
+      "audience": "Law enforcement circles (potential use case mentioned by author)",
+      "builder_usernames": [
+        "SilentM68"
+      ],
+      "source_excerpt": "Toying/Vive Coding with the idea or algorithm to classify the tendencies, ideological biases, and sentiment from contents of posts on message forums, including HN, by using LLMs to measure the temperatures and intensities of posters and replies to posts. Also thinking of incorporating ability to identify potential duplicate accounts, (e.g. same user multiple accounts) based on similar language and grammatical usage in posts.",
+      "evidence": [
+        {
+          "source_item_id": 46583655,
+          "source_field": "body",
+          "value": "Toying/Vive Coding with the idea or algorithm to classify the tendencies, ideological biases, and sentiment from contents of posts on message forums, including HN, by using LLMs to measure the temperatures and intensities of posters and replies to posts. Also thinking of incorporating ability to identify potential duplicate accounts, (e.g. same user multiple accounts) based on similar language and grammatical usage in posts.",
+          "supports": [],
+          "author": "SilentM68",
+          "shared_at": 1768187998,
+          "source_url": "https://news.ycombinator.com/item?id=46583655"
+        }
+      ],
+      "source_item_id": 46583655,
+      "source_url": "https://news.ycombinator.com/item?id=46583655",
+      "author": "SilentM68",
+      "shared_at": 1768187998,
+      "links": []
+    }
+  ]
+}

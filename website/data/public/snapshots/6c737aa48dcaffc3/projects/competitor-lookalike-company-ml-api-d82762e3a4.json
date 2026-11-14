@@ -1,0 +1,35 @@
+{
+  "id": 9198,
+  "slug": "competitor-lookalike-company-ml-api-d82762e3a4",
+  "name": "Competitor/lookalike company ML API",
+  "mentions": [
+    {
+      "name": "Competitor/lookalike company ML API",
+      "description": "This API and small web app finds competitor and lookalike companies for any given company using a machine learning model. After plain embedding similarity produced noisy results, it uses similarity learning, which works well with little data, and is offered as a hosted API with a web interface where users can look up companies.",
+      "problem": "Plain embedding similarity yields noisy lookalike results (similar to ocean.io); similarity learning works well with little data. The hardest current challenge is fending off scrapers.",
+      "audience": null,
+      "builder_usernames": [
+        "lorey"
+      ],
+      "source_excerpt": "Spent the last three months building a competitor/lookalike ML model + API. Started using plain embedding similarity and quickly realized you end up with similar noisy results as ocean.io. Ended up using similarity learning which works quite well with little data. Launched this as an API and small web app.",
+      "evidence": [
+        {
+          "source_item_id": 45875144,
+          "source_field": "body",
+          "value": "Spent the last three months building a competitor/lookalike ML model + API. Started using plain embedding similarity and quickly realized you end up with similar noisy results as ocean.io. Ended up using similarity learning which works quite well with little data. Launched this as an API and small web app.",
+          "supports": [],
+          "author": "lorey",
+          "shared_at": 1762776386,
+          "source_url": "https://news.ycombinator.com/item?id=45875144"
+        }
+      ],
+      "source_item_id": 45875144,
+      "source_url": "https://news.ycombinator.com/item?id=45875144",
+      "author": "lorey",
+      "shared_at": 1762776386,
+      "links": [
+        "https://markets.apistemic.com"
+      ]
+    }
+  ]
+}

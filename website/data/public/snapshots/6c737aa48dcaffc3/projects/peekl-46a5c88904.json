@@ -1,0 +1,35 @@
+{
+  "id": 6387,
+  "slug": "peekl-46a5c88904",
+  "name": "Peekl",
+  "mentions": [
+    {
+      "name": "Peekl",
+      "description": "This is a configuration management tool that combines the pull-based architecture of Puppet (an agent running on nodes) with the simplicity of Ansible (writing playbooks and roles). It is currently in alpha, available on GitHub, with many new features planned.",
+      "problem": "Existing configuration management tools force a choice between Puppet-style pull-based agent models and Ansible-style playbook simplicity; Peekl aims to combine the best of both worlds.",
+      "audience": null,
+      "builder_usernames": [
+        "redat00"
+      ],
+      "source_excerpt": "I'm working on an alternative solution to Ansible and Puppet, trying to mix the best of both world: The pull-based aspect of Puppet, by having an agent running on nodes, and the simplicity of Ansible, by writing playbooks and roles.\n\nIt's called Peekl, and is available on Github. Tho it's still in what I'd called \"alpha\". Lot of new features to come!\n\nhttps://peekl.dev",
+      "evidence": [
+        {
+          "source_item_id": 47307245,
+          "source_field": "body",
+          "value": "I'm working on an alternative solution to Ansible and Puppet, trying to mix the best of both world: The pull-based aspect of Puppet, by having an agent running on nodes, and the simplicity of Ansible, by writing playbooks and roles.\n\nIt's called Peekl, and is available on Github. Tho it's still in what I'd called \"alpha\". Lot of new features to come!\n\nhttps://peekl.dev",
+          "supports": [],
+          "author": "redat00",
+          "shared_at": 1773052632,
+          "source_url": "https://news.ycombinator.com/item?id=47307245"
+        }
+      ],
+      "source_item_id": 47307245,
+      "source_url": "https://news.ycombinator.com/item?id=47307245",
+      "author": "redat00",
+      "shared_at": 1773052632,
+      "links": [
+        "https://peekl.dev"
+      ]
+    }
+  ]
+}

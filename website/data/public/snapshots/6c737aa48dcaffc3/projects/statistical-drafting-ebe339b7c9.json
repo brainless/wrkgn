@@ -1,0 +1,35 @@
+{
+  "id": 11212,
+  "slug": "statistical-drafting-ebe339b7c9",
+  "name": "Statistical Drafting",
+  "mentions": [
+    {
+      "name": "Statistical Drafting",
+      "description": "A Magic: the Gathering draft assistant trained on historical data. It produces a pick order that shifts as the draft progresses, and ships as a browser-runnable Colab notebook covering 20+ card sets.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "danbrooks"
+      ],
+      "source_excerpt": "Building a Magic: the Gathering draft assistant trained on historical data.\n\nProduces a pick order that shifts as the draft progresses.\n\nHave a browser runnable colab notebook for 20+ sets.",
+      "evidence": [
+        {
+          "source_item_id": 43822021,
+          "source_field": "body",
+          "value": "Building a Magic: the Gathering draft assistant trained on historical data.\n\nProduces a pick order that shifts as the draft progresses.\n\nHave a browser runnable colab notebook for 20+ sets.",
+          "supports": [],
+          "author": "danbrooks",
+          "shared_at": 1745851191,
+          "source_url": "https://news.ycombinator.com/item?id=43822021"
+        }
+      ],
+      "source_item_id": 43822021,
+      "source_url": "https://news.ycombinator.com/item?id=43822021",
+      "author": "danbrooks",
+      "shared_at": 1745851191,
+      "links": [
+        "https://github.com/danieljbrooks/statistical-drafting"
+      ]
+    }
+  ]
+}

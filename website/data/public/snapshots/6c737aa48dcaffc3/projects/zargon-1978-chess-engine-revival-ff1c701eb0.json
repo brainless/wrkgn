@@ -1,0 +1,35 @@
+{
+  "id": 8462,
+  "slug": "zargon-1978-chess-engine-revival-ff1c701eb0",
+  "name": "Zargon (1978 chess engine revival)",
+  "mentions": [
+    {
+      "name": "Zargon (1978 chess engine revival)",
+      "description": "A revival of the 1978 Zargon chess engine. The author has already gotten it working nicely on modern machines, running four orders of magnitude faster than it did in 1978, and current work aims to make it much faster still. The effort includes fixing bugs discovered in the original 1978 Z80 assembly code, with a blog post about 'Fixing a 50 year old bug' suggested.",
+      "problem": "The vintage 1978 chess engine can be made to run much faster on modern machines, and its original Z80 assembly contained a bug.",
+      "audience": null,
+      "builder_usernames": [
+        "billforsternz"
+      ],
+      "source_excerpt": "For a fun project; rejuvenating a 1978 Chess Engine https://github.com/billforsternz/zargon. It's the second time I've worked on the same engine. The first time I got it working nicely on modern machines, running four orders of magnitude faster than in in 1978. This time I hope to get it running much faster than that. I found a bug in the 1978 Z80 assembly the other day.",
+      "evidence": [
+        {
+          "source_item_id": 46267025,
+          "source_field": "body",
+          "value": "For a fun project; rejuvenating a 1978 Chess Engine https://github.com/billforsternz/zargon. It's the second time I've worked on the same engine. The first time I got it working nicely on modern machines, running four orders of magnitude faster than in in 1978. This time I hope to get it running much faster than that. I found a bug in the 1978 Z80 assembly the other day.",
+          "supports": [],
+          "author": "billforsternz",
+          "shared_at": 1765747075,
+          "source_url": "https://news.ycombinator.com/item?id=46267025"
+        }
+      ],
+      "source_item_id": 46267025,
+      "source_url": "https://news.ycombinator.com/item?id=46267025",
+      "author": "billforsternz",
+      "shared_at": 1765747075,
+      "links": [
+        "https://github.com/billforsternz/zargon"
+      ]
+    }
+  ]
+}

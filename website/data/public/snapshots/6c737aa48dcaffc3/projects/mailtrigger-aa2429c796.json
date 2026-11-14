@@ -1,0 +1,35 @@
+{
+  "id": 9871,
+  "slug": "mailtrigger-aa2429c796",
+  "name": "MailTrigger",
+  "mentions": [
+    {
+      "name": "MailTrigger",
+      "description": "A programmable SMTP server that turns any email into a message on LINE, Slack, Teams, Telegram, SMS, or other channels — an 'SMTP to Anything' email-native IFTTT/Zapier. It supports JS and WASM for preprocessing, routing, and automation, including custom logic, auto-replies with LLM-generated messages, and intelligent alert forwarding, and is experimenting with defining notification logic in natural language. Used for price drop alerts, server health monitoring, and pushing Jenkins/Sentry incidents to a DevOps Telegram channel.",
+      "problem": "If an app can only send email, triggering multi-channel notifications normally requires extra code.",
+      "audience": null,
+      "builder_usernames": [
+        "bear330"
+      ],
+      "source_excerpt": "MailTrigger (https://www.mailtrigger.net/) — a programmable SMTP server that turns any email into a message on LINE, Slack, Teams, Telegram, SMS, or basically anything.",
+      "evidence": [
+        {
+          "source_item_id": 45421371,
+          "source_field": "body",
+          "value": "MailTrigger (https://www.mailtrigger.net/) — a programmable SMTP server that turns any email into a message on LINE, Slack, Teams, Telegram, SMS, or basically anything.",
+          "supports": [],
+          "author": "bear330",
+          "shared_at": 1759200008,
+          "source_url": "https://news.ycombinator.com/item?id=45421371"
+        }
+      ],
+      "source_item_id": 45421371,
+      "source_url": "https://news.ycombinator.com/item?id=45421371",
+      "author": "bear330",
+      "shared_at": 1759200008,
+      "links": [
+        "https://www.mailtrigger.net/"
+      ]
+    }
+  ]
+}

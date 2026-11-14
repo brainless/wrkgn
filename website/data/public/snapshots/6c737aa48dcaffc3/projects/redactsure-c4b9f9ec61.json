@@ -1,0 +1,35 @@
+{
+  "id": 8368,
+  "slug": "redactsure-c4b9f9ec61",
+  "name": "Redactsure",
+  "mentions": [
+    {
+      "name": "Redactsure",
+      "description": "A project that trains AI computer-use agents on real sensitive tasks without PII exposure. Its first upcoming demo is a public dataset of AI-agent tasks performed with human assistance, such as paying a personal credit card or doing bank transfers. It captures full videos plus unmodified AI agent logs and human actions on unmodified websites, and releases them to the public. The broader vision is AI companies paying to generate agent training data from production tasks directly instead of funding synthetic data generation through labeling companies.",
+      "problem": "Training AI agents on real sensitive work risks PII exposure, and generating synthetic agent training data costs massive sums via labeling companies.",
+      "audience": "AI companies needing data for AI agent operations",
+      "builder_usernames": [
+        "redactsureAI"
+      ],
+      "source_excerpt": "I'm building out a new concept around training AI computer use agents on real sensitive tasks without PII exposure. My first demo releasing soon is a dataset of AI agent with human assisted tasks on things like paying my personal credit card or doing bank transfers.",
+      "evidence": [
+        {
+          "source_item_id": 46278016,
+          "source_field": "body",
+          "value": "I'm building out a new concept around training AI computer use agents on real sensitive tasks without PII exposure. My first demo releasing soon is a dataset of AI agent with human assisted tasks on things like paying my personal credit card or doing bank transfers.",
+          "supports": [],
+          "author": "redactsureAI",
+          "shared_at": 1765821747,
+          "source_url": "https://news.ycombinator.com/item?id=46278016"
+        }
+      ],
+      "source_item_id": 46278016,
+      "source_url": "https://news.ycombinator.com/item?id=46278016",
+      "author": "redactsureAI",
+      "shared_at": 1765821747,
+      "links": [
+        "https://redactsure.com"
+      ]
+    }
+  ]
+}

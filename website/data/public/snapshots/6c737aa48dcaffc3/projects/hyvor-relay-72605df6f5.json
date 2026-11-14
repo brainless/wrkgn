@@ -1,0 +1,35 @@
+{
+  "id": 10626,
+  "slug": "hyvor-relay-72605df6f5",
+  "name": "Hyvor Relay",
+  "mentions": [
+    {
+      "name": "Hyvor Relay",
+      "description": "Hyvor Relay is an open-source, self-hosted email sending service built as an alternative to AWS SES and Mailgun, implementing SMTP-based email delivery with the associated DNS configuration. It is approaching a beta release.",
+      "problem": "Reliance on proprietary hosted email delivery services like AWS SES and Mailgun.",
+      "audience": null,
+      "builder_usernames": [
+        "supz_k"
+      ],
+      "source_excerpt": "For the past two months, I have been working on Hyvor Relay [1], an open-source, self-hosted alternative to AWS SES, Mailgun. It's been an awesome ride learning SMTP and DNS in depth. And, we're pretty close to a beta release.",
+      "evidence": [
+        {
+          "source_item_id": 44705667,
+          "source_field": "body",
+          "value": "For the past two months, I have been working on Hyvor Relay [1], an open-source, self-hosted alternative to AWS SES, Mailgun. It's been an awesome ride learning SMTP and DNS in depth. And, we're pretty close to a beta release.",
+          "supports": [],
+          "author": "supz_k",
+          "shared_at": 1753658969,
+          "source_url": "https://news.ycombinator.com/item?id=44705667"
+        }
+      ],
+      "source_item_id": 44705667,
+      "source_url": "https://news.ycombinator.com/item?id=44705667",
+      "author": "supz_k",
+      "shared_at": 1753658969,
+      "links": [
+        "https://github.com/hyvor/relay"
+      ]
+    }
+  ]
+}

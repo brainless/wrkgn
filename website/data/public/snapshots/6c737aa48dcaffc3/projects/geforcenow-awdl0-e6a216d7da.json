@@ -1,0 +1,35 @@
+{
+  "id": 7099,
+  "slug": "geforcenow-awdl0-e6a216d7da",
+  "name": "geforcenow-awdl0",
+  "mentions": [
+    {
+      "name": "geforcenow-awdl0",
+      "description": "A macOS utility that stops Apple Wireless Direct Link (AWDL) from interrupting GeForce NOW cloud gaming. It began as a shell script, was first written in Rust, and was rewritten in Swift to keep dependencies to a minimum. Built with Claude's assistance over a weekend.",
+      "problem": "Apple Wireless Direct Link interrupts GeForce NOW on macOS.",
+      "audience": null,
+      "builder_usernames": [
+        "Jn2G3Np8"
+      ],
+      "source_excerpt": "Built a bit of software[1] with Claude this weekend to stop Apple Wireless Direct Link from interrupting GeForce NOW on macOS. Bit of an upgrade from a shell script[2].",
+      "evidence": [
+        {
+          "source_item_id": 46943467,
+          "source_field": "body",
+          "value": "Built a bit of software[1] with Claude this weekend to stop Apple Wireless Direct Link from interrupting GeForce NOW on macOS. Bit of an upgrade from a shell script[2].",
+          "supports": [],
+          "author": "Jn2G3Np8",
+          "shared_at": 1770630430,
+          "source_url": "https://news.ycombinator.com/item?id=46943467"
+        }
+      ],
+      "source_item_id": 46943467,
+      "source_url": "https://news.ycombinator.com/item?id=46943467",
+      "author": "Jn2G3Np8",
+      "shared_at": 1770630430,
+      "links": [
+        "https://github.com/sjparkinson/geforcenow-awdl0"
+      ]
+    }
+  ]
+}

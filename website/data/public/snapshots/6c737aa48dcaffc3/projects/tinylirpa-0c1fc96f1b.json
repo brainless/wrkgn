@@ -1,0 +1,35 @@
+{
+  "id": 8564,
+  "slug": "tinylirpa-0c1fc96f1b",
+  "name": "tinyLIRPA",
+  "mentions": [
+    {
+      "name": "tinyLIRPA",
+      "description": "This library implements the ⍺β-CROWN algorithm for neural network verification on top of the tinygrad deep-learning framework, whose small set of operations and laziness made the implementation straightforward. Neural network verification is framed as currently being more of a research interest than something practical.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ekez"
+      ],
+      "source_excerpt": "I implemented an algorithm for neural network verification called ⍺β-CROWN for a deep-learning library called tinygrad.",
+      "evidence": [
+        {
+          "source_item_id": 46267208,
+          "source_field": "body",
+          "value": "I implemented an algorithm for neural network verification called ⍺β-CROWN for a deep-learning library called tinygrad.",
+          "supports": [],
+          "author": "ekez",
+          "shared_at": 1765748177,
+          "source_url": "https://news.ycombinator.com/item?id=46267208"
+        }
+      ],
+      "source_item_id": 46267208,
+      "source_url": "https://news.ycombinator.com/item?id=46267208",
+      "author": "ekez",
+      "shared_at": 1765748177,
+      "links": [
+        "https://github.com/0xekez/tinyLIRPA"
+      ]
+    }
+  ]
+}

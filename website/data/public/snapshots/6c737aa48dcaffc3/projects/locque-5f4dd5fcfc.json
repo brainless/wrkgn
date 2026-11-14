@@ -1,0 +1,35 @@
+{
+  "id": 7815,
+  "slug": "locque-5f4dd5fcfc",
+  "name": "Locque",
+  "mentions": [
+    {
+      "name": "Locque",
+      "description": "Locque is a dependently typed programming language, currently hosted on Haskell, designed to be easy for LLMs to read and write while remaining easy for humans to review. It is built on the philosophy that the more structure you can give coding agents, the better.",
+      "problem": null,
+      "audience": "LLMs/coding agents that read and write code, and humans who review the resulting code",
+      "builder_usernames": [
+        "jaggederest"
+      ],
+      "source_excerpt": "Locque is a language designed to both be easy for LLMs to read and write, but also for humans to review, and it's designed along my philosophy that the more structure you can give coding agents, the better, so it's dependently typed and hosted on Haskell at the moment.",
+      "evidence": [
+        {
+          "source_item_id": 46578460,
+          "source_field": "body",
+          "value": "Locque is a language designed to both be easy for LLMs to read and write, but also for humans to review, and it's designed along my philosophy that the more structure you can give coding agents, the better, so it's dependently typed and hosted on Haskell at the moment.",
+          "supports": [],
+          "author": "jaggederest",
+          "shared_at": 1768157198,
+          "source_url": "https://news.ycombinator.com/item?id=46578460"
+        }
+      ],
+      "source_item_id": 46578460,
+      "source_url": "https://news.ycombinator.com/item?id=46578460",
+      "author": "jaggederest",
+      "shared_at": 1768157198,
+      "links": [
+        "https://github.com/jaggederest/locque"
+      ]
+    }
+  ]
+}

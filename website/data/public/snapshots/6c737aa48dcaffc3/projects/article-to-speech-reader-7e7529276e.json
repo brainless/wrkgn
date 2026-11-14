@@ -1,0 +1,36 @@
+{
+  "id": 5258,
+  "slug": "article-to-speech-reader-7e7529276e",
+  "name": "Article-to-speech reader",
+  "mentions": [
+    {
+      "name": "Article-to-speech reader",
+      "description": "A web app that converts articles into spoken audio using piper text-to-speech models. Users can send links via one click in the browser or two taps on a phone; the audio is published to an RSS feed that can be subscribed to in podcast apps, and the web app also serves as a reading list and tracker. Ongoing work includes improving the synthesized voice, tuning piper model settings, and better extracting only the real content from a page to record.",
+      "problem": "The author wants to read every HN article whose title they find interesting but doesn't have the time to read right at that moment.",
+      "audience": "Something used daily by the author to keep up with articles they find interesting but lack time to read at the moment.",
+      "builder_usernames": [
+        "kami23"
+      ],
+      "source_excerpt": "it's very basic article to speech using piper models at the moment.\n\nhttps://reader.n0tls.com/\n\nThe part I cared about was being able to send links via one click in my browser or two taps on my phone as I want to read every HN article who's title I find interesting, but don't have the time to read right at that moment.",
+      "evidence": [
+        {
+          "source_item_id": 47746298,
+          "source_field": "body",
+          "value": "it's very basic article to speech using piper models at the moment.\n\nhttps://reader.n0tls.com/\n\nThe part I cared about was being able to send links via one click in my browser or two taps on my phone as I want to read every HN article who's title I find interesting, but don't have the time to read right at that moment.",
+          "supports": [],
+          "author": "kami23",
+          "shared_at": 1776042207,
+          "source_url": "https://news.ycombinator.com/item?id=47746298"
+        }
+      ],
+      "source_item_id": 47746298,
+      "source_url": "https://news.ycombinator.com/item?id=47746298",
+      "author": "kami23",
+      "shared_at": 1776042207,
+      "links": [
+        "https://experiments.n0tls.com/",
+        "https://reader.n0tls.com/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": 4682,
+  "slug": "s-p-500-nasdaq-100-correlation-network-viz-39defc8d05",
+  "name": "S&P 500 & NASDAQ-100 Correlation Network Viz",
+  "mentions": [
+    {
+      "name": "S&P 500 & NASDAQ-100 Correlation Network Viz",
+      "description": "This tool visualizes the correlation matrix of S&P 500 and NASDAQ-100 stocks as an interactive correlation network, built with Svelte and Cytoscape.js.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "division_by_0"
+      ],
+      "source_excerpt": "A correlation network viz (using Cytoscape.js) of this S&P 500 and NASDAQ-100 correlation matrix (built with Svelte):\n\nhttps://cybernetic.dev/matrix",
+      "evidence": [
+        {
+          "source_item_id": 48086767,
+          "source_field": "body",
+          "value": "A correlation network viz (using Cytoscape.js) of this S&P 500 and NASDAQ-100 correlation matrix (built with Svelte):\n\nhttps://cybernetic.dev/matrix",
+          "supports": [],
+          "author": "division_by_0",
+          "shared_at": 1778439727,
+          "source_url": "https://news.ycombinator.com/item?id=48086767"
+        }
+      ],
+      "source_item_id": 48086767,
+      "source_url": "https://news.ycombinator.com/item?id=48086767",
+      "author": "division_by_0",
+      "shared_at": 1778439727,
+      "links": [
+        "https://cybernetic.dev/matrix"
+      ]
+    },
+    {
+      "name": "S&P 500 correlation matrix",
+      "description": "An interactive visualization of the S&P 500 correlation matrix built with Svelte, letting users view subregions of the matrix alongside a minimap of the full dataset.",
+      "problem": "Better contextualizing the visible subregion of the matrix in relation to the full dataset beyond what the current minimap provides.",
+      "audience": null,
+      "builder_usernames": [
+        "division_by_0"
+      ],
+      "source_excerpt": "S&P 500 correlation matrix (created with Svelte).\n\nCurrently trying to better contextualize the visible subregion of the matrix in relation to the full dataset (beyond what the current minimap does).\n\nhttps://cybernetic.dev/matrix",
+      "evidence": [
+        {
+          "source_item_id": 46265292,
+          "source_field": "body",
+          "value": "S&P 500 correlation matrix (created with Svelte).\n\nCurrently trying to better contextualize the visible subregion of the matrix in relation to the full dataset (beyond what the current minimap does).\n\nhttps://cybernetic.dev/matrix",
+          "supports": [],
+          "author": "division_by_0",
+          "shared_at": 1765735835,
+          "source_url": "https://news.ycombinator.com/item?id=46265292"
+        }
+      ],
+      "source_item_id": 46265292,
+      "source_url": "https://news.ycombinator.com/item?id=46265292",
+      "author": "division_by_0",
+      "shared_at": 1765735835,
+      "links": [
+        "https://cybernetic.dev/matrix"
+      ]
+    },
+    {
+      "name": "S&P 500 Correlation Matrix",
+      "description": "A Svelte-based web app that displays a correlation matrix for S&P 500 stocks, visualizing how the index's constituents correlate with each other.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "division_by_0"
+      ],
+      "source_excerpt": "Refining my Svelte S&P 500 correlation matrix\n\nhttps://cybernetic.dev/matrix",
+      "evidence": [
+        {
+          "source_item_id": 46217804,
+          "source_field": "body",
+          "value": "Refining my Svelte S&P 500 correlation matrix\n\nhttps://cybernetic.dev/matrix",
+          "supports": [],
+          "author": "division_by_0",
+          "shared_at": 1765375343,
+          "source_url": "https://news.ycombinator.com/item?id=46217804"
+        }
+      ],
+      "source_item_id": 46217804,
+      "source_url": "https://news.ycombinator.com/item?id=46217804",
+      "author": "division_by_0",
+      "shared_at": 1765375343,
+      "links": [
+        "https://cybernetic.dev/matrix"
+      ]
+    }
+  ]
+}

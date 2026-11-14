@@ -1,0 +1,35 @@
+{
+  "id": 4929,
+  "slug": "json2vec-a4077f203f",
+  "name": "json2vec",
+  "mentions": [
+    {
+      "name": "json2vec",
+      "description": "This is a hierarchical, extensible machine learning framework that embeds any JSON-like object into trees of embeddings for predictive modeling with zero feature engineering. It uses hierarchical BERT-like transformer encoder blocks to encode arbitrary structured observations (financial transactions, chess positions, flight itineraries, tabular data, behavioral sequences) and supports supervised finetuning. Features include plugin support for data types (numbers, categories, text, datetimes, hashable objects, raw embeddings) with MLM-like self-supervised pretraining and custom user-defined datatypes, built-in decision heads for multi-task and multi-array predictions (e.g., fraud at per-transaction or per-account level), streaming data pipelines for 100B+ training observations from cloud storage with programmatic querying and UDFs, and mutable model architectures that let developers add/remove features and targets to create reusable foundation models.",
+      "problem": "Manual feature engineering and hardcoded, use-case-specific model architectures that prevent organizations from sharing reusable modeling logic.",
+      "audience": "Developers building predictive machine learning models from structured and transactional data",
+      "builder_usernames": [
+        "granthamctaylor"
+      ],
+      "source_excerpt": "I have been quietly working for the last three years: a novel hierarchical and extensible modeling framework that can cleanly and efficiently embed any json-like object for any predictive modeling task with zero feature engineering.",
+      "evidence": [
+        {
+          "source_item_id": 48097624,
+          "source_field": "body",
+          "value": "I have been quietly working for the last three years: a novel hierarchical and extensible modeling framework that can cleanly and efficiently embed any json-like object for any predictive modeling task with zero feature engineering.",
+          "supports": [],
+          "author": "granthamctaylor",
+          "shared_at": 1778519040,
+          "source_url": "https://news.ycombinator.com/item?id=48097624"
+        }
+      ],
+      "source_item_id": 48097624,
+      "source_url": "https://news.ycombinator.com/item?id=48097624",
+      "author": "granthamctaylor",
+      "shared_at": 1778519040,
+      "links": [
+        "https://github.com/granthamtaylor/json2vec"
+      ]
+    }
+  ]
+}

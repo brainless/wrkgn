@@ -1,0 +1,33 @@
+{
+  "id": 6738,
+  "slug": "postgres-backed-codebase-memory-mcp-d5073d4289",
+  "name": "Postgres-backed codebase memory MCP",
+  "mentions": [
+    {
+      "name": "Postgres-backed codebase memory MCP",
+      "description": "This is a codebase knowledge system for the author's internal projects: it snapshots two years of commit history into day-by-day files, uses Claude to enrich each commit message (why, how, where, and output) and generates per-file markdown notes, embeds everything into a PostgreSQL database, and exposes an MCP server to query anything. Git-hook watchdogs create stub files per commit that are enriched and re-indexed into Postgres, and the first rule of the author's CLAUDE.md is to ask the MCP for any information so Claude knows what related projects did and what to adopt.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "sabri_eker"
+      ],
+      "source_excerpt": "I implemented a process. \n- First snapshot. Generated day by day files based on last 2years commit, used Claude to enrich every commit message (why,how,where and output). Also create File.java.md file enriched commit message per file. \n- I have the history. Next I embedded all of this to Postgresql database. \n- Implemented an MCP to query anything. \n- Create whatchdogs to followup projects that I setup, git hook creates stub files per commit. \n- And then process enriches new stub files. then indexes it to Postgresql.\n\nI did for all internal projects. And first rule of CLAUDE.md is ask MCP for any information. Now Claude knows what other related projects did, what should adopt for.",
+      "evidence": [
+        {
+          "source_item_id": 46979017,
+          "source_field": "body",
+          "value": "I implemented a process. \n- First snapshot. Generated day by day files based on last 2years commit, used Claude to enrich every commit message (why,how,where and output). Also create File.java.md file enriched commit message per file. \n- I have the history. Next I embedded all of this to Postgresql database. \n- Implemented an MCP to query anything. \n- Create whatchdogs to followup projects that I setup, git hook creates stub files per commit. \n- And then process enriches new stub files. then indexes it to Postgresql.\n\nI did for all internal projects. And first rule of CLAUDE.md is ask MCP for any information. Now Claude knows what other related projects did, what should adopt for.",
+          "supports": [],
+          "author": "sabri_eker",
+          "shared_at": 1770835581,
+          "source_url": "https://news.ycombinator.com/item?id=46979017"
+        }
+      ],
+      "source_item_id": 46979017,
+      "source_url": "https://news.ycombinator.com/item?id=46979017",
+      "author": "sabri_eker",
+      "shared_at": 1770835581,
+      "links": []
+    }
+  ]
+}

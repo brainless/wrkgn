@@ -1,0 +1,36 @@
+{
+  "id": 4354,
+  "slug": "jasonette-reborn-7a8626eb84",
+  "name": "Jasonette Reborn",
+  "mentions": [
+    {
+      "name": "Jasonette Reborn",
+      "description": "A revival of Jasonette, the open-source iOS/Android app framework that died off and was turned into an unrelated paid product by those who picked it up, rebuilt in Swift/SwiftUI on the iOS side and Kotlin on the Android side. Some features are still missing, but it works quite well.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ElFitz"
+      ],
+      "source_excerpt": "I’m also having Claude & Codex revive Jasonette[^2], which died off and was turned into some weird paid unrelated thing by those who picked it up. I’d been meaning to but never took the time. But now with agents…\n\nAll rebuilt in Swift / SwiftUI on the iOS side, and Kotlin on the Android side. Some features are still missing, but it works quite well!",
+      "evidence": [
+        {
+          "source_item_id": 48538347,
+          "source_field": "body",
+          "value": "I’m also having Claude & Codex revive Jasonette[^2], which died off and was turned into some weird paid unrelated thing by those who picked it up. I’d been meaning to but never took the time. But now with agents…\n\nAll rebuilt in Swift / SwiftUI on the iOS side, and Kotlin on the Android side. Some features are still missing, but it works quite well!",
+          "supports": [],
+          "author": "ElFitz",
+          "shared_at": 1781512588,
+          "source_url": "https://news.ycombinator.com/item?id=48538347"
+        }
+      ],
+      "source_item_id": 48538347,
+      "source_url": "https://news.ycombinator.com/item?id=48538347",
+      "author": "ElFitz",
+      "shared_at": 1781512588,
+      "links": [
+        "https://github.com/Bande-a-Bonnot/JASONETTE-Reborn",
+        "https://github.com/Jasonette/JASONETTE-iOS"
+      ]
+    }
+  ]
+}

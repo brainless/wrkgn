@@ -1,0 +1,35 @@
+{
+  "id": 3975,
+  "slug": "webpoke-4e5d52920e",
+  "name": "WebPoke",
+  "mentions": [
+    {
+      "name": "WebPoke",
+      "description": "WebPoke is a service offering a simpler alternative to implementing webhooks and data sync the traditional way. The author built a proof of concept using s2.dev and val.town and is exploring TLA+ models to see how the approach would hold up and falsify its claims.",
+      "problem": "The author is tired of implementing webhooks and sync the same old way, finding the conventional approach cumbersome.",
+      "audience": null,
+      "builder_usernames": [
+        "devdoshi"
+      ],
+      "source_excerpt": "I've been getting tired of implementing webhooks and sync the same old way. https://webpoke.sudoscience.dev/ seems simpler. I did a poc using s2.dev and val.town [1] and am using the general idea to explore with TLA+ to see how it would model it to falsify the claims.",
+      "evidence": [
+        {
+          "source_item_id": 48535095,
+          "source_field": "body",
+          "value": "I've been getting tired of implementing webhooks and sync the same old way. https://webpoke.sudoscience.dev/ seems simpler. I did a poc using s2.dev and val.town [1] and am using the general idea to explore with TLA+ to see how it would model it to falsify the claims.",
+          "supports": [],
+          "author": "devdoshi",
+          "shared_at": 1781484693,
+          "source_url": "https://news.ycombinator.com/item?id=48535095"
+        }
+      ],
+      "source_item_id": 48535095,
+      "source_url": "https://news.ycombinator.com/item?id=48535095",
+      "author": "devdoshi",
+      "shared_at": 1781484693,
+      "links": [
+        "https://webpoke.sudoscience.dev/"
+      ]
+    }
+  ]
+}

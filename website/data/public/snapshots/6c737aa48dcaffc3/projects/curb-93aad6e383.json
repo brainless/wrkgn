@@ -1,0 +1,35 @@
+{
+  "id": 3639,
+  "slug": "curb-93aad6e383",
+  "name": "curb",
+  "mentions": [
+    {
+      "name": "curb",
+      "description": "A modern HTTPS-only transport utility and alternative to curl and wget, written in Go using only the standard library. It can stream output or download files, picks the right behavior based on what the server returns and whether output goes to a human or a pipe, and includes a '--vet' mode that runs the body through security sieves to add protection and friction for the 'curl | sh' use-case.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dbmnt"
+      ],
+      "source_excerpt": "I'm also building a modern HTTPS-only transport utility called curb. It's an alternative to curl and wget. It's written in Go using only the standard library. curb can stream output or download files and picks the right behavior based on what the server returns and whether the output is going to a human or a pipe. It also has a '--vet' mode that runs the body through security sieves; this is meant to add some protection and friction for the 'curl | sh' use-case. https://gocurb.dev",
+      "evidence": [
+        {
+          "source_item_id": 48536397,
+          "source_field": "body",
+          "value": "I'm also building a modern HTTPS-only transport utility called curb. It's an alternative to curl and wget. It's written in Go using only the standard library. curb can stream output or download files and picks the right behavior based on what the server returns and whether the output is going to a human or a pipe. It also has a '--vet' mode that runs the body through security sieves; this is meant to add some protection and friction for the 'curl | sh' use-case. https://gocurb.dev",
+          "supports": [],
+          "author": "dbmnt",
+          "shared_at": 1781495413,
+          "source_url": "https://news.ycombinator.com/item?id=48536397"
+        }
+      ],
+      "source_item_id": 48536397,
+      "source_url": "https://news.ycombinator.com/item?id=48536397",
+      "author": "dbmnt",
+      "shared_at": 1781495413,
+      "links": [
+        "https://gocurb.dev"
+      ]
+    }
+  ]
+}

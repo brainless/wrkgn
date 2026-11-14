@@ -1,0 +1,36 @@
+{
+  "id": 3650,
+  "slug": "faxanadu-disassembly-1fcd7a3b31",
+  "name": "Faxanadu disassembly",
+  "mentions": [
+    {
+      "name": "Faxanadu disassembly",
+      "description": "This project disassembles the NES game Faxanadu to fully understand and document it, covering its two binary scripting languages (one for item/NPC interactions, one for NPC/enemy behaviors) and its graphics rendering layer. Based on the disassembly, it has produced a suite of tools for building games under the Faxanadu engine, new major mods, and a modified ROM better suited for porting and modding.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "chipx86"
+      ],
+      "source_excerpt": "About a year ago, I started working on disassembling the NES game Faxanadu. The goal was to fully understand and document the game, and to produce the most thorough understanding of the game yet. It's been fascinating. The game has a two binary scripting languages (one for interactions with items and NPCs, one for NPC/enemy behaviors) and a very interesting graphics rendering layer. At this point pretty much the entire game is well-understood.\n\nBased on this work, there's now a new suite of tools for producing games under the Faxanadu engine, new major mods built with all this, and some work on a modified ROM better built for porting and modding.\n\nDisassembly is here: https://chipx86.com/faxanadu/\n\nAnd I've been blogging about it at https://chipx86.blog/",
+      "evidence": [
+        {
+          "source_item_id": 48538562,
+          "source_field": "body",
+          "value": "About a year ago, I started working on disassembling the NES game Faxanadu. The goal was to fully understand and document the game, and to produce the most thorough understanding of the game yet. It's been fascinating. The game has a two binary scripting languages (one for interactions with items and NPCs, one for NPC/enemy behaviors) and a very interesting graphics rendering layer. At this point pretty much the entire game is well-understood.\n\nBased on this work, there's now a new suite of tools for producing games under the Faxanadu engine, new major mods built with all this, and some work on a modified ROM better built for porting and modding.\n\nDisassembly is here: https://chipx86.com/faxanadu/\n\nAnd I've been blogging about it at https://chipx86.blog/",
+          "supports": [],
+          "author": "chipx86",
+          "shared_at": 1781514287,
+          "source_url": "https://news.ycombinator.com/item?id=48538562"
+        }
+      ],
+      "source_item_id": 48538562,
+      "source_url": "https://news.ycombinator.com/item?id=48538562",
+      "author": "chipx86",
+      "shared_at": 1781514287,
+      "links": [
+        "https://chipx86.blog/",
+        "https://chipx86.com/faxanadu/"
+      ]
+    }
+  ]
+}

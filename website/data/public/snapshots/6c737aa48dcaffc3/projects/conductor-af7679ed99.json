@@ -1,0 +1,35 @@
+{
+  "id": 10054,
+  "slug": "conductor-af7679ed99",
+  "name": "Conductor",
+  "mentions": [
+    {
+      "name": "Conductor",
+      "description": "An implementation of the subagents architectural pattern for running AI agents on complex tasks. A central Orchestrator manages a fleet of implicit or explicit Subagents, where each subagent is a specialized, isolated AI agent designed to perform a specific subtask.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "skanga"
+      ],
+      "source_excerpt": "So, I decided to build a practical implementation of this system with a central Orchestrator that manages a fleet of implicit or explicit Subagents. Each subagent is a specialized, isolated AI agent designed to perform a specific subtask. More details in the repo README at https://github.com/skanga/conductor",
+      "evidence": [
+        {
+          "source_item_id": 45423515,
+          "source_field": "body",
+          "value": "So, I decided to build a practical implementation of this system with a central Orchestrator that manages a fleet of implicit or explicit Subagents. Each subagent is a specialized, isolated AI agent designed to perform a specific subtask. More details in the repo README at https://github.com/skanga/conductor",
+          "supports": [],
+          "author": "skanga",
+          "shared_at": 1759223898,
+          "source_url": "https://news.ycombinator.com/item?id=45423515"
+        }
+      ],
+      "source_item_id": 45423515,
+      "source_url": "https://news.ycombinator.com/item?id=45423515",
+      "author": "skanga",
+      "shared_at": 1759223898,
+      "links": [
+        "https://github.com/skanga/conductor"
+      ]
+    }
+  ]
+}

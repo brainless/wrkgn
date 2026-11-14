@@ -1,0 +1,35 @@
+{
+  "id": 11110,
+  "slug": "flatland-client-f29bf4759a",
+  "name": "flatland-client",
+  "mentions": [
+    {
+      "name": "flatland-client",
+      "description": "A web-based drawing app for drafting home sewing patterns, blending CAD-style precision with sketching flexibility. Currently early-stage with Bezier tools being added; of the intended draft, lay out, print, repeat workflow, only the draft step is functional so far.",
+      "problem": "Home pattern-drafting tools are hard to use and expensive; the app aims to make home drafting easier and 100x cheaper.",
+      "audience": "Home sewists and hobbyists drafting their own sewing patterns.",
+      "builder_usernames": [
+        "arcsincosin"
+      ],
+      "source_excerpt": "I'm building a simple web-based drawing app for home sewing patterns. It's a little bit CAD and a little bit sketching tool. Born of my desire for easier and 100x cheaper home drafting tools.",
+      "evidence": [
+        {
+          "source_item_id": 43823601,
+          "source_field": "body",
+          "value": "I'm building a simple web-based drawing app for home sewing patterns. It's a little bit CAD and a little bit sketching tool. Born of my desire for easier and 100x cheaper home drafting tools.",
+          "supports": [],
+          "author": "arcsincosin",
+          "shared_at": 1745859791,
+          "source_url": "https://news.ycombinator.com/item?id=43823601"
+        }
+      ],
+      "source_item_id": 43823601,
+      "source_url": "https://news.ycombinator.com/item?id=43823601",
+      "author": "arcsincosin",
+      "shared_at": 1745859791,
+      "links": [
+        "https://github.com/twaldorf/flatland-client"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 6502,
+  "slug": "pwtray-a152c78d9a",
+  "name": "pwtray",
+  "mentions": [
+    {
+      "name": "pwtray",
+      "description": "This app provides Alfred/Spotlight-style quick access search for Bitwarden. Built in Rust using bwc-cli, it decrypts the vault into zeroized memory and offers near-instant search via a hotkey, with add-on features to copy card numbers and view notes.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "absqueued"
+      ],
+      "source_excerpt": "Alfred/Spotlight like quick access search[1] for Bitwarden.\n\nBuilt and adding few add on features on the way: copy card numbers and view notes.\n\n[1] https://pwtray.app",
+      "evidence": [
+        {
+          "source_item_id": 47306173,
+          "source_field": "body",
+          "value": "Alfred/Spotlight like quick access search[1] for Bitwarden.\n\nBuilt and adding few add on features on the way: copy card numbers and view notes.\n\n[1] https://pwtray.app",
+          "supports": [],
+          "author": "absqueued",
+          "shared_at": 1773044496,
+          "source_url": "https://news.ycombinator.com/item?id=47306173"
+        }
+      ],
+      "source_item_id": 47306173,
+      "source_url": "https://news.ycombinator.com/item?id=47306173",
+      "author": "absqueued",
+      "shared_at": 1773044496,
+      "links": [
+        "https://pwtray.app"
+      ]
+    }
+  ]
+}

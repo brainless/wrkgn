@@ -1,0 +1,33 @@
+{
+  "id": 7402,
+  "slug": "searxng-mcp-web-search-server-185d546df3",
+  "name": "SearxNG MCP Web Search Server",
+  "mentions": [
+    {
+      "name": "SearxNG MCP Web Search Server",
+      "description": "A Model Context Protocol (MCP) web search server built on SearxNG, with additional processing steps to feed LLMs better quality search data.",
+      "problem": "LLMs need better quality data from web search results.",
+      "audience": null,
+      "builder_usernames": [
+        "Havoc"
+      ],
+      "source_excerpt": "Trying to build a better MCP web search server. Searxng with a couple of steps to feed the LLM better quality data.",
+      "evidence": [
+        {
+          "source_item_id": 46940184,
+          "source_field": "body",
+          "value": "Trying to build a better MCP web search server. Searxng with a couple of steps to feed the LLM better quality data.",
+          "supports": [],
+          "author": "Havoc",
+          "shared_at": 1770597547,
+          "source_url": "https://news.ycombinator.com/item?id=46940184"
+        }
+      ],
+      "source_item_id": 46940184,
+      "source_url": "https://news.ycombinator.com/item?id=46940184",
+      "author": "Havoc",
+      "shared_at": 1770597547,
+      "links": []
+    }
+  ]
+}

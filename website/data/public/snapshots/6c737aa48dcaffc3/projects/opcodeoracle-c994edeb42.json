@@ -1,0 +1,35 @@
+{
+  "id": 6457,
+  "slug": "opcodeoracle-c994edeb42",
+  "name": "OpcodeOracle",
+  "mentions": [
+    {
+      "name": "OpcodeOracle",
+      "description": "A CLI and MCP flow disassembly tool built for reverse engineering old Commodore 64 games with coding agents. It lets the agent search the disassembly, provide annotations, manage symbols, and reinterpret code and data.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "s-macke"
+      ],
+      "source_excerpt": "To reverse engineer old C64 games using Coding Agents, I built a CLI and MCP flow disassembly tool. The agent can search the disassembly, provide annotations, manage symbols, and reinterpret code and data.",
+      "evidence": [
+        {
+          "source_item_id": 47305902,
+          "source_field": "body",
+          "value": "To reverse engineer old C64 games using Coding Agents, I built a CLI and MCP flow disassembly tool. The agent can search the disassembly, provide annotations, manage symbols, and reinterpret code and data.",
+          "supports": [],
+          "author": "s-macke",
+          "shared_at": 1773042039,
+          "source_url": "https://news.ycombinator.com/item?id=47305902"
+        }
+      ],
+      "source_item_id": 47305902,
+      "source_url": "https://news.ycombinator.com/item?id=47305902",
+      "author": "s-macke",
+      "shared_at": 1773042039,
+      "links": [
+        "https://github.com/s-macke/OpcodeOracle"
+      ]
+    }
+  ]
+}

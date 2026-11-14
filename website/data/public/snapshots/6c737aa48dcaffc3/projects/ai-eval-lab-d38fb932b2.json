@@ -1,0 +1,36 @@
+{
+  "id": 5356,
+  "slug": "ai-eval-lab-d38fb932b2",
+  "name": "ai-eval-lab",
+  "mentions": [
+    {
+      "name": "ai-eval-lab",
+      "description": "A hiring and remote-assessment platform for hardware engineers that provisions Docker-based testing environments. Each session runs KiCad inside a container under an xvfb virtual framebuffer, streamed to the browser via x11vnc, websockify (WebSocket-to-TCP bridge), and a noVNC iframe. A KiCad Python plugin auto-loads as a background thread and periodically tracks board objects (footprints, tracks, zones), serializing them to JSON and POSTing to the backend per session. An LLM then grades the full sequential board activity against admin-defined rubrics and per-checkpoint criteria. The MVP is hosted on AWS free tier with one concurrent session.",
+      "problem": "Hiring hardware engineers through provisioned testing environments lacked good software and a good remote-assessment tool, unlike software engineering hiring where there are many options.",
+      "audience": "Hardware engineers as candidates in remote hiring assessments",
+      "builder_usernames": [
+        "mind_uncapped"
+      ],
+      "source_excerpt": "I'm building a hiring platform for hardware engineers, contrary to hiring software engineers where there are too many options, hiring hardware engineers through provisioned testing environments lacked some good software, a good remote-assessment tool.\n\nA MVP is live at this https://ai-eval-lab.janardan.xyz/",
+      "evidence": [
+        {
+          "source_item_id": 47760898,
+          "source_field": "body",
+          "value": "I'm building a hiring platform for hardware engineers, contrary to hiring software engineers where there are too many options, hiring hardware engineers through provisioned testing environments lacked some good software, a good remote-assessment tool.\n\nA MVP is live at this https://ai-eval-lab.janardan.xyz/",
+          "supports": [],
+          "author": "mind_uncapped",
+          "shared_at": 1776137260,
+          "source_url": "https://news.ycombinator.com/item?id=47760898"
+        }
+      ],
+      "source_item_id": 47760898,
+      "source_url": "https://news.ycombinator.com/item?id=47760898",
+      "author": "mind_uncapped",
+      "shared_at": 1776137260,
+      "links": [
+        "https://ai-eval-lab.janardan.xyz/",
+        "https://github.com/janardannn/ai-eval-lab"
+      ]
+    }
+  ]
+}

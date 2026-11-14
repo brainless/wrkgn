@@ -1,0 +1,35 @@
+{
+  "id": 10735,
+  "slug": "temporis-c38aa846d2",
+  "name": "Temporis",
+  "mentions": [
+    {
+      "name": "Temporis",
+      "description": "A multiplatform Pomodoro timer app built with Slint that uses native OS styles for tight integration with the operating system. It is designed for low resource consumption, includes a ticking sound, and shows notifications reminding users to stay hydrated, stretch and walk. It consolidates the author's favorite features from other Pomodoro apps, works on Linux (and should work on Mac), and can be installed via Nix.",
+      "problem": "Existing Pomodoro apps are fragmented; the author wanted one multiplatform app with low resource consumption and native OS styling that consolidates the best features from the many Pomodoro apps they have used.",
+      "audience": "Explicitly built around the author's own personal use after trying many different Pomodoro apps",
+      "builder_usernames": [
+        "woile"
+      ],
+      "source_excerpt": "I'm building yet another Pomodoro app. I wanted something multiplatform with low resource consumption, using the native OS styles, so it integrated well with the OS, I'm using slint for that.",
+      "evidence": [
+        {
+          "source_item_id": 44703999,
+          "source_field": "body",
+          "value": "I'm building yet another Pomodoro app. I wanted something multiplatform with low resource consumption, using the native OS styles, so it integrated well with the OS, I'm using slint for that.",
+          "supports": [],
+          "author": "woile",
+          "shared_at": 1753645265,
+          "source_url": "https://news.ycombinator.com/item?id=44703999"
+        }
+      ],
+      "source_item_id": 44703999,
+      "source_url": "https://news.ycombinator.com/item?id=44703999",
+      "author": "woile",
+      "shared_at": 1753645265,
+      "links": [
+        "https://github.com/reciperium/temporis/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 5963,
+  "slug": "sift-6451ab13c5",
+  "name": "Sift",
+  "mentions": [
+    {
+      "name": "Sift",
+      "description": "Sift is a drop-in gateway that makes LLM tool use more reliable when tools return large JSON payloads. It sits between the model and its tools (MCP, APIs, CLIs), stores the full payload locally as an artifact indexed in SQLite, and returns only a compact schema plus an artifact_id; when the model needs data, it runs a small Python query against the stored artifact instead of reasoning over thousands of tokens of JSON. Benchmarks across 103 questions on real datasets showed ~95% reduction in input tokens and accuracy improving from ~33% to ~99%.",
+      "problem": "Agents paste raw tool outputs directly into the prompt, which blows up context, causes truncation/compaction, and leads to incorrect answers once earlier results disappear.",
+      "audience": null,
+      "builder_usernames": [
+        "loumaciel"
+      ],
+      "source_excerpt": "I’m building Sift, a drop-in gateway that makes LLM tool use far more reliable when tools return large JSON payloads. The usual pattern is that agents paste raw tool outputs directly into the prompt, which quickly blows up context, causes truncation/compaction, and leads to incorrect answers once earlier results disappear. Sift sits between the model and its tools (MCP, APIs, CLIs), stores the full payload locally as an artifact (indexed in SQLite), and returns only a compact schema plus an artifact_id.",
+      "evidence": [
+        {
+          "source_item_id": 47308747,
+          "source_field": "body",
+          "value": "I’m building Sift, a drop-in gateway that makes LLM tool use far more reliable when tools return large JSON payloads. The usual pattern is that agents paste raw tool outputs directly into the prompt, which quickly blows up context, causes truncation/compaction, and leads to incorrect answers once earlier results disappear. Sift sits between the model and its tools (MCP, APIs, CLIs), stores the full payload locally as an artifact (indexed in SQLite), and returns only a compact schema plus an artifact_id.",
+          "supports": [],
+          "author": "loumaciel",
+          "shared_at": 1773062632,
+          "source_url": "https://news.ycombinator.com/item?id=47308747"
+        }
+      ],
+      "source_item_id": 47308747,
+      "source_url": "https://news.ycombinator.com/item?id=47308747",
+      "author": "loumaciel",
+      "shared_at": 1773062632,
+      "links": [
+        "https://github.com/lourencomaciel/sift-gateway"
+      ]
+    }
+  ]
+}

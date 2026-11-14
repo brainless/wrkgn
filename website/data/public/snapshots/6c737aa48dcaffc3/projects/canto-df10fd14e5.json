@@ -1,0 +1,35 @@
+{
+  "id": 7856,
+  "slug": "canto-df10fd14e5",
+  "name": "Canto",
+  "mentions": [
+    {
+      "name": "Canto",
+      "description": "A neurosymbolic language that treats prompts as policies rather than hard rules, aimed at managing prompt optimization and rolling out prompt changes in production.",
+      "problem": "Keeping prompts optimized and rolling out prompt changes in production is tedious.",
+      "audience": null,
+      "builder_usernames": [
+        "igt0"
+      ],
+      "source_excerpt": "I got tired of keep optimizing prompt and rolling out changes in production. So I built a neurosymbolic language to help with that, where prompts as policies instead as hard rules.",
+      "evidence": [
+        {
+          "source_item_id": 46587302,
+          "source_field": "body",
+          "value": "I got tired of keep optimizing prompt and rolling out changes in production. So I built a neurosymbolic language to help with that, where prompts as policies instead as hard rules.",
+          "supports": [],
+          "author": "igt0",
+          "shared_at": 1768219453,
+          "source_url": "https://news.ycombinator.com/item?id=46587302"
+        }
+      ],
+      "source_item_id": 46587302,
+      "source_url": "https://news.ycombinator.com/item?id=46587302",
+      "author": "igt0",
+      "shared_at": 1768219453,
+      "links": [
+        "https://github.com/canto-lang/canto-lang"
+      ]
+    }
+  ]
+}

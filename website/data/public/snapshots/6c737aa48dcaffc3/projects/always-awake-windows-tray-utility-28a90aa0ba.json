@@ -1,0 +1,33 @@
+{
+  "id": 9237,
+  "slug": "always-awake-windows-tray-utility-28a90aa0ba",
+  "name": "Always Awake Windows Tray Utility",
+  "mentions": [
+    {
+      "name": "Always Awake Windows Tray Utility",
+      "description": "A small Windows tray utility that keeps a PC \"always awake\": it prevents the PC from going to sleep using a dedicated Windows API and simulates invisible mouse movements every 60 seconds so the user always appears active in apps like MS Teams. It deliberately has no options or command-line flags—just a tray icon toggled on (green) or off (orange) with a double-click. The full installer is only 100Kb, works on all Windows versions from Win7 onward, and installs without admin rights.",
+      "problem": "Existing alternatives are awkward: Microsoft's similar PowerToy is full of options and command-line flags, and physical mouse jigglers are cumbersome and often produce visible mouse movements, which is annoying.",
+      "audience": null,
+      "builder_usernames": [
+        "bambax"
+      ],
+      "source_excerpt": "This month I wrote a small Windows utility to keep a PC \"always awake\": prevents the PC from going to sleep (using a Windows API that exists just for that) and simulates invisible mouse movements every 60 seconds to keep apps like MS Teams happy, so that the user always appears active.",
+      "evidence": [
+        {
+          "source_item_id": 45876043,
+          "source_field": "body",
+          "value": "This month I wrote a small Windows utility to keep a PC \"always awake\": prevents the PC from going to sleep (using a Windows API that exists just for that) and simulates invisible mouse movements every 60 seconds to keep apps like MS Teams happy, so that the user always appears active.",
+          "supports": [],
+          "author": "bambax",
+          "shared_at": 1762782907,
+          "source_url": "https://news.ycombinator.com/item?id=45876043"
+        }
+      ],
+      "source_item_id": 45876043,
+      "source_url": "https://news.ycombinator.com/item?id=45876043",
+      "author": "bambax",
+      "shared_at": 1762782907,
+      "links": []
+    }
+  ]
+}

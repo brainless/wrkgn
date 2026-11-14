@@ -1,0 +1,33 @@
+{
+  "id": 9243,
+  "slug": "alaska-d16198eca4",
+  "name": "Alaska",
+  "mentions": [
+    {
+      "name": "Alaska",
+      "description": "A serverless compute platform built from scratch without Kubernetes or existing orchestration layers, capable of spinning up dozens of containers in parallel in seconds. It emphasizes a fast feedback loop for writing code locally, testing instantly, and running remotely with minimal friction. A Python SDK uses decorators so local functions become distributed services without boilerplate, and a custom FUSE filesystem synchronizes code, data, and runtime across nodes. A beta is planned.",
+      "problem": null,
+      "audience": "Developers building and deploying distributed services",
+      "builder_usernames": [
+        "davideberdin"
+      ],
+      "source_excerpt": "I’m working on Alaska, a serverless compute platform I built entirely from scratch — no Kubernetes, no existing orchestration layers. It can spin up dozens of containers in parallel in just a few seconds.",
+      "evidence": [
+        {
+          "source_item_id": 45875109,
+          "source_field": "body",
+          "value": "I’m working on Alaska, a serverless compute platform I built entirely from scratch — no Kubernetes, no existing orchestration layers. It can spin up dozens of containers in parallel in just a few seconds.",
+          "supports": [],
+          "author": "davideberdin",
+          "shared_at": 1762776110,
+          "source_url": "https://news.ycombinator.com/item?id=45875109"
+        }
+      ],
+      "source_item_id": 45875109,
+      "source_url": "https://news.ycombinator.com/item?id=45875109",
+      "author": "davideberdin",
+      "shared_at": 1762776110,
+      "links": []
+    }
+  ]
+}

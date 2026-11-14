@@ -1,0 +1,33 @@
+{
+  "id": 5110,
+  "slug": "freebsd-on-ec2-97fb1f4cd7",
+  "name": "FreeBSD on EC2",
+  "mentions": [
+    {
+      "name": "FreeBSD on EC2",
+      "description": "An ongoing effort to make FreeBSD work better on Amazon EC2, currently centered on tracking down an issue with the ENA network interface that causes sporadic packet loss when a large number of TCP segments are pushed to the NIC very fast. Investigation so far suggests a connection with write combining on the MMIO space used for low-latency queueing, possibly a firmware bug in the ENA device.",
+      "problem": "The ENA network interface on EC2 exhibits sporadic packet loss that is hard to reproduce, apparently requiring large numbers of TCP segments pushed to the NIC very quickly.",
+      "audience": null,
+      "builder_usernames": [
+        "cperciva"
+      ],
+      "source_excerpt": "The same thing I do every night - try to make FreeBSD work better on EC2!\n\nOk in all seriousness, right now I'm tracking down an issue with the ENA network interface which results in sporadic packet loss.",
+      "evidence": [
+        {
+          "source_item_id": 47745785,
+          "source_field": "body",
+          "value": "The same thing I do every night - try to make FreeBSD work better on EC2!\n\nOk in all seriousness, right now I'm tracking down an issue with the ENA network interface which results in sporadic packet loss.",
+          "supports": [],
+          "author": "cperciva",
+          "shared_at": 1776037751,
+          "source_url": "https://news.ycombinator.com/item?id=47745785"
+        }
+      ],
+      "source_item_id": 47745785,
+      "source_url": "https://news.ycombinator.com/item?id=47745785",
+      "author": "cperciva",
+      "shared_at": 1776037751,
+      "links": []
+    }
+  ]
+}

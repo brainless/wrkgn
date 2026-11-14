@@ -1,0 +1,63 @@
+{
+  "id": 8376,
+  "slug": "blognerd-107f0662f8",
+  "name": "BlogNerd",
+  "mentions": [
+    {
+      "name": "BlogNerd",
+      "description": "BlogNerd (blognerd.app) is a blog aggregation app described by its author as something a little similar to GreatReads; the author notes being interested in an RSS remixing idea but having not quite cracked it.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "alastairr"
+      ],
+      "source_excerpt": "I built something a little similar https://blognerd.app.",
+      "evidence": [
+        {
+          "source_item_id": 46268124,
+          "source_field": "body",
+          "value": "I built something a little similar https://blognerd.app.",
+          "supports": [],
+          "author": "alastairr",
+          "shared_at": 1765753832,
+          "source_url": "https://news.ycombinator.com/item?id=46268124"
+        }
+      ],
+      "source_item_id": 46268124,
+      "source_url": "https://news.ycombinator.com/item?id=46268124",
+      "author": "alastairr",
+      "shared_at": 1765753832,
+      "links": [
+        "https://blognerd.app"
+      ]
+    },
+    {
+      "name": "Blognerd",
+      "description": "A search engine for RSS fans that lets users create custom RSS feeds via a search query API, search across RSS feeds and blog posts, and find similar posts and blogs.",
+      "problem": null,
+      "audience": "RSS fans",
+      "builder_usernames": [
+        "alastairr"
+      ],
+      "source_excerpt": "https://blognerd.app/\n\nA little search engine I'm building for RSS fans, lets you\n\n- create custom RSS feeds via search query API\n- search RSS feeds / blog posts\n- find similar posts / blogs",
+      "evidence": [
+        {
+          "source_item_id": 45423496,
+          "source_field": "body",
+          "value": "https://blognerd.app/\n\nA little search engine I'm building for RSS fans, lets you\n\n- create custom RSS feeds via search query API\n- search RSS feeds / blog posts\n- find similar posts / blogs",
+          "supports": [],
+          "author": "alastairr",
+          "shared_at": 1759223598,
+          "source_url": "https://news.ycombinator.com/item?id=45423496"
+        }
+      ],
+      "source_item_id": 45423496,
+      "source_url": "https://news.ycombinator.com/item?id=45423496",
+      "author": "alastairr",
+      "shared_at": 1759223598,
+      "links": [
+        "https://blognerd.app/"
+      ]
+    }
+  ]
+}

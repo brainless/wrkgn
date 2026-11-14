@@ -1,0 +1,35 @@
+{
+  "id": 8338,
+  "slug": "scribeai-f4e61aae69",
+  "name": "ScribeAI",
+  "mentions": [
+    {
+      "name": "ScribeAI",
+      "description": "ScribeAI is a live speech transcription and translation app that runs Whisper Large v3 in real time. Transcripts can be translated live by bringing your own LLM service API key or by using the built-in Apple Translate models for a completely offline experience.",
+      "problem": "Lets users follow along speeches and other content in languages they don't understand, which they otherwise couldn't consume.",
+      "audience": null,
+      "builder_usernames": [
+        "rrsp"
+      ],
+      "source_excerpt": "I built a universal live speech translating app.\n\nI’ve been playing around with the Whisper models for a few years now. Last year I had an idea about how to run Whisper Large v3 in real time. That idea became ScribeAI.\n\nBecause the quality of transcripts was so high, much higher than I could get with Parakeet, I started to think about how it would serve as a good input for live translation. I played around with this and was surprised by how good the results is, I’ve used it to follow along political speech’s from foreign leaders and other content I’d have just never been able to consume before. You can translate by bringing your own LLM service API key or using the inbuilt Apple Translate models (for a completely offline experience).",
+      "evidence": [
+        {
+          "source_item_id": 46270132,
+          "source_field": "body",
+          "value": "I built a universal live speech translating app.\n\nI’ve been playing around with the Whisper models for a few years now. Last year I had an idea about how to run Whisper Large v3 in real time. That idea became ScribeAI.\n\nBecause the quality of transcripts was so high, much higher than I could get with Parakeet, I started to think about how it would serve as a good input for live translation. I played around with this and was surprised by how good the results is, I’ve used it to follow along political speech’s from foreign leaders and other content I’d have just never been able to consume before. You can translate by bringing your own LLM service API key or using the inbuilt Apple Translate models (for a completely offline experience).",
+          "supports": [],
+          "author": "rrsp",
+          "shared_at": 1765769526,
+          "source_url": "https://news.ycombinator.com/item?id=46270132"
+        }
+      ],
+      "source_item_id": 46270132,
+      "source_url": "https://news.ycombinator.com/item?id=46270132",
+      "author": "rrsp",
+      "shared_at": 1765769526,
+      "links": [
+        "https://apps.apple.com/gb/app/scribeai-transcribe-speech/id6751108783"
+      ]
+    }
+  ]
+}

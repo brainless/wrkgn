@@ -1,0 +1,35 @@
+{
+  "id": 10046,
+  "slug": "pull-requests-for-data-in-grist-e6adf50a6d",
+  "name": "Pull requests for data in Grist",
+  "mentions": [
+    {
+      "name": "Pull requests for data in Grist",
+      "description": "This feature adds pull-request-style workflows for data to the Grist spreadsheet, enabling data diffs, patches, and reviews so people working on curated data projects can collaborate more like coders.",
+      "problem": "Curated data projects lack a coder-like workflow with pull requests and reviews, and building such a workflow as a stand-alone tool was too much.",
+      "audience": "People working on data projects, especially curated data projects",
+      "builder_usernames": [
+        "paulfitz"
+      ],
+      "source_excerpt": "I'm quietly adding \"pull requests\" for data to Grist https://github.com/gristlabs/grist-core/issues/1829 - been wanting to do this for a long time.",
+      "evidence": [
+        {
+          "source_item_id": 45427228,
+          "source_field": "body",
+          "value": "I'm quietly adding \"pull requests\" for data to Grist https://github.com/gristlabs/grist-core/issues/1829 - been wanting to do this for a long time.",
+          "supports": [],
+          "author": "paulfitz",
+          "shared_at": 1759248171,
+          "source_url": "https://news.ycombinator.com/item?id=45427228"
+        }
+      ],
+      "source_item_id": 45427228,
+      "source_url": "https://news.ycombinator.com/item?id=45427228",
+      "author": "paulfitz",
+      "shared_at": 1759248171,
+      "links": [
+        "https://github.com/gristlabs/grist-core/issues/1829"
+      ]
+    }
+  ]
+}

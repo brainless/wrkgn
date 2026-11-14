@@ -1,0 +1,33 @@
+{
+  "id": 5619,
+  "slug": "dynamic-topological-gpu-execution-model-7fe84e60a1",
+  "name": "Dynamic Topological GPU Execution Model",
+  "mentions": [
+    {
+      "name": "Dynamic Topological GPU Execution Model",
+      "description": "A dynamic topological algorithm paired with a matching GPU-side execution model, exploring how changing task structure can drive a correspondingly changing compute flow instead of forcing all work through a fixed pipeline.",
+      "problem": "Existing approaches force all compute through a fixed pipeline even when the task structure changes.",
+      "audience": null,
+      "builder_usernames": [
+        "WLHsu"
+      ],
+      "source_excerpt": "I’ve been exploring whether changing task structure should lead to changing compute flow as well, instead of forcing everything through a fixed pipeline. One direction I’m thinking about is a dynamic topological algorithm together with a matching GPU-side execution model.",
+      "evidence": [
+        {
+          "source_item_id": 47760909,
+          "source_field": "body",
+          "value": "I’ve been exploring whether changing task structure should lead to changing compute flow as well, instead of forcing everything through a fixed pipeline. One direction I’m thinking about is a dynamic topological algorithm together with a matching GPU-side execution model.",
+          "supports": [],
+          "author": "WLHsu",
+          "shared_at": 1776137323,
+          "source_url": "https://news.ycombinator.com/item?id=47760909"
+        }
+      ],
+      "source_item_id": 47760909,
+      "source_url": "https://news.ycombinator.com/item?id=47760909",
+      "author": "WLHsu",
+      "shared_at": 1776137323,
+      "links": []
+    }
+  ]
+}

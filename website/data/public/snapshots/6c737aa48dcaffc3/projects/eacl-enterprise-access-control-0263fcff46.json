@@ -1,0 +1,37 @@
+{
+  "id": 8192,
+  "slug": "eacl-enterprise-access-control-0263fcff46",
+  "name": "EACL (Enterprise Access ControL)",
+  "mentions": [
+    {
+      "name": "EACL (Enterprise Access ControL)",
+      "description": "A situated ReBAC authorization library based on SpiceDB, built in Clojure and backed by Datomic. Permissions live next to the data in Datomic, avoiding a network hop and syncing to an external AuthZ system, so queries are fully consistent with sub-millisecond query times. It is benchmarked against 800k permissioned entities and can sync relationships 1-for-1 to SpiceDB in near real-time when more scale or different consistency semantics are needed. Suited to Electric Clojure applications and real-time population of menus.",
+      "problem": "External AuthZ systems like SpiceDB require a network hop and syncing, which breaks full consistency; EACL avoids this by storing permissions alongside the data in Datomic.",
+      "audience": "Clojure developers needing fine-grained permissions",
+      "builder_usernames": [
+        "pgt"
+      ],
+      "source_excerpt": "EACL (Enterprise Access ControL) is a situated ReBAC authorization library based on SpiceDB, built in Clojure and backed by Datomic. EACL queries offer sub-millisecond query times and has replaced SpiceDB at work (CloudAfrica).",
+      "evidence": [
+        {
+          "source_item_id": 46276468,
+          "source_field": "body",
+          "value": "EACL (Enterprise Access ControL) is a situated ReBAC authorization library based on SpiceDB, built in Clojure and backed by Datomic. EACL queries offer sub-millisecond query times and has replaced SpiceDB at work (CloudAfrica).",
+          "supports": [],
+          "author": "pgt",
+          "shared_at": 1765815452,
+          "source_url": "https://news.ycombinator.com/item?id=46276468"
+        }
+      ],
+      "source_item_id": 46276468,
+      "source_url": "https://news.ycombinator.com/item?id=46276468",
+      "author": "pgt",
+      "shared_at": 1765815452,
+      "links": [
+        "http://github.com/theronic/eacl",
+        "https://eacl.dev/#why-was-eacl-built-the-problem-with-external-authz",
+        "https://x.com/PetrusTheron/status/1996344248925294773"
+      ]
+    }
+  ]
+}

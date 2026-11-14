@@ -1,0 +1,36 @@
+{
+  "id": 4363,
+  "slug": "drum-notation-dsl-7f2baf6f6c",
+  "name": "Drum notation DSL",
+  "mentions": [
+    {
+      "name": "Drum notation DSL",
+      "description": "A text-based domain-specific language for writing drum sheet music as raw text, inspired by ABC Notation but focused solely on drums. The notation is compiled into rendered PDF sheet music and can be played back as audio, and the same music can also be displayed as a DrumMania/DTXMania-style rhythm game. The language and compiler have been dogfooded for about six months, and an IDE-style editor is in development for importing a song and writing notation that follows it.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "luigi_123"
+      ],
+      "source_excerpt": "I've been making a DSL for writing sheet music specifically for drums as raw text, inspired by ABC Notation (but of course just for drums).",
+      "evidence": [
+        {
+          "source_item_id": 48089329,
+          "source_field": "body",
+          "value": "I've been making a DSL for writing sheet music specifically for drums as raw text, inspired by ABC Notation (but of course just for drums).",
+          "supports": [],
+          "author": "luigi_123",
+          "shared_at": 1778456722,
+          "source_url": "https://news.ycombinator.com/item?id=48089329"
+        }
+      ],
+      "source_item_id": 48089329,
+      "source_url": "https://news.ycombinator.com/item?id=48089329",
+      "author": "luigi_123",
+      "shared_at": 1778456722,
+      "links": [
+        "https://gist.github.com/Luigi123/945af7e5cc8dfbfd186f0a9975472eb1",
+        "https://i.imgur.com/EmlqlrM.png"
+      ]
+    }
+  ]
+}

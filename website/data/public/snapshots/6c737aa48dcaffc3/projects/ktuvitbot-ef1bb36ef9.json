@@ -1,0 +1,36 @@
+{
+  "id": 6052,
+  "slug": "ktuvitbot-ef1bb36ef9",
+  "name": "ktuvitbot",
+  "mentions": [
+    {
+      "name": "ktuvitbot",
+      "description": "A Telegram bot that adds subtitles to short videos within Telegram, built to make it easier to follow news from around the world.",
+      "problem": "Language barriers make it hard to follow news videos from around the world.",
+      "audience": "general-public",
+      "builder_usernames": [
+        "shloim"
+      ],
+      "source_excerpt": "I built a similar bot a year ago, mostly for adding subtitles for short videos within telegram, to follow news from around the world.",
+      "evidence": [
+        {
+          "source_item_id": 47391845,
+          "source_field": "body",
+          "value": "I built a similar bot a year ago, mostly for adding subtitles for short videos within telegram, to follow news from around the world.",
+          "supports": [],
+          "author": "shloim",
+          "shared_at": 1773608405,
+          "source_url": "https://news.ycombinator.com/item?id=47391845"
+        }
+      ],
+      "source_item_id": 47391845,
+      "source_url": "https://news.ycombinator.com/item?id=47391845",
+      "author": "shloim",
+      "shared_at": 1773608405,
+      "links": [
+        "https://medium.com/data-science-collective/breaking-language-barriers-how-i-built-a-video-translation-telegram-bot-in-one-hour-db739db429f4",
+        "https://t.me/ktuvitbot"
+      ]
+    }
+  ]
+}

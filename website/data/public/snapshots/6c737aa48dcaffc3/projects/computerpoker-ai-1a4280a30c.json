@@ -1,0 +1,33 @@
+{
+  "id": 5886,
+  "slug": "computerpoker-ai-1a4280a30c",
+  "name": "ComputerPoker.ai",
+  "mentions": [
+    {
+      "name": "ComputerPoker.ai",
+      "description": "This website lets users learn GTO poker strategy by playing simulated Texas Hold 'Em tournaments against GTO bots in a low-risk environment, with real-time feedback on decisions as they play. It includes GTO pre-flop quizzes and pre-flop charts, grades users on covered pre-flop scenarios, and grades post-flop decisions using a PyTorch MLP model that approximates GTO play, trained on data from an in-house Rust CFR++ solver. The stack is Django on AWS via Terraform and SaltStack, Postgres RDS, and HTMX with WebSockets via Django Channels and Redis.",
+      "problem": "Professional poker tools for learning GTO play can be overwhelming; for some tools, learning to operate the tool itself felt like a second job. ComputerPoker.ai instead teaches GTO strategy through play against bots, with no knobs or dials to configure.",
+      "audience": null,
+      "builder_usernames": [
+        "abbadadda"
+      ],
+      "source_excerpt": "ComputerPoker.ai is a website where users can play simulated poker tournaments against GTO Bots to learn GTO poker strategy in a fun and low-risk environment.",
+      "evidence": [
+        {
+          "source_item_id": 47749249,
+          "source_field": "body",
+          "value": "ComputerPoker.ai is a website where users can play simulated poker tournaments against GTO Bots to learn GTO poker strategy in a fun and low-risk environment.",
+          "supports": [],
+          "author": "abbadadda",
+          "shared_at": 1776068341,
+          "source_url": "https://news.ycombinator.com/item?id=47749249"
+        }
+      ],
+      "source_item_id": 47749249,
+      "source_url": "https://news.ycombinator.com/item?id=47749249",
+      "author": "abbadadda",
+      "shared_at": 1776068341,
+      "links": []
+    }
+  ]
+}

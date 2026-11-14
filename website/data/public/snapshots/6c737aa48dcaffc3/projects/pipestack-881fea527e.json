@@ -1,0 +1,63 @@
+{
+  "id": 9273,
+  "slug": "pipestack-881fea527e",
+  "name": "Pipestack",
+  "mentions": [
+    {
+      "name": "Pipestack",
+      "description": "A workflow automation platform where users bring their own code packaged as Wasm Components to build pipelines. Like n8n, but pipelines are authored with the user's own code and can optionally run on the user's own hardware.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mootoday"
+      ],
+      "source_excerpt": "I'm working on https://pipestack.dev, a workflow automation platform where you bring your own code - as Wasm Components.\n\nThink n8n, but you bring your own code and optionally even your hardware to execute pipelines.",
+      "evidence": [
+        {
+          "source_item_id": 45871738,
+          "source_field": "body",
+          "value": "I'm working on https://pipestack.dev, a workflow automation platform where you bring your own code - as Wasm Components.\n\nThink n8n, but you bring your own code and optionally even your hardware to execute pipelines.",
+          "supports": [],
+          "author": "mootoday",
+          "shared_at": 1762742354,
+          "source_url": "https://news.ycombinator.com/item?id=45871738"
+        }
+      ],
+      "source_item_id": 45871738,
+      "source_url": "https://news.ycombinator.com/item?id=45871738",
+      "author": "mootoday",
+      "shared_at": 1762742354,
+      "links": [
+        "https://pipestack.dev"
+      ]
+    },
+    {
+      "name": "Pipestack",
+      "description": "Workflow pipeline builder that executes Wasm Components as individual nodes within a pipeline. Similar to Zapier or n8n, it offers existing processing nodes or lets users upload their own code written in any language that compiles to Wasm Components. Live at https://pipestack.dev.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mootoday"
+      ],
+      "source_excerpt": "I'm heads down building a workflow pipeline builder that executes Wasm Components as part of individual nodes within the pipeline.\n\nThink Zapier or n8n, but you either use existing processing nodes or upload your own code, written of course in any language that compiles to Wasm Components.",
+      "evidence": [
+        {
+          "source_item_id": 44706994,
+          "source_field": "body",
+          "value": "I'm heads down building a workflow pipeline builder that executes Wasm Components as part of individual nodes within the pipeline.\n\nThink Zapier or n8n, but you either use existing processing nodes or upload your own code, written of course in any language that compiles to Wasm Components.",
+          "supports": [],
+          "author": "mootoday",
+          "shared_at": 1753673750,
+          "source_url": "https://news.ycombinator.com/item?id=44706994"
+        }
+      ],
+      "source_item_id": 44706994,
+      "source_url": "https://news.ycombinator.com/item?id=44706994",
+      "author": "mootoday",
+      "shared_at": 1753673750,
+      "links": [
+        "https://pipestack.dev"
+      ]
+    }
+  ]
+}

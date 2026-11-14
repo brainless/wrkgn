@@ -1,0 +1,35 @@
+{
+  "id": 3942,
+  "slug": "legalrabbit-docx-plugin-ef46954f54",
+  "name": "LegalRabbit docx plugin",
+  "mentions": [
+    {
+      "name": "LegalRabbit docx plugin",
+      "description": "A Cowork/Codex plugin for reading and manipulating docx files. It uses 2-5x fewer tokens than Anthropic's docx skill and is much faster, and can be used together with Claude For Legal.",
+      "problem": "Reading and manipulating docx files with AI agents is token-heavy and slow with existing skills like Anthropic's docx skill.",
+      "audience": "Lawyers who redline and draft legal documents, who almost always work with docx files.",
+      "builder_usernames": [
+        "tanin"
+      ],
+      "source_excerpt": "I'm working on a Cowork/Codex plugin for reading and manipulating docx files. It uses 2-5x fewer tokens compared to the Anthropic's docx skill and is  much faster.",
+      "evidence": [
+        {
+          "source_item_id": 48534100,
+          "source_field": "body",
+          "value": "I'm working on a Cowork/Codex plugin for reading and manipulating docx files. It uses 2-5x fewer tokens compared to the Anthropic's docx skill and is  much faster.",
+          "supports": [],
+          "author": "tanin",
+          "shared_at": 1781479186,
+          "source_url": "https://news.ycombinator.com/item?id=48534100"
+        }
+      ],
+      "source_item_id": 48534100,
+      "source_url": "https://news.ycombinator.com/item?id=48534100",
+      "author": "tanin",
+      "shared_at": 1781479186,
+      "links": [
+        "https://github.com/LegalRabbit-AI/legalrabbit-docx-claude-plugin"
+      ]
+    }
+  ]
+}

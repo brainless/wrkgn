@@ -1,0 +1,33 @@
+{
+  "id": 9145,
+  "slug": "mdl-guided-discrete-arc-agi-solver-2bfff26177",
+  "name": "MDL-guided discrete ARC-AGI solver",
+  "mentions": [
+    {
+      "name": "MDL-guided discrete ARC-AGI solver",
+      "description": "This project researches an approach to solving the ARC-AGI ML benchmark that avoids gradient-descent deep learning, which the author argues is a poor fit for the benchmark's discrete symmetries and tiny data. Instead it uses explicit, non-heuristic discrete methods, with minimum description length guiding the search for grid representations and solver functions. The builder is seeking teammates for ARC-3.",
+      "problem": "Deep learning (differentiable SGD backprop style) is a bad fit for the ARC-AGI benchmark because its tasks are almost entirely discrete symmetries with little data to approximate them with continuous ones.",
+      "audience": null,
+      "builder_usernames": [
+        "synapsomorphy"
+      ],
+      "source_excerpt": "I think that a more explicit and discrete approach is the way to go, and it's possible to build something surprisingly general and not heuristic-based even without gradient descent, guided by minimum description length to search for both grid representations and solver functions. I'm looking for teammates for ARC-3 so hit me up if this sounds interesting, I'd love to chat!",
+      "evidence": [
+        {
+          "source_item_id": 45870601,
+          "source_field": "body",
+          "value": "I think that a more explicit and discrete approach is the way to go, and it's possible to build something surprisingly general and not heuristic-based even without gradient descent, guided by minimum description length to search for both grid representations and solver functions. I'm looking for teammates for ARC-3 so hit me up if this sounds interesting, I'd love to chat!",
+          "supports": [],
+          "author": "synapsomorphy",
+          "shared_at": 1762732956,
+          "source_url": "https://news.ycombinator.com/item?id=45870601"
+        }
+      ],
+      "source_item_id": 45870601,
+      "source_url": "https://news.ycombinator.com/item?id=45870601",
+      "author": "synapsomorphy",
+      "shared_at": 1762732956,
+      "links": []
+    }
+  ]
+}

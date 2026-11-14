@@ -1,0 +1,35 @@
+{
+  "id": 6106,
+  "slug": "tiny-llm-training-experiments-in-rust-candle-6805df74a9",
+  "name": "Tiny LLM training experiments in Rust/Candle",
+  "mentions": [
+    {
+      "name": "Tiny LLM training experiments in Rust/Candle",
+      "description": "A hobby project that trains a tiny LLM from scratch using Rust and the Candle framework. It involves constant tweaking with results tracked in a spreadsheet, plus building a ~17 MB training corpus of LLM-generated stories, encyclopedia-style content, and JSON examples. The model can answer simple extractive questions (where the answer appears in the prompt) with up to 75% accuracy, and the goal is learning and fun rather than production use.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "antoineMoPa"
+      ],
+      "source_excerpt": "Training a tiny LLM for fun using Rust/Candle - I constantly tweak stuff and keep track of results in a spreadsheet and work on generating a bigger corpus with LLMs. It's a project for fun, so I don't care about finding actual human generated text, I'd rather craft data in the format I want using LLMs",
+      "evidence": [
+        {
+          "source_item_id": 47303500,
+          "source_field": "body",
+          "value": "Training a tiny LLM for fun using Rust/Candle - I constantly tweak stuff and keep track of results in a spreadsheet and work on generating a bigger corpus with LLMs. It's a project for fun, so I don't care about finding actual human generated text, I'd rather craft data in the format I want using LLMs",
+          "supports": [],
+          "author": "antoineMoPa",
+          "shared_at": 1773017780,
+          "source_url": "https://news.ycombinator.com/item?id=47303500"
+        }
+      ],
+      "source_item_id": 47303500,
+      "source_url": "https://news.ycombinator.com/item?id=47303500",
+      "author": "antoineMoPa",
+      "shared_at": 1773017780,
+      "links": [
+        "https://github.com/antoineMoPa/rust-text-experiments"
+      ]
+    }
+  ]
+}

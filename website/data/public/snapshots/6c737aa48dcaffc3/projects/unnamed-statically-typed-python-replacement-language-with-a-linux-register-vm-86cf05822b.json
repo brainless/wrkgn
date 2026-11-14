@@ -1,0 +1,33 @@
+{
+  "id": 4462,
+  "slug": "unnamed-statically-typed-python-replacement-language-with-a-linux-register-vm-86cf05822b",
+  "name": "Unnamed statically typed Python-replacement language with a Linux register VM",
+  "mentions": [
+    {
+      "name": "Unnamed statically typed Python-replacement language with a Linux register VM",
+      "description": "A statically typed programming language designed as a Python replacement, built on a freestanding register VM deeply tied to the Linux kernel. It provides Erlang-style M:N concurrency with an instruction-fuel preemption scheduler capable of running tens of thousands of green processes, per-process garbage collection (Cheney nursery plus mark-and-sweep), tail calls, first-class functions, operator overloading, and OOP emulation via UFCS while dropping OOP entirely. Error handling splits into trappable Errors and untrappable Faults that crash the VM. Phase One ships Vm0 with a bounded set of Linux syscalls and no JIT. It is in private development with a possible open-source release once the core stabilizes; benchmarks show it far faster than Python and roughly 8x slower than C.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "sieve"
+      ],
+      "source_excerpt": "A replacement for python.\n\n- The base is a freestanding register VM deeply tied to the Linux kernel.",
+      "evidence": [
+        {
+          "source_item_id": 48090665,
+          "source_field": "body",
+          "value": "A replacement for python.\n\n- The base is a freestanding register VM deeply tied to the Linux kernel.",
+          "supports": [],
+          "author": "sieve",
+          "shared_at": 1778468928,
+          "source_url": "https://news.ycombinator.com/item?id=48090665"
+        }
+      ],
+      "source_item_id": 48090665,
+      "source_url": "https://news.ycombinator.com/item?id=48090665",
+      "author": "sieve",
+      "shared_at": 1778468928,
+      "links": []
+    }
+  ]
+}

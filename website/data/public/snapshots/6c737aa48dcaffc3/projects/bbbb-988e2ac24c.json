@@ -1,0 +1,33 @@
+{
+  "id": 11375,
+  "slug": "bbbb-988e2ac24c",
+  "name": "bbbb",
+  "mentions": [
+    {
+      "name": "bbbb",
+      "description": "A minimal build backend for Python packages inspired by Flit that also supports projects with non-Python code and doesn't enforce distributions with a single top-level import package. Its core package (treated as the default) can only build wheels, while a separately declared dev package builds sdists and can be declared as an in-tree backend in pyproject.toml, so pure-Python projects can distribute sdists needing no build-time dependencies. The goal is to minimize download footprint and maximize modularity when end users turn an sdist into a wheel. Non-Python compilation, sdist content/metadata customization, and manifest filtering hook into arbitrary Python code with a simpler, narrower API than setup.py, meant to be extended with separately listed build-time support libraries.",
+      "problem": "Existing build backends are heavier and more restrictive, and distributing sdists for pure-Python code currently forces build-time dependencies on end users who just want to build a wheel.",
+      "audience": null,
+      "builder_usernames": [
+        "zahlman"
+      ],
+      "source_excerpt": "will soon return to bbbb (the Bare-Bones Build Backend, a build backend for Python packages)",
+      "evidence": [
+        {
+          "source_item_id": 43825508,
+          "source_field": "body",
+          "value": "will soon return to bbbb (the Bare-Bones Build Backend, a build backend for Python packages)",
+          "supports": [],
+          "author": "zahlman",
+          "shared_at": 1745870835,
+          "source_url": "https://news.ycombinator.com/item?id=43825508"
+        }
+      ],
+      "source_item_id": 43825508,
+      "source_url": "https://news.ycombinator.com/item?id=43825508",
+      "author": "zahlman",
+      "shared_at": 1745870835,
+      "links": []
+    }
+  ]
+}

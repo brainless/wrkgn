@@ -1,0 +1,33 @@
+{
+  "id": 8733,
+  "slug": "lsm-tree-database-in-go-7c08855e82",
+  "name": "LSM tree database in Go",
+  "mentions": [
+    {
+      "name": "LSM tree database in Go",
+      "description": "A database engine implementing an LSM tree in Go, built as a learning project to improve understanding of Go and database internals, with planned experiments using io_uring for disk operations to explore underlying OS functionality.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "pranshu-raj-211"
+      ],
+      "source_excerpt": "I'm working on building an LSM tree db in Go, to learn more about the language and improve my understanding of db internals.\n\nAlso planned to try out some io_uring based disk operation eventually, as an experiment to learn more of the underlying OS stuff.",
+      "evidence": [
+        {
+          "source_item_id": 46267755,
+          "source_field": "body",
+          "value": "I'm working on building an LSM tree db in Go, to learn more about the language and improve my understanding of db internals.\n\nAlso planned to try out some io_uring based disk operation eventually, as an experiment to learn more of the underlying OS stuff.",
+          "supports": [],
+          "author": "pranshu-raj-211",
+          "shared_at": 1765751111,
+          "source_url": "https://news.ycombinator.com/item?id=46267755"
+        }
+      ],
+      "source_item_id": 46267755,
+      "source_url": "https://news.ycombinator.com/item?id=46267755",
+      "author": "pranshu-raj-211",
+      "shared_at": 1765751111,
+      "links": []
+    }
+  ]
+}

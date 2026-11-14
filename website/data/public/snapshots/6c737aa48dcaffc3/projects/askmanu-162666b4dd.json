@@ -1,0 +1,35 @@
+{
+  "id": 10011,
+  "slug": "askmanu-162666b4dd",
+  "name": "askmanu",
+  "mentions": [
+    {
+      "name": "askmanu",
+      "description": "This app automatically keeps codebase documentation updated, currently focused on reference docs with plans to generate full documentation content. It works incrementally, updating docs one PR at a time so changes are easy to verify and merge.",
+      "problem": "Codebase documentation becomes outdated and is hard to keep in sync with the code.",
+      "audience": null,
+      "builder_usernames": [
+        "onel"
+      ],
+      "source_excerpt": "I'm building a way to automatically keep code base documentation updated.\nhttps://github.com/apps/askmanu",
+      "evidence": [
+        {
+          "source_item_id": 45423388,
+          "source_field": "body",
+          "value": "I'm building a way to automatically keep code base documentation updated.\nhttps://github.com/apps/askmanu",
+          "supports": [],
+          "author": "onel",
+          "shared_at": 1759222434,
+          "source_url": "https://news.ycombinator.com/item?id=45423388"
+        }
+      ],
+      "source_item_id": 45423388,
+      "source_url": "https://news.ycombinator.com/item?id=45423388",
+      "author": "onel",
+      "shared_at": 1759222434,
+      "links": [
+        "https://github.com/apps/askmanu"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 8513,
+  "slug": "days-of-life-milestones-449d2b651f",
+  "name": "Days of Life Milestones",
+  "mentions": [
+    {
+      "name": "Days of Life Milestones",
+      "description": "This iOS app displays the number of days you have lived, with life milestones, and is being updated for iOS 26 so the day count is always available natively on the lock screen.",
+      "problem": "The previous approach relied on a nightly Shortcut that updated the background image and overlaid the current day count, which lacked a native lock screen feel.",
+      "audience": null,
+      "builder_usernames": [
+        "josters"
+      ],
+      "source_excerpt": "Working on updating my Your-Age-in-Days app[1] for iOS 26. The main motivation was to have the days I've lived always available on the lock screen with a more native feel than the workaround I had before (nightly Shortcut which updates the background image and adds the current number as an overlay to it).",
+      "evidence": [
+        {
+          "source_item_id": 46264637,
+          "source_field": "body",
+          "value": "Working on updating my Your-Age-in-Days app[1] for iOS 26. The main motivation was to have the days I've lived always available on the lock screen with a more native feel than the workaround I had before (nightly Shortcut which updates the background image and adds the current number as an overlay to it).",
+          "supports": [],
+          "author": "josters",
+          "shared_at": 1765732101,
+          "source_url": "https://news.ycombinator.com/item?id=46264637"
+        }
+      ],
+      "source_item_id": 46264637,
+      "source_url": "https://news.ycombinator.com/item?id=46264637",
+      "author": "josters",
+      "shared_at": 1765732101,
+      "links": [
+        "https://apps.apple.com/de/app/days-of-life-milestones/id6738207784?l=en-GB"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 6285,
+  "slug": "llm-codebase-course-corrector-82c49bdaa2",
+  "name": "LLM codebase course-corrector",
+  "mentions": [
+    {
+      "name": "LLM codebase course-corrector",
+      "description": "An approach combining static analysis and review heuristics so LLMs can course-correct a codebase when they over-engineer or produce unwieldy abstractions; currently in the exploratory design phase.",
+      "problem": "LLMs over-engineer or produce unwieldy abstractions in codebases.",
+      "audience": null,
+      "builder_usernames": [
+        "nwyin"
+      ],
+      "source_excerpt": "also spending a lot of time thinking about how you \"close the loop\" on software projects. right now figuring out how you can combine static analysis + review heuristics to let LLMs course correct the codebase when they over-engineer or produced unwieldy abstractions.",
+      "evidence": [
+        {
+          "source_item_id": 47305035,
+          "source_field": "body",
+          "value": "also spending a lot of time thinking about how you \"close the loop\" on software projects. right now figuring out how you can combine static analysis + review heuristics to let LLMs course correct the codebase when they over-engineer or produced unwieldy abstractions.",
+          "supports": [],
+          "author": "nwyin",
+          "shared_at": 1773032378,
+          "source_url": "https://news.ycombinator.com/item?id=47305035"
+        }
+      ],
+      "source_item_id": 47305035,
+      "source_url": "https://news.ycombinator.com/item?id=47305035",
+      "author": "nwyin",
+      "shared_at": 1773032378,
+      "links": []
+    }
+  ]
+}

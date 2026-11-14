@@ -1,0 +1,35 @@
+{
+  "id": 6909,
+  "slug": "vibebin-ddc274cdfa",
+  "name": "vibebin",
+  "mentions": [
+    {
+      "name": "vibebin",
+      "description": "This is a self-hosted platform for running persistent, isolated AI coding sandboxes on a single VPS using Incus/LXC containers. It automates installing and managing Incus, Caddy, and SSHPiper, provides a TUI for container lifecycle and quick actions, a web admin for toggling and updating AI coding tools (Shelley, Claude Code, OpenCode, etc.), and a background sync daemon that keeps Caddy routes and container metadata in sync. Each container exposes coding tool web UIs on isolated ports and supports direct SSH/VS Code Remote access, letting users run multiple independent coding agents against real project files without exposing their local machine. Containers are persistent, optionally routed via reverse proxy with basic auth, and tracked in an SQLite DB so setups auto-heal after restarts. It is written in Go, includes a one-line install script, targets modest VPS specs (4–8GB RAM recommended), and bundles helpers for DNS and provider automation.",
+      "problem": "Provides a lightweight way to host multiple isolated AI dev environments on your own server instead of relying on hosted agent platforms, and to run coding agents against real project files without exposing the local machine.",
+      "audience": "Ideal if you want a lightweight, opinionated way to host multiple isolated AI dev environments on your own server instead of relying on hosted agent platforms.",
+      "builder_usernames": [
+        "indigodaddy"
+      ],
+      "source_excerpt": "vibebin is a self-hosted platform for running persistent, isolated AI coding sandboxes on a single VPS using Incus/LXC containers:",
+      "evidence": [
+        {
+          "source_item_id": 46941313,
+          "source_field": "body",
+          "value": "vibebin is a self-hosted platform for running persistent, isolated AI coding sandboxes on a single VPS using Incus/LXC containers:",
+          "supports": [],
+          "author": "indigodaddy",
+          "shared_at": 1770608431,
+          "source_url": "https://news.ycombinator.com/item?id=46941313"
+        }
+      ],
+      "source_item_id": 46941313,
+      "source_url": "https://news.ycombinator.com/item?id=46941313",
+      "author": "indigodaddy",
+      "shared_at": 1770608431,
+      "links": [
+        "https://github.com/jgbrwn/vibebin"
+      ]
+    }
+  ]
+}

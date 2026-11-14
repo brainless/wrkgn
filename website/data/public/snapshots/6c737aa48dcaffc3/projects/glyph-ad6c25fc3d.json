@@ -1,0 +1,33 @@
+{
+  "id": 4054,
+  "slug": "glyph-ad6c25fc3d",
+  "name": "Glyph",
+  "mentions": [
+    {
+      "name": "Glyph",
+      "description": "Glyph is a statically typed functional programming language in the ML family. Its surface syntax is mostly SML-1997-inspired, while underneath it uses simple-sub type inference, algebraic effects, modular implicits, and Perceus-style reference counting instead of a tracing GC. The compiler currently uses a Rust frontend, Zig codegen, and produces native binaries.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "weatherlight"
+      ],
+      "source_excerpt": "I'm working on Glyph, Its a is a statically typed functional language in the ML family.\n\nSurface syntax is mostly SML-1997-ish, but underneath it's a different thing: simple-sub type inference, algebraic effects, modular implicits, and Perceus-style reference counting instead of a tracing GC.\n\nThe compiler is currently a Rust frontend -> Zig codegen -> native binary pipeline.",
+      "evidence": [
+        {
+          "source_item_id": 48540295,
+          "source_field": "body",
+          "value": "I'm working on Glyph, Its a is a statically typed functional language in the ML family.\n\nSurface syntax is mostly SML-1997-ish, but underneath it's a different thing: simple-sub type inference, algebraic effects, modular implicits, and Perceus-style reference counting instead of a tracing GC.\n\nThe compiler is currently a Rust frontend -> Zig codegen -> native binary pipeline.",
+          "supports": [],
+          "author": "weatherlight",
+          "shared_at": 1781526613,
+          "source_url": "https://news.ycombinator.com/item?id=48540295"
+        }
+      ],
+      "source_item_id": 48540295,
+      "source_url": "https://news.ycombinator.com/item?id=48540295",
+      "author": "weatherlight",
+      "shared_at": 1781526613,
+      "links": []
+    }
+  ]
+}

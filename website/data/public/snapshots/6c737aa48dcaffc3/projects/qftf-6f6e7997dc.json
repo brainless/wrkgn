@@ -1,0 +1,35 @@
+{
+  "id": 10413,
+  "slug": "qftf-6f6e7997dc",
+  "name": "qftf",
+  "mentions": [
+    {
+      "name": "qftf",
+      "description": "A small utility that transfers files between two computers using QR codes, functioning like Magic Wormhole but without any typing. It uses iroh for peer-to-peer networking on both ends, as well as in the web app used to scan the QR codes and start the transfer.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "cibyr"
+      ],
+      "source_excerpt": "I've been working on a little utility to transfer files between two computers using QR codes: https://github.com/cibyr/qftf\n\nIt's kinda like Magic Wormhole without typing. It uses iroh for the p2p networking - on both ends, and also in the little web app that you use to scan the QR codes and start the transfer.",
+      "evidence": [
+        {
+          "source_item_id": 44703949,
+          "source_field": "body",
+          "value": "I've been working on a little utility to transfer files between two computers using QR codes: https://github.com/cibyr/qftf\n\nIt's kinda like Magic Wormhole without typing. It uses iroh for the p2p networking - on both ends, and also in the little web app that you use to scan the QR codes and start the transfer.",
+          "supports": [],
+          "author": "cibyr",
+          "shared_at": 1753644946,
+          "source_url": "https://news.ycombinator.com/item?id=44703949"
+        }
+      ],
+      "source_item_id": 44703949,
+      "source_url": "https://news.ycombinator.com/item?id=44703949",
+      "author": "cibyr",
+      "shared_at": 1753644946,
+      "links": [
+        "https://github.com/cibyr/qftf"
+      ]
+    }
+  ]
+}

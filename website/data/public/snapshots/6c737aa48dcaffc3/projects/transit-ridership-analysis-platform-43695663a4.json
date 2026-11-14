@@ -1,0 +1,35 @@
+{
+  "id": 8501,
+  "slug": "transit-ridership-analysis-platform-43695663a4",
+  "name": "Transit ridership analysis platform",
+  "mentions": [
+    {
+      "name": "Transit ridership analysis platform",
+      "description": "A ridership data analysis platform for public transit planners, built using Claude Code. It currently runs on generated (fake) ridership data for King County Metro routes while pulling real GTFS feeds for route and stop information.",
+      "problem": null,
+      "audience": "Public transit planners",
+      "builder_usernames": [
+        "stephencoyner"
+      ],
+      "source_excerpt": "I've been hacking together a ridership data analysis platform for public transit planners using Claude Code. The data is all fake generated right now for King County Metro routes, but it pulls real GTFS for the route / stop information.",
+      "evidence": [
+        {
+          "source_item_id": 46270172,
+          "source_field": "body",
+          "value": "I've been hacking together a ridership data analysis platform for public transit planners using Claude Code. The data is all fake generated right now for King County Metro routes, but it pulls real GTFS for the route / stop information.",
+          "supports": [],
+          "author": "stephencoyner",
+          "shared_at": 1765770020,
+          "source_url": "https://news.ycombinator.com/item?id=46270172"
+        }
+      ],
+      "source_item_id": 46270172,
+      "source_url": "https://news.ycombinator.com/item?id=46270172",
+      "author": "stephencoyner",
+      "shared_at": 1765770020,
+      "links": [
+        "https://transit-proto.vercel.app/"
+      ]
+    }
+  ]
+}

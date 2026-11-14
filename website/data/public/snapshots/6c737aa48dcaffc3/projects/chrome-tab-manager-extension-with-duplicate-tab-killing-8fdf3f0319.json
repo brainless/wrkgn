@@ -1,0 +1,33 @@
+{
+  "id": 9436,
+  "slug": "chrome-tab-manager-extension-with-duplicate-tab-killing-8fdf3f0319",
+  "name": "Chrome tab manager extension with duplicate tab killing",
+  "mentions": [
+    {
+      "name": "Chrome tab manager extension with duplicate tab killing",
+      "description": "A Chrome browser extension that manages open tabs and kills duplicated tabs, built as a one-shot test after the tab manager the author previously used stopped being maintained.",
+      "problem": "The tab manager extension the author relied on died because it only supported Manifest V2 and was never updated.",
+      "audience": null,
+      "builder_usernames": [
+        "jeanlucas"
+      ],
+      "source_excerpt": "I'm building a tab manager extension for Chrome, that also kills duplicated tabs.",
+      "evidence": [
+        {
+          "source_item_id": 45869724,
+          "source_field": "body",
+          "value": "I'm building a tab manager extension for Chrome, that also kills duplicated tabs.",
+          "supports": [],
+          "author": "jeanlucas",
+          "shared_at": 1762726409,
+          "source_url": "https://news.ycombinator.com/item?id=45869724"
+        }
+      ],
+      "source_item_id": 45869724,
+      "source_url": "https://news.ycombinator.com/item?id=45869724",
+      "author": "jeanlucas",
+      "shared_at": 1762726409,
+      "links": []
+    }
+  ]
+}

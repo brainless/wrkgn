@@ -1,0 +1,63 @@
+{
+  "id": 8325,
+  "slug": "backdoor-f0bc9d48f9",
+  "name": "Backdoor",
+  "mentions": [
+    {
+      "name": "Backdoor",
+      "description": "Backdoor is a self-hostable database querying and editing tool for teams that reduces the need to build a custom admin dashboard. It supports per-user access control and validation policies, tracks activity, and currently works with Postgres and ClickHouse, letting non-technical staff such as CEOs, customer support, and sales safely edit production data.",
+      "problem": "Small startups need to explore and edit production data, but building an admin dashboard is expensive, and database tools like pgAdmin and DBeaver are clunky, focused on database administration, and bad for security.",
+      "audience": "Small startup teams, including non-technical roles like CEOs, customer support, and sales who need to safely explore and edit production data.",
+      "builder_usernames": [
+        "tanin"
+      ],
+      "source_excerpt": "Backdoor is a self-hostable database querying and editing tool for teams. It reduces the need of an expensive admin dashboard. You can configure access control and validation policy for each user. The activities are tracked.",
+      "evidence": [
+        {
+          "source_item_id": 46273176,
+          "source_field": "body",
+          "value": "Backdoor is a self-hostable database querying and editing tool for teams. It reduces the need of an expensive admin dashboard. You can configure access control and validation policy for each user. The activities are tracked.",
+          "supports": [],
+          "author": "tanin",
+          "shared_at": 1765798801,
+          "source_url": "https://news.ycombinator.com/item?id=46273176"
+        }
+      ],
+      "source_item_id": 46273176,
+      "source_url": "https://news.ycombinator.com/item?id=46273176",
+      "author": "tanin",
+      "shared_at": 1765798801,
+      "links": [
+        "https://github.com/tanin47/backdoor"
+      ]
+    },
+    {
+      "name": "Backdoor",
+      "description": "This is a self-hosted database querying and editing tool for teams, with a modern and elegant UI. It supports Postgres and ClickHouse and can be embedded into any JVM app or run as a standalone application.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tanin"
+      ],
+      "source_excerpt": "Backdoor: https://github.com/tanin47/backdoor\n\nA self-hosted database querying and editing tool for you and your team. Modern and elegant UI. Supports Postgres and ClickHouse. It can be embedded into any JVM app or runs as a standalone.",
+      "evidence": [
+        {
+          "source_item_id": 45884924,
+          "source_field": "body",
+          "value": "Backdoor: https://github.com/tanin47/backdoor\n\nA self-hosted database querying and editing tool for you and your team. Modern and elegant UI. Supports Postgres and ClickHouse. It can be embedded into any JVM app or runs as a standalone.",
+          "supports": [],
+          "author": "tanin",
+          "shared_at": 1762846144,
+          "source_url": "https://news.ycombinator.com/item?id=45884924"
+        }
+      ],
+      "source_item_id": 45884924,
+      "source_url": "https://news.ycombinator.com/item?id=45884924",
+      "author": "tanin",
+      "shared_at": 1762846144,
+      "links": [
+        "https://github.com/tanin47/backdoor"
+      ]
+    }
+  ]
+}

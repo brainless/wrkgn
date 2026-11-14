@@ -1,0 +1,35 @@
+{
+  "id": 5077,
+  "slug": "farming-tycoon-city-builder-love2d-a0451460ff",
+  "name": "Farming Tycoon City Builder (Love2D)",
+  "mentions": [
+    {
+      "name": "Farming Tycoon City Builder (Love2D)",
+      "description": "A farming tycoon/city builder game where players buy farm stands and advertise to sell goods; as the operation grows, the local economy grows, people move to town turning it into a city, and larger sales channels like farmer's markets and supermarkets open up. Players buy and sell land with the city, work with the mayor to plan new land claims to stay on the outskirts with healthy soil, and can run for mayor in the endgame to manage the city's growth. The game is being built in Love2D with 2.5D pseudo-3D rendering: the world is a 3D Euclidean grid of cells wrapped around a horizontal cylinder on the x axis, expressed in cylindrical polar coordinates (radius as altitude, angle as latitude) and converted to 3D Cartesian and then screenspace coordinates, with building textures rendered on linearly transformed quad polygons.",
+      "problem": "The classic GBA game Harvest Moon Friends of Mineral Town had in-game limitations of the cartridge and platform that the author always wanted more from, and while Stardew Valley was nice, it never fully scratched that itch.",
+      "audience": null,
+      "builder_usernames": [
+        "xerox13ster"
+      ],
+      "source_excerpt": "The game is going to be a farming tycoon/city builder game where you can buy farm stands and advertise to sell your goods. As your operation grows, you grow the local economy and people move to the town turning it into a city, opening up the chance to sell at farmer's markets or supermarkets.",
+      "evidence": [
+        {
+          "source_item_id": 48088671,
+          "source_field": "body",
+          "value": "The game is going to be a farming tycoon/city builder game where you can buy farm stands and advertise to sell your goods. As your operation grows, you grow the local economy and people move to the town turning it into a city, opening up the chance to sell at farmer's markets or supermarkets.",
+          "supports": [],
+          "author": "xerox13ster",
+          "shared_at": 1778451114,
+          "source_url": "https://news.ycombinator.com/item?id=48088671"
+        }
+      ],
+      "source_item_id": 48088671,
+      "source_url": "https://news.ycombinator.com/item?id=48088671",
+      "author": "xerox13ster",
+      "shared_at": 1778451114,
+      "links": [
+        "https://fucci.dev/assets/helloworldspace.png"
+      ]
+    }
+  ]
+}

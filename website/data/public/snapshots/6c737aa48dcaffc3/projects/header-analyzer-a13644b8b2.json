@@ -1,0 +1,35 @@
+{
+  "id": 10183,
+  "slug": "header-analyzer-a13644b8b2",
+  "name": "Header Analyzer",
+  "mentions": [
+    {
+      "name": "Header Analyzer",
+      "description": "This tool collects HTTP headers from AI bot requests to analyze how AI agents identify themselves when visiting websites.",
+      "problem": "Understanding how AI agents identify themselves in HTTP requests.",
+      "audience": null,
+      "builder_usernames": [
+        "franze"
+      ],
+      "source_excerpt": "I'm currently collecting http headers of AI bot requests https://header-analyzer.franzai.com/\n\nSo if you have an AI Agent, please send it there. I wanna know how they identify themselves.",
+      "evidence": [
+        {
+          "source_item_id": 45423256,
+          "source_field": "body",
+          "value": "I'm currently collecting http headers of AI bot requests https://header-analyzer.franzai.com/\n\nSo if you have an AI Agent, please send it there. I wanna know how they identify themselves.",
+          "supports": [],
+          "author": "franze",
+          "shared_at": 1759221244,
+          "source_url": "https://news.ycombinator.com/item?id=45423256"
+        }
+      ],
+      "source_item_id": 45423256,
+      "source_url": "https://news.ycombinator.com/item?id=45423256",
+      "author": "franze",
+      "shared_at": 1759221244,
+      "links": [
+        "https://header-analyzer.franzai.com/"
+      ]
+    }
+  ]
+}

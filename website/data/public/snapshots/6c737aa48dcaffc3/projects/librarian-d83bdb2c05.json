@@ -1,0 +1,35 @@
+{
+  "id": 9337,
+  "slug": "librarian-d83bdb2c05",
+  "name": "librarian",
+  "mentions": [
+    {
+      "name": "librarian",
+      "description": "This is a Kafka Connect alternative for database-to-Kafka replication. It currently supports MongoDB replication to Kafka via change streams, with Postgres support in development.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dm03514"
+      ],
+      "source_excerpt": "Working on a Kafka Connect alternative:\n\nhttps://github.com/turbolytics/librarian\n\nRight now mongo replication (through changestreams) is supported to kafka. Working on Postgres support right now.",
+      "evidence": [
+        {
+          "source_item_id": 45870666,
+          "source_field": "body",
+          "value": "Working on a Kafka Connect alternative:\n\nhttps://github.com/turbolytics/librarian\n\nRight now mongo replication (through changestreams) is supported to kafka. Working on Postgres support right now.",
+          "supports": [],
+          "author": "dm03514",
+          "shared_at": 1762733523,
+          "source_url": "https://news.ycombinator.com/item?id=45870666"
+        }
+      ],
+      "source_item_id": 45870666,
+      "source_url": "https://news.ycombinator.com/item?id=45870666",
+      "author": "dm03514",
+      "shared_at": 1762733523,
+      "links": [
+        "https://github.com/turbolytics/librarian"
+      ]
+    }
+  ]
+}

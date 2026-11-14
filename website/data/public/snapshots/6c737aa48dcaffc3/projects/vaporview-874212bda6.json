@@ -1,0 +1,35 @@
+{
+  "id": 5574,
+  "slug": "vaporview-874212bda6",
+  "name": "Vaporview",
+  "mentions": [
+    {
+      "name": "Vaporview",
+      "description": "A digital waveform viewer extension for VS Code, built for debugging hardware designs such as soft CPUs, starting to rival proprietary waveform software.",
+      "problem": "The author needed to debug soft CPUs while working at an FPGA company, where the alternatives were proprietary waveform software.",
+      "audience": null,
+      "builder_usernames": [
+        "Lramseyer"
+      ],
+      "source_excerpt": "I'm working on a digital waveform viewer for VScode. I started it back when I used to work for an FPGA company, and needed to debug soft CPUs. Now it's starting to rival the proprietary software.",
+      "evidence": [
+        {
+          "source_item_id": 47744624,
+          "source_field": "body",
+          "value": "I'm working on a digital waveform viewer for VScode. I started it back when I used to work for an FPGA company, and needed to debug soft CPUs. Now it's starting to rival the proprietary software.",
+          "supports": [],
+          "author": "Lramseyer",
+          "shared_at": 1776028771,
+          "source_url": "https://news.ycombinator.com/item?id=47744624"
+        }
+      ],
+      "source_item_id": 47744624,
+      "source_url": "https://news.ycombinator.com/item?id=47744624",
+      "author": "Lramseyer",
+      "shared_at": 1776028771,
+      "links": [
+        "https://github.com/Lramseyer/vaporview"
+      ]
+    }
+  ]
+}

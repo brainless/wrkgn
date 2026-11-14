@@ -1,0 +1,35 @@
+{
+  "id": 6154,
+  "slug": "valara-7c1063c2a8",
+  "name": "Valara",
+  "mentions": [
+    {
+      "name": "Valara",
+      "description": "This tool takes a PDF appraisal document as input and produces a grounded appraisal review in 5-10 minutes to aid risk management. It parses the PDF, renders pages for citations, and coordinates lightweight agents and deterministic checks that flag inconsistencies, rule violations, bias, and verify appraiser credentials, with all findings grounded in the input document. It is preparing to go to market with an approval sign-up gate and has plans for new features and more rigorous checks.",
+      "problem": "Manual human appraisal review takes an hour or more and costs $100 or more; the tool offers large margin for cost and latency versus manual review.",
+      "audience": "Lending institutions and individual appraisal reviewers.",
+      "builder_usernames": [
+        "jondwillis"
+      ],
+      "source_excerpt": "https://getvalara.com - PDF appraisal document in, grounded appraisal review out in 5-10 minutes to aid in risk management for lending institutions and individual appraisal reviewers.",
+      "evidence": [
+        {
+          "source_item_id": 47305516,
+          "source_field": "body",
+          "value": "https://getvalara.com - PDF appraisal document in, grounded appraisal review out in 5-10 minutes to aid in risk management for lending institutions and individual appraisal reviewers.",
+          "supports": [],
+          "author": "jondwillis",
+          "shared_at": 1773038266,
+          "source_url": "https://news.ycombinator.com/item?id=47305516"
+        }
+      ],
+      "source_item_id": 47305516,
+      "source_url": "https://news.ycombinator.com/item?id=47305516",
+      "author": "jondwillis",
+      "shared_at": 1773038266,
+      "links": [
+        "https://getvalara.com"
+      ]
+    }
+  ]
+}

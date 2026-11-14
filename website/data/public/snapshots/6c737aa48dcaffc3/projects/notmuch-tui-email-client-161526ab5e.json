@@ -1,0 +1,33 @@
+{
+  "id": 9722,
+  "slug": "notmuch-tui-email-client-161526ab5e",
+  "name": "Notmuch TUI Email Client",
+  "mentions": [
+    {
+      "name": "Notmuch TUI Email Client",
+      "description": "A simple terminal-based (TUI) email client built on notmuch and Maildir. It currently works well for processing email, but lacks capabilities for handling attachments, composing, and sending, which are on the roadmap.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "WhyNotHugo"
+      ],
+      "source_excerpt": "Since then, I’ve been working on a simple TUI email client based on notmuch and maildir. So far it works really well for processing email, but lacks any capabilities for handling attachments, composing, sending (these are obviously on the roadmap).",
+      "evidence": [
+        {
+          "source_item_id": 45869477,
+          "source_field": "body",
+          "value": "Since then, I’ve been working on a simple TUI email client based on notmuch and maildir. So far it works really well for processing email, but lacks any capabilities for handling attachments, composing, sending (these are obviously on the roadmap).",
+          "supports": [],
+          "author": "WhyNotHugo",
+          "shared_at": 1762724602,
+          "source_url": "https://news.ycombinator.com/item?id=45869477"
+        }
+      ],
+      "source_item_id": 45869477,
+      "source_url": "https://news.ycombinator.com/item?id=45869477",
+      "author": "WhyNotHugo",
+      "shared_at": 1762724602,
+      "links": []
+    }
+  ]
+}

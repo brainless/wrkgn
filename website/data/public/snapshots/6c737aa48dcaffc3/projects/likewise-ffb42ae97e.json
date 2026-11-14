@@ -1,0 +1,35 @@
+{
+  "id": 3768,
+  "slug": "likewise-ffb42ae97e",
+  "name": "Likewise",
+  "mentions": [
+    {
+      "name": "Likewise",
+      "description": "An open source protocol and reference implementation for user-owned AI memory. Keeps claims derived about users, teams, and workflows from chats, docs, calendars, and emails portable across products instead of trapped in one, with primitives for inspection, correction, revocation, and first-class portability.",
+      "problem": "As applied AI scales, products derive claims about users, teams and workflows from chats, docs, calendars, emails, etc., and that memory gets trapped inside a single product.",
+      "audience": "Anyone working on local-first software, personal data stores, capability security, knowledge graphs, etc.",
+      "builder_usernames": [
+        "danielrmay"
+      ],
+      "source_excerpt": "I've also been working on an open source protocol / reference implementation for user-owned AI memory, with the basic idea being that as applied AI scales, more products will derive more claims about users, teams and workflows from chats, docs, calendars, emails, etc, and they shouldn't be trapped inside of one product.",
+      "evidence": [
+        {
+          "source_item_id": 48534000,
+          "source_field": "body",
+          "value": "I've also been working on an open source protocol / reference implementation for user-owned AI memory, with the basic idea being that as applied AI scales, more products will derive more claims about users, teams and workflows from chats, docs, calendars, emails, etc, and they shouldn't be trapped inside of one product.",
+          "supports": [],
+          "author": "danielrmay",
+          "shared_at": 1781478599,
+          "source_url": "https://news.ycombinator.com/item?id=48534000"
+        }
+      ],
+      "source_item_id": 48534000,
+      "source_url": "https://news.ycombinator.com/item?id=48534000",
+      "author": "danielrmay",
+      "shared_at": 1781478599,
+      "links": [
+        "https://github.com/danielrmay/likewise"
+      ]
+    }
+  ]
+}

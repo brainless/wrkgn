@@ -1,0 +1,33 @@
+{
+  "id": 9256,
+  "slug": "python-to-nim-rust-pytest-transpiler-runner-40e3b39395",
+  "name": "Python-to-Nim/Rust pytest transpiler runner",
+  "mentions": [
+    {
+      "name": "Python-to-Nim/Rust pytest transpiler runner",
+      "description": "This tool is a test runner that transpiles Python pytest code to either Nim or Rust, compiles the result, and runs the compiled tests. It aims to improve test discovery and potentially run faster than pytest, though the author is uncertain whether compile plus run time would be smaller than just running pytest normally. The project also serves as a way to learn another language and new skills.",
+      "problem": "pytest is a bit slow, and existing Rust tools for running tests have some differences from pytest.",
+      "audience": "The author, as a personal learning project rather than something aimed to be usable out there.",
+      "builder_usernames": [
+        "lucasqueiroz"
+      ],
+      "source_excerpt": "My idea is to have a runner that transpiles the code to either Nim or Rust, compiles it, and runs the compiled tests.",
+      "evidence": [
+        {
+          "source_item_id": 45895590,
+          "source_field": "body",
+          "value": "My idea is to have a runner that transpiles the code to either Nim or Rust, compiles it, and runs the compiled tests.",
+          "supports": [],
+          "author": "lucasqueiroz",
+          "shared_at": 1762913152,
+          "source_url": "https://news.ycombinator.com/item?id=45895590"
+        }
+      ],
+      "source_item_id": 45895590,
+      "source_url": "https://news.ycombinator.com/item?id=45895590",
+      "author": "lucasqueiroz",
+      "shared_at": 1762913152,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 4823,
+  "slug": "daemoneye-668f2b7e84",
+  "name": "daemoneye",
+  "mentions": [
+    {
+      "name": "daemoneye",
+      "description": "A daemon for monitoring services and systems. Its memory management is being refactored to better support continuous operation over long time horizons, where the state of monitored services/things drifts and knowledge becomes stale.",
+      "problem": "Over long time horizons, the state of monitored services/things drifts and knowledge becomes stale.",
+      "audience": null,
+      "builder_usernames": [
+        "ryanczak"
+      ],
+      "source_excerpt": "refactoring memory management in https://github.com/ryanczak/daemoneye to better support continuous operation over long time horizons where state of monitored services/things drifts and knowledge becomes stale over time.",
+      "evidence": [
+        {
+          "source_item_id": 48098186,
+          "source_field": "body",
+          "value": "refactoring memory management in https://github.com/ryanczak/daemoneye to better support continuous operation over long time horizons where state of monitored services/things drifts and knowledge becomes stale over time.",
+          "supports": [],
+          "author": "ryanczak",
+          "shared_at": 1778521682,
+          "source_url": "https://news.ycombinator.com/item?id=48098186"
+        }
+      ],
+      "source_item_id": 48098186,
+      "source_url": "https://news.ycombinator.com/item?id=48098186",
+      "author": "ryanczak",
+      "shared_at": 1778521682,
+      "links": [
+        "https://github.com/ryanczak/daemoneye"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 10335,
+  "slug": "airbolt-4211cff876",
+  "name": "Airbolt",
+  "mentions": [
+    {
+      "name": "Airbolt",
+      "description": "This open-source LLM proxy lets frontend apps call OpenAI or Anthropic directly without writing any backend code, keeping API keys out of client code. It ships with a small TypeScript/Node.js SDK and manages secrets, JWT auth with short-lived auto-refreshing tokens, rate limiting, and logs. It is adding bring-your-own-auth support for Auth0, Clerk, Firebase, and Supabase to further lock down APIs.",
+      "problem": "Adding LLM features to apps typically required writing mini backends just to keep API keys out of client code; even with Vercel's AI SDK, a backend was still needed to securely handle API calls.",
+      "audience": "Developers building apps who want LLM features without maintaining backend infrastructure",
+      "builder_usernames": [
+        "mkw5053"
+      ],
+      "source_excerpt": "I've been working on an open source LLM proxy that handles the boring stuff. Small SDK, call OpenAI or Anthropic from your frontend, proxy manages secrets/auth/limits/logs.",
+      "evidence": [
+        {
+          "source_item_id": 44703427,
+          "source_field": "body",
+          "value": "I've been working on an open source LLM proxy that handles the boring stuff. Small SDK, call OpenAI or Anthropic from your frontend, proxy manages secrets/auth/limits/logs.",
+          "supports": [],
+          "author": "mkw5053",
+          "shared_at": 1753641294,
+          "source_url": "https://news.ycombinator.com/item?id=44703427"
+        }
+      ],
+      "source_item_id": 44703427,
+      "source_url": "https://news.ycombinator.com/item?id=44703427",
+      "author": "mkw5053",
+      "shared_at": 1753641294,
+      "links": [
+        "https://github.com/Airbolt-AI/airbolt"
+      ]
+    }
+  ]
+}

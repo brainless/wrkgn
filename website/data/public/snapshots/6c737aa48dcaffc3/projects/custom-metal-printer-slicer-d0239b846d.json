@@ -1,0 +1,33 @@
+{
+  "id": 10964,
+  "slug": "custom-metal-printer-slicer-d0239b846d",
+  "name": "Custom metal printer slicer",
+  "mentions": [
+    {
+      "name": "Custom metal printer slicer",
+      "description": "A custom slicer for a special metal 3D printer design, replacing the needed VTK library version with a simpler Blender Geometry Nodes solution to extract texture information and infill hull features.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Joel_Mckay"
+      ],
+      "source_excerpt": "Also still working on a custom Slicer for a special metal printer design. The VTK library version needed replaced by a simpler Blender Geometry nodes solution to extract texture information, and infill hull features.",
+      "evidence": [
+        {
+          "source_item_id": 43818732,
+          "source_field": "body",
+          "value": "Also still working on a custom Slicer for a special metal printer design. The VTK library version needed replaced by a simpler Blender Geometry nodes solution to extract texture information, and infill hull features.",
+          "supports": [],
+          "author": "Joel_Mckay",
+          "shared_at": 1745826805,
+          "source_url": "https://news.ycombinator.com/item?id=43818732"
+        }
+      ],
+      "source_item_id": 43818732,
+      "source_url": "https://news.ycombinator.com/item?id=43818732",
+      "author": "Joel_Mckay",
+      "shared_at": 1745826805,
+      "links": []
+    }
+  ]
+}

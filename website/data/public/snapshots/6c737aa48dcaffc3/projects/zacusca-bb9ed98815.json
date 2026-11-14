@@ -1,0 +1,35 @@
+{
+  "id": 11236,
+  "slug": "zacusca-bb9ed98815",
+  "name": "Zacusca",
+  "mentions": [
+    {
+      "name": "Zacusca",
+      "description": "This tool ingests RSS feeds, processes the content through an LLM, and outputs the result back as RSS (RSS -> LLM -> RSS pipeline).",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mbanerjeepalmer"
+      ],
+      "source_excerpt": "RSS -> LLM -> RSS\n\nhttps://zacusca.net",
+      "evidence": [
+        {
+          "source_item_id": 43817618,
+          "source_field": "body",
+          "value": "RSS -> LLM -> RSS\n\nhttps://zacusca.net",
+          "supports": [],
+          "author": "mbanerjeepalmer",
+          "shared_at": 1745815181,
+          "source_url": "https://news.ycombinator.com/item?id=43817618"
+        }
+      ],
+      "source_item_id": 43817618,
+      "source_url": "https://news.ycombinator.com/item?id=43817618",
+      "author": "mbanerjeepalmer",
+      "shared_at": 1745815181,
+      "links": [
+        "https://zacusca.net"
+      ]
+    }
+  ]
+}

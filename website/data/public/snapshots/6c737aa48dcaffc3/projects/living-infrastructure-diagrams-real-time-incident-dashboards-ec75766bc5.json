@@ -1,0 +1,33 @@
+{
+  "id": 9787,
+  "slug": "living-infrastructure-diagrams-real-time-incident-dashboards-ec75766bc5",
+  "name": "Living Infrastructure Diagrams & Real-time Incident Dashboards",
+  "mentions": [
+    {
+      "name": "Living Infrastructure Diagrams & Real-time Incident Dashboards",
+      "description": "This tool automatically generates living infrastructure diagrams from a team's IaC files and turns them into real-time incident dashboards. Instead of architecture diagrams being stale PNG files in Confluence, the visualization updates during outages to show exactly what's failing and how to fix it, acting as a war room during incidents. It will be available as both a web app and a native desktop app.",
+      "problem": "Architecture diagrams are typically stale PNG files in Confluence rather than live resources usable as a war room during incidents.",
+      "audience": null,
+      "builder_usernames": [
+        "andreygrehov"
+      ],
+      "source_excerpt": "Building a tool that automatically generates living infrastructure diagrams from your IaC files and turns them into real-time incident dashboards. Think Figma meets Datadog - beautiful visualization that updates during outages to show you exactly what's failing and how to fix it.",
+      "evidence": [
+        {
+          "source_item_id": 45562176,
+          "source_field": "body",
+          "value": "Building a tool that automatically generates living infrastructure diagrams from your IaC files and turns them into real-time incident dashboards. Think Figma meets Datadog - beautiful visualization that updates during outages to show you exactly what's failing and how to fix it.",
+          "supports": [],
+          "author": "andreygrehov",
+          "shared_at": 1760305124,
+          "source_url": "https://news.ycombinator.com/item?id=45562176"
+        }
+      ],
+      "source_item_id": 45562176,
+      "source_url": "https://news.ycombinator.com/item?id=45562176",
+      "author": "andreygrehov",
+      "shared_at": 1760305124,
+      "links": []
+    }
+  ]
+}

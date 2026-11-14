@@ -1,0 +1,35 @@
+{
+  "id": 7493,
+  "slug": "hidmorph-ed59792e3b",
+  "name": "HIDMorph",
+  "mentions": [
+    {
+      "name": "HIDMorph",
+      "description": "An open-source HID remapping device with one USB-in and one USB-out that converts keyboard input to joystick input or adds macros to specific inputs. In programming mode it mounts as a USB drive for LUA scripts and log files; in run mode it runs a selected LUA script that can read incoming mouse/joystick/keyboard data, generate outgoing HID data, or log events to a CSV file. A parts list and Gerber files will be exported so others can build one themselves.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "sulicat"
+      ],
+      "source_excerpt": "Still the same HID remapping project from last month (I was hoping to be done by now, but hardware is hard):\nhttps://github.com/cedarhacks/HIDMorph\n\nThis is an HID ReMapping device, things like converting keyboard input to joystick input, or adding macros to specific inputs.",
+      "evidence": [
+        {
+          "source_item_id": 46594294,
+          "source_field": "body",
+          "value": "Still the same HID remapping project from last month (I was hoping to be done by now, but hardware is hard):\nhttps://github.com/cedarhacks/HIDMorph\n\nThis is an HID ReMapping device, things like converting keyboard input to joystick input, or adding macros to specific inputs.",
+          "supports": [],
+          "author": "sulicat",
+          "shared_at": 1768251912,
+          "source_url": "https://news.ycombinator.com/item?id=46594294"
+        }
+      ],
+      "source_item_id": 46594294,
+      "source_url": "https://news.ycombinator.com/item?id=46594294",
+      "author": "sulicat",
+      "shared_at": 1768251912,
+      "links": [
+        "https://github.com/cedarhacks/HIDMorph"
+      ]
+    }
+  ]
+}

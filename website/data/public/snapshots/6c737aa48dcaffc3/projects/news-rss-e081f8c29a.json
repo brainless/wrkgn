@@ -1,0 +1,35 @@
+{
+  "id": 7503,
+  "slug": "news-rss-e081f8c29a",
+  "name": "news-rss",
+  "mentions": [
+    {
+      "name": "news-rss",
+      "description": "This app is a news reader and content recommender that fetches news articles from multiple RSS feeds and uses an LLM to first deduplicate and then score them. Users can rate articles, and those ratings are used as few-shot examples in the LLM scoring prompt; low-scoring (uninteresting) articles are hidden by default, and visible articles are scaled by their score on a dynamic CSS grid laid out like a traditional newspaper front page. It is still being tested and tweaked.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "otsaloma"
+      ],
+      "source_excerpt": "I've been experimenting with using LLMs for a content recommender system. Specifically I've built a news reader app that fetches news articles from multiple RSS feeds, uses an LLM to first deduplicate and then score them. The user can then rate the articles and those ratings are used as few-shot examples in the LLM scoring prompt. Any resulting low score articles (uninteresting to the user) are hidden by default and visible ones scaled by their score on a dynamic CSS grid like on a traditional newspaper front page.",
+      "evidence": [
+        {
+          "source_item_id": 46579414,
+          "source_field": "body",
+          "value": "I've been experimenting with using LLMs for a content recommender system. Specifically I've built a news reader app that fetches news articles from multiple RSS feeds, uses an LLM to first deduplicate and then score them. The user can then rate the articles and those ratings are used as few-shot examples in the LLM scoring prompt. Any resulting low score articles (uninteresting to the user) are hidden by default and visible ones scaled by their score on a dynamic CSS grid like on a traditional newspaper front page.",
+          "supports": [],
+          "author": "otsaloma",
+          "shared_at": 1768161928,
+          "source_url": "https://news.ycombinator.com/item?id=46579414"
+        }
+      ],
+      "source_item_id": 46579414,
+      "source_url": "https://news.ycombinator.com/item?id=46579414",
+      "author": "otsaloma",
+      "shared_at": 1768161928,
+      "links": [
+        "https://github.com/otsaloma/news-rss"
+      ]
+    }
+  ]
+}

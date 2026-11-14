@@ -1,0 +1,35 @@
+{
+  "id": 8990,
+  "slug": "roscoe-94ce945f04",
+  "name": "Roscoe",
+  "mentions": [
+    {
+      "name": "Roscoe",
+      "description": "A homebuilt computer based on the Motorola 68030 CPU, built with period-appropriate CPLDs instead of an FPGA. The working system already includes a math coprocessor, SRAM, DRAM, and other device support, and a custom-designed VGA card is about to be produced for debugging. Built as a fun exercise in first-principles debugging, building tools, and using vintage equipment like an old logic analyzer.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "sponaugle"
+      ],
+      "source_excerpt": "A 68030 based computer - https://github.com/jeffsponaugle/roscoe\n\nIt has been a super fun experience so far - I'm using CPLDs instead of an FPGA which makes the logic a bit more era period.  I have a working system now with the math coprocessor, SRAM, DRAM, and other device support.",
+      "evidence": [
+        {
+          "source_item_id": 45870313,
+          "source_field": "body",
+          "value": "A 68030 based computer - https://github.com/jeffsponaugle/roscoe\n\nIt has been a super fun experience so far - I'm using CPLDs instead of an FPGA which makes the logic a bit more era period.  I have a working system now with the math coprocessor, SRAM, DRAM, and other device support.",
+          "supports": [],
+          "author": "sponaugle",
+          "shared_at": 1762730662,
+          "source_url": "https://news.ycombinator.com/item?id=45870313"
+        }
+      ],
+      "source_item_id": 45870313,
+      "source_url": "https://news.ycombinator.com/item?id=45870313",
+      "author": "sponaugle",
+      "shared_at": 1762730662,
+      "links": [
+        "https://github.com/jeffsponaugle/roscoe"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 4824,
+  "slug": "drawx-f48f0a5b1f",
+  "name": "Drawx",
+  "mentions": [
+    {
+      "name": "Drawx",
+      "description": "A custom-built backend for the Excalidraw whiteboard frontend, hosted at drawx.ossy.dev.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "postatic"
+      ],
+      "source_excerpt": "Built my own backend for excalidraw frontend :)\n\nhttps://drawx.ossy.dev",
+      "evidence": [
+        {
+          "source_item_id": 48091300,
+          "source_field": "body",
+          "value": "Built my own backend for excalidraw frontend :)\n\nhttps://drawx.ossy.dev",
+          "supports": [],
+          "author": "postatic",
+          "shared_at": 1778476864,
+          "source_url": "https://news.ycombinator.com/item?id=48091300"
+        }
+      ],
+      "source_item_id": 48091300,
+      "source_url": "https://news.ycombinator.com/item?id=48091300",
+      "author": "postatic",
+      "shared_at": 1778476864,
+      "links": [
+        "https://drawx.ossy.dev"
+      ]
+    },
+    {
+      "name": "DrawX",
+      "description": "A drawing app built on Excalidraw that adds a backend, letting users save their drawings and create and manage multiple canvases without needing Excalidraw+.",
+      "problem": "Excalidraw lacks a backend for saving work and managing multiple canvases unless you pay for Excalidraw+, which the author didn't need.",
+      "audience": null,
+      "builder_usernames": [
+        "postatic"
+      ],
+      "source_excerpt": "DrawX is Excalidraw with backend.\n\nI love Excalidraw but I don't need Excalidraw+ I just need the backend where I can save and be able to create multiple canvases.\n\nSo that's what I built!",
+      "evidence": [
+        {
+          "source_item_id": 47751298,
+          "source_field": "body",
+          "value": "DrawX is Excalidraw with backend.\n\nI love Excalidraw but I don't need Excalidraw+ I just need the backend where I can save and be able to create multiple canvases.\n\nSo that's what I built!",
+          "supports": [],
+          "author": "postatic",
+          "shared_at": 1776084981,
+          "source_url": "https://news.ycombinator.com/item?id=47751298"
+        }
+      ],
+      "source_item_id": 47751298,
+      "source_url": "https://news.ycombinator.com/item?id=47751298",
+      "author": "postatic",
+      "shared_at": 1776084981,
+      "links": [
+        "https://drawx.ossy.dev"
+      ]
+    }
+  ]
+}

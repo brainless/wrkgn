@@ -1,0 +1,38 @@
+{
+  "id": 3740,
+  "slug": "hip-833e427b01",
+  "name": "HIP",
+  "mentions": [
+    {
+      "name": "HIP",
+      "description": "HIP is a human-powered proof of humanity protocol that uses no blockchain, relying instead on DNS/SSL-like decentralization. The V0 proof of concept has a centralized registry and provider, but anyone can implement the protocol and the registry is meant to be governed by multiple independent entities. The ecosystem includes an app where people sign up and get verified, an app where platforms sign up and manage their OAuth, protocol documentation meant to be operated by a governance body, and an example platform demonstrating OAuth login after signing up.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "figassis"
+      ],
+      "source_excerpt": "Human powered proof of humanity. Nothing on chain, no blockchains. Just DNS / SSL like decentralization.",
+      "evidence": [
+        {
+          "source_item_id": 48533181,
+          "source_field": "body",
+          "value": "Human powered proof of humanity. Nothing on chain, no blockchains. Just DNS / SSL like decentralization.",
+          "supports": [],
+          "author": "figassis",
+          "shared_at": 1781473830,
+          "source_url": "https://news.ycombinator.com/item?id=48533181"
+        }
+      ],
+      "source_item_id": 48533181,
+      "source_url": "https://news.ycombinator.com/item?id=48533181",
+      "author": "figassis",
+      "shared_at": 1781473830,
+      "links": [
+        "https://app.humanidentity.io",
+        "https://humanidentity.io",
+        "https://platform.humanidentity.io",
+        "https://protocol.humanidentity.io"
+      ]
+    }
+  ]
+}

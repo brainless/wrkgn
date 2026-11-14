@@ -1,0 +1,35 @@
+{
+  "id": 9217,
+  "slug": "splade-easy-3701ce5f66",
+  "name": "SPLADE-easy",
+  "mentions": [
+    {
+      "name": "SPLADE-easy",
+      "description": "A simple, portable retrieval index for SPLADE sparse vectors that encodes and serializes documents into flatbuffers and appends them into shards. Retrieval runs as a parallel flat scan with optional reranking, targeting high quality hybrid retrieval for local search, RAG, or deep research scenarios.",
+      "problem": "The author wanted a simple retrieval index for SPLADE sparse vectors, finding existing options like Faiss or Anserini bigger and more complex than needed.",
+      "audience": "Local search, RAG, or deep research scenarios",
+      "builder_usernames": [
+        "deepsquirrelnet"
+      ],
+      "source_excerpt": "SPLADE-easy: https://github.com/dleemiller/splade-easy\n\nI wanted a simple retrieval index to use splade sparse vectors. This just encodes and serializes documents into flatbuffers and appends them into shards. Retrieval is just parallel flat scan, optionally with reranking.",
+      "evidence": [
+        {
+          "source_item_id": 45872284,
+          "source_field": "body",
+          "value": "SPLADE-easy: https://github.com/dleemiller/splade-easy\n\nI wanted a simple retrieval index to use splade sparse vectors. This just encodes and serializes documents into flatbuffers and appends them into shards. Retrieval is just parallel flat scan, optionally with reranking.",
+          "supports": [],
+          "author": "deepsquirrelnet",
+          "shared_at": 1762747268,
+          "source_url": "https://news.ycombinator.com/item?id=45872284"
+        }
+      ],
+      "source_item_id": 45872284,
+      "source_url": "https://news.ycombinator.com/item?id=45872284",
+      "author": "deepsquirrelnet",
+      "shared_at": 1762747268,
+      "links": [
+        "https://github.com/dleemiller/splade-easy"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 8315,
+  "slug": "how-sse-actually-works-deno-deploy-technical-article-ed0d2ec8ab",
+  "name": "How SSE Actually Works (Deno Deploy) technical article",
+  "mentions": [
+    {
+      "name": "How SSE Actually Works (Deno Deploy) technical article",
+      "description": "A long-form technical article on the author's personal blog that goes deep into how server-sent events actually work, covering SSE, Postgres, V8 internals, and Linux kernel details.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dgellow"
+      ],
+      "source_excerpt": "And I completed a pretty long technical article on my personal blog that goes pretty deep into SSE + Postgres + v8 + some linux kernel stuff: https://sam.elborai.me/articles/how-sse-actually-works-deno-deploy/",
+      "evidence": [
+        {
+          "source_item_id": 46268260,
+          "source_field": "body",
+          "value": "And I completed a pretty long technical article on my personal blog that goes pretty deep into SSE + Postgres + v8 + some linux kernel stuff: https://sam.elborai.me/articles/how-sse-actually-works-deno-deploy/",
+          "supports": [],
+          "author": "dgellow",
+          "shared_at": 1765754797,
+          "source_url": "https://news.ycombinator.com/item?id=46268260"
+        }
+      ],
+      "source_item_id": 46268260,
+      "source_url": "https://news.ycombinator.com/item?id=46268260",
+      "author": "dgellow",
+      "shared_at": 1765754797,
+      "links": [
+        "https://sam.elborai.me/articles/how-sse-actually-works-deno-deploy/"
+      ]
+    }
+  ]
+}

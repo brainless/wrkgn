@@ -1,0 +1,33 @@
+{
+  "id": 3676,
+  "slug": "web-site-quality-assurance-software-9e74978639",
+  "name": "Web site quality assurance software",
+  "mentions": [
+    {
+      "name": "Web site quality assurance software",
+      "description": "This website quality assurance software crawls a designated site and runs analyzers on each page to assess quality across accessibility, content quality (spelling, missing spaces between words), performance, security, content policy (required and forbidden phrases), site integrity, and SEO. Each site can be configured with a custom dictionary for spell checking. The back end is Java built with Javalin and Jsoup and persisted to PostgreSQL, with a JS/React front end; it is approaching private beta.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "neverartful"
+      ],
+      "source_excerpt": "My back end crawls the designated website and for each page runs a number of analyzers to assess the quality across the following categories: accessibility, content quality (spelling, missing spaces between words, etc), performance, security, content policy (required phrases and forbidden phrases), site integrity, and seo. Each site can be configured to have its own custom dictionary (for spell checking).",
+      "evidence": [
+        {
+          "source_item_id": 48531183,
+          "source_field": "body",
+          "value": "My back end crawls the designated website and for each page runs a number of analyzers to assess the quality across the following categories: accessibility, content quality (spelling, missing spaces between words, etc), performance, security, content policy (required phrases and forbidden phrases), site integrity, and seo. Each site can be configured to have its own custom dictionary (for spell checking).",
+          "supports": [],
+          "author": "neverartful",
+          "shared_at": 1781463355,
+          "source_url": "https://news.ycombinator.com/item?id=48531183"
+        }
+      ],
+      "source_item_id": 48531183,
+      "source_url": "https://news.ycombinator.com/item?id=48531183",
+      "author": "neverartful",
+      "shared_at": 1781463355,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": 9332,
+  "slug": "skmtc-b1fd7f4278",
+  "name": "Skmtc",
+  "mentions": [
+    {
+      "name": "Skmtc",
+      "description": "An OpenAPI code generation framework for TypeScript that handles the complexities of parsing OpenAPI and rendering output code while giving users full control over generator code via string templates. Generators can compose their own output using the outputs of other generators, similar to React's component composition.",
+      "problem": "Parsing OpenAPI and rendering output code is complex; the framework handles those complexities while giving end users full control over generator code via string templates.",
+      "audience": null,
+      "builder_usernames": [
+        "dmitri1981"
+      ],
+      "source_excerpt": "An OpenAPI code generation framework for TypeScript called Skmtc (pronounced like \"schematic\")\n\nIt handles the complexities of parsing OpenAPI and rendering output code, while providing the end user with full control over generator code via string templates.",
+      "evidence": [
+        {
+          "source_item_id": 45876747,
+          "source_field": "body",
+          "value": "An OpenAPI code generation framework for TypeScript called Skmtc (pronounced like \"schematic\")\n\nIt handles the complexities of parsing OpenAPI and rendering output code, while providing the end user with full control over generator code via string templates.",
+          "supports": [],
+          "author": "dmitri1981",
+          "shared_at": 1762787662,
+          "source_url": "https://news.ycombinator.com/item?id=45876747"
+        }
+      ],
+      "source_item_id": 45876747,
+      "source_url": "https://news.ycombinator.com/item?id=45876747",
+      "author": "dmitri1981",
+      "shared_at": 1762787662,
+      "links": [
+        "https://github.com/skmtc/skmtc",
+        "https://skm.tc"
+      ]
+    },
+    {
+      "name": "skmtc",
+      "description": "A TypeScript code generation framework for building UIs that avoids using ASTs.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dmitri1981"
+      ],
+      "source_excerpt": "A TypeScript code generation framework that lets you create UIs and does not use ASTs\n\n- https://github.com/skmtc/skmtc\n\n- https://skm.tc",
+      "evidence": [
+        {
+          "source_item_id": 45419224,
+          "source_field": "body",
+          "value": "A TypeScript code generation framework that lets you create UIs and does not use ASTs\n\n- https://github.com/skmtc/skmtc\n\n- https://skm.tc",
+          "supports": [],
+          "author": "dmitri1981",
+          "shared_at": 1759182787,
+          "source_url": "https://news.ycombinator.com/item?id=45419224"
+        }
+      ],
+      "source_item_id": 45419224,
+      "source_url": "https://news.ycombinator.com/item?id=45419224",
+      "author": "dmitri1981",
+      "shared_at": 1759182787,
+      "links": [
+        "https://github.com/skmtc/skmtc",
+        "https://skm.tc"
+      ]
+    }
+  ]
+}

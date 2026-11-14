@@ -1,0 +1,35 @@
+{
+  "id": 8933,
+  "slug": "micdrop-c06077e0fa",
+  "name": "Micdrop",
+  "mentions": [
+    {
+      "name": "Micdrop",
+      "description": "An open source library for implementing robust voice conversations with AI in webapps. It is designed to be cheaper and more controllable than realtime GPT, and is already used by other products to power AI voice conversations.",
+      "problem": "Realtime GPT voice conversation is expensive and hard to control.",
+      "audience": null,
+      "builder_usernames": [
+        "Godefroy"
+      ],
+      "source_excerpt": "the open source lib I created for it: https://micdrop.dev/\n\nMicdrop is already used by other products to implement robust voice conversation with AI in webapps. Cheaper and more controllable than realtime GPT.",
+      "evidence": [
+        {
+          "source_item_id": 46274182,
+          "source_field": "body",
+          "value": "the open source lib I created for it: https://micdrop.dev/\n\nMicdrop is already used by other products to implement robust voice conversation with AI in webapps. Cheaper and more controllable than realtime GPT.",
+          "supports": [],
+          "author": "Godefroy",
+          "shared_at": 1765805003,
+          "source_url": "https://news.ycombinator.com/item?id=46274182"
+        }
+      ],
+      "source_item_id": 46274182,
+      "source_url": "https://news.ycombinator.com/item?id=46274182",
+      "author": "Godefroy",
+      "shared_at": 1765805003,
+      "links": [
+        "https://micdrop.dev/"
+      ]
+    }
+  ]
+}

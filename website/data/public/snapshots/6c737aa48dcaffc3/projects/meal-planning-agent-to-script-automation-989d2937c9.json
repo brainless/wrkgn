@@ -1,0 +1,33 @@
+{
+  "id": 5958,
+  "slug": "meal-planning-agent-to-script-automation-989d2937c9",
+  "name": "Meal planning agent-to-script automation",
+  "mentions": [
+    {
+      "name": "Meal planning agent-to-script automation",
+      "description": "A personal meal-planning setup in which a weekly ChatGPT agent task suggested dinner options based on nutritional constraints and generated shopping lists; after several iterations it matured into a simple script that generates meal combinations from a fixed set of recipes and their ingredients.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "juanpabloaj"
+      ],
+      "source_excerpt": "Meal planning: I had a weekly ChatGPT task that suggested dinner options based on nutritional constraints and generated a shopping list (e.g. two dinners with 100g of chicken -> buy 200g). After a few iterations, it became clear that with a fixed set of recipes and their ingredients, a simple script generating combinations was enough. The agent's reasoning had already done its job — it helped me understand the problem well enough to replace itself.",
+      "evidence": [
+        {
+          "source_item_id": 47313215,
+          "source_field": "body",
+          "value": "Meal planning: I had a weekly ChatGPT task that suggested dinner options based on nutritional constraints and generated a shopping list (e.g. two dinners with 100g of chicken -> buy 200g). After a few iterations, it became clear that with a fixed set of recipes and their ingredients, a simple script generating combinations was enough. The agent's reasoning had already done its job — it helped me understand the problem well enough to replace itself.",
+          "supports": [],
+          "author": "juanpabloaj",
+          "shared_at": 1773080823,
+          "source_url": "https://news.ycombinator.com/item?id=47313215"
+        }
+      ],
+      "source_item_id": 47313215,
+      "source_url": "https://news.ycombinator.com/item?id=47313215",
+      "author": "juanpabloaj",
+      "shared_at": 1773080823,
+      "links": []
+    }
+  ]
+}

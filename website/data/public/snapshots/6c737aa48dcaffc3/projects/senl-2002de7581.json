@@ -1,0 +1,33 @@
+{
+  "id": 7664,
+  "slug": "senl-2002de7581",
+  "name": "SenL",
+  "mentions": [
+    {
+      "name": "SenL",
+      "description": "SenL is a sensitivity level framework for AI labs, a practical clearance system for AI assets. Assets such as weights, training data, eval sets, agent tooling, and deployment configs are labeled by sensitivity, and each label ties to concrete controls covering who can access the asset, where it can run, what logging is required, and what monitoring and two-person rules apply.",
+      "problem": "Not everything in an AI lab is equally dangerous, so assets need sensitivity labels tied to concrete access, logging, and monitoring controls.",
+      "audience": null,
+      "builder_usernames": [
+        "luiscosio"
+      ],
+      "source_excerpt": "One piece I helped with is SenL, a “sensitivity level” framework for AI labs. It’s like a practical clearance system for AI assets.",
+      "evidence": [
+        {
+          "source_item_id": 46578798,
+          "source_field": "body",
+          "value": "One piece I helped with is SenL, a “sensitivity level” framework for AI labs. It’s like a practical clearance system for AI assets.",
+          "supports": [],
+          "author": "luiscosio",
+          "shared_at": 1768158804,
+          "source_url": "https://news.ycombinator.com/item?id=46578798"
+        }
+      ],
+      "source_item_id": 46578798,
+      "source_url": "https://news.ycombinator.com/item?id=46578798",
+      "author": "luiscosio",
+      "shared_at": 1768158804,
+      "links": []
+    }
+  ]
+}

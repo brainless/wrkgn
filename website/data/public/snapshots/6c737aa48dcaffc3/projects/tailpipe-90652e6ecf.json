@@ -1,0 +1,33 @@
+{
+  "id": 4594,
+  "slug": "tailpipe-90652e6ecf",
+  "name": "tailpipe",
+  "mentions": [
+    {
+      "name": "tailpipe",
+      "description": "A Rust crate installable via `cargo install` that provides a locally-hostable SSH server which plays back asciinema terminal recordings to connecting SSH clients. Runs on macOS and Linux (Windows untested), and requires clients to authenticate with a valid RSA or ED25519 key.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "0xc133"
+      ],
+      "source_excerpt": "I pushed my first crate this weekend. You can `cargo install tailpipe` on macOS and Linux (and maybe Windows, haven’t tested there yet) and get a locally-hostable SSH server that plays back asciinema recordings to clients.\n\n`ssh -p4242 tailpipe.clee.sh` for a quick demo without installing anything. Requires any valid RSA or ED25519 key.",
+      "evidence": [
+        {
+          "source_item_id": 48092353,
+          "source_field": "body",
+          "value": "I pushed my first crate this weekend. You can `cargo install tailpipe` on macOS and Linux (and maybe Windows, haven’t tested there yet) and get a locally-hostable SSH server that plays back asciinema recordings to clients.\n\n`ssh -p4242 tailpipe.clee.sh` for a quick demo without installing anything. Requires any valid RSA or ED25519 key.",
+          "supports": [],
+          "author": "0xc133",
+          "shared_at": 1778487280,
+          "source_url": "https://news.ycombinator.com/item?id=48092353"
+        }
+      ],
+      "source_item_id": 48092353,
+      "source_url": "https://news.ycombinator.com/item?id=48092353",
+      "author": "0xc133",
+      "shared_at": 1778487280,
+      "links": []
+    }
+  ]
+}

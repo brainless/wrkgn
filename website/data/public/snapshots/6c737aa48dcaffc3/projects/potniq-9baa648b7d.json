@@ -1,0 +1,63 @@
+{
+  "id": 7068,
+  "slug": "potniq-9baa648b7d",
+  "name": "Potniq",
+  "mentions": [
+    {
+      "name": "Potniq",
+      "description": "This app is a business travel tool that tells users exactly when to leave based on their entire itinerary. It is being extended with an LLM-powered booking email parser that ingests forwarded booking confirmations and automatically adds flights, hotels, and other bookings to the itinerary.",
+      "problem": "Frequent event travelers struggle with deciding when to leave on the last day of a conference and end up skipping things like workouts while repeatedly checking the time.",
+      "audience": "Business travelers who need to coordinate departures around conference and event schedules.",
+      "builder_usernames": [
+        "zan"
+      ],
+      "source_excerpt": "I'm a solo dev founder working on Potniq (https://potniq.com) - a business travel tool that tells you exactly when to leave based on your entire itinerary.",
+      "evidence": [
+        {
+          "source_item_id": 46945680,
+          "source_field": "body",
+          "value": "I'm a solo dev founder working on Potniq (https://potniq.com) - a business travel tool that tells you exactly when to leave based on your entire itinerary.",
+          "supports": [],
+          "author": "zan",
+          "shared_at": 1770647928,
+          "source_url": "https://news.ycombinator.com/item?id=46945680"
+        }
+      ],
+      "source_item_id": 46945680,
+      "source_url": "https://news.ycombinator.com/item?id=46945680",
+      "author": "zan",
+      "shared_at": 1770647928,
+      "links": [
+        "https://potniq.com"
+      ]
+    },
+    {
+      "name": "Potniq",
+      "description": "This web app builds multi-leg travel itineraries (flights, activities, hotels and hotel returns) and suggests departure times for each leg based on predicted traffic patterns, telling users things like \"leave your hotel at 7:40am\" before an 8:30 meeting — eliminating manual Google Maps checks between itinerary items. It is built as a Remix web app with a NodeJS/Fastify backend, Supabase for storage, and Google Maps for route duration calculations, with native mobile clients planned for the future.",
+      "problem": "As a frequent traveler the author built unnecessary time buffers and kept nervously checking a watch or phone to see if planned departure times still held; the tool removes that uncertainty by computing suggested departure times for the whole itinerary.",
+      "audience": "Frequent business travelers, though it also works for family leisure trips and daily local itineraries.",
+      "builder_usernames": [
+        "zan"
+      ],
+      "source_excerpt": "https://potniq.com\n\nIt's a travel tool for business travelers that figures out your suggested departure times for your entire itinerary based on predicted traffic patterns. Think Flighty but for all the non-flight parts of your trip.",
+      "evidence": [
+        {
+          "source_item_id": 46271064,
+          "source_field": "body",
+          "value": "https://potniq.com\n\nIt's a travel tool for business travelers that figures out your suggested departure times for your entire itinerary based on predicted traffic patterns. Think Flighty but for all the non-flight parts of your trip.",
+          "supports": [],
+          "author": "zan",
+          "shared_at": 1765779764,
+          "source_url": "https://news.ycombinator.com/item?id=46271064"
+        }
+      ],
+      "source_item_id": 46271064,
+      "source_url": "https://news.ycombinator.com/item?id=46271064",
+      "author": "zan",
+      "shared_at": 1765779764,
+      "links": [
+        "https://potniq.com"
+      ]
+    }
+  ]
+}

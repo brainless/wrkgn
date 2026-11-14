@@ -1,0 +1,35 @@
+{
+  "id": 7057,
+  "slug": "awsight-414459cf34",
+  "name": "AWSight",
+  "mentions": [
+    {
+      "name": "AWSight",
+      "description": "Continuous AWS security posture monitoring service with compliance mapping to SOC 2, NIST, and CIS, offered at a flat rate starting at $249/mo for smaller organizations.",
+      "problem": "SMBs are stuck between paying enterprise prices for tools like Security Hub + Config rules (which can hit $2-5K/mo on a mid-size account) or flying blind, with little in between for teams that need to pass audits without a dedicated security person.",
+      "audience": "Engineering teams at smaller orgs that need to pass audits but don't have a dedicated security person.",
+      "builder_usernames": [
+        "_slih"
+      ],
+      "source_excerpt": "Building AWSight (https://www.awsight.com), continuous AWS security posture monitoring with compliance mapping to SOC 2, NIST, and CIS. Flat rate starting at $249/mo.",
+      "evidence": [
+        {
+          "source_item_id": 46951724,
+          "source_field": "body",
+          "value": "Building AWSight (https://www.awsight.com), continuous AWS security posture monitoring with compliance mapping to SOC 2, NIST, and CIS. Flat rate starting at $249/mo.",
+          "supports": [],
+          "author": "_slih",
+          "shared_at": 1770672744,
+          "source_url": "https://news.ycombinator.com/item?id=46951724"
+        }
+      ],
+      "source_item_id": 46951724,
+      "source_url": "https://news.ycombinator.com/item?id=46951724",
+      "author": "_slih",
+      "shared_at": 1770672744,
+      "links": [
+        "https://www.awsight.com"
+      ]
+    }
+  ]
+}

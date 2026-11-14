@@ -1,0 +1,35 @@
+{
+  "id": 4660,
+  "slug": "imgsrv-464afebc02",
+  "name": "imgsrv",
+  "mentions": [
+    {
+      "name": "imgsrv",
+      "description": "A registry service for disk images, modeled on a container registry. It enforces versioning, supports attaching multiple image formats to a single release, and prioritizes immutability, enabling fully automated image release pipelines. Planned compatibility with Incus as a remote lets users add it as a remote and consume all their versioned images.",
+      "problem": "No common place to manage the image release lifecycle, e.g., for PXE-based homelab setups.",
+      "audience": null,
+      "builder_usernames": [
+        "aliasxneo"
+      ],
+      "source_excerpt": "Currently working on `imgsrv` which is basically a container registry but it holds disk images. Enforces versioning, allows attaching multiple formats for a single release, prioritizes immutability, etc. Intended to build fully automated image release pipelines. I use a PXE setup for my homelab, so having a common place to manage image release lifecycle is helpful.",
+      "evidence": [
+        {
+          "source_item_id": 48087383,
+          "source_field": "body",
+          "value": "Currently working on `imgsrv` which is basically a container registry but it holds disk images. Enforces versioning, allows attaching multiple formats for a single release, prioritizes immutability, etc. Intended to build fully automated image release pipelines. I use a PXE setup for my homelab, so having a common place to manage image release lifecycle is helpful.",
+          "supports": [],
+          "author": "aliasxneo",
+          "shared_at": 1778443626,
+          "source_url": "https://news.ycombinator.com/item?id=48087383"
+        }
+      ],
+      "source_item_id": 48087383,
+      "source_url": "https://news.ycombinator.com/item?id=48087383",
+      "author": "aliasxneo",
+      "shared_at": 1778443626,
+      "links": [
+        "https://github.com/meigma/imgsrv"
+      ]
+    }
+  ]
+}

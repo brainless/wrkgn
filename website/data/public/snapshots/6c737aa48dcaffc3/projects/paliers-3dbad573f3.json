@@ -1,0 +1,35 @@
+{
+  "id": 9314,
+  "slug": "paliers-3dbad573f3",
+  "name": "Paliers",
+  "mentions": [
+    {
+      "name": "Paliers",
+      "description": "A client-side web app that helps scuba divers set up their dive computer. It explains Bühlmann's decompression algorithm \"Gradient Factors\" (two free parameters controlling the dive's safety margin) and shows their impact on the computed dive plan and ascent stops.",
+      "problem": "Gradient Factors are two free parameters that control the safety margin of a dive, and it is not obvious what values to choose, especially for novice divers.",
+      "audience": "Scuba divers, especially novice divers",
+      "builder_usernames": [
+        "repied"
+      ],
+      "source_excerpt": "A client-side web app to help scuba divers set up their dive computer.\n\nScuba divers use computers to tell them when to make stops during ascent to prevent decompression illness. Many recent computers implement Bühlmann's decompression algorithm with \"Gradient Factors\".\n\nGradient Factors are 2 free parameters that control the \"safety\" margin of the dive. It's not obvious what values to choose, especially for novice divers.\n\nMy app explains what they are and shows their impact on the computed dive plan.\n\nhttps://repied.github.io/paliers/",
+      "evidence": [
+        {
+          "source_item_id": 45915084,
+          "source_field": "body",
+          "value": "A client-side web app to help scuba divers set up their dive computer.\n\nScuba divers use computers to tell them when to make stops during ascent to prevent decompression illness. Many recent computers implement Bühlmann's decompression algorithm with \"Gradient Factors\".\n\nGradient Factors are 2 free parameters that control the \"safety\" margin of the dive. It's not obvious what values to choose, especially for novice divers.\n\nMy app explains what they are and shows their impact on the computed dive plan.\n\nhttps://repied.github.io/paliers/",
+          "supports": [],
+          "author": "repied",
+          "shared_at": 1763043130,
+          "source_url": "https://news.ycombinator.com/item?id=45915084"
+        }
+      ],
+      "source_item_id": 45915084,
+      "source_url": "https://news.ycombinator.com/item?id=45915084",
+      "author": "repied",
+      "shared_at": 1763043130,
+      "links": [
+        "https://repied.github.io/paliers/"
+      ]
+    }
+  ]
+}

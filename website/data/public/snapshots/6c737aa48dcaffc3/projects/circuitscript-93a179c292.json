@@ -1,0 +1,211 @@
+{
+  "id": 2543,
+  "slug": "circuitscript-93a179c292",
+  "name": "Circuitscript",
+  "mentions": [
+    {
+      "name": "Circuitscript",
+      "description": "A Python-inspired language for describing electronic schematics as code rather than clicking around graphical CAD tools, with a browser-based Bench IDE for trying it out. Recent additions include initial ngspice netlist export so a Circuitscript design can be simulated from the same source file, and bus support for less tedious connection of wide parallel lines like I2C and SPI. Nested for-loops were used to generate and test a 161-LED charlieplexed array without hand copy-pasting LEDs and connections.",
+      "problem": "Designing schematics by clicking around graphical CAD tools (KiCad, Allegro, Altium) is tedious; the project lets designers express circuit intent as code that is clear and reviewable in text.",
+      "audience": "Electronics designers and hobbyists frustrated with graphical schematic CAD tools, including KiCad users looking to convert existing designs.",
+      "builder_usernames": [
+        "liu3hao"
+      ],
+      "source_excerpt": "still making progress on Circuitscript, a Python-inspired language for describing electronic schematics: https://circuitscript.net/. You can try it in the browser via the Bench IDE: https://bench.circuitscript.net/",
+      "evidence": [
+        {
+          "source_item_id": 48889495,
+          "source_field": "body",
+          "value": "still making progress on Circuitscript, a Python-inspired language for describing electronic schematics: https://circuitscript.net/. You can try it in the browser via the Bench IDE: https://bench.circuitscript.net/",
+          "supports": [],
+          "author": "liu3hao",
+          "shared_at": 1783930992,
+          "source_url": "https://news.ycombinator.com/item?id=48889495"
+        }
+      ],
+      "source_item_id": 48889495,
+      "source_url": "https://news.ycombinator.com/item?id=48889495",
+      "author": "liu3hao",
+      "shared_at": 1783930992,
+      "links": [
+        "https://bench.circuitscript.net/",
+        "https://circuitscript.net/"
+      ]
+    },
+    {
+      "name": "Circuitscript",
+      "description": "Circuitscript is a Python-based language for describing electronic schematics as code instead of through graphical CAD UIs, making design intentions explicit and reviewable. It ships with a basic online IDE (the Bench) for trying the language. Recent work added more ERC rules (pin type compatibility checks), initial net class support, and backslash line continuation like Python. The author used it to complete a 161-LED charlieplexed array design driven by nested for-loops, which is currently in production.",
+      "problem": "Graphical schematic CAD packages (Allegro, Altium, KiCad) force designers to fiddle with GUIs rather than think about the design itself; Circuitscript lets schematics be written as code so design intentions are explicit and reviewable.",
+      "audience": "Electronics designers frustrated with graphical schematic tools; the author also invites KiCad users who want to convert their designs",
+      "builder_usernames": [
+        "liu3hao"
+      ],
+      "source_excerpt": "Hi HN, I am making progress working on Circuitscript, a language based on python to describe electronic schematics: https://circuitscript.net/. A basic IDE (called the Bench) to try Circuitscript is available online: https://bench.circuitscript.net/",
+      "evidence": [
+        {
+          "source_item_id": 48535610,
+          "source_field": "body",
+          "value": "Hi HN, I am making progress working on Circuitscript, a language based on python to describe electronic schematics: https://circuitscript.net/. A basic IDE (called the Bench) to try Circuitscript is available online: https://bench.circuitscript.net/",
+          "supports": [],
+          "author": "liu3hao",
+          "shared_at": 1781488328,
+          "source_url": "https://news.ycombinator.com/item?id=48535610"
+        }
+      ],
+      "source_item_id": 48535610,
+      "source_url": "https://news.ycombinator.com/item?id=48535610",
+      "author": "liu3hao",
+      "shared_at": 1781488328,
+      "links": [
+        "https://bench.circuitscript.net/",
+        "https://circuitscript.net/"
+      ]
+    },
+    {
+      "name": "CircuitScript",
+      "description": "CircuitScript is a Python-like language for describing electronic schematics as code, usable through an online IDE. Recent additions include export to the KiCad .kicad_sch format (multi-sheet designs exported as one file per sheet) and updated KiCad-like pin types to better support ERC rules, including a new power_reference pin type for GND symbols.",
+      "problem": "Graphical schematic CAD tools require fiddling with GUIs, leaving less time to think about the schematic design itself; code makes design intentions explicit and reviewable.",
+      "audience": "Circuit designers and engineers frustrated with graphical schematic CAD tools (Allegro, Altium, KiCAD).",
+      "builder_usernames": [
+        "liu3hao"
+      ],
+      "source_excerpt": "Having some progress on CircuitScript, a python like language for describing electronic schematics as code: https://circuitscript.net. Try the language through the online IDE at https://bench.circuitscript.net",
+      "evidence": [
+        {
+          "source_item_id": 48093746,
+          "source_field": "body",
+          "value": "Having some progress on CircuitScript, a python like language for describing electronic schematics as code: https://circuitscript.net. Try the language through the online IDE at https://bench.circuitscript.net",
+          "supports": [],
+          "author": "liu3hao",
+          "shared_at": 1778499810,
+          "source_url": "https://news.ycombinator.com/item?id=48093746"
+        }
+      ],
+      "source_item_id": 48093746,
+      "source_url": "https://news.ycombinator.com/item?id=48093746",
+      "author": "liu3hao",
+      "shared_at": 1778499810,
+      "links": [
+        "https://bench.circuitscript.net",
+        "https://circuitscript.net"
+      ]
+    },
+    {
+      "name": "Circuitscript",
+      "description": "Circuitscript is a Python-based language for describing electronic schematics as code instead of through graphical CAD UIs. It ships with an online IDE called the Bench for trying it out. Recent additions include support for KiCad schematic libraries, which are converted into Circuitscript format and can be imported directly into Circuitscript code, with improved import functionality and caching to handle the large number of components.",
+      "problem": "Graphical schematic CAD packages (Allegro, Altium, KiCAD) require fiddling with GUIs; the author wanted to describe schematics in code to spend more time thinking about the design itself.",
+      "audience": null,
+      "builder_usernames": [
+        "liu3hao"
+      ],
+      "source_excerpt": "Hi HN, I am still working on Circuitscript, a language based on python to describe electronic schematics: https://circuitscript.net/. A basic IDE (called the Bench) to try Circuitscript is available online: https://bench.circuitscript.net/",
+      "evidence": [
+        {
+          "source_item_id": 47307402,
+          "source_field": "body",
+          "value": "Hi HN, I am still working on Circuitscript, a language based on python to describe electronic schematics: https://circuitscript.net/. A basic IDE (called the Bench) to try Circuitscript is available online: https://bench.circuitscript.net/",
+          "supports": [],
+          "author": "liu3hao",
+          "shared_at": 1773053774,
+          "source_url": "https://news.ycombinator.com/item?id=47307402"
+        }
+      ],
+      "source_item_id": 47307402,
+      "source_url": "https://news.ycombinator.com/item?id=47307402",
+      "author": "liu3hao",
+      "shared_at": 1773053774,
+      "links": [
+        "https://bench.circuitscript.net/",
+        "https://circuitscript.net/",
+        "https://gitlab.com/circuitscript/kicad-libraries"
+      ]
+    },
+    {
+      "name": "Circuitscript",
+      "description": "A Python-based language for describing electronic schematics as code, with a basic online IDE called the Bench for trying it in the browser. Schematics written in Circuitscript can be exported as netlists for PCB tools such as KiCad pcbnew; the author validated the workflow by designing a working USB-UART board with it.",
+      "problem": "Graphical schematic CAD packages (Allegro, Altium, KiCAD) get in the way of the design; the author wanted to describe schematics in code to spend more time thinking about the schematic design itself rather than fiddling with GUIs, and text makes diffing complex circuit changes easier since it captures intent better.",
+      "audience": "Electronics designers and hobbyists",
+      "builder_usernames": [
+        "liu3hao"
+      ],
+      "source_excerpt": "Hi HN, I am working on Circuitscript, a language based on python to describe electronic schematics: https://circuitscript.net/. A basic IDE (called the Bench) to try Circuitscript is available online: https://bench.circuitscript.net/",
+      "evidence": [
+        {
+          "source_item_id": 46944257,
+          "source_field": "body",
+          "value": "Hi HN, I am working on Circuitscript, a language based on python to describe electronic schematics: https://circuitscript.net/. A basic IDE (called the Bench) to try Circuitscript is available online: https://bench.circuitscript.net/",
+          "supports": [],
+          "author": "liu3hao",
+          "shared_at": 1770638117,
+          "source_url": "https://news.ycombinator.com/item?id=46944257"
+        }
+      ],
+      "source_item_id": 46944257,
+      "source_url": "https://news.ycombinator.com/item?id=46944257",
+      "author": "liu3hao",
+      "shared_at": 1770638117,
+      "links": [
+        "https://bench.circuitscript.net/",
+        "https://circuitscript.net/"
+      ]
+    },
+    {
+      "name": "Circuitscript",
+      "description": "Circuitscript is a Python-based language for describing electronic schematics as code rather than through graphical CAD UIs. It ships with the Bench, an online IDE for trying the language. Recent features include automatic stable refdes annotations, parameter assignment rules for easy part number assignment, and ERC rules, which support turning a schematic into a usable BOM and PCB layout.",
+      "problem": "Graphical schematic CAD packages (Allegro, Altium, KiCAD) force time spent fiddling with GUIs; the author wanted to describe schematics in code and spend more time thinking about the schematic design itself.",
+      "audience": null,
+      "builder_usernames": [
+        "liu3hao"
+      ],
+      "source_excerpt": "Hi HN, I am working on Circuitscript, a language based on python to describe electronic schematics: https://circuitscript.net/. A basic IDE (called the Bench) to try Circuitscript is available online: https://bench.circuitscript.net/",
+      "evidence": [
+        {
+          "source_item_id": 46582988,
+          "source_field": "body",
+          "value": "Hi HN, I am working on Circuitscript, a language based on python to describe electronic schematics: https://circuitscript.net/. A basic IDE (called the Bench) to try Circuitscript is available online: https://bench.circuitscript.net/",
+          "supports": [],
+          "author": "liu3hao",
+          "shared_at": 1768183372,
+          "source_url": "https://news.ycombinator.com/item?id=46582988"
+        }
+      ],
+      "source_item_id": 46582988,
+      "source_url": "https://news.ycombinator.com/item?id=46582988",
+      "author": "liu3hao",
+      "shared_at": 1768183372,
+      "links": [
+        "https://bench.circuitscript.net/",
+        "https://circuitscript.net/"
+      ]
+    },
+    {
+      "name": "Circuitscript",
+      "description": "Circuitscript is a Python-based language for describing electronic schematics and circuits as code rather than through graphical CAD UIs. It includes a desktop CLI tool that generates KiCAD netlists importable into PCBnew, and the Bench, a web IDE for trying Circuitscript online. Language goals are ease of writing and reasoning, designer-controlled graphical layout (via wire commands) since schematic layout is part of the design process, and code reuse. Planned next steps include building more example schematics to test the language and generating PCB designs with KiCAD.",
+      "problem": "Graphical schematic-capture CAD packages (Allegro, Altium, KiCAD) require fiddling with GUIs; the author wanted to describe schematics in code and spend more time thinking about the schematic design itself.",
+      "audience": null,
+      "builder_usernames": [
+        "liu3hao"
+      ],
+      "source_excerpt": "Hi HN, I am working on Circuitscript, a language based on python to describe electronic schematics/circuits: https://circuitscript.net/\n\nRecently, I have released a simple IDE (called the Bench) to try Circuitscript online: https://bench.circuitscript.net/",
+      "evidence": [
+        {
+          "source_item_id": 45420303,
+          "source_field": "body",
+          "value": "Hi HN, I am working on Circuitscript, a language based on python to describe electronic schematics/circuits: https://circuitscript.net/\n\nRecently, I have released a simple IDE (called the Bench) to try Circuitscript online: https://bench.circuitscript.net/",
+          "supports": [],
+          "author": "liu3hao",
+          "shared_at": 1759189973,
+          "source_url": "https://news.ycombinator.com/item?id=45420303"
+        }
+      ],
+      "source_item_id": 45420303,
+      "source_url": "https://news.ycombinator.com/item?id=45420303",
+      "author": "liu3hao",
+      "shared_at": 1759189973,
+      "links": [
+        "https://bench.circuitscript.net/",
+        "https://circuitscript.net/"
+      ]
+    }
+  ]
+}

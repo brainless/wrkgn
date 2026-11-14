@@ -1,0 +1,64 @@
+{
+  "id": 1218,
+  "slug": "torpor-0fcd95a4eb",
+  "name": "Torpor",
+  "mentions": [
+    {
+      "name": "Torpor",
+      "description": "A full-stack JavaScript framework, now faster and with more built-in components, featuring single-file code routing that can be migrated to full file routing as a site grows. Started by a human but now mostly implemented by robots.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "andrewjk"
+      ],
+      "source_excerpt": "I've also been working on my full-stack JS framework (https://github.com/andrewjk/torpor) which is now faster, has more built-in components, and has single file code routing which can be migrated to full file routing when your site gets bigger",
+      "evidence": [
+        {
+          "source_item_id": 49696438,
+          "source_field": "body",
+          "value": "I've also been working on my full-stack JS framework (https://github.com/andrewjk/torpor) which is now faster, has more built-in components, and has single file code routing which can be migrated to full file routing when your site gets bigger",
+          "supports": [],
+          "author": "andrewjk",
+          "shared_at": 1789392188,
+          "source_url": "https://news.ycombinator.com/item?id=49696438"
+        }
+      ],
+      "source_item_id": 49696438,
+      "source_url": "https://news.ycombinator.com/item?id=49696438",
+      "author": "andrewjk",
+      "shared_at": 1789392188,
+      "links": [
+        "https://github.com/andrewjk/torpor"
+      ]
+    },
+    {
+      "name": "Torpor",
+      "description": "A full stack JavaScript framework in which components are JS functions containing UI that is mostly HTML, with reactivity handled through proxied objects.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "andrewjk"
+      ],
+      "source_excerpt": "In my free time this year I've been working on a full stack JS framework called Torpor: https://torpor.dev (https://github.com/andrewjk/torpor)\n\nComponents are JS functions, containing UI that is (mostly) HTML, with reactivity only via proxied objects.",
+      "evidence": [
+        {
+          "source_item_id": 46281623,
+          "source_field": "body",
+          "value": "In my free time this year I've been working on a full stack JS framework called Torpor: https://torpor.dev (https://github.com/andrewjk/torpor)\n\nComponents are JS functions, containing UI that is (mostly) HTML, with reactivity only via proxied objects.",
+          "supports": [],
+          "author": "andrewjk",
+          "shared_at": 1765837320,
+          "source_url": "https://news.ycombinator.com/item?id=46281623"
+        }
+      ],
+      "source_item_id": 46281623,
+      "source_url": "https://news.ycombinator.com/item?id=46281623",
+      "author": "andrewjk",
+      "shared_at": 1765837320,
+      "links": [
+        "https://github.com/andrewjk/torpor",
+        "https://torpor.dev"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 10903,
+  "slug": "pgfdb-a4d01eeec7",
+  "name": "pgfdb",
+  "mentions": [
+    {
+      "name": "pgfdb",
+      "description": "A Postgres extension that runs Postgres on top of FoundationDB, aiming to turn Postgres into a distributed, horizontally scalable database with automatic sharding and replication.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "fabianlindfors"
+      ],
+      "source_excerpt": "I’m working on extending Postgres to run on top of FoundationDB. The goal would be turning Postgres into a distributed, horizontally scalable database with automatic sharding and replication.",
+      "evidence": [
+        {
+          "source_item_id": 43815934,
+          "source_field": "body",
+          "value": "I’m working on extending Postgres to run on top of FoundationDB. The goal would be turning Postgres into a distributed, horizontally scalable database with automatic sharding and replication.",
+          "supports": [],
+          "author": "fabianlindfors",
+          "shared_at": 1745795647,
+          "source_url": "https://news.ycombinator.com/item?id=43815934"
+        }
+      ],
+      "source_item_id": 43815934,
+      "source_url": "https://news.ycombinator.com/item?id=43815934",
+      "author": "fabianlindfors",
+      "shared_at": 1745795647,
+      "links": []
+    }
+  ]
+}

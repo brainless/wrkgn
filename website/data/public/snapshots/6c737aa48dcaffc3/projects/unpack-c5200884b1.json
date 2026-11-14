@@ -1,0 +1,35 @@
+{
+  "id": 10970,
+  "slug": "unpack-c5200884b1",
+  "name": "unpack",
+  "mentions": [
+    {
+      "name": "unpack",
+      "description": "Chrome extension that organizes web-based learning into journeys. It bundles sets of websites into a 'container' using the tab group API and a sidebar, and tracks progress through visiting the pages. It uses an LLM to generate learning 'packets' from a prompt and generates websites just in time, backed by an S3 bucket.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "enos_feedler"
+      ],
+      "source_excerpt": "Chrome extension to organize web-based learning into journeys. Uses the tab group API and sidebar to bundle a set of websites into a \"container\". Sidebar tracks progress through visiting the pages. Requires an LLM token for generating \"packets\" from a prompt. Requires s3 bucket token because it generates web sites just in time.",
+      "evidence": [
+        {
+          "source_item_id": 43819779,
+          "source_field": "body",
+          "value": "Chrome extension to organize web-based learning into journeys. Uses the tab group API and sidebar to bundle a set of websites into a \"container\". Sidebar tracks progress through visiting the pages. Requires an LLM token for generating \"packets\" from a prompt. Requires s3 bucket token because it generates web sites just in time.",
+          "supports": [],
+          "author": "enos_feedler",
+          "shared_at": 1745837325,
+          "source_url": "https://news.ycombinator.com/item?id=43819779"
+        }
+      ],
+      "source_item_id": 43819779,
+      "source_url": "https://news.ycombinator.com/item?id=43819779",
+      "author": "enos_feedler",
+      "shared_at": 1745837325,
+      "links": [
+        "https://chromewebstore.google.com/detail/unpack/mcgdbnjjnnfmnmbljdkobpdgllebjngp"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 7556,
+  "slug": "aichat-f70f1dfe4b",
+  "name": "aichat",
+  "mentions": [
+    {
+      "name": "aichat",
+      "description": "A command group for Claude Code, Codex CLI and similar CLI agents that enables continuing work from a session at full context usage by creating a new session and injecting session lineage pointers, so the agent and sub-agents can recover arbitrary full details from ancestor sessions without needing compacting.",
+      "problem": "Sessions that hit full context usage normally require compacting, which loses detail.",
+      "audience": "Users of Claude Code, Codex CLI and similar CLI coding agents",
+      "builder_usernames": [
+        "d4rkp4ttern"
+      ],
+      "source_excerpt": "an “aichat” command group that enables continuing work from a session that is at full context usage, by creating a new session and injecting session lineage pointers so the agent/sub-agent can recover arbitrary full details from ancestor sessions. So no more compacting needed.",
+      "evidence": [
+        {
+          "source_item_id": 46579634,
+          "source_field": "body",
+          "value": "an “aichat” command group that enables continuing work from a session that is at full context usage, by creating a new session and injecting session lineage pointers so the agent/sub-agent can recover arbitrary full details from ancestor sessions. So no more compacting needed.",
+          "supports": [],
+          "author": "d4rkp4ttern",
+          "shared_at": 1768163115,
+          "source_url": "https://news.ycombinator.com/item?id=46579634"
+        }
+      ],
+      "source_item_id": 46579634,
+      "source_url": "https://news.ycombinator.com/item?id=46579634",
+      "author": "d4rkp4ttern",
+      "shared_at": 1768163115,
+      "links": [
+        "https://github.com/pchalasani/claude-code-tools"
+      ]
+    }
+  ]
+}

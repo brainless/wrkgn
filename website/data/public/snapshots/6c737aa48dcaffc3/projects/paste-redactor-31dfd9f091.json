@@ -1,0 +1,35 @@
+{
+  "id": 4604,
+  "slug": "paste-redactor-31dfd9f091",
+  "name": "Paste Redactor",
+  "mentions": [
+    {
+      "name": "Paste Redactor",
+      "description": "A tool that redacts personally identifiable information (PII) from clipboard content when copying and pasting text, using a custom-trained local AI model so that PII never leaves the device. It is being extended into a privacy protection layer for AI agents: data passes through the local protection layer (with labels) before being sent to cloud models and is reconstructed locally when results return — described as like an adblocker, but for agents and private data.",
+      "problem": "Powerful cloud AI models need access to local files to be useful, which risks exposing private data; this tool keeps PII on-device and protects data before it is sent to the cloud.",
+      "audience": null,
+      "builder_usernames": [
+        "pizzly"
+      ],
+      "source_excerpt": "Paste Redactor. It redacts Personable Identifiable Information (PII) from your clipboard when you copy and paste text. It uses a custom trained local AI model so that your PII never leaves your device.",
+      "evidence": [
+        {
+          "source_item_id": 48087954,
+          "source_field": "body",
+          "value": "Paste Redactor. It redacts Personable Identifiable Information (PII) from your clipboard when you copy and paste text. It uses a custom trained local AI model so that your PII never leaves your device.",
+          "supports": [],
+          "author": "pizzly",
+          "shared_at": 1778446835,
+          "source_url": "https://news.ycombinator.com/item?id=48087954"
+        }
+      ],
+      "source_item_id": 48087954,
+      "source_url": "https://news.ycombinator.com/item?id=48087954",
+      "author": "pizzly",
+      "shared_at": 1778446835,
+      "links": [
+        "https://redactor.negativestarinnovators.com/"
+      ]
+    }
+  ]
+}

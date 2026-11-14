@@ -1,0 +1,33 @@
+{
+  "id": 4886,
+  "slug": "opentype-text-shaper-and-renderer-javascript-rust-09c0f50783",
+  "name": "OpenType text shaper and renderer (JavaScript/Rust)",
+  "mentions": [
+    {
+      "name": "OpenType text shaper and renderer (JavaScript/Rust)",
+      "description": "This is an OpenType text shaper and renderer written in JavaScript and Rust with minimal memory requirements. It enables rendering of complex scripts (Arabic, Devanagari, Thai, Khmer, etc.) using standard TrueType fonts on embedded systems such as a vanilla ESP32.",
+      "problem": "Rendering complex scripts on memory-constrained embedded systems is difficult.",
+      "audience": "Developers building for embedded systems like the ESP32.",
+      "builder_usernames": [
+        "jansan"
+      ],
+      "source_excerpt": "I am working on an OpenType text shaper and renderer in Javascript and Rust with minimal memory requirements. Will allow complex scripts (Arabic, Devanagari, Thai, Khmer, etc.) rendering with standard TrueType fonts on embedded systems like a valilla esp32.",
+      "evidence": [
+        {
+          "source_item_id": 48091284,
+          "source_field": "body",
+          "value": "I am working on an OpenType text shaper and renderer in Javascript and Rust with minimal memory requirements. Will allow complex scripts (Arabic, Devanagari, Thai, Khmer, etc.) rendering with standard TrueType fonts on embedded systems like a valilla esp32.",
+          "supports": [],
+          "author": "jansan",
+          "shared_at": 1778476595,
+          "source_url": "https://news.ycombinator.com/item?id=48091284"
+        }
+      ],
+      "source_item_id": 48091284,
+      "source_url": "https://news.ycombinator.com/item?id=48091284",
+      "author": "jansan",
+      "shared_at": 1778476595,
+      "links": []
+    }
+  ]
+}

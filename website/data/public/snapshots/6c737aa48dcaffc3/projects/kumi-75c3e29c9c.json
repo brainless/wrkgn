@@ -1,0 +1,35 @@
+{
+  "id": 10074,
+  "slug": "kumi-75c3e29c9c",
+  "name": "Kumi",
+  "mentions": [
+    {
+      "name": "Kumi",
+      "description": "A Ruby library that blends a rules engine with spreadsheet-like semantics, an array language, and static validation, plus a compilation/codegen layer (still being merged) that generates Ruby code from the Ruby DSL.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "goldenCeasar"
+      ],
+      "source_excerpt": "it's a ruby library, that is mix of a rules engine+spreadsheet feelings+array language+static validation+compiled/codegen... that last part is mostly not merged yet but yeah, ruby DSL codegenerating ruby, it's ruby all the way.",
+      "evidence": [
+        {
+          "source_item_id": 45422802,
+          "source_field": "body",
+          "value": "it's a ruby library, that is mix of a rules engine+spreadsheet feelings+array language+static validation+compiled/codegen... that last part is mostly not merged yet but yeah, ruby DSL codegenerating ruby, it's ruby all the way.",
+          "supports": [],
+          "author": "goldenCeasar",
+          "shared_at": 1759216801,
+          "source_url": "https://news.ycombinator.com/item?id=45422802"
+        }
+      ],
+      "source_item_id": 45422802,
+      "source_url": "https://news.ycombinator.com/item?id=45422802",
+      "author": "goldenCeasar",
+      "shared_at": 1759216801,
+      "links": [
+        "https://github.com/amuta/kumi/tree/codegen-v5"
+      ]
+    }
+  ]
+}

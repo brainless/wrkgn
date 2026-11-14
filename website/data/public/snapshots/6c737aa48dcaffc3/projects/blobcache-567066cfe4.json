@@ -1,0 +1,93 @@
+{
+  "id": 6798,
+  "slug": "blobcache-567066cfe4",
+  "name": "Blobcache",
+  "mentions": [
+    {
+      "name": "Blobcache",
+      "description": "This is a general-purpose transactional storage layer with an end-to-end encrypted backend, serving as the storage foundation that Got is built on.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "brendoncarroll"
+      ],
+      "source_excerpt": "Got is built on Blobcache, which is a general-purpose transactional storage layer and E2E encrypted backend.",
+      "evidence": [
+        {
+          "source_item_id": 46945278,
+          "source_field": "body",
+          "value": "Got is built on Blobcache, which is a general-purpose transactional storage layer and E2E encrypted backend.",
+          "supports": [],
+          "author": "brendoncarroll",
+          "shared_at": 1770645606,
+          "source_url": "https://news.ycombinator.com/item?id=46945278"
+        }
+      ],
+      "source_item_id": 46945278,
+      "source_url": "https://news.ycombinator.com/item?id=46945278",
+      "author": "brendoncarroll",
+      "shared_at": 1770645606,
+      "links": [
+        "https://blobcache.io",
+        "https://github.com/blobcache/blobcache"
+      ]
+    },
+    {
+      "name": "Blobcache",
+      "description": "Blobcache is a content-addressed data store for holding application state and building end-to-end encrypted (E2EE) applications. Version 0.0.2 adds a git remote so Git data can be pushed to and fetched from Blobcache.",
+      "problem": null,
+      "audience": "developers building E2EE applications",
+      "builder_usernames": [
+        "brendoncarroll"
+      ],
+      "source_excerpt": "Blobcache is a content-addressed data store for holding application state, and buiding E2EE applications.\nThis most recent release includes a git remote so you can push and fetch Git data into and out of Blobcache.",
+      "evidence": [
+        {
+          "source_item_id": 46281644,
+          "source_field": "body",
+          "value": "Blobcache is a content-addressed data store for holding application state, and buiding E2EE applications.\nThis most recent release includes a git remote so you can push and fetch Git data into and out of Blobcache.",
+          "supports": [],
+          "author": "brendoncarroll",
+          "shared_at": 1765837452,
+          "source_url": "https://news.ycombinator.com/item?id=46281644"
+        }
+      ],
+      "source_item_id": 46281644,
+      "source_url": "https://news.ycombinator.com/item?id=46281644",
+      "author": "brendoncarroll",
+      "shared_at": 1765837452,
+      "links": [
+        "https://github.com/blobcache/blobcache"
+      ]
+    },
+    {
+      "name": "Blobcache",
+      "description": "Content-addressed storage available over the network, allowing nodes to securely produce and consume storage. Configuration works like SSH — drop a public key in the configuration and you're done — and it serves as a universal backend for end-to-end encrypted applications. GPL-licensed FOSS.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "brendoncarroll"
+      ],
+      "source_excerpt": "I'm working on Blobcache.  https://github.com/blobcache/blobcache\n\nBlobcache is content addressed storage, available over the network.\nBlobcache allow nodes to securely produce and consume storage.\nConfiguration in similar to SSH, drop a public key in the configuration, and you're done.\nBlobcache is a universal backend for E2E encrypted applications.",
+      "evidence": [
+        {
+          "source_item_id": 45425439,
+          "source_field": "body",
+          "value": "I'm working on Blobcache.  https://github.com/blobcache/blobcache\n\nBlobcache is content addressed storage, available over the network.\nBlobcache allow nodes to securely produce and consume storage.\nConfiguration in similar to SSH, drop a public key in the configuration, and you're done.\nBlobcache is a universal backend for E2E encrypted applications.",
+          "supports": [],
+          "author": "brendoncarroll",
+          "shared_at": 1759240329,
+          "source_url": "https://news.ycombinator.com/item?id=45425439"
+        }
+      ],
+      "source_item_id": 45425439,
+      "source_url": "https://news.ycombinator.com/item?id=45425439",
+      "author": "brendoncarroll",
+      "shared_at": 1759240329,
+      "links": [
+        "https://github.com/blobcache/blobcache",
+        "https://github.com/blobcache/blobcache/blob/master/doc/0.0_Blobcache.md"
+      ]
+    }
+  ]
+}

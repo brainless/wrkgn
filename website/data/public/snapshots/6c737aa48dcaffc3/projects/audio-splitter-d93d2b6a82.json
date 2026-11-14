@@ -1,0 +1,36 @@
+{
+  "id": 9410,
+  "slug": "audio-splitter-d93d2b6a82",
+  "name": "Audio Splitter",
+  "mentions": [
+    {
+      "name": "Audio Splitter",
+      "description": "A web UI tool that manually splits large audio files into multiple small audio files—like a long paragraph split into multiple sentences—to prepare segmented audio for the Murajah project. An initial attempt to automate the splitting with Hugging Face or Whisper AI models produced miserable output because the audio files contain complex repetitions, so splitting is currently done manually; the author plans to retry automation using energy drops and similar factors to create segments.",
+      "problem": "The audio files have complex repetitions, so automated splitting with AI models such as Hugging Face or Whisper produced miserable output, requiring splitting to be done manually via a web UI.",
+      "audience": null,
+      "builder_usernames": [
+        "wasi0013"
+      ],
+      "source_excerpt": "Manual audio splitting tool for the above project: audio-splitter-6b3.pages.dev/",
+      "evidence": [
+        {
+          "source_item_id": 45871582,
+          "source_field": "body",
+          "value": "Manual audio splitting tool for the above project: audio-splitter-6b3.pages.dev/",
+          "supports": [],
+          "author": "wasi0013",
+          "shared_at": 1762741054,
+          "source_url": "https://news.ycombinator.com/item?id=45871582"
+        }
+      ],
+      "source_item_id": 45871582,
+      "source_url": "https://news.ycombinator.com/item?id=45871582",
+      "author": "wasi0013",
+      "shared_at": 1762741054,
+      "links": [
+        "https://audio-splitter-6b3.pages.dev/",
+        "https://github.com/wasi0013/audio-splitter"
+      ]
+    }
+  ]
+}

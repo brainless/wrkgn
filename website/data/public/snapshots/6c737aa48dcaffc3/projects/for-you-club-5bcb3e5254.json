@@ -1,0 +1,35 @@
+{
+  "id": 4818,
+  "slug": "for-you-club-5bcb3e5254",
+  "name": "For You Club",
+  "mentions": [
+    {
+      "name": "For You Club",
+      "description": "A custom Bluesky feed built with collaborative filtering over likes data. The algorithm finds people who liked the same posts as you and shows what else they've liked recently. Launched a little over a year ago, it has become the most liked feed on Bluesky.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "lonk11"
+      ],
+      "source_excerpt": "Building a custom feed for Bluesky which uses collaborative filtering over the likes data: https://foryou.club",
+      "evidence": [
+        {
+          "source_item_id": 48089206,
+          "source_field": "body",
+          "value": "Building a custom feed for Bluesky which uses collaborative filtering over the likes data: https://foryou.club",
+          "supports": [],
+          "author": "lonk11",
+          "shared_at": 1778455699,
+          "source_url": "https://news.ycombinator.com/item?id=48089206"
+        }
+      ],
+      "source_item_id": 48089206,
+      "source_url": "https://news.ycombinator.com/item?id=48089206",
+      "author": "lonk11",
+      "shared_at": 1778455699,
+      "links": [
+        "https://foryou.club"
+      ]
+    }
+  ]
+}

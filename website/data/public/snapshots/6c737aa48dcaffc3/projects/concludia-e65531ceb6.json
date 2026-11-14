@@ -1,0 +1,63 @@
+{
+  "id": 5115,
+  "slug": "concludia-e65531ceb6",
+  "name": "Concludia",
+  "mentions": [
+    {
+      "name": "Concludia",
+      "description": "This site helps groups of people collaborate on arguments and conclusions. It lets users construct and validate arguments in a graphical form, with truth/proof propagation that shows whether a conclusion is currently considered valid or contested. Users can add counterpoints where an argument breaks down and strengthen arguments from there. Planned features include letting users validate arguments themselves by marking which parts they understand and agree with, and more MCP capability so LLMs can help construct and validate new arguments.",
+      "problem": null,
+      "audience": "Groups of people collaborating on arguments and conclusions",
+      "builder_usernames": [
+        "tunesmith"
+      ],
+      "source_excerpt": "I'm working on https://concludia.org, a site that helps groups of people collaborate on arguments and conclusions.",
+      "evidence": [
+        {
+          "source_item_id": 47744694,
+          "source_field": "body",
+          "value": "I'm working on https://concludia.org, a site that helps groups of people collaborate on arguments and conclusions.",
+          "supports": [],
+          "author": "tunesmith",
+          "shared_at": 1776029198,
+          "source_url": "https://news.ycombinator.com/item?id=47744694"
+        }
+      ],
+      "source_item_id": 47744694,
+      "source_url": "https://news.ycombinator.com/item?id=47744694",
+      "author": "tunesmith",
+      "shared_at": 1776029198,
+      "links": [
+        "https://concludia.org"
+      ]
+    },
+    {
+      "name": "Concludia",
+      "description": "A web app for collaboratively reasoning through and understanding arguments. Users can graphically explore arguments, track each point's logical sufficiency and necessity, and make counterpoints; unlike argument tools that simply list points in favor and against, it propagates logical truth and provability through the argument structure.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tunesmith"
+      ],
+      "source_excerpt": "https://concludia.org/ - I've mentioned it here before, it's a site to help people reason through and understand arguments together. No real business purpose for it yet, it's more an idea I've had for years and have been wanting to see it through to something actually usable. You can graphically explore arguments, track their logical sufficiency/necessity, and make counterpoints. It's different than other types of argument theory that just have points \"in favor\" and \"against\" because of how it tries to propagate logical truth and provability.",
+      "evidence": [
+        {
+          "source_item_id": 46940050,
+          "source_field": "body",
+          "value": "https://concludia.org/ - I've mentioned it here before, it's a site to help people reason through and understand arguments together. No real business purpose for it yet, it's more an idea I've had for years and have been wanting to see it through to something actually usable. You can graphically explore arguments, track their logical sufficiency/necessity, and make counterpoints. It's different than other types of argument theory that just have points \"in favor\" and \"against\" because of how it tries to propagate logical truth and provability.",
+          "supports": [],
+          "author": "tunesmith",
+          "shared_at": 1770596494,
+          "source_url": "https://news.ycombinator.com/item?id=46940050"
+        }
+      ],
+      "source_item_id": 46940050,
+      "source_url": "https://news.ycombinator.com/item?id=46940050",
+      "author": "tunesmith",
+      "shared_at": 1770596494,
+      "links": [
+        "https://concludia.org/"
+      ]
+    }
+  ]
+}

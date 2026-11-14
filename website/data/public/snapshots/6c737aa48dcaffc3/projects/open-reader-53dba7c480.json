@@ -1,0 +1,35 @@
+{
+  "id": 5377,
+  "slug": "open-reader-53dba7c480",
+  "name": "open reader",
+  "mentions": [
+    {
+      "name": "open reader",
+      "description": "A local-first PDF text-to-speech reader that highlights words as they are spoken. Built in Python and Qt, it uses the local Kokoro TTS engine and a document-layout LLM so users can skip or include sections like tables and references. It runs offline with no APIs or multiple services, offering fast playback, word-level highlighting, and playback selection.",
+      "problem": "Existing web-based readers are slow and clunky; the author was fed up with web tech and wanted a fast, simple local alternative.",
+      "audience": null,
+      "builder_usernames": [
+        "ThePyCoder"
+      ],
+      "source_excerpt": "Worked on some features at open reader, a local-first PDF TTS reader that highlights the words spoken and uses the excellent local kokoro tts engine.",
+      "evidence": [
+        {
+          "source_item_id": 47747911,
+          "source_field": "body",
+          "value": "Worked on some features at open reader, a local-first PDF TTS reader that highlights the words spoken and uses the excellent local kokoro tts engine.",
+          "supports": [],
+          "author": "ThePyCoder",
+          "shared_at": 1776057764,
+          "source_url": "https://news.ycombinator.com/item?id=47747911"
+        }
+      ],
+      "source_item_id": 47747911,
+      "source_url": "https://news.ycombinator.com/item?id=47747911",
+      "author": "ThePyCoder",
+      "shared_at": 1776057764,
+      "links": [
+        "https://github.com/thepycoder/projectwhy-tts"
+      ]
+    }
+  ]
+}

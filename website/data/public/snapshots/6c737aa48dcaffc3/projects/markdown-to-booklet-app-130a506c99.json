@@ -1,0 +1,33 @@
+{
+  "id": 3433,
+  "slug": "markdown-to-booklet-app-130a506c99",
+  "name": "Markdown-to-booklet app",
+  "mentions": [
+    {
+      "name": "Markdown-to-booklet app",
+      "description": "This app converts Markdown into printable booklets, replacing the author's manual typst plus pdfimpose workflow used to produce printouts (such as Sanskrit stories) for an ink tank printer that must be exercised a few times a month.",
+      "problem": null,
+      "audience": "The author's ink tank printer must be used a few times each month or bad things happen, and manually building booklets with typst and pdfimpose was tedious.",
+      "builder_usernames": [
+        "sieve"
+      ],
+      "source_excerpt": "Have an ink tank printer that must be used a few times each month or bad things happen. Have been printing Sanskrit stories instead of test pages. Was manually building booklets with typst and then using pdfimpose. Finally, decided to write an app that does MD -> booklet.",
+      "evidence": [
+        {
+          "source_item_id": 49706334,
+          "source_field": "body",
+          "value": "Have an ink tank printer that must be used a few times each month or bad things happen. Have been printing Sanskrit stories instead of test pages. Was manually building booklets with typst and then using pdfimpose. Finally, decided to write an app that does MD -> booklet.",
+          "supports": [],
+          "author": "sieve",
+          "shared_at": 1789433607,
+          "source_url": "https://news.ycombinator.com/item?id=49706334"
+        }
+      ],
+      "source_item_id": 49706334,
+      "source_url": "https://news.ycombinator.com/item?id=49706334",
+      "author": "sieve",
+      "shared_at": 1789433607,
+      "links": []
+    }
+  ]
+}

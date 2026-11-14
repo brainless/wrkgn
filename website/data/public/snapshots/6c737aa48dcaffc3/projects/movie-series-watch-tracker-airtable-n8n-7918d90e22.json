@@ -1,0 +1,33 @@
+{
+  "id": 11115,
+  "slug": "movie-series-watch-tracker-airtable-n8n-7918d90e22",
+  "name": "Movie & series watch tracker (Airtable + n8n)",
+  "mentions": [
+    {
+      "name": "Movie & series watch tracker (Airtable + n8n)",
+      "description": "This app tracks movies and series watched with a partner. The user inputs a relevant URL and the system determines whether it points to IMDb, YouTube, or a list; an LLM then extracts the movies or series from the list and finds the relevant IMDb links. Built on Airtable with n8n for automation, it presents a masonry view of watched and unwatched items, sortable by tags, with ratings and notes.",
+      "problem": "Tracking movies and series watched with a partner is an impossible task with spreadsheets being too fiddly, and the author wants to look up what is next on a phone.",
+      "audience": null,
+      "builder_usernames": [
+        "SN76477"
+      ],
+      "source_excerpt": "I find tracking movies and series I have watched with my partner an impossible task. Spreadsheets are too fiddly for my partner, and I want to look up what is next on my phone so I have turned to Airtable and n8n for automation.\n\ninput a relevant url, it will decide if it IMDB or Youtube or a list. \nusing an llm, it will attempt to extract the movies or series from the list and find the relevant IMDB link.",
+      "evidence": [
+        {
+          "source_item_id": 43823520,
+          "source_field": "body",
+          "value": "I find tracking movies and series I have watched with my partner an impossible task. Spreadsheets are too fiddly for my partner, and I want to look up what is next on my phone so I have turned to Airtable and n8n for automation.\n\ninput a relevant url, it will decide if it IMDB or Youtube or a list. \nusing an llm, it will attempt to extract the movies or series from the list and find the relevant IMDB link.",
+          "supports": [],
+          "author": "SN76477",
+          "shared_at": 1745859387,
+          "source_url": "https://news.ycombinator.com/item?id=43823520"
+        }
+      ],
+      "source_item_id": 43823520,
+      "source_url": "https://news.ycombinator.com/item?id=43823520",
+      "author": "SN76477",
+      "shared_at": 1745859387,
+      "links": []
+    }
+  ]
+}

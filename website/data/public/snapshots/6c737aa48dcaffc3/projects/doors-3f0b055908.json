@@ -1,0 +1,35 @@
+{
+  "id": 7494,
+  "slug": "doors-3f0b055908",
+  "name": "Doors",
+  "mentions": [
+    {
+      "name": "Doors",
+      "description": "This is a first-person, exploration game/experience built from scratch that lets players explore URL-addressable 3D rooms connected seamlessly via portals. Rooms are defined by a manifest JSON file pointing to resources and configuring portals, an optional skybox, an optional background music track, and a .vox file with voxel terrain data. Creators can upload rooms to the internet (e.g. GitHub, S3) and link them together into one giant interconnected space. Portals can be arbitrarily sized and everything is prefetched and loaded seamlessly in the background. The project is nearly finished, pending a lightweight interface and code polish, and the code will be open sourced.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tlonny"
+      ],
+      "source_excerpt": "Doors - A first person, exploration game/experience that I built from scratch.\n\nDoors lets you explore URL addressable 3D rooms that link together seamlessly via portals.",
+      "evidence": [
+        {
+          "source_item_id": 46579725,
+          "source_field": "body",
+          "value": "Doors - A first person, exploration game/experience that I built from scratch.\n\nDoors lets you explore URL addressable 3D rooms that link together seamlessly via portals.",
+          "supports": [],
+          "author": "tlonny",
+          "shared_at": 1768163768,
+          "source_url": "https://news.ycombinator.com/item?id=46579725"
+        }
+      ],
+      "source_item_id": 46579725,
+      "source_url": "https://news.ycombinator.com/item?id=46579725",
+      "author": "tlonny",
+      "shared_at": 1768163768,
+      "links": [
+        "https://www.youtube.com/shorts/BCqOYTISS_k"
+      ]
+    }
+  ]
+}

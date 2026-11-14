@@ -1,0 +1,33 @@
+{
+  "id": 7850,
+  "slug": "small-swarm-k3s-in-between-orchestrator-09c6e01333",
+  "name": "Small Swarm/K3s in-between orchestrator",
+  "mentions": [
+    {
+      "name": "Small Swarm/K3s in-between orchestrator",
+      "description": "A lightweight container orchestrator positioned between Docker Swarm and K3s—less annoying than Swarm but lighter than K3s.",
+      "problem": "Docker Swarm is annoying to use while K3s is too much (too heavy/complex).",
+      "audience": null,
+      "builder_usernames": [
+        "CodinM"
+      ],
+      "source_excerpt": "A small orchestrator for when Swarm is annoying but K3S is just too much!",
+      "evidence": [
+        {
+          "source_item_id": 46579812,
+          "source_field": "body",
+          "value": "A small orchestrator for when Swarm is annoying but K3S is just too much!",
+          "supports": [],
+          "author": "CodinM",
+          "shared_at": 1768164192,
+          "source_url": "https://news.ycombinator.com/item?id=46579812"
+        }
+      ],
+      "source_item_id": 46579812,
+      "source_url": "https://news.ycombinator.com/item?id=46579812",
+      "author": "CodinM",
+      "shared_at": 1768164192,
+      "links": []
+    }
+  ]
+}

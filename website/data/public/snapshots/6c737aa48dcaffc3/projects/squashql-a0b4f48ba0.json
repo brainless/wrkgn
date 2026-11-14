@@ -1,0 +1,36 @@
+{
+  "id": 9165,
+  "slug": "squashql-a0b4f48ba0",
+  "name": "SquashQL",
+  "mentions": [
+    {
+      "name": "SquashQL",
+      "description": "A SQL query engine for multi-dimensional and hierarchical analysis, compatible with Apache Spark, ClickHouse, BigQuery, Snowflake, PostgreSQL, and DuckDB.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "paulbar"
+      ],
+      "source_excerpt": "I am working on a SQL query engine for multi-dimensional and hierarchical analysis compatible with Apache Spark, ClickHouse, BigQuery, Snowflake, PostgreSQL and DuckDB.",
+      "evidence": [
+        {
+          "source_item_id": 45878287,
+          "source_field": "body",
+          "value": "I am working on a SQL query engine for multi-dimensional and hierarchical analysis compatible with Apache Spark, ClickHouse, BigQuery, Snowflake, PostgreSQL and DuckDB.",
+          "supports": [],
+          "author": "paulbar",
+          "shared_at": 1762795677,
+          "source_url": "https://news.ycombinator.com/item?id=45878287"
+        }
+      ],
+      "source_item_id": 45878287,
+      "source_url": "https://news.ycombinator.com/item?id=45878287",
+      "author": "paulbar",
+      "shared_at": 1762795677,
+      "links": [
+        "https://github.com/squashql/squashql",
+        "https://www.squashql.io/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 8301,
+  "slug": "crypto-helper-9f9947c093",
+  "name": "Crypto Helper",
+  "mentions": [
+    {
+      "name": "Crypto Helper",
+      "description": "This web tool helps debug ASN1-encoded data such as keys, certificates, and Kerberos/CredSSP/SPNEGO data structures, and perform various cryptographic operations. It now supports editing the ASN1 tree directly in the browser and includes a JWT debugger and ASN1 parser; it works online with no sign-in or sign-up required.",
+      "problem": "Debugging ASN1-encoded data and protocol implementations is difficult; the tool exists to help with that work.",
+      "audience": "Debugging ASN1-encoded data (keys, certificates, Kerberos/CredSSP/SPNEGO structures) and protocol implementations is difficult, so the author built a web tool for this at work.",
+      "builder_usernames": [
+        "TheBestTvarynka"
+      ],
+      "source_excerpt": "For the last 3 years, I have been working on a web tool to help me at work: debugging ASN1-encoded data (keys, certificates, Kerberos/CredSSP/SPNEGO/etc data structures, and more) and performing various cryptographic operations.",
+      "evidence": [
+        {
+          "source_item_id": 46267963,
+          "source_field": "body",
+          "value": "For the last 3 years, I have been working on a web tool to help me at work: debugging ASN1-encoded data (keys, certificates, Kerberos/CredSSP/SPNEGO/etc data structures, and more) and performing various cryptographic operations.",
+          "supports": [],
+          "author": "TheBestTvarynka",
+          "shared_at": 1765752512,
+          "source_url": "https://news.ycombinator.com/item?id=46267963"
+        }
+      ],
+      "source_item_id": 46267963,
+      "source_url": "https://news.ycombinator.com/item?id=46267963",
+      "author": "TheBestTvarynka",
+      "shared_at": 1765752512,
+      "links": [
+        "https://crypto.qkation.com/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": 9136,
+  "slug": "rag-boilerplate-ff07e152f0",
+  "name": "RAG Boilerplate",
+  "mentions": [
+    {
+      "name": "RAG Boilerplate",
+      "description": "Open-source RAG (retrieval-augmented generation) boilerplate with extensive system-design documentation, intended mostly for educational purposes. It includes propositional, semantic, and recursive overlap chunking; hybrid search on Qdrant (BM25 + dense) with optional LLM reranking; E5 embeddings as the default vector model; a query-enhancer agent built with CrewAI; a Celery-based document ingestion flow; session handling and restoration using Redis (hot) and MongoDB (cold); and a FastAPI backend with a small Gradio UI to test retrieval and chat with the data. Stack: FastAPI, Qdrant, Redis, MongoDB, Celery, CrewAI, Gradio, HuggingFace models, OpenAI.",
+      "problem": null,
+      "audience": "Mostly for educational purposes",
+      "builder_usernames": [
+        "mburaksayici"
+      ],
+      "source_excerpt": "A RAG Boilerplate with Extensive Documentation\n\nI open-sourced the RAG boilerplate I’ve been using for my own experiments with extensive docs on system design.",
+      "evidence": [
+        {
+          "source_item_id": 45940307,
+          "source_field": "body",
+          "value": "A RAG Boilerplate with Extensive Documentation\n\nI open-sourced the RAG boilerplate I’ve been using for my own experiments with extensive docs on system design.",
+          "supports": [],
+          "author": "mburaksayici",
+          "shared_at": 1763238108,
+          "source_url": "https://news.ycombinator.com/item?id=45940307"
+        }
+      ],
+      "source_item_id": 45940307,
+      "source_url": "https://news.ycombinator.com/item?id=45940307",
+      "author": "mburaksayici",
+      "shared_at": 1763238108,
+      "links": [
+        "https://github.com/mburaksayici/RAG-Boilerplate",
+        "https://mburaksayici.com/blog/2025/11/13/a-rag-boilerplate.html"
+      ]
+    }
+  ]
+}

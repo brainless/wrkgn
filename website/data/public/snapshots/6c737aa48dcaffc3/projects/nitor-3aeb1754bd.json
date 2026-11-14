@@ -1,0 +1,33 @@
+{
+  "id": 5537,
+  "slug": "nitor-3aeb1754bd",
+  "name": "Nitor",
+  "mentions": [
+    {
+      "name": "Nitor",
+      "description": "A Discord-style chat platform with a shared/federated identity layer and self-hosted servers/guilds. The trust model trusts the guild server so private channels work normally with moderation capabilities, while E2E DMs and friend/presence systems are enabled using guild servers as relays. Built with Rust, Iced, and Iroh.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "eximius"
+      ],
+      "source_excerpt": "Nitor - a discord clone with a shared/federated Identity layer, but self-hosted \"servers/guilds\". Trust model is to trust the guild server (e.g., so private channels work as one would expect with moderation capabilities), but to enable E2E DMs and friend/presence systems via guild servers as relays. Rust, Iced, Iroh.",
+      "evidence": [
+        {
+          "source_item_id": 47748184,
+          "source_field": "body",
+          "value": "Nitor - a discord clone with a shared/federated Identity layer, but self-hosted \"servers/guilds\". Trust model is to trust the guild server (e.g., so private channels work as one would expect with moderation capabilities), but to enable E2E DMs and friend/presence systems via guild servers as relays. Rust, Iced, Iroh.",
+          "supports": [],
+          "author": "eximius",
+          "shared_at": 1776060282,
+          "source_url": "https://news.ycombinator.com/item?id=47748184"
+        }
+      ],
+      "source_item_id": 47748184,
+      "source_url": "https://news.ycombinator.com/item?id=47748184",
+      "author": "eximius",
+      "shared_at": 1776060282,
+      "links": []
+    }
+  ]
+}

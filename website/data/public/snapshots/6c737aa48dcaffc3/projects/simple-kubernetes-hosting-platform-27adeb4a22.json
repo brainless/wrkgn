@@ -1,0 +1,33 @@
+{
+  "id": 9046,
+  "slug": "simple-kubernetes-hosting-platform-27adeb4a22",
+  "name": "Simple Kubernetes hosting platform",
+  "mentions": [
+    {
+      "name": "Simple Kubernetes hosting platform",
+      "description": "This platform provides users with a simple managed Kubernetes cluster, handling compute, networked storage and ingress hosting with cluster provisioning in minutes. It uses a fixed monthly upfront cost instead of pay-as-you-go pricing to save small developers money, similar to self-hosting with K0S/K3S/OpenShift without owning servers — like serverless K8S. The goal is to undercut the big clouds by saving users' money and time, with Kubernetes serving as the control panel to deploy, run and scale everything.",
+      "problem": "Properly setting up Kubernetes on a VPS or big-cloud services (EKS/GKE/LKE/OKE/DOKS) takes a lot of time to configure VPC/EBS/S3/EC2 and requires paying large premiums and overheads, which ordinary users don't want to hassle with; the author is fed up with ludicrous EKS billing.",
+      "audience": "Small developers who want to save money and avoid the hassle of setting up and paying for big-cloud Kubernetes.",
+      "builder_usernames": [
+        "stevefan1999"
+      ],
+      "source_excerpt": "I'm working on a K8S hosting solution that just gives the user a simple Kubernetes cluster. I (or we) handle the compute, (networked) storage and ingress hosting for you, and the cluster provision time should be within minutes.",
+      "evidence": [
+        {
+          "source_item_id": 45873652,
+          "source_field": "body",
+          "value": "I'm working on a K8S hosting solution that just gives the user a simple Kubernetes cluster. I (or we) handle the compute, (networked) storage and ingress hosting for you, and the cluster provision time should be within minutes.",
+          "supports": [],
+          "author": "stevefan1999",
+          "shared_at": 1762762395,
+          "source_url": "https://news.ycombinator.com/item?id=45873652"
+        }
+      ],
+      "source_item_id": 45873652,
+      "source_url": "https://news.ycombinator.com/item?id=45873652",
+      "author": "stevefan1999",
+      "shared_at": 1762762395,
+      "links": []
+    }
+  ]
+}

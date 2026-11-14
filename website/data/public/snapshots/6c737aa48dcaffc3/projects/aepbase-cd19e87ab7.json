@@ -1,0 +1,35 @@
+{
+  "id": 4410,
+  "slug": "aepbase-cd19e87ab7",
+  "name": "Aepbase",
+  "mentions": [
+    {
+      "name": "Aepbase",
+      "description": "An open-source backend-in-a-box that ties the AEP API ecosystem together. Users run a single binary and define the schema for a resource with one API call, getting a full set of CRUD APIs plus support for a resource-oriented CLI, Terraform provider, MCP server, and UI with near-zero configuration.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rambleraptor"
+      ],
+      "source_excerpt": "I’ve been working on an OSS backend-in-a-box called [aepbase](https://aepbase.io/).",
+      "evidence": [
+        {
+          "source_item_id": 48087835,
+          "source_field": "body",
+          "value": "I’ve been working on an OSS backend-in-a-box called [aepbase](https://aepbase.io/).",
+          "supports": [],
+          "author": "rambleraptor",
+          "shared_at": 1778446098,
+          "source_url": "https://news.ycombinator.com/item?id=48087835"
+        }
+      ],
+      "source_item_id": 48087835,
+      "source_url": "https://news.ycombinator.com/item?id=48087835",
+      "author": "rambleraptor",
+      "shared_at": 1778446098,
+      "links": [
+        "https://aepbase.io/"
+      ]
+    }
+  ]
+}

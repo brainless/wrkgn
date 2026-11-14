@@ -1,0 +1,33 @@
+{
+  "id": 5544,
+  "slug": "godot-mountain-biking-simulation-game-23b5212491",
+  "name": "Godot Mountain Biking Simulation Game",
+  "mentions": [
+    {
+      "name": "Godot Mountain Biking Simulation Game",
+      "description": "A simulation-style mountain biking game built in Godot with the simulation core written in Rust. Aims for a controllable, realistic-feeling bike with POV gameplay and an action-cam feel, dual-stick controls separating rider hip movement from bike lean, an automated steering controller handling counter-steering, physics-based manuals and hops, simulated dirt using MPM coupled with rigid bodies, and Squamish-style rolls and freeride features.",
+      "problem": "Modeling intuitive bike controls has proven difficult: steering can't be player-controlled directly because counter-steering is too fast and unintuitive, and forces through the bottom bracket for manuals, hops, and pumping have not yet been achieved despite multiple control sets and physics approaches.",
+      "audience": null,
+      "builder_usernames": [
+        "inhisprime9"
+      ],
+      "source_excerpt": "I'm working on a simulation-esque mountain biking game in my spare time. I'm making it in Godot and am writing the simulation core in rust.",
+      "evidence": [
+        {
+          "source_item_id": 47759544,
+          "source_field": "body",
+          "value": "I'm working on a simulation-esque mountain biking game in my spare time. I'm making it in Godot and am writing the simulation core in rust.",
+          "supports": [],
+          "author": "inhisprime9",
+          "shared_at": 1776124915,
+          "source_url": "https://news.ycombinator.com/item?id=47759544"
+        }
+      ],
+      "source_item_id": 47759544,
+      "source_url": "https://news.ycombinator.com/item?id=47759544",
+      "author": "inhisprime9",
+      "shared_at": 1776124915,
+      "links": []
+    }
+  ]
+}

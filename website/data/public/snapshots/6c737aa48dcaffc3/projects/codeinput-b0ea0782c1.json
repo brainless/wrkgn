@@ -1,0 +1,35 @@
+{
+  "id": 7163,
+  "slug": "codeinput-b0ea0782c1",
+  "name": "CodeInput",
+  "mentions": [
+    {
+      "name": "CodeInput",
+      "description": "This tool provides utilities for PR-Git workflows, including a merge conflicts editor with semantic diffs. Its GitHub App detects pull requests with merge conflicts and automatically creates a workspace for resolving them.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "csomar"
+      ],
+      "source_excerpt": "https://codeinput.com - Tools for PR-Git workflows\n\nCurrently experimenting with semantic diffs for the merge conflicts editor: https://codeinput.com/products/merge-conflicts/demo\n\nYou can try by installing the GitHub App which will detect PRs who have a merge conflict and create a workspace for them.",
+      "evidence": [
+        {
+          "source_item_id": 46940599,
+          "source_field": "body",
+          "value": "https://codeinput.com - Tools for PR-Git workflows\n\nCurrently experimenting with semantic diffs for the merge conflicts editor: https://codeinput.com/products/merge-conflicts/demo\n\nYou can try by installing the GitHub App which will detect PRs who have a merge conflict and create a workspace for them.",
+          "supports": [],
+          "author": "csomar",
+          "shared_at": 1770601276,
+          "source_url": "https://news.ycombinator.com/item?id=46940599"
+        }
+      ],
+      "source_item_id": 46940599,
+      "source_url": "https://news.ycombinator.com/item?id=46940599",
+      "author": "csomar",
+      "shared_at": 1770601276,
+      "links": [
+        "https://codeinput.com"
+      ]
+    }
+  ]
+}

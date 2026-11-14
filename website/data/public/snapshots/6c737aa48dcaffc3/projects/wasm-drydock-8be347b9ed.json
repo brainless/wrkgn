@@ -1,0 +1,35 @@
+{
+  "id": 6632,
+  "slug": "wasm-drydock-8be347b9ed",
+  "name": "wasm-drydock",
+  "mentions": [
+    {
+      "name": "wasm-drydock",
+      "description": "A tool for building fullstack web sites with Actix Web and Yew, positioned as a fallback in case the trunk Rust build tool becomes unmaintained.",
+      "problem": "The trunk tool for building Rust web frontends appears increasingly likely to go dead, leaving a need for an alternative.",
+      "audience": "Rust developers building fullstack web applications",
+      "builder_usernames": [
+        "sentinel1909"
+      ],
+      "source_excerpt": "This tool is my line of defense in case `trunk` goes dead, which it seems to be increasingly likely. It helps me build fullstack sites using Actix Web and Yew.",
+      "evidence": [
+        {
+          "source_item_id": 47304188,
+          "source_field": "body",
+          "value": "This tool is my line of defense in case `trunk` goes dead, which it seems to be increasingly likely. It helps me build fullstack sites using Actix Web and Yew.",
+          "supports": [],
+          "author": "sentinel1909",
+          "shared_at": 1773023280,
+          "source_url": "https://news.ycombinator.com/item?id=47304188"
+        }
+      ],
+      "source_item_id": 47304188,
+      "source_url": "https://news.ycombinator.com/item?id=47304188",
+      "author": "sentinel1909",
+      "shared_at": 1773023280,
+      "links": [
+        "https://wasm-drydock.dev"
+      ]
+    }
+  ]
+}

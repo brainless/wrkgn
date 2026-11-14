@@ -1,0 +1,33 @@
+{
+  "id": 8460,
+  "slug": "webdav-directory-copy-tool-d4e546a0e9",
+  "name": "WebDAV directory copy tool",
+  "mentions": [
+    {
+      "name": "WebDAV directory copy tool",
+      "description": "A simple tool that copies directories over WebDAV, designed to handle an unusual authentication setup. It may be open sourced.",
+      "problem": "The author kept running into strange errors using Cadaver and needed a tool that works with an unusual authentication setup.",
+      "audience": null,
+      "builder_usernames": [
+        "elric"
+      ],
+      "source_excerpt": "I'm finally wrapping up a little webdav tool that's been on my todo list for years. It's just a simple tool to copy directories over webdav. I tried using Cadaver but I kept running into strange errors with it. And this one ties in with an unusual authentication setup. Might open source it, haven't decided yet.",
+      "evidence": [
+        {
+          "source_item_id": 46273700,
+          "source_field": "body",
+          "value": "I'm finally wrapping up a little webdav tool that's been on my todo list for years. It's just a simple tool to copy directories over webdav. I tried using Cadaver but I kept running into strange errors with it. And this one ties in with an unusual authentication setup. Might open source it, haven't decided yet.",
+          "supports": [],
+          "author": "elric",
+          "shared_at": 1765802325,
+          "source_url": "https://news.ycombinator.com/item?id=46273700"
+        }
+      ],
+      "source_item_id": 46273700,
+      "source_url": "https://news.ycombinator.com/item?id=46273700",
+      "author": "elric",
+      "shared_at": 1765802325,
+      "links": []
+    }
+  ]
+}

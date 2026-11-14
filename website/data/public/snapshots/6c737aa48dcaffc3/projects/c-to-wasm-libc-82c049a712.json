@@ -1,0 +1,35 @@
+{
+  "id": 11042,
+  "slug": "c-to-wasm-libc-82c049a712",
+  "name": "C-to-Wasm libc",
+  "mentions": [
+    {
+      "name": "C-to-Wasm libc",
+      "description": "A libc used when compiling C to WebAssembly, typically based on musl, with ongoing improvements to make it work better for C-to-Wasm compilation.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ncruces"
+      ],
+      "source_excerpt": "Improving the libc that gets used when compiling C to Wasm (usually based on musl).",
+      "evidence": [
+        {
+          "source_item_id": 43818184,
+          "source_field": "body",
+          "value": "Improving the libc that gets used when compiling C to Wasm (usually based on musl).",
+          "supports": [],
+          "author": "ncruces",
+          "shared_at": 1745821256,
+          "source_url": "https://news.ycombinator.com/item?id=43818184"
+        }
+      ],
+      "source_item_id": 43818184,
+      "source_url": "https://news.ycombinator.com/item?id=43818184",
+      "author": "ncruces",
+      "shared_at": 1745821256,
+      "links": [
+        "https://github.com/ncruces/go-sqlite3/tree/main/sqlite3/libc"
+      ]
+    }
+  ]
+}

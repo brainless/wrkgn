@@ -1,0 +1,33 @@
+{
+  "id": 4785,
+  "slug": "stelae-3a5872ebba",
+  "name": "Stelae",
+  "mentions": [
+    {
+      "name": "Stelae",
+      "description": "This tool lets users author sites in WordPress as usual inside their own Docker container, with the full editor and plugins, then exports the site to static HTML for the public version so PHP doesn't run in front of readers. Deploy targets are Cloudflare Pages, a Git remote, or statichost.eu. Solo-built, just launched, and currently being hardened.",
+      "problem": "Public WordPress sites run PHP in front of readers; this exports the site to static HTML instead.",
+      "audience": null,
+      "builder_usernames": [
+        "rowbin"
+      ],
+      "source_excerpt": "Working on a tool that lets you author in WordPress as usual (own Docker container, full editor + plugins) but exports the site to static HTML for the public version, so PHP doesn't run in front of readers. Deploy targets are Cloudflare Pages, a Git remote, or statichost.eu. Solo, just launched, currently grinding through hardening. Called Stelae if you want to have a look.",
+      "evidence": [
+        {
+          "source_item_id": 48088630,
+          "source_field": "body",
+          "value": "Working on a tool that lets you author in WordPress as usual (own Docker container, full editor + plugins) but exports the site to static HTML for the public version, so PHP doesn't run in front of readers. Deploy targets are Cloudflare Pages, a Git remote, or statichost.eu. Solo, just launched, currently grinding through hardening. Called Stelae if you want to have a look.",
+          "supports": [],
+          "author": "rowbin",
+          "shared_at": 1778450824,
+          "source_url": "https://news.ycombinator.com/item?id=48088630"
+        }
+      ],
+      "source_item_id": 48088630,
+      "source_url": "https://news.ycombinator.com/item?id=48088630",
+      "author": "rowbin",
+      "shared_at": 1778450824,
+      "links": []
+    }
+  ]
+}

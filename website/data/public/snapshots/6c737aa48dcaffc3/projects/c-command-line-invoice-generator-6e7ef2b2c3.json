@@ -1,0 +1,33 @@
+{
+  "id": 9777,
+  "slug": "c-command-line-invoice-generator-6e7ef2b2c3",
+  "name": "C# command-line invoice generator",
+  "mentions": [
+    {
+      "name": "C# command-line invoice generator",
+      "description": "A command-line invoice generator written in C# that reads the invoice contents from a JSON file and produces a PDF. It is not open-sourced.",
+      "problem": "The author needed an invoicing tool after discontinuing a SaaS that had provided invoicing.",
+      "audience": null,
+      "builder_usernames": [
+        "dardeaup"
+      ],
+      "source_excerpt": "I recently built an invoice generator (not open sourced) for my own needs. I built mine because I needed something when I discontinued a SaaS that had provided it. Mine is written in C# and uses a JSON file to define the contents of the invoice. It's run from the command-line and just produces the PDF.",
+      "evidence": [
+        {
+          "source_item_id": 45563208,
+          "source_field": "body",
+          "value": "I recently built an invoice generator (not open sourced) for my own needs. I built mine because I needed something when I discontinued a SaaS that had provided it. Mine is written in C# and uses a JSON file to define the contents of the invoice. It's run from the command-line and just produces the PDF.",
+          "supports": [],
+          "author": "dardeaup",
+          "shared_at": 1760313279,
+          "source_url": "https://news.ycombinator.com/item?id=45563208"
+        }
+      ],
+      "source_item_id": 45563208,
+      "source_url": "https://news.ycombinator.com/item?id=45563208",
+      "author": "dardeaup",
+      "shared_at": 1760313279,
+      "links": []
+    }
+  ]
+}

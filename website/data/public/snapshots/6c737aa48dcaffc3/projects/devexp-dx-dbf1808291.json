@@ -1,0 +1,35 @@
+{
+  "id": 11113,
+  "slug": "devexp-dx-dbf1808291",
+  "name": "DevExp (dx)",
+  "mentions": [
+    {
+      "name": "DevExp (dx)",
+      "description": "A developer-experience CLI that streamlines project setup: secrets stay local or sync across devices, tunnels with unlimited subdomains and WebSocket support, a full HTTP/WebSocket traffic inspector, per-project git profiles, and instant deploys to lightweight Deno isolates. Planned additions include an embedded database, password manager, dotfile manager, and boilerplate generator inside the CLI, with a waitlist at devexp.pro.",
+      "problem": "Setting up new projects is a chore; DevExp aims to fix that.",
+      "audience": null,
+      "builder_usernames": [
+        "artpani"
+      ],
+      "source_excerpt": "Setting up new projects shouldn’t be a chore. We built DevExp (dx) to fix it.\n-Secrets stay local (or sync across devices).\n-Tunnels with unlimited subdomains + WebSocket support.\n-Full HTTP/WebSocket traffic inspector.\n-Git profiles per project — no more editing .gitconfig.\n-Instant deploys to lightweight Deno isolates.",
+      "evidence": [
+        {
+          "source_item_id": 43826332,
+          "source_field": "body",
+          "value": "Setting up new projects shouldn’t be a chore. We built DevExp (dx) to fix it.\n-Secrets stay local (or sync across devices).\n-Tunnels with unlimited subdomains + WebSocket support.\n-Full HTTP/WebSocket traffic inspector.\n-Git profiles per project — no more editing .gitconfig.\n-Instant deploys to lightweight Deno isolates.",
+          "supports": [],
+          "author": "artpani",
+          "shared_at": 1745875781,
+          "source_url": "https://news.ycombinator.com/item?id=43826332"
+        }
+      ],
+      "source_item_id": 43826332,
+      "source_url": "https://news.ycombinator.com/item?id=43826332",
+      "author": "artpani",
+      "shared_at": 1745875781,
+      "links": [
+        "https://devexp.pro"
+      ]
+    }
+  ]
+}

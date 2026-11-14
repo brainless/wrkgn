@@ -1,0 +1,35 @@
+{
+  "id": 6372,
+  "slug": "mvar-afd48f8e08",
+  "name": "MVAR",
+  "mentions": [
+    {
+      "name": "MVAR",
+      "description": "A deterministic execution firewall for LLM agents that enforces policy at the execution sink level instead of trying to detect malicious prompts. It operates on the invariant that untrusted input combined with a critical sink is blocked, preventing model output from triggering privileged execution. Recently published to PyPI.",
+      "problem": "Prompt injection becomes dangerous when model output can trigger privileged execution, and prompt detection alone does not address this.",
+      "audience": null,
+      "builder_usernames": [
+        "ShawnC21"
+      ],
+      "source_excerpt": "I'm Building MVAR: It's a deterministic execution firewall for LLM agents. The core idea: prompt injection becomes dangerous only when model output can trigger privileged execution.. Instead of detecting malicious prompts, MVAR enforces policy at the sink level.",
+      "evidence": [
+        {
+          "source_item_id": 47324839,
+          "source_field": "body",
+          "value": "I'm Building MVAR: It's a deterministic execution firewall for LLM agents. The core idea: prompt injection becomes dangerous only when model output can trigger privileged execution.. Instead of detecting malicious prompts, MVAR enforces policy at the sink level.",
+          "supports": [],
+          "author": "ShawnC21",
+          "shared_at": 1773157527,
+          "source_url": "https://news.ycombinator.com/item?id=47324839"
+        }
+      ],
+      "source_item_id": 47324839,
+      "source_url": "https://news.ycombinator.com/item?id=47324839",
+      "author": "ShawnC21",
+      "shared_at": 1773157527,
+      "links": [
+        "https://github.com/mvar-security/mvar"
+      ]
+    }
+  ]
+}

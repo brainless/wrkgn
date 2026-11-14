@@ -1,0 +1,36 @@
+{
+  "id": 10461,
+  "slug": "zen-notes-96716ea311",
+  "name": "Zen Notes",
+  "mentions": [
+    {
+      "name": "Zen Notes",
+      "description": "A minimal, distraction-free notes app built around ownership and longevity. Notes are stored locally in SQLite using standard Markdown to avoid vendor lock-in, with instant BM25 full-text search, flexible tag organization instead of folders, a Markdown formatting toolbar, custom Focus Modes, and offline read-only PWA support. It ships as a single binary with minimal dependencies (self-hosted Preact, Golang standard library) and can also run via Docker.",
+      "problem": "Vendor lock-in and proprietary formats put long-term ownership of notes at risk, and flashy interfaces distract from focused thinking.",
+      "audience": null,
+      "builder_usernames": [
+        "rkwz"
+      ],
+      "source_excerpt": "I'm working on Zen Notes - a minimal, distraction-free notes app that prioritizes ownership and longevity.",
+      "evidence": [
+        {
+          "source_item_id": 44705952,
+          "source_field": "body",
+          "value": "I'm working on Zen Notes - a minimal, distraction-free notes app that prioritizes ownership and longevity.",
+          "supports": [],
+          "author": "rkwz",
+          "shared_at": 1753661906,
+          "source_url": "https://news.ycombinator.com/item?id=44705952"
+        }
+      ],
+      "source_item_id": 44705952,
+      "source_url": "https://news.ycombinator.com/item?id=44705952",
+      "author": "rkwz",
+      "shared_at": 1753661906,
+      "links": [
+        "https://www.sheshbabu.com/zen/",
+        "https://zendemo.fly.dev"
+      ]
+    }
+  ]
+}

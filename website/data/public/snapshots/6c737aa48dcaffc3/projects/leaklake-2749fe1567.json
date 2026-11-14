@@ -1,0 +1,35 @@
+{
+  "id": 9432,
+  "slug": "leaklake-2749fe1567",
+  "name": "LeakLake",
+  "mentions": [
+    {
+      "name": "LeakLake",
+      "description": "A searchable index of public, shareable, and leaked AI chat conversations from platforms like ChatGPT, Gemini, Grok, Claude, and Perplexity. Users can search by name, brand, or any keyword, and set alerts, with crawling running 24/7 to surface new matches.",
+      "problem": "Public, shareable, and leaked AI chats are scattered across platforms and hard to search when you want to find mentions of your name, brand, or any keyword.",
+      "audience": null,
+      "builder_usernames": [
+        "megahz"
+      ],
+      "source_excerpt": "So I am building this https://www.leaklake.com , where you can search your name, brand, and basically any keyword.\n\nYou can also set an Alert because crawling and starping is running 24/7.",
+      "evidence": [
+        {
+          "source_item_id": 45874214,
+          "source_field": "body",
+          "value": "So I am building this https://www.leaklake.com , where you can search your name, brand, and basically any keyword.\n\nYou can also set an Alert because crawling and starping is running 24/7.",
+          "supports": [],
+          "author": "megahz",
+          "shared_at": 1762767236,
+          "source_url": "https://news.ycombinator.com/item?id=45874214"
+        }
+      ],
+      "source_item_id": 45874214,
+      "source_url": "https://news.ycombinator.com/item?id=45874214",
+      "author": "megahz",
+      "shared_at": 1762767236,
+      "links": [
+        "https://www.leaklake.com"
+      ]
+    }
+  ]
+}

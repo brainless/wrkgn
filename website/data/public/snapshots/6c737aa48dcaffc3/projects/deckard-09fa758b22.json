@@ -1,0 +1,35 @@
+{
+  "id": 5442,
+  "slug": "deckard-09fa758b22",
+  "name": "Deckard",
+  "mentions": [
+    {
+      "name": "Deckard",
+      "description": "A terminal manager for Claude Code that reduces cognitive load when running many Claude Code and terminal sessions in parallel. It emphasizes peripheral awareness of session status, makes all sessions resumable, and includes a Claude session explorer that supports forking past sessions mid-conversation. Built around Claude-first software development workflows.",
+      "problem": "Managing many Claude Code and terminal sessions in parallel creates high cognitive load.",
+      "audience": "Software developers using Claude Code in their development workflows",
+      "builder_usernames": [
+        "kouiskas"
+      ],
+      "source_excerpt": "A terminal manager for Claude Code: https://github.com/gi11es/deckard\n\nThe main goal is to reduce cognitive load managing many Claude Code and terminal sessions in parallel, while keeping things simple with a design focused on peripheral awareness of session status. And making everything resumable. The Claude session explorer also supports forking past sessions mid-conversation.",
+      "evidence": [
+        {
+          "source_item_id": 47750324,
+          "source_field": "body",
+          "value": "A terminal manager for Claude Code: https://github.com/gi11es/deckard\n\nThe main goal is to reduce cognitive load managing many Claude Code and terminal sessions in parallel, while keeping things simple with a design focused on peripheral awareness of session status. And making everything resumable. The Claude session explorer also supports forking past sessions mid-conversation.",
+          "supports": [],
+          "author": "kouiskas",
+          "shared_at": 1776078301,
+          "source_url": "https://news.ycombinator.com/item?id=47750324"
+        }
+      ],
+      "source_item_id": 47750324,
+      "source_url": "https://news.ycombinator.com/item?id=47750324",
+      "author": "kouiskas",
+      "shared_at": 1776078301,
+      "links": [
+        "https://github.com/gi11es/deckard"
+      ]
+    }
+  ]
+}

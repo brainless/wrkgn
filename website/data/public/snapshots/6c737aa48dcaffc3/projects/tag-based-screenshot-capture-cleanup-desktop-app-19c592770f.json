@@ -1,0 +1,33 @@
+{
+  "id": 10383,
+  "slug": "tag-based-screenshot-capture-cleanup-desktop-app-19c592770f",
+  "name": "Tag-based Screenshot Capture & Cleanup Desktop App",
+  "mentions": [
+    {
+      "name": "Tag-based Screenshot Capture & Cleanup Desktop App",
+      "description": "A desktop app for managing and cleaning up screenshots that accumulate on disk over time. It offers an alternate capture workflow in which the user selects tags before taking a screenshot, and tags are associated with actions such as \"move to trash after 1 day\", \"delete after 7 days\", or \"store in /specific/location\". The main functionality is working and the builder has been using it personally; it began as a way to evaluate Tauri for desktop apps and the code is not yet published.",
+      "problem": "Screenshots get accumulated on disk over a period of time.",
+      "audience": null,
+      "builder_usernames": [
+        "naiquevin"
+      ],
+      "source_excerpt": "I've been building a desktop app on the side that addresses the problem of screenshots getting accumulated on disk over a period of time. It provides an alternate workflow for capturing screenshots, where the app let's the user select tags before taking the screenshot. Tags can be associated with actions such as \"move to trash after 1 day\", \"delete after 7 days\" or \"store in /specific/location\".",
+      "evidence": [
+        {
+          "source_item_id": 44709368,
+          "source_field": "body",
+          "value": "I've been building a desktop app on the side that addresses the problem of screenshots getting accumulated on disk over a period of time. It provides an alternate workflow for capturing screenshots, where the app let's the user select tags before taking the screenshot. Tags can be associated with actions such as \"move to trash after 1 day\", \"delete after 7 days\" or \"store in /specific/location\".",
+          "supports": [],
+          "author": "naiquevin",
+          "shared_at": 1753698978,
+          "source_url": "https://news.ycombinator.com/item?id=44709368"
+        }
+      ],
+      "source_item_id": 44709368,
+      "source_url": "https://news.ycombinator.com/item?id=44709368",
+      "author": "naiquevin",
+      "shared_at": 1753698978,
+      "links": []
+    }
+  ]
+}

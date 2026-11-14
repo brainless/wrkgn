@@ -1,0 +1,35 @@
+{
+  "id": 4493,
+  "slug": "nocordhf-bb01d0fcbd",
+  "name": "nocordhf",
+  "mentions": [
+    {
+      "name": "nocordhf",
+      "description": "An open-source Pure-Golang GUI client that combines FT8 digital-mode decoding and MeshCore radio networking into a single application, built with Fyne and released as cross-compiled, notarized builds for macOS, Windows, and Linux. Includes what may be the only functional Golang FT8 decoder, with plans to add JS8Call, VeraHF, and FT4 modes.",
+      "problem": "Getting about half a dozen separate radio-equipment programs to work together is extremely complex.",
+      "audience": "Amateur radio hobbyists using FT8 and MeshCore, such as those in the local SoCal MeshCore region",
+      "builder_usernames": [
+        "kyleomalley"
+      ],
+      "source_excerpt": "I put together a Pure-Golang implementation to combine both modes into the same GUI client. The FT8 modem might be the only functional Golang decoder right now, unsure, but it’s entirely open source and here:\n\nhttps://github.com/kyleomalley/nocordhf",
+      "evidence": [
+        {
+          "source_item_id": 48098262,
+          "source_field": "body",
+          "value": "I put together a Pure-Golang implementation to combine both modes into the same GUI client. The FT8 modem might be the only functional Golang decoder right now, unsure, but it’s entirely open source and here:\n\nhttps://github.com/kyleomalley/nocordhf",
+          "supports": [],
+          "author": "kyleomalley",
+          "shared_at": 1778522001,
+          "source_url": "https://news.ycombinator.com/item?id=48098262"
+        }
+      ],
+      "source_item_id": 48098262,
+      "source_url": "https://news.ycombinator.com/item?id=48098262",
+      "author": "kyleomalley",
+      "shared_at": 1778522001,
+      "links": [
+        "https://github.com/kyleomalley/nocordhf"
+      ]
+    }
+  ]
+}

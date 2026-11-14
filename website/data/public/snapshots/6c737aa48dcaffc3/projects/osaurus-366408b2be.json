@@ -1,0 +1,64 @@
+{
+  "id": 3045,
+  "slug": "osaurus-366408b2be",
+  "name": "Osaurus",
+  "mentions": [
+    {
+      "name": "Osaurus",
+      "description": "An AI harness for running local models, built natively for macOS in Swift.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tpae"
+      ],
+      "source_excerpt": "I'm working on Osaurus, AI harness for local models. It's for macOS, written in Swift.",
+      "evidence": [
+        {
+          "source_item_id": 48886690,
+          "source_field": "body",
+          "value": "I'm working on Osaurus, AI harness for local models. It's for macOS, written in Swift.",
+          "supports": [],
+          "author": "tpae",
+          "shared_at": 1783905270,
+          "source_url": "https://news.ycombinator.com/item?id=48886690"
+        }
+      ],
+      "source_item_id": 48886690,
+      "source_url": "https://news.ycombinator.com/item?id=48886690",
+      "author": "tpae",
+      "shared_at": 1783905270,
+      "links": [
+        "https://github.com/osaurus-ai/osaurus"
+      ]
+    },
+    {
+      "name": "Osaurus",
+      "description": "Osaurus is a native macOS harness for AI agents that runs a full agent loop locally to get work done on-device. It is open-source, Swift-based, and includes a custom-built inference engine written natively rather than in Python.",
+      "problem": "Every other inference engine is based on Python; Osaurus provides a native, Swift-based alternative.",
+      "audience": null,
+      "builder_usernames": [
+        "tpae"
+      ],
+      "source_excerpt": "I've been building native macOS harness called Osaurus https://osaurus.ai/\n\nIt's full featured with agent loop, gets work done locally.\n\nIt's open-source and Swift-based, we built our own inferencing engine since every other engine is based on Python. Check us out - https://github.com/osaurus-ai/osaurus",
+      "evidence": [
+        {
+          "source_item_id": 48531605,
+          "source_field": "body",
+          "value": "I've been building native macOS harness called Osaurus https://osaurus.ai/\n\nIt's full featured with agent loop, gets work done locally.\n\nIt's open-source and Swift-based, we built our own inferencing engine since every other engine is based on Python. Check us out - https://github.com/osaurus-ai/osaurus",
+          "supports": [],
+          "author": "tpae",
+          "shared_at": 1781465182,
+          "source_url": "https://news.ycombinator.com/item?id=48531605"
+        }
+      ],
+      "source_item_id": 48531605,
+      "source_url": "https://news.ycombinator.com/item?id=48531605",
+      "author": "tpae",
+      "shared_at": 1781465182,
+      "links": [
+        "https://github.com/osaurus-ai/osaurus",
+        "https://osaurus.ai/"
+      ]
+    }
+  ]
+}

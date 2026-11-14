@@ -1,0 +1,92 @@
+{
+  "id": 7731,
+  "slug": "chat-with-hn-what-are-you-working-on-documents-49b1d6166f",
+  "name": "Chat with HN 'What are you working on?' documents",
+  "mentions": [
+    {
+      "name": "Chat with HN 'What are you working on?' documents",
+      "description": "This tool lets readers chat with the documents featured in the 'What are you working on?' Hacker News post, with the chat index updating live, and offers a companion basic text search page over the same documents.",
+      "problem": null,
+      "audience": "Readers of the 'What are you working on?' Hacker News thread",
+      "builder_usernames": [
+        "osigurdson"
+      ],
+      "source_excerpt": "Anyway, I built a way to chat with the documents in this post (updates live).\nhttps://nthesis.ai/public/702445eb-f0e4-4730-b34f-f34eb06dd6aa/chat\n\nOr you can do a basic text search: https://nthesis.ai/public/hn-working-on",
+      "evidence": [
+        {
+          "source_item_id": 46580761,
+          "source_field": "body",
+          "value": "Anyway, I built a way to chat with the documents in this post (updates live).\nhttps://nthesis.ai/public/702445eb-f0e4-4730-b34f-f34eb06dd6aa/chat\n\nOr you can do a basic text search: https://nthesis.ai/public/hn-working-on",
+          "supports": [],
+          "author": "osigurdson",
+          "shared_at": 1768169200,
+          "source_url": "https://news.ycombinator.com/item?id=46580761"
+        }
+      ],
+      "source_item_id": 46580761,
+      "source_url": "https://news.ycombinator.com/item?id=46580761",
+      "author": "osigurdson",
+      "shared_at": 1768169200,
+      "links": [
+        "https://nthesis.ai/public/702445eb-f0e4-4730-b34f-f34eb06dd6aa/chat",
+        "https://nthesis.ai/public/hn-working-on"
+      ]
+    },
+    {
+      "name": "Nthesis",
+      "description": "This tool lets users search, filter, and chat with Hacker News \"What are you working on?\" posts, and includes a visual map (UMAP) that clusters similar posts together to help find specific things or better understand themes.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "osigurdson"
+      ],
+      "source_excerpt": "https://nthesis.ai/public/hn-working-on\n\nA tool for searching, filtering and chatting with the \"What are you working on?\" posts. Also has a visual map (UMAP) that clusters similar things together. Useful if you want to find specific things or better understand themes.",
+      "evidence": [
+        {
+          "source_item_id": 46271184,
+          "source_field": "body",
+          "value": "https://nthesis.ai/public/hn-working-on\n\nA tool for searching, filtering and chatting with the \"What are you working on?\" posts. Also has a visual map (UMAP) that clusters similar things together. Useful if you want to find specific things or better understand themes.",
+          "supports": [],
+          "author": "osigurdson",
+          "shared_at": 1765781077,
+          "source_url": "https://news.ycombinator.com/item?id=46271184"
+        }
+      ],
+      "source_item_id": 46271184,
+      "source_url": "https://news.ycombinator.com/item?id=46271184",
+      "author": "osigurdson",
+      "shared_at": 1765781077,
+      "links": [
+        "https://nthesis.ai/public/hn-working-on"
+      ]
+    },
+    {
+      "name": "HN 'What are you working on' Nthesis notebook",
+      "description": "A 20-line Jupyter notebook that uses the Nthesis API to shape, tag, and make Hacker News 'What are you working on' post data searchable and chattable, with visualizations of relationships and data clusters.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "osigurdson"
+      ],
+      "source_excerpt": "I created a small / 20 line Jupyter notebook that uses the Nthesis api which shapes, tags, and makes the data searchable, chattable and allows you to visualize relationships / data clusters",
+      "evidence": [
+        {
+          "source_item_id": 45876556,
+          "source_field": "body",
+          "value": "I created a small / 20 line Jupyter notebook that uses the Nthesis api which shapes, tags, and makes the data searchable, chattable and allows you to visualize relationships / data clusters",
+          "supports": [],
+          "author": "osigurdson",
+          "shared_at": 1762786311,
+          "source_url": "https://news.ycombinator.com/item?id=45876556"
+        }
+      ],
+      "source_item_id": 45876556,
+      "source_url": "https://news.ycombinator.com/item?id=45876556",
+      "author": "osigurdson",
+      "shared_at": 1762786311,
+      "links": [
+        "https://nthesis.ai/public/hn-working-on"
+      ]
+    }
+  ]
+}

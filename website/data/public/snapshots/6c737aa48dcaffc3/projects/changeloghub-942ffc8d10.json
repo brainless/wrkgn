@@ -1,0 +1,35 @@
+{
+  "id": 10633,
+  "slug": "changeloghub-942ffc8d10",
+  "name": "ChangelogHub",
+  "mentions": [
+    {
+      "name": "ChangelogHub",
+      "description": "ChangelogHub is a free tool that automatically creates changelog pages from GitHub PR commits. It summarizes each PR diff and feeds the summaries to AI to generate structured changelogs, which works well for smaller diffs.",
+      "problem": "Nailing down PR diff-to-changelog generation, mostly context issues: larger diffs lose context in the AI generation process.",
+      "audience": null,
+      "builder_usernames": [
+        "fazkan"
+      ],
+      "source_excerpt": "just released https://changeloghub.com,\n\nit automatically creates changelog pages from github PR commits. Still trying to nail down the PR diff to changelog generation, mostly context issues. Rn, I basically summarize each diff and then give that as a context for AI to generate structured changelogs.",
+      "evidence": [
+        {
+          "source_item_id": 44817437,
+          "source_field": "body",
+          "value": "just released https://changeloghub.com,\n\nit automatically creates changelog pages from github PR commits. Still trying to nail down the PR diff to changelog generation, mostly context issues. Rn, I basically summarize each diff and then give that as a context for AI to generate structured changelogs.",
+          "supports": [],
+          "author": "fazkan",
+          "shared_at": 1754512424,
+          "source_url": "https://news.ycombinator.com/item?id=44817437"
+        }
+      ],
+      "source_item_id": 44817437,
+      "source_url": "https://news.ycombinator.com/item?id=44817437",
+      "author": "fazkan",
+      "shared_at": 1754512424,
+      "links": [
+        "https://changeloghub.com"
+      ]
+    }
+  ]
+}

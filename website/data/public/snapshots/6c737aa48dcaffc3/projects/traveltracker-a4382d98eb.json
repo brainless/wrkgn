@@ -1,0 +1,37 @@
+{
+  "id": 5243,
+  "slug": "traveltracker-a4382d98eb",
+  "name": "TravelTracker",
+  "mentions": [
+    {
+      "name": "TravelTracker",
+      "description": "A privacy-focused travel journal that lets users manually log trips, including countries, national parks, UNESCO sites, cities, photos, and journal entries. Data lives in one account that syncs across web, iOS, and Android. It contains no analytics, pixels, or third-party tracking, and the business model is a subscription rather than monetizing travel history. iOS shipped most recently, with Android live the prior week and the web app live before that.",
+      "problem": "Every travel app the author tried either demanded background GPS running 24/7 or quietly turned trip history into ad-targeting data; the goal is to remember where you've been without handing that memory to an ad broker.",
+      "audience": "Personal use for travelers who want a private record of their trips without their location history being harvested for advertising.",
+      "builder_usernames": [
+        "whirlingzebra"
+      ],
+      "source_excerpt": "I'm working on TravelTracker, a travel journal that doesn't track you back.",
+      "evidence": [
+        {
+          "source_item_id": 47755052,
+          "source_field": "body",
+          "value": "I'm working on TravelTracker, a travel journal that doesn't track you back.",
+          "supports": [],
+          "author": "whirlingzebra",
+          "shared_at": 1776100181,
+          "source_url": "https://news.ycombinator.com/item?id=47755052"
+        }
+      ],
+      "source_item_id": 47755052,
+      "source_url": "https://news.ycombinator.com/item?id=47755052",
+      "author": "whirlingzebra",
+      "shared_at": 1776100181,
+      "links": [
+        "https://apps.apple.com/us/app/traveltracker-me/id6761914931",
+        "https://play.google.com/store/apps/details?id=com.traveltrackerme.app",
+        "https://traveltracker.me"
+      ]
+    }
+  ]
+}

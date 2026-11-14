@@ -1,0 +1,35 @@
+{
+  "id": 6853,
+  "slug": "git-forge-01131fad45",
+  "name": "git-forge",
+  "mentions": [
+    {
+      "name": "git-forge",
+      "description": "A simple command-line tool for basic interactions with issues and pull requests across GitHub, GitLab, Gitea, and Forgejo. Current work focuses on improving test coverage, including porting tests from TypeScript to Rust and finding ways to test the TUI.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "leleat"
+      ],
+      "source_excerpt": "https://github.com/Leleat/git-forge\n\nFrom the README: \"[git-forge is a] simple CLI tool for basic interactions with issues and pull requests across GitHub, GitLab, Gitea, and Forgejo\".",
+      "evidence": [
+        {
+          "source_item_id": 46943209,
+          "source_field": "body",
+          "value": "https://github.com/Leleat/git-forge\n\nFrom the README: \"[git-forge is a] simple CLI tool for basic interactions with issues and pull requests across GitHub, GitLab, Gitea, and Forgejo\".",
+          "supports": [],
+          "author": "leleat",
+          "shared_at": 1770627904,
+          "source_url": "https://news.ycombinator.com/item?id=46943209"
+        }
+      ],
+      "source_item_id": 46943209,
+      "source_url": "https://news.ycombinator.com/item?id=46943209",
+      "author": "leleat",
+      "shared_at": 1770627904,
+      "links": [
+        "https://github.com/Leleat/git-forge"
+      ]
+    }
+  ]
+}

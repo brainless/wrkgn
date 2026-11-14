@@ -1,0 +1,33 @@
+{
+  "id": 3709,
+  "slug": "tiny-world-models-for-autonomous-robots-vehicles-ab36a8cbed",
+  "name": "Tiny world models for autonomous robots/vehicles",
+  "mentions": [
+    {
+      "name": "Tiny world models for autonomous robots/vehicles",
+      "description": "This project trains autonomous robots and vehicles using tiny world models under 50M parameters that train in 5–30 minutes on a single GPU, positioning itself against big models and bloated reinforcement learning.",
+      "problem": "Big models and bloated RL are excessive for training autonomous robots/vehicles; the project instead uses tiny world models trainable in minutes on a single GPU.",
+      "audience": null,
+      "builder_usernames": [
+        "rozgo"
+      ],
+      "source_excerpt": "Declaring war on big models and bloated RL. Im training autonomous robots/vehicles by building tiny world models that are trained in 5-30 mins on a single GPU, with less than 50M params.",
+      "evidence": [
+        {
+          "source_item_id": 48535680,
+          "source_field": "body",
+          "value": "Declaring war on big models and bloated RL. Im training autonomous robots/vehicles by building tiny world models that are trained in 5-30 mins on a single GPU, with less than 50M params.",
+          "supports": [],
+          "author": "rozgo",
+          "shared_at": 1781488797,
+          "source_url": "https://news.ycombinator.com/item?id=48535680"
+        }
+      ],
+      "source_item_id": 48535680,
+      "source_url": "https://news.ycombinator.com/item?id=48535680",
+      "author": "rozgo",
+      "shared_at": 1781488797,
+      "links": []
+    }
+  ]
+}

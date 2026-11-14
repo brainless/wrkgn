@@ -1,0 +1,33 @@
+{
+  "id": 3970,
+  "slug": "mqtt-semantic-actor-broker-a50d4d4652",
+  "name": "MQTT Semantic Actor Broker",
+  "mentions": [
+    {
+      "name": "MQTT Semantic Actor Broker",
+      "description": "A Rust-based MQTT semantic broker that facilitates an actor architecture. It supports federation (including transitive federation, so proxies just work), transparent outbound buffering with disk overflow, and encryption using the Noise protocol, with a focus on making it pleasant to build apps on top of.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "luckystarr"
+      ],
+      "source_excerpt": "Over the last year or so I arrived at a (sort of) MQTT semantic broker that facilitates an actor architecture. It supports federation (including transitive, so proxies \"just work\"(TM)), transparent outbound buffering with disk overflow and encryption with the noise protocol. Building apps on top of it is a joy. Rust.",
+      "evidence": [
+        {
+          "source_item_id": 48530833,
+          "source_field": "body",
+          "value": "Over the last year or so I arrived at a (sort of) MQTT semantic broker that facilitates an actor architecture. It supports federation (including transitive, so proxies \"just work\"(TM)), transparent outbound buffering with disk overflow and encryption with the noise protocol. Building apps on top of it is a joy. Rust.",
+          "supports": [],
+          "author": "luckystarr",
+          "shared_at": 1781461720,
+          "source_url": "https://news.ycombinator.com/item?id=48530833"
+        }
+      ],
+      "source_item_id": 48530833,
+      "source_url": "https://news.ycombinator.com/item?id=48530833",
+      "author": "luckystarr",
+      "shared_at": 1781461720,
+      "links": []
+    }
+  ]
+}

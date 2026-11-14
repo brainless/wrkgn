@@ -1,0 +1,35 @@
+{
+  "id": 8419,
+  "slug": "dashlights-00e7301f96",
+  "name": "dashlights",
+  "mentions": [
+    {
+      "name": "dashlights",
+      "description": "A security-focused \"check engine light\" for the shell prompt that brings awareness and visibility to the user's immediate shell context (environment, repo state, current directory), catching small security hygiene mistakes that accumulate during daily work.",
+      "problem": "Most security tooling isn't in the terminal and lacks context (environment, repo state, current directory) to catch the small hygiene mistakes that accumulate over many daily decisions and can lead to costly blunders.",
+      "audience": null,
+      "builder_usernames": [
+        "shellprompt_sec"
+      ],
+      "source_excerpt": "A security-focused \"check engine light\" for your shell prompt: https://github.com/erichs/dashlights",
+      "evidence": [
+        {
+          "source_item_id": 46281496,
+          "source_field": "body",
+          "value": "A security-focused \"check engine light\" for your shell prompt: https://github.com/erichs/dashlights",
+          "supports": [],
+          "author": "shellprompt_sec",
+          "shared_at": 1765836785,
+          "source_url": "https://news.ycombinator.com/item?id=46281496"
+        }
+      ],
+      "source_item_id": 46281496,
+      "source_url": "https://news.ycombinator.com/item?id=46281496",
+      "author": "shellprompt_sec",
+      "shared_at": 1765836785,
+      "links": [
+        "https://github.com/erichs/dashlights"
+      ]
+    }
+  ]
+}

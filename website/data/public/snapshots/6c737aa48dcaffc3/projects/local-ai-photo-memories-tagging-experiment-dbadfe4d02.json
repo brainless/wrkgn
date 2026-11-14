@@ -1,0 +1,33 @@
+{
+  "id": 6840,
+  "slug": "local-ai-photo-memories-tagging-experiment-dbadfe4d02",
+  "name": "Local AI photo memories/tagging experiment",
+  "mentions": [
+    {
+      "name": "Local AI photo memories/tagging experiment",
+      "description": "An experiment to reproduce Google Memories-style photo curation locally: a preprocessing step tags pictures and videos with richer spatial and temporal features using off-the-shelf models, then a local AI model picks photos matching a theme (such as today's theme) from the library.",
+      "problem": "Photos stored on Dropbox and a home NAS lack a Google Memories-like curation feature, and the author is de-googling.",
+      "audience": null,
+      "builder_usernames": [
+        "itissid"
+      ],
+      "source_excerpt": "I've been noodling with running a preprocessing step to \"tag\" pictures and videos with a set of tags with richer spatial and temporal features with off the shelf models and then just let a local AI model pick one based one what might match today's theme.",
+      "evidence": [
+        {
+          "source_item_id": 46946041,
+          "source_field": "body",
+          "value": "I've been noodling with running a preprocessing step to \"tag\" pictures and videos with a set of tags with richer spatial and temporal features with off the shelf models and then just let a local AI model pick one based one what might match today's theme.",
+          "supports": [],
+          "author": "itissid",
+          "shared_at": 1770649735,
+          "source_url": "https://news.ycombinator.com/item?id=46946041"
+        }
+      ],
+      "source_item_id": 46946041,
+      "source_url": "https://news.ycombinator.com/item?id=46946041",
+      "author": "itissid",
+      "shared_at": 1770649735,
+      "links": []
+    }
+  ]
+}

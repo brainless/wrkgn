@@ -1,0 +1,35 @@
+{
+  "id": 5404,
+  "slug": "piclaw-14afef308a",
+  "name": "piclaw",
+  "mentions": [
+    {
+      "name": "piclaw",
+      "description": "piclaw is a sandboxed personal workspace that began as the author's own OpenClaw and became a full environment for developing and testing software. It runs the author's homelab, Obsidian vault, blog static generator, ARM low-level projects, and, after M365 integration, personal mail and calendar.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rcarmo"
+      ],
+      "source_excerpt": "I’m working on (and inside) https://github.com/rcarmo/piclaw. It started as “my own OpenClaw” and quickly became an entire workspace to develop and test stuff in. It currently runs my homelab, my Obsidian vault, my blog static generator, a lot of my ARM low level stuff, and after some M365 hackery, my personal mail and calendar as well, all properly sandboxed.",
+      "evidence": [
+        {
+          "source_item_id": 47748615,
+          "source_field": "body",
+          "value": "I’m working on (and inside) https://github.com/rcarmo/piclaw. It started as “my own OpenClaw” and quickly became an entire workspace to develop and test stuff in. It currently runs my homelab, my Obsidian vault, my blog static generator, a lot of my ARM low level stuff, and after some M365 hackery, my personal mail and calendar as well, all properly sandboxed.",
+          "supports": [],
+          "author": "rcarmo",
+          "shared_at": 1776063542,
+          "source_url": "https://news.ycombinator.com/item?id=47748615"
+        }
+      ],
+      "source_item_id": 47748615,
+      "source_url": "https://news.ycombinator.com/item?id=47748615",
+      "author": "rcarmo",
+      "shared_at": 1776063542,
+      "links": [
+        "https://github.com/rcarmo/piclaw"
+      ]
+    }
+  ]
+}

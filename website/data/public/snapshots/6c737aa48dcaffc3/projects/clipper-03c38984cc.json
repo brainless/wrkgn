@@ -1,0 +1,35 @@
+{
+  "id": 9161,
+  "slug": "clipper-03c38984cc",
+  "name": "Clipper",
+  "mentions": [
+    {
+      "name": "Clipper",
+      "description": "A Cameo-style platform for Twitch streamers where fans of video game streamers (starting with League of Legends) receive personalized video reactions to their gameplay. Bots load a fan's gameplay from their username, automatically record their highlight, and upload a ~60 second clip to the platform; the streamer then watches the clip, gives a genuine reaction, and submits it. Targeted markets include short coaching sessions, influencer commentary over clips, hyped streamer reactions, and community compilation segments. It is in beta and seeking its first signups.",
+      "problem": "Generic video messages don't appeal to fans of video game streamers, and fans face friction recording their own gameplay highlights.",
+      "audience": "Fans of video game streamers (starting with League of Legends) and the streamers themselves.",
+      "builder_usernames": [
+        "davidweatherall"
+      ],
+      "source_excerpt": "I'm building a Twitch streamer focused version of cameo. The first beta version is specifically for League of Legend streamers.",
+      "evidence": [
+        {
+          "source_item_id": 45873951,
+          "source_field": "body",
+          "value": "I'm building a Twitch streamer focused version of cameo. The first beta version is specifically for League of Legend streamers.",
+          "supports": [],
+          "author": "davidweatherall",
+          "shared_at": 1762764976,
+          "source_url": "https://news.ycombinator.com/item?id=45873951"
+        }
+      ],
+      "source_item_id": 45873951,
+      "source_url": "https://news.ycombinator.com/item?id=45873951",
+      "author": "davidweatherall",
+      "shared_at": 1762764976,
+      "links": [
+        "https://demo.replays.lol/clipper"
+      ]
+    }
+  ]
+}

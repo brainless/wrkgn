@@ -1,0 +1,35 @@
+{
+  "id": 5688,
+  "slug": "p2pim-a0c1f0ba6a",
+  "name": "p2pIM",
+  "mentions": [
+    {
+      "name": "p2pIM",
+      "description": "A bare-bones peer-to-peer instant messaging program inspired by Bitmessage, consisting of a server and a command line client written in Python, using proof of work for spam protection.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "iljah"
+      ],
+      "source_excerpt": "Bare bones IM program inspired by bitmessage(.org): https://github.com/iljah/p2pIM\nUses proof of work for spam protection. Consists of server and command line client written in python.",
+      "evidence": [
+        {
+          "source_item_id": 47748294,
+          "source_field": "body",
+          "value": "Bare bones IM program inspired by bitmessage(.org): https://github.com/iljah/p2pIM\nUses proof of work for spam protection. Consists of server and command line client written in python.",
+          "supports": [],
+          "author": "iljah",
+          "shared_at": 1776061285,
+          "source_url": "https://news.ycombinator.com/item?id=47748294"
+        }
+      ],
+      "source_item_id": 47748294,
+      "source_url": "https://news.ycombinator.com/item?id=47748294",
+      "author": "iljah",
+      "shared_at": 1776061285,
+      "links": [
+        "https://github.com/iljah/p2pIM"
+      ]
+    }
+  ]
+}

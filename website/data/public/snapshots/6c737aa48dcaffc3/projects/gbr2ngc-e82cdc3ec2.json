@@ -1,0 +1,35 @@
+{
+  "id": 6279,
+  "slug": "gbr2ngc-e82cdc3ec2",
+  "name": "gbr2ngc",
+  "mentions": [
+    {
+      "name": "gbr2ngc",
+      "description": "A tool that converts Gerber files to G-code (ngc) for CNC milling; it has some issues but is overall functional.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "abetusk"
+      ],
+      "source_excerpt": "A while back I created a fool called gbr2ngc which converts gerbers to gcode [0].",
+      "evidence": [
+        {
+          "source_item_id": 47312411,
+          "source_field": "body",
+          "value": "A while back I created a fool called gbr2ngc which converts gerbers to gcode [0].",
+          "supports": [],
+          "author": "abetusk",
+          "shared_at": 1773077951,
+          "source_url": "https://news.ycombinator.com/item?id=47312411"
+        }
+      ],
+      "source_item_id": 47312411,
+      "source_url": "https://news.ycombinator.com/item?id=47312411",
+      "author": "abetusk",
+      "shared_at": 1773077951,
+      "links": [
+        "https://github.com/abetusk/gbr2ngc"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 6838,
+  "slug": "hs-code-classification-ai-agent-bc30020ca8",
+  "name": "HS Code Classification AI Agent",
+  "mentions": [
+    {
+      "name": "HS Code Classification AI Agent",
+      "description": "This AI agent automates HS/HTS product classification for global trade, using LLMs and RAG to map product descriptions to 6, 8, or 10-digit HS/HTS codes, including country-specific variants supporting WCO, US HTS, and EU CN codes. It classifies products in under 30 seconds with about 90% accuracy on real-world data and includes human-in-the-loop review and overrides.",
+      "problem": "Teams lose significant time and money due to product misclassification and resulting customs delays.",
+      "audience": "Importers, exporters, and logistics teams that need to classify products for global trade.",
+      "builder_usernames": [
+        "simplai01"
+      ],
+      "source_excerpt": "We built an HS Code Classification AI Agent using SimplAI to help importers, exporters, and logistics teams automate product classification for global trade.",
+      "evidence": [
+        {
+          "source_item_id": 46974082,
+          "source_field": "body",
+          "value": "We built an HS Code Classification AI Agent using SimplAI to help importers, exporters, and logistics teams automate product classification for global trade.",
+          "supports": [],
+          "author": "simplai01",
+          "shared_at": 1770812735,
+          "source_url": "https://news.ycombinator.com/item?id=46974082"
+        }
+      ],
+      "source_item_id": 46974082,
+      "source_url": "https://news.ycombinator.com/item?id=46974082",
+      "author": "simplai01",
+      "shared_at": 1770812735,
+      "links": [
+        "https://simplai.ai/agents-library/hs-code-classification-agent"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": 3821,
+  "slug": "poser-69080fe941",
+  "name": "Poser",
+  "mentions": [
+    {
+      "name": "Poser",
+      "description": "An AI video analysis tool for skiers: users upload a ski video clip and receive automated feedback based on detected skier pose.",
+      "problem": null,
+      "audience": "Skiers",
+      "builder_usernames": [
+        "christianh"
+      ],
+      "source_excerpt": "I continue to work on Poser, an AI video analysis tool for skiers. Upload a ski video clip, get feedback. Detecting the pose was difficult, now I need to actually give the feedback which is a lot harder.",
+      "evidence": [
+        {
+          "source_item_id": 48536698,
+          "source_field": "body",
+          "value": "I continue to work on Poser, an AI video analysis tool for skiers. Upload a ski video clip, get feedback. Detecting the pose was difficult, now I need to actually give the feedback which is a lot harder.",
+          "supports": [],
+          "author": "christianh",
+          "shared_at": 1781498634,
+          "source_url": "https://news.ycombinator.com/item?id=48536698"
+        }
+      ],
+      "source_item_id": 48536698,
+      "source_url": "https://news.ycombinator.com/item?id=48536698",
+      "author": "christianh",
+      "shared_at": 1781498634,
+      "links": [
+        "https://poser.pro"
+      ]
+    },
+    {
+      "name": "Poser",
+      "description": "An AI ski coach where users upload a video clip of their skiing and receive automated feedback on their technique.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "christianh"
+      ],
+      "source_excerpt": "I’m building an AI Ski coach. Upload a video clip of your skiing, get feedback: https://poser.pro",
+      "evidence": [
+        {
+          "source_item_id": 48091160,
+          "source_field": "body",
+          "value": "I’m building an AI Ski coach. Upload a video clip of your skiing, get feedback: https://poser.pro",
+          "supports": [],
+          "author": "christianh",
+          "shared_at": 1778475035,
+          "source_url": "https://news.ycombinator.com/item?id=48091160"
+        }
+      ],
+      "source_item_id": 48091160,
+      "source_url": "https://news.ycombinator.com/item?id=48091160",
+      "author": "christianh",
+      "shared_at": 1778475035,
+      "links": [
+        "https://poser.pro"
+      ]
+    },
+    {
+      "name": "Poser",
+      "description": "Ski technique feedback tool where skiers upload a short ski clip and get analysis results, currently delivered as head-tracking and skeleton overlay videos. Additional built features include an animated 3D body, turn detection, and balance, steering, pressure, and edging metrics. Skier tracking and pose estimation use Meta AI's SAM3 Tracking and SAM3D Body, with heavy processing on Runpod.",
+      "problem": "Skiers want to improve their ski technique and skills",
+      "audience": "Skiers who want to improve their skills",
+      "builder_usernames": [
+        "christianh"
+      ],
+      "source_excerpt": "I’m working on https://poser.pro, a ski technique feedback tool for skiers that want to improve their skills.",
+      "evidence": [
+        {
+          "source_item_id": 47757708,
+          "source_field": "body",
+          "value": "I’m working on https://poser.pro, a ski technique feedback tool for skiers that want to improve their skills.",
+          "supports": [],
+          "author": "christianh",
+          "shared_at": 1776113795,
+          "source_url": "https://news.ycombinator.com/item?id=47757708"
+        }
+      ],
+      "source_item_id": 47757708,
+      "source_url": "https://news.ycombinator.com/item?id=47757708",
+      "author": "christianh",
+      "shared_at": 1776113795,
+      "links": [
+        "https://poser.pro"
+      ]
+    }
+  ]
+}

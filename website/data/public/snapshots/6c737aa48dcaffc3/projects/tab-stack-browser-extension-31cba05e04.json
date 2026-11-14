@@ -1,0 +1,33 @@
+{
+  "id": 9999,
+  "slug": "tab-stack-browser-extension-31cba05e04",
+  "name": "Tab stack browser extension",
+  "mentions": [
+    {
+      "name": "Tab stack browser extension",
+      "description": "This browser extension treats tabs as a stack, letting users open tabs down a rabbit hole and then use a keyboard shortcut to close the current tab and jump back to its parent tab.",
+      "problem": "Standard tab handling makes it cumbersome to unwind a chain of tabs opened while going down a rabbit hole, since closing a tab does not return you to its parent tab.",
+      "audience": null,
+      "builder_usernames": [
+        "FergusArgyll"
+      ],
+      "source_excerpt": "An extension which treats tabs as a stack - so I can go down a rabbit hole opening new tabs and then use a shortcut to close a tab and take me to the parent of that tab",
+      "evidence": [
+        {
+          "source_item_id": 45420482,
+          "source_field": "body",
+          "value": "An extension which treats tabs as a stack - so I can go down a rabbit hole opening new tabs and then use a shortcut to close a tab and take me to the parent of that tab",
+          "supports": [],
+          "author": "FergusArgyll",
+          "shared_at": 1759191395,
+          "source_url": "https://news.ycombinator.com/item?id=45420482"
+        }
+      ],
+      "source_item_id": 45420482,
+      "source_url": "https://news.ycombinator.com/item?id=45420482",
+      "author": "FergusArgyll",
+      "shared_at": 1759191395,
+      "links": []
+    }
+  ]
+}

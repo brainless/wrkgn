@@ -1,0 +1,33 @@
+{
+  "id": 9319,
+  "slug": "medical-progress-note-rewriter-598b5e6af4",
+  "name": "Medical Progress Note Rewriter",
+  "mentions": [
+    {
+      "name": "Medical Progress Note Rewriter",
+      "description": "This web app automatically rewrites complicated and verbose medical progress notes for doctors, NPs, and PAs. It is entirely self-service without needing EHR integrations, persists and reuses the user's writing style without saving any notes, and is HIPAA compliant.",
+      "problem": "The amount of time medical providers spend on documentation is ballooning, and only a small portion of that time is actually spent doing medical decision making; the rest is spent copy editing data coming in from imaging, bloodwork, and consultant advice.",
+      "audience": "Doctors, NPs, and PAs (medical providers)",
+      "builder_usernames": [
+        "cb3po"
+      ],
+      "source_excerpt": "I am working on a web app that doctors/NPs/PAs can use to automatically rewrite complicated and verbose medical progress notes.",
+      "evidence": [
+        {
+          "source_item_id": 45869931,
+          "source_field": "body",
+          "value": "I am working on a web app that doctors/NPs/PAs can use to automatically rewrite complicated and verbose medical progress notes.",
+          "supports": [],
+          "author": "cb3po",
+          "shared_at": 1762727967,
+          "source_url": "https://news.ycombinator.com/item?id=45869931"
+        }
+      ],
+      "source_item_id": 45869931,
+      "source_url": "https://news.ycombinator.com/item?id=45869931",
+      "author": "cb3po",
+      "shared_at": 1762727967,
+      "links": []
+    }
+  ]
+}

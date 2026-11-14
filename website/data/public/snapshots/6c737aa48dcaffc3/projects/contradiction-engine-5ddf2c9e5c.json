@@ -1,0 +1,35 @@
+{
+  "id": 4647,
+  "slug": "contradiction-engine-5ddf2c9e5c",
+  "name": "Contradiction Engine",
+  "mentions": [
+    {
+      "name": "Contradiction Engine",
+      "description": "Phase 0 prototype built to address Goal-Oriented Factual Inversion in AI models. It reads documents such as contracts and converts them to core facts kept separate from the session context; when the engine finds a mismatch between the document's facts and the session, it immediately flags the issue.",
+      "problem": "Frontier AI models can invert ground truth identified earlier in a session after a persuasive goal is introduced.",
+      "audience": null,
+      "builder_usernames": [
+        "fwbruno"
+      ],
+      "source_excerpt": "I've been building architecture to address it. Phase 0 is a prototype called the Contradiction Engine, which reads a document such as a contract and converts it to core facts. This is separate from the session context. If the engine finds a mismatch, it immediately flags the issue.",
+      "evidence": [
+        {
+          "source_item_id": 48111130,
+          "source_field": "body",
+          "value": "I've been building architecture to address it. Phase 0 is a prototype called the Contradiction Engine, which reads a document such as a contract and converts it to core facts. This is separate from the session context. If the engine finds a mismatch, it immediately flags the issue.",
+          "supports": [],
+          "author": "fwbruno",
+          "shared_at": 1778605763,
+          "source_url": "https://news.ycombinator.com/item?id=48111130"
+        }
+      ],
+      "source_item_id": 48111130,
+      "source_url": "https://news.ycombinator.com/item?id=48111130",
+      "author": "fwbruno",
+      "shared_at": 1778605763,
+      "links": [
+        "https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics/tree/main/phase0-prototype"
+      ]
+    }
+  ]
+}

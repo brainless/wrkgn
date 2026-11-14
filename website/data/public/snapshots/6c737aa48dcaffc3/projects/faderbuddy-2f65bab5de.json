@@ -1,0 +1,35 @@
+{
+  "id": 3859,
+  "slug": "faderbuddy-2f65bab5de",
+  "name": "FaderBuddy",
+  "mentions": [
+    {
+      "name": "FaderBuddy",
+      "description": "FaderBuddy is a plug-and-play controller board for driving motorized faders with ESPHome and other microcontrollers. It pairs an ATtiny1616 with a motor driver on a small board that mounts to the bottom of Behringer MF60T replacement faders and exposes an I2C interface for reading fader position, moving to a specific spot, and setting up haptic detents — a linear take on the author's SmartKnob project. Suited to builds like an intuitive smart light dimmer switch or a macropad.",
+      "problem": "Using motorized faders with ESPHome and other microcontrollers is not easy, so the board makes that integration plug-and-play.",
+      "audience": null,
+      "builder_usernames": [
+        "scottbez1"
+      ],
+      "source_excerpt": "I’ve been building a plug-and-play controller to use motorized faders with ESPHome and other microcontrollers easily, called FaderBuddy.",
+      "evidence": [
+        {
+          "source_item_id": 48532201,
+          "source_field": "body",
+          "value": "I’ve been building a plug-and-play controller to use motorized faders with ESPHome and other microcontrollers easily, called FaderBuddy.",
+          "supports": [],
+          "author": "scottbez1",
+          "shared_at": 1781468381,
+          "source_url": "https://news.ycombinator.com/item?id=48532201"
+        }
+      ],
+      "source_item_id": 48532201,
+      "source_url": "https://news.ycombinator.com/item?id=48532201",
+      "author": "scottbez1",
+      "shared_at": 1781468381,
+      "links": [
+        "https://github.com/scottbez1/FaderBuddy"
+      ]
+    }
+  ]
+}

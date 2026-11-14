@@ -1,0 +1,91 @@
+{
+  "id": 3786,
+  "slug": "gooey-583b38062f",
+  "name": "gooey",
+  "mentions": [
+    {
+      "name": "gooey",
+      "description": "A UI framework written in Go.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "cookiengineer"
+      ],
+      "source_excerpt": "Working on exocomp [1] and gooey [2]. The former being an agentic environment for pentesting and reverse engineering and the latter being a UI framework in Go.",
+      "evidence": [
+        {
+          "source_item_id": 48533492,
+          "source_field": "body",
+          "value": "Working on exocomp [1] and gooey [2]. The former being an agentic environment for pentesting and reverse engineering and the latter being a UI framework in Go.",
+          "supports": [],
+          "author": "cookiengineer",
+          "shared_at": 1781475731,
+          "source_url": "https://news.ycombinator.com/item?id=48533492"
+        }
+      ],
+      "source_item_id": 48533492,
+      "source_url": "https://news.ycombinator.com/item?id=48533492",
+      "author": "cookiengineer",
+      "shared_at": 1781475731,
+      "links": [
+        "https://github.com/cookiengineer/gooey"
+      ]
+    },
+    {
+      "name": "gooey",
+      "description": "A Go UI library and one-stop framework for building webview and WebASM apps in Go. It provides bindings for the DOM, Web, and Browser APIs and now supports custom Web Components despite Go's type system quirks.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "cookiengineer"
+      ],
+      "source_excerpt": "I am working on my Go UI library called gooey [1] which aims to be a one stop framework to build webview/webview apps in Go and WebASM.\n\nIt started out with bindings for the DOM, Web, and Browser APIs, but as of today I now have custom Web Components support (which is a big deal considering Go's type system quirks).",
+      "evidence": [
+        {
+          "source_item_id": 45418941,
+          "source_field": "body",
+          "value": "I am working on my Go UI library called gooey [1] which aims to be a one stop framework to build webview/webview apps in Go and WebASM.\n\nIt started out with bindings for the DOM, Web, and Browser APIs, but as of today I now have custom Web Components support (which is a big deal considering Go's type system quirks).",
+          "supports": [],
+          "author": "cookiengineer",
+          "shared_at": 1759181067,
+          "source_url": "https://news.ycombinator.com/item?id=45418941"
+        }
+      ],
+      "source_item_id": 45418941,
+      "source_url": "https://news.ycombinator.com/item?id=45418941",
+      "author": "cookiengineer",
+      "shared_at": 1759181067,
+      "links": [
+        "https://github.com/cookiengineer/gooey"
+      ]
+    },
+    {
+      "name": "gooey",
+      "description": "A UI framework for Go written in Go and compiled via WebAssembly. It implements its own JavaScript bindings (because the standard js.Value was unsatisfactory) and provides web components and widgets, with the goal of enabling apps built 100% in Go, usable together with webview/webview.",
+      "problem": "The standard Go WebAssembly bindings via js.Value kind of suck, so custom bindings had to be implemented first.",
+      "audience": "Go developers building apps",
+      "builder_usernames": [
+        "cookiengineer"
+      ],
+      "source_excerpt": "For the last months I've been working primarily on building a UI framework for Go in Go via WebASM.",
+      "evidence": [
+        {
+          "source_item_id": 43818587,
+          "source_field": "body",
+          "value": "For the last months I've been working primarily on building a UI framework for Go in Go via WebASM.",
+          "supports": [],
+          "author": "cookiengineer",
+          "shared_at": 1745825301,
+          "source_url": "https://news.ycombinator.com/item?id=43818587"
+        }
+      ],
+      "source_item_id": 43818587,
+      "source_url": "https://news.ycombinator.com/item?id=43818587",
+      "author": "cookiengineer",
+      "shared_at": 1745825301,
+      "links": [
+        "https://github.com/cookiengineer/gooey"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 7104,
+  "slug": "rust-exi-encoder-decoder-b53dc3ebe3",
+  "name": "Rust EXI encoder/decoder",
+  "mentions": [
+    {
+      "name": "Rust EXI encoder/decoder",
+      "description": "This is an EXI (Efficient XML Interchange) encoder/decoder written in Rust, aiming for both spec conformance and interoperability with other implementations, which currently don't seem to align.",
+      "problem": "Spec conformance and interoperability currently don't seem to be the same thing for EXI implementations.",
+      "audience": null,
+      "builder_usernames": [
+        "t_null"
+      ],
+      "source_excerpt": "An exi encoder/decoder in rust (spec conform and interop, which right now doesn't seem to be the same thing)",
+      "evidence": [
+        {
+          "source_item_id": 46939731,
+          "source_field": "body",
+          "value": "An exi encoder/decoder in rust (spec conform and interop, which right now doesn't seem to be the same thing)",
+          "supports": [],
+          "author": "t_null",
+          "shared_at": 1770593685,
+          "source_url": "https://news.ycombinator.com/item?id=46939731"
+        }
+      ],
+      "source_item_id": 46939731,
+      "source_url": "https://news.ycombinator.com/item?id=46939731",
+      "author": "t_null",
+      "shared_at": 1770593685,
+      "links": []
+    }
+  ]
+}

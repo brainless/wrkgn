@@ -1,0 +1,33 @@
+{
+  "id": 7055,
+  "slug": "hardened-openclaw-rewrite-11747b0bb2",
+  "name": "Hardened OpenClaw Rewrite",
+  "mentions": [
+    {
+      "name": "Hardened OpenClaw Rewrite",
+      "description": "A hardened, security-focused rewrite of OpenClaw aiming to be a milspec, zero-trust autonomous agent that can be completely locked down. First-pass protections against prompt injection and secret exfiltration, an agentd providing network VM/sandbox access that reads the accessibility tree and takes screenshots of apps or desktop regions, and full policy control via OPA so everything the agent can do is managed in one place. The agent's heartbeat is tied into ActivityWatch so it can act as a proactive personal assistant based on stated goals and session activity.",
+      "problem": "Prompt injection and secret exfiltration vulnerabilities in autonomous agents.",
+      "audience": "personal-use",
+      "builder_usernames": [
+        "CuriouslyC"
+      ],
+      "source_excerpt": "I've been working on a security model and architecture to make a hardened rewrite of OpenClaw. I've got a first pass of prompt injection and secret exfiltration protection and an agentd that gives network vm/sandbox access, reads the accessibility tree and can take screenshots of apps or regions of the desktop. I also have full policy control in place with OPA so you can manage everything the agent can do in one place.\n\nThe goal is a milspec, zero-trust autonomous agent that can be completely locked down.",
+      "evidence": [
+        {
+          "source_item_id": 46944764,
+          "source_field": "body",
+          "value": "I've been working on a security model and architecture to make a hardened rewrite of OpenClaw. I've got a first pass of prompt injection and secret exfiltration protection and an agentd that gives network vm/sandbox access, reads the accessibility tree and can take screenshots of apps or regions of the desktop. I also have full policy control in place with OPA so you can manage everything the agent can do in one place.\n\nThe goal is a milspec, zero-trust autonomous agent that can be completely locked down.",
+          "supports": [],
+          "author": "CuriouslyC",
+          "shared_at": 1770641964,
+          "source_url": "https://news.ycombinator.com/item?id=46944764"
+        }
+      ],
+      "source_item_id": 46944764,
+      "source_url": "https://news.ycombinator.com/item?id=46944764",
+      "author": "CuriouslyC",
+      "shared_at": 1770641964,
+      "links": []
+    }
+  ]
+}

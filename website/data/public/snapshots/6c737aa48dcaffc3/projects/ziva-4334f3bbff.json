@@ -1,0 +1,91 @@
+{
+  "id": 6592,
+  "slug": "ziva-4334f3bbff",
+  "name": "Ziva",
+  "mentions": [
+    {
+      "name": "Ziva",
+      "description": "This project brings AI agents to the Godot game engine, enabling AI agent functionality for Godot-based game development. It recently reached $1k MRR.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "OsrsNeedsf2P"
+      ],
+      "source_excerpt": "Still working bringing AI agents to Godot. We recently hit 1k MRR.\n\nProduct link: https://ziva.sh/",
+      "evidence": [
+        {
+          "source_item_id": 47304519,
+          "source_field": "body",
+          "value": "Still working bringing AI agents to Godot. We recently hit 1k MRR.\n\nProduct link: https://ziva.sh/",
+          "supports": [],
+          "author": "OsrsNeedsf2P",
+          "shared_at": 1773026402,
+          "source_url": "https://news.ycombinator.com/item?id=47304519"
+        }
+      ],
+      "source_item_id": 47304519,
+      "source_url": "https://news.ycombinator.com/item?id=47304519",
+      "author": "OsrsNeedsf2P",
+      "shared_at": 1773026402,
+      "links": [
+        "https://ziva.sh/"
+      ]
+    },
+    {
+      "name": "Ziva",
+      "description": "An AI game development agent for Godot that lets users chat about and modify things in their game. It automatically adds open scripts, scenes, and assets to context and uses around 50 MCP tools for editing. Work is underway to refactor the agent loop onto the Claude Agent SDK to piggyback on the Claude Code developer experience and focus on the tool and integration side.",
+      "problem": "Big games are made in game engines, and game engines are hard.",
+      "audience": null,
+      "builder_usernames": [
+        "OsrsNeedsf2P"
+      ],
+      "source_excerpt": "Continuing work on my AI game development agent for Godot, Ziva[0].",
+      "evidence": [
+        {
+          "source_item_id": 46270155,
+          "source_field": "body",
+          "value": "Continuing work on my AI game development agent for Godot, Ziva[0].",
+          "supports": [],
+          "author": "OsrsNeedsf2P",
+          "shared_at": 1765769823,
+          "source_url": "https://news.ycombinator.com/item?id=46270155"
+        }
+      ],
+      "source_item_id": 46270155,
+      "source_url": "https://news.ycombinator.com/item?id=46270155",
+      "author": "OsrsNeedsf2P",
+      "shared_at": 1765769823,
+      "links": [
+        "https://ziva.sh"
+      ]
+    },
+    {
+      "name": "Ziva",
+      "description": "An AI agent for game development that uses MCP to integrate with Godot, a leading open source game engine, targeting a beta release.",
+      "problem": null,
+      "audience": "Game developers and anyone interested in game development; the author is recruiting beta testers",
+      "builder_usernames": [
+        "OsrsNeedsf2P"
+      ],
+      "source_excerpt": "Working on https://ziva.sh/, an AI agent for game development. It uses MCP to integrate with Godot, a leading open source game engine.",
+      "evidence": [
+        {
+          "source_item_id": 45869365,
+          "source_field": "body",
+          "value": "Working on https://ziva.sh/, an AI agent for game development. It uses MCP to integrate with Godot, a leading open source game engine.",
+          "supports": [],
+          "author": "OsrsNeedsf2P",
+          "shared_at": 1762723804,
+          "source_url": "https://news.ycombinator.com/item?id=45869365"
+        }
+      ],
+      "source_item_id": 45869365,
+      "source_url": "https://news.ycombinator.com/item?id=45869365",
+      "author": "OsrsNeedsf2P",
+      "shared_at": 1762723804,
+      "links": [
+        "https://ziva.sh/"
+      ]
+    }
+  ]
+}

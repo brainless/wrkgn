@@ -1,0 +1,64 @@
+{
+  "id": 6985,
+  "slug": "remixify-8f91b582b3",
+  "name": "Remixify",
+  "mentions": [
+    {
+      "name": "Remixify",
+      "description": "This web app helps users find remixes for their favorite Spotify playlists, surfacing alternate versions, club mixes, and remixed versions to support their playlist curating process.",
+      "problem": null,
+      "audience": "DJs and people who love to own their playlist curating process",
+      "builder_usernames": [
+        "kwakubiney"
+      ],
+      "source_excerpt": "Remixify[1]. What I mean to\ndo is target DJs and people who love to own their playlist curating process. We aim to help people find remixes to their favourite Spotify playlists. Alt versions, club mixes, remixed versions, whatever. Come build your new experience.",
+      "evidence": [
+        {
+          "source_item_id": 46939756,
+          "source_field": "body",
+          "value": "Remixify[1]. What I mean to\ndo is target DJs and people who love to own their playlist curating process. We aim to help people find remixes to their favourite Spotify playlists. Alt versions, club mixes, remixed versions, whatever. Come build your new experience.",
+          "supports": [],
+          "author": "kwakubiney",
+          "shared_at": 1770593955,
+          "source_url": "https://news.ycombinator.com/item?id=46939756"
+        }
+      ],
+      "source_item_id": 46939756,
+      "source_url": "https://news.ycombinator.com/item?id=46939756",
+      "author": "kwakubiney",
+      "shared_at": 1770593955,
+      "links": [
+        "https://remixify.xyz"
+      ]
+    },
+    {
+      "name": "Remixify",
+      "description": "Remixify helps DJs find \"play-out\" versions of tracks they already like, such as Extended Mixes, Club Edits, or specific remixes, instead of the Radio Edits that streaming services optimize for. Users paste a Spotify playlist URL, the tool automates the search for DJ-usable versions, and results are grouped by original track so users can preview and save the versions they want into a new playlist. It does not recommend new music or use AI to guess taste; it only finds usable versions of music the user already selected.",
+      "problem": "Streaming services are optimized for Radio Edits, and manually searching for the \"DJ version\" of every single track in a 50-song playlist is tedious administrative work that kills the joy of digging.",
+      "audience": "DJs who want mixable versions of tracks they already like",
+      "builder_usernames": [
+        "kwakubiney"
+      ],
+      "source_excerpt": "Remixify automates the search while leaving the selection to you. You paste a Spotify playlist URL, and it helps you or provides you a good starting point for digging. It groups the results by the original track so you can quickly preview and save the versions you want to a new playlist.",
+      "evidence": [
+        {
+          "source_item_id": 46267128,
+          "source_field": "body",
+          "value": "Remixify automates the search while leaving the selection to you. You paste a Spotify playlist URL, and it helps you or provides you a good starting point for digging. It groups the results by the original track so you can quickly preview and save the versions you want to a new playlist.",
+          "supports": [],
+          "author": "kwakubiney",
+          "shared_at": 1765747704,
+          "source_url": "https://news.ycombinator.com/item?id=46267128"
+        }
+      ],
+      "source_item_id": 46267128,
+      "source_url": "https://news.ycombinator.com/item?id=46267128",
+      "author": "kwakubiney",
+      "shared_at": 1765747704,
+      "links": [
+        "https://github.com/kwakubiney/remixify",
+        "https://remixify.xyz/"
+      ]
+    }
+  ]
+}

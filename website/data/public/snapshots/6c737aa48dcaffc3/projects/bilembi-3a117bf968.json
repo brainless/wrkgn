@@ -1,0 +1,35 @@
+{
+  "id": 3585,
+  "slug": "bilembi-3a117bf968",
+  "name": "Bilembi",
+  "mentions": [
+    {
+      "name": "Bilembi",
+      "description": "An iPhone app that runs iOS-native AI agents using both cloud and local models, powered by llama.cpp. It exposes basic iOS tools such as calendar and reminders, plus advanced tools including a custom QuickJS JavaScript environment with modules like an HTTP client and Git. The app features a llama.cpp wrapper with prompt caching/forking and automatic model loading/unloading based on device memory constraints, and agent execution modes designed to make reasoning about agent security and prompt injection attacks easier. It is available on TestFlight.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "PopFlamingo"
+      ],
+      "source_excerpt": "I'm working on an iPhone app to run iOS-native agents using both cloud and local models, powered by llama.cpp. It has access basic iOS tools such as calendar, reminders etc. but also more advanced ones like a custom JS environment running on QuickJS that can use various custom modules like an HTTP client, Git etc.",
+      "evidence": [
+        {
+          "source_item_id": 48532955,
+          "source_field": "body",
+          "value": "I'm working on an iPhone app to run iOS-native agents using both cloud and local models, powered by llama.cpp. It has access basic iOS tools such as calendar, reminders etc. but also more advanced ones like a custom JS environment running on QuickJS that can use various custom modules like an HTTP client, Git etc.",
+          "supports": [],
+          "author": "PopFlamingo",
+          "shared_at": 1781472500,
+          "source_url": "https://news.ycombinator.com/item?id=48532955"
+        }
+      ],
+      "source_item_id": 48532955,
+      "source_url": "https://news.ycombinator.com/item?id=48532955",
+      "author": "PopFlamingo",
+      "shared_at": 1781472500,
+      "links": [
+        "https://bilembi.app/"
+      ]
+    }
+  ]
+}

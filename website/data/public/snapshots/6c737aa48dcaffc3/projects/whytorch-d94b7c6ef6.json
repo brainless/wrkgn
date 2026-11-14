@@ -1,0 +1,35 @@
+{
+  "id": 9894,
+  "slug": "whytorch-d94b7c6ef6",
+  "name": "WhyTorch",
+  "mentions": [
+    {
+      "name": "WhyTorch",
+      "description": "An interactive visual explainer site for PyTorch functions: clicking elements in tensors shows where each value came from and where it is used in the output, and the input tensors can be modified to explore behavior. Built as a side project by re-implementing PyTorch functions in JavaScript alongside the site framework, with more functions being added over time.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "throwaway135246"
+      ],
+      "source_excerpt": "I'm making a visual explainer site for PyTorch functions:\n\nhttps://whytorch.org/\n\nA great example of how it works is http://whytorch.org/torch.amax/\n\nClicking items in the tensors explains where they came from and where they are used in the output. The input tensors can be modified too.",
+      "evidence": [
+        {
+          "source_item_id": 45420827,
+          "source_field": "body",
+          "value": "I'm making a visual explainer site for PyTorch functions:\n\nhttps://whytorch.org/\n\nA great example of how it works is http://whytorch.org/torch.amax/\n\nClicking items in the tensors explains where they came from and where they are used in the output. The input tensors can be modified too.",
+          "supports": [],
+          "author": "throwaway135246",
+          "shared_at": 1759194340,
+          "source_url": "https://news.ycombinator.com/item?id=45420827"
+        }
+      ],
+      "source_item_id": 45420827,
+      "source_url": "https://news.ycombinator.com/item?id=45420827",
+      "author": "throwaway135246",
+      "shared_at": 1759194340,
+      "links": [
+        "https://whytorch.org/"
+      ]
+    }
+  ]
+}

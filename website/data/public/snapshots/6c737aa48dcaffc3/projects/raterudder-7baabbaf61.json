@@ -1,0 +1,35 @@
+{
+  "id": 6302,
+  "slug": "raterudder-7baabbaf61",
+  "name": "RateRudder",
+  "mentions": [
+    {
+      "name": "RateRudder",
+      "description": "RateRudder automates home solar and battery usage to arbitrage electricity market prices, strategically planning when to use, conserve, or charge the battery to save $1+ per day on real-time or time-of-use utility plans. It currently supports a few utility providers and FranklinWH batteries, with Powerwall and other ESS support sought, and is open-source on GitHub.",
+      "problem": "Home batteries are underutilized under time-varying electricity pricing, so owners miss out on savings from strategically timing battery charge and discharge.",
+      "audience": "Homeowners with solar and home battery systems on real-time or time-of-use utility plans.",
+      "builder_usernames": [
+        "fastest963"
+      ],
+      "source_excerpt": "RateRudder: https://raterudder.com\n\nI've been working on a solution to automate solar+battery use to arbitrage the market. I'm on a real-time utility plan but even if you're on TOU it can save you $1+ per day by strategically planning when to use the battery and when to conserve or charge the battery. So far it's limited to a few providers and only FranklinWH batteries but I'm eagerly looking for someone to help me get Powerwall support working and other ESS. It's open-source on GitHub as well.",
+      "evidence": [
+        {
+          "source_item_id": 47303617,
+          "source_field": "body",
+          "value": "RateRudder: https://raterudder.com\n\nI've been working on a solution to automate solar+battery use to arbitrage the market. I'm on a real-time utility plan but even if you're on TOU it can save you $1+ per day by strategically planning when to use the battery and when to conserve or charge the battery. So far it's limited to a few providers and only FranklinWH batteries but I'm eagerly looking for someone to help me get Powerwall support working and other ESS. It's open-source on GitHub as well.",
+          "supports": [],
+          "author": "fastest963",
+          "shared_at": 1773018677,
+          "source_url": "https://news.ycombinator.com/item?id=47303617"
+        }
+      ],
+      "source_item_id": 47303617,
+      "source_url": "https://news.ycombinator.com/item?id=47303617",
+      "author": "fastest963",
+      "shared_at": 1773018677,
+      "links": [
+        "https://raterudder.com"
+      ]
+    }
+  ]
+}

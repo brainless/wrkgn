@@ -1,0 +1,35 @@
+{
+  "id": 8816,
+  "slug": "ward-3712039e5b",
+  "name": "Ward",
+  "mentions": [
+    {
+      "name": "Ward",
+      "description": "This Chrome extension detects browser scams and phishing using lightweight LLM models, catching everything from malicious scripts on a page to grey-area misinformation on social media. It offers a local mode for added privacy, and the team bootstraps LLM costs for early users to improve detection.",
+      "problem": "Non-tech-savvy people, such as elders and young children, are vulnerable to browser scams, phishing, malicious scripts, and misinformation.",
+      "audience": "Elders, young children, and anyone who is not tech savvy; described as a modern antivirus for everyday browsing.",
+      "builder_usernames": [
+        "bennydog224"
+      ],
+      "source_excerpt": "I'm working on Ward, a Chrome extension that detects browser scams/phishing using lightweight LLM models. Our target persona is elders, young children, and anyone who's not as tech savvy.",
+      "evidence": [
+        {
+          "source_item_id": 46268626,
+          "source_field": "body",
+          "value": "I'm working on Ward, a Chrome extension that detects browser scams/phishing using lightweight LLM models. Our target persona is elders, young children, and anyone who's not as tech savvy.",
+          "supports": [],
+          "author": "bennydog224",
+          "shared_at": 1765757264,
+          "source_url": "https://news.ycombinator.com/item?id=46268626"
+        }
+      ],
+      "source_item_id": 46268626,
+      "source_url": "https://news.ycombinator.com/item?id=46268626",
+      "author": "bennydog224",
+      "shared_at": 1765757264,
+      "links": [
+        "https://tryward.app"
+      ]
+    }
+  ]
+}

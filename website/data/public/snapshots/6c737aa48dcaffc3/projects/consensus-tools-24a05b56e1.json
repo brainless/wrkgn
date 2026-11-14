@@ -1,0 +1,35 @@
+{
+  "id": 7009,
+  "slug": "consensus-tools-24a05b56e1",
+  "name": "consensus-tools",
+  "mentions": [
+    {
+      "name": "consensus-tools",
+      "description": "An open source CLI that experiments with governance at inference time for autonomous systems. Multiple agents propose, critique, and stake on decisions before a single action is taken, rather than letting one model silently decide. It is model-agnostic, runs locally with no blockchain or financial layer, and explores whether adding explicit disagreement and cost at decision time improves outcomes in high-stakes or automated workflows.",
+      "problem": "Autonomous systems let a single model silently decide actions; the project tests whether explicit disagreement and cost at decision time improve outcomes.",
+      "audience": null,
+      "builder_usernames": [
+        "kaicianflone"
+      ],
+      "source_excerpt": "I’m working on an open source CLI that experiments with governance at inference time for autonomous systems.\n\nThe idea is to let multiple agents propose, critique, and stake on decisions before a single action is taken, rather than letting one model silently decide. It’s model-agnostic and runs locally, with no blockchain or financial layer involved.\n\nI’m mostly exploring whether adding explicit disagreement and cost at decision time actually improves outcomes in high-stakes or automated workflows.",
+      "evidence": [
+        {
+          "source_item_id": 46945367,
+          "source_field": "body",
+          "value": "I’m working on an open source CLI that experiments with governance at inference time for autonomous systems.\n\nThe idea is to let multiple agents propose, critique, and stake on decisions before a single action is taken, rather than letting one model silently decide. It’s model-agnostic and runs locally, with no blockchain or financial layer involved.\n\nI’m mostly exploring whether adding explicit disagreement and cost at decision time actually improves outcomes in high-stakes or automated workflows.",
+          "supports": [],
+          "author": "kaicianflone",
+          "shared_at": 1770646157,
+          "source_url": "https://news.ycombinator.com/item?id=46945367"
+        }
+      ],
+      "source_item_id": 46945367,
+      "source_url": "https://news.ycombinator.com/item?id=46945367",
+      "author": "kaicianflone",
+      "shared_at": 1770646157,
+      "links": [
+        "https://github.com/consensus-tools/consensus-tools"
+      ]
+    }
+  ]
+}

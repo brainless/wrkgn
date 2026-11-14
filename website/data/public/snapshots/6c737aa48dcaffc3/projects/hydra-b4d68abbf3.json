@@ -1,0 +1,35 @@
+{
+  "id": 6943,
+  "slug": "hydra-b4d68abbf3",
+  "name": "hydra",
+  "mentions": [
+    {
+      "name": "hydra",
+      "description": "A Rust command-line tool that finds and removes duplicate files, built to speed up cleaning out repeated downloads instead of manually deleting duplicates from the downloads folder.",
+      "problem": "Downloading the same file multiple times leaves duplicates in the downloads folder that have to be removed manually.",
+      "audience": "The author sometimes downloads the same file multiple times at work and has to go through the downloads folder and manually remove the duplicates.",
+      "builder_usernames": [
+        "jconvery14"
+      ],
+      "source_excerpt": "I built a CLI tool in rust to find and remove duplicate files.",
+      "evidence": [
+        {
+          "source_item_id": 46951858,
+          "source_field": "body",
+          "value": "I built a CLI tool in rust to find and remove duplicate files.",
+          "supports": [],
+          "author": "jconvery14",
+          "shared_at": 1770673240,
+          "source_url": "https://news.ycombinator.com/item?id=46951858"
+        }
+      ],
+      "source_item_id": 46951858,
+      "source_url": "https://news.ycombinator.com/item?id=46951858",
+      "author": "jconvery14",
+      "shared_at": 1770673240,
+      "links": [
+        "https://github.com/jconvery1/hydra"
+      ]
+    }
+  ]
+}

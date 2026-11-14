@@ -1,0 +1,91 @@
+{
+  "id": 3145,
+  "slug": "makespell-1c54a46385",
+  "name": "MakeSpell",
+  "mentions": [
+    {
+      "name": "MakeSpell",
+      "description": "MakeSpell is an autonomous crossword puzzle and more, described as a crossword puzzle experience that operates autonomously.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "osetinsky"
+      ],
+      "source_excerpt": "MakeSpell: autonomous crossword puzzle and more",
+      "evidence": [
+        {
+          "source_item_id": 48886957,
+          "source_field": "body",
+          "value": "MakeSpell: autonomous crossword puzzle and more",
+          "supports": [],
+          "author": "osetinsky",
+          "shared_at": 1783907951,
+          "source_url": "https://news.ycombinator.com/item?id=48886957"
+        }
+      ],
+      "source_item_id": 48886957,
+      "source_url": "https://news.ycombinator.com/item?id=48886957",
+      "author": "osetinsky",
+      "shared_at": 1783907951,
+      "links": [
+        "https://makespell.com"
+      ]
+    },
+    {
+      "name": "MakeSpell",
+      "description": "MakeSpell creates autonomous crossword puzzles, with more beyond crosswords.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "osetinsky"
+      ],
+      "source_excerpt": "MakeSpell: autonomous crossword and more",
+      "evidence": [
+        {
+          "source_item_id": 48886954,
+          "source_field": "body",
+          "value": "MakeSpell: autonomous crossword and more",
+          "supports": [],
+          "author": "osetinsky",
+          "shared_at": 1783907912,
+          "source_url": "https://news.ycombinator.com/item?id=48886954"
+        }
+      ],
+      "source_item_id": 48886954,
+      "source_url": "https://news.ycombinator.com/item?id=48886954",
+      "author": "osetinsky",
+      "shared_at": 1783907912,
+      "links": [
+        "https://makespell.com"
+      ]
+    },
+    {
+      "name": "Makespell",
+      "description": "This suite of word games serves as a testbed for Underscore, with every puzzle being generative: crosswords with LLM-written clues, a word ladder, a guess-as-it-draws game, and a deduction game scored on how few clues you need. Crossword grids are produced by a Rust constraint-satisfaction solver doing backtracking fill over a bitmask-indexed word list while enforcing 180-degree rotational symmetry and slot intersections. Each generated puzzle gets its own continuously evolving generated soundtrack with no audio files involved, and the goal is for the music to eventually respond to the gameplay itself.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "osetinsky"
+      ],
+      "source_excerpt": "2. Makespell - https://makespell.com/\n\na little suite of word games I've been building as the testbed for Underscore. every puzzle is generative: crosswords with LLM-written clues, a word ladder, a guess-as-it-draws game, and a deduction game scored on how few clues you need.",
+      "evidence": [
+        {
+          "source_item_id": 48542958,
+          "source_field": "body",
+          "value": "2. Makespell - https://makespell.com/\n\na little suite of word games I've been building as the testbed for Underscore. every puzzle is generative: crosswords with LLM-written clues, a word ladder, a guess-as-it-draws game, and a deduction game scored on how few clues you need.",
+          "supports": [],
+          "author": "osetinsky",
+          "shared_at": 1781538141,
+          "source_url": "https://news.ycombinator.com/item?id=48542958"
+        }
+      ],
+      "source_item_id": 48542958,
+      "source_url": "https://news.ycombinator.com/item?id=48542958",
+      "author": "osetinsky",
+      "shared_at": 1781538141,
+      "links": [
+        "https://makespell.com/"
+      ]
+    }
+  ]
+}

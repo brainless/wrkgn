@@ -1,0 +1,35 @@
+{
+  "id": 4788,
+  "slug": "striga-002e11f4ba",
+  "name": "Striga",
+  "mentions": [
+    {
+      "name": "Striga",
+      "description": "This tool performs source code auditing built on AI, using local LLMs to audit code while ensuring full data sovereignty. It has uncovered vulnerabilities such as a Double Free and possible RCE in Apache HTTP Server's HTTP/2 implementation (CVE-2026-23918).",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "traekfuglene"
+      ],
+      "source_excerpt": "Striga (https://www.striga.ai/) - Source code auditing built on artificial intelligence. Auditing source code with local LLMs, ensuring full data sovereignty.",
+      "evidence": [
+        {
+          "source_item_id": 48095473,
+          "source_field": "body",
+          "value": "Striga (https://www.striga.ai/) - Source code auditing built on artificial intelligence. Auditing source code with local LLMs, ensuring full data sovereignty.",
+          "supports": [],
+          "author": "traekfuglene",
+          "shared_at": 1778509746,
+          "source_url": "https://news.ycombinator.com/item?id=48095473"
+        }
+      ],
+      "source_item_id": 48095473,
+      "source_url": "https://news.ycombinator.com/item?id=48095473",
+      "author": "traekfuglene",
+      "shared_at": 1778509746,
+      "links": [
+        "https://www.striga.ai/"
+      ]
+    }
+  ]
+}

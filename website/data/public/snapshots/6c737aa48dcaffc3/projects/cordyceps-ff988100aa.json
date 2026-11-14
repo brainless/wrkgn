@@ -1,0 +1,35 @@
+{
+  "id": 10008,
+  "slug": "cordyceps-ff988100aa",
+  "name": "Cordyceps",
+  "mentions": [
+    {
+      "name": "Cordyceps",
+      "description": "A browser automation library ported from Playwright that works without CDP or Chrome DevTools Protocol (neither over websockets nor chrome.debugger), instead using pure DOM and Chrome Extension APIs. It includes ports of Stagehand and Browser Use that run entirely inside the Chrome Extension.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dataviz1000"
+      ],
+      "source_excerpt": "Cordyceps: A port of Playwight that doesn't use CDP or Chrome DevTools Protocol either over websockets or chrome.debugger. Instead it uses pure DOM and Chrome Extension APIs. It includes a port of both Stagehand and Browser Use that run purely inside the Chrome Extension.",
+      "evidence": [
+        {
+          "source_item_id": 45420115,
+          "source_field": "body",
+          "value": "Cordyceps: A port of Playwight that doesn't use CDP or Chrome DevTools Protocol either over websockets or chrome.debugger. Instead it uses pure DOM and Chrome Extension APIs. It includes a port of both Stagehand and Browser Use that run purely inside the Chrome Extension.",
+          "supports": [],
+          "author": "dataviz1000",
+          "shared_at": 1759188244,
+          "source_url": "https://news.ycombinator.com/item?id=45420115"
+        }
+      ],
+      "source_item_id": 45420115,
+      "source_url": "https://news.ycombinator.com/item?id=45420115",
+      "author": "dataviz1000",
+      "shared_at": 1759188244,
+      "links": [
+        "https://github.com/adam-s/cordyceps"
+      ]
+    }
+  ]
+}

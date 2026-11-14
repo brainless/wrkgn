@@ -1,0 +1,63 @@
+{
+  "id": 4552,
+  "slug": "searchcode-com-70de1927b5",
+  "name": "searchcode.com",
+  "mentions": [
+    {
+      "name": "searchcode.com",
+      "description": "A code search tool rebuilt for LLMs that lets an LLM inspect, search, and analyze repositories before integrating a library, and compare multiple repositories before downloading, with large token savings. It is also useful for learning about a codebase, and includes human-readable repository dossier pages showing what the system produces.",
+      "problem": "Solves the \"should I use this library\" question by letting an LLM inspect, search, and analyze code before integration, instead of downloading repositories.",
+      "audience": "Developers and LLMs evaluating libraries; humans who want to learn about a codebase",
+      "builder_usernames": [
+        "boyter"
+      ],
+      "source_excerpt": "Been working on https://searchcode.com/ again which I bought back, albeit as code search tool for LLMs. It solves the “should I use this library” by allowing the LLM to inspect search and analyse it before integration. Can use it to compare multiple repositories before downloading. It comes with a large amount of token savings and can be really useful when wanting to learn about a codebase.",
+      "evidence": [
+        {
+          "source_item_id": 48087582,
+          "source_field": "body",
+          "value": "Been working on https://searchcode.com/ again which I bought back, albeit as code search tool for LLMs. It solves the “should I use this library” by allowing the LLM to inspect search and analyse it before integration. Can use it to compare multiple repositories before downloading. It comes with a large amount of token savings and can be really useful when wanting to learn about a codebase.",
+          "supports": [],
+          "author": "boyter",
+          "shared_at": 1778444761,
+          "source_url": "https://news.ycombinator.com/item?id=48087582"
+        }
+      ],
+      "source_item_id": 48087582,
+      "source_url": "https://news.ycombinator.com/item?id=48087582",
+      "author": "boyter",
+      "shared_at": 1778444761,
+      "links": [
+        "https://searchcode.com/"
+      ]
+    },
+    {
+      "name": "searchcode.com",
+      "description": "This is a reimagined searchcode.com, a code search and exploration site for looking through any codebase — or multiple codebases — without having to clone it. It supports evaluating candidate libraries, understanding how things work, extracting patterns (e.g., SIMD matching from fzf), and comparing codebases.",
+      "problem": "LLMs have issues when it comes to understanding code you want to integrate.",
+      "audience": "developers exploring and evaluating codebases",
+      "builder_usernames": [
+        "boyter"
+      ],
+      "source_excerpt": "I reimagined https://searchcode.com/ since I realised LLMs have issues when it comes to understanding code you want to integrate. It’s useful for looking though any codebase, or multiple without having to clone it.",
+      "evidence": [
+        {
+          "source_item_id": 47744278,
+          "source_field": "body",
+          "value": "I reimagined https://searchcode.com/ since I realised LLMs have issues when it comes to understanding code you want to integrate. It’s useful for looking though any codebase, or multiple without having to clone it.",
+          "supports": [],
+          "author": "boyter",
+          "shared_at": 1776026704,
+          "source_url": "https://news.ycombinator.com/item?id=47744278"
+        }
+      ],
+      "source_item_id": 47744278,
+      "source_url": "https://news.ycombinator.com/item?id=47744278",
+      "author": "boyter",
+      "shared_at": 1776026704,
+      "links": [
+        "https://searchcode.com/"
+      ]
+    }
+  ]
+}

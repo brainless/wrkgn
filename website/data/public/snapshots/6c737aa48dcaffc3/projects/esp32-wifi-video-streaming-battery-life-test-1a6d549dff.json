@@ -1,0 +1,33 @@
+{
+  "id": 4925,
+  "slug": "esp32-wifi-video-streaming-battery-life-test-1a6d549dff",
+  "name": "ESP32 WiFi Video Streaming Battery Life Test",
+  "mentions": [
+    {
+      "name": "ESP32 WiFi Video Streaming Battery Life Test",
+      "description": "This hardware experiment measures how long an ESP32 can stream video over WiFi on a single 14500 lithium battery (AA-sized, 3.7V), with power regulated to 3.3V via a TPS63020 buck-boost converter. The current best runtime is 2 hours 8 minutes.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dvh"
+      ],
+      "source_excerpt": "In measuring how long can esp32 stream video over wifi using single 14500 battery (AA size but 3.7V lithium). So far it seems like 2h 8m is the limit. I'm using tps63020 buck-boost to 3.3V.",
+      "evidence": [
+        {
+          "source_item_id": 48086781,
+          "source_field": "body",
+          "value": "In measuring how long can esp32 stream video over wifi using single 14500 battery (AA size but 3.7V lithium). So far it seems like 2h 8m is the limit. I'm using tps63020 buck-boost to 3.3V.",
+          "supports": [],
+          "author": "dvh",
+          "shared_at": 1778439816,
+          "source_url": "https://news.ycombinator.com/item?id=48086781"
+        }
+      ],
+      "source_item_id": 48086781,
+      "source_url": "https://news.ycombinator.com/item?id=48086781",
+      "author": "dvh",
+      "shared_at": 1778439816,
+      "links": []
+    }
+  ]
+}

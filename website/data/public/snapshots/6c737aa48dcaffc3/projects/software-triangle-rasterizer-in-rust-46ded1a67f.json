@@ -1,0 +1,33 @@
+{
+  "id": 3617,
+  "slug": "software-triangle-rasterizer-in-rust-46ded1a67f",
+  "name": "Software triangle rasterizer in Rust",
+  "mentions": [
+    {
+      "name": "Software triangle rasterizer in Rust",
+      "description": "A software triangle rasterizer written in Rust using std::simd, benchmarked at ~3.2 Gpixels/s fill rate on a decade-old laptop for solid color triangles with depth testing. It compiles for SSE2, NEON, AVX2, or AVX512 via compiler parameters, uses generics to support multiple vector widths in the same binary (16-wide vectors, 10-20% faster than 8-wide), and follows Fabian Giesen's software rasterizer blog series as a baseline. It is intended for visibility buffer style rendering (storing integer triangle IDs in the color buffer) and software occlusion culling with a depth buffer.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "exDM69"
+      ],
+      "source_excerpt": "I started writing a software triangle rasterizer. Not sure exactly why, but I just felt like doing it.",
+      "evidence": [
+        {
+          "source_item_id": 48541933,
+          "source_field": "body",
+          "value": "I started writing a software triangle rasterizer. Not sure exactly why, but I just felt like doing it.",
+          "supports": [],
+          "author": "exDM69",
+          "shared_at": 1781534164,
+          "source_url": "https://news.ycombinator.com/item?id=48541933"
+        }
+      ],
+      "source_item_id": 48541933,
+      "source_url": "https://news.ycombinator.com/item?id=48541933",
+      "author": "exDM69",
+      "shared_at": 1781534164,
+      "links": []
+    }
+  ]
+}

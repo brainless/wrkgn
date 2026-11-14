@@ -1,0 +1,35 @@
+{
+  "id": 7667,
+  "slug": "gamesieve-2a1540c1de",
+  "name": "GameSieve",
+  "mentions": [
+    {
+      "name": "GameSieve",
+      "description": "This service is an alternative front-end, game discovery service, and price tracker for GOG's catalog. It enhances GOG API data mostly via heuristics with some manual effort, offers a wider range of filters, and groups related products together for a more complete overview. It supports library import that recognizes games GOG fails to credit, such as those obtained as freebies or through since-delisted deluxe editions, and is extending incomplete \"series\" listings to include all relevant games.",
+      "problem": "GOG doesn't recognize that users own certain games obtained as freebies or as part of since-delisted deluxe editions, and its catalog lacks complete related-product grouping, rich filtering, and complete series listings.",
+      "audience": null,
+      "builder_usernames": [
+        "gamesieve"
+      ],
+      "source_excerpt": "An alternative front-end / game discovery service / price tracker for GOG's catalog. Mostly manually enhancing the data from the API (90% heuristics, 10% human effort, as the total dataset isn't large enough for it to be worth doing otherwise), and offering a wider range of filters for it all.",
+      "evidence": [
+        {
+          "source_item_id": 46580302,
+          "source_field": "body",
+          "value": "An alternative front-end / game discovery service / price tracker for GOG's catalog. Mostly manually enhancing the data from the API (90% heuristics, 10% human effort, as the total dataset isn't large enough for it to be worth doing otherwise), and offering a wider range of filters for it all.",
+          "supports": [],
+          "author": "gamesieve",
+          "shared_at": 1768166890,
+          "source_url": "https://news.ycombinator.com/item?id=46580302"
+        }
+      ],
+      "source_item_id": 46580302,
+      "source_url": "https://news.ycombinator.com/item?id=46580302",
+      "author": "gamesieve",
+      "shared_at": 1768166890,
+      "links": [
+        "https://gamesieve.com/"
+      ]
+    }
+  ]
+}

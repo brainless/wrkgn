@@ -1,0 +1,35 @@
+{
+  "id": 8244,
+  "slug": "arivu-e25360f1f4",
+  "name": "Arivu",
+  "mentions": [
+    {
+      "name": "Arivu",
+      "description": "A CLI/library that normalizes fetching and searching across many sources such as arXiv, PubMed, Hacker News, GitHub, Reddit, YouTube transcripts, RSS, and web pages, returning clean text or JSON that can be piped into summaries or scripts. It also runs as an experimental MCP server so tools like Claude Desktop or CLI assistants can call its connectors directly.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Tsarp"
+      ],
+      "source_excerpt": "Building Arivu: CLI/library that normalizes fetch/search across a bunch of sources (arXiv, PubMed, HN, GitHub, Reddit, YouTube transcripts, RSS, web pages…).",
+      "evidence": [
+        {
+          "source_item_id": 46272894,
+          "source_field": "body",
+          "value": "Building Arivu: CLI/library that normalizes fetch/search across a bunch of sources (arXiv, PubMed, HN, GitHub, Reddit, YouTube transcripts, RSS, web pages…).",
+          "supports": [],
+          "author": "Tsarp",
+          "shared_at": 1765796648,
+          "source_url": "https://news.ycombinator.com/item?id=46272894"
+        }
+      ],
+      "source_item_id": 46272894,
+      "source_url": "https://news.ycombinator.com/item?id=46272894",
+      "author": "Tsarp",
+      "shared_at": 1765796648,
+      "links": [
+        "https://github.com/srv1n/arivu"
+      ]
+    }
+  ]
+}

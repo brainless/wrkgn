@@ -1,0 +1,35 @@
+{
+  "id": 8009,
+  "slug": "go-tachicrypt-e42223c61e",
+  "name": "go-tachicrypt",
+  "mentions": [
+    {
+      "name": "go-tachicrypt",
+      "description": "A simple CLI tool that encrypts files or directories into multiple encrypted files, so the pieces can be split over multiple storages or sent via multiple channels. Started as a fun experiment; the author plans to harden it further and provide basic support.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "voodooEntity"
+      ],
+      "source_excerpt": "1. go-tachicrypt ( https://github.com/voodooEntity/go-tachicrypt )\nIt started as a fun project/experiment - a very simple CLI tool which allows to encrypt file(s) / directory(ies) into multiple encrypted files so you can split them over multiple storages or send them via multiple channels.",
+      "evidence": [
+        {
+          "source_item_id": 46587223,
+          "source_field": "body",
+          "value": "1. go-tachicrypt ( https://github.com/voodooEntity/go-tachicrypt )\nIt started as a fun project/experiment - a very simple CLI tool which allows to encrypt file(s) / directory(ies) into multiple encrypted files so you can split them over multiple storages or send them via multiple channels.",
+          "supports": [],
+          "author": "voodooEntity",
+          "shared_at": 1768218983,
+          "source_url": "https://news.ycombinator.com/item?id=46587223"
+        }
+      ],
+      "source_item_id": 46587223,
+      "source_url": "https://news.ycombinator.com/item?id=46587223",
+      "author": "voodooEntity",
+      "shared_at": 1768218983,
+      "links": [
+        "https://github.com/voodooEntity/go-tachicrypt"
+      ]
+    }
+  ]
+}

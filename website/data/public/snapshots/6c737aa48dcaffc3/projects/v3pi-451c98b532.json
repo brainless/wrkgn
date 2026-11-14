@@ -1,0 +1,35 @@
+{
+  "id": 7169,
+  "slug": "v3pi-451c98b532",
+  "name": "V3pi",
+  "mentions": [
+    {
+      "name": "V3pi",
+      "description": "A deterministic structural verification service for regulated documents and workflow artifacts. It compares a reference version against an evaluated version and produces a reproducible evidence package — a hash ledger plus concordance/divergence witnesses — that can be reviewed offline, using no AI or similarity scoring, and is intended to stand outside the producing system.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "v3pi"
+      ],
+      "source_excerpt": "I just launched a deterministic structural verification service for regulated docs and workflow artifacts. It compares a reference vs an evaluated version and produces a reproducible evidence package (hash ledger + concordance/divergence witnesses) that can be reviewed offline. No AI, no similarity scoring—just deterministic outputs meant to stand outside the producing system.",
+      "evidence": [
+        {
+          "source_item_id": 47010126,
+          "source_field": "body",
+          "value": "I just launched a deterministic structural verification service for regulated docs and workflow artifacts. It compares a reference vs an evaluated version and produces a reproducible evidence package (hash ledger + concordance/divergence witnesses) that can be reviewed offline. No AI, no similarity scoring—just deterministic outputs meant to stand outside the producing system.",
+          "supports": [],
+          "author": "v3pi",
+          "shared_at": 1771030867,
+          "source_url": "https://news.ycombinator.com/item?id=47010126"
+        }
+      ],
+      "source_item_id": 47010126,
+      "source_url": "https://news.ycombinator.com/item?id=47010126",
+      "author": "v3pi",
+      "shared_at": 1771030867,
+      "links": [
+        "https://www.V3pi.com"
+      ]
+    }
+  ]
+}

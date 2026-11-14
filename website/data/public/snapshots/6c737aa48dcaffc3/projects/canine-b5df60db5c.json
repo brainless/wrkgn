@@ -1,0 +1,35 @@
+{
+  "id": 8977,
+  "slug": "canine-b5df60db5c",
+  "name": "Canine",
+  "mentions": [
+    {
+      "name": "Canine",
+      "description": "Canine is a free, open source Heroku alternative: a developer-friendly PaaS with no vendor lock-in or price gouging. It recently added build packs as a build option and offers a Discord for support.",
+      "problem": "PaaS pricing is extreme and vendor lock-in makes annual price increases hard to deal with; the author's last startup spent close to 400k/year for just a 128GB combined fleet on Heroku.",
+      "audience": "Developers who want the developer experience of a PaaS without vendor lock-in or high pricing",
+      "builder_usernames": [
+        "czhu12"
+      ],
+      "source_excerpt": "I’ve been working on https://canine.sh which is a free, open source Heroku alternative for 2 years now.\n\nIt’s exactly the product I wish I had when I started my previous company. Running on PaaS is incredible for devex but the pricing is bonkers, and the vendor lock in makes it really hard to deal with annual price increases. We spent close to 400k / year for just 128GB combined fleet in our last startup on Heroku.\n\nCanine tries to get the best of both worlds: developer friendly PaaS with no lockin or price gouging.\n\nJust added build packs as a build option recently.",
+      "evidence": [
+        {
+          "source_item_id": 45871289,
+          "source_field": "body",
+          "value": "I’ve been working on https://canine.sh which is a free, open source Heroku alternative for 2 years now.\n\nIt’s exactly the product I wish I had when I started my previous company. Running on PaaS is incredible for devex but the pricing is bonkers, and the vendor lock in makes it really hard to deal with annual price increases. We spent close to 400k / year for just 128GB combined fleet in our last startup on Heroku.\n\nCanine tries to get the best of both worlds: developer friendly PaaS with no lockin or price gouging.\n\nJust added build packs as a build option recently.",
+          "supports": [],
+          "author": "czhu12",
+          "shared_at": 1762738914,
+          "source_url": "https://news.ycombinator.com/item?id=45871289"
+        }
+      ],
+      "source_item_id": 45871289,
+      "source_url": "https://news.ycombinator.com/item?id=45871289",
+      "author": "czhu12",
+      "shared_at": 1762738914,
+      "links": [
+        "https://canine.sh"
+      ]
+    }
+  ]
+}

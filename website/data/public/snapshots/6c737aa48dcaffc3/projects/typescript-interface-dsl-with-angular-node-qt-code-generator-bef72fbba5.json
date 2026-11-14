@@ -1,0 +1,33 @@
+{
+  "id": 6179,
+  "slug": "typescript-interface-dsl-with-angular-node-qt-code-generator-bef72fbba5",
+  "name": "TypeScript interface DSL with Angular/Node/Qt code generator",
+  "mentions": [
+    {
+      "name": "TypeScript interface DSL with Angular/Node/Qt code generator",
+      "description": "A DSL expressed in TypeScript syntax for declaring interfaces between a TypeScript application and its backend. Its code generator emits Angular classes and TypeScript types for the web app, a Node backend class to fill in with handlers for that interface, and a Qt widget that embeds the web application — including a functional Qt Designer plugin for dragging the widget into existing UI layouts — so UIs written for the web can be used either as regular Qt widgets or as standalone webapps with a Node backend.",
+      "problem": null,
+      "audience": "developers building TypeScript web apps who also want their UIs usable as Qt widgets",
+      "builder_usernames": [
+        "dusted"
+      ],
+      "source_excerpt": "I made this little DSL that's transported by the typescript syntax, but made for declaring interfaces between a typescript application and a backend.",
+      "evidence": [
+        {
+          "source_item_id": 47316092,
+          "source_field": "body",
+          "value": "I made this little DSL that's transported by the typescript syntax, but made for declaring interfaces between a typescript application and a backend.",
+          "supports": [],
+          "author": "dusted",
+          "shared_at": 1773093178,
+          "source_url": "https://news.ycombinator.com/item?id=47316092"
+        }
+      ],
+      "source_item_id": 47316092,
+      "source_url": "https://news.ycombinator.com/item?id=47316092",
+      "author": "dusted",
+      "shared_at": 1773093178,
+      "links": []
+    }
+  ]
+}

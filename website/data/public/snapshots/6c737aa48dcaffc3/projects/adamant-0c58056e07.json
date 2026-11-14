@@ -1,0 +1,35 @@
+{
+  "id": 3434,
+  "slug": "adamant-0c58056e07",
+  "name": "Adamant",
+  "mentions": [
+    {
+      "name": "Adamant",
+      "description": "A sandboxing tool built as a wrapper around Bubblewrap, with networking added via a socat proxy. It supports profiles to prepare and probe programs, runs commands with isolated ingress port forwarding (e.g. a sandboxed webserver reachable from outside), and can execute headless Firefox sessions that take screenshots from inside the sandbox.",
+      "problem": "Running test harnesses directly on the author's machine is a bad idea, and Docker/Podman are too complicated for the task at hand.",
+      "audience": null,
+      "builder_usernames": [
+        "sieve"
+      ],
+      "source_excerpt": "Decided that running harnesses directly on my machine is a bad idea. Docker/Podman are too complicated for the task at hand. So I built Adamant. It started out as a basic wrapper around Bubblewrap. Then I added networking via a socat proxy.",
+      "evidence": [
+        {
+          "source_item_id": 49706334,
+          "source_field": "body",
+          "value": "Decided that running harnesses directly on my machine is a bad idea. Docker/Podman are too complicated for the task at hand. So I built Adamant. It started out as a basic wrapper around Bubblewrap. Then I added networking via a socat proxy.",
+          "supports": [],
+          "author": "sieve",
+          "shared_at": 1789433607,
+          "source_url": "https://news.ycombinator.com/item?id=49706334"
+        }
+      ],
+      "source_item_id": 49706334,
+      "source_url": "https://news.ycombinator.com/item?id=49706334",
+      "author": "sieve",
+      "shared_at": 1789433607,
+      "links": [
+        "https://bhashika.org.in/logs/2026/adamant-devlog-3"
+      ]
+    }
+  ]
+}

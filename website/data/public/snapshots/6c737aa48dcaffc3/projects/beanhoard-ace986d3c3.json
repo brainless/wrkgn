@@ -1,0 +1,35 @@
+{
+  "id": 6153,
+  "slug": "beanhoard-ace986d3c3",
+  "name": "Beanhoard",
+  "mentions": [
+    {
+      "name": "Beanhoard",
+      "description": "Coffee roaster aggregation service that runs an ETL pipeline (FastAPI, Next.js, BeautifulSoup) checking up to 75 coffee roasters every 10 minutes for new products. It includes Discord OAuth and Discord DM notifications, with instant notifications offered as a paid feature at $6. The author is also considering reusing the repo as a framework for other industries and adding a RAG Discord bot for semantic search over origin/flavor note filters.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "sidrag22"
+      ],
+      "source_excerpt": "https://beanhoard.com/\n\nCoffee Roaster Aggregation ETL using fastapi, nextjs, bs4 etc etc. It's been fun, just finished up the oauth for discord that pairs nicely with the info required to make Discord dm notifications function. attempting to charge 6$ for the instant notifications, but doubt many people will be interested. up to 75 roasters and all of them are checked every 10 mins for new products.",
+      "evidence": [
+        {
+          "source_item_id": 47304752,
+          "source_field": "body",
+          "value": "https://beanhoard.com/\n\nCoffee Roaster Aggregation ETL using fastapi, nextjs, bs4 etc etc. It's been fun, just finished up the oauth for discord that pairs nicely with the info required to make Discord dm notifications function. attempting to charge 6$ for the instant notifications, but doubt many people will be interested. up to 75 roasters and all of them are checked every 10 mins for new products.",
+          "supports": [],
+          "author": "sidrag22",
+          "shared_at": 1773028813,
+          "source_url": "https://news.ycombinator.com/item?id=47304752"
+        }
+      ],
+      "source_item_id": 47304752,
+      "source_url": "https://news.ycombinator.com/item?id=47304752",
+      "author": "sidrag22",
+      "shared_at": 1773028813,
+      "links": [
+        "https://beanhoard.com/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 6456,
+  "slug": "tinyspec-c5f08a8646",
+  "name": "tinyspec",
+  "mentions": [
+    {
+      "name": "tinyspec",
+      "description": "A spec-driven development system for software projects, similar to openspec but producing more succinct specifications. It addresses the drawback of tools like openspec, which generate a large number of files spanning the proposal, design, and implementation stages.",
+      "problem": "Existing spec development tools like openspec generate too many files from the proposal through design and implementation; this project provides specifications that are more succinct.",
+      "audience": null,
+      "builder_usernames": [
+        "natedaines"
+      ],
+      "source_excerpt": "I was exploring a spec development system (similar to the likes of openspec) but with specifications that are more succinct. One of my frustration with openspec is the number of files that are generated from the proposal, to the design and implementation.\n\nhttps://tinyspec.dev/",
+      "evidence": [
+        {
+          "source_item_id": 47306024,
+          "source_field": "body",
+          "value": "I was exploring a spec development system (similar to the likes of openspec) but with specifications that are more succinct. One of my frustration with openspec is the number of files that are generated from the proposal, to the design and implementation.\n\nhttps://tinyspec.dev/",
+          "supports": [],
+          "author": "natedaines",
+          "shared_at": 1773043131,
+          "source_url": "https://news.ycombinator.com/item?id=47306024"
+        }
+      ],
+      "source_item_id": 47306024,
+      "source_url": "https://news.ycombinator.com/item?id=47306024",
+      "author": "natedaines",
+      "shared_at": 1773043131,
+      "links": [
+        "https://tinyspec.dev/"
+      ]
+    }
+  ]
+}

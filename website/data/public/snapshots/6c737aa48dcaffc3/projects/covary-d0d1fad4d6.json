@@ -1,0 +1,35 @@
+{
+  "id": 10925,
+  "slug": "covary-d0d1fad4d6",
+  "name": "Covary",
+  "mentions": [
+    {
+      "name": "Covary",
+      "description": "A correlation matrix web app built with Svelte 5, featuring hierarchical clustering, rolling correlation charts, a minimap, time series data detrending, and 2D matrix virtualization that renders only visible cells to the DOM. It supports up to 130K matrix cells and correlates up to 23.5M time series data points.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "division_by_0"
+      ],
+      "source_excerpt": "I'm working on a correlation matrix with Svelte 5.\n\nIt has hierarchical clustering, rolling correlation charts, a minimap, time series data detrending, and 2D matrix virtualization (to render only visible cells to the DOM).\n\nIt has up to 130K matrix cells and correlates up to 23.5M time series data points.\n\nhttps://covary.xyz",
+      "evidence": [
+        {
+          "source_item_id": 43816064,
+          "source_field": "body",
+          "value": "I'm working on a correlation matrix with Svelte 5.\n\nIt has hierarchical clustering, rolling correlation charts, a minimap, time series data detrending, and 2D matrix virtualization (to render only visible cells to the DOM).\n\nIt has up to 130K matrix cells and correlates up to 23.5M time series data points.\n\nhttps://covary.xyz",
+          "supports": [],
+          "author": "division_by_0",
+          "shared_at": 1745796919,
+          "source_url": "https://news.ycombinator.com/item?id=43816064"
+        }
+      ],
+      "source_item_id": 43816064,
+      "source_url": "https://news.ycombinator.com/item?id=43816064",
+      "author": "division_by_0",
+      "shared_at": 1745796919,
+      "links": [
+        "https://covary.xyz"
+      ]
+    }
+  ]
+}

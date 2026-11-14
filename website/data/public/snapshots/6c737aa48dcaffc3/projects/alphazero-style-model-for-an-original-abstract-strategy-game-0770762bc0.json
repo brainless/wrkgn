@@ -1,0 +1,33 @@
+{
+  "id": 6238,
+  "slug": "alphazero-style-model-for-an-original-abstract-strategy-game-0770762bc0",
+  "name": "AlphaZero-style model for an original abstract strategy game",
+  "mentions": [
+    {
+      "name": "AlphaZero-style model for an original abstract strategy game",
+      "description": "This project trains an AlphaZero-style model using MCTS self-play for an original abstract strategy game the author created, optimizing the entire training pipeline to learn from millions of moves on a budget of a few hundred dollars.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "friggeri"
+      ],
+      "source_excerpt": "I’ve been training an alphazero style model for an abstract strategy game I created 20 years ago. It’s been really fun learning about MCTS and figuring out how to optimize all parts of the pipeline to be able to train on ~millions of moves for ~hundreds of dollars.",
+      "evidence": [
+        {
+          "source_item_id": 47304812,
+          "source_field": "body",
+          "value": "I’ve been training an alphazero style model for an abstract strategy game I created 20 years ago. It’s been really fun learning about MCTS and figuring out how to optimize all parts of the pipeline to be able to train on ~millions of moves for ~hundreds of dollars.",
+          "supports": [],
+          "author": "friggeri",
+          "shared_at": 1773029498,
+          "source_url": "https://news.ycombinator.com/item?id=47304812"
+        }
+      ],
+      "source_item_id": 47304812,
+      "source_url": "https://news.ycombinator.com/item?id=47304812",
+      "author": "friggeri",
+      "shared_at": 1773029498,
+      "links": []
+    }
+  ]
+}

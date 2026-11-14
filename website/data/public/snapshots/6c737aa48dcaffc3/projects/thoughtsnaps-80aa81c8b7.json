@@ -1,0 +1,35 @@
+{
+  "id": 5386,
+  "slug": "thoughtsnaps-80aa81c8b7",
+  "name": "ThoughtSnaps",
+  "mentions": [
+    {
+      "name": "ThoughtSnaps",
+      "description": "A minimal tool that turns short-form writing into social cards and longer thoughts into SnapEssays—visual documents that can be shared natively on social media instead of linking to a blog post. Users pick a color theme, pick a template, and export, with no drag-and-drop, layers, or fuss. Built with SvelteKit on the frontend and Go/Fiber on the backend, including OAuth and templates, with an MCP server in progress so AI assistants can generate and export cards directly.",
+      "problem": "Sharing links to blog posts gets buried by social media algorithms, so longer and short-form thoughts need to be shareable as native visual content instead.",
+      "audience": null,
+      "builder_usernames": [
+        "jjude"
+      ],
+      "source_excerpt": "Building ThoughtSnaps (https://www.thoughtsnaps.app/),  a minimal tool that turns short-form writing into social cards, and longer thoughts into SnapEssays:  visual documents you can share natively instead of linking to a blog post the algorithm will bury.",
+      "evidence": [
+        {
+          "source_item_id": 47793477,
+          "source_field": "body",
+          "value": "Building ThoughtSnaps (https://www.thoughtsnaps.app/),  a minimal tool that turns short-form writing into social cards, and longer thoughts into SnapEssays:  visual documents you can share natively instead of linking to a blog post the algorithm will bury.",
+          "supports": [],
+          "author": "jjude",
+          "shared_at": 1776349680,
+          "source_url": "https://news.ycombinator.com/item?id=47793477"
+        }
+      ],
+      "source_item_id": 47793477,
+      "source_url": "https://news.ycombinator.com/item?id=47793477",
+      "author": "jjude",
+      "shared_at": 1776349680,
+      "links": [
+        "https://www.thoughtsnaps.app/"
+      ]
+    }
+  ]
+}

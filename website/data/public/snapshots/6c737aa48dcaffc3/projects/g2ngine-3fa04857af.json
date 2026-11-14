@@ -1,0 +1,35 @@
+{
+  "id": 9110,
+  "slug": "g2ngine-3fa04857af",
+  "name": "g2ngine",
+  "mentions": [
+    {
+      "name": "g2ngine",
+      "description": "A visual editor for creating video games that runs in the browser and on Linux desktop. Features undo/redo via a stack of swappable states, serialization to disk (native) and LocalStorage (web), and loading of OBJ, GLTF, and GLB models as type-level distinct 'blueprint scenes' with newtype entity IDs. Work in progress includes alpha rendering, depth sorting, a multi-shader material system, physics, and JavaScript scripting on web (in-browser) and desktop (via the Boa JS runtime).",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "leodavi"
+      ],
+      "source_excerpt": "A visual editor for creating video games on the browser and on Linux desktop: https://stickyfingies.github.io/g2ngine",
+      "evidence": [
+        {
+          "source_item_id": 45873088,
+          "source_field": "body",
+          "value": "A visual editor for creating video games on the browser and on Linux desktop: https://stickyfingies.github.io/g2ngine",
+          "supports": [],
+          "author": "leodavi",
+          "shared_at": 1762756807,
+          "source_url": "https://news.ycombinator.com/item?id=45873088"
+        }
+      ],
+      "source_item_id": 45873088,
+      "source_url": "https://news.ycombinator.com/item?id=45873088",
+      "author": "leodavi",
+      "shared_at": 1762756807,
+      "links": [
+        "https://stickyfingies.github.io/g2ngine"
+      ]
+    }
+  ]
+}

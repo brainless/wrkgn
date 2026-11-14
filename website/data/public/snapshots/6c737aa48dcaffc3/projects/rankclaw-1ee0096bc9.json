@@ -1,0 +1,35 @@
+{
+  "id": 6692,
+  "slug": "rankclaw-1ee0096bc9",
+  "name": "RankClaw",
+  "mentions": [
+    {
+      "name": "RankClaw",
+      "description": "This tool is a security scanner for the OpenClaw/ClawHub AI agent skill ecosystem. It has scanned all 14,704 skills in the registry and runs AI deep audits on about 3,800 of them, publishing all AI audit reports publicly and letting anyone check any skill for free. Its headline finding is that surface heuristics (pattern matching, dependency checks, metadata) flag about 6.6% of skills as malicious while AI deep audits find 16.4%, because the skills are markdown instruction files whose attacks are natural-language prompt injection, social engineering of the AI, and instructions to generate and execute code at runtime, with documented patterns including impersonation of ClawHub's CLI, multi-account malicious skill clusters, and a skill with a pre-written pitch for the AI to ask permission to mine Monero.",
+      "problem": "Surface scanning misses roughly 60% of the actual risk in AI agent skills, since the payload does not exist as static code until the AI writes it during a conversation, so attacks in natural language evade traditional detection.",
+      "audience": null,
+      "builder_usernames": [
+        "do_anh_tu"
+      ],
+      "source_excerpt": "RankClaw (https://rankclaw.com) — a security scanner for the OpenClaw/ClawHub AI agent skill ecosystem.\n\nI've been scanning all 14,704 skills in the registry and running AI deep audits on ~3,800 so far. The headline finding: surface heuristics (pattern matching, dependency checks, metadata) flag about 6.6% as malicious. AI deep audit of the same skills finds 16.4%. Surface scanning misses roughly 60% of the actual risk.",
+      "evidence": [
+        {
+          "source_item_id": 47208642,
+          "source_field": "body",
+          "value": "RankClaw (https://rankclaw.com) — a security scanner for the OpenClaw/ClawHub AI agent skill ecosystem.\n\nI've been scanning all 14,704 skills in the registry and running AI deep audits on ~3,800 so far. The headline finding: surface heuristics (pattern matching, dependency checks, metadata) flag about 6.6% as malicious. AI deep audit of the same skills finds 16.4%. Surface scanning misses roughly 60% of the actual risk.",
+          "supports": [],
+          "author": "do_anh_tu",
+          "shared_at": 1772385617,
+          "source_url": "https://news.ycombinator.com/item?id=47208642"
+        }
+      ],
+      "source_item_id": 47208642,
+      "source_url": "https://news.ycombinator.com/item?id=47208642",
+      "author": "do_anh_tu",
+      "shared_at": 1772385617,
+      "links": [
+        "https://rankclaw.com"
+      ]
+    }
+  ]
+}

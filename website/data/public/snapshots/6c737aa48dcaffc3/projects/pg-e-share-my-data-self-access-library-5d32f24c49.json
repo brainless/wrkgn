@@ -1,0 +1,35 @@
+{
+  "id": 5398,
+  "slug": "pg-e-share-my-data-self-access-library-5d32f24c49",
+  "name": "PG&E Share My Data self-access library",
+  "mentions": [
+    {
+      "name": "PG&E Share My Data self-access library",
+      "description": "A self-access library for PG&E's \"Share My Data\" program, used in an end-to-end home automation and monitoring prototype that ingests and visualizes PG&E meter data, running on a circa 2015 Raspberry Pi with AWS services (certificate manager, load balancer) to get the full mTLS PG&E integration working.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "cloudkj"
+      ],
+      "source_excerpt": "PG&E \"Share My Data\" self-access library (https://github.com/cloudkj/pgesmd_self_access) - been tinkering with various home automation and monitoring ideas, and was able to get an end-to-end prototype for ingesting and visualizing PG&E meter data using a combination of the (forked) aforementioned library, an old circa 2015 Raspberry Pi, and a handful of dollars spent on AWS services (certificate manager, load balancer) to get the full mTLS PG&E integration working.",
+      "evidence": [
+        {
+          "source_item_id": 47757703,
+          "source_field": "body",
+          "value": "PG&E \"Share My Data\" self-access library (https://github.com/cloudkj/pgesmd_self_access) - been tinkering with various home automation and monitoring ideas, and was able to get an end-to-end prototype for ingesting and visualizing PG&E meter data using a combination of the (forked) aforementioned library, an old circa 2015 Raspberry Pi, and a handful of dollars spent on AWS services (certificate manager, load balancer) to get the full mTLS PG&E integration working.",
+          "supports": [],
+          "author": "cloudkj",
+          "shared_at": 1776113762,
+          "source_url": "https://news.ycombinator.com/item?id=47757703"
+        }
+      ],
+      "source_item_id": 47757703,
+      "source_url": "https://news.ycombinator.com/item?id=47757703",
+      "author": "cloudkj",
+      "shared_at": 1776113762,
+      "links": [
+        "https://github.com/cloudkj/pgesmd_self_access"
+      ]
+    }
+  ]
+}

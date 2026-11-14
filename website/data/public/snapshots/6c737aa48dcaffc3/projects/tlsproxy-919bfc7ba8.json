@@ -1,0 +1,35 @@
+{
+  "id": 8208,
+  "slug": "tlsproxy-919bfc7ba8",
+  "name": "tlsproxy",
+  "mentions": [
+    {
+      "name": "tlsproxy",
+      "description": "A high-performance TLS proxy and TLS terminator that handles 3000 TLS handshakes per second, positioned as a replacement for stunnel. It matches nginx and HAProxy's speed (bottlenecked only by OpenSSL crypto) while offering a tiny fraction of the attack surface and a 10-15kb memory footprint per worker process. Still in development, with planned features including privilege dropping, in-place config reloads, log burst suppression, multiple listen sockets (enabling free load balancing with the Linux kernel), and detailed TLS configurability.",
+      "problem": "stunnel crashes at under 100 TLS handshakes per second, leaving a gap for a fast, lightweight TLS termination tool.",
+      "audience": null,
+      "builder_usernames": [
+        "novotimo"
+      ],
+      "source_excerpt": "I’ve been working on a TLS proxy/TLS terminator that can handle 3000 TLS handshakes per second (basically an stunnel replacement, but stunnel crashes at under 100 handshakes per second) as a pet project, but I’ve realized that with some polishing this can be really useful.",
+      "evidence": [
+        {
+          "source_item_id": 46269008,
+          "source_field": "body",
+          "value": "I’ve been working on a TLS proxy/TLS terminator that can handle 3000 TLS handshakes per second (basically an stunnel replacement, but stunnel crashes at under 100 handshakes per second) as a pet project, but I’ve realized that with some polishing this can be really useful.",
+          "supports": [],
+          "author": "novotimo",
+          "shared_at": 1765760150,
+          "source_url": "https://news.ycombinator.com/item?id=46269008"
+        }
+      ],
+      "source_item_id": 46269008,
+      "source_url": "https://news.ycombinator.com/item?id=46269008",
+      "author": "novotimo",
+      "shared_at": 1765760150,
+      "links": [
+        "https://github.com/novotimo/tlsproxy"
+      ]
+    }
+  ]
+}

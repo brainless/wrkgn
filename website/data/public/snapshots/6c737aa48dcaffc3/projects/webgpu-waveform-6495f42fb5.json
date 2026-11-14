@@ -1,0 +1,36 @@
+{
+  "id": 9134,
+  "slug": "webgpu-waveform-6495f42fb5",
+  "name": "webgpu-waveform",
+  "mentions": [
+    {
+      "name": "webgpu-waveform",
+      "description": "Open-source WebGPU library for rendering audio waveforms on the GPU in the browser, with a site example that scrubs and zooms audio in real time. Works on Chromium browsers without enabling feature flags.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "aylmao"
+      ],
+      "source_excerpt": "Made some updates to this open-source library I wrote to render audio waveforms using the GPU on the browser (WebGPU).\n\nExample on the site. Works without enabling flags on Chromium browsers. There's an example to scrub and zoom in real time on some audio. Feedback welcome!",
+      "evidence": [
+        {
+          "source_item_id": 45874234,
+          "source_field": "body",
+          "value": "Made some updates to this open-source library I wrote to render audio waveforms using the GPU on the browser (WebGPU).\n\nExample on the site. Works without enabling flags on Chromium browsers. There's an example to scrub and zoom in real time on some audio. Feedback welcome!",
+          "supports": [],
+          "author": "aylmao",
+          "shared_at": 1762767449,
+          "source_url": "https://news.ycombinator.com/item?id=45874234"
+        }
+      ],
+      "source_item_id": 45874234,
+      "source_url": "https://news.ycombinator.com/item?id=45874234",
+      "author": "aylmao",
+      "shared_at": 1762767449,
+      "links": [
+        "https://aykev.dev/webgpu-waveform/",
+        "https://github.com/mrkev/webgpu-waveform"
+      ]
+    }
+  ]
+}

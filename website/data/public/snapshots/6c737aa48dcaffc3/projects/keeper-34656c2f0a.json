@@ -1,0 +1,35 @@
+{
+  "id": 8753,
+  "slug": "keeper-34656c2f0a",
+  "name": "Keeper",
+  "mentions": [
+    {
+      "name": "Keeper",
+      "description": "This is a GUI tool for managing CODEOWNERS files, aimed at large repositories with many owners.",
+      "problem": "Managing CODEOWNERS is difficult for large repos with lots and lots of owners.",
+      "audience": null,
+      "builder_usernames": [
+        "posix_compliant"
+      ],
+      "source_excerpt": "I’m working on a GUI for managing CODEOWNERS for large repos with lots and lots of owners",
+      "evidence": [
+        {
+          "source_item_id": 46290206,
+          "source_field": "body",
+          "value": "I’m working on a GUI for managing CODEOWNERS for large repos with lots and lots of owners",
+          "supports": [],
+          "author": "posix_compliant",
+          "shared_at": 1765900910,
+          "source_url": "https://news.ycombinator.com/item?id=46290206"
+        }
+      ],
+      "source_item_id": 46290206,
+      "source_url": "https://news.ycombinator.com/item?id=46290206",
+      "author": "posix_compliant",
+      "shared_at": 1765900910,
+      "links": [
+        "https://github.com/wmarshall484/Keeper"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 5808,
+  "slug": "prompter-hawk-de48d302ce",
+  "name": "Prompter Hawk",
+  "mentions": [
+    {
+      "name": "Prompter Hawk",
+      "description": "This is a dashboard for managing local coding agents such as Claude Code, OpenAI Codex, and Gemini CLI. Work is organized as non-interactive tasks (like \"claude -p\") whose outputs, such as lists of changed files and git commits, are attached to the task. It offers a glanceable dashboard for heavily parallelized agent work, persistent task data so a project can be reopened a month later with the same agents, and analytical views including counts of LOC, commits, and tool calls plus a timeline showing how much time each agent worked.",
+      "problem": "Managing multiple Claude Code instances running in parallel across terminal windows is difficult.",
+      "audience": null,
+      "builder_usernames": [
+        "nlowell"
+      ],
+      "source_excerpt": "I'm working on Prompter Hawk, which is a dashboard for managing your local coding agents like Claude Code, OpenAI Codex, and Gemini's cli.",
+      "evidence": [
+        {
+          "source_item_id": 47753149,
+          "source_field": "body",
+          "value": "I'm working on Prompter Hawk, which is a dashboard for managing your local coding agents like Claude Code, OpenAI Codex, and Gemini's cli.",
+          "supports": [],
+          "author": "nlowell",
+          "shared_at": 1776092987,
+          "source_url": "https://news.ycombinator.com/item?id=47753149"
+        }
+      ],
+      "source_item_id": 47753149,
+      "source_url": "https://news.ycombinator.com/item?id=47753149",
+      "author": "nlowell",
+      "shared_at": 1776092987,
+      "links": [
+        "https://prompterhawk.dev/"
+      ]
+    },
+    {
+      "name": "Prompter Hawk",
+      "description": "A task dispatch dashboard and GUI harness for AI coding agents (Claude, Codex, Gemini, GPT) that replaces juggling multiple parallel agent terminals with a single AI task tracking board. Tasks are fire-and-forget with a parallelism-first workflow; the dashboard shows all parallel sessions, in-progress and queued tasks, and recent outputs. It tracks task status, file changes, and git commits, offers one-click task retry, cost-per-run breakdowns, scheduled recurring tasks, and a persistent local database of task history. It also provides timeline and analytics views (velocity, LOC and commit changes, most-read files, parallelization stats), automatic Mermaid system diagram generation during or after task execution, and agent-drafted task suggestions when agents are idle.",
+      "problem": "Parallelizing AI agent work by running multiple claude code or codex terminals at once is unwieldy, and pulling up old chat histories is a poor way to track past tasks and outputs.",
+      "audience": "Developers running multiple AI coding agent terminals in parallel",
+      "builder_usernames": [
+        "nlowell"
+      ],
+      "source_excerpt": "Mainly I'm working on a task dispatch dashboard called Prompter Hawk that is designed to be the best UI for task management with agents.",
+      "evidence": [
+        {
+          "source_item_id": 46939513,
+          "source_field": "body",
+          "value": "Mainly I'm working on a task dispatch dashboard called Prompter Hawk that is designed to be the best UI for task management with agents.",
+          "supports": [],
+          "author": "nlowell",
+          "shared_at": 1770591764,
+          "source_url": "https://news.ycombinator.com/item?id=46939513"
+        }
+      ],
+      "source_item_id": 46939513,
+      "source_url": "https://news.ycombinator.com/item?id=46939513",
+      "author": "nlowell",
+      "shared_at": 1770591764,
+      "links": [
+        "https://prompterhawk.dev/"
+      ]
+    }
+  ]
+}

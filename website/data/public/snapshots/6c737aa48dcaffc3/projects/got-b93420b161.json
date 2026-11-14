@@ -1,0 +1,63 @@
+{
+  "id": 6797,
+  "slug": "got-b93420b161",
+  "name": "Got",
+  "mentions": [
+    {
+      "name": "Got",
+      "description": "This is a version control system like Git, designed to handle files and directories of any size, with end-to-end encryption. It is built on top of Blobcache, a transactional storage layer.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "brendoncarroll"
+      ],
+      "source_excerpt": "I'm working on Got, version control like Git, but for files and directories of any size and E2E encrypted.",
+      "evidence": [
+        {
+          "source_item_id": 46945278,
+          "source_field": "body",
+          "value": "I'm working on Got, version control like Git, but for files and directories of any size and E2E encrypted.",
+          "supports": [],
+          "author": "brendoncarroll",
+          "shared_at": 1770645606,
+          "source_url": "https://news.ycombinator.com/item?id=46945278"
+        }
+      ],
+      "source_item_id": 46945278,
+      "source_url": "https://news.ycombinator.com/item?id=46945278",
+      "author": "brendoncarroll",
+      "shared_at": 1770645606,
+      "links": [
+        "https://github.com/gotvc/got"
+      ]
+    },
+    {
+      "name": "Got Version Control",
+      "description": "Git-like version control system that fixes the problems of storing large files and directories in Git: no separate large-files provider to configure and all commit data goes to the same place. It stores file data in Blobcache and encrypts everything end-to-end, making it suitable for versioning an entire home directory. GPL-licensed FOSS with contributions welcome.",
+      "problem": "Storing large files and directories in Git is problematic and requires separately configured large-file providers, making it hard to put a whole home directory under version control.",
+      "audience": null,
+      "builder_usernames": [
+        "brendoncarroll"
+      ],
+      "source_excerpt": "I'm also working on Got Version Control https://github.com/gotvc/got\n\nGot uses Blobcache for storing file data.\n\nGot is like Git, if you fixed all the problems with storing large files and directories in Git.\nThere's no \"large files provider\" to configure separately.\nAll the data for a commit goes to the same place.\nGot also encrypts all the data you put in it, E2E.\nIf you've run into problems putting your whole home directory in Git, you might have more luck with Got.",
+      "evidence": [
+        {
+          "source_item_id": 45425439,
+          "source_field": "body",
+          "value": "I'm also working on Got Version Control https://github.com/gotvc/got\n\nGot uses Blobcache for storing file data.\n\nGot is like Git, if you fixed all the problems with storing large files and directories in Git.\nThere's no \"large files provider\" to configure separately.\nAll the data for a commit goes to the same place.\nGot also encrypts all the data you put in it, E2E.\nIf you've run into problems putting your whole home directory in Git, you might have more luck with Got.",
+          "supports": [],
+          "author": "brendoncarroll",
+          "shared_at": 1759240329,
+          "source_url": "https://news.ycombinator.com/item?id=45425439"
+        }
+      ],
+      "source_item_id": 45425439,
+      "source_url": "https://news.ycombinator.com/item?id=45425439",
+      "author": "brendoncarroll",
+      "shared_at": 1759240329,
+      "links": [
+        "https://github.com/gotvc/got"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 6259,
+  "slug": "mcpguard-17ee693183",
+  "name": "MCPGuard",
+  "mentions": [
+    {
+      "name": "MCPGuard",
+      "description": "MCPGuard is a CLI tool that audits MCP (Model Context Protocol) configurations for plaintext credentials and migrates them into the operating system keychain (macOS Keychain, Linux SecretService, Windows Credential Manager). Its `mcpguard audit` command finds exposed API keys, and `mcpguard migrate` moves them to the OS keychain, replacing real keys in the config file with vault references so credentials never touch disk again. Installable via `npm install -g mcpguard-cli`.",
+      "problem": "API keys for services like GitHub, Linear, and Notion sit in plaintext in ~/.config/claude/claude_desktop_config.json, so anyone with read access to that file (malicious MCP server, compromised dependency, RCE) gets all the keys instantly.",
+      "audience": null,
+      "builder_usernames": [
+        "julien-poitou"
+      ],
+      "source_excerpt": "MCPGuard fixes this: it scans your MCP configs, detects plaintext credentials, \nand migrates them to your OS keychain (macOS Keychain, Linux SecretService, \nWindows Credential Manager).\n\n  $ mcpguard audit   # finds exposed keys\n  $ mcpguard migrate # moves them to OS keychain\n\nYour config file then has vault references instead of real keys. \nThe credentials never touch disk again.",
+      "evidence": [
+        {
+          "source_item_id": 47319958,
+          "source_field": "body",
+          "value": "MCPGuard fixes this: it scans your MCP configs, detects plaintext credentials, \nand migrates them to your OS keychain (macOS Keychain, Linux SecretService, \nWindows Credential Manager).\n\n  $ mcpguard audit   # finds exposed keys\n  $ mcpguard migrate # moves them to OS keychain\n\nYour config file then has vault references instead of real keys. \nThe credentials never touch disk again.",
+          "supports": [],
+          "author": "julien-poitou",
+          "shared_at": 1773126460,
+          "source_url": "https://news.ycombinator.com/item?id=47319958"
+        }
+      ],
+      "source_item_id": 47319958,
+      "source_url": "https://news.ycombinator.com/item?id=47319958",
+      "author": "julien-poitou",
+      "shared_at": 1773126460,
+      "links": []
+    }
+  ]
+}

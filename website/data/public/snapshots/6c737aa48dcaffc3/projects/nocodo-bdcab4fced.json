@@ -1,0 +1,147 @@
+{
+  "id": 4301,
+  "slug": "nocodo-bdcab4fced",
+  "name": "nocodo",
+  "mentions": [
+    {
+      "name": "nocodo",
+      "description": "A coding agent designed for small and tiny local LLMs that turns user prompts into epics and tasks (via PO/PM agents), then breaks work into Rust and TypeScript code dependencies. Multiple role-based agents (PO, PM, Architect, Rust Engineer, TypeScript Engineer) one-shot code responses with extensive code references in prompts, using no tool calling, no MCP, and no multi-turn chats. Built on an opinionated stack of Rust (Actix Web, Diesel, SQLite) and TypeScript (Solid, DaisyUI), with a set of typed primitives to express business logic and planned tree-sitter graphs mapping business logic to user-provided provenance. Tested with Qwen models from 0.8B up to 20B.",
+      "problem": "Coding agents normally require large models, tool calling, and multi-turn chat; this project explores how small local models can write structured application code through one-shot responses instead.",
+      "audience": "developers",
+      "builder_usernames": [
+        "brainless"
+      ],
+      "source_excerpt": "I have been building a coding agent for small and even tiny LLMs, local inference. I experiment with Qwen 3.5 0.8B but that is too tiny. 4B is a better one for most of my needs.",
+      "evidence": [
+        {
+          "source_item_id": 48535684,
+          "source_field": "body",
+          "value": "I have been building a coding agent for small and even tiny LLMs, local inference. I experiment with Qwen 3.5 0.8B but that is too tiny. 4B is a better one for most of my needs.",
+          "supports": [],
+          "author": "brainless",
+          "shared_at": 1781488817,
+          "source_url": "https://news.ycombinator.com/item?id=48535684"
+        }
+      ],
+      "source_item_id": 48535684,
+      "source_url": "https://news.ycombinator.com/item?id=48535684",
+      "author": "brainless",
+      "shared_at": 1781488817,
+      "links": [
+        "https://github.com/brainless/nocodo"
+      ]
+    },
+    {
+      "name": "nocodo",
+      "description": "A coding agent that uses a spreadsheet as its primary user experience ('Sheets Driven Development'), letting people build workflow automation through a familiar spreadsheet interface instead of coding-agent tools designed for developers.",
+      "problem": "In the era of coding agents, non-technical folks want to build their own workflow automation, but Claude Code or even Replit are not easy-to-use solutions for them.",
+      "audience": "Non-technical people who want to build their own workflow automation but find coding agents like Claude Code or Replit difficult to use.",
+      "builder_usernames": [
+        "brainless"
+      ],
+      "source_excerpt": "So I am taking inspiration from spreadsheets and using that as the primary UX to build a coding agent.",
+      "evidence": [
+        {
+          "source_item_id": 47747108,
+          "source_field": "body",
+          "value": "So I am taking inspiration from spreadsheets and using that as the primary UX to build a coding agent.",
+          "supports": [],
+          "author": "brainless",
+          "shared_at": 1776049763,
+          "source_url": "https://news.ycombinator.com/item?id=47747108"
+        }
+      ],
+      "source_item_id": 47747108,
+      "source_url": "https://news.ycombinator.com/item?id=47747108",
+      "author": "brainless",
+      "shared_at": 1776049763,
+      "links": [
+        "https://github.com/brainless/nocodo"
+      ]
+    },
+    {
+      "name": "nocodo",
+      "description": "Agent builder and execution platform: a multi-model, multi-agent system with built-in tools (bash, databases, APIs, crawler). Business processes are broken into workflows and steps, each assigned to an agent, with integrations requested via API or file access. Offers configuration, tracing and evals in one place, with internal code generation so users don't need to write code.",
+      "problem": null,
+      "audience": "Any business process that needs agent-based assistance",
+      "builder_usernames": [
+        "brainless"
+      ],
+      "source_excerpt": "I'm building an agent builder and execution platform. It's a multi model, multi agent system with lots of tools (bash, databases, APIs, crawler...).",
+      "evidence": [
+        {
+          "source_item_id": 46582041,
+          "source_field": "body",
+          "value": "I'm building an agent builder and execution platform. It's a multi model, multi agent system with lots of tools (bash, databases, APIs, crawler...).",
+          "supports": [],
+          "author": "brainless",
+          "shared_at": 1768177023,
+          "source_url": "https://news.ycombinator.com/item?id=46582041"
+        }
+      ],
+      "source_item_id": 46582041,
+      "source_url": "https://news.ycombinator.com/item?id=46582041",
+      "author": "brainless",
+      "shared_at": 1768177023,
+      "links": [
+        "https://github.com/brainless/nocodo"
+      ]
+    },
+    {
+      "name": "nocodo",
+      "description": "A coding agent for small businesses that runs on a Linux box on the owner's own cloud. Desktop and mobile apps let users chat with AI models and generate software as needed. Features include SSH-based access with HTTP port forwarding, team collaboration, multiple model support, a git-based workflow, and test deployment automation. It is very early stage but already works on its own source code, though the Bash tool is still missing.",
+      "problem": null,
+      "audience": "Small businesses",
+      "builder_usernames": [
+        "brainless"
+      ],
+      "source_excerpt": "I am building a coding agent for small businesses. The agent runs on Linux box on own cloud. Desktop and mobile apps to chat with AI models and generate software as needed.\n\nSSH based access with HTTP port forward. Team collaboration, multiple models, git based workflow, test deployment automation, etc.\n\nVery early stage but it now work on its own source code (Bash tool is missing): https://github.com/brainless/nocodo",
+      "evidence": [
+        {
+          "source_item_id": 45870924,
+          "source_field": "body",
+          "value": "I am building a coding agent for small businesses. The agent runs on Linux box on own cloud. Desktop and mobile apps to chat with AI models and generate software as needed.\n\nSSH based access with HTTP port forward. Team collaboration, multiple models, git based workflow, test deployment automation, etc.\n\nVery early stage but it now work on its own source code (Bash tool is missing): https://github.com/brainless/nocodo",
+          "supports": [],
+          "author": "brainless",
+          "shared_at": 1762735884,
+          "source_url": "https://news.ycombinator.com/item?id=45870924"
+        }
+      ],
+      "source_item_id": 45870924,
+      "source_url": "https://news.ycombinator.com/item?id=45870924",
+      "author": "brainless",
+      "shared_at": 1762735884,
+      "links": [
+        "https://github.com/brainless/nocodo"
+      ]
+    },
+    {
+      "name": "nocodo",
+      "description": "Web-based AI coding platform for entire business teams that requires no technical knowledge. It is self-hosted, supports multiple AI models with bring-your-own keys and subscriptions, offers unlimited projects and tasks, and runs on the user's own cloud server.",
+      "problem": "Business teams without technical knowledge need a way to use AI coding.",
+      "audience": "Business teams without technical knowledge that need to build software with AI coding tools.",
+      "builder_usernames": [
+        "brainless"
+      ],
+      "source_excerpt": "AI coding for entire business teams, no tech knowledge needed.\n\nhttps://github.com/brainless/nocodo\n\nSelf-hosted, multiple models, bring your own keys and subscriptions, unlimited projects, tasks, web based, runs on your cloud server.",
+      "evidence": [
+        {
+          "source_item_id": 45419032,
+          "source_field": "body",
+          "value": "AI coding for entire business teams, no tech knowledge needed.\n\nhttps://github.com/brainless/nocodo\n\nSelf-hosted, multiple models, bring your own keys and subscriptions, unlimited projects, tasks, web based, runs on your cloud server.",
+          "supports": [],
+          "author": "brainless",
+          "shared_at": 1759181647,
+          "source_url": "https://news.ycombinator.com/item?id=45419032"
+        }
+      ],
+      "source_item_id": 45419032,
+      "source_url": "https://news.ycombinator.com/item?id=45419032",
+      "author": "brainless",
+      "shared_at": 1759181647,
+      "links": [
+        "https://github.com/brainless/nocodo"
+      ]
+    }
+  ]
+}

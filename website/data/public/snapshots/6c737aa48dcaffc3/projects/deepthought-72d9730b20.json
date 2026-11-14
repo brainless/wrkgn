@@ -1,0 +1,33 @@
+{
+  "id": 5074,
+  "slug": "deepthought-72d9730b20",
+  "name": "DeepThought",
+  "mentions": [
+    {
+      "name": "DeepThought",
+      "description": "This research project uses LLMs as an \"inner monologue\" to replicate a thought chain, with dynamically chained thinking steps. It features a 3-layer memory system (a temperature-based Frontbrain of hot context nodes that prevent context overflow, a session-level STM, and a long-term LTS populated at session end), a bitemporal hypergraph of entities and hyperatoms plus linked frame summaries for dynamic graph-traversal retrieval, and an LLM-judged multi-step ingestion pipeline. Currently focused on ingestion and retrieval logic, with planned capabilities for task execution and self-refactoring \"thinking primitives\" represented as data in the hypergraph.",
+      "problem": "Instead of scaling ever-bigger models, it addresses replicating a human-like thought process and preventing context overflow by keeping only currently relevant information in the inference context.",
+      "audience": null,
+      "builder_usernames": [
+        "voodooEntity"
+      ],
+      "source_excerpt": "Project: DeepThought\n\nSo instead of going for the path to take bigger and bigger models to solve more complex questions, i going another direction. My idea is to use LLM's in a way like an \"inner monologue\" to replicate a thought chain. Basically create thinking steps that can be dynamically chained.",
+      "evidence": [
+        {
+          "source_item_id": 48093066,
+          "source_field": "body",
+          "value": "Project: DeepThought\n\nSo instead of going for the path to take bigger and bigger models to solve more complex questions, i going another direction. My idea is to use LLM's in a way like an \"inner monologue\" to replicate a thought chain. Basically create thinking steps that can be dynamically chained.",
+          "supports": [],
+          "author": "voodooEntity",
+          "shared_at": 1778494067,
+          "source_url": "https://news.ycombinator.com/item?id=48093066"
+        }
+      ],
+      "source_item_id": 48093066,
+      "source_url": "https://news.ycombinator.com/item?id=48093066",
+      "author": "voodooEntity",
+      "shared_at": 1778494067,
+      "links": []
+    }
+  ]
+}

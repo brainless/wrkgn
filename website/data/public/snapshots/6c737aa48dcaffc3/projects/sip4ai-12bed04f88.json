@@ -1,0 +1,35 @@
+{
+  "id": 7845,
+  "slug": "sip4ai-12bed04f88",
+  "name": "SIP4AI",
+  "mentions": [
+    {
+      "name": "SIP4AI",
+      "description": "A self-hostable VOIP soft-phone that puts AI on the other end of the line instead of a human. Users register a SIP line and let AI take the calls, working with an existing phone system so AI can be added as a line without replacing everything.",
+      "problem": "Adding AI call handling normally means having to replace the whole phone system; SIP4AI works with existing systems instead.",
+      "audience": null,
+      "builder_usernames": [
+        "schappim"
+      ],
+      "source_excerpt": "I am working on SIP4AI [1] (a VOIP soft-phone where AI is on the other end, not a human). You can self-host it, register a SIP line, and let AI take the calls.",
+      "evidence": [
+        {
+          "source_item_id": 46578197,
+          "source_field": "body",
+          "value": "I am working on SIP4AI [1] (a VOIP soft-phone where AI is on the other end, not a human). You can self-host it, register a SIP line, and let AI take the calls.",
+          "supports": [],
+          "author": "schappim",
+          "shared_at": 1768156065,
+          "source_url": "https://news.ycombinator.com/item?id=46578197"
+        }
+      ],
+      "source_item_id": 46578197,
+      "source_url": "https://news.ycombinator.com/item?id=46578197",
+      "author": "schappim",
+      "shared_at": 1768156065,
+      "links": [
+        "https://sip4ai.com"
+      ]
+    }
+  ]
+}

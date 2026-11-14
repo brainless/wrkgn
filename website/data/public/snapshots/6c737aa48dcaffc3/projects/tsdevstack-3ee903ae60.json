@@ -1,0 +1,38 @@
+{
+  "id": 5269,
+  "slug": "tsdevstack-3ee903ae60",
+  "name": "tsdevstack",
+  "mentions": [
+    {
+      "name": "tsdevstack",
+      "description": "Open-source TypeScript microservices framework that generates and deploys entire production-grade cloud infrastructure (VPC, gateway, WAF, observability, CI/CD) from a single config file, with multi-cloud support across GCP, AWS, and Azure. Includes an MCP server so AI agents can understand the framework and help with development and stack management.",
+      "problem": "Repetitively writing the same Terraform, gateway config, and CI/CD setup for every TypeScript project.",
+      "audience": null,
+      "builder_usernames": [
+        "gyorgy"
+      ],
+      "source_excerpt": "I'm building tsdevstack - Infrastructure as Framework\n\nIt's an open-source TypeScript microservices framework. It generates and deploys an entire production-grade cloud infrastructure (VPC, gateway, WAF, observability, CI/CD) from a single config file. Multi-cloud across GCP, AWS, and Azure.",
+      "evidence": [
+        {
+          "source_item_id": 47751708,
+          "source_field": "body",
+          "value": "I'm building tsdevstack - Infrastructure as Framework\n\nIt's an open-source TypeScript microservices framework. It generates and deploys an entire production-grade cloud infrastructure (VPC, gateway, WAF, observability, CI/CD) from a single config file. Multi-cloud across GCP, AWS, and Azure.",
+          "supports": [],
+          "author": "gyorgy",
+          "shared_at": 1776087074,
+          "source_url": "https://news.ycombinator.com/item?id=47751708"
+        }
+      ],
+      "source_item_id": 47751708,
+      "source_url": "https://news.ycombinator.com/item?id=47751708",
+      "author": "gyorgy",
+      "shared_at": 1776087074,
+      "links": [
+        "https://dev.to/gyorgy/i-built-a-typescript-framework-that-generates-your-entire-cloud-infrastructure-1392",
+        "https://github.com/tsdevstack",
+        "https://tsdevstack.dev",
+        "https://youtu.be/6MJ4PPPjxH8"
+      ]
+    }
+  ]
+}

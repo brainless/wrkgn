@@ -1,0 +1,93 @@
+{
+  "id": 6008,
+  "slug": "llmpm-637f5ff6f2",
+  "name": "llmpm",
+  "mentions": [
+    {
+      "name": "llmpm",
+      "description": "A CLI tool that makes open-source LLMs installable like npm packages, allowing users to install, run, and ship AI models (e.g., `llmpm install llama3`, `llmpm run llama3`). Models can also be packaged with projects so others can reproduce the same setup.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "sarthaksaxena"
+      ],
+      "source_excerpt": "I am building npm for LLM Models, you can now install run and ship AI Models.\n\nIt’s a CLI tool that makes open-source LLMs installable like packages.\n\nllmpm install llama3\n\nllmpm run llama3\n\nYou can also package models with your projects so others can reproduce the same setup easily.",
+      "evidence": [
+        {
+          "source_item_id": 47310671,
+          "source_field": "body",
+          "value": "I am building npm for LLM Models, you can now install run and ship AI Models.\n\nIt’s a CLI tool that makes open-source LLMs installable like packages.\n\nllmpm install llama3\n\nllmpm run llama3\n\nYou can also package models with your projects so others can reproduce the same setup easily.",
+          "supports": [],
+          "author": "sarthaksaxena",
+          "shared_at": 1773071475,
+          "source_url": "https://news.ycombinator.com/item?id=47310671"
+        }
+      ],
+      "source_item_id": 47310671,
+      "source_url": "https://news.ycombinator.com/item?id=47310671",
+      "author": "sarthaksaxena",
+      "shared_at": 1773071475,
+      "links": [
+        "https://github.com/llmpm/llmpm-dev",
+        "https://llmpm.co"
+      ]
+    },
+    {
+      "name": "llmpm",
+      "description": "This is a command line package manager for AI models that makes installing and running models locally easy.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "sarthaksaxena"
+      ],
+      "source_excerpt": "I am building a command line package manager for AI models. It’ll make installing and running models locally incredibly easy.",
+      "evidence": [
+        {
+          "source_item_id": 47308195,
+          "source_field": "body",
+          "value": "I am building a command line package manager for AI models. It’ll make installing and running models locally incredibly easy.",
+          "supports": [],
+          "author": "sarthaksaxena",
+          "shared_at": 1773059354,
+          "source_url": "https://news.ycombinator.com/item?id=47308195"
+        }
+      ],
+      "source_item_id": 47308195,
+      "source_url": "https://news.ycombinator.com/item?id=47308195",
+      "author": "sarthaksaxena",
+      "shared_at": 1773059354,
+      "links": [
+        "https://llmpm.co"
+      ]
+    },
+    {
+      "name": "llmpm",
+      "description": "llmpm is a package manager for large language models, like npm but for LLMs. It lets you install and run 10,000+ open-source LLMs from the command line (e.g. `llmpm install llama3`, `llmpm run llama3`), package models together with your code so projects can reproduce the same setup via `llmpm init`, and serve a model locally with `llmpm serve`, which exposes an OpenAI-compatible API endpoint and hosts a chat UI for interacting with the running model.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "sarthaksaxena"
+      ],
+      "source_excerpt": "I have built npm for LLM models, which lets you install & run 10,000+ open sourced large language models within seconds. The idea is to make models installable like packages in your code:\n\nllmpm install llama3\n\nllmpm run llama3",
+      "evidence": [
+        {
+          "source_item_id": 47304863,
+          "source_field": "body",
+          "value": "I have built npm for LLM models, which lets you install & run 10,000+ open sourced large language models within seconds. The idea is to make models installable like packages in your code:\n\nllmpm install llama3\n\nllmpm run llama3",
+          "supports": [],
+          "author": "sarthaksaxena",
+          "shared_at": 1773030242,
+          "source_url": "https://news.ycombinator.com/item?id=47304863"
+        }
+      ],
+      "source_item_id": 47304863,
+      "source_url": "https://news.ycombinator.com/item?id=47304863",
+      "author": "sarthaksaxena",
+      "shared_at": 1773030242,
+      "links": [
+        "https://github.com/llmpm/llmpm-dev",
+        "https://llmpm.co"
+      ]
+    }
+  ]
+}

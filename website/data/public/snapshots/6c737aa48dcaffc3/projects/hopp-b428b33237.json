@@ -1,0 +1,63 @@
+{
+  "id": 4005,
+  "slug": "hopp-b428b33237",
+  "name": "Hopp",
+  "mentions": [
+    {
+      "name": "Hopp",
+      "description": "An open-source pair programming app built with Tauri. Part of the frontend was ported to Rust to work around WebKit's WebRTC limitations, which had caused stability issues; the app is now more stable and continues to receive improvements and fixes.",
+      "problem": "WebKit's WebRTC limitations in the Tauri app caused stability issues, worked around by porting part of the frontend to Rust.",
+      "audience": null,
+      "builder_usernames": [
+        "iparaskev"
+      ],
+      "source_excerpt": "Still working on Hopp, an oss pair programming app. A few months ago we ported part of the frontend in rust, to work around the webrtc limitations imposed by webkit (Hopp is written in tauri), which caused some stability issues. Now the app is more stable again but we are still making improvements and fixes.",
+      "evidence": [
+        {
+          "source_item_id": 48540449,
+          "source_field": "body",
+          "value": "Still working on Hopp, an oss pair programming app. A few months ago we ported part of the frontend in rust, to work around the webrtc limitations imposed by webkit (Hopp is written in tauri), which caused some stability issues. Now the app is more stable again but we are still making improvements and fixes.",
+          "supports": [],
+          "author": "iparaskev",
+          "shared_at": 1781527586,
+          "source_url": "https://news.ycombinator.com/item?id=48540449"
+        }
+      ],
+      "source_item_id": 48540449,
+      "source_url": "https://news.ycombinator.com/item?id=48540449",
+      "author": "iparaskev",
+      "shared_at": 1781527586,
+      "links": [
+        "https://github.com/gethopp/hopp"
+      ]
+    },
+    {
+      "name": "Hopp",
+      "description": "Hopp's overlay window used for drawing remote cursors is being migrated from winit + wgpu to gpui. A gpui app replicates all of the project's requirements to identify what is missing and determine whether contributions upstream to gpui are needed; a blog post is planned once the migration is complete.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "iparaskev"
+      ],
+      "source_excerpt": "Working on migrating Hopp's [1] overlay window, which we use for drawing the remote cursors, from winit + wgpu to gpui. I used claude in the weekend to make a prototype and now I want to make a gpui app, which will replicate all of our requirements, in order to see what is missing and if I need to contribute upstream.",
+      "evidence": [
+        {
+          "source_item_id": 46281491,
+          "source_field": "body",
+          "value": "Working on migrating Hopp's [1] overlay window, which we use for drawing the remote cursors, from winit + wgpu to gpui. I used claude in the weekend to make a prototype and now I want to make a gpui app, which will replicate all of our requirements, in order to see what is missing and if I need to contribute upstream.",
+          "supports": [],
+          "author": "iparaskev",
+          "shared_at": 1765836763,
+          "source_url": "https://news.ycombinator.com/item?id=46281491"
+        }
+      ],
+      "source_item_id": 46281491,
+      "source_url": "https://news.ycombinator.com/item?id=46281491",
+      "author": "iparaskev",
+      "shared_at": 1765836763,
+      "links": [
+        "https://github.com/gethopp/hopp"
+      ]
+    }
+  ]
+}

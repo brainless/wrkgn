@@ -1,0 +1,36 @@
+{
+  "id": 8255,
+  "slug": "bun-ssg-custom-static-site-generator-2e622f9274",
+  "name": "bun-ssg (custom static site generator)",
+  "mentions": [
+    {
+      "name": "bun-ssg (custom static site generator)",
+      "description": "A custom static site generator built with Bun that uses React islands architecture and MDX support. It builds sites from .mdx files, outputs only HTML and CSS, and progressively hydrates the client with React only as needed. A forkable template is provided.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "pcmaffey"
+      ],
+      "source_excerpt": "I built my own static site generator with React islands architecture and MDX support, using Bun. (Build your site from .mdx files, output only html+css, progressively hydrate the client with React only as needed).",
+      "evidence": [
+        {
+          "source_item_id": 46264664,
+          "source_field": "body",
+          "value": "I built my own static site generator with React islands architecture and MDX support, using Bun. (Build your site from .mdx files, output only html+css, progressively hydrate the client with React only as needed).",
+          "supports": [],
+          "author": "pcmaffey",
+          "shared_at": 1765732227,
+          "source_url": "https://news.ycombinator.com/item?id=46264664"
+        }
+      ],
+      "source_item_id": 46264664,
+      "source_url": "https://news.ycombinator.com/item?id=46264664",
+      "author": "pcmaffey",
+      "shared_at": 1765732227,
+      "links": [
+        "https://github.com/pcmaffey/bun-ssg",
+        "https://pcmaffey.com/custom-ssg/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": 3702,
+  "slug": "texcraft-b038d5212e",
+  "name": "Texcraft",
+  "mentions": [
+    {
+      "name": "Texcraft",
+      "description": "This project re-implements TeX with a modular, LLVM-style software architecture. It includes web UIs (a hyphenation viewer and a lig/kern viewer) built from the same Texcraft code that has identical behavior to TeX, illustrating TeX's inner workings; the lig/kern UI is still missing instructions. The project has also surfaced at least one bug in Knuth's TeX, being written up.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "returningfory2"
+      ],
+      "source_excerpt": "Texcraft is an attempt to re-implement TeX with a modular/LLVM software architecture. These UIs take the same code in Texcraft that has identical behavior to TeX, and illustrates some of the inner workings of TeX. The lig/kern one is missing instructions :)",
+      "evidence": [
+        {
+          "source_item_id": 48531720,
+          "source_field": "body",
+          "value": "Texcraft is an attempt to re-implement TeX with a modular/LLVM software architecture. These UIs take the same code in Texcraft that has identical behavior to TeX, and illustrates some of the inner workings of TeX. The lig/kern one is missing instructions :)",
+          "supports": [],
+          "author": "returningfory2",
+          "shared_at": 1781465675,
+          "source_url": "https://news.ycombinator.com/item?id=48531720"
+        }
+      ],
+      "source_item_id": 48531720,
+      "source_url": "https://news.ycombinator.com/item?id=48531720",
+      "author": "returningfory2",
+      "shared_at": 1781465675,
+      "links": [
+        "https://hyphenate.dev",
+        "https://ligkern.dev"
+      ]
+    }
+  ]
+}

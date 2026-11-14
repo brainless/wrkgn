@@ -1,0 +1,33 @@
+{
+  "id": 9163,
+  "slug": "reasoning-ai-agent-competition-platform-4f242afd3e",
+  "name": "Reasoning AI Agent competition platform",
+  "mentions": [
+    {
+      "name": "Reasoning AI Agent competition platform",
+      "description": "A platform for running a friendly competition in who builds the best reasoning AI agent. Participating teams receive text tasks (such as scheduling a knowledge-exchange meeting) plus sets of simulated, isolated API instances (Calendar, Email, SkillWill) that their agents must orchestrate to solve them. Because API instances are simulated and isolated per team per task, solutions can be checked automatically for correctness and ranked on a global leaderboard. Agent code stays external while participants submit brief questionnaires about their architectures, so benchmarking different agentic implementations on the same tasks reveals patterns in performance, accuracy and cost. The codebase is written mostly in Go to support thousands of concurrent simulations.",
+      "problem": null,
+      "audience": "Teams building reasoning AI agents that compete in the benchmark challenge",
+      "builder_usernames": [
+        "abdullin"
+      ],
+      "source_excerpt": "I’m working on a platform to run a friendly competition in “who builds the best reasoning AI Agent”.\n\nEach participating team (got 300 signups so far) will get a set of text tasks and a set of simulated APIs to solve them.",
+      "evidence": [
+        {
+          "source_item_id": 45873164,
+          "source_field": "body",
+          "value": "I’m working on a platform to run a friendly competition in “who builds the best reasoning AI Agent”.\n\nEach participating team (got 300 signups so far) will get a set of text tasks and a set of simulated APIs to solve them.",
+          "supports": [],
+          "author": "abdullin",
+          "shared_at": 1762757745,
+          "source_url": "https://news.ycombinator.com/item?id=45873164"
+        }
+      ],
+      "source_item_id": 45873164,
+      "source_url": "https://news.ycombinator.com/item?id=45873164",
+      "author": "abdullin",
+      "shared_at": 1762757745,
+      "links": []
+    }
+  ]
+}

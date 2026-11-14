@@ -1,0 +1,35 @@
+{
+  "id": 6056,
+  "slug": "md-edit-65fd72a33f",
+  "name": "MD-Edit",
+  "mentions": [
+    {
+      "name": "MD-Edit",
+      "description": "A free WYSIWYG markdown editor that stores documents locally in IndexedDB to keep them as private as possible, with no sign-up, tracking, or network calls beyond an update-check toast and a feedback form. Users open the URL and drag-and-drop or paste content into the WYSIWYG view to get readable, editable markdown; copying from rich-text mode yields raw markdown and pasting converts markdown back the other way. An optional low-cost cloud-sync feature is in development.",
+      "problem": "The author was sick of getting cross-eyed looking at tables in raw markdown, and initially built the tool for local personal use before realizing it might be useful to others.",
+      "audience": null,
+      "builder_usernames": [
+        "consumer451"
+      ],
+      "source_excerpt": "I just launched a free wysiwyg markdown editor. It currently uses only IndexedDB for storage making it as private as possible. The only network calls are polling for the \"click to update\" toast, and the feedback form.\n\nI was sick of getting cross-eyed when looking at tables in raw markdown and was just running it locally. This weekend I realized it might be useful for others.\n\nThe goal was simple as possible UX. Open url, drag and drop or paste into wysiwyg -> very readable and editable markdown. No sign up, no tracking, no fuss.",
+      "evidence": [
+        {
+          "source_item_id": 47309194,
+          "source_field": "body",
+          "value": "I just launched a free wysiwyg markdown editor. It currently uses only IndexedDB for storage making it as private as possible. The only network calls are polling for the \"click to update\" toast, and the feedback form.\n\nI was sick of getting cross-eyed when looking at tables in raw markdown and was just running it locally. This weekend I realized it might be useful for others.\n\nThe goal was simple as possible UX. Open url, drag and drop or paste into wysiwyg -> very readable and editable markdown. No sign up, no tracking, no fuss.",
+          "supports": [],
+          "author": "consumer451",
+          "shared_at": 1773064921,
+          "source_url": "https://news.ycombinator.com/item?id=47309194"
+        }
+      ],
+      "source_item_id": 47309194,
+      "source_url": "https://news.ycombinator.com/item?id=47309194",
+      "author": "consumer451",
+      "shared_at": 1773064921,
+      "links": [
+        "https://md-edit.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 10192,
+  "slug": "instantrows-5b0336f0e8",
+  "name": "instantrows",
+  "mentions": [
+    {
+      "name": "instantrows",
+      "description": "Browser-based, no-download tool for working with data exports: drop in CSV, JSON, Excel, or Parquet files, join them together, run quick aggregations, and share the results via a live link without needing a data engineer or a data warehouse.",
+      "problem": "Joining and sharing csv/json/excel/parquet exports is painful: Excel breaks, BI tools are overkill, and emailing final_v2.csv around is a nightmare.",
+      "audience": "People who regularly deal with data exports and need results without a data engineer or warehouse.",
+      "builder_usernames": [
+        "adulion"
+      ],
+      "source_excerpt": "i’m working on instantrows, basically trying to kill the pain of dealing with csv/json/excel/parquet exports when all you really want is to join them together, do some quick aggregations, and share the result without begging a data engineer or spinning up a whole warehouse.",
+      "evidence": [
+        {
+          "source_item_id": 45424209,
+          "source_field": "body",
+          "value": "i’m working on instantrows, basically trying to kill the pain of dealing with csv/json/excel/parquet exports when all you really want is to join them together, do some quick aggregations, and share the result without begging a data engineer or spinning up a whole warehouse.",
+          "supports": [],
+          "author": "adulion",
+          "shared_at": 1759231714,
+          "source_url": "https://news.ycombinator.com/item?id=45424209"
+        }
+      ],
+      "source_item_id": 45424209,
+      "source_url": "https://news.ycombinator.com/item?id=45424209",
+      "author": "adulion",
+      "shared_at": 1759231714,
+      "links": [
+        "https://instantrows.com"
+      ]
+    }
+  ]
+}

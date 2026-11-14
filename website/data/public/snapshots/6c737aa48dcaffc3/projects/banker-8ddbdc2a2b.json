@@ -1,0 +1,91 @@
+{
+  "id": 7143,
+  "slug": "banker-8ddbdc2a2b",
+  "name": "Banker",
+  "mentions": [
+    {
+      "name": "Banker",
+      "description": "AI-assisted platform for building internal tools, positioned as a Retool/Looker alternative. Lets non-technical teams build their own internal tools without creating busywork for engineers. Works like Lovable/Replit, with 3,000 integrations out of the box via the Pipedream SDK, plus access controls with embedded auth, a Django backend, and a database.",
+      "problem": "Internal tool building creates busywork for engineers; non-technical teams lack a way to build their own tools.",
+      "audience": "non-technical teams",
+      "builder_usernames": [
+        "warthog"
+      ],
+      "source_excerpt": "https://banker.so/ - Retool alternative through vibecoding\n\n- Building a Retool/Looker alternative for internal tools so non-technical teams can build their own without creating busywork for engineers. \n- Works like Lovable/Replit with two differences: Got 3,000 integrations out of the box through Pipedream SDK and got access controls in place with embedded auth, backend (django) and database",
+      "evidence": [
+        {
+          "source_item_id": 46978141,
+          "source_field": "body",
+          "value": "https://banker.so/ - Retool alternative through vibecoding\n\n- Building a Retool/Looker alternative for internal tools so non-technical teams can build their own without creating busywork for engineers. \n- Works like Lovable/Replit with two differences: Got 3,000 integrations out of the box through Pipedream SDK and got access controls in place with embedded auth, backend (django) and database",
+          "supports": [],
+          "author": "warthog",
+          "shared_at": 1770831779,
+          "source_url": "https://news.ycombinator.com/item?id=46978141"
+        }
+      ],
+      "source_item_id": 46978141,
+      "source_url": "https://news.ycombinator.com/item?id=46978141",
+      "author": "warthog",
+      "shared_at": 1770831779,
+      "links": [
+        "https://banker.so/"
+      ]
+    },
+    {
+      "name": "Banker",
+      "description": "An in-browser AI managed spreadsheet that extracts documents into spreadsheets and has access to the web, so users don't have to fetch information and type it into cells manually. It also supports analysis of the collected data.",
+      "problem": "Things the author wanted to analyse went nowhere because it was too tedious to fetch information and put it into a spreadsheet cell by cell.",
+      "audience": null,
+      "builder_usernames": [
+        "warthog"
+      ],
+      "source_excerpt": "Built an in-browser AI managed spreadsheet. https://banker.so/\n\nToo many things I wanted to analyse went to nothing because I was too lazy to fetch information and the put it inside a spreadsheet cell by cell. So I developed this to help me extract docs into spreadsheets while also having access to the web.",
+      "evidence": [
+        {
+          "source_item_id": 45885955,
+          "source_field": "body",
+          "value": "Built an in-browser AI managed spreadsheet. https://banker.so/\n\nToo many things I wanted to analyse went to nothing because I was too lazy to fetch information and the put it inside a spreadsheet cell by cell. So I developed this to help me extract docs into spreadsheets while also having access to the web.",
+          "supports": [],
+          "author": "warthog",
+          "shared_at": 1762857947,
+          "source_url": "https://news.ycombinator.com/item?id=45885955"
+        }
+      ],
+      "source_item_id": 45885955,
+      "source_url": "https://news.ycombinator.com/item?id=45885955",
+      "author": "warthog",
+      "shared_at": 1762857947,
+      "links": [
+        "https://banker.so/"
+      ]
+    },
+    {
+      "name": "Banker",
+      "description": "Banker is an AI spreadsheet built around spreadsheet understanding. It translates 2D sheet data models into formats an LLM can consume, implementing algorithms from Microsoft's SpreadsheetLLM paper to bridge the gap between LLMs trained on 1D text and 2D spreadsheets.",
+      "problem": "Existing AI spreadsheet products, mostly plugins and MS Copilot, are bad at understanding spreadsheets because sheets are 2D data models while LLMs are trained on 1D text, making the translation a large context engineering task.",
+      "audience": null,
+      "builder_usernames": [
+        "warthog"
+      ],
+      "source_excerpt": "Banker (banker.so): An AI spreadsheet that excels at spreadsheet understanding (pun intended).",
+      "evidence": [
+        {
+          "source_item_id": 45420286,
+          "source_field": "body",
+          "value": "Banker (banker.so): An AI spreadsheet that excels at spreadsheet understanding (pun intended).",
+          "supports": [],
+          "author": "warthog",
+          "shared_at": 1759189836,
+          "source_url": "https://news.ycombinator.com/item?id=45420286"
+        }
+      ],
+      "source_item_id": 45420286,
+      "source_url": "https://news.ycombinator.com/item?id=45420286",
+      "author": "warthog",
+      "shared_at": 1759189836,
+      "links": [
+        "https://banker.so"
+      ]
+    }
+  ]
+}

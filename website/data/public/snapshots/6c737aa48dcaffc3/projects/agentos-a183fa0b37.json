@@ -1,0 +1,91 @@
+{
+  "id": 7560,
+  "slug": "agentos-a183fa0b37",
+  "name": "AgentOS",
+  "mentions": [
+    {
+      "name": "AgentOS",
+      "description": "A deterministic, event-sourced runtime for agent worlds (agent substrates/sandboxes) that is fully replayable from its log. Heavy logic runs in sandboxed WASM modules, and every real-world side effect (HTTP, LLM calls, code compilations, etc.) is explicitly capability-gated and recorded as signed receipts, keeping upgrades and automations auditable, reversible, and composable. A small typed control-plane intermediate representation (AIR) treats the system's own schemas, modules, plans, and policies as data, enabling reliable, governed self-modification via a propose > shadow-run > approve > apply loop.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "lukebuehler"
+      ],
+      "source_excerpt": "I’m building AgentOS [1], trying to experiment where agent substrates/sandboxes will head next. It's a deterministic, event-sourced runtime where an “agent world” is replayable from its log, heavy logic runs in sandboxed WASM modules, and every real-world side effect (HTTP, LLM calls, code compilations, etc.) is explicitly capability-gated and recorded as signed receipts.",
+      "evidence": [
+        {
+          "source_item_id": 46578312,
+          "source_field": "body",
+          "value": "I’m building AgentOS [1], trying to experiment where agent substrates/sandboxes will head next. It's a deterministic, event-sourced runtime where an “agent world” is replayable from its log, heavy logic runs in sandboxed WASM modules, and every real-world side effect (HTTP, LLM calls, code compilations, etc.) is explicitly capability-gated and recorded as signed receipts.",
+          "supports": [],
+          "author": "lukebuehler",
+          "shared_at": 1768156520,
+          "source_url": "https://news.ycombinator.com/item?id=46578312"
+        }
+      ],
+      "source_item_id": 46578312,
+      "source_url": "https://news.ycombinator.com/item?id=46578312",
+      "author": "lukebuehler",
+      "shared_at": 1768156520,
+      "links": [
+        "https://github.com/smartcomputer-ai/agent-os"
+      ]
+    },
+    {
+      "name": "Agent OS",
+      "description": "This agent runtime is designed to ensure that all I/O effects performed by an AI agent are capability-bound and validated by policies, while also allowing the agent to modify itself.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "lukebuehler"
+      ],
+      "source_excerpt": "I came to the same realization a while ago and started building an agent runtime designed to ensure all (I/O) effects are capability bound and validated by policies, while also allowing the agent to modify itself.\n\nhttps://github.com/smartcomputer-ai/agent-os/",
+      "evidence": [
+        {
+          "source_item_id": 46271334,
+          "source_field": "body",
+          "value": "I came to the same realization a while ago and started building an agent runtime designed to ensure all (I/O) effects are capability bound and validated by policies, while also allowing the agent to modify itself.\n\nhttps://github.com/smartcomputer-ai/agent-os/",
+          "supports": [],
+          "author": "lukebuehler",
+          "shared_at": 1765782925,
+          "source_url": "https://news.ycombinator.com/item?id=46271334"
+        }
+      ],
+      "source_item_id": 46271334,
+      "source_url": "https://news.ycombinator.com/item?id=46271334",
+      "author": "lukebuehler",
+      "shared_at": 1765782925,
+      "links": [
+        "https://github.com/smartcomputer-ai/agent-os/"
+      ]
+    },
+    {
+      "name": "AgentOS",
+      "description": "AgentOS is a low-level, lisp-machine inspired runtime for AI agents. Agents can safely propose, simulate, and apply changes to their own code, policies, and workflows under governance, with full audit trails: every external action produces a signed receipt and every state change is replayable from an event log.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "lukebuehler"
+      ],
+      "source_excerpt": "AgentOS is a lisp-machine inspired runtime where agents can safely propose, simulate, and apply changes to their own code, policies, and workflows, all under governance, with full audit trails. Every external action produces a signed receipt. Every state change is replayable from an event log.",
+      "evidence": [
+        {
+          "source_item_id": 45873377,
+          "source_field": "body",
+          "value": "AgentOS is a lisp-machine inspired runtime where agents can safely propose, simulate, and apply changes to their own code, policies, and workflows, all under governance, with full audit trails. Every external action produces a signed receipt. Every state change is replayable from an event log.",
+          "supports": [],
+          "author": "lukebuehler",
+          "shared_at": 1762759831,
+          "source_url": "https://news.ycombinator.com/item?id=45873377"
+        }
+      ],
+      "source_item_id": 45873377,
+      "source_url": "https://news.ycombinator.com/item?id=45873377",
+      "author": "lukebuehler",
+      "shared_at": 1762759831,
+      "links": [
+        "https://github.com/smartcomputer-ai/agent-os/"
+      ]
+    }
+  ]
+}

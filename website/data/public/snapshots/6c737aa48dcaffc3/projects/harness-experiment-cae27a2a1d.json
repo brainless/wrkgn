@@ -1,0 +1,36 @@
+{
+  "id": 3605,
+  "slug": "harness-experiment-cae27a2a1d",
+  "name": "harness-experiment",
+  "mentions": [
+    {
+      "name": "harness-experiment",
+      "description": "An experiment in coding harness self-improvement: an inner LLM (raw LLM request) paired with a harness solves coding tasks, while an outer agent such as Claude or Codex proposes changes to the harness. The infrastructure around the self-improvement loop is being improved to increase signal-to-noise ratio per experiment and generalized beyond terminal bench tasks to collect data across models, comparing harness-bound vs model-bound performance.",
+      "problem": "The author realized the self-improvement everyone talks about is fundamentally an experiment design problem, and is improving the loop's infrastructure to increase signal-to-noise ratio per experiment.",
+      "audience": null,
+      "builder_usernames": [
+        "megadragon9"
+      ],
+      "source_excerpt": "I'm also looking into coding harness self-improvement [2]. An inner LLM (raw LLM request) + harness solves coding tasks, an outer agent like Claude or Codex that proposes harness changes.",
+      "evidence": [
+        {
+          "source_item_id": 48531694,
+          "source_field": "body",
+          "value": "I'm also looking into coding harness self-improvement [2]. An inner LLM (raw LLM request) + harness solves coding tasks, an outer agent like Claude or Codex that proposes harness changes.",
+          "supports": [],
+          "author": "megadragon9",
+          "shared_at": 1781465581,
+          "source_url": "https://news.ycombinator.com/item?id=48531694"
+        }
+      ],
+      "source_item_id": 48531694,
+      "source_url": "https://news.ycombinator.com/item?id=48531694",
+      "author": "megadragon9",
+      "shared_at": 1781465581,
+      "links": [
+        "https://github.com/workofart/harness-experiment",
+        "https://www.henrypan.com/blog/2026-05-25-self-improvement-harness/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 6928,
+  "slug": "bitnet-sovereign-edge-model-state-of-utopia-0ab7fe079e",
+  "name": "Bitnet sovereign edge model (State of Utopia)",
+  "mentions": [
+    {
+      "name": "Bitnet sovereign edge model (State of Utopia)",
+      "description": "This project fine-tunes Bitnet, an older 1 GB model, into a sovereign model that can run on the edge. The base model was ported from the original C++ and Python to run in webGPU, where it is already fast, and a 30-hour training run is underway on simple hardware through webGPU so that no trust or installation is required. Browser-based tools are being developed so citizens can easily further fine-tune the model straight from their browser.",
+      "problem": null,
+      "audience": "Citizens of the State of Utopia, who are meant to further fine-tune and run the model from their browsers.",
+      "builder_usernames": [
+        "logicallee"
+      ],
+      "source_excerpt": "The State of Utopia[1] is currently fine-tuning an older 1 GB model called Bitnet, so that we have something beginning to have the shape of a sovereign model that can run on the edge. We think having model sovereignty is important for our citizens, and we are working on tools for them to easily further fine-tune the model straight from their browser. We are currently running a 30-hour training run on some simple hardware and through webGPU, so that no trust or installation is required.",
+      "evidence": [
+        {
+          "source_item_id": 46943911,
+          "source_field": "body",
+          "value": "The State of Utopia[1] is currently fine-tuning an older 1 GB model called Bitnet, so that we have something beginning to have the shape of a sovereign model that can run on the edge. We think having model sovereignty is important for our citizens, and we are working on tools for them to easily further fine-tune the model straight from their browser. We are currently running a 30-hour training run on some simple hardware and through webGPU, so that no trust or installation is required.",
+          "supports": [],
+          "author": "logicallee",
+          "shared_at": 1770634901,
+          "source_url": "https://news.ycombinator.com/item?id=46943911"
+        }
+      ],
+      "source_item_id": 46943911,
+      "source_url": "https://news.ycombinator.com/item?id=46943911",
+      "author": "logicallee",
+      "shared_at": 1770634901,
+      "links": []
+    }
+  ]
+}

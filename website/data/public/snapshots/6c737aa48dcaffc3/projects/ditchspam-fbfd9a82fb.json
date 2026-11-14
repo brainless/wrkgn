@@ -1,0 +1,35 @@
+{
+  "id": 7546,
+  "slug": "ditchspam-fbfd9a82fb",
+  "name": "DitchSpam",
+  "mentions": [
+    {
+      "name": "DitchSpam",
+      "description": "This service generates temporary phone numbers (1-30 day validity) specifically for enquiry and quote forms. Users give out the temp number instead of their real one, receive calls and SMS in a dashboard, and the number auto-expires so telemarketers hit a dead end — preventing contact data from being sold into telemarketing databases.",
+      "problem": "Filling out quote forms (insurance, home services, loans, B2B demos) feeds your number into lead-selling ecosystems, resulting in 5-50 spam calls per day that DND and Truecaller can't block because they come from real call-center numbers.",
+      "audience": "Anyone in the US, UK, or Canada who fills out high-intent forms (insurance, home services, loans, B2B demos) and wants to avoid the spam-call spiral that follows.",
+      "builder_usernames": [
+        "ayush_poddar"
+      ],
+      "source_excerpt": "Building DitchSpam (https://ditchspam.com) - temporary phone numbers specifically for enquiry forms.\nThe problem: every time you fill out a quote form (insurance, home services, loans, B2B demos), your number enters a lead-selling ecosystem.",
+      "evidence": [
+        {
+          "source_item_id": 46589582,
+          "source_field": "body",
+          "value": "Building DitchSpam (https://ditchspam.com) - temporary phone numbers specifically for enquiry forms.\nThe problem: every time you fill out a quote form (insurance, home services, loans, B2B demos), your number enters a lead-selling ecosystem.",
+          "supports": [],
+          "author": "ayush_poddar",
+          "shared_at": 1768230844,
+          "source_url": "https://news.ycombinator.com/item?id=46589582"
+        }
+      ],
+      "source_item_id": 46589582,
+      "source_url": "https://news.ycombinator.com/item?id=46589582",
+      "author": "ayush_poddar",
+      "shared_at": 1768230844,
+      "links": [
+        "https://ditchspam.com"
+      ]
+    }
+  ]
+}

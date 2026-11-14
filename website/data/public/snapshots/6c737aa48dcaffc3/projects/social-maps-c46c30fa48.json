@@ -1,0 +1,37 @@
+{
+  "id": 4560,
+  "slug": "social-maps-c46c30fa48",
+  "name": "Social Maps",
+  "mentions": [
+    {
+      "name": "Social Maps",
+      "description": "A user reviews and ratings service for points-of-interest (e.g. cafes, museums, shops) in the OpenStreetMap database. It is a CRUD app with OpenStreetMap-specific features such as logging in with OpenStreetMap and querying places by their OSM metadata, and offers docs, an OpenAPI-spec API reference, a demo app with the entire planet imported and queryable, and an early-stage Android SDK.",
+      "problem": "The lack of user reviews and ratings was a big pain point when trying to switch away from Google Maps and reduce reliance on Big Tech.",
+      "audience": "The service targets people looking to reduce reliance on Big Tech and switch away from Google Maps, needing reviews and ratings for places.",
+      "builder_usernames": [
+        "boramalper"
+      ],
+      "source_excerpt": "Social Maps: a user reviews and ratings service for points-of-interest (e.g. cafes) in OpenStreetMap.",
+      "evidence": [
+        {
+          "source_item_id": 48087783,
+          "source_field": "body",
+          "value": "Social Maps: a user reviews and ratings service for points-of-interest (e.g. cafes) in OpenStreetMap.",
+          "supports": [],
+          "author": "boramalper",
+          "shared_at": 1778445795,
+          "source_url": "https://news.ycombinator.com/item?id=48087783"
+        }
+      ],
+      "source_item_id": 48087783,
+      "source_url": "https://news.ycombinator.com/item?id=48087783",
+      "author": "boramalper",
+      "shared_at": 1778445795,
+      "links": [
+        "https://app.socialmaps.org/",
+        "https://codeberg.org/socialmaps",
+        "https://docs.socialmaps.org/"
+      ]
+    }
+  ]
+}

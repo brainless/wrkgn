@@ -1,0 +1,35 @@
+{
+  "id": 9063,
+  "slug": "postgres-seren-replicator-aec59f8314",
+  "name": "postgres-seren-replicator",
+  "mentions": [
+    {
+      "name": "postgres-seren-replicator",
+      "description": "A Postgres database replication application written in Rust (built with Claude's help) that can replicate between any Postgres databases; developed for Seren but usable generally.",
+      "problem": "Database replication and subscription between Postgres databases can be brittle.",
+      "audience": null,
+      "builder_usernames": [
+        "taariqlewis"
+      ],
+      "source_excerpt": "So, I started working with Claude on building a postgres database replication application. I'm learning Postgres internals as well as how brittle database replication and subscription can really be. Although this is for Seren, you can replicate between any PG databases.",
+      "evidence": [
+        {
+          "source_item_id": 45872791,
+          "source_field": "body",
+          "value": "So, I started working with Claude on building a postgres database replication application. I'm learning Postgres internals as well as how brittle database replication and subscription can really be. Although this is for Seren, you can replicate between any PG databases.",
+          "supports": [],
+          "author": "taariqlewis",
+          "shared_at": 1762753071,
+          "source_url": "https://news.ycombinator.com/item?id=45872791"
+        }
+      ],
+      "source_item_id": 45872791,
+      "source_url": "https://news.ycombinator.com/item?id=45872791",
+      "author": "taariqlewis",
+      "shared_at": 1762753071,
+      "links": [
+        "https://github.com/serenorg/postgres-seren-replicator"
+      ]
+    }
+  ]
+}

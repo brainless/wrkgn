@@ -1,0 +1,35 @@
+{
+  "id": 6657,
+  "slug": "as-notes-54847d28ca",
+  "name": "AS Notes",
+  "mentions": [
+    {
+      "name": "AS Notes",
+      "description": "A VS Code extension that brings Logseq/Obsidian-style personal knowledge management into the editor. It implements [[wikilinking]] with autocomplete and automatic page creation, a backlinks panel, page aliases via YAML front matter, a templated daily journal, and task management built on markdown checkboxes with a workspace-wide Tasks panel. Notes stay as plain local .md files under Git version control, indexed by a WASM-powered local SQLite database, with no cloud sync, telemetry, or accounts.",
+      "problem": "People who live in VS Code have to manage their notes in separate apps, dealing with Electron wrappers, separate tools, and syncing headaches.",
+      "audience": "People who already work in VS Code and want to keep personal notes and knowledge management in their existing editor.",
+      "builder_usernames": [
+        "gbro3n"
+      ],
+      "source_excerpt": "A PKMS (Personal Knowledge Management System) VS Code extension - \"AS Notes\"\n\nhttps://www.appsoftware.com/products/knowledge-management/as-notes\n\nIt implements [[wikilinking]], backlinking, task management into VS Code. The idea is to bring Logseq / Obsidian capability to VS Code.",
+      "evidence": [
+        {
+          "source_item_id": 47308345,
+          "source_field": "body",
+          "value": "A PKMS (Personal Knowledge Management System) VS Code extension - \"AS Notes\"\n\nhttps://www.appsoftware.com/products/knowledge-management/as-notes\n\nIt implements [[wikilinking]], backlinking, task management into VS Code. The idea is to bring Logseq / Obsidian capability to VS Code.",
+          "supports": [],
+          "author": "gbro3n",
+          "shared_at": 1773060413,
+          "source_url": "https://news.ycombinator.com/item?id=47308345"
+        }
+      ],
+      "source_item_id": 47308345,
+      "source_url": "https://news.ycombinator.com/item?id=47308345",
+      "author": "gbro3n",
+      "shared_at": 1773060413,
+      "links": [
+        "https://www.appsoftware.com/products/knowledge-management/as-notes"
+      ]
+    }
+  ]
+}

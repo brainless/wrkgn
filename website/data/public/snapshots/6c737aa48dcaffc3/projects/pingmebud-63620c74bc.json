@@ -1,0 +1,35 @@
+{
+  "id": 6066,
+  "slug": "pingmebud-63620c74bc",
+  "name": "pingmebud",
+  "mentions": [
+    {
+      "name": "pingmebud",
+      "description": "A macOS meeting-monitoring app that lets users join a meeting, hit start, and step away to do other work. It listens locally with Whisper and sends a native macOS notification with context when someone says the user's name or any configured keywords, so the user can jump back in without looking lost. It runs 100% locally and doesn't leave traces.",
+      "problem": "Meeting fatigue: attending many meetings only 'just in case someone has a question' and needing a safe way to not pay attention to them.",
+      "audience": "People who sit in many meetings and want to step away or focus on other work without missing when they're called on",
+      "builder_usernames": [
+        "spaceman3"
+      ],
+      "source_excerpt": "The idea is: you join a meeting, hit start on the app, minimize, and go do actual work (or go make a coffee). When someone says your name or any keyword(s) you set, you get a native macOS notification with enough context to jump back in without looking lost. It uses whisper and is 100% local and doesnt leave traces",
+      "evidence": [
+        {
+          "source_item_id": 47306864,
+          "source_field": "body",
+          "value": "The idea is: you join a meeting, hit start on the app, minimize, and go do actual work (or go make a coffee). When someone says your name or any keyword(s) you set, you get a native macOS notification with enough context to jump back in without looking lost. It uses whisper and is 100% local and doesnt leave traces",
+          "supports": [],
+          "author": "spaceman3",
+          "shared_at": 1773049965,
+          "source_url": "https://news.ycombinator.com/item?id=47306864"
+        }
+      ],
+      "source_item_id": 47306864,
+      "source_url": "https://news.ycombinator.com/item?id=47306864",
+      "author": "spaceman3",
+      "shared_at": 1773049965,
+      "links": [
+        "https://pingmebud.com"
+      ]
+    }
+  ]
+}

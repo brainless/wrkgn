@@ -1,0 +1,35 @@
+{
+  "id": 10809,
+  "slug": "easel-44e56a6f79",
+  "name": "Easel",
+  "mentions": [
+    {
+      "name": "Easel",
+      "description": "A programming language that teaches teenagers to code by making multiplayer games. Multiplayer is fully automatic: games are coded like singleplayer projects and can be switched to multiplayer with no extra work. It uses rollback netcode for low latency across continents, and a matching system described as a mix of Roblox and Scratch. Region affinity is being implemented so players aren't all placed in one shared world.",
+      "problem": "Making multiplayer games is traditionally difficult, so the project automates it completely; latency across continents is handled with rollback netcode, but the game world is currently too large to put everyone in the same game, motivating region affinity.",
+      "audience": "Teenagers learning to code, who can play the games they make with their friends",
+      "builder_usernames": [
+        "BSTRhino"
+      ],
+      "source_excerpt": "A programming language for teenagers to learn to code by making multiplayer games. I've spent 3 years making the multiplayer completely automatic so you can just code it like a singleplayer game, then flick a switch and it just works. My hope is that teenagers will find it more engaging if they can play their games with their friends. A bit like a combination of Roblox and Scratch.",
+      "evidence": [
+        {
+          "source_item_id": 43826720,
+          "source_field": "body",
+          "value": "A programming language for teenagers to learn to code by making multiplayer games. I've spent 3 years making the multiplayer completely automatic so you can just code it like a singleplayer game, then flick a switch and it just works. My hope is that teenagers will find it more engaging if they can play their games with their friends. A bit like a combination of Roblox and Scratch.",
+          "supports": [],
+          "author": "BSTRhino",
+          "shared_at": 1745878663,
+          "source_url": "https://news.ycombinator.com/item?id=43826720"
+        }
+      ],
+      "source_item_id": 43826720,
+      "source_url": "https://news.ycombinator.com/item?id=43826720",
+      "author": "BSTRhino",
+      "shared_at": 1745878663,
+      "links": [
+        "https://easel.games/about"
+      ]
+    }
+  ]
+}

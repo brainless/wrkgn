@@ -1,0 +1,35 @@
+{
+  "id": 4361,
+  "slug": "trainbot-ec9f46ce0c",
+  "name": "Trainbot",
+  "mentions": [
+    {
+      "name": "Trainbot",
+      "description": "A search engine for European night trains built around 'tips for trips': instead of searching a specific route on a specific date for prices, users provide a starting city and get recommended interesting trip ideas for any time in the future. It scrapes all relevant train providers, connects the scraped data for multi-city trip recommendations, and integrates day trains so trips are built more easily, with example routes such as Prague–Amsterdam, Berlin–Paris, and Zurich–Budapest.",
+      "problem": "There are many flight apps that provide trip-idea recommendations, but no train app does.",
+      "audience": null,
+      "builder_usernames": [
+        "druskacik"
+      ],
+      "source_excerpt": "European night trains search engine. The plan is not to provide the functionality where user searches for a specific route on a specific date and the engine returns prices. The plan is to provide \"tips for trips\", e.g. I provide a starting city and it will recommend me interesting trip ideas any time in the future.",
+      "evidence": [
+        {
+          "source_item_id": 48092260,
+          "source_field": "body",
+          "value": "European night trains search engine. The plan is not to provide the functionality where user searches for a specific route on a specific date and the engine returns prices. The plan is to provide \"tips for trips\", e.g. I provide a starting city and it will recommend me interesting trip ideas any time in the future.",
+          "supports": [],
+          "author": "druskacik",
+          "shared_at": 1778486324,
+          "source_url": "https://news.ycombinator.com/item?id=48092260"
+        }
+      ],
+      "source_item_id": 48092260,
+      "source_url": "https://news.ycombinator.com/item?id=48092260",
+      "author": "druskacik",
+      "shared_at": 1778486324,
+      "links": [
+        "https://trainbot.eu"
+      ]
+    }
+  ]
+}

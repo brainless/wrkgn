@@ -1,0 +1,33 @@
+{
+  "id": 7090,
+  "slug": "rxjs-vite-devtools-plugin-598ffa4430",
+  "name": "RxJS Vite DevTools Plugin",
+  "mentions": [
+    {
+      "name": "RxJS Vite DevTools Plugin",
+      "description": "This Vite plugin provides React DevTools-style visual debugging for RxJS. It parses and models the HMR process, stores the data as flatly as possible using a relation-first design, and aims to work for React developers first with possible Angular support later.",
+      "problem": "RxJS lacks devtools-caliber tooling, making it hard to recommend without a visual helper for debugging streams.",
+      "audience": "React and Angular developers using RxJS, including maintenance of existing codebases",
+      "builder_usernames": [
+        "hafley66"
+      ],
+      "source_excerpt": "RxJS vite plugin that operates in much the same way as react devtools and vite plugin, because I love rxjs but I cannot recommend it without that same calibur of tooling.",
+      "evidence": [
+        {
+          "source_item_id": 46939909,
+          "source_field": "body",
+          "value": "RxJS vite plugin that operates in much the same way as react devtools and vite plugin, because I love rxjs but I cannot recommend it without that same calibur of tooling.",
+          "supports": [],
+          "author": "hafley66",
+          "shared_at": 1770595365,
+          "source_url": "https://news.ycombinator.com/item?id=46939909"
+        }
+      ],
+      "source_item_id": 46939909,
+      "source_url": "https://news.ycombinator.com/item?id=46939909",
+      "author": "hafley66",
+      "shared_at": 1770595365,
+      "links": []
+    }
+  ]
+}

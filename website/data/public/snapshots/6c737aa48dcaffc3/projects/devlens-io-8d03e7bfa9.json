@@ -1,0 +1,36 @@
+{
+  "id": 3901,
+  "slug": "devlens-io-8d03e7bfa9",
+  "name": "devlens.io",
+  "mentions": [
+    {
+      "name": "devlens.io",
+      "description": "An open-source tool that automatically maps a codebase's dependencies and posts precise structural insights directly into GitHub PRs, providing hard context without hallucinations. An MCP/CLI counterpart is planned so graphical context and summaries can be supplied to LLMs and agents via MCP integration.",
+      "problem": "Code reviews and LLM/agent workflows lack precise structural codebase context, leading to hallucinations.",
+      "audience": null,
+      "builder_usernames": [
+        "shivang2607"
+      ],
+      "source_excerpt": "I am working on devlens.io , It automatically maps your codebase dependencies and drops precise structural insights directly into your GitHub PRs. No hallucinations, just hard context.",
+      "evidence": [
+        {
+          "source_item_id": 48537549,
+          "source_field": "body",
+          "value": "I am working on devlens.io , It automatically maps your codebase dependencies and drops precise structural insights directly into your GitHub PRs. No hallucinations, just hard context.",
+          "supports": [],
+          "author": "shivang2607",
+          "shared_at": 1781506777,
+          "source_url": "https://news.ycombinator.com/item?id=48537549"
+        }
+      ],
+      "source_item_id": 48537549,
+      "source_url": "https://news.ycombinator.com/item?id=48537549",
+      "author": "shivang2607",
+      "shared_at": 1781506777,
+      "links": [
+        "https://devlens.io",
+        "https://github.com/devlensio/devlensOSS"
+      ]
+    }
+  ]
+}

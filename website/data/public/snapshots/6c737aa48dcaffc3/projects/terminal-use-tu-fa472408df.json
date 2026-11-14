@@ -1,0 +1,63 @@
+{
+  "id": 4501,
+  "slug": "terminal-use-tu-fa472408df",
+  "name": "terminal-use (tu)",
+  "mentions": [
+    {
+      "name": "terminal-use (tu)",
+      "description": "A full-blown terminal emulator (\"tu\") built for coding agents, letting agents operate fully fledged TUI applications including multiple windows and mouse control. It works like tmux for coding agents, giving agents a closed feedback loop to apply changes and test them out themselves, useful for developing and debugging TUI applications.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "fb03"
+      ],
+      "source_excerpt": "I'm working on a full blown terminal emulator called \"terminal-use\", or \"tu\" in short, for coding agents. It allows agents to operate fully fledged TUI applications including multiple windows, mouse control, etc.",
+      "evidence": [
+        {
+          "source_item_id": 48094785,
+          "source_field": "body",
+          "value": "I'm working on a full blown terminal emulator called \"terminal-use\", or \"tu\" in short, for coding agents. It allows agents to operate fully fledged TUI applications including multiple windows, mouse control, etc.",
+          "supports": [],
+          "author": "fb03",
+          "shared_at": 1778506334,
+          "source_url": "https://news.ycombinator.com/item?id=48094785"
+        }
+      ],
+      "source_item_id": 48094785,
+      "source_url": "https://news.ycombinator.com/item?id=48094785",
+      "author": "fb03",
+      "shared_at": 1778506334,
+      "links": [
+        "https://github.com/flipbit03/terminal-use"
+      ]
+    },
+    {
+      "name": "tu (terminal use)",
+      "description": "This tool gives AI agents access to a full-blown virtual terminal so they can operate TUI (terminal user interface) applications, such as running and debugging apps inside multiplexers like zellij.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "fb03"
+      ],
+      "source_excerpt": "I'm working on `tu` (terminal use), which is a way to give agents access to a full blown virtual terminal to operate TUI apps",
+      "evidence": [
+        {
+          "source_item_id": 47744800,
+          "source_field": "body",
+          "value": "I'm working on `tu` (terminal use), which is a way to give agents access to a full blown virtual terminal to operate TUI apps",
+          "supports": [],
+          "author": "fb03",
+          "shared_at": 1776029789,
+          "source_url": "https://news.ycombinator.com/item?id=47744800"
+        }
+      ],
+      "source_item_id": 47744800,
+      "source_url": "https://news.ycombinator.com/item?id=47744800",
+      "author": "fb03",
+      "shared_at": 1776029789,
+      "links": [
+        "https://github.com/flipbit03/terminal-use"
+      ]
+    }
+  ]
+}

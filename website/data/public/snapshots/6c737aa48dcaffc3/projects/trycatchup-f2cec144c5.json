@@ -1,0 +1,35 @@
+{
+  "id": 5145,
+  "slug": "trycatchup-f2cec144c5",
+  "name": "TryCatchUp",
+  "mentions": [
+    {
+      "name": "TryCatchUp",
+      "description": "TryCatchUp is a Slack app that sits in project channels and monitors them for early signs of trouble: it flags blockers, delays, and scope creep, DMs the project lead when something needs attention, and sends a Friday digest covering decisions, blockers, accomplishments, and recent activity. It keeps a pinned Canvas updated so stakeholders can check status without asking in-thread, stays quiet when a channel is active and does lightweight check-ins when it goes quiet, and deactivates itself if a channel has been dead for 3+ weeks (warns first, waits 7 days, then removes itself). Free tier covers 2 channels with weekly digests; Pro is $29/mo.",
+      "problem": "Slack project channels can look fine until they aren't — real signal is buried in threads, stray blocker mentions, and a drop in channel activity, and someone ends up piecing status together by hand.",
+      "audience": "Project leads and stakeholders working in Slack project channels",
+      "builder_usernames": [
+        "stevenmays"
+      ],
+      "source_excerpt": "I built TryCatchUp: https://trycatchup.com",
+      "evidence": [
+        {
+          "source_item_id": 47754507,
+          "source_field": "body",
+          "value": "I built TryCatchUp: https://trycatchup.com",
+          "supports": [],
+          "author": "stevenmays",
+          "shared_at": 1776097862,
+          "source_url": "https://news.ycombinator.com/item?id=47754507"
+        }
+      ],
+      "source_item_id": 47754507,
+      "source_url": "https://news.ycombinator.com/item?id=47754507",
+      "author": "stevenmays",
+      "shared_at": 1776097862,
+      "links": [
+        "https://trycatchup.com"
+      ]
+    }
+  ]
+}

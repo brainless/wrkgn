@@ -1,0 +1,35 @@
+{
+  "id": 4091,
+  "slug": "fungible-7f42ab1b8a",
+  "name": "fungible",
+  "mentions": [
+    {
+      "name": "fungible",
+      "description": "A free, open-source, local-first personal finance app with a TUI (built with Ink) and a recently added Electron GUI. It syncs accounts via a hobbyist-tier Plaid account or CSV imports, and offers rules-based categorization, spending trends, and a FIRE/savings-rate health view. It includes an MCP server for chatting about finances through Claude/Cursor and a canvas feature where an agent builds custom financial calculators (e.g. amortization, compounding, what-ifs).",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tomfunk"
+      ],
+      "source_excerpt": "i've been working on a personal finance app. it started out strictly tui (using ink) but i recently added a gui using electron. i still like the tui but i know it's not for everyone.\n\nit's all free, open source, and local-first. you can get a hobbyist tier plaid account and sync your accounts, or use csvs. rules-based categorization, spending trends, FIRE/savings-rate health view, etc.\n\nthere's also an mcp server so you can hook it up to claude/cursor and just chat about your finances. and a \"canvas\" feature where you describe a financial question and an agent builds you a custom calculator for it (e.g. amortization, compounding, what-ifs).",
+      "evidence": [
+        {
+          "source_item_id": 48532598,
+          "source_field": "body",
+          "value": "i've been working on a personal finance app. it started out strictly tui (using ink) but i recently added a gui using electron. i still like the tui but i know it's not for everyone.\n\nit's all free, open source, and local-first. you can get a hobbyist tier plaid account and sync your accounts, or use csvs. rules-based categorization, spending trends, FIRE/savings-rate health view, etc.\n\nthere's also an mcp server so you can hook it up to claude/cursor and just chat about your finances. and a \"canvas\" feature where you describe a financial question and an agent builds you a custom calculator for it (e.g. amortization, compounding, what-ifs).",
+          "supports": [],
+          "author": "tomfunk",
+          "shared_at": 1781470618,
+          "source_url": "https://news.ycombinator.com/item?id=48532598"
+        }
+      ],
+      "source_item_id": 48532598,
+      "source_url": "https://news.ycombinator.com/item?id=48532598",
+      "author": "tomfunk",
+      "shared_at": 1781470618,
+      "links": [
+        "https://github.com/tomfunk/fungible"
+      ]
+    }
+  ]
+}

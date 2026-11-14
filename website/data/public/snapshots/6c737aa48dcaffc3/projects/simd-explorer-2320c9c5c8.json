@@ -1,0 +1,63 @@
+{
+  "id": 7427,
+  "slug": "simd-explorer-2320c9c5c8",
+  "name": "simd_explorer",
+  "mentions": [
+    {
+      "name": "simd_explorer",
+      "description": "A TUI app for interactively running different SIMD instructions and seeing their outputs, usable as an interactive quick reference guide for SIMD instructions. It supports AVX/AVX2, works on Windows and Linux, and with the right environment variables can run as AMD64 on an Apple M chip; Arm NEON instructions are not supported.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "fmstephe"
+      ],
+      "source_excerpt": "https://github.com/fmstephe/simd_explorer\n\nA little TUI app for interactively running different SIMD instructions and seeing the outputs.",
+      "evidence": [
+        {
+          "source_item_id": 46955280,
+          "source_field": "body",
+          "value": "https://github.com/fmstephe/simd_explorer\n\nA little TUI app for interactively running different SIMD instructions and seeing the outputs.",
+          "supports": [],
+          "author": "fmstephe",
+          "shared_at": 1770696617,
+          "source_url": "https://news.ycombinator.com/item?id=46955280"
+        }
+      ],
+      "source_item_id": 46955280,
+      "source_url": "https://news.ycombinator.com/item?id=46955280",
+      "author": "fmstephe",
+      "shared_at": 1770696617,
+      "links": [
+        "https://github.com/fmstephe/simd_explorer"
+      ]
+    },
+    {
+      "name": "simd_explorer",
+      "description": "A TUI tool that demonstrates the behavior of X86 SIMD (AVX/AVX2) instructions, implemented in Go assembly. Users set inputs for a SIMD instruction and read the resulting outputs to understand how each instruction works; it is intended to support text processing work and studying code that uses SIMD.",
+      "problem": "Reading and understanding a swiss map implementation was difficult because the SIMD instructions were challenging to grasp and the documentation felt hard to read; an interactive tool for setting inputs and reading outputs made understanding the instructions much easier.",
+      "audience": "Go programmers",
+      "builder_usernames": [
+        "fmstephe"
+      ],
+      "source_excerpt": "Working on a TUI tool which demonstrates the behaviour of X86 SIMD instructions. This is all done in Go assembly, and is probably most valuable for Go programmers.",
+      "evidence": [
+        {
+          "source_item_id": 46268176,
+          "source_field": "body",
+          "value": "Working on a TUI tool which demonstrates the behaviour of X86 SIMD instructions. This is all done in Go assembly, and is probably most valuable for Go programmers.",
+          "supports": [],
+          "author": "fmstephe",
+          "shared_at": 1765754223,
+          "source_url": "https://news.ycombinator.com/item?id=46268176"
+        }
+      ],
+      "source_item_id": 46268176,
+      "source_url": "https://news.ycombinator.com/item?id=46268176",
+      "author": "fmstephe",
+      "shared_at": 1765754223,
+      "links": [
+        "https://github.com/fmstephe/simd_explorer"
+      ]
+    }
+  ]
+}

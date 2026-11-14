@@ -1,0 +1,36 @@
+{
+  "id": 9012,
+  "slug": "strot-6ce083ff6c",
+  "name": "Strot",
+  "mentions": [
+    {
+      "name": "Strot",
+      "description": "An AI agent that reverse-engineers website APIs for scraping. Instead of DOM scraping, it intercepts AJAX calls and uses visual analysis plus fuzzy matching to identify the API endpoint that returns the desired data, enabling direct API-based scraping of things like product reviews and paginated listing data. It is in production use with a couple of clients.",
+      "problem": "Existing AI scrapers either didn't work or were very slow and costly: scraping a product with 1000 reviews takes 10+ minutes with Playwright and costs $10 with LLM scrapers, whereas Strot does it in 10 seconds via direct API calls.",
+      "audience": null,
+      "builder_usernames": [
+        "kgritesh"
+      ],
+      "source_excerpt": "Working on Strot - an AI agent that reverse-engineers website APIs for scraping.\n\nInstead of DOM scraping, it intercepts AJAX calls and figures out which API endpoint gives you the data you need.",
+      "evidence": [
+        {
+          "source_item_id": 45875790,
+          "source_field": "body",
+          "value": "Working on Strot - an AI agent that reverse-engineers website APIs for scraping.\n\nInstead of DOM scraping, it intercepts AJAX calls and figures out which API endpoint gives you the data you need.",
+          "supports": [],
+          "author": "kgritesh",
+          "shared_at": 1762781273,
+          "source_url": "https://news.ycombinator.com/item?id=45875790"
+        }
+      ],
+      "source_item_id": 45875790,
+      "source_url": "https://news.ycombinator.com/item?id=45875790",
+      "author": "kgritesh",
+      "shared_at": 1762781273,
+      "links": [
+        "https://blog.vertexcover.io/strot-is-a-api-scraper",
+        "https://github.com/vertexcover-io/strot"
+      ]
+    }
+  ]
+}

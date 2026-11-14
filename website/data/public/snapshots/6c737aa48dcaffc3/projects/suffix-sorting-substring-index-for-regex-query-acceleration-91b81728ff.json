@@ -1,0 +1,33 @@
+{
+  "id": 10408,
+  "slug": "suffix-sorting-substring-index-for-regex-query-acceleration-91b81728ff",
+  "name": "Suffix-sorting substring index for regex query acceleration",
+  "mentions": [
+    {
+      "name": "Suffix-sorting substring index for regex query acceleration",
+      "description": "A suffix-sorting substring index built to accelerate regex-based scanning queries over terabyte-scale collections of short string records. Unlike generalized suffix tree approaches that concatenate all strings into one giant string, it handles many small independent records with a slightly simpler structure and harder search, achieving indexing throughput in the GBps for the sorting part. Its output is a 4n or 8n-sized set of integers that can feed into compressed rank/select structures (e.g., Roaring Bitmaps) for space/indexing-time/retrieval-time tradeoffs. Currently at proof-of-concept stage, with details still being written up and a potential Show HN post planned.",
+      "problem": "A terabyte of short string records is regularly scanned with regexes to develop classification criteria, and conventional suffix-indexing approaches have big throughput constants at that scale.",
+      "audience": null,
+      "builder_usernames": [
+        "kwillets"
+      ],
+      "source_excerpt": "I came up with a suffix-sorting index for this domain that's interestingly simple. Most algos for this use a generalized suffix tree that's built by concatenating all the strings into one giant string and feeding it into a conventional suffix sort, but that has some big constants on the indexing throughput, due I think to the overhead of handling one giant string instead of a bunch of small independent records.\n\nIn the latter case, by making the structure slightly simpler and search slightly harder, I can get indexing throughput in the GBps, at least for the sorting part.",
+      "evidence": [
+        {
+          "source_item_id": 44706256,
+          "source_field": "body",
+          "value": "I came up with a suffix-sorting index for this domain that's interestingly simple. Most algos for this use a generalized suffix tree that's built by concatenating all the strings into one giant string and feeding it into a conventional suffix sort, but that has some big constants on the indexing throughput, due I think to the overhead of handling one giant string instead of a bunch of small independent records.\n\nIn the latter case, by making the structure slightly simpler and search slightly harder, I can get indexing throughput in the GBps, at least for the sorting part.",
+          "supports": [],
+          "author": "kwillets",
+          "shared_at": 1753665237,
+          "source_url": "https://news.ycombinator.com/item?id=44706256"
+        }
+      ],
+      "source_item_id": 44706256,
+      "source_url": "https://news.ycombinator.com/item?id=44706256",
+      "author": "kwillets",
+      "shared_at": 1753665237,
+      "links": []
+    }
+  ]
+}

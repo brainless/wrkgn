@@ -1,0 +1,35 @@
+{
+  "id": 8199,
+  "slug": "llm-archive-downloader-e4d0737067",
+  "name": "LLM Archive Downloader",
+  "mentions": [
+    {
+      "name": "LLM Archive Downloader",
+      "description": "An open-source command-line script that downloads and archives open-source AI models locally in one command. Users pick models such as Llama, Mistral, DeepSeek, and Whisper, storing about 200GB for the full set or ~40GB for the essentials, so the models remain available offline.",
+      "problem": "Open-source models could potentially disappear due to licensing changes or restrictions, leaving no local copies.",
+      "audience": null,
+      "builder_usernames": [
+        "halfinney"
+      ],
+      "source_excerpt": "LLM Archive Downloader. Got paranoid one night about open-source models potentially disappearing (licensing changes, restrictions, who knows). So I built a script to download and archive them locally. One command, pick what you want — Llama, Mistral, DeepSeek, Whisper, the works. ~200GB total or grab the essentials (~40GB).",
+      "evidence": [
+        {
+          "source_item_id": 46271081,
+          "source_field": "body",
+          "value": "LLM Archive Downloader. Got paranoid one night about open-source models potentially disappearing (licensing changes, restrictions, who knows). So I built a script to download and archive them locally. One command, pick what you want — Llama, Mistral, DeepSeek, Whisper, the works. ~200GB total or grab the essentials (~40GB).",
+          "supports": [],
+          "author": "halfinney",
+          "shared_at": 1765779931,
+          "source_url": "https://news.ycombinator.com/item?id=46271081"
+        }
+      ],
+      "source_item_id": 46271081,
+      "source_url": "https://news.ycombinator.com/item?id=46271081",
+      "author": "halfinney",
+      "shared_at": 1765779931,
+      "links": [
+        "https://github.com/Ashwinsuriya/llm-archive-downloader"
+      ]
+    }
+  ]
+}

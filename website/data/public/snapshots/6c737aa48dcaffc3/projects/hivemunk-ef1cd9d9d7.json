@@ -1,0 +1,35 @@
+{
+  "id": 5673,
+  "slug": "hivemunk-ef1cd9d9d7",
+  "name": "hivemunk",
+  "mentions": [
+    {
+      "name": "hivemunk",
+      "description": "This app provides hive management for beekeepers, built around a virtual hive model of mutable state — boxes, frames, components, queens, and colonies that can be rearranged to mirror the physical yard — with treatments, feedings, and inspections layered on top. It is adding voice-driven inspections where narrating observations frame by frame is run through a speech-to-text and LLM pipeline that extracts structured data and maps it to the hive model.",
+      "problem": "A single hive inspection produces a lot of structured data, but there is nowhere useful to put it, and tapping through a mobile UI mid-inspection is impractical during a gloved, veiled, honey-and-propolis-covered activity.",
+      "audience": "Beekeepers who need a place to record the structured data produced by hive inspections.",
+      "builder_usernames": [
+        "jordanarseno"
+      ],
+      "source_excerpt": "hivemunk (hivemunk.com): hive management for beekeepers.",
+      "evidence": [
+        {
+          "source_item_id": 47746101,
+          "source_field": "body",
+          "value": "hivemunk (hivemunk.com): hive management for beekeepers.",
+          "supports": [],
+          "author": "jordanarseno",
+          "shared_at": 1776040312,
+          "source_url": "https://news.ycombinator.com/item?id=47746101"
+        }
+      ],
+      "source_item_id": 47746101,
+      "source_url": "https://news.ycombinator.com/item?id=47746101",
+      "author": "jordanarseno",
+      "shared_at": 1776040312,
+      "links": [
+        "https://hivemunk.com"
+      ]
+    }
+  ]
+}

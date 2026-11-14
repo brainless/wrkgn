@@ -1,0 +1,33 @@
+{
+  "id": 10449,
+  "slug": "anti-spam-bot-plugin-for-messengers-3d616afb82",
+  "name": "Anti-spam bot plugin for messengers",
+  "mentions": [
+    {
+      "name": "Anti-spam bot plugin for messengers",
+      "description": "An anti-spam bot plugin for messengers, starting with an MVP for Telegram. It uses a data pipeline that computes word-frequency weights ('small-language models'), performs morphological analysis of words across languages by porting the rule-based pymorphy2 library, relies on a DAWG data structure ported from C++ to Haskell, and includes a small language model built from a corpus of thousands of spam messages.",
+      "problem": "Spam is prevalent in messengers, and Telegram's business model makes it especially common there.",
+      "audience": null,
+      "builder_usernames": [
+        "swamp-agr"
+      ],
+      "source_excerpt": "Anti-spam bot plugin for messengers:\n\n- MVP version for Telegram (since spamming is a part of their business model, it feels natural to start with it)\n\n- More precisely, data pipeline for weights and measurements for word frequencies. Think of it as small-language models.",
+      "evidence": [
+        {
+          "source_item_id": 44776437,
+          "source_field": "body",
+          "value": "Anti-spam bot plugin for messengers:\n\n- MVP version for Telegram (since spamming is a part of their business model, it feels natural to start with it)\n\n- More precisely, data pipeline for weights and measurements for word frequencies. Think of it as small-language models.",
+          "supports": [],
+          "author": "swamp-agr",
+          "shared_at": 1754227528,
+          "source_url": "https://news.ycombinator.com/item?id=44776437"
+        }
+      ],
+      "source_item_id": 44776437,
+      "source_url": "https://news.ycombinator.com/item?id=44776437",
+      "author": "swamp-agr",
+      "shared_at": 1754227528,
+      "links": []
+    }
+  ]
+}

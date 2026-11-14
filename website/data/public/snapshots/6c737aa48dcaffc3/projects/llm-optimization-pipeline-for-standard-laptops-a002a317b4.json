@@ -1,0 +1,33 @@
+{
+  "id": 9208,
+  "slug": "llm-optimization-pipeline-for-standard-laptops-a002a317b4",
+  "name": "LLM optimization pipeline for standard laptops",
+  "mentions": [
+    {
+      "name": "LLM optimization pipeline for standard laptops",
+      "description": "An optimization pipeline for LLMs that enables large language models to run on a standard laptop; its first prototype ran an 80B model at full 256k context at 40 tokens/s while using only 14GB of RAM.",
+      "problem": "Large language models are too resource-heavy to run on a standard laptop.",
+      "audience": null,
+      "builder_usernames": [
+        "adam_patarino"
+      ],
+      "source_excerpt": "We developed a novel optimization pipeline for LLMs so large models can run on a standard laptop.\n\nOur first prototype optimized an 80B model to run at full 256k context at 40 tokens/s while only taking up 14gb of RAM.",
+      "evidence": [
+        {
+          "source_item_id": 45875557,
+          "source_field": "body",
+          "value": "We developed a novel optimization pipeline for LLMs so large models can run on a standard laptop.\n\nOur first prototype optimized an 80B model to run at full 256k context at 40 tokens/s while only taking up 14gb of RAM.",
+          "supports": [],
+          "author": "adam_patarino",
+          "shared_at": 1762779779,
+          "source_url": "https://news.ycombinator.com/item?id=45875557"
+        }
+      ],
+      "source_item_id": 45875557,
+      "source_url": "https://news.ycombinator.com/item?id=45875557",
+      "author": "adam_patarino",
+      "shared_at": 1762779779,
+      "links": []
+    }
+  ]
+}

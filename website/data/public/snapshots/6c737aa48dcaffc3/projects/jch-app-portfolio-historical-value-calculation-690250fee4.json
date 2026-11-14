@@ -1,0 +1,63 @@
+{
+  "id": 9395,
+  "slug": "jch-app-portfolio-historical-value-calculation-690250fee4",
+  "name": "jch.app portfolio historical value calculation",
+  "mentions": [
+    {
+      "name": "jch.app portfolio historical value calculation",
+      "description": "Portfolio app (jch.app) with work in progress on a correct and performant way to calculate the historical value of a portfolio. The calculation is being designed as a pure function that accounts for users editing holdings and securities splits, and the author is weighing a server-side vs client-side implementation, shifting from the current background jobs that fetch state toward a more functional, on-demand architecture.",
+      "problem": "Calculating historical portfolio value as a pure function where taking a date as input is insufficient because users can edit holdings and securities can split.",
+      "audience": null,
+      "builder_usernames": [
+        "jollyjerry"
+      ],
+      "source_excerpt": "Correct and performant way to calculate historical value of a portfolio. I want a pure function, but taking a date as input is insufficient because users can edit holdings, and securities can split.",
+      "evidence": [
+        {
+          "source_item_id": 45870689,
+          "source_field": "body",
+          "value": "Correct and performant way to calculate historical value of a portfolio. I want a pure function, but taking a date as input is insufficient because users can edit holdings, and securities can split.",
+          "supports": [],
+          "author": "jollyjerry",
+          "shared_at": 1762733750,
+          "source_url": "https://news.ycombinator.com/item?id=45870689"
+        }
+      ],
+      "source_item_id": 45870689,
+      "source_url": "https://news.ycombinator.com/item?id=45870689",
+      "author": "jollyjerry",
+      "shared_at": 1762733750,
+      "links": [
+        "https://jch.app"
+      ]
+    },
+    {
+      "name": "Financial independence tracker",
+      "description": "A financial independence tracking web app. Currently redesigning the investment holdings views for wider screens using Hotwire Turbo Frames, where lazy loading combined with CSS media queries displays more content on larger viewports. Styled with Tailwind CSS, prototyping designs with Tailwind and then slimming them back down with plain CSS.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jollyjerry"
+      ],
+      "source_excerpt": "Financial independence tracker. https://jch.app",
+      "evidence": [
+        {
+          "source_item_id": 45564135,
+          "source_field": "body",
+          "value": "Financial independence tracker. https://jch.app",
+          "supports": [],
+          "author": "jollyjerry",
+          "shared_at": 1760322385,
+          "source_url": "https://news.ycombinator.com/item?id=45564135"
+        }
+      ],
+      "source_item_id": 45564135,
+      "source_url": "https://news.ycombinator.com/item?id=45564135",
+      "author": "jollyjerry",
+      "shared_at": 1760322385,
+      "links": [
+        "https://jch.app"
+      ]
+    }
+  ]
+}

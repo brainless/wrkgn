@@ -1,0 +1,36 @@
+{
+  "id": 8829,
+  "slug": "t2-mapper-0e8c43a008",
+  "name": "T2 Mapper",
+  "mentions": [
+    {
+      "name": "T2 Mapper",
+      "description": "A web-based viewer and editor for Tribes 2 maps that translates mission object trees from Torque .mis files into a Three.js scene graph. It runs the same TorqueScript the game uses to load missions, from server.cs's CreateServer() onward, via a TorqueScript transpiler and runtime, aiming to match Tribes 2's rendering and support live editing of missions.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "exogen"
+      ],
+      "source_excerpt": "I'm now doing the same thing for Tribes 2 maps: trying to make a web-based map viewer and editor: https://exogen.github.io/t2-mapper/ (editing/creation part still in progress)",
+      "evidence": [
+        {
+          "source_item_id": 46267928,
+          "source_field": "body",
+          "value": "I'm now doing the same thing for Tribes 2 maps: trying to make a web-based map viewer and editor: https://exogen.github.io/t2-mapper/ (editing/creation part still in progress)",
+          "supports": [],
+          "author": "exogen",
+          "shared_at": 1765752231,
+          "source_url": "https://news.ycombinator.com/item?id=46267928"
+        }
+      ],
+      "source_item_id": 46267928,
+      "source_url": "https://news.ycombinator.com/item?id=46267928",
+      "author": "exogen",
+      "shared_at": 1765752231,
+      "links": [
+        "https://exogen.github.io/t2-mapper/",
+        "https://github.com/exogen/t2-mapper"
+      ]
+    }
+  ]
+}

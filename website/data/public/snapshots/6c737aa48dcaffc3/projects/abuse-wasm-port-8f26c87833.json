@@ -1,0 +1,35 @@
+{
+  "id": 3577,
+  "slug": "abuse-wasm-port-8f26c87833",
+  "name": "Abuse WASM port",
+  "mentions": [
+    {
+      "name": "Abuse WASM port",
+      "description": "One of the author's earlier projects that was automatically ported to WebAssembly, hosted at abuse-wasm.pages.dev.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tombert"
+      ],
+      "source_excerpt": "Unlike a few other things I've automatically gotten ported to WASM [1] [2], this one has proven to be a lot more difficult and required a bit more active labor on my end.",
+      "evidence": [
+        {
+          "source_item_id": 48534217,
+          "source_field": "body",
+          "value": "Unlike a few other things I've automatically gotten ported to WASM [1] [2], this one has proven to be a lot more difficult and required a bit more active labor on my end.",
+          "supports": [],
+          "author": "tombert",
+          "shared_at": 1781479731,
+          "source_url": "https://news.ycombinator.com/item?id=48534217"
+        }
+      ],
+      "source_item_id": 48534217,
+      "source_url": "https://news.ycombinator.com/item?id=48534217",
+      "author": "tombert",
+      "shared_at": 1781479731,
+      "links": [
+        "https://abuse-wasm.pages.dev/"
+      ]
+    }
+  ]
+}

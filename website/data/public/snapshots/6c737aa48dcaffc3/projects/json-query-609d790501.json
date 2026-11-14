@@ -1,0 +1,92 @@
+{
+  "id": 298,
+  "slug": "json-query-609d790501",
+  "name": "JSON Query",
+  "mentions": [
+    {
+      "name": "JSON Query",
+      "description": "A Mac App Store app for storing, organizing, and querying JSON using jq or natural language, with all data kept local so sensitive JSON stays on the machine.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "aggregator-ios"
+      ],
+      "source_excerpt": "JSON Query: https://jsonquery.app (https://apps.apple.com/us/app/json-query/id953006734)\n\nThe original JSON Query app on the Mac App Store. Store, organize and query all of your JSON with jq or natural language. All of your data stays local so sensitive JSON can stay on your machine.",
+      "evidence": [
+        {
+          "source_item_id": 50418197,
+          "source_field": "body",
+          "value": "JSON Query: https://jsonquery.app (https://apps.apple.com/us/app/json-query/id953006734)\n\nThe original JSON Query app on the Mac App Store. Store, organize and query all of your JSON with jq or natural language. All of your data stays local so sensitive JSON can stay on your machine.",
+          "supports": [],
+          "author": "aggregator-ios",
+          "shared_at": 1794177458,
+          "source_url": "https://news.ycombinator.com/item?id=50418197"
+        }
+      ],
+      "source_item_id": 50418197,
+      "source_url": "https://news.ycombinator.com/item?id=50418197",
+      "author": "aggregator-ios",
+      "shared_at": 1794177458,
+      "links": [
+        "https://apps.apple.com/us/app/json-query/id953006734",
+        "https://jsonquery.app"
+      ]
+    },
+    {
+      "name": "JSONQuery",
+      "description": "A web app for querying, storing, and organizing JSON files, with natural language querying so users don't need to learn another query language.",
+      "problem": "Users otherwise have to learn another query language to work with JSONs.",
+      "audience": null,
+      "builder_usernames": [
+        "aggregator-ios"
+      ],
+      "source_excerpt": "I'm building https://jsonquery.app to query, store, and organize JSONs, with natural language querying so you don't have to learn another query language.",
+      "evidence": [
+        {
+          "source_item_id": 47755985,
+          "source_field": "body",
+          "value": "I'm building https://jsonquery.app to query, store, and organize JSONs, with natural language querying so you don't have to learn another query language.",
+          "supports": [],
+          "author": "aggregator-ios",
+          "shared_at": 1776104595,
+          "source_url": "https://news.ycombinator.com/item?id=47755985"
+        }
+      ],
+      "source_item_id": 47755985,
+      "source_url": "https://news.ycombinator.com/item?id=47755985",
+      "author": "aggregator-ios",
+      "shared_at": 1776104595,
+      "links": [
+        "https://jsonquery.app"
+      ]
+    },
+    {
+      "name": "JSON Query",
+      "description": "This web app lets you store, categorize and query JSON using the jq query language directly in the browser. It is a complete remake of the author's earlier Mac App Store app of the same name, rebuilt around jq for its familiarity and power over a custom query language and released as a web app instead of a native Mac app.",
+      "problem": "The original app used a custom query language that was less powerful and less familiar than jq, and distribution through Apple's App Store was undesirable, so the project was rebuilt as a web app built on jq.",
+      "audience": null,
+      "builder_usernames": [
+        "aggregator-ios"
+      ],
+      "source_excerpt": "I’m working on JSON Query (https://jsonquery.app), a tool that lets you store, categorize and query JSON using jq in the browser.",
+      "evidence": [
+        {
+          "source_item_id": 43828851,
+          "source_field": "body",
+          "value": "I’m working on JSON Query (https://jsonquery.app), a tool that lets you store, categorize and query JSON using jq in the browser.",
+          "supports": [],
+          "author": "aggregator-ios",
+          "shared_at": 1745903486,
+          "source_url": "https://news.ycombinator.com/item?id=43828851"
+        }
+      ],
+      "source_item_id": 43828851,
+      "source_url": "https://news.ycombinator.com/item?id=43828851",
+      "author": "aggregator-ios",
+      "shared_at": 1745903486,
+      "links": [
+        "https://jsonquery.app"
+      ]
+    }
+  ]
+}

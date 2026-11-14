@@ -1,0 +1,35 @@
+{
+  "id": 4060,
+  "slug": "metal-sci-kernels-2f5ea0934d",
+  "name": "metal-sci-kernels",
+  "mentions": [
+    {
+      "name": "metal-sci-kernels",
+      "description": "A benchmark for LLMs that combines scientific computing tasks (n-body simulation, Monte Carlo, etc.) with Apple Metal GPU kernels evolved through LLMs, for evaluating model performance on scientific computing workloads.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "vicgalle_"
+      ],
+      "source_excerpt": "Lately, combining scientific computing tasks (n-body sim, Monte Carlo, etc) with Apple Metal GPU kernels (evolved through LLMs) led to a curious benchmark I believe: https://github.com/vicgalle/metal-sci-kernels",
+      "evidence": [
+        {
+          "source_item_id": 48530350,
+          "source_field": "body",
+          "value": "Lately, combining scientific computing tasks (n-body sim, Monte Carlo, etc) with Apple Metal GPU kernels (evolved through LLMs) led to a curious benchmark I believe: https://github.com/vicgalle/metal-sci-kernels",
+          "supports": [],
+          "author": "vicgalle_",
+          "shared_at": 1781459511,
+          "source_url": "https://news.ycombinator.com/item?id=48530350"
+        }
+      ],
+      "source_item_id": 48530350,
+      "source_url": "https://news.ycombinator.com/item?id=48530350",
+      "author": "vicgalle_",
+      "shared_at": 1781459511,
+      "links": [
+        "https://github.com/vicgalle/metal-sci-kernels"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 5935,
+  "slug": "claude-skill-that-reverse-engineers-websites-into-typescript-apis-f535170fc6",
+  "name": "Claude skill that reverse-engineers websites into TypeScript APIs",
+  "mentions": [
+    {
+      "name": "Claude skill that reverse-engineers websites into TypeScript APIs",
+      "description": "This Claude skill interacts with a website by pressing every button and intercepting every request and response, using that traffic to automatically build a TypeScript API for the site. It was used against Robinhood to enable automated trading without an official API.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dataviz1000"
+      ],
+      "source_excerpt": "I developed a Claude skill that will interact with and press every button intercepting every request / response on a website building a Typescript API.",
+      "evidence": [
+        {
+          "source_item_id": 47304126,
+          "source_field": "body",
+          "value": "I developed a Claude skill that will interact with and press every button intercepting every request / response on a website building a Typescript API.",
+          "supports": [],
+          "author": "dataviz1000",
+          "shared_at": 1773022813,
+          "source_url": "https://news.ycombinator.com/item?id=47304126"
+        }
+      ],
+      "source_item_id": 47304126,
+      "source_url": "https://news.ycombinator.com/item?id=47304126",
+      "author": "dataviz1000",
+      "shared_at": 1773022813,
+      "links": []
+    }
+  ]
+}

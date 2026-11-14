@@ -1,0 +1,35 @@
+{
+  "id": 6092,
+  "slug": "spora-6d507fc2b3",
+  "name": "Spora",
+  "mentions": [
+    {
+      "name": "Spora",
+      "description": "A P2P VPN app that lets users route their traffic through a friend abroad as their VPN provider with no special setup. It is designed mainly for censorship evasion, being harder to block than regular centralized VPNs, and also lets expats access geo-blocked domestic services. Currently at MVP stage.",
+      "problem": "Centralized VPNs are relatively easy to block for censorship evasion, and expats are cut off from geo-blocked domestic services when abroad.",
+      "audience": "People evading censorship and expats who want to access geo-blocked domestic services from home.",
+      "builder_usernames": [
+        "entropyneur"
+      ],
+      "source_excerpt": "I am working on a P2P VPN app that lets you use a friend abroad as your VPN provider with no special setup: https://spora.to",
+      "evidence": [
+        {
+          "source_item_id": 47305869,
+          "source_field": "body",
+          "value": "I am working on a P2P VPN app that lets you use a friend abroad as your VPN provider with no special setup: https://spora.to",
+          "supports": [],
+          "author": "entropyneur",
+          "shared_at": 1773041572,
+          "source_url": "https://news.ycombinator.com/item?id=47305869"
+        }
+      ],
+      "source_item_id": 47305869,
+      "source_url": "https://news.ycombinator.com/item?id=47305869",
+      "author": "entropyneur",
+      "shared_at": 1773041572,
+      "links": [
+        "https://spora.to"
+      ]
+    }
+  ]
+}

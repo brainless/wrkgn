@@ -1,0 +1,36 @@
+{
+  "id": 5308,
+  "slug": "cnakecharmer-27bfba6248",
+  "name": "CnakeCharmer",
+  "mentions": [
+    {
+      "name": "CnakeCharmer",
+      "description": "A platform for creating SFT agentic trace datasets for LLM training, using sandboxed tools for compilation, testing, linting, address sanitizing, and benchmarking. It began as a large set of parallel Python-to-Cython translation implementations and produces training data (SFT and GRPO) that has shown good early results fine-tuning gpt-oss 20b.",
+      "problem": "LLMs are not as good as they should be at Python-to-Cython code translation.",
+      "audience": null,
+      "builder_usernames": [
+        "deepsquirrelnet"
+      ],
+      "source_excerpt": "CnakeCharmer - \nhttps://github.com/dleemiller/CnakeCharmer\n\nhttps://huggingface.co/datasets/CnakeCharmer/CnakeCharmer\n\nThis project started from a belief that llms should be better at doing python to cython code translations than they are. So we started setting a large set of parallel implementations.\n\nThen I realized that Claude code was much better at working on the data using tools (mcp) to check and iterate. The scope transformed into an platform for creating the SFT agentic trace dataset using sandboxed tools for compilation, testing, linting, address sanitizing and benchmarking.",
+      "evidence": [
+        {
+          "source_item_id": 47751555,
+          "source_field": "body",
+          "value": "CnakeCharmer - \nhttps://github.com/dleemiller/CnakeCharmer\n\nhttps://huggingface.co/datasets/CnakeCharmer/CnakeCharmer\n\nThis project started from a belief that llms should be better at doing python to cython code translations than they are. So we started setting a large set of parallel implementations.\n\nThen I realized that Claude code was much better at working on the data using tools (mcp) to check and iterate. The scope transformed into an platform for creating the SFT agentic trace dataset using sandboxed tools for compilation, testing, linting, address sanitizing and benchmarking.",
+          "supports": [],
+          "author": "deepsquirrelnet",
+          "shared_at": 1776086379,
+          "source_url": "https://news.ycombinator.com/item?id=47751555"
+        }
+      ],
+      "source_item_id": 47751555,
+      "source_url": "https://news.ycombinator.com/item?id=47751555",
+      "author": "deepsquirrelnet",
+      "shared_at": 1776086379,
+      "links": [
+        "https://github.com/dleemiller/CnakeCharmer",
+        "https://huggingface.co/datasets/CnakeCharmer/CnakeCharmer"
+      ]
+    }
+  ]
+}

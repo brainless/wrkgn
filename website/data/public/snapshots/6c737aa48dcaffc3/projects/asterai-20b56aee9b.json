@@ -1,0 +1,35 @@
+{
+  "id": 10848,
+  "slug": "asterai-20b56aee9b",
+  "name": "asterai",
+  "mentions": [
+    {
+      "name": "asterai",
+      "description": "Platform for developing, running, and managing AI agents. Agents are created and configured through a web console (LLM parameters, system prompts) with plugin and functionality management. The system is fully plugin-based: each plugin is a WASM program exposing tools the agent can call and hooks into the query lifecycle, writable in languages such as Rust, Go, or TypeScript, and plugins can act as libraries callable by other plugins via WebAssembly Components with typed codegen. Also includes an in-development SSH server for agents, letting users add public keys and SSH into an agent to talk to it from the terminal.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rellfy"
+      ],
+      "source_excerpt": "I've been working on https://asterai.io -- a platform for developing, running and managing AI agents.",
+      "evidence": [
+        {
+          "source_item_id": 43818760,
+          "source_field": "body",
+          "value": "I've been working on https://asterai.io -- a platform for developing, running and managing AI agents.",
+          "supports": [],
+          "author": "rellfy",
+          "shared_at": 1745827065,
+          "source_url": "https://news.ycombinator.com/item?id=43818760"
+        }
+      ],
+      "source_item_id": 43818760,
+      "source_url": "https://news.ycombinator.com/item?id=43818760",
+      "author": "rellfy",
+      "shared_at": 1745827065,
+      "links": [
+        "https://asterai.io"
+      ]
+    }
+  ]
+}

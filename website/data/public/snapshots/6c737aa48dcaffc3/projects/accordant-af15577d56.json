@@ -1,0 +1,36 @@
+{
+  "id": 3789,
+  "slug": "accordant-af15577d56",
+  "name": "Accordant",
+  "mentions": [
+    {
+      "name": "Accordant",
+      "description": "A .NET framework for writing executable specifications that capture API contracts as code. It validates that implementations behave according to the contract, failing immediately when they don't, and uses the spec to mechanically explore a system's state space and generate test sequences. It has been used to model complex distributed real-world systems involving async processes, concurrency, retries, and crash consistency, and pairs well with deterministic simulation testing. Developed at Microsoft and open sourced, it descends from the Spec#/SpecExplorer and NModel line of model-based testing work.",
+      "problem": "API behavioral rules and contracts are usually never written down in one place, and documentation drifts from the implementation.",
+      "audience": null,
+      "builder_usernames": [
+        "inaseer"
+      ],
+      "source_excerpt": "I've been working on a framework for writing executable specs in .NET called Accordant, developed at Microsoft and open sourced recently.",
+      "evidence": [
+        {
+          "source_item_id": 48533346,
+          "source_field": "body",
+          "value": "I've been working on a framework for writing executable specs in .NET called Accordant, developed at Microsoft and open sourced recently.",
+          "supports": [],
+          "author": "inaseer",
+          "shared_at": 1781474912,
+          "source_url": "https://news.ycombinator.com/item?id=48533346"
+        }
+      ],
+      "source_item_id": 48533346,
+      "source_url": "https://news.ycombinator.com/item?id=48533346",
+      "author": "inaseer",
+      "shared_at": 1781474912,
+      "links": [
+        "https://github.com/microsoft/accordant",
+        "https://microsoft.github.io/accordant"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 3785,
+  "slug": "exocomp-832fa10fc6",
+  "name": "exocomp",
+  "mentions": [
+    {
+      "name": "exocomp",
+      "description": "An agentic environment for pentesting and reverse engineering. Work is underway on networking so multiple exocomp instances can cooperate via knowledge sharing and workforce sharing, experimenting with websockets combined with multicast DNS-SD via UDP sockets so all services are discoverable and plug and play.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "cookiengineer"
+      ],
+      "source_excerpt": "Working on exocomp [1] and gooey [2]. The former being an agentic environment for pentesting and reverse engineering and the latter being a UI framework in Go.\n\nCurrently working on some networking parts, because I want multiple exocomp instances to be able to cooperate in terms of knowledge sharing and workforce sharing. So I'm experimenting with websockets combined with multicast DNS-SD via UDP sockets. Might be kinda nice if I can make all services discoverable and plug and play.",
+      "evidence": [
+        {
+          "source_item_id": 48533492,
+          "source_field": "body",
+          "value": "Working on exocomp [1] and gooey [2]. The former being an agentic environment for pentesting and reverse engineering and the latter being a UI framework in Go.\n\nCurrently working on some networking parts, because I want multiple exocomp instances to be able to cooperate in terms of knowledge sharing and workforce sharing. So I'm experimenting with websockets combined with multicast DNS-SD via UDP sockets. Might be kinda nice if I can make all services discoverable and plug and play.",
+          "supports": [],
+          "author": "cookiengineer",
+          "shared_at": 1781475731,
+          "source_url": "https://news.ycombinator.com/item?id=48533492"
+        }
+      ],
+      "source_item_id": 48533492,
+      "source_url": "https://news.ycombinator.com/item?id=48533492",
+      "author": "cookiengineer",
+      "shared_at": 1781475731,
+      "links": [
+        "https://github.com/cookiengineer/exocomp"
+      ]
+    },
+    {
+      "name": "exocomp",
+      "description": "This agentic environment focuses on short-lived agents and sandboxing: a planner spawns short-lived agents so models with low temperature settings can each concentrate on a single task without overflowing context and produce good, readable code. It only supports Go, leveraging unified formatting, codestyle, testing methodologies, and core packages to save system prompt tokens. Current work includes a summarizer agent and requirements specifications that check for valid Go syntax using the upstream parser and ast package.",
+      "problem": "Models handling multiple tasks in one long context overflow and produce worse output; short-lived, sandboxed agents keep each model focused on a single task.",
+      "audience": null,
+      "builder_usernames": [
+        "cookiengineer"
+      ],
+      "source_excerpt": "Working on my own agentic environment that focuses on short lived agents and sandboxing. Agents are short lived and are spawned by the planner you're interacting with. This way models with low temp settings can focus on a single task, don't overflow, and produce actually good and readable code.",
+      "evidence": [
+        {
+          "source_item_id": 47753874,
+          "source_field": "body",
+          "value": "Working on my own agentic environment that focuses on short lived agents and sandboxing. Agents are short lived and are spawned by the planner you're interacting with. This way models with low temp settings can focus on a single task, don't overflow, and produce actually good and readable code.",
+          "supports": [],
+          "author": "cookiengineer",
+          "shared_at": 1776095582,
+          "source_url": "https://news.ycombinator.com/item?id=47753874"
+        }
+      ],
+      "source_item_id": 47753874,
+      "source_url": "https://news.ycombinator.com/item?id=47753874",
+      "author": "cookiengineer",
+      "shared_at": 1776095582,
+      "links": [
+        "https://github.com/cookiengineer/exocomp"
+      ]
+    }
+  ]
+}

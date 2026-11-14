@@ -1,0 +1,36 @@
+{
+  "id": 9788,
+  "slug": "audio-transcriber-3faa7125c9",
+  "name": "audio-transcriber",
+  "mentions": [
+    {
+      "name": "audio-transcriber",
+      "description": "A speech-to-text transcription program for Discord, similar to how Zoom or Google Hangouts works, that processes a set of 3-hour audio files in about 20 minutes. Built to record D&D group sessions and to enable applications and tools for virtual tabletop (VTT) gaming.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "nvdnadj92"
+      ],
+      "source_excerpt": "I wanted to build my own speech-to-text transcription program [1] for Discord, similar to how zoom or google hangouts works. I built it so that I can record my group's DND sessions and build applications / tools for VTTs (Virtual TableTop gaming).",
+      "evidence": [
+        {
+          "source_item_id": 45563328,
+          "source_field": "body",
+          "value": "I wanted to build my own speech-to-text transcription program [1] for Discord, similar to how zoom or google hangouts works. I built it so that I can record my group's DND sessions and build applications / tools for VTTs (Virtual TableTop gaming).",
+          "supports": [],
+          "author": "nvdnadj92",
+          "shared_at": 1760314257,
+          "source_url": "https://news.ycombinator.com/item?id=45563328"
+        }
+      ],
+      "source_item_id": 45563328,
+      "source_url": "https://news.ycombinator.com/item?id=45563328",
+      "author": "nvdnadj92",
+      "shared_at": 1760314257,
+      "links": [
+        "https://github.com/naveedn/audio-transcriber",
+        "https://www.youtube.com/watch?v=v0KZGyJARts&t=300s"
+      ]
+    }
+  ]
+}

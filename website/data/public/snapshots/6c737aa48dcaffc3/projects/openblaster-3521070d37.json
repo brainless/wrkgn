@@ -1,0 +1,35 @@
+{
+  "id": 6047,
+  "slug": "openblaster-3521070d37",
+  "name": "openblaster",
+  "mentions": [
+    {
+      "name": "openblaster",
+      "description": "Open-source utility for controlling the SoundBlasterX G6 DAC on Mac and Linux without Creative's Windows-only software; the CLI can set the DAC's LED colour and EQ bands, and a Qt6 cross-platform GUI is being added so other people can use it on Macs and Linux machines.",
+      "problem": "Creative only provides Windows software to control the SoundBlasterX G6 DAC, leaving Mac and Linux users without a way to adjust its LED colour and EQ bands.",
+      "audience": "Mac and Linux users who own a SoundBlasterX G6 DAC, including the author's own personal use",
+      "builder_usernames": [
+        "asimovDev"
+      ],
+      "source_excerpt": "I wrote a CLI utility last year to control my SoundBlasterx G6 DAC (can only control LED colour and EQ bands) without needing to use Creative's windows only program (I am mostly a Mac + occasional Linux) user.",
+      "evidence": [
+        {
+          "source_item_id": 47305694,
+          "source_field": "body",
+          "value": "I wrote a CLI utility last year to control my SoundBlasterx G6 DAC (can only control LED colour and EQ bands) without needing to use Creative's windows only program (I am mostly a Mac + occasional Linux) user.",
+          "supports": [],
+          "author": "asimovDev",
+          "shared_at": 1773040259,
+          "source_url": "https://news.ycombinator.com/item?id=47305694"
+        }
+      ],
+      "source_item_id": 47305694,
+      "source_url": "https://news.ycombinator.com/item?id=47305694",
+      "author": "asimovDev",
+      "shared_at": 1773040259,
+      "links": [
+        "https://github.com/AzimovParviz/openblaster/tree/qt6"
+      ]
+    }
+  ]
+}

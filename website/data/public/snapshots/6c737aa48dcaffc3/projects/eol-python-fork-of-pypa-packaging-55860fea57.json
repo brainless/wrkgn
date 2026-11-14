@@ -1,0 +1,35 @@
+{
+  "id": 8337,
+  "slug": "eol-python-fork-of-pypa-packaging-55860fea57",
+  "name": "EOL Python fork of pypa/packaging",
+  "mentions": [
+    {
+      "name": "EOL Python fork of pypa/packaging",
+      "description": "A fork of the pypa/packaging Python library set up to support end-of-life Python versions back to 3.6, with general simplifications so it remains a reasonably small wheel for use in a smaller target project.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "zahlman"
+      ],
+      "source_excerpt": "setting up a fork of https://github.com/pypa/packaging to support EOL Python (back to 3.6) and make some general simplifications",
+      "evidence": [
+        {
+          "source_item_id": 46267529,
+          "source_field": "body",
+          "value": "setting up a fork of https://github.com/pypa/packaging to support EOL Python (back to 3.6) and make some general simplifications",
+          "supports": [],
+          "author": "zahlman",
+          "shared_at": 1765750029,
+          "source_url": "https://news.ycombinator.com/item?id=46267529"
+        }
+      ],
+      "source_item_id": 46267529,
+      "source_url": "https://news.ycombinator.com/item?id=46267529",
+      "author": "zahlman",
+      "shared_at": 1765750029,
+      "links": [
+        "https://github.com/pypa/packaging"
+      ]
+    }
+  ]
+}

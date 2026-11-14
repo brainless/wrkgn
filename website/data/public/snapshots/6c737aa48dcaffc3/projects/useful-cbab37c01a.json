@@ -1,0 +1,35 @@
+{
+  "id": 6230,
+  "slug": "useful-cbab37c01a",
+  "name": "useful",
+  "mentions": [
+    {
+      "name": "useful",
+      "description": "A self-hostable tool for building website-based courses as an alternative to video. Course content is written in a simple markup language for slide visuals, extended via a plugin system, and narrated with state-of-the-art CPU-based TTS including voice cloning. It exports a complete website with SEO/social metadata as a PWA that caches for offline use, loads faster than video, uses under 1/10th of the data when served with brotli, and has minimal dependencies. The author plans to prove the concept by publishing website-as-video courses based on their own projects, such as software tools for bass guitar.",
+      "problem": "Video is a poor format for delivering course information: the text can't be copied, videos are hard to make, and they are heavy on bandwidth.",
+      "audience": "Others creating courses; a stretch goal is letting people turn what they learn via LLMs into low-bandwidth courses so common questions aren't repeatedly asked and 4K videos repeatedly watched.",
+      "builder_usernames": [
+        "tonelord"
+      ],
+      "source_excerpt": "So after iterating on different approaches to this over the last few years, I finally started on a new iteration called useful.\n\nCurrently on rev1, so early days: https://github.com/ohmstone/useful/tree/rev-1",
+      "evidence": [
+        {
+          "source_item_id": 47309129,
+          "source_field": "body",
+          "value": "So after iterating on different approaches to this over the last few years, I finally started on a new iteration called useful.\n\nCurrently on rev1, so early days: https://github.com/ohmstone/useful/tree/rev-1",
+          "supports": [],
+          "author": "tonelord",
+          "shared_at": 1773064617,
+          "source_url": "https://news.ycombinator.com/item?id=47309129"
+        }
+      ],
+      "source_item_id": 47309129,
+      "source_url": "https://news.ycombinator.com/item?id=47309129",
+      "author": "tonelord",
+      "shared_at": 1773064617,
+      "links": [
+        "https://github.com/ohmstone/useful/tree/rev-1"
+      ]
+    }
+  ]
+}

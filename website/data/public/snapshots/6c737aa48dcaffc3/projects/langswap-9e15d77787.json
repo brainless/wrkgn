@@ -1,0 +1,35 @@
+{
+  "id": 7514,
+  "slug": "langswap-9e15d77787",
+  "name": "Langswap",
+  "mentions": [
+    {
+      "name": "Langswap",
+      "description": "This app translates videos and dubs them into other languages. It takes a source video, generates translated speech in a consistent voice, and keeps timing close enough to feel natural. Parts of it are planned to be open sourced in 2026.",
+      "problem": "Current AI dubbing still fails in various ways (naturalness, timing, voice consistency), and the project seeks feedback on where it fails most.",
+      "audience": "People who do localization, run YouTube channels, or ship training videos",
+      "builder_usernames": [
+        "frappuccino_o"
+      ],
+      "source_excerpt": "I’m working on Langswap (https://langswap.app) — an app that translates + dubs videos into other languages.\n\nThe goal is to take a source video, generate translated speech in a consistent voice, and keep timing close enough that it feels natural. I'm planning to open source parts of it in 2026.",
+      "evidence": [
+        {
+          "source_item_id": 46586000,
+          "source_field": "body",
+          "value": "I’m working on Langswap (https://langswap.app) — an app that translates + dubs videos into other languages.\n\nThe goal is to take a source video, generate translated speech in a consistent voice, and keep timing close enough that it feels natural. I'm planning to open source parts of it in 2026.",
+          "supports": [],
+          "author": "frappuccino_o",
+          "shared_at": 1768209498,
+          "source_url": "https://news.ycombinator.com/item?id=46586000"
+        }
+      ],
+      "source_item_id": 46586000,
+      "source_url": "https://news.ycombinator.com/item?id=46586000",
+      "author": "frappuccino_o",
+      "shared_at": 1768209498,
+      "links": [
+        "https://langswap.app"
+      ]
+    }
+  ]
+}

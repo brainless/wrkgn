@@ -1,0 +1,35 @@
+{
+  "id": 5467,
+  "slug": "draftpdf-b14eef5001",
+  "name": "Draftpdf",
+  "mentions": [
+    {
+      "name": "Draftpdf",
+      "description": "Browser-based PDF editor that runs on-device via WebAssembly and PDFium, built on top of the open source embedpdf project with custom tools added on top. Supports standard annotation features such as highlights, comments, and stamps, and is adding more advanced features including regex search/redact, plus measurement and takeoff tools for the AEC industry.",
+      "problem": "Working with PDFs",
+      "audience": "AEC (architecture, engineering, construction) industry professionals using takeoff and measurement tools; general PDF users",
+      "builder_usernames": [
+        "ggcdn"
+      ],
+      "source_excerpt": "I've been making a browser-based PDF editor that runs on-device via Webassembly / PDFium. Many of the hard parts were done by the open source embedpdf project, and I've been adding my own custom tools on top of it.",
+      "evidence": [
+        {
+          "source_item_id": 47746719,
+          "source_field": "body",
+          "value": "I've been making a browser-based PDF editor that runs on-device via Webassembly / PDFium. Many of the hard parts were done by the open source embedpdf project, and I've been adding my own custom tools on top of it.",
+          "supports": [],
+          "author": "ggcdn",
+          "shared_at": 1776045985,
+          "source_url": "https://news.ycombinator.com/item?id=47746719"
+        }
+      ],
+      "source_item_id": 47746719,
+      "source_url": "https://news.ycombinator.com/item?id=47746719",
+      "author": "ggcdn",
+      "shared_at": 1776045985,
+      "links": [
+        "https://www.Draftpdf.com"
+      ]
+    }
+  ]
+}

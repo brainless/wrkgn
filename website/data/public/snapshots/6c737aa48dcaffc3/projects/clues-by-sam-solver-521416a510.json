@@ -1,0 +1,35 @@
+{
+  "id": 8036,
+  "slug": "clues-by-sam-solver-521416a510",
+  "name": "Clues By Sam Solver",
+  "mentions": [
+    {
+      "name": "Clues By Sam Solver",
+      "description": "A solver for the daily puzzle game Clues By Sam, built to learn the basics of the Z3 constraint solver. It uses Playwright to read clues and submit guesses automatically and works for all 50 puzzles in puzzle pack 1.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "DylanSp"
+      ],
+      "source_excerpt": "I've been learning the basics of using Z3 by creating a solver for the daily puzzle game Clues By Sam (very fun game; https://cluesbysam.com/). Repo is https://github.com/DylanSp/clues-by-sam-solver. It uses Playwright to read clues and submit guesses; I've got it working for all 50 puzzles in puzzle pack 1.",
+      "evidence": [
+        {
+          "source_item_id": 46482716,
+          "source_field": "body",
+          "value": "I've been learning the basics of using Z3 by creating a solver for the daily puzzle game Clues By Sam (very fun game; https://cluesbysam.com/). Repo is https://github.com/DylanSp/clues-by-sam-solver. It uses Playwright to read clues and submit guesses; I've got it working for all 50 puzzles in puzzle pack 1.",
+          "supports": [],
+          "author": "DylanSp",
+          "shared_at": 1767481757,
+          "source_url": "https://news.ycombinator.com/item?id=46482716"
+        }
+      ],
+      "source_item_id": 46482716,
+      "source_url": "https://news.ycombinator.com/item?id=46482716",
+      "author": "DylanSp",
+      "shared_at": 1767481757,
+      "links": [
+        "https://github.com/DylanSp/clues-by-sam-solver"
+      ]
+    }
+  ]
+}

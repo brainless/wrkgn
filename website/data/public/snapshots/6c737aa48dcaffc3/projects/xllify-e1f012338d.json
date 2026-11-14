@@ -1,0 +1,35 @@
+{
+  "id": 6981,
+  "slug": "xllify-e1f012338d",
+  "name": "xllify",
+  "mentions": [
+    {
+      "name": "xllify",
+      "description": "This tool extends Excel with custom functions by embedding the Luau language on top of the old C SDK, so the same bytecode runs as native Windows XLL add-ins and as WASM-based web add-ins, giving native performance without extra work. AI is used only during authoring, producing a standalone artifact, and an included xllify Assistant add-in brings a conversational coding assistant directly into Excel.",
+      "problem": "Many approaches for writing custom Excel functions are unacceptably slow, particularly when their inputs come from fast-moving realtime data feeds.",
+      "audience": null,
+      "builder_usernames": [
+        "alexjreid"
+      ],
+      "source_excerpt": "Delving deep into novel ways to extend Excel and make it more accessible. Perhaps different approach to copilot in that AI is only used during authoring, the yielded output being a standalone artifact.\n\nThe result is https://xllify.com\n\nIt embeds Luau which tames the very old school C SDK. This means that the same code can run as native add-ins on Windows (XLL) and the more modern-but-far-slower web engine, thanks to WASM. Luau is safe and fast.",
+      "evidence": [
+        {
+          "source_item_id": 46944346,
+          "source_field": "body",
+          "value": "Delving deep into novel ways to extend Excel and make it more accessible. Perhaps different approach to copilot in that AI is only used during authoring, the yielded output being a standalone artifact.\n\nThe result is https://xllify.com\n\nIt embeds Luau which tames the very old school C SDK. This means that the same code can run as native add-ins on Windows (XLL) and the more modern-but-far-slower web engine, thanks to WASM. Luau is safe and fast.",
+          "supports": [],
+          "author": "alexjreid",
+          "shared_at": 1770638785,
+          "source_url": "https://news.ycombinator.com/item?id=46944346"
+        }
+      ],
+      "source_item_id": 46944346,
+      "source_url": "https://news.ycombinator.com/item?id=46944346",
+      "author": "alexjreid",
+      "shared_at": 1770638785,
+      "links": [
+        "https://xllify.com"
+      ]
+    }
+  ]
+}

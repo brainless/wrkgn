@@ -1,0 +1,33 @@
+{
+  "id": 4569,
+  "slug": "gridwhale-9556713e57",
+  "name": "GridWhale",
+  "mentions": [
+    {
+      "name": "GridWhale",
+      "description": "GridWhale is a vertically-integrated, cloud-based development and execution environment that eliminates the complexity of assembling many dependencies. It provides a platform abstraction layer over the distributed system, so a program runs as if it were on a single big abstract machine with direct access to input, output, and storage, while the platform handles the underlying distributed complexity.",
+      "problem": "Modern programs run on distributed systems with thousands/millions of clients connecting to hundreds/thousands of backend servers, forcing developers to deal with client-server communications, async storage calls, and idempotent microservice requests instead of focusing on their programs.",
+      "audience": "Modern programs run on distributed systems with thousands/millions of clients connecting to hundreds/thousands of backend servers, forcing developers to deal with client-server communications, async storage calls, and idempotent microservice requests instead of focusing on their programs.",
+      "builder_usernames": [
+        "GMoromisato"
+      ],
+      "source_excerpt": "I'm still working on GridWhale.\n\nMy premise is simple: What if we could build a vertically-integrated, batteries-included, cloud-based development and execution environment that eliminated all the complexity of cobbling together a hundred different dependencies?",
+      "evidence": [
+        {
+          "source_item_id": 48090269,
+          "source_field": "body",
+          "value": "I'm still working on GridWhale.\n\nMy premise is simple: What if we could build a vertically-integrated, batteries-included, cloud-based development and execution environment that eliminated all the complexity of cobbling together a hundred different dependencies?",
+          "supports": [],
+          "author": "GMoromisato",
+          "shared_at": 1778465138,
+          "source_url": "https://news.ycombinator.com/item?id=48090269"
+        }
+      ],
+      "source_item_id": 48090269,
+      "source_url": "https://news.ycombinator.com/item?id=48090269",
+      "author": "GMoromisato",
+      "shared_at": 1778465138,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 7462,
+  "slug": "go-mfp-93d13323e8",
+  "name": "go-mfp",
+  "mentions": [
+    {
+      "name": "go-mfp",
+      "description": "An in-development OpenPrinting tool that emulates the behavior of modern driverless printers so printing support can be worked on and tested without physical hardware; still under heavy development and not ready, with no equivalent existing for older printers and scanners that require their own drivers.",
+      "problem": "Testing printer and scanner support generally requires physical devices; emulation for modern driverless printers is not ready yet, and nothing exists for older driver-dependent models.",
+      "audience": null,
+      "builder_usernames": [
+        "ValdikSS"
+      ],
+      "source_excerpt": "There's ongoing work on modern (driverless) printer behavior emulation, but it is under heavy development and not ready yet: https://github.com/OpenPrinting/go-mfp",
+      "evidence": [
+        {
+          "source_item_id": 46580661,
+          "source_field": "body",
+          "value": "There's ongoing work on modern (driverless) printer behavior emulation, but it is under heavy development and not ready yet: https://github.com/OpenPrinting/go-mfp",
+          "supports": [],
+          "author": "ValdikSS",
+          "shared_at": 1768168593,
+          "source_url": "https://news.ycombinator.com/item?id=46580661"
+        }
+      ],
+      "source_item_id": 46580661,
+      "source_url": "https://news.ycombinator.com/item?id=46580661",
+      "author": "ValdikSS",
+      "shared_at": 1768168593,
+      "links": [
+        "https://github.com/OpenPrinting/go-mfp"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 8999,
+  "slug": "multilingual-ai-storybook-0025ce772c",
+  "name": "Multilingual AI Storybook",
+  "mentions": [
+    {
+      "name": "Multilingual AI Storybook",
+      "description": "An AI-generated multilingual children's storybook app: a local LLM writes the story, Stable Diffusion generates the images, and AI text-to-speech narrates in English and Spanish (and could support many more languages). Tapping or clicking the little monster character makes the book read aloud. The app includes placeholder landing, login, and library pages, is not connected to a backend, and was made for an iPad rather than phones.",
+      "problem": "A friend who had a baby boy mentioned difficulty in finding children's storybooks in Spanish.",
+      "audience": "A friend and her baby boy, reading storybooks on her iPad",
+      "builder_usernames": [
+        "960design"
+      ],
+      "source_excerpt": "I built an AI generated multilingual storybook, just to see if it would work.",
+      "evidence": [
+        {
+          "source_item_id": 45875877,
+          "source_field": "body",
+          "value": "I built an AI generated multilingual storybook, just to see if it would work.",
+          "supports": [],
+          "author": "960design",
+          "shared_at": 1762781773,
+          "source_url": "https://news.ycombinator.com/item?id=45875877"
+        }
+      ],
+      "source_item_id": 45875877,
+      "source_url": "https://news.ycombinator.com/item?id=45875877",
+      "author": "960design",
+      "shared_at": 1762781773,
+      "links": [
+        "https://digital-storybooks.github.io/multilingual/#/testbooktemplate"
+      ]
+    }
+  ]
+}

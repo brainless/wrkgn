@@ -1,0 +1,33 @@
+{
+  "id": 4836,
+  "slug": "adaptive-llm-email-spam-filter-70b46f0a1f",
+  "name": "Adaptive LLM email spam filter",
+  "mentions": [
+    {
+      "name": "Adaptive LLM email spam filter",
+      "description": "A small open-source adaptive filter designed to detect and deal with LLM-generated email spam. The project is kept readable for packagers and includes verbose comments so people can quickly audit the source.",
+      "problem": "LLM generated email spam",
+      "audience": null,
+      "builder_usernames": [
+        "Joel_Mckay"
+      ],
+      "source_excerpt": "Drafting a small adaptive filter to deal with LLM generated email spam etc.\n\nI don't often have time to do OSS projects, but will keep it readable for packagers.  The most time consuming part will be overly verbose commenting needed for people to be able to audit the source quickly.",
+      "evidence": [
+        {
+          "source_item_id": 48090151,
+          "source_field": "body",
+          "value": "Drafting a small adaptive filter to deal with LLM generated email spam etc.\n\nI don't often have time to do OSS projects, but will keep it readable for packagers.  The most time consuming part will be overly verbose commenting needed for people to be able to audit the source quickly.",
+          "supports": [],
+          "author": "Joel_Mckay",
+          "shared_at": 1778463900,
+          "source_url": "https://news.ycombinator.com/item?id=48090151"
+        }
+      ],
+      "source_item_id": 48090151,
+      "source_url": "https://news.ycombinator.com/item?id=48090151",
+      "author": "Joel_Mckay",
+      "shared_at": 1778463900,
+      "links": []
+    }
+  ]
+}

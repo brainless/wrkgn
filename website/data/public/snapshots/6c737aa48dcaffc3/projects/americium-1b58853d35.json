@@ -1,0 +1,35 @@
+{
+  "id": 3899,
+  "slug": "americium-1b58853d35",
+  "name": "Americium",
+  "mentions": [
+    {
+      "name": "Americium",
+      "description": "A mixed Java/Scala framework for property-based and generally parameterised tests. It serves test data into whatever flavour of Java or Scala test the user writes, looks for an exception from the test, and automatically shrinks failing tests without requiring custom shrinkage logic, while leaving test structure and expectations DSL entirely up to the user. An optional separately shipped artifact plugs into JUnit5/JUnit6 for tighter integration, including test replay via IntelliJ or Visual Studio.",
+      "problem": "Property-based test frameworks typically dictate the test structure and expectations DSL and require users to write custom shrinkage logic; Americium shrinks failing tests automatically and imposes no test structure.",
+      "audience": "Folk who want to write property-based or parameterised tests in Java or Scala",
+      "builder_usernames": [
+        "sageserpent"
+      ],
+      "source_excerpt": "Americium - this is a mixed Java / Scala framework for folk who want to write property-based or generally parameterised tests, but: a) want the failing tests to shrink automatically without writing custom shrinkage logic and b) don't want to have the test structure and expectations DSL dictated to them by the framework.",
+      "evidence": [
+        {
+          "source_item_id": 48541811,
+          "source_field": "body",
+          "value": "Americium - this is a mixed Java / Scala framework for folk who want to write property-based or generally parameterised tests, but: a) want the failing tests to shrink automatically without writing custom shrinkage logic and b) don't want to have the test structure and expectations DSL dictated to them by the framework.",
+          "supports": [],
+          "author": "sageserpent",
+          "shared_at": 1781533683,
+          "source_url": "https://news.ycombinator.com/item?id=48541811"
+        }
+      ],
+      "source_item_id": 48541811,
+      "source_url": "https://news.ycombinator.com/item?id=48541811",
+      "author": "sageserpent",
+      "shared_at": 1781533683,
+      "links": [
+        "https://github.com/sageserpent-open/americium"
+      ]
+    }
+  ]
+}

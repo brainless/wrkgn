@@ -1,0 +1,35 @@
+{
+  "id": 3616,
+  "slug": "tsz-b3284d58da",
+  "name": "tsz",
+  "mentions": [
+    {
+      "name": "tsz",
+      "description": "This project is a TypeScript type checker written in Rust. Its goal is to match the behavior of tsc (tsgo) while performing better, with ongoing work to pass tsc's test cases and support complex type packages.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mohsen1"
+      ],
+      "source_excerpt": "I'm making a TypeScript type checker in Rust.\n\ntsz is my main side project. Trying to learn from this for how to make software in fully automated fashion. tsz's goal is to match tsc (tsgo) but perform better. I am not passing all tsc's own test cases and working towards making it work on complex type packages.",
+      "evidence": [
+        {
+          "source_item_id": 48530433,
+          "source_field": "body",
+          "value": "I'm making a TypeScript type checker in Rust.\n\ntsz is my main side project. Trying to learn from this for how to make software in fully automated fashion. tsz's goal is to match tsc (tsgo) but perform better. I am not passing all tsc's own test cases and working towards making it work on complex type packages.",
+          "supports": [],
+          "author": "mohsen1",
+          "shared_at": 1781459891,
+          "source_url": "https://news.ycombinator.com/item?id=48530433"
+        }
+      ],
+      "source_item_id": 48530433,
+      "source_url": "https://news.ycombinator.com/item?id=48530433",
+      "author": "mohsen1",
+      "shared_at": 1781459891,
+      "links": [
+        "https://github.com/tsz-org/tsz"
+      ]
+    }
+  ]
+}

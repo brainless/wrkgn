@@ -1,0 +1,33 @@
+{
+  "id": 8667,
+  "slug": "rust-reimplementation-of-a-python-project-3fcc1ca9e6",
+  "name": "Rust reimplementation of a Python project",
+  "mentions": [
+    {
+      "name": "Rust reimplementation of a Python project",
+      "description": "A Rust reimplementation of an earlier Python project, with both versions built via AI coding ('vibecoded') to compare how they differ and whether Rust's static typing provides an upside ('if it compiles it's probably ok'). Early observations so far: significantly more token usage and reduced steerability, though the linting and fix loop is smoother.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Havoc"
+      ],
+      "source_excerpt": "Reimplementing something I originally did in python in rust. Both vibecoded - want to get a better sense of how they compare and whether there is upside to be had from rust typing and „if it compiles it’s probably ok“",
+      "evidence": [
+        {
+          "source_item_id": 46270191,
+          "source_field": "body",
+          "value": "Reimplementing something I originally did in python in rust. Both vibecoded - want to get a better sense of how they compare and whether there is upside to be had from rust typing and „if it compiles it’s probably ok“",
+          "supports": [],
+          "author": "Havoc",
+          "shared_at": 1765770150,
+          "source_url": "https://news.ycombinator.com/item?id=46270191"
+        }
+      ],
+      "source_item_id": 46270191,
+      "source_url": "https://news.ycombinator.com/item?id=46270191",
+      "author": "Havoc",
+      "shared_at": 1765770150,
+      "links": []
+    }
+  ]
+}

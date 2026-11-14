@@ -1,0 +1,36 @@
+{
+  "id": 6105,
+  "slug": "mixtrain-97437ae39e",
+  "name": "Mixtrain",
+  "mentions": [
+    {
+      "name": "Mixtrain",
+      "description": "Mixtrain is a platform for building task-specific AI models, focused on multimodal use cases such as video, image, and robotics. It covers the full post-training lifecycle: multimodal dataset management (versioning, querying, inspecting, and curating image/video/3D datasets), training and running models on serverless GPUs with rapid experimentation, production rollout, and access to hundreds of external models through a single API, plus live evals that create instant side-by-side comparisons of images, time-synced video, 3D/4D visualizations, and masks, staying current as datasets evolve.",
+      "problem": "General-purpose models won't be enough on their own; specialized, task-specific models are inevitable.",
+      "audience": null,
+      "builder_usernames": [
+        "dharmeshkakadia"
+      ],
+      "source_excerpt": "Building Mixtrain - Platform to build task specific models. Focus on multimodallity usecase - video, image, robotics. Covers the entire post training life cycle - data management & curation, training, Eval & rollout.",
+      "evidence": [
+        {
+          "source_item_id": 47313815,
+          "source_field": "body",
+          "value": "Building Mixtrain - Platform to build task specific models. Focus on multimodallity usecase - video, image, robotics. Covers the entire post training life cycle - data management & curation, training, Eval & rollout.",
+          "supports": [],
+          "author": "dharmeshkakadia",
+          "shared_at": 1773083126,
+          "source_url": "https://news.ycombinator.com/item?id=47313815"
+        }
+      ],
+      "source_item_id": 47313815,
+      "source_url": "https://news.ycombinator.com/item?id=47313815",
+      "author": "dharmeshkakadia",
+      "shared_at": 1773083126,
+      "links": [
+        "https://app.mixtrain.ai/s/eVRwOcb7KhUZOb9xbFFgfHIuF0jyJUaBT6TKNg19OfU",
+        "https://mixtrain.ai/docs"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 10362,
+  "slug": "aiko-83d8f42f6f",
+  "name": "Aiko",
+  "mentions": [
+    {
+      "name": "Aiko",
+      "description": "Aiko is an AI tools marketplace that provides an easy way to manage all MCP (Model Context Protocol) configurations and credentials in one place. It includes built-in MCP servers, such as one that converts any OpenAPI v3 spec into an MCP server with authentication support. Its Gmail and Calendar apps are currently under CASA Tier 2 security assessment and not yet published to production.",
+      "problem": "Working with many MCP servers creates recurring issues: configuring the same server type for multiple API keys (e.g. production and development), hitting context limits or LLM tool-selection hallucinations when too many tools are enabled, needing to disable unwanted tools per AI assistant (Claude, Cursor, etc.) instead of once, and privacy concerns about sharing credentials with third-party-hosted MCP servers.",
+      "audience": null,
+      "builder_usernames": [
+        "willahmad"
+      ],
+      "source_excerpt": "I am working on easiest way to manage all your MCP configurations and credentials. Additionally, I have added couple of interesting MCP servers, like converting any OpenAPI v3 spec to MCP server (including support of authentication): https://x.com/getaikoapp/status/1945278307496235482\n\nAfter working on and using many MCP servers, I hit couple of issues multiple times:\n\n* Do I configure 2 MCP servers of same type for 2 different API Keys or do I manually update configurations all the time? (e.g. production and development environments)\n\n* when I have too many tools enabled, I noticed that either I am hitting context limit too quickly or LLM is hallucinating when choosing a right tool\n\n* Some MCP servers expose a lot of tools, I want to disable some of them forever, instead of doing configuration per AI assistant (first for Claude, then Cursor and so on)\n\n* Most MCP servers are hosted by third parties, as a privacy conscious person, I do not want to share my credentials with third parties.\n\nAnd I am building Aiko - AI tools marketplace: https://getaiko.app",
+      "evidence": [
+        {
+          "source_item_id": 44704280,
+          "source_field": "body",
+          "value": "I am working on easiest way to manage all your MCP configurations and credentials. Additionally, I have added couple of interesting MCP servers, like converting any OpenAPI v3 spec to MCP server (including support of authentication): https://x.com/getaikoapp/status/1945278307496235482\n\nAfter working on and using many MCP servers, I hit couple of issues multiple times:\n\n* Do I configure 2 MCP servers of same type for 2 different API Keys or do I manually update configurations all the time? (e.g. production and development environments)\n\n* when I have too many tools enabled, I noticed that either I am hitting context limit too quickly or LLM is hallucinating when choosing a right tool\n\n* Some MCP servers expose a lot of tools, I want to disable some of them forever, instead of doing configuration per AI assistant (first for Claude, then Cursor and so on)\n\n* Most MCP servers are hosted by third parties, as a privacy conscious person, I do not want to share my credentials with third parties.\n\nAnd I am building Aiko - AI tools marketplace: https://getaiko.app",
+          "supports": [],
+          "author": "willahmad",
+          "shared_at": 1753647027,
+          "source_url": "https://news.ycombinator.com/item?id=44704280"
+        }
+      ],
+      "source_item_id": 44704280,
+      "source_url": "https://news.ycombinator.com/item?id=44704280",
+      "author": "willahmad",
+      "shared_at": 1753647027,
+      "links": [
+        "https://getaiko.app"
+      ]
+    }
+  ]
+}

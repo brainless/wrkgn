@@ -1,0 +1,35 @@
+{
+  "id": 4772,
+  "slug": "liel-48cb019954",
+  "name": "Liel",
+  "mentions": [
+    {
+      "name": "Liel",
+      "description": "This tool compares and integrates LLM memory as a single file. Instead of storing LLM memory in Markdown, it manages memory as a graph structure to record relationships between tasks and decisions and persist when, why, and how they changed.",
+      "problem": "Saving LLM memory in Markdown makes it hard to record relationships between tasks and decisions and to persist when, why, and how they changed.",
+      "audience": null,
+      "builder_usernames": [
+        "hy-token"
+      ],
+      "source_excerpt": "I am working on Liel (https://hy-token.github.io/liel/), a tool that can compare and integrate LLM memory as single file.",
+      "evidence": [
+        {
+          "source_item_id": 48093364,
+          "source_field": "body",
+          "value": "I am working on Liel (https://hy-token.github.io/liel/), a tool that can compare and integrate LLM memory as single file.",
+          "supports": [],
+          "author": "hy-token",
+          "shared_at": 1778496819,
+          "source_url": "https://news.ycombinator.com/item?id=48093364"
+        }
+      ],
+      "source_item_id": 48093364,
+      "source_url": "https://news.ycombinator.com/item?id=48093364",
+      "author": "hy-token",
+      "shared_at": 1778496819,
+      "links": [
+        "https://hy-token.github.io/liel/"
+      ]
+    }
+  ]
+}

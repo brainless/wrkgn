@@ -1,0 +1,63 @@
+{
+  "id": 4152,
+  "slug": "clipper-abb7b6aa6b",
+  "name": "Clipper",
+  "mentions": [
+    {
+      "name": "Clipper",
+      "description": "A tool that makes Docker fast for large images, delivering 2-10x speedups depending on the operation, with a BuildKit integration being finished for release.",
+      "problem": "Docker is slow when working with large images.",
+      "audience": null,
+      "builder_usernames": [
+        "a_t48"
+      ],
+      "source_excerpt": "https://clipper.dev\n\nI made Docker not suck for large images. 2-10x faster depending on the operation. I’ve spent the past two weeks burning down the last bits needed to release a BuildKit integration.",
+      "evidence": [
+        {
+          "source_item_id": 48530033,
+          "source_field": "body",
+          "value": "https://clipper.dev\n\nI made Docker not suck for large images. 2-10x faster depending on the operation. I’ve spent the past two weeks burning down the last bits needed to release a BuildKit integration.",
+          "supports": [],
+          "author": "a_t48",
+          "shared_at": 1781458156,
+          "source_url": "https://news.ycombinator.com/item?id=48530033"
+        }
+      ],
+      "source_item_id": 48530033,
+      "source_url": "https://news.ycombinator.com/item?id=48530033",
+      "author": "a_t48",
+      "shared_at": 1781458156,
+      "links": [
+        "https://clipper.dev"
+      ]
+    },
+    {
+      "name": "Clipper",
+      "description": "A container registry plus pull client and BuildKit builder that improves on Docker's slow handling of large images. It splits image layers so files can be shared between related images, making pulls 10x faster in robotics contexts and cutting cloud image pulls from ~60 seconds to 15-20 seconds without FUSE-based lazy pulling. Builds are faster, deduplication stores 7x less data, and security scans run faster because tarball layers don't need unpacking. The goal is to become the default registry for ML-related work.",
+      "problem": "Docker is quite slow with large images.",
+      "audience": "Cloud image consumers and robotics teams working with large container images",
+      "builder_usernames": [
+        "a_t48"
+      ],
+      "source_excerpt": "I'm building https://clipper.dev\n\nDocker is...quite slow with large images. I've built a registry+pull client+buildkit builder to make it better. It splits apart layers, allowing for files to be shared between related images. In a robotics context, it can make pulls 10x faster. And in a cloud context, the format allows for pulling an image in 15 or 20 seconds instead of 60, without having to do a FUSE w/lazy pulling. Builds are faster, I store 7x less data due to better deduplication, I can run security scans faster due to not having to unpack tarball layers, etc, etc. I want to be the default registry for all ML related work, in the future.",
+      "evidence": [
+        {
+          "source_item_id": 48088401,
+          "source_field": "body",
+          "value": "I'm building https://clipper.dev\n\nDocker is...quite slow with large images. I've built a registry+pull client+buildkit builder to make it better. It splits apart layers, allowing for files to be shared between related images. In a robotics context, it can make pulls 10x faster. And in a cloud context, the format allows for pulling an image in 15 or 20 seconds instead of 60, without having to do a FUSE w/lazy pulling. Builds are faster, I store 7x less data due to better deduplication, I can run security scans faster due to not having to unpack tarball layers, etc, etc. I want to be the default registry for all ML related work, in the future.",
+          "supports": [],
+          "author": "a_t48",
+          "shared_at": 1778449414,
+          "source_url": "https://news.ycombinator.com/item?id=48088401"
+        }
+      ],
+      "source_item_id": 48088401,
+      "source_url": "https://news.ycombinator.com/item?id=48088401",
+      "author": "a_t48",
+      "shared_at": 1778449414,
+      "links": [
+        "https://clipper.dev"
+      ]
+    }
+  ]
+}

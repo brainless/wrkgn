@@ -1,0 +1,35 @@
+{
+  "id": 5495,
+  "slug": "yapress-1723bf574d",
+  "name": "Yapress",
+  "mentions": [
+    {
+      "name": "Yapress",
+      "description": "Yapress is a Git-managed static site setup with a migration script for moving WordPress sites to a static build. It is still in progress, with the author testing the setup and validating the workflow; the noted trade-off of going static is losing comments.",
+      "problem": "Migrating off WordPress to a Git-managed static setup, accepting the trade-off that going static loses comment support.",
+      "audience": null,
+      "builder_usernames": [
+        "yusufaytas"
+      ],
+      "source_excerpt": "I’ve started moving off WordPress to Yapress. It’s a Git-managed static setup with a migration script, though I haven’t run the full migration yet.",
+      "evidence": [
+        {
+          "source_item_id": 47744310,
+          "source_field": "body",
+          "value": "I’ve started moving off WordPress to Yapress. It’s a Git-managed static setup with a migration script, though I haven’t run the full migration yet.",
+          "supports": [],
+          "author": "yusufaytas",
+          "shared_at": 1776026948,
+          "source_url": "https://news.ycombinator.com/item?id=47744310"
+        }
+      ],
+      "source_item_id": 47744310,
+      "source_url": "https://news.ycombinator.com/item?id=47744310",
+      "author": "yusufaytas",
+      "shared_at": 1776026948,
+      "links": [
+        "https://github.com/yusufaytas/yapress"
+      ]
+    }
+  ]
+}

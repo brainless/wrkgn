@@ -1,0 +1,33 @@
+{
+  "id": 7823,
+  "slug": "disassembly-diff-tool-fc98582a85",
+  "name": "Disassembly diff tool",
+  "mentions": [
+    {
+      "name": "Disassembly diff tool",
+      "description": "A disassembly diff tool that takes two binary images (old and new) and outputs a report summarizing instruction-level differences, including total instruction and byte deltas, per-category instruction changes (spill, cmov, call, branch, memory, ALU, move, bit manipulation), added/removed bytes, and per-function outcomes (better, worse, removed, unchanged).",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "pilord314"
+      ],
+      "source_excerpt": "A disassembly diff tool:\n\ninput <- old_image new_image\n\noutput -> report",
+      "evidence": [
+        {
+          "source_item_id": 46583817,
+          "source_field": "body",
+          "value": "A disassembly diff tool:\n\ninput <- old_image new_image\n\noutput -> report",
+          "supports": [],
+          "author": "pilord314",
+          "shared_at": 1768189395,
+          "source_url": "https://news.ycombinator.com/item?id=46583817"
+        }
+      ],
+      "source_item_id": 46583817,
+      "source_url": "https://news.ycombinator.com/item?id=46583817",
+      "author": "pilord314",
+      "shared_at": 1768189395,
+      "links": []
+    }
+  ]
+}

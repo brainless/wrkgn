@@ -1,0 +1,35 @@
+{
+  "id": 10431,
+  "slug": "agl-4d2380d176",
+  "name": "AGL",
+  "mentions": [
+    {
+      "name": "AGL",
+      "description": "A programming language that compiles to Go, designed to behave like TypeScript for Go so existing Go programs compile out of the box while enabling new syntax. It features built-in Set, Enum, Tuple, and lambda expressions, error propagation operators, a working LSP server, and sourcemap generation that maps runtime stacktraces back to the original .agl source lines. The author has ported Advent of Code 2024 solutions into the language as examples.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "alain_gilbert"
+      ],
+      "source_excerpt": "I'm working on this programming language that compiles to Go.\n\nThe goal is to have it behave like typescript for Go, where any Go program would compile out of the box, but then you can use the new syntax.",
+      "evidence": [
+        {
+          "source_item_id": 44703460,
+          "source_field": "body",
+          "value": "I'm working on this programming language that compiles to Go.\n\nThe goal is to have it behave like typescript for Go, where any Go program would compile out of the box, but then you can use the new syntax.",
+          "supports": [],
+          "author": "alain_gilbert",
+          "shared_at": 1753641555,
+          "source_url": "https://news.ycombinator.com/item?id=44703460"
+        }
+      ],
+      "source_item_id": 44703460,
+      "source_url": "https://news.ycombinator.com/item?id=44703460",
+      "author": "alain_gilbert",
+      "shared_at": 1753641555,
+      "links": [
+        "https://github.com/alaingilbert/agl"
+      ]
+    }
+  ]
+}

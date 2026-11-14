@@ -1,0 +1,35 @@
+{
+  "id": 4574,
+  "slug": "hypha-mrb-49d42d6044",
+  "name": "hypha-mrb",
+  "mentions": [
+    {
+      "name": "hypha-mrb",
+      "description": "A framework for building native desktop applications in mruby, targeting Linux, Mac, and Windows. It aims to let apps be shipped as native executables instead of the usual approach of bundling a webserver that users connect to via localhost.",
+      "problem": "Apps that would otherwise be shipped as a webserver requiring users to connect via localhost can instead be delivered as native desktop apps.",
+      "audience": null,
+      "builder_usernames": [
+        "Asmod4n"
+      ],
+      "source_excerpt": "I'm building a small framework to make desktop apps in mruby, targeting Linux, Mac and Windows. The aim is a native app for the kind of thing you'd usually ship as a webserver and tell users to connect to via localhost. https://github.com/Asmod4n/hypha-mrb",
+      "evidence": [
+        {
+          "source_item_id": 48093344,
+          "source_field": "body",
+          "value": "I'm building a small framework to make desktop apps in mruby, targeting Linux, Mac and Windows. The aim is a native app for the kind of thing you'd usually ship as a webserver and tell users to connect to via localhost. https://github.com/Asmod4n/hypha-mrb",
+          "supports": [],
+          "author": "Asmod4n",
+          "shared_at": 1778496590,
+          "source_url": "https://news.ycombinator.com/item?id=48093344"
+        }
+      ],
+      "source_item_id": 48093344,
+      "source_url": "https://news.ycombinator.com/item?id=48093344",
+      "author": "Asmod4n",
+      "shared_at": 1778496590,
+      "links": [
+        "https://github.com/Asmod4n/hypha-mrb"
+      ]
+    }
+  ]
+}

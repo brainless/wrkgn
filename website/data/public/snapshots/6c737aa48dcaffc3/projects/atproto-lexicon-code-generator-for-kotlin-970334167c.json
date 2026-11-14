@@ -1,0 +1,33 @@
+{
+  "id": 10538,
+  "slug": "atproto-lexicon-code-generator-for-kotlin-970334167c",
+  "name": "ATProto Lexicon Code Generator for Kotlin",
+  "mentions": [
+    {
+      "name": "ATProto Lexicon Code Generator for Kotlin",
+      "description": "This programmatic code generator takes ATProto Lexicon schemas as input and produces all the HTTP client code and data classes needed to work with ATProto from Kotlin, addressing the protocol's complexity and inconvenience when used without supporting libraries. The goal is to enable developers to build native Android and iOS apps that feel good, in contrast to Bluesky's TypeScript-based apps.",
+      "problem": "ATProto is very complex and inconvenient to work with without supporting libraries, even in a relatively sugary language like Kotlin.",
+      "audience": "Developers working with the AT Protocol (ATProto) in Kotlin, particularly those building native Android and iOS apps",
+      "builder_usernames": [
+        "bpavuk"
+      ],
+      "source_excerpt": "So, I decided to write a (programmatic) code generator that takes Lexicon on input and gives all the HTTP code and data classes you may ever need.",
+      "evidence": [
+        {
+          "source_item_id": 44707869,
+          "source_field": "body",
+          "value": "So, I decided to write a (programmatic) code generator that takes Lexicon on input and gives all the HTTP code and data classes you may ever need.",
+          "supports": [],
+          "author": "bpavuk",
+          "shared_at": 1753684720,
+          "source_url": "https://news.ycombinator.com/item?id=44707869"
+        }
+      ],
+      "source_item_id": 44707869,
+      "source_url": "https://news.ycombinator.com/item?id=44707869",
+      "author": "bpavuk",
+      "shared_at": 1753684720,
+      "links": []
+    }
+  ]
+}

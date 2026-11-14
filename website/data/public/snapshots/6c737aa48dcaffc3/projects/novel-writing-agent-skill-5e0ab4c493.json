@@ -1,0 +1,33 @@
+{
+  "id": 5942,
+  "slug": "novel-writing-agent-skill-5e0ab4c493",
+  "name": "Novel-writing agent skill",
+  "mentions": [
+    {
+      "name": "Novel-writing agent skill",
+      "description": "This is an agent skill for generating complete fiction novels with AI. A SKILL.md defines the goal (criteria for a complete, good novel) and the general method, companion markdown files describe specialist roles (planner, author, editor, lore keeper, plot consistency checker), and a Python file serves as the agent's interface to a strongly structured story data store (world, characters, plot, subplots and how they change per chapter) instead of letting the agent edit raw JSON files directly. Current iterations use cheap Gemini Flash models for story generation with Opus 4.6 providing feedback, with a more powerful generation model planned once the skill is sufficiently well described.",
+      "problem": "A naive chapter-by-chapter generation workflow produced novels only slightly better than the median for the target age group, and the author believes a structured, role-based approach can do better than existing web-based fiction tools that track story details across chapters.",
+      "audience": null,
+      "builder_usernames": [
+        "rahimnathwani"
+      ],
+      "source_excerpt": "I am trying to make an agent skill that has two parts:\n\n- the SKILL.md that defines the goal (what criteria the novel must satisfy to be complete and good) and the general method\n\n- some other md files that describe different roles (planner, author, editor, lore keeper, plot consistency checker etc.)\n\n- a python file which the agent uses as the interface into the data structure (I want it to have a strong structure, and I don't like the idea of the agent just editing a bunch of json files directly)",
+      "evidence": [
+        {
+          "source_item_id": 47304600,
+          "source_field": "body",
+          "value": "I am trying to make an agent skill that has two parts:\n\n- the SKILL.md that defines the goal (what criteria the novel must satisfy to be complete and good) and the general method\n\n- some other md files that describe different roles (planner, author, editor, lore keeper, plot consistency checker etc.)\n\n- a python file which the agent uses as the interface into the data structure (I want it to have a strong structure, and I don't like the idea of the agent just editing a bunch of json files directly)",
+          "supports": [],
+          "author": "rahimnathwani",
+          "shared_at": 1773027269,
+          "source_url": "https://news.ycombinator.com/item?id=47304600"
+        }
+      ],
+      "source_item_id": 47304600,
+      "source_url": "https://news.ycombinator.com/item?id=47304600",
+      "author": "rahimnathwani",
+      "shared_at": 1773027269,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 5482,
+  "slug": "orderin-eff0865dbf",
+  "name": "Orderin",
+  "mentions": [
+    {
+      "name": "Orderin",
+      "description": "This app enables buying food directly from farms using a multi-agent system: an admin agent handles financial transactions and app management, a subscriber agent handles ordering and shopping, a market agent works with farmers or markets, a catering agent handles processing and recipes, and a delivery agent manages cold chain, delivery, and storage. The agent roles are intended to be delegated over time, with the basic structure already in place.",
+      "problem": "Buying food directly from farms is logistically daunting.",
+      "audience": null,
+      "builder_usernames": [
+        "peter_retief"
+      ],
+      "source_excerpt": "So I am creating an ambitious app that uses agents\n\nAdmin: -> handles all financial transactions and manages the app\n\nSubscriber:-> entity who orders/shops\n\nMarket: -> the agents that work with the farmers or markets\n\nCatering: -> for any processing or recipes\n\nDelivery: -> handles cold chain, delivery, storage\n\nInitially I will do everything but the idea is to delegate the agents\n\nThe basic structure is in place\n\nhttps://github.com/peterretief/orderin",
+      "evidence": [
+        {
+          "source_item_id": 47749711,
+          "source_field": "body",
+          "value": "So I am creating an ambitious app that uses agents\n\nAdmin: -> handles all financial transactions and manages the app\n\nSubscriber:-> entity who orders/shops\n\nMarket: -> the agents that work with the farmers or markets\n\nCatering: -> for any processing or recipes\n\nDelivery: -> handles cold chain, delivery, storage\n\nInitially I will do everything but the idea is to delegate the agents\n\nThe basic structure is in place\n\nhttps://github.com/peterretief/orderin",
+          "supports": [],
+          "author": "peter_retief",
+          "shared_at": 1776072699,
+          "source_url": "https://news.ycombinator.com/item?id=47749711"
+        }
+      ],
+      "source_item_id": 47749711,
+      "source_url": "https://news.ycombinator.com/item?id=47749711",
+      "author": "peter_retief",
+      "shared_at": 1776072699,
+      "links": [
+        "https://github.com/peterretief/orderin"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": 6760,
+  "slug": "phrasing-e615d1c088",
+  "name": "Phrasing",
+  "mentions": [
+    {
+      "name": "Phrasing",
+      "description": "A language learning app for polyglots, like Anki but designed to be enjoyed. Current work includes finishing a new landing page with recorded demo videos and rebuilding the sync engine (the fifth iteration) to properly support offline mode and instant app opens.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "barrell"
+      ],
+      "source_excerpt": "Behind the scenes I’m rebuilding the sync engine to properly support offline mode. Trying to get to instant opens for the app (and of course work offline). It’s probably my 5th sync engine. It’s been really fun to see how much easier, faster, better, etc each new iteration is.\n\n(And the project at large is https://phrasing.app - a language learning app for polyglots. It’s like anki but designed to be enjoyed)",
+      "evidence": [
+        {
+          "source_item_id": 46937992,
+          "source_field": "body",
+          "value": "Behind the scenes I’m rebuilding the sync engine to properly support offline mode. Trying to get to instant opens for the app (and of course work offline). It’s probably my 5th sync engine. It’s been really fun to see how much easier, faster, better, etc each new iteration is.\n\n(And the project at large is https://phrasing.app - a language learning app for polyglots. It’s like anki but designed to be enjoyed)",
+          "supports": [],
+          "author": "barrell",
+          "shared_at": 1770581163,
+          "source_url": "https://news.ycombinator.com/item?id=46937992"
+        }
+      ],
+      "source_item_id": 46937992,
+      "source_url": "https://news.ycombinator.com/item?id=46937992",
+      "author": "barrell",
+      "shared_at": 1770581163,
+      "links": [
+        "https://phrasing.app"
+      ]
+    },
+    {
+      "name": "Phrasing",
+      "description": "A language learning app for learning and maintaining multiple languages in one place. It combines the power of spaced repetition with a frictionless, social-media-like experience and a beautifully designed interface. The builder has used it daily for about 8 months, learning several languages in about an hour a day, and is currently working on a new landing page and marketing assets.",
+      "problem": "Learning and maintaining multiple languages is hard to do all in one place; the author wanted spaced repetition combined with a frictionless, enjoyable experience rather than clunky study tools.",
+      "audience": null,
+      "builder_usernames": [
+        "barrell"
+      ],
+      "source_excerpt": "Been working on https://phrasing.app for about 18 months now. I wanted a way where I could learn a maintain multiple languages, all in one place.\n\nI wanted the power of spaced repetition, the frictionless experience of social media, and the joy of a beautifully designed application.",
+      "evidence": [
+        {
+          "source_item_id": 45376309,
+          "source_field": "body",
+          "value": "Been working on https://phrasing.app for about 18 months now. I wanted a way where I could learn a maintain multiple languages, all in one place.\n\nI wanted the power of spaced repetition, the frictionless experience of social media, and the joy of a beautifully designed application.",
+          "supports": [],
+          "author": "barrell",
+          "shared_at": 1758822617,
+          "source_url": "https://news.ycombinator.com/item?id=45376309"
+        }
+      ],
+      "source_item_id": 45376309,
+      "source_url": "https://news.ycombinator.com/item?id=45376309",
+      "author": "barrell",
+      "shared_at": 1758822617,
+      "links": [
+        "https://phrasing.app"
+      ]
+    },
+    {
+      "name": "Phrasing",
+      "description": "A language-learning app for polyglots to study over 120 languages in an effective manner with a beautiful UI. It recently gained an onboarding flow, is refining its search and create experience based on real user usage, and received major performance improvements (100x faster on 5 different axes). Critical algorithm logic is kept in an independent Clojure file compiled and tested with cherry-cljs, with plans to expand to ClojErl and jank for isomorphic Clojure code running in the browser, on a BEAM server, and in a native Swift app. The author uses it daily to study 18 languages, including lower-resourced ones like Maltese, Welsh, and Cantonese, and is preparing for a more public launch.",
+      "problem": null,
+      "audience": "Polyglots",
+      "builder_usernames": [
+        "barrell"
+      ],
+      "source_excerpt": "Still working on https://phrasing.app - an app for polyglots to learn over 120 languages in the most effective manner and a beautiful UI.",
+      "evidence": [
+        {
+          "source_item_id": 44703590,
+          "source_field": "body",
+          "value": "Still working on https://phrasing.app - an app for polyglots to learn over 120 languages in the most effective manner and a beautiful UI.",
+          "supports": [],
+          "author": "barrell",
+          "shared_at": 1753642411,
+          "source_url": "https://news.ycombinator.com/item?id=44703590"
+        }
+      ],
+      "source_item_id": 44703590,
+      "source_url": "https://news.ycombinator.com/item?id=44703590",
+      "author": "barrell",
+      "shared_at": 1753642411,
+      "links": [
+        "https://phrasing.app"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 9946,
+  "slug": "high-throughput-gpu-data-loading-library-python-8a76d2f707",
+  "name": "High-throughput GPU data loading library (Python)",
+  "mentions": [
+    {
+      "name": "High-throughput GPU data loading library (Python)",
+      "description": "A Python library that streams data onto GPUs at hardware-limit speeds (over 8 GiB/s, saturating the author's NVMe SSD), replacing clunky DataLoaders with slow and inconsistent performance. Works with any Python ML framework (torch, tensorflow, jax) for both training and inference, supports single and multi-GPU setups on one node (shared/separate queues for DDP), multiple data sources, seamless training/validation phase transitions, and arbitrary tensor shapes. Planned features include (de)compression, on-the-fly data augmentations, and a public release.",
+      "problem": "Existing DataLoaders are too slow and have inconsistent performance, preventing GPUs from being fed data as fast as storage/network hardware allows.",
+      "audience": "For people building machine learning training and inference pipelines in Python.",
+      "builder_usernames": [
+        "michalsustr"
+      ],
+      "source_excerpt": "I'm working on a python library that allows you to put data on GPU as fast as your network/storage allows you to at the hardware limits. No more clunky DataLoaders that are too slow and have inconsistent perf.",
+      "evidence": [
+        {
+          "source_item_id": 45427603,
+          "source_field": "body",
+          "value": "I'm working on a python library that allows you to put data on GPU as fast as your network/storage allows you to at the hardware limits. No more clunky DataLoaders that are too slow and have inconsistent perf.",
+          "supports": [],
+          "author": "michalsustr",
+          "shared_at": 1759249752,
+          "source_url": "https://news.ycombinator.com/item?id=45427603"
+        }
+      ],
+      "source_item_id": 45427603,
+      "source_url": "https://news.ycombinator.com/item?id=45427603",
+      "author": "michalsustr",
+      "shared_at": 1759249752,
+      "links": []
+    }
+  ]
+}

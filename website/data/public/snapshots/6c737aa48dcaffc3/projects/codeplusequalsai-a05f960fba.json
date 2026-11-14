@@ -1,0 +1,91 @@
+{
+  "id": 5440,
+  "slug": "codeplusequalsai-a05f960fba",
+  "name": "CodePlusEqualsAI",
+  "mentions": [
+    {
+      "name": "CodePlusEqualsAI",
+      "description": "An LLM webapp builder that performs AST-based code edits: instead of editing files directly, the LLM writes Python code (e.g., using BeautifulSoup) that is executed to parse a file such as HTML into a data structure, modify it, and output the resulting HTML. The platform also includes a marketplace where builders can publish their LLM-powered webapps and earn money on token margins (charged at 2x token rates) when people use their sites.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "cryptoz"
+      ],
+      "source_excerpt": "AST-based code edits from LLMs: https://codeplusequalsai.com\n\nIt's an LLM-webapp-builder, sure, but different from the rest! I have the LLM write python code when it needs to modify an HTML file for example (it'll use beautifulsoup; then I run the code: it parses the source into a data structure, modifies the data structure, and then outputs the resulting html).\n\nIt's also a marketplace where you can publish your llm-powered webapp, and earn $ on the token margins (I charge 2x token rates) when people use your site.",
+      "evidence": [
+        {
+          "source_item_id": 47744242,
+          "source_field": "body",
+          "value": "AST-based code edits from LLMs: https://codeplusequalsai.com\n\nIt's an LLM-webapp-builder, sure, but different from the rest! I have the LLM write python code when it needs to modify an HTML file for example (it'll use beautifulsoup; then I run the code: it parses the source into a data structure, modifies the data structure, and then outputs the resulting html).\n\nIt's also a marketplace where you can publish your llm-powered webapp, and earn $ on the token margins (I charge 2x token rates) when people use your site.",
+          "supports": [],
+          "author": "cryptoz",
+          "shared_at": 1776026514,
+          "source_url": "https://news.ycombinator.com/item?id=47744242"
+        }
+      ],
+      "source_item_id": 47744242,
+      "source_url": "https://news.ycombinator.com/item?id=47744242",
+      "author": "cryptoz",
+      "shared_at": 1776026514,
+      "links": [
+        "https://codeplusequalsai.com"
+      ]
+    },
+    {
+      "name": "codeplusequalsai.com",
+      "description": "A platform for AST-based code modifications from LLMs, built on the idea that having LLMs modify the structure of code may work better than writing raw code with line-or-diff replacements. It also builds a per-token-call margin into LLM-powered webapps: end users are charged 2x the provider's token costs, with 80% of the remainder going to the dev and 20% to the platform.",
+      "problem": "LLMs writing raw code and doing line-or-diff replacements may not be the future of AI coding; devs building LLM-powered webapps also lack a way to earn per token call.",
+      "audience": "Developers building LLM-powered webapps, who earn per token call",
+      "builder_usernames": [
+        "cryptoz"
+      ],
+      "source_excerpt": "AST-based code modifications from LLMs: https://codeplusequalsai.com/\n\nI'm interested in the idea that LLMs writing raw code and doing line-or-diff replacements will not be the future, but that having the LLMs modify the structure of the code may end up being the best.\n\nAlso, I think that building LLM-powered webapps should earn the dev per token call; so I've built a margin into token costs where the end user is charged 2x the provider's token costs, and then I get 20% of the remaining and the dev gets 80%.",
+      "evidence": [
+        {
+          "source_item_id": 47308246,
+          "source_field": "body",
+          "value": "AST-based code modifications from LLMs: https://codeplusequalsai.com/\n\nI'm interested in the idea that LLMs writing raw code and doing line-or-diff replacements will not be the future, but that having the LLMs modify the structure of the code may end up being the best.\n\nAlso, I think that building LLM-powered webapps should earn the dev per token call; so I've built a margin into token costs where the end user is charged 2x the provider's token costs, and then I get 20% of the remaining and the dev gets 80%.",
+          "supports": [],
+          "author": "cryptoz",
+          "shared_at": 1773059682,
+          "source_url": "https://news.ycombinator.com/item?id=47308246"
+        }
+      ],
+      "source_item_id": 47308246,
+      "source_url": "https://news.ycombinator.com/item?id=47308246",
+      "author": "cryptoz",
+      "shared_at": 1773059682,
+      "links": [
+        "https://codeplusequalsai.com/"
+      ]
+    },
+    {
+      "name": "CodePlusEqualsAI",
+      "description": "A platform for people to build LLM-powered webapps and earn revenue as their apps are used. It integrates the OpenAI API and charges 2x for tokens so webapp builders can earn a margin on usage.",
+      "problem": null,
+      "audience": "Webapp builders who want to earn revenue as their apps are used",
+      "builder_usernames": [
+        "cryptoz"
+      ],
+      "source_excerpt": "A way for people to build LLM-powered webapps and then easily earn as they are used: I use OpenAI API and charge 2x for tokens so that webapp builders can earn on the margin: https://codeplusequalsai.com",
+      "evidence": [
+        {
+          "source_item_id": 45418766,
+          "source_field": "body",
+          "value": "A way for people to build LLM-powered webapps and then easily earn as they are used: I use OpenAI API and charge 2x for tokens so that webapp builders can earn on the margin: https://codeplusequalsai.com",
+          "supports": [],
+          "author": "cryptoz",
+          "shared_at": 1759180034,
+          "source_url": "https://news.ycombinator.com/item?id=45418766"
+        }
+      ],
+      "source_item_id": 45418766,
+      "source_url": "https://news.ycombinator.com/item?id=45418766",
+      "author": "cryptoz",
+      "shared_at": 1759180034,
+      "links": [
+        "https://codeplusequalsai.com"
+      ]
+    }
+  ]
+}

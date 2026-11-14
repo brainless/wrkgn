@@ -1,0 +1,36 @@
+{
+  "id": 10361,
+  "slug": "canine-1f86808233",
+  "name": "Canine",
+  "mentions": [
+    {
+      "name": "Canine",
+      "description": "A free, open source platform-as-a-service alternative to Heroku, Render, and Fly.io built on top of Kubernetes. It supports deployments of your own apps as well as 15k+ other packages such as Postgres, Airbyte, and Dagster via Helm charts.",
+      "problem": "PaaS providers charge massive markups while the author missed the simplicity and convenience of a managed platform.",
+      "audience": null,
+      "builder_usernames": [
+        "czhu12"
+      ],
+      "source_excerpt": "I'm working on a Heroku / Render / Flyio alternative thats free, open source, built on top of Kubernetes.\n\nSupports deployments of your own apps as well as 15k+ other packages (postgres, airbyte, dagster, etc) via helm charts.",
+      "evidence": [
+        {
+          "source_item_id": 44703870,
+          "source_field": "body",
+          "value": "I'm working on a Heroku / Render / Flyio alternative thats free, open source, built on top of Kubernetes.\n\nSupports deployments of your own apps as well as 15k+ other packages (postgres, airbyte, dagster, etc) via helm charts.",
+          "supports": [],
+          "author": "czhu12",
+          "shared_at": 1753644455,
+          "source_url": "https://news.ycombinator.com/item?id=44703870"
+        }
+      ],
+      "source_item_id": 44703870,
+      "source_url": "https://news.ycombinator.com/item?id=44703870",
+      "author": "czhu12",
+      "shared_at": 1753644455,
+      "links": [
+        "https://canine.sh",
+        "https://github.com/czhu12/canine"
+      ]
+    }
+  ]
+}

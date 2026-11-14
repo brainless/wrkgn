@@ -1,0 +1,35 @@
+{
+  "id": 5397,
+  "slug": "lambda-autodiff-fc685d8ef9",
+  "name": "lambda-autodiff",
+  "mentions": [
+    {
+      "name": "lambda-autodiff",
+      "description": "A Clojure automatic differentiation library inspired by Karpathy's micrograd; recently revived with bug fixes and used to implement a version of microgpt, with a GPT example published in the project documentation.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "cloudkj"
+      ],
+      "source_excerpt": "Automatic differentiation library in Clojure (https://github.com/cloudkj/lambda-autodiff) - inspired by Karpathy's `micrograd` from a few years ago; dusted it off recently, fixed a few issues, and was able to use it to implement a version of `microgpt` - https://cloudkj.github.io/lambda-autodiff/doc/examples/gpt/",
+      "evidence": [
+        {
+          "source_item_id": 47757703,
+          "source_field": "body",
+          "value": "Automatic differentiation library in Clojure (https://github.com/cloudkj/lambda-autodiff) - inspired by Karpathy's `micrograd` from a few years ago; dusted it off recently, fixed a few issues, and was able to use it to implement a version of `microgpt` - https://cloudkj.github.io/lambda-autodiff/doc/examples/gpt/",
+          "supports": [],
+          "author": "cloudkj",
+          "shared_at": 1776113762,
+          "source_url": "https://news.ycombinator.com/item?id=47757703"
+        }
+      ],
+      "source_item_id": 47757703,
+      "source_url": "https://news.ycombinator.com/item?id=47757703",
+      "author": "cloudkj",
+      "shared_at": 1776113762,
+      "links": [
+        "https://github.com/cloudkj/lambda-autodiff"
+      ]
+    }
+  ]
+}

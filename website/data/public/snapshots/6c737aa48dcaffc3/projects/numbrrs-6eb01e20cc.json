@@ -1,0 +1,36 @@
+{
+  "id": 5268,
+  "slug": "numbrrs-6eb01e20cc",
+  "name": "Numbrrs",
+  "mentions": [
+    {
+      "name": "Numbrrs",
+      "description": "A flashcard game for learning to recognize NHL players by their jersey numbers. Built as a SvelteKit app, it pulls roster data directly from the NHL to stay up to date with roster changes.",
+      "problem": "Existing options for learning NHL jersey numbers, such as Sporcle quizzes, were out of date.",
+      "audience": "I decided I wanted to get better at recognizing NHL jersey numbers and was frustrated with the options available to learn (out of date Sporcle quizs and the like)",
+      "builder_usernames": [
+        "jamincan"
+      ],
+      "source_excerpt": "I decided I wanted to get better at recognizing NHL jersey numbers and was frustrated with the options available to learn (out of date Sporcle quizs and the like), so I tossed together a flashcard game with the help of Claude.\n\nIt pulls data directly from the NHL to stay up-to-date with changes to the roster, but is otherwise a pretty straight-forward and basic sveltekit app.",
+      "evidence": [
+        {
+          "source_item_id": 47750365,
+          "source_field": "body",
+          "value": "I decided I wanted to get better at recognizing NHL jersey numbers and was frustrated with the options available to learn (out of date Sporcle quizs and the like), so I tossed together a flashcard game with the help of Claude.\n\nIt pulls data directly from the NHL to stay up-to-date with changes to the roster, but is otherwise a pretty straight-forward and basic sveltekit app.",
+          "supports": [],
+          "author": "jamincan",
+          "shared_at": 1776078555,
+          "source_url": "https://news.ycombinator.com/item?id=47750365"
+        }
+      ],
+      "source_item_id": 47750365,
+      "source_url": "https://news.ycombinator.com/item?id=47750365",
+      "author": "jamincan",
+      "shared_at": 1776078555,
+      "links": [
+        "https://github.com/jamincan/numbrrs",
+        "https://numbrrs.ca"
+      ]
+    }
+  ]
+}

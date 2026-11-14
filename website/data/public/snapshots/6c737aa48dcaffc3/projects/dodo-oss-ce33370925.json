@@ -1,0 +1,35 @@
+{
+  "id": 8387,
+  "slug": "dodo-oss-ce33370925",
+  "name": "dodo-oss",
+  "mentions": [
+    {
+      "name": "dodo-oss",
+      "description": "This PaaS focuses on development environments, letting users create new environments, fork existing ones (like a git repo) to experiment or debug in isolation, define environments via config for reproducibility, run hybrid workloads (parts on a personal machine with services like databases and storage in the cloud), expose services (HTTP/TCP/UDP) on public or private networks for easy sharing, and include any number of goal-specific AI agents as part of the dev environment.",
+      "problem": "There are many things to be improved all throughout the development process, from creating new dev environments to forking, reproducing, and sharing them.",
+      "audience": "Development environment tooling for people building software.",
+      "builder_usernames": [
+        "giolekva"
+      ],
+      "source_excerpt": "I've building PaaS focused on development environments. I think there are so many things to be improved all throughout the development process:",
+      "evidence": [
+        {
+          "source_item_id": 46271872,
+          "source_field": "body",
+          "value": "I've building PaaS focused on development environments. I think there are so many things to be improved all throughout the development process:",
+          "supports": [],
+          "author": "giolekva",
+          "shared_at": 1765788189,
+          "source_url": "https://news.ycombinator.com/item?id=46271872"
+        }
+      ],
+      "source_item_id": 46271872,
+      "source_url": "https://news.ycombinator.com/item?id=46271872",
+      "author": "giolekva",
+      "shared_at": 1765788189,
+      "links": [
+        "https://www.youtube.com/@dodo-oss/videos"
+      ]
+    }
+  ]
+}

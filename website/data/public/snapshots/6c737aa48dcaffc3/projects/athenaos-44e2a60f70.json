@@ -1,0 +1,36 @@
+{
+  "id": 6048,
+  "slug": "athenaos-44e2a60f70",
+  "name": "AthenaOS",
+  "mentions": [
+    {
+      "name": "AthenaOS",
+      "description": "This open-source project is an AI-agent-based personal investing platform with dashboards for the user's portfolio, additional investing-specific tools, and an AI-human collaboration for researching economics via a community tab. All data models are stored in markdown and Excel so there is no lock-in, allowing manual editing of positions and agent personalities. It is released as open source to address the frustration that most investing tools scrape personal data and force subscription lock-in.",
+      "problem": "Most investing tools scrape personal data and force users into subscription lock-in; this project aims to be an open, no-lock-in alternative with editable data models.",
+      "audience": null,
+      "builder_usernames": [
+        "cl42"
+      ],
+      "source_excerpt": "I'm building AthenaOS: https://athena-os.ai/\n\nBasically OpenClaw but with investing dashboards for my portfolio, additional tools specifically for investing, and exploring an AI-Human collaboration on researching economics (check the 'community' tab).\n\nThe data models are all in markdown and Excel so that there's no lockin and you can manually edit positions, personalities, etc.",
+      "evidence": [
+        {
+          "source_item_id": 47306061,
+          "source_field": "body",
+          "value": "I'm building AthenaOS: https://athena-os.ai/\n\nBasically OpenClaw but with investing dashboards for my portfolio, additional tools specifically for investing, and exploring an AI-Human collaboration on researching economics (check the 'community' tab).\n\nThe data models are all in markdown and Excel so that there's no lockin and you can manually edit positions, personalities, etc.",
+          "supports": [],
+          "author": "cl42",
+          "shared_at": 1773043460,
+          "source_url": "https://news.ycombinator.com/item?id=47306061"
+        }
+      ],
+      "source_item_id": 47306061,
+      "source_url": "https://news.ycombinator.com/item?id=47306061",
+      "author": "cl42",
+      "shared_at": 1773043460,
+      "links": [
+        "https://athena-os.ai/",
+        "https://github.com/wgryc/athena-os"
+      ]
+    }
+  ]
+}

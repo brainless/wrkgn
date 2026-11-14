@@ -1,0 +1,33 @@
+{
+  "id": 5497,
+  "slug": "jq-system-filter-788d56c0f8",
+  "name": "jq 'system' filter",
+  "mentions": [
+    {
+      "name": "jq 'system' filter",
+      "description": "A 'system' filter implemented for the jq command-line JSON processor in a three-hour effort that turned out to duplicate roughly seventeen existing pull requests for the same feature going back ten years.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "nothrabannosir"
+      ],
+      "source_excerpt": "Spent 3h today adding a “system” filter to jq only to find out there are like seventeen PRs for this going back ten years.",
+      "evidence": [
+        {
+          "source_item_id": 47747003,
+          "source_field": "body",
+          "value": "Spent 3h today adding a “system” filter to jq only to find out there are like seventeen PRs for this going back ten years.",
+          "supports": [],
+          "author": "nothrabannosir",
+          "shared_at": 1776048607,
+          "source_url": "https://news.ycombinator.com/item?id=47747003"
+        }
+      ],
+      "source_item_id": 47747003,
+      "source_url": "https://news.ycombinator.com/item?id=47747003",
+      "author": "nothrabannosir",
+      "shared_at": 1776048607,
+      "links": []
+    }
+  ]
+}

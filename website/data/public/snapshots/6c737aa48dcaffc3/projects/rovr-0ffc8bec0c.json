@@ -1,0 +1,35 @@
+{
+  "id": 10230,
+  "slug": "rovr-0ffc8bec0c",
+  "name": "rovr",
+  "mentions": [
+    {
+      "name": "rovr",
+      "description": "This is a terminal file explorer built with the Textual framework, which provides proper mouse handling that competing tools like superfile and yazi lack or handle poorly. It is being updated to replace threads with asyncio to improve performance.",
+      "problem": "There are too few competing terminal file explorers, and existing ones like superfile miss proper mouse handling or, like yazi, are not nice to use for it.",
+      "audience": null,
+      "builder_usernames": [
+        "NSPG911"
+      ],
+      "source_excerpt": "rovr, a terminal file explorer because there just isnt enough competing\nusing the textual framework, i have proper mouse handling thanks to it, that i noticed was missing in superfile, or just wasnt nice to use in yazi\nim taking a look at asyncio to replace threads in the program to hopefully help performance",
+      "evidence": [
+        {
+          "source_item_id": 45421248,
+          "source_field": "body",
+          "value": "rovr, a terminal file explorer because there just isnt enough competing\nusing the textual framework, i have proper mouse handling thanks to it, that i noticed was missing in superfile, or just wasnt nice to use in yazi\nim taking a look at asyncio to replace threads in the program to hopefully help performance",
+          "supports": [],
+          "author": "NSPG911",
+          "shared_at": 1759198686,
+          "source_url": "https://news.ycombinator.com/item?id=45421248"
+        }
+      ],
+      "source_item_id": 45421248,
+      "source_url": "https://news.ycombinator.com/item?id=45421248",
+      "author": "NSPG911",
+      "shared_at": 1759198686,
+      "links": [
+        "https://github.com/NSPC911/rovr"
+      ]
+    }
+  ]
+}

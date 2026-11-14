@@ -1,0 +1,33 @@
+{
+  "id": 4709,
+  "slug": "samba-domain-setup-tool-e4bdece0d7",
+  "name": "Samba domain setup tool",
+  "mentions": [
+    {
+      "name": "Samba domain setup tool",
+      "description": "An interactive tool that walks users through setting up a Samba domain on Linux, adding domain controllers (DCs), and configuring file servers and workstations. Planned work includes making NFSv4 integration with Samba painless and a GUI application.",
+      "problem": "Setting up, joining, and using a Samba domain on Linux is difficult.",
+      "audience": null,
+      "builder_usernames": [
+        "solraph"
+      ],
+      "source_excerpt": "I'm currently building a tool that walks a user through setting up a domain, adding DCs, and configuring fileservers and workstations.",
+      "evidence": [
+        {
+          "source_item_id": 48091574,
+          "source_field": "body",
+          "value": "I'm currently building a tool that walks a user through setting up a domain, adding DCs, and configuring fileservers and workstations.",
+          "supports": [],
+          "author": "solraph",
+          "shared_at": 1778480095,
+          "source_url": "https://news.ycombinator.com/item?id=48091574"
+        }
+      ],
+      "source_item_id": 48091574,
+      "source_url": "https://news.ycombinator.com/item?id=48091574",
+      "author": "solraph",
+      "shared_at": 1778480095,
+      "links": []
+    }
+  ]
+}

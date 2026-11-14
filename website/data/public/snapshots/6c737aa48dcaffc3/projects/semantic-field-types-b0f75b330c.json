@@ -1,0 +1,35 @@
+{
+  "id": 7168,
+  "slug": "semantic-field-types-b0f75b330c",
+  "name": "Semantic Field Types",
+  "mentions": [
+    {
+      "name": "Semantic Field Types",
+      "description": "This project defines a semantic-level standard system for data type classification, providing metadata semantics for data lakes and warehouses that go beyond basic physical-level types like text and number, with potential usefulness for AI-targeted metadata and text-to-SQL use cases.",
+      "problem": "Metadata in data lakes and warehouses is typically limited to basic physical-level types like text/number, lacking semantic-level classification.",
+      "audience": null,
+      "builder_usernames": [
+        "jaakl"
+      ],
+      "source_excerpt": "Semi-academic attempt to build semantic-level standard system for data type classification. Useful for metadata semantics data lakes / warehouses beyond basic physical level like text/number, with assumption that it may be useful for AI-targeted metadata, your text to sql cases. https://github.com/jaakla/semantic-field-types",
+      "evidence": [
+        {
+          "source_item_id": 46946072,
+          "source_field": "body",
+          "value": "Semi-academic attempt to build semantic-level standard system for data type classification. Useful for metadata semantics data lakes / warehouses beyond basic physical level like text/number, with assumption that it may be useful for AI-targeted metadata, your text to sql cases. https://github.com/jaakla/semantic-field-types",
+          "supports": [],
+          "author": "jaakl",
+          "shared_at": 1770649950,
+          "source_url": "https://news.ycombinator.com/item?id=46946072"
+        }
+      ],
+      "source_item_id": 46946072,
+      "source_url": "https://news.ycombinator.com/item?id=46946072",
+      "author": "jaakl",
+      "shared_at": 1770649950,
+      "links": [
+        "https://github.com/jaakla/semantic-field-types"
+      ]
+    }
+  ]
+}

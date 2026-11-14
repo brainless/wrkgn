@@ -1,0 +1,35 @@
+{
+  "id": 5317,
+  "slug": "git-where-90be117420",
+  "name": "git-where",
+  "mentions": [
+    {
+      "name": "git-where",
+      "description": "This Git extension adds a \"where\" command that resolves locations across Git worktrees, powering shell functions such as `jbr <branchname>` to jump to the checkout containing a branch from anywhere and `jd <subdir>` to autojump to a subdirectory within the current checkout, restoring fast repo navigation when juggling many concurrent worktree checkouts.",
+      "problem": "Git worktrees broke the author's shell workflow: `j <reponame>` plus `gco <branchname>` errored because the branch was already checked out in another worktree, and with dozens of concurrent checkouts, jumping to a subdirectory by name was no longer unique enough to resolve.",
+      "audience": null,
+      "builder_usernames": [
+        "turadg"
+      ],
+      "source_excerpt": "To power those shell functions I made a “where” extension for Git.\n\nhttps://github.com/turadg/git-where\n\nIt’s working out nicely!",
+      "evidence": [
+        {
+          "source_item_id": 47746869,
+          "source_field": "body",
+          "value": "To power those shell functions I made a “where” extension for Git.\n\nhttps://github.com/turadg/git-where\n\nIt’s working out nicely!",
+          "supports": [],
+          "author": "turadg",
+          "shared_at": 1776047269,
+          "source_url": "https://news.ycombinator.com/item?id=47746869"
+        }
+      ],
+      "source_item_id": 47746869,
+      "source_url": "https://news.ycombinator.com/item?id=47746869",
+      "author": "turadg",
+      "shared_at": 1776047269,
+      "links": [
+        "https://github.com/turadg/git-where"
+      ]
+    }
+  ]
+}

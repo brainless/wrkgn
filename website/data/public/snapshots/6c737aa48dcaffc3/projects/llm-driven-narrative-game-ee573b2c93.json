@@ -1,0 +1,33 @@
+{
+  "id": 8307,
+  "slug": "llm-driven-narrative-game-ee573b2c93",
+  "name": "LLM-driven narrative game",
+  "mentions": [
+    {
+      "name": "LLM-driven narrative game",
+      "description": "An LLM-driven narrative game where the story advances through generated progression options. It uses a memory hierarchy (Arc -> Scene -> Moment -> Line) that compacts the story to a constant amount of tokens per layer to keep context manageable, with ongoing work on tuning the amount of divergence in the generated story options.",
+      "problem": "The main technical challenge is context compaction for long-running LLM narratives: how to compress the story to a constant token budget per layer, and how to get the right amount of divergence when generating story progression options.",
+      "audience": null,
+      "builder_usernames": [
+        "kennethwolters"
+      ],
+      "source_excerpt": "LLM-driven narrative game. Main technical issue is how go do compaction. I’ve devised a memory hierarchy that compacts the story to a constant amount of tokens per layer. Arc -> Scene -> Moment -> Line.",
+      "evidence": [
+        {
+          "source_item_id": 46267399,
+          "source_field": "body",
+          "value": "LLM-driven narrative game. Main technical issue is how go do compaction. I’ve devised a memory hierarchy that compacts the story to a constant amount of tokens per layer. Arc -> Scene -> Moment -> Line.",
+          "supports": [],
+          "author": "kennethwolters",
+          "shared_at": 1765749295,
+          "source_url": "https://news.ycombinator.com/item?id=46267399"
+        }
+      ],
+      "source_item_id": 46267399,
+      "source_url": "https://news.ycombinator.com/item?id=46267399",
+      "author": "kennethwolters",
+      "shared_at": 1765749295,
+      "links": []
+    }
+  ]
+}

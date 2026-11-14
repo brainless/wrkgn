@@ -1,0 +1,35 @@
+{
+  "id": 6695,
+  "slug": "echomindr-2b99a6450e",
+  "name": "Echomindr",
+  "mentions": [
+    {
+      "name": "Echomindr",
+      "description": "This project extracts structured decisions, lessons, and signals from startup podcast episodes (HIBT, Lenny's, Acquired, YC, 20VC) and makes them searchable via an API and MCP server, giving AI agents access to what founders actually did with verbatim quotes and timestamp links to the source episodes.",
+      "problem": "AI agents give generic startup advice; this provides them access to what founders actually did, with verbatim quotes and timestamp links to the source.",
+      "audience": "AI agents, accessed via API and MCP server",
+      "builder_usernames": [
+        "thierryfaucher"
+      ],
+      "source_excerpt": "Built Echomindr this week — extracted 1,150 structured decisions, lessons, and signals from 96 podcast episodes (HIBT, Lenny's, Acquired, YC, 20VC) and made them searchable via API and MCP server.",
+      "evidence": [
+        {
+          "source_item_id": 47204561,
+          "source_field": "body",
+          "value": "Built Echomindr this week — extracted 1,150 structured decisions, lessons, and signals from 96 podcast episodes (HIBT, Lenny's, Acquired, YC, 20VC) and made them searchable via API and MCP server.",
+          "supports": [],
+          "author": "thierryfaucher",
+          "shared_at": 1772350531,
+          "source_url": "https://news.ycombinator.com/item?id=47204561"
+        }
+      ],
+      "source_item_id": 47204561,
+      "source_url": "https://news.ycombinator.com/item?id=47204561",
+      "author": "thierryfaucher",
+      "shared_at": 1772350531,
+      "links": [
+        "https://github.com/echomindr/echomindr"
+      ]
+    }
+  ]
+}

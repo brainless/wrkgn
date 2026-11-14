@@ -1,0 +1,35 @@
+{
+  "id": 3618,
+  "slug": "nvim-python-fold-ef9b7786ad",
+  "name": "nvim_python_fold",
+  "mentions": [
+    {
+      "name": "nvim_python_fold",
+      "description": "A Neovim plugin that folds Python code so a file can be understood quickly by showing only function signatures and the first docstring line, with tab and shift-tab to fold or unfold and docstrings expandable in full.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "bluebirdfirewin"
+      ],
+      "source_excerpt": "A folding python code plugin for neovim. It allows me to check faster what a file is doing by only looking at the function signatures and the first docstring line. Then open the docstring completely.\nI use tab and shift-tab to fold or unfold.",
+      "evidence": [
+        {
+          "source_item_id": 48532704,
+          "source_field": "body",
+          "value": "A folding python code plugin for neovim. It allows me to check faster what a file is doing by only looking at the function signatures and the first docstring line. Then open the docstring completely.\nI use tab and shift-tab to fold or unfold.",
+          "supports": [],
+          "author": "bluebirdfirewin",
+          "shared_at": 1781471085,
+          "source_url": "https://news.ycombinator.com/item?id=48532704"
+        }
+      ],
+      "source_item_id": 48532704,
+      "source_url": "https://news.ycombinator.com/item?id=48532704",
+      "author": "bluebirdfirewin",
+      "shared_at": 1781471085,
+      "links": [
+        "https://codeberg.org/gixita/nvim_python_fold"
+      ]
+    }
+  ]
+}

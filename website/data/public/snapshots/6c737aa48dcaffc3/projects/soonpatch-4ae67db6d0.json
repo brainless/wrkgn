@@ -1,0 +1,35 @@
+{
+  "id": 4035,
+  "slug": "soonpatch-4ae67db6d0",
+  "name": "Soonpatch",
+  "mentions": [
+    {
+      "name": "Soonpatch",
+      "description": "A tool that turns Slack report messages about code bugs or improvements into fixes: paste the report into Claude Code and it applies the fix in the proper repo/worktree right away. It can be invoked from any Claude Code instance and automatically locates the right repo/worktree without manual directory navigation.",
+      "problem": "Manually navigating directories to apply Slack-reported code fixes in the correct repo/worktree is slow and error-prone; Soonpatch automates routing and applying the fix.",
+      "audience": null,
+      "builder_usernames": [
+        "lucasacosta_"
+      ],
+      "source_excerpt": "I'm working on https://soonpatch.com - to paste a slack report message about your code (bug/improvement) in Claude Code and get the fix in the proper repo/worktree right away (you can call it in any CC instance and it'll find the way, no need to navigate through your directories manually)",
+      "evidence": [
+        {
+          "source_item_id": 48543684,
+          "source_field": "body",
+          "value": "I'm working on https://soonpatch.com - to paste a slack report message about your code (bug/improvement) in Claude Code and get the fix in the proper repo/worktree right away (you can call it in any CC instance and it'll find the way, no need to navigate through your directories manually)",
+          "supports": [],
+          "author": "lucasacosta_",
+          "shared_at": 1781541078,
+          "source_url": "https://news.ycombinator.com/item?id=48543684"
+        }
+      ],
+      "source_item_id": 48543684,
+      "source_url": "https://news.ycombinator.com/item?id=48543684",
+      "author": "lucasacosta_",
+      "shared_at": 1781541078,
+      "links": [
+        "https://soonpatch.com"
+      ]
+    }
+  ]
+}

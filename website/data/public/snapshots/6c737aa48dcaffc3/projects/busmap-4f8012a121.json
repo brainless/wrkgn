@@ -1,0 +1,36 @@
+{
+  "id": 8641,
+  "slug": "busmap-4f8012a121",
+  "name": "busmap",
+  "mentions": [
+    {
+      "name": "busmap",
+      "description": "A live bus map powered by the UK Bus Open Data Service, showing real-time bus positions, with bonus data contributed from a local RTL-SDR radio stack.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mrwizrd"
+      ],
+      "source_excerpt": "This live bus map, powered by the UK Bus Open Data Service: https://github.com/adamjames/busmap.\n\nLive instance at https://busmap.tail5c8e3.ts.net/\n\nBonus data from a local RTL-SDR stack.",
+      "evidence": [
+        {
+          "source_item_id": 46270054,
+          "source_field": "body",
+          "value": "This live bus map, powered by the UK Bus Open Data Service: https://github.com/adamjames/busmap.\n\nLive instance at https://busmap.tail5c8e3.ts.net/\n\nBonus data from a local RTL-SDR stack.",
+          "supports": [],
+          "author": "mrwizrd",
+          "shared_at": 1765768605,
+          "source_url": "https://news.ycombinator.com/item?id=46270054"
+        }
+      ],
+      "source_item_id": 46270054,
+      "source_url": "https://news.ycombinator.com/item?id=46270054",
+      "author": "mrwizrd",
+      "shared_at": 1765768605,
+      "links": [
+        "https://busmap.tail5c8e3.ts.net/",
+        "https://github.com/adamjames/busmap"
+      ]
+    }
+  ]
+}

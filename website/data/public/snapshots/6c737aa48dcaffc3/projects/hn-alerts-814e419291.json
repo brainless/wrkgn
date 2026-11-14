@@ -1,0 +1,63 @@
+{
+  "id": 3987,
+  "slug": "hn-alerts-814e419291",
+  "name": "HN Alerts",
+  "mentions": [
+    {
+      "name": "HN Alerts",
+      "description": "A free website that sends email alerts when stories start trending on Hacker News, notifying the user once a story exceeds a set number of upvotes per minute. It checks every 5 minutes and rolls up multiple trending stories in the same window into one email, with upcoming support for alerts on specific words or phrases in titles, such as new monthly hiring threads.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "davidbarker"
+      ],
+      "source_excerpt": "Currently working on HN Alerts — a simple free site I made to alert me (via email) to trending stories on Hacker News.\n\nIt sends me an email once a story hits a certain number of upvotes per minute, so it's useful for keeping track of breaking news.\n\nIt'll also soon allow you to get alerted to specific words or phrases in titles. (I have one set up so the monthly hiring threads notify me as soon as they appear.)\n\nhttps://hnalerts.com",
+      "evidence": [
+        {
+          "source_item_id": 48529136,
+          "source_field": "body",
+          "value": "Currently working on HN Alerts — a simple free site I made to alert me (via email) to trending stories on Hacker News.\n\nIt sends me an email once a story hits a certain number of upvotes per minute, so it's useful for keeping track of breaking news.\n\nIt'll also soon allow you to get alerted to specific words or phrases in titles. (I have one set up so the monthly hiring threads notify me as soon as they appear.)\n\nhttps://hnalerts.com",
+          "supports": [],
+          "author": "davidbarker",
+          "shared_at": 1781454504,
+          "source_url": "https://news.ycombinator.com/item?id=48529136"
+        }
+      ],
+      "source_item_id": 48529136,
+      "source_url": "https://news.ycombinator.com/item?id=48529136",
+      "author": "davidbarker",
+      "shared_at": 1781454504,
+      "links": [
+        "https://hnalerts.com"
+      ]
+    },
+    {
+      "name": "HN Alerts",
+      "description": "A free website that sends email alerts when Hacker News stories start trending, triggering a notification once a story reaches a set number of upvotes per minute to help track breaking news.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "davidbarker"
+      ],
+      "source_excerpt": "Currently working on HN Alerts — a simple free site I made to alert me (via email) to trending stories on Hacker News.\n\nIt sends me an email once a story hits a certain number of upvotes per minute, so it's useful for keeping track of breaking news.",
+      "evidence": [
+        {
+          "source_item_id": 43815553,
+          "source_field": "body",
+          "value": "Currently working on HN Alerts — a simple free site I made to alert me (via email) to trending stories on Hacker News.\n\nIt sends me an email once a story hits a certain number of upvotes per minute, so it's useful for keeping track of breaking news.",
+          "supports": [],
+          "author": "davidbarker",
+          "shared_at": 1745792028,
+          "source_url": "https://news.ycombinator.com/item?id=43815553"
+        }
+      ],
+      "source_item_id": 43815553,
+      "source_url": "https://news.ycombinator.com/item?id=43815553",
+      "author": "davidbarker",
+      "shared_at": 1745792028,
+      "links": [
+        "https://hnalerts.com"
+      ]
+    }
+  ]
+}

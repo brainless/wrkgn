@@ -1,0 +1,35 @@
+{
+  "id": 7367,
+  "slug": "vgstack-43bf91df5c",
+  "name": "vgstack",
+  "mentions": [
+    {
+      "name": "vgstack",
+      "description": "A video game backlog tracking service that automates the game logging process. Users auto-forward Nintendo and PlayStation purchase emails to a custom inbox, where the games and dates are parsed and turned into queue items that can be approved or denied from a phone. Includes a documented CRUD API for integrations like Zapier, and a bring-your-own-Gemini-key natural language chatbot for quick actions (e.g., marking a game as beaten) and questions about the game library and history. Built with Django/HTMX/Alpine/DaisyUI/Postgres and self-hosted.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rucury"
+      ],
+      "source_excerpt": "I've been having a lot of fun building https://vgstack.app\n\nIt's yet another video game backlog tracking service but I'm building this one to automate as much as I can about the actual game logging process. So for example, I'm auto-forwarding all my Nintendo and PlayStation purchase emails to a custom inbox. That email gets parsed, the game(s) and date(s) are extracted, and I get a new queue item I can approve or deny easily on my phone.",
+      "evidence": [
+        {
+          "source_item_id": 46949783,
+          "source_field": "body",
+          "value": "I've been having a lot of fun building https://vgstack.app\n\nIt's yet another video game backlog tracking service but I'm building this one to automate as much as I can about the actual game logging process. So for example, I'm auto-forwarding all my Nintendo and PlayStation purchase emails to a custom inbox. That email gets parsed, the game(s) and date(s) are extracted, and I get a new queue item I can approve or deny easily on my phone.",
+          "supports": [],
+          "author": "rucury",
+          "shared_at": 1770665295,
+          "source_url": "https://news.ycombinator.com/item?id=46949783"
+        }
+      ],
+      "source_item_id": 46949783,
+      "source_url": "https://news.ycombinator.com/item?id=46949783",
+      "author": "rucury",
+      "shared_at": 1770665295,
+      "links": [
+        "https://vgstack.app"
+      ]
+    }
+  ]
+}

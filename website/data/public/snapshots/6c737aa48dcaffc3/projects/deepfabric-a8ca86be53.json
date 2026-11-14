@@ -1,0 +1,36 @@
+{
+  "id": 8030,
+  "slug": "deepfabric-a8ca86be53",
+  "name": "DeepFabric",
+  "mentions": [
+    {
+      "name": "DeepFabric",
+      "description": "Pipeline for generating high-quality synthetic training datasets, fine-tuning models, and evaluating them. Uses topic graph generation algorithms to keep samples diverse yet domain-anchored, and constrained decoding, response validation, and real tool executions in isolated WebAssembly environments to enforce schema structure and execution correctness. Tool definitions can be imported from MCP server schemas and mocked or run as real tool functions. Generated datasets upload automatically to Hugging Face and import into training frameworks like TRL, Unsloth, and Axolotl, and a built-in evaluation engine tests models on unseen tasks derived from training splits. Recently used to train a 4B model to outperform Claude Sonnet 4.5 and Gemini Pro 2.5 at tool calling.",
+      "problem": "Other dataset generation tools often produce redundant samples that lack diversity and domain relevance, resulting in model overfit.",
+      "audience": null,
+      "builder_usernames": [
+        "decodebytes"
+      ],
+      "source_excerpt": "DeepFabric - Generate High-Quality Synthetics, Fine-Tune, Measure, and Evaluate models in a Single Pipeline",
+      "evidence": [
+        {
+          "source_item_id": 46482660,
+          "source_field": "body",
+          "value": "DeepFabric - Generate High-Quality Synthetics, Fine-Tune, Measure, and Evaluate models in a Single Pipeline",
+          "supports": [],
+          "author": "decodebytes",
+          "shared_at": 1767481442,
+          "source_url": "https://news.ycombinator.com/item?id=46482660"
+        }
+      ],
+      "source_item_id": 46482660,
+      "source_url": "https://news.ycombinator.com/item?id=46482660",
+      "author": "decodebytes",
+      "shared_at": 1767481442,
+      "links": [
+        "https://colab.research.google.com/drive/1EG1V40v5xkJKLf6Ra6W4378vYqlZNVWq",
+        "https://github.com/always-further/deepfabric"
+      ]
+    }
+  ]
+}

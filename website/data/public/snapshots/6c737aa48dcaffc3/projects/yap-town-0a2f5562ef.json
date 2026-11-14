@@ -1,0 +1,36 @@
+{
+  "id": 9176,
+  "slug": "yap-town-0a2f5562ef",
+  "name": "yap.town",
+  "mentions": [
+    {
+      "name": "yap.town",
+      "description": "An SRS-based language learning app at https://yap.town that combines the strengths of Duolingo and Anki: spaced repetition for memorizing words plus exposure to new sentences in context. It disambiguates how each word is used in each sentence (e.g., French 'bois' as '(you) drink' vs 'wood') using a finetuned Gemma3 NLP model, and teaches Wiktionary 'multiword terms' (like \"you better believe it\") in addition to individual words, only showing sentences where the learner knows all the individual words and terms.",
+      "problem": "Anki is great for memorizing words but doesn't show them in the context of novel sentences, while Duolingo exposes learners to new sentences but treats SRS as an afterthought and is too easy and slow for serious learners. Knowing all the words in a sentence is also insufficient, since words have multiple meanings and multiword expressions like \"you'd better not\" aren't understood word by word.",
+      "audience": "People serious about learning a language, for whom Duolingo is too easy and too slow",
+      "builder_usernames": [
+        "ChadNauseam"
+      ],
+      "source_excerpt": "I'm working on https://yap.town - an SRS based language learning app.\n\nI would say it combines the best parts of Duolingo and Anki. Anki is great for memorizing words, but you don't see the words in the context of novel sentences. Duolingo is great for exposure to new sentences, but it's oriented around \"lessons\" and SRS is an afterthought.",
+      "evidence": [
+        {
+          "source_item_id": 45869516,
+          "source_field": "body",
+          "value": "I'm working on https://yap.town - an SRS based language learning app.\n\nI would say it combines the best parts of Duolingo and Anki. Anki is great for memorizing words, but you don't see the words in the context of novel sentences. Duolingo is great for exposure to new sentences, but it's oriented around \"lessons\" and SRS is an afterthought.",
+          "supports": [],
+          "author": "ChadNauseam",
+          "shared_at": 1762724843,
+          "source_url": "https://news.ycombinator.com/item?id=45869516"
+        }
+      ],
+      "source_item_id": 45869516,
+      "source_url": "https://news.ycombinator.com/item?id=45869516",
+      "author": "ChadNauseam",
+      "shared_at": 1762724843,
+      "links": [
+        "https://huggingface.co/collections/anchpop/lexide-nlp-models",
+        "https://yap.town"
+      ]
+    }
+  ]
+}

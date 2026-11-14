@@ -1,0 +1,35 @@
+{
+  "id": 5389,
+  "slug": "docmancer-e254cd29ca",
+  "name": "docmancer",
+  "mentions": [
+    {
+      "name": "docmancer",
+      "description": "Local-first, MIT-licensed CLI tool that fetches and indexes technical documentation on the user's machine so coding agents can query it directly, with no MCP server required. Acts as a local, version-aware alternative to tools like Context7: pull docs once, query locally, and use audited packs matched to the project stack. Reduces context bloat by returning only the relevant sections instead of dumping full docs into the prompt, cutting token usage by up to 80%.",
+      "problem": "Dumping full technical docs into coding-agent prompts causes context bloat and excessive token usage, and existing tools like Context7 are not local or version-aware.",
+      "audience": null,
+      "builder_usernames": [
+        "gaurangt"
+      ],
+      "source_excerpt": "I’m working on docmancer (https://github.com/docmancer/docmancer), an MIT-licensed, local-first tool that fetches and indexes technical docs on your machine so coding agents can query it directly.",
+      "evidence": [
+        {
+          "source_item_id": 47772346,
+          "source_field": "body",
+          "value": "I’m working on docmancer (https://github.com/docmancer/docmancer), an MIT-licensed, local-first tool that fetches and indexes technical docs on your machine so coding agents can query it directly.",
+          "supports": [],
+          "author": "gaurangt",
+          "shared_at": 1776206124,
+          "source_url": "https://news.ycombinator.com/item?id=47772346"
+        }
+      ],
+      "source_item_id": 47772346,
+      "source_url": "https://news.ycombinator.com/item?id=47772346",
+      "author": "gaurangt",
+      "shared_at": 1776206124,
+      "links": [
+        "https://github.com/docmancer/docmancer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 11209,
+  "slug": "visitorquery-bd8fc14e04",
+  "name": "VisitorQuery",
+  "mentions": [
+    {
+      "name": "VisitorQuery",
+      "description": "A proxy and VPN detection tool that classifies connections based on the specifics of the connection itself rather than relying on static lists or known proxy/VPN databases, making it effective at detecting residential proxies and VPNs.",
+      "problem": "List- and database-based proxy/VPN detection tools are ineffective at catching residential proxies and VPNs.",
+      "audience": null,
+      "builder_usernames": [
+        "arewethereyeta"
+      ],
+      "source_excerpt": "https://visitorquery.com a proxy & VPN detecting tool that does it's thing based on the specifics of a connection rather than parsing list and known databases which makes it very effective against residential ones too.",
+      "evidence": [
+        {
+          "source_item_id": 43819932,
+          "source_field": "body",
+          "value": "https://visitorquery.com a proxy & VPN detecting tool that does it's thing based on the specifics of a connection rather than parsing list and known databases which makes it very effective against residential ones too.",
+          "supports": [],
+          "author": "arewethereyeta",
+          "shared_at": 1745838744,
+          "source_url": "https://news.ycombinator.com/item?id=43819932"
+        }
+      ],
+      "source_item_id": 43819932,
+      "source_url": "https://news.ycombinator.com/item?id=43819932",
+      "author": "arewethereyeta",
+      "shared_at": 1745838744,
+      "links": [
+        "https://visitorquery.com"
+      ]
+    }
+  ]
+}

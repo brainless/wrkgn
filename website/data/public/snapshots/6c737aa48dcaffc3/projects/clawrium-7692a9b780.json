@@ -1,0 +1,35 @@
+{
+  "id": 3937,
+  "slug": "clawrium-7692a9b780",
+  "name": "Clawrium",
+  "mentions": [
+    {
+      "name": "Clawrium",
+      "description": "This CLI orchestrates a fleet of autonomous agents on multiple physical hosts, centralizing configuration management, secrets, templates, and LLM providers in a kubectl-like control plane.",
+      "problem": "Running agents on a home network required SSHing into each host to maintain them; Clawrium centralizes their management instead.",
+      "audience": null,
+      "builder_usernames": [
+        "devashish86"
+      ],
+      "source_excerpt": "Building Clawrium (https://github.com/ric03uec/clawrium), a CLI to orchestrate a fleet of autonomous agents(like openclaw, hermes etc) on multiple physical hosts.",
+      "evidence": [
+        {
+          "source_item_id": 48541038,
+          "source_field": "body",
+          "value": "Building Clawrium (https://github.com/ric03uec/clawrium), a CLI to orchestrate a fleet of autonomous agents(like openclaw, hermes etc) on multiple physical hosts.",
+          "supports": [],
+          "author": "devashish86",
+          "shared_at": 1781530360,
+          "source_url": "https://news.ycombinator.com/item?id=48541038"
+        }
+      ],
+      "source_item_id": 48541038,
+      "source_url": "https://news.ycombinator.com/item?id=48541038",
+      "author": "devashish86",
+      "shared_at": 1781530360,
+      "links": [
+        "https://github.com/ric03uec/clawrium"
+      ]
+    }
+  ]
+}

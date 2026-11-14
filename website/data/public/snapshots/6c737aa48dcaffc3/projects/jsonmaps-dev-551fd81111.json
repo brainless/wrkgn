@@ -1,0 +1,63 @@
+{
+  "id": 6488,
+  "slug": "jsonmaps-dev-551fd81111",
+  "name": "jsonmaps.dev",
+  "mentions": [
+    {
+      "name": "jsonmaps.dev",
+      "description": "A storytelling tool in development at jsonmaps.dev, which the author suggests could be useful for map-based projects like the Baroque Cycle reader companion.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "milind-soni"
+      ],
+      "source_excerpt": "Hey Im making storytelling in jsonmaps.dev I think that could be also really useful for something like this! Let me know what you think",
+      "evidence": [
+        {
+          "source_item_id": 47307399,
+          "source_field": "body",
+          "value": "Hey Im making storytelling in jsonmaps.dev I think that could be also really useful for something like this! Let me know what you think",
+          "supports": [],
+          "author": "milind-soni",
+          "shared_at": 1773053759,
+          "source_url": "https://news.ycombinator.com/item?id=47307399"
+        }
+      ],
+      "source_item_id": 47307399,
+      "source_url": "https://news.ycombinator.com/item?id=47307399",
+      "author": "milind-soni",
+      "shared_at": 1773053759,
+      "links": [
+        "https://jsonmaps.dev"
+      ]
+    },
+    {
+      "name": "jsonmaps.dev",
+      "description": "This tool lets developers create maps and storytelling maps that can be embedded in React applications, with story maps defined as chapters with camera views and content that handle scroll-driven camera interpolation. It is built on MapLibre, uses React, and is published as an npm package.",
+      "problem": "AI tools were unable to generate reliable maps in applications: every map library has its own imperative API, and AI output was often broken, hallucinated, or unmaintainable due to the many different formats that can be put on a map.",
+      "audience": "React application developers who want reliable, declarative map generation",
+      "builder_usernames": [
+        "milind-soni"
+      ],
+      "source_excerpt": "jsonmaps.dev its a way to create maps and create storytelling maps that you can embed in your react application, I was quite tired of how AI wasn't able to generate reliable maps in my applications.",
+      "evidence": [
+        {
+          "source_item_id": 47307311,
+          "source_field": "body",
+          "value": "jsonmaps.dev its a way to create maps and create storytelling maps that you can embed in your react application, I was quite tired of how AI wasn't able to generate reliable maps in my applications.",
+          "supports": [],
+          "author": "milind-soni",
+          "shared_at": 1773053094,
+          "source_url": "https://news.ycombinator.com/item?id=47307311"
+        }
+      ],
+      "source_item_id": 47307311,
+      "source_url": "https://news.ycombinator.com/item?id=47307311",
+      "author": "milind-soni",
+      "shared_at": 1773053094,
+      "links": [
+        "https://jsonmaps.dev/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 3974,
+  "slug": "isolated-database-schema-access-for-application-deployments-e621309875",
+  "name": "Isolated database/schema access for application deployments",
+  "mentions": [
+    {
+      "name": "Isolated database/schema access for application deployments",
+      "description": "This feature makes it easy for application deployments to get access to an isolated database or schema, with support for both Postgres and MySQL, so apps don't need to each create their own database.",
+      "problem": "The usual pattern assumes each app creates a new database, which ignores the backups, monitoring, etc. required for each database.",
+      "audience": null,
+      "builder_usernames": [
+        "ajayvk"
+      ],
+      "source_excerpt": "Been working on making it much easier for application deployments to get access to a isolated database/schema. The usual pattern currently is to assume that each app creates a new database, which ignores the backups, monitoring etc required for each database. Implemented support for Postgres and MySQL.",
+      "evidence": [
+        {
+          "source_item_id": 48529303,
+          "source_field": "body",
+          "value": "Been working on making it much easier for application deployments to get access to a isolated database/schema. The usual pattern currently is to assume that each app creates a new database, which ignores the backups, monitoring etc required for each database. Implemented support for Postgres and MySQL.",
+          "supports": [],
+          "author": "ajayvk",
+          "shared_at": 1781455107,
+          "source_url": "https://news.ycombinator.com/item?id=48529303"
+        }
+      ],
+      "source_item_id": 48529303,
+      "source_url": "https://news.ycombinator.com/item?id=48529303",
+      "author": "ajayvk",
+      "shared_at": 1781455107,
+      "links": [
+        "https://openrun.dev/blog/service-binding/"
+      ]
+    }
+  ]
+}

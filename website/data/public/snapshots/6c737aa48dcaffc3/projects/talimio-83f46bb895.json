@@ -1,0 +1,35 @@
+{
+  "id": 8409,
+  "slug": "talimio-83f46bb895",
+  "name": "Talimio",
+  "mentions": [
+    {
+      "name": "Talimio",
+      "description": "An AI-powered adaptive learning tool inspired by the LECTOR paper. Each lesson is a single learning concept with a mastery score tied to the learner's understanding of that concept, and the system reintroduces concepts the learner didn't fully grasp later on, aiming to make separate flashcards unnecessary. It can be self-hosted.",
+      "problem": "Separate flashcards are normally needed to revisit concepts a learner didn't fully grasp; the adaptive mastery-based lessons aim to make that unnecessary.",
+      "audience": null,
+      "builder_usernames": [
+        "SamDc73"
+      ],
+      "source_excerpt": "The latest thing I’ve been working on is an adaptive mode inspired by the LECTOR paper [1].  Where each lesson is a single learning concept with a mastery score tight to it based on your understanding of the said concept, so in principle the system can reintroduce concepts you didn’t fully grasp later on, ideally making separate flashcards unnecessary.\n\nIt can be self-hosted if any one want's to give it a try!",
+      "evidence": [
+        {
+          "source_item_id": 46266386,
+          "source_field": "body",
+          "value": "The latest thing I’ve been working on is an adaptive mode inspired by the LECTOR paper [1].  Where each lesson is a single learning concept with a mastery score tight to it based on your understanding of the said concept, so in principle the system can reintroduce concepts you didn’t fully grasp later on, ideally making separate flashcards unnecessary.\n\nIt can be self-hosted if any one want's to give it a try!",
+          "supports": [],
+          "author": "SamDc73",
+          "shared_at": 1765743198,
+          "source_url": "https://news.ycombinator.com/item?id=46266386"
+        }
+      ],
+      "source_item_id": 46266386,
+      "source_url": "https://news.ycombinator.com/item?id=46266386",
+      "author": "SamDc73",
+      "shared_at": 1765743198,
+      "links": [
+        "http://github.com/samdc73/talimio"
+      ]
+    }
+  ]
+}

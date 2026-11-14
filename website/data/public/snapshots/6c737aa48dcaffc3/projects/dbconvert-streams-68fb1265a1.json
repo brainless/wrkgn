@@ -1,0 +1,63 @@
+{
+  "id": 4762,
+  "slug": "dbconvert-streams-68fb1265a1",
+  "name": "DBConvert Streams",
+  "mentions": [
+    {
+      "name": "DBConvert Streams",
+      "description": "A self-hosted database IDE with built-in migration, CDC (change data capture), and DuckDB-powered federated SQL. Current focus is on resumable large loads and a cleaner handoff from initial load to CDC for Postgres and MySQL.",
+      "problem": "Removing the gap between being able to inspect a database and being able to safely move or sync its data somewhere else.",
+      "audience": null,
+      "builder_usernames": [
+        "slotix"
+      ],
+      "source_excerpt": "We are working on DBConvert Streams:\n\nhttps://streams.dbconvert.com\n\nA self-hosted database IDE with built-in migration, CDC, and DuckDB-powered federated SQL.",
+      "evidence": [
+        {
+          "source_item_id": 48089240,
+          "source_field": "body",
+          "value": "We are working on DBConvert Streams:\n\nhttps://streams.dbconvert.com\n\nA self-hosted database IDE with built-in migration, CDC, and DuckDB-powered federated SQL.",
+          "supports": [],
+          "author": "slotix",
+          "shared_at": 1778455986,
+          "source_url": "https://news.ycombinator.com/item?id=48089240"
+        }
+      ],
+      "source_item_id": 48089240,
+      "source_url": "https://news.ycombinator.com/item?id=48089240",
+      "author": "slotix",
+      "shared_at": 1778455986,
+      "links": [
+        "https://streams.dbconvert.com"
+      ]
+    },
+    {
+      "name": "DBConvert Streams",
+      "description": "This tool provides database tooling for data movement and change data capture (CDC), collapsing what normally requires stitching together a SQL IDE, export scripts, a pipeline, and CDC tooling into a single workflow. It runs locally or via Docker without requiring Kafka or heavy setup.",
+      "problem": "Database data movement and CDC workflows usually require stitching 3-4 tools together (SQL IDE, export/scripts, pipeline, CDC, back to SQL) and heavy setups like Kafka; this collapses them into one workflow.",
+      "audience": null,
+      "builder_usernames": [
+        "slotix"
+      ],
+      "source_excerpt": "Working on database tooling around data movement + CDC.\n\nTrying to collapse what is usually:\n\nSQL IDE -> export/scripts -> pipeline -> CDC -> back to SQL\n\ninto a single workflow instead of stitching 3–4 tools together.\n\nRuns locally or via Docker, no Kafka / heavy setup.\n\nhttps://streams.dbconvert.com/",
+      "evidence": [
+        {
+          "source_item_id": 47752635,
+          "source_field": "body",
+          "value": "Working on database tooling around data movement + CDC.\n\nTrying to collapse what is usually:\n\nSQL IDE -> export/scripts -> pipeline -> CDC -> back to SQL\n\ninto a single workflow instead of stitching 3–4 tools together.\n\nRuns locally or via Docker, no Kafka / heavy setup.\n\nhttps://streams.dbconvert.com/",
+          "supports": [],
+          "author": "slotix",
+          "shared_at": 1776091003,
+          "source_url": "https://news.ycombinator.com/item?id=47752635"
+        }
+      ],
+      "source_item_id": 47752635,
+      "source_url": "https://news.ycombinator.com/item?id=47752635",
+      "author": "slotix",
+      "shared_at": 1776091003,
+      "links": [
+        "https://streams.dbconvert.com/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 4693,
+  "slug": "modular-mcp-server-with-oauth2-dynamic-registration-b894a43eb5",
+  "name": "Modular MCP server with OAuth2 dynamic registration",
+  "mentions": [
+    {
+      "name": "Modular MCP server with OAuth2 dynamic registration",
+      "description": "This is a modular MCP server with OAuth2 dynamic registration that works with the web, desktop, and CLI versions of Claude/Claude Code. Its modules include file editing so an Obsidian vault can be edited and searched from Claude, page fetching through Passe-Partout for pages that block LLMs, and proxying MCP servers so servers that only support bearer token auth work with web Claude.",
+      "problem": "Some pages block LLMs from reading them, and MCP servers that only support bearer token auth don't work with web Claude.",
+      "audience": null,
+      "builder_usernames": [
+        "jfim"
+      ],
+      "source_excerpt": "Also built a modular MCP server with OAuth2 dynamic registration so that I can have my own MCP server that works with the web, desktop, and cli versions of Claude/Claude code.",
+      "evidence": [
+        {
+          "source_item_id": 48093204,
+          "source_field": "body",
+          "value": "Also built a modular MCP server with OAuth2 dynamic registration so that I can have my own MCP server that works with the web, desktop, and cli versions of Claude/Claude code.",
+          "supports": [],
+          "author": "jfim",
+          "shared_at": 1778495492,
+          "source_url": "https://news.ycombinator.com/item?id=48093204"
+        }
+      ],
+      "source_item_id": 48093204,
+      "source_url": "https://news.ycombinator.com/item?id=48093204",
+      "author": "jfim",
+      "shared_at": 1778495492,
+      "links": []
+    }
+  ]
+}

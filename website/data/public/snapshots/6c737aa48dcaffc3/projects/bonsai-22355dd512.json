@@ -1,0 +1,35 @@
+{
+  "id": 9807,
+  "slug": "bonsai-22355dd512",
+  "name": "Bonsai",
+  "mentions": [
+    {
+      "name": "Bonsai",
+      "description": "A 3D voxel-based game engine developed in spare time for around a decade. World generation and the editor run on the GPU, enabling hot-reloading of world gen shaders so changes pop on screen instantly, like a voxel version of Shadertoy. It takes a low-dependency approach targeting OpenGL 3.3, using render-to-texture GPGPU techniques with CPU readback for generating voxel data.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jesse__"
+      ],
+      "source_excerpt": "I've been working on a 3D voxel-based game engine for like 10 years in my spare time. The most recent big job has been to port the world gen and editor to the GPU, which has had some pretty cute knock-on effects. The most interesting is you can hot-reload the world gen shaders and out pop your changes on the screen, like a voxel version of shadertoy.",
+      "evidence": [
+        {
+          "source_item_id": 45419137,
+          "source_field": "body",
+          "value": "I've been working on a 3D voxel-based game engine for like 10 years in my spare time. The most recent big job has been to port the world gen and editor to the GPU, which has had some pretty cute knock-on effects. The most interesting is you can hot-reload the world gen shaders and out pop your changes on the screen, like a voxel version of shadertoy.",
+          "supports": [],
+          "author": "jesse__",
+          "shared_at": 1759182233,
+          "source_url": "https://news.ycombinator.com/item?id=45419137"
+        }
+      ],
+      "source_item_id": 45419137,
+      "source_url": "https://news.ycombinator.com/item?id=45419137",
+      "author": "jesse__",
+      "shared_at": 1759182233,
+      "links": [
+        "https://github.com/scallyw4g/bonsai"
+      ]
+    }
+  ]
+}

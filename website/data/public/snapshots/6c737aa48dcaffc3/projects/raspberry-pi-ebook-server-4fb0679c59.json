@@ -1,0 +1,33 @@
+{
+  "id": 11234,
+  "slug": "raspberry-pi-ebook-server-4fb0679c59",
+  "name": "Raspberry Pi eBook server",
+  "mentions": [
+    {
+      "name": "Raspberry Pi eBook server",
+      "description": "This is a self-hosted eBook server running on a Raspberry Pi with Node.js. It serves a library of PDFs over the network and allows downloading a specific page range of a book, built to work around iCloud's inability to download the author's nearly 1 GB book library.",
+      "problem": "iCloud could not download the books, and the entire library is almost 1 GB.",
+      "audience": "Self-hosted for the author's own book library and reading needs.",
+      "builder_usernames": [
+        "bottlero_cket"
+      ],
+      "source_excerpt": "An eBook sever on raspberry pi running nodejs. I had a lot of issues with iCloud not being able to download my books, plus my entire library is almost 1 GB. So, my solution is to serve a list of PDFs over node and allow download of a specific page range.",
+      "evidence": [
+        {
+          "source_item_id": 43823743,
+          "source_field": "body",
+          "value": "An eBook sever on raspberry pi running nodejs. I had a lot of issues with iCloud not being able to download my books, plus my entire library is almost 1 GB. So, my solution is to serve a list of PDFs over node and allow download of a specific page range.",
+          "supports": [],
+          "author": "bottlero_cket",
+          "shared_at": 1745860616,
+          "source_url": "https://news.ycombinator.com/item?id=43823743"
+        }
+      ],
+      "source_item_id": 43823743,
+      "source_url": "https://news.ycombinator.com/item?id=43823743",
+      "author": "bottlero_cket",
+      "shared_at": 1745860616,
+      "links": []
+    }
+  ]
+}

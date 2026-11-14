@@ -1,0 +1,35 @@
+{
+  "id": 5504,
+  "slug": "stagex-2a6fd4d149",
+  "name": "stagex",
+  "mentions": [
+    {
+      "name": "stagex",
+      "description": "A FOSS Linux distribution that is multi-party reviewed, built, and signed; deterministic and fully source bootstrapped; LLVM native, container native, and built on musl/mimalloc, intended for building software.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "lrvick"
+      ],
+      "source_excerpt": "My team and I have been building stagex, a FOSS multi-party reviewed/built/signed, deterministic, full source bootstrapped, llvm native, container native, musl/mimalloc native linux distribution to build all the things.",
+      "evidence": [
+        {
+          "source_item_id": 47745910,
+          "source_field": "body",
+          "value": "My team and I have been building stagex, a FOSS multi-party reviewed/built/signed, deterministic, full source bootstrapped, llvm native, container native, musl/mimalloc native linux distribution to build all the things.",
+          "supports": [],
+          "author": "lrvick",
+          "shared_at": 1776038619,
+          "source_url": "https://news.ycombinator.com/item?id=47745910"
+        }
+      ],
+      "source_item_id": 47745910,
+      "source_url": "https://news.ycombinator.com/item?id=47745910",
+      "author": "lrvick",
+      "shared_at": 1776038619,
+      "links": [
+        "https://stagex.tools"
+      ]
+    }
+  ]
+}

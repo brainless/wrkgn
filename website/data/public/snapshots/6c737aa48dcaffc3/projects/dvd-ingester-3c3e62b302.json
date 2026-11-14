@@ -1,0 +1,33 @@
+{
+  "id": 4743,
+  "slug": "dvd-ingester-3c3e62b302",
+  "name": "dvd-ingester",
+  "mentions": [
+    {
+      "name": "dvd-ingester",
+      "description": "A systemd-based DVD backup pipeline built with the muster framework and its T2R4.device-triggered-conveyor pattern. A udev rule triggers dvd-rip@.service when DVD media becomes ready; dvd-rip-one verifies the destination directory and waits for hot-storage capacity, completed rips are staged in HOT_DIR, and dvd-publish-one.timer drains them to the destination with atomic renames. The pipeline ejects discs after ripping, monitors local disk capacity, retries after the NAS comes back online, and resumes after random reboots.",
+      "problem": "I need to back up a couple hundred DVDs",
+      "audience": "I need to back up a couple hundred DVDs",
+      "builder_usernames": [
+        "insapio"
+      ],
+      "source_excerpt": "I need to back up a couple hundred DVDs, so with muster I get out:\n\ndvd-ingester\nT2R4.device-triggered-conveyor",
+      "evidence": [
+        {
+          "source_item_id": 48088505,
+          "source_field": "body",
+          "value": "I need to back up a couple hundred DVDs, so with muster I get out:\n\ndvd-ingester\nT2R4.device-triggered-conveyor",
+          "supports": [],
+          "author": "insapio",
+          "shared_at": 1778450068,
+          "source_url": "https://news.ycombinator.com/item?id=48088505"
+        }
+      ],
+      "source_item_id": 48088505,
+      "source_url": "https://news.ycombinator.com/item?id=48088505",
+      "author": "insapio",
+      "shared_at": 1778450068,
+      "links": []
+    }
+  ]
+}

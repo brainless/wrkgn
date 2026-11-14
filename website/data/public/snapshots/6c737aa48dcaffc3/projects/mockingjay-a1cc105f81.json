@@ -1,0 +1,63 @@
+{
+  "id": 6689,
+  "slug": "mockingjay-a1cc105f81",
+  "name": "Mockingjay",
+  "mentions": [
+    {
+      "name": "Mockingjay",
+      "description": "An iOS app that records video and streams AES-256-GCM encrypted chunks to Google Drive in real time, so footage is already safe in the cloud by the time someone takes the phone. Includes a duress PIN that wipes local keys while preserving cloud backups, and a fake sleep mode that makes the phone look powered off during recording.",
+      "problem": "If someone takes your phone, locally recorded footage can be lost or destroyed; this keeps evidence already backed up in the cloud.",
+      "audience": "Journalists, activists, and anyone who needs tamper-proof evidence",
+      "builder_usernames": [
+        "tskulbru"
+      ],
+      "source_excerpt": "Mockingjay ( https://apps.apple.com/us/app/mockingjay-secure-recorder/id6758616261 ) — iOS app that records video and streams AES-256-GCM encrypted chunks to your Google Drive in real-time. By the time someone takes your phone, the footage is already safe in the cloud. Built for journalists, activists, and anyone who needs tamper-proof evidence. Features a duress PIN that wipes local keys while preserving cloud backups, and a fake sleep mode that makes the phone look powered off during recording.",
+      "evidence": [
+        {
+          "source_item_id": 47244958,
+          "source_field": "body",
+          "value": "Mockingjay ( https://apps.apple.com/us/app/mockingjay-secure-recorder/id6758616261 ) — iOS app that records video and streams AES-256-GCM encrypted chunks to your Google Drive in real-time. By the time someone takes your phone, the footage is already safe in the cloud. Built for journalists, activists, and anyone who needs tamper-proof evidence. Features a duress PIN that wipes local keys while preserving cloud backups, and a fake sleep mode that makes the phone look powered off during recording.",
+          "supports": [],
+          "author": "tskulbru",
+          "shared_at": 1772615477,
+          "source_url": "https://news.ycombinator.com/item?id=47244958"
+        }
+      ],
+      "source_item_id": 47244958,
+      "source_url": "https://news.ycombinator.com/item?id=47244958",
+      "author": "tskulbru",
+      "shared_at": 1772615477,
+      "links": [
+        "https://apps.apple.com/us/app/mockingjay-secure-recorder/id6758616261"
+      ]
+    },
+    {
+      "name": "Mockingjay",
+      "description": "An iOS app that records video and streams AES-256-GCM encrypted chunks to Google Drive in real time, so footage is already safe in the cloud by the time someone takes the phone. Includes a duress PIN that wipes local keys while preserving cloud backups, and a fake sleep mode that makes the phone look powered off during recording. Built for journalists, activists, and anyone who needs tamper-proof evidence.",
+      "problem": "Recorded footage can be lost or seized along with the phone before it can be uploaded.",
+      "audience": "Journalists, activists, and anyone who needs tamper-proof evidence.",
+      "builder_usernames": [
+        "tskulbru"
+      ],
+      "source_excerpt": "- Mockingjay ( https://apps.apple.com/us/app/mockingjay-secure-recorder/id6758616261 ) — iOS app that records video and streams AES-256-GCM encrypted chunks to your Google Drive in real-time. By the time someone takes your phone, the footage is already safe in the cloud. Built for journalists, activists, and anyone who needs tamper-proof evidence. Features a duress PIN that wipes local keys while preserving cloud backups, and a fake sleep mode that makes the phone look powered off during recording.",
+      "evidence": [
+        {
+          "source_item_id": 46945142,
+          "source_field": "body",
+          "value": "- Mockingjay ( https://apps.apple.com/us/app/mockingjay-secure-recorder/id6758616261 ) — iOS app that records video and streams AES-256-GCM encrypted chunks to your Google Drive in real-time. By the time someone takes your phone, the footage is already safe in the cloud. Built for journalists, activists, and anyone who needs tamper-proof evidence. Features a duress PIN that wipes local keys while preserving cloud backups, and a fake sleep mode that makes the phone look powered off during recording.",
+          "supports": [],
+          "author": "tskulbru",
+          "shared_at": 1770644846,
+          "source_url": "https://news.ycombinator.com/item?id=46945142"
+        }
+      ],
+      "source_item_id": 46945142,
+      "source_url": "https://news.ycombinator.com/item?id=46945142",
+      "author": "tskulbru",
+      "shared_at": 1770644846,
+      "links": [
+        "https://apps.apple.com/us/app/mockingjay-secure-recorder/id6758616261"
+      ]
+    }
+  ]
+}

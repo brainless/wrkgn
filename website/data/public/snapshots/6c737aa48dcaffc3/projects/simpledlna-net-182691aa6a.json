@@ -1,0 +1,35 @@
+{
+  "id": 5388,
+  "slug": "simpledlna-net-182691aa6a",
+  "name": "simpleDLNA.net",
+  "mentions": [
+    {
+      "name": "simpleDLNA.net",
+      "description": "A DLNA media server forked from a project that had been dead for 10 years and updated to .NET 9, built to spin up temporary media servers quickly on whatever hardware is on hand. It currently builds and announces itself to TVs (visible in Roku Media Player) but crashes due to an outdated homemade HTTP server implementation; a sockets-based server implementation is being plugged in to replace it.",
+      "problem": "Hard drives are too expensive now, so it is better to spin up media servers quickly and temporarily using whatever hardware you have on hand.",
+      "audience": null,
+      "builder_usernames": [
+        "NWoodsman"
+      ],
+      "source_excerpt": "I forked a simple DNLA server which has been dead for 10 years and updated it to .Net 9. The goal is that hard drives are too expensive now and so it's better to spin up media servers quickly and temporarily using whatever hardware you have on hand.",
+      "evidence": [
+        {
+          "source_item_id": 47754019,
+          "source_field": "body",
+          "value": "I forked a simple DNLA server which has been dead for 10 years and updated it to .Net 9. The goal is that hard drives are too expensive now and so it's better to spin up media servers quickly and temporarily using whatever hardware you have on hand.",
+          "supports": [],
+          "author": "NWoodsman",
+          "shared_at": 1776096063,
+          "source_url": "https://news.ycombinator.com/item?id=47754019"
+        }
+      ],
+      "source_item_id": 47754019,
+      "source_url": "https://news.ycombinator.com/item?id=47754019",
+      "author": "NWoodsman",
+      "shared_at": 1776096063,
+      "links": [
+        "https://github.com/NWoodsman/simpleDLNA.net"
+      ]
+    }
+  ]
+}

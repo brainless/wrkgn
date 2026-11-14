@@ -1,0 +1,36 @@
+{
+  "id": 7442,
+  "slug": "vulpesvision-4b9803d1bb",
+  "name": "VulpesVision",
+  "mentions": [
+    {
+      "name": "VulpesVision",
+      "description": "A heart rate variability biofeedback app that displays instantaneous heart rate from heart rate monitors supporting the standard BTLE API (not just the Polar H10), running on the Windows desktop with Chrome and on iPad with Bluefy. By following the slope of the instantaneous heart rate — breathing out when it slows down and in when it speeds up — the user controls Mayer waves, intensifying the wave and increasing the SD1 metric, which the author reports drops his blood pressure significantly. Still in progress: better instructions and an auditory cue to entrain breathing; longer-term plans incorporate other biofeedback gadgets such as a respiration monitor, radar, GSR sensor, and EMG sensor.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "PaulHoule"
+      ],
+      "source_excerpt": "I've been doing heart rate variability biofeedback experiments and I have this demo\n\nhttps://gen5.info/demo/biofeedback/\n\nwhich is still not quite done but has source code at\n\nhttps://github.com/paulhoule/VulpesVision\n\nIt works with most heart rate monitors that support the standard BTLE API not just the H10.  I run it on the Windows desktop with Chrome and with Bluefy on iPad.",
+      "evidence": [
+        {
+          "source_item_id": 46946064,
+          "source_field": "body",
+          "value": "I've been doing heart rate variability biofeedback experiments and I have this demo\n\nhttps://gen5.info/demo/biofeedback/\n\nwhich is still not quite done but has source code at\n\nhttps://github.com/paulhoule/VulpesVision\n\nIt works with most heart rate monitors that support the standard BTLE API not just the H10.  I run it on the Windows desktop with Chrome and with Bluefy on iPad.",
+          "supports": [],
+          "author": "PaulHoule",
+          "shared_at": 1770649893,
+          "source_url": "https://news.ycombinator.com/item?id=46946064"
+        }
+      ],
+      "source_item_id": 46946064,
+      "source_url": "https://news.ycombinator.com/item?id=46946064",
+      "author": "PaulHoule",
+      "shared_at": 1770649893,
+      "links": [
+        "https://gen5.info/demo/biofeedback/",
+        "https://github.com/paulhoule/VulpesVision"
+      ]
+    }
+  ]
+}

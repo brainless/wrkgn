@@ -1,0 +1,35 @@
+{
+  "id": 5239,
+  "slug": "shifu-3205d760a2",
+  "name": "shifu",
+  "mentions": [
+    {
+      "name": "shifu",
+      "description": "A pure POSIX shell framework for building powerful command-line interfaces. It provides argument parsing, subcommand dispatch, help string formatting, and tab completion for interactive shells, works across POSIX-based shells (ash, bash, dash, ksh, zsh), and ships as a single POSIX shell file with no dependencies.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ultramann"
+      ],
+      "source_excerpt": "I’m working on shifu (https://github.com/Ultramann/shifu), a pure POSIX shell framework to create powerful CLIs.",
+      "evidence": [
+        {
+          "source_item_id": 47756697,
+          "source_field": "body",
+          "value": "I’m working on shifu (https://github.com/Ultramann/shifu), a pure POSIX shell framework to create powerful CLIs.",
+          "supports": [],
+          "author": "ultramann",
+          "shared_at": 1776108027,
+          "source_url": "https://news.ycombinator.com/item?id=47756697"
+        }
+      ],
+      "source_item_id": 47756697,
+      "source_url": "https://news.ycombinator.com/item?id=47756697",
+      "author": "ultramann",
+      "shared_at": 1776108027,
+      "links": [
+        "https://github.com/Ultramann/shifu"
+      ]
+    }
+  ]
+}

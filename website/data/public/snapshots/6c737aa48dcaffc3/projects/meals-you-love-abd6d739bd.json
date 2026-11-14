@@ -1,0 +1,63 @@
+{
+  "id": 8090,
+  "slug": "meals-you-love-abd6d739bd",
+  "name": "Meals You Love",
+  "mentions": [
+    {
+      "name": "Meals You Love",
+      "description": "A meal planning app that leverages AI to build highly tailored recipes and meal plans, allows users to import their own recipes to incorporate into plans, and integrates with Kroger and Instacart for ordering groceries.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tylertreat"
+      ],
+      "source_excerpt": "I've been working on https://mealsyoulove.com, which is a meal planning app that also integrates with Kroger and Instacart for ordering groceries. Jow looks similar (not sure what their pricing model is?), but I'm leveraging AI to build highly tailored recipes and meal plans while allowing you to also import your own recipes to incorporate.",
+      "evidence": [
+        {
+          "source_item_id": 46281251,
+          "source_field": "body",
+          "value": "I've been working on https://mealsyoulove.com, which is a meal planning app that also integrates with Kroger and Instacart for ordering groceries. Jow looks similar (not sure what their pricing model is?), but I'm leveraging AI to build highly tailored recipes and meal plans while allowing you to also import your own recipes to incorporate.",
+          "supports": [],
+          "author": "tylertreat",
+          "shared_at": 1765835570,
+          "source_url": "https://news.ycombinator.com/item?id=46281251"
+        }
+      ],
+      "source_item_id": 46281251,
+      "source_url": "https://news.ycombinator.com/item?id=46281251",
+      "author": "tylertreat",
+      "shared_at": 1765835570,
+      "links": [
+        "https://mealsyoulove.com"
+      ]
+    },
+    {
+      "name": "Meals You Love",
+      "description": "This app provides personalized meal planning with grocery store integration. Recent updates add meal prepping, better ingredient reuse across meals, and cooking style preferences, and it integrates with grocery services such as Kroger and Instacart.",
+      "problem": "Grocery integration is constrained by which stores offer APIs; only Kroger and Instacart are currently integrable, while Walmart ignored the API access request.",
+      "audience": null,
+      "builder_usernames": [
+        "tylertreat"
+      ],
+      "source_excerpt": "https://mealsyoulove.com\n\nBasically personalized meal planning and grocery integration. Since the Show HN I posted a couple months back I've been incorporating user feedback to add things like meal prepping, better ingredient reuse across meals, and cooking style preferences.",
+      "evidence": [
+        {
+          "source_item_id": 46280720,
+          "source_field": "body",
+          "value": "https://mealsyoulove.com\n\nBasically personalized meal planning and grocery integration. Since the Show HN I posted a couple months back I've been incorporating user feedback to add things like meal prepping, better ingredient reuse across meals, and cooking style preferences.",
+          "supports": [],
+          "author": "tylertreat",
+          "shared_at": 1765833073,
+          "source_url": "https://news.ycombinator.com/item?id=46280720"
+        }
+      ],
+      "source_item_id": 46280720,
+      "source_url": "https://news.ycombinator.com/item?id=46280720",
+      "author": "tylertreat",
+      "shared_at": 1765833073,
+      "links": [
+        "https://mealsyoulove.com"
+      ]
+    }
+  ]
+}

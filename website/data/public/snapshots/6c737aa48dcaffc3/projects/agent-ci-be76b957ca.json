@@ -1,0 +1,35 @@
+{
+  "id": 5744,
+  "slug": "agent-ci-be76b957ca",
+  "name": "agent-ci",
+  "mentions": [
+    {
+      "name": "agent-ci",
+      "description": "A tool that runs GitHub Actions on your local machine, with ~0 ms caching, the ability to pause on failure, and letting your AI agent fix failures and retry without pushing.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "pistoriusp"
+      ],
+      "source_excerpt": "https://agent-ci.dev: Run GitHub Actions on your machine. Caching in ~0 ms. Pause on failure. Let your AI agent fix it and retry, without pushing!",
+      "evidence": [
+        {
+          "source_item_id": 47748629,
+          "source_field": "body",
+          "value": "https://agent-ci.dev: Run GitHub Actions on your machine. Caching in ~0 ms. Pause on failure. Let your AI agent fix it and retry, without pushing!",
+          "supports": [],
+          "author": "pistoriusp",
+          "shared_at": 1776063669,
+          "source_url": "https://news.ycombinator.com/item?id=47748629"
+        }
+      ],
+      "source_item_id": 47748629,
+      "source_url": "https://news.ycombinator.com/item?id=47748629",
+      "author": "pistoriusp",
+      "shared_at": 1776063669,
+      "links": [
+        "https://agent-ci.dev"
+      ]
+    }
+  ]
+}

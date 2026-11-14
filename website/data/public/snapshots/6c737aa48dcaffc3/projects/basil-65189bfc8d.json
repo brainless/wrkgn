@@ -1,0 +1,35 @@
+{
+  "id": 4503,
+  "slug": "basil-65189bfc8d",
+  "name": "Basil",
+  "mentions": [
+    {
+      "name": "Basil",
+      "description": "Privacy-first AI executive assistant and note taker that runs entirely on-device, with transcription and summarization handled locally so nothing is shared with model providers. The roadmap focuses on making output actually useful: recurring workflows, follow-ups, personalized summaries shaped to how someone runs their day, and reliable agent automation instead of one-off chat, plus work around iOS background-processing limitations.",
+      "problem": "Raw transcription output isn't actually useful on its own; the product aims to deliver actionable recurring workflows, follow-ups, and personalized summaries, while contending with iOS limitations on background work.",
+      "audience": "Business professionals who want an AI assistant/note taker that fits how they run their day.",
+      "builder_usernames": [
+        "busymichael"
+      ],
+      "source_excerpt": "Building Basil (https://basilai.app), a privacy-first AI executive assistant / note taker. Everything is on-device: transcription, summarization, etc. So nothing is shared with any model provider.",
+      "evidence": [
+        {
+          "source_item_id": 48096778,
+          "source_field": "body",
+          "value": "Building Basil (https://basilai.app), a privacy-first AI executive assistant / note taker. Everything is on-device: transcription, summarization, etc. So nothing is shared with any model provider.",
+          "supports": [],
+          "author": "busymichael",
+          "shared_at": 1778515280,
+          "source_url": "https://news.ycombinator.com/item?id=48096778"
+        }
+      ],
+      "source_item_id": 48096778,
+      "source_url": "https://news.ycombinator.com/item?id=48096778",
+      "author": "busymichael",
+      "shared_at": 1778515280,
+      "links": [
+        "https://basilai.app"
+      ]
+    }
+  ]
+}

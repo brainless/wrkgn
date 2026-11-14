@@ -1,0 +1,33 @@
+{
+  "id": 8486,
+  "slug": "twinjet-c89991d86b",
+  "name": "Twinjet",
+  "mentions": [
+    {
+      "name": "Twinjet",
+      "description": "Twinjet is a small logistics platform for food delivery courier companies. Its main feature parses emails from food ordering platforms to automatically add delivery jobs to the company's dispatch board. An AI parser (built on the lightweight Ministral-3b model) is in finishing touches to ship after the new year, aiming to reduce the constant parser maintenance caused by ordering platforms frequently changing their email formats.",
+      "problem": "Ordering platforms change their email formats all of the time, so the email parsers need constant maintenance.",
+      "audience": "Mostly food delivery courier companies.",
+      "builder_usernames": [
+        "platevoltage"
+      ],
+      "source_excerpt": "I run a small logistics platform called Twinjet that is used by mostly food delivery courier companies. One of our main features is parsing emails from food ordering platforms in order to automatically add the delivery job to the company's dispatch board. These parsers need constant maintenance since the ordering platforms change their email formats all of the time. I'm putting the finishing touches on an AI parser that I hope to ship after the new year. I'm getting very consistent results from Ministral-3b model, which is super light weight.",
+      "evidence": [
+        {
+          "source_item_id": 46270835,
+          "source_field": "body",
+          "value": "I run a small logistics platform called Twinjet that is used by mostly food delivery courier companies. One of our main features is parsing emails from food ordering platforms in order to automatically add the delivery job to the company's dispatch board. These parsers need constant maintenance since the ordering platforms change their email formats all of the time. I'm putting the finishing touches on an AI parser that I hope to ship after the new year. I'm getting very consistent results from Ministral-3b model, which is super light weight.",
+          "supports": [],
+          "author": "platevoltage",
+          "shared_at": 1765777048,
+          "source_url": "https://news.ycombinator.com/item?id=46270835"
+        }
+      ],
+      "source_item_id": 46270835,
+      "source_url": "https://news.ycombinator.com/item?id=46270835",
+      "author": "platevoltage",
+      "shared_at": 1765777048,
+      "links": []
+    }
+  ]
+}

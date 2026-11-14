@@ -1,0 +1,36 @@
+{
+  "id": 9315,
+  "slug": "poker-study-8987dd3d54",
+  "name": "poker-study",
+  "mentions": [
+    {
+      "name": "poker-study",
+      "description": "A custom poker study tool for range memorization. Inspired by GTO Wizard's range memorization tool, it lets users test custom/arbitrary poker ranges and import and simplify ranges from other sites. Every scenario is URL-encoded so links can be embedded in Anki decks, though the URL format is subject to future breaking changes.",
+      "problem": "The author likes GTO Wizard's range memorization tool but wants to test custom/arbitrary ranges and import and simplify ranges from other sites, which it doesn't support.",
+      "audience": null,
+      "builder_usernames": [
+        "narcraft"
+      ],
+      "source_excerpt": "My custom poker study tools:\n\nhttps://poker-study.onrender.com/\n\nI really like the range memorization tool from GTO Wizard, but want to be able to put in custom/arbitrary ranges to test. I also want to be able to import and simplify ranges from other sites.",
+      "evidence": [
+        {
+          "source_item_id": 45876796,
+          "source_field": "body",
+          "value": "My custom poker study tools:\n\nhttps://poker-study.onrender.com/\n\nI really like the range memorization tool from GTO Wizard, but want to be able to put in custom/arbitrary ranges to test. I also want to be able to import and simplify ranges from other sites.",
+          "supports": [],
+          "author": "narcraft",
+          "shared_at": 1762787959,
+          "source_url": "https://news.ycombinator.com/item?id=45876796"
+        }
+      ],
+      "source_item_id": 45876796,
+      "source_url": "https://news.ycombinator.com/item?id=45876796",
+      "author": "narcraft",
+      "shared_at": 1762787959,
+      "links": [
+        "https://github.com/nwestallen/poker-study",
+        "https://poker-study.onrender.com/"
+      ]
+    }
+  ]
+}

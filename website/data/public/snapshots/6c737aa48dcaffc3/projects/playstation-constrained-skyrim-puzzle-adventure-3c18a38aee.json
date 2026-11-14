@@ -1,0 +1,33 @@
+{
+  "id": 4543,
+  "slug": "playstation-constrained-skyrim-puzzle-adventure-3c18a38aee",
+  "name": "PlayStation-constrained Skyrim puzzle-adventure",
+  "mentions": [
+    {
+      "name": "PlayStation-constrained Skyrim puzzle-adventure",
+      "description": "A puzzle-adventure Skyrim mod designed for PlayStation mod limitations, using no new assets and no new scripts by treating the base game as a different game. Puzzles were prototyped using only the built-in repeatable toggle scripts, together with a discovered technique to trick the engine into making one-shot enable/disable scripts repeatable.",
+      "problem": "PlayStation mod limitations forbid new assets and scripts, and the built-in scripts for enabling or disabling game objects are not repeatable, leaving only toggle scripts as a usable primitive.",
+      "audience": null,
+      "builder_usernames": [
+        "GalahiSimtam"
+      ],
+      "source_excerpt": "Recently I came up with an idea for a puzzle-adventure under Playstation mod limitations. That means no new assets, and no new scripts either. Simply, let's treat it as a different game, and see what can be done with that. I researched the built-in scripts, and oddly, every script that could be used to enable a game object was not repeatable. Ditto for scripts to disable an object. The only repeatable scripts were toggle scripts (disable an object if it is enabled, enable if it is disabled). So last week I prototyped some puzzles using that primitive only, and while doing so, I figured out how to trick the engine into making those do-once scripts repeatable, too...",
+      "evidence": [
+        {
+          "source_item_id": 48091532,
+          "source_field": "body",
+          "value": "Recently I came up with an idea for a puzzle-adventure under Playstation mod limitations. That means no new assets, and no new scripts either. Simply, let's treat it as a different game, and see what can be done with that. I researched the built-in scripts, and oddly, every script that could be used to enable a game object was not repeatable. Ditto for scripts to disable an object. The only repeatable scripts were toggle scripts (disable an object if it is enabled, enable if it is disabled). So last week I prototyped some puzzles using that primitive only, and while doing so, I figured out how to trick the engine into making those do-once scripts repeatable, too...",
+          "supports": [],
+          "author": "GalahiSimtam",
+          "shared_at": 1778479675,
+          "source_url": "https://news.ycombinator.com/item?id=48091532"
+        }
+      ],
+      "source_item_id": 48091532,
+      "source_url": "https://news.ycombinator.com/item?id=48091532",
+      "author": "GalahiSimtam",
+      "shared_at": 1778479675,
+      "links": []
+    }
+  ]
+}

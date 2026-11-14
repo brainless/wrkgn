@@ -1,0 +1,35 @@
+{
+  "id": 5141,
+  "slug": "mogo-919bb080f7",
+  "name": "Mogo",
+  "mentions": [
+    {
+      "name": "Mogo",
+      "description": "A single-executable backend server for small projects and hobby work, written in Go and inspired by PocketBase, where endpoints are written as Lua scripts with a simple API for requests and a built-in SQLite database. Includes an admin panel, automatic backups, a staging server, and a code editor inside the admin panel for quick changes, designed to pair well with htmx and be comfy to use like a CMS.",
+      "problem": "Wanted a server that pairs well with htmx and the backend-first approach that's comfortable to use like a CMS.",
+      "audience": null,
+      "builder_usernames": [
+        "ksymph"
+      ],
+      "source_excerpt": "I'm building my ideal backend for small projects and hobby stuff. It's inspired by PocketBase, but built around Lua scripting instead of built-in endpoints or usage as a Go library.",
+      "evidence": [
+        {
+          "source_item_id": 47743559,
+          "source_field": "body",
+          "value": "I'm building my ideal backend for small projects and hobby stuff. It's inspired by PocketBase, but built around Lua scripting instead of built-in endpoints or usage as a Go library.",
+          "supports": [],
+          "author": "ksymph",
+          "shared_at": 1776022671,
+          "source_url": "https://news.ycombinator.com/item?id=47743559"
+        }
+      ],
+      "source_item_id": 47743559,
+      "source_url": "https://news.ycombinator.com/item?id=47743559",
+      "author": "ksymph",
+      "shared_at": 1776022671,
+      "links": [
+        "https://github.com/ksymph/mogo"
+      ]
+    }
+  ]
+}

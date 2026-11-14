@@ -1,0 +1,35 @@
+{
+  "id": 5949,
+  "slug": "fesh-7d7ef01701",
+  "name": "fesh",
+  "mentions": [
+    {
+      "name": "fesh",
+      "description": "This experiment explores AI-guided compression of executable binaries: fesh acts as a deterministic pre-processor pipeline wrapping LZMA (xz), applying transformations such as extracting near-branches, normalizing jump tables, rewriting .eh_frame DWARF pointers to absolute image bases, delta-encoding ELF .rela structs with ZigZag mappings, and column transpositions before compressing in separate LZMA channels. CI verifies bit-for-bit reversible compression across 103 Alpine Linux x86_64 packages, and benchmarks show payloads averaging ~6% smaller than xz -9e --x86 (XZ BCJ) and consistently smaller than ZSTD and Brotli.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mohsen1"
+      ],
+      "source_excerpt": "The result is an experiment called fesh. It works strictly as a deterministic pre-processor pipeline wrapping LZMA (xz).",
+      "evidence": [
+        {
+          "source_item_id": 47303682,
+          "source_field": "body",
+          "value": "The result is an experiment called fesh. It works strictly as a deterministic pre-processor pipeline wrapping LZMA (xz).",
+          "supports": [],
+          "author": "mohsen1",
+          "shared_at": 1773019110,
+          "source_url": "https://news.ycombinator.com/item?id=47303682"
+        }
+      ],
+      "source_item_id": 47303682,
+      "source_url": "https://news.ycombinator.com/item?id=47303682",
+      "author": "mohsen1",
+      "shared_at": 1773019110,
+      "links": [
+        "https://github.com/mohsen1/fesh"
+      ]
+    }
+  ]
+}

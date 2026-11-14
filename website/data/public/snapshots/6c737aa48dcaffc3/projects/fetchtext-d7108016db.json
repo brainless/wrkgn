@@ -1,0 +1,35 @@
+{
+  "id": 4605,
+  "slug": "fetchtext-d7108016db",
+  "name": "fetchtext",
+  "mentions": [
+    {
+      "name": "fetchtext",
+      "description": "Self-hostable intelligent document processing service that converts PDFs into structured JSON. It runs a three-tier extraction pipeline — PyMuPDF for digital PDFs, Docling layout-only for scanned-but-readable documents, and Docling+OCR for rough scans — with automatic fallback based on extracted character count. Smart templates classify documents via vector similarity in Qdrant and then extract fields with an LLM (no regex, so layout drift doesn't break templates), and it supports local Ollama or Azure OpenAI, switchable per-user. Built on top of local-ai-packaged and released under Apache 2.0.",
+      "problem": "Existing intelligent document processing tools (Document AI, Form Recognizer, PDF-to-JSON services) are cloud SaaS; the author wanted an equivalent that can run on your own hardware.",
+      "audience": null,
+      "builder_usernames": [
+        "yeag123"
+      ],
+      "source_excerpt": "I wanted an intelligent document processing SaaS (Document AI, Form Recognizer, the various PDF-to-JSON tools) that you could run on your own hardware.",
+      "evidence": [
+        {
+          "source_item_id": 48101150,
+          "source_field": "body",
+          "value": "I wanted an intelligent document processing SaaS (Document AI, Form Recognizer, the various PDF-to-JSON tools) that you could run on your own hardware.",
+          "supports": [],
+          "author": "yeag123",
+          "shared_at": 1778536379,
+          "source_url": "https://news.ycombinator.com/item?id=48101150"
+        }
+      ],
+      "source_item_id": 48101150,
+      "source_url": "https://news.ycombinator.com/item?id=48101150",
+      "author": "yeag123",
+      "shared_at": 1778536379,
+      "links": [
+        "https://github.com/nickyeager/fetchtext"
+      ]
+    }
+  ]
+}

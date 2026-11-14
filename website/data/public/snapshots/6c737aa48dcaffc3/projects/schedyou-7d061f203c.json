@@ -1,0 +1,35 @@
+{
+  "id": 6181,
+  "slug": "schedyou-7d061f203c",
+  "name": "Schedyou",
+  "mentions": [
+    {
+      "name": "Schedyou",
+      "description": "A simple, single-person, self-hostable scheduling app similar to Calendly or Cal.com, designed as a lightweight replacement for a self-hosted Cal.com instance. It is also being built as an experiment in using AI tools to develop a maintainable project of medium complexity, decomposed into a few dozen tasks with manual code review.",
+      "problem": "Self-hosted Cal.com is way overkill for a single person's scheduling needs and annoying to maintain.",
+      "audience": "personal-use",
+      "builder_usernames": [
+        "abound"
+      ],
+      "source_excerpt": "I'm working on a simple, single person, self-hostable scheduling app [1] (think Calendly or Cal.com) to replace my self-hosted Cal.com instance, as it's way overkill for my needs and annoying to maintain.",
+      "evidence": [
+        {
+          "source_item_id": 47309050,
+          "source_field": "body",
+          "value": "I'm working on a simple, single person, self-hostable scheduling app [1] (think Calendly or Cal.com) to replace my self-hosted Cal.com instance, as it's way overkill for my needs and annoying to maintain.",
+          "supports": [],
+          "author": "abound",
+          "shared_at": 1773064253,
+          "source_url": "https://news.ycombinator.com/item?id=47309050"
+        }
+      ],
+      "source_item_id": 47309050,
+      "source_url": "https://news.ycombinator.com/item?id=47309050",
+      "author": "abound",
+      "shared_at": 1773064253,
+      "links": [
+        "https://git.sr.ht/~bsprague/schedyou"
+      ]
+    }
+  ]
+}

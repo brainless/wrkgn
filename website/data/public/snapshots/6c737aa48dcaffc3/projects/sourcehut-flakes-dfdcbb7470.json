@@ -1,0 +1,35 @@
+{
+  "id": 3422,
+  "slug": "sourcehut-flakes-dfdcbb7470",
+  "name": "sourcehut_flakes",
+  "mentions": [
+    {
+      "name": "sourcehut_flakes",
+      "description": "A self-hosted SourceHut instance deployed on the author's server, with Nix flakes set up to inject the configuration, created in response to SourceHut's new policy.",
+      "problem": "No longer in compliance with SourceHut's new policy.",
+      "audience": null,
+      "builder_usernames": [
+        "tombert"
+      ],
+      "source_excerpt": "For that matter, I also decided to self-host SourceHut because I will no longer be in compliance with their new policy. I have the flakes set up to inject them on my server",
+      "evidence": [
+        {
+          "source_item_id": 49690236,
+          "source_field": "body",
+          "value": "For that matter, I also decided to self-host SourceHut because I will no longer be in compliance with their new policy. I have the flakes set up to inject them on my server",
+          "supports": [],
+          "author": "tombert",
+          "shared_at": 1789345260,
+          "source_url": "https://news.ycombinator.com/item?id=49690236"
+        }
+      ],
+      "source_item_id": 49690236,
+      "source_url": "https://news.ycombinator.com/item?id=49690236",
+      "author": "tombert",
+      "shared_at": 1789345260,
+      "links": [
+        "https://git.brucewillis.sexy/~tombert/sourcehut_flakes"
+      ]
+    }
+  ]
+}

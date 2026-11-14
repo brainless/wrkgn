@@ -1,0 +1,35 @@
+{
+  "id": 8397,
+  "slug": "paperboy-fcbf388b4a",
+  "name": "Paperboy",
+  "mentions": [
+    {
+      "name": "Paperboy",
+      "description": "Self-hostable service that generates a personalized daily research digest from recent arXiv papers (and optionally a few other sources). It fetches new papers, scores them against a research profile, produces concise summaries plus a 'why this matters' rationale, and outputs an email/newsletter-like HTML digest. Includes a small API for generating a digest, checking status, and previewing the render.",
+      "problem": "Keyword alerts and generic newsletters were either too noisy or missed papers actually relevant to the user's current work.",
+      "audience": null,
+      "builder_usernames": [
+        "Noah_M"
+      ],
+      "source_excerpt": "I’m working on Paperboy (https://www.paper-boy.app/) a self-hostable service that generates a personalized daily research digest from recent arXiv papers (and optionally a few other sources).",
+      "evidence": [
+        {
+          "source_item_id": 46267446,
+          "source_field": "body",
+          "value": "I’m working on Paperboy (https://www.paper-boy.app/) a self-hostable service that generates a personalized daily research digest from recent arXiv papers (and optionally a few other sources).",
+          "supports": [],
+          "author": "Noah_M",
+          "shared_at": 1765749482,
+          "source_url": "https://news.ycombinator.com/item?id=46267446"
+        }
+      ],
+      "source_item_id": 46267446,
+      "source_url": "https://news.ycombinator.com/item?id=46267446",
+      "author": "Noah_M",
+      "shared_at": 1765749482,
+      "links": [
+        "https://www.paper-boy.app/"
+      ]
+    }
+  ]
+}

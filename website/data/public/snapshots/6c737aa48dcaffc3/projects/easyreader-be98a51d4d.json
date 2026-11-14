@@ -1,0 +1,36 @@
+{
+  "id": 8465,
+  "slug": "easyreader-be98a51d4d",
+  "name": "EasyReader",
+  "mentions": [
+    {
+      "name": "EasyReader",
+      "description": "Open source Swift app that lets readers circle any part of a PDF or ePub and send it to AI for an explanation. Currently integrates with Gemini, with support for user-supplied OpenAI-compatible endpoints planned. Works best on Mac and iPad and is available via TestFlight and GitHub.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "syousif"
+      ],
+      "source_excerpt": "I'm working on an open source swift app that sends anything you circle in a pdf or epub to AI for an explanation.",
+      "evidence": [
+        {
+          "source_item_id": 46269412,
+          "source_field": "body",
+          "value": "I'm working on an open source swift app that sends anything you circle in a pdf or epub to AI for an explanation.",
+          "supports": [],
+          "author": "syousif",
+          "shared_at": 1765763246,
+          "source_url": "https://news.ycombinator.com/item?id=46269412"
+        }
+      ],
+      "source_item_id": 46269412,
+      "source_url": "https://news.ycombinator.com/item?id=46269412",
+      "author": "syousif",
+      "shared_at": 1765763246,
+      "links": [
+        "https://github.com/syousif94/EasyReader",
+        "https://testflight.apple.com/join/1KvY5cwC"
+      ]
+    }
+  ]
+}

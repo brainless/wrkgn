@@ -1,0 +1,35 @@
+{
+  "id": 7045,
+  "slug": "embeddedgdbmcp-74d65b098a",
+  "name": "embeddedgdbmcp",
+  "mentions": [
+    {
+      "name": "embeddedgdbmcp",
+      "description": "An AI debugger for embedded systems, implemented as an MCP server that lets Claude talk directly to GDB. Instead of manually decoding registers like CFSR, users ask natural-language questions such as \"why did it crash?\" and get concrete answers like the faulting line and function, including diagnosing deadlocks between RP2040 cores. Version 0.1.0 has shipped.",
+      "problem": "Debugging microcontroller crashes means spending hours staring at cryptic registers and manually decoding values to figure out the cause.",
+      "audience": "Embedded developers debugging microcontroller crashes who otherwise spend hours decoding cryptic registers.",
+      "builder_usernames": [
+        "ezulabs"
+      ],
+      "source_excerpt": "So I built an MCP server that lets Claude talk directly to GDB.\nNow instead of manually decoding CFSR registers, I just ask \"why did it crash?\" and get back \"division by zero at line 142 in calculate_average()\".",
+      "evidence": [
+        {
+          "source_item_id": 46946324,
+          "source_field": "body",
+          "value": "So I built an MCP server that lets Claude talk directly to GDB.\nNow instead of manually decoding CFSR registers, I just ask \"why did it crash?\" and get back \"division by zero at line 142 in calculate_average()\".",
+          "supports": [],
+          "author": "ezulabs",
+          "shared_at": 1770651157,
+          "source_url": "https://news.ycombinator.com/item?id=46946324"
+        }
+      ],
+      "source_item_id": 46946324,
+      "source_url": "https://news.ycombinator.com/item?id=46946324",
+      "author": "ezulabs",
+      "shared_at": 1770651157,
+      "links": [
+        "https://github.com/ezulabs/embeddedgdbmcp"
+      ]
+    }
+  ]
+}

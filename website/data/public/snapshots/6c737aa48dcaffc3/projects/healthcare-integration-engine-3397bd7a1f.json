@@ -1,0 +1,33 @@
+{
+  "id": 7243,
+  "slug": "healthcare-integration-engine-3397bd7a1f",
+  "name": "Healthcare Integration Engine",
+  "mentions": [
+    {
+      "name": "Healthcare Integration Engine",
+      "description": "A healthcare integration engine for companies that don't want to build their own or use Mirth Connect. It brings software-engineering workflows to healthcare integrations, including coding with a CLI instead of clicking in a UI, version control, infrastructure as code, easy spin-up/tear-down of environments, CI/CD, and telemetry. Written in Go.",
+      "problem": "Companies lack a healthcare integration engine they don't have to build themselves and want an alternative to Mirth Connect.",
+      "audience": "Companies who don't want to build their own healthcare integration engine or use Mirth Connect.",
+      "builder_usernames": [
+        "cam311"
+      ],
+      "source_excerpt": "A healthcare integration engine for companies who don't want to build their own or don't want to use Mirth connect. Brings together some of the nicer features we have had in the SWE world (writing code and using a CLI vs clicking in a UI, version control, IaC, spin up/tear down envs easily, CI/CD, telemetry). It is written in Go.",
+      "evidence": [
+        {
+          "source_item_id": 46946030,
+          "source_field": "body",
+          "value": "A healthcare integration engine for companies who don't want to build their own or don't want to use Mirth connect. Brings together some of the nicer features we have had in the SWE world (writing code and using a CLI vs clicking in a UI, version control, IaC, spin up/tear down envs easily, CI/CD, telemetry). It is written in Go.",
+          "supports": [],
+          "author": "cam311",
+          "shared_at": 1770649663,
+          "source_url": "https://news.ycombinator.com/item?id=46946030"
+        }
+      ],
+      "source_item_id": 46946030,
+      "source_url": "https://news.ycombinator.com/item?id=46946030",
+      "author": "cam311",
+      "shared_at": 1770649663,
+      "links": []
+    }
+  ]
+}

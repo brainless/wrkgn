@@ -1,0 +1,33 @@
+{
+  "id": 4011,
+  "slug": "formally-verified-1d-ruckig-implementation-d4501f9438",
+  "name": "Formally verified 1D Ruckig implementation",
+  "mentions": [
+    {
+      "name": "Formally verified 1D Ruckig implementation",
+      "description": "This project is a formally verified, simplified one-dimensional implementation of Ruckig, a motion trajectory generation library. It is being built primarily to learn formal verification tools, and tackles numeric stability challenges using arbitrary-precision arithmetic. Correctness arguments currently treat a formalization of Sturm's theorem as an axiom, with no full bridge to it yet.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "addaon"
+      ],
+      "source_excerpt": "Trying to write a formally verified simplified (1D) implementation of Ruckig, more to learn the tools than for the result, although I want that too.",
+      "evidence": [
+        {
+          "source_item_id": 48530043,
+          "source_field": "body",
+          "value": "Trying to write a formally verified simplified (1D) implementation of Ruckig, more to learn the tools than for the result, although I want that too.",
+          "supports": [],
+          "author": "addaon",
+          "shared_at": 1781458184,
+          "source_url": "https://news.ycombinator.com/item?id=48530043"
+        }
+      ],
+      "source_item_id": 48530043,
+      "source_url": "https://news.ycombinator.com/item?id=48530043",
+      "author": "addaon",
+      "shared_at": 1781458184,
+      "links": []
+    }
+  ]
+}

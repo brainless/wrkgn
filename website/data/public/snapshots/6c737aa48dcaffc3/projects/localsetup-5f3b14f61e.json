@@ -1,0 +1,35 @@
+{
+  "id": 10076,
+  "slug": "localsetup-5f3b14f61e",
+  "name": "localsetup",
+  "mentions": [
+    {
+      "name": "localsetup",
+      "description": "A hobby Rust CLI tool that automates setting up a new machine for a user account: installing packages, setting up an SSH key, cloning git repositories, configuring dotfiles, and installing rustup/Rust. Distributed as a single dependency-free binary pulled from CI, replacing the author's previous messy collection of bash setup scripts.",
+      "problem": "Setting up each new machine means repeating the same manual steps (packages, SSH key, repo clones, dotfiles, Rust), and managing this with bash scripts proved messy and hard to maintain.",
+      "audience": null,
+      "builder_usernames": [
+        "zygentoma"
+      ],
+      "source_excerpt": "https://github.com/zgtm/localsetup\n\nHobby. Very rudimentary, not everything working yet.\n\nThink ansible for your user account (except it will definitely not be ansible for your user account).",
+      "evidence": [
+        {
+          "source_item_id": 45423579,
+          "source_field": "body",
+          "value": "https://github.com/zgtm/localsetup\n\nHobby. Very rudimentary, not everything working yet.\n\nThink ansible for your user account (except it will definitely not be ansible for your user account).",
+          "supports": [],
+          "author": "zygentoma",
+          "shared_at": 1759224639,
+          "source_url": "https://news.ycombinator.com/item?id=45423579"
+        }
+      ],
+      "source_item_id": 45423579,
+      "source_url": "https://news.ycombinator.com/item?id=45423579",
+      "author": "zygentoma",
+      "shared_at": 1759224639,
+      "links": [
+        "https://github.com/zgtm/localsetup"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 3637,
+  "slug": "zen-47b8be1e34",
+  "name": "Zen",
+  "mentions": [
+    {
+      "name": "Zen",
+      "description": "A system-wide desktop ad-blocker and privacy guard that filters ads and tracking at the network level, covering not just browsers but also desktop applications. Motivated by the shrinking space for browser-based ad-blockers (e.g., Google killing Manifest V2 in Chrome) and the prevalence of ad/tracking traffic in native desktop apps.",
+      "problem": "Browser-based ad-blockers are being hindered (e.g., Google re-activating efforts against them by killing Manifest V2 in Chrome), and desktop apps also load ads and tracking that browser extensions cannot reach, so network-level system-wide filtering is needed.",
+      "audience": null,
+      "builder_usernames": [
+        "anfragment"
+      ],
+      "source_excerpt": "I'm working on a system-wide desktop ad-blocker and privacy guard called Zen (for almost 2.5 years now): https://github.com/irbis-sh/zen-desktop",
+      "evidence": [
+        {
+          "source_item_id": 48530704,
+          "source_field": "body",
+          "value": "I'm working on a system-wide desktop ad-blocker and privacy guard called Zen (for almost 2.5 years now): https://github.com/irbis-sh/zen-desktop",
+          "supports": [],
+          "author": "anfragment",
+          "shared_at": 1781461178,
+          "source_url": "https://news.ycombinator.com/item?id=48530704"
+        }
+      ],
+      "source_item_id": 48530704,
+      "source_url": "https://news.ycombinator.com/item?id=48530704",
+      "author": "anfragment",
+      "shared_at": 1781461178,
+      "links": [
+        "https://github.com/irbis-sh/zen-desktop"
+      ]
+    }
+  ]
+}

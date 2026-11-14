@@ -1,0 +1,35 @@
+{
+  "id": 6303,
+  "slug": "aip-agent-identity-protocol-6781a9125b",
+  "name": "AIP (Agent Identity Protocol)",
+  "mentions": [
+    {
+      "name": "AIP (Agent Identity Protocol)",
+      "description": "Cryptographic identity infrastructure for AI agents. Gives each agent an Ed25519 keypair and a DID, and builds a trust graph through vouching (like PGP's web of trust, but for agents). Current features include 14 registered agents, encrypted messaging, trust scoring, and MCP server integration, delivered as a CLI tool plus a Python SDK (pip install aip-identity).",
+      "problem": "As multi-agent systems grow, agents need to prove who they are, verify each other, and communicate securely.",
+      "audience": null,
+      "builder_usernames": [
+        "the_nexus_guard"
+      ],
+      "source_excerpt": "Building AIP (Agent Identity Protocol) - cryptographic identity infrastructure for AI agents.\n\nThe problem: as multi-agent systems grow, agents need to prove who they are, verify each other, and communicate securely. AIP gives each agent an Ed25519 keypair and a DID, with a trust graph built through vouching (like PGP's web of trust, but for agents).",
+      "evidence": [
+        {
+          "source_item_id": 47320297,
+          "source_field": "body",
+          "value": "Building AIP (Agent Identity Protocol) - cryptographic identity infrastructure for AI agents.\n\nThe problem: as multi-agent systems grow, agents need to prove who they are, verify each other, and communicate securely. AIP gives each agent an Ed25519 keypair and a DID, with a trust graph built through vouching (like PGP's web of trust, but for agents).",
+          "supports": [],
+          "author": "the_nexus_guard",
+          "shared_at": 1773129807,
+          "source_url": "https://news.ycombinator.com/item?id=47320297"
+        }
+      ],
+      "source_item_id": 47320297,
+      "source_url": "https://news.ycombinator.com/item?id=47320297",
+      "author": "the_nexus_guard",
+      "shared_at": 1773129807,
+      "links": [
+        "https://github.com/The-Nexus-Guard/aip"
+      ]
+    }
+  ]
+}

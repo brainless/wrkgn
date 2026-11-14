@@ -1,0 +1,35 @@
+{
+  "id": 8310,
+  "slug": "wordllamadetect-bd79eb35b6",
+  "name": "WordLlamaDetect",
+  "mentions": [
+    {
+      "name": "WordLlamaDetect",
+      "description": "A language identification model that runs on CPU, processing 70k texts per second on a single thread with a 13MB model artifact. It supports 148 languages (~100 with good accuracy) and is trained as static embeddings derived from the Gemma 3 token embeddings.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "deepsquirrelnet"
+      ],
+      "source_excerpt": "I’m finishing up a language identification model that runs on cpu, 70k texts/s single thread, 13mb model artifact and 148 supported languages (though only ~100 have good accuracy).",
+      "evidence": [
+        {
+          "source_item_id": 46268145,
+          "source_field": "body",
+          "value": "I’m finishing up a language identification model that runs on cpu, 70k texts/s single thread, 13mb model artifact and 148 supported languages (though only ~100 have good accuracy).",
+          "supports": [],
+          "author": "deepsquirrelnet",
+          "shared_at": 1765753985,
+          "source_url": "https://news.ycombinator.com/item?id=46268145"
+        }
+      ],
+      "source_item_id": 46268145,
+      "source_url": "https://news.ycombinator.com/item?id=46268145",
+      "author": "deepsquirrelnet",
+      "shared_at": 1765753985,
+      "links": [
+        "https://github.com/dleemiller/WordLlamaDetect"
+      ]
+    }
+  ]
+}

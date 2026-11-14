@@ -1,0 +1,33 @@
+{
+  "id": 9859,
+  "slug": "voice-notes-organizer-60dd9bb78d",
+  "name": "Voice Notes Organizer",
+  "mentions": [
+    {
+      "name": "Voice Notes Organizer",
+      "description": "A Python Qt desktop app that organizes 20 years of personal voice notes, using Whisper with fallback online services to transcribe, summarize, and tag audio files. Its email-client-like UI has a tags pane, a center pane listing transcriptions and notes per audio file, and a right pane with detailed information about the selected file. The next step is serving the archive as a model context protocol server.",
+      "problem": null,
+      "audience": "20 years of accumulated personal voice notes sat disorganized, including long-outdated reminders",
+      "builder_usernames": [
+        "dotancohen"
+      ],
+      "source_excerpt": "To organize them, I'm writing a Python Qt application with Claude Code. It started off as vibe coding, but I'm now developing it using processes very similar to those I would use when managing software teams. I've picked up a lot of good tips about that here on HN. I've got Whisper, and fallback online services, transcribing the audio and summarizing it and adding tags.",
+      "evidence": [
+        {
+          "source_item_id": 45419578,
+          "source_field": "body",
+          "value": "To organize them, I'm writing a Python Qt application with Claude Code. It started off as vibe coding, but I'm now developing it using processes very similar to those I would use when managing software teams. I've picked up a lot of good tips about that here on HN. I've got Whisper, and fallback online services, transcribing the audio and summarizing it and adding tags.",
+          "supports": [],
+          "author": "dotancohen",
+          "shared_at": 1759184666,
+          "source_url": "https://news.ycombinator.com/item?id=45419578"
+        }
+      ],
+      "source_item_id": 45419578,
+      "source_url": "https://news.ycombinator.com/item?id=45419578",
+      "author": "dotancohen",
+      "shared_at": 1759184666,
+      "links": []
+    }
+  ]
+}

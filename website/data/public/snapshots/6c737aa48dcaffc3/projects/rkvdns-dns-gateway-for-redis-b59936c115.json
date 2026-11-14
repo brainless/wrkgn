@@ -1,0 +1,35 @@
+{
+  "id": 10927,
+  "slug": "rkvdns-dns-gateway-for-redis-b59936c115",
+  "name": "rkvdns (DNS gateway for Redis)",
+  "mentions": [
+    {
+      "name": "rkvdns (DNS gateway for Redis)",
+      "description": "A Python product that implements a DNS gateway for Redis, with built-in observability for debugging coroutines/threading: coroutine state is exposed as DNS TXT records (e.g., write_control, get, statistics_report, process_pending_queue counters) queryable via dig.",
+      "problem": "Debugging co-routines / threading is a pain in any language.",
+      "audience": null,
+      "builder_usernames": [
+        "m3047"
+      ],
+      "source_excerpt": "This is in a product written in Python which implements a DNS gateway for Redis:",
+      "evidence": [
+        {
+          "source_item_id": 43835020,
+          "source_field": "body",
+          "value": "This is in a product written in Python which implements a DNS gateway for Redis:",
+          "supports": [],
+          "author": "m3047",
+          "shared_at": 1745945230,
+          "source_url": "https://news.ycombinator.com/item?id=43835020"
+        }
+      ],
+      "source_item_id": 43835020,
+      "source_url": "https://news.ycombinator.com/item?id=43835020",
+      "author": "m3047",
+      "shared_at": 1745945230,
+      "links": [
+        "https://github.com/m3047/rkvdns/blob/f6fba9523a83aa5125378bb0dae495cbc0651e8b/python/rkvdns/controller.py#L303"
+      ]
+    }
+  ]
+}

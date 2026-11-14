@@ -1,0 +1,35 @@
+{
+  "id": 5169,
+  "slug": "rover-a0fe659512",
+  "name": "Rover",
+  "mentions": [
+    {
+      "name": "Rover",
+      "description": "Rover is a search engine for petabytes of raw logs in Azure that strips away the \"indexing tax\" that makes large-scale logging expensive. Instead of moving massive data to heavy compute nodes, the engine surgically fetches only the specific bytes needed to answer a query directly from storage. It shifts work from memory-hungry string parsing to hardware-accelerated bitwise math, scanning 1TB of data in about 1.2 seconds for roughly $0.01.",
+      "problem": "Large-scale logging is expensive due to the indexing tax of moving massive amounts of data to heavy compute nodes.",
+      "audience": "Teams and individuals dealing with large-scale log search and scaling challenges",
+      "builder_usernames": [
+        "dhruvchaudhari"
+      ],
+      "source_excerpt": "My friend and I are building Rover, a search engine for petabytes of raw logs in Azure: https://roverhq.io/ The core idea is to strip away the \"indexing tax\" that usually makes large-scale logging so expensive.",
+      "evidence": [
+        {
+          "source_item_id": 47755903,
+          "source_field": "body",
+          "value": "My friend and I are building Rover, a search engine for petabytes of raw logs in Azure: https://roverhq.io/ The core idea is to strip away the \"indexing tax\" that usually makes large-scale logging so expensive.",
+          "supports": [],
+          "author": "dhruvchaudhari",
+          "shared_at": 1776104223,
+          "source_url": "https://news.ycombinator.com/item?id=47755903"
+        }
+      ],
+      "source_item_id": 47755903,
+      "source_url": "https://news.ycombinator.com/item?id=47755903",
+      "author": "dhruvchaudhari",
+      "shared_at": 1776104223,
+      "links": [
+        "https://roverhq.io/"
+      ]
+    }
+  ]
+}

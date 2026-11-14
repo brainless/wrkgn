@@ -1,0 +1,36 @@
+{
+  "id": 10336,
+  "slug": "tanstack-db-c2f88a68fb",
+  "name": "Tanstack DB",
+  "mentions": [
+    {
+      "name": "Tanstack DB",
+      "description": "A client-side store for web apps with transactions, optimistic state, and live queries spanning multiple collections. Designed for sync, it can hook up to any sync engine to keep the front end in sync with the backend, while being built on TanStack Query so a sync engine is optional. The query engine uses a TypeScript implementation of differential dataflow for incremental computation, giving fast sub-millisecond reactivity for complex SQL-like queries such as joins and group by.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "samwillis"
+      ],
+      "source_excerpt": "Tanstack DB - a new client side store for web apps, with transactions, optimistic state, and live queries spanning multiple collections.\n\nIt's designed for sync, so rather than fetching you can hook it up to a sync engine (any!) to keep your front end in sync with your backend. It's built on Tanstack Query, making the sync engine optional, and a great path for incremental adoption.\n\nThe query engine uses a typescript implementation of differential dataflow to enable incremental computation of the live queries - they are very fast to update. This gives you sub ms fine grade reactivity of complex queries (think sql like joins, group by etc).",
+      "evidence": [
+        {
+          "source_item_id": 44703641,
+          "source_field": "body",
+          "value": "Tanstack DB - a new client side store for web apps, with transactions, optimistic state, and live queries spanning multiple collections.\n\nIt's designed for sync, so rather than fetching you can hook it up to a sync engine (any!) to keep your front end in sync with your backend. It's built on Tanstack Query, making the sync engine optional, and a great path for incremental adoption.\n\nThe query engine uses a typescript implementation of differential dataflow to enable incremental computation of the live queries - they are very fast to update. This gives you sub ms fine grade reactivity of complex queries (think sql like joins, group by etc).",
+          "supports": [],
+          "author": "samwillis",
+          "shared_at": 1753642711,
+          "source_url": "https://news.ycombinator.com/item?id=44703641"
+        }
+      ],
+      "source_item_id": 44703641,
+      "source_url": "https://news.ycombinator.com/item?id=44703641",
+      "author": "samwillis",
+      "shared_at": 1753642711,
+      "links": [
+        "https://github.com/TanStack/db",
+        "https://tanstack.com/db/latest"
+      ]
+    }
+  ]
+}

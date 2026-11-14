@@ -1,0 +1,33 @@
+{
+  "id": 7868,
+  "slug": "julia-language-support-for-godot-388df10137",
+  "name": "Julia language support for Godot",
+  "mentions": [
+    {
+      "name": "Julia language support for Godot",
+      "description": "This project adds Julia language support to the Godot game engine, so the native Godot application can call a Julia shared object. Work is resuming after a delay caused by a failed power supply.",
+      "problem": "Debugging has been a challenge: the native Godot application calls the Julia shared object, and the author hasn't figured out how to get the Julia debugger to catch exceptions.",
+      "audience": null,
+      "builder_usernames": [
+        "hojalot"
+      ],
+      "source_excerpt": "Adding Julia language support to Godot.  Delayed by a failed power supply, but starting back at it.  Debugging has been a challenge since the native godot application is calling the julia shared object and I haven't figured out how to get the julia debugger to catch exceptions.",
+      "evidence": [
+        {
+          "source_item_id": 46584334,
+          "source_field": "body",
+          "value": "Adding Julia language support to Godot.  Delayed by a failed power supply, but starting back at it.  Debugging has been a challenge since the native godot application is calling the julia shared object and I haven't figured out how to get the julia debugger to catch exceptions.",
+          "supports": [],
+          "author": "hojalot",
+          "shared_at": 1768194676,
+          "source_url": "https://news.ycombinator.com/item?id=46584334"
+        }
+      ],
+      "source_item_id": 46584334,
+      "source_url": "https://news.ycombinator.com/item?id=46584334",
+      "author": "hojalot",
+      "shared_at": 1768194676,
+      "links": []
+    }
+  ]
+}

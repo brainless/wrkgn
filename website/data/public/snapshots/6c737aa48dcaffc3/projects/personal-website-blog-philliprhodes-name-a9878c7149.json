@@ -1,0 +1,35 @@
+{
+  "id": 11058,
+  "slug": "personal-website-blog-philliprhodes-name-a9878c7149",
+  "name": "Personal website/blog (philliprhodes.name)",
+  "mentions": [
+    {
+      "name": "Personal website/blog (philliprhodes.name)",
+      "description": "Self-hosted personal website/blog deployed with Ansible automation on Tomcat using Roller Weblogger, intended to become the author's main outlet for sharing content alongside Fediverse sites instead of Facebook.",
+      "problem": "Replaces closed-source, walled-garden sites like Facebook, in line with the author's principles, while cutting down time wasted on political discussions and improving mental health.",
+      "audience": "The author personally, as a self-hosted platform for blogging and sharing content in place of Facebook",
+      "builder_usernames": [
+        "mindcrime"
+      ],
+      "source_excerpt": "I spent the weekend working on the Ansible automation needed to deploy Tomcat and Roller Weblogger for my new personal website/blog[1].",
+      "evidence": [
+        {
+          "source_item_id": 43821908,
+          "source_field": "body",
+          "value": "I spent the weekend working on the Ansible automation needed to deploy Tomcat and Roller Weblogger for my new personal website/blog[1].",
+          "supports": [],
+          "author": "mindcrime",
+          "shared_at": 1745850500,
+          "source_url": "https://news.ycombinator.com/item?id=43821908"
+        }
+      ],
+      "source_item_id": 43821908,
+      "source_url": "https://news.ycombinator.com/item?id=43821908",
+      "author": "mindcrime",
+      "shared_at": 1745850500,
+      "links": [
+        "https://www.philliprhodes.name"
+      ]
+    }
+  ]
+}

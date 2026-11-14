@@ -1,0 +1,63 @@
+{
+  "id": 5417,
+  "slug": "markdown-in-place-editor-for-google-docs-a9b1364e94",
+  "name": "Markdown in-place editor for Google Docs",
+  "mentions": [
+    {
+      "name": "Markdown in-place editor for Google Docs",
+      "description": "This tool enables editing Google Docs in place using markdown. It converts a Google Doc to markdown, lets the user edit the markdown file, then diffs the edited markdown and applies the changes back to the source Google Doc so that features not represented in markdown are not overwritten. It has been heavily tested against real-world docs and is currently at beta quality.",
+      "problem": "Many tools convert Google Docs to markdown or import markdown into Google Docs, but none of them support making in-place edits to a Google Doc via markdown.",
+      "audience": null,
+      "builder_usernames": [
+        "ksri"
+      ],
+      "source_excerpt": "I am working on a way to edit google docs using markdown. Many tools exist to convert google docs to markdown and to import markdown to google docs - but none of them make in place edits.",
+      "evidence": [
+        {
+          "source_item_id": 47746846,
+          "source_field": "body",
+          "value": "I am working on a way to edit google docs using markdown. Many tools exist to convert google docs to markdown and to import markdown to google docs - but none of them make in place edits.",
+          "supports": [],
+          "author": "ksri",
+          "shared_at": 1776047073,
+          "source_url": "https://news.ycombinator.com/item?id=47746846"
+        }
+      ],
+      "source_item_id": 47746846,
+      "source_url": "https://news.ycombinator.com/item?id=47746846",
+      "author": "ksri",
+      "shared_at": 1776047073,
+      "links": [
+        "https://github.com/think41/extrasuite"
+      ]
+    },
+    {
+      "name": "Extrasuite",
+      "description": "This CLI provides a declarative interface for Google Docs, Sheets, and Slides built around AI agent workflows. A pull command converts proprietary documents into local files (TSV or XML) that agents like Claude Code can edit in place; a push command computes the diff and applies only the changes back, preserving formatting and comments. The design lets LLMs get the big picture from local files and spend tokens editing content rather than figuring out how to edit documents. It also includes a security model that assigns each employee a permission-less service account, so the agent can only access explicitly shared documents and its changes appear separately in version history.",
+      "problem": "LLM agents spend tokens figuring out how to edit proprietary documents instead of on the actual business edits, and agents need scoped, auditable access to documents.",
+      "audience": null,
+      "builder_usernames": [
+        "ksri"
+      ],
+      "source_excerpt": "I am working on a declarative CLI for google docs/sheets/slides etc. The general idea is a \"pull\" command that converts the proprietary document into a local files like tsv or xml. The agent (claude code) then simply edits these files in place and calls \"push\".",
+      "evidence": [
+        {
+          "source_item_id": 47312621,
+          "source_field": "body",
+          "value": "I am working on a declarative CLI for google docs/sheets/slides etc. The general idea is a \"pull\" command that converts the proprietary document into a local files like tsv or xml. The agent (claude code) then simply edits these files in place and calls \"push\".",
+          "supports": [],
+          "author": "ksri",
+          "shared_at": 1773078689,
+          "source_url": "https://news.ycombinator.com/item?id=47312621"
+        }
+      ],
+      "source_item_id": 47312621,
+      "source_url": "https://news.ycombinator.com/item?id=47312621",
+      "author": "ksri",
+      "shared_at": 1773078689,
+      "links": [
+        "https://github.com/think41/extrasuite"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 10441,
+  "slug": "agro-7e3f89f4b8",
+  "name": "agro",
+  "mentions": [
+    {
+      "name": "agro",
+      "description": "A script that launches claude code, gemini cli, and aider agents on the same task and compares their results, handling git worktree setup so the agents can run in parallel — described as like OpenRouter but for CLI agents. The framework is also used to build itself, with 150 AI-generated commits and dev logs of every prompt and accepted solution.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "stillsut"
+      ],
+      "source_excerpt": "Working on a script to let people launch claude code, gemini cli, and aider agents on the same task and compare results. Handles all the git worktree stuff for you so they can run in parallel. Kind of like OpenRouter but for CLI agents.",
+      "evidence": [
+        {
+          "source_item_id": 44711078,
+          "source_field": "body",
+          "value": "Working on a script to let people launch claude code, gemini cli, and aider agents on the same task and compare results. Handles all the git worktree stuff for you so they can run in parallel. Kind of like OpenRouter but for CLI agents.",
+          "supports": [],
+          "author": "stillsut",
+          "shared_at": 1753711931,
+          "source_url": "https://news.ycombinator.com/item?id=44711078"
+        }
+      ],
+      "source_item_id": 44711078,
+      "source_url": "https://news.ycombinator.com/item?id=44711078",
+      "author": "stillsut",
+      "shared_at": 1753711931,
+      "links": [
+        "https://github.com/sutt/agro/blob/master/docs/dev-summary-v1.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": 5992,
+  "slug": "measure-to-cut-a6b7c8706b",
+  "name": "Measure to Cut",
+  "mentions": [
+    {
+      "name": "Measure to Cut",
+      "description": "This web tool plans board cuts and sheet cuts for projects: it calculates how much material is needed and generates a cutting plan showing every cut to make and where to make it. It supports 1D board-cut calculation and, as of the latest update, 2D sheet-cut calculation, and users can save projects on the site to return to later.",
+      "problem": "Planning how to cut boards and sheets for a project—figuring out how much material is needed and where to make each cut—is hard to do by hand.",
+      "audience": null,
+      "builder_usernames": [
+        "happiness0067"
+      ],
+      "source_excerpt": "I'm building out https://measuretocut.com, which started as a tool for myself to help with planning board cuts (and now sheet cuts). It calculates how much material you need for your project and gives you a plan for the materials and shows all the cuts you need to make and where to make them.",
+      "evidence": [
+        {
+          "source_item_id": 47304054,
+          "source_field": "body",
+          "value": "I'm building out https://measuretocut.com, which started as a tool for myself to help with planning board cuts (and now sheet cuts). It calculates how much material you need for your project and gives you a plan for the materials and shows all the cuts you need to make and where to make them.",
+          "supports": [],
+          "author": "happiness0067",
+          "shared_at": 1773022098,
+          "source_url": "https://news.ycombinator.com/item?id=47304054"
+        }
+      ],
+      "source_item_id": 47304054,
+      "source_url": "https://news.ycombinator.com/item?id=47304054",
+      "author": "happiness0067",
+      "shared_at": 1773022098,
+      "links": [
+        "https://measuretocut.com"
+      ]
+    },
+    {
+      "name": "MeasureToCut",
+      "description": "This web app calculates how much material a project actually needs and generates cutting layouts that minimize waste or cost. It started as a 1D cut planner for boards, bars, and pipes that lays pieces out visually on stock lengths, and now also includes a 2D sheet cut calculator for plywood and similar sheet materials.",
+      "problem": "DIY projects frequently end with another trip to the hardware store because of miscalculated material needs and cutting waste.",
+      "audience": "Fellow engineers turned woodworkers doing DIY and woodworking projects.",
+      "builder_usernames": [
+        "happiness0067"
+      ],
+      "source_excerpt": "I built https://measuretocut.com after too many DIY projects ended with another trip to the hardware store. It figures out how much material you actually need and how to cut it to minimize waste or costs.",
+      "evidence": [
+        {
+          "source_item_id": 46945716,
+          "source_field": "body",
+          "value": "I built https://measuretocut.com after too many DIY projects ended with another trip to the hardware store. It figures out how much material you actually need and how to cut it to minimize waste or costs.",
+          "supports": [],
+          "author": "happiness0067",
+          "shared_at": 1770648095,
+          "source_url": "https://news.ycombinator.com/item?id=46945716"
+        }
+      ],
+      "source_item_id": 46945716,
+      "source_url": "https://news.ycombinator.com/item?id=46945716",
+      "author": "happiness0067",
+      "shared_at": 1770648095,
+      "links": [
+        "https://measuretocut.com"
+      ]
+    },
+    {
+      "name": "MeasureToCut",
+      "description": "This web app calculates how much stock material a DIY project needs and details the required cuts onto boards, pipes, or bars to minimize waste or cost. A 2D mode for tiling parts onto plywood and sheet goods is planned.",
+      "problem": "DIY projects turned into ad-hoc sketches on napkins and receipts to figure out how much wood/material to buy and avoid extra trips to the store.",
+      "audience": null,
+      "builder_usernames": [
+        "happiness0067"
+      ],
+      "source_excerpt": "I ended up making a side project for my side project and built MeasureToCut: https://measuretocut.com\n\nI moved last year and started a bunch of DIY projects, and each one turned into a bunch of drawings on napkins and backs of receipts to figure out how much wood/material I needed to buy to avoid \"one more trip to store\". It tells you how much of a stock material you need, and shows you how to cut it, to minimize waste or minimize cost.",
+      "evidence": [
+        {
+          "source_item_id": 46582336,
+          "source_field": "body",
+          "value": "I ended up making a side project for my side project and built MeasureToCut: https://measuretocut.com\n\nI moved last year and started a bunch of DIY projects, and each one turned into a bunch of drawings on napkins and backs of receipts to figure out how much wood/material I needed to buy to avoid \"one more trip to store\". It tells you how much of a stock material you need, and shows you how to cut it, to minimize waste or minimize cost.",
+          "supports": [],
+          "author": "happiness0067",
+          "shared_at": 1768179168,
+          "source_url": "https://news.ycombinator.com/item?id=46582336"
+        }
+      ],
+      "source_item_id": 46582336,
+      "source_url": "https://news.ycombinator.com/item?id=46582336",
+      "author": "happiness0067",
+      "shared_at": 1768179168,
+      "links": [
+        "https://measuretocut.com"
+      ]
+    }
+  ]
+}

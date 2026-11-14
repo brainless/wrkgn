@@ -1,0 +1,35 @@
+{
+  "id": 5209,
+  "slug": "taxus-8013a5c6ce",
+  "name": "Taxus",
+  "mentions": [
+    {
+      "name": "Taxus",
+      "description": "A static site generator inspired by Zola that aims to be more approachable with better documentation. It incorporates WebAssembly via Yew to provide 'islands' for high-performance features, such as a search feature built from the ground up as a Yew search widget, while also allowing users to write plain JavaScript if preferred.",
+      "problem": "Existing static site generators like Zola have weaker documentation and are less approachable.",
+      "audience": null,
+      "builder_usernames": [
+        "sentinel1909"
+      ],
+      "source_excerpt": "I'm building my take on a static site generator.\n\nhttps://get-taxus-org.pages.dev\n\nIt's inspired by Zola, but has better documentation and will hopefully be more approachable when all is said and done. I'm trying to incorporate WebAssembly, with Yew, to give \"islands\" for high performance stuff you might want where WebAssembly makes sense. For example, I wrote search from the ground up, and built a search widget using Yew.",
+      "evidence": [
+        {
+          "source_item_id": 47746965,
+          "source_field": "body",
+          "value": "I'm building my take on a static site generator.\n\nhttps://get-taxus-org.pages.dev\n\nIt's inspired by Zola, but has better documentation and will hopefully be more approachable when all is said and done. I'm trying to incorporate WebAssembly, with Yew, to give \"islands\" for high performance stuff you might want where WebAssembly makes sense. For example, I wrote search from the ground up, and built a search widget using Yew.",
+          "supports": [],
+          "author": "sentinel1909",
+          "shared_at": 1776048184,
+          "source_url": "https://news.ycombinator.com/item?id=47746965"
+        }
+      ],
+      "source_item_id": 47746965,
+      "source_url": "https://news.ycombinator.com/item?id=47746965",
+      "author": "sentinel1909",
+      "shared_at": 1776048184,
+      "links": [
+        "https://get-taxus-org.pages.dev"
+      ]
+    }
+  ]
+}

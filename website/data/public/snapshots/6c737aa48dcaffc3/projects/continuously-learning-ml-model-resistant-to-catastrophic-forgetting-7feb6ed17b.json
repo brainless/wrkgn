@@ -1,0 +1,33 @@
+{
+  "id": 5603,
+  "slug": "continuously-learning-ml-model-resistant-to-catastrophic-forgetting-7feb6ed17b",
+  "name": "Continuously learning ML model (resistant to catastrophic forgetting)",
+  "mentions": [
+    {
+      "name": "Continuously learning ML model (resistant to catastrophic forgetting)",
+      "description": "A machine learning model built for robust continuous learning that resists catastrophic forgetting without relying on replay, an external memory system, or unbounded parameter growth. A first non-toy 580M parameter version soundly beat LoRA, EWC, and full fine-tuning, with scale-up to 4.4B parameters underway.",
+      "problem": "Catastrophic forgetting during continuous learning, which the model resists without replay, external memory, or unbounded parameter growth.",
+      "audience": null,
+      "builder_usernames": [
+        "jballanc"
+      ],
+      "source_excerpt": "I've been working on an ML model capable of robust continuous learning, resistant to catastrophic forgetting without relying on replay, an external memory system, or unbounded parameter growth. Last week I confirmed the first non-toy, 580M parameter version soundly beat LoRA, EWC, and full fine tuning. This week I'm scaling up to 4.4B parameters...",
+      "evidence": [
+        {
+          "source_item_id": 47746053,
+          "source_field": "body",
+          "value": "I've been working on an ML model capable of robust continuous learning, resistant to catastrophic forgetting without relying on replay, an external memory system, or unbounded parameter growth. Last week I confirmed the first non-toy, 580M parameter version soundly beat LoRA, EWC, and full fine tuning. This week I'm scaling up to 4.4B parameters...",
+          "supports": [],
+          "author": "jballanc",
+          "shared_at": 1776039860,
+          "source_url": "https://news.ycombinator.com/item?id=47746053"
+        }
+      ],
+      "source_item_id": 47746053,
+      "source_url": "https://news.ycombinator.com/item?id=47746053",
+      "author": "jballanc",
+      "shared_at": 1776039860,
+      "links": []
+    }
+  ]
+}

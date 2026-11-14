@@ -1,0 +1,36 @@
+{
+  "id": 6978,
+  "slug": "tcpfinmonitor-dd45caee88",
+  "name": "TCPFinMonitor",
+  "mentions": [
+    {
+      "name": "TCPFinMonitor",
+      "description": "This tool tracks TCP FIN packet timing to show how upstream connections are closing and how keep-alives behave, helping spot connections that close too early or time out, such as those causing Envoy 503 errors.",
+      "problem": "The authors hit an Envoy 503 bug in production and needed quick tools to figure out what was happening with TCP connections and HTTP requests.",
+      "audience": null,
+      "builder_usernames": [
+        "geetuu"
+      ],
+      "source_excerpt": "https://github.com/vishnugt/TCPFinMonitor.  Live - https://keepalive.gt.ms/\n\nThis tool tracks TCP FIN packet timing to see how upstream connections are closing and how keep-alives behave. It helped me spot when connections were closing too early or timing out, which was causing those 503 errors.",
+      "evidence": [
+        {
+          "source_item_id": 46943217,
+          "source_field": "body",
+          "value": "https://github.com/vishnugt/TCPFinMonitor.  Live - https://keepalive.gt.ms/\n\nThis tool tracks TCP FIN packet timing to see how upstream connections are closing and how keep-alives behave. It helped me spot when connections were closing too early or timing out, which was causing those 503 errors.",
+          "supports": [],
+          "author": "geetuu",
+          "shared_at": 1770627991,
+          "source_url": "https://news.ycombinator.com/item?id=46943217"
+        }
+      ],
+      "source_item_id": 46943217,
+      "source_url": "https://news.ycombinator.com/item?id=46943217",
+      "author": "geetuu",
+      "shared_at": 1770627991,
+      "links": [
+        "https://github.com/vishnugt/TCPFinMonitor",
+        "https://keepalive.gt.ms/"
+      ]
+    }
+  ]
+}

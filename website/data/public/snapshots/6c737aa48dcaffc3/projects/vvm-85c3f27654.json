@@ -1,0 +1,35 @@
+{
+  "id": 6934,
+  "slug": "vvm-85c3f27654",
+  "name": "VVM",
+  "mentions": [
+    {
+      "name": "VVM",
+      "description": "VVM is a language for agentic programs where the LLM is the runtime. Users write a .vvm program and paste it into an agentic session with the spec; the model then simulates the VM and executes the program, configured via a plugin with no SDK or build step required. It supports agent definitions, semantic predicates (semantic if conditions), and multi-agent workflows. Open source and currently runs as a Claude Code plugin, with the repo including 37 examples from basic agent calls to advanced resilient workflow patterns. Pre-alpha: the spec is fairly complete but tooling is early, and the builder is seeking feedback.",
+      "problem": "Most stacks today keep orchestration in Python/TS and treat the model like an API, creating an impedance mismatch between imperative code and what agents actually need.",
+      "audience": "People building agentic systems who've felt the impedance mismatch between imperative code and what agents actually need.",
+      "builder_usernames": [
+        "thekaranchawla"
+      ],
+      "source_excerpt": "I've been building VVM: a language for agentic programs where the LLM is the runtime.\n\nMost stacks today keep orchestration in Python/TS and treat the model like an API. VVM inverts this. You write a `.vvm` program, paste it into an agentic session with the spec, and the model simulates the VM and executes your program. This is configured via a plugin, no SDK or build step required.",
+      "evidence": [
+        {
+          "source_item_id": 46949407,
+          "source_field": "body",
+          "value": "I've been building VVM: a language for agentic programs where the LLM is the runtime.\n\nMost stacks today keep orchestration in Python/TS and treat the model like an API. VVM inverts this. You write a `.vvm` program, paste it into an agentic session with the spec, and the model simulates the VM and executes your program. This is configured via a plugin, no SDK or build step required.",
+          "supports": [],
+          "author": "thekaranchawla",
+          "shared_at": 1770663884,
+          "source_url": "https://news.ycombinator.com/item?id=46949407"
+        }
+      ],
+      "source_item_id": 46949407,
+      "source_url": "https://news.ycombinator.com/item?id=46949407",
+      "author": "thekaranchawla",
+      "shared_at": 1770663884,
+      "links": [
+        "https://github.com/karanchawla/vvm"
+      ]
+    }
+  ]
+}

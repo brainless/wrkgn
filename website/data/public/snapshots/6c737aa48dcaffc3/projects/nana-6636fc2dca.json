@@ -1,0 +1,35 @@
+{
+  "id": 10052,
+  "slug": "nana-6636fc2dca",
+  "name": "nana",
+  "mentions": [
+    {
+      "name": "nana",
+      "description": "This is a notes app as simple as Apple Notes but with native markdown support and semantic search. The UI is built with SwiftUI and Zig handles the backend, inspired by ghostty's similar setup. It currently works only on Mac, with an iOS port planned once the markdown renderer is polished. It is open source, not yet publicly released, and used by the builder as a daily notes app with a release hoped for later in the year.",
+      "problem": "Simple notes apps like Apple Notes lack native markdown support and semantic search.",
+      "audience": null,
+      "builder_usernames": [
+        "mcdow"
+      ],
+      "source_excerpt": "I'm working on a notes app that is as simple as Apple notes, but has native markdown support and uses semantic search.",
+      "evidence": [
+        {
+          "source_item_id": 45420191,
+          "source_field": "body",
+          "value": "I'm working on a notes app that is as simple as Apple notes, but has native markdown support and uses semantic search.",
+          "supports": [],
+          "author": "mcdow",
+          "shared_at": 1759188966,
+          "source_url": "https://news.ycombinator.com/item?id=45420191"
+        }
+      ],
+      "source_item_id": 45420191,
+      "source_url": "https://news.ycombinator.com/item?id=45420191",
+      "author": "mcdow",
+      "shared_at": 1759188966,
+      "links": [
+        "https://github.com/emmettmcdow/nana"
+      ]
+    }
+  ]
+}

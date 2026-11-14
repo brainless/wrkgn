@@ -1,0 +1,33 @@
+{
+  "id": 8286,
+  "slug": "m365-pre-migration-file-system-scanner-de41f413cf",
+  "name": "M365 pre-migration file system scanner",
+  "mentions": [
+    {
+      "name": "M365 pre-migration file system scanner",
+      "description": "This app scans file systems before they are migrated into Microsoft 365, checking for common governance issues and file and folder trees that would not work well in SharePoint. It is a consultancy utility rather than a full migration tool, built in Python with a Tkinter interface and an additional command line version for regular use.",
+      "problem": "File systems being migrated into M365 often contain governance issues and folder structures that will not work well in SharePoint.",
+      "audience": null,
+      "builder_usernames": [
+        "grumblepeet"
+      ],
+      "source_excerpt": "Building an app that scans file systems prior to being migrated into M365. Looks for common governance issues and file and folder trees that won’t play nice in SharePoint. Not a migration tool as such, just something to scratch a consultancy itch.",
+      "evidence": [
+        {
+          "source_item_id": 46267660,
+          "source_field": "body",
+          "value": "Building an app that scans file systems prior to being migrated into M365. Looks for common governance issues and file and folder trees that won’t play nice in SharePoint. Not a migration tool as such, just something to scratch a consultancy itch.",
+          "supports": [],
+          "author": "grumblepeet",
+          "shared_at": 1765750643,
+          "source_url": "https://news.ycombinator.com/item?id=46267660"
+        }
+      ],
+      "source_item_id": 46267660,
+      "source_url": "https://news.ycombinator.com/item?id=46267660",
+      "author": "grumblepeet",
+      "shared_at": 1765750643,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 5944,
+  "slug": "grimdark-cosmic-horror-llm-world-sim-9b690b8300",
+  "name": "Grimdark cosmic horror LLM world sim",
+  "mentions": [
+    {
+      "name": "Grimdark cosmic horror LLM world sim",
+      "description": "An LLM-agent world simulation similar to a MUD-style sim, but set in a grimdark/cosmic horror setting. It layers on Dwarf Fortress/RimWorld-like systems where random events and systems influencing systems keep the agents varied.",
+      "problem": "Agents were getting stuck in a loop; adding Dwarf Fortress/RimWorld-like random events and systems influencing systems worked to fix it.",
+      "audience": null,
+      "builder_usernames": [
+        "ongedierte"
+      ],
+      "source_excerpt": "I’ve been messing around with a similar project (but in a grimdark/cosmic horror setting). I was running into the same issue, agents getting stuck in a loop. What worked for me was adding dwarf fortress/rimworld like systems. The random events and systems influencing systems worked wonders for me.",
+      "evidence": [
+        {
+          "source_item_id": 47306020,
+          "source_field": "body",
+          "value": "I’ve been messing around with a similar project (but in a grimdark/cosmic horror setting). I was running into the same issue, agents getting stuck in a loop. What worked for me was adding dwarf fortress/rimworld like systems. The random events and systems influencing systems worked wonders for me.",
+          "supports": [],
+          "author": "ongedierte",
+          "shared_at": 1773043108,
+          "source_url": "https://news.ycombinator.com/item?id=47306020"
+        }
+      ],
+      "source_item_id": 47306020,
+      "source_url": "https://news.ycombinator.com/item?id=47306020",
+      "author": "ongedierte",
+      "shared_at": 1773043108,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": 7704,
+  "slug": "hessra-5a7f17e800",
+  "name": "Hessra",
+  "mentions": [
+    {
+      "name": "Hessra",
+      "description": "An authentication platform offering new identity primitives and capability-style tokens built on biscuits. It is being extended with integrations that add an extremely fine-grained access control layer in front of systems that lack it, such as backend-for-frontend (BFF) systems, brownfield applications with poor auth, and OAuth setups limited to coarse scopes.",
+      "problem": "Many systems lack fine-grained access control: BFF systems, legacy brownfield apps with poor auth, and OAuth implementations that only support coarse scopes.",
+      "audience": null,
+      "builder_usernames": [
+        "ymyms"
+      ],
+      "source_excerpt": "I'm working on https://www.hessra.net/\n\nWe've built a new auth platform with some new identity primitives and capability-style tokens using biscuits.\n\nRight now, I'm trying to figure out ways to apply it and am looking into offering integrations with extremely fine-grained access control that wouldn't have it otherwise. So adding a fine-grained access layer in front of stuff like backend-for-frontend (BFF) systems, brownfield stuff with poor auth, or even OAuth stuff that just have really coarse scopes.",
+      "evidence": [
+        {
+          "source_item_id": 46579619,
+          "source_field": "body",
+          "value": "I'm working on https://www.hessra.net/\n\nWe've built a new auth platform with some new identity primitives and capability-style tokens using biscuits.\n\nRight now, I'm trying to figure out ways to apply it and am looking into offering integrations with extremely fine-grained access control that wouldn't have it otherwise. So adding a fine-grained access layer in front of stuff like backend-for-frontend (BFF) systems, brownfield stuff with poor auth, or even OAuth stuff that just have really coarse scopes.",
+          "supports": [],
+          "author": "ymyms",
+          "shared_at": 1768163016,
+          "source_url": "https://news.ycombinator.com/item?id=46579619"
+        }
+      ],
+      "source_item_id": 46579619,
+      "source_url": "https://news.ycombinator.com/item?id=46579619",
+      "author": "ymyms",
+      "shared_at": 1768163016,
+      "links": [
+        "https://www.hessra.net/"
+      ]
+    },
+    {
+      "name": "Hessra",
+      "description": "A full identity and authorization platform for service-to-service use cases, focused on making identity provisioning easy while giving services (CI/CD pipelines, AI agents, edge functions, multi-cloud workloads) auditable identity.",
+      "problem": "Provisioning identity for service-to-service use cases is difficult, especially compared to alternatives like SPIRE.",
+      "audience": "Teams with CI/CD pipelines, AI agents, edge-functions, or multi-cloud workloads that need auditable service-to-service identity",
+      "builder_usernames": [
+        "ymyms"
+      ],
+      "source_excerpt": "It's a full identity and authorization platform targeted for service-to-service use cases. But my focus the last couple months has been to make provisioning identity super easy",
+      "evidence": [
+        {
+          "source_item_id": 46268028,
+          "source_field": "body",
+          "value": "It's a full identity and authorization platform targeted for service-to-service use cases. But my focus the last couple months has been to make provisioning identity super easy",
+          "supports": [],
+          "author": "ymyms",
+          "shared_at": 1765753095,
+          "source_url": "https://news.ycombinator.com/item?id=46268028"
+        }
+      ],
+      "source_item_id": 46268028,
+      "source_url": "https://news.ycombinator.com/item?id=46268028",
+      "author": "ymyms",
+      "shared_at": 1765753095,
+      "links": [
+        "https://www.hessra.net/"
+      ]
+    },
+    {
+      "name": "Hessra",
+      "description": "An authorization system based on the Biscuit token format (decentralized, signed, and attenuable) that gives every machine-to-machine request its own embedded, verifiable authorization logic in a small capability token. Tokens can be delegated, restricted, and verified locally with no extra network calls after issuance, and support features like multiple parties signing off before a token is valid or requiring a series of micro-services to sign a token. Its early use case is replacing API keys with identity tokens that expire, delegate, and prove possession, enabling step-up to fine-grained authorization.",
+      "problem": "JWTs, Zanzibar-style policy engines, and API keys lack per-request embedded, verifiable authorization logic and easy delegation, restriction, and possession proof.",
+      "audience": null,
+      "builder_usernames": [
+        "ymyms"
+      ],
+      "source_excerpt": "Building https://www.hessra.net/, an authorization system based on the Biscuit token format (decentralized, signed, and attenuable). The goal is to push beyond JWTs and Zanzibar-style policy engines by giving every machine-to-machine request its own embedded, verifiable authorization logic in a small capability token.",
+      "evidence": [
+        {
+          "source_item_id": 45869386,
+          "source_field": "body",
+          "value": "Building https://www.hessra.net/, an authorization system based on the Biscuit token format (decentralized, signed, and attenuable). The goal is to push beyond JWTs and Zanzibar-style policy engines by giving every machine-to-machine request its own embedded, verifiable authorization logic in a small capability token.",
+          "supports": [],
+          "author": "ymyms",
+          "shared_at": 1762723897,
+          "source_url": "https://news.ycombinator.com/item?id=45869386"
+        }
+      ],
+      "source_item_id": 45869386,
+      "source_url": "https://news.ycombinator.com/item?id=45869386",
+      "author": "ymyms",
+      "shared_at": 1762723897,
+      "links": [
+        "https://www.hessra.net/"
+      ]
+    },
+    {
+      "name": "Hessra",
+      "description": "An identity and authorization service built around Biscuit tokens instead of JWTs, aiming to decompose auth primitives so they are easier to use in service-to-service cases. Shipped features include an offline-delegatable identity token enabling an API key model without maintaining a token database (with hashing/expiry encoded in the token and upgrade paths via authorization tokens and customer delegation). It also explores higher-order authorization flows such as service chains, where each hop (edge → app → DB) adds attestations, and multi-party authorization requiring two independent services/orgs to co-sign an authorization token for cross-org or on-prem deployments. An OAuth 2.1 profile is in progress, mapping the identity token to a refresh token and the authorization token to an access token.",
+      "problem": "JWTs feel like problems waiting to happen, and OAuth is clunky in practice; Biscuit tokens are claimed to provide stronger guarantees and be harder to get wrong.",
+      "audience": "Service-to-service and API developers; people building auth systems",
+      "builder_usernames": [
+        "ymyms"
+      ],
+      "source_excerpt": "I’m working on https://www.hessra.net/, an identity + authorization service built around [Biscuits](https://www.biscuitsec.org/) instead of JWTs. The goal is to decompose auth primitives so they’re easier to use in service-to-service cases, while also showing off what Biscuit tokens make possible.",
+      "evidence": [
+        {
+          "source_item_id": 45421614,
+          "source_field": "body",
+          "value": "I’m working on https://www.hessra.net/, an identity + authorization service built around [Biscuits](https://www.biscuitsec.org/) instead of JWTs. The goal is to decompose auth primitives so they’re easier to use in service-to-service cases, while also showing off what Biscuit tokens make possible.",
+          "supports": [],
+          "author": "ymyms",
+          "shared_at": 1759202846,
+          "source_url": "https://news.ycombinator.com/item?id=45421614"
+        }
+      ],
+      "source_item_id": 45421614,
+      "source_url": "https://news.ycombinator.com/item?id=45421614",
+      "author": "ymyms",
+      "shared_at": 1759202846,
+      "links": [
+        "https://www.hessra.net/"
+      ]
+    }
+  ]
+}

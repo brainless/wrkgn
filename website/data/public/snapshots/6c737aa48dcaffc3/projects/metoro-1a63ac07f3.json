@@ -1,0 +1,35 @@
+{
+  "id": 6129,
+  "slug": "metoro-1a63ac07f3",
+  "name": "Metoro",
+  "mentions": [
+    {
+      "name": "Metoro",
+      "description": "AI-powered SRE tool for Kubernetes that finds and root causes issues and raises fix PRs, and checks whether deployments introduced regressions or new behavior by analyzing code and eBPF-generated telemetry rather than relying on existing telemetry integrations.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ecekyn"
+      ],
+      "source_excerpt": "https://metoro.io/ - “AI SRE” for k8s that finds and root causes issues and raises fix prs, checks if deployments introduced any regression or any new behaviour by looking at code and ebpf generated telemetry (doesn’t rely on existing telemetry/integrations as a result).",
+      "evidence": [
+        {
+          "source_item_id": 47312032,
+          "source_field": "body",
+          "value": "https://metoro.io/ - “AI SRE” for k8s that finds and root causes issues and raises fix prs, checks if deployments introduced any regression or any new behaviour by looking at code and ebpf generated telemetry (doesn’t rely on existing telemetry/integrations as a result).",
+          "supports": [],
+          "author": "ecekyn",
+          "shared_at": 1773076582,
+          "source_url": "https://news.ycombinator.com/item?id=47312032"
+        }
+      ],
+      "source_item_id": 47312032,
+      "source_url": "https://news.ycombinator.com/item?id=47312032",
+      "author": "ecekyn",
+      "shared_at": 1773076582,
+      "links": [
+        "https://metoro.io/"
+      ]
+    }
+  ]
+}

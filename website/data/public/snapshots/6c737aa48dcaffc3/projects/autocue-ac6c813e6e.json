@@ -1,0 +1,35 @@
+{
+  "id": 8032,
+  "slug": "autocue-ac6c813e6e",
+  "name": "Autocue",
+  "mentions": [
+    {
+      "name": "Autocue",
+      "description": "An auto-following autocue/teleprompter web app that runs entirely on local AI. A Python server handles the recording, transcribes speech with Vosk (or a choice of other models), and runs an algorithm to track the speaker's position in the script. It serves a single page connected via WebSocket to render the script and live position updates, aiming to be better for direct-to-camera YouTube recording than free teleprompter apps that scroll at a fixed speed.",
+      "problem": "Existing free teleprompter apps just scroll the script at a fixed speed instead of following the speaker's actual position.",
+      "audience": "People recording YouTube videos direct to camera.",
+      "builder_usernames": [
+        "BitsAndObjects"
+      ],
+      "source_excerpt": "A prototype of an auto-following autocue/teleprompter.\n\nUses local-AI-only. It’s a web app but not using in-browser transcribe. Ive found it to be way better for recording YouTube videos direct to-camera than the existing free apps which just scroll at a fixed speed.",
+      "evidence": [
+        {
+          "source_item_id": 46482924,
+          "source_field": "body",
+          "value": "A prototype of an auto-following autocue/teleprompter.\n\nUses local-AI-only. It’s a web app but not using in-browser transcribe. Ive found it to be way better for recording YouTube videos direct to-camera than the existing free apps which just scroll at a fixed speed.",
+          "supports": [],
+          "author": "BitsAndObjects",
+          "shared_at": 1767482964,
+          "source_url": "https://news.ycombinator.com/item?id=46482924"
+        }
+      ],
+      "source_item_id": 46482924,
+      "source_url": "https://news.ycombinator.com/item?id=46482924",
+      "author": "BitsAndObjects",
+      "shared_at": 1767482964,
+      "links": [
+        "https://github.com/ednutting/autocue"
+      ]
+    }
+  ]
+}

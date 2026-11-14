@@ -1,0 +1,35 @@
+{
+  "id": 8273,
+  "slug": "cbs-benchmark-llm-daily-puzzle-game-evaluation-8c6b50e3ed",
+  "name": "CBS Benchmark (LLM daily puzzle game evaluation)",
+  "mentions": [
+    {
+      "name": "CBS Benchmark (LLM daily puzzle game evaluation)",
+      "description": "A benchmark analyzing frontier LLM performance on a daily puzzle game. Planned next steps include testing whether LLMs can generate their own new logically satisfiable puzzles in the same style, and having models battle each other with one creating a puzzle and another attempting to solve it.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "nsypteras"
+      ],
+      "source_excerpt": "Analyzing frontier LLM performance on my favorite daily puzzle game (https://www.nicksypteras.com/blog/cbs-benchmark.html) Next step is to assess how well the LLMs can create their own new, logically satisfiable puzzles in the same style. Then I'll have them battle it out, with one model creating a puzzle and the other attempting to solve it!",
+      "evidence": [
+        {
+          "source_item_id": 46275886,
+          "source_field": "body",
+          "value": "Analyzing frontier LLM performance on my favorite daily puzzle game (https://www.nicksypteras.com/blog/cbs-benchmark.html) Next step is to assess how well the LLMs can create their own new, logically satisfiable puzzles in the same style. Then I'll have them battle it out, with one model creating a puzzle and the other attempting to solve it!",
+          "supports": [],
+          "author": "nsypteras",
+          "shared_at": 1765813175,
+          "source_url": "https://news.ycombinator.com/item?id=46275886"
+        }
+      ],
+      "source_item_id": 46275886,
+      "source_url": "https://news.ycombinator.com/item?id=46275886",
+      "author": "nsypteras",
+      "shared_at": 1765813175,
+      "links": [
+        "https://www.nicksypteras.com/blog/cbs-benchmark.html"
+      ]
+    }
+  ]
+}

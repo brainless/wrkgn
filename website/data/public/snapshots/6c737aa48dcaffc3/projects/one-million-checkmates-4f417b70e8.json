@@ -1,0 +1,35 @@
+{
+  "id": 3870,
+  "slug": "one-million-checkmates-4f417b70e8",
+  "name": "One Million Checkmates",
+  "mentions": [
+    {
+      "name": "One Million Checkmates",
+      "description": "An iOS app offering a functionally unlimited number of offline chess mate-in-one-style puzzles, designed for play on long plane rides. To keep the download size reasonable despite storing all valid moves for each position (some puzzles have over 40 million valid move sequences), the move trees are aggressively pruned and compressed.",
+      "problem": "The author wanted chess puzzles to play offline during a long plane ride.",
+      "audience": null,
+      "builder_usernames": [
+        "salamo"
+      ],
+      "source_excerpt": "I’m working on an iOS app, One Million Checkmates [1]. It scratches an itch I had of chess puzzles for a long plane ride. This app has a functionally unlimited number of puzzles, all offline.",
+      "evidence": [
+        {
+          "source_item_id": 48537747,
+          "source_field": "body",
+          "value": "I’m working on an iOS app, One Million Checkmates [1]. It scratches an itch I had of chess puzzles for a long plane ride. This app has a functionally unlimited number of puzzles, all offline.",
+          "supports": [],
+          "author": "salamo",
+          "shared_at": 1781508297,
+          "source_url": "https://news.ycombinator.com/item?id=48537747"
+        }
+      ],
+      "source_item_id": 48537747,
+      "source_url": "https://news.ycombinator.com/item?id=48537747",
+      "author": "salamo",
+      "shared_at": 1781508297,
+      "links": [
+        "https://apps.apple.com/us/app/one-million-checkmates/id6762503545"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 5714,
+  "slug": "streambed-5f8a72cc4b",
+  "name": "streambed",
+  "mentions": [
+    {
+      "name": "streambed",
+      "description": "An analytics database built on S3 and DuckDB, providing a simpler alternative to setting up additional read replicas or Snowflake for BI analytics workloads.",
+      "problem": "BI teams require extra read replicas and Snowflake for analytics, which is tiring to set up.",
+      "audience": "Tired of provisioning read replicas and Snowflake for BI teams; this analytics database on S3 and DuckDB simplifies that setup.",
+      "builder_usernames": [
+        "horizontech-dev"
+      ],
+      "source_excerpt": "I was tired of setting up additional read replicas and Snowflake for our BI teams, I built an analytics database using S3 and DuckDB.",
+      "evidence": [
+        {
+          "source_item_id": 47747949,
+          "source_field": "body",
+          "value": "I was tired of setting up additional read replicas and Snowflake for our BI teams, I built an analytics database using S3 and DuckDB.",
+          "supports": [],
+          "author": "horizontech-dev",
+          "shared_at": 1776058001,
+          "source_url": "https://news.ycombinator.com/item?id=47747949"
+        }
+      ],
+      "source_item_id": 47747949,
+      "source_url": "https://news.ycombinator.com/item?id=47747949",
+      "author": "horizontech-dev",
+      "shared_at": 1776058001,
+      "links": [
+        "https://github.com/viggy28/streambed"
+      ]
+    }
+  ]
+}

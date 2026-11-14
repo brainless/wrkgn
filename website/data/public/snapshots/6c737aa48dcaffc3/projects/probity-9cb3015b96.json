@@ -1,0 +1,35 @@
+{
+  "id": 4862,
+  "slug": "probity-9cb3015b96",
+  "name": "Probity",
+  "mentions": [
+    {
+      "name": "Probity",
+      "description": "A rules-enforcement tool that blocks AI coding agents from breaking rules, implemented through hooks and working across Claude Code, Codex, and GitHub Copilot.",
+      "problem": "AI coding agents can break rules; this project enforces rules to block them from doing so.",
+      "audience": null,
+      "builder_usernames": [
+        "Nizoss"
+      ],
+      "source_excerpt": "I’m working on a project that blocks agents from breaking rules. The rules are enforced through hooks and work across Claude Code, Codex, and GitHub Copilot.",
+      "evidence": [
+        {
+          "source_item_id": 48087360,
+          "source_field": "body",
+          "value": "I’m working on a project that blocks agents from breaking rules. The rules are enforced through hooks and work across Claude Code, Codex, and GitHub Copilot.",
+          "supports": [],
+          "author": "Nizoss",
+          "shared_at": 1778443511,
+          "source_url": "https://news.ycombinator.com/item?id=48087360"
+        }
+      ],
+      "source_item_id": 48087360,
+      "source_url": "https://news.ycombinator.com/item?id=48087360",
+      "author": "Nizoss",
+      "shared_at": 1778443511,
+      "links": [
+        "https://github.com/nizos/probity"
+      ]
+    }
+  ]
+}

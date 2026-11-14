@@ -1,0 +1,35 @@
+{
+  "id": 9325,
+  "slug": "age-equivalent-8e5b8b7c69",
+  "name": "Age Equivalent",
+  "mentions": [
+    {
+      "name": "Age Equivalent",
+      "description": "This site displays your next age milestones on a single page, showing your upcoming milestone age for each type (such as your 10,000th day), along with age equivalents in planetary years, lunisolar calendar ages, and dog and cat age equivalents. Milestones can be saved to Google Calendar.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "keithluu"
+      ],
+      "source_excerpt": "I built a site that shows your next age milestones, all on a single page. You can see your next milestone age for each type (like your 10000th day) and save it to Google Calendar.\n\nIt looks simple, but I learned a lot building this site:\n\n* To calculate age in planetary years, I had to look up their orbit and rotation info\n\n* The lunisolar calendar took me quite some time to figure out (it is not the same as a lunar calendar and even changes by country)\n\n* Adding the dog and cat age equivalents even led me to cubic splines",
+      "evidence": [
+        {
+          "source_item_id": 45872341,
+          "source_field": "body",
+          "value": "I built a site that shows your next age milestones, all on a single page. You can see your next milestone age for each type (like your 10000th day) and save it to Google Calendar.\n\nIt looks simple, but I learned a lot building this site:\n\n* To calculate age in planetary years, I had to look up their orbit and rotation info\n\n* The lunisolar calendar took me quite some time to figure out (it is not the same as a lunar calendar and even changes by country)\n\n* Adding the dog and cat age equivalents even led me to cubic splines",
+          "supports": [],
+          "author": "keithluu",
+          "shared_at": 1762747844,
+          "source_url": "https://news.ycombinator.com/item?id=45872341"
+        }
+      ],
+      "source_item_id": 45872341,
+      "source_url": "https://news.ycombinator.com/item?id=45872341",
+      "author": "keithluu",
+      "shared_at": 1762747844,
+      "links": [
+        "https://ageequivalent.com/"
+      ]
+    }
+  ]
+}

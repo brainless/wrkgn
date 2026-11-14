@@ -1,0 +1,33 @@
+{
+  "id": 8963,
+  "slug": "cloud-independent-recipe-app-ce29c0ecae",
+  "name": "Cloud-independent recipe app",
+  "mentions": [
+    {
+      "name": "Cloud-independent recipe app",
+      "description": "A recipe app built to operate independently of AWS and Cloudflare, so it remains usable when major cloud services go down. Launch is planned for 2026.",
+      "problem": "Apps that depend on major cloud providers become unavailable during outages; this recipe app is designed to keep working so users can still cook.",
+      "audience": null,
+      "builder_usernames": [
+        "_88q3"
+      ],
+      "source_excerpt": "A recipe app that is not dependent on AWS or Cloudflare. When everything else goes down, at least you can cook :)\n\nLaunch is planned in 2026.",
+      "evidence": [
+        {
+          "source_item_id": 46118755,
+          "source_field": "body",
+          "value": "A recipe app that is not dependent on AWS or Cloudflare. When everything else goes down, at least you can cook :)\n\nLaunch is planned in 2026.",
+          "supports": [],
+          "author": "_88q3",
+          "shared_at": 1764661883,
+          "source_url": "https://news.ycombinator.com/item?id=46118755"
+        }
+      ],
+      "source_item_id": 46118755,
+      "source_url": "https://news.ycombinator.com/item?id=46118755",
+      "author": "_88q3",
+      "shared_at": 1764661883,
+      "links": []
+    }
+  ]
+}

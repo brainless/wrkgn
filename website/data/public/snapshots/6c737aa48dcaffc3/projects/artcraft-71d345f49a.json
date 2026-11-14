@@ -1,0 +1,92 @@
+{
+  "id": 5166,
+  "slug": "artcraft-71d345f49a",
+  "name": "Artcraft",
+  "mentions": [
+    {
+      "name": "Artcraft",
+      "description": "An open-source controllable filmmaking tool for steering AI image and video generation, used to produce AI-generated short films. Development includes BYOK/C support and open model-routing alternatives (OpenOpenRouter/OpenFal), with an OpenRunPod integration planned.",
+      "problem": null,
+      "audience": "Filmmakers and creators steering AI image and video generation",
+      "builder_usernames": [
+        "echelon"
+      ],
+      "source_excerpt": "A controllable filmmaking tool:\n\nhttps://github.com/storytold/artcraft\n\nBefore anyone asks, I am a filmmaker and have made films for fifteen years. I'm building tools to help steer AI image and video generation.",
+      "evidence": [
+        {
+          "source_item_id": 47746629,
+          "source_field": "body",
+          "value": "A controllable filmmaking tool:\n\nhttps://github.com/storytold/artcraft\n\nBefore anyone asks, I am a filmmaker and have made films for fifteen years. I'm building tools to help steer AI image and video generation.",
+          "supports": [],
+          "author": "echelon",
+          "shared_at": 1776045178,
+          "source_url": "https://news.ycombinator.com/item?id=47746629"
+        }
+      ],
+      "source_item_id": 47746629,
+      "source_url": "https://news.ycombinator.com/item?id=47746629",
+      "author": "echelon",
+      "shared_at": 1776045178,
+      "links": [
+        "https://github.com/storytold/artcraft"
+      ]
+    },
+    {
+      "name": "ArtCraft",
+      "description": "This tool helps filmmakers make movies with AI models, focusing on frontier models and using a structural, scene-oriented workflow rather than a node graph interface like ComfyUI.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "echelon"
+      ],
+      "source_excerpt": "I'm a filmmaker. I'm working on a tool to make movies with AI models:\n\nhttps://github.com/storytold/artcraft\n\nIt's not like ComfyUI - it focuses on frontier models like Higgsfield or OpenArt do, and it is structurally oriented rather than node graph based.",
+      "evidence": [
+        {
+          "source_item_id": 46940790,
+          "source_field": "body",
+          "value": "I'm a filmmaker. I'm working on a tool to make movies with AI models:\n\nhttps://github.com/storytold/artcraft\n\nIt's not like ComfyUI - it focuses on frontier models like Higgsfield or OpenArt do, and it is structurally oriented rather than node graph based.",
+          "supports": [],
+          "author": "echelon",
+          "shared_at": 1770602879,
+          "source_url": "https://news.ycombinator.com/item?id=46940790"
+        }
+      ],
+      "source_item_id": 46940790,
+      "source_url": "https://news.ycombinator.com/item?id=46940790",
+      "author": "echelon",
+      "shared_at": 1770602879,
+      "links": [
+        "https://getartcraft.com/news/world-models-for-film",
+        "https://github.com/storytold/artcraft"
+      ]
+    },
+    {
+      "name": "ArtCraft",
+      "description": "AI-powered visual creation tool for filmmaking that replaces plain text prompting with WYSIWYG touch controls for every aspect of an image or scene. It lets users mold characters and locations like clay and rotate/morph them in 3D, and has been used to produce short films including parodies, rotoscoped pieces, and roto/comp VFX work.",
+      "problem": "Prompting AI tools without visual control is a poor workflow for creating imagery in filmmaking.",
+      "audience": "Filmmakers and the film/video production industry",
+      "builder_usernames": [
+        "echelon"
+      ],
+      "source_excerpt": "I'm a filmmaker, and this is ArtCraft:\n\nhttps://github.com/storytold/artcraft\n\nAI tools are becoming incredibly useful for our industry, but \"prompting\" without visual control sucks.",
+      "evidence": [
+        {
+          "source_item_id": 46578586,
+          "source_field": "body",
+          "value": "I'm a filmmaker, and this is ArtCraft:\n\nhttps://github.com/storytold/artcraft\n\nAI tools are becoming incredibly useful for our industry, but \"prompting\" without visual control sucks.",
+          "supports": [],
+          "author": "echelon",
+          "shared_at": 1768157847,
+          "source_url": "https://news.ycombinator.com/item?id=46578586"
+        }
+      ],
+      "source_item_id": 46578586,
+      "source_url": "https://news.ycombinator.com/item?id=46578586",
+      "author": "echelon",
+      "shared_at": 1768157847,
+      "links": [
+        "https://github.com/storytold/artcraft"
+      ]
+    }
+  ]
+}

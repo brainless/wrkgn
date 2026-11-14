@@ -1,0 +1,35 @@
+{
+  "id": 7120,
+  "slug": "wsql-d08e3506e5",
+  "name": "wsql",
+  "mentions": [
+    {
+      "name": "wsql",
+      "description": "A GPU-accelerated query engine built with wgpu for cross-platform portability, implementing a modular pattern heavily inspired by the Sirius paper. Developed while working through the CMU 15-721 course.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "fastingrat"
+      ],
+      "source_excerpt": "I'm going through CMU 15-721 and building wsql[1]; a GPU-accelerated query engine. It uses wgpu for cross-platform portability and implements modular pattern, heavily inspired from Sirius[2] paper.",
+      "evidence": [
+        {
+          "source_item_id": 46949080,
+          "source_field": "body",
+          "value": "I'm going through CMU 15-721 and building wsql[1]; a GPU-accelerated query engine. It uses wgpu for cross-platform portability and implements modular pattern, heavily inspired from Sirius[2] paper.",
+          "supports": [],
+          "author": "fastingrat",
+          "shared_at": 1770662504,
+          "source_url": "https://news.ycombinator.com/item?id=46949080"
+        }
+      ],
+      "source_item_id": 46949080,
+      "source_url": "https://news.ycombinator.com/item?id=46949080",
+      "author": "fastingrat",
+      "shared_at": 1770662504,
+      "links": [
+        "https://github.com/fastingrat/wsql/"
+      ]
+    }
+  ]
+}

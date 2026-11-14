@@ -1,0 +1,35 @@
+{
+  "id": 6327,
+  "slug": "approximated-6d1c9c57dd",
+  "name": "Approximated",
+  "mentions": [
+    {
+      "name": "Approximated",
+      "description": "Managed service that makes connecting user custom domains to an app easy and reliable at any scale. Each user gets a globally distributed, managed cluster of servers with a dedicated IPv4 address, and features include unlimited edge rules, DDoS protection, webhooks, and automatic SSL certificates. Integration is via a simple API call plus having the user point an A record at the provided IP.",
+      "problem": "Connecting user domains to an app with SSL and reliability at scale is difficult to handle on your own.",
+      "audience": "Developers building apps (such as SaaS products) that need to support user custom domains",
+      "builder_usernames": [
+        "Alacart"
+      ],
+      "source_excerpt": "It makes connecting user domains to your app easy and reliable at any scale. Each Approximated user gets the own globally distributed, managed cluster of servers with its own dedicated IPv4 address. Includes (unlimited) edge rule features, DDoS protection, webhooks, and more. Make a simple API call, tell the user to point an A record at the IP, and it’s connected to your app with its own SSL certificates.",
+      "evidence": [
+        {
+          "source_item_id": 47303924,
+          "source_field": "body",
+          "value": "It makes connecting user domains to your app easy and reliable at any scale. Each Approximated user gets the own globally distributed, managed cluster of servers with its own dedicated IPv4 address. Includes (unlimited) edge rule features, DDoS protection, webhooks, and more. Make a simple API call, tell the user to point an A record at the IP, and it’s connected to your app with its own SSL certificates.",
+          "supports": [],
+          "author": "Alacart",
+          "shared_at": 1773021076,
+          "source_url": "https://news.ycombinator.com/item?id=47303924"
+        }
+      ],
+      "source_item_id": 47303924,
+      "source_url": "https://news.ycombinator.com/item?id=47303924",
+      "author": "Alacart",
+      "shared_at": 1773021076,
+      "links": [
+        "https://approximated.app"
+      ]
+    }
+  ]
+}

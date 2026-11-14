@@ -1,0 +1,33 @@
+{
+  "id": 4527,
+  "slug": "photo-to-dmc-embroidery-thread-matching-tool-17cb6dcce0",
+  "name": "Photo-to-DMC embroidery thread matching tool",
+  "mentions": [
+    {
+      "name": "Photo-to-DMC embroidery thread matching tool",
+      "description": "This tool turns photos of birds and mountains into embroidery plans: it applies Minecraft-style colour theory to meanshift the image down to a lower colour resolution, matches the reduced palette to DMC threads, fills in gradients, and uses hue shift/temperature changes to represent shadows (e.g. purple as a shaded green rather than a darker green). The author also uses it to explore the Claude Code web setup.",
+      "problem": "Figuring out which floss to buy; colour sampling from OKLab space needs to be pulled local because gradient colours are picked out of order instead of projected onto the target line.",
+      "audience": null,
+      "builder_usernames": [
+        "8note"
+      ],
+      "source_excerpt": "the general idea is to take pictures of birds and mountains, and use a bunch of colour-theory-from-minecraft\n\nto first meanshift a bunch of the image to come up with a lower colour resolution image, then to match that to dmc threads",
+      "evidence": [
+        {
+          "source_item_id": 48089657,
+          "source_field": "body",
+          "value": "the general idea is to take pictures of birds and mountains, and use a bunch of colour-theory-from-minecraft\n\nto first meanshift a bunch of the image to come up with a lower colour resolution image, then to match that to dmc threads",
+          "supports": [],
+          "author": "8note",
+          "shared_at": 1778459343,
+          "source_url": "https://news.ycombinator.com/item?id=48089657"
+        }
+      ],
+      "source_item_id": 48089657,
+      "source_url": "https://news.ycombinator.com/item?id=48089657",
+      "author": "8note",
+      "shared_at": 1778459343,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 4502,
+  "slug": "desk-78880ae60c",
+  "name": "Desk",
+  "mentions": [
+    {
+      "name": "Desk",
+      "description": "An open-source AI assistant app built as a self-owned alternative to Claude Desktop/Mobile and ChatGPT. Users own their data (memories, artifacts, chats), can switch AI providers at any time (when one is down or a new model appears), and get a consistent experience across desktop and mobile, including working remotely on code. A first beta is planned for the end of the following week.",
+      "problem": "Existing AI apps like Claude Desktop and Mobile don't let users own their data, easily switch providers, or offer a consistent desktop and mobile experience.",
+      "audience": "AI apps like Claude Desktop/Mobile and ChatGPT lock users in, don't let them own their data (memories, artifacts, chats), make it hard to switch providers, and lack a consistent experience between desktop and mobile.",
+      "builder_usernames": [
+        "j77dw"
+      ],
+      "source_excerpt": "I've been working on a AI app to replace Claude Desktop and Mobile for personal use.\n\nThe main goals are to own my data (memories, artifacts, chats), be able to switch AI providers at any point (if one is down or I want to try a new model), have the same experience between desktop and mobile especially when it comes to working remotely on code.",
+      "evidence": [
+        {
+          "source_item_id": 48087105,
+          "source_field": "body",
+          "value": "I've been working on a AI app to replace Claude Desktop and Mobile for personal use.\n\nThe main goals are to own my data (memories, artifacts, chats), be able to switch AI providers at any point (if one is down or I want to try a new model), have the same experience between desktop and mobile especially when it comes to working remotely on code.",
+          "supports": [],
+          "author": "j77dw",
+          "shared_at": 1778442022,
+          "source_url": "https://news.ycombinator.com/item?id=48087105"
+        }
+      ],
+      "source_item_id": 48087105,
+      "source_url": "https://news.ycombinator.com/item?id=48087105",
+      "author": "j77dw",
+      "shared_at": 1778442022,
+      "links": [
+        "https://github.com/bgrgicak/Desk"
+      ]
+    }
+  ]
+}

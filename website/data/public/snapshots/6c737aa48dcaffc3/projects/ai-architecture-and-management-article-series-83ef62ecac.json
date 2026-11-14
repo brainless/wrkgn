@@ -1,0 +1,35 @@
+{
+  "id": 5200,
+  "slug": "ai-architecture-and-management-article-series-83ef62ecac",
+  "name": "AI architecture and management article series",
+  "mentions": [
+    {
+      "name": "AI architecture and management article series",
+      "description": "A series of technical articles on AI architecture and management covering how AI systems actually work, how to size workloads, how to maximize performance, and security and safety aspects. The most recent article uses benchmarking tools to establish a baseline and understand how configurations impact token generation, testing Qwen3.5 with llama.cpp on an NVIDIA DGX Spark.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ewams"
+      ],
+      "source_excerpt": "Published 3 articles so far, but working on AI architecture and management. While most people are focused on prompt engineering and making stuff with AI; I'm more interested in how it actually works, how to size workloads, how to maximize performance, the security and safety aspects. Here is my most recent article where I played with benchmarking tools to get a baseline and understand how configurations impact token generation",
+      "evidence": [
+        {
+          "source_item_id": 47744651,
+          "source_field": "body",
+          "value": "Published 3 articles so far, but working on AI architecture and management. While most people are focused on prompt engineering and making stuff with AI; I'm more interested in how it actually works, how to size workloads, how to maximize performance, the security and safety aspects. Here is my most recent article where I played with benchmarking tools to get a baseline and understand how configurations impact token generation",
+          "supports": [],
+          "author": "ewams",
+          "shared_at": 1776028965,
+          "source_url": "https://news.ycombinator.com/item?id=47744651"
+        }
+      ],
+      "source_item_id": 47744651,
+      "source_url": "https://news.ycombinator.com/item?id=47744651",
+      "author": "ewams",
+      "shared_at": 1776028965,
+      "links": [
+        "https://ewams.net/?date=2026/03/29&view=Qwen35_Performance_with_llama.cpp_on_an_NVIDIA_DGX_Spark"
+      ]
+    }
+  ]
+}

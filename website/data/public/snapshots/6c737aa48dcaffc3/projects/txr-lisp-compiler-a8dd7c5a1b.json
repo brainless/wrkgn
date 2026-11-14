@@ -1,0 +1,33 @@
+{
+  "id": 10676,
+  "slug": "txr-lisp-compiler-a8dd7c5a1b",
+  "name": "TXR Lisp compiler",
+  "mentions": [
+    {
+      "name": "TXR Lisp compiler",
+      "description": "The TXR Lisp compiler. Current work improves an optimization pass that identifies and eliminates wasteful VM register moves; the optimization is working and has many good hits in the code base, but does not yet handle certain cases.",
+      "problem": "The register-move elimination optimization works but does not handle certain cases of wasteful VM register moves.",
+      "audience": null,
+      "builder_usernames": [
+        "kazinator"
+      ],
+      "source_excerpt": "I'm working on the TXR Lisp compiler, improving a certain optimization that identifies and eliminates certain kinds of wasteful VM register moves. It works and has many good \"hits\" in the code base, but doesn't handle certain cases.",
+      "evidence": [
+        {
+          "source_item_id": 44711154,
+          "source_field": "body",
+          "value": "I'm working on the TXR Lisp compiler, improving a certain optimization that identifies and eliminates certain kinds of wasteful VM register moves. It works and has many good \"hits\" in the code base, but doesn't handle certain cases.",
+          "supports": [],
+          "author": "kazinator",
+          "shared_at": 1753712520,
+          "source_url": "https://news.ycombinator.com/item?id=44711154"
+        }
+      ],
+      "source_item_id": 44711154,
+      "source_url": "https://news.ycombinator.com/item?id=44711154",
+      "author": "kazinator",
+      "shared_at": 1753712520,
+      "links": []
+    }
+  ]
+}

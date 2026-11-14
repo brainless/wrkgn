@@ -1,0 +1,33 @@
+{
+  "id": 6681,
+  "slug": "word-saving-dapp-a2cc5bd2c6",
+  "name": "Word-saving dapp",
+  "mentions": [
+    {
+      "name": "Word-saving dapp",
+      "description": "An early-stage decentralized app (dapp) that lets visitors explore and watch freely, with crypto wallet connection (MetaMask wallet connect plus SIWE sign-in) required only when users want to save words; identity is tied to the wallet address with no gas fees or other transactions. The wallet-first onboarding is being reworked so a wallet is only prompted when saving.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "kindkang2024"
+      ],
+      "source_excerpt": "The dapp is still early and rough around the edges, and the wallet-first flow is a good example: I took the easy dev path — connect a wallet and your data gets tied to that address. Simple to build, but clearly the wrong UX choice.\n\nYou're right, nobody should be forced to connect a wallet just to try the app. I'll work on changing this — the plan is to let users explore and watch freely, and only prompt for a wallet when they want to save words.",
+      "evidence": [
+        {
+          "source_item_id": 47309643,
+          "source_field": "body",
+          "value": "The dapp is still early and rough around the edges, and the wallet-first flow is a good example: I took the easy dev path — connect a wallet and your data gets tied to that address. Simple to build, but clearly the wrong UX choice.\n\nYou're right, nobody should be forced to connect a wallet just to try the app. I'll work on changing this — the plan is to let users explore and watch freely, and only prompt for a wallet when they want to save words.",
+          "supports": [],
+          "author": "kindkang2024",
+          "shared_at": 1773066687,
+          "source_url": "https://news.ycombinator.com/item?id=47309643"
+        }
+      ],
+      "source_item_id": 47309643,
+      "source_url": "https://news.ycombinator.com/item?id=47309643",
+      "author": "kindkang2024",
+      "shared_at": 1773066687,
+      "links": []
+    }
+  ]
+}

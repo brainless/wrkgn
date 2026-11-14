@@ -1,0 +1,35 @@
+{
+  "id": 10940,
+  "slug": "doors-6e3a0fa86c",
+  "name": "Doors",
+  "mentions": [
+    {
+      "name": "Doors",
+      "description": "A window manager for Windows, inspired by Hyprland, currently at MVP stage. Development includes reworking the region build system and potentially redesigning the architecture to use a tree-based approach for managing windows.",
+      "problem": "Existing window managers for Windows are slow or buggy, and none looked nice; the author wanted a good-looking window manager for when they work on Windows while dual booting.",
+      "audience": null,
+      "builder_usernames": [
+        "axwaters"
+      ],
+      "source_excerpt": "im building/tinkering on a window manager for windows called \"Doors\". https://github.com/A-Waters/doors",
+      "evidence": [
+        {
+          "source_item_id": 43824537,
+          "source_field": "body",
+          "value": "im building/tinkering on a window manager for windows called \"Doors\". https://github.com/A-Waters/doors",
+          "supports": [],
+          "author": "axwaters",
+          "shared_at": 1745865468,
+          "source_url": "https://news.ycombinator.com/item?id=43824537"
+        }
+      ],
+      "source_item_id": 43824537,
+      "source_url": "https://news.ycombinator.com/item?id=43824537",
+      "author": "axwaters",
+      "shared_at": 1745865468,
+      "links": [
+        "https://github.com/A-Waters/doors"
+      ]
+    }
+  ]
+}

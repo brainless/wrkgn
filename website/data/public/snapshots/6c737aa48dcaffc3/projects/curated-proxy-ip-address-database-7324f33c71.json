@@ -1,0 +1,35 @@
+{
+  "id": 10818,
+  "slug": "curated-proxy-ip-address-database-7324f33c71",
+  "name": "Curated proxy IP address database",
+  "mentions": [
+    {
+      "name": "Curated proxy IP address database",
+      "description": "This curated database tracks proxy IP addresses frequently used by bots, containing about 3 million distinct IP addresses per 30 days, of which 1.7 million are fresh proxy IPs. It includes only verified IP addresses through which traffic has been routed and does not rely on third-party or open-source data sources.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "avastel"
+      ],
+      "source_excerpt": "I am working on a curated database of proxy IP addresses frequently used by bots: https://deviceandbrowserinfo.com/product/proxies-ips\n\nSo far I have ~ 3M distinct IP addresses per 30 days, with a lot of fresh proxy IPs, 1.7M. The DB contains only verified IP addresses through which I've been able to route traffic. It DOESN'T rely on 3rd party/open-source data sources.",
+      "evidence": [
+        {
+          "source_item_id": 43820392,
+          "source_field": "body",
+          "value": "I am working on a curated database of proxy IP addresses frequently used by bots: https://deviceandbrowserinfo.com/product/proxies-ips\n\nSo far I have ~ 3M distinct IP addresses per 30 days, with a lot of fresh proxy IPs, 1.7M. The DB contains only verified IP addresses through which I've been able to route traffic. It DOESN'T rely on 3rd party/open-source data sources.",
+          "supports": [],
+          "author": "avastel",
+          "shared_at": 1745841541,
+          "source_url": "https://news.ycombinator.com/item?id=43820392"
+        }
+      ],
+      "source_item_id": 43820392,
+      "source_url": "https://news.ycombinator.com/item?id=43820392",
+      "author": "avastel",
+      "shared_at": 1745841541,
+      "links": [
+        "https://deviceandbrowserinfo.com/product/proxies-ips"
+      ]
+    }
+  ]
+}

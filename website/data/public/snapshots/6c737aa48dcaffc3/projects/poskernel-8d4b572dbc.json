@@ -1,0 +1,35 @@
+{
+  "id": 9916,
+  "slug": "poskernel-8d4b572dbc",
+  "name": "PosKernel",
+  "mentions": [
+    {
+      "name": "PosKernel",
+      "description": "An AI interface to a point-of-sale (POS) system. The POS kernel is implemented in Rust, with an MCP layer on top that lets AI and UI layers drive the POS, and stores plug in as extensions defining language, currency, and item databases. The AI cashier knows what items are for sale, how to modify items (e.g. in a restaurant context), how to translate from other languages, how to interpret what the customer actually wants, and how to seamlessly lead customers through a transaction. A redesign of the AI layer is underway to put the AI more in charge with less code-level orchestration, drawing on retail POS and self-service checkout domain knowledge.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "paulmooreparks"
+      ],
+      "source_excerpt": "An AI interface to a point-of-sale (POS) system: https://github.com/paulmooreparks/PosKernel",
+      "evidence": [
+        {
+          "source_item_id": 45421375,
+          "source_field": "body",
+          "value": "An AI interface to a point-of-sale (POS) system: https://github.com/paulmooreparks/PosKernel",
+          "supports": [],
+          "author": "paulmooreparks",
+          "shared_at": 1759200051,
+          "source_url": "https://news.ycombinator.com/item?id=45421375"
+        }
+      ],
+      "source_item_id": 45421375,
+      "source_url": "https://news.ycombinator.com/item?id=45421375",
+      "author": "paulmooreparks",
+      "shared_at": 1759200051,
+      "links": [
+        "https://github.com/paulmooreparks/PosKernel"
+      ]
+    }
+  ]
+}

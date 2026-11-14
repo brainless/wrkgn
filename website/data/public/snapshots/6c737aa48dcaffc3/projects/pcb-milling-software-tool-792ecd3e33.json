@@ -1,0 +1,33 @@
+{
+  "id": 6278,
+  "slug": "pcb-milling-software-tool-792ecd3e33",
+  "name": "PCB milling software tool",
+  "mentions": [
+    {
+      "name": "PCB milling software tool",
+      "description": "A PCB milling tool that converts Gerber files into G-code toolpaths and commands a restored 1998 PCB mill, enabling hobbyists to fabricate PCBs at home instead of waiting on outsourced fabrication.",
+      "problem": "Getting PCB designs back from services like PCBWay/JLC between customers is a headache due to tariffs and shipping delays, slowing the prototyping loop.",
+      "audience": "Hobbyists who want to make PCBs at home as part of the self-made PCB workflow.",
+      "builder_usernames": [
+        "z3ugma"
+      ],
+      "source_excerpt": "Building a PCB milling software tool that combines converting Gerbers to toolpaths in G-Code and then actually commanding and operating a restored PCB mill from 1998.",
+      "evidence": [
+        {
+          "source_item_id": 47311271,
+          "source_field": "body",
+          "value": "Building a PCB milling software tool that combines converting Gerbers to toolpaths in G-Code and then actually commanding and operating a restored PCB mill from 1998.",
+          "supports": [],
+          "author": "z3ugma",
+          "shared_at": 1773073813,
+          "source_url": "https://news.ycombinator.com/item?id=47311271"
+        }
+      ],
+      "source_item_id": 47311271,
+      "source_url": "https://news.ycombinator.com/item?id=47311271",
+      "author": "z3ugma",
+      "shared_at": 1773073813,
+      "links": []
+    }
+  ]
+}

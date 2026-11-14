@@ -1,0 +1,35 @@
+{
+  "id": 4718,
+  "slug": "agent-watch-218f7c11c2",
+  "name": "Agent Watch",
+  "mentions": [
+    {
+      "name": "Agent Watch",
+      "description": "This dashboard tracks the release stability of OpenClaw and Hermes, displaying a stability score (10 being most stable) computed by having GPT analyze each GitHub issue for negativity and whether it concerns core features, helping users decide which versions are safe to update to.",
+      "problem": "Users had no reliable way to know which OpenClaw/Hermes versions are stable, so friends kept asking for recommendations and the author avoided updating frequently to steer clear of unstable releases.",
+      "audience": null,
+      "builder_usernames": [
+        "davideuler"
+      ],
+      "source_excerpt": "I created a dashboard for stability of OpenClaw and Hermes. It shows stability score(10 is the most stable) which is calculated by analyzing Github issue by GPT.\n\nLots of friends asked me which version of OpenClaw/Hermes are recommended as a stable version. I've no clue of it, and I don't updated my OpenClaw/Hermes very often to avoid unstable versions frequently. So I created the Agent Watch dashboard.",
+      "evidence": [
+        {
+          "source_item_id": 48090462,
+          "source_field": "body",
+          "value": "I created a dashboard for stability of OpenClaw and Hermes. It shows stability score(10 is the most stable) which is calculated by analyzing Github issue by GPT.\n\nLots of friends asked me which version of OpenClaw/Hermes are recommended as a stable version. I've no clue of it, and I don't updated my OpenClaw/Hermes very often to avoid unstable versions frequently. So I created the Agent Watch dashboard.",
+          "supports": [],
+          "author": "davideuler",
+          "shared_at": 1778466920,
+          "source_url": "https://news.ycombinator.com/item?id=48090462"
+        }
+      ],
+      "source_item_id": 48090462,
+      "source_url": "https://news.ycombinator.com/item?id=48090462",
+      "author": "davideuler",
+      "shared_at": 1778466920,
+      "links": [
+        "https://agentwatch.aicompass.dev/"
+      ]
+    }
+  ]
+}

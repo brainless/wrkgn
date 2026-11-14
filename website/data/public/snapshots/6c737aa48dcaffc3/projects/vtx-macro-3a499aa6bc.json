@@ -1,0 +1,35 @@
+{
+  "id": 4814,
+  "slug": "vtx-macro-3a499aa6bc",
+  "name": "VTX Macro",
+  "mentions": [
+    {
+      "name": "VTX Macro",
+      "description": "A free, fully autonomous LLM-powered crypto trading platform connected to Hyperliquid, where users can have any model trade for them. It supports ~860 models across 16 providers (including OpenRouter), plus Local AI and OpenAI-compatible endpoints. Bot settings (system prompt, user prompt, temperature, reasoning) are 100% transparent and customizable, and users can view and copy anyone else's settings from the public leaderboard. On a configurable loop interval (default 1 minute), the model receives candles, market stats, indicators, account balance, and current positions, then decides Buy, Sell, or Hold and how many units. All trades are traceable on the blockchain from each user's public Analytics page; over 1m+ prompts, 10k+ trades, and nearly $1m in volume have been processed since January 2026.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "fomoz"
+      ],
+      "source_excerpt": "I'm working on https://vtxmacro.com, a free and fully autonomous LLM trading platform. Basically have any model you want trade for you. Right now I support ~860 models across 16 providers (including OpenRouter), plus Local AI and OpenAI Compatible endpoints.",
+      "evidence": [
+        {
+          "source_item_id": 48088468,
+          "source_field": "body",
+          "value": "I'm working on https://vtxmacro.com, a free and fully autonomous LLM trading platform. Basically have any model you want trade for you. Right now I support ~860 models across 16 providers (including OpenRouter), plus Local AI and OpenAI Compatible endpoints.",
+          "supports": [],
+          "author": "fomoz",
+          "shared_at": 1778449854,
+          "source_url": "https://news.ycombinator.com/item?id=48088468"
+        }
+      ],
+      "source_item_id": 48088468,
+      "source_url": "https://news.ycombinator.com/item?id=48088468",
+      "author": "fomoz",
+      "shared_at": 1778449854,
+      "links": [
+        "https://vtxmacro.com"
+      ]
+    }
+  ]
+}

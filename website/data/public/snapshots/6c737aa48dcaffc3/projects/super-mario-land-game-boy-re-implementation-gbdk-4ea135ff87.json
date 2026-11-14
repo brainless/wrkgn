@@ -1,0 +1,35 @@
+{
+  "id": 10797,
+  "slug": "super-mario-land-game-boy-re-implementation-gbdk-4ea135ff87",
+  "name": "Super Mario Land Game Boy re-implementation (GBDK)",
+  "mentions": [
+    {
+      "name": "Super Mario Land Game Boy re-implementation (GBDK)",
+      "description": "This project re-implements Super Mario Land for the Game Boy in C using the GBDK toolkit, producing a ROM that runs on original Game Boy hardware. Scrolling and background collision are implemented, and drawing enemies is in progress.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "drev"
+      ],
+      "source_excerpt": "I am working on a super mario land re-implementation for game boy using C. It's  made with the GBDK toolkit so the ROM can be run on a gameboy.",
+      "evidence": [
+        {
+          "source_item_id": 43820553,
+          "source_field": "body",
+          "value": "I am working on a super mario land re-implementation for game boy using C. It's  made with the GBDK toolkit so the ROM can be run on a gameboy.",
+          "supports": [],
+          "author": "drev",
+          "shared_at": 1745842412,
+          "source_url": "https://news.ycombinator.com/item?id=43820553"
+        }
+      ],
+      "source_item_id": 43820553,
+      "source_url": "https://news.ycombinator.com/item?id=43820553",
+      "author": "drev",
+      "shared_at": 1745842412,
+      "links": [
+        "https://github.com/odrevet/marioland-gbdk/"
+      ]
+    }
+  ]
+}

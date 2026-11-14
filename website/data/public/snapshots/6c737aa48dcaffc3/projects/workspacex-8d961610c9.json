@@ -1,0 +1,35 @@
+{
+  "id": 4279,
+  "slug": "workspacex-8d961610c9",
+  "name": "workspacex",
+  "mentions": [
+    {
+      "name": "workspacex",
+      "description": "A git worktree multi-agent development tool that runs in any terminal. It supports Claude Code, Pi and Codex agents and provides a CLI that lets them work together within a given worktree. The author uses it as their daily driver for agentic development at their day job, and is currently experimenting with having an agent drive the app itself to record and caption screencasts. It was created for developers who prefer working in the terminal with tools like lazygit and neovim rather than using GUI-based multi-agent tools like Conductor.",
+      "problem": "Existing multi-agent development tools like Conductor didn't fit a terminal-based workflow built around preferred tools like lazygit and neovim.",
+      "audience": "Developers working with AI coding agents in the terminal",
+      "builder_usernames": [
+        "bakedbean"
+      ],
+      "source_excerpt": "I'm working on (yet another) git worktree multi agent development tool that just runs in any terminal. Supports Claude Code, Pi and Codex agents and provides a CLI that allows them to work together in a given worktree.",
+      "evidence": [
+        {
+          "source_item_id": 48533144,
+          "source_field": "body",
+          "value": "I'm working on (yet another) git worktree multi agent development tool that just runs in any terminal. Supports Claude Code, Pi and Codex agents and provides a CLI that allows them to work together in a given worktree.",
+          "supports": [],
+          "author": "bakedbean",
+          "shared_at": 1781473580,
+          "source_url": "https://news.ycombinator.com/item?id=48533144"
+        }
+      ],
+      "source_item_id": 48533144,
+      "source_url": "https://news.ycombinator.com/item?id=48533144",
+      "author": "bakedbean",
+      "shared_at": 1781473580,
+      "links": [
+        "https://github.com/bakedbean/workspacex"
+      ]
+    }
+  ]
+}

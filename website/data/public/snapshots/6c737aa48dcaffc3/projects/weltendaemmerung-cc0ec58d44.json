@@ -1,0 +1,35 @@
+{
+  "id": 7851,
+  "slug": "weltendaemmerung-cc0ec58d44",
+  "name": "weltendaemmerung",
+  "mentions": [
+    {
+      "name": "weltendaemmerung",
+      "description": "A reverse engineering project of an old game (weltendaemmerung), part of a series of reverse engineering efforts on old games, with the goal of finding a pattern by which an AI can recover at least 99% of the game's disassembly.",
+      "problem": "Manual reverse engineering of old games' disassembly lacks an automated approach; the goal is for an AI pattern to achieve at least 99% disassembly coverage.",
+      "audience": null,
+      "builder_usernames": [
+        "s-macke"
+      ],
+      "source_excerpt": "I try myself on multiple reverse engineering projects of old games such as [0]. The goal is to find a pattern in which an AI can reverse engineer at least 99% of the disassembly.\n\n[0] https://github.com/s-macke/weltendaemmerung",
+      "evidence": [
+        {
+          "source_item_id": 46585555,
+          "source_field": "body",
+          "value": "I try myself on multiple reverse engineering projects of old games such as [0]. The goal is to find a pattern in which an AI can reverse engineer at least 99% of the disassembly.\n\n[0] https://github.com/s-macke/weltendaemmerung",
+          "supports": [],
+          "author": "s-macke",
+          "shared_at": 1768205966,
+          "source_url": "https://news.ycombinator.com/item?id=46585555"
+        }
+      ],
+      "source_item_id": 46585555,
+      "source_url": "https://news.ycombinator.com/item?id=46585555",
+      "author": "s-macke",
+      "shared_at": 1768205966,
+      "links": [
+        "https://github.com/s-macke/weltendaemmerung"
+      ]
+    }
+  ]
+}

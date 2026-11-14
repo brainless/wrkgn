@@ -1,0 +1,35 @@
+{
+  "id": 10143,
+  "slug": "fugc-9c08fd2542",
+  "name": "FUGC",
+  "mentions": [
+    {
+      "name": "FUGC",
+      "description": "Concurrent garbage collector (FUGC) that is part of Fil-C. Current work is debugging a rare concurrency bug, possibly related to large objects, that reproduces about once a day under ideal conditions using an Emacs bootstrap loop with FUGC_VERIFY=1 and about once a month otherwise.",
+      "problem": "Low-probability concurrent GC bugs that are difficult to reproduce, seemingly related to large objects.",
+      "audience": null,
+      "builder_usernames": [
+        "pizlonator"
+      ],
+      "source_excerpt": "Trying to hunt down a GC bug in https://fil-c.org/fugc",
+      "evidence": [
+        {
+          "source_item_id": 45425649,
+          "source_field": "body",
+          "value": "Trying to hunt down a GC bug in https://fil-c.org/fugc",
+          "supports": [],
+          "author": "pizlonator",
+          "shared_at": 1759241278,
+          "source_url": "https://news.ycombinator.com/item?id=45425649"
+        }
+      ],
+      "source_item_id": 45425649,
+      "source_url": "https://news.ycombinator.com/item?id=45425649",
+      "author": "pizlonator",
+      "shared_at": 1759241278,
+      "links": [
+        "https://fil-c.org/fugc"
+      ]
+    }
+  ]
+}

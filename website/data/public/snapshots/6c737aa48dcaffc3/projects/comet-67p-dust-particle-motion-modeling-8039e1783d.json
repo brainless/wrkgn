@@ -1,0 +1,36 @@
+{
+  "id": 9811,
+  "slug": "comet-67p-dust-particle-motion-modeling-8039e1783d",
+  "name": "Comet 67P dust particle motion modeling",
+  "mentions": [
+    {
+      "name": "Comet 67P dust particle motion modeling",
+      "description": "Research effort modeling the motion of observed dust particles coming off of comet 67P, producing 3D visualizations of possible particle trajectories and working to determine possible orbits from a set of observations.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ddahlen"
+      ],
+      "source_excerpt": "I'm working on modeling the motion of observed dust particles coming off of comet 67P, here is are some example 3d plots:\n\nExample of rocks ejected from one position and their possible motions:\nhttps://dahlend.github.io/67p_beta_dust.html\n\nTrying to determine possible orbits from a set of observations (the straight lines):\nhttps://dahlend.github.io/67p_dust_orbit.html",
+      "evidence": [
+        {
+          "source_item_id": 45422947,
+          "source_field": "body",
+          "value": "I'm working on modeling the motion of observed dust particles coming off of comet 67P, here is are some example 3d plots:\n\nExample of rocks ejected from one position and their possible motions:\nhttps://dahlend.github.io/67p_beta_dust.html\n\nTrying to determine possible orbits from a set of observations (the straight lines):\nhttps://dahlend.github.io/67p_dust_orbit.html",
+          "supports": [],
+          "author": "ddahlen",
+          "shared_at": 1759218126,
+          "source_url": "https://news.ycombinator.com/item?id=45422947"
+        }
+      ],
+      "source_item_id": 45422947,
+      "source_url": "https://news.ycombinator.com/item?id=45422947",
+      "author": "ddahlen",
+      "shared_at": 1759218126,
+      "links": [
+        "https://dahlend.github.io/67p_beta_dust.html",
+        "https://dahlend.github.io/67p_dust_orbit.html"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 9439,
+  "slug": "guile-flac-c36f509dd8",
+  "name": "guile-flac",
+  "mentions": [
+    {
+      "name": "guile-flac",
+      "description": "A FLAC encoder/decoder written in Guile Scheme. The decoder is now mostly fully functional and works 1:1 with the reference meta-flac command.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "serhart"
+      ],
+      "source_excerpt": "A FLAC encoder/decoder written in Guile scheme. I struggled to get the decoder working with most test files for a while until recently. It's more or less a fully functional decoder now. It's also 1:1 with the reference meta-flac command currently as well.",
+      "evidence": [
+        {
+          "source_item_id": 45869626,
+          "source_field": "body",
+          "value": "A FLAC encoder/decoder written in Guile scheme. I struggled to get the decoder working with most test files for a while until recently. It's more or less a fully functional decoder now. It's also 1:1 with the reference meta-flac command currently as well.",
+          "supports": [],
+          "author": "serhart",
+          "shared_at": 1762725654,
+          "source_url": "https://news.ycombinator.com/item?id=45869626"
+        }
+      ],
+      "source_item_id": 45869626,
+      "source_url": "https://news.ycombinator.com/item?id=45869626",
+      "author": "serhart",
+      "shared_at": 1762725654,
+      "links": [
+        "https://github.com/steve-ayerhart/guile-flac"
+      ]
+    }
+  ]
+}

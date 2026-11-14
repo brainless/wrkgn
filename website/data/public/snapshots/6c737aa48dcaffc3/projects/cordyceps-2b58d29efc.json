@@ -1,0 +1,35 @@
+{
+  "id": 9230,
+  "slug": "cordyceps-2b58d29efc",
+  "name": "Cordyceps",
+  "mentions": [
+    {
+      "name": "Cordyceps",
+      "description": "A from-scratch rewrite of Playwright that runs entirely inside a Chrome Extension without CDP or chrome.devtools; built as a for-fun experiment that currently cannot get past bot protection, making it of limited use for browser automation.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dataviz1000"
+      ],
+      "source_excerpt": "I rewrote Playwright to run completely in a Chrome Extension without CDP or chrome.devtools for no practical reason at all.",
+      "evidence": [
+        {
+          "source_item_id": 45870848,
+          "source_field": "body",
+          "value": "I rewrote Playwright to run completely in a Chrome Extension without CDP or chrome.devtools for no practical reason at all.",
+          "supports": [],
+          "author": "dataviz1000",
+          "shared_at": 1762735299,
+          "source_url": "https://news.ycombinator.com/item?id=45870848"
+        }
+      ],
+      "source_item_id": 45870848,
+      "source_url": "https://news.ycombinator.com/item?id=45870848",
+      "author": "dataviz1000",
+      "shared_at": 1762735299,
+      "links": [
+        "https://github.com/adam-s/cordyceps/tree/main/pages/side-panel/src/services/stagehand"
+      ]
+    }
+  ]
+}

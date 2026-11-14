@@ -1,0 +1,35 @@
+{
+  "id": 5186,
+  "slug": "browser-based-pdf-image-doc-tools-80bc38e34b",
+  "name": "Browser-based PDF/Image/Doc Tools",
+  "mentions": [
+    {
+      "name": "Browser-based PDF/Image/Doc Tools",
+      "description": "A static web page offering miscellaneous PDF, image, and document tools, including compression, merging, and rotation, with more tools planned. All processing happens in the browser so document data is never exposed to third-party services.",
+      "problem": "The author didn't want third-party tools to have access to their document data, especially when compressing identity documents for government websites.",
+      "audience": null,
+      "builder_usernames": [
+        "mighty3xodus"
+      ],
+      "source_excerpt": "Miscellaneous PDF/img/doc tools (compression/merging/rotation, more to come) on the browser as a static web page.",
+      "evidence": [
+        {
+          "source_item_id": 47748627,
+          "source_field": "body",
+          "value": "Miscellaneous PDF/img/doc tools (compression/merging/rotation, more to come) on the browser as a static web page.",
+          "supports": [],
+          "author": "mighty3xodus",
+          "shared_at": 1776063662,
+          "source_url": "https://news.ycombinator.com/item?id=47748627"
+        }
+      ],
+      "source_item_id": 47748627,
+      "source_url": "https://news.ycombinator.com/item?id=47748627",
+      "author": "mighty3xodus",
+      "shared_at": 1776063662,
+      "links": [
+        "https://veejayts.github.io/pdftools.html"
+      ]
+    }
+  ]
+}

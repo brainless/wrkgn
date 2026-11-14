@@ -1,0 +1,36 @@
+{
+  "id": 7023,
+  "slug": "wisp-ed09bea592",
+  "name": "Wisp",
+  "mentions": [
+    {
+      "name": "Wisp",
+      "description": "A lightweight, modular .NET web framework that runs entirely on the base .NET Core SDK with no dependency on the ASP.NET Core Web SDK and can easily be embedded in existing applications. It is batteries-included yet modular: all functionality ships with default implementations that can be replaced, extra features are provided as separate extensions packages, and it uses the Fluid template engine (a .NET implementation of the Liquid language). The author has used it to build small private apps, though it is not considered production-safe, and planned work includes websocket support and replacing the NetCoreServer-based HTTP backend with EmbedIO.",
+      "problem": "Building web functionality in .NET without pulling in the whole ASP.NET Core Web SDK, which is too deeply integrated to use its server (Kestrel) standalone, while keeping the framework embeddable in existing applications.",
+      "audience": null,
+      "builder_usernames": [
+        "utf_8x"
+      ],
+      "source_excerpt": "I'm working on a \"toy\" .NET web framework that has no dependencies on the ASP.NET Core Web SDK, runs fully on the \"base\" .NET Core SDK and can easily be embedded in existing applications.",
+      "evidence": [
+        {
+          "source_item_id": 46973755,
+          "source_field": "body",
+          "value": "I'm working on a \"toy\" .NET web framework that has no dependencies on the ASP.NET Core Web SDK, runs fully on the \"base\" .NET Core SDK and can easily be embedded in existing applications.",
+          "supports": [],
+          "author": "utf_8x",
+          "shared_at": 1770810249,
+          "source_url": "https://news.ycombinator.com/item?id=46973755"
+        }
+      ],
+      "source_item_id": 46973755,
+      "source_url": "https://news.ycombinator.com/item?id=46973755",
+      "author": "utf_8x",
+      "shared_at": 1770810249,
+      "links": [
+        "https://github.com/WispFramework/Wisp",
+        "https://wispframework.github.io/Wisp/"
+      ]
+    }
+  ]
+}

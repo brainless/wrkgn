@@ -1,0 +1,35 @@
+{
+  "id": 5016,
+  "slug": "doneski-22b78642fb",
+  "name": "Doneski",
+  "mentions": [
+    {
+      "name": "Doneski",
+      "description": "A calendar-based personal note-taking app: each morning the user clicks a \"New Day\" button, and the todo list and other notes carry forward from the previous day. Accomplished items are added to a Done section, and other sections can be added as needed. Built with heavy LLM assistance (vibecoding) as an experiment with SOTA and later local LLMs.",
+      "problem": "Replaces the author's decade-old workflow of using a text editor and/or shell scripts for daily notes and todos.",
+      "audience": "A person doing personal daily note-taking and task tracking, previously handled with a text editor and shell scripts.",
+      "builder_usernames": [
+        "bityard"
+      ],
+      "source_excerpt": "I've been vibecoding* a calendar-based personal note-taking thingy: https://github.com/cu/doneski\n\nThe idea is that each morning, you click the \"New Day\" button, and your Todo list along with other notes carry forward from the previous day to the new one. When you accomplish something, you add it to the Done section. Other sections can be added as needed.",
+      "evidence": [
+        {
+          "source_item_id": 48088321,
+          "source_field": "body",
+          "value": "I've been vibecoding* a calendar-based personal note-taking thingy: https://github.com/cu/doneski\n\nThe idea is that each morning, you click the \"New Day\" button, and your Todo list along with other notes carry forward from the previous day to the new one. When you accomplish something, you add it to the Done section. Other sections can be added as needed.",
+          "supports": [],
+          "author": "bityard",
+          "shared_at": 1778448903,
+          "source_url": "https://news.ycombinator.com/item?id=48088321"
+        }
+      ],
+      "source_item_id": 48088321,
+      "source_url": "https://news.ycombinator.com/item?id=48088321",
+      "author": "bityard",
+      "shared_at": 1778448903,
+      "links": [
+        "https://github.com/cu/doneski"
+      ]
+    }
+  ]
+}

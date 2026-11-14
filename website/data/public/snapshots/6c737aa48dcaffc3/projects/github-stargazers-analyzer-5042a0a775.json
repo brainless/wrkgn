@@ -1,0 +1,35 @@
+{
+  "id": 8757,
+  "slug": "github-stargazers-analyzer-5042a0a775",
+  "name": "GitHub Stargazers Analyzer",
+  "mentions": [
+    {
+      "name": "GitHub Stargazers Analyzer",
+      "description": "This tool analyzes public data to show who is starring a GitHub repository, providing aggregate views such as role and seniority breakdown, top languages and frameworks, companies represented, stargazer locations, and an aggregate feed of blog posts from people who starred the repo.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "hazzadous"
+      ],
+      "source_excerpt": "i built a small tool that looks at who is starring a github repo by analyzing public data.\n\nit gives aggregate views like role and seniority breakdown, top languages and frameworks, companies represented, where stargazers are located, and an aggregate feed of blog posts from people who starred the repo.\n\nlink is here if useful: https://api.yolodex.ai/stargazers",
+      "evidence": [
+        {
+          "source_item_id": 46272826,
+          "source_field": "body",
+          "value": "i built a small tool that looks at who is starring a github repo by analyzing public data.\n\nit gives aggregate views like role and seniority breakdown, top languages and frameworks, companies represented, where stargazers are located, and an aggregate feed of blog posts from people who starred the repo.\n\nlink is here if useful: https://api.yolodex.ai/stargazers",
+          "supports": [],
+          "author": "hazzadous",
+          "shared_at": 1765796005,
+          "source_url": "https://news.ycombinator.com/item?id=46272826"
+        }
+      ],
+      "source_item_id": 46272826,
+      "source_url": "https://news.ycombinator.com/item?id=46272826",
+      "author": "hazzadous",
+      "shared_at": 1765796005,
+      "links": [
+        "https://api.yolodex.ai/stargazers"
+      ]
+    }
+  ]
+}

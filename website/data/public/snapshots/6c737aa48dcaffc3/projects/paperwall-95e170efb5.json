@@ -1,0 +1,35 @@
+{
+  "id": 8872,
+  "slug": "paperwall-95e170efb5",
+  "name": "Paperwall",
+  "mentions": [
+    {
+      "name": "Paperwall",
+      "description": "This network offers an alternative to full subscriptions for online publications, letting readers pay for individual articles via micro-transactions (typically under a dollar). Publishers register their publication on the network, configure thresholds and pricing, and add a small snippet of code to their site so a paywall appears for per-article payment. It is web-based with no browser extension required, uses thresholds to help verify an article is worth paying for, and includes an aggregator for article discovery and validation.",
+      "problem": "Subscriptions require readers to commit to entire publications or blogs when they often only want to read individual articles.",
+      "audience": "Online publishers and article readers",
+      "builder_usernames": [
+        "jweatherby"
+      ],
+      "source_excerpt": "I'm working on an alternative to subscriptions for online publications. Instead of subscribing to entire publications / blogs, publishers would register their publication on this network and configure thresholds and pricing. Add a bit of code to the site and a paywall will show up, allowing readers to pay for individual articles. The prices would be minimal, amounting to less than a dollar in most cases. i.e. reading articles using micro-transactions",
+      "evidence": [
+        {
+          "source_item_id": 46270556,
+          "source_field": "body",
+          "value": "I'm working on an alternative to subscriptions for online publications. Instead of subscribing to entire publications / blogs, publishers would register their publication on this network and configure thresholds and pricing. Add a bit of code to the site and a paywall will show up, allowing readers to pay for individual articles. The prices would be minimal, amounting to less than a dollar in most cases. i.e. reading articles using micro-transactions",
+          "supports": [],
+          "author": "jweatherby",
+          "shared_at": 1765773479,
+          "source_url": "https://news.ycombinator.com/item?id=46270556"
+        }
+      ],
+      "source_item_id": 46270556,
+      "source_url": "https://news.ycombinator.com/item?id=46270556",
+      "author": "jweatherby",
+      "shared_at": 1765773479,
+      "links": [
+        "https://paperwall.io"
+      ]
+    }
+  ]
+}

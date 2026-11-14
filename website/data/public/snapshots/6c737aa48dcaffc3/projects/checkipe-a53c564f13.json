@@ -1,0 +1,63 @@
+{
+  "id": 7240,
+  "slug": "checkipe-a53c564f13",
+  "name": "Checkipe",
+  "mentions": [
+    {
+      "name": "Checkipe",
+      "description": "A Flutter and Django app for sharing and using checklists. Users can iterate on checklists and track their usage of them, and recently added orgs enable privately shared checklists: an org can be created around a shared task, then a run through that task can be created and tracked.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dhbradshaw"
+      ],
+      "source_excerpt": "I've been building a flutter django app around sharing and using checklists.\n\nI use it myself by iterating on checklists and then tracking my usage of them and recently added orgs for privately shared checklists.\n\nSo it's easy to create an org around a shared task and then create a run through that task and track.",
+      "evidence": [
+        {
+          "source_item_id": 46944027,
+          "source_field": "body",
+          "value": "I've been building a flutter django app around sharing and using checklists.\n\nI use it myself by iterating on checklists and then tracking my usage of them and recently added orgs for privately shared checklists.\n\nSo it's easy to create an org around a shared task and then create a run through that task and track.",
+          "supports": [],
+          "author": "dhbradshaw",
+          "shared_at": 1770635922,
+          "source_url": "https://news.ycombinator.com/item?id=46944027"
+        }
+      ],
+      "source_item_id": 46944027,
+      "source_url": "https://news.ycombinator.com/item?id=46944027",
+      "author": "dhbradshaw",
+      "shared_at": 1770635922,
+      "links": [
+        "https://checkipe.com"
+      ]
+    },
+    {
+      "name": "Checkipe",
+      "description": "A task tracking app built with a Django backend and a Flutter front end, currently invite-only for the author and family members.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dhbradshaw"
+      ],
+      "source_excerpt": "I've been working on a task tracking app called Checkipe (https://checkipe.com but right now it's invite only for me and family members).",
+      "evidence": [
+        {
+          "source_item_id": 46595220,
+          "source_field": "body",
+          "value": "I've been working on a task tracking app called Checkipe (https://checkipe.com but right now it's invite only for me and family members).",
+          "supports": [],
+          "author": "dhbradshaw",
+          "shared_at": 1768257653,
+          "source_url": "https://news.ycombinator.com/item?id=46595220"
+        }
+      ],
+      "source_item_id": 46595220,
+      "source_url": "https://news.ycombinator.com/item?id=46595220",
+      "author": "dhbradshaw",
+      "shared_at": 1768257653,
+      "links": [
+        "https://checkipe.com"
+      ]
+    }
+  ]
+}

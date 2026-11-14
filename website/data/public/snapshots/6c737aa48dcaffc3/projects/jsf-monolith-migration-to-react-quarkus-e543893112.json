@@ -1,0 +1,33 @@
+{
+  "id": 5685,
+  "slug": "jsf-monolith-migration-to-react-quarkus-e543893112",
+  "name": "JSF monolith migration to React + Quarkus",
+  "mentions": [
+    {
+      "name": "JSF monolith migration to React + Quarkus",
+      "description": "A legacy application modernization project that ports a giant monolithic JSF app from JSF/Wildfly into two separate apps: a React frontend and a REST Quarkus backend. The work is being done with the help of AI agents, with the goal of helping the long-standing legacy application scale and improve for its many users.",
+      "problem": "The existing legacy JSF monolith is difficult to scale and improve, and many people currently depend on it.",
+      "audience": null,
+      "builder_usernames": [
+        "robotburrito"
+      ],
+      "source_excerpt": "Porting a giant monolithic JSF app from JSF/Wildfly to two separate apps, a react frontend and a REST Quarkus backend.",
+      "evidence": [
+        {
+          "source_item_id": 47745256,
+          "source_field": "body",
+          "value": "Porting a giant monolithic JSF app from JSF/Wildfly to two separate apps, a react frontend and a REST Quarkus backend.",
+          "supports": [],
+          "author": "robotburrito",
+          "shared_at": 1776033343,
+          "source_url": "https://news.ycombinator.com/item?id=47745256"
+        }
+      ],
+      "source_item_id": 47745256,
+      "source_url": "https://news.ycombinator.com/item?id=47745256",
+      "author": "robotburrito",
+      "shared_at": 1776033343,
+      "links": []
+    }
+  ]
+}

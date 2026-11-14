@@ -1,0 +1,63 @@
+{
+  "id": 6439,
+  "slug": "wirewiki-326028b0ff",
+  "name": "WireWiki",
+  "mentions": [
+    {
+      "name": "WireWiki",
+      "description": "A browsable map of internet infrastructure that goes beyond standalone lookup tools by interlinking results, letting users navigate between related assets such as DNS records, SPF records, mail providers, and IP address details.",
+      "problem": "Existing lookup tools return isolated results instead of showing how internet infrastructure assets connect to each other.",
+      "audience": null,
+      "builder_usernames": [
+        "pul"
+      ],
+      "source_excerpt": "I'm working on https://www.wirewiki.com.\n\nA browsable map of internet infrastructure. Not just a collection of lookup tools, but it also interlinks results, so you can navigate linked assets as well. Think: DNS lookup -> SPF record -> mail provider's SPF record -> IP address details.",
+      "evidence": [
+        {
+          "source_item_id": 47315131,
+          "source_field": "body",
+          "value": "I'm working on https://www.wirewiki.com.\n\nA browsable map of internet infrastructure. Not just a collection of lookup tools, but it also interlinks results, so you can navigate linked assets as well. Think: DNS lookup -> SPF record -> mail provider's SPF record -> IP address details.",
+          "supports": [],
+          "author": "pul",
+          "shared_at": 1773088613,
+          "source_url": "https://news.ycombinator.com/item?id=47315131"
+        }
+      ],
+      "source_item_id": 47315131,
+      "source_url": "https://news.ycombinator.com/item?id=47315131",
+      "author": "pul",
+      "shared_at": 1773088613,
+      "links": [
+        "https://www.wirewiki.com"
+      ]
+    },
+    {
+      "name": "Wirewiki",
+      "description": "A browsable map of internet infrastructure. It currently hosts DNS-related data and tools, with plans to add ASN, IP, registrar, CDN, and hosting provider data.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "pul"
+      ],
+      "source_excerpt": "I launched Wirewiki yesterday and am working on it full-time by myself.\n\nhttps://www.wirewiki.com\n\nA browsable map of internet infrastructure.\n\nCurrently, it only hosts DNS-related data and tools, but I'm looking to add ASN, IP, registrar, CDN and hosting provider data.",
+      "evidence": [
+        {
+          "source_item_id": 46958674,
+          "source_field": "body",
+          "value": "I launched Wirewiki yesterday and am working on it full-time by myself.\n\nhttps://www.wirewiki.com\n\nA browsable map of internet infrastructure.\n\nCurrently, it only hosts DNS-related data and tools, but I'm looking to add ASN, IP, registrar, CDN and hosting provider data.",
+          "supports": [],
+          "author": "pul",
+          "shared_at": 1770725509,
+          "source_url": "https://news.ycombinator.com/item?id=46958674"
+        }
+      ],
+      "source_item_id": 46958674,
+      "source_url": "https://news.ycombinator.com/item?id=46958674",
+      "author": "pul",
+      "shared_at": 1770725509,
+      "links": [
+        "https://www.wirewiki.com"
+      ]
+    }
+  ]
+}

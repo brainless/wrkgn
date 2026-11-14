@@ -1,0 +1,37 @@
+{
+  "id": 10961,
+  "slug": "appgoblin-9855edf1f6",
+  "name": "appgoblin",
+  "mentions": [
+    {
+      "name": "appgoblin",
+      "description": "This project uses a man-in-the-middle (MITM) proxy setup on an Android emulator (Waydroid) to capture which third-party IPs and URLs Android apps communicate with. It includes a scraper for collecting apps (adscrawler) and publishes reporting on which apps talk to which countries and companies.",
+      "problem": "Lack of visibility into which third-party IPs/URLs and companies Android apps communicate with.",
+      "audience": null,
+      "builder_usernames": [
+        "ddxv"
+      ],
+      "source_excerpt": "MITM on Android Emulator to capture which 3rd party IP/URLs apps talk to:",
+      "evidence": [
+        {
+          "source_item_id": 43818570,
+          "source_field": "body",
+          "value": "MITM on Android Emulator to capture which 3rd party IP/URLs apps talk to:",
+          "supports": [],
+          "author": "ddxv",
+          "shared_at": 1745825134,
+          "source_url": "https://news.ycombinator.com/item?id=43818570"
+        }
+      ],
+      "source_item_id": 43818570,
+      "source_url": "https://news.ycombinator.com/item?id=43818570",
+      "author": "ddxv",
+      "shared_at": 1745825134,
+      "links": [
+        "https://appgoblin.info",
+        "https://github.com/ddxv/adscrawler",
+        "https://github.com/ddxv/mobile-network-traffic"
+      ]
+    }
+  ]
+}

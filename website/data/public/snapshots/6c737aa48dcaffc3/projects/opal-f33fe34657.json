@@ -1,0 +1,35 @@
+{
+  "id": 5451,
+  "slug": "opal-f33fe34657",
+  "name": "Opal",
+  "mentions": [
+    {
+      "name": "Opal",
+      "description": "A tool that runs GitLab pipelines locally and uses AI to assist with troubleshooting pipeline runs. It is in active development and currently works well on macOS as an MCP using the Apple container CLI.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "pi-victor"
+      ],
+      "source_excerpt": "I'm working on https://opal.cloudflavor.io \nIt can run gitlab pipelines locally and assist you using AI to troubleshoot your pipelines.",
+      "evidence": [
+        {
+          "source_item_id": 47750724,
+          "source_field": "body",
+          "value": "I'm working on https://opal.cloudflavor.io \nIt can run gitlab pipelines locally and assist you using AI to troubleshoot your pipelines.",
+          "supports": [],
+          "author": "pi-victor",
+          "shared_at": 1776081314,
+          "source_url": "https://news.ycombinator.com/item?id=47750724"
+        }
+      ],
+      "source_item_id": 47750724,
+      "source_url": "https://news.ycombinator.com/item?id=47750724",
+      "author": "pi-victor",
+      "shared_at": 1776081314,
+      "links": [
+        "https://opal.cloudflavor.io"
+      ]
+    }
+  ]
+}

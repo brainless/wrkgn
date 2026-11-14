@@ -1,0 +1,64 @@
+{
+  "id": 4355,
+  "slug": "boucle-73e3f2c999",
+  "name": "Boucle",
+  "mentions": [
+    {
+      "name": "Boucle",
+      "description": "A framework the author describes as an \"autonomous dog-fooding expensive pet\" that keeps doing its thing on its own and has reached 100 GitHub stars.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ElFitz"
+      ],
+      "source_excerpt": "Oh, and Boucle[^4] is doing its thing on its own. No idea how it got to 100 GitHub star. My \"autonomous dog-fooding expensive pet\" is apparently more \"internet successful\" than I’ve ever been.",
+      "evidence": [
+        {
+          "source_item_id": 48538347,
+          "source_field": "body",
+          "value": "Oh, and Boucle[^4] is doing its thing on its own. No idea how it got to 100 GitHub star. My \"autonomous dog-fooding expensive pet\" is apparently more \"internet successful\" than I’ve ever been.",
+          "supports": [],
+          "author": "ElFitz",
+          "shared_at": 1781512588,
+          "source_url": "https://news.ycombinator.com/item?id=48538347"
+        }
+      ],
+      "source_item_id": 48538347,
+      "source_url": "https://news.ycombinator.com/item?id=48538347",
+      "author": "ElFitz",
+      "shared_at": 1781512588,
+      "links": [
+        "https://github.com/bande-a-bonnot/boucle-framework"
+      ]
+    },
+    {
+      "name": "Boucle",
+      "description": "A framework where Claude Code runs in a loop and autonomously builds and iterates on its own framework; its first self-built component was a persistent memory, and it has since built itself a self-observation engine.",
+      "problem": "Exploring and pushing the limits of current models is chaotic and immensely frustrating, but fun.",
+      "audience": null,
+      "builder_usernames": [
+        "ElFitz"
+      ],
+      "source_excerpt": "The most fun is a simple Claude Code in a loop, Boucle, which builds and iterates on its own framework[0][1].\n\nThe first thing it built was a persistent memory. Now it has finally built itself a \"self-observation engine\" after countless nudging attempts.",
+      "evidence": [
+        {
+          "source_item_id": 47307724,
+          "source_field": "body",
+          "value": "The most fun is a simple Claude Code in a loop, Boucle, which builds and iterates on its own framework[0][1].\n\nThe first thing it built was a persistent memory. Now it has finally built itself a \"self-observation engine\" after countless nudging attempts.",
+          "supports": [],
+          "author": "ElFitz",
+          "shared_at": 1773056217,
+          "source_url": "https://news.ycombinator.com/item?id=47307724"
+        }
+      ],
+      "source_item_id": 47307724,
+      "source_url": "https://news.ycombinator.com/item?id=47307724",
+      "author": "ElFitz",
+      "shared_at": 1773056217,
+      "links": [
+        "https://blog.boucle.sh",
+        "https://github.com/bande-a-bonnot/boucle-framework"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 4809,
+  "slug": "golden-speaker-7082337611",
+  "name": "Golden Speaker",
+  "mentions": [
+    {
+      "name": "Golden Speaker",
+      "description": "A speech-processing technology that generates a personalized \"Golden Speaker\" for each user: the user records a sentence (a phonetic pangram), and the system preserves their accent and voice identity while correcting their pronunciation, delivered as a TTS system or real-time accent conversion. It aims to help users adopt a native-like accent faster and is currently open as a waitlist.",
+      "problem": "Current speech-processing and voice conversion approaches lose the user's voice identity, and adopting a native-like accent is slow.",
+      "audience": "Users who want to adopt a native-like accent faster.",
+      "builder_usernames": [
+        "audreyfei"
+      ],
+      "source_excerpt": "We generate a \"Golden Speaker\" for you -> You record yourself saying a sentence (a phonetic pangram), we keep your accent which represents your voice identity but we correct your pronunciation and then you have a Golden Speaker system. This may be in the form of a TTS or a real-time accent conversion technology.",
+      "evidence": [
+        {
+          "source_item_id": 48114879,
+          "source_field": "body",
+          "value": "We generate a \"Golden Speaker\" for you -> You record yourself saying a sentence (a phonetic pangram), we keep your accent which represents your voice identity but we correct your pronunciation and then you have a Golden Speaker system. This may be in the form of a TTS or a real-time accent conversion technology.",
+          "supports": [],
+          "author": "audreyfei",
+          "shared_at": 1778621458,
+          "source_url": "https://news.ycombinator.com/item?id=48114879"
+        }
+      ],
+      "source_item_id": 48114879,
+      "source_url": "https://news.ycombinator.com/item?id=48114879",
+      "author": "audreyfei",
+      "shared_at": 1778621458,
+      "links": [
+        "https://loxai.tech"
+      ]
+    }
+  ]
+}

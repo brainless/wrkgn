@@ -1,0 +1,33 @@
+{
+  "id": 5588,
+  "slug": "self-testing-ai-ide-a7f13ed70a",
+  "name": "Self-testing AI IDE",
+  "mentions": [
+    {
+      "name": "Self-testing AI IDE",
+      "description": "An IDE in which the AI writes code and then automatically runs the result, clicks through it, finds what broke, and fixes it itself while the developer watches, removing the loop where the developer has to manually test and verify AI-generated code. Positioned as 'Not Better Cursor, but what comes after it.'",
+      "problem": "Developers end up being the testers for their own AI: after the AI finishes writing code, it asks the user to run it and check whether it works, an annoying manual verification loop.",
+      "audience": "Developers who work with AI coding assistants.",
+      "builder_usernames": [
+        "vinayakverma71"
+      ],
+      "source_excerpt": "So I built an IDE that just... runs it, clicks through it, finds what broke, and fixes it. You watch. Not Better Cursor , But what comes after it.",
+      "evidence": [
+        {
+          "source_item_id": 47741909,
+          "source_field": "body",
+          "value": "So I built an IDE that just... runs it, clicks through it, finds what broke, and fixes it. You watch. Not Better Cursor , But what comes after it.",
+          "supports": [],
+          "author": "vinayakverma71",
+          "shared_at": 1776013054,
+          "source_url": "https://news.ycombinator.com/item?id=47741909"
+        }
+      ],
+      "source_item_id": 47741909,
+      "source_url": "https://news.ycombinator.com/item?id=47741909",
+      "author": "vinayakverma71",
+      "shared_at": 1776013054,
+      "links": []
+    }
+  ]
+}

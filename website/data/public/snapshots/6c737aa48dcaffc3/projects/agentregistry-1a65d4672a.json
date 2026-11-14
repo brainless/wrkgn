@@ -1,0 +1,33 @@
+{
+  "id": 5240,
+  "slug": "agentregistry-1a65d4672a",
+  "name": "AgentRegistry",
+  "mentions": [
+    {
+      "name": "AgentRegistry",
+      "description": "A registry for AI agents, currently centered on A2A agents running in Docker containers. An auto-register module watches the Docker system event log; when a container with the right labels spins up, it fetches the agent's AgentCard, registers an Upstream and Route with APISIX, updates the AgentCard's URL, and stores it in the registry. The registry exposes both a REST interface and an A2A interface (via /.well-known/agent-card.json) with an AgentListerAgent supporting search by various criteria, returning AgentCards that point to the correct APISIX endpoints. Planned work includes Kubernetes support, other proxy providers such as Istio, support for non-A2A agents, self-registration via the Registry API, and possibly MCP Registry integration; the project is intended to be open sourced.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mindcrime"
+      ],
+      "source_excerpt": "I've been building an AgentRegistry. Right now it is mainly based on A2A Agents that run in Docker containers. There's an auto-register module that watches the Docker system event log (I'll add support for K8S eventually) and if it sees a container spin up  with the right labels, it fetches the AgentCard from the Agent, then registers an Upstream and Route with APISIX, then updates the 'url' field in the AgentCard, and stores the AgentCard in the Registry.",
+      "evidence": [
+        {
+          "source_item_id": 47746815,
+          "source_field": "body",
+          "value": "I've been building an AgentRegistry. Right now it is mainly based on A2A Agents that run in Docker containers. There's an auto-register module that watches the Docker system event log (I'll add support for K8S eventually) and if it sees a container spin up  with the right labels, it fetches the AgentCard from the Agent, then registers an Upstream and Route with APISIX, then updates the 'url' field in the AgentCard, and stores the AgentCard in the Registry.",
+          "supports": [],
+          "author": "mindcrime",
+          "shared_at": 1776046803,
+          "source_url": "https://news.ycombinator.com/item?id=47746815"
+        }
+      ],
+      "source_item_id": 47746815,
+      "source_url": "https://news.ycombinator.com/item?id=47746815",
+      "author": "mindcrime",
+      "shared_at": 1776046803,
+      "links": []
+    }
+  ]
+}

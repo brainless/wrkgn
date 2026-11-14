@@ -1,0 +1,35 @@
+{
+  "id": 6270,
+  "slug": "target-run-58dd7fc6ac",
+  "name": "target-run",
+  "mentions": [
+    {
+      "name": "target-run",
+      "description": "An npm-installable, platform-aware script runner for Node.js projects. Setting a package.json script body to `target-run` dispatches execution to platform/architecture-specific script variants (e.g. test:darwin:arm64, test:linux:x64) with a test:default fallback.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "carlos-menezes"
+      ],
+      "source_excerpt": "https://github.com/carlos-menezes/target-run\n\nPlatform-aware script runner for Node.js projects.",
+      "evidence": [
+        {
+          "source_item_id": 47424961,
+          "source_field": "body",
+          "value": "https://github.com/carlos-menezes/target-run\n\nPlatform-aware script runner for Node.js projects.",
+          "supports": [],
+          "author": "carlos-menezes",
+          "shared_at": 1773837333,
+          "source_url": "https://news.ycombinator.com/item?id=47424961"
+        }
+      ],
+      "source_item_id": 47424961,
+      "source_url": "https://news.ycombinator.com/item?id=47424961",
+      "author": "carlos-menezes",
+      "shared_at": 1773837333,
+      "links": [
+        "https://github.com/carlos-menezes/target-run"
+      ]
+    }
+  ]
+}

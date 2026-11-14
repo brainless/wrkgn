@@ -1,0 +1,33 @@
+{
+  "id": 8399,
+  "slug": "web-the-good-parts-579e8cc4e3",
+  "name": "Web: The Good Parts",
+  "mentions": [
+    {
+      "name": "Web: The Good Parts",
+      "description": "A web-based slides and data-visualization tool that renders scenes composed of SVG shapes and text on an offscreen canvas driven by a web worker. Layouts are positioned with yoga-layout and can be defined via an optional JSX layer; rendering currently uses Skia, with Rive Renderer/Vello and eventually WebGPU under consideration. It provides first-class view transitions (no white screen or jumps after initial load), uses fontkit for font measurement and text shaping instead of DOM measurements, and integrates with Remotion to render videos. The short-term goal is reaching an MVP for slides/dataviz while staying at maximum FPS.",
+      "problem": "Overcomes DOM-based web rendering drawbacks such as white screens, jumps after the initial load, and DOM-provided font measurements, prioritizing maximum frame rate even at the cost of loading time and battery life.",
+      "audience": null,
+      "builder_usernames": [
+        "dima_devgru"
+      ],
+      "source_excerpt": "Short-term goal is to reach MVP for slides/dataviz tool, and I'm getting close.\n\nTrying to stay at maximum FPS while sacrificing loading time and, sometimes, the battery life.",
+      "evidence": [
+        {
+          "source_item_id": 46267204,
+          "source_field": "body",
+          "value": "Short-term goal is to reach MVP for slides/dataviz tool, and I'm getting close.\n\nTrying to stay at maximum FPS while sacrificing loading time and, sometimes, the battery life.",
+          "supports": [],
+          "author": "dima_devgru",
+          "shared_at": 1765748152,
+          "source_url": "https://news.ycombinator.com/item?id=46267204"
+        }
+      ],
+      "source_item_id": 46267204,
+      "source_url": "https://news.ycombinator.com/item?id=46267204",
+      "author": "dima_devgru",
+      "shared_at": 1765748152,
+      "links": []
+    }
+  ]
+}

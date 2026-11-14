@@ -1,0 +1,35 @@
+{
+  "id": 7258,
+  "slug": "ratchets-3e0d1f4896",
+  "name": "ratchets",
+  "mentions": [
+    {
+      "name": "ratchets",
+      "description": "This tool rapidly verifies code smells and enforces associated budgets so that coding agents don't write bad code. When needed, planning and coordinating agents or humans can authorize budget increases.",
+      "problem": "Coding agents can write bad code by accumulating code smells; teams need a way to verify and budget-limit this.",
+      "audience": "Coding agent workflows; developers coordinating AI coding agents",
+      "builder_usernames": [
+        "nvader"
+      ],
+      "source_excerpt": "Rapid verification of code smells + associated budgets so that coding agents don't write \"bad\" code. When needed, planning and coordinating agents or humans can authorize budget increases.\n\nhttps://github.com/imbue-ai/ratchets",
+      "evidence": [
+        {
+          "source_item_id": 46941632,
+          "source_field": "body",
+          "value": "Rapid verification of code smells + associated budgets so that coding agents don't write \"bad\" code. When needed, planning and coordinating agents or humans can authorize budget increases.\n\nhttps://github.com/imbue-ai/ratchets",
+          "supports": [],
+          "author": "nvader",
+          "shared_at": 1770611805,
+          "source_url": "https://news.ycombinator.com/item?id=46941632"
+        }
+      ],
+      "source_item_id": 46941632,
+      "source_url": "https://news.ycombinator.com/item?id=46941632",
+      "author": "nvader",
+      "shared_at": 1770611805,
+      "links": [
+        "https://github.com/imbue-ai/ratchets"
+      ]
+    }
+  ]
+}

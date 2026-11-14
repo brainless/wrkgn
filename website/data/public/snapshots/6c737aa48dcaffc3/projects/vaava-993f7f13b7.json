@@ -1,0 +1,63 @@
+{
+  "id": 3545,
+  "slug": "vaava-993f7f13b7",
+  "name": "Vaava",
+  "mentions": [
+    {
+      "name": "Vaava",
+      "description": "Baby tracking and logging app for recording events like feeding and sleep, plus growth measurements. All user-generated data is stored only on device and transferred over the local network to paired users, with zero behavioral analytics and fully optional crash reporting. It supports voice dictation to generate events and document scanning to capture growth measurements, requires no user account, and has no subscription — about 90% of features are free, with the rest behind a single lifetime purchase.",
+      "problem": null,
+      "audience": "parents tracking their babies' daily care",
+      "builder_usernames": [
+        "jkantola"
+      ],
+      "source_excerpt": "Mainly https://www.vaava.app/ is a baby tracking/logging app I originally built for myself, now available on both app stores. All the user generated data is stored only on device and is transferred in local network to users who you have paired the app with. There is 0 behavioural analytics, even the crashlytics are 100% optional.",
+      "evidence": [
+        {
+          "source_item_id": 48530219,
+          "source_field": "body",
+          "value": "Mainly https://www.vaava.app/ is a baby tracking/logging app I originally built for myself, now available on both app stores. All the user generated data is stored only on device and is transferred in local network to users who you have paired the app with. There is 0 behavioural analytics, even the crashlytics are 100% optional.",
+          "supports": [],
+          "author": "jkantola",
+          "shared_at": 1781458873,
+          "source_url": "https://news.ycombinator.com/item?id=48530219"
+        }
+      ],
+      "source_item_id": 48530219,
+      "source_url": "https://news.ycombinator.com/item?id=48530219",
+      "author": "jkantola",
+      "shared_at": 1781458873,
+      "links": [
+        "https://www.vaava.app/"
+      ]
+    },
+    {
+      "name": "Vaava",
+      "description": "Baby tracking and logging app available on both app stores. All user-generated data is stored only on device and transferred over the local network to paired users, with no behavioural analytics and fully optional crashlytics. Semi-unique features include voice dictation to generate events (feeding, sleep, etc.) and document scanning for growth measurements. It requires no user account and no subscription; about 90% of features are free, with paid features behind a single lifetime purchase.",
+      "problem": null,
+      "audience": "personal-use",
+      "builder_usernames": [
+        "jkantola"
+      ],
+      "source_excerpt": "[Vaava](https://www.vaava.app/)  is a baby tracking/logging app I originally built for myself, now available on both app stores.",
+      "evidence": [
+        {
+          "source_item_id": 48096089,
+          "source_field": "body",
+          "value": "[Vaava](https://www.vaava.app/)  is a baby tracking/logging app I originally built for myself, now available on both app stores.",
+          "supports": [],
+          "author": "jkantola",
+          "shared_at": 1778512373,
+          "source_url": "https://news.ycombinator.com/item?id=48096089"
+        }
+      ],
+      "source_item_id": 48096089,
+      "source_url": "https://news.ycombinator.com/item?id=48096089",
+      "author": "jkantola",
+      "shared_at": 1778512373,
+      "links": [
+        "https://www.vaava.app/"
+      ]
+    }
+  ]
+}

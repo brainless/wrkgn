@@ -1,0 +1,35 @@
+{
+  "id": 7533,
+  "slug": "graph-backed-claude-mem-fork-6ab8073e7d",
+  "name": "Graph-backed claude-mem fork",
+  "mentions": [
+    {
+      "name": "Graph-backed claude-mem fork",
+      "description": "A fork of claude-mem that uses the Memgraph knowledge graph as a contextual backend for agentic coding workflows.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "monatron"
+      ],
+      "source_excerpt": "I'm currently working on a fork of claude-mem[1] that uses the graph as a contextual backend for agentic coding workflows.",
+      "evidence": [
+        {
+          "source_item_id": 46578324,
+          "source_field": "body",
+          "value": "I'm currently working on a fork of claude-mem[1] that uses the graph as a contextual backend for agentic coding workflows.",
+          "supports": [],
+          "author": "monatron",
+          "shared_at": 1768156565,
+          "source_url": "https://news.ycombinator.com/item?id=46578324"
+        }
+      ],
+      "source_item_id": 46578324,
+      "source_url": "https://news.ycombinator.com/item?id=46578324",
+      "author": "monatron",
+      "shared_at": 1768156565,
+      "links": [
+        "https://github.com/thedotmack/claude-mem/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 6721,
+  "slug": "latent-space-llm-steering-experiments-dce229f4a7",
+  "name": "Latent-space LLM steering experiments",
+  "mentions": [
+    {
+      "name": "Latent-space LLM steering experiments",
+      "description": "An experiment that exposes the raw latent states, captured via hooks, of a small 1B Gemma model to a large model as it processes data, exploring whether the large model can nudge the smaller model's latents to produce the outputs it wants. The goal is to move model \"thinking\" out of tokens and into latent space.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "robviren"
+      ],
+      "source_excerpt": "I did some experiments by exposing the raw latent states, using hooks, of a small 1B Gemma model to a large model as it processed data. I'm curious if it is possible for the large model to nudge the smaller model latents to get the outputs it wants. I desperately want to get thinking out of tokens and into latent space.",
+      "evidence": [
+        {
+          "source_item_id": 46941342,
+          "source_field": "body",
+          "value": "I did some experiments by exposing the raw latent states, using hooks, of a small 1B Gemma model to a large model as it processed data. I'm curious if it is possible for the large model to nudge the smaller model latents to get the outputs it wants. I desperately want to get thinking out of tokens and into latent space.",
+          "supports": [],
+          "author": "robviren",
+          "shared_at": 1770608652,
+          "source_url": "https://news.ycombinator.com/item?id=46941342"
+        }
+      ],
+      "source_item_id": 46941342,
+      "source_url": "https://news.ycombinator.com/item?id=46941342",
+      "author": "robviren",
+      "shared_at": 1770608652,
+      "links": []
+    }
+  ]
+}

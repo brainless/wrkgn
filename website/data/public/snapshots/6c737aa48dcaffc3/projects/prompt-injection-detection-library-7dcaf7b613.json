@@ -1,0 +1,63 @@
+{
+  "id": 6693,
+  "slug": "prompt-injection-detection-library-7dcaf7b613",
+  "name": "Prompt injection detection library",
+  "mentions": [
+    {
+      "name": "Prompt injection detection library",
+      "description": "This library detects prompt injection attacks at the normalisation layer, using a 10-stage deterministic pipeline (NFKD, confusable fold, leet, base64, zero-width strip, ROT13, escape sequences) that reduces all character-level evasion techniques to canonical form before any matching. Because the scan itself is code rather than a model, it is not injectable, and it is intended to replace putting another LLM in the detection path.",
+      "problem": "LLM-based guardrails are themselves attack surfaces: payloads crafted with character injection techniques (homoglyphs, zero-width characters, leet, diacritics) achieve evasion rates up to 100% against classifiers that see raw tokens.",
+      "audience": null,
+      "builder_usernames": [
+        "Horos"
+      ],
+      "source_excerpt": "I built a prompt injection detection library that tackles this from the normalisation layer — 10-stage deterministic pipeline (NFKD, confusable fold, leet, base64, zero-width strip, ROT13, escape sequences) that reduces all evasion to canonical form before any matching. The scan itself is not injectable — it's code, not a model.",
+      "evidence": [
+        {
+          "source_item_id": 47236512,
+          "source_field": "body",
+          "value": "I built a prompt injection detection library that tackles this from the normalisation layer — 10-stage deterministic pipeline (NFKD, confusable fold, leet, base64, zero-width strip, ROT13, escape sequences) that reduces all evasion to canonical form before any matching. The scan itself is not injectable — it's code, not a model.",
+          "supports": [],
+          "author": "Horos",
+          "shared_at": 1772562171,
+          "source_url": "https://news.ycombinator.com/item?id=47236512"
+        }
+      ],
+      "source_item_id": 47236512,
+      "source_url": "https://news.ycombinator.com/item?id=47236512",
+      "author": "Horos",
+      "shared_at": 1772562171,
+      "links": [
+        "https://github.com/hazyhaar/pkg/tree/main/injection"
+      ]
+    },
+    {
+      "name": "injection — Go prompt injection detection library",
+      "description": "A Go library that detects prompt injection attacks with zero regex. It combines two curated data layers: ~35 canonical multilingual intent phrases across 8 categories (override, extraction, jailbreak, delimiter, semantic worm, agent proxy, rendering) and curated tables of evasion techniques such as Unicode confusables, leet speak mappings, LLM-specific delimiters and dangerous markup patterns. A 10-stage normalization pipeline reduces evasive text to canonical form before simple string containment and Levenshtein matching, in a ClamAV-style design where the definitions are the product. Everything ships as go:embed JSON that hot-reloads without rebuild, with no regex (no ReDoS), no API calls, no ML in the loop, and a single dependency (golang.org/x/text). It scans both LLM inputs and outputs, and the long-term goal is to make both layers community-maintained corpora consumable by any scanner regardless of language or engine.",
+      "problem": "Most injection evasion makes text look different to a scanner than to the LLM — homoglyphs, leet speak, zero-width characters, base64 smuggling, ROT13 and Unicode confusables slip past pattern matchers while LLMs still read through them; regex-based scanning also carries ReDoS risk.",
+      "audience": null,
+      "builder_usernames": [
+        "Horos"
+      ],
+      "source_excerpt": "Prompt injection detection library in Go, zero regex.\n\nMost injection evasion works by making text look different to a scanner than to the LLM. Homoglyphs, leet speak, zero-width characters, base64 smuggling, ROT13, Unicode confusables — the LLM reads through all of it, but pattern matchers don't.",
+      "evidence": [
+        {
+          "source_item_id": 47236316,
+          "source_field": "body",
+          "value": "Prompt injection detection library in Go, zero regex.\n\nMost injection evasion works by making text look different to a scanner than to the LLM. Homoglyphs, leet speak, zero-width characters, base64 smuggling, ROT13, Unicode confusables — the LLM reads through all of it, but pattern matchers don't.",
+          "supports": [],
+          "author": "Horos",
+          "shared_at": 1772561388,
+          "source_url": "https://news.ycombinator.com/item?id=47236316"
+        }
+      ],
+      "source_item_id": 47236316,
+      "source_url": "https://news.ycombinator.com/item?id=47236316",
+      "author": "Horos",
+      "shared_at": 1772561388,
+      "links": [
+        "https://github.com/hazyhaar/pkg/tree/main/injection"
+      ]
+    }
+  ]
+}

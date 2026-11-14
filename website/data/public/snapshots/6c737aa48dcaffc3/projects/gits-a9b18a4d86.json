@@ -1,0 +1,35 @@
+{
+  "id": 8008,
+  "slug": "gits-a9b18a4d86",
+  "name": "Gits",
+  "mentions": [
+    {
+      "name": "Gits",
+      "description": "A thread-safe in-memory graph storage library for Go, originally developed to underpin cyberbrain. No major changes are planned, though the author will add features as needed and plans to re-enable async persistence.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "voodooEntity"
+      ],
+      "source_excerpt": "3. Gits (as mentioned above) a graph in memory threadsafe storage. While i don't plan to many changes on it, it has been developed for cyberbrain so if i need any additions ill do them, also planing to reenable async persistence.",
+      "evidence": [
+        {
+          "source_item_id": 46587223,
+          "source_field": "body",
+          "value": "3. Gits (as mentioned above) a graph in memory threadsafe storage. While i don't plan to many changes on it, it has been developed for cyberbrain so if i need any additions ill do them, also planing to reenable async persistence.",
+          "supports": [],
+          "author": "voodooEntity",
+          "shared_at": 1768218983,
+          "source_url": "https://news.ycombinator.com/item?id=46587223"
+        }
+      ],
+      "source_item_id": 46587223,
+      "source_url": "https://news.ycombinator.com/item?id=46587223",
+      "author": "voodooEntity",
+      "shared_at": 1768218983,
+      "links": [
+        "https://github.com/voodooEntity/gits"
+      ]
+    }
+  ]
+}

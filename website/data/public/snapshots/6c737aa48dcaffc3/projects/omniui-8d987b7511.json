@@ -1,0 +1,33 @@
+{
+  "id": 4463,
+  "slug": "omniui-8d987b7511",
+  "name": "OmniUI",
+  "mentions": [
+    {
+      "name": "OmniUI",
+      "description": "This is a Swift UI framework designed as a drop-in replacement for SwiftUI, enabling write-once-run-everywhere apps via pluggable renderer backends. TUI (notcurses) and Adwaita/GTK backends already work, and the author is choosing Adwaita for its opinionated design language. Apps avoid Apple-specific libraries (like Vision), and CoreData/SwiftData have been reimplemented to support running on Linux; the author's Gopher browser is the first target app. Unlike SwiftUI-inspired projects such as adwaita-swift and swift-cross-ui, the goal is to use the actual SwiftUI API everywhere rather than a lookalike.",
+      "problem": "SwiftUI code is effectively limited to Apple platforms, preventing write-once-run-everywhere Swift apps.",
+      "audience": null,
+      "builder_usernames": [
+        "navanchauhan"
+      ],
+      "source_excerpt": "The idea is to create a drop-in replacement called OmniUI which will have different renderer backends (I currently have TUI w/ notcurses and Adwaita/GTK working)",
+      "evidence": [
+        {
+          "source_item_id": 48091921,
+          "source_field": "body",
+          "value": "The idea is to create a drop-in replacement called OmniUI which will have different renderer backends (I currently have TUI w/ notcurses and Adwaita/GTK working)",
+          "supports": [],
+          "author": "navanchauhan",
+          "shared_at": 1778483269,
+          "source_url": "https://news.ycombinator.com/item?id=48091921"
+        }
+      ],
+      "source_item_id": 48091921,
+      "source_url": "https://news.ycombinator.com/item?id=48091921",
+      "author": "navanchauhan",
+      "shared_at": 1778483269,
+      "links": []
+    }
+  ]
+}

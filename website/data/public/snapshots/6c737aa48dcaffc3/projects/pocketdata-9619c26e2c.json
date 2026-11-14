@@ -1,0 +1,35 @@
+{
+  "id": 9051,
+  "slug": "pocketdata-9619c26e2c",
+  "name": "Pocketdata",
+  "mentions": [
+    {
+      "name": "Pocketdata",
+      "description": "This project provides a personal, private AI data plane by deploying standard components — PostgreSQL, Bifrost (LLM gateway), Open WebUI, LanceDB, and Agentgateway (MCP and OpenAPI gateway) — on Fly.io, with one Fly.io org per user. Privacy is achieved through Fly secrets visible only within the apps, distroless containers, and transparent data encryption for PostgreSQL, so the service provider cannot access user data.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "leventov"
+      ],
+      "source_excerpt": "I'm working on Pocketdata - a personal, private AI data plane.",
+      "evidence": [
+        {
+          "source_item_id": 45873241,
+          "source_field": "body",
+          "value": "I'm working on Pocketdata - a personal, private AI data plane.",
+          "supports": [],
+          "author": "leventov",
+          "shared_at": 1762758481,
+          "source_url": "https://news.ycombinator.com/item?id=45873241"
+        }
+      ],
+      "source_item_id": 45873241,
+      "source_url": "https://news.ycombinator.com/item?id=45873241",
+      "author": "leventov",
+      "shared_at": 1762758481,
+      "links": [
+        "https://engineeringideas.substack.com/p/tasklet-is-the-o1-moment-for-long"
+      ]
+    }
+  ]
+}

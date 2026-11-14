@@ -1,0 +1,35 @@
+{
+  "id": 3549,
+  "slug": "i-0383213c75",
+  "name": "i",
+  "mentions": [
+    {
+      "name": "i",
+      "description": "A tensor computing language and compiler named i with a simple explicit scheduling model (loop splitting, loop ordering, and input \"staging\"). These mechanisms alone can express complex algorithms like FlashAttention, generating target code with loop fusion, minimized intermediate allocations, and \"online\" reductions. Currently includes a runtime and a compiler targeting C written in dependency-free Rust plus a minimal Python frontend, with a CUDA backend in progress. Still proof-of-concept stage and not yet fast.",
+      "problem": "Enable automatic discovery of FlashAttention-style optimizations, which is not feasible with current compilers.",
+      "audience": null,
+      "builder_usernames": [
+        "loganboyd"
+      ],
+      "source_excerpt": "I’m working on a tensor computing language/compiler called i with a simple explicit scheduling model (loop splitting, loop ordering, input “staging”).",
+      "evidence": [
+        {
+          "source_item_id": 48531754,
+          "source_field": "body",
+          "value": "I’m working on a tensor computing language/compiler called i with a simple explicit scheduling model (loop splitting, loop ordering, input “staging”).",
+          "supports": [],
+          "author": "loganboyd",
+          "shared_at": 1781465888,
+          "source_url": "https://news.ycombinator.com/item?id=48531754"
+        }
+      ],
+      "source_item_id": 48531754,
+      "source_url": "https://news.ycombinator.com/item?id=48531754",
+      "author": "loganboyd",
+      "shared_at": 1781465888,
+      "links": [
+        "https://github.com/ilang-dev/i"
+      ]
+    }
+  ]
+}

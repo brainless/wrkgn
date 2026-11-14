@@ -1,0 +1,35 @@
+{
+  "id": 9862,
+  "slug": "resolver-one-29b1fe0487",
+  "name": "resolver.one",
+  "mentions": [
+    {
+      "name": "resolver.one",
+      "description": "A DNS server that returns GeoIP data as TXT records. Users query an IP directly as the hostname (e.g. dig TXT 8.8.8.8.rslvr.one) and get back country, ASN, and related geolocation data, repurposing DNS as a delivery channel for location data without HTTP APIs. Data comes from the IPinfo Lite MMDB file, and support for additional datasets such as security CVEs and Shodan integration is planned.",
+      "problem": "Delivering IP geolocation data without HTTP APIs, taking advantage of DNS being everywhere, passing through firewalls, and having built-in caching.",
+      "audience": null,
+      "builder_usernames": [
+        "coreylane"
+      ],
+      "source_excerpt": "I've been building https://resolver.one - a DNS server that returns GeoIP data as TXT records. Query an IP directly as the hostname (e.g. dig TXT 8.8.8.8.rslvr.one) and get back country, ASN, etc.",
+      "evidence": [
+        {
+          "source_item_id": 45421934,
+          "source_field": "body",
+          "value": "I've been building https://resolver.one - a DNS server that returns GeoIP data as TXT records. Query an IP directly as the hostname (e.g. dig TXT 8.8.8.8.rslvr.one) and get back country, ASN, etc.",
+          "supports": [],
+          "author": "coreylane",
+          "shared_at": 1759206983,
+          "source_url": "https://news.ycombinator.com/item?id=45421934"
+        }
+      ],
+      "source_item_id": 45421934,
+      "source_url": "https://news.ycombinator.com/item?id=45421934",
+      "author": "coreylane",
+      "shared_at": 1759206983,
+      "links": [
+        "https://resolver.one"
+      ]
+    }
+  ]
+}

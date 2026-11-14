@@ -1,0 +1,33 @@
+{
+  "id": 7075,
+  "slug": "flagforge-dev-49a31409b8",
+  "name": "flagforge.dev",
+  "mentions": [
+    {
+      "name": "flagforge.dev",
+      "description": "A feature flag service designed to be used easily by both developers and business teams, so developers aren't left handling flags that business decides how to use. It aims for fair pricing, in contrast to the author's view that feature flag SaaS pricing is insane. Currently in heavy solo testing; started as a side project and later included agentic coding as a learning exercise.",
+      "problem": "Developers implement feature flags but business decides how they're used, which pushes flag management back onto developers, and existing feature flag SaaS pricing is insanely high.",
+      "audience": "Developers who implement feature flags and business teams that decide how the flags are used.",
+      "builder_usernames": [
+        "RicDan"
+      ],
+      "source_excerpt": "I've been working on and off on flagforge.dev\n\nI have always hated how we deal with feature flags; often times as a dev I implement it, but then business decides how the flags are used, which comes back to us having to set them. I want to make this something that can be used by both easily, and priced fairly - looking at how much others charge for a feature flag SaaS is insane.",
+      "evidence": [
+        {
+          "source_item_id": 46956869,
+          "source_field": "body",
+          "value": "I've been working on and off on flagforge.dev\n\nI have always hated how we deal with feature flags; often times as a dev I implement it, but then business decides how the flags are used, which comes back to us having to set them. I want to make this something that can be used by both easily, and priced fairly - looking at how much others charge for a feature flag SaaS is insane.",
+          "supports": [],
+          "author": "RicDan",
+          "shared_at": 1770712535,
+          "source_url": "https://news.ycombinator.com/item?id=46956869"
+        }
+      ],
+      "source_item_id": 46956869,
+      "source_url": "https://news.ycombinator.com/item?id=46956869",
+      "author": "RicDan",
+      "shared_at": 1770712535,
+      "links": []
+    }
+  ]
+}

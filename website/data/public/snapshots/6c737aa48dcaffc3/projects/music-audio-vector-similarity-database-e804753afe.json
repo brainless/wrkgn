@@ -1,0 +1,33 @@
+{
+  "id": 9168,
+  "slug": "music-audio-vector-similarity-database-e804753afe",
+  "name": "Music audio vector similarity database",
+  "mentions": [
+    {
+      "name": "Music audio vector similarity database",
+      "description": "This database stores audio metadata (including links back to sources like YouTube or Spotify) along with vector embeddings for the audio, enabling similarity search: grab clips of music from YouTube, generate vectors for them, and find similar items in the database. It is initially populated with YouTube-8M and AudioSet data.",
+      "problem": "Initial search results are weird because the database was populated with YouTube-8M and AudioSet, neither of which are music-specific.",
+      "audience": null,
+      "builder_usernames": [
+        "mac_"
+      ],
+      "source_excerpt": "A database populated with audio metadata (including a link back to YouTube or Spotify or whatever) that includes vector embeddings for the audio. That way I can grab clips of music I like from YouTube, generate vectors for them, then find similar things in the database.",
+      "evidence": [
+        {
+          "source_item_id": 45869450,
+          "source_field": "body",
+          "value": "A database populated with audio metadata (including a link back to YouTube or Spotify or whatever) that includes vector embeddings for the audio. That way I can grab clips of music I like from YouTube, generate vectors for them, then find similar things in the database.",
+          "supports": [],
+          "author": "mac_",
+          "shared_at": 1762724453,
+          "source_url": "https://news.ycombinator.com/item?id=45869450"
+        }
+      ],
+      "source_item_id": 45869450,
+      "source_url": "https://news.ycombinator.com/item?id=45869450",
+      "author": "mac_",
+      "shared_at": 1762724453,
+      "links": []
+    }
+  ]
+}

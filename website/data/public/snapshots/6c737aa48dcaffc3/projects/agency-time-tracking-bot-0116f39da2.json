@@ -1,0 +1,33 @@
+{
+  "id": 5202,
+  "slug": "agency-time-tracking-bot-0116f39da2",
+  "name": "Agency Time Tracking Bot",
+  "mentions": [
+    {
+      "name": "Agency Time Tracking Bot",
+      "description": "A time tracking bot for agencies with no logins or interfaces: users add projects, roles, and budgets, and it uses Claude to parse plain-language input into stored records. It instantly calculates the Labor Efficiency Ratio (LER), a key agency metric, and shows realized cash on an accrual basis, making time tracking less painful and giving operators better insight into their numbers.",
+      "problem": "People hate tracking time, and agency operators struggle to clearly understand their instruments (metrics like labor efficiency and realized cash).",
+      "audience": "Agency operators/owners looking to track time and understand key business metrics.",
+      "builder_usernames": [
+        "talktalkmake"
+      ],
+      "source_excerpt": "So I built an actually useful time tracking bot. No logins or interfaces, it just lets you add projects and roles and budgets, and uses Claude to parse plain language into stored records. Then you can calculate your LER (Labor Efficiency Ratio; the big metric agencies should care about) instantly, and see realized cash (accrual basis) instantly.",
+      "evidence": [
+        {
+          "source_item_id": 47753211,
+          "source_field": "body",
+          "value": "So I built an actually useful time tracking bot. No logins or interfaces, it just lets you add projects and roles and budgets, and uses Claude to parse plain language into stored records. Then you can calculate your LER (Labor Efficiency Ratio; the big metric agencies should care about) instantly, and see realized cash (accrual basis) instantly.",
+          "supports": [],
+          "author": "talktalkmake",
+          "shared_at": 1776093246,
+          "source_url": "https://news.ycombinator.com/item?id=47753211"
+        }
+      ],
+      "source_item_id": 47753211,
+      "source_url": "https://news.ycombinator.com/item?id=47753211",
+      "author": "talktalkmake",
+      "shared_at": 1776093246,
+      "links": []
+    }
+  ]
+}

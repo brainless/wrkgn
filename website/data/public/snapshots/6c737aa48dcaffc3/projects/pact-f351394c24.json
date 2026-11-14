@@ -1,0 +1,35 @@
+{
+  "id": 10498,
+  "slug": "pact-f351394c24",
+  "name": "pact",
+  "mentions": [
+    {
+      "name": "pact",
+      "description": "A tool that enables developers and less technical users to interact with Playwright and perform actions and tests on web-based user interfaces and applications using either a YAML file or a simple DSL (.pact file). It began as a feature for a PR on the venom integration testing tool and was spun out as a standalone tool; it is early stage but already supports basic actions using CSS selectors that Playwright supports.",
+      "problem": null,
+      "audience": "Developers and hopefully less technical users",
+      "builder_usernames": [
+        "zikani_03"
+      ],
+      "source_excerpt": "I'm working on pact[0], a tool to enable developers and hopefully less technical users to interact with Playwright and perform actions and tests on web-based user interfaces and applications using either a YAML file or a simple DSL (in a .pact file).",
+      "evidence": [
+        {
+          "source_item_id": 44709417,
+          "source_field": "body",
+          "value": "I'm working on pact[0], a tool to enable developers and hopefully less technical users to interact with Playwright and perform actions and tests on web-based user interfaces and applications using either a YAML file or a simple DSL (in a .pact file).",
+          "supports": [],
+          "author": "zikani_03",
+          "shared_at": 1753699512,
+          "source_url": "https://news.ycombinator.com/item?id=44709417"
+        }
+      ],
+      "source_item_id": 44709417,
+      "source_url": "https://news.ycombinator.com/item?id=44709417",
+      "author": "zikani_03",
+      "shared_at": 1753699512,
+      "links": [
+        "https://github.com/zikani03/pact"
+      ]
+    }
+  ]
+}

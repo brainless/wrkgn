@@ -1,0 +1,36 @@
+{
+  "id": 4476,
+  "slug": "context-bonsai-dafac1dc81",
+  "name": "Context Bonsai",
+  "mentions": [
+    {
+      "name": "Context Bonsai",
+      "description": "This is a set of LLM harness tools that let the model prune messages out of its context window, leaving behind a summary and keywords in their place, together with a retrieve tool that lets it recall the pruned messages if needed.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "planckscnst"
+      ],
+      "source_excerpt": "I'm working on [Context Bonsai][1] - LLM harness tools that allow the LLM to prune messages out of the context, leaving behind a summary and keywords instead. In addition to a \"prune\" tool, there is a \"retrieve\" tool that allows it to recall the messages if needed.",
+      "evidence": [
+        {
+          "source_item_id": 48092255,
+          "source_field": "body",
+          "value": "I'm working on [Context Bonsai][1] - LLM harness tools that allow the LLM to prune messages out of the context, leaving behind a summary and keywords instead. In addition to a \"prune\" tool, there is a \"retrieve\" tool that allows it to recall the messages if needed.",
+          "supports": [],
+          "author": "planckscnst",
+          "shared_at": 1778486291,
+          "source_url": "https://news.ycombinator.com/item?id=48092255"
+        }
+      ],
+      "source_item_id": 48092255,
+      "source_url": "https://news.ycombinator.com/item?id=48092255",
+      "author": "planckscnst",
+      "shared_at": 1778486291,
+      "links": [
+        "https://blog.vibecodelicio.us/posts/how-i-fixed-context-windows/",
+        "https://github.com/Vibecodelicious/context-bonsai-agents#context-bonsai"
+      ]
+    }
+  ]
+}

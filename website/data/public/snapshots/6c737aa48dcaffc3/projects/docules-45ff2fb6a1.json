@@ -1,0 +1,63 @@
+{
+  "id": 6024,
+  "slug": "docules-45ff2fb6a1",
+  "name": "Docules",
+  "mentions": [
+    {
+      "name": "Docules",
+      "description": "A collaborative team documentation tool with no embedded AI features, focusing on being a fast, solid docs product: real-time collaboration, hierarchical docs with drag-and-drop, semantic search, comments, version history, public sharing, SSO, RBAC, audit logs, and webhooks. It provides an API and a separate MCP server package exposing search, document CRUD, and comments so users can connect their own AI tools like Claude or ChatGPT. Built with React, Hono, PostgreSQL, and WebSockets.",
+      "problem": "Every docs tool is adding AI auto-complete, AI summaries, and \"generate a page\" buttons and charging for it; Docules keeps AI out of the core product and instead lets users connect whatever AI tools they actually want via its API and MCP server.",
+      "audience": "Teams looking for a documentation tool without bundled AI features",
+      "builder_usernames": [
+        "cdr1987"
+      ],
+      "source_excerpt": "I've been building a collaborative docs tool called Docules. The short version: it's a team documentation tool that doesn't have any embedded AI features.",
+      "evidence": [
+        {
+          "source_item_id": 47305367,
+          "source_field": "body",
+          "value": "I've been building a collaborative docs tool called Docules. The short version: it's a team documentation tool that doesn't have any embedded AI features.",
+          "supports": [],
+          "author": "cdr1987",
+          "shared_at": 1773036400,
+          "source_url": "https://news.ycombinator.com/item?id=47305367"
+        }
+      ],
+      "source_item_id": 47305367,
+      "source_url": "https://news.ycombinator.com/item?id=47305367",
+      "author": "cdr1987",
+      "shared_at": 1773036400,
+      "links": [
+        "https://docules.net/about"
+      ]
+    },
+    {
+      "name": "Docules",
+      "description": "Team documentation tool built without embedded AI features, offering real-time collaboration with live cursors, hierarchical docs with drag-and-drop, semantic search, comments, version history, public sharing, SSO, RBAC, audit logs, and webhooks. Instead of built-in LLM features, it provides an open API and a separate MCP server package so teams can connect their own LLM workflows to read, search, create, and edit documents. Built with React, Hono, PostgreSQL, and WebSockets.",
+      "problem": "Docs tools keep bolting on half-baked AI features like auto-complete, AI summaries, and \"generate a page\" buttons and charging for them; this project aims to be a solid docs tool first and let teams plug in whatever AI workflow actually makes sense for them via the open API and MCP server.",
+      "audience": "Team documentation tool for teams that want a solid docs foundation and to plug in their own AI workflows.",
+      "builder_usernames": [
+        "cdr1987"
+      ],
+      "source_excerpt": "I've been building a collaborative docs tool called Docules. The short version: it's a team documentation tool that doesn't have any embedded AI features.",
+      "evidence": [
+        {
+          "source_item_id": 47305350,
+          "source_field": "body",
+          "value": "I've been building a collaborative docs tool called Docules. The short version: it's a team documentation tool that doesn't have any embedded AI features.",
+          "supports": [],
+          "author": "cdr1987",
+          "shared_at": 1773036140,
+          "source_url": "https://news.ycombinator.com/item?id=47305350"
+        }
+      ],
+      "source_item_id": 47305350,
+      "source_url": "https://news.ycombinator.com/item?id=47305350",
+      "author": "cdr1987",
+      "shared_at": 1773036140,
+      "links": [
+        "https://docules.net/about"
+      ]
+    }
+  ]
+}

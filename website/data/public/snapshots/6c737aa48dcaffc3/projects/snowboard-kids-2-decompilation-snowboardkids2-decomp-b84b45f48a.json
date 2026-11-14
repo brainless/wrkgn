@@ -1,0 +1,65 @@
+{
+  "id": 8324,
+  "slug": "snowboard-kids-2-decompilation-snowboardkids2-decomp-b84b45f48a",
+  "name": "Snowboard Kids 2 Decompilation (snowboardkids2-decomp)",
+  "mentions": [
+    {
+      "name": "Snowboard Kids 2 Decompilation (snowboardkids2-decomp)",
+      "description": "A matching decompilation of the Nintendo 64 game Snowboard Kids 2, built from scratch as a first decompilation project. Accompanying blog posts document the experience, including using coding agents and one-shot decompilation with Claude to decompile N64 games.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "knackers"
+      ],
+      "source_excerpt": "https://github.com/cdlewis/snowboardkids2-decomp\n\nA matching decompilation of snowboard kids 2 for the n64. Why this game? Well it's awesome but also I wanted to work on a decomp project from scratch.",
+      "evidence": [
+        {
+          "source_item_id": 46275822,
+          "source_field": "body",
+          "value": "https://github.com/cdlewis/snowboardkids2-decomp\n\nA matching decompilation of snowboard kids 2 for the n64. Why this game? Well it's awesome but also I wanted to work on a decomp project from scratch.",
+          "supports": [],
+          "author": "knackers",
+          "shared_at": 1765812905,
+          "source_url": "https://news.ycombinator.com/item?id=46275822"
+        }
+      ],
+      "source_item_id": 46275822,
+      "source_url": "https://news.ycombinator.com/item?id=46275822",
+      "author": "knackers",
+      "shared_at": 1765812905,
+      "links": [
+        "https://blog.chrislewis.au/the-unexpected-effectiveness-of-one-shot-decompilation-with-claude/",
+        "https://blog.chrislewis.au/using-coding-agents-to-decompile-nintendo-64-games/",
+        "https://github.com/cdlewis/snowboardkids2-decomp"
+      ]
+    },
+    {
+      "name": "Snowboard Kids 2 decompilation",
+      "description": "This project is a decompilation of the Nintendo 64 game Snowboard Kids 2, reverse-engineering the game into readable, rebuildable source code hosted on GitHub.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "knackers"
+      ],
+      "source_excerpt": "Decompiling Snowboard Kids 2 for the Nintendo 64! https://github.com/cdlewis/snowboardkids2-decomp",
+      "evidence": [
+        {
+          "source_item_id": 45876518,
+          "source_field": "body",
+          "value": "Decompiling Snowboard Kids 2 for the Nintendo 64! https://github.com/cdlewis/snowboardkids2-decomp",
+          "supports": [],
+          "author": "knackers",
+          "shared_at": 1762786039,
+          "source_url": "https://news.ycombinator.com/item?id=45876518"
+        }
+      ],
+      "source_item_id": 45876518,
+      "source_url": "https://news.ycombinator.com/item?id=45876518",
+      "author": "knackers",
+      "shared_at": 1762786039,
+      "links": [
+        "https://github.com/cdlewis/snowboardkids2-decomp"
+      ]
+    }
+  ]
+}

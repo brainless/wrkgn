@@ -1,0 +1,35 @@
+{
+  "id": 9886,
+  "slug": "nerd-992853cc81",
+  "name": "nerd",
+  "mentions": [
+    {
+      "name": "nerd",
+      "description": "A text editor inspired by ed that edits live network flows instead of files on disk. Creating a file generates a self-sustaining pattern of packets circulating through the network, and editing changes the flow itself. Multiple users can edit the same file simultaneously since it isn't tied to any machine, and users can discover existing flows and jump into them in real time. It keeps the familiar ed command interface (append, delete, substitute) and is a Linux proof-of-concept built with raw sockets.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dantraztrev"
+      ],
+      "source_excerpt": "I’m building a text editor inspired by ed, but instead of editing files on disk, it edits live network flows. In this model, files don’t exist as static objects—they exist in motion.",
+      "evidence": [
+        {
+          "source_item_id": 45421290,
+          "source_field": "body",
+          "value": "I’m building a text editor inspired by ed, but instead of editing files on disk, it edits live network flows. In this model, files don’t exist as static objects—they exist in motion.",
+          "supports": [],
+          "author": "dantraztrev",
+          "shared_at": 1759199084,
+          "source_url": "https://news.ycombinator.com/item?id=45421290"
+        }
+      ],
+      "source_item_id": 45421290,
+      "source_url": "https://news.ycombinator.com/item?id=45421290",
+      "author": "dantraztrev",
+      "shared_at": 1759199084,
+      "links": [
+        "https://github.com/DantrazTrev/nerd"
+      ]
+    }
+  ]
+}

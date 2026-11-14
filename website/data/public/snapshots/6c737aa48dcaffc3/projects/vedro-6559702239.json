@@ -1,0 +1,35 @@
+{
+  "id": 9986,
+  "slug": "vedro-6559702239",
+  "name": "Vedro",
+  "mentions": [
+    {
+      "name": "Vedro",
+      "description": "Vedro is a Python testing framework positioned as a pytest alternative without the magic and with clear output. Tests are plain Python: plain assert statements instead of custom matchers, no fixture magic, and failures produce readable diffs that show what went wrong. Tests can be simple functions or structured with steps that self-document in the output, and it includes a vedro.asserts helper for unittest-style assertions without special handling.",
+      "problem": "pytest's fixture magic and failure output add extra context that can obscure the actual error, making it hard to pinpoint what went wrong when tests fail.",
+      "audience": "Aims to appeal to Python developers including pytest users looking for an alternative, unittest users, and developers coming from other languages like JavaScript.",
+      "builder_usernames": [
+        "tsv_"
+      ],
+      "source_excerpt": "I'm working on Vedro, a Python testing framework as a pytest alternative without the magic and with clear output.\n\nThe main idea is that tests should just be Python: plain `assert` statements instead of custom matchers, no fixture magic, and when tests fail you get readable diffs that actually show what went wrong. Tests can be simple functions or structured with steps that self-document in the output.",
+      "evidence": [
+        {
+          "source_item_id": 45422338,
+          "source_field": "body",
+          "value": "I'm working on Vedro, a Python testing framework as a pytest alternative without the magic and with clear output.\n\nThe main idea is that tests should just be Python: plain `assert` statements instead of custom matchers, no fixture magic, and when tests fail you get readable diffs that actually show what went wrong. Tests can be simple functions or structured with steps that self-document in the output.",
+          "supports": [],
+          "author": "tsv_",
+          "shared_at": 1759211465,
+          "source_url": "https://news.ycombinator.com/item?id=45422338"
+        }
+      ],
+      "source_item_id": 45422338,
+      "source_url": "https://news.ycombinator.com/item?id=45422338",
+      "author": "tsv_",
+      "shared_at": 1759211465,
+      "links": [
+        "https://vedro.io"
+      ]
+    }
+  ]
+}

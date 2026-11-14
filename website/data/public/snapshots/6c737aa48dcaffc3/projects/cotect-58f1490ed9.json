@@ -1,0 +1,35 @@
+{
+  "id": 4106,
+  "slug": "cotect-58f1490ed9",
+  "name": "cotect",
+  "mentions": [
+    {
+      "name": "cotect",
+      "description": "Fast code inspector for agents that lets users verify agent-made changes before they end up on GitHub and quickly move around the codebase to keep its shape in their head, keeping prompts high-signal.",
+      "problem": "Hard to verify agent code changes before they reach GitHub and to stay oriented in the codebase so prompts stay high-signal.",
+      "audience": "Developers working with AI coding agents who need to verify agent-made changes before they land on GitHub.",
+      "builder_usernames": [
+        "grzracz"
+      ],
+      "source_excerpt": "Recently finished building cotect:\n\nhttps://cotect.dev\n\nIt's a fast code inspector for agents so that you can easily verify changes before they end up on GitHub and also quickly move around the codebase to keep its shape in your head (to make sure your prompts stay high-signal).",
+      "evidence": [
+        {
+          "source_item_id": 48540820,
+          "source_field": "body",
+          "value": "Recently finished building cotect:\n\nhttps://cotect.dev\n\nIt's a fast code inspector for agents so that you can easily verify changes before they end up on GitHub and also quickly move around the codebase to keep its shape in your head (to make sure your prompts stay high-signal).",
+          "supports": [],
+          "author": "grzracz",
+          "shared_at": 1781529438,
+          "source_url": "https://news.ycombinator.com/item?id=48540820"
+        }
+      ],
+      "source_item_id": 48540820,
+      "source_url": "https://news.ycombinator.com/item?id=48540820",
+      "author": "grzracz",
+      "shared_at": 1781529438,
+      "links": [
+        "https://cotect.dev"
+      ]
+    }
+  ]
+}

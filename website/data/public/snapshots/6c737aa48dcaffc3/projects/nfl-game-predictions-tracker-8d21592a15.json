@@ -1,0 +1,35 @@
+{
+  "id": 9734,
+  "slug": "nfl-game-predictions-tracker-8d21592a15",
+  "name": "NFL Game Predictions tracker",
+  "mentions": [
+    {
+      "name": "NFL Game Predictions tracker",
+      "description": "This app is a live NFL game-prediction tracker that computes ELO ratings adapted to the NFL with margin-of-victory adjustments, a home-field term, and week-to-week recency weighting, then applies post-hoc isotonic regression calibration so prediction confidence levels hold empirically. It uses Monte Carlo simulation to roll games forward for distributions of weekly win odds and season outcomes, and tracks reliability, Brier score, and log-loss. Planned extensions include a stacked ensemble blending schedule-adjusted EPA features, injury/rest/travel effects, market priors from closing lines, and weather/pace features, with separate win-probability and expected-margin models reconciled via a consistent link. It doubles as a self-teaching sandbox for the full pipeline from data ingest through simulation, calibration, and evaluation.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "bitsofgrace"
+      ],
+      "source_excerpt": "I’m building a small live NFL game-prediction tracker and writing up what I learn as I go:",
+      "evidence": [
+        {
+          "source_item_id": 45869829,
+          "source_field": "body",
+          "value": "I’m building a small live NFL game-prediction tracker and writing up what I learn as I go:",
+          "supports": [],
+          "author": "bitsofgrace",
+          "shared_at": 1762727290,
+          "source_url": "https://news.ycombinator.com/item?id=45869829"
+        }
+      ],
+      "source_item_id": 45869829,
+      "source_url": "https://news.ycombinator.com/item?id=45869829",
+      "author": "bitsofgrace",
+      "shared_at": 1762727290,
+      "links": [
+        "https://michellepellon.com/portfolio/nfl-game-predictions"
+      ]
+    }
+  ]
+}

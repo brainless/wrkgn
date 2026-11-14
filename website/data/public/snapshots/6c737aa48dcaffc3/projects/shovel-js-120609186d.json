@@ -1,0 +1,36 @@
+{
+  "id": 6852,
+  "slug": "shovel-js-120609186d",
+  "name": "Shovel.js",
+  "mentions": [
+    {
+      "name": "Shovel.js",
+      "description": "An open-source full-stack/meta server framework that implements the full Service Worker specification in Node, Bun, and Cloudflare. It leans on web standards rather than inventing new APIs for tasks like accessing the filesystem, reading cookies, and creating client-side bundles, positioning itself as a replacement for tools like Express, Fastify, Next.js, and Vite.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "bikeshaving"
+      ],
+      "source_excerpt": "I’ve just published the first public release of a new open source project Shovel.js, replacing tools like Express, Fastify, Next.js, Vite. It’s a full-stack/meta server framework which implements the full Service Worker specification but in Node, Bun, Cloudflare. It leans into using web standards to do things like accessing the filesystem, reading cookies, create client-side bundles rather than inventing new APIs.",
+      "evidence": [
+        {
+          "source_item_id": 46940286,
+          "source_field": "body",
+          "value": "I’ve just published the first public release of a new open source project Shovel.js, replacing tools like Express, Fastify, Next.js, Vite. It’s a full-stack/meta server framework which implements the full Service Worker specification but in Node, Bun, Cloudflare. It leans into using web standards to do things like accessing the filesystem, reading cookies, create client-side bundles rather than inventing new APIs.",
+          "supports": [],
+          "author": "bikeshaving",
+          "shared_at": 1770598417,
+          "source_url": "https://news.ycombinator.com/item?id=46940286"
+        }
+      ],
+      "source_item_id": 46940286,
+      "source_url": "https://news.ycombinator.com/item?id=46940286",
+      "author": "bikeshaving",
+      "shared_at": 1770598417,
+      "links": [
+        "https://github.com/bikeshaving/shovel",
+        "https://shovel.js.org/blog/introducing-shovel/"
+      ]
+    }
+  ]
+}

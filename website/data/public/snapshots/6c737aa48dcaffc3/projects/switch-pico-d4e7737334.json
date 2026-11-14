@@ -1,0 +1,35 @@
+{
+  "id": 8154,
+  "slug": "switch-pico-d4e7737334",
+  "name": "switch-pico",
+  "mentions": [
+    {
+      "name": "switch-pico",
+      "description": "A hardware/software utility for playing Nintendo Switch and Switch 2 games remotely. It emulates a Switch Pro Controller with a Raspberry Pi Pico running custom firmware, and a Python program forwards input from a remote player's SDL2-supported controller over Parsec and a USB-UART adapter to the Pico and then to the Switch. A low-latency capture card (Magewell Pro Dual HDMI) sends the Switch's video and audio to the host PC, which is shared to remote players via Parsec, with a virtual audio cable and Voicemeeter used to mix audio for everyone. Rumble is supported but motion controls are not yet, and an included accessory Python library can automate Switch controller presses, potentially useful for TAS speedruns.",
+      "problem": "Playing Switch/Switch 2 games remotely with family members (the author plays with his brothers) required emulating a Switch Pro Controller and low-latency remote input/video sharing.",
+      "audience": null,
+      "builder_usernames": [
+        "jyapayne"
+      ],
+      "source_excerpt": "I'm working on a hardware/software utility to play Switch/Switch 2 games remotely with my brothers. I found a way to emulate a Switch Pro Controller using a Raspberry Pi Pico based on several different sources (look in the README for more info).",
+      "evidence": [
+        {
+          "source_item_id": 46267050,
+          "source_field": "body",
+          "value": "I'm working on a hardware/software utility to play Switch/Switch 2 games remotely with my brothers. I found a way to emulate a Switch Pro Controller using a Raspberry Pi Pico based on several different sources (look in the README for more info).",
+          "supports": [],
+          "author": "jyapayne",
+          "shared_at": 1765747232,
+          "source_url": "https://news.ycombinator.com/item?id=46267050"
+        }
+      ],
+      "source_item_id": 46267050,
+      "source_url": "https://news.ycombinator.com/item?id=46267050",
+      "author": "jyapayne",
+      "shared_at": 1765747232,
+      "links": [
+        "https://github.com/jyapayne/switch-pico"
+      ]
+    }
+  ]
+}

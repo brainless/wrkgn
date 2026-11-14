@@ -1,0 +1,35 @@
+{
+  "id": 10792,
+  "slug": "yapper-8f8c6a3bfc",
+  "name": "Yapper",
+  "mentions": [
+    {
+      "name": "Yapper",
+      "description": "A note-taking app built with a front-end agnostic core and a TUI interface. Organization is designed to bubble up naturally from dumping information in and tagging it; tags are typed, so each tag's page renders a customized layout based on what it represents - a project tag lists relevant tasks and notes, while a person tag shows name and contact info. The author invites collaboration.",
+      "problem": "No existing note-taking software works the way the author wants.",
+      "audience": null,
+      "builder_usernames": [
+        "weakfish"
+      ],
+      "source_excerpt": "A note taking app - I know, I know, been done a billion times. But really, no software I’ve found works the way I want it to, so I’m just trying to write my own, starting with a front-end agnostic core and a TUI.\n\nIf it strikes a chord with anyone, I’d love to collaborate! The concept is centered around organization bubbling up naturally from dumping info in with tags, and “typing” your tags so that when you go to a tag’s page, the layout is customized based on what it is - a project, person, etc. A project could have all relevant tasks and notes listed, whereas a person might have name, contact info, etc.",
+      "evidence": [
+        {
+          "source_item_id": 43821301,
+          "source_field": "body",
+          "value": "A note taking app - I know, I know, been done a billion times. But really, no software I’ve found works the way I want it to, so I’m just trying to write my own, starting with a front-end agnostic core and a TUI.\n\nIf it strikes a chord with anyone, I’d love to collaborate! The concept is centered around organization bubbling up naturally from dumping info in with tags, and “typing” your tags so that when you go to a tag’s page, the layout is customized based on what it is - a project, person, etc. A project could have all relevant tasks and notes listed, whereas a person might have name, contact info, etc.",
+          "supports": [],
+          "author": "weakfish",
+          "shared_at": 1745846753,
+          "source_url": "https://news.ycombinator.com/item?id=43821301"
+        }
+      ],
+      "source_item_id": 43821301,
+      "source_url": "https://news.ycombinator.com/item?id=43821301",
+      "author": "weakfish",
+      "shared_at": 1745846753,
+      "links": [
+        "https://github.com/weakphish/yapper"
+      ]
+    }
+  ]
+}

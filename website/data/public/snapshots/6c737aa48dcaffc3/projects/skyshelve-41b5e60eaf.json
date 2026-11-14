@@ -1,0 +1,35 @@
+{
+  "id": 9451,
+  "slug": "skyshelve-41b5e60eaf",
+  "name": "skyshelve",
+  "mentions": [
+    {
+      "name": "skyshelve",
+      "description": "A Python library providing a persistent dictionary backed by S3, which the author uses to power a durable execution layer for analytics.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "siliconc0w"
+      ],
+      "source_excerpt": "https://github.com/s1liconcow/skyshelve - persistent python dictionary on S3.  Used this to create a durable execution layer to do some of the analytics for the above.",
+      "evidence": [
+        {
+          "source_item_id": 45870463,
+          "source_field": "body",
+          "value": "https://github.com/s1liconcow/skyshelve - persistent python dictionary on S3.  Used this to create a durable execution layer to do some of the analytics for the above.",
+          "supports": [],
+          "author": "siliconc0w",
+          "shared_at": 1762731779,
+          "source_url": "https://news.ycombinator.com/item?id=45870463"
+        }
+      ],
+      "source_item_id": 45870463,
+      "source_url": "https://news.ycombinator.com/item?id=45870463",
+      "author": "siliconc0w",
+      "shared_at": 1762731779,
+      "links": [
+        "https://github.com/s1liconcow/skyshelve"
+      ]
+    }
+  ]
+}

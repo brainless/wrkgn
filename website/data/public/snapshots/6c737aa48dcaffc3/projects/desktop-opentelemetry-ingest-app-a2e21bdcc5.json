@@ -1,0 +1,33 @@
+{
+  "id": 6594,
+  "slug": "desktop-opentelemetry-ingest-app-a2e21bdcc5",
+  "name": "Desktop OpenTelemetry Ingest App",
+  "mentions": [
+    {
+      "name": "Desktop OpenTelemetry Ingest App",
+      "description": "This simple desktop app ingests OpenTelemetry data to support other projects, so no separate backend service needs to be set up just for telemetry collection.",
+      "problem": "Avoids the overhead of setting up a separate service just to ingest OpenTelemetry data.",
+      "audience": null,
+      "builder_usernames": [
+        "creehappus"
+      ],
+      "source_excerpt": "Recently, a simple desktop app for ingesting opentelemetry to help with other projects. This way, I dont need to set up another service just for that.",
+      "evidence": [
+        {
+          "source_item_id": 47310658,
+          "source_field": "body",
+          "value": "Recently, a simple desktop app for ingesting opentelemetry to help with other projects. This way, I dont need to set up another service just for that.",
+          "supports": [],
+          "author": "creehappus",
+          "shared_at": 1773071428,
+          "source_url": "https://news.ycombinator.com/item?id=47310658"
+        }
+      ],
+      "source_item_id": 47310658,
+      "source_url": "https://news.ycombinator.com/item?id=47310658",
+      "author": "creehappus",
+      "shared_at": 1773071428,
+      "links": []
+    }
+  ]
+}

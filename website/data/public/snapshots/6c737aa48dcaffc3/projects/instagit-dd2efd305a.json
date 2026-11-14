@@ -1,0 +1,35 @@
+{
+  "id": 6710,
+  "slug": "instagit-dd2efd305a",
+  "name": "Instagit",
+  "mentions": [
+    {
+      "name": "Instagit",
+      "description": "An MCP server that lets coding agents understand any GitHub repository in depth by scanning its source code to answer specific questions, including specific branches or release tags for debugging particular versions, so agents get library integrations right on the first try. Works with Claude Code, Codex, Cursor, OpenClaw and similar tools; no API key or account is needed to try it.",
+      "problem": "Engineers shipping AI-written code can build quickly but then spend hours debugging because the coding agent doesn't know how the libraries it calls actually work — docs are stale, StackOverflow is dead, and training data is outdated.",
+      "audience": "Engineers and developers using AI coding agents like Claude Code, Codex, Cursor, and OpenClaw",
+      "builder_usernames": [
+        "instalabsai"
+      ],
+      "source_excerpt": "So I built Instagit, an MCP server that lets your coding agent understand any GitHub repo in depth so it can get it right on the first try. Works with Claude Code, Codex, Cursor, OpenClaw, etc.",
+      "evidence": [
+        {
+          "source_item_id": 46944276,
+          "source_field": "body",
+          "value": "So I built Instagit, an MCP server that lets your coding agent understand any GitHub repo in depth so it can get it right on the first try. Works with Claude Code, Codex, Cursor, OpenClaw, etc.",
+          "supports": [],
+          "author": "instalabsai",
+          "shared_at": 1770638226,
+          "source_url": "https://news.ycombinator.com/item?id=46944276"
+        }
+      ],
+      "source_item_id": 46944276,
+      "source_url": "https://news.ycombinator.com/item?id=46944276",
+      "author": "instalabsai",
+      "shared_at": 1770638226,
+      "links": [
+        "https://instagit.com"
+      ]
+    }
+  ]
+}

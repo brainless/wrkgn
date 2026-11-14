@@ -1,0 +1,35 @@
+{
+  "id": 8949,
+  "slug": "keypears-dfcf49e235",
+  "name": "KeyPears",
+  "mentions": [
+    {
+      "name": "KeyPears",
+      "description": "KeyPears is a password manager with support for decentralized Diffie-Hellman key exchange. Users have exposed public keys (e.g., alice@keypears.com and bob@example.com), enabling end-to-end encrypted communications for sharing secrets such as environment variables between companies without requiring both companies to use the same password management service provider. The network architecture is modeled after email, and it is still a work in progress.",
+      "problem": "Company-to-company secret sharing (e.g., environment variables) normally requires that both companies use the same common service provider for password management.",
+      "audience": null,
+      "builder_usernames": [
+        "ryanxcharles"
+      ],
+      "source_excerpt": "I'm creating KeyPears, a password manager with support for decentralized Diffie-Hellman key exchange.\n\nhttps://keypears.com",
+      "evidence": [
+        {
+          "source_item_id": 46119799,
+          "source_field": "body",
+          "value": "I'm creating KeyPears, a password manager with support for decentralized Diffie-Hellman key exchange.\n\nhttps://keypears.com",
+          "supports": [],
+          "author": "ryanxcharles",
+          "shared_at": 1764671790,
+          "source_url": "https://news.ycombinator.com/item?id=46119799"
+        }
+      ],
+      "source_item_id": 46119799,
+      "source_url": "https://news.ycombinator.com/item?id=46119799",
+      "author": "ryanxcharles",
+      "shared_at": 1764671790,
+      "links": [
+        "https://keypears.com"
+      ]
+    }
+  ]
+}

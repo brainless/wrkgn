@@ -1,0 +1,36 @@
+{
+  "id": 6887,
+  "slug": "forge-bc05eacd65",
+  "name": "Forge",
+  "mentions": [
+    {
+      "name": "Forge",
+      "description": "Forge is an orchestration layer that coordinates multiple AI coding agents via MCP. It ships as a single ~3 MB Rust binary with zero runtime dependencies that runs as an MCP server over stdio, sitting between AI coding tools and the codebase so any MCP-compatible AI tool can call it. MIT licensed, with a whitepaper describing the full architecture.",
+      "problem": "Coordinating multiple AI coding agents working against a shared codebase",
+      "audience": "Developers using multiple AI coding agents on their codebases",
+      "builder_usernames": [
+        "vipdestiny"
+      ],
+      "source_excerpt": "Forge – A 3 MB Rust binary that coordinates multiple AI coding agents via MCP\nhttps://github.com/nxtg-ai/forge-orchestrator\n\nForge is an orchestration layer that sits between AI coding tools and your codebase. It's a single Rust binary (~3 MB, zero runtime deps) that runs as an MCP server over stdio. Any MCP-compatible AI tool can call it.",
+      "evidence": [
+        {
+          "source_item_id": 46943009,
+          "source_field": "body",
+          "value": "Forge – A 3 MB Rust binary that coordinates multiple AI coding agents via MCP\nhttps://github.com/nxtg-ai/forge-orchestrator\n\nForge is an orchestration layer that sits between AI coding tools and your codebase. It's a single Rust binary (~3 MB, zero runtime deps) that runs as an MCP server over stdio. Any MCP-compatible AI tool can call it.",
+          "supports": [],
+          "author": "vipdestiny",
+          "shared_at": 1770626087,
+          "source_url": "https://news.ycombinator.com/item?id=46943009"
+        }
+      ],
+      "source_item_id": 46943009,
+      "source_url": "https://news.ycombinator.com/item?id=46943009",
+      "author": "vipdestiny",
+      "shared_at": 1770626087,
+      "links": [
+        "https://github.com/nxtg-ai/forge-orchestrator",
+        "https://nxtg.ai/insights/forge-whitepaper"
+      ]
+    }
+  ]
+}

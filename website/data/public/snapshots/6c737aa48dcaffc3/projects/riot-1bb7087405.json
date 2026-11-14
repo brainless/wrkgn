@@ -1,0 +1,36 @@
+{
+  "id": 4251,
+  "slug": "riot-1bb7087405",
+  "name": "riot",
+  "mentions": [
+    {
+      "name": "riot",
+      "description": "An interactive solo and multiplayer experience for replaying parliamentary and council plenary sessions, built by scraping public records. It lets users relive sessions such as the last few years of the US Congress and the Reichstag during Hitler's takeover, with the goal of getting citizens' voices into spaces of power.",
+      "problem": "Citizens' voices are missing from spaces of power like councils and parliaments.",
+      "audience": "Citizens wanting their voices heard in spaces of power such as councils and parliaments",
+      "builder_usernames": [
+        "andratwiro"
+      ],
+      "source_excerpt": "I'm working on trying to get citizens' voices into spaces of power (councils, parliaments...). So far I've been experimenting with scrapping public records and building a solo (and multiplayer) experience for replaying plenary sessions.",
+      "evidence": [
+        {
+          "source_item_id": 48531680,
+          "source_field": "body",
+          "value": "I'm working on trying to get citizens' voices into spaces of power (councils, parliaments...). So far I've been experimenting with scrapping public records and building a solo (and multiplayer) experience for replaying plenary sessions.",
+          "supports": [],
+          "author": "andratwiro",
+          "shared_at": 1781465509,
+          "source_url": "https://news.ycombinator.com/item?id=48531680"
+        }
+      ],
+      "source_item_id": 48531680,
+      "source_url": "https://news.ycombinator.com/item?id=48531680",
+      "author": "andratwiro",
+      "shared_at": 1781465509,
+      "links": [
+        "https://andratwiro.github.io/riot/?city=congress&solo=1",
+        "https://andratwiro.github.io/riot/?city=weimar&solo=1"
+      ]
+    }
+  ]
+}

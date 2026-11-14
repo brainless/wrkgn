@@ -1,0 +1,33 @@
+{
+  "id": 5104,
+  "slug": "org-mode-latin-transcription-study-minor-mode-a2ba34233b",
+  "name": "Org-mode Latin transcription study minor mode",
+  "mentions": [
+    {
+      "name": "Org-mode Latin transcription study minor mode",
+      "description": "This Emacs Lisp minor mode loads transcribed and analyzed Latin data from a BaseX XML database into an Org-mode transcription buffer for reading and study, storing forced-alignment and linguistic analysis data in hidden text properties so audio of any given Latin word, sentence, or paragraph can be played back.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "spudlyo"
+      ],
+      "source_excerpt": "I'll then demonstrate some Emacs Lisp code which pulls it into an Org-mode based transcription buffer and minor-mode for reading and study, where I can play audio of any given Latin word, sentence, or paragraph, thanks to the forced-alignment and linguistic analysis data being stored in hidden text properties when the data was fetched from the database.",
+      "evidence": [
+        {
+          "source_item_id": 47743578,
+          "source_field": "body",
+          "value": "I'll then demonstrate some Emacs Lisp code which pulls it into an Org-mode based transcription buffer and minor-mode for reading and study, where I can play audio of any given Latin word, sentence, or paragraph, thanks to the forced-alignment and linguistic analysis data being stored in hidden text properties when the data was fetched from the database.",
+          "supports": [],
+          "author": "spudlyo",
+          "shared_at": 1776022770,
+          "source_url": "https://news.ycombinator.com/item?id=47743578"
+        }
+      ],
+      "source_item_id": 47743578,
+      "source_url": "https://news.ycombinator.com/item?id=47743578",
+      "author": "spudlyo",
+      "shared_at": 1776022770,
+      "links": []
+    }
+  ]
+}

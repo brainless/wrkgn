@@ -1,0 +1,35 @@
+{
+  "id": 3653,
+  "slug": "competitive-pok-mon-ai-metamon-fork-6ca129d396",
+  "name": "Competitive Pokémon AI (metamon fork)",
+  "mentions": [
+    {
+      "name": "Competitive Pokémon AI (metamon fork)",
+      "description": "Trains AI agents for 1v1 competitive Pokémon battles on Pokémon Showdown, using imitation learning on player actions and exploring reward-free models and JEPA-style world models for improved planning. The goal is to match or exceed the prior 142M-parameter Kakuna baseline model within a limited training budget, building on plugins from the competitive Pokémon NeurIPS track.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "soohamr"
+      ],
+      "source_excerpt": "I thought that applying AI on 1v1 competitive pokemon would be a fun and educational experience on POMDPs and trying out reward free models on a problem that would be classically treated as a RL problem.",
+      "evidence": [
+        {
+          "source_item_id": 48532466,
+          "source_field": "body",
+          "value": "I thought that applying AI on 1v1 competitive pokemon would be a fun and educational experience on POMDPs and trying out reward free models on a problem that would be classically treated as a RL problem.",
+          "supports": [],
+          "author": "soohamr",
+          "shared_at": 1781469938,
+          "source_url": "https://news.ycombinator.com/item?id=48532466"
+        }
+      ],
+      "source_item_id": 48532466,
+      "source_url": "https://news.ycombinator.com/item?id=48532466",
+      "author": "soohamr",
+      "shared_at": 1781469938,
+      "links": [
+        "https://github.com/sooham/metamon"
+      ]
+    }
+  ]
+}

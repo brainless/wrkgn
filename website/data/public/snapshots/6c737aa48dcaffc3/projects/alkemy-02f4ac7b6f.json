@@ -1,0 +1,35 @@
+{
+  "id": 8750,
+  "slug": "alkemy-02f4ac7b6f",
+  "name": "Alkemy",
+  "mentions": [
+    {
+      "name": "Alkemy",
+      "description": "A semantic catalog of consulting deliverables that indexes slides from past projects so consultants can find and reuse them in new work. An ingestion layer breaks apart projects, decks, and slides into relationships such as frameworks and visual archetypes, storing them in a graph database plus a vector database to support semantic queries like \"find me work we've done on geology research that might be relevant to industrial mining\".",
+      "problem": "Consultants cannot easily search among slides from different past projects, making it hard to reuse previous slides effectively in new projects.",
+      "audience": "Consultants who want to search and reuse slides from their past project deliverables in new work.",
+      "builder_usernames": [
+        "niteshpant"
+      ],
+      "source_excerpt": "a catalog for all deliverables ever made by consultants so that they can search semantically among slides from differnt projects and more effectively reuse their previous slides in new projects",
+      "evidence": [
+        {
+          "source_item_id": 46282524,
+          "source_field": "body",
+          "value": "a catalog for all deliverables ever made by consultants so that they can search semantically among slides from differnt projects and more effectively reuse their previous slides in new projects",
+          "supports": [],
+          "author": "niteshpant",
+          "shared_at": 1765841612,
+          "source_url": "https://news.ycombinator.com/item?id=46282524"
+        }
+      ],
+      "source_item_id": 46282524,
+      "source_url": "https://news.ycombinator.com/item?id=46282524",
+      "author": "niteshpant",
+      "shared_at": 1765841612,
+      "links": [
+        "https://alkemy.devdashlabs.com"
+      ]
+    }
+  ]
+}

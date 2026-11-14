@@ -1,0 +1,35 @@
+{
+  "id": 6288,
+  "slug": "leggen-b8700518bd",
+  "name": "Leggen",
+  "mentions": [
+    {
+      "name": "Leggen",
+      "description": "A self-hosted personal banking account management system that syncs bank account transactions and balances into a SQLite database, exposes a PWA interface, and sends Telegram or Discord alerts when transactions match filters. It connects to bank accounts via Enable Banking.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "elisiariocouto"
+      ],
+      "source_excerpt": "I’ve been working on the last months on Leggen (https://github.com/elisiariocouto/leggen), a self hosted personal banking account management system. It started out as a CLI that syncs your bank account transactions and balances, saves them in a sqlite database and can alert you via Telegram or Discord if a transaction matches a filter. It is now a PWA and uses Enable Banking to connect to the bank accounts",
+      "evidence": [
+        {
+          "source_item_id": 47303659,
+          "source_field": "body",
+          "value": "I’ve been working on the last months on Leggen (https://github.com/elisiariocouto/leggen), a self hosted personal banking account management system. It started out as a CLI that syncs your bank account transactions and balances, saves them in a sqlite database and can alert you via Telegram or Discord if a transaction matches a filter. It is now a PWA and uses Enable Banking to connect to the bank accounts",
+          "supports": [],
+          "author": "elisiariocouto",
+          "shared_at": 1773018958,
+          "source_url": "https://news.ycombinator.com/item?id=47303659"
+        }
+      ],
+      "source_item_id": 47303659,
+      "source_url": "https://news.ycombinator.com/item?id=47303659",
+      "author": "elisiariocouto",
+      "shared_at": 1773018958,
+      "links": [
+        "https://github.com/elisiariocouto/leggen"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 8146,
+  "slug": "rust-toy-eigenvalue-solver-with-gershgorin-circle-visualization-9adefafab0",
+  "name": "Rust toy eigenvalue solver with Gershgorin Circle visualization",
+  "mentions": [
+    {
+      "name": "Rust toy eigenvalue solver with Gershgorin Circle visualization",
+      "description": "A toy eigenvalue solver written in Rust that implements the QR algorithm, accompanied by an interactive visualization of the Gershgorin Circle Theorem for the author's blog. To avoid JavaScript, the Rust algorithm is compiled to WebAssembly so it runs natively in the browser.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "subset"
+      ],
+      "source_excerpt": "I'm writing a toy eigenvalue solver in Rust using the QR algorithm.\nI didn't intend to, but I recently discovered the Gershgorin Circle Theorem and thought it'd be neat to create an interactive visualisation for my [blog](https://abstractnonsense.xyz).",
+      "evidence": [
+        {
+          "source_item_id": 46271627,
+          "source_field": "body",
+          "value": "I'm writing a toy eigenvalue solver in Rust using the QR algorithm.\nI didn't intend to, but I recently discovered the Gershgorin Circle Theorem and thought it'd be neat to create an interactive visualisation for my [blog](https://abstractnonsense.xyz).",
+          "supports": [],
+          "author": "subset",
+          "shared_at": 1765785910,
+          "source_url": "https://news.ycombinator.com/item?id=46271627"
+        }
+      ],
+      "source_item_id": 46271627,
+      "source_url": "https://news.ycombinator.com/item?id=46271627",
+      "author": "subset",
+      "shared_at": 1765785910,
+      "links": [
+        "https://abstractnonsense.xyz"
+      ]
+    }
+  ]
+}

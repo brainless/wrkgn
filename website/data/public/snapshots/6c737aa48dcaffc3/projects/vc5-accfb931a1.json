@@ -1,0 +1,35 @@
+{
+  "id": 9008,
+  "slug": "vc5-accfb931a1",
+  "name": "vc5",
+  "mentions": [
+    {
+      "name": "vc5",
+      "description": "This project is a load balancer that sits in front of web servers and front-end proxies, speaking BGP directly to routers to advertise healthy services. It scales from small VMs handling a few gigabits/s of traffic up to physical servers serving tens of gigabits/s.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "vc5"
+      ],
+      "source_excerpt": "If you get the web hosting part going and need to stick a load balancer in front of web servers/front end proxies, may I suggest that you give my project[1] a go? Speaks BGP directly to your routers to advertise healthy services and scales from small VMs (for services that are only a few gigabits/s) to physical servers if you need to serve tens of gigabits/s traffic.",
+      "evidence": [
+        {
+          "source_item_id": 45877229,
+          "source_field": "body",
+          "value": "If you get the web hosting part going and need to stick a load balancer in front of web servers/front end proxies, may I suggest that you give my project[1] a go? Speaks BGP directly to your routers to advertise healthy services and scales from small VMs (for services that are only a few gigabits/s) to physical servers if you need to serve tens of gigabits/s traffic.",
+          "supports": [],
+          "author": "vc5",
+          "shared_at": 1762790627,
+          "source_url": "https://news.ycombinator.com/item?id=45877229"
+        }
+      ],
+      "source_item_id": 45877229,
+      "source_url": "https://news.ycombinator.com/item?id=45877229",
+      "author": "vc5",
+      "shared_at": 1762790627,
+      "links": [
+        "https://github.com/davidcoles/vc5"
+      ]
+    }
+  ]
+}

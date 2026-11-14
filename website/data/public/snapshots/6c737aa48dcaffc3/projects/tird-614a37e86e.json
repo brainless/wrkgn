@@ -1,0 +1,35 @@
+{
+  "id": 3736,
+  "slug": "tird-614a37e86e",
+  "name": "tird",
+  "mentions": [
+    {
+      "name": "tird",
+      "description": "tird (\"this is random data\") is a steganographic storage and file encryption tool. It encrypts file contents and comments with keyfiles and passphrases into padded uniform random blobs (PURBs) that look like random data with randomized size, reducing metadata leakage from file format and length. It creates headerless steganographic hidden storage (tirdFS) inside container files and block devices, where the user specifies data locations and any random-looking region can serve as a container. It also supports time-lock encryption to prevent fast access to decrypted data, and includes utilities to create random-data files for containers or keyfiles and to overwrite files or block devices with random data.",
+      "problem": "Metadata leakage: file format and length of encrypted data can leak information, so tird produces random-looking blobs with randomized size to reduce this leakage.",
+      "audience": null,
+      "builder_usernames": [
+        "hakavlad"
+      ],
+      "source_excerpt": "I'm working on steganographic storage and file encryption tool.\n\ntird /tɪrd/ (an acronym for \"this is random data\") is a steganographic storage and file encryption tool.",
+      "evidence": [
+        {
+          "source_item_id": 48539760,
+          "source_field": "body",
+          "value": "I'm working on steganographic storage and file encryption tool.\n\ntird /tɪrd/ (an acronym for \"this is random data\") is a steganographic storage and file encryption tool.",
+          "supports": [],
+          "author": "hakavlad",
+          "shared_at": 1781523004,
+          "source_url": "https://news.ycombinator.com/item?id=48539760"
+        }
+      ],
+      "source_item_id": 48539760,
+      "source_url": "https://news.ycombinator.com/item?id=48539760",
+      "author": "hakavlad",
+      "shared_at": 1781523004,
+      "links": [
+        "https://github.com/hakavlad/tird"
+      ]
+    }
+  ]
+}

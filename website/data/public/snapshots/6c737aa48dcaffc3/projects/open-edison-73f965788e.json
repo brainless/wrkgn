@@ -1,0 +1,35 @@
+{
+  "id": 9932,
+  "slug": "open-edison-73f965788e",
+  "name": "Open Edison",
+  "mentions": [
+    {
+      "name": "Open Edison",
+      "description": "A firewall for LLM clients that blocks the 'lethal trifecta' of jailbreak-vulnerable tool call combinations. Users register or import MCP (Model Context Protocol) servers, and the firewall classifies each tool via structured LLM calls into action types: reading private data, performing an activity on the user's behalf, and reading public data. The gateway runs as an MCP server in the user's LLM client, tracks tool calls per session, and blocks any call that would raise all three action types in one session, notifying the user via a UI where they can review offending calls and either block the latest call or add the triggering set to an allowlist. A desktop app with a streamlined UI is planned as the next step.",
+      "problem": "LLM clients are vulnerable to jailbreak attacks when a single session combines reading private data, reading poisoned public data containing malicious instructions, and performing actions on the user's behalf (e.g. personal data being leaked).",
+      "audience": null,
+      "builder_usernames": [
+        "76SlashDolphin"
+      ],
+      "source_excerpt": "Me and a few friends are working on a firewall for LLM clients that blocks the lethal trifecta: https://github.com/Edison-Watch/open-edison",
+      "evidence": [
+        {
+          "source_item_id": 45423898,
+          "source_field": "body",
+          "value": "Me and a few friends are working on a firewall for LLM clients that blocks the lethal trifecta: https://github.com/Edison-Watch/open-edison",
+          "supports": [],
+          "author": "76SlashDolphin",
+          "shared_at": 1759228405,
+          "source_url": "https://news.ycombinator.com/item?id=45423898"
+        }
+      ],
+      "source_item_id": 45423898,
+      "source_url": "https://news.ycombinator.com/item?id=45423898",
+      "author": "76SlashDolphin",
+      "shared_at": 1759228405,
+      "links": [
+        "https://github.com/Edison-Watch/open-edison"
+      ]
+    }
+  ]
+}

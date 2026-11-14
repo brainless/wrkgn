@@ -1,0 +1,35 @@
+{
+  "id": 7812,
+  "slug": "double-tap-dtap-d8d1d79b45",
+  "name": "Double TAP (DTAP)",
+  "mentions": [
+    {
+      "name": "Double TAP (DTAP)",
+      "description": "A lightweight black box testing framework where users write tests as text rules that check output from tested \"boxes\". Boxes can be anything from an HTTP client or web server to syslog messages, allowing any system to be tested by dropping in rules that describe its behavior in a black box manner.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "melezhik"
+      ],
+      "source_excerpt": "Double TAP is lightweight testing framework where users write black box tests as rules checking output from tested \"boxes\". Boxes could be anything from http client, web server to messages in syslog. This universal approach allows to test anything with just dropping text rules describing system behavior in black box manner.",
+      "evidence": [
+        {
+          "source_item_id": 46579051,
+          "source_field": "body",
+          "value": "Double TAP is lightweight testing framework where users write black box tests as rules checking output from tested \"boxes\". Boxes could be anything from http client, web server to messages in syslog. This universal approach allows to test anything with just dropping text rules describing system behavior in black box manner.",
+          "supports": [],
+          "author": "melezhik",
+          "shared_at": 1768160066,
+          "source_url": "https://news.ycombinator.com/item?id=46579051"
+        }
+      ],
+      "source_item_id": 46579051,
+      "source_url": "https://news.ycombinator.com/item?id=46579051",
+      "author": "melezhik",
+      "shared_at": 1768160066,
+      "links": [
+        "http://doubletap.sparrowhub.io/"
+      ]
+    }
+  ]
+}

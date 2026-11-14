@@ -1,0 +1,35 @@
+{
+  "id": 6059,
+  "slug": "source-monitor-2a3c9cea48",
+  "name": "source_monitor",
+  "mentions": [
+    {
+      "name": "source_monitor",
+      "description": "An open-source Rails engine that handles RSS feed ingestion for the engineered.at site; a new version with enhancements is being prepared for publication.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dchuk"
+      ],
+      "source_excerpt": "While the main app is closed sourced, the rails engine that handles all the rss feeds is open sourced here: https://github.com/dchuk/source_monitor",
+      "evidence": [
+        {
+          "source_item_id": 47304235,
+          "source_field": "body",
+          "value": "While the main app is closed sourced, the rails engine that handles all the rss feeds is open sourced here: https://github.com/dchuk/source_monitor",
+          "supports": [],
+          "author": "dchuk",
+          "shared_at": 1773023712,
+          "source_url": "https://news.ycombinator.com/item?id=47304235"
+        }
+      ],
+      "source_item_id": 47304235,
+      "source_url": "https://news.ycombinator.com/item?id=47304235",
+      "author": "dchuk",
+      "shared_at": 1773023712,
+      "links": [
+        "https://github.com/dchuk/source_monitor"
+      ]
+    }
+  ]
+}

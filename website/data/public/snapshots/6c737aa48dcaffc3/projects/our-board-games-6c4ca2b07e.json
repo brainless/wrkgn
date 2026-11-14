@@ -1,0 +1,35 @@
+{
+  "id": 3918,
+  "slug": "our-board-games-6c4ca2b07e",
+  "name": "Our Board Games",
+  "mentions": [
+    {
+      "name": "Our Board Games",
+      "description": "A web app for managing board game nights: groups get a collective library pooled across members' collections to plan what to play. Users photograph their games shelf, the app identifies the games, looks them up via the BoardGameGeek API, and adds them to the library. Free to use.",
+      "problem": "Planning what to play when is a pain for groups whose board games are spread across members' collections.",
+      "audience": "Groups of board game players managing collective game libraries",
+      "builder_usernames": [
+        "benjamta"
+      ],
+      "source_excerpt": "Started as a spreadsheet, moved to notion database, now a web app.  Idea is groups have collective libraries across members, and planning what to play when is a pain.\n\nTried to make it easy to get going - take photo of your games shelf and we identify the games there, look them up via the BoardGameGeek API and add the to you library, then you can the pool with others.\n\nIt's free if you want to give it a go:\n\nhttps://ourboardgames.com",
+      "evidence": [
+        {
+          "source_item_id": 48539484,
+          "source_field": "body",
+          "value": "Started as a spreadsheet, moved to notion database, now a web app.  Idea is groups have collective libraries across members, and planning what to play when is a pain.\n\nTried to make it easy to get going - take photo of your games shelf and we identify the games there, look them up via the BoardGameGeek API and add the to you library, then you can the pool with others.\n\nIt's free if you want to give it a go:\n\nhttps://ourboardgames.com",
+          "supports": [],
+          "author": "benjamta",
+          "shared_at": 1781521146,
+          "source_url": "https://news.ycombinator.com/item?id=48539484"
+        }
+      ],
+      "source_item_id": 48539484,
+      "source_url": "https://news.ycombinator.com/item?id=48539484",
+      "author": "benjamta",
+      "shared_at": 1781521146,
+      "links": [
+        "https://ourboardgames.com"
+      ]
+    }
+  ]
+}

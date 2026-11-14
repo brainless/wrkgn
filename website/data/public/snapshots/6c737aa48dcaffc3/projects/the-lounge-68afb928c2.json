@@ -1,0 +1,35 @@
+{
+  "id": 5151,
+  "slug": "the-lounge-68afb928c2",
+  "name": "The Lounge",
+  "mentions": [
+    {
+      "name": "The Lounge",
+      "description": "A self-hostable, web-based IRC client. The project is being modernized in two ways: migrating to new JavaScript tooling (webpack to Vite, Node's built-in SQLite) and adopting IRCv3 features like emoji reactions, threaded replies, and typing indicators, with an active community IRC channel and an easy contribution path.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "MaxLeiter"
+      ],
+      "source_excerpt": "I’ve been working on modernizing https://thelounge.chat, a self-hostable web based IRC client",
+      "evidence": [
+        {
+          "source_item_id": 47745692,
+          "source_field": "body",
+          "value": "I’ve been working on modernizing https://thelounge.chat, a self-hostable web based IRC client",
+          "supports": [],
+          "author": "MaxLeiter",
+          "shared_at": 1776037257,
+          "source_url": "https://news.ycombinator.com/item?id=47745692"
+        }
+      ],
+      "source_item_id": 47745692,
+      "source_url": "https://news.ycombinator.com/item?id=47745692",
+      "author": "MaxLeiter",
+      "shared_at": 1776037257,
+      "links": [
+        "https://thelounge.chat"
+      ]
+    }
+  ]
+}

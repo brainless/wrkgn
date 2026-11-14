@@ -1,0 +1,35 @@
+{
+  "id": 4428,
+  "slug": "axionsys-29dcbb0c0a",
+  "name": "AxionSys",
+  "mentions": [
+    {
+      "name": "AxionSys",
+      "description": "A local-first AI debugging tool built for the AMD AI Hackathon, powered by Qwen 3.5:9b. Given a repository and an error log, it finds the root cause, suggests a fix in easy-to-apply diff format, and shows the bug propagation along with the files it went through.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "umairyousif2280"
+      ],
+      "source_excerpt": "At it's core, it's a local first debugging tool thats powered by Qwen 3.5:9b.\n\nYou give it a repo and an error log and It finds the root cause, suggests a fix, shows the bug propagation and the files it went through. The fix it suggests is in a diff format so its very easy to apply the fix.",
+      "evidence": [
+        {
+          "source_item_id": 48099552,
+          "source_field": "body",
+          "value": "At it's core, it's a local first debugging tool thats powered by Qwen 3.5:9b.\n\nYou give it a repo and an error log and It finds the root cause, suggests a fix, shows the bug propagation and the files it went through. The fix it suggests is in a diff format so its very easy to apply the fix.",
+          "supports": [],
+          "author": "umairyousif2280",
+          "shared_at": 1778527676,
+          "source_url": "https://news.ycombinator.com/item?id=48099552"
+        }
+      ],
+      "source_item_id": 48099552,
+      "source_url": "https://news.ycombinator.com/item?id=48099552",
+      "author": "umairyousif2280",
+      "shared_at": 1778527676,
+      "links": [
+        "https://github.com/umairyousif239/AxionSys"
+      ]
+    }
+  ]
+}

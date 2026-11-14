@@ -1,0 +1,36 @@
+{
+  "id": 10869,
+  "slug": "talo-ab401197e7",
+  "name": "Talo",
+  "mentions": [
+    {
+      "name": "Talo",
+      "description": "Talo is an open source game backend for Unity and Godot that makes it easy to add systems that traditionally need extra non-gameplay build time, such as authentication, player analytics and game stats. It can be dropped into a game or used directly via the API, and is designed for easy self-hosting, with the Unity package/Godot plugin able to point at your own Talo instance.",
+      "problem": "Game systems like authentication, player analytics and game stats traditionally require extra non-gameplay build time.",
+      "audience": null,
+      "builder_usernames": [
+        "tudorrr"
+      ],
+      "source_excerpt": "I'm building an open source game backend for Unity and Godot: https://trytalo.com. GitHub: https://github.com/talodev.\n\nTalo makes it easy to add systems that traditionally need extra non-gameplay build time like authentication, player analytics and game stats.\n\nRight now you can drop Talo into your game or use the API directly. Importantly, I’ve made Talo easy to self-host and you can point the Unity package/Godot plugin to your own Talo instance.",
+      "evidence": [
+        {
+          "source_item_id": 43816875,
+          "source_field": "body",
+          "value": "I'm building an open source game backend for Unity and Godot: https://trytalo.com. GitHub: https://github.com/talodev.\n\nTalo makes it easy to add systems that traditionally need extra non-gameplay build time like authentication, player analytics and game stats.\n\nRight now you can drop Talo into your game or use the API directly. Importantly, I’ve made Talo easy to self-host and you can point the Unity package/Godot plugin to your own Talo instance.",
+          "supports": [],
+          "author": "tudorrr",
+          "shared_at": 1745806299,
+          "source_url": "https://news.ycombinator.com/item?id=43816875"
+        }
+      ],
+      "source_item_id": 43816875,
+      "source_url": "https://news.ycombinator.com/item?id=43816875",
+      "author": "tudorrr",
+      "shared_at": 1745806299,
+      "links": [
+        "https://github.com/talodev",
+        "https://trytalo.com"
+      ]
+    }
+  ]
+}

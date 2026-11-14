@@ -1,0 +1,35 @@
+{
+  "id": 9929,
+  "slug": "asklibrary-3ebdf5d2bd",
+  "name": "AskLibrary",
+  "mentions": [
+    {
+      "name": "AskLibrary",
+      "description": "This RAG app is purpose-built for non-fiction books, with the ingestion pipeline, answer generation pipelines, and other features all designed specifically for that use case instead of handling every possible document type.",
+      "problem": "General-purpose RAG apps that try to work with every document type can't deliver a great experience for any one use case, so this app is tailored specifically to non-fiction books.",
+      "audience": null,
+      "builder_usernames": [
+        "asaddhamani"
+      ],
+      "source_excerpt": "Another project is a RAG app that's built specifically for books. No \"we work with your receipts, and legal documents, instruction manuals, product documentation, lecture transcripts, your dogs novel, the script for a play and everything else possible\". I wanted something tailored for books, specifically, non-fiction books. When you try to work everywhere, you can not deliver an amazing experience for any one specific use case. AskLibrary is tailored for non-fiction books, so everything from the answer generation pipelines, to the ingestion pipeline, and various other features are all designed for this specific use case. https://www.asklibrary.ai",
+      "evidence": [
+        {
+          "source_item_id": 45423500,
+          "source_field": "body",
+          "value": "Another project is a RAG app that's built specifically for books. No \"we work with your receipts, and legal documents, instruction manuals, product documentation, lecture transcripts, your dogs novel, the script for a play and everything else possible\". I wanted something tailored for books, specifically, non-fiction books. When you try to work everywhere, you can not deliver an amazing experience for any one specific use case. AskLibrary is tailored for non-fiction books, so everything from the answer generation pipelines, to the ingestion pipeline, and various other features are all designed for this specific use case. https://www.asklibrary.ai",
+          "supports": [],
+          "author": "asaddhamani",
+          "shared_at": 1759223659,
+          "source_url": "https://news.ycombinator.com/item?id=45423500"
+        }
+      ],
+      "source_item_id": 45423500,
+      "source_url": "https://news.ycombinator.com/item?id=45423500",
+      "author": "asaddhamani",
+      "shared_at": 1759223659,
+      "links": [
+        "https://www.asklibrary.ai"
+      ]
+    }
+  ]
+}

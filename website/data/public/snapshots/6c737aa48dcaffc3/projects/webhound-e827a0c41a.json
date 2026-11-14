@@ -1,0 +1,35 @@
+{
+  "id": 4674,
+  "slug": "webhound-e827a0c41a",
+  "name": "Webhound",
+  "mentions": [
+    {
+      "name": "Webhound",
+      "description": "This tool performs budget-controlled, long-running deep research: users set a budget and Webhound spends that amount on compute/LLM tokens to research a prompt, with built-in verification cycles, optional added verification budget, and every claim cited with evidence and a direct link to the tool calls that produced it. It is aimed at actual researchers.",
+      "problem": null,
+      "audience": "actual researchers",
+      "builder_usernames": [
+        "mfkhalil"
+      ],
+      "source_excerpt": "We're working on Webhound - budget controlled long-running deep research. You set a budget and Webhound will use that much in compute/LLM tokens to research your prompt, with built in verification cycles and optional added verification budget. Every claim is cited with evidence and a direct link to the tool calls that produced the claim",
+      "evidence": [
+        {
+          "source_item_id": 48088385,
+          "source_field": "body",
+          "value": "We're working on Webhound - budget controlled long-running deep research. You set a budget and Webhound will use that much in compute/LLM tokens to research your prompt, with built in verification cycles and optional added verification budget. Every claim is cited with evidence and a direct link to the tool calls that produced the claim",
+          "supports": [],
+          "author": "mfkhalil",
+          "shared_at": 1778449297,
+          "source_url": "https://news.ycombinator.com/item?id=48088385"
+        }
+      ],
+      "source_item_id": 48088385,
+      "source_url": "https://news.ycombinator.com/item?id=48088385",
+      "author": "mfkhalil",
+      "shared_at": 1778449297,
+      "links": [
+        "https://webhound.ai"
+      ]
+    }
+  ]
+}

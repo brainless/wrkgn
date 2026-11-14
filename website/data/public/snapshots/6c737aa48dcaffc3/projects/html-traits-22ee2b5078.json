@@ -1,0 +1,35 @@
+{
+  "id": 10448,
+  "slug": "html-traits-22ee2b5078",
+  "name": "html-traits",
+  "mentions": [
+    {
+      "name": "html-traits",
+      "description": "A JavaScript/HTML library that adds behaviors to existing HTML elements via a `traits` attribute instead of the web components `is` attribute. Designed for progressive enhancement: elements keep working when JavaScript is disabled or broken, and gain behaviors when JS runs—for example an `expando` trait that makes a textarea auto-expand, or a `character-limit` trait with a `data-character-limit=\"200\"` attribute that turns the box red past a threshold. Behaviors compose as plain attributes on the element, avoiding nested web component markup and shadow-DOM reimplementation of native element behavior.",
+      "problem": "Normal web components lead to nested element markup or hide the original element in the shadow DOM, forcing developers to reimplement native behavior; and elements break entirely when JavaScript fails or is disabled.",
+      "audience": "Developers building web pages with HTML/JavaScript",
+      "builder_usernames": [
+        "nymanjon"
+      ],
+      "source_excerpt": "I built a simple lib for JS/HTML called html-traits[1]. It's similar to built-in web components but instead of using the `is` attribute you use the `traits` attribute. So, it is specifically meant for progressive enhancement.",
+      "evidence": [
+        {
+          "source_item_id": 44771754,
+          "source_field": "body",
+          "value": "I built a simple lib for JS/HTML called html-traits[1]. It's similar to built-in web components but instead of using the `is` attribute you use the `traits` attribute. So, it is specifically meant for progressive enhancement.",
+          "supports": [],
+          "author": "nymanjon",
+          "shared_at": 1754170524,
+          "source_url": "https://news.ycombinator.com/item?id=44771754"
+        }
+      ],
+      "source_item_id": 44771754,
+      "source_url": "https://news.ycombinator.com/item?id=44771754",
+      "author": "nymanjon",
+      "shared_at": 1754170524,
+      "links": [
+        "https://github.com/jon49/html-traits"
+      ]
+    }
+  ]
+}

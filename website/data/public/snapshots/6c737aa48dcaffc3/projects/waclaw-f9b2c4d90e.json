@@ -1,0 +1,35 @@
+{
+  "id": 5265,
+  "slug": "waclaw-f9b2c4d90e",
+  "name": "waclaw",
+  "mentions": [
+    {
+      "name": "waclaw",
+      "description": "Self-hosted WhatsApp router named waclaw that lets you host many OpenClaw instances behind a single WhatsApp Business account, acting as a proxy that routes inbound messages to the OpenClaw instance associated with each phone number. Built on a simple Bun + SQLite stack.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ilbert"
+      ],
+      "source_excerpt": "A self-hosted WhatsApp router for fleets of OpenClaws, called waclaw. It lets you host many OpenClaw instances behind a single WhatsApp Business account, acting as a \"proxy\" that routes the inbound messages to the OpenClaw instance associated to that phone number.",
+      "evidence": [
+        {
+          "source_item_id": 47750833,
+          "source_field": "body",
+          "value": "A self-hosted WhatsApp router for fleets of OpenClaws, called waclaw. It lets you host many OpenClaw instances behind a single WhatsApp Business account, acting as a \"proxy\" that routes the inbound messages to the OpenClaw instance associated to that phone number.",
+          "supports": [],
+          "author": "ilbert",
+          "shared_at": 1776082090,
+          "source_url": "https://news.ycombinator.com/item?id=47750833"
+        }
+      ],
+      "source_item_id": 47750833,
+      "source_url": "https://news.ycombinator.com/item?id=47750833",
+      "author": "ilbert",
+      "shared_at": 1776082090,
+      "links": [
+        "https://github.com/onfabric/waclaw"
+      ]
+    }
+  ]
+}

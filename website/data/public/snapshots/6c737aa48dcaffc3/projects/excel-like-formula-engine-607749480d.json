@@ -1,0 +1,33 @@
+{
+  "id": 10355,
+  "slug": "excel-like-formula-engine-607749480d",
+  "name": "Excel-like formula engine",
+  "mentions": [
+    {
+      "name": "Excel-like formula engine",
+      "description": "A statically-typed engine for Excel-like formulas that validates, compiles, and evaluates formulas, available both as a library (with the runtime rewritten in TypeScript) and as a hosted service. It addresses common shortcomings of homegrown formula engines by offering broad function support, solid documentation, errors surfaced before runtime rather than only at runtime, and formula editor support such as autocomplete. The library is nearly complete, extracted from the author's app compiler, with a service for validating, compiling, and evaluating formulas planned next.",
+      "problem": "People frequently reinvent formula engines, often for SaaS applications, and the implementations are underwhelming: limited function support, sparse or non-existent documentation, errors communicated only at runtime, and formula editors lacking autocomplete.",
+      "audience": "Developers building SaaS applications who need formula support",
+      "builder_usernames": [
+        "davidpolberger"
+      ],
+      "source_excerpt": "I'm working on an engine for Excel-like formulas, which will be available both as a library and as a service (which I've mentioned on HN a few times before). I originally started work on the engine back in 2008, when our app builder needed it.",
+      "evidence": [
+        {
+          "source_item_id": 44704642,
+          "source_field": "body",
+          "value": "I'm working on an engine for Excel-like formulas, which will be available both as a library and as a service (which I've mentioned on HN a few times before). I originally started work on the engine back in 2008, when our app builder needed it.",
+          "supports": [],
+          "author": "davidpolberger",
+          "shared_at": 1753650060,
+          "source_url": "https://news.ycombinator.com/item?id=44704642"
+        }
+      ],
+      "source_item_id": 44704642,
+      "source_url": "https://news.ycombinator.com/item?id=44704642",
+      "author": "davidpolberger",
+      "shared_at": 1753650060,
+      "links": []
+    }
+  ]
+}

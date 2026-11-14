@@ -1,0 +1,38 @@
+{
+  "id": 6207,
+  "slug": "codeyam-memory-codeyam-cli-ac844190b2",
+  "name": "CodeYam Memory (CodeYam CLI)",
+  "mentions": [
+    {
+      "name": "CodeYam Memory (CodeYam CLI)",
+      "description": "A lightweight CLI for AI-assisted development featuring CodeYam Memory, which runs a background agent that reviews coding session transcripts, looks for patterns of confusion, and generates properly scoped rules so AI coding assistants like Claude Code stop repeating mistakes and memory files stay current. It launches a dashboard for initialization, runs locally without login, is free, and is language agnostic. It is a first step toward the author's exploration of an AI-native development experience.",
+      "problem": "When using Claude Code, the AI repeats the same mistakes and claude.md files go stale too quickly to maintain manually; existing options, including Anthropic's built-in memory features, don't solve the memory challenge sufficiently.",
+      "audience": "Developers using AI coding assistants such as Claude Code",
+      "builder_usernames": [
+        "nadis"
+      ],
+      "source_excerpt": "I’m working on CodeYam. We just recently released a lightweight CLI and a feature called CodeYam Memory. The immediate motivation was that when using Claude Code, the AI would repeat the same mistakes and our claude.md files would get stale too quickly to manually maintain.",
+      "evidence": [
+        {
+          "source_item_id": 47315695,
+          "source_field": "body",
+          "value": "I’m working on CodeYam. We just recently released a lightweight CLI and a feature called CodeYam Memory. The immediate motivation was that when using Claude Code, the AI would repeat the same mistakes and our claude.md files would get stale too quickly to manually maintain.",
+          "supports": [],
+          "author": "nadis",
+          "shared_at": 1773091170,
+          "source_url": "https://news.ycombinator.com/item?id=47315695"
+        }
+      ],
+      "source_item_id": 47315695,
+      "source_url": "https://news.ycombinator.com/item?id=47315695",
+      "author": "nadis",
+      "shared_at": 1773091170,
+      "links": [
+        "https://codeyam.com/",
+        "https://open.substack.com/pub/codeyam/p/introducing-the-codeyam-cli-with",
+        "https://youtu.be/CjOKBwBCcOs",
+        "https://youtu.be/oJ2gTb-lxbE"
+      ]
+    }
+  ]
+}

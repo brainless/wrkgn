@@ -1,0 +1,35 @@
+{
+  "id": 3751,
+  "slug": "glean-00bd0ac85a",
+  "name": "glean",
+  "mentions": [
+    {
+      "name": "glean",
+      "description": "A Neovim code review plugin that lets the user mark parts of code as seen, leave comments, and view diffs commit by commit or collapsed.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "anonymid"
+      ],
+      "source_excerpt": "glean (a review tool that lets you mark parts of the code as seen, leave comments, view diffs commit by commit or collapsed, etc)",
+      "evidence": [
+        {
+          "source_item_id": 48537277,
+          "source_field": "body",
+          "value": "glean (a review tool that lets you mark parts of the code as seen, leave comments, view diffs commit by commit or collapsed, etc)",
+          "supports": [],
+          "author": "anonymid",
+          "shared_at": 1781504287,
+          "source_url": "https://news.ycombinator.com/item?id=48537277"
+        }
+      ],
+      "source_item_id": 48537277,
+      "source_url": "https://news.ycombinator.com/item?id=48537277",
+      "author": "anonymid",
+      "shared_at": 1781504287,
+      "links": [
+        "https://github.com/dlants/dotfiles/tree/main/nvim/lua"
+      ]
+    }
+  ]
+}

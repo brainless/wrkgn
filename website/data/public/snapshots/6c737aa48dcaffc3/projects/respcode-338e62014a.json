@@ -1,0 +1,35 @@
+{
+  "id": 7672,
+  "slug": "respcode-338e62014a",
+  "name": "RespCode",
+  "mentions": [
+    {
+      "name": "RespCode",
+      "description": "This AI coding assistant orchestrates multiple LLMs (Claude, GPT-4o, DeepSeek, Gemini) through three modes: Compete (runs a prompt across models side-by-side so the user picks the winner), Collaborate (chains models in a refinement pipeline), and Consensus (independent generation merged into one solution). Generated code executes instantly in real sandboxes supporting x86_64, ARM64, RISC-V, and ARM32, showing compilation output, runtime results, and exit codes.",
+      "problem": "Single-model AI coding assistants give one answer that can be wrong or hallucinated, which is risky when building production systems.",
+      "audience": null,
+      "builder_usernames": [
+        "noormoha"
+      ],
+      "source_excerpt": "I built RespCode because I was frustrated with the \"one model, one answer\" approach to AI coding assistants. When you're building production systems, blindly trusting a single AI's output is risky. What if it hallucinated? What if there's a better approach?",
+      "evidence": [
+        {
+          "source_item_id": 46585236,
+          "source_field": "body",
+          "value": "I built RespCode because I was frustrated with the \"one model, one answer\" approach to AI coding assistants. When you're building production systems, blindly trusting a single AI's output is risky. What if it hallucinated? What if there's a better approach?",
+          "supports": [],
+          "author": "noormoha",
+          "shared_at": 1768203023,
+          "source_url": "https://news.ycombinator.com/item?id=46585236"
+        }
+      ],
+      "source_item_id": 46585236,
+      "source_url": "https://news.ycombinator.com/item?id=46585236",
+      "author": "noormoha",
+      "shared_at": 1768203023,
+      "links": [
+        "https://respcode.com/blog/why-single-model-ai-assistants-holding-you-back"
+      ]
+    }
+  ]
+}

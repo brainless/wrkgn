@@ -1,0 +1,63 @@
+{
+  "id": 4747,
+  "slug": "triviascroll-1124da7c03",
+  "name": "TriviaScroll",
+  "mentions": [
+    {
+      "name": "TriviaScroll",
+      "description": "A web app that surfaces trending Wikipedia articles for quick study, using the Wikimedia API to fetch trending articles, applying light curation, and adding annotations to give context on a static site. It is aimed at helping users get familiar with trending topics before trivia night.",
+      "problem": "Trending Wikipedia articles tend to make good topics to know before going to trivia night, and the author wanted to make it easier to quickly see and study them.",
+      "audience": null,
+      "builder_usernames": [
+        "djeastm"
+      ],
+      "source_excerpt": "https://www.triviascroll.com\n\nI wanted to make it easier to quickly see/study trending articles on Wikipedia because they tend to make good topics to know before going to trivia night.",
+      "evidence": [
+        {
+          "source_item_id": 48089441,
+          "source_field": "body",
+          "value": "https://www.triviascroll.com\n\nI wanted to make it easier to quickly see/study trending articles on Wikipedia because they tend to make good topics to know before going to trivia night.",
+          "supports": [],
+          "author": "djeastm",
+          "shared_at": 1778457639,
+          "source_url": "https://news.ycombinator.com/item?id=48089441"
+        }
+      ],
+      "source_item_id": 48089441,
+      "source_url": "https://news.ycombinator.com/item?id=48089441",
+      "author": "djeastm",
+      "shared_at": 1778457639,
+      "links": [
+        "https://www.triviascroll.com"
+      ]
+    },
+    {
+      "name": "TriviaScroll",
+      "description": "This web app makes it easy to quickly see and study trending Wikipedia articles, which make good topics to know before trivia night. It pulls trending articles via Wikimedia's API, curates them, adds annotations to provide context, and deploys the result as a static site.",
+      "problem": "Trending Wikipedia articles are hard to quickly see and study, despite being useful trivia-night prep material.",
+      "audience": "People preparing for trivia night who want a quick way to see and study trending Wikipedia topics.",
+      "builder_usernames": [
+        "djeastm"
+      ],
+      "source_excerpt": "https://www.triviascroll.com\n\nI wanted to make it easier to quickly see/study trending articles on Wikipedia because they tend to make good topics to know before going to trivia night.\n\nI've had the domain for awhile, but just made the app today on a whim.\n\nI use Wikimedia's api to get the trending articles, curate them a bit, add some annotations to provide some context, then push to deploy the static site.",
+      "evidence": [
+        {
+          "source_item_id": 47744912,
+          "source_field": "body",
+          "value": "https://www.triviascroll.com\n\nI wanted to make it easier to quickly see/study trending articles on Wikipedia because they tend to make good topics to know before going to trivia night.\n\nI've had the domain for awhile, but just made the app today on a whim.\n\nI use Wikimedia's api to get the trending articles, curate them a bit, add some annotations to provide some context, then push to deploy the static site.",
+          "supports": [],
+          "author": "djeastm",
+          "shared_at": 1776030490,
+          "source_url": "https://news.ycombinator.com/item?id=47744912"
+        }
+      ],
+      "source_item_id": 47744912,
+      "source_url": "https://news.ycombinator.com/item?id=47744912",
+      "author": "djeastm",
+      "shared_at": 1776030490,
+      "links": [
+        "https://www.triviascroll.com"
+      ]
+    }
+  ]
+}

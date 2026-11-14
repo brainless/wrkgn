@@ -1,0 +1,36 @@
+{
+  "id": 9692,
+  "slug": "noperthedron-29fb807909",
+  "name": "Noperthedron",
+  "mentions": [
+    {
+      "name": "Noperthedron",
+      "description": "A Lean 4 project formalizing the mathematics paper \"A convex polyhedron without Rupert's property\", verifying its lemmas using the mathlib library. Progress had reached lemma 11 of the paper.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "reuben364"
+      ],
+      "source_excerpt": "I'm working on formalizing https://arxiv.org/pdf/2508.18475 (A convex polyhedron without Rupert's property) in Lean4",
+      "evidence": [
+        {
+          "source_item_id": 45874174,
+          "source_field": "body",
+          "value": "I'm working on formalizing https://arxiv.org/pdf/2508.18475 (A convex polyhedron without Rupert's property) in Lean4",
+          "supports": [],
+          "author": "reuben364",
+          "shared_at": 1762766886,
+          "source_url": "https://news.ycombinator.com/item?id=45874174"
+        }
+      ],
+      "source_item_id": 45874174,
+      "source_url": "https://news.ycombinator.com/item?id=45874174",
+      "author": "reuben364",
+      "shared_at": 1762766886,
+      "links": [
+        "https://arxiv.org/pdf/2508.18475",
+        "https://github.com/badly-drawn-wizards/noperthedron"
+      ]
+    }
+  ]
+}

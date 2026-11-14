@@ -1,0 +1,35 @@
+{
+  "id": 10356,
+  "slug": "hns-cee15262a7",
+  "name": "hns",
+  "mentions": [
+    {
+      "name": "hns",
+      "description": "A local CLI tool for speech-to-text in the terminal in 5 keystrokes. It records the user's voice, transcribes it locally using faster-whisper, and copies the transcription to the clipboard. The author uses it with Claude Code to dictate long, detailed context instead of typing it out.",
+      "problem": "Typing out all one's thoughts and detailed context is slow compared to speaking them.",
+      "audience": null,
+      "builder_usernames": [
+        "primaprashant"
+      ],
+      "source_excerpt": "Building a local CLI tool, hns [1], for speech-to-text in terminal in 5 keystrokes.\n\nIt records my voice, transcribes it locally using faster-whisper, and copies the transcription to my clipboard.",
+      "evidence": [
+        {
+          "source_item_id": 44706135,
+          "source_field": "body",
+          "value": "Building a local CLI tool, hns [1], for speech-to-text in terminal in 5 keystrokes.\n\nIt records my voice, transcribes it locally using faster-whisper, and copies the transcription to my clipboard.",
+          "supports": [],
+          "author": "primaprashant",
+          "shared_at": 1753664145,
+          "source_url": "https://news.ycombinator.com/item?id=44706135"
+        }
+      ],
+      "source_item_id": 44706135,
+      "source_url": "https://news.ycombinator.com/item?id=44706135",
+      "author": "primaprashant",
+      "shared_at": 1753664145,
+      "links": [
+        "https://github.com/primaprashant/hns"
+      ]
+    }
+  ]
+}

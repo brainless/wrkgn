@@ -1,0 +1,36 @@
+{
+  "id": 10353,
+  "slug": "closedlinks-4e9a11000a",
+  "name": "ClosedLinks",
+  "mentions": [
+    {
+      "name": "ClosedLinks",
+      "description": "A web tool for sharing files and messages anonymously through one-time access links with no traceable sender. Each link is single-use, redirects on access, and stores encrypted content (Fernet symmetric encryption, decrypted only at the point of access) only temporarily, with no data retention after viewing or expiration. Recipients never see the original URL, enabling plausible deniability. Includes optional analytics that give visibility without compromising identity, notifications when a shared link is accessed by the recipient, and optional password protection. Noted limitations include email-based signups and no end-to-end encryption yet.",
+      "problem": "Most digital tools assume persistence; ClosedLinks is built for ephemerality and unlinkability.",
+      "audience": "Whistleblowers",
+      "builder_usernames": [
+        "chistev"
+      ],
+      "source_excerpt": "I'm building ClosedLinks, a tool for sharing files and/or messages anonymously through one-time access links with no traceable sender. Most digital tools assume persistence; ClosedLinks is built for ephemerality and unlinkability. Each link is single-use, redirects on access, and stores encrypted content only temporarily. Recipients never see the original URL, enabling plausible deniability. Think: whistleblowers.",
+      "evidence": [
+        {
+          "source_item_id": 44703671,
+          "source_field": "body",
+          "value": "I'm building ClosedLinks, a tool for sharing files and/or messages anonymously through one-time access links with no traceable sender. Most digital tools assume persistence; ClosedLinks is built for ephemerality and unlinkability. Each link is single-use, redirects on access, and stores encrypted content only temporarily. Recipients never see the original URL, enabling plausible deniability. Think: whistleblowers.",
+          "supports": [],
+          "author": "chistev",
+          "shared_at": 1753642924,
+          "source_url": "https://news.ycombinator.com/item?id=44703671"
+        }
+      ],
+      "source_item_id": 44703671,
+      "source_url": "https://news.ycombinator.com/item?id=44703671",
+      "author": "chistev",
+      "shared_at": 1753642924,
+      "links": [
+        "https://www.closedlinks.com/",
+        "https://www.closedlinks.com/white-paper/"
+      ]
+    }
+  ]
+}

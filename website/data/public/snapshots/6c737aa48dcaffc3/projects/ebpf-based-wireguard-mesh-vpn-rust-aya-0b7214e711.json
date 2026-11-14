@@ -1,0 +1,33 @@
+{
+  "id": 7598,
+  "slug": "ebpf-based-wireguard-mesh-vpn-rust-aya-0b7214e711",
+  "name": "eBPF-based WireGuard mesh VPN (Rust/Aya)",
+  "mentions": [
+    {
+      "name": "eBPF-based WireGuard mesh VPN (Rust/Aya)",
+      "description": "A WireGuard mesh VPN implemented in Rust with Aya that relies on the kernel's WireGuard and processes packets in kernel space via eBPF (egress and ingress TC) for maximum performance and minimal CPU overhead. Goals include single-digit CPU overhead at multi-Gbps bandwidth, Linux-only support, no hole punching or complex NAT handling, and a basic policy language for L3 and L4 traffic. Intended as a learning exercise and possibly a reference implementation for those learning eBPF in Rust.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Cyph0n"
+      ],
+      "source_excerpt": "An eBPF-based Wireguard mesh VPN in Rust using Aya.\n\nThe idea is to rely on kernel Wireguard, and process packets in kernel space (via eBPF) for maximum performance and minimal CPU overhead.",
+      "evidence": [
+        {
+          "source_item_id": 46578800,
+          "source_field": "body",
+          "value": "An eBPF-based Wireguard mesh VPN in Rust using Aya.\n\nThe idea is to rely on kernel Wireguard, and process packets in kernel space (via eBPF) for maximum performance and minimal CPU overhead.",
+          "supports": [],
+          "author": "Cyph0n",
+          "shared_at": 1768158810,
+          "source_url": "https://news.ycombinator.com/item?id=46578800"
+        }
+      ],
+      "source_item_id": 46578800,
+      "source_url": "https://news.ycombinator.com/item?id=46578800",
+      "author": "Cyph0n",
+      "shared_at": 1768158810,
+      "links": []
+    }
+  ]
+}

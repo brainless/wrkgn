@@ -1,0 +1,35 @@
+{
+  "id": 8524,
+  "slug": "asfasign-574be84ba1",
+  "name": "asfasign",
+  "mentions": [
+    {
+      "name": "asfasign",
+      "description": "A multisig file signing solution built from a library, a CLI tool, and a server component under development. The scheme is Git backed, decentralized, and requires no account creation, using key pair authentication instead; it is open source and self hostable.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "raphinou"
+      ],
+      "source_excerpt": "I finished the library providing all features of a multisig file signing scheme. With that it was easy to develop a cli tool. And now I'm looking at developing the server component. \nLooking forward to share a complete solution! Git backed, decentralized, no account creation needed (auth by key pair), open source and self hostable!",
+      "evidence": [
+        {
+          "source_item_id": 46273322,
+          "source_field": "body",
+          "value": "I finished the library providing all features of a multisig file signing scheme. With that it was easy to develop a cli tool. And now I'm looking at developing the server component. \nLooking forward to share a complete solution! Git backed, decentralized, no account creation needed (auth by key pair), open source and self hostable!",
+          "supports": [],
+          "author": "raphinou",
+          "shared_at": 1765799781,
+          "source_url": "https://news.ycombinator.com/item?id=46273322"
+        }
+      ],
+      "source_item_id": 46273322,
+      "source_url": "https://news.ycombinator.com/item?id=46273322",
+      "author": "raphinou",
+      "shared_at": 1765799781,
+      "links": [
+        "https://github.com/asfaload/asfasign/"
+      ]
+    }
+  ]
+}

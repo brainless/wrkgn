@@ -1,0 +1,33 @@
+{
+  "id": 7371,
+  "slug": "home-server-upgrade-raspberry-pi-4-to-hp-desktop-nextcloud-a94ae04c5e",
+  "name": "Home server upgrade: Raspberry Pi 4 to HP desktop (Nextcloud)",
+  "mentions": [
+    {
+      "name": "Home server upgrade: Raspberry Pi 4 to HP desktop (Nextcloud)",
+      "description": "This project replaces a Raspberry Pi 4 used as a personal home server with a more powerful HP desktop, continuing to self-host Nextcloud. The goal is to eliminate the overload the Pi suffers when opening heavy Nextcloud menus.",
+      "problem": "The Raspberry Pi 4 is underpowered for Nextcloud, effectively self-DDOSing whenever a resource-heavy menu is opened.",
+      "audience": null,
+      "builder_usernames": [
+        "Shellban"
+      ],
+      "source_excerpt": "I will be replacing the Raspberry Pi 4 I use as a home server with a more powerful HP desktop. I am getting tired of DDOSing myself whenever I open the wrong menu on Nextcloud.",
+      "evidence": [
+        {
+          "source_item_id": 46946087,
+          "source_field": "body",
+          "value": "I will be replacing the Raspberry Pi 4 I use as a home server with a more powerful HP desktop. I am getting tired of DDOSing myself whenever I open the wrong menu on Nextcloud.",
+          "supports": [],
+          "author": "Shellban",
+          "shared_at": 1770649992,
+          "source_url": "https://news.ycombinator.com/item?id=46946087"
+        }
+      ],
+      "source_item_id": 46946087,
+      "source_url": "https://news.ycombinator.com/item?id=46946087",
+      "author": "Shellban",
+      "shared_at": 1770649992,
+      "links": []
+    }
+  ]
+}

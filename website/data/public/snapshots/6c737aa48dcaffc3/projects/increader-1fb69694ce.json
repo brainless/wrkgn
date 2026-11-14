@@ -1,0 +1,35 @@
+{
+  "id": 7662,
+  "slug": "increader-1fb69694ce",
+  "name": "Increader",
+  "mentions": [
+    {
+      "name": "Increader",
+      "description": "An incremental reading platform where users import bookmarks, PDFs, and EPUBs into a queue that tracks reading progress. Users read for as long as they like and move on to the next item when bored, with support for highlights and annotations that can be turned into spaced repetition cards.",
+      "problem": "Reading has high friction to start and it's hard to keep up with accumulated articles and media; the queue-based incremental approach lowers that barrier.",
+      "audience": "Reduces the friction to start reading and helps manage media consumption.",
+      "builder_usernames": [
+        "Version467"
+      ],
+      "source_excerpt": "I'm working on Increader, an incremental reading platform.\n\nYou put in all your bookmarks (also pdfs or epubs) and it puts them in a queue and tracks your progress. Read for as long as you want to and if you get bored with an article you just move on to the next one. Supports highlights and annotations as well as creating spaced repetition cards out of those annotations.",
+      "evidence": [
+        {
+          "source_item_id": 46578524,
+          "source_field": "body",
+          "value": "I'm working on Increader, an incremental reading platform.\n\nYou put in all your bookmarks (also pdfs or epubs) and it puts them in a queue and tracks your progress. Read for as long as you want to and if you get bored with an article you just move on to the next one. Supports highlights and annotations as well as creating spaced repetition cards out of those annotations.",
+          "supports": [],
+          "author": "Version467",
+          "shared_at": 1768157534,
+          "source_url": "https://news.ycombinator.com/item?id=46578524"
+        }
+      ],
+      "source_item_id": 46578524,
+      "source_url": "https://news.ycombinator.com/item?id=46578524",
+      "author": "Version467",
+      "shared_at": 1768157534,
+      "links": [
+        "https://www.increader.com/"
+      ]
+    }
+  ]
+}

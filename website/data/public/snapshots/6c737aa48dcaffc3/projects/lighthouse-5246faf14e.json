@@ -1,0 +1,35 @@
+{
+  "id": 11081,
+  "slug": "lighthouse-5246faf14e",
+  "name": "Lighthouse",
+  "mentions": [
+    {
+      "name": "Lighthouse",
+      "description": "An RSS reader built around an inbox zero workflow. It splits content into an Inbox for new items and a Library for bookmarked items, so users can quickly process new feed entries and take their time reading saved ones later.",
+      "problem": "Traditional RSS readers show read and unread items in the same feed-organized list, making it hard to know what has already been seen and to manage items intended for later reading.",
+      "audience": null,
+      "builder_usernames": [
+        "domysee"
+      ],
+      "source_excerpt": "Lighthouse (https://lighthouseapp.io/) - a different take on RSS readers, focusing on inbox zero",
+      "evidence": [
+        {
+          "source_item_id": 43820998,
+          "source_field": "body",
+          "value": "Lighthouse (https://lighthouseapp.io/) - a different take on RSS readers, focusing on inbox zero",
+          "supports": [],
+          "author": "domysee",
+          "shared_at": 1745844906,
+          "source_url": "https://news.ycombinator.com/item?id=43820998"
+        }
+      ],
+      "source_item_id": 43820998,
+      "source_url": "https://news.ycombinator.com/item?id=43820998",
+      "author": "domysee",
+      "shared_at": 1745844906,
+      "links": [
+        "https://lighthouseapp.io/"
+      ]
+    }
+  ]
+}

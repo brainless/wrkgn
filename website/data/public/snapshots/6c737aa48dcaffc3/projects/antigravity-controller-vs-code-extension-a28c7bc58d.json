@@ -1,0 +1,33 @@
+{
+  "id": 4578,
+  "slug": "antigravity-controller-vs-code-extension-a28c7bc58d",
+  "name": "Antigravity Controller VS Code Extension",
+  "mentions": [
+    {
+      "name": "Antigravity Controller VS Code Extension",
+      "description": "A VS Code extension for Antigravity that designates one agent thread as a \"controller\" which can spawn and chat with multiple other agents. It enables routing tasks to cheaper models for simple work and costlier models like Claude or Gemini for tasks requiring more thinking, and automates a staged development workflow: writing a comprehensive wiki plus empty test files with descriptions, then writing code, then recursively fixing the code to meet the test criteria.",
+      "problem": "Replaces the human work of manually checking on multiple AI agents, and addresses flaky AI output by using a wiki-based knowledge graph to get AI to generate production-ready code.",
+      "audience": null,
+      "builder_usernames": [
+        "Achshar"
+      ],
+      "source_excerpt": "I am working on a vs code extension for antigravity that will let me designate one thread as a \"controller\" and it can spawn and chat with multiple other agents in ag.",
+      "evidence": [
+        {
+          "source_item_id": 48091478,
+          "source_field": "body",
+          "value": "I am working on a vs code extension for antigravity that will let me designate one thread as a \"controller\" and it can spawn and chat with multiple other agents in ag.",
+          "supports": [],
+          "author": "Achshar",
+          "shared_at": 1778479038,
+          "source_url": "https://news.ycombinator.com/item?id=48091478"
+        }
+      ],
+      "source_item_id": 48091478,
+      "source_url": "https://news.ycombinator.com/item?id=48091478",
+      "author": "Achshar",
+      "shared_at": 1778479038,
+      "links": []
+    }
+  ]
+}

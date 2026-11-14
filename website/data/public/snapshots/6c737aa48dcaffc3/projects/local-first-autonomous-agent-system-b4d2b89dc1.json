@@ -1,0 +1,33 @@
+{
+  "id": 8611,
+  "slug": "local-first-autonomous-agent-system-b4d2b89dc1",
+  "name": "Local-first autonomous agent system",
+  "mentions": [
+    {
+      "name": "Local-first autonomous agent system",
+      "description": "A local-first autonomous agent system running on Windows, built as an experiment to explore agent planning versus step-by-step tool-calling, how agent state drifts over long tasks, and how to make the system predictable when adding retries and recovery logic.",
+      "problem": "Agent systems become unpredictable over long tasks, with state drift and fragility once retries and recovery logic are added.",
+      "audience": null,
+      "builder_usernames": [
+        "IntelliAvatar"
+      ],
+      "source_excerpt": "I'm experimenting with a local-first autonomous agent system on Windows.",
+      "evidence": [
+        {
+          "source_item_id": 46301125,
+          "source_field": "body",
+          "value": "I'm experimenting with a local-first autonomous agent system on Windows.",
+          "supports": [],
+          "author": "IntelliAvatar",
+          "shared_at": 1765973921,
+          "source_url": "https://news.ycombinator.com/item?id=46301125"
+        }
+      ],
+      "source_item_id": 46301125,
+      "source_url": "https://news.ycombinator.com/item?id=46301125",
+      "author": "IntelliAvatar",
+      "shared_at": 1765973921,
+      "links": []
+    }
+  ]
+}

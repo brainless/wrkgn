@@ -1,0 +1,33 @@
+{
+  "id": 10043,
+  "slug": "wordpress-paas-with-dedicated-bot-lanes-bb9181fcf1",
+  "name": "WordPress PaaS with dedicated bot lanes",
+  "mentions": [
+    {
+      "name": "WordPress PaaS with dedicated bot lanes",
+      "description": "A WordPress platform-as-a-service (PaaS) with dedicated lanes for bots, letting AI search crawlers crawl WordPress sites without crashing the server. Currently at MVP stage with no domain yet.",
+      "problem": "The status quo for WordPress is to block bots using Cloudflare, otherwise the site crashes under bot traffic; with AI search here to stay, sites need a way to let bots crawl without crashing the server.",
+      "audience": null,
+      "builder_usernames": [
+        "thekonqueror"
+      ],
+      "source_excerpt": "I'm working on a WordPress PaaS with dedicated lanes for bots. The status quo around WordPress is that you block bots using Cloudflare, else your site crashes. Since AI search is here to stay, we need a way to let bots crawl WordPress sites without crashing the server.\n\nCurrently at MVP stage, no domain yet.",
+      "evidence": [
+        {
+          "source_item_id": 45418965,
+          "source_field": "body",
+          "value": "I'm working on a WordPress PaaS with dedicated lanes for bots. The status quo around WordPress is that you block bots using Cloudflare, else your site crashes. Since AI search is here to stay, we need a way to let bots crawl WordPress sites without crashing the server.\n\nCurrently at MVP stage, no domain yet.",
+          "supports": [],
+          "author": "thekonqueror",
+          "shared_at": 1759181219,
+          "source_url": "https://news.ycombinator.com/item?id=45418965"
+        }
+      ],
+      "source_item_id": 45418965,
+      "source_url": "https://news.ycombinator.com/item?id=45418965",
+      "author": "thekonqueror",
+      "shared_at": 1759181219,
+      "links": []
+    }
+  ]
+}

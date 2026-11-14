@@ -1,0 +1,33 @@
+{
+  "id": 11050,
+  "slug": "sportive-chronometry-decoder-90eef42934",
+  "name": "Sportive chronometry decoder",
+  "mentions": [
+    {
+      "name": "Sportive chronometry decoder",
+      "description": "This embedded device is a decoder for sportive chronometry that uses heavy DSP processing to detect and measure when vehicles pass through the finish line. It runs on a baremetal USB device stack implemented directly in the embedded application.",
+      "problem": "Implementing a baremetal USB device stack in an embedded application has proven extremely difficult.",
+      "audience": null,
+      "builder_usernames": [
+        "andsmedeiros"
+      ],
+      "source_excerpt": "I am implementing a baremetal USB device stack in an embedded application and an having a really, really hard time. The device in question is a decoder for sportive chronometry and uses lots of DSP for detecting and measuring when vehicles pass through the finish line.",
+      "evidence": [
+        {
+          "source_item_id": 43844146,
+          "source_field": "body",
+          "value": "I am implementing a baremetal USB device stack in an embedded application and an having a really, really hard time. The device in question is a decoder for sportive chronometry and uses lots of DSP for detecting and measuring when vehicles pass through the finish line.",
+          "supports": [],
+          "author": "andsmedeiros",
+          "shared_at": 1746015439,
+          "source_url": "https://news.ycombinator.com/item?id=43844146"
+        }
+      ],
+      "source_item_id": 43844146,
+      "source_url": "https://news.ycombinator.com/item?id=43844146",
+      "author": "andsmedeiros",
+      "shared_at": 1746015439,
+      "links": []
+    }
+  ]
+}

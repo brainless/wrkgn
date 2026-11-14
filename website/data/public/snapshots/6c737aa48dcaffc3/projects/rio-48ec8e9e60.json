@@ -1,0 +1,35 @@
+{
+  "id": 6379,
+  "slug": "rio-48ec8e9e60",
+  "name": "Rio",
+  "mentions": [
+    {
+      "name": "Rio",
+      "description": "Rio is a modern TypeScript HTTP client for Node.js 24+, Deno and Bun, built on the native fetch API and fully type-safe from request to response. Still a work in progress, it aims to be an alternative to fetch, Axios, and ky.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "carlos-menezes"
+      ],
+      "source_excerpt": "I started working on Rio[0], a modern TypeScript HTTP client for Node.js 24+, Deno and Bun. It's built on the native `fetch` API and fully type-safe from request to response. It's still very much a work in progress but I'm working towards an alternative to fetch/Axios/ky I wish I had.",
+      "evidence": [
+        {
+          "source_item_id": 47307242,
+          "source_field": "body",
+          "value": "I started working on Rio[0], a modern TypeScript HTTP client for Node.js 24+, Deno and Bun. It's built on the native `fetch` API and fully type-safe from request to response. It's still very much a work in progress but I'm working towards an alternative to fetch/Axios/ky I wish I had.",
+          "supports": [],
+          "author": "carlos-menezes",
+          "shared_at": 1773052629,
+          "source_url": "https://news.ycombinator.com/item?id=47307242"
+        }
+      ],
+      "source_item_id": 47307242,
+      "source_url": "https://news.ycombinator.com/item?id=47307242",
+      "author": "carlos-menezes",
+      "shared_at": 1773052629,
+      "links": [
+        "https://github.com/carlos-menezes/rio"
+      ]
+    }
+  ]
+}

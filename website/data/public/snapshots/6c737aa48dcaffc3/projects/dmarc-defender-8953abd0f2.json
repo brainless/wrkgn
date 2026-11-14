@@ -1,0 +1,63 @@
+{
+  "id": 5651,
+  "slug": "dmarc-defender-8953abd0f2",
+  "name": "DMARC Defender",
+  "mentions": [
+    {
+      "name": "DMARC Defender",
+      "description": "A DMARC email authentication service focused on API access and integrations. The author is exploring adding an ML classifier to classify email sources and using RAG to automatically generate SPF/DKIM fix advice for different sources.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "c0nrad"
+      ],
+      "source_excerpt": "https://dmarcdefender.io. DMARC service focused on api/integrations. Currently thinking about (1) writing an ml classifier to classify sources, and (2) using rag to automatically generate spf/dkim fix advice for different sources.",
+      "evidence": [
+        {
+          "source_item_id": 47751363,
+          "source_field": "body",
+          "value": "https://dmarcdefender.io. DMARC service focused on api/integrations. Currently thinking about (1) writing an ml classifier to classify sources, and (2) using rag to automatically generate spf/dkim fix advice for different sources.",
+          "supports": [],
+          "author": "c0nrad",
+          "shared_at": 1776085269,
+          "source_url": "https://news.ycombinator.com/item?id=47751363"
+        }
+      ],
+      "source_item_id": 47751363,
+      "source_url": "https://news.ycombinator.com/item?id=47751363",
+      "author": "c0nrad",
+      "shared_at": 1776085269,
+      "links": [
+        "https://dmarcdefender.io"
+      ]
+    },
+    {
+      "name": "DMARC Defender",
+      "description": "A DMARC email authentication service positioned as a cheaper alternative to existing DMARC tools, with no 'SSO tax' (no extra fees charged for SSO support).",
+      "problem": "Existing DMARC services are expensive and charge extra for SSO.",
+      "audience": null,
+      "builder_usernames": [
+        "c0nrad"
+      ],
+      "source_excerpt": "Building a cheaper DMARC service with no ssotax. https://dmarcdefender.io",
+      "evidence": [
+        {
+          "source_item_id": 45875276,
+          "source_field": "body",
+          "value": "Building a cheaper DMARC service with no ssotax. https://dmarcdefender.io",
+          "supports": [],
+          "author": "c0nrad",
+          "shared_at": 1762777637,
+          "source_url": "https://news.ycombinator.com/item?id=45875276"
+        }
+      ],
+      "source_item_id": 45875276,
+      "source_url": "https://news.ycombinator.com/item?id=45875276",
+      "author": "c0nrad",
+      "shared_at": 1762777637,
+      "links": [
+        "https://dmarcdefender.io"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 10369,
+  "slug": "bbkane-s-dotfiles-repo-67f9cc6cfd",
+  "name": "bbkane's dotfiles repo",
+  "mentions": [
+    {
+      "name": "bbkane's dotfiles repo",
+      "description": "A dotfiles repository where each tool gets its own subdirectory containing a README that documents that tool's dependencies and keyboard shortcuts. The per-tool layout is designed to stay resilient against changing needs, operating systems, and tool versions, prioritizing easy configuration of the latest subset of tools on a new PC over a single one-shot setup script.",
+      "problem": "Tool usage changes enough that fully configuring every tool on a new PC is not worth maintaining; only the latest subset of tools matters.",
+      "audience": null,
+      "builder_usernames": [
+        "bbkane"
+      ],
+      "source_excerpt": "To that end, each tool has its own subdirectory in my dotfiles repo ( https://github.com/bbkane/dotfiles/ ), and I add READMEs to each subdirectory explaining what dependencies are necessary for this tool, what keyboard shortcuts this tool uses, etc.",
+      "evidence": [
+        {
+          "source_item_id": 44705578,
+          "source_field": "body",
+          "value": "To that end, each tool has its own subdirectory in my dotfiles repo ( https://github.com/bbkane/dotfiles/ ), and I add READMEs to each subdirectory explaining what dependencies are necessary for this tool, what keyboard shortcuts this tool uses, etc.",
+          "supports": [],
+          "author": "bbkane",
+          "shared_at": 1753658170,
+          "source_url": "https://news.ycombinator.com/item?id=44705578"
+        }
+      ],
+      "source_item_id": 44705578,
+      "source_url": "https://news.ycombinator.com/item?id=44705578",
+      "author": "bbkane",
+      "shared_at": 1753658170,
+      "links": [
+        "https://github.com/bbkane/dotfiles/"
+      ]
+    }
+  ]
+}

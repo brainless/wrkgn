@@ -1,0 +1,35 @@
+{
+  "id": 6378,
+  "slug": "trialbox-8c6c65b1c6",
+  "name": "Trialbox",
+  "mentions": [
+    {
+      "name": "Trialbox",
+      "description": "Trialbox is a software trial automation service. Users set it up in a few clicks, provide a docker compose file, and the service automatically spins up and tears down ephemeral VMs each time a signup is triggered on their landing page, letting visitors try the software without manual setup.",
+      "problem": "The author needed a very simple, few-clicks service to manage ephemeral trial environments from a docker compose file and couldn't find anything simple, so they decided to build it.",
+      "audience": null,
+      "builder_usernames": [
+        "lululpac"
+      ],
+      "source_excerpt": "Working on a software trial automation infra.\n\nWhile working on another project, I needed a very simple service I could setup in a few clicks, which would take my docker compose and manage the spin up and tear down of ephemeral VM automatically when triggered by a signup on my landing page.",
+      "evidence": [
+        {
+          "source_item_id": 47307542,
+          "source_field": "body",
+          "value": "Working on a software trial automation infra.\n\nWhile working on another project, I needed a very simple service I could setup in a few clicks, which would take my docker compose and manage the spin up and tear down of ephemeral VM automatically when triggered by a signup on my landing page.",
+          "supports": [],
+          "author": "lululpac",
+          "shared_at": 1773054887,
+          "source_url": "https://news.ycombinator.com/item?id=47307542"
+        }
+      ],
+      "source_item_id": 47307542,
+      "source_url": "https://news.ycombinator.com/item?id=47307542",
+      "author": "lululpac",
+      "shared_at": 1773054887,
+      "links": [
+        "https://trialbox.io"
+      ]
+    }
+  ]
+}

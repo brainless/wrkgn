@@ -1,0 +1,63 @@
+{
+  "id": 7911,
+  "slug": "exaequos-unix-style-browser-filesystem-7be6fcd2a2",
+  "name": "ExaequOS Unix-style browser filesystem",
+  "mentions": [
+    {
+      "name": "ExaequOS Unix-style browser filesystem",
+      "description": "A new Unix-style filesystem that runs in the browser, supporting local and remote storage with encryption.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "baudaux"
+      ],
+      "source_excerpt": "I am working on a new Unix-style filesystem for the browser, in https://exaequos.com\nFor local and remote storage and encrypted",
+      "evidence": [
+        {
+          "source_item_id": 46578464,
+          "source_field": "body",
+          "value": "I am working on a new Unix-style filesystem for the browser, in https://exaequos.com\nFor local and remote storage and encrypted",
+          "supports": [],
+          "author": "baudaux",
+          "shared_at": 1768157222,
+          "source_url": "https://news.ycombinator.com/item?id=46578464"
+        }
+      ],
+      "source_item_id": 46578464,
+      "source_url": "https://news.ycombinator.com/item?id=46578464",
+      "author": "baudaux",
+      "shared_at": 1768157222,
+      "links": [
+        "https://exaequos.com"
+      ]
+    },
+    {
+      "name": "WASI runtime for exaequOS",
+      "description": "A WebAssembly WASI runtime for exaequOS, an operating system that fully runs in the web browser. It will support WASI 0.1 and 0.2, and a basic implementation can be tested by running 'wex' in the exaequOS terminal.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "baudaux"
+      ],
+      "source_excerpt": "I am building a WebAssembly WASI runtime for exaequOS (https://exaequos.com), an OS fully running in the Web browser. It will support WASI 0.1 and 0.2. Basic implementation can be tested by running ‘wex’ in the terminal",
+      "evidence": [
+        {
+          "source_item_id": 45873264,
+          "source_field": "body",
+          "value": "I am building a WebAssembly WASI runtime for exaequOS (https://exaequos.com), an OS fully running in the Web browser. It will support WASI 0.1 and 0.2. Basic implementation can be tested by running ‘wex’ in the terminal",
+          "supports": [],
+          "author": "baudaux",
+          "shared_at": 1762758701,
+          "source_url": "https://news.ycombinator.com/item?id=45873264"
+        }
+      ],
+      "source_item_id": 45873264,
+      "source_url": "https://news.ycombinator.com/item?id=45873264",
+      "author": "baudaux",
+      "shared_at": 1762758701,
+      "links": [
+        "https://exaequos.com"
+      ]
+    }
+  ]
+}

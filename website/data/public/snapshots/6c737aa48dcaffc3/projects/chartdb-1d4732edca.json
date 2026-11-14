@@ -1,0 +1,36 @@
+{
+  "id": 10411,
+  "slug": "chartdb-1d4732edca",
+  "name": "ChartDB",
+  "mentions": [
+    {
+      "name": "ChartDB",
+      "description": "An open-source tool to visualize and edit database schemas, supporting Postgres, MySQL, SQLite, MSSQL, and ClickHouse. Includes an AI export feature to generate DDL in any SQL dialect.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Jonathanfishner"
+      ],
+      "source_excerpt": "We’re building ChartDB - an open-source tool to visualize and edit your database schema.\n\nSupports Postgres, MySQL, SQLite, MSSQL, ClickHouse. Includes AI export to generate DDL in any SQL dialect.",
+      "evidence": [
+        {
+          "source_item_id": 44703818,
+          "source_field": "body",
+          "value": "We’re building ChartDB - an open-source tool to visualize and edit your database schema.\n\nSupports Postgres, MySQL, SQLite, MSSQL, ClickHouse. Includes AI export to generate DDL in any SQL dialect.",
+          "supports": [],
+          "author": "Jonathanfishner",
+          "shared_at": 1753644106,
+          "source_url": "https://news.ycombinator.com/item?id=44703818"
+        }
+      ],
+      "source_item_id": 44703818,
+      "source_url": "https://news.ycombinator.com/item?id=44703818",
+      "author": "Jonathanfishner",
+      "shared_at": 1753644106,
+      "links": [
+        "https://github.com/chartdb/chartdb",
+        "https://www.chartdb.io"
+      ]
+    }
+  ]
+}

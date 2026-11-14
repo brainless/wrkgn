@@ -1,0 +1,36 @@
+{
+  "id": 5219,
+  "slug": "recursive-ascent-lr-1-parser-code-generator-3a955eff29",
+  "name": "Recursive ascent LR(1) parser code generator",
+  "mentions": [
+    {
+      "name": "Recursive ascent LR(1) parser code generator",
+      "description": "A code generator that produces recursive ascent parsers for LR(1) grammars, achieving linear-time parsing with reduced overhead and incorporating a set of optimizations described in accompanying blog posts.",
+      "problem": "Existing recursive ascent parsers carry runtime parsing overhead.",
+      "audience": null,
+      "builder_usernames": [
+        "Apanatshka"
+      ],
+      "source_excerpt": "I have a recursive ascent code generator with a bunch of optimisations that I wrote about [1,2]; it's a linear-time parser for LR(1) with reduced overhead.",
+      "evidence": [
+        {
+          "source_item_id": 47749163,
+          "source_field": "body",
+          "value": "I have a recursive ascent code generator with a bunch of optimisations that I wrote about [1,2]; it's a linear-time parser for LR(1) with reduced overhead.",
+          "supports": [],
+          "author": "Apanatshka",
+          "shared_at": 1776067555,
+          "source_url": "https://news.ycombinator.com/item?id=47749163"
+        }
+      ],
+      "source_item_id": 47749163,
+      "source_url": "https://news.ycombinator.com/item?id=47749163",
+      "author": "Apanatshka",
+      "shared_at": 1776067555,
+      "links": [
+        "https://blog.jeffsmits.net/optimising-recursive-ascent-part-2/",
+        "https://blog.jeffsmits.net/optimising-recursive-ascent/"
+      ]
+    }
+  ]
+}

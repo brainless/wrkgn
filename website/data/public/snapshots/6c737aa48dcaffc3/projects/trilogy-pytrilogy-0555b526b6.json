@@ -1,0 +1,91 @@
+{
+  "id": 1084,
+  "slug": "trilogy-pytrilogy-0555b526b6",
+  "name": "Trilogy (pytrilogy)",
+  "mentions": [
+    {
+      "name": "Trilogy (pytrilogy)",
+      "description": "A project of the author's (pytrilogy under the trilogy-data GitHub org) that the urban tree mapping work has been used to stress test.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "efromvt"
+      ],
+      "source_excerpt": "it's continued to be a good way to stress test other projects of mine [3]",
+      "evidence": [
+        {
+          "source_item_id": 49698927,
+          "source_field": "body",
+          "value": "it's continued to be a good way to stress test other projects of mine [3]",
+          "supports": [],
+          "author": "efromvt",
+          "shared_at": 1789400825,
+          "source_url": "https://news.ycombinator.com/item?id=49698927"
+        }
+      ],
+      "source_item_id": 49698927,
+      "source_url": "https://news.ycombinator.com/item?id=49698927",
+      "author": "efromvt",
+      "shared_at": 1789400825,
+      "links": [
+        "https://github.com/trilogy-data/pytrilogy"
+      ]
+    },
+    {
+      "name": "Trilogy ('better SQL') data orchestration platform",
+      "description": "This project is a 'better SQL' data platform whose orchestration implementation was improved to optimize the asset-based refresh flow, and it is being wired up in a general cloud service to provide a multi-tenant data orchestration platform.",
+      "problem": "Its DuckDB pipeline processing currently runs on GitHub Actions, and the project seeks to move that processing off GitHub Actions.",
+      "audience": null,
+      "builder_usernames": [
+        "efromvt"
+      ],
+      "source_excerpt": "Which leads me to trying to get the processing off github actions (it's all duckdb pipelines), which has led me to improve the orchestration implementation of my 'better sql' [2] to optimize the asset based refresh flow. I'm now wiring that up in a general cloud service to give me the data orchestration platform I've always wanted.",
+      "evidence": [
+        {
+          "source_item_id": 49235937,
+          "source_field": "body",
+          "value": "Which leads me to trying to get the processing off github actions (it's all duckdb pipelines), which has led me to improve the orchestration implementation of my 'better sql' [2] to optimize the asset based refresh flow. I'm now wiring that up in a general cloud service to give me the data orchestration platform I've always wanted.",
+          "supports": [],
+          "author": "efromvt",
+          "shared_at": 1786309848,
+          "source_url": "https://news.ycombinator.com/item?id=49235937"
+        }
+      ],
+      "source_item_id": 49235937,
+      "source_url": "https://news.ycombinator.com/item?id=49235937",
+      "author": "efromvt",
+      "shared_at": 1786309848,
+      "links": [
+        "https://github.com/trilogy-data/pytrilogy"
+      ]
+    },
+    {
+      "name": "Trilogy",
+      "description": "A SQL variant with an embedded semantic layer that removes the need for joins and provides better typing and functions. Recent work includes improved array handling, better error messages and UX, and an MCP server option for use with Claude, plus planned scheduling and materialization optimizations that identify common aggregates across scripts and automatically build reusable common datasets.",
+      "problem": "SQL requires joins and has limited typing/functions, making data querying cumbersome.",
+      "audience": null,
+      "builder_usernames": [
+        "efromvt"
+      ],
+      "source_excerpt": "Still iterating on Trilogy, a SQL variant with an embedded semantic layer that removes the need for joins and better typing/functions.",
+      "evidence": [
+        {
+          "source_item_id": 44713291,
+          "source_field": "body",
+          "value": "Still iterating on Trilogy, a SQL variant with an embedded semantic layer that removes the need for joins and better typing/functions.",
+          "supports": [],
+          "author": "efromvt",
+          "shared_at": 1753724567,
+          "source_url": "https://news.ycombinator.com/item?id=44713291"
+        }
+      ],
+      "source_item_id": 44713291,
+      "source_url": "https://news.ycombinator.com/item?id=44713291",
+      "author": "efromvt",
+      "shared_at": 1753724567,
+      "links": [
+        "https://github.com/trilogy-data/pytrilogy"
+      ]
+    }
+  ]
+}

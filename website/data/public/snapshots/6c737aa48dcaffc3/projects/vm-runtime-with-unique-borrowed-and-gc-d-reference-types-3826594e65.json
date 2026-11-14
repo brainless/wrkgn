@@ -1,0 +1,33 @@
+{
+  "id": 8396,
+  "slug": "vm-runtime-with-unique-borrowed-and-gc-d-reference-types-3826594e65",
+  "name": "VM/runtime with unique, borrowed and GC'd reference types",
+  "mentions": [
+    {
+      "name": "VM/runtime with unique, borrowed and GC'd reference types",
+      "description": "A VM/runtime project exploring how to introduce unique, borrowed, and garbage-collected reference types into its intermediate representation. Inspired by the Lobster language compiler's specialization of functions by reference type as an escape-analysis-like technique, the design considers re-merging specialized functions with compile-time checks replaced by very cheap runtime checks using pointer 'upper byte ignore' bits. The VM is also intended to support both managed source languages and languages where unique and borrowed references are statically checked and possibly stored in objects.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Findecanor"
+      ],
+      "source_excerpt": "I'm looking at how to introduce unique, borrowed and GC'd reference types into the IR for my VM/runtime.",
+      "evidence": [
+        {
+          "source_item_id": 46268438,
+          "source_field": "body",
+          "value": "I'm looking at how to introduce unique, borrowed and GC'd reference types into the IR for my VM/runtime.",
+          "supports": [],
+          "author": "Findecanor",
+          "shared_at": 1765756008,
+          "source_url": "https://news.ycombinator.com/item?id=46268438"
+        }
+      ],
+      "source_item_id": 46268438,
+      "source_url": "https://news.ycombinator.com/item?id=46268438",
+      "author": "Findecanor",
+      "shared_at": 1765756008,
+      "links": []
+    }
+  ]
+}

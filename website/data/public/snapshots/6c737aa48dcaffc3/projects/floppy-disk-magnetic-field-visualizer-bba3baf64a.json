@@ -1,0 +1,64 @@
+{
+  "id": 7624,
+  "slug": "floppy-disk-magnetic-field-visualizer-bba3baf64a",
+  "name": "Floppy disk magnetic field visualizer",
+  "mentions": [
+    {
+      "name": "Floppy disk magnetic field visualizer",
+      "description": "This project visualizes magnetic fields optically, with the goal of imaging the magnetic fields of a floppy disk using polarized light. A working demonstration shows magnetic fields on a magstripe (magnetic stripe card) viewed through two polarizers, one rotated by hand in a custom 3D printed holder with gears; different polariser film is being tested to make the technique work on floppy disks.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "anfractuosity"
+      ],
+      "source_excerpt": "Trying to visualise magnetic fields of a floppy disk.\n\nSo far I can see magnetic fields on a magstripe https://www.youtube.com/watch?v=c8nM4Z-hkTw with two polarisers (one of which I rotate in the video, which is contained in a 3D printed holder with gears I made).\n\nI'm awaiting some different polariser film, to see if I can get it to work with a floppy disk.",
+      "evidence": [
+        {
+          "source_item_id": 46578448,
+          "source_field": "body",
+          "value": "Trying to visualise magnetic fields of a floppy disk.\n\nSo far I can see magnetic fields on a magstripe https://www.youtube.com/watch?v=c8nM4Z-hkTw with two polarisers (one of which I rotate in the video, which is contained in a 3D printed holder with gears I made).\n\nI'm awaiting some different polariser film, to see if I can get it to work with a floppy disk.",
+          "supports": [],
+          "author": "anfractuosity",
+          "shared_at": 1768157147,
+          "source_url": "https://news.ycombinator.com/item?id=46578448"
+        }
+      ],
+      "source_item_id": 46578448,
+      "source_url": "https://news.ycombinator.com/item?id=46578448",
+      "author": "anfractuosity",
+      "shared_at": 1768157147,
+      "links": [
+        "https://www.youtube.com/watch?v=c8nM4Z-hkTw"
+      ]
+    },
+    {
+      "name": "3D-printed rotatable microscope polarisers",
+      "description": "3D-printed rotatable polarisers designed with OpenSCAD for use in a microscope. Used together with a magneto-optical sensor exploiting the Faraday effect to visualise the magnetic field lines of a magstripe card; the author intends to try the setup on a floppy disk, which is not currently working.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "anfractuosity"
+      ],
+      "source_excerpt": "With OpenSCAD I've made a 3D printed rotatable polariser for my microscope - https://github.com/anfractuosity/polarisers\n\nI used these two polarisers in my microscope and a magneto-optical sensor (which exploits the faraday effect), to visualise magnetic field lines of a magstripe card - https://www.youtube.com/watch?v=c8nM4Z-hkTw",
+      "evidence": [
+        {
+          "source_item_id": 46482604,
+          "source_field": "body",
+          "value": "With OpenSCAD I've made a 3D printed rotatable polariser for my microscope - https://github.com/anfractuosity/polarisers\n\nI used these two polarisers in my microscope and a magneto-optical sensor (which exploits the faraday effect), to visualise magnetic field lines of a magstripe card - https://www.youtube.com/watch?v=c8nM4Z-hkTw",
+          "supports": [],
+          "author": "anfractuosity",
+          "shared_at": 1767481091,
+          "source_url": "https://news.ycombinator.com/item?id=46482604"
+        }
+      ],
+      "source_item_id": 46482604,
+      "source_url": "https://news.ycombinator.com/item?id=46482604",
+      "author": "anfractuosity",
+      "shared_at": 1767481091,
+      "links": [
+        "https://github.com/anfractuosity/polarisers",
+        "https://www.youtube.com/watch?v=c8nM4Z-hkTw"
+      ]
+    }
+  ]
+}

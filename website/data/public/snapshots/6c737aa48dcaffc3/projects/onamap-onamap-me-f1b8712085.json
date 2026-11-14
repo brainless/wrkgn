@@ -1,0 +1,35 @@
+{
+  "id": 9796,
+  "slug": "onamap-onamap-me-f1b8712085",
+  "name": "OnAMap (onamap.me)",
+  "mentions": [
+    {
+      "name": "OnAMap (onamap.me)",
+      "description": "A historical map site similar to Pastmaps with about 5K monthly active users, whose oldest map is central London in 1561. It centers on the technical challenge of registering GPS coordinates to maps that are heavily warped compared to reality, such as very old maps or illustrated tourist maps.",
+      "problem": "Registering GPS to maps that are very warped compared to reality, like very old maps or illustrated tourist maps, is a difficult technical challenge.",
+      "audience": null,
+      "builder_usernames": [
+        "tim-fan"
+      ],
+      "source_excerpt": "I'm running a similar but smaller project (5k MAU), my oldest map is central London in 1561\n\nhttps://onamap.me/maps/London1561/",
+      "evidence": [
+        {
+          "source_item_id": 45421238,
+          "source_field": "body",
+          "value": "I'm running a similar but smaller project (5k MAU), my oldest map is central London in 1561\n\nhttps://onamap.me/maps/London1561/",
+          "supports": [],
+          "author": "tim-fan",
+          "shared_at": 1759198522,
+          "source_url": "https://news.ycombinator.com/item?id=45421238"
+        }
+      ],
+      "source_item_id": 45421238,
+      "source_url": "https://news.ycombinator.com/item?id=45421238",
+      "author": "tim-fan",
+      "shared_at": 1759198522,
+      "links": [
+        "https://onamap.me/"
+      ]
+    }
+  ]
+}

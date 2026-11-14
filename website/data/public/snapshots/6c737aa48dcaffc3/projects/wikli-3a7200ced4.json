@@ -1,0 +1,35 @@
+{
+  "id": 10226,
+  "slug": "wikli-3a7200ced4",
+  "name": "Wikli",
+  "mentions": [
+    {
+      "name": "Wikli",
+      "description": "An AI-powered news aggregator that clusters articles semantically across hundreds of sources and generates daily digests with editorial oversight. It uses a three-stage pipeline: scraping and content processing on Cloudflare Workers with AI classification, semantic clustering of related articles into coherent stories using Claude Sonnet 4, and AI synthesis of clusters into readable reports with context and TLDRs. Features theme-based filtering with per-article relevance scoring (0-10), context from previous digests to avoid repetition, hybrid content extraction (Readability with Puppeteer fallback), and a Telegram bot with a stateless approval workflow for human-in-the-loop quality control (editing titles and approving digests). Architecture separates a Python Brief Generator from a TypeScript Scraper API over PostgreSQL/Drizzle. Live in Italian at wikli.com, language-agnostic by design, currently running two topics (AI innovation and Inter Milan football) via Telegram and the website.",
+      "problem": "News fatigue: reading 50+ articles daily from hundreds of sources to stay informed is unsustainable, and traditional aggregators just dump links without context.",
+      "audience": "News readers seeking concise daily digests; currently focused on the Italian market",
+      "builder_usernames": [
+        "magno"
+      ],
+      "source_excerpt": "I built Wikli (https://www.wikli.com/) - an AI-powered news aggregator that clusters articles semantically and generates daily digests with editorial oversight.",
+      "evidence": [
+        {
+          "source_item_id": 45423809,
+          "source_field": "body",
+          "value": "I built Wikli (https://www.wikli.com/) - an AI-powered news aggregator that clusters articles semantically and generates daily digests with editorial oversight.",
+          "supports": [],
+          "author": "magno",
+          "shared_at": 1759227439,
+          "source_url": "https://news.ycombinator.com/item?id=45423809"
+        }
+      ],
+      "source_item_id": 45423809,
+      "source_url": "https://news.ycombinator.com/item?id=45423809",
+      "author": "magno",
+      "shared_at": 1759227439,
+      "links": [
+        "https://www.wikli.com/"
+      ]
+    }
+  ]
+}

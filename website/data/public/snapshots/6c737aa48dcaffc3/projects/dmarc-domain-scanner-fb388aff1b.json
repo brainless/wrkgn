@@ -1,0 +1,35 @@
+{
+  "id": 7228,
+  "slug": "dmarc-domain-scanner-fb388aff1b",
+  "name": "DMARC Domain Scanner",
+  "mentions": [
+    {
+      "name": "DMARC Domain Scanner",
+      "description": "A free web-based DMARC domain scanner that checks a domain's DMARC email authentication configuration.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "c0nrad"
+      ],
+      "source_excerpt": "dmarc domain scanner https://dmarcdefender.io/tools/domain-check",
+      "evidence": [
+        {
+          "source_item_id": 46944531,
+          "source_field": "body",
+          "value": "dmarc domain scanner https://dmarcdefender.io/tools/domain-check",
+          "supports": [],
+          "author": "c0nrad",
+          "shared_at": 1770640288,
+          "source_url": "https://news.ycombinator.com/item?id=46944531"
+        }
+      ],
+      "source_item_id": 46944531,
+      "source_url": "https://news.ycombinator.com/item?id=46944531",
+      "author": "c0nrad",
+      "shared_at": 1770640288,
+      "links": [
+        "https://dmarcdefender.io/tools/domain-check"
+      ]
+    }
+  ]
+}

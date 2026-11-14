@@ -1,0 +1,63 @@
+{
+  "id": 10155,
+  "slug": "erlang-red-2ab1916ce8",
+  "name": "Erlang-Red",
+  "mentions": [
+    {
+      "name": "Erlang-Red",
+      "description": "A Node-RED-style flow editor backed by an Erlang runtime, aiming to implement visual flow-based programming for Erlang.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Towaway69"
+      ],
+      "source_excerpt": "I've been working Erlang-Red[1] which is Node-RED flow editor with an Erlang backend.\n\nBasically the aim is to implement visual flow based programming for Erlang.",
+      "evidence": [
+        {
+          "source_item_id": 45451161,
+          "source_field": "body",
+          "value": "I've been working Erlang-Red[1] which is Node-RED flow editor with an Erlang backend.\n\nBasically the aim is to implement visual flow based programming for Erlang.",
+          "supports": [],
+          "author": "Towaway69",
+          "shared_at": 1759419550,
+          "source_url": "https://news.ycombinator.com/item?id=45451161"
+        }
+      ],
+      "source_item_id": 45451161,
+      "source_url": "https://news.ycombinator.com/item?id=45451161",
+      "author": "Towaway69",
+      "shared_at": 1759419550,
+      "links": [
+        "https://github.com/gorenje/erlang-red"
+      ]
+    },
+    {
+      "name": "Erlang-RED",
+      "description": "This is a visual low-code programming environment for Erlang, combining Node-RED with Erlang and based on flow-based programming principles. It supports creating HTTP endpoints and routing traffic between pathways based on path variables, making it possible to build applications such as a blog.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Towaway69"
+      ],
+      "source_excerpt": "Erlang-RED[2] a combination of Node-RED[1] and Erlang to create a visual low code programming environment for Erlang based on the principles of flow based programming.\n\nReached a milestone today by being able to create a http endpoint and route the traffic (based to path variables) between various pathways. Thus it is possible to create a blog using Erlang-RED - what all good frameworks should be able to do ;)",
+      "evidence": [
+        {
+          "source_item_id": 43824827,
+          "source_field": "body",
+          "value": "Erlang-RED[2] a combination of Node-RED[1] and Erlang to create a visual low code programming environment for Erlang based on the principles of flow based programming.\n\nReached a milestone today by being able to create a http endpoint and route the traffic (based to path variables) between various pathways. Thus it is possible to create a blog using Erlang-RED - what all good frameworks should be able to do ;)",
+          "supports": [],
+          "author": "Towaway69",
+          "shared_at": 1745867089,
+          "source_url": "https://news.ycombinator.com/item?id=43824827"
+        }
+      ],
+      "source_item_id": 43824827,
+      "source_url": "https://news.ycombinator.com/item?id=43824827",
+      "author": "Towaway69",
+      "shared_at": 1745867089,
+      "links": [
+        "https://github.com/gorenje/erlang-red"
+      ]
+    }
+  ]
+}

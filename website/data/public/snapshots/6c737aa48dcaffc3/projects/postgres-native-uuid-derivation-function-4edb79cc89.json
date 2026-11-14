@@ -1,0 +1,33 @@
+{
+  "id": 7281,
+  "slug": "postgres-native-uuid-derivation-function-4edb79cc89",
+  "name": "Postgres native UUID-derivation function",
+  "mentions": [
+    {
+      "name": "Postgres native UUID-derivation function",
+      "description": "A Postgres native function that derives UUIDs from an integer primary key using AES intrinsics, allowing public UUID keys to be exposed while the database keeps using an efficient 64-bit sequential primary key.",
+      "problem": "Exposing public UUID keys without giving up the efficiency of a 64-bit sequential primary key.",
+      "audience": null,
+      "builder_usernames": [
+        "zarzavat"
+      ],
+      "source_excerpt": "Today I'm writing a Postgres native function to derive UUIDs from an integer primary key using AES intrinsics. This lets me expose public UUID keys while still using an efficient 64-bit sequential primary key.",
+      "evidence": [
+        {
+          "source_item_id": 46943535,
+          "source_field": "body",
+          "value": "Today I'm writing a Postgres native function to derive UUIDs from an integer primary key using AES intrinsics. This lets me expose public UUID keys while still using an efficient 64-bit sequential primary key.",
+          "supports": [],
+          "author": "zarzavat",
+          "shared_at": 1770631166,
+          "source_url": "https://news.ycombinator.com/item?id=46943535"
+        }
+      ],
+      "source_item_id": 46943535,
+      "source_url": "https://news.ycombinator.com/item?id=46943535",
+      "author": "zarzavat",
+      "shared_at": 1770631166,
+      "links": []
+    }
+  ]
+}

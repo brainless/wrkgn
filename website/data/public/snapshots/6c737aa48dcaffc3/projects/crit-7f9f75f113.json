@@ -1,0 +1,121 @@
+{
+  "id": 4673,
+  "slug": "crit-7f9f75f113",
+  "name": "Crit",
+  "mentions": [
+    {
+      "name": "Crit",
+      "description": "This open source, local-first tool supports reviewing markdown and code output produced by AI agents. It adapts a GitHub PR-style review workflow to quick, local iterations, integrates into daily use with agents like Claude, is available via Homebrew core, and is gaining team-oriented sharing features designed for deployment inside private networks.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tomasz-tomczyk"
+      ],
+      "source_excerpt": "It's been three months now of building Crit - https://crit.md - local first, open source tool for reviewing markdown and code output from your favourite AI agent.\n\nIt's inspired by GitHub PR review workflow, only with quick iterations and local.",
+      "evidence": [
+        {
+          "source_item_id": 48087720,
+          "source_field": "body",
+          "value": "It's been three months now of building Crit - https://crit.md - local first, open source tool for reviewing markdown and code output from your favourite AI agent.\n\nIt's inspired by GitHub PR review workflow, only with quick iterations and local.",
+          "supports": [],
+          "author": "tomasz-tomczyk",
+          "shared_at": 1778445451,
+          "source_url": "https://news.ycombinator.com/item?id=48087720"
+        }
+      ],
+      "source_item_id": 48087720,
+      "source_url": "https://news.ycombinator.com/item?id=48087720",
+      "author": "tomasz-tomczyk",
+      "shared_at": 1778445451,
+      "links": [
+        "https://crit.md"
+      ]
+    },
+    {
+      "name": "crit",
+      "description": "A CLI tool for reviewing AI coding agent output like a GitHub PR. It lets users annotate and push back on AI-generated changes without creating a full pull request, and works on both agent plans and code itself.",
+      "problem": "Claude Code and Cursor produce plausible-but-wrong changes with no easy way to annotate and push back on them without making a full PR.",
+      "audience": null,
+      "builder_usernames": [
+        "tomasz-tomczyk"
+      ],
+      "source_excerpt": "https://crit.md - a CLI tool for reviewing AI coding agent output like a GitHub PR.\n\nI got frustrated with Claude Code and Cursor producing plausible-but-wrong changes with no easy way to annotate and push back, without making a full PR. crit makes the review stage fun again!\n\nWorks on both plans as well as code itself.",
+      "evidence": [
+        {
+          "source_item_id": 47746165,
+          "source_field": "body",
+          "value": "https://crit.md - a CLI tool for reviewing AI coding agent output like a GitHub PR.\n\nI got frustrated with Claude Code and Cursor producing plausible-but-wrong changes with no easy way to annotate and push back, without making a full PR. crit makes the review stage fun again!\n\nWorks on both plans as well as code itself.",
+          "supports": [],
+          "author": "tomasz-tomczyk",
+          "shared_at": 1776040957,
+          "source_url": "https://news.ycombinator.com/item?id=47746165"
+        }
+      ],
+      "source_item_id": 47746165,
+      "source_url": "https://news.ycombinator.com/item?id=47746165",
+      "author": "tomasz-tomczyk",
+      "shared_at": 1776040957,
+      "links": [
+        "https://crit.md",
+        "https://github.com/tomasz-tomczyk/crit"
+      ]
+    },
+    {
+      "name": "crit",
+      "description": "A CLI tool for reviewing AI coding agent output like a GitHub PR. It lets users annotate and push back on changes produced by AI coding agents such as Claude Code and Cursor without making a full PR, and works on both agent plans and the code itself.",
+      "problem": "AI coding tools like Claude Code and Cursor produce plausible-but-wrong changes with no easy way to annotate and push back on them without making a full PR.",
+      "audience": null,
+      "builder_usernames": [
+        "tomasz-tomczyk"
+      ],
+      "source_excerpt": "https://crit.md - a CLI tool for reviewing AI coding agent output like a GitHub PR.",
+      "evidence": [
+        {
+          "source_item_id": 47607471,
+          "source_field": "body",
+          "value": "https://crit.md - a CLI tool for reviewing AI coding agent output like a GitHub PR.",
+          "supports": [],
+          "author": "tomasz-tomczyk",
+          "shared_at": 1775083328,
+          "source_url": "https://news.ycombinator.com/item?id=47607471"
+        }
+      ],
+      "source_item_id": 47607471,
+      "source_url": "https://news.ycombinator.com/item?id=47607471",
+      "author": "tomasz-tomczyk",
+      "shared_at": 1775083328,
+      "links": [
+        "https://crit.md",
+        "https://github.com/tomasz-tomczyk/crit"
+      ]
+    },
+    {
+      "name": "crit",
+      "description": "An MIT-licensed, open-source tool for reviewing plans and output from LLM agents. It offers a GitHub-style PR review experience for long markdown and diffs, which works better than terminal chat for reviewing agent work. It is offline-first and ships as a single binary.",
+      "problem": "Terminal chat is a poor fit for reviewing long markdown plans and diffs produced by LLM agents; a PR-review-style interface works better.",
+      "audience": "Engineers reviewing plans and output from LLM agents",
+      "builder_usernames": [
+        "tomasz-tomczyk"
+      ],
+      "source_excerpt": "building crit to help reviewing plans & output from LLM agents - it has boosted my productivity a lot personally and I had a lot of nice feedback from other experienced engineers finding value in it - turns out while terminal is a nice way to chat with agents, GitHub-esque PR review wins for long markdown and diff view :)",
+      "evidence": [
+        {
+          "source_item_id": 47317119,
+          "source_field": "body",
+          "value": "building crit to help reviewing plans & output from LLM agents - it has boosted my productivity a lot personally and I had a lot of nice feedback from other experienced engineers finding value in it - turns out while terminal is a nice way to chat with agents, GitHub-esque PR review wins for long markdown and diff view :)",
+          "supports": [],
+          "author": "tomasz-tomczyk",
+          "shared_at": 1773098420,
+          "source_url": "https://news.ycombinator.com/item?id=47317119"
+        }
+      ],
+      "source_item_id": 47317119,
+      "source_url": "https://news.ycombinator.com/item?id=47317119",
+      "author": "tomasz-tomczyk",
+      "shared_at": 1773098420,
+      "links": [
+        "https://github.com/tomasz-tomczyk/crit/"
+      ]
+    }
+  ]
+}

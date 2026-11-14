@@ -1,0 +1,35 @@
+{
+  "id": 7449,
+  "slug": "incus-container-desktop-c9688e37db",
+  "name": "incus-container-desktop",
+  "mentions": [
+    {
+      "name": "incus-container-desktop",
+      "description": "A repeatable desktop development environment built on Incus system containers, positioned as Docker-like but capable of more (e.g., the snap package manager as a test case), while remaining more disposable and lighter than virtual machines, avoiding laptop battery drain and fan noise.",
+      "problem": "VMs are heavier and less disposable than containers, draining laptop batteries and generating fan noise.",
+      "audience": null,
+      "builder_usernames": [
+        "predkambrij"
+      ],
+      "source_excerpt": "I'm playing with repeatable development environment with incus. So, it's like in Docker, but naturally more things should be possible (eg. snap package manager is the ultimate test), but still more disposable than VMs (eg. it won't finish your laptop battery and annoy your ears with fan).\n\nhttps://github.com/predkambrij/incus-container-desktop",
+      "evidence": [
+        {
+          "source_item_id": 46874983,
+          "source_field": "body",
+          "value": "I'm playing with repeatable development environment with incus. So, it's like in Docker, but naturally more things should be possible (eg. snap package manager is the ultimate test), but still more disposable than VMs (eg. it won't finish your laptop battery and annoy your ears with fan).\n\nhttps://github.com/predkambrij/incus-container-desktop",
+          "supports": [],
+          "author": "predkambrij",
+          "shared_at": 1770143176,
+          "source_url": "https://news.ycombinator.com/item?id=46874983"
+        }
+      ],
+      "source_item_id": 46874983,
+      "source_url": "https://news.ycombinator.com/item?id=46874983",
+      "author": "predkambrij",
+      "shared_at": 1770143176,
+      "links": [
+        "https://github.com/predkambrij/incus-container-desktop"
+      ]
+    }
+  ]
+}

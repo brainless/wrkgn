@@ -1,0 +1,36 @@
+{
+  "id": 3691,
+  "slug": "keibidrop-735403039c",
+  "name": "KeibiDrop",
+  "mentions": [
+    {
+      "name": "KeibiDrop",
+      "description": "This is a peer-to-peer instant file sharing tool that leverages virtual mount points to make file metadata available between two parties, making shared files appear as if they are stored locally. A recipient can instantly play or install a shared file (e.g., a Blu-ray movie or a large game) while the transfer happens in the background with random offset jumps and is cached locally.",
+      "problem": "Avoids waiting for a full upload-then-download cycle before large files such as Blu-ray movies or large games can be played or installed.",
+      "audience": null,
+      "builder_usernames": [
+        "coldstartops"
+      ],
+      "source_excerpt": "KEIBIDROP: Peer to Peer Instant file sharing\n\nhttps://keibidrop.com\n\nhttps://github.com/KeibiSoft/KeibiDrop/\n\nIt leverages virtual mount points to make file metadata available between Alice and Bob, and make the files appear as if locally.\n\nSo for example instead of waiting to upload then download a Blu Ray movie, or a large game, you can just add it into the virtual mountpoint and your recipient can instantly play it, or install it, and the download happens in the background with random offset jumps, and caches it locally.",
+      "evidence": [
+        {
+          "source_item_id": 48539251,
+          "source_field": "body",
+          "value": "KEIBIDROP: Peer to Peer Instant file sharing\n\nhttps://keibidrop.com\n\nhttps://github.com/KeibiSoft/KeibiDrop/\n\nIt leverages virtual mount points to make file metadata available between Alice and Bob, and make the files appear as if locally.\n\nSo for example instead of waiting to upload then download a Blu Ray movie, or a large game, you can just add it into the virtual mountpoint and your recipient can instantly play it, or install it, and the download happens in the background with random offset jumps, and caches it locally.",
+          "supports": [],
+          "author": "coldstartops",
+          "shared_at": 1781519367,
+          "source_url": "https://news.ycombinator.com/item?id=48539251"
+        }
+      ],
+      "source_item_id": 48539251,
+      "source_url": "https://news.ycombinator.com/item?id=48539251",
+      "author": "coldstartops",
+      "shared_at": 1781519367,
+      "links": [
+        "https://github.com/KeibiSoft/KeibiDrop/",
+        "https://keibidrop.com"
+      ]
+    }
+  ]
+}

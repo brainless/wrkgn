@@ -1,0 +1,33 @@
+{
+  "id": 5545,
+  "slug": "dynamic-sqlite-extension-linking-dc15391a55",
+  "name": "Dynamic SQLite extension linking",
+  "mentions": [
+    {
+      "name": "Dynamic SQLite extension linking",
+      "description": "A capability for the author's Go SQLite driver to dynamically link separately compiled SQLite extensions, using the vec1 vector extension as the testbed to open up use cases made difficult by CGO and modernc.",
+      "problem": "Dynamically linking separately compiled SQLite extensions has been made hard by CGO and modernc.",
+      "audience": null,
+      "builder_usernames": [
+        "ncruces"
+      ],
+      "source_excerpt": "Just today I'm hoping to provide a way to dynamically link separately compiled SQLite extensions, using vec1 as the testbed. Hopefully, that opens up additional use cases made hard by CGO/modernc.",
+      "evidence": [
+        {
+          "source_item_id": 47753997,
+          "source_field": "body",
+          "value": "Just today I'm hoping to provide a way to dynamically link separately compiled SQLite extensions, using vec1 as the testbed. Hopefully, that opens up additional use cases made hard by CGO/modernc.",
+          "supports": [],
+          "author": "ncruces",
+          "shared_at": 1776095980,
+          "source_url": "https://news.ycombinator.com/item?id=47753997"
+        }
+      ],
+      "source_item_id": 47753997,
+      "source_url": "https://news.ycombinator.com/item?id=47753997",
+      "author": "ncruces",
+      "shared_at": 1776095980,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 10508,
+  "slug": "solace-c43b9539d7",
+  "name": "Solace",
+  "mentions": [
+    {
+      "name": "Solace",
+      "description": "A programming language that compiles to JavaScript, providing syntactic improvements and type-checking, with a signal-based system called live variables that unifies promises, async/await, and callbacks. Live variables can be compiled through interchangeable compiler plugins into framework-specific code, such as React's useState or Vue's Refs, to make code more future-proof. The project is currently in a concept stage.",
+      "problem": "JavaScript code involving promises, async/await, and callbacks is complex; the language aims to streamline these into one signal-based system.",
+      "audience": null,
+      "builder_usernames": [
+        "koehr"
+      ],
+      "source_excerpt": "I started playing around with the idea of a new programming language that compiles to JavaScript. Despite syntactic improvements and type-checking, it's goal is to streamline promises, async/await and callbacks into one signal based system I call live variables.",
+      "evidence": [
+        {
+          "source_item_id": 44708993,
+          "source_field": "body",
+          "value": "I started playing around with the idea of a new programming language that compiles to JavaScript. Despite syntactic improvements and type-checking, it's goal is to streamline promises, async/await and callbacks into one signal based system I call live variables.",
+          "supports": [],
+          "author": "koehr",
+          "shared_at": 1753695315,
+          "source_url": "https://news.ycombinator.com/item?id=44708993"
+        }
+      ],
+      "source_item_id": 44708993,
+      "source_url": "https://news.ycombinator.com/item?id=44708993",
+      "author": "koehr",
+      "shared_at": 1753695315,
+      "links": [
+        "https://github.com/nkoehring/Solace"
+      ]
+    }
+  ]
+}

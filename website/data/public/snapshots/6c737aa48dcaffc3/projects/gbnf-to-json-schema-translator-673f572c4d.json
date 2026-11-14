@@ -1,0 +1,33 @@
+{
+  "id": 7135,
+  "slug": "gbnf-to-json-schema-translator-673f572c4d",
+  "name": "GBNF to JSON Schema Translator",
+  "mentions": [
+    {
+      "name": "GBNF to JSON Schema Translator",
+      "description": "This tool translates GBNF grammars into JSON schemas so that structured responses from LLMs can be serialized back into strings conforming to the original grammar. It evaluates which major LLM providers produce stable structured output, since some generated JSON schemas currently break generation and return syntactically invalid JSON. The end goal is generating strings conforming to non-JSON grammars for common formats like CSV, SQL, Python, sed, and regex.",
+      "problem": "Even when using structured output, some generated JSON schemas break the LLM generation process so that syntactically invalid JSON is returned.",
+      "audience": null,
+      "builder_usernames": [
+        "kelseyfrog"
+      ],
+      "source_excerpt": "A GBNF to json schema translator in such a way that structured responses from LLMs can be serialized back into string confirming to the original grammar.",
+      "evidence": [
+        {
+          "source_item_id": 46940093,
+          "source_field": "body",
+          "value": "A GBNF to json schema translator in such a way that structured responses from LLMs can be serialized back into string confirming to the original grammar.",
+          "supports": [],
+          "author": "kelseyfrog",
+          "shared_at": 1770596866,
+          "source_url": "https://news.ycombinator.com/item?id=46940093"
+        }
+      ],
+      "source_item_id": 46940093,
+      "source_url": "https://news.ycombinator.com/item?id=46940093",
+      "author": "kelseyfrog",
+      "shared_at": 1770596866,
+      "links": []
+    }
+  ]
+}

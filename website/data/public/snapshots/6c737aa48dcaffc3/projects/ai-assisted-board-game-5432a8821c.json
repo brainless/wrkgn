@@ -1,0 +1,33 @@
+{
+  "id": 9530,
+  "slug": "ai-assisted-board-game-5432a8821c",
+  "name": "AI-assisted board game",
+  "mentions": [
+    {
+      "name": "AI-assisted board game",
+      "description": "A board game created with the help of AI, using an n8n pipeline to generate placeholder art and LaTeX (TikZ) for producing all of the game's cards.",
+      "problem": "GPT-5 regularly fails at writing and debugging the LaTeX/TikZ code used for card creation, with TikZ often beyond its ability to successfully write or debug.",
+      "audience": null,
+      "builder_usernames": [
+        "kelseyfrog"
+      ],
+      "source_excerpt": "I'm working on a boardgame with the help of AI. It's way too easy to create placeholder art with an n8n pipeline, but GPT-5 regularly fails at writing and debugging LaTeX which I'm using for all of the card creation.",
+      "evidence": [
+        {
+          "source_item_id": 45871765,
+          "source_field": "body",
+          "value": "I'm working on a boardgame with the help of AI. It's way too easy to create placeholder art with an n8n pipeline, but GPT-5 regularly fails at writing and debugging LaTeX which I'm using for all of the card creation.",
+          "supports": [],
+          "author": "kelseyfrog",
+          "shared_at": 1762742621,
+          "source_url": "https://news.ycombinator.com/item?id=45871765"
+        }
+      ],
+      "source_item_id": 45871765,
+      "source_url": "https://news.ycombinator.com/item?id=45871765",
+      "author": "kelseyfrog",
+      "shared_at": 1762742621,
+      "links": []
+    }
+  ]
+}

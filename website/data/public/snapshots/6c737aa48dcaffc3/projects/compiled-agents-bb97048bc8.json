@@ -1,0 +1,35 @@
+{
+  "id": 4026,
+  "slug": "compiled-agents-bb97048bc8",
+  "name": "Compiled agents",
+  "mentions": [
+    {
+      "name": "Compiled agents",
+      "description": "This tool takes a user's instructions, writes a versioned spec, and then generates a hybrid agent workflow of code plus LLM calls, protected with tests and evals. Because roughly 90% of the workflow is code, agents run much faster and cheaper (LLM steps are tightly scoped and use smaller models), and specs are turned into coded state machines for reliability.",
+      "problem": "AI agents built from LLM calls alone tend to run slowly, cost more, and be unreliable.",
+      "audience": null,
+      "builder_usernames": [
+        "nashadelic"
+      ],
+      "source_excerpt": "Compiled agents: http://squig.com/\n\nIt takes your instructions, write a versioned spec, then generates a hybrid workflow of code+LLM calls and protects it with tests/evals\n\nThe result is that the agents run much faster (90% of it is code), cheaper (LLM steps are scoped tightly and uses smaller models) and reliably (specs get turned into coded state-machine)",
+      "evidence": [
+        {
+          "source_item_id": 48530141,
+          "source_field": "body",
+          "value": "Compiled agents: http://squig.com/\n\nIt takes your instructions, write a versioned spec, then generates a hybrid workflow of code+LLM calls and protects it with tests/evals\n\nThe result is that the agents run much faster (90% of it is code), cheaper (LLM steps are scoped tightly and uses smaller models) and reliably (specs get turned into coded state-machine)",
+          "supports": [],
+          "author": "nashadelic",
+          "shared_at": 1781458557,
+          "source_url": "https://news.ycombinator.com/item?id=48530141"
+        }
+      ],
+      "source_item_id": 48530141,
+      "source_url": "https://news.ycombinator.com/item?id=48530141",
+      "author": "nashadelic",
+      "shared_at": 1781458557,
+      "links": [
+        "http://squig.com/"
+      ]
+    }
+  ]
+}

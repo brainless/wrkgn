@@ -1,0 +1,35 @@
+{
+  "id": 7620,
+  "slug": "codelens-d7c53bcea0",
+  "name": "CodeLens",
+  "mentions": [
+    {
+      "name": "CodeLens",
+      "description": "An open-source AI code reviewer that combines AI-powered review with static analysis in one place. Supports multiple LLMs (Ollama for local runs, Claude, and Gemini), integrates with GitHub and GitLab via webhooks, includes a developer pulse and leaderboard to gamify reviews, and provides LLM cost monitoring to avoid surprise bills.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "bhuvangupta"
+      ],
+      "source_excerpt": "Sharing my hobby project: CodeLens - yet another AI code reviewer :)\n\nCombines AI review (Ollama/Claude/Gemini) with static analysis in one place.",
+      "evidence": [
+        {
+          "source_item_id": 46586566,
+          "source_field": "body",
+          "value": "Sharing my hobby project: CodeLens - yet another AI code reviewer :)\n\nCombines AI review (Ollama/Claude/Gemini) with static analysis in one place.",
+          "supports": [],
+          "author": "bhuvangupta",
+          "shared_at": 1768213980,
+          "source_url": "https://news.ycombinator.com/item?id=46586566"
+        }
+      ],
+      "source_item_id": 46586566,
+      "source_url": "https://news.ycombinator.com/item?id=46586566",
+      "author": "bhuvangupta",
+      "shared_at": 1768213980,
+      "links": [
+        "https://bhuvangupta.github.io/codelens/"
+      ]
+    }
+  ]
+}

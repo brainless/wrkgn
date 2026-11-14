@@ -1,0 +1,35 @@
+{
+  "id": 5381,
+  "slug": "claude-code-electronics-development-environment-0086615b49",
+  "name": "Claude Code electronics development environment",
+  "mentions": [
+    {
+      "name": "Claude Code electronics development environment",
+      "description": "This development environment lets Claude Code and other agentic coding tools work with lab equipment such as oscilloscopes. Agents can program an MCU and verify on real hardware that the code produces the right output, and correlate SPICE simulations with actual measurements instead of doing the verification manually.",
+      "problem": "Verifying that MCU programs create the right output and correlating SPICE simulations with actual measurements is often tedious to do manually.",
+      "audience": null,
+      "builder_usernames": [
+        "lucasgerads"
+      ],
+      "source_excerpt": "I am building a dev envirnmont to use Claude Code (or other agentic coding tools) for electronics development. I give Claude access to my lab equipment like my scope. That way I can let claude programm an MCU and at the same time verify that it creates the right output. Also, it can correlate spice simulations with the actual measurements.",
+      "evidence": [
+        {
+          "source_item_id": 47749180,
+          "source_field": "body",
+          "value": "I am building a dev envirnmont to use Claude Code (or other agentic coding tools) for electronics development. I give Claude access to my lab equipment like my scope. That way I can let claude programm an MCU and at the same time verify that it creates the right output. Also, it can correlate spice simulations with the actual measurements.",
+          "supports": [],
+          "author": "lucasgerads",
+          "shared_at": 1776067685,
+          "source_url": "https://news.ycombinator.com/item?id=47749180"
+        }
+      ],
+      "source_item_id": 47749180,
+      "source_url": "https://news.ycombinator.com/item?id=47749180",
+      "author": "lucasgerads",
+      "shared_at": 1776067685,
+      "links": [
+        "https://lucasgerads.com/blog/lecroy-mcp-tutorial/"
+      ]
+    }
+  ]
+}

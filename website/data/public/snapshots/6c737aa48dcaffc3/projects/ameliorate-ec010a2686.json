@@ -1,0 +1,36 @@
+{
+  "id": 9821,
+  "slug": "ameliorate-ec010a2686",
+  "name": "Ameliorate",
+  "mentions": [
+    {
+      "name": "Ameliorate",
+      "description": "A webapp for collaboratively thinking critically about problems. Users build diagrams containing all details about a problem along with people's thoughts on it, organized so it can be continuously refined down to the smallest detail, creating a concrete shared understanding to reach better decisions. Current work includes UX to hide intermediate nodes while still drawing indirect edges, and a planned LLM integration to generate and update diagrams via natural language to lower usage barriers.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "keyserj"
+      ],
+      "source_excerpt": "Working on a webapp for critically think with others about a problem.\n\nThe idea is that you build a diagram that contains all the details about the problem and people's thoughts on it",
+      "evidence": [
+        {
+          "source_item_id": 45419314,
+          "source_field": "body",
+          "value": "Working on a webapp for critically think with others about a problem.\n\nThe idea is that you build a diagram that contains all the details about the problem and people's thoughts on it",
+          "supports": [],
+          "author": "keyserj",
+          "shared_at": 1759183279,
+          "source_url": "https://news.ycombinator.com/item?id=45419314"
+        }
+      ],
+      "source_item_id": 45419314,
+      "source_url": "https://news.ycombinator.com/item?id=45419314",
+      "author": "keyserj",
+      "shared_at": 1759183279,
+      "links": [
+        "https://ameliorate.app/",
+        "https://github.com/amelioro/ameliorate"
+      ]
+    }
+  ]
+}

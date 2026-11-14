@@ -1,0 +1,63 @@
+{
+  "id": 8427,
+  "slug": "terminalwire-ef04f25708",
+  "name": "Terminalwire",
+  "mentions": [
+    {
+      "name": "Terminalwire",
+      "description": "A framework described as \"Hotwire for command-line apps\" that lets a web application (currently Rails) ship a CLI without building a separate API. It streams stdio, browser launch commands, and other capabilities so SaaS products can add CLIs quickly; CLI features ship server-side, avoiding the need to push client updates or maintain API compatibility, with a goal of supporting all major web frameworks. Some companies also use it as a replacement for MCP in AI stacks, reporting lower token usage and better results.",
+      "problem": "Shipping CLI features normally requires pushing updates to client installs and keeping them compatible with your API.",
+      "audience": "Teams building SaaS products who want to ship a CLI quickly",
+      "builder_usernames": [
+        "bradgessler"
+      ],
+      "source_excerpt": "https://terminalwire.com\n\nIt’s “Hotwire for command-line apps”, meaning you can ship a CLI in a Rails app without building an API. The dream is to make it work for all major web frameworks.",
+      "evidence": [
+        {
+          "source_item_id": 46271025,
+          "source_field": "body",
+          "value": "https://terminalwire.com\n\nIt’s “Hotwire for command-line apps”, meaning you can ship a CLI in a Rails app without building an API. The dream is to make it work for all major web frameworks.",
+          "supports": [],
+          "author": "bradgessler",
+          "shared_at": 1765779428,
+          "source_url": "https://news.ycombinator.com/item?id=46271025"
+        }
+      ],
+      "source_item_id": 46271025,
+      "source_url": "https://news.ycombinator.com/item?id=46271025",
+      "author": "bradgessler",
+      "shared_at": 1765779428,
+      "links": [
+        "https://terminalwire.com"
+      ]
+    },
+    {
+      "name": "Terminalwire",
+      "description": "This tool streams a TUI/CLI from web apps, letting developers offer terminal access to their apps without having to build an API.",
+      "problem": "Having to build an API to stream a TUI/CLI from web apps.",
+      "audience": null,
+      "builder_usernames": [
+        "bradgessler"
+      ],
+      "source_excerpt": "https://terminalwire.com streams a TUI/CLI from web apps without having to build an API",
+      "evidence": [
+        {
+          "source_item_id": 45885122,
+          "source_field": "body",
+          "value": "https://terminalwire.com streams a TUI/CLI from web apps without having to build an API",
+          "supports": [],
+          "author": "bradgessler",
+          "shared_at": 1762848394,
+          "source_url": "https://news.ycombinator.com/item?id=45885122"
+        }
+      ],
+      "source_item_id": 45885122,
+      "source_url": "https://news.ycombinator.com/item?id=45885122",
+      "author": "bradgessler",
+      "shared_at": 1762848394,
+      "links": [
+        "https://terminalwire.com"
+      ]
+    }
+  ]
+}

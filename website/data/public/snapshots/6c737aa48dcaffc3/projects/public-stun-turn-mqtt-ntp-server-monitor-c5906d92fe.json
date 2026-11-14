@@ -1,0 +1,35 @@
+{
+  "id": 9031,
+  "slug": "public-stun-turn-mqtt-ntp-server-monitor-c5906d92fe",
+  "name": "Public STUN/TURN/MQTT/NTP Server Monitor",
+  "mentions": [
+    {
+      "name": "Public STUN/TURN/MQTT/NTP Server Monitor",
+      "description": "A server monitor for public STUN, TURN, MQTT, and NTP servers, built recently with the p2pd networking library. It checks the servers on a 4-hour interval to avoid spamming them.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Uptrenda"
+      ],
+      "source_excerpt": "Built this recently with it: http://ovh1.p2pd.net:8000/servers (server monitor for public STUN, TURN, MQTT, and NTP servers. Only checks every 4 hours to avoid spamming them though.)",
+      "evidence": [
+        {
+          "source_item_id": 45869934,
+          "source_field": "body",
+          "value": "Built this recently with it: http://ovh1.p2pd.net:8000/servers (server monitor for public STUN, TURN, MQTT, and NTP servers. Only checks every 4 hours to avoid spamming them though.)",
+          "supports": [],
+          "author": "Uptrenda",
+          "shared_at": 1762727985,
+          "source_url": "https://news.ycombinator.com/item?id=45869934"
+        }
+      ],
+      "source_item_id": 45869934,
+      "source_url": "https://news.ycombinator.com/item?id=45869934",
+      "author": "Uptrenda",
+      "shared_at": 1762727985,
+      "links": [
+        "http://ovh1.p2pd.net:8000/servers"
+      ]
+    }
+  ]
+}

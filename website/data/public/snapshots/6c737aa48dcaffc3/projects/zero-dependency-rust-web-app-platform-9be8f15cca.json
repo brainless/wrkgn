@@ -1,0 +1,33 @@
+{
+  "id": 8347,
+  "slug": "zero-dependency-rust-web-app-platform-9be8f15cca",
+  "name": "Zero-dependency Rust web app platform",
+  "mentions": [
+    {
+      "name": "Zero-dependency Rust web app platform",
+      "description": "A web app platform written in Rust with a primary focus on zero-dependency apps, using Pingora as a forward and reverse proxy. Hosting is targeted at Hetzner with Cloudflare for DNS. Its zero-dependency approach is designed to avoid Rust's long compile times by making compiles fast.",
+      "problem": "Rust's long compile times; zero dependencies make for fast compiles.",
+      "audience": null,
+      "builder_usernames": [
+        "thesurlydev"
+      ],
+      "source_excerpt": "A web app platform written in Rust with the primary focus on zero-dependency apps and using Pingora as a forward and reverse proxy. Targeting Hetzner for hosting and Cloudflare for DNS. I love Rust but don’t like the long compile times which led me down this rabbit hole (zero dependencies make for fast compiles).",
+      "evidence": [
+        {
+          "source_item_id": 46269425,
+          "source_field": "body",
+          "value": "A web app platform written in Rust with the primary focus on zero-dependency apps and using Pingora as a forward and reverse proxy. Targeting Hetzner for hosting and Cloudflare for DNS. I love Rust but don’t like the long compile times which led me down this rabbit hole (zero dependencies make for fast compiles).",
+          "supports": [],
+          "author": "thesurlydev",
+          "shared_at": 1765763374,
+          "source_url": "https://news.ycombinator.com/item?id=46269425"
+        }
+      ],
+      "source_item_id": 46269425,
+      "source_url": "https://news.ycombinator.com/item?id=46269425",
+      "author": "thesurlydev",
+      "shared_at": 1765763374,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 8039,
+  "slug": "ratatui-ruby-5e5aebebf4",
+  "name": "ratatui_ruby",
+  "mentions": [
+    {
+      "name": "ratatui_ruby",
+      "description": "A Ruby library for building terminal user interface (TUI) programs. It provides Ruby bindings for Ratatui and Crossterm (via Magnus for Rust<->Ruby) with a thin layer of DX niceties for Rubyists. It uses the immediate-mode rendering paradigm and serves as a core primitive for building MVU (Elm-like) or component-based (Smalltalk/DOM-like) architectures, with example applications included in the repository.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Kerrick"
+      ],
+      "source_excerpt": "A library to make TUI programs in Ruby.\n\nIt's Ratatui & Crossterm bindings (via Magnus for Rust<->Ruby), plus a thin veneer of DX niceties and Rubyist improvements.",
+      "evidence": [
+        {
+          "source_item_id": 46482993,
+          "source_field": "body",
+          "value": "A library to make TUI programs in Ruby.\n\nIt's Ratatui & Crossterm bindings (via Magnus for Rust<->Ruby), plus a thin veneer of DX niceties and Rubyist improvements.",
+          "supports": [],
+          "author": "Kerrick",
+          "shared_at": 1767483366,
+          "source_url": "https://news.ycombinator.com/item?id=46482993"
+        }
+      ],
+      "source_item_id": 46482993,
+      "source_url": "https://news.ycombinator.com/item?id=46482993",
+      "author": "Kerrick",
+      "shared_at": 1767483366,
+      "links": [
+        "https://sr.ht/~kerrick/ratatui_ruby/"
+      ]
+    }
+  ]
+}

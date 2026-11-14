@@ -1,0 +1,33 @@
+{
+  "id": 10103,
+  "slug": "voice-agent-evals-tool-043408e51d",
+  "name": "Voice Agent Evals Tool",
+  "mentions": [
+    {
+      "name": "Voice Agent Evals Tool",
+      "description": "This tool runs evals for voice agents. Users post their recordings, tools, and instructions, and the tool diffs them to spot changes, marks a note on each change, and runs evals automatically. It requires no configuration, figuring out the evals from the submitted data.",
+      "problem": null,
+      "audience": "Developers building realtime voice agents",
+      "builder_usernames": [
+        "cosbgn"
+      ],
+      "source_excerpt": "I'm working on a tool to do evals for voice agents. The way it works is that you simply post your recordings, tools, instructions, etc and we do a diff to spot if something changes, then we mark a note on the change and run evals.\n\nThe main idea is that you don't need to configure anything, simply send us the data and we should figure out evals for you.",
+      "evidence": [
+        {
+          "source_item_id": 45423723,
+          "source_field": "body",
+          "value": "I'm working on a tool to do evals for voice agents. The way it works is that you simply post your recordings, tools, instructions, etc and we do a diff to spot if something changes, then we mark a note on the change and run evals.\n\nThe main idea is that you don't need to configure anything, simply send us the data and we should figure out evals for you.",
+          "supports": [],
+          "author": "cosbgn",
+          "shared_at": 1759226310,
+          "source_url": "https://news.ycombinator.com/item?id=45423723"
+        }
+      ],
+      "source_item_id": 45423723,
+      "source_url": "https://news.ycombinator.com/item?id=45423723",
+      "author": "cosbgn",
+      "shared_at": 1759226310,
+      "links": []
+    }
+  ]
+}

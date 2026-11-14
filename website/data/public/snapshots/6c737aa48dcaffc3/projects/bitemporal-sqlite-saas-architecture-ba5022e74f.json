@@ -1,0 +1,33 @@
+{
+  "id": 5419,
+  "slug": "bitemporal-sqlite-saas-architecture-ba5022e74f",
+  "name": "Bitemporal SQLite SaaS Architecture",
+  "mentions": [
+    {
+      "name": "Bitemporal SQLite SaaS Architecture",
+      "description": "A software architecture for a SaaS product built on Bitemporal SQLite, guided by the notion of \"Sovereign Software\" so that any SaaS built on it never locks in customer data. The current core data model implementation is considered wrong and is being redone from scratch.",
+      "problem": "SaaS products locking in customer data; the architecture aims to ensure customers are never locked in.",
+      "audience": null,
+      "builder_usernames": [
+        "adityaathalye"
+      ],
+      "source_excerpt": "Still (in fits and starts) working toward a Bitemporal SQLite based (SaaS, for now) software architecture, because of an obsession with this notion of \"Sovereign Software\". Any SaaS I build should never lock in customer data, for example.",
+      "evidence": [
+        {
+          "source_item_id": 47748379,
+          "source_field": "body",
+          "value": "Still (in fits and starts) working toward a Bitemporal SQLite based (SaaS, for now) software architecture, because of an obsession with this notion of \"Sovereign Software\". Any SaaS I build should never lock in customer data, for example.",
+          "supports": [],
+          "author": "adityaathalye",
+          "shared_at": 1776061930,
+          "source_url": "https://news.ycombinator.com/item?id=47748379"
+        }
+      ],
+      "source_item_id": 47748379,
+      "source_url": "https://news.ycombinator.com/item?id=47748379",
+      "author": "adityaathalye",
+      "shared_at": 1776061930,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 10959,
+  "slug": "eli5-equations-b6056cd437",
+  "name": "Eli5 Equations",
+  "mentions": [
+    {
+      "name": "Eli5 Equations",
+      "description": "This app uses an LLM (Gemini) to convert a picture of an equation to LaTeX and, when given additional context, breaks down the equation's parts to explain it.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "hlfshell"
+      ],
+      "source_excerpt": "1. Eli5 equations(2) uses an LLM to convert a given picture of an equation to latex and, if given additional context, breaks down the equation parts to explain it. Gemini for the model.",
+      "evidence": [
+        {
+          "source_item_id": 43817625,
+          "source_field": "body",
+          "value": "1. Eli5 equations(2) uses an LLM to convert a given picture of an equation to latex and, if given additional context, breaks down the equation parts to explain it. Gemini for the model.",
+          "supports": [],
+          "author": "hlfshell",
+          "shared_at": 1745815272,
+          "source_url": "https://news.ycombinator.com/item?id=43817625"
+        }
+      ],
+      "source_item_id": 43817625,
+      "source_url": "https://news.ycombinator.com/item?id=43817625",
+      "author": "hlfshell",
+      "shared_at": 1745815272,
+      "links": [
+        "https://eli5equation.com"
+      ]
+    }
+  ]
+}

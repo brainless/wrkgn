@@ -1,0 +1,35 @@
+{
+  "id": 4759,
+  "slug": "burst-a1eb79bc03",
+  "name": "Burst",
+  "mentions": [
+    {
+      "name": "Burst",
+      "description": "This is an opinionated backup software written in Rust for performing weekly file backups. It was recently ported to use Tokio and is cross-platform, supporting Windows and macOS users.",
+      "problem": null,
+      "audience": "Windows and macOS users",
+      "builder_usernames": [
+        "fred1268"
+      ],
+      "source_excerpt": "Working on Burst (https://github.com/fred1268/burst) my opinionated backup software written in Rust, non only to weekly backup my files but also to learn Rust. I recently ported it to use Tokio. Ah, and it's cross platform for the Windows or macOS users.",
+      "evidence": [
+        {
+          "source_item_id": 48239814,
+          "source_field": "body",
+          "value": "Working on Burst (https://github.com/fred1268/burst) my opinionated backup software written in Rust, non only to weekly backup my files but also to learn Rust. I recently ported it to use Tokio. Ah, and it's cross platform for the Windows or macOS users.",
+          "supports": [],
+          "author": "fred1268",
+          "shared_at": 1779475687,
+          "source_url": "https://news.ycombinator.com/item?id=48239814"
+        }
+      ],
+      "source_item_id": 48239814,
+      "source_url": "https://news.ycombinator.com/item?id=48239814",
+      "author": "fred1268",
+      "shared_at": 1779475687,
+      "links": [
+        "https://github.com/fred1268/burst"
+      ]
+    }
+  ]
+}

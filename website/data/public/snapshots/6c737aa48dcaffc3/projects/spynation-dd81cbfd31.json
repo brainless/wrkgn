@@ -1,0 +1,36 @@
+{
+  "id": 5196,
+  "slug": "spynation-dd81cbfd31",
+  "name": "spynation",
+  "mentions": [
+    {
+      "name": "spynation",
+      "description": "An open dataset mapping the structural connections between Israel's tech/startup ecosystem and its military-intelligence apparatus, documenting the pipeline from intelligence units to billion-dollar companies. It includes examples such as Wiz's founders coming from Unit 8200, SoftBank's Israel operations being run by a former Mossad director, and the $1.5B VC fund CyberStarts openly recruiting Unit 8200 graduates.",
+      "problem": "The Israeli tech industry is presented as not a neutral commercial sector but a deliberate pipeline from military-intelligence units to billion-dollar companies, and these connections are not systematically mapped.",
+      "audience": null,
+      "builder_usernames": [
+        "rodjaime1"
+      ],
+      "source_excerpt": "I built an open dataset mapping the structural connections between Israel's tech/startup ecosystem and its military-intelligence apparatus.",
+      "evidence": [
+        {
+          "source_item_id": 47745485,
+          "source_field": "body",
+          "value": "I built an open dataset mapping the structural connections between Israel's tech/startup ecosystem and its military-intelligence apparatus.",
+          "supports": [],
+          "author": "rodjaime1",
+          "shared_at": 1776035486,
+          "source_url": "https://news.ycombinator.com/item?id=47745485"
+        }
+      ],
+      "source_item_id": 47745485,
+      "source_url": "https://news.ycombinator.com/item?id=47745485",
+      "author": "rodjaime1",
+      "shared_at": 1776035486,
+      "links": [
+        "https://github.com/mybr/spynation",
+        "https://mybr.github.io/spynation"
+      ]
+    }
+  ]
+}

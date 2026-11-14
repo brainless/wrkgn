@@ -1,0 +1,36 @@
+{
+  "id": 6919,
+  "slug": "renderling-245de00d05",
+  "name": "Renderling",
+  "mentions": [
+    {
+      "name": "Renderling",
+      "description": "An open-source, GPU-driven real-time renderer written in Rust that targets both native and web platforms via WebGPU. Its NLnet (NGI0 Commons Fund) funded roadmap includes a Rend3-compatible API layer and ultimately real-time global illumination via a GPU ray tracer.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "efnx"
+      ],
+      "source_excerpt": "I've been working on Renderling — an open-source, GPU-driven real-time renderer in Rust targeting both native and web (via WebGPU).",
+      "evidence": [
+        {
+          "source_item_id": 46970431,
+          "source_field": "body",
+          "value": "I've been working on Renderling — an open-source, GPU-driven real-time renderer in Rust targeting both native and web (via WebGPU).",
+          "supports": [],
+          "author": "efnx",
+          "shared_at": 1770780493,
+          "source_url": "https://news.ycombinator.com/item?id=46970431"
+        }
+      ],
+      "source_item_id": 46970431,
+      "source_url": "https://news.ycombinator.com/item?id=46970431",
+      "author": "efnx",
+      "shared_at": 1770780493,
+      "links": [
+        "https://github.com/schell/renderling",
+        "https://renderling.xyz/news/index.html#wed-11-feb-2026"
+      ]
+    }
+  ]
+}

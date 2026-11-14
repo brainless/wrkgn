@@ -1,0 +1,35 @@
+{
+  "id": 10596,
+  "slug": "burrito-15ca5bdef4",
+  "name": "Burrito",
+  "mentions": [
+    {
+      "name": "Burrito",
+      "description": "Open source TACoS (Terraform automation and collaboration software) that empowers infrastructure as code with drift detection, contribution workflows, and a comprehensive UI, built as a Kubernetes-based platform strongly inspired by ArgoCD.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "lucasmqs"
+      ],
+      "source_excerpt": "I’m working on an open source TACoS (Terraform automation and collaboration software) called Burrito.  \nOur goal is to empower infrastructure as code with drift detection, contribution workflows and a comprehensive UI, all in a Kubernetes based software strongly inspired by ArgoCD.",
+      "evidence": [
+        {
+          "source_item_id": 44703997,
+          "source_field": "body",
+          "value": "I’m working on an open source TACoS (Terraform automation and collaboration software) called Burrito.  \nOur goal is to empower infrastructure as code with drift detection, contribution workflows and a comprehensive UI, all in a Kubernetes based software strongly inspired by ArgoCD.",
+          "supports": [],
+          "author": "lucasmqs",
+          "shared_at": 1753645255,
+          "source_url": "https://news.ycombinator.com/item?id=44703997"
+        }
+      ],
+      "source_item_id": 44703997,
+      "source_url": "https://news.ycombinator.com/item?id=44703997",
+      "author": "lucasmqs",
+      "shared_at": 1753645255,
+      "links": [
+        "https://github.com/padok-team/burrito"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 8377,
+  "slug": "dedicated-language-analysis-model-be9f124740",
+  "name": "Dedicated language analysis model",
+  "mentions": [
+    {
+      "name": "Dedicated language analysis model",
+      "description": "This project is a dedicated language analysis model that detects the language of text in microseconds. It processes a token in roughly 100 ns on a single CPU core, in contrast to popular LLMs that take around 100 ms per token on a full GPU.",
+      "problem": "Existing LLMs are extremely slow for language analysis, taking about 100 ms per token on a full GPU.",
+      "audience": null,
+      "builder_usernames": [
+        "Ulf950"
+      ],
+      "source_excerpt": "On a dedicated language analysis model. For starters, it will detect a text language in microseconds. For comparison, a popular LLM takes 100 ms (10 tokens per second) on a full GPU to analyze one token; this new project processes a token in ~100 ns on only one CPU core!",
+      "evidence": [
+        {
+          "source_item_id": 46272343,
+          "source_field": "body",
+          "value": "On a dedicated language analysis model. For starters, it will detect a text language in microseconds. For comparison, a popular LLM takes 100 ms (10 tokens per second) on a full GPU to analyze one token; this new project processes a token in ~100 ns on only one CPU core!",
+          "supports": [],
+          "author": "Ulf950",
+          "shared_at": 1765792169,
+          "source_url": "https://news.ycombinator.com/item?id=46272343"
+        }
+      ],
+      "source_item_id": 46272343,
+      "source_url": "https://news.ycombinator.com/item?id=46272343",
+      "author": "Ulf950",
+      "shared_at": 1765792169,
+      "links": []
+    }
+  ]
+}

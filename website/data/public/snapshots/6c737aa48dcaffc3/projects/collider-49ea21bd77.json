@@ -1,0 +1,35 @@
+{
+  "id": 6276,
+  "slug": "collider-49ea21bd77",
+  "name": "Collider",
+  "mentions": [
+    {
+      "name": "Collider",
+      "description": "A wrap-based package and dependency manager for Meson. It builds on Meson's wrap system: dependencies are declared in collider.json, collider lock produces reproducible installs with a lockfile, and projects can be pushed as wraps to a local or HTTP repository. It is compatible with WrapDB, so existing workflows continue to work while users get a way to publish and depend on their own packages with proper versioning. Licensed Apache-2.0.",
+      "problem": "The author needed a way to use and push their own artifacts in Meson projects; WrapDB only covers upstream dependencies and lacked publishing own packages with proper versioning and a lockfile without hand-editing wrap files.",
+      "audience": null,
+      "builder_usernames": [
+        "mog_dev"
+      ],
+      "source_excerpt": "I built Collider, A wrap-based package and dependency manager for Meson.",
+      "evidence": [
+        {
+          "source_item_id": 47306151,
+          "source_field": "body",
+          "value": "I built Collider, A wrap-based package and dependency manager for Meson.",
+          "supports": [],
+          "author": "mog_dev",
+          "shared_at": 1773044308,
+          "source_url": "https://news.ycombinator.com/item?id=47306151"
+        }
+      ],
+      "source_item_id": 47306151,
+      "source_url": "https://news.ycombinator.com/item?id=47306151",
+      "author": "mog_dev",
+      "shared_at": 1773044308,
+      "links": [
+        "https://collider.ee"
+      ]
+    }
+  ]
+}

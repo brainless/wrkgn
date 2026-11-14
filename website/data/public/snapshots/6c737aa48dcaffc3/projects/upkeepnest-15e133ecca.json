@@ -1,0 +1,63 @@
+{
+  "id": 3537,
+  "slug": "upkeepnest-15e133ecca",
+  "name": "Upkeepnest",
+  "mentions": [
+    {
+      "name": "Upkeepnest",
+      "description": "This app tracks home maintenance tasks with floating repetition and seasonality, replacing rigid calendar reminders for chores that recur yearly, seasonally, or on irregular schedules.",
+      "problem": "Calendar events are a poor fit for home maintenance that happens once a year or only in certain seasons, forcing manual rescheduling and off-season notifications.",
+      "audience": null,
+      "builder_usernames": [
+        "evandev"
+      ],
+      "source_excerpt": "I've been working on releasing an app for maintenance tracking for home. I've always had problems with having in my calendar to replace a battery in my chicken coop every year, then things come up and I end up replacing the battery a few weeks later, so I have to go and change my calendar event. Or fertilizing my hops every two weeks only in the summer. Then in the winter I am getting notified every two weeks. So I built a simple app for tracking those with floating repetition and seasonality. [0]",
+      "evidence": [
+        {
+          "source_item_id": 48532854,
+          "source_field": "body",
+          "value": "I've been working on releasing an app for maintenance tracking for home. I've always had problems with having in my calendar to replace a battery in my chicken coop every year, then things come up and I end up replacing the battery a few weeks later, so I have to go and change my calendar event. Or fertilizing my hops every two weeks only in the summer. Then in the winter I am getting notified every two weeks. So I built a simple app for tracking those with floating repetition and seasonality. [0]",
+          "supports": [],
+          "author": "evandev",
+          "shared_at": 1781471963,
+          "source_url": "https://news.ycombinator.com/item?id=48532854"
+        }
+      ],
+      "source_item_id": 48532854,
+      "source_url": "https://news.ycombinator.com/item?id=48532854",
+      "author": "evandev",
+      "shared_at": 1781471963,
+      "links": [
+        "https://upkeepnest.com"
+      ]
+    },
+    {
+      "name": "UpkeepNest",
+      "description": "A maintenance tracking app for household and garden tasks that schedules recurring upkeep—like replacing the chicken coop battery or fertilizing hop plants—at the right time instead of fixed calendar dates, and shows what gardening, planting, and chicken tasks are due.",
+      "problem": "Fixed calendar reminders don't fit seasonal, condition-based tasks: recurring events fire at the wrong time (fertilizing reminders in January) or drift late (replacing the chicken coop battery a month overdue), and family members don't know what tasks need doing, especially in spring.",
+      "audience": "The author and his household managing home, garden, and chicken care",
+      "builder_usernames": [
+        "evandev"
+      ],
+      "source_excerpt": "I built a maintenance tracking app that I can use for household/garden tasks.",
+      "evidence": [
+        {
+          "source_item_id": 48095066,
+          "source_field": "body",
+          "value": "I built a maintenance tracking app that I can use for household/garden tasks.",
+          "supports": [],
+          "author": "evandev",
+          "shared_at": 1778507765,
+          "source_url": "https://news.ycombinator.com/item?id=48095066"
+        }
+      ],
+      "source_item_id": 48095066,
+      "source_url": "https://news.ycombinator.com/item?id=48095066",
+      "author": "evandev",
+      "shared_at": 1778507765,
+      "links": [
+        "https://upkeepnest.com"
+      ]
+    }
+  ]
+}

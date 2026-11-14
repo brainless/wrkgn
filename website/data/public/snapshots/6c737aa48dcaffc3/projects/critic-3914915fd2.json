@@ -1,0 +1,36 @@
+{
+  "id": 11054,
+  "slug": "critic-3914915fd2",
+  "name": "Critic",
+  "mentions": [
+    {
+      "name": "Critic",
+      "description": "This tool provides a customizable inbox for GitHub pull requests, letting users create any number of sections, each defined by an arbitrary search query, to manage incoming PRs. It is open source and aims to expand into a better code review experience similar to Graphite or Reviewable.",
+      "problem": "Managing the stream of incoming pull requests on GitHub is frustrating because the default inbox and notification systems are poor and inflexible.",
+      "audience": null,
+      "builder_usernames": [
+        "pvcnt"
+      ],
+      "source_excerpt": "Critic (https://getcritic.dev) - An improved inbox for GitHub pull requests",
+      "evidence": [
+        {
+          "source_item_id": 43820969,
+          "source_field": "body",
+          "value": "Critic (https://getcritic.dev) - An improved inbox for GitHub pull requests",
+          "supports": [],
+          "author": "pvcnt",
+          "shared_at": 1745844679,
+          "source_url": "https://news.ycombinator.com/item?id=43820969"
+        }
+      ],
+      "source_item_id": 43820969,
+      "source_url": "https://news.ycombinator.com/item?id=43820969",
+      "author": "pvcnt",
+      "shared_at": 1745844679,
+      "links": [
+        "https://getcritic.dev",
+        "https://github.com/pvcnt/critic"
+      ]
+    }
+  ]
+}

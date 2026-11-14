@@ -1,0 +1,35 @@
+{
+  "id": 4426,
+  "slug": "raft-consensus-implementation-in-c-4fd388808e",
+  "name": "Raft consensus implementation in C++",
+  "mentions": [
+    {
+      "name": "Raft consensus implementation in C++",
+      "description": "A from-scratch implementation of the Raft consensus algorithm in C++ using raw TCP sockets. It includes a high-performance RPC client and server built to minimize network latency, and demonstrates event-driven I/O with epoll and event-loop architectures for asynchronous networking.",
+      "problem": "Built as a learning exercise to hone systems programming skills and get more comfortable with distributed systems.",
+      "audience": null,
+      "builder_usernames": [
+        "ayanmali"
+      ],
+      "source_excerpt": "I'm implementing Raft consensus from scratch in C++ with raw TCP sockets. Right now I'm working on a high-performance RPC client and server to keep network latency to a minimum.",
+      "evidence": [
+        {
+          "source_item_id": 48089929,
+          "source_field": "body",
+          "value": "I'm implementing Raft consensus from scratch in C++ with raw TCP sockets. Right now I'm working on a high-performance RPC client and server to keep network latency to a minimum.",
+          "supports": [],
+          "author": "ayanmali",
+          "shared_at": 1778461677,
+          "source_url": "https://news.ycombinator.com/item?id=48089929"
+        }
+      ],
+      "source_item_id": 48089929,
+      "source_url": "https://news.ycombinator.com/item?id=48089929",
+      "author": "ayanmali",
+      "shared_at": 1778461677,
+      "links": [
+        "https://github.com/ayanmali/raft"
+      ]
+    }
+  ]
+}

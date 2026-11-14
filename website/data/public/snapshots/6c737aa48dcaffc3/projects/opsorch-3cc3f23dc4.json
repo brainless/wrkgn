@@ -1,0 +1,35 @@
+{
+  "id": 8300,
+  "slug": "opsorch-3cc3f23dc4",
+  "name": "OpsOrch",
+  "mentions": [
+    {
+      "name": "OpsOrch",
+      "description": "This open-source orchestration layer provides a single API spanning incidents, logs, metrics, tickets, messaging, and service metadata. It sits on top of existing tools like PagerDuty, Jira, Prometheus, Elasticsearch, and Slack, normalizing them into a shared schema via pluggable adapters without storing operational data. It also exposes everything through an MCP server so LLM agents can query incidents, metrics, and logs as typed tools without vendor-specific knowledge.",
+      "problem": "Incident response workflows still require hopping across multiple vendor UIs and APIs with different auth models and query languages.",
+      "audience": "SREs and infrastructure folks",
+      "builder_usernames": [
+        "yusufaytas"
+      ],
+      "source_excerpt": "I’m working on OpsOrch(https://www.opsorch.com/), an open-source orchestration layer that provides a single API across incidents, logs, metrics, tickets, messaging, and service metadata.",
+      "evidence": [
+        {
+          "source_item_id": 46270714,
+          "source_field": "body",
+          "value": "I’m working on OpsOrch(https://www.opsorch.com/), an open-source orchestration layer that provides a single API across incidents, logs, metrics, tickets, messaging, and service metadata.",
+          "supports": [],
+          "author": "yusufaytas",
+          "shared_at": 1765775673,
+          "source_url": "https://news.ycombinator.com/item?id=46270714"
+        }
+      ],
+      "source_item_id": 46270714,
+      "source_url": "https://news.ycombinator.com/item?id=46270714",
+      "author": "yusufaytas",
+      "shared_at": 1765775673,
+      "links": [
+        "https://www.opsorch.com/"
+      ]
+    }
+  ]
+}

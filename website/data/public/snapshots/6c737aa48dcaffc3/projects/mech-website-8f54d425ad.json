@@ -1,0 +1,36 @@
+{
+  "id": 4474,
+  "slug": "mech-website-8f54d425ad",
+  "name": "Mech website",
+  "mentions": [
+    {
+      "name": "Mech website",
+      "description": "A website showcasing the document formatting capabilities of the Mech programming language. It is built with Mech's builtin presentation layer, Mechdown, a Markdown dialect that allows tight integration between the document and the underlying program.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "cmontella"
+      ],
+      "source_excerpt": "Last couple weeks I've been building a new website to showcase the document formatting capabilities of my programming language Mech. It's out now:\n\nhttps://mech-lang.org/post/2026-05-11-version-0.3/",
+      "evidence": [
+        {
+          "source_item_id": 48099543,
+          "source_field": "body",
+          "value": "Last couple weeks I've been building a new website to showcase the document formatting capabilities of my programming language Mech. It's out now:\n\nhttps://mech-lang.org/post/2026-05-11-version-0.3/",
+          "supports": [],
+          "author": "cmontella",
+          "shared_at": 1778527626,
+          "source_url": "https://news.ycombinator.com/item?id=48099543"
+        }
+      ],
+      "source_item_id": 48099543,
+      "source_url": "https://news.ycombinator.com/item?id=48099543",
+      "author": "cmontella",
+      "shared_at": 1778527626,
+      "links": [
+        "https://gitlab.com/mech-lang/web/website/-/raw/df4784d44b4ea48984de41db5700f5783beb2e0c/public/post/2026-04-15-version-0.3/index.mec",
+        "https://mech-lang.org/post/2026-05-11-version-0.3/"
+      ]
+    }
+  ]
+}

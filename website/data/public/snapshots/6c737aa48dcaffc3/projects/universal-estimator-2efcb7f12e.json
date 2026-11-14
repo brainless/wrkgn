@@ -1,0 +1,35 @@
+{
+  "id": 10992,
+  "slug": "universal-estimator-2efcb7f12e",
+  "name": "Universal Estimator",
+  "mentions": [
+    {
+      "name": "Universal Estimator",
+      "description": "A web tool that generates project effort estimates from Jira tickets or other written descriptions. It uses the OpenAI API's ability to return probability distributions over next tokens to show the distribution of potential outcomes rather than a single number, and asks follow-up questions to add context. Includes a sample estimate for a ticket about implementing dashboard filtering.",
+      "problem": "Software estimation keeps developers from building and is almost never done with enough context to produce accurate results; the author experienced this as a developer and as a CTO spent extensive time discussing project timelines with people.",
+      "audience": "Developers and engineering leaders who need to estimate how long software projects will take",
+      "builder_usernames": [
+        "estsauver"
+      ],
+      "source_excerpt": "universalestimator.com\n\nI started experimenting and I think this builds out pretty neat estimations from jira tickets/other descriptions.",
+      "evidence": [
+        {
+          "source_item_id": 43819107,
+          "source_field": "body",
+          "value": "universalestimator.com\n\nI started experimenting and I think this builds out pretty neat estimations from jira tickets/other descriptions.",
+          "supports": [],
+          "author": "estsauver",
+          "shared_at": 1745830759,
+          "source_url": "https://news.ycombinator.com/item?id=43819107"
+        }
+      ],
+      "source_item_id": 43819107,
+      "source_url": "https://news.ycombinator.com/item?id=43819107",
+      "author": "estsauver",
+      "shared_at": 1745830759,
+      "links": [
+        "https://universalestimator.com/estimates/c68db45b-7622-4bab-8b09-18a407653b27"
+      ]
+    }
+  ]
+}

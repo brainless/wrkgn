@@ -1,0 +1,35 @@
+{
+  "id": 4621,
+  "slug": "retcon-767e7a7d26",
+  "name": "retcon",
+  "mentions": [
+    {
+      "name": "retcon",
+      "description": "This tool is a middleman layer for Claude Code that lets the AI agent edit its own conversation history or rewind itself to a previous round. Named for the verb recontextualize, it flips the rewind model: instead of the user typing a /rewind command, the AI retcons its own past turns so earlier mistakes no longer fight the user's corrections.",
+      "problem": "When an AI misunderstands a request, users correct it by words, but the messed-up turn stays in context and the AI keeps fighting both the correction and its own past mistake.",
+      "audience": null,
+      "builder_usernames": [
+        "cosimo-dw"
+      ],
+      "source_excerpt": "I am building retcon (https://github.com/WujiLabs/retcon), a Claude Code middleman layer allowing the AI agent to edit its own conversation history or rewind itself to a previous round.",
+      "evidence": [
+        {
+          "source_item_id": 48096580,
+          "source_field": "body",
+          "value": "I am building retcon (https://github.com/WujiLabs/retcon), a Claude Code middleman layer allowing the AI agent to edit its own conversation history or rewind itself to a previous round.",
+          "supports": [],
+          "author": "cosimo-dw",
+          "shared_at": 1778514460,
+          "source_url": "https://news.ycombinator.com/item?id=48096580"
+        }
+      ],
+      "source_item_id": 48096580,
+      "source_url": "https://news.ycombinator.com/item?id=48096580",
+      "author": "cosimo-dw",
+      "shared_at": 1778514460,
+      "links": [
+        "https://github.com/WujiLabs/retcon"
+      ]
+    }
+  ]
+}

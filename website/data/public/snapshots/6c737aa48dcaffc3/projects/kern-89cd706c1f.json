@@ -1,0 +1,35 @@
+{
+  "id": 4061,
+  "slug": "kern-89cd706c1f",
+  "name": "Kern",
+  "mentions": [
+    {
+      "name": "Kern",
+      "description": "Kern is a small, git-native LLM workflow tool inspired by make and Unix. Modules are simply folders, the tool reads from stdio and writes to stdout, and runs are stored as plain text files containing inputs, outputs, and metadata.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "vichoiglesias"
+      ],
+      "source_excerpt": "I’m working on Kern, a small, git native, make and unix inspired llm workflow.\n\nModules are simply folders, and the tool just reads from stdio and outputs to stdout. Runs are stored in simple text files with all the info of inputs, outputs and other metadata.",
+      "evidence": [
+        {
+          "source_item_id": 48531889,
+          "source_field": "body",
+          "value": "I’m working on Kern, a small, git native, make and unix inspired llm workflow.\n\nModules are simply folders, and the tool just reads from stdio and outputs to stdout. Runs are stored in simple text files with all the info of inputs, outputs and other metadata.",
+          "supports": [],
+          "author": "vichoiglesias",
+          "shared_at": 1781466718,
+          "source_url": "https://news.ycombinator.com/item?id=48531889"
+        }
+      ],
+      "source_item_id": 48531889,
+      "source_url": "https://news.ycombinator.com/item?id=48531889",
+      "author": "vichoiglesias",
+      "shared_at": 1781466718,
+      "links": [
+        "https://github.com/vichoiglesias/kern"
+      ]
+    }
+  ]
+}

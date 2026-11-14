@@ -1,0 +1,33 @@
+{
+  "id": 6585,
+  "slug": "prompt-injection-defense-solution-80182d102b",
+  "name": "Prompt injection defense solution",
+  "mentions": [
+    {
+      "name": "Prompt injection defense solution",
+      "description": "A prompt injection defense solution for AI systems that benchmarks better than other approaches, without using hard-coded filters or a lightweight LLM that adds latency.",
+      "problem": "Prompt injection attacks on AI systems, typically defended with hard-coded filters or lightweight LLMs that add latency.",
+      "audience": null,
+      "builder_usernames": [
+        "ericb"
+      ],
+      "source_excerpt": "A prompt injection solution that seems to benchmark better than any other approach out there, while not using hard-coded filters or a lightweight LLM which adds latency.",
+      "evidence": [
+        {
+          "source_item_id": 47303640,
+          "source_field": "body",
+          "value": "A prompt injection solution that seems to benchmark better than any other approach out there, while not using hard-coded filters or a lightweight LLM which adds latency.",
+          "supports": [],
+          "author": "ericb",
+          "shared_at": 1773018836,
+          "source_url": "https://news.ycombinator.com/item?id=47303640"
+        }
+      ],
+      "source_item_id": 47303640,
+      "source_url": "https://news.ycombinator.com/item?id=47303640",
+      "author": "ericb",
+      "shared_at": 1773018836,
+      "links": []
+    }
+  ]
+}

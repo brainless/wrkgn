@@ -1,0 +1,35 @@
+{
+  "id": 6625,
+  "slug": "vizpy-27fbf09e97",
+  "name": "VizPy",
+  "mentions": [
+    {
+      "name": "VizPy",
+      "description": "This tool is a prompt optimizer for LLM workflows that finds the consistent pattern behind prompt failures, distills it into a readable plain-English rule, and rewrites the prompt around that rule. Users also receive the rule itself to review, tweak, or drop into an existing prompt directly. It is DSPy-compatible and requires no pipeline rewrite, and the authors report benchmark wins against baselines such as GEPA on BBH, HotPotQA, GPQA Diamond, and GDPR-Bench, with cyber-security and chip-design benchmarks planned. It is free to try with 10 runs and no card required.",
+      "problem": "LLM prompts fail on some inputs without clear explanation, forcing developers to guess and repeatedly tweak and re-run prompts until something sticks.",
+      "audience": "People building applications with LLMs",
+      "builder_usernames": [
+        "se4u"
+      ],
+      "source_excerpt": "Building VizPy, a prompt optimizer we've been working on for a while now.\n\nThe problem it's solving is one most people building with LLMs know well. Your prompt fails on some inputs, you don't really know why, and you end up just tweaking and re-running until something sticks.",
+      "evidence": [
+        {
+          "source_item_id": 47427866,
+          "source_field": "body",
+          "value": "Building VizPy, a prompt optimizer we've been working on for a while now.\n\nThe problem it's solving is one most people building with LLMs know well. Your prompt fails on some inputs, you don't really know why, and you end up just tweaking and re-running until something sticks.",
+          "supports": [],
+          "author": "se4u",
+          "shared_at": 1773851628,
+          "source_url": "https://news.ycombinator.com/item?id=47427866"
+        }
+      ],
+      "source_item_id": 47427866,
+      "source_url": "https://news.ycombinator.com/item?id=47427866",
+      "author": "se4u",
+      "shared_at": 1773851628,
+      "links": [
+        "https://vizpy.vizops.ai/"
+      ]
+    }
+  ]
+}

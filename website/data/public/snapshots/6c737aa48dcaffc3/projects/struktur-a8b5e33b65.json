@@ -1,0 +1,35 @@
+{
+  "id": 6414,
+  "slug": "struktur-a8b5e33b65",
+  "name": "struktur",
+  "mentions": [
+    {
+      "name": "struktur",
+      "description": "An all-in-one command-line tool for structured data extraction with LLMs. It prepares documents (e.g., converting PDFs to text), runs multiple extraction strategies, and executes a full in-process agent loop for data extraction using Pi agent and just-bash.dev, supporting actions like grepping through large files. Usage example: struktur extract —input doc.pdf —schema schema.json —model openai/gpt-5.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "capevace"
+      ],
+      "source_excerpt": "https://struktur.sh\n\nAn all-in-one tool for structured data extraction with LLMs.",
+      "evidence": [
+        {
+          "source_item_id": 47309140,
+          "source_field": "body",
+          "value": "https://struktur.sh\n\nAn all-in-one tool for structured data extraction with LLMs.",
+          "supports": [],
+          "author": "capevace",
+          "shared_at": 1773064687,
+          "source_url": "https://news.ycombinator.com/item?id=47309140"
+        }
+      ],
+      "source_item_id": 47309140,
+      "source_url": "https://news.ycombinator.com/item?id=47309140",
+      "author": "capevace",
+      "shared_at": 1773064687,
+      "links": [
+        "https://struktur.sh"
+      ]
+    }
+  ]
+}

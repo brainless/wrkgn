@@ -1,0 +1,35 @@
+{
+  "id": 8006,
+  "slug": "cyberbrain-dcf91463fe",
+  "name": "cyberbrain",
+  "mentions": [
+    {
+      "name": "cyberbrain",
+      "description": "A Go-based architecture for writing event/data-driven applications, built on an in-memory directed graph store. Developers define single \"actions\" with data-structure dependencies, and the system automatically creates payloads for action executions and parallelizes all jobs across workers by default, so no manual concurrency handling is needed and the system scales well with many workers.",
+      "problem": "Conventional code chains components through direct calls (A calls B calls C calls D...) and requires developers to handle concurrency manually; this architecture replaces call chains with dependency-driven actions that are multithreaded and automatically parallel processed.",
+      "audience": "Developers writing event/data-driven applications",
+      "builder_usernames": [
+        "voodooEntity"
+      ],
+      "source_excerpt": "1. cyberbrain ( https://github.com/voodooEntity/cyberbrain )\nIt is a golang based architecture to write event/data driven applications. It is based on an in-memory directed graph storage ( i also wrote https://github.com/voodooEntity/gits). The point of the system is that instead of writing code where A calls B calls C calls D .... you define single \"actions\".",
+      "evidence": [
+        {
+          "source_item_id": 46587223,
+          "source_field": "body",
+          "value": "1. cyberbrain ( https://github.com/voodooEntity/cyberbrain )\nIt is a golang based architecture to write event/data driven applications. It is based on an in-memory directed graph storage ( i also wrote https://github.com/voodooEntity/gits). The point of the system is that instead of writing code where A calls B calls C calls D .... you define single \"actions\".",
+          "supports": [],
+          "author": "voodooEntity",
+          "shared_at": 1768218983,
+          "source_url": "https://news.ycombinator.com/item?id=46587223"
+        }
+      ],
+      "source_item_id": 46587223,
+      "source_url": "https://news.ycombinator.com/item?id=46587223",
+      "author": "voodooEntity",
+      "shared_at": 1768218983,
+      "links": [
+        "https://github.com/voodooEntity/cyberbrain"
+      ]
+    }
+  ]
+}

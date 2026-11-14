@@ -1,0 +1,35 @@
+{
+  "id": 6878,
+  "slug": "allscreenshots-com-f7cc5edb49",
+  "name": "allscreenshots.com",
+  "mentions": [
+    {
+      "name": "allscreenshots.com",
+      "description": "A screenshot API for developers that auto-dismisses cookie consent dialogs using Playwright heuristics, serves AVIF-first images from Cloudflare R2, and supports geo-distributed rendering so pages can be captured as they would appear from different regions. Built with Spring Boot, React, and PostgreSQL.",
+      "problem": "Existing screenshot services choke on cookie banners, render half-loaded pages, and serve bloated images.",
+      "audience": "Developers",
+      "builder_usernames": [
+        "erikpau"
+      ],
+      "source_excerpt": "Working on https://allscreenshots.com - a screenshot API for developers.\n\nI got frustrated with existing screenshot services choking on cookie banners, rendering half-loaded pages, and serving bloated images. So my co-founder and I built one that auto-dismisses cookie consent dialogs using Playwright heuristics, serves AVIF-first from Cloudflare R2, and supports geo-distributed rendering so you can capture pages as they'd appear from different regions.",
+      "evidence": [
+        {
+          "source_item_id": 46943170,
+          "source_field": "body",
+          "value": "Working on https://allscreenshots.com - a screenshot API for developers.\n\nI got frustrated with existing screenshot services choking on cookie banners, rendering half-loaded pages, and serving bloated images. So my co-founder and I built one that auto-dismisses cookie consent dialogs using Playwright heuristics, serves AVIF-first from Cloudflare R2, and supports geo-distributed rendering so you can capture pages as they'd appear from different regions.",
+          "supports": [],
+          "author": "erikpau",
+          "shared_at": 1770627567,
+          "source_url": "https://news.ycombinator.com/item?id=46943170"
+        }
+      ],
+      "source_item_id": 46943170,
+      "source_url": "https://news.ycombinator.com/item?id=46943170",
+      "author": "erikpau",
+      "shared_at": 1770627567,
+      "links": [
+        "https://allscreenshots.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 7165,
+  "slug": "acorn-d1ba658360",
+  "name": "acorn",
+  "mentions": [
+    {
+      "name": "acorn",
+      "description": "A simple AI agent framework built around the agent loop and its steps. It lets users change the model, temperature, tools, and history in real time, and supports spinning off work on a branch and then merging the results back into the main branch. Still early but developing fast.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "onel"
+      ],
+      "source_excerpt": "https://github.com/askmanu/acorn\n\nA straightforward and simple AI agent framework.\nIt puts a lot of emphasis on the loop and the steps in that loop. You can change in real time the model, the temperature, the tools, the history.\nYou're also able to spin-off work on a branch and then add the result of that work on the main branch.\nStill early but developing very fast.",
+      "evidence": [
+        {
+          "source_item_id": 46944291,
+          "source_field": "body",
+          "value": "https://github.com/askmanu/acorn\n\nA straightforward and simple AI agent framework.\nIt puts a lot of emphasis on the loop and the steps in that loop. You can change in real time the model, the temperature, the tools, the history.\nYou're also able to spin-off work on a branch and then add the result of that work on the main branch.\nStill early but developing very fast.",
+          "supports": [],
+          "author": "onel",
+          "shared_at": 1770638322,
+          "source_url": "https://news.ycombinator.com/item?id=46944291"
+        }
+      ],
+      "source_item_id": 46944291,
+      "source_url": "https://news.ycombinator.com/item?id=46944291",
+      "author": "onel",
+      "shared_at": 1770638322,
+      "links": [
+        "https://github.com/askmanu/acorn"
+      ]
+    }
+  ]
+}

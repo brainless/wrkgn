@@ -1,0 +1,63 @@
+{
+  "id": 623,
+  "slug": "agent-friendly-code-4e765b6b4b",
+  "name": "Agent Friendly Code",
+  "mentions": [
+    {
+      "name": "Agent Friendly Code",
+      "description": "A tool that scores a codebase for different AI coding agents using their static signals, helping users find out which agent might perform better in their codebase.",
+      "problem": null,
+      "audience": "Developers deciding which AI coding agent to use on their codebase",
+      "builder_usernames": [
+        "hsnice16"
+      ],
+      "source_excerpt": "Working on https://agentfriendlycode.com/\n\nThe project lets you find out which agent might perform better in your codebase. It scores the codebase for different agents using their static signals and gives you a response.",
+      "evidence": [
+        {
+          "source_item_id": 50420968,
+          "source_field": "body",
+          "value": "Working on https://agentfriendlycode.com/\n\nThe project lets you find out which agent might perform better in your codebase. It scores the codebase for different agents using their static signals and gives you a response.",
+          "supports": [],
+          "author": "hsnice16",
+          "shared_at": 1794197377,
+          "source_url": "https://news.ycombinator.com/item?id=50420968"
+        }
+      ],
+      "source_item_id": 50420968,
+      "source_url": "https://news.ycombinator.com/item?id=50420968",
+      "author": "hsnice16",
+      "shared_at": 1794197377,
+      "links": [
+        "https://agentfriendlycode.com/"
+      ]
+    },
+    {
+      "name": "Agent-friendly scorer",
+      "description": "This tool scores public repositories for their agent friendliness. It ships a GitHub Action that posts the score delta as a PR comment, and can be added as a skill to determine which agent performs better on a codebase.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "hsnice16"
+      ],
+      "source_excerpt": "I am working on the agent-friendly scorer. It scores the public repos for their agent friendliness. The project also has a GitHub action to comment on the score delta in a PR comment. You can add it as a skill to find out which agent will perform better for the codebase.",
+      "evidence": [
+        {
+          "source_item_id": 48091900,
+          "source_field": "body",
+          "value": "I am working on the agent-friendly scorer. It scores the public repos for their agent friendliness. The project also has a GitHub action to comment on the score delta in a PR comment. You can add it as a skill to find out which agent will perform better for the codebase.",
+          "supports": [],
+          "author": "hsnice16",
+          "shared_at": 1778483115,
+          "source_url": "https://news.ycombinator.com/item?id=48091900"
+        }
+      ],
+      "source_item_id": 48091900,
+      "source_url": "https://news.ycombinator.com/item?id=48091900",
+      "author": "hsnice16",
+      "shared_at": 1778483115,
+      "links": [
+        "https://agentfriendlycode.com/"
+      ]
+    }
+  ]
+}

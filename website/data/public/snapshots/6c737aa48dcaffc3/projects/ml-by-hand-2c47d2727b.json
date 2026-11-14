@@ -1,0 +1,63 @@
+{
+  "id": 3604,
+  "slug": "ml-by-hand-2c47d2727b",
+  "name": "ml-by-hand",
+  "mentions": [
+    {
+      "name": "ml-by-hand",
+      "description": "A deep learning library built from numpy primitives that supports LLM post-training techniques such as supervised fine-tuning (SFT) and reinforcement learning with GRPO. It is developed from scratch without high-level abstractions as a learning exercise, building the wheel and then using that wheel to build the car.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "megadragon9"
+      ],
+      "source_excerpt": "I'm continuing to expand my own deep learning library [1] built with numpy-primitives to support LLM post-training techniques like supervised fine-tuning (SFT) and reinforcement learning with GRPO.",
+      "evidence": [
+        {
+          "source_item_id": 48531694,
+          "source_field": "body",
+          "value": "I'm continuing to expand my own deep learning library [1] built with numpy-primitives to support LLM post-training techniques like supervised fine-tuning (SFT) and reinforcement learning with GRPO.",
+          "supports": [],
+          "author": "megadragon9",
+          "shared_at": 1781465581,
+          "source_url": "https://news.ycombinator.com/item?id=48531694"
+        }
+      ],
+      "source_item_id": 48531694,
+      "source_url": "https://news.ycombinator.com/item?id=48531694",
+      "author": "megadragon9",
+      "shared_at": 1781465581,
+      "links": [
+        "https://github.com/workofart/ml-by-hand"
+      ]
+    },
+    {
+      "name": "ml-by-hand",
+      "description": "A from-scratch deep learning library built with Python and Numpy as a PyTorch clone, being expanded to support LLM post-training techniques such as supervised fine-tuning (SFT) and reinforcement learning with GRPO, written to work without high-level abstractions.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "megadragon9"
+      ],
+      "source_excerpt": "I'm continuing to expand my own deep learning library [1] (PyTorch-clone built with Python and Numpy) to support LLM post-training techniques like supervised fine-tuning (SFT) [2] and reinforcement learning with GRPO [3]",
+      "evidence": [
+        {
+          "source_item_id": 48145343,
+          "source_field": "body",
+          "value": "I'm continuing to expand my own deep learning library [1] (PyTorch-clone built with Python and Numpy) to support LLM post-training techniques like supervised fine-tuning (SFT) [2] and reinforcement learning with GRPO [3]",
+          "supports": [],
+          "author": "megadragon9",
+          "shared_at": 1778827821,
+          "source_url": "https://news.ycombinator.com/item?id=48145343"
+        }
+      ],
+      "source_item_id": 48145343,
+      "source_url": "https://news.ycombinator.com/item?id=48145343",
+      "author": "megadragon9",
+      "shared_at": 1778827821,
+      "links": [
+        "https://github.com/workofart/ml-by-hand"
+      ]
+    }
+  ]
+}

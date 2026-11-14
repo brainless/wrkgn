@@ -1,0 +1,35 @@
+{
+  "id": 4256,
+  "slug": "claw-md-open-standard-f4efd352de",
+  "name": "CLAW.md open standard",
+  "mentions": [
+    {
+      "name": "CLAW.md open standard",
+      "description": "An open standard for sharing scheduled agentic automation jobs (\"claws\") as a single CLAW.md file, which contains metadata (name, schedule, personality, etc.) and one or more ordered tasks, each either a full agent run with tool use or a plain bash step.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jacobgold"
+      ],
+      "source_excerpt": "So also working on making CLAW.md a completely open standard for sharing https://clor.com/blog/claws-md-open-format-for-agentic-cron-jobs",
+      "evidence": [
+        {
+          "source_item_id": 48545647,
+          "source_field": "body",
+          "value": "So also working on making CLAW.md a completely open standard for sharing https://clor.com/blog/claws-md-open-format-for-agentic-cron-jobs",
+          "supports": [],
+          "author": "jacobgold",
+          "shared_at": 1781550407,
+          "source_url": "https://news.ycombinator.com/item?id=48545647"
+        }
+      ],
+      "source_item_id": 48545647,
+      "source_url": "https://news.ycombinator.com/item?id=48545647",
+      "author": "jacobgold",
+      "shared_at": 1781550407,
+      "links": [
+        "https://clor.com/blog/claws-md-open-format-for-agentic-cron-jobs"
+      ]
+    }
+  ]
+}

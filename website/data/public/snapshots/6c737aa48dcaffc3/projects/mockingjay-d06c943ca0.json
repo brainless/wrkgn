@@ -1,0 +1,63 @@
+{
+  "id": 5910,
+  "slug": "mockingjay-d06c943ca0",
+  "name": "Mockingjay",
+  "mentions": [
+    {
+      "name": "Mockingjay",
+      "description": "An iOS app that records video and streams AES-256-GCM encrypted chunks to Google Drive in real time, so footage is already secured in the cloud by the time someone takes the phone. Includes a duress PIN that wipes local keys while preserving cloud backups and a fake sleep mode that makes the phone appear powered off during recording.",
+      "problem": "If someone takes your phone, locally recorded footage can be lost or destroyed before it can be shared.",
+      "audience": "Journalists, activists, and anyone who needs tamper-proof evidence.",
+      "builder_usernames": [
+        "tskulbru"
+      ],
+      "source_excerpt": "Mockingjay ( https://apps.apple.com/app/id6758616261 ) — iOS app that records video and streams AES-256-GCM encrypted chunks to your Google Drive in real-time. By the time someone takes your phone, the footage is already safe in the cloud. Built for journalists, activists, and anyone who needs tamper-proof evidence. Features a duress PIN that wipes local keys while preserving cloud backups, and a fake sleep mode that makes the phone look powered off during recording.",
+      "evidence": [
+        {
+          "source_item_id": 47749748,
+          "source_field": "body",
+          "value": "Mockingjay ( https://apps.apple.com/app/id6758616261 ) — iOS app that records video and streams AES-256-GCM encrypted chunks to your Google Drive in real-time. By the time someone takes your phone, the footage is already safe in the cloud. Built for journalists, activists, and anyone who needs tamper-proof evidence. Features a duress PIN that wipes local keys while preserving cloud backups, and a fake sleep mode that makes the phone look powered off during recording.",
+          "supports": [],
+          "author": "tskulbru",
+          "shared_at": 1776073053,
+          "source_url": "https://news.ycombinator.com/item?id=47749748"
+        }
+      ],
+      "source_item_id": 47749748,
+      "source_url": "https://news.ycombinator.com/item?id=47749748",
+      "author": "tskulbru",
+      "shared_at": 1776073053,
+      "links": [
+        "https://apps.apple.com/app/id6758616261"
+      ]
+    },
+    {
+      "name": "Mockingjay",
+      "description": "An iOS app that records video and streams AES-256-GCM encrypted chunks to Google Drive in real time, so footage is already safe in the cloud if someone takes your phone. Features a duress PIN that wipes local keys while preserving cloud backups and a fake sleep mode that makes the phone look powered off during recording.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tskulbru"
+      ],
+      "source_excerpt": "Mockingjay ( https://apps.apple.com/app/id6758616261 ) — iOS app that records video and streams AES-256-GCM encrypted chunks to your Google Drive in real-time. By the time someone takes your phone, the footage is already safe in the cloud. Built for journalists, activists, and anyone who needs tamper-proof evidence.",
+      "evidence": [
+        {
+          "source_item_id": 47306742,
+          "source_field": "body",
+          "value": "Mockingjay ( https://apps.apple.com/app/id6758616261 ) — iOS app that records video and streams AES-256-GCM encrypted chunks to your Google Drive in real-time. By the time someone takes your phone, the footage is already safe in the cloud. Built for journalists, activists, and anyone who needs tamper-proof evidence.",
+          "supports": [],
+          "author": "tskulbru",
+          "shared_at": 1773049029,
+          "source_url": "https://news.ycombinator.com/item?id=47306742"
+        }
+      ],
+      "source_item_id": 47306742,
+      "source_url": "https://news.ycombinator.com/item?id=47306742",
+      "author": "tskulbru",
+      "shared_at": 1773049029,
+      "links": [
+        "https://apps.apple.com/app/id6758616261"
+      ]
+    }
+  ]
+}

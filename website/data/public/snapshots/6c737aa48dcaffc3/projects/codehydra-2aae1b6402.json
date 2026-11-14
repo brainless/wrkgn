@@ -1,0 +1,93 @@
+{
+  "id": 5925,
+  "slug": "codehydra-2aae1b6402",
+  "name": "CodeHydra",
+  "mentions": [
+    {
+      "name": "CodeHydra",
+      "description": "This IDE lets developers work with multiple AI agents in isolated workspaces. Each task is isolated not only with a git worktree but also with all other task-related context such as previews and reviews, and agents can interact with that context via notifications.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "stefanhoelzl"
+      ],
+      "source_excerpt": "a IDE to work with multiple AI agents in isolated workspaces.\nhttps://codehydra.dev / https://github.com/stefanhoelzl/codehydra\n\nIt is not only isolating with a git worktree but also all other context related to this task (previews, reviews) and allows the agent to interact with this context via notifications and so on.",
+      "evidence": [
+        {
+          "source_item_id": 47613076,
+          "source_field": "body",
+          "value": "a IDE to work with multiple AI agents in isolated workspaces.\nhttps://codehydra.dev / https://github.com/stefanhoelzl/codehydra\n\nIt is not only isolating with a git worktree but also all other context related to this task (previews, reviews) and allows the agent to interact with this context via notifications and so on.",
+          "supports": [],
+          "author": "stefanhoelzl",
+          "shared_at": 1775130021,
+          "source_url": "https://news.ycombinator.com/item?id=47613076"
+        }
+      ],
+      "source_item_id": 47613076,
+      "source_url": "https://news.ycombinator.com/item?id=47613076",
+      "author": "stefanhoelzl",
+      "shared_at": 1775130021,
+      "links": [
+        "https://codehydra.dev",
+        "https://github.com/stefanhoelzl/codehydra"
+      ]
+    },
+    {
+      "name": "codehydra",
+      "description": "A tool that helps developers manage context switching when working with multiple coding agent sessions.",
+      "problem": "Context switching when juggling multiple coding agent sessions.",
+      "audience": null,
+      "builder_usernames": [
+        "stefanhoelzl"
+      ],
+      "source_excerpt": "Solving my issue with context switching when working with multiple coding agent sessions.\n\nhttps://github.com/stefanhoelzl/codehydra",
+      "evidence": [
+        {
+          "source_item_id": 47308512,
+          "source_field": "body",
+          "value": "Solving my issue with context switching when working with multiple coding agent sessions.\n\nhttps://github.com/stefanhoelzl/codehydra",
+          "supports": [],
+          "author": "stefanhoelzl",
+          "shared_at": 1773061522,
+          "source_url": "https://news.ycombinator.com/item?id=47308512"
+        }
+      ],
+      "source_item_id": 47308512,
+      "source_url": "https://news.ycombinator.com/item?id=47308512",
+      "author": "stefanhoelzl",
+      "shared_at": 1773061522,
+      "links": [
+        "https://github.com/stefanhoelzl/codehydra"
+      ]
+    },
+    {
+      "name": "CodeHydra",
+      "description": "A multi-workspace IDE for parallel AI agent development. It points at one or more local or remote git repos and creates lightweight workspaces via git worktrees, each with its own embedded VS Code and AI agent (supports Claude Code and OpenCode). A sidebar shows real-time status indicators for which agents are idle or busy, and strong keyboard navigation covers creating, deleting, and switching workspaces. Agents can also control CodeHydra itself through an MCP server—closing their workspace when done, spawning new workspaces for sub-tasks with an initial prompt, or automating VS Code (e.g., opening a browser preview tab or files). Built with Electron + Svelte 5 + TypeScript, MIT licensed, runs on Linux/macOS/Windows, and starts via npx or uvx.",
+      "problem": "The author lacked a good tool to orchestrate multiple AI coding agents: waiting for one agent to finish before starting the next, juggling multiple terminals to see which agents were busy or idle, agents clashing when run against the same repo, and friction from manually creating git worktrees.",
+      "audience": null,
+      "builder_usernames": [
+        "stefanhoelzl"
+      ],
+      "source_excerpt": "CodeHydra (https://github.com/stefanhoelzl/codehydra or https://codehydra.dev)\na multi-workspace IDE for parallel AI agent development.",
+      "evidence": [
+        {
+          "source_item_id": 46953532,
+          "source_field": "body",
+          "value": "CodeHydra (https://github.com/stefanhoelzl/codehydra or https://codehydra.dev)\na multi-workspace IDE for parallel AI agent development.",
+          "supports": [],
+          "author": "stefanhoelzl",
+          "shared_at": 1770682354,
+          "source_url": "https://news.ycombinator.com/item?id=46953532"
+        }
+      ],
+      "source_item_id": 46953532,
+      "source_url": "https://news.ycombinator.com/item?id=46953532",
+      "author": "stefanhoelzl",
+      "shared_at": 1770682354,
+      "links": [
+        "https://codehydra.dev",
+        "https://github.com/stefanhoelzl/codehydra"
+      ]
+    }
+  ]
+}

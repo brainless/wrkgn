@@ -1,0 +1,35 @@
+{
+  "id": 7183,
+  "slug": "epilog-7f23bb8145",
+  "name": "Epilog",
+  "mentions": [
+    {
+      "name": "Epilog",
+      "description": "A TV tracking app built like Letterboxd but for television, letting users log shows and see data visualizations of their viewing. It tackles the extra complexity of TV over film—shows have multiple seasons with many episodes, and viewers watch in varied patterns, from single episodes to binging several seasons in one sitting.",
+      "problem": "Movies are discrete units that are easy to track, but TV shows span multiple seasons and many episodes, and viewer behavior varies (one episode, a few at a time, or binge-watching whole seasons), which makes the tracking UI/UX a hard problem.",
+      "audience": null,
+      "builder_usernames": [
+        "dinan"
+      ],
+      "source_excerpt": "I'm making Letterboxd for TV, with a pretty data visualizations.\n\nhttps://epilog.tv/",
+      "evidence": [
+        {
+          "source_item_id": 46940859,
+          "source_field": "body",
+          "value": "I'm making Letterboxd for TV, with a pretty data visualizations.\n\nhttps://epilog.tv/",
+          "supports": [],
+          "author": "dinan",
+          "shared_at": 1770603583,
+          "source_url": "https://news.ycombinator.com/item?id=46940859"
+        }
+      ],
+      "source_item_id": 46940859,
+      "source_url": "https://news.ycombinator.com/item?id=46940859",
+      "author": "dinan",
+      "shared_at": 1770603583,
+      "links": [
+        "https://epilog.tv/"
+      ]
+    }
+  ]
+}

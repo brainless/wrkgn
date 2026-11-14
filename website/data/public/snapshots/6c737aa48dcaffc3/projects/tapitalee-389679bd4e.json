@@ -1,0 +1,91 @@
+{
+  "id": 4798,
+  "slug": "tapitalee-389679bd4e",
+  "name": "Tapitalee",
+  "mentions": [
+    {
+      "name": "Tapitalee",
+      "description": "A platform for deploying containerized apps to the user's own AWS account with minimal configuration. It includes a CLI tool with instant console sessions, instant SQL/Redis provisioning with Heroku-like add-ons, and enterprise features such as autoscaling, preview apps, audit trails, and release approvals.",
+      "problem": null,
+      "audience": "Developers and enterprises deploying containerized apps to their own AWS accounts",
+      "builder_usernames": [
+        "Andys"
+      ],
+      "source_excerpt": "Working on https://tapitalee.com\n\n  - Deploy containerized apps to your own AWS account with minimal config!\n  - CLI tool with instant console sessions\n  - Set up SQL/Redis instantly with Heroku-like add-ons.\n  - For enterprise: Autoscaling, preview apps, audit trail, release approvals.",
+      "evidence": [
+        {
+          "source_item_id": 48089384,
+          "source_field": "body",
+          "value": "Working on https://tapitalee.com\n\n  - Deploy containerized apps to your own AWS account with minimal config!\n  - CLI tool with instant console sessions\n  - Set up SQL/Redis instantly with Heroku-like add-ons.\n  - For enterprise: Autoscaling, preview apps, audit trail, release approvals.",
+          "supports": [],
+          "author": "Andys",
+          "shared_at": 1778457152,
+          "source_url": "https://news.ycombinator.com/item?id=48089384"
+        }
+      ],
+      "source_item_id": 48089384,
+      "source_url": "https://news.ycombinator.com/item?id=48089384",
+      "author": "Andys",
+      "shared_at": 1778457152,
+      "links": [
+        "https://tapitalee.com"
+      ]
+    },
+    {
+      "name": "Tapitalee",
+      "description": "This deployment platform lets users deploy any containerized app to their own AWS account with minimal configuration, running on Fargate instead of Kubernetes. It offers a Heroku-like CLI with instant console sessions, instant SQL/Redis add-ons, autoscaling, preview apps, an audit trail, and release approvals.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Andys"
+      ],
+      "source_excerpt": "Deploy to your own AWS account with minimal config!\n\n  - Any containerized app, uses Fargate (no Kubernetes)\n  - Heroku-like CLI tool with instant console sessions\n  - Set up SQL/Redis instantly with Heroku-like add-ons.\n  - Autoscaling, preview apps, audit trail, release approvals.\n\nhttps://tapitalee.com",
+      "evidence": [
+        {
+          "source_item_id": 47747022,
+          "source_field": "body",
+          "value": "Deploy to your own AWS account with minimal config!\n\n  - Any containerized app, uses Fargate (no Kubernetes)\n  - Heroku-like CLI tool with instant console sessions\n  - Set up SQL/Redis instantly with Heroku-like add-ons.\n  - Autoscaling, preview apps, audit trail, release approvals.\n\nhttps://tapitalee.com",
+          "supports": [],
+          "author": "Andys",
+          "shared_at": 1776048858,
+          "source_url": "https://news.ycombinator.com/item?id=47747022"
+        }
+      ],
+      "source_item_id": 47747022,
+      "source_url": "https://news.ycombinator.com/item?id=47747022",
+      "author": "Andys",
+      "shared_at": 1776048858,
+      "links": [
+        "https://tapitalee.com"
+      ]
+    },
+    {
+      "name": "Tapitalee",
+      "description": "Tapitalee is a deployment platform that deploys applications to your own AWS account, offering a Heroku-like deployment experience.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Andys"
+      ],
+      "source_excerpt": "https://tapitalee.com\nDeploy to your own AWS account like Heroku",
+      "evidence": [
+        {
+          "source_item_id": 46939980,
+          "source_field": "body",
+          "value": "https://tapitalee.com\nDeploy to your own AWS account like Heroku",
+          "supports": [],
+          "author": "Andys",
+          "shared_at": 1770595945,
+          "source_url": "https://news.ycombinator.com/item?id=46939980"
+        }
+      ],
+      "source_item_id": 46939980,
+      "source_url": "https://news.ycombinator.com/item?id=46939980",
+      "author": "Andys",
+      "shared_at": 1770595945,
+      "links": [
+        "https://tapitalee.com"
+      ]
+    }
+  ]
+}

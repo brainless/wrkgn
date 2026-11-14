@@ -1,0 +1,35 @@
+{
+  "id": 6172,
+  "slug": "context-bonsai-4f00a30cb3",
+  "name": "Context Bonsai",
+  "mentions": [
+    {
+      "name": "Context Bonsai",
+      "description": "A plugin for OpenCode that lets the LLM self-edit its own context. It works like compaction but can retrieve compacted information when needed; rather than only compacting when the context is completely full or compacting everything, it picks individual messages and tool calls whose details are no longer necessary, such as a solved debugging session or a completed feature implementation. It has also been made to work in Claude Code via tweakcc, with planned versions for open source coding agents like Codex, pi, and Gemini, and the development process is livestreamed.",
+      "problem": "Standard context compaction is lossy, kicks in only when the context is completely full, and compacts the entire context, discarding details that may still be needed.",
+      "audience": null,
+      "builder_usernames": [
+        "planckscnst"
+      ],
+      "source_excerpt": "I'm working on \"context bonsai\" which is currently a plugin for OpenCode that allows the LLM to self-edit its own context. It works like compaction, but it can retrieve back the compacted info if needed.",
+      "evidence": [
+        {
+          "source_item_id": 47304683,
+          "source_field": "body",
+          "value": "I'm working on \"context bonsai\" which is currently a plugin for OpenCode that allows the LLM to self-edit its own context. It works like compaction, but it can retrieve back the compacted info if needed.",
+          "supports": [],
+          "author": "planckscnst",
+          "shared_at": 1773028071,
+          "source_url": "https://news.ycombinator.com/item?id=47304683"
+        }
+      ],
+      "source_item_id": 47304683,
+      "source_url": "https://news.ycombinator.com/item?id=47304683",
+      "author": "planckscnst",
+      "shared_at": 1773028071,
+      "links": [
+        "https://github.com/Vibecodelicious/opencode"
+      ]
+    }
+  ]
+}

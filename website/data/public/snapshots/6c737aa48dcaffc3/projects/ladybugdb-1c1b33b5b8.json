@@ -1,0 +1,35 @@
+{
+  "id": 8516,
+  "slug": "ladybugdb-1c1b33b5b8",
+  "name": "LadybugDB",
+  "mentions": [
+    {
+      "name": "LadybugDB",
+      "description": "An open-source embedded columnar graph database that stores graphs in Parquet files on object storage or in DuckDB files and queries them with strongly typed Cypher, using advanced factorized join algorithms. The author plans to use this infrastructure to serve externalized knowledge with small language models.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "adsharma"
+      ],
+      "source_excerpt": "Opensource Embedded Columnar Graph Database: https://github.com/LadybugDB/ladybug",
+      "evidence": [
+        {
+          "source_item_id": 46267353,
+          "source_field": "body",
+          "value": "Opensource Embedded Columnar Graph Database: https://github.com/LadybugDB/ladybug",
+          "supports": [],
+          "author": "adsharma",
+          "shared_at": 1765749023,
+          "source_url": "https://news.ycombinator.com/item?id=46267353"
+        }
+      ],
+      "source_item_id": 46267353,
+      "source_url": "https://news.ycombinator.com/item?id=46267353",
+      "author": "adsharma",
+      "shared_at": 1765749023,
+      "links": [
+        "https://github.com/LadybugDB/ladybug"
+      ]
+    }
+  ]
+}

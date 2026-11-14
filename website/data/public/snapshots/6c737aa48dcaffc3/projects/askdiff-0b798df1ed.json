@@ -1,0 +1,35 @@
+{
+  "id": 4984,
+  "slug": "askdiff-0b798df1ed",
+  "name": "askdiff",
+  "mentions": [
+    {
+      "name": "askdiff",
+      "description": "A GitHub PR review style web app that attaches to the same Claude Code session that wrote the code, letting developers review AI-written code and ask questions about the diff without opening draft PRs and copy-pasting diffs back to the session.",
+      "problem": "The author hit a workflow bottleneck checking code written by Claude Code: it required opening big draft PRs and then copy-pasting the diff back to the session to ask questions.",
+      "audience": null,
+      "builder_usernames": [
+        "narghev"
+      ],
+      "source_excerpt": "I’m working on askdiff - a GitHub PR review style web app attached to the same claude code session that wrote the code.",
+      "evidence": [
+        {
+          "source_item_id": 48113609,
+          "source_field": "body",
+          "value": "I’m working on askdiff - a GitHub PR review style web app attached to the same claude code session that wrote the code.",
+          "supports": [],
+          "author": "narghev",
+          "shared_at": 1778615902,
+          "source_url": "https://news.ycombinator.com/item?id=48113609"
+        }
+      ],
+      "source_item_id": 48113609,
+      "source_url": "https://news.ycombinator.com/item?id=48113609",
+      "author": "narghev",
+      "shared_at": 1778615902,
+      "links": [
+        "https://github.com/narghev/askdiff"
+      ]
+    }
+  ]
+}

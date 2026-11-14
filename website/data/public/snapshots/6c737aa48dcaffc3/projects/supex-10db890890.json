@@ -1,0 +1,35 @@
+{
+  "id": 8201,
+  "slug": "supex-10db890890",
+  "name": "Supex",
+  "mentions": [
+    {
+      "name": "Supex",
+      "description": "This tool provides agentic AI coding for SketchUp. A Python MCP driver communicates with a Ruby extension inside SketchUp via JSON-RPC, allowing Claude Code to write Ruby scripts, execute them directly in SketchUp, take screenshots to verify results, and introspect the model without leaving the conversation. It is useful for repetitive tasks and parametric designs such as generating spiral staircases, and is currently macOS-only and requires SketchUp 2026.",
+      "problem": "The author wanted a Claude Code-style workflow in SketchUp for a house renovation project: describing needs in natural language and letting AI write, execute, and iterate on code, rather than drawing repetitive or parametric designs manually.",
+      "audience": null,
+      "builder_usernames": [
+        "dr_win"
+      ],
+      "source_excerpt": "*Supex* - Agentic coding for SketchUp.\n\nWorking on a house renovation project in SketchUp, I wanted the same workflow I use with Claude Code: describe what I need in natural language, let AI write and execute the code, iterate quickly.\n\nSo I built a bridge. Python MCP driver talks to a Ruby extension inside SketchUp via JSON-RPC. Claude Code can now write Ruby scripts, execute them directly in SketchUp, take screenshots to verify results, and introspect the model - all without leaving the conversation.",
+      "evidence": [
+        {
+          "source_item_id": 46268775,
+          "source_field": "body",
+          "value": "*Supex* - Agentic coding for SketchUp.\n\nWorking on a house renovation project in SketchUp, I wanted the same workflow I use with Claude Code: describe what I need in natural language, let AI write and execute the code, iterate quickly.\n\nSo I built a bridge. Python MCP driver talks to a Ruby extension inside SketchUp via JSON-RPC. Claude Code can now write Ruby scripts, execute them directly in SketchUp, take screenshots to verify results, and introspect the model - all without leaving the conversation.",
+          "supports": [],
+          "author": "dr_win",
+          "shared_at": 1765758334,
+          "source_url": "https://news.ycombinator.com/item?id=46268775"
+        }
+      ],
+      "source_item_id": 46268775,
+      "source_url": "https://news.ycombinator.com/item?id=46268775",
+      "author": "dr_win",
+      "shared_at": 1765758334,
+      "links": [
+        "https://github.com/darwin/supex"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 10089,
+  "slug": "vyprsec-0c24a35dbf",
+  "name": "VyprSec",
+  "mentions": [
+    {
+      "name": "VyprSec",
+      "description": "This tool performs autonomous vulnerability discovery and exploitation with zero false positives. It scans a whole codebase for possible vulnerabilities, ranks them, writes proof-of-concept exploits, spins up the software in a sandbox, and attacks it — all without human involvement. The final report contains only verified vulnerabilities with no noise, and it has already reported unknown vulnerabilities in open source projects.",
+      "problem": "Vulnerability scanning is noisy and unreliable, producing false positives that require manual verification.",
+      "audience": null,
+      "builder_usernames": [
+        "qxfys"
+      ],
+      "source_excerpt": "vulnerability discovery and exploitation, with zero false positives.\n\nhttps://vyprsec.ai/\n\nYep, you read it right. 0 false positives. We scan the whole codebase for possible vulnerabilities, rank them, write the proof-of-concept for exploitation, spin up the software in a sandbox, and then attack. All of them happen autonomously without human involvement.",
+      "evidence": [
+        {
+          "source_item_id": 45421644,
+          "source_field": "body",
+          "value": "vulnerability discovery and exploitation, with zero false positives.\n\nhttps://vyprsec.ai/\n\nYep, you read it right. 0 false positives. We scan the whole codebase for possible vulnerabilities, rank them, write the proof-of-concept for exploitation, spin up the software in a sandbox, and then attack. All of them happen autonomously without human involvement.",
+          "supports": [],
+          "author": "qxfys",
+          "shared_at": 1759203269,
+          "source_url": "https://news.ycombinator.com/item?id=45421644"
+        }
+      ],
+      "source_item_id": 45421644,
+      "source_url": "https://news.ycombinator.com/item?id=45421644",
+      "author": "qxfys",
+      "shared_at": 1759203269,
+      "links": [
+        "https://vyprsec.ai/"
+      ]
+    }
+  ]
+}

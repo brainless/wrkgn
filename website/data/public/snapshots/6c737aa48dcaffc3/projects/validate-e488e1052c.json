@@ -1,0 +1,35 @@
+{
+  "id": 6311,
+  "slug": "validate-e488e1052c",
+  "name": "validate",
+  "mentions": [
+    {
+      "name": "validate",
+      "description": "A universal file format validator written in Zig that validates every byte of common file formats, with support for about 190 formats at varying coverage levels. It provides a C FFI and a CLI for mac, windows, and linux, addressing the fact that many file formats lack checksums and some format parsers don't break on corrupt data.",
+      "problem": "Many file formats don't have checksums, and some formats' parsing won't break on corrupt data, making corruption hard to detect.",
+      "audience": null,
+      "builder_usernames": [
+        "pmarreck"
+      ],
+      "source_excerpt": "A \"universal\" format validator whose goal is to validate every byte of as many of the most common file formats as possible (I'm up to about 190, to varying degrees of coverage; turns out many formats don't have checksums, and some formats' parsing won't break on corrupt data)",
+      "evidence": [
+        {
+          "source_item_id": 47311032,
+          "source_field": "body",
+          "value": "A \"universal\" format validator whose goal is to validate every byte of as many of the most common file formats as possible (I'm up to about 190, to varying degrees of coverage; turns out many formats don't have checksums, and some formats' parsing won't break on corrupt data)",
+          "supports": [],
+          "author": "pmarreck",
+          "shared_at": 1773072933,
+          "source_url": "https://news.ycombinator.com/item?id=47311032"
+        }
+      ],
+      "source_item_id": 47311032,
+      "source_url": "https://news.ycombinator.com/item?id=47311032",
+      "author": "pmarreck",
+      "shared_at": 1773072933,
+      "links": [
+        "https://github.com/pmarreck/validate"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 10015,
+  "slug": "berk-a943c2f2bf",
+  "name": "berk",
+  "mentions": [
+    {
+      "name": "berk",
+      "description": "A versatile command-line job dispatcher written in C with git-like syntax, intended as a lightweight replacement for heavyweight tools like Jenkins and Ansible. Currently being polished ahead of its final release.",
+      "problem": "Existing job orchestration tools like Jenkins and Ansible are big and clunky.",
+      "audience": null,
+      "builder_usernames": [
+        "jezze"
+      ],
+      "source_excerpt": "A command-line tool called berk that is a versatile job dispatcher written in c. It is meant to replace big clunky tools like Jenkins, Ansible etc. It has syntax similar to git.",
+      "evidence": [
+        {
+          "source_item_id": 45418856,
+          "source_field": "body",
+          "value": "A command-line tool called berk that is a versatile job dispatcher written in c. It is meant to replace big clunky tools like Jenkins, Ansible etc. It has syntax similar to git.",
+          "supports": [],
+          "author": "jezze",
+          "shared_at": 1759180536,
+          "source_url": "https://news.ycombinator.com/item?id=45418856"
+        }
+      ],
+      "source_item_id": 45418856,
+      "source_url": "https://news.ycombinator.com/item?id=45418856",
+      "author": "jezze",
+      "shared_at": 1759180536,
+      "links": [
+        "https://github.com/jezze/berk"
+      ]
+    }
+  ]
+}

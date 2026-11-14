@@ -1,0 +1,33 @@
+{
+  "id": 6957,
+  "slug": "phoenix-inspired-golang-web-framework-b937890f17",
+  "name": "Phoenix-inspired Golang web framework",
+  "mentions": [
+    {
+      "name": "Phoenix-inspired Golang web framework",
+      "description": "A batteries-included web framework for Golang inspired by Phoenix and Ecto. It uses data-star for real-time bindings, enabling live-view-style interactivity and out-of-the-box real-time form validation. It supports hot reload with templ, daisy, and tailwind without requiring npm, and a routes file provides metadata from which type-safe route helpers are generated for views and handlers.",
+      "problem": null,
+      "audience": "Golang developers building web applications",
+      "builder_usernames": [
+        "mackross"
+      ],
+      "source_excerpt": "- A phoenix/ecto inspired batteries included framework for Golang. Uses data-star for real time bindings (can do live view like things but my personal favorite is just real time form validation out of the box). Hot reload with templ, daisy, and tailwind (no npm required). Routes file provides metadata on routes so type safe route helpers are generated for views and handlers.",
+      "evidence": [
+        {
+          "source_item_id": 46948938,
+          "source_field": "body",
+          "value": "- A phoenix/ecto inspired batteries included framework for Golang. Uses data-star for real time bindings (can do live view like things but my personal favorite is just real time form validation out of the box). Hot reload with templ, daisy, and tailwind (no npm required). Routes file provides metadata on routes so type safe route helpers are generated for views and handlers.",
+          "supports": [],
+          "author": "mackross",
+          "shared_at": 1770661827,
+          "source_url": "https://news.ycombinator.com/item?id=46948938"
+        }
+      ],
+      "source_item_id": 46948938,
+      "source_url": "https://news.ycombinator.com/item?id=46948938",
+      "author": "mackross",
+      "shared_at": 1770661827,
+      "links": []
+    }
+  ]
+}

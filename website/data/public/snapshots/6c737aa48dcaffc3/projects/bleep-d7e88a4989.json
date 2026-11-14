@@ -1,0 +1,35 @@
+{
+  "id": 8210,
+  "slug": "bleep-d7e88a4989",
+  "name": "bleep",
+  "mentions": [
+    {
+      "name": "bleep",
+      "description": "A simple interval timer CLI written in Go that beeps at configured intervals. Features include a verbose mode with a live countdown, pause/resume via signals, and a JSON output mode that integrates with Waybar to show a status-bar timer that changes color when counting, paused, or beeping, with click-to-pause. Useful for pomodoro sessions, work tracking, and kitchen reminders. Distributed as an AUR package (bleep-bin), with builds and publishing automated via GoReleaser.",
+      "problem": "Needed a simple reminder tool to beep at intervals, inspired by needing to know when to stir while cooking bolognese.",
+      "audience": null,
+      "builder_usernames": [
+        "Gioni06"
+      ],
+      "source_excerpt": "It's called bleep, a simple interval timer that beeps.",
+      "evidence": [
+        {
+          "source_item_id": 46268049,
+          "source_field": "body",
+          "value": "It's called bleep, a simple interval timer that beeps.",
+          "supports": [],
+          "author": "Gioni06",
+          "shared_at": 1765753273,
+          "source_url": "https://news.ycombinator.com/item?id=46268049"
+        }
+      ],
+      "source_item_id": 46268049,
+      "source_url": "https://news.ycombinator.com/item?id=46268049",
+      "author": "Gioni06",
+      "shared_at": 1765753273,
+      "links": [
+        "https://github.com/Gioni06/bleep"
+      ]
+    }
+  ]
+}

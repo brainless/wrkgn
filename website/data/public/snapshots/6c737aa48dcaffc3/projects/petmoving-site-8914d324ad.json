@@ -1,0 +1,35 @@
+{
+  "id": 10081,
+  "slug": "petmoving-site-8914d324ad",
+  "name": "petmoving.site",
+  "mentions": [
+    {
+      "name": "petmoving.site",
+      "description": "An AI assistant that helps people moving with pets to a different country. It embeds US pet travel documents in a vector database, parses each question or prompt, and adds the relevant context to an LLM request. It also extracts and stores move and pet details so later questions have context, with plans to grow into a full tracker and reminder system for deadlines, appointments, and documentation.",
+      "problem": "Pet owners relocating internationally need help understanding travel requirements, documentation, and deadlines for their pets.",
+      "audience": "People moving with their pets to a different country who need help navigating travel requirements.",
+      "builder_usernames": [
+        "matula"
+      ],
+      "source_excerpt": "A (so far) simple AI assistant to provide help if you're moving with your pets to a different country. I've got a vector db with some US travel documents embedded, parse the question/prompt, and add the relevant context to a standard LLM request.\n\nIt also parses the question/prompt and stores move and pet details, so later questions will have context.\n\nEventually, the idea is to have a full tracker and reminder system... so deadlines, appointments, and documentation can be stored and referenced in a single place.",
+      "evidence": [
+        {
+          "source_item_id": 45428304,
+          "source_field": "body",
+          "value": "A (so far) simple AI assistant to provide help if you're moving with your pets to a different country. I've got a vector db with some US travel documents embedded, parse the question/prompt, and add the relevant context to a standard LLM request.\n\nIt also parses the question/prompt and stores move and pet details, so later questions will have context.\n\nEventually, the idea is to have a full tracker and reminder system... so deadlines, appointments, and documentation can be stored and referenced in a single place.",
+          "supports": [],
+          "author": "matula",
+          "shared_at": 1759252803,
+          "source_url": "https://news.ycombinator.com/item?id=45428304"
+        }
+      ],
+      "source_item_id": 45428304,
+      "source_url": "https://news.ycombinator.com/item?id=45428304",
+      "author": "matula",
+      "shared_at": 1759252803,
+      "links": [
+        "https://petmoving.site/"
+      ]
+    }
+  ]
+}

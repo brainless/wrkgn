@@ -1,0 +1,35 @@
+{
+  "id": 7758,
+  "slug": "caducode-1bc71dcd0e",
+  "name": "caducode",
+  "mentions": [
+    {
+      "name": "caducode",
+      "description": "A toy coding agent built as a thought experiment that gives the LLM a single tool, run_python(), instead of a bunch of separate tools; the agent generates Python code to inspect local files, carry out edits, and run commands. It reportedly works surprisingly well even with a small 30b local model.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "fb03"
+      ],
+      "source_excerpt": "I've created a toy coding agent called \"caducode\". More of a thought experiment that materialized into a little something.\n\nThe philosophy behind it is: instead of providing a bunch of tools to the LLM, you simply provide a single tool: run_python(). The Agent just generates code to do whatever it needs, to inspect local files, to carry edits, to run commands.",
+      "evidence": [
+        {
+          "source_item_id": 46590328,
+          "source_field": "body",
+          "value": "I've created a toy coding agent called \"caducode\". More of a thought experiment that materialized into a little something.\n\nThe philosophy behind it is: instead of providing a bunch of tools to the LLM, you simply provide a single tool: run_python(). The Agent just generates code to do whatever it needs, to inspect local files, to carry edits, to run commands.",
+          "supports": [],
+          "author": "fb03",
+          "shared_at": 1768234066,
+          "source_url": "https://news.ycombinator.com/item?id=46590328"
+        }
+      ],
+      "source_item_id": 46590328,
+      "source_url": "https://news.ycombinator.com/item?id=46590328",
+      "author": "fb03",
+      "shared_at": 1768234066,
+      "links": [
+        "https://github.com/flipbit03/caducode"
+      ]
+    }
+  ]
+}

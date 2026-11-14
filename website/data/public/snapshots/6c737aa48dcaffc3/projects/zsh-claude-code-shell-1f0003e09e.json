@@ -1,0 +1,35 @@
+{
+  "id": 6937,
+  "slug": "zsh-claude-code-shell-1f0003e09e",
+  "name": "zsh-claude-code-shell",
+  "mentions": [
+    {
+      "name": "zsh-claude-code-shell",
+      "description": "A forked and adapted zsh plugin providing utilities for using Claude Code in the shell: '#?' followed by a description generates the command, and '#??' followed by a command explains it. Packaged as an oh-my-zsh plugin for easy use.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "_leo"
+      ],
+      "source_excerpt": "Built this (well, forked and adapted) this morning: https://github.com/leochatain/zsh-claude-code-shell\n\nCouple of utilities for using claude code in my zsh.\n#? <describe command> => generates the command for you\n#?? <command> => explains the command for you\n\nPackaged as an oh-my-zsh plugin so it's easy to use.",
+      "evidence": [
+        {
+          "source_item_id": 46945139,
+          "source_field": "body",
+          "value": "Built this (well, forked and adapted) this morning: https://github.com/leochatain/zsh-claude-code-shell\n\nCouple of utilities for using claude code in my zsh.\n#? <describe command> => generates the command for you\n#?? <command> => explains the command for you\n\nPackaged as an oh-my-zsh plugin so it's easy to use.",
+          "supports": [],
+          "author": "_leo",
+          "shared_at": 1770644805,
+          "source_url": "https://news.ycombinator.com/item?id=46945139"
+        }
+      ],
+      "source_item_id": 46945139,
+      "source_url": "https://news.ycombinator.com/item?id=46945139",
+      "author": "_leo",
+      "shared_at": 1770644805,
+      "links": [
+        "https://github.com/leochatain/zsh-claude-code-shell"
+      ]
+    }
+  ]
+}

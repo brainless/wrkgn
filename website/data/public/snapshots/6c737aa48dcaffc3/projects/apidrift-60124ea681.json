@@ -1,0 +1,63 @@
+{
+  "id": 5909,
+  "slug": "apidrift-60124ea681",
+  "name": "APIDrift",
+  "mentions": [
+    {
+      "name": "APIDrift",
+      "description": "A service that monitors changelogs for the APIs, SDKs, and libraries users depend on, scraping documentation, diffing changes, classifying severity with AI, and sending digest emails so upstream breaking changes don't come as a surprise. Free tier covers 3 sources with weekly digests.",
+      "problem": "Upstream breaking changes in depended-on APIs, SDKs, and libraries can blindside teams.",
+      "audience": null,
+      "builder_usernames": [
+        "tskulbru"
+      ],
+      "source_excerpt": "APIDrift ( https://apidrift.dev ) — Monitors changelogs for APIs, SDKs, and libraries you depend on so you don't get blindsided by upstream breaking changes. Scrapes docs, diffs changes, classifies severity with AI, and sends digest emails. Track your dependencies, get alerted when something breaks. Free tier covers 3 sources with weekly digests. Built with Next.js, Supabase, and Gemini Flash.",
+      "evidence": [
+        {
+          "source_item_id": 47749748,
+          "source_field": "body",
+          "value": "APIDrift ( https://apidrift.dev ) — Monitors changelogs for APIs, SDKs, and libraries you depend on so you don't get blindsided by upstream breaking changes. Scrapes docs, diffs changes, classifies severity with AI, and sends digest emails. Track your dependencies, get alerted when something breaks. Free tier covers 3 sources with weekly digests. Built with Next.js, Supabase, and Gemini Flash.",
+          "supports": [],
+          "author": "tskulbru",
+          "shared_at": 1776073053,
+          "source_url": "https://news.ycombinator.com/item?id=47749748"
+        }
+      ],
+      "source_item_id": 47749748,
+      "source_url": "https://news.ycombinator.com/item?id=47749748",
+      "author": "tskulbru",
+      "shared_at": 1776073053,
+      "links": [
+        "https://apidrift.dev"
+      ]
+    },
+    {
+      "name": "APIDrift",
+      "description": "A service that monitors changelogs for the APIs, SDKs, and libraries you depend on so upstream breaking changes don't catch you off guard. It scrapes documentation, diffs changes, classifies severity with AI, and sends digest emails. Free tier covers 3 sources with weekly digests.",
+      "problem": "Getting blindsided by upstream breaking changes in the APIs, SDKs, and libraries you depend on.",
+      "audience": null,
+      "builder_usernames": [
+        "tskulbru"
+      ],
+      "source_excerpt": "APIDrift ( https://apidrift.dev ) — Monitors changelogs for APIs, SDKs, and libraries you depend on so you don't get blindsided by upstream breaking changes. Scrapes docs, diffs changes, classifies severity with AI, and sends digest emails.",
+      "evidence": [
+        {
+          "source_item_id": 47306742,
+          "source_field": "body",
+          "value": "APIDrift ( https://apidrift.dev ) — Monitors changelogs for APIs, SDKs, and libraries you depend on so you don't get blindsided by upstream breaking changes. Scrapes docs, diffs changes, classifies severity with AI, and sends digest emails.",
+          "supports": [],
+          "author": "tskulbru",
+          "shared_at": 1773049029,
+          "source_url": "https://news.ycombinator.com/item?id=47306742"
+        }
+      ],
+      "source_item_id": 47306742,
+      "source_url": "https://news.ycombinator.com/item?id=47306742",
+      "author": "tskulbru",
+      "shared_at": 1773049029,
+      "links": [
+        "https://apidrift.dev"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": 4979,
+  "slug": "terminay-35fe797252",
+  "name": "terminay",
+  "mentions": [
+    {
+      "name": "terminay",
+      "description": "A terminal for macOS and Linux with Chrome-style window management organized around projects at the top level. It provides remote control at the terminal level rather than inside AI harnesses (Claude/OpenAI), lets users write a command once and inject it into any AI CLI with cmd+l, and includes macros for automating repetitive terminal actions.",
+      "problem": "Existing terminals like iTerm2 have unsatisfying window management, and AI remote control and commands should live at the terminal level instead of being duplicated inside each AI CLI.",
+      "audience": null,
+      "builder_usernames": [
+        "turblety"
+      ],
+      "source_excerpt": "I'm building yet another terminal [1][2] for macOS and Linux. I've been unsatisfied with the window management of iterm2 and other terminals, my one acts a bit more like Chrome with projects at the top level.",
+      "evidence": [
+        {
+          "source_item_id": 48093232,
+          "source_field": "body",
+          "value": "I'm building yet another terminal [1][2] for macOS and Linux. I've been unsatisfied with the window management of iterm2 and other terminals, my one acts a bit more like Chrome with projects at the top level.",
+          "supports": [],
+          "author": "turblety",
+          "shared_at": 1778495773,
+          "source_url": "https://news.ycombinator.com/item?id=48093232"
+        }
+      ],
+      "source_item_id": 48093232,
+      "source_url": "https://news.ycombinator.com/item?id=48093232",
+      "author": "turblety",
+      "shared_at": 1778495773,
+      "links": [
+        "https://github.com/markwylde/terminay",
+        "https://terminay.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 4186,
+  "slug": "bepr-6af2f8bb08",
+  "name": "bepr",
+  "mentions": [
+    {
+      "name": "bepr",
+      "description": "A tool that allows shell access to hosts behind NAT/Wifi through a server over outbound WebSocket, using the exact same package for client, server, and user. It has a minimal 2MB binary footprint and wraps as a systemd/launchd service.",
+      "problem": "Accessing a home setup while traveling without exposing hosts to the internet.",
+      "audience": "Accessing one's own home machines remotely while traveling without exposing any hosts to the internet.",
+      "builder_usernames": [
+        "Aperocky"
+      ],
+      "source_excerpt": "bepr: https://github.com/Aperocky/bepr. This allow shell access to your hosts behind NAT/Wifi with a server over outbound websocket, all by using the exact same package for client + server + user. Minimal footprint at 2mb binary size and wrapped as systemd/launchd service.",
+      "evidence": [
+        {
+          "source_item_id": 48540657,
+          "source_field": "body",
+          "value": "bepr: https://github.com/Aperocky/bepr. This allow shell access to your hosts behind NAT/Wifi with a server over outbound websocket, all by using the exact same package for client + server + user. Minimal footprint at 2mb binary size and wrapped as systemd/launchd service.",
+          "supports": [],
+          "author": "Aperocky",
+          "shared_at": 1781528636,
+          "source_url": "https://news.ycombinator.com/item?id=48540657"
+        }
+      ],
+      "source_item_id": 48540657,
+      "source_url": "https://news.ycombinator.com/item?id=48540657",
+      "author": "Aperocky",
+      "shared_at": 1781528636,
+      "links": [
+        "https://github.com/Aperocky/bepr"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 4640,
+  "slug": "buzz-38d968b3f5",
+  "name": "buzz",
+  "mentions": [
+    {
+      "name": "buzz",
+      "description": "Self-hosted WebDAV server tightly integrated with Real-Debrid, Jellyfin, and OpenSubtitles. It exposes debrid media so that folders present a single file where the original source has many, adds confirmation for removing Debrid entries, keeps an archive so deletions can be restored, offers a simple but powerful OpenSubtitles integration for subtitles, and includes a functional logs UI. It also serves the author as a way to review web design concepts and experiment with coding agents, both local and SOTA.",
+      "problem": "Jellyfin requires a single file per folder even when the original source contains many files; the app solves this, and also lacks-safety around Debris deletions are addressed with removal confirmations and a restorable archive.",
+      "audience": null,
+      "builder_usernames": [
+        "gchamonlive"
+      ],
+      "source_excerpt": "I've been using https://github.com/gchamon/buzz as an opportunity to have a WebDAV with tight integration with real  debrid, jellyfin and opensubtitles.",
+      "evidence": [
+        {
+          "source_item_id": 48089536,
+          "source_field": "body",
+          "value": "I've been using https://github.com/gchamon/buzz as an opportunity to have a WebDAV with tight integration with real  debrid, jellyfin and opensubtitles.",
+          "supports": [],
+          "author": "gchamonlive",
+          "shared_at": 1778458309,
+          "source_url": "https://news.ycombinator.com/item?id=48089536"
+        }
+      ],
+      "source_item_id": 48089536,
+      "source_url": "https://news.ycombinator.com/item?id=48089536",
+      "author": "gchamonlive",
+      "shared_at": 1778458309,
+      "links": [
+        "https://github.com/gchamon/buzz"
+      ]
+    }
+  ]
+}

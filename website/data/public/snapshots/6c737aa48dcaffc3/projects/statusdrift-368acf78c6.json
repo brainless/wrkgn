@@ -1,0 +1,35 @@
+{
+  "id": 5342,
+  "slug": "statusdrift-368acf78c6",
+  "name": "StatusDrift",
+  "mentions": [
+    {
+      "name": "StatusDrift",
+      "description": "This app provides uptime, certificate, domain, DNS, and TCP monitoring together with status pages, incident management, SLA monitoring, and on-call scheduling in a single tool. It uses a flat monthly rate with no per-check credits and includes a free tier for commercial or hobby use.",
+      "problem": "Established monitoring and ITSM tools have stagnated, impose artificial limits or credit systems, and split incident management and status pages into separate products; ServiceNow on-call is slow and complex for simple schedules, and Uptime Kuma lacks features for smaller teams or agencies.",
+      "audience": "smaller teams or agencies; free tier for commercial or hobby use",
+      "builder_usernames": [
+        "razno"
+      ],
+      "source_excerpt": "https://statusdrift.com — uptime/cert/domain/dns/tcp monitoring, with status pages, incident management, SLA monitoring and on-call.",
+      "evidence": [
+        {
+          "source_item_id": 47752390,
+          "source_field": "body",
+          "value": "https://statusdrift.com — uptime/cert/domain/dns/tcp monitoring, with status pages, incident management, SLA monitoring and on-call.",
+          "supports": [],
+          "author": "razno",
+          "shared_at": 1776090020,
+          "source_url": "https://news.ycombinator.com/item?id=47752390"
+        }
+      ],
+      "source_item_id": 47752390,
+      "source_url": "https://news.ycombinator.com/item?id=47752390",
+      "author": "razno",
+      "shared_at": 1776090020,
+      "links": [
+        "https://statusdrift.com"
+      ]
+    }
+  ]
+}

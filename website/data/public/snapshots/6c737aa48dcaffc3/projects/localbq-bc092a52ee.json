@@ -1,0 +1,35 @@
+{
+  "id": 5362,
+  "slug": "localbq-bc092a52ee",
+  "name": "localbq",
+  "mentions": [
+    {
+      "name": "localbq",
+      "description": "This project is a BigQuery emulator built from scratch, developed as part of the localgcp effort. It implements GoogleSQL (previously ZetaSQL) behavior and was created to learn how the language works.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ashtavakra"
+      ],
+      "source_excerpt": "Part of building this, I decided to build a BigQuery emulator from scratch and learned a lot about GoogleSQL (previously ZetaSQL) along the way: https://github.com/slokam-ai/localbq",
+      "evidence": [
+        {
+          "source_item_id": 47749265,
+          "source_field": "body",
+          "value": "Part of building this, I decided to build a BigQuery emulator from scratch and learned a lot about GoogleSQL (previously ZetaSQL) along the way: https://github.com/slokam-ai/localbq",
+          "supports": [],
+          "author": "ashtavakra",
+          "shared_at": 1776068521,
+          "source_url": "https://news.ycombinator.com/item?id=47749265"
+        }
+      ],
+      "source_item_id": 47749265,
+      "source_url": "https://news.ycombinator.com/item?id=47749265",
+      "author": "ashtavakra",
+      "shared_at": 1776068521,
+      "links": [
+        "https://github.com/slokam-ai/localbq"
+      ]
+    }
+  ]
+}

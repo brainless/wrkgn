@@ -1,0 +1,35 @@
+{
+  "id": 6127,
+  "slug": "parallel-text-reader-6c0ac81e96",
+  "name": "Parallel text Reader",
+  "mentions": [
+    {
+      "name": "Parallel text Reader",
+      "description": "This is a parallel text reader for language learning that displays texts alongside their translations. Users can OCR pages from old books (e.g., Bengali) with Claude/Gemini, have the content translated into English or Sanskrit, and load it into the Reader. Theming and features were ported from the author's website, and the local reader will serve as a test bed for the website's Reader before its release this month.",
+      "problem": "Existing parallel text readers were not satisfying, so the author designed their own to their liking.",
+      "audience": null,
+      "builder_usernames": [
+        "sieve"
+      ],
+      "source_excerpt": "= Language Learning =\n\nI have tried a few parallel text readers and was not satisfied by any of them. My website (https://www.adhyeta.org.in/) had a simple baked-in interface that I deleted soon after I developed it. However, this weekend, I sat down with Claude and designed one to my liking. I also ported the theming and other goodies from the website to this local reader. This will serve as a test bed for the Reader on the website itself.\n\nLLMs now produce wonderful translations for most works. You can take an old Bengali book, have Claude/Gemini OCR a few pages and then also have it translate the content to English/Sanskrit. Then load it into the Reader and you are good to go!\n\nThe Reader, I will release this month.",
+      "evidence": [
+        {
+          "source_item_id": 47307791,
+          "source_field": "body",
+          "value": "= Language Learning =\n\nI have tried a few parallel text readers and was not satisfied by any of them. My website (https://www.adhyeta.org.in/) had a simple baked-in interface that I deleted soon after I developed it. However, this weekend, I sat down with Claude and designed one to my liking. I also ported the theming and other goodies from the website to this local reader. This will serve as a test bed for the Reader on the website itself.\n\nLLMs now produce wonderful translations for most works. You can take an old Bengali book, have Claude/Gemini OCR a few pages and then also have it translate the content to English/Sanskrit. Then load it into the Reader and you are good to go!\n\nThe Reader, I will release this month.",
+          "supports": [],
+          "author": "sieve",
+          "shared_at": 1773056778,
+          "source_url": "https://news.ycombinator.com/item?id=47307791"
+        }
+      ],
+      "source_item_id": 47307791,
+      "source_url": "https://news.ycombinator.com/item?id=47307791",
+      "author": "sieve",
+      "shared_at": 1773056778,
+      "links": [
+        "https://www.adhyeta.org.in/"
+      ]
+    }
+  ]
+}

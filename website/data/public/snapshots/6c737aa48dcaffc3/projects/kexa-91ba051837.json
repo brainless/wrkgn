@@ -1,0 +1,63 @@
+{
+  "id": 6901,
+  "slug": "kexa-91ba051837",
+  "name": "Kexa",
+  "mentions": [
+    {
+      "name": "Kexa",
+      "description": "An open-source multi-cloud governance framework powered by a YAML rule engine that audits configuration and compliance of cloud resources (AWS, GCP, Azure, K8s) and now database (DB) instances. YAML rules are kept environment-agnostic so the same logic applies across different environments without rewriting.",
+      "problem": null,
+      "audience": "Developers auditing configuration and compliance across cloud and database resources",
+      "builder_usernames": [
+        "patrick4urcloud"
+      ],
+      "source_excerpt": "An open-source multi-cloud governance framework powered by a YAML rule engine. We just reached a milestone by adding Database (DB) support.",
+      "evidence": [
+        {
+          "source_item_id": 46940735,
+          "source_field": "body",
+          "value": "An open-source multi-cloud governance framework powered by a YAML rule engine. We just reached a milestone by adding Database (DB) support.",
+          "supports": [],
+          "author": "patrick4urcloud",
+          "shared_at": 1770602410,
+          "source_url": "https://news.ycombinator.com/item?id=46940735"
+        }
+      ],
+      "source_item_id": 46940735,
+      "source_url": "https://news.ycombinator.com/item?id=46940735",
+      "author": "patrick4urcloud",
+      "shared_at": 1770602410,
+      "links": [
+        "https://kexa.io"
+      ]
+    },
+    {
+      "name": "kexa.io",
+      "description": "This SaaS platform provides an AI agent that performs security administration across multiple cloud infrastructures, including GCP, AWS, and Azure.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "patrick4urcloud"
+      ],
+      "source_excerpt": "working on kexa.io saas with an ia agent to do security administration on differents infrastructures ( gcp,aws,azure).",
+      "evidence": [
+        {
+          "source_item_id": 43829055,
+          "source_field": "body",
+          "value": "working on kexa.io saas with an ia agent to do security administration on differents infrastructures ( gcp,aws,azure).",
+          "supports": [],
+          "author": "patrick4urcloud",
+          "shared_at": 1745905755,
+          "source_url": "https://news.ycombinator.com/item?id=43829055"
+        }
+      ],
+      "source_item_id": 43829055,
+      "source_url": "https://news.ycombinator.com/item?id=43829055",
+      "author": "patrick4urcloud",
+      "shared_at": 1745905755,
+      "links": [
+        "https://kexa.io"
+      ]
+    }
+  ]
+}

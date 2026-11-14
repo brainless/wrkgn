@@ -1,0 +1,33 @@
+{
+  "id": 5287,
+  "slug": "apikulture-3cedd078f3",
+  "name": "Apikulture",
+  "mentions": [
+    {
+      "name": "Apikulture",
+      "description": "A small, fast API client serving as a local alternative to Postman and Insomnia that does not upload user data to the cloud. Written in C++ with the Slint UI framework (used as a testbed for Slint); CI integration for producing binaries is still pending, so it currently must be compiled from source.",
+      "problem": "Existing API clients like Postman and Insomnia upload user data to the cloud.",
+      "audience": null,
+      "builder_usernames": [
+        "Shorel"
+      ],
+      "source_excerpt": "Apikulture. A small, fast alternative to Postman/Insomnia that doesn't upload your data to the cloud.",
+      "evidence": [
+        {
+          "source_item_id": 47749772,
+          "source_field": "body",
+          "value": "Apikulture. A small, fast alternative to Postman/Insomnia that doesn't upload your data to the cloud.",
+          "supports": [],
+          "author": "Shorel",
+          "shared_at": 1776073220,
+          "source_url": "https://news.ycombinator.com/item?id=47749772"
+        }
+      ],
+      "source_item_id": 47749772,
+      "source_url": "https://news.ycombinator.com/item?id=47749772",
+      "author": "Shorel",
+      "shared_at": 1776073220,
+      "links": []
+    }
+  ]
+}

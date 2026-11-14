@@ -1,0 +1,64 @@
+{
+  "id": 1765,
+  "slug": "totem-92bd366bc8",
+  "name": "Totem",
+  "mentions": [
+    {
+      "name": "Totem",
+      "description": "An offline-first, local-first team all-in-one workspace featuring live collaboration, databases, and agentic workflows. The desktop apps are built entirely in Rust (without Tauri or Electron) and are functional with early users, while the iOS app uses the same core libraries with a Swift frontend and is in TestFlight beta awaiting Apple approval.",
+      "problem": null,
+      "audience": "Teams looking for an all-in-one workspace",
+      "builder_usernames": [
+        "1024bits"
+      ],
+      "source_excerpt": "I'm continuing to work on Totem [0], an offline-first, local-first, team all-in-one workspace that features live collaboration, databases, and agentic workflows.",
+      "evidence": [
+        {
+          "source_item_id": 49234204,
+          "source_field": "body",
+          "value": "I'm continuing to work on Totem [0], an offline-first, local-first, team all-in-one workspace that features live collaboration, databases, and agentic workflows.",
+          "supports": [],
+          "author": "1024bits",
+          "shared_at": 1786300542,
+          "source_url": "https://news.ycombinator.com/item?id=49234204"
+        }
+      ],
+      "source_item_id": 49234204,
+      "source_url": "https://news.ycombinator.com/item?id=49234204",
+      "author": "1024bits",
+      "shared_at": 1786300542,
+      "links": [
+        "https://totemkb.com"
+      ]
+    },
+    {
+      "name": "Totem",
+      "description": "A collaborative knowledge management system built entirely in Rust with no HTML or web-tech, targeting an efficient all-in-one workspace. It runs on Windows, macOS, Ubuntu, and iOS, with an early adopter build available and new workspaces starting in a 14-day trial mode.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "1024bits"
+      ],
+      "source_excerpt": "I'm working on Totem (https://totemkb.com), a collaborative knowledge management system built entirely in Rust without any HTML or web-tech. Currently supporting Windows, MacOS, Ubuntu, and iOS (although the iOS build is currently in review).",
+      "evidence": [
+        {
+          "source_item_id": 48529124,
+          "source_field": "body",
+          "value": "I'm working on Totem (https://totemkb.com), a collaborative knowledge management system built entirely in Rust without any HTML or web-tech. Currently supporting Windows, MacOS, Ubuntu, and iOS (although the iOS build is currently in review).",
+          "supports": [],
+          "author": "1024bits",
+          "shared_at": 1781454470,
+          "source_url": "https://news.ycombinator.com/item?id=48529124"
+        }
+      ],
+      "source_item_id": 48529124,
+      "source_url": "https://news.ycombinator.com/item?id=48529124",
+      "author": "1024bits",
+      "shared_at": 1781454470,
+      "links": [
+        "https://alpha.totemkb.com",
+        "https://totemkb.com"
+      ]
+    }
+  ]
+}

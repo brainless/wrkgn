@@ -1,0 +1,35 @@
+{
+  "id": 9424,
+  "slug": "switcheroo-dcd581d4bb",
+  "name": "Switcheroo",
+  "mentions": [
+    {
+      "name": "Switcheroo",
+      "description": "A fork of the Alt+Tab window switcher Switcheroo that displays all available Windows in a tabular layout: current windows in the center, apps with many windows (e.g. Excel or PDF windows) on the left sorted by process name, and pinned windows such as open emails on the right.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "oezi"
+      ],
+      "source_excerpt": "I am currently working on a fork of Alt+Tab replacement Switcheroo to show all available windows in a tabular format. Current windows in the center. Apps with many windows on the left sorted by process name (e.g. Excel or PDF windows). Pinned windows such as open emails on the right.",
+      "evidence": [
+        {
+          "source_item_id": 45870317,
+          "source_field": "body",
+          "value": "I am currently working on a fork of Alt+Tab replacement Switcheroo to show all available windows in a tabular format. Current windows in the center. Apps with many windows on the left sorted by process name (e.g. Excel or PDF windows). Pinned windows such as open emails on the right.",
+          "supports": [],
+          "author": "oezi",
+          "shared_at": 1762730695,
+          "source_url": "https://news.ycombinator.com/item?id=45870317"
+        }
+      ],
+      "source_item_id": 45870317,
+      "source_url": "https://news.ycombinator.com/item?id=45870317",
+      "author": "oezi",
+      "shared_at": 1762730695,
+      "links": [
+        "https://github.com/coezbek/switcheroo"
+      ]
+    }
+  ]
+}

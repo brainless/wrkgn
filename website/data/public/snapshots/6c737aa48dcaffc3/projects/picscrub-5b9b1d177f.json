@@ -1,0 +1,36 @@
+{
+  "id": 7192,
+  "slug": "picscrub-5b9b1d177f",
+  "name": "picscrub",
+  "mentions": [
+    {
+      "name": "picscrub",
+      "description": "Open source library that removes metadata from images, with a companion website demonstrating how it works. Support for some RAW formats is still missing and recent bugs were fixed.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "fasouto"
+      ],
+      "source_excerpt": "I released an open source library to remove metadata from images: https://github.com/fasouto/picscrub\n\nWas more complex than I thought. Still missing support for some RAW formats and had to fix some bugs\n\nI also created a website to showcase how it works -> https://picscrub.com/",
+      "evidence": [
+        {
+          "source_item_id": 46943598,
+          "source_field": "body",
+          "value": "I released an open source library to remove metadata from images: https://github.com/fasouto/picscrub\n\nWas more complex than I thought. Still missing support for some RAW formats and had to fix some bugs\n\nI also created a website to showcase how it works -> https://picscrub.com/",
+          "supports": [],
+          "author": "fasouto",
+          "shared_at": 1770631920,
+          "source_url": "https://news.ycombinator.com/item?id=46943598"
+        }
+      ],
+      "source_item_id": 46943598,
+      "source_url": "https://news.ycombinator.com/item?id=46943598",
+      "author": "fasouto",
+      "shared_at": 1770631920,
+      "links": [
+        "https://github.com/fasouto/picscrub",
+        "https://picscrub.com/"
+      ]
+    }
+  ]
+}

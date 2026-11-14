@@ -1,0 +1,35 @@
+{
+  "id": 6709,
+  "slug": "kavla-ab7d72aa2b",
+  "name": "Kavla",
+  "mentions": [
+    {
+      "name": "Kavla",
+      "description": "An infinite canvas that runs SQL, letting users lay out queries and their results on a canvas instead of constantly alt-tabbing between data tools. Includes a simple Titanic demo; built with tldraw and DuckDB WASM running on Cloudflare Durable Objects, currently a work in progress.",
+      "problem": "Working with data involves so much alt-tabbing between tools; the author wants everything on a single canvas instead.",
+      "audience": null,
+      "builder_usernames": [
+        "aleda145"
+      ],
+      "source_excerpt": "It's an infinite canvas that runs SQL.\n\nI've been working with data my entire career. I feel like we need to alt+tab so much. What if we just put it all on a canvas?\n\nCurrently very WIP, but there's a simple titanic demo available!\n\nBuilt with tldraw and duckdb wasm, running on cloudflare durable objects",
+      "evidence": [
+        {
+          "source_item_id": 46937911,
+          "source_field": "body",
+          "value": "It's an infinite canvas that runs SQL.\n\nI've been working with data my entire career. I feel like we need to alt+tab so much. What if we just put it all on a canvas?\n\nCurrently very WIP, but there's a simple titanic demo available!\n\nBuilt with tldraw and duckdb wasm, running on cloudflare durable objects",
+          "supports": [],
+          "author": "aleda145",
+          "shared_at": 1770580749,
+          "source_url": "https://news.ycombinator.com/item?id=46937911"
+        }
+      ],
+      "source_item_id": 46937911,
+      "source_url": "https://news.ycombinator.com/item?id=46937911",
+      "author": "aleda145",
+      "shared_at": 1770580749,
+      "links": [
+        "https://kavla.dev/"
+      ]
+    }
+  ]
+}

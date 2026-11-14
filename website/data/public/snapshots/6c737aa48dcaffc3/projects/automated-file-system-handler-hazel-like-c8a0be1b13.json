@@ -1,0 +1,33 @@
+{
+  "id": 6450,
+  "slug": "automated-file-system-handler-hazel-like-c8a0be1b13",
+  "name": "Automated file system handler (Hazel-like)",
+  "mentions": [
+    {
+      "name": "Automated file system handler (Hazel-like)",
+      "description": "An automated file system handler, similar to Hazel, that treats the Downloads folder (or another folder) like an inbox where files can be dumped, then automatically files each item into the correct spot in a Johnny Decimal folder structure.",
+      "problem": "Files dumped into a Downloads folder need to be automatically sorted into the right place in a Johnny Decimal file system instead of being filed manually.",
+      "audience": null,
+      "builder_usernames": [
+        "DavidPiper"
+      ],
+      "source_excerpt": "An automated file system handler, similar to Hazel[1].\n\nI want to treat my Downloads folder (or some other one) like an \"Inbox\" where I can just dump everything, and then the program knows where exactly in my (Johnny Decimal) file system the file should land.",
+      "evidence": [
+        {
+          "source_item_id": 47304284,
+          "source_field": "body",
+          "value": "An automated file system handler, similar to Hazel[1].\n\nI want to treat my Downloads folder (or some other one) like an \"Inbox\" where I can just dump everything, and then the program knows where exactly in my (Johnny Decimal) file system the file should land.",
+          "supports": [],
+          "author": "DavidPiper",
+          "shared_at": 1773024145,
+          "source_url": "https://news.ycombinator.com/item?id=47304284"
+        }
+      ],
+      "source_item_id": 47304284,
+      "source_url": "https://news.ycombinator.com/item?id=47304284",
+      "author": "DavidPiper",
+      "shared_at": 1773024145,
+      "links": []
+    }
+  ]
+}

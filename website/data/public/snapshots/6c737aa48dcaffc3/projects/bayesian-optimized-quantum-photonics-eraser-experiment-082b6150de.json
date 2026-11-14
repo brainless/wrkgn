@@ -1,0 +1,33 @@
+{
+  "id": 7647,
+  "slug": "bayesian-optimized-quantum-photonics-eraser-experiment-082b6150de",
+  "name": "Bayesian-optimized quantum photonics eraser experiment",
+  "mentions": [
+    {
+      "name": "Bayesian-optimized quantum photonics eraser experiment",
+      "description": "A quantum photonics experiment, a variation of the quantum eraser, in which about a dozen motorized wave plates and other optical components are under computer control. Bayesian optimization drives the setup: given a goal metric such as 'maximally entangle the photon pairs', the optimizer runs the experiment 50-100 times, tweaking the angles of various optics and collecting data to maximize the cost function, using the M-LOOP optimization tool originally developed for creating Bose-Einstein condensates.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "anotherpaulg"
+      ],
+      "source_excerpt": "I’m building a quantum photonics experiment that is a variation of the quantum eraser.\n\nOne aspect that HN may find interesting is my use of Bayesian optimization to control and perfect key experimental settings. About a dozen of the wave plates and other optical components are motorized and under computer control.",
+      "evidence": [
+        {
+          "source_item_id": 46578793,
+          "source_field": "body",
+          "value": "I’m building a quantum photonics experiment that is a variation of the quantum eraser.\n\nOne aspect that HN may find interesting is my use of Bayesian optimization to control and perfect key experimental settings. About a dozen of the wave plates and other optical components are motorized and under computer control.",
+          "supports": [],
+          "author": "anotherpaulg",
+          "shared_at": 1768158788,
+          "source_url": "https://news.ycombinator.com/item?id=46578793"
+        }
+      ],
+      "source_item_id": 46578793,
+      "source_url": "https://news.ycombinator.com/item?id=46578793",
+      "author": "anotherpaulg",
+      "shared_at": 1768158788,
+      "links": []
+    }
+  ]
+}

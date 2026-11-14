@@ -1,0 +1,35 @@
+{
+  "id": 9440,
+  "slug": "mercury-98c67ca753",
+  "name": "Mercury",
+  "mentions": [
+    {
+      "name": "Mercury",
+      "description": "Mercury is a framework that makes it easy to serve Python notebooks as web apps, so users can build beautiful looking web apps from a Python notebook without knowing HTML, CSS, or JS. Work in progress adds a new backend to support ipywidgets and anywidgets in Mercury.",
+      "problem": "Building web apps from Python notebooks normally requires knowing HTML, CSS, and JavaScript",
+      "audience": "Python notebook users who want to build web apps without knowing HTML, CSS, or JS",
+      "builder_usernames": [
+        "pplonski86"
+      ],
+      "source_excerpt": "Working on new backend for Mercury framework. Mercury makes it easy to serve Python notebooks as web apps. You dont need to know HTML, CSS, JS to build beautiful looking web app from Python notebook. I'm writing new backend to support ipywidgets, anywidgets in Mercury. https://github.com/mljar/mercury",
+      "evidence": [
+        {
+          "source_item_id": 45874913,
+          "source_field": "body",
+          "value": "Working on new backend for Mercury framework. Mercury makes it easy to serve Python notebooks as web apps. You dont need to know HTML, CSS, JS to build beautiful looking web app from Python notebook. I'm writing new backend to support ipywidgets, anywidgets in Mercury. https://github.com/mljar/mercury",
+          "supports": [],
+          "author": "pplonski86",
+          "shared_at": 1762774401,
+          "source_url": "https://news.ycombinator.com/item?id=45874913"
+        }
+      ],
+      "source_item_id": 45874913,
+      "source_url": "https://news.ycombinator.com/item?id=45874913",
+      "author": "pplonski86",
+      "shared_at": 1762774401,
+      "links": [
+        "https://github.com/mljar/mercury"
+      ]
+    }
+  ]
+}

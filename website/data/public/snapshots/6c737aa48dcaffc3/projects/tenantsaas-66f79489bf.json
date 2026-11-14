@@ -1,0 +1,35 @@
+{
+  "id": 6927,
+  "slug": "tenantsaas-66f79489bf",
+  "name": "TenantSaas",
+  "mentions": [
+    {
+      "name": "TenantSaas",
+      "description": "A .NET library for building multi-tenant applications more safely. It prevents background jobs and admin scripts from accidentally running across tenants by refusing to execute when tenant context isn't clear, and ships with contract tests teams can run in CI.",
+      "problem": "Background jobs or admin scripts can accidentally run across tenants when tenant context isn't clear, compromising isolation in multi-tenant apps.",
+      "audience": null,
+      "builder_usernames": [
+        "enterexit"
+      ],
+      "source_excerpt": "Been working on TenantSaas, a .NET library to make developing multi-tenant apps safer. Wanted something that prevents background jobs or admin scripts from accidentally running across tenants by refusing to run when tenant context isn’t clear. Comes with contract tests teams can run in CI. Still early, so be gentle.\n\nhttps://github.com/vladkuz/TenantSaas",
+      "evidence": [
+        {
+          "source_item_id": 46939481,
+          "source_field": "body",
+          "value": "Been working on TenantSaas, a .NET library to make developing multi-tenant apps safer. Wanted something that prevents background jobs or admin scripts from accidentally running across tenants by refusing to run when tenant context isn’t clear. Comes with contract tests teams can run in CI. Still early, so be gentle.\n\nhttps://github.com/vladkuz/TenantSaas",
+          "supports": [],
+          "author": "enterexit",
+          "shared_at": 1770591556,
+          "source_url": "https://news.ycombinator.com/item?id=46939481"
+        }
+      ],
+      "source_item_id": 46939481,
+      "source_url": "https://news.ycombinator.com/item?id=46939481",
+      "author": "enterexit",
+      "shared_at": 1770591556,
+      "links": [
+        "https://github.com/vladkuz/TenantSaas"
+      ]
+    }
+  ]
+}

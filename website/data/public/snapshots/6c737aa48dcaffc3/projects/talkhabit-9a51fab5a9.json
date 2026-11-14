@@ -1,0 +1,35 @@
+{
+  "id": 7197,
+  "slug": "talkhabit-9a51fab5a9",
+  "name": "TalkHabit",
+  "mentions": [
+    {
+      "name": "TalkHabit",
+      "description": "A voice agent that calls users on their phone for daily 4-5 minute conversations to practice language immersion, built with the Twilio API and an OpenAI model.",
+      "problem": "Issues with interrupting the agent and the high costs of calling non-US numbers.",
+      "audience": null,
+      "builder_usernames": [
+        "pzagor2"
+      ],
+      "source_excerpt": "A voice agent calls you on your phone, and you talk with them for about 4-5 min per day to practice language immersion. Using the Twilio API and the OpenAI model.",
+      "evidence": [
+        {
+          "source_item_id": 46944685,
+          "source_field": "body",
+          "value": "A voice agent calls you on your phone, and you talk with them for about 4-5 min per day to practice language immersion. Using the Twilio API and the OpenAI model.",
+          "supports": [],
+          "author": "pzagor2",
+          "shared_at": 1770641398,
+          "source_url": "https://news.ycombinator.com/item?id=46944685"
+        }
+      ],
+      "source_item_id": 46944685,
+      "source_url": "https://news.ycombinator.com/item?id=46944685",
+      "author": "pzagor2",
+      "shared_at": 1770641398,
+      "links": [
+        "https://talkhabit.com/"
+      ]
+    }
+  ]
+}

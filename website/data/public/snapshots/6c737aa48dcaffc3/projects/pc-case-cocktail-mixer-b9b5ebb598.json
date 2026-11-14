@@ -1,0 +1,33 @@
+{
+  "id": 11047,
+  "slug": "pc-case-cocktail-mixer-b9b5ebb598",
+  "name": "PC Case Cocktail Mixer",
+  "mentions": [
+    {
+      "name": "PC Case Cocktail Mixer",
+      "description": "This DIY automated cocktail mixer is built inside an old PC case. Six peristaltic pumps move different ingredients into the cup, driven by L298N motor drivers and PCF8574 IO expanders and controlled by an ESP32 attached via USB to a laptop. The ESP32 firmware enables the motors and sets their speeds, while a webapp on the laptop manages ingredients and recipes.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "xxmarkuski"
+      ],
+      "source_excerpt": "Just a small hardware project: I am building a cocktail mixer in an old PC case.",
+      "evidence": [
+        {
+          "source_item_id": 43825028,
+          "source_field": "body",
+          "value": "Just a small hardware project: I am building a cocktail mixer in an old PC case.",
+          "supports": [],
+          "author": "xxmarkuski",
+          "shared_at": 1745868336,
+          "source_url": "https://news.ycombinator.com/item?id=43825028"
+        }
+      ],
+      "source_item_id": 43825028,
+      "source_url": "https://news.ycombinator.com/item?id=43825028",
+      "author": "xxmarkuski",
+      "shared_at": 1745868336,
+      "links": []
+    }
+  ]
+}

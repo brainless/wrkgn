@@ -1,0 +1,63 @@
+{
+  "id": 4781,
+  "slug": "wasm2go-22db915d3f",
+  "name": "wasm2go",
+  "mentions": [
+    {
+      "name": "wasm2go",
+      "description": "A Wasm-to-Go transpiler that converts WebAssembly modules into Go code. The project is adding support for the threads/atomics proposal and has been used to transpile SQLite to Go as well as other C, C++, Zig, and Perl libraries to Go.",
+      "problem": null,
+      "audience": "A Go developers transpiling libraries written in other languages (C, C++, Zig, Perl) into Go.",
+      "builder_usernames": [
+        "ncruces"
+      ],
+      "source_excerpt": "Adding support for the threads/atomics proposal to my Wasm to Go transpiler:\nhttps://github.com/ncruces/wasm2go\n\nSince I started it a couple of months ago, it's been used by me to transpile SQLite to Go, and by some other folks to transpile other C, C++, Zig and even Perl libraries to Go.",
+      "evidence": [
+        {
+          "source_item_id": 48088597,
+          "source_field": "body",
+          "value": "Adding support for the threads/atomics proposal to my Wasm to Go transpiler:\nhttps://github.com/ncruces/wasm2go\n\nSince I started it a couple of months ago, it's been used by me to transpile SQLite to Go, and by some other folks to transpile other C, C++, Zig and even Perl libraries to Go.",
+          "supports": [],
+          "author": "ncruces",
+          "shared_at": 1778450662,
+          "source_url": "https://news.ycombinator.com/item?id=48088597"
+        }
+      ],
+      "source_item_id": 48088597,
+      "source_url": "https://news.ycombinator.com/item?id=48088597",
+      "author": "ncruces",
+      "shared_at": 1778450662,
+      "links": [
+        "https://github.com/ncruces/wasm2go"
+      ]
+    },
+    {
+      "name": "wasm2go",
+      "description": "A Wasm to Go transpiler that converts WebAssembly modules into Go code, letting Go projects use Wasm-compiled libraries without a separate runtime; the author uses it for their SQLite driver and several other projects already use it.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ncruces"
+      ],
+      "source_excerpt": "Still working on improving wasm2go (a Wasm to Go \"transpiler\"):\nhttps://github.com/ncruces/wasm2go",
+      "evidence": [
+        {
+          "source_item_id": 47744662,
+          "source_field": "body",
+          "value": "Still working on improving wasm2go (a Wasm to Go \"transpiler\"):\nhttps://github.com/ncruces/wasm2go",
+          "supports": [],
+          "author": "ncruces",
+          "shared_at": 1776029034,
+          "source_url": "https://news.ycombinator.com/item?id=47744662"
+        }
+      ],
+      "source_item_id": 47744662,
+      "source_url": "https://news.ycombinator.com/item?id=47744662",
+      "author": "ncruces",
+      "shared_at": 1776029034,
+      "links": [
+        "https://github.com/ncruces/wasm2go"
+      ]
+    }
+  ]
+}

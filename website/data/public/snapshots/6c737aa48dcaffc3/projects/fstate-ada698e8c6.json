@@ -1,0 +1,35 @@
+{
+  "id": 9091,
+  "slug": "fstate-ada698e8c6",
+  "name": "fstate",
+  "mentions": [
+    {
+      "name": "fstate",
+      "description": "A command-line tool that generates a hash-based, human-readable list of git repositories and data folders, capturing the exact state of all projects and files in a single plain-text file. Summaries can be diffed between machines to see which projects are out of sync, which repositories have uncommitted changes, and which folders have been modified, so the user knows what to commit, push, pull, or sync manually.",
+      "problem": "Working across multiple machines makes it hard to know which projects are on which computer and whether files have been left in unique locations; without cloud sync services, there is no clear visibility into what is out of sync.",
+      "audience": "Developers and others who work across multiple machines, manage projects with git and data folders, and avoid cloud sync services",
+      "builder_usernames": [
+        "senotrusov"
+      ],
+      "source_excerpt": "I’ve created a small command-line tool that generates a hash-based, human-readable list of git repositories and data folders. Its purpose is to capture the exact state of all projects and files in a single plain-text file.",
+      "evidence": [
+        {
+          "source_item_id": 45874227,
+          "source_field": "body",
+          "value": "I’ve created a small command-line tool that generates a hash-based, human-readable list of git repositories and data folders. Its purpose is to capture the exact state of all projects and files in a single plain-text file.",
+          "supports": [],
+          "author": "senotrusov",
+          "shared_at": 1762767378,
+          "source_url": "https://news.ycombinator.com/item?id=45874227"
+        }
+      ],
+      "source_item_id": 45874227,
+      "source_url": "https://news.ycombinator.com/item?id=45874227",
+      "author": "senotrusov",
+      "shared_at": 1762767378,
+      "links": [
+        "https://github.com/senotrusov/fstate"
+      ]
+    }
+  ]
+}

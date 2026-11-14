@@ -1,0 +1,35 @@
+{
+  "id": 5041,
+  "slug": "vicode-8bac282a12",
+  "name": "vicode",
+  "mentions": [
+    {
+      "name": "vicode",
+      "description": "A terminal UI coding agent written in Rust that runs tabs and subagents in isolated git worktrees on fuse-overlayfs, allowing multiple agents to work in parallel on different features or implementations without conflicts. An additional lowerdir with bindfs mounts lets agents share the compilation cache so cargo check stays fast. Since everything is just mounts, it also works as a worktree manager: selecting a vicode tab sets the cwd to the corresponding worktree via OSC7, so users can open a new terminal tab/window and run agents like claude or codex inside. Currently unstable and Linux-only (macOS build in progress, no overlayfs).",
+      "problem": "Coding agents working in parallel on the same repository conflict with each other, and without a shared compilation cache cargo check takes minutes.",
+      "audience": null,
+      "builder_usernames": [
+        "anuramat"
+      ],
+      "source_excerpt": "vicode -- TUI coding agent written in Rust, with tabs/subagents running in\nworktrees on top of fuse-overlayfs: create/fork tabs to work on multiple\nfeatures/implementations, while subagents work in parallel without conflicts;\nadditional lowerdir with bindfs mounts lets agents share the compilation cache,\nso that `cargo check` doesn't take minutes",
+      "evidence": [
+        {
+          "source_item_id": 48090926,
+          "source_field": "body",
+          "value": "vicode -- TUI coding agent written in Rust, with tabs/subagents running in\nworktrees on top of fuse-overlayfs: create/fork tabs to work on multiple\nfeatures/implementations, while subagents work in parallel without conflicts;\nadditional lowerdir with bindfs mounts lets agents share the compilation cache,\nso that `cargo check` doesn't take minutes",
+          "supports": [],
+          "author": "anuramat",
+          "shared_at": 1778471749,
+          "source_url": "https://news.ycombinator.com/item?id=48090926"
+        }
+      ],
+      "source_item_id": 48090926,
+      "source_url": "https://news.ycombinator.com/item?id=48090926",
+      "author": "anuramat",
+      "shared_at": 1778471749,
+      "links": [
+        "https://github.com/anuramat/vicode"
+      ]
+    }
+  ]
+}

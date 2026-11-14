@@ -1,0 +1,35 @@
+{
+  "id": 8200,
+  "slug": "youtube-shorts-generator-cbb8bfb11d",
+  "name": "YouTube Shorts Generator",
+  "mentions": [
+    {
+      "name": "YouTube Shorts Generator",
+      "description": "An open-source tool that converts long YouTube videos into Shorts automatically. It runs a fully local parallel pipeline with no APIs or subscriptions: Whisper handles transcription, LLaVA analyzes frames to find interesting moments, and Mistral picks clips and writes captions.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "halfinney"
+      ],
+      "source_excerpt": "YouTube Shorts Generator\nConverts long YouTube videos into Shorts automatically. Whisper handles transcription, LLaVA analyzes frames to find interesting moments, Mistral picks clips and writes captions. Everything runs locally in a parallel pipeline. No APIs, no subscriptions.",
+      "evidence": [
+        {
+          "source_item_id": 46271081,
+          "source_field": "body",
+          "value": "YouTube Shorts Generator\nConverts long YouTube videos into Shorts automatically. Whisper handles transcription, LLaVA analyzes frames to find interesting moments, Mistral picks clips and writes captions. Everything runs locally in a parallel pipeline. No APIs, no subscriptions.",
+          "supports": [],
+          "author": "halfinney",
+          "shared_at": 1765779931,
+          "source_url": "https://news.ycombinator.com/item?id=46271081"
+        }
+      ],
+      "source_item_id": 46271081,
+      "source_url": "https://news.ycombinator.com/item?id=46271081",
+      "author": "halfinney",
+      "shared_at": 1765779931,
+      "links": [
+        "https://github.com/Ashwinsuriya/yt-shorts-generator"
+      ]
+    }
+  ]
+}

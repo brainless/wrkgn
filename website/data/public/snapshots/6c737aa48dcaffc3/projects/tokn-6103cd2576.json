@@ -1,0 +1,63 @@
+{
+  "id": 6705,
+  "slug": "tokn-6103cd2576",
+  "name": "tokn",
+  "mentions": [
+    {
+      "name": "tokn",
+      "description": "The commenter's own experiments generating circuit files with LLMs using a similar circuit-description approach; the LLM output was syntactically correct but contained errors in the circuit content, shared at mikeayles.com/#tokn.",
+      "problem": "Getting LLMs to generate circuit files with correct content, not just syntactically correct code.",
+      "audience": null,
+      "builder_usernames": [
+        "mikeayles"
+      ],
+      "source_excerpt": "I tried similar, and could get syntactically correct files, but the content always had errors:\nhttps://www.mikeayles.com/#tokn",
+      "evidence": [
+        {
+          "source_item_id": 46944460,
+          "source_field": "body",
+          "value": "I tried similar, and could get syntactically correct files, but the content always had errors:\nhttps://www.mikeayles.com/#tokn",
+          "supports": [],
+          "author": "mikeayles",
+          "shared_at": 1770639698,
+          "source_url": "https://news.ycombinator.com/item?id=46944460"
+        }
+      ],
+      "source_item_id": 46944460,
+      "source_url": "https://news.ycombinator.com/item?id=46944460",
+      "author": "mikeayles",
+      "shared_at": 1770639698,
+      "links": [
+        "https://www.mikeayles.com/#tokn"
+      ]
+    },
+    {
+      "name": "TOKN",
+      "description": "TOKN is a fork of toon for KiCad that provides a reduced token format intended for generating schematics using LLMs.",
+      "problem": "LLM models could follow the token syntax correctly, but lacked the electronics knowledge to generate schematics.",
+      "audience": null,
+      "builder_usernames": [
+        "mikeayles"
+      ],
+      "source_excerpt": "Whilst I created a fork of toon for Kicad (called TOKN (https://www.mikeayles.com/#tokn)), with the intention of using a reduced token format to generate schematics using LLM's, I could get the models to follow the syntax correctly, but they didn't have the knowledge.",
+      "evidence": [
+        {
+          "source_item_id": 46267863,
+          "source_field": "body",
+          "value": "Whilst I created a fork of toon for Kicad (called TOKN (https://www.mikeayles.com/#tokn)), with the intention of using a reduced token format to generate schematics using LLM's, I could get the models to follow the syntax correctly, but they didn't have the knowledge.",
+          "supports": [],
+          "author": "mikeayles",
+          "shared_at": 1765751827,
+          "source_url": "https://news.ycombinator.com/item?id=46267863"
+        }
+      ],
+      "source_item_id": 46267863,
+      "source_url": "https://news.ycombinator.com/item?id=46267863",
+      "author": "mikeayles",
+      "shared_at": 1765751827,
+      "links": [
+        "https://www.mikeayles.com/#tokn"
+      ]
+    }
+  ]
+}

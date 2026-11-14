@@ -1,0 +1,63 @@
+{
+  "id": 5695,
+  "slug": "pagewatch-8119eabeb1",
+  "name": "PageWatch",
+  "mentions": [
+    {
+      "name": "PageWatch",
+      "description": "This is an AI readiness audit tool that audits web pages. A companion MCP app is also being built to let it run inside Claude and ChatGPT.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "lpellis"
+      ],
+      "source_excerpt": "Still working https://pagewatch.ai/ , my ai readiness audit tool.\nCurrently having fun building a MCP app for it inside Claude / ChatGPT, its oddly tricky to get things behaving consistently.",
+      "evidence": [
+        {
+          "source_item_id": 47744330,
+          "source_field": "body",
+          "value": "Still working https://pagewatch.ai/ , my ai readiness audit tool.\nCurrently having fun building a MCP app for it inside Claude / ChatGPT, its oddly tricky to get things behaving consistently.",
+          "supports": [],
+          "author": "lpellis",
+          "shared_at": 1776027069,
+          "source_url": "https://news.ycombinator.com/item?id=47744330"
+        }
+      ],
+      "source_item_id": 47744330,
+      "source_url": "https://news.ycombinator.com/item?id=47744330",
+      "author": "lpellis",
+      "shared_at": 1776027069,
+      "links": [
+        "https://pagewatch.ai/"
+      ]
+    },
+    {
+      "name": "PageWatch",
+      "description": "A tool that checks whether LLMs can understand a website's pages. It inspects the site as close as possible to what a human would see and then compares that with how LLMs interpret it, surfacing edge cases (such as div-based tables, or alt tags vs title tags) that cause ChatGPT and other models to misunderstand pages.",
+      "problem": "There is a surprising amount of edge cases that can cause ChatGPT or others to misunderstand your pages — some models can handle div based tables, some want alt tags but cannot understand title tags, etc.",
+      "audience": "Site owners and developers who want LLMs like ChatGPT to correctly understand their web pages.",
+      "builder_usernames": [
+        "lpellis"
+      ],
+      "source_excerpt": "https://pagewatch.ai/ - make sure LLM's can understand your site.\n\nThere is a surprising amount of edge cases that can cause ChatGPT or others to misunderstand your pages.",
+      "evidence": [
+        {
+          "source_item_id": 47303529,
+          "source_field": "body",
+          "value": "https://pagewatch.ai/ - make sure LLM's can understand your site.\n\nThere is a surprising amount of edge cases that can cause ChatGPT or others to misunderstand your pages.",
+          "supports": [],
+          "author": "lpellis",
+          "shared_at": 1773018021,
+          "source_url": "https://news.ycombinator.com/item?id=47303529"
+        }
+      ],
+      "source_item_id": 47303529,
+      "source_url": "https://news.ycombinator.com/item?id=47303529",
+      "author": "lpellis",
+      "shared_at": 1773018021,
+      "links": [
+        "https://pagewatch.ai/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 4214,
+  "slug": "inference-club-e587d3333b",
+  "name": "inference.club",
+  "mentions": [
+    {
+      "name": "inference.club",
+      "description": "A distributed inference network for consumer hardware. Users sign up with GitHub, get an API key, and run an agent on their home network that registers local inference resources with inference.club, with permissions for who can use each service. Models can be tried in a playground or consumed via API, covering LLMs (any OpenAI-compatible API, vLLM, LM Studio), image generation and editing (flux klein), text to speech (magpie, dia with voice cloning), speech to text, image to textured 3D model (trellis2), image+text to video (ltx2.3-gguf), and text to music (acestep). Built with Tailscale's tsnet library, it also lets users showcase and share generated content, and works like an OpenRouter for local AI models or a Hugging Face Spaces running on consumer hardware behind a common API.",
+      "problem": "Local AI inference quality and performance are improving massively, but it is hard for people to try it if they don't have a GPU; the author also wanted a single service supporting all the model modalities used for generating short-form AI content on local hardware.",
+      "audience": null,
+      "builder_usernames": [
+        "misterbrian"
+      ],
+      "source_excerpt": "I'm working on inference.club, a distributed inference network for consumer hardware. Sign up with GitHub, get an API key, run an agent on your home network that registers your local inference resources with inference.club, set permissions for who can use your services, try out models in the playground and use the API.",
+      "evidence": [
+        {
+          "source_item_id": 48531509,
+          "source_field": "body",
+          "value": "I'm working on inference.club, a distributed inference network for consumer hardware. Sign up with GitHub, get an API key, run an agent on your home network that registers your local inference resources with inference.club, set permissions for who can use your services, try out models in the playground and use the API.",
+          "supports": [],
+          "author": "misterbrian",
+          "shared_at": 1781464713,
+          "source_url": "https://news.ycombinator.com/item?id=48531509"
+        }
+      ],
+      "source_item_id": 48531509,
+      "source_url": "https://news.ycombinator.com/item?id=48531509",
+      "author": "misterbrian",
+      "shared_at": 1781464713,
+      "links": [
+        "https://inference.club/s/Vxm6ozW24oBs_JGbPcq7tA"
+      ]
+    }
+  ]
+}

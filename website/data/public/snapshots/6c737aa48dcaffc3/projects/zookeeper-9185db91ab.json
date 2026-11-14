@@ -1,0 +1,35 @@
+{
+  "id": 9382,
+  "slug": "zookeeper-9185db91ab",
+  "name": "Zookeeper",
+  "mentions": [
+    {
+      "name": "Zookeeper",
+      "description": "A fully local time tracking app that logs time spent against estimates and tracks actual working hours, helping the user stay focused and track distractions while working. All data is stored in localStorage, with plans for optional syncing so it can be used on multiple devices.",
+      "problem": "Difficulty keeping track of actual working hours versus estimates and staying focused amid distractions while working.",
+      "audience": null,
+      "builder_usernames": [
+        "lowkeyokay"
+      ],
+      "source_excerpt": "I am working on a time tracking app. I use it to keep track of time spent vs my estimates, and also just to check my actual working hours. It's fully local—everything is stored in localStorage — but I do have plans for some optional syncing so it can be used on multiple devices.\n\nIt has helped me a lot to keep focus while working and track distractions. It might be too tailored for my needs, but have a look: https://zookeeper.fyi",
+      "evidence": [
+        {
+          "source_item_id": 45876330,
+          "source_field": "body",
+          "value": "I am working on a time tracking app. I use it to keep track of time spent vs my estimates, and also just to check my actual working hours. It's fully local—everything is stored in localStorage — but I do have plans for some optional syncing so it can be used on multiple devices.\n\nIt has helped me a lot to keep focus while working and track distractions. It might be too tailored for my needs, but have a look: https://zookeeper.fyi",
+          "supports": [],
+          "author": "lowkeyokay",
+          "shared_at": 1762784742,
+          "source_url": "https://news.ycombinator.com/item?id=45876330"
+        }
+      ],
+      "source_item_id": 45876330,
+      "source_url": "https://news.ycombinator.com/item?id=45876330",
+      "author": "lowkeyokay",
+      "shared_at": 1762784742,
+      "links": [
+        "https://zookeeper.fyi"
+      ]
+    }
+  ]
+}

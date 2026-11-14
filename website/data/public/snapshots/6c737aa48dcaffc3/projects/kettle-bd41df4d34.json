@@ -1,0 +1,35 @@
+{
+  "id": 7092,
+  "slug": "kettle-bd41df4d34",
+  "name": "Kettle",
+  "mentions": [
+    {
+      "name": "Kettle",
+      "description": "Kettle is a programming language for quantum-classical computing. Linear types prevent copying qubits and effects track what is quantum versus pure, letting the type system catch mistakes that would otherwise blow up at runtime. It runs on a local simulator with various qubit types modelled or on IBM hardware, and serves as a research and learning language.",
+      "problem": null,
+      "audience": "Wanted a better way to play with quantum mechanics; mistakes that would otherwise blow up at runtime are caught by the type system instead.",
+      "builder_usernames": [
+        "dve"
+      ],
+      "source_excerpt": "Ive been working on Kettle, it is a language for quantum-classical computing",
+      "evidence": [
+        {
+          "source_item_id": 46945125,
+          "source_field": "body",
+          "value": "Ive been working on Kettle, it is a language for quantum-classical computing",
+          "supports": [],
+          "author": "dve",
+          "shared_at": 1770644724,
+          "source_url": "https://news.ycombinator.com/item?id=46945125"
+        }
+      ],
+      "source_item_id": 46945125,
+      "source_url": "https://news.ycombinator.com/item?id=46945125",
+      "author": "dve",
+      "shared_at": 1770644724,
+      "links": [
+        "https://kettle-lang.pages.dev"
+      ]
+    }
+  ]
+}

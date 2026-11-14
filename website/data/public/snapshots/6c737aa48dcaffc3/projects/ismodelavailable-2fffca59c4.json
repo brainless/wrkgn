@@ -1,0 +1,35 @@
+{
+  "id": 4286,
+  "slug": "ismodelavailable-2fffca59c4",
+  "name": "IsModelAvailable",
+  "mentions": [
+    {
+      "name": "IsModelAvailable",
+      "description": "This website tracks LLM availability — which models are live, where, and on what terms — with a long-term plan to become a sort of JustWatch for LLMs. It was hacked together after the Fable 5 shutdown and is currently just a toy.",
+      "problem": "Model shutdowns (such as the Fable 5 shutdown) leave no easy way to see which LLMs are live, where, and on what terms.",
+      "audience": null,
+      "builder_usernames": [
+        "oavu"
+      ],
+      "source_excerpt": "Mourning the Fable 5 shutdown, I hacked together https://ismodelavailable.com/fable\nThe long-term plan is a sort of JustWatch for LLMs - which models are live, where, on what terms. Right now it's just a toy.",
+      "evidence": [
+        {
+          "source_item_id": 48538325,
+          "source_field": "body",
+          "value": "Mourning the Fable 5 shutdown, I hacked together https://ismodelavailable.com/fable\nThe long-term plan is a sort of JustWatch for LLMs - which models are live, where, on what terms. Right now it's just a toy.",
+          "supports": [],
+          "author": "oavu",
+          "shared_at": 1781512476,
+          "source_url": "https://news.ycombinator.com/item?id=48538325"
+        }
+      ],
+      "source_item_id": 48538325,
+      "source_url": "https://news.ycombinator.com/item?id=48538325",
+      "author": "oavu",
+      "shared_at": 1781512476,
+      "links": [
+        "https://ismodelavailable.com/fable"
+      ]
+    }
+  ]
+}

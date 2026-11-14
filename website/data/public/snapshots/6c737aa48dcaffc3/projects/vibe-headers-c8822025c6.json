@@ -1,0 +1,35 @@
+{
+  "id": 10791,
+  "slug": "vibe-headers-c8822025c6",
+  "name": "vibe-headers",
+  "mentions": [
+    {
+      "name": "vibe-headers",
+      "description": "A browser extension that modifies the HTTP request headers the browser sends to the author's server, built with AI-assisted \"vibe coding\" (Gemini 2.5 Pro) in about 45 minutes and ending up with more features than originally planned. It works around an OpenSearch bug where zstd in the browser's Accept-Encoding header causes browser-based requests to the server to fail.",
+      "problem": "OpenSearch does not correctly support zstd, which has become a standard part of Accept-Encoding, so no browser-based requests to the server work; the author needed a way to modify the browser's HTTP request headers.",
+      "audience": null,
+      "builder_usernames": [
+        "matt_heimer"
+      ],
+      "source_excerpt": "With vibe coding I was able to build a browser extension in 45 minutes that had more features than I originally planned for.\n\nI spend more time documenting the experience than building which is wild. If you are interesting you can look at the README in https://github.com/mattheimer/vibe-headers",
+      "evidence": [
+        {
+          "source_item_id": 43822369,
+          "source_field": "body",
+          "value": "With vibe coding I was able to build a browser extension in 45 minutes that had more features than I originally planned for.\n\nI spend more time documenting the experience than building which is wild. If you are interesting you can look at the README in https://github.com/mattheimer/vibe-headers",
+          "supports": [],
+          "author": "matt_heimer",
+          "shared_at": 1745853112,
+          "source_url": "https://news.ycombinator.com/item?id=43822369"
+        }
+      ],
+      "source_item_id": 43822369,
+      "source_url": "https://news.ycombinator.com/item?id=43822369",
+      "author": "matt_heimer",
+      "shared_at": 1745853112,
+      "links": [
+        "https://github.com/mattheimer/vibe-headers"
+      ]
+    }
+  ]
+}

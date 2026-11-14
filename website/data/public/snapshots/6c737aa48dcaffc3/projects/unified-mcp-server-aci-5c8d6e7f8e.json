@@ -1,0 +1,35 @@
+{
+  "id": 10937,
+  "slug": "unified-mcp-server-aci-5c8d6e7f8e",
+  "name": "Unified MCP server (aci)",
+  "mentions": [
+    {
+      "name": "Unified MCP server (aci)",
+      "description": "A unified MCP server that lets AI agents search and use a large number of tools through just two meta tools: one to search available tools and one to execute a tool. For a task like sending an email, the LLM uses the search meta tool to find Gmail-related tools in the backend, then uses the execute meta tool to run the returned tool.",
+      "problem": "Adding each MCP server directly doesn't scale: configuring many servers for an agent's tools confuses the LLM and tool calling accuracy starts to drop.",
+      "audience": "Developers building AI agents that need to use many tools",
+      "builder_usernames": [
+        "criticalpudding"
+      ],
+      "source_excerpt": "I'm working on an unified MCP server that can search and use a large number of tools. The current way of using MCP server (adding each MCP server directly) simply doesn't scale.",
+      "evidence": [
+        {
+          "source_item_id": 43821357,
+          "source_field": "body",
+          "value": "I'm working on an unified MCP server that can search and use a large number of tools. The current way of using MCP server (adding each MCP server directly) simply doesn't scale.",
+          "supports": [],
+          "author": "criticalpudding",
+          "shared_at": 1745847112,
+          "source_url": "https://news.ycombinator.com/item?id=43821357"
+        }
+      ],
+      "source_item_id": 43821357,
+      "source_url": "https://news.ycombinator.com/item?id=43821357",
+      "author": "criticalpudding",
+      "shared_at": 1745847112,
+      "links": [
+        "https://github.com/aipotheosis-labs/aci"
+      ]
+    }
+  ]
+}

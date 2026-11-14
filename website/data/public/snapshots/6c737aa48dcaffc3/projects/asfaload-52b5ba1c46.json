@@ -1,0 +1,93 @@
+{
+  "id": 3888,
+  "slug": "asfaload-52b5ba1c46",
+  "name": "Asfaload",
+  "mentions": [
+    {
+      "name": "Asfaload",
+      "description": "This open source multi-signature solution authenticates digital artifacts to increase software supply chain security. It is fully self-hostable (including internally), supports air-gapped signers, and is fully auditable with a data store that is a public git repo. It positions itself as an alternative to Sigstore, making different design decisions.",
+      "problem": "Software supply chain security: verifying the authenticity of digital artifacts.",
+      "audience": null,
+      "builder_usernames": [
+        "raphinou"
+      ],
+      "source_excerpt": "Putting finishing touches on an open source multi sig solution to authenticate digital artifact, aiming to increase security of the software supply chain. It's open source, completely self hostable, incl internally, support air gapped signers, fully auditable (data store is a puglic git repo). It's an alternative to sigstore, making different decision.",
+      "evidence": [
+        {
+          "source_item_id": 48529937,
+          "source_field": "body",
+          "value": "Putting finishing touches on an open source multi sig solution to authenticate digital artifact, aiming to increase security of the software supply chain. It's open source, completely self hostable, incl internally, support air gapped signers, fully auditable (data store is a puglic git repo). It's an alternative to sigstore, making different decision.",
+          "supports": [],
+          "author": "raphinou",
+          "shared_at": 1781457753,
+          "source_url": "https://news.ycombinator.com/item?id=48529937"
+        }
+      ],
+      "source_item_id": 48529937,
+      "source_url": "https://news.ycombinator.com/item?id=48529937",
+      "author": "raphinou",
+      "shared_at": 1781457753,
+      "links": [
+        "https://github.com/asfaload/asfaload",
+        "https://www.asfaload.com/"
+      ]
+    },
+    {
+      "name": "Asfaload",
+      "description": "Asfaload is an open source multisig sign-off solution for authenticating software release artifacts. It is accountless (keys serve as identity), uses a public git backend that makes it easily auditable, and is easy to self-host for internal deployment. Its multisig approach detects malevolent artifacts even if a GitHub account is breached, and it validates downloads transparently to the user, requiring only the download URL, unlike sigstore. The project is nearing its Alpha release stage.",
+      "problem": "Malicious release artifacts can go undetected when a release-signing account such as GitHub is breached.",
+      "audience": null,
+      "builder_usernames": [
+        "raphinou"
+      ],
+      "source_excerpt": "Working on Asfaload, a multisig sign-off solution applied to release artifacts authentication.\n\nIt is:\n\n- open source\n\n- accountless(keys are identity)\n\n- using a public git backend making it easily auditable\n\n- easy to self host, meaning you can easily deploy it internally\n\n- multisig, meaning event if GitHub account is breached, malevolent artifacts can be detected\n\n- validating a download transparantly to the user, which only requires the download url, contrary to sigstore",
+      "evidence": [
+        {
+          "source_item_id": 47748442,
+          "source_field": "body",
+          "value": "Working on Asfaload, a multisig sign-off solution applied to release artifacts authentication.\n\nIt is:\n\n- open source\n\n- accountless(keys are identity)\n\n- using a public git backend making it easily auditable\n\n- easy to self host, meaning you can easily deploy it internally\n\n- multisig, meaning event if GitHub account is breached, malevolent artifacts can be detected\n\n- validating a download transparantly to the user, which only requires the download url, contrary to sigstore",
+          "supports": [],
+          "author": "raphinou",
+          "shared_at": 1776062268,
+          "source_url": "https://news.ycombinator.com/item?id=47748442"
+        }
+      ],
+      "source_item_id": 47748442,
+      "source_url": "https://news.ycombinator.com/item?id=47748442",
+      "author": "raphinou",
+      "shared_at": 1776062268,
+      "links": [
+        "https://asfaload.com/",
+        "https://github.com/asfaload/asfaload"
+      ]
+    },
+    {
+      "name": "asfaload",
+      "description": "An open source multisig sign-off solution for signing and authenticating GitHub release artifacts. It is self-hostable, accountless (using key pair identity), and auditable.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "raphinou"
+      ],
+      "source_excerpt": "https://github.com/asfaload/asfaload :\nan opensource multisig sign-off solution allowing to sign and authenticate GitHub release artifacts. It is self hostable, accountless (key pair identity), auditable.",
+      "evidence": [
+        {
+          "source_item_id": 46942388,
+          "source_field": "body",
+          "value": "https://github.com/asfaload/asfaload :\nan opensource multisig sign-off solution allowing to sign and authenticate GitHub release artifacts. It is self hostable, accountless (key pair identity), auditable.",
+          "supports": [],
+          "author": "raphinou",
+          "shared_at": 1770620517,
+          "source_url": "https://news.ycombinator.com/item?id=46942388"
+        }
+      ],
+      "source_item_id": 46942388,
+      "source_url": "https://news.ycombinator.com/item?id=46942388",
+      "author": "raphinou",
+      "shared_at": 1770620517,
+      "links": [
+        "https://github.com/asfaload/asfaload"
+      ]
+    }
+  ]
+}

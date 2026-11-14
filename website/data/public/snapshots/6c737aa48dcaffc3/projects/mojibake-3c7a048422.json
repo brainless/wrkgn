@@ -1,0 +1,35 @@
+{
+  "id": 7873,
+  "slug": "mojibake-3c7a048422",
+  "name": "Mojibake",
+  "mentions": [
+    {
+      "name": "Mojibake",
+      "description": "This is a small C library for handling Unicode data, created as an alternative to existing Unicode libraries the author dislikes.",
+      "problem": "Existing Unicode libraries are unsatisfactory.",
+      "audience": null,
+      "builder_usernames": [
+        "program"
+      ],
+      "source_excerpt": "I am working on Mojibake, a small C library to handle Unicode data. I don't like the other libraries, so I’m building one myself.",
+      "evidence": [
+        {
+          "source_item_id": 46590197,
+          "source_field": "body",
+          "value": "I am working on Mojibake, a small C library to handle Unicode data. I don't like the other libraries, so I’m building one myself.",
+          "supports": [],
+          "author": "program",
+          "shared_at": 1768233623,
+          "source_url": "https://news.ycombinator.com/item?id=46590197"
+        }
+      ],
+      "source_item_id": 46590197,
+      "source_url": "https://news.ycombinator.com/item?id=46590197",
+      "author": "program",
+      "shared_at": 1768233623,
+      "links": [
+        "https://github.com/zaerl/mojibake"
+      ]
+    }
+  ]
+}

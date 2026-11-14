@@ -1,0 +1,33 @@
+{
+  "id": 10042,
+  "slug": "arbiter-048d4d2ce2",
+  "name": "Arbiter",
+  "mentions": [
+    {
+      "name": "Arbiter",
+      "description": "A tool that AI agents can use to construct structured, validated project specifications, which compile into services with stubbed endpoints, UIs with placeholder components, Dockerfiles/Terraform/K8s infra, E2E tests from declared flows, and GitHub/GitLab epics/issues/subissues. Includes GitHub/GitLab webhook integration so agents can be triggered reactively when events occur on a repo, Cloudflare tunnel support for setting up webhooks in a local dev environment, and a fully customizable project generator.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "CuriouslyC"
+      ],
+      "source_excerpt": "I'm trying to get my agentic software specification tool Arbiter to release (UI polish/debugging is so slow :/, browser shenanigans are harder than Rust fr).  It's basically a tool that AI agents can use to construct a project specification. The twist to Arbiter is that the specs are structured and validated, and you can compile them to get:\n\nServices with stubbed endpoints,\nUIs with placeholder components,\nDockerfiles/Terraform/K8s infra,\nE2E tests (via declared flows),\nGithub/Gitlab epics/issues/subissues",
+      "evidence": [
+        {
+          "source_item_id": 45418843,
+          "source_field": "body",
+          "value": "I'm trying to get my agentic software specification tool Arbiter to release (UI polish/debugging is so slow :/, browser shenanigans are harder than Rust fr).  It's basically a tool that AI agents can use to construct a project specification. The twist to Arbiter is that the specs are structured and validated, and you can compile them to get:\n\nServices with stubbed endpoints,\nUIs with placeholder components,\nDockerfiles/Terraform/K8s infra,\nE2E tests (via declared flows),\nGithub/Gitlab epics/issues/subissues",
+          "supports": [],
+          "author": "CuriouslyC",
+          "shared_at": 1759180483,
+          "source_url": "https://news.ycombinator.com/item?id=45418843"
+        }
+      ],
+      "source_item_id": 45418843,
+      "source_url": "https://news.ycombinator.com/item?id=45418843",
+      "author": "CuriouslyC",
+      "shared_at": 1759180483,
+      "links": []
+    }
+  ]
+}

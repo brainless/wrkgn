@@ -1,0 +1,35 @@
+{
+  "id": 5207,
+  "slug": "vizqa-a496fced2f",
+  "name": "VizQA",
+  "mentions": [
+    {
+      "name": "VizQA",
+      "description": "VizQA is a UI test automation tool that uses vision-based UI perception and semantics, running entirely locally on CPU. Tests are defined as YAML files describing sequences of simple steps to navigate, interact, and make assertions, avoiding brittle test setups that break on slight UI changes.",
+      "problem": "UI test automation setups are tedious to create and break whenever a slight change is made to the UI.",
+      "audience": null,
+      "builder_usernames": [
+        "spospider"
+      ],
+      "source_excerpt": "Working on a UI test automation tool that leverages vision-based UI-perception and semantics, runs purely locally on CPU. It's called VizQA: https://github.com/TinyReasonLabs/vizQA",
+      "evidence": [
+        {
+          "source_item_id": 47756554,
+          "source_field": "body",
+          "value": "Working on a UI test automation tool that leverages vision-based UI-perception and semantics, runs purely locally on CPU. It's called VizQA: https://github.com/TinyReasonLabs/vizQA",
+          "supports": [],
+          "author": "spospider",
+          "shared_at": 1776107355,
+          "source_url": "https://news.ycombinator.com/item?id=47756554"
+        }
+      ],
+      "source_item_id": 47756554,
+      "source_url": "https://news.ycombinator.com/item?id=47756554",
+      "author": "spospider",
+      "shared_at": 1776107355,
+      "links": [
+        "https://github.com/TinyReasonLabs/vizQA"
+      ]
+    }
+  ]
+}

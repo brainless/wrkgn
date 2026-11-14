@@ -1,0 +1,35 @@
+{
+  "id": 11143,
+  "slug": "meteor-c018063911",
+  "name": "Meteor",
+  "mentions": [
+    {
+      "name": "Meteor",
+      "description": "Meteor is an agentic browser that removes the prompting layer from computer-use agents (CUA). It aims to be a browser that understands the user and can take actions on their behalf like a personal assistant.",
+      "problem": "Computer-use agents require an explicit prompting layer; the author got tired of waiting for Perplexity to launch Comet, so built their own browser that acts directly.",
+      "audience": null,
+      "builder_usernames": [
+        "pranav_cm"
+      ],
+      "source_excerpt": "I'm building Meteor (https://browse.dev) - an agentic browser.\nThe goal is to remove the prompting layer in CUA, and to have a browser that just gets you and can do actions like a personal assistant.",
+      "evidence": [
+        {
+          "source_item_id": 43826432,
+          "source_field": "body",
+          "value": "I'm building Meteor (https://browse.dev) - an agentic browser.\nThe goal is to remove the prompting layer in CUA, and to have a browser that just gets you and can do actions like a personal assistant.",
+          "supports": [],
+          "author": "pranav_cm",
+          "shared_at": 1745876411,
+          "source_url": "https://news.ycombinator.com/item?id=43826432"
+        }
+      ],
+      "source_item_id": 43826432,
+      "source_url": "https://news.ycombinator.com/item?id=43826432",
+      "author": "pranav_cm",
+      "shared_at": 1745876411,
+      "links": [
+        "https://browse.dev"
+      ]
+    }
+  ]
+}

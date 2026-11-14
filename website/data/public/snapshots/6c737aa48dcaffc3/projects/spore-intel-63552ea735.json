@@ -1,0 +1,119 @@
+{
+  "id": 1455,
+  "slug": "spore-intel-63552ea735",
+  "name": "Spore Intel",
+  "mentions": [
+    {
+      "name": "Spore Intel",
+      "description": "This tool makes it simple to run open-weight AI models on your own hardware and access them privately from anywhere. It also lets users share their compute with others through a built-in credit system.",
+      "problem": "Running open-weight models on personal hardware and accessing them privately from anywhere is not simple.",
+      "audience": null,
+      "builder_usernames": [
+        "chrisischris"
+      ],
+      "source_excerpt": "Spore Intel - https://sporeintel.com/\n\nWorking on this tool to make running open-weight models on your hardware and accessing them from anywhere privately simple. Also has the option of sharing your compute with others with the built in credit system.",
+      "evidence": [
+        {
+          "source_item_id": 49696308,
+          "source_field": "body",
+          "value": "Spore Intel - https://sporeintel.com/\n\nWorking on this tool to make running open-weight models on your hardware and accessing them from anywhere privately simple. Also has the option of sharing your compute with others with the built in credit system.",
+          "supports": [],
+          "author": "chrisischris",
+          "shared_at": 1789391677,
+          "source_url": "https://news.ycombinator.com/item?id=49696308"
+        }
+      ],
+      "source_item_id": 49696308,
+      "source_url": "https://news.ycombinator.com/item?id=49696308",
+      "author": "chrisischris",
+      "shared_at": 1789391677,
+      "links": [
+        "https://sporeintel.com/"
+      ]
+    },
+    {
+      "name": "Spore",
+      "description": "A distributed AI inference platform where users run models on their own hardware and access them from anywhere, keeping data control while earning credits in a credit economy to access more powerful models. Includes a cross-platform CLI for running an inference node with auth, model management, and serving via a single command, an OpenAI-compatible API with streaming, tool calling, and web search in the chat interface, plus a job queue with guaranteed FIFO ordering per model+context and circuit breakers for connection stability. Wrapping up alpha testing ahead of a beta rollout via an email list.",
+      "problem": "Keeping control of your own data while still being able to access more powerful models when needed.",
+      "audience": null,
+      "builder_usernames": [
+        "chrisischris"
+      ],
+      "source_excerpt": "Been building Spore, a  distributed AI inference platform where you run models on your own hardware and access them from anywhere.",
+      "evidence": [
+        {
+          "source_item_id": 47020780,
+          "source_field": "body",
+          "value": "Been building Spore, a  distributed AI inference platform where you run models on your own hardware and access them from anywhere.",
+          "supports": [],
+          "author": "chrisischris",
+          "shared_at": 1771126068,
+          "source_url": "https://news.ycombinator.com/item?id=47020780"
+        }
+      ],
+      "source_item_id": 47020780,
+      "source_url": "https://news.ycombinator.com/item?id=47020780",
+      "author": "chrisischris",
+      "shared_at": 1771126068,
+      "links": [
+        "https://sporeintel.com"
+      ]
+    },
+    {
+      "name": "SporeIntel",
+      "description": "A distributed AI inference platform where users run AI models on their own hardware (e.g. an idle home GPU) and access them privately from anywhere. Data stays on infrastructure the user controls, and a credit system lets users tap into more powerful compute when needed. A closed beta is planned for February to test running a personal node, remote access, and the credit economy.",
+      "problem": "The author frequently hit Claude Code's rate limits while paying for its max subscription, while a decent GPU at home sat unused most of the day.",
+      "audience": "Developers and teams who want to test running their own node, accessing it remotely, and participating in the credit economy before wider release.",
+      "builder_usernames": [
+        "chrisischris"
+      ],
+      "source_excerpt": "So I've been building a distributed AI inference platform where you can run models on your own hardware and access it from anywhere privately. Keep your data on infrastructure you control, but also leverage a credit system to tap into more powerful compute when you need it.",
+      "evidence": [
+        {
+          "source_item_id": 46583919,
+          "source_field": "body",
+          "value": "So I've been building a distributed AI inference platform where you can run models on your own hardware and access it from anywhere privately. Keep your data on infrastructure you control, but also leverage a credit system to tap into more powerful compute when you need it.",
+          "supports": [],
+          "author": "chrisischris",
+          "shared_at": 1768190217,
+          "source_url": "https://news.ycombinator.com/item?id=46583919"
+        }
+      ],
+      "source_item_id": 46583919,
+      "source_url": "https://news.ycombinator.com/item?id=46583919",
+      "author": "chrisischris",
+      "shared_at": 1768190217,
+      "links": [
+        "https://sporeintel.com/"
+      ]
+    },
+    {
+      "name": "Spore",
+      "description": "A distributed AI inference platform for running AI models on your own hardware, such as an idle home GPU, and accessing them privately from anywhere. A credit system lets idle GPU time earn credits that can be spent to tap into more powerful compute and larger models when needed, while keeping data on infrastructure the user controls. The goal is making it dead simple to use home hardware from wherever you're working.",
+      "problem": "Commercial AI services impose usage rate limits and costs even on paid subscriptions, create vendor lock-in, and send data to third parties.",
+      "audience": "Developers who don't want vendor lock-in, businesses with compliance requirements, and people who don't want their data sent to third parties.",
+      "builder_usernames": [
+        "chrisischris"
+      ],
+      "source_excerpt": "So I'm building a distributed AI inference platform where you can run models on your own hardware and access it from anywhere privately. Keep your data on infrastructure you control, but also leverage a credit system to tap into more powerful compute when you need it. Your idle GPU time can earn credits for accessing bigger models.",
+      "evidence": [
+        {
+          "source_item_id": 45879351,
+          "source_field": "body",
+          "value": "So I'm building a distributed AI inference platform where you can run models on your own hardware and access it from anywhere privately. Keep your data on infrastructure you control, but also leverage a credit system to tap into more powerful compute when you need it. Your idle GPU time can earn credits for accessing bigger models.",
+          "supports": [],
+          "author": "chrisischris",
+          "shared_at": 1762800574,
+          "source_url": "https://news.ycombinator.com/item?id=45879351"
+        }
+      ],
+      "source_item_id": 45879351,
+      "source_url": "https://news.ycombinator.com/item?id=45879351",
+      "author": "chrisischris",
+      "shared_at": 1762800574,
+      "links": [
+        "https://sporeintel.com"
+      ]
+    }
+  ]
+}

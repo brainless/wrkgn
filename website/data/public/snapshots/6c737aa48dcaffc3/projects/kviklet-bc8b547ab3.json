@@ -1,0 +1,91 @@
+{
+  "id": 1378,
+  "slug": "kviklet-bc8b547ab3",
+  "name": "Kviklet",
+  "mentions": [
+    {
+      "name": "Kviklet",
+      "description": "Self-hosted database access management tool that provides code-review-style approval workflows for SQL statements before they run in production. Includes a Postgres proxy and a MySQL wire proxy so developers can keep using psql or DataGrip while every statement is logged, with SSO support and no password sharing.",
+      "problem": "Developers need to run SQL statements against production databases without a review process, which previously required insecure password sharing.",
+      "audience": "Development teams needing controlled, reviewed access to production databases.",
+      "builder_usernames": [
+        "jascha_eng"
+      ],
+      "source_excerpt": "Self hosted database access management, think Code Reviews for SQL Statements for when your devs need to go to prod:\nhttps://github.com/kviklet/kviklet\n\nRecently cleaned up my postgres proxy and built a MySQL wire proxy so that you can use psql/datagrip as a dev but every statement is still logged.\nWith SSO and no password sharing ofc!",
+      "evidence": [
+        {
+          "source_item_id": 49691027,
+          "source_field": "body",
+          "value": "Self hosted database access management, think Code Reviews for SQL Statements for when your devs need to go to prod:\nhttps://github.com/kviklet/kviklet\n\nRecently cleaned up my postgres proxy and built a MySQL wire proxy so that you can use psql/datagrip as a dev but every statement is still logged.\nWith SSO and no password sharing ofc!",
+          "supports": [],
+          "author": "jascha_eng",
+          "shared_at": 1789351806,
+          "source_url": "https://news.ycombinator.com/item?id=49691027"
+        }
+      ],
+      "source_item_id": 49691027,
+      "source_url": "https://news.ycombinator.com/item?id=49691027",
+      "author": "jascha_eng",
+      "shared_at": 1789351806,
+      "links": [
+        "https://github.com/kviklet/kviklet"
+      ]
+    },
+    {
+      "name": "Kviklet",
+      "description": "A SQL review and approval tool that acts as a central place to configure database access for development teams, so passwords don't need to be shared and sensible review policies can be enforced. The author recently closed the first real customer and plans to work through open issues and build agentic capabilities, e.g. letting agents like Claude access production data to validate a premise, with separately configurable review requirements.",
+      "problem": null,
+      "audience": "Configure database access for a dev team without sharing passwords, with sensible review policies; future agentic capabilities raise questions about whether AI agents should face the same review requirements as humans.",
+      "builder_usernames": [
+        "jascha_eng"
+      ],
+      "source_excerpt": "Slowly improving the UX on my SQL review/approval tool: https://github.com/kviklet/kviklet",
+      "evidence": [
+        {
+          "source_item_id": 48887115,
+          "source_field": "body",
+          "value": "Slowly improving the UX on my SQL review/approval tool: https://github.com/kviklet/kviklet",
+          "supports": [],
+          "author": "jascha_eng",
+          "shared_at": 1783909522,
+          "source_url": "https://news.ycombinator.com/item?id=48887115"
+        }
+      ],
+      "source_item_id": 48887115,
+      "source_url": "https://news.ycombinator.com/item?id=48887115",
+      "author": "jascha_eng",
+      "shared_at": 1783909522,
+      "links": [
+        "https://github.com/kviklet/kviklet"
+      ]
+    },
+    {
+      "name": "Kviklet",
+      "description": "This tool provides PR-like review and approval workflows for SQL queries and statements. It recently added role sync for SAML, OIDC, and LDAP.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jascha_eng"
+      ],
+      "source_excerpt": "Took a few days off to continue working on Kviklet a PR like review/approval tool for SQL queries/statements.\n\nRecently added role sync for Saml, oidc and ldap.",
+      "evidence": [
+        {
+          "source_item_id": 46583810,
+          "source_field": "body",
+          "value": "Took a few days off to continue working on Kviklet a PR like review/approval tool for SQL queries/statements.\n\nRecently added role sync for Saml, oidc and ldap.",
+          "supports": [],
+          "author": "jascha_eng",
+          "shared_at": 1768189342,
+          "source_url": "https://news.ycombinator.com/item?id=46583810"
+        }
+      ],
+      "source_item_id": 46583810,
+      "source_url": "https://news.ycombinator.com/item?id=46583810",
+      "author": "jascha_eng",
+      "shared_at": 1768189342,
+      "links": [
+        "https://github.com/kviklet/kviklet"
+      ]
+    }
+  ]
+}

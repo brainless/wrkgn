@@ -1,0 +1,35 @@
+{
+  "id": 9832,
+  "slug": "tinqer-7175ea655c",
+  "name": "tinqer",
+  "mentions": [
+    {
+      "name": "tinqer",
+      "description": "A TypeScript port of LINQ-to-SQL that allows writing typed database queries as fluent chains, e.g. from(\"users\").where((u) => u.age >= 18).where((u) => u.active === true). It mostly works and is planned to be integrated into webpods.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jeswin"
+      ],
+      "source_excerpt": "A port of linq-to-sql for Typescript (https://github.com/webpods-org/tinqer)\nallowing queries like:\n\n  const activeAdults = from<User>(\"users\")\n    .where((u) => u.age >= 18)\n    .where((u) => u.active === true);\n\nIt mostly works.",
+      "evidence": [
+        {
+          "source_item_id": 45418821,
+          "source_field": "body",
+          "value": "A port of linq-to-sql for Typescript (https://github.com/webpods-org/tinqer)\nallowing queries like:\n\n  const activeAdults = from<User>(\"users\")\n    .where((u) => u.age >= 18)\n    .where((u) => u.active === true);\n\nIt mostly works.",
+          "supports": [],
+          "author": "jeswin",
+          "shared_at": 1759180357,
+          "source_url": "https://news.ycombinator.com/item?id=45418821"
+        }
+      ],
+      "source_item_id": 45418821,
+      "source_url": "https://news.ycombinator.com/item?id=45418821",
+      "author": "jeswin",
+      "shared_at": 1759180357,
+      "links": [
+        "https://github.com/webpods-org/tinqer"
+      ]
+    }
+  ]
+}

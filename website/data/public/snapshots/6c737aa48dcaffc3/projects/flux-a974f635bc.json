@@ -1,0 +1,35 @@
+{
+  "id": 10563,
+  "slug": "flux-a974f635bc",
+  "name": "Flux",
+  "mentions": [
+    {
+      "name": "Flux",
+      "description": "A high-performance message transport library for Rust that implements patterns inspired by LMAX Disruptor and Aeron. It provides lock-free inter-process communication (IPC), UDP transport, and reliable UDP with optimized memory management for applications with low latency requirements.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ziyasal"
+      ],
+      "source_excerpt": "Flux is a high-performance message transport library for Rust that implements patterns inspired by LMAX Disruptor and Aeron. It provides lock-free inter-process communication (IPC), UDP transport, and reliable UDP with optimized memory management for applications with low latency requirements.",
+      "evidence": [
+        {
+          "source_item_id": 44704194,
+          "source_field": "body",
+          "value": "Flux is a high-performance message transport library for Rust that implements patterns inspired by LMAX Disruptor and Aeron. It provides lock-free inter-process communication (IPC), UDP transport, and reliable UDP with optimized memory management for applications with low latency requirements.",
+          "supports": [],
+          "author": "ziyasal",
+          "shared_at": 1753646465,
+          "source_url": "https://news.ycombinator.com/item?id=44704194"
+        }
+      ],
+      "source_item_id": 44704194,
+      "source_url": "https://news.ycombinator.com/item?id=44704194",
+      "author": "ziyasal",
+      "shared_at": 1753646465,
+      "links": [
+        "https://github.com/bugthesystem/Flux"
+      ]
+    }
+  ]
+}

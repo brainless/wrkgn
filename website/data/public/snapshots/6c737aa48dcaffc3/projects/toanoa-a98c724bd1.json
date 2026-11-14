@@ -1,0 +1,63 @@
+{
+  "id": 4379,
+  "slug": "toanoa-a98c724bd1",
+  "name": "Toanoa",
+  "mentions": [
+    {
+      "name": "Toanoa",
+      "description": "A logistics management system that powers deliveries for the author's business, having processed close to 100k orders. It features intelligent order batching and route optimization that interleaves tasks across orders to maximize completion within delivery windows, a driver mobile app with battery-efficient position tracking providing high-quality/frequent location updates, and backend/database optimizations keeping average response times in the tens of milliseconds at current volumes.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "inslee1"
+      ],
+      "source_excerpt": "I built a logistics management system to power deliveries for a business I founded years back and I've continued to refine it since:\n\nhttps://toanoa.com/",
+      "evidence": [
+        {
+          "source_item_id": 48089951,
+          "source_field": "body",
+          "value": "I built a logistics management system to power deliveries for a business I founded years back and I've continued to refine it since:\n\nhttps://toanoa.com/",
+          "supports": [],
+          "author": "inslee1",
+          "shared_at": 1778461864,
+          "source_url": "https://news.ycombinator.com/item?id=48089951"
+        }
+      ],
+      "source_item_id": 48089951,
+      "source_url": "https://news.ycombinator.com/item?id=48089951",
+      "author": "inslee1",
+      "shared_at": 1778461864,
+      "links": [
+        "https://toanoa.com/"
+      ]
+    },
+    {
+      "name": "Toanoa",
+      "description": "Last-mile delivery and logistics management system that powers deliveries for on-demand and hyperlocal services. Features real-time driver tracking, public order tracking links, finding suitable drivers for orders, and batch push notifications for automatic order assignment. Self-contained including its own routing stack (avoiding expensive mapping dependencies), resource efficient, and has handled over 70k orders and ingested nearly 10 million telemetry records.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "inslee1"
+      ],
+      "source_excerpt": "Built a last-mile delivery/logistics management system to power deliveries for on-demand/hyperlocal services and launched it last year",
+      "evidence": [
+        {
+          "source_item_id": 47304488,
+          "source_field": "body",
+          "value": "Built a last-mile delivery/logistics management system to power deliveries for on-demand/hyperlocal services and launched it last year",
+          "supports": [],
+          "author": "inslee1",
+          "shared_at": 1773026118,
+          "source_url": "https://news.ycombinator.com/item?id=47304488"
+        }
+      ],
+      "source_item_id": 47304488,
+      "source_url": "https://news.ycombinator.com/item?id=47304488",
+      "author": "inslee1",
+      "shared_at": 1773026118,
+      "links": [
+        "https://toanoa.com/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 3953,
+  "slug": "rust-fits-parser-32214b860c",
+  "name": "Rust .fits parser",
+  "mentions": [
+    {
+      "name": "Rust .fits parser",
+      "description": "A .fits file parser written in Rust that uses rayon to decompress files in parallel, making it about 5x faster than cfitsio.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "WD-42"
+      ],
+      "source_excerpt": "Also built out a .fits parser that uses rayon to decompress in parallel making it about 5x faster than cfitsio.",
+      "evidence": [
+        {
+          "source_item_id": 48530626,
+          "source_field": "body",
+          "value": "Also built out a .fits parser that uses rayon to decompress in parallel making it about 5x faster than cfitsio.",
+          "supports": [],
+          "author": "WD-42",
+          "shared_at": 1781460769,
+          "source_url": "https://news.ycombinator.com/item?id=48530626"
+        }
+      ],
+      "source_item_id": 48530626,
+      "source_url": "https://news.ycombinator.com/item?id=48530626",
+      "author": "WD-42",
+      "shared_at": 1781460769,
+      "links": [
+        "https://www.pedaldrivenprogramming.com/2026/06/8x-faster-fits-decoding-using-rust-and-rayon/"
+      ]
+    }
+  ]
+}

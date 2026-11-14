@@ -1,0 +1,259 @@
+{
+  "id": 3808,
+  "slug": "inclusive-colors-53d70f09dc",
+  "name": "Inclusive Colors",
+  "mentions": [
+    {
+      "name": "Inclusive Colors",
+      "description": "This is a web-based accessible color palette editor that helps you create Tailwind-style palettes for web/UI design. Unlike tools that only take a single color and autogenerate or AI-generate the remaining tints and shades, it lets you tweak every tint and shade individually while keeping an eye on accessible contrast. A curve-based editor shows how the H/S/L values of your colors vary across a color scale, making editing quick and intuitive without giving up control to autogeneration.",
+      "problem": "Most palette tools only let you enter a single color and then attempt to autogenerate or use AI to create the other tints/shades, which often don't do a great job and are really limiting when you're creating branded palettes.",
+      "audience": "People creating Tailwind-style palettes for web/UI design",
+      "builder_usernames": [
+        "seanwilson"
+      ],
+      "source_excerpt": "Tweaks to my accessible color palette editor that helps you create Tailwind style palettes for web/UI design:\n\nhttps://www.inclusivecolors.com/",
+      "evidence": [
+        {
+          "source_item_id": 48539432,
+          "source_field": "body",
+          "value": "Tweaks to my accessible color palette editor that helps you create Tailwind style palettes for web/UI design:\n\nhttps://www.inclusivecolors.com/",
+          "supports": [],
+          "author": "seanwilson",
+          "shared_at": 1781520717,
+          "source_url": "https://news.ycombinator.com/item?id=48539432"
+        }
+      ],
+      "source_item_id": 48539432,
+      "source_url": "https://news.ycombinator.com/item?id=48539432",
+      "author": "seanwilson",
+      "shared_at": 1781520717,
+      "links": [
+        "https://www.inclusivecolors.com/"
+      ]
+    },
+    {
+      "name": "Inclusive Colors",
+      "description": "This web-based accessible color palette editor creates branded palettes built to pass WCAG/APCA contrast rules, and exports to CSS, Tailwind and Figma. It uses an HSLuv color picker, which avoids the problem of HSL hue and saturation sliders unintentionally changing lightness and affecting contrast.",
+      "problem": "Manual contrast checks and fixes for accessibility are slow and a headache, and standard HSL color pickers counterintuitively change lightness when adjusting hue and saturation, which impacts WCAG contrast.",
+      "audience": "Designers and brand teams creating accessible color palettes",
+      "builder_usernames": [
+        "seanwilson"
+      ],
+      "source_excerpt": "An accessible color palette editor for creating branded palettes built from the ground up that pass WCAG/APCA contrast rules (which is much quicker and less of a headache compared to doing manual contrast checks and fixes later):\n\nhttps://www.inclusivecolors.com/\n\nThe current web tool lets you export to CSS, Tailwind and Figma, and uses HSLuv for the color picker.",
+      "evidence": [
+        {
+          "source_item_id": 47303742,
+          "source_field": "body",
+          "value": "An accessible color palette editor for creating branded palettes built from the ground up that pass WCAG/APCA contrast rules (which is much quicker and less of a headache compared to doing manual contrast checks and fixes later):\n\nhttps://www.inclusivecolors.com/\n\nThe current web tool lets you export to CSS, Tailwind and Figma, and uses HSLuv for the color picker.",
+          "supports": [],
+          "author": "seanwilson",
+          "shared_at": 1773019626,
+          "source_url": "https://news.ycombinator.com/item?id=47303742"
+        }
+      ],
+      "source_item_id": 47303742,
+      "source_url": "https://news.ycombinator.com/item?id=47303742",
+      "author": "seanwilson",
+      "shared_at": 1773019626,
+      "links": [
+        "https://www.inclusivecolors.com/"
+      ]
+    },
+    {
+      "name": "Inclusive Colors",
+      "description": "A web-based editor for creating CSS color palettes for web UIs that pass WCAG color-contrast accessibility standards. Users fine-tune tints and shades via a hue/saturation/lightness curve editing interface, and unlike autogeneration-based tools it focuses on full customization to incorporate existing brand colors and find accessible color combinations that work together.",
+      "problem": "Most tools autogenerate colors, making it hard to fully customize tints/shades and find accessible combinations that work with existing brand colors.",
+      "audience": "Designers and developers creating branded color palettes for web UIs.",
+      "builder_usernames": [
+        "seanwilson"
+      ],
+      "source_excerpt": "A tool for creating CSS color palettes for web UIs that pass WCAG accessibility standards for color contrast, where you can fine tweak all the tints/shades quickly using a hue/saturation/lightness curve editing interface:",
+      "evidence": [
+        {
+          "source_item_id": 46938572,
+          "source_field": "body",
+          "value": "A tool for creating CSS color palettes for web UIs that pass WCAG accessibility standards for color contrast, where you can fine tweak all the tints/shades quickly using a hue/saturation/lightness curve editing interface:",
+          "supports": [],
+          "author": "seanwilson",
+          "shared_at": 1770585188,
+          "source_url": "https://news.ycombinator.com/item?id=46938572"
+        }
+      ],
+      "source_item_id": 46938572,
+      "source_url": "https://news.ycombinator.com/item?id=46938572",
+      "author": "seanwilson",
+      "shared_at": 1770585188,
+      "links": [
+        "https://www.inclusivecolors.com/"
+      ]
+    },
+    {
+      "name": "Inclusive Colors",
+      "description": "This tool creates custom Tailwind-style accessible color palettes for web and UI design. It provides a hue/saturation/lightness curve editing interface that makes customizing tints and shades quick and intuitive in a few clicks, plus a live mockup showing how the palette looks on a UI design that checks pairings pass WCAG contrast requirements and teaches the WCAG rules as you tweak colors. Finished palettes can be exported to regular CSS variables, Tailwind, Figma, or Adobe for use in designs.",
+      "problem": "Most color tools autogenerate palettes with algorithms and AI but usually ignore WCAG accessible contrast requirements, don't let you customize tints/shades, don't let you create a full palette of colors, and the colors often don't look right on actual designs.",
+      "audience": "Web and UI designers",
+      "builder_usernames": [
+        "seanwilson"
+      ],
+      "source_excerpt": "Still working on my tool for creating custom Tailwind-style accessible color palettes for web and UI design:",
+      "evidence": [
+        {
+          "source_item_id": 46577817,
+          "source_field": "body",
+          "value": "Still working on my tool for creating custom Tailwind-style accessible color palettes for web and UI design:",
+          "supports": [],
+          "author": "seanwilson",
+          "shared_at": 1768153874,
+          "source_url": "https://news.ycombinator.com/item?id=46577817"
+        }
+      ],
+      "source_item_id": 46577817,
+      "source_url": "https://news.ycombinator.com/item?id=46577817",
+      "author": "seanwilson",
+      "shared_at": 1768153874,
+      "links": [
+        "https://www.inclusivecolors.com/"
+      ]
+    },
+    {
+      "name": "Inclusive Colors",
+      "description": "This tool creates accessible Tailwind-style color palettes for web/UI design that pass WCAG 2 contrast requirements. A live UI mockup warns when tints/shades lack contrast in practice for headings, paragraphs, borders, and buttons while teaching the WCAG rules, and an HSLuv color picker keeps contrast checks tied only to the lightness slider. Every tint/shade can be tweaked via a curve-based hue/saturation/lightness editing UI, and full palettes (primary, success, danger, gray colors plus their tints/shades) can be tweaked, checked, compared, and managed together.",
+      "problem": "Hundreds of color palette generators exist, but most only let you customize a single color and autogenerate tints/shades without thought for accessibility or customization, and HSL-based pickers make accessibility tough because hue/saturation changes counterintuitively alter contrast checks.",
+      "audience": "Web/UI designers who need accessible color palettes for interface design and branding work",
+      "builder_usernames": [
+        "seanwilson"
+      ],
+      "source_excerpt": "I'm still tweaking my tool for creating accessible Tailwind-style color palettes for web/UI design that pass WCAG 2 contrast requirements:\n\nhttps://www.inclusivecolors.com/",
+      "evidence": [
+        {
+          "source_item_id": 46266885,
+          "source_field": "body",
+          "value": "I'm still tweaking my tool for creating accessible Tailwind-style color palettes for web/UI design that pass WCAG 2 contrast requirements:\n\nhttps://www.inclusivecolors.com/",
+          "supports": [],
+          "author": "seanwilson",
+          "shared_at": 1765746354,
+          "source_url": "https://news.ycombinator.com/item?id=46266885"
+        }
+      ],
+      "source_item_id": 46266885,
+      "source_url": "https://news.ycombinator.com/item?id=46266885",
+      "author": "seanwilson",
+      "shared_at": 1765746354,
+      "links": [
+        "https://www.inclusivecolors.com/"
+      ]
+    },
+    {
+      "name": "InclusiveColors",
+      "description": "This web tool creates custom Tailwind-style color palettes for web and UI design that pass WCAG contrast requirements. Its interface is optimized for exploring and tweaking multiple tints/shades at once, such as dragging vertically through the saturation curve or shifting whole curves horizontally. It uses the HSLuv color space so WCAG contrast stays constant when changing hue and saturation, and it can switch from the WCAG2 contrast checker to APCA, which corrects WCAG2 inaccuracies like being too forgiving for dark mode color combos. The desktop version has more features while the mobile version serves as a preview, and recent updates added more hints and tooltips.",
+      "problem": "Creating accessible color palettes that pass WCAG contrast requirements is difficult, and the WCAG2 contrast checker is inaccurate in some cases, such as being too forgiving for dark mode color combinations.",
+      "audience": "Web and UI designers",
+      "builder_usernames": [
+        "seanwilson"
+      ],
+      "source_excerpt": "A tool for creating custom Tailwind-style color palettes for web and UI design that pass WCAG contrast requirements:\n\nhttps://www.inclusivecolors.com/",
+      "evidence": [
+        {
+          "source_item_id": 45870292,
+          "source_field": "body",
+          "value": "A tool for creating custom Tailwind-style color palettes for web and UI design that pass WCAG contrast requirements:\n\nhttps://www.inclusivecolors.com/",
+          "supports": [],
+          "author": "seanwilson",
+          "shared_at": 1762730502,
+          "source_url": "https://news.ycombinator.com/item?id=45870292"
+        }
+      ],
+      "source_item_id": 45870292,
+      "source_url": "https://news.ycombinator.com/item?id=45870292",
+      "author": "seanwilson",
+      "shared_at": 1762730502,
+      "links": [
+        "https://www.inclusivecolors.com/"
+      ]
+    },
+    {
+      "name": "Inclusive Colors",
+      "description": "A web tool for creating custom color palettes for web designs that pass WCAG contrast requirements. Users can precisely tweak every shade and tint to incorporate their own brand colors (explicitly no AI or auto-generation) and build palettes with simple color contrast guarantees by design, such as all grade 600 colors having 4.5:1 WCAG contrast against grade 50 colors for body text. It exports to plain CSS, Tailwind, Figma, and Adobe, uses HSLuv for the color picker so only the lightness slider impacts WCAG contrast, and includes example open source palettes with hue, saturation, and lightness curves as design hints.",
+      "problem": "Designers need color palettes for web designs that pass WCAG contrast requirements, and many design tools still use HSL, where WCAG contrast shifts unpredictably when any slider changes, making finding contrasting colors much harder.",
+      "audience": "Advanced users creating color palettes for web designs; the author notes it is geared toward advanced users right now and hopes to simplify it with more handholding later.",
+      "builder_usernames": [
+        "seanwilson"
+      ],
+      "source_excerpt": "I'm working on a tool for creating custom color palettes for web designs that pass WCAG contrast requirements:\n\nhttps://www.inclusivecolors.com/",
+      "evidence": [
+        {
+          "source_item_id": 45561677,
+          "source_field": "body",
+          "value": "I'm working on a tool for creating custom color palettes for web designs that pass WCAG contrast requirements:\n\nhttps://www.inclusivecolors.com/",
+          "supports": [],
+          "author": "seanwilson",
+          "shared_at": 1760301449,
+          "source_url": "https://news.ycombinator.com/item?id=45561677"
+        }
+      ],
+      "source_item_id": 45561677,
+      "source_url": "https://news.ycombinator.com/item?id=45561677",
+      "author": "seanwilson",
+      "shared_at": 1760301449,
+      "links": [
+        "https://www.inclusivecolors.com/"
+      ]
+    },
+    {
+      "name": "Inclusive Colors",
+      "description": "A web-based editor for creating custom accessible color palettes for web/UI design. It gives precise manual control over every shade and tint (no AI or auto generation) so users can incorporate their own brand colors, and helps build palettes with simple-to-follow WCAG color contrast guarantees by design, such as all grade 600 colors having 4.5:1 contrast against grade 50 colors. Includes export options for plain CSS, Tailwind, Figma, and Adobe.",
+      "problem": null,
+      "audience": "Web/UI designers and developers building accessible designs",
+      "builder_usernames": [
+        "seanwilson"
+      ],
+      "source_excerpt": "An editor for creating custom accessible color palettes for web/UI design. :)\n\nhttps://www.inclusivecolors.com/\n\nIt gives you precise control over every shade/tint (no AI or auto generation!) so you can incorporate your own brand colors, and helps you build palettes that have simple to follow color contrast guarantees by design e.g. all grade 600 colors have 4.5:1 WCAG contrast (for body text) against all grade 50 colors, such as red-600 vs gray-50, or green-600 vs gray-50. There's export options for plain CSS, Tailwind, Figma, and Adobe.",
+      "evidence": [
+        {
+          "source_item_id": 45419646,
+          "source_field": "body",
+          "value": "An editor for creating custom accessible color palettes for web/UI design. :)\n\nhttps://www.inclusivecolors.com/\n\nIt gives you precise control over every shade/tint (no AI or auto generation!) so you can incorporate your own brand colors, and helps you build palettes that have simple to follow color contrast guarantees by design e.g. all grade 600 colors have 4.5:1 WCAG contrast (for body text) against all grade 50 colors, such as red-600 vs gray-50, or green-600 vs gray-50. There's export options for plain CSS, Tailwind, Figma, and Adobe.",
+          "supports": [],
+          "author": "seanwilson",
+          "shared_at": 1759185071,
+          "source_url": "https://news.ycombinator.com/item?id=45419646"
+        }
+      ],
+      "source_item_id": 45419646,
+      "source_url": "https://news.ycombinator.com/item?id=45419646",
+      "author": "seanwilson",
+      "shared_at": 1759185071,
+      "links": [
+        "https://www.inclusivecolors.com/"
+      ]
+    },
+    {
+      "name": "Inclusive Colors",
+      "description": "This web tool creates custom accessible Tailwind-style CSS color palettes for web and UI designs. It shows whether colors meet WCAG accessible contrast on a live UI mockup, gives quick and precise control over every color grade in a swatch by editing HSL curves instead of auto/AI generation, and helps build a full palette of tints and shades for each color. Colors can be exported as CSS variables, including Tailwind-style naming like red-500.",
+      "problem": "Most brand style guides only include around 5 brand colors, and when more tints/shades are needed later to implement actual UIs and landing pages, it's hard to find contrasting colors that still match the brand; designing tints/shades upfront with accessible contrast in mind avoids this.",
+      "audience": "Designers working on web and UI designs",
+      "builder_usernames": [
+        "seanwilson"
+      ],
+      "source_excerpt": "I'm still working on a tool to create custom accessible Tailwind-style CSS color palettes for web and UI designs:\n\nhttps://www.inclusivecolors.com/",
+      "evidence": [
+        {
+          "source_item_id": 44704128,
+          "source_field": "body",
+          "value": "I'm still working on a tool to create custom accessible Tailwind-style CSS color palettes for web and UI designs:\n\nhttps://www.inclusivecolors.com/",
+          "supports": [],
+          "author": "seanwilson",
+          "shared_at": 1753646031,
+          "source_url": "https://news.ycombinator.com/item?id=44704128"
+        }
+      ],
+      "source_item_id": 44704128,
+      "source_url": "https://news.ycombinator.com/item?id=44704128",
+      "author": "seanwilson",
+      "shared_at": 1753646031,
+      "links": [
+        "https://www.inclusivecolors.com/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 6944,
+  "slug": "similarity-based-duplicate-photo-finder-cli-fb02c96946",
+  "name": "Similarity-based duplicate photo finder CLI",
+  "mentions": [
+    {
+      "name": "Similarity-based duplicate photo finder CLI",
+      "description": "A command-line duplicate file finder built years ago for the same purpose. It samples bytes at specific positions, hashes those samples, and compares the hashes to produce a similarity score rather than a strict match. This works well for photos, and it normalizes image orientation by rotating based on the brightest corner so photos in different orientations are compared using the same features.",
+      "problem": "Strict matching misses near-duplicate photos: two shots taken in the same second can differ slightly in pixels but still depict the same scene.",
+      "audience": null,
+      "builder_usernames": [
+        "guessmyname"
+      ],
+      "source_excerpt": "I built a CLI years ago for the same purpose.\n\nFrom what I can tell, your program treats files as duplicates if they share the same normalized filename and the exact same size; it doesn't compare contents or hashes.\n\nMine samples bytes at specific positions, hashes those samples, and compares the hashes to produce a similarity score rather than a strict match. This works great for photos, two shots taken in the same second can differ slightly in pixels but still depict the same scene, so they're considered duplicates. It also normalizes image orientation by rotating based on the brightest corner, so photos in different orientations are compared\nusing the same features.",
+      "evidence": [
+        {
+          "source_item_id": 46951983,
+          "source_field": "body",
+          "value": "I built a CLI years ago for the same purpose.\n\nFrom what I can tell, your program treats files as duplicates if they share the same normalized filename and the exact same size; it doesn't compare contents or hashes.\n\nMine samples bytes at specific positions, hashes those samples, and compares the hashes to produce a similarity score rather than a strict match. This works great for photos, two shots taken in the same second can differ slightly in pixels but still depict the same scene, so they're considered duplicates. It also normalizes image orientation by rotating based on the brightest corner, so photos in different orientations are compared\nusing the same features.",
+          "supports": [],
+          "author": "guessmyname",
+          "shared_at": 1770673809,
+          "source_url": "https://news.ycombinator.com/item?id=46951983"
+        }
+      ],
+      "source_item_id": 46951983,
+      "source_url": "https://news.ycombinator.com/item?id=46951983",
+      "author": "guessmyname",
+      "shared_at": 1770673809,
+      "links": []
+    }
+  ]
+}

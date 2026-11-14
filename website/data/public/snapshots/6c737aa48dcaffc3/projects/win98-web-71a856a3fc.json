@@ -1,0 +1,36 @@
+{
+  "id": 6741,
+  "slug": "win98-web-71a856a3fc",
+  "name": "win98-web",
+  "mentions": [
+    {
+      "name": "win98-web",
+      "description": "A web-based recreation of the Windows 98 desktop built with vanilla JavaScript, aiming for maximum accuracy without emulating the actual OS. It recreates the Windows shell (start menu, taskbar, windowing system), includes full desktop theme customization (color, cursor, sound, wallpaper, screensaver) with all Windows 98 default Plus! themes, provides a persistent local file system via ZenFS with local folder mounting as a removable disk, plays Flash games and runs DOS games with persisted savegames (e.g., Doom), and ships accurate remakes of Windows 98 apps (Solitaire games, Minesweeper, Notepad) alongside existing ports such as Pinball, JSPaint, and Webamp. The project is open source and welcomes contributions and forks.",
+      "problem": "Existing Windows 98 web remakes are numerous but lack accuracy; this project targets maximum authenticity without requiring actual OS emulation.",
+      "audience": "People interested in Windows 98",
+      "builder_usernames": [
+        "azayrahmad"
+      ],
+      "source_excerpt": "Another Web-OS remake of Windows 98 made with vanilla JavaScript. There are already a lot of Windows web remakes, especially in this age of AI. So for this passion project I intend to make it as accurate as it could ever be without having to emulate actual Windows 98.",
+      "evidence": [
+        {
+          "source_item_id": 46941236,
+          "source_field": "body",
+          "value": "Another Web-OS remake of Windows 98 made with vanilla JavaScript. There are already a lot of Windows web remakes, especially in this age of AI. So for this passion project I intend to make it as accurate as it could ever be without having to emulate actual Windows 98.",
+          "supports": [],
+          "author": "azayrahmad",
+          "shared_at": 1770607582,
+          "source_url": "https://news.ycombinator.com/item?id=46941236"
+        }
+      ],
+      "source_item_id": 46941236,
+      "source_url": "https://news.ycombinator.com/item?id=46941236",
+      "author": "azayrahmad",
+      "shared_at": 1770607582,
+      "links": [
+        "https://azayrahmad.github.io/win98-web/",
+        "https://github.com/azayrahmad/win98-web"
+      ]
+    }
+  ]
+}

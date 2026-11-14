@@ -1,0 +1,33 @@
+{
+  "id": 11206,
+  "slug": "distributed-database-for-orleans-actor-state-saves-1ab1d63970",
+  "name": "Distributed database for Orleans actor state saves",
+  "mentions": [
+    {
+      "name": "Distributed database for Orleans actor state saves",
+      "description": "A distributed database built to serve actor state saves for the Orleans actor framework. It exploits Orleans' actor placement guarantees to implement storage optimized to those needs, running on a VPS with attached local storage instead of an external database, which is much cheaper and faster.",
+      "problem": null,
+      "audience": "External databases for actor state storage are more expensive and slower than using a VPS with attached local storage.",
+      "builder_usernames": [
+        "Weryj"
+      ],
+      "source_excerpt": "Taking on a fun technical challenge, building a distributed database to serve the needs of Actor State saves in Orleans. Using the guarantees around actor placement to implement something optimal for its needs.\n\nMuch cheaper to hire a VPS with attached local storage, than to use an external database and a lot quicker too.",
+      "evidence": [
+        {
+          "source_item_id": 43819890,
+          "source_field": "body",
+          "value": "Taking on a fun technical challenge, building a distributed database to serve the needs of Actor State saves in Orleans. Using the guarantees around actor placement to implement something optimal for its needs.\n\nMuch cheaper to hire a VPS with attached local storage, than to use an external database and a lot quicker too.",
+          "supports": [],
+          "author": "Weryj",
+          "shared_at": 1745838435,
+          "source_url": "https://news.ycombinator.com/item?id=43819890"
+        }
+      ],
+      "source_item_id": 43819890,
+      "source_url": "https://news.ycombinator.com/item?id=43819890",
+      "author": "Weryj",
+      "shared_at": 1745838435,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": 5327,
+  "slug": "hessra-capability-security-4adf81e29d",
+  "name": "Hessra capability security",
+  "mentions": [
+    {
+      "name": "Hessra capability security",
+      "description": "Open-source capability security primitives and engine for distributed systems. The primitives (hessra-tokens) and engine (hessra-cap) are written in Rust and built on Biscuit tokens; the author finds capability security a natural model for composing distributed applications.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ymyms"
+      ],
+      "source_excerpt": "I'm making capability security for distributed systems. The primitives and engine are both open source.",
+      "evidence": [
+        {
+          "source_item_id": 47747958,
+          "source_field": "body",
+          "value": "I'm making capability security for distributed systems. The primitives and engine are both open source.",
+          "supports": [],
+          "author": "ymyms",
+          "shared_at": 1776058034,
+          "source_url": "https://news.ycombinator.com/item?id=47747958"
+        }
+      ],
+      "source_item_id": 47747958,
+      "source_url": "https://news.ycombinator.com/item?id=47747958",
+      "author": "ymyms",
+      "shared_at": 1776058034,
+      "links": [
+        "https://github.com/Hessra-Labs/hessra-cap",
+        "https://github.com/Hessra-Labs/hessra-tokens",
+        "https://www.hessra.net/blog/what-problem-led-me-to-capability-security"
+      ]
+    }
+  ]
+}

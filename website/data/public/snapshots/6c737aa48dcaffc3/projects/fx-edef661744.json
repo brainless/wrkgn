@@ -1,0 +1,36 @@
+{
+  "id": 4405,
+  "slug": "fx-edef661744",
+  "name": "fx",
+  "mentions": [
+    {
+      "name": "fx",
+      "description": "A web-based old-school graphics effects project built in modern TypeScript, centered on a realistic TV static effect. It blits a full 2560x1440 screen of random pixels at up to 90 FPS on the CPU, emulates wide-aspect TV pixels and larger grains for realism, adds a subtle toggleable CRT scan line effect, and supports pausing via click.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Leftium"
+      ],
+      "source_excerpt": "https://fx.leftium.com (https://github.com/Leftium/fx)\n\nOld-school graphics in modern TS.\n\nSeveral years ago, it was not possible to blit an entire screen of random pixels to the screen at a decent frame rate without something like shaders.",
+      "evidence": [
+        {
+          "source_item_id": 48091547,
+          "source_field": "body",
+          "value": "https://fx.leftium.com (https://github.com/Leftium/fx)\n\nOld-school graphics in modern TS.\n\nSeveral years ago, it was not possible to blit an entire screen of random pixels to the screen at a decent frame rate without something like shaders.",
+          "supports": [],
+          "author": "Leftium",
+          "shared_at": 1778479810,
+          "source_url": "https://news.ycombinator.com/item?id=48091547"
+        }
+      ],
+      "source_item_id": 48091547,
+      "source_url": "https://news.ycombinator.com/item?id=48091547",
+      "author": "Leftium",
+      "shared_at": 1778479810,
+      "links": [
+        "https://fx.leftium.com",
+        "https://github.com/Leftium/fx"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 10922,
+  "slug": "mini-time-series-database-84f14fc227",
+  "name": "Mini time series database",
+  "mentions": [
+    {
+      "name": "Mini time series database",
+      "description": "A mini time series database that stores timestamped floating point values with a series id, backed by a B+Tree data structure, with querying done via a Lisp-like query language.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "h4kor"
+      ],
+      "source_excerpt": "I'm working on my own mini time series database.\n\nIt only stores (timestamped) floating point values with a series id and uses a B+Tree as the backing data structure. Querying is done with a lisp-like query language.",
+      "evidence": [
+        {
+          "source_item_id": 43818971,
+          "source_field": "body",
+          "value": "I'm working on my own mini time series database.\n\nIt only stores (timestamped) floating point values with a series id and uses a B+Tree as the backing data structure. Querying is done with a lisp-like query language.",
+          "supports": [],
+          "author": "h4kor",
+          "shared_at": 1745829278,
+          "source_url": "https://news.ycombinator.com/item?id=43818971"
+        }
+      ],
+      "source_item_id": 43818971,
+      "source_url": "https://news.ycombinator.com/item?id=43818971",
+      "author": "h4kor",
+      "shared_at": 1745829278,
+      "links": []
+    }
+  ]
+}

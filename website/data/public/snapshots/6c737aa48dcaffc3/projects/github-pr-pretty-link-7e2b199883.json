@@ -1,0 +1,35 @@
+{
+  "id": 8453,
+  "slug": "github-pr-pretty-link-7e2b199883",
+  "name": "GitHub PR Pretty Link",
+  "mentions": [
+    {
+      "name": "GitHub PR Pretty Link",
+      "description": "A browser extension that copies a GitHub pull request's title and link to the clipboard in GitHub's format, so it can be pasted into chat apps when asking colleagues for a review, making it clearer what a reviewer is about to look at and speeding up reviews.",
+      "problem": "Manually pinging people with a raw PR link gives reviewers little context; including the PR title and link format makes it easier to understand what's being reviewed and enables quicker reviews.",
+      "audience": "People sharing GitHub pull requests with colleagues for code review in chat apps.",
+      "builder_usernames": [
+        "davidoniumz"
+      ],
+      "source_excerpt": "I am working on a little browser extension to copy github pull requests into the clipboard to share them in chat apps for reviews.",
+      "evidence": [
+        {
+          "source_item_id": 46271403,
+          "source_field": "body",
+          "value": "I am working on a little browser extension to copy github pull requests into the clipboard to share them in chat apps for reviews.",
+          "supports": [],
+          "author": "davidoniumz",
+          "shared_at": 1765783696,
+          "source_url": "https://news.ycombinator.com/item?id=46271403"
+        }
+      ],
+      "source_item_id": 46271403,
+      "source_url": "https://news.ycombinator.com/item?id=46271403",
+      "author": "davidoniumz",
+      "shared_at": 1765783696,
+      "links": [
+        "https://chromewebstore.google.com/detail/github-pr-pretty-link/nmpojdflbpoepmmchmffpiccbhncpllf"
+      ]
+    }
+  ]
+}

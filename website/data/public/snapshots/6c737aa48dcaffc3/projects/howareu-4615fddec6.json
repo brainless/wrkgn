@@ -1,0 +1,63 @@
+{
+  "id": 4632,
+  "slug": "howareu-4615fddec6",
+  "name": "HowAreU",
+  "mentions": [
+    {
+      "name": "HowAreU",
+      "description": "An app live at howareu.app; the builder is currently focused on the challenge of making it publicly known and trusted.",
+      "problem": "Struggling to make it publicly known and trusted.",
+      "audience": null,
+      "builder_usernames": [
+        "sminchev"
+      ],
+      "source_excerpt": "https://howareu.app/ is the first one. Of course, struggling with the making it publicly known and trusted. ;)",
+      "evidence": [
+        {
+          "source_item_id": 48118546,
+          "source_field": "body",
+          "value": "https://howareu.app/ is the first one. Of course, struggling with the making it publicly known and trusted. ;)",
+          "supports": [],
+          "author": "sminchev",
+          "shared_at": 1778654253,
+          "source_url": "https://news.ycombinator.com/item?id=48118546"
+        }
+      ],
+      "source_item_id": 48118546,
+      "source_url": "https://news.ycombinator.com/item?id=48118546",
+      "author": "sminchev",
+      "shared_at": 1778654253,
+      "links": [
+        "https://howareu.app/"
+      ]
+    },
+    {
+      "name": "HowAreU",
+      "description": "A 24/7 AI safety app for elderly parents that runs continuously on Android, built to keep working despite the OS and its vendor modifications aggressively killing long-running background processes. The author also published an article about the lessons learned keeping it alive around the clock.",
+      "problem": "Android and its modifications are aggressive about killing background processes, making it a real challenge to keep the app running 24/7.",
+      "audience": "The author's elderly parent",
+      "builder_usernames": [
+        "sminchev"
+      ],
+      "source_excerpt": "https://howareu.app/\n\nReal challenge to keep it working 24/7. The Android OS, and its modifications are really aggressive, trying to kill everything that runs more than they think it is allowed to.\n\nI made a whole article about it. I hope it will help others:\nhttps://dev.to/stoyan_minchev/i-spent-several-months-building-an-ai-safety-app-for-my-elderly-parent-here-is-what-i-learned-2h8a",
+      "evidence": [
+        {
+          "source_item_id": 47743787,
+          "source_field": "body",
+          "value": "https://howareu.app/\n\nReal challenge to keep it working 24/7. The Android OS, and its modifications are really aggressive, trying to kill everything that runs more than they think it is allowed to.\n\nI made a whole article about it. I hope it will help others:\nhttps://dev.to/stoyan_minchev/i-spent-several-months-building-an-ai-safety-app-for-my-elderly-parent-here-is-what-i-learned-2h8a",
+          "supports": [],
+          "author": "sminchev",
+          "shared_at": 1776023898,
+          "source_url": "https://news.ycombinator.com/item?id=47743787"
+        }
+      ],
+      "source_item_id": 47743787,
+      "source_url": "https://news.ycombinator.com/item?id=47743787",
+      "author": "sminchev",
+      "shared_at": 1776023898,
+      "links": [
+        "https://howareu.app/"
+      ]
+    }
+  ]
+}

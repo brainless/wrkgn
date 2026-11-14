@@ -1,0 +1,63 @@
+{
+  "id": 6641,
+  "slug": "bitwit-a519a56dd2",
+  "name": "Bitwit",
+  "mentions": [
+    {
+      "name": "Bitwit",
+      "description": "Bitwit is a spaced-repetition education site for computer science and math. It presents study cards, with TeX/MathJax support for math formatting, and can be used for an extended period (several months to a few years) without requiring an email address or signup.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "nathan_douglas"
+      ],
+      "source_excerpt": "Still working on Bitwit, my CS/math spaced-repetition education site [1]",
+      "evidence": [
+        {
+          "source_item_id": 47310197,
+          "source_field": "body",
+          "value": "Still working on Bitwit, my CS/math spaced-repetition education site [1]",
+          "supports": [],
+          "author": "nathan_douglas",
+          "shared_at": 1773069369,
+          "source_url": "https://news.ycombinator.com/item?id=47310197"
+        }
+      ],
+      "source_item_id": 47310197,
+      "source_url": "https://news.ycombinator.com/item?id=47310197",
+      "author": "nathan_douglas",
+      "shared_at": 1773069369,
+      "links": [
+        "https://bit-wit.com/"
+      ]
+    },
+    {
+      "name": "Bitwit",
+      "description": "A web app for learning CS, logic, and math theory (not DSA) via spaced repetition combined with parametrically generated problems. Successive presentations of the same card generate a different problem instance and validate solutions randomly and parametrically, so learners absorb the invariants each card teaches instead of memorizing variable-value combinations — described as a kind of MathAcademy for CS. Subjects include Boolean Logic and Lambda Calculus (free forever) plus other subjects whose first topic is free.",
+      "problem": "The author had poor results learning CS/math with Anki and other flash card systems; without problems exercising the tools and techniques, they would evaporate from memory, motivating the combination of spaced repetition with generated problem practice.",
+      "audience": "Learners studying CS, logic, and math theory; the author invites anyone curious to try it for free (Boolean Logic and Lambda Calculus subjects free forever, first topic of other subjects free).",
+      "builder_usernames": [
+        "nathan_douglas"
+      ],
+      "source_excerpt": "Bitwit: Learn CS, logic, and math theory (_not_ DSA) with spaced repetition: https://bit-wit.com/",
+      "evidence": [
+        {
+          "source_item_id": 46949971,
+          "source_field": "body",
+          "value": "Bitwit: Learn CS, logic, and math theory (_not_ DSA) with spaced repetition: https://bit-wit.com/",
+          "supports": [],
+          "author": "nathan_douglas",
+          "shared_at": 1770665913,
+          "source_url": "https://news.ycombinator.com/item?id=46949971"
+        }
+      ],
+      "source_item_id": 46949971,
+      "source_url": "https://news.ycombinator.com/item?id=46949971",
+      "author": "nathan_douglas",
+      "shared_at": 1770665913,
+      "links": [
+        "https://bit-wit.com/"
+      ]
+    }
+  ]
+}

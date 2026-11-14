@@ -1,0 +1,33 @@
+{
+  "id": 8984,
+  "slug": "porting-ruby-to-fil-c-a8d6989c16",
+  "name": "Porting Ruby to Fil-C",
+  "mentions": [
+    {
+      "name": "Porting Ruby to Fil-C",
+      "description": "This project ports the Ruby programming language to Fil-C. Ruby's codebase uses a `typedef uintptr_t VALUE` that can hold a heap pointer, a tagged Ruby value, or any integer fitting in uintptr_t, while Fil-C doesn't allow pointers to be carried as integers without losing their capabilities. Since VALUE variables are also used for integer and bit math, the port requires a nontrivial patch to Ruby and is about 70% complete.",
+      "problem": "Fil-C doesn't allow pointers to be carried as integers (doing so makes pointers lose their capabilities), but Ruby's uintptr_t VALUE type conflates heap pointers, tagged values, and integers, so changing it isn't as simple as switching to a pointer type.",
+      "audience": null,
+      "builder_usernames": [
+        "pizlonator"
+      ],
+      "source_excerpt": "Porting Ruby to Fil-C\n\nIt's very interesting because the Ruby codebase uses a `typedef uintptr_t VALUE` type to mean any of the following:\n\n- A pointer to the heap\n\n- A Ruby tagged value (which may be a pointer to the heap)\n\n- Any integer value that fits in `uintptr_t`",
+      "evidence": [
+        {
+          "source_item_id": 45870791,
+          "source_field": "body",
+          "value": "Porting Ruby to Fil-C\n\nIt's very interesting because the Ruby codebase uses a `typedef uintptr_t VALUE` type to mean any of the following:\n\n- A pointer to the heap\n\n- A Ruby tagged value (which may be a pointer to the heap)\n\n- Any integer value that fits in `uintptr_t`",
+          "supports": [],
+          "author": "pizlonator",
+          "shared_at": 1762734649,
+          "source_url": "https://news.ycombinator.com/item?id=45870791"
+        }
+      ],
+      "source_item_id": 45870791,
+      "source_url": "https://news.ycombinator.com/item?id=45870791",
+      "author": "pizlonator",
+      "shared_at": 1762734649,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 5184,
+  "slug": "latenttopicexplorer-8ad9aed604",
+  "name": "LatentTopicExplorer",
+  "mentions": [
+    {
+      "name": "LatentTopicExplorer",
+      "description": "This tool ingests a collection of PDF files and uses AI to cluster documents based on semantic content. Text is extracted with Pdfplumber into PostgreSQL (one doc to many pages), pages are embedded using sentence_transformers, UMAP reduces the 384-dim embeddings to 2D for plotting, HDBSCAN identifies clusters, and class-based TF-IDF labels are computed in PostgreSQL via stored procedures. The author's ~1200-file personal document collection takes 12–24 hours to ingest, after which the website is very fast and stable.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "johnwatson11218"
+      ],
+      "source_excerpt": "https://github.com/johnwatson11218/LatentTopicExplorer/\n\nThis tool allows you to read in a collection of pdf files and it will use AI to create clusters of documents based on semantic content.",
+      "evidence": [
+        {
+          "source_item_id": 47805614,
+          "source_field": "body",
+          "value": "https://github.com/johnwatson11218/LatentTopicExplorer/\n\nThis tool allows you to read in a collection of pdf files and it will use AI to create clusters of documents based on semantic content.",
+          "supports": [],
+          "author": "johnwatson11218",
+          "shared_at": 1776431907,
+          "source_url": "https://news.ycombinator.com/item?id=47805614"
+        }
+      ],
+      "source_item_id": 47805614,
+      "source_url": "https://news.ycombinator.com/item?id=47805614",
+      "author": "johnwatson11218",
+      "shared_at": 1776431907,
+      "links": [
+        "https://github.com/johnwatson11218/LatentTopicExplorer/"
+      ]
+    }
+  ]
+}

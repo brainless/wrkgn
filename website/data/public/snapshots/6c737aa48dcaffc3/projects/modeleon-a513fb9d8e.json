@@ -1,0 +1,35 @@
+{
+  "id": 5715,
+  "slug": "modeleon-a513fb9d8e",
+  "name": "Modeleon",
+  "mentions": [
+    {
+      "name": "Modeleon",
+      "description": "This Python library compiles high-level model formulas such as \"revenue = price * volume\" into native Excel formulas like \"=B4*B5\", so models built in Python can be delivered to end users as Excel spreadsheets.",
+      "problem": "The final user always asks for Excel in the end, so formulas defined in code need to be translated into Excel formulas.",
+      "audience": null,
+      "builder_usernames": [
+        "adilkhanovkz"
+      ],
+      "source_excerpt": "We're building a python library that compiles revenue = price * volume into =B4*B5 in Excel — because the final user always asks for Excel in the end. https://modeleon.ai/",
+      "evidence": [
+        {
+          "source_item_id": 47751433,
+          "source_field": "body",
+          "value": "We're building a python library that compiles revenue = price * volume into =B4*B5 in Excel — because the final user always asks for Excel in the end. https://modeleon.ai/",
+          "supports": [],
+          "author": "adilkhanovkz",
+          "shared_at": 1776085725,
+          "source_url": "https://news.ycombinator.com/item?id=47751433"
+        }
+      ],
+      "source_item_id": 47751433,
+      "source_url": "https://news.ycombinator.com/item?id=47751433",
+      "author": "adilkhanovkz",
+      "shared_at": 1776085725,
+      "links": [
+        "https://modeleon.ai/"
+      ]
+    }
+  ]
+}

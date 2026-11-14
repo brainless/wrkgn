@@ -1,0 +1,36 @@
+{
+  "id": 5302,
+  "slug": "nekode-a8161c92e8",
+  "name": "Nekode",
+  "mentions": [
+    {
+      "name": "Nekode",
+      "description": "A macOS menubar app that displays desktop cats mirroring the state of AI coding agent sessions (OpenCode, Claude Code, Copilot CLI, VSCode Copilot): cats sleep when idle, walk when working, sit when waiting for input, and run toward the cursor when permission is needed. Fully native Swift with no Electron, under 5 MB, zero network requests, and all session data stays local as plain JSON. Originally source-available under an honor-system license, it is being fully open sourced with the license removed.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "js98"
+      ],
+      "source_excerpt": "I’ve built Nekode (https://github.com/Jakob-98/nekode), which is desktop-cats for monitoring your AI coding agent sessions (OpenCode/Claude Code/ Copilot CLI/VSCode Copilot). It works as a macOS menubar app, and the cats run around on your desktop.",
+      "evidence": [
+        {
+          "source_item_id": 47748792,
+          "source_field": "body",
+          "value": "I’ve built Nekode (https://github.com/Jakob-98/nekode), which is desktop-cats for monitoring your AI coding agent sessions (OpenCode/Claude Code/ Copilot CLI/VSCode Copilot). It works as a macOS menubar app, and the cats run around on your desktop.",
+          "supports": [],
+          "author": "js98",
+          "shared_at": 1776064825,
+          "source_url": "https://news.ycombinator.com/item?id=47748792"
+        }
+      ],
+      "source_item_id": 47748792,
+      "source_url": "https://news.ycombinator.com/item?id=47748792",
+      "author": "js98",
+      "shared_at": 1776064825,
+      "links": [
+        "https://github.com/Jakob-98/nekode",
+        "https://nekode.dev"
+      ]
+    }
+  ]
+}

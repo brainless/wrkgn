@@ -1,0 +1,63 @@
+{
+  "id": 5907,
+  "slug": "plask-9a1bc10325",
+  "name": "Plask",
+  "mentions": [
+    {
+      "name": "Plask",
+      "description": "A Google Analytics (GA4)-connected analytics dashboard that consolidates all of a user's GA4 properties into a single overview, runs statistical anomaly detection, sends alerts when something breaks, and generates AI weekly digests. Free tier covers 2 properties; Pro is $9/mo.",
+      "problem": "Manually checking separate GA4 properties across multiple apps and SaaS projects is tedious, and setting up individual MCP integrations for each is overkill when all that's needed is a quick overview.",
+      "audience": "People who ship multiple products with several apps and SaaS projects.",
+      "builder_usernames": [
+        "tskulbru"
+      ],
+      "source_excerpt": "Plask ( https://plask.dev ) — Google Analytics (GA4) connected analytics dashboard for people who ship multiple products. I got tired of manually checking separate GA4 properties for all my apps and SaaS projects, and setting up individual MCP integrations for each felt like overkill when I just wanted a quick overview. So I built a single dashboard that connects all your GA4 properties, runs statistical anomaly detection, sends alerts when something breaks, and generates AI weekly digests. Free tier for 2 properties, Pro at $9/mo.",
+      "evidence": [
+        {
+          "source_item_id": 47749748,
+          "source_field": "body",
+          "value": "Plask ( https://plask.dev ) — Google Analytics (GA4) connected analytics dashboard for people who ship multiple products. I got tired of manually checking separate GA4 properties for all my apps and SaaS projects, and setting up individual MCP integrations for each felt like overkill when I just wanted a quick overview. So I built a single dashboard that connects all your GA4 properties, runs statistical anomaly detection, sends alerts when something breaks, and generates AI weekly digests. Free tier for 2 properties, Pro at $9/mo.",
+          "supports": [],
+          "author": "tskulbru",
+          "shared_at": 1776073053,
+          "source_url": "https://news.ycombinator.com/item?id=47749748"
+        }
+      ],
+      "source_item_id": 47749748,
+      "source_url": "https://news.ycombinator.com/item?id=47749748",
+      "author": "tskulbru",
+      "shared_at": 1776073053,
+      "links": [
+        "https://plask.dev"
+      ]
+    },
+    {
+      "name": "Plask",
+      "description": "A Google Analytics (GA4) connected analytics dashboard for people who ship multiple products. It consolidates all your GA4 properties into a single dashboard, runs statistical anomaly detection, sends alerts when something breaks, and generates AI weekly digests. Free tier covers 2 properties; Pro is $9/mo.",
+      "problem": "Manually checking separate GA4 properties for all your apps and SaaS projects is tedious, and setting up individual MCP integrations for each is overkill when you just want a quick overview.",
+      "audience": null,
+      "builder_usernames": [
+        "tskulbru"
+      ],
+      "source_excerpt": "Plask ( https://plask.dev ) — Google Analytics (GA4) connected analytics dashboard for people who ship multiple products. I got tired of manually checking separate GA4 properties for all my apps and SaaS projects, and setting up individual MCP integrations for each felt like overkill when I just wanted a quick overview. So I built a single dashboard that connects all your GA4 properties, runs statistical anomaly detection, sends alerts when something breaks, and generates AI weekly digests.",
+      "evidence": [
+        {
+          "source_item_id": 47306742,
+          "source_field": "body",
+          "value": "Plask ( https://plask.dev ) — Google Analytics (GA4) connected analytics dashboard for people who ship multiple products. I got tired of manually checking separate GA4 properties for all my apps and SaaS projects, and setting up individual MCP integrations for each felt like overkill when I just wanted a quick overview. So I built a single dashboard that connects all your GA4 properties, runs statistical anomaly detection, sends alerts when something breaks, and generates AI weekly digests.",
+          "supports": [],
+          "author": "tskulbru",
+          "shared_at": 1773049029,
+          "source_url": "https://news.ycombinator.com/item?id=47306742"
+        }
+      ],
+      "source_item_id": 47306742,
+      "source_url": "https://news.ycombinator.com/item?id=47306742",
+      "author": "tskulbru",
+      "shared_at": 1773049029,
+      "links": [
+        "https://plask.dev"
+      ]
+    }
+  ]
+}

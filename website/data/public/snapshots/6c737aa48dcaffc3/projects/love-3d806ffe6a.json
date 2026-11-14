@@ -1,0 +1,63 @@
+{
+  "id": 9990,
+  "slug": "love-3d806ffe6a",
+  "name": "love",
+  "mentions": [
+    {
+      "name": "love",
+      "description": "A terminal-based text editor that supports loading and editing files, copy/paste, and text selection. Planned next steps are tree-sitter integration for syntax highlighting and LSP support.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "bloomca"
+      ],
+      "source_excerpt": "I have been working on my terminal editor, but I parked that for now -- https://github.com/bloomca/love. It is possible to load a file and edit it, copy/paste works, you can select text, etc.",
+      "evidence": [
+        {
+          "source_item_id": 45420601,
+          "source_field": "body",
+          "value": "I have been working on my terminal editor, but I parked that for now -- https://github.com/bloomca/love. It is possible to load a file and edit it, copy/paste works, you can select text, etc.",
+          "supports": [],
+          "author": "bloomca",
+          "shared_at": 1759192234,
+          "source_url": "https://news.ycombinator.com/item?id=45420601"
+        }
+      ],
+      "source_item_id": 45420601,
+      "source_url": "https://news.ycombinator.com/item?id=45420601",
+      "author": "bloomca",
+      "shared_at": 1759192234,
+      "links": [
+        "https://github.com/bloomca/love"
+      ]
+    },
+    {
+      "name": "love",
+      "description": "A terminal text editor being built from scratch as a systems programming learning project, inspired by the kilo editor. The author hopes to make it usable enough to build other projects using it.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "bloomca"
+      ],
+      "source_excerpt": "recently I discovered kilo[0], which inspired me to start building my own editor[1]. Not sure how far I'll go, but hopefully it will be usable",
+      "evidence": [
+        {
+          "source_item_id": 44704074,
+          "source_field": "body",
+          "value": "recently I discovered kilo[0], which inspired me to start building my own editor[1]. Not sure how far I'll go, but hopefully it will be usable",
+          "supports": [],
+          "author": "bloomca",
+          "shared_at": 1753645652,
+          "source_url": "https://news.ycombinator.com/item?id=44704074"
+        }
+      ],
+      "source_item_id": 44704074,
+      "source_url": "https://news.ycombinator.com/item?id=44704074",
+      "author": "bloomca",
+      "shared_at": 1753645652,
+      "links": [
+        "https://github.com/bloomca/love"
+      ]
+    }
+  ]
+}

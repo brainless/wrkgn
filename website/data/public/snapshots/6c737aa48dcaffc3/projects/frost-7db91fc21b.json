@@ -1,0 +1,35 @@
+{
+  "id": 7797,
+  "slug": "frost-7db91fc21b",
+  "name": "Frost",
+  "mentions": [
+    {
+      "name": "Frost",
+      "description": "A simple self-hosted deployment platform that is Docker-only, single-user, and avoids Kubernetes. Users point it at a repo or container image and it handles the full flow: build, health check, deploy, and stopping the old container. Built with Bun, Next.js, SQLite, and Kysely.",
+      "problem": null,
+      "audience": "Self-hosters",
+      "builder_usernames": [
+        "elitan"
+      ],
+      "source_excerpt": "Building Frost, a simple self-hosted deployment platform. Docker-only, single-user, no Kubernetes. You point it at a repo or image, it handles the build → health check → deploy → stop old container flow.",
+      "evidence": [
+        {
+          "source_item_id": 46585250,
+          "source_field": "body",
+          "value": "Building Frost, a simple self-hosted deployment platform. Docker-only, single-user, no Kubernetes. You point it at a repo or image, it handles the build → health check → deploy → stop old container flow.",
+          "supports": [],
+          "author": "elitan",
+          "shared_at": 1768203122,
+          "source_url": "https://news.ycombinator.com/item?id=46585250"
+        }
+      ],
+      "source_item_id": 46585250,
+      "source_url": "https://news.ycombinator.com/item?id=46585250",
+      "author": "elitan",
+      "shared_at": 1768203122,
+      "links": [
+        "https://github.com/elitan/frost"
+      ]
+    }
+  ]
+}

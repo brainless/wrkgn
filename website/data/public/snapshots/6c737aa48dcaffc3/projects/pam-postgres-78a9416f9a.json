@@ -1,0 +1,35 @@
+{
+  "id": 8332,
+  "slug": "pam-postgres-78a9416f9a",
+  "name": "PAM Postgres",
+  "mentions": [
+    {
+      "name": "PAM Postgres",
+      "description": "This Go tool handles requesting access to private and sensitive Postgres databases. Users declare the databases, tables and specific permissions they need; an operator reviews the request, and on approval it generates a temporary Postgres user with just those permissions. All database connections are proxied through the app with random, short-lived hostnames and ports so internal database hosts are not exposed, and SQL statements from user sessions can optionally be logged.",
+      "problem": "Helps organizations reduce handing out long-lived Postgres credentials with broad permissions.",
+      "audience": null,
+      "builder_usernames": [
+        "yungwarlock"
+      ],
+      "source_excerpt": "I'm working on a tool in golang to handle requesting access to private and sensitive databases in Postgres. The goal is to help orgs reduce handing out long-lived postgres creds with broad permissions.",
+      "evidence": [
+        {
+          "source_item_id": 46269219,
+          "source_field": "body",
+          "value": "I'm working on a tool in golang to handle requesting access to private and sensitive databases in Postgres. The goal is to help orgs reduce handing out long-lived postgres creds with broad permissions.",
+          "supports": [],
+          "author": "yungwarlock",
+          "shared_at": 1765761882,
+          "source_url": "https://news.ycombinator.com/item?id=46269219"
+        }
+      ],
+      "source_item_id": 46269219,
+      "source_url": "https://news.ycombinator.com/item?id=46269219",
+      "author": "yungwarlock",
+      "shared_at": 1765761882,
+      "links": [
+        "https://github.com/yungwarlock/pam_postgres"
+      ]
+    }
+  ]
+}

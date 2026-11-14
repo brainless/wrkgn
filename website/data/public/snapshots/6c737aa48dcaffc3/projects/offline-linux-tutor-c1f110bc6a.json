@@ -1,0 +1,35 @@
+{
+  "id": 11391,
+  "slug": "offline-linux-tutor-c1f110bc6a",
+  "name": "Offline Linux Tutor",
+  "mentions": [
+    {
+      "name": "Offline Linux Tutor",
+      "description": "An offline Linux tutor that runs locally on an old laptop. It uses the Phi-2 2.7B model with MiniLM embeddings and a local ChromaDB vector store built from Linux textbooks and TLDR examples; when a command runs, it retrieves relevant knowledge and feeds it to Phi-2 to generate a clear explanation — with no internet, API fees, or cloud.",
+      "problem": "The author found themselves constantly copy-pasting terminal commands from ChatGPT without really understanding them.",
+      "audience": "When running terminal commands, the author was constantly copy-pasting explanations from ChatGPT without really understanding them.",
+      "builder_usernames": [
+        "vianarafael"
+      ],
+      "source_excerpt": "So I built a tiny, offline Linux tutor:\n\n  - Runs locally with Phi-2 (2.7B model, textbook training)\n  - Uses MiniLM embeddings to vectorize Linux textbooks and TLDR examples\n  - Stores everything in a local ChromaDB vector store",
+      "evidence": [
+        {
+          "source_item_id": 43818944,
+          "source_field": "body",
+          "value": "So I built a tiny, offline Linux tutor:\n\n  - Runs locally with Phi-2 (2.7B model, textbook training)\n  - Uses MiniLM embeddings to vectorize Linux textbooks and TLDR examples\n  - Stores everything in a local ChromaDB vector store",
+          "supports": [],
+          "author": "vianarafael",
+          "shared_at": 1745829048,
+          "source_url": "https://news.ycombinator.com/item?id=43818944"
+        }
+      ],
+      "source_item_id": 43818944,
+      "source_url": "https://news.ycombinator.com/item?id=43818944",
+      "author": "vianarafael",
+      "shared_at": 1745829048,
+      "links": [
+        "https://www.rafaelviana.io/posts/linux-tutor"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 5293,
+  "slug": "tina-de6a8fca99",
+  "name": "tina",
+  "mentions": [
+    {
+      "name": "tina",
+      "description": "An open-source high-throughput concurrency framework that bridges Erlang-style concurrency with native performance, running without a VM or garbage collector. It aims to let developers program concurrent systems while avoiding the gotchas of common primitives such as callbacks and promise chains.",
+      "problem": "Today's concurrency primitives (e.g. callbacks/promise hell) have gotchas that make programming concurrent systems difficult.",
+      "audience": null,
+      "builder_usernames": [
+        "pmbanugo"
+      ],
+      "source_excerpt": "So I recently open sourced it (https://github.com/pmbanugo/tina). It's a high-throughput concurrency framework that bridges the Erlang-style concurrency with native performance (no VM, no GC).",
+      "evidence": [
+        {
+          "source_item_id": 47750273,
+          "source_field": "body",
+          "value": "So I recently open sourced it (https://github.com/pmbanugo/tina). It's a high-throughput concurrency framework that bridges the Erlang-style concurrency with native performance (no VM, no GC).",
+          "supports": [],
+          "author": "pmbanugo",
+          "shared_at": 1776077850,
+          "source_url": "https://news.ycombinator.com/item?id=47750273"
+        }
+      ],
+      "source_item_id": 47750273,
+      "source_url": "https://news.ycombinator.com/item?id=47750273",
+      "author": "pmbanugo",
+      "shared_at": 1776077850,
+      "links": [
+        "https://github.com/pmbanugo/tina"
+      ]
+    }
+  ]
+}

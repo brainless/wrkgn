@@ -1,0 +1,33 @@
+{
+  "id": 8848,
+  "slug": "postgres-server-as-a-library-73776c9bf9",
+  "name": "Postgres server as a library",
+  "mentions": [
+    {
+      "name": "Postgres server as a library",
+      "description": "This project packages the PostgreSQL server as a library so it can be used directly in-process, reporting early success while finding initdb and in-process restarts much harder than expected.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "deivid"
+      ],
+      "source_excerpt": "Building postgres server as a library. Some early success, but initdb and in-process restarts are much harder than expected",
+      "evidence": [
+        {
+          "source_item_id": 46268663,
+          "source_field": "body",
+          "value": "Building postgres server as a library. Some early success, but initdb and in-process restarts are much harder than expected",
+          "supports": [],
+          "author": "deivid",
+          "shared_at": 1765757514,
+          "source_url": "https://news.ycombinator.com/item?id=46268663"
+        }
+      ],
+      "source_item_id": 46268663,
+      "source_url": "https://news.ycombinator.com/item?id=46268663",
+      "author": "deivid",
+      "shared_at": 1765757514,
+      "links": []
+    }
+  ]
+}

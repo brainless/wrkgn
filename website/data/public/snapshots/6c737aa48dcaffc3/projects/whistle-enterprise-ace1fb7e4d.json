@@ -1,0 +1,148 @@
+{
+  "id": 540,
+  "slug": "whistle-enterprise-ace1fb7e4d",
+  "name": "Whistle Enterprise",
+  "mentions": [
+    {
+      "name": "Whistle Enterprise",
+      "description": "Document generation tool (Whistle Enterprise) that uses a fine-tuned small language model to generate documents, with ongoing work to replace the previous Phi4 model with other small models tuned for good speed and quality on midrange laptop CPU inference.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "properbrew"
+      ],
+      "source_excerpt": "Still cracking on with https://whistle-enterprise.com and making improvements to the document generation model. I'm ditching my old trusty Phi4 model and testing out some other small models to fine tune, something about Phi4 just seemed to work quite well for what it was so it's a hard contender to beat for midrange laptop CPU inference at a decent rate and quality.",
+      "evidence": [
+        {
+          "source_item_id": 50418031,
+          "source_field": "body",
+          "value": "Still cracking on with https://whistle-enterprise.com and making improvements to the document generation model. I'm ditching my old trusty Phi4 model and testing out some other small models to fine tune, something about Phi4 just seemed to work quite well for what it was so it's a hard contender to beat for midrange laptop CPU inference at a decent rate and quality.",
+          "supports": [],
+          "author": "properbrew",
+          "shared_at": 1794176467,
+          "source_url": "https://news.ycombinator.com/item?id=50418031"
+        }
+      ],
+      "source_item_id": 50418031,
+      "source_url": "https://news.ycombinator.com/item?id=50418031",
+      "author": "properbrew",
+      "shared_at": 1794176467,
+      "links": [
+        "https://whistle-enterprise.com"
+      ]
+    },
+    {
+      "name": "Whistle Enterprise",
+      "description": "Meeting recording tool with audio processing and quality updates, extended via a new extensions system. Extensions hook into M365 or Google to send desktop notifications that start the recording, export recordings to SharePoint, and stop the recording at the registered meeting end. Offline and online functionality are kept completely separate, and the M365 extension has passed Microsoft validation with a verified blue tick.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "properbrew"
+      ],
+      "source_excerpt": "Still working away on the same thing - https://whistle-enterprise.com\n\nLatest updates around audio processing and quality are out, I've also made a substantial addition by implementing extensions.\n\nThis allows people to hook up to M365 or Google to get desktop notifications to start the recording, it can also export to share point and stop the recording at the registered meeting end.",
+      "evidence": [
+        {
+          "source_item_id": 49693443,
+          "source_field": "body",
+          "value": "Still working away on the same thing - https://whistle-enterprise.com\n\nLatest updates around audio processing and quality are out, I've also made a substantial addition by implementing extensions.\n\nThis allows people to hook up to M365 or Google to get desktop notifications to start the recording, it can also export to share point and stop the recording at the registered meeting end.",
+          "supports": [],
+          "author": "properbrew",
+          "shared_at": 1789372926,
+          "source_url": "https://news.ycombinator.com/item?id=49693443"
+        }
+      ],
+      "source_item_id": 49693443,
+      "source_url": "https://news.ycombinator.com/item?id=49693443",
+      "author": "properbrew",
+      "shared_at": 1789372926,
+      "links": [
+        "https://whistle-enterprise.com"
+      ]
+    },
+    {
+      "name": "Whistle Enterprise",
+      "description": "A completely offline meeting document generator that runs on generic laptops without a GPU, transcribing meeting audio and generating documents locally. A new release focuses on capturing clearer audio to make the transcription and resulting document more accurate.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "properbrew"
+      ],
+      "source_excerpt": "Still working away on a completely offline meeting document generator that works on generic laptops with no GPU (https://whistle-enterprise.com). A new release coming very soon focusing on getting clearer audio which in turn makes the transcription and end document generated more accurate.",
+      "evidence": [
+        {
+          "source_item_id": 49233666,
+          "source_field": "body",
+          "value": "Still working away on a completely offline meeting document generator that works on generic laptops with no GPU (https://whistle-enterprise.com). A new release coming very soon focusing on getting clearer audio which in turn makes the transcription and end document generated more accurate.",
+          "supports": [],
+          "author": "properbrew",
+          "shared_at": 1786297812,
+          "source_url": "https://news.ycombinator.com/item?id=49233666"
+        }
+      ],
+      "source_item_id": 49233666,
+      "source_url": "https://news.ycombinator.com/item?id=49233666",
+      "author": "properbrew",
+      "shared_at": 1786297812,
+      "links": [
+        "https://whistle-enterprise.com"
+      ]
+    },
+    {
+      "name": "Whistle Enterprise",
+      "description": "Whistle Enterprise is a Windows desktop application built around a diarisation and document generation pipeline. Recent work includes a modernised UI refresh, simplifications and improvements based on early user feedback, and performance improvements in the diarisation and document generation pipeline; an unsigned unstable prerelease is available for download.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "properbrew"
+      ],
+      "source_excerpt": "Still working away at https://whistle-enterprise.com.\n\nHave spent the last month giving the UI a bit of a modernisation refresh and simplifying/improving some elements based on early user feedback. There's also been a boat load of performance improvements in the dirarisation and document generation pipeline.",
+      "evidence": [
+        {
+          "source_item_id": 48889000,
+          "source_field": "body",
+          "value": "Still working away at https://whistle-enterprise.com.\n\nHave spent the last month giving the UI a bit of a modernisation refresh and simplifying/improving some elements based on early user feedback. There's also been a boat load of performance improvements in the dirarisation and document generation pipeline.",
+          "supports": [],
+          "author": "properbrew",
+          "shared_at": 1783926876,
+          "source_url": "https://news.ycombinator.com/item?id=48889000"
+        }
+      ],
+      "source_item_id": 48889000,
+      "source_url": "https://news.ycombinator.com/item?id=48889000",
+      "author": "properbrew",
+      "shared_at": 1783926876,
+      "links": [
+        "https://downloads.blazingbanana.com/whistle-enterprise/unstable/windows/x86_64/WhistleEnterprise-unstable.exe",
+        "https://whistle-enterprise.com"
+      ]
+    },
+    {
+      "name": "Whistle Enterprise",
+      "description": "This app provides fully offline voice transcription, packaging fine-tuned Phi-4 LLMs, speech recognition, and speaker diarization into a single self-contained installer that runs entirely on CPU with no environment setup, package downloads, or model downloads. It targets older low-to-mid-spec office laptops (e.g., i5 with 8GB RAM).",
+      "problem": "Running voice transcription with diarization entirely on CPU on a few-year-old low-spec office laptop without grinding the machine to a halt or taking forever to complete.",
+      "audience": null,
+      "builder_usernames": [
+        "properbrew"
+      ],
+      "source_excerpt": "always had a love for utilising fine tuned LLMs so have put two and two together and built https://whistle-enterprise.com.",
+      "evidence": [
+        {
+          "source_item_id": 48532422,
+          "source_field": "body",
+          "value": "always had a love for utilising fine tuned LLMs so have put two and two together and built https://whistle-enterprise.com.",
+          "supports": [],
+          "author": "properbrew",
+          "shared_at": 1781469698,
+          "source_url": "https://news.ycombinator.com/item?id=48532422"
+        }
+      ],
+      "source_item_id": 48532422,
+      "source_url": "https://news.ycombinator.com/item?id=48532422",
+      "author": "properbrew",
+      "shared_at": 1781469698,
+      "links": [
+        "https://whistle-enterprise.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 8745,
+  "slug": "mw-injector-8fd11f29ef",
+  "name": "mw-injector",
+  "mentions": [
+    {
+      "name": "mw-injector",
+      "description": "mw-injector is a work-in-progress tool that detects Java, Node, Python, or Golang services running on a host and automatically instruments them with OpenTelemetry APM. Unlike the otel-injector that inspired it, it automatically selects service names for each detected service, providing service-level segregation of telemetry.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "t0duf0du"
+      ],
+      "source_excerpt": "mw-injector[0], it's a WIP project. It detects what Java, Node, Python or Golang services are running on a host and instruments it with Opentelemetry APM. Inspired by Otel-injector[1] but it automatically selects service names for each service so you have service level segregation.",
+      "evidence": [
+        {
+          "source_item_id": 46270326,
+          "source_field": "body",
+          "value": "mw-injector[0], it's a WIP project. It detects what Java, Node, Python or Golang services are running on a host and instruments it with Opentelemetry APM. Inspired by Otel-injector[1] but it automatically selects service names for each service so you have service level segregation.",
+          "supports": [],
+          "author": "t0duf0du",
+          "shared_at": 1765771270,
+          "source_url": "https://news.ycombinator.com/item?id=46270326"
+        }
+      ],
+      "source_item_id": 46270326,
+      "source_url": "https://news.ycombinator.com/item?id=46270326",
+      "author": "t0duf0du",
+      "shared_at": 1765771270,
+      "links": [
+        "https://github.com/middleware-labs/mw-injector"
+      ]
+    }
+  ]
+}

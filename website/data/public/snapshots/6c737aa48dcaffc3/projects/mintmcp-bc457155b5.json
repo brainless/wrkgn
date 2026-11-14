@@ -1,0 +1,35 @@
+{
+  "id": 9245,
+  "slug": "mintmcp-bc457155b5",
+  "name": "MintMCP",
+  "mentions": [
+    {
+      "name": "MintMCP",
+      "description": "MintMCP is an MCP (Model Context Protocol) gateway that enables centralized deployment and securing of MCP servers. It includes an agent monitor that intercepts requests via an LLM proxy or hooks, providing full telemetry into the agents and MCP servers being used.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jngiam1"
+      ],
+      "source_excerpt": "MCP gateway: https://mintmcp.com\n\nThere's an agent monitor which intercepts requests either using a LLM proxy or hooks, that gives you full telemetry into the agents + MCPs used. And a MCP gateway that enables centralized deployment and securing of MCP.",
+      "evidence": [
+        {
+          "source_item_id": 45876838,
+          "source_field": "body",
+          "value": "MCP gateway: https://mintmcp.com\n\nThere's an agent monitor which intercepts requests either using a LLM proxy or hooks, that gives you full telemetry into the agents + MCPs used. And a MCP gateway that enables centralized deployment and securing of MCP.",
+          "supports": [],
+          "author": "jngiam1",
+          "shared_at": 1762788204,
+          "source_url": "https://news.ycombinator.com/item?id=45876838"
+        }
+      ],
+      "source_item_id": 45876838,
+      "source_url": "https://news.ycombinator.com/item?id=45876838",
+      "author": "jngiam1",
+      "shared_at": 1762788204,
+      "links": [
+        "https://mintmcp.com"
+      ]
+    }
+  ]
+}

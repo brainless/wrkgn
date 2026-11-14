@@ -1,0 +1,93 @@
+{
+  "id": 1699,
+  "slug": "crewchief-e97a665f7b",
+  "name": "CrewChief",
+  "mentions": [
+    {
+      "name": "CrewChief",
+      "description": "An iPhone automotive diagnostic app that scans OBD2 diagnostic codes and hooks them up to a custom AI diagnostic prompt. It tracks vehicle repair tasks, provides easy access to VIN info for parts search and DMV records, and generates in-depth diagnostic reports: a code database includes manufacturer-specific DTCs for 10 major makes plus per-model data down to the generation level (known failure patterns, common codes per engine), with AI reports conditioned on the exact year/make/model/engine. Repair price calculations mix fetched parts price data with a guided prompt using published labor-hour records and regional averages. It speaks generic OBD2 (ELM327) over Bluetooth, so cheap adapters work.",
+      "problem": "The builder wanted a single tool to track vehicle tasks, easily access VIN info for parts search, and DMV records, and saw nothing on the market with comparable depth of diagnostic reporting.",
+      "audience": "Car, motorcycle, tractor, and truck owners doing their own vehicle diagnostics and repairs",
+      "builder_usernames": [
+        "meandave"
+      ],
+      "source_excerpt": "I've been building the most advanced automotive diagnostic app on the market\n\nI used to be a mechanic, and spend a lot of my free time working on project vehicles, motorcycles, tractors, trucks etc. I wanted a tool to track the tasks I needed done, then a way to easily access VIN info for parts search, then I DMV records, and finally built an iphone app to scan the OBD2 diagnostic codes and hook them up to a custom ai diagnostic prompt.",
+      "evidence": [
+        {
+          "source_item_id": 49234857,
+          "source_field": "body",
+          "value": "I've been building the most advanced automotive diagnostic app on the market\n\nI used to be a mechanic, and spend a lot of my free time working on project vehicles, motorcycles, tractors, trucks etc. I wanted a tool to track the tasks I needed done, then a way to easily access VIN info for parts search, then I DMV records, and finally built an iphone app to scan the OBD2 diagnostic codes and hook them up to a custom ai diagnostic prompt.",
+          "supports": [],
+          "author": "meandave",
+          "shared_at": 1786303888,
+          "source_url": "https://news.ycombinator.com/item?id=49234857"
+        }
+      ],
+      "source_item_id": 49234857,
+      "source_url": "https://news.ycombinator.com/item?id=49234857",
+      "author": "meandave",
+      "shared_at": 1786303888,
+      "links": [
+        "https://apps.apple.com/us/app/crewchief-auto/id6760673109",
+        "https://crewchief.cc"
+      ]
+    },
+    {
+      "name": "CrewChief",
+      "description": "This vehicle diagnostic tool generates a full diagnostic report from a described set of symptoms, including parts links, tutorials, price estimates, and DIY repair guides. It includes a car sales tool that generates the DMV documents needed for the user's county/state, an iPhone app that connects to Bluetooth OBD2 sensors for check engine lights and live driving data, and search alerts for \"dream cars\".",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "meandave"
+      ],
+      "source_excerpt": "Diagnostic tool for all vehicles.\n\nDescribe your symptoms in as much detail as detail as you like and get a full diagnostic report with parts links, tutorials, price estimates, guides for diy\n\nIncludes car sales tool, generates all the documents you need for the dmv in your county/state",
+      "evidence": [
+        {
+          "source_item_id": 48094053,
+          "source_field": "body",
+          "value": "Diagnostic tool for all vehicles.\n\nDescribe your symptoms in as much detail as detail as you like and get a full diagnostic report with parts links, tutorials, price estimates, guides for diy\n\nIncludes car sales tool, generates all the documents you need for the dmv in your county/state",
+          "supports": [],
+          "author": "meandave",
+          "shared_at": 1778502048,
+          "source_url": "https://news.ycombinator.com/item?id=48094053"
+        }
+      ],
+      "source_item_id": 48094053,
+      "source_url": "https://news.ycombinator.com/item?id=48094053",
+      "author": "meandave",
+      "shared_at": 1778502048,
+      "links": [
+        "https://apps.apple.com/us/app/crewchief-auto/id6760673109",
+        "https://crewchief.cc"
+      ]
+    },
+    {
+      "name": "Crew Chief",
+      "description": "Vehicle diagnostic and management platform. Plug in OBD2 trouble codes or describe symptoms to get a structured diagnosis in under 30 seconds, with ranked probable causes, DIY vs. shop cost estimates, a severity rating, and matched parts/repair videos. Supports 16 vehicle types (cars, trucks, motorcycles, boats, tractors, ATVs, RVs, etc.), and also includes maintenance tracking, a browser extension that auto-fills vehicle info on parts sites like RockAuto and AutoZone, a community-vouched trusted shops map, and a vehicle selling wizard with state-specific bill of sale generation. The free tier covers 1 vehicle with full diagnostics.",
+      "problem": null,
+      "audience": "Having too many project cars and bikes and wanting one place to store VIN numbers for searching parts.",
+      "builder_usernames": [
+        "meandave"
+      ],
+      "source_excerpt": "Crew Chief (https://crewchief.cc) — a Vehicle diagnostic and management tool. Plug in your OBD2 codes (or just describe symptoms) and get a structured diagnosis in under 30 seconds: ranked probable causes, DIY vs. shop cost estimates, severity rating, and matched parts/repair videos.",
+      "evidence": [
+        {
+          "source_item_id": 47308678,
+          "source_field": "body",
+          "value": "Crew Chief (https://crewchief.cc) — a Vehicle diagnostic and management tool. Plug in your OBD2 codes (or just describe symptoms) and get a structured diagnosis in under 30 seconds: ranked probable causes, DIY vs. shop cost estimates, severity rating, and matched parts/repair videos.",
+          "supports": [],
+          "author": "meandave",
+          "shared_at": 1773062250,
+          "source_url": "https://news.ycombinator.com/item?id=47308678"
+        }
+      ],
+      "source_item_id": 47308678,
+      "source_url": "https://news.ycombinator.com/item?id=47308678",
+      "author": "meandave",
+      "shared_at": 1773062250,
+      "links": [
+        "https://crewchief.cc"
+      ]
+    }
+  ]
+}

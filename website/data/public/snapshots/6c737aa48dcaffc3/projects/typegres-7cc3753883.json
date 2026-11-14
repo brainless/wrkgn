@@ -1,0 +1,35 @@
+{
+  "id": 9813,
+  "slug": "typegres-7cc3753883",
+  "name": "Typegres",
+  "mentions": [
+    {
+      "name": "Typegres",
+      "description": "Typegres is a type-safe TypeScript data layer for PostgreSQL, positioned as a \"translator, not an abstraction\" rather than a traditional ORM. It exposes the full power of PostgreSQL — all statements and built-in functions — through a type-safe TypeScript API. Its latest feature is class-based models with methods that are composable SQL expressions, letting tables carry expressive business logic and fully composable relations usable anywhere in a query (SELECT, WHERE, ORDER BY, etc.).",
+      "problem": "ORMs have hidden the power of PostgreSQL behind generic, database-agnostic abstractions that made sense in 2010 but are now a bottleneck for modern TypeScript + PostgreSQL stacks.",
+      "audience": null,
+      "builder_usernames": [
+        "ryanrasti"
+      ],
+      "source_excerpt": "I'm working on Typegres, a new data layer for the modern stack (TypeScript + PostgreSQL).\n\nMy take is that for years, ORMs have hidden the power of PostgreSQL behind generic, database-agnostic abstractions. This made sense in 2010, but now it's a bottleneck.\n\nTypegres rejects this. It's a \"translator, not an abstraction,\" designed to express the full power of PostgreSQL (all statements, built-in functions, etc.) in a type-safe TypeScript API.",
+      "evidence": [
+        {
+          "source_item_id": 45421490,
+          "source_field": "body",
+          "value": "I'm working on Typegres, a new data layer for the modern stack (TypeScript + PostgreSQL).\n\nMy take is that for years, ORMs have hidden the power of PostgreSQL behind generic, database-agnostic abstractions. This made sense in 2010, but now it's a bottleneck.\n\nTypegres rejects this. It's a \"translator, not an abstraction,\" designed to express the full power of PostgreSQL (all statements, built-in functions, etc.) in a type-safe TypeScript API.",
+          "supports": [],
+          "author": "ryanrasti",
+          "shared_at": 1759201493,
+          "source_url": "https://news.ycombinator.com/item?id=45421490"
+        }
+      ],
+      "source_item_id": 45421490,
+      "source_url": "https://news.ycombinator.com/item?id=45421490",
+      "author": "ryanrasti",
+      "shared_at": 1759201493,
+      "links": [
+        "https://typegres.com/play"
+      ]
+    }
+  ]
+}

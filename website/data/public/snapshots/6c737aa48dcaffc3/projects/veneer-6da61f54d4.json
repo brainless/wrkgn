@@ -1,0 +1,65 @@
+{
+  "id": 6639,
+  "slug": "veneer-6da61f54d4",
+  "name": "Veneer",
+  "mentions": [
+    {
+      "name": "Veneer",
+      "description": "A thin layer over Google Forms + Sheets that lets anyone who can use Google Forms publish a nice-looking website with an optional form, including signup features.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Leftium"
+      ],
+      "source_excerpt": "# https://veneer.leftium.com is a thin layer over Google forms + sheets",
+      "evidence": [
+        {
+          "source_item_id": 47303743,
+          "source_field": "body",
+          "value": "# https://veneer.leftium.com is a thin layer over Google forms + sheets",
+          "supports": [],
+          "author": "Leftium",
+          "shared_at": 1773019633,
+          "source_url": "https://news.ycombinator.com/item?id=47303743"
+        }
+      ],
+      "source_item_id": 47303743,
+      "source_url": "https://news.ycombinator.com/item?id=47303743",
+      "author": "Leftium",
+      "shared_at": 1773019633,
+      "links": [
+        "https://veneer.leftium.com"
+      ]
+    },
+    {
+      "name": "Veneer",
+      "description": "A thin facade over Google Forms/Sheets that turns them into polished web pages. It is a rewrite of an older version that currently powers viviblues.com, motivated by Vercel ending support for Node v18.",
+      "problem": "Vercel is ending support for Node v18, so instead of updating the old app the author finished the rewrite of the better version.",
+      "audience": null,
+      "builder_usernames": [
+        "Leftium"
+      ],
+      "source_excerpt": "Veneer: a thin facade over Google Forms/Sheets (https://github.com/Leftium/veneer)",
+      "evidence": [
+        {
+          "source_item_id": 44706990,
+          "source_field": "body",
+          "value": "Veneer: a thin facade over Google Forms/Sheets (https://github.com/Leftium/veneer)",
+          "supports": [],
+          "author": "Leftium",
+          "shared_at": 1753673706,
+          "source_url": "https://news.ycombinator.com/item?id=44706990"
+        }
+      ],
+      "source_item_id": 44706990,
+      "source_url": "https://news.ycombinator.com/item?id=44706990",
+      "author": "Leftium",
+      "shared_at": 1753673706,
+      "links": [
+        "https://github.com/Leftium/veneer",
+        "https://veneer.leftium.com",
+        "https://viviblues.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 7122,
+  "slug": "space-reporting-7c34b40fce",
+  "name": "space_reporting",
+  "mentions": [
+    {
+      "name": "space_reporting",
+      "description": "This app explores a space dataset through visual and audio combinations, and includes an LLM chat view backed by DuckDB WASM for tool use, translating natural language text to SQL via a light semantic layer. Work continues on optimizing which tools to expose and result handling.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "efromvt"
+      ],
+      "source_excerpt": "Experimenting with visual/audio combinations to explore aspects of a space dataset I’ve been having lots of fun with. Added in a LLM chat view with Duck DB WASM as well to try out tool use - text to SQL seems to be relatively solved with a light semantic layer; some interesting optimization around what tools to expose and result handling that need some more iteration.",
+      "evidence": [
+        {
+          "source_item_id": 46940680,
+          "source_field": "body",
+          "value": "Experimenting with visual/audio combinations to explore aspects of a space dataset I’ve been having lots of fun with. Added in a LLM chat view with Duck DB WASM as well to try out tool use - text to SQL seems to be relatively solved with a light semantic layer; some interesting optimization around what tools to expose and result handling that need some more iteration.",
+          "supports": [],
+          "author": "efromvt",
+          "shared_at": 1770602048,
+          "source_url": "https://news.ycombinator.com/item?id=46940680"
+        }
+      ],
+      "source_item_id": 46940680,
+      "source_url": "https://news.ycombinator.com/item?id=46940680",
+      "author": "efromvt",
+      "shared_at": 1770602048,
+      "links": [
+        "https://greenmtnboy.github.io/space_reporting/"
+      ]
+    }
+  ]
+}

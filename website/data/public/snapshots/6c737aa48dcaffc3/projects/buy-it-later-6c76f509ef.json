@@ -1,0 +1,35 @@
+{
+  "id": 6139,
+  "slug": "buy-it-later-6c76f509ef",
+  "name": "Buy It Later",
+  "mentions": [
+    {
+      "name": "Buy It Later",
+      "description": "A web app that adds a 48-hour countdown to intended purchases, prompting users to return after two days to decide whether they truly need the product or it was just an impulse buy. All data is stored locally in the browser using IndexedDB.",
+      "problem": "Curbs impulse buying by introducing a waiting period before purchase decisions.",
+      "audience": "Shoppers deciding whether they really need a product",
+      "builder_usernames": [
+        "woutr_be"
+      ],
+      "source_excerpt": "I wrote this little web app over the weekend, the idea was to make you think about your next purchase by introducing a 48 hour countdown. In 48 hours you come back and decide if you really need this product, or if it was just an impulse buy.",
+      "evidence": [
+        {
+          "source_item_id": 47305065,
+          "source_field": "body",
+          "value": "I wrote this little web app over the weekend, the idea was to make you think about your next purchase by introducing a 48 hour countdown. In 48 hours you come back and decide if you really need this product, or if it was just an impulse buy.",
+          "supports": [],
+          "author": "woutr_be",
+          "shared_at": 1773032637,
+          "source_url": "https://news.ycombinator.com/item?id=47305065"
+        }
+      ],
+      "source_item_id": 47305065,
+      "source_url": "https://news.ycombinator.com/item?id=47305065",
+      "author": "woutr_be",
+      "shared_at": 1773032637,
+      "links": [
+        "https://buyitlater.vercel.app"
+      ]
+    }
+  ]
+}

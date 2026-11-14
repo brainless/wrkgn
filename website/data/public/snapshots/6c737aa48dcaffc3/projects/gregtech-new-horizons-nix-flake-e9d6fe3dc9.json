@@ -1,0 +1,33 @@
+{
+  "id": 3831,
+  "slug": "gregtech-new-horizons-nix-flake-e9d6fe3dc9",
+  "name": "GregTech New Horizons Nix flake",
+  "mentions": [
+    {
+      "name": "GregTech New Horizons Nix flake",
+      "description": "A Nix flake that automates deploying a GregTech New Horizons Minecraft server kept on the latest daily build. It is being packaged as a simple home-manager module for NixOS and macOS (darwin) that syncs the modpack manifest to a configured server (using a patched gtnh-daily-updater), plus a NixOS module that manages the server, replacing the extensive manual bootstrapping steps normally required.",
+      "problem": "Running a GregTech New Horizons server normally requires a lot of administration with many manual bootstrapping steps, more than typical modded Minecraft servers.",
+      "audience": null,
+      "builder_usernames": [
+        "rrvsh"
+      ],
+      "source_excerpt": "A Nix flake for a GregTech New Horizons server updated to the latest daily build. This normally requires quite a lot of administration with a ton of manual bootstrapping steps, and even though there are solutions for normal modded Minecraft servers, GTNH requires a bit more legwork. My hope is to make it an extremely simple home-manager module that works on NixOS and darwin that syncs the manifest to a configured server (had to patch Caedis' gtnh-daily-updater to achieve this), and a NixOS module that manages said server.",
+      "evidence": [
+        {
+          "source_item_id": 48535327,
+          "source_field": "body",
+          "value": "A Nix flake for a GregTech New Horizons server updated to the latest daily build. This normally requires quite a lot of administration with a ton of manual bootstrapping steps, and even though there are solutions for normal modded Minecraft servers, GTNH requires a bit more legwork. My hope is to make it an extremely simple home-manager module that works on NixOS and darwin that syncs the manifest to a configured server (had to patch Caedis' gtnh-daily-updater to achieve this), and a NixOS module that manages said server.",
+          "supports": [],
+          "author": "rrvsh",
+          "shared_at": 1781486553,
+          "source_url": "https://news.ycombinator.com/item?id=48535327"
+        }
+      ],
+      "source_item_id": 48535327,
+      "source_url": "https://news.ycombinator.com/item?id=48535327",
+      "author": "rrvsh",
+      "shared_at": 1781486553,
+      "links": []
+    }
+  ]
+}

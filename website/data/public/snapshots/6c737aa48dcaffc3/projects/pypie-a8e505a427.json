@@ -1,0 +1,35 @@
+{
+  "id": 4145,
+  "slug": "pypie-a8e505a427",
+  "name": "pypie",
+  "mentions": [
+    {
+      "name": "pypie",
+      "description": "A domain-specific language for machine learning programs, embedded in Python and written like Python, with static type safety that catches errors such as tensor shape mismatches at compile time.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "weiserwx"
+      ],
+      "source_excerpt": "A DSL for machine learning programs: https://pypie.dev/\nEmbedded in Python, written like Python, but with static type safety (e.g. it catches tensor shape mismatches at compile time)",
+      "evidence": [
+        {
+          "source_item_id": 48531648,
+          "source_field": "body",
+          "value": "A DSL for machine learning programs: https://pypie.dev/\nEmbedded in Python, written like Python, but with static type safety (e.g. it catches tensor shape mismatches at compile time)",
+          "supports": [],
+          "author": "weiserwx",
+          "shared_at": 1781465368,
+          "source_url": "https://news.ycombinator.com/item?id=48531648"
+        }
+      ],
+      "source_item_id": 48531648,
+      "source_url": "https://news.ycombinator.com/item?id=48531648",
+      "author": "weiserwx",
+      "shared_at": 1781465368,
+      "links": [
+        "https://pypie.dev/"
+      ]
+    }
+  ]
+}

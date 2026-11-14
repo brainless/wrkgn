@@ -1,0 +1,33 @@
+{
+  "id": 11323,
+  "slug": "multi-ai-workflow-wizard-engine-dfa384c392",
+  "name": "Multi AI workflow wizard engine",
+  "mentions": [
+    {
+      "name": "Multi AI workflow wizard engine",
+      "description": "A multi-AI workflow wizard engine: the user provides an initial prompt (e.g. \"create a game\"), then a series of AI models (Gemini, OpenAI, Claude) prompt themselves in sequence until a finished outcome is produced. The user can edit any intermediate output step so the end result can be tuned along the way.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "franze"
+      ],
+      "source_excerpt": "a multi ai workflow wizard engine\n\nbasically a user give an initial prompt ie \"create a game\" and then a series of ai (gemini, openai, claude) prompt themselves  until a finished outcome. the user can change any output step in between so the end result can be tuned instead at any point",
+      "evidence": [
+        {
+          "source_item_id": 43819359,
+          "source_field": "body",
+          "value": "a multi ai workflow wizard engine\n\nbasically a user give an initial prompt ie \"create a game\" and then a series of ai (gemini, openai, claude) prompt themselves  until a finished outcome. the user can change any output step in between so the end result can be tuned instead at any point",
+          "supports": [],
+          "author": "franze",
+          "shared_at": 1745833264,
+          "source_url": "https://news.ycombinator.com/item?id=43819359"
+        }
+      ],
+      "source_item_id": 43819359,
+      "source_url": "https://news.ycombinator.com/item?id=43819359",
+      "author": "franze",
+      "shared_at": 1745833264,
+      "links": []
+    }
+  ]
+}

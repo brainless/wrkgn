@@ -1,0 +1,33 @@
+{
+  "id": 4372,
+  "slug": "imu-based-barbell-speed-and-path-tracking-sensor-b2a5da659f",
+  "name": "IMU-based barbell speed and path tracking sensor",
+  "mentions": [
+    {
+      "name": "IMU-based barbell speed and path tracking sensor",
+      "description": "A barbell speed and path tracking sensor built on newer IMU hardware, designed to be more precise and cheaper than camera- or actuator-based systems. It tracks bar path and bar speed during lifts to help weightlifters train safer and better, combining industrial design, hardware, firmware, software, and sport science. Currently an early prototype (a Raspberry Pi strapped to a bar, taped breadboard stage).",
+      "problem": "Existing camera- or actuator-based barbell tracking systems are less precise and more expensive; lifters lack precise, affordable feedback on bar speed and path.",
+      "audience": null,
+      "builder_usernames": [
+        "mstaoru"
+      ],
+      "source_excerpt": "Being a weightlifter for 20+ years now, I'm working on a barbell speed and path tracking sensor based on newer IMU hardware technologies, which makes it both more precise and cheaper than camera- or actuator-based systems. Ultimately it helps you lift and train safer and better.",
+      "evidence": [
+        {
+          "source_item_id": 48086783,
+          "source_field": "body",
+          "value": "Being a weightlifter for 20+ years now, I'm working on a barbell speed and path tracking sensor based on newer IMU hardware technologies, which makes it both more precise and cheaper than camera- or actuator-based systems. Ultimately it helps you lift and train safer and better.",
+          "supports": [],
+          "author": "mstaoru",
+          "shared_at": 1778439833,
+          "source_url": "https://news.ycombinator.com/item?id=48086783"
+        }
+      ],
+      "source_item_id": 48086783,
+      "source_url": "https://news.ycombinator.com/item?id=48086783",
+      "author": "mstaoru",
+      "shared_at": 1778439833,
+      "links": []
+    }
+  ]
+}

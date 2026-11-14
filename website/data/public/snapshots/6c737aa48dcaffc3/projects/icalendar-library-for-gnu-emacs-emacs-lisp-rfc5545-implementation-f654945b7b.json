@@ -1,0 +1,36 @@
+{
+  "id": 9102,
+  "slug": "icalendar-library-for-gnu-emacs-emacs-lisp-rfc5545-implementation-f654945b7b",
+  "name": "iCalendar library for GNU Emacs (Emacs Lisp RFC5545 implementation)",
+  "mentions": [
+    {
+      "name": "iCalendar library for GNU Emacs (Emacs Lisp RFC5545 implementation)",
+      "description": "An iCalendar/RFC5545 library implemented in Emacs Lisp, submitted as a large patch to GNU Emacs. It adds iCalendar support to Emacs so that core and third-party packages can work with the iCalendar format.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rwl"
+      ],
+      "source_excerpt": "I have been working on implementing iCalendar/RFC5545 in Emacs Lisp. I recently submitted a large patch and hope it will be merged in the next couple of months",
+      "evidence": [
+        {
+          "source_item_id": 45885570,
+          "source_field": "body",
+          "value": "I have been working on implementing iCalendar/RFC5545 in Emacs Lisp. I recently submitted a large patch and hope it will be merged in the next couple of months",
+          "supports": [],
+          "author": "rwl",
+          "shared_at": 1762853561,
+          "source_url": "https://news.ycombinator.com/item?id=45885570"
+        }
+      ],
+      "source_item_id": 45885570,
+      "source_url": "https://news.ycombinator.com/item?id=45885570",
+      "author": "rwl",
+      "shared_at": 1762853561,
+      "links": [
+        "https://mail.gnu.org/archive/html/bug-gnu-emacs/2025-11/msg00115.html",
+        "https://recursewithless.net/emacs/index.html"
+      ]
+    }
+  ]
+}

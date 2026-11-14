@@ -1,0 +1,33 @@
+{
+  "id": 8483,
+  "slug": "organizational-data-flow-graph-visualization-f32ee8455f",
+  "name": "Organizational data-flow graph visualization",
+  "mentions": [
+    {
+      "name": "Organizational data-flow graph visualization",
+      "description": "Graph visualization of complex data flows through a large organization. It uses a new cycle-removal approach for hierarchical DAG graph layout that preserves the graph's shape, and work continues on minimizing edge crossings and lining up nodes so data flow between different systems is immediately obvious.",
+      "problem": "Hierarchical DAG graph layout algorithms apply a naive way of removing cycles that ruins the shape of the graph, making the data-flow visualization look bad.",
+      "audience": null,
+      "builder_usernames": [
+        "mcv"
+      ],
+      "source_excerpt": "I'm working on a graph representation of complex data flows through a large organisation.",
+      "evidence": [
+        {
+          "source_item_id": 46268527,
+          "source_field": "body",
+          "value": "I'm working on a graph representation of complex data flows through a large organisation.",
+          "supports": [],
+          "author": "mcv",
+          "shared_at": 1765756582,
+          "source_url": "https://news.ycombinator.com/item?id=46268527"
+        }
+      ],
+      "source_item_id": 46268527,
+      "source_url": "https://news.ycombinator.com/item?id=46268527",
+      "author": "mcv",
+      "shared_at": 1765756582,
+      "links": []
+    }
+  ]
+}

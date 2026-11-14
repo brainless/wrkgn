@@ -1,0 +1,33 @@
+{
+  "id": 9461,
+  "slug": "graphite-like-svn-toolkit-cli-service-and-web-ui-1b75e75753",
+  "name": "Graphite-like SVN toolkit (CLI, service, and web UI)",
+  "mentions": [
+    {
+      "name": "Graphite-like SVN toolkit (CLI, service, and web UI)",
+      "description": "A Graphite-like experience for SVN focused on stacked changes. The project comprises a modern CLI for interacting with SVN, a companion subsystem that runs alongside the SVN repository (similar to gitaly), and a web UI for browsing the repo and doing code reviews.",
+      "problem": "The SVN CLI workflow is dated and lacks a modern stacked-diff experience.",
+      "audience": null,
+      "builder_usernames": [
+        "olcarl75"
+      ],
+      "source_excerpt": "I noticed that the SVN CLI workflow is a bit dated and I think there's room to create a graphite like experience for svn, especially focusing on stacking.\n\nI am set out to:\n- create a modern CLI to interact with SVN\n\n- create a subsystem to run alongside the svn repo (similar to gitaly)\n\n- create a good looking web UI to browser the repo, review code reviews, etc",
+      "evidence": [
+        {
+          "source_item_id": 45886398,
+          "source_field": "body",
+          "value": "I noticed that the SVN CLI workflow is a bit dated and I think there's room to create a graphite like experience for svn, especially focusing on stacking.\n\nI am set out to:\n- create a modern CLI to interact with SVN\n\n- create a subsystem to run alongside the svn repo (similar to gitaly)\n\n- create a good looking web UI to browser the repo, review code reviews, etc",
+          "supports": [],
+          "author": "olcarl75",
+          "shared_at": 1762862959,
+          "source_url": "https://news.ycombinator.com/item?id=45886398"
+        }
+      ],
+      "source_item_id": 45886398,
+      "source_url": "https://news.ycombinator.com/item?id=45886398",
+      "author": "olcarl75",
+      "shared_at": 1762862959,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": 9784,
+  "slug": "bitcoin-secp-secr-curve-backdoor-search-4ffdbb3292",
+  "name": "Bitcoin secp/secr curve backdoor search",
+  "mentions": [
+    {
+      "name": "Bitcoin secp/secr curve backdoor search",
+      "description": "This research effort searches for a mathematical backdoor in Bitcoin's secp and secr elliptic curves, examining the generator order primes and attempting to define a multiplication operation using primitive roots, with findings documented in Substack articles.",
+      "problem": "Both curves use unsafe primes (p-1 factors well) for the generator order, raising the concern of a possible backdoor like the earlier Dual EC backdoor in an elliptic curve.",
+      "audience": null,
+      "builder_usernames": [
+        "muragekibicho"
+      ],
+      "source_excerpt": "Super silly but I'm searching for a mathematical backdoor in Bitcoin's secp and the secr curve. I saw that both curves use unsafe primes (p-1 factors pretty well) for the generator order.\n\nSo I'm trying to define a multiplication operation using primitive roots.\n\n[0] https://leetarxiv.substack.com/p/if-youre-smart-why-are-you-poor-elliptic\n\n[1] (The other time the US gov put a backdoor in an elliptic curve) https://leetarxiv.substack.com/p/dual-ec-backdoor-coding-guide",
+      "evidence": [
+        {
+          "source_item_id": 45565601,
+          "source_field": "body",
+          "value": "Super silly but I'm searching for a mathematical backdoor in Bitcoin's secp and the secr curve. I saw that both curves use unsafe primes (p-1 factors pretty well) for the generator order.\n\nSo I'm trying to define a multiplication operation using primitive roots.\n\n[0] https://leetarxiv.substack.com/p/if-youre-smart-why-are-you-poor-elliptic\n\n[1] (The other time the US gov put a backdoor in an elliptic curve) https://leetarxiv.substack.com/p/dual-ec-backdoor-coding-guide",
+          "supports": [],
+          "author": "muragekibicho",
+          "shared_at": 1760339382,
+          "source_url": "https://news.ycombinator.com/item?id=45565601"
+        }
+      ],
+      "source_item_id": 45565601,
+      "source_url": "https://news.ycombinator.com/item?id=45565601",
+      "author": "muragekibicho",
+      "shared_at": 1760339382,
+      "links": [
+        "https://leetarxiv.substack.com/p/dual-ec-backdoor-coding-guide",
+        "https://leetarxiv.substack.com/p/if-youre-smart-why-are-you-poor-elliptic"
+      ]
+    }
+  ]
+}

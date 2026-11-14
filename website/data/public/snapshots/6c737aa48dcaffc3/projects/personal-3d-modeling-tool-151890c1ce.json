@@ -1,0 +1,35 @@
+{
+  "id": 4655,
+  "slug": "personal-3d-modeling-tool-151890c1ce",
+  "name": "Personal 3D modeling tool",
+  "mentions": [
+    {
+      "name": "Personal 3D modeling tool",
+      "description": "A 3D modeling tool the author is building for personal use and does not intend to publish. It deliberately omits animation frames, extension support, and code editing, which the author sees as flaws in well-known 3D modeling tools that instead ship extensions for everything. The rendering portion, which renders Bezier surfaces, has been published in a blog post.",
+      "problem": "Well-known 3D modeling tools come with animation frames, extension support, and code editing, and when something doesn't work well they publish another extension; the author believes extensions never worked well and wants a tool without them.",
+      "audience": null,
+      "builder_usernames": [
+        "fatih-erikli-cg"
+      ],
+      "source_excerpt": "I am creating 3d modeling tool. I am not willing to publish it. The well known 3d modeling tools come with animation frames, extension support, code writing part etc. I don't want to be one of them.",
+      "evidence": [
+        {
+          "source_item_id": 48090654,
+          "source_field": "body",
+          "value": "I am creating 3d modeling tool. I am not willing to publish it. The well known 3d modeling tools come with animation frames, extension support, code writing part etc. I don't want to be one of them.",
+          "supports": [],
+          "author": "fatih-erikli-cg",
+          "shared_at": 1778468803,
+          "source_url": "https://news.ycombinator.com/item?id=48090654"
+        }
+      ],
+      "source_item_id": 48090654,
+      "source_url": "https://news.ycombinator.com/item?id=48090654",
+      "author": "fatih-erikli-cg",
+      "shared_at": 1778468803,
+      "links": [
+        "https://fatih-erikli-potato.github.io/blog/rendering-a-bezier-surface.html"
+      ]
+    }
+  ]
+}

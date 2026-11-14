@@ -1,0 +1,33 @@
+{
+  "id": 4932,
+  "slug": "ai-agent-pr-review-tool-fb832e74b9",
+  "name": "AI Agent PR Review Tool",
+  "mentions": [
+    {
+      "name": "AI Agent PR Review Tool",
+      "description": "This tool helps review changes made by AI agents in response to PR review comments. Its key functionality is showing the changes made for each comment, rather than each file, making it easy to see what an AI agent changed in response to each review comment.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "afzalive"
+      ],
+      "source_excerpt": "Building a tool to help review changes made by AI agents in response to PR review comments.\n\nThe key functionality is to be able to easily see the changes made for each comment, rather than each file.",
+      "evidence": [
+        {
+          "source_item_id": 48093398,
+          "source_field": "body",
+          "value": "Building a tool to help review changes made by AI agents in response to PR review comments.\n\nThe key functionality is to be able to easily see the changes made for each comment, rather than each file.",
+          "supports": [],
+          "author": "afzalive",
+          "shared_at": 1778497157,
+          "source_url": "https://news.ycombinator.com/item?id=48093398"
+        }
+      ],
+      "source_item_id": 48093398,
+      "source_url": "https://news.ycombinator.com/item?id=48093398",
+      "author": "afzalive",
+      "shared_at": 1778497157,
+      "links": []
+    }
+  ]
+}

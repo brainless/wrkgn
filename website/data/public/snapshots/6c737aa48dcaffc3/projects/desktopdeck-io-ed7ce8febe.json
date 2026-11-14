@@ -1,0 +1,63 @@
+{
+  "id": 5927,
+  "slug": "desktopdeck-io-ed7ce8febe",
+  "name": "desktopdeck.io",
+  "mentions": [
+    {
+      "name": "desktopdeck.io",
+      "description": "A tool for creating setups that bundle apps, config files, and scripts for quick one-click installation on Windows or Mac.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "victorzidaroiu"
+      ],
+      "source_excerpt": "I'm building desktopdeck.io a tool for creating setups of apps, config files and scripts to quickly install on Windows or Mac",
+      "evidence": [
+        {
+          "source_item_id": 47638952,
+          "source_field": "body",
+          "value": "I'm building desktopdeck.io a tool for creating setups of apps, config files and scripts to quickly install on Windows or Mac",
+          "supports": [],
+          "author": "victorzidaroiu",
+          "shared_at": 1775309702,
+          "source_url": "https://news.ycombinator.com/item?id=47638952"
+        }
+      ],
+      "source_item_id": 47638952,
+      "source_url": "https://news.ycombinator.com/item?id=47638952",
+      "author": "victorzidaroiu",
+      "shared_at": 1775309702,
+      "links": [
+        "https://desktopdeck.io"
+      ]
+    },
+    {
+      "name": "DesktopDeck",
+      "description": "A desktop app that bundles multiple applications into a \"deck\" and installs them all at once, supporting custom scripts, config files placed at specified paths, and silent non-interactive installs. Built on top of WinGet and Homebrew for Windows and Mac.",
+      "problem": "Streamlines new machine setup, teammate onboarding, and sharing a standard dev environment across a team.",
+      "audience": "Developers setting up new machines, teams onboarding teammates, and teams sharing a standardized dev environment.",
+      "builder_usernames": [
+        "victorzidaroiu"
+      ],
+      "source_excerpt": "I'm working on a desktop app that lets you bundle multiple apps into a \"deck\" and install them all at once. You can also add custom scripts, config files to specified paths, and it handles non-interactive installs silently. Built on top of WinGet/Homebrew for Windows & Mac.\nUse cases: new machine setup, onboarding teammates, sharing a standard dev environment across a team.",
+      "evidence": [
+        {
+          "source_item_id": 47310454,
+          "source_field": "body",
+          "value": "I'm working on a desktop app that lets you bundle multiple apps into a \"deck\" and install them all at once. You can also add custom scripts, config files to specified paths, and it handles non-interactive installs silently. Built on top of WinGet/Homebrew for Windows & Mac.\nUse cases: new machine setup, onboarding teammates, sharing a standard dev environment across a team.",
+          "supports": [],
+          "author": "victorzidaroiu",
+          "shared_at": 1773070554,
+          "source_url": "https://news.ycombinator.com/item?id=47310454"
+        }
+      ],
+      "source_item_id": 47310454,
+      "source_url": "https://news.ycombinator.com/item?id=47310454",
+      "author": "victorzidaroiu",
+      "shared_at": 1773070554,
+      "links": [
+        "https://desktopdeck.io"
+      ]
+    }
+  ]
+}

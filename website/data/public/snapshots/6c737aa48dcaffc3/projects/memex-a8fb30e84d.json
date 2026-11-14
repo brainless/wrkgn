@@ -1,0 +1,35 @@
+{
+  "id": 7081,
+  "slug": "memex-a8fb30e84d",
+  "name": "Memex",
+  "mentions": [
+    {
+      "name": "Memex",
+      "description": "Memex is a personal work-memory tool with a CLI interface and MCP support that records what you have worked on so you can quickly answer questions like \"what did I work on last week?\" or find a Hacker News post about compiler optimization you forgot to bookmark. It connects to Claude via MCP to provide work context for tasks such as tailoring a resume to a specific job application, reviewing the past week of work to surface unfinished tasks, and recalling how a server set up a month ago was configured (exportable as a .md file). It replaces the author's use of bookmarks and lists/bug tracking. The name comes from Vannevar Bush's 1945 \"As We May Think\" concept of a personal, mechanized filing system supplementing memory.",
+      "problem": "The author realized they had no history of what they had worked on in the past, making it hard to recall past work or retrieve forgotten saved content.",
+      "audience": null,
+      "builder_usernames": [
+        "joenewbry"
+      ],
+      "source_excerpt": "I'm working on Memex: https://github.com/joenewbry/memex\n\nIt's inspired by a moment a few years ago when I realized I had no history of what I had worked on in the past.",
+      "evidence": [
+        {
+          "source_item_id": 46942564,
+          "source_field": "body",
+          "value": "I'm working on Memex: https://github.com/joenewbry/memex\n\nIt's inspired by a moment a few years ago when I realized I had no history of what I had worked on in the past.",
+          "supports": [],
+          "author": "joenewbry",
+          "shared_at": 1770622278,
+          "source_url": "https://news.ycombinator.com/item?id=46942564"
+        }
+      ],
+      "source_item_id": 46942564,
+      "source_url": "https://news.ycombinator.com/item?id=46942564",
+      "author": "joenewbry",
+      "shared_at": 1770622278,
+      "links": [
+        "https://github.com/joenewbry/memex"
+      ]
+    }
+  ]
+}

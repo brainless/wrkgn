@@ -1,0 +1,35 @@
+{
+  "id": 9979,
+  "slug": "koda-validate-dbc449021f",
+  "name": "koda-validate",
+  "mentions": [
+    {
+      "name": "koda-validate",
+      "description": "A Python validation library offering type-safe, reusable validator building blocks. The current update focuses on ergonomics improvements, including a better __repr__ for Invalid types, and potentially expands the ability to generate validators from arbitrary type hints such as get_typehint_validator(list[str | int]).",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "keithasaurus"
+      ],
+      "source_excerpt": "Updating my validation library for python, koda-validate (https://github.com/keithasaurus/koda-validate).\n\nFocusing on ergonomics improvements. Just released an improvement to the __repr__ for Invalid types.\n\nPotentially working on expanding the ability to generate validators from arbitrary typehints, ie `get_typehint_validator(list[str | int])`. It has good coverage, but I suspect I'm blind to some obvious holes. Would love feedback!",
+      "evidence": [
+        {
+          "source_item_id": 45421291,
+          "source_field": "body",
+          "value": "Updating my validation library for python, koda-validate (https://github.com/keithasaurus/koda-validate).\n\nFocusing on ergonomics improvements. Just released an improvement to the __repr__ for Invalid types.\n\nPotentially working on expanding the ability to generate validators from arbitrary typehints, ie `get_typehint_validator(list[str | int])`. It has good coverage, but I suspect I'm blind to some obvious holes. Would love feedback!",
+          "supports": [],
+          "author": "keithasaurus",
+          "shared_at": 1759199098,
+          "source_url": "https://news.ycombinator.com/item?id=45421291"
+        }
+      ],
+      "source_item_id": 45421291,
+      "source_url": "https://news.ycombinator.com/item?id=45421291",
+      "author": "keithasaurus",
+      "shared_at": 1759199098,
+      "links": [
+        "https://github.com/keithasaurus/koda-validate"
+      ]
+    }
+  ]
+}

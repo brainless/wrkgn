@@ -1,0 +1,33 @@
+{
+  "id": 6256,
+  "slug": "data-science-playground-e9b2b05867",
+  "name": "Data science playground",
+  "mentions": [
+    {
+      "name": "Data science playground",
+      "description": "A gamified data science playground for training colleagues to use Claude to write data analysis tools. It generates synthetic data resembling on-the-job datasets with statistical trends embedded in it, encrypts the answers, and puts an LLM in front of the answer file that gives warm/cold feedback as users submit their analysis results, aiming to speed up the path to data-driven results.",
+      "problem": "Colleagues aren't yet comfortable using Claude to write data analysis tools, and the author wants to level them up and make getting data-driven results easier and faster.",
+      "audience": "Coworkers at the author's workplace being trained to use Claude for data analysis",
+      "builder_usernames": [
+        "SeanAnderson"
+      ],
+      "source_excerpt": "trying my hand at vibe-coding a \"data science playground\" to try and level-up a couple of people into feeling comfortable using Claude to write data analysis tools. I generated a bunch of synthetic data, that looks like stuff we might encounter on the job, and embedded trends into the data that can be revealed through statistical analysis. I encrypted the answers and put a lil LLM in front of the answer file. You submit answers to the LLM and it tells you warm/cold by looking at the answer file.",
+      "evidence": [
+        {
+          "source_item_id": 47308403,
+          "source_field": "body",
+          "value": "trying my hand at vibe-coding a \"data science playground\" to try and level-up a couple of people into feeling comfortable using Claude to write data analysis tools. I generated a bunch of synthetic data, that looks like stuff we might encounter on the job, and embedded trends into the data that can be revealed through statistical analysis. I encrypted the answers and put a lil LLM in front of the answer file. You submit answers to the LLM and it tells you warm/cold by looking at the answer file.",
+          "supports": [],
+          "author": "SeanAnderson",
+          "shared_at": 1773060795,
+          "source_url": "https://news.ycombinator.com/item?id=47308403"
+        }
+      ],
+      "source_item_id": 47308403,
+      "source_url": "https://news.ycombinator.com/item?id=47308403",
+      "author": "SeanAnderson",
+      "shared_at": 1773060795,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": 4487,
+  "slug": "incrementum-9c4cc925f4",
+  "name": "Incrementum",
+  "mentions": [
+    {
+      "name": "Incrementum",
+      "description": "Incremental reading and spaced repetition app that implements strong spaced repetition algorithms, including the author's reverse-engineered SuperMemo 18 and SuperMemo 20 algorithms. Built with Tauri, with a web demo available (not everything that works in the Tauri version works on web).",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "hallucinate"
+      ],
+      "source_excerpt": "Working on an incremental reading / spaced repetition app that uses the best spaced repetition algorithms.",
+      "evidence": [
+        {
+          "source_item_id": 48099228,
+          "source_field": "body",
+          "value": "Working on an incremental reading / spaced repetition app that uses the best spaced repetition algorithms.",
+          "supports": [],
+          "author": "hallucinate",
+          "shared_at": 1778526088,
+          "source_url": "https://news.ycombinator.com/item?id=48099228"
+        }
+      ],
+      "source_item_id": 48099228,
+      "source_url": "https://news.ycombinator.com/item?id=48099228",
+      "author": "hallucinate",
+      "shared_at": 1778526088,
+      "links": [
+        "https://github.com/melpomenex/incrementum-tauri",
+        "https://readsync.org"
+      ]
+    }
+  ]
+}

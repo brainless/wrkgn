@@ -1,0 +1,35 @@
+{
+  "id": 10462,
+  "slug": "zookeeper-ff1b0b90c4",
+  "name": "Zookeeper",
+  "mentions": [
+    {
+      "name": "Zookeeper",
+      "description": "A simple time tracking app for tasks that helps users understand how they spend their working days. Everything is stored locally, requires no login, and has no backend sync.",
+      "problem": "Wanting a better understanding of how working days are spent.",
+      "audience": "Personal use; explicitly not intended for tracking employees",
+      "builder_usernames": [
+        "lowkeyokay"
+      ],
+      "source_excerpt": "I am working on a time tracking app for tasks. I built it because I want to gain a better understanding of how I spend my working days. It's meant to be very simple. Everything is stored locally and requires no login. I don't currently plan to sync it with any backend. This isn't something that can be used to track employees — it's just for personal use.",
+      "evidence": [
+        {
+          "source_item_id": 44703785,
+          "source_field": "body",
+          "value": "I am working on a time tracking app for tasks. I built it because I want to gain a better understanding of how I spend my working days. It's meant to be very simple. Everything is stored locally and requires no login. I don't currently plan to sync it with any backend. This isn't something that can be used to track employees — it's just for personal use.",
+          "supports": [],
+          "author": "lowkeyokay",
+          "shared_at": 1753643870,
+          "source_url": "https://news.ycombinator.com/item?id=44703785"
+        }
+      ],
+      "source_item_id": 44703785,
+      "source_url": "https://news.ycombinator.com/item?id=44703785",
+      "author": "lowkeyokay",
+      "shared_at": 1753643870,
+      "links": [
+        "https://www.zookeeper.fyi/"
+      ]
+    }
+  ]
+}

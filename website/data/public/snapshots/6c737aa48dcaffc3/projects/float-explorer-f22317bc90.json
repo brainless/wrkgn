@@ -1,0 +1,33 @@
+{
+  "id": 4424,
+  "slug": "float-explorer-f22317bc90",
+  "name": "Float-explorer",
+  "mentions": [
+    {
+      "name": "Float-explorer",
+      "description": "A tool that generates very precise assembly programs for exploring edge-case floating-point behavior on a processor, without having to bully the compiler into producing the desired code. It targets obscure semantics such as the multiple possible definitions of denormal flushing, and can be used to check whether an emulator actually emulates floating-point behavior correctly rather than silently delegating to host hardware with slightly different definitions.",
+      "problem": "Compilers are hard to coax into generating the exact assembly needed to test obscure floating-point behaviors, and emulators may implement floating-point incorrectly by delegating to hardware with subtly different semantics.",
+      "audience": "Developers who want to probe processor floating-point behavior without fighting the compiler, and emulator developers checking FP semantics.",
+      "builder_usernames": [
+        "jcranmer"
+      ],
+      "source_excerpt": "Float-explorer, a tool for generating very precise assembly programs to explore the darkest recesses of floating-point behavior on your processor without having to bully the compiler into generating the code for you.",
+      "evidence": [
+        {
+          "source_item_id": 48089142,
+          "source_field": "body",
+          "value": "Float-explorer, a tool for generating very precise assembly programs to explore the darkest recesses of floating-point behavior on your processor without having to bully the compiler into generating the code for you.",
+          "supports": [],
+          "author": "jcranmer",
+          "shared_at": 1778454991,
+          "source_url": "https://news.ycombinator.com/item?id=48089142"
+        }
+      ],
+      "source_item_id": 48089142,
+      "source_url": "https://news.ycombinator.com/item?id=48089142",
+      "author": "jcranmer",
+      "shared_at": 1778454991,
+      "links": []
+    }
+  ]
+}

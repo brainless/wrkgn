@@ -1,0 +1,33 @@
+{
+  "id": 10123,
+  "slug": "secure-configurable-authentication-system-d67eaa0eca",
+  "name": "Secure Configurable Authentication System",
+  "mentions": [
+    {
+      "name": "Secure Configurable Authentication System",
+      "description": "This is a secure, configurable, and easy-to-use authentication system built to address knowledge gaps and blind spots in authentication practices, such as TOTP using symmetric encryption with providers often storing the secret key in plaintext.",
+      "problem": "Users worry about hashed password security while overlooking that TOTP (e.g., Google Authenticator) uses symmetric encryption and many authentication providers store the private key in plaintext in their database; the builder aims to fix these blind spots.",
+      "audience": null,
+      "builder_usernames": [
+        "sandeepkd"
+      ],
+      "source_excerpt": "Trying to build a secure, configurable and easy to use authentication system (relative to my understanding)",
+      "evidence": [
+        {
+          "source_item_id": 45418873,
+          "source_field": "body",
+          "value": "Trying to build a secure, configurable and easy to use authentication system (relative to my understanding)",
+          "supports": [],
+          "author": "sandeepkd",
+          "shared_at": 1759180629,
+          "source_url": "https://news.ycombinator.com/item?id=45418873"
+        }
+      ],
+      "source_item_id": 45418873,
+      "source_url": "https://news.ycombinator.com/item?id=45418873",
+      "author": "sandeepkd",
+      "shared_at": 1759180629,
+      "links": []
+    }
+  ]
+}

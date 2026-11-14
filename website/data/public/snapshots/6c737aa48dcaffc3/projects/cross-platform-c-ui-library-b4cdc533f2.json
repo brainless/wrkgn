@@ -1,0 +1,33 @@
+{
+  "id": 8198,
+  "slug": "cross-platform-c-ui-library-b4cdc533f2",
+  "name": "Cross-platform C UI Library",
+  "mentions": [
+    {
+      "name": "Cross-platform C UI Library",
+      "description": "This library is a cross-platform UI toolkit written in C that leverages the OS as much as possible without using native widgets outright, with a focus on letting the library's user customize the look of controls. Its API is DOM-inspired, building interfaces from styleable divs in pure retained mode. Platform implementations include a custom NSView with CoreAnimation layers and nested NSTextView on macOS, a custom class using Windows.UI.Composition surfaces with a windowless RichEdit control on Windows, and a custom QWidget with nested QTextEdit on Linux; context menus are native on each platform.",
+      "problem": "Native UI with native controls has mostly died off for complex cross-platform applications, and implementing native-look controls cross-platform never works well (e.g., Win32 tab bars lack close buttons and Cocoa tabs aren't suited to them).",
+      "audience": "Developers building cross-platform applications with the library",
+      "builder_usernames": [
+        "sirwhinesalot"
+      ],
+      "source_excerpt": "I've been working (very slowly) on a cross-platform UI library written in C. It uses as much as it can from the OS without outright using the native widgets for everything. Rather the focus is on letting the user of the library customize the look of the controls as they see fit.",
+      "evidence": [
+        {
+          "source_item_id": 46272737,
+          "source_field": "body",
+          "value": "I've been working (very slowly) on a cross-platform UI library written in C. It uses as much as it can from the OS without outright using the native widgets for everything. Rather the focus is on letting the user of the library customize the look of the controls as they see fit.",
+          "supports": [],
+          "author": "sirwhinesalot",
+          "shared_at": 1765795308,
+          "source_url": "https://news.ycombinator.com/item?id=46272737"
+        }
+      ],
+      "source_item_id": 46272737,
+      "source_url": "https://news.ycombinator.com/item?id=46272737",
+      "author": "sirwhinesalot",
+      "shared_at": 1765795308,
+      "links": []
+    }
+  ]
+}

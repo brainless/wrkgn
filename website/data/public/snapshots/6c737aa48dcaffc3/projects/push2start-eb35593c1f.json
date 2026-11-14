@@ -1,0 +1,35 @@
+{
+  "id": 6298,
+  "slug": "push2start-eb35593c1f",
+  "name": "push2start",
+  "mentions": [
+    {
+      "name": "push2start",
+      "description": "A CLI deployment tool called push2start that deploys Docker Compose apps from a laptop to a remote server without a lot of custom scripts. It keeps the Compose file as the source of truth, transfers only the images that need to come from local, then deploys and provides status, logs, and restart controls from one CLI.",
+      "problem": "Deploying Docker Compose apps from a laptop to a remote server typically requires a lot of custom scripts.",
+      "audience": null,
+      "builder_usernames": [
+        "kwakubiney"
+      ],
+      "source_excerpt": "I’m working on a small deployment tool called push2start[1].  \nThe goal is to make Docker Compose apps easier to deploy from a laptop to a remote server without a lot of custom scripts.",
+      "evidence": [
+        {
+          "source_item_id": 47307307,
+          "source_field": "body",
+          "value": "I’m working on a small deployment tool called push2start[1].  \nThe goal is to make Docker Compose apps easier to deploy from a laptop to a remote server without a lot of custom scripts.",
+          "supports": [],
+          "author": "kwakubiney",
+          "shared_at": 1773053060,
+          "source_url": "https://news.ycombinator.com/item?id=47307307"
+        }
+      ],
+      "source_item_id": 47307307,
+      "source_url": "https://news.ycombinator.com/item?id=47307307",
+      "author": "kwakubiney",
+      "shared_at": 1773053060,
+      "links": [
+        "https://github.com/kwakubiney/push2start"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 8092,
+  "slug": "rust-dsn-parser-and-pcb-router-98b0debe44",
+  "name": "Rust DSN parser and PCB router",
+  "mentions": [
+    {
+      "name": "Rust DSN parser and PCB router",
+      "description": "A PCB design toolchain written in Rust: a finished DSN parser and a planned PCB router, with a wasm/wasi build planned so that PCB routing can run in the browser.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dilawar"
+      ],
+      "source_excerpt": "I just finished a dsn parser and now I am planning to write a pcb router. All in rust. The plan is to have a wasm/wasi version as well so routing is possible in the browser.",
+      "evidence": [
+        {
+          "source_item_id": 46269764,
+          "source_field": "body",
+          "value": "I just finished a dsn parser and now I am planning to write a pcb router. All in rust. The plan is to have a wasm/wasi version as well so routing is possible in the browser.",
+          "supports": [],
+          "author": "dilawar",
+          "shared_at": 1765765925,
+          "source_url": "https://news.ycombinator.com/item?id=46269764"
+        }
+      ],
+      "source_item_id": 46269764,
+      "source_url": "https://news.ycombinator.com/item?id=46269764",
+      "author": "dilawar",
+      "shared_at": 1765765925,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 5053,
+  "slug": "coderbase-50300884d2",
+  "name": "Coderbase",
+  "mentions": [
+    {
+      "name": "Coderbase",
+      "description": "A platform for running technical interviews. It offers a versioned, structured content library of interview questions (major.minor versioning, with same-major versions considered comparable), schedulable interview formats, and an integrated \"room\" combining a video call (an off-the-shelf 100ms integration) with a multiplayer code editor — both recorded, with transcripts and playback. Interviewers score and take notes in a \"rubric\" tool during the interview, and submitting an interview immediately generates a report. AI features include \"AI linting\", which benchmarks interview questions by running a candidate model and an interviewer model against each other and comparing actual vs expected performance, and \"AI draft\", which runs interview artifacts (questions, scoring, incomplete rubric, transcript, code editor history) through a PII redaction pass and an LLM gateway (DeepSeek, possibly switching to Mistral) to produce recommended scoring and writeups presented as Cursor-like accept/reject/edit suggestions.",
+      "problem": "Hiring teams have limited interview capacity; e.g. a startup in a major investment round needed to hire 25 people immediately with only a CTO available for interviews, piecing together Google Meet + CoderPad + Calendly before this in-house system.",
+      "audience": "Recruiters and hiring teams running technical interviews, including recruitment agencies conducting internal interviews and presenting candidates to clients.",
+      "builder_usernames": [
+        "smnscu"
+      ],
+      "source_excerpt": "I'm working on Coderbase (https://coderba.se/), a platform for running technical interviews.",
+      "evidence": [
+        {
+          "source_item_id": 48094869,
+          "source_field": "body",
+          "value": "I'm working on Coderbase (https://coderba.se/), a platform for running technical interviews.",
+          "supports": [],
+          "author": "smnscu",
+          "shared_at": 1778506812,
+          "source_url": "https://news.ycombinator.com/item?id=48094869"
+        }
+      ],
+      "source_item_id": 48094869,
+      "source_url": "https://news.ycombinator.com/item?id=48094869",
+      "author": "smnscu",
+      "shared_at": 1778506812,
+      "links": [
+        "https://coderba.se/"
+      ]
+    }
+  ]
+}

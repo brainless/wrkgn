@@ -1,0 +1,35 @@
+{
+  "id": 8762,
+  "slug": "hn-comments-navigator-viewer-36644a8431",
+  "name": "HN Comments Navigator/Viewer",
+  "mentions": [
+    {
+      "name": "HN Comments Navigator/Viewer",
+      "description": "This app is a navigator and viewer for Hacker News comments, built to improve the ergonomics of browsing and reading HN comment threads.",
+      "problem": "The author got tired of the lack of ergonomics around HN comments.",
+      "audience": null,
+      "builder_usernames": [
+        "news_hacker"
+      ],
+      "source_excerpt": "I got tired of the lack of ergonomics around HN comments, and built my own navigator/viewer.",
+      "evidence": [
+        {
+          "source_item_id": 46277321,
+          "source_field": "body",
+          "value": "I got tired of the lack of ergonomics around HN comments, and built my own navigator/viewer.",
+          "supports": [],
+          "author": "news_hacker",
+          "shared_at": 1765819025,
+          "source_url": "https://news.ycombinator.com/item?id=46277321"
+        }
+      ],
+      "source_item_id": 46277321,
+      "source_url": "https://news.ycombinator.com/item?id=46277321",
+      "author": "news_hacker",
+      "shared_at": 1765819025,
+      "links": [
+        "https://hn-comments.netlify.app/"
+      ]
+    }
+  ]
+}

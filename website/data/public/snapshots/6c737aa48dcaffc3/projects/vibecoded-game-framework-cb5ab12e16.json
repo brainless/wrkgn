@@ -1,0 +1,33 @@
+{
+  "id": 5569,
+  "slug": "vibecoded-game-framework-cb5ab12e16",
+  "name": "Vibecoded game framework",
+  "mentions": [
+    {
+      "name": "Vibecoded game framework",
+      "description": "A game framework for vibecoded games. Native APIs are exposed via Rust, while the core framework, games, mods, and libraries are written in AssemblyScript. It builds as a binary that runs on PC, mobile, and web platforms, and when launched provides a claude-code-like console with access to a sandboxed filesystem for game code and a built-in git repo.",
+      "problem": null,
+      "audience": "vibecoders writing games with AI assistance",
+      "builder_usernames": [
+        "furyofantares"
+      ],
+      "source_excerpt": "A game framework for vibecoded games.\n\nNative APIs exposed via Rust, but the core framework is written in AssemblyScript. Games or mods/libraries built in it are also written in AssemblyScript.\n\nIt builds as a binary that can run on the various PC, mobile, and web platforms. You run it and you get a claude-code-like console that has access to a sandboxed filesystem to put game code in, and a git repo, all built in.",
+      "evidence": [
+        {
+          "source_item_id": 47745072,
+          "source_field": "body",
+          "value": "A game framework for vibecoded games.\n\nNative APIs exposed via Rust, but the core framework is written in AssemblyScript. Games or mods/libraries built in it are also written in AssemblyScript.\n\nIt builds as a binary that can run on the various PC, mobile, and web platforms. You run it and you get a claude-code-like console that has access to a sandboxed filesystem to put game code in, and a git repo, all built in.",
+          "supports": [],
+          "author": "furyofantares",
+          "shared_at": 1776031598,
+          "source_url": "https://news.ycombinator.com/item?id=47745072"
+        }
+      ],
+      "source_item_id": 47745072,
+      "source_url": "https://news.ycombinator.com/item?id=47745072",
+      "author": "furyofantares",
+      "shared_at": 1776031598,
+      "links": []
+    }
+  ]
+}

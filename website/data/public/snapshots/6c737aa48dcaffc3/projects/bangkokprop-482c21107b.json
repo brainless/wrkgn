@@ -1,0 +1,35 @@
+{
+  "id": 5469,
+  "slug": "bangkokprop-482c21107b",
+  "name": "BangkokProp",
+  "mentions": [
+    {
+      "name": "BangkokProp",
+      "description": "This site aggregates apartment rental listings for Bangkok by scraping posts from Facebook Groups where owners post directly, and makes the collected posts filterable and sortable so renters can search them. The same approach is planned for US cities, where Facebook Groups have many sublease and accommodation posts.",
+      "problem": "Finding an apartment to rent in Bangkok is hard because the best listings are scattered across Facebook Groups posts from owners, which aren't searchable.",
+      "audience": null,
+      "builder_usernames": [
+        "tanin"
+      ],
+      "source_excerpt": "So, I've built a scraper that scrapes posts from Facebook Groups and made those posts filterable/sortable.",
+      "evidence": [
+        {
+          "source_item_id": 47747628,
+          "source_field": "body",
+          "value": "So, I've built a scraper that scrapes posts from Facebook Groups and made those posts filterable/sortable.",
+          "supports": [],
+          "author": "tanin",
+          "shared_at": 1776054717,
+          "source_url": "https://news.ycombinator.com/item?id=47747628"
+        }
+      ],
+      "source_item_id": 47747628,
+      "source_url": "https://news.ycombinator.com/item?id=47747628",
+      "author": "tanin",
+      "shared_at": 1776054717,
+      "links": [
+        "https://bangkokprop.com"
+      ]
+    }
+  ]
+}

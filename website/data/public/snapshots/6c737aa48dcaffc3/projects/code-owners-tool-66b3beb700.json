@@ -1,0 +1,35 @@
+{
+  "id": 4700,
+  "slug": "code-owners-tool-66b3beb700",
+  "name": "Code owners tool",
+  "mentions": [
+    {
+      "name": "Code owners tool",
+      "description": "A beta-ready code owners product, one of two tools in a suite of simpler, faster, and lighter alternatives to CI/CD containers and merge queues, with a public demo available online.",
+      "problem": "Traditional CI/CD containers and merge queues are complex, slow, and heavyweight.",
+      "audience": null,
+      "builder_usernames": [
+        "csomar"
+      ],
+      "source_excerpt": "I am working on simpler, faster and lighter alternatives to CI/CD containers and merge queues.\n\nCurrently two products are beta-ready (merge conflicts/codeowners) and the demos are available here: https://codeinput.com/products/code-owners/demo",
+      "evidence": [
+        {
+          "source_item_id": 48092523,
+          "source_field": "body",
+          "value": "I am working on simpler, faster and lighter alternatives to CI/CD containers and merge queues.\n\nCurrently two products are beta-ready (merge conflicts/codeowners) and the demos are available here: https://codeinput.com/products/code-owners/demo",
+          "supports": [],
+          "author": "csomar",
+          "shared_at": 1778488726,
+          "source_url": "https://news.ycombinator.com/item?id=48092523"
+        }
+      ],
+      "source_item_id": 48092523,
+      "source_url": "https://news.ycombinator.com/item?id=48092523",
+      "author": "csomar",
+      "shared_at": 1778488726,
+      "links": [
+        "https://codeinput.com/products/code-owners/demo"
+      ]
+    }
+  ]
+}

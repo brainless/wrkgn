@@ -1,0 +1,35 @@
+{
+  "id": 3914,
+  "slug": "name-brewery-3e90fb5f42",
+  "name": "Name Brewery",
+  "mentions": [
+    {
+      "name": "Name Brewery",
+      "description": "This MCP server lets an LLM look up domain name availability, so name brainstorming and registrar checks can happen directly inside an LLM conversation.",
+      "problem": "Registrar lookups for brainstormed names previously had to be done outside the LLM.",
+      "audience": null,
+      "builder_usernames": [
+        "anthonyko"
+      ],
+      "source_excerpt": "https://namebrewery.com: An MCP for looking up domain name availability. Brainstorming names within the LLM has been great and now I can have it do the registrar look ups from within the LLM too.",
+      "evidence": [
+        {
+          "source_item_id": 48531544,
+          "source_field": "body",
+          "value": "https://namebrewery.com: An MCP for looking up domain name availability. Brainstorming names within the LLM has been great and now I can have it do the registrar look ups from within the LLM too.",
+          "supports": [],
+          "author": "anthonyko",
+          "shared_at": 1781464920,
+          "source_url": "https://news.ycombinator.com/item?id=48531544"
+        }
+      ],
+      "source_item_id": 48531544,
+      "source_url": "https://news.ycombinator.com/item?id=48531544",
+      "author": "anthonyko",
+      "shared_at": 1781464920,
+      "links": [
+        "https://namebrewery.com"
+      ]
+    }
+  ]
+}

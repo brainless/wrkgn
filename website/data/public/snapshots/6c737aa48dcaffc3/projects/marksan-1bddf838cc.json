@@ -1,0 +1,35 @@
+{
+  "id": 4600,
+  "slug": "marksan-1bddf838cc",
+  "name": "marksan",
+  "mentions": [
+    {
+      "name": "marksan",
+      "description": "A CLI tool that sanitizes browser bookmarks: it takes an HTML file exported from Firefox and rewrites each anchor tag to keep only the HREF, stripping metadata such as ADD_DATE, LAST_MODIFIED, ICON_URI and the long ICON strings, which the author treats as suspected tracking code, then produces a clean bookmarks file.",
+      "problem": "Exported Firefox bookmark HTML contains long, suspicious ICON strings and other unnecessary attributes (ADD_DATE, LAST_MODIFIED, ICON_URI) that look like tracking code, when only the HREF is needed for a bookmark to function.",
+      "audience": "Personal use (a tool for the author's own use)",
+      "builder_usernames": [
+        "marking-time"
+      ],
+      "source_excerpt": "A CLI to replace bookmarks in my browser because I noticed some tracking code lurking in my Firefox bookmarks.  This is just personal tool for my own use.",
+      "evidence": [
+        {
+          "source_item_id": 48088859,
+          "source_field": "body",
+          "value": "A CLI to replace bookmarks in my browser because I noticed some tracking code lurking in my Firefox bookmarks.  This is just personal tool for my own use.",
+          "supports": [],
+          "author": "marking-time",
+          "shared_at": 1778452563,
+          "source_url": "https://news.ycombinator.com/item?id=48088859"
+        }
+      ],
+      "source_item_id": 48088859,
+      "source_url": "https://news.ycombinator.com/item?id=48088859",
+      "author": "marking-time",
+      "shared_at": 1778452563,
+      "links": [
+        "https://codeberg.org/Marking-Time/marksan"
+      ]
+    }
+  ]
+}

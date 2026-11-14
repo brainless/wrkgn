@@ -1,0 +1,35 @@
+{
+  "id": 6368,
+  "slug": "deep-link-now-087e84266e",
+  "name": "Deep link now",
+  "mentions": [
+    {
+      "name": "Deep link now",
+      "description": "A privacy-focused deferred deep linking service that bridges the airgap between web links and mobile apps, sending users to the right in-app destination. It performs no tracking or analytics, so links avoid being blocked by ad blockers that target ad-tracking providers like Branch and AppsFlyer.",
+      "problem": "Branch, AppsFlyer and similar deep linking providers are cross-platform ad tracking services under the hood, so links using them get blocked by ad blockers.",
+      "audience": "Developers and anyone whose app links get blocked by ad blockers.",
+      "builder_usernames": [
+        "jascination"
+      ],
+      "source_excerpt": "Deep link now ( https://Deeplinknow.com ) - deferred deep linking for developers / people who dont want their links blocked by adockers because Branch/Appsflyer et al are actually under-the-hood cross platform ad tracking services.",
+      "evidence": [
+        {
+          "source_item_id": 47303441,
+          "source_field": "body",
+          "value": "Deep link now ( https://Deeplinknow.com ) - deferred deep linking for developers / people who dont want their links blocked by adockers because Branch/Appsflyer et al are actually under-the-hood cross platform ad tracking services.",
+          "supports": [],
+          "author": "jascination",
+          "shared_at": 1773017335,
+          "source_url": "https://news.ycombinator.com/item?id=47303441"
+        }
+      ],
+      "source_item_id": 47303441,
+      "source_url": "https://news.ycombinator.com/item?id=47303441",
+      "author": "jascination",
+      "shared_at": 1773017335,
+      "links": [
+        "https://Deeplinknow.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 9938,
+  "slug": "student-absenteeism-prediction-with-llm-guidance-fc238becd0",
+  "name": "Student Absenteeism Prediction with LLM Guidance",
+  "mentions": [
+    {
+      "name": "Student Absenteeism Prediction with LLM Guidance",
+      "description": "This project predicts future student absenteeism based on historical indicators using basic ML modeling trained on synthetic data, then uses LLMs to generate helpful guidance for relevant parties, such as alerting parents to concerns and citing the leading indicators behind them.",
+      "problem": "Student absenteeism is hard to anticipate in advance from historical indicators, and parents may not be aware of emerging concerns.",
+      "audience": "Parents and other relevant parties notified about attendance concerns.",
+      "builder_usernames": [
+        "SeanAnderson"
+      ],
+      "source_excerpt": "Currently trying to predict student absenteeism in the future based on historical indicators with synthetic data using basic ML modeling and then using LLMs to generate helpful guidance for relevant parties. Basically letting parents know there's concern and citing leading indicators.",
+      "evidence": [
+        {
+          "source_item_id": 45419585,
+          "source_field": "body",
+          "value": "Currently trying to predict student absenteeism in the future based on historical indicators with synthetic data using basic ML modeling and then using LLMs to generate helpful guidance for relevant parties. Basically letting parents know there's concern and citing leading indicators.",
+          "supports": [],
+          "author": "SeanAnderson",
+          "shared_at": 1759184729,
+          "source_url": "https://news.ycombinator.com/item?id=45419585"
+        }
+      ],
+      "source_item_id": 45419585,
+      "source_url": "https://news.ycombinator.com/item?id=45419585",
+      "author": "SeanAnderson",
+      "shared_at": 1759184729,
+      "links": []
+    }
+  ]
+}

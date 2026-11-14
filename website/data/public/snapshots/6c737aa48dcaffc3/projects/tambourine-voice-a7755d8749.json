@@ -1,0 +1,35 @@
+{
+  "id": 8242,
+  "slug": "tambourine-voice-a7755d8749",
+  "name": "Tambourine Voice",
+  "mentions": [
+    {
+      "name": "Tambourine Voice",
+      "description": "This is a customizable AI voice dictation desktop app built on Pipecat's framework, letting users swap between many speech providers and models, both cloud and local. It gives users control over formatting rules and model choice as an open source alternative to Wispr Flow, and is built with Tauri for cross-platform support with tested builds on macOS and Windows.",
+      "problem": "Existing voice dictation tools like Wispr Flow don't give users control over formatting rules and model choice.",
+      "audience": null,
+      "builder_usernames": [
+        "kstonekuan"
+      ],
+      "source_excerpt": "I have been working on a customizable AI voice dictation tool using Pipecat's framework to swap between many providers and models, including cloud or local.",
+      "evidence": [
+        {
+          "source_item_id": 46271278,
+          "source_field": "body",
+          "value": "I have been working on a customizable AI voice dictation tool using Pipecat's framework to swap between many providers and models, including cloud or local.",
+          "supports": [],
+          "author": "kstonekuan",
+          "shared_at": 1765782333,
+          "source_url": "https://news.ycombinator.com/item?id=46271278"
+        }
+      ],
+      "source_item_id": 46271278,
+      "source_url": "https://news.ycombinator.com/item?id=46271278",
+      "author": "kstonekuan",
+      "shared_at": 1765782333,
+      "links": [
+        "https://github.com/kstonekuan/tambourine-voice"
+      ]
+    }
+  ]
+}

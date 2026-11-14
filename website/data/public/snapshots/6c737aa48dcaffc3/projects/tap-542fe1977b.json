@@ -1,0 +1,33 @@
+{
+  "id": 5443,
+  "slug": "tap-542fe1977b",
+  "name": "Tap",
+  "mentions": [
+    {
+      "name": "Tap",
+      "description": "This tool turns browser automation into deterministic programs: a tap is forged once using AI-assisted page inspection, then can be run forever at zero AI cost. It is being built as a Chrome extension with MCP integration so Claude Code and Cursor can use it directly. It also includes doctor/heal functionality — automatic diagnostics that cross-validate what a tap extracts against the page's structured data (JSON-LD, ARIA) to keep automations working as sites change.",
+      "problem": "Reliability of browser automation: sites change over time, causing taps/scripts to break.",
+      "audience": null,
+      "builder_usernames": [
+        "taprundev"
+      ],
+      "source_excerpt": "Building Tap — turns browser automation into deterministic programs. The idea: you forge a tap once (AI-assisted inspection of the page), then run it forever at zero AI cost. Working on the Chrome extension + MCP integration so Claude Code and Cursor can use it directly.",
+      "evidence": [
+        {
+          "source_item_id": 47767104,
+          "source_field": "body",
+          "value": "Building Tap — turns browser automation into deterministic programs. The idea: you forge a tap once (AI-assisted inspection of the page), then run it forever at zero AI cost. Working on the Chrome extension + MCP integration so Claude Code and Cursor can use it directly.",
+          "supports": [],
+          "author": "taprundev",
+          "shared_at": 1776181173,
+          "source_url": "https://news.ycombinator.com/item?id=47767104"
+        }
+      ],
+      "source_item_id": 47767104,
+      "source_url": "https://news.ycombinator.com/item?id=47767104",
+      "author": "taprundev",
+      "shared_at": 1776181173,
+      "links": []
+    }
+  ]
+}

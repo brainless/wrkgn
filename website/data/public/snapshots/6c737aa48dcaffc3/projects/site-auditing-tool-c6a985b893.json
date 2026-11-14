@@ -1,0 +1,33 @@
+{
+  "id": 7291,
+  "slug": "site-auditing-tool-c6a985b893",
+  "name": "Site Auditing Tool",
+  "mentions": [
+    {
+      "name": "Site Auditing Tool",
+      "description": "This tool audits websites using a pluggable metrics pipeline, with an experimental event sink model for metrics aggregation. It is implemented in Java, exposing an API via Javalin and fetching and parsing web pages with OkHttp and jsoup.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dardeaup"
+      ],
+      "source_excerpt": "I'm building a site auditing tool with a pluggable metrics pipeline. It's implemented in Java using Javalin for API, OkHttp for fetching, and jsoup for parsing. I'm experimenting with an event sink model for metrics aggregation.",
+      "evidence": [
+        {
+          "source_item_id": 46959074,
+          "source_field": "body",
+          "value": "I'm building a site auditing tool with a pluggable metrics pipeline. It's implemented in Java using Javalin for API, OkHttp for fetching, and jsoup for parsing. I'm experimenting with an event sink model for metrics aggregation.",
+          "supports": [],
+          "author": "dardeaup",
+          "shared_at": 1770727978,
+          "source_url": "https://news.ycombinator.com/item?id=46959074"
+        }
+      ],
+      "source_item_id": 46959074,
+      "source_url": "https://news.ycombinator.com/item?id=46959074",
+      "author": "dardeaup",
+      "shared_at": 1770727978,
+      "links": []
+    }
+  ]
+}

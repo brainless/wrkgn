@@ -1,0 +1,33 @@
+{
+  "id": 3798,
+  "slug": "artifacta-0ea23d1498",
+  "name": "Artifacta",
+  "mentions": [
+    {
+      "name": "Artifacta",
+      "description": "Durable artifact storage for the files AI agents produce across sessions. Agents store and retrieve artifacts via CLI, REST API, Python SDK, or an MCP server. Artifacts are grouped by session/agent metadata, deduplicated on identical content, and safe to retry using idempotency keys, making it easy to handle artifacts across different sessions.",
+      "problem": "Artifacts produced by agent workflows, especially cloud-hosted agents, become awkward to handle across different cloud sessions.",
+      "audience": "People who run multi-agent orchestration or deal with artifacts across different agents.",
+      "builder_usernames": [
+        "jnakano89"
+      ],
+      "source_excerpt": "Working on Artifacta (https://docs.artifacta.io/introduction)- durable artifact storage for the files AI agents produce across sessions.",
+      "evidence": [
+        {
+          "source_item_id": 48537902,
+          "source_field": "body",
+          "value": "Working on Artifacta (https://docs.artifacta.io/introduction)- durable artifact storage for the files AI agents produce across sessions.",
+          "supports": [],
+          "author": "jnakano89",
+          "shared_at": 1781509752,
+          "source_url": "https://news.ycombinator.com/item?id=48537902"
+        }
+      ],
+      "source_item_id": 48537902,
+      "source_url": "https://news.ycombinator.com/item?id=48537902",
+      "author": "jnakano89",
+      "shared_at": 1781509752,
+      "links": []
+    }
+  ]
+}

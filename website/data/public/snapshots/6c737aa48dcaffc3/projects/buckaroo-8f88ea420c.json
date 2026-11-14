@@ -1,0 +1,35 @@
+{
+  "id": 8435,
+  "slug": "buckaroo-8f88ea420c",
+  "name": "Buckaroo",
+  "mentions": [
+    {
+      "name": "Buckaroo",
+      "description": "A data table viewer for Jupyter. It integrates Lazy Polars and runs analytics in background processes to deliver a fast table viewing experience on dataframes that would normally exhaust the Jupyter kernel's memory. Analytics run column by column with results written to cache, and when individual columns fit in memory, summary stats for the entire dataframe can be computed. Includes a demo of scrolling through 19M rows with background summary stats.",
+      "problem": "Viewing large dataframes in Jupyter normally exhausts the memory of the Jupyter kernel.",
+      "audience": null,
+      "builder_usernames": [
+        "paddy_m"
+      ],
+      "source_excerpt": "Buckaroo - the data table viewer for jupyter.\n\nI recently integrated Lazy Polars and running analytics in background processes so I can reliably provide a fast table viewing experience on dataframes that would normally exhaust memory of the jupyter kernel.",
+      "evidence": [
+        {
+          "source_item_id": 46268123,
+          "source_field": "body",
+          "value": "Buckaroo - the data table viewer for jupyter.\n\nI recently integrated Lazy Polars and running analytics in background processes so I can reliably provide a fast table viewing experience on dataframes that would normally exhaust memory of the jupyter kernel.",
+          "supports": [],
+          "author": "paddy_m",
+          "shared_at": 1765753814,
+          "source_url": "https://news.ycombinator.com/item?id=46268123"
+        }
+      ],
+      "source_item_id": 46268123,
+      "source_url": "https://news.ycombinator.com/item?id=46268123",
+      "author": "paddy_m",
+      "shared_at": 1765753814,
+      "links": [
+        "https://www.youtube.com/shorts/x1UnW4Y_tOk"
+      ]
+    }
+  ]
+}

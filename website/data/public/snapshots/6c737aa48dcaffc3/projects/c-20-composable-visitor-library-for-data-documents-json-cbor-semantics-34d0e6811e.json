@@ -1,0 +1,33 @@
+{
+  "id": 6770,
+  "slug": "c-20-composable-visitor-library-for-data-documents-json-cbor-semantics-34d0e6811e",
+  "name": "C++20 composable visitor library for data documents (JSON/CBOR semantics)",
+  "mentions": [
+    {
+      "name": "C++20 composable visitor library for data documents (JSON/CBOR semantics)",
+      "description": "This C++20 library runs composable SAX-style visitors over data documents and data models with JSON/CBOR semantics, without building a DOM. Given a data model with bindings, it injects or extracts data via visitors; it ships serializers/deserializers for standard formats like JSON, BSON, CBOR, and CSV, supports custom formats for structured data, converts between formats by composing a serializer visitor on a deserializer, and composes filter visitors to extract subtrees or filter out keys. It is designed to fit on microcontrollers with very limited dynamic memory allocations by streaming data on-the-fly or working directly in a large preallocated buffer.",
+      "problem": "Existing libraries the author has worked with offer only a subset of these composable visitor, format-conversion, and low-memory features.",
+      "audience": null,
+      "builder_usernames": [
+        "boricj"
+      ],
+      "source_excerpt": "I've just started a new personal project, a C++20 library for running composable visitors over data documents and data models with JSON/CBOR semantics, DOM-less.",
+      "evidence": [
+        {
+          "source_item_id": 46939959,
+          "source_field": "body",
+          "value": "I've just started a new personal project, a C++20 library for running composable visitors over data documents and data models with JSON/CBOR semantics, DOM-less.",
+          "supports": [],
+          "author": "boricj",
+          "shared_at": 1770595766,
+          "source_url": "https://news.ycombinator.com/item?id=46939959"
+        }
+      ],
+      "source_item_id": 46939959,
+      "source_url": "https://news.ycombinator.com/item?id=46939959",
+      "author": "boricj",
+      "shared_at": 1770595766,
+      "links": []
+    }
+  ]
+}

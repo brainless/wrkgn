@@ -1,0 +1,35 @@
+{
+  "id": 10551,
+  "slug": "flatcal-e2ba1d5923",
+  "name": "Flatcal",
+  "mentions": [
+    {
+      "name": "Flatcal",
+      "description": "A web service that merges iCalendar streams from multiple sources into a single calendar. Its main goal is letting people share several calendars together as one link, so availability can be shared without sending each calendar separately.",
+      "problem": "People create multiple calendars to organize scheduling, but sharing availability requires sending each calendar as a separate link.",
+      "audience": null,
+      "builder_usernames": [
+        "wczerniak"
+      ],
+      "source_excerpt": "I'm finishing Flatcal https://flatcal.com a service that merges icalendar streams from various sources into one. It's weird that we can create multiple calendars to better organize scheduling and then to share availability we have to send each one as a separate link. It helps with more than that but sharing multiple calendars as one is the main goal atm.",
+      "evidence": [
+        {
+          "source_item_id": 44749634,
+          "source_field": "body",
+          "value": "I'm finishing Flatcal https://flatcal.com a service that merges icalendar streams from various sources into one. It's weird that we can create multiple calendars to better organize scheduling and then to share availability we have to send each one as a separate link. It helps with more than that but sharing multiple calendars as one is the main goal atm.",
+          "supports": [],
+          "author": "wczerniak",
+          "shared_at": 1753992754,
+          "source_url": "https://news.ycombinator.com/item?id=44749634"
+        }
+      ],
+      "source_item_id": 44749634,
+      "source_url": "https://news.ycombinator.com/item?id=44749634",
+      "author": "wczerniak",
+      "shared_at": 1753992754,
+      "links": [
+        "https://flatcal.com"
+      ]
+    }
+  ]
+}

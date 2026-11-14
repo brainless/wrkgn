@@ -1,0 +1,35 @@
+{
+  "id": 5090,
+  "slug": "tela-9137b91841",
+  "name": "Tela",
+  "mentions": [
+    {
+      "name": "Tela",
+      "description": "A self-hosted relay that tunnels TCP services through encrypted WireGuard connections, running entirely in userspace with no TUN adapter, root access, or admin privileges on either end. A hub (telahubd), a lightweight agent (telad), and a client (tela) — all single Go binaries with no external dependencies on Windows, Linux, and macOS — let users SSH and RDP into remote machines, host a git repo accessible from other machines, and optionally share files across all of them on a local mount. The hub never sees user traffic; it only relays opaque WireGuard ciphertext. A desktop GUI app, TelaVisor, wraps the client and enables remote management of hubs and agents.",
+      "problem": "The author wanted to RDP and SSH into a home workstation from a locked-down corporate laptop while traveling, without being able to install Tailscale and without paying for a cloud VM just to do SSH port forwarding.",
+      "audience": "Self-hosters tying together multiple machines (locally and on providers like Hetzner and Linode) and people needing remote access to their own machines from restricted devices.",
+      "builder_usernames": [
+        "paulmooreparks"
+      ],
+      "source_excerpt": "I'm building Tela (https://github.com/paulmooreparks/tela), a self-hosted relay that tunnels TCP services through encrypted WireGuard connections. The key difference from Tailscale and similar tools is that it requires no TUN adapter, no root access, and no admin privileges on either end.",
+      "evidence": [
+        {
+          "source_item_id": 47747939,
+          "source_field": "body",
+          "value": "I'm building Tela (https://github.com/paulmooreparks/tela), a self-hosted relay that tunnels TCP services through encrypted WireGuard connections. The key difference from Tailscale and similar tools is that it requires no TUN adapter, no root access, and no admin privileges on either end.",
+          "supports": [],
+          "author": "paulmooreparks",
+          "shared_at": 1776057958,
+          "source_url": "https://news.ycombinator.com/item?id=47747939"
+        }
+      ],
+      "source_item_id": 47747939,
+      "source_url": "https://news.ycombinator.com/item?id=47747939",
+      "author": "paulmooreparks",
+      "shared_at": 1776057958,
+      "links": [
+        "https://github.com/paulmooreparks/tela"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 3827,
+  "slug": "domain-intelligence-scanner-6012c49813",
+  "name": "Domain Intelligence Scanner",
+  "mentions": [
+    {
+      "name": "Domain Intelligence Scanner",
+      "description": "A browser-based toolkit for MSP and security work whose main project is a domain security assessment tool that combines DNS, WHOIS, MX, SPF, DKIM, DMARC, DNSSEC, TLS/SSL, security headers, redirects, and other public metadata into a single report with findings and recommendations. Smaller supporting tools are also being built around it for day-to-day IT work.",
+      "problem": "Getting a quick picture of a domain required opening many different sites to gather information from scattered sources.",
+      "audience": null,
+      "builder_usernames": [
+        "py93"
+      ],
+      "source_excerpt": "The main project right now is a domain security assessment tool that combines DNS, WHOIS, MX, SPF, DKIM, DMARC, DNSSEC, TLS/SSL, security headers, redirects, and other public metadata into a single report with findings and recommendations.",
+      "evidence": [
+        {
+          "source_item_id": 48536485,
+          "source_field": "body",
+          "value": "The main project right now is a domain security assessment tool that combines DNS, WHOIS, MX, SPF, DKIM, DMARC, DNSSEC, TLS/SSL, security headers, redirects, and other public metadata into a single report with findings and recommendations.",
+          "supports": [],
+          "author": "py93",
+          "shared_at": 1781496599,
+          "source_url": "https://news.ycombinator.com/item?id=48536485"
+        }
+      ],
+      "source_item_id": 48536485,
+      "source_url": "https://news.ycombinator.com/item?id=48536485",
+      "author": "py93",
+      "shared_at": 1781496599,
+      "links": [
+        "https://swissarmytechtools.com/domain-intelligence-scanner/"
+      ]
+    }
+  ]
+}

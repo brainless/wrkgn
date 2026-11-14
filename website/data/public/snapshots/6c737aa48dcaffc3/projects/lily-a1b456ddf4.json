@@ -1,0 +1,35 @@
+{
+  "id": 4436,
+  "slug": "lily-a1b456ddf4",
+  "name": "Lily",
+  "mentions": [
+    {
+      "name": "Lily",
+      "description": "A CLI tool installable into any coding agent via a hook that grants read-only access to production systems by wrapping ssh, kubectl, awscli, gcloud, and az, letting agents investigate production issues safely without risking changes.",
+      "problem": "Figuring out production issues takes a lot of time during initial investigations, and letting agents loose in production risks breakage unless someone babysits them or relies on prompts to keep them safe.",
+      "audience": "The author and their team during initial investigations of production issues",
+      "builder_usernames": [
+        "aspectrr"
+      ],
+      "source_excerpt": "[Lily](https://github.com/aspectrr/lily) A CLI tool that can be installed to any coding agent via hook that gives read-only access to production systems (wraps ssh, kubectl, awscli, gcloud, az) so agents can investigate issues in production.",
+      "evidence": [
+        {
+          "source_item_id": 48096737,
+          "source_field": "body",
+          "value": "[Lily](https://github.com/aspectrr/lily) A CLI tool that can be installed to any coding agent via hook that gives read-only access to production systems (wraps ssh, kubectl, awscli, gcloud, az) so agents can investigate issues in production.",
+          "supports": [],
+          "author": "aspectrr",
+          "shared_at": 1778515092,
+          "source_url": "https://news.ycombinator.com/item?id=48096737"
+        }
+      ],
+      "source_item_id": 48096737,
+      "source_url": "https://news.ycombinator.com/item?id=48096737",
+      "author": "aspectrr",
+      "shared_at": 1778515092,
+      "links": [
+        "https://github.com/aspectrr/lily"
+      ]
+    }
+  ]
+}

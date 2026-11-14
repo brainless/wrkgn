@@ -1,0 +1,35 @@
+{
+  "id": 10991,
+  "slug": "trilogy-studio-core-d9178344aa",
+  "name": "Trilogy Studio Core",
+  "mentions": [
+    {
+      "name": "Trilogy Studio Core",
+      "description": "An open-source alternative to Looker/Data Studio that supports BigQuery, Snowflake, and DuckDB. It features a custom SQL dialect with an embedded semantic layer that makes creating reusable and interactive visuals easier, and can be self-hosted or used via a public hosted version.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "efromvt"
+      ],
+      "source_excerpt": "A open-source Looker/Data Studio alternative, supporting Bigquery/Snowflake/DuckDB. Has a custom SQL dialect with embedded semantic layer to make reusable and interactive visuals easier. Can be self-hosted, but a public version is available.",
+      "evidence": [
+        {
+          "source_item_id": 43822584,
+          "source_field": "body",
+          "value": "A open-source Looker/Data Studio alternative, supporting Bigquery/Snowflake/DuckDB. Has a custom SQL dialect with embedded semantic layer to make reusable and interactive visuals easier. Can be self-hosted, but a public version is available.",
+          "supports": [],
+          "author": "efromvt",
+          "shared_at": 1745854243,
+          "source_url": "https://news.ycombinator.com/item?id=43822584"
+        }
+      ],
+      "source_item_id": 43822584,
+      "source_url": "https://news.ycombinator.com/item?id=43822584",
+      "author": "efromvt",
+      "shared_at": 1745854243,
+      "links": [
+        "https://trilogydata.dev/trilogy-studio-core/"
+      ]
+    }
+  ]
+}

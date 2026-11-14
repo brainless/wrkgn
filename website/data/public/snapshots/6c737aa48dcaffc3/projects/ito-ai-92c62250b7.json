@@ -1,0 +1,35 @@
+{
+  "id": 3776,
+  "slug": "ito-ai-92c62250b7",
+  "name": "Ito.ai",
+  "mentions": [
+    {
+      "name": "Ito.ai",
+      "description": "This platform provides agentic QA combined with auto-provisioning sandboxes, making it plug-and-play to run code reviews that actually execute the code rather than just inspecting it. Because the agents control the whole environment (running all services), it can collect runtime evidence about nearly everything.",
+      "problem": "Code reviews typically only look at code really hard instead of actually running it.",
+      "audience": null,
+      "builder_usernames": [
+        "dumbfoundded"
+      ],
+      "source_excerpt": "I'm working on Ito.ai : https://www.ito.ai/\n\nIt's Agentic QA + auto-provisioning sandboxes. Makes it plug and play to do code reviews that actually run your code instead of looking at it really hard.",
+      "evidence": [
+        {
+          "source_item_id": 48530655,
+          "source_field": "body",
+          "value": "I'm working on Ito.ai : https://www.ito.ai/\n\nIt's Agentic QA + auto-provisioning sandboxes. Makes it plug and play to do code reviews that actually run your code instead of looking at it really hard.",
+          "supports": [],
+          "author": "dumbfoundded",
+          "shared_at": 1781460904,
+          "source_url": "https://news.ycombinator.com/item?id=48530655"
+        }
+      ],
+      "source_item_id": 48530655,
+      "source_url": "https://news.ycombinator.com/item?id=48530655",
+      "author": "dumbfoundded",
+      "shared_at": 1781460904,
+      "links": [
+        "https://www.ito.ai/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 3788,
+  "slug": "ocgtk-809685eab3",
+  "name": "ocgtk",
+  "mentions": [
+    {
+      "name": "ocgtk",
+      "description": "OCaml bindings for GTK4, enabling OCaml programs to build GTK-based GUIs. Current development focus is adding support for signals.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "chris_armstrong"
+      ],
+      "source_excerpt": "I'm working on ocgtk, which are GTK4+ bindings for OCaml.\n\nMy current focus is adding support for signals, amongst other things:",
+      "evidence": [
+        {
+          "source_item_id": 48536885,
+          "source_field": "body",
+          "value": "I'm working on ocgtk, which are GTK4+ bindings for OCaml.\n\nMy current focus is adding support for signals, amongst other things:",
+          "supports": [],
+          "author": "chris_armstrong",
+          "shared_at": 1781500312,
+          "source_url": "https://news.ycombinator.com/item?id=48536885"
+        }
+      ],
+      "source_item_id": 48536885,
+      "source_url": "https://news.ycombinator.com/item?id=48536885",
+      "author": "chris_armstrong",
+      "shared_at": 1781500312,
+      "links": [
+        "https://www.chrisarmstrong.dev/posts/ocgtk-development-update-2026-06-10"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 4593,
+  "slug": "rotadeck-9a50236438",
+  "name": "Rotadeck",
+  "mentions": [
+    {
+      "name": "Rotadeck",
+      "description": "An EU-based incident management platform built as a PagerDuty replacement, focusing on the absolute basics: SSO is included even on the free tier, with no AI-driven workflows or overviews, though ML/AI-driven insights may be added in the future.",
+      "problem": "Existing incident management tooling lacks an EU-based PagerDuty alternative, and SSO is typically gated behind paid plans rather than available on free tiers.",
+      "audience": null,
+      "builder_usernames": [
+        "stroebs"
+      ],
+      "source_excerpt": "An EU replacement for PagerDuty, focusing on the absolute basics - SSO as the minimum even on free, no AI driven workflows, overviews etc. but may include ML/AI driven insights in future since that's the way the world seems to be going.",
+      "evidence": [
+        {
+          "source_item_id": 48086857,
+          "source_field": "body",
+          "value": "An EU replacement for PagerDuty, focusing on the absolute basics - SSO as the minimum even on free, no AI driven workflows, overviews etc. but may include ML/AI driven insights in future since that's the way the world seems to be going.",
+          "supports": [],
+          "author": "stroebs",
+          "shared_at": 1778440239,
+          "source_url": "https://news.ycombinator.com/item?id=48086857"
+        }
+      ],
+      "source_item_id": 48086857,
+      "source_url": "https://news.ycombinator.com/item?id=48086857",
+      "author": "stroebs",
+      "shared_at": 1778440239,
+      "links": [
+        "https://rotadeck.com/"
+      ]
+    }
+  ]
+}

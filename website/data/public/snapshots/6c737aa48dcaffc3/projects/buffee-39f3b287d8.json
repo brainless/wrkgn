@@ -1,0 +1,35 @@
+{
+  "id": 7550,
+  "slug": "buffee-39f3b287d8",
+  "name": "Buffee",
+  "mentions": [
+    {
+      "name": "Buffee",
+      "description": "This is a minimal, fast, Vim-inspired text editor for the web, designed as an embeddable and hackable building block for custom IDEs rather than a VSCode-like IDE. It ships at 2kb, smoothly handles 50+ million line files (1 billion lines with the high-capacity extension), and can function as a TUI or terminal on the web since its core efficiently renders plaintext in a fixed-width grid. There are no default key handlers; clients bring their own modes and controllers (e.g., modal editing, mouse selection, hot keys) via the extension system.",
+      "problem": "The author felt the web IDE space was uninspired, with apps built around VSCode/Monaco effectively being hosted VSCode instances with a pre-installed extension and config.json.",
+      "audience": "Developers building custom IDEs",
+      "builder_usernames": [
+        "marketmecha"
+      ],
+      "source_excerpt": "Vim-inspired, as in it's minimal and fast, text editor on the web. No modal-editing yet but, once the current natural input mode is decoupled, clients can bring their own modes/controllers via the extension system.\n\nIt's meant to be embeddable and hackable, serving as a building block for custom IDEs as opposed to being IDE-like VSCode.",
+      "evidence": [
+        {
+          "source_item_id": 46579672,
+          "source_field": "body",
+          "value": "Vim-inspired, as in it's minimal and fast, text editor on the web. No modal-editing yet but, once the current natural input mode is decoupled, clients can bring their own modes/controllers via the extension system.\n\nIt's meant to be embeddable and hackable, serving as a building block for custom IDEs as opposed to being IDE-like VSCode.",
+          "supports": [],
+          "author": "marketmecha",
+          "shared_at": 1768163294,
+          "source_url": "https://news.ycombinator.com/item?id=46579672"
+        }
+      ],
+      "source_item_id": 46579672,
+      "source_url": "https://news.ycombinator.com/item?id=46579672",
+      "author": "marketmecha",
+      "shared_at": 1768163294,
+      "links": [
+        "https://varrockbank.github.io/buffee/"
+      ]
+    }
+  ]
+}

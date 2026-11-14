@@ -1,0 +1,35 @@
+{
+  "id": 6184,
+  "slug": "isp-web-host-project-58c442ffc1",
+  "name": "ISP + web host project",
+  "mentions": [
+    {
+      "name": "ISP + web host project",
+      "description": "An independent internet service provider and web hosting project. Hardware including switches, a router, a server, and a bastion host has been configured and deployed in a colocation facility, running BGP with one upstream under ASN 55078, with a second upstream and peers on the way. Current work covers BGP and network hardening before putting live services on the server, plus bringing up a link from home to the colo so it can serve as the operator's own home internet provider.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "abound"
+      ],
+      "source_excerpt": "I already posted in this thread, but then I remembered a few months ago I had posted about my ISP + web host project. [1]\n\nSince then, I configured all the hardware (switches, router, server, bastion host, etc), put it in a real colo, and am doing BGP with one upstream (with a second upstream and some peers on the way). This means I'm officially part of the internet! E.g. https://bgp.tools/as/55078\n\nI'm just working on some BGP and network hardening stuff, then I'll start putting real live services on the server. And in parallel, I'm working on getting the link from my home to the colo active, so I can be my own home internet provider.",
+      "evidence": [
+        {
+          "source_item_id": 47309321,
+          "source_field": "body",
+          "value": "I already posted in this thread, but then I remembered a few months ago I had posted about my ISP + web host project. [1]\n\nSince then, I configured all the hardware (switches, router, server, bastion host, etc), put it in a real colo, and am doing BGP with one upstream (with a second upstream and some peers on the way). This means I'm officially part of the internet! E.g. https://bgp.tools/as/55078\n\nI'm just working on some BGP and network hardening stuff, then I'll start putting real live services on the server. And in parallel, I'm working on getting the link from my home to the colo active, so I can be my own home internet provider.",
+          "supports": [],
+          "author": "abound",
+          "shared_at": 1773065404,
+          "source_url": "https://news.ycombinator.com/item?id=47309321"
+        }
+      ],
+      "source_item_id": 47309321,
+      "source_url": "https://news.ycombinator.com/item?id=47309321",
+      "author": "abound",
+      "shared_at": 1773065404,
+      "links": [
+        "https://bgp.tools/as/55078"
+      ]
+    }
+  ]
+}

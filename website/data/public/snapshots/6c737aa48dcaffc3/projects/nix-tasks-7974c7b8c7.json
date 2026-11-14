@@ -1,0 +1,35 @@
+{
+  "id": 6171,
+  "slug": "nix-tasks-7974c7b8c7",
+  "name": "nix-tasks",
+  "mentions": [
+    {
+      "name": "nix-tasks",
+      "description": "A Nix-based task runner, similar to `just` or mise-en-place, where tasks are defined using a Nix flake and executed with a Go CLI. It lets teams share common configuration such as company-wide build scripts via Nix flakes, then import them and layer repo-specific tasks on top. Currently in alpha and used daily by the author.",
+      "problem": "Teams still rely on ancient Makefiles as their build system and build tool versioning, and other task runners use DSLs that limit functionality and don't allow sharing and extending templates across repos.",
+      "audience": "Development teams looking to replace Makefiles and share build scripts and task templates across repositories.",
+      "builder_usernames": [
+        "redbackthomson"
+      ],
+      "source_excerpt": "I'm working on a Nix-based task runner - like `just` or `mise-en-place`, but defined using a Nix flake and run using a Go CLI.\n\nhttps://github.com/RedbackThomson/nix-tasks",
+      "evidence": [
+        {
+          "source_item_id": 47309809,
+          "source_field": "body",
+          "value": "I'm working on a Nix-based task runner - like `just` or `mise-en-place`, but defined using a Nix flake and run using a Go CLI.\n\nhttps://github.com/RedbackThomson/nix-tasks",
+          "supports": [],
+          "author": "redbackthomson",
+          "shared_at": 1773067506,
+          "source_url": "https://news.ycombinator.com/item?id=47309809"
+        }
+      ],
+      "source_item_id": 47309809,
+      "source_url": "https://news.ycombinator.com/item?id=47309809",
+      "author": "redbackthomson",
+      "shared_at": 1773067506,
+      "links": [
+        "https://github.com/RedbackThomson/nix-tasks"
+      ]
+    }
+  ]
+}

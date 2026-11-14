@@ -1,0 +1,33 @@
+{
+  "id": 6057,
+  "slug": "production-sqlite-monitoring-and-safety-layer-ec7e74d242",
+  "name": "Production SQLite monitoring and safety layer",
+  "mentions": [
+    {
+      "name": "Production SQLite monitoring and safety layer",
+      "description": "A lightweight monitoring and safety layer for production SQLite. It is a Rust agent that runs next to the SQLite file and connects to a server where all activity is logged, providing observability for unexpected writes, schema changes, and background jobs touching tables without requiring changes to application code. Work in progress currently focuses on encryption and trust.",
+      "problem": "SQLite running in production has essentially zero observability; problems like unexpected writes, schema changes, or background jobs touching tables are only discovered after the fact.",
+      "audience": "Runs alongside the SQLite database file and reports activity to a connected logging server.",
+      "builder_usernames": [
+        "101008"
+      ],
+      "source_excerpt": "I am working on a lightweight monitoring and safety layer for production SQLite.",
+      "evidence": [
+        {
+          "source_item_id": 47304827,
+          "source_field": "body",
+          "value": "I am working on a lightweight monitoring and safety layer for production SQLite.",
+          "supports": [],
+          "author": "101008",
+          "shared_at": 1773029707,
+          "source_url": "https://news.ycombinator.com/item?id=47304827"
+        }
+      ],
+      "source_item_id": 47304827,
+      "source_url": "https://news.ycombinator.com/item?id=47304827",
+      "author": "101008",
+      "shared_at": 1773029707,
+      "links": []
+    }
+  ]
+}

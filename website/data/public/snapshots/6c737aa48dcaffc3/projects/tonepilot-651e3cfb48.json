@@ -1,0 +1,35 @@
+{
+  "id": 5323,
+  "slug": "tonepilot-651e3cfb48",
+  "name": "TonePilot",
+  "mentions": [
+    {
+      "name": "TonePilot",
+      "description": "A macOS-native desktop app that controls Positive Grid Spark guitar amps from a computer without needing a phone. It offers faster and more reliable amp control than the official mobile-only app, and supports multiple Spark amp models, with ~50 people using it so far.",
+      "problem": "The official Positive Grid Spark app is mobile-only and clunky, with an awkward workflow when sitting at a desk. Maintaining compatibility across different amp models is also hard, since protocol changes for one amp can break another, requiring extensive manual testing before every release.",
+      "audience": null,
+      "builder_usernames": [
+        "f3408fh"
+      ],
+      "source_excerpt": "I built a MacOS-native app [1] to control Positive Grid Spark amps [2], without needing a phone.",
+      "evidence": [
+        {
+          "source_item_id": 47743576,
+          "source_field": "body",
+          "value": "I built a MacOS-native app [1] to control Positive Grid Spark amps [2], without needing a phone.",
+          "supports": [],
+          "author": "f3408fh",
+          "shared_at": 1776022767,
+          "source_url": "https://news.ycombinator.com/item?id=47743576"
+        }
+      ],
+      "source_item_id": 47743576,
+      "source_url": "https://news.ycombinator.com/item?id=47743576",
+      "author": "f3408fh",
+      "shared_at": 1776022767,
+      "links": [
+        "https://tonepilot.app"
+      ]
+    }
+  ]
+}

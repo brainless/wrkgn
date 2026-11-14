@@ -1,0 +1,33 @@
+{
+  "id": 7189,
+  "slug": "sandboxed-home-network-build-62f395143c",
+  "name": "Sandboxed home network build",
+  "mentions": [
+    {
+      "name": "Sandboxed home network build",
+      "description": "A robust, sandboxed home network built with LLM guidance: TrueNAS Scale for file backup that also runs Frigate for POE camera management (similarly sandboxed), a Raspberry Pi running the UniFi controller, and another running Home Assistant.",
+      "problem": "The author's previously cobbled-together UniFi setup was primitive and brittle.",
+      "audience": null,
+      "builder_usernames": [
+        "RickS"
+      ],
+      "source_excerpt": "The network itself is also such a project. I previously hobbled together a working unifi setup, but it was primitive and brittle. With LLM guidance, I was able to build something much more robust. TrueNAS scale for file backup that also runs Frigate for POE cam mgmt (similarly sandboxed), raspi running the unifi controller, another for homeassistant, etc.",
+      "evidence": [
+        {
+          "source_item_id": 46939700,
+          "source_field": "body",
+          "value": "The network itself is also such a project. I previously hobbled together a working unifi setup, but it was primitive and brittle. With LLM guidance, I was able to build something much more robust. TrueNAS scale for file backup that also runs Frigate for POE cam mgmt (similarly sandboxed), raspi running the unifi controller, another for homeassistant, etc.",
+          "supports": [],
+          "author": "RickS",
+          "shared_at": 1770593480,
+          "source_url": "https://news.ycombinator.com/item?id=46939700"
+        }
+      ],
+      "source_item_id": 46939700,
+      "source_url": "https://news.ycombinator.com/item?id=46939700",
+      "author": "RickS",
+      "shared_at": 1770593480,
+      "links": []
+    }
+  ]
+}

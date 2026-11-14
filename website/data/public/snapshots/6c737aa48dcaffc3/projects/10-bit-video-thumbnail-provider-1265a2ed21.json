@@ -1,0 +1,35 @@
+{
+  "id": 9039,
+  "slug": "10-bit-video-thumbnail-provider-1265a2ed21",
+  "name": "10-Bit Video Thumbnail Provider",
+  "mentions": [
+    {
+      "name": "10-Bit Video Thumbnail Provider",
+      "description": "A Windows shell extension that renders File Explorer thumbnails for 10-bit videos, which Windows does not support natively. The installer and executable are EV code signed, with plans for Microsoft Store distribution and additional similar utilities in development.",
+      "problem": "Windows does not natively render thumbnails for 10-bit videos, making it tedious to open video clips one by one to find specific footage when working on projects like a short film.",
+      "audience": "Filmmakers and video creators working with 10-bit camera footage",
+      "builder_usernames": [
+        "prhn"
+      ],
+      "source_excerpt": "I just launched a 10-Bit Video Thumbnail Provider for Windows.\n\nWindows does not natively support rendering thumbnails for 10-bit videos, which are commonly produced by cameras like the Sony A7IV.",
+      "evidence": [
+        {
+          "source_item_id": 45869803,
+          "source_field": "body",
+          "value": "I just launched a 10-Bit Video Thumbnail Provider for Windows.\n\nWindows does not natively support rendering thumbnails for 10-bit videos, which are commonly produced by cameras like the Sony A7IV.",
+          "supports": [],
+          "author": "prhn",
+          "shared_at": 1762727098,
+          "source_url": "https://news.ycombinator.com/item?id=45869803"
+        }
+      ],
+      "source_item_id": 45869803,
+      "source_url": "https://news.ycombinator.com/item?id=45869803",
+      "author": "prhn",
+      "shared_at": 1762727098,
+      "links": [
+        "https://ruptureware.com/thumbprovider"
+      ]
+    }
+  ]
+}

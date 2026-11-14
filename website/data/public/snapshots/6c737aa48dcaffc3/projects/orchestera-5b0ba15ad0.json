@@ -1,0 +1,65 @@
+{
+  "id": 7026,
+  "slug": "orchestera-5b0ba15ad0",
+  "name": "Orchestera",
+  "mentions": [
+    {
+      "name": "Orchestera",
+      "description": "Managed Apache Spark platform that runs fully managed Spark clusters in the customer's own AWS account with no additional compute markups, unlike EMR and Databricks. Implemented features include automated scale in/out of nodes for Spark executors and drivers via Karpenter, a Jupyter notebook integration that works as a Spark driver for quick iteration and prototyping, and simple JSON-based IAM permissions management via AWS Parameter Store. Work in progress covers JupyterHub-based Spark notebook provisioning, a Spark History Server, and Spark History Server MCP support with a chat interface for Spark pipeline debugging and diagnostics.",
+      "problem": "Managed Spark services like EMR and Databricks charge additional compute markups, unlike running fully managed clusters in one's own AWS account.",
+      "audience": null,
+      "builder_usernames": [
+        "iamspoilt"
+      ],
+      "source_excerpt": "Orchestera (https://orchestera.com/) - Fully managed Apache Spark clusters in your own AWS account with no additonal compute markups, unlike EMR and Databricks.",
+      "evidence": [
+        {
+          "source_item_id": 46945751,
+          "source_field": "body",
+          "value": "Orchestera (https://orchestera.com/) - Fully managed Apache Spark clusters in your own AWS account with no additonal compute markups, unlike EMR and Databricks.",
+          "supports": [],
+          "author": "iamspoilt",
+          "shared_at": 1770648267,
+          "source_url": "https://news.ycombinator.com/item?id=46945751"
+        }
+      ],
+      "source_item_id": 46945751,
+      "source_url": "https://news.ycombinator.com/item?id=46945751",
+      "author": "iamspoilt",
+      "shared_at": 1770648267,
+      "links": [
+        "https://docs.orchestera.com/",
+        "https://orchestera.com/"
+      ]
+    },
+    {
+      "name": "Orchestera",
+      "description": "This platform lets data engineers and data scientists spin up Apache Spark clusters on Amazon EKS in their own AWS account without needing to understand infrastructure details, how Spark runs on Kubernetes, or auto-scaling. It charges no markup on CPU/memory for EC2 instances, unlike AWS EMR (25% markup) and Databricks (30% to 100% markup).",
+      "problem": "Running Spark on Kubernetes requires deep infrastructure knowledge, and managed offerings like AWS EMR and Databricks add significant markup costs on top of EC2 instance pricing.",
+      "audience": "Data Engineers and Data Scientists who need Spark clusters without managing the underlying infrastructure",
+      "builder_usernames": [
+        "iamspoilt"
+      ],
+      "source_excerpt": "Spent my 2025 building https://orchestera.com as a side project. The premise is simple - to give Data Engineers and Data Scientists the opportunity to spin up Apache Spark clusters on Amazon EKS without them needing to know all the infrastructure details, how Spark works on Kubernetes, auto-scaling etc.",
+      "evidence": [
+        {
+          "source_item_id": 46642369,
+          "source_field": "body",
+          "value": "Spent my 2025 building https://orchestera.com as a side project. The premise is simple - to give Data Engineers and Data Scientists the opportunity to spin up Apache Spark clusters on Amazon EKS without them needing to know all the infrastructure details, how Spark works on Kubernetes, auto-scaling etc.",
+          "supports": [],
+          "author": "iamspoilt",
+          "shared_at": 1768531131,
+          "source_url": "https://news.ycombinator.com/item?id=46642369"
+        }
+      ],
+      "source_item_id": 46642369,
+      "source_url": "https://news.ycombinator.com/item?id=46642369",
+      "author": "iamspoilt",
+      "shared_at": 1768531131,
+      "links": [
+        "https://docs.orchestera.com/",
+        "https://orchestera.com"
+      ]
+    }
+  ]
+}

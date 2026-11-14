@@ -1,0 +1,33 @@
+{
+  "id": 10841,
+  "slug": "schema-driven-test-data-generator-df49fe4314",
+  "name": "Schema-driven test data generator",
+  "mentions": [
+    {
+      "name": "Schema-driven test data generator",
+      "description": "This tooling takes a JSON Schema and generates data compliant with it, used for cases such as creating testing accounts with clean data on non-production environments.",
+      "problem": "Tooling for generating schema-compliant data is underdeveloped.",
+      "audience": null,
+      "builder_usernames": [
+        "nathan_douglas"
+      ],
+      "source_excerpt": "I've been doing some JSON schema work on our products recently, especially trying to take a schema and generate info compliant with the schema for e.g. testing accounts with clean data on non-production environments, etc. I feel like the area's underdeveloped.",
+      "evidence": [
+        {
+          "source_item_id": 43823430,
+          "source_field": "body",
+          "value": "I've been doing some JSON schema work on our products recently, especially trying to take a schema and generate info compliant with the schema for e.g. testing accounts with clean data on non-production environments, etc. I feel like the area's underdeveloped.",
+          "supports": [],
+          "author": "nathan_douglas",
+          "shared_at": 1745858865,
+          "source_url": "https://news.ycombinator.com/item?id=43823430"
+        }
+      ],
+      "source_item_id": 43823430,
+      "source_url": "https://news.ycombinator.com/item?id=43823430",
+      "author": "nathan_douglas",
+      "shared_at": 1745858865,
+      "links": []
+    }
+  ]
+}

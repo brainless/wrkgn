@@ -1,0 +1,33 @@
+{
+  "id": 3784,
+  "slug": "local-model-tokenmaxing-llm-pipeline-e5106835f6",
+  "name": "Local-model tokenmaxing LLM pipeline",
+  "mentions": [
+    {
+      "name": "Local-model tokenmaxing LLM pipeline",
+      "description": "An LLM pipeline that runs model outputs through a locally hosted model for 'tokenmaxing' before forwarding them to a paid model accessed with credits rather than OAuth.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "kordlessagain"
+      ],
+      "source_excerpt": "I'm currently focusing on running outputs through a local model to to enable tokenmaxing before sending onto a model I am paying with credits, not OAuth.",
+      "evidence": [
+        {
+          "source_item_id": 48532105,
+          "source_field": "body",
+          "value": "I'm currently focusing on running outputs through a local model to to enable tokenmaxing before sending onto a model I am paying with credits, not OAuth.",
+          "supports": [],
+          "author": "kordlessagain",
+          "shared_at": 1781467880,
+          "source_url": "https://news.ycombinator.com/item?id=48532105"
+        }
+      ],
+      "source_item_id": 48532105,
+      "source_url": "https://news.ycombinator.com/item?id=48532105",
+      "author": "kordlessagain",
+      "shared_at": 1781467880,
+      "links": []
+    }
+  ]
+}

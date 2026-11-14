@@ -1,0 +1,35 @@
+{
+  "id": 6789,
+  "slug": "taskplan-32833c739f",
+  "name": "Taskplan",
+  "mentions": [
+    {
+      "name": "Taskplan",
+      "description": "This tool lets users build structured plans, assign tasks to people or teams, and track progress on a real-time dashboard. It targets large-scale deployments and migrations where plans are scattered across internal docs, spreadsheets, and Slack threads, coordinating work across multiple teams.",
+      "problem": "Plans for large-scale deployments and migrations are scattered across internal docs, spreadsheets, and Slack threads, making coordination of work across multiple teams messy.",
+      "audience": "Teams and individuals handling large-scale deployments, migrations, and other ops-heavy projects where plans are scattered across docs, spreadsheets, and chat threads.",
+      "builder_usernames": [
+        "marcusdev"
+      ],
+      "source_excerpt": "So I'm building Taskplan (https://taskplan.run) - it's like Ansible, but for people. Build a plan, assign tasks to people or teams, and get a real-time dashboard to track progress as the work happens.",
+      "evidence": [
+        {
+          "source_item_id": 46939596,
+          "source_field": "body",
+          "value": "So I'm building Taskplan (https://taskplan.run) - it's like Ansible, but for people. Build a plan, assign tasks to people or teams, and get a real-time dashboard to track progress as the work happens.",
+          "supports": [],
+          "author": "marcusdev",
+          "shared_at": 1770592446,
+          "source_url": "https://news.ycombinator.com/item?id=46939596"
+        }
+      ],
+      "source_item_id": 46939596,
+      "source_url": "https://news.ycombinator.com/item?id=46939596",
+      "author": "marcusdev",
+      "shared_at": 1770592446,
+      "links": [
+        "https://taskplan.run"
+      ]
+    }
+  ]
+}

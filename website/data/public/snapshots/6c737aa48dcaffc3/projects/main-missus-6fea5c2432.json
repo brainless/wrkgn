@@ -1,0 +1,35 @@
+{
+  "id": 5690,
+  "slug": "main-missus-6fea5c2432",
+  "name": "Main_MiSSus",
+  "mentions": [
+    {
+      "name": "Main_MiSSus",
+      "description": "A maintained fork of the main MiSTer executable, created because of disagreements with how the upstream project is run and to reduce the risk of saves being corrupted. Ongoing work includes automating the monkey-patching of upstream changes so the fork's modifications can be reapplied, with experiments using Claude inside GitHub Actions to handle the patching.",
+      "problem": "Disagreements with how the upstream MiSTer project is run and a desire to reduce the risk of saves being corrupted.",
+      "audience": null,
+      "builder_usernames": [
+        "tombert"
+      ],
+      "source_excerpt": "I maintain a fork of the main MiSTer executable [1] because of some disagreements with how Sorg runs the project and because I want to reduce the risk of saves being corrupted.",
+      "evidence": [
+        {
+          "source_item_id": 47754520,
+          "source_field": "body",
+          "value": "I maintain a fork of the main MiSTer executable [1] because of some disagreements with how Sorg runs the project and because I want to reduce the risk of saves being corrupted.",
+          "supports": [],
+          "author": "tombert",
+          "shared_at": 1776097900,
+          "source_url": "https://news.ycombinator.com/item?id=47754520"
+        }
+      ],
+      "source_item_id": 47754520,
+      "source_url": "https://news.ycombinator.com/item?id=47754520",
+      "author": "tombert",
+      "shared_at": 1776097900,
+      "links": [
+        "https://github.com/Tombert/Main_MiSSus"
+      ]
+    }
+  ]
+}

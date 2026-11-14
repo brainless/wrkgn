@@ -1,0 +1,63 @@
+{
+  "id": 3589,
+  "slug": "alint-1fe5a788ec",
+  "name": "alint",
+  "mentions": [
+    {
+      "name": "alint",
+      "description": "This is a language-agnostic repository structure linter that enforces directory structure, existence of required files (e.g. LICENCE), file naming patterns, JSONPath plus schema checks over JSON/YAML/TOML, and absence of potentially malicious unicode. It ships rule bundles for various languages and presets that can be combined and extended, and aims to be very fast and usable on huge monorepos. It serves as a reusable, fast validation tool for AI-assisted coding instead of rolling validation scripts per project.",
+      "problem": "The author found themselves repeatedly adding various forms of validation scripts when coding using AI, and wanted a reusable, fast tool instead of rolling validation scripts for each project.",
+      "audience": null,
+      "builder_usernames": [
+        "aleqs"
+      ],
+      "source_excerpt": "I'm working on a general repo shape/structure linter (language agnostic)[0] - the idea is to enforce things like directory structure, existence of various files (LICENCE, etc.), file naming patterns, jsonpath + schema over json/yaml/toml, absence of potentially malicious unicode. It comes with rule bundles for various languages/presets which can be combined and extended. A goal is for it to be very fast, and useable on huge monorepos.",
+      "evidence": [
+        {
+          "source_item_id": 48531310,
+          "source_field": "body",
+          "value": "I'm working on a general repo shape/structure linter (language agnostic)[0] - the idea is to enforce things like directory structure, existence of various files (LICENCE, etc.), file naming patterns, jsonpath + schema over json/yaml/toml, absence of potentially malicious unicode. It comes with rule bundles for various languages/presets which can be combined and extended. A goal is for it to be very fast, and useable on huge monorepos.",
+          "supports": [],
+          "author": "aleqs",
+          "shared_at": 1781463945,
+          "source_url": "https://news.ycombinator.com/item?id=48531310"
+        }
+      ],
+      "source_item_id": 48531310,
+      "source_url": "https://news.ycombinator.com/item?id=48531310",
+      "author": "aleqs",
+      "shared_at": 1781463945,
+      "links": [
+        "https://github.com/asamarts/alint"
+      ]
+    },
+    {
+      "name": "alint",
+      "description": "A language-agnostic linter for repository shape and structure. It enforces directory structure, existence of required files (e.g. LICENCE), file naming patterns, jsonpath + schema checks over json/yaml/toml, and absence of potentially malicious unicode. It ships with combinable, extendable rule bundles and presets for various languages, and is designed to be very fast and usable on huge monorepos.",
+      "problem": "Coding with AI often required adding ad-hoc validation scripts to each project; this tool provides a reusable, fast alternative to rolling validation scripts per project.",
+      "audience": null,
+      "builder_usernames": [
+        "aleqs"
+      ],
+      "source_excerpt": "I'm working on a general repo shape/structure linter (language agnostic)[0] - the idea is to enforce things like directory structure, existence of various files (LICENCE, etc.), file naming patterns, jsonpath + schema over json/yaml/toml, absence of potentially malicious unicode. It comes with rule bundles for various languages/presets which can be combined and extended. A goal is for it to be very fast, and useable on huge monorepos.",
+      "evidence": [
+        {
+          "source_item_id": 48088768,
+          "source_field": "body",
+          "value": "I'm working on a general repo shape/structure linter (language agnostic)[0] - the idea is to enforce things like directory structure, existence of various files (LICENCE, etc.), file naming patterns, jsonpath + schema over json/yaml/toml, absence of potentially malicious unicode. It comes with rule bundles for various languages/presets which can be combined and extended. A goal is for it to be very fast, and useable on huge monorepos.",
+          "supports": [],
+          "author": "aleqs",
+          "shared_at": 1778451878,
+          "source_url": "https://news.ycombinator.com/item?id=48088768"
+        }
+      ],
+      "source_item_id": 48088768,
+      "source_url": "https://news.ycombinator.com/item?id=48088768",
+      "author": "aleqs",
+      "shared_at": 1778451878,
+      "links": [
+        "https://github.com/asamarts/alint"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 3750,
+  "slug": "shuck-912460bc49",
+  "name": "shuck",
+  "mentions": [
+    {
+      "name": "shuck",
+      "description": "An interactive Neovim grepper plugin with a workflow built around refining grep commands.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "anonymid"
+      ],
+      "source_excerpt": "shuck (interactive grepper that has a workflow around refining grep commands)",
+      "evidence": [
+        {
+          "source_item_id": 48537277,
+          "source_field": "body",
+          "value": "shuck (interactive grepper that has a workflow around refining grep commands)",
+          "supports": [],
+          "author": "anonymid",
+          "shared_at": 1781504287,
+          "source_url": "https://news.ycombinator.com/item?id=48537277"
+        }
+      ],
+      "source_item_id": 48537277,
+      "source_url": "https://news.ycombinator.com/item?id=48537277",
+      "author": "anonymid",
+      "shared_at": 1781504287,
+      "links": [
+        "https://github.com/dlants/dotfiles/tree/main/nvim/lua"
+      ]
+    }
+  ]
+}

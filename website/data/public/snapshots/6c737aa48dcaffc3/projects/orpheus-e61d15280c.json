@@ -1,0 +1,63 @@
+{
+  "id": 4399,
+  "slug": "orpheus-e61d15280c",
+  "name": "Orpheus",
+  "mentions": [
+    {
+      "name": "Orpheus",
+      "description": "Orpheus is a browser-based tabletop RPG simulator that generates campaigns fully on the fly, blending a Telltale-style narrative game, a visual novel, and a TTRPG. An AI GM keeps the game coherent while generating graphics and TTS audio as needed, supporting sci-fi, fantasy, or modern settings. It includes a 3D tabletop for combat, full character sheets, dice rolling, and lore tracking, and is playable with either a keyboard or gamepad. The author is running a playtest waitlist and Discord, with asset generation cost as the current roadblock.",
+      "problem": "Text-based generated TTRPGs were hard to connect with stylistically; the author needed multimodal stimulus of visuals and audio, so built a generated tabletop simulator instead. Current roadblock: asset generation is relatively expensive.",
+      "audience": "Tabletop RPG players who want an on-the-fly generated campaign with visuals and audio, playable in the browser with keyboard or gamepad from the couch.",
+      "builder_usernames": [
+        "frostbyrne"
+      ],
+      "source_excerpt": "Orpheus (https://orpheus.gg) is a fully on-the-fly generated tabletop simulator, with graphics, audio (TTS), and the freedom you can usually only find at a real TTRPG table. That means you can play a sci-fi, fantasy, or even a modern setting in your campaign.",
+      "evidence": [
+        {
+          "source_item_id": 48086017,
+          "source_field": "body",
+          "value": "Orpheus (https://orpheus.gg) is a fully on-the-fly generated tabletop simulator, with graphics, audio (TTS), and the freedom you can usually only find at a real TTRPG table. That means you can play a sci-fi, fantasy, or even a modern setting in your campaign.",
+          "supports": [],
+          "author": "frostbyrne",
+          "shared_at": 1778434612,
+          "source_url": "https://news.ycombinator.com/item?id=48086017"
+        }
+      ],
+      "source_item_id": 48086017,
+      "source_url": "https://news.ycombinator.com/item?id=48086017",
+      "author": "frostbyrne",
+      "shared_at": 1778434612,
+      "links": [
+        "https://orpheus.gg"
+      ]
+    },
+    {
+      "name": "Orpheus",
+      "description": "Orpheus is a fully on-the-fly generated tabletop RPG simulator that blends a Telltale-style narrative game, a visual novel, and a TTRPG. An AI GM keeps the campaign coherent while generating graphics and TTS audio as needed, letting players run sci-fi, fantasy, or modern settings. It includes a 3D tabletop for combat, full character sheets, dice rolling, and lore tracking, and supports keyboard or gamepad input for couch play.",
+      "problem": "The author found text-based GTRPGs hard to connect with stylistically, needing the multimodal stimulus of visuals and audio; the biggest challenge was getting the harness right so the AI GM stays coherent and organized as players change scenes.",
+      "audience": null,
+      "builder_usernames": [
+        "frostbyrne"
+      ],
+      "source_excerpt": "Orpheus (https://orpheus.gg) is a fully on-the-fly generated tabletop simulator, with graphics, audio (TTS), and the freedom you can usually only find at a real TTRPG table.",
+      "evidence": [
+        {
+          "source_item_id": 47750760,
+          "source_field": "body",
+          "value": "Orpheus (https://orpheus.gg) is a fully on-the-fly generated tabletop simulator, with graphics, audio (TTS), and the freedom you can usually only find at a real TTRPG table.",
+          "supports": [],
+          "author": "frostbyrne",
+          "shared_at": 1776081549,
+          "source_url": "https://news.ycombinator.com/item?id=47750760"
+        }
+      ],
+      "source_item_id": 47750760,
+      "source_url": "https://news.ycombinator.com/item?id=47750760",
+      "author": "frostbyrne",
+      "shared_at": 1776081549,
+      "links": [
+        "https://orpheus.gg"
+      ]
+    }
+  ]
+}

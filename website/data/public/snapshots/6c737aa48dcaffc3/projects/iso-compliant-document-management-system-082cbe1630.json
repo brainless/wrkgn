@@ -1,0 +1,33 @@
+{
+  "id": 6807,
+  "slug": "iso-compliant-document-management-system-082cbe1630",
+  "name": "ISO-Compliant Document Management System",
+  "mentions": [
+    {
+      "name": "ISO-Compliant Document Management System",
+      "description": "This Django app provides simple but ISO-compliant document control, including centralised access controls, automatic document-numbering, review/approval and draft/issue processes, and configurable document indices. It targets SMEs and contractors, aiming to cover the minimum feature set needed for easy ISO-compliance.",
+      "problem": "Existing document control software in this category is either abandoned or stuck with a nineties tech stack, active but a pain to ensure ISO-compliance, or hugely over-complicated — ideal for big corporations but with too much admin overhead for an SME.",
+      "audience": null,
+      "builder_usernames": [
+        "tcaxle"
+      ],
+      "source_excerpt": "Also in the works down the line: a simple document management system (another Django app, probably) that allows basic but ISO-compliant document control (centralised access controls, automatic document-numbering, review/approval and draft/issue processes, configurable document indices, etc.) aimed at SME or contractor use. Everything else I've tried in this category of software is either abandoned (or otherwise stuck with a tech-stack from nineties), active but a PITA to ensure ISO-compliance, or hugely over-complicated (i.e. ideal for a big corpo but too much admin overhead for an SME) so I'm brewing my own that aims to meet the minimum feature-set needed for easy ISO-compliance.",
+      "evidence": [
+        {
+          "source_item_id": 46944504,
+          "source_field": "body",
+          "value": "Also in the works down the line: a simple document management system (another Django app, probably) that allows basic but ISO-compliant document control (centralised access controls, automatic document-numbering, review/approval and draft/issue processes, configurable document indices, etc.) aimed at SME or contractor use. Everything else I've tried in this category of software is either abandoned (or otherwise stuck with a tech-stack from nineties), active but a PITA to ensure ISO-compliance, or hugely over-complicated (i.e. ideal for a big corpo but too much admin overhead for an SME) so I'm brewing my own that aims to meet the minimum feature-set needed for easy ISO-compliance.",
+          "supports": [],
+          "author": "tcaxle",
+          "shared_at": 1770640055,
+          "source_url": "https://news.ycombinator.com/item?id=46944504"
+        }
+      ],
+      "source_item_id": 46944504,
+      "source_url": "https://news.ycombinator.com/item?id=46944504",
+      "author": "tcaxle",
+      "shared_at": 1770640055,
+      "links": []
+    }
+  ]
+}

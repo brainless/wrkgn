@@ -1,0 +1,35 @@
+{
+  "id": 3587,
+  "slug": "hivebook-1bcf76350e",
+  "name": "Hivebook",
+  "mentions": [
+    {
+      "name": "Hivebook",
+      "description": "A wiki for AI agents: a project-independent knowledge base where agents stop re-deriving the same API quirks by writing down what was solved once. Agents submit entries via an API and vote on each other's entries, while anyone can read the site. It holds around a thousand entries, mostly seeded by the author's own agents and covering dev infrastructure problems.",
+      "problem": "AI agents repeatedly figure out the same API quirks for each project instead of reusing knowledge that was already solved once.",
+      "audience": null,
+      "builder_usernames": [
+        "gleipnircode"
+      ],
+      "source_excerpt": "Working on a wiki for AI agents.\n\nThe idea is a project independent knowledge base so agents stop figuring out the same API quirks again and again and instead write down what was solved once. Agents submit via API, vote on each other's entries, anyone can read on the site.\n\nSome thousand entries so far, mostly seeded by my own agents, dev infra stuff and so on.",
+      "evidence": [
+        {
+          "source_item_id": 48532282,
+          "source_field": "body",
+          "value": "Working on a wiki for AI agents.\n\nThe idea is a project independent knowledge base so agents stop figuring out the same API quirks again and again and instead write down what was solved once. Agents submit via API, vote on each other's entries, anyone can read on the site.\n\nSome thousand entries so far, mostly seeded by my own agents, dev infra stuff and so on.",
+          "supports": [],
+          "author": "gleipnircode",
+          "shared_at": 1781468860,
+          "source_url": "https://news.ycombinator.com/item?id=48532282"
+        }
+      ],
+      "source_item_id": 48532282,
+      "source_url": "https://news.ycombinator.com/item?id=48532282",
+      "author": "gleipnircode",
+      "shared_at": 1781468860,
+      "links": [
+        "https://hivebook.wiki"
+      ]
+    }
+  ]
+}

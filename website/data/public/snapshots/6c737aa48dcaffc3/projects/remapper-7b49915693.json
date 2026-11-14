@@ -1,0 +1,35 @@
+{
+  "id": 9017,
+  "slug": "remapper-7b49915693",
+  "name": "ReMapper",
+  "mentions": [
+    {
+      "name": "ReMapper",
+      "description": "This open source hardware and software dongle translates HID input to HID output using Lua scripts. In programming mode it functions as a flash drive for loading Lua scripts; in run mode it executes a selected script, enabling use cases such as keyboard-to-joystick mapping, key logging, macros, and mouse wiggling. Currently supports 1 input and 1 output, with plans for multiple inputs in a future iteration.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "sulicat"
+      ],
+      "source_excerpt": "I'm making an HID translation dongle.\n\nIn programming mode, its a flash drive you can put LUA scripts on.\n\nIn run mode, you can select a lua script to run. Lua scripts can take HID input and produce HID output.\n\nAll open source, hardware and software: https://github.com/cedarhacks/ReMapper",
+      "evidence": [
+        {
+          "source_item_id": 45876497,
+          "source_field": "body",
+          "value": "I'm making an HID translation dongle.\n\nIn programming mode, its a flash drive you can put LUA scripts on.\n\nIn run mode, you can select a lua script to run. Lua scripts can take HID input and produce HID output.\n\nAll open source, hardware and software: https://github.com/cedarhacks/ReMapper",
+          "supports": [],
+          "author": "sulicat",
+          "shared_at": 1762785846,
+          "source_url": "https://news.ycombinator.com/item?id=45876497"
+        }
+      ],
+      "source_item_id": 45876497,
+      "source_url": "https://news.ycombinator.com/item?id=45876497",
+      "author": "sulicat",
+      "shared_at": 1762785846,
+      "links": [
+        "https://github.com/cedarhacks/ReMapper"
+      ]
+    }
+  ]
+}

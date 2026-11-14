@@ -1,0 +1,119 @@
+{
+  "id": 2111,
+  "slug": "gatana-07bc673ca9",
+  "name": "Gatana",
+  "mentions": [
+    {
+      "name": "Gatana",
+      "description": "An extensible and flexible agentic connectivity platform supporting MCP, OpenAPI/Swagger, and FaaS, with built-in CodeMode, compression, SIEM integration, access token forwarding, SCIM 2.0, on-demand agentic sandboxes (e.g. LangChain's \"Deep Agents\"), and an OpenAPI-to-MCP mapper.",
+      "problem": null,
+      "audience": "Organizations with more complex agentic setups",
+      "builder_usernames": [
+        "thecopy"
+      ],
+      "source_excerpt": "Im working on an extensible and flexible agentic connectivity platform (MCP, OpenAPI/Swagger, FaaS) with niceties like built-in CodeMode, compression, SIEM integration, access token forwarding, SCIM 2.0, on-demand agentic sandboxes (e.g. LangChains \"Deep Agents\").",
+      "evidence": [
+        {
+          "source_item_id": 49241199,
+          "source_field": "body",
+          "value": "Im working on an extensible and flexible agentic connectivity platform (MCP, OpenAPI/Swagger, FaaS) with niceties like built-in CodeMode, compression, SIEM integration, access token forwarding, SCIM 2.0, on-demand agentic sandboxes (e.g. LangChains \"Deep Agents\").",
+          "supports": [],
+          "author": "thecopy",
+          "shared_at": 1786352853,
+          "source_url": "https://news.ycombinator.com/item?id=49241199"
+        }
+      ],
+      "source_item_id": 49241199,
+      "source_url": "https://news.ycombinator.com/item?id=49241199",
+      "author": "thecopy",
+      "shared_at": 1786352853,
+      "links": [
+        "https://www.gatana.ai/"
+      ]
+    },
+    {
+      "name": "Gatana",
+      "description": "This is a highly flexible and configurable MCP Gateway that lets enterprises run secure, managed MCP within their company, with support for both cloud and on-premise deployment.",
+      "problem": "Enterprises/companies/organizations want secure and managed MCP within their company.",
+      "audience": "Enterprises, companies, and organizations that want secure and managed MCP within their company",
+      "builder_usernames": [
+        "thecopy"
+      ],
+      "source_excerpt": "Gatana: https://www.gatana.ai/\n\nExtremely flexible and configurable MCP Gateway, target users is enterprises/companies/organizations who want secure and managed MCP within their company. Support both Cloud and On-premise.",
+      "evidence": [
+        {
+          "source_item_id": 47775979,
+          "source_field": "body",
+          "value": "Gatana: https://www.gatana.ai/\n\nExtremely flexible and configurable MCP Gateway, target users is enterprises/companies/organizations who want secure and managed MCP within their company. Support both Cloud and On-premise.",
+          "supports": [],
+          "author": "thecopy",
+          "shared_at": 1776239856,
+          "source_url": "https://news.ycombinator.com/item?id=47775979"
+        }
+      ],
+      "source_item_id": 47775979,
+      "source_url": "https://news.ycombinator.com/item?id=47775979",
+      "author": "thecopy",
+      "shared_at": 1776239856,
+      "links": [
+        "https://www.gatana.ai/"
+      ]
+    },
+    {
+      "name": "Gatana",
+      "description": "This platform securely connects an organization's AI agents to their services, with flexible credential management and federated IDP trust. Ongoing work includes reducing dependency on US providers toward a fully EU-based stack, tool output compression with semantic search powered by a local model on Hetzner, a firewall for tool calls, and secure AI sandboxes ('OpenClaw but secure') integrated with the credential system.",
+      "problem": null,
+      "audience": "Organizations connecting their AI agents to services",
+      "builder_usernames": [
+        "thecopy"
+      ],
+      "source_excerpt": "Building Gatana, a platform for securely connecting an organizations agents to their services, with very flexible credential management and federated IDP trust.",
+      "evidence": [
+        {
+          "source_item_id": 47309869,
+          "source_field": "body",
+          "value": "Building Gatana, a platform for securely connecting an organizations agents to their services, with very flexible credential management and federated IDP trust.",
+          "supports": [],
+          "author": "thecopy",
+          "shared_at": 1773067741,
+          "source_url": "https://news.ycombinator.com/item?id=47309869"
+        }
+      ],
+      "source_item_id": 47309869,
+      "source_url": "https://news.ycombinator.com/item?id=47309869",
+      "author": "thecopy",
+      "shared_at": 1773067741,
+      "links": [
+        "https://www.gatana.ai/"
+      ]
+    },
+    {
+      "name": "MCP Gateway",
+      "description": "An MCP Gateway that centralizes access to MCP servers so organizations can use AI agents throughout the company. It provides centralized governance and security using per-user credentials provisioned out-of-band through the MCP protocol: it generates a one-time link that the end user can use to sign in to the underlying MCP server with OAuth or provide an API key.",
+      "problem": "Clients wanted to use AI agents throughout their organization but had no centralized governance or security concepts for that access.",
+      "audience": "Organizations that want to use AI agents across the company",
+      "builder_usernames": [
+        "thecopy"
+      ],
+      "source_excerpt": "Building an MCP Gateway: https://www.gatana.ai/",
+      "evidence": [
+        {
+          "source_item_id": 45875356,
+          "source_field": "body",
+          "value": "Building an MCP Gateway: https://www.gatana.ai/",
+          "supports": [],
+          "author": "thecopy",
+          "shared_at": 1762778325,
+          "source_url": "https://news.ycombinator.com/item?id=45875356"
+        }
+      ],
+      "source_item_id": 45875356,
+      "source_url": "https://news.ycombinator.com/item?id=45875356",
+      "author": "thecopy",
+      "shared_at": 1762778325,
+      "links": [
+        "https://www.gatana.ai/"
+      ]
+    }
+  ]
+}

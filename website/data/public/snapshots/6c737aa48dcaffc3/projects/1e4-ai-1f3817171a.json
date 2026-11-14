@@ -1,0 +1,35 @@
+{
+  "id": 7548,
+  "slug": "1e4-ai-1f3817171a",
+  "name": "1e4.ai",
+  "mentions": [
+    {
+      "name": "1e4.ai",
+      "description": "A transformer-based (but not LLM) chess model that plays like a human, playable at 1e4.ai. It combines three models: a move model for choosing moves, a clock model that emulates human-like thinking time (inference itself takes milliseconds), and a winner model that predicts percentage-based likelihoods of white win / black win / draw rather than centipawn-based eval bars. The current model is trained on 1700-1800 rated Lichess games and can be tuned up or down, with training underway on a wide variety of other rating ranges; the site is rudimentary, offering play only (no saving or reviewing games). It is similar to MAIA, with slightly higher move prediction accuracy than the published MAIA-2 results.",
+      "problem": "Typical chess engines don't play like humans, and standard eval bars show centipawn advantage rather than percentage-based game outcome likelihoods.",
+      "audience": "Gamers and chess players looking for a human-like computer chess opponent.",
+      "builder_usernames": [
+        "hazard"
+      ],
+      "source_excerpt": "https://www.1e4.ai/\n\nA transformer-based (but not LLM) chess model that plays like a human.",
+      "evidence": [
+        {
+          "source_item_id": 46580408,
+          "source_field": "body",
+          "value": "https://www.1e4.ai/\n\nA transformer-based (but not LLM) chess model that plays like a human.",
+          "supports": [],
+          "author": "hazard",
+          "shared_at": 1768167401,
+          "source_url": "https://news.ycombinator.com/item?id=46580408"
+        }
+      ],
+      "source_item_id": 46580408,
+      "source_url": "https://news.ycombinator.com/item?id=46580408",
+      "author": "hazard",
+      "shared_at": 1768167401,
+      "links": [
+        "https://www.1e4.ai/"
+      ]
+    }
+  ]
+}

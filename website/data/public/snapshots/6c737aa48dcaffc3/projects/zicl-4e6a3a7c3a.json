@@ -1,0 +1,35 @@
+{
+  "id": 8329,
+  "slug": "zicl-4e6a3a7c3a",
+  "name": "zicl",
+  "mentions": [
+    {
+      "name": "zicl",
+      "description": "A Tcl interpreter reimplemented from C in Zig, based on the design of Jimtcl. Its key difference is thread-safe value sharing, with lexical variable capture planned. Commands evaluate and basic object operations are in place, though core commands still need implementation. It originated as a sub-project of folk.computer and may eventually be swapped in there.",
+      "problem": "folk.computer incurs about a 20% overhead serializing and deserializing values sent between threads, which also prevents sending large amounts of data around; a previous attempt to make the Jimtcl interpreter thread-safe ended up slower than the status quo.",
+      "audience": null,
+      "builder_usernames": [
+        "smj-edison"
+      ],
+      "source_excerpt": "Porting/reimplementing a Tcl interpreter from C to Zig, based on the design of Jimtcl. This is one of those sub-projects that started due to another project (folk.computer in this case). The biggest difference is thread-safe value sharing, and (soon to be) lexical variable capture.",
+      "evidence": [
+        {
+          "source_item_id": 46269605,
+          "source_field": "body",
+          "value": "Porting/reimplementing a Tcl interpreter from C to Zig, based on the design of Jimtcl. This is one of those sub-projects that started due to another project (folk.computer in this case). The biggest difference is thread-safe value sharing, and (soon to be) lexical variable capture.",
+          "supports": [],
+          "author": "smj-edison",
+          "shared_at": 1765764712,
+          "source_url": "https://news.ycombinator.com/item?id=46269605"
+        }
+      ],
+      "source_item_id": 46269605,
+      "source_url": "https://news.ycombinator.com/item?id=46269605",
+      "author": "smj-edison",
+      "shared_at": 1765764712,
+      "links": [
+        "https://github.com/smj-edison/zicl"
+      ]
+    }
+  ]
+}

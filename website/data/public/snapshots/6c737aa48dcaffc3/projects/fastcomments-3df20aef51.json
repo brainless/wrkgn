@@ -1,0 +1,63 @@
+{
+  "id": 4484,
+  "slug": "fastcomments-3df20aef51",
+  "name": "FastComments",
+  "mentions": [
+    {
+      "name": "FastComments",
+      "description": "This comment platform is gaining a native C++ desktop app (no Electron) with a combined forum feature, so community chats from somewhere like Discord get indexed and searchable through a web forum-style interface.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "winrid"
+      ],
+      "source_excerpt": "Still building https://FastComments.com :) I'm planning on launching a desktop app for it soon with a combined forum. So you could have a community on something like discord, but all the chats are indexed and searchable through a web forum style interface as well.",
+      "evidence": [
+        {
+          "source_item_id": 48089057,
+          "source_field": "body",
+          "value": "Still building https://FastComments.com :) I'm planning on launching a desktop app for it soon with a combined forum. So you could have a community on something like discord, but all the chats are indexed and searchable through a web forum style interface as well.",
+          "supports": [],
+          "author": "winrid",
+          "shared_at": 1778454260,
+          "source_url": "https://news.ycombinator.com/item?id=48089057"
+        }
+      ],
+      "source_item_id": 48089057,
+      "source_url": "https://news.ycombinator.com/item?id=48089057",
+      "author": "winrid",
+      "shared_at": 1778454260,
+      "links": [
+        "https://FastComments.com"
+      ]
+    },
+    {
+      "name": "FastComments AI agents",
+      "description": "This project expands the FastComments commenting platform's SDK and plugin space with AI agents that moderate comments. AI mods mark comments with a 'bot' tag, the system emails users why a decision was made with an option to contest it that loops in a real person, and agents can non-invasively notify moderators when comments violate community standards or give out awards. Longer term the author plans to run self-hosted LLM hardware so user data isn't shared with third parties.",
+      "problem": "AI moderation can anger real users; the challenge is building it to provide value to site owners without making half the users mad.",
+      "audience": null,
+      "builder_usernames": [
+        "winrid"
+      ],
+      "source_excerpt": "I'm also expanding the SDK and plugin space for https://fastcomments.com and am planning on adding AI agents because everyone expects that now :)",
+      "evidence": [
+        {
+          "source_item_id": 47748168,
+          "source_field": "body",
+          "value": "I'm also expanding the SDK and plugin space for https://fastcomments.com and am planning on adding AI agents because everyone expects that now :)",
+          "supports": [],
+          "author": "winrid",
+          "shared_at": 1776060146,
+          "source_url": "https://news.ycombinator.com/item?id=47748168"
+        }
+      ],
+      "source_item_id": 47748168,
+      "source_url": "https://news.ycombinator.com/item?id=47748168",
+      "author": "winrid",
+      "shared_at": 1776060146,
+      "links": [
+        "https://fastcomments.com"
+      ]
+    }
+  ]
+}

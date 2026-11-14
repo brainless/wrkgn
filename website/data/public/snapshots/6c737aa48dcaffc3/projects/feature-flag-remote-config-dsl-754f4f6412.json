@@ -1,0 +1,33 @@
+{
+  "id": 10277,
+  "slug": "feature-flag-remote-config-dsl-754f4f6412",
+  "name": "Feature-Flag/Remote-Config DSL",
+  "mentions": [
+    {
+      "name": "Feature-Flag/Remote-Config DSL",
+      "description": "A programming language (DSL) for defining feature flags and remote configuration, designed as a simpler alternative to YAML or series of forms in a web app, paired with a test runner that asserts a feature flag's rules match the author's intent.",
+      "problem": "Feature-flag definitions are typically written in YAML or configured through web-app forms, and they receive little to no testing to verify the rules match intent.",
+      "audience": null,
+      "builder_usernames": [
+        "cma256"
+      ],
+      "source_excerpt": "I'm writing a programming language for feature-flags/remote-config. I figure a simple DSL has to be an improvement over YAML or a series of forms in a web app.\n\nI'm also generally disappointed by the lack of testing that's performed on feature-flag definitions. So I'd like to have a test runner capable of asserting your feature flag's rules matches your intent.",
+      "evidence": [
+        {
+          "source_item_id": 45420913,
+          "source_field": "body",
+          "value": "I'm writing a programming language for feature-flags/remote-config. I figure a simple DSL has to be an improvement over YAML or a series of forms in a web app.\n\nI'm also generally disappointed by the lack of testing that's performed on feature-flag definitions. So I'd like to have a test runner capable of asserting your feature flag's rules matches your intent.",
+          "supports": [],
+          "author": "cma256",
+          "shared_at": 1759195088,
+          "source_url": "https://news.ycombinator.com/item?id=45420913"
+        }
+      ],
+      "source_item_id": 45420913,
+      "source_url": "https://news.ycombinator.com/item?id=45420913",
+      "author": "cma256",
+      "shared_at": 1759195088,
+      "links": []
+    }
+  ]
+}

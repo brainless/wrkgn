@@ -1,0 +1,33 @@
+{
+  "id": 4764,
+  "slug": "in-house-moe-model-framework-ce5515f158",
+  "name": "In-house MoE model framework",
+  "mentions": [
+    {
+      "name": "In-house MoE model framework",
+      "description": "A model framework for an in-house suite of mixture-of-experts (MoE) AI models, covering the full pipeline: dataset harvesting, training on CUDA/ROCm, custom HIP kernels, and inference testing. Built to run on consumer hardware and used by its creator as a hands-on 'how it works' deep dive into how model training works.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "behaviors"
+      ],
+      "source_excerpt": "A model framework for an in house suite of models.\n\nFrom dataset harvest, to training intricacies on CUDA/ROCm to fun HIP kernels. Full circle to inference testing, building it around consumer hardware(the challenge). Using this as a \"how it works\" deep dive, allowing me to learn more about the how, more than endless papers will. It's a MoE and I'm slowly running a human loop, research, build, correct, research.",
+      "evidence": [
+        {
+          "source_item_id": 48089223,
+          "source_field": "body",
+          "value": "A model framework for an in house suite of models.\n\nFrom dataset harvest, to training intricacies on CUDA/ROCm to fun HIP kernels. Full circle to inference testing, building it around consumer hardware(the challenge). Using this as a \"how it works\" deep dive, allowing me to learn more about the how, more than endless papers will. It's a MoE and I'm slowly running a human loop, research, build, correct, research.",
+          "supports": [],
+          "author": "behaviors",
+          "shared_at": 1778455864,
+          "source_url": "https://news.ycombinator.com/item?id=48089223"
+        }
+      ],
+      "source_item_id": 48089223,
+      "source_url": "https://news.ycombinator.com/item?id=48089223",
+      "author": "behaviors",
+      "shared_at": 1778455864,
+      "links": []
+    }
+  ]
+}

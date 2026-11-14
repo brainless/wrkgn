@@ -1,0 +1,35 @@
+{
+  "id": 7174,
+  "slug": "pg-fs-1c022a1313",
+  "name": "pg-fs",
+  "mentions": [
+    {
+      "name": "pg-fs",
+      "description": "pg-fs is a Postgres-backed file system abstraction for AI agents, giving agents their familiar file primitives on top of Postgres. A version of it powers a local store for rubber duck thoughts and voice notes, working like an explicit ChatGPT-style memory store so finding the needle in the haystack later is easy.",
+      "problem": "AI agents lack familiar file primitives, and personal notes/information suffer from 'information FOMO' because finding the needle in the haystack is hard.",
+      "audience": "AI agents (used via developers building agents); the author also runs a version personally for a local store of thoughts and voice notes",
+      "builder_usernames": [
+        "dumbmachine"
+      ],
+      "source_excerpt": "Working on pg-fs, a postgres backed file system abstraction for ai agents.",
+      "evidence": [
+        {
+          "source_item_id": 46943760,
+          "source_field": "body",
+          "value": "Working on pg-fs, a postgres backed file system abstraction for ai agents.",
+          "supports": [],
+          "author": "dumbmachine",
+          "shared_at": 1770633504,
+          "source_url": "https://news.ycombinator.com/item?id=46943760"
+        }
+      ],
+      "source_item_id": 46943760,
+      "source_url": "https://news.ycombinator.com/item?id=46943760",
+      "author": "dumbmachine",
+      "shared_at": 1770633504,
+      "links": [
+        "https://github.com/DumbMachine/pg-fs"
+      ]
+    }
+  ]
+}

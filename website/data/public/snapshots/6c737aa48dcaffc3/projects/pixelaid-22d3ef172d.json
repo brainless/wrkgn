@@ -1,0 +1,35 @@
+{
+  "id": 3659,
+  "slug": "pixelaid-22d3ef172d",
+  "name": "PixelAid",
+  "mentions": [
+    {
+      "name": "PixelAid",
+      "description": "A gamedev tool that cleans up AI-generated pixel art using a non-AI, math-based approach. It addresses color palettes, grid sizes, and animation drift issues that make AI-generated game art unusable.",
+      "problem": "AI image generation is especially bad at pixel art right now — color palettes, grid sizes, and animation drift make AI-generated art unusable.",
+      "audience": "A lot of people are essentially discovering AI image gen as a way to make art for games.",
+      "builder_usernames": [
+        "oms1005"
+      ],
+      "source_excerpt": "I'm really interested in gamedev tooling and I'm working on a tool called PixelAid[0] right now. A lot of people are essentially discovering AI image gen as a way to make art for games, but AI is especially bad at pixel art right now. Color palettes, grid sizes, animation drift are some really big issues that basically make those things unusable. I wanted to take a non-AI approach to fix these things with some good ol' math and tools.",
+      "evidence": [
+        {
+          "source_item_id": 48534325,
+          "source_field": "body",
+          "value": "I'm really interested in gamedev tooling and I'm working on a tool called PixelAid[0] right now. A lot of people are essentially discovering AI image gen as a way to make art for games, but AI is especially bad at pixel art right now. Color palettes, grid sizes, animation drift are some really big issues that basically make those things unusable. I wanted to take a non-AI approach to fix these things with some good ol' math and tools.",
+          "supports": [],
+          "author": "oms1005",
+          "shared_at": 1781480310,
+          "source_url": "https://news.ycombinator.com/item?id=48534325"
+        }
+      ],
+      "source_item_id": 48534325,
+      "source_url": "https://news.ycombinator.com/item?id=48534325",
+      "author": "oms1005",
+      "shared_at": 1781480310,
+      "links": [
+        "https://oscarsanchez.com/tools/pixelaid/"
+      ]
+    }
+  ]
+}

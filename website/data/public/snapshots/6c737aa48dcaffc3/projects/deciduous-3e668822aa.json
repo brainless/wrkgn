@@ -1,0 +1,35 @@
+{
+  "id": 8410,
+  "slug": "deciduous-3e668822aa",
+  "name": "Deciduous",
+  "mentions": [
+    {
+      "name": "Deciduous",
+      "description": "This tool provides a way of working with an LLM to track decision tree graphs, letting the model make more informed decisions and build its own logical chain for history keeping. It models all work as a DAG of events, goals, outcomes, decisions, and observations that network together, giving the user a living and recorded memory with ways to explore it. The site includes a short demo and a live graph of how the tool has built itself.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rhgraysonii"
+      ],
+      "source_excerpt": "Deciduous.\n\nIt's a way of working/tools for working with an LLM that allow you to track decision tree graphs, have the robot make more informed decisions and build its own logical chain for history keeping, and modeling all the work as a DAG of events, goals, outcomes, decisions, and observations that network together to allow you to work better/smarter/faster, giving it a living and recorded memory and ways to explore all this.",
+      "evidence": [
+        {
+          "source_item_id": 46270246,
+          "source_field": "body",
+          "value": "Deciduous.\n\nIt's a way of working/tools for working with an LLM that allow you to track decision tree graphs, have the robot make more informed decisions and build its own logical chain for history keeping, and modeling all the work as a DAG of events, goals, outcomes, decisions, and observations that network together to allow you to work better/smarter/faster, giving it a living and recorded memory and ways to explore all this.",
+          "supports": [],
+          "author": "rhgraysonii",
+          "shared_at": 1765770684,
+          "source_url": "https://news.ycombinator.com/item?id=46270246"
+        }
+      ],
+      "source_item_id": 46270246,
+      "source_url": "https://news.ycombinator.com/item?id=46270246",
+      "author": "rhgraysonii",
+      "shared_at": 1765770684,
+      "links": [
+        "http://notactuallytreyanastasio.github.io/deciduous/"
+      ]
+    }
+  ]
+}

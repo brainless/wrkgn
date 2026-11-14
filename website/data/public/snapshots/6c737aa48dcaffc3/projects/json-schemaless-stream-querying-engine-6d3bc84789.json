@@ -1,0 +1,33 @@
+{
+  "id": 4249,
+  "slug": "json-schemaless-stream-querying-engine-6d3bc84789",
+  "name": "JSON Schemaless Stream Querying Engine",
+  "mentions": [
+    {
+      "name": "JSON Schemaless Stream Querying Engine",
+      "description": "A stream querying engine for schemaless JSON that executes several SQL queries over a single Kafka consumer, rather than spinning up one consumer per query.",
+      "problem": "Running multiple SQL queries against a Kafka stream typically requires a separate consumer for each query; this engine avoids that by sharing one consumer across queries.",
+      "audience": null,
+      "builder_usernames": [
+        "motoboi"
+      ],
+      "source_excerpt": "A json schemaless stream querying engine that would run several sql queries over the same kafka consumer (not a consumer for each query).",
+      "evidence": [
+        {
+          "source_item_id": 48532542,
+          "source_field": "body",
+          "value": "A json schemaless stream querying engine that would run several sql queries over the same kafka consumer (not a consumer for each query).",
+          "supports": [],
+          "author": "motoboi",
+          "shared_at": 1781470298,
+          "source_url": "https://news.ycombinator.com/item?id=48532542"
+        }
+      ],
+      "source_item_id": 48532542,
+      "source_url": "https://news.ycombinator.com/item?id=48532542",
+      "author": "motoboi",
+      "shared_at": 1781470298,
+      "links": []
+    }
+  ]
+}

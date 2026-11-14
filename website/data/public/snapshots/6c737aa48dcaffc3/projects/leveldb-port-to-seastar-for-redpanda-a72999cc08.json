@@ -1,0 +1,35 @@
+{
+  "id": 9282,
+  "slug": "leveldb-port-to-seastar-for-redpanda-a72999cc08",
+  "name": "LevelDB port to Seastar for Redpanda",
+  "mentions": [
+    {
+      "name": "LevelDB port to Seastar for Redpanda",
+      "description": "A port of the LevelDB embedded key-value store to the Seastar asynchronous runtime, used for internal metadata storage in Redpanda. The port exists because Seastar's unique runtime and memory allocator constraints make existing off-the-shelf storage libraries unusable.",
+      "problem": "Seastar has unique constraints around its runtime and its memory allocator that mean an existing off-the-shelf storage library cannot be reused.",
+      "audience": null,
+      "builder_usernames": [
+        "rockwotj"
+      ],
+      "source_excerpt": "Porting LevelDB[1] to Seastar[2], for internal metadata storage in Redpanda[3]. Before you ask why can’t something off the shelf be used, seastar has unique constraints around its runtime and its memory allocator that means we can’t reuse an existing library.",
+      "evidence": [
+        {
+          "source_item_id": 45869709,
+          "source_field": "body",
+          "value": "Porting LevelDB[1] to Seastar[2], for internal metadata storage in Redpanda[3]. Before you ask why can’t something off the shelf be used, seastar has unique constraints around its runtime and its memory allocator that means we can’t reuse an existing library.",
+          "supports": [],
+          "author": "rockwotj",
+          "shared_at": 1762726298,
+          "source_url": "https://news.ycombinator.com/item?id=45869709"
+        }
+      ],
+      "source_item_id": 45869709,
+      "source_url": "https://news.ycombinator.com/item?id=45869709",
+      "author": "rockwotj",
+      "shared_at": 1762726298,
+      "links": [
+        "https://github.com/redpanda-data/redpanda/pull/28351"
+      ]
+    }
+  ]
+}

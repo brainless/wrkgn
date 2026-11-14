@@ -1,0 +1,33 @@
+{
+  "id": 6200,
+  "slug": "llm-generated-comprehensible-story-language-learning-tool-d972fcc557",
+  "name": "LLM-Generated Comprehensible Story Language Learning Tool",
+  "mentions": [
+    {
+      "name": "LLM-Generated Comprehensible Story Language Learning Tool",
+      "description": "A language learning tool that uses LLMs to generate stories at the reader's ideal level, aiming for about 95% comprehensible text with the remaining 5% made up of new or still-learning words. Readers click on words they don't fully understand while reading. Development is currently Spanish-only to optimize per language, and includes database design, story validation, and an onboarding estimation system that gauges a user's existing knowledge.",
+      "problem": "Language learners need reading material precisely matched to their comprehension level, and LLM output can't be blindly trusted (e.g., for grammar explanations), so generated stories require validation.",
+      "audience": "Spanish language learners seeking stories calibrated to their level",
+      "builder_usernames": [
+        "brandonc7"
+      ],
+      "source_excerpt": "I’m working on a language learning tool where it uses LLMs to generate stories at your ideal level. The idea is the user would be provided stories that are 95% comprehensible, with the other 5% being a mix of brand new words or words you are still learning.",
+      "evidence": [
+        {
+          "source_item_id": 47314628,
+          "source_field": "body",
+          "value": "I’m working on a language learning tool where it uses LLMs to generate stories at your ideal level. The idea is the user would be provided stories that are 95% comprehensible, with the other 5% being a mix of brand new words or words you are still learning.",
+          "supports": [],
+          "author": "brandonc7",
+          "shared_at": 1773086435,
+          "source_url": "https://news.ycombinator.com/item?id=47314628"
+        }
+      ],
+      "source_item_id": 47314628,
+      "source_url": "https://news.ycombinator.com/item?id=47314628",
+      "author": "brandonc7",
+      "shared_at": 1773086435,
+      "links": []
+    }
+  ]
+}

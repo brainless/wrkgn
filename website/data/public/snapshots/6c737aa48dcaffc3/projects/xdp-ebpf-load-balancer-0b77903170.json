@@ -1,0 +1,33 @@
+{
+  "id": 10014,
+  "slug": "xdp-ebpf-load-balancer-0b77903170",
+  "name": "XDP/eBPF Load Balancer",
+  "mentions": [
+    {
+      "name": "XDP/eBPF Load Balancer",
+      "description": "This project is an XDP/eBPF-based load balancer, shipped with a Golang control plane library and an application intended to replace high-capacity legacy load balancing appliances with commodity off-the-shelf (COTS) servers.",
+      "problem": "High-capacity legacy load balancing appliances; this replaces them with COTS servers.",
+      "audience": null,
+      "builder_usernames": [
+        "vc5"
+      ],
+      "source_excerpt": "An XDP/eBPF load balancer with Golang control plane library and an application to replace high capacity legacy appliances with COTS servers.",
+      "evidence": [
+        {
+          "source_item_id": 45418791,
+          "source_field": "body",
+          "value": "An XDP/eBPF load balancer with Golang control plane library and an application to replace high capacity legacy appliances with COTS servers.",
+          "supports": [],
+          "author": "vc5",
+          "shared_at": 1759180196,
+          "source_url": "https://news.ycombinator.com/item?id=45418791"
+        }
+      ],
+      "source_item_id": 45418791,
+      "source_url": "https://news.ycombinator.com/item?id=45418791",
+      "author": "vc5",
+      "shared_at": 1759180196,
+      "links": []
+    }
+  ]
+}

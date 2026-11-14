@@ -1,0 +1,36 @@
+{
+  "id": 4591,
+  "slug": "margarita-8ba6c1e84e",
+  "name": "Margarita",
+  "mentions": [
+    {
+      "name": "Margarita",
+      "description": "A markdown-based language for writing and controlling coding agents. It provides two file formats: .mg, a templating language that renders dynamic prompts to Markdown with variables, conditionals, loops, and includes; and .mgx, an agent scripting language that extends .mg with agentic execution including state, memory, tool calls, and user input.",
+      "problem": "Controlling coding agents is cumbersome; the project aims to let you write agents as easily as writing markdown.",
+      "audience": "People writing and controlling coding agents; the author notes uncertainty about usefulness now that most people just use Claude Code.",
+      "builder_usernames": [
+        "margarita_dev"
+      ],
+      "source_excerpt": "Margarita provides two file formats:\n\n.mg — A templating language that renders dynamic prompts to Markdown. Extends Markdown with variables, conditionals, loops, and includes.\n\n.mgx — An agent scripting language that extends .mg with agentic execution: state, memory, tool calls, user input, and more.",
+      "evidence": [
+        {
+          "source_item_id": 48117329,
+          "source_field": "body",
+          "value": "Margarita provides two file formats:\n\n.mg — A templating language that renders dynamic prompts to Markdown. Extends Markdown with variables, conditionals, loops, and includes.\n\n.mgx — An agent scripting language that extends .mg with agentic execution: state, memory, tool calls, user input, and more.",
+          "supports": [],
+          "author": "margarita_dev",
+          "shared_at": 1778641551,
+          "source_url": "https://news.ycombinator.com/item?id=48117329"
+        }
+      ],
+      "source_item_id": 48117329,
+      "source_url": "https://news.ycombinator.com/item?id=48117329",
+      "author": "margarita_dev",
+      "shared_at": 1778641551,
+      "links": [
+        "https://github.com/Banyango/margarita",
+        "https://www.margarita.run"
+      ]
+    }
+  ]
+}

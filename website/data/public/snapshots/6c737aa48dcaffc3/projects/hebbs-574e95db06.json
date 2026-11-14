@@ -1,0 +1,35 @@
+{
+  "id": 6582,
+  "slug": "hebbs-574e95db06",
+  "name": "HEBBS",
+  "mentions": [
+    {
+      "name": "HEBBS",
+      "description": "This is a memory engine for AI agents, written in Rust, that replaces the typical stack of a vector DB plus KV store plus graph DB with a single embedded binary built on RocksDB with ONNX for local embeddings. It exposes nine operations in three groups — write (remember, revise, forget), read (recall, prime, subscribe), and consolidate (reflect, insights, policy) — and supports four recall strategies: similarity, temporal, causal, and analogical. Embeddings run locally with no network calls on the hot path, recall hits 2ms p50 / 8ms p99 at 10M memories on a 2 vCPU instance, memories use an append-only event model for conflict-free sync with forget logged as an event for GDPR, and lineage tracking links insights back to source memories and revisions to predecessors. It ships SDKs for Python, TypeScript, and Rust, a CLI with a REPL, and gRPC + REST interfaces, plus a reference demo of an AI sales agent using it for multi-session memory, objection handling recall, and background consolidation of conversation patterns.",
+      "problem": "Agent frameworks bolt together a vector DB for recall, a KV store for state, and maybe a graph DB for relationships, yielding only a single retrieval path (similarity search) with no decay, no consolidation, and memory loss the moment context gets trimmed.",
+      "audience": null,
+      "builder_usernames": [
+        "paragarora"
+      ],
+      "source_excerpt": "Building HEBBS — a memory engine for AI agents, written in Rust.",
+      "evidence": [
+        {
+          "source_item_id": 47307074,
+          "source_field": "body",
+          "value": "Building HEBBS — a memory engine for AI agents, written in Rust.",
+          "supports": [],
+          "author": "paragarora",
+          "shared_at": 1773051379,
+          "source_url": "https://news.ycombinator.com/item?id=47307074"
+        }
+      ],
+      "source_item_id": 47307074,
+      "source_url": "https://news.ycombinator.com/item?id=47307074",
+      "author": "paragarora",
+      "shared_at": 1773051379,
+      "links": [
+        "https://github.com/hebbs-ai/hebbs"
+      ]
+    }
+  ]
+}

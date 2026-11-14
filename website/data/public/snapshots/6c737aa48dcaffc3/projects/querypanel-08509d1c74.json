@@ -1,0 +1,35 @@
+{
+  "id": 8072,
+  "slug": "querypanel-08509d1c74",
+  "name": "QueryPanel",
+  "mentions": [
+    {
+      "name": "QueryPanel",
+      "description": "A server-side SDK that lets an application's customers chat with their own data, built with a zero-trust architecture that can be embedded directly into web apps. It automatically scans the database schema, provides a UI to train and refine query behaviors, and stores only schema metadata — no credentials or row-level data. Already achieved strong query accuracy on a real client's ClickHouse setup and is onboarding more customers.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "civancza"
+      ],
+      "source_excerpt": "I’m working on https://querypanel.io, a server-side SDK that lets your customers chat with their own data, designed with a zero‑trust architecture you can embed directly into your web app. It automatically scans your database schema, gives you a UI to further “train” and refine behaviors, and only stores schema metadata and no credentials or row‑level data.",
+      "evidence": [
+        {
+          "source_item_id": 46488635,
+          "source_field": "body",
+          "value": "I’m working on https://querypanel.io, a server-side SDK that lets your customers chat with their own data, designed with a zero‑trust architecture you can embed directly into your web app. It automatically scans your database schema, gives you a UI to further “train” and refine behaviors, and only stores schema metadata and no credentials or row‑level data.",
+          "supports": [],
+          "author": "civancza",
+          "shared_at": 1767539209,
+          "source_url": "https://news.ycombinator.com/item?id=46488635"
+        }
+      ],
+      "source_item_id": 46488635,
+      "source_url": "https://news.ycombinator.com/item?id=46488635",
+      "author": "civancza",
+      "shared_at": 1767539209,
+      "links": [
+        "https://querypanel.io"
+      ]
+    }
+  ]
+}

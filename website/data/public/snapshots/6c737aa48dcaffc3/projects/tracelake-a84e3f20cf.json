@@ -1,0 +1,35 @@
+{
+  "id": 10430,
+  "slug": "tracelake-a84e3f20cf",
+  "name": "Tracelake",
+  "mentions": [
+    {
+      "name": "Tracelake",
+      "description": "Tracelake is a data quality solution for SAP replications. It adds a validation layer on top of SAP-to-analytics-platform replications (e.g., Snowflake, Redshift), periodically comparing data between source and target and notifying users of missing or incorrect data so data quality issues can be tackled proactively.",
+      "problem": "Validating the correctness of continuously and rapidly changing SAP data replicated into analytics platforms is hard, with hundreds of tables and TBs of data, and usually downstream data consumers are the ones who notice that data \"doesn't feel right\".",
+      "audience": "Companies using SAP that need to replicate its data into analytics platforms",
+      "builder_usernames": [
+        "egruy"
+      ],
+      "source_excerpt": "I am building Tracelake - a data quality solution for SAP replications.",
+      "evidence": [
+        {
+          "source_item_id": 44704518,
+          "source_field": "body",
+          "value": "I am building Tracelake - a data quality solution for SAP replications.",
+          "supports": [],
+          "author": "egruy",
+          "shared_at": 1753648914,
+          "source_url": "https://news.ycombinator.com/item?id=44704518"
+        }
+      ],
+      "source_item_id": 44704518,
+      "source_url": "https://news.ycombinator.com/item?id=44704518",
+      "author": "egruy",
+      "shared_at": 1753648914,
+      "links": [
+        "https://tracelake.com/"
+      ]
+    }
+  ]
+}

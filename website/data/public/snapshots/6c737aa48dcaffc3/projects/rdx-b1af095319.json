@@ -1,0 +1,35 @@
+{
+  "id": 10029,
+  "slug": "rdx-b1af095319",
+  "name": "RDX",
+  "mentions": [
+    {
+      "name": "RDX",
+      "description": "RDX is a replicated data exchange format implemented as a JSON superset that supports diffs, patches, branches, and merges at the data-format level, making replicated data workflows straightforward.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "gritzko"
+      ],
+      "source_excerpt": "Replicated Data exchange format, RDX. A JSON superset that has diff, patches, branches and merges. Once you have that ability at the data format level, many things become surprisingly straightforward.",
+      "evidence": [
+        {
+          "source_item_id": 45423102,
+          "source_field": "body",
+          "value": "Replicated Data exchange format, RDX. A JSON superset that has diff, patches, branches and merges. Once you have that ability at the data format level, many things become surprisingly straightforward.",
+          "supports": [],
+          "author": "gritzko",
+          "shared_at": 1759219762,
+          "source_url": "https://news.ycombinator.com/item?id=45423102"
+        }
+      ],
+      "source_item_id": 45423102,
+      "source_url": "https://news.ycombinator.com/item?id=45423102",
+      "author": "gritzko",
+      "shared_at": 1759219762,
+      "links": [
+        "https://github.com/gritzko/go-rdx"
+      ]
+    }
+  ]
+}

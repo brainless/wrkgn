@@ -1,0 +1,33 @@
+{
+  "id": 10715,
+  "slug": "dnsdist-3d1c46b12b",
+  "name": "dnsdist",
+  "mentions": [
+    {
+      "name": "dnsdist",
+      "description": "Version 2.0.0 of dnsdist, now built with nghttp2 instead of h2o. The author notes that compiling it is difficult and that the static-PIE binary with minimum options is 15 MB and keeps growing.",
+      "problem": "Compiling the project is never easy, and the static-PIE binary with minimum options is a whopping 15 MB, growing with each version.",
+      "audience": null,
+      "builder_usernames": [
+        "1vuio0pswjnm7"
+      ],
+      "source_excerpt": "Upgrading to new version 2.0.0 of dnsdist using nghttp2 instead of h2o",
+      "evidence": [
+        {
+          "source_item_id": 44704959,
+          "source_field": "body",
+          "value": "Upgrading to new version 2.0.0 of dnsdist using nghttp2 instead of h2o",
+          "supports": [],
+          "author": "1vuio0pswjnm7",
+          "shared_at": 1753652482,
+          "source_url": "https://news.ycombinator.com/item?id=44704959"
+        }
+      ],
+      "source_item_id": 44704959,
+      "source_url": "https://news.ycombinator.com/item?id=44704959",
+      "author": "1vuio0pswjnm7",
+      "shared_at": 1753652482,
+      "links": []
+    }
+  ]
+}

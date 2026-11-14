@@ -1,0 +1,36 @@
+{
+  "id": 6003,
+  "slug": "goformersearch-3d73e64196",
+  "name": "goformersearch",
+  "mentions": [
+    {
+      "name": "goformersearch",
+      "description": "A pure Go vector index offering brute-force and HNSW search behind the same interface, swappable with one line. Targets 10k-50k vector workloads, with HNSW queries under 0.5ms at 50k vectors and a documented crossover point (around 2,400 vectors at 384 dimensions) where HNSW beats brute-force.",
+      "problem": "Pulling in FAISS for small index sizes (10k-50k vectors) brings C++/Python CGO dependencies that pure Go avoids.",
+      "audience": null,
+      "builder_usernames": [
+        "mikeayles"
+      ],
+      "source_excerpt": "goformersearch (https://www.mikeayles.com/blog/goformersearch/) is the vector index. Brute-force and HNSW, same interface, swap with one line. I couldn't justify pulling in FAISS for the index sizes I'm dealing with (10k-50k vectors), and the pure Go HNSW searches in under 0.5ms at 50k vectors.",
+      "evidence": [
+        {
+          "source_item_id": 47306582,
+          "source_field": "body",
+          "value": "goformersearch (https://www.mikeayles.com/blog/goformersearch/) is the vector index. Brute-force and HNSW, same interface, swap with one line. I couldn't justify pulling in FAISS for the index sizes I'm dealing with (10k-50k vectors), and the pure Go HNSW searches in under 0.5ms at 50k vectors.",
+          "supports": [],
+          "author": "mikeayles",
+          "shared_at": 1773047674,
+          "source_url": "https://news.ycombinator.com/item?id=47306582"
+        }
+      ],
+      "source_item_id": 47306582,
+      "source_url": "https://news.ycombinator.com/item?id=47306582",
+      "author": "mikeayles",
+      "shared_at": 1773047674,
+      "links": [
+        "https://github.com/MichaelAyles/goformersearch",
+        "https://www.mikeayles.com/blog/goformersearch/"
+      ]
+    }
+  ]
+}

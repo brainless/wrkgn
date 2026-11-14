@@ -1,0 +1,35 @@
+{
+  "id": 6677,
+  "slug": "pikku-af52b460f2",
+  "name": "pikku",
+  "mentions": [
+    {
+      "name": "pikku",
+      "description": "A TypeScript server library and framework that statically analyzes code on top of tsc to extract metadata, so a single function can be consumed as an HTTP route, WebSocket, queue, scheduled job, AI tool, workflow step, or gateway (e.g. WhatsApp). It offers transport-agnostic wires for HTTP, WebSockets, queues, and scheduled jobs that run anywhere (lambdas, cron jobs, serverless, local), and addons — pikku TypeScript packages whose functions are auto-imported and handle their own service initialization. An addon-based console visualizes the codebase's functions and permissions with no backend of its own, reusing the app's unified permissions/auth system. AI agent features include subagent flows, tools, approvals, and AI middleware that turns input and output into voices, and a BuildYourAgent portal converts an OpenAPI doc into an MCP server, hooks it up to an agent, and wraps it with a CLI. The author is also seeking a potential cofounder for the project.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "yasserf"
+      ],
+      "source_excerpt": "I have been working on pikku.dev, a typescript server library / framework that does most things and deploys in most places [1]",
+      "evidence": [
+        {
+          "source_item_id": 47314060,
+          "source_field": "body",
+          "value": "I have been working on pikku.dev, a typescript server library / framework that does most things and deploys in most places [1]",
+          "supports": [],
+          "author": "yasserf",
+          "shared_at": 1773084018,
+          "source_url": "https://news.ycombinator.com/item?id=47314060"
+        }
+      ],
+      "source_item_id": 47314060,
+      "source_url": "https://news.ycombinator.com/item?id=47314060",
+      "author": "yasserf",
+      "shared_at": 1773084018,
+      "links": [
+        "https://pikku.dev/"
+      ]
+    }
+  ]
+}

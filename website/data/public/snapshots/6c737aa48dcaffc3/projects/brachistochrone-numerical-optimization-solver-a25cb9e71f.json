@@ -1,0 +1,33 @@
+{
+  "id": 8656,
+  "slug": "brachistochrone-numerical-optimization-solver-a25cb9e71f",
+  "name": "Brachistochrone numerical optimization solver",
+  "mentions": [
+    {
+      "name": "Brachistochrone numerical optimization solver",
+      "description": "This project tackles the brachistochrone problem through numerical optimization: variational integrals are discretized into sums of contributions depending on function values at specific points, and autograd libraries optimize the resulting nonlinear scalar loss function. The minimal surface problem was solved first as a stepping stone.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "FattiMei"
+      ],
+      "source_excerpt": "I'm trying to solve the brachistochrone problem by numerical optimization. I started with the minimal surface problem to get a foot in the door: I discretize the integral as a sum of constributions that depend on the function values at specific points, then use autograd libraries for optimizing a non-linear scalar loss function",
+      "evidence": [
+        {
+          "source_item_id": 46267080,
+          "source_field": "body",
+          "value": "I'm trying to solve the brachistochrone problem by numerical optimization. I started with the minimal surface problem to get a foot in the door: I discretize the integral as a sum of constributions that depend on the function values at specific points, then use autograd libraries for optimizing a non-linear scalar loss function",
+          "supports": [],
+          "author": "FattiMei",
+          "shared_at": 1765747412,
+          "source_url": "https://news.ycombinator.com/item?id=46267080"
+        }
+      ],
+      "source_item_id": 46267080,
+      "source_url": "https://news.ycombinator.com/item?id=46267080",
+      "author": "FattiMei",
+      "shared_at": 1765747412,
+      "links": []
+    }
+  ]
+}

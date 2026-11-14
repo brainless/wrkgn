@@ -1,0 +1,35 @@
+{
+  "id": 6980,
+  "slug": "arkwatch-1214c20769",
+  "name": "ArkWatch",
+  "mentions": [
+    {
+      "name": "ArkWatch",
+      "description": "A monitoring API usable with a single curl command, no signup required. It watches a given URL and emails the user when the page content changes, with a free tier of 10 checks per day.",
+      "problem": "Existing monitoring tools force users through signup flows, credit cards, and complex dashboards, when solo founders just need basic 'alert me when this changes' monitoring.",
+      "audience": "Solo founders and side-project developers who need simple change monitoring without signup flows",
+      "builder_usernames": [
+        "arkforge"
+      ],
+      "source_excerpt": "I'm working on ArkWatch (https://watch.arkforge.fr) - a monitoring API that you can use with just curl, no signup required.",
+      "evidence": [
+        {
+          "source_item_id": 46943260,
+          "source_field": "body",
+          "value": "I'm working on ArkWatch (https://watch.arkforge.fr) - a monitoring API that you can use with just curl, no signup required.",
+          "supports": [],
+          "author": "arkforge",
+          "shared_at": 1770628353,
+          "source_url": "https://news.ycombinator.com/item?id=46943260"
+        }
+      ],
+      "source_item_id": 46943260,
+      "source_url": "https://news.ycombinator.com/item?id=46943260",
+      "author": "arkforge",
+      "shared_at": 1770628353,
+      "links": [
+        "https://watch.arkforge.fr"
+      ]
+    }
+  ]
+}

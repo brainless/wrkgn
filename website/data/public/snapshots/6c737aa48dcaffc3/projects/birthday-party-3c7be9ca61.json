@@ -1,0 +1,35 @@
+{
+  "id": 8357,
+  "slug": "birthday-party-3c7be9ca61",
+  "name": "birthday_party",
+  "mentions": [
+    {
+      "name": "birthday_party",
+      "description": "This tool computes hash collisions of truncated SHA-256 using GPU brute force, currently colliding 96-bit truncated SHA-256 in under 24 hours on a single 6700 XT. Planned work includes supporting contributions from untrusted clients to enable a crowd-sourced, SETI@home-like compute system, targeting larger collisions such as ~102-bit (feasible with rented GPU capacity) and 128-bit (optimistically possible with enough crowd-sourced compute).",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Retr0id"
+      ],
+      "source_excerpt": "I resurrected some of my old code for computing hash collisions: https://github.com/DavidBuchanan314/birthday_party (it's actually more of a rewrite)\n\nIt can collide 96-bit truncated sha256 in under 24 hours on a 6700XT.",
+      "evidence": [
+        {
+          "source_item_id": 46268434,
+          "source_field": "body",
+          "value": "I resurrected some of my old code for computing hash collisions: https://github.com/DavidBuchanan314/birthday_party (it's actually more of a rewrite)\n\nIt can collide 96-bit truncated sha256 in under 24 hours on a 6700XT.",
+          "supports": [],
+          "author": "Retr0id",
+          "shared_at": 1765755991,
+          "source_url": "https://news.ycombinator.com/item?id=46268434"
+        }
+      ],
+      "source_item_id": 46268434,
+      "source_url": "https://news.ycombinator.com/item?id=46268434",
+      "author": "Retr0id",
+      "shared_at": 1765755991,
+      "links": [
+        "https://github.com/DavidBuchanan314/birthday_party"
+      ]
+    }
+  ]
+}

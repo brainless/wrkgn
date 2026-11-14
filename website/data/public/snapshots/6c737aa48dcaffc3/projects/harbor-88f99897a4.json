@@ -1,0 +1,35 @@
+{
+  "id": 8373,
+  "slug": "harbor-88f99897a4",
+  "name": "Harbor",
+  "mentions": [
+    {
+      "name": "Harbor",
+      "description": "This CLI toolkit simplifies setting up and running local LLM software stacks with commands like `harbor up ollama webui`. It supports 17 backends (e.g., Ollama, llama.cpp), 14 frontends (e.g., Open WebUI), 50+ satellite projects, config profiles importable from a URL, tunnels, and a helper desktop app.",
+      "problem": "Setting up multiple LLM runtimes across Python, Node, Go, and Rust with different environments, CUDA versions, and dependencies is tedious, and managing updates afterward is even worse.",
+      "audience": "End users who want a simple way to run LLM stacks locally",
+      "builder_usernames": [
+        "everlier"
+      ],
+      "source_excerpt": "So, I'm building a toolkit that allows to keep things simple for the end user.\nRun Ollama and Open WebUI configured to work together: `harbor up ollama webui`. Don't like Ollama? Then `harbor up llamacpp webui`. There are 17 backends, 14 frontends and 50+ different satellite projects, config profiles that can be imported from a URL, tunnels, and a helper desktop app.",
+      "evidence": [
+        {
+          "source_item_id": 46266494,
+          "source_field": "body",
+          "value": "So, I'm building a toolkit that allows to keep things simple for the end user.\nRun Ollama and Open WebUI configured to work together: `harbor up ollama webui`. Don't like Ollama? Then `harbor up llamacpp webui`. There are 17 backends, 14 frontends and 50+ different satellite projects, config profiles that can be imported from a URL, tunnels, and a helper desktop app.",
+          "supports": [],
+          "author": "everlier",
+          "shared_at": 1765743894,
+          "source_url": "https://news.ycombinator.com/item?id=46266494"
+        }
+      ],
+      "source_item_id": 46266494,
+      "source_url": "https://news.ycombinator.com/item?id=46266494",
+      "author": "everlier",
+      "shared_at": 1765743894,
+      "links": [
+        "https://github.com/av/harbor?tab=readme-ov-file#what-can-harbor-do"
+      ]
+    }
+  ]
+}

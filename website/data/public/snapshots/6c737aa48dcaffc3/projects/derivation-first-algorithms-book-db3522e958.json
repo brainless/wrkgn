@@ -1,0 +1,33 @@
+{
+  "id": 9763,
+  "slug": "derivation-first-algorithms-book-db3522e958",
+  "name": "Derivation-First Algorithms Book",
+  "mentions": [
+    {
+      "name": "Derivation-First Algorithms Book",
+      "description": "This book teaches algorithms by deriving each one from scratch rather than presenting the finished algorithm. For example, for binary search it works through finding an element step by step in an even-sized array and then an odd-sized array, derives a general hypothesis, and then creates the formula for the algorithm from it.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "vivzkestrel"
+      ],
+      "source_excerpt": "i am working on something pretty radical in this space. it is a book of algorithms that derives all the algorithms without telling what the algorithm is. for example for binary search your book quickly went into the low + high / 2 = mid thing. my method is radically different. i take an even sized array then try to actually find it step by step , then take an odd sized array , find it step by step, derive a general hypothesis and then create the formula from it for that algorithm.",
+      "evidence": [
+        {
+          "source_item_id": 45565069,
+          "source_field": "body",
+          "value": "i am working on something pretty radical in this space. it is a book of algorithms that derives all the algorithms without telling what the algorithm is. for example for binary search your book quickly went into the low + high / 2 = mid thing. my method is radically different. i take an even sized array then try to actually find it step by step , then take an odd sized array , find it step by step, derive a general hypothesis and then create the formula from it for that algorithm.",
+          "supports": [],
+          "author": "vivzkestrel",
+          "shared_at": 1760334622,
+          "source_url": "https://news.ycombinator.com/item?id=45565069"
+        }
+      ],
+      "source_item_id": 45565069,
+      "source_url": "https://news.ycombinator.com/item?id=45565069",
+      "author": "vivzkestrel",
+      "shared_at": 1760334622,
+      "links": []
+    }
+  ]
+}

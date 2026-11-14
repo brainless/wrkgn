@@ -1,0 +1,35 @@
+{
+  "id": 3582,
+  "slug": "xingolak-e8d4c20d58",
+  "name": "Xingolak",
+  "mentions": [
+    {
+      "name": "Xingolak",
+      "description": "This tool visualizes how semantics shift into different grammatical structures when translating between Basque and English/Spanish. It uses Stanford NLP to analyze the input text, then feeds that analysis to Claude to generate the data structure needed to render the translation visualization, which uses a ribbon metaphor in the UI (Xingolak is Basque for \"ribbons\").",
+      "problem": "The author, learning Basque, wanted a way to see how semantics move into different grammatical structures when translating between Basque and English/Spanish.",
+      "audience": null,
+      "builder_usernames": [
+        "mattdeboard"
+      ],
+      "source_excerpt": "I'm working on https://xingolak.pages.dev/\n\nI've been learning Basque and wanted to see a visualization of how the semantics move into different grammatical structures when translating between Basque and English/Spanish.\n\nUnder the hood it's using Stanford NLP to analyze the input then that analysis is given to Claude to generate the data structure needed to visualize the translation.",
+      "evidence": [
+        {
+          "source_item_id": 48530746,
+          "source_field": "body",
+          "value": "I'm working on https://xingolak.pages.dev/\n\nI've been learning Basque and wanted to see a visualization of how the semantics move into different grammatical structures when translating between Basque and English/Spanish.\n\nUnder the hood it's using Stanford NLP to analyze the input then that analysis is given to Claude to generate the data structure needed to visualize the translation.",
+          "supports": [],
+          "author": "mattdeboard",
+          "shared_at": 1781461339,
+          "source_url": "https://news.ycombinator.com/item?id=48530746"
+        }
+      ],
+      "source_item_id": 48530746,
+      "source_url": "https://news.ycombinator.com/item?id=48530746",
+      "author": "mattdeboard",
+      "shared_at": 1781461339,
+      "links": [
+        "https://xingolak.pages.dev/"
+      ]
+    }
+  ]
+}

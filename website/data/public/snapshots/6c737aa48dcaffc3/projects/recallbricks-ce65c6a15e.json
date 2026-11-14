@@ -1,0 +1,33 @@
+{
+  "id": 9258,
+  "slug": "recallbricks-ce65c6a15e",
+  "name": "RecallBricks",
+  "mentions": [
+    {
+      "name": "RecallBricks",
+      "description": "Persistent memory infrastructure for AI coding tools. RecallBricks automatically captures context from coding sessions and makes it available across AI tools via semantic search, working with Cursor, Claude Code, Continue.dev, GitHub Copilot, or any LLM. Ships with Python/TypeScript SDKs, a VS Code extension, and an MCP connector, built on Render API and Supabase (Postgres + pgvector). Currently in private beta with a public launch planned in a few weeks.",
+      "problem": "Every time you switch between AI tools like Cursor, Claude, or ChatGPT, the AI forgets everything, so you spend half your time rebuilding context instead of coding.",
+      "audience": "Developers juggling multiple AI coding assistants",
+      "builder_usernames": [
+        "tylerrecall"
+      ],
+      "source_excerpt": "I'm building RecallBricks - persistent memory infrastructure for AI coding tools.\n\nThe problem: Every time you switch between Cursor, Claude, ChatGPT, your AI forgets everything. You spend half your time rebuilding context instead of coding.\n\nRecallBricks automatically captures context from your coding sessions and makes it available across all AI tools via semantic search.",
+      "evidence": [
+        {
+          "source_item_id": 45887970,
+          "source_field": "body",
+          "value": "I'm building RecallBricks - persistent memory infrastructure for AI coding tools.\n\nThe problem: Every time you switch between Cursor, Claude, ChatGPT, your AI forgets everything. You spend half your time rebuilding context instead of coding.\n\nRecallBricks automatically captures context from your coding sessions and makes it available across all AI tools via semantic search.",
+          "supports": [],
+          "author": "tylerrecall",
+          "shared_at": 1762873186,
+          "source_url": "https://news.ycombinator.com/item?id=45887970"
+        }
+      ],
+      "source_item_id": 45887970,
+      "source_url": "https://news.ycombinator.com/item?id=45887970",
+      "author": "tylerrecall",
+      "shared_at": 1762873186,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 3853,
+  "slug": "interauth-1398124d26",
+  "name": "InterAuth",
+  "mentions": [
+    {
+      "name": "InterAuth",
+      "description": "A tool for sharing a single Google Doc or Sheet with an AI agent without going through the heavyweight OAuth/GCP setup, using disposable email addresses as the workaround for granting access.",
+      "problem": "The author needed a way to share a single Google doc/sheet with an agent and didn't want to go through the heavy OAuth GCP project.",
+      "audience": null,
+      "builder_usernames": [
+        "gkamradt"
+      ],
+      "source_excerpt": "1. https://interauth.dev/\n\nShare a single google doc with your agent (w/o oauth mess)\n\nI needed a way to share a single google doc/sheet with my agent\n\nI didn’t want to go through the heavy oauth gcp project so I’m using disposable email addresses as the work around",
+      "evidence": [
+        {
+          "source_item_id": 48532812,
+          "source_field": "body",
+          "value": "1. https://interauth.dev/\n\nShare a single google doc with your agent (w/o oauth mess)\n\nI needed a way to share a single google doc/sheet with my agent\n\nI didn’t want to go through the heavy oauth gcp project so I’m using disposable email addresses as the work around",
+          "supports": [],
+          "author": "gkamradt",
+          "shared_at": 1781471743,
+          "source_url": "https://news.ycombinator.com/item?id=48532812"
+        }
+      ],
+      "source_item_id": 48532812,
+      "source_url": "https://news.ycombinator.com/item?id=48532812",
+      "author": "gkamradt",
+      "shared_at": 1781471743,
+      "links": [
+        "https://interauth.dev/"
+      ]
+    }
+  ]
+}

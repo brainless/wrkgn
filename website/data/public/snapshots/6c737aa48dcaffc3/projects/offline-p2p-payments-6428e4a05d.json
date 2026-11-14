@@ -1,0 +1,33 @@
+{
+  "id": 8327,
+  "slug": "offline-p2p-payments-6428e4a05d",
+  "name": "Offline P2P Payments",
+  "mentions": [
+    {
+      "name": "Offline P2P Payments",
+      "description": "This project implements offline peer-to-peer payments that work without network reception, acting as an equivalent of digital cash, with an optional NFC component. It is technically ready to ship but on hold due to unresolved legal questions.",
+      "problem": "Payments require network reception, and there is no widely available equivalent of digital cash for performing direct p2p payments offline.",
+      "audience": null,
+      "builder_usernames": [
+        "allkushdiet"
+      ],
+      "source_excerpt": "I’ve been working on offline payments.\n\nImagine direct p2p payments that can be performed without reception.",
+      "evidence": [
+        {
+          "source_item_id": 46270131,
+          "source_field": "body",
+          "value": "I’ve been working on offline payments.\n\nImagine direct p2p payments that can be performed without reception.",
+          "supports": [],
+          "author": "allkushdiet",
+          "shared_at": 1765769526,
+          "source_url": "https://news.ycombinator.com/item?id=46270131"
+        }
+      ],
+      "source_item_id": 46270131,
+      "source_url": "https://news.ycombinator.com/item?id=46270131",
+      "author": "allkushdiet",
+      "shared_at": 1765769526,
+      "links": []
+    }
+  ]
+}

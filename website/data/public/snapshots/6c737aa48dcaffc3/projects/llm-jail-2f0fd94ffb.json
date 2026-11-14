@@ -1,0 +1,35 @@
+{
+  "id": 10152,
+  "slug": "llm-jail-2f0fd94ffb",
+  "name": "LLM-Jail",
+  "mentions": [
+    {
+      "name": "LLM-Jail",
+      "description": "This project is a simple Docker container for containing LLM CLI agents, so they run with limited leeway instead of broad access to the host system. It was created after the builder ran an in-house CTF challenge with no LLM rules and was giving several LLM CLIs a lot of leeway while iterating quickly.",
+      "problem": "LLM CLI agents were being given a lot of leeway with no LLM rules, posing a containment risk when iterating quickly; this provides a containerized way to contain them.",
+      "audience": null,
+      "builder_usernames": [
+        "codazoda"
+      ],
+      "source_excerpt": "LLM-Jail is a Simple Docker Container to Contain Your LLM CLI\n\nhttps://github.com/codazoda/llm-jail",
+      "evidence": [
+        {
+          "source_item_id": 45420143,
+          "source_field": "body",
+          "value": "LLM-Jail is a Simple Docker Container to Contain Your LLM CLI\n\nhttps://github.com/codazoda/llm-jail",
+          "supports": [],
+          "author": "codazoda",
+          "shared_at": 1759188523,
+          "source_url": "https://news.ycombinator.com/item?id=45420143"
+        }
+      ],
+      "source_item_id": 45420143,
+      "source_url": "https://news.ycombinator.com/item?id=45420143",
+      "author": "codazoda",
+      "shared_at": 1759188523,
+      "links": [
+        "https://github.com/codazoda/llm-jail"
+      ]
+    }
+  ]
+}

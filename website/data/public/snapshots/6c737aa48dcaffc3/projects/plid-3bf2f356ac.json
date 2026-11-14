@@ -1,0 +1,33 @@
+{
+  "id": 8206,
+  "slug": "plid-3bf2f356ac",
+  "name": "plid",
+  "mentions": [
+    {
+      "name": "plid",
+      "description": "A Postgres extension, built with pgrx, that builds on ULID to add prefixes to generated identifiers. It provides a gen_plid function that returns prefixed ULID-style IDs such as u_06DHRQH6SJT7N2WEQK4910R, with the aim of matching the storage size of a UUID.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "K0nserv"
+      ],
+      "source_excerpt": "Yesterday I built most of a Postgres extension, using the excellent pgrx[1] project, that build on ulid to add prefixes. With it you get something like this\n\n    plid=# SELECT gen_plid('u');\n         gen_plid\n    ---------------------------\n     u_06DHRQH6SJT7N2WEQK4910R\n    (1 row)",
+      "evidence": [
+        {
+          "source_item_id": 46267821,
+          "source_field": "body",
+          "value": "Yesterday I built most of a Postgres extension, using the excellent pgrx[1] project, that build on ulid to add prefixes. With it you get something like this\n\n    plid=# SELECT gen_plid('u');\n         gen_plid\n    ---------------------------\n     u_06DHRQH6SJT7N2WEQK4910R\n    (1 row)",
+          "supports": [],
+          "author": "K0nserv",
+          "shared_at": 1765751556,
+          "source_url": "https://news.ycombinator.com/item?id=46267821"
+        }
+      ],
+      "source_item_id": 46267821,
+      "source_url": "https://news.ycombinator.com/item?id=46267821",
+      "author": "K0nserv",
+      "shared_at": 1765751556,
+      "links": []
+    }
+  ]
+}

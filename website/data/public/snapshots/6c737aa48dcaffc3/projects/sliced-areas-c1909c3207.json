@@ -1,0 +1,35 @@
+{
+  "id": 7236,
+  "slug": "sliced-areas-c1909c3207",
+  "name": "sliced-areas",
+  "mentions": [
+    {
+      "name": "sliced-areas",
+      "description": "A Vue plugin that provides Blender-like UI areas, built on a pure planar graph, with UI interactions, an API, and customizable styles. It is about 90% done and is intended as a foundation for building gamedev and 3D-artist oriented tools.",
+      "problem": "Vue lacks a Blender-style dockable/split UI area system, so the author is building one to later create SDF-based shader visualization tools.",
+      "audience": null,
+      "builder_usernames": [
+        "kolpaque"
+      ],
+      "source_excerpt": "I'm working on Blender-like UI areas Vue plugin. Pure planar graph, UI interactions, API, styles customization",
+      "evidence": [
+        {
+          "source_item_id": 46941496,
+          "source_field": "body",
+          "value": "I'm working on Blender-like UI areas Vue plugin. Pure planar graph, UI interactions, API, styles customization",
+          "supports": [],
+          "author": "kolpaque",
+          "shared_at": 1770610345,
+          "source_url": "https://news.ycombinator.com/item?id=46941496"
+        }
+      ],
+      "source_item_id": 46941496,
+      "source_url": "https://news.ycombinator.com/item?id=46941496",
+      "author": "kolpaque",
+      "shared_at": 1770610345,
+      "links": [
+        "https://github.com/pavel-voronin/sliced-areas"
+      ]
+    }
+  ]
+}

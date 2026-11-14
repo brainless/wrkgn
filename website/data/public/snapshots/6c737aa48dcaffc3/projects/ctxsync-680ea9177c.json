@@ -1,0 +1,35 @@
+{
+  "id": 6903,
+  "slug": "ctxsync-680ea9177c",
+  "name": "ctxsync",
+  "mentions": [
+    {
+      "name": "ctxsync",
+      "description": "This tool keeps AI chat context up to date by connecting data sources — GitHub repos, documentation sites, and files — and syncing them on demand or on a schedule, so the AI's knowledge stays current without re-uploading data. Each chat runs in isolated containers to prevent cross-contamination, and users supply their own LLM API keys (OpenAI, Anthropic, Kimi-Code). Built with Elixir, Phoenix, Ash, and Oban.",
+      "problem": "Uploading data to ChatGPT repeatedly: after a useful conversation, the data changes and has to be re-uploaded a week later.",
+      "audience": null,
+      "builder_usernames": [
+        "jelvibe25"
+      ],
+      "source_excerpt": "https://ctxsync.com\n\nI got tired of uploading my data to ChatGPT, having a useful conversation, then realizing a week later I need to re-upload again, because data changed. Built ctxsync to fix it:\n\n• Connect GitHub repos, documentation sites, files\n\n• Sync on demand or schedule – your AI's knowledge stays current\n\n• Data isolation: each chat runs in separate containers, no cross-contamination\n\nUses your own LLM API keys (OpenAI, Anthropic, Kimi-Code).",
+      "evidence": [
+        {
+          "source_item_id": 47012840,
+          "source_field": "body",
+          "value": "https://ctxsync.com\n\nI got tired of uploading my data to ChatGPT, having a useful conversation, then realizing a week later I need to re-upload again, because data changed. Built ctxsync to fix it:\n\n• Connect GitHub repos, documentation sites, files\n\n• Sync on demand or schedule – your AI's knowledge stays current\n\n• Data isolation: each chat runs in separate containers, no cross-contamination\n\nUses your own LLM API keys (OpenAI, Anthropic, Kimi-Code).",
+          "supports": [],
+          "author": "jelvibe25",
+          "shared_at": 1771058764,
+          "source_url": "https://news.ycombinator.com/item?id=47012840"
+        }
+      ],
+      "source_item_id": 47012840,
+      "source_url": "https://news.ycombinator.com/item?id=47012840",
+      "author": "jelvibe25",
+      "shared_at": 1771058764,
+      "links": [
+        "https://ctxsync.com"
+      ]
+    }
+  ]
+}

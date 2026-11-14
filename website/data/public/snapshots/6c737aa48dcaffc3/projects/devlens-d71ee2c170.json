@@ -1,0 +1,36 @@
+{
+  "id": 4499,
+  "slug": "devlens-d71ee2c170",
+  "name": "Devlens",
+  "mentions": [
+    {
+      "name": "Devlens",
+      "description": "Devlens visualizes React / Next.js codebases as an interactive graph so developers can understand how features and components connect without manually tracing files. Main focus areas are PR reviews (understanding the blast radius / impact of changes), onboarding to large codebases, and understanding unfamiliar parts of a system faster. It is also experimenting with summaries and security analysis directly on components.",
+      "problem": "Understanding how features and components connect in a codebase currently requires manually tracing files.",
+      "audience": "Developers reviewing PRs and onboarding to large React / Next.js codebases",
+      "builder_usernames": [
+        "shivang2607"
+      ],
+      "source_excerpt": "Been working on a tool called Devlens.\n\nIt visualizes React / Next.js codebases as an interactive graph so you can understand how features and components connect without manually tracing files.",
+      "evidence": [
+        {
+          "source_item_id": 48099316,
+          "source_field": "body",
+          "value": "Been working on a tool called Devlens.\n\nIt visualizes React / Next.js codebases as an interactive graph so you can understand how features and components connect without manually tracing files.",
+          "supports": [],
+          "author": "shivang2607",
+          "shared_at": 1778526587,
+          "source_url": "https://news.ycombinator.com/item?id=48099316"
+        }
+      ],
+      "source_item_id": 48099316,
+      "source_url": "https://news.ycombinator.com/item?id=48099316",
+      "author": "shivang2607",
+      "shared_at": 1778526587,
+      "links": [
+        "https://devlens.io",
+        "https://github.com/devlensio/devlensOSS"
+      ]
+    }
+  ]
+}

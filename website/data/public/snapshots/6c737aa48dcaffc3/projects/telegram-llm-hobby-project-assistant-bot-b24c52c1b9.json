@@ -1,0 +1,33 @@
+{
+  "id": 7496,
+  "slug": "telegram-llm-hobby-project-assistant-bot-b24c52c1b9",
+  "name": "Telegram LLM hobby-project assistant bot",
+  "mentions": [
+    {
+      "name": "Telegram LLM hobby-project assistant bot",
+      "description": "A Telegram bot with an LLM backend and a Markdown knowledgebase that helps organize, track, and research long-term hobby projects. The user texts the bot to request research (e.g., which NAS setup fits given constraints), add chosen options to the plan, and ask for next steps; the bot updates and version-controls the knowledgebase so all project details stay in one place. It is also intended for personal planning, such as fitting activities into a trip itinerary.",
+      "problem": "When researching a project like a home server build through ChatGPT, it is hard to keep all the little details in one place, and existing solutions do not stick to a precise plan that can be reviewed at any given moment.",
+      "audience": null,
+      "builder_usernames": [
+        "penetrarthur"
+      ],
+      "source_excerpt": "I started working on a simple Telegram bot with llm backend and .md knowledgebase that would help me organize, track and research my long-term hobby projects.",
+      "evidence": [
+        {
+          "source_item_id": 46586186,
+          "source_field": "body",
+          "value": "I started working on a simple Telegram bot with llm backend and .md knowledgebase that would help me organize, track and research my long-term hobby projects.",
+          "supports": [],
+          "author": "penetrarthur",
+          "shared_at": 1768211000,
+          "source_url": "https://news.ycombinator.com/item?id=46586186"
+        }
+      ],
+      "source_item_id": 46586186,
+      "source_url": "https://news.ycombinator.com/item?id=46586186",
+      "author": "penetrarthur",
+      "shared_at": 1768211000,
+      "links": []
+    }
+  ]
+}

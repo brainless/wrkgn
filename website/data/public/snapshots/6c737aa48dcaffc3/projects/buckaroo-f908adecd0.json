@@ -1,0 +1,33 @@
+{
+  "id": 9205,
+  "slug": "buckaroo-f908adecd0",
+  "name": "Buckaroo",
+  "mentions": [
+    {
+      "name": "Buckaroo",
+      "description": "A table display library for dataframes in notebook environments that adds analytics features like histograms, summary stats, sorting, and search to every dataframe. It now supports larger-than-memory datasets via lazy polars evaluation that reads arbitrarily large files without loading the whole dataframe into memory, computes summary stats in the background in groups of columns with per-column caching, and uses a Rust polars plugin that hashes columns to enable that caching. An execution framework with multiprocessing-based timeouts recovers from crashes, timeouts, and memory exhaustion, and debugging methods can turn arbitrary groups of polars expressions into a minimal reproduction test case through a git-bisect-like process. The work will be presented at PyData Boston.",
+      "problem": "Exploring large datasets in notebooks is error-prone when done manually (splitting dataframes by columns and rows), and operations on large data often crash, exhaust memory, or run for a very long time; Buckaroo automates background summary stats so they work whenever individual columns fit in memory.",
+      "audience": null,
+      "builder_usernames": [
+        "paddy_m"
+      ],
+      "source_excerpt": "I have been working on Buckaroo - my table display library for dataframes in notebook environments. Buckaroo adds table and analytics features like histograms, summary stats, sorting, and search to every dataframe. Recently I have been working to make it work better with large datasets.",
+      "evidence": [
+        {
+          "source_item_id": 45871981,
+          "source_field": "body",
+          "value": "I have been working on Buckaroo - my table display library for dataframes in notebook environments. Buckaroo adds table and analytics features like histograms, summary stats, sorting, and search to every dataframe. Recently I have been working to make it work better with large datasets.",
+          "supports": [],
+          "author": "paddy_m",
+          "shared_at": 1762744544,
+          "source_url": "https://news.ycombinator.com/item?id=45871981"
+        }
+      ],
+      "source_item_id": 45871981,
+      "source_url": "https://news.ycombinator.com/item?id=45871981",
+      "author": "paddy_m",
+      "shared_at": 1762744544,
+      "links": []
+    }
+  ]
+}

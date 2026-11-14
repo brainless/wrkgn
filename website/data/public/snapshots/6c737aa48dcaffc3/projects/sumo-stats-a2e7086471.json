@@ -1,0 +1,35 @@
+{
+  "id": 9906,
+  "slug": "sumo-stats-a2e7086471",
+  "name": "Sumo Stats",
+  "mentions": [
+    {
+      "name": "Sumo Stats",
+      "description": "This website tracks professional sumo statistics, recording tournament results and kimarite (winning techniques) into a browsable database with charts and match videos. It uses Gemini to automatically process daily match videos, detecting the start and end of each bout, recognizing the wrestlers, and assigning the correct rikishi IDs.",
+      "problem": null,
+      "audience": "Sumo fans and anyone wanting to get into watching sumo",
+      "builder_usernames": [
+        "thgil"
+      ],
+      "source_excerpt": "https://sumostats.com\n\na fun side project to track Sumo stats.\n\nEvery two months there’s a 15-day tournament where 670 rikishi(sumo wrestler) fighting ~160 matches each day. I’m recording all the results and kimarite (winning moves) into a browsable database with charts and videos.\n\nRecently I have been using Gemini to process and edit the daily match videos. It works surprising well. It can detect the start/end of each bout, recognise the wrestlers and assign the correct rikishi id to them.",
+      "evidence": [
+        {
+          "source_item_id": 45421278,
+          "source_field": "body",
+          "value": "https://sumostats.com\n\na fun side project to track Sumo stats.\n\nEvery two months there’s a 15-day tournament where 670 rikishi(sumo wrestler) fighting ~160 matches each day. I’m recording all the results and kimarite (winning moves) into a browsable database with charts and videos.\n\nRecently I have been using Gemini to process and edit the daily match videos. It works surprising well. It can detect the start/end of each bout, recognise the wrestlers and assign the correct rikishi id to them.",
+          "supports": [],
+          "author": "thgil",
+          "shared_at": 1759198935,
+          "source_url": "https://news.ycombinator.com/item?id=45421278"
+        }
+      ],
+      "source_item_id": 45421278,
+      "source_url": "https://news.ycombinator.com/item?id=45421278",
+      "author": "thgil",
+      "shared_at": 1759198935,
+      "links": [
+        "https://sumostats.com"
+      ]
+    }
+  ]
+}

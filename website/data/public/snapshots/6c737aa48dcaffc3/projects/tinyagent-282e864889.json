@@ -1,0 +1,35 @@
+{
+  "id": 10296,
+  "slug": "tinyagent-282e864889",
+  "name": "tinyAgent",
+  "mentions": [
+    {
+      "name": "tinyAgent",
+      "description": "This open-source stack provides a minimal framework for developing AI agents, keeping the learning curve low by avoiding the complexity of larger agent frameworks like CrewAI and LangGraph.",
+      "problem": "Existing agent frameworks have a learning curve more than necessary and include fancy features that go unused.",
+      "audience": null,
+      "builder_usernames": [
+        "mahdiyar"
+      ],
+      "source_excerpt": "So I started building tinyAgent inspired by a post on Huggingface. https://github.com/askbudi/tinyagent",
+      "evidence": [
+        {
+          "source_item_id": 45376520,
+          "source_field": "body",
+          "value": "So I started building tinyAgent inspired by a post on Huggingface. https://github.com/askbudi/tinyagent",
+          "supports": [],
+          "author": "mahdiyar",
+          "shared_at": 1758823528,
+          "source_url": "https://news.ycombinator.com/item?id=45376520"
+        }
+      ],
+      "source_item_id": 45376520,
+      "source_url": "https://news.ycombinator.com/item?id=45376520",
+      "author": "mahdiyar",
+      "shared_at": 1758823528,
+      "links": [
+        "https://github.com/askbudi/tinyagent"
+      ]
+    }
+  ]
+}

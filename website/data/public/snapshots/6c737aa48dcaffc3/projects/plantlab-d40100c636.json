@@ -1,0 +1,36 @@
+{
+  "id": 5107,
+  "slug": "plantlab-d40100c636",
+  "name": "PlantLab",
+  "mentions": [
+    {
+      "name": "PlantLab",
+      "description": "This API delivers AI plant health diagnosis for cannabis: photo in, structured JSON out with condition, confidence, growth stage, and nutrient lockout analysis, with responses designed for machines rather than humans (e.g., a controller dims lights on light burn, a dosing pump adjusts on a flagged lockout). It runs a ViT-based multi-stage pipeline - cannabis verification, condition/pest classification, then nutrient subclassification if needed - covering 30 classes at 18ms inference, served by a Go API on ONNX Runtime and trained on over a million images from growers. A Home Assistant integration takes scheduled camera snapshots and acts on the diagnosis with no human involved, and a simple Android app on Google Play lets people try it out (iOS planned). Solo project with under 100 users; free tier is 3 diagnoses per day.",
+      "problem": "Cannabis grow rooms are already full of automation - VPD controllers, pH/EC monitoring, dosing pumps, dimmable lights - but nothing looks at the plant: every sensor measures the environment, not whether the plant is actually doing well.",
+      "audience": "Cannabis growers with automated grow rooms.",
+      "builder_usernames": [
+        "ctbellmar"
+      ],
+      "source_excerpt": "PlantLab (https://plantlab.ai) - AI plant health diagnosis for cannabis. It's an API, not an app [1]. Photo in, structured JSON out - condition, confidence, growth stage, nutrient lockout analysis.",
+      "evidence": [
+        {
+          "source_item_id": 47751614,
+          "source_field": "body",
+          "value": "PlantLab (https://plantlab.ai) - AI plant health diagnosis for cannabis. It's an API, not an app [1]. Photo in, structured JSON out - condition, confidence, growth stage, nutrient lockout analysis.",
+          "supports": [],
+          "author": "ctbellmar",
+          "shared_at": 1776086593,
+          "source_url": "https://news.ycombinator.com/item?id=47751614"
+        }
+      ],
+      "source_item_id": 47751614,
+      "source_url": "https://news.ycombinator.com/item?id=47751614",
+      "author": "ctbellmar",
+      "shared_at": 1776086593,
+      "links": [
+        "https://plantlab.ai",
+        "https://play.google.com/store/apps/details?id=com.plantlab.plantlab_mobile"
+      ]
+    }
+  ]
+}

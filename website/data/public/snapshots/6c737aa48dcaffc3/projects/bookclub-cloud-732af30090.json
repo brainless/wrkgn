@@ -1,0 +1,35 @@
+{
+  "id": 7000,
+  "slug": "bookclub-cloud-732af30090",
+  "name": "bookclub.cloud",
+  "mentions": [
+    {
+      "name": "bookclub.cloud",
+      "description": "A web tool that leverages DRM-free epubs to help manage book clubs. It provides word counts per reading, chapter selection, the ability to highlight and share sections, and AI-powered summarization plus spoiler-free discussion about a given reading. The author is building infrastructure for running clubs and plans an agent that prompts readers and clubs with questions to encourage deeper critical analysis while reading.",
+      "problem": "Managing book club readings from DRM-free epubs is cumbersome, and DRM-free requirements make the app hard to monetize due to a high barrier for non-technical users.",
+      "audience": "A non-technical readership in book clubs; the author notes the DRM-free epub requirement is a high barrier for most non-technical users.",
+      "builder_usernames": [
+        "_virtu"
+      ],
+      "source_excerpt": "In my spare time https://bookclub.cloud.\n\nIt’s a tool that leverages your drm free ebooks to help manage your book clubs.",
+      "evidence": [
+        {
+          "source_item_id": 46950395,
+          "source_field": "body",
+          "value": "In my spare time https://bookclub.cloud.\n\nIt’s a tool that leverages your drm free ebooks to help manage your book clubs.",
+          "supports": [],
+          "author": "_virtu",
+          "shared_at": 1770667605,
+          "source_url": "https://news.ycombinator.com/item?id=46950395"
+        }
+      ],
+      "source_item_id": 46950395,
+      "source_url": "https://news.ycombinator.com/item?id=46950395",
+      "author": "_virtu",
+      "shared_at": 1770667605,
+      "links": [
+        "https://bookclub.cloud"
+      ]
+    }
+  ]
+}

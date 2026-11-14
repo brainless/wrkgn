@@ -1,0 +1,35 @@
+{
+  "id": 8379,
+  "slug": "rdf-based-activitypub-server-cc45da346b",
+  "name": "RDF-based ActivityPub Server",
+  "mentions": [
+    {
+      "name": "RDF-based ActivityPub Server",
+      "description": "An ActivityPub server built around the principles of RDF, JSON-LD, and the Linked Data Platform. It already works as a generic ActivityPub server and supports the Client-to-Server API, and the author is implementing Lemmy's and Mastodon's APIs on top of it so that existing Lemmy and Mastodon clients can work against it, with the eventual goal of replacing application-specific API calls with direct calls to the Linked Data server.",
+      "problem": "There are no mature clients for the ActivityPub Client-to-Server API, and existing platforms like Lemmy and Mastodon rely on application-specific APIs instead of Linked Data.",
+      "audience": null,
+      "builder_usernames": [
+        "rglullis"
+      ],
+      "source_excerpt": "I'm again toying around with the idea of building an ActivityPub Server built around the principles of RDF, JSON-LD and the Linked Data Platform.",
+      "evidence": [
+        {
+          "source_item_id": 46266562,
+          "source_field": "body",
+          "value": "I'm again toying around with the idea of building an ActivityPub Server built around the principles of RDF, JSON-LD and the Linked Data Platform.",
+          "supports": [],
+          "author": "rglullis",
+          "shared_at": 1765744282,
+          "source_url": "https://news.ycombinator.com/item?id=46266562"
+        }
+      ],
+      "source_item_id": 46266562,
+      "source_url": "https://news.ycombinator.com/item?id=46266562",
+      "author": "rglullis",
+      "shared_at": 1765744282,
+      "links": [
+        "https://activitypub.mushroomlabs.com"
+      ]
+    }
+  ]
+}

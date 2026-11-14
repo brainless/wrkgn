@@ -1,0 +1,35 @@
+{
+  "id": 8491,
+  "slug": "word-collector-ed5b86be5a",
+  "name": "Word Collector",
+  "mentions": [
+    {
+      "name": "Word Collector",
+      "description": "An offline dictionary that runs in the browser, pulling its data from the open source WordNet dataset and caching it locally as a SQLite database. It is installable as a PWA, and planned features include a study mode for reviewing previously looked-up words, synonyms and antonyms, and multi-language support for language learning.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "lukew3"
+      ],
+      "source_excerpt": "An offline dictionary in your browser. Dictionary is pulled from the open source wordnet dataset and cached in browser as a sqlite database. Installable as a PWA as well. Working on adding a study mode to review words that you’ve looked up in the past to help commit them to memory and adding synonyms and antonyms.",
+      "evidence": [
+        {
+          "source_item_id": 46275451,
+          "source_field": "body",
+          "value": "An offline dictionary in your browser. Dictionary is pulled from the open source wordnet dataset and cached in browser as a sqlite database. Installable as a PWA as well. Working on adding a study mode to review words that you’ve looked up in the past to help commit them to memory and adding synonyms and antonyms.",
+          "supports": [],
+          "author": "lukew3",
+          "shared_at": 1765811292,
+          "source_url": "https://news.ycombinator.com/item?id=46275451"
+        }
+      ],
+      "source_item_id": 46275451,
+      "source_url": "https://news.ycombinator.com/item?id=46275451",
+      "author": "lukew3",
+      "shared_at": 1765811292,
+      "links": [
+        "https://wordcollector.netlify.app"
+      ]
+    }
+  ]
+}

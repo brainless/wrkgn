@@ -1,0 +1,35 @@
+{
+  "id": 7551,
+  "slug": "kaosengine-a5dfefe9c4",
+  "name": "KaosEngine",
+  "mentions": [
+    {
+      "name": "KaosEngine",
+      "description": "A platform that generates full-stack multiplayer game code from natural-language descriptions, pairing an AI-assisted game builder with the KaosEngine real-time multiplayer backend. The backend is Rust-powered with WebSocket and RUDP networking using fast ring buffers, plus matchmaking, a Lua runtime with hot-reload, leaderboards, storage, chat, rooms and social features (friends, etc.). SDKs are available for Rust, TypeScript/JavaScript, Unity, Godot and Defold. The Game Studio offers a Monaco-based Lua/HTML IDE, live preview with hot-reload for backend and frontend, chat-based iteration, GitHub sync, and one-click deploy. A Discord and public playground for early access are planned.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ziyasal"
+      ],
+      "source_excerpt": "I've been building a platform that lets you describe a multiplayer game idea in natural language and generates full-stack code for it—frontend (PixiJS, Phaser, Babylon, or Three.js) plus backend (KaosEngine real-time multiplayer framework). You can iterate via chat, preview live, sync to GitHub, and deploy.",
+      "evidence": [
+        {
+          "source_item_id": 46587549,
+          "source_field": "body",
+          "value": "I've been building a platform that lets you describe a multiplayer game idea in natural language and generates full-stack code for it—frontend (PixiJS, Phaser, Babylon, or Three.js) plus backend (KaosEngine real-time multiplayer framework). You can iterate via chat, preview live, sync to GitHub, and deploy.",
+          "supports": [],
+          "author": "ziyasal",
+          "shared_at": 1768220992,
+          "source_url": "https://news.ycombinator.com/item?id=46587549"
+        }
+      ],
+      "source_item_id": 46587549,
+      "source_url": "https://news.ycombinator.com/item?id=46587549",
+      "author": "ziyasal",
+      "shared_at": 1768220992,
+      "links": [
+        "https://github.com/bugthesystem/Kaos"
+      ]
+    }
+  ]
+}

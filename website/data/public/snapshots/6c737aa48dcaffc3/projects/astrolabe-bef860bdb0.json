@@ -1,0 +1,35 @@
+{
+  "id": 3799,
+  "slug": "astrolabe-bef860bdb0",
+  "name": "Astrolabe",
+  "mentions": [
+    {
+      "name": "Astrolabe",
+      "description": "A semantic layer for Nextcloud composed of two open-source services: a Nextcloud app (Astrolabe) and an MCP server backend (nextcloud-mcp-server) that keeps a vector database in sync with Nextcloud content to enable semantic queries. Usable as an MCP server across a number of apps and primarily for semantic search over large numbers of documents, with support for notes, deck cards, files, RSS news items, cookbook recipes, and contacts & calendar, and more apps being added. An EU-based managed offering is also in the works.",
+      "problem": "Individuals and teams that already use Nextcloud want to be able to use semantic search across some or all of their documents.",
+      "audience": "Individuals and teams that already use Nextcloud and want semantic search across some or all of their documents.",
+      "builder_usernames": [
+        "cbcoutinho"
+      ],
+      "source_excerpt": "I'm working on a semantic layer for Nextcloud: https://astrolabecloud.com\n\nThe service is composed of two open-source services, namely a Nextcloud app (Astrolabe) and backend (nextcloud-mcp-server). I use the service as an MCP server across a number of apps, and others use it primarily for semantic search over large numbers of documents.",
+      "evidence": [
+        {
+          "source_item_id": 48530932,
+          "source_field": "body",
+          "value": "I'm working on a semantic layer for Nextcloud: https://astrolabecloud.com\n\nThe service is composed of two open-source services, namely a Nextcloud app (Astrolabe) and backend (nextcloud-mcp-server). I use the service as an MCP server across a number of apps, and others use it primarily for semantic search over large numbers of documents.",
+          "supports": [],
+          "author": "cbcoutinho",
+          "shared_at": 1781462217,
+          "source_url": "https://news.ycombinator.com/item?id=48530932"
+        }
+      ],
+      "source_item_id": 48530932,
+      "source_url": "https://news.ycombinator.com/item?id=48530932",
+      "author": "cbcoutinho",
+      "shared_at": 1781462217,
+      "links": [
+        "https://astrolabecloud.com"
+      ]
+    }
+  ]
+}

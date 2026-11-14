@@ -1,0 +1,35 @@
+{
+  "id": 6291,
+  "slug": "caliper-40b3951ed8",
+  "name": "Caliper",
+  "mentions": [
+    {
+      "name": "Caliper",
+      "description": "An opinionated AI code reviewer that provides fast feedback on code shortly after composition, balancing cost and immediacy to keep up with the volume of AI-generated code. Currently in invite-only alpha.",
+      "problem": "Agentic code construction has broken traditional code review models: the volume of changes is too high for humans to keep up with, and existing automated PR review tools don't catch enough and catch it too late.",
+      "audience": "An opinionated AI code reviewer that provides fast feedback on code shortly after composition, balancing cost and immediacy to keep up with the volume of AI-generated code. Currently in invite-only alpha.",
+      "builder_usernames": [
+        "jtbetz22"
+      ],
+      "source_excerpt": "I've been experimenting with some ideas about a very opinionated AI code reviewer, one that makes an ideal tradeoff between cost and immediacy (eg, how soon after composition does the code get feedback).\n\nCurrently in an invite-only alpha, but check out the landing page and lmk if you'd like to be a trial user!",
+      "evidence": [
+        {
+          "source_item_id": 47307557,
+          "source_field": "body",
+          "value": "I've been experimenting with some ideas about a very opinionated AI code reviewer, one that makes an ideal tradeoff between cost and immediacy (eg, how soon after composition does the code get feedback).\n\nCurrently in an invite-only alpha, but check out the landing page and lmk if you'd like to be a trial user!",
+          "supports": [],
+          "author": "jtbetz22",
+          "shared_at": 1773055021,
+          "source_url": "https://news.ycombinator.com/item?id=47307557"
+        }
+      ],
+      "source_item_id": 47307557,
+      "source_url": "https://news.ycombinator.com/item?id=47307557",
+      "author": "jtbetz22",
+      "shared_at": 1773055021,
+      "links": [
+        "https://getcaliper.dev/"
+      ]
+    }
+  ]
+}

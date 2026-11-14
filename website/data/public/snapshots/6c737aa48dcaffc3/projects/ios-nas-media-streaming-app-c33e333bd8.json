@@ -1,0 +1,35 @@
+{
+  "id": 7670,
+  "slug": "ios-nas-media-streaming-app-c33e333bd8",
+  "name": "iOS NAS Media Streaming App",
+  "mentions": [
+    {
+      "name": "iOS NAS Media Streaming App",
+      "description": "This iOS app streams the user's own music and videos directly from a NAS without a full media server like Plex or Jellyfin and without syncing files locally. Files stream over a VPN (WireGuard/Tailscale), mainly via SFTP/FTP, and play as-is without re-encoding or server-side indexing. Users can browse folders directly or build a lightweight local index for faster artist/album browsing on larger libraries, and a TestFlight beta is available.",
+      "problem": "The author wanted access to their music and videos on their phone without running a full media server like Plex or Jellyfin and without syncing files locally.",
+      "audience": "Wants access to personal music and videos on a phone without running a full media server like Plex or Jellyfin and without syncing files locally.",
+      "builder_usernames": [
+        "andreas_42"
+      ],
+      "source_excerpt": "I’m working on a small iOS app for streaming my own media directly from a NAS.",
+      "evidence": [
+        {
+          "source_item_id": 46579931,
+          "source_field": "body",
+          "value": "I’m working on a small iOS app for streaming my own media directly from a NAS.",
+          "supports": [],
+          "author": "andreas_42",
+          "shared_at": 1768164777,
+          "source_url": "https://news.ycombinator.com/item?id=46579931"
+        }
+      ],
+      "source_item_id": 46579931,
+      "source_url": "https://news.ycombinator.com/item?id=46579931",
+      "author": "andreas_42",
+      "shared_at": 1768164777,
+      "links": [
+        "https://testflight.apple.com/join/PaQAsGcM"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 6144,
+  "slug": "grog-9cedf1eeac",
+  "name": "Grog",
+  "mentions": [
+    {
+      "name": "Grog",
+      "description": "A simpler, \"grug-brained\" alternative to the Bazel build tool, aimed at medium-sized teams for whom Bazel is overkill. It powers the author's internal mono-repo CI.",
+      "problem": "Bazel has a very steep learning curve and is pretty much overkill for most medium-sized teams.",
+      "audience": "Medium-sized teams that find Bazel overkill",
+      "builder_usernames": [
+        "chrismatic"
+      ],
+      "source_excerpt": "I am working on Grog, the “grug-brained” alternative to Bazel. Bazel has a very steep learning curve and is pretty much overkill for most medium-sized teams. Grog already powers all of our internal mono-repo CI and is a lot more fun to work with.",
+      "evidence": [
+        {
+          "source_item_id": 47306339,
+          "source_field": "body",
+          "value": "I am working on Grog, the “grug-brained” alternative to Bazel. Bazel has a very steep learning curve and is pretty much overkill for most medium-sized teams. Grog already powers all of our internal mono-repo CI and is a lot more fun to work with.",
+          "supports": [],
+          "author": "chrismatic",
+          "shared_at": 1773045967,
+          "source_url": "https://news.ycombinator.com/item?id=47306339"
+        }
+      ],
+      "source_item_id": 47306339,
+      "source_url": "https://news.ycombinator.com/item?id=47306339",
+      "author": "chrismatic",
+      "shared_at": 1773045967,
+      "links": [
+        "https://grog.build/why-grog/"
+      ]
+    },
+    {
+      "name": "Grog",
+      "description": "This is a mono-repo build tool that serves as a simple alternative to Bazel. Users provide their build commands and interdependencies, and the tool runs everything in parallel with aggressive caching.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "chrismatic"
+      ],
+      "source_excerpt": "I am working on Grog, the “grug-brained” alternative to Bazel. A mono-repo build tool where all you do is provide your build commands and interdependencies and the Grog will run everything in parallel with aggressive caching.",
+      "evidence": [
+        {
+          "source_item_id": 46274574,
+          "source_field": "body",
+          "value": "I am working on Grog, the “grug-brained” alternative to Bazel. A mono-repo build tool where all you do is provide your build commands and interdependencies and the Grog will run everything in parallel with aggressive caching.",
+          "supports": [],
+          "author": "chrismatic",
+          "shared_at": 1765806936,
+          "source_url": "https://news.ycombinator.com/item?id=46274574"
+        }
+      ],
+      "source_item_id": 46274574,
+      "source_url": "https://news.ycombinator.com/item?id=46274574",
+      "author": "chrismatic",
+      "shared_at": 1765806936,
+      "links": [
+        "https://grog.build/why-grog/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": 9336,
+  "slug": "sql-flow-18ba201d1d",
+  "name": "sql-flow",
+  "mentions": [
+    {
+      "name": "sql-flow",
+      "description": "This is a lightweight Kafka stream processing engine that uses DuckDB as its execution engine, able to handle thousands of messages per second with only a 300MiB runtime.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dm03514"
+      ],
+      "source_excerpt": "DuckDB for stream processing:\n\nhttps://github.com/turbolytics/sql-flow\n\nLightweight kafka stream processing using DuckDB as the execution engine. 300MiB runtime can easily handle thousands of messages / second.",
+      "evidence": [
+        {
+          "source_item_id": 45870666,
+          "source_field": "body",
+          "value": "DuckDB for stream processing:\n\nhttps://github.com/turbolytics/sql-flow\n\nLightweight kafka stream processing using DuckDB as the execution engine. 300MiB runtime can easily handle thousands of messages / second.",
+          "supports": [],
+          "author": "dm03514",
+          "shared_at": 1762733523,
+          "source_url": "https://news.ycombinator.com/item?id=45870666"
+        }
+      ],
+      "source_item_id": 45870666,
+      "source_url": "https://news.ycombinator.com/item?id=45870666",
+      "author": "dm03514",
+      "shared_at": 1762733523,
+      "links": [
+        "https://github.com/turbolytics/sql-flow"
+      ]
+    },
+    {
+      "name": "sql-flow",
+      "description": "This tool is built around DuckDB to provide high-performance stream processing with a rich connector ecosystem.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dm03514"
+      ],
+      "source_excerpt": "I built a streaming tool around duckdb that allows for high performance stream processing and a rich connector ecosystem:\n\nhttps://github.com/turbolytics/sql-flow",
+      "evidence": [
+        {
+          "source_item_id": 44704285,
+          "source_field": "body",
+          "value": "I built a streaming tool around duckdb that allows for high performance stream processing and a rich connector ecosystem:\n\nhttps://github.com/turbolytics/sql-flow",
+          "supports": [],
+          "author": "dm03514",
+          "shared_at": 1753647056,
+          "source_url": "https://news.ycombinator.com/item?id=44704285"
+        }
+      ],
+      "source_item_id": 44704285,
+      "source_url": "https://news.ycombinator.com/item?id=44704285",
+      "author": "dm03514",
+      "shared_at": 1753647056,
+      "links": [
+        "https://github.com/turbolytics/sql-flow"
+      ]
+    },
+    {
+      "name": "SQLFlow",
+      "description": "A lightweight stream processing tool that uses DuckDB to run SQL-based processing on streaming data. It aims to fill the gap between heavyweight JVM-based stream processing systems and bespoke custom solutions by being performant, fully featured, observable, and SQL-capable.",
+      "problem": "The industry lacks lightweight, fully featured stream processing solutions; existing options are either heavyweight JVM-based systems or bespoke custom solutions.",
+      "audience": null,
+      "builder_usernames": [
+        "dm03514"
+      ],
+      "source_excerpt": "Duckdb for streaming data!\n\nhttps://github.com/turbolytics/sql-flow\n\nI think the industry lacks lightweight fully featured stream processing solutions. I think it’s either heavyweight jvm or bespoke custom solutions\n\nSqlflow aims to be a middle ground , performant, fully featured, observable and supports sql",
+      "evidence": [
+        {
+          "source_item_id": 43821191,
+          "source_field": "body",
+          "value": "Duckdb for streaming data!\n\nhttps://github.com/turbolytics/sql-flow\n\nI think the industry lacks lightweight fully featured stream processing solutions. I think it’s either heavyweight jvm or bespoke custom solutions\n\nSqlflow aims to be a middle ground , performant, fully featured, observable and supports sql",
+          "supports": [],
+          "author": "dm03514",
+          "shared_at": 1745846018,
+          "source_url": "https://news.ycombinator.com/item?id=43821191"
+        }
+      ],
+      "source_item_id": 43821191,
+      "source_url": "https://news.ycombinator.com/item?id=43821191",
+      "author": "dm03514",
+      "shared_at": 1745846018,
+      "links": [
+        "https://github.com/turbolytics/sql-flow"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 10116,
+  "slug": "mcp-as-a-service-3186ff24bd",
+  "name": "MCP as a Service",
+  "mentions": [
+    {
+      "name": "MCP as a Service",
+      "description": "A platform that runs MCP servers on demand and makes them reachable at password-protected public URLs. It includes an embedded VNC viewer so users can watch what an AI agent is doing with the server, and it enables using dedicated MCP server instances from tools such as n8n workflows without managing infrastructure.",
+      "problem": "Running dedicated MCP server instances normally requires managing infrastructure.",
+      "audience": null,
+      "builder_usernames": [
+        "ManuelKiessling"
+      ],
+      "source_excerpt": "I‘m building a platform that allows to run MCP servers on demand, making them reachable under a public URL, but password-protected.\nYou also get an embedded VNC viewer, and thus you can watch what an AI-agent is doing with it.\n\nThis makes it possible to use your own, dedicated MCP server instances from, for example, n8n workflows, without thinking about infrastructure.",
+      "evidence": [
+        {
+          "source_item_id": 45422152,
+          "source_field": "body",
+          "value": "I‘m building a platform that allows to run MCP servers on demand, making them reachable under a public URL, but password-protected.\nYou also get an embedded VNC viewer, and thus you can watch what an AI-agent is doing with it.\n\nThis makes it possible to use your own, dedicated MCP server instances from, for example, n8n workflows, without thinking about infrastructure.",
+          "supports": [],
+          "author": "ManuelKiessling",
+          "shared_at": 1759209427,
+          "source_url": "https://news.ycombinator.com/item?id=45422152"
+        }
+      ],
+      "source_item_id": 45422152,
+      "source_url": "https://news.ycombinator.com/item?id=45422152",
+      "author": "ManuelKiessling",
+      "shared_at": 1759209427,
+      "links": [
+        "https://mcp-as-a-service.com"
+      ]
+    }
+  ]
+}

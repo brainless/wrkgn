@@ -1,0 +1,33 @@
+{
+  "id": 3575,
+  "slug": "old-game-wasm-port-fa0800afac",
+  "name": "Old game WASM port",
+  "mentions": [
+    {
+      "name": "Old game WASM port",
+      "description": "A WebAssembly port of an old game written in a mix of C++ and Java with unusual JNI glue, built with Claude's assistance by getting CheerpJ and Emscripten working together; the port has proven difficult and required active manual work, and details are confidential because the game is not the author's.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tombert"
+      ],
+      "source_excerpt": "I have been having Claude port an old game to WASM. I'm sadly not quite yet at liberty to discuss the intimate details on it (since it is not my game), though hopefully that will change soon.",
+      "evidence": [
+        {
+          "source_item_id": 48534217,
+          "source_field": "body",
+          "value": "I have been having Claude port an old game to WASM. I'm sadly not quite yet at liberty to discuss the intimate details on it (since it is not my game), though hopefully that will change soon.",
+          "supports": [],
+          "author": "tombert",
+          "shared_at": 1781479731,
+          "source_url": "https://news.ycombinator.com/item?id=48534217"
+        }
+      ],
+      "source_item_id": 48534217,
+      "source_url": "https://news.ycombinator.com/item?id=48534217",
+      "author": "tombert",
+      "shared_at": 1781479731,
+      "links": []
+    }
+  ]
+}

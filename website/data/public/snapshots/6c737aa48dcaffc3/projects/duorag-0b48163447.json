@@ -1,0 +1,35 @@
+{
+  "id": 5178,
+  "slug": "duorag-0b48163447",
+  "name": "DuoRAG",
+  "mentions": [
+    {
+      "name": "DuoRAG",
+      "description": "This tool is a retrieval-augmented generation system that maintains both a vector store and a SQL database. Usual RAG operations are served by the vector store, while queries requiring counting, summation, or selection are routed to the SQL database. It can start with an initial schema or discover the schema itself, and when a user query cannot be answered, a candidate schema entry is created and populated during a nightly backfill run so the question can be answered later.",
+      "problem": "Existing RAG solutions cannot answer schematic questions such as \"how many X are there\".",
+      "audience": null,
+      "builder_usernames": [
+        "cagz"
+      ],
+      "source_excerpt": "Getting frustrated by not having RAG solutions able to answer schematic questions such as \"how many X are there\", I've created DuoRAG: https://github.com/cagriy/duo-rag",
+      "evidence": [
+        {
+          "source_item_id": 47752031,
+          "source_field": "body",
+          "value": "Getting frustrated by not having RAG solutions able to answer schematic questions such as \"how many X are there\", I've created DuoRAG: https://github.com/cagriy/duo-rag",
+          "supports": [],
+          "author": "cagz",
+          "shared_at": 1776088534,
+          "source_url": "https://news.ycombinator.com/item?id=47752031"
+        }
+      ],
+      "source_item_id": 47752031,
+      "source_url": "https://news.ycombinator.com/item?id=47752031",
+      "author": "cagz",
+      "shared_at": 1776088534,
+      "links": [
+        "https://github.com/cagriy/duo-rag"
+      ]
+    }
+  ]
+}

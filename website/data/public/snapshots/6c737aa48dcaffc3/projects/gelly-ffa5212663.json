@@ -1,0 +1,120 @@
+{
+  "id": 3952,
+  "slug": "gelly-ffa5212663",
+  "name": "Gelly",
+  "mentions": [
+    {
+      "name": "Gelly",
+      "description": "A native client for Linux for streaming media from Navidrome and Jellyfin servers, built with Rust and GTK.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "WD-42"
+      ],
+      "source_excerpt": "Still working on my native navidrome/jellyfin client for Linux. Uses Rust and GTK.",
+      "evidence": [
+        {
+          "source_item_id": 48530626,
+          "source_field": "body",
+          "value": "Still working on my native navidrome/jellyfin client for Linux. Uses Rust and GTK.",
+          "supports": [],
+          "author": "WD-42",
+          "shared_at": 1781460769,
+          "source_url": "https://news.ycombinator.com/item?id=48530626"
+        }
+      ],
+      "source_item_id": 48530626,
+      "source_url": "https://news.ycombinator.com/item?id=48530626",
+      "author": "WD-42",
+      "shared_at": 1781460769,
+      "links": [
+        "https://github.com/Fingel/gelly"
+      ]
+    },
+    {
+      "name": "Gelly",
+      "description": "A native music client for the Jellyfin media server on Linux, written in Rust and GTK. It emphasizes being fast and avoiding Electron or other cross-platform toolkits, and remains under active development roughly six months in with new features still being added.",
+      "problem": "Existing music clients are often slow or rely on Electron and other cross-platform toolkits; users want a fast native alternative.",
+      "audience": null,
+      "builder_usernames": [
+        "WD-42"
+      ],
+      "source_excerpt": "A Jellyfin music client for Linux written in Rust and GTK:\n\nhttps://github.com/Fingel/gelly",
+      "evidence": [
+        {
+          "source_item_id": 46940392,
+          "source_field": "body",
+          "value": "A Jellyfin music client for Linux written in Rust and GTK:\n\nhttps://github.com/Fingel/gelly",
+          "supports": [],
+          "author": "WD-42",
+          "shared_at": 1770599235,
+          "source_url": "https://news.ycombinator.com/item?id=46940392"
+        }
+      ],
+      "source_item_id": 46940392,
+      "source_url": "https://news.ycombinator.com/item?id=46940392",
+      "author": "WD-42",
+      "shared_at": 1770599235,
+      "links": [
+        "https://github.com/Fingel/gelly"
+      ]
+    },
+    {
+      "name": "Gelly",
+      "description": "A native Jellyfin client written in Rust, focused specifically on music playback. It provides a desktop alternative to existing Electron- and web-based Jellyfin music clients and is available on Flathub.",
+      "problem": "Most existing Jellyfin music clients are Electron- or web-based, with no native option.",
+      "audience": null,
+      "builder_usernames": [
+        "WD-42"
+      ],
+      "source_excerpt": "A Jellyfin client written in Rust, specifically for music. Most existing clients are electron or web based and I wanted something native.",
+      "evidence": [
+        {
+          "source_item_id": 46268022,
+          "source_field": "body",
+          "value": "A Jellyfin client written in Rust, specifically for music. Most existing clients are electron or web based and I wanted something native.",
+          "supports": [],
+          "author": "WD-42",
+          "shared_at": 1765753063,
+          "source_url": "https://news.ycombinator.com/item?id=46268022"
+        }
+      ],
+      "source_item_id": 46268022,
+      "source_url": "https://news.ycombinator.com/item?id=46268022",
+      "author": "WD-42",
+      "shared_at": 1765753063,
+      "links": [
+        "https://flathub.org/en/apps/io.m51.Gelly",
+        "https://github.com/Fingel/gelly"
+      ]
+    },
+    {
+      "name": "Gelly",
+      "description": "A native Jellyfin client focused on music, built with Rust and GTK. Gelly lets users browse and play their Jellyfin-hosted music collection (e.g., from ripped CDs and old hard drives) in a desktop application dedicated to music rather than video.",
+      "problem": "Jellyfin is great but lacked a native application focused on music rather than video.",
+      "audience": null,
+      "builder_usernames": [
+        "WD-42"
+      ],
+      "source_excerpt": "I'm building a Jellyfin client focused on music using Rust + GTK:\n\nhttps://github.com/Fingel/gelly",
+      "evidence": [
+        {
+          "source_item_id": 45877005,
+          "source_field": "body",
+          "value": "I'm building a Jellyfin client focused on music using Rust + GTK:\n\nhttps://github.com/Fingel/gelly",
+          "supports": [],
+          "author": "WD-42",
+          "shared_at": 1762789454,
+          "source_url": "https://news.ycombinator.com/item?id=45877005"
+        }
+      ],
+      "source_item_id": 45877005,
+      "source_url": "https://news.ycombinator.com/item?id=45877005",
+      "author": "WD-42",
+      "shared_at": 1762789454,
+      "links": [
+        "https://github.com/Fingel/gelly"
+      ]
+    }
+  ]
+}

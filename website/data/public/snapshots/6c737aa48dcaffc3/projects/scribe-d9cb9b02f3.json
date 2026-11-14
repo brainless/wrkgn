@@ -1,0 +1,35 @@
+{
+  "id": 7738,
+  "slug": "scribe-d9cb9b02f3",
+  "name": "Scribe",
+  "mentions": [
+    {
+      "name": "Scribe",
+      "description": "A tool that reduces AI agent token usage in real-world tasks; comprehensive benchmarks are currently being run, with early results showing roughly 80% token reduction and a writeup planned.",
+      "problem": "AI agents consume excessive tokens in real-world tasks.",
+      "audience": null,
+      "builder_usernames": [
+        "CuriouslyC"
+      ],
+      "source_excerpt": "Now working on comprehensive benchmarks for another tool I built, https://github.com/sibyllinesoft/scribe. Results thus far showing it reducing agent token usage by ~80% in real world tasks, but I need to repeat to get variance. Hopefully I can get a writeup out soon.",
+      "evidence": [
+        {
+          "source_item_id": 46579020,
+          "source_field": "body",
+          "value": "Now working on comprehensive benchmarks for another tool I built, https://github.com/sibyllinesoft/scribe. Results thus far showing it reducing agent token usage by ~80% in real world tasks, but I need to repeat to get variance. Hopefully I can get a writeup out soon.",
+          "supports": [],
+          "author": "CuriouslyC",
+          "shared_at": 1768159907,
+          "source_url": "https://news.ycombinator.com/item?id=46579020"
+        }
+      ],
+      "source_item_id": 46579020,
+      "source_url": "https://news.ycombinator.com/item?id=46579020",
+      "author": "CuriouslyC",
+      "shared_at": 1768159907,
+      "links": [
+        "https://github.com/sibyllinesoft/scribe"
+      ]
+    }
+  ]
+}

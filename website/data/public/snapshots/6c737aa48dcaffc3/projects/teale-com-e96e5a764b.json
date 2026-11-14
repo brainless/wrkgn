@@ -1,0 +1,63 @@
+{
+  "id": 4240,
+  "slug": "teale-com-e96e5a764b",
+  "name": "teale.com",
+  "mentions": [
+    {
+      "name": "teale.com",
+      "description": "Distributed AI inference platform that pools networked devices' spare RAM into shared compute — like folding@home but sharing underutilized memory (while one device owner sleeps, someone else's device is awake and available). Also supports running distributed inference on a private network of company-owned devices.",
+      "problem": "Device RAM sits underutilized; the project puts idle memory from networked devices to work for AI inference.",
+      "audience": "Testers, plus companies interested in running distributed inference powered by their own devices on a private network; the author's company uses 200+ 16GB RAM machines this way.",
+      "builder_usernames": [
+        "taylorhou"
+      ],
+      "source_excerpt": "teale.com - distributed ai inference using networked devices\nessentially folding@home but sharing underutilized ram (when you're asleep, someone else in the world is awake)",
+      "evidence": [
+        {
+          "source_item_id": 48532680,
+          "source_field": "body",
+          "value": "teale.com - distributed ai inference using networked devices\nessentially folding@home but sharing underutilized ram (when you're asleep, someone else in the world is awake)",
+          "supports": [],
+          "author": "taylorhou",
+          "shared_at": 1781470989,
+          "source_url": "https://news.ycombinator.com/item?id=48532680"
+        }
+      ],
+      "source_item_id": 48532680,
+      "source_url": "https://news.ycombinator.com/item?id=48532680",
+      "author": "taylorhou",
+      "shared_at": 1781470989,
+      "links": [
+        "https://teale.com"
+      ]
+    },
+    {
+      "name": "Teale",
+      "description": "Distributed AI inference pool that lets any Mac or iOS device contribute unused RAM to serve AI workloads, with device owners paid for contributing their spare memory. Priced at $0.05 per million tokens and includes multiplayer AI to help meet inference demand.",
+      "problem": "Meeting high demand for AI inference compute by pooling unused RAM from Mac/iOS devices.",
+      "audience": null,
+      "builder_usernames": [
+        "taylorhou"
+      ],
+      "source_excerpt": "Distributed ai inference pool for any Mac/iOS device where devices are paid for contributing unused ram. To help with the demand, also doing multiplayer AI. $0.05/million tokens - teale.com",
+      "evidence": [
+        {
+          "source_item_id": 47750765,
+          "source_field": "body",
+          "value": "Distributed ai inference pool for any Mac/iOS device where devices are paid for contributing unused ram. To help with the demand, also doing multiplayer AI. $0.05/million tokens - teale.com",
+          "supports": [],
+          "author": "taylorhou",
+          "shared_at": 1776081563,
+          "source_url": "https://news.ycombinator.com/item?id=47750765"
+        }
+      ],
+      "source_item_id": 47750765,
+      "source_url": "https://news.ycombinator.com/item?id=47750765",
+      "author": "taylorhou",
+      "shared_at": 1776081563,
+      "links": [
+        "https://teale.com"
+      ]
+    }
+  ]
+}

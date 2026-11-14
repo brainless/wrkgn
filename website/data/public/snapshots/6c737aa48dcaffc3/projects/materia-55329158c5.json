@@ -1,0 +1,94 @@
+{
+  "id": 3711,
+  "slug": "materia-55329158c5",
+  "name": "Materia",
+  "mentions": [
+    {
+      "name": "Materia",
+      "description": "A GitOps continuous delivery tool for Podman quadlets that installs, removes, and updates files, installs secrets, restarts services and dependencies, and rolls back failed updates. It also exposes a Varlink API and is being prepared for a major release.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "stryan"
+      ],
+      "source_excerpt": "Materia is a GitOps continuous delivery tool for Podman quadlets: it handles installing/removing/updating files, installing secrets, restarting services and dependencies, rolling back failed updates, and more.",
+      "evidence": [
+        {
+          "source_item_id": 48531836,
+          "source_field": "body",
+          "value": "Materia is a GitOps continuous delivery tool for Podman quadlets: it handles installing/removing/updating files, installing secrets, restarting services and dependencies, rolling back failed updates, and more.",
+          "supports": [],
+          "author": "stryan",
+          "shared_at": 1781466375,
+          "source_url": "https://news.ycombinator.com/item?id=48531836"
+        }
+      ],
+      "source_item_id": 48531836,
+      "source_url": "https://news.ycombinator.com/item?id=48531836",
+      "author": "stryan",
+      "shared_at": 1781466375,
+      "links": [
+        "https://github.com/stryan/materia",
+        "https://primamateria.systems"
+      ]
+    },
+    {
+      "name": "Materia",
+      "description": "This tool deploys applications with Podman Quadlets. Recent work includes bugfixes, minor feature additions, and incorporating user feedback from the Podman community, where it was recently presented at a Podman User Group community meeting.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "stryan"
+      ],
+      "source_excerpt": "My biggest project is still Materia[0], a tool for deploying applications with Podman Quadlets.",
+      "evidence": [
+        {
+          "source_item_id": 46267857,
+          "source_field": "body",
+          "value": "My biggest project is still Materia[0], a tool for deploying applications with Podman Quadlets.",
+          "supports": [],
+          "author": "stryan",
+          "shared_at": 1765751797,
+          "source_url": "https://news.ycombinator.com/item?id=46267857"
+        }
+      ],
+      "source_item_id": 46267857,
+      "source_url": "https://news.ycombinator.com/item?id=46267857",
+      "author": "stryan",
+      "shared_at": 1765751797,
+      "links": [
+        "https://github.com/stryan/materia",
+        "https://primamateria.systems/"
+      ]
+    },
+    {
+      "name": "Materia",
+      "description": "Materia is a GitOps-style tool for managing Podman Quadlets on hosts, aiming to stay flexible by managing files directly instead of introducing a new compose-like DSL, as an alternative to managing a homelab with Ansible. Version 0.3.0 was recently released.",
+      "problem": "Previous tools in this space tend to peter out over time, and the author wanted an alternative to managing their homelab with Ansible.",
+      "audience": null,
+      "builder_usernames": [
+        "stryan"
+      ],
+      "source_excerpt": "I've been working on a tool called Materia[0] for managing Podman Quadlets on hosts, GitOps style and I think it's really starting to hit its stride.",
+      "evidence": [
+        {
+          "source_item_id": 45421642,
+          "source_field": "body",
+          "value": "I've been working on a tool called Materia[0] for managing Podman Quadlets on hosts, GitOps style and I think it's really starting to hit its stride.",
+          "supports": [],
+          "author": "stryan",
+          "shared_at": 1759203223,
+          "source_url": "https://news.ycombinator.com/item?id=45421642"
+        }
+      ],
+      "source_item_id": 45421642,
+      "source_url": "https://news.ycombinator.com/item?id=45421642",
+      "author": "stryan",
+      "shared_at": 1759203223,
+      "links": [
+        "https://github.com/stryan/materia/releases/tag/v0.3.0",
+        "https://primamateria.systems/"
+      ]
+    }
+  ]
+}

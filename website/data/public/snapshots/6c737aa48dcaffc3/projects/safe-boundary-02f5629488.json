@@ -1,0 +1,35 @@
+{
+  "id": 4635,
+  "slug": "safe-boundary-02f5629488",
+  "name": "Safe Boundary",
+  "mentions": [
+    {
+      "name": "Safe Boundary",
+      "description": "A database security proxy optimized for AI agents that sits in front of databases and uses a fast parser with a full static analysis engine to block destructive queries, rewrite SQL in real time for PII masking, and produce clearer syntax error messages so AI agents can automatically adjust their queries. The full workflow (parsing, static analysis, SQL rewriting, logging) takes under 1ms. Launching for Postgres soon with a Supabase-optimal deployment in progress, followed by Oracle, SQL Server, and MySQL support in coming months.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "metadata"
+      ],
+      "source_excerpt": "Safe Boundary, a database security proxy especially optimized for AI agents:\nhttps://www.spectralcore.com/safeboundary",
+      "evidence": [
+        {
+          "source_item_id": 48094222,
+          "source_field": "body",
+          "value": "Safe Boundary, a database security proxy especially optimized for AI agents:\nhttps://www.spectralcore.com/safeboundary",
+          "supports": [],
+          "author": "metadata",
+          "shared_at": 1778503206,
+          "source_url": "https://news.ycombinator.com/item?id=48094222"
+        }
+      ],
+      "source_item_id": 48094222,
+      "source_url": "https://news.ycombinator.com/item?id=48094222",
+      "author": "metadata",
+      "shared_at": 1778503206,
+      "links": [
+        "https://www.spectralcore.com/safeboundary"
+      ]
+    }
+  ]
+}

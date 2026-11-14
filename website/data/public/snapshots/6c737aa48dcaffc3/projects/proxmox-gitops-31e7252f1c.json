@@ -1,0 +1,36 @@
+{
+  "id": 10257,
+  "slug": "proxmox-gitops-31e7252f1c",
+  "name": "Proxmox-GitOps",
+  "mentions": [
+    {
+      "name": "Proxmox-GitOps",
+      "description": "Open-source, self-contained GitOps environment for provisioning and orchestrating Linux containers (LXC) on Proxmox VE. It encapsulates infrastructure in an extensible monorepository that is recursively resolved from Git submodules at runtime, providing an Infrastructure-as-Code abstraction that automates an entire container-based infrastructure with open standards and a minimal base package.",
+      "problem": "Started as a personal attempt to bring industrial automation and cloud patterns to a Proxmox home server, driven by the question of what a Proxmox-based GitOps automation could look like and how it could be organized.",
+      "audience": "Engineers and self-hosters running Proxmox home servers interested in a self-contained, bootstrappable platform architecture for home automation",
+      "builder_usernames": [
+        "gitopspm"
+      ],
+      "source_excerpt": "I am working on an open-source project named Proxmox-GitOps, a self-contained GitOps environment for provisioning and orchestrating Linux containers (LXC) on Proxmox VE.",
+      "evidence": [
+        {
+          "source_item_id": 45506796,
+          "source_field": "body",
+          "value": "I am working on an open-source project named Proxmox-GitOps, a self-contained GitOps environment for provisioning and orchestrating Linux containers (LXC) on Proxmox VE.",
+          "supports": [],
+          "author": "gitopspm",
+          "shared_at": 1759861387,
+          "source_url": "https://news.ycombinator.com/item?id=45506796"
+        }
+      ],
+      "source_item_id": 45506796,
+      "source_url": "https://news.ycombinator.com/item?id=45506796",
+      "author": "gitopspm",
+      "shared_at": 1759861387,
+      "links": [
+        "https://github.com/stevius10/Proxmox-GitOps",
+        "https://youtu.be/2oXDgbvFCWY"
+      ]
+    }
+  ]
+}

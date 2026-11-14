@@ -1,0 +1,35 @@
+{
+  "id": 7424,
+  "slug": "dwata-2f1c25dafb",
+  "name": "dwata",
+  "mentions": [
+    {
+      "name": "dwata",
+      "description": "dwata is a local-first data extraction tool built around multiple task-specific AI agents. Its first agent scans emails deterministically in Rust—testing keywords and regex patterns, grouping by sender, sorting by email count, and filtering template-based transaction emails—then an AI regex-builder agent takes one email from a group and generates a pattern to extract financial data such as sender, amount, recipient, date, and reference ID. Generated patterns are saved to a local database and replayed across the whole sender group for high-performance extraction without sending each email to an LLM. All storage and processing is local, it is designed to run well on small LLMs up to 20b parameters (currently tested with Google Gemini 3 Flash Preview), and future data types include events, places, people, tasks, and health.",
+      "problem": "Extracting structured financial data from emails normally requires sending every email to an LLM; dwata instead builds reusable regex patterns from a single email, enabling high-performance extraction without per-email LLM calls.",
+      "audience": null,
+      "builder_usernames": [
+        "brainless"
+      ],
+      "source_excerpt": "dwata is built on the idea of multiple, task-specific agents. Right now it has only one agent that can be run on an email to extract regex patterns for financial data. This enables high performance data extraction from emails or documents (in future) without sending each email to an LLM.",
+      "evidence": [
+        {
+          "source_item_id": 46941200,
+          "source_field": "body",
+          "value": "dwata is built on the idea of multiple, task-specific agents. Right now it has only one agent that can be run on an email to extract regex patterns for financial data. This enables high performance data extraction from emails or documents (in future) without sending each email to an LLM.",
+          "supports": [],
+          "author": "brainless",
+          "shared_at": 1770607125,
+          "source_url": "https://news.ycombinator.com/item?id=46941200"
+        }
+      ],
+      "source_item_id": 46941200,
+      "source_url": "https://news.ycombinator.com/item?id=46941200",
+      "author": "brainless",
+      "shared_at": 1770607125,
+      "links": [
+        "https://github.com/brainless/dwata"
+      ]
+    }
+  ]
+}

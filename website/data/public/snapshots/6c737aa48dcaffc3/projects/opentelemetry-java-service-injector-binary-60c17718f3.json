@@ -1,0 +1,33 @@
+{
+  "id": 9048,
+  "slug": "opentelemetry-java-service-injector-binary-60c17718f3",
+  "name": "OpenTelemetry Java service injector binary",
+  "mentions": [
+    {
+      "name": "OpenTelemetry Java service injector binary",
+      "description": "This binary automatically instruments every Java service running on a Linux host machine with the OpenTelemetry Java Agent. It extends the approach of the existing opentelemetry-injector project by supporting multiple service names for different services, covering Tomcat, regular systemd services, and services running inside Docker containers.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "t0duf0du"
+      ],
+      "source_excerpt": "Working on a binary that will instrument every Java service running on Linux host machine with OpenTelemetry Java Agent.\n\nKinda like this (https://github.com/open-telemetry/opentelemetry-injector) but with support of having multiple service name for different services. This includes tomcat, normal systemd services and also services running inside docker containers.",
+      "evidence": [
+        {
+          "source_item_id": 45872600,
+          "source_field": "body",
+          "value": "Working on a binary that will instrument every Java service running on Linux host machine with OpenTelemetry Java Agent.\n\nKinda like this (https://github.com/open-telemetry/opentelemetry-injector) but with support of having multiple service name for different services. This includes tomcat, normal systemd services and also services running inside docker containers.",
+          "supports": [],
+          "author": "t0duf0du",
+          "shared_at": 1762750894,
+          "source_url": "https://news.ycombinator.com/item?id=45872600"
+        }
+      ],
+      "source_item_id": 45872600,
+      "source_url": "https://news.ycombinator.com/item?id=45872600",
+      "author": "t0duf0du",
+      "shared_at": 1762750894,
+      "links": []
+    }
+  ]
+}

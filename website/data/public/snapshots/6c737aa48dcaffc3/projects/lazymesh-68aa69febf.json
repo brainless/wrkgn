@@ -1,0 +1,35 @@
+{
+  "id": 9407,
+  "slug": "lazymesh-68aa69febf",
+  "name": "LazyMesh",
+  "mentions": [
+    {
+      "name": "LazyMesh",
+      "description": "A mesh networking project vaguely inspired by Reticulum and Meshtastic that makes use of existing internet technology while falling back to local links, rather than trying to replace the Internet completely. It is a work in progress, with plans to drop automatic reliable retransmission in favor of per-channel end-to-end acknowledgment.",
+      "problem": "Alternatives like Meshtastic try to replace the Internet completely; this project instead makes use of existing internet tech while falling back to local links.",
+      "audience": null,
+      "builder_usernames": [
+        "eternityforest"
+      ],
+      "source_excerpt": "I have a project vaguely inspired by this and Meshtastic that tries to make use of existing internet tech, while falling back to local links, instead of trying to replace the Internet completely.\n\nIt's very much WIP, I'm planning to get rid of all of the automatic reliable retransmit stuff and replace it with per channel end to end acknowledgment.\nhttps://github.com/EternityForest/LazyMesh#",
+      "evidence": [
+        {
+          "source_item_id": 45871212,
+          "source_field": "body",
+          "value": "I have a project vaguely inspired by this and Meshtastic that tries to make use of existing internet tech, while falling back to local links, instead of trying to replace the Internet completely.\n\nIt's very much WIP, I'm planning to get rid of all of the automatic reliable retransmit stuff and replace it with per channel end to end acknowledgment.\nhttps://github.com/EternityForest/LazyMesh#",
+          "supports": [],
+          "author": "eternityforest",
+          "shared_at": 1762738436,
+          "source_url": "https://news.ycombinator.com/item?id=45871212"
+        }
+      ],
+      "source_item_id": 45871212,
+      "source_url": "https://news.ycombinator.com/item?id=45871212",
+      "author": "eternityforest",
+      "shared_at": 1762738436,
+      "links": [
+        "https://github.com/EternityForest/LazyMesh#"
+      ]
+    }
+  ]
+}

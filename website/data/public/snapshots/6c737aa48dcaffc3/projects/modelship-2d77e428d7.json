@@ -1,0 +1,35 @@
+{
+  "id": 9022,
+  "slug": "modelship-2d77e428d7",
+  "name": "Modelship",
+  "mentions": [
+    {
+      "name": "Modelship",
+      "description": "An ML model-to-app generator that turns ONNX models into applications. Currently supports ONNX models as input and static websites as the target using onnxruntime-web (WASM/WebGPU), with plans to support more model I/O types and additional targets such as REST APIs and CLIs.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rmnclmnt"
+      ],
+      "source_excerpt": "Modelship: https://github.com/datalpia/modelship\nAn ML model to app generator. For now, only ONNX models are supported as input, and only static website as target (onnx runtime web wasm/webgpu). I intend to also work more on it the following weeks/months, especially to support more model I/O types, and add support for more targets (REST API, CLI, etc).",
+      "evidence": [
+        {
+          "source_item_id": 45885018,
+          "source_field": "body",
+          "value": "Modelship: https://github.com/datalpia/modelship\nAn ML model to app generator. For now, only ONNX models are supported as input, and only static website as target (onnx runtime web wasm/webgpu). I intend to also work more on it the following weeks/months, especially to support more model I/O types, and add support for more targets (REST API, CLI, etc).",
+          "supports": [],
+          "author": "rmnclmnt",
+          "shared_at": 1762847202,
+          "source_url": "https://news.ycombinator.com/item?id=45885018"
+        }
+      ],
+      "source_item_id": 45885018,
+      "source_url": "https://news.ycombinator.com/item?id=45885018",
+      "author": "rmnclmnt",
+      "shared_at": 1762847202,
+      "links": [
+        "https://github.com/datalpia/modelship"
+      ]
+    }
+  ]
+}

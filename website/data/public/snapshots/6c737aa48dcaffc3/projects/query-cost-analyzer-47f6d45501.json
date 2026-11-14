@@ -1,0 +1,33 @@
+{
+  "id": 7755,
+  "slug": "query-cost-analyzer-47f6d45501",
+  "name": "Query Cost Analyzer",
+  "mentions": [
+    {
+      "name": "Query Cost Analyzer",
+      "description": "This tool analyzes database query performance and computes it against infrastructure costs to determine the dollar cost per query. When tables are tagged appropriately, it notifies teams about their most costly queries to make it actionable for them to clean up expensive queries.",
+      "problem": null,
+      "audience": "Teams whose tables are tagged appropriately",
+      "builder_usernames": [
+        "devgoth"
+      ],
+      "source_excerpt": "I am working on a query cost analyzer that looks at query performance and does maths against your infrastructure cost to understand what is your dollar cost per query. The idea is that teams (when tables are tagged appropriately) will be notified with their most costly queries and hopefully makes that actionable for teams to clean up some queries.",
+      "evidence": [
+        {
+          "source_item_id": 46578363,
+          "source_field": "body",
+          "value": "I am working on a query cost analyzer that looks at query performance and does maths against your infrastructure cost to understand what is your dollar cost per query. The idea is that teams (when tables are tagged appropriately) will be notified with their most costly queries and hopefully makes that actionable for teams to clean up some queries.",
+          "supports": [],
+          "author": "devgoth",
+          "shared_at": 1768156761,
+          "source_url": "https://news.ycombinator.com/item?id=46578363"
+        }
+      ],
+      "source_item_id": 46578363,
+      "source_url": "https://news.ycombinator.com/item?id=46578363",
+      "author": "devgoth",
+      "shared_at": 1768156761,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 6132,
+  "slug": "bau-lang-35d36909a1",
+  "name": "bau-lang",
+  "mentions": [
+    {
+      "name": "bau-lang",
+      "description": "A new systems programming language designed to be nearly as fast as C, memory safe, and as concise and easy to learn as Python. Work in progress currently focuses on integrating Perceus, a reference-count optimization technique.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "thomasmg"
+      ],
+      "source_excerpt": "Since about two years I'm working on a new systems programming language [1] that is supposed to be nearly as fast as C, memory safe, and as concise and easy to learn as Python. Right now I'm trying to integrate Perceus, the ref-count optimization of Keka.",
+      "evidence": [
+        {
+          "source_item_id": 47307433,
+          "source_field": "body",
+          "value": "Since about two years I'm working on a new systems programming language [1] that is supposed to be nearly as fast as C, memory safe, and as concise and easy to learn as Python. Right now I'm trying to integrate Perceus, the ref-count optimization of Keka.",
+          "supports": [],
+          "author": "thomasmg",
+          "shared_at": 1773054019,
+          "source_url": "https://news.ycombinator.com/item?id=47307433"
+        }
+      ],
+      "source_item_id": 47307433,
+      "source_url": "https://news.ycombinator.com/item?id=47307433",
+      "author": "thomasmg",
+      "shared_at": 1773054019,
+      "links": [
+        "https://github.com/thomasmueller/bau-lang"
+      ]
+    },
+    {
+      "name": "Bau",
+      "description": "A memory-safe systems programming language designed to be nearly as fast as C and Rust while staying as simple and concise as Python. It includes a browser-based playground that compiles via a C compiler to WebAssembly for fast, fully in-browser execution, an online conversion tool to convert and compare source code, and benchmarks.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "thomasmg"
+      ],
+      "source_excerpt": "I'm working on a new memory-safe systems programming language that is supposted to be (almost) as fast as C, Rust etc, but as simple and concise as Python",
+      "evidence": [
+        {
+          "source_item_id": 44707661,
+          "source_field": "body",
+          "value": "I'm working on a new memory-safe systems programming language that is supposted to be (almost) as fast as C, Rust etc, but as simple and concise as Python",
+          "supports": [],
+          "author": "thomasmg",
+          "shared_at": 1753682608,
+          "source_url": "https://news.ycombinator.com/item?id=44707661"
+        }
+      ],
+      "source_item_id": 44707661,
+      "source_url": "https://news.ycombinator.com/item?id=44707661",
+      "author": "thomasmg",
+      "shared_at": 1753682608,
+      "links": [
+        "https://github.com/thomasmueller/bau-lang"
+      ]
+    }
+  ]
+}

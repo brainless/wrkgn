@@ -1,0 +1,35 @@
+{
+  "id": 6294,
+  "slug": "fairvisor-8ea09928c8",
+  "name": "Fairvisor",
+  "mentions": [
+    {
+      "name": "Fairvisor",
+      "description": "API governance and usage control tool that acts as a guardrail in front of an API. It offers per-tenant and per-route rate limits, request budgets with soft/hard caps, and anomaly alerts for sudden spikes. The edge component is open source (OpenResty/Nginx + Lua), while the SaaS part provides policy management and audit.",
+      "problem": "One buggy integration, scraper, or infinite retry loop can suddenly explode API costs or overload infrastructure before anyone notices.",
+      "audience": "Validating whether teams would use something like this instead of building internal scripts.",
+      "builder_usernames": [
+        "levleontiev"
+      ],
+      "source_excerpt": "Working on Fairvisor — a tool for API governance and usage control.",
+      "evidence": [
+        {
+          "source_item_id": 47307338,
+          "source_field": "body",
+          "value": "Working on Fairvisor — a tool for API governance and usage control.",
+          "supports": [],
+          "author": "levleontiev",
+          "shared_at": 1773053285,
+          "source_url": "https://news.ycombinator.com/item?id=47307338"
+        }
+      ],
+      "source_item_id": 47307338,
+      "source_url": "https://news.ycombinator.com/item?id=47307338",
+      "author": "levleontiev",
+      "shared_at": 1773053285,
+      "links": [
+        "https://github.com/fairvisor/edge"
+      ]
+    }
+  ]
+}

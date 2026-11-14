@@ -1,0 +1,33 @@
+{
+  "id": 5888,
+  "slug": "yay-compiler-e70de90b39",
+  "name": "Yay compiler",
+  "mentions": [
+    {
+      "name": "Yay compiler",
+      "description": "A clean-room reimplementation of Jon Blow's Jai compiler written in 100k+ lines of Rust, able to compile a very significant subset of the publicly available Jai source code. Development was planned using LLMs to condense public information about the language, and correctness is validated by ensuring every example in the 'Way to Jai' tutorial compiles and works as intended, fixing errors and missing features one by one.",
+      "problem": "Jai is a closed-beta language the author has been curious about for years but has no access to, so there is no way to use or explore the compiler.",
+      "audience": null,
+      "builder_usernames": [
+        "fcatalan"
+      ],
+      "source_excerpt": "Yay compiler:\nThe other ongoing thing is a clean room reimplementation of Jon Blow's Jai. I've been curious about the language for years, but it's a closed beta and for some reason I've never felt about asking Jon to get into it.",
+      "evidence": [
+        {
+          "source_item_id": 47749053,
+          "source_field": "body",
+          "value": "Yay compiler:\nThe other ongoing thing is a clean room reimplementation of Jon Blow's Jai. I've been curious about the language for years, but it's a closed beta and for some reason I've never felt about asking Jon to get into it.",
+          "supports": [],
+          "author": "fcatalan",
+          "shared_at": 1776066864,
+          "source_url": "https://news.ycombinator.com/item?id=47749053"
+        }
+      ],
+      "source_item_id": 47749053,
+      "source_url": "https://news.ycombinator.com/item?id=47749053",
+      "author": "fcatalan",
+      "shared_at": 1776066864,
+      "links": []
+    }
+  ]
+}

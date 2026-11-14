@@ -1,0 +1,35 @@
+{
+  "id": 8064,
+  "slug": "raymenuz-66a2c742b7",
+  "name": "raymenuz",
+  "mentions": [
+    {
+      "name": "raymenuz",
+      "description": "A hot reloadable menu library for raylib/raygui applications written in Zig, intended as a developer menu for raylib games that lets you add or remove game state fields on screen without recompiling.",
+      "problem": "Adding or removing game state fields to and from the screen previously required recompiling; the library enables hot reloading so this can be done without a rebuild.",
+      "audience": "Raylib/raygui application and game developers",
+      "builder_usernames": [
+        "philajan"
+      ],
+      "source_excerpt": "A hot reloadable menu library for raylib / raygui applications in Zig.\n\nhttps://github.com/pajanowski/raymenuz\n\nI want to use this for future raylib games as a developer menu.",
+      "evidence": [
+        {
+          "source_item_id": 46482691,
+          "source_field": "body",
+          "value": "A hot reloadable menu library for raylib / raygui applications in Zig.\n\nhttps://github.com/pajanowski/raymenuz\n\nI want to use this for future raylib games as a developer menu.",
+          "supports": [],
+          "author": "philajan",
+          "shared_at": 1767481628,
+          "source_url": "https://news.ycombinator.com/item?id=46482691"
+        }
+      ],
+      "source_item_id": 46482691,
+      "source_url": "https://news.ycombinator.com/item?id=46482691",
+      "author": "philajan",
+      "shared_at": 1767481628,
+      "links": [
+        "https://github.com/pajanowski/raymenuz"
+      ]
+    }
+  ]
+}

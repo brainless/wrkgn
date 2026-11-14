@@ -1,0 +1,35 @@
+{
+  "id": 3597,
+  "slug": "pcbjam-kicad-web-port-e83eb40ff7",
+  "name": "PCBJam (KiCad web port)",
+  "mentions": [
+    {
+      "name": "PCBJam (KiCad web port)",
+      "description": "This app is a web port of KiCad with real-time collaboration, letting multiple people work on PCB designs together in the browser. After ~6 months of development it is launching in a few weeks, with a landing page where users can sign up for the alpha cohort.",
+      "problem": "Turning an offline desktop app into a collaborative one involved many unknowns, such as whether it could be fast enough and whether the graphics parts could be ported to the web.",
+      "audience": null,
+      "builder_usernames": [
+        "ViktorEE"
+      ],
+      "source_excerpt": "KiCad web port, with real time collaboration. I've been working on it for the last ~6 months on and off, I have some help now. It's close, we're launching in a few weeks ( hopefully this one ).",
+      "evidence": [
+        {
+          "source_item_id": 48540482,
+          "source_field": "body",
+          "value": "KiCad web port, with real time collaboration. I've been working on it for the last ~6 months on and off, I have some help now. It's close, we're launching in a few weeks ( hopefully this one ).",
+          "supports": [],
+          "author": "ViktorEE",
+          "shared_at": 1781527725,
+          "source_url": "https://news.ycombinator.com/item?id=48540482"
+        }
+      ],
+      "source_item_id": 48540482,
+      "source_url": "https://news.ycombinator.com/item?id=48540482",
+      "author": "ViktorEE",
+      "shared_at": 1781527725,
+      "links": [
+        "https://www.pcbjam.com/"
+      ]
+    }
+  ]
+}

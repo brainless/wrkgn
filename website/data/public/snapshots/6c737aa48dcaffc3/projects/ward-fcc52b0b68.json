@@ -1,0 +1,35 @@
+{
+  "id": 9097,
+  "slug": "ward-fcc52b0b68",
+  "name": "Ward",
+  "mentions": [
+    {
+      "name": "Ward",
+      "description": "Ward is a security browser extension that uses Gemini Nano, an on-device LLM, to scan the DOM for phishing, scams, and other threats, acting like an antivirus for everyday web users. It was built for the Google Chrome Built-in AI Challenge 2025 and submitted to the Chrome Web Store, with an offline local-device LLM design chosen to maximize privacy.",
+      "problem": "Everyday web users, including young children, older adults, and less savvy individuals, are vulnerable to phishing, scams, and other web threats.",
+      "audience": "Less tech-savvy everyday web users such as young children and older adults, plus organizations evaluating it as an enterprise anti-phishing solution.",
+      "builder_usernames": [
+        "greenbeans12"
+      ],
+      "source_excerpt": "We’re building Ward, a security browser extension that uses Gemini Nano, an on-device LLM, to scan for phishing, scams, and other threats from the DOM.",
+      "evidence": [
+        {
+          "source_item_id": 45876000,
+          "source_field": "body",
+          "value": "We’re building Ward, a security browser extension that uses Gemini Nano, an on-device LLM, to scan for phishing, scams, and other threats from the DOM.",
+          "supports": [],
+          "author": "greenbeans12",
+          "shared_at": 1762782643,
+          "source_url": "https://news.ycombinator.com/item?id=45876000"
+        }
+      ],
+      "source_item_id": 45876000,
+      "source_url": "https://news.ycombinator.com/item?id=45876000",
+      "author": "greenbeans12",
+      "shared_at": 1762782643,
+      "links": [
+        "https://tryward.app"
+      ]
+    }
+  ]
+}

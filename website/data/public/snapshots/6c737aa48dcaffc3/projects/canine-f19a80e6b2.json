@@ -1,0 +1,35 @@
+{
+  "id": 6263,
+  "slug": "canine-f19a80e6b2",
+  "name": "Canine",
+  "mentions": [
+    {
+      "name": "Canine",
+      "description": "An open source platform that turns an existing Kubernetes cluster into a Heroku-like PaaS, making deployments user friendly with built-in support for teams and roles so small companies can run their own hosting without dedicated devops.",
+      "problem": "Teams get stuck between not wanting to spend time on devops and being price gouged by Heroku: too big for deploy-to-a-VPS options like Coolify but too small to justify hiring a full-time DevOps, with no existing tool that just worked on their Kubernetes cluster.",
+      "audience": "Teams and small startups that need app hosting without spending heavily on devops or hiring a full-time DevOps engineer",
+      "builder_usernames": [
+        "czhu12"
+      ],
+      "source_excerpt": "I’ve been working on an open source tool that turns your Kubernetes into a Heroku like PaaS — https://canine.sh — for about two years",
+      "evidence": [
+        {
+          "source_item_id": 47304015,
+          "source_field": "body",
+          "value": "I’ve been working on an open source tool that turns your Kubernetes into a Heroku like PaaS — https://canine.sh — for about two years",
+          "supports": [],
+          "author": "czhu12",
+          "shared_at": 1773021843,
+          "source_url": "https://news.ycombinator.com/item?id=47304015"
+        }
+      ],
+      "source_item_id": 47304015,
+      "source_url": "https://news.ycombinator.com/item?id=47304015",
+      "author": "czhu12",
+      "shared_at": 1773021843,
+      "links": [
+        "https://canine.sh"
+      ]
+    }
+  ]
+}

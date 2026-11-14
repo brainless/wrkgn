@@ -1,0 +1,35 @@
+{
+  "id": 3735,
+  "slug": "laravel-openapi-a8fee8717a",
+  "name": "laravel-openapi",
+  "mentions": [
+    {
+      "name": "laravel-openapi",
+      "description": "An API documentation generator for Laravel applications that infers API documentation from Laravel conventions, type hints, doc comments, and static analysis, minimizing the need for explicit annotations; targeted attributes can annotate route handlers where inference isn't possible. It outputs an OpenAPI specification and serves it by default via a Scalar playground. It includes a linter command that checks whether all API routes are properly documented, correctly typed, and style-consistent, supports linting only dirty files, reports coverage in standard formats, and can automatically fix some classes of errors. It also ships with tooling to regularly test the library against open source Laravel applications with published OpenAPI specs to catch improvements and regressions.",
+      "problem": null,
+      "audience": "Laravel developers",
+      "builder_usernames": [
+        "9dev"
+      ],
+      "source_excerpt": "An API documentation generator for Laravel apps: https://github.com/Radiergummi/laravel-openapi",
+      "evidence": [
+        {
+          "source_item_id": 48532587,
+          "source_field": "body",
+          "value": "An API documentation generator for Laravel apps: https://github.com/Radiergummi/laravel-openapi",
+          "supports": [],
+          "author": "9dev",
+          "shared_at": 1781470578,
+          "source_url": "https://news.ycombinator.com/item?id=48532587"
+        }
+      ],
+      "source_item_id": 48532587,
+      "source_url": "https://news.ycombinator.com/item?id=48532587",
+      "author": "9dev",
+      "shared_at": 1781470578,
+      "links": [
+        "https://github.com/Radiergummi/laravel-openapi"
+      ]
+    }
+  ]
+}

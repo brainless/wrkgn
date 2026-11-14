@@ -1,0 +1,35 @@
+{
+  "id": 6197,
+  "slug": "codelogic-aa68e55bce",
+  "name": "CodeLogic",
+  "mentions": [
+    {
+      "name": "CodeLogic",
+      "description": "This system uses graph differentials to understand what has changed between library versions and upgrades target applications without breaking them. It scans the bytecode of an application and the new library (since source isn't always available), builds a full graph of each component in Neo4j to determine which breaking changes impact the target application, then translates the results into tickets and prompts that drive an LLM to make the appropriate changes. It supports Java and .Net, with support for other languages actively being added.",
+      "problem": "Handling library upgrades is rarely interesting and adds to overall technical debt, so automating it lets teams focus on features and functionality.",
+      "audience": "Software development teams that need to handle library upgrades without breaking their applications.",
+      "builder_usernames": [
+        "btylke"
+      ],
+      "source_excerpt": "I'm developing a system that uses graph differentials to understand what has changed between library versions and upgrades the target system without breaking things. [0]\n\nBecause source isn’t always available, it scans the bytecode of an application and the new library, building a full graph of each component in Neo4j to determine what breaking changes impact the target application. This is then translated into tickets and prompts to drive an LLM to make the appropriate changes.",
+      "evidence": [
+        {
+          "source_item_id": 47308104,
+          "source_field": "body",
+          "value": "I'm developing a system that uses graph differentials to understand what has changed between library versions and upgrades the target system without breaking things. [0]\n\nBecause source isn’t always available, it scans the bytecode of an application and the new library, building a full graph of each component in Neo4j to determine what breaking changes impact the target application. This is then translated into tickets and prompts to drive an LLM to make the appropriate changes.",
+          "supports": [],
+          "author": "btylke",
+          "shared_at": 1773058826,
+          "source_url": "https://news.ycombinator.com/item?id=47308104"
+        }
+      ],
+      "source_item_id": 47308104,
+      "source_url": "https://news.ycombinator.com/item?id=47308104",
+      "author": "btylke",
+      "shared_at": 1773058826,
+      "links": [
+        "https://codelogic.com/"
+      ]
+    }
+  ]
+}

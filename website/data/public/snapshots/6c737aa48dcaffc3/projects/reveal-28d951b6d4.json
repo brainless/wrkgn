@@ -1,0 +1,35 @@
+{
+  "id": 6137,
+  "slug": "reveal-28d951b6d4",
+  "name": "Reveal",
+  "mentions": [
+    {
+      "name": "Reveal",
+      "description": "Open-source color separation engine for screen printing that reduces a full-color image to 3-10 spot colors (not CMYK or simulated process). The core is pure, zero-dependency JavaScript working in Lab color space using Wu quantization, CIE perceptual distance metrics, and a DNA fingerprinting system that matches each image to one of 20+ built-in archetypes (Golden Hour, Dark Portrait, Fine Art Scan, etc.). Includes a browser-based web UI (requires Node.js) where you drop an image and get 4 possible separations side by side, exportable as layered OpenRaster (GIMP/Krita), flat PNG, or layered PSD (Photoshop), plus a CLI and Photoshop plugin. Apache 2.0 licensed.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "electrosaur"
+      ],
+      "source_excerpt": "I'm building Reveal, an open-source color separation engine for screen printing. It takes a full-color image and reduces it to 3-10 spot colors.",
+      "evidence": [
+        {
+          "source_item_id": 47352223,
+          "source_field": "body",
+          "value": "I'm building Reveal, an open-source color separation engine for screen printing. It takes a full-color image and reduces it to 3-10 spot colors.",
+          "supports": [],
+          "author": "electrosaur",
+          "shared_at": 1773329452,
+          "source_url": "https://news.ycombinator.com/item?id=47352223"
+        }
+      ],
+      "source_item_id": 47352223,
+      "source_url": "https://news.ycombinator.com/item?id=47352223",
+      "author": "electrosaur",
+      "shared_at": 1773329452,
+      "links": [
+        "https://github.com/electrosaur-labs/reveal"
+      ]
+    }
+  ]
+}

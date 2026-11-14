@@ -1,0 +1,35 @@
+{
+  "id": 4536,
+  "slug": "general-problem-solver-b49786c75a",
+  "name": "General Problem Solver",
+  "mentions": [
+    {
+      "name": "General Problem Solver",
+      "description": "This is an AI-driven \"general problem solver\" (planned to focus on math problems first) built around an orchestrator that directs and structures the problem-solving approach based on the number of rounds remaining and other problem context, influencing the behavior of specialist LLM agents. You initialize it with an objective and a number of rounds; specialists apply patches to named artifacts (e.g. uncertainties, dead ends, findings) each round, which are injected into prompts in subsequent rounds instead of accumulating a single long context. It supports manually stepping one round at a time or running continuously, and the Rust engine ships with a web UI, CLI, and a config editor for defining specialists, artifact sets, and orchestrator prompting.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "westoncb"
+      ],
+      "source_excerpt": "I've been building this \"general problem solver\" (will likely focus on math problems first) that uses a special kind of orchestrator to direct/structure the problem solving approach in accordance with how many 'rounds' remain and other aspects of problem context.",
+      "evidence": [
+        {
+          "source_item_id": 48089503,
+          "source_field": "body",
+          "value": "I've been building this \"general problem solver\" (will likely focus on math problems first) that uses a special kind of orchestrator to direct/structure the problem solving approach in accordance with how many 'rounds' remain and other aspects of problem context.",
+          "supports": [],
+          "author": "westoncb",
+          "shared_at": 1778458027,
+          "source_url": "https://news.ycombinator.com/item?id=48089503"
+        }
+      ],
+      "source_item_id": 48089503,
+      "source_url": "https://news.ycombinator.com/item?id=48089503",
+      "author": "westoncb",
+      "shared_at": 1778458027,
+      "links": [
+        "https://x.com/Westoncb/status/2053429329233895857"
+      ]
+    }
+  ]
+}

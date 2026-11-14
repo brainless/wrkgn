@@ -1,0 +1,35 @@
+{
+  "id": 3790,
+  "slug": "mcpforge-a66ca7c978",
+  "name": "MCPForge",
+  "mentions": [
+    {
+      "name": "MCPForge",
+      "description": "This tool takes an OpenAPI spec or Postman collection and creates a hosted MCP endpoint, so existing APIs can be exposed to AI agents like Claude, Cursor, or other agents. It handles auth injection, tool permissions, and prevents destructive endpoints from being exposed by default.",
+      "problem": "Exposing an existing API to AI agents repeatedly requires parsing OpenAPI specs, generating tools, handling auth, deploying, and maintaining an MCP server; the bigger challenges are authentication, permissions, endpoint selection, and safely exposing production APIs to AI agents.",
+      "audience": "Developers using MCP in production",
+      "builder_usernames": [
+        "MCPForge"
+      ],
+      "source_excerpt": "MCPForge takes an OpenAPI spec or Postman collection and creates a hosted MCP endpoint. Recently, I've been spending more time on auth injection, tool permissions, and preventing destructive endpoints from being exposed by default than on generation itself.",
+      "evidence": [
+        {
+          "source_item_id": 48538442,
+          "source_field": "body",
+          "value": "MCPForge takes an OpenAPI spec or Postman collection and creates a hosted MCP endpoint. Recently, I've been spending more time on auth injection, tool permissions, and preventing destructive endpoints from being exposed by default than on generation itself.",
+          "supports": [],
+          "author": "MCPForge",
+          "shared_at": 1781513437,
+          "source_url": "https://news.ycombinator.com/item?id=48538442"
+        }
+      ],
+      "source_item_id": 48538442,
+      "source_url": "https://news.ycombinator.com/item?id=48538442",
+      "author": "MCPForge",
+      "shared_at": 1781513437,
+      "links": [
+        "https://www.mcpforge.tech"
+      ]
+    }
+  ]
+}

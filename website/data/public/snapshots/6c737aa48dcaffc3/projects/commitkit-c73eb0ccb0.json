@@ -1,0 +1,33 @@
+{
+  "id": 8989,
+  "slug": "commitkit-c73eb0ccb0",
+  "name": "CommitKit",
+  "mentions": [
+    {
+      "name": "CommitKit",
+      "description": "CommitKit is a command-line tool that scans a repository for the user's commits, groups them by feature or theme using embeddings, and generates professional CV bullet points or STAR-based behavioral interview summaries. It runs locally using Ollama, so commit messages and diffs never leave the machine. It is still early, with the commit clustering not yet grouping commits as hoped.",
+      "problem": "Reconstructing what you accomplished at a job is painful once you lose access to your repos, such as after layoffs, and years of accumulated commit history is an impossible amount to summarize manually.",
+      "audience": "Engineers, especially those preparing résumés and behavioral interviews after job changes or layoffs, who need to summarize large amounts of commit history",
+      "builder_usernames": [
+        "toomanyrichies"
+      ],
+      "source_excerpt": "So I'm building CommitKit, a command-line tool that scans your repo for your commits, groups them by feature or theme using embeddings, and generates professional CV bullet points or behavioral interview summaries.  It runs locally using Ollama, so your commit messages and diffs never leave your machine.",
+      "evidence": [
+        {
+          "source_item_id": 45876266,
+          "source_field": "body",
+          "value": "So I'm building CommitKit, a command-line tool that scans your repo for your commits, groups them by feature or theme using embeddings, and generates professional CV bullet points or behavioral interview summaries.  It runs locally using Ollama, so your commit messages and diffs never leave your machine.",
+          "supports": [],
+          "author": "toomanyrichies",
+          "shared_at": 1762784380,
+          "source_url": "https://news.ycombinator.com/item?id=45876266"
+        }
+      ],
+      "source_item_id": 45876266,
+      "source_url": "https://news.ycombinator.com/item?id=45876266",
+      "author": "toomanyrichies",
+      "shared_at": 1762784380,
+      "links": []
+    }
+  ]
+}

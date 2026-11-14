@@ -1,0 +1,36 @@
+{
+  "id": 9872,
+  "slug": "llmring-bd00b605ba",
+  "name": "LLMRing",
+  "mentions": [
+    {
+      "name": "LLMRing",
+      "description": "A unified interface across OpenAI, Anthropic, Google, and Ollama so the same code works with all providers. Code references model aliases (e.g. \"summarizer\") that a version-controlled lockfile maps to actual models, letting you switch providers by changing the lockfile rather than the code. It handles streaming, tool calling, and structured output consistently across providers, ships with an MCP server and client plus an interactive chat for defining aliases/models, and includes a human-curated registry of current model capabilities and pricing. A Postgres-backed open source server stores logs and costs. MIT licensed.",
+      "problem": "Model IDs get hardcoded and each provider's API differs, making it hard to switch LLM providers or keep model choices under version control.",
+      "audience": "Developers building applications that call multiple LLM providers",
+      "builder_usernames": [
+        "juanre"
+      ],
+      "source_excerpt": "LLMRing\n\nhttps://llmring.ai\n\nis a unified interface across OpenAI, Anthropic, Google, and Ollama - same code works with all providers.\n\nUse aliases instead of hardcoding model IDs. Your code references \"summarizer\", and a version-controlled lockfile maps it to the actual model. Switch providers by changing the lockfile, not your code.",
+      "evidence": [
+        {
+          "source_item_id": 45425097,
+          "source_field": "body",
+          "value": "LLMRing\n\nhttps://llmring.ai\n\nis a unified interface across OpenAI, Anthropic, Google, and Ollama - same code works with all providers.\n\nUse aliases instead of hardcoding model IDs. Your code references \"summarizer\", and a version-controlled lockfile maps it to the actual model. Switch providers by changing the lockfile, not your code.",
+          "supports": [],
+          "author": "juanre",
+          "shared_at": 1759238551,
+          "source_url": "https://news.ycombinator.com/item?id=45425097"
+        }
+      ],
+      "source_item_id": 45425097,
+      "source_url": "https://news.ycombinator.com/item?id=45425097",
+      "author": "juanre",
+      "shared_at": 1759238551,
+      "links": [
+        "https://llmring.ai",
+        "https://llmring.github.io/registry/"
+      ]
+    }
+  ]
+}

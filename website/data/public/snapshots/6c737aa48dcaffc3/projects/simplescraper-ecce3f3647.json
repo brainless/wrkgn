@@ -1,0 +1,35 @@
+{
+  "id": 6321,
+  "slug": "simplescraper-ecce3f3647",
+  "name": "Simplescraper",
+  "mentions": [
+    {
+      "name": "Simplescraper",
+      "description": "Simplescraper is a web scraping tool that extracts instant structured data from websites without writing HTML parsing code. Launched on Hacker News and grown into a business, it is expanding its surface area for AI agents with MCP support, a screenshots API, and an experimental x402 payment protocol integration.",
+      "problem": "Extracting structured data from websites traditionally requires writing HTML parsing code.",
+      "audience": null,
+      "builder_usernames": [
+        "welanes"
+      ],
+      "source_excerpt": "Data extraction: https://simplescraper.io\n\nA project that I launched on HN that became a business. Simplescraper rode the no-code wave of a few years back ('instant structured data without parsing html').\n\nNow working on increasing the surface area for AI agents: MCP support, screenshots API, and (experimentally) x402[1]",
+      "evidence": [
+        {
+          "source_item_id": 47304038,
+          "source_field": "body",
+          "value": "Data extraction: https://simplescraper.io\n\nA project that I launched on HN that became a business. Simplescraper rode the no-code wave of a few years back ('instant structured data without parsing html').\n\nNow working on increasing the surface area for AI agents: MCP support, screenshots API, and (experimentally) x402[1]",
+          "supports": [],
+          "author": "welanes",
+          "shared_at": 1773021978,
+          "source_url": "https://news.ycombinator.com/item?id=47304038"
+        }
+      ],
+      "source_item_id": 47304038,
+      "source_url": "https://news.ycombinator.com/item?id=47304038",
+      "author": "welanes",
+      "shared_at": 1773021978,
+      "links": [
+        "https://simplescraper.io"
+      ]
+    }
+  ]
+}

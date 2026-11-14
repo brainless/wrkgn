@@ -1,0 +1,35 @@
+{
+  "id": 4063,
+  "slug": "profiler-md-4ee3e4b938",
+  "name": "profiler-md",
+  "mentions": [
+    {
+      "name": "profiler-md",
+      "description": "A CLI that converts performance profiles into Markdown that is friendly for both humans and LLMs. It is gaining a diffing feature to compare before vs after profiles and ships with a skill that lets a coding agent profile and optimize code.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tomeraberbach"
+      ],
+      "source_excerpt": "I've been working on a CLI that converts performance profiles to human and LLM friendly Markdown:\n\nhttps://github.com/TomerAberbach/profiler-md\n\nCurrently working on a diffing feature to compare before vs after profiles.\n\nIt also comes with a skill to have a coding agent profile and optimize your code!",
+      "evidence": [
+        {
+          "source_item_id": 48532544,
+          "source_field": "body",
+          "value": "I've been working on a CLI that converts performance profiles to human and LLM friendly Markdown:\n\nhttps://github.com/TomerAberbach/profiler-md\n\nCurrently working on a diffing feature to compare before vs after profiles.\n\nIt also comes with a skill to have a coding agent profile and optimize your code!",
+          "supports": [],
+          "author": "tomeraberbach",
+          "shared_at": 1781470318,
+          "source_url": "https://news.ycombinator.com/item?id=48532544"
+        }
+      ],
+      "source_item_id": 48532544,
+      "source_url": "https://news.ycombinator.com/item?id=48532544",
+      "author": "tomeraberbach",
+      "shared_at": 1781470318,
+      "links": [
+        "https://github.com/TomerAberbach/profiler-md"
+      ]
+    }
+  ]
+}

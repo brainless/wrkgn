@@ -1,0 +1,35 @@
+{
+  "id": 8350,
+  "slug": "text-editor-dt-943d14e674",
+  "name": "text-editor-dt",
+  "mentions": [
+    {
+      "name": "text-editor-dt",
+      "description": "A text editor that lets users discuss specified file folders with AI agents for knowledge work, similar to VS Code with chat but aimed at non-technical users and non-code work. It organizes the context needed for AI discussion and makes chatbot output easy to quickly edit, instead of copy-pasting through infinite-scroll chat interfaces.",
+      "problem": "Existing LLM interfaces make it hard to provide and organize the context needed for discussion, requiring too much copy-paste into and out of infinite-scroll chat, and their output is tough to quickly edit and discuss with the chatbot.",
+      "audience": null,
+      "builder_usernames": [
+        "chillenberger"
+      ],
+      "source_excerpt": "I am working on a text-editor that allows you to discuss specified file folders with AI agents for knowledge work.  It is similar to vs code with chat but for non-technical users and not for code.",
+      "evidence": [
+        {
+          "source_item_id": 46277702,
+          "source_field": "body",
+          "value": "I am working on a text-editor that allows you to discuss specified file folders with AI agents for knowledge work.  It is similar to vs code with chat but for non-technical users and not for code.",
+          "supports": [],
+          "author": "chillenberger",
+          "shared_at": 1765820490,
+          "source_url": "https://news.ycombinator.com/item?id=46277702"
+        }
+      ],
+      "source_item_id": 46277702,
+      "source_url": "https://news.ycombinator.com/item?id=46277702",
+      "author": "chillenberger",
+      "shared_at": 1765820490,
+      "links": [
+        "https://github.com/chillenberger/text-editor-dt"
+      ]
+    }
+  ]
+}

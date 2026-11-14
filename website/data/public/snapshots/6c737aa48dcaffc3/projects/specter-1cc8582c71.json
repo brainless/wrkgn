@@ -1,0 +1,35 @@
+{
+  "id": 3961,
+  "slug": "specter-1cc8582c71",
+  "name": "Specter",
+  "mentions": [
+    {
+      "name": "Specter",
+      "description": "A plugin for Ghidra that brings semi-deterministic AI agent workflows to Ghidra. It adds a terminal-like interface to Ghidra's code browser where users can chat or run DSL queries. Its SQL engine is being replaced with Apache Calcite.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "csnate"
+      ],
+      "source_excerpt": "I'm building a plugin for Ghidra called Specter that aims to bring semi-deterministic agent workflows to Ghidra. It adds a terminal like interface to Ghidra's code browser where you can chat or run DSL queries.",
+      "evidence": [
+        {
+          "source_item_id": 48529967,
+          "source_field": "body",
+          "value": "I'm building a plugin for Ghidra called Specter that aims to bring semi-deterministic agent workflows to Ghidra. It adds a terminal like interface to Ghidra's code browser where you can chat or run DSL queries.",
+          "supports": [],
+          "author": "csnate",
+          "shared_at": 1781457865,
+          "source_url": "https://news.ycombinator.com/item?id=48529967"
+        }
+      ],
+      "source_item_id": 48529967,
+      "source_url": "https://news.ycombinator.com/item?id=48529967",
+      "author": "csnate",
+      "shared_at": 1781457865,
+      "links": [
+        "https://github.com/coldentry/Specter"
+      ]
+    }
+  ]
+}

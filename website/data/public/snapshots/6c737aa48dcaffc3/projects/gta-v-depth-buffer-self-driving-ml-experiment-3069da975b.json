@@ -1,0 +1,33 @@
+{
+  "id": 8272,
+  "slug": "gta-v-depth-buffer-self-driving-ml-experiment-3069da975b",
+  "name": "GTA V depth buffer self-driving ML experiment",
+  "mentions": [
+    {
+      "name": "GTA V depth buffer self-driving ML experiment",
+      "description": "This project hacks GTA V's graphics pipeline to gain access to the game's depth buffer, which is then fed into a self-driving machine learning model. It is framed as a learning exercise in intercepting game processes and extracting data, going beyond existing tools like ReShade and DX11 hooks, with the goal of generalizing the technique to other types of data and processes.",
+      "problem": null,
+      "audience": "personal-use",
+      "builder_usernames": [
+        "mxkopy"
+      ],
+      "source_excerpt": "Hacking GTA V’s graphics pipeline to get access to the depth buffer, so I can feed it into a self-driving machine learning model.",
+      "evidence": [
+        {
+          "source_item_id": 46268873,
+          "source_field": "body",
+          "value": "Hacking GTA V’s graphics pipeline to get access to the depth buffer, so I can feed it into a self-driving machine learning model.",
+          "supports": [],
+          "author": "mxkopy",
+          "shared_at": 1765759181,
+          "source_url": "https://news.ycombinator.com/item?id=46268873"
+        }
+      ],
+      "source_item_id": 46268873,
+      "source_url": "https://news.ycombinator.com/item?id=46268873",
+      "author": "mxkopy",
+      "shared_at": 1765759181,
+      "links": []
+    }
+  ]
+}

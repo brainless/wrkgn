@@ -1,0 +1,36 @@
+{
+  "id": 6029,
+  "slug": "greenmask-9eeea5def5",
+  "name": "Greenmask",
+  "mentions": [
+    {
+      "name": "Greenmask",
+      "description": "Database anonymization and synthetic data generation tool. Active work adds MySQL support and introduces a framework that makes implementing support for new DBMSs much simpler, aiming to make Greenmask more extensible so the community can add other databases without digging through the internal architecture. The first beta of this new approach has been published, with the focus now on stabilizing it and making it production-ready.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "woyten"
+      ],
+      "source_excerpt": "Currently working on adding MySQL support to Greenmask (a database anonymization and synthetic data generation tool).",
+      "evidence": [
+        {
+          "source_item_id": 47326796,
+          "source_field": "body",
+          "value": "Currently working on adding MySQL support to Greenmask (a database anonymization and synthetic data generation tool).",
+          "supports": [],
+          "author": "woyten",
+          "shared_at": 1773166122,
+          "source_url": "https://news.ycombinator.com/item?id=47326796"
+        }
+      ],
+      "source_item_id": 47326796,
+      "source_url": "https://news.ycombinator.com/item?id=47326796",
+      "author": "woyten",
+      "shared_at": 1773166122,
+      "links": [
+        "https://github.com/GreenmaskIO/greenmask/issues/222",
+        "https://github.com/GreenmaskIO/greenmask/releases/tag/v1.0.0b1"
+      ]
+    }
+  ]
+}

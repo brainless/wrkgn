@@ -1,0 +1,35 @@
+{
+  "id": 10409,
+  "slug": "kiln-e35d12b891",
+  "name": "kiln",
+  "mentions": [
+    {
+      "name": "kiln",
+      "description": "This tool manages encrypted environment variables for teams. Variables are encrypted with age, protected by RBAC access control, and come with a development workflow for running ad-hoc commands, exporting, and templating that integrates into CI/CD and local development. Encrypted secrets are stored in Git so everything is version-controlled in a single place.",
+      "problem": "Existing tools like age and SOPS lack good UX around encryption for team-based workflows; CI vars don't support local deploys, and tools like Vault are painful to manage.",
+      "audience": "Teams, with a developer-first experience for large teams",
+      "builder_usernames": [
+        "pacmansyyu"
+      ],
+      "source_excerpt": "I've been working on an encrypted environment variables management tool, called kiln[1], for teams.",
+      "evidence": [
+        {
+          "source_item_id": 44703672,
+          "source_field": "body",
+          "value": "I've been working on an encrypted environment variables management tool, called kiln[1], for teams.",
+          "supports": [],
+          "author": "pacmansyyu",
+          "shared_at": 1753642930,
+          "source_url": "https://news.ycombinator.com/item?id=44703672"
+        }
+      ],
+      "source_item_id": 44703672,
+      "source_url": "https://news.ycombinator.com/item?id=44703672",
+      "author": "pacmansyyu",
+      "shared_at": 1753642930,
+      "links": [
+        "https://kiln.sh"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 9058,
+  "slug": "hilbert-qusim-dc82202deb",
+  "name": "hilbert-qusim",
+  "mentions": [
+    {
+      "name": "hilbert-qusim",
+      "description": "A quantum simulator written in C++ from scratch without using any external libraries, implementing its own lazy evaluation structure, eigen solvers, and other core components. Currently a work in progress.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "lofri"
+      ],
+      "source_excerpt": "I’m working on a quantum simulator written in C++ from scratch. I’m not using any external library, so I had to implement everything from the lazy eval structure to the eigen solvers and so on. It’s still very a WIP, but here’s the repo: https://github.com/braketware/hilbert-qusim",
+      "evidence": [
+        {
+          "source_item_id": 45873366,
+          "source_field": "body",
+          "value": "I’m working on a quantum simulator written in C++ from scratch. I’m not using any external library, so I had to implement everything from the lazy eval structure to the eigen solvers and so on. It’s still very a WIP, but here’s the repo: https://github.com/braketware/hilbert-qusim",
+          "supports": [],
+          "author": "lofri",
+          "shared_at": 1762759707,
+          "source_url": "https://news.ycombinator.com/item?id=45873366"
+        }
+      ],
+      "source_item_id": 45873366,
+      "source_url": "https://news.ycombinator.com/item?id=45873366",
+      "author": "lofri",
+      "shared_at": 1762759707,
+      "links": [
+        "https://github.com/braketware/hilbert-qusim"
+      ]
+    }
+  ]
+}

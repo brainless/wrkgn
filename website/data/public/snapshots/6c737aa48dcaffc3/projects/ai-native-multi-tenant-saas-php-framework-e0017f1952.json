@@ -1,0 +1,33 @@
+{
+  "id": 4344,
+  "slug": "ai-native-multi-tenant-saas-php-framework-e0017f1952",
+  "name": "AI-native multi-tenant SaaS PHP framework",
+  "mentions": [
+    {
+      "name": "AI-native multi-tenant SaaS PHP framework",
+      "description": "A custom PHP framework powering an AI-native multi-tenant SaaS with zero vendor dependencies and no Kubernetes, Docker, or CI vendors. It runs in production on a Hetzner shared host with a closed-loop self-healing pipeline: APM/WAF/logger critical alerts trigger a Telegram message with analyze/ignore buttons, tapping it opens GitHub where an AI routine drafts a pull request for human review; after merge it snapshots the DB and git sha, deploys via git reset --hard in 0.6 seconds, and a queue worker runs a 5-minute health check. It also includes an EU AI Act registry that auto-discovers AI systems, GDPR features, statistical (not %-delta) performance regression detection using Mann-Kendall, Theil-Sen, and Cohen, and per-domain database routing.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "shinobi-apps"
+      ],
+      "source_excerpt": "custom php framework ai native multi tenant saas, 0 vendor dependencies, closed loop self healing in production on hetzner shared host, no k8s, no docker no ci vendor.",
+      "evidence": [
+        {
+          "source_item_id": 48643967,
+          "source_field": "body",
+          "value": "custom php framework ai native multi tenant saas, 0 vendor dependencies, closed loop self healing in production on hetzner shared host, no k8s, no docker no ci vendor.",
+          "supports": [],
+          "author": "shinobi-apps",
+          "shared_at": 1782217775,
+          "source_url": "https://news.ycombinator.com/item?id=48643967"
+        }
+      ],
+      "source_item_id": 48643967,
+      "source_url": "https://news.ycombinator.com/item?id=48643967",
+      "author": "shinobi-apps",
+      "shared_at": 1782217775,
+      "links": []
+    }
+  ]
+}

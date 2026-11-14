@@ -1,0 +1,35 @@
+{
+  "id": 5176,
+  "slug": "eima-4163e45b8d",
+  "name": "Eima",
+  "mentions": [
+    {
+      "name": "Eima",
+      "description": "This app combines a todo list and calendar, letting users schedule their todos by simply dragging them onto the calendar. It specializes in multi-occurrence todos, such as recurring todos or tasks needing multiple attempts, which prior todo-calendar tools did not handle well. Access is available with the code EARLYEIMA.",
+      "problem": "Similar todo-calendar apps were largely VC-backed, pivoted to AI, and focused on enterprise users and trends, resulting in unsatisfying todo-focused calendar experiences; multi-occurrence todos like recurring tasks or tasks requiring multiple attempts were not addressed by prior tools.",
+      "audience": "Eima focuses on personal use rather than enterprise users, unlike similar prior tools.",
+      "builder_usernames": [
+        "tracyhenry"
+      ],
+      "source_excerpt": "I'm building Eima (https://eima.app) which combines your Todo List and Calendar, allowing you to schedule your todos by simply dragging them onto the calendar.",
+      "evidence": [
+        {
+          "source_item_id": 47746084,
+          "source_field": "body",
+          "value": "I'm building Eima (https://eima.app) which combines your Todo List and Calendar, allowing you to schedule your todos by simply dragging them onto the calendar.",
+          "supports": [],
+          "author": "tracyhenry",
+          "shared_at": 1776040157,
+          "source_url": "https://news.ycombinator.com/item?id=47746084"
+        }
+      ],
+      "source_item_id": 47746084,
+      "source_url": "https://news.ycombinator.com/item?id=47746084",
+      "author": "tracyhenry",
+      "shared_at": 1776040157,
+      "links": [
+        "https://eima.app"
+      ]
+    }
+  ]
+}

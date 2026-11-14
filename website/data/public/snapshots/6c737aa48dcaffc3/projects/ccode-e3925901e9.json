@@ -1,0 +1,63 @@
+{
+  "id": 3850,
+  "slug": "ccode-e3925901e9",
+  "name": "ccode",
+  "mentions": [
+    {
+      "name": "ccode",
+      "description": "A launcher for Claude Code that makes it easy to swap between third-party provider profiles.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "KronisLV"
+      ],
+      "source_excerpt": "Also working on a Claude Code launcher that allows easily swapping between 3rd party provider profiles: https://ccode.kronis.dev/",
+      "evidence": [
+        {
+          "source_item_id": 48538213,
+          "source_field": "body",
+          "value": "Also working on a Claude Code launcher that allows easily swapping between 3rd party provider profiles: https://ccode.kronis.dev/",
+          "supports": [],
+          "author": "KronisLV",
+          "shared_at": 1781511766,
+          "source_url": "https://news.ycombinator.com/item?id=48538213"
+        }
+      ],
+      "source_item_id": 48538213,
+      "source_url": "https://news.ycombinator.com/item?id=48538213",
+      "author": "KronisLV",
+      "shared_at": 1781511766,
+      "links": [
+        "https://ccode.kronis.dev/"
+      ]
+    },
+    {
+      "name": "ccode",
+      "description": "A small launcher CLI for Claude Code that simplifies switching between different AI providers and configurations. It manages a config file (init/edit-config), launches default or per-provider profiles (e.g. DeepSeek API, OpenRouter models and presets), supports Remote Control sessions that appear in the web/desktop app, and can override default permissions. Source available with pre-built binaries distributed on itch.io under a pay-what-you-want model, and the Mac build is now code-signed. Planned feature: an Anthropic API to OpenAI API proxy so providers without direct Anthropic API support can be used, with dynamic model switching mid-session via a local endpoint.",
+      "problem": "Makes it easier to switch Claude Code between providers and configurations, e.g. keeping a subscription usable after downgrading from Max to Pro while also running sessions with less expensive or local models.",
+      "audience": null,
+      "builder_usernames": [
+        "KronisLV"
+      ],
+      "source_excerpt": "A small launcher for Claude Code, to make switching between different providers and configurations easier:\n\nhttps://ccode.kronis.dev/",
+      "evidence": [
+        {
+          "source_item_id": 48086867,
+          "source_field": "body",
+          "value": "A small launcher for Claude Code, to make switching between different providers and configurations easier:\n\nhttps://ccode.kronis.dev/",
+          "supports": [],
+          "author": "KronisLV",
+          "shared_at": 1778440300,
+          "source_url": "https://news.ycombinator.com/item?id=48086867"
+        }
+      ],
+      "source_item_id": 48086867,
+      "source_url": "https://news.ycombinator.com/item?id=48086867",
+      "author": "KronisLV",
+      "shared_at": 1778440300,
+      "links": [
+        "https://ccode.kronis.dev/"
+      ]
+    }
+  ]
+}

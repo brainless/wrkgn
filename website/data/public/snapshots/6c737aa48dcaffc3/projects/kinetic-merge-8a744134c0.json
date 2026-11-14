@@ -1,0 +1,35 @@
+{
+  "id": 3898,
+  "slug": "kinetic-merge-8a744134c0",
+  "name": "Kinetic Merge",
+  "mentions": [
+    {
+      "name": "Kinetic Merge",
+      "description": "A CLI tool for merging Git repositories that goes beyond core Git merge by following code as it moves between locations: code shifting within a file, a file splitting into multiple files, or a new file accumulating code that used to live in several files—the kind of movement produced by refactorings and automated code tidy-ups. Written in Scala and packaged as a standalone executable requiring a JVM >= 17, running on Linux, Windows and macOS.",
+      "problem": "Git tracks file renames and merges through them, but it does not follow code moving around inside a file, files being split into pieces, or code consolidating into new files, which is common in refactorings and automated code tidy-ups.",
+      "audience": "CLI users who merge Git repositories",
+      "builder_usernames": [
+        "sageserpent"
+      ],
+      "source_excerpt": "Kinetic Merge - it's a CLI tool for merging in Git repositories. What it gives over and above the core Git merge is the ability to merge through the motion of code from one location to another.",
+      "evidence": [
+        {
+          "source_item_id": 48541811,
+          "source_field": "body",
+          "value": "Kinetic Merge - it's a CLI tool for merging in Git repositories. What it gives over and above the core Git merge is the ability to merge through the motion of code from one location to another.",
+          "supports": [],
+          "author": "sageserpent",
+          "shared_at": 1781533683,
+          "source_url": "https://news.ycombinator.com/item?id=48541811"
+        }
+      ],
+      "source_item_id": 48541811,
+      "source_url": "https://news.ycombinator.com/item?id=48541811",
+      "author": "sageserpent",
+      "shared_at": 1781533683,
+      "links": [
+        "https://github.com/sageserpent-open/kineticMerge"
+      ]
+    }
+  ]
+}

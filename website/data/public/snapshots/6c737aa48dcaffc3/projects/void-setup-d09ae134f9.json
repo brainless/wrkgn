@@ -1,0 +1,35 @@
+{
+  "id": 7997,
+  "slug": "void-setup-d09ae134f9",
+  "name": "void-setup",
+  "mentions": [
+    {
+      "name": "void-setup",
+      "description": "A set of install scripts and dotfiles for building up a base Void Linux install (used to revive a 15-year-old ThinkPad), designed to make the setup repeatable on other machines or when doing a fresh reinstall.",
+      "problem": "The author had never kept organized dotfiles or a repeatable install process in 17+ years as a programmer, making fresh OS installs hard to reproduce.",
+      "audience": "Personal use — repeating the setup process on the author's own machines and for fresh reinstalls",
+      "builder_usernames": [
+        "cickpass_broken"
+      ],
+      "source_excerpt": "Looking to revive my 15 year old ThinkPad (1st laptop ever!) by building up from a base Void linux install. As I'm doing it I'm writing install-scripts and getting my dotfiles in order (after never really doing so for 17+ years as a programmer lol), so I can repeat the process in the future on other machines, or when I want to do a fresh re-install.",
+      "evidence": [
+        {
+          "source_item_id": 46580130,
+          "source_field": "body",
+          "value": "Looking to revive my 15 year old ThinkPad (1st laptop ever!) by building up from a base Void linux install. As I'm doing it I'm writing install-scripts and getting my dotfiles in order (after never really doing so for 17+ years as a programmer lol), so I can repeat the process in the future on other machines, or when I want to do a fresh re-install.",
+          "supports": [],
+          "author": "cickpass_broken",
+          "shared_at": 1768165909,
+          "source_url": "https://news.ycombinator.com/item?id=46580130"
+        }
+      ],
+      "source_item_id": 46580130,
+      "source_url": "https://news.ycombinator.com/item?id=46580130",
+      "author": "cickpass_broken",
+      "shared_at": 1768165909,
+      "links": [
+        "https://github.com/staydecent/void-setup"
+      ]
+    }
+  ]
+}

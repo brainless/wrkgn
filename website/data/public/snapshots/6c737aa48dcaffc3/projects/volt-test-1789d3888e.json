@@ -1,0 +1,35 @@
+{
+  "id": 9080,
+  "slug": "volt-test-1789d3888e",
+  "name": "Volt-Test",
+  "mentions": [
+    {
+      "name": "Volt-Test",
+      "description": "This is a performance testing engine that brings k6-style load testing to the PHP ecosystem. It comprises a Go-based load-testing engine and a PHP SDK that lets developers write performance tests inside PHPUnit, with assertions for latency, error rates, and business logic. It can spin up local servers and run in CI/CD, is gaining distributed mode to scale tests across multiple nodes, and a cloud version is in development so teams can run large tests without managing infrastructure.",
+      "problem": "Repeatedly debugging concurrency and race-condition issues in Laravel/PHP applications, with no k6-like load-testing tool in the PHP ecosystem",
+      "audience": "Laravel and PHP developers writing performance/load tests",
+      "builder_usernames": [
+        "elwafa"
+      ],
+      "source_excerpt": "I'm working on Volt-Test, a performance testing engine I started building after repeatedly debugging concurrency and race-condition issues in Laravel/PHP applications.\n\nThe idea is to bring something like k6 to the PHP ecosystem:\n\nA Go-based load-testing engine\n\nA PHP SDK that lets developers write performance tests inside PHPUnit\n\nAssertions for latency, error rates, and business logic\n\nCan spin up local servers and run in CI/CD\n\nWorking on distributed mode to scale tests across multiple nodes\n\nCurrently building the cloud version so teams can run large tests without managing infrastructure",
+      "evidence": [
+        {
+          "source_item_id": 45915103,
+          "source_field": "body",
+          "value": "I'm working on Volt-Test, a performance testing engine I started building after repeatedly debugging concurrency and race-condition issues in Laravel/PHP applications.\n\nThe idea is to bring something like k6 to the PHP ecosystem:\n\nA Go-based load-testing engine\n\nA PHP SDK that lets developers write performance tests inside PHPUnit\n\nAssertions for latency, error rates, and business logic\n\nCan spin up local servers and run in CI/CD\n\nWorking on distributed mode to scale tests across multiple nodes\n\nCurrently building the cloud version so teams can run large tests without managing infrastructure",
+          "supports": [],
+          "author": "elwafa",
+          "shared_at": 1763043228,
+          "source_url": "https://news.ycombinator.com/item?id=45915103"
+        }
+      ],
+      "source_item_id": 45915103,
+      "source_url": "https://news.ycombinator.com/item?id=45915103",
+      "author": "elwafa",
+      "shared_at": 1763043228,
+      "links": [
+        "https://php.volt-test.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 8104,
+  "slug": "plimsoll-line-abd6f68df4",
+  "name": "Plimsoll Line",
+  "mentions": [
+    {
+      "name": "Plimsoll Line",
+      "description": "An iOS app built on top of the Apple Reminders app that assigns each todo item an impact multiplier between -1.0 and +1.0, giving tasks emotional weights. The net weight of the items indicates overall mood or emotional burden and is visualized as a water line that rises as the net weight becomes more negative, with planned features to nudge the user into addressing a rising water line. It has no signup, subscription, or PII collection, and is monetized only via a tip jar through App Store IAP.",
+      "problem": "Ships have a max-load line (the Plimsoll Line) to prevent overloading, but the author's todo list had no equivalent way to surface emotional load; the app exists to make emotional burden visible and put mental health above raw productivity.",
+      "audience": "Personal use: the author built it to lower their own stress and anxiety, with the emotional weight of each item surfacing their overall mood.",
+      "builder_usernames": [
+        "tunaoftheland"
+      ],
+      "source_excerpt": "https://plimsoll-line.app\n\nI learned that ships have a \"max load\" line (or Plimsoll Line) https://en.wikipedia.org/wiki/Load_line_(watercraft) to prevent overloading them with cargos, but my todo list didn't. So I built an app to surface my emotional load and put mental health above raw productivity.",
+      "evidence": [
+        {
+          "source_item_id": 46274509,
+          "source_field": "body",
+          "value": "https://plimsoll-line.app\n\nI learned that ships have a \"max load\" line (or Plimsoll Line) https://en.wikipedia.org/wiki/Load_line_(watercraft) to prevent overloading them with cargos, but my todo list didn't. So I built an app to surface my emotional load and put mental health above raw productivity.",
+          "supports": [],
+          "author": "tunaoftheland",
+          "shared_at": 1765806597,
+          "source_url": "https://news.ycombinator.com/item?id=46274509"
+        }
+      ],
+      "source_item_id": 46274509,
+      "source_url": "https://news.ycombinator.com/item?id=46274509",
+      "author": "tunaoftheland",
+      "shared_at": 1765806597,
+      "links": [
+        "https://plimsoll-line.app"
+      ]
+    }
+  ]
+}

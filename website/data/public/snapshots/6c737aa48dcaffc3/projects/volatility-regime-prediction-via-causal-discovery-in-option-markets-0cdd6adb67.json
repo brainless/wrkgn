@@ -1,0 +1,35 @@
+{
+  "id": 8360,
+  "slug": "volatility-regime-prediction-via-causal-discovery-in-option-markets-0cdd6adb67",
+  "name": "Volatility Regime Prediction via Causal Discovery in Option Markets",
+  "mentions": [
+    {
+      "name": "Volatility Regime Prediction via Causal Discovery in Option Markets",
+      "description": "This project develops a causal framework for predicting volatility regime transitions in option markets, treating option-implied variables — the implied volatility surface, put-call ratios, option order flow, and term structure slopes — as potential causes of future realized volatility regimes rather than mere correlations, since options markets are forward-looking. A robust dataset is currently being built.",
+      "problem": "Existing volatility regime models (Markov-switching GARCH, regime-switching stochastic volatility) identify regimes ex post from return dynamics and provide no predictive power for regime transitions, and the link between options market variables and subsequent volatility regime transitions has not been rigorously established through causal methods, which matters because the economic value of volatility timing depends on predicting regime changes before they occur.",
+      "audience": null,
+      "builder_usernames": [
+        "7777777phil"
+      ],
+      "source_excerpt": "We develop a causal framework for volatility regime prediction using option-implied variables as potential causes of regime transitions. The key insight is that options markets are forward-looking, so information embedded in the implied volatility surface, put-call ratios, option order flow, and term structure slopes may causally influence future realized volatility regimes rather than merely correlate with them.",
+      "evidence": [
+        {
+          "source_item_id": 46270960,
+          "source_field": "body",
+          "value": "We develop a causal framework for volatility regime prediction using option-implied variables as potential causes of regime transitions. The key insight is that options markets are forward-looking, so information embedded in the implied volatility surface, put-call ratios, option order flow, and term structure slopes may causally influence future realized volatility regimes rather than merely correlate with them.",
+          "supports": [],
+          "author": "7777777phil",
+          "shared_at": 1765778609,
+          "source_url": "https://news.ycombinator.com/item?id=46270960"
+        }
+      ],
+      "source_item_id": 46270960,
+      "source_url": "https://news.ycombinator.com/item?id=46270960",
+      "author": "7777777phil",
+      "shared_at": 1765778609,
+      "links": [
+        "https://github.com/philippdubach/vol-regime-prediction/blob/797c2af0296d1c2c21c96531db51b1ca6b293b97/reports/Volatility_Regime_Prediction_Dataset.pdf"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 10199,
+  "slug": "nyxi-installer-a1c6d13bfc",
+  "name": "nyxi-installer",
+  "mentions": [
+    {
+      "name": "nyxi-installer",
+      "description": "A NixOS installer the author has been developing; the next planned feature is LUKS disk encryption support.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "athoneycutt"
+      ],
+      "source_excerpt": "I worked on my NixOS installer a bit, I want to look into adding LUKS encryption next:\n\nhttps://gitlab.com/ahoneybun/nyxi-installer",
+      "evidence": [
+        {
+          "source_item_id": 45420194,
+          "source_field": "body",
+          "value": "I worked on my NixOS installer a bit, I want to look into adding LUKS encryption next:\n\nhttps://gitlab.com/ahoneybun/nyxi-installer",
+          "supports": [],
+          "author": "athoneycutt",
+          "shared_at": 1759188987,
+          "source_url": "https://news.ycombinator.com/item?id=45420194"
+        }
+      ],
+      "source_item_id": 45420194,
+      "source_url": "https://news.ycombinator.com/item?id=45420194",
+      "author": "athoneycutt",
+      "shared_at": 1759188987,
+      "links": [
+        "https://gitlab.com/ahoneybun/nyxi-installer"
+      ]
+    }
+  ]
+}

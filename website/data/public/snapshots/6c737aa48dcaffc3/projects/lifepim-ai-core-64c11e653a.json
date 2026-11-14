@@ -1,0 +1,35 @@
+{
+  "id": 7542,
+  "slug": "lifepim-ai-core-64c11e653a",
+  "name": "LifePim AI Core",
+  "mentions": [
+    {
+      "name": "LifePim AI Core",
+      "description": "A local RAG LLM application designed for lower-end PCs that lets people try out searching their own documents with an AI model running locally. It is open source and published so others can learn from the author's experience with the steep learning curve of getting local RAG working.",
+      "problem": "Getting a RAG LLM running locally involved a steep learning curve, and the author hopes others can learn from the mistakes made along the way.",
+      "audience": "personal-use",
+      "builder_usernames": [
+        "acutesoftware"
+      ],
+      "source_excerpt": "I am working on a local RAG LLM designed for lower end PC's - ability for people to try out searching their own documents, seeing it was such a learning curve to get to this stage - hoping others can learn from my mistakes.",
+      "evidence": [
+        {
+          "source_item_id": 46581551,
+          "source_field": "body",
+          "value": "I am working on a local RAG LLM designed for lower end PC's - ability for people to try out searching their own documents, seeing it was such a learning curve to get to this stage - hoping others can learn from my mistakes.",
+          "supports": [],
+          "author": "acutesoftware",
+          "shared_at": 1768173500,
+          "source_url": "https://news.ycombinator.com/item?id=46581551"
+        }
+      ],
+      "source_item_id": 46581551,
+      "source_url": "https://news.ycombinator.com/item?id=46581551",
+      "author": "acutesoftware",
+      "shared_at": 1768173500,
+      "links": [
+        "https://github.com/acutesoftware/lifepim-ai-core"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 1265,
+  "slug": "quantral-63086283c6",
+  "name": "Quantral",
+  "mentions": [
+    {
+      "name": "Quantral",
+      "description": "Quantral tracks stock sentiment and crowd wisdom on social networks for investment purposes, helping users discover hot stocks and see the track records of people who mentioned those stocks on finx and /r/wsb. Congressional trading is planned as an additional data source.",
+      "problem": "The author previously tracked stock sentiment manually every morning and couldn't find a similar project to satisfy the need for discovering hot stocks and the track records of people mentioning them.",
+      "audience": "Investors monitoring social media sentiment for their own investment decisions.",
+      "builder_usernames": [
+        "0x70dd"
+      ],
+      "source_excerpt": "I'm helping my wife build https://quantral.com - initially we put it together to track stock sentiment/crowd wisdom on social networks for our own investments. This is something I was previously doing manually every morning while having breakfast. I couldn't find a similar project to satisfy my needs for discovering hot stocks and the track records of people who mentioned those stocks on finx and /r/wsb.",
+      "evidence": [
+        {
+          "source_item_id": 49692915,
+          "source_field": "body",
+          "value": "I'm helping my wife build https://quantral.com - initially we put it together to track stock sentiment/crowd wisdom on social networks for our own investments. This is something I was previously doing manually every morning while having breakfast. I couldn't find a similar project to satisfy my needs for discovering hot stocks and the track records of people who mentioned those stocks on finx and /r/wsb.",
+          "supports": [],
+          "author": "0x70dd",
+          "shared_at": 1789368971,
+          "source_url": "https://news.ycombinator.com/item?id=49692915"
+        }
+      ],
+      "source_item_id": 49692915,
+      "source_url": "https://news.ycombinator.com/item?id=49692915",
+      "author": "0x70dd",
+      "shared_at": 1789368971,
+      "links": [
+        "https://quantral.com"
+      ]
+    },
+    {
+      "name": "Quantral",
+      "description": "Platform that monitors X and Reddit for financial chatter, scores companies and authors, and tracks social sentiment to help surface stocks early and support investment decisions. Started as an internal tool for the builders' own investing and is being spun out as a fully fledged consumer product.",
+      "problem": "Social-media noise makes it hard to monitor financial chatter and social sentiment for investment decisions.",
+      "audience": "Social-media noise makes it hard to monitor financial chatter and social sentiment for investment decisions.",
+      "builder_usernames": [
+        "0x70dd"
+      ],
+      "source_excerpt": "Helping my wife ship https://quantral.com - a platform to monitor X and Reddit for financial chatter and score companies and authors. We discovered lots of stocks early in this AI cycle from X. There’s lots of noise, so we built a platform to more easily monitor the social sentiment for our investment purposes, but now we are trying to spin out a fully fledged consumer product.",
+      "evidence": [
+        {
+          "source_item_id": 48531524,
+          "source_field": "body",
+          "value": "Helping my wife ship https://quantral.com - a platform to monitor X and Reddit for financial chatter and score companies and authors. We discovered lots of stocks early in this AI cycle from X. There’s lots of noise, so we built a platform to more easily monitor the social sentiment for our investment purposes, but now we are trying to spin out a fully fledged consumer product.",
+          "supports": [],
+          "author": "0x70dd",
+          "shared_at": 1781464793,
+          "source_url": "https://news.ycombinator.com/item?id=48531524"
+        }
+      ],
+      "source_item_id": 48531524,
+      "source_url": "https://news.ycombinator.com/item?id=48531524",
+      "author": "0x70dd",
+      "shared_at": 1781464793,
+      "links": [
+        "https://quantral.com"
+      ]
+    }
+  ]
+}

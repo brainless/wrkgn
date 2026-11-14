@@ -1,0 +1,35 @@
+{
+  "id": 10688,
+  "slug": "wasm-simd-libc-work-wasi-libc-upstreaming-c97d508db2",
+  "name": "Wasm SIMD libc work (wasi-libc upstreaming)",
+  "mentions": [
+    {
+      "name": "Wasm SIMD libc work (wasi-libc upstreaming)",
+      "description": "Ongoing work to add WebAssembly SIMD support to wasi-libc and upstream those changes to the official WebAssembly/wasi-libc repository via pull requests.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ncruces"
+      ],
+      "source_excerpt": "Still working to upstream my Wasm SIMD libc work.\n\nhttps://github.com/search?q=repo%3AWebAssembly%2Fwasi-libc+simd&type=pullrequests",
+      "evidence": [
+        {
+          "source_item_id": 44704794,
+          "source_field": "body",
+          "value": "Still working to upstream my Wasm SIMD libc work.\n\nhttps://github.com/search?q=repo%3AWebAssembly%2Fwasi-libc+simd&type=pullrequests",
+          "supports": [],
+          "author": "ncruces",
+          "shared_at": 1753651257,
+          "source_url": "https://news.ycombinator.com/item?id=44704794"
+        }
+      ],
+      "source_item_id": 44704794,
+      "source_url": "https://news.ycombinator.com/item?id=44704794",
+      "author": "ncruces",
+      "shared_at": 1753651257,
+      "links": [
+        "https://github.com/search?q=repo%3AWebAssembly%2Fwasi-libc+simd&type=pullrequests"
+      ]
+    }
+  ]
+}

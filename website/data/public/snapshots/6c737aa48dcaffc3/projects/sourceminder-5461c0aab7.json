@@ -1,0 +1,63 @@
+{
+  "id": 3973,
+  "slug": "sourceminder-5461c0aab7",
+  "name": "SourceMinder",
+  "mentions": [
+    {
+      "name": "SourceMinder",
+      "description": "A token-saving tool for LLM workflows that the author finds useful even without an LLM; a WASM port lets people try it in the browser, and it is GPL licensed.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ebcode"
+      ],
+      "source_excerpt": "Still plugging away on SourceMinder (https://github.com/ebcode/SourceMinder). I know, I know, everyone and their brother is working on token-saving schemes for LLMs. But I’ve found it to be useful even without the LLM.",
+      "evidence": [
+        {
+          "source_item_id": 48531777,
+          "source_field": "body",
+          "value": "Still plugging away on SourceMinder (https://github.com/ebcode/SourceMinder). I know, I know, everyone and their brother is working on token-saving schemes for LLMs. But I’ve found it to be useful even without the LLM.",
+          "supports": [],
+          "author": "ebcode",
+          "shared_at": 1781466046,
+          "source_url": "https://news.ycombinator.com/item?id=48531777"
+        }
+      ],
+      "source_item_id": 48531777,
+      "source_url": "https://news.ycombinator.com/item?id=48531777",
+      "author": "ebcode",
+      "shared_at": 1781466046,
+      "links": [
+        "https://github.com/ebcode/SourceMinder"
+      ]
+    },
+    {
+      "name": "SourceMinder",
+      "description": "SourceMinder is a code index tool that finds symbols in a codebase and creates a single-table SQLite database for the index. It uses tree-sitter to parse the AST and record symbols with their kind (function, class, argument, etc). It currently works with TypeScript, C, Go, and PHP, with Perl support in progress.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ebcode"
+      ],
+      "source_excerpt": "SourceMinder: A “code index” tool that finds symbols in a codebase and creates a single table sqlite database for the index. It uses tree-sitter to parse the AST and add the symbols and what they are (function, class, argument, etc) to the db.",
+      "evidence": [
+        {
+          "source_item_id": 46581064,
+          "source_field": "body",
+          "value": "SourceMinder: A “code index” tool that finds symbols in a codebase and creates a single table sqlite database for the index. It uses tree-sitter to parse the AST and add the symbols and what they are (function, class, argument, etc) to the db.",
+          "supports": [],
+          "author": "ebcode",
+          "shared_at": 1768170653,
+          "source_url": "https://news.ycombinator.com/item?id=46581064"
+        }
+      ],
+      "source_item_id": 46581064,
+      "source_url": "https://news.ycombinator.com/item?id=46581064",
+      "author": "ebcode",
+      "shared_at": 1768170653,
+      "links": [
+        "https://github.com/ebcode/SourceMinder"
+      ]
+    }
+  ]
+}

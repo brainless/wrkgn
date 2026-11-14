@@ -1,0 +1,36 @@
+{
+  "id": 6104,
+  "slug": "mimesis-protocol-7178b21ddc",
+  "name": "Mimesis Protocol",
+  "mentions": [
+    {
+      "name": "Mimesis Protocol",
+      "description": "This project defines a structured semantic representation model for natural language that captures an utterance as a structured object with separate layers: core (semantic meaning and emotion), will (communicative purpose and influence), flow (discourse framing/progression), and exp (surface realization). It ships with an English/Korean whitepaper, a schema spec, and a working interactive demo, and is being explored as an intermediate representation layer for LLM systems, agent workflows, and discourse analysis.",
+      "problem": "Utterances often have a gap between their surface form and their actual function in context — e.g., \"Do you know what time it is?\" may look like a question but pragmatically function as criticism, pressure, or a prompt for reflection.",
+      "audience": null,
+      "builder_usernames": [
+        "hangil131"
+      ],
+      "source_excerpt": "I’ve been working on a project called *Mimesis Protocol* — a structured semantic representation model for natural language.",
+      "evidence": [
+        {
+          "source_item_id": 47371149,
+          "source_field": "body",
+          "value": "I’ve been working on a project called *Mimesis Protocol* — a structured semantic representation model for natural language.",
+          "supports": [],
+          "author": "hangil131",
+          "shared_at": 1773442844,
+          "source_url": "https://news.ycombinator.com/item?id=47371149"
+        }
+      ],
+      "source_item_id": 47371149,
+      "source_url": "https://news.ycombinator.com/item?id=47371149",
+      "author": "hangil131",
+      "shared_at": 1773442844,
+      "links": [
+        "https://chatgpt.com/g/g-681be5f72cc4819191c2b12c9d89b336-mimesis-protocol-demo",
+        "https://github.com/hangil131/Mimesis-Protocol"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 10975,
+  "slug": "snapshot-b3bb59d4bf",
+  "name": "Snapshot",
+  "mentions": [
+    {
+      "name": "Snapshot",
+      "description": "AI-generated product photos for Shopify stores. It uses OpenAI's new image generation model to create product imagery after earlier Flux and Stable Diffusion versions suffered quality issues.",
+      "problem": "Earlier Flux and Stable Diffusion approaches had quality problems, and it was tricky to keep text the same and fit the product into the generated background. OpenAI's masking feature currently doesn't work properly, so the feature for preserving text and fine details can't be offered until it's fixed.",
+      "audience": "Shopify merchants",
+      "builder_usernames": [
+        "timgreen"
+      ],
+      "source_excerpt": "Snapshot (https://apps.shopify.com/snapshot): AI generated product photos for Shopify. Previously used Flux and Stable Diffusion but always had quality problems.",
+      "evidence": [
+        {
+          "source_item_id": 43822266,
+          "source_field": "body",
+          "value": "Snapshot (https://apps.shopify.com/snapshot): AI generated product photos for Shopify. Previously used Flux and Stable Diffusion but always had quality problems.",
+          "supports": [],
+          "author": "timgreen",
+          "shared_at": 1745852577,
+          "source_url": "https://news.ycombinator.com/item?id=43822266"
+        }
+      ],
+      "source_item_id": 43822266,
+      "source_url": "https://news.ycombinator.com/item?id=43822266",
+      "author": "timgreen",
+      "shared_at": 1745852577,
+      "links": [
+        "https://apps.shopify.com/snapshot"
+      ]
+    }
+  ]
+}

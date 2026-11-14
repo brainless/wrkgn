@@ -1,0 +1,33 @@
+{
+  "id": 11014,
+  "slug": "photo-reverse-geocoding-travel-planner-2153e425fe",
+  "name": "Photo reverse geocoding travel planner",
+  "mentions": [
+    {
+      "name": "Photo reverse geocoding travel planner",
+      "description": "This app reverse geocodes the user's photos and screenshots of places saved from TikTok/Instagram, extracts itineraries from past trips, and uses that data to ground LLM-powered travel recommendations, such as generating a week of plans for bookmarked places in one city based on what the user enjoyed in another.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "bhl"
+      ],
+      "source_excerpt": "Building an app to reverse geocode all the photos I've taken and screenshots of places I want to go from TikTok/Instagram.\n\nUse cases are extracting the itineraries I took from prior trips, then using that to ground LLM search recommendations: I have a set of bookmarked places, say in NYC, can you make me a week of plans given what I enjoyed in Taipei?",
+      "evidence": [
+        {
+          "source_item_id": 43836372,
+          "source_field": "body",
+          "value": "Building an app to reverse geocode all the photos I've taken and screenshots of places I want to go from TikTok/Instagram.\n\nUse cases are extracting the itineraries I took from prior trips, then using that to ground LLM search recommendations: I have a set of bookmarked places, say in NYC, can you make me a week of plans given what I enjoyed in Taipei?",
+          "supports": [],
+          "author": "bhl",
+          "shared_at": 1745951854,
+          "source_url": "https://news.ycombinator.com/item?id=43836372"
+        }
+      ],
+      "source_item_id": 43836372,
+      "source_url": "https://news.ycombinator.com/item?id=43836372",
+      "author": "bhl",
+      "shared_at": 1745951854,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 6319,
+  "slug": "chatshell-af9fc6abab",
+  "name": "ChatShell",
+  "mentions": [
+    {
+      "name": "ChatShell",
+      "description": "ChatShell is an open-source desktop AI agent built with Tauri 2 and Rust that ships with 9 built-in tools (web search, bash, file read/write, grep, etc.) so the AI can take real actions from the first conversation. It requires no plugins or configuration, supports 40+ providers, MCP with OAuth, and a skills system, and is released under Apache 2.0. Work in progress includes chat history search (FTS5) and OpenRouter Nano Banana 2 support.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "s3anw3"
+      ],
+      "source_excerpt": "ChatShell (https://github.com/chatshellapp/chatshell-desktop) — open-source desktop AI agent built with Tauri 2 + Rust. Ships with 9 built-in tools (web search, bash, file read/write, grep, etc.) so the AI can take real actions from the first conversation. No plugins, no config. Supports 40+ providers, MCP with OAuth, and a skills system. Apache 2.0.",
+      "evidence": [
+        {
+          "source_item_id": 47306811,
+          "source_field": "body",
+          "value": "ChatShell (https://github.com/chatshellapp/chatshell-desktop) — open-source desktop AI agent built with Tauri 2 + Rust. Ships with 9 built-in tools (web search, bash, file read/write, grep, etc.) so the AI can take real actions from the first conversation. No plugins, no config. Supports 40+ providers, MCP with OAuth, and a skills system. Apache 2.0.",
+          "supports": [],
+          "author": "s3anw3",
+          "shared_at": 1773049536,
+          "source_url": "https://news.ycombinator.com/item?id=47306811"
+        }
+      ],
+      "source_item_id": 47306811,
+      "source_url": "https://news.ycombinator.com/item?id=47306811",
+      "author": "s3anw3",
+      "shared_at": 1773049536,
+      "links": [
+        "https://github.com/chatshellapp/chatshell-desktop"
+      ]
+    }
+  ]
+}

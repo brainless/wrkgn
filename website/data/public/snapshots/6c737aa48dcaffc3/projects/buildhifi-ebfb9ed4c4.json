@@ -1,0 +1,63 @@
+{
+  "id": 5966,
+  "slug": "buildhifi-ebfb9ed4c4",
+  "name": "BuildHiFi",
+  "mentions": [
+    {
+      "name": "BuildHiFi",
+      "description": "A planning tool for hi-fi stereo systems, styled after PC Part Picker. Products become nodes in a graph, with connections inferred as edges from port compatibility across digital, analog, phono, and speaker-level domains. A standardized port profile system (direction, domain, connector, channel mode) enables automatic connection inference, and a pluggable rule engine checks build completeness, power matching, phono stage requirements, and DAC needs.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "wmeredith"
+      ],
+      "source_excerpt": "PC Part Picker for hi-fi stereos: https://buildhifi.com/\n\nI've wanted this for a long time, so I finally started building it. I've had a lot fun!\n\n- Graph-based signal flow: Products become nodes, connections are edges inferred from port compatibility (digital, analog, phono, speaker-level domains)\n\n- Port profile system: Standardized port definitions (direction, domain, connector, channel mode) enable automatic connection inference\n\n- Rule engine: Pluggable rules check completeness, power matching, phono stage requirements, DAC needs, and more",
+      "evidence": [
+        {
+          "source_item_id": 47304947,
+          "source_field": "body",
+          "value": "PC Part Picker for hi-fi stereos: https://buildhifi.com/\n\nI've wanted this for a long time, so I finally started building it. I've had a lot fun!\n\n- Graph-based signal flow: Products become nodes, connections are edges inferred from port compatibility (digital, analog, phono, speaker-level domains)\n\n- Port profile system: Standardized port definitions (direction, domain, connector, channel mode) enable automatic connection inference\n\n- Rule engine: Pluggable rules check completeness, power matching, phono stage requirements, DAC needs, and more",
+          "supports": [],
+          "author": "wmeredith",
+          "shared_at": 1773031258,
+          "source_url": "https://news.ycombinator.com/item?id=47304947"
+        }
+      ],
+      "source_item_id": 47304947,
+      "source_url": "https://news.ycombinator.com/item?id=47304947",
+      "author": "wmeredith",
+      "shared_at": 1773031258,
+      "links": [
+        "https://buildhifi.com/"
+      ]
+    },
+    {
+      "name": "BuildHiFi",
+      "description": "A PC Part Picker-style system builder for hi-fi stereo gear. It models audio setups as a graph in which products become nodes and connections are edges inferred from port compatibility across digital, analog, phono, and speaker-level domains. A port profile system with standardized port definitions (direction, domain, connector, channel mode) enables automatic connection inference, and a pluggable rule engine checks completeness, power matching, phono stage requirements, DAC needs, and more. Users can assemble configurations and share them via portable URLs.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "wmeredith"
+      ],
+      "source_excerpt": "I'm working on PC Part Picker for hi-fi stereo gear. https://buildhifi.com",
+      "evidence": [
+        {
+          "source_item_id": 46941721,
+          "source_field": "body",
+          "value": "I'm working on PC Part Picker for hi-fi stereo gear. https://buildhifi.com",
+          "supports": [],
+          "author": "wmeredith",
+          "shared_at": 1770613004,
+          "source_url": "https://news.ycombinator.com/item?id=46941721"
+        }
+      ],
+      "source_item_id": 46941721,
+      "source_url": "https://news.ycombinator.com/item?id=46941721",
+      "author": "wmeredith",
+      "shared_at": 1770613004,
+      "links": [
+        "https://buildhifi.com"
+      ]
+    }
+  ]
+}

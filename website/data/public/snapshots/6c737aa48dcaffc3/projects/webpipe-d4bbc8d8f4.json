@@ -1,0 +1,36 @@
+{
+  "id": 8029,
+  "slug": "webpipe-d4bbc8d8f4",
+  "name": "webpipe",
+  "mentions": [
+    {
+      "name": "webpipe",
+      "description": "This is an experimental DSL for writing web applications. It is pipeline-oriented, polyglot, and loosely inspired by Bash pipelines, with a Rust runtime, a fully-featured TypeScript language server (jump to definition, hover, etc.), full DAP debugging, and a BDD-style testing framework built into the language.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "williamcotton"
+      ],
+      "source_excerpt": "An experimental DSL for writing web applications. It's pipeline oriented, polyglot and loosely inspired by Bash pipelines. Rust runtime, fully-featured TypeScript language server (jump to def, hover, etc), full DAP debugging and a BDD-style testing framework built into the language.",
+      "evidence": [
+        {
+          "source_item_id": 46482550,
+          "source_field": "body",
+          "value": "An experimental DSL for writing web applications. It's pipeline oriented, polyglot and loosely inspired by Bash pipelines. Rust runtime, fully-featured TypeScript language server (jump to def, hover, etc), full DAP debugging and a BDD-style testing framework built into the language.",
+          "supports": [],
+          "author": "williamcotton",
+          "shared_at": 1767480786,
+          "source_url": "https://news.ycombinator.com/item?id=46482550"
+        }
+      ],
+      "source_item_id": 46482550,
+      "source_url": "https://news.ycombinator.com/item?id=46482550",
+      "author": "williamcotton",
+      "shared_at": 1767480786,
+      "links": [
+        "https://github.com/williamcotton/webpipe-lsp/tree/webpipe-2.0",
+        "https://github.com/williamcotton/webpipe/tree/webpipe-2.0"
+      ]
+    }
+  ]
+}

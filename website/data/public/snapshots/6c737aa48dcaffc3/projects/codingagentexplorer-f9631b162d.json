@@ -1,0 +1,35 @@
+{
+  "id": 6131,
+  "slug": "codingagentexplorer-f9631b162d",
+  "name": "CodingAgentExplorer",
+  "mentions": [
+    {
+      "name": "CodingAgentExplorer",
+      "description": "A proxy that sits between Claude Code and the model to visualize the full interaction loop. It shows prompts, tool calls, and responses in real time, letting users explore how the coding agent is reasoning and operating.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tndata"
+      ],
+      "source_excerpt": "I'm building a proxy that sits between Claude Code and the model to visualize the full interaction loop. It shows prompts, tool calls, and responses in real time so you can explore how the coding agent is reasoning and operating.",
+      "evidence": [
+        {
+          "source_item_id": 47310673,
+          "source_field": "body",
+          "value": "I'm building a proxy that sits between Claude Code and the model to visualize the full interaction loop. It shows prompts, tool calls, and responses in real time so you can explore how the coding agent is reasoning and operating.",
+          "supports": [],
+          "author": "tndata",
+          "shared_at": 1773071493,
+          "source_url": "https://news.ycombinator.com/item?id=47310673"
+        }
+      ],
+      "source_item_id": 47310673,
+      "source_url": "https://news.ycombinator.com/item?id=47310673",
+      "author": "tndata",
+      "shared_at": 1773071493,
+      "links": [
+        "https://github.com/tndata/CodingAgentExplorer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 6028,
+  "slug": "puregopdf-efc18d567e",
+  "name": "PureGoPDF",
+  "mentions": [
+    {
+      "name": "PureGoPDF",
+      "description": "An HTML-to-PDF converter written from scratch in pure Go and being open sourced. It implements its own layout engine with support for block context, flexbox layout, CSS variables, tables, and math functions like calc(), min(), and max(). It supports @page rules, optional in-HTML section-based headers/footers with full CSS, 100%-height page matching, forced page breaks inside flexbox containers, and correct page-break: avoid behavior. The author reports it is 10x-15x faster than wkhtmltopdf, 80x-100x faster than pagedjs, 2x faster than PrinceXML, and produces the smallest PDF file sizes. String-set, string, counter, and target-counter paged-media features are on the roadmap.",
+      "problem": "The author got tired of using headless browsers for HTML-to-PDF conversion for various reasons and wanted a fast, reliable pure-Go alternative.",
+      "audience": "Initially for the author's internal use, now being open sourced",
+      "builder_usernames": [
+        "radva42"
+      ],
+      "source_excerpt": "I am working on a HTML-to-PDF converter written from scratch in pure Go. I got tired of using headless browsers for various reasons and decided to give it a try and implement something that I can use internally.",
+      "evidence": [
+        {
+          "source_item_id": 47306121,
+          "source_field": "body",
+          "value": "I am working on a HTML-to-PDF converter written from scratch in pure Go. I got tired of using headless browsers for various reasons and decided to give it a try and implement something that I can use internally.",
+          "supports": [],
+          "author": "radva42",
+          "shared_at": 1773044024,
+          "source_url": "https://news.ycombinator.com/item?id=47306121"
+        }
+      ],
+      "source_item_id": 47306121,
+      "source_url": "https://news.ycombinator.com/item?id=47306121",
+      "author": "radva42",
+      "shared_at": 1773044024,
+      "links": [
+        "https://github.com/PureGoPDF"
+      ]
+    }
+  ]
+}

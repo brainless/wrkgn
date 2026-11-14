@@ -1,0 +1,35 @@
+{
+  "id": 9087,
+  "slug": "sheets-to-pdf-c9b80f06be",
+  "name": "Sheets to PDF",
+  "mentions": [
+    {
+      "name": "Sheets to PDF",
+      "description": "This tool generates a personalized PDF for each row of a Google Sheet. After signing up and connecting a sheet, it uses AI to generate a template based on the data, which can be edited in a Notion-like editor, then produces PDFs for the whole sheet or a selected range of rows. Use cases include student certificates, client invoices, personalized reports, event tickets, conference badges, and contracts or offer letters.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "aneeshd16"
+      ],
+      "source_excerpt": "I built a tool to generate a PDF for each row of a Google sheet. For example, you can generate 100 personalized PDFs (like certificates) for 100 students listed in a Google Sheet.\n\nhttps://sheetstopdf.com/",
+      "evidence": [
+        {
+          "source_item_id": 45873821,
+          "source_field": "body",
+          "value": "I built a tool to generate a PDF for each row of a Google sheet. For example, you can generate 100 personalized PDFs (like certificates) for 100 students listed in a Google Sheet.\n\nhttps://sheetstopdf.com/",
+          "supports": [],
+          "author": "aneeshd16",
+          "shared_at": 1762763868,
+          "source_url": "https://news.ycombinator.com/item?id=45873821"
+        }
+      ],
+      "source_item_id": 45873821,
+      "source_url": "https://news.ycombinator.com/item?id=45873821",
+      "author": "aneeshd16",
+      "shared_at": 1762763868,
+      "links": [
+        "https://sheetstopdf.com/"
+      ]
+    }
+  ]
+}

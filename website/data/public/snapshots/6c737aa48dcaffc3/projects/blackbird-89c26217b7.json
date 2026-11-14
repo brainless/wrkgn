@@ -1,0 +1,63 @@
+{
+  "id": 6163,
+  "slug": "blackbird-89c26217b7",
+  "name": "blackbird",
+  "mentions": [
+    {
+      "name": "blackbird",
+      "description": "A tool built by the author that builds software; it was used to build most of pginbox.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jbonatakis"
+      ],
+      "source_excerpt": "I’ve mostly built it using blackbird [1] which I also built. It’s pretty neat having a tool you built build you something else.",
+      "evidence": [
+        {
+          "source_item_id": 47304215,
+          "source_field": "body",
+          "value": "I’ve mostly built it using blackbird [1] which I also built. It’s pretty neat having a tool you built build you something else.",
+          "supports": [],
+          "author": "jbonatakis",
+          "shared_at": 1773023502,
+          "source_url": "https://news.ycombinator.com/item?id=47304215"
+        }
+      ],
+      "source_item_id": 47304215,
+      "source_url": "https://news.ycombinator.com/item?id=47304215",
+      "author": "jbonatakis",
+      "shared_at": 1773023502,
+      "links": [
+        "https://github.com/jbonatakis/blackbird"
+      ]
+    },
+    {
+      "name": "Blackbird",
+      "description": "A spec-driven development execution tool that treats AI coding agents as stateless, launching a separate headless session with selected context for each task. Blackbird breaks a provided spec into a dependent-aware plan (DAG) of parent and child tasks, executes tasks one at a time once their dependencies are completed, and can optionally pause after each task so the user can review, approve, or reject changes. This design avoids context exhaustion and compaction confusion and lets it handle arbitrarily large task lists. Upcoming features include parent tasks acting as automated reviewers for child tasks with optional auto-resume to address feedback. The project is bootstrapped using itself.",
+      "problem": "Popular spec-driven development tools break a spec into a task list and run a single agent session, which causes context exhaustion, compaction, and resulting confusion; Blackbird instead runs stateless per-task agent sessions.",
+      "audience": null,
+      "builder_usernames": [
+        "jbonatakis"
+      ],
+      "source_excerpt": "The past few weeks I've been building Blackbird\n\nhttps://github.com/jbonatakis/blackbird\n\nAt a high level it's my take on how the execution aspect of spec-driven development should be handled. Where as most tools that are popular right now break a spec down into a task list and instruct your agent to work through it in a single session, I am treating agents as stateless.",
+      "evidence": [
+        {
+          "source_item_id": 46940124,
+          "source_field": "body",
+          "value": "The past few weeks I've been building Blackbird\n\nhttps://github.com/jbonatakis/blackbird\n\nAt a high level it's my take on how the execution aspect of spec-driven development should be handled. Where as most tools that are popular right now break a spec down into a task list and instruct your agent to work through it in a single session, I am treating agents as stateless.",
+          "supports": [],
+          "author": "jbonatakis",
+          "shared_at": 1770597132,
+          "source_url": "https://news.ycombinator.com/item?id=46940124"
+        }
+      ],
+      "source_item_id": 46940124,
+      "source_url": "https://news.ycombinator.com/item?id=46940124",
+      "author": "jbonatakis",
+      "shared_at": 1770597132,
+      "links": [
+        "https://github.com/jbonatakis/blackbird"
+      ]
+    }
+  ]
+}

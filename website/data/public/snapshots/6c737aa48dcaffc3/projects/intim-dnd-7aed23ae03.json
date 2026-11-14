@@ -1,0 +1,35 @@
+{
+  "id": 8391,
+  "slug": "intim-dnd-7aed23ae03",
+  "name": "intim-dnd",
+  "mentions": [
+    {
+      "name": "intim-dnd",
+      "description": "This tool lets Dungeon Masters run immersive tabletop Dungeons & Dragons sessions using a USB camera and projector pointed at a table. Players interact with the projected game through gestures detected by a hand-tracking deep learning model — picking up and moving characters, inspecting stats by hovering, and changing weapons — while the DM can generate graphics on the fly with generative models. It includes built-in auto-calibration of the camera by projecting points and registering them with the camera.",
+      "problem": null,
+      "audience": "Dungeon Masters running Dungeons & Dragons sessions and their players",
+      "builder_usernames": [
+        "achllle"
+      ],
+      "source_excerpt": "I attached a USB camera to a projector pointing at a table and made a tool for DMs to organize immersive Dungeons and Dragons games where players can interact with the game using gestures through a hand tracking deep learning model and the DM can generate graphics on the fly using generative models.",
+      "evidence": [
+        {
+          "source_item_id": 46284905,
+          "source_field": "body",
+          "value": "I attached a USB camera to a projector pointing at a table and made a tool for DMs to organize immersive Dungeons and Dragons games where players can interact with the game using gestures through a hand tracking deep learning model and the DM can generate graphics on the fly using generative models.",
+          "supports": [],
+          "author": "achllle",
+          "shared_at": 1765860643,
+          "source_url": "https://news.ycombinator.com/item?id=46284905"
+        }
+      ],
+      "source_item_id": 46284905,
+      "source_url": "https://news.ycombinator.com/item?id=46284905",
+      "author": "achllle",
+      "shared_at": 1765860643,
+      "links": [
+        "https://github.com/Achllle/intim-dnd"
+      ]
+    }
+  ]
+}

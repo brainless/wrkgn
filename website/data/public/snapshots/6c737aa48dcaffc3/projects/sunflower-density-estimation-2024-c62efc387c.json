@@ -1,0 +1,35 @@
+{
+  "id": 10774,
+  "slug": "sunflower-density-estimation-2024-c62efc387c",
+  "name": "Sunflower Density Estimation 2024",
+  "mentions": [
+    {
+      "name": "Sunflower Density Estimation 2024",
+      "description": "This project estimates sunflower plant density to determine germination rates as early as possible after seeding, so farmers can judge whether remaining expenses (fertilizer, pesticide, salaries) are worthwhile, replant or fill gaps using precision seeders and seeding maps, and use density as a proxy for yield estimation. It includes a published annotated dataset created as a collaboration between the author's employer and Sofia University to enable scientific collaboration, with annotations still in progress.",
+      "problem": "Many expenses (fertilizer, pesticide, salaries) still lie ahead and may not be worth it if germination falls below a certain threshold; early detection allows reseeding or filling missing plants, and density is a very good proxy for yield estimation since farmers often trade futures before harvest.",
+      "audience": "Farmers who need early germination-rate information to guide spending and reseeding decisions, and researchers interested in collaborating on the dataset.",
+      "builder_usernames": [
+        "kavalg"
+      ],
+      "source_excerpt": "I am working on the sunflower plant density estimation problem. The goal is to be able to estimate the germination rate as early as possible.",
+      "evidence": [
+        {
+          "source_item_id": 43817944,
+          "source_field": "body",
+          "value": "I am working on the sunflower plant density estimation problem. The goal is to be able to estimate the germination rate as early as possible.",
+          "supports": [],
+          "author": "kavalg",
+          "shared_at": 1745818560,
+          "source_url": "https://news.ycombinator.com/item?id=43817944"
+        }
+      ],
+      "source_item_id": 43817944,
+      "source_url": "https://news.ycombinator.com/item?id=43817944",
+      "author": "kavalg",
+      "shared_at": 1745818560,
+      "links": [
+        "https://huggingface.co/datasets/su-fmi/sunflower-density-estimation-2024"
+      ]
+    }
+  ]
+}

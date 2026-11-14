@@ -1,0 +1,35 @@
+{
+  "id": 6101,
+  "slug": "transmute-52e0b14039",
+  "name": "Transmute",
+  "mentions": [
+    {
+      "name": "Transmute",
+      "description": "A sound change applier that applies sound change rules to words. New work adds syllable detection so rules can match directly on syllable boundaries instead of matching them explicitly: syllable structure can be defined in the rules file, and a rewritten syllable detector built on parser combinators emits warnings and is being adopted in the sample sound change rules.",
+      "problem": "Sound change rules previously had to match on syllable boundaries explicitly; the tool now detects syllables so rules can match directly on those boundaries.",
+      "audience": null,
+      "builder_usernames": [
+        "z500"
+      ],
+      "source_excerpt": "I've been taking a look at my sound change applier again. I've been trying to add syllable detection to it so that I can match directly on syllable boundaries instead of having to match on them explicitly in my sound change rules.",
+      "evidence": [
+        {
+          "source_item_id": 47310955,
+          "source_field": "body",
+          "value": "I've been taking a look at my sound change applier again. I've been trying to add syllable detection to it so that I can match directly on syllable boundaries instead of having to match on them explicitly in my sound change rules.",
+          "supports": [],
+          "author": "z500",
+          "shared_at": 1773072607,
+          "source_url": "https://news.ycombinator.com/item?id=47310955"
+        }
+      ],
+      "source_item_id": 47310955,
+      "source_url": "https://news.ycombinator.com/item?id=47310955",
+      "author": "z500",
+      "shared_at": 1773072607,
+      "links": [
+        "https://github.com/marriola/Transmute"
+      ]
+    }
+  ]
+}

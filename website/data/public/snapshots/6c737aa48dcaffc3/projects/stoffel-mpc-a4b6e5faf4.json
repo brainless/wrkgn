@@ -1,0 +1,38 @@
+{
+  "id": 8223,
+  "slug": "stoffel-mpc-a4b6e5faf4",
+  "name": "Stoffel MPC",
+  "mentions": [
+    {
+      "name": "Stoffel MPC",
+      "description": "A multi-party computation (MPC) stack that makes it easier for developers to integrate privacy into their applications. It comprises Stoffel-Lang (a programming language), StoffelVM (a virtual machine), and a set of MPC protocols, providing tooling for developers to build apps while guarding their users' data. The project is still a work in progress and is undergoing its first security audit.",
+      "problem": "As normal folks increasingly value the privacy of their data, developers need a way to build apps while guarding their users' data.",
+      "audience": "Developers who want to build apps that guard their users' data as people increasingly value the privacy of their data.",
+      "builder_usernames": [
+        "badcryptobitch"
+      ],
+      "source_excerpt": "Working on an MPC stack to make it easier for devs to integrate privacy into their stacks.\nAs normal folks increasingly value the privacy of their data, developers will need to think about how they can build apps while guarding their users' data. We provide tooling for them to do this.\n\nStill WIP but we are getting our first audit in the coming days!\n\nStoffel-Lang:https://github.com/Stoffel-Labs/Stoffel-Lang\nStoffelVM: https://github.com/Stoffel-Labs/StoffelVM\nMPC protocols: github.com/Stoffel-Labs/mpc-protocols\nWebsite: stoffelmpc.com",
+      "evidence": [
+        {
+          "source_item_id": 46268642,
+          "source_field": "body",
+          "value": "Working on an MPC stack to make it easier for devs to integrate privacy into their stacks.\nAs normal folks increasingly value the privacy of their data, developers will need to think about how they can build apps while guarding their users' data. We provide tooling for them to do this.\n\nStill WIP but we are getting our first audit in the coming days!\n\nStoffel-Lang:https://github.com/Stoffel-Labs/Stoffel-Lang\nStoffelVM: https://github.com/Stoffel-Labs/StoffelVM\nMPC protocols: github.com/Stoffel-Labs/mpc-protocols\nWebsite: stoffelmpc.com",
+          "supports": [],
+          "author": "badcryptobitch",
+          "shared_at": 1765757354,
+          "source_url": "https://news.ycombinator.com/item?id=46268642"
+        }
+      ],
+      "source_item_id": 46268642,
+      "source_url": "https://news.ycombinator.com/item?id=46268642",
+      "author": "badcryptobitch",
+      "shared_at": 1765757354,
+      "links": [
+        "https://github.com/Stoffel-Labs/Stoffel-Lang",
+        "https://github.com/Stoffel-Labs/StoffelVM",
+        "https://github.com/Stoffel-Labs/mpc-protocols",
+        "https://stoffelmpc.com"
+      ]
+    }
+  ]
+}

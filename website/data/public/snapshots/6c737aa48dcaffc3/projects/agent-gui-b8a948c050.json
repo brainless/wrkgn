@@ -1,0 +1,35 @@
+{
+  "id": 5633,
+  "slug": "agent-gui-b8a948c050",
+  "name": "agent-gui",
+  "mentions": [
+    {
+      "name": "agent-gui",
+      "description": "An agent client GUI built with Python and Tkinter to run on old, low-end laptops such as the ASUS 1005HA, with plans to power it using a local LLM (Llama-3-8B via llama.cpp) running on a 4070 GPU.",
+      "problem": "Python builds are slow on old low-end laptop hardware; compiling the Python wheels took hours on an ASUS 1005HA.",
+      "audience": null,
+      "builder_usernames": [
+        "ge96"
+      ],
+      "source_excerpt": "For the old computer talk above this is the project, can see I did make an agent client (although a poor one) using Tkinter since the ASUS 1005HA was able to compile the python wheels (although it took a few hours).\n\nI'm also going to use a local LLM I have a 4070 so I can run like Llama-3-8B through llama.cpp\n\nhttps://github.com/jdc-cunningham/agent-gui",
+      "evidence": [
+        {
+          "source_item_id": 47769720,
+          "source_field": "body",
+          "value": "For the old computer talk above this is the project, can see I did make an agent client (although a poor one) using Tkinter since the ASUS 1005HA was able to compile the python wheels (although it took a few hours).\n\nI'm also going to use a local LLM I have a 4070 so I can run like Llama-3-8B through llama.cpp\n\nhttps://github.com/jdc-cunningham/agent-gui",
+          "supports": [],
+          "author": "ge96",
+          "shared_at": 1776192691,
+          "source_url": "https://news.ycombinator.com/item?id=47769720"
+        }
+      ],
+      "source_item_id": 47769720,
+      "source_url": "https://news.ycombinator.com/item?id=47769720",
+      "author": "ge96",
+      "shared_at": 1776192691,
+      "links": [
+        "https://github.com/jdc-cunningham/agent-gui"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 5936,
+  "slug": "nsfw-filter-for-marginalia-search-a80adf4a00",
+  "name": "NSFW filter for Marginalia search",
+  "mentions": [
+    {
+      "name": "NSFW filter for Marginalia search",
+      "description": "This project builds an NSFW content filter for the Marginalia search engine. It generates training data by querying the search API and labeling results with Qwen, trains a small custom neural net with hand-selected input features (after a fasttext model performed well in theory but poorly in practice), and iteratively applies the model to a real-world link database, relabeling positive findings with Qwen for more training data. Reported metrics: 90.90% accuracy, 0.8689 precision, 0.8161 recall, 0.8417 F1.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "marginalia_nu"
+      ],
+      "source_excerpt": "Cooking up a NSFW filter for marginalia search.\n\nPipeline so far has gone like this:\n\n* Use the search engine's API to query a bunch of depravity\n\n* Use qwen3.5 to label the search results and generate training data\n\n* Try to use fasttext to create a fast model\n\n* Get good results in theory but awful results in practice because it picks up weird features\n\n* Yolo implement a small neural net using hand selected input features instead\n\n* Train using fasttext training data\n\n* Do a pretty good job",
+      "evidence": [
+        {
+          "source_item_id": 47307002,
+          "source_field": "body",
+          "value": "Cooking up a NSFW filter for marginalia search.\n\nPipeline so far has gone like this:\n\n* Use the search engine's API to query a bunch of depravity\n\n* Use qwen3.5 to label the search results and generate training data\n\n* Try to use fasttext to create a fast model\n\n* Get good results in theory but awful results in practice because it picks up weird features\n\n* Yolo implement a small neural net using hand selected input features instead\n\n* Train using fasttext training data\n\n* Do a pretty good job",
+          "supports": [],
+          "author": "marginalia_nu",
+          "shared_at": 1773050946,
+          "source_url": "https://news.ycombinator.com/item?id=47307002"
+        }
+      ],
+      "source_item_id": 47307002,
+      "source_url": "https://news.ycombinator.com/item?id=47307002",
+      "author": "marginalia_nu",
+      "shared_at": 1773050946,
+      "links": []
+    }
+  ]
+}

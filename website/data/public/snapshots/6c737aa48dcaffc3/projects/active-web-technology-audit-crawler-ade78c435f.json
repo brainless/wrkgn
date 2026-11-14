@@ -1,0 +1,33 @@
+{
+  "id": 4146,
+  "slug": "active-web-technology-audit-crawler-ade78c435f",
+  "name": "Active Web Technology Audit Crawler",
+  "mentions": [
+    {
+      "name": "Active Web Technology Audit Crawler",
+      "description": "A web-scale technology audit tool that crawls and classifies sites at 240 per second using a custom Python crawler, identifying the CMS, hosting, and technologies in use. It analyzes homepages with minimal probes and no headless browsers.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "addedlovely"
+      ],
+      "source_excerpt": "An audit of the active web, what CMS, hosting and technologies are used.\n\nCustom python crawler getting 240 sites a second crawled and classified. ( homepages and minimal probes, no headless browsers )",
+      "evidence": [
+        {
+          "source_item_id": 48532666,
+          "source_field": "body",
+          "value": "An audit of the active web, what CMS, hosting and technologies are used.\n\nCustom python crawler getting 240 sites a second crawled and classified. ( homepages and minimal probes, no headless browsers )",
+          "supports": [],
+          "author": "addedlovely",
+          "shared_at": 1781470929,
+          "source_url": "https://news.ycombinator.com/item?id=48532666"
+        }
+      ],
+      "source_item_id": 48532666,
+      "source_url": "https://news.ycombinator.com/item?id=48532666",
+      "author": "addedlovely",
+      "shared_at": 1781470929,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": 3112,
+  "slug": "peppy-e44cb4fb01",
+  "name": "Peppy",
+  "mentions": [
+    {
+      "name": "Peppy",
+      "description": "This project provides a software stack for robotics designed as a replacement for ROS 2.",
+      "problem": "An alternative to ROS 2 for robotics software.",
+      "audience": null,
+      "builder_usernames": [
+        "Ekami"
+      ],
+      "source_excerpt": "A better software stack for robotics, to replace ROS 2: https://peppy.bot/",
+      "evidence": [
+        {
+          "source_item_id": 48915203,
+          "source_field": "body",
+          "value": "A better software stack for robotics, to replace ROS 2: https://peppy.bot/",
+          "supports": [],
+          "author": "Ekami",
+          "shared_at": 1784079468,
+          "source_url": "https://news.ycombinator.com/item?id=48915203"
+        }
+      ],
+      "source_item_id": 48915203,
+      "source_url": "https://news.ycombinator.com/item?id=48915203",
+      "author": "Ekami",
+      "shared_at": 1784079468,
+      "links": [
+        "https://peppy.bot/"
+      ]
+    },
+    {
+      "name": "Peppy",
+      "description": "A robotics framework that makes building robots accessible to people of all skill levels, from ML engineers and firmware engineers to vibe coders and non-technical users. Its stacks have clear separation so each specialty can focus on what it does best.",
+      "problem": "Robotics is currently difficult and inaccessible, requiring people to work across specialties that aren't clearly separated.",
+      "audience": "ML engineers, firmware engineers, vibe coders, and people with no technical knowledge",
+      "builder_usernames": [
+        "Ekami"
+      ],
+      "source_excerpt": "A framework to make robotics accessible and easy for everyone (ML engineers/firmware engineers/vibe coder/people with no technical knowledge) where all the stacks have clear separation so every speciality can focus on what they do best.\n\nhttps://peppy.bot/",
+      "evidence": [
+        {
+          "source_item_id": 48541307,
+          "source_field": "body",
+          "value": "A framework to make robotics accessible and easy for everyone (ML engineers/firmware engineers/vibe coder/people with no technical knowledge) where all the stacks have clear separation so every speciality can focus on what they do best.\n\nhttps://peppy.bot/",
+          "supports": [],
+          "author": "Ekami",
+          "shared_at": 1781531595,
+          "source_url": "https://news.ycombinator.com/item?id=48541307"
+        }
+      ],
+      "source_item_id": 48541307,
+      "source_url": "https://news.ycombinator.com/item?id=48541307",
+      "author": "Ekami",
+      "shared_at": 1781531595,
+      "links": [
+        "https://peppy.bot/"
+      ]
+    },
+    {
+      "name": "peppy.bot",
+      "description": "A robotics framework positioned as a replacement for ROS 2. It is currently gaining automatic node resolution so that pulling working software for a robot becomes as simple as running an install command like `apt get install my_robot`. Its goal is to let developers from different specialties (embedded developers, AI engineers, vibe coders) each work on their own part of the robot stack without having to worry about the other parts.",
+      "problem": "Developers working on robots have to worry about parts of the robot stack outside their own specialty, and ROS 2 is the incumbent framework being replaced.",
+      "audience": "Developers from all fields, including embedded developers, AI engineers, and vibe coders",
+      "builder_usernames": [
+        "Ekami"
+      ],
+      "source_excerpt": "https://peppy.bot a robotics framework to replace ROS 2, currently working on automatic nodes resolution so pulling a working software for your robot is as easy as doing an `apt get install my_robot`.",
+      "evidence": [
+        {
+          "source_item_id": 47758786,
+          "source_field": "body",
+          "value": "https://peppy.bot a robotics framework to replace ROS 2, currently working on automatic nodes resolution so pulling a working software for your robot is as easy as doing an `apt get install my_robot`.",
+          "supports": [],
+          "author": "Ekami",
+          "shared_at": 1776119430,
+          "source_url": "https://news.ycombinator.com/item?id=47758786"
+        }
+      ],
+      "source_item_id": 47758786,
+      "source_url": "https://news.ycombinator.com/item?id=47758786",
+      "author": "Ekami",
+      "shared_at": 1776119430,
+      "links": [
+        "https://peppy.bot"
+      ]
+    }
+  ]
+}

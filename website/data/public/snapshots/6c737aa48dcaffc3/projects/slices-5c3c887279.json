@@ -1,0 +1,36 @@
+{
+  "id": 3415,
+  "slug": "slices-5c3c887279",
+  "name": "slices",
+  "mentions": [
+    {
+      "name": "slices",
+      "description": "An AI-first, ADHD-friendly software architecture experiment where every feature is a self-contained 'slice' that communicates with other slices only through a shared event pool, inspired by Smalltalk and vertical-slice architecture; it was also used to build a self-modifying IDE.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "purple-leafy"
+      ],
+      "source_excerpt": "1) slices: An alternative AI-first ADHD-friendly architecture experiment where everything you code is a \"slice\" with a shared event pool. A slice is a fully self contained \"feature\". Slices can only communicate with other slices through a shared event pool. Inspired by small-talk, vertical-slice architecture, and ADHD. I used slices to build a self-modifying IDE too.",
+      "evidence": [
+        {
+          "source_item_id": 49691037,
+          "source_field": "body",
+          "value": "1) slices: An alternative AI-first ADHD-friendly architecture experiment where everything you code is a \"slice\" with a shared event pool. A slice is a fully self contained \"feature\". Slices can only communicate with other slices through a shared event pool. Inspired by small-talk, vertical-slice architecture, and ADHD. I used slices to build a self-modifying IDE too.",
+          "supports": [],
+          "author": "purple-leafy",
+          "shared_at": 1789351904,
+          "source_url": "https://news.ycombinator.com/item?id=49691037"
+        }
+      ],
+      "source_item_id": 49691037,
+      "source_url": "https://news.ycombinator.com/item?id=49691037",
+      "author": "purple-leafy",
+      "shared_at": 1789351904,
+      "links": [
+        "https://con-dog.github.io/slices-demo/",
+        "https://github.com/con-dog/slices-demo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 7681,
+  "slug": "gymlocity-c10c706e46",
+  "name": "Gymlocity",
+  "mentions": [
+    {
+      "name": "Gymlocity",
+      "description": "All-in-one gym management platform for small gym owners, covering class scheduling, member booking, Stripe payments, and workout programming. Built with a React 19 + Vite frontend, ASP.NET Core 10 API, and PostgreSQL, using a multi-tenant architecture so each gym gets its own branded experience. Currently polishing the member dashboard and workout tracking UI, with the goal of a setup a solo trainer can complete in an afternoon without sales calls or demos.",
+      "problem": "Big players like Mindbody are overkill and expensive for small gyms, and most gym software ignores workout programming, leaving trainers to rely on spreadsheets or generic apps.",
+      "audience": "Personal trainers with home gyms and small 1-2 location owner-operated gym facilities.",
+      "builder_usernames": [
+        "bochoh"
+      ],
+      "source_excerpt": "Gymlocity (https://gymlocity.com) - All-in-one gym management platform for small gym owners.",
+      "evidence": [
+        {
+          "source_item_id": 46579190,
+          "source_field": "body",
+          "value": "Gymlocity (https://gymlocity.com) - All-in-one gym management platform for small gym owners.",
+          "supports": [],
+          "author": "bochoh",
+          "shared_at": 1768160777,
+          "source_url": "https://news.ycombinator.com/item?id=46579190"
+        }
+      ],
+      "source_item_id": 46579190,
+      "source_url": "https://news.ycombinator.com/item?id=46579190",
+      "author": "bochoh",
+      "shared_at": 1768160777,
+      "links": [
+        "https://gymlocity.com"
+      ]
+    }
+  ]
+}

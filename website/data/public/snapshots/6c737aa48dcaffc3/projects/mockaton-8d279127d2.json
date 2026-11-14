@@ -1,0 +1,63 @@
+{
+  "id": 8738,
+  "slug": "mockaton-8d279127d2",
+  "name": "Mockaton",
+  "mentions": [
+    {
+      "name": "Mockaton",
+      "description": "An HTTP mock server with a UI dashboard that lets users change mock responses on the fly, useful for scenarios such as testing retries.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "efortis"
+      ],
+      "source_excerpt": "An HTTP mock server with a UI dashboard for changing responses on the fly. For example, for testing retries.",
+      "evidence": [
+        {
+          "source_item_id": 46270258,
+          "source_field": "body",
+          "value": "An HTTP mock server with a UI dashboard for changing responses on the fly. For example, for testing retries.",
+          "supports": [],
+          "author": "efortis",
+          "shared_at": 1765770752,
+          "source_url": "https://news.ycombinator.com/item?id=46270258"
+        }
+      ],
+      "source_item_id": 46270258,
+      "source_url": "https://news.ycombinator.com/item?id=46270258",
+      "author": "efortis",
+      "shared_at": 1765770752,
+      "links": [
+        "https://github.com/ericfortis/mockaton"
+      ]
+    },
+    {
+      "name": "Mockaton",
+      "description": "An HTTP mock server with a dashboard UI for changing mock variants on the fly, useful for scenarios such as testing retries.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "efortis"
+      ],
+      "source_excerpt": "Mockaton. An HTTP Mock Server with a dashboard UI for changing mock variants on the fly. For example, for testing retries.",
+      "evidence": [
+        {
+          "source_item_id": 45872838,
+          "source_field": "body",
+          "value": "Mockaton. An HTTP Mock Server with a dashboard UI for changing mock variants on the fly. For example, for testing retries.",
+          "supports": [],
+          "author": "efortis",
+          "shared_at": 1762753753,
+          "source_url": "https://news.ycombinator.com/item?id=45872838"
+        }
+      ],
+      "source_item_id": 45872838,
+      "source_url": "https://news.ycombinator.com/item?id=45872838",
+      "author": "efortis",
+      "shared_at": 1762753753,
+      "links": [
+        "https://github.com/ericfortis/mockaton"
+      ]
+    }
+  ]
+}

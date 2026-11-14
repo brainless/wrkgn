@@ -1,0 +1,91 @@
+{
+  "id": 1833,
+  "slug": "sponder-fafbbd57b1",
+  "name": "Sponder",
+  "mentions": [
+    {
+      "name": "Sponder",
+      "description": "An RSS and podcast feed mutator that filters feeds down to the content you want, merges feeds, time-delays articles, and drips them out on a cadence. For podcasts, it detects metadata similar to previous releases so reruns can be skipped.",
+      "problem": "Feeds mix in content you don't want, and podcast apps resurface reruns of similar episodes.",
+      "audience": null,
+      "builder_usernames": [
+        "kristjan"
+      ],
+      "source_excerpt": "https://sponder.app (Live) - an RSS and podcast mutator. Filter feeds for what you want, merge, time-delay, and drip articles on a cadence (I like to start from feeds' beginnings). For podcasts, detect similar metadata to previous releases so you can skip reruns.",
+      "evidence": [
+        {
+          "source_item_id": 49234427,
+          "source_field": "body",
+          "value": "https://sponder.app (Live) - an RSS and podcast mutator. Filter feeds for what you want, merge, time-delay, and drip articles on a cadence (I like to start from feeds' beginnings). For podcasts, detect similar metadata to previous releases so you can skip reruns.",
+          "supports": [],
+          "author": "kristjan",
+          "shared_at": 1786301634,
+          "source_url": "https://news.ycombinator.com/item?id=49234427"
+        }
+      ],
+      "source_item_id": 49234427,
+      "source_url": "https://news.ycombinator.com/item?id=49234427",
+      "author": "kristjan",
+      "shared_at": 1786301634,
+      "links": [
+        "https://sponder.app"
+      ]
+    },
+    {
+      "name": "Sponder",
+      "description": "This RSS intermediary filters feeds and converts webpages into RSS, with autodetection of article structure so site archives can be read from the beginning. Built as a small function engine in the spirit of Yahoo Pipes, it aims for pipelines like merge(archive, live_feed) | drip(N items per D days) to transition an archive seamlessly into current content, and plans podcast rerun skipping via description filters plus title similarity checking for cross-promoted episodes. Sponder is not a feed client; it consumes and publishes pure RSS for use in any client.",
+      "problem": "RSS doesn't support reading a feed from the beginning (RFC 5005 exists but is mostly unused), so the author wanted a way to read long-form feeds from the start, and friends needed feed filtering.",
+      "audience": null,
+      "builder_usernames": [
+        "kristjan"
+      ],
+      "source_excerpt": "I've wanted to read some long-form RSS feeds from the beginning, and friends had use cases for feed filtering, so I built https://sponder.app.",
+      "evidence": [
+        {
+          "source_item_id": 47310967,
+          "source_field": "body",
+          "value": "I've wanted to read some long-form RSS feeds from the beginning, and friends had use cases for feed filtering, so I built https://sponder.app.",
+          "supports": [],
+          "author": "kristjan",
+          "shared_at": 1773072647,
+          "source_url": "https://news.ycombinator.com/item?id=47310967"
+        }
+      ],
+      "source_item_id": 47310967,
+      "source_url": "https://news.ycombinator.com/item?id=47310967",
+      "author": "kristjan",
+      "shared_at": 1773072647,
+      "links": [
+        "https://sponder.app"
+      ]
+    },
+    {
+      "name": "Sponder",
+      "description": "Sponder is a web service that filters and transforms RSS feeds and podcasts, outputting a new RSS feed so users can keep using their favorite feed client while filling in its feature gaps. It currently supports merging feeds and filtering by string or regex, with history replay and smarter podcast rerun detection planned next.",
+      "problem": "RSS clients provide inconsistent filtering options, often limiting users to a few keywords or putting filtering features behind $7-12/mo subscriptions.",
+      "audience": null,
+      "builder_usernames": [
+        "kristjan"
+      ],
+      "source_excerpt": "Sponder - Filter and transform RSS feeds or Podcasts (https://sponder.app)\n\nDifferent RSS clients provide different filtering options, and lots of them limit you to a few keywords and/or put them behind a $7-12/mo subscription. I'm building Sponder so you can curate what you see, and it just presents another RSS feed, so you can keep using your favorite client but fill in the feature gaps.",
+      "evidence": [
+        {
+          "source_item_id": 46950218,
+          "source_field": "body",
+          "value": "Sponder - Filter and transform RSS feeds or Podcasts (https://sponder.app)\n\nDifferent RSS clients provide different filtering options, and lots of them limit you to a few keywords and/or put them behind a $7-12/mo subscription. I'm building Sponder so you can curate what you see, and it just presents another RSS feed, so you can keep using your favorite client but fill in the feature gaps.",
+          "supports": [],
+          "author": "kristjan",
+          "shared_at": 1770666949,
+          "source_url": "https://news.ycombinator.com/item?id=46950218"
+        }
+      ],
+      "source_item_id": 46950218,
+      "source_url": "https://news.ycombinator.com/item?id=46950218",
+      "author": "kristjan",
+      "shared_at": 1770666949,
+      "links": [
+        "https://sponder.app"
+      ]
+    }
+  ]
+}

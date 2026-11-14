@@ -1,0 +1,33 @@
+{
+  "id": 8278,
+  "slug": "messenger-assistant-chatbot-e544c6a55a",
+  "name": "Messenger assistant chatbot",
+  "mentions": [
+    {
+      "name": "Messenger assistant chatbot",
+      "description": "A personal assistant chatbot that plugs into the author's messenger of choice and exposes all functionality through tool calls, so anything can be requested in plain English or voice. It sets up and sends reminders and todo lists, provides an overview of the day ahead (with reminders a few days prior for important tasks), tracks car mileage and fuel consumption, and can open the front gate. It is built as a core that imports modules with a rigid interface documented in a spec.MD file, where each piece of functionality acts as a separate sub-app that consumes events and handles its own internal logic. A web UI allows reviewing tasks, reminders, settings, and searching past conversations. It was developed using Claude Code and opencode, grew to nearly 10k LOC in a week without a single manually changed line, and runs inference on Groq within free limits.",
+      "problem": "A long-standing desire to have a chatbot plugged into the author's messenger of choice with all sorts of tools for quick use.",
+      "audience": null,
+      "builder_usernames": [
+        "neoromantique"
+      ],
+      "source_excerpt": "Basically I long wanted to plug a chatbot into my messenger of choice  with all sorts of tools for quick use, of course after the emergence of LLMs it was only a matter of time before I find time for it.",
+      "evidence": [
+        {
+          "source_item_id": 46280922,
+          "source_field": "body",
+          "value": "Basically I long wanted to plug a chatbot into my messenger of choice  with all sorts of tools for quick use, of course after the emergence of LLMs it was only a matter of time before I find time for it.",
+          "supports": [],
+          "author": "neoromantique",
+          "shared_at": 1765833991,
+          "source_url": "https://news.ycombinator.com/item?id=46280922"
+        }
+      ],
+      "source_item_id": 46280922,
+      "source_url": "https://news.ycombinator.com/item?id=46280922",
+      "author": "neoromantique",
+      "shared_at": 1765833991,
+      "links": []
+    }
+  ]
+}

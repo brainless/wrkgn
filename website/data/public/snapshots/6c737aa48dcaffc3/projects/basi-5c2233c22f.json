@@ -1,0 +1,91 @@
+{
+  "id": 7119,
+  "slug": "basi-5c2233c22f",
+  "name": "basi",
+  "mentions": [
+    {
+      "name": "basi",
+      "description": "A Playwright alternative syntax/tool for web automation, exploring the Zig-built LightPanda browser as an optional headless browser.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "zikani_03"
+      ],
+      "source_excerpt": "I'm still working on basi[0], a Playwright alternative syntax/tool.",
+      "evidence": [
+        {
+          "source_item_id": 46942948,
+          "source_field": "body",
+          "value": "I'm still working on basi[0], a Playwright alternative syntax/tool.",
+          "supports": [],
+          "author": "zikani_03",
+          "shared_at": 1770625621,
+          "source_url": "https://news.ycombinator.com/item?id=46942948"
+        }
+      ],
+      "source_item_id": 46942948,
+      "source_url": "https://news.ycombinator.com/item?id=46942948",
+      "author": "zikani_03",
+      "shared_at": 1770625621,
+      "links": [
+        "https://github.com/zikani03/basi"
+      ]
+    },
+    {
+      "name": "basi",
+      "description": "A simpler alternative syntax (DSL) for writing Playwright scripts, kept deliberately minimal; early-stage design is weighing whether to add language features like loops and variables.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "zikani_03"
+      ],
+      "source_excerpt": "I'm working on basi, an alternative/syntax to writing Playwright: https://github.com/zikani03/basi",
+      "evidence": [
+        {
+          "source_item_id": 45869905,
+          "source_field": "body",
+          "value": "I'm working on basi, an alternative/syntax to writing Playwright: https://github.com/zikani03/basi",
+          "supports": [],
+          "author": "zikani_03",
+          "shared_at": 1762727789,
+          "source_url": "https://news.ycombinator.com/item?id=45869905"
+        }
+      ],
+      "source_item_id": 45869905,
+      "source_url": "https://news.ycombinator.com/item?id=45869905",
+      "author": "zikani_03",
+      "shared_at": 1762727789,
+      "links": [
+        "https://github.com/zikani03/basi"
+      ]
+    },
+    {
+      "name": "basi",
+      "description": "A web app testing tool with a simple-to-use syntax/DSL built on Playwright (Go), aimed at reducing the work of automated application testing. It includes a documentation generation feature that turns UI test steps into a markdown document with screenshots to help teams craft end-user documentation. Planned additions include Playwright/Cypress-style reports and support for running tests on remote browser instances for different workflows.",
+      "problem": "Reduces the work required for automated testing of applications",
+      "audience": "Teams doing automated testing of applications and crafting end-user documentation",
+      "builder_usernames": [
+        "zikani_03"
+      ],
+      "source_excerpt": "I am working on a tool for testing web apps with a simple to use syntax/DSL aimed to reduce work for automated testing of applications, based on Playwright (Go).",
+      "evidence": [
+        {
+          "source_item_id": 45436198,
+          "source_field": "body",
+          "value": "I am working on a tool for testing web apps with a simple to use syntax/DSL aimed to reduce work for automated testing of applications, based on Playwright (Go).",
+          "supports": [],
+          "author": "zikani_03",
+          "shared_at": 1759314939,
+          "source_url": "https://news.ycombinator.com/item?id=45436198"
+        }
+      ],
+      "source_item_id": 45436198,
+      "source_url": "https://news.ycombinator.com/item?id=45436198",
+      "author": "zikani_03",
+      "shared_at": 1759314939,
+      "links": [
+        "https://github.com/zikani03/basi"
+      ]
+    }
+  ]
+}

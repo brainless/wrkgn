@@ -1,0 +1,35 @@
+{
+  "id": 7486,
+  "slug": "summarized-science-58c5a33472",
+  "name": "Summarized.science",
+  "mentions": [
+    {
+      "name": "Summarized.science",
+      "description": "A web tool that keeps up with scientific literature: based on topics of interest, it queries the scientific literature for each month and then uses LLMs to extract themes and summaries, saving the reader time staying current with research. Topic pages (e.g., insulin-resistance) are browsable and monthly topic digests are planned to gain personalized highlights.",
+      "problem": "Keeping up with scientific literature is time-consuming.",
+      "audience": null,
+      "builder_usernames": [
+        "niekmaas"
+      ],
+      "source_excerpt": "As a pathologist and neuro-oncology researcher, to save myself time trying to keep up with scientific literature, I'm working on https://www.summarized.science/ . Based topics of interest (suggestions are more than welcome), the tool queries the scientific literature for each month. Then, by quering some LLMs, it extracts themes and summaries.",
+      "evidence": [
+        {
+          "source_item_id": 46585583,
+          "source_field": "body",
+          "value": "As a pathologist and neuro-oncology researcher, to save myself time trying to keep up with scientific literature, I'm working on https://www.summarized.science/ . Based topics of interest (suggestions are more than welcome), the tool queries the scientific literature for each month. Then, by quering some LLMs, it extracts themes and summaries.",
+          "supports": [],
+          "author": "niekmaas",
+          "shared_at": 1768206173,
+          "source_url": "https://news.ycombinator.com/item?id=46585583"
+        }
+      ],
+      "source_item_id": 46585583,
+      "source_url": "https://news.ycombinator.com/item?id=46585583",
+      "author": "niekmaas",
+      "shared_at": 1768206173,
+      "links": [
+        "https://www.summarized.science/"
+      ]
+    }
+  ]
+}

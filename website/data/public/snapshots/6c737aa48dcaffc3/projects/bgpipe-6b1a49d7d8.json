@@ -1,0 +1,63 @@
+{
+  "id": 3929,
+  "slug": "bgpipe-6b1a49d7d8",
+  "name": "bgpipe",
+  "mentions": [
+    {
+      "name": "bgpipe",
+      "description": "Open source BGP tooling that brings one of the first BGP ASPA (Autonomous System Provider Authorization) route path validators to the open source world, validating BGP route paths.",
+      "problem": "Open source support for BGP ASPA route path validation has been lacking; this project is among the first to provide it.",
+      "audience": null,
+      "builder_usernames": [
+        "pjf"
+      ],
+      "source_excerpt": "I'm pushing the https://bgpipe.org/ project, bringing one of the first BGP ASPA route path validators to the open source world",
+      "evidence": [
+        {
+          "source_item_id": 48538195,
+          "source_field": "body",
+          "value": "I'm pushing the https://bgpipe.org/ project, bringing one of the first BGP ASPA route path validators to the open source world",
+          "supports": [],
+          "author": "pjf",
+          "shared_at": 1781511643,
+          "source_url": "https://news.ycombinator.com/item?id=48538195"
+        }
+      ],
+      "source_item_id": 48538195,
+      "source_url": "https://news.ycombinator.com/item?id=48538195",
+      "author": "pjf",
+      "shared_at": 1781511643,
+      "links": [
+        "https://bgpipe.org/"
+      ]
+    },
+    {
+      "name": "bgpipe",
+      "description": "A man-in-the-middle proxy for BGP that can fix and inspect routing sessions on the fly, acting like a firewall for the BGP control plane.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "pjf"
+      ],
+      "source_excerpt": "https://bgpipe.org/\n\nI'm working on a man in the middle proxy for BGP, which can fix and inspect routing sessions on the fly. Like a firewall for the BGP control plane.",
+      "evidence": [
+        {
+          "source_item_id": 45870106,
+          "source_field": "body",
+          "value": "https://bgpipe.org/\n\nI'm working on a man in the middle proxy for BGP, which can fix and inspect routing sessions on the fly. Like a firewall for the BGP control plane.",
+          "supports": [],
+          "author": "pjf",
+          "shared_at": 1762729220,
+          "source_url": "https://news.ycombinator.com/item?id=45870106"
+        }
+      ],
+      "source_item_id": 45870106,
+      "source_url": "https://news.ycombinator.com/item?id=45870106",
+      "author": "pjf",
+      "shared_at": 1762729220,
+      "links": [
+        "https://bgpipe.org/"
+      ]
+    }
+  ]
+}

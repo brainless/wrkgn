@@ -1,0 +1,33 @@
+{
+  "id": 7063,
+  "slug": "nlhe-poker-trainer-app-0fe767930f",
+  "name": "NLHE Poker Trainer App",
+  "mentions": [
+    {
+      "name": "NLHE Poker Trainer App",
+      "description": "A no-limit hold'em (NLHE) poker trainer app with a web poker room for multiplayer play, bots, and fake chips. Built in Elixir and Phoenix using Event Sourcing with some CQRS; the player view is a projection of House Events that doubles as a hand history suitable for feeding to solvers or LLMs for real-time advice or post-hoc analysis. Aims to help players get many reps across varied situations with excellent advice to build good intuitions and decision-making, with plans to monetize while open sourcing the hand history format.",
+      "problem": "Poker players need to get tons of reps in across varied situations with excellent advice to build good intuitions and decision-making abilities, stop making bad or terrible decisions, or just play poker for free.",
+      "audience": "Poker players who want to get tons of reps across varied situations with excellent advice to build good intuitions and decision-making abilities, stop making bad or terrible decisions, or just play poker for free.",
+      "builder_usernames": [
+        "RickHull"
+      ],
+      "source_excerpt": "I'm working on a poker (NLHE) trainer app that includes a web poker room for multiplayer, with bots available and fake chips.  Using Event Sourcing with some CQRS in Elixir and Phoenix.",
+      "evidence": [
+        {
+          "source_item_id": 46939360,
+          "source_field": "body",
+          "value": "I'm working on a poker (NLHE) trainer app that includes a web poker room for multiplayer, with bots available and fake chips.  Using Event Sourcing with some CQRS in Elixir and Phoenix.",
+          "supports": [],
+          "author": "RickHull",
+          "shared_at": 1770590736,
+          "source_url": "https://news.ycombinator.com/item?id=46939360"
+        }
+      ],
+      "source_item_id": 46939360,
+      "source_url": "https://news.ycombinator.com/item?id=46939360",
+      "author": "RickHull",
+      "shared_at": 1770590736,
+      "links": []
+    }
+  ]
+}

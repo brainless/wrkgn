@@ -1,0 +1,36 @@
+{
+  "id": 11120,
+  "slug": "fil-c-ac3ef56fef",
+  "name": "Fil-C",
+  "mentions": [
+    {
+      "name": "Fil-C",
+      "description": "Fil-C is a memory-safe implementation of C, distributed as a compiler toolchain runnable on Linux/X86_64; current work focuses on improving its stability and compatibility.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "pizlonator"
+      ],
+      "source_excerpt": "I'm working on improving Fil-C's stability and compatibility.\n\nFil-C is a memory-safe implementation of C.",
+      "evidence": [
+        {
+          "source_item_id": 43821750,
+          "source_field": "body",
+          "value": "I'm working on improving Fil-C's stability and compatibility.\n\nFil-C is a memory-safe implementation of C.",
+          "supports": [],
+          "author": "pizlonator",
+          "shared_at": 1745849761,
+          "source_url": "https://news.ycombinator.com/item?id=43821750"
+        }
+      ],
+      "source_item_id": 43821750,
+      "source_url": "https://news.ycombinator.com/item?id=43821750",
+      "author": "pizlonator",
+      "shared_at": 1745849761,
+      "links": [
+        "https://github.com/pizlonator/llvm-project-deluge/blob/deluge/README.md",
+        "https://github.com/pizlonator/llvm-project-deluge/releases"
+      ]
+    }
+  ]
+}

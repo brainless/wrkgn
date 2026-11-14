@@ -1,0 +1,35 @@
+{
+  "id": 4000,
+  "slug": "open-write-1c3c892d0b",
+  "name": "Open-Write",
+  "mentions": [
+    {
+      "name": "Open-Write",
+      "description": "This system uses LLMs to efficiently generate long-form narrative content. It began as a stress test to see where LLMs break down on long-form generation, originally aimed at producing narrative content for unscripted NPCs, and grew into a full system for producing long-form content.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "fredbrown1856"
+      ],
+      "source_excerpt": "I was thinking about how to get LLMs to efficiently generate narrative content for unscripted NPCs and then I ended up building Open-Write. What started as a test to see where the system would break down on long-form content generation, just became a system for producing long-form content generation.",
+      "evidence": [
+        {
+          "source_item_id": 48563751,
+          "source_field": "body",
+          "value": "I was thinking about how to get LLMs to efficiently generate narrative content for unscripted NPCs and then I ended up building Open-Write. What started as a test to see where the system would break down on long-form content generation, just became a system for producing long-form content generation.",
+          "supports": [],
+          "author": "fredbrown1856",
+          "shared_at": 1781652699,
+          "source_url": "https://news.ycombinator.com/item?id=48563751"
+        }
+      ],
+      "source_item_id": 48563751,
+      "source_url": "https://news.ycombinator.com/item?id=48563751",
+      "author": "fredbrown1856",
+      "shared_at": 1781652699,
+      "links": [
+        "https://open-write-studio.com/index.html"
+      ]
+    }
+  ]
+}

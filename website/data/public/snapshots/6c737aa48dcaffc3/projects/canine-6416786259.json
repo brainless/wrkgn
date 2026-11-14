@@ -1,0 +1,36 @@
+{
+  "id": 9958,
+  "slug": "canine-6416786259",
+  "name": "Canine",
+  "mentions": [
+    {
+      "name": "Canine",
+      "description": "This free, open-source platform serves as an alternative to Heroku, Render, and Fly.io, built on top of Kubernetes. It allows scheduling multiple apps on the same instance, offers many instance size options, and supports deployments of any Helm package (Postgres, Airbyte, Dagster, etc.) via Helm charts.",
+      "problem": "Existing PaaS services charge far too much per GB of memory (about 10x more than IaaS providers) and offer poor flexibility, such as being unable to schedule multiple apps on the same instance and having few instance size options.",
+      "audience": null,
+      "builder_usernames": [
+        "czhu12"
+      ],
+      "source_excerpt": "I'm working on a Heroku / Render / Flyio alternative thats free, open source, built on top of Kubernetes for about 2 years now.",
+      "evidence": [
+        {
+          "source_item_id": 45419383,
+          "source_field": "body",
+          "value": "I'm working on a Heroku / Render / Flyio alternative thats free, open source, built on top of Kubernetes for about 2 years now.",
+          "supports": [],
+          "author": "czhu12",
+          "shared_at": 1759183629,
+          "source_url": "https://news.ycombinator.com/item?id=45419383"
+        }
+      ],
+      "source_item_id": 45419383,
+      "source_url": "https://news.ycombinator.com/item?id=45419383",
+      "author": "czhu12",
+      "shared_at": 1759183629,
+      "links": [
+        "https://canine.sh",
+        "https://github.com/czhu12/canine"
+      ]
+    }
+  ]
+}

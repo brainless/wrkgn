@@ -1,0 +1,33 @@
+{
+  "id": 5779,
+  "slug": "k8s-homelab-helm-chart-1eff41de33",
+  "name": "K8s homelab Helm chart",
+  "mentions": [
+    {
+      "name": "K8s homelab Helm chart",
+      "description": "This Helm chart simplifies deploying applications to a Kubernetes homelab with minimal configuration, bundling a complete stack that includes domain, TLS, routing, storage, and backups.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "superpupervlad"
+      ],
+      "source_excerpt": "I am building helm chart for my k8s homelab so I can easily deploy apps with minimal config and complete stack (domain, TLS, routing, storage, backups, etc)",
+      "evidence": [
+        {
+          "source_item_id": 47758733,
+          "source_field": "body",
+          "value": "I am building helm chart for my k8s homelab so I can easily deploy apps with minimal config and complete stack (domain, TLS, routing, storage, backups, etc)",
+          "supports": [],
+          "author": "superpupervlad",
+          "shared_at": 1776119077,
+          "source_url": "https://news.ycombinator.com/item?id=47758733"
+        }
+      ],
+      "source_item_id": 47758733,
+      "source_url": "https://news.ycombinator.com/item?id=47758733",
+      "author": "superpupervlad",
+      "shared_at": 1776119077,
+      "links": []
+    }
+  ]
+}

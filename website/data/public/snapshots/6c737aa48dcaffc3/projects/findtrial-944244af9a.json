@@ -1,0 +1,35 @@
+{
+  "id": 7100,
+  "slug": "findtrial-944244af9a",
+  "name": "FindTrial",
+  "mentions": [
+    {
+      "name": "FindTrial",
+      "description": "A search engine for clinical trials worldwide. It aggregates trials from around the world into a fast search experience, lets users watch a trial and receive email updates, links completed trials to their published papers when the official registry page hasn't been updated, and connects trials testing the same drug to show the drug progressing through different phases.",
+      "problem": "Searching for clinical trial info on official registry websites is clunky and slow.",
+      "audience": null,
+      "builder_usernames": [
+        "vagab0nd"
+      ],
+      "source_excerpt": "I'm working on a search engine for clinical trials around the world.\n\nI was frustrated by the process of searching for clinical trial info using the clunky and slow registry websites. So I aggregated all trials around the world and made the search faster.",
+      "evidence": [
+        {
+          "source_item_id": 46945433,
+          "source_field": "body",
+          "value": "I'm working on a search engine for clinical trials around the world.\n\nI was frustrated by the process of searching for clinical trial info using the clunky and slow registry websites. So I aggregated all trials around the world and made the search faster.",
+          "supports": [],
+          "author": "vagab0nd",
+          "shared_at": 1770646510,
+          "source_url": "https://news.ycombinator.com/item?id=46945433"
+        }
+      ],
+      "source_item_id": 46945433,
+      "source_url": "https://news.ycombinator.com/item?id=46945433",
+      "author": "vagab0nd",
+      "shared_at": 1770646510,
+      "links": [
+        "https://findtrial.co/"
+      ]
+    }
+  ]
+}

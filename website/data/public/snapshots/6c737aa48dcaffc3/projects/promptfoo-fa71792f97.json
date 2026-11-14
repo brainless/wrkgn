@@ -1,0 +1,35 @@
+{
+  "id": 8224,
+  "slug": "promptfoo-fa71792f97",
+  "name": "promptfoo",
+  "mentions": [
+    {
+      "name": "promptfoo",
+      "description": "Open-source (MIT) CLI and framework for evaluating and red-teaming LLM applications. Users define test cases, run evals against any model (OpenAI, Anthropic, local models, etc.), and catch regressions before they hit production. Currently adding multi-agent evals, better tracing, voice, and static code analysis for AI security use cases.",
+      "problem": "LLM testing is deceptively hard, and regressions need to be caught before they hit prod.",
+      "audience": null,
+      "builder_usernames": [
+        "dangelosaurus"
+      ],
+      "source_excerpt": "Working on promptfoo, an open-source (MIT) CLI and framework for eval-ing and red-teaming LLM apps. Think of it like pytest but for prompts - you define test cases, run evals against any model (OpenAI, Anthropic, local models, whatever), and catch regressions before they hit prod.",
+      "evidence": [
+        {
+          "source_item_id": 46266933,
+          "source_field": "body",
+          "value": "Working on promptfoo, an open-source (MIT) CLI and framework for eval-ing and red-teaming LLM apps. Think of it like pytest but for prompts - you define test cases, run evals against any model (OpenAI, Anthropic, local models, whatever), and catch regressions before they hit prod.",
+          "supports": [],
+          "author": "dangelosaurus",
+          "shared_at": 1765746605,
+          "source_url": "https://news.ycombinator.com/item?id=46266933"
+        }
+      ],
+      "source_item_id": 46266933,
+      "source_url": "https://news.ycombinator.com/item?id=46266933",
+      "author": "dangelosaurus",
+      "shared_at": 1765746605,
+      "links": [
+        "https://github.com/promptfoo/promptfoo"
+      ]
+    }
+  ]
+}

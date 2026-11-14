@@ -1,0 +1,35 @@
+{
+  "id": 5393,
+  "slug": "keibidrop-c5eceddfc2",
+  "name": "KeibiDrop",
+  "mentions": [
+    {
+      "name": "KeibiDrop",
+      "description": "This synchronous P2P file sharing tool uses post-quantum encryption and virtual mount points: both peers mount a virtual FUSE folder, and files shared by one side appear in the other's folder in real time, so files can be opened, copied, and browsed as if local. Transfers go directly between devices over encrypted gRPC, trying LAN first, then direct IPv6, then a data relay as fallback.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "coldstartops"
+      ],
+      "source_excerpt": "Synchronous P2P file sharing tool with post-quantum encryption and virtual mount point (https://keibisoft.com/tools/keibidrop.html)\n\nBoth peers mount a virtual FUSE folder. Files shared by one side appear in the other's folder in real time. You can open, copy, and browse your peer's files as if they were local. Files go directly between devices over encrypted gRPC.",
+      "evidence": [
+        {
+          "source_item_id": 47748051,
+          "source_field": "body",
+          "value": "Synchronous P2P file sharing tool with post-quantum encryption and virtual mount point (https://keibisoft.com/tools/keibidrop.html)\n\nBoth peers mount a virtual FUSE folder. Files shared by one side appear in the other's folder in real time. You can open, copy, and browse your peer's files as if they were local. Files go directly between devices over encrypted gRPC.",
+          "supports": [],
+          "author": "coldstartops",
+          "shared_at": 1776058895,
+          "source_url": "https://news.ycombinator.com/item?id=47748051"
+        }
+      ],
+      "source_item_id": 47748051,
+      "source_url": "https://news.ycombinator.com/item?id=47748051",
+      "author": "coldstartops",
+      "shared_at": 1776058895,
+      "links": [
+        "https://keibisoft.com/tools/keibidrop.html"
+      ]
+    }
+  ]
+}

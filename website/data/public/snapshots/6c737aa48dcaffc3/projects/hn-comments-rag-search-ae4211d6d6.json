@@ -1,0 +1,35 @@
+{
+  "id": 10218,
+  "slug": "hn-comments-rag-search-ae4211d6d6",
+  "name": "HN Comments RAG Search",
+  "mentions": [
+    {
+      "name": "HN Comments RAG Search",
+      "description": "This app provides a RAG (retrieval-augmented generation) search over all Hacker News comments posted since 2023.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "afiodorov"
+      ],
+      "source_excerpt": "RAG search that contains all HN comments since 2023\n\nhttps://hn.fiodorov.es",
+      "evidence": [
+        {
+          "source_item_id": 45438470,
+          "source_field": "body",
+          "value": "RAG search that contains all HN comments since 2023\n\nhttps://hn.fiodorov.es",
+          "supports": [],
+          "author": "afiodorov",
+          "shared_at": 1759330706,
+          "source_url": "https://news.ycombinator.com/item?id=45438470"
+        }
+      ],
+      "source_item_id": 45438470,
+      "source_url": "https://news.ycombinator.com/item?id=45438470",
+      "author": "afiodorov",
+      "shared_at": 1759330706,
+      "links": [
+        "https://hn.fiodorov.es"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 1505,
+  "slug": "codeplug-org-cfc723b0ee",
+  "name": "codeplug.org",
+  "mentions": [
+    {
+      "name": "codeplug.org",
+      "description": "A web-based CPS (customer programming software) that uses modern web platform features together with the historically stable open-source CHIRP drivers to program channels into amateur radio equipment.",
+      "problem": null,
+      "audience": "Amateur radio operators",
+      "builder_usernames": [
+        "jasiek"
+      ],
+      "source_excerpt": "https://codeplug.org - use modern web platform features with historically stable, open-source drivers (CHIRP) to program channels into amateur radio equipment (a web-based CPS).",
+      "evidence": [
+        {
+          "source_item_id": 49692974,
+          "source_field": "body",
+          "value": "https://codeplug.org - use modern web platform features with historically stable, open-source drivers (CHIRP) to program channels into amateur radio equipment (a web-based CPS).",
+          "supports": [],
+          "author": "jasiek",
+          "shared_at": 1789369431,
+          "source_url": "https://news.ycombinator.com/item?id=49692974"
+        }
+      ],
+      "source_item_id": 49692974,
+      "source_url": "https://news.ycombinator.com/item?id=49692974",
+      "author": "jasiek",
+      "shared_at": 1789369431,
+      "links": [
+        "https://codeplug.org"
+      ]
+    },
+    {
+      "name": "Codeplug",
+      "description": "A web app for programming amateur radios directly from the browser. It runs CHIRP drivers under the hood using Pyodide (Python in WebAssembly) and talks to the radio over WebSerial.",
+      "problem": null,
+      "audience": "Amateur radio operators",
+      "builder_usernames": [
+        "jasiek"
+      ],
+      "source_excerpt": "https://codeplug.org\n\nProgram your amateur radio via the web. Uses pyiodide + chirp drivers under the hood + WebSerial.",
+      "evidence": [
+        {
+          "source_item_id": 47744408,
+          "source_field": "body",
+          "value": "https://codeplug.org\n\nProgram your amateur radio via the web. Uses pyiodide + chirp drivers under the hood + WebSerial.",
+          "supports": [],
+          "author": "jasiek",
+          "shared_at": 1776027541,
+          "source_url": "https://news.ycombinator.com/item?id=47744408"
+        }
+      ],
+      "source_item_id": 47744408,
+      "source_url": "https://news.ycombinator.com/item?id=47744408",
+      "author": "jasiek",
+      "shared_at": 1776027541,
+      "links": [
+        "https://codeplug.org"
+      ]
+    }
+  ]
+}

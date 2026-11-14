@@ -1,0 +1,63 @@
+{
+  "id": 9905,
+  "slug": "location4j-45353fcc94",
+  "name": "location4j",
+  "mentions": [
+    {
+      "name": "location4j",
+      "description": "A Java library called location4j that uses NLP to resolve a location from free text to a City, State, or Country, e.g. turning \"NY USA\" into \"New York, United States of America\" and \"LOS ANGELES, CA\" into \"Los Angeles, California, United States of America\". The author is working through bugs involving collisions between place-name concepts, such as Mexico being both a country and a city, and New York existing as a city in multiple places and as a state.",
+      "problem": "Resolving ambiguous place names from free text, where the same name can refer to different concepts (e.g. Mexico as a country vs. Mexico City, New York as a city in multiple places and as a state).",
+      "audience": null,
+      "builder_usernames": [
+        "tomaytotomato"
+      ],
+      "source_excerpt": "I am just working through a couple of bugs for my location parsing library for Java called location4j.\n\nhttps://github.com/tomaytotomato/location4j\n\nIt uses NLP to try and understand and resolve a location from some free text to either a City, State or Country.",
+      "evidence": [
+        {
+          "source_item_id": 45423543,
+          "source_field": "body",
+          "value": "I am just working through a couple of bugs for my location parsing library for Java called location4j.\n\nhttps://github.com/tomaytotomato/location4j\n\nIt uses NLP to try and understand and resolve a location from some free text to either a City, State or Country.",
+          "supports": [],
+          "author": "tomaytotomato",
+          "shared_at": 1759224314,
+          "source_url": "https://news.ycombinator.com/item?id=45423543"
+        }
+      ],
+      "source_item_id": 45423543,
+      "source_url": "https://news.ycombinator.com/item?id=45423543",
+      "author": "tomaytotomato",
+      "shared_at": 1759224314,
+      "links": [
+        "https://github.com/tomaytotomato/location4j"
+      ]
+    },
+    {
+      "name": "location4j",
+      "description": "A Java NLP library that identifies geographical locations from free text, handling inconsistent formats such as 'san francisco ca united states', 'california, san francisco', and 'glasgow, UK' and resolving them to standardized place names and countries.",
+      "problem": "It started as a project when the author was scraping websites and some data had inconsistent ways of writing a location or address.",
+      "audience": null,
+      "builder_usernames": [
+        "tomaytotomato"
+      ],
+      "source_excerpt": "Working on my Java NLP library that can figure out what geographical location is from a piece of free text.",
+      "evidence": [
+        {
+          "source_item_id": 43822908,
+          "source_field": "body",
+          "value": "Working on my Java NLP library that can figure out what geographical location is from a piece of free text.",
+          "supports": [],
+          "author": "tomaytotomato",
+          "shared_at": 1745855834,
+          "source_url": "https://news.ycombinator.com/item?id=43822908"
+        }
+      ],
+      "source_item_id": 43822908,
+      "source_url": "https://news.ycombinator.com/item?id=43822908",
+      "author": "tomaytotomato",
+      "shared_at": 1745855834,
+      "links": [
+        "https://github.com/tomaytotomato/location4j"
+      ]
+    }
+  ]
+}

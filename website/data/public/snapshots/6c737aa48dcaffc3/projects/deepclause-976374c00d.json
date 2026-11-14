@@ -1,0 +1,63 @@
+{
+  "id": 1848,
+  "slug": "deepclause-976374c00d",
+  "name": "DeepClause",
+  "mentions": [
+    {
+      "name": "DeepClause",
+      "description": "DeepClause is an agentic harness whose core is based on Prolog. Every interaction (conversation turn, planning, plan execution) triggers a small logic program that orchestrates one or more agent loops or prompts. The logic programs are fully hackable, letting users adjust agent core logic and behavior in a reliable manner, and markdown specs can be compiled into Prolog code as an alternative to markdown specs, aiming to unlock spec-driven development. It includes a Prolog/TypeScript integration layer built on SWI Prolog's WASM version, with a deep research example skill demonstrating loop/graph workflows.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "schmuhblaster"
+      ],
+      "source_excerpt": "I’ve been working on DeepClause [0], an agentic harness, the core of which is based on Prolog. Every interaction (conversation turn, plan, execute plan, etc.) triggers a small logic program that orchestrates one or more agent loops or prompts.",
+      "evidence": [
+        {
+          "source_item_id": 49244018,
+          "source_field": "body",
+          "value": "I’ve been working on DeepClause [0], an agentic harness, the core of which is based on Prolog. Every interaction (conversation turn, plan, execute plan, etc.) triggers a small logic program that orchestrates one or more agent loops or prompts.",
+          "supports": [],
+          "author": "schmuhblaster",
+          "shared_at": 1786371384,
+          "source_url": "https://news.ycombinator.com/item?id=49244018"
+        }
+      ],
+      "source_item_id": 49244018,
+      "source_url": "https://news.ycombinator.com/item?id=49244018",
+      "author": "schmuhblaster",
+      "shared_at": 1786371384,
+      "links": [
+        "https://github.com/deepclause/deepclause-sdk"
+      ]
+    },
+    {
+      "name": "DeepClause SDK",
+      "description": "This is a Prolog and WASM based LLM/agent framework in which reusable skills and core harness functionality are encoded in a logic programming language. It includes a small TUI with a Borland Turbo Vision style design, and is designed as a completely hackable harness that works well with smaller models, promoting the combination of logic programming and LLMs.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "schmuhblaster"
+      ],
+      "source_excerpt": "I’ve been building a Prolog and WASM based LLM/Agent framework [0] , where reusable skills and core harness functionality is encoded in a logic programming language.",
+      "evidence": [
+        {
+          "source_item_id": 48536076,
+          "source_field": "body",
+          "value": "I’ve been building a Prolog and WASM based LLM/Agent framework [0] , where reusable skills and core harness functionality is encoded in a logic programming language.",
+          "supports": [],
+          "author": "schmuhblaster",
+          "shared_at": 1781492483,
+          "source_url": "https://news.ycombinator.com/item?id=48536076"
+        }
+      ],
+      "source_item_id": 48536076,
+      "source_url": "https://news.ycombinator.com/item?id=48536076",
+      "author": "schmuhblaster",
+      "shared_at": 1781492483,
+      "links": [
+        "https://github.com/deepclause/deepclause-sdk"
+      ]
+    }
+  ]
+}

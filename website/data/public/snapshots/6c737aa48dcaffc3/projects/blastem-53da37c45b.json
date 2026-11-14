@@ -1,0 +1,35 @@
+{
+  "id": 3960,
+  "slug": "blastem-53da37c45b",
+  "name": "BlastEm",
+  "mentions": [
+    {
+      "name": "BlastEm",
+      "description": "Emulator for the Sega Genesis/Mega Drive and related Sega systems. This update adds Sega 32X support, with most games already working and remaining bugs being tracked down; planned improvements include greater timing accuracy (useful for homebrew development) and better performance.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mikepavone"
+      ],
+      "source_excerpt": "I'm working on adding Sega 32X support to BlastEm [0], the Genesis/Mega Drive (as well as some related Sega systems these days) emulator. I've gotten most games working on this point, though still have some bugs to track down. Also want to increase timing accuracy (even if its not needed for games, it's helpful for homebrew development) and improve perfomance.",
+      "evidence": [
+        {
+          "source_item_id": 48537927,
+          "source_field": "body",
+          "value": "I'm working on adding Sega 32X support to BlastEm [0], the Genesis/Mega Drive (as well as some related Sega systems these days) emulator. I've gotten most games working on this point, though still have some bugs to track down. Also want to increase timing accuracy (even if its not needed for games, it's helpful for homebrew development) and improve perfomance.",
+          "supports": [],
+          "author": "mikepavone",
+          "shared_at": 1781509985,
+          "source_url": "https://news.ycombinator.com/item?id=48537927"
+        }
+      ],
+      "source_item_id": 48537927,
+      "source_url": "https://news.ycombinator.com/item?id=48537927",
+      "author": "mikepavone",
+      "shared_at": 1781509985,
+      "links": [
+        "https://www.retrodev.com/blastem/"
+      ]
+    }
+  ]
+}

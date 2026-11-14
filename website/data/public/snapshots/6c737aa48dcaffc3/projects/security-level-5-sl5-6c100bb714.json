@@ -1,0 +1,35 @@
+{
+  "id": 7663,
+  "slug": "security-level-5-sl5-6c100bb714",
+  "name": "Security Level 5 (SL5)",
+  "mentions": [
+    {
+      "name": "Security Level 5 (SL5)",
+      "description": "Security Level 5 (SL5) defines nation-state-grade security for frontier AI systems. Its core idea is that model weights or training artifacts that could enable catastrophic harm should be treated like top-tier secrets and secured accordingly.",
+      "problem": "Model weights or training artifacts of frontier AI systems could enable catastrophic harm if not secured at the highest level.",
+      "audience": null,
+      "builder_usernames": [
+        "luiscosio"
+      ],
+      "source_excerpt": "I’m working on Security Level 5 (SL5), which is basically “nation state grade security” for frontier AI systems.",
+      "evidence": [
+        {
+          "source_item_id": 46578798,
+          "source_field": "body",
+          "value": "I’m working on Security Level 5 (SL5), which is basically “nation state grade security” for frontier AI systems.",
+          "supports": [],
+          "author": "luiscosio",
+          "shared_at": 1768158804,
+          "source_url": "https://news.ycombinator.com/item?id=46578798"
+        }
+      ],
+      "source_item_id": 46578798,
+      "source_url": "https://news.ycombinator.com/item?id=46578798",
+      "author": "luiscosio",
+      "shared_at": 1768158804,
+      "links": [
+        "http://sl5.org/"
+      ]
+    }
+  ]
+}

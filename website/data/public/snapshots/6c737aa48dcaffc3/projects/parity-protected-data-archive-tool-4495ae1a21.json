@@ -1,0 +1,35 @@
+{
+  "id": 4597,
+  "slug": "parity-protected-data-archive-tool-4495ae1a21",
+  "name": "Parity-protected data archive tool",
+  "mentions": [
+    {
+      "name": "Parity-protected data archive tool",
+      "description": "This app protects data archives and data collections by adding parity, letting stored files survive a degree of bitrot, particularly for files not kept on a NAS. It is one of three apps built with a Zig core, C FFI, and Windows/Mac frontends.",
+      "problem": "Files not necessarily stored on a NAS can suffer bitrot over time; the app adds parity so data collections can survive a degree of it.",
+      "audience": null,
+      "builder_usernames": [
+        "pmarreck"
+      ],
+      "source_excerpt": "Another protects data archives/data collections with some parity, in order to survive a degree of bitrot, for those files that you don't necessarily have on a NAS.",
+      "evidence": [
+        {
+          "source_item_id": 48113112,
+          "source_field": "body",
+          "value": "Another protects data archives/data collections with some parity, in order to survive a degree of bitrot, for those files that you don't necessarily have on a NAS.",
+          "supports": [],
+          "author": "pmarreck",
+          "shared_at": 1778613592,
+          "source_url": "https://news.ycombinator.com/item?id=48113112"
+        }
+      ],
+      "source_item_id": 48113112,
+      "source_url": "https://news.ycombinator.com/item?id=48113112",
+      "author": "pmarreck",
+      "shared_at": 1778613592,
+      "links": [
+        "https://mecha.llc/software/"
+      ]
+    }
+  ]
+}

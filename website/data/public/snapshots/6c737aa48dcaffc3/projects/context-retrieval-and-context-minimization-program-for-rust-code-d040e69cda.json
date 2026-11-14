@@ -1,0 +1,33 @@
+{
+  "id": 7541,
+  "slug": "context-retrieval-and-context-minimization-program-for-rust-code-d040e69cda",
+  "name": "Context Retrieval and Context Minimization program for Rust code",
+  "mentions": [
+    {
+      "name": "Context Retrieval and Context Minimization program for Rust code",
+      "description": "This tool automates context retrieval and minimization for Rust code when working with LLMs. Programmers specify exactly what to fetch into the context window for a one-question/one-answer exchange: sig(function) fetches only the signature, @function captures the whole body, and sig(Struct) or sig(Trait) fetches the fields and signatures of all methods. It currently calls ast-grep under the hood, with plans to move to tree-sitter queries, and deliberately avoids giving the AI a whole view of the codebase, only the necessary points specified by the programmer.",
+      "problem": "Manually opening files and copying function/method signatures from all over the place is tedious, and giving the AI more information than needed confuses it, degrades accuracy, and makes calls slower and more expensive.",
+      "audience": "This targets programmers who use LLMs in their coding workflow; context is specified by the programmer.",
+      "builder_usernames": [
+        "emporas"
+      ],
+      "source_excerpt": "I am writing a Context Retrieval and Context Minimization program for Rust code. I am trying to automate my own workflow in how I use LLMs.",
+      "evidence": [
+        {
+          "source_item_id": 46579718,
+          "source_field": "body",
+          "value": "I am writing a Context Retrieval and Context Minimization program for Rust code. I am trying to automate my own workflow in how I use LLMs.",
+          "supports": [],
+          "author": "emporas",
+          "shared_at": 1768163689,
+          "source_url": "https://news.ycombinator.com/item?id=46579718"
+        }
+      ],
+      "source_item_id": 46579718,
+      "source_url": "https://news.ycombinator.com/item?id=46579718",
+      "author": "emporas",
+      "shared_at": 1768163689,
+      "links": []
+    }
+  ]
+}

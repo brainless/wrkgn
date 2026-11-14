@@ -1,0 +1,36 @@
+{
+  "id": 8494,
+  "slug": "claude-code-changelog-rss-4297452e81",
+  "name": "claude-code-changelog-rss",
+  "mentions": [
+    {
+      "name": "claude-code-changelog-rss",
+      "description": "An RSS feed service for the Claude Code changelog, built as a Cloudflare Worker. The repo is designed to work with any GitHub-hosted changelog file, turning it into an RSS feed so changelogs without feeds can be followed in RSS readers.",
+      "problem": "The Claude Code changelog did not have an RSS feed, so it could not be added to an RSS reader.",
+      "audience": null,
+      "builder_usernames": [
+        "Galorious"
+      ],
+      "source_excerpt": "I wanted to add the claude code changelog to my rss reader. \nIt didn’t have a rss feed. Now it does. Had claude code built it: https://claude-code-changelog-rss.stevenmenke.workers.dev/feed.xml\n\nRepo should work with any github hosted changelog file.",
+      "evidence": [
+        {
+          "source_item_id": 46266185,
+          "source_field": "body",
+          "value": "I wanted to add the claude code changelog to my rss reader. \nIt didn’t have a rss feed. Now it does. Had claude code built it: https://claude-code-changelog-rss.stevenmenke.workers.dev/feed.xml\n\nRepo should work with any github hosted changelog file.",
+          "supports": [],
+          "author": "Galorious",
+          "shared_at": 1765741888,
+          "source_url": "https://news.ycombinator.com/item?id=46266185"
+        }
+      ],
+      "source_item_id": 46266185,
+      "source_url": "https://news.ycombinator.com/item?id=46266185",
+      "author": "Galorious",
+      "shared_at": 1765741888,
+      "links": [
+        "https://claude-code-changelog-rss.stevenmenke.workers.dev/feed.xml",
+        "https://github.com/stevenmenke/claude-code-changelog-rss"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 10554,
+  "slug": "vipreply-a26c190dd2",
+  "name": "VipReply",
+  "mentions": [
+    {
+      "name": "VipReply",
+      "description": "This app writes customer email replies for small businesses, making answering customer emails 10x easier. It suggests training templates that are personalized by an LLM for every reply, and replies that are sent train it to auto-select the right training template for future similar customer emails. Built with Ruby on Rails and Postgres on DigitalOcean, using Kimi K2 hosted on Groq.",
+      "problem": "Answering customer emails takes time away from what energizes small businesses.",
+      "audience": "Small businesses",
+      "builder_usernames": [
+        "moojacob"
+      ],
+      "source_excerpt": "I've been working on an app that writes customer emails so small businesses can focus on what energizes them.\n\nIt makes answering customer emails 10x easier.",
+      "evidence": [
+        {
+          "source_item_id": 44704109,
+          "source_field": "body",
+          "value": "I've been working on an app that writes customer emails so small businesses can focus on what energizes them.\n\nIt makes answering customer emails 10x easier.",
+          "supports": [],
+          "author": "moojacob",
+          "shared_at": 1753645882,
+          "source_url": "https://news.ycombinator.com/item?id=44704109"
+        }
+      ],
+      "source_item_id": 44704109,
+      "source_url": "https://news.ycombinator.com/item?id=44704109",
+      "author": "moojacob",
+      "shared_at": 1753645882,
+      "links": [
+        "https://vipreply.ai"
+      ]
+    }
+  ]
+}

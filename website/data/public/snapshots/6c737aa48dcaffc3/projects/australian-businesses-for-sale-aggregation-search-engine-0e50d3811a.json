@@ -1,0 +1,33 @@
+{
+  "id": 10350,
+  "slug": "australian-businesses-for-sale-aggregation-search-engine-0e50d3811a",
+  "name": "Australian Businesses-for-Sale Aggregation & Search Engine",
+  "mentions": [
+    {
+      "name": "Australian Businesses-for-Sale Aggregation & Search Engine",
+      "description": "An aggregation and search engine for businesses for sale in Australia. It sources listings from the major 'business for sale' platforms (covering 12 of the top 15 platforms ranked by listing count), de-duplicates them, extracts details like revenue and profit from the freeform listing text, and normalizes everything for quick browsing. New platforms are added roughly once or twice a month, and it is still being polished before a public release.",
+      "problem": "Browsing business-for-sale listings across Australia is extremely time-consuming: there are over 15 platforms (many with 1,000+ listings), and listings follow a real-estate-style format with one big blob of freeform text instead of key figures you could read at a glance, making it hard to determine which businesses are relevant.",
+      "audience": "People in Australia looking to buy a business; currently used by the author's family and friends, with a future public release planned.",
+      "builder_usernames": [
+        "davidsojevic"
+      ],
+      "source_excerpt": "I've been working on a \"businesses for sale\" aggregation/search engine that sources data from all of the major \"business for sale\" type platforms in Australia and de-duplicates listings, extracts data like revenue/profit/etc, and normalises it all for quick browsing.",
+      "evidence": [
+        {
+          "source_item_id": 44705591,
+          "source_field": "body",
+          "value": "I've been working on a \"businesses for sale\" aggregation/search engine that sources data from all of the major \"business for sale\" type platforms in Australia and de-duplicates listings, extracts data like revenue/profit/etc, and normalises it all for quick browsing.",
+          "supports": [],
+          "author": "davidsojevic",
+          "shared_at": 1753658261,
+          "source_url": "https://news.ycombinator.com/item?id=44705591"
+        }
+      ],
+      "source_item_id": 44705591,
+      "source_url": "https://news.ycombinator.com/item?id=44705591",
+      "author": "davidsojevic",
+      "shared_at": 1753658261,
+      "links": []
+    }
+  ]
+}

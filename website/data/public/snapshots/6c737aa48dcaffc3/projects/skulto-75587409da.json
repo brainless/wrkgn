@@ -1,0 +1,35 @@
+{
+  "id": 6791,
+  "slug": "skulto-75587409da",
+  "name": "Skulto",
+  "mentions": [
+    {
+      "name": "Skulto",
+      "description": "Offline-first package manager for Claude/Codex agent skills. Scans SKILL.md markdown/references for prompt injection and scripts for suspicious patterns, ships 200+ curated skills, supports 33 agents, installs via symlinks anywhere with automatic updates, offers CLI, TUI, and MCP interfaces, and provides semantic search across skill content. Built with Go and Bubble Tea; local skill authoring and mise-style directory activation are in progress.",
+      "problem": "Installing random SKILL.md files from GitHub is risky; the tool addresses safety concerns by scanning for prompt injection in markdown/references and suspicious patterns in scripts before installing skills.",
+      "audience": null,
+      "builder_usernames": [
+        "adamos486"
+      ],
+      "source_excerpt": "Skulto - offline-first package manager for Claude/Codex agent skills\n\nhttps://github.com/asteroid-belt/skulto\n\nStarted building this after getting nervous about installing random SKILL.md files from GitHub. Scans for prompt injection in markdown/references and suspicious patterns in scripts/.",
+      "evidence": [
+        {
+          "source_item_id": 46940316,
+          "source_field": "body",
+          "value": "Skulto - offline-first package manager for Claude/Codex agent skills\n\nhttps://github.com/asteroid-belt/skulto\n\nStarted building this after getting nervous about installing random SKILL.md files from GitHub. Scans for prompt injection in markdown/references and suspicious patterns in scripts/.",
+          "supports": [],
+          "author": "adamos486",
+          "shared_at": 1770598627,
+          "source_url": "https://news.ycombinator.com/item?id=46940316"
+        }
+      ],
+      "source_item_id": 46940316,
+      "source_url": "https://news.ycombinator.com/item?id=46940316",
+      "author": "adamos486",
+      "shared_at": 1770598627,
+      "links": [
+        "https://github.com/asteroid-belt/skulto"
+      ]
+    }
+  ]
+}

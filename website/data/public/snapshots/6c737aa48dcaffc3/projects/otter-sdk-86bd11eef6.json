@@ -1,0 +1,35 @@
+{
+  "id": 5227,
+  "slug": "otter-sdk-86bd11eef6",
+  "name": "Otter SDK",
+  "mentions": [
+    {
+      "name": "Otter SDK",
+      "description": "This is a dbt-inspired stream ETL tool that runs SQL models against incoming stream messages and writes results to one or more output tables, currently in dev mode ingesting from RabbitMQ into local Parquet files. It includes a local WAL so output file sizes can be tuned, and planned features include Protobuf message support, Kafka as a source, and S3 and Iceberg tables as sinks. Workers are deliberately stateless (aside from the WAL), with no cross-message joins or aggregations, aiming to make the stream-to-data-lake pattern as simple as SQL plus config, the way dbt is for transformations within a data warehouse.",
+      "problem": "Prior in-house efforts at stream-to-data-lake pipelines were time-consuming and not very reusable without major refactoring; existing tooling seems to lack a solution that makes the stream-to-data-lake pattern just SQL + config.",
+      "audience": null,
+      "builder_usernames": [
+        "OliverGuy"
+      ],
+      "source_excerpt": "Just started this weekend on https://gitlab.com/get-otter/otter-sdk\n\nIts dbt inspired stream ETL tool (or maybe just the TL?), it currently just has a dev mode that does RabbitMQ to local Parque files while I'm getting the core of it to a place I'm happy with.",
+      "evidence": [
+        {
+          "source_item_id": 47751861,
+          "source_field": "body",
+          "value": "Just started this weekend on https://gitlab.com/get-otter/otter-sdk\n\nIts dbt inspired stream ETL tool (or maybe just the TL?), it currently just has a dev mode that does RabbitMQ to local Parque files while I'm getting the core of it to a place I'm happy with.",
+          "supports": [],
+          "author": "OliverGuy",
+          "shared_at": 1776087796,
+          "source_url": "https://news.ycombinator.com/item?id=47751861"
+        }
+      ],
+      "source_item_id": 47751861,
+      "source_url": "https://news.ycombinator.com/item?id=47751861",
+      "author": "OliverGuy",
+      "shared_at": 1776087796,
+      "links": [
+        "https://gitlab.com/get-otter/otter-sdk"
+      ]
+    }
+  ]
+}

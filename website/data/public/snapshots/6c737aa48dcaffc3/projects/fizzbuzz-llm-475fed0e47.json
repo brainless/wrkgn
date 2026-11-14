@@ -1,0 +1,35 @@
+{
+  "id": 8506,
+  "slug": "fizzbuzz-llm-475fed0e47",
+  "name": "fizzbuzz-llm",
+  "mentions": [
+    {
+      "name": "fizzbuzz-llm",
+      "description": "A weekend benchmark experiment that tests how far various LLMs can play FizzBuzz before making mistakes, including generalized variants such as using divisors of 3 and 7 instead of 3 and 5 to probe whether models generalize the rules.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "_venkatasg"
+      ],
+      "source_excerpt": "I was thinking about FizzBuzz and thought it might be cool to benchmark various LLMs to see the highest number they could go before they got it wrong. FizzBuzz is cool because you can test whether the model's can generalize to any other game (divisors of 3 and 7 instead of 3 and 5 for example).",
+      "evidence": [
+        {
+          "source_item_id": 46282172,
+          "source_field": "body",
+          "value": "I was thinking about FizzBuzz and thought it might be cool to benchmark various LLMs to see the highest number they could go before they got it wrong. FizzBuzz is cool because you can test whether the model's can generalize to any other game (divisors of 3 and 7 instead of 3 and 5 for example).",
+          "supports": [],
+          "author": "_venkatasg",
+          "shared_at": 1765840046,
+          "source_url": "https://news.ycombinator.com/item?id=46282172"
+        }
+      ],
+      "source_item_id": 46282172,
+      "source_url": "https://news.ycombinator.com/item?id=46282172",
+      "author": "_venkatasg",
+      "shared_at": 1765840046,
+      "links": [
+        "https://github.com/venkatasg/fizzbuzz-llm"
+      ]
+    }
+  ]
+}

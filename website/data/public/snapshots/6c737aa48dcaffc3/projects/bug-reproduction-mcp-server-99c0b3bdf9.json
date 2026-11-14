@@ -1,0 +1,33 @@
+{
+  "id": 5447,
+  "slug": "bug-reproduction-mcp-server-99c0b3bdf9",
+  "name": "Bug-reproduction MCP server",
+  "mentions": [
+    {
+      "name": "Bug-reproduction MCP server",
+      "description": "An MCP server for the dev debugging workflow that holds tools to bring up specific versions or branches of a stack to locate where a bug was introduced, builds the commit and proves the bug wasn't present in the previous one, then applies a fix, re-runs the full stack with the fixed component, and runs local integration tests. Claude records the replication and demonstration of each fix as GIFs on pull requests.",
+      "problem": "Reproduction has been hard to make consistent, specifically bringing up the right environments for the stack.",
+      "audience": "Used in the author's own dev debugging workflow at work.",
+      "builder_usernames": [
+        "kami23"
+      ],
+      "source_excerpt": "I made this at work, when I started getting Claude to record the replication and demonstration of the fix as gifs on PRs people finally started asking me about the cool things I was doing.\n\nThe reproduction has been one of the things I've been struggling with in regards to consistency of bringing up the right envs. At the moment I've been approaching it as a MCP server that holds a few tools to bring up specific versions or branches of my stack to then find where a bug was introduced, build that commit prove that it wasnt in the previous one, and then fix it and run the full stack again with the fix component, then run through our local integration tests.",
+      "evidence": [
+        {
+          "source_item_id": 47746660,
+          "source_field": "body",
+          "value": "I made this at work, when I started getting Claude to record the replication and demonstration of the fix as gifs on PRs people finally started asking me about the cool things I was doing.\n\nThe reproduction has been one of the things I've been struggling with in regards to consistency of bringing up the right envs. At the moment I've been approaching it as a MCP server that holds a few tools to bring up specific versions or branches of my stack to then find where a bug was introduced, build that commit prove that it wasnt in the previous one, and then fix it and run the full stack again with the fix component, then run through our local integration tests.",
+          "supports": [],
+          "author": "kami23",
+          "shared_at": 1776045514,
+          "source_url": "https://news.ycombinator.com/item?id=47746660"
+        }
+      ],
+      "source_item_id": 47746660,
+      "source_url": "https://news.ycombinator.com/item?id=47746660",
+      "author": "kami23",
+      "shared_at": 1776045514,
+      "links": []
+    }
+  ]
+}

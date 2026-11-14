@@ -1,0 +1,35 @@
+{
+  "id": 7335,
+  "slug": "trueflow-0d25cef5a2",
+  "name": "trueflow",
+  "mentions": [
+    {
+      "name": "trueflow",
+      "description": "A terminal UI code review tool that semantically chunks code changes into reviewable blocks and assembles them into a Merkle tree, enabling an overlay of reviews across different semantic blocks of a codebase. Review feedback can be fed back into agents, and the magit-inspired UX offers a focus mode with single-keystroke actions like accept, comment, and reject. Still a work in progress.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mcqueenjordan"
+      ],
+      "source_excerpt": "trueflow - a code review TUI that semantically chunks code changes into reviewable “blocks”, and assembles them into a Merkle tree, so you can have an overlay of reviews of different semantic blocks of your codebase, and feedback the reviews back into agents. Similar UX vibe to magit, with a focus-mode style UX that brings semantic blocks into focus, with single-keystroke actions such as [a]ccept  [c]omment  [x]reject etc.",
+      "evidence": [
+        {
+          "source_item_id": 46945948,
+          "source_field": "body",
+          "value": "trueflow - a code review TUI that semantically chunks code changes into reviewable “blocks”, and assembles them into a Merkle tree, so you can have an overlay of reviews of different semantic blocks of your codebase, and feedback the reviews back into agents. Similar UX vibe to magit, with a focus-mode style UX that brings semantic blocks into focus, with single-keystroke actions such as [a]ccept  [c]omment  [x]reject etc.",
+          "supports": [],
+          "author": "mcqueenjordan",
+          "shared_at": 1770649227,
+          "source_url": "https://news.ycombinator.com/item?id=46945948"
+        }
+      ],
+      "source_item_id": 46945948,
+      "source_url": "https://news.ycombinator.com/item?id=46945948",
+      "author": "mcqueenjordan",
+      "shared_at": 1770649227,
+      "links": [
+        "https://github.com/trueflow-dev/trueflow"
+      ]
+    }
+  ]
+}

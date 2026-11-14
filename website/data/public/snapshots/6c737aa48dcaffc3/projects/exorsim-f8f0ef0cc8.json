@@ -1,0 +1,36 @@
+{
+  "id": 7164,
+  "slug": "exorsim-f8f0ef0cc8",
+  "name": "exorsim",
+  "mentions": [
+    {
+      "name": "exorsim",
+      "description": "An MC6800 simulator (exorsim) with newly added EXORdisk-I support so it can boot EDOS and EDOS-II disks. EDOS was a direct 6800 port of FDOS, the first DOS for microcomputers, which ran on iCOM FD360 8-inch floppy drives.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jhallenworld"
+      ],
+      "source_excerpt": "Adding EXORdisk-I support to my MC6800 simulator so that it can boot EDOS and EDOS-II disks.",
+      "evidence": [
+        {
+          "source_item_id": 46940878,
+          "source_field": "body",
+          "value": "Adding EXORdisk-I support to my MC6800 simulator so that it can boot EDOS and EDOS-II disks.",
+          "supports": [],
+          "author": "jhallenworld",
+          "shared_at": 1770603746,
+          "source_url": "https://news.ycombinator.com/item?id=46940878"
+        }
+      ],
+      "source_item_id": 46940878,
+      "source_url": "https://news.ycombinator.com/item?id=46940878",
+      "author": "jhallenworld",
+      "shared_at": 1770603746,
+      "links": [
+        "https://github.com/jhallen/exorsim",
+        "https://www.youtube.com/watch?v=TpHKygZ7OHY"
+      ]
+    }
+  ]
+}

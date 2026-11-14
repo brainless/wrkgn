@@ -1,0 +1,35 @@
+{
+  "id": 9330,
+  "slug": "wavefunc-677277d278",
+  "name": "Wavefunc",
+  "mentions": [
+    {
+      "name": "Wavefunc",
+      "description": "An internet radio app (rewrite of an earlier version) that uses nostr to provide authentication, persistence, and social features for free, letting listeners curate and persist favorite stations without a subscription. It adds convenience features such as a \"now playing\" display and MusicBrainz integration for remembering songs. The spec, flow, and most of the UI are complete, an Android build has been produced, and the source will be published soon.",
+      "problem": "Most internet radio apps require a paid subscription to curate favorites and persist them, which left the author dissatisfied with the state of radio apps.",
+      "audience": "An internet radio listener building it for their own dissatisfaction with existing radio apps; no broader intended audience is stated.",
+      "builder_usernames": [
+        "schlauskwab"
+      ],
+      "source_excerpt": "Being an internet radio enjoyer I was always dissatisfied with the state of radio apps. Most of them want you to pay for a subscription to be able to curate favorites and persist them. With nostr we get auth, persistence and social for free.\n\nhttps://wavefunc.live\n\nThis version is a rewrite of an earlier one and I've added some cool convenience features like \"now playing\" and musicbrainz integration for remembering songs.",
+      "evidence": [
+        {
+          "source_item_id": 45872627,
+          "source_field": "body",
+          "value": "Being an internet radio enjoyer I was always dissatisfied with the state of radio apps. Most of them want you to pay for a subscription to be able to curate favorites and persist them. With nostr we get auth, persistence and social for free.\n\nhttps://wavefunc.live\n\nThis version is a rewrite of an earlier one and I've added some cool convenience features like \"now playing\" and musicbrainz integration for remembering songs.",
+          "supports": [],
+          "author": "schlauskwab",
+          "shared_at": 1762751198,
+          "source_url": "https://news.ycombinator.com/item?id=45872627"
+        }
+      ],
+      "source_item_id": 45872627,
+      "source_url": "https://news.ycombinator.com/item?id=45872627",
+      "author": "schlauskwab",
+      "shared_at": 1762751198,
+      "links": [
+        "https://wavefunc.live"
+      ]
+    }
+  ]
+}

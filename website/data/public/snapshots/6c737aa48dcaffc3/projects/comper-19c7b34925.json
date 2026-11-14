@@ -1,0 +1,35 @@
+{
+  "id": 9827,
+  "slug": "comper-19c7b34925",
+  "name": "Comper",
+  "mentions": [
+    {
+      "name": "Comper",
+      "description": "An infinite canvas that places an organization's code and documentation on a map, letting users zoom in to see code and zoom out for the big picture. It offers different display modes (code age, authorship/bus-factor, languages used, security issues), time-travel playback similar to Gource, a GeoGuessr-style game where players guess where a code snippet lives in the org's repos, and plans for LLM + tree-sitter analysis to show relations to other systems and databases.",
+      "problem": "It is hard to find your way through an organization's code landscape and understand how its systems fit together.",
+      "audience": "Software teams and entire organizations",
+      "builder_usernames": [
+        "jtwaleson"
+      ],
+      "source_excerpt": "I'm creating Comper, an infinite canvas that has all your organization's code and documentation on it. If you zoom in, you can see the code, if you zoom out you see the big picture. By giving everything a place on the map, it becomes easier to figure out your way through the landscape and understand the systems.",
+      "evidence": [
+        {
+          "source_item_id": 45422908,
+          "source_field": "body",
+          "value": "I'm creating Comper, an infinite canvas that has all your organization's code and documentation on it. If you zoom in, you can see the code, if you zoom out you see the big picture. By giving everything a place on the map, it becomes easier to figure out your way through the landscape and understand the systems.",
+          "supports": [],
+          "author": "jtwaleson",
+          "shared_at": 1759217756,
+          "source_url": "https://news.ycombinator.com/item?id=45422908"
+        }
+      ],
+      "source_item_id": 45422908,
+      "source_url": "https://news.ycombinator.com/item?id=45422908",
+      "author": "jtwaleson",
+      "shared_at": 1759217756,
+      "links": [
+        "https://comper.io"
+      ]
+    }
+  ]
+}

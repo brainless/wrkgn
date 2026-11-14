@@ -1,0 +1,35 @@
+{
+  "id": 9782,
+  "slug": "penteglot-f40910bb05",
+  "name": "Penteglot",
+  "mentions": [
+    {
+      "name": "Penteglot",
+      "description": "A fork of Emacs's Eglot LSP client that adds multi-server support, allowing multiple language servers to run simultaneously for the same buffer (e.g. basedpyright or pyrefly plus ruff for Python, or ts-ls plus eslint and tailwind servers for TypeScript). Still work-in-progress, with the hope of being merged into Emacs one day.",
+      "problem": "Eglot lacked multi-server support, which was one of the main reasons people stuck with lsp-mode over Eglot.",
+      "audience": "Emacs users and developers who need multiple language servers per buffer",
+      "builder_usernames": [
+        "pawelkobojek"
+      ],
+      "source_excerpt": "I'm working on Penteglot - a fork of Emacs's Eglot LSP client with multi-server support.\n\nThe main feature: you can run multiple language servers simultaneously for the same buffer.",
+      "evidence": [
+        {
+          "source_item_id": 45565423,
+          "source_field": "body",
+          "value": "I'm working on Penteglot - a fork of Emacs's Eglot LSP client with multi-server support.\n\nThe main feature: you can run multiple language servers simultaneously for the same buffer.",
+          "supports": [],
+          "author": "pawelkobojek",
+          "shared_at": 1760337865,
+          "source_url": "https://news.ycombinator.com/item?id=45565423"
+        }
+      ],
+      "source_item_id": 45565423,
+      "source_url": "https://news.ycombinator.com/item?id=45565423",
+      "author": "pawelkobojek",
+      "shared_at": 1760337865,
+      "links": [
+        "https://github.com/pawelkobojek/penteglot"
+      ]
+    }
+  ]
+}

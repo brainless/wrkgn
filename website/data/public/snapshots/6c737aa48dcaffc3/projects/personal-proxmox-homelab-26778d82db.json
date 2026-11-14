@@ -1,0 +1,33 @@
+{
+  "id": 5541,
+  "slug": "personal-proxmox-homelab-26778d82db",
+  "name": "Personal Proxmox homelab",
+  "mentions": [
+    {
+      "name": "Personal Proxmox homelab",
+      "description": "A self-hosted homelab rebuilt on Proxmox v9.1.6, centralizing databases into shared LXC containers and using Proxmox's OCI compatibility to run containers directly on the hypervisor, replacing dedicated Docker VMs.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "einhard"
+      ],
+      "source_excerpt": "I recently rebuilt my homelab after moving countries, and in the process updated Proxmox to v9.1.6. Been playing with centralizing my databases into their own LXCs rather than creating an individual one for each application.",
+      "evidence": [
+        {
+          "source_item_id": 47748254,
+          "source_field": "body",
+          "value": "I recently rebuilt my homelab after moving countries, and in the process updated Proxmox to v9.1.6. Been playing with centralizing my databases into their own LXCs rather than creating an individual one for each application.",
+          "supports": [],
+          "author": "einhard",
+          "shared_at": 1776060970,
+          "source_url": "https://news.ycombinator.com/item?id=47748254"
+        }
+      ],
+      "source_item_id": 47748254,
+      "source_url": "https://news.ycombinator.com/item?id=47748254",
+      "author": "einhard",
+      "shared_at": 1776060970,
+      "links": []
+    }
+  ]
+}

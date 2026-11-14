@@ -1,0 +1,64 @@
+{
+  "id": 3895,
+  "slug": "lean4-mlir-9173431b8d",
+  "name": "lean4-mlir",
+  "mentions": [
+    {
+      "name": "lean4-mlir",
+      "description": "A Lean 4 project that formalizes the mathematics of deep learning, lowering the formalizations to the MLIR/IREE compiler stack.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "asparagui"
+      ],
+      "source_excerpt": "Been formalizing the math of deep learning in Lean 4 by lowering to MLIR/IREE.",
+      "evidence": [
+        {
+          "source_item_id": 48536210,
+          "source_field": "body",
+          "value": "Been formalizing the math of deep learning in Lean 4 by lowering to MLIR/IREE.",
+          "supports": [],
+          "author": "asparagui",
+          "shared_at": 1781493746,
+          "source_url": "https://news.ycombinator.com/item?id=48536210"
+        }
+      ],
+      "source_item_id": 48536210,
+      "source_url": "https://news.ycombinator.com/item?id=48536210",
+      "author": "asparagui",
+      "shared_at": 1781493746,
+      "links": [
+        "https://github.com/brettkoonce/lean4-mlir"
+      ]
+    },
+    {
+      "name": "lean4-mlir",
+      "description": "A framework for writing neural networks in Lean 4 that compiles to StableHLO MLIR and runs on GPU via IREE.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "asparagui"
+      ],
+      "source_excerpt": "I (w/ Claude) have built a framework for writing neural networks in Lean 4 that compiles to StableHLO MLIR and runs on GPU via IREE.",
+      "evidence": [
+        {
+          "source_item_id": 48088624,
+          "source_field": "body",
+          "value": "I (w/ Claude) have built a framework for writing neural networks in Lean 4 that compiles to StableHLO MLIR and runs on GPU via IREE.",
+          "supports": [],
+          "author": "asparagui",
+          "shared_at": 1778450797,
+          "source_url": "https://news.ycombinator.com/item?id=48088624"
+        }
+      ],
+      "source_item_id": 48088624,
+      "source_url": "https://news.ycombinator.com/item?id=48088624",
+      "author": "asparagui",
+      "shared_at": 1778450797,
+      "links": [
+        "https://brettkoonce.github.io/lean4-mlir/blueprint/",
+        "https://github.com/brettkoonce/lean4-mlir"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 7595,
+  "slug": "22-service-rust-e-commerce-platform-00fc0911ba",
+  "name": "22-Service Rust E-commerce Platform",
+  "mentions": [
+    {
+      "name": "22-Service Rust E-commerce Platform",
+      "description": "A distributed e-commerce platform built in Rust as 22 microservices communicating via gRPC in an event-driven architecture, using Axum and Tokio. Built to test whether Rust is viable for complex, enterprise-grade backend architectures, running on roughly 300MB RAM idle, with load benchmarks still in progress and final bugs being fixed before a demo launch.",
+      "problem": "Uncertainty over whether Rust is actually viable for complex, enterprise-grade backend architectures or is just hype.",
+      "audience": null,
+      "builder_usernames": [
+        "MehmetFurkan"
+      ],
+      "source_excerpt": "To test this, I built a full distributed e-commerce system (22 microservices, gRPC, Event-Driven) using Axum and Tokio.",
+      "evidence": [
+        {
+          "source_item_id": 46580486,
+          "source_field": "body",
+          "value": "To test this, I built a full distributed e-commerce system (22 microservices, gRPC, Event-Driven) using Axum and Tokio.",
+          "supports": [],
+          "author": "MehmetFurkan",
+          "shared_at": 1768167810,
+          "source_url": "https://news.ycombinator.com/item?id=46580486"
+        }
+      ],
+      "source_item_id": 46580486,
+      "source_url": "https://news.ycombinator.com/item?id=46580486",
+      "author": "MehmetFurkan",
+      "shared_at": 1768167810,
+      "links": []
+    }
+  ]
+}

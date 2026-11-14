@@ -1,0 +1,36 @@
+{
+  "id": 8298,
+  "slug": "redraft-4b09554b69",
+  "name": "Redraft",
+  "mentions": [
+    {
+      "name": "Redraft",
+      "description": "A distributed social media/microblog site built to test the Torpor framework. It is edge native with a Cloudflare deploy button, stores posts in an SQLite file, lets users log in to their own site to post and comment on their own posts, and includes a web extension for commenting on posts from people they follow wherever they are on the web.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "andrewjk"
+      ],
+      "source_excerpt": "To test it out I built a distributed social media/microblog site called Redraft: https://redraft.social (https://github.com/andrewjk/redraft)\n\nIt's edge native (with a Cloudflare deploy button in that repo) with your posts stored in an SQLite file. You can log in to your site to post and comment on your own posts, and use a web extension to comment on posts from people you follow wherever they are on the web.",
+      "evidence": [
+        {
+          "source_item_id": 46281623,
+          "source_field": "body",
+          "value": "To test it out I built a distributed social media/microblog site called Redraft: https://redraft.social (https://github.com/andrewjk/redraft)\n\nIt's edge native (with a Cloudflare deploy button in that repo) with your posts stored in an SQLite file. You can log in to your site to post and comment on your own posts, and use a web extension to comment on posts from people you follow wherever they are on the web.",
+          "supports": [],
+          "author": "andrewjk",
+          "shared_at": 1765837320,
+          "source_url": "https://news.ycombinator.com/item?id=46281623"
+        }
+      ],
+      "source_item_id": 46281623,
+      "source_url": "https://news.ycombinator.com/item?id=46281623",
+      "author": "andrewjk",
+      "shared_at": 1765837320,
+      "links": [
+        "https://github.com/andrewjk/redraft",
+        "https://redraft.social"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 9285,
+  "slug": "yomu-a771e95fc9",
+  "name": "yomu",
+  "mentions": [
+    {
+      "name": "yomu",
+      "description": "A personal email newsletter built from arbitrary websites, powered by the Hikugen library's LLM-based structured data extraction.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "goncharom"
+      ],
+      "source_excerpt": "I'm using this to power yomu (https://github.com/goncharom/yomu), a personal email newsletter built from arbitrary websites.",
+      "evidence": [
+        {
+          "source_item_id": 45870880,
+          "source_field": "body",
+          "value": "I'm using this to power yomu (https://github.com/goncharom/yomu), a personal email newsletter built from arbitrary websites.",
+          "supports": [],
+          "author": "goncharom",
+          "shared_at": 1762735581,
+          "source_url": "https://news.ycombinator.com/item?id=45870880"
+        }
+      ],
+      "source_item_id": 45870880,
+      "source_url": "https://news.ycombinator.com/item?id=45870880",
+      "author": "goncharom",
+      "shared_at": 1762735581,
+      "links": [
+        "https://github.com/goncharom/yomu"
+      ]
+    }
+  ]
+}

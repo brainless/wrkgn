@@ -1,0 +1,35 @@
+{
+  "id": 8497,
+  "slug": "docket-c5f2ffd154",
+  "name": "Docket",
+  "mentions": [
+    {
+      "name": "Docket",
+      "description": "A typed execution graph library for Go. Developers write functions with typed inputs and outputs; Docket infers the dependency graph, runs independent steps in parallel, caches specified results, and integrates with River and a number of data stores.",
+      "problem": "The author spent a year attempting to adopt Temporal at scale and six months wrangling multistep data enrichment and ML pipelines; Docket is what they wish they had had.",
+      "audience": "Go developers building multistep workflows and data/ML pipelines",
+      "builder_usernames": [
+        "just-the-wrk"
+      ],
+      "source_excerpt": "A typed execution graph for Go. You write functions with typed inputs and outputs—Docket infers the dependency graph, runs independent steps in parallel, and caches what you tell it to. It integrates with River and a number of data stores.",
+      "evidence": [
+        {
+          "source_item_id": 46278344,
+          "source_field": "body",
+          "value": "A typed execution graph for Go. You write functions with typed inputs and outputs—Docket infers the dependency graph, runs independent steps in parallel, and caches what you tell it to. It integrates with River and a number of data stores.",
+          "supports": [],
+          "author": "just-the-wrk",
+          "shared_at": 1765823250,
+          "source_url": "https://news.ycombinator.com/item?id=46278344"
+        }
+      ],
+      "source_item_id": 46278344,
+      "source_url": "https://news.ycombinator.com/item?id=46278344",
+      "author": "just-the-wrk",
+      "shared_at": 1765823250,
+      "links": [
+        "https://github.com/sugarsoup/docket"
+      ]
+    }
+  ]
+}

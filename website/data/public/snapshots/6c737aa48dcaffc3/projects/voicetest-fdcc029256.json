@@ -1,0 +1,65 @@
+{
+  "id": 5283,
+  "slug": "voicetest-fdcc029256",
+  "name": "voicetest",
+  "mentions": [
+    {
+      "name": "voicetest",
+      "description": "An open-source regression testing framework for voice agents. It imports agent configurations from supported platforms into a universal intermediate representation (AgentGraph), then runs autonomous multi-turn conversation simulations where a simulator LLM plays the caller, the agent graph handles routing, and an LLM judge scores transcripts against success criteria. It also supports deterministic rule tests for compliance checks such as PII leakage, required disclosures, and forbidden phrases. Tests written once work across platforms (e.g. import from Retell, export to VAPI), with format conversion between platforms for migrations. It offers CLI (for CI/CD), web UI, REST API, and TUI interfaces, stores results in DuckDB for querying, and uses LiteLLM via DSPy so it works with any LLM provider.",
+      "problem": "Voice agents built across multiple platforms had no way to be regression tested; a prompt tweak on one node could silently break other conversation paths.",
+      "audience": "Developers building voice agents across platforms",
+      "builder_usernames": [
+        "pldpld"
+      ],
+      "source_excerpt": "We were building voice agents across multiple platforms and had no way to regression test them. Prompt tweak on one node would silently break three other conversation paths. So we built voicetest.",
+      "evidence": [
+        {
+          "source_item_id": 47756485,
+          "source_field": "body",
+          "value": "We were building voice agents across multiple platforms and had no way to regression test them. Prompt tweak on one node would silently break three other conversation paths. So we built voicetest.",
+          "supports": [],
+          "author": "pldpld",
+          "shared_at": 1776107000,
+          "source_url": "https://news.ycombinator.com/item?id=47756485"
+        }
+      ],
+      "source_item_id": 47756485,
+      "source_url": "https://news.ycombinator.com/item?id=47756485",
+      "author": "pldpld",
+      "shared_at": 1776107000,
+      "links": [
+        "https://github.com/voicetestdev/voicetest"
+      ]
+    },
+    {
+      "name": "voicetest",
+      "description": "A test harness for voice agents that compiles multi-platform voice agent formats (Retell, VAPI, Bland, LiveKit) into a unified AgentGraph IR, so agents can be imported from one platform, tested locally, and exported to another. Models are configured via litellm and DSPy, with an option to run tests through Claude Code on a subscription to avoid API call charges. Metric judges produce continuous 0-1 scores instead of binary pass/fail, test history persists to DuckDB for querying across runs, and auto-healing graph mutations let failed tests propose structural and prompt changes that are validated against a regression suite.",
+      "problem": "Binary pass/fail thresholds lose important distinctions between agent behaviors: a 0.65 and a 0.35 both fail a 0.7 threshold but represent very different agent behaviors.",
+      "audience": null,
+      "builder_usernames": [
+        "pldpld"
+      ],
+      "source_excerpt": "https://voicetest.dev/\n\nhttps://github.com/voicetestdev/voicetest\n\n- test harness for voice agents.",
+      "evidence": [
+        {
+          "source_item_id": 46954275,
+          "source_field": "body",
+          "value": "https://voicetest.dev/\n\nhttps://github.com/voicetestdev/voicetest\n\n- test harness for voice agents.",
+          "supports": [],
+          "author": "pldpld",
+          "shared_at": 1770687796,
+          "source_url": "https://news.ycombinator.com/item?id=46954275"
+        }
+      ],
+      "source_item_id": 46954275,
+      "source_url": "https://news.ycombinator.com/item?id=46954275",
+      "author": "pldpld",
+      "shared_at": 1770687796,
+      "links": [
+        "https://github.com/voicetestdev/voicetest",
+        "https://peet.ldee.org/general/2026/02/03/testing-voice-ai-agents.html",
+        "https://voicetest.dev/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": 2630,
+  "slug": "bookmarker-706c765007",
+  "name": "Bookmarker",
+  "mentions": [
+    {
+      "name": "Bookmarker",
+      "description": "This Mac app manages a personal library of links, images, and PDFs, sorting them with on-device AI using Apple foundation models. It runs locally for privacy and speed, and is sold as a one-time payment with no subscription.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "kaizenb"
+      ],
+      "source_excerpt": "Working on Bookmarker, released for Mac.",
+      "evidence": [
+        {
+          "source_item_id": 48889836,
+          "source_field": "body",
+          "value": "Working on Bookmarker, released for Mac.",
+          "supports": [],
+          "author": "kaizenb",
+          "shared_at": 1783933868,
+          "source_url": "https://news.ycombinator.com/item?id=48889836"
+        }
+      ],
+      "source_item_id": 48889836,
+      "source_url": "https://news.ycombinator.com/item?id=48889836",
+      "author": "kaizenb",
+      "shared_at": 1783933868,
+      "links": [
+        "https://bookmarker.cc/"
+      ]
+    },
+    {
+      "name": "Bookmarker",
+      "description": "Bookmarker is a bookmarking app with a conversational assistant UX that explores your saved library with you. It offers tag discovery, color browsing, weekly digests, and smart collections that auto-curate as you save. Semantic search runs hybrid, combining keyword matching with pgvector cosine similarity on 768-dimension embeddings, and responses are streamed.",
+      "problem": "The first version had a dead-end search box with six starter prompts (one referencing a tool that didn't exist), no follow-ups, and no guided flows, so users got an answer and had to invent the next question from scratch.",
+      "audience": null,
+      "builder_usernames": [
+        "kaizenb"
+      ],
+      "source_excerpt": "Designing a conversational UX for Bookmarker.\n\nI was stuck on this conversation problem. First version had a dead-end search box: six starter prompts, one referencing a tool that didn't exist. No follow-ups. No guided flows. Users got an answer and had to invent the next question from scratch.\n\nNow the assistant explores your library with you. Tag discovery, color browsing, weekly digests, smart collections that auto-curate as you save.",
+      "evidence": [
+        {
+          "source_item_id": 47305098,
+          "source_field": "body",
+          "value": "Designing a conversational UX for Bookmarker.\n\nI was stuck on this conversation problem. First version had a dead-end search box: six starter prompts, one referencing a tool that didn't exist. No follow-ups. No guided flows. Users got an answer and had to invent the next question from scratch.\n\nNow the assistant explores your library with you. Tag discovery, color browsing, weekly digests, smart collections that auto-curate as you save.",
+          "supports": [],
+          "author": "kaizenb",
+          "shared_at": 1773032931,
+          "source_url": "https://news.ycombinator.com/item?id=47305098"
+        }
+      ],
+      "source_item_id": 47305098,
+      "source_url": "https://news.ycombinator.com/item?id=47305098",
+      "author": "kaizenb",
+      "shared_at": 1773032931,
+      "links": [
+        "https://bookmarker.cc/"
+      ]
+    },
+    {
+      "name": "Bookmarker",
+      "description": "A bookmarking app for saving and organizing links without friction. It supports grouping related content into collections, pinning critical resources for quick access, and instantly searching the entire knowledge base.",
+      "problem": "Saving and organizing links can involve friction.",
+      "audience": null,
+      "builder_usernames": [
+        "kaizenb"
+      ],
+      "source_excerpt": "Bookmarker — https://bookmarker.cc\n\nBuild to help you save and organize links without friction. Group related content into collections, pin critical resources for quick access, and search your entire knowledge base instantly.",
+      "evidence": [
+        {
+          "source_item_id": 46266550,
+          "source_field": "body",
+          "value": "Bookmarker — https://bookmarker.cc\n\nBuild to help you save and organize links without friction. Group related content into collections, pin critical resources for quick access, and search your entire knowledge base instantly.",
+          "supports": [],
+          "author": "kaizenb",
+          "shared_at": 1765744211,
+          "source_url": "https://news.ycombinator.com/item?id=46266550"
+        }
+      ],
+      "source_item_id": 46266550,
+      "source_url": "https://news.ycombinator.com/item?id=46266550",
+      "author": "kaizenb",
+      "shared_at": 1765744211,
+      "links": [
+        "https://bookmarker.cc"
+      ]
+    }
+  ]
+}

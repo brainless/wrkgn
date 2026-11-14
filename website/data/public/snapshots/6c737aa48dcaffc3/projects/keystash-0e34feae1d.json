@@ -1,0 +1,35 @@
+{
+  "id": 11013,
+  "slug": "keystash-0e34feae1d",
+  "name": "KeyStash",
+  "mentions": [
+    {
+      "name": "KeyStash",
+      "description": "KeyStash is a Linux SSH key and user management system. The current work is onsite (self-hosted) deployment support, using RPMs, Debs, and Docker with the goal of making setup as close to a '5 step process' as possible while reducing support load.",
+      "problem": "Many customers want to run the system themselves rather than use hosted infrastructure, but onsite deployment is harder to make slick and easy than a managed service.",
+      "audience": "DevOps and customers who want to self-host the platform on their own infrastructure",
+      "builder_usernames": [
+        "Drewza"
+      ],
+      "source_excerpt": "I've been working on onsite deployments for https://www.keystash.io, which is a Linux SSH Key and User management system.",
+      "evidence": [
+        {
+          "source_item_id": 43818547,
+          "source_field": "body",
+          "value": "I've been working on onsite deployments for https://www.keystash.io, which is a Linux SSH Key and User management system.",
+          "supports": [],
+          "author": "Drewza",
+          "shared_at": 1745824956,
+          "source_url": "https://news.ycombinator.com/item?id=43818547"
+        }
+      ],
+      "source_item_id": 43818547,
+      "source_url": "https://news.ycombinator.com/item?id=43818547",
+      "author": "Drewza",
+      "shared_at": 1745824956,
+      "links": [
+        "https://www.keystash.io"
+      ]
+    }
+  ]
+}

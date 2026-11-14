@@ -1,0 +1,63 @@
+{
+  "id": 2688,
+  "slug": "stages-d6523bab1e",
+  "name": "Stages",
+  "mentions": [
+    {
+      "name": "Stages",
+      "description": "A Shopify app for managing imported orders. Its new Event Filters feature lets users set up rules that decide which orders should be imported into the app based on criteria such as Shopify product names, collection names, and order value.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "nozzlegear"
+      ],
+      "source_excerpt": "I'm working on the finishing touches for a big new \"Event Filters\" feature for my Shopify app, Stages (https://getstages.com). The feature will let users set up rules to decide which orders should be imported into the app based on certain criteria like Shopify product names, collection names, order value, and so on.",
+      "evidence": [
+        {
+          "source_item_id": 48885606,
+          "source_field": "body",
+          "value": "I'm working on the finishing touches for a big new \"Event Filters\" feature for my Shopify app, Stages (https://getstages.com). The feature will let users set up rules to decide which orders should be imported into the app based on certain criteria like Shopify product names, collection names, order value, and so on.",
+          "supports": [],
+          "author": "nozzlegear",
+          "shared_at": 1783896013,
+          "source_url": "https://news.ycombinator.com/item?id=48885606"
+        }
+      ],
+      "source_item_id": 48885606,
+      "source_url": "https://news.ycombinator.com/item?id=48885606",
+      "author": "nozzlegear",
+      "shared_at": 1783896013,
+      "links": [
+        "https://getstages.com"
+      ]
+    },
+    {
+      "name": "Stages",
+      "description": "SaaS app that works like a pizza tracker for orders with a custom or long, drawn-out production process, letting staff and customers see exactly where an order is in the process without calling or emailing. Shopify-only for now, with moving beyond Shopify as a main dev goal. In progress: filtering orders and events before they come in and are saved to the app.",
+      "problem": "Order status currently requires calls or emails to staff, and the missing filtering of orders and events before they are saved is the app's biggest source of churn.",
+      "audience": null,
+      "builder_usernames": [
+        "nozzlegear"
+      ],
+      "source_excerpt": "Outside of my OSS stuff, I'm continuing working on my SaaS app, Stages (https://getstages.com) [¹], which has been paying my mortgage and bills. Customers have been asking for lots of features lately and I'm anxious to get a particular one finished (filtering orders and events before they come in and are saved to the app) soon. It's my biggest source of churn right now.",
+      "evidence": [
+        {
+          "source_item_id": 46939904,
+          "source_field": "body",
+          "value": "Outside of my OSS stuff, I'm continuing working on my SaaS app, Stages (https://getstages.com) [¹], which has been paying my mortgage and bills. Customers have been asking for lots of features lately and I'm anxious to get a particular one finished (filtering orders and events before they come in and are saved to the app) soon. It's my biggest source of churn right now.",
+          "supports": [],
+          "author": "nozzlegear",
+          "shared_at": 1770595296,
+          "source_url": "https://news.ycombinator.com/item?id=46939904"
+        }
+      ],
+      "source_item_id": 46939904,
+      "source_url": "https://news.ycombinator.com/item?id=46939904",
+      "author": "nozzlegear",
+      "shared_at": 1770595296,
+      "links": [
+        "https://getstages.com"
+      ]
+    }
+  ]
+}

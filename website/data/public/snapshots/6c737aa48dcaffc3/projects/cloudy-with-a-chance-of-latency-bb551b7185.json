@@ -1,0 +1,35 @@
+{
+  "id": 6377,
+  "slug": "cloudy-with-a-chance-of-latency-bb551b7185",
+  "name": "Cloudy with a Chance of Latency",
+  "mentions": [
+    {
+      "name": "Cloudy with a Chance of Latency",
+      "description": "Network monitoring tool that uses distributed probes reporting to central servers, with latency annotations tied to BGP events, IPv6 support, and TLS encryption for all probe-to-server communication. A landing-page website was recently added and the project is preparing to open for beta testers.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rixed"
+      ],
+      "source_excerpt": "Still working on my network monitoring tool.\n\nSince last time, added a \"landing-page\" kind of website [0], added annotations with BGP events, support for IPv6, and finishing TLS for every communication between probes and central servers.",
+      "evidence": [
+        {
+          "source_item_id": 47305747,
+          "source_field": "body",
+          "value": "Still working on my network monitoring tool.\n\nSince last time, added a \"landing-page\" kind of website [0], added annotations with BGP events, support for IPv6, and finishing TLS for every communication between probes and central servers.",
+          "supports": [],
+          "author": "rixed",
+          "shared_at": 1773040640,
+          "source_url": "https://news.ycombinator.com/item?id=47305747"
+        }
+      ],
+      "source_item_id": 47305747,
+      "source_url": "https://news.ycombinator.com/item?id=47305747",
+      "author": "rixed",
+      "shared_at": 1773040640,
+      "links": [
+        "https://www.cloudywithachanceoflatency.net/"
+      ]
+    }
+  ]
+}

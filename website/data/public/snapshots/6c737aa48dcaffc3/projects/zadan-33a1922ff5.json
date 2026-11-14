@@ -1,0 +1,35 @@
+{
+  "id": 7693,
+  "slug": "zadan-33a1922ff5",
+  "name": "Zadan",
+  "mentions": [
+    {
+      "name": "Zadan",
+      "description": "A minimal, free task manager for teams and multi-project work, built with HTMX, Bun, and Hono. It focuses on getting tasks done without the high cost of typical team task tools, with only a few practical extras like file and image attachments for context in progress.",
+      "problem": "Most task managers either don't support working with teams or are ridiculously expensive for just a list with extra metadata, especially when working on many projects with different people.",
+      "audience": "People who work on many projects with different people and need a simple, free team task manager.",
+      "builder_usernames": [
+        "Leonardm"
+      ],
+      "source_excerpt": "I tend to work best with very simple productivity tools, and most task managers either don't let you work with teams, or are ridiculously expensive for just a list with extra metadata, especially if you work on many projects with different people. So I built a minimal one using HTMX + Bun + Hono.\n\nIt’s called Zadan (https://zadan.app), named after the Slavic word zadaniye (“assignment”). The goal is to keep it free and focused on getting tasks done, with only a few practical extras like file or image attachments for context which I am working on now.",
+      "evidence": [
+        {
+          "source_item_id": 46604948,
+          "source_field": "body",
+          "value": "I tend to work best with very simple productivity tools, and most task managers either don't let you work with teams, or are ridiculously expensive for just a list with extra metadata, especially if you work on many projects with different people. So I built a minimal one using HTMX + Bun + Hono.\n\nIt’s called Zadan (https://zadan.app), named after the Slavic word zadaniye (“assignment”). The goal is to keep it free and focused on getting tasks done, with only a few practical extras like file or image attachments for context which I am working on now.",
+          "supports": [],
+          "author": "Leonardm",
+          "shared_at": 1768327195,
+          "source_url": "https://news.ycombinator.com/item?id=46604948"
+        }
+      ],
+      "source_item_id": 46604948,
+      "source_url": "https://news.ycombinator.com/item?id=46604948",
+      "author": "Leonardm",
+      "shared_at": 1768327195,
+      "links": [
+        "https://zadan.app"
+      ]
+    }
+  ]
+}

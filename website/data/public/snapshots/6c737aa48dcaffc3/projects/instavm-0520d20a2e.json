@@ -1,0 +1,35 @@
+{
+  "id": 3733,
+  "slug": "instavm-0520d20a2e",
+  "name": "InstaVM",
+  "mentions": [
+    {
+      "name": "InstaVM",
+      "description": "This platform provides sandboxes for AI agents through a CLI, with built-in guardrails including egress control, secret injection, and audit trails. It positions itself as 'AWS for AI agents' and can be used as third-party sandboxes in Anthropic managed agents and the OpenAI SDK.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mkagenius"
+      ],
+      "source_excerpt": "AWS for AI agents - https://instavm.io\n\nProviding sandboxes through a CLI. Guardrails such as egress control and secret injection and audit trails built in.\n\nWe can also be used as 3rd party sandboxes in Anthropic managed agent and OpenAI sdk.",
+      "evidence": [
+        {
+          "source_item_id": 48530267,
+          "source_field": "body",
+          "value": "AWS for AI agents - https://instavm.io\n\nProviding sandboxes through a CLI. Guardrails such as egress control and secret injection and audit trails built in.\n\nWe can also be used as 3rd party sandboxes in Anthropic managed agent and OpenAI sdk.",
+          "supports": [],
+          "author": "mkagenius",
+          "shared_at": 1781459113,
+          "source_url": "https://news.ycombinator.com/item?id=48530267"
+        }
+      ],
+      "source_item_id": 48530267,
+      "source_url": "https://news.ycombinator.com/item?id=48530267",
+      "author": "mkagenius",
+      "shared_at": 1781459113,
+      "links": [
+        "https://instavm.io"
+      ]
+    }
+  ]
+}

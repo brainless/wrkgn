@@ -1,0 +1,35 @@
+{
+  "id": 5855,
+  "slug": "stk-283d0091bf",
+  "name": "stk",
+  "mentions": [
+    {
+      "name": "stk",
+      "description": "Async Quart + Vue 3 starter kit with a pre-wired auth stack (session, 2FA, WebAuthn, OAuth), async SQLAlchemy, Alembic migrations, and no frontend build step, so the boilerplate is done and building the actual product can start faster.",
+      "problem": "Rebuilding the boring boilerplate (auth, database setup, frontend builds) for every new web project slows down getting to the actual product.",
+      "audience": null,
+      "builder_usernames": [
+        "level09"
+      ],
+      "source_excerpt": "stk (https://github.com/level09/stk):  async Quart + Vue 3 starter i use for everything. auth stack is already wired up (session, 2FA, webauthn, oauth), async sqlalchemy, alembic, no frontend build step. basically the boring part so i can get to the actual product faster.",
+      "evidence": [
+        {
+          "source_item_id": 47749457,
+          "source_field": "body",
+          "value": "stk (https://github.com/level09/stk):  async Quart + Vue 3 starter i use for everything. auth stack is already wired up (session, 2FA, webauthn, oauth), async sqlalchemy, alembic, no frontend build step. basically the boring part so i can get to the actual product faster.",
+          "supports": [],
+          "author": "level09",
+          "shared_at": 1776070097,
+          "source_url": "https://news.ycombinator.com/item?id=47749457"
+        }
+      ],
+      "source_item_id": 47749457,
+      "source_url": "https://news.ycombinator.com/item?id=47749457",
+      "author": "level09",
+      "shared_at": 1776070097,
+      "links": [
+        "https://github.com/level09/stk"
+      ]
+    }
+  ]
+}

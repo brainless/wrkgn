@@ -1,0 +1,35 @@
+{
+  "id": 11136,
+  "slug": "monitor-monkey-4376521a95",
+  "name": "Monitor Monkey",
+  "mentions": [
+    {
+      "name": "Monitor Monkey",
+      "description": "Linux server monitoring tool aiming to be the easiest and nicest way to monitor Linux servers. It is implementing zero-config custom alerting: users write a JSON file (e.g. event_name, interval, data) to a home directory to define alerts, with no server-side configuration required, making it suitable for big deployments.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mark_mcnally_je"
+      ],
+      "source_excerpt": "I'm working on Monitor Monkey[1]\n\nIt's attempting to be the easiest and nicest way to monitor Linux servers. I'm currently implementing 0 config custom alerting. All you will have to do is write a file to a home directory with some json in it e.g event_name:blah,interval:1m,data=10 - no server side config at all!\n\nSo should be quite suitable for big deployments :)",
+      "evidence": [
+        {
+          "source_item_id": 43833452,
+          "source_field": "body",
+          "value": "I'm working on Monitor Monkey[1]\n\nIt's attempting to be the easiest and nicest way to monitor Linux servers. I'm currently implementing 0 config custom alerting. All you will have to do is write a file to a home directory with some json in it e.g event_name:blah,interval:1m,data=10 - no server side config at all!\n\nSo should be quite suitable for big deployments :)",
+          "supports": [],
+          "author": "mark_mcnally_je",
+          "shared_at": 1745938045,
+          "source_url": "https://news.ycombinator.com/item?id=43833452"
+        }
+      ],
+      "source_item_id": 43833452,
+      "source_url": "https://news.ycombinator.com/item?id=43833452",
+      "author": "mark_mcnally_je",
+      "shared_at": 1745938045,
+      "links": [
+        "https://monitormonkey.io"
+      ]
+    }
+  ]
+}

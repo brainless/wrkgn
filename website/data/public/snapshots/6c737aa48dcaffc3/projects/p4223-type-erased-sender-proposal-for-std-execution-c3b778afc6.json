@@ -1,0 +1,35 @@
+{
+  "id": 3557,
+  "slug": "p4223-type-erased-sender-proposal-for-std-execution-c3b778afc6",
+  "name": "P4223: type-erased sender proposal for std::execution",
+  "mentions": [
+    {
+      "name": "P4223: type-erased sender proposal for std::execution",
+      "description": "A C++ standards proposal (P4223) for C++29 that extends std::execution with a type-erased sender, enabling separately compiled async algorithms just like sync functions, instead of senders fully encoding their computation shape in their type. The proposal envisions future language support for defining senders with imperative co_await code, opening the door to compiler-level async object lifetime analysis, optimization, and inlining of async functions. Next steps are writing P4223R1 to incorporate WG21 meeting feedback and exploring sender-attribute specification via key-value objects like receiver environments.",
+      "problem": "Senders as shipped in C++26 can really only express the async equivalent of inline functions because, except for task, all the standard senders fully encode the shape of their computation in their type.",
+      "audience": null,
+      "builder_usernames": [
+        "ispeters"
+      ],
+      "source_excerpt": "I'm working on a proposal for C++29 to extend `std::execution` by introducing a type-erased sender (P4223 https://wg21.link/p4223).",
+      "evidence": [
+        {
+          "source_item_id": 48532084,
+          "source_field": "body",
+          "value": "I'm working on a proposal for C++29 to extend `std::execution` by introducing a type-erased sender (P4223 https://wg21.link/p4223).",
+          "supports": [],
+          "author": "ispeters",
+          "shared_at": 1781467756,
+          "source_url": "https://news.ycombinator.com/item?id=48532084"
+        }
+      ],
+      "source_item_id": 48532084,
+      "source_url": "https://news.ycombinator.com/item?id=48532084",
+      "author": "ispeters",
+      "shared_at": 1781467756,
+      "links": [
+        "https://wg21.link/p4223"
+      ]
+    }
+  ]
+}

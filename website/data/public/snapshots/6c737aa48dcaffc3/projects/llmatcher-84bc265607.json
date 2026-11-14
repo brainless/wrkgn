@@ -1,0 +1,35 @@
+{
+  "id": 8309,
+  "slug": "llmatcher-84bc265607",
+  "name": "LLMatcher",
+  "mentions": [
+    {
+      "name": "LLMatcher",
+      "description": "A blind testing arena for finding which AI model actually works best for a given user. Users enter prompts, compare two anonymous model responses, and pick the better one; after voting, the app reveals which models were preferred. It was built because model benchmarks don't match real-world preference, and blind pairwise comparison cuts through the hype.",
+      "problem": "Model benchmarks don't match real-world preference, so users need blind pairwise comparison to cut through the hype.",
+      "audience": null,
+      "builder_usernames": [
+        "joozio"
+      ],
+      "source_excerpt": "LLMatcher - blind testing arena to find which AI model actually works best for you.\n\nYou enter prompts, compare two anonymous responses, pick the better one. After voting, it reveals which models you preferred.",
+      "evidence": [
+        {
+          "source_item_id": 46273870,
+          "source_field": "body",
+          "value": "LLMatcher - blind testing arena to find which AI model actually works best for you.\n\nYou enter prompts, compare two anonymous responses, pick the better one. After voting, it reveals which models you preferred.",
+          "supports": [],
+          "author": "joozio",
+          "shared_at": 1765803206,
+          "source_url": "https://news.ycombinator.com/item?id=46273870"
+        }
+      ],
+      "source_item_id": 46273870,
+      "source_url": "https://news.ycombinator.com/item?id=46273870",
+      "author": "joozio",
+      "shared_at": 1765803206,
+      "links": [
+        "http://llmatcher.com"
+      ]
+    }
+  ]
+}

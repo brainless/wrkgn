@@ -1,0 +1,35 @@
+{
+  "id": 9435,
+  "slug": "download-manager-4d2c24ff73",
+  "name": "download-manager",
+  "mentions": [
+    {
+      "name": "download-manager",
+      "description": "A command-line download manager written in Rust. It has a working blocking version and an async implementation built on tokio, with planned support for downloading chunks with multiple workers and a download queue.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "stonecharioteer"
+      ],
+      "source_excerpt": "Trying to relearn Rust by writing a download manager CLI. Managed to get the blocking version working, now I've implemented the async version using tokio. Have to next implement downloading chunks with different workers, and a download queue.",
+      "evidence": [
+        {
+          "source_item_id": 45873382,
+          "source_field": "body",
+          "value": "Trying to relearn Rust by writing a download manager CLI. Managed to get the blocking version working, now I've implemented the async version using tokio. Have to next implement downloading chunks with different workers, and a download queue.",
+          "supports": [],
+          "author": "stonecharioteer",
+          "shared_at": 1762759862,
+          "source_url": "https://news.ycombinator.com/item?id=45873382"
+        }
+      ],
+      "source_item_id": 45873382,
+      "source_url": "https://news.ycombinator.com/item?id=45873382",
+      "author": "stonecharioteer",
+      "shared_at": 1762759862,
+      "links": [
+        "https://github.com/stonecharioteer/download-manager/"
+      ]
+    }
+  ]
+}

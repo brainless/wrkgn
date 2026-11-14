@@ -1,0 +1,33 @@
+{
+  "id": 6121,
+  "slug": "html-to-rss-feed-updater-23794d5982",
+  "name": "HTML-to-RSS feed updater",
+  "mentions": [
+    {
+      "name": "HTML-to-RSS feed updater",
+      "description": "A tool that parses a website's HTML across many pages and links and updates an RSS feed with filtering support, so changes can be tracked through an RSS aggregator instead of by manually checking the site.",
+      "problem": "Manually checking a website and losing track of what has or hasn't been reviewed.",
+      "audience": "Personal use (the author's own site-monitoring workflow)",
+      "builder_usernames": [
+        "bArray"
+      ],
+      "source_excerpt": "Parsing a website's HTML (lots of pages, lots of links) to update an RSS feed that accepts filters. Rather than manually checking a website and losing track of what I have or haven't reviewed, the idea is to feed it into an RSS aggregator.",
+      "evidence": [
+        {
+          "source_item_id": 47310342,
+          "source_field": "body",
+          "value": "Parsing a website's HTML (lots of pages, lots of links) to update an RSS feed that accepts filters. Rather than manually checking a website and losing track of what I have or haven't reviewed, the idea is to feed it into an RSS aggregator.",
+          "supports": [],
+          "author": "bArray",
+          "shared_at": 1773069992,
+          "source_url": "https://news.ycombinator.com/item?id=47310342"
+        }
+      ],
+      "source_item_id": 47310342,
+      "source_url": "https://news.ycombinator.com/item?id=47310342",
+      "author": "bArray",
+      "shared_at": 1773069992,
+      "links": []
+    }
+  ]
+}

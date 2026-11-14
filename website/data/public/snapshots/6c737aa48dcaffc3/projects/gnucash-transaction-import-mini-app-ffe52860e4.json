@@ -1,0 +1,33 @@
+{
+  "id": 11062,
+  "slug": "gnucash-transaction-import-mini-app-ffe52860e4",
+  "name": "GnuCash Transaction Import Mini-App",
+  "mentions": [
+    {
+      "name": "GnuCash Transaction Import Mini-App",
+      "description": "A custom Python/Django mini-app for importing transactions into a local GnuCash install. It translates and categorizes transactions from non-English source documents into English GnuCash entries, aiming to cut data-entry time by at least 90%, and includes human-error prevention to catch wrong numbers or accounts that previously took long to reconcile.",
+      "problem": "Manual GnuCash transaction entry was so tedious that after over two years the author missed three consecutive months, and entry errors repeatedly took more than 15 minutes to reconcile.",
+      "audience": null,
+      "builder_usernames": [
+        "shibel"
+      ],
+      "source_excerpt": "A custom Python/Django based mini-app (mini — at least for now) that will allow me to import transactions sanely and safely to my local GnuCash install.",
+      "evidence": [
+        {
+          "source_item_id": 43821510,
+          "source_field": "body",
+          "value": "A custom Python/Django based mini-app (mini — at least for now) that will allow me to import transactions sanely and safely to my local GnuCash install.",
+          "supports": [],
+          "author": "shibel",
+          "shared_at": 1745848109,
+          "source_url": "https://news.ycombinator.com/item?id=43821510"
+        }
+      ],
+      "source_item_id": 43821510,
+      "source_url": "https://news.ycombinator.com/item?id=43821510",
+      "author": "shibel",
+      "shared_at": 1745848109,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": 2602,
+  "slug": "studyengine-f8ac8c516d",
+  "name": "StudyEngine",
+  "mentions": [
+    {
+      "name": "StudyEngine",
+      "description": "A study webapp where users upload lecture notes, textbooks, and papers; it extracts topics and tracks mastery over time. It uses an LLM to generate questions and flash cards, applies learning science ideas by testing recognition (multiple choice) first and switching to recall after mastery is reached, and is adding RAG to surface where in the source material to review when going over quiz results. Currently for the author and friends, with possible cost optimization and broader opening up if a good eval setup is achieved.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ryanchants"
+      ],
+      "source_excerpt": "StudyEngine is a webapp I'm using while doing my masters in comp sci. I upload lecture notes, textbooks, papers, etc. It then extracts topics and tracks my mastery of them over time. It uses an LLM to generate questions and flash cards. It loops in some newer learning science ideas. It tests recognition first(multiple choice), and then once a level of mastery is matched, it switches to recall.",
+      "evidence": [
+        {
+          "source_item_id": 48885543,
+          "source_field": "body",
+          "value": "StudyEngine is a webapp I'm using while doing my masters in comp sci. I upload lecture notes, textbooks, papers, etc. It then extracts topics and tracks my mastery of them over time. It uses an LLM to generate questions and flash cards. It loops in some newer learning science ideas. It tests recognition first(multiple choice), and then once a level of mastery is matched, it switches to recall.",
+          "supports": [],
+          "author": "ryanchants",
+          "shared_at": 1783895498,
+          "source_url": "https://news.ycombinator.com/item?id=48885543"
+        }
+      ],
+      "source_item_id": 48885543,
+      "source_url": "https://news.ycombinator.com/item?id=48885543",
+      "author": "ryanchants",
+      "shared_at": 1783895498,
+      "links": [
+        "https://studyengine.app"
+      ]
+    },
+    {
+      "name": "StudyEngine",
+      "description": "App for helping work through masters-level classes.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ryanchants"
+      ],
+      "source_excerpt": "I've been working on something similar for helping work through my masters classes: https://studyengine.app",
+      "evidence": [
+        {
+          "source_item_id": 48116491,
+          "source_field": "body",
+          "value": "I've been working on something similar for helping work through my masters classes: https://studyengine.app",
+          "supports": [],
+          "author": "ryanchants",
+          "shared_at": 1778632862,
+          "source_url": "https://news.ycombinator.com/item?id=48116491"
+        }
+      ],
+      "source_item_id": 48116491,
+      "source_url": "https://news.ycombinator.com/item?id=48116491",
+      "author": "ryanchants",
+      "shared_at": 1778632862,
+      "links": [
+        "https://studyengine.app"
+      ]
+    },
+    {
+      "name": "StudyEngine",
+      "description": "This app lets users upload notes and lecture slides and generates adaptive study material: pre-watch summaries, multiple-choice recognition questions that advance to short-answer recall questions after topic mastery, flashcards generated from failed answers, and topic extraction with mastery tracking that decays over time. It also includes a framework for evaluating LLMs on price/accuracy and a planned RAG pipeline so wrong answers link back to source material for review.",
+      "problem": "Pre-recorded Coursera-based lectures in the author's online MCS program are hard to stay engaged with and learn from, so the author built a tool to actively drill and retain course material.",
+      "audience": "students-learners, personal-use",
+      "builder_usernames": [
+        "ryanchants"
+      ],
+      "source_excerpt": "So I started with a series of claude prompts that took the lecture slides and created a pre-watch summary, and then helped me drill the concepts after each lecture. I think converted those into a platform where I can upload notes/lecture slides and have it generate quizzes. It starts with recognition(multiple choice) questions, and eventually moves to recall(short answer) once you prove mastery of a topic. It also generates flashcards from failed answers.",
+      "evidence": [
+        {
+          "source_item_id": 47743601,
+          "source_field": "body",
+          "value": "So I started with a series of claude prompts that took the lecture slides and created a pre-watch summary, and then helped me drill the concepts after each lecture. I think converted those into a platform where I can upload notes/lecture slides and have it generate quizzes. It starts with recognition(multiple choice) questions, and eventually moves to recall(short answer) once you prove mastery of a topic. It also generates flashcards from failed answers.",
+          "supports": [],
+          "author": "ryanchants",
+          "shared_at": 1776022909,
+          "source_url": "https://news.ycombinator.com/item?id=47743601"
+        }
+      ],
+      "source_item_id": 47743601,
+      "source_url": "https://news.ycombinator.com/item?id=47743601",
+      "author": "ryanchants",
+      "shared_at": 1776022909,
+      "links": [
+        "https://studyengine.app/"
+      ]
+    }
+  ]
+}

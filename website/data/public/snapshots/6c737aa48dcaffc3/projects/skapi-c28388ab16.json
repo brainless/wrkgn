@@ -1,0 +1,35 @@
+{
+  "id": 9933,
+  "slug": "skapi-c28388ab16",
+  "name": "Skapi",
+  "mentions": [
+    {
+      "name": "Skapi",
+      "description": "Skapi is a backend API service that works out of the box directly from frontend projects, with no backend setup or deployment required. It removes the need for web developers to design databases or deploy and manage backend infrastructure, and it fits naturally with coding agents like Claude Code since everything can be done from the frontend.",
+      "problem": "When building a web service, designing databases and deploying and managing backend infrastructure feels too complex and unfun no matter which API service or cloud provider is used.",
+      "audience": "Web developers building frontend projects who want to avoid backend work.",
+      "builder_usernames": [
+        "broadwayinc"
+      ],
+      "source_excerpt": "\"Backend APIs, but everything works from the frontend\": https://www.skapi.com",
+      "evidence": [
+        {
+          "source_item_id": 45436329,
+          "source_field": "body",
+          "value": "\"Backend APIs, but everything works from the frontend\": https://www.skapi.com",
+          "supports": [],
+          "author": "broadwayinc",
+          "shared_at": 1759316401,
+          "source_url": "https://news.ycombinator.com/item?id=45436329"
+        }
+      ],
+      "source_item_id": 45436329,
+      "source_url": "https://news.ycombinator.com/item?id=45436329",
+      "author": "broadwayinc",
+      "shared_at": 1759316401,
+      "links": [
+        "https://www.skapi.com"
+      ]
+    }
+  ]
+}

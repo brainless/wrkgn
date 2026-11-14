@@ -1,0 +1,33 @@
+{
+  "id": 5602,
+  "slug": "encrypted-git-repo-backup-scripts-fb3215ec83",
+  "name": "Encrypted Git Repo Backup Scripts",
+  "mentions": [
+    {
+      "name": "Encrypted Git Repo Backup Scripts",
+      "description": "A suite of scripts that schedules encrypted, incremental backups of git repositories over ssh/rsync from a macOS workstation to rsync.net or any ssh host with rsync capability, simplifying hosting of private git repos.",
+      "problem": "The complexity of hosting a simple private git repo.",
+      "audience": null,
+      "builder_usernames": [
+        "pokstad"
+      ],
+      "source_excerpt": "Scheduled encrypted back up of git repos via ssh/rsync to a simple server from a macOS workstation. I’m tired of the complexity to host a simple private git repo. Using this suite of scripts, I’ve been able to incrementally backup an encrypted copy of my private git repos to rsync.net (but it could be configured to be any ssh host with rsync capability).",
+      "evidence": [
+        {
+          "source_item_id": 47744441,
+          "source_field": "body",
+          "value": "Scheduled encrypted back up of git repos via ssh/rsync to a simple server from a macOS workstation. I’m tired of the complexity to host a simple private git repo. Using this suite of scripts, I’ve been able to incrementally backup an encrypted copy of my private git repos to rsync.net (but it could be configured to be any ssh host with rsync capability).",
+          "supports": [],
+          "author": "pokstad",
+          "shared_at": 1776027748,
+          "source_url": "https://news.ycombinator.com/item?id=47744441"
+        }
+      ],
+      "source_item_id": 47744441,
+      "source_url": "https://news.ycombinator.com/item?id=47744441",
+      "author": "pokstad",
+      "shared_at": 1776027748,
+      "links": []
+    }
+  ]
+}

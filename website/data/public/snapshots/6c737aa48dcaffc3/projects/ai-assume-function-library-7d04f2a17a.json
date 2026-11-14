@@ -1,0 +1,33 @@
+{
+  "id": 5692,
+  "slug": "ai-assume-function-library-7d04f2a17a",
+  "name": "AI \"assume\" function library",
+  "mentions": [
+    {
+      "name": "AI \"assume\" function library",
+      "description": "A library that lets developers \"assume\" a function exists and have AI generate its implementation on demand, using aggressive memoization to keep it from being too expensive. It is being refined to be more modular, flexible, and deterministic; example uses include assuming a symbolic differentiator that takes a string and differentiates with respect to x, and a function that turns a polynomial string into a regular function.",
+      "problem": "Frustration with people committing AI-generated code.",
+      "audience": null,
+      "builder_usernames": [
+        "tombert"
+      ],
+      "source_excerpt": "I have grown tired of people committing AI generated code, so I've been working on a library (written by my own fingers) that allows you to \"assume\" certain functions exist and have AI generate it for you, and use aggressive memoization to avoid it being too expensive.",
+      "evidence": [
+        {
+          "source_item_id": 47754520,
+          "source_field": "body",
+          "value": "I have grown tired of people committing AI generated code, so I've been working on a library (written by my own fingers) that allows you to \"assume\" certain functions exist and have AI generate it for you, and use aggressive memoization to avoid it being too expensive.",
+          "supports": [],
+          "author": "tombert",
+          "shared_at": 1776097900,
+          "source_url": "https://news.ycombinator.com/item?id=47754520"
+        }
+      ],
+      "source_item_id": 47754520,
+      "source_url": "https://news.ycombinator.com/item?id=47754520",
+      "author": "tombert",
+      "shared_at": 1776097900,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": 3180,
+  "slug": "memory-plugin-57f01d6edc",
+  "name": "Memory Plugin",
+  "mentions": [
+    {
+      "name": "Memory Plugin",
+      "description": "A shared memory layer that works across all AI tools, providing persistent memory shared between different AI applications.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "asaddhamani"
+      ],
+      "source_excerpt": "I’ve been building a shared memory layer across all AI tools\n\nwww.memoryplugin.com",
+      "evidence": [
+        {
+          "source_item_id": 48885366,
+          "source_field": "body",
+          "value": "I’ve been building a shared memory layer across all AI tools\n\nwww.memoryplugin.com",
+          "supports": [],
+          "author": "asaddhamani",
+          "shared_at": 1783894326,
+          "source_url": "https://news.ycombinator.com/item?id=48885366"
+        }
+      ],
+      "source_item_id": 48885366,
+      "source_url": "https://news.ycombinator.com/item?id=48885366",
+      "author": "asaddhamani",
+      "shared_at": 1783894326,
+      "links": [
+        "https://www.memoryplugin.com"
+      ]
+    },
+    {
+      "name": "MemoryPlugin",
+      "description": "Long-term memory plugin for dozens of AI tools that lets the system remember a user's entire chat history going back years and recall it in new chats, offering more control and flexibility than native memory systems without locking users into a single platform.",
+      "problem": "Without long-term recall, AI assistants rely only on general world knowledge and give generic, nearly useless advice; MemoryPlugin gives the AI long-term memory so it knows the individual user.",
+      "audience": "Power users of AI tools who want more control and flexibility than native memory systems and who don't want to be locked into any one platform.",
+      "builder_usernames": [
+        "asaddhamani"
+      ],
+      "source_excerpt": "MemoryPlugin (https://www.memoryplugin.com)\n\nLong term memory for dozens of AI tools, designed for power users who want more control and flexibility than native memory systems and who do not want to be locked into any one platform.",
+      "evidence": [
+        {
+          "source_item_id": 46580613,
+          "source_field": "body",
+          "value": "MemoryPlugin (https://www.memoryplugin.com)\n\nLong term memory for dozens of AI tools, designed for power users who want more control and flexibility than native memory systems and who do not want to be locked into any one platform.",
+          "supports": [],
+          "author": "asaddhamani",
+          "shared_at": 1768168326,
+          "source_url": "https://news.ycombinator.com/item?id=46580613"
+        }
+      ],
+      "source_item_id": 46580613,
+      "source_url": "https://news.ycombinator.com/item?id=46580613",
+      "author": "asaddhamani",
+      "shared_at": 1768168326,
+      "links": [
+        "https://www.memoryplugin.com"
+      ]
+    },
+    {
+      "name": "MemoryPlugin",
+      "description": "A tool that adds long-term memory across AI tools. Its chat history based memory feature recalls information from every conversation the user has ever had with ChatGPT and Claude, built on just-in-time summarisation and a multi-stage RAG pipeline. It runs on GPT-OSS via Groq for ultra-low latency, and can recall details from conversations going back years to make personalised plans and feedback more useful.",
+      "problem": "AI tools lack long-term memory of past conversations, limiting personalised plans and feedback.",
+      "audience": null,
+      "builder_usernames": [
+        "asaddhamani"
+      ],
+      "source_excerpt": "I’ve been working on MemoryPlugin (https://www.memoryplugin.com), a tool that adds long term memory across AI tools",
+      "evidence": [
+        {
+          "source_item_id": 45872491,
+          "source_field": "body",
+          "value": "I’ve been working on MemoryPlugin (https://www.memoryplugin.com), a tool that adds long term memory across AI tools",
+          "supports": [],
+          "author": "asaddhamani",
+          "shared_at": 1762749665,
+          "source_url": "https://news.ycombinator.com/item?id=45872491"
+        }
+      ],
+      "source_item_id": 45872491,
+      "source_url": "https://news.ycombinator.com/item?id=45872491",
+      "author": "asaddhamani",
+      "shared_at": 1762749665,
+      "links": [
+        "https://www.memoryplugin.com"
+      ]
+    },
+    {
+      "name": "MemoryPlugin",
+      "description": "This tool adds long-term memory to AI chat clients, supporting more than 17 platforms with thousands of users. Its latest feature is full chat-history-based memory that remembers and recalls every conversation across supported AI tools, ingesting tens of millions of tokens per user and running multi-stage RAG on-the-fly with tight latency targets.",
+      "problem": "Users of AI clients like TypingMind missed ChatGPT's memory feature when switching back, so the author built a memory plugin to fill that gap.",
+      "audience": null,
+      "builder_usernames": [
+        "asaddhamani"
+      ],
+      "source_excerpt": "As of most recently a major feature I've been working on is full chat history based memory. Being able to remember and recall every conversation you've ever had across multiple supported AI tools, similar to the reference past conversations feature in various AI apps. This has been pretty intense and fun. Ingesting tens of millions of tokens per user, and doing complex multi-stage RAG on-the-fly across this vast dataset with a tight latency target for UX.\n\nThe project is MemoryPlugin: https://www.memoryplugin.com",
+      "evidence": [
+        {
+          "source_item_id": 45423500,
+          "source_field": "body",
+          "value": "As of most recently a major feature I've been working on is full chat history based memory. Being able to remember and recall every conversation you've ever had across multiple supported AI tools, similar to the reference past conversations feature in various AI apps. This has been pretty intense and fun. Ingesting tens of millions of tokens per user, and doing complex multi-stage RAG on-the-fly across this vast dataset with a tight latency target for UX.\n\nThe project is MemoryPlugin: https://www.memoryplugin.com",
+          "supports": [],
+          "author": "asaddhamani",
+          "shared_at": 1759223659,
+          "source_url": "https://news.ycombinator.com/item?id=45423500"
+        }
+      ],
+      "source_item_id": 45423500,
+      "source_url": "https://news.ycombinator.com/item?id=45423500",
+      "author": "asaddhamani",
+      "shared_at": 1759223659,
+      "links": [
+        "https://www.memoryplugin.com"
+      ]
+    }
+  ]
+}

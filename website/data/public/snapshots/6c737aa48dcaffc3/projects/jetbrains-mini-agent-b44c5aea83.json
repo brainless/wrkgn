@@ -1,0 +1,35 @@
+{
+  "id": 9473,
+  "slug": "jetbrains-mini-agent-b44c5aea83",
+  "name": "jetbrains-mini-agent",
+  "mentions": [
+    {
+      "name": "jetbrains-mini-agent",
+      "description": "This is a fully offline LLM coding agent plug-in for JetBrains IDEs, designed to run with local models such as Qwen3-Coder-30B-A3B-Instruct-UD-Q4_K_XL.gguf on an RTX 3090 or better GPU. The source code is intentionally kept short so it can be easily audited if needed.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "fxtentacle"
+      ],
+      "source_excerpt": "Fully offline LLM coding agent plug-in for JetBrains IDEs. Use with Qwen3-Coder-30B-A3B-Instruct-UD-Q4_K_XL.gguf on an RTX 3090 or up. The source code is pretty short to make sure it can be audited, if needed.",
+      "evidence": [
+        {
+          "source_item_id": 45874494,
+          "source_field": "body",
+          "value": "Fully offline LLM coding agent plug-in for JetBrains IDEs. Use with Qwen3-Coder-30B-A3B-Instruct-UD-Q4_K_XL.gguf on an RTX 3090 or up. The source code is pretty short to make sure it can be audited, if needed.",
+          "supports": [],
+          "author": "fxtentacle",
+          "shared_at": 1762770326,
+          "source_url": "https://news.ycombinator.com/item?id=45874494"
+        }
+      ],
+      "source_item_id": 45874494,
+      "source_url": "https://news.ycombinator.com/item?id=45874494",
+      "author": "fxtentacle",
+      "shared_at": 1762770326,
+      "links": [
+        "https://github.com/DeutscheKI/jetbrains-mini-agent"
+      ]
+    }
+  ]
+}

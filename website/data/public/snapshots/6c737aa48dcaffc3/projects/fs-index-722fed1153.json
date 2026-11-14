@@ -1,0 +1,35 @@
+{
+  "id": 3421,
+  "slug": "fs-index-722fed1153",
+  "name": "fs_index",
+  "mentions": [
+    {
+      "name": "fs_index",
+      "description": "A local search engine tool that scans the home directory and indexes the data into OpenSearch so files on the laptop can be searched.",
+      "problem": "Lacked a proper search engine for the laptop.",
+      "audience": null,
+      "builder_usernames": [
+        "tombert"
+      ],
+      "source_excerpt": "I thought it might be fun to have a “proper” search engine for my laptop, so I wrote a thing (with my fingers! No Claude Code or codex here!) to scan my home directory and put data into OpenSearch so I can search stuff.",
+      "evidence": [
+        {
+          "source_item_id": 49690236,
+          "source_field": "body",
+          "value": "I thought it might be fun to have a “proper” search engine for my laptop, so I wrote a thing (with my fingers! No Claude Code or codex here!) to scan my home directory and put data into OpenSearch so I can search stuff.",
+          "supports": [],
+          "author": "tombert",
+          "shared_at": 1789345260,
+          "source_url": "https://news.ycombinator.com/item?id=49690236"
+        }
+      ],
+      "source_item_id": 49690236,
+      "source_url": "https://news.ycombinator.com/item?id=49690236",
+      "author": "tombert",
+      "shared_at": 1789345260,
+      "links": [
+        "https://git.brucewillis.sexy/~tombert/fs_index"
+      ]
+    }
+  ]
+}

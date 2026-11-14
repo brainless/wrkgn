@@ -1,0 +1,35 @@
+{
+  "id": 8543,
+  "slug": "lite-7d0deb760b",
+  "name": "Lite³",
+  "mentions": [
+    {
+      "name": "Lite³",
+      "description": "A binary format that encodes JSON documents as a serialized B-tree, so iterators can be constructed directly on the serialized document and internal fields queried at indexed speeds without parsing. Documents remain serialized and can be sent over a network.",
+      "problem": "JSON documents normally have to be parsed before their internal fields can be queried; Lite³ is already indexed while serialized, so no parsing step is needed.",
+      "audience": null,
+      "builder_usernames": [
+        "eliasdejong"
+      ],
+      "source_excerpt": "Lite³: a binary format encoding JSON documents as a serialized B-tree, making it possible to construct iterators on them directly and query internal fields at indexed speeds.",
+      "evidence": [
+        {
+          "source_item_id": 46268318,
+          "source_field": "body",
+          "value": "Lite³: a binary format encoding JSON documents as a serialized B-tree, making it possible to construct iterators on them directly and query internal fields at indexed speeds.",
+          "supports": [],
+          "author": "eliasdejong",
+          "shared_at": 1765755200,
+          "source_url": "https://news.ycombinator.com/item?id=46268318"
+        }
+      ],
+      "source_item_id": 46268318,
+      "source_url": "https://news.ycombinator.com/item?id=46268318",
+      "author": "eliasdejong",
+      "shared_at": 1765755200,
+      "links": [
+        "https://github.com/fastserial/lite3"
+      ]
+    }
+  ]
+}

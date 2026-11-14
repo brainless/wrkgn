@@ -1,0 +1,35 @@
+{
+  "id": 7557,
+  "slug": "aichat-search-abd61d9a7c",
+  "name": "aichat search",
+  "mentions": [
+    {
+      "name": "aichat search",
+      "description": "A command providing a TUI for rust/tantivy-powered full-text search across Claude and Codex sessions, plus a CLI/JSON mode that lets agents search for past work.",
+      "problem": null,
+      "audience": "Users of Claude Code, Codex CLI and similar CLI coding agents",
+      "builder_usernames": [
+        "d4rkp4ttern"
+      ],
+      "source_excerpt": "aichat search command: TUI for rust/tantivy-powered full text search across Claude and Codex sessions. CLI/json mode for agents to search for past work.",
+      "evidence": [
+        {
+          "source_item_id": 46579634,
+          "source_field": "body",
+          "value": "aichat search command: TUI for rust/tantivy-powered full text search across Claude and Codex sessions. CLI/json mode for agents to search for past work.",
+          "supports": [],
+          "author": "d4rkp4ttern",
+          "shared_at": 1768163115,
+          "source_url": "https://news.ycombinator.com/item?id=46579634"
+        }
+      ],
+      "source_item_id": 46579634,
+      "source_url": "https://news.ycombinator.com/item?id=46579634",
+      "author": "d4rkp4ttern",
+      "shared_at": 1768163115,
+      "links": [
+        "https://github.com/pchalasani/claude-code-tools"
+      ]
+    }
+  ]
+}

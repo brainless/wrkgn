@@ -1,0 +1,35 @@
+{
+  "id": 3780,
+  "slug": "duckdb-semantic-views-344b728a76",
+  "name": "duckdb-semantic-views",
+  "mentions": [
+    {
+      "name": "duckdb-semantic-views",
+      "description": "Semantic views for DuckDB, modeled on Snowflake's semantic views, enabling semantic layers for data warehouse and analytics use cases.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "anentropic"
+      ],
+      "source_excerpt": "Various stuff around Semantic Views for data warehouse / analytics\n\nStarting with https://anentropic.github.io/duckdb-semantic-views/ which is basically a clone of Snowflake's semantic views but for DuckDB",
+      "evidence": [
+        {
+          "source_item_id": 48542285,
+          "source_field": "body",
+          "value": "Various stuff around Semantic Views for data warehouse / analytics\n\nStarting with https://anentropic.github.io/duckdb-semantic-views/ which is basically a clone of Snowflake's semantic views but for DuckDB",
+          "supports": [],
+          "author": "anentropic",
+          "shared_at": 1781535645,
+          "source_url": "https://news.ycombinator.com/item?id=48542285"
+        }
+      ],
+      "source_item_id": 48542285,
+      "source_url": "https://news.ycombinator.com/item?id=48542285",
+      "author": "anentropic",
+      "shared_at": 1781535645,
+      "links": [
+        "https://anentropic.github.io/duckdb-semantic-views/"
+      ]
+    }
+  ]
+}

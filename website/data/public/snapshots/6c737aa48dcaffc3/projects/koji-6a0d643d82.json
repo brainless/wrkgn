@@ -1,0 +1,35 @@
+{
+  "id": 5329,
+  "slug": "koji-6a0d643d82",
+  "name": "Koji",
+  "mentions": [
+    {
+      "name": "Koji",
+      "description": "Koji is an AI backend orchestration, management, and proxy layer for self-hosted models that can be commanded from the CLI, API, or a web interface, letting an agent do work remotely via SSH or the user via the web. It tracks when models and backends such as llama.cpp and ik_llama.cpp have been updated, shows what those updates contain, and lets the user update or switch between versions to roll back regressions or performance issues. Plugins for OpenCode and Pi provide automatic model discovery.",
+      "problem": "None of the available options for running models on a homelab offered the desired CLI, API, and web control along with update tracking and version rollback.",
+      "audience": "Personal use — the author builds it mostly for themselves.",
+      "builder_usernames": [
+        "intothemild"
+      ],
+      "source_excerpt": "Koji, a AI Backend Orchestration/Managment/Proxy layer: https://github.com/danielcherubini/koji",
+      "evidence": [
+        {
+          "source_item_id": 47749764,
+          "source_field": "body",
+          "value": "Koji, a AI Backend Orchestration/Managment/Proxy layer: https://github.com/danielcherubini/koji",
+          "supports": [],
+          "author": "intothemild",
+          "shared_at": 1776073172,
+          "source_url": "https://news.ycombinator.com/item?id=47749764"
+        }
+      ],
+      "source_item_id": 47749764,
+      "source_url": "https://news.ycombinator.com/item?id=47749764",
+      "author": "intothemild",
+      "shared_at": 1776073172,
+      "links": [
+        "https://github.com/danielcherubini/koji"
+      ]
+    }
+  ]
+}

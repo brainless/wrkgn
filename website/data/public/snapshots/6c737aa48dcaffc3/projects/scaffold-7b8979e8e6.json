@@ -1,0 +1,33 @@
+{
+  "id": 3569,
+  "slug": "scaffold-7b8979e8e6",
+  "name": "Scaffold",
+  "mentions": [
+    {
+      "name": "Scaffold",
+      "description": "A TypeScript library implementing a peer-to-peer distributed computing mesh that runs in the browser. It provides a WebSocket + WebRTC mesh, a request/response protocol that incentivizes the closest or most efficient peers to respond, a WASM environment for deterministic execution and contract composition, collateralization so invalid responses have amortized negative value, and a consensus and UTXO layer focused on low-latency, low-finality micropayments weighted by WASM compute. The whole system is exposed through a single fetch()-style method, with a prototype planned for release in the coming weeks/months.",
+      "problem": "Originated from wondering why a multiplayer game couldn't simply be run on players' machines without a central server; the focus is low-latency, log(N) state consensus for shared state, unlike a blockchain.",
+      "audience": null,
+      "builder_usernames": [
+        "joeldw"
+      ],
+      "source_excerpt": "I'm building a P2P distributed computing mesh that runs in the browser. It's a TS library that provides a few things:\n\n- A WS + WebRTC mesh\n\n- A request/response protocol incentivizing the closest or most efficient peers to respond to requests\n\n- A WASM environment ensuring deterministic execution and supporting contract composition",
+      "evidence": [
+        {
+          "source_item_id": 48533104,
+          "source_field": "body",
+          "value": "I'm building a P2P distributed computing mesh that runs in the browser. It's a TS library that provides a few things:\n\n- A WS + WebRTC mesh\n\n- A request/response protocol incentivizing the closest or most efficient peers to respond to requests\n\n- A WASM environment ensuring deterministic execution and supporting contract composition",
+          "supports": [],
+          "author": "joeldw",
+          "shared_at": 1781473341,
+          "source_url": "https://news.ycombinator.com/item?id=48533104"
+        }
+      ],
+      "source_item_id": 48533104,
+      "source_url": "https://news.ycombinator.com/item?id=48533104",
+      "author": "joeldw",
+      "shared_at": 1781473341,
+      "links": []
+    }
+  ]
+}

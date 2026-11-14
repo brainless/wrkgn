@@ -1,0 +1,35 @@
+{
+  "id": 10406,
+  "slug": "postgresql-wasm-pglite-0375b293bd",
+  "name": "PostgreSQL WASM (PGlite)",
+  "mentions": [
+    {
+      "name": "PostgreSQL WASM (PGlite)",
+      "description": "Browser-based PostgreSQL servers built on PGlite (PostgreSQL compiled to WebAssembly) with a cloud proxy over Websockets. All PostgreSQL data lives in the browser and persists locally, providing unlimited PostgreSQL servers without installing anything.",
+      "problem": "The author often needs a PostgreSQL server for testing an application, vibe coding, or troubleshooting a PG client, which normally requires installing one locally.",
+      "audience": "Developers who need a PostgreSQL server for testing applications, vibe coding, or troubleshooting PostgreSQL clients.",
+      "builder_usernames": [
+        "buremba"
+      ],
+      "source_excerpt": "Inspired by Neon's architecture, I implemented PostgreSQL WASM (PGlite) with a cloud proxy (via Websockets) at https://postgresql.dbfor.dev\n\nAll the PostgreSQL data lives in your browser, and you have unlimited PostgreSQL servers that persist the data locally without installing anything.",
+      "evidence": [
+        {
+          "source_item_id": 44706077,
+          "source_field": "body",
+          "value": "Inspired by Neon's architecture, I implemented PostgreSQL WASM (PGlite) with a cloud proxy (via Websockets) at https://postgresql.dbfor.dev\n\nAll the PostgreSQL data lives in your browser, and you have unlimited PostgreSQL servers that persist the data locally without installing anything.",
+          "supports": [],
+          "author": "buremba",
+          "shared_at": 1753663446,
+          "source_url": "https://news.ycombinator.com/item?id=44706077"
+        }
+      ],
+      "source_item_id": 44706077,
+      "source_url": "https://news.ycombinator.com/item?id=44706077",
+      "author": "buremba",
+      "shared_at": 1753663446,
+      "links": [
+        "https://postgresql.dbfor.dev"
+      ]
+    }
+  ]
+}

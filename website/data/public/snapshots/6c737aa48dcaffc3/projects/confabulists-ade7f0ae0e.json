@@ -1,0 +1,35 @@
+{
+  "id": 11049,
+  "slug": "confabulists-ade7f0ae0e",
+  "name": "Confabulists",
+  "mentions": [
+    {
+      "name": "Confabulists",
+      "description": "A platform for fiction writers to publish serialized fiction and run a newsletter; currently being rebuilt on a new database and authentication stack after the previous provider's shutdown.",
+      "problem": "The original build used FaunaDB for both the database and authentication, and FaunaDB is shutting down by the end of May, forcing a rebuild of most of the service.",
+      "audience": "fiction writers",
+      "builder_usernames": [
+        "soneca"
+      ],
+      "source_excerpt": "Rebuilding most of my serial literature + newsletter service for fiction writers because I used FaunaDB for both DB and authentication and now they are shutting down by the end of May.",
+      "evidence": [
+        {
+          "source_item_id": 43820999,
+          "source_field": "body",
+          "value": "Rebuilding most of my serial literature + newsletter service for fiction writers because I used FaunaDB for both DB and authentication and now they are shutting down by the end of May.",
+          "supports": [],
+          "author": "soneca",
+          "shared_at": 1745844911,
+          "source_url": "https://news.ycombinator.com/item?id=43820999"
+        }
+      ],
+      "source_item_id": 43820999,
+      "source_url": "https://news.ycombinator.com/item?id=43820999",
+      "author": "soneca",
+      "shared_at": 1745844911,
+      "links": [
+        "https://www.confabulists.com"
+      ]
+    }
+  ]
+}

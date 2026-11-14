@@ -1,0 +1,33 @@
+{
+  "id": 6464,
+  "slug": "google-ai-overview-dissector-e71926036a",
+  "name": "Google AI overview dissector",
+  "mentions": [
+    {
+      "name": "Google AI overview dissector",
+      "description": "A tool that dissects Google AI Overviews by starting with Google Search Console data and enriching it with AI Overview data. It reveals when AIOs appear, what they contain, and their impact on website click-through rates, finding that AIO presence cuts CTR to web properties by roughly 60-70% while AIOs themselves receive near-zero clicks.",
+      "problem": "Google AI Overviews are a black hole: it's unknown when they appear or what's in them, and they massively reduce CTR to web properties.",
+      "audience": null,
+      "builder_usernames": [
+        "franze"
+      ],
+      "source_excerpt": "Google AI overview dissector\n\nAIOs are a black hole - we dont know when they appear and whats in it. so i creates a tool thats starts with GSC data and enriches it via AIO data",
+      "evidence": [
+        {
+          "source_item_id": 47307042,
+          "source_field": "body",
+          "value": "Google AI overview dissector\n\nAIOs are a black hole - we dont know when they appear and whats in it. so i creates a tool thats starts with GSC data and enriches it via AIO data",
+          "supports": [],
+          "author": "franze",
+          "shared_at": 1773051187,
+          "source_url": "https://news.ycombinator.com/item?id=47307042"
+        }
+      ],
+      "source_item_id": 47307042,
+      "source_url": "https://news.ycombinator.com/item?id=47307042",
+      "author": "franze",
+      "shared_at": 1773051187,
+      "links": []
+    }
+  ]
+}

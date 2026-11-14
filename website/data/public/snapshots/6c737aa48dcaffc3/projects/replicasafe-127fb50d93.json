@@ -1,0 +1,35 @@
+{
+  "id": 5499,
+  "slug": "replicasafe-127fb50d93",
+  "name": "ReplicaSafe",
+  "mentions": [
+    {
+      "name": "ReplicaSafe",
+      "description": "A Redis real-time backup platform with point-in-time recovery (PITR) to the exact millisecond. Besides downloads, it offers an emergency recovery option where the Redis client connects directly to the master-replica to receive the latest version. It includes a key explorer for changing data on the fly and receiving real-time notifications when a condition is met (e.g., a value contains X). Built in Rust on bare metal with isolation between clients and data.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "decide1000"
+      ],
+      "source_excerpt": "I'm building a Redis real-time backup platform with PITR (point in time recovery) to the exact millisecond. Besides downloads it has an emergency recovery option where you connect the Redis client directly to the master-replica to receive the latest version.",
+      "evidence": [
+        {
+          "source_item_id": 47755089,
+          "source_field": "body",
+          "value": "I'm building a Redis real-time backup platform with PITR (point in time recovery) to the exact millisecond. Besides downloads it has an emergency recovery option where you connect the Redis client directly to the master-replica to receive the latest version.",
+          "supports": [],
+          "author": "decide1000",
+          "shared_at": 1776100380,
+          "source_url": "https://news.ycombinator.com/item?id=47755089"
+        }
+      ],
+      "source_item_id": 47755089,
+      "source_url": "https://news.ycombinator.com/item?id=47755089",
+      "author": "decide1000",
+      "shared_at": 1776100380,
+      "links": [
+        "https://ReplicaSafe.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 7259,
+  "slug": "esn-holographic-token-projections-5f144bd6c0",
+  "name": "ESN holographic token projections",
+  "mentions": [
+    {
+      "name": "ESN holographic token projections",
+      "description": "This project uses echo state networks (ESNs) as random projections for audio data and potentially rendered text data in AI workflows. Echo states are run both forward and backward through the data to form a holographic representation that acts as a temporally dense token for use in LLM or audio encoder inputs.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "robviren"
+      ],
+      "source_excerpt": "Trying to use ESNs as a random projection for audio data and potentially rendered text data for some AI workflows. Seeing it I can use the echo states running both forward and backward through the data as a holographic representation which would act as a temporally dense token for potential use in LLM or audio encoder inputs.",
+      "evidence": [
+        {
+          "source_item_id": 46941287,
+          "source_field": "body",
+          "value": "Trying to use ESNs as a random projection for audio data and potentially rendered text data for some AI workflows. Seeing it I can use the echo states running both forward and backward through the data as a holographic representation which would act as a temporally dense token for potential use in LLM or audio encoder inputs.",
+          "supports": [],
+          "author": "robviren",
+          "shared_at": 1770608179,
+          "source_url": "https://news.ycombinator.com/item?id=46941287"
+        }
+      ],
+      "source_item_id": 46941287,
+      "source_url": "https://news.ycombinator.com/item?id=46941287",
+      "author": "robviren",
+      "shared_at": 1770608179,
+      "links": []
+    }
+  ]
+}

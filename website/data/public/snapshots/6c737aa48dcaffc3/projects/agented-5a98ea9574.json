@@ -1,0 +1,35 @@
+{
+  "id": 3840,
+  "slug": "agented-5a98ea9574",
+  "name": "agented",
+  "mentions": [
+    {
+      "name": "agented",
+      "description": "A “text editor” for AI agents, with undo, state, and LSP support, optimized for agent users rather than humans.",
+      "problem": "Traditional editors and UX are designed for humans, not for agent-driven use where token efficiency, state, and loops matter most.",
+      "audience": "AI agents as the main users rather than humans",
+      "builder_usernames": [
+        "frb"
+      ],
+      "source_excerpt": "- agented (https://github.com/frane/agented): a “text editor” for agents, with undo, state, and LSP support.",
+      "evidence": [
+        {
+          "source_item_id": 48530793,
+          "source_field": "body",
+          "value": "- agented (https://github.com/frane/agented): a “text editor” for agents, with undo, state, and LSP support.",
+          "supports": [],
+          "author": "frb",
+          "shared_at": 1781461548,
+          "source_url": "https://news.ycombinator.com/item?id=48530793"
+        }
+      ],
+      "source_item_id": 48530793,
+      "source_url": "https://news.ycombinator.com/item?id=48530793",
+      "author": "frb",
+      "shared_at": 1781461548,
+      "links": [
+        "https://github.com/frane/agented"
+      ]
+    }
+  ]
+}

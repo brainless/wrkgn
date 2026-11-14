@@ -1,0 +1,35 @@
+{
+  "id": 6685,
+  "slug": "pithos-e270c4a3b2",
+  "name": "Pithos",
+  "mentions": [
+    {
+      "name": "Pithos",
+      "description": "Pithos is a zero-dependency TypeScript utility ecosystem that ships five modules in one package: data utilities (Arkhe), schema validation (Kanon), Result/Option types (Zygos), typed error classes (Sphalma), and a Lodash migration bridge (Taphos). The patterns compose natively—validate with Kanon, receive a typed Result via Zygos, and chain transformations with Arkhe—in one pipeline with no try/catch and full type inference. Benchmarks claim ~4x smaller and 5-11x faster than Zod 4, ~21x smaller than Lodash, and ~3x smaller than Neverthrow. Available on npm as @pithos/core.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "pmoati"
+      ],
+      "source_excerpt": "I'm building Pithos (https://pithos.dev), a zero-dependency TypeScript utility ecosystem.",
+      "evidence": [
+        {
+          "source_item_id": 47307789,
+          "source_field": "body",
+          "value": "I'm building Pithos (https://pithos.dev), a zero-dependency TypeScript utility ecosystem.",
+          "supports": [],
+          "author": "pmoati",
+          "shared_at": 1773056756,
+          "source_url": "https://news.ycombinator.com/item?id=47307789"
+        }
+      ],
+      "source_item_id": 47307789,
+      "source_url": "https://news.ycombinator.com/item?id=47307789",
+      "author": "pmoati",
+      "shared_at": 1773056756,
+      "links": [
+        "https://pithos.dev"
+      ]
+    }
+  ]
+}

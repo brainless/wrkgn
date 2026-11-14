@@ -1,0 +1,35 @@
+{
+  "id": 7500,
+  "slug": "repere-fae76febb3",
+  "name": "Repere",
+  "mentions": [
+    {
+      "name": "Repere",
+      "description": "An in-browser data explorer for datasets too large for spreadsheets but too small to justify spinning up SQL. It runs entirely client-side on DuckDB-WASM with no server uploads or accounts, representing transformations (filter, join, aggregate, pivot) as a visual DAG of lazy view nodes so DuckDB executes the full pipeline on demand. It supports CSV/Parquet/Excel inputs, a SQL editor with schema-aware autocomplete, pivot tables with drill-down to underlying rows, and sessions exported as files or shareable URLs with the pipeline encoded in the hash, including granular control over whether data files are embedded (with upload-to-restore for large files). Pipelines can be replayed on new data with schema validation, and files never leave the browser since it is a static website. Work in progress, planned to be open sourced under MIT.",
+      "problem": "Datasets too large for spreadsheets but too small to justify spinning up SQL, with privacy concerns since files should never leave the user's browser",
+      "audience": "People analyzing datasets too large for spreadsheets but too small to justify setting up SQL, who share and replay pipelines with colleagues",
+      "builder_usernames": [
+        "mattismegevand"
+      ],
+      "source_excerpt": "I built an in-browser data explorer for datasets too large for spreadsheets but too small to justify spinning up SQL. It runs entirely client-side using DuckDB-WASM, no server uploads accounts or anything.",
+      "evidence": [
+        {
+          "source_item_id": 46580686,
+          "source_field": "body",
+          "value": "I built an in-browser data explorer for datasets too large for spreadsheets but too small to justify spinning up SQL. It runs entirely client-side using DuckDB-WASM, no server uploads accounts or anything.",
+          "supports": [],
+          "author": "mattismegevand",
+          "shared_at": 1768168731,
+          "source_url": "https://news.ycombinator.com/item?id=46580686"
+        }
+      ],
+      "source_item_id": 46580686,
+      "source_url": "https://news.ycombinator.com/item?id=46580686",
+      "author": "mattismegevand",
+      "shared_at": 1768168731,
+      "links": [
+        "https://repere.ai"
+      ]
+    }
+  ]
+}

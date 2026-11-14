@@ -1,0 +1,150 @@
+{
+  "id": 4400,
+  "slug": "opal-92bb171bce",
+  "name": "Opal",
+  "mentions": [
+    {
+      "name": "Opal",
+      "description": "This app is a browser-first markdown editor, workspace, and publisher. It requires no logins or sign-ups, is totally free and MIT open source, integrates with git and GitHub, publishes to AWS, GitHub, Netlify, Vercel, and Cloudflare, and offers drag-and-drop image integration.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rbbydotdev"
+      ],
+      "source_excerpt": "Opal: Browser first feature-rich markdown editor, workspace and publisher",
+      "evidence": [
+        {
+          "source_item_id": 48095024,
+          "source_field": "body",
+          "value": "Opal: Browser first feature-rich markdown editor, workspace and publisher",
+          "supports": [],
+          "author": "rbbydotdev",
+          "shared_at": 1778507541,
+          "source_url": "https://news.ycombinator.com/item?id=48095024"
+        }
+      ],
+      "source_item_id": 48095024,
+      "source_url": "https://news.ycombinator.com/item?id=48095024",
+      "author": "rbbydotdev",
+      "shared_at": 1778507541,
+      "links": [
+        "https://github.com/rbbydotdev/opal",
+        "https://opaledx.com"
+      ]
+    },
+    {
+      "name": "opal",
+      "description": "A git-enabled, local-first, browser-first markdown workspace with a WYSIWYG editor and publishing capabilities. Built with mdx-editor, CodeMirror 6, React, shadcn, and TypeScript; free and open source under MIT.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rbbydotdev"
+      ],
+      "source_excerpt": "A git enabled local-first browser-first markdown workspace wysiwyg editor and publisher. Built with mdx-editor, code mirror 6, react, shadcn and typescript",
+      "evidence": [
+        {
+          "source_item_id": 46941336,
+          "source_field": "body",
+          "value": "A git enabled local-first browser-first markdown workspace wysiwyg editor and publisher. Built with mdx-editor, code mirror 6, react, shadcn and typescript",
+          "supports": [],
+          "author": "rbbydotdev",
+          "shared_at": 1770608610,
+          "source_url": "https://news.ycombinator.com/item?id=46941336"
+        }
+      ],
+      "source_item_id": 46941336,
+      "source_url": "https://news.ycombinator.com/item?id=46941336",
+      "author": "rbbydotdev",
+      "shared_at": 1770608610,
+      "links": [
+        "https://github.com/rbbydotdev/opal"
+      ]
+    },
+    {
+      "name": "Opal",
+      "description": "A local-first markdown editor and static publisher that works offline, is Git-aware, and has zero backend dependencies for complete self-custody. It can store content in browser storage or mount a local directory, and is positioned as an Obsidian alternative.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rbbydotdev"
+      ],
+      "source_excerpt": "A local-first markdown editor and static publisher—offline-ready, Git-aware, with complete self-custody and zero backend dependencies. Can use in browser storage or mount a local directory\n\nYou might even say a Obsidian alternative",
+      "evidence": [
+        {
+          "source_item_id": 46585024,
+          "source_field": "body",
+          "value": "A local-first markdown editor and static publisher—offline-ready, Git-aware, with complete self-custody and zero backend dependencies. Can use in browser storage or mount a local directory\n\nYou might even say a Obsidian alternative",
+          "supports": [],
+          "author": "rbbydotdev",
+          "shared_at": 1768200969,
+          "source_url": "https://news.ycombinator.com/item?id=46585024"
+        }
+      ],
+      "source_item_id": 46585024,
+      "source_url": "https://news.ycombinator.com/item?id=46585024",
+      "author": "rbbydotdev",
+      "shared_at": 1768200969,
+      "links": [
+        "https://github.com/rbbydotdev/opal",
+        "https://opaledx.com/docs"
+      ]
+    },
+    {
+      "name": "Opal",
+      "description": "Open source, browser-first, serverless markdown document workspace and publisher positioned as a free Obsidian alternative. Stores documents in IndexedDB or uses OPFS to work on a local file directory, includes Git integration, and can publish to AWS, Cloudflare, Vercel, and GitHub Pages. Built with shadcn, React, and TypeScript.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rbbydotdev"
+      ],
+      "source_excerpt": "open source browser first server-less markdown document workspace and publisher, contending to be a free obsidian alternative",
+      "evidence": [
+        {
+          "source_item_id": 46278219,
+          "source_field": "body",
+          "value": "open source browser first server-less markdown document workspace and publisher, contending to be a free obsidian alternative",
+          "supports": [],
+          "author": "rbbydotdev",
+          "shared_at": 1765822675,
+          "source_url": "https://news.ycombinator.com/item?id=46278219"
+        }
+      ],
+      "source_item_id": 46278219,
+      "source_url": "https://news.ycombinator.com/item?id=46278219",
+      "author": "rbbydotdev",
+      "shared_at": 1765822675,
+      "links": [
+        "https://github.com/rbbydotdev/opal",
+        "https://opaledx.com"
+      ]
+    },
+    {
+      "name": "Opaledx",
+      "description": "This app is a browser-based markdown and image CMS that runs and stores documents entirely offline and static, requiring no server. It includes a rich markdown editor (mdxeditor) with source editing (CodeMirror 6), local storage via IndexedDB or an OPFS-selected directory, service worker-based image processing (jpg/png to webp) and retrieval, document snapshot history with thumbnail previews via iframe and snapdom, live previews and compilations, fast cold starts using the Cache API, and in-browser git version control (isomorphic-git) with optional GitHub sync via a CORS proxy. It is free to use and nearly finished, with an MIT-licensed GitHub repo planned.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rbbydotdev"
+      ],
+      "source_excerpt": "markdown and image cms in the browser. run and store documents totally offline and static. requires no server. not a pwa or electron\n\nhttps://opaledx.com",
+      "evidence": [
+        {
+          "source_item_id": 45420277,
+          "source_field": "body",
+          "value": "markdown and image cms in the browser. run and store documents totally offline and static. requires no server. not a pwa or electron\n\nhttps://opaledx.com",
+          "supports": [],
+          "author": "rbbydotdev",
+          "shared_at": 1759189762,
+          "source_url": "https://news.ycombinator.com/item?id=45420277"
+        }
+      ],
+      "source_item_id": 45420277,
+      "source_url": "https://news.ycombinator.com/item?id=45420277",
+      "author": "rbbydotdev",
+      "shared_at": 1759189762,
+      "links": [
+        "https://opaledx.com"
+      ]
+    }
+  ]
+}

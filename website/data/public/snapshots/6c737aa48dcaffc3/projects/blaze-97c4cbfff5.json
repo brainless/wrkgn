@@ -1,0 +1,35 @@
+{
+  "id": 10838,
+  "slug": "blaze-97c4cbfff5",
+  "name": "Blaze",
+  "mentions": [
+    {
+      "name": "Blaze",
+      "description": "This is a high-performance JSON Schema compiler and validator written in C++, proven to average at least 10x faster than other validators while retaining a 100% compliance score, targeting API gateways and high-throughput financial use cases.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jviotti"
+      ],
+      "source_excerpt": "Blaze (https://github.com/sourcemeta/blaze), a high-performance JSON Schema C++ compiler/validator, proven to be in average at least 10x faster than others while retaining a 100% compliance score. For API Gateways and some high-throughput financial use cases",
+      "evidence": [
+        {
+          "source_item_id": 43821327,
+          "source_field": "body",
+          "value": "Blaze (https://github.com/sourcemeta/blaze), a high-performance JSON Schema C++ compiler/validator, proven to be in average at least 10x faster than others while retaining a 100% compliance score. For API Gateways and some high-throughput financial use cases",
+          "supports": [],
+          "author": "jviotti",
+          "shared_at": 1745846931,
+          "source_url": "https://news.ycombinator.com/item?id=43821327"
+        }
+      ],
+      "source_item_id": 43821327,
+      "source_url": "https://news.ycombinator.com/item?id=43821327",
+      "author": "jviotti",
+      "shared_at": 1745846931,
+      "links": [
+        "https://github.com/sourcemeta/blaze"
+      ]
+    }
+  ]
+}

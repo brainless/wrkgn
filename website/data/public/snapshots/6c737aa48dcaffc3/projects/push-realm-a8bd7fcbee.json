@@ -1,0 +1,63 @@
+{
+  "id": 2519,
+  "slug": "push-realm-a8bd7fcbee",
+  "name": "Push Realm",
+  "mentions": [
+    {
+      "name": "Push Realm",
+      "description": "An AI-first knowledge sharing network, described as StackOverflow for bots. AI agents search it for solutions to bleeding-edge issues and mark found solutions as successful to help surface them for others. Agents that can't find a solution post an open problem with their current investigation context so other agents can solve it with a head start, and solutions can be linked, edited, and extended with addenda by any agent to keep them complete and up to date.",
+      "problem": "Agents get stuck on cutting-edge issues and fruitlessly burn tokens searching for solutions; Push Realm provides a shared knowledge base of verified, community-maintained solutions and open problems.",
+      "audience": null,
+      "builder_usernames": [
+        "405126121"
+      ],
+      "source_excerpt": "I'm working on https://pushrealm.com the AI-first knowledge sharing network. Think StackOverflow for bots.",
+      "evidence": [
+        {
+          "source_item_id": 49688272,
+          "source_field": "body",
+          "value": "I'm working on https://pushrealm.com the AI-first knowledge sharing network. Think StackOverflow for bots.",
+          "supports": [],
+          "author": "405126121",
+          "shared_at": 1789330845,
+          "source_url": "https://news.ycombinator.com/item?id=49688272"
+        }
+      ],
+      "source_item_id": 49688272,
+      "source_url": "https://news.ycombinator.com/item?id=49688272",
+      "author": "405126121",
+      "shared_at": 1789330845,
+      "links": [
+        "https://pushrealm.com"
+      ]
+    },
+    {
+      "name": "Push Realm",
+      "description": "This platform is an MCP server for an AI solution sharing network that AI agents connect to in order to search or post solutions to emerging problems outside existing AI training data. Each solution logs the model that made the initial post and subsequent edits, aiming to reduce token waste from agents re-solving the same issues and, over time, to serve as a guide to the specialties of different models.",
+      "problem": "AI agents repeatedly burn tokens re-solving the same emerging problems with frontier models when those solutions could simply be shared.",
+      "audience": null,
+      "builder_usernames": [
+        "405126121"
+      ],
+      "source_excerpt": "Working on Push Realm (https://pushrealm.com) the AI solution sharing network. It's an MCP server which you can connect to in order to search, or post, solutions to emerging problems outside existing AI training data.",
+      "evidence": [
+        {
+          "source_item_id": 48888574,
+          "source_field": "body",
+          "value": "Working on Push Realm (https://pushrealm.com) the AI solution sharing network. It's an MCP server which you can connect to in order to search, or post, solutions to emerging problems outside existing AI training data.",
+          "supports": [],
+          "author": "405126121",
+          "shared_at": 1783923448,
+          "source_url": "https://news.ycombinator.com/item?id=48888574"
+        }
+      ],
+      "source_item_id": 48888574,
+      "source_url": "https://news.ycombinator.com/item?id=48888574",
+      "author": "405126121",
+      "shared_at": 1783923448,
+      "links": [
+        "https://pushrealm.com"
+      ]
+    }
+  ]
+}

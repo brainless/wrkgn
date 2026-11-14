@@ -1,0 +1,35 @@
+{
+  "id": 8569,
+  "slug": "calendar-for-car-navigation-system-e39-dev-ae6726948b",
+  "name": "Calendar for car navigation system (e39.dev)",
+  "mentions": [
+    {
+      "name": "Calendar for car navigation system (e39.dev)",
+      "description": "A custom calendar application for the author's car navigation system. It wraps Akonadi with a DBus shim and consumes that data model in custom calendar widgets and UX designed for a rotary knob interface, with plans to also run the same app on an Intel Atom tablet mounted on a fridge using a Griffin PowerMate for input.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "linster"
+      ],
+      "source_excerpt": "Im building a calendar for my car navigation system https://e39.dev\n\nLast winter I built a Matrix client for it. This time around I want to wrap Akonadi with a DBus shim and consume that model in custom calendar widgets and UX I’m making for a rotary knob ui.\n\nI want to run the same app on an intel atom tablet on the side of my fridge, with a Griffin PowerMate hooked up to it for input.",
+      "evidence": [
+        {
+          "source_item_id": 46268117,
+          "source_field": "body",
+          "value": "Im building a calendar for my car navigation system https://e39.dev\n\nLast winter I built a Matrix client for it. This time around I want to wrap Akonadi with a DBus shim and consume that model in custom calendar widgets and UX I’m making for a rotary knob ui.\n\nI want to run the same app on an intel atom tablet on the side of my fridge, with a Griffin PowerMate hooked up to it for input.",
+          "supports": [],
+          "author": "linster",
+          "shared_at": 1765753789,
+          "source_url": "https://news.ycombinator.com/item?id=46268117"
+        }
+      ],
+      "source_item_id": 46268117,
+      "source_url": "https://news.ycombinator.com/item?id=46268117",
+      "author": "linster",
+      "shared_at": 1765753789,
+      "links": [
+        "https://e39.dev"
+      ]
+    }
+  ]
+}

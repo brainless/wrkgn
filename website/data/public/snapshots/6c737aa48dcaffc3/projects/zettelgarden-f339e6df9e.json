@@ -1,0 +1,35 @@
+{
+  "id": 10133,
+  "slug": "zettelgarden-f339e6df9e",
+  "name": "Zettelgarden",
+  "mentions": [
+    {
+      "name": "Zettelgarden",
+      "description": "This app is a personal knowledge system implementing a zettelkasten with an LLM substrate. It uses LLMs to build a model of the theses, arguments, and facts contained in cards, then applies that model to summarize card content and automatically link cards together based on shared concepts.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "nsavage"
+      ],
+      "source_excerpt": "I'm working on Zettelgarden: https://zettelgarden.com.\n\nIt's a personal knowledge system. It's a zettelkasten with an LLM substrate. It uses LLMs to build a model of the theses, arguments and facts used in cards, and uses these to both summarize the information on the card and to automatically link cards together based on shared concepts.",
+      "evidence": [
+        {
+          "source_item_id": 45419887,
+          "source_field": "body",
+          "value": "I'm working on Zettelgarden: https://zettelgarden.com.\n\nIt's a personal knowledge system. It's a zettelkasten with an LLM substrate. It uses LLMs to build a model of the theses, arguments and facts used in cards, and uses these to both summarize the information on the card and to automatically link cards together based on shared concepts.",
+          "supports": [],
+          "author": "nsavage",
+          "shared_at": 1759186674,
+          "source_url": "https://news.ycombinator.com/item?id=45419887"
+        }
+      ],
+      "source_item_id": 45419887,
+      "source_url": "https://news.ycombinator.com/item?id=45419887",
+      "author": "nsavage",
+      "shared_at": 1759186674,
+      "links": [
+        "https://zettelgarden.com"
+      ]
+    }
+  ]
+}

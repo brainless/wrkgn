@@ -1,0 +1,35 @@
+{
+  "id": 8721,
+  "slug": "carelesswhisper-5aee1c7669",
+  "name": "CarelessWhisper",
+  "mentions": [
+    {
+      "name": "CarelessWhisper",
+      "description": "A local speech-to-text dictation tool that transcribes faster than cloud transcription services, even for longer dictations, running entirely on the user's machine.",
+      "problem": "Cloud transcription tools are slower, especially for longer dictations.",
+      "audience": null,
+      "builder_usernames": [
+        "Tsarp"
+      ],
+      "source_excerpt": "Making local running dictations transcribe faster than cloud tools even for longer dictations. Yes its possible.\n\nhttps://carelesswhisper.app/blog/latency-demo",
+      "evidence": [
+        {
+          "source_item_id": 46273064,
+          "source_field": "body",
+          "value": "Making local running dictations transcribe faster than cloud tools even for longer dictations. Yes its possible.\n\nhttps://carelesswhisper.app/blog/latency-demo",
+          "supports": [],
+          "author": "Tsarp",
+          "shared_at": 1765797923,
+          "source_url": "https://news.ycombinator.com/item?id=46273064"
+        }
+      ],
+      "source_item_id": 46273064,
+      "source_url": "https://news.ycombinator.com/item?id=46273064",
+      "author": "Tsarp",
+      "shared_at": 1765797923,
+      "links": [
+        "https://carelesswhisper.app/blog/latency-demo"
+      ]
+    }
+  ]
+}

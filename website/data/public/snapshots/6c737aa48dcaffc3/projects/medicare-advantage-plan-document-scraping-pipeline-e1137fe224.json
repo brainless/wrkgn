@@ -1,0 +1,33 @@
+{
+  "id": 9943,
+  "slug": "medicare-advantage-plan-document-scraping-pipeline-e1137fe224",
+  "name": "Medicare Advantage plan document scraping pipeline",
+  "mentions": [
+    {
+      "name": "Medicare Advantage plan document scraping pipeline",
+      "description": "This web scraping and data pipeline collects the PDF \"Explanation of Benefits\", \"Proof of Coverage\", and \"Drug Formulary\" documents for every Medicare Advantage plan in the USA. It is horizontally scalable so it can ingest updated 2026 plans overnight at the start of open enrollment (Nov 1), using mostly standard browser automation with some clever tricks. The collected documents feed a product for Medicare brokers.",
+      "problem": null,
+      "audience": "Medicare brokers, who will use the collected documents in a product",
+      "builder_usernames": [
+        "singlepaynews"
+      ],
+      "source_excerpt": "A webscraping / data pipeline to get the .pdf \"Explanation of Benefits\", \"Proof of Coverage\", and \"Drug Formulary\" for every Medicare Advantage plan in the USA\n\nThese docs are gonna be used in a product for medicare brokers (if you are/know one please reach out open enrollment starts Nov.1!), and the pipeline is horizontally scalable to ingest updated 2026 plans overnight @ start of open enrollment",
+      "evidence": [
+        {
+          "source_item_id": 45421480,
+          "source_field": "body",
+          "value": "A webscraping / data pipeline to get the .pdf \"Explanation of Benefits\", \"Proof of Coverage\", and \"Drug Formulary\" for every Medicare Advantage plan in the USA\n\nThese docs are gonna be used in a product for medicare brokers (if you are/know one please reach out open enrollment starts Nov.1!), and the pipeline is horizontally scalable to ingest updated 2026 plans overnight @ start of open enrollment",
+          "supports": [],
+          "author": "singlepaynews",
+          "shared_at": 1759201241,
+          "source_url": "https://news.ycombinator.com/item?id=45421480"
+        }
+      ],
+      "source_item_id": 45421480,
+      "source_url": "https://news.ycombinator.com/item?id=45421480",
+      "author": "singlepaynews",
+      "shared_at": 1759201241,
+      "links": []
+    }
+  ]
+}

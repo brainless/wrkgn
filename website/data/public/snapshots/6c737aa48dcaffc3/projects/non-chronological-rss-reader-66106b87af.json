@@ -1,0 +1,33 @@
+{
+  "id": 5522,
+  "slug": "non-chronological-rss-reader-66106b87af",
+  "name": "Non-chronological RSS reader",
+  "mentions": [
+    {
+      "name": "Non-chronological RSS reader",
+      "description": "A non-chronological RSS reader that crawls the blogrolls of blogs the author likes, fetches all posts with full text, and runs a clustering algorithm over them. LLMs classify the content to filter out meta, political, and personal posts, and an LLM names each cluster by sampling its contents, surfacing decades of long-form blog posts worth reading.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "zorked"
+      ],
+      "source_excerpt": "I \"wrote\" (vibe-coded) a non-chronological RSS reader. I crawled the blogrolls of some blogs I liked, fetched all the posts (with full text) and ran a clustering algorithm on them. LLMs classify the content to filter out meta/political/personal posts. And a LLM gives names to the clusters by sampling the contents.",
+      "evidence": [
+        {
+          "source_item_id": 47749731,
+          "source_field": "body",
+          "value": "I \"wrote\" (vibe-coded) a non-chronological RSS reader. I crawled the blogrolls of some blogs I liked, fetched all the posts (with full text) and ran a clustering algorithm on them. LLMs classify the content to filter out meta/political/personal posts. And a LLM gives names to the clusters by sampling the contents.",
+          "supports": [],
+          "author": "zorked",
+          "shared_at": 1776072918,
+          "source_url": "https://news.ycombinator.com/item?id=47749731"
+        }
+      ],
+      "source_item_id": 47749731,
+      "source_url": "https://news.ycombinator.com/item?id=47749731",
+      "author": "zorked",
+      "shared_at": 1776072918,
+      "links": []
+    }
+  ]
+}

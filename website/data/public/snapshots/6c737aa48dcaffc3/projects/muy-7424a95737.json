@@ -1,0 +1,36 @@
+{
+  "id": 3794,
+  "slug": "muy-7424a95737",
+  "name": "muy",
+  "mentions": [
+    {
+      "name": "muy",
+      "description": "A web-based animation tool that replaces keyframe and tween setup with real-time recording: select a layer, manipulate its properties, and the timeline captures every frame. It runs in the browser with no install or account required, described as Excalidraw for animation.",
+      "problem": "Animation tools require setting keyframes and tweens instead of letting users perform animations in real time.",
+      "audience": null,
+      "builder_usernames": [
+        "jpfaraco"
+      ],
+      "source_excerpt": "I've been building this little animation tool I’ve wanted for years, inspired by one of Bret Victor’s demos from his talk “Inventing on Principle”. I wrote about it here [1].\n\nBasically, instead of setting keyframes and tweens, you perform animations in real time: select a layer, manipulate its properties and the timeline records every frame.\n\nNo install, no account needed. It's like Excalidraw, for animation.",
+      "evidence": [
+        {
+          "source_item_id": 48531392,
+          "source_field": "body",
+          "value": "I've been building this little animation tool I’ve wanted for years, inspired by one of Bret Victor’s demos from his talk “Inventing on Principle”. I wrote about it here [1].\n\nBasically, instead of setting keyframes and tweens, you perform animations in real time: select a layer, manipulate its properties and the timeline records every frame.\n\nNo install, no account needed. It's like Excalidraw, for animation.",
+          "supports": [],
+          "author": "jpfaraco",
+          "shared_at": 1781464232,
+          "source_url": "https://news.ycombinator.com/item?id=48531392"
+        }
+      ],
+      "source_item_id": 48531392,
+      "source_url": "https://news.ycombinator.com/item?id=48531392",
+      "author": "jpfaraco",
+      "shared_at": 1781464232,
+      "links": [
+        "https://github.com/jpfaraco/muy",
+        "https://muy.video"
+      ]
+    }
+  ]
+}

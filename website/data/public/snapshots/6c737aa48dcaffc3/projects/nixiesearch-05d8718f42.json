@@ -1,0 +1,35 @@
+{
+  "id": 10680,
+  "slug": "nixiesearch-05d8718f42",
+  "name": "Nixiesearch",
+  "mentions": [
+    {
+      "name": "Nixiesearch",
+      "description": "An open-source search engine built on top of Apache Lucene with S3 block storage, positioned as a better-designed alternative to Elasticsearch.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "shutty"
+      ],
+      "source_excerpt": "Building a search engine on top of Apache Lucene and S3 block storage. Think Elasticsearch done right: https://github.com/nixiesearch/nixiesearch",
+      "evidence": [
+        {
+          "source_item_id": 44704598,
+          "source_field": "body",
+          "value": "Building a search engine on top of Apache Lucene and S3 block storage. Think Elasticsearch done right: https://github.com/nixiesearch/nixiesearch",
+          "supports": [],
+          "author": "shutty",
+          "shared_at": 1753649632,
+          "source_url": "https://news.ycombinator.com/item?id=44704598"
+        }
+      ],
+      "source_item_id": 44704598,
+      "source_url": "https://news.ycombinator.com/item?id=44704598",
+      "author": "shutty",
+      "shared_at": 1753649632,
+      "links": [
+        "https://github.com/nixiesearch/nixiesearch"
+      ]
+    }
+  ]
+}

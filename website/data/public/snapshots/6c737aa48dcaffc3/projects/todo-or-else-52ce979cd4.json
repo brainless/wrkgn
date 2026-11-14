@@ -1,0 +1,33 @@
+{
+  "id": 7573,
+  "slug": "todo-or-else-52ce979cd4",
+  "name": "Todo or else",
+  "mentions": [
+    {
+      "name": "Todo or else",
+      "description": "A Go CLI called \"todo or else\" that scans projects for TODO comments and checks they have deadlines, holding you accountable for completing them. It can also verify other things such as whether TODOs have owners. Built on Tree Sitter so it can handle most programming languages (shipping with a subset of grammars), with a cross-platform release planned in a couple of weeks.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "zero_shift"
+      ],
+      "source_excerpt": "The main thing is a new Go CLI called \"todo or else\". It scans your project for TODO comments and checks that they have deadlines",
+      "evidence": [
+        {
+          "source_item_id": 46578481,
+          "source_field": "body",
+          "value": "The main thing is a new Go CLI called \"todo or else\". It scans your project for TODO comments and checks that they have deadlines",
+          "supports": [],
+          "author": "zero_shift",
+          "shared_at": 1768157320,
+          "source_url": "https://news.ycombinator.com/item?id=46578481"
+        }
+      ],
+      "source_item_id": 46578481,
+      "source_url": "https://news.ycombinator.com/item?id=46578481",
+      "author": "zero_shift",
+      "shared_at": 1768157320,
+      "links": []
+    }
+  ]
+}

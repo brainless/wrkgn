@@ -1,0 +1,35 @@
+{
+  "id": 9030,
+  "slug": "p2pd-ec346bfe5c",
+  "name": "p2pd",
+  "mentions": [
+    {
+      "name": "p2pd",
+      "description": "A networking library that lets developers manage network interfaces (NICs) and the routes they support without guessing about addressing. It handles edge cases across operating systems and address families, making tasks like 'bind on all local addresses', 'bind publicly', or 'bind on all' easy, and has been used to build software such as NAT traversal. It is a redesign of how networking is done on the Internet, hiding much of the underlying messiness; code quality is still being improved while it is dogfooded with many applications built on it.",
+      "problem": "Writing network software that works across machines with multiple NICs or multiple external Internet IPs is hard: simple tasks like binding on all local addresses or binding publicly have edge cases across different OSes and address families, making manual IP management difficult.",
+      "audience": "Developers",
+      "builder_usernames": [
+        "Uptrenda"
+      ],
+      "source_excerpt": "My network software lets devs easily manage NICs and routes they support without guessing about addressing. Additionally, I've written a bunch of software with the library already to do things like NAT traversal. So its really my own redesign of how to do networking on the Internet. Designed to hide a lot of the messiness.",
+      "evidence": [
+        {
+          "source_item_id": 45869934,
+          "source_field": "body",
+          "value": "My network software lets devs easily manage NICs and routes they support without guessing about addressing. Additionally, I've written a bunch of software with the library already to do things like NAT traversal. So its really my own redesign of how to do networking on the Internet. Designed to hide a lot of the messiness.",
+          "supports": [],
+          "author": "Uptrenda",
+          "shared_at": 1762727985,
+          "source_url": "https://news.ycombinator.com/item?id=45869934"
+        }
+      ],
+      "source_item_id": 45869934,
+      "source_url": "https://news.ycombinator.com/item?id=45869934",
+      "author": "Uptrenda",
+      "shared_at": 1762727985,
+      "links": [
+        "https://github.com/robertsdotpm/p2pd"
+      ]
+    }
+  ]
+}

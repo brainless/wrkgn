@@ -1,0 +1,33 @@
+{
+  "id": 6001,
+  "slug": "bitwise-cloud-12b847e12d",
+  "name": "Bitwise Cloud",
+  "mentions": [
+    {
+      "name": "Bitwise Cloud",
+      "description": "A Claude Code plugin providing semantic search over embedded systems documentation. Its backend is being rewritten from Python to Go, using pure-Go embedding generation and vector search to avoid C/C++ ML dependencies like FAISS and ONNX Runtime in the build.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mikeayles"
+      ],
+      "source_excerpt": "Rewriting the backend Bitwise Cloud, my semantic search for embedded systems docs Claude Code plugin from Python to Go.",
+      "evidence": [
+        {
+          "source_item_id": 47306582,
+          "source_field": "body",
+          "value": "Rewriting the backend Bitwise Cloud, my semantic search for embedded systems docs Claude Code plugin from Python to Go.",
+          "supports": [],
+          "author": "mikeayles",
+          "shared_at": 1773047674,
+          "source_url": "https://news.ycombinator.com/item?id=47306582"
+        }
+      ],
+      "source_item_id": 47306582,
+      "source_url": "https://news.ycombinator.com/item?id=47306582",
+      "author": "mikeayles",
+      "shared_at": 1773047674,
+      "links": []
+    }
+  ]
+}

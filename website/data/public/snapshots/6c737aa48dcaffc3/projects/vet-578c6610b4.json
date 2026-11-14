@@ -1,0 +1,35 @@
+{
+  "id": 9521,
+  "slug": "vet-578c6610b4",
+  "name": "vet",
+  "mentions": [
+    {
+      "name": "vet",
+      "description": "An open source package vetting tool that automates security analysis of dependencies, going beyond CVE matching to identify code capabilities, malicious code, and other security-sensitive attributes through code analysis.",
+      "problem": "Package vetting today relies mainly on CVE data and misses malicious code and other security-sensitive attributes present in open source dependencies.",
+      "audience": null,
+      "builder_usernames": [
+        "abhisek"
+      ],
+      "source_excerpt": "Building vet. The goal is to automate open source package vetting beyond just CVE but actually identify code capabilities, malicious code and other security sensitive attributes through code analysis.",
+      "evidence": [
+        {
+          "source_item_id": 45871918,
+          "source_field": "body",
+          "value": "Building vet. The goal is to automate open source package vetting beyond just CVE but actually identify code capabilities, malicious code and other security sensitive attributes through code analysis.",
+          "supports": [],
+          "author": "abhisek",
+          "shared_at": 1762743946,
+          "source_url": "https://news.ycombinator.com/item?id=45871918"
+        }
+      ],
+      "source_item_id": 45871918,
+      "source_url": "https://news.ycombinator.com/item?id=45871918",
+      "author": "abhisek",
+      "shared_at": 1762743946,
+      "links": [
+        "https://github.com/safedep/vet"
+      ]
+    }
+  ]
+}

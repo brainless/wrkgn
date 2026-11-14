@@ -1,0 +1,36 @@
+{
+  "id": 7742,
+  "slug": "molchanica-bdb1f4dd6b",
+  "name": "Molchanica",
+  "mentions": [
+    {
+      "name": "Molchanica",
+      "description": "This open-source molecule viewer and editor is written in Rust and is gaining drug-development features and polish. Its building blocks are split into separate libraries published on crates.io for anyone building other bio or chem software.",
+      "problem": null,
+      "audience": "Developers building other bio or chem software (for the split-out libraries)",
+      "builder_usernames": [
+        "the__alchemist"
+      ],
+      "source_excerpt": "I'm adding drug-development features, and polish to my open-source molecule viewer and editor, Molchanica: https://www.athanorlab.com/molchanica.",
+      "evidence": [
+        {
+          "source_item_id": 46578202,
+          "source_field": "body",
+          "value": "I'm adding drug-development features, and polish to my open-source molecule viewer and editor, Molchanica: https://www.athanorlab.com/molchanica.",
+          "supports": [],
+          "author": "the__alchemist",
+          "shared_at": 1768156076,
+          "source_url": "https://news.ycombinator.com/item?id=46578202"
+        }
+      ],
+      "source_item_id": 46578202,
+      "source_url": "https://news.ycombinator.com/item?id=46578202",
+      "author": "the__alchemist",
+      "shared_at": 1768156076,
+      "links": [
+        "https://github.com/David-OConnor/molchanica",
+        "https://www.athanorlab.com/molchanica"
+      ]
+    }
+  ]
+}

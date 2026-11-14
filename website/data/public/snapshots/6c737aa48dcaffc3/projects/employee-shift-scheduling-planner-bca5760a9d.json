@@ -1,0 +1,33 @@
+{
+  "id": 8189,
+  "slug": "employee-shift-scheduling-planner-bca5760a9d",
+  "name": "Employee shift scheduling planner",
+  "mentions": [
+    {
+      "name": "Employee shift scheduling planner",
+      "description": "This planner automatically generates employee shift schedules based on worker availabilities and roles, targeting complex shift assignment problems such as complying with specific union rules. Its backend uses an MIP solver combined with heuristic search to refine plans.",
+      "problem": "Existing solutions don't handle complex shift assignment problems, such as scheduling employees while ensuring compliance with specific union rules.",
+      "audience": "Businesses that need to schedule employee shifts, including customers with complex union-rule constraints",
+      "builder_usernames": [
+        "quadrature"
+      ],
+      "source_excerpt": "I’m building a planner that automatically plans employee shift schedules based on their availabilities and roles.",
+      "evidence": [
+        {
+          "source_item_id": 46275868,
+          "source_field": "body",
+          "value": "I’m building a planner that automatically plans employee shift schedules based on their availabilities and roles.",
+          "supports": [],
+          "author": "quadrature",
+          "shared_at": 1765813118,
+          "source_url": "https://news.ycombinator.com/item?id=46275868"
+        }
+      ],
+      "source_item_id": 46275868,
+      "source_url": "https://news.ycombinator.com/item?id=46275868",
+      "author": "quadrature",
+      "shared_at": 1765813118,
+      "links": []
+    }
+  ]
+}

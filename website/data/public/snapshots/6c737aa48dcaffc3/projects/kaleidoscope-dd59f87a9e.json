@@ -1,0 +1,35 @@
+{
+  "id": 5263,
+  "slug": "kaleidoscope-dd59f87a9e",
+  "name": "Kaleidoscope",
+  "mentions": [
+    {
+      "name": "Kaleidoscope",
+      "description": "A tool for managing image generation inference built on ComfyUI as the backend. It lets users index, search, and invoke their workflows and easily chain existing workflows together into more complex outputs without working with nodes.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "vergessenmir"
+      ],
+      "source_excerpt": "I am building a tool to manage your image generation inference. It uses ComfyUI as the backend and it allows you to index, search and invoke your workflows.",
+      "evidence": [
+        {
+          "source_item_id": 47751815,
+          "source_field": "body",
+          "value": "I am building a tool to manage your image generation inference. It uses ComfyUI as the backend and it allows you to index, search and invoke your workflows.",
+          "supports": [],
+          "author": "vergessenmir",
+          "shared_at": 1776087604,
+          "source_url": "https://news.ycombinator.com/item?id=47751815"
+        }
+      ],
+      "source_item_id": 47751815,
+      "source_url": "https://news.ycombinator.com/item?id=47751815",
+      "author": "vergessenmir",
+      "shared_at": 1776087604,
+      "links": [
+        "https://github.com/svenhimmelvarg/kaleidoscope"
+      ]
+    }
+  ]
+}

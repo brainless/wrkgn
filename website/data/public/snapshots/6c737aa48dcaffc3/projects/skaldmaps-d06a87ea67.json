@@ -1,0 +1,63 @@
+{
+  "id": 2982,
+  "slug": "skaldmaps-d06a87ea67",
+  "name": "Skaldmaps",
+  "mentions": [
+    {
+      "name": "Skaldmaps",
+      "description": "A mapping tool that lets users compare and rank all US ZIP codes, counties, and census tracts to find good places to move to or invest in. It grew out of an early prototype the author used to find their current house.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "otter-in-a-suit"
+      ],
+      "source_excerpt": "Still noodling on https://skaldmaps.com, which lets you compare and rank all US ZIP codes, counties, and census tracts to find good places to move to and/or invest in.\n\nBased on an early prototype that helped me find our current house.",
+      "evidence": [
+        {
+          "source_item_id": 48889853,
+          "source_field": "body",
+          "value": "Still noodling on https://skaldmaps.com, which lets you compare and rank all US ZIP codes, counties, and census tracts to find good places to move to and/or invest in.\n\nBased on an early prototype that helped me find our current house.",
+          "supports": [],
+          "author": "otter-in-a-suit",
+          "shared_at": 1783933986,
+          "source_url": "https://news.ycombinator.com/item?id=48889853"
+        }
+      ],
+      "source_item_id": 48889853,
+      "source_url": "https://news.ycombinator.com/item?id=48889853",
+      "author": "otter-in-a-suit",
+      "shared_at": 1783933986,
+      "links": [
+        "https://skaldmaps.com"
+      ]
+    },
+    {
+      "name": "Skaldmaps",
+      "description": "Web app to explore, filter, and rank US locations (ZIP codes, counties, census tracts) to find places to move to and/or invest in. Offers ~470 attributes with extensive customization (e.g., distance to work or nearest hospital) plus many custom attributes beyond a standard census data viewer. Built with React/MapLibre, a Go backend with tile cache, and DuckDB for data work.",
+      "problem": "Generic \"Top 10 ZIP codes\" lists aren't helpful unless you fit that exact niche, and existing tools are either hyper-focused on institutional investors, unaffordable, or both.",
+      "audience": "Consumers looking to relocate or invest in US real estate",
+      "builder_usernames": [
+        "otter-in-a-suit"
+      ],
+      "source_excerpt": "I've been working on https://skaldmaps.com/ for a while.\n\nLets you explore, filter, and rank locations (ZIP/counties/tracts) in the US to find places to move to and/or invest in.",
+      "evidence": [
+        {
+          "source_item_id": 48544040,
+          "source_field": "body",
+          "value": "I've been working on https://skaldmaps.com/ for a while.\n\nLets you explore, filter, and rank locations (ZIP/counties/tracts) in the US to find places to move to and/or invest in.",
+          "supports": [],
+          "author": "otter-in-a-suit",
+          "shared_at": 1781542625,
+          "source_url": "https://news.ycombinator.com/item?id=48544040"
+        }
+      ],
+      "source_item_id": 48544040,
+      "source_url": "https://news.ycombinator.com/item?id=48544040",
+      "author": "otter-in-a-suit",
+      "shared_at": 1781542625,
+      "links": [
+        "https://skaldmaps.com/"
+      ]
+    }
+  ]
+}

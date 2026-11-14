@@ -1,0 +1,35 @@
+{
+  "id": 9278,
+  "slug": "satellitemine-903252ec91",
+  "name": "SatelliteMine",
+  "mentions": [
+    {
+      "name": "SatelliteMine",
+      "description": "A web tool that simplifies finding and downloading satellite imagery for a chosen area of interest, filtered by date and cloud index. Images are saved to the user's account and downloadable as geotiffs, with free accounts getting 512MB of cloud storage and paid plans planned for larger storage needs.",
+      "problem": "Downloading satellite imagery for a particular date and cloud index is troublesome, and existing options like Google Earth Engine and QGIS plugins are slow and confusing to jump back into after a period of time.",
+      "audience": "Civil engineers and other professionals in the mining industry who need satellite imagery for an area of interest",
+      "builder_usernames": [
+        "bpiroman"
+      ],
+      "source_excerpt": "I recently launched this satellite imagery tool.\n\nhttps://satellitemine.com/\n\nI work as a civil engineer in the mining industry and it can be troublesome to download satellite imagery for a particular date and cloud index.\nYes, Google Earth Engine and QGIS plugins exist, but they are slow and confusing to jump back into after a period of time.\nSatelliteMine is simple to use and any images of your area of interest is saved to your account and can be downloaded as a geotiff.",
+      "evidence": [
+        {
+          "source_item_id": 45895170,
+          "source_field": "body",
+          "value": "I recently launched this satellite imagery tool.\n\nhttps://satellitemine.com/\n\nI work as a civil engineer in the mining industry and it can be troublesome to download satellite imagery for a particular date and cloud index.\nYes, Google Earth Engine and QGIS plugins exist, but they are slow and confusing to jump back into after a period of time.\nSatelliteMine is simple to use and any images of your area of interest is saved to your account and can be downloaded as a geotiff.",
+          "supports": [],
+          "author": "bpiroman",
+          "shared_at": 1762909390,
+          "source_url": "https://news.ycombinator.com/item?id=45895170"
+        }
+      ],
+      "source_item_id": 45895170,
+      "source_url": "https://news.ycombinator.com/item?id=45895170",
+      "author": "bpiroman",
+      "shared_at": 1762909390,
+      "links": [
+        "https://satellitemine.com/"
+      ]
+    }
+  ]
+}

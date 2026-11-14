@@ -1,0 +1,35 @@
+{
+  "id": 4786,
+  "slug": "cairn-fbd9ef1350",
+  "name": "cairn",
+  "mentions": [
+    {
+      "name": "cairn",
+      "description": "An embedded temporal document database built on SQLite, inspired by endatabas.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "nbbaier"
+      ],
+      "source_excerpt": "Trying to do some work on a cairn[0], an embedded temporal document database built on SQLite. It's inspired by endatabas[1]",
+      "evidence": [
+        {
+          "source_item_id": 48127143,
+          "source_field": "body",
+          "value": "Trying to do some work on a cairn[0], an embedded temporal document database built on SQLite. It's inspired by endatabas[1]",
+          "supports": [],
+          "author": "nbbaier",
+          "shared_at": 1778704462,
+          "source_url": "https://news.ycombinator.com/item?id=48127143"
+        }
+      ],
+      "source_item_id": 48127143,
+      "source_url": "https://news.ycombinator.com/item?id=48127143",
+      "author": "nbbaier",
+      "shared_at": 1778704462,
+      "links": [
+        "https://github.com/nbbaier/cairn"
+      ]
+    }
+  ]
+}

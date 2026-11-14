@@ -1,0 +1,33 @@
+{
+  "id": 10000,
+  "slug": "websocket-based-web-server-and-pm2-alternative-300723d9f5",
+  "name": "WebSocket-based web server and PM2 alternative",
+  "mentions": [
+    {
+      "name": "WebSocket-based web server and PM2 alternative",
+      "description": "A personal web server that serves HTTP over WebSockets for increased speed and durability, with built-in proxies and redirections configured through small JSON rules, running on Linux and Windows. It has evolved into a PM2-style alternative for remote machine health monitoring and interaction, featuring a built-in terminal emulator and a browser-based dashboard written entirely in TypeScript. Planned additions include peer-to-peer data sharing so the dashboard can display data from multiple machines, plus event-oriented reporting of USB devices, processes, services, and users to alert on changes in real time.",
+      "problem": "Wanted remote monitoring of machine health and interaction.",
+      "audience": null,
+      "builder_usernames": [
+        "austin-cheney"
+      ],
+      "source_excerpt": "I have a personal project that is a web server. It started out as HTTP over WebSockets for increased speed and durability with built in proxies and redirections via tiny JSON rules.",
+      "evidence": [
+        {
+          "source_item_id": 45524858,
+          "source_field": "body",
+          "value": "I have a personal project that is a web server. It started out as HTTP over WebSockets for increased speed and durability with built in proxies and redirections via tiny JSON rules.",
+          "supports": [],
+          "author": "austin-cheney",
+          "shared_at": 1759996993,
+          "source_url": "https://news.ycombinator.com/item?id=45524858"
+        }
+      ],
+      "source_item_id": 45524858,
+      "source_url": "https://news.ycombinator.com/item?id=45524858",
+      "author": "austin-cheney",
+      "shared_at": 1759996993,
+      "links": []
+    }
+  ]
+}

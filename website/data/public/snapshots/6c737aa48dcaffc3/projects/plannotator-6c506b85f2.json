@@ -1,0 +1,152 @@
+{
+  "id": 2155,
+  "slug": "plannotator-6c506b85f2",
+  "name": "Plannotator",
+  "mentions": [
+    {
+      "name": "Plannotator",
+      "description": "A tool for annotating HTML prototypes, markdown plans, and terminal agent messages, aimed at producing better plans for coding agents. A paid version is upcoming, with contributors receiving lifetime free access.",
+      "problem": "Better-running agents run longer and need better plans (the author's stated bet).",
+      "audience": null,
+      "builder_usernames": [
+        "ramoz"
+      ],
+      "source_excerpt": "https://github.com/backnotprop/plannotator is still very useful for annotating html prototypes and markdown plans (as well as terminal agent messages).",
+      "evidence": [
+        {
+          "source_item_id": 49236737,
+          "source_field": "body",
+          "value": "https://github.com/backnotprop/plannotator is still very useful for annotating html prototypes and markdown plans (as well as terminal agent messages).",
+          "supports": [],
+          "author": "ramoz",
+          "shared_at": 1786313929,
+          "source_url": "https://news.ycombinator.com/item?id=49236737"
+        }
+      ],
+      "source_item_id": 49236737,
+      "source_url": "https://news.ycombinator.com/item?id=49236737",
+      "author": "ramoz",
+      "shared_at": 1786313929,
+      "links": [
+        "https://github.com/backnotprop/plannotator"
+      ]
+    },
+    {
+      "name": "Plannotator",
+      "description": "Plannotator provides review surfaces for working with AI agents, featuring HTML/artifact canvases and shared context workspaces. The author integrated agent review surfaces with it.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ramoz"
+      ],
+      "source_excerpt": "integrated agent review surfaces with https://github.com/backnotprop/plannotator",
+      "evidence": [
+        {
+          "source_item_id": 48531581,
+          "source_field": "body",
+          "value": "integrated agent review surfaces with https://github.com/backnotprop/plannotator",
+          "supports": [],
+          "author": "ramoz",
+          "shared_at": 1781465072,
+          "source_url": "https://news.ycombinator.com/item?id=48531581"
+        }
+      ],
+      "source_item_id": 48531581,
+      "source_url": "https://news.ycombinator.com/item?id=48531581",
+      "author": "ramoz",
+      "shared_at": 1781465072,
+      "links": [
+        "https://github.com/backnotprop/plannotator",
+        "https://github.com/plannotator/effective-html",
+        "https://github.com/plannotator/tot",
+        "https://plannotator.ai/workspaces/"
+      ]
+    },
+    {
+      "name": "Plannotator",
+      "description": "Plannotator provides better UX, feedback, and review surfaces for AI coding agents. It supports plan review with iterative feedback and code review with iterative feedback. It is free and open source.",
+      "problem": "AI coding agents lack good UX, feedback, and review surfaces for iterating on plans and code.",
+      "audience": "Developers who use AI coding agents; the author notes they and others use it daily",
+      "builder_usernames": [
+        "ramoz"
+      ],
+      "source_excerpt": "Still doing https://plannotator.ai\n\nI use it daily and so do others, for - better UX, feedback, and review surfaces for ai coding agents.\n\n  1. Plan review & iterative feedback. \n\n  2. Now code review with iterative feedback.\n\nFree and open source https://github.com/backnotprop/plannotator",
+      "evidence": [
+        {
+          "source_item_id": 47744696,
+          "source_field": "body",
+          "value": "Still doing https://plannotator.ai\n\nI use it daily and so do others, for - better UX, feedback, and review surfaces for ai coding agents.\n\n  1. Plan review & iterative feedback. \n\n  2. Now code review with iterative feedback.\n\nFree and open source https://github.com/backnotprop/plannotator",
+          "supports": [],
+          "author": "ramoz",
+          "shared_at": 1776029207,
+          "source_url": "https://news.ycombinator.com/item?id=47744696"
+        }
+      ],
+      "source_item_id": 47744696,
+      "source_url": "https://news.ycombinator.com/item?id=47744696",
+      "author": "ramoz",
+      "shared_at": 1776029207,
+      "links": [
+        "https://github.com/backnotprop/plannotator",
+        "https://plannotator.ai"
+      ]
+    },
+    {
+      "name": "Plannotector",
+      "description": "A UI for coding agents that provides plan mode and code review annotations, integrating with agents via hooks.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ramoz"
+      ],
+      "source_excerpt": "Side project - plan mode and code review annotations for coding agents (ui that integrates via hooks):\nhttps://github.com/backnotprop/plannotator",
+      "evidence": [
+        {
+          "source_item_id": 47304875,
+          "source_field": "body",
+          "value": "Side project - plan mode and code review annotations for coding agents (ui that integrates via hooks):\nhttps://github.com/backnotprop/plannotator",
+          "supports": [],
+          "author": "ramoz",
+          "shared_at": 1773030342,
+          "source_url": "https://news.ycombinator.com/item?id=47304875"
+        }
+      ],
+      "source_item_id": 47304875,
+      "source_url": "https://news.ycombinator.com/item?id=47304875",
+      "author": "ramoz",
+      "shared_at": 1773030342,
+      "links": [
+        "https://github.com/backnotprop/plannotator"
+      ]
+    },
+    {
+      "name": "Plannotator",
+      "description": "This tool provides a visual UX for reviewing coding agent plans: users can annotate and review plans from coding agents like Claude Code and OpenCode, share them with their team, and send feedback to the agents with one click.",
+      "problem": "Teams spend a lot of time planning and reviewing with coding agents like Claude Code and OpenCode, but lack a good UX for reviewing coding agent plans.",
+      "audience": "Teams doing planning and review with coding agents like Claude Code and OpenCode",
+      "builder_usernames": [
+        "ramoz"
+      ],
+      "source_excerpt": "Plannotator - Annotate and review coding agent plans visually, share with your team, send feedback to the agents with one click.",
+      "evidence": [
+        {
+          "source_item_id": 46579261,
+          "source_field": "body",
+          "value": "Plannotator - Annotate and review coding agent plans visually, share with your team, send feedback to the agents with one click.",
+          "supports": [],
+          "author": "ramoz",
+          "shared_at": 1768161089,
+          "source_url": "https://news.ycombinator.com/item?id=46579261"
+        }
+      ],
+      "source_item_id": 46579261,
+      "source_url": "https://news.ycombinator.com/item?id=46579261",
+      "author": "ramoz",
+      "shared_at": 1768161089,
+      "links": [
+        "https://github.com/backnotprop/plannotator",
+        "https://www.youtube.com/watch?v=a_AT7cEN_9I"
+      ]
+    }
+  ]
+}

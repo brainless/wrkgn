@@ -1,0 +1,63 @@
+{
+  "id": 5277,
+  "slug": "dunning-bear-a2fba2f6f3",
+  "name": "Dunning Bear",
+  "mentions": [
+    {
+      "name": "Dunning Bear",
+      "description": "A churn analysis tool for Stripe that shows which customers have cancelled their subscriptions and the cancellation reasons they selected in Stripe. It is in an early basic state and was launched on the Stripe Marketplace.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jmstfv"
+      ],
+      "source_excerpt": "I recently launched a churn analysis tool for Stripe:\n\nhttps://dunningbear.com\n\nIt is very basic now: it tells me which of the customers have cancelled their subscription and why (Stripe lets people choose the reason before cancelling).",
+      "evidence": [
+        {
+          "source_item_id": 47751453,
+          "source_field": "body",
+          "value": "I recently launched a churn analysis tool for Stripe:\n\nhttps://dunningbear.com\n\nIt is very basic now: it tells me which of the customers have cancelled their subscription and why (Stripe lets people choose the reason before cancelling).",
+          "supports": [],
+          "author": "jmstfv",
+          "shared_at": 1776085847,
+          "source_url": "https://news.ycombinator.com/item?id=47751453"
+        }
+      ],
+      "source_item_id": 47751453,
+      "source_url": "https://news.ycombinator.com/item?id=47751453",
+      "author": "jmstfv",
+      "shared_at": 1776085847,
+      "links": [
+        "https://dunningbear.com"
+      ]
+    },
+    {
+      "name": "Dunning Bear",
+      "description": "A Stripe app that gives businesses using Stripe Billing a convenient way to access and act on the cancellation reasons their customers provide when they cancel subscriptions (e.g. too expensive, not using it, switched to competitor), instead of having to use Stripe Sigma or pull the data from the API. It has been submitted to Stripe's App Marketplace.",
+      "problem": "Cancellation reasons in Stripe Billing are hard to access, requiring Stripe Sigma or direct API calls, with no convenient way to view and act on them.",
+      "audience": "Businesses and subscription operators using Stripe Billing",
+      "builder_usernames": [
+        "jmstfv"
+      ],
+      "source_excerpt": "If you use Stripe Billing for subscriptions, your customers can specify reasons why they cancelled (e.g. too expensive, not using it, switched to competitor, etc.). However, to access those, you either have to use Stripe Sigma or pull them from the API. I wanted to build a more convenient way to access those (and also act upon them).",
+      "evidence": [
+        {
+          "source_item_id": 47307265,
+          "source_field": "body",
+          "value": "If you use Stripe Billing for subscriptions, your customers can specify reasons why they cancelled (e.g. too expensive, not using it, switched to competitor, etc.). However, to access those, you either have to use Stripe Sigma or pull them from the API. I wanted to build a more convenient way to access those (and also act upon them).",
+          "supports": [],
+          "author": "jmstfv",
+          "shared_at": 1773052744,
+          "source_url": "https://news.ycombinator.com/item?id=47307265"
+        }
+      ],
+      "source_item_id": 47307265,
+      "source_url": "https://news.ycombinator.com/item?id=47307265",
+      "author": "jmstfv",
+      "shared_at": 1773052744,
+      "links": [
+        "https://dunningbear.com"
+      ]
+    }
+  ]
+}

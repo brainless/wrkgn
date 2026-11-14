@@ -1,0 +1,35 @@
+{
+  "id": 4295,
+  "slug": "fancy-hacker-news-6d7730dd58",
+  "name": "Fancy Hacker News",
+  "mentions": [
+    {
+      "name": "Fancy Hacker News",
+      "description": "A Firefox browser extension that enhances the Hacker News experience, improving mobile support and adding a dark mode. Currently has only 2 Firefox users, including the author.",
+      "problem": "Hacker News' desktop experience is fine, but mobile support is poor and dark mode is lacking; existing alternatives are abandoned (Modern for Hacker News) or Android-only (Harmonic).",
+      "audience": "Personal use — built to scratch the author's own itch",
+      "builder_usernames": [
+        "ewsbr"
+      ],
+      "source_excerpt": "I'm working on (yet another) Hacker News browser extension, mostly to scratch my own itch. The desktop experience on HN is fine, but I don't love mobile support or lack of dark mode.",
+      "evidence": [
+        {
+          "source_item_id": 48532789,
+          "source_field": "body",
+          "value": "I'm working on (yet another) Hacker News browser extension, mostly to scratch my own itch. The desktop experience on HN is fine, but I don't love mobile support or lack of dark mode.",
+          "supports": [],
+          "author": "ewsbr",
+          "shared_at": 1781471613,
+          "source_url": "https://news.ycombinator.com/item?id=48532789"
+        }
+      ],
+      "source_item_id": 48532789,
+      "source_url": "https://news.ycombinator.com/item?id=48532789",
+      "author": "ewsbr",
+      "shared_at": 1781471613,
+      "links": [
+        "https://github.com/ewsbr/fancy-hacker-news"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 4470,
+  "slug": "transmission-fork-with-mutable-torrent-support-bep-46-59b9fbfb10",
+  "name": "Transmission fork with mutable torrent support (BEP 46)",
+  "mentions": [
+    {
+      "name": "Transmission fork with mutable torrent support (BEP 46)",
+      "description": "A fork of the Transmission BitTorrent client that fully implements BEP 46 mutable torrents. Torrent creators can mark a torrent as mutable, allowing them alone to add, remove, or modify files or change filenames, with swarm members notified of changes so they can download updates. Leechers can allow or restrict mutability per torrent and may even store and seed every change. The feature works in the macOS, Windows, CLI, and web apps, and the fork is buildable from source (no Debian package yet due to a GTK issue). The author is looking for testers.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "NoMoreNicksLeft"
+      ],
+      "source_excerpt": "I have fully implemented mutable torrents (BEP 46) in Transmission. When a torrent is created, you can set it to be \"mutable\", and you (and you alone) can add files to the torrent, remove them, modify them, or change their filenames.",
+      "evidence": [
+        {
+          "source_item_id": 48090025,
+          "source_field": "body",
+          "value": "I have fully implemented mutable torrents (BEP 46) in Transmission. When a torrent is created, you can set it to be \"mutable\", and you (and you alone) can add files to the torrent, remove them, modify them, or change their filenames.",
+          "supports": [],
+          "author": "NoMoreNicksLeft",
+          "shared_at": 1778462602,
+          "source_url": "https://news.ycombinator.com/item?id=48090025"
+        }
+      ],
+      "source_item_id": 48090025,
+      "source_url": "https://news.ycombinator.com/item?id=48090025",
+      "author": "NoMoreNicksLeft",
+      "shared_at": 1778462602,
+      "links": [
+        "https://github.com/NoMoreNicksLeft/transmission"
+      ]
+    }
+  ]
+}

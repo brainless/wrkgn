@@ -1,0 +1,33 @@
+{
+  "id": 6081,
+  "slug": "3d-software-renderer-in-c-db96894d3b",
+  "name": "3D Software Renderer in C",
+  "mentions": [
+    {
+      "name": "3D Software Renderer in C",
+      "description": "A 3D software renderer written in C as a from-first-principles computer graphics learning project. It implements triangle rasterization, perspective projection, a depth buffer, clipping, texture mapping, diffuse lighting, and gamma correction, with shadow mapping in progress as the final renderer feature before planned procedural generation of meshes and textures. A YouTube video series walking through the code and algorithms is planned.",
+      "problem": "Built as a hands-on way to learn more about computer graphics by implementing rendering techniques from scratch.",
+      "audience": null,
+      "builder_usernames": [
+        "fasterik"
+      ],
+      "source_excerpt": "I wanted to learn more about computer graphics, so I'm writing a 3D software renderer in C. So far I have a solid implementation of triangle rasterization, perspective projection, depth buffer, clipping, texture mapping, diffuse lighting, and gamma correction.",
+      "evidence": [
+        {
+          "source_item_id": 47307450,
+          "source_field": "body",
+          "value": "I wanted to learn more about computer graphics, so I'm writing a 3D software renderer in C. So far I have a solid implementation of triangle rasterization, perspective projection, depth buffer, clipping, texture mapping, diffuse lighting, and gamma correction.",
+          "supports": [],
+          "author": "fasterik",
+          "shared_at": 1773054150,
+          "source_url": "https://news.ycombinator.com/item?id=47307450"
+        }
+      ],
+      "source_item_id": 47307450,
+      "source_url": "https://news.ycombinator.com/item?id=47307450",
+      "author": "fasterik",
+      "shared_at": 1773054150,
+      "links": []
+    }
+  ]
+}

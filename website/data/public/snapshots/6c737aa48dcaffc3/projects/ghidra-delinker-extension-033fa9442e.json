@@ -1,0 +1,35 @@
+{
+  "id": 5369,
+  "slug": "ghidra-delinker-extension-033fa9442e",
+  "name": "ghidra-delinker-extension",
+  "mentions": [
+    {
+      "name": "ghidra-delinker-extension",
+      "description": "A Ghidra extension that exports relocatable object files from programs — a delinker that recovers and resynthesizes relocation spots through analysis. It works across multiple architectures and object file formats (including OMF) and can generate DWARF debugging symbols, and is actively used in Windows video game decompilation projects. Development is guardrailed by an exhaustive regression test suite, which has also made it feasible to delegate feature implementation to AI coding tools.",
+      "problem": "Recovering and resynthesizing relocation spots through analysis is punishingly hard, requiring exacting precision because mistakes corrupt the resulting object files in ways that are difficult to detect and grueling to debug.",
+      "audience": null,
+      "builder_usernames": [
+        "boricj"
+      ],
+      "source_excerpt": "I'm working on ghidra-delinker-extension [1], a relocatable object file exporter for Ghidra. Or in other words, a delinker.",
+      "evidence": [
+        {
+          "source_item_id": 47745146,
+          "source_field": "body",
+          "value": "I'm working on ghidra-delinker-extension [1], a relocatable object file exporter for Ghidra. Or in other words, a delinker.",
+          "supports": [],
+          "author": "boricj",
+          "shared_at": 1776032230,
+          "source_url": "https://news.ycombinator.com/item?id=47745146"
+        }
+      ],
+      "source_item_id": 47745146,
+      "source_url": "https://news.ycombinator.com/item?id=47745146",
+      "author": "boricj",
+      "shared_at": 1776032230,
+      "links": [
+        "https://github.com/boricj/ghidra-delinker-extension"
+      ]
+    }
+  ]
+}

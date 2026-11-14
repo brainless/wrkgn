@@ -1,0 +1,35 @@
+{
+  "id": 9977,
+  "slug": "fibre-2ff8105cdc",
+  "name": "Fibre",
+  "mentions": [
+    {
+      "name": "Fibre",
+      "description": "A tool for secure file uploads for Intercom. It lets customers upload sensitive documents (such as proof of address and bank statements) through Intercom support conversations, with files landing directly in the company's own storage rather than Intercom's infrastructure.",
+      "problem": "Intercom's native uploads are not a long-term fit, with 100MB per-file limits and documents stored on Intercom's infrastructure, which raises data privacy concerns for sensitive customer documents.",
+      "audience": null,
+      "builder_usernames": [
+        "paulmbw"
+      ],
+      "source_excerpt": "I'm working on Fibre, a tool for secure file uploads for Intercom",
+      "evidence": [
+        {
+          "source_item_id": 45427854,
+          "source_field": "body",
+          "value": "I'm working on Fibre, a tool for secure file uploads for Intercom",
+          "supports": [],
+          "author": "paulmbw",
+          "shared_at": 1759250811,
+          "source_url": "https://news.ycombinator.com/item?id=45427854"
+        }
+      ],
+      "source_item_id": 45427854,
+      "source_url": "https://news.ycombinator.com/item?id=45427854",
+      "author": "paulmbw",
+      "shared_at": 1759250811,
+      "links": [
+        "https://fibre.framer.website"
+      ]
+    }
+  ]
+}

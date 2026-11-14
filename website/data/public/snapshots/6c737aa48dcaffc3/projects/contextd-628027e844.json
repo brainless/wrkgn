@@ -1,0 +1,35 @@
+{
+  "id": 7666,
+  "slug": "contextd-628027e844",
+  "name": "contextd",
+  "mentions": [
+    {
+      "name": "contextd",
+      "description": "A local, semantic code and context search daemon for coding agents like Claude Code. Lives in the repository like the .git directory and can be queried for implementation plans, specs, and code without third-party hosted databases or multi-repo pollution. Written in Python using local models and LanceDB, with a possible Rust rewrite for speed.",
+      "problem": "Working with Claude Code burns through token allocation quickly, especially with parallel agents, and existing repos for this felt overly complex.",
+      "audience": "Coding agents like Claude Code",
+      "builder_usernames": [
+        "devrob"
+      ],
+      "source_excerpt": "I call it \"contextd\" and imagine it kind of like a context daemon you can always query in your repository for implementation plans, specs or code, etc. I always liked that git lived in your repo in the .git file, so I wanted this to work like that too but without 3rd party hosted databases or multi-repo pollution.",
+      "evidence": [
+        {
+          "source_item_id": 46594163,
+          "source_field": "body",
+          "value": "I call it \"contextd\" and imagine it kind of like a context daemon you can always query in your repository for implementation plans, specs or code, etc. I always liked that git lived in your repo in the .git file, so I wanted this to work like that too but without 3rd party hosted databases or multi-repo pollution.",
+          "supports": [],
+          "author": "devrob",
+          "shared_at": 1768251209,
+          "source_url": "https://news.ycombinator.com/item?id=46594163"
+        }
+      ],
+      "source_item_id": 46594163,
+      "source_url": "https://news.ycombinator.com/item?id=46594163",
+      "author": "devrob",
+      "shared_at": 1768251209,
+      "links": [
+        "https://github.com/aquaflamingo/ctxd"
+      ]
+    }
+  ]
+}

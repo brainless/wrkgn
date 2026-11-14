@@ -1,0 +1,35 @@
+{
+  "id": 5234,
+  "slug": "minuspod-db577686a6",
+  "name": "MinusPod",
+  "mentions": [
+    {
+      "name": "MinusPod",
+      "description": "A self-hosted server that removes ads from podcast episodes before playback. It transcribes episodes with Whisper, uses an LLM to detect and cut ad segments, and improves over time by building cross-episode ad patterns and learning from user corrections. Supports bring-your-own LLM backends including Claude, Ollama, OpenRouter, or any OpenAI-compatible provider.",
+      "problem": "Podcast episodes contain ad segments that interrupt listening.",
+      "audience": null,
+      "builder_usernames": [
+        "Ttlequals0"
+      ],
+      "source_excerpt": "MinusPod is a self-hosted server that removes ads before you ever hit play. It transcribes episodes with Whisper, uses an LLM to detect and cut ad segments, and gets smarter over time by building cross-episode ad patterns and learning from your corrections. Bring your own LLM -- Claude, Ollama, OpenRouter, or any OpenAI-compatible provider.",
+      "evidence": [
+        {
+          "source_item_id": 47746529,
+          "source_field": "body",
+          "value": "MinusPod is a self-hosted server that removes ads before you ever hit play. It transcribes episodes with Whisper, uses an LLM to detect and cut ad segments, and gets smarter over time by building cross-episode ad patterns and learning from your corrections. Bring your own LLM -- Claude, Ollama, OpenRouter, or any OpenAI-compatible provider.",
+          "supports": [],
+          "author": "Ttlequals0",
+          "shared_at": 1776044103,
+          "source_url": "https://news.ycombinator.com/item?id=47746529"
+        }
+      ],
+      "source_item_id": 47746529,
+      "source_url": "https://news.ycombinator.com/item?id=47746529",
+      "author": "Ttlequals0",
+      "shared_at": 1776044103,
+      "links": [
+        "https://github.com/ttlequals0/MinusPod"
+      ]
+    }
+  ]
+}

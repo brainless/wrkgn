@@ -1,0 +1,33 @@
+{
+  "id": 5621,
+  "slug": "mutable-torrents-transmission-fork-ff43994f71",
+  "name": "Mutable Torrents (Transmission fork)",
+  "mentions": [
+    {
+      "name": "Mutable Torrents (Transmission fork)",
+      "description": "A fork of the Transmission BitTorrent client that adds support for mutable torrents, allowing torrent contents to change between peers. Development has achieved partial success transferring between a seeder and leecher on a local LAN, with most of the UI work figured out; Gtk, Qt, and command-line ports are planned once the implementation is more solid.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "NoMoreNicksLeft"
+      ],
+      "source_excerpt": "I've forked Transmission, and I'm trying to implement mutable torrents. Some partial success between two hosts (seeder and leecher) on my own LAN, most of the UI stuff figured out. Will wait until I get it a little more solid before working on the Gtk, Qt, and command-line ports (I expect those to be pure interface work at that point).",
+      "evidence": [
+        {
+          "source_item_id": 47748074,
+          "source_field": "body",
+          "value": "I've forked Transmission, and I'm trying to implement mutable torrents. Some partial success between two hosts (seeder and leecher) on my own LAN, most of the UI stuff figured out. Will wait until I get it a little more solid before working on the Gtk, Qt, and command-line ports (I expect those to be pure interface work at that point).",
+          "supports": [],
+          "author": "NoMoreNicksLeft",
+          "shared_at": 1776059199,
+          "source_url": "https://news.ycombinator.com/item?id=47748074"
+        }
+      ],
+      "source_item_id": 47748074,
+      "source_url": "https://news.ycombinator.com/item?id=47748074",
+      "author": "NoMoreNicksLeft",
+      "shared_at": 1776059199,
+      "links": []
+    }
+  ]
+}

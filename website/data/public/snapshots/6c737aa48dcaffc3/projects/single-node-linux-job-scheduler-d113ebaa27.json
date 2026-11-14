@@ -1,0 +1,33 @@
+{
+  "id": 8593,
+  "slug": "single-node-linux-job-scheduler-d113ebaa27",
+  "name": "Single-node Linux job scheduler",
+  "mentions": [
+    {
+      "name": "Single-node Linux job scheduler",
+      "description": "A job scheduler for Linux designed for a single node shared by a few users, where cluster schedulers like SLURM or PBS are overkill. It allocates resources to users on the machine and delegates complex functionality to existing kernel facilities, using systemd/cgroups for resource limiting and UNIX sockets for authentication.",
+      "problem": "HPC schedulers like SLURM or PBS are overkill when all you have is a single node shared by a few users.",
+      "audience": "users sharing a single Linux node among a small group",
+      "builder_usernames": [
+        "huhnmonster"
+      ],
+      "source_excerpt": "Working on a single-node job scheduler for Linux. Large HPC clusters use schedulers like SLURM or PBS to manage allocation of resources to users, but these systems are quite overkill when all you have is a single node shared by a few users.",
+      "evidence": [
+        {
+          "source_item_id": 46266427,
+          "source_field": "body",
+          "value": "Working on a single-node job scheduler for Linux. Large HPC clusters use schedulers like SLURM or PBS to manage allocation of resources to users, but these systems are quite overkill when all you have is a single node shared by a few users.",
+          "supports": [],
+          "author": "huhnmonster",
+          "shared_at": 1765743504,
+          "source_url": "https://news.ycombinator.com/item?id=46266427"
+        }
+      ],
+      "source_item_id": 46266427,
+      "source_url": "https://news.ycombinator.com/item?id=46266427",
+      "author": "huhnmonster",
+      "shared_at": 1765743504,
+      "links": []
+    }
+  ]
+}

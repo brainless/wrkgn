@@ -1,0 +1,35 @@
+{
+  "id": 10861,
+  "slug": "hackernewsalerts-com-437363370a",
+  "name": "hackernewsalerts.com",
+  "mentions": [
+    {
+      "name": "hackernewsalerts.com",
+      "description": "An open-source service that tracks replies to a user's own Hacker News comments and posts and notifies them; currently in maintenance mode after gathering less interest than hoped.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mmarian"
+      ],
+      "source_excerpt": "I have a similar domain - https://hackernewsalerts.com - but it's for tracking replies to comments and posts you've made. It's on maintenance mode at the moment, couldn't gather as much interest as I'd hoped. Have open sourced it.",
+      "evidence": [
+        {
+          "source_item_id": 43817316,
+          "source_field": "body",
+          "value": "I have a similar domain - https://hackernewsalerts.com - but it's for tracking replies to comments and posts you've made. It's on maintenance mode at the moment, couldn't gather as much interest as I'd hoped. Have open sourced it.",
+          "supports": [],
+          "author": "mmarian",
+          "shared_at": 1745812026,
+          "source_url": "https://news.ycombinator.com/item?id=43817316"
+        }
+      ],
+      "source_item_id": 43817316,
+      "source_url": "https://news.ycombinator.com/item?id=43817316",
+      "author": "mmarian",
+      "shared_at": 1745812026,
+      "links": [
+        "https://hackernewsalerts.com"
+      ]
+    }
+  ]
+}

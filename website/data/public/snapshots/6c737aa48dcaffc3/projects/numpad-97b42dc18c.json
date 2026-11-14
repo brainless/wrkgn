@@ -1,0 +1,35 @@
+{
+  "id": 10788,
+  "slug": "numpad-97b42dc18c",
+  "name": "NumPad",
+  "mentions": [
+    {
+      "name": "NumPad",
+      "description": "Web-based notepad calculator that lets users write text and calculations together. Version 2 adds user accounts, multiple documents, markdown support, and document exports, with local-first storage and CRDT-based document syncing. Currently in unstable beta testing.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tonyonodi"
+      ],
+      "source_excerpt": "I launched my web-based notepad calculator, https://numpad.io/, a few years ago.\n\nRight now I'm working on a version 2 that has user accounts, multiple documents, markdown support, and document exports. Everything is local-first and it uses CRDTs to sync documents.",
+      "evidence": [
+        {
+          "source_item_id": 43822955,
+          "source_field": "body",
+          "value": "I launched my web-based notepad calculator, https://numpad.io/, a few years ago.\n\nRight now I'm working on a version 2 that has user accounts, multiple documents, markdown support, and document exports. Everything is local-first and it uses CRDTs to sync documents.",
+          "supports": [],
+          "author": "tonyonodi",
+          "shared_at": 1745856094,
+          "source_url": "https://news.ycombinator.com/item?id=43822955"
+        }
+      ],
+      "source_item_id": 43822955,
+      "source_url": "https://news.ycombinator.com/item?id=43822955",
+      "author": "tonyonodi",
+      "shared_at": 1745856094,
+      "links": [
+        "https://numpad.io/"
+      ]
+    }
+  ]
+}

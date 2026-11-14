@@ -1,0 +1,33 @@
+{
+  "id": 6830,
+  "slug": "minirec-617527f776",
+  "name": "miniRec",
+  "mentions": [
+    {
+      "name": "miniRec",
+      "description": "Windows tray app that records system audio plus microphone to mp3/wav. It needs no special driver, installs without admin rights, stays light on resources, is invisible to third parties such as video meeting participants, and auto-stops after a configurable period of silence (default 5 minutes).",
+      "problem": "Existing utilities like Voicemeter, AudioRouter, or DAWs cover this, but this version is simpler and lighter for recording system audio plus microphone.",
+      "audience": null,
+      "builder_usernames": [
+        "bambax"
+      ],
+      "source_excerpt": "- miniRec: records system audio + microphone to mp3/wav\n\nAlternatives: various utilities like Voicemeter, AudioRouter, or some DAWs\n\nFeatures: does not require any special driver; installs without admin rights; light on resources; \"invisible\" to third parties (video meetings); auto turn off after 5 minutes of silence (configurable)",
+      "evidence": [
+        {
+          "source_item_id": 46942703,
+          "source_field": "body",
+          "value": "- miniRec: records system audio + microphone to mp3/wav\n\nAlternatives: various utilities like Voicemeter, AudioRouter, or some DAWs\n\nFeatures: does not require any special driver; installs without admin rights; light on resources; \"invisible\" to third parties (video meetings); auto turn off after 5 minutes of silence (configurable)",
+          "supports": [],
+          "author": "bambax",
+          "shared_at": 1770623604,
+          "source_url": "https://news.ycombinator.com/item?id=46942703"
+        }
+      ],
+      "source_item_id": 46942703,
+      "source_url": "https://news.ycombinator.com/item?id=46942703",
+      "author": "bambax",
+      "shared_at": 1770623604,
+      "links": []
+    }
+  ]
+}

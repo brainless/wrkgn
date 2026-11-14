@@ -1,0 +1,35 @@
+{
+  "id": 9506,
+  "slug": "hello-cafe-b916f9d283",
+  "name": "Hello Cafe",
+  "mentions": [
+    {
+      "name": "Hello Cafe",
+      "description": "An AI cafe ordering app that lets customers place orders through chat and voice. It runs fully local models (Llama 3.1 8B for chat and Whisper for voice), is deployed on Kubernetes for easy scalability, and is fully open source.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "westoque"
+      ],
+      "source_excerpt": "Recently launched an AI cafe ordering app https://www.hellocafe.ai using chat and voice.\n\nWe wanted to make concept for an app using all local models for chat (llama 3.1 8B) and voice (whisper). Deployed using kubernetes and easily scalable not to mention fully open source!",
+      "evidence": [
+        {
+          "source_item_id": 45874950,
+          "source_field": "body",
+          "value": "Recently launched an AI cafe ordering app https://www.hellocafe.ai using chat and voice.\n\nWe wanted to make concept for an app using all local models for chat (llama 3.1 8B) and voice (whisper). Deployed using kubernetes and easily scalable not to mention fully open source!",
+          "supports": [],
+          "author": "westoque",
+          "shared_at": 1762774762,
+          "source_url": "https://news.ycombinator.com/item?id=45874950"
+        }
+      ],
+      "source_item_id": 45874950,
+      "source_url": "https://news.ycombinator.com/item?id=45874950",
+      "author": "westoque",
+      "shared_at": 1762774762,
+      "links": [
+        "https://www.hellocafe.ai"
+      ]
+    }
+  ]
+}

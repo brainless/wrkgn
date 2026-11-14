@@ -1,0 +1,35 @@
+{
+  "id": 5559,
+  "slug": "swiftswiss-2c306556a3",
+  "name": "swiftswiss",
+  "mentions": [
+    {
+      "name": "swiftswiss",
+      "description": "A Swiss army knife CLI tool written in Swift using only native Apple frameworks. Its primary goal is to demonstrate how many Apple standard library frameworks can be meaningfully used in a single, actually-useful command-line tool. Installable via Homebrew.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jftuga"
+      ],
+      "source_excerpt": "Swiss army knife CLI tool written in Swift using only native Apple frameworks.\n\nThe primary goal of this project is to demonstrate how many Apple standard library frameworks can be meaningfully used in a single, actually-useful CLI tool.\n\nbrew install jftuga/tap/swiftswiss",
+      "evidence": [
+        {
+          "source_item_id": 47743518,
+          "source_field": "body",
+          "value": "Swiss army knife CLI tool written in Swift using only native Apple frameworks.\n\nThe primary goal of this project is to demonstrate how many Apple standard library frameworks can be meaningfully used in a single, actually-useful CLI tool.\n\nbrew install jftuga/tap/swiftswiss",
+          "supports": [],
+          "author": "jftuga",
+          "shared_at": 1776022473,
+          "source_url": "https://news.ycombinator.com/item?id=47743518"
+        }
+      ],
+      "source_item_id": 47743518,
+      "source_url": "https://news.ycombinator.com/item?id=47743518",
+      "author": "jftuga",
+      "shared_at": 1776022473,
+      "links": [
+        "https://github.com/jftuga/swiftswiss"
+      ]
+    }
+  ]
+}

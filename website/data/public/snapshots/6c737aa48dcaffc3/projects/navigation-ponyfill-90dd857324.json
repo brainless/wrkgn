@@ -1,0 +1,35 @@
+{
+  "id": 7549,
+  "slug": "navigation-ponyfill-90dd857324",
+  "name": "navigation-ponyfill",
+  "mentions": [
+    {
+      "name": "navigation-ponyfill",
+      "description": "A JavaScript ponyfill for the browser's new Navigation API. It implements navigation.canGoBack and the currententrychange event to enable near-perfect back buttons with almost zero edge cases, which is very tricky with the older History API. A new PR adds entries() and currentEntry support, and future work plans full-blown navigations with navigation interceptors so framework router implementations can be built wholly on the Navigation API instead of history.pushState/replaceState.",
+      "problem": "Implementing reliable back buttons with (almost) zero edge cases is surprisingly very tricky with the older History API.",
+      "audience": null,
+      "builder_usernames": [
+        "kcrwfrd_"
+      ],
+      "source_excerpt": "I've been working on a polyfill for the new Navigation API: https://github.com/kcrwfrd/navigation-ponyfill",
+      "evidence": [
+        {
+          "source_item_id": 46584250,
+          "source_field": "body",
+          "value": "I've been working on a polyfill for the new Navigation API: https://github.com/kcrwfrd/navigation-ponyfill",
+          "supports": [],
+          "author": "kcrwfrd_",
+          "shared_at": 1768193703,
+          "source_url": "https://news.ycombinator.com/item?id=46584250"
+        }
+      ],
+      "source_item_id": 46584250,
+      "source_url": "https://news.ycombinator.com/item?id=46584250",
+      "author": "kcrwfrd_",
+      "shared_at": 1768193703,
+      "links": [
+        "https://github.com/kcrwfrd/navigation-ponyfill"
+      ]
+    }
+  ]
+}

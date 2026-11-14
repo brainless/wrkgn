@@ -1,0 +1,35 @@
+{
+  "id": 7605,
+  "slug": "gcodepreview-f199322dc6",
+  "name": "gcodepreview",
+  "mentions": [
+    {
+      "name": "gcodepreview",
+      "description": "A system that allows Open(Python)SCAD to model cuts for CNC machines using G-code, and which has just added support for 3D printing via Full-control G-code. It previously integrated with OpenSCAD via an interface layer, and the goal is to restore compatibility with the OpenSCAD Graph Editor.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "WillAdams"
+      ],
+      "source_excerpt": "Still working on a system for allowing Open(Python)SCAD to model cuts for a CNC using G-code, and just added support for 3D Printing via Full-control G-code:\n\nhttps://github.com/WillAdams/gcodepreview",
+      "evidence": [
+        {
+          "source_item_id": 46578585,
+          "source_field": "body",
+          "value": "Still working on a system for allowing Open(Python)SCAD to model cuts for a CNC using G-code, and just added support for 3D Printing via Full-control G-code:\n\nhttps://github.com/WillAdams/gcodepreview",
+          "supports": [],
+          "author": "WillAdams",
+          "shared_at": 1768157835,
+          "source_url": "https://news.ycombinator.com/item?id=46578585"
+        }
+      ],
+      "source_item_id": 46578585,
+      "source_url": "https://news.ycombinator.com/item?id=46578585",
+      "author": "WillAdams",
+      "shared_at": 1768157835,
+      "links": [
+        "https://github.com/WillAdams/gcodepreview"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 8216,
+  "slug": "amazon-ordering-telegram-bot-bab33e035d",
+  "name": "Amazon Ordering Telegram Bot",
+  "mentions": [
+    {
+      "name": "Amazon Ordering Telegram Bot",
+      "description": "A Telegram bot that accepts an address and a list of Amazon links, orders the items (at a discount via the author's Amazon credit card), and adds the purchase to the \"family debts\" spreadsheet, enabling programmable, trusted lending among a trusted group.",
+      "problem": "Manually ordering items for family members and recording who owes whom money.",
+      "audience": "Trusted family group who order items for each other and track who owes what",
+      "builder_usernames": [
+        "xur17"
+      ],
+      "source_excerpt": "Om Friday after Thanksgiving I spent half a day building a telegram bot that accepts an address and a list of Amazon links, and in turn orders the item (at a discount since it uses my Amazon credit card), and adds it to the above \"family debts\" spreadsheet.",
+      "evidence": [
+        {
+          "source_item_id": 46270986,
+          "source_field": "body",
+          "value": "Om Friday after Thanksgiving I spent half a day building a telegram bot that accepts an address and a list of Amazon links, and in turn orders the item (at a discount since it uses my Amazon credit card), and adds it to the above \"family debts\" spreadsheet.",
+          "supports": [],
+          "author": "xur17",
+          "shared_at": 1765778895,
+          "source_url": "https://news.ycombinator.com/item?id=46270986"
+        }
+      ],
+      "source_item_id": 46270986,
+      "source_url": "https://news.ycombinator.com/item?id=46270986",
+      "author": "xur17",
+      "shared_at": 1765778895,
+      "links": []
+    }
+  ]
+}

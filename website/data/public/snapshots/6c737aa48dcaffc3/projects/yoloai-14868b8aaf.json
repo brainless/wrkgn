@@ -1,0 +1,119 @@
+{
+  "id": 2800,
+  "slug": "yoloai-14868b8aaf",
+  "name": "yoloai",
+  "mentions": [
+    {
+      "name": "yoloai",
+      "description": "This tool creates sandboxes (Docker, Podman, OrbStack, Seatbelt, Tart, Apple Containers, containerd, Kata, Firecracker) and sets up an AI coding agent (Claude, Codex, Gemini, Aider, OpenCode) inside them with maximally permissive agent settings (no permission prompts). It makes a copy-on-write copy of the working directory for the agent to work in, with changes pulled out via git diff/apply semantics, while the user controls network access, secrets, and which files/directories the agent can access.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "kstenerud"
+      ],
+      "source_excerpt": "I made a tool that creates sandboxes (docker, podman, orbstack, seatbelt, tart, Apple containers, containerd, kata, firecracker) and then sets up an agent (claude, codex, gemini, aider, opencode) inside it with max permissiveness (no prompts to call sed, etc).\n\nIt creates a CoW copy of your workdir for the agent to play in, and then you pull changes out using git diff/apply semantics.",
+      "evidence": [
+        {
+          "source_item_id": 48892015,
+          "source_field": "body",
+          "value": "I made a tool that creates sandboxes (docker, podman, orbstack, seatbelt, tart, Apple containers, containerd, kata, firecracker) and then sets up an agent (claude, codex, gemini, aider, opencode) inside it with max permissiveness (no prompts to call sed, etc).\n\nIt creates a CoW copy of your workdir for the agent to play in, and then you pull changes out using git diff/apply semantics.",
+          "supports": [],
+          "author": "kstenerud",
+          "shared_at": 1783947615,
+          "source_url": "https://news.ycombinator.com/item?id=48892015"
+        }
+      ],
+      "source_item_id": 48892015,
+      "source_url": "https://news.ycombinator.com/item?id=48892015",
+      "author": "kstenerud",
+      "shared_at": 1783947615,
+      "links": [
+        "https://github.com/kstenerud/yoloai"
+      ]
+    },
+    {
+      "name": "yoloai",
+      "description": "An AI sandbox tool that isolates AI agents from the user's system and secrets. Changes the AI makes to the working directory are extracted via diffs or git commits so they can be reviewed before acceptance. The sandboxed AI has no access to the home directory or environment variables, network access can be restricted, and containment runs at the container or VM level with Linux or macOS contained environments.",
+      "problem": "AI agents acting directly on a user's system can reach secrets and make changes that are hard to review before accepting.",
+      "audience": null,
+      "builder_usernames": [
+        "kstenerud"
+      ],
+      "source_excerpt": "The biggest public thing I'm working on is an AI sandbox tool that keeps it separated from your system and secrets.\n\nChanges the AI makes to the \"workdir\" are extracted via diffs or git commits, so you can see what the AI did before deciding if you want it or not.",
+      "evidence": [
+        {
+          "source_item_id": 48785504,
+          "source_field": "body",
+          "value": "The biggest public thing I'm working on is an AI sandbox tool that keeps it separated from your system and secrets.\n\nChanges the AI makes to the \"workdir\" are extracted via diffs or git commits, so you can see what the AI did before deciding if you want it or not.",
+          "supports": [],
+          "author": "kstenerud",
+          "shared_at": 1783173976,
+          "source_url": "https://news.ycombinator.com/item?id=48785504"
+        }
+      ],
+      "source_item_id": 48785504,
+      "source_url": "https://news.ycombinator.com/item?id=48785504",
+      "author": "kstenerud",
+      "shared_at": 1783173976,
+      "links": [
+        "https://github.com/kstenerud/yoloai"
+      ]
+    },
+    {
+      "name": "yoloai",
+      "description": "A CLI tool that creates sandboxes (Docker, Podman, OrbStack, Seatbelt, Tart, containerd, Kata, Firecracker) and sets up an AI coding agent (Claude, Codex, Gemini, Aider, OpenCode) inside each with maximum permissiveness so the agent runs without permission prompts. The sandbox gets its own copy of the working directory for the agent to work in, and changes are extracted via git-style diffs or commits (yoloai new, diff, apply, destroy). Released as FOSS on GitHub.",
+      "problem": "Permission prompts interrupt AI coding agents, and letting them work directly in the real working directory is risky.",
+      "audience": null,
+      "builder_usernames": [
+        "kstenerud"
+      ],
+      "source_excerpt": "A tool that creates sandboxes (docker, podman, orbstack, seatbelt, tart, containerd, kata, firecracker) and then sets up an agent (claude, codex, gemini, aider, opencode) inside it with max permissiveness (no annoying permission prompts).",
+      "evidence": [
+        {
+          "source_item_id": 48530447,
+          "source_field": "body",
+          "value": "A tool that creates sandboxes (docker, podman, orbstack, seatbelt, tart, containerd, kata, firecracker) and then sets up an agent (claude, codex, gemini, aider, opencode) inside it with max permissiveness (no annoying permission prompts).",
+          "supports": [],
+          "author": "kstenerud",
+          "shared_at": 1781459930,
+          "source_url": "https://news.ycombinator.com/item?id=48530447"
+        }
+      ],
+      "source_item_id": 48530447,
+      "source_url": "https://news.ycombinator.com/item?id=48530447",
+      "author": "kstenerud",
+      "shared_at": 1781459930,
+      "links": [
+        "https://github.com/kstenerud/yoloai"
+      ]
+    },
+    {
+      "name": "yoloAI",
+      "description": "This tool sandboxes AI agents (in a Docker container, Seatbelt, or Tart VM on Linux or Mac) so they can run in YOLO mode with all restrictions removed. It uses a two-shell workflow: the agent works and commits inside the contained YOLO shell, while the user reviews diffs, applies commits, pushes, and tears down the sandbox from an outer shell. Everything ships in a single Go binary.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "kstenerud"
+      ],
+      "source_excerpt": "yoloAI: Fearless YOLO sandbox for your agent.\n\nRun your agents contained (container or VM, Linux or Mac), with all restrictions removed.",
+      "evidence": [
+        {
+          "source_item_id": 47305179,
+          "source_field": "body",
+          "value": "yoloAI: Fearless YOLO sandbox for your agent.\n\nRun your agents contained (container or VM, Linux or Mac), with all restrictions removed.",
+          "supports": [],
+          "author": "kstenerud",
+          "shared_at": 1773033981,
+          "source_url": "https://news.ycombinator.com/item?id=47305179"
+        }
+      ],
+      "source_item_id": 47305179,
+      "source_url": "https://news.ycombinator.com/item?id=47305179",
+      "author": "kstenerud",
+      "shared_at": 1773033981,
+      "links": [
+        "https://github.com/kstenerud/yoloai"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 3636,
+  "slug": "editclips-459fd38e4a",
+  "name": "EditClips",
+  "mentions": [
+    {
+      "name": "EditClips",
+      "description": "Browser and server based video editing site that offers tools such as video resizing, cutting, and audio extraction, running in the browser via ffmpeg wasm with an optional faster server-side processing mode. It adds tools on request from friends and family, includes recently added AI features such as transcription and image generation with small models, and provides a browser-based screen recorder for creating short tutorial videos to quickly share with clients.",
+      "problem": null,
+      "audience": "Friends and family who request tools; the author's own clients via tutorial videos",
+      "builder_usernames": [
+        "exwizzard"
+      ],
+      "source_excerpt": "Currently I am working on a browser + server based video editing site. The site is almost 6 years old and started as something I made for friends on Discord. It's a tool based site where I add tools as friends and family request them, most tools like resizing a video, cutting a video, extracting audio use ffmpeg wasm and run in the browser but I also have the option to process it on my server which is faster.",
+      "evidence": [
+        {
+          "source_item_id": 48533264,
+          "source_field": "body",
+          "value": "Currently I am working on a browser + server based video editing site. The site is almost 6 years old and started as something I made for friends on Discord. It's a tool based site where I add tools as friends and family request them, most tools like resizing a video, cutting a video, extracting audio use ffmpeg wasm and run in the browser but I also have the option to process it on my server which is faster.",
+          "supports": [],
+          "author": "exwizzard",
+          "shared_at": 1781474328,
+          "source_url": "https://news.ycombinator.com/item?id=48533264"
+        }
+      ],
+      "source_item_id": 48533264,
+      "source_url": "https://news.ycombinator.com/item?id=48533264",
+      "author": "exwizzard",
+      "shared_at": 1781474328,
+      "links": [
+        "https://editclips.online/"
+      ]
+    }
+  ]
+}

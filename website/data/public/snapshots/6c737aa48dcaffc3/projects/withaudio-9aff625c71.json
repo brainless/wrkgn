@@ -1,0 +1,35 @@
+{
+  "id": 7056,
+  "slug": "withaudio-9aff625c71",
+  "name": "WithAudio",
+  "mentions": [
+    {
+      "name": "WithAudio",
+      "description": "A text-to-speech app for PDF documents: it converts input PDFs to Markdown and performs TTS with synchronized text highlighting on the Markdown content. A new component in development will render the original PDF layout and structure while showing text highlighting synchronized to the piece being played by the TTS engine.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "OfflineSergio"
+      ],
+      "source_excerpt": "I'm working on a new compontent for viewing PDFs in original format and structure but show text highlighting while a specific piece of the PDF is being played in the TTS engine.\nThis for my app (https://with.audio). Which already supports PDF parsing and TTS of PDF files. WithAudio currently converts the input PDF to Markdown and performs TTS and synchronized text highlighting on the Markdown content.",
+      "evidence": [
+        {
+          "source_item_id": 46940130,
+          "source_field": "body",
+          "value": "I'm working on a new compontent for viewing PDFs in original format and structure but show text highlighting while a specific piece of the PDF is being played in the TTS engine.\nThis for my app (https://with.audio). Which already supports PDF parsing and TTS of PDF files. WithAudio currently converts the input PDF to Markdown and performs TTS and synchronized text highlighting on the Markdown content.",
+          "supports": [],
+          "author": "OfflineSergio",
+          "shared_at": 1770597170,
+          "source_url": "https://news.ycombinator.com/item?id=46940130"
+        }
+      ],
+      "source_item_id": 46940130,
+      "source_url": "https://news.ycombinator.com/item?id=46940130",
+      "author": "OfflineSergio",
+      "shared_at": 1770597170,
+      "links": [
+        "https://with.audio"
+      ]
+    }
+  ]
+}

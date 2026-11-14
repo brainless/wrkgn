@@ -1,0 +1,91 @@
+{
+  "id": 7695,
+  "slug": "nickjj-dotfiles-abfb74d408",
+  "name": "nickjj/dotfiles",
+  "mentions": [
+    {
+      "name": "nickjj/dotfiles",
+      "description": "A dotfiles repository that installs and configures a number of CLI tools with theme switching, working across Arch, Debian, Ubuntu, macOS, and WSL 2. It includes an install script that runs on new or existing systems, documentation for each package, and an opt-in Arch feature that assembles a complete desktop environment built around niri and many other tools.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "nickjj"
+      ],
+      "source_excerpt": "I have a dotfiles repo that installs and configures a number of CLI tools, complete with theme switching for a bunch of years that works on Arch / Debian / Ubuntu and macOS, with WSL 2 support too.\n\nNow I've been piecing together a complete desktop environment using niri and many other tools. If you're using Arch, you can opt-in to turn this feature on. There's an install script which can be run on a new system or existing system, documentation on each package and more at https://github.com/nickjj/dotfiles.",
+      "evidence": [
+        {
+          "source_item_id": 46587285,
+          "source_field": "body",
+          "value": "I have a dotfiles repo that installs and configures a number of CLI tools, complete with theme switching for a bunch of years that works on Arch / Debian / Ubuntu and macOS, with WSL 2 support too.\n\nNow I've been piecing together a complete desktop environment using niri and many other tools. If you're using Arch, you can opt-in to turn this feature on. There's an install script which can be run on a new system or existing system, documentation on each package and more at https://github.com/nickjj/dotfiles.",
+          "supports": [],
+          "author": "nickjj",
+          "shared_at": 1768219383,
+          "source_url": "https://news.ycombinator.com/item?id=46587285"
+        }
+      ],
+      "source_item_id": 46587285,
+      "source_url": "https://news.ycombinator.com/item?id=46587285",
+      "author": "nickjj",
+      "shared_at": 1768219383,
+      "links": [
+        "https://github.com/nickjj/dotfiles"
+      ]
+    },
+    {
+      "name": "dotfiles",
+      "description": "A public dotfiles setup that can fully configure a new or existing system in a few minutes using an install script, theme switching, and a collection of command line tools, supporting Debian, Ubuntu, Arch (with or without WSL 2), and macOS. The author has used it to set up a personal desktop, laptop, and work laptop, and is adding an opt-in Arch Linux configuration that installs and configures a GUI (niri) and assorted tools ahead of a switch from Windows/WSL 2 to native Linux.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "nickjj"
+      ],
+      "source_excerpt": "My dotfiles have been public for many years and can 1 shot a new or existing system in a few minutes with a bunch of command line tools on Debian, Ubuntu, Arch (with or without WSL 2) and macOS. It has an install script and theme switching for a long time which I've used to set up a a few systems (personal desktop, laptop and work laptop).",
+      "evidence": [
+        {
+          "source_item_id": 46268141,
+          "source_field": "body",
+          "value": "My dotfiles have been public for many years and can 1 shot a new or existing system in a few minutes with a bunch of command line tools on Debian, Ubuntu, Arch (with or without WSL 2) and macOS. It has an install script and theme switching for a long time which I've used to set up a a few systems (personal desktop, laptop and work laptop).",
+          "supports": [],
+          "author": "nickjj",
+          "shared_at": 1765753963,
+          "source_url": "https://news.ycombinator.com/item?id=46268141"
+        }
+      ],
+      "source_item_id": 46268141,
+      "source_url": "https://news.ycombinator.com/item?id=46268141",
+      "author": "nickjj",
+      "shared_at": 1765753963,
+      "links": [
+        "https://github.com/nickjj/dotfiles"
+      ]
+    },
+    {
+      "name": "dotfiles",
+      "description": "A collection of dotfiles with an idempotent install script that automates setting up command line tools and environments on Debian, Ubuntu, macOS, and newly added Arch Linux, with plans to extend to installing and configuring GUI tools.",
+      "problem": "Manually configuring a new machine with preferred tools is slow; the script set up a fresh work laptop in 5 minutes.",
+      "audience": null,
+      "builder_usernames": [
+        "nickjj"
+      ],
+      "source_excerpt": "7 years ago I posted my dotfiles at https://github.com/nickjj/dotfiles.\n\n4 years ago I made an install script that worked for Debian, Ubuntu and macOS. This made it easier to get going with them.",
+      "evidence": [
+        {
+          "source_item_id": 43819526,
+          "source_field": "body",
+          "value": "7 years ago I posted my dotfiles at https://github.com/nickjj/dotfiles.\n\n4 years ago I made an install script that worked for Debian, Ubuntu and macOS. This made it easier to get going with them.",
+          "supports": [],
+          "author": "nickjj",
+          "shared_at": 1745835010,
+          "source_url": "https://news.ycombinator.com/item?id=43819526"
+        }
+      ],
+      "source_item_id": 43819526,
+      "source_url": "https://news.ycombinator.com/item?id=43819526",
+      "author": "nickjj",
+      "shared_at": 1745835010,
+      "links": [
+        "https://github.com/nickjj/dotfiles"
+      ]
+    }
+  ]
+}

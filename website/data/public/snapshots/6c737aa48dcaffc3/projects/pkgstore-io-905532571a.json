@@ -1,0 +1,35 @@
+{
+  "id": 6910,
+  "slug": "pkgstore-io-905532571a",
+  "name": "pkgstore.io",
+  "mentions": [
+    {
+      "name": "pkgstore.io",
+      "description": "A curated directory and marketplace for commercial .NET NuGet packages. Publishers can sell NuGet packages directly, with full dotnet push/restore support, Stripe payments, and automated access control. Currently in open beta and onboarding publishers.",
+      "problem": "NuGet.org doesn't distinguish between a hobby project and a professionally maintained library with real support.",
+      "audience": "Publishers of .NET NuGet packages looking to sell commercial libraries",
+      "builder_usernames": [
+        "martz"
+      ],
+      "source_excerpt": "Building pkgstore.io, a marketplace for commercial .NET NuGet packages.\n\nhttps://www.pkgstore.io\n\nNuGet.org doesn't distinguish between a hobby project and a professionally maintained library with real support. pkgstore is a curated directory and marketplace where publishers can sell NuGet packages directly, with full dotnet push/restore support, Stripe payments, and automated access control.",
+      "evidence": [
+        {
+          "source_item_id": 46943033,
+          "source_field": "body",
+          "value": "Building pkgstore.io, a marketplace for commercial .NET NuGet packages.\n\nhttps://www.pkgstore.io\n\nNuGet.org doesn't distinguish between a hobby project and a professionally maintained library with real support. pkgstore is a curated directory and marketplace where publishers can sell NuGet packages directly, with full dotnet push/restore support, Stripe payments, and automated access control.",
+          "supports": [],
+          "author": "martz",
+          "shared_at": 1770626293,
+          "source_url": "https://news.ycombinator.com/item?id=46943033"
+        }
+      ],
+      "source_item_id": 46943033,
+      "source_url": "https://news.ycombinator.com/item?id=46943033",
+      "author": "martz",
+      "shared_at": 1770626293,
+      "links": [
+        "https://www.pkgstore.io"
+      ]
+    }
+  ]
+}

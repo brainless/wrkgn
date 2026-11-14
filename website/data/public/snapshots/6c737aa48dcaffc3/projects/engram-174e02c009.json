@@ -1,0 +1,36 @@
+{
+  "id": 6252,
+  "slug": "engram-174e02c009",
+  "name": "Engram",
+  "mentions": [
+    {
+      "name": "Engram",
+      "description": "A cognitive memory system for AI agents that replaces vector databases and semantic search with cognitive science models (ACT-R activation decay, Hebbian learning, forgetting curves) to decide what to remember and what to forget. Version 2 adds multi-agent shared memory.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tonipotato"
+      ],
+      "source_excerpt": "Working on Engram, a cognitive memory system for AI agents. Instead of vector DB + semantic search, it uses models from cognitive science (ACT-R activation decay, Hebbian learning, forgetting curves) to decide what to remember and what to forget. Been running it in production for a month, 230K+ recalls. Just shipped v2 with multi-agent shared memory.",
+      "evidence": [
+        {
+          "source_item_id": 47351473,
+          "source_field": "body",
+          "value": "Working on Engram, a cognitive memory system for AI agents. Instead of vector DB + semantic search, it uses models from cognitive science (ACT-R activation decay, Hebbian learning, forgetting curves) to decide what to remember and what to forget. Been running it in production for a month, 230K+ recalls. Just shipped v2 with multi-agent shared memory.",
+          "supports": [],
+          "author": "tonipotato",
+          "shared_at": 1773327229,
+          "source_url": "https://news.ycombinator.com/item?id=47351473"
+        }
+      ],
+      "source_item_id": 47351473,
+      "source_url": "https://news.ycombinator.com/item?id=47351473",
+      "author": "tonipotato",
+      "shared_at": 1773327229,
+      "links": [
+        "https://github.com/tonitangpotato/engram-ai",
+        "https://github.com/tonitangpotato/engram-ai-rust"
+      ]
+    }
+  ]
+}

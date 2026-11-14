@@ -1,0 +1,35 @@
+{
+  "id": 6888,
+  "slug": "lightningbeam-6e1320df85",
+  "name": "Lightningbeam",
+  "mentions": [
+    {
+      "name": "Lightningbeam",
+      "description": "An integrated multimedia editor combining animation, audio and video editing into a single timeline, inspired by Macromedia Flash, Apple GarageBand, and Kdenlive. It runs natively on Linux, macOS and Windows and is currently in early alpha, with the UI being rewritten in Rust after a previous Tauri-based JS frontend.",
+      "problem": "The previous Rust backend with a JS frontend using Tauri ran into bandwidth limitations that prevented it from being really usable as a video editor.",
+      "audience": null,
+      "builder_usernames": [
+        "skykooler"
+      ],
+      "source_excerpt": "I'm working on Lightningbeam (https://lightningbeam.org), an integrated multimedia editor.",
+      "evidence": [
+        {
+          "source_item_id": 46945740,
+          "source_field": "body",
+          "value": "I'm working on Lightningbeam (https://lightningbeam.org), an integrated multimedia editor.",
+          "supports": [],
+          "author": "skykooler",
+          "shared_at": 1770648236,
+          "source_url": "https://news.ycombinator.com/item?id=46945740"
+        }
+      ],
+      "source_item_id": 46945740,
+      "source_url": "https://news.ycombinator.com/item?id=46945740",
+      "author": "skykooler",
+      "shared_at": 1770648236,
+      "links": [
+        "https://lightningbeam.org"
+      ]
+    }
+  ]
+}

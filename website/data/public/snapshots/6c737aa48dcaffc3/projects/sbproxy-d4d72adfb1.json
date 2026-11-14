@@ -1,0 +1,35 @@
+{
+  "id": 5486,
+  "slug": "sbproxy-d4d72adfb1",
+  "name": "SBproxy",
+  "mentions": [
+    {
+      "name": "SBproxy",
+      "description": "SBproxy is an open source API and AI gateway packaged as a single binary. It sits between applications and LLM providers to give more control over AI traffic, positioned as 'Cloudflare meets LiteLLM'. Its single-binary distribution avoids exposing provider API keys via pip-installed gateway packages.",
+      "problem": "LLM gateways hold every provider API key, which makes running one as a pip install a supply chain security risk, as highlighted by the LiteLLM supply chain hack.",
+      "audience": null,
+      "builder_usernames": [
+        "crawdog"
+      ],
+      "source_excerpt": "SBproxy (https://sbproxy.dev) - An API and AI gateway as a single binary. Sits between your apps and LLM providers to give you more control. Think Cloudflare meets LiteLLM.",
+      "evidence": [
+        {
+          "source_item_id": 47754416,
+          "source_field": "body",
+          "value": "SBproxy (https://sbproxy.dev) - An API and AI gateway as a single binary. Sits between your apps and LLM providers to give you more control. Think Cloudflare meets LiteLLM.",
+          "supports": [],
+          "author": "crawdog",
+          "shared_at": 1776097541,
+          "source_url": "https://news.ycombinator.com/item?id=47754416"
+        }
+      ],
+      "source_item_id": 47754416,
+      "source_url": "https://news.ycombinator.com/item?id=47754416",
+      "author": "crawdog",
+      "shared_at": 1776097541,
+      "links": [
+        "https://sbproxy.dev"
+      ]
+    }
+  ]
+}

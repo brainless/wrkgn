@@ -1,0 +1,35 @@
+{
+  "id": 5272,
+  "slug": "apptestcircuit-ca4592d2a7",
+  "name": "AppTestCircuit",
+  "mentions": [
+    {
+      "name": "AppTestCircuit",
+      "description": "A Claude skill that automates testing of iOS apps; it found issues in one of the author's already-released apps.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "netcoyote"
+      ],
+      "source_excerpt": "I wrote a Claude skill to automate testing of iOS apps [2], and it found issues in one of my released apps [3].",
+      "evidence": [
+        {
+          "source_item_id": 47754095,
+          "source_field": "body",
+          "value": "I wrote a Claude skill to automate testing of iOS apps [2], and it found issues in one of my released apps [3].",
+          "supports": [],
+          "author": "netcoyote",
+          "shared_at": 1776096304,
+          "source_url": "https://news.ycombinator.com/item?id=47754095"
+        }
+      ],
+      "source_item_id": 47754095,
+      "source_url": "https://news.ycombinator.com/item?id=47754095",
+      "author": "netcoyote",
+      "shared_at": 1776096304,
+      "links": [
+        "https://github.com/webcoyote/AppTestCircuit"
+      ]
+    }
+  ]
+}

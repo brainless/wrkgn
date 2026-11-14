@@ -1,0 +1,33 @@
+{
+  "id": 5969,
+  "slug": "single-file-self-hosting-risc-v-operating-system-089754fa48",
+  "name": "Single-file self-hosting RISC-V operating system",
+  "mentions": [
+    {
+      "name": "Single-file self-hosting RISC-V operating system",
+      "description": "This operating system is written entirely in one text file, which contains in order a readme, RISC-V assembly boot code, and the rest of the system. The initial boot code is compiled with a basic RISC-V assembler and concatenated with the text file itself; when run, the boot code compiles the rest of the file, including higher-level language compilers that the rest of the system is written in. The goal is to create something from as little as possible, needing only a very basic RISC-V assembler and a computer or emulator to get started.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "robalni"
+      ],
+      "source_excerpt": "I just started building an operating system that will be written entirely in one text file.\nThis text file includes in order: a readme, a RISC-V assembly boot code, then the rest.",
+      "evidence": [
+        {
+          "source_item_id": 47305965,
+          "source_field": "body",
+          "value": "I just started building an operating system that will be written entirely in one text file.\nThis text file includes in order: a readme, a RISC-V assembly boot code, then the rest.",
+          "supports": [],
+          "author": "robalni",
+          "shared_at": 1773042660,
+          "source_url": "https://news.ycombinator.com/item?id=47305965"
+        }
+      ],
+      "source_item_id": 47305965,
+      "source_url": "https://news.ycombinator.com/item?id=47305965",
+      "author": "robalni",
+      "shared_at": 1773042660,
+      "links": []
+    }
+  ]
+}

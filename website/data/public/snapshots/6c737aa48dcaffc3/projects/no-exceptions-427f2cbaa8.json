@@ -1,0 +1,35 @@
+{
+  "id": 9911,
+  "slug": "no-exceptions-427f2cbaa8",
+  "name": "no-exceptions",
+  "mentions": [
+    {
+      "name": "no-exceptions",
+      "description": "This is a TypeScript npm package, \"no-exceptions\", that provides an alternative to the \"neverthrow\" library for error handling, built because the author found neverthrow's API not very ergonomic.",
+      "problem": "The neverthrow TypeScript package's API is not very ergonomic for error handling.",
+      "audience": null,
+      "builder_usernames": [
+        "genkoph"
+      ],
+      "source_excerpt": "I built an alternative to the Typescript package \"neverthrow\" called \"no-exceptions\"\n\nI found neverthrow's api to be not very ergonomic so I built my own little version.",
+      "evidence": [
+        {
+          "source_item_id": 45419041,
+          "source_field": "body",
+          "value": "I built an alternative to the Typescript package \"neverthrow\" called \"no-exceptions\"\n\nI found neverthrow's api to be not very ergonomic so I built my own little version.",
+          "supports": [],
+          "author": "genkoph",
+          "shared_at": 1759181679,
+          "source_url": "https://news.ycombinator.com/item?id=45419041"
+        }
+      ],
+      "source_item_id": 45419041,
+      "source_url": "https://news.ycombinator.com/item?id=45419041",
+      "author": "genkoph",
+      "shared_at": 1759181679,
+      "links": [
+        "https://www.npmjs.com/package/no-exceptions"
+      ]
+    }
+  ]
+}

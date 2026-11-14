@@ -1,0 +1,33 @@
+{
+  "id": 10072,
+  "slug": "legal-document-tts-narrator-1847766621",
+  "name": "Legal Document TTS Narrator",
+  "mentions": [
+    {
+      "name": "Legal Document TTS Narrator",
+      "description": "This side project converts legal documents into a narrated audio readout using TTS models. It focuses on custom pre-processing and chunking to handle PDF formatting issues, legal jargon, and specialized document formatting that commercial TTS platforms like ElevenLabs don't account for well, while keeping costs down compared to commercial models that charge heavily for dozens of pages of text.",
+      "problem": "Legal documents are often distributed as PDFs with formatting issues when converted to plain text, and their jargon and formatting isn't handled well by commercial TTS platforms, which are also expensive when routinely processing dozens of pages.",
+      "audience": null,
+      "builder_usernames": [
+        "ideashower"
+      ],
+      "source_excerpt": "A side project that takes legal documents and uses TTS models to create a narrated read out of the whole document.",
+      "evidence": [
+        {
+          "source_item_id": 45430306,
+          "source_field": "body",
+          "value": "A side project that takes legal documents and uses TTS models to create a narrated read out of the whole document.",
+          "supports": [],
+          "author": "ideashower",
+          "shared_at": 1759261448,
+          "source_url": "https://news.ycombinator.com/item?id=45430306"
+        }
+      ],
+      "source_item_id": 45430306,
+      "source_url": "https://news.ycombinator.com/item?id=45430306",
+      "author": "ideashower",
+      "shared_at": 1759261448,
+      "links": []
+    }
+  ]
+}

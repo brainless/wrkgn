@@ -1,0 +1,35 @@
+{
+  "id": 5883,
+  "slug": "drivelens-1338b56613",
+  "name": "DriveLens",
+  "mentions": [
+    {
+      "name": "DriveLens",
+      "description": "A privacy-friendly cloud storage manager for Google Drive and MS OneDrive, similar to WinDirStat. It analyzes storage using only file metadata via fully client-side browser API calls, with no file contents accessed.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tonymet"
+      ],
+      "source_excerpt": "A privacy friendly cloud storage manager like Windirstat for Google Drive & MS Onedrive\n\nhttps://drivelens.click/\n\nNo file contents are accessed, only metadata, fully client-side API calls (browser to google API).",
+      "evidence": [
+        {
+          "source_item_id": 47744579,
+          "source_field": "body",
+          "value": "A privacy friendly cloud storage manager like Windirstat for Google Drive & MS Onedrive\n\nhttps://drivelens.click/\n\nNo file contents are accessed, only metadata, fully client-side API calls (browser to google API).",
+          "supports": [],
+          "author": "tonymet",
+          "shared_at": 1776028498,
+          "source_url": "https://news.ycombinator.com/item?id=47744579"
+        }
+      ],
+      "source_item_id": 47744579,
+      "source_url": "https://news.ycombinator.com/item?id=47744579",
+      "author": "tonymet",
+      "shared_at": 1776028498,
+      "links": [
+        "https://drivelens.click/"
+      ]
+    }
+  ]
+}

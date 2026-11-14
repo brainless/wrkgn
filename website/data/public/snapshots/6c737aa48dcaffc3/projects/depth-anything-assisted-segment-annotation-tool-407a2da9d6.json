@@ -1,0 +1,33 @@
+{
+  "id": 10849,
+  "slug": "depth-anything-assisted-segment-annotation-tool-407a2da9d6",
+  "name": "Depth Anything-assisted segment annotation tool",
+  "mentions": [
+    {
+      "name": "Depth Anything-assisted segment annotation tool",
+      "description": "A prototype segment annotation tool assisted by the Depth Anything depth model, aimed at plant detection in non-agricultural environments where dense green vegetation makes segmentation hard, and intended to be useful for other difficult segmentation tasks.",
+      "problem": "Plant detection in non-agricultural environments, where the backdrop is an endless sea of green complexity.",
+      "audience": null,
+      "builder_usernames": [
+        "daemonologist"
+      ],
+      "source_excerpt": "I'm prototyping a Depth Anything[1] -assisted segment annotation tool, with an eye toward plant detection in non-agriculture environments (where the backdrop is an endless sea of green complexity).",
+      "evidence": [
+        {
+          "source_item_id": 43817046,
+          "source_field": "body",
+          "value": "I'm prototyping a Depth Anything[1] -assisted segment annotation tool, with an eye toward plant detection in non-agriculture environments (where the backdrop is an endless sea of green complexity).",
+          "supports": [],
+          "author": "daemonologist",
+          "shared_at": 1745808293,
+          "source_url": "https://news.ycombinator.com/item?id=43817046"
+        }
+      ],
+      "source_item_id": 43817046,
+      "source_url": "https://news.ycombinator.com/item?id=43817046",
+      "author": "daemonologist",
+      "shared_at": 1745808293,
+      "links": []
+    }
+  ]
+}

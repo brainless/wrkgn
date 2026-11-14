@@ -1,0 +1,33 @@
+{
+  "id": 10332,
+  "slug": "marginalia-search-index-optimization-e1d0c764c9",
+  "name": "Marginalia Search index optimization",
+  "mentions": [
+    {
+      "name": "Marginalia Search index optimization",
+      "description": "Marginalia Search's index code is being rewritten for speed, benchmarking at least twice as fast as the previous version. Production rollout stalled because the new code is four times slower for the simplest queries, apparently due to page thrashing in the mmap-based index readers, so the work now includes implementing a custom buffer pool to manage reads directly.",
+      "problem": "The faster index code is four times as slow as the prior version for the simplest, fastest queries in production, pushing them past their timeout values, likely because the new code causes more page thrashing in the mmap-based index readers.",
+      "audience": null,
+      "builder_usernames": [
+        "marginalia_nu"
+      ],
+      "source_excerpt": "Optimizing the Marginalia Search index code.  The new code is at least twice as fast in benchmarks, but I can't run it in production because it turns out when you do it's four times as slow as what came before it for the queries that are the simplest and fastest to the point where queries exceed their timeout values by a lot.",
+      "evidence": [
+        {
+          "source_item_id": 44704294,
+          "source_field": "body",
+          "value": "Optimizing the Marginalia Search index code.  The new code is at least twice as fast in benchmarks, but I can't run it in production because it turns out when you do it's four times as slow as what came before it for the queries that are the simplest and fastest to the point where queries exceed their timeout values by a lot.",
+          "supports": [],
+          "author": "marginalia_nu",
+          "shared_at": 1753647130,
+          "source_url": "https://news.ycombinator.com/item?id=44704294"
+        }
+      ],
+      "source_item_id": 44704294,
+      "source_url": "https://news.ycombinator.com/item?id=44704294",
+      "author": "marginalia_nu",
+      "shared_at": 1753647130,
+      "links": []
+    }
+  ]
+}

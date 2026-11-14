@@ -1,0 +1,36 @@
+{
+  "id": 5531,
+  "slug": "tui-framework-for-tokamak-af12efa43c",
+  "name": "TUI framework for tokamak",
+  "mentions": [
+    {
+      "name": "TUI framework for tokamak",
+      "description": "A terminal user interface (TUI) framework for tokamak, being built so it can be used to power a local agent harness. Its proof of concept currently lives in a separate Codeberg repository (hello-tui).",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "cztomsik"
+      ],
+      "source_excerpt": "I am working on a TUI framework for tokamak https://github.com/cztomsik/tokamak so I can then use it for my local agent harness. The currently separate PoC now lives in codeberg https://codeberg.org/cztomsik/hello-tui",
+      "evidence": [
+        {
+          "source_item_id": 47780930,
+          "source_field": "body",
+          "value": "I am working on a TUI framework for tokamak https://github.com/cztomsik/tokamak so I can then use it for my local agent harness. The currently separate PoC now lives in codeberg https://codeberg.org/cztomsik/hello-tui",
+          "supports": [],
+          "author": "cztomsik",
+          "shared_at": 1776268516,
+          "source_url": "https://news.ycombinator.com/item?id=47780930"
+        }
+      ],
+      "source_item_id": 47780930,
+      "source_url": "https://news.ycombinator.com/item?id=47780930",
+      "author": "cztomsik",
+      "shared_at": 1776268516,
+      "links": [
+        "https://codeberg.org/cztomsik/hello-tui",
+        "https://github.com/cztomsik/tokamak"
+      ]
+    }
+  ]
+}

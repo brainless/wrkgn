@@ -1,0 +1,35 @@
+{
+  "id": 10297,
+  "slug": "roundtable-fc5610f1b1",
+  "name": "Roundtable",
+  "mentions": [
+    {
+      "name": "Roundtable",
+      "description": "This MCP-based tool creates subagents from multiple AI coding assistants such as Claude and Codex to analyze bugs or brainstorm issues in parallel, then aggregates their opinions into one result.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mahdiyar"
+      ],
+      "source_excerpt": "so I built Roundtable https://askbudi.ai/roundtable , and when I face a bug, or I need to brainstorm, I task it to create subagents from Claude, Codex,...\nAnd task each of them to analyze the issue and then aggregate their opinion.",
+      "evidence": [
+        {
+          "source_item_id": 45376520,
+          "source_field": "body",
+          "value": "so I built Roundtable https://askbudi.ai/roundtable , and when I face a bug, or I need to brainstorm, I task it to create subagents from Claude, Codex,...\nAnd task each of them to analyze the issue and then aggregate their opinion.",
+          "supports": [],
+          "author": "mahdiyar",
+          "shared_at": 1758823528,
+          "source_url": "https://news.ycombinator.com/item?id=45376520"
+        }
+      ],
+      "source_item_id": 45376520,
+      "source_url": "https://news.ycombinator.com/item?id=45376520",
+      "author": "mahdiyar",
+      "shared_at": 1758823528,
+      "links": [
+        "https://askbudi.ai/roundtable"
+      ]
+    }
+  ]
+}

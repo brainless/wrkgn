@@ -1,0 +1,63 @@
+{
+  "id": 4769,
+  "slug": "peac-protocol-2ceedf2974",
+  "name": "PEAC Protocol",
+  "mentions": [
+    {
+      "name": "PEAC Protocol",
+      "description": "PEAC Protocol issues portable signed records that let another system verify later what an agent, MCP tool, metered API, or automated payment flow reported, bridging the boundary between local logs and claims that need to travel.",
+      "problem": "Logs are local, but some claims need to travel; as agents, MCP tools, metered APIs, and automated payment flows do more work, there needs to be a simple way for another system to verify what was reported later.",
+      "audience": "Developers and teams building agents, MCP tools, metered APIs, and automated payment flows where reported claims need to be verifiable by other systems.",
+      "builder_usernames": [
+        "jithinraj"
+      ],
+      "source_excerpt": "I’m working on PEAC Protocol.\n\nLogs are local, but some claims need to travel. As agents, MCP tools, metered APIs, and automated payment flows do more work, there needs to be a simple way for another system to verify what was reported later. PEAC issues portable signed records for that boundary.",
+      "evidence": [
+        {
+          "source_item_id": 48098162,
+          "source_field": "body",
+          "value": "I’m working on PEAC Protocol.\n\nLogs are local, but some claims need to travel. As agents, MCP tools, metered APIs, and automated payment flows do more work, there needs to be a simple way for another system to verify what was reported later. PEAC issues portable signed records for that boundary.",
+          "supports": [],
+          "author": "jithinraj",
+          "shared_at": 1778521594,
+          "source_url": "https://news.ycombinator.com/item?id=48098162"
+        }
+      ],
+      "source_item_id": 48098162,
+      "source_url": "https://news.ycombinator.com/item?id=48098162",
+      "author": "jithinraj",
+      "shared_at": 1778521594,
+      "links": [
+        "https://github.com/peacprotocol/peac"
+      ]
+    },
+    {
+      "name": "PEAC",
+      "description": "An open protocol for signed interaction records that makes agent, MCP, and API interactions verifiable across organizational boundaries instead of relying only on logs.",
+      "problem": "Agent, MCP, and API interactions currently rely only on logs and are not verifiable across organizational boundaries.",
+      "audience": null,
+      "builder_usernames": [
+        "jithinraj"
+      ],
+      "source_excerpt": "built around PEAC, an open protocol for signed interaction records.",
+      "evidence": [
+        {
+          "source_item_id": 47746147,
+          "source_field": "body",
+          "value": "built around PEAC, an open protocol for signed interaction records.",
+          "supports": [],
+          "author": "jithinraj",
+          "shared_at": 1776040812,
+          "source_url": "https://news.ycombinator.com/item?id=47746147"
+        }
+      ],
+      "source_item_id": 47746147,
+      "source_url": "https://news.ycombinator.com/item?id=47746147",
+      "author": "jithinraj",
+      "shared_at": 1776040812,
+      "links": [
+        "https://github.com/peacprotocol/peac"
+      ]
+    }
+  ]
+}

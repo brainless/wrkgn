@@ -1,0 +1,35 @@
+{
+  "id": 10428,
+  "slug": "fisherloop-d5f607edbf",
+  "name": "FisherLoop",
+  "mentions": [
+    {
+      "name": "FisherLoop",
+      "description": "Interactive audiobook platform for language learning that turns books into audio with word-level timestamps, highlighting each word as it is spoken and letting the user click words for translations. Supports Swedish, German, Spanish, French, and Italian, and uses Cerebras for LLM tasks such as book translation and verb extraction and Cartesia for text-to-speech.",
+      "problem": "The author likes audiobooks for language learning but hated having to pause to look up words and wanted to read along the book while listening.",
+      "audience": "Language learners studying Swedish, German, Spanish, French, or Italian",
+      "builder_usernames": [
+        "ArneVogel"
+      ],
+      "source_excerpt": "I am still working on FisherLoop [1] to learn Swedish (but I have added German, Spanish, French and Italian since). I created FisherLoop because I like audiobooks for language learning but I hated having to pause to look up words + I want to read along the book while listening. With FisherLoop I made \"interactive audiobooks\" where I use TTS with word level timestamps to highlight the words as they are spoken + I can click on words for the translation.",
+      "evidence": [
+        {
+          "source_item_id": 44704132,
+          "source_field": "body",
+          "value": "I am still working on FisherLoop [1] to learn Swedish (but I have added German, Spanish, French and Italian since). I created FisherLoop because I like audiobooks for language learning but I hated having to pause to look up words + I want to read along the book while listening. With FisherLoop I made \"interactive audiobooks\" where I use TTS with word level timestamps to highlight the words as they are spoken + I can click on words for the translation.",
+          "supports": [],
+          "author": "ArneVogel",
+          "shared_at": 1753646066,
+          "source_url": "https://news.ycombinator.com/item?id=44704132"
+        }
+      ],
+      "source_item_id": 44704132,
+      "source_url": "https://news.ycombinator.com/item?id=44704132",
+      "author": "ArneVogel",
+      "shared_at": 1753646066,
+      "links": [
+        "https://www.fisherloop.com/en/"
+      ]
+    }
+  ]
+}

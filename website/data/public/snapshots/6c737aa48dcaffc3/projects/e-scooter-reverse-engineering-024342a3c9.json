@@ -1,0 +1,33 @@
+{
+  "id": 3717,
+  "slug": "e-scooter-reverse-engineering-024342a3c9",
+  "name": "E-scooter reverse engineering",
+  "mentions": [
+    {
+      "name": "E-scooter reverse engineering",
+      "description": "This project reverse engineers an e-scooter by analyzing its decompiled, obfuscated Android companion app with LLM coding agents (Qwen3 Coder, Mistral, OpenCode), with the goal of building the author's own app for the scooter and potentially dumping the device firmware via the app's firmware update feature.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "asimovDev"
+      ],
+      "source_excerpt": "Yesterday I tried to take another crack at reverse engineering my e-scooter.",
+      "evidence": [
+        {
+          "source_item_id": 48537381,
+          "source_field": "body",
+          "value": "Yesterday I tried to take another crack at reverse engineering my e-scooter.",
+          "supports": [],
+          "author": "asimovDev",
+          "shared_at": 1781505072,
+          "source_url": "https://news.ycombinator.com/item?id=48537381"
+        }
+      ],
+      "source_item_id": 48537381,
+      "source_url": "https://news.ycombinator.com/item?id=48537381",
+      "author": "asimovDev",
+      "shared_at": 1781505072,
+      "links": []
+    }
+  ]
+}

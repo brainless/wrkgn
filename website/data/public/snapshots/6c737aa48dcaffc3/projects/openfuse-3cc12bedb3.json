@@ -1,0 +1,35 @@
+{
+  "id": 6745,
+  "slug": "openfuse-3cc12bedb3",
+  "name": "Openfuse",
+  "mentions": [
+    {
+      "name": "Openfuse",
+      "description": "This platform provides a centralized control plane for circuit breaker policies across a software stack. Users define reliability rules in one place, gain visibility into breaker states across services, and can react to failures without redeploying anything. It replaces scattered, per-service circuit breaker libraries or heavyweight service meshes.",
+      "problem": "Circuit breakers are scattered across dozens of services with slightly different configurations and no single place to see what's happening during failures; existing options are either embedded libraries that leave every server stateful or full service meshes that are overkill for most teams.",
+      "audience": "Teams running microservices or integration-heavy monoliths",
+      "builder_usernames": [
+        "rodrigorcs"
+      ],
+      "source_excerpt": "I've been building Openfuse (https://openfuse.io), a centralized circuit breaker platform.",
+      "evidence": [
+        {
+          "source_item_id": 46960108,
+          "source_field": "body",
+          "value": "I've been building Openfuse (https://openfuse.io), a centralized circuit breaker platform.",
+          "supports": [],
+          "author": "rodrigorcs",
+          "shared_at": 1770733613,
+          "source_url": "https://news.ycombinator.com/item?id=46960108"
+        }
+      ],
+      "source_item_id": 46960108,
+      "source_url": "https://news.ycombinator.com/item?id=46960108",
+      "author": "rodrigorcs",
+      "shared_at": 1770733613,
+      "links": [
+        "https://openfuse.io"
+      ]
+    }
+  ]
+}

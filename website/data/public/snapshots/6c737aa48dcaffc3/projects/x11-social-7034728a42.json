@@ -1,0 +1,35 @@
+{
+  "id": 10068,
+  "slug": "x11-social-7034728a42",
+  "name": "X11.Social",
+  "mentions": [
+    {
+      "name": "X11.Social",
+      "description": "Voice-first content creation tool for X: users compose posts by having a natural conversation with an AI assistant over a simple phone call, turning thoughts from a walk or drive into polished \"brain dump\" posts. The system includes a Chrome extension with a Quake-style console (opt+space) that can chat and analyze the content of any page (YouTube transcripts, articles, tweets) to help create relevant content; a real-time engagement predictor that scores tweet drafts for engagement potential using a model trained on X API and Kaggle data; and scheduled AI calls that proactively brainstorm content ideas. Monetized with Stripe subscriptions, uses X OAuth, ElevenLabs Conversational AI and Twilio for voice, and is deployed on AWS Fargate.",
+      "problem": "Composing posts on the go is hard — the tool addresses turning thoughts from a walk or drive into polished posts, or engaging with user lists without being at a computer.",
+      "audience": null,
+      "builder_usernames": [
+        "siim"
+      ],
+      "source_excerpt": "I'm working on https://X11.Social, a voice-first content creation tool for X.\n\nThe initial idea was \"call to tweet\", the ability to compose posts on the go by having a natural conversation with an AI assistant over a simple phone call.",
+      "evidence": [
+        {
+          "source_item_id": 45427372,
+          "source_field": "body",
+          "value": "I'm working on https://X11.Social, a voice-first content creation tool for X.\n\nThe initial idea was \"call to tweet\", the ability to compose posts on the go by having a natural conversation with an AI assistant over a simple phone call.",
+          "supports": [],
+          "author": "siim",
+          "shared_at": 1759248835,
+          "source_url": "https://news.ycombinator.com/item?id=45427372"
+        }
+      ],
+      "source_item_id": 45427372,
+      "source_url": "https://news.ycombinator.com/item?id=45427372",
+      "author": "siim",
+      "shared_at": 1759248835,
+      "links": [
+        "https://X11.Social"
+      ]
+    }
+  ]
+}

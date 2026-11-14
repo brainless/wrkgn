@@ -1,0 +1,33 @@
+{
+  "id": 8740,
+  "slug": "jinja-linter-for-saltstack-41e014c880",
+  "name": "Jinja linter for SaltStack",
+  "mentions": [
+    {
+      "name": "Jinja linter for SaltStack",
+      "description": "A Jinja linter for SaltStack with Language Server Protocol (LSP) integration, so template bugs are visible directly in VSCode instead of waiting for CI. New LSP features include editor actions like renaming a Jinja variable everywhere it is used.",
+      "problem": "Jinja template bugs in SaltStack are typically only caught when CI runs, rather than while editing in the editor.",
+      "audience": "Developers writing SaltStack Jinja templates in VSCode",
+      "builder_usernames": [
+        "prymitive"
+      ],
+      "source_excerpt": "Adding more LSP features to the jinja linter for saltstack that I wrote, so you can see all the bugs in your templates from VSCode (rather than waiting for CI) and do things like “rename this jinja variable everywhere it’s being used”.",
+      "evidence": [
+        {
+          "source_item_id": 46266072,
+          "source_field": "body",
+          "value": "Adding more LSP features to the jinja linter for saltstack that I wrote, so you can see all the bugs in your templates from VSCode (rather than waiting for CI) and do things like “rename this jinja variable everywhere it’s being used”.",
+          "supports": [],
+          "author": "prymitive",
+          "shared_at": 1765741197,
+          "source_url": "https://news.ycombinator.com/item?id=46266072"
+        }
+      ],
+      "source_item_id": 46266072,
+      "source_url": "https://news.ycombinator.com/item?id=46266072",
+      "author": "prymitive",
+      "shared_at": 1765741197,
+      "links": []
+    }
+  ]
+}

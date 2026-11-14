@@ -1,0 +1,63 @@
+{
+  "id": 1696,
+  "slug": "idlequest-766e550a36",
+  "name": "IdleQuest",
+  "mentions": [
+    {
+      "name": "IdleQuest",
+      "description": "A from-scratch browser recreation of the 1999 MMORPG classic EverQuest, with a real-time MMO server written in Go, a 3D browser-based client built with Babylon.js, and the classic UI recreated in React. Playable as a regular MMORPG or in an idle mode that essentially plays itself; it has hosted up to 70 concurrent players, though bugs, unimplemented features, and balance issues remain.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "brynnbee"
+      ],
+      "source_excerpt": "https://www.idlequest.net/ - a from-scratch recreation of the 1999 MMORPG classic EverQuest, featuring a real-time MMO server written in Go, a 3D game browser-based client built with Babylon.js, and the clasic UI recreated using React.",
+      "evidence": [
+        {
+          "source_item_id": 49237388,
+          "source_field": "body",
+          "value": "https://www.idlequest.net/ - a from-scratch recreation of the 1999 MMORPG classic EverQuest, featuring a real-time MMO server written in Go, a 3D game browser-based client built with Babylon.js, and the clasic UI recreated using React.",
+          "supports": [],
+          "author": "brynnbee",
+          "shared_at": 1786318455,
+          "source_url": "https://news.ycombinator.com/item?id=49237388"
+        }
+      ],
+      "source_item_id": 49237388,
+      "source_url": "https://news.ycombinator.com/item?id=49237388",
+      "author": "brynnbee",
+      "shared_at": 1786318455,
+      "links": [
+        "https://www.idlequest.net/"
+      ]
+    },
+    {
+      "name": "IdleQuest",
+      "description": "A browser-based idle/incremental game recreating the 1999 MMORPG EverQuest. It is relatively fully-featured compared to the original game, with new mechanics designed to make the idle format work, and has an active community of around 50 concurrent players plus a Discord group. The 3D graphics act more as a screensaver, with all game interactions handled through menus. Much of the game logic was recently moved client-side to reduce the cost of running a real-time MMORPG server, with new bugs still being resolved.",
+      "problem": "Running a real-time MMORPG server is expensive, which motivated converting much of the game to be client-side instead of server-side.",
+      "audience": null,
+      "builder_usernames": [
+        "brynnbee"
+      ],
+      "source_excerpt": "I made an idle version of the 1999 MMORPG \"EverQuest\". There's maybe around 50 people playing at any given time and has a enthusiastic discord group for it.",
+      "evidence": [
+        {
+          "source_item_id": 47304930,
+          "source_field": "body",
+          "value": "I made an idle version of the 1999 MMORPG \"EverQuest\". There's maybe around 50 people playing at any given time and has a enthusiastic discord group for it.",
+          "supports": [],
+          "author": "brynnbee",
+          "shared_at": 1773030989,
+          "source_url": "https://news.ycombinator.com/item?id=47304930"
+        }
+      ],
+      "source_item_id": 47304930,
+      "source_url": "https://news.ycombinator.com/item?id=47304930",
+      "author": "brynnbee",
+      "shared_at": 1773030989,
+      "links": [
+        "https://www.idlequest.net/"
+      ]
+    }
+  ]
+}

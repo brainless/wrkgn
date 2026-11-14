@@ -1,0 +1,35 @@
+{
+  "id": 4683,
+  "slug": "3d-helix-candlestick-visualizer-ffe2a69360",
+  "name": "3D Helix Candlestick Visualizer",
+  "mentions": [
+    {
+      "name": "3D Helix Candlestick Visualizer",
+      "description": "This experiment renders stock candlestick data (OHLC) in 3D as a helix, with trading volume encoded as logarithmically scaled candle thickness.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "division_by_0"
+      ],
+      "source_excerpt": "The helix simply renders candlestick data (OHLC) in 3D, with volume encoded in logaritmically scaled candle thickness. There's more info on the about page of the experiment: https://cybernetic.dev/helix/about",
+      "evidence": [
+        {
+          "source_item_id": 48087930,
+          "source_field": "body",
+          "value": "The helix simply renders candlestick data (OHLC) in 3D, with volume encoded in logaritmically scaled candle thickness. There's more info on the about page of the experiment: https://cybernetic.dev/helix/about",
+          "supports": [],
+          "author": "division_by_0",
+          "shared_at": 1778446674,
+          "source_url": "https://news.ycombinator.com/item?id=48087930"
+        }
+      ],
+      "source_item_id": 48087930,
+      "source_url": "https://news.ycombinator.com/item?id=48087930",
+      "author": "division_by_0",
+      "shared_at": 1778446674,
+      "links": [
+        "https://cybernetic.dev/helix/about"
+      ]
+    }
+  ]
+}

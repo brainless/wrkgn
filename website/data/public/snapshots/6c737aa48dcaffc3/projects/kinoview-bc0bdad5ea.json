@@ -1,0 +1,35 @@
+{
+  "id": 8473,
+  "slug": "kinoview-bc0bdad5ea",
+  "name": "kinoview",
+  "mentions": [
+    {
+      "name": "kinoview",
+      "description": "An agentic media player designed as a home media server for seasonal vacation videos with subtitles. It experiments with increasing levels of AI automation, moving from simple workflows toward fully agentic operation. Written in Go with minimal dependencies and an embedded vanilla-JS frontend built into the binary.",
+      "problem": null,
+      "audience": "Home users running a personal media server",
+      "builder_usernames": [
+        "baalimago"
+      ],
+      "source_excerpt": "An agentic media player, intended as home media server for.. uhh.. seasonal vacation videos with subtitles. I've experimented a lot with different \"levels\" of AI automation, starting from simple workflows, to more advanced ones, and now soon to fully agentic.\n\nPretty good practice project! All written in Go with minimal dependencies and an embedded vanillja-js frontend built into the binary (it's so small it's negligable)",
+      "evidence": [
+        {
+          "source_item_id": 46274086,
+          "source_field": "body",
+          "value": "An agentic media player, intended as home media server for.. uhh.. seasonal vacation videos with subtitles. I've experimented a lot with different \"levels\" of AI automation, starting from simple workflows, to more advanced ones, and now soon to fully agentic.\n\nPretty good practice project! All written in Go with minimal dependencies and an embedded vanillja-js frontend built into the binary (it's so small it's negligable)",
+          "supports": [],
+          "author": "baalimago",
+          "shared_at": 1765804529,
+          "source_url": "https://news.ycombinator.com/item?id=46274086"
+        }
+      ],
+      "source_item_id": 46274086,
+      "source_url": "https://news.ycombinator.com/item?id=46274086",
+      "author": "baalimago",
+      "shared_at": 1765804529,
+      "links": [
+        "https://github.com/baalimago/kinoview"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 10872,
+  "slug": "mpcbuttonjukebox-961f4666e1",
+  "name": "mpcButtonJukebox",
+  "mentions": [
+    {
+      "name": "mpcButtonJukebox",
+      "description": "A Raspberry Pi-powered jukebox program that recreates the traditional jukebox experience: a numpad is used to input song numbers, which are looked up from a list, sent to MPD for playback, with the album art embedded in the music file displayed. Built to work on Raspberry Pi 5 and the current Raspberry Pi OS.",
+      "problem": "Existing Raspberry Pi jukebox conversion projects mostly used a touch screen or didn't work well on Raspberry Pi 5 or the current Raspberry Pi OS, and none offered traditional button-based song number input.",
+      "audience": null,
+      "builder_usernames": [
+        "jccalhoun"
+      ],
+      "source_excerpt": "So despite not being a programmer, barely knowing a little javascript, and nothing about python, linux, or gtk, I was able to use AI to muddle my way through to creating a program that takes the input from a numpad, looks up the song from a list, sends it to mpd, and posts a picture from the album art embedded in the music file. https://github.com/jccalhoun/mpcButtonJukebox",
+      "evidence": [
+        {
+          "source_item_id": 43823189,
+          "source_field": "body",
+          "value": "So despite not being a programmer, barely knowing a little javascript, and nothing about python, linux, or gtk, I was able to use AI to muddle my way through to creating a program that takes the input from a numpad, looks up the song from a list, sends it to mpd, and posts a picture from the album art embedded in the music file. https://github.com/jccalhoun/mpcButtonJukebox",
+          "supports": [],
+          "author": "jccalhoun",
+          "shared_at": 1745857425,
+          "source_url": "https://news.ycombinator.com/item?id=43823189"
+        }
+      ],
+      "source_item_id": 43823189,
+      "source_url": "https://news.ycombinator.com/item?id=43823189",
+      "author": "jccalhoun",
+      "shared_at": 1745857425,
+      "links": [
+        "https://github.com/jccalhoun/mpcButtonJukebox"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 4746,
+  "slug": "pilab-esp32-p4-plc-0f58b6a1fd",
+  "name": "pilab-esp32-p4-plc",
+  "mentions": [
+    {
+      "name": "pilab-esp32-p4-plc",
+      "description": "A software-defined automation project (PLC) built on ESP32-P4 hardware. Users open a webpage, write code, and it is uploaded and runs instantly on the device. The project is MIT licensed and available in a public git repository.",
+      "problem": "The author wanted a frictionless way to write code in a webpage and have it uploaded and run instantly on hardware.",
+      "audience": null,
+      "builder_usernames": [
+        "theoutfield"
+      ],
+      "source_excerpt": "I started a new software defined automation project.  I wanted something that I could just open a webpage and start writing code that could just be uploaded and ran instantly.  I picked an ESP32-P4 for the first hardware.  It’s MIT licensed and has a git repo that I put up this morning https://github.com/OpenPiLab/pilab-esp32-p4-plc",
+      "evidence": [
+        {
+          "source_item_id": 48087363,
+          "source_field": "body",
+          "value": "I started a new software defined automation project.  I wanted something that I could just open a webpage and start writing code that could just be uploaded and ran instantly.  I picked an ESP32-P4 for the first hardware.  It’s MIT licensed and has a git repo that I put up this morning https://github.com/OpenPiLab/pilab-esp32-p4-plc",
+          "supports": [],
+          "author": "theoutfield",
+          "shared_at": 1778443529,
+          "source_url": "https://news.ycombinator.com/item?id=48087363"
+        }
+      ],
+      "source_item_id": 48087363,
+      "source_url": "https://news.ycombinator.com/item?id=48087363",
+      "author": "theoutfield",
+      "shared_at": 1778443529,
+      "links": [
+        "https://github.com/OpenPiLab/pilab-esp32-p4-plc"
+      ]
+    }
+  ]
+}

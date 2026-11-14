@@ -1,0 +1,33 @@
+{
+  "id": 11172,
+  "slug": "genetic-algorithm-voice-evolution-for-kokoro-tts-d0f2c76342",
+  "name": "Genetic algorithm voice evolution for Kokoro TTS",
+  "mentions": [
+    {
+      "name": "Genetic algorithm voice evolution for Kokoro TTS",
+      "description": "This Python project uses genetic algorithms to evolve StyleTTS2 voice tensors for Kokoro text-to-speech, incorporating Resemblyzer embeddings into the fitness calculation. It experiments with voice evolution, including observed overfitting where later-generation voices score high on fitness but sound horrendous.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "robviren"
+      ],
+      "source_excerpt": "Trying to use genetic algorithms to evolve voice styletts2 tensors for kokoro. Using Resemblyzer as part of fitness calculations. Results have been interesting with over fitting occuring where the voice sounds horrendous but scores high (usually later generations).",
+      "evidence": [
+        {
+          "source_item_id": 43820014,
+          "source_field": "body",
+          "value": "Trying to use genetic algorithms to evolve voice styletts2 tensors for kokoro. Using Resemblyzer as part of fitness calculations. Results have been interesting with over fitting occuring where the voice sounds horrendous but scores high (usually later generations).",
+          "supports": [],
+          "author": "robviren",
+          "shared_at": 1745839428,
+          "source_url": "https://news.ycombinator.com/item?id=43820014"
+        }
+      ],
+      "source_item_id": 43820014,
+      "source_url": "https://news.ycombinator.com/item?id=43820014",
+      "author": "robviren",
+      "shared_at": 1745839428,
+      "links": []
+    }
+  ]
+}

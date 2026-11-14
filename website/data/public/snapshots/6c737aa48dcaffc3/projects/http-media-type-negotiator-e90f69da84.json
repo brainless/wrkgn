@@ -1,0 +1,35 @@
+{
+  "id": 6872,
+  "slug": "http-media-type-negotiator-e90f69da84",
+  "name": "HTTP media type negotiator",
+  "mentions": [
+    {
+      "name": "HTTP media type negotiator",
+      "description": "An HTTP media type negotiator that negotiates content based on Accept headers.",
+      "problem": "No existing negotiator was found that correctly parsed headers.",
+      "audience": null,
+      "builder_usernames": [
+        "emurlin"
+      ],
+      "source_excerpt": "An HTTP media type negotiator (https://github.com/ApelegHQ/ts-http-media-type-negotiator) -- negotiate based on accept headers. This was because I couldn't find a negotiator that correctly parsed headers.",
+      "evidence": [
+        {
+          "source_item_id": 46953537,
+          "source_field": "body",
+          "value": "An HTTP media type negotiator (https://github.com/ApelegHQ/ts-http-media-type-negotiator) -- negotiate based on accept headers. This was because I couldn't find a negotiator that correctly parsed headers.",
+          "supports": [],
+          "author": "emurlin",
+          "shared_at": 1770682367,
+          "source_url": "https://news.ycombinator.com/item?id=46953537"
+        }
+      ],
+      "source_item_id": 46953537,
+      "source_url": "https://news.ycombinator.com/item?id=46953537",
+      "author": "emurlin",
+      "shared_at": 1770682367,
+      "links": [
+        "https://github.com/ApelegHQ/ts-http-media-type-negotiator"
+      ]
+    }
+  ]
+}

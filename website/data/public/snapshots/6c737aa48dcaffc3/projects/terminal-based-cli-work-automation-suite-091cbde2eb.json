@@ -1,0 +1,33 @@
+{
+  "id": 6195,
+  "slug": "terminal-based-cli-work-automation-suite-091cbde2eb",
+  "name": "Terminal-based CLI work automation suite",
+  "mentions": [
+    {
+      "name": "Terminal-based CLI work automation suite",
+      "description": "A suite of CLI tools for running the user's job from the terminal: a contacts database built on recutils with a Go CLI wrapper, Vikunja for todos accessed through a CLI wrapper, all knowledge stored in a Johnny Decimal folder structure with markdown summaries, and an automated Typst document creation pipeline CLI for generating reports and posters; the workflow is driven via the terminal with agents.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "loufe"
+      ],
+      "source_excerpt": "I built a suite of cli tools my last rotation at work for this exact reason. Made a contacts database using recutils with a go cli wrapper, used vikunja for Todo (with a cli wrapper from someone else), have all knowledge stored in a Johnny decimal folder structure with markdown summaries, and an automated typst document creation pipeline cli to blast out reports and posters and stuff",
+      "evidence": [
+        {
+          "source_item_id": 47313398,
+          "source_field": "body",
+          "value": "I built a suite of cli tools my last rotation at work for this exact reason. Made a contacts database using recutils with a go cli wrapper, used vikunja for Todo (with a cli wrapper from someone else), have all knowledge stored in a Johnny decimal folder structure with markdown summaries, and an automated typst document creation pipeline cli to blast out reports and posters and stuff",
+          "supports": [],
+          "author": "loufe",
+          "shared_at": 1773081491,
+          "source_url": "https://news.ycombinator.com/item?id=47313398"
+        }
+      ],
+      "source_item_id": 47313398,
+      "source_url": "https://news.ycombinator.com/item?id=47313398",
+      "author": "loufe",
+      "shared_at": 1773081491,
+      "links": []
+    }
+  ]
+}

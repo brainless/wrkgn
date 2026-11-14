@@ -1,0 +1,35 @@
+{
+  "id": 8180,
+  "slug": "shifu-8e4666ade7",
+  "name": "Shifu",
+  "mentions": [
+    {
+      "name": "Shifu",
+      "description": "A free and open-source, code-based CMS with an admin UI, written in Go and easy to set up. It serves as a framework for building websites with specialized features and removes the plugin-maintenance burden of WordPress-style CMSs, where plugins break on every update. A few websites have already been sold built on it.",
+      "problem": "Managing a WordPress installation or similar CMS with tons of plugins is a maintenance headache, with plugins breaking on every update.",
+      "audience": null,
+      "builder_usernames": [
+        "marvinblum"
+      ],
+      "source_excerpt": "Shifu (https://github.com/emvi/shifu) - a code-based CMS with admin UI. It's really easy to set up, written in Go, free and open-source, and I already sold a few websites using it. It can be used as kind of a framework to build more specialized features into a website and takes away the maintenance hell from managing a WordPress installation or a similiar CMS with tons of plugins that break with every update.",
+      "evidence": [
+        {
+          "source_item_id": 46272372,
+          "source_field": "body",
+          "value": "Shifu (https://github.com/emvi/shifu) - a code-based CMS with admin UI. It's really easy to set up, written in Go, free and open-source, and I already sold a few websites using it. It can be used as kind of a framework to build more specialized features into a website and takes away the maintenance hell from managing a WordPress installation or a similiar CMS with tons of plugins that break with every update.",
+          "supports": [],
+          "author": "marvinblum",
+          "shared_at": 1765792347,
+          "source_url": "https://news.ycombinator.com/item?id=46272372"
+        }
+      ],
+      "source_item_id": 46272372,
+      "source_url": "https://news.ycombinator.com/item?id=46272372",
+      "author": "marvinblum",
+      "shared_at": 1765792347,
+      "links": [
+        "https://github.com/emvi/shifu"
+      ]
+    }
+  ]
+}

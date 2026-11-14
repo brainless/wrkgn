@@ -1,0 +1,35 @@
+{
+  "id": 7687,
+  "slug": "nimble-775cb4b7b9",
+  "name": "Nimble",
+  "mentions": [
+    {
+      "name": "Nimble",
+      "description": "A proxy MCP server that lazy loads tools to save tokens, with a dashboard for connecting and configuring MCP servers.",
+      "problem": "Loading MCP tools consumes excessive tokens; lazy loading reduces token usage.",
+      "audience": null,
+      "builder_usernames": [
+        "quan"
+      ],
+      "source_excerpt": "I’m working on a proxy MCP server that lazy loads tools to save tokens https://github.com/mquan/nimble. It includes a dashboard for connecting and configuring MCP servers.",
+      "evidence": [
+        {
+          "source_item_id": 46579532,
+          "source_field": "body",
+          "value": "I’m working on a proxy MCP server that lazy loads tools to save tokens https://github.com/mquan/nimble. It includes a dashboard for connecting and configuring MCP servers.",
+          "supports": [],
+          "author": "quan",
+          "shared_at": 1768162524,
+          "source_url": "https://news.ycombinator.com/item?id=46579532"
+        }
+      ],
+      "source_item_id": 46579532,
+      "source_url": "https://news.ycombinator.com/item?id=46579532",
+      "author": "quan",
+      "shared_at": 1768162524,
+      "links": [
+        "https://github.com/mquan/nimble"
+      ]
+    }
+  ]
+}

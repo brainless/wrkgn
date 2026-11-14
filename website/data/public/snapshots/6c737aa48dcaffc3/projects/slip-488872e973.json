@@ -1,0 +1,35 @@
+{
+  "id": 7619,
+  "slug": "slip-488872e973",
+  "name": "slip",
+  "mentions": [
+    {
+      "name": "slip",
+      "description": "A Common LISP implementation written in Go that enables LISP code to utilize Go packages. It includes a REPL with lots of interactive features and implements the CLOS and Flavors object systems along with generics. It was open sourced at the start of January.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "peterohler"
+      ],
+      "source_excerpt": "I've been building a Common LISP implementation in Go so that Go packages can be utilized by LISP code. Building a REPL with lots of interactive features was rewarding as was taking up the challenges of the object systems (CLOS and Flavors) and generics. Just open sourced it at the start of January. https://github.com/ohler55/slip",
+      "evidence": [
+        {
+          "source_item_id": 46581517,
+          "source_field": "body",
+          "value": "I've been building a Common LISP implementation in Go so that Go packages can be utilized by LISP code. Building a REPL with lots of interactive features was rewarding as was taking up the challenges of the object systems (CLOS and Flavors) and generics. Just open sourced it at the start of January. https://github.com/ohler55/slip",
+          "supports": [],
+          "author": "peterohler",
+          "shared_at": 1768173294,
+          "source_url": "https://news.ycombinator.com/item?id=46581517"
+        }
+      ],
+      "source_item_id": 46581517,
+      "source_url": "https://news.ycombinator.com/item?id=46581517",
+      "author": "peterohler",
+      "shared_at": 1768173294,
+      "links": [
+        "https://github.com/ohler55/slip"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 10565,
+  "slug": "beontimer-198974160f",
+  "name": "BeOnTimer",
+  "mentions": [
+    {
+      "name": "BeOnTimer",
+      "description": "A free timing app for running and cycling races. It began as an experiment using printed QR codes to detect people crossing a lap/finish line, but QR codes proved hard to scan from far away and while moving. The app is still in alpha stage, and what currently works is a simple manual timing mode for use at races.",
+      "problem": "Automatic QR-code-based finish-line detection proved unreliable: QR codes were not easy to scan from far away and while moving.",
+      "audience": "People organizing and timing their own running or cycling races",
+      "builder_usernames": [
+        "Appesteijn"
+      ],
+      "source_excerpt": "I'm currently working on https://beontimer.com a free timing app for running and cycling races.",
+      "evidence": [
+        {
+          "source_item_id": 44704427,
+          "source_field": "body",
+          "value": "I'm currently working on https://beontimer.com a free timing app for running and cycling races.",
+          "supports": [],
+          "author": "Appesteijn",
+          "shared_at": 1753648262,
+          "source_url": "https://news.ycombinator.com/item?id=44704427"
+        }
+      ],
+      "source_item_id": 44704427,
+      "source_url": "https://news.ycombinator.com/item?id=44704427",
+      "author": "Appesteijn",
+      "shared_at": 1753648262,
+      "links": [
+        "https://beontimer.com"
+      ]
+    },
+    {
+      "name": "BeOnTimer",
+      "description": "This website provides timing for running and cycling races. It offers a manual mode where an organizer presses a button when a contestant crosses the finish line, and is adding printable QR codes that contestants wear so their time is automatically registered when the code crosses the line. Everything runs in the browser, so no apps need to be installed.",
+      "problem": null,
+      "audience": "Running and cycling race organizers",
+      "builder_usernames": [
+        "Appesteijn"
+      ],
+      "source_excerpt": "Currently working on a simple timing website for running and cycling race organizers. A manual 'just press a button when someone crosses the finish line' is already there, but now I'm experimenting with a printable QRcode that contestants have to wear. Once the QR code crosses the line, the time is registered. All within the browser, so no apps need to be installed.",
+      "evidence": [
+        {
+          "source_item_id": 43830217,
+          "source_field": "body",
+          "value": "Currently working on a simple timing website for running and cycling race organizers. A manual 'just press a button when someone crosses the finish line' is already there, but now I'm experimenting with a printable QRcode that contestants have to wear. Once the QR code crosses the line, the time is registered. All within the browser, so no apps need to be installed.",
+          "supports": [],
+          "author": "Appesteijn",
+          "shared_at": 1745917692,
+          "source_url": "https://news.ycombinator.com/item?id=43830217"
+        }
+      ],
+      "source_item_id": 43830217,
+      "source_url": "https://news.ycombinator.com/item?id=43830217",
+      "author": "Appesteijn",
+      "shared_at": 1745917692,
+      "links": [
+        "https://beontimer.com"
+      ]
+    }
+  ]
+}

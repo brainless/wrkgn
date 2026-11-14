@@ -1,0 +1,33 @@
+{
+  "id": 7320,
+  "slug": "3d-printed-rc-boat-47cb238e4f",
+  "name": "3D printed RC boat",
+  "mentions": [
+    {
+      "name": "3D printed RC boat",
+      "description": "A small 3D printed remote-controlled boat. Displacement is calculated with a slicer to ensure the hull floats, with OpenSCAD boolean operations used to work through the complex geometry.",
+      "problem": "The hull geometry is getting complex, making it hard to calculate displacement and get OpenSCAD to boolean the volumes correctly to verify the boat floats.",
+      "audience": null,
+      "builder_usernames": [
+        "dvh"
+      ],
+      "source_excerpt": "I'm designing small 3D printed rc boat and I want to make sure it floats so I'm using slicer to calculate displacement but the geometry is getting bit complex, so now I'm fighting openscad to make it boolean my volumes correctly.",
+      "evidence": [
+        {
+          "source_item_id": 46943922,
+          "source_field": "body",
+          "value": "I'm designing small 3D printed rc boat and I want to make sure it floats so I'm using slicer to calculate displacement but the geometry is getting bit complex, so now I'm fighting openscad to make it boolean my volumes correctly.",
+          "supports": [],
+          "author": "dvh",
+          "shared_at": 1770635023,
+          "source_url": "https://news.ycombinator.com/item?id=46943922"
+        }
+      ],
+      "source_item_id": 46943922,
+      "source_url": "https://news.ycombinator.com/item?id=46943922",
+      "author": "dvh",
+      "shared_at": 1770635023,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 7682,
+  "slug": "natural-language-time-series-querying-with-claude-opus-4-5-638b947b1a",
+  "name": "Natural-language time-series querying with Claude Opus 4.5",
+  "mentions": [
+    {
+      "name": "Natural-language time-series querying with Claude Opus 4.5",
+      "description": "This project uses Claude Opus 4.5 to query gigabytes of time-series data stored in TimescaleDB via natural language: questions about relationships in the data are turned into generated queries that test for statistically significant changes at specific intervals and find patterns. For example, after classifying tens of thousands of news articles with different classification models, Claude writes queries that detect significant changes in the time series following a given article classification. The patterns pass train/test split validation, training on 2023–2024 data and effectively predicting movements in the 2025 data from the classified news articles.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dataviz1000"
+      ],
+      "source_excerpt": "Using Claude Opus 4.5 to query time-series data.\n\nI have GBs of time-series data in a TimescaleDB database. It’s more complicated than this, but the gist is: I use natural language to ask questions about relationships in the data, Claude Opus 4.5 generates queries, and it finds patterns.",
+      "evidence": [
+        {
+          "source_item_id": 46578326,
+          "source_field": "body",
+          "value": "Using Claude Opus 4.5 to query time-series data.\n\nI have GBs of time-series data in a TimescaleDB database. It’s more complicated than this, but the gist is: I use natural language to ask questions about relationships in the data, Claude Opus 4.5 generates queries, and it finds patterns.",
+          "supports": [],
+          "author": "dataviz1000",
+          "shared_at": 1768156580,
+          "source_url": "https://news.ycombinator.com/item?id=46578326"
+        }
+      ],
+      "source_item_id": 46578326,
+      "source_url": "https://news.ycombinator.com/item?id=46578326",
+      "author": "dataviz1000",
+      "shared_at": 1768156580,
+      "links": []
+    }
+  ]
+}

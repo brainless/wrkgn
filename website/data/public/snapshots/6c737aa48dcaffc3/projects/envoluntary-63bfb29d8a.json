@@ -1,0 +1,35 @@
+{
+  "id": 9380,
+  "slug": "envoluntary-63bfb29d8a",
+  "name": "envoluntary",
+  "mentions": [
+    {
+      "name": "envoluntary",
+      "description": "A direnv-like utility that hooks into the shell to let developers use Nix flakes for dev environments and dev shells in any project, bridging declarative package installation via NixOS / home-manager with per-project flake.nix / nix-direnv definitions.",
+      "problem": "Most projects don't use Nix, creating a gap between installing packages declaratively via NixOS / home-manager and defining them per project via flake.nix / direnv / nix-direnv.",
+      "audience": null,
+      "builder_usernames": [
+        "dukedylan"
+      ],
+      "source_excerpt": "I made a direnv-like utility which hooks into your shell to allow using Nix flakes for dev envs / dev shells anywhere:\n\nhttps://github.com/dfrankland/envoluntary",
+      "evidence": [
+        {
+          "source_item_id": 45870972,
+          "source_field": "body",
+          "value": "I made a direnv-like utility which hooks into your shell to allow using Nix flakes for dev envs / dev shells anywhere:\n\nhttps://github.com/dfrankland/envoluntary",
+          "supports": [],
+          "author": "dukedylan",
+          "shared_at": 1762736355,
+          "source_url": "https://news.ycombinator.com/item?id=45870972"
+        }
+      ],
+      "source_item_id": 45870972,
+      "source_url": "https://news.ycombinator.com/item?id=45870972",
+      "author": "dukedylan",
+      "shared_at": 1762736355,
+      "links": [
+        "https://github.com/dfrankland/envoluntary"
+      ]
+    }
+  ]
+}

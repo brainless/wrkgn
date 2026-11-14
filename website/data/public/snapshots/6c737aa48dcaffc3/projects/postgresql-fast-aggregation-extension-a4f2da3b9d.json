@@ -1,0 +1,33 @@
+{
+  "id": 8705,
+  "slug": "postgresql-fast-aggregation-extension-a4f2da3b9d",
+  "name": "PostgreSQL fast-aggregation extension",
+  "mentions": [
+    {
+      "name": "PostgreSQL fast-aggregation extension",
+      "description": "A PostgreSQL extension that provides big speedups on COUNT, SUM, DISTINCT, and GROUP BY queries for the most common data types, letting users get faster analytics without migrating away from PostgreSQL or delaying pg upgrades.",
+      "problem": "Slow analytics queries (COUNT/SUM/DISTINCT, GROUP BY) on PostgreSQL, where alternatives force migration away from PostgreSQL or delayed pg upgrades.",
+      "audience": "People who have pain around slow analytics on PostgreSQL and want to avoid migrating away from PostgreSQL or delaying pg upgrades",
+      "builder_usernames": [
+        "asah"
+      ],
+      "source_excerpt": "PostgreSQL extension providing big speedups on COUNT/SUM/DISTINCT and GROUP BY for the most common data types.",
+      "evidence": [
+        {
+          "source_item_id": 46270533,
+          "source_field": "body",
+          "value": "PostgreSQL extension providing big speedups on COUNT/SUM/DISTINCT and GROUP BY for the most common data types.",
+          "supports": [],
+          "author": "asah",
+          "shared_at": 1765773278,
+          "source_url": "https://news.ycombinator.com/item?id=46270533"
+        }
+      ],
+      "source_item_id": 46270533,
+      "source_url": "https://news.ycombinator.com/item?id=46270533",
+      "author": "asah",
+      "shared_at": 1765773278,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 3958,
+  "slug": "railcode-db1894dd33",
+  "name": "Railcode",
+  "mentions": [
+    {
+      "name": "Railcode",
+      "description": "A platform that offers a simple deploy path for internal tools on a company's own infrastructure. Build apps with any AI coding agent (Claude Code, Codex, etc.) and get them live in company infra without provisioning anything or looping in DevOps. Apps go behind company auth (e.g. SSO), with custom domains, governed storage APIs, observability, analytics, and role-based access control handled automatically. Currently in private alpha.",
+      "problem": "Deploying internal tools to company infrastructure usually requires manual provisioning and involving a DevOps person.",
+      "audience": "developers",
+      "builder_usernames": [
+        "yakkomajuri"
+      ],
+      "source_excerpt": "A platform that offers a simple deploy path for internal tools in your own infra.\n\nBasically, build anything using your agent of choice (Claude Code, Codex, etc) and get it live in your company's infra without having to provision anything yourself / loop in a DevOps person.",
+      "evidence": [
+        {
+          "source_item_id": 48535553,
+          "source_field": "body",
+          "value": "A platform that offers a simple deploy path for internal tools in your own infra.\n\nBasically, build anything using your agent of choice (Claude Code, Codex, etc) and get it live in your company's infra without having to provision anything yourself / loop in a DevOps person.",
+          "supports": [],
+          "author": "yakkomajuri",
+          "shared_at": 1781487990,
+          "source_url": "https://news.ycombinator.com/item?id=48535553"
+        }
+      ],
+      "source_item_id": 48535553,
+      "source_url": "https://news.ycombinator.com/item?id=48535553",
+      "author": "yakkomajuri",
+      "shared_at": 1781487990,
+      "links": [
+        "https://railcode.dev/"
+      ]
+    }
+  ]
+}

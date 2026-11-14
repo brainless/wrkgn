@@ -1,0 +1,121 @@
+{
+  "id": 5092,
+  "slug": "connet-74e54bf23c",
+  "name": "connet",
+  "mentions": [
+    {
+      "name": "connet",
+      "description": "A tunneling tool that connects machines by building upon QUIC rather than WireGuard, providing an end-user experience similar to WireGuard-based relay tools.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Ingon"
+      ],
+      "source_excerpt": "I've been working on a similar tool for a while - connet (https://github.com/connet-dev/connet). It builds upon QUIC (instead of wireguard), but I think from an enduser perspective the results ends up looking pretty similar.",
+      "evidence": [
+        {
+          "source_item_id": 47750380,
+          "source_field": "body",
+          "value": "I've been working on a similar tool for a while - connet (https://github.com/connet-dev/connet). It builds upon QUIC (instead of wireguard), but I think from an enduser perspective the results ends up looking pretty similar.",
+          "supports": [],
+          "author": "Ingon",
+          "shared_at": 1776078642,
+          "source_url": "https://news.ycombinator.com/item?id=47750380"
+        }
+      ],
+      "source_item_id": 47750380,
+      "source_url": "https://news.ycombinator.com/item?id=47750380",
+      "author": "Ingon",
+      "shared_at": 1776078642,
+      "links": [
+        "https://github.com/connet-dev/connet"
+      ]
+    },
+    {
+      "name": "connet",
+      "description": "This project, connet, is a remote private access tool for securely connecting to private services. v0.12.0 includes package cleanup and important bugfixes, with plans to make the relay infrastructure lighter and require less synchronization. The hosted version is a repackage of the open source version with dynamic tokens, used to expose NAS and Syncthing web UIs for remote management, including via phone with Termux.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Ingon"
+      ],
+      "source_excerpt": "Continue to work on my project for remote private access: https://github.com/connet-dev/connet\n\nJust released v0.12.0 which has a lot of package cleanup and some important bugfixes. Next, is making the relay infrastructure much more lighter, requiring less synchronization.",
+      "evidence": [
+        {
+          "source_item_id": 46579137,
+          "source_field": "body",
+          "value": "Continue to work on my project for remote private access: https://github.com/connet-dev/connet\n\nJust released v0.12.0 which has a lot of package cleanup and some important bugfixes. Next, is making the relay infrastructure much more lighter, requiring less synchronization.",
+          "supports": [],
+          "author": "Ingon",
+          "shared_at": 1768160517,
+          "source_url": "https://news.ycombinator.com/item?id=46579137"
+        }
+      ],
+      "source_item_id": 46579137,
+      "source_url": "https://news.ycombinator.com/item?id=46579137",
+      "author": "Ingon",
+      "shared_at": 1768160517,
+      "links": [
+        "https://connet.dev",
+        "https://github.com/connet-dev/connet"
+      ]
+    },
+    {
+      "name": "connet",
+      "description": "connet is a peer-to-peer networking tool that connects devices via relays. Version 0.10 revamps the API so connet can be embedded and used as part of an application rather than only through the CLI, while fixing several issues. Planned work includes relays that operate independently with peers reserving directly with them (possibly forming relay clusters later), stable peer identities so peers can decide whom to allow communication with, and raw endpoints to enable users to implement other protocols.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Ingon"
+      ],
+      "source_excerpt": "https://github.com/connet-dev/connet\n\nJust finished a major (v0.10) revamp of the API (you can use connet as part of an application, not through the CLI) which also fixed a few issues I've been seeing before.",
+      "evidence": [
+        {
+          "source_item_id": 46266802,
+          "source_field": "body",
+          "value": "https://github.com/connet-dev/connet\n\nJust finished a major (v0.10) revamp of the API (you can use connet as part of an application, not through the CLI) which also fixed a few issues I've been seeing before.",
+          "supports": [],
+          "author": "Ingon",
+          "shared_at": 1765745795,
+          "source_url": "https://news.ycombinator.com/item?id=46266802"
+        }
+      ],
+      "source_item_id": 46266802,
+      "source_url": "https://news.ycombinator.com/item?id=46266802",
+      "author": "Ingon",
+      "shared_at": 1765745795,
+      "links": [
+        "https://github.com/connet-dev/connet"
+      ]
+    },
+    {
+      "name": "Connet",
+      "description": "A peer-to-peer reverse proxy with NAT traversal, available as open-source software and as a hosted service. Current work adds support for defining multiple points of ingress, with PCP port forwarding support planned next.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Ingon"
+      ],
+      "source_excerpt": "Still working on Connet[1] and the associated Connet.dev[2], which is a p2p reverse proxy with NAT traversal (and hosted version of it). Currently, adding support for defining multiple points of ingress, next will be adding support for PCP port forwarding.",
+      "evidence": [
+        {
+          "source_item_id": 43822904,
+          "source_field": "body",
+          "value": "Still working on Connet[1] and the associated Connet.dev[2], which is a p2p reverse proxy with NAT traversal (and hosted version of it). Currently, adding support for defining multiple points of ingress, next will be adding support for PCP port forwarding.",
+          "supports": [],
+          "author": "Ingon",
+          "shared_at": 1745855820,
+          "source_url": "https://news.ycombinator.com/item?id=43822904"
+        }
+      ],
+      "source_item_id": 43822904,
+      "source_url": "https://news.ycombinator.com/item?id=43822904",
+      "author": "Ingon",
+      "shared_at": 1745855820,
+      "links": [
+        "https://connet.dev",
+        "https://github.com/connet-dev/connet"
+      ]
+    }
+  ]
+}

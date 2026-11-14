@@ -1,0 +1,33 @@
+{
+  "id": 6609,
+  "slug": "tripa-1b2d3ef0cc",
+  "name": "TRIPA",
+  "mentions": [
+    {
+      "name": "TRIPA",
+      "description": "TRIPA is an internal pack file format that bundles huge numbers of small images into packs for storage in cloud storage, avoiding the heavy write costs of saving each small image as an individual object.",
+      "problem": "Saving huge amounts of small images to cloud storage as individual objects incurs prohibitive write costs.",
+      "audience": null,
+      "builder_usernames": [
+        "motoboi"
+      ],
+      "source_excerpt": "Working on TRIPA, a internal pack format to save huge amount of small images to cloud storage without dying from the write costs.",
+      "evidence": [
+        {
+          "source_item_id": 47308644,
+          "source_field": "body",
+          "value": "Working on TRIPA, a internal pack format to save huge amount of small images to cloud storage without dying from the write costs.",
+          "supports": [],
+          "author": "motoboi",
+          "shared_at": 1773062108,
+          "source_url": "https://news.ycombinator.com/item?id=47308644"
+        }
+      ],
+      "source_item_id": 47308644,
+      "source_url": "https://news.ycombinator.com/item?id=47308644",
+      "author": "motoboi",
+      "shared_at": 1773062108,
+      "links": []
+    }
+  ]
+}

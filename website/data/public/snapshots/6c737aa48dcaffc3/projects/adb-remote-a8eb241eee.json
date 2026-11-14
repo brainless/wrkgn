@@ -1,0 +1,35 @@
+{
+  "id": 8018,
+  "slug": "adb-remote-a8eb241eee",
+  "name": "ADB Remote",
+  "mentions": [
+    {
+      "name": "ADB Remote",
+      "description": "ADB Remote wraps common ADB and Gradle operations into a single interface so Android development tasks can be done without launching Android Studio. It includes a file explorer to open project files in an editor, Git operations to checkout and run any branch/tag directly on a device, Gradle task execution (assembleDebug, installDebug, custom tasks) with streaming output, a live Logcat viewer with filtering by level/tag/search, a foreground activity tracker, ADB device tools (clear data, uninstall, manage permissions, input text, screenshots), screenshot-comparison visual testing to catch UI regressions, and terminal integration with iTerm2, Terminal, Warp, and others.",
+      "problem": "Doing quick Android development tasks requires committing to launching the heavyweight Android Studio; this tool lets developers handle common ADB and Gradle operations in a lighter single interface.",
+      "audience": "Android developers, especially those who avoid Android Studio for quick device tasks",
+      "builder_usernames": [
+        "0dayman"
+      ],
+      "source_excerpt": "I'm building ADB Remote from the sole desire to be able to do Android development without having to commit to launching Android Studio.\nADB Remote wraps common ADB and Gradle operations into a single interface.",
+      "evidence": [
+        {
+          "source_item_id": 46588206,
+          "source_field": "body",
+          "value": "I'm building ADB Remote from the sole desire to be able to do Android development without having to commit to launching Android Studio.\nADB Remote wraps common ADB and Gradle operations into a single interface.",
+          "supports": [],
+          "author": "0dayman",
+          "shared_at": 1768224588,
+          "source_url": "https://news.ycombinator.com/item?id=46588206"
+        }
+      ],
+      "source_item_id": 46588206,
+      "source_url": "https://news.ycombinator.com/item?id=46588206",
+      "author": "0dayman",
+      "shared_at": 1768224588,
+      "links": [
+        "https://saltserv.gumroad.com/l/adbremote"
+      ]
+    }
+  ]
+}

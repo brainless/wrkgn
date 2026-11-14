@@ -1,0 +1,35 @@
+{
+  "id": 8906,
+  "slug": "llm-content-moderation-for-code-mixed-content-4e3722a992",
+  "name": "LLM content moderation for code-mixed content",
+  "mentions": [
+    {
+      "name": "LLM content moderation for code-mixed content",
+      "description": "This project tests LLM-based content moderation on code-mixed content that is not typical pure English. The work centers on gathering data and tuning moderation policy, with moderation run using COPE from Zentropi.",
+      "problem": "The moderated content is code-mixed rather than typical pure English content.",
+      "audience": null,
+      "builder_usernames": [
+        "intended"
+      ],
+      "source_excerpt": "Testing out LLM based content moderation tools, but on code mixed content. Content is not typical pure english content. Mostly its been a journey in getting data and then fiddling with policy.\n\nI'm using COPE from Zentropi to run my moderation https://zentropi.ai/",
+      "evidence": [
+        {
+          "source_item_id": 46271371,
+          "source_field": "body",
+          "value": "Testing out LLM based content moderation tools, but on code mixed content. Content is not typical pure english content. Mostly its been a journey in getting data and then fiddling with policy.\n\nI'm using COPE from Zentropi to run my moderation https://zentropi.ai/",
+          "supports": [],
+          "author": "intended",
+          "shared_at": 1765783314,
+          "source_url": "https://news.ycombinator.com/item?id=46271371"
+        }
+      ],
+      "source_item_id": 46271371,
+      "source_url": "https://news.ycombinator.com/item?id=46271371",
+      "author": "intended",
+      "shared_at": 1765783314,
+      "links": [
+        "https://zentropi.ai/"
+      ]
+    }
+  ]
+}

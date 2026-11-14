@@ -1,0 +1,33 @@
+{
+  "id": 5065,
+  "slug": "home-assistant-voice-smart-home-migration-5f023e8903",
+  "name": "Home Assistant Voice smart home migration",
+  "mentions": [
+    {
+      "name": "Home Assistant Voice smart home migration",
+      "description": "This project replaces Alexa with Home Assistant Voice Preview Edition units, tunes their underperforming voice response, and migrates the home's lights and switches to Zigbee with a new hub, at roughly $300 total.",
+      "problem": "Alexa had degraded into a central advertising point with weird LLM-y-ness, and the Home Assistant Voice units initially perform worse and need tuning.",
+      "audience": null,
+      "builder_usernames": [
+        "vegadw"
+      ],
+      "source_excerpt": "I got tired of Alexa's slow degradation into a central advertising point and weird LLM-y-ness, so just got some Home Assistant Voice Preview Editions to replace it. Performance is so far worse, so I'll be doing some tuning on that. It also means, unfortunately, replacing a lot of my lights/switches and moving to Zigbee.",
+      "evidence": [
+        {
+          "source_item_id": 48096475,
+          "source_field": "body",
+          "value": "I got tired of Alexa's slow degradation into a central advertising point and weird LLM-y-ness, so just got some Home Assistant Voice Preview Editions to replace it. Performance is so far worse, so I'll be doing some tuning on that. It also means, unfortunately, replacing a lot of my lights/switches and moving to Zigbee.",
+          "supports": [],
+          "author": "vegadw",
+          "shared_at": 1778513992,
+          "source_url": "https://news.ycombinator.com/item?id=48096475"
+        }
+      ],
+      "source_item_id": 48096475,
+      "source_url": "https://news.ycombinator.com/item?id=48096475",
+      "author": "vegadw",
+      "shared_at": 1778513992,
+      "links": []
+    }
+  ]
+}

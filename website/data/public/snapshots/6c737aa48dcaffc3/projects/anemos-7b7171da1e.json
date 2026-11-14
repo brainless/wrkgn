@@ -1,0 +1,35 @@
+{
+  "id": 10507,
+  "slug": "anemos-7b7171da1e",
+  "name": "anemos",
+  "mentions": [
+    {
+      "name": "anemos",
+      "description": "A Kubernetes package manager written in Go that exposes a JavaScript interface (like k6) for generating manifests using both template-based and object-oriented approaches. Similar to cdk8s but more flexible, it requires no dev environment and supports sharing packages. It can already generate manifests for GitOps workflows, and is gaining apply, list, and delete mechanisms using kubectl's apply sets (like kapp) plus later waiting for generated resources, making it a fully featured package manager.",
+      "problem": "Existing tools like cdk8s are less flexible, require a dev environment, and don't allow sharing packages.",
+      "audience": null,
+      "builder_usernames": [
+        "notanaverageman"
+      ],
+      "source_excerpt": "I'm finishing the work of adding apply, list, delete mechanism to my Kubernetes package manager.\n\nThe tool is written in Go and exposes a JavaScript interface (like k6) to generate manifests using both template-based and object oriented approaches.",
+      "evidence": [
+        {
+          "source_item_id": 44707547,
+          "source_field": "body",
+          "value": "I'm finishing the work of adding apply, list, delete mechanism to my Kubernetes package manager.\n\nThe tool is written in Go and exposes a JavaScript interface (like k6) to generate manifests using both template-based and object oriented approaches.",
+          "supports": [],
+          "author": "notanaverageman",
+          "shared_at": 1753681304,
+          "source_url": "https://news.ycombinator.com/item?id=44707547"
+        }
+      ],
+      "source_item_id": 44707547,
+      "source_url": "https://news.ycombinator.com/item?id=44707547",
+      "author": "notanaverageman",
+      "shared_at": 1753681304,
+      "links": [
+        "https://github.com/ohayocorp/anemos"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 3663,
+  "slug": "ollamadash-0b1beb5ca8",
+  "name": "OllamaDash",
+  "mentions": [
+    {
+      "name": "OllamaDash",
+      "description": "A dashboard for ranking LLMs and finding the best local (by size) and hosted (by price) variants of models. It aggregates the Artificial Analysis leaderboard for rankings, the Ollama registry for local models, and OpenRouter for hosted models, with search and deep querying, sorting, and filtering across the three sources. Planned features include filtering by system VRAM and price range, a desktop client that detects VRAM and renders the app, and downloading/chatting with local models to compare local vs hosted options.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rcanand2025"
+      ],
+      "source_excerpt": "I'm working on a dashboard for ranking llms, then finding the best local (by size) and/or hosted (by price) variants of the models. Currently have  ArtificialAnalysis leaderboard for ranking, ollama registry for local models and openrouter for hosted models.",
+      "evidence": [
+        {
+          "source_item_id": 48530853,
+          "source_field": "body",
+          "value": "I'm working on a dashboard for ranking llms, then finding the best local (by size) and/or hosted (by price) variants of the models. Currently have  ArtificialAnalysis leaderboard for ranking, ollama registry for local models and openrouter for hosted models.",
+          "supports": [],
+          "author": "rcanand2025",
+          "shared_at": 1781461828,
+          "source_url": "https://news.ycombinator.com/item?id=48530853"
+        }
+      ],
+      "source_item_id": 48530853,
+      "source_url": "https://news.ycombinator.com/item?id=48530853",
+      "author": "rcanand2025",
+      "shared_at": 1781461828,
+      "links": [
+        "https://ollamadash.up.railway.app"
+      ]
+    }
+  ]
+}

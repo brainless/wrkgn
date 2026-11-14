@@ -1,0 +1,36 @@
+{
+  "id": 7082,
+  "slug": "breadboards-7808e484de",
+  "name": "Breadboards",
+  "mentions": [
+    {
+      "name": "Breadboards",
+      "description": "This app builder combines a Figma-like canvas for visual design with Apple Shortcuts-style logic for functionality. Instead of writing code or connecting node graphs, behavior is defined by stacking instructions using a syntax based on Hyperscript, and apps can be exported from the editor.",
+      "problem": "Building app functionality normally requires writing code or connecting node graphs.",
+      "audience": null,
+      "builder_usernames": [
+        "simquat"
+      ],
+      "source_excerpt": "I’m working on an app builder that combines a Figma-like canvas for design with Apple Shortcuts-style logic for functionality.\nInstead of writing code or connecting node graphs, you define behavior by stacking instructions using a syntax based on Hyperscript.",
+      "evidence": [
+        {
+          "source_item_id": 46952055,
+          "source_field": "body",
+          "value": "I’m working on an app builder that combines a Figma-like canvas for design with Apple Shortcuts-style logic for functionality.\nInstead of writing code or connecting node graphs, you define behavior by stacking instructions using a syntax based on Hyperscript.",
+          "supports": [],
+          "author": "simquat",
+          "shared_at": 1770674149,
+          "source_url": "https://news.ycombinator.com/item?id=46952055"
+        }
+      ],
+      "source_item_id": 46952055,
+      "source_url": "https://news.ycombinator.com/item?id=46952055",
+      "author": "simquat",
+      "shared_at": 1770674149,
+      "links": [
+        "https://app.breadboards.io/playgrounds/weather",
+        "https://late-cat-2043.breadboards.app"
+      ]
+    }
+  ]
+}

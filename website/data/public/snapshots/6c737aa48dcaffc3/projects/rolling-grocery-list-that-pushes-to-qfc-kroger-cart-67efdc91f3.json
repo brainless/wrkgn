@@ -1,0 +1,35 @@
+{
+  "id": 5282,
+  "slug": "rolling-grocery-list-that-pushes-to-qfc-kroger-cart-67efdc91f3",
+  "name": "Rolling grocery list that pushes to QFC/Kroger cart",
+  "mentions": [
+    {
+      "name": "Rolling grocery list that pushes to QFC/Kroger cart",
+      "description": "This app makes online grocery shopping less overwhelming with a rolling list: users add items as they notice them missing at home, and the backend silently records them. When ready to order, a single button pushes the accumulated list into a QFC/Kroger cart via their open SKU and cart API, eliminating the need to build lists and add items one by one. It works with any QFC or Kroger store and is free to use; a planned version will auto-build the cart from past order patterns (e.g., milk every two weeks) for people who don't keep lists.",
+      "problem": "Online grocery shopping is overwhelming: people must make lists and then manually put items into the cart one by one, taking time each week.",
+      "audience": "Households and everyday grocery shoppers who find online grocery shopping overwhelming; demonstrated with personal household use.",
+      "builder_usernames": [
+        "pacifi30"
+      ],
+      "source_excerpt": "I am working on making grocery online shopping less overwhelming and more like a rolling list, you keep adding items as you see them (missing) in your household and it silently records it at the backend. When you are ready to pick up order, you push to qfc cart via api (a button)",
+      "evidence": [
+        {
+          "source_item_id": 47745418,
+          "source_field": "body",
+          "value": "I am working on making grocery online shopping less overwhelming and more like a rolling list, you keep adding items as you see them (missing) in your household and it silently records it at the backend. When you are ready to pick up order, you push to qfc cart via api (a button)",
+          "supports": [],
+          "author": "pacifi30",
+          "shared_at": 1776034820,
+          "source_url": "https://news.ycombinator.com/item?id=47745418"
+        }
+      ],
+      "source_item_id": 47745418,
+      "source_url": "https://news.ycombinator.com/item?id=47745418",
+      "author": "pacifi30",
+      "shared_at": 1776034820,
+      "links": [
+        "https://www.ddisco.com/sonic/customer"
+      ]
+    }
+  ]
+}

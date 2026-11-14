@@ -1,0 +1,33 @@
+{
+  "id": 5079,
+  "slug": "design-spec-cloning-mcp-faf3e5f71a",
+  "name": "Design-spec cloning MCP",
+  "mentions": [
+    {
+      "name": "Design-spec cloning MCP",
+      "description": "This MCP server lets AI coding agents pull design specs directly from the top hundred (hopefully one day a thousand) apps and websites, giving the agent a grasp of how production-ready UIs look. Users can then modify the pulled specs for their own color scheme or style. Its stated goal is to combat generic 'AI slop' UI by copying the design patterns of successful production apps.",
+      "problem": "As AI tools get better at UI, AI-generated interfaces converge on generic 'AI slop'; this project addresses that by enabling agents to copy design specs from production-ready apps that are making millions of dollars.",
+      "audience": null,
+      "builder_usernames": [
+        "Meliwat"
+      ],
+      "source_excerpt": "With that being said the MCP essentially will allow you to pull in directly the design specs from the top hundred (hopefully one day thousand) apps and websites. You will be able to modify them of course yourself but it'll at least enable your agent to have a grasp of what this UI looks like so you can tinker with it for your own color scheme or style from there",
+      "evidence": [
+        {
+          "source_item_id": 48103018,
+          "source_field": "body",
+          "value": "With that being said the MCP essentially will allow you to pull in directly the design specs from the top hundred (hopefully one day thousand) apps and websites. You will be able to modify them of course yourself but it'll at least enable your agent to have a grasp of what this UI looks like so you can tinker with it for your own color scheme or style from there",
+          "supports": [],
+          "author": "Meliwat",
+          "shared_at": 1778548926,
+          "source_url": "https://news.ycombinator.com/item?id=48103018"
+        }
+      ],
+      "source_item_id": 48103018,
+      "source_url": "https://news.ycombinator.com/item?id=48103018",
+      "author": "Meliwat",
+      "shared_at": 1778548926,
+      "links": []
+    }
+  ]
+}

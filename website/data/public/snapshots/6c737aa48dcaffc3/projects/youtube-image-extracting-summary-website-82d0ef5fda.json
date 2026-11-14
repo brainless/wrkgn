@@ -1,0 +1,33 @@
+{
+  "id": 11185,
+  "slug": "youtube-image-extracting-summary-website-82d0ef5fda",
+  "name": "YouTube image-extracting summary website",
+  "mentions": [
+    {
+      "name": "YouTube image-extracting summary website",
+      "description": "This website extracts useful images from YouTube videos and produces summaries that include those images, intended to handle cases where text-only summaries fall short (e.g., really new ideas or bar graphs). It also draws boxes and arrows on top of the images for extra clarity.",
+      "problem": "Text-only video summaries don't work for really new ideas and can't show bar graphs, so images need to be included.",
+      "audience": null,
+      "builder_usernames": [
+        "androng"
+      ],
+      "source_excerpt": "A website that extracts useful images from youtube videos. It would be a summary but includes the images because \"text only\" doesn't work for really new ideas. and \n\"text only\" doesn't show bar graphs. And I think I will make it also make it draw boxes and arrows on top of the images for extra clarity.",
+      "evidence": [
+        {
+          "source_item_id": 43826710,
+          "source_field": "body",
+          "value": "A website that extracts useful images from youtube videos. It would be a summary but includes the images because \"text only\" doesn't work for really new ideas. and \n\"text only\" doesn't show bar graphs. And I think I will make it also make it draw boxes and arrows on top of the images for extra clarity.",
+          "supports": [],
+          "author": "androng",
+          "shared_at": 1745878586,
+          "source_url": "https://news.ycombinator.com/item?id=43826710"
+        }
+      ],
+      "source_item_id": 43826710,
+      "source_url": "https://news.ycombinator.com/item?id=43826710",
+      "author": "androng",
+      "shared_at": 1745878586,
+      "links": []
+    }
+  ]
+}

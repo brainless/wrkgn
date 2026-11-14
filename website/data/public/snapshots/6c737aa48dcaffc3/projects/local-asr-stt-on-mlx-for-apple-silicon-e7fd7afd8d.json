@@ -1,0 +1,33 @@
+{
+  "id": 8766,
+  "slug": "local-asr-stt-on-mlx-for-apple-silicon-e7fd7afd8d",
+  "name": "Local ASR/STT on MLX for Apple Silicon",
+  "mentions": [
+    {
+      "name": "Local ASR/STT on MLX for Apple Silicon",
+      "description": "A local automatic speech recognition (ASR/STT) implementation running on MLX for Apple Silicon, built on Facebook's recently released omnilingual model. Model weights were ported from PyTorch to MLX using Claude.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "bleonov"
+      ],
+      "source_excerpt": "Local asr/stt on mlx for apple silicon based on Facebook omnilingual model that was just released.",
+      "evidence": [
+        {
+          "source_item_id": 46271292,
+          "source_field": "body",
+          "value": "Local asr/stt on mlx for apple silicon based on Facebook omnilingual model that was just released.",
+          "supports": [],
+          "author": "bleonov",
+          "shared_at": 1765782509,
+          "source_url": "https://news.ycombinator.com/item?id=46271292"
+        }
+      ],
+      "source_item_id": 46271292,
+      "source_url": "https://news.ycombinator.com/item?id=46271292",
+      "author": "bleonov",
+      "shared_at": 1765782509,
+      "links": []
+    }
+  ]
+}

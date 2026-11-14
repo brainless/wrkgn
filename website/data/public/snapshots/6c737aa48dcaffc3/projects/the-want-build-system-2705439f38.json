@@ -1,0 +1,36 @@
+{
+  "id": 10904,
+  "slug": "the-want-build-system-2705439f38",
+  "name": "The Want Build System",
+  "mentions": [
+    {
+      "name": "The Want Build System",
+      "description": "A hermetic build system configured with Jsonnet, in which build steps are functions from filesystem snapshots to filesystem snapshots, called Trees. Build steps range from simple filesystem manipulation and filtering to WebAssembly and AMD64 VMs.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "brendoncarroll"
+      ],
+      "source_excerpt": "Want is a hermetic build system, configured with Jsonnet. In Want, build steps are functions from filesystem snapshots, to filesystem snapshots. Want calls these immutable snapshots Trees. Build steps range from simple filesystem manipulation and filtering, to WebAssembly and AMD64 VMs.",
+      "evidence": [
+        {
+          "source_item_id": 43822551,
+          "source_field": "body",
+          "value": "Want is a hermetic build system, configured with Jsonnet. In Want, build steps are functions from filesystem snapshots, to filesystem snapshots. Want calls these immutable snapshots Trees. Build steps range from simple filesystem manipulation and filtering, to WebAssembly and AMD64 VMs.",
+          "supports": [],
+          "author": "brendoncarroll",
+          "shared_at": 1745854117,
+          "source_url": "https://news.ycombinator.com/item?id=43822551"
+        }
+      ],
+      "source_item_id": 43822551,
+      "source_url": "https://news.ycombinator.com/item?id=43822551",
+      "author": "brendoncarroll",
+      "shared_at": 1745854117,
+      "links": [
+        "https://doc.wantbuild.io",
+        "https://github.com/wantbuild/want"
+      ]
+    }
+  ]
+}

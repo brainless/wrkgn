@@ -1,0 +1,33 @@
+{
+  "id": 6831,
+  "slug": "minicron-44ae176447",
+  "name": "miniCron",
+  "mentions": [
+    {
+      "name": "miniCron",
+      "description": "Windows system scheduler that runs as a service and launches any program at any given time, with cron-like scheduling but no cron syntax. It kills the current task when the service is stopped, reads and logs stdin/stderr, and is very lightweight and simple.",
+      "problem": "Existing alternatives such as NSSM (the Non-Sucking Service Manager) and Splinterware exist, but this scheduler is simpler and very light on resources.",
+      "audience": null,
+      "builder_usernames": [
+        "bambax"
+      ],
+      "source_excerpt": "- miniCron: system scheduler as a service\n\nAlternatives: NSSM - the Non-Sucking Service Manager; Splinterware\n\nFeatures: launches any program at any given time (cron like but without cron syntax); kills the current task when the service is stopped; reads and logs stdin/stderr; very light on ressources and very simple",
+      "evidence": [
+        {
+          "source_item_id": 46942703,
+          "source_field": "body",
+          "value": "- miniCron: system scheduler as a service\n\nAlternatives: NSSM - the Non-Sucking Service Manager; Splinterware\n\nFeatures: launches any program at any given time (cron like but without cron syntax); kills the current task when the service is stopped; reads and logs stdin/stderr; very light on ressources and very simple",
+          "supports": [],
+          "author": "bambax",
+          "shared_at": 1770623604,
+          "source_url": "https://news.ycombinator.com/item?id=46942703"
+        }
+      ],
+      "source_item_id": 46942703,
+      "source_url": "https://news.ycombinator.com/item?id=46942703",
+      "author": "bambax",
+      "shared_at": 1770623604,
+      "links": []
+    }
+  ]
+}

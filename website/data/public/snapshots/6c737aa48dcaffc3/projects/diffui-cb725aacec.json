@@ -1,0 +1,66 @@
+{
+  "id": 1751,
+  "slug": "diffui-cb725aacec",
+  "name": "DiffUI",
+  "mentions": [
+    {
+      "name": "DiffUI",
+      "description": "A diffusion-based UI design tool that generates unique user interface designs using diffusion models and then converts the generated images to code with LLMs. It is based on the hypothesis that LLMs produce visually consistent designs because they express design through code, while diffusion models trained on a wider set of visual data yield more unique outputs.",
+      "problem": "LLMs trained to write consistent code also express design through code, so AI-generated UI designs end up visually consistent; diffusion models trained on broader visual data can produce more unique designs.",
+      "audience": null,
+      "builder_usernames": [
+        "jjcm"
+      ],
+      "source_excerpt": "A diffusion-based UI design tool I left Figma to build.",
+      "evidence": [
+        {
+          "source_item_id": 49234974,
+          "source_field": "body",
+          "value": "A diffusion-based UI design tool I left Figma to build.",
+          "supports": [],
+          "author": "jjcm",
+          "shared_at": 1786304461,
+          "source_url": "https://news.ycombinator.com/item?id=49234974"
+        }
+      ],
+      "source_item_id": 49234974,
+      "source_url": "https://news.ycombinator.com/item?id=49234974",
+      "author": "jjcm",
+      "shared_at": 1786304461,
+      "links": [
+        "https://diffui.ai",
+        "https://diffui.ai/blog/show-hn",
+        "https://html.non.io/neonRamen",
+        "https://html.non.io/tarot"
+      ]
+    },
+    {
+      "name": "DiffUI",
+      "description": "A diffusion-powered UI design tool that generates interface designs from prompts, aiming to make AI-designed UI not look like generic Tailwind output. Its long-term goal is to become a Figma-like design tool powered by diffusion, and it includes a Brands feature for establishing design systems to generate with consistently.",
+      "problem": "AI-designed UI tends to look like generic Tailwind output.",
+      "audience": null,
+      "builder_usernames": [
+        "jjcm"
+      ],
+      "source_excerpt": "I'm working on a diffusion-powered UI design tool. My short term goal is to make AI-designed UI not look like Tailwind. My long-term goal is to be Figma, but powered by diffusion.",
+      "evidence": [
+        {
+          "source_item_id": 48087163,
+          "source_field": "body",
+          "value": "I'm working on a diffusion-powered UI design tool. My short term goal is to make AI-designed UI not look like Tailwind. My long-term goal is to be Figma, but powered by diffusion.",
+          "supports": [],
+          "author": "jjcm",
+          "shared_at": 1778442381,
+          "source_url": "https://news.ycombinator.com/item?id=48087163"
+        }
+      ],
+      "source_item_id": 48087163,
+      "source_url": "https://news.ycombinator.com/item?id=48087163",
+      "author": "jjcm",
+      "shared_at": 1778442381,
+      "links": [
+        "https://diffui.ai"
+      ]
+    }
+  ]
+}

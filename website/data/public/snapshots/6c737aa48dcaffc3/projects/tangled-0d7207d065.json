@@ -1,0 +1,35 @@
+{
+  "id": 10803,
+  "slug": "tangled-0d7207d065",
+  "name": "Tangled",
+  "mentions": [
+    {
+      "name": "Tangled",
+      "description": "A social-enabled git collaboration platform built on top of Bluesky's AT Protocol. Lightweight, headless servers called \"knots\" serve up git repositories, whose contents are viewed and collaborated on via the app view at tangled.sh. All social data (issues, comments, PRs, other repo metadata) is stored \"on-proto\" in the user's AT Protocol PDS. It is publicly available (not invite-only) and just shipped a pull requests feature along with interdiffs and format-patch support.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "icy"
+      ],
+      "source_excerpt": "We’re building a new social-enabled git collaboration platform on top of Bluesky’s AT Protocol: https://tangled.sh",
+      "evidence": [
+        {
+          "source_item_id": 43818440,
+          "source_field": "body",
+          "value": "We’re building a new social-enabled git collaboration platform on top of Bluesky’s AT Protocol: https://tangled.sh",
+          "supports": [],
+          "author": "icy",
+          "shared_at": 1745823974,
+          "source_url": "https://news.ycombinator.com/item?id=43818440"
+        }
+      ],
+      "source_item_id": 43818440,
+      "source_url": "https://news.ycombinator.com/item?id=43818440",
+      "author": "icy",
+      "shared_at": 1745823974,
+      "links": [
+        "https://tangled.sh"
+      ]
+    }
+  ]
+}

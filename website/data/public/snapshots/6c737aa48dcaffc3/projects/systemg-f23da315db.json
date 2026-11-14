@@ -1,0 +1,66 @@
+{
+  "id": 2049,
+  "slug": "systemg-f23da315db",
+  "name": "SystemG",
+  "mentions": [
+    {
+      "name": "SystemG",
+      "description": "SystemG is an agent-friendly general process composer for running arbitrary processes, aiming to simplify process management for both production work and toy scripts.",
+      "problem": "Running arbitrary processes involves many choices with many dependencies and foot-guns, for both serious production work and toy scripts.",
+      "audience": null,
+      "builder_usernames": [
+        "ra0x3"
+      ],
+      "source_excerpt": "SystemG - An agent-friendly general process composer.",
+      "evidence": [
+        {
+          "source_item_id": 49234936,
+          "source_field": "body",
+          "value": "SystemG - An agent-friendly general process composer.",
+          "supports": [],
+          "author": "ra0x3",
+          "shared_at": 1786304313,
+          "source_url": "https://news.ycombinator.com/item?id=49234936"
+        }
+      ],
+      "source_item_id": 49234936,
+      "source_url": "https://news.ycombinator.com/item?id=49234936",
+      "author": "ra0x3",
+      "shared_at": 1786304313,
+      "links": [
+        "https://docs.rs/systemg/latest/systemg/",
+        "https://github.com/ra0x3/systemg",
+        "https://sysg.dev/"
+      ]
+    },
+    {
+      "name": "systemg",
+      "description": "A lightweight process supervisor, described as \"Systemd, for busy people\", that provides what you'd typically want when running and managing production web services, without the many unneeded features baked into systemd.",
+      "problem": "The author was tired of getting stuck in config/deployment hell every time they wanted to deploy a long-lived web service, since systemd has many features baked in that they simply don't need.",
+      "audience": "people running/managing production web services",
+      "builder_usernames": [
+        "ra0x3"
+      ],
+      "source_excerpt": "I'm personally tired of getting stuck in config/deployment hell every time I want to deploy a long-lived web service. Sure I eventually learned how to use systemd, but systemd has SO many things baked into that I simply don't need. systemg is a lightweight process supervisor that features everything you'd typically want when running/managing production web services in the wild.",
+      "evidence": [
+        {
+          "source_item_id": 45871013,
+          "source_field": "body",
+          "value": "I'm personally tired of getting stuck in config/deployment hell every time I want to deploy a long-lived web service. Sure I eventually learned how to use systemd, but systemd has SO many things baked into that I simply don't need. systemg is a lightweight process supervisor that features everything you'd typically want when running/managing production web services in the wild.",
+          "supports": [],
+          "author": "ra0x3",
+          "shared_at": 1762736854,
+          "source_url": "https://news.ycombinator.com/item?id=45871013"
+        }
+      ],
+      "source_item_id": 45871013,
+      "source_url": "https://news.ycombinator.com/item?id=45871013",
+      "author": "ra0x3",
+      "shared_at": 1762736854,
+      "links": [
+        "https://github.com/ra0x3/systemg",
+        "https://sysg.dev"
+      ]
+    }
+  ]
+}

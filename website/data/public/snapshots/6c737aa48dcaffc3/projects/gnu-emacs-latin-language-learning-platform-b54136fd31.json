@@ -1,0 +1,33 @@
+{
+  "id": 5948,
+  "slug": "gnu-emacs-latin-language-learning-platform-b54136fd31",
+  "name": "GNU Emacs Latin language-learning platform",
+  "mentions": [
+    {
+      "name": "GNU Emacs Latin language-learning platform",
+      "description": "An essay documenting a workflow that turns GNU Emacs, together with gptel (an LLM client for Emacs) and Google's Gemini-3 family of models, into a Latin language-learning platform. It covers converting poorly aligned, pixelated PDF scans of century-old Latin textbooks from the Internet Archive into Org mode documents while preserving typographic details, tables, and semantic metadata; integrating a local lemmatizer and dictionary for quick Latin-to-English lookups; sending whole sentences to Gemini for detailed morphological and grammatical breakdowns; using yt-dlp, patreon-dl, and ffmpeg to fetch and transcode Latin-language audio for LLM transcription; using wav2vec2-latin forced-alignment data to play audio snippets from a transcription buffer; and leveraging Gemini with the anki-editor minor mode to auto-create multimedia flash cards in Org mode for sentence mining.",
+      "problem": "Century-old Latin textbooks exist only as poorly aligned, pixelated PDF image scans on the Internet Archive, and studying Latin requires laborious lookups, grammatical analysis, audio transcription, and flash-card creation that the workflow automates.",
+      "audience": "The author, for personal Latin study",
+      "builder_usernames": [
+        "spudlyo"
+      ],
+      "source_excerpt": "I'm writing an essay where I get into how I use GNU Emacs along with gptel (a simple LLM client for Emacs) and Google's Gemini-3 family of models to turn a 1970s-vintage text editor into a futuristic language-learning platform to help me study Latin.",
+      "evidence": [
+        {
+          "source_item_id": 47303683,
+          "source_field": "body",
+          "value": "I'm writing an essay where I get into how I use GNU Emacs along with gptel (a simple LLM client for Emacs) and Google's Gemini-3 family of models to turn a 1970s-vintage text editor into a futuristic language-learning platform to help me study Latin.",
+          "supports": [],
+          "author": "spudlyo",
+          "shared_at": 1773019116,
+          "source_url": "https://news.ycombinator.com/item?id=47303683"
+        }
+      ],
+      "source_item_id": 47303683,
+      "source_url": "https://news.ycombinator.com/item?id=47303683",
+      "author": "spudlyo",
+      "shared_at": 1773019116,
+      "links": []
+    }
+  ]
+}

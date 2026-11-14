@@ -1,0 +1,35 @@
+{
+  "id": 5191,
+  "slug": "vcamper-e49d57884c",
+  "name": "VCamper",
+  "mentions": [
+    {
+      "name": "VCamper",
+      "description": "This tool uses a staged LLM pipeline to analyze a Git commit range and flag likely security vulnerability patches before CVE publication, even when they look like routine changes. It is a proof of concept that, on known cases like curl CVE-2025-0725, recovered the published root cause from the patch alone.",
+      "problem": "Once a patch for a security vulnerability is public, the patch itself can reveal the vulnerability before the CVE is published, and LLMs could make quietly shipping a fix much harder to keep under the radar.",
+      "audience": null,
+      "builder_usernames": [
+        "rndhouse"
+      ],
+      "source_excerpt": "VCamper: use LLMs to spot security fixes before CVE publication",
+      "evidence": [
+        {
+          "source_item_id": 47741642,
+          "source_field": "body",
+          "value": "VCamper: use LLMs to spot security fixes before CVE publication",
+          "supports": [],
+          "author": "rndhouse",
+          "shared_at": 1776011640,
+          "source_url": "https://news.ycombinator.com/item?id=47741642"
+        }
+      ],
+      "source_item_id": 47741642,
+      "source_url": "https://news.ycombinator.com/item?id=47741642",
+      "author": "rndhouse",
+      "shared_at": 1776011640,
+      "links": [
+        "https://github.com/rndhouse/vcamper"
+      ]
+    }
+  ]
+}

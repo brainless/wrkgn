@@ -1,0 +1,35 @@
+{
+  "id": 6523,
+  "slug": "k8s-log-jedi-734c3b9f3c",
+  "name": "K8s Log Jedi",
+  "mentions": [
+    {
+      "name": "K8s Log Jedi",
+      "description": "An AI-native Kubernetes sidekick that watches pods, reads their logs, and turns failures into clear fixes before they become outages.",
+      "problem": "Kubernetes failures can turn into outages before operators get clear fixes.",
+      "audience": null,
+      "builder_usernames": [
+        "tha_infra_guy"
+      ],
+      "source_excerpt": "working on an AI-native Kubernetes sidekick that watches your pods, reads the logs, and turns failures into clear fixes before they become outages",
+      "evidence": [
+        {
+          "source_item_id": 47305539,
+          "source_field": "body",
+          "value": "working on an AI-native Kubernetes sidekick that watches your pods, reads the logs, and turns failures into clear fixes before they become outages",
+          "supports": [],
+          "author": "tha_infra_guy",
+          "shared_at": 1773038587,
+          "source_url": "https://news.ycombinator.com/item?id=47305539"
+        }
+      ],
+      "source_item_id": 47305539,
+      "source_url": "https://news.ycombinator.com/item?id=47305539",
+      "author": "tha_infra_guy",
+      "shared_at": 1773038587,
+      "links": [
+        "https://k8slogjedi.netlify.app/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 4189,
+  "slug": "newspeak-tcp-protocol-browser-client-b84a026507",
+  "name": "Newspeak TCP protocol browser client",
+  "mentions": [
+    {
+      "name": "Newspeak TCP protocol browser client",
+      "description": "This project resurrects an ancient, Windows desktop-only TCP protocol so it can be used from web applications, built with Chrome's Isolated Web App technology and the browser's TCPSockets API, implemented entirely in Newspeak.",
+      "problem": "The legacy TCP protocol was Windows desktop-only, leaving web applications unable to connect with it.",
+      "audience": null,
+      "builder_usernames": [
+        "goodthink"
+      ],
+      "source_excerpt": "Using Chrome's Isolated Web App technology and the afforded TCPSockets in the browser, I am resurrecting an ancient, windows desktop only, TCP protocol for connecting to * from web applications. All Newspeak, all the time.",
+      "evidence": [
+        {
+          "source_item_id": 48535556,
+          "source_field": "body",
+          "value": "Using Chrome's Isolated Web App technology and the afforded TCPSockets in the browser, I am resurrecting an ancient, windows desktop only, TCP protocol for connecting to * from web applications. All Newspeak, all the time.",
+          "supports": [],
+          "author": "goodthink",
+          "shared_at": 1781488009,
+          "source_url": "https://news.ycombinator.com/item?id=48535556"
+        }
+      ],
+      "source_item_id": 48535556,
+      "source_url": "https://news.ycombinator.com/item?id=48535556",
+      "author": "goodthink",
+      "shared_at": 1781488009,
+      "links": [
+        "https://newspeaklanguage.org"
+      ]
+    }
+  ]
+}

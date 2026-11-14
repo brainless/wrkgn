@@ -1,0 +1,35 @@
+{
+  "id": 10140,
+  "slug": "checkoff-checkoff-ai-5c77370e5c",
+  "name": "Checkoff (checkoff.ai)",
+  "mentions": [
+    {
+      "name": "Checkoff (checkoff.ai)",
+      "description": "A web app for creating and managing checklists. It can generate checklists with AI from a prompt (e.g. \"Fun things to do in Pittsburg\") and lets users create checklists from templates for recurring daily tasks. It also integrates with LLMs via an MCP server.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "regnull"
+      ],
+      "source_excerpt": "I am a bit of a checklist nerd, so I wrote a web app do to checklists: https://checkoff.ai\n\nAs it is fashionable these days, it can create checklists with AI (\"Fun things to do in Pittsburg\"), you can create checklists from templates (some stuff you do every day), etc.",
+      "evidence": [
+        {
+          "source_item_id": 45420367,
+          "source_field": "body",
+          "value": "I am a bit of a checklist nerd, so I wrote a web app do to checklists: https://checkoff.ai\n\nAs it is fashionable these days, it can create checklists with AI (\"Fun things to do in Pittsburg\"), you can create checklists from templates (some stuff you do every day), etc.",
+          "supports": [],
+          "author": "regnull",
+          "shared_at": 1759190499,
+          "source_url": "https://news.ycombinator.com/item?id=45420367"
+        }
+      ],
+      "source_item_id": 45420367,
+      "source_url": "https://news.ycombinator.com/item?id=45420367",
+      "author": "regnull",
+      "shared_at": 1759190499,
+      "links": [
+        "https://checkoff.ai"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 8449,
+  "slug": "lost-cats-ar-puzzle-hunt-dc760f11bd",
+  "name": "Lost Cats AR Puzzle Hunt",
+  "mentions": [
+    {
+      "name": "Lost Cats AR Puzzle Hunt",
+      "description": "A cat-themed puzzle game built with NiceGUI and MindAR: a single-page web app shows a grid of 20 lost cats hidden around the house, each with a name, a clue to its hiding spot, and an optional hint. Five of the puzzles use MindAR to overlay AR image cards over art pieces and book covers, and the app runs on a Proxmox LXC alongside other Flask servers.",
+      "problem": null,
+      "audience": "The author's wife (a personal at-home puzzle hunt)",
+      "builder_usernames": [
+        "hyperific"
+      ],
+      "source_excerpt": "I'm making a cat themed puzzle game for my wife using NiceGUI, MindAR and some cat shaped sticky notes. Each note has a name and a secret code. I've hidden 20 of these around the house.",
+      "evidence": [
+        {
+          "source_item_id": 46277388,
+          "source_field": "body",
+          "value": "I'm making a cat themed puzzle game for my wife using NiceGUI, MindAR and some cat shaped sticky notes. Each note has a name and a secret code. I've hidden 20 of these around the house.",
+          "supports": [],
+          "author": "hyperific",
+          "shared_at": 1765819298,
+          "source_url": "https://news.ycombinator.com/item?id=46277388"
+        }
+      ],
+      "source_item_id": 46277388,
+      "source_url": "https://news.ycombinator.com/item?id=46277388",
+      "author": "hyperific",
+      "shared_at": 1765819298,
+      "links": []
+    }
+  ]
+}

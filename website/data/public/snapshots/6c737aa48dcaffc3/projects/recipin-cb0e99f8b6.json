@@ -1,0 +1,65 @@
+{
+  "id": 9254,
+  "slug": "recipin-cb0e99f8b6",
+  "name": "Recipin",
+  "mentions": [
+    {
+      "name": "Recipin",
+      "description": "Recipe extraction and archiving site that saves recipes from the web so they survive link rot and blog spam. Runs without tracking, JavaScript, or AI, using just minimal CSS, and is source available for running your own server. Planned features include importing from a Pinterest account and support for more schema.org recipe format variants used by different sites, plus an optional experimental AI extraction from photos of handwritten or magazine recipes that may be split into a separate service outputting schema.org recipes.",
+      "problem": "Recipes hosted on external blogs suffer link rot and are buried in blog spam, making them unreliable to revisit.",
+      "audience": "personal-use",
+      "builder_usernames": [
+        "bradly"
+      ],
+      "source_excerpt": "https://recipin.com Recipe extraction and archiving to avoid link rot and blog spam. No tracking, no JavaScript, no AI[0], and just a dusting of CSS. Source available to run your own server if you’d like (https://github.com/bradly/recipin).",
+      "evidence": [
+        {
+          "source_item_id": 45869982,
+          "source_field": "body",
+          "value": "https://recipin.com Recipe extraction and archiving to avoid link rot and blog spam. No tracking, no JavaScript, no AI[0], and just a dusting of CSS. Source available to run your own server if you’d like (https://github.com/bradly/recipin).",
+          "supports": [],
+          "author": "bradly",
+          "shared_at": 1762728346,
+          "source_url": "https://news.ycombinator.com/item?id=45869982"
+        }
+      ],
+      "source_item_id": 45869982,
+      "source_url": "https://news.ycombinator.com/item?id=45869982",
+      "author": "bradly",
+      "shared_at": 1762728346,
+      "links": [
+        "https://github.com/bradly/recipin",
+        "https://recipin.com"
+      ]
+    },
+    {
+      "name": "Recipin",
+      "description": "A private recipe archiving and bookmarking app with no ads, no AI, and no JavaScript. Users can join a hosted server or self-host their own instance.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "bradly"
+      ],
+      "source_excerpt": "Recipin - https://recipin.com\n\nPrivate recipe archiving/bookmarking. No ads, no AI, no javascript . Join a server or host your own (https://github.com/bradly/recipin).",
+      "evidence": [
+        {
+          "source_item_id": 43817721,
+          "source_field": "body",
+          "value": "Recipin - https://recipin.com\n\nPrivate recipe archiving/bookmarking. No ads, no AI, no javascript . Join a server or host your own (https://github.com/bradly/recipin).",
+          "supports": [],
+          "author": "bradly",
+          "shared_at": 1745816389,
+          "source_url": "https://news.ycombinator.com/item?id=43817721"
+        }
+      ],
+      "source_item_id": 43817721,
+      "source_url": "https://news.ycombinator.com/item?id=43817721",
+      "author": "bradly",
+      "shared_at": 1745816389,
+      "links": [
+        "https://github.com/bradly/recipin",
+        "https://recipin.com"
+      ]
+    }
+  ]
+}

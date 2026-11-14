@@ -1,0 +1,91 @@
+{
+  "id": 2991,
+  "slug": "apt-cacher-ultra-d9ed97fe88",
+  "name": "apt-cacher-ultra",
+  "mentions": [
+    {
+      "name": "apt-cacher-ultra",
+      "description": "This tool is a resilient apt repository caching proxy that snapshots repository metadata after verifying it and only promotes the snapshot if all checks pass. It can optionally track a list of 'hot' packages and include them in the snapshot calculation. It was built to reduce the impact of future Ubuntu archive DDoSes on development and staging processes and to be more reliable than apt-cacher-ng, which would regularly choke and require handholding.",
+      "problem": "Ubuntu archive DDoSes disrupted dev and staging processes, and apt-cacher-ng provided no help and regularly choked.",
+      "audience": "DevOps and sysadmins running apt caching for development and staging environments",
+      "builder_usernames": [
+        "linsomniac"
+      ],
+      "source_excerpt": "apt-cacher-ultra: To help reduce the impact of future DDoSes of Ubuntu.  Just released 1.0 yesterday after working on it a couple months.",
+      "evidence": [
+        {
+          "source_item_id": 48886392,
+          "source_field": "body",
+          "value": "apt-cacher-ultra: To help reduce the impact of future DDoSes of Ubuntu.  Just released 1.0 yesterday after working on it a couple months.",
+          "supports": [],
+          "author": "linsomniac",
+          "shared_at": 1783902627,
+          "source_url": "https://news.ycombinator.com/item?id=48886392"
+        }
+      ],
+      "source_item_id": 48886392,
+      "source_url": "https://news.ycombinator.com/item?id=48886392",
+      "author": "linsomniac",
+      "shared_at": 1783902627,
+      "links": [
+        "https://github.com/linsomniac/apt-cacher-ultra"
+      ]
+    },
+    {
+      "name": "apt-cacher-ultra",
+      "description": "An apt cache service that snapshots and verifies the cache and only updates the snapshot when new metadata is available, updated commonly requested packages have been downloaded, and all metadata checks out. It can keep serving packages even when the upstream is unavailable or corrupt, and it is reliable enough to work with Internet access shut off; it has been running with ~200 clients, ~50 of which are reinstalled daily with full package updates and installs.",
+      "problem": "Upstream package repositories can become unavailable or corrupt (as in last month's Ubuntu DDoS), so the cache must remain reliable and keep serving packages on its own.",
+      "audience": "System administrators operating apt package caches for fleets of clients; tested with ~200 clients, ~50 of which are reinstalled daily",
+      "builder_usernames": [
+        "linsomniac"
+      ],
+      "source_excerpt": "https://github.com/linsomniac/apt-cacher-ultra\n\nThe primary features I'm focusing on are: It can serve packages if the upstream is unavailable or corrupt, it is reliable.\n\nIt snapshots and verifies the cache, and then only updates the snapshot when: a new metadata is available, it has downloaded updated packages that you commonly request, all the metadata checks out.",
+      "evidence": [
+        {
+          "source_item_id": 48531453,
+          "source_field": "body",
+          "value": "https://github.com/linsomniac/apt-cacher-ultra\n\nThe primary features I'm focusing on are: It can serve packages if the upstream is unavailable or corrupt, it is reliable.\n\nIt snapshots and verifies the cache, and then only updates the snapshot when: a new metadata is available, it has downloaded updated packages that you commonly request, all the metadata checks out.",
+          "supports": [],
+          "author": "linsomniac",
+          "shared_at": 1781464472,
+          "source_url": "https://news.ycombinator.com/item?id=48531453"
+        }
+      ],
+      "source_item_id": 48531453,
+      "source_url": "https://news.ycombinator.com/item?id=48531453",
+      "author": "linsomniac",
+      "shared_at": 1781464472,
+      "links": [
+        "https://github.com/linsomniac/apt-cacher-ultra"
+      ]
+    },
+    {
+      "name": "apt-cacher-ultra",
+      "description": "An apt package cache designed to keep working as much as possible when upstream repositories are down. It checks repo metadata and maintains a list of \"hot packages\", pre-downloading them before switching the new metadata live to act as an effective snapshot. Packages that machines download regularly (re-installs, apt updates) remain available even during upstream outages like a DDoS, though never-before-downloaded packages cannot be fetched while upstream is down. It is in early development with a beta expected in about a week and is currently running in the author's dev cluster.",
+      "problem": "Existing apt-cacher-ng failed to reduce the impact of the Ubuntu DDoS while also going out to lunch every few weeks or a month, leaving no reliable way to respin machines (e.g. if the data center caught fire) during an upstream outage.",
+      "audience": null,
+      "builder_usernames": [
+        "linsomniac"
+      ],
+      "source_excerpt": "So I'm working on an apt-cacher that goes to lengths to keep working as much as possible when the upstream is down. It will check the repo metadata and keeps a list of your \"hot packages\", and will download those before flipping the new metadata to be live, effectively a snapshot. It won't allow you to download a package you've never downloaded before in the case of a DDoS, but packages that you do download regularly (machine re-installs, apt updates), it will ensure are available in the repo.\n\nI'm calling it apt-cacher-ultra.",
+      "evidence": [
+        {
+          "source_item_id": 48088148,
+          "source_field": "body",
+          "value": "So I'm working on an apt-cacher that goes to lengths to keep working as much as possible when the upstream is down. It will check the repo metadata and keeps a list of your \"hot packages\", and will download those before flipping the new metadata to be live, effectively a snapshot. It won't allow you to download a package you've never downloaded before in the case of a DDoS, but packages that you do download regularly (machine re-installs, apt updates), it will ensure are available in the repo.\n\nI'm calling it apt-cacher-ultra.",
+          "supports": [],
+          "author": "linsomniac",
+          "shared_at": 1778447798,
+          "source_url": "https://news.ycombinator.com/item?id=48088148"
+        }
+      ],
+      "source_item_id": 48088148,
+      "source_url": "https://news.ycombinator.com/item?id=48088148",
+      "author": "linsomniac",
+      "shared_at": 1778447798,
+      "links": [
+        "https://github.com/linsomniac/apt-cacher-ultra"
+      ]
+    }
+  ]
+}

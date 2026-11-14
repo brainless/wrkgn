@@ -1,0 +1,33 @@
+{
+  "id": 3664,
+  "slug": "cmsis-svd-lsp-aca720e490",
+  "name": "cmsis-svd-lsp",
+  "mentions": [
+    {
+      "name": "cmsis-svd-lsp",
+      "description": "A Language Server application that works with any LSP-capable editor to provide legal CMSIS names for STM32xx MCU registers and bitfields during coding, using the SVD file for the specific MCU model. It supplies the correct name, absolute address, bit offset and width, plus a bitfield description. MIT licensed.",
+      "problem": "Needed for bare metal coding (in any language) without using the massive monolithic systems from the manufacturers.",
+      "audience": "Bare metal developers coding for STM32xx MCUs in any language",
+      "builder_usernames": [
+        "techman001"
+      ],
+      "source_excerpt": "I'm just starting the design of a cmsis-svd-lsp Language Server application that can be used with any LSP capable editor to provide legal CMSIS names for their STM32xx MCU registers and bitfields during coding, simply by using the SVD file for their model.",
+      "evidence": [
+        {
+          "source_item_id": 48535820,
+          "source_field": "body",
+          "value": "I'm just starting the design of a cmsis-svd-lsp Language Server application that can be used with any LSP capable editor to provide legal CMSIS names for their STM32xx MCU registers and bitfields during coding, simply by using the SVD file for their model.",
+          "supports": [],
+          "author": "techman001",
+          "shared_at": 1781489982,
+          "source_url": "https://news.ycombinator.com/item?id=48535820"
+        }
+      ],
+      "source_item_id": 48535820,
+      "source_url": "https://news.ycombinator.com/item?id=48535820",
+      "author": "techman001",
+      "shared_at": 1781489982,
+      "links": []
+    }
+  ]
+}

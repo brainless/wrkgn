@@ -1,0 +1,35 @@
+{
+  "id": 6920,
+  "slug": "wgsl-rs-6cf817d0fa",
+  "name": "wgsl-rs",
+  "mentions": [
+    {
+      "name": "wgsl-rs",
+      "description": "A Rust proc-macro crate that lets developers write WGSL shaders in a subset of Rust; the same code runs on the CPU for testing and on the GPU via generated WGSL, working on stable Rust with no custom toolchains needed.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "efnx"
+      ],
+      "source_excerpt": "I'm building wgsl-rs, a proc macro crate that lets you write WGSL shaders in a subset of Rust — same code runs on the CPU for testing and on the GPU via generated WGSL. Works on stable Rust, no custom toolchains needed.",
+      "evidence": [
+        {
+          "source_item_id": 46970431,
+          "source_field": "body",
+          "value": "I'm building wgsl-rs, a proc macro crate that lets you write WGSL shaders in a subset of Rust — same code runs on the CPU for testing and on the GPU via generated WGSL. Works on stable Rust, no custom toolchains needed.",
+          "supports": [],
+          "author": "efnx",
+          "shared_at": 1770780493,
+          "source_url": "https://news.ycombinator.com/item?id=46970431"
+        }
+      ],
+      "source_item_id": 46970431,
+      "source_url": "https://news.ycombinator.com/item?id=46970431",
+      "author": "efnx",
+      "shared_at": 1770780493,
+      "links": [
+        "https://github.com/schell/wgsl-rs"
+      ]
+    }
+  ]
+}

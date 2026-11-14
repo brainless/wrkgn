@@ -1,0 +1,91 @@
+{
+  "id": 892,
+  "slug": "kete-7dbf289c90",
+  "name": "kete",
+  "mentions": [
+    {
+      "name": "kete",
+      "description": "An open-source Rust orbital mechanics library for computing asteroid orbits and identifying known asteroids, part of the code behind the author's astrometry.space processing tools. Written while the author worked at Caltech, it is used on the SphereX, NEO Surveyor, and Roman telescopes to identify known asteroids.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ddahlen"
+      ],
+      "source_excerpt": "Some of the code is public, the orbital mechanics code I wrote while I worked at Caltech. Which is being used on SphereX, NEO Surveyor, and the Roman telescopes to identify known asteroids.\nhttps://github.com/dahlend/kete",
+      "evidence": [
+        {
+          "source_item_id": 49690394,
+          "source_field": "body",
+          "value": "Some of the code is public, the orbital mechanics code I wrote while I worked at Caltech. Which is being used on SphereX, NEO Surveyor, and the Roman telescopes to identify known asteroids.\nhttps://github.com/dahlend/kete",
+          "supports": [],
+          "author": "ddahlen",
+          "shared_at": 1789346490,
+          "source_url": "https://news.ycombinator.com/item?id=49690394"
+        }
+      ],
+      "source_item_id": 49690394,
+      "source_url": "https://news.ycombinator.com/item?id=49690394",
+      "author": "ddahlen",
+      "shared_at": 1789346490,
+      "links": [
+        "https://github.com/dahlend/kete"
+      ]
+    },
+    {
+      "name": "kete",
+      "description": "An orbital dynamics code for astronomy written in Rust that accurately calculates the positions of all asteroids and comets to within a few meters, with a new numerical integration method being added to enable predicting orbits from observations.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ddahlen"
+      ],
+      "source_excerpt": "Working on orbital dynamics code for my PhD in astronomy, written in rust, it can accurately calculate the positions of all asteroids/comets to within a few meters. Today I am adding a new numerical integration method which should enable me to predict orbits from observations.\n\nhttps://github.com/dahlend/kete",
+      "evidence": [
+        {
+          "source_item_id": 45422947,
+          "source_field": "body",
+          "value": "Working on orbital dynamics code for my PhD in astronomy, written in rust, it can accurately calculate the positions of all asteroids/comets to within a few meters. Today I am adding a new numerical integration method which should enable me to predict orbits from observations.\n\nhttps://github.com/dahlend/kete",
+          "supports": [],
+          "author": "ddahlen",
+          "shared_at": 1759218126,
+          "source_url": "https://news.ycombinator.com/item?id=45422947"
+        }
+      ],
+      "source_item_id": 45422947,
+      "source_url": "https://news.ycombinator.com/item?id=45422947",
+      "author": "ddahlen",
+      "shared_at": 1759218126,
+      "links": [
+        "https://github.com/dahlend/kete"
+      ]
+    },
+    {
+      "name": "kete",
+      "description": "Open-source code that calculates the orbits of asteroids to high precision, capable of predicting the location of the entire catalog of known asteroids to generally within the uncertainty of known orbits. It is used on several NASA telescopes (NEO Surveyor, SphereX, and possibly Roman eventually) to predict when they will image known asteroids. The core is written in Rust with a Python frontend, and the author plans to make it the basis of his PhD research.",
+      "problem": null,
+      "audience": "Used on several NASA telescopes (NEO Surveyor, SphereX, and possibly Roman) to predict when they will image known asteroids; the author also plans to build his PhD research on it.",
+      "builder_usernames": [
+        "ddahlen"
+      ],
+      "source_excerpt": "Until last month I was working at Caltech for 3 years on code which calculates orbits of asteroids to high precision. This code is being used on several NASA telescopes now to predict when they will image known asteroids (NEO Surveyor, SphereX, maybe Roman eventually). I was allowed to open source it and I am planning on making it the basis of my PhD research:\n\nhttps://github.com/dahlend/kete\n\nIt can predict the location of the entire catalog of known asteroids to generally within the uncertainty of our knowledge of the orbits. Its core is written in rust, with a python frontend.",
+      "evidence": [
+        {
+          "source_item_id": 43822853,
+          "source_field": "body",
+          "value": "Until last month I was working at Caltech for 3 years on code which calculates orbits of asteroids to high precision. This code is being used on several NASA telescopes now to predict when they will image known asteroids (NEO Surveyor, SphereX, maybe Roman eventually). I was allowed to open source it and I am planning on making it the basis of my PhD research:\n\nhttps://github.com/dahlend/kete\n\nIt can predict the location of the entire catalog of known asteroids to generally within the uncertainty of our knowledge of the orbits. Its core is written in rust, with a python frontend.",
+          "supports": [],
+          "author": "ddahlen",
+          "shared_at": 1745855595,
+          "source_url": "https://news.ycombinator.com/item?id=43822853"
+        }
+      ],
+      "source_item_id": 43822853,
+      "source_url": "https://news.ycombinator.com/item?id=43822853",
+      "author": "ddahlen",
+      "shared_at": 1745855595,
+      "links": [
+        "https://github.com/dahlend/kete"
+      ]
+    }
+  ]
+}

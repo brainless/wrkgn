@@ -1,0 +1,35 @@
+{
+  "id": 10460,
+  "slug": "chives-478590830a",
+  "name": "Chives",
+  "mentions": [
+    {
+      "name": "Chives",
+      "description": "A GitHub + Slack bot and hosted service that lets organizations customize and filter GitHub event notifications delivered to Slack. Users can filter on essentially any field of any event, such as deployment environment, branch patterns, file paths, PR labels, and commit authors. Hosted at https://chivesbot.com, with signups currently disabled while core features are under development; the builder is seeking early beta users and feedback.",
+      "problem": "The official GitHub Slack integration is limiting and unmaintained; for example, it cannot filter events by deployment environment, so a channel meant for production deploy notifications gets filled with staging and QA notifications.",
+      "audience": "Organizations and companies using GitHub and Slack that want targeted event notifications, such as engineering teams tracking production deploys.",
+      "builder_usernames": [
+        "147"
+      ],
+      "source_excerpt": "I'm working on a GitHub + Slack bot to let organizations customize and get notifications on Slack from GitHub.",
+      "evidence": [
+        {
+          "source_item_id": 44705783,
+          "source_field": "body",
+          "value": "I'm working on a GitHub + Slack bot to let organizations customize and get notifications on Slack from GitHub.",
+          "supports": [],
+          "author": "147",
+          "shared_at": 1753660182,
+          "source_url": "https://news.ycombinator.com/item?id=44705783"
+        }
+      ],
+      "source_item_id": 44705783,
+      "source_url": "https://news.ycombinator.com/item?id=44705783",
+      "author": "147",
+      "shared_at": 1753660182,
+      "links": [
+        "https://chivesbot.com"
+      ]
+    }
+  ]
+}

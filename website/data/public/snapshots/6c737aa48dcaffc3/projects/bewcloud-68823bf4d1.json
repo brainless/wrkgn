@@ -1,0 +1,63 @@
+{
+  "id": 10120,
+  "slug": "bewcloud-68823bf4d1",
+  "name": "bewCloud",
+  "mentions": [
+    {
+      "name": "bewCloud",
+      "description": "A simpler Nextcloud alternative written in TypeScript that has reached feature freeze; ongoing maintenance and updates with a focus on removing dependencies, and currently awaiting a security audit.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "BrunoBernardino"
+      ],
+      "source_excerpt": "I've been building bewCloud [1] (a simpler Nextcloud alternative written in TypeScript) over the last couple of years and it's finally reached \"feature freeze\"; I don't plan to add anything major to it anymore, and will now keep maintaining it, updating it, and will focus on removing dependencies. I'm currently waiting for a security audit.",
+      "evidence": [
+        {
+          "source_item_id": 45424142,
+          "source_field": "body",
+          "value": "I've been building bewCloud [1] (a simpler Nextcloud alternative written in TypeScript) over the last couple of years and it's finally reached \"feature freeze\"; I don't plan to add anything major to it anymore, and will now keep maintaining it, updating it, and will focus on removing dependencies. I'm currently waiting for a security audit.",
+          "supports": [],
+          "author": "BrunoBernardino",
+          "shared_at": 1759231021,
+          "source_url": "https://news.ycombinator.com/item?id=45424142"
+        }
+      ],
+      "source_item_id": 45424142,
+      "source_url": "https://news.ycombinator.com/item?id=45424142",
+      "author": "BrunoBernardino",
+      "shared_at": 1759231021,
+      "links": [
+        "https://bewcloud.com"
+      ]
+    },
+    {
+      "name": "bewCloud",
+      "description": "A self-hosted cloud platform built with TypeScript, Deno, and Fresh, offering a simpler alternative to Nextcloud and ownCloud. It recently added a CalDAV and CardDAV server, with calendar and contacts UI planned as next features. Development is sponsored by NLnet.",
+      "problem": "Existing self-hosted cloud solutions like Nextcloud and ownCloud are complex; there is a need for a simpler alternative.",
+      "audience": null,
+      "builder_usernames": [
+        "BrunoBernardino"
+      ],
+      "source_excerpt": "I'm working on bewCloud [1] after getting a decent sponsor(ship) earlier this year from NLnet.\n\nIt's a simpler alternative to Nextcloud and ownCloud (built with TypeScript, Deno, Fresh). Recently it got a CalDAV and CardDAV server, and I'll be working on the calendar and contacts UI next.",
+      "evidence": [
+        {
+          "source_item_id": 44710634,
+          "source_field": "body",
+          "value": "I'm working on bewCloud [1] after getting a decent sponsor(ship) earlier this year from NLnet.\n\nIt's a simpler alternative to Nextcloud and ownCloud (built with TypeScript, Deno, Fresh). Recently it got a CalDAV and CardDAV server, and I'll be working on the calendar and contacts UI next.",
+          "supports": [],
+          "author": "BrunoBernardino",
+          "shared_at": 1753708878,
+          "source_url": "https://news.ycombinator.com/item?id=44710634"
+        }
+      ],
+      "source_item_id": 44710634,
+      "source_url": "https://news.ycombinator.com/item?id=44710634",
+      "author": "BrunoBernardino",
+      "shared_at": 1753708878,
+      "links": [
+        "https://bewcloud.com"
+      ]
+    }
+  ]
+}

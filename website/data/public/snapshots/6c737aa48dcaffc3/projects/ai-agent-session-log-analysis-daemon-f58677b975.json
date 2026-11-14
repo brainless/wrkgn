@@ -1,0 +1,33 @@
+{
+  "id": 5383,
+  "slug": "ai-agent-session-log-analysis-daemon-f58677b975",
+  "name": "AI agent session-log analysis daemon",
+  "mentions": [
+    {
+      "name": "AI agent session-log analysis daemon",
+      "description": "This project analyzes AI agent session transcripts by having LLMs implement multiple analysis methods to surface and identify usage patterns. It is planned to evolve into a daemon that locally runs privacy-preserving analysis on users' sessions using a federated-machine-learning-style approach, so that patterns can be confirmed or rebutted at scale across thousands of transcript corpora.",
+      "problem": "Patterns in AI agent session logs currently benefit only Anthropic and OpenAI, even though those interactions belong to the users.",
+      "audience": null,
+      "builder_usernames": [
+        "ElFitz"
+      ],
+      "source_excerpt": "Mostly playing around with AI agents session logs.\n\nLately I’ve been having LLMs implement multiple analysis methods on my session transcripts, trying to surface and identify patterns.\n\nIt’s been interesting. It took quite a bit of nudging, but Claude applied techniques I didn’t expect, from disciplines I wouldn’t have thought of.\n\nIf it works out, I’d like to turn into a sort of daemon that locally runs analysis on the sessions of users, with a privacy-preserving approach (think federated machine learning).\n\nWould be interesting to see what patterns appear at scale, and have those confirmed or rebutted across thousands of transcripts corpuses. No reason Anthropic & OpenAI should be the only ones to benefit from that; those are our interactions after all.",
+      "evidence": [
+        {
+          "source_item_id": 47744283,
+          "source_field": "body",
+          "value": "Mostly playing around with AI agents session logs.\n\nLately I’ve been having LLMs implement multiple analysis methods on my session transcripts, trying to surface and identify patterns.\n\nIt’s been interesting. It took quite a bit of nudging, but Claude applied techniques I didn’t expect, from disciplines I wouldn’t have thought of.\n\nIf it works out, I’d like to turn into a sort of daemon that locally runs analysis on the sessions of users, with a privacy-preserving approach (think federated machine learning).\n\nWould be interesting to see what patterns appear at scale, and have those confirmed or rebutted across thousands of transcripts corpuses. No reason Anthropic & OpenAI should be the only ones to benefit from that; those are our interactions after all.",
+          "supports": [],
+          "author": "ElFitz",
+          "shared_at": 1776026763,
+          "source_url": "https://news.ycombinator.com/item?id=47744283"
+        }
+      ],
+      "source_item_id": 47744283,
+      "source_url": "https://news.ycombinator.com/item?id=47744283",
+      "author": "ElFitz",
+      "shared_at": 1776026763,
+      "links": []
+    }
+  ]
+}

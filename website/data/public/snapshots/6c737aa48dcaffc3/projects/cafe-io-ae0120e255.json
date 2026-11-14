@@ -1,0 +1,63 @@
+{
+  "id": 9476,
+  "slug": "cafe-io-ae0120e255",
+  "name": "cafe.io",
+  "mentions": [
+    {
+      "name": "cafe.io",
+      "description": "A DNS service for AWS EC2 that handles ever-changing instance IPs. It fetches instance IPs regularly via the AWS API and assigns them to fixed subdomains, useful when Elastic IPs can't be used (e.g., with Auto Scaling Groups) or when users don't want third-party clients installed on their instances.",
+      "problem": "EC2 instance IPs constantly change and can't be pinned down when Elastic IPs can't be used (e.g., with Auto Scaling Groups) and installing third-party clients on instances isn't an option.",
+      "audience": null,
+      "builder_usernames": [
+        "emrekutlu"
+      ],
+      "source_excerpt": "It is a DNS service for AWS EC2 to keep the ever changing IPs when you cannot use the Elastic IP like ASG or when you don't want to install any third party clients to your instances.\n\nIt fetches the IPs regularly via AWS API and assign them to fixed subdomains.",
+      "evidence": [
+        {
+          "source_item_id": 45884787,
+          "source_field": "body",
+          "value": "It is a DNS service for AWS EC2 to keep the ever changing IPs when you cannot use the Elastic IP like ASG or when you don't want to install any third party clients to your instances.\n\nIt fetches the IPs regularly via AWS API and assign them to fixed subdomains.",
+          "supports": [],
+          "author": "emrekutlu",
+          "shared_at": 1762844266,
+          "source_url": "https://news.ycombinator.com/item?id=45884787"
+        }
+      ],
+      "source_item_id": 45884787,
+      "source_url": "https://news.ycombinator.com/item?id=45884787",
+      "author": "emrekutlu",
+      "shared_at": 1762844266,
+      "links": [
+        "https://cafe.io"
+      ]
+    },
+    {
+      "name": "cafe.io",
+      "description": "A DNS service for AWS EC2 that keeps changing instance IPs pointed at fixed subdomains by regularly fetching IPs via the AWS API, designed for setups like auto-scaling groups where Elastic IPs can't be used or where third-party clients shouldn't be installed on instances.",
+      "problem": "EC2 instance IPs change constantly, which is a problem when you cannot use an Elastic IP (e.g., with auto-scaling groups) or don't want to install third-party clients on your instances.",
+      "audience": null,
+      "builder_usernames": [
+        "emrekutlu"
+      ],
+      "source_excerpt": "It is a DNS service for AWS EC2 to keep the ever changing IPs when you cannot use the Elastic IP like ASG or when you don't want to install any third party clients to your instances.\n\nIt fetches the IPs regularly via AWS API and assign them to fixed subdomains.",
+      "evidence": [
+        {
+          "source_item_id": 45423674,
+          "source_field": "body",
+          "value": "It is a DNS service for AWS EC2 to keep the ever changing IPs when you cannot use the Elastic IP like ASG or when you don't want to install any third party clients to your instances.\n\nIt fetches the IPs regularly via AWS API and assign them to fixed subdomains.",
+          "supports": [],
+          "author": "emrekutlu",
+          "shared_at": 1759225786,
+          "source_url": "https://news.ycombinator.com/item?id=45423674"
+        }
+      ],
+      "source_item_id": 45423674,
+      "source_url": "https://news.ycombinator.com/item?id=45423674",
+      "author": "emrekutlu",
+      "shared_at": 1759225786,
+      "links": [
+        "https://cafe.io"
+      ]
+    }
+  ]
+}

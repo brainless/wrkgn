@@ -1,0 +1,33 @@
+{
+  "id": 10900,
+  "slug": "self-building-ai-agent-creator-753cb54b97",
+  "name": "Self-building AI agent creator",
+  "mentions": [
+    {
+      "name": "Self-building AI agent creator",
+      "description": "This AI agent creates other AI agents from natural-language task descriptions. It runs a requirements-gathering loop with user input, writes and tests code, builds supporting tools, spins up and runs Docker containers, and registers both agents and tools in a central system so it knows what other tools and agents are available. It is connected to Telegram, so builds can be initiated remotely and take from about 10 minutes to an hour, prompting the user for accounts and API keys as needed.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "gngoo"
+      ],
+      "source_excerpt": "in the past month, I have been working on an AI agent that can write its own AI agents. I can give it a task like: \"Please create an AI agent that fetches the weather, and sends me an email every morning about some interesting stuff to do\". The agent then goes through a loop of requirements gathering (with my input), and then starts building himself.",
+      "evidence": [
+        {
+          "source_item_id": 43840212,
+          "source_field": "body",
+          "value": "in the past month, I have been working on an AI agent that can write its own AI agents. I can give it a task like: \"Please create an AI agent that fetches the weather, and sends me an email every morning about some interesting stuff to do\". The agent then goes through a loop of requirements gathering (with my input), and then starts building himself.",
+          "supports": [],
+          "author": "gngoo",
+          "shared_at": 1745976518,
+          "source_url": "https://news.ycombinator.com/item?id=43840212"
+        }
+      ],
+      "source_item_id": 43840212,
+      "source_url": "https://news.ycombinator.com/item?id=43840212",
+      "author": "gngoo",
+      "shared_at": 1745976518,
+      "links": []
+    }
+  ]
+}

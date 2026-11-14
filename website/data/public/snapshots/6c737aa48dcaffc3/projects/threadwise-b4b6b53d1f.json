@@ -1,0 +1,35 @@
+{
+  "id": 11001,
+  "slug": "threadwise-b4b6b53d1f",
+  "name": "ThreadWise",
+  "mentions": [
+    {
+      "name": "ThreadWise",
+      "description": "Email-based AI assistant service that lets users send prompts to a personal ThreadWise address and receive instant AI-powered responses, like an always-available co-worker. Supports scheduling recurring tasks such as daily mortgage rates, airfare price monitoring, weather and news summaries, sports scores, and pulling data from public APIs, effectively serving as a personalized newsletter. Offers a free tier and can run on public LLMs (e.g. OpenAI) or on-premise locally hosted models so company data never leaves the premises.",
+      "problem": "People want quick access to AI in instances where they cannot always install apps or use browser-based tools, such as remote or low bandwidth environments; companies without bandwidth to set up full-fledged AI solutions lack an easy path to AI access.",
+      "audience": "People wanting quick AI access in remote or low-bandwidth environments where they cannot install apps or use browsers, and companies that lack the bandwidth to set up full AI solutions on their own.",
+      "builder_usernames": [
+        "sci_prog"
+      ],
+      "source_excerpt": "I am building a service to make accessing AI as easy as sending email called ThreadWise\n\nhttps://threadwise.app\n\nYou can email prompts directly to your ThreadWise address and get instant AI-powered responses, essentially an always available co-worker.",
+      "evidence": [
+        {
+          "source_item_id": 43828090,
+          "source_field": "body",
+          "value": "I am building a service to make accessing AI as easy as sending email called ThreadWise\n\nhttps://threadwise.app\n\nYou can email prompts directly to your ThreadWise address and get instant AI-powered responses, essentially an always available co-worker.",
+          "supports": [],
+          "author": "sci_prog",
+          "shared_at": 1745892509,
+          "source_url": "https://news.ycombinator.com/item?id=43828090"
+        }
+      ],
+      "source_item_id": 43828090,
+      "source_url": "https://news.ycombinator.com/item?id=43828090",
+      "author": "sci_prog",
+      "shared_at": 1745892509,
+      "links": [
+        "https://threadwise.app"
+      ]
+    }
+  ]
+}

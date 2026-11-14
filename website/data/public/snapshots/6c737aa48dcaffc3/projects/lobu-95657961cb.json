@@ -1,0 +1,35 @@
+{
+  "id": 5616,
+  "slug": "lobu-95657961cb",
+  "name": "Lobu",
+  "mentions": [
+    {
+      "name": "Lobu",
+      "description": "A multi-tenant version of OpenClaw for organizations with a shared memory layer. It includes an entity-based agent context layer that can be used as an OpenClaw plugin, and a sandbox runtime layer built on just-bash with pi that lets users expose the context via a bot and an API.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "buremba"
+      ],
+      "source_excerpt": "I'm working on multi-tenant version of OpenClaw for organizations that has shared memory layer. It includes an entity based agent context layer that can be used as OpenClaw plugin and a sandbox runtime layer which uses just-bash with pi and let you expose the context via a bot an API.",
+      "evidence": [
+        {
+          "source_item_id": 47745376,
+          "source_field": "body",
+          "value": "I'm working on multi-tenant version of OpenClaw for organizations that has shared memory layer. It includes an entity based agent context layer that can be used as OpenClaw plugin and a sandbox runtime layer which uses just-bash with pi and let you expose the context via a bot an API.",
+          "supports": [],
+          "author": "buremba",
+          "shared_at": 1776034421,
+          "source_url": "https://news.ycombinator.com/item?id=47745376"
+        }
+      ],
+      "source_item_id": 47745376,
+      "source_url": "https://news.ycombinator.com/item?id=47745376",
+      "author": "buremba",
+      "shared_at": 1776034421,
+      "links": [
+        "https://lobu.ai"
+      ]
+    }
+  ]
+}

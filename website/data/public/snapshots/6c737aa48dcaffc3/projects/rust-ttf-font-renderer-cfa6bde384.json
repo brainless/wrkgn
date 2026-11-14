@@ -1,0 +1,33 @@
+{
+  "id": 10557,
+  "slug": "rust-ttf-font-renderer-cfa6bde384",
+  "name": "Rust TTF font renderer",
+  "mentions": [
+    {
+      "name": "Rust TTF font renderer",
+      "description": "An experimental font renderer written in Rust. It reads the TTF file format and renders glyphs from straight-line outlines, with ongoing work on the harder parts: bezier curves, contours, and filling glyph interiors. Rendering implementations were checked quickly by plotting glyph outlines in MATLAB using the patch function.",
+      "problem": "Rendering fonts correctly is hard: handling bezier curves, contours, and filling glyph interiors, whereas straight-line outlines are straightforward to render.",
+      "audience": null,
+      "builder_usernames": [
+        "hyperbrainer"
+      ],
+      "source_excerpt": "I have been experimenting with rendering fonts in Rust lately. I was pleasantly surprised by how simple reading the ttf file format is.",
+      "evidence": [
+        {
+          "source_item_id": 44704090,
+          "source_field": "body",
+          "value": "I have been experimenting with rendering fonts in Rust lately. I was pleasantly surprised by how simple reading the ttf file format is.",
+          "supports": [],
+          "author": "hyperbrainer",
+          "shared_at": 1753645720,
+          "source_url": "https://news.ycombinator.com/item?id=44704090"
+        }
+      ],
+      "source_item_id": 44704090,
+      "source_url": "https://news.ycombinator.com/item?id=44704090",
+      "author": "hyperbrainer",
+      "shared_at": 1753645720,
+      "links": []
+    }
+  ]
+}

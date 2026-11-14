@@ -1,0 +1,33 @@
+{
+  "id": 6683,
+  "slug": "red-grid-mgrs-d6aae08170",
+  "name": "Red Grid MGRS",
+  "mentions": [
+    {
+      "name": "Red Grid MGRS",
+      "description": "A phone app that provides core military land navigation capabilities: live 10-digit MGRS grid, dead reckoning, two-point resection, pace count, back azimuth, magnetic declination (auto or manual), waypoint lists with bearing/distance and a wayfinder arrow, six radio report templates (SALUTE, 9-Line MEDEVAC, SPOT, CASEVAC, ICS 201, CFF), NATO phonetic voice readout, and an NVG-compatible green theme. It runs fully offline with zero tracking, network calls, or data collection, is available on the App Store, and is open source on GitHub.",
+      "problem": "The DAGR (AN/PSN-13) military GPS receiver costs $2,500, weighs a pound, and has a dated UI from 2003, so users often end up fighting the device instead of navigating; the military is full of overpriced, outdated systems that a modern phone could handle better.",
+      "audience": "Soldiers and military personnel who need land navigation, patrol planning, grid reporting, and field radio reports — the app's stated military users are outside the available audience enum, so no label is proposed.",
+      "builder_usernames": [
+        "redgridtactical"
+      ],
+      "source_excerpt": "I built Red Grid MGRS to put the same core land nav capabilities into a phone app.",
+      "evidence": [
+        {
+          "source_item_id": 47317716,
+          "source_field": "body",
+          "value": "I built Red Grid MGRS to put the same core land nav capabilities into a phone app.",
+          "supports": [],
+          "author": "redgridtactical",
+          "shared_at": 1773102722,
+          "source_url": "https://news.ycombinator.com/item?id=47317716"
+        }
+      ],
+      "source_item_id": 47317716,
+      "source_url": "https://news.ycombinator.com/item?id=47317716",
+      "author": "redgridtactical",
+      "shared_at": 1773102722,
+      "links": []
+    }
+  ]
+}

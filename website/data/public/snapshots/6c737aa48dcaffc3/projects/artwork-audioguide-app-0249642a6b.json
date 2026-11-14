@@ -1,0 +1,35 @@
+{
+  "id": 7642,
+  "slug": "artwork-audioguide-app-0249642a6b",
+  "name": "Artwork Audioguide App",
+  "mentions": [
+    {
+      "name": "Artwork Audioguide App",
+      "description": "This app identifies artworks from a photo and returns a pre-generated AI audio guide for that artwork. Built as an experiment with AWS S3 Vectors, using different LLMs and TTS models to generate the output, with a live version covering The National Gallery in London.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "victords"
+      ],
+      "source_excerpt": "When AWS released the S3 Vectors last year, I wanted to try it since I had no experience with Vector DBs, so I built a simple audioguide app to play around with it.\n\nBasically, just use it to identify artworks from a photo, then return a pre-generated AI-Audio for that artwork based on the data on their site. I put up a basic live version on my site for The National Gallery in London: https://victorsantiago.me/audioguide/national_gallery.html",
+      "evidence": [
+        {
+          "source_item_id": 46587358,
+          "source_field": "body",
+          "value": "When AWS released the S3 Vectors last year, I wanted to try it since I had no experience with Vector DBs, so I built a simple audioguide app to play around with it.\n\nBasically, just use it to identify artworks from a photo, then return a pre-generated AI-Audio for that artwork based on the data on their site. I put up a basic live version on my site for The National Gallery in London: https://victorsantiago.me/audioguide/national_gallery.html",
+          "supports": [],
+          "author": "victords",
+          "shared_at": 1768219808,
+          "source_url": "https://news.ycombinator.com/item?id=46587358"
+        }
+      ],
+      "source_item_id": 46587358,
+      "source_url": "https://news.ycombinator.com/item?id=46587358",
+      "author": "victords",
+      "shared_at": 1768219808,
+      "links": [
+        "https://victorsantiago.me/audioguide/national_gallery.html"
+      ]
+    }
+  ]
+}

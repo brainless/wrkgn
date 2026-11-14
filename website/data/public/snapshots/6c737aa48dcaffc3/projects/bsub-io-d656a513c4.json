@@ -1,0 +1,35 @@
+{
+  "id": 9466,
+  "slug": "bsub-io-d656a513c4",
+  "name": "bsub.io",
+  "mentions": [
+    {
+      "name": "bsub.io",
+      "description": "This service provides batch processing for developers: users submit heavy-duty jobs without worrying about infrastructure, and bsub handles execution. It starts with PDF extraction, with audio transcoding and speech-to-text next, followed by video transcoding, so a $5/mo VPS is enough to get media operations done.",
+      "problem": "Heavy-duty jobs like media processing normally require dedicated infrastructure; bsub lets a $5/mo VPS suffice.",
+      "audience": "Developers who need to run heavy-duty batch jobs without managing infrastructure",
+      "builder_usernames": [
+        "wkoszek"
+      ],
+      "source_excerpt": "https://www.bsub.io - batch processing for developers.\n\nYou submit heavy duty jobs without worrying about infra, and we take care of execution. We're starting with PDF extraction. Audio transcoding + STT (speech to text) is next. Video transcoding will follow.\n\nThis allows you to have $5/mo VPS and get media operations figured out.",
+      "evidence": [
+        {
+          "source_item_id": 45873177,
+          "source_field": "body",
+          "value": "https://www.bsub.io - batch processing for developers.\n\nYou submit heavy duty jobs without worrying about infra, and we take care of execution. We're starting with PDF extraction. Audio transcoding + STT (speech to text) is next. Video transcoding will follow.\n\nThis allows you to have $5/mo VPS and get media operations figured out.",
+          "supports": [],
+          "author": "wkoszek",
+          "shared_at": 1762757848,
+          "source_url": "https://news.ycombinator.com/item?id=45873177"
+        }
+      ],
+      "source_item_id": 45873177,
+      "source_url": "https://news.ycombinator.com/item?id=45873177",
+      "author": "wkoszek",
+      "shared_at": 1762757848,
+      "links": [
+        "https://www.bsub.io"
+      ]
+    }
+  ]
+}

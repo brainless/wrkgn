@@ -1,0 +1,35 @@
+{
+  "id": 8595,
+  "slug": "coro-209236633b",
+  "name": "Coro",
+  "mentions": [
+    {
+      "name": "Coro",
+      "description": "An open source auth management platform for NATS, designed as a self-hosted alternative to Synadia Cloud's BYON feature. Ships as a single Go binary with an embedded Svelte UI.",
+      "problem": "NATS auth management was tied to a cloud offering (Synadia Cloud's BYON feature) without a self-hosted, open source alternative.",
+      "audience": null,
+      "builder_usernames": [
+        "jonjodev"
+      ],
+      "source_excerpt": "I’ve been working on https://github.com/coro-sh/coro, which is an auth management platform for NATS.\n\nThe goal is basically to be a self hosted, open source alternative to Synadia Cloud’s BYON feature.\n\nThe whole project is shipped as a single Go binary with an embedded UI developed with Svelte.",
+      "evidence": [
+        {
+          "source_item_id": 46273435,
+          "source_field": "body",
+          "value": "I’ve been working on https://github.com/coro-sh/coro, which is an auth management platform for NATS.\n\nThe goal is basically to be a self hosted, open source alternative to Synadia Cloud’s BYON feature.\n\nThe whole project is shipped as a single Go binary with an embedded UI developed with Svelte.",
+          "supports": [],
+          "author": "jonjodev",
+          "shared_at": 1765800514,
+          "source_url": "https://news.ycombinator.com/item?id=46273435"
+        }
+      ],
+      "source_item_id": 46273435,
+      "source_url": "https://news.ycombinator.com/item?id=46273435",
+      "author": "jonjodev",
+      "shared_at": 1765800514,
+      "links": [
+        "https://github.com/coro-sh/coro"
+      ]
+    }
+  ]
+}

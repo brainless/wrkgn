@@ -1,0 +1,35 @@
+{
+  "id": 6979,
+  "slug": "hyperbin-809937d122",
+  "name": "hyperbin",
+  "mentions": [
+    {
+      "name": "hyperbin",
+      "description": "A fast, minimal httpbin clone written in Rust, offering roughly 20x the throughput of the usual httpbin for testing HTTP clients and debugging requests without extra noise.",
+      "problem": "The usual httpbin is slower when testing HTTP clients and debugging requests.",
+      "audience": null,
+      "builder_usernames": [
+        "geetuu"
+      ],
+      "source_excerpt": "https://github.com/vishnugt/hyperbin\n\nA fast, minimal httpbin clone written in Rust. It’s way faster(20x throughput) than the usual httpbin and useful for testing HTTP clients and debugging requests without extra noise.",
+      "evidence": [
+        {
+          "source_item_id": 46943217,
+          "source_field": "body",
+          "value": "https://github.com/vishnugt/hyperbin\n\nA fast, minimal httpbin clone written in Rust. It’s way faster(20x throughput) than the usual httpbin and useful for testing HTTP clients and debugging requests without extra noise.",
+          "supports": [],
+          "author": "geetuu",
+          "shared_at": 1770627991,
+          "source_url": "https://news.ycombinator.com/item?id=46943217"
+        }
+      ],
+      "source_item_id": 46943217,
+      "source_url": "https://news.ycombinator.com/item?id=46943217",
+      "author": "geetuu",
+      "shared_at": 1770627991,
+      "links": [
+        "https://github.com/vishnugt/hyperbin"
+      ]
+    }
+  ]
+}

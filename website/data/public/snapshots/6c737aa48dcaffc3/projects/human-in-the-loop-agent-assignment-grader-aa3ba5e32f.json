@@ -1,0 +1,33 @@
+{
+  "id": 6218,
+  "slug": "human-in-the-loop-agent-assignment-grader-aa3ba5e32f",
+  "name": "Human-in-the-loop agent assignment grader",
+  "mentions": [
+    {
+      "name": "Human-in-the-loop agent assignment grader",
+      "description": "A human-in-the-loop grading tool built on top of the Claude Agent SDK that helps TAs grade student agent-development assignments. Phase 1 downloads the student's code from their submitted GitHub repo URL and runs a series of skill-defined extractions (e.g., presence of a README.md, few-shot examples in the prompt), saving results to a JSON blob. Phase 2 generates probe queries from the agent's system prompt and runs the student's agent locally against those probes, saving queries and results. Phase 3 surfaces subjective items to the TA for 1–5 grading. The rubric is 50% objective and 50% subjective, all driven by the agent.",
+      "problem": null,
+      "audience": "TAs and course staff grading a university agent development class",
+      "builder_usernames": [
+        "red_hare"
+      ],
+      "source_excerpt": "First assignment is in and I'm writing a human-in-the-loop grader for my TAs to use that's built on top of Claude Agent SDK.",
+      "evidence": [
+        {
+          "source_item_id": 47303919,
+          "source_field": "body",
+          "value": "First assignment is in and I'm writing a human-in-the-loop grader for my TAs to use that's built on top of Claude Agent SDK.",
+          "supports": [],
+          "author": "red_hare",
+          "shared_at": 1773021053,
+          "source_url": "https://news.ycombinator.com/item?id=47303919"
+        }
+      ],
+      "source_item_id": 47303919,
+      "source_url": "https://news.ycombinator.com/item?id=47303919",
+      "author": "red_hare",
+      "shared_at": 1773021053,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 5706,
+  "slug": "claude-profiles-bcd184d879",
+  "name": "Claude-profiles",
+  "mentions": [
+    {
+      "name": "Claude-profiles",
+      "description": "This tool provides an easy way to back up and switch between Claude Code profiles by managing the ~/.claude directory.",
+      "problem": "There is no easy way to back up and switch between Claude Code profiles (the ~/.claude directory).",
+      "audience": "Users of Claude Code, i.e., developers working with the ~/.claude directory",
+      "builder_usernames": [
+        "alimoeeny"
+      ],
+      "source_excerpt": "Claude-profiles https://github.com/alimoeeny/claude-profiles\nan easy way to backup and switch your claude-code profile (the ~/.claude directory)",
+      "evidence": [
+        {
+          "source_item_id": 47756865,
+          "source_field": "body",
+          "value": "Claude-profiles https://github.com/alimoeeny/claude-profiles\nan easy way to backup and switch your claude-code profile (the ~/.claude directory)",
+          "supports": [],
+          "author": "alimoeeny",
+          "shared_at": 1776109032,
+          "source_url": "https://news.ycombinator.com/item?id=47756865"
+        }
+      ],
+      "source_item_id": 47756865,
+      "source_url": "https://news.ycombinator.com/item?id=47756865",
+      "author": "alimoeeny",
+      "shared_at": 1776109032,
+      "links": [
+        "https://github.com/alimoeeny/claude-profiles"
+      ]
+    }
+  ]
+}

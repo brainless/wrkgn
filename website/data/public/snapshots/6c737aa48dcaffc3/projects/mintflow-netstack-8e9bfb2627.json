@@ -1,0 +1,35 @@
+{
+  "id": 8474,
+  "slug": "mintflow-netstack-8e9bfb2627",
+  "name": "Mintflow NetStack",
+  "mentions": [
+    {
+      "name": "Mintflow NetStack",
+      "description": "Mintflow NetStack is a macOS (Darwin) app that ports fd.io VPP (Vector Packet Processing) to the Darwin platform and manages multiple VPN and proxy connections in a single profile. It is written in Rust.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mintflow"
+      ],
+      "source_excerpt": "Working on my app https://apps.apple.com/us/app/mintflow-netstack/id6742394218\n\nAs an engineer working on networking and fiddle with various networking OS on router and switch, I finally port my favorite fd.io vpp to darwin platform and built a app to management multiple VPN/Proxy in one profile.",
+      "evidence": [
+        {
+          "source_item_id": 46272197,
+          "source_field": "body",
+          "value": "Working on my app https://apps.apple.com/us/app/mintflow-netstack/id6742394218\n\nAs an engineer working on networking and fiddle with various networking OS on router and switch, I finally port my favorite fd.io vpp to darwin platform and built a app to management multiple VPN/Proxy in one profile.",
+          "supports": [],
+          "author": "mintflow",
+          "shared_at": 1765791157,
+          "source_url": "https://news.ycombinator.com/item?id=46272197"
+        }
+      ],
+      "source_item_id": 46272197,
+      "source_url": "https://news.ycombinator.com/item?id=46272197",
+      "author": "mintflow",
+      "shared_at": 1765791157,
+      "links": [
+        "https://apps.apple.com/us/app/mintflow-netstack/id6742394218"
+      ]
+    }
+  ]
+}

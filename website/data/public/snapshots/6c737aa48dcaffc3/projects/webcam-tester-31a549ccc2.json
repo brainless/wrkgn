@@ -1,0 +1,36 @@
+{
+  "id": 9111,
+  "slug": "webcam-tester-31a549ccc2",
+  "name": "webcam-tester",
+  "mentions": [
+    {
+      "name": "webcam-tester",
+      "description": "A JavaScript library for testing webcams and microphones that can be placed in front of WebRTC or MediaRecorder web apps to diagnose issues such as missing getUserMedia, insecure context, absent devices, policies blocking device access, and unsupported resolutions. It also primes users' OS/browser permissions before they reach the real app.",
+      "problem": "Web apps using webcam/microphone input can break due to missing devices, blocked permissions, insecure contexts, or unsupported resolutions, and these issues are hard to diagnose before users reach the real app.",
+      "audience": "Web developers building WebRTC or MediaRecorder web apps.",
+      "builder_usernames": [
+        "octavn"
+      ],
+      "source_excerpt": "A webcam & microphone JS tester library that you can put in front of your WebRTC or MediaRecorder web app to diagnose any possible issues (the presence of getUserMedia, secure context, required devices, policies blocking device access, supported resolutions, etc.). It also primes your users’ OS/browser permissions before they get to the real app.",
+      "evidence": [
+        {
+          "source_item_id": 45876705,
+          "source_field": "body",
+          "value": "A webcam & microphone JS tester library that you can put in front of your WebRTC or MediaRecorder web app to diagnose any possible issues (the presence of getUserMedia, secure context, required devices, policies blocking device access, supported resolutions, etc.). It also primes your users’ OS/browser permissions before they get to the real app.",
+          "supports": [],
+          "author": "octavn",
+          "shared_at": 1762787422,
+          "source_url": "https://news.ycombinator.com/item?id=45876705"
+        }
+      ],
+      "source_item_id": 45876705,
+      "source_url": "https://news.ycombinator.com/item?id=45876705",
+      "author": "octavn",
+      "shared_at": 1762787422,
+      "links": [
+        "https://addpipe.com/webcam-tester/",
+        "https://github.com/addpipe/webcam-tester"
+      ]
+    }
+  ]
+}

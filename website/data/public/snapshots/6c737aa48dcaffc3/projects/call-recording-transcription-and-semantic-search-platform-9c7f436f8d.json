@@ -1,0 +1,35 @@
+{
+  "id": 6401,
+  "slug": "call-recording-transcription-and-semantic-search-platform-9c7f436f8d",
+  "name": "Call recording, transcription, and semantic search platform",
+  "mentions": [
+    {
+      "name": "Call recording, transcription, and semantic search platform",
+      "description": "Call recording and voice intelligence platform that records phone calls, transcribes them, generates AI summaries, and enables semantic search over transcripts, at $0.30/hour as a cheaper alternative to Twilio Voice Intelligence ($1.50/hour). Supports cross-lingual semantic search, where a Spanish query returns English calls without any translation code. Built on 15+ Go microservices running on k3s.",
+      "problem": "Twilio Voice Intelligence is expensive at $1.50/hour; this offers comparable call recording, transcription, and AI summary capabilities at $0.30/hour.",
+      "audience": null,
+      "builder_usernames": [
+        "functional_dev"
+      ],
+      "source_excerpt": "Building a cheaper alternative to Twilio Voice Intelligence. Record phone calls, transcribe, generate AI summaries, enable semantic search over transcripts — $0.30/hour vs Twilio's $1.50/hour.",
+      "evidence": [
+        {
+          "source_item_id": 47306128,
+          "source_field": "body",
+          "value": "Building a cheaper alternative to Twilio Voice Intelligence. Record phone calls, transcribe, generate AI summaries, enable semantic search over transcripts — $0.30/hour vs Twilio's $1.50/hour.",
+          "supports": [],
+          "author": "functional_dev",
+          "shared_at": 1773044044,
+          "source_url": "https://news.ycombinator.com/item?id=47306128"
+        }
+      ],
+      "source_item_id": 47306128,
+      "source_url": "https://news.ycombinator.com/item?id=47306128",
+      "author": "functional_dev",
+      "shared_at": 1773044044,
+      "links": [
+        "https://audiotext.live/"
+      ]
+    }
+  ]
+}

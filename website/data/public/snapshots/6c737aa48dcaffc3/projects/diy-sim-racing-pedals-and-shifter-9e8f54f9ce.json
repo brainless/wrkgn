@@ -1,0 +1,33 @@
+{
+  "id": 7638,
+  "slug": "diy-sim-racing-pedals-and-shifter-9e8f54f9ce",
+  "name": "DIY sim racing pedals and shifter",
+  "mentions": [
+    {
+      "name": "DIY sim racing pedals and shifter",
+      "description": "This is a DIY sim racing input set: a shifter and three pedals built from scratch. The pedal frame and base are 3D printed in PETG with cheap M5 hardware, and hall effect sensors measure each pedal's proximity to the frame base. The sensors wire into an ESP32's ADC ports, and a custom USB HID device written with TinyUSB and ESP-IDF mounts as a generic game controller. A stiff spring stands in for a load cell brake pedal to keep costs down; the build was inspired by cncdan's design and cost about $40 in materials plus a weekend of time, outperforming borrowed Logitech pedals in feel.",
+      "problem": "The author's sim racing setup only had a Bluetooth game controller, and they wanted pedal hardware built as cheaply as possible.",
+      "audience": "The author's own sim racing hobby use",
+      "builder_usernames": [
+        "daringrain32781"
+      ],
+      "source_excerpt": "I've taken up designing and building my own shifter and (3) pedals.\n\nI printed the main pedal frame and base with PETG, and I found some M5 hardware on amazon for pretty cheap. The pedals use a hall effect sensor to measure the proximity of the pedal to the frame base. They're wired to an esp32 ADC ports and I wrote a simple USB HID device with tinyusb and esp-idf which mounts as a generic game controller",
+      "evidence": [
+        {
+          "source_item_id": 46595421,
+          "source_field": "body",
+          "value": "I've taken up designing and building my own shifter and (3) pedals.\n\nI printed the main pedal frame and base with PETG, and I found some M5 hardware on amazon for pretty cheap. The pedals use a hall effect sensor to measure the proximity of the pedal to the frame base. They're wired to an esp32 ADC ports and I wrote a simple USB HID device with tinyusb and esp-idf which mounts as a generic game controller",
+          "supports": [],
+          "author": "daringrain32781",
+          "shared_at": 1768259133,
+          "source_url": "https://news.ycombinator.com/item?id=46595421"
+        }
+      ],
+      "source_item_id": 46595421,
+      "source_url": "https://news.ycombinator.com/item?id=46595421",
+      "author": "daringrain32781",
+      "shared_at": 1768259133,
+      "links": []
+    }
+  ]
+}

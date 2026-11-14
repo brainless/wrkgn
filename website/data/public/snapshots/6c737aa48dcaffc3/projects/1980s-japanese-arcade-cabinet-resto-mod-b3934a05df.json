@@ -1,0 +1,35 @@
+{
+  "id": 9074,
+  "slug": "1980s-japanese-arcade-cabinet-resto-mod-b3934a05df",
+  "name": "1980s Japanese arcade cabinet resto-mod",
+  "mentions": [
+    {
+      "name": "1980s Japanese arcade cabinet resto-mod",
+      "description": "This project resto-mods a 1980s Japanese arcade cabinet to make it compatible with most any game that would have run on such a cab. The original 15kHz CRT was revived by recapping its board, and the rebuilt control panel uses RGB-lit buttons that change color per loaded game, controlled by an ESP-32s2 that emulates a keyboard and accepts serial messages from the host. A Stream Deck integrated in the control panel runs a custom Node application for auxiliary functions on Linux, where no OEM software exists. The main challenge is getting a suitable signal to the CRT: attempts included Raspberry Pi GPIO through a VGA666 board (limited to 16-bit color) and a downscaler (24-bit color but no resolution switching), with an AMD system currently being tested since its Linux driver can set custom 15kHz/25kHz resolutions from the VGA port. A writeup is planned near completion.",
+      "problem": "The original control panel was unsalvageable and insufficient for running a wide range of games, and getting a suitable video signal to the 15kHz CRT was difficult — GPIO output capped colors at 16-bit, and downscaling prevented resolution switching.",
+      "audience": null,
+      "builder_usernames": [
+        "platevoltage"
+      ],
+      "source_excerpt": "I'm working on restoring (or really resto-modding) a 1980's Japanese arcade machine.",
+      "evidence": [
+        {
+          "source_item_id": 45872660,
+          "source_field": "body",
+          "value": "I'm working on restoring (or really resto-modding) a 1980's Japanese arcade machine.",
+          "supports": [],
+          "author": "platevoltage",
+          "shared_at": 1762751590,
+          "source_url": "https://news.ycombinator.com/item?id=45872660"
+        }
+      ],
+      "source_item_id": 45872660,
+      "source_url": "https://news.ycombinator.com/item?id=45872660",
+      "author": "platevoltage",
+      "shared_at": 1762751590,
+      "links": [
+        "https://share.icloud.com/photos/00ajYWxKpZmYrh6KmlHOxW4tA"
+      ]
+    }
+  ]
+}

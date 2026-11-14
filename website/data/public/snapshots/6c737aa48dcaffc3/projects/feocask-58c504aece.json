@@ -1,0 +1,35 @@
+{
+  "id": 7538,
+  "slug": "feocask-58c504aece",
+  "name": "feocask",
+  "mentions": [
+    {
+      "name": "feocask",
+      "description": "A Rust port of the Erlang Bitcask key-value store with a strict no-lock design built on Tokio channels, using Vector Clocks and Hybrid Logical Clocks. It is safe across any number of threads at the cost of N^2 reconciliation and extra drive space, with future plans for optional automatic distribution across multiple nodes.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tombert"
+      ],
+      "source_excerpt": "I have been porting over my favorite Erlang library \"Bitcask\" to Rust.\n\nhttps://git.sr.ht/~tombert/feocask\n\nCalled \"feocask\" cuz feo means \"ugly\" in Spanish and FeO to mean Iron Oxide for Rust.",
+      "evidence": [
+        {
+          "source_item_id": 46578424,
+          "source_field": "body",
+          "value": "I have been porting over my favorite Erlang library \"Bitcask\" to Rust.\n\nhttps://git.sr.ht/~tombert/feocask\n\nCalled \"feocask\" cuz feo means \"ugly\" in Spanish and FeO to mean Iron Oxide for Rust.",
+          "supports": [],
+          "author": "tombert",
+          "shared_at": 1768157024,
+          "source_url": "https://news.ycombinator.com/item?id=46578424"
+        }
+      ],
+      "source_item_id": 46578424,
+      "source_url": "https://news.ycombinator.com/item?id=46578424",
+      "author": "tombert",
+      "shared_at": 1768157024,
+      "links": [
+        "https://git.sr.ht/~tombert/feocask"
+      ]
+    }
+  ]
+}

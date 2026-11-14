@@ -1,0 +1,33 @@
+{
+  "id": 11055,
+  "slug": "foss-card-game-server-and-frontend-bba56fd95f",
+  "name": "FOSS card game server and frontend",
+  "mentions": [
+    {
+      "name": "FOSS card game server and frontend",
+      "description": "This FOSS card game consists of a simple server that reads card data from a database and processes gameplay with lightweight server-side code, plus a basic frontend, to be released under the MIT license. It is designed so a community can build multiple interchangeable frontends (e.g. a CLI client or an Unreal client) that are compatible with the same server.",
+      "problem": "After trying backend tools like Supabase and Firebase, the author found they need to write their own solution because they don't need a bunch of enterprise-level features, just card data storage and simple server-side game processing.",
+      "audience": null,
+      "builder_usernames": [
+        "999900000999"
+      ],
+      "source_excerpt": "Working on a FOSS card game.\n\nI realized after trying multiple tools like Supabase and Firebase, I really need to program my own solution. I don't need a bunch of *Enterprise* level features. I just need to read the card data from a database, and process the games with some simple server side code.\n\nI hope to have the server, along with a basic front end done by this summer. Then it'll be released under a permissible license. Probably MIT.",
+      "evidence": [
+        {
+          "source_item_id": 43822224,
+          "source_field": "body",
+          "value": "Working on a FOSS card game.\n\nI realized after trying multiple tools like Supabase and Firebase, I really need to program my own solution. I don't need a bunch of *Enterprise* level features. I just need to read the card data from a database, and process the games with some simple server side code.\n\nI hope to have the server, along with a basic front end done by this summer. Then it'll be released under a permissible license. Probably MIT.",
+          "supports": [],
+          "author": "999900000999",
+          "shared_at": 1745852365,
+          "source_url": "https://news.ycombinator.com/item?id=43822224"
+        }
+      ],
+      "source_item_id": 43822224,
+      "source_url": "https://news.ycombinator.com/item?id=43822224",
+      "author": "999900000999",
+      "shared_at": 1745852365,
+      "links": []
+    }
+  ]
+}

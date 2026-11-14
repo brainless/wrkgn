@@ -1,0 +1,64 @@
+{
+  "id": 5208,
+  "slug": "tiny-vllm-ad94437471",
+  "name": "tiny-vllm",
+  "mentions": [
+    {
+      "name": "tiny-vllm",
+      "description": "An open course on building a high-performance LLM inference engine, planned to be finished by the end of April, with the accompanying tiny-vllm inference engine code hosted on GitHub.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jmaczan",
+        "yu3zhou4"
+      ],
+      "source_excerpt": "An open course on building high performance LLM inference engine! Hope to finish by the end of April\n\nhttps://github.com/jmaczan/tiny-vllm",
+      "evidence": [
+        {
+          "source_item_id": 47745855,
+          "source_field": "body",
+          "value": "An open course on building high performance LLM inference engine! Hope to finish by the end of April\n\nhttps://github.com/jmaczan/tiny-vllm",
+          "supports": [],
+          "author": "yu3zhou4",
+          "shared_at": 1776038195,
+          "source_url": "https://news.ycombinator.com/item?id=47745855"
+        }
+      ],
+      "source_item_id": 47745855,
+      "source_url": "https://news.ycombinator.com/item?id=47745855",
+      "author": "yu3zhou4",
+      "shared_at": 1776038195,
+      "links": [
+        "https://github.com/jmaczan/tiny-vllm"
+      ]
+    },
+    {
+      "name": "tiny-vllm",
+      "description": "A from-scratch, minimal reimplementation of vLLM in C++ and CUDA, serving as a high-throughput LLM inference server.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "yu3zhou4"
+      ],
+      "source_excerpt": "I’m recreating a tiny version of vLLM in C++ and CUDA from scratch (high throughput LLM inference server)\n\nhttps://github.com/jmaczan/tiny-vllm",
+      "evidence": [
+        {
+          "source_item_id": 47305226,
+          "source_field": "body",
+          "value": "I’m recreating a tiny version of vLLM in C++ and CUDA from scratch (high throughput LLM inference server)\n\nhttps://github.com/jmaczan/tiny-vllm",
+          "supports": [],
+          "author": "yu3zhou4",
+          "shared_at": 1773034508,
+          "source_url": "https://news.ycombinator.com/item?id=47305226"
+        }
+      ],
+      "source_item_id": 47305226,
+      "source_url": "https://news.ycombinator.com/item?id=47305226",
+      "author": "yu3zhou4",
+      "shared_at": 1773034508,
+      "links": [
+        "https://github.com/jmaczan/tiny-vllm"
+      ]
+    }
+  ]
+}

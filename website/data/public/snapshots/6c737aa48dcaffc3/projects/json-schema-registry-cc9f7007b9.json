@@ -1,0 +1,33 @@
+{
+  "id": 10840,
+  "slug": "json-schema-registry-cc9f7007b9",
+  "name": "JSON Schema Registry",
+  "mentions": [
+    {
+      "name": "JSON Schema Registry",
+      "description": "This self-hosted micro-service, currently in alpha and largely undocumented, lets users provision JSON Schemas from a git repository and handles the heavy lifting of schema management, including rich API access for schema-related operations. It consolidates earlier custom projects built for various organizations.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jviotti"
+      ],
+      "source_excerpt": "Right now I'm trying to consolidate a lot of the things I built into a \"JSON Schema Registry\" self-hosted micro-service that you can just provision your schemas to (from a git repo) and it will do all of the heavy lifting for you, including rich API access to do a lot of schema related operations. Still in alpha (and largely undocumented!), but working hard to transition some of the custom projects I did for various orgs to use this micro-service long term.",
+      "evidence": [
+        {
+          "source_item_id": 43821327,
+          "source_field": "body",
+          "value": "Right now I'm trying to consolidate a lot of the things I built into a \"JSON Schema Registry\" self-hosted micro-service that you can just provision your schemas to (from a git repo) and it will do all of the heavy lifting for you, including rich API access to do a lot of schema related operations. Still in alpha (and largely undocumented!), but working hard to transition some of the custom projects I did for various orgs to use this micro-service long term.",
+          "supports": [],
+          "author": "jviotti",
+          "shared_at": 1745846931,
+          "source_url": "https://news.ycombinator.com/item?id=43821327"
+        }
+      ],
+      "source_item_id": 43821327,
+      "source_url": "https://news.ycombinator.com/item?id=43821327",
+      "author": "jviotti",
+      "shared_at": 1745846931,
+      "links": []
+    }
+  ]
+}

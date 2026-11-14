@@ -1,0 +1,35 @@
+{
+  "id": 11073,
+  "slug": "gooseus-natsrun-2f841ef843",
+  "name": "@gooseus/natsrun",
+  "mentions": [
+    {
+      "name": "@gooseus/natsrun",
+      "description": "An npm library for routing messages within an application using the same wildcard subject semantics that NATS uses. It is intended for consuming a NATS firehose of messages in a single application and routing them internally with the same subject rules, making it easy to split them out as separate consumers later if needed.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "gooseus"
+      ],
+      "source_excerpt": "I recently published this library for routing messages within an application using the same kind of wildcard semantics that NATS uses - https://www.npmjs.com/package/@gooseus/natsrun",
+      "evidence": [
+        {
+          "source_item_id": 43826154,
+          "source_field": "body",
+          "value": "I recently published this library for routing messages within an application using the same kind of wildcard semantics that NATS uses - https://www.npmjs.com/package/@gooseus/natsrun",
+          "supports": [],
+          "author": "gooseus",
+          "shared_at": 1745874664,
+          "source_url": "https://news.ycombinator.com/item?id=43826154"
+        }
+      ],
+      "source_item_id": 43826154,
+      "source_url": "https://news.ycombinator.com/item?id=43826154",
+      "author": "gooseus",
+      "shared_at": 1745874664,
+      "links": [
+        "https://www.npmjs.com/package/@gooseus/natsrun"
+      ]
+    }
+  ]
+}

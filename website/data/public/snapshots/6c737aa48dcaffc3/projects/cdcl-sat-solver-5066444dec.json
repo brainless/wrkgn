@@ -1,0 +1,33 @@
+{
+  "id": 4156,
+  "slug": "cdcl-sat-solver-5066444dec",
+  "name": "CDCL SAT solver",
+  "mentions": [
+    {
+      "name": "CDCL SAT solver",
+      "description": "A from-scratch CDCL (conflict-driven clause learning) SAT solver, following the author's earlier experiments with DP and DPLL SAT solvers. Work in progress, currently focused on deriving the learned clause after a conflict.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Retro_Dev"
+      ],
+      "source_excerpt": "Attemping to write my own CDCL SAT solver right now. I've experimented in the past with a DP & DPLL SAT solver. I'm currently somewhat mentally stuck on how to create the derived clause after a conflict, but I'll get there :)",
+      "evidence": [
+        {
+          "source_item_id": 48531937,
+          "source_field": "body",
+          "value": "Attemping to write my own CDCL SAT solver right now. I've experimented in the past with a DP & DPLL SAT solver. I'm currently somewhat mentally stuck on how to create the derived clause after a conflict, but I'll get there :)",
+          "supports": [],
+          "author": "Retro_Dev",
+          "shared_at": 1781466987,
+          "source_url": "https://news.ycombinator.com/item?id=48531937"
+        }
+      ],
+      "source_item_id": 48531937,
+      "source_url": "https://news.ycombinator.com/item?id=48531937",
+      "author": "Retro_Dev",
+      "shared_at": 1781466987,
+      "links": []
+    }
+  ]
+}

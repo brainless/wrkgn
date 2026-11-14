@@ -1,0 +1,93 @@
+{
+  "id": 3781,
+  "slug": "skuilder-vue-skuilder-add9829733",
+  "name": "Skuilder (vue-skuilder)",
+  "mentions": [
+    {
+      "name": "Skuilder (vue-skuilder)",
+      "description": "An open-source framework for building general purpose interactive tutoring systems, built on Vue. It combines a spaced-repetition (SRS) background process with a pluggable system of pedagogy protocols applied over a given curriculum.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "NiloCK"
+      ],
+      "source_excerpt": "I'm working on a framework for general purpose interactive tutoring systems. An SRS background process over a pluggable system of pedagogy protocols over a given curriculum.",
+      "evidence": [
+        {
+          "source_item_id": 48530851,
+          "source_field": "body",
+          "value": "I'm working on a framework for general purpose interactive tutoring systems. An SRS background process over a pluggable system of pedagogy protocols over a given curriculum.",
+          "supports": [],
+          "author": "NiloCK",
+          "shared_at": 1781461816,
+          "source_url": "https://news.ycombinator.com/item?id=48530851"
+        }
+      ],
+      "source_item_id": 48530851,
+      "source_url": "https://news.ycombinator.com/item?id=48530851",
+      "author": "NiloCK",
+      "shared_at": 1781461816,
+      "links": [
+        "https://github.com/patched-network/vue-skuilder",
+        "https://patched.network/skuilder"
+      ]
+    },
+    {
+      "name": "Skuilder",
+      "description": "An open-source (AGPL) stack for building interactive tutoring systems. It provides SRS++ with hooks for defining custom pedagogical protocols over knowledge dependency graphs, Elo rating systems, and a gracefully differentiable curriculum that can hill-climb in efficacy. The author is scaffolding commercial learning SaaS products on top of it.",
+      "problem": null,
+      "audience": "Developers building interactive tutoring and learning systems.",
+      "builder_usernames": [
+        "NiloCK"
+      ],
+      "source_excerpt": "I am working on [1] a modernized open (AGPL) stack for interactive tutoring systems. SRS++, with hooks for defining your own pedagogical protocols over knowledge dependency graphs, Elo rating systems, etc, and with an eye toward gracefully differentiable curriculum that can hill-climb in terms of its efficacy.",
+      "evidence": [
+        {
+          "source_item_id": 47745803,
+          "source_field": "body",
+          "value": "I am working on [1] a modernized open (AGPL) stack for interactive tutoring systems. SRS++, with hooks for defining your own pedagogical protocols over knowledge dependency graphs, Elo rating systems, etc, and with an eye toward gracefully differentiable curriculum that can hill-climb in terms of its efficacy.",
+          "supports": [],
+          "author": "NiloCK",
+          "shared_at": 1776037851,
+          "source_url": "https://news.ycombinator.com/item?id=47745803"
+        }
+      ],
+      "source_item_id": 47745803,
+      "source_url": "https://news.ycombinator.com/item?id=47745803",
+      "author": "NiloCK",
+      "shared_at": 1776037851,
+      "links": [
+        "https://github.com/patched-network/vue-skuilder",
+        "https://patched.network/skuilder"
+      ]
+    },
+    {
+      "name": "skuilder",
+      "description": "An AGPL framework and toolkit for building SRS++-based interactive tutoring systems, aimed at mechanizing the inner and outer feedback loops of deliberate practice so learners maximize skill uptake while best practices are refined from observed results.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "NiloCK"
+      ],
+      "source_excerpt": "skuilder - (skill builder) - https://github.com/patched-network/vue-skuilder - an AGPL framework / toolkit for SRS++ based interactive tutoring systems",
+      "evidence": [
+        {
+          "source_item_id": 45870832,
+          "source_field": "body",
+          "value": "skuilder - (skill builder) - https://github.com/patched-network/vue-skuilder - an AGPL framework / toolkit for SRS++ based interactive tutoring systems",
+          "supports": [],
+          "author": "NiloCK",
+          "shared_at": 1762735112,
+          "source_url": "https://news.ycombinator.com/item?id=45870832"
+        }
+      ],
+      "source_item_id": 45870832,
+      "source_url": "https://news.ycombinator.com/item?id=45870832",
+      "author": "NiloCK",
+      "shared_at": 1762735112,
+      "links": [
+        "https://github.com/patched-network/vue-skuilder"
+      ]
+    }
+  ]
+}

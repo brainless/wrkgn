@@ -1,0 +1,35 @@
+{
+  "id": 3816,
+  "slug": "rerouter-f6ea2667af",
+  "name": "rerouter",
+  "mentions": [
+    {
+      "name": "rerouter",
+      "description": "A message routing and automation platform that bridges multiple messaging platforms. It categorizes incoming instant messages using a local Ollama model or regex keyword detection, can relay deleted messages elsewhere to preserve traces, lets users choose whether connections originate from their machine or provided proxies, and supports authentication methods that may violate platform TOS (e.g. using a user account as a Discord bot). It works immediately without creating an account, though its onboarding and examples still need refining.",
+      "problem": "Similar automation products like make.com already exist, but the author wanted things to work differently, such as being usable immediately without creating an account.",
+      "audience": null,
+      "builder_usernames": [
+        "Cabbache"
+      ],
+      "source_excerpt": "I've been building https://rerouter.app/. Similar products such as make.com already exist but I wanted some things to work differently, for example you can use it immediately without creating an account.",
+      "evidence": [
+        {
+          "source_item_id": 48538595,
+          "source_field": "body",
+          "value": "I've been building https://rerouter.app/. Similar products such as make.com already exist but I wanted some things to work differently, for example you can use it immediately without creating an account.",
+          "supports": [],
+          "author": "Cabbache",
+          "shared_at": 1781514511,
+          "source_url": "https://news.ycombinator.com/item?id=48538595"
+        }
+      ],
+      "source_item_id": 48538595,
+      "source_url": "https://news.ycombinator.com/item?id=48538595",
+      "author": "Cabbache",
+      "shared_at": 1781514511,
+      "links": [
+        "https://rerouter.app/"
+      ]
+    }
+  ]
+}

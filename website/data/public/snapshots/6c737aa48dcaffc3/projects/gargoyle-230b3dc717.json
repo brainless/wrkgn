@@ -1,0 +1,63 @@
+{
+  "id": 4239,
+  "slug": "gargoyle-230b3dc717",
+  "name": "gargoyle",
+  "mentions": [
+    {
+      "name": "gargoyle",
+      "description": "An ActivityPub server with a theoretically Mastodon-compatible UI, tested with BookWyrm, Lemmy, Mastodon and GTS, aiming for a pretty UI and an open, broadly federated fediverse.",
+      "problem": "Annoyance at homogeneous fediverse dev teams that don't want their services to federate with others, and GTS being too hard to hack on.",
+      "audience": null,
+      "builder_usernames": [
+        "RamblingCTO"
+      ],
+      "source_excerpt": "and gargoyle, an activitypub server with a (theoretically mastodon compatible UI) https://github.com/myfedi/gargoyle. Was annoyed at the homogenous fediverse dev teams out there that don't want their precious service federate with others.",
+      "evidence": [
+        {
+          "source_item_id": 48529878,
+          "source_field": "body",
+          "value": "and gargoyle, an activitypub server with a (theoretically mastodon compatible UI) https://github.com/myfedi/gargoyle. Was annoyed at the homogenous fediverse dev teams out there that don't want their precious service federate with others.",
+          "supports": [],
+          "author": "RamblingCTO",
+          "shared_at": 1781457526,
+          "source_url": "https://news.ycombinator.com/item?id=48529878"
+        }
+      ],
+      "source_item_id": 48529878,
+      "source_url": "https://news.ycombinator.com/item?id=48529878",
+      "author": "RamblingCTO",
+      "shared_at": 1781457526,
+      "links": [
+        "https://github.com/myfedi/gargoyle"
+      ]
+    },
+    {
+      "name": "gargoyle",
+      "description": "An open ActivityPub/fediverse server built as a GoToSocial alternative, designed with an emphasis on interoperability, hackability, and openness.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "RamblingCTO"
+      ],
+      "source_excerpt": "I've started working on a gotosocial alternative (activitypub/fediverse server) that's a bit more geared towards interoperability, hackability, and openness. Also submitted an NLNet funding request, fingers crossed!\n\nhttps://github.com/myfedi/gargoyle",
+      "evidence": [
+        {
+          "source_item_id": 44710621,
+          "source_field": "body",
+          "value": "I've started working on a gotosocial alternative (activitypub/fediverse server) that's a bit more geared towards interoperability, hackability, and openness. Also submitted an NLNet funding request, fingers crossed!\n\nhttps://github.com/myfedi/gargoyle",
+          "supports": [],
+          "author": "RamblingCTO",
+          "shared_at": 1753708815,
+          "source_url": "https://news.ycombinator.com/item?id=44710621"
+        }
+      ],
+      "source_item_id": 44710621,
+      "source_url": "https://news.ycombinator.com/item?id=44710621",
+      "author": "RamblingCTO",
+      "shared_at": 1753708815,
+      "links": [
+        "https://github.com/myfedi/gargoyle"
+      ]
+    }
+  ]
+}

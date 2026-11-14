@@ -1,0 +1,33 @@
+{
+  "id": 8666,
+  "slug": "graph-rag-integration-for-claude-code-4b56a1f69f",
+  "name": "Graph-RAG integration for Claude Code",
+  "mentions": [
+    {
+      "name": "Graph-RAG integration for Claude Code",
+      "description": "A Graph-RAG integration for Claude Code that uses a graph database to capture the many interconnections between components (such as components shared across multiple clients), featuring a custom memory mechanism and database-fed personality context for the AI experience.",
+      "problem": "The author's work involves many interconnections (e.g., components used at multiple clients), motivating a graph database approach for memory and retrieval.",
+      "audience": null,
+      "builder_usernames": [
+        "tqwhite"
+      ],
+      "source_excerpt": "Working on a Graph-RAG integration with Claude Code. My work has many interconnections (components used at multiple clients for example) so learning the graph db way of thinking has been very interesting. I have created my own memory mechanism and use the database to feed a personality into the experience. Tons of fun.",
+      "evidence": [
+        {
+          "source_item_id": 46280737,
+          "source_field": "body",
+          "value": "Working on a Graph-RAG integration with Claude Code. My work has many interconnections (components used at multiple clients for example) so learning the graph db way of thinking has been very interesting. I have created my own memory mechanism and use the database to feed a personality into the experience. Tons of fun.",
+          "supports": [],
+          "author": "tqwhite",
+          "shared_at": 1765833157,
+          "source_url": "https://news.ycombinator.com/item?id=46280737"
+        }
+      ],
+      "source_item_id": 46280737,
+      "source_url": "https://news.ycombinator.com/item?id=46280737",
+      "author": "tqwhite",
+      "shared_at": 1765833157,
+      "links": []
+    }
+  ]
+}

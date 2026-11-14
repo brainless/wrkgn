@@ -1,0 +1,35 @@
+{
+  "id": 10801,
+  "slug": "beat-counter-ccdd43468c",
+  "name": "beat_counter",
+  "mentions": [
+    {
+      "name": "beat_counter",
+      "description": "This tool generates videos with beat counting from music, serving as the beat-detection step of a dance rhythm training project. Beat detection works reasonably well, though downbeat detection and structuring music into dance counts (e.g., 8 or 6 beats) are still unsolved, and no suitable modern models were found for interpreting music.",
+      "problem": "Downbeats are tricky to detect and there are no good solutions for further structuring of music into dance counts; available algorithms seem to be from a previous decade.",
+      "audience": null,
+      "builder_usernames": [
+        "zby"
+      ],
+      "source_excerpt": "The first step is beat detection in music - here is my code for generating videos with beat counting: https://github.com/zby/beat_counter (vibe coding warning).",
+      "evidence": [
+        {
+          "source_item_id": 43819171,
+          "source_field": "body",
+          "value": "The first step is beat detection in music - here is my code for generating videos with beat counting: https://github.com/zby/beat_counter (vibe coding warning).",
+          "supports": [],
+          "author": "zby",
+          "shared_at": 1745831550,
+          "source_url": "https://news.ycombinator.com/item?id=43819171"
+        }
+      ],
+      "source_item_id": 43819171,
+      "source_url": "https://news.ycombinator.com/item?id=43819171",
+      "author": "zby",
+      "shared_at": 1745831550,
+      "links": [
+        "https://github.com/zby/beat_counter"
+      ]
+    }
+  ]
+}

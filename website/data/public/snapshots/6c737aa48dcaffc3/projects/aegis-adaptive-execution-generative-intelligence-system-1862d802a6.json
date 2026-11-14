@@ -1,0 +1,33 @@
+{
+  "id": 6128,
+  "slug": "aegis-adaptive-execution-generative-intelligence-system-1862d802a6",
+  "name": "AEGIS (Adaptive Execution & Generative Intelligence System)",
+  "mentions": [
+    {
+      "name": "AEGIS (Adaptive Execution & Generative Intelligence System)",
+      "description": "Self-hosted agentic operating system running on a single workstation with a consumer GPU. Uses a three-tier model cascade: a cloud model handles architecture and reviews diffs with approval authority but never executes directly, a local 32B model handles execution and code generation, and smaller local models handle evaluation. Features include distributed-lock GPU arbitration across competing inference services, read-only access to institutional memory so local models have context before task execution, and autonomous server fleet provisioning. Planned additions are department-based task queues (infrastructure, client consulting, internal tooling) and idle-time priority advisories, aiming for a Jarvis-like assistant rather than a chatbot.",
+      "problem": "Local models 'fly blind' without context before executing tasks, and competing inference services contend for the same GPU resources.",
+      "audience": "The builder's own personal assistant use — anticipating what the user needs rather than waiting to be asked",
+      "builder_usernames": [
+        "LavaDMan"
+      ],
+      "source_excerpt": "Building a self-hosted agentic OS I call AEGIS — Adaptive Execution & Generative Intelligence System. Running on a single workstation with a consumer GPU.",
+      "evidence": [
+        {
+          "source_item_id": 47310860,
+          "source_field": "body",
+          "value": "Building a self-hosted agentic OS I call AEGIS — Adaptive Execution & Generative Intelligence System. Running on a single workstation with a consumer GPU.",
+          "supports": [],
+          "author": "LavaDMan",
+          "shared_at": 1773072245,
+          "source_url": "https://news.ycombinator.com/item?id=47310860"
+        }
+      ],
+      "source_item_id": 47310860,
+      "source_url": "https://news.ycombinator.com/item?id=47310860",
+      "author": "LavaDMan",
+      "shared_at": 1773072245,
+      "links": []
+    }
+  ]
+}

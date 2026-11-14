@@ -1,0 +1,35 @@
+{
+  "id": 5225,
+  "slug": "notion-agent-hive-5cc44b2835",
+  "name": "Notion Agent Hive",
+  "mentions": [
+    {
+      "name": "Notion Agent Hive",
+      "description": "This tool turns Notion into the memory and orchestration layer for coding agents, running a plan-implement-review loop that produces a Notion page with a kanban board. Users can link existing documentation, share the page to collaborate, annotate and comment to steer the planner, and get versioning out of the box. Notion serves as persistent memory so the agent's full context can be restored after time away, and it can fetch and validate pull request comments, report on them, and update the plan/board as needed.",
+      "problem": "Plans for longer-running, ambitious features get awkward to refine in markdown files inside a TUI, especially when everything lives in its own repo; the author wanted a tool like Plannotator that could also work for agent execution, not just planning.",
+      "audience": null,
+      "builder_usernames": [
+        "lbreakjai"
+      ],
+      "source_excerpt": "So I've been working on something that turns Notion into the memory and orchestration layer for agents.\n\nUnderneath, it's a plan-implement-review loop, but you get a nice Notion page with a kanban board out of it.",
+      "evidence": [
+        {
+          "source_item_id": 47743863,
+          "source_field": "body",
+          "value": "So I've been working on something that turns Notion into the memory and orchestration layer for agents.\n\nUnderneath, it's a plan-implement-review loop, but you get a nice Notion page with a kanban board out of it.",
+          "supports": [],
+          "author": "lbreakjai",
+          "shared_at": 1776024340,
+          "source_url": "https://news.ycombinator.com/item?id=47743863"
+        }
+      ],
+      "source_item_id": 47743863,
+      "source_url": "https://news.ycombinator.com/item?id=47743863",
+      "author": "lbreakjai",
+      "shared_at": 1776024340,
+      "links": [
+        "https://tessellate-digital.github.io/notion-agent-hive/"
+      ]
+    }
+  ]
+}

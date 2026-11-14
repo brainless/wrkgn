@@ -1,0 +1,35 @@
+{
+  "id": 4630,
+  "slug": "orisun-04130ec7bf",
+  "name": "orisun",
+  "mentions": [
+    {
+      "name": "orisun",
+      "description": "Orisun is a GitLab-first project methodology that brings epics and work items into the repository. Presenting the project and describing its domain produces meaningful epics and work items, which are automatically reflected onto the GitLab kanban board via a GitLab CI component template.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "gchamonlive"
+      ],
+      "source_excerpt": "https://gitlab.com/gabriel.chamon/orisun is a Gitlab-first methodology I've been cooking for the past month that brings epics and work-items to the repository. Present your project, describe your domain and it will produce meaningful epics and work-items that are automatically reflected into Gitlab kanban board using https://gitlab.com/gabriel.chamon/ci-components/-/tree/main/templates/orisun-gitlab in Gitlab ci.",
+      "evidence": [
+        {
+          "source_item_id": 48089569,
+          "source_field": "body",
+          "value": "https://gitlab.com/gabriel.chamon/orisun is a Gitlab-first methodology I've been cooking for the past month that brings epics and work-items to the repository. Present your project, describe your domain and it will produce meaningful epics and work-items that are automatically reflected into Gitlab kanban board using https://gitlab.com/gabriel.chamon/ci-components/-/tree/main/templates/orisun-gitlab in Gitlab ci.",
+          "supports": [],
+          "author": "gchamonlive",
+          "shared_at": 1778458623,
+          "source_url": "https://news.ycombinator.com/item?id=48089569"
+        }
+      ],
+      "source_item_id": 48089569,
+      "source_url": "https://news.ycombinator.com/item?id=48089569",
+      "author": "gchamonlive",
+      "shared_at": 1778458623,
+      "links": [
+        "https://gitlab.com/gabriel.chamon/orisun"
+      ]
+    }
+  ]
+}

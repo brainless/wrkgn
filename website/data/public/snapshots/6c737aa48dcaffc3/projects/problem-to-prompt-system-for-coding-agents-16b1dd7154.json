@@ -1,0 +1,33 @@
+{
+  "id": 7648,
+  "slug": "problem-to-prompt-system-for-coding-agents-16b1dd7154",
+  "name": "Problem-to-Prompt system for coding agents",
+  "mentions": [
+    {
+      "name": "Problem-to-Prompt system for coding agents",
+      "description": "This system automates the first half of software engineering work by reading sources like Slack, listening to Google Meetings, and collecting user complaints, then generating prompts that can be fed into coding agents or planners. It tackles the problem-to-prompt step as a bigger obstacle than coding itself.",
+      "problem": "Problem-to-prompt seems like a larger obstacle than coding these days; the project explores whether it is solvable and whether solving it makes cheaper coding agents viable.",
+      "audience": null,
+      "builder_usernames": [
+        "LinasKo"
+      ],
+      "source_excerpt": "I'm building a system that reads Slack, listens to Google Meetings, user complaints, etc and gives me prompts I could feed into coding agents or planners.",
+      "evidence": [
+        {
+          "source_item_id": 46582831,
+          "source_field": "body",
+          "value": "I'm building a system that reads Slack, listens to Google Meetings, user complaints, etc and gives me prompts I could feed into coding agents or planners.",
+          "supports": [],
+          "author": "LinasKo",
+          "shared_at": 1768182394,
+          "source_url": "https://news.ycombinator.com/item?id=46582831"
+        }
+      ],
+      "source_item_id": 46582831,
+      "source_url": "https://news.ycombinator.com/item?id=46582831",
+      "author": "LinasKo",
+      "shared_at": 1768182394,
+      "links": []
+    }
+  ]
+}

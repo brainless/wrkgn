@@ -1,0 +1,35 @@
+{
+  "id": 9069,
+  "slug": "rhythm-game-utilities-e7ede1d151",
+  "name": "Rhythm Game Utilities",
+  "mentions": [
+    {
+      "name": "Rhythm Game Utilities",
+      "description": "This project provides utilities for building rhythm games across multiple game engines (Unity, Unreal, Godot, SDL, MonoGame, with Love2D and Bevy support planned) and runs on Windows, macOS, and Linux. It has local prototypes working in Unity and Godot but nothing public yet, and the builder is still deciding what kind of game to make with it.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "iamneogeek"
+      ],
+      "source_excerpt": "One project is for building rhythm games in multiple game engines and multiple platforms. Currently, it works in Unity, Unreal, Godot, SDL (or any C++ game engine), and MonoGame (or any C# game engine), and runs on Windows, macOS, and Linux.",
+      "evidence": [
+        {
+          "source_item_id": 45869577,
+          "source_field": "body",
+          "value": "One project is for building rhythm games in multiple game engines and multiple platforms. Currently, it works in Unity, Unreal, Godot, SDL (or any C++ game engine), and MonoGame (or any C# game engine), and runs on Windows, macOS, and Linux.",
+          "supports": [],
+          "author": "iamneogeek",
+          "shared_at": 1762725302,
+          "source_url": "https://news.ycombinator.com/item?id=45869577"
+        }
+      ],
+      "source_item_id": 45869577,
+      "source_url": "https://news.ycombinator.com/item?id=45869577",
+      "author": "iamneogeek",
+      "shared_at": 1762725302,
+      "links": [
+        "https://github.com/neogeek/rhythm-game-utilities"
+      ]
+    }
+  ]
+}

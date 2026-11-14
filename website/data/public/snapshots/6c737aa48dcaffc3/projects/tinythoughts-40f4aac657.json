@@ -1,0 +1,35 @@
+{
+  "id": 9320,
+  "slug": "tinythoughts-40f4aac657",
+  "name": "TinyThoughts",
+  "mentions": [
+    {
+      "name": "TinyThoughts",
+      "description": "A self-messaging app that supports tag-triggered webhooks, which fire based on tags assigned to messages. This enables automations such as auto-tweeting advice messages, auto-creating Linear tasks for `company` todos, and auto-starting a Cursor agent when messages are tagged `Cursor task`. A connector marketplace is planned so users can share these sub-connectors with other users.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dorcy"
+      ],
+      "source_excerpt": "Working on https://tinythoughts.app, a self-messaging app\n\nToday, I am implementing tag-triggered webhooks so they can get triggered based on the tags assigned to messages.",
+      "evidence": [
+        {
+          "source_item_id": 45872022,
+          "source_field": "body",
+          "value": "Working on https://tinythoughts.app, a self-messaging app\n\nToday, I am implementing tag-triggered webhooks so they can get triggered based on the tags assigned to messages.",
+          "supports": [],
+          "author": "dorcy",
+          "shared_at": 1762745017,
+          "source_url": "https://news.ycombinator.com/item?id=45872022"
+        }
+      ],
+      "source_item_id": 45872022,
+      "source_url": "https://news.ycombinator.com/item?id=45872022",
+      "author": "dorcy",
+      "shared_at": 1762745017,
+      "links": [
+        "https://tinythoughts.app"
+      ]
+    }
+  ]
+}

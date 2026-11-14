@@ -1,0 +1,35 @@
+{
+  "id": 4844,
+  "slug": "stockevents-ai-8191d7e2f2",
+  "name": "StockEvents AI",
+  "mentions": [
+    {
+      "name": "StockEvents AI",
+      "description": "An AI assistant for investment questions that returns up-to-date answers in about 5 seconds, grounded directly in the project's database to reduce hallucinations. Currently still in development.",
+      "problem": "Investment AI answers are slow (around 50 seconds) and prone to hallucinations without grounded data.",
+      "audience": null,
+      "builder_usernames": [
+        "davidkuennen"
+      ],
+      "source_excerpt": "From 50 to 5 seconds. The world's fastest and most up to date investment ai. It's powered directly through our database to ground the information and reduce hallucinations. Still in development though.",
+      "evidence": [
+        {
+          "source_item_id": 48087201,
+          "source_field": "body",
+          "value": "From 50 to 5 seconds. The world's fastest and most up to date investment ai. It's powered directly through our database to ground the information and reduce hallucinations. Still in development though.",
+          "supports": [],
+          "author": "davidkuennen",
+          "shared_at": 1778442653,
+          "source_url": "https://news.ycombinator.com/item?id=48087201"
+        }
+      ],
+      "source_item_id": 48087201,
+      "source_url": "https://news.ycombinator.com/item?id=48087201",
+      "author": "davidkuennen",
+      "shared_at": 1778442653,
+      "links": [
+        "https://stockevents.app/ai"
+      ]
+    }
+  ]
+}

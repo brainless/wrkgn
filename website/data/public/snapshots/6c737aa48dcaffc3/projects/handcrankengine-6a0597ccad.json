@@ -1,0 +1,35 @@
+{
+  "id": 9070,
+  "slug": "handcrankengine-6a0597ccad",
+  "name": "HandcrankEngine",
+  "mentions": [
+    {
+      "name": "HandcrankEngine",
+      "description": "A general purpose game engine written in C++ with SDL, positioned as an exploration into how games are made rather than a replacement for Unity or Godot. It is far enough along to build games in, and one of its demo repos automatically builds to WebGL and publishes to itch.io when changes are pushed.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "iamneogeek"
+      ],
+      "source_excerpt": "The other is a general purpose game engine in C++ with SDL. It's far enough along that I'm building games in it, but it's more of an exploration into how games are made than a replacement for Unity or Godot.",
+      "evidence": [
+        {
+          "source_item_id": 45869577,
+          "source_field": "body",
+          "value": "The other is a general purpose game engine in C++ with SDL. It's far enough along that I'm building games in it, but it's more of an exploration into how games are made than a replacement for Unity or Godot.",
+          "supports": [],
+          "author": "iamneogeek",
+          "shared_at": 1762725302,
+          "source_url": "https://news.ycombinator.com/item?id=45869577"
+        }
+      ],
+      "source_item_id": 45869577,
+      "source_url": "https://news.ycombinator.com/item?id=45869577",
+      "author": "iamneogeek",
+      "shared_at": 1762725302,
+      "links": [
+        "https://github.com/HandcrankEngine/HandcrankEngine"
+      ]
+    }
+  ]
+}

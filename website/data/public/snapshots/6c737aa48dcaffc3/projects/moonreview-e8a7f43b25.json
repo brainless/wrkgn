@@ -1,0 +1,35 @@
+{
+  "id": 5843,
+  "slug": "moonreview-e8a7f43b25",
+  "name": "moonreview",
+  "mentions": [
+    {
+      "name": "moonreview",
+      "description": "A local code review tool where an AI agent does the review work immediately, functioning like pull requests but before code reaches GitHub. It runs instead of git status / git diff / magit, lets developers add comments that the agent auto-resolves, and lets them stage hunks they are happy with.",
+      "problem": "Corporate code reviews are slow and dumb: people review other people's AI-generated slop and comments get fed back into an agent, so the process can be done upfront by the original developer locally, catching sloppy code before it even reaches GitHub.",
+      "audience": "Developers who want to catch sloppy code locally before it reaches GitHub, replacing or complementing existing corporate PR review flows.",
+      "builder_usernames": [
+        "antoineMoPa"
+      ],
+      "source_excerpt": "I vibe-coded a tiny local code review tool, a bit like pull-requests, but an agent does the work immediately.\n\nhttps://github.com/antoineMoPa/moonreview\n\nThe intended use is to run `moonreview` instead of `git status` / `git diff` or `magit`, but you can add comments and they get auto resolved. You can also stage hunks if you are happy with them.",
+      "evidence": [
+        {
+          "source_item_id": 47750710,
+          "source_field": "body",
+          "value": "I vibe-coded a tiny local code review tool, a bit like pull-requests, but an agent does the work immediately.\n\nhttps://github.com/antoineMoPa/moonreview\n\nThe intended use is to run `moonreview` instead of `git status` / `git diff` or `magit`, but you can add comments and they get auto resolved. You can also stage hunks if you are happy with them.",
+          "supports": [],
+          "author": "antoineMoPa",
+          "shared_at": 1776081170,
+          "source_url": "https://news.ycombinator.com/item?id=47750710"
+        }
+      ],
+      "source_item_id": 47750710,
+      "source_url": "https://news.ycombinator.com/item?id=47750710",
+      "author": "antoineMoPa",
+      "shared_at": 1776081170,
+      "links": [
+        "https://github.com/antoineMoPa/moonreview"
+      ]
+    }
+  ]
+}

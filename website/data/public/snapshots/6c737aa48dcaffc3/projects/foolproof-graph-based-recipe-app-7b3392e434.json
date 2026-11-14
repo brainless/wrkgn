@@ -1,0 +1,33 @@
+{
+  "id": 5860,
+  "slug": "foolproof-graph-based-recipe-app-7b3392e434",
+  "name": "Foolproof graph-based recipe app",
+  "mentions": [
+    {
+      "name": "Foolproof graph-based recipe app",
+      "description": "This app aims to make every recipe foolproof on the first try, so users can simply pick what they want to eat and follow instructions with no guesswork. Recipes are strictly defined as subsets of a large graph database that models ingredients and processes as nodes (e.g. raw potato -> peeled potato -> boiled potato -> mashed potato) with edges representing the processes between them, plus multiple layers for non-process relationships. Because recipes are strictly defined in the graph, the system can detect incomplete recipes (described as compile-time checking for recipes), never asks users to do ten things at once with ingredients magically appearing, and supports graph-based filtering (excluding meat or allergens for vegetarian/allergy-friendly results, or including meat), recursive ingredient search (searching 'potato' knows french fries are made from potato and can plan prerequisite recipes with timing), and experimental adjustable recipe difficulty that paces steps based on which ones can be parallelized. A landing page presents the key points in non-technical terms and collects emails for launch notifications by country.",
+      "problem": "Recipes often leave steps undefined or skip them entirely, asking cooks to do many things at once with results that 'magically appear out of nowhere'; food/cooking is complex to define in a way a computer can understand.",
+      "audience": null,
+      "builder_usernames": [
+        "_88q3"
+      ],
+      "source_excerpt": "The goal is to make every recipe foolproof on the first try, similar to when you walk into a restaurant and just pick what you want to eat without thinking about the details. The goal is to have the same experience, just pick what you want to eat, with recipes that tells you exactly what to do with no magic involved.",
+      "evidence": [
+        {
+          "source_item_id": 47747536,
+          "source_field": "body",
+          "value": "The goal is to make every recipe foolproof on the first try, similar to when you walk into a restaurant and just pick what you want to eat without thinking about the details. The goal is to have the same experience, just pick what you want to eat, with recipes that tells you exactly what to do with no magic involved.",
+          "supports": [],
+          "author": "_88q3",
+          "shared_at": 1776053864,
+          "source_url": "https://news.ycombinator.com/item?id=47747536"
+        }
+      ],
+      "source_item_id": 47747536,
+      "source_url": "https://news.ycombinator.com/item?id=47747536",
+      "author": "_88q3",
+      "shared_at": 1776053864,
+      "links": []
+    }
+  ]
+}

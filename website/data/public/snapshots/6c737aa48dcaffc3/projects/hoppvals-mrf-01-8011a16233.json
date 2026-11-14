@@ -1,0 +1,35 @@
+{
+  "id": 3519,
+  "slug": "hoppvals-mrf-01-8011a16233",
+  "name": "HOPPVALS-MRF-01",
+  "mentions": [
+    {
+      "name": "HOPPVALS-MRF-01",
+      "description": "A custom motor controller board that retrofits IKEA window shades with Zigbee-enabled motorization. It connects an ESP32 module to a couple of motor driver ICs via a 12V-to-5V buck circuit and headers, designed in KiCad (using Claude to review the design) with 3D-printed mechanical parts, and fabricated as five boards via JLCPCB.",
+      "problem": "IKEA window shades lack Zigbee-enabled motorization, and the motor controller board had to fit a tight space constraint.",
+      "audience": null,
+      "builder_usernames": [
+        "evanpurkhiser"
+      ],
+      "source_excerpt": "Been learning electronic PCB design the last few weeks while retrofitting some IKEA window shades for Zigbee enabled motorization.",
+      "evidence": [
+        {
+          "source_item_id": 48536751,
+          "source_field": "body",
+          "value": "Been learning electronic PCB design the last few weeks while retrofitting some IKEA window shades for Zigbee enabled motorization.",
+          "supports": [],
+          "author": "evanpurkhiser",
+          "shared_at": 1781499116,
+          "source_url": "https://news.ycombinator.com/item?id=48536751"
+        }
+      ],
+      "source_item_id": 48536751,
+      "source_url": "https://news.ycombinator.com/item?id=48536751",
+      "author": "evanpurkhiser",
+      "shared_at": 1781499116,
+      "links": [
+        "https://github.com/evanpurkhiser/HOPPVALS-MRF-01"
+      ]
+    }
+  ]
+}

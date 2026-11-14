@@ -1,0 +1,35 @@
+{
+  "id": 7604,
+  "slug": "videozero-ai-16e084c6e9",
+  "name": "VideoZero.ai",
+  "mentions": [
+    {
+      "name": "VideoZero.ai",
+      "description": "AI video generation tool that creates videos featuring text, formulas, and graph elements without the typical artifacts or breaking after 10 seconds. Instead of generating raw pixel values, it leverages Motion Canvas to create the video elements. A gallery of example animations is available.",
+      "problem": "AI-generated videos typically break after 10 seconds or show weird artifacts, especially for text, formulas, and graph elements.",
+      "audience": null,
+      "builder_usernames": [
+        "prathje"
+      ],
+      "source_excerpt": "I started working on VideoZero.ai with the vision of generating videos that feature text, formulas, and graph elements without breaking after 10 seconds or weird artifacts. Instead of generating raw pixel values, we leverage Motion Canvas to create the video elements.",
+      "evidence": [
+        {
+          "source_item_id": 46590293,
+          "source_field": "body",
+          "value": "I started working on VideoZero.ai with the vision of generating videos that feature text, formulas, and graph elements without breaking after 10 seconds or weird artifacts. Instead of generating raw pixel values, we leverage Motion Canvas to create the video elements.",
+          "supports": [],
+          "author": "prathje",
+          "shared_at": 1768233950,
+          "source_url": "https://news.ycombinator.com/item?id=46590293"
+        }
+      ],
+      "source_item_id": 46590293,
+      "source_url": "https://news.ycombinator.com/item?id=46590293",
+      "author": "prathje",
+      "shared_at": 1768233950,
+      "links": [
+        "https://videozero.ai/gallery"
+      ]
+    }
+  ]
+}

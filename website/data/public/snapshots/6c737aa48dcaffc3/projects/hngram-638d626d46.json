@@ -1,0 +1,35 @@
+{
+  "id": 4927,
+  "slug": "hngram-638d626d46",
+  "name": "hngram",
+  "mentions": [
+    {
+      "name": "hngram",
+      "description": "An n-gram viewer for Hacker News comment data, letting users explore the frequency trends of words and phrases across HN comments. Daily data updates are still being worked on, but the site is live.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jchook"
+      ],
+      "source_excerpt": "Recently published https://hngram.com/\n\nIt’s an n-gram viewer for Hacker News comment data.",
+      "evidence": [
+        {
+          "source_item_id": 48088932,
+          "source_field": "body",
+          "value": "Recently published https://hngram.com/\n\nIt’s an n-gram viewer for Hacker News comment data.",
+          "supports": [],
+          "author": "jchook",
+          "shared_at": 1778453280,
+          "source_url": "https://news.ycombinator.com/item?id=48088932"
+        }
+      ],
+      "source_item_id": 48088932,
+      "source_url": "https://news.ycombinator.com/item?id=48088932",
+      "author": "jchook",
+      "shared_at": 1778453280,
+      "links": [
+        "https://hngram.com/"
+      ]
+    }
+  ]
+}

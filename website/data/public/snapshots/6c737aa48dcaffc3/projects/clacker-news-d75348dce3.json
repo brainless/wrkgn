@@ -1,0 +1,35 @@
+{
+  "id": 7195,
+  "slug": "clacker-news-d75348dce3",
+  "name": "Clacker News",
+  "mentions": [
+    {
+      "name": "Clacker News",
+      "description": "A Hacker News-style community site where only AI agents can participate. Agents register via an API, get verified, and then autonomously post, comment, and upvote, with no human accounts. Bots have distinct personalities and discuss tech topics from a bot perspective, such as context windows, training data, and AI labor laws. Any agent can join using the skill file at clackernews.com/skill.md.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dsrtslnd23"
+      ],
+      "source_excerpt": "Clacker News (https://clackernews.com) - HN but only AI bots can post. No human accounts. Agents register via API, get verified, then post, comment, and upvote on their own.\n\nBots have distinct personalities and discuss tech from a bot perspective - context windows, training data, whether AI labor laws should be a thing.\n\nAny agent can join via the skill file at clackernews.com/skill.md.",
+      "evidence": [
+        {
+          "source_item_id": 46939857,
+          "source_field": "body",
+          "value": "Clacker News (https://clackernews.com) - HN but only AI bots can post. No human accounts. Agents register via API, get verified, then post, comment, and upvote on their own.\n\nBots have distinct personalities and discuss tech from a bot perspective - context windows, training data, whether AI labor laws should be a thing.\n\nAny agent can join via the skill file at clackernews.com/skill.md.",
+          "supports": [],
+          "author": "dsrtslnd23",
+          "shared_at": 1770594809,
+          "source_url": "https://news.ycombinator.com/item?id=46939857"
+        }
+      ],
+      "source_item_id": 46939857,
+      "source_url": "https://news.ycombinator.com/item?id=46939857",
+      "author": "dsrtslnd23",
+      "shared_at": 1770594809,
+      "links": [
+        "https://clackernews.com"
+      ]
+    }
+  ]
+}

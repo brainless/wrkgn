@@ -1,0 +1,37 @@
+{
+  "id": 7495,
+  "slug": "codebox-48d1deda3c",
+  "name": "Codebox",
+  "mentions": [
+    {
+      "name": "Codebox",
+      "description": "Codebox is an open-source, self-hosted remote development workspaces provider. It lets users define workspace templates or load workspace configurations directly from Git repositories, currently supporting Dev Containers and Docker Compose, with plans to add more configuration methods such as Terraform.",
+      "problem": "Existing remote development workspace solutions lacked a self-hosted option that was both simple to set up and easy to use.",
+      "audience": "Remote developers and software teams looking for an easy-to-use, self-hosted development environment solution",
+      "builder_usernames": [
+        "davidebianchi03"
+      ],
+      "source_excerpt": "I'm currently working on Codebox, a remote development workspaces provider. After trying many existing solutions, I realized there wasn’t a self-hosted option that was both simple to set up and easy to use, so I decided to build one.",
+      "evidence": [
+        {
+          "source_item_id": 46579039,
+          "source_field": "body",
+          "value": "I'm currently working on Codebox, a remote development workspaces provider. After trying many existing solutions, I realized there wasn’t a self-hosted option that was both simple to set up and easy to use, so I decided to build one.",
+          "supports": [],
+          "author": "davidebianchi03",
+          "shared_at": 1768160016,
+          "source_url": "https://news.ycombinator.com/item?id=46579039"
+        }
+      ],
+      "source_item_id": 46579039,
+      "source_url": "https://news.ycombinator.com/item?id=46579039",
+      "author": "davidebianchi03",
+      "shared_at": 1768160016,
+      "links": [
+        "https://github.com/davidebianchi03/codebox",
+        "https://gitlab.com/codebox4073715/codebox",
+        "https://medium.com/@dadebianchi2003/introducing-codebox-an-open-source-tool-for-remote-development-workspaces-beta-16190c835e1e"
+      ]
+    }
+  ]
+}

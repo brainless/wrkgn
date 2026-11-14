@@ -1,0 +1,36 @@
+{
+  "id": 9346,
+  "slug": "on-call-burnout-detector-7fc839b4b5",
+  "name": "On-Call Burnout Detector",
+  "mentions": [
+    {
+      "name": "On-Call Burnout Detector",
+      "description": "This tool detects potential signs of overwork in incident responders that could lead to burnout, computing a per-responder risk score by integrating with Rootly, PagerDuty, GitHub, and Slack. It is available both as a hosted service and as a self-hosted deployment.",
+      "problem": "Overwork among incident responders that can lead to burnout.",
+      "audience": "Incident responders (on-call staff) and the teams monitoring their workload",
+      "builder_usernames": [
+        "sylvainkalache"
+      ],
+      "source_excerpt": "A tool that detects potential signs of overwork in incident responders, which could lead to burnout. To compute a per-responder risk score, it integrates with Rootly, PagerDuty, GitHub, and Slack.",
+      "evidence": [
+        {
+          "source_item_id": 45887575,
+          "source_field": "body",
+          "value": "A tool that detects potential signs of overwork in incident responders, which could lead to burnout. To compute a per-responder risk score, it integrates with Rootly, PagerDuty, GitHub, and Slack.",
+          "supports": [],
+          "author": "sylvainkalache",
+          "shared_at": 1762870913,
+          "source_url": "https://news.ycombinator.com/item?id=45887575"
+        }
+      ],
+      "source_item_id": 45887575,
+      "source_url": "https://news.ycombinator.com/item?id=45887575",
+      "author": "sylvainkalache",
+      "shared_at": 1762870913,
+      "links": [
+        "https://github.com/Rootly-AI-Labs/On-Call-Burnout-Detector",
+        "https://oncallburnout.com/"
+      ]
+    }
+  ]
+}

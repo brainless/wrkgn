@@ -1,0 +1,119 @@
+{
+  "id": 2383,
+  "slug": "lazyslurm-0f07134a35",
+  "name": "lazyslurm",
+  "mentions": [
+    {
+      "name": "lazyslurm",
+      "description": "A terminal UI for managing SLURM jobs on HPC clusters, inspired by lazygit and lazydocker, built in Rust with ratatui.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tjhill"
+      ],
+      "source_excerpt": "lazyslurm is a tui for managing slurm jobs on HPC clusters. It's kind of like lazygit or lazydocker. I've been chipping away at it for the last few months. Its built in rust w/ ratatui.",
+      "evidence": [
+        {
+          "source_item_id": 49236467,
+          "source_field": "body",
+          "value": "lazyslurm is a tui for managing slurm jobs on HPC clusters. It's kind of like lazygit or lazydocker. I've been chipping away at it for the last few months. Its built in rust w/ ratatui.",
+          "supports": [],
+          "author": "tjhill",
+          "shared_at": 1786312498,
+          "source_url": "https://news.ycombinator.com/item?id=49236467"
+        }
+      ],
+      "source_item_id": 49236467,
+      "source_url": "https://news.ycombinator.com/item?id=49236467",
+      "author": "tjhill",
+      "shared_at": 1786312498,
+      "links": [
+        "https://github.com/hill/lazyslurm"
+      ]
+    },
+    {
+      "name": "lazyslurm",
+      "description": "A terminal user interface (TUI) tool for managing and viewing Slurm / HPC setups, in the style of lazygit or lazydocker.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tjhill"
+      ],
+      "source_excerpt": "- lazyslurm: A TUI tool for managing/viewing slurm / HPC setups. Similar to lazygit or lazydocker (https://github.com/hill/lazyslurm)",
+      "evidence": [
+        {
+          "source_item_id": 48886331,
+          "source_field": "body",
+          "value": "- lazyslurm: A TUI tool for managing/viewing slurm / HPC setups. Similar to lazygit or lazydocker (https://github.com/hill/lazyslurm)",
+          "supports": [],
+          "author": "tjhill",
+          "shared_at": 1783902073,
+          "source_url": "https://news.ycombinator.com/item?id=48886331"
+        }
+      ],
+      "source_item_id": 48886331,
+      "source_url": "https://news.ycombinator.com/item?id=48886331",
+      "author": "tjhill",
+      "shared_at": 1783902073,
+      "links": [
+        "https://github.com/hill/lazyslurm"
+      ]
+    },
+    {
+      "name": "lazyslurm",
+      "description": "A terminal UI for SLURM jobs, like lazygit but for SLURM.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tjhill"
+      ],
+      "source_excerpt": "https://github.com/hill/lazyslurm - a terminal ui for SLURM jobs (like lazygit but for slurm!)",
+      "evidence": [
+        {
+          "source_item_id": 48535249,
+          "source_field": "body",
+          "value": "https://github.com/hill/lazyslurm - a terminal ui for SLURM jobs (like lazygit but for slurm!)",
+          "supports": [],
+          "author": "tjhill",
+          "shared_at": 1781485964,
+          "source_url": "https://news.ycombinator.com/item?id=48535249"
+        }
+      ],
+      "source_item_id": 48535249,
+      "source_url": "https://news.ycombinator.com/item?id=48535249",
+      "author": "tjhill",
+      "shared_at": 1781485964,
+      "links": [
+        "https://github.com/hill/lazyslurm"
+      ]
+    },
+    {
+      "name": "Lazyslurm",
+      "description": "A terminal UI for managing and visualizing Slurm jobs, heavily inspired by lazygit and lazydocker. Currently very early in development.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tjhill"
+      ],
+      "source_excerpt": "Lazyslurm: https://github.com/hill/lazyslurm - a terminal ui for managing and visualizing slurm jobs. Heavily inspired by lazygit and lazydocker.",
+      "evidence": [
+        {
+          "source_item_id": 45420394,
+          "source_field": "body",
+          "value": "Lazyslurm: https://github.com/hill/lazyslurm - a terminal ui for managing and visualizing slurm jobs. Heavily inspired by lazygit and lazydocker.",
+          "supports": [],
+          "author": "tjhill",
+          "shared_at": 1759190706,
+          "source_url": "https://news.ycombinator.com/item?id=45420394"
+        }
+      ],
+      "source_item_id": 45420394,
+      "source_url": "https://news.ycombinator.com/item?id=45420394",
+      "author": "tjhill",
+      "shared_at": 1759190706,
+      "links": [
+        "https://github.com/hill/lazyslurm"
+      ]
+    }
+  ]
+}

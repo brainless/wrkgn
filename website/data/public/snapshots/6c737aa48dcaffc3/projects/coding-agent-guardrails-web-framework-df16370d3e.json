@@ -1,0 +1,35 @@
+{
+  "id": 7286,
+  "slug": "coding-agent-guardrails-web-framework-df16370d3e",
+  "name": "Coding-agent guardrails web framework",
+  "mentions": [
+    {
+      "name": "Coding-agent guardrails web framework",
+      "description": "A web framework that provides guardrails around what a coding agent can and can't touch without human approval, making it easier to have confidence in large (e.g. 5000-line) code changes without having to comb through the code.",
+      "problem": "Gaining confidence in large agent-generated code changes normally requires manually combing through the code.",
+      "audience": null,
+      "builder_usernames": [
+        "zainhoda"
+      ],
+      "source_excerpt": "Working on a web framework that provides some guardrails around what a coding agent can and can’t touch without human approval. Makes it easier to have confidence in 5000 line code changes without having to comb through the code.\n\nhttps://ont-run.com",
+      "evidence": [
+        {
+          "source_item_id": 46939494,
+          "source_field": "body",
+          "value": "Working on a web framework that provides some guardrails around what a coding agent can and can’t touch without human approval. Makes it easier to have confidence in 5000 line code changes without having to comb through the code.\n\nhttps://ont-run.com",
+          "supports": [],
+          "author": "zainhoda",
+          "shared_at": 1770591632,
+          "source_url": "https://news.ycombinator.com/item?id=46939494"
+        }
+      ],
+      "source_item_id": 46939494,
+      "source_url": "https://news.ycombinator.com/item?id=46939494",
+      "author": "zainhoda",
+      "shared_at": 1770591632,
+      "links": [
+        "https://ont-run.com"
+      ]
+    }
+  ]
+}

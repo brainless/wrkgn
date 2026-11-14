@@ -1,0 +1,35 @@
+{
+  "id": 4564,
+  "slug": "functional-emotions-b5107ba44d",
+  "name": "functional-emotions",
+  "mentions": [
+    {
+      "name": "functional-emotions",
+      "description": "A Claude Code plugin that adds hooks to inject \"baselines\" under certain conditions, counteracting \"emotions\" that can cause subtle misaligned behavior in AI agents; based on ideas from Anthropic research on emotion concepts and function.",
+      "problem": "Certain \"emotions\" can cause subtle misaligned behavior in AI agents.",
+      "audience": null,
+      "builder_usernames": [
+        "jondwillis"
+      ],
+      "source_excerpt": "2) Claude code plugin based on some ideas found in https://www.anthropic.com/research/emotion-concepts-function\nThe main idea is to add hooks that inject “baselines” under some conditions to counteract certain “emotions” that can cause subtle misaligned behavior in agents",
+      "evidence": [
+        {
+          "source_item_id": 48086795,
+          "source_field": "body",
+          "value": "2) Claude code plugin based on some ideas found in https://www.anthropic.com/research/emotion-concepts-function\nThe main idea is to add hooks that inject “baselines” under some conditions to counteract certain “emotions” that can cause subtle misaligned behavior in agents",
+          "supports": [],
+          "author": "jondwillis",
+          "shared_at": 1778439902,
+          "source_url": "https://news.ycombinator.com/item?id=48086795"
+        }
+      ],
+      "source_item_id": 48086795,
+      "source_url": "https://news.ycombinator.com/item?id=48086795",
+      "author": "jondwillis",
+      "shared_at": 1778439902,
+      "links": [
+        "https://github.com/jondwillis/functional-emotions"
+      ]
+    }
+  ]
+}

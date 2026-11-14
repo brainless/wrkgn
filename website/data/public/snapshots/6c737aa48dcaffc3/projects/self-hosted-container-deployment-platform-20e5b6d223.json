@@ -1,0 +1,33 @@
+{
+  "id": 6309,
+  "slug": "self-hosted-container-deployment-platform-20e5b6d223",
+  "name": "Self-hosted container deployment platform",
+  "mentions": [
+    {
+      "name": "Self-hosted container deployment platform",
+      "description": "A platform for deploying containerized workloads across your own servers, designed to scale with a smooth developer experience from a single $5 server up to 200 servers, with zero-downtime migrations. It has no control plane—every node is equal and eventually consistent—and is written end-to-end in Rust for a minimal per-node footprint.",
+      "problem": "Existing self-hosted deployment tools like Coolify have single-server limitations, and scaling or migrating workloads between servers typically requires downtime.",
+      "audience": null,
+      "builder_usernames": [
+        "nick-sta"
+      ],
+      "source_excerpt": "I'm working on a project for deploying containerized workloads across your own servers, but with great dx from starting on a $5 server to migrating/scaling to 200 servers (no downtime required for any migrations).",
+      "evidence": [
+        {
+          "source_item_id": 47309342,
+          "source_field": "body",
+          "value": "I'm working on a project for deploying containerized workloads across your own servers, but with great dx from starting on a $5 server to migrating/scaling to 200 servers (no downtime required for any migrations).",
+          "supports": [],
+          "author": "nick-sta",
+          "shared_at": 1773065502,
+          "source_url": "https://news.ycombinator.com/item?id=47309342"
+        }
+      ],
+      "source_item_id": 47309342,
+      "source_url": "https://news.ycombinator.com/item?id=47309342",
+      "author": "nick-sta",
+      "shared_at": 1773065502,
+      "links": []
+    }
+  ]
+}

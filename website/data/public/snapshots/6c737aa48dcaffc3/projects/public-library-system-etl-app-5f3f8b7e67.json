@@ -1,0 +1,33 @@
+{
+  "id": 7822,
+  "slug": "public-library-system-etl-app-5f3f8b7e67",
+  "name": "Public library system ETL app",
+  "mentions": [
+    {
+      "name": "Public library system ETL app",
+      "description": "This ETL app extracts and transforms data for a public library system and targets SQLite databases as output, with Datasette serving as the platform to interact with the generated data. It provides a simple reporting tool for library staff and produces nightly snapshot outputs to a datalake in parquet format.",
+      "problem": null,
+      "audience": "Library staff",
+      "builder_usernames": [
+        "ray_v"
+      ],
+      "source_excerpt": "I'm working on a \"simple\" (started out that way at least) ETL app for the public library system that I work for; the target output is SQLite databases where Datasette will be the platform to interact with the data being generated/extracted. Primarily, the goal is to provide a simple report tool for staff and give me a source for nightly snapshot outputs to a datalake in parquet format.",
+      "evidence": [
+        {
+          "source_item_id": 46580212,
+          "source_field": "body",
+          "value": "I'm working on a \"simple\" (started out that way at least) ETL app for the public library system that I work for; the target output is SQLite databases where Datasette will be the platform to interact with the data being generated/extracted. Primarily, the goal is to provide a simple report tool for staff and give me a source for nightly snapshot outputs to a datalake in parquet format.",
+          "supports": [],
+          "author": "ray_v",
+          "shared_at": 1768166455,
+          "source_url": "https://news.ycombinator.com/item?id=46580212"
+        }
+      ],
+      "source_item_id": 46580212,
+      "source_url": "https://news.ycombinator.com/item?id=46580212",
+      "author": "ray_v",
+      "shared_at": 1768166455,
+      "links": []
+    }
+  ]
+}

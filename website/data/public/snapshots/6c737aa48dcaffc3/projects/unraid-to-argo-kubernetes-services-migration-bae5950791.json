@@ -1,0 +1,33 @@
+{
+  "id": 8383,
+  "slug": "unraid-to-argo-kubernetes-services-migration-bae5950791",
+  "name": "Unraid to Argo/Kubernetes services migration",
+  "mentions": [
+    {
+      "name": "Unraid to Argo/Kubernetes services migration",
+      "description": "This project migrates self-hosted services from an unraid server to an Argo-managed Kubernetes cluster, starting with services like Immich and PeerTube that are hard to keep up with using clickops.",
+      "problem": "Some self-hosted services are hard to keep up with when managed via clickops on unraid.",
+      "audience": null,
+      "builder_usernames": [
+        "grep_name"
+      ],
+      "source_excerpt": "Getting ready to start a slow migration of some services from unraid to an argo/k8s cluster (starting with some services I don't use yet which are hard to keepup in clickops, immich,peertube, etc)",
+      "evidence": [
+        {
+          "source_item_id": 46295149,
+          "source_field": "body",
+          "value": "Getting ready to start a slow migration of some services from unraid to an argo/k8s cluster (starting with some services I don't use yet which are hard to keepup in clickops, immich,peertube, etc)",
+          "supports": [],
+          "author": "grep_name",
+          "shared_at": 1765922293,
+          "source_url": "https://news.ycombinator.com/item?id=46295149"
+        }
+      ],
+      "source_item_id": 46295149,
+      "source_url": "https://news.ycombinator.com/item?id=46295149",
+      "author": "grep_name",
+      "shared_at": 1765922293,
+      "links": []
+    }
+  ]
+}

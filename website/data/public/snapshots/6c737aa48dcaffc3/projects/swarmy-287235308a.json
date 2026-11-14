@@ -1,0 +1,33 @@
+{
+  "id": 3948,
+  "slug": "swarmy-287235308a",
+  "name": "swarmy",
+  "mentions": [
+    {
+      "name": "swarmy",
+      "description": "This tool makes data analysis of StarCraft 2 replays easily available for gamers and casters. It parses replay binaries and map data in Rust using nom, exports Apache Arrow snapshots for analysis with Polars, manages the data flow via Tauri, exposes aggregations and controls through a Leptos interface, uses Rerun to navigate the replay timeline, and uses Bevy to explore maps and provide \"geo\" stats, with bevy skein being explored to manage assets/materials via Blender.",
+      "problem": "Data analysis of StarCraft 2 replays is not easily available to gamers and casters.",
+      "audience": "gamers and StarCraft 2 casters",
+      "builder_usernames": [
+        "sebosp"
+      ],
+      "source_excerpt": "I am working on my project swarmy, making data analysis of Starcraft 2 replays easily available for gamers/casters, all in rust, using nom to parse replay binaries and map data, exporting to apache arrow snapshots to analyze with polars, managing the data flow via tauri, exposing the aggregations/controls via leptos, using rerun to navigate replay timeline, bevy to deep dive through the maps and provide \"geo\" stats",
+      "evidence": [
+        {
+          "source_item_id": 48537589,
+          "source_field": "body",
+          "value": "I am working on my project swarmy, making data analysis of Starcraft 2 replays easily available for gamers/casters, all in rust, using nom to parse replay binaries and map data, exporting to apache arrow snapshots to analyze with polars, managing the data flow via tauri, exposing the aggregations/controls via leptos, using rerun to navigate replay timeline, bevy to deep dive through the maps and provide \"geo\" stats",
+          "supports": [],
+          "author": "sebosp",
+          "shared_at": 1781507097,
+          "source_url": "https://news.ycombinator.com/item?id=48537589"
+        }
+      ],
+      "source_item_id": 48537589,
+      "source_url": "https://news.ycombinator.com/item?id=48537589",
+      "author": "sebosp",
+      "shared_at": 1781507097,
+      "links": []
+    }
+  ]
+}

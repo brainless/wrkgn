@@ -1,0 +1,33 @@
+{
+  "id": 7502,
+  "slug": "b210-sdr-synchronization-for-nr-base-station-and-ue-a79c9f994f",
+  "name": "B210 SDR synchronization for NR base station and UE",
+  "mentions": [
+    {
+      "name": "B210 SDR synchronization for NR base station and UE",
+      "description": "An attempt to synchronize two B210 SDRs running on separate systems as a 5G NR base station and user equipment without GPSDOs or an external PPS signal. After initial sync the two SDRs drifted by a significant amount within a couple of seconds, so timing and frequency offsets were compensated every SSB, assuming synchronization held for two frame durations (2x1024us); the project was later abandoned.",
+      "problem": "GPSDOs were too costly and no external PPS was available; after initial sync the two SDRs drifted by a significant amount within a couple of seconds.",
+      "audience": null,
+      "builder_usernames": [
+        "Saddie"
+      ],
+      "source_excerpt": "I was trying to synchronize two B210s running on different systems as NR BS and UE.. GPSDOs were too costly and I did not have external PPS.",
+      "evidence": [
+        {
+          "source_item_id": 46593725,
+          "source_field": "body",
+          "value": "I was trying to synchronize two B210s running on different systems as NR BS and UE.. GPSDOs were too costly and I did not have external PPS.",
+          "supports": [],
+          "author": "Saddie",
+          "shared_at": 1768249325,
+          "source_url": "https://news.ycombinator.com/item?id=46593725"
+        }
+      ],
+      "source_item_id": 46593725,
+      "source_url": "https://news.ycombinator.com/item?id=46593725",
+      "author": "Saddie",
+      "shared_at": 1768249325,
+      "links": []
+    }
+  ]
+}

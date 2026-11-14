@@ -1,0 +1,33 @@
+{
+  "id": 7563,
+  "slug": "arch-ascent-e43fcceee8",
+  "name": "Arch Ascent",
+  "mentions": [
+    {
+      "name": "Arch Ascent",
+      "description": "This tool provides architectural governance for software systems by visualizing and validating component dependencies. It syncs projects from SonarQube, renders dependency graphs with Cytoscape.js, and applies graph algorithms for cycle detection (SCCs), Louvain clustering, and coupling metrics. It offers Visions (workspaces for exploring architectural scenarios with multiple versions/variations), Layers (named component groupings visualized as colored regions), References (named component sets defined via tag expressions), and Statements (architectural intent constraints such as existence, containment, exclusion, and cardinality evaluated against the actual dependency graph). It plans to add Grounds: intermediate releasable milestones that enable incremental architectural evolution toward a target vision. Built with Django, HTMX, Cytoscape.js, and pyparsing for natural language parsing of References and Statements.",
+      "problem": "The microservice hairball problem: adoption of microservices has been too successful, with 200-400 microservices, lacking ownership, and counts growing fast because creating a new service is easier than reusing an existing one.",
+      "audience": "Enterprise customers dealing with large microservice estates (200-400 services) with unclear ownership",
+      "builder_usernames": [
+        "kukkeliskuu"
+      ],
+      "source_excerpt": "So I started to work on a side project called \"Arch Ascent\" for addressing these situations. It seems like it is becoming a kind of a architectural governance tool for visualizing and validating software system dependencies.",
+      "evidence": [
+        {
+          "source_item_id": 46580134,
+          "source_field": "body",
+          "value": "So I started to work on a side project called \"Arch Ascent\" for addressing these situations. It seems like it is becoming a kind of a architectural governance tool for visualizing and validating software system dependencies.",
+          "supports": [],
+          "author": "kukkeliskuu",
+          "shared_at": 1768165927,
+          "source_url": "https://news.ycombinator.com/item?id=46580134"
+        }
+      ],
+      "source_item_id": 46580134,
+      "source_url": "https://news.ycombinator.com/item?id=46580134",
+      "author": "kukkeliskuu",
+      "shared_at": 1768165927,
+      "links": []
+    }
+  ]
+}

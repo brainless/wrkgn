@@ -1,0 +1,35 @@
+{
+  "id": 5364,
+  "slug": "cli-agent-lint-89fa6cdbbc",
+  "name": "cli-agent-lint",
+  "mentions": [
+    {
+      "name": "cli-agent-lint",
+      "description": "This tool audits command-line interfaces (CLIs) to assess their readiness for agentic use, with a focus on reducing token usage, self-discoverability, and flow safety.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "1000k"
+      ],
+      "source_excerpt": "I build a tool auditing CLIs to assess readiness for agentic use.\n\nIt's particularly focused on reducing token usage, self-discoverability, and flow safety.",
+      "evidence": [
+        {
+          "source_item_id": 47753365,
+          "source_field": "body",
+          "value": "I build a tool auditing CLIs to assess readiness for agentic use.\n\nIt's particularly focused on reducing token usage, self-discoverability, and flow safety.",
+          "supports": [],
+          "author": "1000k",
+          "shared_at": 1776093870,
+          "source_url": "https://news.ycombinator.com/item?id=47753365"
+        }
+      ],
+      "source_item_id": 47753365,
+      "source_url": "https://news.ycombinator.com/item?id=47753365",
+      "author": "1000k",
+      "shared_at": 1776093870,
+      "links": [
+        "https://github.com/Camil-H/cli-agent-lint"
+      ]
+    }
+  ]
+}

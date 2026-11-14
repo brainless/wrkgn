@@ -1,0 +1,35 @@
+{
+  "id": 10935,
+  "slug": "xroll-io-ac5c2ef89f",
+  "name": "XRoll.io",
+  "mentions": [
+    {
+      "name": "XRoll.io",
+      "description": "A fully on-chain gaming framework on the XRP Ledger, inspired by SatoshiDice but built for compliance. It uses commit-reveal fairness (HMAC_SHA256(secret, bet_txn_hash)) with full transparency on-chain, and integrates KYC, AML, and self-limits at the protocol level. The frontend is optional; the ledger is the source of truth.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ghgr"
+      ],
+      "source_excerpt": "XRoll.io — a fully on-chain gaming framework on the XRP Ledger, inspired by SatoshiDice but built for compliance. Commit-reveal fairness (HMAC_SHA256(secret, bet_txn_hash)), full transparency on-chain. Integrated KYC, AML, self-limits at the protocol level. Frontend is optional; ledger is the source of truth.",
+      "evidence": [
+        {
+          "source_item_id": 43822721,
+          "source_field": "body",
+          "value": "XRoll.io — a fully on-chain gaming framework on the XRP Ledger, inspired by SatoshiDice but built for compliance. Commit-reveal fairness (HMAC_SHA256(secret, bet_txn_hash)), full transparency on-chain. Integrated KYC, AML, self-limits at the protocol level. Frontend is optional; ledger is the source of truth.",
+          "supports": [],
+          "author": "ghgr",
+          "shared_at": 1745854958,
+          "source_url": "https://news.ycombinator.com/item?id=43822721"
+        }
+      ],
+      "source_item_id": 43822721,
+      "source_url": "https://news.ycombinator.com/item?id=43822721",
+      "author": "ghgr",
+      "shared_at": 1745854958,
+      "links": [
+        "https://xroll.io"
+      ]
+    }
+  ]
+}

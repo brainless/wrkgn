@@ -1,0 +1,35 @@
+{
+  "id": 4590,
+  "slug": "review-differ-4b2a973e25",
+  "name": "Review (differ)",
+  "mentions": [
+    {
+      "name": "Review (differ)",
+      "description": "A local-first code review tool (also referred to as \"differ\", its original name) that lets developers use review tools like GitHub's without pushing changes or bloating PR lists. Users can leave themselves comments and code suggestions after review, then pull them out into a Markdown file to feed back to a coding agent. It also includes optional AI extras where users supply their own API keys to get a tour of what changed and a quick overview of the changes.",
+      "problem": "The author wanted to use the review tools you get on sites like GitHub without having to push and start bloating PR lists.",
+      "audience": null,
+      "builder_usernames": [
+        "spikepuppet"
+      ],
+      "source_excerpt": "I'm working on a little local first review tool called Review (though I sometimes refer to it as differ since that's it's original name) - you can see screenshots here https://x.com/rhyslikepb/status/2053149881104265599?s=20\n\nThe idea was borne out of wanting to use the review tools that you get on existing sites like GitHub, without having to push and start bloating PR lists.",
+      "evidence": [
+        {
+          "source_item_id": 48087784,
+          "source_field": "body",
+          "value": "I'm working on a little local first review tool called Review (though I sometimes refer to it as differ since that's it's original name) - you can see screenshots here https://x.com/rhyslikepb/status/2053149881104265599?s=20\n\nThe idea was borne out of wanting to use the review tools that you get on existing sites like GitHub, without having to push and start bloating PR lists.",
+          "supports": [],
+          "author": "spikepuppet",
+          "shared_at": 1778445797,
+          "source_url": "https://news.ycombinator.com/item?id=48087784"
+        }
+      ],
+      "source_item_id": 48087784,
+      "source_url": "https://news.ycombinator.com/item?id=48087784",
+      "author": "spikepuppet",
+      "shared_at": 1778445797,
+      "links": [
+        "https://x.com/rhyslikepb/status/2053149881104265599?s=20"
+      ]
+    }
+  ]
+}

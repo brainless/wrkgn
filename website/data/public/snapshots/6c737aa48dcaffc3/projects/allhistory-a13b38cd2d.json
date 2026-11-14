@@ -1,0 +1,63 @@
+{
+  "id": 9991,
+  "slug": "allhistory-a13b38cd2d",
+  "name": "AllHistory",
+  "mentions": [
+    {
+      "name": "AllHistory",
+      "description": "A document search system providing indexed full-text search over more than 200,000 high-quality OCRed pages from CD/DVD-ROM products, covering the official records of the American Civil War and 19th century documents on Native American history. Built with BaseX for indexed document search, Postgres for user data, Redis for transient session information, and a Blazor WASM UI, currently desktop oriented.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "RagnarD"
+      ],
+      "source_excerpt": "The first is a document search system for over 200,000 high quality OCRed pages from successful CD/DVD-ROM products I developed some years ago, covering the official records of the American Civil War as well as 19th century documents on Native American history. The technology stack involves BaseX for indexed document search, Postgres for user data, Redis for transient session information, and Blazor WASM for the UI. (I coded all of it.) It can be seen at https://allhistory.us (currently desktop oriented.)",
+      "evidence": [
+        {
+          "source_item_id": 45429571,
+          "source_field": "body",
+          "value": "The first is a document search system for over 200,000 high quality OCRed pages from successful CD/DVD-ROM products I developed some years ago, covering the official records of the American Civil War as well as 19th century documents on Native American history. The technology stack involves BaseX for indexed document search, Postgres for user data, Redis for transient session information, and Blazor WASM for the UI. (I coded all of it.) It can be seen at https://allhistory.us (currently desktop oriented.)",
+          "supports": [],
+          "author": "RagnarD",
+          "shared_at": 1759258317,
+          "source_url": "https://news.ycombinator.com/item?id=45429571"
+        }
+      ],
+      "source_item_id": 45429571,
+      "source_url": "https://news.ycombinator.com/item?id=45429571",
+      "author": "RagnarD",
+      "shared_at": 1759258317,
+      "links": [
+        "https://allhistory.us"
+      ]
+    },
+    {
+      "name": "allhistory.us",
+      "description": "A website for searching and browsing over 200,000 pages of American history, currently covering the Civil War and American Indian topics, built with Blazor and various server infrastructure.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "RagnarD"
+      ],
+      "source_excerpt": "Finished a solo exercise using Blazor and various server infrastructure to create a website to search and browser over 200,000 pages of American history - currently Civil War and American Indian.",
+      "evidence": [
+        {
+          "source_item_id": 44718205,
+          "source_field": "body",
+          "value": "Finished a solo exercise using Blazor and various server infrastructure to create a website to search and browser over 200,000 pages of American history - currently Civil War and American Indian.",
+          "supports": [],
+          "author": "RagnarD",
+          "shared_at": 1753755290,
+          "source_url": "https://news.ycombinator.com/item?id=44718205"
+        }
+      ],
+      "source_item_id": 44718205,
+      "source_url": "https://news.ycombinator.com/item?id=44718205",
+      "author": "RagnarD",
+      "shared_at": 1753755290,
+      "links": [
+        "https://allhistory.us"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": 8395,
+  "slug": "hidden-markov-models-and-dynamical-systems-book-902141888d",
+  "name": "Hidden Markov Models and Dynamical Systems (book)",
+  "mentions": [
+    {
+      "name": "Hidden Markov Models and Dynamical Systems (book)",
+      "description": "Second edition of the book \"Hidden Markov Models and Dynamical Systems,\" which explains several state space models and connects them to ideas about chaos. A PDF draft is available online, and the book's source software can build the PDF via \"make book\", making it reproducible research.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "fraserphysics"
+      ],
+      "source_excerpt": "I'm polishing up the second edition of \"Hidden Markov Models and Dynamical Systems.\"  The book explains several state space models and connects them to ideas about chaos.  Here's a link to a pdf draft: https://www.fraserphysics.com/book.pdf and here's a link to source for the book: https://gitlab.com/fraserphysics/hmmds",
+      "evidence": [
+        {
+          "source_item_id": 46267111,
+          "source_field": "body",
+          "value": "I'm polishing up the second edition of \"Hidden Markov Models and Dynamical Systems.\"  The book explains several state space models and connects them to ideas about chaos.  Here's a link to a pdf draft: https://www.fraserphysics.com/book.pdf and here's a link to source for the book: https://gitlab.com/fraserphysics/hmmds",
+          "supports": [],
+          "author": "fraserphysics",
+          "shared_at": 1765747619,
+          "source_url": "https://news.ycombinator.com/item?id=46267111"
+        }
+      ],
+      "source_item_id": 46267111,
+      "source_url": "https://news.ycombinator.com/item?id=46267111",
+      "author": "fraserphysics",
+      "shared_at": 1765747619,
+      "links": [
+        "https://gitlab.com/fraserphysics/hmmds",
+        "https://www.fraserphysics.com/book.pdf"
+      ]
+    }
+  ]
+}

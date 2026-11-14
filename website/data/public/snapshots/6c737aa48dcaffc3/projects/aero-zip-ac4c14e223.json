@@ -1,0 +1,91 @@
+{
+  "id": 7432,
+  "slug": "aero-zip-ac4c14e223",
+  "name": "aero.zip",
+  "mentions": [
+    {
+      "name": "aero.zip",
+      "description": "A GDPR-safe, privacy-oriented file sharing and transfer service positioned as an alternative to WeTransfer.",
+      "problem": "Mainstream file transfer services like WeTransfer raise GDPR compliance and privacy concerns.",
+      "audience": null,
+      "builder_usernames": [
+        "pypt"
+      ],
+      "source_excerpt": "GDPR-safe, privacy oriented WeTransfer alternative - https://aero.zip",
+      "evidence": [
+        {
+          "source_item_id": 46956747,
+          "source_field": "body",
+          "value": "GDPR-safe, privacy oriented WeTransfer alternative - https://aero.zip",
+          "supports": [],
+          "author": "pypt",
+          "shared_at": 1770711361,
+          "source_url": "https://news.ycombinator.com/item?id=46956747"
+        }
+      ],
+      "source_item_id": 46956747,
+      "source_url": "https://news.ycombinator.com/item?id=46956747",
+      "author": "pypt",
+      "shared_at": 1770711361,
+      "links": [
+        "https://aero.zip"
+      ]
+    },
+    {
+      "name": "aero.zip",
+      "description": "A browser-based file transfer service built to handle massive workflows like raw video and huge project directories without speed caps or browser crashes, aiming for native-app speed with web-link convenience. It streams downloads to recipients as soon as the first chunk leaves the sender, uses a bespoke chunking protocol (grouping small files, splitting huge ones) tested into millions of files, auto-resumes uploads and downloads from the exact byte across network switches, and encrypts everything end-to-end with AES-GCM-256 via the Web Crypto API with the key kept in the URL fragment. Logins use the OPAQUE zero-knowledge protocol, passkeys with the WebAuthn PRF extension are supported, multi-file selections are decrypted and zipped locally on the fly, and performance targets saturating gigabit connections at up to 250 MB/s. Hosted in Germany (EU) for GDPR compliance.",
+      "problem": "Browser-based file transfers typically suffer speed caps and crashes when moving massive files or large numbers of files, such as raw video or huge project directories.",
+      "audience": null,
+      "builder_usernames": [
+        "pypt"
+      ],
+      "source_excerpt": "I'm working on https://aero.zip, a file transfer service designed to handle massive workflows (like raw video or huge project directories) directly in the browser without the usual speed caps or browser crashes.",
+      "evidence": [
+        {
+          "source_item_id": 46590604,
+          "source_field": "body",
+          "value": "I'm working on https://aero.zip, a file transfer service designed to handle massive workflows (like raw video or huge project directories) directly in the browser without the usual speed caps or browser crashes.",
+          "supports": [],
+          "author": "pypt",
+          "shared_at": 1768235021,
+          "source_url": "https://news.ycombinator.com/item?id=46590604"
+        }
+      ],
+      "source_item_id": 46590604,
+      "source_url": "https://news.ycombinator.com/item?id=46590604",
+      "author": "pypt",
+      "shared_at": 1768235021,
+      "links": [
+        "https://aero.zip"
+      ]
+    },
+    {
+      "name": "aero.zip",
+      "description": "An end-to-end encrypted, resumable file transfer web app for sending files via a server (like WeTransfer but encrypted and not peer-to-peer). It implements a custom streaming ZIP64 archiver in which a Service Worker intercepts download requests, fetches and decrypts encrypted chunks, and constructs the ZIP stream on the fly in the browser so multiple files can be downloaded as a single archive without buffering. It uses the OPAQUE protocol for password-authenticated key exchange so the server never learns the password and weak passwords are protected against offline attacks if the database leaks, and it supports passkey PRF (e.g. iCloud Keychain, Windows Hello) to derive the data encryption key directly from the passkey, enabling login without entering a master password.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "pypt"
+      ],
+      "source_excerpt": "I'm building https://aero.zip, an E2E encrypted, resumable file transfer tool (think WeTransfer but encrypted and not P2P).",
+      "evidence": [
+        {
+          "source_item_id": 46269963,
+          "source_field": "body",
+          "value": "I'm building https://aero.zip, an E2E encrypted, resumable file transfer tool (think WeTransfer but encrypted and not P2P).",
+          "supports": [],
+          "author": "pypt",
+          "shared_at": 1765767702,
+          "source_url": "https://news.ycombinator.com/item?id=46269963"
+        }
+      ],
+      "source_item_id": 46269963,
+      "source_url": "https://news.ycombinator.com/item?id=46269963",
+      "author": "pypt",
+      "shared_at": 1765767702,
+      "links": [
+        "https://aero.zip"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 7650,
+  "slug": "skyscraper-web-tools-71befe35d9",
+  "name": "Skyscraper web tools",
+  "mentions": [
+    {
+      "name": "Skyscraper web tools",
+      "description": "A suite of Bluesky web tools: a keyword/term notification service that observes the Bluesky Jetstream and sends email alerts, an HTML/JSON backup archive of any Bluesky account (useful for archiving popular accounts, politicians, and public figures), and trending hashtag lists for the last hour, day, week, and month.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "CameronBanga"
+      ],
+      "source_excerpt": "Then also working on a website/web tool that does the following:\n- A keyword/term notification service that observes the Bluesky Jetstream for usages of the term and sends email alerts.\n\n- Provides an HTML/JSON backup archive of any Bluesky account. Quick way to archive popular accounts, politicians, public figures, etc.\n\n- Trending Hashtag lists, to see what is trending the last hour, day, week, and month.",
+      "evidence": [
+        {
+          "source_item_id": 46578722,
+          "source_field": "body",
+          "value": "Then also working on a website/web tool that does the following:\n- A keyword/term notification service that observes the Bluesky Jetstream for usages of the term and sends email alerts.\n\n- Provides an HTML/JSON backup archive of any Bluesky account. Quick way to archive popular accounts, politicians, public figures, etc.\n\n- Trending Hashtag lists, to see what is trending the last hour, day, week, and month.",
+          "supports": [],
+          "author": "CameronBanga",
+          "shared_at": 1768158490,
+          "source_url": "https://news.ycombinator.com/item?id=46578722"
+        }
+      ],
+      "source_item_id": 46578722,
+      "source_url": "https://news.ycombinator.com/item?id=46578722",
+      "author": "CameronBanga",
+      "shared_at": 1768158490,
+      "links": [
+        "https://api.getskyscraper.com/tools/"
+      ]
+    }
+  ]
+}

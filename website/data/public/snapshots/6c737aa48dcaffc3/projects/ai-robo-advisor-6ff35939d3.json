@@ -1,0 +1,36 @@
+{
+  "id": 9950,
+  "slug": "ai-robo-advisor-6ff35939d3",
+  "name": "AI Robo Advisor",
+  "mentions": [
+    {
+      "name": "AI Robo Advisor",
+      "description": "This proof-of-concept AI-powered robo advisor runs a user survey to understand investment goals, creates a personalized strategy, and builds a portfolio aligned with that strategy. It analyzes the portfolio using financial APIs, tax diversification, and client alignment, then provides a detailed portfolio analysis. The goal is to see how far an AI agent can go in replicating and automating the work of a hedge fund; it is for educational purposes only, not real investment.",
+      "problem": null,
+      "audience": "Educational purposes only, not for real investment",
+      "builder_usernames": [
+        "matvix90"
+      ],
+      "source_excerpt": "I’ve been working on a proof-of-concept AI-powered robo advisor.\n\nSee it in action: https://youtu.be/nqZikwHkLlo\n\nThe idea is to see how far an agent can go in replicating and automating the work of a hedge fund.\n\nThe project is for educational purposes only, not for real investment.",
+      "evidence": [
+        {
+          "source_item_id": 45426057,
+          "source_field": "body",
+          "value": "I’ve been working on a proof-of-concept AI-powered robo advisor.\n\nSee it in action: https://youtu.be/nqZikwHkLlo\n\nThe idea is to see how far an agent can go in replicating and automating the work of a hedge fund.\n\nThe project is for educational purposes only, not for real investment.",
+          "supports": [],
+          "author": "matvix90",
+          "shared_at": 1759243138,
+          "source_url": "https://news.ycombinator.com/item?id=45426057"
+        }
+      ],
+      "source_item_id": 45426057,
+      "source_url": "https://news.ycombinator.com/item?id=45426057",
+      "author": "matvix90",
+      "shared_at": 1759243138,
+      "links": [
+        "https://github.com/matvix90/ai-robo-advisor",
+        "https://youtu.be/nqZikwHkLlo"
+      ]
+    }
+  ]
+}

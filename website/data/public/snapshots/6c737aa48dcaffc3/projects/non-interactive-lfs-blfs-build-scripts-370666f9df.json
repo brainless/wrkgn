@@ -1,0 +1,33 @@
+{
+  "id": 7124,
+  "slug": "non-interactive-lfs-blfs-build-scripts-370666f9df",
+  "name": "Non-interactive LFS/BLFS build scripts",
+  "mentions": [
+    {
+      "name": "Non-interactive LFS/BLFS build scripts",
+      "description": "This project provides scripts for compiling software from source, with the goal of building a complete LFS/BLFS (Linux from Scratch/Beyond Linux from Scratch) system fully non-interactively, using actionable scripts at every moment and git sources rather than old releases.",
+      "problem": "Existing automated solutions like AFLS have formats and restrictions that don't suit the author's workflow, and interactive LFS/BLFS builds are impractical.",
+      "audience": null,
+      "builder_usernames": [
+        "shevy-java"
+      ],
+      "source_excerpt": "improvements to the scripts I use to compile software from source; I want to be able to build a complete LFS/BLFS without any interaction (I know there is AFLS but I don't like the format or restrictions; I literally want to be able to do everything here via actionable scripts at every moment in time, including using git sources rather than old releases)",
+      "evidence": [
+        {
+          "source_item_id": 46943495,
+          "source_field": "body",
+          "value": "improvements to the scripts I use to compile software from source; I want to be able to build a complete LFS/BLFS without any interaction (I know there is AFLS but I don't like the format or restrictions; I literally want to be able to do everything here via actionable scripts at every moment in time, including using git sources rather than old releases)",
+          "supports": [],
+          "author": "shevy-java",
+          "shared_at": 1770630793,
+          "source_url": "https://news.ycombinator.com/item?id=46943495"
+        }
+      ],
+      "source_item_id": 46943495,
+      "source_url": "https://news.ycombinator.com/item?id=46943495",
+      "author": "shevy-java",
+      "shared_at": 1770630793,
+      "links": []
+    }
+  ]
+}

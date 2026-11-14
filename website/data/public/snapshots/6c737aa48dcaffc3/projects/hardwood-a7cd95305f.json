@@ -1,0 +1,35 @@
+{
+  "id": 7054,
+  "slug": "hardwood-a7cd95305f",
+  "name": "Hardwood",
+  "mentions": [
+    {
+      "name": "Hardwood",
+      "description": "A new Java parser for the Apache Parquet file format with minimal dependencies and multi-threaded execution. It supports parsing Parquet files with flat and nested schemas, all physical and logical column types, core and advanced encodings, projections, compression, and multi-threading, with decent performance. Planned roadmap items include SIMD support, predicate push-down (bloom filters, statistics), and writer support.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "gunnarmorling"
+      ],
+      "source_excerpt": "I am working on a new Java parser for the Apache Parquet file format, with minimal dependencies and multi-threaded execution: https://github.com/hardwood-hq/hardwood.",
+      "evidence": [
+        {
+          "source_item_id": 46957927,
+          "source_field": "body",
+          "value": "I am working on a new Java parser for the Apache Parquet file format, with minimal dependencies and multi-threaded execution: https://github.com/hardwood-hq/hardwood.",
+          "supports": [],
+          "author": "gunnarmorling",
+          "shared_at": 1770720398,
+          "source_url": "https://news.ycombinator.com/item?id=46957927"
+        }
+      ],
+      "source_item_id": 46957927,
+      "source_url": "https://news.ycombinator.com/item?id=46957927",
+      "author": "gunnarmorling",
+      "shared_at": 1770720398,
+      "links": [
+        "https://github.com/hardwood-hq/hardwood"
+      ]
+    }
+  ]
+}

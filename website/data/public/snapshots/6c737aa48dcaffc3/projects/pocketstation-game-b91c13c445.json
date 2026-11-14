@@ -1,0 +1,33 @@
+{
+  "id": 8724,
+  "slug": "pocketstation-game-b91c13c445",
+  "name": "PocketStation Game",
+  "mentions": [
+    {
+      "name": "PocketStation Game",
+      "description": "This is a game for the PocketStation, the PlayStation memory-card accessory comparable to the Dreamcast VMU. It targets the same CPU architecture as the Game Boy Advance and is developed in Rust, which required modifying LLVM so Rust can compile for the platform.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Charon77"
+      ],
+      "source_excerpt": "I'm working on a game for pocketstation (essentially Dreamcast VMU, but Playstation). It has the same cpu architecture as GBA but there are some unfortunate circumstances that requires me to modify LLVM for rust to use.",
+      "evidence": [
+        {
+          "source_item_id": 46285851,
+          "source_field": "body",
+          "value": "I'm working on a game for pocketstation (essentially Dreamcast VMU, but Playstation). It has the same cpu architecture as GBA but there are some unfortunate circumstances that requires me to modify LLVM for rust to use.",
+          "supports": [],
+          "author": "Charon77",
+          "shared_at": 1765871269,
+          "source_url": "https://news.ycombinator.com/item?id=46285851"
+        }
+      ],
+      "source_item_id": 46285851,
+      "source_url": "https://news.ycombinator.com/item?id=46285851",
+      "author": "Charon77",
+      "shared_at": 1765871269,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 7467,
+  "slug": "matrix-server-downtime-email-alert-a12debab54",
+  "name": "Matrix server downtime email alert",
+  "mentions": [
+    {
+      "name": "Matrix server downtime email alert",
+      "description": "A script that sends an email notification when a self-hosted Matrix server goes down.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "azdle"
+      ],
+      "source_excerpt": "An email notification to myself if my Matrix server goes down.",
+      "evidence": [
+        {
+          "source_item_id": 46578392,
+          "source_field": "body",
+          "value": "An email notification to myself if my Matrix server goes down.",
+          "supports": [],
+          "author": "azdle",
+          "shared_at": 1768156900,
+          "source_url": "https://news.ycombinator.com/item?id=46578392"
+        }
+      ],
+      "source_item_id": 46578392,
+      "source_url": "https://news.ycombinator.com/item?id=46578392",
+      "author": "azdle",
+      "shared_at": 1768156900,
+      "links": []
+    }
+  ]
+}

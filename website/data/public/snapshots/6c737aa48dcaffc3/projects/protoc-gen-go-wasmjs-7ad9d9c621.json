@@ -1,0 +1,35 @@
+{
+  "id": 8060,
+  "slug": "protoc-gen-go-wasmjs-7ad9d9c621",
+  "name": "protoc-gen-go-wasmjs",
+  "mentions": [
+    {
+      "name": "protoc-gen-go-wasmjs",
+      "description": "A protoc plugin that generates WASM bindings from gRPC services, enabling Go-based backend logic to run in the browser.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "flashgordon"
+      ],
+      "source_excerpt": "protoc-gen-go-wasmjs (https://github.com/panyam/protoc-gen-go-wasmjs) - A protoc plugin for creating wasm bindings out of your grpc services so you can have your \"go based backend logic\" on the browser:",
+      "evidence": [
+        {
+          "source_item_id": 46485603,
+          "source_field": "body",
+          "value": "protoc-gen-go-wasmjs (https://github.com/panyam/protoc-gen-go-wasmjs) - A protoc plugin for creating wasm bindings out of your grpc services so you can have your \"go based backend logic\" on the browser:",
+          "supports": [],
+          "author": "flashgordon",
+          "shared_at": 1767509281,
+          "source_url": "https://news.ycombinator.com/item?id=46485603"
+        }
+      ],
+      "source_item_id": 46485603,
+      "source_url": "https://news.ycombinator.com/item?id=46485603",
+      "author": "flashgordon",
+      "shared_at": 1767509281,
+      "links": [
+        "https://github.com/panyam/protoc-gen-go-wasmjs"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 5755,
+  "slug": "pxv-5ad9178dec",
+  "name": "pxv",
+  "mentions": [
+    {
+      "name": "pxv",
+      "description": "pxv is a simple image viewer inspired by John Bradley's xv, keeping most of the same ergonomics while being easy to run on any machine with a single 'uv run' command.",
+      "problem": "xv is paid shareware that can't be installed via package managers like apt, so it is rarely available across the author's machines.",
+      "audience": null,
+      "builder_usernames": [
+        "linsomniac"
+      ],
+      "source_excerpt": "pxv, a simple image viewer inspired by John Bradley's (RIP) xv.  https://github.com/linsomniac/pxv",
+      "evidence": [
+        {
+          "source_item_id": 47745027,
+          "source_field": "body",
+          "value": "pxv, a simple image viewer inspired by John Bradley's (RIP) xv.  https://github.com/linsomniac/pxv",
+          "supports": [],
+          "author": "linsomniac",
+          "shared_at": 1776031279,
+          "source_url": "https://news.ycombinator.com/item?id=47745027"
+        }
+      ],
+      "source_item_id": 47745027,
+      "source_url": "https://news.ycombinator.com/item?id=47745027",
+      "author": "linsomniac",
+      "shared_at": 1776031279,
+      "links": [
+        "https://github.com/linsomniac/pxv"
+      ]
+    }
+  ]
+}

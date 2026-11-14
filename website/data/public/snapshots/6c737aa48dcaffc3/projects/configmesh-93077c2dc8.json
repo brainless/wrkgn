@@ -1,0 +1,36 @@
+{
+  "id": 7106,
+  "slug": "configmesh-93077c2dc8",
+  "name": "Configmesh",
+  "mentions": [
+    {
+      "name": "Configmesh",
+      "description": "Configmesh is a macOS app with a CLI companion for end-to-end encrypted syncing and backing up of dotfiles and application configurations. It can sync content from locations like ~/.config/, Application Support, and .plist files, and lets users add config sync to apps that don't support it natively.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dvcrn"
+      ],
+      "source_excerpt": "I just released Configmesh this week. It's a macOS app (with CLI companion) for e2e encrypted syncing and backing up of dotfiles and application configurations. You can sync for example stuff from ~/.config/, Application Support, *.plists, and so on, and add config sync to apps that don't support it natively",
+      "evidence": [
+        {
+          "source_item_id": 46943656,
+          "source_field": "body",
+          "value": "I just released Configmesh this week. It's a macOS app (with CLI companion) for e2e encrypted syncing and backing up of dotfiles and application configurations. You can sync for example stuff from ~/.config/, Application Support, *.plists, and so on, and add config sync to apps that don't support it natively",
+          "supports": [],
+          "author": "dvcrn",
+          "shared_at": 1770632473,
+          "source_url": "https://news.ycombinator.com/item?id=46943656"
+        }
+      ],
+      "source_item_id": 46943656,
+      "source_url": "https://news.ycombinator.com/item?id=46943656",
+      "author": "dvcrn",
+      "shared_at": 1770632473,
+      "links": [
+        "https://configmesh.app/",
+        "https://www.youtube.com/watch?v=EeA4TTpM2wk"
+      ]
+    }
+  ]
+}

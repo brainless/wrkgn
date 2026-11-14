@@ -1,0 +1,35 @@
+{
+  "id": 6846,
+  "slug": "rustledger-f8110d1806",
+  "name": "rustledger",
+  "mentions": [
+    {
+      "name": "rustledger",
+      "description": "A Rust implementation of Beancount, the double-entry bookkeeping language. It covers the full Beancount syntax, all the booking methods, a BQL query engine, and plugins in Rust and Python. It works as both a CLI tool and a Rust library, and compiles to WebAssembly.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "robcohen"
+      ],
+      "source_excerpt": "I'm building a Rust implementation of Beancount, the double-entry bookkeeping language. It covers the full Beancount syntax, all the booking methods, a BQL query engine, plugins (including rust and python). It works as both a CLI tool and a Rust library, and it compiles to WebAssembly too.",
+      "evidence": [
+        {
+          "source_item_id": 46959847,
+          "source_field": "body",
+          "value": "I'm building a Rust implementation of Beancount, the double-entry bookkeeping language. It covers the full Beancount syntax, all the booking methods, a BQL query engine, plugins (including rust and python). It works as both a CLI tool and a Rust library, and it compiles to WebAssembly too.",
+          "supports": [],
+          "author": "robcohen",
+          "shared_at": 1770732207,
+          "source_url": "https://news.ycombinator.com/item?id=46959847"
+        }
+      ],
+      "source_item_id": 46959847,
+      "source_url": "https://news.ycombinator.com/item?id=46959847",
+      "author": "robcohen",
+      "shared_at": 1770732207,
+      "links": [
+        "https://github.com/rustledger/rustledger"
+      ]
+    }
+  ]
+}

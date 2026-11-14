@@ -1,0 +1,204 @@
+{
+  "id": 1094,
+  "slug": "breaka-clubs-for-kids-60fb62e6e0",
+  "name": "Breaka clubs for kids",
+  "mentions": [
+    {
+      "name": "Breaka clubs for kids",
+      "description": "This platform runs clubs that teach kids to code and hand-draw their own computer games, currently piloted in schools. Its main experience lets kids build and play their own RPG in the browser on school iPads, built on a fork of the Godot engine tuned for constrained browser devices. It also streams games directly to iPads, including a modded version of Overcooked! 2 that teaches kids to code, delivered via a custom Kubernetes system that spins up game pods on demand backed by time-sliced NVIDIA GPUs, using Cloudflare's TURN relay over TCP since UDP is blocked on school networks.",
+      "problem": "Delivering browser games to school iPads on locked-down networks is hard: some iPads crash from memory limits when launching camera views, in-memory web workers are constrained, and blocked UDP rules out direct WebRTC.",
+      "audience": "Kids learning to code in school clubs",
+      "builder_usernames": [
+        "Benjamin_Dobell"
+      ],
+      "source_excerpt": "Still plugging away teaching kids to code and hand draw their own computer games:\n\nhttps://breaka.club/blog/why-were-building-clubs-for-kids",
+      "evidence": [
+        {
+          "source_item_id": 49690871,
+          "source_field": "body",
+          "value": "Still plugging away teaching kids to code and hand draw their own computer games:\n\nhttps://breaka.club/blog/why-were-building-clubs-for-kids",
+          "supports": [],
+          "author": "Benjamin_Dobell",
+          "shared_at": 1789350554,
+          "source_url": "https://news.ycombinator.com/item?id=49690871"
+        }
+      ],
+      "source_item_id": 49690871,
+      "source_url": "https://news.ycombinator.com/item?id=49690871",
+      "author": "Benjamin_Dobell",
+      "shared_at": 1789350554,
+      "links": [
+        "https://breaka.club/blog/why-were-building-clubs-for-kids"
+      ]
+    },
+    {
+      "name": "Breaka Club",
+      "description": "Clubs for kids designed to make creating games engaging for children, motivated by the builder's experience that his daughter did not want to sit watching him code or drag things around in Godot's level editor. Currently being tested through a weekly in-school pilot.",
+      "problem": "Children lose interest in game development when it means watching an adult code or drag things around in a level editor such as Godot's.",
+      "audience": "Kids, currently reached through a weekly in-school pilot",
+      "builder_usernames": [
+        "Benjamin_Dobell"
+      ],
+      "source_excerpt": "This is precisely why I'm building Breaka Club:\n\nhttps://breaka.club/blog/why-were-building-clubs-for-kids\n\nI also attempted to make a game with my eldest daughter initially. Unsurprisingly, she didn't want to sit there watching me code or drag things around in Godot's level editor.",
+      "evidence": [
+        {
+          "source_item_id": 49238051,
+          "source_field": "body",
+          "value": "This is precisely why I'm building Breaka Club:\n\nhttps://breaka.club/blog/why-were-building-clubs-for-kids\n\nI also attempted to make a game with my eldest daughter initially. Unsurprisingly, she didn't want to sit there watching me code or drag things around in Godot's level editor.",
+          "supports": [],
+          "author": "Benjamin_Dobell",
+          "shared_at": 1786323699,
+          "source_url": "https://news.ycombinator.com/item?id=49238051"
+        }
+      ],
+      "source_item_id": 49238051,
+      "source_url": "https://news.ycombinator.com/item?id=49238051",
+      "author": "Benjamin_Dobell",
+      "shared_at": 1786323699,
+      "links": [
+        "https://breaka.club/blog/why-were-building-clubs-for-kids"
+      ]
+    },
+    {
+      "name": "Breaka Club",
+      "description": "This platform lets kids take photos of their hand-drawn art and build games with it, starting out no-code: photographing an AprilTag imbues the image with functionality. It also teaches kids visual scripting, letting them code their way through levels of Overcooked 2. The game platform supports full multiplayer, offline play, and transitioning from client-authoritative to joining a remote server, and is being piloted as a lunchtime in-school club.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Benjamin_Dobell"
+      ],
+      "source_excerpt": "Still plugging away at Breaka Club, where kids take photos of their hand drawn art and build games using it. Starts out as no-code, photograph an AprilTag and it imbues the image with functionality.",
+      "evidence": [
+        {
+          "source_item_id": 48529942,
+          "source_field": "body",
+          "value": "Still plugging away at Breaka Club, where kids take photos of their hand drawn art and build games using it. Starts out as no-code, photograph an AprilTag and it imbues the image with functionality.",
+          "supports": [],
+          "author": "Benjamin_Dobell",
+          "shared_at": 1781457769,
+          "source_url": "https://news.ycombinator.com/item?id=48529942"
+        }
+      ],
+      "source_item_id": 48529942,
+      "source_url": "https://news.ycombinator.com/item?id=48529942",
+      "author": "Benjamin_Dobell",
+      "shared_at": 1781457769,
+      "links": [
+        "https://breaka.club/blog/why-were-building-clubs-for-kids",
+        "https://youtu.be/ITWSL5lTLig"
+      ]
+    },
+    {
+      "name": "Breaka Club",
+      "description": "A club where kids are taught to code, be creative, and make games.",
+      "problem": null,
+      "audience": "Kids",
+      "builder_usernames": [
+        "Benjamin_Dobell"
+      ],
+      "source_excerpt": "Continuing to make fantastic progress on Breaka Club, where we teach kids to code, be creative and make games:\n\nhttps://breaka.club/blog/why-were-building-clubs-for-kids",
+      "evidence": [
+        {
+          "source_item_id": 47304913,
+          "source_field": "body",
+          "value": "Continuing to make fantastic progress on Breaka Club, where we teach kids to code, be creative and make games:\n\nhttps://breaka.club/blog/why-were-building-clubs-for-kids",
+          "supports": [],
+          "author": "Benjamin_Dobell",
+          "shared_at": 1773030829,
+          "source_url": "https://news.ycombinator.com/item?id=47304913"
+        }
+      ],
+      "source_item_id": 47304913,
+      "source_url": "https://news.ycombinator.com/item?id=47304913",
+      "author": "Benjamin_Dobell",
+      "shared_at": 1773030829,
+      "links": [
+        "https://breaka.club/blog/why-were-building-clubs-for-kids"
+      ]
+    },
+    {
+      "name": "Breaka Club",
+      "description": "Clubs for kids designed to turn them from consumers into creators.",
+      "problem": "Kids tend to be consumers rather than creators.",
+      "audience": "Kids",
+      "builder_usernames": [
+        "Benjamin_Dobell"
+      ],
+      "source_excerpt": "* Continuing development on Breaka Club (https://breaka.club/blog/why-were-building-clubs-for-kids) — Turning kids from consumers into creators.",
+      "evidence": [
+        {
+          "source_item_id": 46272075,
+          "source_field": "body",
+          "value": "* Continuing development on Breaka Club (https://breaka.club/blog/why-were-building-clubs-for-kids) — Turning kids from consumers into creators.",
+          "supports": [],
+          "author": "Benjamin_Dobell",
+          "shared_at": 1765790023,
+          "source_url": "https://news.ycombinator.com/item?id=46272075"
+        }
+      ],
+      "source_item_id": 46272075,
+      "source_url": "https://news.ycombinator.com/item?id=46272075",
+      "author": "Benjamin_Dobell",
+      "shared_at": 1765790023,
+      "links": [
+        "https://breaka.club/blog/why-were-building-clubs-for-kids"
+      ]
+    },
+    {
+      "name": "Declarative game-building platform for kids",
+      "description": "A game-building platform for kids with a fully declarative approach: users define effects that are executed in response to certain interactions, supported by a comprehensive targeting system. The declarative structure is enforced and type-safe using TypeScript, so even nested/chained effects can access (including autocomplete) the targets of parent effects. More opinionated than Easel.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Benjamin_Dobell"
+      ],
+      "source_excerpt": "I'm also building something for kids to build games in. But much more opinionated than Easel. It's interesting to me that Easel looks declarative but is imperative.\n\nI've actually gone with a 100% declarative approach. Basically you define effects, which are executed in response to certain interactions. There's a comprehensive targeting system. But the best part is this is all type-safe using TypeScript, the declarative structure is enforced.",
+      "evidence": [
+        {
+          "source_item_id": 45875214,
+          "source_field": "body",
+          "value": "I'm also building something for kids to build games in. But much more opinionated than Easel. It's interesting to me that Easel looks declarative but is imperative.\n\nI've actually gone with a 100% declarative approach. Basically you define effects, which are executed in response to certain interactions. There's a comprehensive targeting system. But the best part is this is all type-safe using TypeScript, the declarative structure is enforced.",
+          "supports": [],
+          "author": "Benjamin_Dobell",
+          "shared_at": 1762777033,
+          "source_url": "https://news.ycombinator.com/item?id=45875214"
+        }
+      ],
+      "source_item_id": 45875214,
+      "source_url": "https://news.ycombinator.com/item?id=45875214",
+      "author": "Benjamin_Dobell",
+      "shared_at": 1762777033,
+      "links": [
+        "https://breaka.club/blog/why-were-building-clubs-for-kids"
+      ]
+    },
+    {
+      "name": "Breaka clubs for kids",
+      "description": "This project provides tooling and support for community-run creativity and game development clubs that help turn kids from consumers into creators. It focuses on game development initially, teaching kids to build games with Godot and GodotJS, with plans to expand into other areas of creativity.",
+      "problem": "Kids tend to consume media rather than create it; the clubs aim to turn them from consumers into creators.",
+      "audience": "Community-run clubs and the kids who attend them, with a focus on game development for young learners.",
+      "builder_usernames": [
+        "Benjamin_Dobell"
+      ],
+      "source_excerpt": "Creativity and game development clubs for kids:\n\nhttps://breaka.club/blog/why-were-building-clubs-for-kids\n\nBasically, I'm building tooling and providing these to community run clubs that help turn kids from consumers into creators. I'm focusing on game development initially, but have plans to expand into other areas of creativity.\n\nWe're using Godot + GodotJS (which I'm a maintainer of): https://breaka.club/blog/godots-most-powerful-scripting-language",
+      "evidence": [
+        {
+          "source_item_id": 45875091,
+          "source_field": "body",
+          "value": "Creativity and game development clubs for kids:\n\nhttps://breaka.club/blog/why-were-building-clubs-for-kids\n\nBasically, I'm building tooling and providing these to community run clubs that help turn kids from consumers into creators. I'm focusing on game development initially, but have plans to expand into other areas of creativity.\n\nWe're using Godot + GodotJS (which I'm a maintainer of): https://breaka.club/blog/godots-most-powerful-scripting-language",
+          "supports": [],
+          "author": "Benjamin_Dobell",
+          "shared_at": 1762775969,
+          "source_url": "https://news.ycombinator.com/item?id=45875091"
+        }
+      ],
+      "source_item_id": 45875091,
+      "source_url": "https://news.ycombinator.com/item?id=45875091",
+      "author": "Benjamin_Dobell",
+      "shared_at": 1762775969,
+      "links": [
+        "https://breaka.club/blog/why-were-building-clubs-for-kids"
+      ]
+    }
+  ]
+}

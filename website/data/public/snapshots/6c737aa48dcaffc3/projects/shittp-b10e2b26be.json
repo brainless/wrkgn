@@ -1,0 +1,35 @@
+{
+  "id": 8648,
+  "slug": "shittp-b10e2b26be",
+  "name": "shittp",
+  "mentions": [
+    {
+      "name": "shittp",
+      "description": "A command-line tool that carries dotfiles into SSH sessions, letting users bring their shell configuration with them when connecting to remote machines. Inspired by kyrat.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "sdovan1"
+      ],
+      "source_excerpt": "A dotfiles carrier for SSH session called shittp[1], inspired by kyrat[2]",
+      "evidence": [
+        {
+          "source_item_id": 46269429,
+          "source_field": "body",
+          "value": "A dotfiles carrier for SSH session called shittp[1], inspired by kyrat[2]",
+          "supports": [],
+          "author": "sdovan1",
+          "shared_at": 1765763392,
+          "source_url": "https://news.ycombinator.com/item?id=46269429"
+        }
+      ],
+      "source_item_id": 46269429,
+      "source_url": "https://news.ycombinator.com/item?id=46269429",
+      "author": "sdovan1",
+      "shared_at": 1765763392,
+      "links": [
+        "https://github.com/FOBshippingpoint/shittp"
+      ]
+    }
+  ]
+}

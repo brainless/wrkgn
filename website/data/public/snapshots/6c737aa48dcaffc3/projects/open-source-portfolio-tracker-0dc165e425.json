@@ -1,0 +1,33 @@
+{
+  "id": 8003,
+  "slug": "open-source-portfolio-tracker-0dc165e425",
+  "name": "Open Source Portfolio Tracker",
+  "mentions": [
+    {
+      "name": "Open Source Portfolio Tracker",
+      "description": "Open source portfolio tracking tool that lets users record all their trades in Excel and compute performance metrics like Sharpe and Sortino ratios. Trades can also be passed to an LLM to generate trade recommendations based on news feeds. Planned to be open sourced once tests and docs are complete.",
+      "problem": "The author is dissatisfied with existing portfolio tracking tools and finds professional platforms like FactSet and CapitalIQ too expensive.",
+      "audience": null,
+      "builder_usernames": [
+        "cl42"
+      ],
+      "source_excerpt": "... so I'm building an open source version.\n\nTrack all your trades in Excel, and get Sharpe ratios, Sortino ratios, or even pass it on to an LLM to have it recommend trades based on news feeds.",
+      "evidence": [
+        {
+          "source_item_id": 46585648,
+          "source_field": "body",
+          "value": "... so I'm building an open source version.\n\nTrack all your trades in Excel, and get Sharpe ratios, Sortino ratios, or even pass it on to an LLM to have it recommend trades based on news feeds.",
+          "supports": [],
+          "author": "cl42",
+          "shared_at": 1768206772,
+          "source_url": "https://news.ycombinator.com/item?id=46585648"
+        }
+      ],
+      "source_item_id": 46585648,
+      "source_url": "https://news.ycombinator.com/item?id=46585648",
+      "author": "cl42",
+      "shared_at": 1768206772,
+      "links": []
+    }
+  ]
+}

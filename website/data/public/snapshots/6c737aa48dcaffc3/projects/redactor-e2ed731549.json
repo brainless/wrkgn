@@ -1,0 +1,35 @@
+{
+  "id": 5278,
+  "slug": "redactor-e2ed731549",
+  "name": "Redactor",
+  "mentions": [
+    {
+      "name": "Redactor",
+      "description": "A browser extension and Windows app that automatically redacts text as you paste, preventing private data from leaking to third parties. It uses an AI model that runs 100% locally on the user's device so clipboard contents never leave the device.",
+      "problem": "Pasted text can leak private data to third parties; this tool redacts sensitive content before it is shared while keeping clipboard data on-device.",
+      "audience": null,
+      "builder_usernames": [
+        "pizzly"
+      ],
+      "source_excerpt": "A browser extension & windows app that automatically redacts the text you paste to prevent your private data from leaking to the third parties. Its an AI model that runs 100% locally on your own device so that your clipboard contents do not leave your device.",
+      "evidence": [
+        {
+          "source_item_id": 47746778,
+          "source_field": "body",
+          "value": "A browser extension & windows app that automatically redacts the text you paste to prevent your private data from leaking to the third parties. Its an AI model that runs 100% locally on your own device so that your clipboard contents do not leave your device.",
+          "supports": [],
+          "author": "pizzly",
+          "shared_at": 1776046594,
+          "source_url": "https://news.ycombinator.com/item?id=47746778"
+        }
+      ],
+      "source_item_id": 47746778,
+      "source_url": "https://news.ycombinator.com/item?id=47746778",
+      "author": "pizzly",
+      "shared_at": 1776046594,
+      "links": [
+        "http://redactor.negativestarinnovators.com"
+      ]
+    }
+  ]
+}

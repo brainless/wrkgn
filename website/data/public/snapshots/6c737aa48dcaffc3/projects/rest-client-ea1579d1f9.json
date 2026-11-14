@@ -1,0 +1,33 @@
+{
+  "id": 8021,
+  "slug": "rest-client-ea1579d1f9",
+  "name": "REST client",
+  "mentions": [
+    {
+      "name": "REST client",
+      "description": "A minimal REST client built as a personal replacement for mainstream HTTP tools; it ships no analytics and never auto-updates itself mid-request.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "coffeecoders"
+      ],
+      "source_excerpt": "A REST client shouldn’t ship analytics or auto update itself mid-request.",
+      "evidence": [
+        {
+          "source_item_id": 46482748,
+          "source_field": "body",
+          "value": "A REST client shouldn’t ship analytics or auto update itself mid-request.",
+          "supports": [],
+          "author": "coffeecoders",
+          "shared_at": 1767481893,
+          "source_url": "https://news.ycombinator.com/item?id=46482748"
+        }
+      ],
+      "source_item_id": 46482748,
+      "source_url": "https://news.ycombinator.com/item?id=46482748",
+      "author": "coffeecoders",
+      "shared_at": 1767481893,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 5959,
+  "slug": "qa-exploration-agent-with-log-derived-tests-a261309d9e",
+  "name": "QA exploration agent with log-derived tests",
+  "mentions": [
+    {
+      "name": "QA exploration agent with log-derived tests",
+      "description": "A QA-testing workflow in which an AI agent explores a web app as a tester and logs its explorations to a file; automated tests are derived from that log, so tests run frequently and cheaply while the agent runs only occasionally.",
+      "problem": "Agent-based QA exploration took several minutes per run, making frequent runs expensive.",
+      "audience": null,
+      "builder_usernames": [
+        "juanpabloaj"
+      ],
+      "source_excerpt": "QA exploration: I was using an agent to explore a web app as a QA tester. It took several minutes per run. After some iterations, the more practical path was having it log its explorations to a file, then derive automated tests from that log. The agent still runs occasionally, but the tests run frequently and cheaply.",
+      "evidence": [
+        {
+          "source_item_id": 47313215,
+          "source_field": "body",
+          "value": "QA exploration: I was using an agent to explore a web app as a QA tester. It took several minutes per run. After some iterations, the more practical path was having it log its explorations to a file, then derive automated tests from that log. The agent still runs occasionally, but the tests run frequently and cheaply.",
+          "supports": [],
+          "author": "juanpabloaj",
+          "shared_at": 1773080823,
+          "source_url": "https://news.ycombinator.com/item?id=47313215"
+        }
+      ],
+      "source_item_id": 47313215,
+      "source_url": "https://news.ycombinator.com/item?id=47313215",
+      "author": "juanpabloaj",
+      "shared_at": 1773080823,
+      "links": []
+    }
+  ]
+}

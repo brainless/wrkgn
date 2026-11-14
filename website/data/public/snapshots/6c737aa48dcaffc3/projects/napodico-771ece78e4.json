@@ -1,0 +1,35 @@
+{
+  "id": 5222,
+  "slug": "napodico-771ece78e4",
+  "name": "Napodico",
+  "mentions": [
+    {
+      "name": "Napodico",
+      "description": "A free online Neapolitan dictionary with a simple public front end and a CMS-like back office where entries can be edited, including Wikipedia-style inter-links and redirects. It organizes the author's notes on Neapolitan words and expressions. The front end is a SvelteKit app consuming a REST API exposed by a separate Python backend built with FastAPI and SQLAlchemy, split out from the original single TypeScript project after Drizzle ORM limitations.",
+      "problem": "Notes on Neapolitan words and expressions were scattered across Google docs, and the original single TypeScript stack with Drizzle ORM hit limitations that stalled the project.",
+      "audience": null,
+      "builder_usernames": [
+        "hk__2"
+      ],
+      "source_excerpt": "It’s https://napodico.it, a very simple online Neapolitan dictionary. Nothing extraordinary here but it’s something that will tremendously help me organize my notes on Neapolitan words and expressions that are currently scattered across Google docs.",
+      "evidence": [
+        {
+          "source_item_id": 47750448,
+          "source_field": "body",
+          "value": "It’s https://napodico.it, a very simple online Neapolitan dictionary. Nothing extraordinary here but it’s something that will tremendously help me organize my notes on Neapolitan words and expressions that are currently scattered across Google docs.",
+          "supports": [],
+          "author": "hk__2",
+          "shared_at": 1776079095,
+          "source_url": "https://news.ycombinator.com/item?id=47750448"
+        }
+      ],
+      "source_item_id": 47750448,
+      "source_url": "https://news.ycombinator.com/item?id=47750448",
+      "author": "hk__2",
+      "shared_at": 1776079095,
+      "links": [
+        "https://napodico.it"
+      ]
+    }
+  ]
+}

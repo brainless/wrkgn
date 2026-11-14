@@ -1,0 +1,33 @@
+{
+  "id": 4538,
+  "slug": "local-github-for-math-mathematical-knowledge-base-0990eaec32",
+  "name": "Local GitHub for Math (mathematical knowledge base)",
+  "mentions": [
+    {
+      "name": "Local GitHub for Math (mathematical knowledge base)",
+      "description": "This project provides a mathematical knowledge base described as a local GitHub for math, with a Forgejo instance as the backend. It keeps mathematical writing as plain Markdown while adding stable IDs, backlinks, search, draft changes, review, approvals, and merge. It includes a frontend for humans and a harness for AI agents that automatically consume the knowledge base and expand on it, with agents reading pages, following references, proposing edits, and going through the same Issue/PR/review workflow as humans. It works with natural-language proofs rather than formalization, aiming to be useful before autoformalization matures and afterward as a place where humans and agents organize exploration.",
+      "problem": "Helping mathematicians do math together with humans/AI today, in areas not yet easy to formalize because they are not in mathlib.",
+      "audience": "Mathematicians who want to do math together with humans and AI today.",
+      "builder_usernames": [
+        "chaoxu"
+      ],
+      "source_excerpt": "I'm working on a mathematical knowledge base software.\n\nIt's kinda like a local Github for math. In fact the backend is actually a Forgejo instance, I'm building a frontend for human and also a harness for agents that automatically consumes the knowledge base and expand on it.",
+      "evidence": [
+        {
+          "source_item_id": 48090109,
+          "source_field": "body",
+          "value": "I'm working on a mathematical knowledge base software.\n\nIt's kinda like a local Github for math. In fact the backend is actually a Forgejo instance, I'm building a frontend for human and also a harness for agents that automatically consumes the knowledge base and expand on it.",
+          "supports": [],
+          "author": "chaoxu",
+          "shared_at": 1778463541,
+          "source_url": "https://news.ycombinator.com/item?id=48090109"
+        }
+      ],
+      "source_item_id": 48090109,
+      "source_url": "https://news.ycombinator.com/item?id=48090109",
+      "author": "chaoxu",
+      "shared_at": 1778463541,
+      "links": []
+    }
+  ]
+}

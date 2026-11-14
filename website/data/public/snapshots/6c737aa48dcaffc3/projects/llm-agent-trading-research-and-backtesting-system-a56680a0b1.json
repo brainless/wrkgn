@@ -1,0 +1,33 @@
+{
+  "id": 5934,
+  "slug": "llm-agent-trading-research-and-backtesting-system-a56680a0b1",
+  "name": "LLM-agent trading research and backtesting system",
+  "mentions": [
+    {
+      "name": "LLM-agent trading research and backtesting system",
+      "description": "This system uses LLM agents to iterate over academic trading research, recreating candidate models and backtesting them for alpha. It manages 450GB of stocks and options data from Massive (formerly polygon.io) in TimescaleDB with compression and continuous aggregates, and is currently applying the VIX formula to TSLA options trades based on VIX research papers. The resulting trading model beat SPY in a train/out-of-sample test and automates trading on Robinhood.",
+      "problem": "Most backtested 'winning' models are false positives caused by look-ahead bias (e.g., time zone mismatches leaking hours of future knowledge into the model), so the hard part is finding models with genuine alpha.",
+      "audience": null,
+      "builder_usernames": [
+        "dataviz1000"
+      ],
+      "source_excerpt": "I'm using TimescaleDB to manage 450GB of stocks and options data from Massive (what used to be polygon.io), and I've been getting LLM agents to iterate over academic research to see if anything works to improve trading with backtesting.",
+      "evidence": [
+        {
+          "source_item_id": 47303653,
+          "source_field": "body",
+          "value": "I'm using TimescaleDB to manage 450GB of stocks and options data from Massive (what used to be polygon.io), and I've been getting LLM agents to iterate over academic research to see if anything works to improve trading with backtesting.",
+          "supports": [],
+          "author": "dataviz1000",
+          "shared_at": 1773018928,
+          "source_url": "https://news.ycombinator.com/item?id=47303653"
+        }
+      ],
+      "source_item_id": 47303653,
+      "source_url": "https://news.ycombinator.com/item?id=47303653",
+      "author": "dataviz1000",
+      "shared_at": 1773018928,
+      "links": []
+    }
+  ]
+}

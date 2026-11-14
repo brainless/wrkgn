@@ -1,0 +1,35 @@
+{
+  "id": 6955,
+  "slug": "ebpfence-4faf79d2c8",
+  "name": "ebpfence",
+  "mentions": [
+    {
+      "name": "ebpfence",
+      "description": "An experimental security tool named ebpfence that automatically blocks stealer malware from stealing user credentials or crypto wallets, inspired by the Shai-Hulud attack.",
+      "problem": "Protects credentials and crypto wallets from being stolen by credential-stealing malware.",
+      "audience": null,
+      "builder_usernames": [
+        "melting_snow"
+      ],
+      "source_excerpt": "Im working on ebpfence https://github.com/CucumisSativus/ebpfence\n\nI want to create a tool that would automatically block the stealers from stealing your previous credentials or crypto wallets.",
+      "evidence": [
+        {
+          "source_item_id": 46943287,
+          "source_field": "body",
+          "value": "Im working on ebpfence https://github.com/CucumisSativus/ebpfence\n\nI want to create a tool that would automatically block the stealers from stealing your previous credentials or crypto wallets.",
+          "supports": [],
+          "author": "melting_snow",
+          "shared_at": 1770628613,
+          "source_url": "https://news.ycombinator.com/item?id=46943287"
+        }
+      ],
+      "source_item_id": 46943287,
+      "source_url": "https://news.ycombinator.com/item?id=46943287",
+      "author": "melting_snow",
+      "shared_at": 1770628613,
+      "links": [
+        "https://github.com/CucumisSativus/ebpfence"
+      ]
+    }
+  ]
+}

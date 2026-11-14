@@ -1,0 +1,35 @@
+{
+  "id": 9075,
+  "slug": "jsonoid-79fcc880a9",
+  "name": "JSONoid",
+  "mentions": [
+    {
+      "name": "JSONoid",
+      "description": "A JSON schema discovery tool that can discover many more features of JSON Schema than existing tools, such as regular expression patterns, formats, and dependencies. It is being integrated with the author's past work on using LLMs to augment JSON Schemas, and targets use cases like helping data analysts craft analytics pipelines for heterogeneous JSON data and automating API specification generation and regression testing.",
+      "problem": "Just inspecting a few JSON documents isn't sufficient for working with heterogeneous data, and existing schema discovery tools find fewer schema features.",
+      "audience": "Data analysts who are handed piles of heterogeneous JSON documents where inspecting a few documents isn't sufficient; teams automating API specification generation and regression testing.",
+      "builder_usernames": [
+        "michaelmior"
+      ],
+      "source_excerpt": "I'm working on a JSON schema discovery tool, JSONoid[0]. JSONoid can discover many more features of JSON Schema than existing tools such as regular expression patterns, formats, and dependencies.",
+      "evidence": [
+        {
+          "source_item_id": 45890179,
+          "source_field": "body",
+          "value": "I'm working on a JSON schema discovery tool, JSONoid[0]. JSONoid can discover many more features of JSON Schema than existing tools such as regular expression patterns, formats, and dependencies.",
+          "supports": [],
+          "author": "michaelmior",
+          "shared_at": 1762881988,
+          "source_url": "https://news.ycombinator.com/item?id=45890179"
+        }
+      ],
+      "source_item_id": 45890179,
+      "source_url": "https://news.ycombinator.com/item?id=45890179",
+      "author": "michaelmior",
+      "shared_at": 1762881988,
+      "links": [
+        "https://github.com/dataunitylab/jsonoid-discovery/"
+      ]
+    }
+  ]
+}

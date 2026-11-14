@@ -1,0 +1,33 @@
+{
+  "id": 8119,
+  "slug": "gemini-tts-ai-radio-station-44b25e12cf",
+  "name": "Gemini TTS AI radio station",
+  "mentions": [
+    {
+      "name": "Gemini TTS AI radio station",
+      "description": "An automated AI radio station tool that uses Gemini TTS multi-speaker voices for spoken segments over a soundtrack sourced from a Suno playlist that the tool downloads at startup. It plays 3-5 songs before a break in which it calls out channel donators or picks a random topic, generates the script with an LLM, and broadcasts the output as a wrapper around FFMPEG streaming to SRT or RTMP.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "neighborlynook"
+      ],
+      "source_excerpt": "I'm actually building this exact thing right now.  Using Gemini TTS with its multi-speaker capabilities.  Soundtrack comes from a Suno Playlist which the tool will download the entire playlist at the start.\n\nPlays 3-5 songs prior to a \"break\", where the logic will call out channel donators vs pick a random topic to discuss, then use an LLM to generate the script before sending to gemini.\n\nIn the end; its really just a wrapper around FFMPEG broadcasting to an SRT or RTMP stream.",
+      "evidence": [
+        {
+          "source_item_id": 46275354,
+          "source_field": "body",
+          "value": "I'm actually building this exact thing right now.  Using Gemini TTS with its multi-speaker capabilities.  Soundtrack comes from a Suno Playlist which the tool will download the entire playlist at the start.\n\nPlays 3-5 songs prior to a \"break\", where the logic will call out channel donators vs pick a random topic to discuss, then use an LLM to generate the script before sending to gemini.\n\nIn the end; its really just a wrapper around FFMPEG broadcasting to an SRT or RTMP stream.",
+          "supports": [],
+          "author": "neighborlynook",
+          "shared_at": 1765810783,
+          "source_url": "https://news.ycombinator.com/item?id=46275354"
+        }
+      ],
+      "source_item_id": 46275354,
+      "source_url": "https://news.ycombinator.com/item?id=46275354",
+      "author": "neighborlynook",
+      "shared_at": 1765810783,
+      "links": []
+    }
+  ]
+}

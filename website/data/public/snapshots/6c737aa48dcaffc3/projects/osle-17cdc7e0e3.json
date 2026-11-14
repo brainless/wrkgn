@@ -1,0 +1,36 @@
+{
+  "id": 10800,
+  "slug": "osle-17cdc7e0e3",
+  "name": "OSle",
+  "mentions": [
+    {
+      "name": "OSle",
+      "description": "A minimal operating system that fits entirely within a single 510-byte bootloader, deliberately avoiding chain loading or multi-stage boot. It includes a file system, a shell, and simple process management, enough to run non-trivial guest applications such as a text editor. Progress is public on GitHub and it can be tested in the browser.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "shikaan"
+      ],
+      "source_excerpt": "I started making an OS that fits in a bootloader.\n\nI am purposefully not doing chain loading or multi-stage to see how much I can squeeze out of 510bytes.\n\nIt comes with a file system, a shell, and a simple process management. Enough to write non-trivial guest applications, like a text editor.",
+      "evidence": [
+        {
+          "source_item_id": 43818126,
+          "source_field": "body",
+          "value": "I started making an OS that fits in a bootloader.\n\nI am purposefully not doing chain loading or multi-stage to see how much I can squeeze out of 510bytes.\n\nIt comes with a file system, a shell, and a simple process management. Enough to write non-trivial guest applications, like a text editor.",
+          "supports": [],
+          "author": "shikaan",
+          "shared_at": 1745820396,
+          "source_url": "https://news.ycombinator.com/item?id=43818126"
+        }
+      ],
+      "source_item_id": 43818126,
+      "source_url": "https://news.ycombinator.com/item?id=43818126",
+      "author": "shikaan",
+      "shared_at": 1745820396,
+      "links": [
+        "https://github.com/shikaan/OSle",
+        "https://shikaan.github.io/OSle/"
+      ]
+    }
+  ]
+}

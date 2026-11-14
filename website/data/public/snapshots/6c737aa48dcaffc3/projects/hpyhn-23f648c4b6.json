@@ -1,0 +1,91 @@
+{
+  "id": 8374,
+  "slug": "hpyhn-23f648c4b6",
+  "name": "hpyhn",
+  "mentions": [
+    {
+      "name": "hpyhn",
+      "description": "A website that helps Hacker News readers save time while browsing HN. It surfaces valuable comments buried in threads with fewer points, clarifies what posts are about when titles are misleading, and assigns every post a personalized interest score based on the builder's preferences to filter out uninteresting posts.",
+      "problem": "Valuable comments are buried in low-point HN threads, good posts get ignored due to bad titles or unclear themes, and filtering out uninteresting posts isn't a simple yes/no decision, costing readers time.",
+      "audience": "Hacker News users",
+      "builder_usernames": [
+        "liqilin1567"
+      ],
+      "source_excerpt": "I built a website (https://hpyhn.xyz) for hacker news users for reasons:",
+      "evidence": [
+        {
+          "source_item_id": 46269333,
+          "source_field": "body",
+          "value": "I built a website (https://hpyhn.xyz) for hacker news users for reasons:",
+          "supports": [],
+          "author": "liqilin1567",
+          "shared_at": 1765762714,
+          "source_url": "https://news.ycombinator.com/item?id=46269333"
+        }
+      ],
+      "source_item_id": 46269333,
+      "source_url": "https://news.ycombinator.com/item?id=46269333",
+      "author": "liqilin1567",
+      "shared_at": 1765762714,
+      "links": [
+        "https://hpyhn.xyz"
+      ]
+    },
+    {
+      "name": "hpyhn.xyz",
+      "description": "This website helps Hacker News users save time and avoid missing good content by surfacing valuable comments buried in threads with few points, clarifying posts whose titles are bad or unclear, and assigning every post an 'interesting score' based on the user's own preferences so they can filter out uninteresting posts.",
+      "problem": "Valuable HN comments are buried in threads with fewer points, good posts get ignored due to bad titles or unclear themes, and filtering out uninteresting posts is not a simple yes/no decision.",
+      "audience": "Hacker News users",
+      "builder_usernames": [
+        "liqilin1567"
+      ],
+      "source_excerpt": "I built a website (https://hpyhn.xyz) for hacker news users for reasons:\n\n1. hn comments are valuable, I've spent a lot of time going through hn comments. \nI think there are valuable comments buried in the threads with fewer points, so it's not enough to just read top3 threads.",
+      "evidence": [
+        {
+          "source_item_id": 45872226,
+          "source_field": "body",
+          "value": "I built a website (https://hpyhn.xyz) for hacker news users for reasons:\n\n1. hn comments are valuable, I've spent a lot of time going through hn comments. \nI think there are valuable comments buried in the threads with fewer points, so it's not enough to just read top3 threads.",
+          "supports": [],
+          "author": "liqilin1567",
+          "shared_at": 1762746676,
+          "source_url": "https://news.ycombinator.com/item?id=45872226"
+        }
+      ],
+      "source_item_id": 45872226,
+      "source_url": "https://news.ycombinator.com/item?id=45872226",
+      "author": "liqilin1567",
+      "shared_at": 1762746676,
+      "links": [
+        "https://hpyhn.xyz"
+      ]
+    },
+    {
+      "name": "hpyhn",
+      "description": "A SaaS project that helps users learn fast from Hacker News. Built with a Node.js and Python back-end.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "liqilin1567"
+      ],
+      "source_excerpt": "Working on a Saas project(https://hpyhn.xyz) help me to learn fast on HN.",
+      "evidence": [
+        {
+          "source_item_id": 45384837,
+          "source_field": "body",
+          "value": "Working on a Saas project(https://hpyhn.xyz) help me to learn fast on HN.",
+          "supports": [],
+          "author": "liqilin1567",
+          "shared_at": 1758881976,
+          "source_url": "https://news.ycombinator.com/item?id=45384837"
+        }
+      ],
+      "source_item_id": 45384837,
+      "source_url": "https://news.ycombinator.com/item?id=45384837",
+      "author": "liqilin1567",
+      "shared_at": 1758881976,
+      "links": [
+        "https://hpyhn.xyz"
+      ]
+    }
+  ]
+}

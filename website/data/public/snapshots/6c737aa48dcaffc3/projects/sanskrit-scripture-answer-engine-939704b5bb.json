@@ -1,0 +1,33 @@
+{
+  "id": 10080,
+  "slug": "sanskrit-scripture-answer-engine-939704b5bb",
+  "name": "Sanskrit Scripture Answer Engine",
+  "mentions": [
+    {
+      "name": "Sanskrit Scripture Answer Engine",
+      "description": "An LLM-based answer engine for Hindu scriptures and old Sanskrit works, built on an indexed corpus of the documents, that answers questions about texts such as the Vedas, Upanishads, and Mahabharata. Like Perplexity but focused entirely on Sanskrit sources, it provides proper quotations from the exact verses where the answers are found. The author is figuring out funding, as server costs for search plus LLM inference will be large.",
+      "problem": "The author is unsure how to fund the project, since server costs (search engine + LLM) will be huge.",
+      "audience": "General public; the author plans to release it openly for people to use",
+      "builder_usernames": [
+        "ganarajpr"
+      ],
+      "source_excerpt": "I am working on a answer engine for Hindu Scriptures and old Sanskrit works. I already have a corpus of all the documents which are indexed and currently working on a LLM based answer engine that focuses on answering questions from Vedas and Upanishads and Mahabharata (for ex). Think perplexity but completely focused on Sanskrit sources with proper quotations from the exact verses where the answers are found.",
+      "evidence": [
+        {
+          "source_item_id": 45435565,
+          "source_field": "body",
+          "value": "I am working on a answer engine for Hindu Scriptures and old Sanskrit works. I already have a corpus of all the documents which are indexed and currently working on a LLM based answer engine that focuses on answering questions from Vedas and Upanishads and Mahabharata (for ex). Think perplexity but completely focused on Sanskrit sources with proper quotations from the exact verses where the answers are found.",
+          "supports": [],
+          "author": "ganarajpr",
+          "shared_at": 1759307277,
+          "source_url": "https://news.ycombinator.com/item?id=45435565"
+        }
+      ],
+      "source_item_id": 45435565,
+      "source_url": "https://news.ycombinator.com/item?id=45435565",
+      "author": "ganarajpr",
+      "shared_at": 1759307277,
+      "links": []
+    }
+  ]
+}

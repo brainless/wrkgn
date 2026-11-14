@@ -1,0 +1,63 @@
+{
+  "id": 7915,
+  "slug": "torch-webgpu-48a6d5f2af",
+  "name": "torch-webgpu",
+  "mentions": [
+    {
+      "name": "torch-webgpu",
+      "description": "A compiler and runtime that brings PyTorch to WebGPU, enabling PyTorch computation and models to run on the WebGPU API in browsers.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "yu3zhou4"
+      ],
+      "source_excerpt": "PyTorch compiler and runtime for WebGPU https://github.com/jmaczan/torch-webgpu",
+      "evidence": [
+        {
+          "source_item_id": 46581025,
+          "source_field": "body",
+          "value": "PyTorch compiler and runtime for WebGPU https://github.com/jmaczan/torch-webgpu",
+          "supports": [],
+          "author": "yu3zhou4",
+          "shared_at": 1768170426,
+          "source_url": "https://news.ycombinator.com/item?id=46581025"
+        }
+      ],
+      "source_item_id": 46581025,
+      "source_url": "https://news.ycombinator.com/item?id=46581025",
+      "author": "yu3zhou4",
+      "shared_at": 1768170426,
+      "links": [
+        "https://github.com/jmaczan/torch-webgpu"
+      ]
+    },
+    {
+      "name": "torch-webgpu",
+      "description": "A WebGPU backend for PyTorch, enabling PyTorch to run on WebGPU.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "yu3zhou4"
+      ],
+      "source_excerpt": "WebGPU backend for PyTorch\n\nhttps://github.com/jmaczan/torch-webgpu",
+      "evidence": [
+        {
+          "source_item_id": 46269845,
+          "source_field": "body",
+          "value": "WebGPU backend for PyTorch\n\nhttps://github.com/jmaczan/torch-webgpu",
+          "supports": [],
+          "author": "yu3zhou4",
+          "shared_at": 1765766710,
+          "source_url": "https://news.ycombinator.com/item?id=46269845"
+        }
+      ],
+      "source_item_id": 46269845,
+      "source_url": "https://news.ycombinator.com/item?id=46269845",
+      "author": "yu3zhou4",
+      "shared_at": 1765766710,
+      "links": [
+        "https://github.com/jmaczan/torch-webgpu"
+      ]
+    }
+  ]
+}

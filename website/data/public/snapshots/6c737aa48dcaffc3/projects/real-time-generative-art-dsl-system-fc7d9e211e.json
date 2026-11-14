@@ -1,0 +1,33 @@
+{
+  "id": 10831,
+  "slug": "real-time-generative-art-dsl-system-fc7d9e211e",
+  "name": "Real-time generative art DSL system",
+  "mentions": [
+    {
+      "name": "Real-time generative art DSL system",
+      "description": "A real-time generative art system driven by a custom DSL (defined with Pest) and interpreter that executes scripts for creating dynamic, interactive visuals. It uses Nannou for graphics via WebGL and handles input from keyboard, mouse, MIDI, and audio analysis. Targets WASM and will be accessible as a web app where users can create and share their own projects, with community features for collaboration and discovery being explored.",
+      "problem": "Human-authored, interactive art is less accessible with current methods like GLSL/ShaderToy.",
+      "audience": null,
+      "builder_usernames": [
+        "fergal"
+      ],
+      "source_excerpt": "I decided to build a system for real-time generative art driven by a DSL (defined with Pest) and interpreter that executes scripts for creating dynamic and interactive visuals.",
+      "evidence": [
+        {
+          "source_item_id": 43827516,
+          "source_field": "body",
+          "value": "I decided to build a system for real-time generative art driven by a DSL (defined with Pest) and interpreter that executes scripts for creating dynamic and interactive visuals.",
+          "supports": [],
+          "author": "fergal",
+          "shared_at": 1745886105,
+          "source_url": "https://news.ycombinator.com/item?id=43827516"
+        }
+      ],
+      "source_item_id": 43827516,
+      "source_url": "https://news.ycombinator.com/item?id=43827516",
+      "author": "fergal",
+      "shared_at": 1745886105,
+      "links": []
+    }
+  ]
+}

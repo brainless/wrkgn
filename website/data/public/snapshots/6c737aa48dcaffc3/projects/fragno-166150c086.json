@@ -1,0 +1,35 @@
+{
+  "id": 10061,
+  "slug": "fragno-166150c086",
+  "name": "Fragno",
+  "mentions": [
+    {
+      "name": "Fragno",
+      "description": "A TypeScript framework for building full-stack libraries. Library authors can define backend routes and get reactive primitives for building frontend logic on top of those routes, with everything embedding into the user's application; a data layer is planned. Ideas are inspired by Better-Auth.",
+      "problem": null,
+      "audience": "Library authors and the integrators/end-users of their libraries",
+      "builder_usernames": [
+        "WilcoKruijer"
+      ],
+      "source_excerpt": "I've been working on 'Fragno', a TypeScript framework to build full-stack libraries with. It allows the library author to define backend routes, and provides them with reactive primitives for building frontend logic using these routes. This all embeds into the user's application.",
+      "evidence": [
+        {
+          "source_item_id": 45424512,
+          "source_field": "body",
+          "value": "I've been working on 'Fragno', a TypeScript framework to build full-stack libraries with. It allows the library author to define backend routes, and provides them with reactive primitives for building frontend logic using these routes. This all embeds into the user's application.",
+          "supports": [],
+          "author": "WilcoKruijer",
+          "shared_at": 1759234608,
+          "source_url": "https://news.ycombinator.com/item?id=45424512"
+        }
+      ],
+      "source_item_id": 45424512,
+      "source_url": "https://news.ycombinator.com/item?id=45424512",
+      "author": "WilcoKruijer",
+      "shared_at": 1759234608,
+      "links": [
+        "https://fragno.dev"
+      ]
+    }
+  ]
+}

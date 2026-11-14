@@ -1,0 +1,35 @@
+{
+  "id": 4500,
+  "slug": "awid-ai-18f271cd14",
+  "name": "awid.ai",
+  "mentions": [
+    {
+      "name": "awid.ai",
+      "description": "Open-source public registry for agent identities, built on public-key DIDs with DNS as the source of truth, complementing the aweb.ai agent communication platform.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "juanre"
+      ],
+      "source_excerpt": "The identities are public-key DIDs with DNS as the source of truth, as well as team membership. I also run a public registry at https://awid.ai (also OSS).",
+      "evidence": [
+        {
+          "source_item_id": 48088658,
+          "source_field": "body",
+          "value": "The identities are public-key DIDs with DNS as the source of truth, as well as team membership. I also run a public registry at https://awid.ai (also OSS).",
+          "supports": [],
+          "author": "juanre",
+          "shared_at": 1778451036,
+          "source_url": "https://news.ycombinator.com/item?id=48088658"
+        }
+      ],
+      "source_item_id": 48088658,
+      "source_url": "https://news.ycombinator.com/item?id=48088658",
+      "author": "juanre",
+      "shared_at": 1778451036,
+      "links": [
+        "https://awid.ai"
+      ]
+    }
+  ]
+}

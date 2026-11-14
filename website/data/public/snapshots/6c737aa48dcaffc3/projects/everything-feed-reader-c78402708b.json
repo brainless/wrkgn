@@ -1,0 +1,33 @@
+{
+  "id": 10012,
+  "slug": "everything-feed-reader-c78402708b",
+  "name": "Everything feed reader",
+  "mentions": [
+    {
+      "name": "Everything feed reader",
+      "description": "A pluggable \"everything\" feed reader framework that pushes arbitrary content sources — email, Slack notifications, RSS, and more — into an RSS-feed-reader-style interface. It aims to provide one place to manage all notification settings, e.g. surfacing Slack messages containing a chosen keyword. Planned features include summarization and tagging using a local small language model that can run on older hardware.",
+      "problem": "Notifications are scattered across email, Slack, RSS and other channels with no single place to manage notification settings.",
+      "audience": "Personal use — the author managing their own notifications",
+      "builder_usernames": [
+        "m82labs"
+      ],
+      "source_excerpt": "An “everything” feed reader. Its a plugable framework that allows you to push anything into an RSS feed reader type interface. Email, Slack notifications, RSS, etc.",
+      "evidence": [
+        {
+          "source_item_id": 45420963,
+          "source_field": "body",
+          "value": "An “everything” feed reader. Its a plugable framework that allows you to push anything into an RSS feed reader type interface. Email, Slack notifications, RSS, etc.",
+          "supports": [],
+          "author": "m82labs",
+          "shared_at": 1759195491,
+          "source_url": "https://news.ycombinator.com/item?id=45420963"
+        }
+      ],
+      "source_item_id": 45420963,
+      "source_url": "https://news.ycombinator.com/item?id=45420963",
+      "author": "m82labs",
+      "shared_at": 1759195491,
+      "links": []
+    }
+  ]
+}

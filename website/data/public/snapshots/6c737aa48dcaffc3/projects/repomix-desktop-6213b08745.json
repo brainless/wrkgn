@@ -1,0 +1,35 @@
+{
+  "id": 4522,
+  "slug": "repomix-desktop-6213b08745",
+  "name": "Repomix Desktop",
+  "mentions": [
+    {
+      "name": "Repomix Desktop",
+      "description": "An open-source desktop client for the Repomix CLI that summarizes all the code in a repository into a single txt or md file so it can be fed to AI models such as ChatGPT, Gemini and GLM for analysis. Designed for speed, it focuses on quickly getting repo code ready to paste into browser AI chats, omitting the granular flag options of the CLI, and has no official connection to the upstream Repomix project.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "thekevan"
+      ],
+      "source_excerpt": "A desktop client for Repomix. Repomix is a CLI which allows you to summarize all the code in a repo in one txt or md file so you can in turn feed it to an AI model for analysis.",
+      "evidence": [
+        {
+          "source_item_id": 48087588,
+          "source_field": "body",
+          "value": "A desktop client for Repomix. Repomix is a CLI which allows you to summarize all the code in a repo in one txt or md file so you can in turn feed it to an AI model for analysis.",
+          "supports": [],
+          "author": "thekevan",
+          "shared_at": 1778444814,
+          "source_url": "https://news.ycombinator.com/item?id=48087588"
+        }
+      ],
+      "source_item_id": 48087588,
+      "source_url": "https://news.ycombinator.com/item?id=48087588",
+      "author": "thekevan",
+      "shared_at": 1778444814,
+      "links": [
+        "https://github.com/KevanMacGee/Repomix-Desktop"
+      ]
+    }
+  ]
+}

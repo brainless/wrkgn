@@ -1,0 +1,33 @@
+{
+  "id": 6973,
+  "slug": "rethinkdns-like-dns-blocking-and-wireguard-proxy-app-0c7dba65ed",
+  "name": "RethinkDNS-like DNS blocking and WireGuard proxy app",
+  "mentions": [
+    {
+      "name": "RethinkDNS-like DNS blocking and WireGuard proxy app",
+      "description": "A privacy-focused DNS and proxy app similar to RethinkDNS and DNSCrypt-Proxy, built with Tauri and Svelte. It provides DNS blocklists, a custom WireGuard proxy (using Mullvad's GotaTun implementation), and potential cross-platform device support, starting with Android. It will be open-sourced if completed.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ErenayDev"
+      ],
+      "source_excerpt": "I'm currently working on a RethinkDNS-like (Android) and DNSCrypt-Proxy-like app built with Tauri + Svelte. It will include DNS blocklists, a custom WireGuard proxy, and potentially cross-platform device support. I'm using Mullvad's GotaTun implementation.",
+      "evidence": [
+        {
+          "source_item_id": 46941297,
+          "source_field": "body",
+          "value": "I'm currently working on a RethinkDNS-like (Android) and DNSCrypt-Proxy-like app built with Tauri + Svelte. It will include DNS blocklists, a custom WireGuard proxy, and potentially cross-platform device support. I'm using Mullvad's GotaTun implementation.",
+          "supports": [],
+          "author": "ErenayDev",
+          "shared_at": 1770608269,
+          "source_url": "https://news.ycombinator.com/item?id=46941297"
+        }
+      ],
+      "source_item_id": 46941297,
+      "source_url": "https://news.ycombinator.com/item?id=46941297",
+      "author": "ErenayDev",
+      "shared_at": 1770608269,
+      "links": []
+    }
+  ]
+}

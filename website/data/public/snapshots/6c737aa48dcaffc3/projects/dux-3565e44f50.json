@@ -1,0 +1,35 @@
+{
+  "id": 5601,
+  "slug": "dux-3565e44f50",
+  "name": "dux",
+  "mentions": [
+    {
+      "name": "dux",
+      "description": "A tool that coordinates multiple agents on Linux, working both locally and remotely over SSH, to manage and orchestrate agent workflows from one place.",
+      "problem": "Existing solutions for coordinating multiple agents on Linux mostly fell short, leaving a need for a way to coordinate agents both via SSH and locally.",
+      "audience": null,
+      "builder_usernames": [
+        "pdappollonio"
+      ],
+      "source_excerpt": "I just released https://github.com/patrickdappollonio/dux\n\nWanted to have a way to coordinate multiple agents on Linux either via SSH or locally and figured out why not give it a shot?",
+      "evidence": [
+        {
+          "source_item_id": 47745941,
+          "source_field": "body",
+          "value": "I just released https://github.com/patrickdappollonio/dux\n\nWanted to have a way to coordinate multiple agents on Linux either via SSH or locally and figured out why not give it a shot?",
+          "supports": [],
+          "author": "pdappollonio",
+          "shared_at": 1776038830,
+          "source_url": "https://news.ycombinator.com/item?id=47745941"
+        }
+      ],
+      "source_item_id": 47745941,
+      "source_url": "https://news.ycombinator.com/item?id=47745941",
+      "author": "pdappollonio",
+      "shared_at": 1776038830,
+      "links": [
+        "https://github.com/patrickdappollonio/dux"
+      ]
+    }
+  ]
+}

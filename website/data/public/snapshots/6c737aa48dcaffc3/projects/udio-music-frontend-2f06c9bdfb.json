@@ -1,0 +1,33 @@
+{
+  "id": 10945,
+  "slug": "udio-music-frontend-2f06c9bdfb",
+  "name": "Udio Music Frontend",
+  "mentions": [
+    {
+      "name": "Udio Music Frontend",
+      "description": "A SvelteKit frontend for Udio, an AI music generation app. It collects all generated audio content from Udio and adds organization and management tools Udio lacks: organizing tracks by topic, 5-star ratings, custom labels with filtering, playlists, prompt generation, and an arbitrarily long generation queue so users can batch generations instead of babysitting the Udio UI.",
+      "problem": "Udio has good audio generation models but an awful UI with weak organization and management tools, and without custom tooling users must babysit the interface to make use of the credits they paid for.",
+      "audience": "Udio users who generate music and struggle with the service's UI; built primarily for the author's own use",
+      "builder_usernames": [
+        "brulard"
+      ],
+      "source_excerpt": "I'm working on a better frontend (in sveltekit) for Udio - music generation app.",
+      "evidence": [
+        {
+          "source_item_id": 43819852,
+          "source_field": "body",
+          "value": "I'm working on a better frontend (in sveltekit) for Udio - music generation app.",
+          "supports": [],
+          "author": "brulard",
+          "shared_at": 1745838076,
+          "source_url": "https://news.ycombinator.com/item?id=43819852"
+        }
+      ],
+      "source_item_id": 43819852,
+      "source_url": "https://news.ycombinator.com/item?id=43819852",
+      "author": "brulard",
+      "shared_at": 1745838076,
+      "links": []
+    }
+  ]
+}

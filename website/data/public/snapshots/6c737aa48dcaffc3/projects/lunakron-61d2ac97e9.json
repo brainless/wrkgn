@@ -1,0 +1,33 @@
+{
+  "id": 9838,
+  "slug": "lunakron-61d2ac97e9",
+  "name": "LunaKron",
+  "mentions": [
+    {
+      "name": "LunaKron",
+      "description": "This GPS-enabled moon-phase clock is hand-made and syncs via a tiny GPS module wired to an Arduino, parsed with the TinyGPSPlus library; besides a natural wood aesthetic version, other versions feature futuristic black acrylic with a photorealistic silvery moon.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "vax425"
+      ],
+      "source_excerpt": "I'm really glad you like the LunaKron. I make a couple other versions that have less wood aesthetic and more futuristic black acrylic with a photorealistic, silvery moon.\n\nI connect a tiny GPS module to the Arduino via 3 wires: power, ground, and serial input, and use Mikal Hart's \"TinyGPSPlus\" module to parse the NMEA data streams.",
+      "evidence": [
+        {
+          "source_item_id": 45562634,
+          "source_field": "body",
+          "value": "I'm really glad you like the LunaKron. I make a couple other versions that have less wood aesthetic and more futuristic black acrylic with a photorealistic, silvery moon.\n\nI connect a tiny GPS module to the Arduino via 3 wires: power, ground, and serial input, and use Mikal Hart's \"TinyGPSPlus\" module to parse the NMEA data streams.",
+          "supports": [],
+          "author": "vax425",
+          "shared_at": 1760308252,
+          "source_url": "https://news.ycombinator.com/item?id=45562634"
+        }
+      ],
+      "source_item_id": 45562634,
+      "source_url": "https://news.ycombinator.com/item?id=45562634",
+      "author": "vax425",
+      "shared_at": 1760308252,
+      "links": []
+    }
+  ]
+}

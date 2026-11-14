@@ -1,0 +1,35 @@
+{
+  "id": 7474,
+  "slug": "clojure-multiproject-example-35b854e3fb",
+  "name": "clojure-multiproject-example",
+  "mentions": [
+    {
+      "name": "clojure-multiproject-example",
+      "description": "A repo organisation system providing structure, conventions, and tools for sharing common parts (libraries as functions, apps as objects) across multiple projects without monolithic frameworks.",
+      "problem": "Keeping shared code as distinct artifacts across projects normally leads to the diamond dependency problem and other development-time friction — the Expression Problem as it manifests in source code management for cross library, service, and project feature development.",
+      "audience": null,
+      "builder_usernames": [
+        "adityaathalye"
+      ],
+      "source_excerpt": "Except, it's just a repo organisation system (structure, conventions, and tools) that lets me share common \"parts\" across multiple \"projects\". No monolithic frameworks here.",
+      "evidence": [
+        {
+          "source_item_id": 46578645,
+          "source_field": "body",
+          "value": "Except, it's just a repo organisation system (structure, conventions, and tools) that lets me share common \"parts\" across multiple \"projects\". No monolithic frameworks here.",
+          "supports": [],
+          "author": "adityaathalye",
+          "shared_at": 1768158098,
+          "source_url": "https://news.ycombinator.com/item?id=46578645"
+        }
+      ],
+      "source_item_id": 46578645,
+      "source_url": "https://news.ycombinator.com/item?id=46578645",
+      "author": "adityaathalye",
+      "shared_at": 1768158098,
+      "links": [
+        "https://github.com/adityaathalye/clojure-multiproject-example"
+      ]
+    }
+  ]
+}

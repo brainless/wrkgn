@@ -1,0 +1,35 @@
+{
+  "id": 5542,
+  "slug": "dve-6436f85116",
+  "name": "dve",
+  "mentions": [
+    {
+      "name": "dve",
+      "description": "A semantic embedder and vector database combined into one project, focused on Apple devices. It provides drop-in semantic vector search for any text, so users don't have to pick models, manage a database, handle data processing, or deal with performance concerns.",
+      "problem": "Setting up semantic search normally requires worrying about which models and database to use, how the data is processed, and performance concerns.",
+      "audience": null,
+      "builder_usernames": [
+        "mcdow"
+      ],
+      "source_excerpt": "I’m working on a combination of a semantic embedder and vector database with a focus on Apple devices https://github.com/emmettmcdow/dve",
+      "evidence": [
+        {
+          "source_item_id": 47755301,
+          "source_field": "body",
+          "value": "I’m working on a combination of a semantic embedder and vector database with a focus on Apple devices https://github.com/emmettmcdow/dve",
+          "supports": [],
+          "author": "mcdow",
+          "shared_at": 1776101372,
+          "source_url": "https://news.ycombinator.com/item?id=47755301"
+        }
+      ],
+      "source_item_id": 47755301,
+      "source_url": "https://news.ycombinator.com/item?id=47755301",
+      "author": "mcdow",
+      "shared_at": 1776101372,
+      "links": [
+        "https://github.com/emmettmcdow/dve"
+      ]
+    }
+  ]
+}

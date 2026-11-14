@@ -1,0 +1,35 @@
+{
+  "id": 11372,
+  "slug": "numen-894e839a98",
+  "name": "Numen",
+  "mentions": [
+    {
+      "name": "Numen",
+      "description": "A company research system that scrapes a company's website, profiles, press, and other findable online material, then runs it through a multi-model prompt engine built from scratch, chaining multiple LLMs with custom logic. The workflow has three stages — crawl, process, synthesize — and outputs markdown reports with no filler, aimed at GTM, growth, competitor analysis, product gaps, and strategic blindspots. Raw AI-generated analysis is refined with human strategic input before delivery. Sample reports (Grab, LemmyHomes) are published on GitHub; the backend is still in development and it is not yet sold as a product.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "lightyoruichi"
+      ],
+      "source_excerpt": "i built a system that scrapes a company’s site, profiles, press, and anything else it can find online, then runs it through a multi-model prompt engine i wrote from scratch (multiple LLMs chained together with custom logic). the workflow is split into three parts: crawl, process, synthesize.",
+      "evidence": [
+        {
+          "source_item_id": 43875581,
+          "source_field": "body",
+          "value": "i built a system that scrapes a company’s site, profiles, press, and anything else it can find online, then runs it through a multi-model prompt engine i wrote from scratch (multiple LLMs chained together with custom logic). the workflow is split into three parts: crawl, process, synthesize.",
+          "supports": [],
+          "author": "lightyoruichi",
+          "shared_at": 1746229161,
+          "source_url": "https://news.ycombinator.com/item?id=43875581"
+        }
+      ],
+      "source_item_id": 43875581,
+      "source_url": "https://news.ycombinator.com/item?id=43875581",
+      "author": "lightyoruichi",
+      "shared_at": 1746229161,
+      "links": [
+        "https://github.com/lightyoruichi/numen-output"
+      ]
+    }
+  ]
+}

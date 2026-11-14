@@ -1,0 +1,33 @@
+{
+  "id": 4555,
+  "slug": "minimalist-single-line-journal-app-e947638944",
+  "name": "Minimalist single-line journal app",
+  "mentions": [
+    {
+      "name": "Minimalist single-line journal app",
+      "description": "A minimalist journal app for very quick single-line jots, supporting idea dumping, project management, quick calculations, unit conversion, and task management, with unlimited undo/redo and tagging. Data is stored in a human-friendly text file designed so *nix tool users can navigate it with text processing tools. Next step is adding Python scripting support. It is a native application (no web UI) built with Rust and iced.rs with minimal dependencies, no AI, and a focus on instant loading, extreme simplicity, and a minimal, discoverable interface.",
+      "problem": null,
+      "audience": "Users who want the simplicity of a (non-sloppy) notepad with some bells and whistles, without worrying about managing metadata manually; includes *nix tool users.",
+      "builder_usernames": [
+        "t_mahmood"
+      ],
+      "source_excerpt": "I am working on a minimalist journal app that is for really quick single line jots. Can be used for idea dumping, project management, quick calculations, unit conversion, task management etc. Have unlimited undo/redo support, assign tags etc.",
+      "evidence": [
+        {
+          "source_item_id": 48093187,
+          "source_field": "body",
+          "value": "I am working on a minimalist journal app that is for really quick single line jots. Can be used for idea dumping, project management, quick calculations, unit conversion, task management etc. Have unlimited undo/redo support, assign tags etc.",
+          "supports": [],
+          "author": "t_mahmood",
+          "shared_at": 1778495373,
+          "source_url": "https://news.ycombinator.com/item?id=48093187"
+        }
+      ],
+      "source_item_id": 48093187,
+      "source_url": "https://news.ycombinator.com/item?id=48093187",
+      "author": "t_mahmood",
+      "shared_at": 1778495373,
+      "links": []
+    }
+  ]
+}

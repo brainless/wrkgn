@@ -1,0 +1,33 @@
+{
+  "id": 10844,
+  "slug": "midi-sequencer-with-melody-generation-e5c49acbc5",
+  "name": "MIDI Sequencer with Melody Generation",
+  "mentions": [
+    {
+      "name": "MIDI Sequencer with Melody Generation",
+      "description": "This MIDI sequencer aims to behave as expected, with Euclidean sequences being added and melody generation explored through Markov probability derived from jazz standards alongside music theory. It is meant to generate musically meaningful backing tracks and song starters rather than random sequences of notes in a scale.",
+      "problem": "Random note sequences in a scale are not musically useful; the goal is theory-informed melody generation for backing tracks and song starters.",
+      "audience": "The author's own music learning and songwriting",
+      "builder_usernames": [
+        "jmkr"
+      ],
+      "source_excerpt": "A midi sequencer, which does or is supposed to do what you expect.\n\nIn the process of adding stuff like euclydian sequences, and trying to figure out\nhow to generate melodies.  Been considering using something like a simple markov probability from a bunch of jazz standards, but also starting to read more music theory \nbehind it.\n\nIt's a programming project but it's directly related to me trying to figure out music.  So not a random sequence of notes in scale or not.  The idea is more to generate backing tracks or song starters.",
+      "evidence": [
+        {
+          "source_item_id": 43817691,
+          "source_field": "body",
+          "value": "A midi sequencer, which does or is supposed to do what you expect.\n\nIn the process of adding stuff like euclydian sequences, and trying to figure out\nhow to generate melodies.  Been considering using something like a simple markov probability from a bunch of jazz standards, but also starting to read more music theory \nbehind it.\n\nIt's a programming project but it's directly related to me trying to figure out music.  So not a random sequence of notes in scale or not.  The idea is more to generate backing tracks or song starters.",
+          "supports": [],
+          "author": "jmkr",
+          "shared_at": 1745816034,
+          "source_url": "https://news.ycombinator.com/item?id=43817691"
+        }
+      ],
+      "source_item_id": 43817691,
+      "source_url": "https://news.ycombinator.com/item?id=43817691",
+      "author": "jmkr",
+      "shared_at": 1745816034,
+      "links": []
+    }
+  ]
+}

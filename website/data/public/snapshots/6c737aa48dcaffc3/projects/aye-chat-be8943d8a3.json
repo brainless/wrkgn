@@ -1,0 +1,35 @@
+{
+  "id": 8334,
+  "slug": "aye-chat-be8943d8a3",
+  "name": "Aye Chat",
+  "mentions": [
+    {
+      "name": "Aye Chat",
+      "description": "Terminal-native AI coding tool that removes the manual copy/paste/review loop by writing AI-generated changes directly to files. It automatically snapshots everything so users can diff or instantly undo changes, and lets developers prompt the AI, run tests, open vim, refactor, and restore changes in one terminal flow. Open source and in an early stage with a steady cohort of users.",
+      "problem": "Working with AI coding assistants involves a slow copy/paste/review loop where the human manually approving and applying code is the main bottleneck, not the LLM.",
+      "audience": null,
+      "builder_usernames": [
+        "acro-v"
+      ],
+      "source_excerpt": "I’ve been working on a terminal-native AI coding tool called Aye Chat.\n\nThe idea is to remove the copy/paste/review loop entirely. Instead of asking an AI for code and then manually approving and applying it, the tool writes directly to files in your folder and automatically snapshots everything so you can diff or instantly undo if it gets something wrong.",
+      "evidence": [
+        {
+          "source_item_id": 46290682,
+          "source_field": "body",
+          "value": "I’ve been working on a terminal-native AI coding tool called Aye Chat.\n\nThe idea is to remove the copy/paste/review loop entirely. Instead of asking an AI for code and then manually approving and applying it, the tool writes directly to files in your folder and automatically snapshots everything so you can diff or instantly undo if it gets something wrong.",
+          "supports": [],
+          "author": "acro-v",
+          "shared_at": 1765903036,
+          "source_url": "https://news.ycombinator.com/item?id=46290682"
+        }
+      ],
+      "source_item_id": 46290682,
+      "source_url": "https://news.ycombinator.com/item?id=46290682",
+      "author": "acro-v",
+      "shared_at": 1765903036,
+      "links": [
+        "https://github.com/acrotron/aye-chat"
+      ]
+    }
+  ]
+}

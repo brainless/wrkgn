@@ -1,0 +1,35 @@
+{
+  "id": 5460,
+  "slug": "trackcheck-972e32d53d",
+  "name": "TrackCheck",
+  "mentions": [
+    {
+      "name": "TrackCheck",
+      "description": "This app helps motocross riders quickly see which UK tracks are open for the upcoming weekend. It scrapes tracks' recent Facebook posts and uses an LLM to infer whether each track is open, closed, or unknown, replacing the need to manually check dozens of pages. Currently Android-only, with iOS in progress.",
+      "problem": "Tracks usually post updates on Facebook, so riders end up checking dozens of pages manually.",
+      "audience": "Motocross riders in the UK who need to know which tracks are open for the weekend.",
+      "builder_usernames": [
+        "raphui"
+      ],
+      "source_excerpt": "I’m building TrackCheck, a small app that helps motocross riders quickly see which UK tracks are open for the weekend.\n\nTracks usually post updates on Facebook, so riders end up checking dozens of pages manually. I scrape recent posts and use an LLM to infer whether a track is open, closed, or unknown for the upcoming weekend.",
+      "evidence": [
+        {
+          "source_item_id": 47749109,
+          "source_field": "body",
+          "value": "I’m building TrackCheck, a small app that helps motocross riders quickly see which UK tracks are open for the weekend.\n\nTracks usually post updates on Facebook, so riders end up checking dozens of pages manually. I scrape recent posts and use an LLM to infer whether a track is open, closed, or unknown for the upcoming weekend.",
+          "supports": [],
+          "author": "raphui",
+          "shared_at": 1776067164,
+          "source_url": "https://news.ycombinator.com/item?id=47749109"
+        }
+      ],
+      "source_item_id": 47749109,
+      "source_url": "https://news.ycombinator.com/item?id=47749109",
+      "author": "raphui",
+      "shared_at": 1776067164,
+      "links": [
+        "https://play.google.com/store/apps/details?id=com.lynxleap.trackcheck&hl=en_GB"
+      ]
+    }
+  ]
+}

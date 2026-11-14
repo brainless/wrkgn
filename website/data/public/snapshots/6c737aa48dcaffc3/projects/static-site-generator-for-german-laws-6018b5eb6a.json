@@ -1,0 +1,33 @@
+{
+  "id": 9781,
+  "slug": "static-site-generator-for-german-laws-6018b5eb6a",
+  "name": "Static site generator for German laws",
+  "mentions": [
+    {
+      "name": "Static site generator for German laws",
+      "description": "This static site generator serves German laws in a format that is easy to cite, monitor, and machine-read, with predictable URLs that can be inferred from the law's name. It includes side-by-side AI translations marked as such, and is a refresh of gesetze-im-internet.de and buzer.de.",
+      "problem": "The author cites many laws in their content and wants to automatically flag content for review when a specific paragraph of a law changes, and to automatically update their tax calculator when the values change.",
+      "audience": null,
+      "builder_usernames": [
+        "nicbou"
+      ],
+      "source_excerpt": "A static site generator for German laws.\n\nThe goal is to serve the laws in a format that is easy to cite, monitor, or machine-read. It should also have predictable URLs that can be inferred from the law’s name. It will also have side by side AI translations (marked as such).",
+      "evidence": [
+        {
+          "source_item_id": 45566278,
+          "source_field": "body",
+          "value": "A static site generator for German laws.\n\nThe goal is to serve the laws in a format that is easy to cite, monitor, or machine-read. It should also have predictable URLs that can be inferred from the law’s name. It will also have side by side AI translations (marked as such).",
+          "supports": [],
+          "author": "nicbou",
+          "shared_at": 1760345867,
+          "source_url": "https://news.ycombinator.com/item?id=45566278"
+        }
+      ],
+      "source_item_id": 45566278,
+      "source_url": "https://news.ycombinator.com/item?id=45566278",
+      "author": "nicbou",
+      "shared_at": 1760345867,
+      "links": []
+    }
+  ]
+}

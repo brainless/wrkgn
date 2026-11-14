@@ -1,0 +1,36 @@
+{
+  "id": 5456,
+  "slug": "smello-f80fff46f3",
+  "name": "Smello",
+  "mentions": [
+    {
+      "name": "Smello",
+      "description": "A Python library and local server that capture outgoing HTTP requests to help debug API integrations. Inspired by Mailpit, which is used to debug outgoing emails.",
+      "problem": "Debugging the outgoing HTTP requests made by API integrations",
+      "audience": "Debugging outgoing HTTP requests when building and testing API integrations",
+      "builder_usernames": [
+        "imankulov"
+      ],
+      "source_excerpt": "Building Smello (https://github.com/smelloscope/smello), a Python library and a local server that capture your outgoing HTTP requests to help you debug API integrations.",
+      "evidence": [
+        {
+          "source_item_id": 47750047,
+          "source_field": "body",
+          "value": "Building Smello (https://github.com/smelloscope/smello), a Python library and a local server that capture your outgoing HTTP requests to help you debug API integrations.",
+          "supports": [],
+          "author": "imankulov",
+          "shared_at": 1776075684,
+          "source_url": "https://news.ycombinator.com/item?id=47750047"
+        }
+      ],
+      "source_item_id": 47750047,
+      "source_url": "https://news.ycombinator.com/item?id=47750047",
+      "author": "imankulov",
+      "shared_at": 1776075684,
+      "links": [
+        "https://github.com/smelloscope/smello",
+        "https://smello.io"
+      ]
+    }
+  ]
+}

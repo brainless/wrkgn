@@ -1,0 +1,37 @@
+{
+  "id": 3738,
+  "slug": "dhee-ef738e8852",
+  "name": "Dhee",
+  "mentions": [
+    {
+      "name": "Dhee",
+      "description": "Dhee is an open-source AI video orchestrator (Dhee Desktop / Dhee Core) that lets anyone author and run their own workflows for creating AI videos. It is a local-first, fully customizable, private workflow runner that supports community-provided workflow bundles and ships with built-in bundles that generate a full multi-scene segment from a story. Beyond running workflows, it includes an AI agent that manipulates generations: it can adjust prompts, trigger reruns, change characters, and re-run only the exact shots in which a character appears, while tracking dependencies between generations. The goal is to make it easy for anyone to create the AI videos they want to watch, from movies viewable on their own PC or TV to AI videos, comics, or music.",
+      "problem": "Creating AI videos requires coordinating many different tools; Dhee consolidates that into a single orchestrator with an AI agent to manage generation mistakes and dependencies.",
+      "audience": null,
+      "builder_usernames": [
+        "ganarajpr"
+      ],
+      "source_excerpt": "I have been working on, Dhee an AI Video Orchestrator. The main problem with creating AI Videos is that it takes a lot of different tools and co-ordination.",
+      "evidence": [
+        {
+          "source_item_id": 48539734,
+          "source_field": "body",
+          "value": "I have been working on, Dhee an AI Video Orchestrator. The main problem with creating AI Videos is that it takes a lot of different tools and co-ordination.",
+          "supports": [],
+          "author": "ganarajpr",
+          "shared_at": 1781522825,
+          "source_url": "https://news.ycombinator.com/item?id=48539734"
+        }
+      ],
+      "source_item_id": 48539734,
+      "source_url": "https://news.ycombinator.com/item?id=48539734",
+      "author": "ganarajpr",
+      "shared_at": 1781522825,
+      "links": [
+        "https://dhee.studio",
+        "https://github.com/dheeai/dhee-core",
+        "https://github.com/dheeai/dhee-desktop"
+      ]
+    }
+  ]
+}

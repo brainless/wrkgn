@@ -1,0 +1,35 @@
+{
+  "id": 5163,
+  "slug": "passiveintent-5e1c297565",
+  "name": "PassiveIntent",
+  "mentions": [
+    {
+      "name": "PassiveIntent",
+      "description": "A TypeScript SDK that runs a behavioral intent model entirely inside the user's browser, with no events leaving the tab, no backend, and no analytics pipeline. The core is a four-layer microkernel: a Bloom-filter-backed sparse Markov graph (FNV-1a hashing, 500-node cap with LRU eviction), a streaming anomaly detector using Welford's online algorithm for per-state mean/variance in O(1), and a typed event emitter that fires when Z-score thresholds cross. It classifies nine typed behavioral states (e.g., Conviction Buyer, Compound Hesitation), runs in under 2ms per track() call at ~11kB gzipped, and solves cold start with declarative Blueprint JSON priors so the engine boots calibrated on the first track() call. The core is AGPLv3.",
+      "problem": "Evaluated behavioral analytics stacks have median 3-15 minute round-trip latency, while users make churn decisions in under 3 seconds; the only solution is to put the model in the same process as the behavior.",
+      "audience": null,
+      "builder_usernames": [
+        "purushpsm147"
+      ],
+      "source_excerpt": "PassiveIntent (passiveintent.dev) – a TypeScript SDK that runs a behavioral intent model entirely inside the user's browser. No events leave the tab, no backend, no analytics pipeline.",
+      "evidence": [
+        {
+          "source_item_id": 47783597,
+          "source_field": "body",
+          "value": "PassiveIntent (passiveintent.dev) – a TypeScript SDK that runs a behavioral intent model entirely inside the user's browser. No events leave the tab, no backend, no analytics pipeline.",
+          "supports": [],
+          "author": "purushpsm147",
+          "shared_at": 1776279519,
+          "source_url": "https://news.ycombinator.com/item?id=47783597"
+        }
+      ],
+      "source_item_id": 47783597,
+      "source_url": "https://news.ycombinator.com/item?id=47783597",
+      "author": "purushpsm147",
+      "shared_at": 1776279519,
+      "links": [
+        "https://passiveintent.dev"
+      ]
+    }
+  ]
+}

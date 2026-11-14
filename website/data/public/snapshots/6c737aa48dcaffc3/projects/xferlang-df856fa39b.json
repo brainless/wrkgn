@@ -1,0 +1,35 @@
+{
+  "id": 9386,
+  "slug": "xferlang-df856fa39b",
+  "name": "XferLang",
+  "mentions": [
+    {
+      "name": "XferLang",
+      "description": "XferLang is a data-transfer and configuration language designed as an alternative to JSON. Its features include no commas, no need for escape characters, processing instructions, extensible data-substitution rules, and support for comments. It is currently implemented in .NET, with plans to rewrite the core in Rust and provide language wrappers around that core.",
+      "problem": "Serves as an alternative to JSON for data transfer and configuration.",
+      "audience": null,
+      "builder_usernames": [
+        "paulmooreparks"
+      ],
+      "source_excerpt": "XferLang, a data-transfer and configuration language to serve as an alternative to JSON.",
+      "evidence": [
+        {
+          "source_item_id": 45872176,
+          "source_field": "body",
+          "value": "XferLang, a data-transfer and configuration language to serve as an alternative to JSON.",
+          "supports": [],
+          "author": "paulmooreparks",
+          "shared_at": 1762746214,
+          "source_url": "https://news.ycombinator.com/item?id=45872176"
+        }
+      ],
+      "source_item_id": 45872176,
+      "source_url": "https://news.ycombinator.com/item?id=45872176",
+      "author": "paulmooreparks",
+      "shared_at": 1762746214,
+      "links": [
+        "https://xferlang.org/"
+      ]
+    }
+  ]
+}

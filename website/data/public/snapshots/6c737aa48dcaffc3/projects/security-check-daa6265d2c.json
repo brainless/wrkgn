@@ -1,0 +1,35 @@
+{
+  "id": 5158,
+  "slug": "security-check-daa6265d2c",
+  "name": "security-check",
+  "mentions": [
+    {
+      "name": "security-check",
+      "description": "This open source CLI tool audits macOS security settings. It scans around 40 settings (FileVault, Firewall, Gatekeeper, SIP, etc.), assigns a letter grade, and can output JSON for piping into other tools. A --diff flag tracks what changed between runs, it runs in under 5 seconds, has zero dependencies, and ships as a single binary.",
+      "problem": "The author couldn't find a simple, maintained CLI tool to check how well their own Mac's security settings were configured: Lynis felt too enterprise-heavy, mSCP is designed for fleet management, and GUI tools don't fit a developer workflow.",
+      "audience": "The tool is built to fit into a developer workflow, addressing the gap that existing macOS security tools are either enterprise-heavy, fleet-management oriented, or GUI-only.",
+      "builder_usernames": [
+        "idlework"
+      ],
+      "source_excerpt": "I'm building security-check(https://github.com/idlework/security-check), a fast and open source CLI tool to audit your macOS security settings.",
+      "evidence": [
+        {
+          "source_item_id": 47756716,
+          "source_field": "body",
+          "value": "I'm building security-check(https://github.com/idlework/security-check), a fast and open source CLI tool to audit your macOS security settings.",
+          "supports": [],
+          "author": "idlework",
+          "shared_at": 1776108128,
+          "source_url": "https://news.ycombinator.com/item?id=47756716"
+        }
+      ],
+      "source_item_id": 47756716,
+      "source_url": "https://news.ycombinator.com/item?id=47756716",
+      "author": "idlework",
+      "shared_at": 1776108128,
+      "links": [
+        "https://github.com/idlework/security-check"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 3796,
+  "slug": "perlc-cbf46615dd",
+  "name": "perlc",
+  "mentions": [
+    {
+      "name": "perlc",
+      "description": "This compiler for Perl 5.42.x generates static code, enabling Perl programs to be deployed without exporting the entire environment or building a container. It currently works well.",
+      "problem": "Deploying Perl code currently requires either exporting the entire environment or building a container; the latter is not possible in a number of deployment cases, and the former carries dependency radius gotchas.",
+      "audience": "People deploying Perl code",
+      "builder_usernames": [
+        "hpcjoe"
+      ],
+      "source_excerpt": "perlc does work well",
+      "evidence": [
+        {
+          "source_item_id": 48531799,
+          "source_field": "body",
+          "value": "perlc does work well",
+          "supports": [],
+          "author": "hpcjoe",
+          "shared_at": 1781466128,
+          "source_url": "https://news.ycombinator.com/item?id=48531799"
+        }
+      ],
+      "source_item_id": 48531799,
+      "source_url": "https://news.ycombinator.com/item?id=48531799",
+      "author": "hpcjoe",
+      "shared_at": 1781466128,
+      "links": [
+        "https://github.com/joelandman/perlc"
+      ]
+    }
+  ]
+}

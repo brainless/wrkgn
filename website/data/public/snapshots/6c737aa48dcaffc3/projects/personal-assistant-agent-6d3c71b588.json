@@ -1,0 +1,33 @@
+{
+  "id": 7882,
+  "slug": "personal-assistant-agent-6d3c71b588",
+  "name": "Personal assistant agent",
+  "mentions": [
+    {
+      "name": "Personal assistant agent",
+      "description": "A personal AI assistant built with the agent SDK that lets the author create new skills on demand, such as parsing PDF credit card bills to extract transactions, and uses a database to save notes and ideas.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "threefiftyone96"
+      ],
+      "source_excerpt": "Recently have been focusing on a personal assistant type of thing.\n\nI've been building it with the agent sdk and any time I want an additional skill, I create it\n\nExamples: parse this pdf containing my credit card bill and add all transactions\n\nGiven it has a db, I've been using it to save notes, ideas etc.",
+      "evidence": [
+        {
+          "source_item_id": 46582681,
+          "source_field": "body",
+          "value": "Recently have been focusing on a personal assistant type of thing.\n\nI've been building it with the agent sdk and any time I want an additional skill, I create it\n\nExamples: parse this pdf containing my credit card bill and add all transactions\n\nGiven it has a db, I've been using it to save notes, ideas etc.",
+          "supports": [],
+          "author": "threefiftyone96",
+          "shared_at": 1768181513,
+          "source_url": "https://news.ycombinator.com/item?id=46582681"
+        }
+      ],
+      "source_item_id": 46582681,
+      "source_url": "https://news.ycombinator.com/item?id=46582681",
+      "author": "threefiftyone96",
+      "shared_at": 1768181513,
+      "links": []
+    }
+  ]
+}

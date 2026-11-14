@@ -1,0 +1,35 @@
+{
+  "id": 10273,
+  "slug": "lumen-payments-c9fc73ca0b",
+  "name": "Lumen Payments",
+  "mentions": [
+    {
+      "name": "Lumen Payments",
+      "description": "This service handles webhooks and billing boilerplate code so developers can implement payments and entitlements easily.",
+      "problem": "Implementing billing and entitlements requires handling webhooks and a lot of boilerplate code",
+      "audience": "Developers implementing billing and entitlements in their products",
+      "builder_usernames": [
+        "ramonga"
+      ],
+      "source_excerpt": "we are ex-Stripe engineers building Lumen Payments. Takes care of webhooks and a lot of boilerplate code so you can implement billing + entitlements really easily.",
+      "evidence": [
+        {
+          "source_item_id": 45424039,
+          "source_field": "body",
+          "value": "we are ex-Stripe engineers building Lumen Payments. Takes care of webhooks and a lot of boilerplate code so you can implement billing + entitlements really easily.",
+          "supports": [],
+          "author": "ramonga",
+          "shared_at": 1759230011,
+          "source_url": "https://news.ycombinator.com/item?id=45424039"
+        }
+      ],
+      "source_item_id": 45424039,
+      "source_url": "https://news.ycombinator.com/item?id=45424039",
+      "author": "ramonga",
+      "shared_at": 1759230011,
+      "links": [
+        "https://getlumen.dev"
+      ]
+    }
+  ]
+}

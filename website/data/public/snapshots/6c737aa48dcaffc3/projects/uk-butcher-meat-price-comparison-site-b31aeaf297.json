@@ -1,0 +1,35 @@
+{
+  "id": 6938,
+  "slug": "uk-butcher-meat-price-comparison-site-b31aeaf297",
+  "name": "UK Butcher Meat Price Comparison Site",
+  "mentions": [
+    {
+      "name": "UK Butcher Meat Price Comparison Site",
+      "description": "A comparison site that scrapes meat prices from UK butchers across multiple platforms and uses a taxonomy matcher to enable comparisons between differently named products (e.g., “apples” vs “meaty apples”). Built as a side project, currently UK-only, and scalable to other countries if there is demand.",
+      "problem": "Struggled to find the best priced meat from UK butchers and keep the data up-to-date in a spreadsheet.",
+      "audience": "Struggled to find the best priced meat from UK butchers keeping up-to-date in my spreadsheet so built a comparison site with multi platform scraper (and a taxonomy matcher to allow “apples” to “meaty apples” comparisons).",
+      "builder_usernames": [
+        "wolfer"
+      ],
+      "source_excerpt": "Struggled to find the best priced meat from UK butchers keeping up-to-date in my spreadsheet so built a comparison site with multi platform scraper (and a taxonomy matcher to allow “apples” to “meaty apples” comparisons).",
+      "evidence": [
+        {
+          "source_item_id": 46939894,
+          "source_field": "body",
+          "value": "Struggled to find the best priced meat from UK butchers keeping up-to-date in my spreadsheet so built a comparison site with multi platform scraper (and a taxonomy matcher to allow “apples” to “meaty apples” comparisons).",
+          "supports": [],
+          "author": "wolfer",
+          "shared_at": 1770595196,
+          "source_url": "https://news.ycombinator.com/item?id=46939894"
+        }
+      ],
+      "source_item_id": 46939894,
+      "source_url": "https://news.ycombinator.com/item?id=46939894",
+      "author": "wolfer",
+      "shared_at": 1770595196,
+      "links": [
+        "https://meat.offer-spider.com"
+      ]
+    }
+  ]
+}

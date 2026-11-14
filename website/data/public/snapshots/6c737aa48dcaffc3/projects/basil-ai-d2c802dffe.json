@@ -1,0 +1,35 @@
+{
+  "id": 6250,
+  "slug": "basil-ai-d2c802dffe",
+  "name": "Basil AI",
+  "mentions": [
+    {
+      "name": "Basil AI",
+      "description": "Voice recorder, transcription, and summarization app that runs entirely on-device with no cloud, uploads, or server processing of audio. It includes a web version built with WebAssembly Whisper and native iOS/macOS apps using CoreML, with end-to-end-encrypted sync between web and mobile planned, aiming to be a Simplenote-like app for audio transcription.",
+      "problem": "Browser sandbox limits (no background recording, inconsistent model performance) made the web version insufficient, and cloud-based transcription services process users' audio on servers.",
+      "audience": null,
+      "builder_usernames": [
+        "busymichael"
+      ],
+      "source_excerpt": "Building a voice recorder/transcription/summarization app where everything runs on-device. No cloud, no uploads, no servers processing your audio.",
+      "evidence": [
+        {
+          "source_item_id": 47314681,
+          "source_field": "body",
+          "value": "Building a voice recorder/transcription/summarization app where everything runs on-device. No cloud, no uploads, no servers processing your audio.",
+          "supports": [],
+          "author": "busymichael",
+          "shared_at": 1773086649,
+          "source_url": "https://news.ycombinator.com/item?id=47314681"
+        }
+      ],
+      "source_item_id": 47314681,
+      "source_url": "https://news.ycombinator.com/item?id=47314681",
+      "author": "busymichael",
+      "shared_at": 1773086649,
+      "links": [
+        "https://basilai.app/app"
+      ]
+    }
+  ]
+}

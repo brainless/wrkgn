@@ -1,0 +1,35 @@
+{
+  "id": 9105,
+  "slug": "homefree-1d507af640",
+  "name": "HomeFree",
+  "mentions": [
+    {
+      "name": "HomeFree",
+      "description": "All-in-one home server appliance combining a router, NAS, firewall, adblock, and optional app server, each piece optional. Built on NixOS so it is declarative and reproducible, but administered through a web UI so users don't need to know NixOS. All state is managed in a backup bundle so it can be hosted at home or in the cloud; the goal is to plug the box in like a wifi access point, follow a simple web-based installation flow, and be running a personal cloud.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "colordrops"
+      ],
+      "source_excerpt": "https://homefree.host\n\nAll-in-one router/nas/firewall/adblock/app server (each piece optional)\n\nDeclarative and reproduceable as it is built off of NixOS, but administered through a UI, so the user doesn't have to know this.\n\nAll state managed in a backup bundle, so it can be hosted at home or in the cloud.",
+      "evidence": [
+        {
+          "source_item_id": 45870110,
+          "source_field": "body",
+          "value": "https://homefree.host\n\nAll-in-one router/nas/firewall/adblock/app server (each piece optional)\n\nDeclarative and reproduceable as it is built off of NixOS, but administered through a UI, so the user doesn't have to know this.\n\nAll state managed in a backup bundle, so it can be hosted at home or in the cloud.",
+          "supports": [],
+          "author": "colordrops",
+          "shared_at": 1762729228,
+          "source_url": "https://news.ycombinator.com/item?id=45870110"
+        }
+      ],
+      "source_item_id": 45870110,
+      "source_url": "https://news.ycombinator.com/item?id=45870110",
+      "author": "colordrops",
+      "shared_at": 1762729228,
+      "links": [
+        "https://homefree.host"
+      ]
+    }
+  ]
+}

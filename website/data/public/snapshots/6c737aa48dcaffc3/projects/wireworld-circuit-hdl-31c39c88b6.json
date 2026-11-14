@@ -1,0 +1,35 @@
+{
+  "id": 7019,
+  "slug": "wireworld-circuit-hdl-31c39c88b6",
+  "name": "Wireworld Circuit HDL",
+  "mentions": [
+    {
+      "name": "Wireworld Circuit HDL",
+      "description": "A hobby hardware description language (HDL) for designing circuits in Wireworld and other cellular automata. The eventual goal is to build a larger Wireworld computer than the original, with possible later work optimizing large Conway's Game of Life designs. The compiler/solver is being written in Rust without AI assistance as a learning project, and a WIP language spec is published as a gist.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Heathcorp"
+      ],
+      "source_excerpt": "Implementing a hobby HDL for designing circuits in Wireworld and other Cellular Automata. The eventual goal is to create a larger Wireworld computer than the original (https://www.quinapalus.com/wi-index.html). If this project actually ends up working, I may attempt to optimise some large Conway's Game of Life designs. Currently I'm at the stage of rewriting the language's solver.",
+      "evidence": [
+        {
+          "source_item_id": 46940071,
+          "source_field": "body",
+          "value": "Implementing a hobby HDL for designing circuits in Wireworld and other Cellular Automata. The eventual goal is to create a larger Wireworld computer than the original (https://www.quinapalus.com/wi-index.html). If this project actually ends up working, I may attempt to optimise some large Conway's Game of Life designs. Currently I'm at the stage of rewriting the language's solver.",
+          "supports": [],
+          "author": "Heathcorp",
+          "shared_at": 1770596672,
+          "source_url": "https://news.ycombinator.com/item?id=46940071"
+        }
+      ],
+      "source_item_id": 46940071,
+      "source_url": "https://news.ycombinator.com/item?id=46940071",
+      "author": "Heathcorp",
+      "shared_at": 1770596672,
+      "links": [
+        "https://gist.github.com/Heathcorp/13fcd206fdc38ca6ce001f32efa6689f"
+      ]
+    }
+  ]
+}

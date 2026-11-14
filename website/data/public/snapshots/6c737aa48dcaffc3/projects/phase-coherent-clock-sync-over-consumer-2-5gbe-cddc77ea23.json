@@ -1,0 +1,33 @@
+{
+  "id": 7501,
+  "slug": "phase-coherent-clock-sync-over-consumer-2-5gbe-cddc77ea23",
+  "name": "Phase-coherent clock sync over consumer 2.5GbE",
+  "mentions": [
+    {
+      "name": "Phase-coherent clock sync over consumer 2.5GbE",
+      "description": "A distributed, phase-coherent clock synchronization system running over standard consumer 2.5GbE copper that achieves sub-microsecond synchronization without dedicated White Rabbit hardware or an FPGA switch. It isolates a CPU core, disables interrupt coalescing, and busy-polls the RX ring buffer with a custom AF_XDP socket to characterize PHY and PCIe bus latency jitter to within a few nanoseconds of standard deviation on generic Realtek hardware. The disciplined clock is used for TDOA triangulation of RF signals with three anchor nodes connected to SDRs, tracking a dog's collar to within 15cm in 3D space, with a custom unscented Kalman filter to reject multipath reflections.",
+      "problem": "Started as a way to fix audio drift in a multi-room setup without using large jitter buffers.",
+      "audience": null,
+      "builder_usernames": [
+        "Fiveplus"
+      ],
+      "source_excerpt": "For the past month, I've been building a distributed, phase-coherent clock synchronization system over standard consumer 2.5GbE copper, bypassing the need for dedicated white rabbit hardware.",
+      "evidence": [
+        {
+          "source_item_id": 46584452,
+          "source_field": "body",
+          "value": "For the past month, I've been building a distributed, phase-coherent clock synchronization system over standard consumer 2.5GbE copper, bypassing the need for dedicated white rabbit hardware.",
+          "supports": [],
+          "author": "Fiveplus",
+          "shared_at": 1768195812,
+          "source_url": "https://news.ycombinator.com/item?id=46584452"
+        }
+      ],
+      "source_item_id": 46584452,
+      "source_url": "https://news.ycombinator.com/item?id=46584452",
+      "author": "Fiveplus",
+      "shared_at": 1768195812,
+      "links": []
+    }
+  ]
+}

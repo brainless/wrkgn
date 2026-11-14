@@ -1,0 +1,33 @@
+{
+  "id": 8538,
+  "slug": "katalib-a5f8fbe253",
+  "name": "Katalib",
+  "mentions": [
+    {
+      "name": "Katalib",
+      "description": "This app catalogs a home book library from photos: it takes a photo of a bookshelf, sends it to Claude for text parsing and series information, and wraps the results in a UI, replacing tedious per-book ISBN scanning. It is working and the author is starting to test it, with some friends having asked for access.",
+      "problem": "Manually scanning ISBN codes for the author's ~1600 home books is too tedious and boring; after four attempts they gave up around the first 100-200 books.",
+      "audience": null,
+      "builder_usernames": [
+        "duttish"
+      ],
+      "source_excerpt": "2) Katalib.\n\nWe have about 1600 books or so at home, there's no chance I'm going to scan ISBN codes of all of these. I've tried four times and got way too bored after the first 100-200. The solution? Take a photo of the bookshelf, send to Claude for text parsing and series information. Then some UI etc around that.",
+      "evidence": [
+        {
+          "source_item_id": 46274774,
+          "source_field": "body",
+          "value": "2) Katalib.\n\nWe have about 1600 books or so at home, there's no chance I'm going to scan ISBN codes of all of these. I've tried four times and got way too bored after the first 100-200. The solution? Take a photo of the bookshelf, send to Claude for text parsing and series information. Then some UI etc around that.",
+          "supports": [],
+          "author": "duttish",
+          "shared_at": 1765807970,
+          "source_url": "https://news.ycombinator.com/item?id=46274774"
+        }
+      ],
+      "source_item_id": 46274774,
+      "source_url": "https://news.ycombinator.com/item?id=46274774",
+      "author": "duttish",
+      "shared_at": 1765807970,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 8813,
+  "slug": "self-modifying-context-llm-coding-agent-ab61f75c75",
+  "name": "Self-modifying-context LLM coding agent",
+  "mentions": [
+    {
+      "name": "Self-modifying-context LLM coding agent",
+      "description": "An LLM coding agent that can modify its own context and is given hints on when and why doing so would be useful. It aims to let users avoid having to think about when to reset back to a clean session, and to be more efficient by clearing out garbage context that confuses the LLM, costs more tokens, and makes responses slower.",
+      "problem": "In LLM coding sessions, accumulated garbage context confuses the model, costs more tokens, and slows responses, forcing users to think about when to reset back to a clean session.",
+      "audience": null,
+      "builder_usernames": [
+        "planckscnst"
+      ],
+      "source_excerpt": "I don't have a link to share just yet, but I'm working on an LLM coding agent that can modify its own context and is given hints on when and why that would be useful.",
+      "evidence": [
+        {
+          "source_item_id": 46270584,
+          "source_field": "body",
+          "value": "I don't have a link to share just yet, but I'm working on an LLM coding agent that can modify its own context and is given hints on when and why that would be useful.",
+          "supports": [],
+          "author": "planckscnst",
+          "shared_at": 1765773788,
+          "source_url": "https://news.ycombinator.com/item?id=46270584"
+        }
+      ],
+      "source_item_id": 46270584,
+      "source_url": "https://news.ycombinator.com/item?id=46270584",
+      "author": "planckscnst",
+      "shared_at": 1765773788,
+      "links": []
+    }
+  ]
+}

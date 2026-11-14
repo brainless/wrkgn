@@ -1,0 +1,33 @@
+{
+  "id": 4359,
+  "slug": "task-note-virtual-desktop-bundles-for-linux-bc89f69b38",
+  "name": "Task-note virtual desktop bundles for Linux",
+  "mentions": [
+    {
+      "name": "Task-note virtual desktop bundles for Linux",
+      "description": "This self-built Linux setup gives each task note its own bundled workspace: a markdown note kept in a Git repo, a working directory for the task's project files, a Hyprland virtual desktop that opens as a terminal/browser split, a restorable tmux session for editing the note and opening related terminals (with the note's working directory exposing its own bin directory via $PATH), an ironbar widget showing the current note's name, and a time-tracking app recording work per note. Bundles support save/restore, like a VM but at the application level.",
+      "problem": "To support multitasking and never lose focus.",
+      "audience": null,
+      "builder_usernames": [
+        "da-x"
+      ],
+      "source_excerpt": "Since 2022 I have coded something similar for myself, only for Linux for each of my notes, e.g. each and each every small or big task gets its own bundle of things that are attached to its 'task note'.",
+      "evidence": [
+        {
+          "source_item_id": 48097964,
+          "source_field": "body",
+          "value": "Since 2022 I have coded something similar for myself, only for Linux for each of my notes, e.g. each and each every small or big task gets its own bundle of things that are attached to its 'task note'.",
+          "supports": [],
+          "author": "da-x",
+          "shared_at": 1778520689,
+          "source_url": "https://news.ycombinator.com/item?id=48097964"
+        }
+      ],
+      "source_item_id": 48097964,
+      "source_url": "https://news.ycombinator.com/item?id=48097964",
+      "author": "da-x",
+      "shared_at": 1778520689,
+      "links": []
+    }
+  ]
+}

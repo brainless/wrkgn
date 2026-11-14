@@ -1,0 +1,35 @@
+{
+  "id": 9057,
+  "slug": "simon-a832832524",
+  "name": "Simon",
+  "mentions": [
+    {
+      "name": "Simon",
+      "description": "A single-binary, dependency-free system monitor written in Rust that provides metrics, Docker monitoring, alerts, and file browsing while maintaining a minimal footprint suitable for embedded systems and other constrained hardware.",
+      "problem": "Most monitoring tools are complex and have high overhead.",
+      "audience": "People monitoring embedded systems and other constrained hardware",
+      "builder_usernames": [
+        "bahmann"
+      ],
+      "source_excerpt": "Frustrated by the complexity and high overhead of most monitoring tools, I wrote Simon.\n\nIt’s a single binary, dependency-free monitor in Rust that does it all: metrics, Docker, alerts, and file browsing. While maintaining a minimal footprint for embedded systems and other constrained hardware.",
+      "evidence": [
+        {
+          "source_item_id": 45870620,
+          "source_field": "body",
+          "value": "Frustrated by the complexity and high overhead of most monitoring tools, I wrote Simon.\n\nIt’s a single binary, dependency-free monitor in Rust that does it all: metrics, Docker, alerts, and file browsing. While maintaining a minimal footprint for embedded systems and other constrained hardware.",
+          "supports": [],
+          "author": "bahmann",
+          "shared_at": 1762733142,
+          "source_url": "https://news.ycombinator.com/item?id=45870620"
+        }
+      ],
+      "source_item_id": 45870620,
+      "source_url": "https://news.ycombinator.com/item?id=45870620",
+      "author": "bahmann",
+      "shared_at": 1762733142,
+      "links": [
+        "https://github.com/alibahmanyar/simon"
+      ]
+    }
+  ]
+}

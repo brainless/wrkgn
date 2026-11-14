@@ -1,0 +1,64 @@
+{
+  "id": 10082,
+  "slug": "simple-observability-2514e7a35f",
+  "name": "Simple Observability",
+  "mentions": [
+    {
+      "name": "Simple Observability",
+      "description": "Server monitoring platform that installs with a single command and requires no config files or bash scripts. It provides a mobile-friendly, UX-first interface for seeing a full picture of all servers and VPS from a phone, a catalog of predefined alert rules, and easy creation of new alert rules, with a free tier available.",
+      "problem": "Existing monitoring tools require bash scripts and config files to install, and lack mobile-friendly interfaces for checking server status on the go.",
+      "audience": "People running their own servers and VPS who want to monitor everything from a phone",
+      "builder_usernames": [
+        "khazit"
+      ],
+      "source_excerpt": "I’m still working on Simple Observability:\n\nhttps://simpleobservability.com",
+      "evidence": [
+        {
+          "source_item_id": 45420300,
+          "source_field": "body",
+          "value": "I’m still working on Simple Observability:\n\nhttps://simpleobservability.com",
+          "supports": [],
+          "author": "khazit",
+          "shared_at": 1759189942,
+          "source_url": "https://news.ycombinator.com/item?id=45420300"
+        }
+      ],
+      "source_item_id": 45420300,
+      "source_url": "https://news.ycombinator.com/item?id=45420300",
+      "author": "khazit",
+      "shared_at": 1759189942,
+      "links": [
+        "https://simpleobservability.com"
+      ]
+    },
+    {
+      "name": "Simple Observability",
+      "description": "A platform for monitoring servers (metrics and logs), positioned as a simple alternative to the Prometheus + Grafana + Loki stack. A lightweight open-source agent collects data and pushes it to the backend, so it works behind firewalls without open ports or scraping setup. Aims at useful monitoring and alerting with minimal effort via a one-command install and UI-based configuration.",
+      "problem": "Setting up and maintaining a full observability pipeline (Prometheus + Grafana + Loki) is heavy; teams need easy server health monitoring with minimal setup effort.",
+      "audience": "Teams who just want to know 'is my server healthy?' without setting up and maintaining a full observability pipeline.",
+      "builder_usernames": [
+        "khazit"
+      ],
+      "source_excerpt": "I'm working on Simple Observability[0], a platform for monitoring servers (metrics and logs). Think of it as a super simple alternative to the Prometheus + Grafana + Loki stack, designed for teams who just want to know “is my server healthy?” without setting up and maintaining a full observability pipeline.",
+      "evidence": [
+        {
+          "source_item_id": 44709490,
+          "source_field": "body",
+          "value": "I'm working on Simple Observability[0], a platform for monitoring servers (metrics and logs). Think of it as a super simple alternative to the Prometheus + Grafana + Loki stack, designed for teams who just want to know “is my server healthy?” without setting up and maintaining a full observability pipeline.",
+          "supports": [],
+          "author": "khazit",
+          "shared_at": 1753700015,
+          "source_url": "https://news.ycombinator.com/item?id=44709490"
+        }
+      ],
+      "source_item_id": 44709490,
+      "source_url": "https://news.ycombinator.com/item?id=44709490",
+      "author": "khazit",
+      "shared_at": 1753700015,
+      "links": [
+        "https://github.com/Simple-Observability/simob-agent",
+        "https://simpleobservability.com"
+      ]
+    }
+  ]
+}

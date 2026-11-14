@@ -1,0 +1,35 @@
+{
+  "id": 5190,
+  "slug": "proxytopia-ef59c7b831",
+  "name": "Proxytopia",
+  "mentions": [
+    {
+      "name": "Proxytopia",
+      "description": "Proxytopia is a mobile proxy service whose backend is built so that, in a future phase, anyone will be able to create their own mobile proxy and access it from anywhere over the internet. The platform is described as stable and fully automated, built with Blazor Server and deployed via Docker on a Linux VPS.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "btzll"
+      ],
+      "source_excerpt": "I am working an https://app.proxytopia.com\n\nAt a first glance it's a mobile proxy service, but the entire backend of it allows anyone to create their own mobile proxy and be able to access it anywhere through the internet, seamlessly.",
+      "evidence": [
+        {
+          "source_item_id": 47748960,
+          "source_field": "body",
+          "value": "I am working an https://app.proxytopia.com\n\nAt a first glance it's a mobile proxy service, but the entire backend of it allows anyone to create their own mobile proxy and be able to access it anywhere through the internet, seamlessly.",
+          "supports": [],
+          "author": "btzll",
+          "shared_at": 1776066066,
+          "source_url": "https://news.ycombinator.com/item?id=47748960"
+        }
+      ],
+      "source_item_id": 47748960,
+      "source_url": "https://news.ycombinator.com/item?id=47748960",
+      "author": "btzll",
+      "shared_at": 1776066066,
+      "links": [
+        "https://app.proxytopia.com"
+      ]
+    }
+  ]
+}

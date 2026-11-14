@@ -1,0 +1,36 @@
+{
+  "id": 7644,
+  "slug": "family-planner-weekdoc-dbc0e18dd1",
+  "name": "Family planner (Weekdoc)",
+  "mentions": [
+    {
+      "name": "Family planner (Weekdoc)",
+      "description": "A mobile-first family planner that shows a weekly \"what's happening this week\" view for the whole family, giving one shared place to track family activities and to-dos. Built heavily with AI-assisted coding (OpenAI Codex) and hosted for free on Cloudflare Pages, Workers and KV store; the build process and guardrails are documented in an accompanying write-up.",
+      "problem": "The author is very forgetful and wanted one place to keep the family's things to do.",
+      "audience": "The author's own family (personal use).",
+      "builder_usernames": [
+        "heffstaDug"
+      ],
+      "source_excerpt": "Over the holidays I worked on on a simple family planner for my family (mostly for me as I am very forgetful and wanted one place for our family things to do)",
+      "evidence": [
+        {
+          "source_item_id": 46585963,
+          "source_field": "body",
+          "value": "Over the holidays I worked on on a simple family planner for my family (mostly for me as I am very forgetful and wanted one place for our family things to do)",
+          "supports": [],
+          "author": "heffstaDug",
+          "shared_at": 1768209216,
+          "source_url": "https://news.ycombinator.com/item?id=46585963"
+        }
+      ],
+      "source_item_id": 46585963,
+      "source_url": "https://news.ycombinator.com/item?id=46585963",
+      "author": "heffstaDug",
+      "shared_at": 1768209216,
+      "links": [
+        "https://github.com/mdugmore/family-planner-public",
+        "https://michaeldugmore.com/p/family-planner-vibe-coding-rules-and-weekdoc/"
+      ]
+    }
+  ]
+}

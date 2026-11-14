@@ -1,0 +1,33 @@
+{
+  "id": 11145,
+  "slug": "modular-ai-agent-builder-ed31e6a779",
+  "name": "Modular AI Agent Builder",
+  "mentions": [
+    {
+      "name": "Modular AI Agent Builder",
+      "description": "A Rust/Tauri GUI desktop app for building modular AI agents. It gives users control over the system prompt, LLM, messages, and which MCP tools are included in requests, avoiding unnecessary tools cluttering the request. Agents can be stored as templates for easy reuse.",
+      "problem": "LLM requests get cluttered with unnecessary tools; the app lets users select only the MCP tooling they need.",
+      "audience": null,
+      "builder_usernames": [
+        "ronxjansen"
+      ],
+      "source_excerpt": "an Rust/Tauri based GUI desktop app that allows me (and others if interested) build modular AI agents. At this point it gives you control over the system prompt, LLM, message and which MCP tooling you want to use (to prevent cluttering the request with 69 unnecessary tools you do not need anyway). You can store agents as templates, so you can reuse them with ease.",
+      "evidence": [
+        {
+          "source_item_id": 43836001,
+          "source_field": "body",
+          "value": "an Rust/Tauri based GUI desktop app that allows me (and others if interested) build modular AI agents. At this point it gives you control over the system prompt, LLM, message and which MCP tooling you want to use (to prevent cluttering the request with 69 unnecessary tools you do not need anyway). You can store agents as templates, so you can reuse them with ease.",
+          "supports": [],
+          "author": "ronxjansen",
+          "shared_at": 1745949926,
+          "source_url": "https://news.ycombinator.com/item?id=43836001"
+        }
+      ],
+      "source_item_id": 43836001,
+      "source_url": "https://news.ycombinator.com/item?id=43836001",
+      "author": "ronxjansen",
+      "shared_at": 1745949926,
+      "links": []
+    }
+  ]
+}

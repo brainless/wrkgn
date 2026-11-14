@@ -1,0 +1,35 @@
+{
+  "id": 7128,
+  "slug": "yourpods-8039f4f11b",
+  "name": "YourPods",
+  "mentions": [
+    {
+      "name": "YourPods",
+      "description": "YourPods is a minimalist, gPodder-compatible podcast player focused on the iOS ecosystem (WatchOS/CarPlay/AirPlay). It is privacy-first and self-hosted, syncing subscriptions and listening progress across devices via the user's own Nextcloud server, with support for multiple profiles so users keep their data 100% theirs.",
+      "problem": "Podcast listeners want to keep their subscription and listening data 100% theirs, with privacy-first sync instead of relying on a third-party service.",
+      "audience": null,
+      "builder_usernames": [
+        "andrewjneumann"
+      ],
+      "source_excerpt": "Minimalist Podcast player with gPodder sync focused on iOS ecosystem. (WatchOS/CarPlay/AirPlay). YourPods is a gPodder-compatible, privacy-first, and self-hosted podcast player. Sync your subscriptions and listening progress across all your devices using your own Nextcloud server, manage multiple profiles, and keep your data 100% yours.",
+      "evidence": [
+        {
+          "source_item_id": 46940779,
+          "source_field": "body",
+          "value": "Minimalist Podcast player with gPodder sync focused on iOS ecosystem. (WatchOS/CarPlay/AirPlay). YourPods is a gPodder-compatible, privacy-first, and self-hosted podcast player. Sync your subscriptions and listening progress across all your devices using your own Nextcloud server, manage multiple profiles, and keep your data 100% yours.",
+          "supports": [],
+          "author": "andrewjneumann",
+          "shared_at": 1770602800,
+          "source_url": "https://news.ycombinator.com/item?id=46940779"
+        }
+      ],
+      "source_item_id": 46940779,
+      "source_url": "https://news.ycombinator.com/item?id=46940779",
+      "author": "andrewjneumann",
+      "shared_at": 1770602800,
+      "links": [
+        "https://github.com/asecretcompany/yourpods-source"
+      ]
+    }
+  ]
+}

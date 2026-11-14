@@ -1,0 +1,63 @@
+{
+  "id": 2904,
+  "slug": "mlsync-3bcd9eb01f",
+  "name": "mlsync",
+  "mentions": [
+    {
+      "name": "mlsync",
+      "description": "An AI search assistant and autonomous AI agent for real estate, powered by MLS property data. It goes beyond static filters to actively research and compare listings, analyze photos, watch listings, and set up notifications.",
+      "problem": "Real estate search is limited to static filters and cannot actively research, compare, analyze, or monitor listings.",
+      "audience": null,
+      "builder_usernames": [
+        "samsk"
+      ],
+      "source_excerpt": "I’m building an AI search assistant and autonomous AI agent for real estate, powered by MLS property data via my tool mlsync.io [1].\n\nIt’s designed to go beyond static filters to actively research, compare listings, analyze photos, watch listings, setup notifications etc... - basically an \"OpenClaw for real estate.\"",
+      "evidence": [
+        {
+          "source_item_id": 48890656,
+          "source_field": "body",
+          "value": "I’m building an AI search assistant and autonomous AI agent for real estate, powered by MLS property data via my tool mlsync.io [1].\n\nIt’s designed to go beyond static filters to actively research, compare listings, analyze photos, watch listings, setup notifications etc... - basically an \"OpenClaw for real estate.\"",
+          "supports": [],
+          "author": "samsk",
+          "shared_at": 1783939379,
+          "source_url": "https://news.ycombinator.com/item?id=48890656"
+        }
+      ],
+      "source_item_id": 48890656,
+      "source_url": "https://news.ycombinator.com/item?id=48890656",
+      "author": "samsk",
+      "shared_at": 1783939379,
+      "links": [
+        "https://mlsync.io"
+      ]
+    },
+    {
+      "name": "MLSync.io",
+      "description": "An ETL platform for synchronizing MLS real estate data using the RESO protocol, designed to remove technical friction and provide simple access to MLS data via SQL and a REST API. The author is also experimenting with LLMs to add AI-related features to the service.",
+      "problem": "The technical friction of synchronizing MLS data",
+      "audience": null,
+      "builder_usernames": [
+        "samsk"
+      ],
+      "source_excerpt": "I’m still working on MLSync.io, an ETL platform designed to remove the technical friction of synchronizing MLS data using RESO protocol and provide simple access to the MLS data via SQL and REST API.",
+      "evidence": [
+        {
+          "source_item_id": 46272423,
+          "source_field": "body",
+          "value": "I’m still working on MLSync.io, an ETL platform designed to remove the technical friction of synchronizing MLS data using RESO protocol and provide simple access to the MLS data via SQL and REST API.",
+          "supports": [],
+          "author": "samsk",
+          "shared_at": 1765792742,
+          "source_url": "https://news.ycombinator.com/item?id=46272423"
+        }
+      ],
+      "source_item_id": 46272423,
+      "source_url": "https://news.ycombinator.com/item?id=46272423",
+      "author": "samsk",
+      "shared_at": 1765792742,
+      "links": [
+        "https://MLSync.io"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "id": 1099,
+  "slug": "localhero-6949889896",
+  "name": "Localhero",
+  "mentions": [
+    {
+      "name": "Localhero",
+      "description": "This tool provides on-brand automated translations for product teams, running mainly as a GitHub Action that translates new strings on pull requests against a glossary and style guide. It has MCP integration so assistants like Claude Desktop and ChatGPT can find every key needing changes and organize the work while Localhero keeps the copy on-brand, letting PMs, designers and others bulk tweak copy without touching git. It has also deepened Lingui and Django support.",
+      "problem": "Non-developers like PMs and designers want to bulk tweak product copy without touching git.",
+      "audience": "business-professionals",
+      "builder_usernames": [
+        "arvida"
+      ],
+      "source_excerpt": "Working on https://localhero.ai, on-brand automated translations for product teams. It mainly runs as a GitHub Action, translates new strings on your PRs against your glossary and style guide. This month focus went mainly on MCP and stuff around that. Thinking a PM/designer/etc who wants to bulk tweak copy without touching git or similar.",
+      "evidence": [
+        {
+          "source_item_id": 49692848,
+          "source_field": "body",
+          "value": "Working on https://localhero.ai, on-brand automated translations for product teams. It mainly runs as a GitHub Action, translates new strings on your PRs against your glossary and style guide. This month focus went mainly on MCP and stuff around that. Thinking a PM/designer/etc who wants to bulk tweak copy without touching git or similar.",
+          "supports": [],
+          "author": "arvida",
+          "shared_at": 1789368396,
+          "source_url": "https://news.ycombinator.com/item?id=49692848"
+        }
+      ],
+      "source_item_id": 49692848,
+      "source_url": "https://news.ycombinator.com/item?id=49692848",
+      "author": "arvida",
+      "shared_at": 1789368396,
+      "links": [
+        "https://localhero.ai"
+      ]
+    },
+    {
+      "name": "Localhero",
+      "description": "A GitHub Action that automates i18n translations for product teams, translating new strings on pull requests to match a brand voice and glossary. Includes a workflow and review layer with 'bring your own translations' support, a CLI, and improved Lingui support so projects using explicit IDs keep source text in the source locale's msgstr.",
+      "problem": null,
+      "audience": "product teams doing i18n",
+      "builder_usernames": [
+        "arvida"
+      ],
+      "source_excerpt": "Working on https://localhero.ai, automating i18n translations for product teams (runs as a GitHub Action, translates new strings on PRs matching your brand voice and glossary).",
+      "evidence": [
+        {
+          "source_item_id": 49235389,
+          "source_field": "body",
+          "value": "Working on https://localhero.ai, automating i18n translations for product teams (runs as a GitHub Action, translates new strings on PRs matching your brand voice and glossary).",
+          "supports": [],
+          "author": "arvida",
+          "shared_at": 1786306794,
+          "source_url": "https://news.ycombinator.com/item?id=49235389"
+        }
+      ],
+      "source_item_id": 49235389,
+      "source_url": "https://news.ycombinator.com/item?id=49235389",
+      "author": "arvida",
+      "shared_at": 1786306794,
+      "links": [
+        "https://localhero.ai"
+      ]
+    },
+    {
+      "name": "Localhero",
+      "description": "This service automates i18n translations for product teams. It runs as a GitHub Action, translating new strings on pull requests in the team's brand voice and glossary, offers skills for Claude, and is adding a 'bring your own translations' flow that mixes manual translations with AI-generated ones, acting as a review/consistency layer for some languages.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "arvida"
+      ],
+      "source_excerpt": "Working on https://localhero.ai, automating i18n translations for product teams (runs as a GitHub Action, translates new strings on PRs matching your brand voice and glossary, skills for Claude etc).",
+      "evidence": [
+        {
+          "source_item_id": 48939330,
+          "source_field": "body",
+          "value": "Working on https://localhero.ai, automating i18n translations for product teams (runs as a GitHub Action, translates new strings on PRs matching your brand voice and glossary, skills for Claude etc).",
+          "supports": [],
+          "author": "arvida",
+          "shared_at": 1784231151,
+          "source_url": "https://news.ycombinator.com/item?id=48939330"
+        }
+      ],
+      "source_item_id": 48939330,
+      "source_url": "https://news.ycombinator.com/item?id=48939330",
+      "author": "arvida",
+      "shared_at": 1784231151,
+      "links": [
+        "https://localhero.ai"
+      ]
+    },
+    {
+      "name": "LocalHero",
+      "description": "Automates i18n translations for product teams. Runs as a GitHub Action that translates new strings on pull requests to match brand voice and glossary, supports fully custom locales such as Easy Japanese (やさしい日本語), and ingests manual changes to target translations from commits back for review.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "arvida"
+      ],
+      "source_excerpt": "Working mostly on https://localhero.ai, automating i18n translations for product teams (runs as a GitHub Action, translates new strings on PRs matching your brand voice and glossary).",
+      "evidence": [
+        {
+          "source_item_id": 48539210,
+          "source_field": "body",
+          "value": "Working mostly on https://localhero.ai, automating i18n translations for product teams (runs as a GitHub Action, translates new strings on PRs matching your brand voice and glossary).",
+          "supports": [],
+          "author": "arvida",
+          "shared_at": 1781519029,
+          "source_url": "https://news.ycombinator.com/item?id=48539210"
+        }
+      ],
+      "source_item_id": 48539210,
+      "source_url": "https://news.ycombinator.com/item?id=48539210",
+      "author": "arvida",
+      "shared_at": 1781519029,
+      "links": [
+        "https://localhero.ai"
+      ]
+    },
+    {
+      "name": "LocalHero",
+      "description": "A localization automation tool for product teams that runs as a GitHub Action, translating new strings on pull requests while matching the team's brand voice and glossary. When someone tweaks a translation in the UI, the manual edit feeds back into translation memory and influences future translations in a smart way. An agent skill also gives coding agents glossary and style guide context automatically so they can write source copy that better matches the brand.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "arvida"
+      ],
+      "source_excerpt": "Mainly working on https://localhero.ai, automating i18n translations for product teams. Basically runs as a GitHub Action, translating new strings on PRs matching your brand voice and glossary.",
+      "evidence": [
+        {
+          "source_item_id": 48087568,
+          "source_field": "body",
+          "value": "Mainly working on https://localhero.ai, automating i18n translations for product teams. Basically runs as a GitHub Action, translating new strings on PRs matching your brand voice and glossary.",
+          "supports": [],
+          "author": "arvida",
+          "shared_at": 1778444679,
+          "source_url": "https://news.ycombinator.com/item?id=48087568"
+        }
+      ],
+      "source_item_id": 48087568,
+      "source_url": "https://news.ycombinator.com/item?id=48087568",
+      "author": "arvida",
+      "shared_at": 1778444679,
+      "links": [
+        "https://localhero.ai"
+      ]
+    },
+    {
+      "name": "Localhero",
+      "description": "This service automates on-brand translations for product teams. It learns from manual edits: when a PM or designer tweaks copy in the Localhero UI, those changes feed back into a translation memory that influences future translations, combining old-school translation memory techniques with LLMs in a self-learning loop.",
+      "problem": "Teams want to automate their localization workflow but don't want the work of maintaining their own solutions.",
+      "audience": null,
+      "builder_usernames": [
+        "arvida"
+      ],
+      "source_excerpt": "Been working on https://localhero.ai, its my service to automate on-brand translations for product teams.",
+      "evidence": [
+        {
+          "source_item_id": 47306749,
+          "source_field": "body",
+          "value": "Been working on https://localhero.ai, its my service to automate on-brand translations for product teams.",
+          "supports": [],
+          "author": "arvida",
+          "shared_at": 1773049057,
+          "source_url": "https://news.ycombinator.com/item?id=47306749"
+        }
+      ],
+      "source_item_id": 47306749,
+      "source_url": "https://news.ycombinator.com/item?id=47306749",
+      "author": "arvida",
+      "shared_at": 1773049057,
+      "links": [
+        "https://localhero.ai"
+      ]
+    },
+    {
+      "name": "Localhero",
+      "description": "This service provides automated on-brand i18n translations that run in the CI pipeline. It supports .po/gettext files and offers a workflow where non-technical people such as PMs and designers can edit translations in a web UI and generate a pull request containing both code changes and translation file updates.",
+      "problem": "With gettext, source strings live in the actual source code, making translations hard for non-technical people who don't live in Git to edit when they are checked into the repo.",
+      "audience": "Non-technical PMs and designers who don't live in Git, alongside developers and localization folks running CI pipelines.",
+      "builder_usernames": [
+        "arvida"
+      ],
+      "source_excerpt": "Building https://localhero.ai, automated on-brand i18n translations that run in your CI pipeline.",
+      "evidence": [
+        {
+          "source_item_id": 46267343,
+          "source_field": "body",
+          "value": "Building https://localhero.ai, automated on-brand i18n translations that run in your CI pipeline.",
+          "supports": [],
+          "author": "arvida",
+          "shared_at": 1765748988,
+          "source_url": "https://news.ycombinator.com/item?id=46267343"
+        }
+      ],
+      "source_item_id": 46267343,
+      "source_url": "https://news.ycombinator.com/item?id=46267343",
+      "author": "arvida",
+      "shared_at": 1765748988,
+      "links": [
+        "https://localhero.ai"
+      ]
+    },
+    {
+      "name": "LocalHero",
+      "description": "This tool automates on-brand i18n translations that run in CI pipelines. It is adding improved .po/gettext support and a workflow where non-technical people such as PMs and designers can edit translations in a web UI and easily generate pull requests containing both code changes and translation file updates, keeping translations smooth for automated pipelines and non-Git users alike.",
+      "problem": "Gettext workflows keep source strings in the actual source code, making it hard for non-technical people to edit translations when translation files are checked into the repo.",
+      "audience": "Product managers, designers, and developers working on application translations.",
+      "builder_usernames": [
+        "arvida"
+      ],
+      "source_excerpt": "Building https://localhero.ai, automated on-brand i18n translations that run in your CI pipeline.\n\nRight now I'm working on better .po/gettext support, based on feedback from an early customer. With gettext you usually keeps source strings in the actual source code. So I'm building a workflow where non-technical people (PMs, designers) can edit translations in the web UI and then easily generate a PR with both code changes and translation file updates.",
+      "evidence": [
+        {
+          "source_item_id": 46119917,
+          "source_field": "body",
+          "value": "Building https://localhero.ai, automated on-brand i18n translations that run in your CI pipeline.\n\nRight now I'm working on better .po/gettext support, based on feedback from an early customer. With gettext you usually keeps source strings in the actual source code. So I'm building a workflow where non-technical people (PMs, designers) can edit translations in the web UI and then easily generate a PR with both code changes and translation file updates.",
+          "supports": [],
+          "author": "arvida",
+          "shared_at": 1764672804,
+          "source_url": "https://news.ycombinator.com/item?id=46119917"
+        }
+      ],
+      "source_item_id": 46119917,
+      "source_url": "https://news.ycombinator.com/item?id=46119917",
+      "author": "arvida",
+      "shared_at": 1764672804,
+      "links": [
+        "https://localhero.ai"
+      ]
+    },
+    {
+      "name": "Localhero",
+      "description": "Automated i18n translation service that runs in the CI pipeline. New strings get translated automatically in GitHub Actions, with glossaries and style guides so translations sound like the product rather than generic AI output. The goal is to help teams ship localized features without manual coordination or launch delays.",
+      "problem": "Teams are forced to choose between delaying feature launches for manual translations, shipping incomplete translations with promises to translate later, or using ChatGPT/LLMs that lose consistency and context and require coordination.",
+      "audience": "Product teams shipping localized features",
+      "builder_usernames": [
+        "arvida"
+      ],
+      "source_excerpt": "I'm building https://localhero.ai. Automated i18n translations that run in your CI pipeline.",
+      "evidence": [
+        {
+          "source_item_id": 45885037,
+          "source_field": "body",
+          "value": "I'm building https://localhero.ai. Automated i18n translations that run in your CI pipeline.",
+          "supports": [],
+          "author": "arvida",
+          "shared_at": 1762847480,
+          "source_url": "https://news.ycombinator.com/item?id=45885037"
+        }
+      ],
+      "source_item_id": 45885037,
+      "source_url": "https://news.ycombinator.com/item?id=45885037",
+      "author": "arvida",
+      "shared_at": 1762847480,
+      "links": [
+        "https://localhero.ai"
+      ]
+    }
+  ]
+}

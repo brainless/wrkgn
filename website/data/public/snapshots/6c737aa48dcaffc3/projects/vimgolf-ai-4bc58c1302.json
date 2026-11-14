@@ -1,0 +1,63 @@
+{
+  "id": 6877,
+  "slug": "vimgolf-ai-4bc58c1302",
+  "name": "vimgolf.ai",
+  "mentions": [
+    {
+      "name": "vimgolf.ai",
+      "description": "An interactive web tool that teaches vim newcomers how to use vim, likely through vim-golf-style challenges that demonstrate shortcuts; it is currently incomplete, with not all shortcuts added yet and major known issues.",
+      "problem": null,
+      "audience": "newbies / people new to vim",
+      "builder_usernames": [
+        "nickandbro"
+      ],
+      "source_excerpt": "https://vimgolf.ai\n\nTo show newbies how to use vim. Currently its not complete and has major issues. So if you want to try give it a go, but please hold your judgement as not all shortcuts have been added.",
+      "evidence": [
+        {
+          "source_item_id": 46940505,
+          "source_field": "body",
+          "value": "https://vimgolf.ai\n\nTo show newbies how to use vim. Currently its not complete and has major issues. So if you want to try give it a go, but please hold your judgement as not all shortcuts have been added.",
+          "supports": [],
+          "author": "nickandbro",
+          "shared_at": 1770600438,
+          "source_url": "https://news.ycombinator.com/item?id=46940505"
+        }
+      ],
+      "source_item_id": 46940505,
+      "source_url": "https://news.ycombinator.com/item?id=46940505",
+      "author": "nickandbro",
+      "shared_at": 1770600438,
+      "links": [
+        "https://vimgolf.ai"
+      ]
+    },
+    {
+      "name": "vimgolf.ai",
+      "description": "This is a web tool for learning new vim commands through practice challenges, with AI-assisted level creation for each vim motion currently in development.",
+      "problem": "Learning new vim commands is difficult.",
+      "audience": "Vim users; the author builds it to help himself and hopefully others learn new vim commands",
+      "builder_usernames": [
+        "nickandbro"
+      ],
+      "source_excerpt": "I’m working on https://vimgolf.ai, to help me learn new vim commands and in doing so hopefully help others. Right now, still working on adding the ai assisted level creation for each motion, but more to come on that.",
+      "evidence": [
+        {
+          "source_item_id": 43818045,
+          "source_field": "body",
+          "value": "I’m working on https://vimgolf.ai, to help me learn new vim commands and in doing so hopefully help others. Right now, still working on adding the ai assisted level creation for each motion, but more to come on that.",
+          "supports": [],
+          "author": "nickandbro",
+          "shared_at": 1745819592,
+          "source_url": "https://news.ycombinator.com/item?id=43818045"
+        }
+      ],
+      "source_item_id": 43818045,
+      "source_url": "https://news.ycombinator.com/item?id=43818045",
+      "author": "nickandbro",
+      "shared_at": 1745819592,
+      "links": [
+        "https://vimgolf.ai"
+      ]
+    }
+  ]
+}

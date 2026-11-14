@@ -1,0 +1,35 @@
+{
+  "id": 9776,
+  "slug": "whytorch-82ac095a66",
+  "name": "WhyTorch",
+  "mentions": [
+    {
+      "name": "WhyTorch",
+      "description": "Open source interactive website that explains PyTorch tensor functions by visualizing element-level relationships between inputs and outputs. For any function, users can click elements in the result to see where they came from, or click elements in the inputs to see how they contribute to the result, making tricky functions like torch.gather and torch.scatter more intuitive. It also clarifies indexing, slicing, and broadcasting visually, and can be reached directly from PyTorch docs pages by modifying the base URL.",
+      "problem": "Tricky PyTorch tensor functions like torch.gather and torch.scatter are unintuitive and hard to grasp from reading the docs alone.",
+      "audience": null,
+      "builder_usernames": [
+        "kukanani"
+      ],
+      "source_excerpt": "An open source website I built to explain tensor functions in PyTorch: https://whytorch.org\n\nIt makes tricky functions like torch.gather and torch.scatter more intuitive by showing element-level relationships between inputs and outputs.\n\nFor any function, you can click elements in the result to see where they came from, or elements in the inputs to see how they contribute to the result to see exactly how it contributes to the result.",
+      "evidence": [
+        {
+          "source_item_id": 45562743,
+          "source_field": "body",
+          "value": "An open source website I built to explain tensor functions in PyTorch: https://whytorch.org\n\nIt makes tricky functions like torch.gather and torch.scatter more intuitive by showing element-level relationships between inputs and outputs.\n\nFor any function, you can click elements in the result to see where they came from, or elements in the inputs to see how they contribute to the result to see exactly how it contributes to the result.",
+          "supports": [],
+          "author": "kukanani",
+          "shared_at": 1760309136,
+          "source_url": "https://news.ycombinator.com/item?id=45562743"
+        }
+      ],
+      "source_item_id": 45562743,
+      "source_url": "https://news.ycombinator.com/item?id=45562743",
+      "author": "kukanani",
+      "shared_at": 1760309136,
+      "links": [
+        "https://whytorch.org"
+      ]
+    }
+  ]
+}

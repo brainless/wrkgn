@@ -1,0 +1,33 @@
+{
+  "id": 8176,
+  "slug": "unicode-visualization-tool-1ccf4906ee",
+  "name": "Unicode Visualization Tool",
+  "mentions": [
+    {
+      "name": "Unicode Visualization Tool",
+      "description": "This tool visualizes transformations and relationships between Unicode characters and connects everything directly to the exact lines in the Unicode Character Database (UCD) that define these relationships, with links to the Unicode documentation. It aims to improve technical people's understanding of Unicode through visualizations and direct links to the underlying data sources.",
+      "problem": "Few technical people have a good understanding of Unicode or have big misconceptions about how it works, and the Unicode documentation, though well-written, can be difficult to navigate or even find.",
+      "audience": "Technical people and developers who use Unicode tools for development or fun",
+      "builder_usernames": [
+        "Rendello"
+      ],
+      "source_excerpt": "I'm working on a Unicode visualization tool [note 1]. It's meant to visualize transformations and relationships between characters, as well as connect everything directly to the exact lines in the Unicode Character Database (UCD), which defines these relationships.",
+      "evidence": [
+        {
+          "source_item_id": 46278093,
+          "source_field": "body",
+          "value": "I'm working on a Unicode visualization tool [note 1]. It's meant to visualize transformations and relationships between characters, as well as connect everything directly to the exact lines in the Unicode Character Database (UCD), which defines these relationships.",
+          "supports": [],
+          "author": "Rendello",
+          "shared_at": 1765822054,
+          "source_url": "https://news.ycombinator.com/item?id=46278093"
+        }
+      ],
+      "source_item_id": 46278093,
+      "source_url": "https://news.ycombinator.com/item?id=46278093",
+      "author": "Rendello",
+      "shared_at": 1765822054,
+      "links": []
+    }
+  ]
+}

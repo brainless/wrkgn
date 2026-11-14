@@ -1,0 +1,35 @@
+{
+  "id": 4413,
+  "slug": "g8r-8ec92af4e4",
+  "name": "g8r",
+  "mentions": [
+    {
+      "name": "g8r",
+      "description": "g8r is a configuration management tool in early development with a server/client model similar to Puppet, aiming for better readability and implementation than SaltStack. It uses a pub/sub model that the author found much faster than Ansible's push methodology.",
+      "problem": "SaltStack lacks readability and good implementation, and Ansible's push methodology is slow compared to a pub/sub model.",
+      "audience": null,
+      "builder_usernames": [
+        "brianjlogan"
+      ],
+      "source_excerpt": "I didn't have the time to fully build mine out but I also was hankering for something with better readability and implementation than SaltStack (server/client similar to Puppet).\n\nhttps://github.com/vangourd/g8r\n\nThe pub/sub model was so much FASTER than the Ansible push methodology.",
+      "evidence": [
+        {
+          "source_item_id": 48096421,
+          "source_field": "body",
+          "value": "I didn't have the time to fully build mine out but I also was hankering for something with better readability and implementation than SaltStack (server/client similar to Puppet).\n\nhttps://github.com/vangourd/g8r\n\nThe pub/sub model was so much FASTER than the Ansible push methodology.",
+          "supports": [],
+          "author": "brianjlogan",
+          "shared_at": 1778513779,
+          "source_url": "https://news.ycombinator.com/item?id=48096421"
+        }
+      ],
+      "source_item_id": 48096421,
+      "source_url": "https://news.ycombinator.com/item?id=48096421",
+      "author": "brianjlogan",
+      "shared_at": 1778513779,
+      "links": [
+        "https://github.com/vangourd/g8r"
+      ]
+    }
+  ]
+}

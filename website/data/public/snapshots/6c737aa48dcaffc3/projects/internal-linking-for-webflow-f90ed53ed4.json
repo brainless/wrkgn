@@ -1,0 +1,35 @@
+{
+  "id": 6930,
+  "slug": "internal-linking-for-webflow-f90ed53ed4",
+  "name": "Internal Linking for Webflow",
+  "mentions": [
+    {
+      "name": "Internal Linking for Webflow",
+      "description": "A semantic internal linking tool for Webflow sites. It crawls, extracts, vectorizes and clusters site content, builds a link graph showing actual internal link structure, and uses semantic similarity to find content relationships. Opportunities are prioritized by relevance, page authority, orphan status and implementation effort, and the tool outputs exact link placements with anchor text suggestions.",
+      "problem": "Manual internal linking research doesn't scale: keyword matching misses semantic relationships and leaves 20-30% of pages as true orphans with no inbound links that never rank.",
+      "audience": "Webflow site owners; the author is specifically recruiting Webflow users as beta testers",
+      "builder_usernames": [
+        "wjr"
+      ],
+      "source_excerpt": "Internal Linking for Webflow [ https://linkcherry.com ]\n\nI've been working on an internal linking tool that actually understands your content, instead of just matching keywords.",
+      "evidence": [
+        {
+          "source_item_id": 46952231,
+          "source_field": "body",
+          "value": "Internal Linking for Webflow [ https://linkcherry.com ]\n\nI've been working on an internal linking tool that actually understands your content, instead of just matching keywords.",
+          "supports": [],
+          "author": "wjr",
+          "shared_at": 1770675100,
+          "source_url": "https://news.ycombinator.com/item?id=46952231"
+        }
+      ],
+      "source_item_id": 46952231,
+      "source_url": "https://news.ycombinator.com/item?id=46952231",
+      "author": "wjr",
+      "shared_at": 1770675100,
+      "links": [
+        "https://linkcherry.com"
+      ]
+    }
+  ]
+}

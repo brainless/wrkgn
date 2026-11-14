@@ -1,0 +1,33 @@
+{
+  "id": 11350,
+  "slug": "karting-session-data-logger-8d720562c1",
+  "name": "Karting session data logger",
+  "mentions": [
+    {
+      "name": "Karting session data logger",
+      "description": "This app logs karting activity and session data, capturing about 30 datapoints per session such as lap times, tyre pressures, sprocket setup, track location, and weather. The collected data records engine performance, tyre ages, and best lap times, and recalls how well each setup performed for future reference.",
+      "problem": "Karting sessions generate a lot of data to collect (times, pressures, sprocket setup, track location, weather) needed for recording engine performance, tyre ages, best lap times, and recalling setups.",
+      "audience": "The author and his son, for logging the son's karting sessions",
+      "builder_usernames": [
+        "ColinEberhardt"
+      ],
+      "source_excerpt": "I’m working on a simple app that logs Karting activity and data. My son has been karting for a year or so, and there is so much data to collect - times, pressures, sprocket set up, track location, weather and more (about 30 datapoints a session)",
+      "evidence": [
+        {
+          "source_item_id": 43818219,
+          "source_field": "body",
+          "value": "I’m working on a simple app that logs Karting activity and data. My son has been karting for a year or so, and there is so much data to collect - times, pressures, sprocket set up, track location, weather and more (about 30 datapoints a session)",
+          "supports": [],
+          "author": "ColinEberhardt",
+          "shared_at": 1745821686,
+          "source_url": "https://news.ycombinator.com/item?id=43818219"
+        }
+      ],
+      "source_item_id": 43818219,
+      "source_url": "https://news.ycombinator.com/item?id=43818219",
+      "author": "ColinEberhardt",
+      "shared_at": 1745821686,
+      "links": []
+    }
+  ]
+}

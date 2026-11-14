@@ -1,0 +1,35 @@
+{
+  "id": 7669,
+  "slug": "pgflow-postgres-native-workflow-engine-531831cf45",
+  "name": "pgflow (Postgres-native workflow engine)",
+  "mentions": [
+    {
+      "name": "pgflow (Postgres-native workflow engine)",
+      "description": "A Postgres-native workflow engine that compiles workflows into SQL row definitions, letting Postgres orchestrate the DAG as state machines. It uses pgmq for queues with a TypeScript worker, and offers a type-safe TypeScript DSL with inferred inputs/outputs across dependencies and full autocomplete. Declarative manifest-style definitions replace hundreds of lines of manual pg_cron -> pgmq -> Supabase Edge Function boilerplate with explicit DAG definitions. Currently Supabase-only, with plans to support vanilla Postgres setups.",
+      "problem": "Replaces 240 lines of manual pg_cron -> pgmq -> Supabase Edge Function boilerplate with 20 lines of explicit DAG definitions.",
+      "audience": null,
+      "builder_usernames": [
+        "jumski"
+      ],
+      "source_excerpt": "I'm building a Postgres-native workflow engine using pgmq for queues and TypeScript worker. Workflows compile to definitions (SQL rows), letting Postgres orchestrate the DAG as state machines. The TypeScript DSL is type-safe with inferred inputs/outputs across dependencies with full autocomplete.",
+      "evidence": [
+        {
+          "source_item_id": 46578874,
+          "source_field": "body",
+          "value": "I'm building a Postgres-native workflow engine using pgmq for queues and TypeScript worker. Workflows compile to definitions (SQL rows), letting Postgres orchestrate the DAG as state machines. The TypeScript DSL is type-safe with inferred inputs/outputs across dependencies with full autocomplete.",
+          "supports": [],
+          "author": "jumski",
+          "shared_at": 1768159150,
+          "source_url": "https://news.ycombinator.com/item?id=46578874"
+        }
+      ],
+      "source_item_id": 46578874,
+      "source_url": "https://news.ycombinator.com/item?id=46578874",
+      "author": "jumski",
+      "shared_at": 1768159150,
+      "links": [
+        "https://demo.pgflow.dev"
+      ]
+    }
+  ]
+}

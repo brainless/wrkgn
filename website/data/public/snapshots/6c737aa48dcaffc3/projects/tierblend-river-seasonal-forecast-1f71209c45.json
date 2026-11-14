@@ -1,0 +1,35 @@
+{
+  "id": 4495,
+  "slug": "tierblend-river-seasonal-forecast-1f71209c45",
+  "name": "TierBlend river seasonal forecast",
+  "mentions": [
+    {
+      "name": "TierBlend river seasonal forecast",
+      "description": "A river seasonal forecasting system that predicts discharge 6–15 weeks ahead per gauge using an in-house machine learning model trained on 35+ years of weekly discharge data plus NRCS SNOTEL snowpack features.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "pauldjohns"
+      ],
+      "source_excerpt": "Personally, I'm working on a river TierBlend seasonal forecast (currently 6–15 weeks per gauge) — in-house ML model trained on 35+ years of weekly discharge plus NRCS SNOTEL snowpack features (https://pauldjohns.github.io/usgs-discharge-poc/)",
+      "evidence": [
+        {
+          "source_item_id": 48097622,
+          "source_field": "body",
+          "value": "Personally, I'm working on a river TierBlend seasonal forecast (currently 6–15 weeks per gauge) — in-house ML model trained on 35+ years of weekly discharge plus NRCS SNOTEL snowpack features (https://pauldjohns.github.io/usgs-discharge-poc/)",
+          "supports": [],
+          "author": "pauldjohns",
+          "shared_at": 1778519033,
+          "source_url": "https://news.ycombinator.com/item?id=48097622"
+        }
+      ],
+      "source_item_id": 48097622,
+      "source_url": "https://news.ycombinator.com/item?id=48097622",
+      "author": "pauldjohns",
+      "shared_at": 1778519033,
+      "links": [
+        "https://pauldjohns.github.io/usgs-discharge-poc/"
+      ]
+    }
+  ]
+}

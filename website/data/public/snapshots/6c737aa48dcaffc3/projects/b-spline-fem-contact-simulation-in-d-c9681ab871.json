@@ -1,0 +1,33 @@
+{
+  "id": 10443,
+  "slug": "b-spline-fem-contact-simulation-in-d-c9681ab871",
+  "name": "B-spline FEM contact simulation in D",
+  "mentions": [
+    {
+      "name": "B-spline FEM contact simulation in D",
+      "description": "This is a long-term contact simulation written in D that applies B-spline finite element techniques from Klaus Hollig's book, focusing on level set domains and high-order boundary parametrizations. It explores how efficient this largely meshless approach can be, especially with multigrid, with the goal of cross-pollinating ideas with the author's professional numerics and geometry work.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "sfpotter"
+      ],
+      "source_excerpt": "I've got a long term project trying to see how far I can get writing a contact simulation using techniques from Klaus Hollig's book on B-spline finite element methods. I'm using D for this. I've been focusing on level set domains, which has led to me spending an inordinate amount of time on high order boundary parametrizations.",
+      "evidence": [
+        {
+          "source_item_id": 44704222,
+          "source_field": "body",
+          "value": "I've got a long term project trying to see how far I can get writing a contact simulation using techniques from Klaus Hollig's book on B-spline finite element methods. I'm using D for this. I've been focusing on level set domains, which has led to me spending an inordinate amount of time on high order boundary parametrizations.",
+          "supports": [],
+          "author": "sfpotter",
+          "shared_at": 1753646648,
+          "source_url": "https://news.ycombinator.com/item?id=44704222"
+        }
+      ],
+      "source_item_id": 44704222,
+      "source_url": "https://news.ycombinator.com/item?id=44704222",
+      "author": "sfpotter",
+      "shared_at": 1753646648,
+      "links": []
+    }
+  ]
+}

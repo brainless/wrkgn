@@ -1,0 +1,35 @@
+{
+  "id": 5975,
+  "slug": "gpu-shortest-path-algorithm-implementations-vulkan-glsl-9a7ef11f6c",
+  "name": "GPU shortest-path algorithm implementations (Vulkan/GLSL)",
+  "mentions": [
+    {
+      "name": "GPU shortest-path algorithm implementations (Vulkan/GLSL)",
+      "description": "This project implements several shortest-path algorithms on the GPU using Vulkan and GLSL as a personal learning exercise in writing efficient GPU code. It explores the GPU execution model to understand why a simple CPU algorithm like Dijkstra can beat many GPU implementations. The code will be open-sourced and the journey is documented in a series of blog posts.",
+      "problem": "Shortest-path algorithms are notoriously hard to make fast on the GPU; a simple CPU algorithm like Dijkstra often beats many GPU implementations.",
+      "audience": "Personal learning project for the author's own education in efficient GPU programming; blog series documents findings for readers.",
+      "builder_usernames": [
+        "softwarehippie"
+      ],
+      "source_excerpt": "As a personal learning project on how to write efficient GPU code I'm trying to implement different shortest-path algorithms on the GPU.",
+      "evidence": [
+        {
+          "source_item_id": 47307262,
+          "source_field": "body",
+          "value": "As a personal learning project on how to write efficient GPU code I'm trying to implement different shortest-path algorithms on the GPU.",
+          "supports": [],
+          "author": "softwarehippie",
+          "shared_at": 1773052731,
+          "source_url": "https://news.ycombinator.com/item?id=47307262"
+        }
+      ],
+      "source_item_id": 47307262,
+      "source_url": "https://news.ycombinator.com/item?id=47307262",
+      "author": "softwarehippie",
+      "shared_at": 1773052731,
+      "links": [
+        "https://www.execfoo.de/blog/deltastep.html"
+      ]
+    }
+  ]
+}

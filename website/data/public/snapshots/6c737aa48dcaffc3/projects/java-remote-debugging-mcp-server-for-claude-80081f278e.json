@@ -1,0 +1,33 @@
+{
+  "id": 4633,
+  "slug": "java-remote-debugging-mcp-server-for-claude-80081f278e",
+  "name": "Java remote debugging MCP server for Claude",
+  "mentions": [
+    {
+      "name": "Java remote debugging MCP server for Claude",
+      "description": "An MCP server that connects to Java's remote debugging entry point so Claude can start debugging sessions on its own, letting the AI trace and fix bugs in back-end logic through a real debugger instead of inserting log messages into the code.",
+      "problem": "Debugging Java back-end logic by adding log messages is annoying, dirty, error-prone, and messes up the code.",
+      "audience": null,
+      "builder_usernames": [
+        "sminchev"
+      ],
+      "source_excerpt": "And the other thing I just started is a MCP server that will connect to Java remote debugging entry point. This way I will try to allow Claude to start debugging session by its own.",
+      "evidence": [
+        {
+          "source_item_id": 48118546,
+          "source_field": "body",
+          "value": "And the other thing I just started is a MCP server that will connect to Java remote debugging entry point. This way I will try to allow Claude to start debugging session by its own.",
+          "supports": [],
+          "author": "sminchev",
+          "shared_at": 1778654253,
+          "source_url": "https://news.ycombinator.com/item?id=48118546"
+        }
+      ],
+      "source_item_id": 48118546,
+      "source_url": "https://news.ycombinator.com/item?id=48118546",
+      "author": "sminchev",
+      "shared_at": 1778654253,
+      "links": []
+    }
+  ]
+}

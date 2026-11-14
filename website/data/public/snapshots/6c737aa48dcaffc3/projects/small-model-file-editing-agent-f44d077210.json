@@ -1,0 +1,33 @@
+{
+  "id": 5454,
+  "slug": "small-model-file-editing-agent-f44d077210",
+  "name": "Small-model file-editing agent",
+  "mentions": [
+    {
+      "name": "Small-model file-editing agent",
+      "description": "This agent edits files using a smaller language model (under 1B parameters); it is not yet released.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "pdyc"
+      ],
+      "source_excerpt": "- Creating agent to edit files with smaller model(<1B) not yet released.",
+      "evidence": [
+        {
+          "source_item_id": 47747768,
+          "source_field": "body",
+          "value": "- Creating agent to edit files with smaller model(<1B) not yet released.",
+          "supports": [],
+          "author": "pdyc",
+          "shared_at": 1776056256,
+          "source_url": "https://news.ycombinator.com/item?id=47747768"
+        }
+      ],
+      "source_item_id": 47747768,
+      "source_url": "https://news.ycombinator.com/item?id=47747768",
+      "author": "pdyc",
+      "shared_at": 1776056256,
+      "links": []
+    }
+  ]
+}

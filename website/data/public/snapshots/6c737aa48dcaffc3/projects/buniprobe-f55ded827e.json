@@ -1,0 +1,35 @@
+{
+  "id": 5341,
+  "slug": "buniprobe-f55ded827e",
+  "name": "bUniProbe",
+  "mentions": [
+    {
+      "name": "bUniProbe",
+      "description": "Open-source wireless hardware debugger that connects over Wi-Fi and handles SPI, I2C, UART, CAN and GPIO with built-in level shifting between 3.3V and 5V targets. It hosts its own web server so users can monitor signals, read/write data, and toggle hardware pull-ups from a browser without installing drivers, and includes a waveform viewer and a REST API for automating hardware testing with Python scripts. Hardware and firmware are fully open-source; currently in pre-launch on Crowd Supply.",
+      "problem": "Debugging hardware previously required juggling separate USB adapters for SPI, I2C, UART, CAN and GPIO and wiring up external level shifters just to switch between 3.3V and 5V targets.",
+      "audience": null,
+      "builder_usernames": [
+        "bitmerse"
+      ],
+      "source_excerpt": "I am working on bUniProbe (https://www.crowdsupply.com/bitmerse/buniprobe), an open-source wireless hardware debugger. I was tired of juggling separate USB adapters for SPI, I2C, UART, CAN and GPIO and wiring up external level shifters just to switch between 3.3V and 5V targets.",
+      "evidence": [
+        {
+          "source_item_id": 47750681,
+          "source_field": "body",
+          "value": "I am working on bUniProbe (https://www.crowdsupply.com/bitmerse/buniprobe), an open-source wireless hardware debugger. I was tired of juggling separate USB adapters for SPI, I2C, UART, CAN and GPIO and wiring up external level shifters just to switch between 3.3V and 5V targets.",
+          "supports": [],
+          "author": "bitmerse",
+          "shared_at": 1776080978,
+          "source_url": "https://news.ycombinator.com/item?id=47750681"
+        }
+      ],
+      "source_item_id": 47750681,
+      "source_url": "https://news.ycombinator.com/item?id=47750681",
+      "author": "bitmerse",
+      "shared_at": 1776080978,
+      "links": [
+        "https://www.crowdsupply.com/bitmerse/buniprobe"
+      ]
+    }
+  ]
+}

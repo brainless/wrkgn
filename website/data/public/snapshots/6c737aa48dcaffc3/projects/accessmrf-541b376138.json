@@ -1,0 +1,92 @@
+{
+  "id": 3506,
+  "slug": "accessmrf-541b376138",
+  "name": "AccessMRF",
+  "mentions": [
+    {
+      "name": "AccessMRF",
+      "description": "A catalog of all American health care prices that indexes machine-readable price transparency files published by insurers. To handle the massive volume of data, it builds a taxonomy and performs extensive deduplication (using minhashing) to shrink the dataset by roughly four orders of magnitude, then exposes the data via an API. It is not consumer-grade yet.",
+      "problem": "Healthcare price transparency files contain way too much data; the project deduplicates and taxonomizes it to make the problem tractable.",
+      "audience": "helps researchers and founders in the space access the data via API, it is not consumer-grade yet",
+      "builder_usernames": [
+        "feliixh"
+      ],
+      "source_excerpt": "I have been working on https://www.accessmrf.com - a catalog of all American health care prices. Since there's way too much data, I am building a taxonomy and deduplicating it extensively first, with the idea that I can shrink it by ~4 orders of magnitude and make the problem tractable.",
+      "evidence": [
+        {
+          "source_item_id": 48764214,
+          "source_field": "body",
+          "value": "I have been working on https://www.accessmrf.com - a catalog of all American health care prices. Since there's way too much data, I am building a taxonomy and deduplicating it extensively first, with the idea that I can shrink it by ~4 orders of magnitude and make the problem tractable.",
+          "supports": [],
+          "author": "feliixh",
+          "shared_at": 1783011390,
+          "source_url": "https://news.ycombinator.com/item?id=48764214"
+        }
+      ],
+      "source_item_id": 48764214,
+      "source_url": "https://news.ycombinator.com/item?id=48764214",
+      "author": "feliixh",
+      "shared_at": 1783011390,
+      "links": [
+        "https://www.accessmrf.com",
+        "https://www.felixhaba.com/writing/simplifying-healthcare-price-transparency-files-with-minhashing/"
+      ]
+    },
+    {
+      "name": "AccessMRF",
+      "description": "A web catalog of all health care prices published by insurers under the Transparency in Coverage rule. Ongoing work investigates ways to make the 1.17 petabyte dataset of price transparency files manageable, which analysis suggests is at least 90% duplicates.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "feliixh"
+      ],
+      "source_excerpt": "I am working on https://www.accessmrf.com a catalog for all health care prices published by insurers under the Transparency in Coverage rule.",
+      "evidence": [
+        {
+          "source_item_id": 48571286,
+          "source_field": "body",
+          "value": "I am working on https://www.accessmrf.com a catalog for all health care prices published by insurers under the Transparency in Coverage rule.",
+          "supports": [],
+          "author": "feliixh",
+          "shared_at": 1781707595,
+          "source_url": "https://news.ycombinator.com/item?id=48571286"
+        }
+      ],
+      "source_item_id": 48571286,
+      "source_url": "https://news.ycombinator.com/item?id=48571286",
+      "author": "feliixh",
+      "shared_at": 1781707595,
+      "links": [
+        "https://www.accessmrf.com"
+      ]
+    },
+    {
+      "name": "AccessMRF",
+      "description": "A catalog aggregating health care price transparency data. It consolidates the rates published by all insurers into one place, making it easier for developers and researchers to access this data.",
+      "problem": null,
+      "audience": "Health care price transparency data is scattered across many insurer publications and hard for developers and researchers to access.",
+      "builder_usernames": [
+        "feliixh"
+      ],
+      "source_excerpt": "I'm building a catalog for health care price transparency data that aggregates the rates published by all insurers, to put everything in one place and make it easier for developers / researchers to access this data.",
+      "evidence": [
+        {
+          "source_item_id": 45115786,
+          "source_field": "body",
+          "value": "I'm building a catalog for health care price transparency data that aggregates the rates published by all insurers, to put everything in one place and make it easier for developers / researchers to access this data.",
+          "supports": [],
+          "author": "feliixh",
+          "shared_at": 1756907380,
+          "source_url": "https://news.ycombinator.com/item?id=45115786"
+        }
+      ],
+      "source_item_id": 45115786,
+      "source_url": "https://news.ycombinator.com/item?id=45115786",
+      "author": "feliixh",
+      "shared_at": 1756907380,
+      "links": [
+        "https://www.accessmrf.com/"
+      ]
+    }
+  ]
+}

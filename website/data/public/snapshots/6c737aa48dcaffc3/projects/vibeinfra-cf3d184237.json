@@ -1,0 +1,35 @@
+{
+  "id": 7118,
+  "slug": "vibeinfra-cf3d184237",
+  "name": "VibeInfra",
+  "mentions": [
+    {
+      "name": "VibeInfra",
+      "description": "This tool lets Cursor and Claude Code users integrate, test, visualize, monitor, and maintain all their integrations from a single interface. It exposes an MCP server so coding agents can communicate with it and verify integrations are working, and it performs continuous monitoring on top of the user's integration and monitoring infrastructure, running root-cause analysis (RCA) when issues are found.",
+      "problem": "Routine integration maintenance and troubleshooting wastes developers' and analysts' time; the tool automates monitoring and root-cause analysis to reduce that burden.",
+      "audience": "Cursor/Claude Code users, including developers and analysts",
+      "builder_usernames": [
+        "ksvmkoundinya"
+      ],
+      "source_excerpt": "I am building tool for easily managing integrations for Cursor/CC users. You can integrate, test, visualize, monitor and maintain all your integrations from a single tool. We provide MCP so that your coding agent can communicate and ensure your integrations are working fine.",
+      "evidence": [
+        {
+          "source_item_id": 46941725,
+          "source_field": "body",
+          "value": "I am building tool for easily managing integrations for Cursor/CC users. You can integrate, test, visualize, monitor and maintain all your integrations from a single tool. We provide MCP so that your coding agent can communicate and ensure your integrations are working fine.",
+          "supports": [],
+          "author": "ksvmkoundinya",
+          "shared_at": 1770613044,
+          "source_url": "https://news.ycombinator.com/item?id=46941725"
+        }
+      ],
+      "source_item_id": 46941725,
+      "source_url": "https://news.ycombinator.com/item?id=46941725",
+      "author": "ksvmkoundinya",
+      "shared_at": 1770613044,
+      "links": [
+        "https://vibeinfra.live"
+      ]
+    }
+  ]
+}

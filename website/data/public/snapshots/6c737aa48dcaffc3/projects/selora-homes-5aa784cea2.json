@@ -1,0 +1,38 @@
+{
+  "id": 6881,
+  "slug": "selora-homes-5aa784cea2",
+  "name": "Selora Homes",
+  "mentions": [
+    {
+      "name": "Selora Homes",
+      "description": "Managed smart-home service providing professional installation and ongoing support for Home Assistant. Subscribers receive a pre-installed smart hub (a miniPC) and installers handle physical setup, while the team remotely configures devices, automations, and a dashboard. Management access is maintained over WireGuard with traffic closed by default, remote support requires owner approval, and subscribers stay admins of their own instance. The hub pulls config updates from a public GitLab repo, and the service covers monitoring, troubleshooting, and upcoming automatic updates with health-aware rollbacks. An AI agent to help maintain configs and suggest automations is in development. Open core, backed by Open Core Ventures, with source code on GitLab and a public roadmap; currently recruiting beta testers in California and offering a free tier.",
+      "problem": "Home Assistant is powerful but requires ongoing maintenance that most people can't or don't want to handle; enthusiasts will run it for their own homes but not for parents, friends, etc.",
+      "audience": "Households who want the power of Home Assistant without maintaining it themselves, including HA enthusiasts' parents and friends; currently recruiting beta testers in California (Bay Area and SoCal).",
+      "builder_usernames": [
+        "gravis"
+      ],
+      "source_excerpt": "building Selora Homes: Professional installation and managed support for Home Assistant.",
+      "evidence": [
+        {
+          "source_item_id": 46954956,
+          "source_field": "body",
+          "value": "building Selora Homes: Professional installation and managed support for Home Assistant.",
+          "supports": [],
+          "author": "gravis",
+          "shared_at": 1770693745,
+          "source_url": "https://news.ycombinator.com/item?id=46954956"
+        }
+      ],
+      "source_item_id": 46954956,
+      "source_url": "https://news.ycombinator.com/item?id=46954956",
+      "author": "gravis",
+      "shared_at": 1770693745,
+      "links": [
+        "https://gitlab.com/selorahomes/products/selorabox-nix/",
+        "https://selorahomes.com/docs/",
+        "https://selorahomes.com/docs/roadmap/",
+        "https://selorahomes.com/pricing"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 10895,
+  "slug": "whispers-5d0c45e39a",
+  "name": "Whispers",
+  "mentions": [
+    {
+      "name": "Whispers",
+      "description": "A self-organizing, belief-driven mesh in which nodes propose, verify, and evolve solutions through dynamic decentralized consensus. It is implemented as a shared knowledge graph of proposed partial inferences stored in CRDTs, using verification as a merge function. Currently in very early stages, with a cool demo planned.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "nathan_douglas"
+      ],
+      "source_excerpt": "Whispers is a self-organizing, belief-driven mesh where nodes propose, verify, and evolve solutions through dynamic, decentralized consensus.\n\nBasically a shared knowledge graph of proposed partial inferences in CRDTs using verification as a merge function.",
+      "evidence": [
+        {
+          "source_item_id": 43821838,
+          "source_field": "body",
+          "value": "Whispers is a self-organizing, belief-driven mesh where nodes propose, verify, and evolve solutions through dynamic, decentralized consensus.\n\nBasically a shared knowledge graph of proposed partial inferences in CRDTs using verification as a merge function.",
+          "supports": [],
+          "author": "nathan_douglas",
+          "shared_at": 1745850214,
+          "source_url": "https://news.ycombinator.com/item?id=43821838"
+        }
+      ],
+      "source_item_id": 43821838,
+      "source_url": "https://news.ycombinator.com/item?id=43821838",
+      "author": "nathan_douglas",
+      "shared_at": 1745850214,
+      "links": [
+        "https://github.com/ndouglas/whispers"
+      ]
+    }
+  ]
+}

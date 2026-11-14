@@ -1,0 +1,33 @@
+{
+  "id": 4642,
+  "slug": "gnss-rtk-based-robot-lawnmower-4dd13ac6b9",
+  "name": "GNSS/RTK-based robot lawnmower",
+  "mentions": [
+    {
+      "name": "GNSS/RTK-based robot lawnmower",
+      "description": "An autonomous robot lawnmower built by buying a cheap, non-functioning second-hand mower, tearing out its circuit board, and coding a new ROS2-based stack so it roams the lawn on GPS with RTK (base station in the charging station). The friend handles electronics while the author focuses on software; the next milestone is testing a simple bounding box where the mower drives until it reaches an edge and then randomly picks a new direction.",
+      "problem": "Existing robot lawnmowers were quite expensive, especially when the builder started out.",
+      "audience": null,
+      "builder_usernames": [
+        "letharion"
+      ],
+      "source_excerpt": "Building a GNSS/RTK-based lawnmower.\n\nThe existing ones were quite expensive, especially when I started out. A friend had the idea to get a cheap/non-functioning lawnmower second hand, and tear out the circuit board. We're in the process of coding up a new ROS2 based stack that will roam the lawn on GPS with RTK in the charging station.",
+      "evidence": [
+        {
+          "source_item_id": 48093375,
+          "source_field": "body",
+          "value": "Building a GNSS/RTK-based lawnmower.\n\nThe existing ones were quite expensive, especially when I started out. A friend had the idea to get a cheap/non-functioning lawnmower second hand, and tear out the circuit board. We're in the process of coding up a new ROS2 based stack that will roam the lawn on GPS with RTK in the charging station.",
+          "supports": [],
+          "author": "letharion",
+          "shared_at": 1778496944,
+          "source_url": "https://news.ycombinator.com/item?id=48093375"
+        }
+      ],
+      "source_item_id": 48093375,
+      "source_url": "https://news.ycombinator.com/item?id=48093375",
+      "author": "letharion",
+      "shared_at": 1778496944,
+      "links": []
+    }
+  ]
+}

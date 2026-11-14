@@ -1,0 +1,33 @@
+{
+  "id": 10368,
+  "slug": "automated-dotfiles-platform-b234655387",
+  "name": "Automated dotfiles platform",
+  "mentions": [
+    {
+      "name": "Automated dotfiles platform",
+      "description": "A dotfiles setup that treats the development environment as a reproducible, automated project. Every configuration change is codified into scripts that create directories, handle symlinks, and document dependencies, so a new machine or person can be onboarded with a single 'git clone && ./setup.sh' (the 'Spilled Coffee Principle': back up in an afternoon after losing a laptop). The repo is organized in a Pillars, Pipelines, Vaults (P.P.V) structure that separates foundational configs, automation pipelines, and secure vaults, and it bootstraps AI-assisted development workflows using tmux, git worktrees, and AI coding assistants to run multiple tasks in parallel.",
+      "problem": "Manually configured dev environments are hard to rebuild from scratch, and setup knowledge living in one person's head creates a single-person bottleneck when onboarding machines or people.",
+      "audience": null,
+      "builder_usernames": [
+        "atxtechbro"
+      ],
+      "source_excerpt": "Lately I’ve been heads‑down on a complete rethink of my dotfiles setup.  It’s not just a `.vimrc` collection – the goal is to treat the dev environment like any other project: reproducible from scratch, automated, and designed to scale as AI becomes a bigger part of daily work.",
+      "evidence": [
+        {
+          "source_item_id": 44705457,
+          "source_field": "body",
+          "value": "Lately I’ve been heads‑down on a complete rethink of my dotfiles setup.  It’s not just a `.vimrc` collection – the goal is to treat the dev environment like any other project: reproducible from scratch, automated, and designed to scale as AI becomes a bigger part of daily work.",
+          "supports": [],
+          "author": "atxtechbro",
+          "shared_at": 1753656823,
+          "source_url": "https://news.ycombinator.com/item?id=44705457"
+        }
+      ],
+      "source_item_id": 44705457,
+      "source_url": "https://news.ycombinator.com/item?id=44705457",
+      "author": "atxtechbro",
+      "shared_at": 1753656823,
+      "links": []
+    }
+  ]
+}

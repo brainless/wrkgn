@@ -1,0 +1,35 @@
+{
+  "id": 6882,
+  "slug": "cascade-puzzle-d775dd735f",
+  "name": "Cascade Puzzle",
+  "mentions": [
+    {
+      "name": "Cascade Puzzle",
+      "description": "A daily puzzle game inspired by Panel de Pon / Tetris Attack in which players swap blocks horizontally to match 3+ and trigger chain reactions, clearing the board in limited moves. It offers three daily puzzles (Easy/Medium/Hard) with Wordle-style shareable results and requires no account. Its puzzle generator uses backward construction (starting from a solved board and reversing moves) so every puzzle is guaranteed solvable.",
+      "problem": "Puzzle generation was hard to get right, which caused the project to be abandoned years ago; it was solved with backward construction that guarantees every generated puzzle is solvable.",
+      "audience": null,
+      "builder_usernames": [
+        "enagymo"
+      ],
+      "source_excerpt": "Cascade Puzzle, a daily puzzle game inspired by Panel de Pon / Tetris Attack. Swap blocks horizontally to match 3+, trigger chain reactions, clear the board in limited moves.",
+      "evidence": [
+        {
+          "source_item_id": 46944152,
+          "source_field": "body",
+          "value": "Cascade Puzzle, a daily puzzle game inspired by Panel de Pon / Tetris Attack. Swap blocks horizontally to match 3+, trigger chain reactions, clear the board in limited moves.",
+          "supports": [],
+          "author": "enagymo",
+          "shared_at": 1770637002,
+          "source_url": "https://news.ycombinator.com/item?id=46944152"
+        }
+      ],
+      "source_item_id": 46944152,
+      "source_url": "https://news.ycombinator.com/item?id=46944152",
+      "author": "enagymo",
+      "shared_at": 1770637002,
+      "links": [
+        "https://cascadepuzzle.com"
+      ]
+    }
+  ]
+}

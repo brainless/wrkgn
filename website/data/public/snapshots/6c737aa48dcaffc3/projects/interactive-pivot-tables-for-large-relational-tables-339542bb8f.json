@@ -1,0 +1,33 @@
+{
+  "id": 5295,
+  "slug": "interactive-pivot-tables-for-large-relational-tables-339542bb8f",
+  "name": "Interactive Pivot Tables for Large Relational Tables",
+  "mentions": [
+    {
+      "name": "Interactive Pivot Tables for Large Relational Tables",
+      "description": "This system creates interactive pivot tables from very large relational tables, supporting tables with thousands of columns and hundreds of millions of rows. Dropping a CSV, JSON, or other file onto a window creates a table, and a pivot table can then be built in a few clicks; it pivoted an 8.5-million-row Chicago crime dataset in under a second. Each cell maps to its underlying row keys, so double-clicking a cell instantly shows the original rows used to compute it for further analysis. It has been tested against 25M, 50M, 100M, and 200M+ row tables, going beyond spreadsheets' million-row limit.",
+      "problem": "Excel pivot tables are limited by spreadsheets' one-million-row cap, and working around it requires jumping through hoops, making interactive analysis of very large datasets impractical.",
+      "audience": null,
+      "builder_usernames": [
+        "didgetmaster"
+      ],
+      "source_excerpt": "Creating interactive pivot tables from large relational tables.\n\nMany people know that a handy data analysis feature in Excel is to create a pivot table from a spreadsheet. But spreadsheets are limited to just a million rows. You can get around this limit by jumping through a bunch of hoops.\n\nMy system lets you easily create tables with thousands of columns and hundreds of millions of rows. (Just drop a CSV, Json, or other file on a window to create a table.)",
+      "evidence": [
+        {
+          "source_item_id": 47745937,
+          "source_field": "body",
+          "value": "Creating interactive pivot tables from large relational tables.\n\nMany people know that a handy data analysis feature in Excel is to create a pivot table from a spreadsheet. But spreadsheets are limited to just a million rows. You can get around this limit by jumping through a bunch of hoops.\n\nMy system lets you easily create tables with thousands of columns and hundreds of millions of rows. (Just drop a CSV, Json, or other file on a window to create a table.)",
+          "supports": [],
+          "author": "didgetmaster",
+          "shared_at": 1776038817,
+          "source_url": "https://news.ycombinator.com/item?id=47745937"
+        }
+      ],
+      "source_item_id": 47745937,
+      "source_url": "https://news.ycombinator.com/item?id=47745937",
+      "author": "didgetmaster",
+      "shared_at": 1776038817,
+      "links": []
+    }
+  ]
+}

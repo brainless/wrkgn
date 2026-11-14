@@ -1,0 +1,33 @@
+{
+  "id": 10896,
+  "slug": "house-heat-requirements-calculator-python-339ef969d8",
+  "name": "House Heat Requirements Calculator (Python)",
+  "mentions": [
+    {
+      "name": "House Heat Requirements Calculator (Python)",
+      "description": "A Python program that computes a house's heat loss and maximum heat requirements (total and per room) to support heat pump installation planning. It lets the user model renovation scenarios such as changing windows or adding insulation to estimate possible energy savings, and can factor in material quality uncertainty.",
+      "problem": "Renovating an old house (built in the 50s and extended in the 60s, 90s and 2000s) requires calculating heat loss and energy requirements to size a heat pump, and off-the-shelf calculations don't allow playing with scenarios or accounting for material quality uncertainty.",
+      "audience": null,
+      "builder_usernames": [
+        "Loic"
+      ],
+      "source_excerpt": "I want to calculate the heat loss, energy requirements to install a heat pump. So, I am writing a relatively simple Python program to compute the heat requirements (max total and max per room) to get the possible energy savings if changing windows, isolating etc.",
+      "evidence": [
+        {
+          "source_item_id": 43825482,
+          "source_field": "body",
+          "value": "I want to calculate the heat loss, energy requirements to install a heat pump. So, I am writing a relatively simple Python program to compute the heat requirements (max total and max per room) to get the possible energy savings if changing windows, isolating etc.",
+          "supports": [],
+          "author": "Loic",
+          "shared_at": 1745870632,
+          "source_url": "https://news.ycombinator.com/item?id=43825482"
+        }
+      ],
+      "source_item_id": 43825482,
+      "source_url": "https://news.ycombinator.com/item?id=43825482",
+      "author": "Loic",
+      "shared_at": 1745870632,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": 3546,
+  "slug": "athilio-788710966b",
+  "name": "Athilio",
+  "mentions": [
+    {
+      "name": "Athilio",
+      "description": "Privacy-focused, highly customizable personal data analytics for Oura, Garmin, Polar, and Apple Health data, with an iOS port coming soon. It offers period-over-period comparisons (e.g., this month vs. this month last year), comparison of different metrics, customizable graphs and widgets, and combining metrics across manufacturers, with a few AI features that can all be turned off with a single switch.",
+      "problem": "Existing solutions for this kind of software focus on social (e.g., Strava) or coaching (e.g., TrainingPeaks), or are very expensive on their paid tiers, while manufacturers' own platforms lack features like period-over-period comparisons, metric comparisons, customizable graphs, and combining metrics from different brands.",
+      "audience": "individual owners of Oura, Garmin, Polar and Apple Health devices",
+      "builder_usernames": [
+        "jkantola"
+      ],
+      "source_excerpt": "https://www.athilio.com/ privacy focused, highly customisable personal data analytics for your Oura, Garmin, Polar and Apple Health (ios port coming soon).",
+      "evidence": [
+        {
+          "source_item_id": 48530219,
+          "source_field": "body",
+          "value": "https://www.athilio.com/ privacy focused, highly customisable personal data analytics for your Oura, Garmin, Polar and Apple Health (ios port coming soon).",
+          "supports": [],
+          "author": "jkantola",
+          "shared_at": 1781458873,
+          "source_url": "https://news.ycombinator.com/item?id=48530219"
+        }
+      ],
+      "source_item_id": 48530219,
+      "source_url": "https://news.ycombinator.com/item?id=48530219",
+      "author": "jkantola",
+      "shared_at": 1781458873,
+      "links": [
+        "https://www.athilio.com/"
+      ]
+    },
+    {
+      "name": "Athilio",
+      "description": "App that makes it easier to query sports and fitness wearable data, answering questions like how this month's metric compares to the same month last year. Many of its ideas are borrowed from software observability concepts, and the author has used it to implement and learn agentic workflows.",
+      "problem": "Most sports and fitness wearable manufacturers' own software and 3rd party software make it incredibly hard to do \"how does my this months metric x compare to same month last year\".",
+      "audience": "personal-use",
+      "builder_usernames": [
+        "jkantola"
+      ],
+      "source_excerpt": "Also https://www.athilio.com/ , which originally was also purely for my own use. Most sports and fitness wearable manufacturers own software and 3rd party software make it incredibly hard to do \"how does my this months metric x compare to same month last year\", athilio attempts to make those queries easier.",
+      "evidence": [
+        {
+          "source_item_id": 48096089,
+          "source_field": "body",
+          "value": "Also https://www.athilio.com/ , which originally was also purely for my own use. Most sports and fitness wearable manufacturers own software and 3rd party software make it incredibly hard to do \"how does my this months metric x compare to same month last year\", athilio attempts to make those queries easier.",
+          "supports": [],
+          "author": "jkantola",
+          "shared_at": 1778512373,
+          "source_url": "https://news.ycombinator.com/item?id=48096089"
+        }
+      ],
+      "source_item_id": 48096089,
+      "source_url": "https://news.ycombinator.com/item?id=48096089",
+      "author": "jkantola",
+      "shared_at": 1778512373,
+      "links": [
+        "https://www.athilio.com/"
+      ]
+    },
+    {
+      "name": "Athilio",
+      "description": "Athilio is a wellness and training app that integrates different health metrics, such as sleep and readiness from Oura and training data from Garmin, giving users more control over their data. It avoids social features, is priced affordably (a quarter to half of similar services), and takes a local-first approach with SQLite data stored on users' devices — syncing between devices via iCloud like Obsidian — with only integration syncing and OAuth on the backend for privacy and low costs. Garmin integration and a mobile port are currently being finished.",
+      "problem": "Similar services like TrainingPeaks are less focused on integrating different metrics (sleep, readiness, training data), give users less control, and cost more.",
+      "audience": "People with goals related to their wellness or sports/training.",
+      "builder_usernames": [
+        "jkantola"
+      ],
+      "source_excerpt": "https://www.athilio.com/\nCurrently finishing up garmin integration and a mobile port of the app.\nThe app is aimed at people with goals related to their wellness or sports / training. Somewhat similar to training peaks but more focused on integrating different metrics, like sleep and readiness from oura and training data from garmin. Also user has more control. 0 focus on social features.",
+      "evidence": [
+        {
+          "source_item_id": 45877828,
+          "source_field": "body",
+          "value": "https://www.athilio.com/\nCurrently finishing up garmin integration and a mobile port of the app.\nThe app is aimed at people with goals related to their wellness or sports / training. Somewhat similar to training peaks but more focused on integrating different metrics, like sleep and readiness from oura and training data from garmin. Also user has more control. 0 focus on social features.",
+          "supports": [],
+          "author": "jkantola",
+          "shared_at": 1762793391,
+          "source_url": "https://news.ycombinator.com/item?id=45877828"
+        }
+      ],
+      "source_item_id": 45877828,
+      "source_url": "https://news.ycombinator.com/item?id=45877828",
+      "author": "jkantola",
+      "shared_at": 1762793391,
+      "links": [
+        "https://www.athilio.com/"
+      ]
+    }
+  ]
+}

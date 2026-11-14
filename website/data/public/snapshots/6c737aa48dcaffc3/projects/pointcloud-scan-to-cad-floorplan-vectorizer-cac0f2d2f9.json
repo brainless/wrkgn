@@ -1,0 +1,33 @@
+{
+  "id": 4465,
+  "slug": "pointcloud-scan-to-cad-floorplan-vectorizer-cac0f2d2f9",
+  "name": "Pointcloud scan to CAD floorplan vectorizer",
+  "mentions": [
+    {
+      "name": "Pointcloud scan to CAD floorplan vectorizer",
+      "description": "This tool automates turning lidar point cloud scans of buildings into vector CAD floorplans. It slices a scan into a top-down ortho 'xray' image and uses machine learning to convert the pixels into vector polylines, producing lite CAD plans showing racks, cable trays, pipes, weld lines, steel beams, doors and windows for upgrade and refurbishment design. Work is also underway on running a custom machine learning kernel on multi-core x86 CPUs.",
+      "problem": "After a lidar scan produces an ortho 'xray' image of a building, someone has to manually trace it in CAD to create a usable 3D model for designing the upgrade; this automates that boring manual step.",
+      "audience": "Owners/operators of industrial plants, datacenters, steel storage tanks, railway bridges, and commercial real estate planning upgrades and refurbishments.",
+      "builder_usernames": [
+        "jgord"
+      ],
+      "source_excerpt": "Then someone has to manually trace that in CAD to make a useful 3D model they can use for designing the upgrade.\n\nSo Im automating the boring manual part - turning the xray plan pixels into vector polylines, using machine learning.",
+      "evidence": [
+        {
+          "source_item_id": 48088568,
+          "source_field": "body",
+          "value": "Then someone has to manually trace that in CAD to make a useful 3D model they can use for designing the upgrade.\n\nSo Im automating the boring manual part - turning the xray plan pixels into vector polylines, using machine learning.",
+          "supports": [],
+          "author": "jgord",
+          "shared_at": 1778450503,
+          "source_url": "https://news.ycombinator.com/item?id=48088568"
+        }
+      ],
+      "source_item_id": 48088568,
+      "source_url": "https://news.ycombinator.com/item?id=48088568",
+      "author": "jgord",
+      "shared_at": 1778450503,
+      "links": []
+    }
+  ]
+}

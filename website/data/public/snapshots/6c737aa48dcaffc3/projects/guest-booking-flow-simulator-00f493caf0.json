@@ -1,0 +1,33 @@
+{
+  "id": 8563,
+  "slug": "guest-booking-flow-simulator-00f493caf0",
+  "name": "Guest Booking Flow Simulator",
+  "mentions": [
+    {
+      "name": "Guest Booking Flow Simulator",
+      "description": "This tool simulates guests reserving accommodations on a reservation system before it launches, to show how users will respond to the availability and options. It uses an ML model trained on real reservations and an LLM with applied personas to model why a user might opt out of the booking flow and how they would operate it.",
+      "problem": "Not knowing how users will respond to a booking system's availability and options before launch",
+      "audience": "Owners of reservation/booking systems preparing for a launch who are unsure how users will respond to their availability and options",
+      "builder_usernames": [
+        "ramon156"
+      ],
+      "source_excerpt": "Building a little extra tool for my reservation system, which simulates guests reserving accommodations before a customer launches. This is nice if you have no idea how users will respond to your availability and options.\n\nWe have an ML model that's trained on real reservations and use an LLM to decide why a user mightve opted out. We apply personas to this LLM to get a bit of a sense how they would probably be operating the booking flow.",
+      "evidence": [
+        {
+          "source_item_id": 46266388,
+          "source_field": "body",
+          "value": "Building a little extra tool for my reservation system, which simulates guests reserving accommodations before a customer launches. This is nice if you have no idea how users will respond to your availability and options.\n\nWe have an ML model that's trained on real reservations and use an LLM to decide why a user mightve opted out. We apply personas to this LLM to get a bit of a sense how they would probably be operating the booking flow.",
+          "supports": [],
+          "author": "ramon156",
+          "shared_at": 1765743207,
+          "source_url": "https://news.ycombinator.com/item?id=46266388"
+        }
+      ],
+      "source_item_id": 46266388,
+      "source_url": "https://news.ycombinator.com/item?id=46266388",
+      "author": "ramon156",
+      "shared_at": 1765743207,
+      "links": []
+    }
+  ]
+}

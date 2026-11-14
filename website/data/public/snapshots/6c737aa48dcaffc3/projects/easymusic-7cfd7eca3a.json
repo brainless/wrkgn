@@ -1,0 +1,35 @@
+{
+  "id": 4917,
+  "slug": "easymusic-7cfd7eca3a",
+  "name": "EasyMusic",
+  "mentions": [
+    {
+      "name": "EasyMusic",
+      "description": "This app makes group music-making accessible by minimizing the music theory required: the user picks a key and the app provides buttons (7 per octave, 21 across three octaves) that play only the notes in that key. Because everything stays in one key, players can produce harmonies like thirds by hitting every other button and jamming together never sounds bad, letting beginners play as a group without wrong notes.",
+      "problem": "Learning music theory is a barrier for beginners, and beginners worry about hitting wrong notes when playing together.",
+      "audience": "Kids getting started playing music as a group, without needing to worry about hitting wrong notes.",
+      "builder_usernames": [
+        "wmil"
+      ],
+      "source_excerpt": "So I had an idea for a music app that tries to minimize the amount of music theory needed to play as a group.\n\nBasically you pick a key, then it's just 7 buttons that play the notes in that key. Actually 21 because there are three octaves.",
+      "evidence": [
+        {
+          "source_item_id": 48094405,
+          "source_field": "body",
+          "value": "So I had an idea for a music app that tries to minimize the amount of music theory needed to play as a group.\n\nBasically you pick a key, then it's just 7 buttons that play the notes in that key. Actually 21 because there are three octaves.",
+          "supports": [],
+          "author": "wmil",
+          "shared_at": 1778504331,
+          "source_url": "https://news.ycombinator.com/item?id=48094405"
+        }
+      ],
+      "source_item_id": 48094405,
+      "source_url": "https://news.ycombinator.com/item?id=48094405",
+      "author": "wmil",
+      "shared_at": 1778504331,
+      "links": [
+        "https://github.com/wmill/EasyMusic"
+      ]
+    }
+  ]
+}

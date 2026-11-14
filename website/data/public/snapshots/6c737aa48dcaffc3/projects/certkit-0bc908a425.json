@@ -1,0 +1,35 @@
+{
+  "id": 4584,
+  "slug": "certkit-0bc908a425",
+  "name": "CertKit",
+  "mentions": [
+    {
+      "name": "CertKit",
+      "description": "CertKit is a TLS certificate automation service that uses Let's Encrypt by default and handles ACME challenge validation via delegated DNS: it runs the DNS and users just CNAME to it, so no DNS credentials need to be shared. It acts as a central clearinghouse for certificates so every machine in a high-availability web farm gets the same cert without hitting Let's Encrypt rate limits, and it supports painful Windows workloads such as IIS and Exchange. It left beta last month.",
+      "problem": "Manual TLS certificate management across on-prem and HA workloads, including Let's Encrypt rate limits and the risk of sharing DNS credentials.",
+      "audience": "People running on-prem workloads, including HA web farms and Windows workloads like IIS and Exchange.",
+      "builder_usernames": [
+        "eric_trackjs"
+      ],
+      "source_excerpt": "I'm working on https://www.certkit.io.  It started as a solution to handle TLS certificate automation for my other SaaS products, but we realized other people who run on-prem workloads might get something out of it.",
+      "evidence": [
+        {
+          "source_item_id": 48088275,
+          "source_field": "body",
+          "value": "I'm working on https://www.certkit.io.  It started as a solution to handle TLS certificate automation for my other SaaS products, but we realized other people who run on-prem workloads might get something out of it.",
+          "supports": [],
+          "author": "eric_trackjs",
+          "shared_at": 1778448561,
+          "source_url": "https://news.ycombinator.com/item?id=48088275"
+        }
+      ],
+      "source_item_id": 48088275,
+      "source_url": "https://news.ycombinator.com/item?id=48088275",
+      "author": "eric_trackjs",
+      "shared_at": 1778448561,
+      "links": [
+        "https://www.certkit.io"
+      ]
+    }
+  ]
+}

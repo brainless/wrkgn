@@ -1,0 +1,35 @@
+{
+  "id": 4384,
+  "slug": "deterministic-permissions-layer-for-coding-agents-8412696747",
+  "name": "Deterministic permissions layer for coding agents",
+  "mentions": [
+    {
+      "name": "Deterministic permissions layer for coding agents",
+      "description": "A deterministic permissions layer for coding agents that works like auto-mode for Claude Code: users stay in the flow and are prompted to allow or deny tool calls only when it truly matters. A rule-based classifier auto-allows or blocks 95% of Bash tool calls as safe or dangerous, leaving only the remaining 5% as ambiguous. Agent autonomy is governed through policies stored at the user and repo level, and the tool saves tokens compared with LLM-based auto modes.",
+      "problem": "LLM-based permission auto-review modes (Claude's auto mode, Codex auto review) are overkill for classifying most Bash tool calls and waste tokens, like using a data center to flip a light switch.",
+      "audience": null,
+      "builder_usernames": [
+        "schipperai"
+      ],
+      "source_excerpt": "A better permissions layer for coding agents. The tool works like auto-mode for Claude Code, so you can stay in the flow and only get prompted to allow or deny tool calls when it truly matters, but it is fully deterministic.",
+      "evidence": [
+        {
+          "source_item_id": 48090342,
+          "source_field": "body",
+          "value": "A better permissions layer for coding agents. The tool works like auto-mode for Claude Code, so you can stay in the flow and only get prompted to allow or deny tool calls when it truly matters, but it is fully deterministic.",
+          "supports": [],
+          "author": "schipperai",
+          "shared_at": 1778465831,
+          "source_url": "https://news.ycombinator.com/item?id=48090342"
+        }
+      ],
+      "source_item_id": 48090342,
+      "source_url": "https://news.ycombinator.com/item?id=48090342",
+      "author": "schipperai",
+      "shared_at": 1778465831,
+      "links": [
+        "https://nah.build"
+      ]
+    }
+  ]
+}

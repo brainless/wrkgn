@@ -1,0 +1,35 @@
+{
+  "id": 9020,
+  "slug": "stripe-integration-as-a-library-158e8bdb93",
+  "name": "Stripe Integration as a Library",
+  "mentions": [
+    {
+      "name": "Stripe Integration as a Library",
+      "description": "A stack-agnostic JS/TS library that packages Stripe integration, covering the steps every team repeats when adding subscriptions: creating the database table, setting up webhooks, and implementing the events they care about. Built on a framework for stack-agnostic libraries, with database support for Drizzle and Kysely and Prisma support coming soon. Inspired by the Stripe integration built for better-auth.",
+      "problem": "Whenever someone uses Stripe (e.g., for subscriptions), they go through the same few steps—creating a database table, setting up webhooks, and implementing events—and the challenge is that everyone uses a different stack.",
+      "audience": null,
+      "builder_usernames": [
+        "duckerduck"
+      ],
+      "source_excerpt": "I’m working on “Stripe Integration as a Library.” It seems that whenever someone uses Stripe, for example for subscriptions, they go through the same few steps: creating a database table, setting up webhooks, and implementing the events they care about. The challenge of course is that everyone uses a different stack.",
+      "evidence": [
+        {
+          "source_item_id": 45873815,
+          "source_field": "body",
+          "value": "I’m working on “Stripe Integration as a Library.” It seems that whenever someone uses Stripe, for example for subscriptions, they go through the same few steps: creating a database table, setting up webhooks, and implementing the events they care about. The challenge of course is that everyone uses a different stack.",
+          "supports": [],
+          "author": "duckerduck",
+          "shared_at": 1762763811,
+          "source_url": "https://news.ycombinator.com/item?id=45873815"
+        }
+      ],
+      "source_item_id": 45873815,
+      "source_url": "https://news.ycombinator.com/item?id=45873815",
+      "author": "duckerduck",
+      "shared_at": 1762763811,
+      "links": [
+        "https://fragno.dev/docs/our-fragments/stripe/quickstart"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 4797,
+  "slug": "shoehorn-a3e0e01bc4",
+  "name": "Shoehorn",
+  "mentions": [
+    {
+      "name": "Shoehorn",
+      "description": "A Kubernetes-native software catalog, recently launched in beta.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "shoehorn-dev"
+      ],
+      "source_excerpt": "Working on https://shoehorn.dev/, k8s native software-catalog with a twist. We launched beta this Friday",
+      "evidence": [
+        {
+          "source_item_id": 48116670,
+          "source_field": "body",
+          "value": "Working on https://shoehorn.dev/, k8s native software-catalog with a twist. We launched beta this Friday",
+          "supports": [],
+          "author": "shoehorn-dev",
+          "shared_at": 1778634501,
+          "source_url": "https://news.ycombinator.com/item?id=48116670"
+        }
+      ],
+      "source_item_id": 48116670,
+      "source_url": "https://news.ycombinator.com/item?id=48116670",
+      "author": "shoehorn-dev",
+      "shared_at": 1778634501,
+      "links": [
+        "https://shoehorn.dev/"
+      ]
+    },
+    {
+      "name": "Shoehorn",
+      "description": "An opinionated, simple intelligent developer platform (like Backstage) that teams configure, deploy, and update. Features include a service catalog, GitHub crawler, Kubernetes entity discovery via k8s-push-agent, Forge with molds for scaffolding and workflows (similar to Backstage templates), governance, scorecards, cloud provider resources, license management, event-based notifications, team-context awareness, scoped API keys alongside session RBAC, and a CLI plus Terraform provider. Beta targeted for end of April.",
+      "problem": "Teams end up reinventing the wheel by building and maintaining their own developer portals, even when using Backstage, which was meant to prevent that.",
+      "audience": "Engineering teams and developers",
+      "builder_usernames": [
+        "shoehorn-dev"
+      ],
+      "source_excerpt": "We're still building https://shoehorn.dev/: an Intelligent Developer Platform (think Backstage, but opinionated and simple). With Shoehorn, you just run the thing.",
+      "evidence": [
+        {
+          "source_item_id": 47745340,
+          "source_field": "body",
+          "value": "We're still building https://shoehorn.dev/: an Intelligent Developer Platform (think Backstage, but opinionated and simple). With Shoehorn, you just run the thing.",
+          "supports": [],
+          "author": "shoehorn-dev",
+          "shared_at": 1776034044,
+          "source_url": "https://news.ycombinator.com/item?id=47745340"
+        }
+      ],
+      "source_item_id": 47745340,
+      "source_url": "https://news.ycombinator.com/item?id=47745340",
+      "author": "shoehorn-dev",
+      "shared_at": 1776034044,
+      "links": [
+        "https://shoehorn.dev/"
+      ]
+    }
+  ]
+}

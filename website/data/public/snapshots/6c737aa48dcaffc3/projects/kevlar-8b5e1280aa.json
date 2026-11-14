@@ -1,0 +1,35 @@
+{
+  "id": 9027,
+  "slug": "kevlar-8b5e1280aa",
+  "name": "Kevlar",
+  "mentions": [
+    {
+      "name": "Kevlar",
+      "description": "A static site generator written entirely from scratch in C with no dependencies. It consumes markdown and immediately outputs HTML. Kevlar v3 adds more spec-compliant markdown AST-based parsing, a better .ini config parser with namespacing, and more powerful templating tags like IF and FOR with lisp-like configuration. The author uses it to build their personal blog.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "aadv1k"
+      ],
+      "source_excerpt": "About 2 years back I began working on a very simple markdown compiler, it was “immediate” in that it would consume markdown and immediately spit html. That project turned into a whole static site generator called Kevlar — https://github.com/aadv1k/kevlar\n\nEntirely built from scratch in C without any dependencies.",
+      "evidence": [
+        {
+          "source_item_id": 45872744,
+          "source_field": "body",
+          "value": "About 2 years back I began working on a very simple markdown compiler, it was “immediate” in that it would consume markdown and immediately spit html. That project turned into a whole static site generator called Kevlar — https://github.com/aadv1k/kevlar\n\nEntirely built from scratch in C without any dependencies.",
+          "supports": [],
+          "author": "aadv1k",
+          "shared_at": 1762752550,
+          "source_url": "https://news.ycombinator.com/item?id=45872744"
+        }
+      ],
+      "source_item_id": 45872744,
+      "source_url": "https://news.ycombinator.com/item?id=45872744",
+      "author": "aadv1k",
+      "shared_at": 1762752550,
+      "links": [
+        "https://github.com/aadv1k/kevlar"
+      ]
+    }
+  ]
+}

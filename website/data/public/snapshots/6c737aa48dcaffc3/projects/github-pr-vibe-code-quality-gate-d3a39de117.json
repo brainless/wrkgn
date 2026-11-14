@@ -1,0 +1,33 @@
+{
+  "id": 4415,
+  "slug": "github-pr-vibe-code-quality-gate-d3a39de117",
+  "name": "GitHub PR vibe-code quality gate",
+  "mentions": [
+    {
+      "name": "GitHub PR vibe-code quality gate",
+      "description": "A GitHub quality gate that automatically checks pull requests, guesses whether the code is 'vibe coded', and then quizzes the developer to verify they actually understood what they wrote, so human reviewers' time is not wasted. Currently looking for testers.",
+      "problem": "Code reviewers waste their time reviewing low-effort, AI-generated ('vibe coded') pull requests whose authors don't understand the code they submitted.",
+      "audience": "Developers who submit pull requests and the reviewers who would otherwise spend time on low-quality, vibe-coded changes.",
+      "builder_usernames": [
+        "sailorganymede"
+      ],
+      "source_excerpt": "I’m working on a GitHub quality gate that checks your PRs, guesses if it’s a total vibe coded piece of shit, and then grills the dev to check if they actually understood what they wrote. This way, my time as a reviewer doesn’t get wasted.",
+      "evidence": [
+        {
+          "source_item_id": 48106434,
+          "source_field": "body",
+          "value": "I’m working on a GitHub quality gate that checks your PRs, guesses if it’s a total vibe coded piece of shit, and then grills the dev to check if they actually understood what they wrote. This way, my time as a reviewer doesn’t get wasted.",
+          "supports": [],
+          "author": "sailorganymede",
+          "shared_at": 1778582892,
+          "source_url": "https://news.ycombinator.com/item?id=48106434"
+        }
+      ],
+      "source_item_id": 48106434,
+      "source_url": "https://news.ycombinator.com/item?id=48106434",
+      "author": "sailorganymede",
+      "shared_at": 1778582892,
+      "links": []
+    }
+  ]
+}

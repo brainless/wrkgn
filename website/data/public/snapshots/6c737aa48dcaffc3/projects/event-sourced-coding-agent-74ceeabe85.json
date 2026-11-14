@@ -1,0 +1,33 @@
+{
+  "id": 5146,
+  "slug": "event-sourced-coding-agent-74ceeabe85",
+  "name": "Event-sourced coding agent",
+  "mentions": [
+    {
+      "name": "Event-sourced coding agent",
+      "description": "An AI coding agent that reportedly outperforms Claude Code on SWE-bench Verified (8/15 vs 5/15) at about half the cost per instance (~$0.06 vs ~$0.12). It is built as an event-sourced reducer with no framework dependencies beyond the Anthropic SDK, though results come from a small sample on a single repo.",
+      "problem": "Existing AI coding agents like Claude Code are expensive; this project aims to beat them on benchmark performance at roughly half the cost per instance.",
+      "audience": null,
+      "builder_usernames": [
+        "entrep"
+      ],
+      "source_excerpt": "Coding agent that seems to beat Claude Code on SWE-bench at half the cost.\n\n8/15 on SWE-bench Verified vs Claude Code's 5/15, ~$0.06/instance vs ~$0.12. Small sample, single repo, lots of caveats. But the direction feels right.\nEvent-sourced reducer, no framework deps beyond the Anthropic SDK.",
+      "evidence": [
+        {
+          "source_item_id": 47745347,
+          "source_field": "body",
+          "value": "Coding agent that seems to beat Claude Code on SWE-bench at half the cost.\n\n8/15 on SWE-bench Verified vs Claude Code's 5/15, ~$0.06/instance vs ~$0.12. Small sample, single repo, lots of caveats. But the direction feels right.\nEvent-sourced reducer, no framework deps beyond the Anthropic SDK.",
+          "supports": [],
+          "author": "entrep",
+          "shared_at": 1776034105,
+          "source_url": "https://news.ycombinator.com/item?id=47745347"
+        }
+      ],
+      "source_item_id": 47745347,
+      "source_url": "https://news.ycombinator.com/item?id=47745347",
+      "author": "entrep",
+      "shared_at": 1776034105,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": 7080,
+  "slug": "recipe-extractor-463c61e922",
+  "name": "recipe-extractor",
+  "mentions": [
+    {
+      "name": "recipe-extractor",
+      "description": "A finetuned gemma-3-270M LLM that extracts recipes from blog posts, intended to run locally on an iPhone in a recipe-management app.",
+      "problem": null,
+      "audience": "Intended to run locally on an iPhone in a recipe-management app",
+      "builder_usernames": [
+        "vlad-r"
+      ],
+      "source_excerpt": "I recently finetuned an LLM (gemma-3-270M) to extract recipes from blog posts.\n\nMy thoughts are that this is a perfect model for running locally on an iPhone in a recipe-management app.\n\nWrote a blog about what I learned while finetuning it https://vladr.com/blog/posts/finetuning-gemma3-to-extract-recipes/\n\nAnd published the model on HF https://huggingface.co/v-rusu/recipe-extractor",
+      "evidence": [
+        {
+          "source_item_id": 46966621,
+          "source_field": "body",
+          "value": "I recently finetuned an LLM (gemma-3-270M) to extract recipes from blog posts.\n\nMy thoughts are that this is a perfect model for running locally on an iPhone in a recipe-management app.\n\nWrote a blog about what I learned while finetuning it https://vladr.com/blog/posts/finetuning-gemma3-to-extract-recipes/\n\nAnd published the model on HF https://huggingface.co/v-rusu/recipe-extractor",
+          "supports": [],
+          "author": "vlad-r",
+          "shared_at": 1770756266,
+          "source_url": "https://news.ycombinator.com/item?id=46966621"
+        }
+      ],
+      "source_item_id": 46966621,
+      "source_url": "https://news.ycombinator.com/item?id=46966621",
+      "author": "vlad-r",
+      "shared_at": 1770756266,
+      "links": [
+        "https://huggingface.co/v-rusu/recipe-extractor",
+        "https://vladr.com/blog/posts/finetuning-gemma3-to-extract-recipes/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 9139,
+  "slug": "easymiet-21abd08c77",
+  "name": "easymiet",
+  "mentions": [
+    {
+      "name": "easymiet",
+      "description": "Rental application platform for the German rental market. Landlords create a viewing and share it via QR code or link, interested renters apply using their profile, and an application approval and dismissal workflow automatically sends emails to applicants. Monetization is planned by letting applicants pay to enrich their profile with extras like a picture or relevant documents. Built with Next.js, BetterAuth, Drizzle, and Postgres, hosted on a Hetzner VPS using Kamal.",
+      "problem": "German landlords require non-standardized self-disclosure forms from apartment applicants, which is annoying for landlords facing hundreds of applicants and for renters who must fill out the same information for every apartment they apply to.",
+      "audience": "German landlords and apartment renters",
+      "builder_usernames": [
+        "robowo"
+      ],
+      "source_excerpt": "I have been working on https://easymiet.eu/ \nIt is specific to the German rental market. Basically if you want to rent an appartment in Germany most landlords require you to fill out a non-standardized self-disclosure form.",
+      "evidence": [
+        {
+          "source_item_id": 45873568,
+          "source_field": "body",
+          "value": "I have been working on https://easymiet.eu/ \nIt is specific to the German rental market. Basically if you want to rent an appartment in Germany most landlords require you to fill out a non-standardized self-disclosure form.",
+          "supports": [],
+          "author": "robowo",
+          "shared_at": 1762761633,
+          "source_url": "https://news.ycombinator.com/item?id=45873568"
+        }
+      ],
+      "source_item_id": 45873568,
+      "source_url": "https://news.ycombinator.com/item?id=45873568",
+      "author": "robowo",
+      "shared_at": 1762761633,
+      "links": [
+        "https://easymiet.eu/"
+      ]
+    }
+  ]
+}

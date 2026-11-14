@@ -1,0 +1,35 @@
+{
+  "id": 6780,
+  "slug": "bambutop-90dc2029b4",
+  "name": "bambutop",
+  "mentions": [
+    {
+      "name": "bambutop",
+      "description": "A Rust/Ratatui terminal user interface (TUI) for monitoring BambuLab 3D printers. It runs fully locally by catching the MQTT messages the printer broadcasts over the LAN, with no cloud or accounts required. The lightweight tool shows status for both idle printers and running prints and supports multiple printers and AMS units.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rhoopr"
+      ],
+      "source_excerpt": "bambutop -- a Rust/Ratatui TUI built for monitoring your BambuLab 3d printer.\n\nOperates fully locally, catching the MQTT messaging that your printer already sends over the LAN. No cloud, no accounts, direct access to your printer(s)…",
+      "evidence": [
+        {
+          "source_item_id": 46953784,
+          "source_field": "body",
+          "value": "bambutop -- a Rust/Ratatui TUI built for monitoring your BambuLab 3d printer.\n\nOperates fully locally, catching the MQTT messaging that your printer already sends over the LAN. No cloud, no accounts, direct access to your printer(s)…",
+          "supports": [],
+          "author": "rhoopr",
+          "shared_at": 1770684068,
+          "source_url": "https://news.ycombinator.com/item?id=46953784"
+        }
+      ],
+      "source_item_id": 46953784,
+      "source_url": "https://news.ycombinator.com/item?id=46953784",
+      "author": "rhoopr",
+      "shared_at": 1770684068,
+      "links": [
+        "https://github.com/rhoopr/bambutop"
+      ]
+    }
+  ]
+}

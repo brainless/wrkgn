@@ -1,0 +1,35 @@
+{
+  "id": 5873,
+  "slug": "wezmux-a54bd67f03",
+  "name": "wezmux",
+  "mentions": [
+    {
+      "name": "wezmux",
+      "description": "A cmux-like sidebar for a fork of the WezTerm terminal emulator that surfaces Claude Code and Codex notifications and output previews, without adding a web browser to the terminal.",
+      "problem": "The author experienced font and scrolling problems with cmux and didn't want a web browser built into their terminal, so they built the sidebar into WezTerm instead to get Claude Code / Codex notifications and output previews.",
+      "audience": null,
+      "builder_usernames": [
+        "teshier-A"
+      ],
+      "source_excerpt": "I built a cmux-like sidebar for a fork of wezterm, called wezmux https://github.com/vcabeli/wezmux\n\nIf you know, you know. I wanted to like cmux but I had tons of problem with fonts or scrolling behaviors and I don't need a web browser in my terminal, so I went back to wezterm and added the nice sidebar for my claude code / codex notifications and output previews.",
+      "evidence": [
+        {
+          "source_item_id": 47752452,
+          "source_field": "body",
+          "value": "I built a cmux-like sidebar for a fork of wezterm, called wezmux https://github.com/vcabeli/wezmux\n\nIf you know, you know. I wanted to like cmux but I had tons of problem with fonts or scrolling behaviors and I don't need a web browser in my terminal, so I went back to wezterm and added the nice sidebar for my claude code / codex notifications and output previews.",
+          "supports": [],
+          "author": "teshier-A",
+          "shared_at": 1776090284,
+          "source_url": "https://news.ycombinator.com/item?id=47752452"
+        }
+      ],
+      "source_item_id": 47752452,
+      "source_url": "https://news.ycombinator.com/item?id=47752452",
+      "author": "teshier-A",
+      "shared_at": 1776090284,
+      "links": [
+        "https://github.com/vcabeli/wezmux"
+      ]
+    }
+  ]
+}

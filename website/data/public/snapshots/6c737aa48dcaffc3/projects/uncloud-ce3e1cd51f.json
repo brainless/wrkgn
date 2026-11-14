@@ -1,0 +1,35 @@
+{
+  "id": 10822,
+  "slug": "uncloud-ce3e1cd51f",
+  "name": "Uncloud",
+  "mentions": [
+    {
+      "name": "Uncloud",
+      "description": "An open source tool for self-hosting containerised apps across multiple machines, combining cloud VMs and on-premises servers into hybrid compute environments for cost optimisation or data privacy. It focuses on simplicity compared to Kubernetes and now supports deploying full stacks from standard Docker Compose files (volumes, environment variables, resource limits, scaling, logging), managing Docker volumes across a cluster with a constraint-based scheduler that co-locates services sharing volumes, and CLI context management for switching between multiple clusters such as homelab and production.",
+      "problem": "Kubernetes offers power at the cost of complexity; there is a gap between 'just Docker' and full Kubernetes for common deployment workflows on your own infrastructure.",
+      "audience": "For developers and self-hosters seeking something between 'just Docker' and full Kubernetes for deploying applications on their own infrastructure.",
+      "builder_usernames": [
+        "psviderski"
+      ],
+      "source_excerpt": "Working on Uncloud [1] — open source tool for self-hosting containerised apps across multiple machines. You can combine cloud VMs and on-premises to create hybrid compute environments, e.g. for cost optimisation or data privacy.",
+      "evidence": [
+        {
+          "source_item_id": 43818961,
+          "source_field": "body",
+          "value": "Working on Uncloud [1] — open source tool for self-hosting containerised apps across multiple machines. You can combine cloud VMs and on-premises to create hybrid compute environments, e.g. for cost optimisation or data privacy.",
+          "supports": [],
+          "author": "psviderski",
+          "shared_at": 1745829225,
+          "source_url": "https://news.ycombinator.com/item?id=43818961"
+        }
+      ],
+      "source_item_id": 43818961,
+      "source_url": "https://news.ycombinator.com/item?id=43818961",
+      "author": "psviderski",
+      "shared_at": 1745829225,
+      "links": [
+        "https://github.com/psviderski/uncloud"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 4375,
+  "slug": "fmsg-cce9a3842f",
+  "name": "fmsg",
+  "mentions": [
+    {
+      "name": "fmsg",
+      "description": "fmsg is an open protocol for instant messaging distributed by domain like email, using @user@domain addresses where anyone can run a host, with threaded messages linked by cryptographic parent hashes. It combines email's open protocol, domain ownership, and interoperability with rebuilt instant messaging features such as efficient binary messages, conversational threads, sender verification, and message integrity. The OSS stack includes a Go host, a Dockerised full setup, a CLI, a Web API, and a spec nearing v1.0.",
+      "problem": "Email lacks efficient binary messages, conversational threads, sender verification, and message integrity, while closed instant messaging apps lack openness, domain ownership, and interoperability.",
+      "audience": null,
+      "builder_usernames": [
+        "markmnl"
+      ],
+      "source_excerpt": "Working on fmsg - open protocol for instant messaging, distributed by domain like email..",
+      "evidence": [
+        {
+          "source_item_id": 48091339,
+          "source_field": "body",
+          "value": "Working on fmsg - open protocol for instant messaging, distributed by domain like email..",
+          "supports": [],
+          "author": "markmnl",
+          "shared_at": 1778477388,
+          "source_url": "https://news.ycombinator.com/item?id=48091339"
+        }
+      ],
+      "source_item_id": 48091339,
+      "source_url": "https://news.ycombinator.com/item?id=48091339",
+      "author": "markmnl",
+      "shared_at": 1778477388,
+      "links": [
+        "https://markmnl.github.io/fmsg/show-hn.html"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 10997,
+  "slug": "sg-p27-53dac97b4d",
+  "name": "SG-P27",
+  "mentions": [
+    {
+      "name": "SG-P27",
+      "description": "A music control system that uses Wii balance boards as input devices. It orchestrates a set of processes to talk to bluetoothd, automatically connect to the boards, match each board to its /dev/input/event* device, and read those devices, sending the data onward over OSC. A dashboard built with a custom TUI library for Deno is planned to monitor the state of all the pieces.",
+      "problem": "Every step of talking to bluetoothd, auto-connecting boards, matching /dev/input/event* devices, and streaming over OSC has proven about ten times harder than expected, so after months of work the project is still at the process-orchestration stage rather than actually making music.",
+      "audience": null,
+      "builder_usernames": [
+        "TOGoS"
+      ],
+      "source_excerpt": "Some music control using Wii balance boards thing: https://gitlab.com/TOGoS/SG-P27",
+      "evidence": [
+        {
+          "source_item_id": 43822736,
+          "source_field": "body",
+          "value": "Some music control using Wii balance boards thing: https://gitlab.com/TOGoS/SG-P27",
+          "supports": [],
+          "author": "TOGoS",
+          "shared_at": 1745855023,
+          "source_url": "https://news.ycombinator.com/item?id=43822736"
+        }
+      ],
+      "source_item_id": 43822736,
+      "source_url": "https://news.ycombinator.com/item?id=43822736",
+      "author": "TOGoS",
+      "shared_at": 1745855023,
+      "links": [
+        "https://gitlab.com/TOGoS/SG-P27"
+      ]
+    }
+  ]
+}

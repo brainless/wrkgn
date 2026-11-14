@@ -1,0 +1,35 @@
+{
+  "id": 8239,
+  "slug": "canine-033abcf643",
+  "name": "Canine",
+  "mentions": [
+    {
+      "name": "Canine",
+      "description": "An open source, self-hosted platform-as-a-service for Kubernetes that makes Kubernetes friendly and easy to use while staying powerful enough to support a small team. It is 100% FOSS with no paid feature tiers, and is sponsored by Portainer.",
+      "problem": "To avoid Kubernetes complexity, the author's previous startup moved to Heroku and was charged exorbitant amounts—close to $400k in a year for what should have cost $10–15k in cloud costs.",
+      "audience": "Small to midsized teams of developers, with a goal of being easy enough for even a single developer to feel comfortable with.",
+      "builder_usernames": [
+        "czhu12"
+      ],
+      "source_excerpt": "Working on https://canine.sh, an open source, self hosted PaaS for Kubernetes.",
+      "evidence": [
+        {
+          "source_item_id": 46267415,
+          "source_field": "body",
+          "value": "Working on https://canine.sh, an open source, self hosted PaaS for Kubernetes.",
+          "supports": [],
+          "author": "czhu12",
+          "shared_at": 1765749338,
+          "source_url": "https://news.ycombinator.com/item?id=46267415"
+        }
+      ],
+      "source_item_id": 46267415,
+      "source_url": "https://news.ycombinator.com/item?id=46267415",
+      "author": "czhu12",
+      "shared_at": 1765749338,
+      "links": [
+        "https://canine.sh"
+      ]
+    }
+  ]
+}

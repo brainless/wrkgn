@@ -1,0 +1,33 @@
+{
+  "id": 9460,
+  "slug": "rootless-systemd-nspawn-lab-environment-bcf12e6088",
+  "name": "Rootless systemd-nspawn lab environment",
+  "mentions": [
+    {
+      "name": "Rootless systemd-nspawn lab environment",
+      "description": "This setup spawns container images (fetched via skopeo) as rootless systemd-nspawn machines running in userland, with networking managed by a service that uses netkit devices to set up networks in empty network namespaces and Sommelier handling Wayland. The end goal is a laptop with an easy, secure, rootless way to build lab environments.",
+      "problem": "Building lab environments on a laptop that are easy to create, secure, and rootless",
+      "audience": "Local lab environments built on the author's own laptop",
+      "builder_usernames": [
+        "isodude"
+      ],
+      "source_excerpt": "I am trying to build a local setup where I spawn dockers (fetched via skopeo) as systemd-nspawn machines in userland (rootless), with network managed by a service that uses netkit devices to setup network in their empty network namespaces.",
+      "evidence": [
+        {
+          "source_item_id": 45873436,
+          "source_field": "body",
+          "value": "I am trying to build a local setup where I spawn dockers (fetched via skopeo) as systemd-nspawn machines in userland (rootless), with network managed by a service that uses netkit devices to setup network in their empty network namespaces.",
+          "supports": [],
+          "author": "isodude",
+          "shared_at": 1762760390,
+          "source_url": "https://news.ycombinator.com/item?id=45873436"
+        }
+      ],
+      "source_item_id": 45873436,
+      "source_url": "https://news.ycombinator.com/item?id=45873436",
+      "author": "isodude",
+      "shared_at": 1762760390,
+      "links": []
+    }
+  ]
+}

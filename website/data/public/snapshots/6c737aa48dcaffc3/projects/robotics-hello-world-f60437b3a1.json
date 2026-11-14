@@ -1,0 +1,35 @@
+{
+  "id": 3933,
+  "slug": "robotics-hello-world-f60437b3a1",
+  "name": "Robotics Hello World",
+  "mentions": [
+    {
+      "name": "Robotics Hello World",
+      "description": "This project implements the ACT model to train a robot arm on simple pick-and-place tasks, leaning heavily on HuggingFace's LeRobot library while using its own model implementation and training loop.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "avilay"
+      ],
+      "source_excerpt": "Robotics Hello World: Objective is to implement ACT model to train my arm robot on simple pick-and-place tasks. Leaning heavily on HuggingFace's LeRobot library, but stopping short of using their model implementation and training loop.",
+      "evidence": [
+        {
+          "source_item_id": 48533863,
+          "source_field": "body",
+          "value": "Robotics Hello World: Objective is to implement ACT model to train my arm robot on simple pick-and-place tasks. Leaning heavily on HuggingFace's LeRobot library, but stopping short of using their model implementation and training loop.",
+          "supports": [],
+          "author": "avilay",
+          "shared_at": 1781477791,
+          "source_url": "https://news.ycombinator.com/item?id=48533863"
+        }
+      ],
+      "source_item_id": 48533863,
+      "source_url": "https://news.ycombinator.com/item?id=48533863",
+      "author": "avilay",
+      "shared_at": 1781477791,
+      "links": [
+        "https://github.com/avilay/learn-robotics"
+      ]
+    }
+  ]
+}

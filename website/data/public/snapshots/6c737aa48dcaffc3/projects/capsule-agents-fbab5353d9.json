@@ -1,0 +1,92 @@
+{
+  "id": 7633,
+  "slug": "capsule-agents-fbab5353d9",
+  "name": "Capsule Agents",
+  "mentions": [
+    {
+      "name": "Capsule Agents",
+      "description": "An open-source containerized agent framework built on three ideas: agents are more capable with CLI access to create and reuse scripts rather than relying solely on MCP; multi-agent setups are most effective for managing context (agent-to-agent); and agents should be easy for non-engineers to create and valuable beyond software development. The author's own instance sends a Discord message every morning with their marathon training workout and the reasoning behind it.",
+      "problem": "The agent ecosystem over-relies on MCP, overvalues multi-agent setups as 'expert personas' instead of using them for context management, and is largely engineer-only and code-focused.",
+      "audience": "Non-engineers who want to create and use agents beyond software development",
+      "builder_usernames": [
+        "trackspike"
+      ],
+      "source_excerpt": "I'm still working on an open-source containerized agent framework called Capsule Agents. Some solid progress this month, getting an early version of the docs site https://capsuleagents.com live.",
+      "evidence": [
+        {
+          "source_item_id": 46587512,
+          "source_field": "body",
+          "value": "I'm still working on an open-source containerized agent framework called Capsule Agents. Some solid progress this month, getting an early version of the docs site https://capsuleagents.com live.",
+          "supports": [],
+          "author": "trackspike",
+          "shared_at": 1768220815,
+          "source_url": "https://news.ycombinator.com/item?id=46587512"
+        }
+      ],
+      "source_item_id": 46587512,
+      "source_url": "https://news.ycombinator.com/item?id=46587512",
+      "author": "trackspike",
+      "shared_at": 1768220815,
+      "links": [
+        "https://capsuleagents.com",
+        "https://github.com/brycewcole/capsule-agents"
+      ]
+    },
+    {
+      "name": "Capsule Agents",
+      "description": "Open-source containerized agent framework built around three ideas: agents become more capable with CLI access and reusable scripts instead of relying solely on MCP, multi-agent setups are most effective for managing context via agent-to-agent communication, and agents should be easy for non-engineers to create and useful in domains beyond software development. The author's first agent built with it is live in their homelab.",
+      "problem": "Agents relying solely on MCP are less capable, multi-agent setups are often overvalued as expert personas, and agents have been mostly limited to writing code and are hard for non-engineers to create.",
+      "audience": "Non-engineers who want to create agents",
+      "builder_usernames": [
+        "trackspike"
+      ],
+      "source_excerpt": "I've continued to work on an open-source containerized agent framework called Capsule Agents. Lots of progress this month and I have my first one live in my homelab!",
+      "evidence": [
+        {
+          "source_item_id": 46277805,
+          "source_field": "body",
+          "value": "I've continued to work on an open-source containerized agent framework called Capsule Agents. Lots of progress this month and I have my first one live in my homelab!",
+          "supports": [],
+          "author": "trackspike",
+          "shared_at": 1765820842,
+          "source_url": "https://news.ycombinator.com/item?id=46277805"
+        }
+      ],
+      "source_item_id": 46277805,
+      "source_url": "https://news.ycombinator.com/item?id=46277805",
+      "author": "trackspike",
+      "shared_at": 1765820842,
+      "links": [
+        "https://github.com/brycewcole/capsule-agents"
+      ]
+    },
+    {
+      "name": "Capsule Agents",
+      "description": "Open-source containerized agent framework built around three ideas: agents become more capable with CLI access so they can create or reuse scripts rather than relying solely on MCP; multi-agent setups are most effective for managing context via agent-to-agent (A2A) communication rather than as expert personas; and agents should be easy for non-engineers to create and deliver value in many domains beyond software development.",
+      "problem": "Agents are limited when they rely solely on MCP, multi-agent setups are often overvalued as expert personas instead of being used for context management, and agents are hard for non-engineers to create.",
+      "audience": null,
+      "builder_usernames": [
+        "trackspike"
+      ],
+      "source_excerpt": "I've been working on an open-source containerized agent framework called Capsule Agents.",
+      "evidence": [
+        {
+          "source_item_id": 45875608,
+          "source_field": "body",
+          "value": "I've been working on an open-source containerized agent framework called Capsule Agents.",
+          "supports": [],
+          "author": "trackspike",
+          "shared_at": 1762780247,
+          "source_url": "https://news.ycombinator.com/item?id=45875608"
+        }
+      ],
+      "source_item_id": 45875608,
+      "source_url": "https://news.ycombinator.com/item?id=45875608",
+      "author": "trackspike",
+      "shared_at": 1762780247,
+      "links": [
+        "https://github.com/brycewcole/capsule-agents"
+      ]
+    }
+  ]
+}

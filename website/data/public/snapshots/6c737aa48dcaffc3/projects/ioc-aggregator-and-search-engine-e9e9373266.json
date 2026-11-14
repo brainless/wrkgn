@@ -1,0 +1,33 @@
+{
+  "id": 11252,
+  "slug": "ioc-aggregator-and-search-engine-e9e9373266",
+  "name": "IOC aggregator and search engine",
+  "mentions": [
+    {
+      "name": "IOC aggregator and search engine",
+      "description": "This project collects IPs and other indicators of compromise (IOCs) from the operator's own servers and honeypots and aggregates them with well-known IPs and IOCs, with the goal of building a search engine over the resulting threat intelligence data. It is also a vehicle for learning Golang in a larger context.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "lormayna"
+      ],
+      "source_excerpt": "I am collecting IPs and other IOCs from some servers and honeypots that I have around and aggregating them with well known IPs and IOCs. I would like to create a sort of search engine for that.",
+      "evidence": [
+        {
+          "source_item_id": 43818741,
+          "source_field": "body",
+          "value": "I am collecting IPs and other IOCs from some servers and honeypots that I have around and aggregating them with well known IPs and IOCs. I would like to create a sort of search engine for that.",
+          "supports": [],
+          "author": "lormayna",
+          "shared_at": 1745826882,
+          "source_url": "https://news.ycombinator.com/item?id=43818741"
+        }
+      ],
+      "source_item_id": 43818741,
+      "source_url": "https://news.ycombinator.com/item?id=43818741",
+      "author": "lormayna",
+      "shared_at": 1745826882,
+      "links": []
+    }
+  ]
+}

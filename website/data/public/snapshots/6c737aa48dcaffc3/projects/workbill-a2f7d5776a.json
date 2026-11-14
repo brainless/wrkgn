@@ -1,0 +1,35 @@
+{
+  "id": 9377,
+  "slug": "workbill-a2f7d5776a",
+  "name": "WorkBill",
+  "mentions": [
+    {
+      "name": "WorkBill",
+      "description": "This app is a modern QuickBooks alternative built on beancount that exposes the double-entry ledger model directly, enabling customers to model complex transactions even when there is no direct support for them. It has been in development for a month and is built with Elixir, Phoenix, InertiaJS, and React. A demo is available at https://demo.workbill.co.",
+      "problem": "Traditional accounting platforms do not expose the ledger model, making it hard to model complex transactions when direct support is lacking.",
+      "audience": null,
+      "builder_usernames": [
+        "aswinmohanme"
+      ],
+      "source_excerpt": "A modern QuickBooks, based on beancount, WorkBill (https://workbill.co). You can play with it at https://demo.workbill.co.\n\nUnlike traditional accounting platforms we expose the ledger model directly which enables our customers to model complex transactions even when we do not have direct support for it.",
+      "evidence": [
+        {
+          "source_item_id": 45869377,
+          "source_field": "body",
+          "value": "A modern QuickBooks, based on beancount, WorkBill (https://workbill.co). You can play with it at https://demo.workbill.co.\n\nUnlike traditional accounting platforms we expose the ledger model directly which enables our customers to model complex transactions even when we do not have direct support for it.",
+          "supports": [],
+          "author": "aswinmohanme",
+          "shared_at": 1762723841,
+          "source_url": "https://news.ycombinator.com/item?id=45869377"
+        }
+      ],
+      "source_item_id": 45869377,
+      "source_url": "https://news.ycombinator.com/item?id=45869377",
+      "author": "aswinmohanme",
+      "shared_at": 1762723841,
+      "links": [
+        "https://workbill.co"
+      ]
+    }
+  ]
+}

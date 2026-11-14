@@ -1,0 +1,35 @@
+{
+  "id": 8040,
+  "slug": "simplevc-3fa11523fd",
+  "name": "simplevc",
+  "mentions": [
+    {
+      "name": "simplevc",
+      "description": "A private, simple browser-based video chat with no accounts required: users can create a new chat or join via link or code. It includes in-browser transcription powered by Whisper (built on Hugging Face's candle library), and work is ongoing on smooth background blur for Chrome on Android.",
+      "problem": "Choosing which video call platform to use for intro meetings was annoying.",
+      "audience": null,
+      "builder_usernames": [
+        "properbrew"
+      ],
+      "source_excerpt": "https://simplevc.blazingbanana.com. It’s a private, simple browser video chat. No accounts. You can create a new chat or join via link/code. It also has in browser transcription using Whisper (using https://github.com/huggingface/candle/).",
+      "evidence": [
+        {
+          "source_item_id": 46483175,
+          "source_field": "body",
+          "value": "https://simplevc.blazingbanana.com. It’s a private, simple browser video chat. No accounts. You can create a new chat or join via link/code. It also has in browser transcription using Whisper (using https://github.com/huggingface/candle/).",
+          "supports": [],
+          "author": "properbrew",
+          "shared_at": 1767484714,
+          "source_url": "https://news.ycombinator.com/item?id=46483175"
+        }
+      ],
+      "source_item_id": 46483175,
+      "source_url": "https://news.ycombinator.com/item?id=46483175",
+      "author": "properbrew",
+      "shared_at": 1767484714,
+      "links": [
+        "https://simplevc.blazingbanana.com"
+      ]
+    }
+  ]
+}

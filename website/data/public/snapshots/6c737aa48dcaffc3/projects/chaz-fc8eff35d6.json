@@ -1,0 +1,35 @@
+{
+  "id": 3600,
+  "slug": "chaz-fc8eff35d6",
+  "name": "chaz",
+  "mentions": [
+    {
+      "name": "chaz",
+      "description": "AI agent framework built natively on the Eidetica database for decentralized agent sessions, mapping the AI tool onto Eidetica's storage model; building it also uncovers issues in Eidetica that need fixing.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Arcuru"
+      ],
+      "source_excerpt": "I've primarily been testing it by building out my AI tool chaz into an Eidetica-native AI Agent framework for decentralized Agent sessions. It's working surprisingly well, it maps pretty well onto the storage model and it's uncovering issues with Eidetica I need to fix",
+      "evidence": [
+        {
+          "source_item_id": 48531075,
+          "source_field": "body",
+          "value": "I've primarily been testing it by building out my AI tool chaz into an Eidetica-native AI Agent framework for decentralized Agent sessions. It's working surprisingly well, it maps pretty well onto the storage model and it's uncovering issues with Eidetica I need to fix",
+          "supports": [],
+          "author": "Arcuru",
+          "shared_at": 1781462844,
+          "source_url": "https://news.ycombinator.com/item?id=48531075"
+        }
+      ],
+      "source_item_id": 48531075,
+      "source_url": "https://news.ycombinator.com/item?id=48531075",
+      "author": "Arcuru",
+      "shared_at": 1781462844,
+      "links": [
+        "https://github.com/arcuru/chaz"
+      ]
+    }
+  ]
+}

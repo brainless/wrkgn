@@ -1,0 +1,33 @@
+{
+  "id": 10378,
+  "slug": "tlv-message-protocol-f827c18d28",
+  "name": "TLV message protocol",
+  "mentions": [
+    {
+      "name": "TLV message protocol",
+      "description": "This project implements a TLV message protocol, a binary data serialization format inspired by MsgPack, CBOR, and Ion 1.1, aiming to be 'JSON without the bloat, Protobufs without the ceremony'. It emphasizes a tight set of core primitives, low-cost extensions, storage of reused values/schemas, and optional pre-negotiation, with attention to encoding/decoding performance.",
+      "problem": "Existing formats like JSON carry bloat and Protobufs involve ceremony; the protocol aims to remove those costs.",
+      "audience": "For the author's own use in other personal projects",
+      "builder_usernames": [
+        "seangrogg"
+      ],
+      "source_excerpt": "I am currently in the process of implementing a TLV message protocol (think MsgPack, CBOR, etc).\n\nThis is something I've been kicking tires on since my time at $BIGCORP; JSON without the bloat, Protobufs without the ceremony.",
+      "evidence": [
+        {
+          "source_item_id": 44704821,
+          "source_field": "body",
+          "value": "I am currently in the process of implementing a TLV message protocol (think MsgPack, CBOR, etc).\n\nThis is something I've been kicking tires on since my time at $BIGCORP; JSON without the bloat, Protobufs without the ceremony.",
+          "supports": [],
+          "author": "seangrogg",
+          "shared_at": 1753651453,
+          "source_url": "https://news.ycombinator.com/item?id=44704821"
+        }
+      ],
+      "source_item_id": 44704821,
+      "source_url": "https://news.ycombinator.com/item?id=44704821",
+      "author": "seangrogg",
+      "shared_at": 1753651453,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 5073,
+  "slug": "maelstrom-24670315af",
+  "name": "Maelstrom",
+  "mentions": [
+    {
+      "name": "Maelstrom",
+      "description": "This is a minimal agent framework built on a few core primitives: sessions as immutable agent history, agents as cognitive state ('what to think about'), workflows as task definitions ('what to do'), and timers that kick off agents on a schedule with or without a workflow. It includes context maps (a partitioning scheme for what goes into inference context), agent and workflow runtimes with history, and builds memory, tool usage via inference-return hooks, agent operating environments, and governance/provenance/security on top of these primitives. Workflows enable scheduled tasks, UIs, connectors to comms interfaces, and tasks requiring specific outputs. The codebase is around 20k lines; the core is functional and nearly ready for the author to use as a daily replacement for opencode.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "all2"
+      ],
+      "source_excerpt": "I'm working on Maelstrom, an agent framework with only the basics:\n\n- 'agent' as cognitive state, ie, what to think about\n\n- 'workflow' as 'what to think about\n\n- 'session' as immutable agent history\n\n- 'timers' as a way to kick off an agent on a schedule (with or without a workflow attached",
+      "evidence": [
+        {
+          "source_item_id": 48095082,
+          "source_field": "body",
+          "value": "I'm working on Maelstrom, an agent framework with only the basics:\n\n- 'agent' as cognitive state, ie, what to think about\n\n- 'workflow' as 'what to think about\n\n- 'session' as immutable agent history\n\n- 'timers' as a way to kick off an agent on a schedule (with or without a workflow attached",
+          "supports": [],
+          "author": "all2",
+          "shared_at": 1778507800,
+          "source_url": "https://news.ycombinator.com/item?id=48095082"
+        }
+      ],
+      "source_item_id": 48095082,
+      "source_url": "https://news.ycombinator.com/item?id=48095082",
+      "author": "all2",
+      "shared_at": 1778507800,
+      "links": []
+    }
+  ]
+}

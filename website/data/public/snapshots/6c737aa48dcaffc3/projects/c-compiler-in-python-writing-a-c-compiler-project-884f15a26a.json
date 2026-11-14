@@ -1,0 +1,35 @@
+{
+  "id": 4662,
+  "slug": "c-compiler-in-python-writing-a-c-compiler-project-884f15a26a",
+  "name": "C compiler in Python (Writing a C Compiler project)",
+  "mentions": [
+    {
+      "name": "C compiler in Python (Writing a C Compiler project)",
+      "description": "A C compiler implemented in Python, built by working through Nora Sandler's Writing a C Compiler book. It handles operations on differently sized types and uses pseudoregisters to defer register allocation, with optimization chapters (framed as interesting algorithm problems) as the next focus.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "piinbinary"
+      ],
+      "source_excerpt": "I've been going through Nora Sandler's Writing a C Compiler book and writing a compiler in Python. I'm excited to start the chapters on optimization - those seem like the most fun algorithm problems.",
+      "evidence": [
+        {
+          "source_item_id": 48087550,
+          "source_field": "body",
+          "value": "I've been going through Nora Sandler's Writing a C Compiler book and writing a compiler in Python. I'm excited to start the chapters on optimization - those seem like the most fun algorithm problems.",
+          "supports": [],
+          "author": "piinbinary",
+          "shared_at": 1778444595,
+          "source_url": "https://news.ycombinator.com/item?id=48087550"
+        }
+      ],
+      "source_item_id": 48087550,
+      "source_url": "https://news.ycombinator.com/item?id=48087550",
+      "author": "piinbinary",
+      "shared_at": 1778444595,
+      "links": [
+        "https://github.com/jmikkola/writing-a-c-compiler-python"
+      ]
+    }
+  ]
+}

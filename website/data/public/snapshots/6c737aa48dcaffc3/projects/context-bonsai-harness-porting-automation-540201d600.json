@@ -1,0 +1,35 @@
+{
+  "id": 4477,
+  "slug": "context-bonsai-harness-porting-automation-540201d600",
+  "name": "Context Bonsai harness porting automation",
+  "mentions": [
+    {
+      "name": "Context Bonsai harness porting automation",
+      "description": "This automation ports the Context Bonsai tools from the OpenCode reference implementation to other LLM harnesses such as Claude Code, Cline, Pi, Gemini, Kilo, and Codex, and keeps the ports current by cherry-picking or re-implementing commits onto the latest head from upstream.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "planckscnst"
+      ],
+      "source_excerpt": "In addition to these tools, I'm also building automation that will port the tools from the reference implementation (OpenCode) to other harnesses (Claude Code, Cline, Pi, Gemini, Kilo, Codex, others to come?). As well as automation that will either cherry-pick or re-implement commits onto the latest head from upstream.",
+      "evidence": [
+        {
+          "source_item_id": 48092255,
+          "source_field": "body",
+          "value": "In addition to these tools, I'm also building automation that will port the tools from the reference implementation (OpenCode) to other harnesses (Claude Code, Cline, Pi, Gemini, Kilo, Codex, others to come?). As well as automation that will either cherry-pick or re-implement commits onto the latest head from upstream.",
+          "supports": [],
+          "author": "planckscnst",
+          "shared_at": 1778486291,
+          "source_url": "https://news.ycombinator.com/item?id=48092255"
+        }
+      ],
+      "source_item_id": 48092255,
+      "source_url": "https://news.ycombinator.com/item?id=48092255",
+      "author": "planckscnst",
+      "shared_at": 1778486291,
+      "links": [
+        "https://github.com/Vibecodelicious/context-bonsai-agents#context-bonsai"
+      ]
+    }
+  ]
+}

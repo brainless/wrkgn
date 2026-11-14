@@ -1,0 +1,63 @@
+{
+  "id": 9125,
+  "slug": "ifritproxy-309867a2d3",
+  "name": "IfritProxy",
+  "mentions": [
+    {
+      "name": "IfritProxy",
+      "description": "AI-powered threat deception proxy and dynamic honeypot. It detects attackers attempting to hack an app and serves fake, AI-generated decoy responses that make them believe they are making progress. The system learns from attacker behavior and serves increasingly effective AI-generated decoys to waste attackers' time and frustrate their efforts, getting smarter the more attackers probe it. MVP available on GitHub.",
+      "problem": "Attackers probing and attempting to hack an app.",
+      "audience": null,
+      "builder_usernames": [
+        "veryrandomguy"
+      ],
+      "source_excerpt": "Building an ai powered threats deception proxy. A dynamic honeypot system that uses AI to mess with attackers.",
+      "evidence": [
+        {
+          "source_item_id": 45869890,
+          "source_field": "body",
+          "value": "Building an ai powered threats deception proxy. A dynamic honeypot system that uses AI to mess with attackers.",
+          "supports": [],
+          "author": "veryrandomguy",
+          "shared_at": 1762727718,
+          "source_url": "https://news.ycombinator.com/item?id=45869890"
+        }
+      ],
+      "source_item_id": 45869890,
+      "source_url": "https://news.ycombinator.com/item?id=45869890",
+      "author": "veryrandomguy",
+      "shared_at": 1762727718,
+      "links": [
+        "https://github.com/0tSystemsPublicRepos/IfritProxy"
+      ]
+    },
+    {
+      "name": "IfritProxy",
+      "description": "An AI-powered threat deception proxy that acts as a honeypot for applications. It detects attackers attempting to hack an app and serves fake responses tailored to the attack type. The system learns from attacker behavior and generates convincing decoys to waste their time and frustrate their efforts, becoming more effective as more attackers probe it.",
+      "problem": "Attackers attempting to hack apps; the tool counters them by wasting their time with deceptive fake responses instead of real data.",
+      "audience": null,
+      "builder_usernames": [
+        "veryrandomguy"
+      ],
+      "source_excerpt": "It's a honeypot system that uses AI to mess with attackers. When someone tries to hack your app, it detects them and serves up fake responses based on attack type.\n\nThe system learns from attackers behavior and creates convincing decoys to waste their time and frustrate their efforts.",
+      "evidence": [
+        {
+          "source_item_id": 45869870,
+          "source_field": "body",
+          "value": "It's a honeypot system that uses AI to mess with attackers. When someone tries to hack your app, it detects them and serves up fake responses based on attack type.\n\nThe system learns from attackers behavior and creates convincing decoys to waste their time and frustrate their efforts.",
+          "supports": [],
+          "author": "veryrandomguy",
+          "shared_at": 1762727552,
+          "source_url": "https://news.ycombinator.com/item?id=45869870"
+        }
+      ],
+      "source_item_id": 45869870,
+      "source_url": "https://news.ycombinator.com/item?id=45869870",
+      "author": "veryrandomguy",
+      "shared_at": 1762727552,
+      "links": [
+        "https://github.com/0tSystemsPublicRepos/IfritProxy"
+      ]
+    }
+  ]
+}

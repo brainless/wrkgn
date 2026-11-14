@@ -1,0 +1,33 @@
+{
+  "id": 9869,
+  "slug": "personal-audiobook-service-1bc3d67afc",
+  "name": "Personal audiobook service",
+  "mentions": [
+    {
+      "name": "Personal audiobook service",
+      "description": "This audiobook service fills in missing features on platforms like Audible: it ignores AI-voiced books, shows unread books in series already in the user's library, experiments with better search based on books, authors, and narrators the user has purchased, read, or listened to, and sends automatic notifications when new books from subscribed authors and narrators become available. It is currently built for the author's own use.",
+      "problem": "Platforms like Audible lack key audiobook features: no way to filter out AI-voiced books, no series-based unread tracking, extremely sub-par search, and no notifications for new releases from authors and narrators the user follows.",
+      "audience": "The author themselves; currently a personal-use service",
+      "builder_usernames": [
+        "geuis"
+      ],
+      "source_excerpt": "I'm working on an audiobook service (currently for myself) that will fill in major missing features for platforms like Audible.",
+      "evidence": [
+        {
+          "source_item_id": 45420590,
+          "source_field": "body",
+          "value": "I'm working on an audiobook service (currently for myself) that will fill in major missing features for platforms like Audible.",
+          "supports": [],
+          "author": "geuis",
+          "shared_at": 1759192177,
+          "source_url": "https://news.ycombinator.com/item?id=45420590"
+        }
+      ],
+      "source_item_id": 45420590,
+      "source_url": "https://news.ycombinator.com/item?id=45420590",
+      "author": "geuis",
+      "shared_at": 1759192177,
+      "links": []
+    }
+  ]
+}

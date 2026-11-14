@@ -1,0 +1,91 @@
+{
+  "id": 2683,
+  "slug": "mybulkcards-6bb71b4f31",
+  "name": "MyBulkCards",
+  "mentions": [
+    {
+      "name": "MyBulkCards",
+      "description": "A phone app and website for scanning, organizing, and searching Pokémon card collections, especially thousands of bulk cards. Users organize cards into boxes, search their own and friends' inventories, and track trades to make deck building easier. It includes computer vision models trained to detect and identify Pokémon cards that run entirely on the phone. The Android app is built with React Native and in public testing, with an iPhone version planned.",
+      "problem": "With thousands of bulk cards in storage, it is hard to know exactly what you own and where it is stored, making deck building and finding cards a matter of digging through boxes of cards.",
+      "audience": "Pokémon card players and collectors; the Android app is in public testing with people from the author's local Pokémon league",
+      "builder_usernames": [
+        "jtap"
+      ],
+      "source_excerpt": "I’ve been continuing work on https://mybulkcards.com, a phone app and website for scanning, organizing, and searching Pokémon card collections, especially the thousands of bulk cards that my daughter and I have in our closet from playing.",
+      "evidence": [
+        {
+          "source_item_id": 48888085,
+          "source_field": "body",
+          "value": "I’ve been continuing work on https://mybulkcards.com, a phone app and website for scanning, organizing, and searching Pokémon card collections, especially the thousands of bulk cards that my daughter and I have in our closet from playing.",
+          "supports": [],
+          "author": "jtap",
+          "shared_at": 1783918511,
+          "source_url": "https://news.ycombinator.com/item?id=48888085"
+        }
+      ],
+      "source_item_id": 48888085,
+      "source_url": "https://news.ycombinator.com/item?id=48888085",
+      "author": "jtap",
+      "shared_at": 1783918511,
+      "links": [
+        "https://mybulkcards.com"
+      ]
+    },
+    {
+      "name": "MyBulkCards",
+      "description": "A phone app and website for scanning Pokemon bulk cards and tagging/organizing where they are stored. Features include finding friends, searching through friends' cards, and trading. Uses a couple of trained models running on the phone to identify cards, with the Android app in public testing and an iPhone version planned.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jtap"
+      ],
+      "source_excerpt": "I’ve continued to work on a phone app + website (https://MyBulkCards.com) to scan Pokemon bulk cards and tag/organize where they are stored.",
+      "evidence": [
+        {
+          "source_item_id": 48542761,
+          "source_field": "body",
+          "value": "I’ve continued to work on a phone app + website (https://MyBulkCards.com) to scan Pokemon bulk cards and tag/organize where they are stored.",
+          "supports": [],
+          "author": "jtap",
+          "shared_at": 1781537439,
+          "source_url": "https://news.ycombinator.com/item?id=48542761"
+        }
+      ],
+      "source_item_id": 48542761,
+      "source_url": "https://news.ycombinator.com/item?id=48542761",
+      "author": "jtap",
+      "shared_at": 1781537439,
+      "links": [
+        "https://MyBulkCards.com"
+      ]
+    },
+    {
+      "name": "MyBulkCards",
+      "description": "A phone app and website that scans trading card game cards and organizes where every card is stored. Cards can be filed into labeled boxes (e.g. \"Box 1 AAA, Box 1 BBB\") and found quickly, and a friends feature shows what cards others in the local group own so members can borrow from each other. Two on-device machine learning models (each under 20MB) locate a card in the camera frame and identify it in real time as it slides into view, without relying on OCR. Built in React Native, released on Android first with an iPhone version planned, and an MTG card identification model is next, reusing the same approach.",
+      "problem": "The family accumulated so many bulk Pokémon TCG cards that searching through them took far too long and, beyond a few binder pulls, they had no idea what they actually owned.",
+      "audience": null,
+      "builder_usernames": [
+        "jtap"
+      ],
+      "source_excerpt": "I’ve been building a phone app + website (https://MyBulkCards.com) to scan cards and organize where everything is.",
+      "evidence": [
+        {
+          "source_item_id": 47746752,
+          "source_field": "body",
+          "value": "I’ve been building a phone app + website (https://MyBulkCards.com) to scan cards and organize where everything is.",
+          "supports": [],
+          "author": "jtap",
+          "shared_at": 1776046338,
+          "source_url": "https://news.ycombinator.com/item?id=47746752"
+        }
+      ],
+      "source_item_id": 47746752,
+      "source_url": "https://news.ycombinator.com/item?id=47746752",
+      "author": "jtap",
+      "shared_at": 1776046338,
+      "links": [
+        "https://MyBulkCards.com"
+      ]
+    }
+  ]
+}

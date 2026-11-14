@@ -1,0 +1,33 @@
+{
+  "id": 10894,
+  "slug": "self-hosted-email-archive-with-full-text-search-e95bb6d6a5",
+  "name": "Self-hosted email archive with full-text search",
+  "mentions": [
+    {
+      "name": "Self-hosted email archive with full-text search",
+      "description": "A self-hosted web app for archiving personal email. It ingests .eml files, stores the text in Postgres for full-text search (tsvector/tsquery), and can retrieve an email's entire thread using recursive queries.",
+      "problem": "None of the existing email archive options the author tried were very good, lacking features like full-thread retrieval.",
+      "audience": null,
+      "builder_usernames": [
+        "thedanbob"
+      ],
+      "source_excerpt": "I just finished a small personal project: a self-hosted web app which stores and indexes my archived emails. None of the existing options I tried were very good so I made my own. A simple Rails app that ingests .eml files and stores the text in postgres for full-text search.",
+      "evidence": [
+        {
+          "source_item_id": 43826466,
+          "source_field": "body",
+          "value": "I just finished a small personal project: a self-hosted web app which stores and indexes my archived emails. None of the existing options I tried were very good so I made my own. A simple Rails app that ingests .eml files and stores the text in postgres for full-text search.",
+          "supports": [],
+          "author": "thedanbob",
+          "shared_at": 1745876664,
+          "source_url": "https://news.ycombinator.com/item?id=43826466"
+        }
+      ],
+      "source_item_id": 43826466,
+      "source_url": "https://news.ycombinator.com/item?id=43826466",
+      "author": "thedanbob",
+      "shared_at": 1745876664,
+      "links": []
+    }
+  ]
+}

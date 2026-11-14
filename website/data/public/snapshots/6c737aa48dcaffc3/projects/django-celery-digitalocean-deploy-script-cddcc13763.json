@@ -1,0 +1,33 @@
+{
+  "id": 8574,
+  "slug": "django-celery-digitalocean-deploy-script-cddcc13763",
+  "name": "Django+Celery DigitalOcean deploy script",
+  "mentions": [
+    {
+      "name": "Django+Celery DigitalOcean deploy script",
+      "description": "A script that deploys Django+Celery projects to a DigitalOcean droplet. After configuring a few variables such as the server IP, it produces a complete deployment for a side project and can be re-run to deploy new versions.",
+      "problem": "Deploying Django+Celery projects to DigitalOcean previously felt daunting to the author.",
+      "audience": null,
+      "builder_usernames": [
+        "101008"
+      ],
+      "source_excerpt": "I did (with the help of GPT) a simple script to deploy my Django+Celery projects to DigitalOcean. I was a bit afraid of that in the past, but now it's just a script that, after configuring a few variables (IP, etc), runs smoothly and gives me a perfectly deploy for a side project on a DO droplet. And also I can run again to just deploy a new version.",
+      "evidence": [
+        {
+          "source_item_id": 46273262,
+          "source_field": "body",
+          "value": "I did (with the help of GPT) a simple script to deploy my Django+Celery projects to DigitalOcean. I was a bit afraid of that in the past, but now it's just a script that, after configuring a few variables (IP, etc), runs smoothly and gives me a perfectly deploy for a side project on a DO droplet. And also I can run again to just deploy a new version.",
+          "supports": [],
+          "author": "101008",
+          "shared_at": 1765799332,
+          "source_url": "https://news.ycombinator.com/item?id=46273262"
+        }
+      ],
+      "source_item_id": 46273262,
+      "source_url": "https://news.ycombinator.com/item?id=46273262",
+      "author": "101008",
+      "shared_at": 1765799332,
+      "links": []
+    }
+  ]
+}

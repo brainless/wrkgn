@@ -1,0 +1,35 @@
+{
+  "id": 8131,
+  "slug": "pyreqwest-07756ecd03",
+  "name": "pyreqwest",
+  "mentions": [
+    {
+      "name": "pyreqwest",
+      "description": "A high-performance Python HTTP client backed by Rust's reqwest. It offers async and sync APIs, an ergonomic interface similar to reqwest, full type hints, and built-in testing/mocking, with no unsafe code and no Python-side dependencies.",
+      "problem": "Started out of frustration with the many issues in the existing Python HTTP client httpx.",
+      "audience": null,
+      "builder_usernames": [
+        "mmmaantu"
+      ],
+      "source_excerpt": "Building pyreqwest, a high-performance Python HTTP client backed by Rust’s reqwest. It has gotten quite feature rich: async and sync APIs, similar ergonomic interface of reqwest, full type hints, and built-in testing/mocking. It has no unsafe code, and no Python-side dependencies.",
+      "evidence": [
+        {
+          "source_item_id": 46266343,
+          "source_field": "body",
+          "value": "Building pyreqwest, a high-performance Python HTTP client backed by Rust’s reqwest. It has gotten quite feature rich: async and sync APIs, similar ergonomic interface of reqwest, full type hints, and built-in testing/mocking. It has no unsafe code, and no Python-side dependencies.",
+          "supports": [],
+          "author": "mmmaantu",
+          "shared_at": 1765742906,
+          "source_url": "https://news.ycombinator.com/item?id=46266343"
+        }
+      ],
+      "source_item_id": 46266343,
+      "source_url": "https://news.ycombinator.com/item?id=46266343",
+      "author": "mmmaantu",
+      "shared_at": 1765742906,
+      "links": [
+        "https://github.com/MarkusSintonen/pyreqwest"
+      ]
+    }
+  ]
+}

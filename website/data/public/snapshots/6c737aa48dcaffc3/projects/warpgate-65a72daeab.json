@@ -1,0 +1,35 @@
+{
+  "id": 5259,
+  "slug": "warpgate-65a72daeab",
+  "name": "WarpGate",
+  "mentions": [
+    {
+      "name": "WarpGate",
+      "description": "A gateway for MCP servers that centralizes authentication, auditing, and tool control, can auto-generate MCPs from OpenAPI specs, and supports accessing private MCP servers.",
+      "problem": "Streamlining the pain points experienced with working with MCP, such as fragmented authentication, auditing, and tool control.",
+      "audience": null,
+      "builder_usernames": [
+        "arondeparon"
+      ],
+      "source_excerpt": "https://usewarpgate.com: a MCP for MCPs, basically. Aiming to streamline all the pain points that I experienced with MCP in there. Centralised authentication, auditing, tool control, automatic MCPs through OpenAPI specs, accessing private servers, etc.",
+      "evidence": [
+        {
+          "source_item_id": 47753822,
+          "source_field": "body",
+          "value": "https://usewarpgate.com: a MCP for MCPs, basically. Aiming to streamline all the pain points that I experienced with MCP in there. Centralised authentication, auditing, tool control, automatic MCPs through OpenAPI specs, accessing private servers, etc.",
+          "supports": [],
+          "author": "arondeparon",
+          "shared_at": 1776095469,
+          "source_url": "https://news.ycombinator.com/item?id=47753822"
+        }
+      ],
+      "source_item_id": 47753822,
+      "source_url": "https://news.ycombinator.com/item?id=47753822",
+      "author": "arondeparon",
+      "shared_at": 1776095469,
+      "links": [
+        "https://usewarpgate.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 9128,
+  "slug": "shaarli-to-github-bookmarks-sync-cli-43ebc94a1d",
+  "name": "Shaarli-to-GitHub bookmarks sync CLI",
+  "mentions": [
+    {
+      "name": "Shaarli-to-GitHub bookmarks sync CLI",
+      "description": "A CLI tool that syncs bookmarks saved in Shaarli to the author's public GitHub bookmarks repository, automating the manual upkeep of that popular (500+ star) repo.",
+      "problem": "The author lost interest in manually maintaining his awesome-list bookmarks repo after moving his bookmarks to Shaarli",
+      "audience": "The author, maintaining his own bookmark collection",
+      "builder_usernames": [
+        "SansGuidon"
+      ],
+      "source_excerpt": "I'm coding a CLI tool to automate the work of syncing my shaarli links to my public \"popular\" (+500 stars) repo at https://github.com/SansGuidon/bookmarks",
+      "evidence": [
+        {
+          "source_item_id": 45899530,
+          "source_field": "body",
+          "value": "I'm coding a CLI tool to automate the work of syncing my shaarli links to my public \"popular\" (+500 stars) repo at https://github.com/SansGuidon/bookmarks",
+          "supports": [],
+          "author": "SansGuidon",
+          "shared_at": 1762951934,
+          "source_url": "https://news.ycombinator.com/item?id=45899530"
+        }
+      ],
+      "source_item_id": 45899530,
+      "source_url": "https://news.ycombinator.com/item?id=45899530",
+      "author": "SansGuidon",
+      "shared_at": 1762951934,
+      "links": [
+        "https://github.com/SansGuidon/bookmarks"
+      ]
+    }
+  ]
+}

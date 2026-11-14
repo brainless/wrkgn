@@ -1,0 +1,36 @@
+{
+  "id": 8178,
+  "slug": "ironcalc-01e8358387",
+  "name": "IronCalc",
+  "mentions": [
+    {
+      "name": "IronCalc",
+      "description": "A spreadsheet engine that is adding internationalization and localization support, aiming to handle locale and language differences correctly where Excel's handling is a nightmare. An open pull request implements the changes and a public testing instance lets people try them.",
+      "problem": "Internationalization and localization in spreadsheets is a rabbit hole and a nightmare in Excel, so getting it right is a big opportunity.",
+      "audience": null,
+      "builder_usernames": [
+        "nhatcher"
+      ],
+      "source_excerpt": "I'm in crunch mode doing the internationalization and localization of my spreadsheet engine. This is a rabbit hole and a nightmare in Excel, so a big opportunity for us to get this right.",
+      "evidence": [
+        {
+          "source_item_id": 46266304,
+          "source_field": "body",
+          "value": "I'm in crunch mode doing the internationalization and localization of my spreadsheet engine. This is a rabbit hole and a nightmare in Excel, so a big opportunity for us to get this right.",
+          "supports": [],
+          "author": "nhatcher",
+          "shared_at": 1765742626,
+          "source_url": "https://news.ycombinator.com/item?id=46266304"
+        }
+      ],
+      "source_item_id": 46266304,
+      "source_url": "https://news.ycombinator.com/item?id=46266304",
+      "author": "nhatcher",
+      "shared_at": 1765742626,
+      "links": [
+        "https://github.com/ironcalc/IronCalc/pull/616",
+        "https://testing.ironcalc.com"
+      ]
+    }
+  ]
+}

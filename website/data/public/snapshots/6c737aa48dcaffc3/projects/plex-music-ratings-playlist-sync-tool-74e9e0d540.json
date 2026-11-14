@@ -1,0 +1,33 @@
+{
+  "id": 8367,
+  "slug": "plex-music-ratings-playlist-sync-tool-74e9e0d540",
+  "name": "Plex Music Ratings & Playlist Sync Tool",
+  "mentions": [
+    {
+      "name": "Plex Music Ratings & Playlist Sync Tool",
+      "description": "This application communicates with a Plex server and external APIs like MusicBrainz and Spotify to track the user's Plex music rating history and export Plex playlists to Spotify for easier sharing with others. It also builds tooling to make it easy to take playlists and track ratings off Plex if the user ever decides to leave Plex for music listening.",
+      "problem": "There don't seem to be many automated tools that fit this need, so building a custom solution gives complete control instead of configuring unfamiliar tools that don't meet the needs exactly.",
+      "audience": "The author's own personal use for managing their Plex music library.",
+      "builder_usernames": [
+        "retrodaredevil"
+      ],
+      "source_excerpt": "I'm building an application that can communicate with my Plex server, and also communicate with APIs like MusicBrainz and Spotify. From there I want to be able to track my Plex music rating history, and export playlists on Plex to Spotify for easier sharing with others.",
+      "evidence": [
+        {
+          "source_item_id": 46266697,
+          "source_field": "body",
+          "value": "I'm building an application that can communicate with my Plex server, and also communicate with APIs like MusicBrainz and Spotify. From there I want to be able to track my Plex music rating history, and export playlists on Plex to Spotify for easier sharing with others.",
+          "supports": [],
+          "author": "retrodaredevil",
+          "shared_at": 1765745109,
+          "source_url": "https://news.ycombinator.com/item?id=46266697"
+        }
+      ],
+      "source_item_id": 46266697,
+      "source_url": "https://news.ycombinator.com/item?id=46266697",
+      "author": "retrodaredevil",
+      "shared_at": 1765745109,
+      "links": []
+    }
+  ]
+}

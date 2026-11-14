@@ -1,0 +1,63 @@
+{
+  "id": 3996,
+  "slug": "buckaros-8a2f02ac47",
+  "name": "Buckaros",
+  "mentions": [
+    {
+      "name": "Buckaros",
+      "description": "A fishing log app (currently in Serbian) for recording fishing logs, locations, and equipment. It supports attaching images to logs, locations, and equipment via Cloudflare R2, and is adding teams support so users can chat with friends and see their catches and locations.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rijavecb"
+      ],
+      "source_excerpt": "I'm continuing to work on my fishing-log app: https://buckaros.com/ (It's in Serbian, at least for now). I recently added an option to attach images to fishing logs, locations, and equipment using Cloudflare's R2. Now I've started working on adding teams support, so that you can chat with your friends and see their catches and locations.",
+      "evidence": [
+        {
+          "source_item_id": 48545295,
+          "source_field": "body",
+          "value": "I'm continuing to work on my fishing-log app: https://buckaros.com/ (It's in Serbian, at least for now). I recently added an option to attach images to fishing logs, locations, and equipment using Cloudflare's R2. Now I've started working on adding teams support, so that you can chat with your friends and see their catches and locations.",
+          "supports": [],
+          "author": "rijavecb",
+          "shared_at": 1781548663,
+          "source_url": "https://news.ycombinator.com/item?id=48545295"
+        }
+      ],
+      "source_item_id": 48545295,
+      "source_url": "https://news.ycombinator.com/item?id=48545295",
+      "author": "rijavecb",
+      "shared_at": 1781548663,
+      "links": [
+        "https://buckaros.com/"
+      ]
+    },
+    {
+      "name": "Fishing journal/log app",
+      "description": "A fishing journal and log app for tracking what was caught on each fishing trip, where the trips took place, and details such as water and weather conditions. Planned features include groups for exchanging messages or catches with friends, and stats showing at what time and where the most fish were caught or which lure and bait was most effective. The app is written in Serbian and is in an early stage.",
+      "problem": "Existing apps, Excel, or a paper notebook can track fishing catches, but the author wanted a dedicated way to log what was caught, where, and conditions like water and weather on each trip.",
+      "audience": "Mainly the author's family and his father's fishing friends.",
+      "builder_usernames": [
+        "rijavecb"
+      ],
+      "source_excerpt": "I recently started working on a fishing journal/log kind of app. I got that idea last year when returning from fishing with dad, that it would be nice if we could track what we caught each time we went fishing, where we went, and to track some details (water and wea details).",
+      "evidence": [
+        {
+          "source_item_id": 43817998,
+          "source_field": "body",
+          "value": "I recently started working on a fishing journal/log kind of app. I got that idea last year when returning from fishing with dad, that it would be nice if we could track what we caught each time we went fishing, where we went, and to track some details (water and wea details).",
+          "supports": [],
+          "author": "rijavecb",
+          "shared_at": 1745819149,
+          "source_url": "https://news.ycombinator.com/item?id=43817998"
+        }
+      ],
+      "source_item_id": 43817998,
+      "source_url": "https://news.ycombinator.com/item?id=43817998",
+      "author": "rijavecb",
+      "shared_at": 1745819149,
+      "links": [
+        "https://buckaros.com"
+      ]
+    }
+  ]
+}

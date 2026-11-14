@@ -1,0 +1,35 @@
+{
+  "id": 11026,
+  "slug": "mosaichord-0ac83ca23e",
+  "name": "Mosaichord",
+  "mentions": [
+    {
+      "name": "Mosaichord",
+      "description": "MPE MIDI controller with pressure-sensitive keys that uses just intonation tuning, with 28 notes per octave where all note frequencies are related by whole number ratios. The firmware is open source and ships with a detailed user manual; an on-board synthesizer (enabled by a previously added DAC) is being developed so the controller can be used without a laptop or external hardware synth.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "elihu"
+      ],
+      "source_excerpt": "For awhile I've been working on an MPE MIDI controller called the Mosaichord.  It uses a tuning system called just intonation, where the frequencies of all the notes are related to each other by whole number ratios.  I'm using a scale that has 28 notes per octave.  Keys are pressure sensitive.",
+      "evidence": [
+        {
+          "source_item_id": 43828826,
+          "source_field": "body",
+          "value": "For awhile I've been working on an MPE MIDI controller called the Mosaichord.  It uses a tuning system called just intonation, where the frequencies of all the notes are related to each other by whole number ratios.  I'm using a scale that has 28 notes per octave.  Keys are pressure sensitive.",
+          "supports": [],
+          "author": "elihu",
+          "shared_at": 1745903127,
+          "source_url": "https://news.ycombinator.com/item?id=43828826"
+        }
+      ],
+      "source_item_id": 43828826,
+      "source_url": "https://news.ycombinator.com/item?id=43828826",
+      "author": "elihu",
+      "shared_at": 1745903127,
+      "links": [
+        "https://mastodon.social/@DesiderataSystems"
+      ]
+    }
+  ]
+}

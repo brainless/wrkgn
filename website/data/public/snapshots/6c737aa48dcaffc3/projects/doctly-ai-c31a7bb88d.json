@@ -1,0 +1,36 @@
+{
+  "id": 10045,
+  "slug": "doctly-ai-c31a7bb88d",
+  "name": "Doctly.ai",
+  "mentions": [
+    {
+      "name": "Doctly.ai",
+      "description": "Doctly.ai is an AI-powered PDF extraction service. It converts documents to structured JSON, and its Extractor Studio feature has AI analyze sample document variations to generate a schema that is published as an API endpoint. A technique built on top of AI models improves run-to-run consistency of the JSON output.",
+      "problem": "PDF extraction use cases mostly require structured JSON conversion rather than Markdown document conversion.",
+      "audience": null,
+      "builder_usernames": [
+        "kapitalx"
+      ],
+      "source_excerpt": "We're building Doctly.ai - PDF Extraction with AI.\n\nWe started out with document conversions to Markdown but quickly realized that most use cases were for JSON conversion. We recently launched our \"Extractor Studio\" where you can have AI analyze a few sample variations of your documents and come up with a schema for you and publish it to an API endpoint.",
+      "evidence": [
+        {
+          "source_item_id": 45426958,
+          "source_field": "body",
+          "value": "We're building Doctly.ai - PDF Extraction with AI.\n\nWe started out with document conversions to Markdown but quickly realized that most use cases were for JSON conversion. We recently launched our \"Extractor Studio\" where you can have AI analyze a few sample variations of your documents and come up with a schema for you and publish it to an API endpoint.",
+          "supports": [],
+          "author": "kapitalx",
+          "shared_at": 1759246961,
+          "source_url": "https://news.ycombinator.com/item?id=45426958"
+        }
+      ],
+      "source_item_id": 45426958,
+      "source_url": "https://news.ycombinator.com/item?id=45426958",
+      "author": "kapitalx",
+      "shared_at": 1759246961,
+      "links": [
+        "https://doctly.ai",
+        "https://medium.com/@abasiri/introducing-doctlys-extractor-studio-a-faster-way-to-build-pdf-extractors-999093a0ad11"
+      ]
+    }
+  ]
+}

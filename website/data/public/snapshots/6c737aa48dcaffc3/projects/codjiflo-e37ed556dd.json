@@ -1,0 +1,36 @@
+{
+  "id": 7796,
+  "slug": "codjiflo-e37ed556dd",
+  "name": "CodjiFlo",
+  "mentions": [
+    {
+      "name": "CodjiFlo",
+      "description": "A code review tool inspired by Microsoft's CodeFlow, designed for power users of pull requests to improve contextual understanding and make code review and collaboration easier.",
+      "problem": "Code review lacks contextual understanding and ease of collaboration for power users of pull requests.",
+      "audience": "Power users of pull requests, reportedly used by ~40,000 developers",
+      "builder_usernames": [
+        "pedropaulovc"
+      ],
+      "source_excerpt": "CodjiFlo[1,2] - a code review tool inspired by Microsoft's CodeFlow, used by ~40,000 developers. It is especially tailored to power users of pull requests to improve contextual understanding and ease of code review and collaboration.",
+      "evidence": [
+        {
+          "source_item_id": 46580082,
+          "source_field": "body",
+          "value": "CodjiFlo[1,2] - a code review tool inspired by Microsoft's CodeFlow, used by ~40,000 developers. It is especially tailored to power users of pull requests to improve contextual understanding and ease of code review and collaboration.",
+          "supports": [],
+          "author": "pedropaulovc",
+          "shared_at": 1768165666,
+          "source_url": "https://news.ycombinator.com/item?id=46580082"
+        }
+      ],
+      "source_item_id": 46580082,
+      "source_url": "https://news.ycombinator.com/item?id=46580082",
+      "author": "pedropaulovc",
+      "shared_at": 1768165666,
+      "links": [
+        "https://codjiflo.vza.net",
+        "https://github.com/pedropaulovc/codjiflo/"
+      ]
+    }
+  ]
+}

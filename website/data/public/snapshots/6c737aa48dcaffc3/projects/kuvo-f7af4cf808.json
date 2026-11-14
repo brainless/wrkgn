@@ -1,0 +1,35 @@
+{
+  "id": 4392,
+  "slug": "kuvo-f7af4cf808",
+  "name": "Kuvo",
+  "mentions": [
+    {
+      "name": "Kuvo",
+      "description": "A Python tool that builds distroless container images for projects managed by the uv package manager, inspired by Ko from the Go ecosystem. It is an early-stage hobby project that technically works but lacks several features, such as the ability to target platforms compatible with the distroless uv container image.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "hxtk"
+      ],
+      "source_excerpt": "I made a Python tool to build distroless container images for projects managed by uv. It draws inspiration from Ko from the Go ecosystem and works with/depends on uv from the Python ecosystem, so I smashed them together and called it Kuvo: https://github.com/hxtk/kuvo",
+      "evidence": [
+        {
+          "source_item_id": 48089336,
+          "source_field": "body",
+          "value": "I made a Python tool to build distroless container images for projects managed by uv. It draws inspiration from Ko from the Go ecosystem and works with/depends on uv from the Python ecosystem, so I smashed them together and called it Kuvo: https://github.com/hxtk/kuvo",
+          "supports": [],
+          "author": "hxtk",
+          "shared_at": 1778456770,
+          "source_url": "https://news.ycombinator.com/item?id=48089336"
+        }
+      ],
+      "source_item_id": 48089336,
+      "source_url": "https://news.ycombinator.com/item?id=48089336",
+      "author": "hxtk",
+      "shared_at": 1778456770,
+      "links": [
+        "https://github.com/hxtk/kuvo"
+      ]
+    }
+  ]
+}

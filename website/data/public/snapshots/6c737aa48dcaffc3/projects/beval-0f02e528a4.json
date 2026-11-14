@@ -1,0 +1,35 @@
+{
+  "id": 7020,
+  "slug": "beval-0f02e528a4",
+  "name": "Beval",
+  "mentions": [
+    {
+      "name": "Beval",
+      "description": "A web app for running simple, quick LLM-based evaluations on conversation transcripts and traces from AI products. It supports fast 'quick and dirty' eval iteration, including handling changes to evals, without slow spreadsheet-based tooling or heavyweight team setups.",
+      "problem": "Quick LLM-based evaluation of conversation transcripts and traces was blocked by slow, cumbersome tools like 'Gemini in Google Sheets' that didn't handle eval changes well, while more robust team setups were too heavy for exploratory work.",
+      "audience": null,
+      "builder_usernames": [
+        "raviisoccupied"
+      ],
+      "source_excerpt": "I have been working on a web app called Beval - Simple evaluations for your AI product.",
+      "evidence": [
+        {
+          "source_item_id": 46948955,
+          "source_field": "body",
+          "value": "I have been working on a web app called Beval - Simple evaluations for your AI product.",
+          "supports": [],
+          "author": "raviisoccupied",
+          "shared_at": 1770661914,
+          "source_url": "https://news.ycombinator.com/item?id=46948955"
+        }
+      ],
+      "source_item_id": 46948955,
+      "source_url": "https://news.ycombinator.com/item?id=46948955",
+      "author": "raviisoccupied",
+      "shared_at": 1770661914,
+      "links": [
+        "https://beval.space"
+      ]
+    }
+  ]
+}

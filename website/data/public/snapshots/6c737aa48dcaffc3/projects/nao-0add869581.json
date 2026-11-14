@@ -1,0 +1,63 @@
+{
+  "id": 5344,
+  "slug": "nao-0add869581",
+  "name": "nao",
+  "mentions": [
+    {
+      "name": "nao",
+      "description": "nao is an open-source analytics agent that connects all sources of context (from data warehouse to knowledge base) via a CLI, with an agent sitting on top of them. It can be used from any client (web, Slack, Teams, or other harnesses), and conversations can be shared as output stories that are either static or live, replacing old dashboards. It is open source so users can know how the context is managed.",
+      "problem": "Data analytics work is transforming from SQL-based analysis to conversational analyses, but existing UI/UX is not designed for this shift.",
+      "audience": null,
+      "builder_usernames": [
+        "blef"
+      ],
+      "source_excerpt": "I am building nao, an open-source analytics agent. With nao you can connect all your sources of context (from warehouse to your knowledge base) using a CLI, and then you have an agent that sits on top of it.",
+      "evidence": [
+        {
+          "source_item_id": 47749416,
+          "source_field": "body",
+          "value": "I am building nao, an open-source analytics agent. With nao you can connect all your sources of context (from warehouse to your knowledge base) using a CLI, and then you have an agent that sits on top of it.",
+          "supports": [],
+          "author": "blef",
+          "shared_at": 1776069770,
+          "source_url": "https://news.ycombinator.com/item?id=47749416"
+        }
+      ],
+      "source_item_id": 47749416,
+      "source_url": "https://news.ycombinator.com/item?id=47749416",
+      "author": "blef",
+      "shared_at": 1776069770,
+      "links": [
+        "https://github.com/getnao/nao"
+      ]
+    },
+    {
+      "name": "nao",
+      "description": "An open-source analytics agent that uses the filesystem as the substrate for agentic workflows: users bring context into a filesystem, then plug nao's agent loop on top (or use another one). It works with sandboxes and emulated filesystems — the filesystem can be local, or a bucket or database emulated as a real filesystem for the agentic loop, mountable to sandboxes — enabling data transformations to run in isolation with control over the context.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "blef"
+      ],
+      "source_excerpt": "I'm working most of my time on nao [1] (an open-source analytics agent).",
+      "evidence": [
+        {
+          "source_item_id": 47309253,
+          "source_field": "body",
+          "value": "I'm working most of my time on nao [1] (an open-source analytics agent).",
+          "supports": [],
+          "author": "blef",
+          "shared_at": 1773065172,
+          "source_url": "https://news.ycombinator.com/item?id=47309253"
+        }
+      ],
+      "source_item_id": 47309253,
+      "source_url": "https://news.ycombinator.com/item?id=47309253",
+      "author": "blef",
+      "shared_at": 1773065172,
+      "links": [
+        "https://github.com/getnao/nao"
+      ]
+    }
+  ]
+}

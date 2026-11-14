@@ -1,0 +1,35 @@
+{
+  "id": 5475,
+  "slug": "gha-outrunner-2c70630add",
+  "name": "gha-outrunner",
+  "mentions": [
+    {
+      "name": "gha-outrunner",
+      "description": "A local, ephemeral GitHub Actions runner that executes CI jobs in Docker containers, Tart VMs, or KVM depending on the host/guest environment.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "psubocz"
+      ],
+      "source_excerpt": "https://github.com/NetwindHQ/gha-outrunner - github actions local, ephemeral runner which runs jobs in docker container, tart vm org kvm (depending on the host/guest)",
+      "evidence": [
+        {
+          "source_item_id": 47745192,
+          "source_field": "body",
+          "value": "https://github.com/NetwindHQ/gha-outrunner - github actions local, ephemeral runner which runs jobs in docker container, tart vm org kvm (depending on the host/guest)",
+          "supports": [],
+          "author": "psubocz",
+          "shared_at": 1776032707,
+          "source_url": "https://news.ycombinator.com/item?id=47745192"
+        }
+      ],
+      "source_item_id": 47745192,
+      "source_url": "https://news.ycombinator.com/item?id=47745192",
+      "author": "psubocz",
+      "shared_at": 1776032707,
+      "links": [
+        "https://github.com/NetwindHQ/gha-outrunner"
+      ]
+    }
+  ]
+}

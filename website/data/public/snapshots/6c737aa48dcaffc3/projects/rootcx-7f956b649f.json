@@ -1,0 +1,35 @@
+{
+  "id": 5480,
+  "slug": "rootcx-7f956b649f",
+  "name": "RootCX",
+  "mentions": [
+    {
+      "name": "RootCX",
+      "description": "RootCX is a platform for building and shipping internal apps and AI agents in production, described as \"Claude code on Supabase\" for internal apps and AI agents. It bundles the underlying plumbing—deployment, Postgres, SSO (OIDC), RBAC, audit logs, secret vaults, and integrations/tools/MCP—so these don't have to be wired up from scratch for every internal tool.",
+      "problem": "Wiring up the same stack—deployment platform, Postgres, SSO (OIDC), RBAC, audit logs, secret vaults, and integrations/tools/MCP—from scratch every time an internal tool is needed.",
+      "audience": null,
+      "builder_usernames": [
+        "seyz"
+      ],
+      "source_excerpt": "I'm working on RootCX (https://github.com/RootCX/RootCX), a platform for building and shipping internal apps and AI agents in production.",
+      "evidence": [
+        {
+          "source_item_id": 47749215,
+          "source_field": "body",
+          "value": "I'm working on RootCX (https://github.com/RootCX/RootCX), a platform for building and shipping internal apps and AI agents in production.",
+          "supports": [],
+          "author": "seyz",
+          "shared_at": 1776067970,
+          "source_url": "https://news.ycombinator.com/item?id=47749215"
+        }
+      ],
+      "source_item_id": 47749215,
+      "source_url": "https://news.ycombinator.com/item?id=47749215",
+      "author": "seyz",
+      "shared_at": 1776067970,
+      "links": [
+        "https://github.com/RootCX/RootCX"
+      ]
+    }
+  ]
+}

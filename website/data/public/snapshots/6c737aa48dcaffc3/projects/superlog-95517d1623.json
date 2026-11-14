@@ -1,0 +1,35 @@
+{
+  "id": 4417,
+  "slug": "superlog-95517d1623",
+  "name": "Superlog",
+  "mentions": [
+    {
+      "name": "Superlog",
+      "description": "Superlog is a Sentry replacement that automatically adds logs to a project and fixes any bugs it finds. Setup is done via a single prompt that installs Superlog into the project, and all platform functionality is usable through MCP so users don't have to spend time configuring yet another UI.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "signalbright"
+      ],
+      "source_excerpt": "Building a Sentry replacement that adds logs automatically and fixes any bugs it finds (https://superlog.sh).\n\nThe setup is done via one prompt ('Use https://skills.superlog.sh to install Superlog in this project'), and everything on the platform is usable via MCP so that you don't have to spend time configuring yet another UI.",
+      "evidence": [
+        {
+          "source_item_id": 48090283,
+          "source_field": "body",
+          "value": "Building a Sentry replacement that adds logs automatically and fixes any bugs it finds (https://superlog.sh).\n\nThe setup is done via one prompt ('Use https://skills.superlog.sh to install Superlog in this project'), and everything on the platform is usable via MCP so that you don't have to spend time configuring yet another UI.",
+          "supports": [],
+          "author": "signalbright",
+          "shared_at": 1778465218,
+          "source_url": "https://news.ycombinator.com/item?id=48090283"
+        }
+      ],
+      "source_item_id": 48090283,
+      "source_url": "https://news.ycombinator.com/item?id=48090283",
+      "author": "signalbright",
+      "shared_at": 1778465218,
+      "links": [
+        "https://superlog.sh"
+      ]
+    }
+  ]
+}

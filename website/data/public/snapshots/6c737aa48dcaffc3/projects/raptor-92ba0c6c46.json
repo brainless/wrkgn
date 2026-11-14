@@ -1,0 +1,36 @@
+{
+  "id": 8993,
+  "slug": "raptor-92ba0c6c46",
+  "name": "Raptor",
+  "mentions": [
+    {
+      "name": "Raptor",
+      "description": "Raptor is a free software build tool that generates disk images, liveboot ISOs, and container images (Docker/Podman). It supports many build products and uses a syntax inspired by Docker but significantly enhanced.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "chrivers"
+      ],
+      "source_excerpt": "Raptor - a new (Free software) way to build things like:\n\n* Disk images\n\n* Liveboot isos\n\n* Container images (docker/podman)",
+      "evidence": [
+        {
+          "source_item_id": 45870349,
+          "source_field": "body",
+          "value": "Raptor - a new (Free software) way to build things like:\n\n* Disk images\n\n* Liveboot isos\n\n* Container images (docker/podman)",
+          "supports": [],
+          "author": "chrivers",
+          "shared_at": 1762730990,
+          "source_url": "https://news.ycombinator.com/item?id=45870349"
+        }
+      ],
+      "source_item_id": 45870349,
+      "source_url": "https://news.ycombinator.com/item?id=45870349",
+      "author": "chrivers",
+      "shared_at": 1762730990,
+      "links": [
+        "https://chrivers.github.io/raptor/",
+        "https://github.com/chrivers/raptor/"
+      ]
+    }
+  ]
+}

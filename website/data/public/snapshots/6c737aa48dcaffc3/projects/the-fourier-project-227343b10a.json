@@ -1,0 +1,35 @@
+{
+  "id": 5599,
+  "slug": "the-fourier-project-227343b10a",
+  "name": "The Fourier Project",
+  "mentions": [
+    {
+      "name": "The Fourier Project",
+      "description": "This website filters for high-quality information and people, ranks results to surface \"undiscovered\" people, and applies a simple LLM pass to assess quality. The author scanned Twitter with decent results and plans to extend the approach to research papers and GitHub.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jfguan"
+      ],
+      "source_excerpt": "A website to filter for high quality information/people, then ranking to find \"undiscovered\" people, and finally doing a simple LLM pass on quality.",
+      "evidence": [
+        {
+          "source_item_id": 47757331,
+          "source_field": "body",
+          "value": "A website to filter for high quality information/people, then ranking to find \"undiscovered\" people, and finally doing a simple LLM pass on quality.",
+          "supports": [],
+          "author": "jfguan",
+          "shared_at": 1776111764,
+          "source_url": "https://news.ycombinator.com/item?id=47757331"
+        }
+      ],
+      "source_item_id": 47757331,
+      "source_url": "https://news.ycombinator.com/item?id=47757331",
+      "author": "jfguan",
+      "shared_at": 1776111764,
+      "links": [
+        "https://thefourierproject.org/people"
+      ]
+    }
+  ]
+}

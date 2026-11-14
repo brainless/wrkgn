@@ -1,0 +1,33 @@
+{
+  "id": 8152,
+  "slug": "door-frame-5a583dcda6",
+  "name": "Door Frame",
+  "mentions": [
+    {
+      "name": "Door Frame",
+      "description": "This ESP32-based device displays a small screen showing whether the user is in a meeting, including on/off status and the time remaining until the meeting ends, so family members know not to interrupt. It connects over Bluetooth Low Energy to an Electron app running in the macOS system tray, which detects when the Mac camera is in use (via Apple logs) and relays status to the device using a custom binary protocol. The enclosure is a 3D-printed snap-fit case designed in Fusion 360.",
+      "problem": "The user's parents would enter the room unannounced during meetings; this device signals when a meeting is in progress so they don't interrupt.",
+      "audience": null,
+      "builder_usernames": [
+        "quacky_batak"
+      ],
+      "source_excerpt": "For the past week, I’m working on creating device with a screen to show my indian parents if i’m in a meeting or not. So they don’t trouble me and come in my room unannounced when im in a meeting.",
+      "evidence": [
+        {
+          "source_item_id": 46271092,
+          "source_field": "body",
+          "value": "For the past week, I’m working on creating device with a screen to show my indian parents if i’m in a meeting or not. So they don’t trouble me and come in my room unannounced when im in a meeting.",
+          "supports": [],
+          "author": "quacky_batak",
+          "shared_at": 1765780072,
+          "source_url": "https://news.ycombinator.com/item?id=46271092"
+        }
+      ],
+      "source_item_id": 46271092,
+      "source_url": "https://news.ycombinator.com/item?id=46271092",
+      "author": "quacky_batak",
+      "shared_at": 1765780072,
+      "links": []
+    }
+  ]
+}

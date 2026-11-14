@@ -1,0 +1,33 @@
+{
+  "id": 10395,
+  "slug": "waywo-46abc80909",
+  "name": "Waywo",
+  "mentions": [
+    {
+      "name": "Waywo",
+      "description": "Semantic search engine for \"What are you working on?\" threads, built on Redis 8 features such as the vector set data structure. It helps users quickly digest hundreds of project descriptions, explore similar projects, deduplicate projects across previous threads, and visualize a graph of all projects. Being developed for the Redis Hackathon on DEV.to.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "misterbrian"
+      ],
+      "source_excerpt": "I'm working on Waywo, a semantic search engine for \"What are you working on?\" threads powered by new features in Redis 8 like the vector set data structure for semantic search.",
+      "evidence": [
+        {
+          "source_item_id": 44706208,
+          "source_field": "body",
+          "value": "I'm working on Waywo, a semantic search engine for \"What are you working on?\" threads powered by new features in Redis 8 like the vector set data structure for semantic search.",
+          "supports": [],
+          "author": "misterbrian",
+          "shared_at": 1753664766,
+          "source_url": "https://news.ycombinator.com/item?id=44706208"
+        }
+      ],
+      "source_item_id": 44706208,
+      "source_url": "https://news.ycombinator.com/item?id=44706208",
+      "author": "misterbrian",
+      "shared_at": 1753664766,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": 3599,
+  "slug": "eidetica-05d1ca87cd",
+  "name": "Eidetica",
+  "mentions": [
+    {
+      "name": "Eidetica",
+      "description": "Decentralized database with a client/server architecture that can run transparently as a local daemon for background sync and sharing local storage with multiple users. Blob storage integration is in progress, along with WASM-based \"lenses\" for handling decentralized version/schema updates.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Arcuru"
+      ],
+      "source_excerpt": "I've continued working on Eidetica, my decentralized database project. I recently added support for a client/server architecture so that it can be transparently run as a local daemon for background sync and sharing the local storage with multiple users. I've been making progress on integrating blob storage next, as well as scoping out WASM based \"lenses\" for handling decentralized version/schema updates.",
+      "evidence": [
+        {
+          "source_item_id": 48531075,
+          "source_field": "body",
+          "value": "I've continued working on Eidetica, my decentralized database project. I recently added support for a client/server architecture so that it can be transparently run as a local daemon for background sync and sharing the local storage with multiple users. I've been making progress on integrating blob storage next, as well as scoping out WASM based \"lenses\" for handling decentralized version/schema updates.",
+          "supports": [],
+          "author": "Arcuru",
+          "shared_at": 1781462844,
+          "source_url": "https://news.ycombinator.com/item?id=48531075"
+        }
+      ],
+      "source_item_id": 48531075,
+      "source_url": "https://news.ycombinator.com/item?id=48531075",
+      "author": "Arcuru",
+      "shared_at": 1781462844,
+      "links": [
+        "https://github.com/arcuru/eidetica"
+      ]
+    },
+    {
+      "name": "Eidetica",
+      "description": "Eidetica is a decentralized database for local-first applications, currently in a pre-alpha/unstable state. Recent work includes better backend support for deployments, a conversion of the codebase to async Rust, and Nix/Docker release setup. Upcoming plans include better example apps and workflows, with remaining low-hanging breaking issues to fix before end-to-end usage.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Arcuru"
+      ],
+      "source_excerpt": "Eidetica, a planned decentralized database for local-first applications.",
+      "evidence": [
+        {
+          "source_item_id": 46578243,
+          "source_field": "body",
+          "value": "Eidetica, a planned decentralized database for local-first applications.",
+          "supports": [],
+          "author": "Arcuru",
+          "shared_at": 1768156232,
+          "source_url": "https://news.ycombinator.com/item?id=46578243"
+        }
+      ],
+      "source_item_id": 46578243,
+      "source_url": "https://news.ycombinator.com/item?id=46578243",
+      "author": "Arcuru",
+      "shared_at": 1768156232,
+      "links": [
+        "https://github.com/arcuru/eidetica"
+      ]
+    },
+    {
+      "name": "Eidetica",
+      "description": "A decentralized database written in Rust intended for local-first apps. Recent development includes password-based transparent end-to-end encryption, improved custom CRDTs, an index for storing configs and metadata, and support for using sqlite and postgres as backends.",
+      "problem": null,
+      "audience": "Developers building local-first apps",
+      "builder_usernames": [
+        "Arcuru"
+      ],
+      "source_excerpt": "Eidetica - a decentralized database built in Rust, intended for local-first apps. It's still unstable but I'm progressing relatively rapidly.",
+      "evidence": [
+        {
+          "source_item_id": 46266275,
+          "source_field": "body",
+          "value": "Eidetica - a decentralized database built in Rust, intended for local-first apps. It's still unstable but I'm progressing relatively rapidly.",
+          "supports": [],
+          "author": "Arcuru",
+          "shared_at": 1765742444,
+          "source_url": "https://news.ycombinator.com/item?id=46266275"
+        }
+      ],
+      "source_item_id": 46266275,
+      "source_url": "https://news.ycombinator.com/item?id=46266275",
+      "author": "Arcuru",
+      "shared_at": 1765742444,
+      "links": [
+        "https://github.com/arcuru/eidetica"
+      ]
+    }
+  ]
+}

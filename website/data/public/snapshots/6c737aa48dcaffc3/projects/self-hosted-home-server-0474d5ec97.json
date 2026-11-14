@@ -1,0 +1,33 @@
+{
+  "id": 4283,
+  "slug": "self-hosted-home-server-0474d5ec97",
+  "name": "Self-hosted home server",
+  "mentions": [
+    {
+      "name": "Self-hosted home server",
+      "description": "A self-hosted home server built from old hardware running headless Ubuntu, drawing about $4/month in power. It runs the -arr media stack via Docker Compose with Plex as the media client for Apple TV, hosts the Mealie recipe manager, and uses Syncthing to back up non-media files across personal devices.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "user68858788"
+      ],
+      "source_excerpt": "I’m building a home server. This was something I put off for years due to some perfectionism. Eventually I just threw together something with old hardware and headless Ubuntu. Much to my surprise, the power draw is only about $4 a month. I can live with that so no need for specialized hardware.\n\nI’m doing the common -arr stack using docker compose. I’m using plex because the jellyfin doesn’t work as well on an Apple TV.",
+      "evidence": [
+        {
+          "source_item_id": 48532545,
+          "source_field": "body",
+          "value": "I’m building a home server. This was something I put off for years due to some perfectionism. Eventually I just threw together something with old hardware and headless Ubuntu. Much to my surprise, the power draw is only about $4 a month. I can live with that so no need for specialized hardware.\n\nI’m doing the common -arr stack using docker compose. I’m using plex because the jellyfin doesn’t work as well on an Apple TV.",
+          "supports": [],
+          "author": "user68858788",
+          "shared_at": 1781470322,
+          "source_url": "https://news.ycombinator.com/item?id=48532545"
+        }
+      ],
+      "source_item_id": 48532545,
+      "source_url": "https://news.ycombinator.com/item?id=48532545",
+      "author": "user68858788",
+      "shared_at": 1781470322,
+      "links": []
+    }
+  ]
+}

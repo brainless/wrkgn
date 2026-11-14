@@ -1,0 +1,35 @@
+{
+  "id": 10279,
+  "slug": "seniordev-dd2095475b",
+  "name": "SeniorDev",
+  "mentions": [
+    {
+      "name": "SeniorDev",
+      "description": "This cloud-based coding agent connects to an existing GitHub repo, spins up a feature branch, commits incremental changes, and opens a pull request. It provides an embedded VS Code server so users can review and tweak the code before merging, with no local setup needed.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "gnunez"
+      ],
+      "source_excerpt": "I’m working on yet another cloud based coding agent https://seniordev.io/ that connects to an existing GitHub repo, spins up a feature branch, commits incremental changes, and opens a PR. You can jump into an embedded VS Code server to review and tweak the code before merging—no local setup needed.",
+      "evidence": [
+        {
+          "source_item_id": 45422265,
+          "source_field": "body",
+          "value": "I’m working on yet another cloud based coding agent https://seniordev.io/ that connects to an existing GitHub repo, spins up a feature branch, commits incremental changes, and opens a PR. You can jump into an embedded VS Code server to review and tweak the code before merging—no local setup needed.",
+          "supports": [],
+          "author": "gnunez",
+          "shared_at": 1759210669,
+          "source_url": "https://news.ycombinator.com/item?id=45422265"
+        }
+      ],
+      "source_item_id": 45422265,
+      "source_url": "https://news.ycombinator.com/item?id=45422265",
+      "author": "gnunez",
+      "shared_at": 1759210669,
+      "links": [
+        "https://seniordev.io/"
+      ]
+    }
+  ]
+}

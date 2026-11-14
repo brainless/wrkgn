@@ -1,0 +1,35 @@
+{
+  "id": 6827,
+  "slug": "laconic-01f389613b",
+  "name": "laconic",
+  "mentions": [
+    {
+      "name": "laconic",
+      "description": "laconic is a research automation tool described as \"a Ralph loop for Research\". It manages a 4K context window so that tiny local LLM models can perform advanced research tasks requiring dozens of searches and building a knowledge graph, running at zero API cost.",
+      "problem": "API costs for LLMs are getting ridiculous.",
+      "audience": null,
+      "builder_usernames": [
+        "smhanov"
+      ],
+      "source_excerpt": "Working on laconic, a \"Ralph loop for Research\"\n\nAPI costs for LLM are getting ridiculous. By managing a 4K context window, I can get tiny local models to do advanced research tasks that require dozens of searches and building a knowledge graph for $0.",
+      "evidence": [
+        {
+          "source_item_id": 46960670,
+          "source_field": "body",
+          "value": "Working on laconic, a \"Ralph loop for Research\"\n\nAPI costs for LLM are getting ridiculous. By managing a 4K context window, I can get tiny local models to do advanced research tasks that require dozens of searches and building a knowledge graph for $0.",
+          "supports": [],
+          "author": "smhanov",
+          "shared_at": 1770736107,
+          "source_url": "https://news.ycombinator.com/item?id=46960670"
+        }
+      ],
+      "source_item_id": 46960670,
+      "source_url": "https://news.ycombinator.com/item?id=46960670",
+      "author": "smhanov",
+      "shared_at": 1770736107,
+      "links": [
+        "https://github.com/smhanov/laconic"
+      ]
+    }
+  ]
+}

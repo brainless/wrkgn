@@ -1,0 +1,35 @@
+{
+  "id": 5147,
+  "slug": "miracle-wm-webassembly-plugin-system-d9fea0f98a",
+  "name": "miracle-wm WebAssembly plugin system",
+  "mentions": [
+    {
+      "name": "miracle-wm WebAssembly plugin system",
+      "description": "A WebAssembly plugin system for the Miracle Wayland compositor that lets users program window management, animation, and configuration from plugins built with Rust, avoiding the need for a heavy scripting language; a stable release is planned by mid-year.",
+      "problem": "Wayland has lacked a plugin system like this, especially one that avoids a heavy scripting language.",
+      "audience": null,
+      "builder_usernames": [
+        "matthewkosarek"
+      ],
+      "source_excerpt": "A WebAssembly plugin system for my Wayland compositor: https://github.com/miracle-wm-org/miracle-wm\n\nThe idea is that you'll be able to program window management, animation, configuration and more from WebAssembly plugins that are built with Rust.",
+      "evidence": [
+        {
+          "source_item_id": 47750850,
+          "source_field": "body",
+          "value": "A WebAssembly plugin system for my Wayland compositor: https://github.com/miracle-wm-org/miracle-wm\n\nThe idea is that you'll be able to program window management, animation, configuration and more from WebAssembly plugins that are built with Rust.",
+          "supports": [],
+          "author": "matthewkosarek",
+          "shared_at": 1776082162,
+          "source_url": "https://news.ycombinator.com/item?id=47750850"
+        }
+      ],
+      "source_item_id": 47750850,
+      "source_url": "https://news.ycombinator.com/item?id=47750850",
+      "author": "matthewkosarek",
+      "shared_at": 1776082162,
+      "links": [
+        "https://github.com/miracle-wm-org/miracle-wm"
+      ]
+    }
+  ]
+}

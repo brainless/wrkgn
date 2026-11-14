@@ -1,0 +1,33 @@
+{
+  "id": 8091,
+  "slug": "kicad-in-the-browser-96e94a20a6",
+  "name": "KiCad in the browser",
+  "mentions": [
+    {
+      "name": "KiCad in the browser",
+      "description": "A browser port of KiCad, the open-source electronics design suite, compiled to WebAssembly with an updated WxWidgets port and ~200 tests supporting all the features KiCad needs. In-progress work adds multithreading via web workers using Emscripten's asyncify (currently debugging a race condition where the main thread spins waiting for workers), and a planned collaboration layer using yjs so multiple people can edit the same PCB through pcbnew's plugin system, plus handling KiCad's lack of automatic file-change syncing; the schematic and component editors still need a sync solution.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ViktorEE"
+      ],
+      "source_excerpt": "I'm working on porting KiCad to the browser. It's a lot of sweat and tears, multithreading issues and some more sweat. I've updated a port of WxWidgets and now I support all the features KiCad needs with ~200 tests.",
+      "evidence": [
+        {
+          "source_item_id": 46266467,
+          "source_field": "body",
+          "value": "I'm working on porting KiCad to the browser. It's a lot of sweat and tears, multithreading issues and some more sweat. I've updated a port of WxWidgets and now I support all the features KiCad needs with ~200 tests.",
+          "supports": [],
+          "author": "ViktorEE",
+          "shared_at": 1765743744,
+          "source_url": "https://news.ycombinator.com/item?id=46266467"
+        }
+      ],
+      "source_item_id": 46266467,
+      "source_url": "https://news.ycombinator.com/item?id=46266467",
+      "author": "ViktorEE",
+      "shared_at": 1765743744,
+      "links": []
+    }
+  ]
+}

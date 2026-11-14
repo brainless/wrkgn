@@ -1,0 +1,63 @@
+{
+  "id": 2892,
+  "slug": "baton-b22badfaa4",
+  "name": "Baton",
+  "mentions": [
+    {
+      "name": "Baton",
+      "description": "An agent orchestrator that supports any CLI agent, optimized to reduce cognitive load when working on different tasks at the same time with agents. Adds simple support for running agents and reviewing their code remotely over SSH.",
+      "problem": "Working on different tasks at the same time with agents creates high cognitive load.",
+      "audience": "Developers working on multiple tasks in parallel with CLI agents and reviewing their code",
+      "builder_usernames": [
+        "tordrt"
+      ],
+      "source_excerpt": "An \"agent orchestrator\" (or whatever you want to call it) that supports any cli agent. Trying to optimize for reducing cognitive load for working on different tasks at the same time with agents.\n\nCurrently doing final polishes on adding support for making it simple and easy to run agents and review the code remotely over ssh.",
+      "evidence": [
+        {
+          "source_item_id": 48888752,
+          "source_field": "body",
+          "value": "An \"agent orchestrator\" (or whatever you want to call it) that supports any cli agent. Trying to optimize for reducing cognitive load for working on different tasks at the same time with agents.\n\nCurrently doing final polishes on adding support for making it simple and easy to run agents and review the code remotely over ssh.",
+          "supports": [],
+          "author": "tordrt",
+          "shared_at": 1783924838,
+          "source_url": "https://news.ycombinator.com/item?id=48888752"
+        }
+      ],
+      "source_item_id": 48888752,
+      "source_url": "https://news.ycombinator.com/item?id=48888752",
+      "author": "tordrt",
+      "shared_at": 1783924838,
+      "links": [
+        "https://getbaton.dev"
+      ]
+    },
+    {
+      "name": "Baton",
+      "description": "A desktop IDE for running many isolated parallel coding agents in an organized way. Freemium with all features included for working on up to 4 concurrent worktrees, and no accounts or signup required.",
+      "problem": "Running lots of parallel coding agents at once is overwhelming to manage.",
+      "audience": null,
+      "builder_usernames": [
+        "tordrt"
+      ],
+      "source_excerpt": "Baton (https://getbaton.dev)\n\nA simple organized desktop \"IDE\" for running lots isolated parallel coding agents without having your brain exploding.",
+      "evidence": [
+        {
+          "source_item_id": 48097485,
+          "source_field": "body",
+          "value": "Baton (https://getbaton.dev)\n\nA simple organized desktop \"IDE\" for running lots isolated parallel coding agents without having your brain exploding.",
+          "supports": [],
+          "author": "tordrt",
+          "shared_at": 1778518294,
+          "source_url": "https://news.ycombinator.com/item?id=48097485"
+        }
+      ],
+      "source_item_id": 48097485,
+      "source_url": "https://news.ycombinator.com/item?id=48097485",
+      "author": "tordrt",
+      "shared_at": 1778518294,
+      "links": [
+        "https://getbaton.dev"
+      ]
+    }
+  ]
+}

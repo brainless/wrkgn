@@ -1,0 +1,35 @@
+{
+  "id": 3849,
+  "slug": "custom-go-static-site-generator-c1e3ab1047",
+  "name": "Custom Go static site generator",
+  "mentions": [
+    {
+      "name": "Custom Go static site generator",
+      "description": "A small static site generator written in Go, built by the author as a lighter replacement for Grav to minimize the dependencies they have to maintain; it has undergone basic load testing.",
+      "problem": "Maintaining dependencies becomes harder the more software is used, so the author wanted a minimal alternative to Grav.",
+      "audience": null,
+      "builder_usernames": [
+        "KronisLV"
+      ],
+      "source_excerpt": "Recently migrated over from Grav to a smaller SSG that I made myself in Go, the idea being that I'll minimize the dependencies I have to maintain, since that becomes harder and harder the more software I use. Even did some basic load testing, seems good so far: https://blog.kronis.dev/blog/i-rebuilt-my-blog-and-then-broke-it/",
+      "evidence": [
+        {
+          "source_item_id": 48538213,
+          "source_field": "body",
+          "value": "Recently migrated over from Grav to a smaller SSG that I made myself in Go, the idea being that I'll minimize the dependencies I have to maintain, since that becomes harder and harder the more software I use. Even did some basic load testing, seems good so far: https://blog.kronis.dev/blog/i-rebuilt-my-blog-and-then-broke-it/",
+          "supports": [],
+          "author": "KronisLV",
+          "shared_at": 1781511766,
+          "source_url": "https://news.ycombinator.com/item?id=48538213"
+        }
+      ],
+      "source_item_id": 48538213,
+      "source_url": "https://news.ycombinator.com/item?id=48538213",
+      "author": "KronisLV",
+      "shared_at": 1781511766,
+      "links": [
+        "https://blog.kronis.dev/blog/i-rebuilt-my-blog-and-then-broke-it/"
+      ]
+    }
+  ]
+}

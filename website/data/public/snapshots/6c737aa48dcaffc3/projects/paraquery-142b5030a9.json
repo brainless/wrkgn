@@ -1,0 +1,35 @@
+{
+  "id": 11190,
+  "slug": "paraquery-142b5030a9",
+  "name": "ParaQuery",
+  "mentions": [
+    {
+      "name": "ParaQuery",
+      "description": "A zero-hassle package for GPU-accelerated SQL and Spark data processing, running in production for a few months. It recently processed 900TB with roughly 5x efficiency compared to the customer's previous BigQuery setup.",
+      "problem": "Large-scale data processing was significantly less efficient on the customer's previous BigQuery setup.",
+      "audience": null,
+      "builder_usernames": [
+        "winwang"
+      ],
+      "source_excerpt": "I'm working on GPU-accelerated SQL+Spark in a zero-hassle package: https://paraquery.com",
+      "evidence": [
+        {
+          "source_item_id": 43818898,
+          "source_field": "body",
+          "value": "I'm working on GPU-accelerated SQL+Spark in a zero-hassle package: https://paraquery.com",
+          "supports": [],
+          "author": "winwang",
+          "shared_at": 1745828528,
+          "source_url": "https://news.ycombinator.com/item?id=43818898"
+        }
+      ],
+      "source_item_id": 43818898,
+      "source_url": "https://news.ycombinator.com/item?id=43818898",
+      "author": "winwang",
+      "shared_at": 1745828528,
+      "links": [
+        "https://paraquery.com"
+      ]
+    }
+  ]
+}

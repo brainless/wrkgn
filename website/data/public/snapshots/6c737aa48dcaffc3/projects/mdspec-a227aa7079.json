@@ -1,0 +1,35 @@
+{
+  "id": 4406,
+  "slug": "mdspec-a227aa7079",
+  "name": "MDSpec",
+  "mentions": [
+    {
+      "name": "MDSpec",
+      "description": "A CI-integrated, git-native syncing pipeline that moves markdown docs into project management tools. Markdown files can be saved vanilla in a wiki for later AI search and insights, or run through an AI agent template transformer that turns them into task templates (background, acceptance criteria, functional requirements) to create or update tasks on boards like ClickUp. Grew out of a VSCode extension the author built to sync task docs with ClickUp via frontmatter.",
+      "problem": "AI IDE workflows produce tons of scattered md files for planning, code analysis, and features that get tucked away into folders instead of being synced with project management tools.",
+      "audience": "Developers using AI IDEs who generate lots of markdown planning, analysis, and task docs that end up tucked away in folders, disconnected from project management tools.",
+      "builder_usernames": [
+        "zameermfm"
+      ],
+      "source_excerpt": "For the company I'm currently working I had made a VSCode extension where I can sync the task doc with clickup via frontmatter.\n\nI decided to take it to next level as a side project. I built a CI integrated, git-native, agent template transformable syncing pipeline with git MD files to any project management tools. That means, either you can save your md files vanilla in your wiki (thus using the clickup AI search to dig up later, get insights etc) or you can use a AI agent template transformer to turn it into a task template (Background, acceptance criteria, functional requirements etc.) and update or create a task on a board.",
+      "evidence": [
+        {
+          "source_item_id": 48090011,
+          "source_field": "body",
+          "value": "For the company I'm currently working I had made a VSCode extension where I can sync the task doc with clickup via frontmatter.\n\nI decided to take it to next level as a side project. I built a CI integrated, git-native, agent template transformable syncing pipeline with git MD files to any project management tools. That means, either you can save your md files vanilla in your wiki (thus using the clickup AI search to dig up later, get insights etc) or you can use a AI agent template transformer to turn it into a task template (Background, acceptance criteria, functional requirements etc.) and update or create a task on a board.",
+          "supports": [],
+          "author": "zameermfm",
+          "shared_at": 1778462466,
+          "source_url": "https://news.ycombinator.com/item?id=48090011"
+        }
+      ],
+      "source_item_id": 48090011,
+      "source_url": "https://news.ycombinator.com/item?id=48090011",
+      "author": "zameermfm",
+      "shared_at": 1778462466,
+      "links": [
+        "https://mdspec.dev"
+      ]
+    }
+  ]
+}

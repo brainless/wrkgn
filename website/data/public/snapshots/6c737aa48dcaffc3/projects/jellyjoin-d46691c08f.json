@@ -1,0 +1,35 @@
+{
+  "id": 9765,
+  "slug": "jellyjoin-d46691c08f",
+  "name": "jellyjoin",
+  "mentions": [
+    {
+      "name": "jellyjoin",
+      "description": "An open source Python package that performs high-quality \"semantic soft joins\": it matches records between datasets using embedding vectors and the Hungarian algorithm, aiming to be easier to use than traditional record linkage while still producing good matches.",
+      "problem": "Record linkage is hard to use, and existing approaches don't balance ease of use with match quality for fuzzy/semantic joins.",
+      "audience": null,
+      "builder_usernames": [
+        "olooney"
+      ],
+      "source_excerpt": "I found a neat way to do high-quality \"semantic soft joins\" using embedding vectors[1] and the Hungarian algorithm[2] and I'm turning it into an open source Python package",
+      "evidence": [
+        {
+          "source_item_id": 45563086,
+          "source_field": "body",
+          "value": "I found a neat way to do high-quality \"semantic soft joins\" using embedding vectors[1] and the Hungarian algorithm[2] and I'm turning it into an open source Python package",
+          "supports": [],
+          "author": "olooney",
+          "shared_at": 1760312161,
+          "source_url": "https://news.ycombinator.com/item?id=45563086"
+        }
+      ],
+      "source_item_id": 45563086,
+      "source_url": "https://news.ycombinator.com/item?id=45563086",
+      "author": "olooney",
+      "shared_at": 1760312161,
+      "links": [
+        "https://github.com/olooney/jellyjoin"
+      ]
+    }
+  ]
+}

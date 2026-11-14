@@ -1,0 +1,35 @@
+{
+  "id": 7525,
+  "slug": "wait-969fa38b04",
+  "name": "Wait",
+  "mentions": [
+    {
+      "name": "Wait",
+      "description": "A self-hostable, CORS-enabled, headless waitlist system that collects emails from landing pages and writes them to Google Sheets. Static landing pages send cross-domain AJAX requests directly to the Wait server (no iframe), so the site owner keeps full control of form styling and post-submission actions; it runs cheaply on a small VPS (about $4/month on OVHCloud).",
+      "problem": "Collecting emails into waitlists across many landing pages, where iframe-embedded or provider-locked form widgets make styling and post-submission actions hard to customize.",
+      "audience": "People launching landing pages who want to collect emails into waitlists",
+      "builder_usernames": [
+        "tanin"
+      ],
+      "source_excerpt": "I have been working on Wait: https://github.com/tanin47/wait, a self-hostable CORS-enabled headless waitlist system that connects to Google Sheets.",
+      "evidence": [
+        {
+          "source_item_id": 46584686,
+          "source_field": "body",
+          "value": "I have been working on Wait: https://github.com/tanin47/wait, a self-hostable CORS-enabled headless waitlist system that connects to Google Sheets.",
+          "supports": [],
+          "author": "tanin",
+          "shared_at": 1768198165,
+          "source_url": "https://news.ycombinator.com/item?id=46584686"
+        }
+      ],
+      "source_item_id": 46584686,
+      "source_url": "https://news.ycombinator.com/item?id=46584686",
+      "author": "tanin",
+      "shared_at": 1768198165,
+      "links": [
+        "https://github.com/tanin47/wait"
+      ]
+    }
+  ]
+}

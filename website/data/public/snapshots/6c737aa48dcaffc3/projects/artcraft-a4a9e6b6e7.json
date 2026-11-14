@@ -1,0 +1,35 @@
+{
+  "id": 9218,
+  "slug": "artcraft-a4a9e6b6e7",
+  "name": "ArtCraft",
+  "mentions": [
+    {
+      "name": "ArtCraft",
+      "description": "A source-available desktop app (written in Rust) that combines AI image and video generation with intentional design surfaces. It offers 2D and 3D canvases for deliberate scene composition, set design, and actor blocking for filmmaking, and acts as a model aggregator: users can log into their existing AI image and video provider accounts (Sora, Midjourney, Grok, and soon OpenArt or a FAL API key) to use their own credits and funds without paying for the tool.",
+      "problem": "Text prompting sucks for artists and designers, so the tool puts image and video design onto canvases that can be intuitively molded like clay instead.",
+      "audience": "For people into movies and filmmaking, as well as artists and designers.",
+      "builder_usernames": [
+        "echelon"
+      ],
+      "source_excerpt": "ArtCraft [1], a source available Adobe + AI.\n\nHere's a demo / trailer that shows it off:\n\nhttps://www.youtube.com/watch?v=NNHSTfWbkaA\n\nIf you're into movies or filmmaking, it's a fantastic AI tool for consistent, fully-intentional scenes with deliberate set and actor blocking.\n\nIt's also the cheapest model aggregator service out there.",
+      "evidence": [
+        {
+          "source_item_id": 45871439,
+          "source_field": "body",
+          "value": "ArtCraft [1], a source available Adobe + AI.\n\nHere's a demo / trailer that shows it off:\n\nhttps://www.youtube.com/watch?v=NNHSTfWbkaA\n\nIf you're into movies or filmmaking, it's a fantastic AI tool for consistent, fully-intentional scenes with deliberate set and actor blocking.\n\nIt's also the cheapest model aggregator service out there.",
+          "supports": [],
+          "author": "echelon",
+          "shared_at": 1762740070,
+          "source_url": "https://news.ycombinator.com/item?id=45871439"
+        }
+      ],
+      "source_item_id": 45871439,
+      "source_url": "https://news.ycombinator.com/item?id=45871439",
+      "author": "echelon",
+      "shared_at": 1762740070,
+      "links": [
+        "https://getartcraft.com"
+      ]
+    }
+  ]
+}

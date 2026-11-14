@@ -1,0 +1,35 @@
+{
+  "id": 7504,
+  "slug": "collaborative-ai-agent-orchestrator-1a51737608",
+  "name": "Collaborative AI Agent Orchestrator",
+  "mentions": [
+    {
+      "name": "Collaborative AI Agent Orchestrator",
+      "description": "This is a collaborative AI agent orchestrator that models work as a group chat with humans and AI agents, including an orchestrator agent. The orchestrator routes messages to existing agents or spawns new agents as needed, and users can open agent details and message existing agents directly, similar to Slack threads. MCP integrations with Linear and GitHub are working, with more planned.",
+      "problem": "Single-agent AI chat uses one context window even for very long conversations, so changing topics or going on tangents compromises the main thread and forces copying context over.",
+      "audience": "Hardcore AI chat users frustrated with single-agent, single-context-window workflows",
+      "builder_usernames": [
+        "jonator"
+      ],
+      "source_excerpt": "I'm working on a collaborative AI agent orchestrator that models the solution as a group chat with humans and AI agents, including an agent orchestrator.",
+      "evidence": [
+        {
+          "source_item_id": 46578200,
+          "source_field": "body",
+          "value": "I'm working on a collaborative AI agent orchestrator that models the solution as a group chat with humans and AI agents, including an agent orchestrator.",
+          "supports": [],
+          "author": "jonator",
+          "shared_at": 1768156070,
+          "source_url": "https://news.ycombinator.com/item?id=46578200"
+        }
+      ],
+      "source_item_id": 46578200,
+      "source_url": "https://news.ycombinator.com/item?id=46578200",
+      "author": "jonator",
+      "shared_at": 1768156070,
+      "links": [
+        "https://x.com/jon_ator/status/2010370649147998459?s=20"
+      ]
+    }
+  ]
+}

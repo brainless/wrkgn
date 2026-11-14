@@ -1,0 +1,35 @@
+{
+  "id": 10473,
+  "slug": "freefollow-579a06748e",
+  "name": "Freefollow",
+  "mentions": [
+    {
+      "name": "Freefollow",
+      "description": "A private, end-to-end-encrypted social app for sharing picture and video \"posts\" with a chosen circle of friends and family, offering pub/sub-style following without group texts or toxicity. Built as a React app on Cloudflare Workers with an iOS app in the works using Capacitor, and E2EE built on OPAQUE.",
+      "problem": "Group texts are unsatisfying for sharing updates with ~20 people — blasting everyone with texts or putting them all in one group — so the builders wanted something pub/sub with the privacy of E2EE chat apps that is easy enough for parents to use.",
+      "audience": "Friends and family of the builders, including less technical users such as parents.",
+      "builder_usernames": [
+        "arch_deluxe"
+      ],
+      "source_excerpt": "For a long time I've been wanting a private, E2EE social media app for sharing pics/videos of my son with friends and family, but haven't found anything fitting that description.",
+      "evidence": [
+        {
+          "source_item_id": 44704783,
+          "source_field": "body",
+          "value": "For a long time I've been wanting a private, E2EE social media app for sharing pics/videos of my son with friends and family, but haven't found anything fitting that description.",
+          "supports": [],
+          "author": "arch_deluxe",
+          "shared_at": 1753651148,
+          "source_url": "https://news.ycombinator.com/item?id=44704783"
+        }
+      ],
+      "source_item_id": 44704783,
+      "source_url": "https://news.ycombinator.com/item?id=44704783",
+      "author": "arch_deluxe",
+      "shared_at": 1753651148,
+      "links": [
+        "https://freefollow.org"
+      ]
+    }
+  ]
+}

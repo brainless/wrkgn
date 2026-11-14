@@ -1,0 +1,36 @@
+{
+  "id": 9997,
+  "slug": "fraim-73670ae532",
+  "name": "Fraim",
+  "mentions": [
+    {
+      "name": "Fraim",
+      "description": "Open-source AI agents for cloud security and application security engineers that complement existing deterministic scanners. The agents use LLMs to evaluate subjective security policies (e.g., least privilege, exposed admin ports) more like a security engineer would, watch pull requests for potentially risky changes needing closer human review, and prioritize findings from traditional SAST/IaC check runs so important ones get attention instead of flooding PRs with false positives.",
+      "problem": "Security policies are frequently subjective and hard to codify deterministically, security engineers are stretched thin, and traditional check runs (SAST, IaC, etc.) flood PRs with frequent false positives that devs tend to ignore, so security doesn't have time to review them all.",
+      "audience": "Cloudsec and appsec engineers",
+      "builder_usernames": [
+        "excitedrustle"
+      ],
+      "source_excerpt": "Working on Fraim, open-source agents for cloudsec and appsec engineers to complement existing deterministic scanners.",
+      "evidence": [
+        {
+          "source_item_id": 45419125,
+          "source_field": "body",
+          "value": "Working on Fraim, open-source agents for cloudsec and appsec engineers to complement existing deterministic scanners.",
+          "supports": [],
+          "author": "excitedrustle",
+          "shared_at": 1759182176,
+          "source_url": "https://news.ycombinator.com/item?id=45419125"
+        }
+      ],
+      "source_item_id": 45419125,
+      "source_url": "https://news.ycombinator.com/item?id=45419125",
+      "author": "excitedrustle",
+      "shared_at": 1759182176,
+      "links": [
+        "https://github.com/fraim-dev/fraim",
+        "https://www.fraim.dev"
+      ]
+    }
+  ]
+}

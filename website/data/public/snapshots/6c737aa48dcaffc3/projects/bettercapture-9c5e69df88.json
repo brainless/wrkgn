@@ -1,0 +1,119 @@
+{
+  "id": 1458,
+  "slug": "bettercapture-9c5e69df88",
+  "name": "BetterCapture",
+  "mentions": [
+    {
+      "name": "BetterCapture",
+      "description": "A native, resource-efficient screen recorder for macOS that supports HEVC, H.264, ProRes 422/4444, HDR, and alpha channels.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jsattler"
+      ],
+      "source_excerpt": "It's a native, resource efficient screen recorder for macOS. It supports HEVC, H.264, ProRes 422/4444, HDR, Alpha Channels and more.",
+      "evidence": [
+        {
+          "source_item_id": 49693211,
+          "source_field": "body",
+          "value": "It's a native, resource efficient screen recorder for macOS. It supports HEVC, H.264, ProRes 422/4444, HDR, Alpha Channels and more.",
+          "supports": [],
+          "author": "jsattler",
+          "shared_at": 1789371218,
+          "source_url": "https://news.ycombinator.com/item?id=49693211"
+        }
+      ],
+      "source_item_id": 49693211,
+      "source_url": "https://news.ycombinator.com/item?id=49693211",
+      "author": "jsattler",
+      "shared_at": 1789371218,
+      "links": [
+        "https://github.com/jsattler/BetterCapture"
+      ]
+    },
+    {
+      "name": "BetterCapture",
+      "description": "This is a lightweight (~4MB, low memory/CPU footprint) screen recorder for macOS that lives in the menu bar. It supports ProRes 422/4444, HEVC, and H.264 with alpha channel and HDR, frame rates from 24 to 120fps, and simultaneous system audio and microphone capture, and can exclude items like the menu bar, dock, or wallpaper from recordings. It has no tracking, analytics, cloud uploads, or accounts (MIT licensed, everything stays local), and a plugin system is planned so others can contribute new functionality while keeping the core app small.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jsattler"
+      ],
+      "source_excerpt": "I'm currently working on BetterCapture (https://github.com/jsattler/BetterCapture), which is a lightweight (~4MB size and low memory/cpu footprint) screen recorder for macOS that lives in your menu bar.",
+      "evidence": [
+        {
+          "source_item_id": 48088926,
+          "source_field": "body",
+          "value": "I'm currently working on BetterCapture (https://github.com/jsattler/BetterCapture), which is a lightweight (~4MB size and low memory/cpu footprint) screen recorder for macOS that lives in your menu bar.",
+          "supports": [],
+          "author": "jsattler",
+          "shared_at": 1778453228,
+          "source_url": "https://news.ycombinator.com/item?id=48088926"
+        }
+      ],
+      "source_item_id": 48088926,
+      "source_url": "https://news.ycombinator.com/item?id=48088926",
+      "author": "jsattler",
+      "shared_at": 1778453228,
+      "links": [
+        "https://github.com/jsattler/BetterCapture"
+      ]
+    },
+    {
+      "name": "BetterCapture",
+      "description": "A lightweight screen recorder for macOS with professional codecs (ProRes 422/4444, HEVC/H.265, H.264), alpha channel capture, HDR support, frame rates from 24 to 120fps, simultaneous system audio and microphone capture, and the option to exclude UI elements such as the menu bar, dock, or wallpaper from recordings. It is MIT licensed with no tracking, analytics, cloud uploads, or accounts — everything stays on the Mac.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jsattler"
+      ],
+      "source_excerpt": "I'm building a lightweight screen recorder for macOS. It supports lots of features you'd expect from a professional screen recorder such as ProRes 422/4444, HEVC/H.265, and H.264, capturing alpha channels and supports HDR. Frame rates from 24 to 120fps.",
+      "evidence": [
+        {
+          "source_item_id": 47311433,
+          "source_field": "body",
+          "value": "I'm building a lightweight screen recorder for macOS. It supports lots of features you'd expect from a professional screen recorder such as ProRes 422/4444, HEVC/H.265, and H.264, capturing alpha channels and supports HDR. Frame rates from 24 to 120fps.",
+          "supports": [],
+          "author": "jsattler",
+          "shared_at": 1773074397,
+          "source_url": "https://news.ycombinator.com/item?id=47311433"
+        }
+      ],
+      "source_item_id": 47311433,
+      "source_url": "https://news.ycombinator.com/item?id=47311433",
+      "author": "jsattler",
+      "shared_at": 1773074397,
+      "links": [
+        "https://github.com/jsattler/BetterCapture"
+      ]
+    },
+    {
+      "name": "BetterCapture",
+      "description": "This is a lightweight macOS screen recorder that lives in the menu bar. It uses SwiftUI and ScreenCaptureKit with the native Content Picker for selecting recording targets, supports ProRes 422/4444, HEVC, and H.264 (including alpha channel and HDR) at 24-120fps, captures system audio and mic simultaneously, and can exclude elements like the menu bar, dock, or wallpaper. It collects no tracking or analytics, performs no cloud uploads, requires no account, and is MIT licensed with everything staying on the local Mac.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jsattler"
+      ],
+      "source_excerpt": "It's a lightweight screen recorder for macOS that lives in your menu bar. It's built with SwiftUI and ScreenCaptureKit, uses the native Content Picker to select what you record, and supports ProRes 422/4444, HEVC, and H.264 — including alpha channel and HDR.",
+      "evidence": [
+        {
+          "source_item_id": 46941915,
+          "source_field": "body",
+          "value": "It's a lightweight screen recorder for macOS that lives in your menu bar. It's built with SwiftUI and ScreenCaptureKit, uses the native Content Picker to select what you record, and supports ProRes 422/4444, HEVC, and H.264 — including alpha channel and HDR.",
+          "supports": [],
+          "author": "jsattler",
+          "shared_at": 1770615396,
+          "source_url": "https://news.ycombinator.com/item?id=46941915"
+        }
+      ],
+      "source_item_id": 46941915,
+      "source_url": "https://news.ycombinator.com/item?id=46941915",
+      "author": "jsattler",
+      "shared_at": 1770615396,
+      "links": [
+        "https://github.com/jsattler/BetterCapture"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": 7072,
+  "slug": "gata-router-81f9d5e4d9",
+  "name": "Gata Router",
+  "mentions": [
+    {
+      "name": "Gata Router",
+      "description": "Open source automated L1 ticket triage tool for Zendesk that routes tickets to the correct team, running entirely in the user's AWS account. It costs pennies per ticket and achieved over 90% routing accuracy during development, compared with a typical human accuracy of 60-80%.",
+      "problem": "Zendesk tickets need to be triaged and routed to the correct team; human triage typically achieves only 60-80% accuracy.",
+      "audience": null,
+      "builder_usernames": [
+        "skwashd"
+      ],
+      "source_excerpt": "Last week I released Gata Router - https://github.com/gata-router\n\nGata is an open source automated L1 ticket triage tool for Zendesk. It costs pennies per ticket for it to route tickets to the correct team.",
+      "evidence": [
+        {
+          "source_item_id": 46940204,
+          "source_field": "body",
+          "value": "Last week I released Gata Router - https://github.com/gata-router\n\nGata is an open source automated L1 ticket triage tool for Zendesk. It costs pennies per ticket for it to route tickets to the correct team.",
+          "supports": [],
+          "author": "skwashd",
+          "shared_at": 1770597700,
+          "source_url": "https://news.ycombinator.com/item?id=46940204"
+        }
+      ],
+      "source_item_id": 46940204,
+      "source_url": "https://news.ycombinator.com/item?id=46940204",
+      "author": "skwashd",
+      "shared_at": 1770597700,
+      "links": [
+        "https://github.com/gata-router",
+        "https://www.proactiveops.io/archive/meet-gata-the-automated-ticket-router-for-zendesk/"
+      ]
+    }
+  ]
+}

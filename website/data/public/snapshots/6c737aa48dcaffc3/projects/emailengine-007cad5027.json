@@ -1,0 +1,35 @@
+{
+  "id": 10968,
+  "slug": "emailengine-007cad5027",
+  "name": "EmailEngine",
+  "mentions": [
+    {
+      "name": "EmailEngine",
+      "description": "A service that gives applications structured access to mailboxes: message contents can be fetched with an API request, or it can be configured to send a webhook with structured JSON for every new email, such as the messageNew webhook.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "andris9"
+      ],
+      "source_excerpt": "You can also get structured data out of mailboxes with my project EmailEngine. You can use an API request to fetch message contents, or you can configure EmailEngine to send a webhook for every new email in a structured JSON, for example, like this: https://emailengine.app/webhooks#messageNew",
+      "evidence": [
+        {
+          "source_item_id": 43824623,
+          "source_field": "body",
+          "value": "You can also get structured data out of mailboxes with my project EmailEngine. You can use an API request to fetch message contents, or you can configure EmailEngine to send a webhook for every new email in a structured JSON, for example, like this: https://emailengine.app/webhooks#messageNew",
+          "supports": [],
+          "author": "andris9",
+          "shared_at": 1745865993,
+          "source_url": "https://news.ycombinator.com/item?id=43824623"
+        }
+      ],
+      "source_item_id": 43824623,
+      "source_url": "https://news.ycombinator.com/item?id=43824623",
+      "author": "andris9",
+      "shared_at": 1745865993,
+      "links": [
+        "https://emailengine.app/webhooks#messageNew"
+      ]
+    }
+  ]
+}

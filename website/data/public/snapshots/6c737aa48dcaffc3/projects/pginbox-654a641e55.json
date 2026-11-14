@@ -1,0 +1,65 @@
+{
+  "id": 5416,
+  "slug": "pginbox-654a641e55",
+  "name": "pginbox",
+  "mentions": [
+    {
+      "name": "pginbox",
+      "description": "Web interface for browsing and searching the PostgreSQL mailing lists. It polls a Fastmail inbox to ingest new messages nearly instantly; anyone can browse without an account, while registered users can follow threads to be notified of new messages, with threads containing their registered email auto-followed, plus quality-of-life settings. Search currently does keyword matching on subjects, with improved search planned next.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jbonatakis"
+      ],
+      "source_excerpt": "https://pginbox.dev\n\nRepo: https://github.com/jbonatakis/pginbox\n\nMakes reading/searching the Postgres mailing lists easier.",
+      "evidence": [
+        {
+          "source_item_id": 47744446,
+          "source_field": "body",
+          "value": "https://pginbox.dev\n\nRepo: https://github.com/jbonatakis/pginbox\n\nMakes reading/searching the Postgres mailing lists easier.",
+          "supports": [],
+          "author": "jbonatakis",
+          "shared_at": 1776027789,
+          "source_url": "https://news.ycombinator.com/item?id=47744446"
+        }
+      ],
+      "source_item_id": 47744446,
+      "source_url": "https://news.ycombinator.com/item?id=47744446",
+      "author": "jbonatakis",
+      "shared_at": 1776027789,
+      "links": [
+        "https://github.com/jbonatakis/pginbox",
+        "https://pginbox.dev"
+      ]
+    },
+    {
+      "name": "pginbox",
+      "description": "A web app that downloads and parses the pgsql-hackers mailing list and presents it as an alternative thread display, with plans to explore hybrid search and improve on the official mailing list site's basic search features.",
+      "problem": "The official mailing list site has a clean thread display but its search features are basic.",
+      "audience": null,
+      "builder_usernames": [
+        "jbonatakis"
+      ],
+      "source_excerpt": "Very much mvp but I just got this all set up: https://www.pginbox.dev/\n\nDownloaded and parsed a bunch of the pgsql-hackers mailing list. Right now it’s just a pretty basic alternative display, but I have some ideas I want to explore around hybrid search and a few other things. The official site for the mailing list has a pretty clean thread display but the search features are basic so I’m trying to see how I can improve on that.",
+      "evidence": [
+        {
+          "source_item_id": 47304215,
+          "source_field": "body",
+          "value": "Very much mvp but I just got this all set up: https://www.pginbox.dev/\n\nDownloaded and parsed a bunch of the pgsql-hackers mailing list. Right now it’s just a pretty basic alternative display, but I have some ideas I want to explore around hybrid search and a few other things. The official site for the mailing list has a pretty clean thread display but the search features are basic so I’m trying to see how I can improve on that.",
+          "supports": [],
+          "author": "jbonatakis",
+          "shared_at": 1773023502,
+          "source_url": "https://news.ycombinator.com/item?id=47304215"
+        }
+      ],
+      "source_item_id": 47304215,
+      "source_url": "https://news.ycombinator.com/item?id=47304215",
+      "author": "jbonatakis",
+      "shared_at": 1773023502,
+      "links": [
+        "https://github.com/jbonatakis/pginbox",
+        "https://www.pginbox.dev/"
+      ]
+    }
+  ]
+}

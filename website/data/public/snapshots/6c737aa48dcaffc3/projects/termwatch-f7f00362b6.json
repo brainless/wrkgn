@@ -1,0 +1,35 @@
+{
+  "id": 6511,
+  "slug": "termwatch-f7f00362b6",
+  "name": "TermWatch",
+  "mentions": [
+    {
+      "name": "TermWatch",
+      "description": "TermWatch is a terminal-native infrastructure monitoring tool with an integrated GitOps flow. Users define monitors in YAML, deploy them from the terminal, and receive alerts when things break, without having to click through dashboards. It can be installed via curl, a dotnet package, or manual download.",
+      "problem": "Traditional monitoring tools require clicking through dashboards.",
+      "audience": "Terminal-based infrastructure operators",
+      "builder_usernames": [
+        "termwatch"
+      ],
+      "source_excerpt": "TermWatch, a terminal-native monitoring\n\nMonitor your infrastructure from the terminal.\n\nIntegrated GitOps flow.\n\nDefine monitors in YAML, deploy from your terminal, get alerted when things break.\n\nNo dashboards to click through.",
+      "evidence": [
+        {
+          "source_item_id": 47308919,
+          "source_field": "body",
+          "value": "TermWatch, a terminal-native monitoring\n\nMonitor your infrastructure from the terminal.\n\nIntegrated GitOps flow.\n\nDefine monitors in YAML, deploy from your terminal, get alerted when things break.\n\nNo dashboards to click through.",
+          "supports": [],
+          "author": "termwatch",
+          "shared_at": 1773063455,
+          "source_url": "https://news.ycombinator.com/item?id=47308919"
+        }
+      ],
+      "source_item_id": 47308919,
+      "source_url": "https://news.ycombinator.com/item?id=47308919",
+      "author": "termwatch",
+      "shared_at": 1773063455,
+      "links": [
+        "https://termwatch.dev"
+      ]
+    }
+  ]
+}

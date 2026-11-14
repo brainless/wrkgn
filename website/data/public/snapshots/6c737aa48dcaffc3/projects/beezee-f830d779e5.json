@@ -1,0 +1,35 @@
+{
+  "id": 5985,
+  "slug": "beezee-f830d779e5",
+  "name": "BeeZee",
+  "mentions": [
+    {
+      "name": "BeeZee",
+      "description": "BeeZee is a BYOK, stateless agent orchestrator — a provider-agnostic web coding agent similar to Claude Cowork where users own their data and connect multiple executor nodes to one master agentic server. The server is stateless: data lives on the nodes and in a managed database, with auth keys encrypted using Supabase and Google KMS; it runs on the Pi agent under the hood. Users describe a coding task from their phone without a dedicated SSH terminal and get results in about 10 minutes without babysitting the agent; it is also used for white-collar tasks like Excel analysis and translation.",
+      "problem": "Installing and managing a coding agent on every machine and needing a dedicated SSH terminal and constant supervision to run agent tasks.",
+      "audience": null,
+      "builder_usernames": [
+        "PAndreew"
+      ],
+      "source_excerpt": "Managed BYOK stateless agent orchestrator called BeeZee: https://beezyai.net/. Basically Claude Cowork / a coding agent on the web but provider agnostic, you own the data and you can connect several nodes to it.",
+      "evidence": [
+        {
+          "source_item_id": 47306535,
+          "source_field": "body",
+          "value": "Managed BYOK stateless agent orchestrator called BeeZee: https://beezyai.net/. Basically Claude Cowork / a coding agent on the web but provider agnostic, you own the data and you can connect several nodes to it.",
+          "supports": [],
+          "author": "PAndreew",
+          "shared_at": 1773047299,
+          "source_url": "https://news.ycombinator.com/item?id=47306535"
+        }
+      ],
+      "source_item_id": 47306535,
+      "source_url": "https://news.ycombinator.com/item?id=47306535",
+      "author": "PAndreew",
+      "shared_at": 1773047299,
+      "links": [
+        "https://beezyai.net/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 8343,
+  "slug": "git-dataframe-tools-02e999a59e",
+  "name": "git-dataframe-tools",
+  "mentions": [
+    {
+      "name": "git-dataframe-tools",
+      "description": "A git extension that turns commit history into a pandas dataframe, enabling programmatic analysis of repository commit data. Built as an experiment with gemini-cli.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rongenre"
+      ],
+      "source_excerpt": "I was screwing around with gemini-cli and vibe-coded (or vibe-engineered?) a git extension to turn commit history into a pandas dataframe.\n\nCurious if anyone would find this useful: https://github.com/rbagchi/git-dataframe-tools",
+      "evidence": [
+        {
+          "source_item_id": 46270363,
+          "source_field": "body",
+          "value": "I was screwing around with gemini-cli and vibe-coded (or vibe-engineered?) a git extension to turn commit history into a pandas dataframe.\n\nCurious if anyone would find this useful: https://github.com/rbagchi/git-dataframe-tools",
+          "supports": [],
+          "author": "rongenre",
+          "shared_at": 1765771549,
+          "source_url": "https://news.ycombinator.com/item?id=46270363"
+        }
+      ],
+      "source_item_id": 46270363,
+      "source_url": "https://news.ycombinator.com/item?id=46270363",
+      "author": "rongenre",
+      "shared_at": 1765771549,
+      "links": [
+        "https://github.com/rbagchi/git-dataframe-tools"
+      ]
+    }
+  ]
+}

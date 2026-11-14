@@ -1,0 +1,35 @@
+{
+  "id": 9867,
+  "slug": "tailstream-6fa5b348be",
+  "name": "Tailstream",
+  "mentions": [
+    {
+      "name": "Tailstream",
+      "description": "Real-time log visualization platform with wallboard/TV support, inspired by Logstalgia. It provides a public backend API usable by any client, plus an open source agent written in Go that makes setup easy. A proper log viewer, alerts, and further visualization improvements are in development.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "arondeparon"
+      ],
+      "source_excerpt": "Working on real-time log visualization platform with wallboard/tv support, initially inspired by Logstalgia:\n\nhttps://tailstream.io\n\nLaunched the initial version a couple of weeks ago and making good progress, trying to share as much of the process as I can on X.\n\nBackend API can be used by any client, but I also built an open source agent in Go that makes setup really easy.",
+      "evidence": [
+        {
+          "source_item_id": 45418939,
+          "source_field": "body",
+          "value": "Working on real-time log visualization platform with wallboard/tv support, initially inspired by Logstalgia:\n\nhttps://tailstream.io\n\nLaunched the initial version a couple of weeks ago and making good progress, trying to share as much of the process as I can on X.\n\nBackend API can be used by any client, but I also built an open source agent in Go that makes setup really easy.",
+          "supports": [],
+          "author": "arondeparon",
+          "shared_at": 1759181054,
+          "source_url": "https://news.ycombinator.com/item?id=45418939"
+        }
+      ],
+      "source_item_id": 45418939,
+      "source_url": "https://news.ycombinator.com/item?id=45418939",
+      "author": "arondeparon",
+      "shared_at": 1759181054,
+      "links": [
+        "https://tailstream.io"
+      ]
+    }
+  ]
+}

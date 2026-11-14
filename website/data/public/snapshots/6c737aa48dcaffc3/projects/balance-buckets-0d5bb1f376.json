@@ -1,0 +1,63 @@
+{
+  "id": 6564,
+  "slug": "balance-buckets-0d5bb1f376",
+  "name": "Balance Buckets",
+  "mentions": [
+    {
+      "name": "Balance Buckets",
+      "description": "An envelope budgeting app that helps users set aside money for the things they care about, offering two-minute envelope accounting for a bank balance.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "codazoda"
+      ],
+      "source_excerpt": "Balance Buckets helps you set aside money for the things you care about.\n\nIt’s two-minute envelope accounting for your bank balance.\n\nhttps://buckets.joelryan.com",
+      "evidence": [
+        {
+          "source_item_id": 47307951,
+          "source_field": "body",
+          "value": "Balance Buckets helps you set aside money for the things you care about.\n\nIt’s two-minute envelope accounting for your bank balance.\n\nhttps://buckets.joelryan.com",
+          "supports": [],
+          "author": "codazoda",
+          "shared_at": 1773057764,
+          "source_url": "https://news.ycombinator.com/item?id=47307951"
+        }
+      ],
+      "source_item_id": 47307951,
+      "source_url": "https://news.ycombinator.com/item?id=47307951",
+      "author": "codazoda",
+      "shared_at": 1773057764,
+      "links": [
+        "https://buckets.joelryan.com"
+      ]
+    },
+    {
+      "name": "Balance Buckets",
+      "description": "A local-first budgeting app that answers 'How much is safe to spend right now?' Users define a few buckets (fixed dollars or percentages), enter their current balance, and immediately see what's left and what's funded vs underfunded. It stores everything in localStorage with no bank login, account linking, or transaction import, aiming for clarity in under a minute.",
+      "problem": "Most small business bank accounts don't have buckets or envelope saving features, and other finance apps demand heavy setup overhead instead of dead-simple clarity.",
+      "audience": "Small business owners whose bank accounts lack bucket/envelope saving features, and individuals who want quick clarity on where their money is",
+      "builder_usernames": [
+        "codazoda"
+      ],
+      "source_excerpt": "Balance Buckets helps you quickly answer the question: “How much is safe to spend right now?”\n\nYou setup a few buckets then drop in your current balance. It immediately shows you what’s left. It’s local-first (just localStorage), no bank login, no account linking, and no transaction import rabbit hole.",
+      "evidence": [
+        {
+          "source_item_id": 47087816,
+          "source_field": "body",
+          "value": "Balance Buckets helps you quickly answer the question: “How much is safe to spend right now?”\n\nYou setup a few buckets then drop in your current balance. It immediately shows you what’s left. It’s local-first (just localStorage), no bank login, no account linking, and no transaction import rabbit hole.",
+          "supports": [],
+          "author": "codazoda",
+          "shared_at": 1771594242,
+          "source_url": "https://news.ycombinator.com/item?id=47087816"
+        }
+      ],
+      "source_item_id": 47087816,
+      "source_url": "https://news.ycombinator.com/item?id=47087816",
+      "author": "codazoda",
+      "shared_at": 1771594242,
+      "links": [
+        "https://buckets.joelryan.com"
+      ]
+    }
+  ]
+}

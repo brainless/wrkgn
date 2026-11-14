@@ -1,0 +1,35 @@
+{
+  "id": 6653,
+  "slug": "logprox-f4a185a8d0",
+  "name": "logprox",
+  "mentions": [
+    {
+      "name": "logprox",
+      "description": "A logging proxy that traces where internal-to-external network calls originate and can optionally block them. The author also plans work on easing integration and deployment for anyone who wants to use it.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mystickphoenix"
+      ],
+      "source_excerpt": "I've been working on an idea for a logging proxy to track down where internal->external calls are coming from and optionally block them.",
+      "evidence": [
+        {
+          "source_item_id": 47366234,
+          "source_field": "body",
+          "value": "I've been working on an idea for a logging proxy to track down where internal->external calls are coming from and optionally block them.",
+          "supports": [],
+          "author": "mystickphoenix",
+          "shared_at": 1773417659,
+          "source_url": "https://news.ycombinator.com/item?id=47366234"
+        }
+      ],
+      "source_item_id": 47366234,
+      "source_url": "https://news.ycombinator.com/item?id=47366234",
+      "author": "mystickphoenix",
+      "shared_at": 1773417659,
+      "links": [
+        "https://github.com/bryan-lott/logprox"
+      ]
+    }
+  ]
+}

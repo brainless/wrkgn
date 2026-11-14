@@ -1,0 +1,36 @@
+{
+  "id": 5874,
+  "slug": "meza-d0fc260f8a",
+  "name": "Meza",
+  "mentions": [
+    {
+      "name": "Meza",
+      "description": "An end-to-end encrypted chat client that positions itself between Discord and Matrix, aiming to avoid Discord's enshittification while offering good UX around encryption. Built as a weekend project and still has rough edges, with reliability quality described as early in the 'march of nines'.",
+      "problem": "Discord's enshittification and Matrix's poor UX around encryption.",
+      "audience": null,
+      "builder_usernames": [
+        "sbysb"
+      ],
+      "source_excerpt": "https://meza.chat/\n\nBeen building an E2EE chat client on the weekends that sits right between Discord (but dis-enshittified) and Matrix (but with good UX around encryption).",
+      "evidence": [
+        {
+          "source_item_id": 47753395,
+          "source_field": "body",
+          "value": "https://meza.chat/\n\nBeen building an E2EE chat client on the weekends that sits right between Discord (but dis-enshittified) and Matrix (but with good UX around encryption).",
+          "supports": [],
+          "author": "sbysb",
+          "shared_at": 1776093982,
+          "source_url": "https://news.ycombinator.com/item?id=47753395"
+        }
+      ],
+      "source_item_id": 47753395,
+      "source_url": "https://news.ycombinator.com/item?id=47753395",
+      "author": "sbysb",
+      "shared_at": 1776093982,
+      "links": [
+        "https://github.com/mezalabs/meza",
+        "https://meza.chat/"
+      ]
+    }
+  ]
+}

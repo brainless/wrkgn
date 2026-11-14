@@ -1,0 +1,35 @@
+{
+  "id": 8326,
+  "slug": "polystore-e8ecc653c3",
+  "name": "polystore",
+  "mentions": [
+    {
+      "name": "polystore",
+      "description": "This JavaScript library provides a widely compatible key-value store interface that connects to many stores, so a single library can make a wide range of stores easily accessible. It lets an API client library accept multiple cache stores without writing the compatibility layer itself, and lets a project use file-based storage for local dev (highly debuggable) and switch to Redis in production via a simple environment variable change.",
+      "problem": "When building API client libraries or projects with caching, developers repeatedly have to write compatibility layers for multiple cache stores themselves; polystore aims to have a single library handle all of this.",
+      "audience": "Developers building libraries and projects that need to support multiple cache/key-value stores across local development and production environments.",
+      "builder_usernames": [
+        "franciscop"
+      ],
+      "source_excerpt": "I'm working on finishing my JS KV compatibility library polystore [0], the goal is to make a widely compatible library to connect to many stores so that you can have a wide range of stores easily accesible.",
+      "evidence": [
+        {
+          "source_item_id": 46273217,
+          "source_field": "body",
+          "value": "I'm working on finishing my JS KV compatibility library polystore [0], the goal is to make a widely compatible library to connect to many stores so that you can have a wide range of stores easily accesible.",
+          "supports": [],
+          "author": "franciscop",
+          "shared_at": 1765799054,
+          "source_url": "https://news.ycombinator.com/item?id=46273217"
+        }
+      ],
+      "source_item_id": 46273217,
+      "source_url": "https://news.ycombinator.com/item?id=46273217",
+      "author": "franciscop",
+      "shared_at": 1765799054,
+      "links": [
+        "https://polystore.dev/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 5849,
+  "slug": "effect-based-sml-runtime-9328204c55",
+  "name": "Effect-based SML runtime",
+  "mentions": [
+    {
+      "name": "Effect-based SML runtime",
+      "description": "A new Standard ML (SML) runtime that uses effect-based IO, eliminating function colouring so synchronous and asynchronous code can share a single calling convention.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dev_l1x_be"
+      ],
+      "source_excerpt": "A new SML runtime with effect based IO (no function colouring).",
+      "evidence": [
+        {
+          "source_item_id": 47749767,
+          "source_field": "body",
+          "value": "A new SML runtime with effect based IO (no function colouring).",
+          "supports": [],
+          "author": "dev_l1x_be",
+          "shared_at": 1776073184,
+          "source_url": "https://news.ycombinator.com/item?id=47749767"
+        }
+      ],
+      "source_item_id": 47749767,
+      "source_url": "https://news.ycombinator.com/item?id=47749767",
+      "author": "dev_l1x_be",
+      "shared_at": 1776073184,
+      "links": []
+    }
+  ]
+}

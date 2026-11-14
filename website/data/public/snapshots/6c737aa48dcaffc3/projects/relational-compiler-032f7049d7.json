@@ -1,0 +1,33 @@
+{
+  "id": 7398,
+  "slug": "relational-compiler-032f7049d7",
+  "name": "Relational compiler",
+  "mentions": [
+    {
+      "name": "Relational compiler",
+      "description": "A relational compiler that turns Postgres into a compute runtime, making Spark batch jobs run 10x faster.",
+      "problem": "Slow Spark batch jobs.",
+      "audience": null,
+      "builder_usernames": [
+        "hunterpayne"
+      ],
+      "source_excerpt": "Something I call a relational compiler.  It makes Spark batch jobs run 10x faster by turning Postgres into a compute runtime.",
+      "evidence": [
+        {
+          "source_item_id": 46943609,
+          "source_field": "body",
+          "value": "Something I call a relational compiler.  It makes Spark batch jobs run 10x faster by turning Postgres into a compute runtime.",
+          "supports": [],
+          "author": "hunterpayne",
+          "shared_at": 1770632020,
+          "source_url": "https://news.ycombinator.com/item?id=46943609"
+        }
+      ],
+      "source_item_id": 46943609,
+      "source_url": "https://news.ycombinator.com/item?id=46943609",
+      "author": "hunterpayne",
+      "shared_at": 1770632020,
+      "links": []
+    }
+  ]
+}

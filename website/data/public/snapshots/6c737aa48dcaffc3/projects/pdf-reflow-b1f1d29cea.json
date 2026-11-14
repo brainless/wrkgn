@@ -1,0 +1,35 @@
+{
+  "id": 3959,
+  "slug": "pdf-reflow-b1f1d29cea",
+  "name": "PDF Reflow",
+  "mentions": [
+    {
+      "name": "PDF Reflow",
+      "description": "This app displays PDFs on mobile while preserving the original look and feel — fonts, formulas, pictures, and tables — reformatted for a smaller screen. It uses a locally run YOLO detector trained specifically on detecting PDF page regions, replacing the earlier heuristics-based approach that struggled with edge cases.",
+      "problem": "Reading full-fidelity PDFs on small mobile screens is difficult, and the previous heuristics-based version failed on edge cases that the new AI-based region detection approach solves.",
+      "audience": "Readers of scientific papers on mobile devices.",
+      "builder_usernames": [
+        "ldenoue"
+      ],
+      "source_excerpt": "Cooking a local AI version of PDF Reflow to show PDFs on mobile and keep all the look and feel (font, formulas, pictures, tables) yet formatted for a smaller screen.\n\nIt’s using a local YOLO detector trained specifically on detection pdf page regions.\n\nhttps://www.appblit.com/pdfreflow",
+      "evidence": [
+        {
+          "source_item_id": 48541134,
+          "source_field": "body",
+          "value": "Cooking a local AI version of PDF Reflow to show PDFs on mobile and keep all the look and feel (font, formulas, pictures, tables) yet formatted for a smaller screen.\n\nIt’s using a local YOLO detector trained specifically on detection pdf page regions.\n\nhttps://www.appblit.com/pdfreflow",
+          "supports": [],
+          "author": "ldenoue",
+          "shared_at": 1781530805,
+          "source_url": "https://news.ycombinator.com/item?id=48541134"
+        }
+      ],
+      "source_item_id": 48541134,
+      "source_url": "https://news.ycombinator.com/item?id=48541134",
+      "author": "ldenoue",
+      "shared_at": 1781530805,
+      "links": [
+        "https://www.appblit.com/pdfreflow"
+      ]
+    }
+  ]
+}

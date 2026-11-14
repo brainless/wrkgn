@@ -1,0 +1,33 @@
+{
+  "id": 10641,
+  "slug": "mainframe-style-job-scheduling-workflow-engine-2adb541c62",
+  "name": "Mainframe-style job scheduling workflow engine",
+  "mentions": [
+    {
+      "name": "Mainframe-style job scheduling workflow engine",
+      "description": "A workflow engine modeled on old mainframe-era job scheduling systems (OPC/TWS/CA7) rather than Airflow-like tools, with the stated hope of eventually becoming an Airflow killer by reviving the conceptual strengths of those legacy schedulers.",
+      "problem": "The author views current server and cloud workflow tools as conceptually inferior to mainframe-era job scheduling systems.",
+      "audience": null,
+      "builder_usernames": [
+        "vb-8448"
+      ],
+      "source_excerpt": "A workflow engine, but not an \"airflow like\" (even if I hope it will become an airflow killer) but more similar to old job scheduling systems from mainframe era(OPC/TWS/CA7 ecc).",
+      "evidence": [
+        {
+          "source_item_id": 44709002,
+          "source_field": "body",
+          "value": "A workflow engine, but not an \"airflow like\" (even if I hope it will become an airflow killer) but more similar to old job scheduling systems from mainframe era(OPC/TWS/CA7 ecc).",
+          "supports": [],
+          "author": "vb-8448",
+          "shared_at": 1753695397,
+          "source_url": "https://news.ycombinator.com/item?id=44709002"
+        }
+      ],
+      "source_item_id": 44709002,
+      "source_url": "https://news.ycombinator.com/item?id=44709002",
+      "author": "vb-8448",
+      "shared_at": 1753695397,
+      "links": []
+    }
+  ]
+}

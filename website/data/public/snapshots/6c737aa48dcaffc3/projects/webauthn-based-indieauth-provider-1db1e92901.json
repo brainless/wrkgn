@@ -1,0 +1,33 @@
+{
+  "id": 6868,
+  "slug": "webauthn-based-indieauth-provider-1db1e92901",
+  "name": "WebAuthn-based IndieAuth provider",
+  "mentions": [
+    {
+      "name": "WebAuthn-based IndieAuth provider",
+      "description": "An IndieAuth provider based on WebAuthn that handles authentication directly using credentials such as U2F keys or a device.",
+      "problem": "Avoids relying on delegated authentication by handling it directly with WebAuthn (e.g., U2F keys or a device).",
+      "audience": null,
+      "builder_usernames": [
+        "emurlin"
+      ],
+      "source_excerpt": "An IndieAuth provider based on WebAuthn, the idea being that instead of relying on delegating authentication, it could be handled directly using, e.g., U2F keys or a device.",
+      "evidence": [
+        {
+          "source_item_id": 46953537,
+          "source_field": "body",
+          "value": "An IndieAuth provider based on WebAuthn, the idea being that instead of relying on delegating authentication, it could be handled directly using, e.g., U2F keys or a device.",
+          "supports": [],
+          "author": "emurlin",
+          "shared_at": 1770682367,
+          "source_url": "https://news.ycombinator.com/item?id=46953537"
+        }
+      ],
+      "source_item_id": 46953537,
+      "source_url": "https://news.ycombinator.com/item?id=46953537",
+      "author": "emurlin",
+      "shared_at": 1770682367,
+      "links": []
+    }
+  ]
+}

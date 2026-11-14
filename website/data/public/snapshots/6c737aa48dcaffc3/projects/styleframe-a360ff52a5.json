@@ -1,0 +1,35 @@
+{
+  "id": 5310,
+  "slug": "styleframe-a360ff52a5",
+  "name": "Styleframe",
+  "mentions": [
+    {
+      "name": "Styleframe",
+      "description": "A zero-runtime CSS-in-TS framework for theming and maintaining design systems. Developers write design tokens, selectors, utilities, and recipes in TypeScript, and a transpiler-first pipeline tokenizes them into an internal representation and generates dual outputs: CSS (variables, selectors, utilities, themes, keyframes) and TypeScript (typed recipe functions with full IDE autocomplete, plus an optional runtime). The generated tokens can drive documentation rendering and integrate with headless UI component libraries or custom components. It also includes a reimplementation of TailwindCSS using utility and modifier tokens and a scanner that picks up CSS classes from markup, making utility classes fully configurable and grounded in design tokens.",
+      "problem": "After four years of maintaining an open source design system, Sass and PostCSS proved insufficient for theming; the author needed the power of a full-featured programming language so design systems can be endlessly configurable and composable, with or without AI.",
+      "audience": null,
+      "builder_usernames": [
+        "alexgrozav"
+      ],
+      "source_excerpt": "I'm building Styleframe (https://styleframe.dev), a zero-runtime CSS-in-TS Framework written for theming and maintaining Design Systems.",
+      "evidence": [
+        {
+          "source_item_id": 47749603,
+          "source_field": "body",
+          "value": "I'm building Styleframe (https://styleframe.dev), a zero-runtime CSS-in-TS Framework written for theming and maintaining Design Systems.",
+          "supports": [],
+          "author": "alexgrozav",
+          "shared_at": 1776071654,
+          "source_url": "https://news.ycombinator.com/item?id=47749603"
+        }
+      ],
+      "source_item_id": 47749603,
+      "source_url": "https://news.ycombinator.com/item?id=47749603",
+      "author": "alexgrozav",
+      "shared_at": 1776071654,
+      "links": [
+        "https://styleframe.dev"
+      ]
+    }
+  ]
+}

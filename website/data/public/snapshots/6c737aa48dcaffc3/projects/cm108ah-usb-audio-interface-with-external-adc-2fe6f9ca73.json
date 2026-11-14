@@ -1,0 +1,33 @@
+{
+  "id": 6602,
+  "slug": "cm108ah-usb-audio-interface-with-external-adc-2fe6f9ca73",
+  "name": "CM108AH USB audio interface with external ADC",
+  "mentions": [
+    {
+      "name": "CM108AH USB audio interface with external ADC",
+      "description": "An early-stage hardware project building a USB audio setup that pairs the CM108AH chip with an external ADC to achieve lower microphone noise; currently at the datasheet-review stage with PCB design started in KiCad.",
+      "problem": "Microphone noise from the chip's built-in audio path; an external ADC is intended to lower mic noise.",
+      "audience": null,
+      "builder_usernames": [
+        "dvh"
+      ],
+      "source_excerpt": "I'm trying CM108AH with external ADC (for lower mic noise). I'm at the stage that I opened datasheets for both and started kicad.",
+      "evidence": [
+        {
+          "source_item_id": 47306855,
+          "source_field": "body",
+          "value": "I'm trying CM108AH with external ADC (for lower mic noise). I'm at the stage that I opened datasheets for both and started kicad.",
+          "supports": [],
+          "author": "dvh",
+          "shared_at": 1773049901,
+          "source_url": "https://news.ycombinator.com/item?id=47306855"
+        }
+      ],
+      "source_item_id": 47306855,
+      "source_url": "https://news.ycombinator.com/item?id=47306855",
+      "author": "dvh",
+      "shared_at": 1773049901,
+      "links": []
+    }
+  ]
+}

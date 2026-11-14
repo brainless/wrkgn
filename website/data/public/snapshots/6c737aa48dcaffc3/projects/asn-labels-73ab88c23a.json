@@ -1,0 +1,35 @@
+{
+  "id": 5589,
+  "slug": "asn-labels-73ab88c23a",
+  "name": "ASN Labels",
+  "mentions": [
+    {
+      "name": "ASN Labels",
+      "description": "This tool creates and prints archive serial number (ASN) label sheets with QR codes and barcodes for physical documents scanned into the Paperless document management system. It is free, with no sign-up or ads.",
+      "problem": "The commenter wanted a way to include archive serial numbers for all scanned physical documents managed in Paperless.",
+      "audience": "Personal document management for the commenter, and by extension other Paperless users",
+      "builder_usernames": [
+        "mhrmsn"
+      ],
+      "source_excerpt": "I recently started using Paperless to manage all my documents and wanted to include archive serial numbers (ASNs) for all physical documents that I scan, so I built a small tool to create and print archive serial number label sheets with QR/Barcodes:\n\nhttps://asnlabels.com",
+      "evidence": [
+        {
+          "source_item_id": 47745165,
+          "source_field": "body",
+          "value": "I recently started using Paperless to manage all my documents and wanted to include archive serial numbers (ASNs) for all physical documents that I scan, so I built a small tool to create and print archive serial number label sheets with QR/Barcodes:\n\nhttps://asnlabels.com",
+          "supports": [],
+          "author": "mhrmsn",
+          "shared_at": 1776032480,
+          "source_url": "https://news.ycombinator.com/item?id=47745165"
+        }
+      ],
+      "source_item_id": 47745165,
+      "source_url": "https://news.ycombinator.com/item?id=47745165",
+      "author": "mhrmsn",
+      "shared_at": 1776032480,
+      "links": [
+        "https://asnlabels.com"
+      ]
+    }
+  ]
+}

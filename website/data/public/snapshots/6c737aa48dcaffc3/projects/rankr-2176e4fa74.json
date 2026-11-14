@@ -1,0 +1,63 @@
+{
+  "id": 3753,
+  "slug": "rankr-2176e4fa74",
+  "name": "Rankr",
+  "mentions": [
+    {
+      "name": "Rankr",
+      "description": "A web app for ranking any abstract entity a user chooses, acting as a one-stop shop in the spirit of Letterboxd, Goodreads, and Vivino but covering anything. It aims to surface common things a user likes across categories, exploring how tastes in one area (like books) relate to tastes in another (like movies).",
+      "problem": "Preferences across different categories are tracked separately, making it hard to find common things you like across them.",
+      "audience": null,
+      "builder_usernames": [
+        "monerofglory"
+      ],
+      "source_excerpt": "My one-stop shop combining Letterboxd, Goodreads, Vivino (basically anything).\n\nYou use it to 'rank' any abstract entity you choose. The idea is that you'll be able to find common things you like across categories (I think the type of books you like probably influences the kind of movies you like!)",
+      "evidence": [
+        {
+          "source_item_id": 48540924,
+          "source_field": "body",
+          "value": "My one-stop shop combining Letterboxd, Goodreads, Vivino (basically anything).\n\nYou use it to 'rank' any abstract entity you choose. The idea is that you'll be able to find common things you like across categories (I think the type of books you like probably influences the kind of movies you like!)",
+          "supports": [],
+          "author": "monerofglory",
+          "shared_at": 1781529888,
+          "source_url": "https://news.ycombinator.com/item?id=48540924"
+        }
+      ],
+      "source_item_id": 48540924,
+      "source_url": "https://news.ycombinator.com/item?id=48540924",
+      "author": "monerofglory",
+      "shared_at": 1781529888,
+      "links": [
+        "https://rankr.click/"
+      ]
+    },
+    {
+      "name": "rankr.click",
+      "description": "A web application for ranking any kind of abstract entity in one place, combining the ranking functionality of sites like Goodreads (books), Vivino (wine), and Letterboxd (film) across a variety of categories. It lets users analyze their rankings across fields to understand what they like, with a planned personal (non-ad) recommendation engine to suggest new items based on interests. It is built as a fully self-hostable complete stack using an opinionated cross-platform orchestrator that can deploy to bare metal VPS, homebrew systems, or cloud providers.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "monerofglory"
+      ],
+      "source_excerpt": "It's a little web application that allows for the ranking of all kinds of abstract entities. Think of the merging of Goodreads for books, Vivino for wine, Letterboxd for film, etc. This will allow you to instead rank whatever you want across a variety of different categories in a single place.",
+      "evidence": [
+        {
+          "source_item_id": 48088374,
+          "source_field": "body",
+          "value": "It's a little web application that allows for the ranking of all kinds of abstract entities. Think of the merging of Goodreads for books, Vivino for wine, Letterboxd for film, etc. This will allow you to instead rank whatever you want across a variety of different categories in a single place.",
+          "supports": [],
+          "author": "monerofglory",
+          "shared_at": 1778449248,
+          "source_url": "https://news.ycombinator.com/item?id=48088374"
+        }
+      ],
+      "source_item_id": 48088374,
+      "source_url": "https://news.ycombinator.com/item?id=48088374",
+      "author": "monerofglory",
+      "shared_at": 1778449248,
+      "links": [
+        "https://rankr.click"
+      ]
+    }
+  ]
+}

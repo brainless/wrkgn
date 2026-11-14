@@ -1,0 +1,33 @@
+{
+  "id": 4327,
+  "slug": "data-deletion-email-assistant-ee912b58dc",
+  "name": "Data Deletion Email Assistant",
+  "mentions": [
+    {
+      "name": "Data Deletion Email Assistant",
+      "description": "This tool helps users easily delete their data from online services. It scans the subject line and sender email address of emails in the user's inbox to identify services, then suggests email drafts for requesting deletion of that service's data. It is open source and self-hostable, with privacy and security as top priorities; the official instance will be free to use and sustained by donations.",
+      "problem": "Removing personal data from services is difficult, and the main existing option (Saymine.com) degraded after being acquired by McAfee.",
+      "audience": "Everyone should be able to remove their data regardless of cost or technical expertise",
+      "builder_usernames": [
+        "MaikaDiHaika"
+      ],
+      "source_excerpt": "I'm developing a tool that will help you easily delete your data from services. It scans the subject line and sender email address of the emails in your inbox and suggests an email draft to help you delete that service. It's open source and self-hostable, with privacy and security as top priorities.",
+      "evidence": [
+        {
+          "source_item_id": 48533217,
+          "source_field": "body",
+          "value": "I'm developing a tool that will help you easily delete your data from services. It scans the subject line and sender email address of the emails in your inbox and suggests an email draft to help you delete that service. It's open source and self-hostable, with privacy and security as top priorities.",
+          "supports": [],
+          "author": "MaikaDiHaika",
+          "shared_at": 1781474079,
+          "source_url": "https://news.ycombinator.com/item?id=48533217"
+        }
+      ],
+      "source_item_id": 48533217,
+      "source_url": "https://news.ycombinator.com/item?id=48533217",
+      "author": "MaikaDiHaika",
+      "shared_at": 1781474079,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": 4688,
+  "slug": "versionalert-03a4115b4e",
+  "name": "VersionAlert",
+  "mentions": [
+    {
+      "name": "VersionAlert",
+      "description": "A software version tracking and notification service that monitors software releases and notifies users when new versions are available. It has launched a first niche product, VersionAlert for Unity, and a broader product is in development that will let people quickly find any software they want to follow via a smart search bar and easily sign up for notifications about new versions.",
+      "problem": "Existing solutions for tracking software versions and notifying users about new releases seemed lacking.",
+      "audience": "Users of software who want to be notified when new versions of the software they use are released",
+      "builder_usernames": [
+        "VoxelBoy"
+      ],
+      "source_excerpt": "A way to track versions of ALL software and notify users about new version.\n\nStarted with a niche and launched it: VersionAlert for Unity (https://versionalert.com/unity)",
+      "evidence": [
+        {
+          "source_item_id": 48089968,
+          "source_field": "body",
+          "value": "A way to track versions of ALL software and notify users about new version.\n\nStarted with a niche and launched it: VersionAlert for Unity (https://versionalert.com/unity)",
+          "supports": [],
+          "author": "VoxelBoy",
+          "shared_at": 1778462006,
+          "source_url": "https://news.ycombinator.com/item?id=48089968"
+        }
+      ],
+      "source_item_id": 48089968,
+      "source_url": "https://news.ycombinator.com/item?id=48089968",
+      "author": "VoxelBoy",
+      "shared_at": 1778462006,
+      "links": [
+        "https://versionalert.com/unity"
+      ]
+    },
+    {
+      "name": "VersionAlert",
+      "description": "A subscription service that sends new version notifications for any kind of software, including desktop apps, drivers, and packages. Currently focused on a niche Unity-specific version that alerts users the moment a new Unity engine version becomes available.",
+      "problem": "Knowing the moment a new software version becomes available; the builder values being at the bleeding edge, especially since much of their consulting value comes from breadth and depth of Unity engine knowledge.",
+      "audience": "Unity developers and consultants who want to be notified the moment new versions become available",
+      "builder_usernames": [
+        "VoxelBoy"
+      ],
+      "source_excerpt": "VersionAlert: https://versionalert.com\n\nFor a couple of years now, I’ve wanted to build a service that lets you subscribe to new version notifications for any kind of software—desktop apps, drivers, packages, and more. As a Unity developer and consultant myself, I’ve always wanted to know the moment a new version becomes available.",
+      "evidence": [
+        {
+          "source_item_id": 46578829,
+          "source_field": "body",
+          "value": "VersionAlert: https://versionalert.com\n\nFor a couple of years now, I’ve wanted to build a service that lets you subscribe to new version notifications for any kind of software—desktop apps, drivers, packages, and more. As a Unity developer and consultant myself, I’ve always wanted to know the moment a new version becomes available.",
+          "supports": [],
+          "author": "VoxelBoy",
+          "shared_at": 1768158922,
+          "source_url": "https://news.ycombinator.com/item?id=46578829"
+        }
+      ],
+      "source_item_id": 46578829,
+      "source_url": "https://news.ycombinator.com/item?id=46578829",
+      "author": "VoxelBoy",
+      "shared_at": 1768158922,
+      "links": [
+        "https://versionalert.com",
+        "https://versionalert.com/unity"
+      ]
+    }
+  ]
+}

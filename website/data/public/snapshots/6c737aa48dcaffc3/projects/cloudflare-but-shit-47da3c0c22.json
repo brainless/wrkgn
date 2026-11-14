@@ -1,0 +1,35 @@
+{
+  "id": 5844,
+  "slug": "cloudflare-but-shit-47da3c0c22",
+  "name": "Cloudflare-but-shit",
+  "mentions": [
+    {
+      "name": "Cloudflare-but-shit",
+      "description": "A healthcheck-based DNS service providing A and CNAME records with health checks, so services can be hosted across ~100 Raspberry Pis in many different locations regardless of connection type (public IP or behind CGNAT). It includes DDNS, Tunnels, very flexible record definitions, and planned Anubis (or bring-your-own) integration, and is powered by PowerDNS and Rails. The author may eventually offer it as a hosted service, partly out of concern that Cloudflare will keep paywalling features.",
+      "problem": "The author wanted healthcheck-based DNS records (A, CNAME) to host services on 100 Raspberry Pis in 100 different places with any type of connection (public IP or behind CGNAT), and fears Cloudflare putting more features behind a paywall.",
+      "audience": null,
+      "builder_usernames": [
+        "CodinM"
+      ],
+      "source_excerpt": "I've coerced Codex and Claude to build Cloudflare-but-shit because I wanted to have healthcheck-based DNS records (A, CNAME) so I can host stuff on 100 RPis in 100 different places with any type of connection (public IP or behind a CGNAT).",
+      "evidence": [
+        {
+          "source_item_id": 47756033,
+          "source_field": "body",
+          "value": "I've coerced Codex and Claude to build Cloudflare-but-shit because I wanted to have healthcheck-based DNS records (A, CNAME) so I can host stuff on 100 RPis in 100 different places with any type of connection (public IP or behind a CGNAT).",
+          "supports": [],
+          "author": "CodinM",
+          "shared_at": 1776104780,
+          "source_url": "https://news.ycombinator.com/item?id=47756033"
+        }
+      ],
+      "source_item_id": 47756033,
+      "source_url": "https://news.ycombinator.com/item?id=47756033",
+      "author": "CodinM",
+      "shared_at": 1776104780,
+      "links": [
+        "https://dns.c3n.ro"
+      ]
+    }
+  ]
+}

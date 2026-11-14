@@ -1,0 +1,33 @@
+{
+  "id": 4264,
+  "slug": "quiltops-f63493b2d9",
+  "name": "QuiltOps",
+  "mentions": [
+    {
+      "name": "QuiltOps",
+      "description": "QuiltOps combines the Quilt patch manager with tooling to keep local package modifications up to date with upstream releases. When a new package version drops, it automatically applies your patch series, rebuilds against the patchset, and notifies you on failure.",
+      "problem": "Keeping locally patched packages up to date when upstream releases new versions, since patches can fail to apply or build against new releases.",
+      "audience": null,
+      "builder_usernames": [
+        "calvinmorrison"
+      ],
+      "source_excerpt": "still wip but QuiltOps which is basically just Quilt+Tooling so you can keep your package mods up to date with upstream. A new package drops (oh no another 0day in htop) and you want to apply your htop-but-with-xcowsay.patch and it will auto rebuild against your patchset or notify you on failure...",
+      "evidence": [
+        {
+          "source_item_id": 48534265,
+          "source_field": "body",
+          "value": "still wip but QuiltOps which is basically just Quilt+Tooling so you can keep your package mods up to date with upstream. A new package drops (oh no another 0day in htop) and you want to apply your htop-but-with-xcowsay.patch and it will auto rebuild against your patchset or notify you on failure...",
+          "supports": [],
+          "author": "calvinmorrison",
+          "shared_at": 1781479999,
+          "source_url": "https://news.ycombinator.com/item?id=48534265"
+        }
+      ],
+      "source_item_id": 48534265,
+      "source_url": "https://news.ycombinator.com/item?id=48534265",
+      "author": "calvinmorrison",
+      "shared_at": 1781479999,
+      "links": []
+    }
+  ]
+}

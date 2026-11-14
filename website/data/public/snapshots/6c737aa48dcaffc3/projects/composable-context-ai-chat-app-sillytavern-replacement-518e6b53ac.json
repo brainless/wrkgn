@@ -1,0 +1,33 @@
+{
+  "id": 8787,
+  "slug": "composable-context-ai-chat-app-sillytavern-replacement-518e6b53ac",
+  "name": "Composable-context AI chat app (SillyTavern replacement)",
+  "mentions": [
+    {
+      "name": "Composable-context AI chat app (SillyTavern replacement)",
+      "description": "This AI chat app treats conversational context as small, reusable pieces that can be composed and organized flexibly instead of being locked into fixed prompt buckets. Characters, settings, and behaviors can be mixed, reused, or temporarily enabled without duplication, and edits preserve clear history rather than rewriting the past. It aims to be a functional replacement for SillyTavern's AI roleplaying workflows, while remaining generic enough for other AI workflows that need fine-grained, explicit context control — such as checking off rules, documents, and instructions to apply to a chat or regenerating responses with one-time context layers.",
+      "problem": "SillyTavern builds prompts from a few rigid buckets (character, scenario, lore, system prompt, author's note), making complex setups hard to manage: content gets duplicated, settings must be toggled in multiple places, state is easy to accidentally carry or modify across conversations, and it becomes difficult to tell what context is actually in effect.",
+      "audience": null,
+      "builder_usernames": [
+        "JasonSage"
+      ],
+      "source_excerpt": "I'm building a yet another AI chat app.\n\nMy initial goal is to make a functional SillyTavern (AI roleplaying) replacement. SillyTavern builds prompts from a few rigid buckets (character, scenario, lore, system prompt, author's note...), which makes complex setups hard to manage.",
+      "evidence": [
+        {
+          "source_item_id": 46266676,
+          "source_field": "body",
+          "value": "I'm building a yet another AI chat app.\n\nMy initial goal is to make a functional SillyTavern (AI roleplaying) replacement. SillyTavern builds prompts from a few rigid buckets (character, scenario, lore, system prompt, author's note...), which makes complex setups hard to manage.",
+          "supports": [],
+          "author": "JasonSage",
+          "shared_at": 1765744988,
+          "source_url": "https://news.ycombinator.com/item?id=46266676"
+        }
+      ],
+      "source_item_id": 46266676,
+      "source_url": "https://news.ycombinator.com/item?id=46266676",
+      "author": "JasonSage",
+      "shared_at": 1765744988,
+      "links": []
+    }
+  ]
+}

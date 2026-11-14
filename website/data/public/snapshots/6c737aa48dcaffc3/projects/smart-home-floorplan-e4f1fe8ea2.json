@@ -1,0 +1,35 @@
+{
+  "id": 6684,
+  "slug": "smart-home-floorplan-e4f1fe8ea2",
+  "name": "Smart Home Floorplan",
+  "mentions": [
+    {
+      "name": "Smart Home Floorplan",
+      "description": "A floorplan dashboard for Home Assistant that is easy to set up and free to use. It connects to the devices a user already has in Home Assistant and visualizes lights, sensors, and potential issues directly on a floorplan, avoiding the need for SVG editing or 3D modeling.",
+      "problem": "Existing approaches to home floorplan dashboards require SVG editing or 3D modeling skills, which the author found difficult and wanted something simpler.",
+      "audience": null,
+      "builder_usernames": [
+        "magic_l"
+      ],
+      "source_excerpt": "I have a weekend project I am building for Home Assistant: https://getsmarthomefloorplan.com/\n\nThe general idea is to have a floorplan dashboard that is easy to set up. I was never good with SVG editors or 3D modeling, and wanted something simpler.\n\nThe goal is that it connects to devices you already have in Home Assistant and visualizes things like lights, sensors, and potential issues directly on the floorplan.",
+      "evidence": [
+        {
+          "source_item_id": 47390836,
+          "source_field": "body",
+          "value": "I have a weekend project I am building for Home Assistant: https://getsmarthomefloorplan.com/\n\nThe general idea is to have a floorplan dashboard that is easy to set up. I was never good with SVG editors or 3D modeling, and wanted something simpler.\n\nThe goal is that it connects to devices you already have in Home Assistant and visualizes things like lights, sensors, and potential issues directly on the floorplan.",
+          "supports": [],
+          "author": "magic_l",
+          "shared_at": 1773602075,
+          "source_url": "https://news.ycombinator.com/item?id=47390836"
+        }
+      ],
+      "source_item_id": 47390836,
+      "source_url": "https://news.ycombinator.com/item?id=47390836",
+      "author": "magic_l",
+      "shared_at": 1773602075,
+      "links": [
+        "https://getsmarthomefloorplan.com/"
+      ]
+    }
+  ]
+}

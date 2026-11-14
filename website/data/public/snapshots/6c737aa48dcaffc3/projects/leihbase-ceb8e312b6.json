@@ -1,0 +1,35 @@
+{
+  "id": 8111,
+  "slug": "leihbase-ceb8e312b6",
+  "name": "Leihbase",
+  "mentions": [
+    {
+      "name": "Leihbase",
+      "description": "This is a self-hostable borrow store management system for running a library of things, currently used for one in the author's city. It includes a reservation system, a dashboard for managing reservations in the shop, and a product management interface is being added. Its goal is to help people abstain from buying items they only need once a year.",
+      "problem": "Helps people abstain from buying things they only need once a year.",
+      "audience": null,
+      "builder_usernames": [
+        "Lumocra"
+      ],
+      "source_excerpt": "I am working on a self-hostable borrow store management system: https://github.com/leihbase/leihbase.\n\nI am running it in my city for a library of things. We hope to help  people abstain from buying things they only need once a year.\n\nIt includes a reservation system, and an dashboard to manage those reservations in the shop. Currently I'm expanding it with a proper product management interface.",
+      "evidence": [
+        {
+          "source_item_id": 46271198,
+          "source_field": "body",
+          "value": "I am working on a self-hostable borrow store management system: https://github.com/leihbase/leihbase.\n\nI am running it in my city for a library of things. We hope to help  people abstain from buying things they only need once a year.\n\nIt includes a reservation system, and an dashboard to manage those reservations in the shop. Currently I'm expanding it with a proper product management interface.",
+          "supports": [],
+          "author": "Lumocra",
+          "shared_at": 1765781305,
+          "source_url": "https://news.ycombinator.com/item?id=46271198"
+        }
+      ],
+      "source_item_id": 46271198,
+      "source_url": "https://news.ycombinator.com/item?id=46271198",
+      "author": "Lumocra",
+      "shared_at": 1765781305,
+      "links": [
+        "https://github.com/leihbase/leihbase"
+      ]
+    }
+  ]
+}

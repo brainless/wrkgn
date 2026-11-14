@@ -1,0 +1,33 @@
+{
+  "id": 5111,
+  "slug": "chimera-bd0ec01213",
+  "name": "Chimera",
+  "mentions": [
+    {
+      "name": "Chimera",
+      "description": "Chimera is a set of GTK applications that let people manage MergerFS storage pools and LUKS-encrypted hard drives without sysadmin knowledge. It automates disk unlocking and mounting, handles data migration when removing a disk from the pool, and plans to add rclone-based backups to services like Backblaze, AWS, or remote servers. Distribution via RPMs, DEBs, and Python is planned.",
+      "problem": "RAID requires capable SATA hardware, specific-sized drives, and array-management skills, and layered LUKS+LVM setups make unrecovered IO errors very difficult to recover from. MergerFS with per-disk LUKS keeps failures isolated to a single disk, but managing it still takes expertise.",
+      "audience": "People who want to manage encrypted multi-drive storage pools without being sysadmins.",
+      "builder_usernames": [
+        "ddtaylor"
+      ],
+      "source_excerpt": "I have been making GTK applications so that people can manage MergerFS and LUKS encrypted hard drives without knowing how to be a sysadmin.",
+      "evidence": [
+        {
+          "source_item_id": 47744501,
+          "source_field": "body",
+          "value": "I have been making GTK applications so that people can manage MergerFS and LUKS encrypted hard drives without knowing how to be a sysadmin.",
+          "supports": [],
+          "author": "ddtaylor",
+          "shared_at": 1776028047,
+          "source_url": "https://news.ycombinator.com/item?id=47744501"
+        }
+      ],
+      "source_item_id": 47744501,
+      "source_url": "https://news.ycombinator.com/item?id=47744501",
+      "author": "ddtaylor",
+      "shared_at": 1776028047,
+      "links": []
+    }
+  ]
+}

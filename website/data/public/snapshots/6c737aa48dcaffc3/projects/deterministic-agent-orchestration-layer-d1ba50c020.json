@@ -1,0 +1,33 @@
+{
+  "id": 6007,
+  "slug": "deterministic-agent-orchestration-layer-d1ba50c020",
+  "name": "Deterministic agent orchestration layer",
+  "mentions": [
+    {
+      "name": "Deterministic agent orchestration layer",
+      "description": "A deterministic orchestration layer that sits between AI agents, implemented as an API wrapping a cyclic graph where rules govern state transitions and graph traversal. Rules control handing off work between agents along with review, rollback, and human-intervention escalation logic. It is a self-teaching project to explore multiagent patterns and what blend of agentic autonomy and deterministic/human governance works best with current Anthropic tools, aimed at shaping the author's personal AI-assisted dev workflow.",
+      "problem": "Figuring out what the author's personal dev workflow should look like as AI-assisted coding evolves — a scratch-your-own-itch project exploring multiagent orchestration.",
+      "audience": null,
+      "builder_usernames": [
+        "ragle"
+      ],
+      "source_excerpt": "I'm working on a deterministic (i.e. code / data persistence) layer that sits between agents and helps orchestrate their work.\n\nBasically an API wrapping a cyclic graph where rules govern the state transitions / graph traversal (i.e. rules around handing off work between agents and the associated review, rollback and human intervention escalation logic).",
+      "evidence": [
+        {
+          "source_item_id": 47311415,
+          "source_field": "body",
+          "value": "I'm working on a deterministic (i.e. code / data persistence) layer that sits between agents and helps orchestrate their work.\n\nBasically an API wrapping a cyclic graph where rules govern the state transitions / graph traversal (i.e. rules around handing off work between agents and the associated review, rollback and human intervention escalation logic).",
+          "supports": [],
+          "author": "ragle",
+          "shared_at": 1773074335,
+          "source_url": "https://news.ycombinator.com/item?id=47311415"
+        }
+      ],
+      "source_item_id": 47311415,
+      "source_url": "https://news.ycombinator.com/item?id=47311415",
+      "author": "ragle",
+      "shared_at": 1773074335,
+      "links": []
+    }
+  ]
+}

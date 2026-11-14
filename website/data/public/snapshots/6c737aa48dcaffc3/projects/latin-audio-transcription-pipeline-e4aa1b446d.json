@@ -1,0 +1,33 @@
+{
+  "id": 5103,
+  "slug": "latin-audio-transcription-pipeline-e4aa1b446d",
+  "name": "Latin audio transcription pipeline",
+  "mentions": [
+    {
+      "name": "Latin audio transcription pipeline",
+      "description": "This Emacs Lisp pipeline downloads Latin-language audio from the Internet with yt-dlp and patreon-dl, transcodes it with ffmpeg, performs voice activity detection and chunking in Python with Silero, sends chunks to Gemini's context window for transcription and macronization, gathers forced-alignment data with a local wav2vec2-latin model, and adds word-level linguistic analysis (POS, morphology, lemmas) with a local Stanza model trained on the Classical corpus.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "spudlyo"
+      ],
+      "source_excerpt": "I intend demonstrate how I built a transcription pipeline in Emacs Lisp using tools such as yt-dlp and patreon-dl to grab Latin-language audio content from the Internet, transcode the audio with ffmpeg, do Voice Activity Detection and chunking in Python with Silero, load the chunks into Gemini's context window, and send it off for transcription and macronization, gather forced-alignment data using local a local wav2vec2-latin model, and finally add word-level linguistic analysis (POS, morphology, lemmas) using a local Stanza model trained on the Classical corpus.",
+      "evidence": [
+        {
+          "source_item_id": 47743578,
+          "source_field": "body",
+          "value": "I intend demonstrate how I built a transcription pipeline in Emacs Lisp using tools such as yt-dlp and patreon-dl to grab Latin-language audio content from the Internet, transcode the audio with ffmpeg, do Voice Activity Detection and chunking in Python with Silero, load the chunks into Gemini's context window, and send it off for transcription and macronization, gather forced-alignment data using local a local wav2vec2-latin model, and finally add word-level linguistic analysis (POS, morphology, lemmas) using a local Stanza model trained on the Classical corpus.",
+          "supports": [],
+          "author": "spudlyo",
+          "shared_at": 1776022770,
+          "source_url": "https://news.ycombinator.com/item?id=47743578"
+        }
+      ],
+      "source_item_id": 47743578,
+      "source_url": "https://news.ycombinator.com/item?id=47743578",
+      "author": "spudlyo",
+      "shared_at": 1776022770,
+      "links": []
+    }
+  ]
+}

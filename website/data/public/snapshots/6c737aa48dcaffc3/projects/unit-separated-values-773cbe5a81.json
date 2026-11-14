@@ -1,0 +1,35 @@
+{
+  "id": 10124,
+  "slug": "unit-separated-values-773cbe5a81",
+  "name": "Unit Separated Values",
+  "mentions": [
+    {
+      "name": "Unit Separated Values",
+      "description": "A specification and companion tools for a unit-separated values data format that uses Unicode control characters as delimiters instead of commas, created as an alternative to the problems of CSV.",
+      "problem": "CSVs have widely complained-about shortcomings, and the author set about creating a spec and tools around Unicode control character delimiters in response to repeated HN posts and comments about CSVs sucking.",
+      "audience": null,
+      "builder_usernames": [
+        "legostormtroopr"
+      ],
+      "source_excerpt": "I've see so many HN posts and cmments about CSVs sucking and Unicode control characters as delimiters, that I set about creating a spec and some tools for use with it.",
+      "evidence": [
+        {
+          "source_item_id": 45422467,
+          "source_field": "body",
+          "value": "I've see so many HN posts and cmments about CSVs sucking and Unicode control characters as delimiters, that I set about creating a spec and some tools for use with it.",
+          "supports": [],
+          "author": "legostormtroopr",
+          "shared_at": 1759212918,
+          "source_url": "https://news.ycombinator.com/item?id=45422467"
+        }
+      ],
+      "source_item_id": 45422467,
+      "source_url": "https://news.ycombinator.com/item?id=45422467",
+      "author": "legostormtroopr",
+      "shared_at": 1759212918,
+      "links": [
+        "https://github.com/LegoStormtroopr/unit-separated-values"
+      ]
+    }
+  ]
+}

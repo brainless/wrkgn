@@ -1,0 +1,35 @@
+{
+  "id": 9164,
+  "slug": "localscribe-301a7f1771",
+  "name": "LocalScribe",
+  "mentions": [
+    {
+      "name": "LocalScribe",
+      "description": "This macOS app transcribes and summarizes meetings locally. It records both mic and system audio so it works with any meeting app, uses Apple Intelligence for private summarization, and is open source with attested releases. It is in beta, with an experimental version adding self-hosted Ollama support.",
+      "problem": "Similar products existed, but none combined open source code with attested releases, mic and system audio recording for any meeting app, and private AI summarization.",
+      "audience": null,
+      "builder_usernames": [
+        "rimeice"
+      ],
+      "source_excerpt": "Local only meeting transcription and summarisation for MacOS.\n\nhttps://localscribe.app/\n\nLoads of similar products out there, but non that did all of: open source code with attested releases, recorded mic and system audio to work with any meeting app and used Apple Intelligence for private summarisation.",
+      "evidence": [
+        {
+          "source_item_id": 45870135,
+          "source_field": "body",
+          "value": "Local only meeting transcription and summarisation for MacOS.\n\nhttps://localscribe.app/\n\nLoads of similar products out there, but non that did all of: open source code with attested releases, recorded mic and system audio to work with any meeting app and used Apple Intelligence for private summarisation.",
+          "supports": [],
+          "author": "rimeice",
+          "shared_at": 1762729424,
+          "source_url": "https://news.ycombinator.com/item?id=45870135"
+        }
+      ],
+      "source_item_id": 45870135,
+      "source_url": "https://news.ycombinator.com/item?id=45870135",
+      "author": "rimeice",
+      "shared_at": 1762729424,
+      "links": [
+        "https://localscribe.app/"
+      ]
+    }
+  ]
+}

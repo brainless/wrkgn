@@ -1,0 +1,35 @@
+{
+  "id": 9028,
+  "slug": "mobius-clock-04bd6122a2",
+  "name": "Mobius Clock",
+  "mentions": [
+    {
+      "name": "Mobius Clock",
+      "description": "A 3D WebGL clock rendered on a Möbius strip that displays 24-hour time on a 12-hour face. The hour indicator travels along the edge of the strip and must make two turns to return to its starting point, yielding a 24-hour clock, while the minute and second indicators move along the middle of the strip and complete a circuit in one turn. The view can be rotated, and a 'Fast Mode' button temporarily speeds up the hands to visualize how the slow-moving parts work.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "charliewallace"
+      ],
+      "source_excerpt": "Check out my project at https://www.MobiusClock.com: A 3D WebGL Clock on a Möbius Strip that shows 24hr time on a 12hr face. The hour indicator follows the edge of the strip, thus must make 2 turns to return to its starting point, giving you a 24 hour clock. The minute and second indicators move along the middle of the strip and thus return to their starting points in only one turn. Has the ability to rotate!",
+      "evidence": [
+        {
+          "source_item_id": 45870593,
+          "source_field": "body",
+          "value": "Check out my project at https://www.MobiusClock.com: A 3D WebGL Clock on a Möbius Strip that shows 24hr time on a 12hr face. The hour indicator follows the edge of the strip, thus must make 2 turns to return to its starting point, giving you a 24 hour clock. The minute and second indicators move along the middle of the strip and thus return to their starting points in only one turn. Has the ability to rotate!",
+          "supports": [],
+          "author": "charliewallace",
+          "shared_at": 1762732886,
+          "source_url": "https://news.ycombinator.com/item?id=45870593"
+        }
+      ],
+      "source_item_id": 45870593,
+      "source_url": "https://news.ycombinator.com/item?id=45870593",
+      "author": "charliewallace",
+      "shared_at": 1762732886,
+      "links": [
+        "https://www.MobiusClock.com"
+      ]
+    }
+  ]
+}

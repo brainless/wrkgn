@@ -1,0 +1,35 @@
+{
+  "id": 11319,
+  "slug": "browsable-8171b43652",
+  "name": "Browsable",
+  "mentions": [
+    {
+      "name": "Browsable",
+      "description": "Browser-based RPA (robotic process automation) platform that uses AI to turn a user's task into a repeatable, configurable workflow rather than an unreliable autonomous agent. Currently focused on scraping/data-extraction use cases, with plans to support more complex browser tasks over time.",
+      "problem": "AI browser agents like Operator and Manus are largely unreliable for the time being; this instead makes tasks repeatable and configurable.",
+      "audience": null,
+      "builder_usernames": [
+        "Jefro118"
+      ],
+      "source_excerpt": "Building browser-based RPA workflows with https://browsable.app/\n\nNotably not an AI agent like Operator, Manus, etc. which are largely unreliable for the time being. Instead this uses AI to turn your task into something repeatable and configurable.\n\nCurrently focusing on scraping use cases but hope to make it more powerful soon so it can actually do complex tasks rather than just extracting data.",
+      "evidence": [
+        {
+          "source_item_id": 43821581,
+          "source_field": "body",
+          "value": "Building browser-based RPA workflows with https://browsable.app/\n\nNotably not an AI agent like Operator, Manus, etc. which are largely unreliable for the time being. Instead this uses AI to turn your task into something repeatable and configurable.\n\nCurrently focusing on scraping use cases but hope to make it more powerful soon so it can actually do complex tasks rather than just extracting data.",
+          "supports": [],
+          "author": "Jefro118",
+          "shared_at": 1745848682,
+          "source_url": "https://news.ycombinator.com/item?id=43821581"
+        }
+      ],
+      "source_item_id": 43821581,
+      "source_url": "https://news.ycombinator.com/item?id=43821581",
+      "author": "Jefro118",
+      "shared_at": 1745848682,
+      "links": [
+        "https://browsable.app/"
+      ]
+    }
+  ]
+}

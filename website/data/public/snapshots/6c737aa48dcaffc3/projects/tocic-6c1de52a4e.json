@@ -1,0 +1,35 @@
+{
+  "id": 6469,
+  "slug": "tocic-6c1de52a4e",
+  "name": "tocic",
+  "mentions": [
+    {
+      "name": "tocic",
+      "description": "Browser extension that adds a table of contents widget to chatbot pages (Claude, Grok, ChatGPT), making long conversations easier to navigate. Mainly used on Firefox and not tested on Chrome.",
+      "problem": "Long chatbot conversations are hard to navigate.",
+      "audience": null,
+      "builder_usernames": [
+        "a_c"
+      ],
+      "source_excerpt": "A browser extension to add a table of content widget into the chatbot pages (claude/Grok/Chatgpt). Making long conversation easier to navigate. Mainly used on firefox. Not tested on chrome",
+      "evidence": [
+        {
+          "source_item_id": 47305658,
+          "source_field": "body",
+          "value": "A browser extension to add a table of content widget into the chatbot pages (claude/Grok/Chatgpt). Making long conversation easier to navigate. Mainly used on firefox. Not tested on chrome",
+          "supports": [],
+          "author": "a_c",
+          "shared_at": 1773039964,
+          "source_url": "https://news.ycombinator.com/item?id=47305658"
+        }
+      ],
+      "source_item_id": 47305658,
+      "source_url": "https://news.ycombinator.com/item?id=47305658",
+      "author": "a_c",
+      "shared_at": 1773039964,
+      "links": [
+        "https://github.com/kmcheung12/tocic"
+      ]
+    }
+  ]
+}

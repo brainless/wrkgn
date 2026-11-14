@@ -1,0 +1,35 @@
+{
+  "id": 5845,
+  "slug": "receiptbot-8bbe141e76",
+  "name": "ReceiptBot",
+  "mentions": [
+    {
+      "name": "ReceiptBot",
+      "description": "An APM-style flight recorder for Node.js AI agents that records agent behavior to stop agents from going rogue, leaking .env secrets, or burning through API budget.",
+      "problem": "Node.js AI agents can go rogue, leak .env secrets, or burn through API budget.",
+      "audience": "Developers building and running Node.js AI agents.",
+      "builder_usernames": [
+        "LocalhostLegend"
+      ],
+      "source_excerpt": "im building ReceiptBot an APM-style flight recorder to stop Node.js AI agents from going rogue, leaking .env secrets, or burning your API budget.",
+      "evidence": [
+        {
+          "source_item_id": 47749926,
+          "source_field": "body",
+          "value": "im building ReceiptBot an APM-style flight recorder to stop Node.js AI agents from going rogue, leaking .env secrets, or burning your API budget.",
+          "supports": [],
+          "author": "LocalhostLegend",
+          "shared_at": 1776074569,
+          "source_url": "https://news.ycombinator.com/item?id=47749926"
+        }
+      ],
+      "source_item_id": 47749926,
+      "source_url": "https://news.ycombinator.com/item?id=47749926",
+      "author": "LocalhostLegend",
+      "shared_at": 1776074569,
+      "links": [
+        "https://github.com/redshadow912/ReceiptBot"
+      ]
+    }
+  ]
+}

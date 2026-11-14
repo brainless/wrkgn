@@ -1,0 +1,33 @@
+{
+  "id": 3579,
+  "slug": "rf-monitoring-system-d08c66ed6b",
+  "name": "RF monitoring system",
+  "mentions": [
+    {
+      "name": "RF monitoring system",
+      "description": "This system monitors RF spectrum via BT/BLE/WiFi sensors on low-power hardware like a Raspberry Pi, correlating device sightings to report events such as a parked car coinciding with a known Bluetooth device. It alerts on sudden cross-spectrum disturbances (e.g. burglars using a cheap jammer to disable WiFi cameras) and on known devices losing contact or leaving premises, and supports multiple listening pods to review device movement across a campus or neighborhood. It provides a web UI, can publish events to an external security system, and is gaining an LLM interface so non-technical operators can set policies and ask questions about events. It could be sold as an appliance or as a license for a DIY build.",
+      "problem": "Detecting security events such as intruders using cheap jammers to disable WiFi cameras and known devices losing contact or leaving premises.",
+      "audience": "Non-technical operators who set policies and query events; sold as an appliance or a license for a DIY build.",
+      "builder_usernames": [
+        "rf-monitor"
+      ],
+      "source_excerpt": "I'm building an RF monitoring system.\n\nIt can tell you things like:\n\n- The car that parked nearby last night coincided with a \"Derek's Galaxy Buds\" device with MAC address aa:bb:cc:dd:ee:ff. The buds also drove by briefly the previous night.\n\n- Alert on sudden cross-specturm disturbance (e.g. burglars using a cheap jammer to disable WiFi cameras).\n\n- Alert on known device contact loss (powered off / left premises).\n\n- Review device movement across a campus/neighborhood (using multiple listening pods).\n\nI have a working PoC. It can run on a cheap, low-power computer (e.g. Raspberry Pi) supporting multiple RF sensors (BT/BLE/WiFi). Has a web UI. Can publish events to an external security system. Currently working on an LLM interface to make it trivial for a non-technical operator to set policies and ask questions about events.\n\nCould be sold as an appliance or a license for a DIY build.\n\nSeed investors are welcome to contact rf-monitor@tuta.com",
+      "evidence": [
+        {
+          "source_item_id": 48556078,
+          "source_field": "body",
+          "value": "I'm building an RF monitoring system.\n\nIt can tell you things like:\n\n- The car that parked nearby last night coincided with a \"Derek's Galaxy Buds\" device with MAC address aa:bb:cc:dd:ee:ff. The buds also drove by briefly the previous night.\n\n- Alert on sudden cross-specturm disturbance (e.g. burglars using a cheap jammer to disable WiFi cameras).\n\n- Alert on known device contact loss (powered off / left premises).\n\n- Review device movement across a campus/neighborhood (using multiple listening pods).\n\nI have a working PoC. It can run on a cheap, low-power computer (e.g. Raspberry Pi) supporting multiple RF sensors (BT/BLE/WiFi). Has a web UI. Can publish events to an external security system. Currently working on an LLM interface to make it trivial for a non-technical operator to set policies and ask questions about events.\n\nCould be sold as an appliance or a license for a DIY build.\n\nSeed investors are welcome to contact rf-monitor@tuta.com",
+          "supports": [],
+          "author": "rf-monitor",
+          "shared_at": 1781621014,
+          "source_url": "https://news.ycombinator.com/item?id=48556078"
+        }
+      ],
+      "source_item_id": 48556078,
+      "source_url": "https://news.ycombinator.com/item?id=48556078",
+      "author": "rf-monitor",
+      "shared_at": 1781621014,
+      "links": []
+    }
+  ]
+}

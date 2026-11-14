@@ -1,0 +1,63 @@
+{
+  "id": 5813,
+  "slug": "veform-aa88b0c10d",
+  "name": "veform",
+  "mentions": [
+    {
+      "name": "veform",
+      "description": "Veform is a tool for filling out website and app forms through voice conversation instead of typing. It ships with working demos and a playground for coding different form conversations. The long-term vision is that any information input into a website or app can be done via voice, enabling use cases like driving, greater accessibility, and avoiding screen time.",
+      "problem": "Typing information into websites and apps is impractical in some situations (e.g., while driving), can limit accessibility, and sometimes people simply don't want to stare at a screen or type.",
+      "audience": null,
+      "builder_usernames": [
+        "ericmcer"
+      ],
+      "source_excerpt": "With that in mind I made https://veform.co. Still a million miles from the dream but it has working demos and a playground to code different form conversations in.",
+      "evidence": [
+        {
+          "source_item_id": 47753367,
+          "source_field": "body",
+          "value": "With that in mind I made https://veform.co. Still a million miles from the dream but it has working demos and a playground to code different form conversations in.",
+          "supports": [],
+          "author": "ericmcer",
+          "shared_at": 1776093879,
+          "source_url": "https://news.ycombinator.com/item?id=47753367"
+        }
+      ],
+      "source_item_id": 47753367,
+      "source_url": "https://news.ycombinator.com/item?id=47753367",
+      "author": "ericmcer",
+      "shared_at": 1776093879,
+      "links": [
+        "https://veform.co"
+      ]
+    },
+    {
+      "name": "Veform",
+      "description": "Veform provides iOS, JavaScript, and Android libraries that turn traditional form inputs into audio conversations. It introduces a conversation state alongside UI state and app logic state, exposing events so developers can keep the conversation in sync with the rest of their app. Beyond form flows, it can be configured to navigate pages, click elements, and perform other interactions through audio conversation.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ericmcer"
+      ],
+      "source_excerpt": "Veform https://veform.co/\n\niOS/JS/Android Libraries for turning traditional inputs/forms into audio conversations.",
+      "evidence": [
+        {
+          "source_item_id": 46282639,
+          "source_field": "body",
+          "value": "Veform https://veform.co/\n\niOS/JS/Android Libraries for turning traditional inputs/forms into audio conversations.",
+          "supports": [],
+          "author": "ericmcer",
+          "shared_at": 1765842211,
+          "source_url": "https://news.ycombinator.com/item?id=46282639"
+        }
+      ],
+      "source_item_id": 46282639,
+      "source_url": "https://news.ycombinator.com/item?id=46282639",
+      "author": "ericmcer",
+      "shared_at": 1765842211,
+      "links": [
+        "https://veform.co/"
+      ]
+    }
+  ]
+}

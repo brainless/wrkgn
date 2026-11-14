@@ -1,0 +1,33 @@
+{
+  "id": 8542,
+  "slug": "typescript-to-native-code-compiler-fd36df9a86",
+  "name": "TypeScript to Native Code Compiler",
+  "mentions": [
+    {
+      "name": "TypeScript to Native Code Compiler",
+      "description": "This project compiles TypeScript to native code using the Dotnet CLR toolchain and Native AOT, letting programs use the Dotnet standard library instead of the npm ecosystem for better speed and safety. It includes a Node compat library that exposes Node APIs with CLR underneath, and the output is a Linux/macOS binary that runs without NodeJS. Simple programs already work and web apps are very nearly running.",
+      "problem": "The npm ecosystem is slower and less safe than the Dotnet standard library, and NodeJS output requires a runtime instead of a self-contained native binary.",
+      "audience": null,
+      "builder_usernames": [
+        "jeswin"
+      ],
+      "source_excerpt": "I'm building a TypeScript to native code compiler, via the Dotnet CLR toolchain and Native AOT.",
+      "evidence": [
+        {
+          "source_item_id": 46270001,
+          "source_field": "body",
+          "value": "I'm building a TypeScript to native code compiler, via the Dotnet CLR toolchain and Native AOT.",
+          "supports": [],
+          "author": "jeswin",
+          "shared_at": 1765767945,
+          "source_url": "https://news.ycombinator.com/item?id=46270001"
+        }
+      ],
+      "source_item_id": 46270001,
+      "source_url": "https://news.ycombinator.com/item?id=46270001",
+      "author": "jeswin",
+      "shared_at": 1765767945,
+      "links": []
+    }
+  ]
+}

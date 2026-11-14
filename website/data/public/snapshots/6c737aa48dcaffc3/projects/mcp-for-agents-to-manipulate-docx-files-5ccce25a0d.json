@@ -1,0 +1,33 @@
+{
+  "id": 4329,
+  "slug": "mcp-for-agents-to-manipulate-docx-files-5ccce25a0d",
+  "name": "MCP for agents to manipulate docx files",
+  "mentions": [
+    {
+      "name": "MCP for agents to manipulate docx files",
+      "description": "An MCP (Model Context Protocol) server that lets AI agents create and manipulate Microsoft Word docx files, abstracting away the underlying OOXML file format so agents don't have to deal with it directly.",
+      "problem": "Agents working with Microsoft Word files would otherwise have to handle the OOXML format directly.",
+      "audience": null,
+      "builder_usernames": [
+        "topaztee"
+      ],
+      "source_excerpt": "an MCP for agents to manipulate docx files (microsoft words files). It abstracts away all the OOXML for the agent",
+      "evidence": [
+        {
+          "source_item_id": 48671611,
+          "source_field": "body",
+          "value": "an MCP for agents to manipulate docx files (microsoft words files). It abstracts away all the OOXML for the agent",
+          "supports": [],
+          "author": "topaztee",
+          "shared_at": 1782384482,
+          "source_url": "https://news.ycombinator.com/item?id=48671611"
+        }
+      ],
+      "source_item_id": 48671611,
+      "source_url": "https://news.ycombinator.com/item?id=48671611",
+      "author": "topaztee",
+      "shared_at": 1782384482,
+      "links": []
+    }
+  ]
+}

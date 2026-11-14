@@ -1,0 +1,35 @@
+{
+  "id": 8421,
+  "slug": "promptify-c77244e210",
+  "name": "Promptify",
+  "mentions": [
+    {
+      "name": "Promptify",
+      "description": "A prompt engineering tool that transforms vague prompts into context-rich, structured JSON/XML prompts. It is fully customizable, tracks prompting history safely within the browser tab session, automatically injects context, and learns the user's style. By restructuring requests into instructions AI can easily execute, it improves AI outputs and mitigates hallucinations. Available as a free Chrome extension.",
+      "problem": "Vague prompts produce poor AI outputs and hallucinations; the tool restructures requests into instructions AI can easily execute.",
+      "audience": "People working on complex tasks like coding and content creation",
+      "builder_usernames": [
+        "Krish-mal15"
+      ],
+      "source_excerpt": "A prompt engineering tool that takes vague prompts and transforms them into context-rich JSON/XML structured prompts. Fully customizable and tracks prompting history safely in tab session, automatically injecting context and learns style.",
+      "evidence": [
+        {
+          "source_item_id": 46281227,
+          "source_field": "body",
+          "value": "A prompt engineering tool that takes vague prompts and transforms them into context-rich JSON/XML structured prompts. Fully customizable and tracks prompting history safely in tab session, automatically injecting context and learns style.",
+          "supports": [],
+          "author": "Krish-mal15",
+          "shared_at": 1765835443,
+          "source_url": "https://news.ycombinator.com/item?id=46281227"
+        }
+      ],
+      "source_item_id": 46281227,
+      "source_url": "https://news.ycombinator.com/item?id=46281227",
+      "author": "Krish-mal15",
+      "shared_at": 1765835443,
+      "links": [
+        "https://joinpromptify.com/"
+      ]
+    }
+  ]
+}

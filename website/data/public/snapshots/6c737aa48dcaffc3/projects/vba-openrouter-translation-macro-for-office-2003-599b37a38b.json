@@ -1,0 +1,33 @@
+{
+  "id": 10918,
+  "slug": "vba-openrouter-translation-macro-for-office-2003-599b37a38b",
+  "name": "VBA OpenRouter translation macro for Office 2003",
+  "mentions": [
+    {
+      "name": "VBA OpenRouter translation macro for Office 2003",
+      "description": "A VBA macro for Office 2003 that sends the selected text to OpenRouter (Claude Sonnet or Gemini) and replaces it with the model's response, using a system prompt that instructs the model to output only the translation. The author built it to streamline translating a French novel paragraph by paragraph without copying and pasting back and forth, and reports it is a major boost to translation productivity.",
+      "problem": "Copying and pasting paragraphs to and from OpenRouter for translation gets old fast, and Office 2003 has no AI features (its built-in translate function is awkward and not very good).",
+      "audience": "individual writers/translators working on personal projects",
+      "builder_usernames": [
+        "bambax"
+      ],
+      "source_excerpt": "So I wrote a macro to send selected text to OpenRouter and replace with the response (with a system prompt that says to only output the translation, otherwise most models start with \"Here's the translated text:\")",
+      "evidence": [
+        {
+          "source_item_id": 43818976,
+          "source_field": "body",
+          "value": "So I wrote a macro to send selected text to OpenRouter and replace with the response (with a system prompt that says to only output the translation, otherwise most models start with \"Here's the translated text:\")",
+          "supports": [],
+          "author": "bambax",
+          "shared_at": 1745829324,
+          "source_url": "https://news.ycombinator.com/item?id=43818976"
+        }
+      ],
+      "source_item_id": 43818976,
+      "source_url": "https://news.ycombinator.com/item?id=43818976",
+      "author": "bambax",
+      "shared_at": 1745829324,
+      "links": []
+    }
+  ]
+}

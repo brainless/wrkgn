@@ -1,0 +1,33 @@
+{
+  "id": 7509,
+  "slug": "home-lab-3-node-talos-kubernetes-cluster-b07ae4cf9e",
+  "name": "Home lab 3-node Talos Kubernetes cluster",
+  "mentions": [
+    {
+      "name": "Home lab 3-node Talos Kubernetes cluster",
+      "description": "A personal home lab Kubernetes cluster built from three older Dell Optiplex systems running Talos Linux, configured with MetalLB as the load balancer, Traefik as the ingress controller, and Local Path Provisioner for storage.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jftuga"
+      ],
+      "source_excerpt": "For my home lab, I built a 3 node Talos (from https://www.talos.dev/) cluster from older Dell Optiplex systems.",
+      "evidence": [
+        {
+          "source_item_id": 46578089,
+          "source_field": "body",
+          "value": "For my home lab, I built a 3 node Talos (from https://www.talos.dev/) cluster from older Dell Optiplex systems.",
+          "supports": [],
+          "author": "jftuga",
+          "shared_at": 1768155471,
+          "source_url": "https://news.ycombinator.com/item?id=46578089"
+        }
+      ],
+      "source_item_id": 46578089,
+      "source_url": "https://news.ycombinator.com/item?id=46578089",
+      "author": "jftuga",
+      "shared_at": 1768155471,
+      "links": []
+    }
+  ]
+}

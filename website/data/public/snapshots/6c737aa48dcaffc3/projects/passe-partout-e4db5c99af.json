@@ -1,0 +1,35 @@
+{
+  "id": 4691,
+  "slug": "passe-partout-e4db5c99af",
+  "name": "Passe-Partout",
+  "mentions": [
+    {
+      "name": "Passe-Partout",
+      "description": "This project provides a Chrome browser exposed through a REST API, enabling automated browser-based fetching of web pages to improve reliability of content retrieval for the archiving stack.",
+      "problem": "Web content fetching needs to be more reliable.",
+      "audience": null,
+      "builder_usernames": [
+        "jfim"
+      ],
+      "source_excerpt": "I made passe-partout which is basically a Chrome browser with a rest API (https://github.com/jfim/passe-partout)",
+      "evidence": [
+        {
+          "source_item_id": 48093204,
+          "source_field": "body",
+          "value": "I made passe-partout which is basically a Chrome browser with a rest API (https://github.com/jfim/passe-partout)",
+          "supports": [],
+          "author": "jfim",
+          "shared_at": 1778495492,
+          "source_url": "https://news.ycombinator.com/item?id=48093204"
+        }
+      ],
+      "source_item_id": 48093204,
+      "source_url": "https://news.ycombinator.com/item?id=48093204",
+      "author": "jfim",
+      "shared_at": 1778495492,
+      "links": [
+        "https://github.com/jfim/passe-partout"
+      ]
+    }
+  ]
+}

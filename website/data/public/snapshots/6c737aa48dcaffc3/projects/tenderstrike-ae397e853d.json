@@ -1,0 +1,35 @@
+{
+  "id": 10947,
+  "slug": "tenderstrike-ae397e853d",
+  "name": "TenderStrike",
+  "mentions": [
+    {
+      "name": "TenderStrike",
+      "description": "This is an AI-based tender analysis tool focused on the construction industry. It handles tender projects of massively varying sizes, from a few pages to 20,000+ documents, places high importance on graphs and charts, and performs varied extraction tasks ranging from qualitative analysis to quantitative, exhaustive lists. The pipeline was built mostly by hand rather than with off-the-shelf RAG tools, which allowed custom adjustments and changes.",
+      "problem": "The construction tender niche presents challenges like massively varying project sizes, a high importance of graphs and charts, and very different extraction tasks — from qualitative analysis to quantitative, exhaustive lists, which is still a pain point.",
+      "audience": "Construction industry firms handling tender analysis",
+      "builder_usernames": [
+        "cmenge"
+      ],
+      "source_excerpt": "Mostly on an AI-based tender analysis tool which is focused on the construction industry, https://www.tenderstrike.com",
+      "evidence": [
+        {
+          "source_item_id": 43836848,
+          "source_field": "body",
+          "value": "Mostly on an AI-based tender analysis tool which is focused on the construction industry, https://www.tenderstrike.com",
+          "supports": [],
+          "author": "cmenge",
+          "shared_at": 1745954325,
+          "source_url": "https://news.ycombinator.com/item?id=43836848"
+        }
+      ],
+      "source_item_id": 43836848,
+      "source_url": "https://news.ycombinator.com/item?id=43836848",
+      "author": "cmenge",
+      "shared_at": 1745954325,
+      "links": [
+        "https://www.tenderstrike.com"
+      ]
+    }
+  ]
+}

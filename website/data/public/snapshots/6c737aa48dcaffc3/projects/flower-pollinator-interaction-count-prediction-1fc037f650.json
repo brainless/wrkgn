@@ -1,0 +1,35 @@
+{
+  "id": 10776,
+  "slug": "flower-pollinator-interaction-count-prediction-1fc037f650",
+  "name": "Flower-pollinator interaction count prediction",
+  "mentions": [
+    {
+      "name": "Flower-pollinator interaction count prediction",
+      "description": "This research predicts the number of interactions between flowers and pollinators from initial counts, addressing the under-counting of manually collected field observations using low-rankness and a Poisson mixture model; the work is published as an IEEE paper.",
+      "problem": "Initial counts are obtained manually by going to the fields, taking pictures and counting (like the number of bees within a frame), so those counts are likely lower than the actual numbers.",
+      "audience": null,
+      "builder_usernames": [
+        "tringuyen_cse"
+      ],
+      "source_excerpt": "I used to work on a somewhat similar problem. Our problem was more general, but one usecase is to predict the number of interactions between flowers and pollinators, given some initial counts. As these initial counts are obtained manually (by going to the fields, taking pictures and count, like number of bees within a frame), those count numbers are likely to be lower the the actual numbers. We addressed this under-counted issue using low-rankness and Poisson mixture model.",
+      "evidence": [
+        {
+          "source_item_id": 43827011,
+          "source_field": "body",
+          "value": "I used to work on a somewhat similar problem. Our problem was more general, but one usecase is to predict the number of interactions between flowers and pollinators, given some initial counts. As these initial counts are obtained manually (by going to the fields, taking pictures and count, like number of bees within a frame), those count numbers are likely to be lower the the actual numbers. We addressed this under-counted issue using low-rankness and Poisson mixture model.",
+          "supports": [],
+          "author": "tringuyen_cse",
+          "shared_at": 1745881025,
+          "source_url": "https://news.ycombinator.com/item?id=43827011"
+        }
+      ],
+      "source_item_id": 43827011,
+      "source_url": "https://news.ycombinator.com/item?id=43827011",
+      "author": "tringuyen_cse",
+      "shared_at": 1745881025,
+      "links": [
+        "https://ieeexplore.ieee.org/document/10888717"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 6224,
+  "slug": "skill-provenance-48876aa0a9",
+  "name": "Skill-Provenance",
+  "mentions": [
+    {
+      "name": "Skill-Provenance",
+      "description": "Version tracking system for AI agent skills that embeds version headers, a changelog, and a manifest inside each skill bundle, so any session can verify which version it received when skill files move between Claude, Codex, Copilot, and local storage.",
+      "problem": "When skill files move between Claude, Codex, Copilot, and local storage, they lose their version identity; the author kept losing track of which version of which skill was running where.",
+      "audience": null,
+      "builder_usernames": [
+        "snapsynapse"
+      ],
+      "source_excerpt": "Working on version tracking for AI agent skills. When skill files move between Claude, Codex, Copilot, and local storage, they lose their version identity. Skill-Provenance embeds version headers, a changelog, and a manifest inside the skill bundle so any session can verify what it received.",
+      "evidence": [
+        {
+          "source_item_id": 47317895,
+          "source_field": "body",
+          "value": "Working on version tracking for AI agent skills. When skill files move between Claude, Codex, Copilot, and local storage, they lose their version identity. Skill-Provenance embeds version headers, a changelog, and a manifest inside the skill bundle so any session can verify what it received.",
+          "supports": [],
+          "author": "snapsynapse",
+          "shared_at": 1773104374,
+          "source_url": "https://news.ycombinator.com/item?id=47317895"
+        }
+      ],
+      "source_item_id": 47317895,
+      "source_url": "https://news.ycombinator.com/item?id=47317895",
+      "author": "snapsynapse",
+      "shared_at": 1773104374,
+      "links": [
+        "https://github.com/snapsynapse/skill-provenance"
+      ]
+    }
+  ]
+}

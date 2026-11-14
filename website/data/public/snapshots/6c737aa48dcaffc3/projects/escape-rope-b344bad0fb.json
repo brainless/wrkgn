@@ -1,0 +1,35 @@
+{
+  "id": 10002,
+  "slug": "escape-rope-b344bad0fb",
+  "name": "Escape Rope",
+  "mentions": [
+    {
+      "name": "Escape Rope",
+      "description": "This project automates browsing job boards: crawlers doomscroll job listings and a Tinder-style clone swipes through them. The automation logic has been broken out into a reusable form for scaling to new targets, and the HTML parsing is separated for possible use outside the browser automation flow. Planned work includes handling datasources as both an API and a plugin architecture, so searches can be configured through the API and triggered manually or on a schedule.",
+      "problem": "Manually doomscrolling job boards",
+      "audience": null,
+      "builder_usernames": [
+        "chaosharmonic"
+      ],
+      "source_excerpt": "Tech side project: crawlers that doomscroll job boards for me, and a Tinder clone that swipes through them. I recently broke out the actual automation logic into something more recyclable for scaling out to new targets (and broke out the HTML parsing for possible use outside my browser automation flow). Still figuring out how I want to handle datasources as both an API and a plugin architecture, but the goal is to eventually be able to configure searches through the API, to manually trigger and/or setup scheduled runs.\n\ngithub: [username]/escape-rope, /escape-rope-ui | UI demo: escape-rope.bhmt.dev",
+      "evidence": [
+        {
+          "source_item_id": 45422342,
+          "source_field": "body",
+          "value": "Tech side project: crawlers that doomscroll job boards for me, and a Tinder clone that swipes through them. I recently broke out the actual automation logic into something more recyclable for scaling out to new targets (and broke out the HTML parsing for possible use outside my browser automation flow). Still figuring out how I want to handle datasources as both an API and a plugin architecture, but the goal is to eventually be able to configure searches through the API, to manually trigger and/or setup scheduled runs.\n\ngithub: [username]/escape-rope, /escape-rope-ui | UI demo: escape-rope.bhmt.dev",
+          "supports": [],
+          "author": "chaosharmonic",
+          "shared_at": 1759211490,
+          "source_url": "https://news.ycombinator.com/item?id=45422342"
+        }
+      ],
+      "source_item_id": 45422342,
+      "source_url": "https://news.ycombinator.com/item?id=45422342",
+      "author": "chaosharmonic",
+      "shared_at": 1759211490,
+      "links": [
+        "https://escape-rope.bhmt.dev"
+      ]
+    }
+  ]
+}

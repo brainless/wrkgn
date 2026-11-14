@@ -1,0 +1,35 @@
+{
+  "id": 5119,
+  "slug": "finding-really-big-palindromes-decimal-binary-palindrome-search-3593a3dba9",
+  "name": "Finding Really Big Palindromes (decimal-binary palindrome search)",
+  "mentions": [
+    {
+      "name": "Finding Really Big Palindromes (decimal-binary palindrome search)",
+      "description": "A computational search for numbers that are palindromes in both decimal and binary representations. The search fixes the least and most significant decimal digits incrementally and prunes unfeasible subtrees using a new lookup table approach: a table of size 5^n records how many middle bits are needed to achieve a given remainder mod 5^n, allowing branches to be pruned when the required bits exceed the unknown bits. The project also includes engineering optimizations such as more efficient tables and CUDA porting.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ashdnazg"
+      ],
+      "source_excerpt": "I'm back to searching for numbers that are palindromes both in decimal and in binary. [0]",
+      "evidence": [
+        {
+          "source_item_id": 47744799,
+          "source_field": "body",
+          "value": "I'm back to searching for numbers that are palindromes both in decimal and in binary. [0]",
+          "supports": [],
+          "author": "ashdnazg",
+          "shared_at": 1776029778,
+          "source_url": "https://news.ycombinator.com/item?id=47744799"
+        }
+      ],
+      "source_item_id": 47744799,
+      "source_url": "https://news.ycombinator.com/item?id=47744799",
+      "author": "ashdnazg",
+      "shared_at": 1776029778,
+      "links": [
+        "https://ashdnazg.github.io/articles/22/Finding-Really-Big-Palindromes"
+      ]
+    }
+  ]
+}

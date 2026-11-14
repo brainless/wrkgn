@@ -1,0 +1,36 @@
+{
+  "id": 8185,
+  "slug": "minemizer-9d677c367c",
+  "name": "Minemizer",
+  "mentions": [
+    {
+      "name": "Minemizer",
+      "description": "A data formatter that produces csv-like output supporting nested and sparse data, built to minimize token usage when passing data to LLMs. It produces fewer tokens than csv for flat data, is human readable and very simple, and the repo includes code, benchmarks, and tokenization examples.",
+      "problem": "Saving tokens when passing data to LLMs; the author did not like anything on the market for this.",
+      "audience": null,
+      "builder_usernames": [
+        "ashirviskas"
+      ],
+      "source_excerpt": "Wanted to save up a few tokens when passing data to LLMs and did not like anything on the market, so I made minemizer.\n\nMinemizer is a data formatter that produces csv-like output, but supports nested and sparse data, is human readable and super simple.",
+      "evidence": [
+        {
+          "source_item_id": 46268707,
+          "source_field": "body",
+          "value": "Wanted to save up a few tokens when passing data to LLMs and did not like anything on the market, so I made minemizer.\n\nMinemizer is a data formatter that produces csv-like output, but supports nested and sparse data, is human readable and super simple.",
+          "supports": [],
+          "author": "ashirviskas",
+          "shared_at": 1765757795,
+          "source_url": "https://news.ycombinator.com/item?id=46268707"
+        }
+      ],
+      "source_item_id": 46268707,
+      "source_url": "https://news.ycombinator.com/item?id=46268707",
+      "author": "ashirviskas",
+      "shared_at": 1765757795,
+      "links": [
+        "https://ashirviskas.github.io",
+        "https://github.com/ashirviskas/minemizer"
+      ]
+    }
+  ]
+}

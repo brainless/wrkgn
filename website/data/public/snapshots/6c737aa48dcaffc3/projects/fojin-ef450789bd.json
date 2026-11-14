@@ -1,0 +1,36 @@
+{
+  "id": 6289,
+  "slug": "fojin-ef450789bd",
+  "name": "FoJin",
+  "mentions": [
+    {
+      "name": "FoJin",
+      "description": "An open-source platform that aggregates Buddhist digital texts from 440+ global sources (CBETA, SuttaCentral, BDRC, SAT, 84000, GRETIL, etc.) into one searchable interface. It features a knowledge graph of 9,600+ entities, 237K dictionary entries, full-text reading of 4,488 fascicles, and RAG-powered AI Q&A grounded in 11M characters of canonical text. Built with React + TypeScript, FastAPI, PostgreSQL with pgvector, Elasticsearch 8 (ICU analysis for CJK), and Redis.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "XR843"
+      ],
+      "source_excerpt": "Building FoJin (https://fojin.app) — an open-source platform that\n  aggregates Buddhist digital texts from 440+ global sources (CBETA,\n  SuttaCentral, BDRC, SAT, 84000, GRETIL, etc.) into one searchable\n  interface.\n\n  Stack: React + TypeScript, FastAPI, PostgreSQL with pgvector,\n  Elasticsearch 8 (ICU analysis for CJK), Redis. Features include a\n  knowledge graph (9,600+ entities), 237K dictionary entries, full-text\n  reading of 4,488 fascicles, and RAG-powered AI Q&A grounded in 11M\n  characters of canonical text.",
+      "evidence": [
+        {
+          "source_item_id": 47360514,
+          "source_field": "body",
+          "value": "Building FoJin (https://fojin.app) — an open-source platform that\n  aggregates Buddhist digital texts from 440+ global sources (CBETA,\n  SuttaCentral, BDRC, SAT, 84000, GRETIL, etc.) into one searchable\n  interface.\n\n  Stack: React + TypeScript, FastAPI, PostgreSQL with pgvector,\n  Elasticsearch 8 (ICU analysis for CJK), Redis. Features include a\n  knowledge graph (9,600+ entities), 237K dictionary entries, full-text\n  reading of 4,488 fascicles, and RAG-powered AI Q&A grounded in 11M\n  characters of canonical text.",
+          "supports": [],
+          "author": "XR843",
+          "shared_at": 1773374120,
+          "source_url": "https://news.ycombinator.com/item?id=47360514"
+        }
+      ],
+      "source_item_id": 47360514,
+      "source_url": "https://news.ycombinator.com/item?id=47360514",
+      "author": "XR843",
+      "shared_at": 1773374120,
+      "links": [
+        "https://fojin.app",
+        "https://github.com/xr843/fojin"
+      ]
+    }
+  ]
+}

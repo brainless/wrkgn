@@ -1,0 +1,33 @@
+{
+  "id": 6251,
+  "slug": "on-set-data-management-tool-7c97c0d00f",
+  "name": "On-set Data Management Tool",
+  "mentions": [
+    {
+      "name": "On-set Data Management Tool",
+      "description": "A tool for on-set data management for small to medium scale productions, currently being polished and refined. It tracks drives and backup jobs and links them together so users know where everything is stored, who has what, how much data remains, and how much data the next scene will consume based on the camera and settings used. Written in Go, it runs as a simple desktop app that starts a web server and opens the site in the default browser, making it multi-platform and hostable as a SaaS for larger production houses.",
+      "problem": "On-set data wrangling makes it hard to keep track of drives and backup jobs, link them together, know where everything is stored, who has what, how much data is left, and how much data the next scene will use given the camera and settings.",
+      "audience": "Data wranglers and crews on small to medium scale productions; can also be hosted as SaaS for larger production houses.",
+      "builder_usernames": [
+        "movedx"
+      ],
+      "source_excerpt": "I've written and I'm now polishing and refining a tool for on-set data management for small to medium scale productions.",
+      "evidence": [
+        {
+          "source_item_id": 47304080,
+          "source_field": "body",
+          "value": "I've written and I'm now polishing and refining a tool for on-set data management for small to medium scale productions.",
+          "supports": [],
+          "author": "movedx",
+          "shared_at": 1773022369,
+          "source_url": "https://news.ycombinator.com/item?id=47304080"
+        }
+      ],
+      "source_item_id": 47304080,
+      "source_url": "https://news.ycombinator.com/item?id=47304080",
+      "author": "movedx",
+      "shared_at": 1773022369,
+      "links": []
+    }
+  ]
+}

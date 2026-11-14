@@ -1,0 +1,35 @@
+{
+  "id": 5162,
+  "slug": "agent-os-74466ad5a8",
+  "name": "Agent OS",
+  "mentions": [
+    {
+      "name": "Agent OS",
+      "description": "A WASM- and V8 isolate-based operating system that is (almost) POSIX-compliant, with its own network stack, VFS, and process tree. It allows compiling most C or Rust programs to run in it without modification and can run coding agents such as Claude Code, Codex, Pi, and OpenCode unmodified. Currently being polished with a focus on security and documentation ahead of a deep-dive writeup.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "NathanFlurry"
+      ],
+      "source_excerpt": "WASM- & V8 isolate-based operating system that's (almost) POSIX-compliant, including its own network stack, VFS, process tree, etc.",
+      "evidence": [
+        {
+          "source_item_id": 47745539,
+          "source_field": "body",
+          "value": "WASM- & V8 isolate-based operating system that's (almost) POSIX-compliant, including its own network stack, VFS, process tree, etc.",
+          "supports": [],
+          "author": "NathanFlurry",
+          "shared_at": 1776035993,
+          "source_url": "https://news.ycombinator.com/item?id=47745539"
+        }
+      ],
+      "source_item_id": 47745539,
+      "source_url": "https://news.ycombinator.com/item?id=47745539",
+      "author": "NathanFlurry",
+      "shared_at": 1776035993,
+      "links": [
+        "https://github.com/rivet-dev/agent-os"
+      ]
+    }
+  ]
+}

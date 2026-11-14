@@ -1,0 +1,33 @@
+{
+  "id": 5094,
+  "slug": "fuse-based-bidirectional-file-sync-tool-e187fa3463",
+  "name": "FUSE-based bidirectional file sync tool",
+  "mentions": [
+    {
+      "name": "FUSE-based bidirectional file sync tool",
+      "description": "A tool that lets two devices browse files synchronously and bidirectionally sync edits between them via FUSE mounts, implemented by tunneling TCP between the devices.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "coldstartops"
+      ],
+      "source_excerpt": "I got a similar tool but went the other way around, I wanted to browse files synchronously (and bidirectional sync of edits) between two devices via FUSE mounts, and ended up tunneling TCP for this in the end.",
+      "evidence": [
+        {
+          "source_item_id": 47748262,
+          "source_field": "body",
+          "value": "I got a similar tool but went the other way around, I wanted to browse files synchronously (and bidirectional sync of edits) between two devices via FUSE mounts, and ended up tunneling TCP for this in the end.",
+          "supports": [],
+          "author": "coldstartops",
+          "shared_at": 1776061030,
+          "source_url": "https://news.ycombinator.com/item?id=47748262"
+        }
+      ],
+      "source_item_id": 47748262,
+      "source_url": "https://news.ycombinator.com/item?id=47748262",
+      "author": "coldstartops",
+      "shared_at": 1776061030,
+      "links": []
+    }
+  ]
+}

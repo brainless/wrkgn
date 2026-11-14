@@ -1,0 +1,35 @@
+{
+  "id": 7558,
+  "slug": "tmux-cli-055fac7f00",
+  "name": "Tmux-cli",
+  "mentions": [
+    {
+      "name": "Tmux-cli",
+      "description": "A tool and skill that enable CLI agents to interact with scripts, including other agents, running in other Tmux panes — like Playwright for the terminal. Multiple CLI agents can collaborate or consult with each other, and an agent can run and interact with interactive CLI scripts.",
+      "problem": null,
+      "audience": "Users of Claude Code, Codex CLI and similar CLI coding agents",
+      "builder_usernames": [
+        "d4rkp4ttern"
+      ],
+      "source_excerpt": "Tmux-cli tool + skill to enable CLI agents to interact with scripts (including other agents) running in other Tmux panes. Like Playwright for the terminal. Multiple CLI agents can collaborate/consult etc. Agent can run and interact with interactive CLI scripts.",
+      "evidence": [
+        {
+          "source_item_id": 46579634,
+          "source_field": "body",
+          "value": "Tmux-cli tool + skill to enable CLI agents to interact with scripts (including other agents) running in other Tmux panes. Like Playwright for the terminal. Multiple CLI agents can collaborate/consult etc. Agent can run and interact with interactive CLI scripts.",
+          "supports": [],
+          "author": "d4rkp4ttern",
+          "shared_at": 1768163115,
+          "source_url": "https://news.ycombinator.com/item?id=46579634"
+        }
+      ],
+      "source_item_id": 46579634,
+      "source_url": "https://news.ycombinator.com/item?id=46579634",
+      "author": "d4rkp4ttern",
+      "shared_at": 1768163115,
+      "links": [
+        "https://github.com/pchalasani/claude-code-tools"
+      ]
+    }
+  ]
+}

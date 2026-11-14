@@ -1,0 +1,33 @@
+{
+  "id": 9456,
+  "slug": "auto-training-golang-web-scraper-colly-based-775dbd902d",
+  "name": "Auto-training Golang web scraper (Colly-based)",
+  "mentions": [
+    {
+      "name": "Auto-training Golang web scraper (Colly-based)",
+      "description": "A web scraper written in Golang and based on Colly that automatically trains itself on the structure of a page to acquire the desired data, then cleans and structures the scraped data into a format suitable for insertion into a relational database. Built as an open-source contribution.",
+      "problem": "The author was tired of manually scraping, cleaning, and structuring pricing data they wanted to monitor on supplier sites.",
+      "audience": null,
+      "builder_usernames": [
+        "primax"
+      ],
+      "source_excerpt": "I'm building a scraper in Golang based on Colly to do two things:\n\n* Automatically train the scraper on the structure of the page to acquire the data you want, and\n\n* Clean and structure the data into a format suitable to go into a relational database",
+      "evidence": [
+        {
+          "source_item_id": 45870161,
+          "source_field": "body",
+          "value": "I'm building a scraper in Golang based on Colly to do two things:\n\n* Automatically train the scraper on the structure of the page to acquire the data you want, and\n\n* Clean and structure the data into a format suitable to go into a relational database",
+          "supports": [],
+          "author": "primax",
+          "shared_at": 1762729657,
+          "source_url": "https://news.ycombinator.com/item?id=45870161"
+        }
+      ],
+      "source_item_id": 45870161,
+      "source_url": "https://news.ycombinator.com/item?id=45870161",
+      "author": "primax",
+      "shared_at": 1762729657,
+      "links": []
+    }
+  ]
+}

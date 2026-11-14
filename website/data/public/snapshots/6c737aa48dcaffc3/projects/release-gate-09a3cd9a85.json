@@ -1,0 +1,35 @@
+{
+  "id": 4201,
+  "slug": "release-gate-09a3cd9a85",
+  "name": "Release Gate",
+  "mentions": [
+    {
+      "name": "Release Gate",
+      "description": "A pre-deployment checker for AI agents that runs inside CI/CD pipelines, requiring no infrastructure beyond a Python environment. It checks AI agents before they go live to catch issues like runaway loops and excessive token usage that inflate costs.",
+      "problem": "AI agent cost explosions and excess token usage are typically detected only after deployment; teams lack pre-deployment checks and clarity on responsibility when endless loops slowly raise hidden costs.",
+      "audience": "Teams deploying AI agents, including those worried about hidden post-deployment cost overruns",
+      "builder_usernames": [
+        "VamsiSudhakaran"
+      ],
+      "source_excerpt": "Introducing -  https://release-gate.com/\n\nA pre deployment checker for AI agents that sits in your CI/CD pipeline, No infra required, just a python environment and you are ready to roll.",
+      "evidence": [
+        {
+          "source_item_id": 48541490,
+          "source_field": "body",
+          "value": "Introducing -  https://release-gate.com/\n\nA pre deployment checker for AI agents that sits in your CI/CD pipeline, No infra required, just a python environment and you are ready to roll.",
+          "supports": [],
+          "author": "VamsiSudhakaran",
+          "shared_at": 1781532367,
+          "source_url": "https://news.ycombinator.com/item?id=48541490"
+        }
+      ],
+      "source_item_id": 48541490,
+      "source_url": "https://news.ycombinator.com/item?id=48541490",
+      "author": "VamsiSudhakaran",
+      "shared_at": 1781532367,
+      "links": [
+        "https://release-gate.com/"
+      ]
+    }
+  ]
+}

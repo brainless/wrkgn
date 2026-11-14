@@ -1,0 +1,35 @@
+{
+  "id": 10859,
+  "slug": "overworld-4fa3496bba",
+  "name": "Overworld",
+  "mentions": [
+    {
+      "name": "Overworld",
+      "description": "An Erlang-based multiplayer game server framework with a control plane supporting ENet and WebSocket connection modes and Protobuf for messages. Exposes Erlang behaviors such as gen_zone that developers can target to implement tick-based game servers, with plans to expand to other game types such as turn-based games. Includes a Godot plugin that generates a client library from a protobuf schema, handling sessions, exposing functions for client-to-server messages, and emitting signals for server-to-client messages. Work in progress integrates Luerl (Lua in Erlang) and Love2D support so the majority of game logic can be written in Lua on top of the Erlang backend, with longer-term ideas for hot-reloading parts of the Lua game state on client and server, perhaps with an in-game editor.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "cmdrk"
+      ],
+      "source_excerpt": "Server backend framework:\nhttps://github.com/saltysystems/overworld",
+      "evidence": [
+        {
+          "source_item_id": 43833980,
+          "source_field": "body",
+          "value": "Server backend framework:\nhttps://github.com/saltysystems/overworld",
+          "supports": [],
+          "author": "cmdrk",
+          "shared_at": 1745940468,
+          "source_url": "https://news.ycombinator.com/item?id=43833980"
+        }
+      ],
+      "source_item_id": 43833980,
+      "source_url": "https://news.ycombinator.com/item?id=43833980",
+      "author": "cmdrk",
+      "shared_at": 1745940468,
+      "links": [
+        "https://github.com/saltysystems/overworld"
+      ]
+    }
+  ]
+}

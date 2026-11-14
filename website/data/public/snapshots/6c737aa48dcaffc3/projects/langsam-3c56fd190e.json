@@ -1,0 +1,35 @@
+{
+  "id": 9601,
+  "slug": "langsam-3c56fd190e",
+  "name": "Langsam",
+  "mentions": [
+    {
+      "name": "Langsam",
+      "description": "An AST-walking interpreter for a personal LISP dialect, written in C. It is the foundation of a planned toolchain: a low-level statically typed language (Schnell) implemented as a library with JIT compilation, a rewritten fast bytecode interpreter, and eventually a small OS (Oben) bootstrapped on top of an assembly-language Forth dialect (Grund) on QEMU, Raspberry Pi Zero 2W, or custom FPGA hardware.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "clx75"
+      ],
+      "source_excerpt": "Langsam - https://github.com/cellux/langsam\n\nThis is an AST-walking interpreter for my personal LISP dialect written in C.",
+      "evidence": [
+        {
+          "source_item_id": 45873973,
+          "source_field": "body",
+          "value": "Langsam - https://github.com/cellux/langsam\n\nThis is an AST-walking interpreter for my personal LISP dialect written in C.",
+          "supports": [],
+          "author": "clx75",
+          "shared_at": 1762765216,
+          "source_url": "https://news.ycombinator.com/item?id=45873973"
+        }
+      ],
+      "source_item_id": 45873973,
+      "source_url": "https://news.ycombinator.com/item?id=45873973",
+      "author": "clx75",
+      "shared_at": 1762765216,
+      "links": [
+        "https://github.com/cellux/langsam"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 7971,
+  "slug": "web-data-aggregation-rest-api-a23b30a6a4",
+  "name": "Web data aggregation REST API",
+  "mentions": [
+    {
+      "name": "Web data aggregation REST API",
+      "description": "This REST API aggregates and structures data from the web, with a vanilla Python ETL pipeline orchestrated by Cron and SIGUSR1, served through Nginx, uvicorn, and FastAPI, and storing data in a CAFS store indexed with Xapian with a ~200ms load time.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "0x59"
+      ],
+      "source_excerpt": "building a rest APIs that aggregates and structures data from the www\n\n- ETL is vanilla Python\n- Orchestrated with Cron and SIGUSR1\n- http is Nginx -> uvicorn-> FastAPI",
+      "evidence": [
+        {
+          "source_item_id": 46579935,
+          "source_field": "body",
+          "value": "building a rest APIs that aggregates and structures data from the www\n\n- ETL is vanilla Python\n- Orchestrated with Cron and SIGUSR1\n- http is Nginx -> uvicorn-> FastAPI",
+          "supports": [],
+          "author": "0x59",
+          "shared_at": 1768164785,
+          "source_url": "https://news.ycombinator.com/item?id=46579935"
+        }
+      ],
+      "source_item_id": 46579935,
+      "source_url": "https://news.ycombinator.com/item?id=46579935",
+      "author": "0x59",
+      "shared_at": 1768164785,
+      "links": []
+    }
+  ]
+}

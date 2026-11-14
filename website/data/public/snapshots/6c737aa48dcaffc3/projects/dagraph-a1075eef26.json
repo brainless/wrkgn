@@ -1,0 +1,35 @@
+{
+  "id": 4453,
+  "slug": "dagraph-a1075eef26",
+  "name": "DAGraph",
+  "mentions": [
+    {
+      "name": "DAGraph",
+      "description": "A local-first reactive DAG for analytical SQL (OLAP) that runs entirely in the browser, with a native version in development. It parses SQL to automatically handle dependencies, persists workspace data in the browser via OPFS, and aims to be accessible for beginners while remaining powerful for advanced users.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "notfirstpost"
+      ],
+      "source_excerpt": "DAGraph is a local-first reactive DAG for analytical SQL (OLAP), running entirely in the browser (there is also a native version in the works).",
+      "evidence": [
+        {
+          "source_item_id": 48093264,
+          "source_field": "body",
+          "value": "DAGraph is a local-first reactive DAG for analytical SQL (OLAP), running entirely in the browser (there is also a native version in the works).",
+          "supports": [],
+          "author": "notfirstpost",
+          "shared_at": 1778495990,
+          "source_url": "https://news.ycombinator.com/item?id=48093264"
+        }
+      ],
+      "source_item_id": 48093264,
+      "source_url": "https://news.ycombinator.com/item?id=48093264",
+      "author": "notfirstpost",
+      "shared_at": 1778495990,
+      "links": [
+        "https://dagraph.com"
+      ]
+    }
+  ]
+}

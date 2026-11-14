@@ -1,0 +1,33 @@
+{
+  "id": 4559,
+  "slug": "multicast-bitcoin-transaction-distribution-system-60654e8718",
+  "name": "Multicast Bitcoin Transaction Distribution System",
+  "mentions": [
+    {
+      "name": "Multicast Bitcoin Transaction Distribution System",
+      "description": "A high-throughput multicast Bitcoin transaction distribution system built for BSV Blockchain (also adaptable to other Bitcoin variants), targeting a roadmap towards billions of transactions per second. It provides a control channel for block header announcements, operational mechanisms, and network topology automation; separate channels for subtree, subtree grouping, and transaction load; transaction load sharding by deterministic multicast group membership based on TXID; transaction filtering and retransmission (unicast and multicast) so edge networks interested in only a portion of the load can connect; NACK-based retransmission of missed packets via hash chain gap sequence tracking (per sender, per shard) with automated caching endpoint beacon discovery and tiered network distribution; and BGP-AnyCast based transaction ingress. The topology is dense at the core with layered, sharded group distribution towards users at the edges; site or org-scope multicast is planned now, with provisions to extend via MP-BGP eventually.",
+      "problem": "Scaling the Bitcoin network's transaction distribution infrastructure towards billions of transactions per second.",
+      "audience": "Bitcoin miners and transaction processors looking to scale transaction distribution",
+      "builder_usernames": [
+        "lightweb"
+      ],
+      "source_excerpt": "A high-throughput multicast Bitcoin transaction distribution system, with a roadmap towards billions of transactions per second.",
+      "evidence": [
+        {
+          "source_item_id": 48087365,
+          "source_field": "body",
+          "value": "A high-throughput multicast Bitcoin transaction distribution system, with a roadmap towards billions of transactions per second.",
+          "supports": [],
+          "author": "lightweb",
+          "shared_at": 1778443537,
+          "source_url": "https://news.ycombinator.com/item?id=48087365"
+        }
+      ],
+      "source_item_id": 48087365,
+      "source_url": "https://news.ycombinator.com/item?id=48087365",
+      "author": "lightweb",
+      "shared_at": 1778443537,
+      "links": []
+    }
+  ]
+}

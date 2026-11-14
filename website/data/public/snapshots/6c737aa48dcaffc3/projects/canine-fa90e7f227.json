@@ -1,0 +1,36 @@
+{
+  "id": 9780,
+  "slug": "canine-fa90e7f227",
+  "name": "Canine",
+  "mentions": [
+    {
+      "name": "Canine",
+      "description": "This open source platform is an alternative to Heroku, Fly.io, and Render, built on top of Kubernetes to deploy and manage applications. It lets teams avoid the 5-10x markup of PaaS over IaaS and the pain of stitching together AWS services, follows opinionated Kubernetes best practices, and supports one-click installs of any Helm package (e.g., self-hosted Sentry at sentry.your-domain.com), which it manages.",
+      "problem": "PaaS platforms (Heroku, Fly.io, Render) apply a 5-10x markup over IaaS (AWS, Hetzner), while trying to stitch together random AWS services is a huge pain for a medium sized engineering team.",
+      "audience": "medium sized engineering teams that find stitching together AWS services painful",
+      "builder_usernames": [
+        "czhu12"
+      ],
+      "source_excerpt": "Currently working on an open source Heroku / Fly.io / Render alternative: https://canine.sh",
+      "evidence": [
+        {
+          "source_item_id": 45567889,
+          "source_field": "body",
+          "value": "Currently working on an open source Heroku / Fly.io / Render alternative: https://canine.sh",
+          "supports": [],
+          "author": "czhu12",
+          "shared_at": 1760360665,
+          "source_url": "https://news.ycombinator.com/item?id=45567889"
+        }
+      ],
+      "source_item_id": 45567889,
+      "source_url": "https://news.ycombinator.com/item?id=45567889",
+      "author": "czhu12",
+      "shared_at": 1760360665,
+      "links": [
+        "https://canine.sh",
+        "https://github.com/czhu12/canine"
+      ]
+    }
+  ]
+}

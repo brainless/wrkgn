@@ -1,0 +1,35 @@
+{
+  "id": 3972,
+  "slug": "bullet-point-podcast-ffb0e24b0c",
+  "name": "Bullet Point Podcast",
+  "mentions": [
+    {
+      "name": "Bullet Point Podcast",
+      "description": "This app summarizes podcast episodes in nested bullet points. Episodes from 27 podcasts are fetched on the day they are released, and the author is considering whether to expand the podcast catalog or turn it into a set of tools where users can submit a podcast episode link and get it turned into bullet points.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "pierreft"
+      ],
+      "source_excerpt": "I'm currently building https://bulletpointpodcast.com/\n\nCurrently, for 27 podcasts, the episodes are fetched the day they are released and are summarized in nested bullet points.",
+      "evidence": [
+        {
+          "source_item_id": 48548151,
+          "source_field": "body",
+          "value": "I'm currently building https://bulletpointpodcast.com/\n\nCurrently, for 27 podcasts, the episodes are fetched the day they are released and are summarized in nested bullet points.",
+          "supports": [],
+          "author": "pierreft",
+          "shared_at": 1781564050,
+          "source_url": "https://news.ycombinator.com/item?id=48548151"
+        }
+      ],
+      "source_item_id": 48548151,
+      "source_url": "https://news.ycombinator.com/item?id=48548151",
+      "author": "pierreft",
+      "shared_at": 1781564050,
+      "links": [
+        "https://bulletpointpodcast.com/"
+      ]
+    }
+  ]
+}

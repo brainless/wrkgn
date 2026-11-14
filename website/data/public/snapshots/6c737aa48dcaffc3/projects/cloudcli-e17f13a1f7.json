@@ -1,0 +1,35 @@
+{
+  "id": 6036,
+  "slug": "cloudcli-e17f13a1f7",
+  "name": "CloudCLI",
+  "mentions": [
+    {
+      "name": "CloudCLI",
+      "description": "This open-source web and mobile UI lets developers control AI coding agents (Claude Code, Cursor CLI, Codex, and Gemini) from any device. Running npx @siteboon/claude-code-ui discovers existing sessions from ~/.claude/projects/ and provides a browser interface to fully control them remotely. It is open source and has grown to about 8.2k GitHub stars.",
+      "problem": "The author wanted to develop from a phone while working on another project; Anthropic's Remote Control launch only allows viewing and approving sessions, not fully controlling an instance.",
+      "audience": null,
+      "builder_usernames": [
+        "simosmik"
+      ],
+      "source_excerpt": "Building CloudCLI, an open-source web/mobile UI for Claude Code, Cursor CLI, Codex, and Gemini. You run npx @siteboon/claude-code-ui and it discovers all your existing sessions from ~/.claude/projects/ and gives you a browser interface to control them from any device.",
+      "evidence": [
+        {
+          "source_item_id": 47325254,
+          "source_field": "body",
+          "value": "Building CloudCLI, an open-source web/mobile UI for Claude Code, Cursor CLI, Codex, and Gemini. You run npx @siteboon/claude-code-ui and it discovers all your existing sessions from ~/.claude/projects/ and gives you a browser interface to control them from any device.",
+          "supports": [],
+          "author": "simosmik",
+          "shared_at": 1773159347,
+          "source_url": "https://news.ycombinator.com/item?id=47325254"
+        }
+      ],
+      "source_item_id": 47325254,
+      "source_url": "https://news.ycombinator.com/item?id=47325254",
+      "author": "simosmik",
+      "shared_at": 1773159347,
+      "links": [
+        "https://github.com/siteboon/claudecodeui"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 5426,
+  "slug": "euforya-70f75719d3",
+  "name": "Euforya",
+  "mentions": [
+    {
+      "name": "Euforya",
+      "description": "A web service that summarizes and simplifies EU laws, resolutions, and decisions. It uses deterministic settings of local LLMs for document summaries so that sharing a prompt can prove the output was not tampered with, and includes a 'broader context' section that adds outputs from several LLMs (from the US, the EU, and China) so users can compare them and guard against disinformation.",
+      "problem": "Disinformation: the service designs its AI summaries to be verifiable (deterministic, shareable prompts) and mitigates provider/model bias by comparing outputs from multiple LLMs.",
+      "audience": null,
+      "builder_usernames": [
+        "krzysiek"
+      ],
+      "source_excerpt": "A service summarising and simplifying EU laws, resolutiins, decisions and so on: https://euforya.eu/",
+      "evidence": [
+        {
+          "source_item_id": 47744447,
+          "source_field": "body",
+          "value": "A service summarising and simplifying EU laws, resolutiins, decisions and so on: https://euforya.eu/",
+          "supports": [],
+          "author": "krzysiek",
+          "shared_at": 1776027791,
+          "source_url": "https://news.ycombinator.com/item?id=47744447"
+        }
+      ],
+      "source_item_id": 47744447,
+      "source_url": "https://news.ycombinator.com/item?id=47744447",
+      "author": "krzysiek",
+      "shared_at": 1776027791,
+      "links": [
+        "https://euforya.eu/"
+      ]
+    }
+  ]
+}

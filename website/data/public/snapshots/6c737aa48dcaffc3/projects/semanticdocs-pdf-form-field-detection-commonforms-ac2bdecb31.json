@@ -1,0 +1,36 @@
+{
+  "id": 9774,
+  "slug": "semanticdocs-pdf-form-field-detection-commonforms-ac2bdecb31",
+  "name": "SemanticDocs PDF form field detection (CommonForms)",
+  "mentions": [
+    {
+      "name": "SemanticDocs PDF form field detection (CommonForms)",
+      "description": "ML models and a web service that automatically detect where form fields should go in PDF documents and make PDFs fillable. Code and models are open source on GitHub; the next step is training and releasing DETR models to improve quality, with the ultimate goal of automatic form accessibility.",
+      "problem": "PDFs are not fillable and users must manually place form fields.",
+      "audience": null,
+      "builder_usernames": [
+        "jbarrow"
+      ],
+      "source_excerpt": "Training ML models for PDF forms. You can try out what I’ve got so far with this service that automatically detects where fields should go and makes PDFs fillable: https://detect.semanticdocs.org/\nCode and models are at: https://github.com/jbarrow/commonforms",
+      "evidence": [
+        {
+          "source_item_id": 45566892,
+          "source_field": "body",
+          "value": "Training ML models for PDF forms. You can try out what I’ve got so far with this service that automatically detects where fields should go and makes PDFs fillable: https://detect.semanticdocs.org/\nCode and models are at: https://github.com/jbarrow/commonforms",
+          "supports": [],
+          "author": "jbarrow",
+          "shared_at": 1760352027,
+          "source_url": "https://news.ycombinator.com/item?id=45566892"
+        }
+      ],
+      "source_item_id": 45566892,
+      "source_url": "https://news.ycombinator.com/item?id=45566892",
+      "author": "jbarrow",
+      "shared_at": 1760352027,
+      "links": [
+        "https://detect.semanticdocs.org/",
+        "https://github.com/jbarrow/commonforms"
+      ]
+    }
+  ]
+}

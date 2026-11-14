@@ -1,0 +1,35 @@
+{
+  "id": 6764,
+  "slug": "thinkt-8ed80c66ea",
+  "name": "thinkt",
+  "mentions": [
+    {
+      "name": "thinkt",
+      "description": "A CLI/TUI/Webapp for exploring LLM conversations, letting users see all their local projects, view sessions, and export them. It embeds an OpenAPI server and MCP server so other AI tools can query sessions, with support for Claude, Claude Teams, Gemini CLI, and Copilot traces. Planned work includes a VSCode extension and an exporter/collector for remote agents.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "neomantra"
+      ],
+      "source_excerpt": "thinkt a CLI/TUI/Webapp for exploring your LLM conversations.  Makes it easy to see all your local projects, view them, and export them.  It has an embedded OpenAPI server and MCP server.",
+      "evidence": [
+        {
+          "source_item_id": 46940999,
+          "source_field": "body",
+          "value": "thinkt a CLI/TUI/Webapp for exploring your LLM conversations.  Makes it easy to see all your local projects, view them, and export them.  It has an embedded OpenAPI server and MCP server.",
+          "supports": [],
+          "author": "neomantra",
+          "shared_at": 1770604956,
+          "source_url": "https://news.ycombinator.com/item?id=46940999"
+        }
+      ],
+      "source_item_id": 46940999,
+      "source_url": "https://news.ycombinator.com/item?id=46940999",
+      "author": "neomantra",
+      "shared_at": 1770604956,
+      "links": [
+        "https://wethinkt.com"
+      ]
+    }
+  ]
+}

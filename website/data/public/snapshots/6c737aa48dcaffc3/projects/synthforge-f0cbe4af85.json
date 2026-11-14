@@ -1,0 +1,35 @@
+{
+  "id": 6896,
+  "slug": "synthforge-f0cbe4af85",
+  "name": "SynthForge",
+  "mentions": [
+    {
+      "name": "SynthForge",
+      "description": "A data generator and visual data modeler for any database. It generates data in dependency order to maintain referential integrity, producing over 100K rows per second for simple generation and roughly 10K rows per second for derived/child rows. The app is free to use.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dllrr"
+      ],
+      "source_excerpt": "A data generator and visual data modeler for any database. It's been fun, learned a LOT about generating data in a very specific order to maintain referential integrity, even more about how to determine that order! Generates > 100K rows a second for simple generation, or ~10K rows a second for derived / child rows.",
+      "evidence": [
+        {
+          "source_item_id": 46959446,
+          "source_field": "body",
+          "value": "A data generator and visual data modeler for any database. It's been fun, learned a LOT about generating data in a very specific order to maintain referential integrity, even more about how to determine that order! Generates > 100K rows a second for simple generation, or ~10K rows a second for derived / child rows.",
+          "supports": [],
+          "author": "dllrr",
+          "shared_at": 1770730125,
+          "source_url": "https://news.ycombinator.com/item?id=46959446"
+        }
+      ],
+      "source_item_id": 46959446,
+      "source_url": "https://news.ycombinator.com/item?id=46959446",
+      "author": "dllrr",
+      "shared_at": 1770730125,
+      "links": [
+        "https://synthforge.io"
+      ]
+    }
+  ]
+}

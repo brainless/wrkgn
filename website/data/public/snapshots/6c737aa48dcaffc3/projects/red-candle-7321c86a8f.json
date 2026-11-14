@@ -1,0 +1,35 @@
+{
+  "id": 10375,
+  "slug": "red-candle-7321c86a8f",
+  "name": "Red Candle",
+  "mentions": [
+    {
+      "name": "Red Candle",
+      "description": "A Ruby gem that runs LLMs (Llama, Mistral, Gemma, Phi) directly in the Ruby process via Rust bindings based on Hugging Face's candle crate, using FFI with Metal/CUDA acceleration—no Python or separate servers—so Rails apps can add AI features without managing separate services.",
+      "problem": "Running LLMs in Ruby typically requires the complexity of managing separate Python services or servers.",
+      "audience": "Anyone working with LLMs in Ruby, e.g. developers adding AI features to Rails apps.",
+      "builder_usernames": [
+        "cpetersen"
+      ],
+      "source_excerpt": "I've been working on Red Candle, a Ruby gem that runs LLMs (Llama, Mistral, Gemma, Phi) directly in your Ruby process through Rust bindings (based on the candle crate from Hugging Face). No Python, no servers - just FFI with Metal/CUDA acceleration.",
+      "evidence": [
+        {
+          "source_item_id": 44711001,
+          "source_field": "body",
+          "value": "I've been working on Red Candle, a Ruby gem that runs LLMs (Llama, Mistral, Gemma, Phi) directly in your Ruby process through Rust bindings (based on the candle crate from Hugging Face). No Python, no servers - just FFI with Metal/CUDA acceleration.",
+          "supports": [],
+          "author": "cpetersen",
+          "shared_at": 1753711537,
+          "source_url": "https://news.ycombinator.com/item?id=44711001"
+        }
+      ],
+      "source_item_id": 44711001,
+      "source_url": "https://news.ycombinator.com/item?id=44711001",
+      "author": "cpetersen",
+      "shared_at": 1753711537,
+      "links": [
+        "https://github.com/assaydepot/red-candle"
+      ]
+    }
+  ]
+}

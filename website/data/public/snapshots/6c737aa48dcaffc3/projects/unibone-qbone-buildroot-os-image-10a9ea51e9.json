@@ -1,0 +1,33 @@
+{
+  "id": 5758,
+  "slug": "unibone-qbone-buildroot-os-image-10a9ea51e9",
+  "name": "UniBone/QBone BuildRoot OS image",
+  "mentions": [
+    {
+      "name": "UniBone/QBone BuildRoot OS image",
+      "description": "This project builds a new OS image for UniBone/QBone using BuildRoot and a streamlined kernel, targeting a sub-five-second boot time so users can start using the host PDP-11 almost immediately.",
+      "problem": "Existing OS images for UniBone/QBone take too long to boot, delaying access to the host PDP-11.",
+      "audience": null,
+      "builder_usernames": [
+        "dare944"
+      ],
+      "source_excerpt": "I'm creating a new OS image for UniBone/QBone based on BuildRoot and a streamlined kernel. My goal is sub-five second boot time so you can get to using the host PDP-11 pretty much right away.",
+      "evidence": [
+        {
+          "source_item_id": 47745483,
+          "source_field": "body",
+          "value": "I'm creating a new OS image for UniBone/QBone based on BuildRoot and a streamlined kernel. My goal is sub-five second boot time so you can get to using the host PDP-11 pretty much right away.",
+          "supports": [],
+          "author": "dare944",
+          "shared_at": 1776035482,
+          "source_url": "https://news.ycombinator.com/item?id=47745483"
+        }
+      ],
+      "source_item_id": 47745483,
+      "source_url": "https://news.ycombinator.com/item?id=47745483",
+      "author": "dare944",
+      "shared_at": 1776035482,
+      "links": []
+    }
+  ]
+}

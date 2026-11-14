@@ -1,0 +1,35 @@
+{
+  "id": 3708,
+  "slug": "gloo-de33c07a6a",
+  "name": "gloo",
+  "mentions": [
+    {
+      "name": "gloo",
+      "description": "A programming language project built around an inference engine for a System F Omega-inspired language, designed around a small set of primitives that compose and express as much as possible. It uses structural typing, which yields many features for free, and aims for an interactive working experience reminiscent of Lisp/Smalltalk. Planned additions include recursive types with proper mutual recursion and some form of type classes or implicit modules. Near term it will generate naive JS/TS to experiment with real programs, with long-term targets of .NET and native via C++ transpilation. The long-term goal is performance within a reasonable range of C#/Java with tools for opting out of GC, prioritizing tooling and expressiveness over zero-cost memory safety.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "lilbigdoot"
+      ],
+      "source_excerpt": "I've been working on a inference engine for a System F Omega inspired language and getting to a point where it is starting to feel good in small programs.",
+      "evidence": [
+        {
+          "source_item_id": 48531721,
+          "source_field": "body",
+          "value": "I've been working on a inference engine for a System F Omega inspired language and getting to a point where it is starting to feel good in small programs.",
+          "supports": [],
+          "author": "lilbigdoot",
+          "shared_at": 1781465679,
+          "source_url": "https://news.ycombinator.com/item?id=48531721"
+        }
+      ],
+      "source_item_id": 48531721,
+      "source_url": "https://news.ycombinator.com/item?id=48531721",
+      "author": "lilbigdoot",
+      "shared_at": 1781465679,
+      "links": [
+        "https://codeberg.org/lilbigdoot/gloo/src/branch/thinkythoughts"
+      ]
+    }
+  ]
+}

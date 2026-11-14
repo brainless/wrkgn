@@ -1,0 +1,63 @@
+{
+  "id": 6359,
+  "slug": "fetchtext-9831283981",
+  "name": "FetchText",
+  "mentions": [
+    {
+      "name": "FetchText",
+      "description": "This tool automates manual document workflows: a document is uploaded, an LLM extracts structured data from it, and a new document is generated from a template. It is API-first, includes webhooks, and is built to be self-hosted/self-provisioned for privacy.",
+      "problem": "Accounting paperwork in industries like manufacturing is still a manual burden.",
+      "audience": "Industries like manufacturing where accounting paperwork is still a manual burden",
+      "builder_usernames": [
+        "yeag123"
+      ],
+      "source_excerpt": "I’m working on a tool to automate manual document workflows, specifically for industries like manufacturing where accounting paperwork is still a manual burden.\n\nThe workflow: Upload doc → LLM extracts structured data → Generate new doc from template.",
+      "evidence": [
+        {
+          "source_item_id": 47304544,
+          "source_field": "body",
+          "value": "I’m working on a tool to automate manual document workflows, specifically for industries like manufacturing where accounting paperwork is still a manual burden.\n\nThe workflow: Upload doc → LLM extracts structured data → Generate new doc from template.",
+          "supports": [],
+          "author": "yeag123",
+          "shared_at": 1773026645,
+          "source_url": "https://news.ycombinator.com/item?id=47304544"
+        }
+      ],
+      "source_item_id": 47304544,
+      "source_url": "https://news.ycombinator.com/item?id=47304544",
+      "author": "yeag123",
+      "shared_at": 1773026645,
+      "links": [
+        "https://fetchtext.io"
+      ]
+    },
+    {
+      "name": "FetchText",
+      "description": "A self-hosted (or self-\"provisioned\") document extraction platform: upload a document, extract structured fields via LLM, and generate new documents from templates. Includes a dashboard, an API, and a webhook; currently a work in progress.",
+      "problem": "Manual document extraction and manipulation, particularly from accounting documents, was a large burden at the manufacturing companies the author worked with.",
+      "audience": "Businesses; the author is making it flexible so businesses can use it, drawing on experience with manufacturing companies.",
+      "builder_usernames": [
+        "yeag123"
+      ],
+      "source_excerpt": "The goal is upload a document → extract structured fields via LLM → generate new documents from templates. Has a dashboard, with an API, along with a webhook, very much a WIP.\n\nhttps://fetchtext.io",
+      "evidence": [
+        {
+          "source_item_id": 46940484,
+          "source_field": "body",
+          "value": "The goal is upload a document → extract structured fields via LLM → generate new documents from templates. Has a dashboard, with an API, along with a webhook, very much a WIP.\n\nhttps://fetchtext.io",
+          "supports": [],
+          "author": "yeag123",
+          "shared_at": 1770600123,
+          "source_url": "https://news.ycombinator.com/item?id=46940484"
+        }
+      ],
+      "source_item_id": 46940484,
+      "source_url": "https://news.ycombinator.com/item?id=46940484",
+      "author": "yeag123",
+      "shared_at": 1770600123,
+      "links": [
+        "https://fetchtext.io"
+      ]
+    }
+  ]
+}

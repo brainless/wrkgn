@@ -1,0 +1,35 @@
+{
+  "id": 6118,
+  "slug": "pool-pilot-f11479323b",
+  "name": "Pool Pilot",
+  "mentions": [
+    {
+      "name": "Pool Pilot",
+      "description": "Pool Pilot is a mobile app for managing above ground pools and hot tubs. Users scan a water test strip with their camera and the app generates a water care recommendation checklist, with easy reordering of supplies from Amazon. It calibrates against the color chart printed on the specific test strip bottle and uses the LAB color space with Anthropic's Claude vision model to read strips, which works across brands and lighting conditions where RGB comparison falls apart. The app also offers timers, history, and more, and is priced at $10/year after 3 free tests.",
+      "problem": "Managing pools and hot tubs is unnecessarily hard, and test strip colors are notoriously difficult to match from photos because RGB comparison fails under lighting changes and color charts vary by manufacturer and production batch.",
+      "audience": "Pool and hot tub owners, with the app built first to meet the author's own personal need",
+      "builder_usernames": [
+        "marktl"
+      ],
+      "source_excerpt": "Managing our above ground pool this summer and small hot tub in winter and continually asking \"why isn't this easier\" led to the development of Pool Pilot.  Scan a test strip with your camera, water care recommendation checklist generates and you can order more supplies if needed easily from Amazon.",
+      "evidence": [
+        {
+          "source_item_id": 47328171,
+          "source_field": "body",
+          "value": "Managing our above ground pool this summer and small hot tub in winter and continually asking \"why isn't this easier\" led to the development of Pool Pilot.  Scan a test strip with your camera, water care recommendation checklist generates and you can order more supplies if needed easily from Amazon.",
+          "supports": [],
+          "author": "marktl",
+          "shared_at": 1773173266,
+          "source_url": "https://news.ycombinator.com/item?id=47328171"
+        }
+      ],
+      "source_item_id": 47328171,
+      "source_url": "https://news.ycombinator.com/item?id=47328171",
+      "author": "marktl",
+      "shared_at": 1773173266,
+      "links": [
+        "https://poolpilot.online"
+      ]
+    }
+  ]
+}

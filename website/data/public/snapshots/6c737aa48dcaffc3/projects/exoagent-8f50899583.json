@@ -1,0 +1,36 @@
+{
+  "id": 6972,
+  "slug": "exoagent-8f50899583",
+  "name": "ExoAgent",
+  "mentions": [
+    {
+      "name": "ExoAgent",
+      "description": "A security layer for AI agents that enforces data flow policy rather than just access control. It combines fine-grained object-capability data access with deterministic information flow control, so an agent that reads sensitive data structurally cannot send it to an unauthorized sink. Policy is expressed as code instead of prompt suggestions, and the project includes a working IFC proof-of-concept with a secure personal agent being built to dogfood it.",
+      "problem": "AI agents that read email and post to Slack have nothing stopping one email's content from leaking to the wrong recipient or PII from ending up in a Slack message; current \"security\" amounts to prompts asking agents not to leak data.",
+      "audience": null,
+      "builder_usernames": [
+        "ryanrasti"
+      ],
+      "source_excerpt": "Building ExoAgent: a security layer for AI agents that enforces data flow policy, not just access control.",
+      "evidence": [
+        {
+          "source_item_id": 46949124,
+          "source_field": "body",
+          "value": "Building ExoAgent: a security layer for AI agents that enforces data flow policy, not just access control.",
+          "supports": [],
+          "author": "ryanrasti",
+          "shared_at": 1770662623,
+          "source_url": "https://news.ycombinator.com/item?id=46949124"
+        }
+      ],
+      "source_item_id": 46949124,
+      "source_url": "https://news.ycombinator.com/item?id=46949124",
+      "author": "ryanrasti",
+      "shared_at": 1770662623,
+      "links": [
+        "https://exoagent.io",
+        "https://github.com/ryanrasti/exoagent"
+      ]
+    }
+  ]
+}

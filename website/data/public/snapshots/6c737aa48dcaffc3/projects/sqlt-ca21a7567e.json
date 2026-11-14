@@ -1,0 +1,35 @@
+{
+  "id": 9923,
+  "slug": "sqlt-ca21a7567e",
+  "name": "sqlt",
+  "mentions": [
+    {
+      "name": "sqlt",
+      "description": "A Go library that generates SQL queries using Go templates, published as part of a set of utility modules for building web services.",
+      "problem": "Reduces the need to repeatedly rewrite common SQL query generation code when developing web services.",
+      "audience": null,
+      "builder_usernames": [
+        "hxtk"
+      ],
+      "source_excerpt": "I recently published https://github.com/hxtk/sqlt for SQL query generation with Go templates.",
+      "evidence": [
+        {
+          "source_item_id": 45419667,
+          "source_field": "body",
+          "value": "I recently published https://github.com/hxtk/sqlt for SQL query generation with Go templates.",
+          "supports": [],
+          "author": "hxtk",
+          "shared_at": 1759185164,
+          "source_url": "https://news.ycombinator.com/item?id=45419667"
+        }
+      ],
+      "source_item_id": 45419667,
+      "source_url": "https://news.ycombinator.com/item?id=45419667",
+      "author": "hxtk",
+      "shared_at": 1759185164,
+      "links": [
+        "https://github.com/hxtk/sqlt"
+      ]
+    }
+  ]
+}

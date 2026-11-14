@@ -1,0 +1,35 @@
+{
+  "id": 6671,
+  "slug": "affirmator-32a973683b",
+  "name": "Affirmator",
+  "mentions": [
+    {
+      "name": "Affirmator",
+      "description": "This Linux-based audio app automates a personalized daily routine: cron and mpv shuffle-play activity-specific MP3 folders at set times each day (chill jazz wake-up alarm, evening latin cooking and lo-fi music, meditation sleep tracks) on a small-form-factor Dell Optiplex running Linux Mint Debian Edition. A Python tool reads 200+ text affirmations from a markdown file, vocalizes them through the AWS Polly text-to-speech API into MP3s, and uses ffmpeg to insert silent spacer gaps so the listener can repeat each affirmation aloud or in their head. It incorporates routines from Earl Nightingale, Tony Robbins, Napoleon Hill, and James Clear.",
+      "problem": "The author is not a morning person and wanted a friendly way to wake up each day.",
+      "audience": null,
+      "builder_usernames": [
+        "dv35z"
+      ],
+      "source_excerpt": "(1) PROJECT \"AFFIRMATOR\" - Start each day out right with chill jazz wake-up music, then life-success wisdom (Earl Nightingale, Tony Robbins, etc). In the evening, fun latin cooking music plays, and then lo-fi chill tunes. At night, your personalized vocalized affirmations & goals plays, and then drift to sleep with meditation music.",
+      "evidence": [
+        {
+          "source_item_id": 47305231,
+          "source_field": "body",
+          "value": "(1) PROJECT \"AFFIRMATOR\" - Start each day out right with chill jazz wake-up music, then life-success wisdom (Earl Nightingale, Tony Robbins, etc). In the evening, fun latin cooking music plays, and then lo-fi chill tunes. At night, your personalized vocalized affirmations & goals plays, and then drift to sleep with meditation music.",
+          "supports": [],
+          "author": "dv35z",
+          "shared_at": 1773034546,
+          "source_url": "https://news.ycombinator.com/item?id=47305231"
+        }
+      ],
+      "source_item_id": 47305231,
+      "source_url": "https://news.ycombinator.com/item?id=47305231",
+      "author": "dv35z",
+      "shared_at": 1773034546,
+      "links": [
+        "https://codeberg.org/jro/Affirmator-app"
+      ]
+    }
+  ]
+}

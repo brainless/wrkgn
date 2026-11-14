@@ -1,0 +1,35 @@
+{
+  "id": 5533,
+  "slug": "vif-c2a17be90c",
+  "name": "vif",
+  "mentions": [
+    {
+      "name": "vif",
+      "description": "An experimental alternative to PHP's Composer package manager, built from scratch and almost ready for alpha. It aims to avoid Composer's slow dependency updates, which on some projects took 2-3 minutes only to fail at the end, since Composer's large codebase made reworking it unappealing.",
+      "problem": "Composer could take 2-3 minutes to update dependencies on some projects and then fail at the end, and Composer's large PHP codebase made modifying it undesirable.",
+      "audience": null,
+      "builder_usernames": [
+        "ramon156"
+      ],
+      "source_excerpt": "Working on m experimentall alternative to PHP's composer. Some projects took 2-3 mins to update with composer, only to fail at the end. Wanted to rework this, but the composer code is big and I honestly didn't feel like touching more PHP than I had to.\n\nSo I built my own package manager that's almost ready for alpha.\n\nhttps://github.com/van-sprundel/vif",
+      "evidence": [
+        {
+          "source_item_id": 47748072,
+          "source_field": "body",
+          "value": "Working on m experimentall alternative to PHP's composer. Some projects took 2-3 mins to update with composer, only to fail at the end. Wanted to rework this, but the composer code is big and I honestly didn't feel like touching more PHP than I had to.\n\nSo I built my own package manager that's almost ready for alpha.\n\nhttps://github.com/van-sprundel/vif",
+          "supports": [],
+          "author": "ramon156",
+          "shared_at": 1776059184,
+          "source_url": "https://news.ycombinator.com/item?id=47748072"
+        }
+      ],
+      "source_item_id": 47748072,
+      "source_url": "https://news.ycombinator.com/item?id=47748072",
+      "author": "ramon156",
+      "shared_at": 1776059184,
+      "links": [
+        "https://github.com/van-sprundel/vif"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": 6759,
+  "slug": "phaestus-f200dd18d3",
+  "name": "Phaestus",
+  "mentions": [
+    {
+      "name": "Phaestus",
+      "description": "Phaestus is a 0-to-product system that builds entire products from scratch. It can create a PCB (outputting gerbers, BOM, and pick-and-place files), an enclosure written in SCAD (outputting an STL for printing), and firmware that it compiles via a PlatformIO runner on Railway, providing a binary plus a webserial flasher for ESP32 boards. Its first product was a working Bluetooth remote control with a PCB, a printed enclosure, and generated firmware.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mikeayles"
+      ],
+      "source_excerpt": "I also am building Phaestus, a 0 to product system, that builds entire products from scratch.\n\nhttps://www.mikeayles.com/#phaestus-wip\n\nIt is capable of creating a PCB (and outputs gerbers, bom, pick and place files), an enclosure (written in SCAD, outputs an STL for printing), and firmware, which it's able to compile using a pio runner on railway and provides a binary, but also has a webserial flasher for ESP32's.",
+      "evidence": [
+        {
+          "source_item_id": 46942879,
+          "source_field": "body",
+          "value": "I also am building Phaestus, a 0 to product system, that builds entire products from scratch.\n\nhttps://www.mikeayles.com/#phaestus-wip\n\nIt is capable of creating a PCB (and outputs gerbers, bom, pick and place files), an enclosure (written in SCAD, outputs an STL for printing), and firmware, which it's able to compile using a pio runner on railway and provides a binary, but also has a webserial flasher for ESP32's.",
+          "supports": [],
+          "author": "mikeayles",
+          "shared_at": 1770625039,
+          "source_url": "https://news.ycombinator.com/item?id=46942879"
+        }
+      ],
+      "source_item_id": 46942879,
+      "source_url": "https://news.ycombinator.com/item?id=46942879",
+      "author": "mikeayles",
+      "shared_at": 1770625039,
+      "links": [
+        "https://phaestus.app/blog",
+        "https://www.mikeayles.com/#phaestus-wip"
+      ]
+    }
+  ]
+}

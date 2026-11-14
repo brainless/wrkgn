@@ -1,0 +1,35 @@
+{
+  "id": 8565,
+  "slug": "ato-6321ef2728",
+  "name": "ato",
+  "mentions": [
+    {
+      "name": "ato",
+      "description": "A browser extension for managing tabs that grew out of the author's recurring AI test prompt for building tab-management extensions; it replaces a duplicate-tab-killing extension that broke with Chrome's MV3 transition and is now maintained entirely through Claude Code, including its README.",
+      "problem": "The extension previously used to kill duplicated tabs stopped working after a year due to the Manifest V3 (MV3) transition.",
+      "audience": null,
+      "builder_usernames": [
+        "jeanlucas"
+      ],
+      "source_excerpt": "My \"test prompt\" for AIs used to be to create an extension to manage tabs. After a year and with MV3 the extension I used to kill duplicated tabs died.\n\nNow this one became my favorite extension.\n\nhttps://github.com/jeanlucaslima/ato",
+      "evidence": [
+        {
+          "source_item_id": 46279473,
+          "source_field": "body",
+          "value": "My \"test prompt\" for AIs used to be to create an extension to manage tabs. After a year and with MV3 the extension I used to kill duplicated tabs died.\n\nNow this one became my favorite extension.\n\nhttps://github.com/jeanlucaslima/ato",
+          "supports": [],
+          "author": "jeanlucas",
+          "shared_at": 1765828055,
+          "source_url": "https://news.ycombinator.com/item?id=46279473"
+        }
+      ],
+      "source_item_id": 46279473,
+      "source_url": "https://news.ycombinator.com/item?id=46279473",
+      "author": "jeanlucas",
+      "shared_at": 1765828055,
+      "links": [
+        "https://github.com/jeanlucaslima/ato"
+      ]
+    }
+  ]
+}

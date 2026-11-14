@@ -1,0 +1,64 @@
+{
+  "id": 4006,
+  "slug": "temp-mail-detector-f780b78079",
+  "name": "Temp Mail Detector",
+  "mentions": [
+    {
+      "name": "Temp Mail Detector",
+      "description": "A service for detecting temporary (disposable) email addresses, with a published temp mail market share statistics page. Current focus is on growing the customer base and marketing efforts.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tmdetect"
+      ],
+      "source_excerpt": "Working on growing the customer base and marketing efforts for https://tempmaildetector.com. Nothing glamorous, but it's got to be done.\n\nI did expose some interesting stats which you can find here: https://tempmaildetector.com/temp-mail-market-share",
+      "evidence": [
+        {
+          "source_item_id": 48538255,
+          "source_field": "body",
+          "value": "Working on growing the customer base and marketing efforts for https://tempmaildetector.com. Nothing glamorous, but it's got to be done.\n\nI did expose some interesting stats which you can find here: https://tempmaildetector.com/temp-mail-market-share",
+          "supports": [],
+          "author": "tmdetect",
+          "shared_at": 1781512013,
+          "source_url": "https://news.ycombinator.com/item?id=48538255"
+        }
+      ],
+      "source_item_id": 48538255,
+      "source_url": "https://news.ycombinator.com/item?id=48538255",
+      "author": "tmdetect",
+      "shared_at": 1781512013,
+      "links": [
+        "https://tempmaildetector.com"
+      ]
+    },
+    {
+      "name": "Temp Mail Detector WordPress plugin",
+      "description": "A WordPress plugin from Temp Mail Detector that blocks temporary/disposable email addresses at signup, offering site owners the option to input their own block lists, use a pre-existing list, or rely on a constantly updated detection API.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tmdetect"
+      ],
+      "source_excerpt": "I’m working on https://tempmaildetector.com and more specifically a Wordpress plugin to support it: https://wordpress.org/plugins/temp-mail-detector-block-temporary-emails/\n\nThe plugin offers users a way to input their own block lists, a pre-existing one, or make use of the API which is constantly getting updated.",
+      "evidence": [
+        {
+          "source_item_id": 44711045,
+          "source_field": "body",
+          "value": "I’m working on https://tempmaildetector.com and more specifically a Wordpress plugin to support it: https://wordpress.org/plugins/temp-mail-detector-block-temporary-emails/\n\nThe plugin offers users a way to input their own block lists, a pre-existing one, or make use of the API which is constantly getting updated.",
+          "supports": [],
+          "author": "tmdetect",
+          "shared_at": 1753711721,
+          "source_url": "https://news.ycombinator.com/item?id=44711045"
+        }
+      ],
+      "source_item_id": 44711045,
+      "source_url": "https://news.ycombinator.com/item?id=44711045",
+      "author": "tmdetect",
+      "shared_at": 1753711721,
+      "links": [
+        "https://tempmaildetector.com",
+        "https://wordpress.org/plugins/temp-mail-detector-block-temporary-emails/"
+      ]
+    }
+  ]
+}

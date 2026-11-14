@@ -1,0 +1,33 @@
+{
+  "id": 10352,
+  "slug": "llm-driven-browser-agent-d3db70fc42",
+  "name": "LLM-driven browser agent",
+  "mentions": [
+    {
+      "name": "LLM-driven browser agent",
+      "description": "A browser agent that relies on LLMs writing Playwright scripts to drive the browser, which the author found works better than having models write vanilla JavaScript.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rahulyc"
+      ],
+      "source_excerpt": "I was working on something almost similar, mostly to create a browser agent, and LLMs are really good at writing playwright scripts compared to vanilla JS.",
+      "evidence": [
+        {
+          "source_item_id": 44851500,
+          "source_field": "body",
+          "value": "I was working on something almost similar, mostly to create a browser agent, and LLMs are really good at writing playwright scripts compared to vanilla JS.",
+          "supports": [],
+          "author": "rahulyc",
+          "shared_at": 1754783850,
+          "source_url": "https://news.ycombinator.com/item?id=44851500"
+        }
+      ],
+      "source_item_id": 44851500,
+      "source_url": "https://news.ycombinator.com/item?id=44851500",
+      "author": "rahulyc",
+      "shared_at": 1754783850,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 5825,
+  "slug": "home-network-refactor-wiring-and-vlans-feca8ade5d",
+  "name": "Home network refactor (wiring and VLANs)",
+  "mentions": [
+    {
+      "name": "Home network refactor (wiring and VLANs)",
+      "description": "This project restructures a home network, covering both the physical wiring and the logical VLAN setup. The goal is to clean up and simplify the network by removing VLANs that were created for future plans no longer needed or remembered, and by redoing the tangled wiring.",
+      "problem": "The home network accumulated numerous VLANs created for future plans that are no longer remembered or needed, and the wiring has become spaghetti-like and needs rework.",
+      "audience": "Explicitly a personal project: the author is refactoring their own home network for individual use.",
+      "builder_usernames": [
+        "englishspot"
+      ],
+      "source_excerpt": "basically IT work. trying to \"refactor\" my home network, from wiring to the VLANs. created quite a few VLANs with plans for the future that I no longer remember and probably don't need anymore. and the wiring is very much spaghetti.",
+      "evidence": [
+        {
+          "source_item_id": 47751746,
+          "source_field": "body",
+          "value": "basically IT work. trying to \"refactor\" my home network, from wiring to the VLANs. created quite a few VLANs with plans for the future that I no longer remember and probably don't need anymore. and the wiring is very much spaghetti.",
+          "supports": [],
+          "author": "englishspot",
+          "shared_at": 1776087257,
+          "source_url": "https://news.ycombinator.com/item?id=47751746"
+        }
+      ],
+      "source_item_id": 47751746,
+      "source_url": "https://news.ycombinator.com/item?id=47751746",
+      "author": "englishspot",
+      "shared_at": 1776087257,
+      "links": []
+    }
+  ]
+}

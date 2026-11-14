@@ -1,0 +1,33 @@
+{
+  "id": 10163,
+  "slug": "bass-sight-reading-practice-tool-ae1a0a5e17",
+  "name": "Bass Sight-Reading Practice Tool",
+  "mentions": [
+    {
+      "name": "Bass Sight-Reading Practice Tool",
+      "description": "A gamified bass sight-reading practice tool that takes audio interface input, runs it through a note detection library, and compares the detected notes against a MIDI file to produce an accuracy score, providing the sheet music view that Rocksmith lacks.",
+      "problem": "Rocksmith doesn't have a sheet music view, so there's no gamified way to practice sight-reading on bass.",
+      "audience": null,
+      "builder_usernames": [
+        "zavec"
+      ],
+      "source_excerpt": "I'm working on learning to sightread on bass, and wanted to gamify it.\n\nUnfortunately rocksmith doesn't seem to have a sheet music view, so I'm trying to write something that will take the input from my audio interface and put it through a note detection library (and then compare to a midi for an accuracy score) to make my own version.",
+      "evidence": [
+        {
+          "source_item_id": 45423235,
+          "source_field": "body",
+          "value": "I'm working on learning to sightread on bass, and wanted to gamify it.\n\nUnfortunately rocksmith doesn't seem to have a sheet music view, so I'm trying to write something that will take the input from my audio interface and put it through a note detection library (and then compare to a midi for an accuracy score) to make my own version.",
+          "supports": [],
+          "author": "zavec",
+          "shared_at": 1759221067,
+          "source_url": "https://news.ycombinator.com/item?id=45423235"
+        }
+      ],
+      "source_item_id": 45423235,
+      "source_url": "https://news.ycombinator.com/item?id=45423235",
+      "author": "zavec",
+      "shared_at": 1759221067,
+      "links": []
+    }
+  ]
+}

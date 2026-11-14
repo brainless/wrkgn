@@ -1,0 +1,33 @@
+{
+  "id": 6213,
+  "slug": "paper-4954171ad3",
+  "name": "PAPER",
+  "mentions": [
+    {
+      "name": "PAPER",
+      "description": "A Python project that relies on the author's generic tree-processing library; it is planned to offer the bytecode archive format as an install-time option to speed up imports.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "zahlman"
+      ],
+      "source_excerpt": "I want to offer it as an install-time option in PAPER, and later have `bbbb` make wheels with the bytecode precompiled that way",
+      "evidence": [
+        {
+          "source_item_id": 47303920,
+          "source_field": "body",
+          "value": "I want to offer it as an install-time option in PAPER, and later have `bbbb` make wheels with the bytecode precompiled that way",
+          "supports": [],
+          "author": "zahlman",
+          "shared_at": 1773021059,
+          "source_url": "https://news.ycombinator.com/item?id=47303920"
+        }
+      ],
+      "source_item_id": 47303920,
+      "source_url": "https://news.ycombinator.com/item?id=47303920",
+      "author": "zahlman",
+      "shared_at": 1773021059,
+      "links": []
+    }
+  ]
+}

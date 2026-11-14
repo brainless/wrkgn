@@ -1,0 +1,35 @@
+{
+  "id": 9860,
+  "slug": "jasonfg-jason-fork-529961c372",
+  "name": "jasonfg (Jason fork)",
+  "mentions": [
+    {
+      "name": "jasonfg (Jason fork)",
+      "description": "A fork of Jason, the AgentSpeak agent platform, reworked for easier integration with Spring Boot and a headless run-on-a-server approach. It removes the Swing-based in-process logging/management tool, replaces it with a JMX-based management interface, and is adding a JavaFX management app that connects via JMX Remoting.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mindcrime"
+      ],
+      "source_excerpt": "I created a fork[6] of Jason that is meant to be easier to integrate with Spring Boot, and to take more of a \"run headless on a server\" approach, which meant taking out references to a Swing based in-process logging/management tool. In place of that, I'm implementing a JMX based management interface, and recently I've started to work on replacing the old Swing app with a JavaFX app that can connect using JMX Remoting.",
+      "evidence": [
+        {
+          "source_item_id": 45418908,
+          "source_field": "body",
+          "value": "I created a fork[6] of Jason that is meant to be easier to integrate with Spring Boot, and to take more of a \"run headless on a server\" approach, which meant taking out references to a Swing based in-process logging/management tool. In place of that, I'm implementing a JMX based management interface, and recently I've started to work on replacing the old Swing app with a JavaFX app that can connect using JMX Remoting.",
+          "supports": [],
+          "author": "mindcrime",
+          "shared_at": 1759180823,
+          "source_url": "https://news.ycombinator.com/item?id=45418908"
+        }
+      ],
+      "source_item_id": 45418908,
+      "source_url": "https://news.ycombinator.com/item?id=45418908",
+      "author": "mindcrime",
+      "shared_at": 1759180823,
+      "links": [
+        "https://github.com/mindcrime/jasonfg/"
+      ]
+    }
+  ]
+}

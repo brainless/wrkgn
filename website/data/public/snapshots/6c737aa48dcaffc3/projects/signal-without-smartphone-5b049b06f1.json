@@ -1,0 +1,35 @@
+{
+  "id": 5611,
+  "slug": "signal-without-smartphone-5b049b06f1",
+  "name": "Signal without smartphone",
+  "mentions": [
+    {
+      "name": "Signal without smartphone",
+      "description": "This desktop tool helps people set up a Signal account without needing a smartphone. Built in Rust with egui, it provides a graphical interface so users can complete the setup without using the command line.",
+      "problem": "Setting up a Signal account normally requires a smartphone and the CLI.",
+      "audience": null,
+      "builder_usernames": [
+        "almet"
+      ],
+      "source_excerpt": "Currently working on a way to help folks setup a signal account without requiring a smartphone.\n\nIt's in rust with egui, and should help folks to do that without the cli.\n\nNot ready for prime time yet, but available at https://github.com/almet/signal-without-smartphone",
+      "evidence": [
+        {
+          "source_item_id": 47743540,
+          "source_field": "body",
+          "value": "Currently working on a way to help folks setup a signal account without requiring a smartphone.\n\nIt's in rust with egui, and should help folks to do that without the cli.\n\nNot ready for prime time yet, but available at https://github.com/almet/signal-without-smartphone",
+          "supports": [],
+          "author": "almet",
+          "shared_at": 1776022553,
+          "source_url": "https://news.ycombinator.com/item?id=47743540"
+        }
+      ],
+      "source_item_id": 47743540,
+      "source_url": "https://news.ycombinator.com/item?id=47743540",
+      "author": "almet",
+      "shared_at": 1776022553,
+      "links": [
+        "https://github.com/almet/signal-without-smartphone"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 5960,
+  "slug": "kpt-7c415ca2f5",
+  "name": "KPT",
+  "mentions": [
+    {
+      "name": "KPT",
+      "description": "A language learning app focused on explainable verb conjugation practice for highly inflected and agglutinative languages, currently covering Finnish, Ukrainian, Welsh, Turkish, and Tamil. It uses an LLM to build a complete machine-executable set of several hundred conjugation rules per language optimized for human explainability, plus an engine that diagnoses which rule was at fault when an answer is wrong, since other conjugation apps only mark answers right/wrong without explanation. It also works fully offline for practicing while traveling with poor connectivity.",
+      "problem": "Verb conjugations in highly inflected/agglutinative languages are hard to memorize, the rules feel arbitrary, and existing conjugation practice apps give no explanations, which doesn't help learners with hundreds of rules to master",
+      "audience": "Language geeks and learners of highly inflected/agglutinative languages, particularly speakers of European languages like English who find complex verb conjugations hard to memorize",
+      "builder_usernames": [
+        "tow21"
+      ],
+      "source_excerpt": "For language geeks: https://kpt.datamediate.com\n\nKPT is a language app specifically targeted at explainable verb conjugation for highly inflected/agglutinative languages. Currently works for Finnish, Ukrainian, Welsh, Turkish and Tamil.",
+      "evidence": [
+        {
+          "source_item_id": 47305654,
+          "source_field": "body",
+          "value": "For language geeks: https://kpt.datamediate.com\n\nKPT is a language app specifically targeted at explainable verb conjugation for highly inflected/agglutinative languages. Currently works for Finnish, Ukrainian, Welsh, Turkish and Tamil.",
+          "supports": [],
+          "author": "tow21",
+          "shared_at": 1773039939,
+          "source_url": "https://news.ycombinator.com/item?id=47305654"
+        }
+      ],
+      "source_item_id": 47305654,
+      "source_url": "https://news.ycombinator.com/item?id=47305654",
+      "author": "tow21",
+      "shared_at": 1773039939,
+      "links": [
+        "https://kpt.datamediate.com"
+      ]
+    }
+  ]
+}

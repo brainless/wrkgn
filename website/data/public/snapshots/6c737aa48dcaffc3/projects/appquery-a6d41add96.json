@@ -1,0 +1,35 @@
+{
+  "id": 7726,
+  "slug": "appquery-a6d41add96",
+  "name": "AppQuery",
+  "mentions": [
+    {
+      "name": "AppQuery",
+      "description": "A Ruby gem that makes raw SQL in Rails more intuitive. Queries live in files like app/queries/foo.sql.erb, with customizable casting, ERB-based parameterization, and helpers such as order_by and paginate. The gem parses and rewrites CTEs so basic operations (first, take, count) run performantly instead of using Rails' resultset.count, and it enables writing tests per CTE.",
+      "problem": "Raw SQL in Rails is unintuitive, and operations like Rails' resultset.count on custom queries can be slow and hard to test per-CTE.",
+      "audience": "Ruby on Rails developers working with raw SQL",
+      "builder_usernames": [
+        "doubleg"
+      ],
+      "source_excerpt": "I'm working on AppQuery, a Ruby gem that makes raw SQL for Rails more intuitive https://rubygems.org/gems/appquery.",
+      "evidence": [
+        {
+          "source_item_id": 46588041,
+          "source_field": "body",
+          "value": "I'm working on AppQuery, a Ruby gem that makes raw SQL for Rails more intuitive https://rubygems.org/gems/appquery.",
+          "supports": [],
+          "author": "doubleg",
+          "shared_at": 1768223792,
+          "source_url": "https://news.ycombinator.com/item?id=46588041"
+        }
+      ],
+      "source_item_id": 46588041,
+      "source_url": "https://news.ycombinator.com/item?id=46588041",
+      "author": "doubleg",
+      "shared_at": 1768223792,
+      "links": [
+        "https://rubygems.org/gems/appquery"
+      ]
+    }
+  ]
+}

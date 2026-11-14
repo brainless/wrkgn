@@ -1,0 +1,33 @@
+{
+  "id": 3919,
+  "slug": "ai-nextstep-decompiler-582dd9b7fc",
+  "name": "AI NeXTStep decompiler",
+  "mentions": [
+    {
+      "name": "AI NeXTStep decompiler",
+      "description": "This project uses AI to decompile NeXTStep applications back into Objective-C source code. The goal is to recover legacy applications such as WordPerfect or Framemaker and port their NeXTStep code to GNUStep so they can run on Linux.",
+      "problem": "Legacy NeXTStep applications like WordPerfect or Framemaker only exist as binaries and are unavailable on GNUStep/Linux without recovering their source code.",
+      "audience": null,
+      "builder_usernames": [
+        "Grosvenor"
+      ],
+      "source_excerpt": "I'm using AI to de-compile NeXTStep applications back to Objective-C source code.\n\nThe idea is decompile something like Wordperfect or Framemaker, then port the NeXTStep code to GNUStep and have WP on GNUStep/Linux.",
+      "evidence": [
+        {
+          "source_item_id": 48530570,
+          "source_field": "body",
+          "value": "I'm using AI to de-compile NeXTStep applications back to Objective-C source code.\n\nThe idea is decompile something like Wordperfect or Framemaker, then port the NeXTStep code to GNUStep and have WP on GNUStep/Linux.",
+          "supports": [],
+          "author": "Grosvenor",
+          "shared_at": 1781460500,
+          "source_url": "https://news.ycombinator.com/item?id=48530570"
+        }
+      ],
+      "source_item_id": 48530570,
+      "source_url": "https://news.ycombinator.com/item?id=48530570",
+      "author": "Grosvenor",
+      "shared_at": 1781460500,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 5253,
+  "slug": "helm-804d46c63b",
+  "name": "Helm",
+  "mentions": [
+    {
+      "name": "Helm",
+      "description": "A terminal-first tool for working with coding agents. It lets developers manage multiple AI agent sessions side by side and make quick code edits from the terminal without the overhead of a full IDE.",
+      "problem": "Constantly switching between the terminal and an IDE felt inefficient when working with coding agents.",
+      "audience": null,
+      "builder_usernames": [
+        "sudoapps"
+      ],
+      "source_excerpt": "Constantly switching between the terminal and an IDE started to feel inefficient, so I wanted a better terminal-first setup where I could manage multiple agent sessions and make quick edits without the overhead of a full IDE. So I built Helm for myself: https://github.com/samirkhoja/helm",
+      "evidence": [
+        {
+          "source_item_id": 47746497,
+          "source_field": "body",
+          "value": "Constantly switching between the terminal and an IDE started to feel inefficient, so I wanted a better terminal-first setup where I could manage multiple agent sessions and make quick edits without the overhead of a full IDE. So I built Helm for myself: https://github.com/samirkhoja/helm",
+          "supports": [],
+          "author": "sudoapps",
+          "shared_at": 1776043808,
+          "source_url": "https://news.ycombinator.com/item?id=47746497"
+        }
+      ],
+      "source_item_id": 47746497,
+      "source_url": "https://news.ycombinator.com/item?id=47746497",
+      "author": "sudoapps",
+      "shared_at": 1776043808,
+      "links": [
+        "https://github.com/samirkhoja/helm"
+      ]
+    }
+  ]
+}

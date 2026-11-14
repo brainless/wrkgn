@@ -1,0 +1,36 @@
+{
+  "id": 7016,
+  "slug": "checktica-0da31cc023",
+  "name": "Checktica",
+  "mentions": [
+    {
+      "name": "Checktica",
+      "description": "An API that provides heuristic signals about whether a piece of text is likely LLM-generated. It uses an ensemble of detection techniques, reporting ~99.8% accuracy on the author's internal evaluation set, and is positioned as a probabilistic signal rather than a definitive classifier given how hard and adversarial general-purpose AI text detection is. A simple web demo and public API docs (no API keys required) are available.",
+      "problem": "General-purpose AI text detection is hard and adversarial, so the tool provides probabilistic heuristic signals instead of a definitive classifier.",
+      "audience": null,
+      "builder_usernames": [
+        "tom_tom_watson"
+      ],
+      "source_excerpt": "I’m working on an API that provides heuristic signals about whether a piece of text is likely LLM-generated.\n\nThe system uses an ensemble of techniques, and on my internal evaluation set (details below) it achieves ~99.8% accuracy. I’m fully aware that general-purpose AI text detection is hard and adversarial, so this is meant as a probabilistic signal rather than a definitive classifier.",
+      "evidence": [
+        {
+          "source_item_id": 46948557,
+          "source_field": "body",
+          "value": "I’m working on an API that provides heuristic signals about whether a piece of text is likely LLM-generated.\n\nThe system uses an ensemble of techniques, and on my internal evaluation set (details below) it achieves ~99.8% accuracy. I’m fully aware that general-purpose AI text detection is hard and adversarial, so this is meant as a probabilistic signal rather than a definitive classifier.",
+          "supports": [],
+          "author": "tom_tom_watson",
+          "shared_at": 1770660214,
+          "source_url": "https://news.ycombinator.com/item?id=46948557"
+        }
+      ],
+      "source_item_id": 46948557,
+      "source_url": "https://news.ycombinator.com/item?id=46948557",
+      "author": "tom_tom_watson",
+      "shared_at": 1770660214,
+      "links": [
+        "https://api.checktica.com/v1/docs",
+        "https://checktica.com"
+      ]
+    }
+  ]
+}

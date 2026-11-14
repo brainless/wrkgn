@@ -1,0 +1,63 @@
+{
+  "id": 4730,
+  "slug": "marmot-b7fabcf999",
+  "name": "Marmot",
+  "mentions": [
+    {
+      "name": "Marmot",
+      "description": "Marmot is a database project that recently added support for vector indexing. After implementing a research paper indexing algorithm, the author tuned it for their own use case, resulting in a replicatable RAG store; local benchmarks show decent QPS with under a GB of RSS on the DBpedia dataset.",
+      "problem": "The initial implementation of the research paper indexing algorithm did not perform well enough, requiring tuning for the author's use case.",
+      "audience": null,
+      "builder_usernames": [
+        "maxpert"
+      ],
+      "source_excerpt": "Working on Marmot https://github.com/maxpert/marmot recently added support for vector index. My local benchmarks show pretty decent QPS with less than GB of RSS on DBpedia dataset.",
+      "evidence": [
+        {
+          "source_item_id": 48088012,
+          "source_field": "body",
+          "value": "Working on Marmot https://github.com/maxpert/marmot recently added support for vector index. My local benchmarks show pretty decent QPS with less than GB of RSS on DBpedia dataset.",
+          "supports": [],
+          "author": "maxpert",
+          "shared_at": 1778447105,
+          "source_url": "https://news.ycombinator.com/item?id=48088012"
+        }
+      ],
+      "source_item_id": 48088012,
+      "source_url": "https://news.ycombinator.com/item?id=48088012",
+      "author": "maxpert",
+      "shared_at": 1778447105,
+      "links": [
+        "https://github.com/maxpert/marmot"
+      ]
+    },
+    {
+      "name": "Marmot",
+      "description": "Distributed database replication project that now has replicas working with a DML proxy, allowing a cluster of primaries and read-only replicas spun up on demand; nodes talking to localhost never see their mutations served transparently from read-only replicas. A proof of concept works, though snapshot restore is still extremely inefficient.",
+      "problem": "Snapshot restore is currently extremely inefficient, despite the proof of concept working.",
+      "audience": null,
+      "builder_usernames": [
+        "maxpert"
+      ],
+      "source_excerpt": "I am as usual working on Marmot https://github.com/maxpert/marmot\n\nI've got replicas now working with DML proxy. This essentially means I can now have a cluster of primaries, and then spin up replicas on demand and nodes talking to local host will never see their mutation work pretty transparently from readonly-replicas.",
+      "evidence": [
+        {
+          "source_item_id": 46939504,
+          "source_field": "body",
+          "value": "I am as usual working on Marmot https://github.com/maxpert/marmot\n\nI've got replicas now working with DML proxy. This essentially means I can now have a cluster of primaries, and then spin up replicas on demand and nodes talking to local host will never see their mutation work pretty transparently from readonly-replicas.",
+          "supports": [],
+          "author": "maxpert",
+          "shared_at": 1770591684,
+          "source_url": "https://news.ycombinator.com/item?id=46939504"
+        }
+      ],
+      "source_item_id": 46939504,
+      "source_url": "https://news.ycombinator.com/item?id=46939504",
+      "author": "maxpert",
+      "shared_at": 1770591684,
+      "links": [
+        "https://github.com/maxpert/marmot"
+      ]
+    }
+  ]
+}

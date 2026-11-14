@@ -1,0 +1,63 @@
+{
+  "id": 2501,
+  "slug": "simple-contact-form-e4dad7ee9f",
+  "name": "Simple Contact Form",
+  "mentions": [
+    {
+      "name": "Simple Contact Form",
+      "description": "A contact form service that recently added an API allowing LLMs to sign up to the service autonomously.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "maxibenner"
+      ],
+      "source_excerpt": "I recently added the ability for LLMs to sign up to my service https://www.simplecontactform.org autonomously via API.",
+      "evidence": [
+        {
+          "source_item_id": 48890524,
+          "source_field": "body",
+          "value": "I recently added the ability for LLMs to sign up to my service https://www.simplecontactform.org autonomously via API.",
+          "supports": [],
+          "author": "maxibenner",
+          "shared_at": 1783938522,
+          "source_url": "https://news.ycombinator.com/item?id=48890524"
+        }
+      ],
+      "source_item_id": 48890524,
+      "source_url": "https://news.ycombinator.com/item?id=48890524",
+      "author": "maxibenner",
+      "shared_at": 1783938522,
+      "links": [
+        "https://www.simplecontactform.org"
+      ]
+    },
+    {
+      "name": "Simple Contact Form",
+      "description": "An open-source HTML form forwarding service that sends submissions from static HTML forms to email, built on Amazon SES, and offered for free.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "maxibenner"
+      ],
+      "source_excerpt": "I finally got to rework my html form forwarder[1]. I realized how cheap SES is and thought I might as well make the service free.",
+      "evidence": [
+        {
+          "source_item_id": 46944913,
+          "source_field": "body",
+          "value": "I finally got to rework my html form forwarder[1]. I realized how cheap SES is and thought I might as well make the service free.",
+          "supports": [],
+          "author": "maxibenner",
+          "shared_at": 1770643251,
+          "source_url": "https://news.ycombinator.com/item?id=46944913"
+        }
+      ],
+      "source_item_id": 46944913,
+      "source_url": "https://news.ycombinator.com/item?id=46944913",
+      "author": "maxibenner",
+      "shared_at": 1770643251,
+      "links": [
+        "https://www.simplecontactform.org"
+      ]
+    }
+  ]
+}

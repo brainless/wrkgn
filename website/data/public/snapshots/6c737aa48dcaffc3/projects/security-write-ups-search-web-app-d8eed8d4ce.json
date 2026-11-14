@@ -1,0 +1,33 @@
+{
+  "id": 7091,
+  "slug": "security-write-ups-search-web-app-d8eed8d4ce",
+  "name": "Security write-ups search web app",
+  "mentions": [
+    {
+      "name": "Security write-ups search web app",
+      "description": "This web app indexes and tags security (and security-adjacent) write-ups so users can search prior work on specific topics. It features an HN-inspired listing UI and is adding MCP support so AI agents can search the index as well.",
+      "problem": "Security researchers lack a searchable way to find prior works on specific security topics, such as bypassing the V8 sandbox using WebAssembly or targeting deserialization in Go.",
+      "audience": "Security researchers and other personas in the security field who want to find prior works around specific topics like V8 sandbox bypasses via WebAssembly or Go deserialization.",
+      "builder_usernames": [
+        "Goofy_Coyote"
+      ],
+      "source_excerpt": "A simple HN-like web app that indexes security (and security adjacent) write-ups.\n\nImagine you, as a security researcher (or any other persona in the security field), wanted to see what prior works are available around bypassing v8 sandbox using webasm, or if what’s been done or found targeting deserialization in Go.\n\nUsing this web app, you can search the indexed and tagged write ups.\n\nAlso adding MCP support to it so your agents can search too.",
+      "evidence": [
+        {
+          "source_item_id": 46946866,
+          "source_field": "body",
+          "value": "A simple HN-like web app that indexes security (and security adjacent) write-ups.\n\nImagine you, as a security researcher (or any other persona in the security field), wanted to see what prior works are available around bypassing v8 sandbox using webasm, or if what’s been done or found targeting deserialization in Go.\n\nUsing this web app, you can search the indexed and tagged write ups.\n\nAlso adding MCP support to it so your agents can search too.",
+          "supports": [],
+          "author": "Goofy_Coyote",
+          "shared_at": 1770653692,
+          "source_url": "https://news.ycombinator.com/item?id=46946866"
+        }
+      ],
+      "source_item_id": 46946866,
+      "source_url": "https://news.ycombinator.com/item?id=46946866",
+      "author": "Goofy_Coyote",
+      "shared_at": 1770653692,
+      "links": []
+    }
+  ]
+}

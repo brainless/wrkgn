@@ -1,0 +1,33 @@
+{
+  "id": 7481,
+  "slug": "llm-screenshot-description-generator-f766b3f429",
+  "name": "LLM screenshot description generator",
+  "mentions": [
+    {
+      "name": "LLM screenshot description generator",
+      "description": "This script periodically checks a desktop for new phone screenshots that have been uploaded to Dropbox and has an LLM generate a matching text file in a separate folder describing everything in the image and a guess of the possible reasons the screenshot was taken. The text files make phone screenshots searchable by text, so vaguely remembered images can be found using simple text search or Claude Code. It has been running since January of last year.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "voodoo_canyon"
+      ],
+      "source_excerpt": "except I don't rename the image, but I have the LLM create a matching text file in a separate folder with a description of everything in the image and a guess of the possible reasons why I took a screenshot. I use screenshot on my phone to remember stuff, so this way it's super easy to search those text files if I'm trying to find something that I only vaguely remember.",
+      "evidence": [
+        {
+          "source_item_id": 46632382,
+          "source_field": "body",
+          "value": "except I don't rename the image, but I have the LLM create a matching text file in a separate folder with a description of everything in the image and a guess of the possible reasons why I took a screenshot. I use screenshot on my phone to remember stuff, so this way it's super easy to search those text files if I'm trying to find something that I only vaguely remember.",
+          "supports": [],
+          "author": "voodoo_canyon",
+          "shared_at": 1768484447,
+          "source_url": "https://news.ycombinator.com/item?id=46632382"
+        }
+      ],
+      "source_item_id": 46632382,
+      "source_url": "https://news.ycombinator.com/item?id=46632382",
+      "author": "voodoo_canyon",
+      "shared_at": 1768484447,
+      "links": []
+    }
+  ]
+}

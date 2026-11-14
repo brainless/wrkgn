@@ -1,0 +1,35 @@
+{
+  "id": 4553,
+  "slug": "anomaly-detection-log-anomaly-detection-9abebd2d3e",
+  "name": "anomaly_detection (log anomaly detection)",
+  "mentions": [
+    {
+      "name": "anomaly_detection (log anomaly detection)",
+      "description": "This project detects anomalies from batches of log lines using a 1D CNN and a Siamese network trained with triplet loss, learning anomaly patterns such as error bursts that span multiple lines rather than relying on single-line keywords. It was validated on synthetic training data, achieving a ROC AUC of 0.9957.",
+      "problem": "Detecting anomalies that emerge across multiple log lines (e.g., error bursts) rather than just single-line keywords; no suitable public datasets were found, so synthetic data was generated for training.",
+      "audience": null,
+      "builder_usernames": [
+        "sateesh"
+      ],
+      "source_excerpt": "In my effort to better understand Deeplearning I built this project (https://github.com/sateeshkumarb/anomaly_detection) to detect\nanomalies from a batch of loglines. I use 1D CNN and Siamese network (Triplet loss) to train the model to learn anomaly patterns from logs.\nThe goal was to detect anomalies that emerge across multiple lines (e.g., error bursts) rather than just single-line keywords.",
+      "evidence": [
+        {
+          "source_item_id": 48098635,
+          "source_field": "body",
+          "value": "In my effort to better understand Deeplearning I built this project (https://github.com/sateeshkumarb/anomaly_detection) to detect\nanomalies from a batch of loglines. I use 1D CNN and Siamese network (Triplet loss) to train the model to learn anomaly patterns from logs.\nThe goal was to detect anomalies that emerge across multiple lines (e.g., error bursts) rather than just single-line keywords.",
+          "supports": [],
+          "author": "sateesh",
+          "shared_at": 1778523539,
+          "source_url": "https://news.ycombinator.com/item?id=48098635"
+        }
+      ],
+      "source_item_id": 48098635,
+      "source_url": "https://news.ycombinator.com/item?id=48098635",
+      "author": "sateesh",
+      "shared_at": 1778523539,
+      "links": [
+        "https://github.com/sateeshkumarb/anomaly_detection"
+      ]
+    }
+  ]
+}

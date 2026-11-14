@@ -1,0 +1,35 @@
+{
+  "id": 8130,
+  "slug": "blastersim-2989fa3307",
+  "name": "blastersim",
+  "mentions": [
+    {
+      "name": "blastersim",
+      "description": "Open source simulator for Nerf blasters, supporting both spring and pneumatic blasters. Built with an object-oriented architecture where a blaster is assembled from control volumes and connections between them, letting the same core framework model different blaster configurations and variants, such as a spring piston pulling a vacuum on its back side when flow is insufficient. The core simulator works, but a user interface and documentation are still pending; text input files are planned first, possibly with a GUI later. Work is currently focused on testing.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "btrettel"
+      ],
+      "source_excerpt": "Open source Nerf blaster simulator, for both spring and pneumatic blasters.\n\nhttps://github.com/btrettel/blastersim",
+      "evidence": [
+        {
+          "source_item_id": 46267280,
+          "source_field": "body",
+          "value": "Open source Nerf blaster simulator, for both spring and pneumatic blasters.\n\nhttps://github.com/btrettel/blastersim",
+          "supports": [],
+          "author": "btrettel",
+          "shared_at": 1765748608,
+          "source_url": "https://news.ycombinator.com/item?id=46267280"
+        }
+      ],
+      "source_item_id": 46267280,
+      "source_url": "https://news.ycombinator.com/item?id=46267280",
+      "author": "btrettel",
+      "shared_at": 1765748608,
+      "links": [
+        "https://github.com/btrettel/blastersim"
+      ]
+    }
+  ]
+}

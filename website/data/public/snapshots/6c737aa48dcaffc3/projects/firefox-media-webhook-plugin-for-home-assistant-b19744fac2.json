@@ -1,0 +1,33 @@
+{
+  "id": 3833,
+  "slug": "firefox-media-webhook-plugin-for-home-assistant-b19744fac2",
+  "name": "Firefox media webhook plugin for Home Assistant",
+  "mentions": [
+    {
+      "name": "Firefox media webhook plugin for Home Assistant",
+      "description": "A Firefox browser plugin that sends webhooks to Home Assistant based on media playback. It automatically adjusts lighting when media starts, pauses, and stops (e.g., turning on accent lighting when a movie is paused and off when resumed), and calculates the dominant color of the playing content to feed Home Assistant, driving an LED strip behind the TV as a budget ambilight. Planned next step is automatically tracking watched content to generate viewing-habit statistics.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "nzach"
+      ],
+      "source_excerpt": "For the last month I've worked on a firefox plugin that allows me to send webhooks to my home assistant.",
+      "evidence": [
+        {
+          "source_item_id": 48540501,
+          "source_field": "body",
+          "value": "For the last month I've worked on a firefox plugin that allows me to send webhooks to my home assistant.",
+          "supports": [],
+          "author": "nzach",
+          "shared_at": 1781527807,
+          "source_url": "https://news.ycombinator.com/item?id=48540501"
+        }
+      ],
+      "source_item_id": 48540501,
+      "source_url": "https://news.ycombinator.com/item?id=48540501",
+      "author": "nzach",
+      "shared_at": 1781527807,
+      "links": []
+    }
+  ]
+}

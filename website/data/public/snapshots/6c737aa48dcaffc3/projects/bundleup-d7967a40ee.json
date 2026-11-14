@@ -1,0 +1,35 @@
+{
+  "id": 5819,
+  "slug": "bundleup-d7967a40ee",
+  "name": "BundleUp",
+  "mentions": [
+    {
+      "name": "BundleUp",
+      "description": "This tool provides reusable OAuth flows for API integrations, handling refresh tokens, retries, and edge cases so developers don't have to rewrite the same integration plumbing for every API they connect to.",
+      "problem": "Integrations start simple but turn into a mess once you deal with refresh tokens, retries, and edge cases, requiring rewritten OAuth flows for every API.",
+      "audience": null,
+      "builder_usernames": [
+        "sonnyt"
+      ],
+      "source_excerpt": "www.bundleup.io - I’ve been working on a way to stop rewriting OAuth flows for every API. Integrations start simple but turn into a mess once you deal with refresh tokens, retries, and edge cases. Still early, but it’s been useful for my own projects so far.",
+      "evidence": [
+        {
+          "source_item_id": 47805842,
+          "source_field": "body",
+          "value": "www.bundleup.io - I’ve been working on a way to stop rewriting OAuth flows for every API. Integrations start simple but turn into a mess once you deal with refresh tokens, retries, and edge cases. Still early, but it’s been useful for my own projects so far.",
+          "supports": [],
+          "author": "sonnyt",
+          "shared_at": 1776433157,
+          "source_url": "https://news.ycombinator.com/item?id=47805842"
+        }
+      ],
+      "source_item_id": 47805842,
+      "source_url": "https://news.ycombinator.com/item?id=47805842",
+      "author": "sonnyt",
+      "shared_at": 1776433157,
+      "links": [
+        "https://www.bundleup.io"
+      ]
+    }
+  ]
+}

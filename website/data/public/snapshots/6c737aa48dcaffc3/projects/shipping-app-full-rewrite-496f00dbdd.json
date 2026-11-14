@@ -1,0 +1,33 @@
+{
+  "id": 6039,
+  "slug": "shipping-app-full-rewrite-496f00dbdd",
+  "name": "Shipping App Full Rewrite",
+  "mentions": [
+    {
+      "name": "Shipping App Full Rewrite",
+      "description": "A full rewrite of a two-year-old shipping app, migrating it away from an overkill high-security general-purpose application server. The new server exposes a much smaller API while keeping the existing SQL schema intact, with a client communication SDK underway, all designed to avoid disrupting the app's many users. An LLM was invaluable in enabling the rewrite.",
+      "problem": "The app's previous server was a high-security, general-purpose application server that was way overkill for the app; the migration needs to proceed without interfering with the app's many users.",
+      "audience": null,
+      "builder_usernames": [
+        "ChrisMarshallNY"
+      ],
+      "source_excerpt": "I'm rewriting a shipping app, that is just over two years old.\n\nThis is a \"full rewrite,\" because I need to migrate away from my previous server, which was developed as a high-security, general-purpose application server, and is way overkill for this app.",
+      "evidence": [
+        {
+          "source_item_id": 47303458,
+          "source_field": "body",
+          "value": "I'm rewriting a shipping app, that is just over two years old.\n\nThis is a \"full rewrite,\" because I need to migrate away from my previous server, which was developed as a high-security, general-purpose application server, and is way overkill for this app.",
+          "supports": [],
+          "author": "ChrisMarshallNY",
+          "shared_at": 1773017477,
+          "source_url": "https://news.ycombinator.com/item?id=47303458"
+        }
+      ],
+      "source_item_id": 47303458,
+      "source_url": "https://news.ycombinator.com/item?id=47303458",
+      "author": "ChrisMarshallNY",
+      "shared_at": 1773017477,
+      "links": []
+    }
+  ]
+}

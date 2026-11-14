@@ -1,0 +1,35 @@
+{
+  "id": 3777,
+  "slug": "nexsos1-fe3de55f31",
+  "name": "NexsOS1",
+  "mentions": [
+    {
+      "name": "NexsOS1",
+      "description": "An open-source operating system in development for six months that runs on aarch64 and amd64 in graphical mode. It has a separate kernel and userland loaded via ELF, a custom API with a rebuilt libc and POSIX compatibility, and ships applications including a shell, a 3D demo, the kilo text editor, and Doom. Ongoing work includes sandboxing, moving drivers to userland services, and a compositor with multiple resolutions, themes, and variable styles.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "shsh1312"
+      ],
+      "source_excerpt": "I'm working on an OpenSource operating system, it's been 6 months now, the system runs on aarch64 and amd64 in graphical mode, it has separate kernel and userland (loaded via elf), and a proprietary api on here in turn I'm rebuilding a libc and posix compatibility",
+      "evidence": [
+        {
+          "source_item_id": 48594743,
+          "source_field": "body",
+          "value": "I'm working on an OpenSource operating system, it's been 6 months now, the system runs on aarch64 and amd64 in graphical mode, it has separate kernel and userland (loaded via elf), and a proprietary api on here in turn I'm rebuilding a libc and posix compatibility",
+          "supports": [],
+          "author": "shsh1312",
+          "shared_at": 1781842971,
+          "source_url": "https://news.ycombinator.com/item?id=48594743"
+        }
+      ],
+      "source_item_id": 48594743,
+      "source_url": "https://news.ycombinator.com/item?id=48594743",
+      "author": "shsh1312",
+      "shared_at": 1781842971,
+      "links": [
+        "https://github.com/olmox001/NexsOS1"
+      ]
+    }
+  ]
+}

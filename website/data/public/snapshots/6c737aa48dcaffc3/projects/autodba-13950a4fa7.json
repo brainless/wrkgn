@@ -1,0 +1,35 @@
+{
+  "id": 10553,
+  "slug": "autodba-13950a4fa7",
+  "name": "AutoDBA",
+  "mentions": [
+    {
+      "name": "AutoDBA",
+      "description": "This IDE extension (AutoDBA PostgreSQL Insights for VS Code) helps developers and DBAs find and fix common database performance issues, misconfigurations, unused indices, and silent slowdowns directly in the IDE.",
+      "problem": "Common database performance issues, misconfigurations, unused indices, and silent slowdowns are hard to find and fix.",
+      "audience": "Developers and DBAs",
+      "builder_usernames": [
+        "autodba-ish"
+      ],
+      "source_excerpt": "Working on AutoDBA [1]. The goal is to help developers and DBAs find and fix common performance issues, misconfigurations, unused indices, and silent slowdowns  directly in your IDE.",
+      "evidence": [
+        {
+          "source_item_id": 44706702,
+          "source_field": "body",
+          "value": "Working on AutoDBA [1]. The goal is to help developers and DBAs find and fix common performance issues, misconfigurations, unused indices, and silent slowdowns  directly in your IDE.",
+          "supports": [],
+          "author": "autodba-ish",
+          "shared_at": 1753670494,
+          "source_url": "https://news.ycombinator.com/item?id=44706702"
+        }
+      ],
+      "source_item_id": 44706702,
+      "source_url": "https://news.ycombinator.com/item?id=44706702",
+      "author": "autodba-ish",
+      "shared_at": 1753670494,
+      "links": [
+        "https://marketplace.visualstudio.com/items?itemName=autodba-labs.autodba-postgresql-insights"
+      ]
+    }
+  ]
+}

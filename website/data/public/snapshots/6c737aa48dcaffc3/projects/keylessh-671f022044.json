@@ -1,0 +1,35 @@
+{
+  "id": 4607,
+  "slug": "keylessh-671f022044",
+  "name": "KeyleSSH",
+  "mentions": [
+    {
+      "name": "KeyleSSH",
+      "description": "A keyless SSH/PAM prototype that removes the private key file entirely so there is no single credential sitting around for attackers to steal.",
+      "problem": "Private key files sitting around are a single thing for attackers to steal.",
+      "audience": "Software developers who need usable security tooling with a familiar developer experience",
+      "builder_usernames": [
+        "sashyo"
+      ],
+      "source_excerpt": "Another is KeyleSSH, a keyless SSH/PAM prototype where there is no private key file sitting around as one thing to steal: https://github.com/sashyo/keylessh",
+      "evidence": [
+        {
+          "source_item_id": 48144683,
+          "source_field": "body",
+          "value": "Another is KeyleSSH, a keyless SSH/PAM prototype where there is no private key file sitting around as one thing to steal: https://github.com/sashyo/keylessh",
+          "supports": [],
+          "author": "sashyo",
+          "shared_at": 1778820605,
+          "source_url": "https://news.ycombinator.com/item?id=48144683"
+        }
+      ],
+      "source_item_id": 48144683,
+      "source_url": "https://news.ycombinator.com/item?id=48144683",
+      "author": "sashyo",
+      "shared_at": 1778820605,
+      "links": [
+        "https://github.com/sashyo/keylessh"
+      ]
+    }
+  ]
+}

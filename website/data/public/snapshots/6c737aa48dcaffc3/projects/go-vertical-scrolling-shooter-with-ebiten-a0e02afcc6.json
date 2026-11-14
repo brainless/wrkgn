@@ -1,0 +1,33 @@
+{
+  "id": 6099,
+  "slug": "go-vertical-scrolling-shooter-with-ebiten-a0e02afcc6",
+  "name": "Go vertical scrolling shooter with Ebiten",
+  "mentions": [
+    {
+      "name": "Go vertical scrolling shooter with Ebiten",
+      "description": "A vertical scrolling shooter game written in Go using the Ebiten library, built as a hands-on way to learn the language. It is kept private and will probably never be released. Current work involves studying how to implement a memory pool for actors, since garbage collection and hundreds of short-lived bullet objects mix poorly.",
+      "problem": "Garbage collection doesn't mix well with hundreds of short-lived bullet objects, motivating study of memory pools for actors.",
+      "audience": null,
+      "builder_usernames": [
+        "nottorp"
+      ],
+      "source_excerpt": "I've started to learn Go. By doing a vertical scrolling shooter with embiten. Kinda like fitting a square peg into a round hole. No, it's not public and will probably never be.",
+      "evidence": [
+        {
+          "source_item_id": 47306026,
+          "source_field": "body",
+          "value": "I've started to learn Go. By doing a vertical scrolling shooter with embiten. Kinda like fitting a square peg into a round hole. No, it's not public and will probably never be.",
+          "supports": [],
+          "author": "nottorp",
+          "shared_at": 1773043151,
+          "source_url": "https://news.ycombinator.com/item?id=47306026"
+        }
+      ],
+      "source_item_id": 47306026,
+      "source_url": "https://news.ycombinator.com/item?id=47306026",
+      "author": "nottorp",
+      "shared_at": 1773043151,
+      "links": []
+    }
+  ]
+}

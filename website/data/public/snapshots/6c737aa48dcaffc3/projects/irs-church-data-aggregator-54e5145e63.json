@@ -1,0 +1,33 @@
+{
+  "id": 6790,
+  "slug": "irs-church-data-aggregator-54e5145e63",
+  "name": "IRS Church Data Aggregator",
+  "mentions": [
+    {
+      "name": "IRS Church Data Aggregator",
+      "description": "This project fetches every church from IRS data and uses a small LLM (qwen2.5-14b) running locally on a Mac mini to match each church to its Google search result, with a current 30% match rate. It then fetches church websites and, eventually, runs a data enrichment LLM pass to determine positions, metadata, and services offered, so the data can be seen in aggregate while keeping processing costs low. A stretch goal is transcribing the sermons most churches link to via videos and running an LLM pass to look for toxic traits, speaking truth to power about churches turning a blind eye to the current political moment.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "kylehotchkiss"
+      ],
+      "source_excerpt": "Fetching every church from IRS data; using a small local Mac mini LLM to match to their Google result, fetching site and (eventually) running a data enrichment LLM pass to determine various positions, metadata, and services offered. I just really wanted to see the data in aggregate.",
+      "evidence": [
+        {
+          "source_item_id": 46940498,
+          "source_field": "body",
+          "value": "Fetching every church from IRS data; using a small local Mac mini LLM to match to their Google result, fetching site and (eventually) running a data enrichment LLM pass to determine various positions, metadata, and services offered. I just really wanted to see the data in aggregate.",
+          "supports": [],
+          "author": "kylehotchkiss",
+          "shared_at": 1770600342,
+          "source_url": "https://news.ycombinator.com/item?id=46940498"
+        }
+      ],
+      "source_item_id": 46940498,
+      "source_url": "https://news.ycombinator.com/item?id=46940498",
+      "author": "kylehotchkiss",
+      "shared_at": 1770600342,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": 9367,
+  "slug": "kumi-9a441f818d",
+  "name": "Kumi",
+  "mentions": [
+    {
+      "name": "Kumi",
+      "description": "Kumi is a typed, array-oriented dataflow compiler that takes small declarative schemas and emits plain Ruby and JavaScript, with a C path. Its mid-end implements inlining, common subexpression elimination, constant folding, dead code elimination, loop fusion, and LICM. A web demo is available to try it out.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "goldenCeasar"
+      ],
+      "source_excerpt": "I’m building a typed, array-oriented dataflow compiler that takes small declarative schemas and emits plain Ruby and JavaScript, with a C path. It has a mid-end with inlining, common subexpression elimination, constant folding, dead code elimination, loop fusion, and LICM.",
+      "evidence": [
+        {
+          "source_item_id": 45869791,
+          "source_field": "body",
+          "value": "I’m building a typed, array-oriented dataflow compiler that takes small declarative schemas and emits plain Ruby and JavaScript, with a C path. It has a mid-end with inlining, common subexpression elimination, constant folding, dead code elimination, loop fusion, and LICM.",
+          "supports": [],
+          "author": "goldenCeasar",
+          "shared_at": 1762727023,
+          "source_url": "https://news.ycombinator.com/item?id=45869791"
+        }
+      ],
+      "source_item_id": 45869791,
+      "source_url": "https://news.ycombinator.com/item?id=45869791",
+      "author": "goldenCeasar",
+      "shared_at": 1762727023,
+      "links": [
+        "https://github.com/amuta/kumi",
+        "https://kumi-play-web.fly.dev/"
+      ]
+    }
+  ]
+}

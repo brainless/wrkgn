@@ -1,0 +1,33 @@
+{
+  "id": 6596,
+  "slug": "go-amqp-message-queue-backed-by-sqlite-db0852dcb2",
+  "name": "Go AMQP message queue backed by SQLite",
+  "mentions": [
+    {
+      "name": "Go AMQP message queue backed by SQLite",
+      "description": "An AMQP message queue written in Go that implements only the most commonly used AMQP features, with one SQLite database per queue. Built as a lightweight, low-configuration alternative to RabbitMQ, which is described as slow, resource hungry, and requiring configuration.",
+      "problem": "RabbitMQ is slow, resource hungry, and needs configuration.",
+      "audience": null,
+      "builder_usernames": [
+        "andrewstuart"
+      ],
+      "source_excerpt": "I made an AMQP message queue which implements only the most commonly used stuff.\n\nIt has one SQLite database per queue.\n\nIn golang.\n\nWhy? Because Rabbit is slow and resource hungry and needs configuration.",
+      "evidence": [
+        {
+          "source_item_id": 47304780,
+          "source_field": "body",
+          "value": "I made an AMQP message queue which implements only the most commonly used stuff.\n\nIt has one SQLite database per queue.\n\nIn golang.\n\nWhy? Because Rabbit is slow and resource hungry and needs configuration.",
+          "supports": [],
+          "author": "andrewstuart",
+          "shared_at": 1773029096,
+          "source_url": "https://news.ycombinator.com/item?id=47304780"
+        }
+      ],
+      "source_item_id": 47304780,
+      "source_url": "https://news.ycombinator.com/item?id=47304780",
+      "author": "andrewstuart",
+      "shared_at": 1773029096,
+      "links": []
+    }
+  ]
+}

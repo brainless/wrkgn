@@ -1,0 +1,33 @@
+{
+  "id": 8515,
+  "slug": "llm-kv-cache-eviction-research-f211dcfb65",
+  "name": "LLM KV cache eviction research",
+  "mentions": [
+    {
+      "name": "LLM KV cache eviction research",
+      "description": "This project trains a model to predict how long each token should stay in a transformer's KV cache using only its key vectors, enabling selective cache eviction that can be added after the fact without retraining the core model.",
+      "problem": "Most tokens in a sequence are irrelevant to attention outside a very small window, yet current approaches either keep all cache values forever or dump them all once they hit a certain age.",
+      "audience": null,
+      "builder_usernames": [
+        "enjeyw"
+      ],
+      "source_excerpt": "Overly specific LLM research into KV cache eviction.",
+      "evidence": [
+        {
+          "source_item_id": 46266400,
+          "source_field": "body",
+          "value": "Overly specific LLM research into KV cache eviction.",
+          "supports": [],
+          "author": "enjeyw",
+          "shared_at": 1765743273,
+          "source_url": "https://news.ycombinator.com/item?id=46266400"
+        }
+      ],
+      "source_item_id": 46266400,
+      "source_url": "https://news.ycombinator.com/item?id=46266400",
+      "author": "enjeyw",
+      "shared_at": 1765743273,
+      "links": []
+    }
+  ]
+}

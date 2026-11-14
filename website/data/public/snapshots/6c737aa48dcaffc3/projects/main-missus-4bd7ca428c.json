@@ -1,0 +1,35 @@
+{
+  "id": 6501,
+  "slug": "main-missus-4bd7ca428c",
+  "name": "Main_MiSSus",
+  "mentions": [
+    {
+      "name": "Main_MiSSus",
+      "description": "A fork of the main MiSTer binary that adds automatic backup of saves, save tagging and versioning, and uses SQLite to provide stronger write-safety guarantees than the vanilla MiSTer binary.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tombert"
+      ],
+      "source_excerpt": "I forked the main MiSTer binary due to some disagreements I had with Sorg in how he's running things  [1].  My fork was largely done by Codex and Claude, but the tl;dr of it is that it has automatic backup of your saves, tagging and versioning of your saves, and it abuses the hell out of SQLite to give better guarantees of write safety than the vanilla MiSTer binary gives you.",
+      "evidence": [
+        {
+          "source_item_id": 47303480,
+          "source_field": "body",
+          "value": "I forked the main MiSTer binary due to some disagreements I had with Sorg in how he's running things  [1].  My fork was largely done by Codex and Claude, but the tl;dr of it is that it has automatic backup of your saves, tagging and versioning of your saves, and it abuses the hell out of SQLite to give better guarantees of write safety than the vanilla MiSTer binary gives you.",
+          "supports": [],
+          "author": "tombert",
+          "shared_at": 1773017675,
+          "source_url": "https://news.ycombinator.com/item?id=47303480"
+        }
+      ],
+      "source_item_id": 47303480,
+      "source_url": "https://news.ycombinator.com/item?id=47303480",
+      "author": "tombert",
+      "shared_at": 1773017675,
+      "links": [
+        "https://github.com/Tombert/Main_MiSSus/blob/master/README.md"
+      ]
+    }
+  ]
+}

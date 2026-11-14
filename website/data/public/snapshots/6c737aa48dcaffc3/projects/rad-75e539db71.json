@@ -1,0 +1,121 @@
+{
+  "id": 3778,
+  "slug": "rad-75e539db71",
+  "name": "Rad",
+  "mentions": [
+    {
+      "name": "Rad",
+      "description": "A programming language tailored for writing CLI scripts and tools, mainly as an alternative to Bash, with a declarative approach to things like script arguments. Recent work has focused on static type analysis, which helps both people and AI agents write good Rad.",
+      "problem": null,
+      "audience": "People writing CLI scripts and command-line tools",
+      "builder_usernames": [
+        "amterp"
+      ],
+      "source_excerpt": "One is Rad [0], a programming language tailored for writing CLI scripts and tools (mainly an alternative to Bash), taking a declarative approach to things like script arguments. Latest push has been largely on static type analysis, since making that really good is the sort of thing that helps both people and AI agents write good Rad.",
+      "evidence": [
+        {
+          "source_item_id": 48534027,
+          "source_field": "body",
+          "value": "One is Rad [0], a programming language tailored for writing CLI scripts and tools (mainly an alternative to Bash), taking a declarative approach to things like script arguments. Latest push has been largely on static type analysis, since making that really good is the sort of thing that helps both people and AI agents write good Rad.",
+          "supports": [],
+          "author": "amterp",
+          "shared_at": 1781478790,
+          "source_url": "https://news.ycombinator.com/item?id=48534027"
+        }
+      ],
+      "source_item_id": 48534027,
+      "source_url": "https://news.ycombinator.com/item?id=48534027",
+      "author": "amterp",
+      "shared_at": 1781478790,
+      "links": [
+        "https://amterp.dev/rad",
+        "https://github.com/amterp/rad"
+      ]
+    },
+    {
+      "name": "Rad",
+      "description": "A programming language tailor-made for writing CLI scripts. It specializes in the CLI domain rather than enterprise software, with essentials built in such as a declarative approach to arguments and generated help output.",
+      "problem": "With Bash, you have to roll your own argument parsing and help strings each time you write a CLI script.",
+      "audience": null,
+      "builder_usernames": [
+        "amterp"
+      ],
+      "source_excerpt": "The other project I am continuing to work on is Rad [1], a programming language tailor made for writing CLI scripts.",
+      "evidence": [
+        {
+          "source_item_id": 47310609,
+          "source_field": "body",
+          "value": "The other project I am continuing to work on is Rad [1], a programming language tailor made for writing CLI scripts.",
+          "supports": [],
+          "author": "amterp",
+          "shared_at": 1773071255,
+          "source_url": "https://news.ycombinator.com/item?id=47310609"
+        }
+      ],
+      "source_item_id": 47310609,
+      "source_url": "https://news.ycombinator.com/item?id=47310609",
+      "author": "amterp",
+      "shared_at": 1773071255,
+      "links": [
+        "https://github.com/amterp/rad"
+      ]
+    },
+    {
+      "name": "Rad",
+      "description": "Rad is a programming language built specifically for CLI scripts, designed so users don't need to write Bash, and offering CLI-tailored features that make it a better choice than Python for such scripts. Recent development has focused on stability and bug fixes, with docs and a getting-started guide available.",
+      "problem": "Writing CLI scripts in Bash is undesirable, and Python lacks CLI-tailored features.",
+      "audience": null,
+      "builder_usernames": [
+        "amterp"
+      ],
+      "source_excerpt": "I am working on Rad [0], a programming language built specifically for CLI scripts, so you don't need to write Bash, and it offers CLI-tailored features which make it a better choice than Python.",
+      "evidence": [
+        {
+          "source_item_id": 45873795,
+          "source_field": "body",
+          "value": "I am working on Rad [0], a programming language built specifically for CLI scripts, so you don't need to write Bash, and it offers CLI-tailored features which make it a better choice than Python.",
+          "supports": [],
+          "author": "amterp",
+          "shared_at": 1762763598,
+          "source_url": "https://news.ycombinator.com/item?id=45873795"
+        }
+      ],
+      "source_item_id": 45873795,
+      "source_url": "https://news.ycombinator.com/item?id=45873795",
+      "author": "amterp",
+      "shared_at": 1762763598,
+      "links": [
+        "https://amterp.github.io/rad/guide/getting-started/",
+        "https://github.com/amterp/rad"
+      ]
+    },
+    {
+      "name": "Rad",
+      "description": "Rad is a programming language designed specifically for CLI scripts, built as a much better alternative to writing Bash scripts. It is in active development (over a year of work) and used daily by its builder, with big features like commands still planned.",
+      "problem": "Writing Bash scripts is painful; Rad aims to do CLI scripting much better.",
+      "audience": null,
+      "builder_usernames": [
+        "amterp"
+      ],
+      "source_excerpt": "Work continues for me on Rad[0]. It's a programming language designed specifically for CLI scripts. I was sick of writing Bash scripts and thought we could do much, much better, so that's the goal with this project.",
+      "evidence": [
+        {
+          "source_item_id": 45424437,
+          "source_field": "body",
+          "value": "Work continues for me on Rad[0]. It's a programming language designed specifically for CLI scripts. I was sick of writing Bash scripts and thought we could do much, much better, so that's the goal with this project.",
+          "supports": [],
+          "author": "amterp",
+          "shared_at": 1759233918,
+          "source_url": "https://news.ycombinator.com/item?id=45424437"
+        }
+      ],
+      "source_item_id": 45424437,
+      "source_url": "https://news.ycombinator.com/item?id=45424437",
+      "author": "amterp",
+      "shared_at": 1759233918,
+      "links": [
+        "https://github.com/amterp/rad"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 6305,
+  "slug": "superchat-c59d46231b",
+  "name": "Superchat",
+  "mentions": [
+    {
+      "name": "Superchat",
+      "description": "A chat app and server built to use as little network as possible, so that even dial-up connections work fine. Development is heavily assisted by Claude Code.",
+      "problem": "Designed to use as little network as possible, so chat works fine even over low-bandwidth connections like dial-up.",
+      "audience": null,
+      "builder_usernames": [
+        "Aeolun"
+      ],
+      "source_excerpt": "Working on a chat app/server and protocol builder to support it, in an attempt to use as little network as possible (e.g. dial-up should work fine).\n\nIt's heavily supported by Claude Code, but much fun.\n\nhttps://superchat.win/",
+      "evidence": [
+        {
+          "source_item_id": 47304115,
+          "source_field": "body",
+          "value": "Working on a chat app/server and protocol builder to support it, in an attempt to use as little network as possible (e.g. dial-up should work fine).\n\nIt's heavily supported by Claude Code, but much fun.\n\nhttps://superchat.win/",
+          "supports": [],
+          "author": "Aeolun",
+          "shared_at": 1773022673,
+          "source_url": "https://news.ycombinator.com/item?id=47304115"
+        }
+      ],
+      "source_item_id": 47304115,
+      "source_url": "https://news.ycombinator.com/item?id=47304115",
+      "author": "Aeolun",
+      "shared_at": 1773022673,
+      "links": [
+        "https://superchat.win/"
+      ]
+    }
+  ]
+}

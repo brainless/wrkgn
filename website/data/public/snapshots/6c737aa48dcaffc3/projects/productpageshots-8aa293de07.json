@@ -1,0 +1,35 @@
+{
+  "id": 10125,
+  "slug": "productpageshots-8aa293de07",
+  "name": "ProductPageShots",
+  "mentions": [
+    {
+      "name": "ProductPageShots",
+      "description": "This tool takes a product page URL, scrapes the existing product images and context via Firecrawl's API, then uses the Google Gemini vision model to recommend missing product shots with a 0-100% confidence score. It generates the recommended shots with Google Gemini Flash 2.5 so users can download them and insert them into their product listing.",
+      "problem": null,
+      "audience": "E-commerce sellers / product page owners",
+      "builder_usernames": [
+        "rvermeulen1993"
+      ],
+      "source_excerpt": "I am working on https://productpageshots.com\n\nYou copy/paste your product page URL into it.\n\nIt scrapes your existing product images + additional context (using Firecrawl's API).\n\nThen it uses Google Gemini vision model to generate recommended missing shots.\n\nIt suggests those with a confidence score from 0 - 100%.\n\nThen it uses Google Gemini Flash 2.5 to generate the actual recommended shots.\n\nYou can download them and insert them in your product listing.",
+      "evidence": [
+        {
+          "source_item_id": 45424837,
+          "source_field": "body",
+          "value": "I am working on https://productpageshots.com\n\nYou copy/paste your product page URL into it.\n\nIt scrapes your existing product images + additional context (using Firecrawl's API).\n\nThen it uses Google Gemini vision model to generate recommended missing shots.\n\nIt suggests those with a confidence score from 0 - 100%.\n\nThen it uses Google Gemini Flash 2.5 to generate the actual recommended shots.\n\nYou can download them and insert them in your product listing.",
+          "supports": [],
+          "author": "rvermeulen1993",
+          "shared_at": 1759236880,
+          "source_url": "https://news.ycombinator.com/item?id=45424837"
+        }
+      ],
+      "source_item_id": 45424837,
+      "source_url": "https://news.ycombinator.com/item?id=45424837",
+      "author": "rvermeulen1993",
+      "shared_at": 1759236880,
+      "links": [
+        "https://productpageshots.com"
+      ]
+    }
+  ]
+}

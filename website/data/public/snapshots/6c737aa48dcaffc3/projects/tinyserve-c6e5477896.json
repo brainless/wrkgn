@@ -1,0 +1,35 @@
+{
+  "id": 7508,
+  "slug": "tinyserve-c6e5477896",
+  "name": "TinyServe",
+  "mentions": [
+    {
+      "name": "TinyServe",
+      "description": "TinyServe is a self-hosted hosting solution for single-user projects, built on a Mac mini M4 kept in a basement. It pairs a CLI with a daemon to automate everything around running the box, with Cloudflare used for security hardening at the start.",
+      "problem": null,
+      "audience": "Struggled to find a compelling hosting solution for projects that only has and will have only a single user for years.",
+      "builder_usernames": [
+        "potomushto"
+      ],
+      "source_excerpt": "https://tinyserve.org\n\nRecently, I've been very motivated to make one niche crafted service after another. For myself, family and friends. But struggled to find a compelling hosting solution for projects that only has and will have only a single user for years.  \nI bought the cheapest mac mini M4 on sale, put it in basement and started working on some cli+daemon to help me automate all things around it. \nThe biggest risk is security, so probably gonna rely a lot on Cloudflare at start.",
+      "evidence": [
+        {
+          "source_item_id": 46579126,
+          "source_field": "body",
+          "value": "https://tinyserve.org\n\nRecently, I've been very motivated to make one niche crafted service after another. For myself, family and friends. But struggled to find a compelling hosting solution for projects that only has and will have only a single user for years.  \nI bought the cheapest mac mini M4 on sale, put it in basement and started working on some cli+daemon to help me automate all things around it. \nThe biggest risk is security, so probably gonna rely a lot on Cloudflare at start.",
+          "supports": [],
+          "author": "potomushto",
+          "shared_at": 1768160464,
+          "source_url": "https://news.ycombinator.com/item?id=46579126"
+        }
+      ],
+      "source_item_id": 46579126,
+      "source_url": "https://news.ycombinator.com/item?id=46579126",
+      "author": "potomushto",
+      "shared_at": 1768160464,
+      "links": [
+        "https://tinyserve.org"
+      ]
+    }
+  ]
+}

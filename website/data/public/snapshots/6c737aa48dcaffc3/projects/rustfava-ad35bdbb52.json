@@ -1,0 +1,35 @@
+{
+  "id": 6847,
+  "slug": "rustfava-ad35bdbb52",
+  "name": "rustfava",
+  "mentions": [
+    {
+      "name": "rustfava",
+      "description": "A fork of Fava, the web UI for Beancount, with the Python parser swapped out for rustledger running as WebAssembly. It is packaged as a native desktop app using Tauri so ledger files can be opened with a double-click, and is also available via Docker, PyPI, and Nix.",
+      "problem": "Opening Beancount ledger files previously required a terminal and Python.",
+      "audience": null,
+      "builder_usernames": [
+        "robcohen"
+      ],
+      "source_excerpt": "This is a fork of Fava, the web UI that Beancount users know and love, but with the Python parser swapped out for rustledger running as WebAssembly. I packaged it up as a native desktop app using Tauri, so you just double-click to open your ledger files with no terminal or Python needed. It also works via Docker, PyPI, and Nix if that's more your thing.",
+      "evidence": [
+        {
+          "source_item_id": 46959847,
+          "source_field": "body",
+          "value": "This is a fork of Fava, the web UI that Beancount users know and love, but with the Python parser swapped out for rustledger running as WebAssembly. I packaged it up as a native desktop app using Tauri, so you just double-click to open your ledger files with no terminal or Python needed. It also works via Docker, PyPI, and Nix if that's more your thing.",
+          "supports": [],
+          "author": "robcohen",
+          "shared_at": 1770732207,
+          "source_url": "https://news.ycombinator.com/item?id=46959847"
+        }
+      ],
+      "source_item_id": 46959847,
+      "source_url": "https://news.ycombinator.com/item?id=46959847",
+      "author": "robcohen",
+      "shared_at": 1770732207,
+      "links": [
+        "https://github.com/rustledger/rustfava"
+      ]
+    }
+  ]
+}

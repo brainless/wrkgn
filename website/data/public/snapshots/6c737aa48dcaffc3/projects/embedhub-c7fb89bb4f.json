@@ -1,0 +1,35 @@
+{
+  "id": 9092,
+  "slug": "embedhub-c7fb89bb4f",
+  "name": "EmbedHub",
+  "mentions": [
+    {
+      "name": "EmbedHub",
+      "description": "This platform provides dev tools for firmware and PCB developers, including GitHub Action workflows to push builds to a connected EmbedHub project. It offers fine-grained release management, so only git-tagged releases are shared with customers while the testing/QA team gets access to builds from regular commits on branches.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "anujdeshpande"
+      ],
+      "source_excerpt": "I am working on https://embedhub.com\n\nI am building better dev tools for firmware and PCB developers.\n\nFor example, we have GitHub Action workflows that allow you to push builds to the connected EmbedHub project. Your EmbedHub project has fine grained release management - so for example only the git tagged releases will be shared with the customer, but the testing/QA team will get access to builds from regular commits on branches as well.",
+      "evidence": [
+        {
+          "source_item_id": 45873542,
+          "source_field": "body",
+          "value": "I am working on https://embedhub.com\n\nI am building better dev tools for firmware and PCB developers.\n\nFor example, we have GitHub Action workflows that allow you to push builds to the connected EmbedHub project. Your EmbedHub project has fine grained release management - so for example only the git tagged releases will be shared with the customer, but the testing/QA team will get access to builds from regular commits on branches as well.",
+          "supports": [],
+          "author": "anujdeshpande",
+          "shared_at": 1762761348,
+          "source_url": "https://news.ycombinator.com/item?id=45873542"
+        }
+      ],
+      "source_item_id": 45873542,
+      "source_url": "https://news.ycombinator.com/item?id=45873542",
+      "author": "anujdeshpande",
+      "shared_at": 1762761348,
+      "links": [
+        "https://embedhub.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 3771,
+  "slug": "unmeshed-8be64f11a2",
+  "name": "Unmeshed",
+  "mentions": [
+    {
+      "name": "Unmeshed",
+      "description": "An orchestration platform that eliminates the glue code typically written for resiliency and connecting systems together, with an execution design flexible enough to serve as a real-time API orchestrator. It is a cost-optimized rewrite of Netflix Conductor and includes a managed SQLite service (as many as needed) so stateful workflows work without an external database provider; the company's own CRM, SaaS management, deployments, and finance tools are static HTML UIs built on top of it.",
+      "problem": "Teams typically write glue code for resiliency or connecting systems together, and prior orchestration platforms rely on generous dependencies that drive up infrastructure costs.",
+      "audience": "Developers building and connecting backend workflows",
+      "builder_usernames": [
+        "halamadrid"
+      ],
+      "source_excerpt": "Just crossed the second year building out Unmeshed - Orchestration Platform.",
+      "evidence": [
+        {
+          "source_item_id": 48544968,
+          "source_field": "body",
+          "value": "Just crossed the second year building out Unmeshed - Orchestration Platform.",
+          "supports": [],
+          "author": "halamadrid",
+          "shared_at": 1781546899,
+          "source_url": "https://news.ycombinator.com/item?id=48544968"
+        }
+      ],
+      "source_item_id": 48544968,
+      "source_url": "https://news.ycombinator.com/item?id=48544968",
+      "author": "halamadrid",
+      "shared_at": 1781546899,
+      "links": [
+        "https://unmeshed.io"
+      ]
+    }
+  ]
+}

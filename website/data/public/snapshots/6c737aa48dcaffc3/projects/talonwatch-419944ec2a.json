@@ -1,0 +1,35 @@
+{
+  "id": 6264,
+  "slug": "talonwatch-419944ec2a",
+  "name": "TalonWatch",
+  "mentions": [
+    {
+      "name": "TalonWatch",
+      "description": "A passive security scanner for vibe-coded apps that surfaces exposed secrets and misconfigurations early, such as public Stripe keys or open databases. Offers a free surface scan with no account required.",
+      "problem": "Founders often discover their Stripe keys were public or their database was wide open only after the damage is done; this makes those issues easier to catch early.",
+      "audience": null,
+      "builder_usernames": [
+        "princeholdings"
+      ],
+      "source_excerpt": "https://talonwatch.com : I kept seeing founders discover their Stripe keys were public or their database was wide open, usually after the damage was done. Built a passive security scanner for vibe-coded apps so that's easier to catch early. Free surface scan, no account needed.",
+      "evidence": [
+        {
+          "source_item_id": 47309765,
+          "source_field": "body",
+          "value": "https://talonwatch.com : I kept seeing founders discover their Stripe keys were public or their database was wide open, usually after the damage was done. Built a passive security scanner for vibe-coded apps so that's easier to catch early. Free surface scan, no account needed.",
+          "supports": [],
+          "author": "princeholdings",
+          "shared_at": 1773067229,
+          "source_url": "https://news.ycombinator.com/item?id=47309765"
+        }
+      ],
+      "source_item_id": 47309765,
+      "source_url": "https://news.ycombinator.com/item?id=47309765",
+      "author": "princeholdings",
+      "shared_at": 1773067229,
+      "links": [
+        "https://talonwatch.com"
+      ]
+    }
+  ]
+}

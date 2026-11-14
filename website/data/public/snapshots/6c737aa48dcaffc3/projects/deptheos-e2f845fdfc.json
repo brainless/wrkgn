@@ -1,0 +1,63 @@
+{
+  "id": 4397,
+  "slug": "deptheos-e2f845fdfc",
+  "name": "Deptheos",
+  "mentions": [
+    {
+      "name": "Deptheos",
+      "description": "This is a free, fast focus stacking program for photography and macro photography. It supports RAW files as inputs and DNG files as outputs, using either LibRaw or Adobe DNG Converter as selectable runtime options. It is built with Swift and Metal for macOS and ships as a notarized macOS DMG; when built from source it also runs on M4/M5-series iPad Pro.",
+      "problem": "Existing focus stacking programs are not fast or free; the goal is a super fast, free focus stacking tool.",
+      "audience": "Macro photographers doing focus stacking",
+      "builder_usernames": [
+        "deptheos"
+      ],
+      "source_excerpt": "I'm building Deptheos (https://github.com/ryanmitts/deptheos), a photography/macro focus stacking program.",
+      "evidence": [
+        {
+          "source_item_id": 48087282,
+          "source_field": "body",
+          "value": "I'm building Deptheos (https://github.com/ryanmitts/deptheos), a photography/macro focus stacking program.",
+          "supports": [],
+          "author": "deptheos",
+          "shared_at": 1778443061,
+          "source_url": "https://news.ycombinator.com/item?id=48087282"
+        }
+      ],
+      "source_item_id": 48087282,
+      "source_url": "https://news.ycombinator.com/item?id=48087282",
+      "author": "deptheos",
+      "shared_at": 1778443061,
+      "links": [
+        "https://github.com/ryanmitts/deptheos"
+      ]
+    },
+    {
+      "name": "Deptheos",
+      "description": "A free, fast focus stacking program for photography and macro photography on macOS, built with Swift and Metal. It accepts RAW files as input and produces DNG output via LibRaw or Adobe DNG Converter (selectable at runtime). The initial release ships as a notarized macOS DMG, and when built from source it can also run on M4/M5 iPad Pros.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "deptheos"
+      ],
+      "source_excerpt": "I'm building Deptheos (https://github.com/ryanmitts/deptheos), a photography/macro focus stacking program.",
+      "evidence": [
+        {
+          "source_item_id": 47760272,
+          "source_field": "body",
+          "value": "I'm building Deptheos (https://github.com/ryanmitts/deptheos), a photography/macro focus stacking program.",
+          "supports": [],
+          "author": "deptheos",
+          "shared_at": 1776131123,
+          "source_url": "https://news.ycombinator.com/item?id=47760272"
+        }
+      ],
+      "source_item_id": 47760272,
+      "source_url": "https://news.ycombinator.com/item?id=47760272",
+      "author": "deptheos",
+      "shared_at": 1776131123,
+      "links": [
+        "https://github.com/ryanmitts/deptheos"
+      ]
+    }
+  ]
+}

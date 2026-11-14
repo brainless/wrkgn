@@ -1,0 +1,33 @@
+{
+  "id": 7817,
+  "slug": "distributed-syscall-model-for-scaling-unix-instances-9f681834a3",
+  "name": "Distributed syscall model for scaling Unix instances",
+  "mentions": [
+    {
+      "name": "Distributed syscall model for scaling Unix instances",
+      "description": "A distributed syscall model that transparently scales Unix instances. Syscalls are translated into batched operations against an underlying non-transactional datastore, and on the service side the database operations are backed by a proxy that serves any desired filesystem or socket interface. Scaling is one motivation; enforcing fine-grained policy on these data operations is another.",
+      "problem": "Scaling Unix instances transparently, and enforcing fine-grained policy on data operations",
+      "audience": null,
+      "builder_usernames": [
+        "convolvatron"
+      ],
+      "source_excerpt": "I'm finally revisiting a distributed syscall model for transparently scaling unix instances. syscalls get translated into batched operations on an underlying non-transactional datastore. On the service side, database operations get backed by a proxy serving whatever filesystem or socket interface you like. Scaling is one motivation, but the ability to enforce fine-grained policy on these data operations is another big one.",
+      "evidence": [
+        {
+          "source_item_id": 46579584,
+          "source_field": "body",
+          "value": "I'm finally revisiting a distributed syscall model for transparently scaling unix instances. syscalls get translated into batched operations on an underlying non-transactional datastore. On the service side, database operations get backed by a proxy serving whatever filesystem or socket interface you like. Scaling is one motivation, but the ability to enforce fine-grained policy on these data operations is another big one.",
+          "supports": [],
+          "author": "convolvatron",
+          "shared_at": 1768162813,
+          "source_url": "https://news.ycombinator.com/item?id=46579584"
+        }
+      ],
+      "source_item_id": 46579584,
+      "source_url": "https://news.ycombinator.com/item?id=46579584",
+      "author": "convolvatron",
+      "shared_at": 1768162813,
+      "links": []
+    }
+  ]
+}

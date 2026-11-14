@@ -1,0 +1,35 @@
+{
+  "id": 5367,
+  "slug": "syntverk-c9a50bdf58",
+  "name": "Syntverk",
+  "mentions": [
+    {
+      "name": "Syntverk",
+      "description": "Syntverk is an agentic code IDE built as a native cross-platform app in Rust with Tauri. It offers multi-tab worktree-isolated agents, sandboxed tools, git integration, a built-in code editor with inline generation, and searchable document support so users or agents can query uploaded docs and datasheets. It includes built-in local image generation (stable diffusion and flux schnell) with asset handling for game developers, and a remote feature to share the GUI or deploy it on a server for access on the go. Text-to-3d is being added.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "kristoffer"
+      ],
+      "source_excerpt": "I have been building an agentic code IDE (like everybody else :)).\n\nhttps://syntverk.com\n\nNative cross platform app coded in rust + tauri.",
+      "evidence": [
+        {
+          "source_item_id": 47748592,
+          "source_field": "body",
+          "value": "I have been building an agentic code IDE (like everybody else :)).\n\nhttps://syntverk.com\n\nNative cross platform app coded in rust + tauri.",
+          "supports": [],
+          "author": "kristoffer",
+          "shared_at": 1776063401,
+          "source_url": "https://news.ycombinator.com/item?id=47748592"
+        }
+      ],
+      "source_item_id": 47748592,
+      "source_url": "https://news.ycombinator.com/item?id=47748592",
+      "author": "kristoffer",
+      "shared_at": 1776063401,
+      "links": [
+        "https://syntverk.com"
+      ]
+    }
+  ]
+}

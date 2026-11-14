@@ -1,0 +1,35 @@
+{
+  "id": 10385,
+  "slug": "i405-tunnel-744883ca72",
+  "name": "i405-tunnel",
+  "mentions": [
+    {
+      "name": "i405-tunnel",
+      "description": "An encrypted and padded IP tunnel that lets people build their own multi-hop circuits to access the internet anonymously without Tor, providing protection from end-to-end correlation attacks.",
+      "problem": "Enables anonymous internet access without relying on Tor, with protection from end-to-end correlation attacks.",
+      "audience": "Enables anonymous internet access without relying on Tor, with protection from end-to-end correlation attacks.",
+      "builder_usernames": [
+        "markasoftware"
+      ],
+      "source_excerpt": "I'm writing an encrypted and padded IP tunnel to help people build their own multi-hop circuits to access the internet anonymously, without Tor, and with protection from end-to-end correlation attacks.",
+      "evidence": [
+        {
+          "source_item_id": 44703450,
+          "source_field": "body",
+          "value": "I'm writing an encrypted and padded IP tunnel to help people build their own multi-hop circuits to access the internet anonymously, without Tor, and with protection from end-to-end correlation attacks.",
+          "supports": [],
+          "author": "markasoftware",
+          "shared_at": 1753641462,
+          "source_url": "https://news.ycombinator.com/item?id=44703450"
+        }
+      ],
+      "source_item_id": 44703450,
+      "source_url": "https://news.ycombinator.com/item?id=44703450",
+      "author": "markasoftware",
+      "shared_at": 1753641462,
+      "links": [
+        "https://github.com/markasoftware/i405-tunnel"
+      ]
+    }
+  ]
+}

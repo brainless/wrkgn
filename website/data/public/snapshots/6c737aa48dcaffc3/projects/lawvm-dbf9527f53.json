@@ -1,0 +1,33 @@
+{
+  "id": 5155,
+  "slug": "lawvm-dbf9527f53",
+  "name": "LawVM",
+  "mentions": [
+    {
+      "name": "LawVM",
+      "description": "This tool treats legislative amendment statutes as programs and verifiably replays them to obtain actual consolidated (current) law as it stands, surfacing ambiguity where present. It is a compiler suite covering Finland, Estonia, UK, Sweden and Norway to start with, with a full release planned after cleanup. It does not use AI at all except during development.",
+      "problem": "In Finland there is no way to know what the law actually says: the \"official\" consolidated law is not official, and manual compilation/consolidation can contain errors (the author found hundreds), leaving people doing it themselves while courts decide based only on original statutes.",
+      "audience": null,
+      "builder_usernames": [
+        "ekns"
+      ],
+      "source_excerpt": "I call it LawVM - interpret amendment statutes as \"programs\" and verifiably replay them to obtain actual consolidated i.e. current law as it stands (or where ambiguous, surface that)",
+      "evidence": [
+        {
+          "source_item_id": 47753832,
+          "source_field": "body",
+          "value": "I call it LawVM - interpret amendment statutes as \"programs\" and verifiably replay them to obtain actual consolidated i.e. current law as it stands (or where ambiguous, surface that)",
+          "supports": [],
+          "author": "ekns",
+          "shared_at": 1776095490,
+          "source_url": "https://news.ycombinator.com/item?id=47753832"
+        }
+      ],
+      "source_item_id": 47753832,
+      "source_url": "https://news.ycombinator.com/item?id=47753832",
+      "author": "ekns",
+      "shared_at": 1776095490,
+      "links": []
+    }
+  ]
+}

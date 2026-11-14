@@ -1,0 +1,35 @@
+{
+  "id": 7730,
+  "slug": "feather-5762b69e9b",
+  "name": "Feather",
+  "mentions": [
+    {
+      "name": "Feather",
+      "description": "Feather is a fresh implementation of TCL designed as an embeddable command language. It provides a Bash-like REPL for agents and users, giving embedders loops, conditionals, and online help for free so they only need to add application-specific commands. Feather has no garbage collector (uses the host's), no own data structures (uses the host's, e.g. JavaScript arrays in the js version), and no I/O; its core is implemented in stdlib-less C.",
+      "problem": "Solves the \"rest of the Owl\" problem for embeddable scripting: embedders only need to add application-specific commands, while Feather provides loops, conditionals, and online help out of the box.",
+      "audience": null,
+      "builder_usernames": [
+        "dhamidi"
+      ],
+      "source_excerpt": "Feather, a fresh implementation of TCL: https://www.feather-lang.dev",
+      "evidence": [
+        {
+          "source_item_id": 46590166,
+          "source_field": "body",
+          "value": "Feather, a fresh implementation of TCL: https://www.feather-lang.dev",
+          "supports": [],
+          "author": "dhamidi",
+          "shared_at": 1768233508,
+          "source_url": "https://news.ycombinator.com/item?id=46590166"
+        }
+      ],
+      "source_item_id": 46590166,
+      "source_url": "https://news.ycombinator.com/item?id=46590166",
+      "author": "dhamidi",
+      "shared_at": 1768233508,
+      "links": [
+        "https://www.feather-lang.dev"
+      ]
+    }
+  ]
+}

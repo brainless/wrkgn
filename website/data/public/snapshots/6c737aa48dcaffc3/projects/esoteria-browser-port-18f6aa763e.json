@@ -1,0 +1,35 @@
+{
+  "id": 3424,
+  "slug": "esoteria-browser-port-18f6aa763e",
+  "name": "Esoteria browser port",
+  "mentions": [
+    {
+      "name": "Esoteria browser port",
+      "description": "This project decompiles an obscure 1998 computer game (Esoteria) and migrates its assets to the browser, using an LLM agent skill for reverse engineering. Concourse CI pipelines keep the process and results reproducible and ship cyberpunk billboard sprite assets to Cloudflare buckets; improperly decompiled textures and geometry produce abstract, glitchy art.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "gavmor"
+      ],
+      "source_excerpt": "I'm decompiling an obscure 1998 computer game using an LLM agent skill that I'm simultaneously developing from papers and books on reverse-engineering (a subject I've never previously engaged with) with the aim of migrating it (well, at least its assets) to the browser: https://esoteria.pages.dev",
+      "evidence": [
+        {
+          "source_item_id": 49686763,
+          "source_field": "body",
+          "value": "I'm decompiling an obscure 1998 computer game using an LLM agent skill that I'm simultaneously developing from papers and books on reverse-engineering (a subject I've never previously engaged with) with the aim of migrating it (well, at least its assets) to the browser: https://esoteria.pages.dev",
+          "supports": [],
+          "author": "gavmor",
+          "shared_at": 1789322579,
+          "source_url": "https://news.ycombinator.com/item?id=49686763"
+        }
+      ],
+      "source_item_id": 49686763,
+      "source_url": "https://news.ycombinator.com/item?id=49686763",
+      "author": "gavmor",
+      "shared_at": 1789322579,
+      "links": [
+        "https://esoteria.pages.dev"
+      ]
+    }
+  ]
+}

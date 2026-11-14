@@ -1,0 +1,37 @@
+{
+  "id": 10846,
+  "slug": "avc-lan-infotainment-integration-module-2873671133",
+  "name": "AVC-LAN infotainment integration module",
+  "mentions": [
+    {
+      "name": "AVC-LAN infotainment integration module",
+      "description": "A board for integrating modern phones with Toyota/Lexus AVC-LAN infotainment systems. Version 1 is an existing prototype board demonstrated in videos; version 2 is being built around a CM4 IO board and will include the builder's own AVC-LAN implementation, a DAC, and GPS, and is intended to run AOSP Android. The board design is complete and work on the custom Android build is underway.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "MrG3D"
+      ],
+      "source_excerpt": "I'm already working on something like this and have a prototype board designed.\n\nHere is my version 1.\n\nhttps://youtu.be/pJjq_0hZEh4\nhttps://youtu.be/drCtDADRJe8\nhttps://youtu.be/jLCiIB6z968\n\nVersion 2 is being built around a CM4 IO board and will include my AVCLAN implementation, DAC, GPS and is intended to run AOSP Android.  The board is fully designed already and I'm working on the custom Android build now.",
+      "evidence": [
+        {
+          "source_item_id": 43823168,
+          "source_field": "body",
+          "value": "I'm already working on something like this and have a prototype board designed.\n\nHere is my version 1.\n\nhttps://youtu.be/pJjq_0hZEh4\nhttps://youtu.be/drCtDADRJe8\nhttps://youtu.be/jLCiIB6z968\n\nVersion 2 is being built around a CM4 IO board and will include my AVCLAN implementation, DAC, GPS and is intended to run AOSP Android.  The board is fully designed already and I'm working on the custom Android build now.",
+          "supports": [],
+          "author": "MrG3D",
+          "shared_at": 1745857290,
+          "source_url": "https://news.ycombinator.com/item?id=43823168"
+        }
+      ],
+      "source_item_id": 43823168,
+      "source_url": "https://news.ycombinator.com/item?id=43823168",
+      "author": "MrG3D",
+      "shared_at": 1745857290,
+      "links": [
+        "https://youtu.be/drCtDADRJe8",
+        "https://youtu.be/jLCiIB6z968",
+        "https://youtu.be/pJjq_0hZEh4"
+      ]
+    }
+  ]
+}

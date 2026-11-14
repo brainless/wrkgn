@@ -1,0 +1,33 @@
+{
+  "id": 7807,
+  "slug": "arazzo-workflow-runner-d1675a7a6b",
+  "name": "Arazzo workflow runner",
+  "mentions": [
+    {
+      "name": "Arazzo workflow runner",
+      "description": "A fully fledged runner for Arazzo workflow documents, which started as an Arazzo generator plugin for the Serverless Framework. It executes workflows using multiple OpenAPI source descriptions and has retry rules nearly working, with next steps including the ability to reference workflows in external Arazzo documents.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "JazCE"
+      ],
+      "source_excerpt": "I was working on an Arazzo[0] generator as a plugin for the Serverless Framework. This has now become a fully fledged runner. So far I have it using multiple OpenAPI source descriptions, and just about got retry rules working. Next steps will be for it to be able to reference Workflows in external Arazzo documents.",
+      "evidence": [
+        {
+          "source_item_id": 46579426,
+          "source_field": "body",
+          "value": "I was working on an Arazzo[0] generator as a plugin for the Serverless Framework. This has now become a fully fledged runner. So far I have it using multiple OpenAPI source descriptions, and just about got retry rules working. Next steps will be for it to be able to reference Workflows in external Arazzo documents.",
+          "supports": [],
+          "author": "JazCE",
+          "shared_at": 1768161999,
+          "source_url": "https://news.ycombinator.com/item?id=46579426"
+        }
+      ],
+      "source_item_id": 46579426,
+      "source_url": "https://news.ycombinator.com/item?id=46579426",
+      "author": "JazCE",
+      "shared_at": 1768161999,
+      "links": []
+    }
+  ]
+}

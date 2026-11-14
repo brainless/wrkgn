@@ -1,0 +1,33 @@
+{
+  "id": 9240,
+  "slug": "analog-traction-control-system-with-test-rig-d9e5270563",
+  "name": "Analog traction control system with test rig",
+  "mentions": [
+    {
+      "name": "Analog traction control system with test rig",
+      "description": "This project is an analog traction control system with a dedicated test and calibration rig. The traction control hardware uses a frequency-to-voltage converter and opamps to compare wheel speeds, determine wheel slip or slide, and respond by reducing engine power or applying braking. The test system uses ADCs, DACs, and a DDS to generate sine waves that simulate wheel speed signals for calibration.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "r4ge"
+      ],
+      "source_excerpt": "system to test and calibrate an analog traction control system. the system uses a frequency to voltage converter and a bunch of opamps to compare wheel speeds then determines wheel slip or slide and either reduces engine power or braking.\n\nTest system uses ADCs, DACs and a DDS to produce a sine wave that simulates wheel speed.",
+      "evidence": [
+        {
+          "source_item_id": 45869453,
+          "source_field": "body",
+          "value": "system to test and calibrate an analog traction control system. the system uses a frequency to voltage converter and a bunch of opamps to compare wheel speeds then determines wheel slip or slide and either reduces engine power or braking.\n\nTest system uses ADCs, DACs and a DDS to produce a sine wave that simulates wheel speed.",
+          "supports": [],
+          "author": "r4ge",
+          "shared_at": 1762724465,
+          "source_url": "https://news.ycombinator.com/item?id=45869453"
+        }
+      ],
+      "source_item_id": 45869453,
+      "source_url": "https://news.ycombinator.com/item?id=45869453",
+      "author": "r4ge",
+      "shared_at": 1762724465,
+      "links": []
+    }
+  ]
+}

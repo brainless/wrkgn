@@ -1,0 +1,91 @@
+{
+  "id": 9511,
+  "slug": "wherelabs-ab80fa4aa5",
+  "name": "WhereLabs",
+  "mentions": [
+    {
+      "name": "WhereLabs",
+      "description": "A location intelligence data union. The author is currently exploring adding a location history 'vault' that would let users expose their location history to LLMs as context.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "kidnoodle"
+      ],
+      "source_excerpt": "A new spin on my slow baking location intelligence data union (https://wherelabs.info).\nThis week I’m thinking about whether it makes sense to provide a location history ‘vault’, designed to let users expose their location history to LLM’s as context.",
+      "evidence": [
+        {
+          "source_item_id": 45873535,
+          "source_field": "body",
+          "value": "A new spin on my slow baking location intelligence data union (https://wherelabs.info).\nThis week I’m thinking about whether it makes sense to provide a location history ‘vault’, designed to let users expose their location history to LLM’s as context.",
+          "supports": [],
+          "author": "kidnoodle",
+          "shared_at": 1762761290,
+          "source_url": "https://news.ycombinator.com/item?id=45873535"
+        }
+      ],
+      "source_item_id": 45873535,
+      "source_url": "https://news.ycombinator.com/item?id=45873535",
+      "author": "kidnoodle",
+      "shared_at": 1762761290,
+      "links": [
+        "https://wherelabs.info"
+      ]
+    },
+    {
+      "name": "WhereLabs",
+      "description": "A data union/trust platform that pays people to share their location data and demographics, then builds aggregate data products on that data and shares revenue with contributors (90% share, targeting roughly $5/week per contributor) without ever selling or exposing individual-level data.",
+      "problem": "Testing whether the unit economics work: whether a 90% revenue share from sales of aggregate data products can sustainably pay people for sharing their location data and demographics while keeping individual-level data private.",
+      "audience": "People sharing their location data and demographics in exchange for payment",
+      "builder_usernames": [
+        "kidnoodle"
+      ],
+      "source_excerpt": "I’ve been working more on the unit economics of my data union/trust idea (https://wherelabs.info/).\n\nWhat I’m trying to understand is whether it is viable to pay people ~$5 per week for sharing their location data and demographics based on a 90% share of revenue from sales of data products built on that data. (But without ever selling or exposing individual level data).",
+      "evidence": [
+        {
+          "source_item_id": 45422552,
+          "source_field": "body",
+          "value": "I’ve been working more on the unit economics of my data union/trust idea (https://wherelabs.info/).\n\nWhat I’m trying to understand is whether it is viable to pay people ~$5 per week for sharing their location data and demographics based on a 90% share of revenue from sales of data products built on that data. (But without ever selling or exposing individual level data).",
+          "supports": [],
+          "author": "kidnoodle",
+          "shared_at": 1759213831,
+          "source_url": "https://news.ycombinator.com/item?id=45422552"
+        }
+      ],
+      "source_item_id": 45422552,
+      "source_url": "https://news.ycombinator.com/item?id=45422552",
+      "author": "kidnoodle",
+      "shared_at": 1759213831,
+      "links": [
+        "https://wherelabs.info/"
+      ]
+    },
+    {
+      "name": "WhereLabs (location intelligence data union)",
+      "description": "A location intelligence data union whose members install an app and give upfront consent to having their location tracked over time. The union monetizes this by selling privacy-preserving aggregate datasets (e.g., where people are in a city right now, or where commuters came from) and acts on behalf of its members to stop data brokers selling their location data.",
+      "problem": "Data brokers sell people's location data; the union counters this by acting on behalf of members and offering only consented, privacy-preserving aggregates instead of individual-level data.",
+      "audience": "People who install the app and consent to having their location tracked, plus buyers of the privacy-preserving aggregate location datasets.",
+      "builder_usernames": [
+        "kidnoodle"
+      ],
+      "source_excerpt": "I’m still slowly working on a location intelligence data union (https://wherelabs.info) - the idea is people install an app and agree in a very upfront way to have their location tracked over time.\n\nThe union monetises this by selling privacy preserving aggregates (think ‘where is everyone in London right now’, or ‘where did people commute from?’), and acts on behalf of union members to stop data brokers selling their location data.",
+      "evidence": [
+        {
+          "source_item_id": 44708009,
+          "source_field": "body",
+          "value": "I’m still slowly working on a location intelligence data union (https://wherelabs.info) - the idea is people install an app and agree in a very upfront way to have their location tracked over time.\n\nThe union monetises this by selling privacy preserving aggregates (think ‘where is everyone in London right now’, or ‘where did people commute from?’), and acts on behalf of union members to stop data brokers selling their location data.",
+          "supports": [],
+          "author": "kidnoodle",
+          "shared_at": 1753685965,
+          "source_url": "https://news.ycombinator.com/item?id=44708009"
+        }
+      ],
+      "source_item_id": 44708009,
+      "source_url": "https://news.ycombinator.com/item?id=44708009",
+      "author": "kidnoodle",
+      "shared_at": 1753685965,
+      "links": [
+        "https://wherelabs.info"
+      ]
+    }
+  ]
+}

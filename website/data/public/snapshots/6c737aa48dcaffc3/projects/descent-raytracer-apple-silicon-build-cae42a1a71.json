@@ -1,0 +1,35 @@
+{
+  "id": 6818,
+  "slug": "descent-raytracer-apple-silicon-build-cae42a1a71",
+  "name": "Descent Raytracer (Apple Silicon build)",
+  "mentions": [
+    {
+      "name": "Descent Raytracer (Apple Silicon build)",
+      "description": "A repackaged macOS Apple Silicon build of Descent Raytracer, a ray-traced remaster of Descent (1995) originally created by students at Breda University. This repackaging makes the game launchable on Apple Silicon Macs, with ray tracing requiring an M3 chip or later.",
+      "problem": "The Descent Raytracer remaster was not previously launchable on Macs with Apple Silicon.",
+      "audience": "Apple Silicon Mac users (M3 or later) who want to play the ray-traced Descent remaster",
+      "builder_usernames": [
+        "strongly-typed"
+      ],
+      "source_excerpt": "It's still in beta but I repackaged Descent Raytracer (a remaster of Descent (1995) made by students at Breda University) to be launchable on macs with Apple Silicon (ray tracing reqs M3+).",
+      "evidence": [
+        {
+          "source_item_id": 46939736,
+          "source_field": "body",
+          "value": "It's still in beta but I repackaged Descent Raytracer (a remaster of Descent (1995) made by students at Breda University) to be launchable on macs with Apple Silicon (ray tracing reqs M3+).",
+          "supports": [],
+          "author": "strongly-typed",
+          "shared_at": 1770593720,
+          "source_url": "https://news.ycombinator.com/item?id=46939736"
+        }
+      ],
+      "source_item_id": 46939736,
+      "source_url": "https://news.ycombinator.com/item?id=46939736",
+      "author": "strongly-typed",
+      "shared_at": 1770593720,
+      "links": [
+        "https://github.com/rdavison/DXX-Raytracer-ar/releases/tag/ar7-macos-arm64"
+      ]
+    }
+  ]
+}

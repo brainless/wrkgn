@@ -1,0 +1,35 @@
+{
+  "id": 10370,
+  "slug": "web-pipe-b13368f07e",
+  "name": "Web Pipe",
+  "mentions": [
+    {
+      "name": "Web Pipe",
+      "description": "A DSL for building web applications in which routes are declared as pipelines that transform data with jq expressions and query PostgreSQL via pg, with reusable named pipelines composed into route handlers.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "williamcotton"
+      ],
+      "source_excerpt": "A web app DSL that looks like:\n\n  GET /hello\n    |> jq: `{ world: \":)\"}`\n\n  pipeline getPage = \n    |> jq: `{ sqlParams: [.params.id | tostring] }`\n    |> pg: `SELECT * FROM pages WHERE id = $1`\n    |> jq: `{ team: .data.rows[0] }`\n  \n  GET /page/:id\n    |> pipeline: getPage",
+      "evidence": [
+        {
+          "source_item_id": 44703692,
+          "source_field": "body",
+          "value": "A web app DSL that looks like:\n\n  GET /hello\n    |> jq: `{ world: \":)\"}`\n\n  pipeline getPage = \n    |> jq: `{ sqlParams: [.params.id | tostring] }`\n    |> pg: `SELECT * FROM pages WHERE id = $1`\n    |> jq: `{ team: .data.rows[0] }`\n  \n  GET /page/:id\n    |> pipeline: getPage",
+          "supports": [],
+          "author": "williamcotton",
+          "shared_at": 1753643070,
+          "source_url": "https://news.ycombinator.com/item?id=44703692"
+        }
+      ],
+      "source_item_id": 44703692,
+      "source_url": "https://news.ycombinator.com/item?id=44703692",
+      "author": "williamcotton",
+      "shared_at": 1753643070,
+      "links": [
+        "https://williamcotton.com/articles/introducing-web-pipe"
+      ]
+    }
+  ]
+}

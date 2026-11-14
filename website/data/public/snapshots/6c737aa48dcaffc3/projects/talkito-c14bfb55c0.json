@@ -1,0 +1,35 @@
+{
+  "id": 10391,
+  "slug": "talkito-c14bfb55c0",
+  "name": "TalkiTo",
+  "mentions": [
+    {
+      "name": "TalkiTo",
+      "description": "This open-source project is a wrapper and MCP server that adds voice capabilities to Claude Code, along with Slack and WhatsApp messaging integration. It works out of the box with system default TTS and Google free ASR on Mac, supports bring-your-own-key for other TTS/ASR providers, and is also usable as a Python library for switching between ASR/TTS providers. It lets users monitor and steer Claude Code remotely via voice or messaging apps while multitasking away from the keyboard.",
+      "problem": "Running Claude Code currently requires constant hands-on attention like 'a Tesla on autopilot needing your hands still on the wheel'; TalkiTo lets users do housework or go out while keeping the agent on track remotely.",
+      "audience": null,
+      "builder_usernames": [
+        "robbomacrae"
+      ],
+      "source_excerpt": "I'm working on an open source wrapper and MCP server to give Claude Code voice capabilities (and Slack and WhatsApp messaging). It works with system default TTS and google free ASR on Mac out the box but allows you to BYOK to your favorite TTS/ASR provider.",
+      "evidence": [
+        {
+          "source_item_id": 44704988,
+          "source_field": "body",
+          "value": "I'm working on an open source wrapper and MCP server to give Claude Code voice capabilities (and Slack and WhatsApp messaging). It works with system default TTS and google free ASR on Mac out the box but allows you to BYOK to your favorite TTS/ASR provider.",
+          "supports": [],
+          "author": "robbomacrae",
+          "shared_at": 1753652703,
+          "source_url": "https://news.ycombinator.com/item?id=44704988"
+        }
+      ],
+      "source_item_id": 44704988,
+      "source_url": "https://news.ycombinator.com/item?id=44704988",
+      "author": "robbomacrae",
+      "shared_at": 1753652703,
+      "links": [
+        "https://github.com/robdmac/talkito"
+      ]
+    }
+  ]
+}

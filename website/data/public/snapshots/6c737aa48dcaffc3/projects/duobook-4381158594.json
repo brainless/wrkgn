@@ -1,0 +1,35 @@
+{
+  "id": 5974,
+  "slug": "duobook-4381158594",
+  "name": "DuoBook",
+  "mentions": [
+    {
+      "name": "DuoBook",
+      "description": "A language-learning web app for creating and reading personal bilingual stories, described as 'Netflix for language'. Users can generate stories at their level from their interests or from a URL (with one-click buttons) without signing up, read along with word-by-word highlighting, tap any word to check its meaning, and have their pronunciation checked. It supports CSV import of vocabulary for Anki users, PDF export of stories for sending to Kindles, and AI-powered story generation (benchmarked across 7 models, currently Gemini). A ChatGPT app integration is in progress so users can request stories like '@DuoBook give me a Dutch/English story on latest Iranian events'.",
+      "problem": "Feedback showed it's hard for people to come up with a story idea, so the tool adds URL grounding and one-click story generation tuned to the user's level and interests.",
+      "audience": "Language learners, including Anki users who import vocabulary to study",
+      "builder_usernames": [
+        "celltalk"
+      ],
+      "source_excerpt": "lately I went back to my hobby project of the last year:\n\nhttps://DuoBook.co\n\nIt’s like netflix for language, where users can select/create their personal bilangual stories.",
+      "evidence": [
+        {
+          "source_item_id": 47305324,
+          "source_field": "body",
+          "value": "lately I went back to my hobby project of the last year:\n\nhttps://DuoBook.co\n\nIt’s like netflix for language, where users can select/create their personal bilangual stories.",
+          "supports": [],
+          "author": "celltalk",
+          "shared_at": 1773035799,
+          "source_url": "https://news.ycombinator.com/item?id=47305324"
+        }
+      ],
+      "source_item_id": 47305324,
+      "source_url": "https://news.ycombinator.com/item?id=47305324",
+      "author": "celltalk",
+      "shared_at": 1773035799,
+      "links": [
+        "https://DuoBook.co"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 7520,
+  "slug": "porting-webkit-to-fil-c-7ba768bbc2",
+  "name": "Porting WebKit to Fil-C",
+  "mentions": [
+    {
+      "name": "Porting WebKit to Fil-C",
+      "description": "This project ports WebKit, specifically the JavaScriptCore JavaScript engine, to Fil-C, a memory-safe C compiler. JavaScriptCore currently builds in the JSCOnly configuration but panics on startup, primarily because JSC makes extensive use of uintptr_t to carry pointers, which triggers Fil-C's safety checks.",
+      "problem": "JavaScriptCore builds but panics on start, with most panics stemming from JSC's extensive use of uintptr_t as a carrier of pointers.",
+      "audience": null,
+      "builder_usernames": [
+        "pizlonator"
+      ],
+      "source_excerpt": "Porting WebKit to Fil-C\n\nCurrent status: JavaScriptCore builds in the JSCOnly config and panics on start.\n\nJSC has extensive use of uintptr_t as a carrier of pointers and that's what most of the panics are about",
+      "evidence": [
+        {
+          "source_item_id": 46580097,
+          "source_field": "body",
+          "value": "Porting WebKit to Fil-C\n\nCurrent status: JavaScriptCore builds in the JSCOnly config and panics on start.\n\nJSC has extensive use of uintptr_t as a carrier of pointers and that's what most of the panics are about",
+          "supports": [],
+          "author": "pizlonator",
+          "shared_at": 1768165765,
+          "source_url": "https://news.ycombinator.com/item?id=46580097"
+        }
+      ],
+      "source_item_id": 46580097,
+      "source_url": "https://news.ycombinator.com/item?id=46580097",
+      "author": "pizlonator",
+      "shared_at": 1768165765,
+      "links": []
+    }
+  ]
+}

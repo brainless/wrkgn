@@ -1,0 +1,63 @@
+{
+  "id": 5536,
+  "slug": "reading-recommendations-hub-62b7edf219",
+  "name": "Reading recommendations hub",
+  "mentions": [
+    {
+      "name": "Reading recommendations hub",
+      "description": "A simple, static-site-compatible hub for the builder's book and paper recommendations, collecting write-ups of interesting books and papers read over the years in one place to point people to.",
+      "problem": "Wanted a nice, simple interface that works with a static site to serve as a hub for reading recommendations.",
+      "audience": null,
+      "builder_usernames": [
+        "wannabebarista"
+      ],
+      "source_excerpt": "I've been writing about interesting books and papers I read for a few years now. I wanted a nice, simple interface to point people to as a \"hub\" for recommendations that's compatible with a static site.\n\nHere's the MVP interface: https://bcmullins.github.io/reading/",
+      "evidence": [
+        {
+          "source_item_id": 47744829,
+          "source_field": "body",
+          "value": "I've been writing about interesting books and papers I read for a few years now. I wanted a nice, simple interface to point people to as a \"hub\" for recommendations that's compatible with a static site.\n\nHere's the MVP interface: https://bcmullins.github.io/reading/",
+          "supports": [],
+          "author": "wannabebarista",
+          "shared_at": 1776029934,
+          "source_url": "https://news.ycombinator.com/item?id=47744829"
+        }
+      ],
+      "source_item_id": 47744829,
+      "source_url": "https://news.ycombinator.com/item?id=47744829",
+      "author": "wannabebarista",
+      "shared_at": 1776029934,
+      "links": [
+        "https://bcmullins.github.io/reading/"
+      ]
+    },
+    {
+      "name": "Reading Recommender",
+      "description": "This web app is the first iteration of a simple recommender that suggests books and papers for readers to explore, drawn from the author's written reviews of their reading, which range from contemporary work on privacy and machine learning to nineteenth-century math, economics, and philosophy. It offers an easy way to get reading recommendations without working through long-form review articles.",
+      "problem": "Several readers asked for an easy way to get recommendations without working through long-form review articles.",
+      "audience": "Readers of the author's writing who want recommendations without working through long-form review articles.",
+      "builder_usernames": [
+        "wannabebarista"
+      ],
+      "source_excerpt": "Several readers have asked for an easy way to get recommendations without working through long-form review articles.\n\nHere's the first iteration of a simple recommender: https://bcmullins.github.io/reading/",
+      "evidence": [
+        {
+          "source_item_id": 47304541,
+          "source_field": "body",
+          "value": "Several readers have asked for an easy way to get recommendations without working through long-form review articles.\n\nHere's the first iteration of a simple recommender: https://bcmullins.github.io/reading/",
+          "supports": [],
+          "author": "wannabebarista",
+          "shared_at": 1773026626,
+          "source_url": "https://news.ycombinator.com/item?id=47304541"
+        }
+      ],
+      "source_item_id": 47304541,
+      "source_url": "https://news.ycombinator.com/item?id=47304541",
+      "author": "wannabebarista",
+      "shared_at": 1773026626,
+      "links": [
+        "https://bcmullins.github.io/reading/"
+      ]
+    }
+  ]
+}

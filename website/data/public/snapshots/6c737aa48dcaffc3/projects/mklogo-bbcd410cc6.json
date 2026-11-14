@@ -1,0 +1,35 @@
+{
+  "id": 7162,
+  "slug": "mklogo-bbcd410cc6",
+  "name": "mklogo",
+  "mentions": [
+    {
+      "name": "mklogo",
+      "description": "A logo generation tool that produces a decent-quality raster logo using various LLMs, vectorizes it, and delivers a branding package as a zip file with assets scaled and transformed for use cases like mobile icons, favicons, app icons, header logos, and GitHub org logos. Assets can be previewed in shadcn components to get a real feel for how they'll look in production.",
+      "problem": "Repeating the same multi-step process to produce vectorized logos, including vectorization edge cases that result in corrupted or artifact-ridden vector images",
+      "audience": null,
+      "builder_usernames": [
+        "darvid"
+      ],
+      "source_excerpt": "https://mklogo.sh/?utm_source=hackernews - wanted to scratch a personal itch of having to repeat the same process to produce vectorized logos for my personal projects; generate decent quality logo in raster with various LLMs, attempt to vectorize via claude code and vtracer or other tooling",
+      "evidence": [
+        {
+          "source_item_id": 46939705,
+          "source_field": "body",
+          "value": "https://mklogo.sh/?utm_source=hackernews - wanted to scratch a personal itch of having to repeat the same process to produce vectorized logos for my personal projects; generate decent quality logo in raster with various LLMs, attempt to vectorize via claude code and vtracer or other tooling",
+          "supports": [],
+          "author": "darvid",
+          "shared_at": 1770593517,
+          "source_url": "https://news.ycombinator.com/item?id=46939705"
+        }
+      ],
+      "source_item_id": 46939705,
+      "source_url": "https://news.ycombinator.com/item?id=46939705",
+      "author": "darvid",
+      "shared_at": 1770593517,
+      "links": [
+        "https://mklogo.sh/?utm_source=hackernews"
+      ]
+    }
+  ]
+}

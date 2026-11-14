@@ -1,0 +1,35 @@
+{
+  "id": 8311,
+  "slug": "zagel-74fde6f2e8",
+  "name": "Zagel",
+  "mentions": [
+    {
+      "name": "Zagel",
+      "description": "A native Postman alternative built with Rust and Iced. It uses .http files as API collections and .env files as environments, keeping all data in plain text so it is easily editable by AI and interoperable with other tools like the VSCode REST client.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "sharno"
+      ],
+      "source_excerpt": "I'm trying to build a native postman alternative using Rust + Iced. I want it to use .http files as its collections and .env files as its environments. So that data is stored in plain text and easily editable by AI and usable by other apps like VSCode rest client.",
+      "evidence": [
+        {
+          "source_item_id": 46278198,
+          "source_field": "body",
+          "value": "I'm trying to build a native postman alternative using Rust + Iced. I want it to use .http files as its collections and .env files as its environments. So that data is stored in plain text and easily editable by AI and usable by other apps like VSCode rest client.",
+          "supports": [],
+          "author": "sharno",
+          "shared_at": 1765822543,
+          "source_url": "https://news.ycombinator.com/item?id=46278198"
+        }
+      ],
+      "source_item_id": 46278198,
+      "source_url": "https://news.ycombinator.com/item?id=46278198",
+      "author": "sharno",
+      "shared_at": 1765822543,
+      "links": [
+        "https://github.com/sharno/zagel"
+      ]
+    }
+  ]
+}

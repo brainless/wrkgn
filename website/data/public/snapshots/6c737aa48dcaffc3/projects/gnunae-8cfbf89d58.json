@@ -1,0 +1,35 @@
+{
+  "id": 8443,
+  "slug": "gnunae-8cfbf89d58",
+  "name": "Gnunae (그네)",
+  "mentions": [
+    {
+      "name": "Gnunae (그네)",
+      "description": "An Electron-based AI web browser with full user control, connecting PlayWright MCP to a local Codex LLM backend. It requires a ChatGPT Pro+ subscription (since Codex has no usage fee unlike API keys) and lets users pick models: GPT-5.1-Codex-Max handles complex web tasks without templating the DOM, while Codex-Mini is faster. The browser can execute multi-step web tasks autonomously, such as applying to recruiting sites with no interaction, with a persistent data store (currently disabled in the published version).",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "fkiller"
+      ],
+      "source_excerpt": "I’ve made AI browser that others do but having full control.\n\nhttps://www.gnunae.com (그네)\n\nIt was my weekend 1-day hackathon yesterday building Electron-based web browser connected with PlayWright MCP and local Codex as LLM backend.",
+      "evidence": [
+        {
+          "source_item_id": 46274252,
+          "source_field": "body",
+          "value": "I’ve made AI browser that others do but having full control.\n\nhttps://www.gnunae.com (그네)\n\nIt was my weekend 1-day hackathon yesterday building Electron-based web browser connected with PlayWright MCP and local Codex as LLM backend.",
+          "supports": [],
+          "author": "fkiller",
+          "shared_at": 1765805352,
+          "source_url": "https://news.ycombinator.com/item?id=46274252"
+        }
+      ],
+      "source_item_id": 46274252,
+      "source_url": "https://news.ycombinator.com/item?id=46274252",
+      "author": "fkiller",
+      "shared_at": 1765805352,
+      "links": [
+        "https://www.gnunae.com"
+      ]
+    }
+  ]
+}

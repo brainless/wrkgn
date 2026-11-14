@@ -1,0 +1,33 @@
+{
+  "id": 8736,
+  "slug": "skill-capsules-b45607c11a",
+  "name": "Skill capsules",
+  "mentions": [
+    {
+      "name": "Skill capsules",
+      "description": "This ML experiment implements \"skill capsules\" for LLMs: capsules are cheaply extracted from successful episodes (as little as a single episode) and then applied to improve success on similar tasks, framed as a \"poor man's continual learning\" approach.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "killerstorm"
+      ],
+      "source_excerpt": "ML experiment: \"skill capsules\" for LLM. Capsules can be cheaply extracted from successful episodes (as little as a single episode) and then applied to improve success of similar tasks.\n\nI see it as a \"poor man's continual learning\".",
+      "evidence": [
+        {
+          "source_item_id": 46267452,
+          "source_field": "body",
+          "value": "ML experiment: \"skill capsules\" for LLM. Capsules can be cheaply extracted from successful episodes (as little as a single episode) and then applied to improve success of similar tasks.\n\nI see it as a \"poor man's continual learning\".",
+          "supports": [],
+          "author": "killerstorm",
+          "shared_at": 1765749555,
+          "source_url": "https://news.ycombinator.com/item?id=46267452"
+        }
+      ],
+      "source_item_id": 46267452,
+      "source_url": "https://news.ycombinator.com/item?id=46267452",
+      "author": "killerstorm",
+      "shared_at": 1765749555,
+      "links": []
+    }
+  ]
+}

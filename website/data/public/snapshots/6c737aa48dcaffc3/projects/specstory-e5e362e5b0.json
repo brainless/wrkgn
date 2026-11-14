@@ -1,0 +1,35 @@
+{
+  "id": 11025,
+  "slug": "specstory-e5e362e5b0",
+  "name": "SpecStory",
+  "mentions": [
+    {
+      "name": "SpecStory",
+      "description": "This extension for Cursor and GitHub Copilot lets users save, search, and share their AI chat history from AI-powered IDEs. It captures prompts, responses, refactors, and decision paths so that intent becomes as searchable as code, with a long-term goal of building a canonical intent layer for AI-built codebases — like git log/blame, but for why things changed, not just what.",
+      "problem": "Most AI-first coding tools don't preserve critical context between sessions — prompts, chats, refactors, and decision paths are lost.",
+      "audience": "Most AI-first coding tools don't respect how much critical context gets lost between sessions — prompts, chats, refactors, and decision paths are all gone.",
+      "builder_usernames": [
+        "gregce10"
+      ],
+      "source_excerpt": "Working on specstory.com which today is an extension for Cursor & Github copilot that allows you to save, search, share your AI chat history.",
+      "evidence": [
+        {
+          "source_item_id": 43840056,
+          "source_field": "body",
+          "value": "Working on specstory.com which today is an extension for Cursor & Github copilot that allows you to save, search, share your AI chat history.",
+          "supports": [],
+          "author": "gregce10",
+          "shared_at": 1745975054,
+          "source_url": "https://news.ycombinator.com/item?id=43840056"
+        }
+      ],
+      "source_item_id": 43840056,
+      "source_url": "https://news.ycombinator.com/item?id=43840056",
+      "author": "gregce10",
+      "shared_at": 1745975054,
+      "links": [
+        "https://specstory.com"
+      ]
+    }
+  ]
+}

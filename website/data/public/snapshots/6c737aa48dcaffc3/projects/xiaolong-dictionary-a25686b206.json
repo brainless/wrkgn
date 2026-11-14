@@ -1,0 +1,63 @@
+{
+  "id": 8308,
+  "slug": "xiaolong-dictionary-a25686b206",
+  "name": "Xiaolong Dictionary",
+  "mentions": [
+    {
+      "name": "Xiaolong Dictionary",
+      "description": "A language learning app built with Python and tkinter that implements vocabulary study features the author misses in other apps, including a powerful search function, arbitrary tags on words, a word table, and planned learning progress statistics. It uses a JSON configuration file to customize spaced repetition learn levels and their meanings, the order in which word attributes are revealed during practice, vocabulary table columns, and the font for the big character display widget (useful for languages like Chinese). It has minimal dependencies (only jsonschema beyond development ones) and is AGPL licensed.",
+      "problem": "Existing vocabulary learning applications lack features the author wants, such as a very powerful search function, arbitrary tags, a word table, and learning progress statistics.",
+      "audience": "The author builds it for personal language learning, adding features the author usually misses in vocabulary learning applications.",
+      "builder_usernames": [
+        "zelphirkalt"
+      ],
+      "source_excerpt": "Working on my language learning app (Python, tkinter) \"Xiaolong Dictionary\"[0]\n\nIt is supposed to implement all kinds of features, that I usually miss in vocabulary learning applications, such as a very powerful search function, and the ability to add arbitrary tags, a table of words, and learning progress statistics (not yet implemented).",
+      "evidence": [
+        {
+          "source_item_id": 46270427,
+          "source_field": "body",
+          "value": "Working on my language learning app (Python, tkinter) \"Xiaolong Dictionary\"[0]\n\nIt is supposed to implement all kinds of features, that I usually miss in vocabulary learning applications, such as a very powerful search function, and the ability to add arbitrary tags, a table of words, and learning progress statistics (not yet implemented).",
+          "supports": [],
+          "author": "zelphirkalt",
+          "shared_at": 1765772237,
+          "source_url": "https://news.ycombinator.com/item?id=46270427"
+        }
+      ],
+      "source_item_id": 46270427,
+      "source_url": "https://news.ycombinator.com/item?id=46270427",
+      "author": "zelphirkalt",
+      "shared_at": 1765772237,
+      "links": [
+        "https://codeberg.org/ZelphirKaltstahl/tkapp"
+      ]
+    },
+    {
+      "name": "tkapp",
+      "description": "A desktop vocabulary learning app with a search function that finds arbitrary subsets of words in a single query, supports tags, difficulty and relevance metadata, and shows learning progress as a percentage. Its spaced repetition avoids repeatedly quizzing words the user already knows. Written in Python and tkinter as a minimal, non-web-based app, with a possible future optional feature to generate word example usages via a local LLM.",
+      "problem": "Vocabulary and spaced repetition apps lack good search functions, re-quiz simple words users already know, and hide learning progress or lack word difficulty/relevance metadata and tags.",
+      "audience": "Language learners, including the author's own vocabulary study",
+      "builder_usernames": [
+        "zelphirkalt"
+      ],
+      "source_excerpt": "Building a language learning tool again[1].\n\nI have found for myself that there is a lack of vocabulary learning apps that have good search functions.",
+      "evidence": [
+        {
+          "source_item_id": 45874248,
+          "source_field": "body",
+          "value": "Building a language learning tool again[1].\n\nI have found for myself that there is a lack of vocabulary learning apps that have good search functions.",
+          "supports": [],
+          "author": "zelphirkalt",
+          "shared_at": 1762767596,
+          "source_url": "https://news.ycombinator.com/item?id=45874248"
+        }
+      ],
+      "source_item_id": 45874248,
+      "source_url": "https://news.ycombinator.com/item?id=45874248",
+      "author": "zelphirkalt",
+      "shared_at": 1762767596,
+      "links": [
+        "https://codeberg.org/ZelphirKaltstahl/tkapp"
+      ]
+    }
+  ]
+}

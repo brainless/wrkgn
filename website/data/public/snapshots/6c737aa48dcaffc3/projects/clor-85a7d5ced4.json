@@ -1,0 +1,63 @@
+{
+  "id": 1060,
+  "slug": "clor-85a7d5ced4",
+  "name": "Clor",
+  "mentions": [
+    {
+      "name": "Clor",
+      "description": "An agent multiplexer for Claude and Codex that lets developers run both agents' sessions together with shared memory, free to use on their own machines.",
+      "problem": "Running one AI coding agent alone is much less powerful than multiplexing Claude and Codex sessions together.",
+      "audience": "Developers running AI coding agent sessions.",
+      "builder_usernames": [
+        "jacobgold"
+      ],
+      "source_excerpt": "Working on Clor, an agent multiplexer for Claude and Codex with shared memory. It's free on your own machines.",
+      "evidence": [
+        {
+          "source_item_id": 49690365,
+          "source_field": "body",
+          "value": "Working on Clor, an agent multiplexer for Claude and Codex with shared memory. It's free on your own machines.",
+          "supports": [],
+          "author": "jacobgold",
+          "shared_at": 1789346259,
+          "source_url": "https://news.ycombinator.com/item?id=49690365"
+        }
+      ],
+      "source_item_id": 49690365,
+      "source_url": "https://news.ycombinator.com/item?id=49690365",
+      "author": "jacobgold",
+      "shared_at": 1789346259,
+      "links": [
+        "https://clor.com"
+      ]
+    },
+    {
+      "name": "Clor",
+      "description": "A CLI that lets a coding agent create \"claws\" — background agents that automate anything on a schedule and run on a laptop, Mac mini, or a VM. A claw is defined and shared as a single CLAW.md file containing metadata (name, schedule, personality) and one or more ordered tasks, where each task is either a real agent run with full tool use or a plain bash step. Installing sets up the CLI, a small scheduling daemon, and a skill invocable from the agent (/claws in Claude Code or $claws in Codex).",
+      "problem": "Existing agentic platforms the author tried (a hosting service on OpenClaw and self-run Hermes) failed more often than not at real work and had worrying security models; cron-style wake-work-sleep is an efficient pattern for \"always on\" tasks, and coding agents turned out to be the best tool for automating anything given the right environment and tools.",
+      "audience": null,
+      "builder_usernames": [
+        "jacobgold"
+      ],
+      "source_excerpt": "So I built Clor, a CLI that lets your coding agent create \"claws\", which are background agents that automate anything on a schedule and run on your laptop, Mac mini, or a VM.\n\nhttps://clor.com",
+      "evidence": [
+        {
+          "source_item_id": 48545647,
+          "source_field": "body",
+          "value": "So I built Clor, a CLI that lets your coding agent create \"claws\", which are background agents that automate anything on a schedule and run on your laptop, Mac mini, or a VM.\n\nhttps://clor.com",
+          "supports": [],
+          "author": "jacobgold",
+          "shared_at": 1781550407,
+          "source_url": "https://news.ycombinator.com/item?id=48545647"
+        }
+      ],
+      "source_item_id": 48545647,
+      "source_url": "https://news.ycombinator.com/item?id=48545647",
+      "author": "jacobgold",
+      "shared_at": 1781550407,
+      "links": [
+        "https://clor.com"
+      ]
+    }
+  ]
+}

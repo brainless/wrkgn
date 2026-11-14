@@ -1,0 +1,35 @@
+{
+  "id": 7632,
+  "slug": "centralci-cdc485df15",
+  "name": "CentralCI",
+  "mentions": [
+    {
+      "name": "CentralCI",
+      "description": "Fully-managed Concourse CI as a service. Provides dedicated Concourse instances on high-spec hardware (Ice Lake Xeon, DDR5, NVMe), worker scaling without Kubernetes complexity, SOC compliance with auditing and AWS PrivateLink for enterprise, and 24/7 support. Highlights Concourse capabilities like fly execute for testing pipelines locally, fly intercept for debugging inside running containers, resource-based triggers that can monitor anything (not just git pushes), full dev-to-prod pipeline visualization, and fully controllable workers.",
+      "problem": "Concourse is the right tool for complex CI/CD, but running and maintaining it is a pain for enterprises; the builders spent years deploying and maintaining Concourse for companies and productized that operational knowledge.",
+      "audience": "Enterprises and development teams that run complex CI/CD pipelines, such as Starbucks, Accenture, and Sky UK",
+      "builder_usernames": [
+        "analytically"
+      ],
+      "source_excerpt": "CentralCI (https://centralci.com) - Fully-managed Concourse CI as a service.",
+      "evidence": [
+        {
+          "source_item_id": 46580550,
+          "source_field": "body",
+          "value": "CentralCI (https://centralci.com) - Fully-managed Concourse CI as a service.",
+          "supports": [],
+          "author": "analytically",
+          "shared_at": 1768168078,
+          "source_url": "https://news.ycombinator.com/item?id=46580550"
+        }
+      ],
+      "source_item_id": 46580550,
+      "source_url": "https://news.ycombinator.com/item?id=46580550",
+      "author": "analytically",
+      "shared_at": 1768168078,
+      "links": [
+        "https://centralci.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 10105,
+  "slug": "memco-283447098e",
+  "name": "Memco",
+  "mentions": [
+    {
+      "name": "Memco",
+      "description": "A shared memory layer for AI coding agents that lets agents reuse previously solved problems instead of repeating the same debugging work. Builds the retrieval and memory maintenance side, including decomposing solutions into reusable patterns, ranking and deduplicating at scale, and keeping retrieval latency under 100ms. Uses MCP so it works across IDEs.",
+      "problem": "Every AI coding agent currently reinvents the wheel - an agent debugs an issue like a Stripe webhook signature that another agent already solved yesterday, burning tokens doing it.",
+      "audience": null,
+      "builder_usernames": [
+        "st-msl"
+      ],
+      "source_excerpt": "Shared memory for AI coding agents. Every agent currently reinvents the wheel - your agent debugs a Stripe webhook signature issue that mine solved yesterday, burns tokens doing it.\n\nBuilding the retrieval and memory maintenance layer. Interesting problems around decomposing solutions into reusable patterns, ranking/deduping at scale, keeping latency under 100ms. Uses MCP so it works across IDEs.\n\nEarly benchmarks look promising. https://memco.ai if you want to try it.",
+      "evidence": [
+        {
+          "source_item_id": 45424020,
+          "source_field": "body",
+          "value": "Shared memory for AI coding agents. Every agent currently reinvents the wheel - your agent debugs a Stripe webhook signature issue that mine solved yesterday, burns tokens doing it.\n\nBuilding the retrieval and memory maintenance layer. Interesting problems around decomposing solutions into reusable patterns, ranking/deduping at scale, keeping latency under 100ms. Uses MCP so it works across IDEs.\n\nEarly benchmarks look promising. https://memco.ai if you want to try it.",
+          "supports": [],
+          "author": "st-msl",
+          "shared_at": 1759229778,
+          "source_url": "https://news.ycombinator.com/item?id=45424020"
+        }
+      ],
+      "source_item_id": 45424020,
+      "source_url": "https://news.ycombinator.com/item?id=45424020",
+      "author": "st-msl",
+      "shared_at": 1759229778,
+      "links": [
+        "https://memco.ai"
+      ]
+    }
+  ]
+}

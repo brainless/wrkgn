@@ -1,0 +1,63 @@
+{
+  "id": 9509,
+  "slug": "osint-moe-6f81250baa",
+  "name": "osint.moe",
+  "mentions": [
+    {
+      "name": "osint.moe",
+      "description": "An LLM-based app that builds research graphs based on goal-directed web search.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "klntsky"
+      ],
+      "source_excerpt": "https://osint.moe/ - LLM-based app to build research graphs based on goal-directed web search",
+      "evidence": [
+        {
+          "source_item_id": 45876522,
+          "source_field": "body",
+          "value": "https://osint.moe/ - LLM-based app to build research graphs based on goal-directed web search",
+          "supports": [],
+          "author": "klntsky",
+          "shared_at": 1762786080,
+          "source_url": "https://news.ycombinator.com/item?id=45876522"
+        }
+      ],
+      "source_item_id": 45876522,
+      "source_url": "https://news.ycombinator.com/item?id=45876522",
+      "author": "klntsky",
+      "shared_at": 1762786080,
+      "links": [
+        "https://osint.moe/"
+      ]
+    },
+    {
+      "name": "OSINT.moe",
+      "description": "An LLM chat helper app for OSINT that builds a graph of the user's knowledge base. It glues together specialized APIs (search, scrapers, tools, etc.) so the user rarely needs to leave the app.",
+      "problem": "OSINT work requires switching between many specialized tools; this consolidates them into a single chat interface.",
+      "audience": null,
+      "builder_usernames": [
+        "klntsky"
+      ],
+      "source_excerpt": "An LLM chat helper (app) for OSINT that builds a graph of your knowledge base: https://osint.moe/\n\nIt will glue specialized APIs (search, scrapers, tools, etc) so that you rarely need to leave it",
+      "evidence": [
+        {
+          "source_item_id": 45421640,
+          "source_field": "body",
+          "value": "An LLM chat helper (app) for OSINT that builds a graph of your knowledge base: https://osint.moe/\n\nIt will glue specialized APIs (search, scrapers, tools, etc) so that you rarely need to leave it",
+          "supports": [],
+          "author": "klntsky",
+          "shared_at": 1759203217,
+          "source_url": "https://news.ycombinator.com/item?id=45421640"
+        }
+      ],
+      "source_item_id": 45421640,
+      "source_url": "https://news.ycombinator.com/item?id=45421640",
+      "author": "klntsky",
+      "shared_at": 1759203217,
+      "links": [
+        "https://osint.moe/"
+      ]
+    }
+  ]
+}

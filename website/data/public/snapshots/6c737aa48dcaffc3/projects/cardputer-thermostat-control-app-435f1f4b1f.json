@@ -1,0 +1,33 @@
+{
+  "id": 8228,
+  "slug": "cardputer-thermostat-control-app-435f1f4b1f",
+  "name": "Cardputer thermostat control app",
+  "mentions": [
+    {
+      "name": "Cardputer thermostat control app",
+      "description": "An app written for the M5Stack Cardputer that controls the author's thermostat remotely, built with a deliberately overengineered amount of concurrency using FreeRTOS.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tombert"
+      ],
+      "source_excerpt": "I've been writing an app for Cardputer to control my thermostat remotely, and I've had a lot of fun grossly overengineering the needless amount of concurrency I have added through FreeRTOS.",
+      "evidence": [
+        {
+          "source_item_id": 46270102,
+          "source_field": "body",
+          "value": "I've been writing an app for Cardputer to control my thermostat remotely, and I've had a lot of fun grossly overengineering the needless amount of concurrency I have added through FreeRTOS.",
+          "supports": [],
+          "author": "tombert",
+          "shared_at": 1765769105,
+          "source_url": "https://news.ycombinator.com/item?id=46270102"
+        }
+      ],
+      "source_item_id": 46270102,
+      "source_url": "https://news.ycombinator.com/item?id=46270102",
+      "author": "tombert",
+      "shared_at": 1765769105,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 8438,
+  "slug": "synthetic-environment-c4ccf7741f",
+  "name": "Synthetic Environment",
+  "mentions": [
+    {
+      "name": "Synthetic Environment",
+      "description": "A unified zero-trust overlay network (a \"Synthetic Environment\") that turns individual disparate services into one network where mocks and real services can be integrated or work seamlessly together, accessible through traditional networking or exposed public tunnels. Intended for use during development to integrate mocks and changes into existing systems, to easily expose internal work through a public tunnel, or to help when pushing to staging, pre-prod, or other environments is difficult due to competing constraints.",
+      "problem": "Developers struggle to push to staging, pre-prod, or other environments because of many competing constraints, and disparate services and mocks are hard to integrate.",
+      "audience": "Developers",
+      "builder_usernames": [
+        "smaughk"
+      ],
+      "source_excerpt": "Working on turning individual disparate services into a unified zero-trust overlay network (what we're calling a Synthetic Environment™) where mocks and real services can be integrated or work seamlessly together, accessible through traditional networking or exposed public tunnels.",
+      "evidence": [
+        {
+          "source_item_id": 46272147,
+          "source_field": "body",
+          "value": "Working on turning individual disparate services into a unified zero-trust overlay network (what we're calling a Synthetic Environment™) where mocks and real services can be integrated or work seamlessly together, accessible through traditional networking or exposed public tunnels.",
+          "supports": [],
+          "author": "smaughk",
+          "shared_at": 1765790690,
+          "source_url": "https://news.ycombinator.com/item?id=46272147"
+        }
+      ],
+      "source_item_id": 46272147,
+      "source_url": "https://news.ycombinator.com/item?id=46272147",
+      "author": "smaughk",
+      "shared_at": 1765790690,
+      "links": []
+    }
+  ]
+}

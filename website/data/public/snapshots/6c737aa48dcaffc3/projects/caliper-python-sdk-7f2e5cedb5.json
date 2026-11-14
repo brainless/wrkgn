@@ -1,0 +1,35 @@
+{
+  "id": 6277,
+  "slug": "caliper-python-sdk-7f2e5cedb5",
+  "name": "Caliper Python SDK",
+  "mentions": [
+    {
+      "name": "Caliper Python SDK",
+      "description": "A lightweight LLM observability SDK that stores pre- and post-request metadata with every LLM call, writing batched JSON files to S3 that plug into existing tooling like DuckDB for analysis. It is designed to answer questions such as how different user tiers rate different models and system prompts.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "OliverGuy"
+      ],
+      "source_excerpt": "An LLM observability SDK that let's you store pre and post request metadata with every call in as lightweight an SDK as possible.\n\nStores to S3 in batched JSON files, so can easily plug into existing tooling like DuckDB for analysis.",
+      "evidence": [
+        {
+          "source_item_id": 47305603,
+          "source_field": "body",
+          "value": "An LLM observability SDK that let's you store pre and post request metadata with every call in as lightweight an SDK as possible.\n\nStores to S3 in batched JSON files, so can easily plug into existing tooling like DuckDB for analysis.",
+          "supports": [],
+          "author": "OliverGuy",
+          "shared_at": 1773039356,
+          "source_url": "https://news.ycombinator.com/item?id=47305603"
+        }
+      ],
+      "source_item_id": 47305603,
+      "source_url": "https://news.ycombinator.com/item?id=47305603",
+      "author": "OliverGuy",
+      "shared_at": 1773039356,
+      "links": [
+        "https://gitlab.com/usecaliper/caliper-python-sdk"
+      ]
+    }
+  ]
+}

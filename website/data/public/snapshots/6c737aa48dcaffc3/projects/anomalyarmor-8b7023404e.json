@@ -1,0 +1,35 @@
+{
+  "id": 5438,
+  "slug": "anomalyarmor-8b7023404e",
+  "name": "AnomalyArmor",
+  "mentions": [
+    {
+      "name": "AnomalyArmor",
+      "description": "A data observability platform where an AI agent sets up schema-drift, freshness, and row-count monitoring on Snowflake/Databricks in minutes, and users can ask natural-language questions when something breaks. Priced at $5/table, about half what incumbent tools charge.",
+      "problem": "Existing data observability tools are priced too high and require hand-configuring per-table thresholds for every new dashboard.",
+      "audience": null,
+      "builder_usernames": [
+        "iblaine"
+      ],
+      "source_excerpt": "AnomalyArmor (http://anomalyarmor.ai) is a data observability platform. I got tired of being priced out of existing tools and hand-configuring per-table thresholds for every new dashboard. An AI agent sets up schema-drift, freshness, and row-count monitoring on Snowflake/Databricks in minutes, and you can ask natural-language questions when something breaks.",
+      "evidence": [
+        {
+          "source_item_id": 47756181,
+          "source_field": "body",
+          "value": "AnomalyArmor (http://anomalyarmor.ai) is a data observability platform. I got tired of being priced out of existing tools and hand-configuring per-table thresholds for every new dashboard. An AI agent sets up schema-drift, freshness, and row-count monitoring on Snowflake/Databricks in minutes, and you can ask natural-language questions when something breaks.",
+          "supports": [],
+          "author": "iblaine",
+          "shared_at": 1776105485,
+          "source_url": "https://news.ycombinator.com/item?id=47756181"
+        }
+      ],
+      "source_item_id": 47756181,
+      "source_url": "https://news.ycombinator.com/item?id=47756181",
+      "author": "iblaine",
+      "shared_at": 1776105485,
+      "links": [
+        "http://anomalyarmor.ai"
+      ]
+    }
+  ]
+}

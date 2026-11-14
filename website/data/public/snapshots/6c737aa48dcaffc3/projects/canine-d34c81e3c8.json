@@ -1,0 +1,35 @@
+{
+  "id": 6939,
+  "slug": "canine-d34c81e3c8",
+  "name": "Canine",
+  "mentions": [
+    {
+      "name": "Canine",
+      "description": "An open-source platform-as-a-service that serves as a full Heroku replacement, providing a web UI and CLI on top of a Kubernetes backend for deploying and running applications.",
+      "problem": "Heroku was delightful but annoyingly locked-in and expensive.",
+      "audience": null,
+      "builder_usernames": [
+        "czhu12"
+      ],
+      "source_excerpt": "It’s a basically a full Heroku replacement, with a UI, CLI, etc, except running with a Kubernetes backend.\n\nIt’s fully open source.",
+      "evidence": [
+        {
+          "source_item_id": 46956411,
+          "source_field": "body",
+          "value": "It’s a basically a full Heroku replacement, with a UI, CLI, etc, except running with a Kubernetes backend.\n\nIt’s fully open source.",
+          "supports": [],
+          "author": "czhu12",
+          "shared_at": 1770708055,
+          "source_url": "https://news.ycombinator.com/item?id=46956411"
+        }
+      ],
+      "source_item_id": 46956411,
+      "source_url": "https://news.ycombinator.com/item?id=46956411",
+      "author": "czhu12",
+      "shared_at": 1770708055,
+      "links": [
+        "https://canine.sh"
+      ]
+    }
+  ]
+}

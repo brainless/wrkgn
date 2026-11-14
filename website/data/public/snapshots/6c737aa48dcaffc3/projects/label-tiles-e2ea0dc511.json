@@ -1,0 +1,35 @@
+{
+  "id": 8398,
+  "slug": "label-tiles-e2ea0dc511",
+  "name": "label-tiles",
+  "mentions": [
+    {
+      "name": "label-tiles",
+      "description": "This tool builds labeled object detection training datasets from large-scale satellite and aerial imagery collections. It leverages the standard web map tile server API to label and fine-tune ML models on map imagery, testing ML applications of tile-serving infrastructure built for map visualization.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "noahgolmant"
+      ],
+      "source_excerpt": "A tool to build labeled object detection training datasets from large-scale satellite/aerial imagery collections: https://github.com/noahgolmant/label-tiles",
+      "evidence": [
+        {
+          "source_item_id": 46266828,
+          "source_field": "body",
+          "value": "A tool to build labeled object detection training datasets from large-scale satellite/aerial imagery collections: https://github.com/noahgolmant/label-tiles",
+          "supports": [],
+          "author": "noahgolmant",
+          "shared_at": 1765746025,
+          "source_url": "https://news.ycombinator.com/item?id=46266828"
+        }
+      ],
+      "source_item_id": 46266828,
+      "source_url": "https://news.ycombinator.com/item?id=46266828",
+      "author": "noahgolmant",
+      "shared_at": 1765746025,
+      "links": [
+        "https://github.com/noahgolmant/label-tiles"
+      ]
+    }
+  ]
+}

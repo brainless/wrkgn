@@ -1,0 +1,149 @@
+{
+  "id": 3916,
+  "slug": "lumenfall-0f1aa1f410",
+  "name": "Lumenfall",
+  "mentions": [
+    {
+      "name": "Lumenfall",
+      "description": "A routing and benchmarking platform for media models, positioned as an OpenRouter equivalent. It provides mock generations for testing, judge models for monitoring model performance in production, and a built-in arena for benchmarking image, video and SVG models.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mgw"
+      ],
+      "source_excerpt": "Mainly https://lumenfall.ai, which is OpenRouter for media models, with mock generations for testing and judge models for production model performance monitoring. We also have our own arena where we benchmark image, video and svg models.",
+      "evidence": [
+        {
+          "source_item_id": 48532268,
+          "source_field": "body",
+          "value": "Mainly https://lumenfall.ai, which is OpenRouter for media models, with mock generations for testing and judge models for production model performance monitoring. We also have our own arena where we benchmark image, video and svg models.",
+          "supports": [],
+          "author": "mgw",
+          "shared_at": 1781468790,
+          "source_url": "https://news.ycombinator.com/item?id=48532268"
+        }
+      ],
+      "source_item_id": 48532268,
+      "source_url": "https://news.ycombinator.com/item?id=48532268",
+      "author": "mgw",
+      "shared_at": 1781468790,
+      "links": [
+        "https://lumenfall.ai"
+      ]
+    },
+    {
+      "name": "Lumenfall",
+      "description": "This tool records and replays AI image and video generation API calls to any provider, letting people save money by avoiding live API calls during testing. It is part of the Lumenfall AI media model gateway.",
+      "problem": "Testing against live AI image and video generation API calls from any provider costs money; recording and replaying calls avoids that cost.",
+      "audience": "people testing AI image and video generation API integrations",
+      "builder_usernames": [
+        "mgw"
+      ],
+      "source_excerpt": "I‘m building a way to record and replay AI image and video generation API calls to any provider so that in testing, people can save money. This is  part of our AI media model gateway https://lumenfall.ai",
+      "evidence": [
+        {
+          "source_item_id": 48088125,
+          "source_field": "body",
+          "value": "I‘m building a way to record and replay AI image and video generation API calls to any provider so that in testing, people can save money. This is  part of our AI media model gateway https://lumenfall.ai",
+          "supports": [],
+          "author": "mgw",
+          "shared_at": 1778447677,
+          "source_url": "https://news.ycombinator.com/item?id=48088125"
+        }
+      ],
+      "source_item_id": 48088125,
+      "source_url": "https://news.ycombinator.com/item?id=48088125",
+      "author": "mgw",
+      "shared_at": 1778447677,
+      "links": [
+        "https://lumenfall.ai"
+      ]
+    },
+    {
+      "name": "Lumenfall",
+      "description": "This is an AI image and video model gateway that lets users access generative image/video models through one service. It is adding a simulation mode that provides free fake responses during development instead of pricey real generations.",
+      "problem": "Real AI image and video generations are pricey during development, so developers need a way to test with free fake responses.",
+      "audience": null,
+      "builder_usernames": [
+        "mgw"
+      ],
+      "source_excerpt": "We‘ve built an AI image and video model gateway called https://lumenfall.ai.\n\nRight now I‘m working on adding a „simulation“ mode, that allows anyone to get free fake responses during development, instead of pricey real generations.",
+      "evidence": [
+        {
+          "source_item_id": 47745642,
+          "source_field": "body",
+          "value": "We‘ve built an AI image and video model gateway called https://lumenfall.ai.\n\nRight now I‘m working on adding a „simulation“ mode, that allows anyone to get free fake responses during development, instead of pricey real generations.",
+          "supports": [],
+          "author": "mgw",
+          "shared_at": 1776036930,
+          "source_url": "https://news.ycombinator.com/item?id=47745642"
+        }
+      ],
+      "source_item_id": 47745642,
+      "source_url": "https://news.ycombinator.com/item?id=47745642",
+      "author": "mgw",
+      "shared_at": 1776036930,
+      "links": [
+        "https://lumenfall.ai"
+      ]
+    },
+    {
+      "name": "Lumenfall",
+      "description": "This platform provides a unified API for AI image generation — an 'OpenRouter for Images' — with video generation following. Its roadmap includes observability that uses fine-tuned vision models as a judge to monitor production traffic, and it offers a model arena/showdown leaderboard that ranks models by task (e.g. photorealism) so developers can pick the best model. The stack uses Rails for the dashboard and Cloudflare Workers (TypeScript/Hono) for the engine.",
+      "problem": null,
+      "audience": "Developers building applications that generate AI images and video",
+      "builder_usernames": [
+        "mgw"
+      ],
+      "source_excerpt": "https://lumenfall.ai\n\nRight now we are \"OpenRouter for Images\", with video following this week.\n\nOur north star is creating a broader developer platform for AI media generation that includes observability, with fine-tuned vision models as a judge to monitor production traffic.\n\nWe also have a model arena and showdown page that ranks models by task, so you can find the best model for e.g. photorealism: https://lumenfall.ai/leaderboard",
+      "evidence": [
+        {
+          "source_item_id": 47308792,
+          "source_field": "body",
+          "value": "https://lumenfall.ai\n\nRight now we are \"OpenRouter for Images\", with video following this week.\n\nOur north star is creating a broader developer platform for AI media generation that includes observability, with fine-tuned vision models as a judge to monitor production traffic.\n\nWe also have a model arena and showdown page that ranks models by task, so you can find the best model for e.g. photorealism: https://lumenfall.ai/leaderboard",
+          "supports": [],
+          "author": "mgw",
+          "shared_at": 1773062882,
+          "source_url": "https://news.ycombinator.com/item?id=47308792"
+        }
+      ],
+      "source_item_id": 47308792,
+      "source_url": "https://news.ycombinator.com/item?id=47308792",
+      "author": "mgw",
+      "shared_at": 1773062882,
+      "links": [
+        "https://lumenfall.ai",
+        "https://lumenfall.ai/leaderboard"
+      ]
+    },
+    {
+      "name": "Lumenfall",
+      "description": "This platform provides AI image generation for developers with observability, using fine-tuned vision models as judges to monitor production traffic. It also includes a model arena and leaderboard that ranks image generation models by task (e.g. making infographics). The MVP was recently launched, built with a Rails dashboard and a Cloudflare Workers (TypeScript/Hono) gateway.",
+      "problem": null,
+      "audience": "A developer platform aimed at teams building with AI image generation models.",
+      "builder_usernames": [
+        "mgw"
+      ],
+      "source_excerpt": "A developer platform for AI image generation that includes observability, with fine-tuned vision models as a judge to monitor production traffic.",
+      "evidence": [
+        {
+          "source_item_id": 46942148,
+          "source_field": "body",
+          "value": "A developer platform for AI image generation that includes observability, with fine-tuned vision models as a judge to monitor production traffic.",
+          "supports": [],
+          "author": "mgw",
+          "shared_at": 1770618128,
+          "source_url": "https://news.ycombinator.com/item?id=46942148"
+        }
+      ],
+      "source_item_id": 46942148,
+      "source_url": "https://news.ycombinator.com/item?id=46942148",
+      "author": "mgw",
+      "shared_at": 1770618128,
+      "links": [
+        "https://lumenfall.ai",
+        "https://lumenfall.ai/leaderboard"
+      ]
+    }
+  ]
+}

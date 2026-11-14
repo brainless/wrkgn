@@ -1,0 +1,36 @@
+{
+  "id": 8121,
+  "slug": "lace-a1335b822d",
+  "name": "LACE",
+  "mentions": [
+    {
+      "name": "LACE",
+      "description": "A self-organising research companion for long-horizon inquiry. It captures fragments from the web via a browser extension, auto-clusters them into evolving \"threads\" and projects with summaries and reading lists, maintains a graph of connections across threads (\"topology of attention\"), and turns a cluster of fragments into an essay draft when ready to share. Built as a web app with an LLM pipeline, using neo4j's llm-graph-builder as a starting point; currently in a small test phase.",
+      "problem": "With LLMs, generating ideas and snippets is cheap, but keeping track of fragments with their \"why I cared\" context over months is hard. Most tools like Notion or Obsidian assume the user will do the work of maintaining folder/tag/linking structure forever.",
+      "audience": "Researchers, writers, engineers, and founders who constantly lose good ideas in their notes",
+      "builder_usernames": [
+        "ohmyai"
+      ],
+      "source_excerpt": "https://meetlace.ai - LACE, a self-organising research companion for long-horizon inquiry.\n\nWith LLMs, generating ideas and snippets is cheap; what’s hard is keeping track of fragments with their “why I cared” context over months.",
+      "evidence": [
+        {
+          "source_item_id": 46276064,
+          "source_field": "body",
+          "value": "https://meetlace.ai - LACE, a self-organising research companion for long-horizon inquiry.\n\nWith LLMs, generating ideas and snippets is cheap; what’s hard is keeping track of fragments with their “why I cared” context over months.",
+          "supports": [],
+          "author": "ohmyai",
+          "shared_at": 1765813922,
+          "source_url": "https://news.ycombinator.com/item?id=46276064"
+        }
+      ],
+      "source_item_id": 46276064,
+      "source_url": "https://news.ycombinator.com/item?id=46276064",
+      "author": "ohmyai",
+      "shared_at": 1765813922,
+      "links": [
+        "https://meetlace.ai",
+        "https://open.substack.com/pub/ozthinks/p/from-fragments-to-insights"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": 10795,
+  "slug": "sdf-based-open-source-cad-program-for-3d-printing-38fdd2af8f",
+  "name": "SDF-based open source CAD program for 3D printing",
+  "mentions": [
+    {
+      "name": "SDF-based open source CAD program for 3D printing",
+      "description": "This open source CAD program for 3D printing is built on Signed Distance Functions (SDFs) rather than boundary representation. SDFs enable O(1) pattern operations via domain repetition, object deformation via domain deformation, easy procedural surface texturing, and easy CSG operations. To support selecting faces, the SDF evaluation propagates surface ids alongside distances, so evaluation returns the id of the nearest surface, not just the distance to it. Planned next steps are reliable fillets and chamfers between arbitrary surfaces (using a 'masked clones' blending approach) and standard CAD features like constraint solving in a 2D sketch editor.",
+      "problem": "In an SDF representation, faces, edges, and vertices are emergent rather than explicit, making selection-based workflows hard; reliably providing fillets and chamfers between arbitrary surfaces remains an unsolved challenge.",
+      "audience": null,
+      "builder_usernames": [
+        "jstanley"
+      ],
+      "source_excerpt": "I'm working on a new open source CAD program for 3d printing based on Signed Distance Functions.",
+      "evidence": [
+        {
+          "source_item_id": 43819542,
+          "source_field": "body",
+          "value": "I'm working on a new open source CAD program for 3d printing based on Signed Distance Functions.",
+          "supports": [],
+          "author": "jstanley",
+          "shared_at": 1745835176,
+          "source_url": "https://news.ycombinator.com/item?id=43819542"
+        }
+      ],
+      "source_item_id": 43819542,
+      "source_url": "https://news.ycombinator.com/item?id=43819542",
+      "author": "jstanley",
+      "shared_at": 1745835176,
+      "links": [
+        "https://incoherency.co.uk/blog/stories/frep-cad-building-blocks.html",
+        "https://incoherency.co.uk/blog/stories/sdf-thoughts.html"
+      ]
+    }
+  ]
+}

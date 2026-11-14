@@ -1,0 +1,35 @@
+{
+  "id": 3869,
+  "slug": "multimodal-swarm-management-simulator-85b1e2b5a2",
+  "name": "Multimodal Swarm Management Simulator",
+  "mentions": [
+    {
+      "name": "Multimodal Swarm Management Simulator",
+      "description": "This simulator uses an agent to process operator intents, form a swarm, and build missions for a set of drones and other available assets based on their capabilities. It aims to replace the imperative, low-level model of current mission planners used for operating large fleets of platforms.",
+      "problem": "Current mission planners for large fleets of platforms have a very imperative model and are too low-level.",
+      "audience": null,
+      "builder_usernames": [
+        "speransky"
+      ],
+      "source_excerpt": "I'm trying to implement a Multimodal Swarm Management simulator, idea is to use agent to process operator intents, form swarm and build a mission for a set of drones and other available assets based on their capabilities.",
+      "evidence": [
+        {
+          "source_item_id": 48535655,
+          "source_field": "body",
+          "value": "I'm trying to implement a Multimodal Swarm Management simulator, idea is to use agent to process operator intents, form swarm and build a mission for a set of drones and other available assets based on their capabilities.",
+          "supports": [],
+          "author": "speransky",
+          "shared_at": 1781488613,
+          "source_url": "https://news.ycombinator.com/item?id=48535655"
+        }
+      ],
+      "source_item_id": 48535655,
+      "source_url": "https://news.ycombinator.com/item?id=48535655",
+      "author": "speransky",
+      "shared_at": 1781488613,
+      "links": [
+        "https://uglydrone.com/posts/052920261.html"
+      ]
+    }
+  ]
+}

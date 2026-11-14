@@ -1,0 +1,35 @@
+{
+  "id": 5133,
+  "slug": "kardo-dd88f3ec37",
+  "name": "Kardo",
+  "mentions": [
+    {
+      "name": "Kardo",
+      "description": "AI tutor that joins your calls with a language teacher, records and transcribes them (Recall.ai + Deepgram Nova 3), and uses GPT-4o to extract vocabulary and generate flashcards automatically. Cards are reviewed with spaced repetition using the FSRS algorithm, and can be exported to Anki or Mochi Cards. Also accepts YouTube videos, podcasts, articles, and PDFs as sources. Built with Claude Code, React + Vite frontend, Bun + Elysia backend, Convex database, hosted on Railway.",
+      "problem": "Spaced repetition works for language learning, but manually making flashcards after every tutoring lesson took consistent effort, so the author often skipped it — Kardo automates that card-creation process.",
+      "audience": "Language learners who take lessons with a tutor",
+      "builder_usernames": [
+        "dandaka"
+      ],
+      "source_excerpt": "I'm building Kardo (https://kardo.cards/), AI tutor that listens to your calls with a teacher and creates cards for repetition.",
+      "evidence": [
+        {
+          "source_item_id": 47749449,
+          "source_field": "body",
+          "value": "I'm building Kardo (https://kardo.cards/), AI tutor that listens to your calls with a teacher and creates cards for repetition.",
+          "supports": [],
+          "author": "dandaka",
+          "shared_at": 1776070000,
+          "source_url": "https://news.ycombinator.com/item?id=47749449"
+        }
+      ],
+      "source_item_id": 47749449,
+      "source_url": "https://news.ycombinator.com/item?id=47749449",
+      "author": "dandaka",
+      "shared_at": 1776070000,
+      "links": [
+        "https://kardo.cards/"
+      ]
+    }
+  ]
+}

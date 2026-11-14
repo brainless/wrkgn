@@ -1,0 +1,35 @@
+{
+  "id": 4901,
+  "slug": "aho-93fd9b60ed",
+  "name": "Aho",
+  "mentions": [
+    {
+      "name": "Aho",
+      "description": "Aho is an API for verifying age, credentials, and identity using cryptographic proof from digital wallets instead of document inspection. It relies on cryptographic signatures from issuing authorities such as DMVs, universities, and employers, with selective disclosure so users only share the fields that matter rather than uploading a full ID. The API implements the W3C VC, OpenID4VCI/VP, and SD-JWT specifications.",
+      "problem": "Document-inspection verification (uploading IDs) hurts conversion and is vulnerable to AI-faked documents, while cryptographic signatures from issuing authorities and private keys cannot be faked by AI.",
+      "audience": null,
+      "builder_usernames": [
+        "eggbrain"
+      ],
+      "source_excerpt": "Lately I've been building Aho (https://aho.com) -- an API for verifying age, credentials, and identity using cryptographic proof from digital wallets instead of document inspection.",
+      "evidence": [
+        {
+          "source_item_id": 48098861,
+          "source_field": "body",
+          "value": "Lately I've been building Aho (https://aho.com) -- an API for verifying age, credentials, and identity using cryptographic proof from digital wallets instead of document inspection.",
+          "supports": [],
+          "author": "eggbrain",
+          "shared_at": 1778524500,
+          "source_url": "https://news.ycombinator.com/item?id=48098861"
+        }
+      ],
+      "source_item_id": 48098861,
+      "source_url": "https://news.ycombinator.com/item?id=48098861",
+      "author": "eggbrain",
+      "shared_at": 1778524500,
+      "links": [
+        "https://aho.com"
+      ]
+    }
+  ]
+}

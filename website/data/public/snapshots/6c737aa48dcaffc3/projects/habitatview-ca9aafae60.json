@@ -1,0 +1,35 @@
+{
+  "id": 8903,
+  "slug": "habitatview-ca9aafae60",
+  "name": "HabitatView",
+  "mentions": [
+    {
+      "name": "HabitatView",
+      "description": "An IoT visualizer for home automation (domotics) systems that displays sensor data per room and per floor. It started as a tablet interface built in Godot Engine and grew into a standalone product with its own file format.",
+      "problem": "Home automation sensor data was difficult to visualize per room and per floor in the builder's self-built domotic system.",
+      "audience": null,
+      "builder_usernames": [
+        "oscarcp"
+      ],
+      "source_excerpt": "I'm working on a simple IoT visualizer. I built my own domotic system at home (which i hope to turn into a product at some point) and I had the need to visualize the sensor data per room and per floor.\n\nWhile I was working on the tablet interface (in Godot Engine) I put Claude to work on what after two minutes became a full product on its own with a new file format as well. Tell me what you think! (so far the response is meh...)\n\nhttps://habitatview.app",
+      "evidence": [
+        {
+          "source_item_id": 46267090,
+          "source_field": "body",
+          "value": "I'm working on a simple IoT visualizer. I built my own domotic system at home (which i hope to turn into a product at some point) and I had the need to visualize the sensor data per room and per floor.\n\nWhile I was working on the tablet interface (in Godot Engine) I put Claude to work on what after two minutes became a full product on its own with a new file format as well. Tell me what you think! (so far the response is meh...)\n\nhttps://habitatview.app",
+          "supports": [],
+          "author": "oscarcp",
+          "shared_at": 1765747457,
+          "source_url": "https://news.ycombinator.com/item?id=46267090"
+        }
+      ],
+      "source_item_id": 46267090,
+      "source_url": "https://news.ycombinator.com/item?id=46267090",
+      "author": "oscarcp",
+      "shared_at": 1765747457,
+      "links": [
+        "https://habitatview.app"
+      ]
+    }
+  ]
+}

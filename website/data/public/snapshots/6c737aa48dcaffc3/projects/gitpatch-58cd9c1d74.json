@@ -1,0 +1,63 @@
+{
+  "id": 10137,
+  "slug": "gitpatch-58cd9c1d74",
+  "name": "GitPatch",
+  "mentions": [
+    {
+      "name": "GitPatch",
+      "description": "A git forge optimized for speed and patch-based workflows. It rewrites most server-side parts of git from scratch to avoid exec-ing the git binary or using libraries like libgit2, and uses an HTMX frontend for fast rendering.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "shayief"
+      ],
+      "source_excerpt": "I'm working on a new type of git forge[1], optimized for speed and work with patches.",
+      "evidence": [
+        {
+          "source_item_id": 45422234,
+          "source_field": "body",
+          "value": "I'm working on a new type of git forge[1], optimized for speed and work with patches.",
+          "supports": [],
+          "author": "shayief",
+          "shared_at": 1759210279,
+          "source_url": "https://news.ycombinator.com/item?id=45422234"
+        }
+      ],
+      "source_item_id": 45422234,
+      "source_url": "https://news.ycombinator.com/item?id=45422234",
+      "author": "shayief",
+      "shared_at": 1759210279,
+      "links": [
+        "https://gitpatch.com"
+      ]
+    },
+    {
+      "name": "GitPatch",
+      "description": "Git hosting platform for async teams that supports versioned patches and patch stacks instead of pull requests, working over the standard git SSH protocol so no git-send-email is needed.",
+      "problem": null,
+      "audience": "Async teams",
+      "builder_usernames": [
+        "shayief"
+      ],
+      "source_excerpt": "Git hosting for async teams that supports versioned patches and patch stacks instead of pull requests. All done using the standard git SSH protocol, so no git-send-email needed.",
+      "evidence": [
+        {
+          "source_item_id": 44705111,
+          "source_field": "body",
+          "value": "Git hosting for async teams that supports versioned patches and patch stacks instead of pull requests. All done using the standard git SSH protocol, so no git-send-email needed.",
+          "supports": [],
+          "author": "shayief",
+          "shared_at": 1753653616,
+          "source_url": "https://news.ycombinator.com/item?id=44705111"
+        }
+      ],
+      "source_item_id": 44705111,
+      "source_url": "https://news.ycombinator.com/item?id=44705111",
+      "author": "shayief",
+      "shared_at": 1753653616,
+      "links": [
+        "https://gitpatch.com"
+      ]
+    }
+  ]
+}

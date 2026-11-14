@@ -1,0 +1,35 @@
+{
+  "id": 6489,
+  "slug": "mruby-cbor-c7ccfff5fc",
+  "name": "mruby-cbor",
+  "mentions": [
+    {
+      "name": "mruby-cbor",
+      "description": "A CBOR (Concise Binary Object Representation) serialization library implemented as a C extension for mruby, built in an afternoon with assistance from Claude and approaching its official release.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Asmod4n"
+      ],
+      "source_excerpt": "I’ve written a CBOR implementation as a mruby c extension in an afternoon and am about to officially release it soon.\n\nIt’s my first project where I’ve worked with claude: https://github.com/Asmod4n/mruby-cbor",
+      "evidence": [
+        {
+          "source_item_id": 47307560,
+          "source_field": "body",
+          "value": "I’ve written a CBOR implementation as a mruby c extension in an afternoon and am about to officially release it soon.\n\nIt’s my first project where I’ve worked with claude: https://github.com/Asmod4n/mruby-cbor",
+          "supports": [],
+          "author": "Asmod4n",
+          "shared_at": 1773055043,
+          "source_url": "https://news.ycombinator.com/item?id=47307560"
+        }
+      ],
+      "source_item_id": 47307560,
+      "source_url": "https://news.ycombinator.com/item?id=47307560",
+      "author": "Asmod4n",
+      "shared_at": 1773055043,
+      "links": [
+        "https://github.com/Asmod4n/mruby-cbor"
+      ]
+    }
+  ]
+}

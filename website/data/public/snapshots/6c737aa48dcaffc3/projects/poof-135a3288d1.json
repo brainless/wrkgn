@@ -1,0 +1,35 @@
+{
+  "id": 9758,
+  "slug": "poof-135a3288d1",
+  "name": "Poof",
+  "mentions": [
+    {
+      "name": "Poof",
+      "description": "This is a metaprogramming language that generates much of the editor UI for the Bonsai game engine. It is a bespoke C parser supporting a small subset of C++, exposed to users through a scripting-like language embedded directly in source files, and was written as a replacement for C++ templates.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jesse__"
+      ],
+      "source_excerpt": "I also wrote a metaprogramming language which generates a lot of the editor UI for the engine. It's a bespoke C parser that supports a small subset of C++, which is exposed to the user through a 'scripting-like' language you embed directly in your source files. I wrote it as a replacement for C++ templates and in my completely unbiased opinion it is WAY better.\n\nhttps://github.com/scallyw4g/poof",
+      "evidence": [
+        {
+          "source_item_id": 45562405,
+          "source_field": "body",
+          "value": "I also wrote a metaprogramming language which generates a lot of the editor UI for the engine. It's a bespoke C parser that supports a small subset of C++, which is exposed to the user through a 'scripting-like' language you embed directly in your source files. I wrote it as a replacement for C++ templates and in my completely unbiased opinion it is WAY better.\n\nhttps://github.com/scallyw4g/poof",
+          "supports": [],
+          "author": "jesse__",
+          "shared_at": 1760306781,
+          "source_url": "https://news.ycombinator.com/item?id=45562405"
+        }
+      ],
+      "source_item_id": 45562405,
+      "source_url": "https://news.ycombinator.com/item?id=45562405",
+      "author": "jesse__",
+      "shared_at": 1760306781,
+      "links": [
+        "https://github.com/scallyw4g/poof"
+      ]
+    }
+  ]
+}

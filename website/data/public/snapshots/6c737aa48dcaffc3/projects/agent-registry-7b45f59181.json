@@ -1,0 +1,33 @@
+{
+  "id": 6090,
+  "slug": "agent-registry-7b45f59181",
+  "name": "Agent Registry",
+  "mentions": [
+    {
+      "name": "Agent Registry",
+      "description": "A registry for AI agents built on Docker container discovery: developers package agent code in a Docker image and run the container with specific labels, and the system detects the container coming online via Docker system events, fetches its AgentCard, and stores it in the registry, which exposes a REST interface for searching agents and other operations. Planned features include an AgentListerAgent exposed as the root A2A agent card so clients can message it for details on all registered agents, automatic proxy route definition (APISIX) to route traffic to agent containers, support for agent types beyond A2A, and Kubernetes support.",
+      "problem": "Works around A2A's lack of direct support for hosting multiple Agents on the same server (without using different ports), and provides a registry for discovering deployed agents.",
+      "audience": null,
+      "builder_usernames": [
+        "mindcrime"
+      ],
+      "source_excerpt": "This weekend I spent a lot of time on an Agent Registry idea I wanted to try out. The basic idea is that you put your Agent code in a Docker image, run the container with a few specific labels, and the system detects the Container coming online, grabs the AgentCard, and stores it in the Registry.",
+      "evidence": [
+        {
+          "source_item_id": 47303406,
+          "source_field": "body",
+          "value": "This weekend I spent a lot of time on an Agent Registry idea I wanted to try out. The basic idea is that you put your Agent code in a Docker image, run the container with a few specific labels, and the system detects the Container coming online, grabs the AgentCard, and stores it in the Registry.",
+          "supports": [],
+          "author": "mindcrime",
+          "shared_at": 1773017050,
+          "source_url": "https://news.ycombinator.com/item?id=47303406"
+        }
+      ],
+      "source_item_id": 47303406,
+      "source_url": "https://news.ycombinator.com/item?id=47303406",
+      "author": "mindcrime",
+      "shared_at": 1773017050,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 7149,
+  "slug": "libzim-website-converter-5fa20de88c",
+  "name": "libzim-website-converter",
+  "mentions": [
+    {
+      "name": "libzim-website-converter",
+      "description": "A website archive tool for watching websites offline. It collects a website and converts it into a .Zim archive (equivalent of a .zip), which can then be viewed when there is no internet access or only a local network. It is built on libzim to provide an easy-to-use way to create custom ZIM archives.",
+      "problem": "The author did not find \"easy to use\" tools for creating custom archives with libzim.",
+      "audience": "Personal use: watching archived websites offline when there is no internet access or only a local network",
+      "builder_usernames": [
+        "japoneris"
+      ],
+      "source_excerpt": "Working on a website archive tool for watching them offline.\nIt collects a website, and makes   .Zim with ( equiv of .zip), then watch it when you have no internet access / only local network.",
+      "evidence": [
+        {
+          "source_item_id": 46956124,
+          "source_field": "body",
+          "value": "Working on a website archive tool for watching them offline.\nIt collects a website, and makes   .Zim with ( equiv of .zip), then watch it when you have no internet access / only local network.",
+          "supports": [],
+          "author": "japoneris",
+          "shared_at": 1770705490,
+          "source_url": "https://news.ycombinator.com/item?id=46956124"
+        }
+      ],
+      "source_item_id": 46956124,
+      "source_url": "https://news.ycombinator.com/item?id=46956124",
+      "author": "japoneris",
+      "shared_at": 1770705490,
+      "links": [
+        "https://github.com/Japoneris/libzim-website-converter"
+      ]
+    }
+  ]
+}

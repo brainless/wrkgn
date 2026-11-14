@@ -1,0 +1,35 @@
+{
+  "id": 3719,
+  "slug": "rho-7cad0da81b",
+  "name": "rho",
+  "mentions": [
+    {
+      "name": "rho",
+      "description": "A coding agent written in Rust that incorporates a Deno runtime for extensions. It is headless via JSON-RPC and has the beginnings of a trait-based system to enable different frontends; an extension for `pi` currently lets it be used as a frontend.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "sentinel1909"
+      ],
+      "source_excerpt": "I’m iterating on my own coding agent, called `rho`. https://github.com/crustyrustacean/rho-coding-agent.git.",
+      "evidence": [
+        {
+          "source_item_id": 48530749,
+          "source_field": "body",
+          "value": "I’m iterating on my own coding agent, called `rho`. https://github.com/crustyrustacean/rho-coding-agent.git.",
+          "supports": [],
+          "author": "sentinel1909",
+          "shared_at": 1781461355,
+          "source_url": "https://news.ycombinator.com/item?id=48530749"
+        }
+      ],
+      "source_item_id": 48530749,
+      "source_url": "https://news.ycombinator.com/item?id=48530749",
+      "author": "sentinel1909",
+      "shared_at": 1781461355,
+      "links": [
+        "https://github.com/crustyrustacean/rho-coding-agent.git"
+      ]
+    }
+  ]
+}

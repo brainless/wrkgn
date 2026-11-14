@@ -1,0 +1,33 @@
+{
+  "id": 5418,
+  "slug": "thunderbird-mail-view-extension-dd781b0cc5",
+  "name": "Thunderbird mail-view extension",
+  "mentions": [
+    {
+      "name": "Thunderbird mail-view extension",
+      "description": "A Thunderbird extension that customizes the mail view to the author's preferences. So far it provides hotkeys for tagging messages and settings to hide or fold messages by tag, and its easily programmable design allows quickly adding functions such as parsing common messages or sending items to a todo list. A quick experiment added message summarization with Gemma running on Ollama, though it wasn't useful.",
+      "problem": "The default Thunderbird mail view didn't match the author's preferred workflow.",
+      "audience": "The author's own personal email workflow in Thunderbird",
+      "builder_usernames": [
+        "lkbm"
+      ],
+      "source_excerpt": "I've been building a Thunderbird extension that gives me the mail view I want.\n\nSo far it's mostly just configuring hotkeys to tag messages, and settings to hide or fold messages by tag, but I can trivially add functions to parse common messages, send things to my todo list, etc.",
+      "evidence": [
+        {
+          "source_item_id": 47753016,
+          "source_field": "body",
+          "value": "I've been building a Thunderbird extension that gives me the mail view I want.\n\nSo far it's mostly just configuring hotkeys to tag messages, and settings to hide or fold messages by tag, but I can trivially add functions to parse common messages, send things to my todo list, etc.",
+          "supports": [],
+          "author": "lkbm",
+          "shared_at": 1776092469,
+          "source_url": "https://news.ycombinator.com/item?id=47753016"
+        }
+      ],
+      "source_item_id": 47753016,
+      "source_url": "https://news.ycombinator.com/item?id=47753016",
+      "author": "lkbm",
+      "shared_at": 1776092469,
+      "links": []
+    }
+  ]
+}

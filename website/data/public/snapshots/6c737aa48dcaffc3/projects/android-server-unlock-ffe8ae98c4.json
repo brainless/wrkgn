@@ -1,0 +1,35 @@
+{
+  "id": 4671,
+  "slug": "android-server-unlock-ffe8ae98c4",
+  "name": "Android Server Unlock",
+  "mentions": [
+    {
+      "name": "Android Server Unlock",
+      "description": "A 2-factor verification system for unlocking servers. It uses clevis and a custom tang server so servers can be unlocked with a tap on your phone instead of a password or traditional tang network unlock. Even if someone steals the hardware, it cannot be unlocked without the owner approving the unlock.",
+      "problem": "The author was unsatisfied with available remote unlock systems for homelab hardware.",
+      "audience": "Homelab owners and self-hosters who want secure remote server unlocking",
+      "builder_usernames": [
+        "hfosidkc77"
+      ],
+      "source_excerpt": "A 2factor verification system for server unlocking. I was unsatisfied with available remote unlock systems for homelab hardware and so built this: https://codeberg.org/dsjkrewpid/android-server-unlock\n\nIts very rough, but it uses clevis and a custom tang server to unlock servers with a tap on your phone instead of a password or traditional tang network unlock.",
+      "evidence": [
+        {
+          "source_item_id": 48096929,
+          "source_field": "body",
+          "value": "A 2factor verification system for server unlocking. I was unsatisfied with available remote unlock systems for homelab hardware and so built this: https://codeberg.org/dsjkrewpid/android-server-unlock\n\nIts very rough, but it uses clevis and a custom tang server to unlock servers with a tap on your phone instead of a password or traditional tang network unlock.",
+          "supports": [],
+          "author": "hfosidkc77",
+          "shared_at": 1778515924,
+          "source_url": "https://news.ycombinator.com/item?id=48096929"
+        }
+      ],
+      "source_item_id": 48096929,
+      "source_url": "https://news.ycombinator.com/item?id=48096929",
+      "author": "hfosidkc77",
+      "shared_at": 1778515924,
+      "links": [
+        "https://codeberg.org/dsjkrewpid/android-server-unlock"
+      ]
+    }
+  ]
+}

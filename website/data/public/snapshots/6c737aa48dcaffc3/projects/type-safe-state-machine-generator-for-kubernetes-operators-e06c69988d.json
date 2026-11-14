@@ -1,0 +1,33 @@
+{
+  "id": 8599,
+  "slug": "type-safe-state-machine-generator-for-kubernetes-operators-e06c69988d",
+  "name": "Type-safe state machine generator for Kubernetes operators",
+  "mentions": [
+    {
+      "name": "Type-safe state machine generator for Kubernetes operators",
+      "description": "This tool for Kubernetes (K8S) operators replaces brittle imperative reconciliation code with type-safe state machines generated from declarative YAML definitions. It also bundles error handling, logging, metrics, and traces for state transitions.",
+      "problem": "Keeping a good working mental model of imperative reconciliation code in Kubernetes operators has been a nightmare for the operators the author has maintained.",
+      "audience": "K8S operators / the people who write and maintain Kubernetes operators",
+      "builder_usernames": [
+        "jomcgi"
+      ],
+      "source_excerpt": "A tool for K8S operators that replaces brittle imperative reconciliation code with type-safe state machines generated from declarative YAML definitions.\nIt also bundles error handling / logging / metrics / traces for state transitions.",
+      "evidence": [
+        {
+          "source_item_id": 46266669,
+          "source_field": "body",
+          "value": "A tool for K8S operators that replaces brittle imperative reconciliation code with type-safe state machines generated from declarative YAML definitions.\nIt also bundles error handling / logging / metrics / traces for state transitions.",
+          "supports": [],
+          "author": "jomcgi",
+          "shared_at": 1765744953,
+          "source_url": "https://news.ycombinator.com/item?id=46266669"
+        }
+      ],
+      "source_item_id": 46266669,
+      "source_url": "https://news.ycombinator.com/item?id=46266669",
+      "author": "jomcgi",
+      "shared_at": 1765744953,
+      "links": []
+    }
+  ]
+}

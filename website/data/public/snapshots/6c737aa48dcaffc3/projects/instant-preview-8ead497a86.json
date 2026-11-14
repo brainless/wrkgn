@@ -1,0 +1,35 @@
+{
+  "id": 8339,
+  "slug": "instant-preview-8ead497a86",
+  "name": "Instant Preview",
+  "mentions": [
+    {
+      "name": "Instant Preview",
+      "description": "A browser extension called Instant Preview that opens links in a side panel so users can quickly look at a page without leaving what they're reading. It supports simple triggers, the favorite being a long-click gesture (click and hold a link) that opens the preview in the side panel, avoiding the right-click context menu and reducing tab overload while scanning docs or search results. Recent work focuses on polishing these interactions and handling browser edge cases.",
+      "problem": "The builder tends to open too many tabs when reading docs or search results, and Chrome's Split View opened from the context menu feels heavy for quick checks, requiring a right-click, mouse movement, and menu selection.",
+      "audience": null,
+      "builder_usernames": [
+        "pyoner"
+      ],
+      "source_excerpt": "I’m working on a small browser extension called Instant Preview.",
+      "evidence": [
+        {
+          "source_item_id": 46270805,
+          "source_field": "body",
+          "value": "I’m working on a small browser extension called Instant Preview.",
+          "supports": [],
+          "author": "pyoner",
+          "shared_at": 1765776754,
+          "source_url": "https://news.ycombinator.com/item?id=46270805"
+        }
+      ],
+      "source_item_id": 46270805,
+      "source_url": "https://news.ycombinator.com/item?id=46270805",
+      "author": "pyoner",
+      "shared_at": 1765776754,
+      "links": [
+        "https://chromewebstore.google.com/detail/majhgbekihmliceijipbdccgicepmmei"
+      ]
+    }
+  ]
+}

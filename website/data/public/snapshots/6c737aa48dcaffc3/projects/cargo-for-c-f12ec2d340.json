@@ -1,0 +1,33 @@
+{
+  "id": 3521,
+  "slug": "cargo-for-c-f12ec2d340",
+  "name": "Cargo for C",
+  "mentions": [
+    {
+      "name": "Cargo for C",
+      "description": "A Cargo-like build tool and package manager for C. It gives C projects a TOML manifest and build scripts written in C that the tool JIT-compiles, provides a stable ABI, an HTTP-backed package index and a Git-backed package index, and builds dependencies natively instead of wrapping their Make or CMake files. It aims to let users run C files from source, generate single-file static binaries, and dynamically link against older glibc without arcane tricks.",
+      "problem": "Building C code requires pulling in Python or Lua for the build system, and the author considers CMake and the surrounding ecosystem painful.",
+      "audience": null,
+      "builder_usernames": [
+        "dboon"
+      ],
+      "source_excerpt": "I am making Cargo for C. I have 3/4 of a working demo; the tool can build itself, including some non-trivial dependencies which I've ported to build natively with the tool (instead of wrapping their Make or CMake or whatever).",
+      "evidence": [
+        {
+          "source_item_id": 48531832,
+          "source_field": "body",
+          "value": "I am making Cargo for C. I have 3/4 of a working demo; the tool can build itself, including some non-trivial dependencies which I've ported to build natively with the tool (instead of wrapping their Make or CMake or whatever).",
+          "supports": [],
+          "author": "dboon",
+          "shared_at": 1781466329,
+          "source_url": "https://news.ycombinator.com/item?id=48531832"
+        }
+      ],
+      "source_item_id": 48531832,
+      "source_url": "https://news.ycombinator.com/item?id=48531832",
+      "author": "dboon",
+      "shared_at": 1781466329,
+      "links": []
+    }
+  ]
+}

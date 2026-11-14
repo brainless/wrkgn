@@ -1,0 +1,36 @@
+{
+  "id": 11129,
+  "slug": "scharf-9f62e24b16",
+  "name": "Scharf",
+  "mentions": [
+    {
+      "name": "Scharf",
+      "description": "Open-source static application security testing (SAST) tool that identifies third-party GitHub Actions prone to supply-chain attacks and automatically fixes them. Written in Go for fast performance.",
+      "problem": "Third-party GitHub Actions can be prone to supply-chain attacks, and manually auditing them takes security engineers hours of grind.",
+      "audience": "Security engineers",
+      "builder_usernames": [
+        "nyell"
+      ],
+      "source_excerpt": "I am working on Scharf, an open-source SAST tool to identify and auto-fix 3P GitHub actions those are prone to supply-chain attacks. It is blazing fast and written in Go.",
+      "evidence": [
+        {
+          "source_item_id": 43840110,
+          "source_field": "body",
+          "value": "I am working on Scharf, an open-source SAST tool to identify and auto-fix 3P GitHub actions those are prone to supply-chain attacks. It is blazing fast and written in Go.",
+          "supports": [],
+          "author": "nyell",
+          "shared_at": 1745975557,
+          "source_url": "https://news.ycombinator.com/item?id=43840110"
+        }
+      ],
+      "source_item_id": 43840110,
+      "source_url": "https://news.ycombinator.com/item?id=43840110",
+      "author": "nyell",
+      "shared_at": 1745975557,
+      "links": [
+        "https://github.com/cybrota/scharf",
+        "https://imgur.com/a/wEyk9AR"
+      ]
+    }
+  ]
+}

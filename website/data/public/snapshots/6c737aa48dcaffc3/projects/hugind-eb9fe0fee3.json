@@ -1,0 +1,35 @@
+{
+  "id": 5689,
+  "slug": "hugind-eb9fe0fee3",
+  "name": "hugind",
+  "mentions": [
+    {
+      "name": "hugind",
+      "description": "Hugind is a daemon for running LLM inference reliably on company hardware, even when the hardware is poor or outdated, with the goal of bringing chaotic agentic behavior under control in business contexts.",
+      "problem": "LLM inference is unreliable on poor or outdated company hardware, and agentic behavior can be chaotic in business contexts.",
+      "audience": "Companies and teams running LLM workloads on poor or outdated company hardware in business contexts",
+      "builder_usernames": [
+        "netdur"
+      ],
+      "source_excerpt": "I am working on hugind, I have two goals:\n\n- make it reliable to run LLM inference on company hardware, even when it is poor or outdated\n\n- bring chaotic agentic behavior under control in business contexts",
+      "evidence": [
+        {
+          "source_item_id": 47743701,
+          "source_field": "body",
+          "value": "I am working on hugind, I have two goals:\n\n- make it reliable to run LLM inference on company hardware, even when it is poor or outdated\n\n- bring chaotic agentic behavior under control in business contexts",
+          "supports": [],
+          "author": "netdur",
+          "shared_at": 1776023474,
+          "source_url": "https://news.ycombinator.com/item?id=47743701"
+        }
+      ],
+      "source_item_id": 47743701,
+      "source_url": "https://news.ycombinator.com/item?id=47743701",
+      "author": "netdur",
+      "shared_at": 1776023474,
+      "links": [
+        "https://github.com/netdur/hugind"
+      ]
+    }
+  ]
+}

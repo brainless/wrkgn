@@ -1,0 +1,231 @@
+{
+  "id": 2895,
+  "slug": "envelope-f3b8b6c03d",
+  "name": "Envelope",
+  "mentions": [
+    {
+      "name": "Envelope",
+      "description": "This budgeting app comes with a built-in checking account and debit cards, and because the budget can actually decline card transactions it serves as an effective system for stopping overspending.",
+      "problem": "Overspending; traditional budgets cannot stop transactions, whereas this app's budget can decline card transactions.",
+      "audience": null,
+      "builder_usernames": [
+        "joshuakcockrell"
+      ],
+      "source_excerpt": "I’m working on Envelope. https://envelopebudgeting.com It’s a budgeting app that comes with a built in checking account and debit cards. Because your budget can actually decline card transactions it’s a very effective system for stopping overspending.",
+      "evidence": [
+        {
+          "source_item_id": 48888058,
+          "source_field": "body",
+          "value": "I’m working on Envelope. https://envelopebudgeting.com It’s a budgeting app that comes with a built in checking account and debit cards. Because your budget can actually decline card transactions it’s a very effective system for stopping overspending.",
+          "supports": [],
+          "author": "joshuakcockrell",
+          "shared_at": 1783918306,
+          "source_url": "https://news.ycombinator.com/item?id=48888058"
+        }
+      ],
+      "source_item_id": 48888058,
+      "source_url": "https://news.ycombinator.com/item?id=48888058",
+      "author": "joshuakcockrell",
+      "shared_at": 1783918306,
+      "links": [
+        "https://envelopebudgeting.com"
+      ]
+    },
+    {
+      "name": "Envelope",
+      "description": "Envelope is a budgeting app with a built-in checking account. Users assign real money to digital envelopes for bills, groceries, savings, and everyday spending, then spend from those envelopes using built-in checking, debit cards, and envelope-based spending controls. The app aims to guide spending before it happens rather than only tracking transactions afterward.",
+      "problem": "Budgeting apps typically only track transactions after spending occurs, instead of guiding spending before it happens.",
+      "audience": null,
+      "builder_usernames": [
+        "joshuakcockrell"
+      ],
+      "source_excerpt": "I'm working on Envelope. It's a budgeting app that comes with a checking account built in. https://envelopebudgeting.com Because the checking account is built in, you can assign real money to digital envelopes for bills, groceries, savings, and everyday spending, then spend from the money with built-in checking, debit cards, and envelope-based spending controls.",
+      "evidence": [
+        {
+          "source_item_id": 48098157,
+          "source_field": "body",
+          "value": "I'm working on Envelope. It's a budgeting app that comes with a checking account built in. https://envelopebudgeting.com Because the checking account is built in, you can assign real money to digital envelopes for bills, groceries, savings, and everyday spending, then spend from the money with built-in checking, debit cards, and envelope-based spending controls.",
+          "supports": [],
+          "author": "joshuakcockrell",
+          "shared_at": 1778521572,
+          "source_url": "https://news.ycombinator.com/item?id=48098157"
+        }
+      ],
+      "source_item_id": 48098157,
+      "source_url": "https://news.ycombinator.com/item?id=48098157",
+      "author": "joshuakcockrell",
+      "shared_at": 1778521572,
+      "links": [
+        "https://envelopebudgeting.com"
+      ]
+    },
+    {
+      "name": "Envelope",
+      "description": "Envelope is a checking account with built-in budgeting, like Mint, YNAB, or Copilot built into a bank account. Users get paid via direct deposit and their money is organized into digital envelopes for bills, groceries, savings, and sinking funds. It is attached to a debit card so balances update instantly, and it supports individual or joint accounts. A paycheck prediction algorithm is in development to automatically determine how much to set aside from each paycheck so bills are paid on time.",
+      "problem": "People have to rely on a separate budgeting tool, spreadsheet, or cash envelope system instead of budgeting, spending, and saving directly from one account.",
+      "audience": null,
+      "builder_usernames": [
+        "joshuakcockrell"
+      ],
+      "source_excerpt": "I'm building Envelope, which is a checking account with built-in budgeting: https://envelopebudgeting.com It's like if Mint, YNAB, or Copilot was built into a bank account.",
+      "evidence": [
+        {
+          "source_item_id": 47754202,
+          "source_field": "body",
+          "value": "I'm building Envelope, which is a checking account with built-in budgeting: https://envelopebudgeting.com It's like if Mint, YNAB, or Copilot was built into a bank account.",
+          "supports": [],
+          "author": "joshuakcockrell",
+          "shared_at": 1776096720,
+          "source_url": "https://news.ycombinator.com/item?id=47754202"
+        }
+      ],
+      "source_item_id": 47754202,
+      "source_url": "https://news.ycombinator.com/item?id=47754202",
+      "author": "joshuakcockrell",
+      "shared_at": 1776096720,
+      "links": [
+        "https://envelopebudgeting.com"
+      ]
+    },
+    {
+      "name": "Envelope",
+      "description": "A budgeting app for iOS and Android named after the digital envelope system, serving as an alternative to YNAB, Goodbudget, and Monarch. It includes a built-in checking account and debit cards, avoiding the unreliable syncing issues common in budgeting apps, and helps users organize money into envelope categories for bills, spending, savings, and upcoming expenses, with support for individual and joint accounts. Work in progress includes an upcoming paycheck detection system that automatically splits paychecks across budgets.",
+      "problem": "Existing budgeting apps suffer from unreliable syncing issues because accounts aren't built in; this app avoids that by including the checking account and debit cards directly.",
+      "audience": null,
+      "builder_usernames": [
+        "joshuakcockrell"
+      ],
+      "source_excerpt": "Envelope https://envelopebudgeting.com\n\nIt's a budgeting app I'm building for iOS and Android. It's an alternative to YNAB, Goodbudget, or Monarch, but the checking account and debit cards are built-in, so it avoids the unreliable syncing issues that make budgeting apps suck. It's named after the digital envelope system and helps you organize money into categories for bills, spending, savings, upcoming expenses, etc. Individual and joint accounts.\n\nRight now I'm working on an upcoming paycheck detection system to automatically split your paycheck across your budgets.",
+      "evidence": [
+        {
+          "source_item_id": 47327860,
+          "source_field": "body",
+          "value": "Envelope https://envelopebudgeting.com\n\nIt's a budgeting app I'm building for iOS and Android. It's an alternative to YNAB, Goodbudget, or Monarch, but the checking account and debit cards are built-in, so it avoids the unreliable syncing issues that make budgeting apps suck. It's named after the digital envelope system and helps you organize money into categories for bills, spending, savings, upcoming expenses, etc. Individual and joint accounts.\n\nRight now I'm working on an upcoming paycheck detection system to automatically split your paycheck across your budgets.",
+          "supports": [],
+          "author": "joshuakcockrell",
+          "shared_at": 1773171514,
+          "source_url": "https://news.ycombinator.com/item?id=47327860"
+        }
+      ],
+      "source_item_id": 47327860,
+      "source_url": "https://news.ycombinator.com/item?id=47327860",
+      "author": "joshuakcockrell",
+      "shared_at": 1773171514,
+      "links": [
+        "https://envelopebudgeting.com"
+      ]
+    },
+    {
+      "name": "Envelope",
+      "description": "Envelope is a budgeting app built on the envelope budgeting method, allocating money up front so future obligations are covered before spending happens. It includes a cash flow detection algorithm that only allocates paychecks to obligations before the next paycheck unless future funding is strictly required, handling income timing and paycheck variability without overfunding the future.",
+      "problem": "Most budgeting tools are either expense trackers or monthly budgets that assume clean month boundaries, which breaks down quickly if you're paid biweekly or irregularly; handling income timing and paycheck variability without overfunding the future is the hard part.",
+      "audience": null,
+      "builder_usernames": [
+        "joshuakcockrell"
+      ],
+      "source_excerpt": "Anyways, I’m currently adding a cash flow detection algorithm to Envelope (the budgeting app) https://envelopebudgeting.com that only allocates paychecks to obligations before the next paycheck unless future funding is strictly required. That approach has avoided a lot of timing edge cases I kept running into.",
+      "evidence": [
+        {
+          "source_item_id": 46949781,
+          "source_field": "body",
+          "value": "Anyways, I’m currently adding a cash flow detection algorithm to Envelope (the budgeting app) https://envelopebudgeting.com that only allocates paychecks to obligations before the next paycheck unless future funding is strictly required. That approach has avoided a lot of timing edge cases I kept running into.",
+          "supports": [],
+          "author": "joshuakcockrell",
+          "shared_at": 1770665290,
+          "source_url": "https://news.ycombinator.com/item?id=46949781"
+        }
+      ],
+      "source_item_id": 46949781,
+      "source_url": "https://news.ycombinator.com/item?id=46949781",
+      "author": "joshuakcockrell",
+      "shared_at": 1770665290,
+      "links": [
+        "https://envelopebudgeting.com"
+      ]
+    },
+    {
+      "name": "Envelope",
+      "description": "A budgeting app called Envelope based on the envelope budgeting concept, with the checking account built in.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "joshuakcockrell"
+      ],
+      "source_excerpt": "I’m building a budgeting app called Envelope, it’s like the envelope budgeting concept but has the checking account built in.",
+      "evidence": [
+        {
+          "source_item_id": 46616115,
+          "source_field": "body",
+          "value": "I’m building a budgeting app called Envelope, it’s like the envelope budgeting concept but has the checking account built in.",
+          "supports": [],
+          "author": "joshuakcockrell",
+          "shared_at": 1768398988,
+          "source_url": "https://news.ycombinator.com/item?id=46616115"
+        }
+      ],
+      "source_item_id": 46616115,
+      "source_url": "https://news.ycombinator.com/item?id=46616115",
+      "author": "joshuakcockrell",
+      "shared_at": 1768398988,
+      "links": [
+        "https://envelopebudgeting.com"
+      ]
+    },
+    {
+      "name": "Envelope",
+      "description": "This is a banking product purpose-built for envelope-style budgeting, where the checking, savings, and debit cards are all built around real-time envelope balances. Each envelope acts like a dedicated account with its own balance and an optional virtual card, so spending directly from an envelope keeps the budget accurate with no syncing, spreadsheets, or catch-up categorization. Everything runs on-ledger with automatic spend-locking and instant visibility.",
+      "problem": "Most 'budgeting banks' (e.g. Ally Buckets, Wells Fargo Budget Watch) bolt budgeting on after the fact; Envelope was designed from day one as an integrated budgeting bank account.",
+      "audience": "A consumer banking product for people who want envelope-style personal budgeting built directly into their bank account.",
+      "builder_usernames": [
+        "joshuakcockrell"
+      ],
+      "source_excerpt": "I'm building Envelope — a banking product purpose-built for envelope-style budgeting.\n\nMost “budgeting banks” (Ally Buckets, Wells Fargo Budget Watch, etc.) bolt budgeting on after the fact. Envelope was designed from day one as an integrated budgeting bank account. The checking, savings, and debit cards are all built around real-time envelope balances.",
+      "evidence": [
+        {
+          "source_item_id": 45876968,
+          "source_field": "body",
+          "value": "I'm building Envelope — a banking product purpose-built for envelope-style budgeting.\n\nMost “budgeting banks” (Ally Buckets, Wells Fargo Budget Watch, etc.) bolt budgeting on after the fact. Envelope was designed from day one as an integrated budgeting bank account. The checking, savings, and debit cards are all built around real-time envelope balances.",
+          "supports": [],
+          "author": "joshuakcockrell",
+          "shared_at": 1762789187,
+          "source_url": "https://news.ycombinator.com/item?id=45876968"
+        }
+      ],
+      "source_item_id": 45876968,
+      "source_url": "https://news.ycombinator.com/item?id=45876968",
+      "author": "joshuakcockrell",
+      "shared_at": 1762789187,
+      "links": [
+        "https://envelopebudgeting.com"
+      ]
+    },
+    {
+      "name": "Envelope Budgeting",
+      "description": "A budgeting app built around envelope budgeting, with budgeting built into the checking account, plus a high-yield savings account, goal envelopes, bill envelopes, and joint accounts. It predicts upcoming paychecks by analyzing the past three months of transaction data and automatically moves funds into budgets when the user gets paid.",
+      "problem": "People treat syncing and delayed transaction data as normal; the app changes that by building budgeting directly into the checking account.",
+      "audience": null,
+      "builder_usernames": [
+        "joshuakcockrell"
+      ],
+      "source_excerpt": "I’m currently 4 years in to doing everything possible to build the best budgeting app https://envelopebudgeting.com",
+      "evidence": [
+        {
+          "source_item_id": 44704200,
+          "source_field": "body",
+          "value": "I’m currently 4 years in to doing everything possible to build the best budgeting app https://envelopebudgeting.com",
+          "supports": [],
+          "author": "joshuakcockrell",
+          "shared_at": 1753646513,
+          "source_url": "https://news.ycombinator.com/item?id=44704200"
+        }
+      ],
+      "source_item_id": 44704200,
+      "source_url": "https://news.ycombinator.com/item?id=44704200",
+      "author": "joshuakcockrell",
+      "shared_at": 1753646513,
+      "links": [
+        "https://envelopebudgeting.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 9603,
+  "slug": "mixtape-1c02a86351",
+  "name": "Mixtape",
+  "mentions": [
+    {
+      "name": "Mixtape",
+      "description": "A programmable, non-realtime audio sample generator and manipulator written in Go with an OpenGL GUI. It introduces a \"tape\" data type representing a piece of sound, with Forth-like language operators to create and manipulate tapes that can be stitched into songs, stored as separate *.tape files loaded from each other, and cached as WAV output to speed up projects with large tape hierarchies.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "clx75"
+      ],
+      "source_excerpt": "Mixtape - https://github.com/cellux/mixtape\n\nBeginnings of a programmable, non-realtime audio sample generator/manipulator written in Go with an OpenGL GUI.",
+      "evidence": [
+        {
+          "source_item_id": 45873973,
+          "source_field": "body",
+          "value": "Mixtape - https://github.com/cellux/mixtape\n\nBeginnings of a programmable, non-realtime audio sample generator/manipulator written in Go with an OpenGL GUI.",
+          "supports": [],
+          "author": "clx75",
+          "shared_at": 1762765216,
+          "source_url": "https://news.ycombinator.com/item?id=45873973"
+        }
+      ],
+      "source_item_id": 45873973,
+      "source_url": "https://news.ycombinator.com/item?id=45873973",
+      "author": "clx75",
+      "shared_at": 1762765216,
+      "links": [
+        "https://github.com/cellux/mixtape"
+      ]
+    }
+  ]
+}

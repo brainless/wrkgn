@@ -1,0 +1,35 @@
+{
+  "id": 5135,
+  "slug": "ktext-3b62a1a8ce",
+  "name": "Ktext",
+  "mentions": [
+    {
+      "name": "Ktext",
+      "description": "This tool gives Claude Code sessions compact, high-quality codebase context so they don't waste tokens exploring the codebase. It consists of two parts: a CONTEXT.yaml file that adheres to a JSON Schema, and the ktext CLI that helps create, validate, and export it.",
+      "problem": "Every new Claude Code session needs codebase context, and otherwise spends a bunch of tokens looking around and discovering it.",
+      "audience": "Developers who use Claude Code",
+      "builder_usernames": [
+        "thegagne"
+      ],
+      "source_excerpt": "Ktext has two parts: a CONTEXT.yaml which adheres to a JSON Schema, and the ktext CLI that helps create, validate, and export it.",
+      "evidence": [
+        {
+          "source_item_id": 47750836,
+          "source_field": "body",
+          "value": "Ktext has two parts: a CONTEXT.yaml which adheres to a JSON Schema, and the ktext CLI that helps create, validate, and export it.",
+          "supports": [],
+          "author": "thegagne",
+          "shared_at": 1776082101,
+          "source_url": "https://news.ycombinator.com/item?id=47750836"
+        }
+      ],
+      "source_item_id": 47750836,
+      "source_url": "https://news.ycombinator.com/item?id=47750836",
+      "author": "thegagne",
+      "shared_at": 1776082101,
+      "links": [
+        "https://ktext.dev/"
+      ]
+    }
+  ]
+}

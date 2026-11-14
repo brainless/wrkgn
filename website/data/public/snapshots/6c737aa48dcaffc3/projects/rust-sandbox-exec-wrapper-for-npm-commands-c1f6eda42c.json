@@ -1,0 +1,33 @@
+{
+  "id": 5556,
+  "slug": "rust-sandbox-exec-wrapper-for-npm-commands-c1f6eda42c",
+  "name": "Rust sandbox-exec wrapper for npm commands",
+  "mentions": [
+    {
+      "name": "Rust sandbox-exec wrapper for npm commands",
+      "description": "A small Rust tool that wraps and generates sandbox-exec rules for sandboxing npm commands. It builds on the author's hand-written sandbox-exec profiles that wrap `npm install` and `npm run <script>` on their machine, packaging the messy manual rules into a nicer-to-use tool whose generated sandbox wrappers can be shared with others, limiting what malicious npm packages can do.",
+      "problem": "Recent npm package supply chain compromises put machines at risk when running npm install and npm scripts, motivating sandboxing of those commands.",
+      "audience": null,
+      "builder_usernames": [
+        "xinu2020"
+      ],
+      "source_excerpt": "I'm tired of all the recents npm packages supply chain compromises, so I've written a collection of `sandbox-exec` rules to wrap all the `npm install` and `npm run <script>` of my projects on my machine. It works but it's messy, so now I'm working on a small rust tool that acts as a wrapper and generator for that so that it's nicer to use and can be shared to other people.",
+      "evidence": [
+        {
+          "source_item_id": 47744580,
+          "source_field": "body",
+          "value": "I'm tired of all the recents npm packages supply chain compromises, so I've written a collection of `sandbox-exec` rules to wrap all the `npm install` and `npm run <script>` of my projects on my machine. It works but it's messy, so now I'm working on a small rust tool that acts as a wrapper and generator for that so that it's nicer to use and can be shared to other people.",
+          "supports": [],
+          "author": "xinu2020",
+          "shared_at": 1776028503,
+          "source_url": "https://news.ycombinator.com/item?id=47744580"
+        }
+      ],
+      "source_item_id": 47744580,
+      "source_url": "https://news.ycombinator.com/item?id=47744580",
+      "author": "xinu2020",
+      "shared_at": 1776028503,
+      "links": []
+    }
+  ]
+}

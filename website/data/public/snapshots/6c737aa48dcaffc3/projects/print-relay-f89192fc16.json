@@ -1,0 +1,35 @@
+{
+  "id": 7729,
+  "slug": "print-relay-f89192fc16",
+  "name": "Print Relay",
+  "mentions": [
+    {
+      "name": "Print Relay",
+      "description": "This is a cloud-based print relay system that enables remote printing to any printer connected to a local network. It consists of a cloud server and lightweight clients that connect printers to the cloud via WebSocket. It is PrintNode API compatible, serving as a self-managed alternative to the PrintNode SaaS.",
+      "problem": "The author's workplace experienced connectivity/routing issues between AWS ap-southeast-2 and PrintNode's servers about twice a year, motivating a replacement for PrintNode.",
+      "audience": "Businesses and workplaces needing reliable remote printing to printers on their local networks",
+      "builder_usernames": [
+        "schappim"
+      ],
+      "source_excerpt": "Print Relay[1], a cloud-based print relay system that enables remote printing to any printer connected to your local network.",
+      "evidence": [
+        {
+          "source_item_id": 46578389,
+          "source_field": "body",
+          "value": "Print Relay[1], a cloud-based print relay system that enables remote printing to any printer connected to your local network.",
+          "supports": [],
+          "author": "schappim",
+          "shared_at": 1768156884,
+          "source_url": "https://news.ycombinator.com/item?id=46578389"
+        }
+      ],
+      "source_item_id": 46578389,
+      "source_url": "https://news.ycombinator.com/item?id=46578389",
+      "author": "schappim",
+      "shared_at": 1768156884,
+      "links": [
+        "https://github.com/schappim/print-relay"
+      ]
+    }
+  ]
+}

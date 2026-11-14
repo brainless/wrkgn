@@ -1,0 +1,35 @@
+{
+  "id": 9146,
+  "slug": "arc-task-heatmap-viewer-326bfdbb9d",
+  "name": "ARC task heatmap viewer",
+  "mentions": [
+    {
+      "name": "ARC task heatmap viewer",
+      "description": "This web viewer on the author's site visualizes ARC-AGI tasks using an entropy filtering + correlation perception algorithm, displaying heatmaps for random tasks that reveal information about the structure of each task and help build intuition for the algorithm.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "synapsomorphy"
+      ],
+      "source_excerpt": "I made a viewer on my website to build intuition for my preferred perception algorithm which is entropy filtering + correlation. Pretty neat to check out the heatmaps for random tasks, there is a lot of information inherent in the heatmap about the structure of the task: https://synapsomorphy.com/arc/",
+      "evidence": [
+        {
+          "source_item_id": 45870601,
+          "source_field": "body",
+          "value": "I made a viewer on my website to build intuition for my preferred perception algorithm which is entropy filtering + correlation. Pretty neat to check out the heatmaps for random tasks, there is a lot of information inherent in the heatmap about the structure of the task: https://synapsomorphy.com/arc/",
+          "supports": [],
+          "author": "synapsomorphy",
+          "shared_at": 1762732956,
+          "source_url": "https://news.ycombinator.com/item?id=45870601"
+        }
+      ],
+      "source_item_id": 45870601,
+      "source_url": "https://news.ycombinator.com/item?id=45870601",
+      "author": "synapsomorphy",
+      "shared_at": 1762732956,
+      "links": [
+        "https://synapsomorphy.com/arc/"
+      ]
+    }
+  ]
+}

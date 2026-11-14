@@ -1,0 +1,35 @@
+{
+  "id": 9445,
+  "slug": "knocker-b561f7a153",
+  "name": "Knocker",
+  "mentions": [
+    {
+      "name": "Knocker",
+      "description": "Knocker is an HTTP knock based access service for homelabs that works at the reverse proxy or firewall level. It whitelists the entire network, positioning itself as a more convenient albeit less secure alternative to VPNs like Tailscale.",
+      "problem": "VPNs like Tailscale are a less convenient way to grant network-wide access to homelab services.",
+      "audience": null,
+      "builder_usernames": [
+        "fariszr"
+      ],
+      "source_excerpt": "Knocker, an http knock based access service for your homelab that works at a reverse proxy or firewall level.\n\nIt's a more convenient albeit less secure alternative to VPNs like tailscale.\nIt's more convenient because it whitelists the enite network, and it's less secure for that reason.",
+      "evidence": [
+        {
+          "source_item_id": 45870868,
+          "source_field": "body",
+          "value": "Knocker, an http knock based access service for your homelab that works at a reverse proxy or firewall level.\n\nIt's a more convenient albeit less secure alternative to VPNs like tailscale.\nIt's more convenient because it whitelists the enite network, and it's less secure for that reason.",
+          "supports": [],
+          "author": "fariszr",
+          "shared_at": 1762735489,
+          "source_url": "https://news.ycombinator.com/item?id=45870868"
+        }
+      ],
+      "source_item_id": 45870868,
+      "source_url": "https://news.ycombinator.com/item?id=45870868",
+      "author": "fariszr",
+      "shared_at": 1762735489,
+      "links": [
+        "https://github.com/FarisZR/knocker"
+      ]
+    }
+  ]
+}

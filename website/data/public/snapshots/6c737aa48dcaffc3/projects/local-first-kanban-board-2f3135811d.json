@@ -1,0 +1,33 @@
+{
+  "id": 8997,
+  "slug": "local-first-kanban-board-2f3135811d",
+  "name": "Local-first Kanban Board",
+  "mentions": [
+    {
+      "name": "Local-first Kanban Board",
+      "description": "A local-first Kanban task board built with Tauri (Rust + Svelte). It stores data in JSON files the user controls, offers a full keyboard-first UX, supports parent/child tasks and release management, and is fast via localStorage with background sync. It includes no telemetry and works purely locally.",
+      "problem": "Frustration with SaaS task tools and basic offline options; a perceived gap between \"todo.txt\" simplicity and Jira complexity.",
+      "audience": "Personal task management; the author frames it as a personal task tool.",
+      "builder_usernames": [
+        "timothevs"
+      ],
+      "source_excerpt": "Built a local-first Kanban board with Tauri (Rust + Svelte) after getting frustrated with SaaS tools and basic offline options. Stores data in JSON files you control, full keyboard-first UX, parent/child tasks, release management, and it's blazingly fast with localStorage + background sync. No telemetry, purely local.",
+      "evidence": [
+        {
+          "source_item_id": 45871864,
+          "source_field": "body",
+          "value": "Built a local-first Kanban board with Tauri (Rust + Svelte) after getting frustrated with SaaS tools and basic offline options. Stores data in JSON files you control, full keyboard-first UX, parent/child tasks, release management, and it's blazingly fast with localStorage + background sync. No telemetry, purely local.",
+          "supports": [],
+          "author": "timothevs",
+          "shared_at": 1762743414,
+          "source_url": "https://news.ycombinator.com/item?id=45871864"
+        }
+      ],
+      "source_item_id": 45871864,
+      "source_url": "https://news.ycombinator.com/item?id=45871864",
+      "author": "timothevs",
+      "shared_at": 1762743414,
+      "links": []
+    }
+  ]
+}

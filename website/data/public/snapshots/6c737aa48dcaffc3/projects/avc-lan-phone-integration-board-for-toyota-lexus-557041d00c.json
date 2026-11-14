@@ -1,0 +1,33 @@
+{
+  "id": 10845,
+  "slug": "avc-lan-phone-integration-board-for-toyota-lexus-557041d00c",
+  "name": "AVC-LAN phone integration board for Toyota/Lexus",
+  "mentions": [
+    {
+      "name": "AVC-LAN phone integration board for Toyota/Lexus",
+      "description": "An interface board that integrates modern phones with pre-2010 Toyota/Lexus infotainment systems that use the proprietary AVC-LAN protocol. A simple board with interfacing logic, a DAC, and an RPi Nano provides Bluetooth audio and lossless wired USB audio, both controllable from the steering wheel. Since touch and button events (including steering wheel media controls) are emitted on the AVC-LAN bus and the displays are NTSC composite, the stock screen can also display custom content such as OBD vehicle status, a lap timer, or a G-force meter, and an RPi compute module variant should be able to run Android Auto. Design standards include a high-quality audio codec/DAC, USB-PD, steering wheel controls, and non-invasive installation without splicing into the wiring loom or cutting up the dash; it is a hobby project that will likely be open-sourced rather than commercialized.",
+      "problem": "Existing commercially available solutions for integrating modern phones with pre-2010 Toyota/Lexus infotainment don't meet the builder's standards for audio quality, USB-PD, steering wheel controls, and non-invasive installation.",
+      "audience": null,
+      "builder_usernames": [
+        "LeonM"
+      ],
+      "source_excerpt": "Working on designing and building an interface to properly integrate a modern phone with Toyota/Lexus infotainment systems from before 2010 (which are using the proprietary AVC-LAN protocol).",
+      "evidence": [
+        {
+          "source_item_id": 43823032,
+          "source_field": "body",
+          "value": "Working on designing and building an interface to properly integrate a modern phone with Toyota/Lexus infotainment systems from before 2010 (which are using the proprietary AVC-LAN protocol).",
+          "supports": [],
+          "author": "LeonM",
+          "shared_at": 1745856564,
+          "source_url": "https://news.ycombinator.com/item?id=43823032"
+        }
+      ],
+      "source_item_id": 43823032,
+      "source_url": "https://news.ycombinator.com/item?id=43823032",
+      "author": "LeonM",
+      "shared_at": 1745856564,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 8512,
+  "slug": "zerofs-3db7ed7bb6",
+  "name": "ZeroFS",
+  "mentions": [
+    {
+      "name": "ZeroFS",
+      "description": "ZeroFS is a POSIX filesystem that runs on top of S3, presenting standard filesystem semantics backed by S3 object storage.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Eikon"
+      ],
+      "source_excerpt": "I am working on ZeroFS [0], a POSIX filesystem that works on top of S3.",
+      "evidence": [
+        {
+          "source_item_id": 46268374,
+          "source_field": "body",
+          "value": "I am working on ZeroFS [0], a POSIX filesystem that works on top of S3.",
+          "supports": [],
+          "author": "Eikon",
+          "shared_at": 1765755558,
+          "source_url": "https://news.ycombinator.com/item?id=46268374"
+        }
+      ],
+      "source_item_id": 46268374,
+      "source_url": "https://news.ycombinator.com/item?id=46268374",
+      "author": "Eikon",
+      "shared_at": 1765755558,
+      "links": [
+        "https://github.com/Barre/ZeroFS"
+      ]
+    }
+  ]
+}

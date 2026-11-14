@@ -1,0 +1,35 @@
+{
+  "id": 3660,
+  "slug": "logging24-2175a07f52",
+  "name": "logging24",
+  "mentions": [
+    {
+      "name": "logging24",
+      "description": "High-performance observability / log analysis SaaS built on regex scanning at over 200GB/s, making scans so fast and cheap that any numeric value in log text can serve as a metric and tracing becomes unnecessary in favor of logging and filtering more things. Features arbitrary-resolution histograms with the ability to drill down from histogram pixels back to the underlying logs, eliminates metric cardinality explosion, and removes the need to instrument code three times for logs, metrics and traces. A planned next feature is needle-in-a-haystack searches, supported by data block headers.",
+      "problem": "Traditional observability requires instrumenting everything three times for logs, metrics and traces, and metric cardinality explosion limits what can be measured.",
+      "audience": null,
+      "builder_usernames": [
+        "Drahflow"
+      ],
+      "source_excerpt": "Continuing to work on a high-performance observability / log analysis SaaS:\n\nhttps://logging24.com/landing_a/",
+      "evidence": [
+        {
+          "source_item_id": 48530548,
+          "source_field": "body",
+          "value": "Continuing to work on a high-performance observability / log analysis SaaS:\n\nhttps://logging24.com/landing_a/",
+          "supports": [],
+          "author": "Drahflow",
+          "shared_at": 1781460367,
+          "source_url": "https://news.ycombinator.com/item?id=48530548"
+        }
+      ],
+      "source_item_id": 48530548,
+      "source_url": "https://news.ycombinator.com/item?id=48530548",
+      "author": "Drahflow",
+      "shared_at": 1781460367,
+      "links": [
+        "https://logging24.com/landing_a/"
+      ]
+    }
+  ]
+}

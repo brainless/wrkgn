@@ -1,0 +1,63 @@
+{
+  "id": 2817,
+  "slug": "us-parcel-layer-f668b16854",
+  "name": "US Parcel Layer",
+  "mentions": [
+    {
+      "name": "US Parcel Layer",
+      "description": "A nationwide US parcel dataset that aggregates public land records from over 3,200 US counties, assembled largely using LLMs and agents to automate data acquisition and aggregation. It is published on Kaggle to make quality parcel data more accessible and affordable.",
+      "problem": "Incumbent data vendors charge $90k+ for parcel data because it has to be acquired and aggregated from 3,200+ US counties.",
+      "audience": "Trying to make quality parcel data accessible to everyone",
+      "builder_usernames": [
+        "tjwebbnorfolk"
+      ],
+      "source_excerpt": "I'm working on a nationwide US parcel dataset: https://www.kaggle.com/datasets/landrecordsus/us-parcel-layer.",
+      "evidence": [
+        {
+          "source_item_id": 48888027,
+          "source_field": "body",
+          "value": "I'm working on a nationwide US parcel dataset: https://www.kaggle.com/datasets/landrecordsus/us-parcel-layer.",
+          "supports": [],
+          "author": "tjwebbnorfolk",
+          "shared_at": 1783917935,
+          "source_url": "https://news.ycombinator.com/item?id=48888027"
+        }
+      ],
+      "source_item_id": 48888027,
+      "source_url": "https://news.ycombinator.com/item?id=48888027",
+      "author": "tjwebbnorfolk",
+      "shared_at": 1783917935,
+      "links": [
+        "https://www.kaggle.com/datasets/landrecordsus/us-parcel-layer"
+      ]
+    },
+    {
+      "name": "US Nationwide Land Parcel Dataset",
+      "description": "This dataset compiles US land parcel records into a nationwide layer, reaching roughly 99% coverage of the United States after a year of gathering land records and GIS data, and is published on Kaggle for download.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "tjwebbnorfolk"
+      ],
+      "source_excerpt": "I've spent the past ~year compiling a US nationwide land parcel dataset. I posted it to kaggle a few days ago: https://www.kaggle.com/datasets/landrecordsus/us-parcel-layer.",
+      "evidence": [
+        {
+          "source_item_id": 46582045,
+          "source_field": "body",
+          "value": "I've spent the past ~year compiling a US nationwide land parcel dataset. I posted it to kaggle a few days ago: https://www.kaggle.com/datasets/landrecordsus/us-parcel-layer.",
+          "supports": [],
+          "author": "tjwebbnorfolk",
+          "shared_at": 1768177047,
+          "source_url": "https://news.ycombinator.com/item?id=46582045"
+        }
+      ],
+      "source_item_id": 46582045,
+      "source_url": "https://news.ycombinator.com/item?id=46582045",
+      "author": "tjwebbnorfolk",
+      "shared_at": 1768177047,
+      "links": [
+        "https://www.kaggle.com/datasets/landrecordsus/us-parcel-layer"
+      ]
+    }
+  ]
+}

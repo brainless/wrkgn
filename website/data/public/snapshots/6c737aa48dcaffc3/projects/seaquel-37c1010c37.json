@@ -1,0 +1,63 @@
+{
+  "id": 5650,
+  "slug": "seaquel-37c1010c37",
+  "name": "Seaquel",
+  "mentions": [
+    {
+      "name": "Seaquel",
+      "description": "A data management platform with a desktop client, plus an optionally self-hostable server binary that lets customers share dashboards publicly and run workflow automations.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "mikenikles"
+      ],
+      "source_excerpt": "Month 4 of building a data management platform called Seaquel [1].\n\nMonths 1-3 were about building a desktop client. Now I'm working on a server binary customers can optionally self-host to share dashboards publicly and run workflow automations.",
+      "evidence": [
+        {
+          "source_item_id": 47746600,
+          "source_field": "body",
+          "value": "Month 4 of building a data management platform called Seaquel [1].\n\nMonths 1-3 were about building a desktop client. Now I'm working on a server binary customers can optionally self-host to share dashboards publicly and run workflow automations.",
+          "supports": [],
+          "author": "mikenikles",
+          "shared_at": 1776044851,
+          "source_url": "https://news.ycombinator.com/item?id=47746600"
+        }
+      ],
+      "source_item_id": 47746600,
+      "source_url": "https://news.ycombinator.com/item?id=47746600",
+      "author": "mikenikles",
+      "shared_at": 1776044851,
+      "links": [
+        "https://seaquel.app/"
+      ]
+    },
+    {
+      "name": "Seaquel",
+      "description": "Seaquel is an open source database client that works offline and doesn't track user activity. It includes a visual query builder and a separate SQL tutorial.",
+      "problem": "The author wished for a database client that is open source, works offline, and doesn't track what you do.",
+      "audience": null,
+      "builder_usernames": [
+        "mikenikles"
+      ],
+      "source_excerpt": "I build Seaquel, the database client I've always wished I had. It's open source, works offline and doesn't track what you do.\n\nIt has a visual query builder and separate SQL tutorial.\n\nhttps://seaquel.app",
+      "evidence": [
+        {
+          "source_item_id": 47307690,
+          "source_field": "body",
+          "value": "I build Seaquel, the database client I've always wished I had. It's open source, works offline and doesn't track what you do.\n\nIt has a visual query builder and separate SQL tutorial.\n\nhttps://seaquel.app",
+          "supports": [],
+          "author": "mikenikles",
+          "shared_at": 1773056054,
+          "source_url": "https://news.ycombinator.com/item?id=47307690"
+        }
+      ],
+      "source_item_id": 47307690,
+      "source_url": "https://news.ycombinator.com/item?id=47307690",
+      "author": "mikenikles",
+      "shared_at": 1773056054,
+      "links": [
+        "https://seaquel.app"
+      ]
+    }
+  ]
+}

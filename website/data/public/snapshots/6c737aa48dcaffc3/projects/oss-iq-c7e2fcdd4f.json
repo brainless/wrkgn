@@ -1,0 +1,36 @@
+{
+  "id": 6316,
+  "slug": "oss-iq-c7e2fcdd4f",
+  "name": "OSS IQ",
+  "mentions": [
+    {
+      "name": "OSS IQ",
+      "description": "An open-source dependencies audit tool that helps engineering teams keep their NPM and PyPI dependencies healthy in a controlled, deterministic way, shifting focus from reactive CVE noise suppression toward leading indicators for a sustainable, predictable development cycle.",
+      "problem": "Dependency auditing today is dominated by reactive CVE noise suppression rather than leading indicators that support a sustainable, predictable development cycle.",
+      "audience": "Engineering teams that need to keep their NPM and PyPI dependencies healthy",
+      "builder_usernames": [
+        "maxk85"
+      ],
+      "source_excerpt": "I've been working on OSS IQ Dependencies audit tool to help engineering teams keep their NPM and PyPI dependencies healthy in a controlled, deterministic way. The goal is to shift the focus away from reactive CVE noise suppression and more toward leading indicators that support a more sustainable, predictable development cycle without reliance.",
+      "evidence": [
+        {
+          "source_item_id": 47322067,
+          "source_field": "body",
+          "value": "I've been working on OSS IQ Dependencies audit tool to help engineering teams keep their NPM and PyPI dependencies healthy in a controlled, deterministic way. The goal is to shift the focus away from reactive CVE noise suppression and more toward leading indicators that support a more sustainable, predictable development cycle without reliance.",
+          "supports": [],
+          "author": "maxk85",
+          "shared_at": 1773144098,
+          "source_url": "https://news.ycombinator.com/item?id=47322067"
+        }
+      ],
+      "source_item_id": 47322067,
+      "source_url": "https://news.ycombinator.com/item?id=47322067",
+      "author": "maxk85",
+      "shared_at": 1773144098,
+      "links": [
+        "https://github.com/ossiq/ossiq",
+        "https://ossiq.dev"
+      ]
+    }
+  ]
+}

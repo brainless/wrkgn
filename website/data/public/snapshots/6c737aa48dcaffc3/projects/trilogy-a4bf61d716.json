@@ -1,0 +1,147 @@
+{
+  "id": 2751,
+  "slug": "trilogy-a4bf61d716",
+  "name": "Trilogy typed SQL engine",
+  "mentions": [
+    {
+      "name": "Trilogy typed SQL engine",
+      "description": "A typed SQL engine. The author applies agent-assisted Lean formalization alongside previous fuzz coverage to surface untested case interactions and flush out null behavior in the engine.",
+      "problem": "Edge-case interactions and null behavior in the SQL engine that had not yet been encountered in the wild.",
+      "audience": null,
+      "builder_usernames": [
+        "efromvt"
+      ],
+      "source_excerpt": "Late the bandwagon but have been experimenting with agent assisted lean/formalization for the first time; it's been surprisingly high ROI vs previous fuzz coverage and has forced me to think through some interactions of cases that  I hadn't yet encountered in the wild. Very useful for flushing out null behavior in my typed SQL engine [1].",
+      "evidence": [
+        {
+          "source_item_id": 50420691,
+          "source_field": "body",
+          "value": "Late the bandwagon but have been experimenting with agent assisted lean/formalization for the first time; it's been surprisingly high ROI vs previous fuzz coverage and has forced me to think through some interactions of cases that  I hadn't yet encountered in the wild. Very useful for flushing out null behavior in my typed SQL engine [1].",
+          "supports": [],
+          "author": "efromvt",
+          "shared_at": 1794194949,
+          "source_url": "https://news.ycombinator.com/item?id=50420691"
+        }
+      ],
+      "source_item_id": 50420691,
+      "source_url": "https://news.ycombinator.com/item?id=50420691",
+      "author": "efromvt",
+      "shared_at": 1794194949,
+      "links": [
+        "https://trilogydata.dev/"
+      ]
+    },
+    {
+      "name": "Trilogy",
+      "description": "Trilogy is a typed SQL language with composable functions of arbitrary complexity and a native semantic layer. Current work optimizes how well AI agents work with the language, achieving a 2-3x higher success rate and significantly lower total token usage on complex tasks, with the agent-focused design changes also measurably improving ergonomics for human users.",
+      "problem": "AI agents have low success rates and high token consumption when working with a new language on complex tasks, and the language's initial syntax dump is currently rough and needs reduction via ablation.",
+      "audience": null,
+      "builder_usernames": [
+        "efromvt"
+      ],
+      "source_excerpt": "Same as last month for once - optimizing how well agents can work with a new language [1]. I've been able to 2-3x success rate and drop total tokens for complex tasks significantly (though the initial syntax dump is rough - need to do some ablation there to get it down).\n\nThe best part has been that I think it's significantly improved things for humans too; it's weirdly satisfying to be able to measure improved ergonomics. Also, since a big pitch/theory was that the language should be ideal for agents as a result of the original nice things for humans it was designed for, it's a relief to be able actually measure a concrete lift.\n\n[1] https://trilogydata.dev/ - SQL with types, composable functions of arbitrary complexity, and a native semantic layer.",
+      "evidence": [
+        {
+          "source_item_id": 48887590,
+          "source_field": "body",
+          "value": "Same as last month for once - optimizing how well agents can work with a new language [1]. I've been able to 2-3x success rate and drop total tokens for complex tasks significantly (though the initial syntax dump is rough - need to do some ablation there to get it down).\n\nThe best part has been that I think it's significantly improved things for humans too; it's weirdly satisfying to be able to measure improved ergonomics. Also, since a big pitch/theory was that the language should be ideal for agents as a result of the original nice things for humans it was designed for, it's a relief to be able actually measure a concrete lift.\n\n[1] https://trilogydata.dev/ - SQL with types, composable functions of arbitrary complexity, and a native semantic layer.",
+          "supports": [],
+          "author": "efromvt",
+          "shared_at": 1783913887,
+          "source_url": "https://news.ycombinator.com/item?id=48887590"
+        }
+      ],
+      "source_item_id": 48887590,
+      "source_url": "https://news.ycombinator.com/item?id=48887590",
+      "author": "efromvt",
+      "shared_at": 1783913887,
+      "links": [
+        "https://trilogydata.dev/"
+      ]
+    },
+    {
+      "name": "Trilogy",
+      "description": "Trilogy is a streamlined SQL language. Its grammar is being improved and simplified by optimizing the CLI for cheap agent use, with integrated agentic features that avoid a full chat interface. Agent-driven testing gives rapid feedback on syntax success rates for feature redesigns, and error messages are being optimized to be more helpful to users.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "efromvt"
+      ],
+      "source_excerpt": "Been doing this to improve/simplify the grammar for Trilogy[1], a streamlined SQL language - I’ve been planning a redo of one feature and it’s nice to be able to rapidly get feedback on various syntax success rates. Also been particularly useful to optimize error messages, which should help people too.",
+      "evidence": [
+        {
+          "source_item_id": 48531452,
+          "source_field": "body",
+          "value": "Been doing this to improve/simplify the grammar for Trilogy[1], a streamlined SQL language - I’ve been planning a redo of one feature and it’s nice to be able to rapidly get feedback on various syntax success rates. Also been particularly useful to optimize error messages, which should help people too.",
+          "supports": [],
+          "author": "efromvt",
+          "shared_at": 1781464469,
+          "source_url": "https://news.ycombinator.com/item?id=48531452"
+        }
+      ],
+      "source_item_id": 48531452,
+      "source_url": "https://news.ycombinator.com/item?id=48531452",
+      "author": "efromvt",
+      "shared_at": 1781464469,
+      "links": [
+        "https://trilogydata.dev/"
+      ]
+    },
+    {
+      "name": "Trilogy",
+      "description": "A streamlined, composable SQL variant with CLI, ETL, and scheduling support for building data pipelines. Its model also works well for agents, with CLI and UI products layered on top of the core.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "efromvt"
+      ],
+      "source_excerpt": "For my streamlined, composable SQL variant - Trilogy[1] - spent the last month or two very focused on CLI/ETL/scheduling to support data pipelines for other hobby projects.",
+      "evidence": [
+        {
+          "source_item_id": 48090378,
+          "source_field": "body",
+          "value": "For my streamlined, composable SQL variant - Trilogy[1] - spent the last month or two very focused on CLI/ETL/scheduling to support data pipelines for other hobby projects.",
+          "supports": [],
+          "author": "efromvt",
+          "shared_at": 1778466199,
+          "source_url": "https://news.ycombinator.com/item?id=48090378"
+        }
+      ],
+      "source_item_id": 48090378,
+      "source_url": "https://news.ycombinator.com/item?id=48090378",
+      "author": "efromvt",
+      "shared_at": 1778466199,
+      "links": [
+        "https://trilogydata.dev/"
+      ]
+    },
+    {
+      "name": "Trilogy Data",
+      "description": "Data productivity tooling that avoids YAML, centered on CLI tooling as an interface suited to agentic use with AI coding assistants like Claude Code, with planned empirical evaluation of MCP versus CLI success rates.",
+      "problem": "Existing data productivity tooling relies on YAML; this project builds YAML-free alternatives with a CLI-first interface for agentic workflows.",
+      "audience": null,
+      "builder_usernames": [
+        "efromvt"
+      ],
+      "source_excerpt": "Still experimenting with data productivity tooling that doesn't rely on YAML. Been refocused on CLI tooling as a good interface for agentic use recently since Claude Code has gotten so good. Need to do some empirical evaluation on MCP/CLI success rates.\n\nhttps://trilogydata.dev/",
+      "evidence": [
+        {
+          "source_item_id": 46274239,
+          "source_field": "body",
+          "value": "Still experimenting with data productivity tooling that doesn't rely on YAML. Been refocused on CLI tooling as a good interface for agentic use recently since Claude Code has gotten so good. Need to do some empirical evaluation on MCP/CLI success rates.\n\nhttps://trilogydata.dev/",
+          "supports": [],
+          "author": "efromvt",
+          "shared_at": 1765805257,
+          "source_url": "https://news.ycombinator.com/item?id=46274239"
+        }
+      ],
+      "source_item_id": 46274239,
+      "source_url": "https://news.ycombinator.com/item?id=46274239",
+      "author": "efromvt",
+      "shared_at": 1765805257,
+      "links": [
+        "https://trilogydata.dev/"
+      ]
+    }
+  ]
+}

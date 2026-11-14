@@ -1,0 +1,63 @@
+{
+  "id": 4445,
+  "slug": "kantoku-crowdsourcing-data-collector-1a0de2079b",
+  "name": "Kantoku crowdsourcing data collector",
+  "mentions": [
+    {
+      "name": "Kantoku crowdsourcing data collector",
+      "description": "This crowdsourcing website collects vector-format drawings of Japanese kanji characters from random people on the internet to build a free and open dataset. It supplements the Kantoku kanji recognition model, and will be released to a server once prototype experiments are complete.",
+      "problem": "Free and open data for Japanese kanji characters in vector format doesn't exist; KanjiVG only has one sample per character and dozens are needed.",
+      "audience": null,
+      "builder_usernames": [
+        "runarberg"
+      ],
+      "source_excerpt": "I plan an working with free and open data, which I don‘t think exists for japanese kanji characters (at least not in vector format; KanjiVG only has one sample per character and I need dozens) so I also build a crowdsourcing web site to collect data from random people on the internet.",
+      "evidence": [
+        {
+          "source_item_id": 48088382,
+          "source_field": "body",
+          "value": "I plan an working with free and open data, which I don‘t think exists for japanese kanji characters (at least not in vector format; KanjiVG only has one sample per character and I need dozens) so I also build a crowdsourcing web site to collect data from random people on the internet.",
+          "supports": [],
+          "author": "runarberg",
+          "shared_at": 1778449293,
+          "source_url": "https://news.ycombinator.com/item?id=48088382"
+        }
+      ],
+      "source_item_id": 48088382,
+      "source_url": "https://news.ycombinator.com/item?id=48088382",
+      "author": "runarberg",
+      "shared_at": 1778449293,
+      "links": [
+        "https://github.com/runarberg/kantoku-collector"
+      ]
+    },
+    {
+      "name": "Kantoku collector (crowdsourced kanji stroke-data app)",
+      "description": "A crowdsourcing web app that collects vector-format Japanese kanji handwriting samples from random people on the internet, to build the free and open training dataset the kanji recognition model needs (dozens of samples per character, more than KanjiVG's single sample per character). Planned for release to a server after more prototype experiments.",
+      "problem": "Free and open vector-format training data for Japanese kanji characters doesn't exist; KanjiVG only has one sample per character and dozens are needed.",
+      "audience": null,
+      "builder_usernames": [
+        "runarberg"
+      ],
+      "source_excerpt": "I plan an working with free and open data, which I don‘t think exists for japanese kanji characters (at least not in vector format; KanjiVG only has one sample per character and I need dozens) so I also build a crowdsourcing web site to collect data from random people on the internet.",
+      "evidence": [
+        {
+          "source_item_id": 48025683,
+          "source_field": "body",
+          "value": "I plan an working with free and open data, which I don‘t think exists for japanese kanji characters (at least not in vector format; KanjiVG only has one sample per character and I need dozens) so I also build a crowdsourcing web site to collect data from random people on the internet.",
+          "supports": [],
+          "author": "runarberg",
+          "shared_at": 1778002072,
+          "source_url": "https://news.ycombinator.com/item?id=48025683"
+        }
+      ],
+      "source_item_id": 48025683,
+      "source_url": "https://news.ycombinator.com/item?id=48025683",
+      "author": "runarberg",
+      "shared_at": 1778002072,
+      "links": [
+        "https://github.com/runarberg/kantoku-collector"
+      ]
+    }
+  ]
+}

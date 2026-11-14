@@ -1,0 +1,35 @@
+{
+  "id": 8314,
+  "slug": "npmdigest-fb7a29c889",
+  "name": "npmdigest",
+  "mentions": [
+    {
+      "name": "npmdigest",
+      "description": "A micro-SaaS that digests npm's 'Successfully published X' emails, sparing package authors from notification spam when releasing new versions of their packages.",
+      "problem": "Getting spammed by npm emails saying 'Successfully published X' whenever releasing new versions of packages.",
+      "audience": null,
+      "builder_usernames": [
+        "dgellow"
+      ],
+      "source_excerpt": "Yesterday I released https://npmdigest.com, a micro-SaaS to work around the frustrating experience of getting spammed by npm emails \"Successfully published X\" whenever I release new versions of my packages.",
+      "evidence": [
+        {
+          "source_item_id": 46268260,
+          "source_field": "body",
+          "value": "Yesterday I released https://npmdigest.com, a micro-SaaS to work around the frustrating experience of getting spammed by npm emails \"Successfully published X\" whenever I release new versions of my packages.",
+          "supports": [],
+          "author": "dgellow",
+          "shared_at": 1765754797,
+          "source_url": "https://news.ycombinator.com/item?id=46268260"
+        }
+      ],
+      "source_item_id": 46268260,
+      "source_url": "https://news.ycombinator.com/item?id=46268260",
+      "author": "dgellow",
+      "shared_at": 1765754797,
+      "links": [
+        "https://npmdigest.com"
+      ]
+    }
+  ]
+}

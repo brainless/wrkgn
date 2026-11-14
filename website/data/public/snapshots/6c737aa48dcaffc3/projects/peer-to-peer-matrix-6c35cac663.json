@@ -1,0 +1,35 @@
+{
+  "id": 9044,
+  "slug": "peer-to-peer-matrix-6c35cac663",
+  "name": "Peer-to-peer Matrix",
+  "mentions": [
+    {
+      "name": "Peer-to-peer Matrix",
+      "description": "This project resurrects peer-to-peer Matrix, a decentralized communication architecture now funded by the Dutch government since October. It is evaluating which P2P overlay network to use, if any: the prior incarnation used Pinecone (a variant of Yggdrasil), while the new approach considers using Matrix itself as the backbone to connect small local P2P meshes, routing via Matrix by default and falling back to direct connections over LAN or Bluetooth (BLE) when that fails.",
+      "problem": "Determining which P2P overlay network to use for peer-to-peer Matrix, if any, with the goal of keeping the architecture simpler and more scalable than the previous Pinecone-based incarnation.",
+      "audience": null,
+      "builder_usernames": [
+        "Arathorn"
+      ],
+      "source_excerpt": "I'm resurrecting peer-to-peer Matrix (https://arewep2pyet.com) thanks to the Dutch government, who started funding it in October.\n\nThe main question is which P2P overlay network to use, if any: the prior incarnation used Pinecone (a variant of Yggdrasil), whereas this time we're pondering keeping it simpler and more scalable and using Matrix itself as the backbone to connect together smallish local P2P meshes - so by default you try to route via Matrix, but failing that you look on your LAN or BLE to see if you can talk directly to whoever you're addressing.",
+      "evidence": [
+        {
+          "source_item_id": 45869528,
+          "source_field": "body",
+          "value": "I'm resurrecting peer-to-peer Matrix (https://arewep2pyet.com) thanks to the Dutch government, who started funding it in October.\n\nThe main question is which P2P overlay network to use, if any: the prior incarnation used Pinecone (a variant of Yggdrasil), whereas this time we're pondering keeping it simpler and more scalable and using Matrix itself as the backbone to connect together smallish local P2P meshes - so by default you try to route via Matrix, but failing that you look on your LAN or BLE to see if you can talk directly to whoever you're addressing.",
+          "supports": [],
+          "author": "Arathorn",
+          "shared_at": 1762724943,
+          "source_url": "https://news.ycombinator.com/item?id=45869528"
+        }
+      ],
+      "source_item_id": 45869528,
+      "source_url": "https://news.ycombinator.com/item?id=45869528",
+      "author": "Arathorn",
+      "shared_at": 1762724943,
+      "links": [
+        "https://arewep2pyet.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 9244,
+  "slug": "vim-syntax-nftables-8195f89b1d",
+  "name": "vim-syntax-nftables",
+  "mentions": [
+    {
+      "name": "vim-syntax-nftables",
+      "description": "A Vim/NeoVim syntax highlighting plugin for nftables firewall rules that groups statements within a rule and emphasizes the keywords that start each statement, works with any user color scheme and background, and installs via simple `make install`/`make uninstall` without requiring plugin managers like Vundle. Built on a purely deterministic LL(1) full semantic parser with over 2,500 semantic nodes and 15,000 syntax match statements, rendering in under 5ms; nearly complete except for a few esoteric nftables features such as synproxy.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "egberts1"
+      ],
+      "source_excerpt": "Highlighting the nftables rules.  For Vim/NeoVim editor, using your own color scheme and background.\n\nLike grouping statements together within a rule with heavier emphasis on keywords that starts each of its statement.\n\nEven has the easiest Vim installer, `make install`/`make uninstall`; none of that funky Vundle, or other relatively unknown Vim packagers.\n\nHas over 2,500 semantic nodes, 15,000 syntax match statements, and under 5ms rendering.\n\nThis is a purely deterministic LL(1) full semantic parser.",
+      "evidence": [
+        {
+          "source_item_id": 45925893,
+          "source_field": "body",
+          "value": "Highlighting the nftables rules.  For Vim/NeoVim editor, using your own color scheme and background.\n\nLike grouping statements together within a rule with heavier emphasis on keywords that starts each of its statement.\n\nEven has the easiest Vim installer, `make install`/`make uninstall`; none of that funky Vundle, or other relatively unknown Vim packagers.\n\nHas over 2,500 semantic nodes, 15,000 syntax match statements, and under 5ms rendering.\n\nThis is a purely deterministic LL(1) full semantic parser.",
+          "supports": [],
+          "author": "egberts1",
+          "shared_at": 1763120549,
+          "source_url": "https://news.ycombinator.com/item?id=45925893"
+        }
+      ],
+      "source_item_id": 45925893,
+      "source_url": "https://news.ycombinator.com/item?id=45925893",
+      "author": "egberts1",
+      "shared_at": 1763120549,
+      "links": [
+        "https://github.com/egberts/vim-syntax-nftables"
+      ]
+    }
+  ]
+}

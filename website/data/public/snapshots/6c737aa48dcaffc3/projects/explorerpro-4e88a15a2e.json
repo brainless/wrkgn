@@ -1,0 +1,35 @@
+{
+  "id": 5289,
+  "slug": "explorerpro-4e88a15a2e",
+  "name": "ExplorerPRO",
+  "mentions": [
+    {
+      "name": "ExplorerPRO",
+      "description": "A system built on the OpenAI Responses API WebSocket mode, structured as a microservices architecture with NATS JetStream coordinating services. Its worker core manages open sockets, threads, and continuations, and can pin documents to sockets as subagents that are invoked on demand. Warm sockets (e.g., ten documents on GPT 5.4 nano) let the main thread query documents in parallel, enabling cheaper models for cheaper tasks, input caching, and lower latency. A frontend is included, with design notes and documentation in the linked repo docs.",
+      "problem": "Performance and latency in LLM API interactions; the build hit issues along the way such as infinite loops when calling the OpenAI API.",
+      "audience": null,
+      "builder_usernames": [
+        "sasipi247"
+      ],
+      "source_excerpt": "I am working on a system built around the OpenAI Responses API WebSocket mode as performance is something that interests me.\n\nIts like a microservices architecture with NATS JetStream coordinating stuff. I want to keep the worker core as clean as possible, just managing open sockets, threads and continuation.",
+      "evidence": [
+        {
+          "source_item_id": 47745174,
+          "source_field": "body",
+          "value": "I am working on a system built around the OpenAI Responses API WebSocket mode as performance is something that interests me.\n\nIts like a microservices architecture with NATS JetStream coordinating stuff. I want to keep the worker core as clean as possible, just managing open sockets, threads and continuation.",
+          "supports": [],
+          "author": "sasipi247",
+          "shared_at": 1776032538,
+          "source_url": "https://news.ycombinator.com/item?id=47745174"
+        }
+      ],
+      "source_item_id": 47745174,
+      "source_url": "https://news.ycombinator.com/item?id=47745174",
+      "author": "sasipi247",
+      "shared_at": 1776032538,
+      "links": [
+        "https://github.com/SamSam12121212/ExplorerPRO/tree/main/docs"
+      ]
+    }
+  ]
+}

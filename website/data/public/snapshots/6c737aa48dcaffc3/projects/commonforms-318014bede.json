@@ -1,0 +1,35 @@
+{
+  "id": 9775,
+  "slug": "commonforms-318014bede",
+  "name": "CommonForms",
+  "mentions": [
+    {
+      "name": "CommonForms",
+      "description": "CommonForms is a dataset and paper for training ML models on PDF forms. It was built by scraping CommonCrawl for hundreds of thousands of fillable form pages, which are used as a training set for form field detection.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jbarrow"
+      ],
+      "source_excerpt": "That’s built on a dataset and paper I wrote called CommonForms, where I scraped CommonCrawl for hundreds of thousands of fillable form pages and used that as a training set:\n\nhttps://arxiv.org/abs/2509.16506",
+      "evidence": [
+        {
+          "source_item_id": 45566892,
+          "source_field": "body",
+          "value": "That’s built on a dataset and paper I wrote called CommonForms, where I scraped CommonCrawl for hundreds of thousands of fillable form pages and used that as a training set:\n\nhttps://arxiv.org/abs/2509.16506",
+          "supports": [],
+          "author": "jbarrow",
+          "shared_at": 1760352027,
+          "source_url": "https://news.ycombinator.com/item?id=45566892"
+        }
+      ],
+      "source_item_id": 45566892,
+      "source_url": "https://news.ycombinator.com/item?id=45566892",
+      "author": "jbarrow",
+      "shared_at": 1760352027,
+      "links": [
+        "https://arxiv.org/abs/2509.16506"
+      ]
+    }
+  ]
+}

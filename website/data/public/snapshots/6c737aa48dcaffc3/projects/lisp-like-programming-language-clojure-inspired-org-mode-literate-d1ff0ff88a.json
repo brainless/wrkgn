@@ -1,0 +1,33 @@
+{
+  "id": 9045,
+  "slug": "lisp-like-programming-language-clojure-inspired-org-mode-literate-d1ff0ff88a",
+  "name": "Lisp-like programming language (Clojure-inspired, org-mode literate)",
+  "mentions": [
+    {
+      "name": "Lisp-like programming language (Clojure-inspired, org-mode literate)",
+      "description": "A Lisp-like programming language with Clojure-inspired syntax that aims to emulate the interactivity of SBCL. It is designed for minimal dependencies, bootstrapped from a very small core written in Common Lisp plus FSet, which is then used to bootstrap the rest of the language. The project makes no performance claims and is framed as an educational experience, developed entirely through literate programming in org-mode.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rootnod3"
+      ],
+      "source_excerpt": "I am working on my own Lisp-like language (cliche, I know). Goal is a hybrid. Syntax is a bit more Clojure inspired, but want to emulate the interactivity of SBCL once I am done.",
+      "evidence": [
+        {
+          "source_item_id": 45876565,
+          "source_field": "body",
+          "value": "I am working on my own Lisp-like language (cliche, I know). Goal is a hybrid. Syntax is a bit more Clojure inspired, but want to emulate the interactivity of SBCL once I am done.",
+          "supports": [],
+          "author": "rootnod3",
+          "shared_at": 1762786378,
+          "source_url": "https://news.ycombinator.com/item?id=45876565"
+        }
+      ],
+      "source_item_id": 45876565,
+      "source_url": "https://news.ycombinator.com/item?id=45876565",
+      "author": "rootnod3",
+      "shared_at": 1762786378,
+      "links": []
+    }
+  ]
+}

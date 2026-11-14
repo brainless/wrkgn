@@ -1,0 +1,33 @@
+{
+  "id": 7534,
+  "slug": "ftc-nimh-battery-tester-pcb-e95ddffb9c",
+  "name": "FTC NiMH Battery Tester PCB",
+  "mentions": [
+    {
+      "name": "FTC NiMH Battery Tester PCB",
+      "description": "This custom PCB reads the voltage and internal resistance of the 12V NiMH batteries used by FIRST Tech Challenge robots, showing battery charge and health via a WS2812B RGB LED instead of a screen. It is small, easy to assemble, runs on an ATTiny412, and uses Arduino firmware.",
+      "problem": "It's not always easy to know how charged or healthy a NiMH battery is for a match, or when it's time to get rid of it.",
+      "audience": "FIRST Tech Challenge teams",
+      "builder_usernames": [
+        "radeeyate"
+      ],
+      "source_excerpt": "I designed custom PCBs which read the voltage and internal resistance of the 12V NiMH batteries used by robots in FIRST Tech Challenge.",
+      "evidence": [
+        {
+          "source_item_id": 46578120,
+          "source_field": "body",
+          "value": "I designed custom PCBs which read the voltage and internal resistance of the 12V NiMH batteries used by robots in FIRST Tech Challenge.",
+          "supports": [],
+          "author": "radeeyate",
+          "shared_at": 1768155659,
+          "source_url": "https://news.ycombinator.com/item?id=46578120"
+        }
+      ],
+      "source_item_id": 46578120,
+      "source_url": "https://news.ycombinator.com/item?id=46578120",
+      "author": "radeeyate",
+      "shared_at": 1768155659,
+      "links": []
+    }
+  ]
+}

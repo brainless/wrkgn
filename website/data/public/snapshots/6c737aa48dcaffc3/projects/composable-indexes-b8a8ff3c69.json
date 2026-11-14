@@ -1,0 +1,35 @@
+{
+  "id": 8219,
+  "slug": "composable-indexes-b8a8ff3c69",
+  "name": "composable-indexes",
+  "mentions": [
+    {
+      "name": "composable-indexes",
+      "description": "A Rust library for indexing a collection on multiple dimensions in a type-safe and composable manner, providing a safer and more concise alternative to maintaining multiple HashMaps while being less involved and simpler than an in-memory SQLite.",
+      "problem": "Maintaining multiple HashMaps is unsafe and verbose, while in-memory SQLite is too involved for simple multi-dimensional indexing of collections.",
+      "audience": null,
+      "builder_usernames": [
+        "utdemir"
+      ],
+      "source_excerpt": "Trying to make my Rust library `composable-indexes` more ergonomic. It is for indexing a collection on multiple dimensions in a type-safe and composable manner.",
+      "evidence": [
+        {
+          "source_item_id": 46266989,
+          "source_field": "body",
+          "value": "Trying to make my Rust library `composable-indexes` more ergonomic. It is for indexing a collection on multiple dimensions in a type-safe and composable manner.",
+          "supports": [],
+          "author": "utdemir",
+          "shared_at": 1765746887,
+          "source_url": "https://news.ycombinator.com/item?id=46266989"
+        }
+      ],
+      "source_item_id": 46266989,
+      "source_url": "https://news.ycombinator.com/item?id=46266989",
+      "author": "utdemir",
+      "shared_at": 1765746887,
+      "links": [
+        "https://github.com/utdemir/composable-indexes"
+      ]
+    }
+  ]
+}

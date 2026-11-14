@@ -1,0 +1,35 @@
+{
+  "id": 6142,
+  "slug": "stuffer-fdecd3d417",
+  "name": "Stuffer",
+  "mentions": [
+    {
+      "name": "Stuffer",
+      "description": "A web-based inventory management app where every item is a container with unlimited nesting. Data is stored in the browser with YJS and synced via clunky peer.js or manual file sync. Items can be added by scanning QR codes or via NFC on Chrome mobile; it generates random printable QR sheets, tracks where an item was last scanned with GPS, saves container contents as loadouts to check against, and warns when a container marked as needing re-inventory has contents not re-added.",
+      "problem": "Tracking rarely accessed items with no obvious place and making sure gear brought to events comes back with you.",
+      "audience": null,
+      "builder_usernames": [
+        "eternityforest"
+      ],
+      "source_excerpt": "A web based inventory management app.  I've wanted to try something like this for a long time, but it always seemed completely impractical to spend a few weeks on before AI, without knowing if the entire idea is actually practical.",
+      "evidence": [
+        {
+          "source_item_id": 47338343,
+          "source_field": "body",
+          "value": "A web based inventory management app.  I've wanted to try something like this for a long time, but it always seemed completely impractical to spend a few weeks on before AI, without knowing if the entire idea is actually practical.",
+          "supports": [],
+          "author": "eternityforest",
+          "shared_at": 1773249286,
+          "source_url": "https://news.ycombinator.com/item?id=47338343"
+        }
+      ],
+      "source_item_id": 47338343,
+      "source_url": "https://news.ycombinator.com/item?id=47338343",
+      "author": "eternityforest",
+      "shared_at": 1773249286,
+      "links": [
+        "https://eternityforest.github.io/Stuffer/"
+      ]
+    }
+  ]
+}

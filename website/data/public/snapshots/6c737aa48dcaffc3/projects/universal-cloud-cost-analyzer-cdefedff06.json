@@ -1,0 +1,33 @@
+{
+  "id": 6768,
+  "slug": "universal-cloud-cost-analyzer-cdefedff06",
+  "name": "Universal cloud cost analyzer",
+  "mentions": [
+    {
+      "name": "Universal cloud cost analyzer",
+      "description": "A tool that pulls pricing data for common cloud services (compute, storage, databases, etc.) across the three major cloud providers (AWS, Azure, GCP) and recommends where to deploy workloads for optimal cost. It is a key component of a \"universal cloud\" concept that abstracts base cloud services into commodities instead of locked-in vendor products: Terraform-like infrastructure code that transposes to whichever destination cloud the cost analyzer selects at execution, with planned auto-migration of workloads as prices or needs change, so users can write once without learning each provider.",
+      "problem": "Base cloud services are bespoke products locked into individual vendors, forcing people to learn Azure/GCP/AWS separately even for bog-standard workloads.",
+      "audience": null,
+      "builder_usernames": [
+        "stego-tech"
+      ],
+      "source_excerpt": "I’m roughing out a method of pulling cost data for common services (compute, storage, databases, etc) across the three major cloud providers and making recommendations as to where to put things for optimal cost; a key component of a “universal cloud” idea I’ve been kicking around since 2020 or so",
+      "evidence": [
+        {
+          "source_item_id": 46939786,
+          "source_field": "body",
+          "value": "I’m roughing out a method of pulling cost data for common services (compute, storage, databases, etc) across the three major cloud providers and making recommendations as to where to put things for optimal cost; a key component of a “universal cloud” idea I’ve been kicking around since 2020 or so",
+          "supports": [],
+          "author": "stego-tech",
+          "shared_at": 1770594214,
+          "source_url": "https://news.ycombinator.com/item?id=46939786"
+        }
+      ],
+      "source_item_id": 46939786,
+      "source_url": "https://news.ycombinator.com/item?id=46939786",
+      "author": "stego-tech",
+      "shared_at": 1770594214,
+      "links": []
+    }
+  ]
+}

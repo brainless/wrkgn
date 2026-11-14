@@ -1,0 +1,35 @@
+{
+  "id": 8168,
+  "slug": "mythos-99aeccabb4",
+  "name": "Mythos",
+  "mentions": [
+    {
+      "name": "Mythos",
+      "description": "An AI-native book reader that understands what you're reading. Highlighting text triggers inferred intent with inline contextual actions, such as auto-suggested questions for confusing paragraphs, spoiler-free character context for names, and concise argument breakdowns with assumptions and counterpoints. Works across EPUBs, PDFs, and papers, with a design principle that AI should be assistive, never intrusive—no prompts required and no context switching.",
+      "problem": "The author reads a lot of dense material and hated breaking flow while reading; this reader keeps assistance inline without prompts or context switching.",
+      "audience": null,
+      "builder_usernames": [
+        "samixg"
+      ],
+      "source_excerpt": "https://mythos.so/\n\nan AI-native book reader that actually understands what you’re reading.\n\nYou highlight text, and the app infers intent and surfaces the right actions inline.",
+      "evidence": [
+        {
+          "source_item_id": 46286745,
+          "source_field": "body",
+          "value": "https://mythos.so/\n\nan AI-native book reader that actually understands what you’re reading.\n\nYou highlight text, and the app infers intent and surfaces the right actions inline.",
+          "supports": [],
+          "author": "samixg",
+          "shared_at": 1765879335,
+          "source_url": "https://news.ycombinator.com/item?id=46286745"
+        }
+      ],
+      "source_item_id": 46286745,
+      "source_url": "https://news.ycombinator.com/item?id=46286745",
+      "author": "samixg",
+      "shared_at": 1765879335,
+      "links": [
+        "https://mythos.so/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 9174,
+  "slug": "consciousness-steered-llm-toolkit-00133fca43",
+  "name": "Consciousness-Steered LLM Toolkit",
+  "mentions": [
+    {
+      "name": "Consciousness-Steered LLM Toolkit",
+      "description": "A suite of tools that trains language models steered toward specific neural oscillation patterns, called \"states of consciousness.\" It includes a model trained on public datasets of brainwave, eye tracking, and text comprehension data, an adapter for various LLM architectures that generates text aligned with those patterns, and a rephraser that rewrites text to elicit the target states. The project explores how text relates to the eigenmodes of consciousness, with planned applications for AI agents and research, public, and private sector uses.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jawerty"
+      ],
+      "source_excerpt": "Currently working on training language models steered towards certain \"states of consciousness\".\n\nI have a model trained on publics datasets tied to brainwaves and/eye tracking and text comprehension (have this working well enough to experiment). Now I am training an adapter for various llm architectures to generate text steered to certain neural oscillation patterns (let's call them \"states of consciousness\" for brevity). I also have a 'rephraser' that rephrases text to elicit these certain states of consciousness.",
+      "evidence": [
+        {
+          "source_item_id": 45870170,
+          "source_field": "body",
+          "value": "Currently working on training language models steered towards certain \"states of consciousness\".\n\nI have a model trained on publics datasets tied to brainwaves and/eye tracking and text comprehension (have this working well enough to experiment). Now I am training an adapter for various llm architectures to generate text steered to certain neural oscillation patterns (let's call them \"states of consciousness\" for brevity). I also have a 'rephraser' that rephrases text to elicit these certain states of consciousness.",
+          "supports": [],
+          "author": "jawerty",
+          "shared_at": 1762729723,
+          "source_url": "https://news.ycombinator.com/item?id=45870170"
+        }
+      ],
+      "source_item_id": 45870170,
+      "source_url": "https://news.ycombinator.com/item?id=45870170",
+      "author": "jawerty",
+      "shared_at": 1762729723,
+      "links": []
+    }
+  ]
+}

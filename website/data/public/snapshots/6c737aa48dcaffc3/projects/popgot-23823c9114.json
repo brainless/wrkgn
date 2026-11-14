@@ -1,0 +1,63 @@
+{
+  "id": 10345,
+  "slug": "popgot-23823c9114",
+  "name": "Popgot",
+  "mentions": [
+    {
+      "name": "Popgot",
+      "description": "A price comparison web app that compares unit prices (per oz/sheet/lb) across Costco, Walmart, Target, and Amazon, normalizing fuzzy packaging sizes (\"family,\" \"mega,\" multipacks) so shoppers see the actually cheapest option for staples. Includes an on-demand deep research mode that crawls thousands of product pages and uses visual LLMs to read label photos (ingredients, counts, square footage) when the text is messy; the first run takes ~60–90 seconds and results are cached afterward. Monetized via 1–4% affiliate fees.",
+      "problem": "Retail listings mix pack sizes (single/4/6/12-packs) and use vague claims like \"3-month\" or \"allergen defense,\" which wreck per-unit price comparisons; messy product text also hides details like ingredient counts.",
+      "audience": "Frugal consumers shopping for household staples across major retailers.",
+      "builder_usernames": [
+        "juxtaposicion"
+      ],
+      "source_excerpt": "I’m building Popgot (https://popgot.com): compare unit prices (per oz/sheet/lb) across Costco, Walmart, Target, and Amazon. We normalize fuzzy sizes (“family,” “mega,” multipacks) so you see the actually cheapest option for staples.\n\nNew: a deep research mode that, on demand, crawls thousands of product pages and uses visual LLMs to read label photos (ingredients, counts, square footage) when the text is messy.",
+      "evidence": [
+        {
+          "source_item_id": 44706116,
+          "source_field": "body",
+          "value": "I’m building Popgot (https://popgot.com): compare unit prices (per oz/sheet/lb) across Costco, Walmart, Target, and Amazon. We normalize fuzzy sizes (“family,” “mega,” multipacks) so you see the actually cheapest option for staples.\n\nNew: a deep research mode that, on demand, crawls thousands of product pages and uses visual LLMs to read label photos (ingredients, counts, square footage) when the text is messy.",
+          "supports": [],
+          "author": "juxtaposicion",
+          "shared_at": 1753663941,
+          "source_url": "https://news.ycombinator.com/item?id=44706116"
+        }
+      ],
+      "source_item_id": 44706116,
+      "source_url": "https://news.ycombinator.com/item?id=44706116",
+      "author": "juxtaposicion",
+      "shared_at": 1753663941,
+      "links": [
+        "https://popgot.com"
+      ]
+    },
+    {
+      "name": "Popgot",
+      "description": "This web tool tracks unit prices (cost per ounce, sheet, pound) for daily essentials across Costco, Walmart, Target, and Amazon and normalizes confusing pack-size listings like 'family size' and 'mega pack' to surface the actual cheapest option. It uses a lightweight AI model to read product descriptions, nutrition facts, and photos to filter listings by ingredients (e.g., BPA in peanut butter packaging, palm oil) or brand lists (e.g., only WSAVA-compliant dog foods), with results still reviewed manually to catch bad extractions. It covers online, shipped non-perishables and is adding automation such as price-drop alerts and restock thresholds.",
+      "problem": "Confusing pack-size listings ('family size', 'mega pack') make it hard to find the true cheapest option, and the author previously tracked bulk purchases in a manual spreadsheet.",
+      "audience": null,
+      "builder_usernames": [
+        "juxtaposicion"
+      ],
+      "source_excerpt": "I’m working on Popgot (https://popgot.com), a tool that tracks unit prices (cost per ounce, sheet, pound) across Costco, Walmart, Target, and Amazon. It normalizes confusing listings (“family size”, “mega pack”, etc.) to surface the actual cheapest option for daily essentials.",
+      "evidence": [
+        {
+          "source_item_id": 43821480,
+          "source_field": "body",
+          "value": "I’m working on Popgot (https://popgot.com), a tool that tracks unit prices (cost per ounce, sheet, pound) across Costco, Walmart, Target, and Amazon. It normalizes confusing listings (“family size”, “mega pack”, etc.) to surface the actual cheapest option for daily essentials.",
+          "supports": [],
+          "author": "juxtaposicion",
+          "shared_at": 1745847901,
+          "source_url": "https://news.ycombinator.com/item?id=43821480"
+        }
+      ],
+      "source_item_id": 43821480,
+      "source_url": "https://news.ycombinator.com/item?id=43821480",
+      "author": "juxtaposicion",
+      "shared_at": 1745847901,
+      "links": [
+        "https://popgot.com"
+      ]
+    }
+  ]
+}

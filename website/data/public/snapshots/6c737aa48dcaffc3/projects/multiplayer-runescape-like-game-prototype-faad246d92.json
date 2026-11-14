@@ -1,0 +1,33 @@
+{
+  "id": 9525,
+  "slug": "multiplayer-runescape-like-game-prototype-faad246d92",
+  "name": "Multiplayer Runescape-like game prototype",
+  "mentions": [
+    {
+      "name": "Multiplayer Runescape-like game prototype",
+      "description": "A bare-bones multiplayer game prototype written in Rust using Bevy + egui, similar to a simple Runescape. It has a client and an authoritative server, displays 3D graphics with placeholder models, supports clicking tiles to move, pathfinding to enemies to attack them, and right-click menus with options like attack, trade, and move. Includes unit tests and integration tests. The project also serves as an experiment to evaluate the current capability of LLM coding tools (Claude Code on the web).",
+      "problem": "Built to test whether LLMs provide value for coding beyond very self-contained tasks, since the author hadn't found much value in them so far.",
+      "audience": null,
+      "builder_usernames": [
+        "omustardo"
+      ],
+      "source_excerpt": "A multiplayer game prototype, written in Rust, using Bevy + egui for graphics. Think of it as a bare bones implementation of a game like Runescape, mostly to test out current LLM capability.",
+      "evidence": [
+        {
+          "source_item_id": 45871264,
+          "source_field": "body",
+          "value": "A multiplayer game prototype, written in Rust, using Bevy + egui for graphics. Think of it as a bare bones implementation of a game like Runescape, mostly to test out current LLM capability.",
+          "supports": [],
+          "author": "omustardo",
+          "shared_at": 1762738725,
+          "source_url": "https://news.ycombinator.com/item?id=45871264"
+        }
+      ],
+      "source_item_id": 45871264,
+      "source_url": "https://news.ycombinator.com/item?id=45871264",
+      "author": "omustardo",
+      "shared_at": 1762738725,
+      "links": []
+    }
+  ]
+}

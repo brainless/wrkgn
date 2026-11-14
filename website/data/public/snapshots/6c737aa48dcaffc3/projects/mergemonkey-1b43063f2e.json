@@ -1,0 +1,35 @@
+{
+  "id": 8485,
+  "slug": "mergemonkey-1b43063f2e",
+  "name": "MergeMonkey",
+  "mentions": [
+    {
+      "name": "MergeMonkey",
+      "description": "A GitHub app that provides intentionally quiet AI-powered pull request reviews. It runs on new commits, posts a short structured summary (including diagrams for complex changes), and only goes deeper when explicitly triggered via PR comments. Users bring their own model through OpenRouter, choosing their own trade-offs.",
+      "problem": "Avoids noisy AI code reviews and black-box reviewer behavior.",
+      "audience": "People who review pull requests regularly.",
+      "builder_usernames": [
+        "yashwantphogat"
+      ],
+      "source_excerpt": "I’ve been working on a small GitHub app called MergeMonkey.",
+      "evidence": [
+        {
+          "source_item_id": 46289385,
+          "source_field": "body",
+          "value": "I’ve been working on a small GitHub app called MergeMonkey.",
+          "supports": [],
+          "author": "yashwantphogat",
+          "shared_at": 1765897473,
+          "source_url": "https://news.ycombinator.com/item?id=46289385"
+        }
+      ],
+      "source_item_id": 46289385,
+      "source_url": "https://news.ycombinator.com/item?id=46289385",
+      "author": "yashwantphogat",
+      "shared_at": 1765897473,
+      "links": [
+        "https://mergemonkey.dev/"
+      ]
+    }
+  ]
+}

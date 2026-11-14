@@ -1,0 +1,35 @@
+{
+  "id": 7735,
+  "slug": "shannot-71d683b9ac",
+  "name": "Shannot",
+  "mentions": [
+    {
+      "name": "Shannot",
+      "description": "A human-in-the-loop sandbox for AI agents on production systems. Instead of filtering commands with heuristics, it dry-runs entire scripts in a PyPy sandbox, captures every command and file operation, and shows exactly what will happen before anything executes. Supports checkpoint/rollback to undo changes, with example scripts for common sysadmin tasks like nginx config, log cleanup, and cert audits.",
+      "problem": "Heuristic command filtering for AI agents can be worked around by the agents, leaving production systems at risk.",
+      "audience": null,
+      "builder_usernames": [
+        "corv"
+      ],
+      "source_excerpt": "I’m building Shannot, a human-in-the-loop sandbox for AI agents on production systems.",
+      "evidence": [
+        {
+          "source_item_id": 46579515,
+          "source_field": "body",
+          "value": "I’m building Shannot, a human-in-the-loop sandbox for AI agents on production systems.",
+          "supports": [],
+          "author": "corv",
+          "shared_at": 1768162429,
+          "source_url": "https://news.ycombinator.com/item?id=46579515"
+        }
+      ],
+      "source_item_id": 46579515,
+      "source_url": "https://news.ycombinator.com/item?id=46579515",
+      "author": "corv",
+      "shared_at": 1768162429,
+      "links": [
+        "https://github.com/corv89/shannot"
+      ]
+    }
+  ]
+}

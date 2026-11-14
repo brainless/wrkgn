@@ -1,0 +1,35 @@
+{
+  "id": 4460,
+  "slug": "bedevere-wise-615139b132",
+  "name": "Bedevere Wise",
+  "mentions": [
+    {
+      "name": "Bedevere Wise",
+      "description": "A browser-based SQL data viewer for file formats widely used in biostatistics and clinical data: SAS (sas7bdat, xpt), SPSS (sav), Stata (dta), plus Parquet, Excel, and CSV. Users drop a file and immediately run 'SELECT *' and other exploratory queries via DuckDB-WASM, with a custom DuckDB extension the author built supplying statistics and plotting. Everything runs locally in the browser with no installers or configuration, so files never leave the device — important for clinical data. Includes GGSQL, a grammar-of-graphics plotting layer executed inside SQL.",
+      "problem": "The author wanted a 'drop file → SELECT * FROM it' workflow for exploratory queries on datasets in biostat/clinical formats — sometimes whole nested subtrees with dozens of mixed-format files — that is easy for colleagues to use (no installers, no configuration) and keeps files on the device for clinical-data privacy.",
+      "audience": "Biostatistics and clinical-data people who work with SAS, SPSS, and Stata files, including the author's colleagues",
+      "builder_usernames": [
+        "caerbannogwhite"
+      ],
+      "source_excerpt": "Currently working on Bedevere Wise (https://bedeverewise.app), a browser-based SQL data viewer for the file formats still widely used by biostat / clinical-data people: SAS (sas7bdat, xpt), SPSS (sav), Stata (dta), plus Parquet, Excel, and CSV.",
+      "evidence": [
+        {
+          "source_item_id": 48093815,
+          "source_field": "body",
+          "value": "Currently working on Bedevere Wise (https://bedeverewise.app), a browser-based SQL data viewer for the file formats still widely used by biostat / clinical-data people: SAS (sas7bdat, xpt), SPSS (sav), Stata (dta), plus Parquet, Excel, and CSV.",
+          "supports": [],
+          "author": "caerbannogwhite",
+          "shared_at": 1778500284,
+          "source_url": "https://news.ycombinator.com/item?id=48093815"
+        }
+      ],
+      "source_item_id": 48093815,
+      "source_url": "https://news.ycombinator.com/item?id=48093815",
+      "author": "caerbannogwhite",
+      "shared_at": 1778500284,
+      "links": [
+        "https://bedeverewise.app"
+      ]
+    }
+  ]
+}

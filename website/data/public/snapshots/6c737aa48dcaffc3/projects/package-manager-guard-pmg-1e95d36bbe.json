@@ -1,0 +1,63 @@
+{
+  "id": 2882,
+  "slug": "package-manager-guard-pmg-1e95d36bbe",
+  "name": "Package Manager Guard (PMG)",
+  "mentions": [
+    {
+      "name": "Package Manager Guard (PMG)",
+      "description": "A terminal-based package firewall that protects developers against software supply chain attacks in open source package ecosystems. It combines threat intelligence, policy enforcement, and sandboxing to block malicious packages, and has been effective against recent attacks.",
+      "problem": "Supply chain attacks on OSS ecosystems targeting developers",
+      "audience": "With all the supply chain attacks on OSS ecosystems targeting developers",
+      "builder_usernames": [
+        "abhisek"
+      ],
+      "source_excerpt": "Building Package Manager Guard (PMG) - https://github.com/safedep/pmg\n\nWith all the supply chain attacks on OSS ecosystems targeting developers, PMG is a practical protection using a combination of threat intel, policy and sandbox.\n\nIt’s a package firewall on the terminal really. It has been surprisingly effective against most of the recent attacks.",
+      "evidence": [
+        {
+          "source_item_id": 48886626,
+          "source_field": "body",
+          "value": "Building Package Manager Guard (PMG) - https://github.com/safedep/pmg\n\nWith all the supply chain attacks on OSS ecosystems targeting developers, PMG is a practical protection using a combination of threat intel, policy and sandbox.\n\nIt’s a package firewall on the terminal really. It has been surprisingly effective against most of the recent attacks.",
+          "supports": [],
+          "author": "abhisek",
+          "shared_at": 1783904661,
+          "source_url": "https://news.ycombinator.com/item?id=48886626"
+        }
+      ],
+      "source_item_id": 48886626,
+      "source_url": "https://news.ycombinator.com/item?id=48886626",
+      "author": "abhisek",
+      "shared_at": 1783904661,
+      "links": [
+        "https://github.com/safedep/pmg"
+      ]
+    },
+    {
+      "name": "PMG",
+      "description": "PMG is a tool that protects CLI package managers against malicious packages, using a Landlock and seccomp notify based sandbox to isolate package operations. The sandbox implementation handles kernel messages across Go routines.",
+      "problem": "CLI package managers are exposed to malicious packages.",
+      "audience": null,
+      "builder_usernames": [
+        "abhisek"
+      ],
+      "source_excerpt": "Just implemented Landlock + seccomp notify based sandbox in PMG. A tool to protect cli package managers against malicious packages.",
+      "evidence": [
+        {
+          "source_item_id": 48089945,
+          "source_field": "body",
+          "value": "Just implemented Landlock + seccomp notify based sandbox in PMG. A tool to protect cli package managers against malicious packages.",
+          "supports": [],
+          "author": "abhisek",
+          "shared_at": 1778461816,
+          "source_url": "https://news.ycombinator.com/item?id=48089945"
+        }
+      ],
+      "source_item_id": 48089945,
+      "source_url": "https://news.ycombinator.com/item?id=48089945",
+      "author": "abhisek",
+      "shared_at": 1778461816,
+      "links": [
+        "https://github.com/safedep/pmg"
+      ]
+    }
+  ]
+}

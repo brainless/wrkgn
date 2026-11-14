@@ -1,0 +1,35 @@
+{
+  "id": 4664,
+  "slug": "isola-e7f3446378",
+  "name": "Isola",
+  "mentions": [
+    {
+      "name": "Isola",
+      "description": "This tool lets users easily create and control sandboxes for executing untrusted code on any Kubernetes cluster with a single Helm install. It supports features such as on-demand snapshotting of specific containers' filesystems within a sandbox pod and egress rate limiting from the sandbox, with some capabilities enabled by upstream contributions to gVisor.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "benldrmn"
+      ],
+      "source_excerpt": "I'm working on Isola (https://github.com/isola-run/isola), a passion project of mine. It allows you to easily create and control sandboxes for executing untrusted code on any Kubernetes cluster (one helm install).",
+      "evidence": [
+        {
+          "source_item_id": 48087413,
+          "source_field": "body",
+          "value": "I'm working on Isola (https://github.com/isola-run/isola), a passion project of mine. It allows you to easily create and control sandboxes for executing untrusted code on any Kubernetes cluster (one helm install).",
+          "supports": [],
+          "author": "benldrmn",
+          "shared_at": 1778443775,
+          "source_url": "https://news.ycombinator.com/item?id=48087413"
+        }
+      ],
+      "source_item_id": 48087413,
+      "source_url": "https://news.ycombinator.com/item?id=48087413",
+      "author": "benldrmn",
+      "shared_at": 1778443775,
+      "links": [
+        "https://github.com/isola-run/isola"
+      ]
+    }
+  ]
+}

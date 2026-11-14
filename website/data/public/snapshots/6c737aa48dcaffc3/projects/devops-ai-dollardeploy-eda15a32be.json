@@ -1,0 +1,33 @@
+{
+  "id": 11180,
+  "slug": "devops-ai-dollardeploy-eda15a32be",
+  "name": "DevOps AI (DollarDeploy)",
+  "mentions": [
+    {
+      "name": "DevOps AI (DollarDeploy)",
+      "description": "An AI feature for the DollarDeploy platform that helps define correct settings when deploying any kind of app by guessing from the GitHub repo contents. It works as Cursor IDE-style autocomplete for app configuration rather than a chatbot; its rule set is currently a collection of ifs, many generated with AI but validated to be reasonable.",
+      "problem": "Defining correct settings when deploying an app is difficult; the tool guesses them from the GitHub repo contents.",
+      "audience": "Developers deploying apps",
+      "builder_usernames": [
+        "huksley"
+      ],
+      "source_excerpt": "I am working on DevOps AI for my DollarDeploy platform. Helps you define correct settings when deploying any kind of app, guessing from the GitHub repo contents. Not another chatbot but Cursor IDE style autocomplete for the app configuration.",
+      "evidence": [
+        {
+          "source_item_id": 43830418,
+          "source_field": "body",
+          "value": "I am working on DevOps AI for my DollarDeploy platform. Helps you define correct settings when deploying any kind of app, guessing from the GitHub repo contents. Not another chatbot but Cursor IDE style autocomplete for the app configuration.",
+          "supports": [],
+          "author": "huksley",
+          "shared_at": 1745919590,
+          "source_url": "https://news.ycombinator.com/item?id=43830418"
+        }
+      ],
+      "source_item_id": 43830418,
+      "source_url": "https://news.ycombinator.com/item?id=43830418",
+      "author": "huksley",
+      "shared_at": 1745919590,
+      "links": []
+    }
+  ]
+}

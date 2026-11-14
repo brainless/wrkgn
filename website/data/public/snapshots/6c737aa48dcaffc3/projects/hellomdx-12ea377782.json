@@ -1,0 +1,35 @@
+{
+  "id": 4680,
+  "slug": "hellomdx-12ea377782",
+  "name": "HellOMDX",
+  "mentions": [
+    {
+      "name": "HellOMDX",
+      "description": "This app is a Markdown file editor aimed at average users, letting them format documents by clicking buttons like MS Word instead of memorizing syntax. Built with Tauri, it has a small installer and near-instant startup on all three desktop OSes. It requires no accounts, no telemetry, and no MDX server; sync goes through whatever cloud folder the user already has (iCloud, Drive, Dropbox, or a plain directory). Tab-to-accept ghost-writing is bring-your-own-key. Documents export to PDF, HTML, and DOCX, with tables, math, diagrams, and code blocks all accessible behind toolbar buttons.",
+      "problem": "Markdown editing typically requires memorizing syntax, which is a barrier for average users who want to format documents with buttons as in MS Word.",
+      "audience": "Average users who want to edit Markdown files without learning syntax",
+      "builder_usernames": [
+        "mdxmaker"
+      ],
+      "source_excerpt": "Working on a md file eidtor for average users to use, by click buttons like MS word.\n\nhttps://hellomdx.com/",
+      "evidence": [
+        {
+          "source_item_id": 48086813,
+          "source_field": "body",
+          "value": "Working on a md file eidtor for average users to use, by click buttons like MS word.\n\nhttps://hellomdx.com/",
+          "supports": [],
+          "author": "mdxmaker",
+          "shared_at": 1778439967,
+          "source_url": "https://news.ycombinator.com/item?id=48086813"
+        }
+      ],
+      "source_item_id": 48086813,
+      "source_url": "https://news.ycombinator.com/item?id=48086813",
+      "author": "mdxmaker",
+      "shared_at": 1778439967,
+      "links": [
+        "https://hellomdx.com/"
+      ]
+    }
+  ]
+}

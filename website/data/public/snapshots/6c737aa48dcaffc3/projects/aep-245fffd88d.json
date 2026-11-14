@@ -1,0 +1,35 @@
+{
+  "id": 4411,
+  "slug": "aep-245fffd88d",
+  "name": "AEP",
+  "mentions": [
+    {
+      "name": "AEP",
+      "description": "An API design standard developed collaboratively by engineers from Google, Microsoft, GM, IBM, Roblox, Rubrik and more, aiming to learn from companies' past API mistakes and enable better tooling with less configuration. AEP-compliant APIs get a resource-oriented CLI, MCP server, full UI, and Terraform provider for near-zero configuration.",
+      "problem": "Companies have repeated mistakes around API design, and API tooling requires heavy configuration.",
+      "audience": null,
+      "builder_usernames": [
+        "rambleraptor"
+      ],
+      "source_excerpt": "For the past few years, a group of us from Google, Microsoft, GM, IBM, Roblox, Rubrik + more have been working on a design standard for APIs called [AEP](https://www.aep.dev). The goal is twofold: learn from our companies mistakes around APIs and enable better tooling with less configuration.",
+      "evidence": [
+        {
+          "source_item_id": 48087835,
+          "source_field": "body",
+          "value": "For the past few years, a group of us from Google, Microsoft, GM, IBM, Roblox, Rubrik + more have been working on a design standard for APIs called [AEP](https://www.aep.dev). The goal is twofold: learn from our companies mistakes around APIs and enable better tooling with less configuration.",
+          "supports": [],
+          "author": "rambleraptor",
+          "shared_at": 1778446098,
+          "source_url": "https://news.ycombinator.com/item?id=48087835"
+        }
+      ],
+      "source_item_id": 48087835,
+      "source_url": "https://news.ycombinator.com/item?id=48087835",
+      "author": "rambleraptor",
+      "shared_at": 1778446098,
+      "links": [
+        "https://www.aep.dev"
+      ]
+    }
+  ]
+}

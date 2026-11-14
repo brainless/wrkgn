@@ -1,0 +1,33 @@
+{
+  "id": 6371,
+  "slug": "modular-patch-documentation-app-5b49385e89",
+  "name": "Modular patch documentation app",
+  "mentions": [
+    {
+      "name": "Modular patch documentation app",
+      "description": "An application for documenting modular synth patches. It uses machine learning to recognize patch points, knobs, and toggles from a photo of a module's front panel, letting users build racks from the scanned modules and store presets of knob settings and cable connections displayed as simple schematics. Includes a cable physics engine, with the goal of running on an iPad as a reference to accompany live performances.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "MrScruff"
+      ],
+      "source_excerpt": "I’m building an application for documenting modular patches, mostly for my own use case. It uses ML to recognise the patch points, knobs and toggles from a photo of the front panel. You can then build racks from the scanned modules and then store presets of the knobs and connections which are displayed as simple schematics.",
+      "evidence": [
+        {
+          "source_item_id": 47305627,
+          "source_field": "body",
+          "value": "I’m building an application for documenting modular patches, mostly for my own use case. It uses ML to recognise the patch points, knobs and toggles from a photo of the front panel. You can then build racks from the scanned modules and then store presets of the knobs and connections which are displayed as simple schematics.",
+          "supports": [],
+          "author": "MrScruff",
+          "shared_at": 1773039537,
+          "source_url": "https://news.ycombinator.com/item?id=47305627"
+        }
+      ],
+      "source_item_id": 47305627,
+      "source_url": "https://news.ycombinator.com/item?id=47305627",
+      "author": "MrScruff",
+      "shared_at": 1773039537,
+      "links": []
+    }
+  ]
+}

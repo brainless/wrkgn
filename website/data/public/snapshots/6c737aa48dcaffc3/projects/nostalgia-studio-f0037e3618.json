@@ -1,0 +1,33 @@
+{
+  "id": 3651,
+  "slug": "nostalgia-studio-f0037e3618",
+  "name": "Nostalgia Studio",
+  "mentions": [
+    {
+      "name": "Nostalgia Studio",
+      "description": "Nostalgia Studio is a universal web-based retro game modding tool with a layered architecture: a core foundation for representing game state and building editors, a platform-specific layer representing things like the NES APU and PPU state, and game-specific implementations that populate state for the two layers below.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "chipx86"
+      ],
+      "source_excerpt": "Building a universal web-based retro game modding tool along with that work called Nostalgia Studio. The idea is that there's a core foundation for representing game state and building editors, a platform-specific layer for representing things like the NES APU and PPU state, and then game-specific implementations that populate state for two layers below.",
+      "evidence": [
+        {
+          "source_item_id": 48538562,
+          "source_field": "body",
+          "value": "Building a universal web-based retro game modding tool along with that work called Nostalgia Studio. The idea is that there's a core foundation for representing game state and building editors, a platform-specific layer for representing things like the NES APU and PPU state, and then game-specific implementations that populate state for two layers below.",
+          "supports": [],
+          "author": "chipx86",
+          "shared_at": 1781514287,
+          "source_url": "https://news.ycombinator.com/item?id=48538562"
+        }
+      ],
+      "source_item_id": 48538562,
+      "source_url": "https://news.ycombinator.com/item?id=48538562",
+      "author": "chipx86",
+      "shared_at": 1781514287,
+      "links": []
+    }
+  ]
+}

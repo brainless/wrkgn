@@ -1,0 +1,36 @@
+{
+  "id": 9095,
+  "slug": "csheet-caecb802df",
+  "name": "csheet",
+  "mentions": [
+    {
+      "name": "csheet",
+      "description": "Web-based D&D character sheet tracker with LLM integration. Players can perform every action either manually through forms and routes or via LLM tool use, since the same services back both interfaces. Built with Hono on Bun, renders JSX server-side, uses htmx on the client, and leverages Vercel's AI toolkit for LLM interactions.",
+      "problem": null,
+      "audience": "Dungeons & Dragons players",
+      "builder_usernames": [
+        "igor47"
+      ],
+      "source_excerpt": "I made an LLM-assisted DnD character sheet tracker! It's up here:\n\nhttps://www.csheet.net/\n\nAnd the repo is here:\n\nhttps://github.com/igor47/csheet",
+      "evidence": [
+        {
+          "source_item_id": 45870155,
+          "source_field": "body",
+          "value": "I made an LLM-assisted DnD character sheet tracker! It's up here:\n\nhttps://www.csheet.net/\n\nAnd the repo is here:\n\nhttps://github.com/igor47/csheet",
+          "supports": [],
+          "author": "igor47",
+          "shared_at": 1762729602,
+          "source_url": "https://news.ycombinator.com/item?id=45870155"
+        }
+      ],
+      "source_item_id": 45870155,
+      "source_url": "https://news.ycombinator.com/item?id=45870155",
+      "author": "igor47",
+      "shared_at": 1762729602,
+      "links": [
+        "https://github.com/igor47/csheet",
+        "https://www.csheet.net/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": 8128,
+  "slug": "camera2url-608b24de46",
+  "name": "Camera2URL",
+  "mentions": [
+    {
+      "name": "Camera2URL",
+      "description": "This iOS and macOS app sends the picture taken with the device camera directly to any HTTP endpoint the moment the trigger is pressed, enabling instant automation such as firing an n8n workflow upon taking a photo.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ManuelKiessling"
+      ],
+      "source_excerpt": "Camera2URL is, as far as I know, the only iOS and macOS application that let‘s you send the picture taken with the camera directly to any HTTP endpoint the moment you press the trigger.",
+      "evidence": [
+        {
+          "source_item_id": 46272783,
+          "source_field": "body",
+          "value": "Camera2URL is, as far as I know, the only iOS and macOS application that let‘s you send the picture taken with the camera directly to any HTTP endpoint the moment you press the trigger.",
+          "supports": [],
+          "author": "ManuelKiessling",
+          "shared_at": 1765795649,
+          "source_url": "https://news.ycombinator.com/item?id=46272783"
+        }
+      ],
+      "source_item_id": 46272783,
+      "source_url": "https://news.ycombinator.com/item?id=46272783",
+      "author": "ManuelKiessling",
+      "shared_at": 1765795649,
+      "links": [
+        "https://apps.apple.com/de/app/camera2url/id6756015636",
+        "https://github.com/manuelkiessling/Camera2URL"
+      ]
+    }
+  ]
+}

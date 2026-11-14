@@ -1,0 +1,35 @@
+{
+  "id": 5167,
+  "slug": "replsh-9a3d543ac1",
+  "name": "replsh",
+  "mentions": [
+    {
+      "name": "replsh",
+      "description": "A CLI tool that provides sync, streaming, and async REPL evaluation support over Docker, SSH, and local environments, with Python and Clojure support. It is designed to ground LLM coding agents in real code execution, avoiding pure mental tracing and hallucination and letting agents test code while they work.",
+      "problem": "LLMs are surprisingly bad at using REPLs and tend to hallucinate through mental tracing instead of grounding their answers in executed code.",
+      "audience": null,
+      "builder_usernames": [
+        "danieltanfh95"
+      ],
+      "source_excerpt": "LLMs are surprisingly bad at using REPLs, so I made a CLI that handles sync, streaming, async REPL evals support over docker, ssh, local, and supporting python and clojure.",
+      "evidence": [
+        {
+          "source_item_id": 47750886,
+          "source_field": "body",
+          "value": "LLMs are surprisingly bad at using REPLs, so I made a CLI that handles sync, streaming, async REPL evals support over docker, ssh, local, and supporting python and clojure.",
+          "supports": [],
+          "author": "danieltanfh95",
+          "shared_at": 1776082406,
+          "source_url": "https://news.ycombinator.com/item?id=47750886"
+        }
+      ],
+      "source_item_id": 47750886,
+      "source_url": "https://news.ycombinator.com/item?id=47750886",
+      "author": "danieltanfh95",
+      "shared_at": 1776082406,
+      "links": [
+        "https://github.com/danieltanfh95/replsh"
+      ]
+    }
+  ]
+}

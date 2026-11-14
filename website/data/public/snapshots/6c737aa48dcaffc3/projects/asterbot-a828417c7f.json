@@ -1,0 +1,35 @@
+{
+  "id": 7166,
+  "slug": "asterbot-a828417c7f",
+  "name": "asterbot",
+  "mentions": [
+    {
+      "name": "asterbot",
+      "description": "This project is a modular AI agent built around a microkernel-style architecture, where every capability—tools, memory, LLM providers, etc.—is a swappable WASM component. Components can be written in any language (Rust, Go, Python, JS), run sandboxed via WASI, and are pulled from the open asterai registry.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rellfy"
+      ],
+      "source_excerpt": "Asterbot is a modular AI agent where every capability (such as tools, memory, LLM provider etc.) is a swappable WASM component.",
+      "evidence": [
+        {
+          "source_item_id": 46942437,
+          "source_field": "body",
+          "value": "Asterbot is a modular AI agent where every capability (such as tools, memory, LLM provider etc.) is a swappable WASM component.",
+          "supports": [],
+          "author": "rellfy",
+          "shared_at": 1770621112,
+          "source_url": "https://news.ycombinator.com/item?id=46942437"
+        }
+      ],
+      "source_item_id": 46942437,
+      "source_url": "https://news.ycombinator.com/item?id=46942437",
+      "author": "rellfy",
+      "shared_at": 1770621112,
+      "links": [
+        "https://github.com/asterai-io/asterbot"
+      ]
+    }
+  ]
+}

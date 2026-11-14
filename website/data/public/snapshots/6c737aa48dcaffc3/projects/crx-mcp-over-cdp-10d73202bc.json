@@ -1,0 +1,35 @@
+{
+  "id": 10010,
+  "slug": "crx-mcp-over-cdp-10d73202bc",
+  "name": "crx-mcp-over-cdp",
+  "mentions": [
+    {
+      "name": "crx-mcp-over-cdp",
+      "description": "A proof-of-concept demonstrating how to run a Model Context Protocol (MCP) server inside a Chrome Extension using Chrome DevTools Protocol (CDP), with no external server required. The actual MCP library implementation was left out due to time constraints.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dataviz1000"
+      ],
+      "source_excerpt": "crx-mcp-over-cdp: This is a proof of concept demonstrating how to run a Model Context Protocol (MCP) server inside a Chrome Extension using Chrome DevTools Protocol (CDP) - no external server required. (Sort of, I left out the actual MCP library implementation. Ran out of time.)",
+      "evidence": [
+        {
+          "source_item_id": 45420115,
+          "source_field": "body",
+          "value": "crx-mcp-over-cdp: This is a proof of concept demonstrating how to run a Model Context Protocol (MCP) server inside a Chrome Extension using Chrome DevTools Protocol (CDP) - no external server required. (Sort of, I left out the actual MCP library implementation. Ran out of time.)",
+          "supports": [],
+          "author": "dataviz1000",
+          "shared_at": 1759188244,
+          "source_url": "https://news.ycombinator.com/item?id=45420115"
+        }
+      ],
+      "source_item_id": 45420115,
+      "source_url": "https://news.ycombinator.com/item?id=45420115",
+      "author": "dataviz1000",
+      "shared_at": 1759188244,
+      "links": [
+        "https://github.com/adam-s/crx-mcp-over-cdp"
+      ]
+    }
+  ]
+}

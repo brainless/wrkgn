@@ -1,0 +1,33 @@
+{
+  "id": 9800,
+  "slug": "librario-dec7ff955a",
+  "name": "Librario",
+  "mentions": [
+    {
+      "name": "Librario",
+      "description": "A book-metadata database that fetches information from services such as Hardcover.app, Google Books, and ISBNDB, merges it into records more complete than any single source, and saves it for future lookups. A planned 'ISBN Search' website will let users search the database for book information and feed data back into it, strengthening the service. Open sourcing under the EUPL 1.2 license is being considered.",
+      "problem": "None of the existing book-data services provided all the information about a book — one might have the series, another genres, another a cover with good dimensions — so data has to be merged from several sources.",
+      "audience": "The author's own personal library service, plus users of the planned public ISBN Search website.",
+      "builder_usernames": [
+        "jamesponddotco"
+      ],
+      "source_excerpt": "I’m working on an ISBN database that fetches information from several other services, such as Hardcover.app, Google Books, and ISBNDB, merges that information, and return something more complete than using them alone. It also saves that information in the database for future lookups.",
+      "evidence": [
+        {
+          "source_item_id": 45419234,
+          "source_field": "body",
+          "value": "I’m working on an ISBN database that fetches information from several other services, such as Hardcover.app, Google Books, and ISBNDB, merges that information, and return something more complete than using them alone. It also saves that information in the database for future lookups.",
+          "supports": [],
+          "author": "jamesponddotco",
+          "shared_at": 1759182832,
+          "source_url": "https://news.ycombinator.com/item?id=45419234"
+        }
+      ],
+      "source_item_id": 45419234,
+      "source_url": "https://news.ycombinator.com/item?id=45419234",
+      "author": "jamesponddotco",
+      "shared_at": 1759182832,
+      "links": []
+    }
+  ]
+}

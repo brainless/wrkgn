@@ -1,0 +1,33 @@
+{
+  "id": 7710,
+  "slug": "software-manager-8112cd0e9c",
+  "name": "Software Manager",
+  "mentions": [
+    {
+      "name": "Software Manager",
+      "description": "Software Manager is an open-source tool that catalogs programs, with about 3,750 registered so far and a 2026 goal of 4,000. Data is currently stored in .yml and other flat files, and it can already autogenerate a .sql database, with plans to make the dataset easy to query via oldschool SQL and better optimized. Its long-term goal is to make compilation on any platform dead simple; this works very well on Linux already, though not yet as well on Windows.",
+      "problem": "Compilation on any platform is not yet dead simple — Windows support lags behind Linux — and the program dataset currently lives in flat files that are not queried and not optimized.",
+      "audience": null,
+      "builder_usernames": [
+        "shevy-java"
+      ],
+      "source_excerpt": "if I can I still improve my tool called \"Software Manager\".\nGoal for 2026 will be to have registered 4000 programs in total (I am at about\n3750 right now) as well as make it dead-easy to interface with it through \noldschool SQL (right now I just have .yml files and other flat files, though\nI can autogenerate a .sql database already as-is, but right now I don't query\nthis dataset and it is not really optimised either). My long term goal is to \nmake compilation on any platform dead simple. On Linux it works very well; \non windows not quite as well yet.",
+      "evidence": [
+        {
+          "source_item_id": 46578345,
+          "source_field": "body",
+          "value": "if I can I still improve my tool called \"Software Manager\".\nGoal for 2026 will be to have registered 4000 programs in total (I am at about\n3750 right now) as well as make it dead-easy to interface with it through \noldschool SQL (right now I just have .yml files and other flat files, though\nI can autogenerate a .sql database already as-is, but right now I don't query\nthis dataset and it is not really optimised either). My long term goal is to \nmake compilation on any platform dead simple. On Linux it works very well; \non windows not quite as well yet.",
+          "supports": [],
+          "author": "shevy-java",
+          "shared_at": 1768156663,
+          "source_url": "https://news.ycombinator.com/item?id=46578345"
+        }
+      ],
+      "source_item_id": 46578345,
+      "source_url": "https://news.ycombinator.com/item?id=46578345",
+      "author": "shevy-java",
+      "shared_at": 1768156663,
+      "links": []
+    }
+  ]
+}

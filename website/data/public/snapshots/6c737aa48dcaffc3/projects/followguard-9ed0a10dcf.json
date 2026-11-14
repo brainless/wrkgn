@@ -1,0 +1,35 @@
+{
+  "id": 7982,
+  "slug": "followguard-9ed0a10dcf",
+  "name": "FollowGuard",
+  "mentions": [
+    {
+      "name": "FollowGuard",
+      "description": "This app is a privacy-first Instagram analytics tool that parses official Instagram GDPR data exports entirely client-side in the browser. Built as a Vue 3 + TypeScript SPA with no backend, all ZIP extraction and JSON parsing happen locally so user data never leaves their machine. It includes a Security Audit feature that helps users find suspicious login activity in their own data.",
+      "problem": "Unofficial 'unfollower' apps require login credentials and use unofficial APIs, causing people to lose their Instagram accounts. Staying safe instead requires users to navigate an 11-step manual export process on Instagram, creating UX friction for non-technical users.",
+      "audience": "Non-technical Instagram users who want insights on their account data",
+      "builder_usernames": [
+        "faja"
+      ],
+      "source_excerpt": "I'm building FollowGuard (https://followguard.app) - it's a privacy-first Instagram analytics tool.\n\nI got tired of seeing people lose their accounts to \"unfollower\" apps that require login credentials and use unofficial APIs. Instead, I built this to parse official Instagram GDPR data exports 100% client-side in the browser.",
+      "evidence": [
+        {
+          "source_item_id": 46586166,
+          "source_field": "body",
+          "value": "I'm building FollowGuard (https://followguard.app) - it's a privacy-first Instagram analytics tool.\n\nI got tired of seeing people lose their accounts to \"unfollower\" apps that require login credentials and use unofficial APIs. Instead, I built this to parse official Instagram GDPR data exports 100% client-side in the browser.",
+          "supports": [],
+          "author": "faja",
+          "shared_at": 1768210900,
+          "source_url": "https://news.ycombinator.com/item?id=46586166"
+        }
+      ],
+      "source_item_id": 46586166,
+      "source_url": "https://news.ycombinator.com/item?id=46586166",
+      "author": "faja",
+      "shared_at": 1768210900,
+      "links": [
+        "https://followguard.app"
+      ]
+    }
+  ]
+}

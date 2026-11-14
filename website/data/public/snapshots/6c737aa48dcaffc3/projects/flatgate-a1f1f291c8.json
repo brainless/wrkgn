@@ -1,0 +1,33 @@
+{
+  "id": 3887,
+  "slug": "flatgate-a1f1f291c8",
+  "name": "flatgate",
+  "mentions": [
+    {
+      "name": "flatgate",
+      "description": "A Flatpak permission gate inspired by LittleSnitch and Flatseal that default-denies all permissions of newly installed Flatpaks and allows whitelisting per invocation (where possible) or on first use.",
+      "problem": "Newly installed Flatpaks come with broad permissions; the tool default-denies them in response to supply chain attack concerns.",
+      "audience": null,
+      "builder_usernames": [
+        "dominiwe"
+      ],
+      "source_excerpt": "Second, `flatgate`. This tool is inspired by LittleSnitch and Flatseal. Here the idea is to \"default deny\" all permissions of newly installed flatpaks and allow/whitelist per invocation (where possible) or on first use.",
+      "evidence": [
+        {
+          "source_item_id": 48540191,
+          "source_field": "body",
+          "value": "Second, `flatgate`. This tool is inspired by LittleSnitch and Flatseal. Here the idea is to \"default deny\" all permissions of newly installed flatpaks and allow/whitelist per invocation (where possible) or on first use.",
+          "supports": [],
+          "author": "dominiwe",
+          "shared_at": 1781525811,
+          "source_url": "https://news.ycombinator.com/item?id=48540191"
+        }
+      ],
+      "source_item_id": 48540191,
+      "source_url": "https://news.ycombinator.com/item?id=48540191",
+      "author": "dominiwe",
+      "shared_at": 1781525811,
+      "links": []
+    }
+  ]
+}

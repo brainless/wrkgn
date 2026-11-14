@@ -1,0 +1,33 @@
+{
+  "id": 9129,
+  "slug": "plex-to-ombi-watchlist-sync-tool-45c1280744",
+  "name": "Plex-to-Ombi watchlist sync tool",
+  "mentions": [
+    {
+      "name": "Plex-to-Ombi watchlist sync tool",
+      "description": "A sync tool that uses the Ombi, Plex, and TMDB (The Movie Database) APIs to keep the Ombi watchlist up to date based on the Plex watchlist, working around the broken native Plex-to-Ombi watchlist integration.",
+      "problem": "The native Plex to Ombi watchlist integration is broken, leaving Ombi out of date",
+      "audience": "The author and his family",
+      "builder_usernames": [
+        "SansGuidon"
+      ],
+      "source_excerpt": "Myself and other users complain a lot about the \"native\" Plex -> Ombi watchlist integration being broken, I coded some sync tool to workaround the app malfunctions, by using Ombi, Plex and TMDB (The Movie Database) APIs and ensure Ombi is always up-to-date based on Plex watchlist.",
+      "evidence": [
+        {
+          "source_item_id": 45899530,
+          "source_field": "body",
+          "value": "Myself and other users complain a lot about the \"native\" Plex -> Ombi watchlist integration being broken, I coded some sync tool to workaround the app malfunctions, by using Ombi, Plex and TMDB (The Movie Database) APIs and ensure Ombi is always up-to-date based on Plex watchlist.",
+          "supports": [],
+          "author": "SansGuidon",
+          "shared_at": 1762951934,
+          "source_url": "https://news.ycombinator.com/item?id=45899530"
+        }
+      ],
+      "source_item_id": 45899530,
+      "source_url": "https://news.ycombinator.com/item?id=45899530",
+      "author": "SansGuidon",
+      "shared_at": 1762951934,
+      "links": []
+    }
+  ]
+}

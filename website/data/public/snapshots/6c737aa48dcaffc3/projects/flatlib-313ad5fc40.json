@@ -1,0 +1,35 @@
+{
+  "id": 10759,
+  "slug": "flatlib-313ad5fc40",
+  "name": "Flatlib",
+  "mentions": [
+    {
+      "name": "Flatlib",
+      "description": "A Python astrology library that computes astrological charts and can output them as text, used to feed chart data into an LLM for analysis.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jventura"
+      ],
+      "source_excerpt": "I have a python astrology library [1] which I use to generate my astrology chart, as text, to feed it into an LLM (Gemini 2.5 Pro).",
+      "evidence": [
+        {
+          "source_item_id": 44711958,
+          "source_field": "body",
+          "value": "I have a python astrology library [1] which I use to generate my astrology chart, as text, to feed it into an LLM (Gemini 2.5 Pro).",
+          "supports": [],
+          "author": "jventura",
+          "shared_at": 1753717325,
+          "source_url": "https://news.ycombinator.com/item?id=44711958"
+        }
+      ],
+      "source_item_id": 44711958,
+      "source_url": "https://news.ycombinator.com/item?id=44711958",
+      "author": "jventura",
+      "shared_at": 1753717325,
+      "links": [
+        "https://github.com/flatangle/flatlib/"
+      ]
+    }
+  ]
+}

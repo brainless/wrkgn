@@ -1,0 +1,63 @@
+{
+  "id": 3743,
+  "slug": "cybernetic-d2a2861ae4",
+  "name": "Cybernetic",
+  "mentions": [
+    {
+      "name": "Cybernetic",
+      "description": "A data visualization project being upgraded from Svelte 5.35.7 (pre async) to the latest Svelte version, with attention to keeping performance from regressing.",
+      "problem": "Ensuring performance is not negatively affected when upgrading from Svelte 5.35.7 (pre async) to the latest version.",
+      "audience": null,
+      "builder_usernames": [
+        "division_by_0"
+      ],
+      "source_excerpt": "Trying to upgrade my data viz project [0] from Svelte 5.35.7 (pre async) to the latest version and making sure that the performance is not negatively affected (e.g. [1]).",
+      "evidence": [
+        {
+          "source_item_id": 48530143,
+          "source_field": "body",
+          "value": "Trying to upgrade my data viz project [0] from Svelte 5.35.7 (pre async) to the latest version and making sure that the performance is not negatively affected (e.g. [1]).",
+          "supports": [],
+          "author": "division_by_0",
+          "shared_at": 1781458558,
+          "source_url": "https://news.ycombinator.com/item?id=48530143"
+        }
+      ],
+      "source_item_id": 48530143,
+      "source_url": "https://news.ycombinator.com/item?id=48530143",
+      "author": "division_by_0",
+      "shared_at": 1781458558,
+      "links": [
+        "https://cybernetic.dev"
+      ]
+    },
+    {
+      "name": "Data viz experiments with Svelte and Three.js",
+      "description": "This project is a set of data visualization experiments built with Svelte and Three.js.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "division_by_0"
+      ],
+      "source_excerpt": "Data viz experiments with Svelte and Three.js\n\nhttps://cybernetic.dev",
+      "evidence": [
+        {
+          "source_item_id": 45870423,
+          "source_field": "body",
+          "value": "Data viz experiments with Svelte and Three.js\n\nhttps://cybernetic.dev",
+          "supports": [],
+          "author": "division_by_0",
+          "shared_at": 1762731445,
+          "source_url": "https://news.ycombinator.com/item?id=45870423"
+        }
+      ],
+      "source_item_id": 45870423,
+      "source_url": "https://news.ycombinator.com/item?id=45870423",
+      "author": "division_by_0",
+      "shared_at": 1762731445,
+      "links": [
+        "https://cybernetic.dev"
+      ]
+    }
+  ]
+}

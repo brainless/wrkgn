@@ -1,0 +1,35 @@
+{
+  "id": 5674,
+  "slug": "fine-tuning-whisper-to-my-speech-0f0a984663",
+  "name": "Fine-tuning Whisper to my speech",
+  "mentions": [
+    {
+      "name": "Fine-tuning Whisper to my speech",
+      "description": "A fine-tuned Whisper speech-to-text model adapted to the author's voice using an expanding custom dataset, iteratively improving transcription accuracy on words and phrases it still misrecognizes.",
+      "problem": "Off-the-shelf Whisper still doesn't understand certain things in the author's speech correctly.",
+      "audience": "Fine-tuned for the author's own speech recognition",
+      "builder_usernames": [
+        "vivekkairi"
+      ],
+      "source_excerpt": "Trying to improve my fine tuned whisper through more custom dataset. I can still see it not understanding certain things currectly.\n\nhttps://vivekkairi.com/fine-tuning-whisper-to-my-speech/",
+      "evidence": [
+        {
+          "source_item_id": 47748990,
+          "source_field": "body",
+          "value": "Trying to improve my fine tuned whisper through more custom dataset. I can still see it not understanding certain things currectly.\n\nhttps://vivekkairi.com/fine-tuning-whisper-to-my-speech/",
+          "supports": [],
+          "author": "vivekkairi",
+          "shared_at": 1776066382,
+          "source_url": "https://news.ycombinator.com/item?id=47748990"
+        }
+      ],
+      "source_item_id": 47748990,
+      "source_url": "https://news.ycombinator.com/item?id=47748990",
+      "author": "vivekkairi",
+      "shared_at": 1776066382,
+      "links": [
+        "https://vivekkairi.com/fine-tuning-whisper-to-my-speech/"
+      ]
+    }
+  ]
+}

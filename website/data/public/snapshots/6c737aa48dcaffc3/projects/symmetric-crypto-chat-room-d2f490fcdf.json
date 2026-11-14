@@ -1,0 +1,36 @@
+{
+  "id": 3431,
+  "slug": "symmetric-crypto-chat-room-d2f490fcdf",
+  "name": "Symmetric Crypto Chat Room",
+  "mentions": [
+    {
+      "name": "Symmetric Crypto Chat Room",
+      "description": "A browser-based encrypted chat room with true end-to-end encryption. Users share a symmetric encryption key with someone offline, then chat with text, voice, video, and file sharing, all encrypted with that key; nothing is shared with the server.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "amir734jj"
+      ],
+      "source_excerpt": "Share an encryption key with someone offline, then chat with them (text + voice + video + file) encrypted with that key. Your JavaScript browser only knows that key. Nothing is shared. True end-to-end encryption in your browser.",
+      "evidence": [
+        {
+          "source_item_id": 49691739,
+          "source_field": "body",
+          "value": "Share an encryption key with someone offline, then chat with them (text + voice + video + file) encrypted with that key. Your JavaScript browser only knows that key. Nothing is shared. True end-to-end encryption in your browser.",
+          "supports": [],
+          "author": "amir734jj",
+          "shared_at": 1789357583,
+          "source_url": "https://news.ycombinator.com/item?id=49691739"
+        }
+      ],
+      "source_item_id": 49691739,
+      "source_url": "https://news.ycombinator.com/item?id=49691739",
+      "author": "amir734jj",
+      "shared_at": 1789357583,
+      "links": [
+        "https://chat.hesamian.com",
+        "https://github.com/amir734jj/symmetric-crypto-chat-room"
+      ]
+    }
+  ]
+}

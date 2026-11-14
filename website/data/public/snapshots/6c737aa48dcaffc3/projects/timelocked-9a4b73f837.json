@@ -1,0 +1,35 @@
+{
+  "id": 5858,
+  "slug": "timelocked-9a4b73f837",
+  "name": "Timelocked",
+  "mentions": [
+    {
+      "name": "Timelocked",
+      "description": "This local app encrypts any file or message but delays decryption, letting users timelock a BIP39 passphrase for a duration of their choice. It is designed to deter $5-wrench-style coercion attacks targeting cryptocurrency holders by delaying access to personal funds without relying on third parties or multisig, and can also support self-managed inheritance and limiting digital addictions.",
+      "problem": "Cryptocurrency-related home invasions ('\"$5 wrench attacks\"') where attackers coerce victims into surrendering funds; users need a way to delay access to personal funds without third parties or multisig.",
+      "audience": "Individuals securing personal cryptocurrency funds and digital assets",
+      "builder_usernames": [
+        "caltanjun"
+      ],
+      "source_excerpt": "I've just published Timelocked (https://github.com/Caltanjun/timelocked), a local app that encrypts any file or message but delays decryption.",
+      "evidence": [
+        {
+          "source_item_id": 47748268,
+          "source_field": "body",
+          "value": "I've just published Timelocked (https://github.com/Caltanjun/timelocked), a local app that encrypts any file or message but delays decryption.",
+          "supports": [],
+          "author": "caltanjun",
+          "shared_at": 1776061086,
+          "source_url": "https://news.ycombinator.com/item?id=47748268"
+        }
+      ],
+      "source_item_id": 47748268,
+      "source_url": "https://news.ycombinator.com/item?id=47748268",
+      "author": "caltanjun",
+      "shared_at": 1776061086,
+      "links": [
+        "https://github.com/Caltanjun/timelocked"
+      ]
+    }
+  ]
+}

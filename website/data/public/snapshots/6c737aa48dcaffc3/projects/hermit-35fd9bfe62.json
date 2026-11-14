@@ -1,0 +1,35 @@
+{
+  "id": 4652,
+  "slug": "hermit-35fd9bfe62",
+  "name": "Hermit",
+  "mentions": [
+    {
+      "name": "Hermit",
+      "description": "A JavaScript runner for executing untrusted code whose entire API is exposed only via messages passed over stdio. It layers multiple security mechanisms, including V8 isolates, two-stage seccomp, frozen globals, mount namespaces, and Landlock.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jwilliams"
+      ],
+      "source_excerpt": "I've been working on JavaScript runner for untrusted code. The whole API is only exposed via messages passed over stdio. Security layers: V8 isolates, two-stage seccomp, frozen globals, mount namespaces, landlock, and more.\nhttps://github.com/jonathannen/hermit",
+      "evidence": [
+        {
+          "source_item_id": 48090308,
+          "source_field": "body",
+          "value": "I've been working on JavaScript runner for untrusted code. The whole API is only exposed via messages passed over stdio. Security layers: V8 isolates, two-stage seccomp, frozen globals, mount namespaces, landlock, and more.\nhttps://github.com/jonathannen/hermit",
+          "supports": [],
+          "author": "jwilliams",
+          "shared_at": 1778465439,
+          "source_url": "https://news.ycombinator.com/item?id=48090308"
+        }
+      ],
+      "source_item_id": 48090308,
+      "source_url": "https://news.ycombinator.com/item?id=48090308",
+      "author": "jwilliams",
+      "shared_at": 1778465439,
+      "links": [
+        "https://github.com/jonathannen/hermit"
+      ]
+    }
+  ]
+}

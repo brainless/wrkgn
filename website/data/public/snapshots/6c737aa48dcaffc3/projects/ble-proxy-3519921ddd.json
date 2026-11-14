@@ -1,0 +1,35 @@
+{
+  "id": 8983,
+  "slug": "ble-proxy-3519921ddd",
+  "name": "ble_proxy",
+  "mentions": [
+    {
+      "name": "ble_proxy",
+      "description": "A published tool that turns a cell phone into a network proxy using BLE, so a laptop can route traffic through a phone connected to a Wi-Fi network (hotel, plane, etc.). It is slow but useful when you only need a small amount of data.",
+      "problem": "Built on a plane ride where the cellphone had data but the laptop didn't; covers cases where you just need a little bit of data to work.",
+      "audience": null,
+      "builder_usernames": [
+        "jclarkcom"
+      ],
+      "source_excerpt": "This turns your cell phone into a network proxy, but using BLE so the phone can be connected to a Wifi network (hotel, plane, etc). It's pretty slow, but in some cases you just need a little bit of data to work.",
+      "evidence": [
+        {
+          "source_item_id": 45876560,
+          "source_field": "body",
+          "value": "This turns your cell phone into a network proxy, but using BLE so the phone can be connected to a Wifi network (hotel, plane, etc). It's pretty slow, but in some cases you just need a little bit of data to work.",
+          "supports": [],
+          "author": "jclarkcom",
+          "shared_at": 1762786345,
+          "source_url": "https://news.ycombinator.com/item?id=45876560"
+        }
+      ],
+      "source_item_id": 45876560,
+      "source_url": "https://news.ycombinator.com/item?id=45876560",
+      "author": "jclarkcom",
+      "shared_at": 1762786345,
+      "links": [
+        "https://github.com/jclarkcom/ble_proxy"
+      ]
+    }
+  ]
+}

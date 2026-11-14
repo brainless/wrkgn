@@ -1,0 +1,33 @@
+{
+  "id": 11034,
+  "slug": "travel-video-poi-extraction-pipeline-73b0c72508",
+  "name": "Travel video POI extraction pipeline",
+  "mentions": [
+    {
+      "name": "Travel video POI extraction pipeline",
+      "description": "This pipeline automates extracting travel and food recommendations from saved Instagram Reels and TikTok videos. It \"watches\" the videos by processing audio and video frame data to identify key points of interest (POIs), then exports them to a note, replacing the manual process of re-watching saved videos and adding places to Google Maps lists when preparing for a trip. Future plans include integrating with travel and food tracking software like Wanderlog, Google Maps lists, and Beli Eats. It runs on GCP, which is currently expensive, offset by free credits.",
+      "problem": "Manually digging through and re-watching saved travel and food videos to collect places takes a fair bit of time when preparing for a trip.",
+      "audience": null,
+      "builder_usernames": [
+        "ryanlime"
+      ],
+      "source_excerpt": "I decided to automate part of it by building a pipeline to “watch” the video for me by getting the audio and video frame data and taking into account key POIs that I then export out to a note.",
+      "evidence": [
+        {
+          "source_item_id": 43828439,
+          "source_field": "body",
+          "value": "I decided to automate part of it by building a pipeline to “watch” the video for me by getting the audio and video frame data and taking into account key POIs that I then export out to a note.",
+          "supports": [],
+          "author": "ryanlime",
+          "shared_at": 1745897036,
+          "source_url": "https://news.ycombinator.com/item?id=43828439"
+        }
+      ],
+      "source_item_id": 43828439,
+      "source_url": "https://news.ycombinator.com/item?id=43828439",
+      "author": "ryanlime",
+      "shared_at": 1745897036,
+      "links": []
+    }
+  ]
+}

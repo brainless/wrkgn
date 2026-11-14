@@ -1,0 +1,35 @@
+{
+  "id": 5203,
+  "slug": "opendocs-to-1741fcdc6d",
+  "name": "opendocs.to",
+  "mentions": [
+    {
+      "name": "opendocs.to",
+      "description": "This web service lets users channel public Google Docs through human-friendly custom URLs, redirecting links like opendocs.to/your-name/resume to the underlying docs.google.com address. Built with Vite/React, Node, and Postgres in Docker, with nginx serving traffic (built inside containers locally, proxying to containers in production). Currently a free tier while final tweaking is done.",
+      "problem": "Google Docs share links are long and unwieldy; this provides nicer, natural-sounding URLs for sharing documents.",
+      "audience": null,
+      "builder_usernames": [
+        "aaron5"
+      ],
+      "source_excerpt": "It's web service that allows you to channel your google docs through a more human-friendly name. So, you link\n\nopendocs.to/your-name/resume (an example link)\n\nto your public resume at docs.google.com/dlkjbalksdfd\n\nIt's a simple redirect service, but it just looks nicer",
+      "evidence": [
+        {
+          "source_item_id": 47746683,
+          "source_field": "body",
+          "value": "It's web service that allows you to channel your google docs through a more human-friendly name. So, you link\n\nopendocs.to/your-name/resume (an example link)\n\nto your public resume at docs.google.com/dlkjbalksdfd\n\nIt's a simple redirect service, but it just looks nicer",
+          "supports": [],
+          "author": "aaron5",
+          "shared_at": 1776045747,
+          "source_url": "https://news.ycombinator.com/item?id=47746683"
+        }
+      ],
+      "source_item_id": 47746683,
+      "source_url": "https://news.ycombinator.com/item?id=47746683",
+      "author": "aaron5",
+      "shared_at": 1776045747,
+      "links": [
+        "https://opendocs.to"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 10511,
+  "slug": "bitgrid-48fc0515e0",
+  "name": "BitGrid",
+  "mentions": [
+    {
+      "name": "BitGrid",
+      "description": "BitGrid is a bit-level systolic array hardware concept that, if it works, could cut roughly 95% off the power and silicon costs of LLM compute, with trillion-dollar data centers as the scale of the target. The author says it differs from prior attempts, which involved RAM or a CPU.",
+      "problem": "LLM compute is extremely power- and silicon-intensive, with costs approaching trillion-dollar data center scale.",
+      "audience": null,
+      "builder_usernames": [
+        "mikewarot"
+      ],
+      "source_excerpt": "I'm working on an idea (BitGrid, a bit level systolic array) referenced here many times, that, if it works, could cut 95% off the power and silicon costs of LLM compute. (Think $1 Trillion data centers)",
+      "evidence": [
+        {
+          "source_item_id": 44792792,
+          "source_field": "body",
+          "value": "I'm working on an idea (BitGrid, a bit level systolic array) referenced here many times, that, if it works, could cut 95% off the power and silicon costs of LLM compute. (Think $1 Trillion data centers)",
+          "supports": [],
+          "author": "mikewarot",
+          "shared_at": 1754352338,
+          "source_url": "https://news.ycombinator.com/item?id=44792792"
+        }
+      ],
+      "source_item_id": 44792792,
+      "source_url": "https://news.ycombinator.com/item?id=44792792",
+      "author": "mikewarot",
+      "shared_at": 1754352338,
+      "links": []
+    }
+  ]
+}

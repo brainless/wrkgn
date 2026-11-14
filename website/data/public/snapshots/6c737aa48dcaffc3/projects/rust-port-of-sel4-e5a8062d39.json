@@ -1,0 +1,33 @@
+{
+  "id": 8100,
+  "slug": "rust-port-of-sel4-e5a8062d39",
+  "name": "Rust port of SeL4",
+  "mentions": [
+    {
+      "name": "Rust port of SeL4",
+      "description": "This project is a hand port of the SeL4 operating system kernel from C to Rust, carried out over about a week to learn how SeL4 works and to study OS development more generally. It is also a Rust kernel project that can be built with a simple `cargo build`.",
+      "problem": "SeL4's use of cmake to compile the kernel and userland software is insanely complex and a major pain point to understand; a Cargo-style build just works instead.",
+      "audience": null,
+      "builder_usernames": [
+        "josephg"
+      ],
+      "source_excerpt": "I've spent the last week or so hand porting SeL4 from C to Rust, mostly so I can learn how it works (and learn OS development more generally).",
+      "evidence": [
+        {
+          "source_item_id": 46270388,
+          "source_field": "body",
+          "value": "I've spent the last week or so hand porting SeL4 from C to Rust, mostly so I can learn how it works (and learn OS development more generally).",
+          "supports": [],
+          "author": "josephg",
+          "shared_at": 1765771807,
+          "source_url": "https://news.ycombinator.com/item?id=46270388"
+        }
+      ],
+      "source_item_id": 46270388,
+      "source_url": "https://news.ycombinator.com/item?id=46270388",
+      "author": "josephg",
+      "shared_at": 1765771807,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 10613,
+  "slug": "clj-multimatch-ea71e8a04e",
+  "name": "clj-multimatch",
+  "mentions": [
+    {
+      "name": "clj-multimatch",
+      "description": "This Clojure library experiments with exhaustive tagged-union support built on Clojure's defmulti, exploring whether a pattern-matching form could generate the defmethods instead.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "escherize"
+      ],
+      "source_excerpt": "Experimenting with exhaustive tagged-union support based on Clojure's defmulti.\n\nI think it might be better to go the other way, and have a pattern-matchey form generate the defmethods instead, but I need to gain tacit knowledge about it first.\n\nhttps://github.com/escherize/clj-multimatch",
+      "evidence": [
+        {
+          "source_item_id": 44707190,
+          "source_field": "body",
+          "value": "Experimenting with exhaustive tagged-union support based on Clojure's defmulti.\n\nI think it might be better to go the other way, and have a pattern-matchey form generate the defmethods instead, but I need to gain tacit knowledge about it first.\n\nhttps://github.com/escherize/clj-multimatch",
+          "supports": [],
+          "author": "escherize",
+          "shared_at": 1753676199,
+          "source_url": "https://news.ycombinator.com/item?id=44707190"
+        }
+      ],
+      "source_item_id": 44707190,
+      "source_url": "https://news.ycombinator.com/item?id=44707190",
+      "author": "escherize",
+      "shared_at": 1753676199,
+      "links": [
+        "https://github.com/escherize/clj-multimatch"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 5487,
+  "slug": "longtermmemory-29bb8fba54",
+  "name": "LongTermMemory",
+  "mentions": [
+    {
+      "name": "LongTermMemory",
+      "description": "An AI RAG (retrieval augmented generation) study tool that uses the Qdrant vector database to embed text chunks and calls an LLM API to generate Q&A pairs from chunked texts. Each chunk is embedded and stored in the vector database to facilitate Q&A generation with better context, and a spaced repetition algorithm helps people study anything.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "aledevv"
+      ],
+      "source_excerpt": "I'm working on a AI RAG (retrieval augmented generation) system: https://longtermemory.com\n\nIt's a tool that use QDrant, a vectorial db, to  embedding the texts chunks: LLM api is questioned to generate the Q&A pairs from a chunked texts.\n\nEach chunk is then embedded and stored in the vectorial db to facilitate the Q&A generation, thanks to better context informations.\n\nThis tool helping people to study everything thanks to even Spaced Repetition algorithm.",
+      "evidence": [
+        {
+          "source_item_id": 47745109,
+          "source_field": "body",
+          "value": "I'm working on a AI RAG (retrieval augmented generation) system: https://longtermemory.com\n\nIt's a tool that use QDrant, a vectorial db, to  embedding the texts chunks: LLM api is questioned to generate the Q&A pairs from a chunked texts.\n\nEach chunk is then embedded and stored in the vectorial db to facilitate the Q&A generation, thanks to better context informations.\n\nThis tool helping people to study everything thanks to even Spaced Repetition algorithm.",
+          "supports": [],
+          "author": "aledevv",
+          "shared_at": 1776031920,
+          "source_url": "https://news.ycombinator.com/item?id=47745109"
+        }
+      ],
+      "source_item_id": 47745109,
+      "source_url": "https://news.ycombinator.com/item?id=47745109",
+      "author": "aledevv",
+      "shared_at": 1776031920,
+      "links": [
+        "https://longtermemory.com"
+      ]
+    }
+  ]
+}

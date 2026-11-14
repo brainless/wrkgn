@@ -1,0 +1,33 @@
+{
+  "id": 7721,
+  "slug": "pytorch-to-mlx-model-ports-415a294906",
+  "name": "PyTorch-to-MLX model ports",
+  "mentions": [
+    {
+      "name": "PyTorch-to-MLX model ports",
+      "description": "This project ports machine learning models from CUDA PyTorch to Apple's MLX so they run locally on a Mac with numerical parity to the originals and substantial inference speeds. Claude is used to run code in a Gradient VM with an Nvidia GPU, investigate layers, and analyze model mechanics before reimplementing them in MLX. Completed ports are mainly audio-domain models, including Facebook's omnilingual ASR, Sam-audio, and Nvidia Sortformer, with a repository release planned.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "bleonov"
+      ],
+      "source_excerpt": "Was really impressed with Claude ability to port models from cuda PyTorch to MLX, so that’s what I have been doing last three weeks; basically I have Mac to test ported models and Gradient vm with PyTorch and Nvidia gpu",
+      "evidence": [
+        {
+          "source_item_id": 46580259,
+          "source_field": "body",
+          "value": "Was really impressed with Claude ability to port models from cuda PyTorch to MLX, so that’s what I have been doing last three weeks; basically I have Mac to test ported models and Gradient vm with PyTorch and Nvidia gpu",
+          "supports": [],
+          "author": "bleonov",
+          "shared_at": 1768166698,
+          "source_url": "https://news.ycombinator.com/item?id=46580259"
+        }
+      ],
+      "source_item_id": 46580259,
+      "source_url": "https://news.ycombinator.com/item?id=46580259",
+      "author": "bleonov",
+      "shared_at": 1768166698,
+      "links": []
+    }
+  ]
+}

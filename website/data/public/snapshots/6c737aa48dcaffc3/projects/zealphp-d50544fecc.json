@@ -1,0 +1,36 @@
+{
+  "id": 4532,
+  "slug": "zealphp-d50544fecc",
+  "name": "ZealPHP",
+  "mentions": [
+    {
+      "name": "ZealPHP",
+      "description": "Open-source PHP framework built on OpenSwoole that keeps the familiar Apache/LAMP-style PHP mental model while modernizing the runtime: a single long-running process handles HTTP, WebSocket, SSE, sessions, shared memory, timers, and task workers. Explores a three-lane migration model — OpenSwoole front-of-house, PHP-FPM-style back-of-house for legacy code, and a coroutine-native path for new code — so existing traditional PHP apps can gain an asynchronous runtime. Includes a handcrafted Learn section that walks through building a Personal Notes + AI Chat app and a multiplayer Tic-Tac-Toe game step by step, and passes PHPStan level 10.",
+      "problem": "Traditional PHP apps on Apache/PHP-FPM cannot easily adopt asynchronous runtimes; the framework aims to let existing legacy PHP apps gain an async runtime while keeping the simple LAMP mental model.",
+      "audience": "PHP developers, including teams maintaining legacy Apache/PHP-FPM applications",
+      "builder_usernames": [
+        "sibidharan"
+      ],
+      "source_excerpt": "I’m working on ZealPHP (https://php.zeal.ninja, MIT), an open-source PHP framework built on OpenSwoole.\n\nThe idea is to keep the simple Apache/LAMP style PHP mental model, but modernise the runtime: PHP can handle HTTP, WebSocket, SSE, sessions, shared memory, timers, and task workers from one long-running process.",
+      "evidence": [
+        {
+          "source_item_id": 48167362,
+          "source_field": "body",
+          "value": "I’m working on ZealPHP (https://php.zeal.ninja, MIT), an open-source PHP framework built on OpenSwoole.\n\nThe idea is to keep the simple Apache/LAMP style PHP mental model, but modernise the runtime: PHP can handle HTTP, WebSocket, SSE, sessions, shared memory, timers, and task workers from one long-running process.",
+          "supports": [],
+          "author": "sibidharan",
+          "shared_at": 1779010154,
+          "source_url": "https://news.ycombinator.com/item?id=48167362"
+        }
+      ],
+      "source_item_id": 48167362,
+      "source_url": "https://news.ycombinator.com/item?id=48167362",
+      "author": "sibidharan",
+      "shared_at": 1779010154,
+      "links": [
+        "https://github.com/sibidharan/zealphp",
+        "https://php.zeal.ninja"
+      ]
+    }
+  ]
+}

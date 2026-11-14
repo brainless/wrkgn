@@ -1,0 +1,35 @@
+{
+  "id": 4490,
+  "slug": "optio-cb1995d4ae",
+  "name": "Optio",
+  "mentions": [
+    {
+      "name": "Optio",
+      "description": "AI agent orchestration platform built on Kubernetes. It supports three agent types: coding agents placed into cloned repos with a ticket (Jira/Linear/Notion/GitHub) that work until they open a PR, resume on CI failures or GitHub feedback, and merge; standalone parameterized agent runs with no repo checkout for tasks like generating reports, triaging alerts, auditing dependencies, querying databases, and posting to Slack; and persistent long-lived, named, message-driven agent processes with a stable slug, inbox, and cyclic state machine that wake on user messages, agent messages, webhooks, cron ticks, or ticket events.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jawiggins"
+      ],
+      "source_excerpt": "I'm working on Optio - an AI agent orchestration platform built on Kubernetes: https://github.com/jonwiggins/optio",
+      "evidence": [
+        {
+          "source_item_id": 48091058,
+          "source_field": "body",
+          "value": "I'm working on Optio - an AI agent orchestration platform built on Kubernetes: https://github.com/jonwiggins/optio",
+          "supports": [],
+          "author": "jawiggins",
+          "shared_at": 1778473683,
+          "source_url": "https://news.ycombinator.com/item?id=48091058"
+        }
+      ],
+      "source_item_id": 48091058,
+      "source_url": "https://news.ycombinator.com/item?id=48091058",
+      "author": "jawiggins",
+      "shared_at": 1778473683,
+      "links": [
+        "https://github.com/jonwiggins/optio"
+      ]
+    }
+  ]
+}

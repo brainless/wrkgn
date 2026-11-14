@@ -1,0 +1,35 @@
+{
+  "id": 9175,
+  "slug": "daedalus-8dbe8a1577",
+  "name": "Daedalus",
+  "mentions": [
+    {
+      "name": "Daedalus",
+      "description": "A structural biology viewer, editor, and CAD-style application combining functionality similar to PyMol, Coot, VMD, and GROMACs. It is open-source and ships as a standalone executable built in Rust and CUDA, including a suite of bio libraries that had to be built for Rust where mature equivalents existed only in Python.",
+      "problem": "Structural biology tooling and bio libraries are mature in Python, but equivalents had to be built for Rust.",
+      "audience": null,
+      "builder_usernames": [
+        "the__alchemist"
+      ],
+      "source_excerpt": "A structural biology viewer/editor/CAD-style application. Combines functionality similar to PyMol, Coot, VMD, and GROMACs. Open-source, standalone executable. Built in Rust and CUDA.",
+      "evidence": [
+        {
+          "source_item_id": 45876160,
+          "source_field": "body",
+          "value": "A structural biology viewer/editor/CAD-style application. Combines functionality similar to PyMol, Coot, VMD, and GROMACs. Open-source, standalone executable. Built in Rust and CUDA.",
+          "supports": [],
+          "author": "the__alchemist",
+          "shared_at": 1762783699,
+          "source_url": "https://news.ycombinator.com/item?id=45876160"
+        }
+      ],
+      "source_item_id": 45876160,
+      "source_url": "https://news.ycombinator.com/item?id=45876160",
+      "author": "the__alchemist",
+      "shared_at": 1762783699,
+      "links": [
+        "https://www.athanorlab.com/daedalus"
+      ]
+    }
+  ]
+}

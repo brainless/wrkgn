@@ -1,0 +1,35 @@
+{
+  "id": 7215,
+  "slug": "bobrchat-b2e5806f2e",
+  "name": "BobrChat",
+  "mentions": [
+    {
+      "name": "BobrChat",
+      "description": "A multi-model chat application that provides insight into the token cost of each message, helping users save money on AI credits compared to typical subscription plans.",
+      "problem": "AI chat subscriptions are costly and opaque about per-message token costs; the author used to pay $8/month on other services and now spends around $4.",
+      "audience": null,
+      "builder_usernames": [
+        "matthew_hre"
+      ],
+      "source_excerpt": "built a multi-model chat application (https://bobrchat.com/) to provide better insights into what each message costs in tokens",
+      "evidence": [
+        {
+          "source_item_id": 46939638,
+          "source_field": "body",
+          "value": "built a multi-model chat application (https://bobrchat.com/) to provide better insights into what each message costs in tokens",
+          "supports": [],
+          "author": "matthew_hre",
+          "shared_at": 1770592816,
+          "source_url": "https://news.ycombinator.com/item?id=46939638"
+        }
+      ],
+      "source_item_id": 46939638,
+      "source_url": "https://news.ycombinator.com/item?id=46939638",
+      "author": "matthew_hre",
+      "shared_at": 1770592816,
+      "links": [
+        "https://bobrchat.com/"
+      ]
+    }
+  ]
+}

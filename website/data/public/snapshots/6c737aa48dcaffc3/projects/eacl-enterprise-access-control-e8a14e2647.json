@@ -1,0 +1,65 @@
+{
+  "id": 1112,
+  "slug": "eacl-enterprise-access-control-e8a14e2647",
+  "name": "EACL (Enterprise Access ControL)",
+  "mentions": [
+    {
+      "name": "EACL (Enterprise Access ControL)",
+      "description": "EACL (Enterprise Access ControL) is a situated ReBAC authorization library inspired by SpiceDB, built in Clojure and backed by Datomic Pro, Datahike, Datalevin, or DataScript. Permissions are stored as data that co-exist with the application's data, which provides reduced network latency, strong local consistency, and opportunities for real-time view maintenance. It ships with a performance demo (1M permissioned entities, 3.8M relationships), an in-browser toy Google Drive clone, and handles authorization in the Datahike HTTP server; EACL V8 RC was released to Clojars.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "pgt"
+      ],
+      "source_excerpt": "EACL: Enterprise Access ControL is a situated ReBAC authorization library inspired by SpiceDB, built in Clojure and backed by Datomic Pro, Datahike, Datalevin or DataScript.",
+      "evidence": [
+        {
+          "source_item_id": 49695226,
+          "source_field": "body",
+          "value": "EACL: Enterprise Access ControL is a situated ReBAC authorization library inspired by SpiceDB, built in Clojure and backed by Datomic Pro, Datahike, Datalevin or DataScript.",
+          "supports": [],
+          "author": "pgt",
+          "shared_at": 1789386340,
+          "source_url": "https://news.ycombinator.com/item?id=49695226"
+        }
+      ],
+      "source_item_id": 49695226,
+      "source_url": "https://news.ycombinator.com/item?id=49695226",
+      "author": "pgt",
+      "shared_at": 1789386340,
+      "links": [
+        "https://eacl.dev/#rationale",
+        "https://github.com/theronic/eacl"
+      ]
+    },
+    {
+      "name": "EACL (Enterprise Access ControL)",
+      "description": "This is a situated ReBAC (relationship-based access control) authorization system based on SpiceDB, built in Clojure and backed by Datomic. Permission schemas and permission data live alongside the application's data, eliminating a network hop, a distributed consistency/syncing problem, and an extra component to run in production versus external authorization services. It can implement ZedToken/Zookies-style consistency via Datomic transaction IDs, is fast without a cache because horizontally-scalable Datomic Peers aggressively cache datoms (with another 10-100x improvement planned), supports easy schema testing with in-memory Datomic, and is especially suitable for real-time multiplayer apps built with frameworks like Electric Clojure. ReBAC subsumes both ABAC and RBAC.",
+      "problem": "External authorization services like SpiceDB add extra network hops, distributed consistency/syncing overhead, and another component to run in production; intermediate resource traversal cursors are the primary performance bottleneck the author is working to improve.",
+      "audience": "Clojure developers building applications, especially real-time multiplayer apps",
+      "builder_usernames": [
+        "pgt"
+      ],
+      "source_excerpt": "EACL: Enterprise Access ControL is a situated ReBAC Authorization system based on SpiceDB, built in Clojure and backed by Datomic – https://github.com/theronic/eacl",
+      "evidence": [
+        {
+          "source_item_id": 46950805,
+          "source_field": "body",
+          "value": "EACL: Enterprise Access ControL is a situated ReBAC Authorization system based on SpiceDB, built in Clojure and backed by Datomic – https://github.com/theronic/eacl",
+          "supports": [],
+          "author": "pgt",
+          "shared_at": 1770669189,
+          "source_url": "https://news.ycombinator.com/item?id=46950805"
+        }
+      ],
+      "source_item_id": 46950805,
+      "source_url": "https://news.ycombinator.com/item?id=46950805",
+      "author": "pgt",
+      "shared_at": 1770669189,
+      "links": [
+        "https://eacl.dev/",
+        "https://github.com/theronic/eacl"
+      ]
+    }
+  ]
+}

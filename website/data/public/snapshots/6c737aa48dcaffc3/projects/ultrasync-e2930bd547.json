@@ -1,0 +1,35 @@
+{
+  "id": 7161,
+  "slug": "ultrasync-e2930bd547",
+  "name": "UltraSync",
+  "mentions": [
+    {
+      "name": "UltraSync",
+      "description": "An open-source MCP server that improves coding agents' planning and exploration speed by indexing chat transcripts in the background into an LMDB and using Hyperscan-accelerated pattern matching to build a lightweight lexical and semantic index for RRF search, requiring zero prompting, nudging, or additional setup. Upcoming team-based features include centralized sharing and management of ADRs to enrich the coding agent's context and the ability to broadcast prompts to team members running the MCP server.",
+      "problem": "Improving planning/exploration speed in coding agents",
+      "audience": null,
+      "builder_usernames": [
+        "darvid"
+      ],
+      "source_excerpt": "https://ultrasync.dev/ - this was built a few months ago but expanding to support team based features like centralized sharing and management of ADRs to enrich my coding agent's context, the ability to broadcast prompts to team members running the MCP server, and more. the core is open source and provides (i think) a novel approach to improving planning/exploration speed in coding agents, by building an LMDB and using Hyperscan (accelerated pattern matching) to build a lightweight lexical and semantic index for RRF search, all in a single MCP server that runs and indexes chat transcripts in the background, requiring zero prompting or \"nudging\" or additional setup.",
+      "evidence": [
+        {
+          "source_item_id": 46939705,
+          "source_field": "body",
+          "value": "https://ultrasync.dev/ - this was built a few months ago but expanding to support team based features like centralized sharing and management of ADRs to enrich my coding agent's context, the ability to broadcast prompts to team members running the MCP server, and more. the core is open source and provides (i think) a novel approach to improving planning/exploration speed in coding agents, by building an LMDB and using Hyperscan (accelerated pattern matching) to build a lightweight lexical and semantic index for RRF search, all in a single MCP server that runs and indexes chat transcripts in the background, requiring zero prompting or \"nudging\" or additional setup.",
+          "supports": [],
+          "author": "darvid",
+          "shared_at": 1770593517,
+          "source_url": "https://news.ycombinator.com/item?id=46939705"
+        }
+      ],
+      "source_item_id": 46939705,
+      "source_url": "https://news.ycombinator.com/item?id=46939705",
+      "author": "darvid",
+      "shared_at": 1770593517,
+      "links": [
+        "https://ultrasync.dev/"
+      ]
+    }
+  ]
+}

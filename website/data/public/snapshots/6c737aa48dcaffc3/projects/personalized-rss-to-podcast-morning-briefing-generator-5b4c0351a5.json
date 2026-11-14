@@ -1,0 +1,33 @@
+{
+  "id": 4576,
+  "slug": "personalized-rss-to-podcast-morning-briefing-generator-5b4c0351a5",
+  "name": "Personalized RSS-to-Podcast Morning Briefing Generator",
+  "mentions": [
+    {
+      "name": "Personalized RSS-to-Podcast Morning Briefing Generator",
+      "description": "This tool summarizes RSS feeds, transforms the content, and transcribes it into a personalized podcast. It generates morning briefings tailored to the listener, covering weather and chance of rain, BBC/NPR top stories, specific sports news, and the most popular Hacker News posts with LLM-generated summaries of comment threads. It runs end to end on a local RTX 3070 GPU and is designed as a set-and-forget system.",
+      "problem": "Staying informed meant squinting at glowing rectangles, and there is a finite amount of podcasts one can reasonably follow and digest.",
+      "audience": "The builder wants a set-and-forget tool for personal daily news consumption.",
+      "builder_usernames": [
+        "justkez"
+      ],
+      "source_excerpt": "I built a very basic prototype to summarise RSS feeds/transform the content and transcribe it in to a personalised podcast.",
+      "evidence": [
+        {
+          "source_item_id": 48092198,
+          "source_field": "body",
+          "value": "I built a very basic prototype to summarise RSS feeds/transform the content and transcribe it in to a personalised podcast.",
+          "supports": [],
+          "author": "justkez",
+          "shared_at": 1778485863,
+          "source_url": "https://news.ycombinator.com/item?id=48092198"
+        }
+      ],
+      "source_item_id": 48092198,
+      "source_url": "https://news.ycombinator.com/item?id=48092198",
+      "author": "justkez",
+      "shared_at": 1778485863,
+      "links": []
+    }
+  ]
+}

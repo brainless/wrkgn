@@ -1,0 +1,35 @@
+{
+  "id": 9959,
+  "slug": "sifted3-0c88e2ab9a",
+  "name": "Sifted3",
+  "mentions": [
+    {
+      "name": "Sifted3",
+      "description": "A LinkedIn alternative focused on jobs rather than social networking. It limits the number of job applications a user can make (a rate limit on application count) and includes mechanisms to provide feedback to users, aiming to address shortcomings of LinkedIn. Currently it has no jobs or candidates listed yet.",
+      "problem": "Addresses shortcomings of LinkedIn as seen by the builder, such as its social focus and lack of feedback mechanisms.",
+      "audience": null,
+      "builder_usernames": [
+        "cs02rm0"
+      ],
+      "source_excerpt": "I built what I guess is a LinkedIn alternative: https://sifted3.com/blog/building-sifted3\n\nIt's less focused on the social, more on the jobs. With a limit on the number of job applications a user can make; sort of like Twitter, for job application count. And mechanisms to provide feedback to users. Basically trying to address a few shortcomings of LinkedIn as I see them (with other mechanisms in the pipeline).",
+      "evidence": [
+        {
+          "source_item_id": 45425384,
+          "source_field": "body",
+          "value": "I built what I guess is a LinkedIn alternative: https://sifted3.com/blog/building-sifted3\n\nIt's less focused on the social, more on the jobs. With a limit on the number of job applications a user can make; sort of like Twitter, for job application count. And mechanisms to provide feedback to users. Basically trying to address a few shortcomings of LinkedIn as I see them (with other mechanisms in the pipeline).",
+          "supports": [],
+          "author": "cs02rm0",
+          "shared_at": 1759239993,
+          "source_url": "https://news.ycombinator.com/item?id=45425384"
+        }
+      ],
+      "source_item_id": 45425384,
+      "source_url": "https://news.ycombinator.com/item?id=45425384",
+      "author": "cs02rm0",
+      "shared_at": 1759239993,
+      "links": [
+        "https://sifted3.com/blog/building-sifted3"
+      ]
+    }
+  ]
+}

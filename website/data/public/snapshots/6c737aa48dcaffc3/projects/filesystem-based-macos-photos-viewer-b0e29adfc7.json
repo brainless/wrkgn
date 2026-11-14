@@ -1,0 +1,33 @@
+{
+  "id": 9728,
+  "slug": "filesystem-based-macos-photos-viewer-b0e29adfc7",
+  "name": "Filesystem-based macOS photos viewer",
+  "mentions": [
+    {
+      "name": "Filesystem-based macOS photos viewer",
+      "description": "A macOS photo viewer that works directly on the filesystem instead of storing photos in a monolithic opaque library.",
+      "problem": "Existing photo apps rely on a monolithic opaque library instead of the filesystem.",
+      "audience": null,
+      "builder_usernames": [
+        "Razengan"
+      ],
+      "source_excerpt": "macOS photos viewer based on the filesystem instead of a monolithic opaque \"library\"",
+      "evidence": [
+        {
+          "source_item_id": 45869579,
+          "source_field": "body",
+          "value": "macOS photos viewer based on the filesystem instead of a monolithic opaque \"library\"",
+          "supports": [],
+          "author": "Razengan",
+          "shared_at": 1762725321,
+          "source_url": "https://news.ycombinator.com/item?id=45869579"
+        }
+      ],
+      "source_item_id": 45869579,
+      "source_url": "https://news.ycombinator.com/item?id=45869579",
+      "author": "Razengan",
+      "shared_at": 1762725321,
+      "links": []
+    }
+  ]
+}

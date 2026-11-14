@@ -1,0 +1,35 @@
+{
+  "id": 10985,
+  "slug": "pico2maple-fw-316f971c6c",
+  "name": "Pico2Maple-fw",
+  "mentions": [
+    {
+      "name": "Pico2Maple-fw",
+      "description": "A USB/Bluetooth to Sega Dreamcast controller adapter based on the Raspberry Pi Pico 2/W board. It supports multiple controllers, keyboards, and mice, and acts as a VMU (the Dreamcast's memory card) while plugged in. The dongle itself involves 3D printing, CAD, and PCB design.",
+      "problem": "The author has access to only a limited amount of hardware to test against, and USB controllers are a minefield of one-offs and edge cases.",
+      "audience": null,
+      "builder_usernames": [
+        "cluoma"
+      ],
+      "source_excerpt": "Currently working on a USB/Bluetooth to Sega Dreamcast controller adapter.\n\nIt's based on the Raspberry Pi Pico 2/W board and originally started as a fun project to play around with the PIO features of the RP chips and get my Steam Controller working on the Dreamcast. It has since expanded to support more controllers, keyboards, mice, and acts as VMU - the Dreamcast's memory card - while plugged in. Building the dongle itself has also been a fun exercise in 3d printing, cad and pcb design.",
+      "evidence": [
+        {
+          "source_item_id": 43836388,
+          "source_field": "body",
+          "value": "Currently working on a USB/Bluetooth to Sega Dreamcast controller adapter.\n\nIt's based on the Raspberry Pi Pico 2/W board and originally started as a fun project to play around with the PIO features of the RP chips and get my Steam Controller working on the Dreamcast. It has since expanded to support more controllers, keyboards, mice, and acts as VMU - the Dreamcast's memory card - while plugged in. Building the dongle itself has also been a fun exercise in 3d printing, cad and pcb design.",
+          "supports": [],
+          "author": "cluoma",
+          "shared_at": 1745951936,
+          "source_url": "https://news.ycombinator.com/item?id=43836388"
+        }
+      ],
+      "source_item_id": 43836388,
+      "source_url": "https://news.ycombinator.com/item?id=43836388",
+      "author": "cluoma",
+      "shared_at": 1745951936,
+      "links": [
+        "https://github.com/cluoma/Pico2Maple-fw"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 7834,
+  "slug": "camera-module-with-built-in-slam-e47a7676d4",
+  "name": "Camera module with built-in SLAM",
+  "mentions": [
+    {
+      "name": "Camera module with built-in SLAM",
+      "description": "A camera module with SLAM built in, running on a single-core ARMv7 processor. It includes visual-inertial odometry (VIO) and loop closure, and is being optimized further to see if basic mapping can also fit on the hardware.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "asadm"
+      ],
+      "source_excerpt": "I am working on a camera module that has SLAM built-in:\nhttps://x.com/_asadmemon/status/1989417143398797424\n\nRunning on a single-core armv7. It includes a VIO and a nice loop closure. I am now optimizing it further to see if I can fit some basic mapping too.",
+      "evidence": [
+        {
+          "source_item_id": 46578727,
+          "source_field": "body",
+          "value": "I am working on a camera module that has SLAM built-in:\nhttps://x.com/_asadmemon/status/1989417143398797424\n\nRunning on a single-core armv7. It includes a VIO and a nice loop closure. I am now optimizing it further to see if I can fit some basic mapping too.",
+          "supports": [],
+          "author": "asadm",
+          "shared_at": 1768158520,
+          "source_url": "https://news.ycombinator.com/item?id=46578727"
+        }
+      ],
+      "source_item_id": 46578727,
+      "source_url": "https://news.ycombinator.com/item?id=46578727",
+      "author": "asadm",
+      "shared_at": 1768158520,
+      "links": [
+        "https://x.com/_asadmemon/status/1989417143398797424"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 7188,
+  "slug": "bambu-3d-printer-alternative-client-b9a10cc76b",
+  "name": "Bambu 3D printer alternative client",
+  "mentions": [
+    {
+      "name": "Bambu 3D printer alternative client",
+      "description": "A replacement front end for Bambu 3D printers that works entirely over the LAN without Bambu's cloud account or apps. It provides a simple upload-and-monitor UI, supports multiple printers stacked and managed from a single page, pulls a reliable camera feed as a series of still images, and can onboard just-unboxed printers via SSID info on the SD card with zero cloud or app contact. It is wrapped in a small Python launcher for dock-based launching, and the author plans to open source it.",
+      "problem": "Bambu's printers are best-in-class but their software is intrusive and proprietary: setup pushes a cloud account or app, updates have disabled functionality making LAN-only mode untrustworthy, camera feeds are janky, and LAN-only sync fails silently — and the apps break completely behind custom VLANs/SSIDs.",
+      "audience": null,
+      "builder_usernames": [
+        "RickS"
+      ],
+      "source_excerpt": "I had opus vibe out a replacement front end that gives me a simple upload and monitor UI for my A1, and it just kept hitting stretch goals. I added support for multiple printers so you can see them stacked on a single page and manage all of them from one place. And it even works on just-unboxed models that have never been through the official setup.",
+      "evidence": [
+        {
+          "source_item_id": 46939700,
+          "source_field": "body",
+          "value": "I had opus vibe out a replacement front end that gives me a simple upload and monitor UI for my A1, and it just kept hitting stretch goals. I added support for multiple printers so you can see them stacked on a single page and manage all of them from one place. And it even works on just-unboxed models that have never been through the official setup.",
+          "supports": [],
+          "author": "RickS",
+          "shared_at": 1770593480,
+          "source_url": "https://news.ycombinator.com/item?id=46939700"
+        }
+      ],
+      "source_item_id": 46939700,
+      "source_url": "https://news.ycombinator.com/item?id=46939700",
+      "author": "RickS",
+      "shared_at": 1770593480,
+      "links": []
+    }
+  ]
+}

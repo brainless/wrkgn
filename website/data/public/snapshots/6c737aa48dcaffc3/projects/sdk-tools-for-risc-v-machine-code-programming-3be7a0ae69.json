@@ -1,0 +1,33 @@
+{
+  "id": 8270,
+  "slug": "sdk-tools-for-risc-v-machine-code-programming-3be7a0ae69",
+  "name": "SDK tools for RISC-V machine code programming",
+  "mentions": [
+    {
+      "name": "SDK tools for RISC-V machine code programming",
+      "description": "A methodology and set of SDK tools for writing RISC-V machine code programs more comfortably, outputting a very simple custom file format that uses only the core ISA (no compressed instructions, no pseudo instructions) with just a simple C preprocessor.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "sylware"
+      ],
+      "source_excerpt": "In the end, I did design some kind of methodology and coded some SDK tools in order to write a bit more comfortably RISC-V machine code programs in a very simple fire format (only core ISA, not even compressed instructions, no pseudo instructions, using only a simple C preprocessor).",
+      "evidence": [
+        {
+          "source_item_id": 46272593,
+          "source_field": "body",
+          "value": "In the end, I did design some kind of methodology and coded some SDK tools in order to write a bit more comfortably RISC-V machine code programs in a very simple fire format (only core ISA, not even compressed instructions, no pseudo instructions, using only a simple C preprocessor).",
+          "supports": [],
+          "author": "sylware",
+          "shared_at": 1765794158,
+          "source_url": "https://news.ycombinator.com/item?id=46272593"
+        }
+      ],
+      "source_item_id": 46272593,
+      "source_url": "https://news.ycombinator.com/item?id=46272593",
+      "author": "sylware",
+      "shared_at": 1765794158,
+      "links": []
+    }
+  ]
+}

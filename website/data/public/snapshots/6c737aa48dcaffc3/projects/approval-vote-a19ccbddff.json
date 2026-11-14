@@ -1,0 +1,36 @@
+{
+  "id": 8235,
+  "slug": "approval-vote-a19ccbddff",
+  "name": "Approval Vote",
+  "mentions": [
+    {
+      "name": "Approval Vote",
+      "description": "A SvelteJS static app that renders approval voting election results, including additional results, details, and statistics. It now integrates Datasette Lite so visitors can query the underlying SQLite database directly in the browser.",
+      "problem": "It was difficult to compare many elections using alternative voting methods against each other.",
+      "audience": null,
+      "builder_usernames": [
+        "fsargent"
+      ],
+      "source_excerpt": "https://approval.vote / https://ranked.vote\nBoth svelteJS static apps that render approval voting and ranked choice voting elections.\n\nI got frustrated on how difficult it is to compare many elections using alternative voting methods against each other, so ended up extending a friends project, adding more results, details and statistics.\n\nJust added datasette lite to the approval voting site.  it’s pretty cool to query the SQLite db in the browser. https://approval.vote/data",
+      "evidence": [
+        {
+          "source_item_id": 46270627,
+          "source_field": "body",
+          "value": "https://approval.vote / https://ranked.vote\nBoth svelteJS static apps that render approval voting and ranked choice voting elections.\n\nI got frustrated on how difficult it is to compare many elections using alternative voting methods against each other, so ended up extending a friends project, adding more results, details and statistics.\n\nJust added datasette lite to the approval voting site.  it’s pretty cool to query the SQLite db in the browser. https://approval.vote/data",
+          "supports": [],
+          "author": "fsargent",
+          "shared_at": 1765774412,
+          "source_url": "https://news.ycombinator.com/item?id=46270627"
+        }
+      ],
+      "source_item_id": 46270627,
+      "source_url": "https://news.ycombinator.com/item?id=46270627",
+      "author": "fsargent",
+      "shared_at": 1765774412,
+      "links": [
+        "https://approval.vote",
+        "https://approval.vote/data"
+      ]
+    }
+  ]
+}

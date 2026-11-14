@@ -1,0 +1,93 @@
+{
+  "id": 3615,
+  "slug": "hister-a129a625a4",
+  "name": "Hister",
+  "mentions": [
+    {
+      "name": "Hister",
+      "description": "Hister is a self-hosted search service and full text indexer for websites and local files. It automatically saves all pages visited in the browser, provides offline result previews, and offers flexible web and terminal search interfaces with a query language to explore saved content, with quick fallback to traditional search engines.",
+      "problem": "Dependence on online search engines; the goal is to reduce reliance on services like Google, DuckDuckGo, and Kagi by searching a local index of visited pages and files.",
+      "audience": null,
+      "builder_usernames": [
+        "asciimoo"
+      ],
+      "source_excerpt": "I'm still working on a self-hosted search service called Hister with the goal to reduce dependence on online search engines. Hister is a full text indexer for websites and local files which automatically saves all the visited pages rendered by your browser. It provides offline result previews, a flexible web (and terminal) search interface & query language to explore saved content with ease or quickly fall back to traditional search engines.",
+      "evidence": [
+        {
+          "source_item_id": 48530464,
+          "source_field": "body",
+          "value": "I'm still working on a self-hosted search service called Hister with the goal to reduce dependence on online search engines. Hister is a full text indexer for websites and local files which automatically saves all the visited pages rendered by your browser. It provides offline result previews, a flexible web (and terminal) search interface & query language to explore saved content with ease or quickly fall back to traditional search engines.",
+          "supports": [],
+          "author": "asciimoo",
+          "shared_at": 1781460011,
+          "source_url": "https://news.ycombinator.com/item?id=48530464"
+        }
+      ],
+      "source_item_id": 48530464,
+      "source_url": "https://news.ycombinator.com/item?id=48530464",
+      "author": "asciimoo",
+      "shared_at": 1781460011,
+      "links": [
+        "https://github.com/asciimoo/hister",
+        "https://hister.org/"
+      ]
+    },
+    {
+      "name": "Hister",
+      "description": "A free general purpose web search engine that provides automatic full-text indexing for visited websites. Planned work includes adding new extractors and optimizing indexer storage by moving HTML/favicon content out of the index and storing it in an efficient compressed form.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "asciimoo"
+      ],
+      "source_excerpt": "I'll continue to work on https://github.com/asciimoo/hister as much as I can. I plan to add new extractors and optimize the indexer storage usage by moving out HTML/favicon content from the index and storing them in an efficient compressed way.\n\nHister is a free general purpose web search engine providing automatic full-text indexing for visited websites.",
+      "evidence": [
+        {
+          "source_item_id": 48092184,
+          "source_field": "body",
+          "value": "I'll continue to work on https://github.com/asciimoo/hister as much as I can. I plan to add new extractors and optimize the indexer storage usage by moving out HTML/favicon content from the index and storing them in an efficient compressed way.\n\nHister is a free general purpose web search engine providing automatic full-text indexing for visited websites.",
+          "supports": [],
+          "author": "asciimoo",
+          "shared_at": 1778485747,
+          "source_url": "https://news.ycombinator.com/item?id=48092184"
+        }
+      ],
+      "source_item_id": 48092184,
+      "source_url": "https://news.ycombinator.com/item?id=48092184",
+      "author": "asciimoo",
+      "shared_at": 1778485747,
+      "links": [
+        "https://github.com/asciimoo/hister"
+      ]
+    },
+    {
+      "name": "Hister",
+      "description": "A self-hosted search service that works as a full-text indexer, saving every page rendered by the user's browser. It offers flexible web and terminal search interfaces with a query language for exploring previously visited content, and can quickly fall back to traditional search engines.",
+      "problem": "Dependence on online search engines.",
+      "audience": null,
+      "builder_usernames": [
+        "asciimoo"
+      ],
+      "source_excerpt": "I'm working on a self-hosted search service called Hister with the goal to reduce my dependence on online search engines.\n\nHister is basically a full text indexer which saves all the visited pages rendered by your browser. It provides a flexible web (and terminal) search interface & query language to explore previously visited content with ease or quickly fall back to traditional search engines.",
+      "evidence": [
+        {
+          "source_item_id": 47308654,
+          "source_field": "body",
+          "value": "I'm working on a self-hosted search service called Hister with the goal to reduce my dependence on online search engines.\n\nHister is basically a full text indexer which saves all the visited pages rendered by your browser. It provides a flexible web (and terminal) search interface & query language to explore previously visited content with ease or quickly fall back to traditional search engines.",
+          "supports": [],
+          "author": "asciimoo",
+          "shared_at": 1773062142,
+          "source_url": "https://news.ycombinator.com/item?id=47308654"
+        }
+      ],
+      "source_item_id": 47308654,
+      "source_url": "https://news.ycombinator.com/item?id=47308654",
+      "author": "asciimoo",
+      "shared_at": 1773062142,
+      "links": [
+        "https://github.com/asciimoo/hister",
+        "https://hister.org/"
+      ]
+    }
+  ]
+}

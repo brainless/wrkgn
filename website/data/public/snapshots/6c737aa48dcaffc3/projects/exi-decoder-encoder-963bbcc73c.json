@@ -1,0 +1,33 @@
+{
+  "id": 6951,
+  "slug": "exi-decoder-encoder-963bbcc73c",
+  "name": "EXI decoder/encoder",
+  "mentions": [
+    {
+      "name": "EXI decoder/encoder",
+      "description": "An EXI (Efficient XML Interchange) decoder and encoder with distinct modes for spec conformance and interoperability, planned for encoding huge, repetitive XML datasets efficiently (precomp mode with a strong backend such as zstd).",
+      "problem": "Spec conformance and interoperability in EXI currently don't seem to be the same thing.",
+      "audience": null,
+      "builder_usernames": [
+        "t_null"
+      ],
+      "source_excerpt": "An exi decoder/encoder (goal is to have modes for spec conform and interop, which right now doesn't seem to be the same thing). Afterwards I also want to try to use it to encode huge XML datasets in precomp mode with good encoder (maybe ztsd). Should be pretty useful for large repetitive datasets.",
+      "evidence": [
+        {
+          "source_item_id": 46939745,
+          "source_field": "body",
+          "value": "An exi decoder/encoder (goal is to have modes for spec conform and interop, which right now doesn't seem to be the same thing). Afterwards I also want to try to use it to encode huge XML datasets in precomp mode with good encoder (maybe ztsd). Should be pretty useful for large repetitive datasets.",
+          "supports": [],
+          "author": "t_null",
+          "shared_at": 1770593815,
+          "source_url": "https://news.ycombinator.com/item?id=46939745"
+        }
+      ],
+      "source_item_id": 46939745,
+      "source_url": "https://news.ycombinator.com/item?id=46939745",
+      "author": "t_null",
+      "shared_at": 1770593815,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": 5608,
+  "slug": "jar-tools-security-scan-jar-security-scanner-33bfb288eb",
+  "name": "jar.tools Security Scan (Jar Security Scanner)",
+  "mentions": [
+    {
+      "name": "jar.tools Security Scan (Jar Security Scanner)",
+      "description": "This tool scans Java JAR files to determine whether a jar is safe to run or not, as a Security Scan feature added to jar.tools.",
+      "problem": "Determining whether a JAR file is safe to run before executing it.",
+      "audience": null,
+      "builder_usernames": [
+        "Igor_Wiwi"
+      ],
+      "source_excerpt": "I am adding another feature to https://jar.tools called Security Scan which scan a jar and finds out if a jar safe to run or not. Direct link to a tool https://jar.tools/jar-security-scanner",
+      "evidence": [
+        {
+          "source_item_id": 47751280,
+          "source_field": "body",
+          "value": "I am adding another feature to https://jar.tools called Security Scan which scan a jar and finds out if a jar safe to run or not. Direct link to a tool https://jar.tools/jar-security-scanner",
+          "supports": [],
+          "author": "Igor_Wiwi",
+          "shared_at": 1776084857,
+          "source_url": "https://news.ycombinator.com/item?id=47751280"
+        }
+      ],
+      "source_item_id": 47751280,
+      "source_url": "https://news.ycombinator.com/item?id=47751280",
+      "author": "Igor_Wiwi",
+      "shared_at": 1776084857,
+      "links": [
+        "https://jar.tools",
+        "https://jar.tools/jar-security-scanner"
+      ]
+    },
+    {
+      "name": "Jar.Tools",
+      "description": "Jar.Tools is an online Java JAR file decompiler and content viewer, letting users decompile Java jar archives and inspect their contents in the browser.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Igor_Wiwi"
+      ],
+      "source_excerpt": "https://Jar.Tools - online java jar files decompiler and content viewer",
+      "evidence": [
+        {
+          "source_item_id": 46271632,
+          "source_field": "body",
+          "value": "https://Jar.Tools - online java jar files decompiler and content viewer",
+          "supports": [],
+          "author": "Igor_Wiwi",
+          "shared_at": 1765785930,
+          "source_url": "https://news.ycombinator.com/item?id=46271632"
+        }
+      ],
+      "source_item_id": 46271632,
+      "source_url": "https://news.ycombinator.com/item?id=46271632",
+      "author": "Igor_Wiwi",
+      "shared_at": 1765785930,
+      "links": [
+        "https://Jar.Tools"
+      ]
+    },
+    {
+      "name": "jar.tools",
+      "description": "This web tool lets users peek into and patch Java jar files directly in the browser, and recently added a Java property file editor feature.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Igor_Wiwi"
+      ],
+      "source_excerpt": "https://jar.tools/ - peek and patch Java jar files in your browser.\n\nRecently added a new feature – Java property file editor",
+      "evidence": [
+        {
+          "source_item_id": 44709372,
+          "source_field": "body",
+          "value": "https://jar.tools/ - peek and patch Java jar files in your browser.\n\nRecently added a new feature – Java property file editor",
+          "supports": [],
+          "author": "Igor_Wiwi",
+          "shared_at": 1753699036,
+          "source_url": "https://news.ycombinator.com/item?id=44709372"
+        }
+      ],
+      "source_item_id": 44709372,
+      "source_url": "https://news.ycombinator.com/item?id=44709372",
+      "author": "Igor_Wiwi",
+      "shared_at": 1753699036,
+      "links": [
+        "https://jar.tools/"
+      ]
+    }
+  ]
+}

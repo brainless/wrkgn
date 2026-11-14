@@ -1,0 +1,91 @@
+{
+  "id": 3149,
+  "slug": "hidefile-1964bfd9fd",
+  "name": "Hidefile",
+  "mentions": [
+    {
+      "name": "Hidefile",
+      "description": "This tool secures and hides files in plain sight, letting users conceal their files from view.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "konichiwAI"
+      ],
+      "source_excerpt": "https://hidefile.app\n\nsecure and hide your files in plain sight.",
+      "evidence": [
+        {
+          "source_item_id": 48887398,
+          "source_field": "body",
+          "value": "https://hidefile.app\n\nsecure and hide your files in plain sight.",
+          "supports": [],
+          "author": "konichiwAI",
+          "shared_at": 1783912159,
+          "source_url": "https://news.ycombinator.com/item?id=48887398"
+        }
+      ],
+      "source_item_id": 48887398,
+      "source_url": "https://news.ycombinator.com/item?id=48887398",
+      "author": "konichiwAI",
+      "shared_at": 1783912159,
+      "links": [
+        "https://hidefile.app"
+      ]
+    },
+    {
+      "name": "HideFile",
+      "description": "A WASM-based steganography tool that runs entirely in the browser, letting users hide files inside other files, with a full embedded file system and file viewer.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "konichiwAI"
+      ],
+      "source_excerpt": "wasm based in browser steganography with a full file system/viewer embedded.",
+      "evidence": [
+        {
+          "source_item_id": 48090859,
+          "source_field": "body",
+          "value": "wasm based in browser steganography with a full file system/viewer embedded.",
+          "supports": [],
+          "author": "konichiwAI",
+          "shared_at": 1778471067,
+          "source_url": "https://news.ycombinator.com/item?id=48090859"
+        }
+      ],
+      "source_item_id": 48090859,
+      "source_url": "https://news.ycombinator.com/item?id=48090859",
+      "author": "konichiwAI",
+      "shared_at": 1778471067,
+      "links": [
+        "https://hidefile.app"
+      ]
+    },
+    {
+      "name": "HideFile",
+      "description": "This app is a steganography tool that runs fully locally in the browser. It creates and inserts entire files into PNGs, MP4s, PDFs, and JPGs via a static website that loads a WASM binary, with no login or network calls. Files hidden inside the carrier media appear as a full file system with a gallery mode for images, PDFs, and videos; embedded videos seek and stream, so even a 4GB video opens quickly and works normally.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "konichiwAI"
+      ],
+      "source_excerpt": "https://hidefile.app\n\nLocally running fully working steganography in the browser.\n\nCreate and insert entire files into pngs, mp4, pdfs and jpgs. The site is a static website that loads a wasm bin that does everything in browser with wasm. So no login, or network calls.\n\nEssentially impregnate images and videos that open normally in your browser, but have a full file system with a full gallery mode for images, pdfs and images inside. videos  do seek and stream so even if you embed a 4GB video file, it opens quite fast and just works.",
+      "evidence": [
+        {
+          "source_item_id": 47311696,
+          "source_field": "body",
+          "value": "https://hidefile.app\n\nLocally running fully working steganography in the browser.\n\nCreate and insert entire files into pngs, mp4, pdfs and jpgs. The site is a static website that loads a wasm bin that does everything in browser with wasm. So no login, or network calls.\n\nEssentially impregnate images and videos that open normally in your browser, but have a full file system with a full gallery mode for images, pdfs and images inside. videos  do seek and stream so even if you embed a 4GB video file, it opens quite fast and just works.",
+          "supports": [],
+          "author": "konichiwAI",
+          "shared_at": 1773075362,
+          "source_url": "https://news.ycombinator.com/item?id=47311696"
+        }
+      ],
+      "source_item_id": 47311696,
+      "source_url": "https://news.ycombinator.com/item?id=47311696",
+      "author": "konichiwAI",
+      "shared_at": 1773075362,
+      "links": [
+        "https://hidefile.app"
+      ]
+    }
+  ]
+}

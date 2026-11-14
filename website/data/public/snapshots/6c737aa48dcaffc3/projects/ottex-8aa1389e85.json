@@ -1,0 +1,35 @@
+{
+  "id": 7065,
+  "slug": "ottex-8aa1389e85",
+  "name": "Ottex",
+  "mentions": [
+    {
+      "name": "Ottex",
+      "description": "A free macOS app written in Swift that lets you type with your voice. It supports local speech models and BYOK (Bring Your Own Key) with multiple providers, and lets you assign different models and post-processing steps to polish the dictated text — for example transforming voice into clean, formatted Markdown for Obsidian, or automatically switching to the Parakeet V3 instant local model when used inside VS Code.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "9294"
+      ],
+      "source_excerpt": "It's a free macOS app written in Swift that allows you to type with your voice. It supports local models and BYOK (Bring Your Own Key) with a bunch of providers.\n\nYou can assign different models and post-processing steps to polish the text. For example, I have a setup for Obsidian that transforms my voice into clean, formatted Markdown. Or, when I use it inside VS Code, it switches to the Parakeet V3 instant local model.",
+      "evidence": [
+        {
+          "source_item_id": 46943072,
+          "source_field": "body",
+          "value": "It's a free macOS app written in Swift that allows you to type with your voice. It supports local models and BYOK (Bring Your Own Key) with a bunch of providers.\n\nYou can assign different models and post-processing steps to polish the text. For example, I have a setup for Obsidian that transforms my voice into clean, formatted Markdown. Or, when I use it inside VS Code, it switches to the Parakeet V3 instant local model.",
+          "supports": [],
+          "author": "9294",
+          "shared_at": 1770626597,
+          "source_url": "https://news.ycombinator.com/item?id=46943072"
+        }
+      ],
+      "source_item_id": 46943072,
+      "source_url": "https://news.ycombinator.com/item?id=46943072",
+      "author": "9294",
+      "shared_at": 1770626597,
+      "links": [
+        "https://ottex.ai"
+      ]
+    }
+  ]
+}

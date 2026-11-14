@@ -1,0 +1,91 @@
+{
+  "id": 4534,
+  "slug": "adretro-f44acadac5",
+  "name": "AdRetro",
+  "mentions": [
+    {
+      "name": "AdRetro",
+      "description": "A searchable archive of American vintage ads with a front-end search portal that lets users deeply search all aspects of the collection. Metadata is extracted from ad images using OpenAI and stored in MySQL full-text search, with vector search planned after launch.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rorylaitila"
+      ],
+      "source_excerpt": "I've been cataloging my collection of American vintage ads (https://adretro.com). The collection has expanded considerably in the last year. I'm working on a front end search portal for users to use, to deeply search all aspects of the collection. Built on MySQL and Lucee. Meta data is extracted with OpenAI image, stored in MySQL FTS.",
+      "evidence": [
+        {
+          "source_item_id": 48093377,
+          "source_field": "body",
+          "value": "I've been cataloging my collection of American vintage ads (https://adretro.com). The collection has expanded considerably in the last year. I'm working on a front end search portal for users to use, to deeply search all aspects of the collection. Built on MySQL and Lucee. Meta data is extracted with OpenAI image, stored in MySQL FTS.",
+          "supports": [],
+          "author": "rorylaitila",
+          "shared_at": 1778496981,
+          "source_url": "https://news.ycombinator.com/item?id=48093377"
+        }
+      ],
+      "source_item_id": 48093377,
+      "source_url": "https://news.ycombinator.com/item?id=48093377",
+      "author": "rorylaitila",
+      "shared_at": 1778496981,
+      "links": [
+        "https://adretro.com"
+      ]
+    },
+    {
+      "name": "Adretro",
+      "description": "A site cataloging and publishing the author's vintage ad collection, which has been online for about a year and is starting to attract organic traffic.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rorylaitila"
+      ],
+      "source_excerpt": "I've been cataloging and publishing my vintage ad collection at https://adretro.com.",
+      "evidence": [
+        {
+          "source_item_id": 46939334,
+          "source_field": "body",
+          "value": "I've been cataloging and publishing my vintage ad collection at https://adretro.com.",
+          "supports": [],
+          "author": "rorylaitila",
+          "shared_at": 1770590568,
+          "source_url": "https://news.ycombinator.com/item?id=46939334"
+        }
+      ],
+      "source_item_id": 46939334,
+      "source_url": "https://news.ycombinator.com/item?id=46939334",
+      "author": "rorylaitila",
+      "shared_at": 1770590568,
+      "links": [
+        "https://adretro.com"
+      ]
+    },
+    {
+      "name": "AdRetro",
+      "description": "This project digitally catalogs US vintage print advertisements, with roughly 1,500 ads cataloged so far out of about 100,000 in the author's possession. The backend is built on MySQL and Lucee, full page ads are published with Notion and Super.so, and OpenAI vision is used to extract entity data from the ad images. Cataloging a full magazine has been reduced from a week to a few hours, at a rate of about 10,000 ads per year, with plans to support the archive by selling original art and nice copies of rare ads.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "rorylaitila"
+      ],
+      "source_excerpt": "I'm digitally cataloging all US vintage print advertisements I can get my hands on (https://adretro.com). The backend is built on MySQL and Lucee and the full page ads published with Notion and Super.so. I'm using OpenAI vision to extract entity data from the images.",
+      "evidence": [
+        {
+          "source_item_id": 44704643,
+          "source_field": "body",
+          "value": "I'm digitally cataloging all US vintage print advertisements I can get my hands on (https://adretro.com). The backend is built on MySQL and Lucee and the full page ads published with Notion and Super.so. I'm using OpenAI vision to extract entity data from the images.",
+          "supports": [],
+          "author": "rorylaitila",
+          "shared_at": 1753650084,
+          "source_url": "https://news.ycombinator.com/item?id=44704643"
+        }
+      ],
+      "source_item_id": 44704643,
+      "source_url": "https://news.ycombinator.com/item?id=44704643",
+      "author": "rorylaitila",
+      "shared_at": 1753650084,
+      "links": [
+        "https://adretro.com"
+      ]
+    }
+  ]
+}

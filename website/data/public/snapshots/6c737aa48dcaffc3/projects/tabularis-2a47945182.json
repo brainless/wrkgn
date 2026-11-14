@@ -1,0 +1,35 @@
+{
+  "id": 7127,
+  "slug": "tabularis-2a47945182",
+  "name": "tabularis",
+  "mentions": [
+    {
+      "name": "tabularis",
+      "description": "This is a lightweight desktop database management tool that provides a modern interface for managing MySQL/MariaDB, PostgreSQL, and SQLite databases through a native desktop application. It is built with Tauri v2 (Rust backend) and React 19 (TypeScript frontend), offering native performance with the flexibility of web technologies.",
+      "problem": null,
+      "audience": "developers",
+      "builder_usernames": [
+        "debba"
+      ],
+      "source_excerpt": "I’m working on tabularis, a lightweight desktop database management tool designed for developers. It provides a modern interface for managing MySQL/MariaDB, PostgreSQL, and SQLite databases through a native desktop application.",
+      "evidence": [
+        {
+          "source_item_id": 46950500,
+          "source_field": "body",
+          "value": "I’m working on tabularis, a lightweight desktop database management tool designed for developers. It provides a modern interface for managing MySQL/MariaDB, PostgreSQL, and SQLite databases through a native desktop application.",
+          "supports": [],
+          "author": "debba",
+          "shared_at": 1770667971,
+          "source_url": "https://news.ycombinator.com/item?id=46950500"
+        }
+      ],
+      "source_item_id": 46950500,
+      "source_url": "https://news.ycombinator.com/item?id=46950500",
+      "author": "debba",
+      "shared_at": 1770667971,
+      "links": [
+        "https://github.com/debba/tabularis"
+      ]
+    }
+  ]
+}

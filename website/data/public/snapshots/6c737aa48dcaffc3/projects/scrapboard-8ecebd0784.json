@@ -1,0 +1,64 @@
+{
+  "id": 9840,
+  "slug": "scrapboard-8ecebd0784",
+  "name": "Scrapboard",
+  "mentions": [
+    {
+      "name": "Scrapboard",
+      "description": "A Pinterest alternative built on the Bluesky ecosystem's ATProto protocol for collecting and sharing images. It focuses on high-quality content over volume, and the culture of adding alt text to images makes image search work well.",
+      "problem": "Pinterest has been overtaken by AI content.",
+      "audience": null,
+      "builder_usernames": [
+        "dom96"
+      ],
+      "source_excerpt": "Very much a hobby, but I'm working on a Pinterest alternative built on ATProto called Scrapboard[1]",
+      "evidence": [
+        {
+          "source_item_id": 45419393,
+          "source_field": "body",
+          "value": "Very much a hobby, but I'm working on a Pinterest alternative built on ATProto called Scrapboard[1]",
+          "supports": [],
+          "author": "dom96",
+          "shared_at": 1759183667,
+          "source_url": "https://news.ycombinator.com/item?id=45419393"
+        }
+      ],
+      "source_item_id": 45419393,
+      "source_url": "https://news.ycombinator.com/item?id=45419393",
+      "author": "dom96",
+      "shared_at": 1759183667,
+      "links": [
+        "https://bsky.app/profile/scrapboard.org",
+        "https://scrapboard.org"
+      ]
+    },
+    {
+      "name": "Scrapboard",
+      "description": "This app is a Pinterest-style image board that filters out AI-generated imagery. It is built on top of Bluesky, leveraging Bluesky's large library of well alt-texted images to aid search.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dom96"
+      ],
+      "source_excerpt": "I am building a Pinterest clone that filters out AI generated imagery[1]. It is built on top of Bluesky so gets the benefit of its large library of well alt-text'd images, which aids with search.",
+      "evidence": [
+        {
+          "source_item_id": 44705458,
+          "source_field": "body",
+          "value": "I am building a Pinterest clone that filters out AI generated imagery[1]. It is built on top of Bluesky so gets the benefit of its large library of well alt-text'd images, which aids with search.",
+          "supports": [],
+          "author": "dom96",
+          "shared_at": 1753656830,
+          "source_url": "https://news.ycombinator.com/item?id=44705458"
+        }
+      ],
+      "source_item_id": 44705458,
+      "source_url": "https://news.ycombinator.com/item?id=44705458",
+      "author": "dom96",
+      "shared_at": 1753656830,
+      "links": [
+        "https://scrapboard.org"
+      ]
+    }
+  ]
+}

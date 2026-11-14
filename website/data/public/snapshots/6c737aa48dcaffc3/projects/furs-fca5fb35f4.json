@@ -1,0 +1,35 @@
+{
+  "id": 9049,
+  "slug": "furs-fca5fb35f4",
+  "name": "FURS",
+  "mentions": [
+    {
+      "name": "FURS",
+      "description": "FURS is a beta tool that provides Forth with the equivalent of C header files for Cortex-M MCUs, supplying embedded configuration information for up to 100 inbuilt peripherals. It intercepts Forth user source as it is uploaded to the on-chip compiler and transforms it into language the MCU inherently understands, without altering the original source. The entire project (flowcharts, pictures, code, user docs, trouble tickets, wiki) lives in a single Fossil DCVS file under 5MB that includes a built-in web server, viewable from a browser.",
+      "problem": "Without this peripheral configuration data, neither C nor Forth (or any other language) has any clue about how to use the MCU's inbuilt peripherals.",
+      "audience": "Forth programmers working with Cortex-M microcontrollers",
+      "builder_usernames": [
+        "techman001"
+      ],
+      "source_excerpt": "I've just released my beta of FURS.\n\nFURS does for Forth, what headers do for C, namely provide all the embedded configuration information inside a Cortex-M MCU, for the up to 100 inbuilt peripherals.",
+      "evidence": [
+        {
+          "source_item_id": 45870969,
+          "source_field": "body",
+          "value": "I've just released my beta of FURS.\n\nFURS does for Forth, what headers do for C, namely provide all the embedded configuration information inside a Cortex-M MCU, for the up to 100 inbuilt peripherals.",
+          "supports": [],
+          "author": "techman001",
+          "shared_at": 1762736330,
+          "source_url": "https://news.ycombinator.com/item?id=45870969"
+        }
+      ],
+      "source_item_id": 45870969,
+      "source_url": "https://news.ycombinator.com/item?id=45870969",
+      "author": "techman001",
+      "shared_at": 1762736330,
+      "links": [
+        "https://sourceforge.net/projects/mecrisp-stellaris-folkdoc/files/furs.fossil.howto.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 4690,
+  "slug": "cham-76cfc9c158",
+  "name": "Cham",
+  "mentions": [
+    {
+      "name": "Cham",
+      "description": "This app archives internet content from a supplied URL, extracting article text via readability or extracting and transcribing the audio track. Content is automatically summarized and tagged, supports LLM conversations about articles, and supports feed subscriptions so blog articles are preserved even if the blog goes away.",
+      "problem": "Internet content and blog articles can disappear when a site goes away.",
+      "audience": null,
+      "builder_usernames": [
+        "jfim"
+      ],
+      "source_excerpt": "Cham (https://github.com/jfim/cham) is an archive for internet content,  you give it an URL and it'll archive it for you, extract the text with readability if it's an article, or extract the audio track then transcribe it.",
+      "evidence": [
+        {
+          "source_item_id": 48093204,
+          "source_field": "body",
+          "value": "Cham (https://github.com/jfim/cham) is an archive for internet content,  you give it an URL and it'll archive it for you, extract the text with readability if it's an article, or extract the audio track then transcribe it.",
+          "supports": [],
+          "author": "jfim",
+          "shared_at": 1778495492,
+          "source_url": "https://news.ycombinator.com/item?id=48093204"
+        }
+      ],
+      "source_item_id": 48093204,
+      "source_url": "https://news.ycombinator.com/item?id=48093204",
+      "author": "jfim",
+      "shared_at": 1778495492,
+      "links": [
+        "https://github.com/jfim/cham"
+      ]
+    }
+  ]
+}

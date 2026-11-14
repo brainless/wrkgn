@@ -1,0 +1,35 @@
+{
+  "id": 7565,
+  "slug": "bukowski-de5fa098a9",
+  "name": "bukowski",
+  "mentions": [
+    {
+      "name": "bukowski",
+      "description": "This app is a soft terminal wrapper that acts like a pager interface for Claude Code, Codex and Gemini CLI tools. It captures and double-buffers their output to eliminate the scrollback flicker bug (about a 97.5% reduction), and adds a FIPA ACL messaging MCP bridge wrapped in an IRC-like chat interface so the three CLI agents can communicate with each other when given roles or parts of tasks. It runs entirely locally in the terminal with no remote servers or API keys.",
+      "problem": "The author was frustrated with the Claude Code scrollback bug, where the whole chat history keeps rewinding, flashing and scrolling from the beginning, often multiple times per second and sometimes lasting over a minute.",
+      "audience": null,
+      "builder_usernames": [
+        "vmitro"
+      ],
+      "source_excerpt": "I was frustrated with the Claude Code scrollback bug, the one that often has your whole chat history keep rewinding, flashing and scrolling from the beginning, often multiple times per second, spanning sometimes over a minute or longer, so I build bukowski, a soft terminal wrapper that acts like a pager interface to Claude Code, Codex and Gemini.",
+      "evidence": [
+        {
+          "source_item_id": 46597748,
+          "source_field": "body",
+          "value": "I was frustrated with the Claude Code scrollback bug, the one that often has your whole chat history keep rewinding, flashing and scrolling from the beginning, often multiple times per second, spanning sometimes over a minute or longer, so I build bukowski, a soft terminal wrapper that acts like a pager interface to Claude Code, Codex and Gemini.",
+          "supports": [],
+          "author": "vmitro",
+          "shared_at": 1768284368,
+          "source_url": "https://news.ycombinator.com/item?id=46597748"
+        }
+      ],
+      "source_item_id": 46597748,
+      "source_url": "https://news.ycombinator.com/item?id=46597748",
+      "author": "vmitro",
+      "shared_at": 1768284368,
+      "links": [
+        "https://github.com/vmitro/bukowski"
+      ]
+    }
+  ]
+}

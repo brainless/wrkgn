@@ -1,0 +1,35 @@
+{
+  "id": 5511,
+  "slug": "solidblocks-cloud-df6bda615c",
+  "name": "SolidBlocks Cloud",
+  "mentions": [
+    {
+      "name": "SolidBlocks Cloud",
+      "description": "A CLI tool that deploys managed services on bare VMs, currently supporting PostgreSQL, generic Docker services, and GarageFs, with backup and disaster recovery included. Aimed at smaller setups that do not need the complexity of the big hyperscalers.",
+      "problem": "Big hyperscalers bring complexity that smaller setups do not need.",
+      "audience": "Smaller setups that do not need the complexity of the big hyperscalers.",
+      "builder_usernames": [
+        "pellepelster"
+      ],
+      "source_excerpt": "I am working on a CLI tool, that deploys managed services on bare VMs, see a live demo here: https://pellepelster.github.io/solidblocks/cloud/index.html\n\nCurrently PostgreSQL, Generic Docker services and GarageFs is supported, Backup and disaster recovery included. Aimed at smaller setups that do not need the complexity of the big Hyperscalers.",
+      "evidence": [
+        {
+          "source_item_id": 47776327,
+          "source_field": "body",
+          "value": "I am working on a CLI tool, that deploys managed services on bare VMs, see a live demo here: https://pellepelster.github.io/solidblocks/cloud/index.html\n\nCurrently PostgreSQL, Generic Docker services and GarageFs is supported, Backup and disaster recovery included. Aimed at smaller setups that do not need the complexity of the big Hyperscalers.",
+          "supports": [],
+          "author": "pellepelster",
+          "shared_at": 1776242612,
+          "source_url": "https://news.ycombinator.com/item?id=47776327"
+        }
+      ],
+      "source_item_id": 47776327,
+      "source_url": "https://news.ycombinator.com/item?id=47776327",
+      "author": "pellepelster",
+      "shared_at": 1776242612,
+      "links": [
+        "https://pellepelster.github.io/solidblocks/cloud/index.html"
+      ]
+    }
+  ]
+}

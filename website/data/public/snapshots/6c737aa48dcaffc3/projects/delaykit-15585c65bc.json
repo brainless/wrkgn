@@ -1,0 +1,35 @@
+{
+  "id": 5264,
+  "slug": "delaykit-15585c65bc",
+  "name": "DelayKit",
+  "mentions": [
+    {
+      "name": "DelayKit",
+      "description": "DelayKit is a Node.js scheduling primitive backed by Postgres for app-level, per-event scheduling, such as expiring an abandoned cart after 24 hours or debouncing 50 profile updates into one reindex. Developers schedule events with key-based calls like dk.schedule(\"expire-cart\", { key: cartID, delay: \"24h\" }); handlers receive the key rather than a payload and fetch fresh state at fire time, so DelayKit is only responsible for the scheduled-reminder part. It positions itself between cron (too broad), throughput-focused job queues with run_at bolted on, and heavyweight workflow engines.",
+      "problem": "The Node.js ecosystem lacks a good primitive for app-level, per-event scheduling: cron is too broad and still requires writing polling/scheduler code, job queues optimize for throughput and treat run_at as an afterthought, and workflow engines are overkill for simple 'do this thing later, tied to this user' tasks.",
+      "audience": null,
+      "builder_usernames": [
+        "cgenuity"
+      ],
+      "source_excerpt": "Still a bit rough, but working on https://delaykit.dev.\n\nThe Node.js ecosystem doesn't seem to have a good primitive for app-level, per-event scheduling (things like \"expire this abandoned cart in 24h\" or \"debounce 50 profile updates into one reindex\"). Cron is too broad and you still have write the polling/scheduler code yourself. Job queues optimize for throughput and usually bolt `run_at` on as an afterthought. Workflow engines are overkill for a simple \"do this thing later, tied to this user\" and want you to adopt their runtime.\n\nDelayKit aims to be the in-between. It is backed by Postgres and uses keys like `dk.schedule(\"expire-cart\", { key: cartID, delay: \"24h\" })`.",
+      "evidence": [
+        {
+          "source_item_id": 47753775,
+          "source_field": "body",
+          "value": "Still a bit rough, but working on https://delaykit.dev.\n\nThe Node.js ecosystem doesn't seem to have a good primitive for app-level, per-event scheduling (things like \"expire this abandoned cart in 24h\" or \"debounce 50 profile updates into one reindex\"). Cron is too broad and you still have write the polling/scheduler code yourself. Job queues optimize for throughput and usually bolt `run_at` on as an afterthought. Workflow engines are overkill for a simple \"do this thing later, tied to this user\" and want you to adopt their runtime.\n\nDelayKit aims to be the in-between. It is backed by Postgres and uses keys like `dk.schedule(\"expire-cart\", { key: cartID, delay: \"24h\" })`.",
+          "supports": [],
+          "author": "cgenuity",
+          "shared_at": 1776095337,
+          "source_url": "https://news.ycombinator.com/item?id=47753775"
+        }
+      ],
+      "source_item_id": 47753775,
+      "source_url": "https://news.ycombinator.com/item?id=47753775",
+      "author": "cgenuity",
+      "shared_at": 1776095337,
+      "links": [
+        "https://delaykit.dev"
+      ]
+    }
+  ]
+}

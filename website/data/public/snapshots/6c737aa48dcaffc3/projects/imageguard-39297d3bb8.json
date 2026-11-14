@@ -1,0 +1,35 @@
+{
+  "id": 4092,
+  "slug": "imageguard-39297d3bb8",
+  "name": "imageguard",
+  "mentions": [
+    {
+      "name": "imageguard",
+      "description": "A lightweight Python library that checks whether an image is good enough to feed into an AI pipeline. Users pass in an image path and get back a decision, with no image-processing knowledge required.",
+      "problem": "Vetting images for AI pipelines normally requires image-processing knowledge; this library makes it a simple pass-in-a-path, get-a-decision check.",
+      "audience": "Developers building AI pipelines who don't want to deal with image-processing knowledge.",
+      "builder_usernames": [
+        "vipulag"
+      ],
+      "source_excerpt": "https://github.com/vipulawl/imageguard - A lightweight Python library that checks whether an image is good enough to feed into an AI pipeline\nNo image-processing knowledge required. Pass in a path. Get back a decision.",
+      "evidence": [
+        {
+          "source_item_id": 48538342,
+          "source_field": "body",
+          "value": "https://github.com/vipulawl/imageguard - A lightweight Python library that checks whether an image is good enough to feed into an AI pipeline\nNo image-processing knowledge required. Pass in a path. Get back a decision.",
+          "supports": [],
+          "author": "vipulag",
+          "shared_at": 1781512566,
+          "source_url": "https://news.ycombinator.com/item?id=48538342"
+        }
+      ],
+      "source_item_id": 48538342,
+      "source_url": "https://news.ycombinator.com/item?id=48538342",
+      "author": "vipulag",
+      "shared_at": 1781512566,
+      "links": [
+        "https://github.com/vipulawl/imageguard"
+      ]
+    }
+  ]
+}

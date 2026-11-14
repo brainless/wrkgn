@@ -1,0 +1,35 @@
+{
+  "id": 11194,
+  "slug": "pwnscan-6a5e022cee",
+  "name": "PwnScan",
+  "mentions": [
+    {
+      "name": "PwnScan",
+      "description": "PwnScan is a vulnerability scanner for binaries that applies AI to detect known CVEs. It serves as an experiment to evaluate how useful AI is for vulnerability scanning; it can currently find some known CVEs but also produces false positives and negatives.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "csnate"
+      ],
+      "source_excerpt": "PwnScan - https://pwnscan.com/\n\nMy current side project is a vulnerability scanner for binaries.  I do VR in my day job, so im trying to figure out how useful (or not) AI is for this domain.\n\nJury is still out. Getting false positives and negatives, but I can find some known CVEs!",
+      "evidence": [
+        {
+          "source_item_id": 43821037,
+          "source_field": "body",
+          "value": "PwnScan - https://pwnscan.com/\n\nMy current side project is a vulnerability scanner for binaries.  I do VR in my day job, so im trying to figure out how useful (or not) AI is for this domain.\n\nJury is still out. Getting false positives and negatives, but I can find some known CVEs!",
+          "supports": [],
+          "author": "csnate",
+          "shared_at": 1745845131,
+          "source_url": "https://news.ycombinator.com/item?id=43821037"
+        }
+      ],
+      "source_item_id": 43821037,
+      "source_url": "https://news.ycombinator.com/item?id=43821037",
+      "author": "csnate",
+      "shared_at": 1745845131,
+      "links": [
+        "https://pwnscan.com/"
+      ]
+    }
+  ]
+}

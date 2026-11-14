@@ -1,0 +1,33 @@
+{
+  "id": 11009,
+  "slug": "flexible-turn-based-game-framework-56b4b01f76",
+  "name": "Flexible turn-based game framework",
+  "mentions": [
+    {
+      "name": "Flexible turn-based game framework",
+      "description": "A flexible turn-based game framework where game logic is written in JavaScript on the server and game state plus options are sent to clients, so platforms like SwiftUI, web, Unity, and WebXR only need to implement the UI, with a default/debug view that works for all games. Games run offline (via JavaScriptCore on iOS, natively on web) and support bots for all games that randomly choose options, providing a simple opening for reinforcement learning.",
+      "problem": null,
+      "audience": "Developers building turn-based games across platforms (SwiftUI, web, Unity, WebXR)",
+      "builder_usernames": [
+        "soylentgraham"
+      ],
+      "source_excerpt": "I made a very flexible turn-based framework - write the game logic on server in javascript, then state+options are given to clients, so platforms (swiftui, web, unity, webxr etc) \"just\" have to implement UI on top (Also means I have a default/debug view, which works for all games). The games can run offline (via javascriptcore on ios, natively on web etc) and supports bots for all games (they randomly choose options on their turn) which has a very simple opening to get some reinforcement learning in.",
+      "evidence": [
+        {
+          "source_item_id": 43820447,
+          "source_field": "body",
+          "value": "I made a very flexible turn-based framework - write the game logic on server in javascript, then state+options are given to clients, so platforms (swiftui, web, unity, webxr etc) \"just\" have to implement UI on top (Also means I have a default/debug view, which works for all games). The games can run offline (via javascriptcore on ios, natively on web etc) and supports bots for all games (they randomly choose options on their turn) which has a very simple opening to get some reinforcement learning in.",
+          "supports": [],
+          "author": "soylentgraham",
+          "shared_at": 1745841843,
+          "source_url": "https://news.ycombinator.com/item?id=43820447"
+        }
+      ],
+      "source_item_id": 43820447,
+      "source_url": "https://news.ycombinator.com/item?id=43820447",
+      "author": "soylentgraham",
+      "shared_at": 1745841843,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 8322,
+  "slug": "local-airfield-runway-tracking-tool-1b6b4cc33c",
+  "name": "Local Airfield Runway Tracking Tool",
+  "mentions": [
+    {
+      "name": "Local Airfield Runway Tracking Tool",
+      "description": "This tool records takeoffs and landings at a local single-runway airfield and determines which runway direction is used for each operation, to check whether the airfield follows its stated wind-based runway assignment rules. It polls for aircraft within a 5 km circle every 30 seconds, tracks candidates every 5 seconds, infers takeoff/landing and runway direction from coordinates and altitude, enriches the data with wind speed/direction from a weather API, saves results to JSON, and displays them in a frontend table. Built with Express and TypeScript, currently a working prototype in bug-fixing, with plans to open source it.",
+      "problem": "Free aircraft APIs don't register landing/takeoff events or runway assignments, and the local airfield's single runway operated in both directions causes noise complaints in a densely populated area; the tool exists to verify whether the airfield follows its own runway assignment rules and whether the noise annoyance is justified.",
+      "audience": null,
+      "builder_usernames": [
+        "AidenVennis"
+      ],
+      "source_excerpt": "Working on a flight tracking tool that records the landing and takeoff actions of a local airfield to get insights in how they determine on which runway a takeoff or landing is assigned.",
+      "evidence": [
+        {
+          "source_item_id": 46271938,
+          "source_field": "body",
+          "value": "Working on a flight tracking tool that records the landing and takeoff actions of a local airfield to get insights in how they determine on which runway a takeoff or landing is assigned.",
+          "supports": [],
+          "author": "AidenVennis",
+          "shared_at": 1765788809,
+          "source_url": "https://news.ycombinator.com/item?id=46271938"
+        }
+      ],
+      "source_item_id": 46271938,
+      "source_url": "https://news.ycombinator.com/item?id=46271938",
+      "author": "AidenVennis",
+      "shared_at": 1765788809,
+      "links": []
+    }
+  ]
+}

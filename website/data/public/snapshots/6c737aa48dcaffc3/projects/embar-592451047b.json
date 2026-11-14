@@ -1,0 +1,35 @@
+{
+  "id": 8148,
+  "slug": "embar-592451047b",
+  "name": "Embar",
+  "mentions": [
+    {
+      "name": "Embar",
+      "description": "A Python ORM inspired by Drizzle that provides type-safety on inputs and outputs with useful type hints, aiming to be simple for the 80-99% of common cases while letting users drop easily into raw SQL for the remainder.",
+      "problem": "Python ORM options generally lack type-safety on inputs and outputs or useful type hints, and SQLAlchemy is hard to use if it is not your full-time job.",
+      "audience": null,
+      "builder_usernames": [
+        "carderne"
+      ],
+      "source_excerpt": "Embar: https://github.com/carderne/embar\n\nA Python ORM, inspired by Drizzle and the like.",
+      "evidence": [
+        {
+          "source_item_id": 46266395,
+          "source_field": "body",
+          "value": "Embar: https://github.com/carderne/embar\n\nA Python ORM, inspired by Drizzle and the like.",
+          "supports": [],
+          "author": "carderne",
+          "shared_at": 1765743248,
+          "source_url": "https://news.ycombinator.com/item?id=46266395"
+        }
+      ],
+      "source_item_id": 46266395,
+      "source_url": "https://news.ycombinator.com/item?id=46266395",
+      "author": "carderne",
+      "shared_at": 1765743248,
+      "links": [
+        "https://github.com/carderne/embar"
+      ]
+    }
+  ]
+}

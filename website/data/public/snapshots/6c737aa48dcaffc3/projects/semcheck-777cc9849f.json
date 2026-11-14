@@ -1,0 +1,35 @@
+{
+  "id": 10522,
+  "slug": "semcheck-777cc9849f",
+  "name": "semcheck",
+  "mentions": [
+    {
+      "name": "semcheck",
+      "description": "A development tool for specification-driven development that uses LLMs to verify that specification files and their implementation do not drift. Current work focuses on lowering false positives caused by the LLM hallucinating discrepancies or becoming forgetful with long documents like RFC texts, starting with an expanded evaluation suite to reliably measure improvements.",
+      "problem": "The LLM verifies specs against implementations but hallucinates issues where no discrepancies exist and becomes forgetful on long documents, producing false positives; the first step to improving this is expanding the evaluation suite so improvements can be reliably measured.",
+      "audience": "developers",
+      "builder_usernames": [
+        "duckerduck"
+      ],
+      "source_excerpt": "I'm working on a development tool for specification-driven development. It uses LLMs to verify that your specification files and implementation do not drift. More specifically, I am trying to lower the number of false positives I'm currently seeing.",
+      "evidence": [
+        {
+          "source_item_id": 44708152,
+          "source_field": "body",
+          "value": "I'm working on a development tool for specification-driven development. It uses LLMs to verify that your specification files and implementation do not drift. More specifically, I am trying to lower the number of false positives I'm currently seeing.",
+          "supports": [],
+          "author": "duckerduck",
+          "shared_at": 1753687403,
+          "source_url": "https://news.ycombinator.com/item?id=44708152"
+        }
+      ],
+      "source_item_id": 44708152,
+      "source_url": "https://news.ycombinator.com/item?id=44708152",
+      "author": "duckerduck",
+      "shared_at": 1753687403,
+      "links": [
+        "https://github.com/rejot-dev/semcheck/"
+      ]
+    }
+  ]
+}

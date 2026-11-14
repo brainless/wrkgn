@@ -1,0 +1,33 @@
+{
+  "id": 4689,
+  "slug": "terminal-ui-git-diff-reviewer-f9ce437d65",
+  "name": "Terminal UI Git Diff Reviewer",
+  "mentions": [
+    {
+      "name": "Terminal UI Git Diff Reviewer",
+      "description": "A terminal UI app for reviewing git diffs and making comments. Works with local git by default and includes an extensible plugin system for integrating with GitHub, GitLab, Azure ADO, and other platforms for PRs and approvals, unified in a single consistent UX and workflow. It has been used as a daily driver for reviewing changes before pushing remotely.",
+      "problem": "Most existing terminal diff review tools are TUI interfaces for GitHub or GitLab, lacking support for local git and a consistent workflow across hosting providers.",
+      "audience": null,
+      "builder_usernames": [
+        "jdc0589"
+      ],
+      "source_excerpt": "A good generic terminal UI app for reviewing git diffs, making comments, etc...\n\nLots of these have started popping up, but almost every single one of them is a TUI interface for github, or gitlab.\nWhat I'm building is for local git by default, but has an extensible plugin system to support integrating with github/gitlab/azure ado/etc... for their PRs and approvals, but forced in to a single consistent UX and workflow.",
+      "evidence": [
+        {
+          "source_item_id": 48096407,
+          "source_field": "body",
+          "value": "A good generic terminal UI app for reviewing git diffs, making comments, etc...\n\nLots of these have started popping up, but almost every single one of them is a TUI interface for github, or gitlab.\nWhat I'm building is for local git by default, but has an extensible plugin system to support integrating with github/gitlab/azure ado/etc... for their PRs and approvals, but forced in to a single consistent UX and workflow.",
+          "supports": [],
+          "author": "jdc0589",
+          "shared_at": 1778513744,
+          "source_url": "https://news.ycombinator.com/item?id=48096407"
+        }
+      ],
+      "source_item_id": 48096407,
+      "source_url": "https://news.ycombinator.com/item?id=48096407",
+      "author": "jdc0589",
+      "shared_at": 1778513744,
+      "links": []
+    }
+  ]
+}

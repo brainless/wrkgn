@@ -1,0 +1,36 @@
+{
+  "id": 7050,
+  "slug": "telebrain-64150ff340",
+  "name": "Telebrain",
+  "mentions": [
+    {
+      "name": "Telebrain",
+      "description": "A fork of Telegram Desktop with an integrated AI Copilot that lets users chat with AI in the context of any Telegram chat, using the last 30 messages of the current chat. The Completions API endpoint is fully configurable, so it can connect to most cloud LLM providers or a local model. First release (v6.5.1) is available.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "fsqcds"
+      ],
+      "source_excerpt": "I'm working on Telebrain - a fork of Telegram Desktop with an integrated AI Copilot: https://github.com/fedorn/telebrain\n\nIt allows chatting with AI in the context of any Telegram chat (at the moment, using the last 30 messages in the current chat).",
+      "evidence": [
+        {
+          "source_item_id": 46961929,
+          "source_field": "body",
+          "value": "I'm working on Telebrain - a fork of Telegram Desktop with an integrated AI Copilot: https://github.com/fedorn/telebrain\n\nIt allows chatting with AI in the context of any Telegram chat (at the moment, using the last 30 messages in the current chat).",
+          "supports": [],
+          "author": "fsqcds",
+          "shared_at": 1770740094,
+          "source_url": "https://news.ycombinator.com/item?id=46961929"
+        }
+      ],
+      "source_item_id": 46961929,
+      "source_url": "https://news.ycombinator.com/item?id=46961929",
+      "author": "fsqcds",
+      "shared_at": 1770740094,
+      "links": [
+        "https://github.com/fedorn/telebrain",
+        "https://github.com/fedorn/telebrain/releases/tag/v6.5.1"
+      ]
+    }
+  ]
+}

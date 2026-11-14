@@ -1,0 +1,35 @@
+{
+  "id": 10458,
+  "slug": "decodo-mcp-server-f23c68e765",
+  "name": "Decodo MCP Server",
+  "mentions": [
+    {
+      "name": "Decodo MCP Server",
+      "description": "An open-source server implementing the Model Context Protocol (MCP) that connects LLMs and AI apps such as Claude Desktop, Cursor, and Windsurf directly to Decodo's platform without glue code. It lets agents and copilots access the web, retrieve structured data, and run scraping tasks, with built-in tools for scraping websites as Markdown, running Google or Amazon searches and returning parsed results, and controlling geo-location, language, and token limits via prompt. It can be run locally or installed in one click via Smithery.",
+      "problem": null,
+      "audience": "Developers working on LLM agents or autonomous tooling, AI-based research or retrieval systems, and scraping pipelines or data orchestration tools",
+      "builder_usernames": [
+        "decodo"
+      ],
+      "source_excerpt": "We just open-sourced a server that implements the Model Context Protocol (MCP), designed to connect LLMs and AI apps (like Claude Desktop, Cursor, and Windsurf) directly to Decodo’s platform — no glue code required.",
+      "evidence": [
+        {
+          "source_item_id": 44731927,
+          "source_field": "body",
+          "value": "We just open-sourced a server that implements the Model Context Protocol (MCP), designed to connect LLMs and AI apps (like Claude Desktop, Cursor, and Windsurf) directly to Decodo’s platform — no glue code required.",
+          "supports": [],
+          "author": "decodo",
+          "shared_at": 1753863261,
+          "source_url": "https://news.ycombinator.com/item?id=44731927"
+        }
+      ],
+      "source_item_id": 44731927,
+      "source_url": "https://news.ycombinator.com/item?id=44731927",
+      "author": "decodo",
+      "shared_at": 1753863261,
+      "links": [
+        "https://github.com/Decodo/decodo-mcp-server"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 6811,
+  "slug": "auth-email-3f558cf35a",
+  "name": "Auth-Email",
+  "mentions": [
+    {
+      "name": "Auth-Email",
+      "description": "This service is a secure, private email relay that bridges OAuth-only email providers and legacy clients. Users authorize their mail accounts once in a dashboard, then connect with an ordinary username and password for IMAP, POP, and SMTP through the service's server, so clients and apps that don't or can't support OAuth can still send and receive mail.",
+      "problem": "Many mainstream email providers have switched to requiring OAuth for login, but there are tons of clients and apps that don't (or can't) support OAuth.",
+      "audience": null,
+      "builder_usernames": [
+        "nickwrb"
+      ],
+      "source_excerpt": "Currently building https://auth-email.com\n\nMany mainstream email providers have switched to require OAuth for login, but there are tons of clients and apps that don’t (or can’t) support OAuth.\n\nAuth-Email is a secure, private relay that takes out the need to worry about OAuth: authorize mail accounts one time in our dashboard, then use an ordinary username and password for IMAP, POP, and SMTP via our server.",
+      "evidence": [
+        {
+          "source_item_id": 46950287,
+          "source_field": "body",
+          "value": "Currently building https://auth-email.com\n\nMany mainstream email providers have switched to require OAuth for login, but there are tons of clients and apps that don’t (or can’t) support OAuth.\n\nAuth-Email is a secure, private relay that takes out the need to worry about OAuth: authorize mail accounts one time in our dashboard, then use an ordinary username and password for IMAP, POP, and SMTP via our server.",
+          "supports": [],
+          "author": "nickwrb",
+          "shared_at": 1770667208,
+          "source_url": "https://news.ycombinator.com/item?id=46950287"
+        }
+      ],
+      "source_item_id": 46950287,
+      "source_url": "https://news.ycombinator.com/item?id=46950287",
+      "author": "nickwrb",
+      "shared_at": 1770667208,
+      "links": [
+        "https://auth-email.com"
+      ]
+    },
+    {
+      "name": "Auth-Email",
+      "description": "Auth-Email is a relay service that lets users keep using traditional email authentication methods (such as basic auth) even when their email provider requires OAuth. It supports all OAuth grant types, add-ins to modify behavior, and other advanced features.",
+      "problem": "Major email providers are dropping basic auth (Microsoft in April 2026, Google already has), while many devices and systems don't and may never support OAuth.",
+      "audience": "Users of devices and systems that don't support OAuth",
+      "builder_usernames": [
+        "nickwrb"
+      ],
+      "source_excerpt": "Auth-Email is a relay that lets you continue using traditional email auth methods even when your provider requires OAuth. Lots of other more advanced features too: all OAuth grant types, add-ins to modify behavior and lots more.",
+      "evidence": [
+        {
+          "source_item_id": 45877878,
+          "source_field": "body",
+          "value": "Auth-Email is a relay that lets you continue using traditional email auth methods even when your provider requires OAuth. Lots of other more advanced features too: all OAuth grant types, add-ins to modify behavior and lots more.",
+          "supports": [],
+          "author": "nickwrb",
+          "shared_at": 1762793659,
+          "source_url": "https://news.ycombinator.com/item?id=45877878"
+        }
+      ],
+      "source_item_id": 45877878,
+      "source_url": "https://news.ycombinator.com/item?id=45877878",
+      "author": "nickwrb",
+      "shared_at": 1762793659,
+      "links": [
+        "https://auth-email.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": 4953,
+  "slug": "mvmt-0f43600464",
+  "name": "mvmt",
+  "mentions": [
+    {
+      "name": "mvmt",
+      "description": "A security layer between local data and the public internet, usable as an MCP server so Claude can safely read and write to the user's computer. Available as a CLI and a desktop UI.",
+      "problem": null,
+      "audience": "A security layer between local data and the public internet, functioning as an MCP server that lets Claude safely read and write to the user's computer, with both a CLI and a desktop UI.",
+      "builder_usernames": [
+        "philipnee"
+      ],
+      "source_excerpt": "security layer between your local data and public internet, i use it as mcp server to let claude safely read/write to my computer!",
+      "evidence": [
+        {
+          "source_item_id": 48091639,
+          "source_field": "body",
+          "value": "security layer between your local data and public internet, i use it as mcp server to let claude safely read/write to my computer!",
+          "supports": [],
+          "author": "philipnee",
+          "shared_at": 1778480649,
+          "source_url": "https://news.ycombinator.com/item?id=48091639"
+        }
+      ],
+      "source_item_id": 48091639,
+      "source_url": "https://news.ycombinator.com/item?id=48091639",
+      "author": "philipnee",
+      "shared_at": 1778480649,
+      "links": [
+        "https://github.com/philipnee/mvmt",
+        "https://github.com/philipnee/mvmt-desktop"
+      ]
+    }
+  ]
+}

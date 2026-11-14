@@ -1,0 +1,35 @@
+{
+  "id": 4580,
+  "slug": "sprogeny-e3a2e81ebf",
+  "name": "Sprogeny",
+  "mentions": [
+    {
+      "name": "Sprogeny",
+      "description": "A site for mashing up Spotify playlists, built as an alternative to Spotify's weighted shuffle, which the builder finds unsatisfying and poorly suited to niche genres and experimental music. The app reached launch but is currently limited to 5 users because Spotify's updated developer terms require the 250k MAU partner program for public logins; the builder and five invited friends use it to create playlists.",
+      "problem": "Spotify's weighted shuffle is disliked by the builder and useless for niche genres or experimental music, and Spotify's changed developer terms restrict the app to only 5 users unless it joins the 250k MAU partner program.",
+      "audience": null,
+      "builder_usernames": [
+        "ogou"
+      ],
+      "source_excerpt": "I was working on a site to mashup Spotify playlists. I can't stand the \"weighted shuffle\" Spotify uses. It is also useless for niche genres or experimental music.",
+      "evidence": [
+        {
+          "source_item_id": 48102736,
+          "source_field": "body",
+          "value": "I was working on a site to mashup Spotify playlists. I can't stand the \"weighted shuffle\" Spotify uses. It is also useless for niche genres or experimental music.",
+          "supports": [],
+          "author": "ogou",
+          "shared_at": 1778546528,
+          "source_url": "https://news.ycombinator.com/item?id=48102736"
+        }
+      ],
+      "source_item_id": 48102736,
+      "source_url": "https://news.ycombinator.com/item?id=48102736",
+      "author": "ogou",
+      "shared_at": 1778546528,
+      "links": [
+        "https://sprogeny.com/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 7785,
+  "slug": "autonomous-ai-execution-layer-safety-enforcement-system-6a8ba6d4da",
+  "name": "Autonomous AI execution-layer safety enforcement system",
+  "mentions": [
+    {
+      "name": "Autonomous AI execution-layer safety enforcement system",
+      "description": "An experimental system that lets an autonomous AI propose actions freely while structurally preventing it from executing side-effectful actions without explicit authorization. It blocks unsafe filesystem, shell, and network operations and produces a trace and diff proving nothing changed, even under adversarial pressure, testing whether refusal and non-action can be enforced and verified at the execution layer.",
+      "problem": "AI safety currently relies on prompts or logging; this tests whether refusal and non-action can instead be enforced and verified at the execution layer.",
+      "audience": null,
+      "builder_usernames": [
+        "Fr0_Tech"
+      ],
+      "source_excerpt": "I built an experimental system to test whether an autonomous AI can propose actions freely but be structurally prevented from executing side-effectful actions without explicit authorization. The system consistently blocks unsafe filesystem, shell, and network operations and produces a trace and diff proving nothing changed, even under adversarial pressure. The goal was to see if refusal and non-action can be enforced and verified at the execution layer rather than relying on prompts or logging.",
+      "evidence": [
+        {
+          "source_item_id": 46580021,
+          "source_field": "body",
+          "value": "I built an experimental system to test whether an autonomous AI can propose actions freely but be structurally prevented from executing side-effectful actions without explicit authorization. The system consistently blocks unsafe filesystem, shell, and network operations and produces a trace and diff proving nothing changed, even under adversarial pressure. The goal was to see if refusal and non-action can be enforced and verified at the execution layer rather than relying on prompts or logging.",
+          "supports": [],
+          "author": "Fr0_Tech",
+          "shared_at": 1768165216,
+          "source_url": "https://news.ycombinator.com/item?id=46580021"
+        }
+      ],
+      "source_item_id": 46580021,
+      "source_url": "https://news.ycombinator.com/item?id=46580021",
+      "author": "Fr0_Tech",
+      "shared_at": 1768165216,
+      "links": []
+    }
+  ]
+}

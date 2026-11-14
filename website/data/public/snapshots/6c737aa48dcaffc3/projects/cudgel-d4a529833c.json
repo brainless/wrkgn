@@ -1,0 +1,35 @@
+{
+  "id": 11166,
+  "slug": "cudgel-d4a529833c",
+  "name": "cudgel",
+  "mentions": [
+    {
+      "name": "cudgel",
+      "description": "A Python library that combines shell commands and Python functions using pipeline operator syntax. It is currently an experimental prototype, with its test suite (e.g. test_bash_pipe.py) demonstrating how it works.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jsiva"
+      ],
+      "source_excerpt": "Working on a python library for combining shell commands and python functions with pipeline operator syntax. Hasn't progressed beyond an experimental prototype, some of the tests (i.e. test_bash_pipe.py) show how it works.",
+      "evidence": [
+        {
+          "source_item_id": 43826287,
+          "source_field": "body",
+          "value": "Working on a python library for combining shell commands and python functions with pipeline operator syntax. Hasn't progressed beyond an experimental prototype, some of the tests (i.e. test_bash_pipe.py) show how it works.",
+          "supports": [],
+          "author": "jsiva",
+          "shared_at": 1745875507,
+          "source_url": "https://news.ycombinator.com/item?id=43826287"
+        }
+      ],
+      "source_item_id": 43826287,
+      "source_url": "https://news.ycombinator.com/item?id=43826287",
+      "author": "jsiva",
+      "shared_at": 1745875507,
+      "links": [
+        "https://github.com/JanukanS/cudgel/tree/main"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 10162,
+  "slug": "eetle-274facc999",
+  "name": "Eetle",
+  "mentions": [
+    {
+      "name": "Eetle",
+      "description": "A GUI-based ETL tool that lets users drop in files and API results and have them combined automatically, aiming to \"just work\" and get out of the way instead of requiring hand-written shell scripts or Python.",
+      "problem": "Writing shell scripts or Python to combine files and API results is tedious; the author wants a GUI tool that does this without coding.",
+      "audience": null,
+      "builder_usernames": [
+        "pbnjay"
+      ],
+      "source_excerpt": "I’m building an ETL tool that “just works” and gets out of the way. I can write shell scripts and python to do this stuff but honestly I just want to drop my files/API results into a GUI tool and have it combine things for me. Landing page is at https://eetle.com",
+      "evidence": [
+        {
+          "source_item_id": 45421296,
+          "source_field": "body",
+          "value": "I’m building an ETL tool that “just works” and gets out of the way. I can write shell scripts and python to do this stuff but honestly I just want to drop my files/API results into a GUI tool and have it combine things for me. Landing page is at https://eetle.com",
+          "supports": [],
+          "author": "pbnjay",
+          "shared_at": 1759199143,
+          "source_url": "https://news.ycombinator.com/item?id=45421296"
+        }
+      ],
+      "source_item_id": 45421296,
+      "source_url": "https://news.ycombinator.com/item?id=45421296",
+      "author": "pbnjay",
+      "shared_at": 1759199143,
+      "links": [
+        "https://eetle.com"
+      ]
+    }
+  ]
+}

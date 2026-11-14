@@ -1,0 +1,91 @@
+{
+  "id": 4027,
+  "slug": "pdfbolt-232e4a48f7",
+  "name": "PDFBolt",
+  "mentions": [
+    {
+      "name": "PDFBolt",
+      "description": "A PDF generation API for developers: send HTML, a URL, or a template with JSON data and get a PDF back. Targets the routine PDF jobs SaaS products eventually need, such as invoices, reports, certificates, contracts, and labels. Ships with a Node SDK, with a Python SDK and documentation improvements in progress.",
+      "problem": "SaaS applications eventually face the tedious PDF generation jobs (invoices, reports, certificates, contracts, labels) that are handled by sending HTML, a URL, or a template with JSON data.",
+      "audience": "Developers, particularly those building SaaS applications that need to generate routine documents like invoices, reports, certificates, contracts, and labels.",
+      "builder_usernames": [
+        "Ametrin"
+      ],
+      "source_excerpt": "I’m working on PDFBolt, a PDF generation API for developers.",
+      "evidence": [
+        {
+          "source_item_id": 48538974,
+          "source_field": "body",
+          "value": "I’m working on PDFBolt, a PDF generation API for developers.",
+          "supports": [],
+          "author": "Ametrin",
+          "shared_at": 1781517207,
+          "source_url": "https://news.ycombinator.com/item?id=48538974"
+        }
+      ],
+      "source_item_id": 48538974,
+      "source_url": "https://news.ycombinator.com/item?id=48538974",
+      "author": "Ametrin",
+      "shared_at": 1781517207,
+      "links": [
+        "https://pdfbolt.com"
+      ]
+    },
+    {
+      "name": "PDFBolt",
+      "description": "This is a PDF generation API that converts HTML, a URL, or a Handlebars template with JSON data into a PDF, using Playwright under the hood so modern CSS renders correctly. It supports PDF/X-1a and PDF/X-4 print production with ICC color profiles and CMYK conversion (11 color space converters built on PDFBox 3.0), offers an AI template generator that creates a Handlebars template with sample data from a description, and provides a gallery of 38 pre-built templates. Dashboard template management auto-creates drafts on edit, compares any two versions as rendered PDFs, and supports rollback, with an API in progress so coding agents can create and version templates programmatically.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "Ametrin"
+      ],
+      "source_excerpt": "Working on PDFBolt (https://pdfbolt.com) - a PDF generation API. You send HTML, a URL, or a Handlebars template with JSON data, get a PDF back. Uses Playwright underneath so modern CSS just works.",
+      "evidence": [
+        {
+          "source_item_id": 47320815,
+          "source_field": "body",
+          "value": "Working on PDFBolt (https://pdfbolt.com) - a PDF generation API. You send HTML, a URL, or a Handlebars template with JSON data, get a PDF back. Uses Playwright underneath so modern CSS just works.",
+          "supports": [],
+          "author": "Ametrin",
+          "shared_at": 1773134214,
+          "source_url": "https://news.ycombinator.com/item?id=47320815"
+        }
+      ],
+      "source_item_id": 47320815,
+      "source_url": "https://news.ycombinator.com/item?id=47320815",
+      "author": "Ametrin",
+      "shared_at": 1773134214,
+      "links": [
+        "https://pdfbolt.com"
+      ]
+    },
+    {
+      "name": "PDF Bolt",
+      "description": "This is a Chrome-based PDF generation API focused on print production. It handles converting browser-rendered RGB output to CMYK with ICC color profiles inside the generated PDF, and now supports the PDF/X-1a and PDF/X-4 print standards.",
+      "problem": "Browsers render everything in RGB, but print requires CMYK with ICC color profiles, and getting that conversion right inside the PDF turned out to be a much deeper problem than expected.",
+      "audience": null,
+      "builder_usernames": [
+        "Ametrin"
+      ],
+      "source_excerpt": "A PDF generation API, Chrome-based. Most of my time lately goes into print production - browsers render everything in RGB but print needs CMYK with ICC color profiles, and getting that conversion right inside the PDF turned out to be a much deeper problem than expected. Got PDF/X-1a and PDF/X-4 working now.",
+      "evidence": [
+        {
+          "source_item_id": 46943255,
+          "source_field": "body",
+          "value": "A PDF generation API, Chrome-based. Most of my time lately goes into print production - browsers render everything in RGB but print needs CMYK with ICC color profiles, and getting that conversion right inside the PDF turned out to be a much deeper problem than expected. Got PDF/X-1a and PDF/X-4 working now.",
+          "supports": [],
+          "author": "Ametrin",
+          "shared_at": 1770628314,
+          "source_url": "https://news.ycombinator.com/item?id=46943255"
+        }
+      ],
+      "source_item_id": 46943255,
+      "source_url": "https://news.ycombinator.com/item?id=46943255",
+      "author": "Ametrin",
+      "shared_at": 1770628314,
+      "links": [
+        "https://pdfbolt.com"
+      ]
+    }
+  ]
+}

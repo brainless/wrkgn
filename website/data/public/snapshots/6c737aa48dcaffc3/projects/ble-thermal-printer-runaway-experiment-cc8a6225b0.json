@@ -1,0 +1,33 @@
+{
+  "id": 3862,
+  "slug": "ble-thermal-printer-runaway-experiment-cc8a6225b0",
+  "name": "BLE thermal printer runaway experiment",
+  "mentions": [
+    {
+      "name": "BLE thermal printer runaway experiment",
+      "description": "A reverse engineering experiment on a BLE thermal printer showing it can be driven into thermal runaway—melting half its components—without any authorization as long as the printer is turned on.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "summner"
+      ],
+      "source_excerpt": "Today I caused thermal runaway on a BLE  thermal (sic!) printer. That melted half of its components together before I noticed. The fun fact is you can do that witouth authorizing, as long as printer is turned on",
+      "evidence": [
+        {
+          "source_item_id": 48531445,
+          "source_field": "body",
+          "value": "Today I caused thermal runaway on a BLE  thermal (sic!) printer. That melted half of its components together before I noticed. The fun fact is you can do that witouth authorizing, as long as printer is turned on",
+          "supports": [],
+          "author": "summner",
+          "shared_at": 1781464457,
+          "source_url": "https://news.ycombinator.com/item?id=48531445"
+        }
+      ],
+      "source_item_id": 48531445,
+      "source_url": "https://news.ycombinator.com/item?id=48531445",
+      "author": "summner",
+      "shared_at": 1781464457,
+      "links": []
+    }
+  ]
+}

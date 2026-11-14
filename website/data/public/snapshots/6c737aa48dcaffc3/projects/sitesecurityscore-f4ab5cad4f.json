@@ -1,0 +1,35 @@
+{
+  "id": 5420,
+  "slug": "sitesecurityscore-f4ab5cad4f",
+  "name": "SiteSecurityScore",
+  "mentions": [
+    {
+      "name": "SiteSecurityScore",
+      "description": "This website security scanner grades a site's security and tells you exactly what to fix, with a detailed breakdown of what's missing, step-by-step remediation guidance, and shareable report links. It scans HTTP headers, TLS/SSL, DNS security, cookies, and page content, and captures and reports CSP violations. Free to get started, with a REST API for integrating scans into CI/CD pipelines or monitoring.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "lemax2"
+      ],
+      "source_excerpt": "Building SiteSecurityScore (https://www.sitesecurityscore.com). A website security scanner that grades your site and tells you exactly what to fix.",
+      "evidence": [
+        {
+          "source_item_id": 47744437,
+          "source_field": "body",
+          "value": "Building SiteSecurityScore (https://www.sitesecurityscore.com). A website security scanner that grades your site and tells you exactly what to fix.",
+          "supports": [],
+          "author": "lemax2",
+          "shared_at": 1776027738,
+          "source_url": "https://news.ycombinator.com/item?id=47744437"
+        }
+      ],
+      "source_item_id": 47744437,
+      "source_url": "https://news.ycombinator.com/item?id=47744437",
+      "author": "lemax2",
+      "shared_at": 1776027738,
+      "links": [
+        "https://www.sitesecurityscore.com"
+      ]
+    }
+  ]
+}

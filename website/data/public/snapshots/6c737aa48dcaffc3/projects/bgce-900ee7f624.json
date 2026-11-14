@@ -1,0 +1,36 @@
+{
+  "id": 8330,
+  "slug": "bgce-900ee7f624",
+  "name": "bgce",
+  "mentions": [
+    {
+      "name": "bgce",
+      "description": "An experimental display server providing the minimum needed for a usable graphical experience, drawing to DRM buffers and handling input, built for educational purposes and fun.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "blmayer"
+      ],
+      "source_excerpt": "I'm working on an experimental display server, for educational purposes and fun:\n\nhttps://terminal.pink/bgce/index.html\n\nOr https://github.com/blmayer/bgce\n\nThe idea is to have the minimum needed for a usable graphical experience. So drawing to drm buffer and handling inputs basically.",
+      "evidence": [
+        {
+          "source_item_id": 46274543,
+          "source_field": "body",
+          "value": "I'm working on an experimental display server, for educational purposes and fun:\n\nhttps://terminal.pink/bgce/index.html\n\nOr https://github.com/blmayer/bgce\n\nThe idea is to have the minimum needed for a usable graphical experience. So drawing to drm buffer and handling inputs basically.",
+          "supports": [],
+          "author": "blmayer",
+          "shared_at": 1765806750,
+          "source_url": "https://news.ycombinator.com/item?id=46274543"
+        }
+      ],
+      "source_item_id": 46274543,
+      "source_url": "https://news.ycombinator.com/item?id=46274543",
+      "author": "blmayer",
+      "shared_at": 1765806750,
+      "links": [
+        "https://github.com/blmayer/bgce",
+        "https://terminal.pink/bgce/index.html"
+      ]
+    }
+  ]
+}

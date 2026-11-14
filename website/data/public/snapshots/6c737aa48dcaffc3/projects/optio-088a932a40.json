@@ -1,0 +1,35 @@
+{
+  "id": 3631,
+  "slug": "optio-088a932a40",
+  "name": "optio",
+  "mentions": [
+    {
+      "name": "optio",
+      "description": "Agent orchestration platform that ties into ticketing systems: when a ticket is assigned, it launches a coding agent in Kubernetes that works until the PR is ready, resuming through failed CI or PR feedback. It is being expanded beyond coding into general agent workflows, adding cron and webhook triggers and more general agent tasks that aren't necessarily coding focused.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "jawiggins"
+      ],
+      "source_excerpt": "Previously I've shared optio - my project for orchestrating coding agents. It ties into ticketing systems and when assigned a ticket, it launches a coding agent in k8s and works until the PR is ready, resuming for failed CI or PR feedback (https://news.ycombinator.com/item?id=47520220).\n\nRecently I've been trying to expand it from just coding focused to any kind of agent workflow. So now there are cron and webhook triggers, and more general agent tasks that aren't necessarily coding focused (https://github.com/jonwiggins/optio/blob/main/docs/persistent-agents.md).",
+      "evidence": [
+        {
+          "source_item_id": 48536122,
+          "source_field": "body",
+          "value": "Previously I've shared optio - my project for orchestrating coding agents. It ties into ticketing systems and when assigned a ticket, it launches a coding agent in k8s and works until the PR is ready, resuming for failed CI or PR feedback (https://news.ycombinator.com/item?id=47520220).\n\nRecently I've been trying to expand it from just coding focused to any kind of agent workflow. So now there are cron and webhook triggers, and more general agent tasks that aren't necessarily coding focused (https://github.com/jonwiggins/optio/blob/main/docs/persistent-agents.md).",
+          "supports": [],
+          "author": "jawiggins",
+          "shared_at": 1781492955,
+          "source_url": "https://news.ycombinator.com/item?id=48536122"
+        }
+      ],
+      "source_item_id": 48536122,
+      "source_url": "https://news.ycombinator.com/item?id=48536122",
+      "author": "jawiggins",
+      "shared_at": 1781492955,
+      "links": [
+        "https://github.com/jonwiggins/optio/blob/main/docs/persistent-agents.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 5024,
+  "slug": "ttz-6e4e7c0a80",
+  "name": "TTZ",
+  "mentions": [
+    {
+      "name": "TTZ",
+      "description": "A next-generation terminal protocol that cleanly separates text and commands to remove legacy cruft. The protocol is defined with a couple of implementations ready, and it already supports pictures, vector graphics, and file and audio streaming for building richer terminal UIs.",
+      "problem": "Programming and developing UIs against the standard terminal protocols is frustrating due to legacy cruft.",
+      "audience": null,
+      "builder_usernames": [
+        "hexmiles"
+      ],
+      "source_excerpt": "TTZ: A sort of next-gen protocol for terminals. The basic idea is to create a dedicated terminal protocol that allows for more features and less legacy cruft (text and commands are cleanly separated). Right now, I’ve defined the protocol and have a couple of implementations ready. It already supports pictures, vector graphics, and file and audio streaming.",
+      "evidence": [
+        {
+          "source_item_id": 48100378,
+          "source_field": "body",
+          "value": "TTZ: A sort of next-gen protocol for terminals. The basic idea is to create a dedicated terminal protocol that allows for more features and less legacy cruft (text and commands are cleanly separated). Right now, I’ve defined the protocol and have a couple of implementations ready. It already supports pictures, vector graphics, and file and audio streaming.",
+          "supports": [],
+          "author": "hexmiles",
+          "shared_at": 1778532013,
+          "source_url": "https://news.ycombinator.com/item?id=48100378"
+        }
+      ],
+      "source_item_id": 48100378,
+      "source_url": "https://news.ycombinator.com/item?id=48100378",
+      "author": "hexmiles",
+      "shared_at": 1778532013,
+      "links": []
+    }
+  ]
+}

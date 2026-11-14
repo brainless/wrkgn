@@ -1,0 +1,175 @@
+{
+  "id": 5376,
+  "slug": "wadec-9a0f1797a9",
+  "name": "wadec",
+  "mentions": [
+    {
+      "name": "wadec",
+      "description": "A WebAssembly binary decoder (parser for .wasm files) written from scratch in Rust, built as a way to learn both WebAssembly and Rust. It has reached v3 spec conformance by running the upstream spec test suite. It is intentionally not a highly performant production decoder and offers no streaming API; instead it targets educational use and debugging of WebAssembly modules, with a focus on good error messages, code documentation, and readability.",
+      "problem": null,
+      "audience": "People using it for educational purposes and developers debugging issues with WebAssembly modules",
+      "builder_usernames": [
+        "pasxizeis"
+      ],
+      "source_excerpt": "As a means to learn about both WebAssembly and Rust, I started writing a WebAssembly binary decoder (i.e. a parser for `.wasm` files) from scratch.\n\nRecently it hit v3 spec conformance. (I'm executing the upstream spec test suite.)\n\nI don't plan to make it a highly-performant decoder for use in production environments, but rather one that can be used for educational purposes, easy to read and/or debugging issues with modules.",
+      "evidence": [
+        {
+          "source_item_id": 47747494,
+          "source_field": "body",
+          "value": "As a means to learn about both WebAssembly and Rust, I started writing a WebAssembly binary decoder (i.e. a parser for `.wasm` files) from scratch.\n\nRecently it hit v3 spec conformance. (I'm executing the upstream spec test suite.)\n\nI don't plan to make it a highly-performant decoder for use in production environments, but rather one that can be used for educational purposes, easy to read and/or debugging issues with modules.",
+          "supports": [],
+          "author": "pasxizeis",
+          "shared_at": 1776053396,
+          "source_url": "https://news.ycombinator.com/item?id=47747494"
+        }
+      ],
+      "source_item_id": 47747494,
+      "source_url": "https://news.ycombinator.com/item?id=47747494",
+      "author": "pasxizeis",
+      "shared_at": 1776053396,
+      "links": [
+        "https://github.com/agis/wadec"
+      ]
+    },
+    {
+      "name": "wadec",
+      "description": "A WebAssembly (Wasm) parser written from scratch, currently gaining support for version 3 of the Wasm specification.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "pasxizeis"
+      ],
+      "source_excerpt": "Slowly but steadily implementing support for version 3 of the Wasm specification in my wasm parser (written from scratch): https://github.com/agis/wadec",
+      "evidence": [
+        {
+          "source_item_id": 46943943,
+          "source_field": "body",
+          "value": "Slowly but steadily implementing support for version 3 of the Wasm specification in my wasm parser (written from scratch): https://github.com/agis/wadec",
+          "supports": [],
+          "author": "pasxizeis",
+          "shared_at": 1770635156,
+          "source_url": "https://news.ycombinator.com/item?id=46943943"
+        }
+      ],
+      "source_item_id": 46943943,
+      "source_url": "https://news.ycombinator.com/item?id=46943943",
+      "author": "pasxizeis",
+      "shared_at": 1770635156,
+      "links": [
+        "https://github.com/agis/wadec"
+      ]
+    },
+    {
+      "name": "wadec",
+      "description": "A WebAssembly module parser written from scratch with a focus on good diagnostics, error messages, and developer experience. It is fully conformant to WebAssembly spec v2.0, with work under way to support the recently released 3.0 version.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "pasxizeis"
+      ],
+      "source_excerpt": "Writing a WebAssembly module parser from scratch, focusing on good diagnostics/errors and DX.\n\nCurrently it's fully-conformant to v2.0 of the spec, while I'm working towards implementing the recently released 3.0 version.",
+      "evidence": [
+        {
+          "source_item_id": 46579348,
+          "source_field": "body",
+          "value": "Writing a WebAssembly module parser from scratch, focusing on good diagnostics/errors and DX.\n\nCurrently it's fully-conformant to v2.0 of the spec, while I'm working towards implementing the recently released 3.0 version.",
+          "supports": [],
+          "author": "pasxizeis",
+          "shared_at": 1768161522,
+          "source_url": "https://news.ycombinator.com/item?id=46579348"
+        }
+      ],
+      "source_item_id": 46579348,
+      "source_url": "https://news.ycombinator.com/item?id=46579348",
+      "author": "pasxizeis",
+      "shared_at": 1768161522,
+      "links": [
+        "https://github.com/agis/wadec"
+      ]
+    },
+    {
+      "name": "wadec",
+      "description": "A WebAssembly binary decoder (parser for .wasm files) written in Rust from scratch as a means to learn WebAssembly and Rust. It has achieved v2.0 spec conformance, is validated against the upstream spec test suite, and v3.0 is next on the roadmap. It intentionally avoids a streaming API and production-grade performance, focusing instead on educational readability, good error messages, and well-documented code to help with debugging issues in wasm modules.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "pasxizeis"
+      ],
+      "source_excerpt": "As a means to learn about both WebAssembly and Rust, I started writing a WebAssembly binary decoder (i.e. a parser for `.wasm` files) from scratch.\n\nRecently it hit v2.0 spec conformance. 3.0 is next on the roadmap. (I'm executing it against the upstream spec test suite.)",
+      "evidence": [
+        {
+          "source_item_id": 46266389,
+          "source_field": "body",
+          "value": "As a means to learn about both WebAssembly and Rust, I started writing a WebAssembly binary decoder (i.e. a parser for `.wasm` files) from scratch.\n\nRecently it hit v2.0 spec conformance. 3.0 is next on the roadmap. (I'm executing it against the upstream spec test suite.)",
+          "supports": [],
+          "author": "pasxizeis",
+          "shared_at": 1765743220,
+          "source_url": "https://news.ycombinator.com/item?id=46266389"
+        }
+      ],
+      "source_item_id": 46266389,
+      "source_url": "https://news.ycombinator.com/item?id=46266389",
+      "author": "pasxizeis",
+      "shared_at": 1765743220,
+      "links": [
+        "https://github.com/agis/wadec"
+      ]
+    },
+    {
+      "name": "wadec",
+      "description": "A WebAssembly binary decoder written in Rust that parses .wasm files from scratch, implementing the v2.0 spec (v3.0 on the roadmap) and validated against the upstream spec test suite. Intended for educational use and for debugging issues with existing modules rather than high-performance production workloads, with no streaming API and an emphasis on good error messages and code documentation.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "pasxizeis"
+      ],
+      "source_excerpt": "As a means to learn about both WebAssembly and Rust, I started writing a WebAssembly binary decoder (i.e. a parser for `.wasm` files) from scratch.\n\nRecently it hit v2.0 spec conformance. 3.0 is next on the roadmap. (I'm executing it against the upstream spec test suite.)",
+      "evidence": [
+        {
+          "source_item_id": 45875498,
+          "source_field": "body",
+          "value": "As a means to learn about both WebAssembly and Rust, I started writing a WebAssembly binary decoder (i.e. a parser for `.wasm` files) from scratch.\n\nRecently it hit v2.0 spec conformance. 3.0 is next on the roadmap. (I'm executing it against the upstream spec test suite.)",
+          "supports": [],
+          "author": "pasxizeis",
+          "shared_at": 1762779374,
+          "source_url": "https://news.ycombinator.com/item?id=45875498"
+        }
+      ],
+      "source_item_id": 45875498,
+      "source_url": "https://news.ycombinator.com/item?id=45875498",
+      "author": "pasxizeis",
+      "shared_at": 1762779374,
+      "links": [
+        "https://github.com/agis/wadec"
+      ]
+    },
+    {
+      "name": "wadec",
+      "description": "A WebAssembly binary decoder written in Rust, built as a way to learn more about both wasm and Rust.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "pasxizeis"
+      ],
+      "source_excerpt": "Started writing a WebAssembly binary decoder, as a means to learn both more about wasm and Rust: https://github.com/agis/wadec.",
+      "evidence": [
+        {
+          "source_item_id": 45422731,
+          "source_field": "body",
+          "value": "Started writing a WebAssembly binary decoder, as a means to learn both more about wasm and Rust: https://github.com/agis/wadec.",
+          "supports": [],
+          "author": "pasxizeis",
+          "shared_at": 1759215947,
+          "source_url": "https://news.ycombinator.com/item?id=45422731"
+        }
+      ],
+      "source_item_id": 45422731,
+      "source_url": "https://news.ycombinator.com/item?id=45422731",
+      "author": "pasxizeis",
+      "shared_at": 1759215947,
+      "links": [
+        "https://github.com/agis/wadec"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 6766,
+  "slug": "otlp2pipeline-bdfe2fa774",
+  "name": "otlp2pipeline",
+  "mentions": [
+    {
+      "name": "otlp2pipeline",
+      "description": "A data infrastructure tool that sends logs and metrics to a cheap Iceberg catalog in the cloud, giving users a central place to query them.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "smithclay"
+      ],
+      "source_excerpt": "I'm coming at it from more of the data infrastructure side (e.g. send all of your logs and metrics to a cheap Iceberg catalog in the cloud so you have a central place to query[1])",
+      "evidence": [
+        {
+          "source_item_id": 46953017,
+          "source_field": "body",
+          "value": "I'm coming at it from more of the data infrastructure side (e.g. send all of your logs and metrics to a cheap Iceberg catalog in the cloud so you have a central place to query[1])",
+          "supports": [],
+          "author": "smithclay",
+          "shared_at": 1770679226,
+          "source_url": "https://news.ycombinator.com/item?id=46953017"
+        }
+      ],
+      "source_item_id": 46953017,
+      "source_url": "https://news.ycombinator.com/item?id=46953017",
+      "author": "smithclay",
+      "shared_at": 1770679226,
+      "links": [
+        "https://github.com/smithclay/otlp2pipeline"
+      ]
+    }
+  ]
+}

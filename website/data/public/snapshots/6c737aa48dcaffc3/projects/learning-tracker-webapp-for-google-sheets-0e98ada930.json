@@ -1,0 +1,33 @@
+{
+  "id": 4679,
+  "slug": "learning-tracker-webapp-for-google-sheets-0e98ada930",
+  "name": "Learning tracker webapp for Google Sheets",
+  "mentions": [
+    {
+      "name": "Learning tracker webapp for Google Sheets",
+      "description": "This webapp reads a public Google Sheet used to track learning and schedule repetitions (columns for links, titles, dates, and wait times plus a formula). It pulls the sheet as CSV, renders color-coded lists and charts, and shows what's due this week on a 15-week timeline. It intentionally avoids auth, storage, and update management, and can only be shared via its source code.",
+      "problem": "Google Sheets is poor to use on the phone, making it hard to review the learning schedule on mobile.",
+      "audience": "Personal-use companion for the author's own learning schedule stored in Google Sheets.",
+      "builder_usernames": [
+        "gofreddygo"
+      ],
+      "source_excerpt": "So I built a dumb frontend reading off of my (public) google sheet which just has 4 columns for links, title, dates and wait times, plus a formula. Webapp pulls the sheet as csv, renders as color coded lists and a couple charts. Chart shows what's due this week on a 15 week timeline.",
+      "evidence": [
+        {
+          "source_item_id": 48088726,
+          "source_field": "body",
+          "value": "So I built a dumb frontend reading off of my (public) google sheet which just has 4 columns for links, title, dates and wait times, plus a formula. Webapp pulls the sheet as csv, renders as color coded lists and a couple charts. Chart shows what's due this week on a 15 week timeline.",
+          "supports": [],
+          "author": "gofreddygo",
+          "shared_at": 1778451578,
+          "source_url": "https://news.ycombinator.com/item?id=48088726"
+        }
+      ],
+      "source_item_id": 48088726,
+      "source_url": "https://news.ycombinator.com/item?id=48088726",
+      "author": "gofreddygo",
+      "shared_at": 1778451578,
+      "links": []
+    }
+  ]
+}

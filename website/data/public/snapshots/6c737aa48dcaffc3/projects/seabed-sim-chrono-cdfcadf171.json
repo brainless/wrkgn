@@ -1,0 +1,63 @@
+{
+  "id": 7015,
+  "slug": "seabed-sim-chrono-cdfcadf171",
+  "name": "seabed-sim-chrono",
+  "mentions": [
+    {
+      "name": "seabed-sim-chrono",
+      "description": "A deep seabed simulation built in Project Chrono to simulate polymetallic nodules for cobalt/nickel mining. It includes a fast but inaccurate rigid-body simulation and a DEM (discrete element method) simulation that benefits from lots of fast cache. The idea is that users can load a vehicle in Project Chrono and test deep sea nodule mining using different designs.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "guywithahat"
+      ],
+      "source_excerpt": "I've been working on a deep seabed simulation, specifically to simulate polymetallic nodules for cobalt/nickel mining in Project Chrono.",
+      "evidence": [
+        {
+          "source_item_id": 46941987,
+          "source_field": "body",
+          "value": "I've been working on a deep seabed simulation, specifically to simulate polymetallic nodules for cobalt/nickel mining in Project Chrono.",
+          "supports": [],
+          "author": "guywithahat",
+          "shared_at": 1770616399,
+          "source_url": "https://news.ycombinator.com/item?id=46941987"
+        }
+      ],
+      "source_item_id": 46941987,
+      "source_url": "https://news.ycombinator.com/item?id=46941987",
+      "author": "guywithahat",
+      "shared_at": 1770616399,
+      "links": [
+        "https://github.com/thansen0/seabed-sim-chrono"
+      ]
+    },
+    {
+      "name": "seabed-sim-chrono",
+      "description": "A physics simulation of deep sea polymetallic nodule mining, built with Project Chrono using its granular terrain modeling. Still in an early stage of development — the author's old polymetallic nodule samples have not yet been added and nothing is to scale — but it already runs.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "guywithahat"
+      ],
+      "source_excerpt": "just for fun I've been building a simulation for it. It's been done a million times before but I wanted to do it myself in project chrono using their granular terrain and old polymetallic nodule samples I have",
+      "evidence": [
+        {
+          "source_item_id": 46275930,
+          "source_field": "body",
+          "value": "just for fun I've been building a simulation for it. It's been done a million times before but I wanted to do it myself in project chrono using their granular terrain and old polymetallic nodule samples I have",
+          "supports": [],
+          "author": "guywithahat",
+          "shared_at": 1765813343,
+          "source_url": "https://news.ycombinator.com/item?id=46275930"
+        }
+      ],
+      "source_item_id": 46275930,
+      "source_url": "https://news.ycombinator.com/item?id=46275930",
+      "author": "guywithahat",
+      "shared_at": 1765813343,
+      "links": [
+        "https://github.com/thansen0/seabed-sim-chrono"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 4509,
+  "slug": "bridgekeeper-1e79e0aa58",
+  "name": "Bridgekeeper",
+  "mentions": [
+    {
+      "name": "Bridgekeeper",
+      "description": "This tool mitigates the cognitive debt of AI-assisted development by applying pedagogical research techniques to code review, helping developers better understand and recall AI-generated code; it converses in the voice of the Monty Python bridgekeeper.",
+      "problem": "Even when reviewing AI-generated diffs line-by-line, developers don't understand the code as well as code they wrote themselves and have difficulty recalling it days later.",
+      "audience": null,
+      "builder_usernames": [
+        "gavinh"
+      ],
+      "source_excerpt": "I'm working on a tool for mitigating the cognitive debt from AI-assisted development. Even when I review Claude's diffs line-by-line, I don't understand them as well as code I wrote myself, and I have difficultly recalling them days later.",
+      "evidence": [
+        {
+          "source_item_id": 48110114,
+          "source_field": "body",
+          "value": "I'm working on a tool for mitigating the cognitive debt from AI-assisted development. Even when I review Claude's diffs line-by-line, I don't understand them as well as code I wrote myself, and I have difficultly recalling them days later.",
+          "supports": [],
+          "author": "gavinh",
+          "shared_at": 1778601460,
+          "source_url": "https://news.ycombinator.com/item?id=48110114"
+        }
+      ],
+      "source_item_id": 48110114,
+      "source_url": "https://news.ycombinator.com/item?id=48110114",
+      "author": "gavinh",
+      "shared_at": 1778601460,
+      "links": [
+        "https://bridgekeeper.io/"
+      ]
+    }
+  ]
+}

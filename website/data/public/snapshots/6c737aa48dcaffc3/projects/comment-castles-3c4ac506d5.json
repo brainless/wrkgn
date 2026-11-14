@@ -1,0 +1,35 @@
+{
+  "id": 7282,
+  "slug": "comment-castles-3c4ac506d5",
+  "name": "Comment Castles",
+  "mentions": [
+    {
+      "name": "Comment Castles",
+      "description": "A web application built with Express that the builder is refactoring to add custom middleware functions for code reuse.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "codingclaws"
+      ],
+      "source_excerpt": "Refactoring Comment Castles [0]. It uses Express, but I previously wasn't using any of my own middleware functions. Now, I'm starting to write some middleware, and it's a nice way to reuse code.\n\n[0] https://www.commentcastles.org",
+      "evidence": [
+        {
+          "source_item_id": 46939391,
+          "source_field": "body",
+          "value": "Refactoring Comment Castles [0]. It uses Express, but I previously wasn't using any of my own middleware functions. Now, I'm starting to write some middleware, and it's a nice way to reuse code.\n\n[0] https://www.commentcastles.org",
+          "supports": [],
+          "author": "codingclaws",
+          "shared_at": 1770590935,
+          "source_url": "https://news.ycombinator.com/item?id=46939391"
+        }
+      ],
+      "source_item_id": 46939391,
+      "source_url": "https://news.ycombinator.com/item?id=46939391",
+      "author": "codingclaws",
+      "shared_at": 1770590935,
+      "links": [
+        "https://www.commentcastles.org"
+      ]
+    }
+  ]
+}

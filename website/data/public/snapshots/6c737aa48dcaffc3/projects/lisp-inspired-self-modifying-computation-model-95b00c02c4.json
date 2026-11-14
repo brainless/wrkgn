@@ -1,0 +1,33 @@
+{
+  "id": 10823,
+  "slug": "lisp-inspired-self-modifying-computation-model-95b00c02c4",
+  "name": "Lisp-inspired self-modifying computation model",
+  "mentions": [
+    {
+      "name": "Lisp-inspired self-modifying computation model",
+      "description": "An experimental lisp-inspired programming language and model of computation that rethinks computers as fundamentally different from looms (Harvard architecture). In this model, self-modification is the norm, no stack exists unless the programmer creates one, and there is no distinction between a program extending itself and the programmer doing so — there are no macros, unlike LISP. The project is pursued for fun and as an interesting idea to think and talk about, not for practical utility.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "dusted"
+      ],
+      "source_excerpt": "Silly lisp-inspired language, but it turned into something different as I started asking myself more and more questions, and now it's more of a model for computation that tries to think about computers as different from looms (aka harward architecture). One where self-modification is the norm, where there is no stack unless you make one, and where there's no difference between a program extending itself or the programmer doing it (unlike LISP macros, my language, and model, does not have a distinction, there's no macros).",
+      "evidence": [
+        {
+          "source_item_id": 43819407,
+          "source_field": "body",
+          "value": "Silly lisp-inspired language, but it turned into something different as I started asking myself more and more questions, and now it's more of a model for computation that tries to think about computers as different from looms (aka harward architecture). One where self-modification is the norm, where there is no stack unless you make one, and where there's no difference between a program extending itself or the programmer doing it (unlike LISP macros, my language, and model, does not have a distinction, there's no macros).",
+          "supports": [],
+          "author": "dusted",
+          "shared_at": 1745833764,
+          "source_url": "https://news.ycombinator.com/item?id=43819407"
+        }
+      ],
+      "source_item_id": 43819407,
+      "source_url": "https://news.ycombinator.com/item?id=43819407",
+      "author": "dusted",
+      "shared_at": 1745833764,
+      "links": []
+    }
+  ]
+}

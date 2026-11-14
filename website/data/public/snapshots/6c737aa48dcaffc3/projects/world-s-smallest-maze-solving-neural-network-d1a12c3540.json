@@ -1,0 +1,65 @@
+{
+  "id": 1739,
+  "slug": "world-s-smallest-maze-solving-neural-network-d1a12c3540",
+  "name": "tiniest maze solving neural network",
+  "mentions": [
+    {
+      "name": "tiniest maze solving neural network",
+      "description": "A work-in-progress write-up of a maze solver built with heavy LLM help, using a 14-byte neural network that solves 96% of unseen mazes.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "purple-leafy"
+      ],
+      "source_excerpt": "3) tiniest maze solving neural network: A write-up work in progress on a maze solver I built with heavy LLM help, managed to get a 14 byte neural network solving 96% of unseen mazes.",
+      "evidence": [
+        {
+          "source_item_id": 49691037,
+          "source_field": "body",
+          "value": "3) tiniest maze solving neural network: A write-up work in progress on a maze solver I built with heavy LLM help, managed to get a 14 byte neural network solving 96% of unseen mazes.",
+          "supports": [],
+          "author": "purple-leafy",
+          "shared_at": 1789351904,
+          "source_url": "https://news.ycombinator.com/item?id=49691037"
+        }
+      ],
+      "source_item_id": 49691037,
+      "source_url": "https://news.ycombinator.com/item?id=49691037",
+      "author": "purple-leafy",
+      "shared_at": 1789351904,
+      "links": [
+        "https://github.com/con-dog/tiny-neural-network",
+        "https://minimio.ai/"
+      ]
+    },
+    {
+      "name": "World's smallest maze-solving neural network",
+      "description": "An experiment to build the world's smallest maze-solving neural network; the current champion model is just 14 bytes and solves 96.5% of unseen mazes up to 21x21, with an interactive website to try it and a work-in-progress write-up.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "purple-leafy"
+      ],
+      "source_excerpt": "Trying to make the world’s smallest maze solving neural network. Why? Because it’s fun. Why aren’t you?\n\nCurrent champion model is 14 bytes - it solves 96.5% of unseen mazes upto 21x21.\n\nTry it yourself on the website. Also a work in progress write up at [1]",
+      "evidence": [
+        {
+          "source_item_id": 49253826,
+          "source_field": "body",
+          "value": "Trying to make the world’s smallest maze solving neural network. Why? Because it’s fun. Why aren’t you?\n\nCurrent champion model is 14 bytes - it solves 96.5% of unseen mazes upto 21x21.\n\nTry it yourself on the website. Also a work in progress write up at [1]",
+          "supports": [],
+          "author": "purple-leafy",
+          "shared_at": 1786427305,
+          "source_url": "https://news.ycombinator.com/item?id=49253826"
+        }
+      ],
+      "source_item_id": 49253826,
+      "source_url": "https://news.ycombinator.com/item?id=49253826",
+      "author": "purple-leafy",
+      "shared_at": 1786427305,
+      "links": [
+        "https://github.com/con-dog/tiny-neural-network",
+        "https://minimio.ai"
+      ]
+    }
+  ]
+}

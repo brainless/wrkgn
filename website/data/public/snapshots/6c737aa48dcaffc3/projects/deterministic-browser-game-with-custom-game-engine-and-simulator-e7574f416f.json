@@ -1,0 +1,33 @@
+{
+  "id": 4504,
+  "slug": "deterministic-browser-game-with-custom-game-engine-and-simulator-e7574f416f",
+  "name": "Deterministic browser game with custom game engine and simulator",
+  "mentions": [
+    {
+      "name": "Deterministic browser game with custom game engine and simulator",
+      "description": "This is a browser game built on a custom, fully deterministic and discrete (non-float based) game engine with bit-packed data structures, power-of-2 optimizations, and fully decoupled logic and rendering. A companion simulator runs 10,000+ full games in about 50 seconds on a MacBook M1 Pro, using Monte Carlo methods to tune the enemy AI (conventional bots, not LLMs).",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "purple-leafy"
+      ],
+      "source_excerpt": "My own browser game. I created a browser game engine and building my first ever game with it. I can’t wait to launch it, I think it’s pretty cool. I’ve been working on it for 6 years!\n\nThe tech surrounding the game is awesome, the game and engine are fully deterministic, discrete (not float based), and bit-packed data structures throughout, powers of 2 everywhere for really fast operations, and logic and rendering are fully decoupled.\n\nI wrote a simulator for the game and can simulate 10,000+ games in around 50 seconds on my MacBook M1 Pro. Purpose of the simulations is Monte Carlo method to tune my enemy AI (not LLM - conventional bots etc)",
+      "evidence": [
+        {
+          "source_item_id": 48086993,
+          "source_field": "body",
+          "value": "My own browser game. I created a browser game engine and building my first ever game with it. I can’t wait to launch it, I think it’s pretty cool. I’ve been working on it for 6 years!\n\nThe tech surrounding the game is awesome, the game and engine are fully deterministic, discrete (not float based), and bit-packed data structures throughout, powers of 2 everywhere for really fast operations, and logic and rendering are fully decoupled.\n\nI wrote a simulator for the game and can simulate 10,000+ games in around 50 seconds on my MacBook M1 Pro. Purpose of the simulations is Monte Carlo method to tune my enemy AI (not LLM - conventional bots etc)",
+          "supports": [],
+          "author": "purple-leafy",
+          "shared_at": 1778441151,
+          "source_url": "https://news.ycombinator.com/item?id=48086993"
+        }
+      ],
+      "source_item_id": 48086993,
+      "source_url": "https://news.ycombinator.com/item?id=48086993",
+      "author": "purple-leafy",
+      "shared_at": 1778441151,
+      "links": []
+    }
+  ]
+}

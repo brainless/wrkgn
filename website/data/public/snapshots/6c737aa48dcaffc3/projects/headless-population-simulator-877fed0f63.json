@@ -1,0 +1,33 @@
+{
+  "id": 5129,
+  "slug": "headless-population-simulator-877fed0f63",
+  "name": "Headless population simulator",
+  "mentions": [
+    {
+      "name": "Headless population simulator",
+      "description": "A headless population simulator that models NPC behavior such as crime and market prices, still being tuned for balance.",
+      "problem": "Still balancing parameters: not enough NPCs turn to crime at present, and market prices can spike enough to cause an integer overflow in price storage (e.g. the price of meat).",
+      "audience": null,
+      "builder_usernames": [
+        "amarant"
+      ],
+      "source_excerpt": "a headless population simulator(still balancing parameters on this one, not enough NPC's turn to crime at present, and I've also run into some weird issues with market prices, in one instance the price of meat rose enough to cause a integer overflow",
+      "evidence": [
+        {
+          "source_item_id": 47743441,
+          "source_field": "body",
+          "value": "a headless population simulator(still balancing parameters on this one, not enough NPC's turn to crime at present, and I've also run into some weird issues with market prices, in one instance the price of meat rose enough to cause a integer overflow",
+          "supports": [],
+          "author": "amarant",
+          "shared_at": 1776022114,
+          "source_url": "https://news.ycombinator.com/item?id=47743441"
+        }
+      ],
+      "source_item_id": 47743441,
+      "source_url": "https://news.ycombinator.com/item?id=47743441",
+      "author": "amarant",
+      "shared_at": 1776022114,
+      "links": []
+    }
+  ]
+}

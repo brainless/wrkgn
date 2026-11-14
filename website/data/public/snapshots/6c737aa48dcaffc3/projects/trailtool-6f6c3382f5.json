@@ -1,0 +1,35 @@
+{
+  "id": 7049,
+  "slug": "trailtool-6f6c3382f5",
+  "name": "TrailTool",
+  "mentions": [
+    {
+      "name": "TrailTool",
+      "description": "This tool aggregates AWS CloudTrail logs for analysis in both a UI and AI contexts, tying logs together into meaningful narratives for security investigations and role engineering (reducing privileges on human-operated IAM roles). It exposes the data via MCP for agent workflows with high quality, low latency, and manageable context size, and can be tried by deploying a CloudFormation stack to a sandbox AWS account.",
+      "problem": "It is tough to tie together CloudTrail logs into meaningful narratives useful not only for security investigations but also role engineering (reducing privileges on human-operated IAM roles).",
+      "audience": null,
+      "builder_usernames": [
+        "alexsmolen"
+      ],
+      "source_excerpt": "I'm working on TrailTool, which aggregates CloudTrail for analysis in both UI and AI contexts.",
+      "evidence": [
+        {
+          "source_item_id": 46952695,
+          "source_field": "body",
+          "value": "I'm working on TrailTool, which aggregates CloudTrail for analysis in both UI and AI contexts.",
+          "supports": [],
+          "author": "alexsmolen",
+          "shared_at": 1770677344,
+          "source_url": "https://news.ycombinator.com/item?id=46952695"
+        }
+      ],
+      "source_item_id": 46952695,
+      "source_url": "https://news.ycombinator.com/item?id=46952695",
+      "author": "alexsmolen",
+      "shared_at": 1770677344,
+      "links": [
+        "https://trailtool.io/install.html"
+      ]
+    }
+  ]
+}

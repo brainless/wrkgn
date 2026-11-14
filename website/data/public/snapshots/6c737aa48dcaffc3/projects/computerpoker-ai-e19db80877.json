@@ -1,0 +1,33 @@
+{
+  "id": 6819,
+  "slug": "computerpoker-ai-e19db80877",
+  "name": "ComputerPoker.ai",
+  "mentions": [
+    {
+      "name": "ComputerPoker.ai",
+      "description": "A poker training web app that lets users play against GTO (Game Theory Optimal) bots in simulated poker tournaments and cash game scenarios and receive feedback on their play in the flow of the game. PyTorch models are trained on solved poker scenarios for post-flop, turn, and river situations, and an internal discounted CFR solver is used, with multiway scenarios planned. Built with Django/Channels/WebSockets, currently in gated beta, with planned pricing of $8/month or $74.99/year.",
+      "problem": "Learning poker by experience at online micro stakes is expensive and provides poor feedback, and existing software targets hardcore pros rather than players trying to learn GTO play.",
+      "audience": "Individuals looking to get acquainted with what GTO poker play feels like, rather than hardcore poker pros",
+      "builder_usernames": [
+        "abbadadda"
+      ],
+      "source_excerpt": "ComputerPoker.ai\n\nWe trained PyTorch models on solved poker scenarios for post-flop, turn, and river situations.\nThe planned \"killer feature\" is to give users feedback on their poker play in the flow of a simulated poker tournament or simulated cash game scenario. The goal is to play against \"GTO Bots\" (Game Theory Optimal Bots) to learn how to play closer to GTO.",
+      "evidence": [
+        {
+          "source_item_id": 46944442,
+          "source_field": "body",
+          "value": "ComputerPoker.ai\n\nWe trained PyTorch models on solved poker scenarios for post-flop, turn, and river situations.\nThe planned \"killer feature\" is to give users feedback on their poker play in the flow of a simulated poker tournament or simulated cash game scenario. The goal is to play against \"GTO Bots\" (Game Theory Optimal Bots) to learn how to play closer to GTO.",
+          "supports": [],
+          "author": "abbadadda",
+          "shared_at": 1770639541,
+          "source_url": "https://news.ycombinator.com/item?id=46944442"
+        }
+      ],
+      "source_item_id": 46944442,
+      "source_url": "https://news.ycombinator.com/item?id=46944442",
+      "author": "abbadadda",
+      "shared_at": 1770639541,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 9351,
+  "slug": "cliptomic-3f25277f3c",
+  "name": "Cliptomic",
+  "mentions": [
+    {
+      "name": "Cliptomic",
+      "description": "Mac desktop application that rewrites text using any LLM via OpenRouter. Users copy text, activate the app with a keyboard shortcut, and the rewritten version replaces the clipboard content so it can be pasted directly. Still in early stages.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "palebt"
+      ],
+      "source_excerpt": "I’m developing a Mac desktop application that allows you to rewrite text using any LLM (via OpenRouter). Currently, users select text, copy it, and activate Cliptomic with a designated shortcut. The application then rewrites the text and replaces the original content in the clipboard, enabling easy pasting of the improved version.",
+      "evidence": [
+        {
+          "source_item_id": 45900447,
+          "source_field": "body",
+          "value": "I’m developing a Mac desktop application that allows you to rewrite text using any LLM (via OpenRouter). Currently, users select text, copy it, and activate Cliptomic with a designated shortcut. The application then rewrites the text and replaces the original content in the clipboard, enabling easy pasting of the improved version.",
+          "supports": [],
+          "author": "palebt",
+          "shared_at": 1762956865,
+          "source_url": "https://news.ycombinator.com/item?id=45900447"
+        }
+      ],
+      "source_item_id": 45900447,
+      "source_url": "https://news.ycombinator.com/item?id=45900447",
+      "author": "palebt",
+      "shared_at": 1762956865,
+      "links": [
+        "https://github.com/PaleBlueApps/cliptomic"
+      ]
+    }
+  ]
+}

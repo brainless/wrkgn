@@ -1,0 +1,33 @@
+{
+  "id": 9006,
+  "slug": "small-rural-isp-and-web-hosting-service-aea60a5142",
+  "name": "Small rural ISP and web hosting service",
+  "mentions": [
+    {
+      "name": "Small rural ISP and web hosting service",
+      "description": "This project is a small rural ISP and web hosting service built as a way to learn low-level networking. It has its own ASN and IP space, with details being worked out with a colo, a local fiber provider, and upstreams, and current work covers configuring the server, router, and switch hardware while learning Proxmox, BGP, OPNsense, and IXPs.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "abound"
+      ],
+      "source_excerpt": "I'm building a small rural ISP and web hosting service, as a way to learn about low-level networking stuff. I've got an ASN + IP space, and am working out the details with a colo, local fiber provider, and some upstreams. Right now I'm configuring the hardware itself (server, router, switch, etc) and learning all the bits and bobs (Proxmox, BGP, OPNsense, IXPs, etc)",
+      "evidence": [
+        {
+          "source_item_id": 45870010,
+          "source_field": "body",
+          "value": "I'm building a small rural ISP and web hosting service, as a way to learn about low-level networking stuff. I've got an ASN + IP space, and am working out the details with a colo, local fiber provider, and some upstreams. Right now I'm configuring the hardware itself (server, router, switch, etc) and learning all the bits and bobs (Proxmox, BGP, OPNsense, IXPs, etc)",
+          "supports": [],
+          "author": "abound",
+          "shared_at": 1762728519,
+          "source_url": "https://news.ycombinator.com/item?id=45870010"
+        }
+      ],
+      "source_item_id": 45870010,
+      "source_url": "https://news.ycombinator.com/item?id=45870010",
+      "author": "abound",
+      "shared_at": 1762728519,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": 7660,
+  "slug": "certisfy-ea3556a319",
+  "name": "Certisfy",
+  "mentions": [
+    {
+      "name": "Certisfy",
+      "description": "A self-service, in-browser app that bootstraps a PKI certificate trust chain for online trust projection and information verification, such as age verification at scale via a peer-to-peer mechanism instead of sending a government ID to the service being verified. It requires no sign-up or download, and all cryptography happens in the browser. Experiments include using Keybase key holders as certificate authorities and .gov email holders.",
+      "problem": "Online age verification typically requires sending your government ID to the service (e.g., an adult site); this project replaces that with a peer-to-peer PKI-based trust and verification mechanism.",
+      "audience": null,
+      "builder_usernames": [
+        "Edmond"
+      ],
+      "source_excerpt": "Trying to bootstrap a PKI certificate trust chain for facilitating trust projection and information verification online. Think of it as the ability to do something such as age verification at scale via a peer-2-peer ish mechanism instead of sending your government id to a porno service.",
+      "evidence": [
+        {
+          "source_item_id": 46578079,
+          "source_field": "body",
+          "value": "Trying to bootstrap a PKI certificate trust chain for facilitating trust projection and information verification online. Think of it as the ability to do something such as age verification at scale via a peer-2-peer ish mechanism instead of sending your government id to a porno service.",
+          "supports": [],
+          "author": "Edmond",
+          "shared_at": 1768155424,
+          "source_url": "https://news.ycombinator.com/item?id=46578079"
+        }
+      ],
+      "source_item_id": 46578079,
+      "source_url": "https://news.ycombinator.com/item?id=46578079",
+      "author": "Edmond",
+      "shared_at": 1768155424,
+      "links": [
+        "https://blog.certisfy.com/2025/12/using-gov-email-addresses-for-age-and.html",
+        "https://certisfy.com/app"
+      ]
+    }
+  ]
+}

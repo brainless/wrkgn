@@ -1,0 +1,35 @@
+{
+  "id": 10921,
+  "slug": "textquery-5ac4e9eb7d",
+  "name": "TextQuery",
+  "mentions": [
+    {
+      "name": "TextQuery",
+      "description": "This is a desktop app for querying raw data files. It lets users import CSV, JSON, and XLSX files and query them instantly with SQL, with a Visualize tab for creating charts. A major update rolling out adds tabs, filters, a redesigned UI, and keyboard shortcuts. Planned expansion includes more file formats (Parquet, ORC) and data sources (Postgres, BigQuery), positioning it as a cost-efficient local data warehouse on the desktop compared to cloud services like BigQuery, Snowflake, or Athena.",
+      "problem": "Importing and querying raw datasets is clunky, requiring juggling multiple tools and writing code or commands; existing GUI tools focus on databases rather than raw data.",
+      "audience": null,
+      "builder_usernames": [
+        "shubhamjain"
+      ],
+      "source_excerpt": "I've been working on https://textquery.app -- query raw data from your desktop.\n\nI love exploring data, but it always felt clunky to juggle multiple tools, write code/commads, just to import and query a dataset. While there are multiple GUI tools for databases, none are focused on raw data.\n\nTextQuery is the tool I built to solve that. You can import CSV, JSON, and XLSX files and start querying them instantly using SQL. Want to create a chart? Just hop over to the Visualize tab.",
+      "evidence": [
+        {
+          "source_item_id": 43818968,
+          "source_field": "body",
+          "value": "I've been working on https://textquery.app -- query raw data from your desktop.\n\nI love exploring data, but it always felt clunky to juggle multiple tools, write code/commads, just to import and query a dataset. While there are multiple GUI tools for databases, none are focused on raw data.\n\nTextQuery is the tool I built to solve that. You can import CSV, JSON, and XLSX files and start querying them instantly using SQL. Want to create a chart? Just hop over to the Visualize tab.",
+          "supports": [],
+          "author": "shubhamjain",
+          "shared_at": 1745829258,
+          "source_url": "https://news.ycombinator.com/item?id=43818968"
+        }
+      ],
+      "source_item_id": 43818968,
+      "source_url": "https://news.ycombinator.com/item?id=43818968",
+      "author": "shubhamjain",
+      "shared_at": 1745829258,
+      "links": [
+        "https://textquery.app"
+      ]
+    }
+  ]
+}

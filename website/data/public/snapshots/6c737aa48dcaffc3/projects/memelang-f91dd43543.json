@@ -1,0 +1,37 @@
+{
+  "id": 7095,
+  "slug": "memelang-f91dd43543",
+  "name": "Memelang",
+  "mentions": [
+    {
+      "name": "Memelang",
+      "description": "A token-efficient query language designed for LLM generation. It acts as an intermediate representation that programmatically translates to SQL, with a published paper and open-source Python implementation.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "bri-holt"
+      ],
+      "source_excerpt": "Ultra token efficient query language for LLM generation. Acts as an intermediate representation that programatically translates to SQL.",
+      "evidence": [
+        {
+          "source_item_id": 46941673,
+          "source_field": "body",
+          "value": "Ultra token efficient query language for LLM generation. Acts as an intermediate representation that programatically translates to SQL.",
+          "supports": [],
+          "author": "bri-holt",
+          "shared_at": 1770612440,
+          "source_url": "https://news.ycombinator.com/item?id=46941673"
+        }
+      ],
+      "source_item_id": 46941673,
+      "source_url": "https://news.ycombinator.com/item?id=46941673",
+      "author": "bri-holt",
+      "shared_at": 1770612440,
+      "links": [
+        "https://arxiv.org/abs/2512.17967",
+        "https://github.com/memelang-net/memesql10/blob/main/memelang.py",
+        "https://memelang.net/"
+      ]
+    }
+  ]
+}

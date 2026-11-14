@@ -1,0 +1,35 @@
+{
+  "id": 5998,
+  "slug": "stavrobot-e133c08c24",
+  "name": "stavrobot",
+  "mentions": [
+    {
+      "name": "stavrobot",
+      "description": "This is an AI personal assistant designed to be secure: it has no access to secrets, uses scoped plugin permissions, and provides isolation. It is presented as a more secure alternative to OpenClaw and pairs with a custom hardware voice note device.",
+      "problem": "Existing AI personal assistants like OpenClaw are not actually secure and have access to secrets and broad permissions.",
+      "audience": null,
+      "builder_usernames": [
+        "stavros"
+      ],
+      "source_excerpt": "I made my own AI personal assistant:\n\nhttps://github.com/skorokithakis/stavrobot\n\nIt's like OpenClaw but actually secure, without access to secrets, with scoped plugin permissions, isolation, etc.",
+      "evidence": [
+        {
+          "source_item_id": 47303484,
+          "source_field": "body",
+          "value": "I made my own AI personal assistant:\n\nhttps://github.com/skorokithakis/stavrobot\n\nIt's like OpenClaw but actually secure, without access to secrets, with scoped plugin permissions, isolation, etc.",
+          "supports": [],
+          "author": "stavros",
+          "shared_at": 1773017697,
+          "source_url": "https://news.ycombinator.com/item?id=47303484"
+        }
+      ],
+      "source_item_id": 47303484,
+      "source_url": "https://news.ycombinator.com/item?id=47303484",
+      "author": "stavros",
+      "shared_at": 1773017697,
+      "links": [
+        "https://github.com/skorokithakis/stavrobot"
+      ]
+    }
+  ]
+}

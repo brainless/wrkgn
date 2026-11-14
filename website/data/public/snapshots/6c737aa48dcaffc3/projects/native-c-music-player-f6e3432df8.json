@@ -1,0 +1,33 @@
+{
+  "id": 5195,
+  "slug": "native-c-music-player-f6e3432df8",
+  "name": "Native C++ music player",
+  "mentions": [
+    {
+      "name": "Native C++ music player",
+      "description": "A native C++ desktop music player for playing purchased music, offering deeper library curation than existing players: annotating tracks, custom tags for genres instead of simple enums, advanced tag editing, and bulk transactional/undoable library operations. The UI is built with a thin layer of 2D draw commands that can be ported across backends (CoreGraphics, Direct2D, Pango), with a focus on reliability, UI responsiveness, and resource usage rather than Electron.",
+      "problem": "Existing players like Doppler for macOS lack the author's desired ways of curating and interacting with a music library, and Electron GUIs compromise on reliability, responsiveness, and resource usage.",
+      "audience": null,
+      "builder_usernames": [
+        "anpep"
+      ],
+      "source_excerpt": "I'm building a native music player in C++ for playing music I bought. I know there's Doppler for macOS but I want different ways of curating and interacting with my library (annotating tracks, custom tags instead of a simple enum for describing genres, advanced tag editing, bulk and transactional/undoable library operations...)",
+      "evidence": [
+        {
+          "source_item_id": 47750796,
+          "source_field": "body",
+          "value": "I'm building a native music player in C++ for playing music I bought. I know there's Doppler for macOS but I want different ways of curating and interacting with my library (annotating tracks, custom tags instead of a simple enum for describing genres, advanced tag editing, bulk and transactional/undoable library operations...)",
+          "supports": [],
+          "author": "anpep",
+          "shared_at": 1776081753,
+          "source_url": "https://news.ycombinator.com/item?id=47750796"
+        }
+      ],
+      "source_item_id": 47750796,
+      "source_url": "https://news.ycombinator.com/item?id=47750796",
+      "author": "anpep",
+      "shared_at": 1776081753,
+      "links": []
+    }
+  ]
+}

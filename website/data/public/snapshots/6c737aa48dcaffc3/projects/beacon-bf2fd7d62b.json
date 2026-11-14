@@ -1,0 +1,120 @@
+{
+  "id": 161,
+  "slug": "beacon-bf2fd7d62b",
+  "name": "Beacon",
+  "mentions": [
+    {
+      "name": "Beacon",
+      "description": "A mobile app for finding a friend who is free to talk right now. Users send a beacon to a group, everyone gets a gentle ping, and the first person to answer is connected for a one-on-one call while the other signals drop silently. Missed beacons aren't logged, so there's no pressure to answer or return calls.",
+      "problem": "Instantly answering \"which friend is free to talk right now?\" without the pressure of unanswered calls or having to return calls.",
+      "audience": "Best used with 4+ friends/family you'd like to chat with more; the author already has dozens of connections in the app.",
+      "builder_usernames": [
+        "cjflog"
+      ],
+      "source_excerpt": "I’ve been working on Beacon, which just got approved on the App Store! It’s a mobile app to instantly answer “which friend is free to talk right now?” and summon them in a single tap.",
+      "evidence": [
+        {
+          "source_item_id": 50418276,
+          "source_field": "body",
+          "value": "I’ve been working on Beacon, which just got approved on the App Store! It’s a mobile app to instantly answer “which friend is free to talk right now?” and summon them in a single tap.",
+          "supports": [],
+          "author": "cjflog",
+          "shared_at": 1794177833,
+          "source_url": "https://news.ycombinator.com/item?id=50418276"
+        }
+      ],
+      "source_item_id": 50418276,
+      "source_url": "https://news.ycombinator.com/item?id=50418276",
+      "author": "cjflog",
+      "shared_at": 1794177833,
+      "links": [
+        "https://trybeacon.chat/"
+      ]
+    },
+    {
+      "name": "Beacon",
+      "description": "A mobile app that answers \"which friend is free to talk right now?\" by sending a one-to-many call to a group: everyone is rung at the same time, the first person to answer gets connected for a one-to-one call, and everyone else's signal drops silently. There are no missed calls and no pressure to answer, with in-app settings for quiet hours. Available in beta on iOS via TestFlight and on Android.",
+      "problem": "People don't know which friend is free to talk right now, and ordinary calls create missed calls and pressure to answer, especially since most people keep their phones on silent.",
+      "audience": "People who like phone calls, including both introverts and extroverts who wish they had more of them",
+      "builder_usernames": [
+        "cjflog"
+      ],
+      "source_excerpt": "I made Beacon, a mobile app for answering: “which friend is free to talk right now?” It’s basically a one-to-many phone call that only one person can answer. Send a beacon to a group, and everyone gets rung at the same time. The first person who answers gets connected for a 1-1 call, and for everyone else the signal drops silently.",
+      "evidence": [
+        {
+          "source_item_id": 49246837,
+          "source_field": "body",
+          "value": "I made Beacon, a mobile app for answering: “which friend is free to talk right now?” It’s basically a one-to-many phone call that only one person can answer. Send a beacon to a group, and everyone gets rung at the same time. The first person who answers gets connected for a 1-1 call, and for everyone else the signal drops silently.",
+          "supports": [],
+          "author": "cjflog",
+          "shared_at": 1786382637,
+          "source_url": "https://news.ycombinator.com/item?id=49246837"
+        }
+      ],
+      "source_item_id": 49246837,
+      "source_url": "https://news.ycombinator.com/item?id=49246837",
+      "author": "cjflog",
+      "shared_at": 1786382637,
+      "links": [
+        "https://trybeacon.chat/"
+      ]
+    },
+    {
+      "name": "Beacon",
+      "description": "A mobile app that answers “which of my friends is free to talk right now?” It works as a one-to-many phone call that only one person can answer: send a beacon to a group, everyone gets rung at the same time, the first person to answer is connected for a 1-1 call, and for everyone else the signal drops silently. No missed calls or pressure to answer, with in-app settings for quiet hours. iOS TestFlight and Android beta builds are available.",
+      "problem": "Figuring out which friend is free to talk right now, given that most people keep their phones on silent and regular calls create missed-call pressure.",
+      "audience": null,
+      "builder_usernames": [
+        "cjflog"
+      ],
+      "source_excerpt": "I made Beacon, a mobile app for answering: “which of my friends is free to talk right now?”\nIt’s basically a one-to-many phone call that only one person can answer. Send a beacon to a group, and everyone gets rung at the same time. The first person who answers gets connected for a 1-1 call, and for everyone else the signal drops silently. No missed-calls or pressure to answer.",
+      "evidence": [
+        {
+          "source_item_id": 48896921,
+          "source_field": "body",
+          "value": "I made Beacon, a mobile app for answering: “which of my friends is free to talk right now?”\nIt’s basically a one-to-many phone call that only one person can answer. Send a beacon to a group, and everyone gets rung at the same time. The first person who answers gets connected for a 1-1 call, and for everyone else the signal drops silently. No missed-calls or pressure to answer.",
+          "supports": [],
+          "author": "cjflog",
+          "shared_at": 1783968019,
+          "source_url": "https://news.ycombinator.com/item?id=48896921"
+        }
+      ],
+      "source_item_id": 48896921,
+      "source_url": "https://news.ycombinator.com/item?id=48896921",
+      "author": "cjflog",
+      "shared_at": 1783968019,
+      "links": [
+        "https://appdistribution.firebase.dev/i/afe3c44d8443c4c0",
+        "https://trybeacon.chat/"
+      ]
+    },
+    {
+      "name": "Beacon",
+      "description": "Beacon is an iOS app for finding which friends are free to talk right now. It works like a one-to-many phone call where only one person can answer: sending a beacon rings everyone in a group at the same time, the first person to answer is connected for a one-to-one call, and for everyone else the signal drops silently, so there are no missed calls or pressure to respond. Includes in-app quiet hours settings, works with phones on silent, and is available on iOS via TestFlight with Android coming soon.",
+      "problem": "Hard to know which of your friends is free to talk right now, especially since most people keep their phones on silent.",
+      "audience": "Introverts and extroverts who still like phone calls, or wish they had more of them",
+      "builder_usernames": [
+        "cjflog"
+      ],
+      "source_excerpt": "I made Beacon, a tiny iOS app for answering: “which of my friends is free to talk right now?”\n\nIt’s basically a one-to-many phone call that only one person can answer. Send a beacon to a group, and everyone gets rung at the same time. The first person who answers gets connected for a 1-1 call, and for everyone else the signal drops silently.",
+      "evidence": [
+        {
+          "source_item_id": 48557568,
+          "source_field": "body",
+          "value": "I made Beacon, a tiny iOS app for answering: “which of my friends is free to talk right now?”\n\nIt’s basically a one-to-many phone call that only one person can answer. Send a beacon to a group, and everyone gets rung at the same time. The first person who answers gets connected for a 1-1 call, and for everyone else the signal drops silently.",
+          "supports": [],
+          "author": "cjflog",
+          "shared_at": 1781626464,
+          "source_url": "https://news.ycombinator.com/item?id=48557568"
+        }
+      ],
+      "source_item_id": 48557568,
+      "source_url": "https://news.ycombinator.com/item?id=48557568",
+      "author": "cjflog",
+      "shared_at": 1781626464,
+      "links": [
+        "https://trybeacon.chat/"
+      ]
+    }
+  ]
+}

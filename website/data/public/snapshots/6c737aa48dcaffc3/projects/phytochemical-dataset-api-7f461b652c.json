@@ -1,0 +1,33 @@
+{
+  "id": 6162,
+  "slug": "phytochemical-dataset-api-7f461b652c",
+  "name": "Phytochemical Dataset & API",
+  "mentions": [
+    {
+      "name": "Phytochemical Dataset & API",
+      "description": "A commercial phytochemical dataset product built from USDA Dr. Duke's Phytochemical and Ethnobotanical Databases: 16 relational CSV tables denormalized into a single flat PostgreSQL table of 104,388 rows, enriched with async Python pipelines against PubMed, ClinicalTrials.gov, ChEMBL, and PatentsView (USPTO). Handles phytochemical-to-ChEMBL resolution via a PubChem CID/InChIKey fallback with Aho-Corasick string matching. Served commercially through a Rust/Actix-Web API, 97K static pSEO pages on Cloudflare Workers/R2, and Stripe one-time purchases; bootstrapped solo from Germany.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "wirthal1990"
+      ],
+      "source_excerpt": "I'm working on a phytochemical dataset product. The base is USDA Dr. Duke's Phytochemical and Ethnobotanical Databases — 16 relational CSV tables that I denormalized into a single flat table in PostgreSQL. Then I ran async Python enrichment pipelines against PubMed, ClinicalTrials.gov, ChEMBL, and PatentsView (USPTO), producing 8 columns per record across 104,388 rows.",
+      "evidence": [
+        {
+          "source_item_id": 47336053,
+          "source_field": "body",
+          "value": "I'm working on a phytochemical dataset product. The base is USDA Dr. Duke's Phytochemical and Ethnobotanical Databases — 16 relational CSV tables that I denormalized into a single flat table in PostgreSQL. Then I ran async Python enrichment pipelines against PubMed, ClinicalTrials.gov, ChEMBL, and PatentsView (USPTO), producing 8 columns per record across 104,388 rows.",
+          "supports": [],
+          "author": "wirthal1990",
+          "shared_at": 1773239496,
+          "source_url": "https://news.ycombinator.com/item?id=47336053"
+        }
+      ],
+      "source_item_id": 47336053,
+      "source_url": "https://news.ycombinator.com/item?id=47336053",
+      "author": "wirthal1990",
+      "shared_at": 1773239496,
+      "links": []
+    }
+  ]
+}

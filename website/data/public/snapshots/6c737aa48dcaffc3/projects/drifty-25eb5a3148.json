@@ -1,0 +1,35 @@
+{
+  "id": 5585,
+  "slug": "drifty-25eb5a3148",
+  "name": "drifty",
+  "mentions": [
+    {
+      "name": "drifty",
+      "description": "This tool detects and fixes drift in GitHub repository settings. It aims to replace the author's awkward and slow Terraform setup by letting users define repository settings using PKL.",
+      "problem": "Managing GitHub repository settings with Terraform is awkward and slow.",
+      "audience": null,
+      "builder_usernames": [
+        "ArloL"
+      ],
+      "source_excerpt": "A tool to detect and fix drift in GitHub repository settings: https://github.com/ArloL/drifty",
+      "evidence": [
+        {
+          "source_item_id": 47745141,
+          "source_field": "body",
+          "value": "A tool to detect and fix drift in GitHub repository settings: https://github.com/ArloL/drifty",
+          "supports": [],
+          "author": "ArloL",
+          "shared_at": 1776032183,
+          "source_url": "https://news.ycombinator.com/item?id=47745141"
+        }
+      ],
+      "source_item_id": 47745141,
+      "source_url": "https://news.ycombinator.com/item?id=47745141",
+      "author": "ArloL",
+      "shared_at": 1776032183,
+      "links": [
+        "https://github.com/ArloL/drifty"
+      ]
+    }
+  ]
+}

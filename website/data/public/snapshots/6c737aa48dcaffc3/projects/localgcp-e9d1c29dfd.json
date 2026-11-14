@@ -1,0 +1,36 @@
+{
+  "id": 5361,
+  "slug": "localgcp-e9d1c29dfd",
+  "name": "localgcp",
+  "mentions": [
+    {
+      "name": "localgcp",
+      "description": "This tool is a local emulator for Google Cloud Platform, analogous to LocalStack/floci for AWS. It currently supports 14 GCP services, including Vertex AI and BigQuery, with the goal of seeing how much emulators can actually do.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "ashtavakra"
+      ],
+      "source_excerpt": "I am building localgcp - This is localstack / floci equivalent for Google Cloud platform : https://github.com/slokam-ai/localgcp - currently supports 14 services, including Vertex AI and BigQuery.",
+      "evidence": [
+        {
+          "source_item_id": 47749265,
+          "source_field": "body",
+          "value": "I am building localgcp - This is localstack / floci equivalent for Google Cloud platform : https://github.com/slokam-ai/localgcp - currently supports 14 services, including Vertex AI and BigQuery.",
+          "supports": [],
+          "author": "ashtavakra",
+          "shared_at": 1776068521,
+          "source_url": "https://news.ycombinator.com/item?id=47749265"
+        }
+      ],
+      "source_item_id": 47749265,
+      "source_url": "https://news.ycombinator.com/item?id=47749265",
+      "author": "ashtavakra",
+      "shared_at": 1776068521,
+      "links": [
+        "https://github.com/slokam-ai/localgcp",
+        "https://localgcp.com/"
+      ]
+    }
+  ]
+}

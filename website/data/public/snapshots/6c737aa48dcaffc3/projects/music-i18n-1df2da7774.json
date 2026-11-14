@@ -1,0 +1,36 @@
+{
+  "id": 9846,
+  "slug": "music-i18n-1df2da7774",
+  "name": "music-i18n",
+  "mentions": [
+    {
+      "name": "music-i18n",
+      "description": "Open source music software initiative (\"music-i18n\") that makes music software and standards work for microtonal music and worldwide musical cultures. It ties existing music standards (MIDI, MusicXML, SMuFL, MEI) into FOSS systems such as MuseScore and Verovio so they implement enough of those standards to support music-i18n, and extends the standards themselves where they fall short, such as adding support for multiple accidentals per note in MusicXML, which is required for microtonality.",
+      "problem": "Mainstream music standards and FOSS music software cannot fully represent microtonal music and worldwide musical cultures; for example, MusicXML lacks the ability to represent multiple accidentals per note (whereas MEI does), which is a must for microtonality.",
+      "audience": "Musicians working with microtonal music and non-mainstream musical cultures (sparked by the author's own interest in arranging Arabic songs in a \"Real Book\" style), plus developers interested in adjacent topics.",
+      "builder_usernames": [
+        "ksr"
+      ],
+      "source_excerpt": "I'm pursuing my vision of \"music-i18n\": Open source music software that works for microtonal music and worldwide musical cultures.",
+      "evidence": [
+        {
+          "source_item_id": 45420299,
+          "source_field": "body",
+          "value": "I'm pursuing my vision of \"music-i18n\": Open source music software that works for microtonal music and worldwide musical cultures.",
+          "supports": [],
+          "author": "ksr",
+          "shared_at": 1759189928,
+          "source_url": "https://news.ycombinator.com/item?id=45420299"
+        }
+      ],
+      "source_item_id": 45420299,
+      "source_url": "https://news.ycombinator.com/item?id=45420299",
+      "author": "ksr",
+      "shared_at": 1759189928,
+      "links": [
+        "https://blog.karimratib.me/2024/10/01/music-grimoire-progress-report.html",
+        "https://blog.karimratib.me/demos/musicxml/"
+      ]
+    }
+  ]
+}

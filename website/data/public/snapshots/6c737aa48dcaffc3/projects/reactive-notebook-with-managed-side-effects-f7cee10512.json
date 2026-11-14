@@ -1,0 +1,33 @@
+{
+  "id": 10923,
+  "slug": "reactive-notebook-with-managed-side-effects-f7cee10512",
+  "name": "Reactive notebook with managed side effects",
+  "mentions": [
+    {
+      "name": "Reactive notebook with managed side effects",
+      "description": "A reactive notebook with managed side effects for building backend and AI-engineering pipelines. Reactivity updates the notebook's state automatically so users don't have to track which cells to re-execute, while managed side effects make the notebook easier to reason about while still interacting with the outside world.",
+      "problem": "Without automatic reactivity, users have to keep track of which cells to execute again, and side effects are hard to reason about while maintaining reactivity and interaction with the outside world.",
+      "audience": "Backend and AI engineers building pipelines.",
+      "builder_usernames": [
+        "iamwil"
+      ],
+      "source_excerpt": "A reactive notebook with managed side effects for building backend/AI-engineering pipelines.",
+      "evidence": [
+        {
+          "source_item_id": 43815584,
+          "source_field": "body",
+          "value": "A reactive notebook with managed side effects for building backend/AI-engineering pipelines.",
+          "supports": [],
+          "author": "iamwil",
+          "shared_at": 1745792318,
+          "source_url": "https://news.ycombinator.com/item?id=43815584"
+        }
+      ],
+      "source_item_id": 43815584,
+      "source_url": "https://news.ycombinator.com/item?id=43815584",
+      "author": "iamwil",
+      "shared_at": 1745792318,
+      "links": []
+    }
+  ]
+}

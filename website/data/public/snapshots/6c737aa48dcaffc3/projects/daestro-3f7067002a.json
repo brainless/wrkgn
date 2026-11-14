@@ -1,0 +1,119 @@
+{
+  "id": 7614,
+  "slug": "daestro-3f7067002a",
+  "name": "Daestro",
+  "mentions": [
+    {
+      "name": "Daestro",
+      "description": "A job orchestrator that integrates directly with cloud providers such as AWS, Vultr, DigitalOcean, and Linode to provision instances for jobs to run on and destroy them when finished. Work in progress includes multi-user team support at the project level, potential OIDC/SSO support, Slack alerts, and webhook support.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "thevivekshukla"
+      ],
+      "source_excerpt": "I'm working on Daestro[0] - a job orchestrator that can directly integrate with cloud providers like AWS, Vultr, DigitalOcean and Linode to create instances for jobs to run on and destroy when done.",
+      "evidence": [
+        {
+          "source_item_id": 46578513,
+          "source_field": "body",
+          "value": "I'm working on Daestro[0] - a job orchestrator that can directly integrate with cloud providers like AWS, Vultr, DigitalOcean and Linode to create instances for jobs to run on and destroy when done.",
+          "supports": [],
+          "author": "thevivekshukla",
+          "shared_at": 1768157471,
+          "source_url": "https://news.ycombinator.com/item?id=46578513"
+        }
+      ],
+      "source_item_id": 46578513,
+      "source_url": "https://news.ycombinator.com/item?id=46578513",
+      "author": "thevivekshukla",
+      "shared_at": 1768157471,
+      "links": [
+        "https://daestro.com/"
+      ]
+    },
+    {
+      "name": "Daestro",
+      "description": "A cloud-agnostic, self-managed job orchestrator that bridges compute anywhere. It supports bringing your own compute and also integrates with AWS, DigitalOcean and Linode.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "thevivekshukla"
+      ],
+      "source_excerpt": "I am working on Daestro[0] which is a cloud-agnostic, self-managed job orchestrator that bridges your compute — anywhere.",
+      "evidence": [
+        {
+          "source_item_id": 45879099,
+          "source_field": "body",
+          "value": "I am working on Daestro[0] which is a cloud-agnostic, self-managed job orchestrator that bridges your compute — anywhere.",
+          "supports": [],
+          "author": "thevivekshukla",
+          "shared_at": 1762799372,
+          "source_url": "https://news.ycombinator.com/item?id=45879099"
+        }
+      ],
+      "source_item_id": 45879099,
+      "source_url": "https://news.ycombinator.com/item?id=45879099",
+      "author": "thevivekshukla",
+      "shared_at": 1762799372,
+      "links": [
+        "https://daestro.com"
+      ]
+    },
+    {
+      "name": "Daestro",
+      "description": "Daestro is a cloud-agnostic job orchestrator. The author is adding a feature to run jobs with custom CPU and memory quotas, so multiple jobs can run on a single system to better utilize its capacity.",
+      "problem": "Better utilization of a single system's capacity by running multiple jobs on it.",
+      "audience": null,
+      "builder_usernames": [
+        "thevivekshukla"
+      ],
+      "source_excerpt": "I'm adding feature to run jobs with custom CPU and Memory quota, so that multiple jobs can be run on a single system to better utilize it's capacity.\n\nThis is for Daestro[1] which is a cloud agnostic job orchestrator.",
+      "evidence": [
+        {
+          "source_item_id": 44709281,
+          "source_field": "body",
+          "value": "I'm adding feature to run jobs with custom CPU and Memory quota, so that multiple jobs can be run on a single system to better utilize it's capacity.\n\nThis is for Daestro[1] which is a cloud agnostic job orchestrator.",
+          "supports": [],
+          "author": "thevivekshukla",
+          "shared_at": 1753698205,
+          "source_url": "https://news.ycombinator.com/item?id=44709281"
+        }
+      ],
+      "source_item_id": 44709281,
+      "source_url": "https://news.ycombinator.com/item?id=44709281",
+      "author": "thevivekshukla",
+      "shared_at": 1753698205,
+      "links": [
+        "https://daestro.com"
+      ]
+    },
+    {
+      "name": "Daestro",
+      "description": "This is a workload orchestrator that runs compute jobs across multiple cloud providers as well as on users' own compute, functioning like cloud-agnostic batch jobs or step functions. It is currently adding job scheduling and cron features.",
+      "problem": null,
+      "audience": null,
+      "builder_usernames": [
+        "thevivekshukla"
+      ],
+      "source_excerpt": "Working on adding Job schedule and cron features in Daestro[1].\n\nAbout Daestro: Daestro is workload orchestrator that can run compute jobs across cloud providers and on your own compute as well. More like cloud agnostic batch jobs or step functions.",
+      "evidence": [
+        {
+          "source_item_id": 43833387,
+          "source_field": "body",
+          "value": "Working on adding Job schedule and cron features in Daestro[1].\n\nAbout Daestro: Daestro is workload orchestrator that can run compute jobs across cloud providers and on your own compute as well. More like cloud agnostic batch jobs or step functions.",
+          "supports": [],
+          "author": "thevivekshukla",
+          "shared_at": 1745937811,
+          "source_url": "https://news.ycombinator.com/item?id=43833387"
+        }
+      ],
+      "source_item_id": 43833387,
+      "source_url": "https://news.ycombinator.com/item?id=43833387",
+      "author": "thevivekshukla",
+      "shared_at": 1745937811,
+      "links": [
+        "https://daestro.com"
+      ]
+    }
+  ]
+}

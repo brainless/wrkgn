@@ -1,0 +1,35 @@
+{
+  "id": 7066,
+  "slug": "tasty-a-f-9efb577f14",
+  "name": "Tasty A.F.",
+  "mentions": [
+    {
+      "name": "Tasty A.F.",
+      "description": "This app turns any online recipe URL into a printable 3x5 index card. Users paste a recipe link, AI scrapes the page and generates a concise card with the essentials, which can be printed and kept in the kitchen while cooking. Built with Python/Flask and the Anthropic Claude API, hosted on Railway.",
+      "problem": "Cooking from internet recipes means scrolling past long stories to find the ingredient list, then trying to read it off a phone with wet hands.",
+      "audience": "People who cook from the internet and want quick, readable recipes in the kitchen.",
+      "builder_usernames": [
+        "adammfrank"
+      ],
+      "source_excerpt": "I built Tasty A.F. [0] an app that turns any online recipe into a printable 3x5 index card.",
+      "evidence": [
+        {
+          "source_item_id": 46970879,
+          "source_field": "body",
+          "value": "I built Tasty A.F. [0] an app that turns any online recipe into a printable 3x5 index card.",
+          "supports": [],
+          "author": "adammfrank",
+          "shared_at": 1770784612,
+          "source_url": "https://news.ycombinator.com/item?id=46970879"
+        }
+      ],
+      "source_item_id": 46970879,
+      "source_url": "https://news.ycombinator.com/item?id=46970879",
+      "author": "adammfrank",
+      "shared_at": 1770784612,
+      "links": [
+        "https://tastyaf.recipes"
+      ]
+    }
+  ]
+}

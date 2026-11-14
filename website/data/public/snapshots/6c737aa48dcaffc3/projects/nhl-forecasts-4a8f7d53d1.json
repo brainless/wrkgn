@@ -1,0 +1,35 @@
+{
+  "id": 11082,
+  "slug": "nhl-forecasts-4a8f7d53d1",
+  "name": "NHL Forecasts",
+  "mentions": [
+    {
+      "name": "NHL Forecasts",
+      "description": "This site generates NHL game and postseason forecasts using a Bayesian prediction model, after the author's initial Elo model produced overly compressed postseason predictions. Built as a data-driven way for the author to learn and follow hockey as a new fan in a town with a hockey team.",
+      "problem": "The author wanted to become a hockey fan by understanding the sport from a data-driven approach; the original Elo model gave compressed postseason predictions, so it was replaced with a Bayesian approach.",
+      "audience": null,
+      "builder_usernames": [
+        "zielsen"
+      ],
+      "source_excerpt": "For a more data science-y project, I'm having a blast building https://nhlforecasts.com. I live in a town with a hockey team, and figured the best way to become a fan would be to understand the sport from a data driven approach.\n\nI did a ton of work on building an Elo model first, but was getting very compressed results in terms of postseason predictions. I swapped to a Bayesian approach which has really taken off.",
+      "evidence": [
+        {
+          "source_item_id": 43828525,
+          "source_field": "body",
+          "value": "For a more data science-y project, I'm having a blast building https://nhlforecasts.com. I live in a town with a hockey team, and figured the best way to become a fan would be to understand the sport from a data driven approach.\n\nI did a ton of work on building an Elo model first, but was getting very compressed results in terms of postseason predictions. I swapped to a Bayesian approach which has really taken off.",
+          "supports": [],
+          "author": "zielsen",
+          "shared_at": 1745898436,
+          "source_url": "https://news.ycombinator.com/item?id=43828525"
+        }
+      ],
+      "source_item_id": 43828525,
+      "source_url": "https://news.ycombinator.com/item?id=43828525",
+      "author": "zielsen",
+      "shared_at": 1745898436,
+      "links": [
+        "https://nhlforecasts.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 6621,
+  "slug": "pre-commit-merge-conflict-prevention-for-coding-agents-85f06b055a",
+  "name": "Pre-commit merge conflict prevention for coding agents",
+  "mentions": [
+    {
+      "name": "Pre-commit merge conflict prevention for coding agents",
+      "description": "This tool addresses source control collaboration for coding agents across development teams, detecting and preempting merge conflicts before commits happen.",
+      "problem": "Agents working across dev teams run into merge conflicts that are only discovered at commit time",
+      "audience": "Development teams whose coding agents work in parallel across shared source control",
+      "builder_usernames": [
+        "thomas-nash"
+      ],
+      "source_excerpt": "Trying to solve source control collaboration for agents across dev teams to preempt merge conflicts pre-commit",
+      "evidence": [
+        {
+          "source_item_id": 47303871,
+          "source_field": "body",
+          "value": "Trying to solve source control collaboration for agents across dev teams to preempt merge conflicts pre-commit",
+          "supports": [],
+          "author": "thomas-nash",
+          "shared_at": 1773020665,
+          "source_url": "https://news.ycombinator.com/item?id=47303871"
+        }
+      ],
+      "source_item_id": 47303871,
+      "source_url": "https://news.ycombinator.com/item?id=47303871",
+      "author": "thomas-nash",
+      "shared_at": 1773020665,
+      "links": []
+    }
+  ]
+}

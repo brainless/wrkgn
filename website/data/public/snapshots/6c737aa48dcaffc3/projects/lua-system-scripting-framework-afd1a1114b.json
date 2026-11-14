@@ -1,0 +1,33 @@
+{
+  "id": 10438,
+  "slug": "lua-system-scripting-framework-afd1a1114b",
+  "name": "Lua system scripting framework",
+  "mentions": [
+    {
+      "name": "Lua system scripting framework",
+      "description": "A Lua scripting framework for system scripting on POSIX systems. It enforces non-globals, provides a project hierarchy for tests and documentation, offers CLI access to .md package docs, installs scripts in the path, extends the Lua stdlib (fs.mkdir, os.realpath), and supports module autoloading/lazyloading. It targets Lua 5.4 and LuaJIT, starts entirely in Lua, and has a long-term goal of compiled Lua modules (merging Wax).",
+      "problem": "Lua system scripts lack an easy way to reuse libraries, and creating Luarocks packages or dealing with unstandardized ways to write code makes Lua scripting a rough experience compared to Sh, Python, or Ruby.",
+      "audience": "Lua users doing system scripting on POSIX systems",
+      "builder_usernames": [
+        "arkt8"
+      ],
+      "source_excerpt": "In a Lua scripting framework to:\n- enforce non-globals\n- project hierarchy (for tests and  documentation)\n- cli access for .md package docs\n- installation in path\n- extension of Lua stdlib (fs.mkdir, os.realpath)\n- module autoloading/lazyloading",
+      "evidence": [
+        {
+          "source_item_id": 44705797,
+          "source_field": "body",
+          "value": "In a Lua scripting framework to:\n- enforce non-globals\n- project hierarchy (for tests and  documentation)\n- cli access for .md package docs\n- installation in path\n- extension of Lua stdlib (fs.mkdir, os.realpath)\n- module autoloading/lazyloading",
+          "supports": [],
+          "author": "arkt8",
+          "shared_at": 1753660341,
+          "source_url": "https://news.ycombinator.com/item?id=44705797"
+        }
+      ],
+      "source_item_id": 44705797,
+      "source_url": "https://news.ycombinator.com/item?id=44705797",
+      "author": "arkt8",
+      "shared_at": 1753660341,
+      "links": []
+    }
+  ]
+}

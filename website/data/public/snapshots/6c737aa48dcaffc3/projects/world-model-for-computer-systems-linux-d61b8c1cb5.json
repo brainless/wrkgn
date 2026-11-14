@@ -1,0 +1,63 @@
+{
+  "id": 10394,
+  "slug": "world-model-for-computer-systems-linux-d61b8c1cb5",
+  "name": "World Model for Computer Systems (Linux)",
+  "mentions": [
+    {
+      "name": "World Model for Computer Systems (Linux)",
+      "description": "This project builds a world model for computer systems, investigating whether LLM agents can predict the outcomes of their actions on Linux before executing them. Since computer systems are irreversible, such a world model is framed as the crucial next step for computer-use agents to reliably plan actions over long horizons.",
+      "problem": "LLM agents lack reliable understanding of computer systems — they cannot predict the outcome of their actions before executing them, which blocks reliable long-horizon planning for computer-use agents.",
+      "audience": null,
+      "builder_usernames": [
+        "wonjunhwang"
+      ],
+      "source_excerpt": "I am working on a world model for computer systems (world).\n\nDo LLM Agents really understand Linux?.\n\n\"Understanding\" meaning.. can they predict the outcome of their actions before executing them? Computer system is irreversible.",
+      "evidence": [
+        {
+          "source_item_id": 44710201,
+          "source_field": "body",
+          "value": "I am working on a world model for computer systems (world).\n\nDo LLM Agents really understand Linux?.\n\n\"Understanding\" meaning.. can they predict the outcome of their actions before executing them? Computer system is irreversible.",
+          "supports": [],
+          "author": "wonjunhwang",
+          "shared_at": 1753705924,
+          "source_url": "https://news.ycombinator.com/item?id=44710201"
+        }
+      ],
+      "source_item_id": 44710201,
+      "source_url": "https://news.ycombinator.com/item?id=44710201",
+      "author": "wonjunhwang",
+      "shared_at": 1753705924,
+      "links": [
+        "https://open.substack.com/pub/disastermanagementtechnologies/p/do-llm-agents-really-understand-linux?r=x23rp&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true"
+      ]
+    },
+    {
+      "name": "Do LLM Agents really understand Linux?",
+      "description": "This project builds a world model for computer systems and designs an experiment and benchmark to test whether LLM agents genuinely understand Linux. The goal is for the world model to serve as a foundation for computer use agents to reliably plan actions over long horizons. A draft write-up is available on Substack.",
+      "problem": "Computer use agents currently lack a world model of computer systems, which is a crucial next step for reliably planning actions over long horizons; it is unclear whether LLM agents truly understand Linux.",
+      "audience": null,
+      "builder_usernames": [
+        "wonjunhwang"
+      ],
+      "source_excerpt": "I am working on world model for computer systems. I am designing experiment and benchmark for LLM Agents to see if they possess understanding of \"Linux\". World model for computer systems will be crucial next step for computer use agents to reliably plan their actions over long horizon.",
+      "evidence": [
+        {
+          "source_item_id": 44707127,
+          "source_field": "body",
+          "value": "I am working on world model for computer systems. I am designing experiment and benchmark for LLM Agents to see if they possess understanding of \"Linux\". World model for computer systems will be crucial next step for computer use agents to reliably plan their actions over long horizon.",
+          "supports": [],
+          "author": "wonjunhwang",
+          "shared_at": 1753675365,
+          "source_url": "https://news.ycombinator.com/item?id=44707127"
+        }
+      ],
+      "source_item_id": 44707127,
+      "source_url": "https://news.ycombinator.com/item?id=44707127",
+      "author": "wonjunhwang",
+      "shared_at": 1753675365,
+      "links": [
+        "https://open.substack.com/pub/disastermanagementtechnologies/p/do-llm-agents-really-understand-linux?r=x23rp&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true"
+      ]
+    }
+  ]
+}

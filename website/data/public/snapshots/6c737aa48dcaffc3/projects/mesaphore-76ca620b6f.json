@@ -1,0 +1,35 @@
+{
+  "id": 4571,
+  "slug": "mesaphore-76ca620b6f",
+  "name": "Mesaphore",
+  "mentions": [
+    {
+      "name": "Mesaphore",
+      "description": "This is an Excel-like spreadsheet application backed by a Parquet-based file format, designed to address Excel's specification limits when spreadsheets evolve from starting points into data exchange formats between systems and eventually become bottlenecks.",
+      "problem": "Excel starts as a starting point, then over time becomes a data exchange format between systems and eventually becomes a bottleneck for the system; users still want something Excel-like while addressing the limits of Excel.",
+      "audience": null,
+      "builder_usernames": [
+        "microflash"
+      ],
+      "source_excerpt": "I've been working on Mesaphore, an Excel-like spreadsheet app[0] backed by a Parquet-based file format. The premise is when Excel starts off as the starting point, then over time becomes a data exchange format between systems, and eventually becomes a bottleneck for the system. You still want to provide your users something Excel-like but also want to address the limits of Excel[1].",
+      "evidence": [
+        {
+          "source_item_id": 48086914,
+          "source_field": "body",
+          "value": "I've been working on Mesaphore, an Excel-like spreadsheet app[0] backed by a Parquet-based file format. The premise is when Excel starts off as the starting point, then over time becomes a data exchange format between systems, and eventually becomes a bottleneck for the system. You still want to provide your users something Excel-like but also want to address the limits of Excel[1].",
+          "supports": [],
+          "author": "microflash",
+          "shared_at": 1778440629,
+          "source_url": "https://news.ycombinator.com/item?id=48086914"
+        }
+      ],
+      "source_item_id": 48086914,
+      "source_url": "https://news.ycombinator.com/item?id=48086914",
+      "author": "microflash",
+      "shared_at": 1778440629,
+      "links": [
+        "https://codeberg.org/naiyer/mesaphore"
+      ]
+    }
+  ]
+}

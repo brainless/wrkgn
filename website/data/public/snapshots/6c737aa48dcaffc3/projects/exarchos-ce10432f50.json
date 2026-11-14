@@ -1,0 +1,35 @@
+{
+  "id": 4573,
+  "slug": "exarchos-ce10432f50",
+  "name": "Exarchos",
+  "mentions": [
+    {
+      "name": "Exarchos",
+      "description": "Exarchos is an SDLC workflow harness for AI agents. Rather than encoding typical development workflows as skills (e.g., creating a PRD, planning with TDD, dispatching subagents), it uses a concurrent event-sourced process manager to handle the workflow orchestration.",
+      "problem": "Encoding typical software development workflows as agent skills is inadequate; a concurrent event-sourced process manager handles them instead.",
+      "audience": null,
+      "builder_usernames": [
+        "rsalus"
+      ],
+      "source_excerpt": "It's an SDLC workflow harness for agents. Instead of using skills to encode my typical workflows (e.g., create PRD, then create plan using TDD, then dispatch subagents, etc) I've built a concurrent event-sourced process manager to handle it.",
+      "evidence": [
+        {
+          "source_item_id": 48089645,
+          "source_field": "body",
+          "value": "It's an SDLC workflow harness for agents. Instead of using skills to encode my typical workflows (e.g., create PRD, then create plan using TDD, then dispatch subagents, etc) I've built a concurrent event-sourced process manager to handle it.",
+          "supports": [],
+          "author": "rsalus",
+          "shared_at": 1778459227,
+          "source_url": "https://news.ycombinator.com/item?id=48089645"
+        }
+      ],
+      "source_item_id": 48089645,
+      "source_url": "https://news.ycombinator.com/item?id=48089645",
+      "author": "rsalus",
+      "shared_at": 1778459227,
+      "links": [
+        "https://github.com/lvlup-sw/exarchos"
+      ]
+    }
+  ]
+}

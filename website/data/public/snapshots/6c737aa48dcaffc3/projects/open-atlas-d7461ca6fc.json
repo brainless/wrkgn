@@ -1,0 +1,36 @@
+{
+  "id": 10034,
+  "slug": "open-atlas-d7461ca6fc",
+  "name": "open-atlas",
+  "mentions": [
+    {
+      "name": "open-atlas",
+      "description": "An automated OSINT (open-source intelligence) tool that automates browsers, calls functions in a ReAct loop, and makes inferences on the results, functioning as a combination of an investigator and a tool. The underlying tools are open-sourced to get help refining them.",
+      "problem": "OSINT is a tough nut to crack because there is so much one can do and the web is literally infinite.",
+      "audience": null,
+      "builder_usernames": [
+        "purge12"
+      ],
+      "source_excerpt": "Working on an automated OSINT tool. OSINT is a tough nut to crack because there is so much one can do and the web is literally infinite. So, this tool can automate browsers, it can call functions in a ReAct loop and make inferences on that. It essentially a combination of an investigator + a tool.",
+      "evidence": [
+        {
+          "source_item_id": 45487985,
+          "source_field": "body",
+          "value": "Working on an automated OSINT tool. OSINT is a tough nut to crack because there is so much one can do and the web is literally infinite. So, this tool can automate browsers, it can call functions in a ReAct loop and make inferences on that. It essentially a combination of an investigator + a tool.",
+          "supports": [],
+          "author": "purge12",
+          "shared_at": 1759729203,
+          "source_url": "https://news.ycombinator.com/item?id=45487985"
+        }
+      ],
+      "source_item_id": 45487985,
+      "source_url": "https://news.ycombinator.com/item?id=45487985",
+      "author": "purge12",
+      "shared_at": 1759729203,
+      "links": [
+        "https://drive.google.com/file/d/1foBa7mQOJqXcLsD4xpSen7tXMjR2nQ8R/view?usp=drive_link",
+        "https://github.com/FauvidoTechnologies/open-atlas"
+      ]
+    }
+  ]
+}

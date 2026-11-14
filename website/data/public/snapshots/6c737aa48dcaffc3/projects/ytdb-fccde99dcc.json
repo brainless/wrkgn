@@ -1,0 +1,35 @@
+{
+  "id": 10446,
+  "slug": "ytdb-fccde99dcc",
+  "name": "YTDB",
+  "mentions": [
+    {
+      "name": "YTDB",
+      "description": "A rating and review website for YouTube videos featuring strong search and filter functions that YouTube sorely lacks, plus curated list building functionality. It uses a weighted rating system designed to avoid some pitfalls of community ratings. Videos must be added to become searchable in order to comply with YouTube API rules, with the goal of growing a repository of highly curated content categories (e.g. documentaries) that people can find without browsing multiple communities.",
+      "problem": "YouTube lacks strong search, filter, and curated rating/review functionality for discovering videos, forcing people to browse various communities and opinions to find content.",
+      "audience": null,
+      "builder_usernames": [
+        "jatora"
+      ],
+      "source_excerpt": "I'm working on a rating/reviewing website for YouTube videos, with strong search and filter functions that YouTube sorely lacks, along with good curated list building functionality.",
+      "evidence": [
+        {
+          "source_item_id": 44704831,
+          "source_field": "body",
+          "value": "I'm working on a rating/reviewing website for YouTube videos, with strong search and filter functions that YouTube sorely lacks, along with good curated list building functionality.",
+          "supports": [],
+          "author": "jatora",
+          "shared_at": 1753651556,
+          "source_url": "https://news.ycombinator.com/item?id=44704831"
+        }
+      ],
+      "source_item_id": 44704831,
+      "source_url": "https://news.ycombinator.com/item?id=44704831",
+      "author": "jatora",
+      "shared_at": 1753651556,
+      "links": [
+        "https://www.ytdb.io/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 6435,
+  "slug": "ai-coding-framework-with-feature-folders-and-cli-agent-coworkers-42f8aa7a11",
+  "name": "AI coding framework with feature folders and CLI-agent coworkers",
+  "mentions": [
+    {
+      "name": "AI coding framework with feature folders and CLI-agent coworkers",
+      "description": "An AI coding framework implemented as a set of skills and scripts, built to support Copilot and other agents that many existing frameworks lack. It provides feature folders (one folder per feature containing changelog, issues, summaries, etc.), 'coworkers' CLI agents with session management, and agent intra-response messaging, with the goal of forcing Claude to behave.",
+      "problem": "Many existing AI coding frameworks don't support Copilot.",
+      "audience": "Developers using AI coding agents such as Claude and Copilot",
+      "builder_usernames": [
+        "tacone"
+      ],
+      "source_excerpt": "I am creating AI coding framework (a set of skills and scripts, really), since it seems a lot of them don't support copilot.",
+      "evidence": [
+        {
+          "source_item_id": 47306526,
+          "source_field": "body",
+          "value": "I am creating AI coding framework (a set of skills and scripts, really), since it seems a lot of them don't support copilot.",
+          "supports": [],
+          "author": "tacone",
+          "shared_at": 1773047230,
+          "source_url": "https://news.ycombinator.com/item?id=47306526"
+        }
+      ],
+      "source_item_id": 47306526,
+      "source_url": "https://news.ycombinator.com/item?id=47306526",
+      "author": "tacone",
+      "shared_at": 1773047230,
+      "links": []
+    }
+  ]
+}
