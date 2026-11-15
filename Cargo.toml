@@ -1,3 +1,7 @@
+[workspace]
+members = [".", "crates/public-snapshot", "crates/wrkgn-web"]
+resolver = "3"
+
 [package]
 name = "wrkgn"
 version = "0.1.0"
@@ -6,6 +10,7 @@ publish = false
 default-run = "wrkgn"
 
 [dependencies]
+wrkgn-public-snapshot = { path = "crates/public-snapshot" }
 rig-core = { git = "https://github.com/0xPlaygrounds/rig", rev = "7dfd8a4229a9d89af159489687cb14b404b2871d", features = ["reqwest"] }
 rig-agent = { git = "https://github.com/0xPlaygrounds/rig", rev = "7dfd8a4229a9d89af159489687cb14b404b2871d" }
 serde = { version = "1", features = ["derive"] }

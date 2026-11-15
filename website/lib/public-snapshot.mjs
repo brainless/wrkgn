@@ -138,12 +138,13 @@ function readJson(root, relative) {
 export function loadSnapshot(root) {
   const pointer = readJson(root, 'current.json');
   object(pointer, 'current.json', ['schema_version', 'version', 'snapshot']);
-  if (![2, 3, 4, 5].includes(pointer.schema_version) || !VERSION.test(pointer.version)) fail('current.json', 'unsupported schema or version');
+  if (![2, 3, 4, 5, 6].includes(pointer.schema_version) || !VERSION.test(pointer.version)) fail('current.json', 'unsupported schema or version');
   const prefix = `snapshots/${pointer.version}/`;
   if (pointer.snapshot !== `${prefix}manifest.json`) fail('current.json', 'manifest path does not match version');
   const manifest = readJson(root, pointer.snapshot);
-  object(manifest, pointer.snapshot, ['schema_version', 'version', 'discovery', 'project_details', 'project_count', 'categories', ...(pointer.schema_version >= 3 ? ['audiences'] : [])]);
+  object(manifest, pointer.snapshot, ['schema_version', 'version', 'discovery', 'project_details', 'project_count', 'categories', ...(pointer.schema_version >= 3 ? ['audiences'] : []), ...(pointer.schema_version >= 6 ? ['database'] : [])]);
   if (manifest.schema_version !== pointer.schema_version || manifest.version !== pointer.version || manifest.discovery !== 'discovery.json' || manifest.project_details !== 'projects/<slug>.json') fail(pointer.snapshot, 'unsupported or mismatched manifest');
+  if (pointer.schema_version >= 6 && manifest.database !== 'public.sqlite') fail(pointer.snapshot, 'unsupported database path');
   list(manifest.categories, `${pointer.snapshot}.categories`, (value, where) => {
     object(value, where, ['slug', 'label', 'description']);
     string(value.slug, `${where}.slug`); string(value.label, `${where}.label`); string(value.description, `${where}.description`);

@@ -17,7 +17,9 @@ Cargo's [`.cargo/config.toml`](../.cargo/config.toml) selects Cranelift for deve
 ```sh
 rustup show active-toolchain
 rustup component list --installed
-cargo build -v
+npm ci --prefix crates/wrkgn-web/assets
+npm run build --prefix crates/wrkgn-web/assets
+cargo build --workspace -v
 ```
 
 The verbose build command should include `-Z codegen-backend=cranelift` in the `rustc` invocation. If Cargo reports an unsupported `codegen-backend` profile key, check that the pinned nightly is active and the component is installed.
@@ -25,10 +27,11 @@ The verbose build command should include `-Z codegen-backend=cranelift` in the `
 Run local checks with:
 
 ```sh
+npm run build --prefix crates/wrkgn-web/assets
 cargo fmt --all --check
-cargo check
-cargo test
-cargo clippy --all-targets -- -D warnings
+cargo check --workspace --all-targets
+cargo test --workspace
+cargo clippy --workspace --all-targets -- -D warnings
 ```
 
 If a locally configured `sccache` Rust wrapper fails with a permission error, prefix these commands with `RUSTC_WRAPPER=` to run `rustc` directly.
@@ -96,11 +99,106 @@ Offline tests inject paginated discovery responses, HN fixtures, and a determini
 
 ## Public snapshot contract
 
-`export` reads all approved projects from one SQLite transaction, applies corrections and suppression, and creates `snapshots/<version>/manifest.json`, `discovery.json`, and `projects/<slug>.json` under the export directory. `current.json` is replaced atomically and points to the completed snapshot. The version hashes both discovery and detail data. Astro should read `current.json` once per build, then read all JSON through its selected manifest. It must never copy the working database or raw payloads.
+Schema 6 adds `public.sqlite` next to the JSON files in each completed snapshot,
+with `database: "public.sqlite"` in its manifest. `current.json` retains its three
+fields and uses schema version 6. The version digest begins with
+`public-schema-6` and hashes the public records and taxonomy metadata, never the
+SQLite bytes or export time. JSON remains available for Astro until Epic 06.
+Staging accepts schemas 2–6 and copies only validated, re-serialized JSON; it
+never copies `public.sqlite` into the website.
 
-Discovery records have stable `id` and `slug`, card fields (`name`, `description`, `problem`, `audience`), `builder_usernames`, `categories`, `audience_labels`, `latest_shared_at`, `comment_count`, and `searchable_text`. They are ordered by latest original mention date, then project ID. Public schema 5 retains `comment_count` from version 4: distinct replies beneath a project’s published source comments, including nested replies, excluding deleted, dead, absent, and source-suppressed replies. Overlapping subtrees are deduplicated. Counts use stored source at export time; no HN or model request is needed. Comment vote counts are unavailable from HN. Detail records have `id`, `slug`, `name`, and dated `mentions`; each mention includes its source ID and URL, author, links, verbatim source excerpt, and builder usernames. Dates are Unix seconds from HN source records. A current source edit, deletion, missing item, or suppression hides affected content; a failed rerun does not republish stale group results. Static HTML and modal data should both come from this snapshot.
+The `wrkgn-public-snapshot` workspace crate owns public record types, schema and
+validation. SQLite has `metadata`, `taxonomy`, `projects`, `project_builders`,
+`project_labels`, `mentions`, `mention_builders`, `mention_links`, and `evidence`
+tables, with indexes for discovery order, builder lookups, labels and mentions.
+Project IDs/slugs and all displayed mention/evidence attribution are retained.
+Evidence support mappings, authorization dependencies, private mention keys,
+review/processing history and raw payloads are excluded. Metadata holds schema
+version, snapshot version and export time; taxonomy rows hold slugs, labels and
+definitions. The database is built from the same captured public model as JSON,
+written to an unpublished temporary file, vacuumed and validated before the
+snapshot directory and pointer are renamed. Validation checks the exact object
+and column allowlists, required indexes, integrity and foreign keys, metadata,
+fixed taxonomy slugs, unique identities, safe slugs, HTTP(S) links, HN source
+identities and required dated evidence. Read-only consumers reject journal/WAL
+sidecars and validate the selected version before use.
+
+`export` reads all approved projects from one SQLite transaction, applies corrections and suppression, and creates `snapshots/<version>/manifest.json`, `public.sqlite`, `discovery.json`, and `projects/<slug>.json` under the export directory. `current.json` is replaced atomically and points to the completed snapshot. The version hashes both discovery and detail data. Astro should read `current.json` once per build, then read all JSON through its selected manifest. It must never copy the working database or raw payloads.
+
+Discovery records have stable `id` and `slug`, card fields (`name`, `description`, `problem`, `audience`), `builder_usernames`, `categories`, `audience_labels`, `latest_shared_at`, `comment_count`, and `searchable_text`. They are ordered by latest original mention date, then project ID. Public schema 6 retains `comment_count` from version 4: distinct replies beneath a project’s published source comments, including nested replies, excluding deleted, dead, absent, and source-suppressed replies. Overlapping subtrees are deduplicated. Counts use stored source at export time; no HN or model request is needed. Comment vote counts are unavailable from HN. Detail records have `id`, `slug`, `name`, and dated `mentions`; each mention includes its source ID and URL, author, links, verbatim source excerpt, and builder usernames. Dates are Unix seconds from HN source records. A current source edit, deletion, missing item, or suppression hides affected content; a failed rerun does not republish stale group results. Rust HTML, modal HTML, and the transitional Astro HTML/JSON use this snapshot.
 
 The maintainer has inspected many detail pages and the project list and considers extraction quality sufficient to offer the explicit automated monthly workflow. Schema validity alone does not establish extraction accuracy; manually inspect descriptions, labels, invitations, provenance, and grouping before publication.
+
+## Rust web server (Epic 05)
+
+`crates/wrkgn-web/` depends on `crates/public-snapshot/`, with no pipeline/Rig/HN dependency. It renders Askama templates from a read-only public SQLite pool on blocking threads. Discovery/search fields live in memory with four presorted ID orders. It serves HTML rather than discovery/detail JSON. Astro remains the production site until Epic 06; none of these commands deploy or change staging.
+
+From the repository root:
+
+```sh
+npm ci --prefix crates/wrkgn-web/assets
+npm run build --prefix crates/wrkgn-web/assets
+cargo run -p wrkgn-web -- check local-data/public-export
+cargo run -p wrkgn-web -- --snapshot local-data/public-export
+```
+
+The server defaults to http://127.0.0.1:3000. `check` accepts a snapshot root or a single `public.sqlite` and performs startup validation offline. Existing schema-5 exports need a deliberate `cargo run --bin wrkgn -- export`; a model rerun is unnecessary solely to generate schema 6. The working database is never opened by the server.
+
+Assets live in `crates/wrkgn-web/assets/`, compile with esbuild to ignored `dist/`, and embed into the binary at content-hashed paths. `npm run watch --prefix crates/wrkgn-web/assets` rebuilds after source edits; restart Cargo after a rebuild to embed changed assets. Build assets before every Rust build/check/test sequence. Missing assets produce an explicit Cargo error. Node is needed only during maintainer builds. Fonts remain on Google Fonts.
+
+The snapshot root uses `current.json` and `snapshots/<version>/`. Startup rejects invalid snapshots. After a complete new export, `kill -HUP <wrkgn-web-pid>` validates/loads the pointer and atomically swaps snapshots; old requests retain old connections/data. A failed replacement logs an error and retains the previous version. `/healthz` reports compile-time `WRKGN_BUILD_ID` (default `dev`) and snapshot version, with `no-store`. Request logs on stdout contain method, path, status and duration, excluding queries, IPs and cookies.
+
+All options accept CLI flags or `WRKGN_WEB_<UPPERCASE_NAME>` environment variables, replacing hyphens with underscores; flags win. The server does not load `.env` or require provider credentials.
+
+| Flag | Default | Purpose |
+| --- | --- | --- |
+| `--bind` | `127.0.0.1:3000` | Listen address |
+| `--snapshot` | `local-data/public-export` | Public snapshot root or SQLite file |
+| `--public-origin` | `https://wrkgn.com` | Absolute canonical and sitemap origin |
+| `--connections` | `4` | Read-only connections, 1–32 |
+| `--render-limit` | `8` | Concurrent list/search renders, 1–1024 |
+| `--browser-ttl` | `60` | Public/filtered HTML browser seconds |
+| `--edge-public-ttl` | `604800` | Public HTML, robots and sitemap edge seconds |
+| `--edge-filtered-ttl` | `86400` | Filtered/sorted, no-query edge seconds |
+| `--browser-search-ttl` | `15` | Search browser seconds |
+| `--edge-search-ttl` | `3600` | Search edge seconds |
+| `--short-ttl` | `30` | Data-dependent redirects and 404 seconds |
+| `--browser-redirect-ttl` | `86400` | Permanent redirect browser seconds |
+| `--edge-redirect-ttl` | `604800` | Permanent redirect edge seconds |
+| `--asset-ttl` | `31536000` | Immutable hashed asset seconds |
+| `--stale-revalidate` | `86400` | Edge stale-while-revalidate seconds |
+| `--stale-error` | `604800` | Edge stale-if-error seconds |
+
+The public origin must be an HTTP(S) origin without credentials, path, query or fragment. Google Fonts is the only external styling/font dependency. Responses send CSP, nosniff and strict-origin-when-cross-origin; scripts/styles need no inline exceptions. Compression is gzip; `Vary` contains only `Accept-Encoding`, and responses never set cookies. Cacheable representations have snapshot/build/canonical-URL ETags and support weak `If-None-Match`. Saturated list rendering returns 503 with Retry-After and no-store.
+
+Routes preserve slashed page URLs. `/projects/` and `/projects/page/1/` redirect to `/`; unslashed pages redirect with query preserved. GET/HEAD are supported; other methods return 405. Legacy `/data/...` is 404. `/robots.txt` disallows query-string discovery URLs. `/sitemap.xml` lists unfiltered pages and details, splitting into `/sitemap-N.xml` parts at 50,000 URLs. Criteria pages are noindex and canonicalize to the unfiltered list.
+
+Canonicalization runs syntax-only 301 rules first, then snapshot-dependent 302 rules. Search uses Unicode lowercase substring matching and a trimmed 100-character cap; inner whitespace remains significant. OR within filters, AND across dimensions/query, 30 results per page, with the existing four sort tie-breakers. Unknown published options and out-of-range pages use temporary redirects. Rust and TypeScript consume `crates/wrkgn-web/tests/fixtures/canonical-urls.json` in their respective test definitions.
+
+### Maintainer parity and performance commands
+
+These tools are explicit local checks, not automatic startup/build behavior. They use only public JSON/SQLite and local HTTP. They have been added but were not run during implementation. Start the server against the same schema-6 snapshot as the staged JSON, then run from the repository root:
+
+```sh
+npm test --prefix crates/wrkgn-web/assets
+node crates/wrkgn-web/tools/discovery-parity.mjs website/data/public http://127.0.0.1:3000
+python3 crates/wrkgn-web/tools/content-parity.py --snapshot website/data/public --astro website/dist --origin http://127.0.0.1:3000
+```
+
+Build Astro from that same staged snapshot before content parity (`npm run build --prefix website`). Semantic parity invokes the existing JavaScript implementation over all sorts, every individual published filter, combined filters, Unicode/short queries and first/second/last pages. Content parity compares normalized card/detail text and URLs, excluding the added builder-convention sentence and typography differences. Default coverage is every unfiltered list and project page; `--limit 100` limits detail coverage during an initial check. Differences fail with affected URLs for maintainer inspection.
+
+For performance, build optimized binaries and create a new public-only fixture directory; generation refuses to overwrite existing paths and copies taxonomy from a public JSON manifest. No working SQLite database is read:
+
+```sh
+npm run build --prefix crates/wrkgn-web/assets
+cargo build --release -p wrkgn-web --examples --bin wrkgn-web
+cargo run --release -p wrkgn-web --example synthetic_snapshot -- website/data/public /tmp/wrkgn-synthetic-100k 100000
+node crates/wrkgn-web/tools/performance.mjs target/release/wrkgn-web local-data/public-export /tmp/wrkgn-synthetic-100k 1000
+cargo run --release -p wrkgn-web --example memory_probe -- local-data/public-export
+cargo run --release -p wrkgn-web --example memory_probe -- /tmp/wrkgn-synthetic-100k
+```
+
+The benchmark binds localhost port 3099, runs full and synthetic snapshots sequentially, warms requests, and reports loopback end-to-end p50/p95/p99 plus RSS and sampled reload peak in JSON. The acceptance target is p99 under 50 ms for each dataset. Requests are sequential to measure ordinary service latency; separately exercise overload/load shedding. RSS uses `ps` in KiB and polling can miss peaks. `memory_probe` deliberately retains two complete snapshots and reports resident memory after one and two loads, providing a conservative starting point for Epic 06 service limits alongside observed reload peaks. Validation/loading temporary allocations may exceed retained steady state. Record hardware, build ID, project count, versions and measurements in the implementation record before claiming the budget is met. No latency/memory result exists yet, and FTS has not been justified by measurement.
 
 ## Static website (Epic 03)
 
@@ -117,7 +215,7 @@ npm run build
 npm test
 ```
 
-`npm run stage` takes one export directory containing `current.json`. It validates public schema version 5 (and accepts existing version 2, 3, and 4 snapshots for compatibility), the selected manifest (including the category and audience taxonomies for versions 3 through 5), every discovery record, every referenced project detail, and the public field allowlist. It copies only those files into a replacement staged snapshot; previous staged versions are removed. A missing or invalid export fails before replacing the staged data. `npm run dev` and `npm run build` consume the staged snapshot without running Rust, contacting HN or a model, or reading local credentials or SQLite. Static output goes to `website/dist/`; the versioned browser data is under `/data/<version>/`.
+`npm run stage` takes one export directory containing `current.json`. It validates public schema version 6 (and accepts existing version 2, 3, 4, and 5 snapshots for compatibility), the selected manifest (including the category and audience taxonomies for versions 3 through 6), every discovery record, every referenced project detail, and the public field allowlist. It copies only those files into a replacement staged snapshot; previous staged versions are removed. A missing or invalid export fails before replacing the staged data. `npm run dev` and `npm run build` consume the staged snapshot without running Rust, contacting HN or a model, or reading local credentials or SQLite. Static output goes to `website/dist/`; the versioned browser data is under `/data/<version>/`.
 
 Cloudflare repository builds should use `website/` as the build root, `npm run build` as the command, and `dist/` as the output directory. Deployment configuration and publication remain separate from this local setup. A real correction and removal contact destination must be supplied before launch; do not publish a placeholder route.
 
@@ -125,14 +223,16 @@ The directory renders ordinary list and project links without JavaScript. After 
 
 ### Manual browser checklist
 
-The maintainer will perform browser interaction checks. For a local synthetic dataset, run `npm run stage -- tests/fixtures/representative` from `website/`, start `npm run dev`, and then restore the approved or empty snapshot after testing. Check:
+The maintainer performs browser interactions; no browser automation is required. For Rust use a schema-6 export and the server command above. For Astro compatibility stage the same export and build separately. Synthetic fixtures must never replace approved production data inadvertently.
 
-- `/` and `/projects/` show the same 13 cards, while `/projects/page/2/` is absent for this fixture; the approved 83-project snapshot generates pages of 30, 30, and 23 cards, with ordinary links; opening a direct `/projects/<slug>/` URL works with JavaScript disabled.
-- Search from page 1 finds both records containing `samplebuilder`; Category and Audience selections combine as documented. Try all four sort orders, including with active filters and on a later page. Reload and browser back/forward restore query, selections, sort, and page; Clear all resets them. Try an empty result and a malformed or out-of-range `page` parameter.
-- Open a card in the modal, inspect dated mentions and builder attribution, then close with the button, Escape, and browser Back. Confirm Forward reopens it and focus returns to the card after closing. Modified click should open the standalone page. Simulate a failed detail JSON request and confirm navigation falls back to that page.
-- At wide viewport sizes, check the left sidebar, vertical search and filters, compact heading, and card widths. At narrow sizes, check that the navigation Filters button opens an opaque full-screen overlay, updates its expanded state, and keeps keyboard focus inside. Scroll through both filter groups and check that only the contents move while Clear all and Close stay pinned. Clear all should reset selections without closing; Close and Escape should restore page scroll and focus to Filters. Resize while the panel is open and closed, and verify controls and selected values remain usable. With JavaScript disabled or the discovery request failed, check that ordinary cards and pagination work while the filter controls stay hidden. Check modal fit, HTTP(S) source links, and dated source attribution.
+- Test `/`, `/projects/` (Rust 301 to `/`), later `/projects/page/N/` pages, ordinary pagination links and direct `/projects/<slug>/` pages. Unknown slugs return 404. Disable JavaScript and check search, both filters, sorting, pagination, cards, and detail controls; Rust controls remain visible and submit GET forms.
+- Search for builder usernames, Unicode, one/two-character terms, missing terms, and inner whitespace. Try all four sort orders, combined filters, multiple values within a filter, later pages, and Clear all. Reload, Back and Forward restore state. Invalid/default/duplicate parameters canonicalize with 301; absent options and out-of-range pages use 302. Queries are trimmed and capped at 100 characters. Check result counts and empty states.
+- With JavaScript enabled, search updates after debounce and filters/sort update immediately without a full navigation. The first search update adds history and further typing replaces it. Filters/sort/page changes each add an entry. Failed fetches navigate normally.
+- Open a card modal, inspect source dates/authors/evidence, close via button, Escape and Back, then Forward to reopen. Closing restores scroll/focus and list state. Modified clicks and refresh use standalone pages. A failed HTML fetch or snapshot mismatch falls back to standalone navigation.
+- At wide widths, inspect the fixed sidebar, typography, card grid and compact toolbar. At narrow widths test the opaque full-screen Filters panel: keyboard focus trap, scroll lock, independent content scrolling, pinned Clear all/Close, Escape, focus restoration, and resize reset. Test with JavaScript disabled too.
+- Inspect title evidence, dated mentions, actual evidence authors, builder convention, classifications, same-builder links, source links and independence notice. Check CSP console output; assets must require no inline-code exceptions. A real correction/removal contact remains a launch prerequisite.
 
-Before launch, replace the synthetic/empty staged data with a reviewed, approved export, manually assess extraction quality on the three-thread pilot, and set a real correction/removal contact route.
+Astro retains its old browser-data behavior until Epic 06: listing controls appear after discovery JSON loads, `/projects/` remains an equivalent list, and modal details use JSON plus page HTML. These are transitional differences from the Rust server.
 
 ## Project extraction schema migration
 
@@ -149,6 +249,6 @@ Database migration 7 adds a persisted extraction mode per processed thread (`mon
 
 `mention_evidence` stores each supporting source ID, source field (`title`, `url`, or `body`), verbatim value, supported fields, source fingerprint, and optional submitter-authorization dependency and fingerprint. Existing monthly records retain their single-comment excerpt without invented field-level support. Show HN chunk results are cached privately in `show_chunk_cache`. Each chunk key includes its source and ancestor state, repeated submitter context, suppression, model, and processing versions; consolidation inherits its inputs' dependencies. Every consolidation level receives the actual authors, original timestamps, and parent IDs for its evidence and authorization sources, plus the story submitter identity; it does not receive whole source bodies. The complete prompt including metadata must fit the input bound. Explicit submitter corrections take precedence only when their chronology and meaning are clear; ambiguous disputes are omitted. Independent reply edits or appended branches reuse unaffected chunks, while the final result retains a whole-thread freshness identity. `show_processing_results` retains a successful no-project reason. These tables are local processing state and never website assets.
 
-New public snapshots use schema 5. Each mention retains its anchor author, original sharing date, source URL, and legacy excerpt field, and adds an `evidence` array. Each evidence entry contains `source_item_id`, `source_field`, `value`, `supports`, `author`, `shared_at`, and `source_url`. Evidence authors and dates come from the actual source item; supporting replies do not change the story's sharing date. Legacy monthly evidence uses `body` and an empty `supports` array. The public array exposes concise excerpts rather than full discussions. Source and authorization edits, confirmed removals, deletion, or suppression conservatively withhold the affected mention until valid processing replaces it. Private authorization fingerprints and processing diagnostics remain excluded.
+New public snapshots use schema 6. Each mention retains its anchor author, original sharing date, source URL, and legacy excerpt field, and adds an `evidence` array. Each evidence entry contains `source_item_id`, `source_field`, `value`, `supports`, `author`, `shared_at`, and `source_url`. Evidence authors and dates come from the actual source item; supporting replies do not change the story's sharing date. Legacy monthly evidence uses `body` and an empty `supports` array. The public array exposes concise excerpts rather than full discussions. Source and authorization edits, confirmed removals, deletion, or suppression conservatively withhold the affected mention until valid processing replaces it. Private authorization fingerprints and processing diagnostics remain excluded.
 
-The website explicitly supports public versions 2, 3, 4, and 5, rejecting unsupported versions. Staging, standalone pages, and modal readers use the same validated contract; schema-5 details render each evidence field with its actual author, date, and HN source link. Title evidence is presented as a title rather than a manufactured comment excerpt. Builds and staging make no live HN or model calls.
+The website explicitly supports public versions 2, 3, 4, 5, and 6, rejecting unsupported versions. Staging, standalone pages, and modal readers use the same validated contract; schema-5 details render each evidence field with its actual author, date, and HN source link. Title evidence is presented as a title rather than a manufactured comment excerpt. Builds and staging make no live HN or model calls.

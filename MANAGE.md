@@ -1,6 +1,6 @@
 # Managing wrkgn.com
 
-The site is hosted on Cloudflare at **https://wrkgn.com**, with the repository integration already working. Collection, model processing, review, and SQLite writes run on the maintainer's computer. Publication follows this flow:
+The site is hosted on Cloudflare at **https://wrkgn.com**, with the repository integration already working. Collection, model processing, review, working SQLite writes, and public snapshot generation run on the maintainer's computer. `wrkgn-web` is the local Rust replacement, pending maintainer testing; Astro stays in production until Epic 06. Publication follows this flow:
 
 ```text
 collect → process → review / approve → export → stage → inspect / build → commit / push → Cloudflare
@@ -148,7 +148,7 @@ Both projects must have the same known HN source author; suppressed projects can
 cargo run --bin wrkgn -- export
 ```
 
-Export includes approved public records across the database, with corrections and suppression applied. It writes a completed versioned snapshot and atomically updates `local-data/public-export/current.json`. Raw payloads, private review history, credentials, and SQLite are excluded.
+Export includes approved public records across the database, with corrections and suppression applied. It writes a completed versioned snapshot and atomically updates `local-data/public-export/current.json`. The separate immutable `public.sqlite` contains only allowlisted public records; the working database, raw payloads, private review history, and credentials are excluded.
 
 `process` and mutating review commands also attempt export automatically. `review pending` does not. An export failure can happen after processing or a review mutation has already committed, so inspect the current state rather than assuming the preceding work was rolled back.
 
@@ -160,7 +160,24 @@ cargo run --bin wrkgn -- categories normalize
 
 Unknown category labels abort normalization before any write. This command does not fix legacy audiences or missing excerpts.
 
-## 5. Stage and inspect the website
+## 5. Inspect the Rust server locally
+
+From the repository root, build assets before Cargo (initial setup needs Node >=22.12):
+
+```sh
+npm ci --prefix crates/wrkgn-web/assets
+npm run build --prefix crates/wrkgn-web/assets
+cargo run -p wrkgn-web -- check local-data/public-export
+cargo run -p wrkgn-web -- --snapshot local-data/public-export
+```
+
+Open http://127.0.0.1:3000. The export must be schema 6; run `cargo run --bin wrkgn -- export` first if the selected snapshot predates this implementation. The server reads the export directly; staging is only for Astro. It needs no credentials. `check` also accepts one `public.sqlite` file and uses the same validation as startup/reload.
+
+For asset edits, run `npm run watch --prefix crates/wrkgn-web/assets` in another terminal. Restart `cargo run` after an asset rebuild so Cargo embeds the new hash/output. Snapshot updates need no rebuild: finish export, then run `kill -HUP <wrkgn-web-pid>` against the actual server process. Invalid replacements are logged and the old snapshot continues serving. Logs show method, path, status and duration, without query strings, cookies or IPs. `/healthz` shows build and selected snapshot versions; local builds use build ID `dev`.
+
+Use `--bind`, `--public-origin`, `--connections`, `--render-limit` and cache options listed in [development.md](docs/development.md#rust-web-server-epic-05). Flags override `WRKGN_WEB_*` environment variables. Canonical links default to production even on localhost. Inspect with JavaScript disabled, then test in-place search, filters, sorting, pagination, modal history, mobile overlay, direct URLs, and CSP console output. The [manual checklist](docs/development.md#manual-browser-checklist) and [Epic 05 handoff](docs/implementation/epic05.md) list remaining checks.
+
+## Stage and inspect Astro until Epic 06
 
 After review and a successful export:
 
@@ -191,9 +208,10 @@ Cloudflare builds the committed website using `website/` as the build root, `npm
 For Rust changes, run from the repository root:
 
 ```sh
-cargo fmt --check
-cargo clippy --all-targets
-cargo test
+npm run build --prefix crates/wrkgn-web/assets
+cargo fmt --all --check
+cargo clippy --workspace --all-targets
+cargo test --workspace
 ```
 
 For website changes, run `npm test` and `npm run build` from `website/`, plus the relevant browser checks. Ordinary automated tests use offline fixtures; live model checks are explicit `process` runs.

@@ -10,21 +10,7 @@ use std::collections::{BTreeMap, BTreeSet};
 use std::fs;
 use std::path::Path;
 
-#[derive(Serialize)]
-pub struct Discovery {
-    pub id: i64,
-    pub slug: String,
-    pub name: Option<String>,
-    pub description: String,
-    pub problem: Option<String>,
-    pub audience: Option<String>,
-    pub builder_usernames: Vec<String>,
-    pub categories: Vec<String>,
-    pub audience_labels: Vec<String>,
-    pub latest_shared_at: i64,
-    pub comment_count: i64,
-    pub searchable_text: String,
-}
+pub use wrkgn_public_snapshot::Discovery;
 #[derive(Serialize)]
 pub struct Detail {
     pub id: i64,
@@ -617,7 +603,7 @@ pub fn export(store: &mut Store, destination: &Path) -> Result<String, String> {
             .then(a.id.cmp(&b.id))
     });
     let mut digest = Sha256::new();
-    digest.update(b"public-schema-5");
+    digest.update(wrkgn_public_snapshot::VERSION_PREFIX);
     digest.update(serde_json::to_vec(&discovery).map_err(|e| e.to_string())?);
     for detail in &details {
         digest.update(serde_json::to_vec(detail).map_err(|e| e.to_string())?);
@@ -641,17 +627,53 @@ pub fn export(store: &mut Store, destination: &Path) -> Result<String, String> {
                 detail,
             )?;
         }
+        // Both representations are derived only from the public model captured
+        // by the consistent read transaction above; never re-read working state.
+        let public_details: Vec<wrkgn_public_snapshot::Detail> = details
+            .iter()
+            .map(|detail| {
+                serde_json::from_value(serde_json::to_value(detail).map_err(|e| e.to_string())?)
+                    .map_err(|e| e.to_string())
+            })
+            .collect::<Result<_, String>>()?;
+        let metadata = wrkgn_public_snapshot::Metadata {
+            schema_version: wrkgn_public_snapshot::SCHEMA_VERSION,
+            version: version.to_string(),
+            exported_at: std::time::SystemTime::now()
+                .duration_since(std::time::UNIX_EPOCH)
+                .map_err(|e| e.to_string())?
+                .as_secs() as i64,
+            categories: serde_json::from_value(
+                serde_json::to_value(category::metadata()).map_err(|e| e.to_string())?,
+            )
+            .map_err(|e| e.to_string())?,
+            audiences: serde_json::from_value(
+                serde_json::to_value(audience::metadata()).map_err(|e| e.to_string())?,
+            )
+            .map_err(|e| e.to_string())?,
+        };
+        wrkgn_public_snapshot::write_database(
+            &staging.join("public.sqlite"),
+            &metadata,
+            &discovery,
+            &public_details,
+        )?;
         write_json(
             &staging.join("manifest.json"),
-            &json!({"schema_version":5,"version":version,"discovery":"discovery.json","project_details":"projects/<slug>.json","project_count":details.len(),"categories":category::metadata(),"audiences":audience::metadata()}),
+            &json!({"schema_version":wrkgn_public_snapshot::SCHEMA_VERSION,"version":version,"discovery":"discovery.json","project_details":"projects/<slug>.json","database":"public.sqlite","project_count":details.len(),"categories":category::metadata(),"audiences":audience::metadata()}),
         )?;
         fs::rename(staging, &snapshot).map_err(|e| e.to_string())?;
     }
+    // A previously completed version must still satisfy the SQLite contract
+    // before its pointer can be selected again.
+    let public_database = wrkgn_public_snapshot::open_read_only(&snapshot.join("public.sqlite"))?;
+    wrkgn_public_snapshot::validate_connection(&public_database, Some(version))?;
+    drop(public_database);
     fs::create_dir_all(destination).map_err(|e| e.to_string())?;
     let pointer = destination.join("current.json.tmp");
     write_json(
         &pointer,
-        &json!({"schema_version":5,"version":version,"snapshot":format!("snapshots/{version}/manifest.json")}),
+        &json!({"schema_version":wrkgn_public_snapshot::SCHEMA_VERSION,"version":version,"snapshot":format!("snapshots/{version}/manifest.json")}),
     )?;
     fs::rename(pointer, destination.join("current.json")).map_err(|e| e.to_string())?;
     Ok(version.to_string())

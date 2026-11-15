@@ -96,7 +96,7 @@ fn evidence_authorization_and_suppression_withhold_public_mentions() {
     publication::export(&mut store, &export).unwrap();
     let pointer: Value =
         serde_json::from_slice(&std::fs::read(export.join("current.json")).unwrap()).unwrap();
-    assert_eq!(pointer["schema_version"], 5);
+    assert_eq!(pointer["schema_version"], 6);
     let details: Value = serde_json::from_slice(
         &std::fs::read(export.join(format!(
             "snapshots/{}/projects/example.json",

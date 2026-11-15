@@ -1,0 +1,215 @@
+{
+  "project_count": 65,
+  "cases": [
+    {
+      "name": "root",
+      "input": "/",
+      "status": null,
+      "location": null
+    },
+    {
+      "name": "alias",
+      "input": "/projects/",
+      "status": 301,
+      "location": "/"
+    },
+    {
+      "name": "first path page",
+      "input": "/projects/page/1/",
+      "status": 301,
+      "location": "/"
+    },
+    {
+      "name": "path leading zeros",
+      "input": "/projects/page/002/",
+      "status": 301,
+      "location": "/projects/page/2/"
+    },
+    {
+      "name": "plain second page",
+      "input": "/projects/page/2/",
+      "status": null,
+      "location": null
+    },
+    {
+      "name": "query page without criteria",
+      "input": "/?page=2",
+      "status": 301,
+      "location": "/projects/page/2/"
+    },
+    {
+      "name": "default page and sort",
+      "input": "/?sort=date-desc&page=1",
+      "status": 301,
+      "location": "/"
+    },
+    {
+      "name": "trim and encoding",
+      "input": "/?q=%20field%20notes%20",
+      "status": 301,
+      "location": "/?q=field+notes"
+    },
+    {
+      "name": "inner spaces preserved",
+      "input": "/?q=field++notes",
+      "status": null,
+      "location": null
+    },
+    {
+      "name": "filter parameter ordering",
+      "input": "/?audience=researchers&category=education&q=field",
+      "status": 301,
+      "location": "/?q=field&category=education&audience=researchers"
+    },
+    {
+      "name": "dedup and sort",
+      "input": "/?category=productivity&category=education&category=education",
+      "status": 301,
+      "location": "/?category=education&category=productivity"
+    },
+    {
+      "name": "known sorted filters",
+      "input": "/?category=education&category=productivity",
+      "status": null,
+      "location": null
+    },
+    {
+      "name": "unknown parameter",
+      "input": "/?looking=feedback",
+      "status": 301,
+      "location": "/"
+    },
+    {
+      "name": "unknown sort",
+      "input": "/?sort=votes-desc",
+      "status": 301,
+      "location": "/"
+    },
+    {
+      "name": "invalid page",
+      "input": "/?page=bad",
+      "status": 301,
+      "location": "/"
+    },
+    {
+      "name": "negative page",
+      "input": "/?page=-2",
+      "status": 301,
+      "location": "/"
+    },
+    {
+      "name": "unsafe integer",
+      "input": "/?page=9007199254740992",
+      "status": 301,
+      "location": "/"
+    },
+    {
+      "name": "number syntax",
+      "input": "/?page=2e0",
+      "status": 301,
+      "location": "/projects/page/2/"
+    },
+    {
+      "name": "path page with query",
+      "input": "/projects/page/2/?q=field",
+      "status": 301,
+      "location": "/?q=field&page=2"
+    },
+    {
+      "name": "query page overrides path",
+      "input": "/projects/page/3/?page=2",
+      "status": 301,
+      "location": "/projects/page/2/"
+    },
+    {
+      "name": "unknown filter",
+      "input": "/?category=unknown",
+      "status": 302,
+      "location": "/"
+    },
+    {
+      "name": "unknown audience",
+      "input": "/?audience=unknown",
+      "status": 302,
+      "location": "/"
+    },
+    {
+      "name": "unknown and known filters",
+      "input": "/?category=education&category=unknown",
+      "status": 302,
+      "location": "/?category=education"
+    },
+    {
+      "name": "syntax phase first",
+      "input": "/?category=unknown&q=field",
+      "status": 301,
+      "location": "/?q=field&category=unknown"
+    },
+    {
+      "name": "out of range",
+      "input": "/projects/page/99/",
+      "status": 302,
+      "location": "/projects/page/3/"
+    },
+    {
+      "name": "out of range filtered",
+      "input": "/?category=education&page=99",
+      "status": 302,
+      "location": "/?category=education&page=2"
+    },
+    {
+      "name": "no match later page",
+      "input": "/?q=absent&page=2",
+      "status": 302,
+      "location": "/?q=absent"
+    },
+    {
+      "name": "unicode canonical",
+      "input": "/?q=caf%C3%A9",
+      "status": null,
+      "location": null
+    },
+    {
+      "name": "unicode percent syntax",
+      "input": "/?q=caf%c3%a9",
+      "status": 301,
+      "location": "/?q=caf%C3%A9"
+    },
+    {
+      "name": "punctuation encoding",
+      "input": "/?q=%21%7E%27%28%29*",
+      "status": null,
+      "location": null
+    },
+    {
+      "name": "empty query separator",
+      "input": "/?",
+      "status": 301,
+      "location": "/"
+    },
+    {
+      "name": "empty q",
+      "input": "/?q=",
+      "status": 301,
+      "location": "/"
+    },
+    {
+      "name": "duplicate query uses first",
+      "input": "/?q=field&q=notes",
+      "status": 301,
+      "location": "/?q=field"
+    },
+    {
+      "name": "query cap",
+      "input": "/?q=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "status": 301,
+      "location": "/?q=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    {
+      "name": "unicode cap",
+      "input": "/?q=%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80",
+      "status": 301,
+      "location": "/?q=%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80"
+    }
+  ]
+}
