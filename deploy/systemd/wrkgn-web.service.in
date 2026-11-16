@@ -1,0 +1,36 @@
+[Unit]
+Description=wrkgn public directory
+After=network.target
+ConditionPathExists=/opt/wrkgn/current/wrkgn-web
+ConditionPathExists=/var/lib/wrkgn/current/public.sqlite
+
+[Service]
+Type=simple
+User=wrkgn
+Group=wrkgn
+EnvironmentFile=/etc/wrkgn/web.env
+ExecStart=/opt/wrkgn/current/wrkgn-web
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=on-failure
+RestartSec=3
+TimeoutStopSec=30
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+LockPersonality=true
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+ReadOnlyPaths=/opt/wrkgn /var/lib/wrkgn /etc/wrkgn
+UMask=0077
+# Provisional limits: measure real two-snapshot reload peak before production.
+MemoryMax=1G
+CPUQuota=75%
+TasksMax=64
+
+[Install]
+WantedBy=multi-user.target

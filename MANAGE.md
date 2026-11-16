@@ -1,10 +1,16 @@
 # Managing wrkgn.com
 
-The site is hosted on Cloudflare at **https://wrkgn.com**, with the repository integration already working. Collection, model processing, review, working SQLite writes, and public snapshot generation run on the maintainer's computer. `wrkgn-web` is the local Rust replacement, pending maintainer testing; Astro stays in production until Epic 06. Publication follows this flow:
+Epic 06 provides the VPS deployment and data-publication commands below. Live VPS setup, staging verification, DNS cutover, and the stable-period cleanup have not been performed by the implementation agents. The last Cloudflare Pages deployment remains the production fallback until the maintainer completes [hosting and cutover](docs/hosting.md).
+
+Collection, model processing, review, the working database, and export stay on the maintainer's computer. The VPS receives only a release binary and the allowlisted public SQLite snapshot. The new publication flow is:
 
 ```text
-collect → process → review / approve → export → stage → inspect / build → commit / push → Cloudflare
+Code: commit → scripts/deploy.sh
+Data: collect → process → review / approve → export → inspect locally → scripts/publish-data.sh
+Check: scripts/status.sh
 ```
+
+Data publication does not use Git or a Cloudflare build. Keep Astro, its tracked data, and JSON export compatibility until cutover and the documented stable period are complete. Do not push large snapshot updates to main: Pages fails above 20,000 files; its last successful deployment remains available.
 
 ## Automated monthly workflow
 
@@ -22,7 +28,7 @@ By default it starts at the current UTC month and covers 24 months inclusive. It
 
 Each thread refreshes the full reply tree to save new comments and detect edits, deletions, and new replies. Existing fingerprint/version checks skip unchanged successful conversation groups. After the whole thread processes successfully, its pending mentions are automatically approved, including previously pending results for that thread. Pending mentions in other threads remain pending. Corrections, matching, and suppression retain their existing behavior. The exporter writes all approved public records across the database after each thread, retaining earlier threads in the snapshot.
 
-A thread’s collection, processing, approval, or export failure is logged with its month and thread ID, and the command continues with the remaining threads and months. If discovery fails for a month, that month is reported as failed and older months are still attempted. The final summary lists every failed month or thread; any failure makes the command exit nonzero after traversal. Setup/configuration, opening the database, or writing CLI output can still abort the command. Successful groups stay saved; rerun the same command to retry failures and skip unchanged successful work. Incomplete processing does not auto-approve that thread, but attempts export using existing approvals and freshness checks to remove stale public results. Approval and export are separate commits: if export fails after approval, rerunning retries export. The command uses the same `.env`, `--db`, `--export`, and `--concurrency` settings as `wrkgn`. It never stages or deploys the website. After it succeeds, run `npm run stage -- ../local-data/public-export` in `website/`, then inspect/build and publish as below.
+A thread’s collection, processing, approval, or export failure is logged with its month and thread ID, and the command continues with the remaining threads and months. If discovery fails for a month, that month is reported as failed and older months are still attempted. The final summary lists every failed month or thread; any failure makes the command exit nonzero after traversal. Setup/configuration, opening the database, or writing CLI output can still abort the command. Successful groups stay saved; rerun the same command to retry failures and skip unchanged successful work. Incomplete processing does not auto-approve that thread, but attempts export using existing approvals and freshness checks to remove stale public results. Approval and export are separate commits: if export fails after approval, rerunning retries export. The command uses the same `.env`, `--db`, `--export`, and `--concurrency` settings as `wrkgn`. It never stages or deploys the website. After it succeeds, inspect the export locally, then publish with `scripts/publish-data.sh` after the VPS is set up.
 
 ## Show HN workflow
 
@@ -51,7 +57,7 @@ Run the Rust commands below from the repository root. `cargo run --bin wrkgn --`
 - Copy `.env.example` to `.env` if needed and configure one provider's credentials locally. The CLI loads `.env` from the current directory; shell variables take precedence. Never commit credentials.
 - `WRKGN_PROVIDER` defaults to `openai`, requiring `OPENAI_API_KEY` and `WRKGN_MODEL`. For Neuralwatt, set `WRKGN_PROVIDER=neuralwatt` and `NEURALWATT_API_KEY`; its default model is `glm-5.3-flash`.
 - The default database is `local-data/wrkgn.sqlite`. Override it with `WRKGN_DB_PATH` or `--db <path>`.
-- The default export directory is `local-data/public-export`. Override it with `WRKGN_EXPORT_PATH` or `--export <directory>` on commands that export. If using a custom path, stage that directory below.
+- The default export directory is `local-data/public-export`. Override it with `WRKGN_EXPORT_PATH` or `--export <directory>` on commands that export. For a custom path, pass `--export <directory>` to the deploy/publish scripts too; these scripts default to `local-data/public-export`.
 - The website requires Node >=22.12. Run `npm ci` from `website/` on initial setup or after dependency changes.
 
 Keep the local database: it contains source history, review decisions, corrections, suppression, and stable project identities. Back it up before deliberate manual database edits, with pipeline commands stopped. Generated exports and staged website snapshots can be replaced without resetting SQLite.
@@ -177,7 +183,7 @@ For asset edits, run `npm run watch --prefix crates/wrkgn-web/assets` in another
 
 Use `--bind`, `--public-origin`, `--connections`, `--render-limit` and cache options listed in [development.md](docs/development.md#rust-web-server-epic-05). Flags override `WRKGN_WEB_*` environment variables. Canonical links default to production even on localhost. Inspect with JavaScript disabled, then test in-place search, filters, sorting, pagination, modal history, mobile overlay, direct URLs, and CSP console output. The [manual checklist](docs/development.md#manual-browser-checklist) and [Epic 05 handoff](docs/implementation/epic05.md) list remaining checks.
 
-## Stage and inspect Astro until Epic 06
+## Transitional Astro inspection and fallback
 
 After review and a successful export:
 
@@ -197,11 +203,37 @@ Inspect list cards, all four date/comment sort orders, direct project URLs, sour
 
 The shared detail component shows the story/comment posting author separately from the actual author and date of each supporting evidence entry. Builder attribution remains an assumption based on the source author and explicitly named additional builders, not verified ownership.
 
-## 6. Publish through the existing Cloudflare integration
+## 6. Deploy code and publish data
 
-From the repository root, inspect `git status` and the diff, including changes under `website/data/public/`. Commit the selected approved snapshot and any intended source changes, then push through the repository workflow used by the existing Cloudflare integration. Local export or staging alone does not update wrkgn.com.
+Complete the one-time [VPS/tunnel setup](docs/hosting.md#one-time-setup) first. On the Mac, install Zig, `cargo-zigbuild`, and the VPS Rust target; see the hosting guide. Code deployment builds assets, validates the local export with a native checker, cross-compiles the Linux release using LLVM, verifies uploaded checksums, switches the release, restarts the server and checks its build/snapshot IDs.
 
-Cloudflare builds the committed website using `website/` as the build root, `npm run build` as the build command, and `dist/` as the output directory. Confirm deployment success in Cloudflare and inspect https://wrkgn.com afterward. No new hosting integration or manual database upload is needed. Keep a working correction/removal contact route on the public site.
+```sh
+scripts/deploy.sh
+# Explicitly deploy a dirty working tree; the release ID records this:
+scripts/deploy.sh --allow-dirty
+# Rendering changes that should evict cached HTML:
+scripts/deploy.sh --purge
+scripts/deploy.sh --rollback
+```
+
+The first deploy also seeds the validated public snapshot if the server has none. Later code deploys preserve the selected server snapshot. A failed activation restores the prior release; the first deployment has no prior working release to restore. Deploys keep five release directories, including current and previous.
+
+After an approved export and local inspection:
+
+```sh
+scripts/publish-data.sh
+# For non-default paths:
+scripts/publish-data.sh --export /path/to/public-export --checker /path/to/native/wrkgn-web
+scripts/publish-data.sh --rollback
+scripts/publish-data.sh --purge-only
+scripts/status.sh
+```
+
+Publishing validates the exact selected `public.sqlite`, verifies the upload, atomically switches the snapshot pointer, reloads the service and waits for its snapshot ID. Failed activation restores the old pointer without purging. Existing versions are immutable and reused only when their checksum matches. Five snapshots are retained, including current and previous. Deployment/publication operations serialize on a server lock.
+
+Set `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ZONE_ID` locally in the environment or `.env`. Scope the token to Cache Purge on the wrkgn.com zone. Publishing purges only the production and staging hostnames from `deploy/wrkgn.conf`, in one request. Missing tokens cause a warning and skip purging; old cached content can remain visible. A purge failure exits nonzero after the successful publication, so retry with `--purge-only`. Tokens never go to the VPS. Deployment does not purge unless `--purge` is supplied.
+
+Before DNS cutover, inspect `https://next.wrkgn.com`; after cutover, inspect `https://wrkgn.com`. Follow the [staging, cutover and rollback procedure](docs/hosting.md#staging-and-cutover), including Prompt Together availability and the real Cloudflare cache checks. Keep a working correction/removal contact route on the public site. No external uptime monitor is configured by this implementation.
 
 ## Checks after code changes
 

@@ -14,3 +14,7 @@
 /website/.astro/
 /crates/wrkgn-web/assets/node_modules/
 /crates/wrkgn-web/assets/dist/
+
+# Tunnel secrets and rendered ingress belong outside Git.
+/deploy/cloudflared/*.json
+/deploy/cloudflared/config.yml

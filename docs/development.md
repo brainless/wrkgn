@@ -103,7 +103,7 @@ Schema 6 adds `public.sqlite` next to the JSON files in each completed snapshot,
 with `database: "public.sqlite"` in its manifest. `current.json` retains its three
 fields and uses schema version 6. The version digest begins with
 `public-schema-6` and hashes the public records and taxonomy metadata, never the
-SQLite bytes or export time. JSON remains available for Astro until Epic 06.
+SQLite bytes or export time. JSON remains available for Astro until cutover and the stable-period cleanup.
 Staging accepts schemas 2–6 and copies only validated, re-serialized JSON; it
 never copies `public.sqlite` into the website.
 
@@ -131,7 +131,7 @@ The maintainer has inspected many detail pages and the project list and consider
 
 ## Rust web server (Epic 05)
 
-`crates/wrkgn-web/` depends on `crates/public-snapshot/`, with no pipeline/Rig/HN dependency. It renders Askama templates from a read-only public SQLite pool on blocking threads. Discovery/search fields live in memory with four presorted ID orders. It serves HTML rather than discovery/detail JSON. Astro remains the production site until Epic 06; none of these commands deploy or change staging.
+`crates/wrkgn-web/` depends on `crates/public-snapshot/`, with no pipeline/Rig/HN dependency. It renders Askama templates from a read-only public SQLite pool on blocking threads. Discovery/search fields live in memory with four presorted ID orders. It serves HTML rather than discovery/detail JSON. Epic 06 provides separate VPS deployment scripts; these local commands never deploy. Live cutover remains pending.
 
 From the repository root:
 
@@ -200,6 +200,26 @@ cargo run --release -p wrkgn-web --example memory_probe -- /tmp/wrkgn-synthetic-
 
 The benchmark binds localhost port 3099, runs full and synthetic snapshots sequentially, warms requests, and reports loopback end-to-end p50/p95/p99 plus RSS and sampled reload peak in JSON. The acceptance target is p99 under 50 ms for each dataset. Requests are sequential to measure ordinary service latency; separately exercise overload/load shedding. RSS uses `ps` in KiB and polling can miss peaks. `memory_probe` deliberately retains two complete snapshots and reports resident memory after one and two loads, providing a conservative starting point for Epic 06 service limits alongside observed reload peaks. Validation/loading temporary allocations may exceed retained steady state. Record hardware, build ID, project count, versions and measurements in the implementation record before claiming the budget is met. No latency/memory result exists yet, and FTS has not been justified by measurement.
 
+## VPS deployment tooling (Epic 06)
+
+See [hosting.md](hosting.md) for setup, prerequisites, the shared-resource registry, Cloudflare settings and staged cutover. Scripts run locally from the Mac over key-only SSH as `pixlie` with passwordless sudo. Shared non-secret settings live in `deploy/wrkgn.conf`.
+
+```sh
+scripts/setup-vps.sh --credentials ~/.cloudflared/<tunnel-uuid>.json
+scripts/deploy.sh
+scripts/publish-data.sh
+scripts/status.sh
+scripts/deploy.sh --rollback
+scripts/publish-data.sh --rollback
+scripts/publish-data.sh --purge-only
+```
+
+Deploy requires Node, Python 3, Zig, cargo-zigbuild and the installed Rust Linux target. It detects VPS architecture, Debian and glibc, targets glibc 2.31 (rejecting older hosts), and explicitly selects LLVM release codegen. The native checker remains at `target/release/wrkgn-web` for subsequent publishing. Use `--export PATH` on deploy/publish for another export; publish also accepts `--checker PATH` or `WRKGN_WEB_CHECK_BIN`. First deploy seeds a validated snapshot only if none is selected on the server. Later deploys preserve server data. Deploy does not purge unless `--purge` is supplied. `--allow-dirty` permits and labels an uncommitted build.
+
+`CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ZONE_ID` are read locally from environment or `.env`; only those assignments are parsed without executing the file. Purges name both configured hostnames. Missing token warns and skips purge; a failed purge after a successful publication requires `--purge-only`. Tokens never go to the VPS. A shared server lock serializes release and snapshot pointer changes.
+
+For shell changes, run `shellcheck scripts/*.sh scripts/lib/*.sh` when available and `bash -n` on each script. Agents ran Bash syntax checks only; ShellCheck was unavailable. No live setup, deployment, publication, rollback or cache checks were performed. Staging/browser/live validation remains maintainer work. Keep Astro and JSON compatibility until the documented cleanup gate.
+
 ## Static website (Epic 03)
 
 The Astro site lives in `website/`. It reads only `website/data/public/`, which is a selected, tracked public snapshot. The staged snapshot contains approved pilot records. Synthetic fixtures in `website/tests/fixtures/representative/` and `website/tests/fixtures/empty/` support offline UI work and must not be presented as real HN content.
@@ -217,7 +237,7 @@ npm test
 
 `npm run stage` takes one export directory containing `current.json`. It validates public schema version 6 (and accepts existing version 2, 3, 4, and 5 snapshots for compatibility), the selected manifest (including the category and audience taxonomies for versions 3 through 6), every discovery record, every referenced project detail, and the public field allowlist. It copies only those files into a replacement staged snapshot; previous staged versions are removed. A missing or invalid export fails before replacing the staged data. `npm run dev` and `npm run build` consume the staged snapshot without running Rust, contacting HN or a model, or reading local credentials or SQLite. Static output goes to `website/dist/`; the versioned browser data is under `/data/<version>/`.
 
-Cloudflare repository builds should use `website/` as the build root, `npm run build` as the command, and `dist/` as the output directory. Deployment configuration and publication remain separate from this local setup. A real correction and removal contact destination must be supplied before launch; do not publish a placeholder route.
+The retained Pages fallback uses `website/` as the build root, `npm run build` as the command, and `dist/` as output. Do not push large snapshots to main while Pages is connected: builds fail above 20,000 files. A real correction and removal contact destination must be supplied before launch; do not publish a placeholder route.
 
 The directory renders ordinary list and project links without JavaScript. After discovery data loads, search and Category and Audience appear in the shared fixed left sidebar on wide screens. The first 30-project page is `/`, with `/projects/` as an alias; later pages use `/projects/page/N/`. Direct detail pages offer an ordinary filter form that returns to `/`. On narrow screens (below 768px), a Filters button in the primary navigation opens the same controls in an opaque, fixed full-screen overlay. Its contents scroll independently above a pinned Clear all / Close footer, while the underlying page is locked. Close or Escape restores page scroll and focus. Resizing to desktop closes the overlay and restores the sidebar; Close is hidden on desktop. On listing pages, the button and controls stay hidden when discovery data cannot load; detail-page controls remain available as a normal form. Search matches the exported `searchable_text` for every published project. Selected filter values are OR within one dimension and AND across dimensions and the text query. The Sort by dropdown on the right of the count row offers comment count in both directions and date in both directions, defaulting to recent first. Sorting applies to all matches before pagination, with newest date then project ID resolving equal counts and project ID resolving equal dates. A sort change resets page one; Clear all also resets the default order. Legacy snapshots without counts offer date orders only. Criteria, sort, and interactive page state use URL parameters; invalid values are dropped and out-of-range pages clamp to the last available page. Opening a card fetches versioned detail JSON and the matching standalone page HTML, then displays its shared detail markup in a modal. A failed detail fetch navigates to the ordinary project page.
 
@@ -232,7 +252,7 @@ The maintainer performs browser interactions; no browser automation is required.
 - At wide widths, inspect the fixed sidebar, typography, card grid and compact toolbar. At narrow widths test the opaque full-screen Filters panel: keyboard focus trap, scroll lock, independent content scrolling, pinned Clear all/Close, Escape, focus restoration, and resize reset. Test with JavaScript disabled too.
 - Inspect title evidence, dated mentions, actual evidence authors, builder convention, classifications, same-builder links, source links and independence notice. Check CSP console output; assets must require no inline-code exceptions. A real correction/removal contact remains a launch prerequisite.
 
-Astro retains its old browser-data behavior until Epic 06: listing controls appear after discovery JSON loads, `/projects/` remains an equivalent list, and modal details use JSON plus page HTML. These are transitional differences from the Rust server.
+Astro retains its old browser-data behavior until the stable-period cleanup: listing controls appear after discovery JSON loads, `/projects/` remains an equivalent list, and modal details use JSON plus page HTML. These are transitional differences from the Rust server.
 
 ## Project extraction schema migration
 

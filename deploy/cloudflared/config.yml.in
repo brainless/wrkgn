@@ -1,0 +1,11 @@
+# Rendered by scripts/setup-vps.sh. One project, one locally managed tunnel.
+tunnel: @TUNNEL_ID@
+credentials-file: /etc/cloudflared/wrkgn/credentials.json
+no-autoupdate: true
+metrics: 127.0.0.1:0
+ingress:
+  - hostname: @PRODUCTION_HOST@
+    service: http://127.0.0.1:@PORT@
+  - hostname: @STAGING_HOST@
+    service: http://127.0.0.1:@PORT@
+  - service: http_status:404

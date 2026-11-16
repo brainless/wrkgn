@@ -1,0 +1,32 @@
+[Unit]
+Description=Cloudflare Tunnel for wrkgn
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=wrkgn-tunnel
+Group=wrkgn-tunnel
+ExecStart=/usr/bin/cloudflared tunnel --config /etc/cloudflared/wrkgn/config.yml run
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=30
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+LockPersonality=true
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+ReadOnlyPaths=/etc/cloudflared/wrkgn
+UMask=0077
+MemoryMax=256M
+CPUQuota=25%
+TasksMax=64
+
+[Install]
+WantedBy=multi-user.target
