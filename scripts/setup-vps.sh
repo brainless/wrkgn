@@ -141,7 +141,9 @@ done
 grep -Fxq 'permitrootlogin no' <<< "$(sshd -T -C 'user=root,host=localhost,addr=127.0.0.1')"
 if [[ $completed == false ]]; then systemctl reload ssh; fi
 # A completed bootstrap must retain working security update configuration.
-apt-config dump | grep -Fq 'APT::Periodic::Unattended-Upgrade "1"' || { echo 'Unattended upgrades must be enabled.' >&2; exit 1; }
+# Consume the full dump: grep -q can close the pipe early and make apt-config
+# fail with SIGPIPE under pipefail even when the setting is present.
+apt-config dump | grep -F 'APT::Periodic::Unattended-Upgrade "1"' >/dev/null || { echo 'Unattended upgrades must be enabled.' >&2; exit 1; }
 
 trap - ERR
 REMOTE_SETUP

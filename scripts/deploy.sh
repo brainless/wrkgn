@@ -41,7 +41,7 @@ else
   for tool in npm cargo python3 shasum scp; do
     command -v "$tool" >/dev/null || { echo "Missing local tool: $tool" >&2; exit 1; }
   done
-  cargo zigbuild --version >/dev/null || { echo 'Install cargo-zigbuild and Zig; see docs/hosting.md.' >&2; exit 1; }
+  cargo zigbuild --help >/dev/null || { echo 'Install cargo-zigbuild and Zig; see docs/hosting.md.' >&2; exit 1; }
   # Probe the actual host, rather than assuming its architecture or Debian release.
   host_info=$(remote "bash -s" <<'PROBE'
 set -euo pipefail
