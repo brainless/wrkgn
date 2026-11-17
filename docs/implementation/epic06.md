@@ -48,4 +48,23 @@ The maintainer ran these commands and reported their final output lines:
 
 This establishes a successful second deployment of a traceable, non-dirty build, with the earlier dirty release retained as the rollback target. It does not exercise binary rollback, failed activation or recovery.
 
-Still pending: setup idempotency, repeat publication, data rollback/restoration, binary rollback/restoration, invalid snapshot rejection, failed activation/recovery, restarts/reboot, outside-port checks, full/reload performance and memory, zone settings and cache HIT/purge/stale behavior, manual browser checks, production cutover, uptime monitor and stable-period cleanup. No DNS or Cloudflare settings have been changed by agents.
+### 2026-11-17: zone cache rules and staging cache behavior
+
+The maintainer applied these dashboard settings. The zone had no prior cache rules.
+
+- Cache rule `wrkgn public cache`: `(http.host in {"wrkgn.com" "next.wrkgn.com"})`, eligible for cache, edge TTL uses cache-control when present and bypasses otherwise, browser TTL respects origin, default cache key and stale serving.
+- Cache rule `wrkgn bypass`, ordered after it: same hosts and path `/healthz`, `/api`, `/api/*`, `/account` or `/account/*`; bypass cache.
+- Caching Level Standard; Smart Tiered Cache enabled.
+
+Zone plan, SSL/TLS, WAF, rate limiting and bot settings were not inspected or reported.
+
+This session then ran repeated `curl` GETs against `https://next.wrkgn.com`:
+
+- `/`, `/?q=tool`, `/projects/mib-8e3bc2382f/` and the `/projects/` → `/` redirect: MISS, then HIT.
+- `/assets/global-FA4ILTJY.css`: HIT before the rules existed, from Cloudflare's default static caching.
+- `/healthz` (`no-store`): DYNAMIC on every request. `/api` and `/api/x` (404 with `public, max-age=30`): DYNAMIC on every request, so the bypass rule applies.
+- `/?q=tool&x=1`: 301 to `/?q=tool`, then a cached redirect HIT.
+- `/` at Age 101–107 s: still HIT. This is expected, because edge lifetime comes from `Cloudflare-CDN-Cache-Control` (7 days for public HTML, plus 1 day stale-while-revalidate). Browser `max-age=60` does not bound edge lifetime. Expired-content and stale-while-revalidate behavior remain unobserved because of the 7-day TTL.
+- After the maintainer ran `scripts/publish-data.sh --purge-only` ("Purged configured production and staging hostnames"), every URL above, including the CSS asset, returned MISS once and then HIT. `/healthz` remained DYNAMIC. Lower-tier versus upper-tier fills were not distinguished.
+
+Still pending: setup idempotency, repeat publication, data rollback/restoration, binary rollback/restoration, invalid snapshot rejection, failed activation/recovery, restarts/reboot, outside-port checks, full/reload performance and memory, zone plan, SSL/TLS, WAF, rate limiting and bot settings, expired-content/stale behavior, manual browser checks, production cutover, uptime monitor and stable-period cleanup. No DNS or Cloudflare settings have been changed by agents.
