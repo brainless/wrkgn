@@ -69,7 +69,7 @@ Brief process restarts are expected; cached/stale Cloudflare responses may cover
 
 ## Cloudflare dashboard configuration
 
-The scripts do not configure zone settings. Record actual plan, enabled settings and observed behavior below after applying them. On 2026-11-17 the maintainer applied the public cache and bypass rules below and enabled Smart Tiered Cache; staging HIT/purge behavior is recorded in [the implementation record](implementation/epic06.md). The zone is on the Cloudflare **Free** plan (maintainer-reported). SSL/TLS, WAF, rate limiting and bot settings are **not inspected**; no dashboard settings have been applied by agents.
+The scripts do not configure zone settings. Record actual plan, enabled settings and observed behavior below after applying them. On 2026-11-17 the maintainer applied the public cache and bypass rules below and enabled Smart Tiered Cache; staging HIT/purge behavior is recorded in [the implementation record](implementation/epic06.md). The zone is on the Cloudflare **Free** plan (maintainer-reported). The maintainer reports Always Use HTTPS, minimum TLS 1.2 and the Free Managed Ruleset in place, Bot Fight Mode off and no rate-limiting rule; no dashboard settings have been applied by agents.
 
 | Setting | Required action and verification |
 | --- | --- |
@@ -142,4 +142,4 @@ For another Rust backend, reserve a distinct loopback port in this registry firs
 
 ## Live validation record
 
-Pending maintainer execution: zone plan/settings, hostname purge API result, detected architecture/Debian/glibc, full/reload memory and p99 measurements, setup idempotency, Prompt Together availability, outside-port check, restarts/reboot, successful/failed deployments, publish/rollback/purge-only, staging browser/cache checks, production cutover, uptime monitor and stable-period cleanup. Record dates, commands, release/snapshot IDs and observed results in [the implementation record](implementation/epic06.md).
+Recorded through 2026-11-17: Free plan, cache/bypass rules, Smart Tiered Cache, HTTPS/TLS and managed WAF settings, verified hostname purge, staging cache HIT/purge, repeat setup, three successful deployments, changed-snapshot publication, purge-only, reboot recovery, outside-port check and post-reboot Prompt Together availability. Pending maintainer execution: detected architecture/Debian/glibc, full/reload memory and p99 measurements, independent restarts, failed deployment and recovery, repeat publish, rollbacks, invalid snapshot rejection, rate-limit threshold, staging browser checks, production cutover, uptime monitor and stable-period cleanup. Record dates, commands, release/snapshot IDs and observed results in [the implementation record](implementation/epic06.md).

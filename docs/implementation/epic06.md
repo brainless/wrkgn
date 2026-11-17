@@ -67,4 +67,17 @@ This session then ran repeated `curl` GETs against `https://next.wrkgn.com`:
 - `/` at Age 101–107 s: still HIT. This is expected, because edge lifetime comes from `Cloudflare-CDN-Cache-Control` (7 days for public HTML, plus 1 day stale-while-revalidate). Browser `max-age=60` does not bound edge lifetime. Expired-content and stale-while-revalidate behavior remain unobserved because of the 7-day TTL.
 - After the maintainer ran `scripts/publish-data.sh --purge-only` ("Purged configured production and staging hostnames"), every URL above, including the CSS asset, returned MISS once and then HIT. `/healthz` remained DYNAMIC. Lower-tier versus upper-tier fills were not distinguished.
 
-Still pending: setup idempotency, repeat publication, data rollback/restoration, binary rollback/restoration, invalid snapshot rejection, failed activation/recovery, restarts/reboot, outside-port checks, full/reload performance and memory, SSL/TLS, WAF, rate limiting and bot settings, expired-content/stale behavior, manual browser checks, production cutover, uptime monitor and stable-period cleanup. No DNS or Cloudflare settings have been changed by agents.
+### 2026-11-17: remaining zone settings, repeat setup, third deployment and reboot
+
+The maintainer reports that Always Use HTTPS, minimum TLS 1.2 and the Free Managed Ruleset were checked or applied. Bot Fight Mode is off and no rate-limiting rule is configured. The maintainer then ran `scripts/setup-vps.sh --credentials ...` (a repeat setup on the configured host), `scripts/deploy.sh`, `scripts/publish-data.sh` and a deliberate VPS reboot. Their output was not reported. This session then ran:
+
+- `scripts/status.sh`: boot at 14:21:20 UTC. `wrkgn-web` and `cloudflared-wrkgn` were enabled and active from 14:21:38 without intervention, with no recent warning/error entries. Release `20261117T134535Z-ef750ef7cc65-7428` and snapshot `de09f5cc862da924` were selected, and loopback health matched. Three releases and three snapshots were retained. Web memory was 52.4 MiB (limit 1.0 GiB) and tunnel memory 62.8 MiB (limit 256 MiB). These are post-boot idle observations. The repeat setup rewrote the purge record to "verified by successful hostname purge at 2026-11-17T13:12:15Z".
+- `target/release/wrkgn-web check local-data/public-export`: version `de09f5cc862da924`, matching the active snapshot.
+- `https://next.wrkgn.com/healthz`: the same build and snapshot. `http://next.wrkgn.com/`: 301 to HTTPS. A TLS 1.1-capped client failed to connect, while TLS 1.2 succeeded.
+- Over SSH: `wrkgn-web` listens only on `127.0.0.1:3000`, and only Nginx listens on 80/443. `cloudflared.service` has no unit file and is inactive. Nginx is active.
+- From the maintainer's network: `nc` to the VPS public IP on port 3000 was closed/filtered, and HTTP to `:3000/healthz` failed.
+- `https://promptogether.com`: 200 after the reboot. `http://promptogether.com`: 301 to HTTPS. Prompt Together was not checked before or between the maintainer's steps.
+
+This covers setup idempotency on the host, a third successful deployment, publication of a further changed snapshot, reboot recovery of both units, the default-unit check and the outside-port check. Independent web/tunnel restarts were not separately exercised.
+
+Still pending: repeat (unchanged) publication, data rollback/restoration, binary rollback/restoration, invalid snapshot rejection, failed activation/recovery, independent service restarts, full/reload performance and memory, rate-limit threshold, expired-content/stale behavior, manual browser checks, production cutover, uptime monitor and stable-period cleanup. No DNS or Cloudflare settings have been changed by agents.
