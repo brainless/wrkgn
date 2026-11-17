@@ -106,4 +106,10 @@ Afterwards, `scripts/status.sh` and SSH showed:
 - `wrkgn-web` was active from 15:57:59 UTC with `NRestarts=9`. The journal shows systemd restart failures at about 3-second intervals from 15:57:28 to 15:57:57, so staging origin was unavailable for roughly 30 seconds; cached pages may have covered part of that window.
 - Prompt Together returned HTTPS 200 and HTTP 301 afterwards.
 
-Still pending: full/reload performance and memory, rate-limit threshold, expired-content/stale behavior, manual browser checks, production cutover, uptime monitor and stable-period cleanup. No DNS or Cloudflare settings have been changed by agents.
+### 2026-11-17: staging browser checks and measurement deferral
+
+The maintainer reports the [manual browser checklist](../development.md#manual-browser-checklist) passed on `https://next.wrkgn.com`. The maintainer chose to defer full/reload performance and memory measurements past cutover. The `wrkgn-web` 1 GiB and tunnel 256 MiB limits therefore remain provisional, and the p99 budget is unmeasured.
+
+Before cutover, `wrkgn.com` resolved to Cloudflare proxy addresses served by Pages, and `/healthz` returned Pages HTML. `www.wrkgn.com` had no DNS record. The tunnel ingress already lists `wrkgn.com` and `next.wrkgn.com`.
+
+Still pending: production cutover, uptime monitor, full/reload performance and memory, rate-limit threshold, expired-content/stale behavior and stable-period cleanup. No DNS or Cloudflare settings have been changed by agents.
