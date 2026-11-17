@@ -69,7 +69,7 @@ Brief process restarts are expected; cached/stale Cloudflare responses may cover
 
 ## Cloudflare dashboard configuration
 
-The scripts do not configure zone settings. Record actual plan, enabled settings and observed behavior below after applying them. On 2026-11-17 the maintainer applied the public cache and bypass rules below and enabled Smart Tiered Cache; staging HIT/purge behavior is recorded in [the implementation record](implementation/epic06.md). The zone plan, SSL/TLS, WAF, rate limiting and bot settings are **not inspected**; no dashboard settings have been applied by agents.
+The scripts do not configure zone settings. Record actual plan, enabled settings and observed behavior below after applying them. On 2026-11-17 the maintainer applied the public cache and bypass rules below and enabled Smart Tiered Cache; staging HIT/purge behavior is recorded in [the implementation record](implementation/epic06.md). The zone is on the Cloudflare **Free** plan (maintainer-reported). SSL/TLS, WAF, rate limiting and bot settings are **not inspected**; no dashboard settings have been applied by agents.
 
 | Setting | Required action and verification |
 | --- | --- |

@@ -56,7 +56,7 @@ The maintainer applied these dashboard settings. The zone had no prior cache rul
 - Cache rule `wrkgn bypass`, ordered after it: same hosts and path `/healthz`, `/api`, `/api/*`, `/account` or `/account/*`; bypass cache.
 - Caching Level Standard; Smart Tiered Cache enabled.
 
-Zone plan, SSL/TLS, WAF, rate limiting and bot settings were not inspected or reported.
+The maintainer reports the zone is on the Free plan. SSL/TLS, WAF, rate limiting and bot settings were not inspected or reported.
 
 This session then ran repeated `curl` GETs against `https://next.wrkgn.com`:
 
@@ -67,4 +67,4 @@ This session then ran repeated `curl` GETs against `https://next.wrkgn.com`:
 - `/` at Age 101–107 s: still HIT. This is expected, because edge lifetime comes from `Cloudflare-CDN-Cache-Control` (7 days for public HTML, plus 1 day stale-while-revalidate). Browser `max-age=60` does not bound edge lifetime. Expired-content and stale-while-revalidate behavior remain unobserved because of the 7-day TTL.
 - After the maintainer ran `scripts/publish-data.sh --purge-only` ("Purged configured production and staging hostnames"), every URL above, including the CSS asset, returned MISS once and then HIT. `/healthz` remained DYNAMIC. Lower-tier versus upper-tier fills were not distinguished.
 
-Still pending: setup idempotency, repeat publication, data rollback/restoration, binary rollback/restoration, invalid snapshot rejection, failed activation/recovery, restarts/reboot, outside-port checks, full/reload performance and memory, zone plan, SSL/TLS, WAF, rate limiting and bot settings, expired-content/stale behavior, manual browser checks, production cutover, uptime monitor and stable-period cleanup. No DNS or Cloudflare settings have been changed by agents.
+Still pending: setup idempotency, repeat publication, data rollback/restoration, binary rollback/restoration, invalid snapshot rejection, failed activation/recovery, restarts/reboot, outside-port checks, full/reload performance and memory, SSL/TLS, WAF, rate limiting and bot settings, expired-content/stale behavior, manual browser checks, production cutover, uptime monitor and stable-period cleanup. No DNS or Cloudflare settings have been changed by agents.
