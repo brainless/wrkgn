@@ -80,4 +80,30 @@ The maintainer reports that Always Use HTTPS, minimum TLS 1.2 and the Free Manag
 
 This covers setup idempotency on the host, a third successful deployment, publication of a further changed snapshot, reboot recovery of both units, the default-unit check and the outside-port check. Independent web/tunnel restarts were not separately exercised.
 
-Still pending: repeat (unchanged) publication, data rollback/restoration, binary rollback/restoration, invalid snapshot rejection, failed activation/recovery, independent service restarts, full/reload performance and memory, rate-limit threshold, expired-content/stale behavior, manual browser checks, production cutover, uptime monitor and stable-period cleanup. No DNS or Cloudflare settings have been changed by agents.
+### 2026-11-17: restart, publication, rollback and failed-activation drills
+
+The maintainer ran the following and reported success without pasting output. The expected results were the ones listed with each step:
+
+- `sudo systemctl restart wrkgn-web`, then `sudo systemctl restart cloudflared-wrkgn`, with `/healthz` checked after each.
+- A repeat `scripts/publish-data.sh` of unchanged snapshot `de09f5cc862da924`.
+- `scripts/publish-data.sh --export <scratch copy>`, where the copy had the same pointer/manifest and the `evidence` table dropped. The local `wrkgn-web check` rejects that copy with "missing public snapshot tables", so publication should fail before upload.
+- `scripts/publish-data.sh --rollback` (to `eaf547688b75f209`), then `scripts/publish-data.sh` to restore `de09f5cc862da924`.
+- `scripts/deploy.sh --rollback` twice: rollback to the previous release, then swap back.
+
+Failed activation: a temporary uncommitted change made `wrkgn-web` exit when serving, while `check` kept working. The change was reverted afterwards and never committed. `scripts/deploy.sh --allow-dirty` uploaded and selected release `20261117T155606Z-5a858e99fbd6-dirty-17852` and reported:
+
+```text
+Health verification failed: curl: (7) Failed to connect to 127.0.0.1 port 3000 after 0 ms: Couldn't connect to server
+Release activation failed; restoring previous release. Last health: curl: (7) Failed to connect to 127.0.0.1 port 3000 after 0 ms: Couldn't connect to server
+Previous release restored and healthy.
+```
+
+Afterwards, `scripts/status.sh` and SSH showed:
+
+- `current` was `20261117T144913Z-5a858e99fbd6-12613`, the release selected before the drill, and `previous` was still `20261117T134535Z-ef750ef7cc65-7428`. The failed deployment did not change the rollback target.
+- The snapshot was `de09f5cc862da924`, and staging health matched.
+- The failed release directory remains retained and unselected.
+- `wrkgn-web` was active from 15:57:59 UTC with `NRestarts=9`. The journal shows systemd restart failures at about 3-second intervals from 15:57:28 to 15:57:57, so staging origin was unavailable for roughly 30 seconds; cached pages may have covered part of that window.
+- Prompt Together returned HTTPS 200 and HTTP 301 afterwards.
+
+Still pending: full/reload performance and memory, rate-limit threshold, expired-content/stale behavior, manual browser checks, production cutover, uptime monitor and stable-period cleanup. No DNS or Cloudflare settings have been changed by agents.
