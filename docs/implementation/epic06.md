@@ -38,4 +38,14 @@ The maintainer reports local prerequisites installed and setup/deploy completed.
 - Two GETs of `https://next.wrkgn.com/`: HTTP 200 and `Cache-Control: public, max-age=60`, but both reported `CF-Cache-Status: DYNAMIC`. HTML edge caching is not yet verified; inspect the zone cache rules before cutover. Returned HTML identified the newly published snapshot.
 - `curl --max-time 20 -sS -D - -o /dev/null https://promptogether.com`: HTTP 200 during publication. This does not establish an origin-specific coexistence test or HTTP/reboot availability.
 
-Still pending: setup idempotency, repeat publication, data rollback/restoration, a second deployment and binary rollback/restoration, invalid snapshot rejection, failed activation/recovery, restarts/reboot, outside-port checks, full/reload performance and memory, zone settings and cache HIT/purge/stale behavior, manual browser checks, production cutover, uptime monitor and stable-period cleanup. No DNS or Cloudflare settings were changed in this session.
+### 2026-11-17: second deployment from a clean commit
+
+The maintainer ran these commands and reported their final output lines:
+
+- `scripts/deploy.sh` at commit `b66edfc` (clean tree, no `--purge`): validated schema 6 snapshot `eaf547688b75f209` and reported healthy release `20261117T120205Z-b66edfc7d784-2097` with snapshot `eaf547688b75f209`.
+- `scripts/status.sh`: retained releases `20261116T083842Z-daff6497e8dd-dirty-11434` and `20261117T120205Z-b66edfc7d784-2097`; retained snapshots `9086b9a28e419548` and `eaf547688b75f209`. The setup hostname-purge record still said unverified. Service status, pointer and memory lines were not reported.
+- `curl -sS -D - https://next.wrkgn.com/healthz`: served through Cloudflare, body `{"build":"20261117T120205Z-b66edfc7d784-2097","snapshot":"eaf547688b75f209"}`. Status and cache headers were not reported.
+
+This establishes a successful second deployment of a traceable, non-dirty build, with the earlier dirty release retained as the rollback target. It does not exercise binary rollback, failed activation or recovery.
+
+Still pending: setup idempotency, repeat publication, data rollback/restoration, binary rollback/restoration, invalid snapshot rejection, failed activation/recovery, restarts/reboot, outside-port checks, full/reload performance and memory, zone settings and cache HIT/purge/stale behavior, manual browser checks, production cutover, uptime monitor and stable-period cleanup. No DNS or Cloudflare settings have been changed by agents.
