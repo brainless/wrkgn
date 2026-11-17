@@ -27,4 +27,15 @@ Retain the last Pages deployment and repository integration as documented until 
 
 ## Live results
 
-Not yet executed. Add dates, exact commands, observed results, build IDs and snapshot versions here after maintainer testing, including any zone-plan limitations and the eventual cleanup date.
+### 2026-11-16: staging status and changed-snapshot publication
+
+The maintainer reports local prerequisites installed and setup/deploy completed. This session independently ran:
+
+- `scripts/status.sh`: both `wrkgn-web` and `cloudflared-wrkgn` enabled and active; no recent warning/error journal entries. Selected build `20261116T083842Z-daff6497e8dd-dirty-11434`, initial snapshot `9086b9a28e419548`. Only one release and one snapshot were retained before publication. Web service memory was 38.3 MiB and tunnel memory 23.3 MiB; these are idle observations, not full/reload peak measurements. Setup's hostname-purge record still said unverified.
+- `target/release/wrkgn-web check local-data/public-export`: valid schema 6, version `eaf547688b75f209`.
+- `scripts/publish-data.sh`: exited successfully, verified active snapshot `eaf547688b75f209`, and reported successful purge of configured production/staging hostnames. This tested changed-data publication, not repeat publication. The setup purge record is not rewritten by this command.
+- `curl --max-time 20 -sS -D - https://next.wrkgn.com/healthz`, before and after publication: HTTP 200, `Cache-Control: no-store`, `CF-Cache-Status: DYNAMIC`; build unchanged and final snapshot `eaf547688b75f209`.
+- Two GETs of `https://next.wrkgn.com/`: HTTP 200 and `Cache-Control: public, max-age=60`, but both reported `CF-Cache-Status: DYNAMIC`. HTML edge caching is not yet verified; inspect the zone cache rules before cutover. Returned HTML identified the newly published snapshot.
+- `curl --max-time 20 -sS -D - -o /dev/null https://promptogether.com`: HTTP 200 during publication. This does not establish an origin-specific coexistence test or HTTP/reboot availability.
+
+Still pending: setup idempotency, repeat publication, data rollback/restoration, a second deployment and binary rollback/restoration, invalid snapshot rejection, failed activation/recovery, restarts/reboot, outside-port checks, full/reload performance and memory, zone settings and cache HIT/purge/stale behavior, manual browser checks, production cutover, uptime monitor and stable-period cleanup. No DNS or Cloudflare settings were changed in this session.
