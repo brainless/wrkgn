@@ -131,7 +131,7 @@ The maintainer has inspected many detail pages and the project list and consider
 
 ## Rust web server (Epic 05)
 
-`crates/wrkgn-web/` depends on `crates/public-snapshot/`, with no pipeline/Rig/HN dependency. It renders Askama templates from a read-only public SQLite pool on blocking threads. Discovery/search fields live in memory with four presorted ID orders. It serves HTML rather than discovery/detail JSON. Epic 06 provides separate VPS deployment scripts; these local commands never deploy. Live cutover remains pending.
+`crates/wrkgn-web/` depends on `crates/public-snapshot/`, with no pipeline/Rig/HN dependency. It renders Askama templates from a read-only public SQLite pool on blocking threads. Discovery/search fields live in memory with four presorted ID orders. It serves HTML rather than discovery/detail JSON. Epic 06 provides separate VPS deployment scripts; these local commands never deploy. Production has served from the VPS since the 2026-11-18 cutover.
 
 From the repository root:
 
