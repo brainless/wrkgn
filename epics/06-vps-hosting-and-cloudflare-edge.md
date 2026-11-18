@@ -1,6 +1,6 @@
 # Epic 06: VPS hosting behind Cloudflare and production cutover
 
-Status: Setup/deployment/publication tooling and documentation implemented through four delegated tasks. Bash syntax checks passed; ShellCheck was unavailable. No review or test-suite/live infrastructure runs were performed, as requested. Staging, production cutover, live acceptance checks and stable-period Astro/JSON cleanup remain maintainer work. See [implementation record](../docs/implementation/epic06.md) and [hosting runbook](../docs/hosting.md).
+Status: Setup/deployment/publication tooling and documentation implemented through four delegated tasks. Bash syntax checks passed; ShellCheck was unavailable. No review or test-suite/live infrastructure runs were performed, as requested. The maintainer subsequently ran staging and live acceptance checks and cut production over on 2026-11-18. The uptime monitor, deferred performance/memory measurements and stable-period Astro/JSON cleanup (no earlier than 2026-12-02) remain. See [implementation record](../docs/implementation/epic06.md) and [hosting runbook](../docs/hosting.md).
 
 Depends on: [Epic 05](05-rust-web-server.md).
 

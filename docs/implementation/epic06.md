@@ -112,4 +112,18 @@ The maintainer reports the [manual browser checklist](../development.md#manual-b
 
 Before cutover, `wrkgn.com` resolved to Cloudflare proxy addresses served by Pages, and `/healthz` returned Pages HTML. `www.wrkgn.com` had no DNS record. The tunnel ingress already lists `wrkgn.com` and `next.wrkgn.com`.
 
-Still pending: production cutover, uptime monitor, full/reload performance and memory, rate-limit threshold, expired-content/stale behavior and stable-period cleanup. No DNS or Cloudflare settings have been changed by agents.
+### 2026-11-18: production cutover
+
+The maintainer removed `wrkgn.com` from the Pages project's custom domains. No separate Pages DNS record was visible afterwards; only `next.wrkgn.com` remained. The maintainer then ran `cloudflared tunnel route dns wrkgn wrkgn.com`, confirmed a proxied CNAME to the `ed1dbb5c-a6ba-4b19-ae70-c7936df8d5dd` tunnel, and ran `scripts/publish-data.sh --purge-only`. The maintainer reports `https://wrkgn.com` shows the latest project count in a browser rather than the Pages data.
+
+This session then checked `https://wrkgn.com` with `curl`:
+
+- `/healthz`: 200, `no-store`, DYNAMIC on repeat, with body `{"build":"20261117T144913Z-5a858e99fbd6-12613","snapshot":"de09f5cc862da924"}`. Before cutover the same URL returned Pages HTML.
+- `http://wrkgn.com/`: 301 to `https://wrkgn.com/`. A TLS 1.1-capped client failed. The canonical link is `https://wrkgn.com/`.
+- `/?q=tool`, `/projects/mib-8e3bc2382f/` and the `/projects/` → `/` 301: MISS, then HIT. `/` was already HIT, warmed by the maintainer's browser visit after the purge. `/assets/global-FA4ILTJY.css`: HIT. `/api`: 404 and DYNAMIC on repeat.
+- Content-Security-Policy, `X-Content-Type-Options: nosniff` and `Referrer-Policy` are present.
+- `https://promptogether.com` returned 200, and `https://next.wrkgn.com/healthz` returned 200.
+
+Rollback remains reattaching `wrkgn.com` to the Pages project after removing the tunnel CNAME. Keep the Pages project until stable-period cleanup, no earlier than 2026-12-02.
+
+Still pending: external uptime monitor, full/reload performance and memory, rate-limit threshold, expired-content/stale behavior, Pages repository disconnection and stable-period cleanup.

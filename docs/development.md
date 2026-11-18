@@ -218,7 +218,7 @@ Deploy requires Node, Python 3, Zig, cargo-zigbuild and the installed Rust Linux
 
 `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ZONE_ID` are read locally from environment or `.env`; only those assignments are parsed without executing the file. Purges name both configured hostnames. Missing token warns and skips purge; a failed purge after a successful publication requires `--purge-only`. Tokens never go to the VPS. A shared server lock serializes release and snapshot pointer changes.
 
-For shell changes, run `shellcheck scripts/*.sh scripts/lib/*.sh` when available and `bash -n` on each script. Agents ran Bash syntax checks only; ShellCheck was unavailable. No live setup, deployment, publication, rollback or cache checks were performed. Staging/browser/live validation remains maintainer work. Keep Astro and JSON compatibility until the documented cleanup gate.
+For shell changes, run `shellcheck scripts/*.sh scripts/lib/*.sh` when available and `bash -n` on each script. Agents ran Bash syntax checks only; ShellCheck was unavailable. Live setup, deployment, publication, rollback, cache and browser checks were later run by the maintainer; see [the implementation record](implementation/epic06.md). Keep Astro and JSON compatibility until the documented cleanup gate.
 
 ## Static website (Epic 03)
 

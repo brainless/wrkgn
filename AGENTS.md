@@ -7,7 +7,7 @@ These instructions apply to coding assistants working in this repository, not to
 - Read [MANAGE.md](MANAGE.md) for the maintainer runbook, publication steps, and the existing Cloudflare integration at wrkgn.com. Keep it consistent when commands or workflow change.
 - Read [docs/PRD.md](docs/PRD.md) for product requirements and agreed architecture.
 - Read [docs/development.md](docs/development.md) for the implemented commands, data contracts, and local checks. [docs/categories.md](docs/categories.md) defines the fixed category taxonomy.
-- Epics 01–06 in [epics/](epics/) have implementations. Epic 06 tooling awaits maintainer tests and live staging/cutover; Astro cleanup remains deferred until the stable period. Read status/validation sections and [docs/hosting.md](docs/hosting.md) before infrastructure work. Later planned epics do not describe existing capabilities.
+- Epics 01–06 in [epics/](epics/) have implementations. Epic 06 staging checks passed and `wrkgn.com` was cut over to the VPS tunnel on 2026-11-18. Astro/JSON cleanup remains deferred until at least two stable weeks (no earlier than 2026-12-02). Read status/validation sections and [docs/hosting.md](docs/hosting.md) before infrastructure work. Later planned epics do not describe existing capabilities.
 - Keep requirements consistent when decisions change: rewrite affected sections rather than appending contradictory alternatives.
 
 ## Architecture
@@ -15,7 +15,7 @@ These instructions apply to coding assistants working in this repository, not to
 - All HN collection, LLM processing, review, working-database writes, and public snapshot generation run locally on the maintainer's computer.
 - Use Rust for the pipeline and Rig for structured LLM extraction. The HN API reader is deterministic Rust code and uses no agents.
 - Keep raw and processed records in separate tables in one local SQLite database. Preserve source IDs, authors, dates, evidence, and reply relationships.
-- `wrkgn-web` renders HTML from a separate immutable, read-only public SQLite snapshot. `crates/public-snapshot/` defines its schema and validation; the server has no pipeline, Rig, or HN dependency. Later community data belongs in a separate server-owned database. Epic 06 provides VPS deployment behind a wrkgn-owned Cloudflare Tunnel. Live setup/cutover remain pending; preserve Astro and JSON compatibility until the stable-period cleanup.
+- `wrkgn-web` renders HTML from a separate immutable, read-only public SQLite snapshot. `crates/public-snapshot/` defines its schema and validation; the server has no pipeline, Rig, or HN dependency. Later community data belongs in a separate server-owned database. Epic 06 provides VPS deployment behind a wrkgn-owned Cloudflare Tunnel. Production has served from the VPS since the 2026-11-18 cutover; preserve Astro and JSON compatibility until the stable-period cleanup.
 - Generate date-ordered paginated lists and stable per-project slug pages. Enhance card navigation with a dynamic modal using the same project URL and content. Rust performs search, Category/Audience filtering, sorting, and pagination over an in-memory discovery index; TypeScript enhances ordinary HTML navigation. The legacy Astro site continues browser discovery against JSON until cutover.
 - Never ship the working SQLite database, credentials, raw payloads, or private processing/review history as website assets.
 
@@ -34,7 +34,7 @@ Validate structured output in Rust. Retain processing versions and source finger
 - `deploy/wrkgn.conf` is the shared non-secret source for SSH alias, port, hostnames and tunnel name. `scripts/setup-vps.sh --credentials PATH` adapts the shared Debian host; preserve Prompt Together's users, firewall, Nginx and certificates. Never claim the default cloudflared config/service or share another project's tunnel.
 - `scripts/deploy.sh` builds assets and LLVM Linux releases locally, validates the export and verifies activation; `--allow-dirty` explicitly permits an uncommitted build. Only first deployment seeds a missing server snapshot. `scripts/publish-data.sh` validates/uploads only the selected public SQLite snapshot, verifies reload, then purges wrkgn hostnames. Both support `--rollback`; publish supports `--purge-only`, deploy supports optional `--purge`. `scripts/status.sh` is read-only over SSH.
 - Cloudflare purge credentials stay local in environment/`.env`; never use whole-zone purge. Missing token warns and skips purge, which can leave stale content. No collection or LLM activity runs on the VPS.
-- Do not push large snapshot changes to main while Pages remains connected. Keep `website/`, tracked fallback data and JSON export generation until staging, cutover and at least two stable weeks. Follow [hosting.md](docs/hosting.md) for manual gates and the cleanup handoff.
+- Do not push large snapshot changes to main while Pages remains connected. Keep `website/`, tracked fallback data and JSON export generation until at least two stable weeks after the 2026-11-18 cutover. Follow [hosting.md](docs/hosting.md) for manual gates and the cleanup handoff.
 - Service resource limits are provisional until actual full/two-snapshot memory measurements are recorded. Do not treat implementation or syntax checks as evidence of live coexistence, cache behavior or successful cutover.
 
 ## Rust conventions and references

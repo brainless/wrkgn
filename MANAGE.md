@@ -1,6 +1,6 @@
 # Managing wrkgn.com
 
-Epic 06 provides the VPS deployment and data-publication commands below. Live VPS setup, staging verification, DNS cutover, and the stable-period cleanup have not been performed by the implementation agents. The last Cloudflare Pages deployment remains the production fallback until the maintainer completes [hosting and cutover](docs/hosting.md).
+Epic 06 provides the VPS deployment and data-publication commands below. The maintainer completed live VPS setup and staging verification, and cut `wrkgn.com` over to the tunnel on 2026-11-18. The last Cloudflare Pages deployment, detached from the domain, remains the DNS rollback until the stable-period cleanup described in [hosting and cutover](docs/hosting.md).
 
 Collection, model processing, review, the working database, and export stay on the maintainer's computer. The VPS receives only a release binary and the allowlisted public SQLite snapshot. The new publication flow is:
 
