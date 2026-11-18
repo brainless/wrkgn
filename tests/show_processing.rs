@@ -1046,3 +1046,180 @@ fn monthly_pending_review_keeps_legacy_excerpt_without_invented_field_support() 
     assert_eq!(json["source_item_id"], 201);
     assert_eq!(json["evidence"], json!([]));
 }
+
+struct MultiApi;
+impl HnApi for MultiApi {
+    fn fetch_item(&self, id: i64) -> Result<Option<Value>, FetchError> {
+        Ok(Some(match id {
+            // Story 100 is oversized: three chunks plus two consolidations.
+            100..=103 => return BranchApi.fetch_item(id),
+            200 | 300 => {
+                json!({"id":id,"type":"story","title":format!("Show HN: Story {id}"),"by":"alice","time":1000 + id,"kids":[]})
+            }
+            _ => panic!(),
+        }))
+    }
+}
+/// Answers by story and tracks how many calls overlap.
+#[derive(Default)]
+struct StoryModel {
+    running: AtomicUsize,
+    peak: AtomicUsize,
+    fail: Vec<i64>,
+}
+impl Model for StoryModel {
+    fn name(&self) -> &str {
+        "story-fixture"
+    }
+    fn extract(&self, _: &str) -> Result<Extraction, String> {
+        panic!("monthly called")
+    }
+    fn extract_show(&self, prompt: &str) -> Result<ShowExtraction, String> {
+        let now = self.running.fetch_add(1, Ordering::SeqCst) + 1;
+        self.peak.fetch_max(now, Ordering::SeqCst);
+        std::thread::sleep(std::time::Duration::from_millis(40));
+        self.running.fetch_sub(1, Ordering::SeqCst);
+        let story = serde_json::from_str::<Value>(prompt).unwrap()["story_id"]
+            .as_i64()
+            .unwrap();
+        if self.fail.contains(&story) {
+            return Err("permanent failure".into());
+        }
+        let title = if story == 100 {
+            "Show HN: Alpha".to_string()
+        } else {
+            format!("Show HN: Story {story}")
+        };
+        let mut result = output();
+        let project = result.project.as_mut().unwrap();
+        project.mention.source_item_id = story;
+        project.mention.urls = vec![];
+        project.mention.source_excerpt = title.clone();
+        project.evidence = vec![ShowEvidence {
+            source_item_id: story,
+            source_field: "title".into(),
+            value: title,
+            supports: vec!["name".into(), "description".into()],
+            authorization_source_item_id: None,
+        }];
+        Ok(result)
+    }
+}
+fn multi_store() -> (tempfile::TempDir, Store) {
+    let dir = tempfile::tempdir().unwrap();
+    let mut store = Store::open(dir.path().join("db")).unwrap();
+    for story in [100, 200, 300] {
+        Collector::new(MultiApi, CollectionConfig::default())
+            .collect(&mut store, story)
+            .unwrap();
+        store
+            .assign_extraction_mode(story, ExtractionMode::ShowHn)
+            .unwrap();
+    }
+    (dir, store)
+}
+type StoredResults = (Vec<(i64, String, String)>, Vec<(i64, String)>);
+fn stored_results(dir: &tempfile::TempDir) -> StoredResults {
+    let conn = db(dir);
+    let rows = |sql: &str| -> Vec<Vec<rusqlite::types::Value>> {
+        let mut statement = conn.prepare(sql).unwrap();
+        let n = statement.column_count();
+        statement
+            .query_map([], |r| (0..n).map(|i| r.get(i)).collect())
+            .unwrap()
+            .collect::<Result<_, _>>()
+            .unwrap()
+    };
+    let text = |v: &rusqlite::types::Value| match v {
+        rusqlite::types::Value::Text(t) => t.clone(),
+        rusqlite::types::Value::Integer(i) => i.to_string(),
+        _ => String::new(),
+    };
+    let cache = rows("SELECT thread_id,cache_key,output_json FROM show_chunk_cache ORDER BY 1,2");
+    let mentions = rows("SELECT root_item_id,name FROM mentions ORDER BY 1");
+    (
+        cache
+            .iter()
+            .map(|r| (text(&r[0]).parse().unwrap(), text(&r[1]), text(&r[2])))
+            .collect(),
+        mentions
+            .iter()
+            .map(|r| (text(&r[0]).parse().unwrap(), text(&r[1])))
+            .collect(),
+    )
+}
+#[test]
+fn concurrent_batch_matches_sequential_results_and_cache() {
+    let run = |concurrency: usize| {
+        let (dir, mut store) = multi_store();
+        let model = StoryModel::default();
+        let options = Options {
+            concurrency,
+            ..Options::default()
+        };
+        let results = wrkgn::show_extraction::process_batch(
+            &mut store,
+            &[100, 200, 300],
+            &model,
+            false,
+            &options,
+            |_| {},
+        );
+        for result in &results {
+            let report = result.as_ref().unwrap();
+            assert!(report.failed.is_empty(), "{:?}", report.failed);
+            assert_eq!(report.processed, 1);
+        }
+        (stored_results(&dir), model.peak.load(Ordering::SeqCst))
+    };
+    let (sequential, peak_one) = run(1);
+    let (concurrent, peak_three) = run(3);
+    assert_eq!(peak_one, 1);
+    assert!(peak_three > 1 && peak_three <= 3, "peak {peak_three}");
+    assert_eq!(sequential, concurrent);
+    // Story 100 caches three chunks and two consolidations; 200 and 300 one each.
+    assert_eq!(sequential.0.len(), 7 + 3);
+    assert_eq!(sequential.1.len(), 3);
+}
+#[test]
+fn concurrency_limit_is_respected_and_one_failure_is_isolated() {
+    let (dir, mut store) = multi_store();
+    let model = StoryModel {
+        fail: vec![200],
+        ..StoryModel::default()
+    };
+    let options = Options {
+        concurrency: 2,
+        ..Options::default()
+    };
+    let mut progress = vec![];
+    let results = wrkgn::show_extraction::process_batch(
+        &mut store,
+        &[100, 200, 300],
+        &model,
+        false,
+        &options,
+        |p| progress.push((p.done, p.total, p.failed)),
+    );
+    assert_eq!(model.peak.load(Ordering::SeqCst), 2);
+    assert_eq!(results[0].as_ref().unwrap().processed, 1);
+    assert_eq!(results[1].as_ref().unwrap().failed.len(), 1);
+    assert_eq!(results[2].as_ref().unwrap().processed, 1);
+    assert_eq!(progress.first(), Some(&(0, 3, 0)));
+    assert_eq!(progress.last(), Some(&(3, 3, 1)));
+    let (_, mentions) = stored_results(&dir);
+    assert_eq!(mentions.iter().map(|m| m.0).collect::<Vec<_>>(), [100, 300]);
+    // A rerun resumes: unchanged successes are skipped, only the failure retries.
+    let model = StoryModel::default();
+    let results = wrkgn::show_extraction::process_batch(
+        &mut store,
+        &[100, 200, 300],
+        &model,
+        false,
+        &options,
+        |_| {},
+    );
+    assert_eq!(results[0].as_ref().unwrap().skipped, 1);
+    assert_eq!(results[1].as_ref().unwrap().processed, 1);
+    assert_eq!(results[2].as_ref().unwrap().skipped, 1);
+}
