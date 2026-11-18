@@ -12,6 +12,7 @@ pub mod publication;
 pub mod review_grid;
 pub mod show_hn;
 pub mod show_hn_discovery;
+pub mod snapshots;
 pub mod store;
 pub mod workflow;
 

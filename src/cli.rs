@@ -19,6 +19,7 @@ const USAGE:&str="Usage:
   wrkgn review match <from-project-id> <to-project-id> [--db <path>]
   wrkgn export [--db <path>] [--export <directory>]
   wrkgn categories normalize [--db <path>]
+  wrkgn snapshots prune [--keep <n>] [--dry-run] [--export <directory>]
   wrkgn --help
 
 WRKGN_DB_PATH defaults to local-data/wrkgn.sqlite. WRKGN_EXPORT_PATH defaults to local-data/public-export.
@@ -29,7 +30,10 @@ or WRKGN_PROVIDER=neuralwatt with NEURALWATT_API_KEY and default model glm-5.3-f
 NEURALWATT_BASE_URL optionally overrides https://api.neuralwatt.com/v1.
 --concurrency sets how many conversation groups are extracted in parallel (default 10).
 collect is the only command that fetches from HN.
-Review, category normalization, and export make no network calls.";
+Review, category normalization, and export make no network calls.
+snapshots prune is explicit and offline (no database): it keeps the version current.json selects
+plus the --keep (default 2) most recent others and removes older snapshots and abandoned .staging-*
+directories under <export>/snapshots only. Export never prunes. Use --dry-run first.";
 fn path_arg(args: &[String], flag: &str) -> Result<Option<PathBuf>, String> {
     let mut value = None;
     let mut i = 0;
@@ -191,6 +195,23 @@ pub fn run_with_api<C: HnApi>(
     }
 }
 fn run<C: HnApi>(args: &[String], api: C, out: &mut impl Write) -> Result<(), String> {
+    if args[0] == "snapshots" {
+        // Offline and database-free: dispatched before the store is opened.
+        if args.get(1).map(String::as_str) != Some("prune") {
+            return Err(
+                "usage: wrkgn snapshots prune [--keep <n>] [--dry-run] [--export <directory>]"
+                    .into(),
+            );
+        }
+        let (keep, dry_run, export) = crate::snapshots::parse_prune_args(&args[2..])?;
+        let export = match export {
+            Some(path) => path,
+            None => export_path(&[])?,
+        };
+        let report = crate::snapshots::prune(&export, keep, dry_run)?;
+        return crate::snapshots::write_report(out, &export, &report, dry_run)
+            .map_err(|e| e.to_string());
+    }
     if args[0] == "collect" || args[0] == "process" {
         let _ = thread_id(args)?;
         let _ = concurrency(args)?;

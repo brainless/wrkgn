@@ -160,6 +160,16 @@ cargo run --bin wrkgn -- export
 
 Export includes approved public records across the database, with corrections and suppression applied. It writes a completed versioned snapshot directory `snapshots/<version>/` holding the immutable `public.sqlite` and a small `manifest.json`, then atomically updates `local-data/public-export/current.json`, the version pointer. `public.sqlite` contains only allowlisted public records; the working database, raw payloads, private review history, and credentials are excluded.
 
+Each export with changed content adds a snapshot under `local-data/public-export/snapshots/`, and nothing removes old ones automatically, so the directory grows (3.1 GB by 2026-11-18). Only the version `current.json` selects is needed locally: publishing and deployment read just that one, and server rollback uses the server's own retained copies, not local ones. Reclaim space explicitly and offline, preferably after a dry run, and not while an export or `process` is running:
+
+```sh
+cargo run --bin wrkgn -- snapshots prune --dry-run
+cargo run --bin wrkgn -- snapshots prune            # keeps current + 2 most recent others
+cargo run --bin wrkgn -- snapshots prune --keep 0   # keeps only current
+```
+
+It also removes `.staging-*` directories left by interrupted exports when their process is no longer running, and refuses to run while one is live. Add `--export <dir>` to prune another export directory. A pruned version cannot be regenerated from the current database; to keep an older local version available for a deliberate re-publish (by pointing `current.json` at it), raise `--keep`.
+
 `process` and mutating review commands also attempt export automatically. `review pending` does not. An export failure can happen after processing or a review mutation has already committed, so inspect the current state rather than assuming the preceding work was rolled back.
 
 If export reports missing project excerpts or legacy audience labels, reprocess the affected threads with the current extractor and review the new results. Database migrations preserve legacy records; they do not silently relabel or approve them. For older free-text **category** data, the explicit offline migration is:
