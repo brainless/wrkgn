@@ -239,7 +239,7 @@ pub fn is_transient(error: &str) -> bool {
     .iter()
     .any(|p| e.contains(p))
 }
-fn validation_failure_kind(error: &str) -> Option<&'static str> {
+pub(crate) fn validation_failure_kind(error: &str) -> Option<&'static str> {
     [
         "structured output does not match the requested type",
         "the model returned no structured output",

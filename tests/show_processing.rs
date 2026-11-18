@@ -238,6 +238,32 @@ fn invalid_multi_project_response_rejected_by_schema() {
     assert!(serde_json::from_value::<ShowExtraction>(value).is_err());
 }
 #[test]
+fn schema_mismatch_gets_a_correction_and_permanent_errors_do_not() {
+    let (_dir, mut store) = setup();
+    let m = model(vec![
+        Err("structured output does not match the requested type: invalid type: string \"{\\\"evidence\\\": []}\", expected struct ShowProject".into()),
+        Ok(output()),
+    ]);
+    let report = process_thread(&mut store, 100, &m, false).unwrap();
+    assert!(report.failed.is_empty(), "{:?}", report.failed);
+    assert_eq!(report.processed, 1);
+    assert_eq!(m.calls.load(Ordering::SeqCst), 2);
+
+    let (_dir, mut store) = setup();
+    let m = model(vec![Err("permanent failure".into()), Ok(output())]);
+    let report = process_thread(&mut store, 100, &m, false).unwrap();
+    assert_eq!(report.failed.len(), 1);
+    assert_eq!(m.calls.load(Ordering::SeqCst), 1);
+
+    // The correction budget is bounded (one call plus two corrections).
+    let (_dir, mut store) = setup();
+    let bad = || Err("structured output does not match the requested type: x".to_string());
+    let m = model(vec![bad(), bad(), bad(), Ok(output())]);
+    let report = process_thread(&mut store, 100, &m, false).unwrap();
+    assert_eq!(report.failed.len(), 1);
+    assert_eq!(m.calls.load(Ordering::SeqCst), 3);
+}
+#[test]
 fn transport_failure_retains_previous_result() {
     let (dir, mut store) = setup();
     process_thread(&mut store, 100, &model(vec![Ok(output())]), false).unwrap();
