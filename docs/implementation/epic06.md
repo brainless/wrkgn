@@ -126,4 +126,6 @@ This session then checked `https://wrkgn.com` with `curl`:
 
 Rollback remains reattaching `wrkgn.com` to the Pages project after removing the tunnel CNAME. Keep the Pages project until stable-period cleanup, no earlier than 2026-12-02.
 
-Still pending: external uptime monitor, full/reload performance and memory, rate-limit threshold, expired-content/stale behavior, Pages repository disconnection and stable-period cleanup.
+After cutover, the maintainer configured an UptimeRobot monitor and ran `scripts/publish-data.sh` again. The local export was still `de09f5cc862da924`, so this was another unchanged publication. Production and staging health both reported that snapshot afterwards, with build `20261117T144913Z-5a858e99fbd6-12613`.
+
+Still pending: full/reload performance and memory, rate-limit threshold, expired-content/stale behavior, Pages repository disconnection and stable-period cleanup (no earlier than 2026-12-02).

@@ -1,6 +1,6 @@
 # VPS hosting and Cloudflare edge
 
-Epic 06 tooling is implemented. The maintainer completed setup, staging checks and the production DNS cutover on 2026-11-18; results are in [the implementation record](implementation/epic06.md). The last successful Pages deployment, detached from `wrkgn.com`, remains the DNS rollback until stable-period cleanup (no earlier than 2026-12-02). No external uptime monitor is recorded yet.
+Epic 06 tooling is implemented. The maintainer completed setup, staging checks and the production DNS cutover on 2026-11-18; results are in [the implementation record](implementation/epic06.md). The last successful Pages deployment, detached from `wrkgn.com`, remains the DNS rollback until stable-period cleanup (no earlier than 2026-12-02). An UptimeRobot monitor checks production health.
 
 ## Shared VPS resources
 
@@ -136,10 +136,10 @@ Do not push large snapshot updates to main while Pages remains connected: builds
 | Resource pressure | Inspect service memory/CPU and journal OOM/restart events; measure full/reload workload before adjusting limits, keeping headroom for other projects. |
 | Operation already running | Let the owning setup/deploy/publish finish; inspect SSH/process state before intervening. Do not bypass the shared lock. |
 
-Configure a free external uptime check against `https://wrkgn.com/healthz` after cutover, or explicitly retain the status **none configured**. Check response content as well as HTTP 200. Health is never cached and therefore checks origin availability through Cloudflare.
+On 2026-11-18 the maintainer configured UptimeRobot for `https://wrkgn.com/healthz`. Check response content as well as HTTP 200. Health is never cached and therefore checks origin availability through Cloudflare.
 
 For another Rust backend, reserve a distinct loopback port in this registry first; create separate non-login application/tunnel users, release/data/config directories, named tunnel, ingress config and systemd units in its own repository. Reuse only the installed cloudflared package and existing admin access. Never append its ingress to wrkgn's config, reuse wrkgn's credentials, alter Prompt Together, or install a competing default tunnel service.
 
 ## Live validation record
 
-Recorded through 2026-11-18: production cutover with production health/cache/redirect checks; Free plan, cache/bypass rules, Smart Tiered Cache, HTTPS/TLS and managed WAF settings, verified hostname purge, staging cache HIT/purge, repeat setup, three successful deployments, changed-snapshot publication, purge-only, reboot recovery, outside-port check, post-reboot Prompt Together availability, independent restarts, repeat publish, invalid snapshot rejection, data and release rollback, failed activation with automatic recovery, and staging browser checks. Full/reload memory and p99 measurements were deferred by the maintainer; service limits remain provisional. Pending maintainer execution: detected architecture/Debian/glibc, full/reload memory and p99 measurements, rate-limit threshold, uptime monitor and stable-period cleanup. Record dates, commands, release/snapshot IDs and observed results in [the implementation record](implementation/epic06.md).
+Recorded through 2026-11-18: production cutover with production health/cache/redirect checks; Free plan, cache/bypass rules, Smart Tiered Cache, HTTPS/TLS and managed WAF settings, verified hostname purge, staging cache HIT/purge, repeat setup, three successful deployments, changed-snapshot publication, purge-only, reboot recovery, outside-port check, post-reboot Prompt Together availability, independent restarts, repeat publish, invalid snapshot rejection, data and release rollback, failed activation with automatic recovery, and staging browser checks. Full/reload memory and p99 measurements were deferred by the maintainer; service limits remain provisional. Pending maintainer execution: detected architecture/Debian/glibc, full/reload memory and p99 measurements, rate-limit threshold and stable-period cleanup. Record dates, commands, release/snapshot IDs and observed results in [the implementation record](implementation/epic06.md).
