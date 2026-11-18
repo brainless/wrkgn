@@ -557,6 +557,8 @@ pub fn export(store: &mut Store, destination: &Path) -> Result<String, String> {
         );
         // Count distinct replies across published mention subtrees. UNION also
         // deduplicates overlapping trees when a project has several mentions.
+        // CROSS JOIN pins the join order so SQLite walks the replies and looks
+        // up source_items by primary key instead of scanning it per project.
         let source_ids: Vec<_> = mentions
             .iter()
             .map(|m| m["source_item_id"].clone())
@@ -569,7 +571,7 @@ pub fn export(store: &mut Store, destination: &Path) -> Result<String, String> {
                 UNION
                 SELECT s.item_id,s.thread_id FROM source_items s JOIN replies r
                 ON s.parent_id=r.item_id AND s.thread_id=r.thread_id WHERE s.present_in_tree=1
-            ) SELECT COUNT(*) FROM replies r JOIN source_items s ON s.item_id=r.item_id
+            ) SELECT COUNT(*) FROM replies r CROSS JOIN source_items s ON s.item_id=r.item_id
               WHERE s.deleted=0 AND s.dead=0 AND NOT EXISTS
               (SELECT 1 FROM source_suppression x WHERE x.source_item_id=s.item_id)",
             [serde_json::to_string(&source_ids).map_err(|e| e.to_string())?],
