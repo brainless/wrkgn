@@ -24,7 +24,7 @@ discovered and handled in batches of --batch-size stories (default 100, at most
 continues, then exits nonzero with a summary. Calendar ranges are inclusive UTC
 dates. Results await manual review unless --auto-approve is supplied. Rerun to refresh and resume unchanged successful work.
 Discovery depends on Algolia indexing; later reruns may discover more stories.
-Uses the same .env/provider settings as wrkgn. Website staging remains explicit.";
+Uses the same .env/provider settings as wrkgn. Publication to the server remains explicit.";
 
 enum Selection {
     Thread(i64),

@@ -1,4 +1,4 @@
-//! Local review controls and allowlisted, versioned public JSON export.
+//! Local review controls and allowlisted, versioned public SQLite snapshot export.
 use crate::audience::{self, Audience};
 use crate::category::{self, Category};
 use crate::store::Store;
@@ -619,18 +619,9 @@ pub fn export(store: &mut Store, destination: &Path) -> Result<String, String> {
         let staging = destination
             .join("snapshots")
             .join(format!(".staging-{}-{version}", std::process::id()));
-        fs::create_dir_all(staging.join("projects")).map_err(|e| e.to_string())?;
-        write_json(&staging.join("discovery.json"), &discovery)?;
-        for detail in &details {
-            write_json(
-                &staging
-                    .join("projects")
-                    .join(format!("{}.json", detail.slug)),
-                detail,
-            )?;
-        }
-        // Both representations are derived only from the public model captured
-        // by the consistent read transaction above; never re-read working state.
+        fs::create_dir_all(&staging).map_err(|e| e.to_string())?;
+        // The database is derived only from the public model captured by the
+        // consistent read transaction above; never re-read working state.
         let public_details: Vec<wrkgn_public_snapshot::Detail> = details
             .iter()
             .map(|detail| {
@@ -662,7 +653,7 @@ pub fn export(store: &mut Store, destination: &Path) -> Result<String, String> {
         )?;
         write_json(
             &staging.join("manifest.json"),
-            &json!({"schema_version":wrkgn_public_snapshot::SCHEMA_VERSION,"version":version,"discovery":"discovery.json","project_details":"projects/<slug>.json","database":"public.sqlite","project_count":details.len(),"categories":category::metadata(),"audiences":audience::metadata()}),
+            &json!({"schema_version":wrkgn_public_snapshot::SCHEMA_VERSION,"version":version,"database":"public.sqlite","project_count":details.len()}),
         )?;
         fs::rename(staging, &snapshot).map_err(|e| e.to_string())?;
     }

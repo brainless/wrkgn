@@ -1,6 +1,6 @@
 # Epic 06: VPS hosting behind Cloudflare and production cutover
 
-Status: Setup/deployment/publication tooling and documentation implemented through four delegated tasks. Bash syntax checks passed; ShellCheck was unavailable. No review or test-suite/live infrastructure runs were performed, as requested. The maintainer subsequently ran staging and live acceptance checks and cut production over on 2026-11-18. Deferred performance/memory measurements and stable-period Astro/JSON cleanup (no earlier than 2026-12-02) remain. See [implementation record](../docs/implementation/epic06.md) and [hosting runbook](../docs/hosting.md).
+Status: Setup/deployment/publication tooling and documentation implemented through four delegated tasks. Bash syntax checks passed; ShellCheck was unavailable. No review or test-suite/live infrastructure runs were performed, as requested. The maintainer subsequently ran staging and live acceptance checks and cut production over on 2026-11-18. Deferred performance/memory measurements remain. The Astro/JSON cleanup was performed on 2026-11-18 at the maintainer's direction, without a stable period, because marketing began that day. See [implementation record](../docs/implementation/epic06.md) and [hosting runbook](../docs/hosting.md).
 
 Depends on: [Epic 05](05-rust-web-server.md).
 
@@ -139,7 +139,7 @@ All server management scripts and infrastructure configuration belong to this ep
 
 ### Cutover and cleanup
 
-16. **Before cutover:** do not push large snapshot updates to `main`, because the Pages build fails above 20,000 files. The last successful Pages deployment remains live.
+16. **Before cutover:** the Pages deployment stayed live for the transition (historical; Pages is now retired).
 17. **Staging first:**
     - deploy and publish to `next.wrkgn.com`;
     - complete the maintainer's manual browser checks;
@@ -148,13 +148,13 @@ All server management scripts and infrastructure configuration belong to this ep
     - remove `wrkgn.com` from the Pages project's custom domains;
     - point the apex at the tunnel;
     - re-verify headers, redirects, and direct project URLs on `wrkgn.com`.
-    **Rollback:** reattach the domain to the Pages project, which serves its last deployment. Keep the Pages project for at least two weeks after cutover.
-19. **After a stable period:**
-    - disconnect the Pages repository integration;
+    **Rollback:** now `scripts/deploy.sh --rollback` and `scripts/publish-data.sh --rollback`; the Pages fallback is retired.
+19. **Cleanup (performed 2026-11-18, no stable period):**
+    - delete the Cloudflare Pages project and confirm no Pages DNS record remains (done by the maintainer);
     - delete the Astro application under `website/` and the tracked `website/data/public/`;
     - remove JSON discovery and detail generation from export if nothing else uses them;
     - update `.gitignore`.
-    Old snapshots remain in git history. Rewriting history is out of scope.
+    Old snapshots remain in Git history. Rewriting history is out of scope.
 20. **Documentation:**
     - Rewrite the publication sections of `MANAGE.md`: `export → publish-data.sh` replaces `stage → commit/push → Cloudflare`, and `deploy.sh` covers code releases.
     - Add `docs/hosting.md` covering server layout, services, tunnel setup, Cloudflare settings, and a troubleshooting guide. Include a VPS resource table listing each project's loopback port, service units, system users, tunnel name, and directories, and the steps for adding another project's tunnel without touching wrkgn's.
@@ -187,7 +187,7 @@ Website data no longer goes through git, and no build runs in Cloudflare.
 - `deploy.sh` builds on the Mac and deploys a working Linux binary. A failed health check rolls back automatically, and `--rollback` restores the previous release.
 - `publish-data.sh` validates, uploads, switches, verifies, and purges wrkgn's hostnames, in that order. An invalid snapshot never replaces the live one. Rollback works.
 - Through Cloudflare, cacheable pages report `HIT` after warming. Hostname purges take effect, and no script purges the whole zone. `/healthz` is never served from cache. Non-canonical URLs redirect.
-- `wrkgn.com` serves the Rust server with all existing public URLs working. The documented rollback to Pages stays available until cleanup.
+- `wrkgn.com` serves the Rust server with all existing public URLs working. Rollback is by the deploy and publish scripts; the Pages rollback was retired.
 - After cleanup, the repository contains no Astro site or tracked public snapshot data, and the documentation describes only the current workflow.
 - No credentials appear in git, script output, server logs, or files readable outside their service accounts.
 

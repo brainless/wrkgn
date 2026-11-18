@@ -1,6 +1,6 @@
 # Epic 03: Static directory and discovery experience
 
-Status: Implemented locally. Automated contract, state, and static-build checks pass; browser interaction checks are reserved for the maintainer's manual test. A real correction/removal contact and the three-thread pilot remain launch prerequisites.
+Status: Superseded. The Astro site delivered here was removed on 2026-11-18 together with its tracked data and the JSON export; the Rust server (Epics 05 and 06) is the only implementation. This record is historical. Original status: implemented locally. Automated contract, state, and static-build checks pass; browser interaction checks are reserved for the maintainer's manual test. A real correction/removal contact and the three-thread pilot remain launch prerequisites.
 
 Depends on: [Epic 02](02-structured-extraction-and-public-export.md)
 

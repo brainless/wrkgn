@@ -38,7 +38,7 @@ If a locally configured `sccache` Rust wrapper fails with a permission error, pr
 
 ## Local database
 
-The storage library opens `local-data/wrkgn.sqlite` by default. Set `WRKGN_DB_PATH` to a different SQLite file when needed. Its parent directory is created automatically. The working database belongs outside any public website directory; the default `local-data/` path and `.env` files are ignored by Git.
+The storage library opens `local-data/wrkgn.sqlite` by default. Set `WRKGN_DB_PATH` to a different SQLite file when needed. Its parent directory is created automatically. The working database belongs outside any directory that is served or published; the default `local-data/` path and `.env` files are ignored by Git.
 
 SQL migrations in `migrations/` are applied transactionally using SQLite's `user_version`. The source tables retain raw HN payloads, item IDs, authors, original timestamps, parent IDs, sibling order, deleted/dead flags, and first/last fetch times. Each changed source snapshot gets a numbered revision; a repeat fetch with identical source data only advances its last fetch time. Content fingerprints cover the body, title, URL, author, original timestamp, and deleted/dead state, while child-list and score changes are excluded. The revision history still records raw payload changes.
 
@@ -99,13 +99,20 @@ Offline tests inject paginated discovery responses, HN fixtures, and a determini
 
 ## Public snapshot contract
 
-Schema 6 adds `public.sqlite` next to the JSON files in each completed snapshot,
-with `database: "public.sqlite"` in its manifest. `current.json` retains its three
-fields and uses schema version 6. The version digest begins with
-`public-schema-6` and hashes the public records and taxonomy metadata, never the
-SQLite bytes or export time. JSON remains available for Astro until cutover and the stable-period cleanup.
-Staging accepts schemas 2–6 and copies only validated, re-serialized JSON; it
-never copies `public.sqlite` into the website.
+Schema 6 snapshots consist of `public.sqlite` plus a small `manifest.json`
+(`schema_version`, `version`, `database: "public.sqlite"` and `project_count`)
+in each completed `snapshots/<version>/` directory. `current.json` has three
+fields (`schema_version`, `version`, `snapshot`) and points to that manifest.
+The version digest begins with `public-schema-6` and hashes the public records
+and taxonomy metadata, never the SQLite bytes or export time.
+
+Removing the former JSON files (`discovery.json`, `projects/<slug>.json`) did not
+change the public schema, so it stayed at 6. Consumers (`wrkgn-public-snapshot::select`,
+`wrkgn-web`, `scripts/deploy.sh`, `scripts/publish-data.sh`) read only the pointer,
+manifest `schema_version`/`version`/`database` and `public.sqlite`; the database
+schema, the digest input and its prefix are unchanged, so existing versions
+remain stable and the server needs no migration. Bump the schema only when the
+database layout or the pointer/manifest fields consumers rely on change.
 
 The `wrkgn-public-snapshot` workspace crate owns public record types, schema and
 validation. SQLite has `metadata`, `taxonomy`, `projects`, `project_builders`,
@@ -115,7 +122,7 @@ Project IDs/slugs and all displayed mention/evidence attribution are retained.
 Evidence support mappings, authorization dependencies, private mention keys,
 review/processing history and raw payloads are excluded. Metadata holds schema
 version, snapshot version and export time; taxonomy rows hold slugs, labels and
-definitions. The database is built from the same captured public model as JSON,
+definitions. The database is built from the captured public model,
 written to an unpublished temporary file, vacuumed and validated before the
 snapshot directory and pointer are renamed. Validation checks the exact object
 and column allowlists, required indexes, integrity and foreign keys, metadata,
@@ -123,9 +130,9 @@ fixed taxonomy slugs, unique identities, safe slugs, HTTP(S) links, HN source
 identities and required dated evidence. Read-only consumers reject journal/WAL
 sidecars and validate the selected version before use.
 
-`export` reads all approved projects from one SQLite transaction, applies corrections and suppression, and creates `snapshots/<version>/manifest.json`, `public.sqlite`, `discovery.json`, and `projects/<slug>.json` under the export directory. `current.json` is replaced atomically and points to the completed snapshot. The version hashes both discovery and detail data. Astro should read `current.json` once per build, then read all JSON through its selected manifest. It must never copy the working database or raw payloads.
+`export` reads all approved projects from one SQLite transaction, applies corrections and suppression, and creates `snapshots/<version>/manifest.json` and `public.sqlite` under the export directory. `current.json` is replaced atomically and points to the completed snapshot. The version hashes both discovery and detail data. Consumers read `current.json`, then its manifest and database; nothing copies the working database or raw payloads.
 
-Discovery records have stable `id` and `slug`, card fields (`name`, `description`, `problem`, `audience`), `builder_usernames`, `categories`, `audience_labels`, `latest_shared_at`, `comment_count`, and `searchable_text`. They are ordered by latest original mention date, then project ID. Public schema 6 retains `comment_count` from version 4: distinct replies beneath a project’s published source comments, including nested replies, excluding deleted, dead, absent, and source-suppressed replies. Overlapping subtrees are deduplicated. Counts use stored source at export time; no HN or model request is needed. Comment vote counts are unavailable from HN. Detail records have `id`, `slug`, `name`, and dated `mentions`; each mention includes its source ID and URL, author, links, verbatim source excerpt, and builder usernames. Dates are Unix seconds from HN source records. A current source edit, deletion, missing item, or suppression hides affected content; a failed rerun does not republish stale group results. Rust HTML, modal HTML, and the transitional Astro HTML/JSON use this snapshot.
+Discovery records have stable `id` and `slug`, card fields (`name`, `description`, `problem`, `audience`), `builder_usernames`, `categories`, `audience_labels`, `latest_shared_at`, `comment_count`, and `searchable_text`. They are ordered by latest original mention date, then project ID. Public schema 6 retains `comment_count` from version 4: distinct replies beneath a project’s published source comments, including nested replies, excluding deleted, dead, absent, and source-suppressed replies. Overlapping subtrees are deduplicated. Counts use stored source at export time; no HN or model request is needed. Comment vote counts are unavailable from HN. Detail records have `id`, `slug`, `name`, and dated `mentions`; each mention includes its source ID and URL, author, links, verbatim source excerpt, and builder usernames. Dates are Unix seconds from HN source records. A current source edit, deletion, missing item, or suppression hides affected content; a failed rerun does not republish stale group results. Rust HTML and modal HTML use this snapshot.
 
 The maintainer has inspected many detail pages and the project list and considers extraction quality sufficient to offer the explicit automated monthly workflow. Schema validity alone does not establish extraction accuracy; manually inspect descriptions, labels, invitations, provenance, and grouping before publication.
 
@@ -175,24 +182,20 @@ Routes preserve slashed page URLs. `/projects/` and `/projects/page/1/` redirect
 
 Canonicalization runs syntax-only 301 rules first, then snapshot-dependent 302 rules. Search uses Unicode lowercase substring matching and a trimmed 100-character cap; inner whitespace remains significant. OR within filters, AND across dimensions/query, 30 results per page, with the existing four sort tie-breakers. Unknown published options and out-of-range pages use temporary redirects. Rust and TypeScript consume `crates/wrkgn-web/tests/fixtures/canonical-urls.json` in their respective test definitions.
 
-### Maintainer parity and performance commands
+### Maintainer performance commands
 
-These tools are explicit local checks, not automatic startup/build behavior. They use only public JSON/SQLite and local HTTP. They have been added but were not run during implementation. Start the server against the same schema-6 snapshot as the staged JSON, then run from the repository root:
+These tools are explicit local checks, not automatic startup/build behavior. They use only public SQLite and local HTTP. Run the TypeScript tests from the repository root:
 
 ```sh
 npm test --prefix crates/wrkgn-web/assets
-node crates/wrkgn-web/tools/discovery-parity.mjs website/data/public http://127.0.0.1:3000
-python3 crates/wrkgn-web/tools/content-parity.py --snapshot website/data/public --astro website/dist --origin http://127.0.0.1:3000
 ```
 
-Build Astro from that same staged snapshot before content parity (`npm run build --prefix website`). Semantic parity invokes the existing JavaScript implementation over all sorts, every individual published filter, combined filters, Unicode/short queries and first/second/last pages. Content parity compares normalized card/detail text and URLs, excluding the added builder-convention sentence and typography differences. Default coverage is every unfiltered list and project page; `--limit 100` limits detail coverage during an initial check. Differences fail with affected URLs for maintainer inspection.
-
-For performance, build optimized binaries and create a new public-only fixture directory; generation refuses to overwrite existing paths and copies taxonomy from a public JSON manifest. No working SQLite database is read:
+For performance, build optimized binaries and create a new public-only fixture directory; generation refuses to overwrite existing paths and copies taxonomy from the source export's `public.sqlite`. No working SQLite database is read:
 
 ```sh
 npm run build --prefix crates/wrkgn-web/assets
 cargo build --release -p wrkgn-web --examples --bin wrkgn-web
-cargo run --release -p wrkgn-web --example synthetic_snapshot -- website/data/public /tmp/wrkgn-synthetic-100k 100000
+cargo run --release -p wrkgn-web --example synthetic_snapshot -- local-data/public-export /tmp/wrkgn-synthetic-100k 100000
 node crates/wrkgn-web/tools/performance.mjs target/release/wrkgn-web local-data/public-export /tmp/wrkgn-synthetic-100k 1000
 cargo run --release -p wrkgn-web --example memory_probe -- local-data/public-export
 cargo run --release -p wrkgn-web --example memory_probe -- /tmp/wrkgn-synthetic-100k
@@ -218,59 +221,23 @@ Deploy requires Node, Python 3, Zig, cargo-zigbuild and the installed Rust Linux
 
 `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ZONE_ID` are read locally from environment or `.env`; only those assignments are parsed without executing the file. Purges name both configured hostnames. Missing token warns and skips purge; a failed purge after a successful publication requires `--purge-only`. Tokens never go to the VPS. A shared server lock serializes release and snapshot pointer changes.
 
-For shell changes, run `shellcheck scripts/*.sh scripts/lib/*.sh` when available and `bash -n` on each script. Agents ran Bash syntax checks only; ShellCheck was unavailable. Live setup, deployment, publication, rollback, cache and browser checks were later run by the maintainer; see [the implementation record](implementation/epic06.md). Keep Astro and JSON compatibility until the documented cleanup gate.
+For shell changes, run `shellcheck scripts/*.sh scripts/lib/*.sh` when available and `bash -n` on each script. Agents ran Bash syntax checks only; ShellCheck was unavailable. Live setup, deployment, publication, rollback, cache and browser checks were later run by the maintainer; see [the implementation record](implementation/epic06.md).
 
-## Static website (Epic 03)
+## Directory behavior
 
-The Astro site lives in `website/`. It reads only `website/data/public/`, which is a selected, tracked public snapshot. The staged snapshot contains approved pilot records. Synthetic fixtures in `website/tests/fixtures/representative/` and `website/tests/fixtures/empty/` support offline UI work and must not be presented as real HN content.
-
-After reviewing and approving mentions locally, run `cargo run -- export` from the repository root. Then explicitly stage the completed export and build from `website/`:
-
-```sh
-cd website
-npm ci
-npm run stage -- ../local-data/public-export
-npm run dev
-npm run build
-npm test
-```
-
-`npm run stage` takes one export directory containing `current.json`. It validates public schema version 6 (and accepts existing version 2, 3, 4, and 5 snapshots for compatibility), the selected manifest (including the category and audience taxonomies for versions 3 through 6), every discovery record, every referenced project detail, and the public field allowlist. It copies only those files into a replacement staged snapshot; previous staged versions are removed. A missing or invalid export fails before replacing the staged data. `npm run dev` and `npm run build` consume the staged snapshot without running Rust, contacting HN or a model, or reading local credentials or SQLite. Static output goes to `website/dist/`; the versioned browser data is under `/data/<version>/`.
-
-The retained Pages fallback uses `website/` as the build root, `npm run build` as the command, and `dist/` as output. Do not push large snapshots to main while Pages is connected: builds fail above 20,000 files. A real correction and removal contact destination must be supplied before launch; do not publish a placeholder route.
-
-The directory renders ordinary list and project links without JavaScript. After discovery data loads, search and Category and Audience appear in the shared fixed left sidebar on wide screens. The first 30-project page is `/`, with `/projects/` as an alias; later pages use `/projects/page/N/`. Direct detail pages offer an ordinary filter form that returns to `/`. On narrow screens (below 768px), a Filters button in the primary navigation opens the same controls in an opaque, fixed full-screen overlay. Its contents scroll independently above a pinned Clear all / Close footer, while the underlying page is locked. Close or Escape restores page scroll and focus. Resizing to desktop closes the overlay and restores the sidebar; Close is hidden on desktop. On listing pages, the button and controls stay hidden when discovery data cannot load; detail-page controls remain available as a normal form. Search matches the exported `searchable_text` for every published project. Selected filter values are OR within one dimension and AND across dimensions and the text query. The Sort by dropdown on the right of the count row offers comment count in both directions and date in both directions, defaulting to recent first. Sorting applies to all matches before pagination, with newest date then project ID resolving equal counts and project ID resolving equal dates. A sort change resets page one; Clear all also resets the default order. Legacy snapshots without counts offer date orders only. Criteria, sort, and interactive page state use URL parameters; invalid values are dropped and out-of-range pages clamp to the last available page. Opening a card fetches versioned detail JSON and the matching standalone page HTML, then displays its shared detail markup in a modal. A failed detail fetch navigates to the ordinary project page.
+The directory renders ordinary list and project links without JavaScript. The first 30-project page is `/`, with `/projects/` redirecting to it; later pages use `/projects/page/N/`. Direct detail pages offer an ordinary filter form that returns to `/`. Search matches the exported `searchable_text` for every published project. Selected filter values are OR within one dimension and AND across dimensions and the text query. The Sort by dropdown offers comment count in both directions and date in both directions, defaulting to recent first; sorting applies to all matches before pagination, with newest date then project ID resolving equal counts and project ID resolving equal dates. Criteria, sort and page state use URL parameters. On narrow screens (below 768px) a Filters button opens the same controls in an opaque full-screen overlay with independently scrolling content and a pinned Clear all / Close footer; Close or Escape restores page scroll and focus. TypeScript enhances these ordinary HTML navigations and opens a card as a modal over the same project URL. A real correction and removal contact destination must be supplied before launch; do not publish a placeholder route.
 
 ### Manual browser checklist
 
-The maintainer performs browser interactions; no browser automation is required. For Rust use a schema-6 export and the server command above. For Astro compatibility stage the same export and build separately. Synthetic fixtures must never replace approved production data inadvertently.
+The maintainer performs browser interactions; no browser automation is required. Use a schema-6 export and the server command above. Synthetic fixtures must never replace approved production data inadvertently.
 
-- Test `/`, `/projects/` (Rust 301 to `/`), later `/projects/page/N/` pages, ordinary pagination links and direct `/projects/<slug>/` pages. Unknown slugs return 404. Disable JavaScript and check search, both filters, sorting, pagination, cards, and detail controls; Rust controls remain visible and submit GET forms.
+- Test `/`, `/projects/` (301 to `/`), later `/projects/page/N/` pages, ordinary pagination links and direct `/projects/<slug>/` pages. Unknown slugs return 404. Disable JavaScript and check search, both filters, sorting, pagination, cards, and detail controls; controls remain visible and submit GET forms.
 - Search for builder usernames, Unicode, one/two-character terms, missing terms, and inner whitespace. Try all four sort orders, combined filters, multiple values within a filter, later pages, and Clear all. Reload, Back and Forward restore state. Invalid/default/duplicate parameters canonicalize with 301; absent options and out-of-range pages use 302. Queries are trimmed and capped at 100 characters. Check result counts and empty states.
 - With JavaScript enabled, search updates after debounce and filters/sort update immediately without a full navigation. The first search update adds history and further typing replaces it. Filters/sort/page changes each add an entry. Failed fetches navigate normally.
 - Open a card modal, inspect source dates/authors/evidence, close via button, Escape and Back, then Forward to reopen. Closing restores scroll/focus and list state. Modified clicks and refresh use standalone pages. A failed HTML fetch or snapshot mismatch falls back to standalone navigation.
 - At wide widths, inspect the fixed sidebar, typography, card grid and compact toolbar. At narrow widths test the opaque full-screen Filters panel: keyboard focus trap, scroll lock, independent content scrolling, pinned Clear all/Close, Escape, focus restoration, and resize reset. Test with JavaScript disabled too.
 - Inspect title evidence, dated mentions, actual evidence authors, builder convention, classifications, same-builder links, source links and independence notice. Check CSP console output; assets must require no inline-code exceptions. A real correction/removal contact remains a launch prerequisite.
 
-Astro retains its old browser-data behavior until the stable-period cleanup: listing controls appear after discovery JSON loads, `/projects/` remains an equivalent list, and modal details use JSON plus page HTML. These are transitional differences from the Rust server.
+New public snapshots use schema 6. Each mention retains its anchor author, original sharing date, source URL, and legacy excerpt field, and adds an `evidence` array. Each public evidence entry contains `source_item_id`, `source_field`, `value`, `author`, `shared_at`, and `source_url`; support mappings stay private. Evidence authors and dates come from the actual source item; supporting replies do not change the story's sharing date. Legacy monthly evidence uses `body`. The public array exposes concise excerpts rather than full discussions. Source and authorization edits, confirmed removals, deletion, or suppression conservatively withhold the affected mention until valid processing replaces it. Private authorization fingerprints and processing diagnostics remain excluded.
 
-## Project extraction schema migration
-
-Database migration 6 stores private author and normalized URL aliases for project identity. It seeds aliases from existing mention links on first open and records them before replacement, so a successful zero-mention rerun does not erase a reviewed match or suppression. It does not modify existing project IDs, slugs, review decisions, or staged exports. Existing duplicates require source inspection and explicit `review match`; opening the database does not reconcile them automatically.
-
-Distinct named projects in one monthly source may share a URL. Colliding mention keys use a deterministic name suffix; a uniquely matching name within that same source can retain its previous key and project, preserving corrections and suppression when output order changes. Exact URL-derived mention keys remain stable when a display name or additional links change. Synthetic `:sole` keys require a matching name when a prior shared-URL split makes the surviving project's identity uncertain. This does not enable name-based matching across sources. Shared-URL collisions do not automatically merge projects. Indistinguishable mentions or unresolved reviewed identities fail without replacing prior results; ambiguous suppressed URL matches still fail closed.
-
-Database migration 5 adds source excerpts and additional builder records without deleting legacy request/supporting history. Public schema 3 omits requests, supporting contributions, and Looking for, and adds audience taxonomy metadata, source excerpts, and per-mention builder usernames. Missing legacy source excerpts or unknown legacy audience labels cause export to stop with instructions to reprocess; labels and approvals are not silently rewritten. Reprocess and review before staging a new export. Existing staged schema-2 data remains readable by the website.
-
-
-## Show HN storage and public evidence
-
-`wrkgn-show-hn --from … --through …` walks the range backward with `show_hn_discovery::Batches`: one Algolia search per batch (`--batch-size`, default 100, maximum 1,000) restricted to `[start, cursor]`, where the next cursor is the oldest timestamp seen, inclusive, and IDs already handled at that timestamp are skipped. A full page of only handled IDs fails discovery. For each batch the command collects stories sequentially (`workflow::collect_prepare`), then `show_extraction::process_batch` runs extraction with up to `--concurrency` model calls across stories, then `workflow::conclude` approves each success, and the batch is exported once. `show_extraction::Job` is a per-story state machine (chunks, then pairwise consolidation) that exposes its next model request; worker threads only call the model through the shared `ProviderCooldown` and retry policy, while cache reads and writes, validation and group saves stay on the calling thread. Prompt, schema and cache identities are unchanged. `--thread` and `wrkgn process` use the same path with one story.
-
-Database migration 7 adds a persisted extraction mode per processed thread (`monthly` or `show_hn`). Existing processing runs are backfilled as monthly without changing their fingerprints, prompt/schema versions, approvals, identities, or slugs. Collected threads with no processing history remain unassigned. Mode assignment rejects conflicting interpretations; collection alone never chooses a mode.
-
-`mention_evidence` stores each supporting source ID, source field (`title`, `url`, or `body`), verbatim value, supported fields, source fingerprint, and optional submitter-authorization dependency and fingerprint. Existing monthly records retain their single-comment excerpt without invented field-level support. Show HN chunk results are cached privately in `show_chunk_cache`. Each chunk key includes its source and ancestor state, repeated submitter context, suppression, model, and processing versions; consolidation inherits its inputs' dependencies. Every consolidation level receives the actual authors, original timestamps, and parent IDs for its evidence and authorization sources, plus the story submitter identity; it does not receive whole source bodies. The complete prompt including metadata must fit the input bound. Explicit submitter corrections take precedence only when their chronology and meaning are clear; ambiguous disputes are omitted. Independent reply edits or appended branches reuse unaffected chunks, while the final result retains a whole-thread freshness identity. `show_processing_results` retains a successful no-project reason. These tables are local processing state and never website assets.
-
-New public snapshots use schema 6. Each mention retains its anchor author, original sharing date, source URL, and legacy excerpt field, and adds an `evidence` array. Each evidence entry contains `source_item_id`, `source_field`, `value`, `supports`, `author`, `shared_at`, and `source_url`. Evidence authors and dates come from the actual source item; supporting replies do not change the story's sharing date. Legacy monthly evidence uses `body` and an empty `supports` array. The public array exposes concise excerpts rather than full discussions. Source and authorization edits, confirmed removals, deletion, or suppression conservatively withhold the affected mention until valid processing replaces it. Private authorization fingerprints and processing diagnostics remain excluded.
-
-The website explicitly supports public versions 2, 3, 4, 5, and 6, rejecting unsupported versions. Staging, standalone pages, and modal readers use the same validated contract; schema-5 details render each evidence field with its actual author, date, and HN source link. Title evidence is presented as a title rather than a manufactured comment excerpt. Builds and staging make no live HN or model calls.
+The server accepts only public schema 6 and rejects other versions. Standalone pages and modal readers use the same validated contract; details render each evidence field with its actual author, date, and HN source link. Title evidence is presented as a title rather than a manufactured comment excerpt. Builds make no live HN or model calls.

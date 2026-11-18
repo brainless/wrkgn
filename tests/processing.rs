@@ -115,18 +115,9 @@ fn setup() -> (tempfile::TempDir, Store) {
     (dir, store)
 }
 fn discovery(dir: &tempfile::TempDir) -> Vec<Value> {
-    let pointer: Value =
-        serde_json::from_slice(&std::fs::read(dir.path().join("public/current.json")).unwrap())
-            .unwrap();
-    let version = pointer["version"].as_str().unwrap();
-    serde_json::from_slice(
-        &std::fs::read(
-            dir.path()
-                .join("public/snapshots")
-                .join(version)
-                .join("discovery.json"),
-        )
-        .unwrap(),
+    let (conn, _) = wrkgn_public_snapshot::open_validated(&dir.path().join("public")).unwrap();
+    serde_json::from_value(
+        serde_json::to_value(wrkgn_public_snapshot::discovery(&conn).unwrap()).unwrap(),
     )
     .unwrap()
 }
@@ -1115,22 +1106,18 @@ fn reply_project_preserves_its_author_and_additional_builders_in_export() {
         publication::approve(&mut store, row["id"].as_i64().unwrap()).unwrap();
     }
     let destination = dir.path().join("public");
-    let version = publication::export(&mut store, &destination).unwrap();
+    publication::export(&mut store, &destination).unwrap();
     let gamma = discovery(&dir)
         .into_iter()
         .find(|p| p["name"] == "Gamma")
         .unwrap();
     assert_eq!(gamma["builder_usernames"], json!(["cara", "zara"]));
     assert!(gamma.get("looking_for").is_none());
-    let detail: Value = serde_json::from_slice(
-        &std::fs::read(
-            destination
-                .join("snapshots")
-                .join(version)
-                .join("projects")
-                .join(format!("{}.json", gamma["slug"].as_str().unwrap())),
-        )
-        .unwrap(),
+    let (conn, _) = wrkgn_public_snapshot::open_validated(&destination).unwrap();
+    let detail = serde_json::to_value(
+        wrkgn_public_snapshot::detail(&conn, gamma["slug"].as_str().unwrap())
+            .unwrap()
+            .unwrap(),
     )
     .unwrap();
     let mention = &detail["mentions"][0];
@@ -1456,4 +1443,28 @@ fn shared_url_split_cannot_bypass_another_sources_suppressed_project() {
         )
         .unwrap();
     assert_eq!(count, 0);
+}
+
+#[test]
+fn export_writes_only_the_sqlite_snapshot_manifest_and_pointer() {
+    let (dir, mut store) = setup();
+    process_thread(&mut store, 100, &model(fixtures()), false).unwrap();
+    for m in publication::pending(&mut store).unwrap() {
+        publication::approve(&mut store, m["id"].as_i64().unwrap()).unwrap();
+    }
+    let destination = dir.path().join("public");
+    let version = publication::export(&mut store, &destination).unwrap();
+    let names = |path: &std::path::Path| {
+        let mut names: Vec<String> = std::fs::read_dir(path)
+            .unwrap()
+            .map(|e| e.unwrap().file_name().into_string().unwrap())
+            .collect();
+        names.sort();
+        names
+    };
+    assert_eq!(names(&destination), ["current.json", "snapshots"]);
+    assert_eq!(
+        names(&destination.join("snapshots").join(&version)),
+        ["manifest.json", "public.sqlite"]
+    );
 }

@@ -97,14 +97,14 @@ fn evidence_authorization_and_suppression_withhold_public_mentions() {
     let pointer: Value =
         serde_json::from_slice(&std::fs::read(export.join("current.json")).unwrap()).unwrap();
     assert_eq!(pointer["schema_version"], 6);
-    let details: Value = serde_json::from_slice(
-        &std::fs::read(export.join(format!(
-            "snapshots/{}/projects/example.json",
-            pointer["version"].as_str().unwrap()
-        )))
-        .unwrap(),
+    let (conn, _) = wrkgn_public_snapshot::open_validated(&export).unwrap();
+    let details = serde_json::to_value(
+        wrkgn_public_snapshot::detail(&conn, "example")
+            .unwrap()
+            .unwrap(),
     )
     .unwrap();
+    drop(conn);
     assert_eq!(details["mentions"][0]["evidence"][1]["author"], "alice");
     // An authorization edit invalidates evidence even without a new model result.
     let conn = Connection::open(&path).unwrap();
@@ -114,30 +114,17 @@ fn evidence_authorization_and_suppression_withhold_public_mentions() {
     )
     .unwrap();
     publication::export(&mut store, &export).unwrap();
-    let stale: Value =
-        serde_json::from_slice(&std::fs::read(export.join("current.json")).unwrap()).unwrap();
-    let stale_discovery: Value = serde_json::from_slice(
-        &std::fs::read(export.join(format!(
-            "snapshots/{}/discovery.json",
-            stale["version"].as_str().unwrap()
-        )))
-        .unwrap(),
-    )
-    .unwrap();
+    let (public, _) = wrkgn_public_snapshot::open_validated(&export).unwrap();
+    let stale_discovery =
+        serde_json::to_value(wrkgn_public_snapshot::discovery(&public).unwrap()).unwrap();
+    drop(public);
     assert_eq!(stale_discovery, json!([]));
     conn.execute("UPDATE mention_evidence SET authorization_fingerprint=(SELECT content_fingerprint FROM source_items WHERE item_id=100) WHERE source_item_id=101", []).unwrap();
     drop(conn);
     publication::suppress_source(&mut store, 101, "removal").unwrap();
     publication::export(&mut store, &export).unwrap();
-    let pointer: Value =
-        serde_json::from_slice(&std::fs::read(export.join("current.json")).unwrap()).unwrap();
-    let discovery: Value = serde_json::from_slice(
-        &std::fs::read(export.join(format!(
-            "snapshots/{}/discovery.json",
-            pointer["version"].as_str().unwrap()
-        )))
-        .unwrap(),
-    )
-    .unwrap();
+    let (public, _) = wrkgn_public_snapshot::open_validated(&export).unwrap();
+    let discovery =
+        serde_json::to_value(wrkgn_public_snapshot::discovery(&public).unwrap()).unwrap();
     assert_eq!(discovery, json!([]));
 }

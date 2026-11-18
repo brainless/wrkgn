@@ -23,7 +23,7 @@ Run ShellCheck, successful/failed deploy and recovery, binary rollback, valid/in
 
 Through staging, verify cache eligibility, MISS/HIT, health bypass/no-store, redirects, stale behavior and purge effects on lists/projects/filtered pages/assets. Perform the browser checklist without automation. Only then move the apex from Pages to the tunnel, repeat production checks and configure an uptime monitor (currently none).
 
-Retain the last Pages deployment and repository integration as documented until cutover stabilizes; do not push large snapshot updates to main meanwhile. Keep the Pages project for at least two weeks. After the stable period, disconnect integration and make the explicit cleanup change removing Astro/tracked public data, unused JSON export generation and dependent tooling/contracts. These removals are deferred, so live cutover and the complete epic acceptance criteria are not yet established.
+The planned stable period was dropped by the maintainer on 2026-11-18 (marketing began that day and the old site no longer mattered). The cleanup change removed Astro, tracked public data, JSON export generation, the parity tools and the npm stage tooling. Disconnecting the Cloudflare Pages project and its repository integration is a manual maintainer step.
 
 ## Live results
 
@@ -124,8 +124,8 @@ This session then checked `https://wrkgn.com` with `curl`:
 - Content-Security-Policy, `X-Content-Type-Options: nosniff` and `Referrer-Policy` are present.
 - `https://promptogether.com` returned 200, and `https://next.wrkgn.com/healthz` returned 200.
 
-Rollback remains reattaching `wrkgn.com` to the Pages project after removing the tunnel CNAME. Keep the Pages project until stable-period cleanup, no earlier than 2026-12-02.
+Rollback was originally reattaching `wrkgn.com` to the Pages project. That path is retired; rollback is by `scripts/deploy.sh --rollback` and `scripts/publish-data.sh --rollback`.
 
 After cutover, the maintainer configured an UptimeRobot monitor and ran `scripts/publish-data.sh` again. The local export was still `de09f5cc862da924`, so this was another unchanged publication. Production and staging health both reported that snapshot afterwards, with build `20261117T144913Z-5a858e99fbd6-12613`.
 
-Still pending: full/reload performance and memory, rate-limit threshold, expired-content/stale behavior, Pages repository disconnection and stable-period cleanup (no earlier than 2026-12-02).
+Still pending: full/reload performance and memory, rate-limit threshold, and expired-content/stale behavior. The Astro/JSON cleanup is done; on 2026-11-18 the maintainer deleted the Cloudflare Pages project and confirmed no Pages DNS record remains.

@@ -385,10 +385,9 @@ fn cross_mode_matching_dates_comments_and_stable_slug() {
     publication::approve_thread(&mut store, 200).unwrap();
     let path = dir.path().join("public");
     let version = publication::export(&mut store, &path).unwrap();
-    let discovery: Value = serde_json::from_slice(
-        &std::fs::read(path.join("snapshots").join(version).join("discovery.json")).unwrap(),
-    )
-    .unwrap();
+    let (conn, metadata) = wrkgn_public_snapshot::open_validated(&path).unwrap();
+    assert_eq!(metadata.version, version);
+    let discovery = serde_json::to_value(wrkgn_public_snapshot::discovery(&conn).unwrap()).unwrap();
     assert_eq!(discovery[0]["comment_count"], 2);
     assert_eq!(discovery[0]["latest_shared_at"], 1000);
     assert_eq!(discovery[0]["slug"], slug);
@@ -408,10 +407,9 @@ fn failed_support_edit_hides_stale_export() {
     .unwrap();
     let path = dir.path().join("public");
     let version = publication::export(&mut store, &path).unwrap();
-    let discovery: Value = serde_json::from_slice(
-        &std::fs::read(path.join("snapshots").join(version).join("discovery.json")).unwrap(),
-    )
-    .unwrap();
+    let (conn, metadata) = wrkgn_public_snapshot::open_validated(&path).unwrap();
+    assert_eq!(metadata.version, version);
+    let discovery = serde_json::to_value(wrkgn_public_snapshot::discovery(&conn).unwrap()).unwrap();
     assert_eq!(discovery.as_array().unwrap().len(), 0);
 }
 #[test]

@@ -1,6 +1,6 @@
 # Managing wrkgn.com
 
-Epic 06 provides the VPS deployment and data-publication commands below. The maintainer completed live VPS setup and staging verification, and cut `wrkgn.com` over to the tunnel on 2026-11-18. The last Cloudflare Pages deployment, detached from the domain, remains the DNS rollback until the stable-period cleanup described in [hosting and cutover](docs/hosting.md).
+Epic 06 provides the VPS deployment and data-publication commands below. The maintainer completed live VPS setup and staging verification, and cut `wrkgn.com` over to the tunnel on 2026-11-18. The legacy Astro site and Cloudflare Pages path have been removed; production is served only by the Rust `wrkgn-web` server. Rollback is by `scripts/deploy.sh --rollback` and `scripts/publish-data.sh --rollback`, described in [hosting](docs/hosting.md).
 
 Collection, model processing, review, the working database, and export stay on the maintainer's computer. The VPS receives only a release binary and the allowlisted public SQLite snapshot. The new publication flow is:
 
@@ -10,7 +10,7 @@ Data: collect → process → review / approve → export → inspect locally �
 Check: scripts/status.sh
 ```
 
-Data publication does not use Git or a Cloudflare build. Keep Astro, its tracked data, and JSON export compatibility until the documented stable period after cutover is complete (no earlier than 2026-12-02). Do not push large snapshot updates to main: Pages fails above 20,000 files; its last successful deployment remains available.
+Data publication does not use Git or a Cloudflare build. The export contains only the SQLite snapshot, its manifest and the version pointer, so snapshots impose no repository size or file-count constraint.
 
 ## Automated monthly workflow
 
@@ -28,7 +28,7 @@ By default it starts at the current UTC month and covers 24 months inclusive. It
 
 Each thread refreshes the full reply tree to save new comments and detect edits, deletions, and new replies. Existing fingerprint/version checks skip unchanged successful conversation groups. After the whole thread processes successfully, its pending mentions are automatically approved, including previously pending results for that thread. Pending mentions in other threads remain pending. Corrections, matching, and suppression retain their existing behavior. The exporter writes all approved public records across the database after each thread, retaining earlier threads in the snapshot.
 
-A thread’s collection, processing, approval, or export failure is logged with its month and thread ID, and the command continues with the remaining threads and months. If discovery fails for a month, that month is reported as failed and older months are still attempted. The final summary lists every failed month or thread; any failure makes the command exit nonzero after traversal. Setup/configuration, opening the database, or writing CLI output can still abort the command. Successful groups stay saved; rerun the same command to retry failures and skip unchanged successful work. Incomplete processing does not auto-approve that thread, but attempts export using existing approvals and freshness checks to remove stale public results. Approval and export are separate commits: if export fails after approval, rerunning retries export. The command uses the same `.env`, `--db`, `--export`, and `--concurrency` settings as `wrkgn`. It never stages or deploys the website. After it succeeds, inspect the export locally, then publish with `scripts/publish-data.sh`.
+A thread’s collection, processing, approval, or export failure is logged with its month and thread ID, and the command continues with the remaining threads and months. If discovery fails for a month, that month is reported as failed and older months are still attempted. The final summary lists every failed month or thread; any failure makes the command exit nonzero after traversal. Setup/configuration, opening the database, or writing CLI output can still abort the command. Successful groups stay saved; rerun the same command to retry failures and skip unchanged successful work. Incomplete processing does not auto-approve that thread, but attempts export using existing approvals and freshness checks to remove stale public results. Approval and export are separate commits: if export fails after approval, rerunning retries export. The command uses the same `.env`, `--db`, `--export`, and `--concurrency` settings as `wrkgn`. It never deploys or publishes. After it succeeds, inspect the export locally, then publish with `scripts/publish-data.sh`.
 
 ## Show HN workflow
 
@@ -51,7 +51,7 @@ Date discovery uses Algolia with a timestamp cursor rather than page numbers, so
 
 Show HN facts use the title, URL and submitter explanations, plus additional builders explicitly identified by the submitter. Other participants provide context. The story retains its original date and submitter attribution; each evidence entry keeps its own source author/date. Source edits, deletion, suppression and lost builder authorization withhold stale results even if a rerun fails. Oversized discussions use bounded resumable chunks; incomplete work cannot publish a partial replacement. The initial strategy repeats submitter context and required ancestors to preserve builder authorization. If that context alone exceeds the 30 KB input bound, or consolidation cannot fit its bound, processing fails explicitly without truncating sources. A successful no-project result retires previous mentions while retaining identity history.
 
-Start with a small live pilot: title/link-only story, text story, submitter clarifications, and an oversized discussion. Then run a one- or two-day range; batched range discovery and concurrent extraction have so far been validated only with offline fixtures. Inspect factual support and attribution before broad date discovery or automatic approval. These quality checks and browser interactions remain maintainer tests. Staging and deployment remain explicit steps below.
+Start with a small live pilot: title/link-only story, text story, submitter clarifications, and an oversized discussion. Then run a one- or two-day range; batched range discovery and concurrent extraction have so far been validated only with offline fixtures. Inspect factual support and attribution before broad date discovery or automatic approval. These quality checks and browser interactions remain maintainer tests. Publication remains an explicit step below.
 
 ## Local setup and paths
 
@@ -62,9 +62,9 @@ Run the Rust commands below from the repository root. `cargo run --bin wrkgn --`
 - `WRKGN_PROVIDER` defaults to `openai`, requiring `OPENAI_API_KEY` and `WRKGN_MODEL`. For Neuralwatt, set `WRKGN_PROVIDER=neuralwatt` and `NEURALWATT_API_KEY`; its default model is `glm-5.3-flash`.
 - The default database is `local-data/wrkgn.sqlite`. Override it with `WRKGN_DB_PATH` or `--db <path>`.
 - The default export directory is `local-data/public-export`. Override it with `WRKGN_EXPORT_PATH` or `--export <directory>` on commands that export. For a custom path, pass `--export <directory>` to the deploy/publish scripts too; these scripts default to `local-data/public-export`.
-- The website requires Node >=22.12. Run `npm ci` from `website/` on initial setup or after dependency changes.
+- Building the server's assets requires Node >=22.12 (see section 5).
 
-Keep the local database: it contains source history, review decisions, corrections, suppression, and stable project identities. Back it up before deliberate manual database edits, with pipeline commands stopped. Generated exports and staged website snapshots can be replaced without resetting SQLite.
+Keep the local database: it contains source history, review decisions, corrections, suppression, and stable project identities. Back it up before deliberate manual database edits, with pipeline commands stopped. Generated exports can be replaced without resetting SQLite.
 
 ## 1. Collect a thread or refresh its source
 
@@ -74,7 +74,7 @@ Use the item ID from the HN discussion URL, for example `https://news.ycombinato
 cargo run --bin wrkgn -- collect --thread 50417407
 ```
 
-This fetches the post and its reply tree and stores them locally. Repeat the same command to refresh edits, deletions, and replies. In the manual `wrkgn` CLI, only `collect` fetches HN data. It does not extract projects or update the staged website.
+This fetches the post and its reply tree and stores them locally. Repeat the same command to refresh edits, deletions, and replies. In the manual `wrkgn` CLI, only `collect` fetches HN data. It does not extract projects or update the export.
 
 Processing requires the latest collection run for that thread to be complete. If collection fails or is incomplete, rerun `collect` before processing. Repeat collection and processing separately for each thread, or use `wrkgn-monthly` for the automated path.
 
@@ -158,7 +158,7 @@ Both projects must have the same known HN source author; suppressed projects can
 cargo run --bin wrkgn -- export
 ```
 
-Export includes approved public records across the database, with corrections and suppression applied. It writes a completed versioned snapshot and atomically updates `local-data/public-export/current.json`. The separate immutable `public.sqlite` contains only allowlisted public records; the working database, raw payloads, private review history, and credentials are excluded.
+Export includes approved public records across the database, with corrections and suppression applied. It writes a completed versioned snapshot directory `snapshots/<version>/` holding the immutable `public.sqlite` and a small `manifest.json`, then atomically updates `local-data/public-export/current.json`, the version pointer. `public.sqlite` contains only allowlisted public records; the working database, raw payloads, private review history, and credentials are excluded.
 
 `process` and mutating review commands also attempt export automatically. `review pending` does not. An export failure can happen after processing or a review mutation has already committed, so inspect the current state rather than assuming the preceding work was rolled back.
 
@@ -181,29 +181,17 @@ cargo run -p wrkgn-web -- check local-data/public-export
 cargo run -p wrkgn-web -- --snapshot local-data/public-export
 ```
 
-Open http://127.0.0.1:3000. The export must be schema 6; run `cargo run --bin wrkgn -- export` first if the selected snapshot predates this implementation. The server reads the export directly; staging is only for Astro. It needs no credentials. `check` also accepts one `public.sqlite` file and uses the same validation as startup/reload.
+Open http://127.0.0.1:3000. The export must be schema 6; run `cargo run --bin wrkgn -- export` first if the selected snapshot predates this implementation. The server reads the export directly and needs no credentials. `check` also accepts one `public.sqlite` file and uses the same validation as startup/reload.
 
 For asset edits, run `npm run watch --prefix crates/wrkgn-web/assets` in another terminal. Restart `cargo run` after an asset rebuild so Cargo embeds the new hash/output. Snapshot updates need no rebuild: finish export, then run `kill -HUP <wrkgn-web-pid>` against the actual server process. Invalid replacements are logged and the old snapshot continues serving. Logs show method, path, status and duration, without query strings, cookies or IPs. `/healthz` shows build and selected snapshot versions; local builds use build ID `dev`.
 
 Use `--bind`, `--public-origin`, `--connections`, `--render-limit` and cache options listed in [development.md](docs/development.md#rust-web-server-epic-05). Flags override `WRKGN_WEB_*` environment variables. Canonical links default to production even on localhost. Inspect with JavaScript disabled, then test in-place search, filters, sorting, pagination, modal history, mobile overlay, direct URLs, and CSP console output. The [manual checklist](docs/development.md#manual-browser-checklist) and [Epic 05 handoff](docs/implementation/epic05.md) list remaining checks.
 
-## Transitional Astro inspection and fallback
+## Inspecting project content
 
-After review and a successful export:
+Comment counts for sorting are exported from stored reply relationships. Run `export` again to update counts after collection and review; no model rerun is needed solely to add counts.
 
-```sh
-cd website
-npm run stage -- ../local-data/public-export
-npm test
-npm run build
-npm run dev
-```
-
-Staging validates the selected public snapshot and replaces `website/data/public/`, removing previous staged versions. You do not need to delete old staged data first. Failed validation leaves the staged snapshot intact. Dev and build commands consume only staged data; they never collect HN data, call the model, or approve records.
-
-Comment counts for sorting are exported from stored reply relationships. Run `export` and stage again to update counts after collection and review; no model rerun is needed solely to add counts.
-
-Inspect list cards, all four date/comment sort orders, direct project URLs, source excerpts and attribution, Category/Audience filtering, ordinary pagination, and modal back/forward behavior. Check narrow and wide layouts. See the [manual browser checklist](docs/development.md#manual-browser-checklist). Stop the dev server with Ctrl-C.
+Inspect list cards, all four date/comment sort orders, direct project URLs, source excerpts and attribution, Category/Audience filtering, ordinary pagination, and modal back/forward behavior in the local server. Check narrow and wide layouts. See the [manual browser checklist](docs/development.md#manual-browser-checklist).
 
 The shared detail component shows the story/comment posting author separately from the actual author and date of each supporting evidence entry. Builder attribution remains an assumption based on the source author and explicitly named additional builders, not verified ownership.
 
@@ -237,7 +225,7 @@ Publishing validates the exact selected `public.sqlite`, verifies the upload, at
 
 Set `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ZONE_ID` locally in the environment or `.env`. Scope the token to Cache Purge on the wrkgn.com zone. Publishing purges only the production and staging hostnames from `deploy/wrkgn.conf`, in one request. Missing tokens cause a warning and skip purging; old cached content can remain visible. A purge failure exits nonzero after the successful publication, so retry with `--purge-only`. Tokens never go to the VPS. Deployment does not purge unless `--purge` is supplied.
 
-Production has served `https://wrkgn.com` from the VPS since 2026-11-18; inspect it after publishing (`https://next.wrkgn.com` remains a staging hostname on the same tunnel). For DNS rollback to the last Pages deployment, follow the [staging, cutover and rollback procedure](docs/hosting.md#staging-and-cutover), including Prompt Together availability checks. Keep a working correction/removal contact route on the public site. An UptimeRobot monitor checks `https://wrkgn.com/healthz`.
+Production has served `https://wrkgn.com` from the VPS since 2026-11-18; inspect it after publishing (`https://next.wrkgn.com` remains a staging hostname on the same tunnel). To undo a bad change, use `scripts/publish-data.sh --rollback` for data or `scripts/deploy.sh --rollback` for the release; see [hosting](docs/hosting.md#staging-and-cutover). Keep a working correction/removal contact route on the public site. An UptimeRobot monitor checks `https://wrkgn.com/healthz`.
 
 ## Checks after code changes
 
@@ -250,4 +238,4 @@ cargo clippy --workspace --all-targets
 cargo test --workspace
 ```
 
-For website changes, run `npm test` and `npm run build` from `website/`, plus the relevant browser checks. Ordinary automated tests use offline fixtures; live model checks are explicit `process` runs.
+For server or asset changes, also run the relevant browser checks. Ordinary automated tests use offline fixtures; live model checks are explicit `process` runs.

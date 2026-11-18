@@ -32,7 +32,7 @@ and exporting each matching thread before starting the next. Missing months are
 skipped. Thread and discovery failures are logged while remaining work continues;
 the final summary exits nonzero if any failed. Rerun to resume successful groups.
 Uses the same .env, provider, database and export settings as wrkgn.
-This command bypasses manual review. Website staging remains explicit.";
+This command bypasses manual review. Publication to the server remains explicit.";
 
 #[derive(Clone, Copy, Debug, PartialEq, Eq, PartialOrd, Ord)]
 pub struct Month {

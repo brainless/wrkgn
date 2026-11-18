@@ -75,13 +75,8 @@ fn collector() -> Collector<Api> {
     )
 }
 fn discovery(export: &std::path::Path) -> Value {
-    let pointer: Value =
-        serde_json::from_slice(&std::fs::read(export.join("current.json")).unwrap()).unwrap();
-    let version = pointer["version"].as_str().unwrap();
-    serde_json::from_slice(
-        &std::fs::read(export.join(format!("snapshots/{version}/discovery.json"))).unwrap(),
-    )
-    .unwrap()
+    let (conn, _) = wrkgn_public_snapshot::open_validated(export).unwrap();
+    serde_json::to_value(wrkgn_public_snapshot::discovery(&conn).unwrap()).unwrap()
 }
 
 #[test]

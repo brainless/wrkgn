@@ -6,7 +6,10 @@ use wrkgn_public_snapshot::{self as public, Detail, Discovery, Evidence, Mention
 fn main() -> Result<(), String> {
     let args: Vec<String> = std::env::args().skip(1).collect();
     if args.len() < 2 || args.len() > 4 {
-        return Err("usage: synthetic_snapshot <public-JSON-root> <new-output-root> [count=100000] [seed=0]".into());
+        return Err(
+            "usage: synthetic_snapshot <export-root> <new-output-root> [count=100000] [seed=0]"
+                .into(),
+        );
     }
     let count: usize = args
         .get(2)
@@ -20,20 +23,9 @@ fn main() -> Result<(), String> {
     if output.exists() {
         return Err("output must be a new directory".into());
     }
-    let read = |p: &Path| -> Result<serde_json::Value, String> {
-        serde_json::from_slice(&fs::read(p).map_err(|e| e.to_string())?).map_err(|e| e.to_string())
-    };
-    let pointer = read(&source.join("current.json"))?;
-    let relative = pointer["snapshot"]
-        .as_str()
-        .ok_or("missing public manifest")?;
-    if Path::new(relative)
-        .components()
-        .any(|p| !matches!(p, std::path::Component::Normal(_)))
-    {
-        return Err("unsafe public manifest path".into());
-    }
-    let manifest = read(&source.join(relative))?;
+    // Taxonomy comes from the source snapshot's validated SQLite database.
+    let selection = public::select(source)?;
+    let (_, source_metadata) = public::open_validated(&selection.database)?;
     let hash = Sha256::digest(format!(
         "synthetic-schema6-{count}-{}",
         args.get(3).map_or("0", String::as_str)
@@ -43,10 +35,8 @@ fn main() -> Result<(), String> {
         schema_version: 6,
         version: version.clone(),
         exported_at: 0,
-        categories: serde_json::from_value(manifest["categories"].clone())
-            .map_err(|e| e.to_string())?,
-        audiences: serde_json::from_value(manifest["audiences"].clone())
-            .map_err(|e| e.to_string())?,
+        categories: source_metadata.categories,
+        audiences: source_metadata.audiences,
     };
     let mut rows = Vec::with_capacity(count);
     let mut details = Vec::with_capacity(count);
@@ -115,7 +105,7 @@ fn main() -> Result<(), String> {
     }
     rows.sort_by_key(|p| (std::cmp::Reverse(p.latest_shared_at), p.id));
     let directory = output.join("snapshots").join(&version);
-    fs::create_dir_all(directory.join("projects")).map_err(|e| e.to_string())?;
+    fs::create_dir_all(&directory).map_err(|e| e.to_string())?;
     public::write_database(
         &directory.join(public::DATABASE_FILE),
         &metadata,
@@ -126,26 +116,8 @@ fn main() -> Result<(), String> {
         fs::write(p, serde_json::to_vec(v).unwrap()).map_err(|e| e.to_string())
     };
     write(
-        &directory.join("discovery.json"),
-        &serde_json::to_value(&rows).unwrap(),
-    )?;
-    for detail in &details {
-        let mut value = serde_json::to_value(detail).unwrap();
-        for mention in value["mentions"].as_array_mut().unwrap() {
-            for evidence in mention["evidence"].as_array_mut().unwrap() {
-                evidence["supports"] = serde_json::json!([]);
-            }
-        }
-        write(
-            &directory
-                .join("projects")
-                .join(format!("{}.json", detail.slug)),
-            &value,
-        )?;
-    }
-    write(
         &directory.join("manifest.json"),
-        &serde_json::json!({"schema_version":6,"version":version,"discovery":"discovery.json","project_details":"projects/<slug>.json","database":"public.sqlite","project_count":count,"categories":metadata.categories,"audiences":metadata.audiences}),
+        &serde_json::json!({"schema_version":6,"version":version,"database":"public.sqlite","project_count":count}),
     )?;
     write(
         &output.join("current.json"),

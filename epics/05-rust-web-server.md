@@ -1,10 +1,10 @@
 # Epic 05: Rust web server and server-side discovery
 
-Status: Implementation delivered through six sequential agent tasks. Asset builds and compilation checks passed. The maintainer manually tested the server and reported that it looks good, with the filtered project ordering difference below deferred. No agent review, test-suite execution, parity runs, or performance measurements were performed. Remaining validation is documented in the [implementation record](../docs/implementation/epic05.md).
+Status: Implementation delivered (the Astro site and JSON export it kept for transition were removed on 2026-11-18, so the Astro comparisons below are historical) through six sequential agent tasks. Asset builds and compilation checks passed. The maintainer manually tested the server and reported that it looks good, with the filtered project ordering difference below deferred. No agent review, test-suite execution, parity runs, or performance measurements were performed. Remaining validation is documented in the [implementation record](../docs/implementation/epic05.md).
 
 ## Known issue deferred
 
-During manual testing, the maintainer observed projects appearing in different positions when filters are applied compared with the npm-based Astro app in `website/`. Investigate filtered ordering parity in a later follow-up; the cause has not been established. The maintainer explicitly deferred this issue rather than requiring a fix for this implementation.
+During manual testing, the maintainer observed projects appearing in different positions when filters are applied compared with the npm-based Astro app in `website/`. Investigate filtered ordering parity in a later follow-up; the cause has not been established. The maintainer explicitly deferred this issue rather than requiring a fix for this implementation. With Astro removed, no parity reference remains.
 
 Depends on: [Epic 02](02-structured-extraction-and-public-export.md), [Epic 03](03-static-directory-and-discovery.md), and [Epic 04](04-show-hn-project-discovery.md). [Epic 06](06-vps-hosting-and-cloudflare-edge.md) deploys this server.
 
