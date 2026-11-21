@@ -13,7 +13,8 @@ const projects = Array.from({ length: fixture.project_count }, (_, i) => ({
 const count = state => projects.filter(project =>
   project.searchable.includes(state.q.toLowerCase())
   && (!state.category.length || state.category.includes(project.category))
-  && (!state.audience.length || state.audience.includes(project.audience))).length;
+  && (!state.audience.length || state.audience.includes(project.audience))
+  && (!state.fixed || project[state.fixed.facet] === state.fixed.slug)).length;
 const options = { category: ['education', 'productivity'], audience: ['researchers'] };
 for (const item of fixture.cases) test(item.name, () => {
   assert.deepEqual(resolveUrl(item.input, options, count), { status: item.status, location: item.location });
@@ -25,4 +26,20 @@ test('query cap counts Unicode code points and trims newly trailing spaces', () 
 test('forms serialize repeated filters and default state canonically', () => {
   const state = readState('/', 'q=+field+&category=productivity&category=education&category=education&sort=date-desc&page=1');
   assert.equal(stateUrl(state), '/?q=field&category=education&category=productivity');
+});
+test('landing pages keep their own path and ignore query criteria', () => {
+  const state = readState('/categories/education/', 'q=x&category=productivity&sort=comments-asc&page=3');
+  assert.deepEqual(state, { q: '', category: [], audience: [], sort: 'date-desc', page: 3, fixed: { facet: 'category', slug: 'education' } });
+  assert.equal(stateUrl(state), '/categories/education/page/3/');
+  assert.equal(stateUrl({ ...state, page: 1 }), '/categories/education/');
+});
+test('audience landing pages keep their own path and ignore query criteria', () => {
+  const state = readState('/audiences/researchers/', 'q=x&audience=educators&sort=comments-asc&page=3');
+  assert.deepEqual(state, { q: '', category: [], audience: [], sort: 'date-desc', page: 3, fixed: { facet: 'audience', slug: 'researchers' } });
+  assert.equal(stateUrl(state), '/audiences/researchers/page/3/');
+  assert.equal(stateUrl({ ...state, page: 1 }), '/audiences/researchers/');
+  assert.equal(stateUrl(readState('/', 'audience=researchers')), '/?audience=researchers');
+});
+test('query category results do not become landing pages', () => {
+  assert.equal(stateUrl(readState('/', 'category=education')), '/?category=education');
 });

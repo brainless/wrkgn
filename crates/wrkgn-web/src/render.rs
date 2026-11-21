@@ -1,11 +1,13 @@
 //! Compile-time escaped templates shared by standalone pages and modal fetches.
 use crate::{
-    discovery::{Resolution, Sort, State},
+    discovery::{Facet, Resolution, Sort, State},
+    metadata::{self, SITE_SUFFIX},
     snapshot::Snapshot,
 };
 use askama::Template;
 use wrkgn_public_snapshot::{Detail, Discovery, Taxonomy};
 include!(concat!(env!("OUT_DIR"), "/assets.rs"));
+const LIST_DESCRIPTION: &str = "Explore projects and products shared on Hacker News.";
 pub type RelatedProject = (i64, String, Option<String>);
 pub fn escape(value: &str) -> String {
     value
@@ -49,6 +51,27 @@ fn labels(slugs: &[String], taxonomy: &[Taxonomy]) -> Vec<String> {
                 .unwrap_or_else(|| slug.clone())
         })
         .collect()
+}
+struct Tag {
+    label: String,
+    url: String,
+}
+/// Linked tags for a facet with landing pages.
+fn tags(slugs: &[String], taxonomy: &[Taxonomy], facet: Facet) -> Vec<Tag> {
+    slugs
+        .iter()
+        .zip(labels(slugs, taxonomy))
+        .map(|(slug, label)| Tag {
+            label,
+            url: facet.landing_path(slug),
+        })
+        .collect()
+}
+fn taxonomy(snapshot: &Snapshot, facet: Facet) -> &[Taxonomy] {
+    match facet {
+        Facet::Category => &snapshot.metadata.categories,
+        Facet::Audience => &snapshot.metadata.audiences,
+    }
 }
 fn safe_url(value: &str) -> String {
     if wrkgn_public_snapshot::web_url(value) {
@@ -131,7 +154,13 @@ fn controls(snapshot: &Snapshot, state: &State, detail: bool) -> Result<String, 
                     .find(|t| t.slug == *slug)
                     .map(|t| t.label.clone())
                     .unwrap_or_else(|| slug.clone()),
-                selected: selected.contains(slug),
+                // A landing page's fixed label shows as checked, so using a
+                // control leads to the equivalent query result.
+                selected: selected.contains(slug)
+                    || state
+                        .fixed
+                        .as_ref()
+                        .is_some_and(|f| f.facet.name() == name && f.slug == *slug),
             })
             .collect(),
     })
@@ -143,6 +172,24 @@ fn controls(snapshot: &Snapshot, state: &State, detail: bool) -> Result<String, 
         detail,
     })
 }
+const OG_IMAGE_ALT: &str = "wrkgn — Projects shared on Hacker News";
+fn og_image(origin: &str) -> String {
+    format!("{origin}{OG_IMAGE_URL}")
+}
+/// Per-page head metadata. `title` is the complete `<title>` text.
+struct Head {
+    title: String,
+    /// Already truncated for meta/OG/Twitter use.
+    description: String,
+    canonical: String,
+    noindex: bool,
+    og_type: &'static str,
+    /// Absolute URL of the preview image (`OG_IMAGE_URL` plus the public
+    /// origin). `None` only for pages without social tags.
+    image: Option<String>,
+    /// Serialized JSON-LD with `<` escaped (see `metadata::json_ld`).
+    json_ld: Option<String>,
+}
 #[derive(Template)]
 #[template(path = "layout.html")]
 struct Layout {
@@ -150,34 +197,49 @@ struct Layout {
     description: String,
     canonical: String,
     noindex: bool,
+    og_type: &'static str,
+    twitter_card: &'static str,
+    image: Option<String>,
+    image_alt: &'static str,
+    json_ld: Option<String>,
     version: String,
     controls: String,
     content: String,
     style: &'static str,
     script: &'static str,
     icon: &'static str,
+    font_dm_sans: &'static str,
+    font_source_serif_4: &'static str,
 }
 fn layout(
     snapshot: &Snapshot,
     state: &State,
-    title: String,
-    description: String,
-    canonical: String,
-    noindex: bool,
+    head: Head,
     content: String,
     detail: bool,
 ) -> Result<String, String> {
     rendered(&Layout {
-        title,
-        description,
-        canonical,
-        noindex,
+        title: head.title,
+        description: head.description,
+        canonical: head.canonical,
+        noindex: head.noindex,
+        og_type: head.og_type,
+        twitter_card: if head.image.is_some() {
+            "summary_large_image"
+        } else {
+            "summary"
+        },
+        image: head.image,
+        image_alt: OG_IMAGE_ALT,
+        json_ld: head.json_ld,
         version: snapshot.metadata.version.clone(),
         controls: controls(snapshot, state, detail)?,
         content,
         style: STYLE_URL,
         script: SCRIPT_URL,
         icon: ICON_URL,
+        font_dm_sans: FONT_DM_SANS_URL,
+        font_source_serif_4: FONT_SOURCE_SERIF_4_URL,
     })
 }
 #[derive(Template)]
@@ -189,7 +251,7 @@ struct Card {
     description: String,
     builders: String,
     date: Date,
-    categories: Vec<String>,
+    categories: Vec<Tag>,
 }
 fn card(p: &Discovery, snapshot: &Snapshot) -> Result<String, String> {
     rendered(&Card {
@@ -199,12 +261,20 @@ fn card(p: &Discovery, snapshot: &Snapshot) -> Result<String, String> {
         description: p.description.clone(),
         builders: builders(&p.builder_usernames),
         date: date(p.latest_shared_at),
-        categories: labels(&p.categories, &snapshot.metadata.categories),
+        categories: tags(
+            &p.categories,
+            &snapshot.metadata.categories,
+            Facet::Category,
+        ),
     })
 }
 #[derive(Template)]
 #[template(path = "listing.html")]
 struct Listing {
+    eyebrow: String,
+    heading: String,
+    intro: String,
+    summary: String,
     version: String,
     url: String,
     published: usize,
@@ -217,10 +287,17 @@ struct Listing {
     previous: String,
     next: String,
 }
-pub fn listing(
+struct Heading {
+    eyebrow: String,
+    title: String,
+    intro: String,
+    summary: String,
+}
+/// Results region shared by the main list and landing pages.
+fn list_section(
     snapshot: &Snapshot,
     resolution: &Resolution,
-    origin: &str,
+    heading: Heading,
 ) -> Result<String, String> {
     let state = &resolution.state;
     let page_url = |page| {
@@ -244,7 +321,11 @@ pub fn listing(
             resolution.total
         )
     };
-    let content = rendered(&Listing {
+    rendered(&Listing {
+        eyebrow: heading.eyebrow,
+        heading: heading.title,
+        intro: heading.intro,
+        summary: heading.summary,
         version: snapshot.metadata.version.clone(),
         url: state.url(),
         published: snapshot.discovery.projects.len(),
@@ -264,7 +345,24 @@ pub fn listing(
         } else {
             String::new()
         },
-    })?;
+    })
+}
+pub fn listing(
+    snapshot: &Snapshot,
+    resolution: &Resolution,
+    origin: &str,
+) -> Result<String, String> {
+    let state = &resolution.state;
+    let content = list_section(
+        snapshot,
+        resolution,
+        Heading {
+            eyebrow: "Projects from HN posts".into(),
+            title: "What are folks working on?".into(),
+            intro: String::new(),
+            summary: format!("{} projects published", snapshot.discovery.projects.len()),
+        },
+    )?;
     let canonical = format!(
         "{origin}{}",
         if state.has_criteria() {
@@ -273,15 +371,169 @@ pub fn listing(
             state.url()
         }
     );
+    let is_home = !state.has_criteria() && state.page == 1;
+    let (title, description) = if state.has_criteria() {
+        let title = if state.q.is_empty() {
+            "Filtered projects"
+        } else {
+            "Search results"
+        };
+        (format!("{title}{SITE_SUFFIX}"), LIST_DESCRIPTION.to_owned())
+    } else if is_home {
+        (
+            format!("Projects shared on Hacker News{SITE_SUFFIX}"),
+            LIST_DESCRIPTION.to_owned(),
+        )
+    } else {
+        (
+            format!(
+                "Projects shared on Hacker News – Page {}{SITE_SUFFIX}",
+                state.page
+            ),
+            format!("{LIST_DESCRIPTION} Page {}.", state.page),
+        )
+    };
     layout(
         snapshot,
         state,
-        "Explore projects".into(),
-        "Explore projects and products shared on Hacker News.".into(),
-        canonical,
-        state.has_criteria(),
+        Head {
+            title,
+            description,
+            canonical,
+            noindex: state.has_criteria(),
+            og_type: "website",
+            image: Some(og_image(origin)),
+            json_ld: is_home.then(|| metadata::website(origin)),
+        },
         content,
         false,
+    )
+}
+fn project_count(total: usize) -> String {
+    format!(
+        "{total} {}",
+        if total == 1 { "project" } else { "projects" }
+    )
+}
+/// Category or audience landing page. Its criterion is the
+/// path, so it is indexable, self-canonical and independent of query noindex.
+pub fn landing(
+    snapshot: &Snapshot,
+    resolution: &Resolution,
+    origin: &str,
+) -> Result<String, String> {
+    let state = &resolution.state;
+    let fixed = state.fixed.as_ref().ok_or("not a landing page")?;
+    let entry = taxonomy(snapshot, fixed.facet)
+        .iter()
+        .find(|t| t.slug == fixed.slug);
+    let label = entry.map_or(fixed.slug.as_str(), |t| t.label.as_str());
+    let base = entry.map_or("", |t| t.description.trim());
+    let base = if base.is_empty() {
+        match fixed.facet {
+            Facet::Category => format!("Projects shared on Hacker News in {label}."),
+            Facet::Audience => format!("Projects shared on Hacker News for {label}."),
+        }
+    } else {
+        base.to_owned()
+    };
+    let content = list_section(
+        snapshot,
+        resolution,
+        Heading {
+            eyebrow: fixed.facet.noun().into(),
+            title: label.into(),
+            intro: base.clone(),
+            summary: project_count(resolution.total),
+        },
+    )?;
+    let page_suffix = (state.page > 1).then(|| format!(" Page {}.", state.page));
+    let description = match &page_suffix {
+        Some(suffix) => format!(
+            "{}{suffix}",
+            metadata::truncate_words(&base, metadata::DESCRIPTION_BUDGET - suffix.chars().count())
+        ),
+        None => metadata::meta_description(&base),
+    };
+    let name = fixed.facet.page_name(label);
+    let title = if state.page > 1 {
+        format!("{name} – Page {}{SITE_SUFFIX}", state.page)
+    } else {
+        format!("{name}{SITE_SUFFIX}")
+    };
+    let canonical = format!("{origin}{}", state.url());
+    layout(
+        snapshot,
+        state,
+        Head {
+            json_ld: Some(metadata::collection_page(&name, &description, &canonical)),
+            title,
+            description,
+            canonical,
+            noindex: false,
+            og_type: "website",
+            image: Some(og_image(origin)),
+        },
+        content,
+        false,
+    )
+}
+struct IndexEntry {
+    url: String,
+    label: String,
+    description: String,
+    count: String,
+}
+#[derive(Template)]
+#[template(path = "landing_index.html")]
+struct LandingIndex {
+    heading: String,
+    intro: String,
+    summary: String,
+    entries: Vec<IndexEntry>,
+}
+/// `/categories/`: every label with its description and project count.
+pub fn landing_index(snapshot: &Snapshot, facet: Facet, origin: &str) -> Result<String, String> {
+    let known = snapshot.discovery.options.get(facet);
+    let mut entries: Vec<IndexEntry> = known
+        .iter()
+        .map(|slug| {
+            let t = taxonomy(snapshot, facet).iter().find(|t| t.slug == *slug);
+            IndexEntry {
+                url: facet.landing_path(slug),
+                label: t.map_or(slug.clone(), |t| t.label.clone()),
+                description: t.map(|t| t.description.clone()).unwrap_or_default(),
+                count: project_count(snapshot.discovery.count(facet, slug)),
+            }
+        })
+        .collect();
+    entries.sort_by(|a, b| a.label.cmp(&b.label).then(a.url.cmp(&b.url)));
+    let heading = facet.plural_noun();
+    let description = format!(
+        "Browse projects shared on Hacker News by {}.",
+        facet.noun().to_lowercase()
+    );
+    let content = rendered(&LandingIndex {
+        heading: heading.into(),
+        intro: description.clone(),
+        summary: format!("{} {}", entries.len(), heading.to_lowercase()),
+        entries,
+    })?;
+    let canonical = format!("{origin}{}", facet.index_path());
+    layout(
+        snapshot,
+        &State::default(),
+        Head {
+            title: format!("{heading}{SITE_SUFFIX}"),
+            json_ld: Some(metadata::collection_page(heading, &description, &canonical)),
+            description,
+            canonical,
+            noindex: false,
+            og_type: "website",
+            image: Some(og_image(origin)),
+        },
+        content,
+        true,
     )
 }
 struct Link {
@@ -318,10 +570,11 @@ struct Project {
     audience: String,
     problem: String,
     mentions: Vec<Mention>,
-    categories: Vec<String>,
-    audiences: Vec<String>,
+    categories: Vec<Tag>,
+    audiences: Vec<Tag>,
     builders: String,
     related: Vec<Link>,
+    similar_projects: Vec<Link>,
 }
 pub fn project(
     snapshot: &Snapshot,
@@ -329,12 +582,13 @@ pub fn project(
     related: &[RelatedProject],
     origin: &str,
 ) -> Result<String, String> {
-    let p = snapshot
+    let index = snapshot
         .discovery
         .projects
         .iter()
-        .find(|p| p.id == detail.id)
+        .position(|p| p.id == detail.id)
         .ok_or("detail not in discovery")?;
+    let p = &snapshot.discovery.projects[index];
     let mentions = detail
         .mentions
         .iter()
@@ -387,8 +641,16 @@ pub fn project(
         audience: p.audience.clone().unwrap_or_default(),
         problem: p.problem.clone().unwrap_or_default(),
         mentions,
-        categories: labels(&p.categories, &snapshot.metadata.categories),
-        audiences: labels(&p.audience_labels, &snapshot.metadata.audiences),
+        categories: tags(
+            &p.categories,
+            &snapshot.metadata.categories,
+            Facet::Category,
+        ),
+        audiences: tags(
+            &p.audience_labels,
+            &snapshot.metadata.audiences,
+            Facet::Audience,
+        ),
         builders: builders(&p.builder_usernames),
         related: related
             .iter()
@@ -397,14 +659,41 @@ pub fn project(
                 label: title(name.as_deref()),
             })
             .collect(),
+        similar_projects: snapshot
+            .similar_projects
+            .get(index)
+            .iter()
+            .map(|&i| {
+                let s = &snapshot.discovery.projects[i as usize];
+                Link {
+                    url: format!("/projects/{}/", s.slug),
+                    label: title(s.name.as_deref()),
+                }
+            })
+            .collect(),
     })?;
+    let canonical = format!("{origin}/projects/{}/", p.slug);
+    let name = title(p.name.as_deref());
+    let named = p.name.as_deref().is_some_and(|n| !n.trim().is_empty());
+    let first_shared = detail.mentions.iter().map(|m| m.shared_at).min();
     layout(
         snapshot,
         &State::default(),
-        title(p.name.as_deref()),
-        p.description.clone(),
-        format!("{origin}/projects/{}/", p.slug),
-        false,
+        Head {
+            title: metadata::project_title(&name, &p.description, named),
+            description: metadata::meta_description(&p.description),
+            json_ld: Some(metadata::project_json_ld(
+                &name,
+                &p.description,
+                &canonical,
+                &p.builder_usernames,
+                first_shared,
+            )),
+            canonical,
+            noindex: false,
+            og_type: "article",
+            image: Some(og_image(origin)),
+        },
         content,
         true,
     )

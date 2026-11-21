@@ -1,5 +1,5 @@
 //! Maintainer-run resident memory measurement with one/two snapshots retained.
-use std::{hint::black_box, path::Path, process::Command};
+use std::{hint::black_box, path::Path, process::Command, time::Instant};
 use wrkgn_web::snapshot::Snapshot;
 fn rss() -> Result<String, String> {
     let output = Command::new("ps")
@@ -16,11 +16,14 @@ fn main() -> Result<(), String> {
     if args.is_empty() || args.len() > 2 {
         return Err("usage: memory_probe <snapshot-root> [next-snapshot-root]".into());
     }
+    let started = Instant::now();
     let first = Snapshot::load(Path::new(&args[0]), 4)?;
+    let load = started.elapsed();
     println!(
-        "one_snapshot version={} projects={} resident_kib={}",
+        "one_snapshot version={} projects={} load_ms={} resident_kib={}",
         first.metadata.version,
         first.discovery.projects.len(),
+        load.as_millis(),
         rss()?
     );
     let second = Snapshot::load(Path::new(args.get(1).unwrap_or(&args[0])), 4)?;

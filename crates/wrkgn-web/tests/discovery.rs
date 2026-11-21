@@ -1,6 +1,8 @@
 use serde::Deserialize;
 use wrkgn_public_snapshot::Discovery;
-use wrkgn_web::discovery::{DiscoveryIndex, Sort, State, read_state};
+use wrkgn_web::discovery::{
+    DiscoveryIndex, Facet, Sort, State, index_facet, parse_landing, read_state,
+};
 
 fn project(id: i64, date: i64, comments: i64, text: &str) -> Discovery {
     Discovery {
@@ -54,7 +56,11 @@ fn shared_canonical_url_cases() {
         };
         let result = index.resolve(path, query);
         assert_eq!(
-            result.redirect.as_ref().map(|r| r.status),
+            result
+                .redirect
+                .as_ref()
+                .map(|r| r.status)
+                .or(result.not_found.then_some(404)),
             case.status,
             "{}",
             case.name
@@ -181,4 +187,49 @@ fn empty_index_has_one_empty_page_and_redirects_later_pages() {
     let result = index.resolve("/projects/page/2/", None);
     assert_eq!(result.redirect.unwrap().location, "/");
     assert!(index.options.category.is_empty());
+}
+
+#[test]
+fn landing_state_is_a_fixed_criterion_not_a_query_criterion() {
+    let index = DiscoveryIndex::new((1..=65).map(|id| project(id, id, 0, "field")).collect());
+    let state = read_state("/categories/education/page/2/", None);
+    assert_eq!(state.page, 2);
+    assert!(!state.has_criteria());
+    assert_eq!(state.url(), "/categories/education/page/2/");
+    let page = index.page(&state);
+    assert_eq!((page.total, page.pages, page.indices.len()), (32, 2, 2));
+    assert!(page.indices.iter().all(|&i| index.projects[i].id % 2 == 0));
+    assert_eq!(index.count(Facet::Category, "education"), 32);
+    assert_eq!(index.count(Facet::Category, "missing"), 0);
+    let ids: Vec<_> = index
+        .page(&read_state("/categories/education/", None))
+        .indices
+        .iter()
+        .map(|&i| index.projects[i].latest_shared_at)
+        .collect();
+    assert!(ids.windows(2).all(|w| w[0] > w[1]), "newest first");
+    assert!(parse_landing("/categories/a/b/").is_none());
+    assert!(parse_landing("/categories/").is_none());
+    assert!(parse_landing("/categories/a/page/").is_none());
+    assert!(index_facet("/categories/").is_some());
+}
+
+#[test]
+fn audience_landing_state_mirrors_category() {
+    let index = DiscoveryIndex::new((1..=65).map(|id| project(id, id, 0, "field")).collect());
+    let state = read_state("/audiences/researchers/page/2/", Some("audience=x&q=y"));
+    assert_eq!(state.page, 2);
+    assert!(!state.has_criteria());
+    assert_eq!(state.url(), "/audiences/researchers/page/2/");
+    assert_eq!(index.count(Facet::Audience, "researchers"), 65);
+    assert_eq!(index.count(Facet::Audience, "missing"), 0);
+    assert_eq!(index.page(&state).total, 65);
+    assert!(parse_landing("/audiences/a/b/").is_none());
+    assert!(parse_landing("/audiences/").is_none());
+    assert!(parse_landing("/audiences/a/page/").is_none());
+    assert_eq!(index_facet("/audiences/"), Some(Facet::Audience));
+    assert!(wrkgn_web::discovery::is_discovery_path("/audiences/"));
+    assert!(wrkgn_web::discovery::is_discovery_path(
+        "/audiences/researchers/page/2/"
+    ));
 }

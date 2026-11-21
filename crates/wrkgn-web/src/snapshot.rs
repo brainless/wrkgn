@@ -1,4 +1,4 @@
-use crate::discovery::DiscoveryIndex;
+use crate::{discovery::DiscoveryIndex, similar::SimilarIndex};
 use rusqlite::Connection;
 use std::{
     path::Path,
@@ -56,6 +56,7 @@ impl ReadPool {
 pub struct Snapshot {
     pub metadata: Metadata,
     pub discovery: DiscoveryIndex,
+    pub similar_projects: SimilarIndex,
     pool: ReadPool,
 }
 impl Snapshot {
@@ -67,6 +68,7 @@ impl Snapshot {
         let conn = public::open_read_only(&selected.database)?;
         let metadata = public::validate_connection(&conn, selected.version.as_deref())?;
         let discovery = DiscoveryIndex::new(public::discovery(&conn)?);
+        let similar_projects = SimilarIndex::new(&discovery.projects);
         let mut pool = vec![conn];
         for _ in 1..connections {
             pool.push(public::open_read_only(&selected.database)?);
@@ -74,6 +76,7 @@ impl Snapshot {
         Ok(Self {
             metadata,
             discovery,
+            similar_projects,
             pool: ReadPool::new(pool),
         })
     }
