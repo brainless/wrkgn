@@ -129,3 +129,7 @@ Rollback was originally reattaching `wrkgn.com` to the Pages project. That path 
 After cutover, the maintainer configured an UptimeRobot monitor and ran `scripts/publish-data.sh` again. The local export was still `de09f5cc862da924`, so this was another unchanged publication. Production and staging health both reported that snapshot afterwards, with build `20261117T144913Z-5a858e99fbd6-12613`.
 
 Still pending: full/reload performance and memory, rate-limit threshold, and expired-content/stale behavior. The Astro/JSON cleanup is done; on 2026-11-18 the maintainer deleted the Cloudflare Pages project and confirmed no Pages DNS record remains.
+
+### 2026-11-18: `www` redirect
+
+The maintainer added a proxied `www` A record to `192.0.2.1` and a zone Single Redirect rule from the "Redirect from WWW to root" template (301). An account-level Bulk Redirect list without an enabling rule had no effect: requests returned 522 from the placeholder origin. After the zone rule, this session checked with `curl`: `https://www.wrkgn.com/` → 301 `https://wrkgn.com/`; `https://www.wrkgn.com/projects/page/2/?x=1` → 301 with path and query preserved; `http://www.wrkgn.com/projects/mib-8e3bc2382f/` → 301 to HTTPS `www`, then 301 to the apex, ending at 200. `https://wrkgn.com/` still returned 200.

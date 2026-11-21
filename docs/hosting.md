@@ -73,7 +73,7 @@ The scripts do not configure zone settings. Record actual plan, enabled settings
 
 | Setting | Required action and verification |
 | --- | --- |
-| DNS | Proxied `next.wrkgn.com` tunnel CNAME first; apex only at cutover. Redirect `www` to HTTPS apex if used. Never publish the origin IP for wrkgn. |
+| DNS | Proxied `next.wrkgn.com` tunnel CNAME first; apex only at cutover. `www` is a proxied A record to the placeholder `192.0.2.1` (no origin) plus a zone Single Redirect rule from the "Redirect from WWW to root" template: 301 to `https://wrkgn.com` with path and query preserved. It is not a tunnel hostname and needs no purge. Never publish the origin IP for wrkgn. |
 | SSL/TLS | Enable Always Use HTTPS and minimum TLS 1.2. Verify HTTP redirect and HTTPS. Defer HSTS until stable. |
 | Tiered Cache | Enable Smart Tiered Cache if offered; verify the setting in this zone. [Tiered Cache documentation](https://developers.cloudflare.com/cache/how-to/tiered-cache/). |
 | Public cache rule | Match wrkgn.com and next.wrkgn.com, make public HTML/assets eligible, respect origin cache-control and TTL headers. Preserve the default query-string cache key. [Cache Rule settings](https://developers.cloudflare.com/cache/how-to/cache-rules/settings/) and [Origin Cache Control](https://developers.cloudflare.com/cache/concepts/cache-control/). |
