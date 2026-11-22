@@ -38,11 +38,11 @@ impl ReadPool {
         }
         impl Drop for Lease<'_> {
             fn drop(&mut self) {
-                if let Some(conn) = self.conn.take() {
-                    if let Ok(mut available) = self.pool.available.lock() {
-                        available.push(conn);
-                        self.pool.ready.notify_one();
-                    }
+                if let Some(conn) = self.conn.take()
+                    && let Ok(mut available) = self.pool.available.lock()
+                {
+                    available.push(conn);
+                    self.pool.ready.notify_one();
                 }
             }
         }

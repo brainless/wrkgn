@@ -1,8 +1,8 @@
 # Epic 08: SEO, social previews and landing pages
 
-Status: Implemented.
+Status: Done (implemented and deployed).
 
-Validation (2026-11-21): verified locally with the gates (`npm run build`/`npm test` for the assets; `cargo fmt --all --check`, `cargo clippy --workspace --all-targets`, `cargo test --workspace`), `curl` checks against `wrkgn-web` on a production-sized local export, and a maintainer browser check of category pages, self-hosted fonts and the project modal. Audience landing pages share the category code paths and are covered by offline tests and `curl` checks; they have had no separate maintainer browser pass. Still needing production checks after `scripts/deploy.sh --purge`: link-preview debuggers, Rich Results/Schema.org validation, Search Console coverage, edge cache behaviour of the new routes and assets, and VPS memory and load time for related projects.
+Validation: verified locally (2026-11-21) with the gates (`npm run build`/`npm test` for the assets; `cargo fmt --all --check`, `cargo clippy --workspace --all-targets`, `cargo test --workspace`) and `curl` checks against `wrkgn-web` on a production-sized local export. The maintainer browser-tested category and audience landing pages, self-hosted fonts and the project modal, and clicked through many project pages where related projects worked well; this satisfies the Phase 5 sample review, so the minimum score needs no tuning. Deployed to production as release 20261121T161051Z-5a06b9390bc6-dirty (active since 2026-11-21) and confirmed working on 2026-11-22. The maintainer postponed these production checks: link-preview debuggers, Rich Results/Schema.org validation, Search Console coverage, edge cache behaviour of the new routes and assets, and VPS memory and load measurements for related projects.
 
 Depends on: [Epic 05](05-rust-web-server.md), [Epic 06](06-vps-hosting-and-cloudflare-edge.md).
 
