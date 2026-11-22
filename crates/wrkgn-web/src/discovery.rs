@@ -1,6 +1,6 @@
 //! In-memory discovery and canonical URLs shared by ordinary and enhanced navigation.
 use serde::{Deserialize, Serialize};
-use std::collections::BTreeSet;
+use std::collections::{BTreeMap, BTreeSet};
 use url::form_urlencoded;
 use wrkgn_public_snapshot::Discovery;
 
@@ -56,6 +56,105 @@ impl Sort {
     }
 }
 
+/// A taxonomy dimension. Query filters and landing pages share it.
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
+pub enum Facet {
+    Category,
+    Audience,
+}
+impl Facet {
+    /// Facets that have landing pages (`/categories/…`, `/audiences/…`).
+    pub const LANDING: [Self; 2] = [Self::Category, Self::Audience];
+    /// Query parameter and form field name.
+    pub fn name(self) -> &'static str {
+        match self {
+            Self::Category => "category",
+            Self::Audience => "audience",
+        }
+    }
+    pub fn noun(self) -> &'static str {
+        match self {
+            Self::Category => "Category",
+            Self::Audience => "Audience",
+        }
+    }
+    pub fn plural_noun(self) -> &'static str {
+        match self {
+            Self::Category => "Categories",
+            Self::Audience => "Audiences",
+        }
+    }
+    /// Index page path, which is also the landing-page prefix.
+    pub fn index_path(self) -> &'static str {
+        match self {
+            Self::Category => "/categories/",
+            Self::Audience => "/audiences/",
+        }
+    }
+    /// Page name for a landing page: "Games projects" or "Projects for Educators".
+    pub fn page_name(self, label: &str) -> String {
+        match self {
+            Self::Category => format!("{label} projects"),
+            Self::Audience => format!("Projects for {label}"),
+        }
+    }
+    pub fn landing_path(self, slug: &str) -> String {
+        format!("{}{slug}/", self.index_path())
+    }
+    fn labels(self, project: &Discovery) -> &[String] {
+        match self {
+            Self::Category => &project.categories,
+            Self::Audience => &project.audience_labels,
+        }
+    }
+}
+/// A criterion fixed by the URL path (a landing page), unlike query filters.
+#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
+pub struct Fixed {
+    pub facet: Facet,
+    pub slug: String,
+}
+impl Fixed {
+    pub fn path(&self) -> String {
+        self.facet.landing_path(&self.slug)
+    }
+}
+/// The index page (`/categories/`) a path names, if any.
+pub fn index_facet(path: &str) -> Option<Facet> {
+    Facet::LANDING.into_iter().find(|f| f.index_path() == path)
+}
+/// `/categories/<slug>/` or `/categories/<slug>/page/<N>/`. The page segment is
+/// returned raw; slugs are validated against the snapshot, not here.
+pub fn parse_landing(path: &str) -> Option<(Fixed, Option<&str>)> {
+    let facet = Facet::LANDING
+        .into_iter()
+        .find(|f| path.starts_with(f.index_path()))?;
+    let (slug, tail) = path.strip_prefix(facet.index_path())?.split_once('/')?;
+    if slug.is_empty() {
+        return None;
+    }
+    let fixed = Fixed {
+        facet,
+        slug: slug.into(),
+    };
+    if tail.is_empty() {
+        return Some((fixed, None));
+    }
+    let page = tail.strip_prefix("page/")?.strip_suffix('/')?;
+    (!page.is_empty() && !page.contains('/')).then_some((fixed, Some(page)))
+}
+/// Any path served by the list or landing/index renderers.
+pub fn is_discovery_path(path: &str) -> bool {
+    path == "/"
+        || path == "/projects/"
+        || path
+            .strip_prefix("/projects/page/")
+            .and_then(|s| s.strip_suffix('/'))
+            .is_some_and(|s| !s.is_empty() && !s.contains('/'))
+        || index_facet(path).is_some()
+        || parse_landing(path).is_some()
+}
+
 #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
 pub struct State {
     pub q: String,
@@ -63,6 +162,9 @@ pub struct State {
     pub audience: Vec<String>,
     pub sort: Sort,
     pub page: usize,
+    /// Landing-page criterion from the path. It is not a query criterion, so it
+    /// never counts in `has_criteria` and the URL stays under its own path.
+    pub fixed: Option<Fixed>,
 }
 impl Default for State {
     fn default() -> Self {
@@ -72,6 +174,7 @@ impl Default for State {
             audience: vec![],
             sort: Sort::default(),
             page: 1,
+            fixed: None,
         }
     }
 }
@@ -103,6 +206,12 @@ impl Options {
                 .iter()
                 .flat_map(|p| p.audience_labels.iter().cloned())
                 .collect(),
+        }
+    }
+    pub fn get(&self, facet: Facet) -> &BTreeSet<String> {
+        match facet {
+            Facet::Category => &self.category,
+            Facet::Audience => &self.audience,
         }
     }
     pub fn retain_known(&self, state: &mut State) {
@@ -141,11 +250,16 @@ fn page_number(raw: &str) -> usize {
         .map(|n| n as usize)
         .unwrap_or(1)
 }
+fn digits_page(segment: &str) -> usize {
+    Some(segment)
+        .filter(|s| !s.is_empty() && s.bytes().all(|b| b.is_ascii_digit()))
+        .map(page_number)
+        .unwrap_or(1)
+}
 fn path_page(path: &str) -> usize {
     path.strip_prefix("/projects/page/")
         .and_then(|s| s.strip_suffix('/'))
-        .filter(|s| !s.is_empty() && s.bytes().all(|b| b.is_ascii_digit()))
-        .map(page_number)
+        .map(digits_page)
         .unwrap_or(1)
 }
 /// Normalize syntax only. Unknown filter values remain until the snapshot phase.
@@ -166,6 +280,17 @@ pub fn read_state(path: &str, query: Option<&str>) -> State {
             .into_iter()
             .collect()
     };
+    // A landing page is a fixed criterion: query filters, search and sort are
+    // not read, so they redirect away; only `page` is honoured.
+    if let Some((fixed, segment)) = parse_landing(path) {
+        return State {
+            page: first("page")
+                .map(page_number)
+                .unwrap_or_else(|| segment.map_or(1, digits_page)),
+            fixed: Some(fixed),
+            ..State::default()
+        };
+    }
     State {
         q: normalize_query(first("q").unwrap_or_default()),
         category: values("category"),
@@ -174,10 +299,18 @@ pub fn read_state(path: &str, query: Option<&str>) -> State {
         page: first("page")
             .map(page_number)
             .unwrap_or_else(|| path_page(path)),
+        fixed: None,
     }
 }
 /// URLSearchParams-compatible serialization (spaces use +, Unicode is UTF-8).
 pub fn state_url(state: &State) -> String {
+    if let Some(fixed) = &state.fixed {
+        return if state.page > 1 {
+            format!("{}page/{}/", fixed.path(), state.page)
+        } else {
+            fixed.path()
+        };
+    }
     let mut params = form_urlencoded::Serializer::new(String::new());
     if !state.q.is_empty() {
         params.append_pair("q", &state.q);
@@ -215,6 +348,8 @@ pub struct Resolution {
     pub redirect: Option<Redirect>,
     pub total: usize,
     pub pages: usize,
+    /// A landing page whose label is unknown or has no projects.
+    pub not_found: bool,
     /// Indices into DiscoveryIndex::projects, limited to the requested page.
     pub indices: Vec<usize>,
 }
@@ -224,6 +359,7 @@ pub struct Resolution {
 pub struct DiscoveryIndex {
     pub projects: Vec<Discovery>,
     pub options: Options,
+    counts: [BTreeMap<String, usize>; 2],
     orders: [Vec<usize>; 4],
 }
 impl DiscoveryIndex {
@@ -249,11 +385,25 @@ impl DiscoveryIndex {
             });
             order
         });
+        let counts = [Facet::Category, Facet::Audience].map(|facet| {
+            let mut counts = BTreeMap::new();
+            for project in &projects {
+                for slug in facet.labels(project) {
+                    *counts.entry(slug.clone()).or_insert(0) += 1;
+                }
+            }
+            counts
+        });
         Self {
             projects,
             options,
+            counts,
             orders,
         }
+    }
+    /// Projects carrying a label; computed once on load.
+    pub fn count(&self, facet: Facet, slug: &str) -> usize {
+        self.counts[facet as usize].get(slug).copied().unwrap_or(0)
     }
     pub fn page(&self, state: &State) -> Resolution {
         let query = state.q.to_lowercase();
@@ -262,7 +412,11 @@ impl DiscoveryIndex {
         let mut indices = Vec::with_capacity(PAGE_SIZE);
         for &index in &self.orders[state.sort.slot()] {
             let p = &self.projects[index];
-            if (!query.is_empty() && !p.searchable_text.contains(&query))
+            if state
+                .fixed
+                .as_ref()
+                .is_some_and(|f| !f.facet.labels(p).contains(&f.slug))
+                || (!query.is_empty() && !p.searchable_text.contains(&query))
                 || (!state.category.is_empty()
                     && !state.category.iter().any(|s| p.categories.contains(s)))
                 || (!state.audience.is_empty()
@@ -278,6 +432,7 @@ impl DiscoveryIndex {
         Resolution {
             state: state.clone(),
             redirect: None,
+            not_found: false,
             total,
             pages: total.div_ceil(PAGE_SIZE).max(1),
             indices,
@@ -299,6 +454,19 @@ impl DiscoveryIndex {
                     status: 301,
                     location: syntax_url,
                 }),
+                not_found: false,
+                total: 0,
+                pages: 1,
+                indices: vec![],
+            };
+        }
+        if let Some(fixed) = &state.fixed
+            && !self.options.get(fixed.facet).contains(&fixed.slug)
+        {
+            return Resolution {
+                state,
+                redirect: None,
+                not_found: true,
                 total: 0,
                 pages: 1,
                 indices: vec![],

@@ -272,3 +272,36 @@ async fn saturation_and_snapshot_lifetime() {
     assert_eq!(state.snapshot.load().metadata.version, "fedcba9876543210");
     assert_eq!(concurrent.await.unwrap(), vec!["sample"]);
 }
+#[tokio::test]
+async fn hashed_assets_have_type_and_immutable_cache_headers() {
+    use wrkgn_web::render::{
+        FONT_DM_SANS_LATIN_EXT_URL, FONT_DM_SANS_URL, FONT_SOURCE_SERIF_4_LATIN_EXT_URL,
+        FONT_SOURCE_SERIF_4_URL, ICON_URL, OG_IMAGE_URL, SCRIPT_URL, STYLE_URL,
+    };
+    let (_dir, state) = state().await;
+    let app = router(state);
+    for (uri, mime) in [
+        (SCRIPT_URL, "text/javascript; charset=utf-8"),
+        (STYLE_URL, "text/css; charset=utf-8"),
+        (ICON_URL, "image/svg+xml"),
+        (OG_IMAGE_URL, "image/png"),
+        (FONT_DM_SANS_URL, "font/woff2"),
+        (FONT_SOURCE_SERIF_4_URL, "font/woff2"),
+        (FONT_DM_SANS_LATIN_EXT_URL, "font/woff2"),
+        (FONT_SOURCE_SERIF_4_LATIN_EXT_URL, "font/woff2"),
+    ] {
+        let response = app
+            .clone()
+            .oneshot(Request::builder().uri(uri).body(Body::empty()).unwrap())
+            .await
+            .unwrap();
+        assert_eq!(response.status(), StatusCode::OK, "{uri}");
+        assert_eq!(response.headers()[header::CONTENT_TYPE], mime, "{uri}");
+        let immutable = "public, max-age=31536000, immutable";
+        assert_eq!(response.headers()[header::CACHE_CONTROL], immutable);
+        assert_eq!(
+            response.headers()["cloudflare-cdn-cache-control"],
+            immutable
+        );
+    }
+}

@@ -82,3 +82,18 @@ html.mobile-filters-open,html.project-modal-open{overflow:hidden}
 [data-discovery-region]{transition:opacity .12s}
 [data-directory][aria-busy="true"] [data-result-count]{opacity:.65}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}[data-discovery-region]{transition:none}}
+.tag--link{text-decoration:none;display:inline-block}
+.tag--link:hover{border-color:#315f49;background:#e0ede0;color:#24302c}
+.landing-intro{font:400 16px/1.6 'Source Serif 4',Georgia,serif;color:#53625a;max-width:680px;margin:14px 0 0}
+.landing-index__list{list-style:none;margin:0;padding:20px 0 0;border-top:1px solid #cfd7cc;display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px}
+.landing-index__item{border:1px solid #cfd7cc;border-radius:16px;background:#fff;padding:22px;display:flex;flex-direction:column;gap:10px}
+.landing-index__item h2{font:700 22px/1.15 'DM Sans',Arial,sans-serif;letter-spacing:-.02em;margin:0}
+.landing-index__item h2 a{text-decoration:none}
+.landing-index__item h2 a:hover{text-decoration:underline}
+.landing-index__item p{font:400 15px/1.55 'Source Serif 4',Georgia,serif;color:#53625a;margin:0}
+.landing-index__count{margin-top:auto;font-size:12px;font-weight:700;color:#66736c}
+.sidebar-nav{padding:0 20px 16px;display:flex;flex-wrap:wrap;gap:6px 18px}
+.sidebar-nav a{font-size:13px;font-weight:700;text-decoration:none;color:#315f49}
+.sidebar-nav a:hover,.footer-links a:hover{text-decoration:underline}
+.site-footer .footer-links{margin:0}
+@media(max-width:767px){.sidebar-nav{display:none}}

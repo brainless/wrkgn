@@ -59,6 +59,9 @@ function enhance(directory: HTMLElement, form: HTMLFormElement) {
       } else oldInputs.forEach((node, index) => { node.checked = newInputs[index].checked; });
     }
   }
+  // Only title, canonical, robots and description are synced. Open Graph/Twitter
+  // tags and JSON-LD may go stale after in-page navigation; this is accepted
+  // because crawlers and link-preview bots fetch full pages.
   function syncHead(page: Document) {
     document.title = page.title;
     for (const selector of ['link[rel="canonical"]', 'meta[name="robots"]', 'meta[name="description"]']) {

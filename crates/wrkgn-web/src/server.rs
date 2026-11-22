@@ -1,7 +1,7 @@
 use crate::{
     config::{CacheConfig, Config},
-    discovery::PAGE_SIZE,
-    render,
+    discovery::{self, Facet, PAGE_SIZE},
+    metadata, render,
     snapshot::Snapshot,
 };
 use arc_swap::ArcSwap;
@@ -24,7 +24,7 @@ pub const BUILD_ID: &str = match option_env!("WRKGN_BUILD_ID") {
     None => "dev",
 };
 const SITEMAP_LIMIT: usize = 50_000;
-const CSP: &str = "default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'; object-src 'none'";
+const CSP: &str = "default-src 'none'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'; object-src 'none'";
 #[derive(Clone)]
 pub struct AppState {
     pub snapshot: Arc<ArcSwap<Snapshot>>,
@@ -98,6 +98,11 @@ async fn finish_response(req: Request, next: Next) -> Response {
         start.elapsed().as_secs_f64() * 1000.0
     );
     response
+}
+enum Outcome {
+    Page(String, CacheClass, String),
+    Redirect(discovery::Redirect),
+    Missing,
 }
 #[derive(Clone, Copy)]
 enum CacheClass {
@@ -248,14 +253,6 @@ fn error(
         headers,
     )
 }
-fn list_path(path: &str) -> bool {
-    path == "/"
-        || path == "/projects/"
-        || path
-            .strip_prefix("/projects/page/")
-            .and_then(|s| s.strip_suffix('/'))
-            .is_some_and(|s| !s.is_empty() && !s.contains('/'))
-}
 async fn handle(State(state): State<AppState>, req: Request) -> Response {
     let snapshot = state.snapshot.load_full();
     let path = req.uri().path();
@@ -339,8 +336,9 @@ async fn handle(State(state): State<AppState>, req: Request) -> Response {
         };
         let origin = state.config.public_origin.clone();
         let count = snapshot.discovery.projects.len();
+        let landing = landing_sitemap_paths(&snapshot);
         let result = snapshot
-            .read(move |conn| sitemap(conn, &origin, count, part))
+            .read(move |conn| sitemap(conn, &origin, count, &landing, part, SITEMAP_LIMIT))
             .await;
         return match result {
             Ok(Some(body)) => response(
@@ -363,7 +361,10 @@ async fn handle(State(state): State<AppState>, req: Request) -> Response {
             ),
         };
     }
-    if !path.ends_with('/') && (path == "/projects" || path.starts_with("/projects/")) {
+    let slashless = |prefix: &str| path == prefix.trim_end_matches('/') || path.starts_with(prefix);
+    if !path.ends_with('/')
+        && (slashless("/projects/") || Facet::LANDING.iter().any(|f| slashless(f.index_path())))
+    {
         let target = match req.uri().query() {
             Some(q) => format!("{path}/?{q}"),
             None => format!("{path}/"),
@@ -377,7 +378,7 @@ async fn handle(State(state): State<AppState>, req: Request) -> Response {
             url,
         );
     }
-    if list_path(path) {
+    if discovery::is_discovery_path(path) {
         let Ok(permit) = Arc::clone(&state.rendering).try_acquire_owned() else {
             let mut response = error(
                 StatusCode::SERVICE_UNAVAILABLE,
@@ -397,9 +398,16 @@ async fn handle(State(state): State<AppState>, req: Request) -> Response {
         let origin = state.config.public_origin.clone();
         let result = tokio::task::spawn_blocking(move || {
             let _permit = permit;
+            if let Some(facet) = discovery::index_facet(&path) {
+                let body = render::landing_index(&worker_snapshot, facet, &origin)?;
+                return Ok::<_, String>(Outcome::Page(body, CacheClass::Public, path));
+            }
             let resolution = worker_snapshot.discovery.resolve(&path, query.as_deref());
             if let Some(redirect) = resolution.redirect {
-                return Ok::<_, String>(Err(redirect));
+                return Ok(Outcome::Redirect(redirect));
+            }
+            if resolution.not_found {
+                return Ok(Outcome::Missing);
             }
             let class = if !resolution.state.q.is_empty() {
                 CacheClass::Search
@@ -408,12 +416,21 @@ async fn handle(State(state): State<AppState>, req: Request) -> Response {
             } else {
                 CacheClass::Public
             };
-            let body = render::listing(&worker_snapshot, &resolution, &origin)?;
-            Ok(Ok((body, class, resolution.state.url())))
+            // A landing page's fixed criterion is not a query criterion, so
+            // `has_criteria` is false and it uses the Public class.
+            let body = if resolution.state.fixed.is_some() {
+                render::landing(&worker_snapshot, &resolution, &origin)?
+            } else {
+                render::listing(&worker_snapshot, &resolution, &origin)?
+            };
+            Ok(Outcome::Page(body, class, resolution.state.url()))
         })
         .await;
         return match result {
-            Ok(Ok(Err(r))) => redirect(
+            Ok(Ok(Outcome::Missing)) => {
+                error(StatusCode::NOT_FOUND, &state, &snapshot, headers, url)
+            }
+            Ok(Ok(Outcome::Redirect(r))) => redirect(
                 StatusCode::from_u16(r.status).unwrap(),
                 &r.location,
                 &state,
@@ -421,7 +438,7 @@ async fn handle(State(state): State<AppState>, req: Request) -> Response {
                 headers,
                 url,
             ),
-            Ok(Ok(Ok((body, class, canonical)))) => response(
+            Ok(Ok(Outcome::Page(body, class, canonical))) => response(
                 StatusCode::OK,
                 "text/html; charset=utf-8",
                 body,
@@ -489,15 +506,37 @@ async fn handle(State(state): State<AppState>, req: Request) -> Response {
     }
     error(StatusCode::NOT_FOUND, &state, &snapshot, headers, url)
 }
-fn sitemap(
+/// Index pages and page 1 of each landing page, in fixed order. Later landing
+/// pages are indexable but deliberately left out of the sitemap.
+fn landing_sitemap_paths(snapshot: &Snapshot) -> Vec<String> {
+    Facet::LANDING
+        .into_iter()
+        .flat_map(|facet| {
+            std::iter::once(facet.index_path().to_owned()).chain(
+                snapshot
+                    .discovery
+                    .options
+                    .get(facet)
+                    .iter()
+                    .map(move |slug| facet.landing_path(slug)),
+            )
+        })
+        .collect()
+}
+/// Entries in fixed order: list pages, landing/index pages, then projects.
+/// `limit` is the per-file URL cap (50,000); tests pass a smaller one.
+pub fn sitemap(
     conn: &rusqlite::Connection,
     origin: &str,
     count: usize,
+    landing: &[String],
     part: Option<usize>,
+    limit: usize,
 ) -> Result<Option<String>, String> {
     let list_pages = count.div_ceil(PAGE_SIZE).max(1);
-    let total = list_pages + count;
-    let parts = total.div_ceil(SITEMAP_LIMIT);
+    let fixed = list_pages + landing.len();
+    let total = fixed + count;
+    let parts = total.div_ceil(limit);
     let origin = render::escape(origin);
     if part.is_none() && parts > 1 {
         let mut xml="<?xml version=\"1.0\" encoding=\"UTF-8\"?><sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">".to_owned();
@@ -512,31 +551,45 @@ fn sitemap(
     if part.is_some_and(|n| parts <= 1 || n > parts) {
         return Ok(None);
     }
-    let start = (part.unwrap_or(1) - 1) * SITEMAP_LIMIT;
-    let end = (start + SITEMAP_LIMIT).min(total);
+    let start = (part.unwrap_or(1) - 1) * limit;
+    let end = (start + limit).min(total);
     let mut xml="<?xml version=\"1.0\" encoding=\"UTF-8\"?><urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">".to_owned();
-    for i in start..end.min(list_pages) {
+    for i in start..end.min(fixed) {
         let path = if i == 0 {
             "/".into()
-        } else {
+        } else if i < list_pages {
             format!("/projects/page/{}/", i + 1)
+        } else {
+            landing[i - list_pages].clone()
         };
-        xml.push_str(&format!("<url><loc>{origin}{path}</loc></url>"));
+        // No lastmod: no page modification time exists for these URLs.
+        xml.push_str(&format!(
+            "<url><loc>{origin}{}</loc></url>",
+            render::escape(&path)
+        ));
     }
-    let offset = start.saturating_sub(list_pages);
-    let limit = end.saturating_sub(start.max(list_pages));
+    let offset = start.saturating_sub(fixed);
+    let limit = end.saturating_sub(start.max(fixed));
     if limit > 0 {
         let mut stmt = conn
             .prepare(
-                "SELECT slug FROM projects ORDER BY latest_shared_at DESC,id LIMIT ?1 OFFSET ?2",
+                "SELECT slug, latest_shared_at FROM projects ORDER BY latest_shared_at DESC,id LIMIT ?1 OFFSET ?2",
             )
             .map_err(|e| e.to_string())?;
         let slugs = stmt
-            .query_map([limit as i64, offset as i64], |r| r.get::<_, String>(0))
+            .query_map([limit as i64, offset as i64], |r| {
+                Ok((r.get::<_, String>(0)?, r.get::<_, i64>(1)?))
+            })
             .map_err(|e| e.to_string())?;
-        for slug in slugs {
-            let slug = slug.map_err(|e| e.to_string())?;
-            xml.push_str(&format!("<url><loc>{origin}/projects/{slug}/</loc></url>"));
+        for row in slugs {
+            let (slug, shared) = row.map_err(|e| e.to_string())?;
+            // Freshness hint only: the latest sharing date, not a page edit time.
+            let lastmod = metadata::utc(shared)
+                .map(|d| format!("<lastmod>{d}</lastmod>"))
+                .unwrap_or_default();
+            xml.push_str(&format!(
+                "<url><loc>{origin}/projects/{slug}/</loc>{lastmod}</url>"
+            ));
         }
     }
     xml.push_str("</urlset>");
