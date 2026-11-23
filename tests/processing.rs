@@ -209,7 +209,9 @@ fn repeated_rate_limits_stop_the_run_and_leave_the_rest_unattempted() {
         false,
         &Options {
             max_attempts: 2,
-            stop_after_transient_failures: 2,
+            control: Some(std::sync::Arc::new(wrkgn::run::RunControl::with_threshold(
+                2,
+            ))),
             ..options(1)
         },
         |p| seen.push(p),

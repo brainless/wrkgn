@@ -9,7 +9,13 @@ use rusqlite::{Connection, OptionalExtension, params};
 use serde_json::Value;
 use sha2::{Digest, Sha256};
 
-const LATEST_SCHEMA_VERSION: i64 = 7;
+mod runs;
+pub use runs::{
+    CoverageUnit, DriverRun, ItemState, ItemUpdate, QueueCounts, QueueItem, QueueKind, RunCounts,
+    UnitState, UnitUpdate,
+};
+
+const LATEST_SCHEMA_VERSION: i64 = 8;
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub enum ExtractionMode {
@@ -100,11 +106,15 @@ impl Store {
     /// Uses `WRKGN_DB_PATH`, or `local-data/wrkgn.sqlite` relative to the
     /// current directory. The default path is excluded from version control.
     pub fn open_configured() -> rusqlite::Result<Self> {
-        let path = env::var_os("WRKGN_DB_PATH")
+        Self::open(Self::configured_path())
+    }
+
+    /// The database path `open_configured` uses.
+    pub fn configured_path() -> PathBuf {
+        env::var_os("WRKGN_DB_PATH")
             .filter(|value| !value.is_empty())
             .map(PathBuf::from)
-            .unwrap_or_else(|| PathBuf::from("local-data/wrkgn.sqlite"));
-        Self::open(path)
+            .unwrap_or_else(|| PathBuf::from("local-data/wrkgn.sqlite"))
     }
 
     pub fn open(path: impl AsRef<Path>) -> rusqlite::Result<Self> {
@@ -196,6 +206,12 @@ impl Store {
             let transaction = self.connection.transaction()?;
             transaction.execute_batch(include_str!("../migrations/007_show_hn.sql"))?;
             transaction.pragma_update(None, "user_version", 7)?;
+            transaction.commit()?;
+        }
+        if current < 8 {
+            let transaction = self.connection.transaction()?;
+            transaction.execute_batch(include_str!("../migrations/008_runs.sql"))?;
+            transaction.pragma_update(None, "user_version", 8)?;
             transaction.commit()?;
         }
         Ok(())
@@ -307,12 +323,24 @@ impl Store {
 
     /// Completion is allowed only when no failures were recorded for this run.
     pub fn finish_run(&self, run_id: i64, finished_at: i64) -> rusqlite::Result<()> {
+        self.finish_run_with(run_id, finished_at, false)
+    }
+
+    /// Like `finish_run`; `stopped` marks a run cut short by an interrupt or the
+    /// circuit breaker, which is never complete even with no recorded failures.
+    pub fn finish_run_with(
+        &self,
+        run_id: i64,
+        finished_at: i64,
+        stopped: bool,
+    ) -> rusqlite::Result<()> {
         let transaction = self.connection.unchecked_transaction()?;
         let changed = transaction.execute(
             "UPDATE collection_runs SET finished_at = ?2,
-                status = CASE WHEN failure_count = 0 THEN 'complete' ELSE 'incomplete' END
+                status = CASE WHEN failure_count = 0 AND ?3 = 0 THEN 'complete'
+                              ELSE 'incomplete' END
              WHERE id = ?1 AND status = 'running'",
-            params![run_id, finished_at],
+            params![run_id, finished_at, stopped],
         )?;
         if changed == 0 {
             return Err(rusqlite::Error::QueryReturnedNoRows);

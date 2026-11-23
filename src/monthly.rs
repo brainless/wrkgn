@@ -1,13 +1,28 @@
-//! Sequential monthly orchestration over the existing local pipeline.
+//! Monthly orchestration over the existing local pipeline, on the shared run
+//! driver (`crate::run::driver`).
 use crate::cli::{Status, failure_summary};
-use crate::collector::{CollectionConfig, Collector, HnApi};
-use crate::processing::{self, Model, RigModel};
-use crate::{store::Store, workflow};
+use crate::collector::{Collector, HnApi};
+use crate::processing::{self, Model};
+use crate::run::driver::{
+    self, ChunkCx, DriverConfig, DriverResult, ItemOutcome, ProgressEvent, SeedReport, Workload,
+};
+use crate::run::status::{Clock, StatusLine};
+use crate::run::{MAX_UNIT_ATTEMPTS, RunSession};
+use crate::store::{QueueKind, UnitState};
+use crate::{publication, store::Store, workflow};
 use serde::Deserialize;
-use std::collections::BTreeSet;
+use std::collections::{BTreeMap, BTreeSet};
 use std::io::Write;
 use std::path::{Path, PathBuf};
 use std::time::Duration;
+
+/// Recent months re-walked fully on every run (`--months`).
+pub const DEFAULT_HEAD_MONTHS: usize = 2;
+/// Uncovered older months taken per run (`--backfill-months`).
+pub const DEFAULT_BACKFILL_MONTHS: usize = 1;
+/// Threads collected and processed per run by resume and backfill together
+/// (`--max-items`). Head threads do not count.
+pub const DEFAULT_MAX_ITEMS: usize = 5;
 
 const MONTHS: [&str; 12] = [
     "January",
@@ -23,16 +38,49 @@ const MONTHS: [&str; 12] = [
     "November",
     "December",
 ];
-const HELP: &str = "Usage: wrkgn-monthly [--from YYYY-MM] [--through YYYY-MM]
+pub const HELP: &str = "Usage: wrkgn-monthly [--months N] [--backfill-months N] [--max-items N]
     [--concurrency N] [--db PATH] [--export DIRECTORY]
+       wrkgn-monthly --from YYYY-MM [--through YYYY-MM] [--concurrency N] [--db PATH] [--export DIRECTORY]
+       wrkgn-monthly --through YYYY-MM [--concurrency N] [--db PATH] [--export DIRECTORY]
 
-Defaults: current UTC month through 23 months earlier (24 months inclusive).
-Search every month newest first, collecting, processing, automatically approving,
-and exporting each matching thread before starting the next. Missing months are
-skipped. Thread and discovery failures are logged while remaining work continues;
-the final summary exits nonzero if any failed. Rerun to resume successful groups.
+With no range, each run is small and resumable; run it daily or from cron:
+  1. Resume: finish months a previous run left pending, in progress or failed.
+  2. Head: re-walk the current and previous UTC months (--months, default 2)
+     completely; only changed conversation groups are reprocessed. Head threads
+     do not count against --max-items.
+  3. Backfill: take the newest uncovered months older than the head
+     (--backfill-months, default 1), newest first, back to 2007-02. Empty months
+     count and are marked done.
+--max-items (default 5) caps threads collected and processed by resume and
+backfill together; the run stops at a thread boundary and the next run continues.
+Coverage, the thread queue and runs live in the SQLite database; there are no log
+files. On the first run, months of threads already stored are recorded from their
+titles and not searched again. A month with a failure is retried on later runs up
+to 3 attempts, then listed for manual action. Comments, edits or deletions that
+arrive after a thread leaves the head are picked up only by an explicit
+wrkgn collect --thread followed by wrkgn process --thread, or by re-running that
+month with --from M --through M.
+
+--from/--through process exactly that range, newest first (--from alone: 24 months
+ending there; --through alone: from the current month), bypassing head, backfill
+and limits, and re-walking months already done. They cannot be combined with
+--months, --backfill-months or --max-items.
+
+Each thread is collected, processed, automatically approved and exported before
+the next. Approval is automatic for each successfully processed thread; this
+command bypasses manual review. A live status line and an end-of-run Markdown
+report go to stderr. Exit code 0: completed or limit reached without failures;
+1: failures or a setup error; 2: stopped after 3 consecutive failed calls to one
+API (LLM provider, HN, Algolia); 130: interrupted (Ctrl-C or SIGTERM stops at the
+next thread, exports, and reports; a second Ctrl-C exits at once). A second
+instance exits immediately while one is running, so overlapping cron runs are safe.
+
+Cron example (cron starts in the home directory; .env and the default
+local-data/ paths are relative to the working directory). The report goes to
+stderr and arrives as cron mail:
+  17 3 * * * cd /path/to/wrkgn && ./target/release/wrkgn-monthly
 Uses the same .env, provider, database and export settings as wrkgn.
-This command bypasses manual review. Publication to the server remains explicit.";
+Publication to the server remains explicit.";
 
 #[derive(Clone, Copy, Debug, PartialEq, Eq, PartialOrd, Ord)]
 pub struct Month {
@@ -73,15 +121,54 @@ impl Month {
         }
     }
 
-    fn current() -> Result<Self, String> {
-        // SQLite supplies the UTC calendar date without another date dependency.
-        let date: String = rusqlite::Connection::open_in_memory()
-            .and_then(|c| c.query_row("SELECT strftime('%Y-%m','now')", [], |r| r.get(0)))
-            .map_err(|e| e.to_string())?;
-        Self::parse(&date)
+    /// The start of HN's monthly threads; backfill never goes older.
+    pub const FLOOR: Month = Month {
+        year: 2007,
+        month: 2,
+    };
+
+    pub fn next(self) -> Option<Self> {
+        if self.month < 12 {
+            Some(Self {
+                month: self.month + 1,
+                ..self
+            })
+        } else {
+            self.year.checked_add(1).map(|year| Self { year, month: 1 })
+        }
     }
 
-    pub fn matches_title(self, title: &str) -> bool {
+    /// The UTC month containing the Unix time.
+    pub fn at(unix: i64) -> Option<Self> {
+        // Civil-from-days (Howard Hinnant).
+        let z = unix.div_euclid(86_400) + 719_468;
+        let era = z.div_euclid(146_097);
+        let doe = z.rem_euclid(146_097);
+        let yoe = (doe - doe / 1_460 + doe / 36_524 - doe / 146_096) / 365;
+        let doy = doe - (365 * yoe + yoe / 4 - yoe / 100);
+        let mp = (5 * doy + 2) / 153;
+        let month = if mp < 10 { mp + 3 } else { mp - 9 };
+        let year = yoe + era * 400 + i64::from(month <= 2);
+        Some(Self {
+            year: u16::try_from(year).ok().filter(|y| *y > 0)?,
+            month: u8::try_from(month).ok()?,
+        })
+    }
+
+    /// The current UTC month.
+    pub fn current() -> Result<Self, String> {
+        let now = std::time::SystemTime::now()
+            .duration_since(std::time::UNIX_EPOCH)
+            .map_err(|e| e.to_string())?
+            .as_secs();
+        Self::at(i64::try_from(now).map_err(|e| e.to_string())?)
+            .ok_or_else(|| "the system clock is out of range".to_string())
+    }
+
+    /// The month a thread title names: `What are you working on (<month> <year>)`
+    /// with a full or three-letter month name (or `Sept`), an optional
+    /// `Ask HN:` prefix and optional question marks, any letter case.
+    pub fn from_title(title: &str) -> Option<Self> {
         let title = title.to_lowercase();
         let title = title
             .trim()
@@ -89,15 +176,23 @@ impl Month {
             .unwrap_or(title.trim())
             .trim();
         let normalized = title.replace('?', "");
-        let full = MONTHS[self.month as usize - 1].to_lowercase();
-        let short = &full[..3];
-        [
-            full.as_str(),
-            short,
-            if self.month == 9 { "sept" } else { short },
-        ]
-        .iter()
-        .any(|name| normalized == format!("what are you working on ({name} {})", self.year))
+        let inner = normalized
+            .strip_prefix("what are you working on (")?
+            .strip_suffix(')')?;
+        let (name, year) = inner.split_once(' ')?;
+        let year: u16 = year.parse().ok().filter(|y| *y > 0)?;
+        if year.to_string() != inner[name.len() + 1..] {
+            return None;
+        }
+        let month = (1..=12u8).find(|month| {
+            let full = MONTHS[usize::from(*month) - 1].to_lowercase();
+            name == full || name == &full[..3] || (*month == 9 && name == "sept")
+        })?;
+        Some(Self { year, month })
+    }
+
+    pub fn matches_title(self, title: &str) -> bool {
+        Self::from_title(title) == Some(self)
     }
 
     fn search_queries(self) -> Vec<String> {
@@ -125,6 +220,7 @@ pub trait Discovery {
 
 pub struct HttpDiscovery {
     agent: ureq::Agent,
+    control: Option<std::sync::Arc<crate::run::RunControl>>,
 }
 
 impl Default for HttpDiscovery {
@@ -134,6 +230,7 @@ impl Default for HttpDiscovery {
                 .timeout_global(Some(Duration::from_secs(30)))
                 .build()
                 .new_agent(),
+            control: None,
         }
     }
 }
@@ -209,6 +306,21 @@ impl Discovery for HttpDiscovery {
 }
 
 impl HttpDiscovery {
+    /// Counts Algolia calls against the shared circuit breaker.
+    pub fn with_control(mut self, control: std::sync::Arc<crate::run::RunControl>) -> Self {
+        self.control = Some(control);
+        self
+    }
+
+    fn count(&self, success: bool) {
+        if let Some(control) = &self.control {
+            if success {
+                control.breaker.record_success(crate::run::Api::Algolia);
+            } else {
+                control.breaker.record_failure(crate::run::Api::Algolia);
+            }
+        }
+    }
     fn search_page(&self, month: Month, query: &str, page: usize) -> Result<SearchPage, String> {
         let mut url = url::Url::parse("https://hn.algolia.com/api/v1/search").unwrap();
         url.query_pairs_mut()
@@ -223,6 +335,7 @@ impl HttpDiscovery {
         for attempt in 0..3 {
             match self.agent.get(url.as_str()).call() {
                 Ok(mut response) => {
+                    self.count(true);
                     return response
                         .body_mut()
                         .read_json::<SearchPage>()
@@ -237,6 +350,10 @@ impl HttpDiscovery {
                             | ureq::Error::HostNotFound
                     );
                     if !retry || attempt == 2 {
+                        // Only an exhausted retryable error counts as a failure.
+                        if retry {
+                            self.count(false);
+                        }
                         return Err(format!("thread discovery failed for {month}: {error}"));
                     }
                     std::thread::sleep(Duration::from_secs(1 << attempt));
@@ -321,19 +438,28 @@ pub fn sync_thread<C: HnApi, M: Model + Sync>(
             status.finish();
             Err(error)
         }
+        Err(workflow::Error::Stopped) => {
+            status.finish();
+            Err("collection stopped before the tree was fully walked; rerun to resume".into())
+        }
     }
 }
 
-struct Args {
-    from: Month,
-    through: Month,
-    db: Option<PathBuf>,
-    export: PathBuf,
-    options: processing::Options,
+#[derive(Clone)]
+pub struct Args {
+    /// `--from/--through` override: months newest first. `None` is a default
+    /// run (resume, head, backfill).
+    pub range: Option<(Month, Month)>,
+    pub head_months: usize,
+    pub backfill_months: usize,
+    pub max_items: usize,
+    pub db: Option<PathBuf>,
+    pub export: PathBuf,
+    pub options: processing::Options,
 }
 
 impl Args {
-    fn parse(args: &[String]) -> Result<Self, String> {
+    pub fn parse(args: &[String]) -> Result<Self, String> {
         let mut from = None;
         let mut through = None;
         let mut db = None;
@@ -341,11 +467,31 @@ impl Args {
             .map(PathBuf::from)
             .unwrap_or_else(|| PathBuf::from("local-data/public-export"));
         let mut options = processing::Options::default();
+        let mut head_months = DEFAULT_HEAD_MONTHS;
+        let mut backfill_months = DEFAULT_BACKFILL_MONTHS;
+        let mut max_items = DEFAULT_MAX_ITEMS;
+        let mut limit_flags = false;
         let mut seen = BTreeSet::new();
         let mut args = args.iter();
+        let positive = |flag: &str, value: &str| {
+            value
+                .parse::<usize>()
+                .ok()
+                .filter(|n| *n > 0)
+                .ok_or_else(|| format!("{flag} requires a positive integer"))
+        };
         while let Some(flag) = args.next() {
-            if !["--from", "--through", "--db", "--export", "--concurrency"]
-                .contains(&flag.as_str())
+            if ![
+                "--from",
+                "--through",
+                "--db",
+                "--export",
+                "--concurrency",
+                "--months",
+                "--backfill-months",
+                "--max-items",
+            ]
+            .contains(&flag.as_str())
             {
                 return Err(format!("unknown argument {flag}\n{HELP}"));
             }
@@ -361,157 +507,286 @@ impl Args {
                 "--through" => through = Some(Month::parse(value)?),
                 "--db" => db = Some(PathBuf::from(value)),
                 "--export" => export = PathBuf::from(value),
-                "--concurrency" => {
-                    options.concurrency = value
-                        .parse::<usize>()
-                        .ok()
-                        .filter(|n| *n > 0)
-                        .ok_or("--concurrency requires a positive integer")?
+                "--concurrency" => options.concurrency = positive(flag, value)?,
+                "--months" => {
+                    head_months = positive(flag, value)?;
+                    limit_flags = true;
+                }
+                "--backfill-months" => {
+                    backfill_months = positive(flag, value)?;
+                    limit_flags = true;
+                }
+                "--max-items" => {
+                    max_items = positive(flag, value)?;
+                    limit_flags = true;
                 }
                 _ => unreachable!(),
             }
         }
-        let from = from.map(Ok).unwrap_or_else(Month::current)?;
-        let through =
-            through.unwrap_or_else(|| (0..23).fold(from, |m, _| m.previous().unwrap_or(m)));
-        if through > from {
-            return Err("--through must be the same month as --from or earlier".into());
-        }
+        let range = if from.is_some() || through.is_some() {
+            if limit_flags {
+                return Err(
+                    "--from/--through cannot be combined with --months, --backfill-months or --max-items"
+                        .into(),
+                );
+            }
+            let from = from.map(Ok).unwrap_or_else(Month::current)?;
+            let through =
+                through.unwrap_or_else(|| (0..23).fold(from, |m, _| m.previous().unwrap_or(m)));
+            if through > from {
+                return Err("--through must be the same month as --from or earlier".into());
+            }
+            Some((from, through))
+        } else {
+            None
+        };
         Ok(Self {
-            from,
-            through,
+            range,
+            head_months,
+            backfill_months,
+            max_items,
             db,
             export,
             options,
         })
     }
+
+    /// The months an override processes, newest first.
+    fn override_months(&self) -> Option<Vec<Month>> {
+        let (from, through) = self.range?;
+        let mut months = vec![from];
+        let mut month = from;
+        while month > through {
+            month = month.previous()?;
+            months.push(month);
+        }
+        Some(months)
+    }
 }
 
-pub fn run<C: HnApi, D: Discovery>(
-    args: &[String],
-    api: C,
-    discovery: D,
-    out: &mut impl Write,
-) -> Result<(), String> {
-    if args.iter().any(|a| a == "--help") {
-        return writeln!(out, "{HELP}").map_err(|e| e.to_string());
-    }
-    let args = Args::parse(args)?;
-    let model = RigModel::from_env()?;
-    let mut store = match &args.db {
-        Some(path) => Store::open(path),
-        None => Store::open_configured(),
-    }
-    .map_err(|e| e.to_string())?;
-    let collector = Collector::new(api, CollectionConfig::default());
-    execute(&mut store, &collector, &model, &discovery, &args, out)
+/// Monthly discussions on the shared run driver.
+pub struct MonthlyWorkload<'a, C, D, M> {
+    collector: &'a Collector<C>,
+    model: &'a M,
+    discovery: &'a D,
+    options: processing::Options,
+    export: PathBuf,
+    head_months: usize,
 }
 
-fn execute<C: HnApi, M: Model + Sync, D: Discovery>(
+fn thread_prepare(store: &mut Store, thread: i64) -> Result<bool, String> {
+    if store.extraction_mode(thread)? == Some(crate::store::ExtractionMode::ShowHn) {
+        return Err(format!(
+            "thread {thread} is assigned to show_hn extraction; monthly workflow cannot process it"
+        ));
+    }
+    store.assign_extraction_mode(thread, crate::store::ExtractionMode::Monthly)?;
+    Ok(true)
+}
+
+impl<C: HnApi, D: Discovery, M: Model + Sync> Workload for MonthlyWorkload<'_, C, D, M> {
+    type Unit = Month;
+    const COMMAND: &'static str = "monthly";
+    const ITEM_KIND: QueueKind = QueueKind::Thread;
+    const ITEM_LABEL: &'static str = "thread";
+    const UNIT_LABEL: &'static str = "month";
+
+    fn parse_unit(&self, key: &str) -> Option<Month> {
+        Month::parse(key).ok()
+    }
+
+    fn head_units(&self, now: i64, n: usize) -> Vec<Month> {
+        let mut units = Vec::new();
+        let mut month = Month::at(now);
+        while let Some(current) = month {
+            if units.len() >= n || current < Month::FLOOR {
+                break;
+            }
+            units.push(current);
+            month = current.previous();
+        }
+        units
+    }
+
+    fn floor(&self) -> Month {
+        Month::FLOOR
+    }
+
+    fn previous(&self, unit: Month) -> Option<Month> {
+        unit.previous()
+    }
+
+    fn discover(&self, unit: Month) -> Result<Vec<i64>, String> {
+        self.discovery.threads(unit)
+    }
+
+    fn process_chunk(
+        &self,
+        cx: &mut ChunkCx<'_>,
+        _unit: Option<Month>,
+        ids: &[i64],
+    ) -> Vec<(i64, ItemOutcome)> {
+        let mut options = self.options.clone();
+        options.control = Some(cx.control.clone());
+        let mut outcomes = Vec::new();
+        for &thread in ids {
+            if cx.control.should_stop() {
+                outcomes.push((thread, ItemOutcome::Stopped));
+                break;
+            }
+            (cx.progress)(ProgressEvent::Item(thread));
+            let mut first_failure = None;
+            let result = workflow::stage_thread(
+                cx.store,
+                self.collector,
+                self.model,
+                thread,
+                &workflow::StageOptions {
+                    processing: &options,
+                    reprocess: false,
+                    approval: workflow::ApprovalPolicy::ApproveThread,
+                },
+                thread_prepare,
+                |event| {
+                    match event {
+                        workflow::Event::Collected(collection) => {
+                            (cx.progress)(ProgressEvent::Collected);
+                            first_failure = collection
+                                .failures
+                                .first()
+                                .map(|f| format!("item {}: {}", f.item_id, f.detail));
+                        }
+                        workflow::Event::Progress(progress) => {
+                            (cx.progress)(ProgressEvent::Extract(progress.done, progress.total));
+                        }
+                        _ => {}
+                    }
+                    Ok(())
+                },
+            );
+            let outcome = match result {
+                Ok(workflow::Staged::Ready { approved }) => ItemOutcome::Done {
+                    approved: approved.unwrap_or(0),
+                },
+                Ok(workflow::Staged::Withheld) => ItemOutcome::Done { approved: 0 },
+                Err(error) => {
+                    driver::outcome_from_error(error, cx.control, cx.errors, thread, first_failure)
+                }
+            };
+            let stopped = outcome == ItemOutcome::Stopped;
+            outcomes.push((thread, outcome));
+            if stopped {
+                break;
+            }
+        }
+        outcomes
+    }
+
+    fn export(&self, store: &mut Store) -> Result<String, String> {
+        publication::export(store, &self.export)
+    }
+
+    /// Records which month each stored monthly thread belongs to, from its
+    /// title, so existing data is not searched or collected again. Months that
+    /// already have coverage are left alone; a month is `done` only when all its
+    /// stored threads were completely collected and processed and it is older
+    /// than the head window.
+    fn seed(&self, store: &mut Store, now: i64) -> Result<SeedReport, String> {
+        let threads: Vec<(i64, Option<String>, bool)> = {
+            let mut statement = store
+                .connection()
+                .prepare(
+                    "SELECT s.item_id, json_extract(s.raw_payload,'$.title'),
+                        COALESCE((SELECT status = 'complete' FROM collection_runs
+                                  WHERE thread_id = s.item_id ORDER BY id DESC LIMIT 1), 0)
+                        AND COALESCE((SELECT status = 'complete' FROM processing_runs
+                                  WHERE thread_id = s.item_id ORDER BY id DESC LIMIT 1), 0)
+                     FROM source_items s
+                     JOIN thread_extraction_modes m ON m.thread_id = s.item_id
+                     WHERE m.mode = 'monthly' AND s.item_id = s.thread_id
+                     ORDER BY s.item_id DESC",
+                )
+                .map_err(|e| e.to_string())?;
+            statement
+                .query_map([], |row| Ok((row.get(0)?, row.get(1)?, row.get(2)?)))
+                .map_err(|e| e.to_string())?
+                .collect::<rusqlite::Result<_>>()
+                .map_err(|e| e.to_string())?
+        };
+        let mut by_month: BTreeMap<Month, Vec<(i64, bool)>> = BTreeMap::new();
+        let mut report = SeedReport::default();
+        let mut unparsable = Vec::new();
+        for (thread, title, complete) in threads {
+            match title.as_deref().and_then(Month::from_title) {
+                Some(month) => by_month.entry(month).or_default().push((thread, complete)),
+                None => unparsable.push(thread),
+            }
+        }
+        if !unparsable.is_empty() {
+            report.notes.push(format!(
+                "{} stored monthly thread(s) have no parsable month title and were not seeded: {:?}",
+                unparsable.len(),
+                &unparsable[..unparsable.len().min(10)]
+            ));
+        }
+        let head: BTreeSet<Month> = self.head_units(now, self.head_months).into_iter().collect();
+        for (month, items) in by_month {
+            let done = items.iter().all(|(_, complete)| *complete) && !head.contains(&month);
+            let state = if done {
+                UnitState::Done
+            } else {
+                UnitState::Pending
+            };
+            if store
+                .seed_unit(
+                    Self::COMMAND,
+                    QueueKind::Thread,
+                    &month.to_string(),
+                    state,
+                    &items,
+                    now,
+                )
+                .map_err(|e| e.to_string())?
+            {
+                report.units += 1;
+                report.items += items.len();
+            }
+        }
+        Ok(report)
+    }
+}
+
+/// Runs the monthly workload on the shared driver. The collector should carry
+/// `session.control` (`Collector::with_control`) so fetches reach the breaker.
+#[allow(clippy::too_many_arguments)]
+pub fn execute_driver<C: HnApi, D: Discovery, M: Model + Sync, O: Write, K: Clock>(
     store: &mut Store,
+    session: &RunSession,
     collector: &Collector<C>,
     model: &M,
     discovery: &D,
     args: &Args,
-    out: &mut impl Write,
-) -> Result<(), String> {
-    let mut month = args.from;
-    let mut failures = Vec::new();
-    let mut succeeded = 0;
-    let mut failed_threads = 0;
-    let mut failed_months = 0;
-    loop {
-        let threads = match discovery.threads(month) {
-            Ok(threads) => {
-                writeln!(out, "{month}: {} matching threads.", threads.len())
-                    .map_err(|e| e.to_string())?;
-                threads
-            }
-            Err(error) => {
-                let failure = format!("{month} discovery failed: {error}");
-                writeln!(out, "{failure}").map_err(|e| e.to_string())?;
-                out.flush().map_err(|e| e.to_string())?;
-                failures.push(failure);
-                failed_months += 1;
-                vec![]
-            }
-        };
-        // Deduplicate discovery responses before doing any collection or model work.
-        for thread in threads
-            .into_iter()
-            .collect::<BTreeSet<_>>()
-            .into_iter()
-            .rev()
-        {
-            let mut output = ObservedWriter {
-                inner: out,
-                failed: false,
-            };
-            let result = sync_thread(
-                store,
-                collector,
-                model,
-                thread,
-                &args.options,
-                &args.export,
-                &mut output,
-            );
-            if output.failed {
-                return Err(result
-                    .err()
-                    .unwrap_or_else(|| "monthly output failed".into()));
-            }
-            match result {
-                Ok(()) => succeeded += 1,
-                Err(error) => {
-                    let failure = format!("Thread {thread} ({month}) failed: {error}");
-                    writeln!(out, "{failure}").map_err(|e| e.to_string())?;
-                    out.flush().map_err(|e| e.to_string())?;
-                    failures.push(failure);
-                    failed_threads += 1;
-                }
-            }
-        }
-        if month == args.through {
-            break;
-        }
-        month = month.previous().ok_or("month range underflow")?;
-    }
-    writeln!(out, "Monthly summary: {succeeded} thread(s) succeeded, {failed_threads} thread(s) failed, {failed_months} month discovery failure(s).")
-        .map_err(|e| e.to_string())?;
-    out.flush().map_err(|e| e.to_string())?;
-    if failures.is_empty() {
-        Ok(())
-    } else {
-        Err(format!(
-            "monthly run completed with {failed_threads} failed thread(s) and {failed_months} month discovery failure(s):\n{}\nRerun the same command to retry failures and skip unchanged successful groups.",
-            failures.join("\n")
-        ))
-    }
-}
-
-/// A presentation failure must stop the command even though workflow operation
-/// errors otherwise remain local to the thread being handled.
-struct ObservedWriter<'a, W> {
-    inner: &'a mut W,
-    failed: bool,
-}
-impl<W: Write> Write for ObservedWriter<'_, W> {
-    fn write(&mut self, buf: &[u8]) -> std::io::Result<usize> {
-        let result = self.inner.write(buf);
-        self.failed |= result.is_err();
-        result
-    }
-    fn write_all(&mut self, buf: &[u8]) -> std::io::Result<()> {
-        let result = self.inner.write_all(buf);
-        self.failed |= result.is_err();
-        result
-    }
-    fn flush(&mut self) -> std::io::Result<()> {
-        let result = self.inner.flush();
-        self.failed |= result.is_err();
-        result
-    }
+    now: &dyn Fn() -> i64,
+    status: &mut StatusLine<O, K>,
+    err: &mut impl Write,
+) -> DriverResult {
+    let workload = MonthlyWorkload {
+        collector,
+        model,
+        discovery,
+        options: args.options.clone(),
+        export: args.export.clone(),
+        head_months: args.head_months,
+    };
+    let config = DriverConfig {
+        head: args.head_months,
+        backfill_units: args.backfill_months,
+        max_items: args.max_items,
+        max_attempts: MAX_UNIT_ATTEMPTS,
+        range: args.override_months(),
+        items: None,
+    };
+    driver::run(store, session, &workload, &config, now, status, err)
 }
 
 #[cfg(test)]
@@ -606,7 +881,31 @@ mod tests {
     fn arguments_validate_before_work() {
         let args = |s: &str| s.split_whitespace().map(str::to_string).collect::<Vec<_>>();
         let parsed = Args::parse(&args("--from 2026-11")).unwrap();
-        assert_eq!(parsed.through, Month::parse("2024-12").unwrap());
+        assert_eq!(
+            parsed.range,
+            Some((
+                Month::parse("2026-11").unwrap(),
+                Month::parse("2024-12").unwrap()
+            ))
+        );
+        assert_eq!(parsed.override_months().unwrap().len(), 24);
+        let parsed = Args::parse(&args("--through 2026-09")).unwrap();
+        assert_eq!(parsed.range.unwrap().1, Month::parse("2026-09").unwrap());
+        let defaults = Args::parse(&[]).unwrap();
+        assert!(defaults.range.is_none() && defaults.override_months().is_none());
+        assert_eq!(
+            (
+                defaults.head_months,
+                defaults.backfill_months,
+                defaults.max_items
+            ),
+            (2, 1, 5)
+        );
+        let tuned = Args::parse(&args("--months 4 --backfill-months 2 --max-items 9")).unwrap();
+        assert_eq!(
+            (tuned.head_months, tuned.backfill_months, tuned.max_items),
+            (4, 2, 9)
+        );
         for invalid in [
             "--from",
             "--from 2026-13",
@@ -615,242 +914,89 @@ mod tests {
             "--concurrency nope",
             "--unknown thing",
             "--db a --db b",
+            "--months 0",
+            "--backfill-months x",
+            "--max-items 0",
+            "--max-items 1 --max-items 2",
+            "--from 2026-11 --months 2",
+            "--through 2026-11 --backfill-months 2",
+            "--from 2026-11 --max-items 2",
         ] {
             assert!(Args::parse(&args(invalid)).is_err(), "{invalid}");
         }
     }
 
     #[test]
-    fn traversal_continues_same_month_and_older_months_after_failures() {
-        use crate::collector::FetchError;
-        use crate::extraction::Extraction;
-        use std::sync::Mutex;
-        struct Fixture(Mutex<Vec<String>>, bool, bool);
-        impl Discovery for &Fixture {
-            fn threads(&self, month: Month) -> Result<Vec<i64>, String> {
-                self.0.lock().unwrap().push(format!("search {month}"));
-                if self.2 && month.month == 12 {
-                    return Err("fixture discovery unavailable".into());
-                }
-                Ok(match month.month {
-                    1 => vec![100, 200, 100],
-                    12 => vec![],
-                    11 => vec![300],
-                    _ => unreachable!(),
-                })
+    fn title_parsing_agrees_with_matching() {
+        let spellings = |month: u8| -> Vec<String> {
+            let full = MONTHS[usize::from(month) - 1];
+            let mut names = vec![full.to_string(), full[..3].to_string()];
+            if month == 9 {
+                names.push("Sept".into());
             }
-        }
-        impl HnApi for &Fixture {
-            fn fetch_item(&self, id: i64) -> Result<Option<serde_json::Value>, FetchError> {
-                self.0.lock().unwrap().push(format!("fetch {id}"));
-                Ok(if self.1 && id == 200 {
-                    None
-                } else {
-                    Some(serde_json::json!({"id":id,"kids":[]}))
-                })
-            }
-        }
-        struct NoComments;
-        impl Model for NoComments {
-            fn name(&self) -> &str {
-                "fixture"
-            }
-            fn extract(&self, _: &str) -> Result<Extraction, String> {
-                panic!("no comments to process")
-            }
-        }
-        for (fail_thread, fail_discovery) in
-            [(false, false), (true, false), (false, true), (true, true)]
-        {
-            let dir = tempfile::tempdir().unwrap();
-            let mut store = Store::open(dir.path().join("db")).unwrap();
-            let fixture = Fixture(Mutex::new(vec![]), fail_thread, fail_discovery);
-            let args = Args {
-                from: Month::parse("2026-01").unwrap(),
-                through: Month::parse("2025-11").unwrap(),
-                db: None,
-                export: dir.path().join("export"),
-                options: processing::Options::default(),
+            names
+        };
+        for number in 1..=12u8 {
+            let month = Month {
+                year: 2024,
+                month: number,
             };
-            let collector = Collector::new(&fixture, CollectionConfig::default());
-            let mut output = Vec::new();
-            let result = execute(
-                &mut store,
-                &collector,
-                &NoComments,
-                &&fixture,
-                &args,
-                &mut output,
-            );
-            assert_eq!(result.is_err(), fail_thread || fail_discovery);
-            let calls = fixture.0.lock().unwrap();
-            assert_eq!(
-                *calls,
-                [
-                    "search 2026-01",
-                    "fetch 200",
-                    "fetch 100",
-                    "search 2025-12",
-                    "search 2025-11",
-                    "fetch 300"
-                ]
-            );
-            let output = String::from_utf8(output).unwrap();
-            assert_eq!(
-                output.matches("Public snapshot:").count(),
-                if fail_thread { 2 } else { 3 }
-            );
-            if fail_thread {
-                let failure = "Thread 200 (2026-01) failed:";
-                assert!(output.find(failure).unwrap() < output.find("Thread 100:").unwrap());
-                assert!(result.as_ref().unwrap_err().contains(failure));
+            for name in spellings(number) {
+                for case in [name.clone(), name.to_lowercase(), name.to_uppercase()] {
+                    for prefix in ["", "Ask HN: ", "ask hn:  "] {
+                        for (open, close) in [("", ""), ("?", ""), ("", "?")] {
+                            let title = format!(
+                                "{prefix}What are you working on{open} ({case} 2024){close}"
+                            );
+                            assert_eq!(Month::from_title(&title), Some(month), "{title}");
+                            assert!(month.matches_title(&title), "{title}");
+                            let other = Month {
+                                month: number % 12 + 1,
+                                ..month
+                            };
+                            assert!(!other.matches_title(&title), "{title}");
+                        }
+                    }
+                }
             }
-            if fail_discovery {
-                assert!(output.contains("2025-12 discovery failed: fixture discovery unavailable"));
-                assert!(!output.contains("2025-12: 0 matching threads"));
-                assert!(
-                    result
-                        .as_ref()
-                        .unwrap_err()
-                        .contains("2025-12 discovery failed")
-                );
-            }
-            assert!(output.contains("Monthly summary:"));
         }
+        for title in [
+            "What are you working on (Sept 2026)",
+            "What are you working on (Sep 2026)",
+        ] {
+            assert_eq!(Month::from_title(title), Month::parse("2026-09").ok());
+        }
+        for title in [
+            "What are you working on (Janu 2026)",
+            "What are you working on (Mar 026)",
+            "What are you working on (Mar 02026)",
+            "What are you working on (Mar 2026) now",
+            "Poll: What are you working on (Mar 2026)",
+            "Who is hiring? (March 2026)",
+            "What are you working on (Marchh 2026)",
+            "What are you working on (Mar  2026)",
+            "What are you working on (Mar)",
+            "",
+        ] {
+            assert_eq!(Month::from_title(title), None, "{title}");
+        }
+        // Sept is only September.
+        assert_eq!(
+            Month::from_title("What are you working on (Sept 2026)").map(|m| m.month),
+            Some(9)
+        );
     }
 
     #[test]
-    fn processing_failure_retains_pending_work_while_later_threads_publish_and_resume() {
-        use crate::collector::FetchError;
-        use crate::extraction::{Extraction, Mention};
-        use std::sync::Mutex;
-        use std::sync::atomic::{AtomicBool, Ordering};
-        struct Api;
-        impl HnApi for Api {
-            fn fetch_item(&self, id: i64) -> Result<Option<serde_json::Value>, FetchError> {
-                Ok(Some(if id % 100 == 0 {
-                    serde_json::json!({"id":id,"kids":if id == 200 {vec![201,202]} else {vec![id+1]}})
-                } else {
-                    serde_json::json!({"id":id,"parent":id/100*100,"by":"alice","time":id,
-                        "text":format!("Project {id} https://example.test/p{id}")})
-                }))
-            }
-        }
-        struct Search;
-        impl Discovery for Search {
-            fn threads(&self, month: Month) -> Result<Vec<i64>, String> {
-                Ok(if month.month == 1 {
-                    vec![100, 200]
-                } else {
-                    vec![300]
-                })
-            }
-        }
-        struct Fixture {
-            fail: AtomicBool,
-            calls: Mutex<Vec<i64>>,
-        }
-        impl Model for Fixture {
-            fn name(&self) -> &str {
-                "continue-fixture"
-            }
-            fn extract(&self, prompt: &str) -> Result<Extraction, String> {
-                let records: serde_json::Value = serde_json::from_str(
-                    prompt.strip_prefix("Source records (JSON data): ").unwrap(),
-                )
-                .unwrap();
-                let id = records[0]["id"].as_i64().unwrap();
-                self.calls.lock().unwrap().push(id);
-                if id == 201 && self.fail.load(Ordering::SeqCst) {
-                    return Err("fixture extraction failure".into());
-                }
-                Ok(Extraction {
-                    mentions: vec![Mention {
-                        source_item_id: id,
-                        name: Some(format!("Project {id}")),
-                        urls: vec![format!("https://example.test/p{id}")],
-                        description: format!("Project {id}"),
-                        problem: None,
-                        audience: None,
-                        source_excerpt: format!("Project {id}"),
-                        builders: vec![],
-                        categories: vec![],
-                        audience_labels: vec![],
-                    }],
-                })
-            }
-        }
-        let dir = tempfile::tempdir().unwrap();
-        let mut store = Store::open(dir.path().join("db")).unwrap();
-        let collector = Collector::new(Api, CollectionConfig::default());
-        let model = Fixture {
-            fail: AtomicBool::new(true),
-            calls: Mutex::new(vec![]),
-        };
-        let args = Args {
-            from: Month::parse("2026-01").unwrap(),
-            through: Month::parse("2025-12").unwrap(),
-            db: None,
-            export: dir.path().join("export"),
-            options: processing::Options {
-                concurrency: 1,
-                ..processing::Options::default()
-            },
-        };
-        let mut output = vec![];
-        let error =
-            execute(&mut store, &collector, &model, &Search, &args, &mut output).unwrap_err();
-        assert!(error.contains("Thread 200 (2026-01) failed: processing incomplete (run 1)"));
-        assert!(error.contains("WHERE run_id=1"));
-        let pending = crate::publication::pending_mentions(&mut store).unwrap();
-        assert_eq!(pending.len(), 1);
-        assert_eq!(pending[0].source_item_id, 202);
-        let approved: i64 = store
-            .connection()
-            .query_row(
-                "SELECT COUNT(*) FROM mentions WHERE review_state='approved'",
-                [],
-                |r| r.get(0),
-            )
-            .unwrap();
-        assert_eq!(approved, 2);
-        assert_eq!(*model.calls.lock().unwrap(), [201, 202, 101, 301]);
-        model.fail.store(false, Ordering::SeqCst);
-        execute(&mut store, &collector, &model, &Search, &args, &mut vec![]).unwrap();
-        assert!(
-            crate::publication::pending_mentions(&mut store)
-                .unwrap()
-                .is_empty()
-        );
-        assert_eq!(*model.calls.lock().unwrap(), [201, 202, 101, 301, 201]);
-
-        // An output error is fatal even if the writer would recover on its
-        // next call: otherwise the failure could be mislabeled as a bad thread.
-        struct FailOnce(bool);
-        impl Write for FailOnce {
-            fn write(&mut self, bytes: &[u8]) -> std::io::Result<usize> {
-                if !self.0 && bytes.starts_with(b"Thread ") {
-                    self.0 = true;
-                    Err(std::io::Error::other("fixture output failure"))
-                } else {
-                    Ok(bytes.len())
-                }
-            }
-            fn flush(&mut self) -> std::io::Result<()> {
-                Ok(())
-            }
-        }
-        let mut store = Store::open(dir.path().join("output-db")).unwrap();
-        let error = execute(
-            &mut store,
-            &collector,
-            &model,
-            &Search,
-            &args,
-            &mut FailOnce(false),
-        )
-        .unwrap_err();
-        assert!(error.contains("fixture output failure"));
-        assert!(store.get_item(100).unwrap().is_none());
+    fn month_arithmetic() {
+        let m = |s: &str| Month::parse(s).unwrap();
+        assert_eq!(m("2026-12").next(), Some(m("2027-01")));
+        assert_eq!(m("2026-03").next(), Some(m("2026-04")));
+        assert_eq!(m("2026-01").previous(), Some(m("2025-12")));
+        assert_eq!(Month::at(0), Some(m("1970-01")));
+        assert_eq!(Month::at(1_794_700_800), Some(m("2026-11")));
+        assert_eq!(Month::at(951_782_400), Some(m("2000-02")));
+        assert_eq!(Month::at(-1), Some(m("1969-12")));
+        assert!(Month::current().unwrap() > m("2026-01"));
     }
 }
