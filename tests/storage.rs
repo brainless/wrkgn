@@ -22,7 +22,7 @@ fn migration_persists_nested_source_and_order() {
     let directory = tempdir().unwrap();
     let path = directory.path().join("nested/source.sqlite");
     let mut store = Store::open(&path).unwrap();
-    assert_eq!(store.schema_version().unwrap(), 7);
+    assert_eq!(store.schema_version().unwrap(), 8);
     let run = store.begin_run(100, 10).unwrap();
     store.upsert_item(run, 11, &item(100, None, 0)).unwrap();
     store
@@ -81,7 +81,7 @@ fn version_one_database_upgrades_without_losing_source() {
     drop(connection);
 
     let store = Store::open(&path).unwrap();
-    assert_eq!(store.schema_version().unwrap(), 7);
+    assert_eq!(store.schema_version().unwrap(), 8);
     assert_eq!(store.get_run(1).unwrap().unwrap().status, "running");
     assert!(!store.get_run(1).unwrap().unwrap().interrupted);
 }
@@ -116,14 +116,14 @@ fn version_three_upgrade_repairs_missing_failure_table_and_preserves_history() {
         }
         connection
             .execute_batch(
-                "DROP TABLE mention_evidence; DROP TABLE show_chunk_cache; DROP TABLE show_processing_results; DROP TABLE thread_extraction_modes; DROP TABLE mention_builders; ALTER TABLE mentions DROP COLUMN source_excerpt;",
+                "DROP TABLE run_errors; DROP TABLE run_queue; DROP TABLE coverage_units; DROP TABLE driver_runs; DROP TABLE mention_evidence; DROP TABLE show_chunk_cache; DROP TABLE show_processing_results; DROP TABLE thread_extraction_modes; DROP TABLE mention_builders; ALTER TABLE mentions DROP COLUMN source_excerpt;",
             )
             .unwrap();
         connection.pragma_update(None, "user_version", 3).unwrap();
         drop(connection);
 
         let store = Store::open(&path).unwrap();
-        assert_eq!(store.schema_version().unwrap(), 7);
+        assert_eq!(store.schema_version().unwrap(), 8);
         assert_eq!(store.get_item(100).unwrap().unwrap(), source_before);
         assert_eq!(store.get_run(run).unwrap().unwrap().status, "complete");
         drop(store);
@@ -230,4 +230,200 @@ fn failure_keeps_last_successful_item_and_explicit_deletion_is_separate() {
     assert!(store.get_item(101).unwrap().unwrap().source.deleted);
     assert_eq!(store.revisions_for_item(101).unwrap().len(), 2);
     assert_eq!(store.get_run(deletion).unwrap().unwrap().status, "complete");
+}
+
+mod run_tables {
+    use super::*;
+    use wrkgn::run::ErrorGroup;
+    use wrkgn::store::{ItemState, ItemUpdate, QueueKind, RunCounts, UnitState, UnitUpdate};
+
+    fn open() -> (tempfile::TempDir, Store) {
+        let directory = tempdir().unwrap();
+        let store = Store::open(directory.path().join("runs.sqlite")).unwrap();
+        (directory, store)
+    }
+
+    #[test]
+    fn schema_8_creates_the_run_tables() {
+        let directory = tempdir().unwrap();
+        let path = directory.path().join("v8.sqlite");
+        let store = Store::open(&path).unwrap();
+        assert_eq!(store.schema_version().unwrap(), 8);
+        drop(store);
+        let connection = rusqlite::Connection::open(&path).unwrap();
+        for table in ["driver_runs", "coverage_units", "run_queue", "run_errors"] {
+            let found: i64 = connection
+                .query_row(
+                    "SELECT count(*) FROM sqlite_master WHERE type='table' AND name=?1",
+                    [table],
+                    |row| row.get(0),
+                )
+                .unwrap();
+            assert_eq!(found, 1, "{table}");
+        }
+    }
+
+    #[test]
+    fn failed_units_stop_retrying_at_the_attempt_cap() {
+        let (_directory, mut store) = open();
+        let run = store.begin_driver_run("monthly", 1, 10).unwrap();
+        for attempt in 1..=3u32 {
+            assert_eq!(
+                store
+                    .begin_unit_attempt("monthly", "2026-08", run, 20)
+                    .unwrap(),
+                attempt
+            );
+            store
+                .finish_unit(&UnitUpdate {
+                    command: "monthly",
+                    unit: "2026-08",
+                    state: UnitState::Failed,
+                    run_id: Some(run),
+                    error: Some("boom"),
+                    now: 30,
+                })
+                .unwrap();
+            let retry = store
+                .units_in_state("monthly", &[UnitState::Failed], 3)
+                .unwrap();
+            assert_eq!(retry.len(), usize::from(attempt < 3));
+        }
+        let exhausted = store.exhausted_units("monthly", 3).unwrap();
+        assert_eq!(exhausted.len(), 1);
+        assert_eq!(exhausted[0].unit_key, "2026-08");
+        assert_eq!(exhausted[0].last_error.as_deref(), Some("boom"));
+        // Other commands and states are unaffected.
+        assert!(store.exhausted_units("show_hn", 3).unwrap().is_empty());
+    }
+
+    #[test]
+    fn done_units_are_not_downgraded_by_upsert() {
+        let (_directory, mut store) = open();
+        store
+            .upsert_unit("monthly", "2026-09", UnitState::Pending, 1)
+            .unwrap();
+        store
+            .upsert_unit("monthly", "2026-09", UnitState::Done, 2)
+            .unwrap();
+        store
+            .upsert_unit("monthly", "2026-09", UnitState::Pending, 3)
+            .unwrap();
+        store
+            .upsert_unit("monthly", "2026-09", UnitState::Failed, 4)
+            .unwrap();
+        let unit = store.unit("monthly", "2026-09").unwrap().unwrap();
+        assert_eq!(unit.state, UnitState::Done);
+        assert_eq!(unit.completed_at, Some(2));
+        assert_eq!(unit.first_seen_at, 1);
+        assert!(store.unit("monthly", "2026-10").unwrap().is_none());
+    }
+
+    #[test]
+    fn queue_items_resume_in_order_and_respect_the_cap() {
+        let (_directory, mut store) = open();
+        let run = store.begin_driver_run("show_hn", 1, 10).unwrap();
+        assert_eq!(
+            store
+                .enqueue_items("show_hn", QueueKind::Story, "2026-11-20", &[30, 10, 20], 11)
+                .unwrap(),
+            3
+        );
+        // Re-enqueueing keeps existing rows and states.
+        let again = store
+            .enqueue_items("show_hn", QueueKind::Story, "2026-11-20", &[10, 40], 12)
+            .unwrap();
+        assert_eq!(again, 1);
+        let update = |item_id, state| ItemUpdate {
+            command: "show_hn",
+            kind: QueueKind::Story,
+            item_id,
+            state,
+            run_id: Some(run),
+            error: Some("e"),
+            now: 13,
+        };
+        store.finish_item(&update(30, ItemState::Done)).unwrap();
+        for _ in 0..3 {
+            store.finish_item(&update(10, ItemState::Failed)).unwrap();
+        }
+        let pending = store.pending_items("show_hn", "2026-11-20", 3).unwrap();
+        assert_eq!(
+            pending.iter().map(|i| i.item_id).collect::<Vec<_>>(),
+            vec![20, 40]
+        );
+        let retry = store.pending_items("show_hn", "2026-11-20", 4).unwrap();
+        assert_eq!(retry.len(), 3);
+        assert_eq!(retry.iter().find(|i| i.item_id == 10).unwrap().attempts, 3);
+        assert!(store.unit("show_hn", "2026-11-20").unwrap().is_some());
+    }
+
+    #[test]
+    fn run_errors_round_trip_and_samples_are_truncated() {
+        let (_directory, mut store) = open();
+        let run = store.begin_driver_run("monthly", 1, 10).unwrap();
+        let group = |signature: &str, count, sample: String| ErrorGroup {
+            signature: signature.into(),
+            stage: "collect".into(),
+            kind: "transport".into(),
+            count,
+            first_item: Some(1),
+            last_item: Some(9),
+            sample,
+        };
+        store
+            .record_run_error(run, &group("b", 2, "s".into()))
+            .unwrap();
+        store
+            .record_run_error(run, &group("a", 5, "z".repeat(3000)))
+            .unwrap();
+        // Recording the same group again replaces it.
+        store
+            .record_run_error(run, &group("b", 3, "s2".into()))
+            .unwrap();
+        let errors = store.run_errors(run).unwrap();
+        assert_eq!(errors.len(), 2);
+        assert_eq!((errors[0].signature.as_str(), errors[0].count), ("a", 5));
+        assert_eq!(errors[0].sample.chars().count(), 2100);
+        assert_eq!((errors[1].count, errors[1].sample.as_str()), (3, "s2"));
+        assert_eq!(errors[1].first_item, Some(1));
+        assert_eq!(errors[1].last_item, Some(9));
+    }
+
+    #[test]
+    fn driver_runs_finish_and_killed_detection_is_per_command() {
+        let (_directory, mut store) = open();
+        let a = store.begin_driver_run("monthly", 7, 10).unwrap();
+        let b = store.begin_driver_run("monthly", 8, 11).unwrap();
+        let c = store.begin_driver_run("show_hn", 9, 12).unwrap();
+        let counts = RunCounts {
+            units_done: 1,
+            items_collected: 2,
+            items_processed: 3,
+            items_approved: 4,
+            failures: 5,
+        };
+        store
+            .finish_driver_run(b, "completed", 20, &counts)
+            .unwrap();
+        assert_eq!(store.driver_run(b).unwrap().unwrap().counts, counts);
+        assert!(store.finish_driver_run(b, "bogus", 21, &counts).is_err());
+        assert_eq!(
+            store
+                .mark_running_driver_runs_killed("monthly", 30)
+                .unwrap(),
+            vec![a]
+        );
+        assert_eq!(
+            store.driver_run(a).unwrap().unwrap().status,
+            "killed_detected"
+        );
+        assert_eq!(store.driver_run(c).unwrap().unwrap().status, "running");
+        assert!(
+            store
+                .mark_running_driver_runs_killed("monthly", 31)
+                .unwrap()
+                .is_empty()
+        );
+    }
 }

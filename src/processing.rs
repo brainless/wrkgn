@@ -1,10 +1,12 @@
 use crate::extraction::{
     self, Extraction, ExtractionPolicy, Mention, MonthlyPolicy, ProcessingUnit,
 };
+use crate::run::{Api, RunControl};
 use crate::store::{ConversationNode, Store, StoredSourceItem};
 use rusqlite::{OptionalExtension, params};
 use sha2::{Digest, Sha256};
 use std::collections::{BTreeMap, BTreeSet};
+use std::sync::Arc;
 use std::sync::atomic::{AtomicBool, AtomicUsize, Ordering};
 use std::sync::mpsc;
 use std::sync::{LazyLock, Mutex};
@@ -186,6 +188,7 @@ pub struct Report {
     pub not_attempted: usize,
     pub stopped_early: bool,
 }
+#[derive(Clone)]
 pub struct Options {
     pub concurrency: usize,
     /// Model calls per batch, including the first, for rate-limit and connection errors.
@@ -194,9 +197,9 @@ pub struct Options {
     pub max_validation_corrections: usize,
     pub initial_backoff: Duration,
     pub max_backoff: Duration,
-    /// Stop handing out groups once this many have exhausted their retries on
-    /// rate-limit or connection errors.
-    pub stop_after_transient_failures: usize,
+    /// Shared stop state and circuit breaker. `None` gives each processed
+    /// thread its own breaker with the default threshold.
+    pub control: Option<Arc<RunControl>>,
 }
 impl Default for Options {
     fn default() -> Self {
@@ -206,7 +209,7 @@ impl Default for Options {
             max_validation_corrections: 2,
             initial_backoff: Duration::from_secs(1),
             max_backoff: Duration::from_secs(30),
-            stop_after_transient_failures: 3,
+            control: None,
         }
     }
 }
@@ -282,7 +285,7 @@ pub fn failure_kind(error: &str) -> String {
     } else if is_transient(error) {
         "connection or provider error".into()
     } else {
-        error.chars().take(80).collect()
+        crate::run::errors::normalize(error)
     }
 }
 /// Processes groups one at a time, so model calls happen in group order.
@@ -383,27 +386,27 @@ pub fn process_thread_with<M: Model + Sync>(
         pending.push((group, fp));
     }
     let next = AtomicUsize::new(0);
-    let transient_failures = AtomicUsize::new(0);
     let stop = AtomicBool::new(false);
-    let cooldown = ProviderCooldown::default();
+    let control = options
+        .control
+        .clone()
+        .unwrap_or_else(|| Arc::new(RunControl::with_threshold(crate::run::BREAKER_THRESHOLD)));
+    let cooldown = ProviderCooldown::with_control(control.clone());
     let mut received = 0;
     std::thread::scope(|scope| -> Result<(), String> {
         let (sender, results) = mpsc::channel();
         for _ in 0..options.concurrency.clamp(1, pending.len().max(1)) {
             let sender = sender.clone();
-            let (next, pending, stop, transient_failures, cooldown) =
-                (&next, &pending, &stop, &transient_failures, &cooldown);
+            let (next, pending, stop, control, cooldown) =
+                (&next, &pending, &stop, &control, &cooldown);
             scope.spawn(move || {
-                while !stop.load(Ordering::Relaxed) {
+                while !stop.load(Ordering::Relaxed) && !control.should_stop() {
                     let i = next.fetch_add(1, Ordering::Relaxed);
                     let Some((group, _)) = pending.get(i) else {
                         break;
                     };
                     let result = extract_group(group, model, options, stop, cooldown);
-                    if result.as_ref().is_err_and(|e| is_transient(e))
-                        && transient_failures.fetch_add(1, Ordering::Relaxed) + 1
-                            >= options.stop_after_transient_failures
-                    {
+                    if control.should_stop() {
                         stop.store(true, Ordering::Relaxed);
                     }
                     if sender.send((i, result)).is_err() {
@@ -450,7 +453,7 @@ pub fn process_thread_with<M: Model + Sync>(
     // Workers claim groups in order, so unreceived groups form a suffix that was
     // never sent to the model.
     report.not_attempted = pending.len() - received;
-    report.stopped_early = stop.load(Ordering::Relaxed);
+    report.stopped_early = control.should_stop();
     let complete = report.failed.is_empty() && report.not_attempted == 0;
     conn.execute(
         "UPDATE processing_runs SET status=?1,finished_at=?2,error=?3 WHERE id=?4",
@@ -476,12 +479,35 @@ pub fn process_thread_with<M: Model + Sync>(
 #[derive(Default)]
 pub(crate) struct ProviderCooldown {
     deadline: Mutex<Option<Instant>>,
+    /// Where exhausted and successful model calls are counted.
+    control: Option<Arc<RunControl>>,
 }
 
 impl ProviderCooldown {
+    pub(crate) fn with_control(control: Arc<RunControl>) -> Self {
+        Self {
+            deadline: Mutex::new(None),
+            control: Some(control),
+        }
+    }
+
+    fn stopped(&self, stop: &AtomicBool) -> bool {
+        stop.load(Ordering::Relaxed) || self.control.as_ref().is_some_and(|c| c.should_stop())
+    }
+
+    fn count(&self, success: bool) {
+        if let Some(control) = &self.control {
+            if success {
+                control.breaker.record_success(Api::Llm);
+            } else {
+                control.breaker.record_failure(Api::Llm);
+            }
+        }
+    }
+
     fn wait(&self, stop: &AtomicBool) {
         loop {
-            if stop.load(Ordering::Relaxed) {
+            if self.stopped(stop) {
                 return;
             }
             let remaining = self
@@ -530,13 +556,24 @@ pub(crate) fn call_with_retry<T>(
             Err(e) if is_transient(&e) => {
                 // An exhausted group must also pause newly claimed groups.
                 cooldown.extend(jitter(delay));
-                if attempt >= options.max_attempts || stop.load(Ordering::Relaxed) {
+                if attempt >= options.max_attempts {
+                    // Only a call that used all its retries counts as a failure.
+                    cooldown.count(false);
+                    return Err(e);
+                }
+                if cooldown.stopped(stop) {
                     return Err(e);
                 }
                 delay = delay.saturating_mul(2).min(options.max_backoff);
                 attempt += 1;
             }
-            result => return result,
+            result => {
+                // Validation failures are neither a success nor a failure.
+                if result.is_ok() {
+                    cooldown.count(true);
+                }
+                return result;
+            }
         }
     }
 }

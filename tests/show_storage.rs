@@ -49,7 +49,7 @@ fn version_six_backfills_processed_threads_without_changing_cache() {
     store.finish_run(run, 3).unwrap();
     drop(store);
     let conn = Connection::open(&path).unwrap();
-    conn.execute_batch("DROP TABLE mention_evidence; DROP TABLE show_chunk_cache; DROP TABLE show_processing_results; DROP TABLE thread_extraction_modes; PRAGMA user_version=6; INSERT INTO processing_runs(id,thread_id,started_at,status,prompt_version,schema_version,model) VALUES(1,100,1,'complete','original','4','fixture');").unwrap();
+    conn.execute_batch("DROP TABLE run_errors; DROP TABLE run_queue; DROP TABLE coverage_units; DROP TABLE driver_runs; DROP TABLE mention_evidence; DROP TABLE show_chunk_cache; DROP TABLE show_processing_results; DROP TABLE thread_extraction_modes; PRAGMA user_version=6; INSERT INTO processing_runs(id,thread_id,started_at,status,prompt_version,schema_version,model) VALUES(1,100,1,'complete','original','4','fixture');").unwrap();
     drop(conn);
     let store = Store::open(&path).unwrap();
     assert_eq!(

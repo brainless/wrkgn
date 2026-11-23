@@ -36,6 +36,9 @@ pub enum Event<'a> {
 pub enum Error {
     Operation(String),
     ProcessingIncomplete(processing::Report),
+    /// The run was interrupted or the circuit breaker tripped mid-collection.
+    /// The thread's collection is incomplete and nothing was processed.
+    Stopped,
 }
 
 impl From<String> for Error {
@@ -173,6 +176,11 @@ pub fn collect_prepare<C: HnApi>(
         .collect(store, thread)
         .map_err(|e| e.to_string())?;
     event(Event::Collected(&collection))?;
+    // A stop that came with real fetch failures is that item's own failure
+    // (for example the failures that tripped the breaker); a bare stop is not.
+    if collection.stopped && collection.failures.is_empty() {
+        return Err(Error::Stopped);
+    }
     if !collection.complete {
         return Err(format!(
             "collection incomplete for thread {thread}: {} failed items; rerun to resume",

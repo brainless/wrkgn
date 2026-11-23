@@ -17,24 +17,57 @@ Data publication does not use Git or a Cloudflare build. The export contains onl
 The separate `wrkgn-monthly` binary reuses the existing collector, incremental processor, project matching, approval state, and exporter. The original `wrkgn` binary retains its manual review workflow.
 
 ```sh
+# Daily default: resume, refresh the head, backfill a little, stop
 cargo run --bin wrkgn-monthly --
+# Tune the head window, backfill size and thread cap:
+cargo run --bin wrkgn-monthly -- --months 2 --backfill-months 1 --max-items 5
 # Choose an inclusive range, newest month first:
 cargo run --bin wrkgn-monthly -- --from 2026-11 --through 2026-09
 # Refresh just one month:
 cargo run --bin wrkgn-monthly -- --from 2026-11 --through 2026-11 --concurrency 3
 ```
 
-By default it starts at the current UTC month and covers 24 months inclusive. It searches the [HN Algolia index](https://hn.algolia.com/api) for monthly “What are you working on” story titles, accepting full and abbreviated month names (`November`, `Nov`, and `September`/`Sep`/`Sept`), optional `Ask HN:` prefixes, and question marks. It searches full and abbreviated names separately, checks every search page, and excludes unrelated titles. Estimated search hit counts are accepted; a result count exceeding the available pagination window fails explicitly. Every matching thread in a month is handled individually, in descending item-ID order, before proceeding to the previous month. Months without matches are skipped. Discovery depends on Algolia indexing; rerun later for newly indexed threads.
+A no-argument run is small and resumable, intended for a daily schedule. It proceeds in order: resume months and threads a previous run left pending, in progress or failed; re-walk the head, the current and previous UTC months (`--months`, default 2), completely; then backfill the newest uncovered months older than the head (`--backfill-months`, default 1), newest first, back to 2007-02, and stop. `--max-items` (default 5) caps threads handled by resume and backfill together; head threads never count against it, so backfill advances every run. The cap stops the run at a thread boundary and the next run continues. Coverage, the thread queue and run records live in the SQLite database; no log files are written. On first use, months of threads already stored are recorded from their titles and not searched again.
+
+`--from` and `--through` override all of this. They process exactly that inclusive range, newest first, re-walking months already done, and cannot be combined with `--months`, `--backfill-months` or `--max-items`. `--from` alone covers 24 months ending there; `--through` alone covers the current month back to it.
+
+Discovery searches the [HN Algolia index](https://hn.algolia.com/api) for monthly “What are you working on” story titles, accepting full and abbreviated month names (`November`, `Nov`, and `September`/`Sep`/`Sept`), optional `Ask HN:` prefixes, and question marks. It searches full and abbreviated names separately, checks every search page, and excludes unrelated titles. Estimated search hit counts are accepted; a result count exceeding the available pagination window fails explicitly. Every matching thread in a month is handled individually, in descending item-ID order, before proceeding to the previous month. A month without matches is recorded done and not searched again. Discovery depends on Algolia indexing; a month stays covered once recorded, so rerun an explicit `--from M --through M` for threads indexed later.
 
 Each thread refreshes the full reply tree to save new comments and detect edits, deletions, and new replies. Existing fingerprint/version checks skip unchanged successful conversation groups. After the whole thread processes successfully, its pending mentions are automatically approved, including previously pending results for that thread. Pending mentions in other threads remain pending. Corrections, matching, and suppression retain their existing behavior. The exporter writes all approved public records across the database after each thread, retaining earlier threads in the snapshot.
 
-A thread’s collection, processing, approval, or export failure is logged with its month and thread ID, and the command continues with the remaining threads and months. If discovery fails for a month, that month is reported as failed and older months are still attempted. The final summary lists every failed month or thread; any failure makes the command exit nonzero after traversal. Setup/configuration, opening the database, or writing CLI output can still abort the command. Successful groups stay saved; rerun the same command to retry failures and skip unchanged successful work. Incomplete processing does not auto-approve that thread, but attempts export using existing approvals and freshness checks to remove stale public results. Approval and export are separate commits: if export fails after approval, rerunning retries export. The command uses the same `.env`, `--db`, `--export`, and `--concurrency` settings as `wrkgn`. It never deploys or publishes. After it succeeds, inspect the export locally, then publish with `scripts/publish-data.sh`.
+Failures are collected rather than logged as they occur. Every ending prints a Markdown report on stderr (a live status line precedes it) with errors grouped by normalized signature with full samples, the work done, and what remains. A failed thread or month is retried on later runs up to 3 attempts, then listed for manual action: `wrkgn collect --thread <id>` followed by `wrkgn process --thread <id>`. A discovery failure fails only that month. Three consecutive exhausted calls to one API (LLM provider, HN or Algolia) stop the whole run cleanly. Exit codes: 0 completed or cap reached without failures; 1 failures or a setup error; 2 stopped by that circuit breaker; 130 interrupted. Ctrl-C or SIGTERM stops at the next thread boundary, exports, reports and exits 130; a second Ctrl-C exits immediately. The report and queue make a rerun safe after any stop, including a kill. Successful groups stay saved. Incomplete processing does not auto-approve that thread, but attempts export using existing approvals and freshness checks to remove stale public results. Approval and export are separate commits: if export fails after approval, rerunning retries export. The command uses the same `.env`, `--db`, `--export`, and `--concurrency` settings as `wrkgn`. It never deploys or publishes. After it succeeds, inspect the export locally, then publish with `scripts/publish-data.sh`.
+
+Comments, edits or deletions that arrive after a thread leaves the head window are picked up only by an explicit `wrkgn collect --thread <id>` plus `wrkgn process --thread <id>`, or by `wrkgn-monthly --from M --through M`.
+
+### Unattended runs
+
+Each command holds a lock file next to the database, `<db>.monthly.lock` or `<db>.show_hn.lock` (by default `local-data/wrkgn.sqlite.monthly.lock`), containing the process ID. A second live run of the same command exits immediately with code 1, so overlapping cron runs are safe. A stale lock left by a killed run is taken over, and the old run is recorded as `killed_detected`. The two commands have separate locks but share SQLite; stagger them. Cron starts in the home directory, while `.env` and the default `local-data/` paths are relative to the working directory, so the entry must `cd` to the repository. Build once (asset build prerequisite in section 5):
+
+```sh
+cargo build --release --bin wrkgn-monthly --bin wrkgn-show-hn
+```
+
+```text
+# m h dom mon dow
+MAILTO=you@example.com
+17 3 * * * cd /path/to/wrkgn && ./target/release/wrkgn-monthly
+37 3 * * * cd /path/to/wrkgn && ./target/release/wrkgn-show-hn
+```
+
+- Credentials come from the repository `.env`; existing environment variables take precedence.
+- All output goes to stderr, so cron mails every run. Exit codes 1, 2 and 130 flag problems; a wrapper script can mail only on a nonzero exit.
+- Show HN results stay pending for `wrkgn review pending` unless `--auto-approve` is added.
+- Publishing with `scripts/publish-data.sh` is separate and not part of cron.
+- Run the live pilot described in the Show HN section before scheduling.
 
 ## Show HN workflow
 
-The separate `wrkgn-show-hn` command refreshes a story and its entire discussion, extracts its primary project, and exports approved data. Choose one story or an inclusive UTC date range (earlier `--from`, later `--through`):
+The separate `wrkgn-show-hn` command refreshes a story and its entire discussion, extracts its primary project, and exports approved data. With no arguments it is a small resumable daily run; otherwise choose one story or an inclusive UTC date range (earlier `--from`, later `--through`, both required):
 
 ```sh
+# Daily default: resume, refresh the last 3 days, backfill 3 older days, stop
+cargo run --bin wrkgn-show-hn --
+cargo run --bin wrkgn-show-hn -- --days 3 --backfill-days 3 --max-items 100
 cargo run --bin wrkgn-show-hn -- --thread <hn-item-id>
 cargo run --bin wrkgn-show-hn -- --from 2026-11-01 --through 2026-11-07
 # Deliberately authorize story-scoped approval after successful processing:
@@ -43,15 +76,19 @@ cargo run --bin wrkgn-show-hn -- --from 2026-11-01 --through 2026-11-07 --auto-a
 cargo run --bin wrkgn-show-hn -- --from 2026-11-01 --through 2026-11-07 --batch-size 50 --concurrency 5
 ```
 
-Results await manual review by default. Use the existing `wrkgn review pending`, correction, approval, suppression and matching commands. `--auto-approve` approves only pending mentions of each successfully processed story. `--db`, `--export`, `--concurrency`, provider configuration and `.env` work as with the existing CLIs; `--reprocess` deliberately reruns extraction. Rerun without it to resume and reuse unchanged successful work.
+The default run works in UTC day units: resume days left pending, in progress or failed; re-walk the head (`--days`, default 3) completely; backfill the newest uncovered days older than the head (`--backfill-days`, default 3), back to 2007-02-01; then stop. `--max-items` (default 100) caps stories handled by resume and backfill together and never counts head stories; the run stops at a story boundary and the next run resumes the cut day from its queued stories. Empty days are recorded done. Unlike the monthly command, there is no seed from earlier data: days processed in Epic 07 are not recorded as covered, so backfill may collect them again, and unchanged extraction is skipped.
 
-A range is handled in batches, newest first. Each batch is one Algolia search of up to `--batch-size` stories (default 100, at most 1,000), so output starts immediately. The command collects the batch's stories one at a time, runs extraction with up to `--concurrency` model calls at once across the batch's stories, approves each successful story (only with `--auto-approve`), and exports once before searching for the next older batch. `--batch-size` is rejected with `--thread`. A failed story is logged as `Story X: failed: <reason>` and the run continues. At the end the command prints a summary grouped by failure kind and exits nonzero if any story, export or discovery step failed. An export failure is retried after the next batch. A discovery failure ends the walk because older batches cannot be located; completed batches stay saved and exported. Rerunning the same command resumes, skipping unchanged successful extraction. `--thread` still stops at its first failure.
+Results await manual review by default. Use the existing `wrkgn review pending`, correction, approval, suppression and matching commands. `--auto-approve` approves only pending mentions of each successfully processed story. `--db`, `--export`, `--concurrency`, provider configuration and `.env` work as with the existing CLIs; `--reprocess` deliberately reruns extraction. `--auto-approve` and `--reprocess` also work on default runs; a day cut short by the cap resumes without `--reprocess` unless it is passed again. Rerun without it to resume and reuse unchanged successful work.
+
+Each day is discovered in batches, newest first. Each batch is one Algolia search of up to `--batch-size` stories (default 100, at most 1,000), so output starts immediately. The command collects the batch's stories one at a time, runs extraction with up to `--concurrency` model calls at once across the batch's stories, approves each successful story (only with `--auto-approve`), and exports once before searching for the next older batch. `--batch-size` is rejected with `--thread`. A failed story does not stop the run; failures appear in the end report on stderr, grouped by signature with full samples. A discovery failure fails only that day, which is retried on later runs up to 3 attempts and then listed for manual action. Exit codes and interrupt behavior match `wrkgn-monthly`: 0, 1, 2 (breaker), 130. Completed batches stay saved and exported, and rerunning resumes, skipping unchanged successful extraction. `--from/--through` re-walks the days it names and bypasses head, backfill and limits. `--thread` handles one story, changes no day coverage, and exits 1 if it fails.
+
+Stories posted after a day leaves the head window (late comments, edits, deletions or Algolia indexing) are picked up only by `--from D --through D` over that day or by `--thread`.
 
 Date discovery uses Algolia with a timestamp cursor rather than page numbers, so new posts cannot shift batches. The cursor is inclusive and stories already handled at the shared timestamp are skipped. If a full page holds only handled stories at one timestamp (that many stories share a second), discovery fails explicitly; rerun with a larger `--batch-size`. Index lag means a later rerun may discover additional stories. Collected HN content supplies extraction data; linked websites are not crawled. Only live stories with a `Show HN:` prefix, author and submission date qualify. The persisted extraction mode prevents monthly and Show HN workflows from interpreting the same thread differently. Ordinary `wrkgn process` dispatches from that mode and still never fetches HN.
 
 Show HN facts use the title, URL and submitter explanations, plus additional builders explicitly identified by the submitter. Other participants provide context. The story retains its original date and submitter attribution; each evidence entry keeps its own source author/date. Source edits, deletion, suppression and lost builder authorization withhold stale results even if a rerun fails. Oversized discussions use bounded resumable chunks; incomplete work cannot publish a partial replacement. The initial strategy repeats submitter context and required ancestors to preserve builder authorization. If that context alone exceeds the 30 KB input bound, or consolidation cannot fit its bound, processing fails explicitly without truncating sources. A successful no-project result retires previous mentions while retaining identity history.
 
-Start with a small live pilot: title/link-only story, text story, submitter clarifications, and an oversized discussion. Then run a one- or two-day range; batched range discovery and concurrent extraction have so far been validated only with offline fixtures. Inspect factual support and attribution before broad date discovery or automatic approval. These quality checks and browser interactions remain maintainer tests. Publication remains an explicit step below.
+Start with a small live pilot: title/link-only story, text story, submitter clarifications, and an oversized discussion. Then run a one- or two-day range, or one default run of each unattended command; batched discovery, concurrent extraction and the resumable run driver have so far been validated only with offline fixtures. Inspect factual support and attribution before broad date discovery, scheduling or automatic approval. These quality checks and browser interactions remain maintainer tests. Publication remains an explicit step below.
 
 ## Local setup and paths
 
@@ -98,7 +135,7 @@ To reduce parallel model calls (default: 10):
 cargo run --bin wrkgn -- process --thread 50417407 --concurrency 3
 ```
 
-Rate-limit and transport failures receive retries with backoff shared across workers, pausing new requests while the provider recovers. Persistent failures stop new groups in the affected thread; the monthly CLI logs the thread failure and continues to other threads and months. Inspect the reported failures and rerun once the provider issue is resolved.
+Rate-limit and transport failures receive retries with backoff shared across workers, pausing new requests while the provider recovers. In `wrkgn process`, three consecutive exhausted model calls stop that thread's processing; a successful call resets the count. In the unattended commands, one breaker covers the whole run: three consecutive exhausted calls to one API stop it with exit code 2 after exporting approved data and printing the report. Inspect the reported failures and rerun once the provider issue is resolved.
 
 If a structured response fails deserialization or local provenance validation, in monthly or Show HN mode, the extractor gets up to two correction attempts in total with the original source and validation feedback. Every correction must pass the same schema and provenance checks. Exhausted failures retain previous successful results. Private failure rows include the source ID and a bounded rejected value when available; transport errors include bounded, credential-redacted causes. Inspect them using the SQL query printed with the run ID. These diagnostics are excluded from public exports. After updating validation or retry code, rerun the original command without `--reprocess` to retry failed groups while retaining unchanged successful work.
 

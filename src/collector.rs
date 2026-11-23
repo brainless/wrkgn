@@ -1,12 +1,13 @@
 //! Deterministic HN item-tree reader. Network access is behind `HnApi`.
 
 use std::collections::{HashSet, VecDeque};
-use std::sync::mpsc;
+use std::sync::{Arc, mpsc};
 use std::thread;
 use std::time::{Duration, SystemTime, UNIX_EPOCH};
 
 use serde_json::Value;
 
+use crate::run::{Api, Breaker, RunControl};
 use crate::store::{FetchFailure, SourceItem, Store};
 
 const HN_ITEM_URL: &str = "https://hacker-news.firebaseio.com/v0/item";
@@ -123,16 +124,31 @@ pub struct CollectionReport {
     pub changed_item_ids: Vec<i64>,
     pub failures: Vec<FetchFailure>,
     pub complete: bool,
+    /// The run was stopped (interrupt or circuit breaker) before the tree was
+    /// fully walked. A stopped collection is never complete.
+    pub stopped: bool,
 }
 
 pub struct Collector<C> {
     api: C,
     config: CollectionConfig,
+    control: Option<Arc<RunControl>>,
 }
 
 impl<C: HnApi> Collector<C> {
     pub fn new(api: C, config: CollectionConfig) -> Self {
-        Self { api, config }
+        Self {
+            api,
+            config,
+            control: None,
+        }
+    }
+
+    /// Counts HN fetches against the shared circuit breaker and stops
+    /// starting new fetches once the run should stop.
+    pub fn with_control(mut self, control: Arc<RunControl>) -> Self {
+        self.control = Some(control);
+        self
     }
 
     /// Refreshes the supplied item and every reachable descendant. Each item
@@ -156,18 +172,34 @@ impl<C: HnApi> Collector<C> {
         let mut seen = HashSet::from([thread_id]);
         let mut fetched = 0;
         let mut failures = Vec::new();
+        let mut stopped = false;
+        let breaker = self.control.as_deref().map(|control| &control.breaker);
 
         thread::scope(|scope| -> rusqlite::Result<()> {
             let (sender, receiver) = mpsc::channel();
             let mut active = 0;
-            while !queue.is_empty() || active > 0 {
+            loop {
+                let stop_requested = self.control.as_ref().is_some_and(|c| c.should_stop());
+                if stop_requested && !queue.is_empty() && !stopped {
+                    // Fetches already in flight finish and are saved; the rest
+                    // of the tree is not walked. The run is finished as
+                    // incomplete, so presence flags are not reconciled.
+                    stopped = true;
+                }
+                if stopped {
+                    queue.clear();
+                }
+                if queue.is_empty() && active == 0 {
+                    break;
+                }
                 while active < self.config.max_concurrency {
                     let Some(pending) = queue.pop_front() else {
                         break;
                     };
                     let sender = sender.clone();
                     scope.spawn(move || {
-                        let response = fetch_with_retries(&self.api, pending.id, &self.config);
+                        let response =
+                            fetch_with_retries(&self.api, pending.id, &self.config, breaker);
                         let _ = sender.send((pending, response));
                     });
                     active += 1;
@@ -237,15 +269,16 @@ impl<C: HnApi> Collector<C> {
             Ok(())
         })?;
 
-        store.finish_run(run_id, unix_time())?;
+        store.finish_run_with(run_id, unix_time(), stopped)?;
         Ok(CollectionReport {
             run_id,
             resumed_from_run_id,
             thread_id,
             items_fetched: fetched,
             changed_item_ids: store.changed_item_ids_for_run(run_id)?,
-            complete: failures.is_empty(),
+            complete: failures.is_empty() && !stopped,
             failures,
+            stopped,
         })
     }
 }
@@ -257,7 +290,29 @@ struct Pending {
     position: i64,
 }
 
+/// Fetches with bounded retries and reports the final outcome to the breaker.
+/// Only a retryable error that used every attempt counts as a failure;
+/// `null` items and non-retryable errors are neither a success nor a failure.
 fn fetch_with_retries<C: HnApi>(
+    api: &C,
+    id: i64,
+    config: &CollectionConfig,
+    breaker: Option<&Breaker>,
+) -> Result<Option<Value>, FetchError> {
+    let result = fetch_attempts(api, id, config);
+    if let Some(breaker) = breaker {
+        match &result {
+            Ok(Some(_)) => breaker.record_success(Api::HnFirebase),
+            Err(error) if error.retryable => {
+                breaker.record_failure(Api::HnFirebase);
+            }
+            _ => {}
+        }
+    }
+    result
+}
+
+fn fetch_attempts<C: HnApi>(
     api: &C,
     id: i64,
     config: &CollectionConfig,

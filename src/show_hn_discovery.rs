@@ -10,6 +10,94 @@ pub fn matches_title(title: &str) -> bool {
         .is_some_and(|s| s.eq_ignore_ascii_case("show hn:"))
 }
 
+/// Days since 1970-01-01 for a proleptic Gregorian date (Howard Hinnant).
+const fn days_from_civil(year: i64, month: i64, day: i64) -> i64 {
+    let year = if month <= 2 { year - 1 } else { year };
+    let era = year.div_euclid(400);
+    let yoe = year - era * 400;
+    let mp = (month + 9) % 12;
+    let doy = (153 * mp + 2) / 5 + day - 1;
+    let doe = yoe * 365 + yoe / 4 - yoe / 100 + doy;
+    era * 146_097 + doe - 719_468
+}
+
+fn civil_from_days(days: i64) -> (i64, i64, i64) {
+    let z = days + 719_468;
+    let era = z.div_euclid(146_097);
+    let doe = z.rem_euclid(146_097);
+    let yoe = (doe - doe / 1_460 + doe / 36_524 - doe / 146_096) / 365;
+    let doy = doe - (365 * yoe + yoe / 4 - yoe / 100);
+    let mp = (5 * doy + 2) / 153;
+    let day = doy - (153 * mp + 2) / 5 + 1;
+    let month = if mp < 10 { mp + 3 } else { mp - 9 };
+    (yoe + era * 400 + i64::from(month <= 2), month, day)
+}
+
+/// One UTC calendar day, the unit of Show HN coverage.
+#[derive(Clone, Copy, PartialEq, Eq, PartialOrd, Ord, Debug)]
+pub struct UtcDay(i32);
+
+impl UtcDay {
+    /// The first day of backfill: the month Show HN stories begin to appear.
+    pub const FLOOR: UtcDay = UtcDay(days_from_civil(2007, 2, 1) as i32);
+
+    /// Strict `YYYY-MM-DD` (year 0001 to 9999) naming a real date.
+    pub fn parse(value: &str) -> Result<Self, String> {
+        let invalid = || format!("invalid date {value:?}; expected YYYY-MM-DD");
+        let bytes = value.as_bytes();
+        if !value.is_ascii()
+            || bytes.len() != 10
+            || bytes[4] != b'-'
+            || bytes[7] != b'-'
+            || !bytes
+                .iter()
+                .enumerate()
+                .all(|(i, c)| i == 4 || i == 7 || c.is_ascii_digit())
+            || &value[..4] == "0000"
+        {
+            return Err(invalid());
+        }
+        let number =
+            |range: std::ops::Range<usize>| value[range].parse::<i64>().map_err(|_| invalid());
+        let (year, month, day) = (number(0..4)?, number(5..7)?, number(8..10)?);
+        let days = days_from_civil(year, month, day);
+        // Round-trip rejects impossible dates such as 2023-02-29.
+        if civil_from_days(days) != (year, month, day) {
+            return Err(invalid());
+        }
+        i32::try_from(days).map(Self).map_err(|_| invalid())
+    }
+
+    /// The UTC day containing the Unix time.
+    pub fn at(unix: i64) -> Option<Self> {
+        i32::try_from(unix.div_euclid(86_400)).ok().map(Self)
+    }
+
+    pub fn previous(self) -> Option<Self> {
+        self.0.checked_sub(1).map(Self)
+    }
+
+    pub fn next(self) -> Option<Self> {
+        self.0.checked_add(1).map(Self)
+    }
+
+    /// The half-open timestamp range of the day.
+    pub fn range(self) -> DateRange {
+        let start = i64::from(self.0) * 86_400;
+        DateRange {
+            start,
+            end: start + 86_400,
+        }
+    }
+}
+
+impl std::fmt::Display for UtcDay {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        let (year, month, day) = civil_from_days(i64::from(self.0));
+        write!(f, "{year:04}-{month:02}-{day:02}")
+    }
+}
+
 #[derive(Clone, Copy, Debug, PartialEq, Eq)]
 pub struct DateRange {
     pub start: i64,
@@ -18,42 +106,12 @@ pub struct DateRange {
 impl DateRange {
     /// Inclusive calendar endpoints become a half-open UTC timestamp range.
     pub fn parse(from: &str, through: &str) -> Result<Self, String> {
-        fn timestamp(value: &str) -> Result<i64, String> {
-            let invalid = || format!("invalid date {value:?}; expected YYYY-MM-DD");
-            if value.len() != 10
-                || !value.is_ascii()
-                || value.as_bytes()[4] != b'-'
-                || value.as_bytes()[7] != b'-'
-                || !value
-                    .bytes()
-                    .enumerate()
-                    .all(|(i, c)| i == 4 || i == 7 || c.is_ascii_digit())
-                || &value[..4] == "0000"
-            {
-                return Err(invalid());
-            }
-            let connection = rusqlite::Connection::open_in_memory().map_err(|e| e.to_string())?;
-            let (normalized, stamp): (Option<String>, Option<i64>) = connection
-                .query_row(
-                    "SELECT strftime('%Y-%m-%d',julianday(?1)), unixepoch(?1)",
-                    [value],
-                    |r| Ok((r.get(0)?, r.get(1)?)),
-                )
-                .map_err(|e| e.to_string())?;
-            if normalized.as_deref() != Some(value) {
-                return Err(invalid());
-            }
-            stamp.ok_or_else(invalid)
-        }
-        let start = timestamp(from)?;
-        let last = timestamp(through)?;
-        if start > last {
+        let start = UtcDay::parse(from)?.range().start;
+        let last = UtcDay::parse(through)?.range().end;
+        if start >= last {
             return Err("--from must be the same date as --through or earlier".into());
         }
-        Ok(Self {
-            start,
-            end: last.checked_add(86400).ok_or("date range overflow")?,
-        })
+        Ok(Self { start, end: last })
     }
     pub fn contains(self, timestamp: i64) -> bool {
         self.start <= timestamp && timestamp < self.end
@@ -198,21 +256,9 @@ impl<'a, D: Discovery> Batches<'a, D> {
     }
 }
 
-/// Formats a Unix timestamp for progress output.
-pub fn utc(timestamp: i64) -> String {
-    rusqlite::Connection::open_in_memory()
-        .and_then(|c| {
-            c.query_row(
-                "SELECT strftime('%Y-%m-%d %H:%M:%S',?1,'unixepoch')||' UTC'",
-                [timestamp],
-                |r| r.get(0),
-            )
-        })
-        .unwrap_or_else(|_| timestamp.to_string())
-}
-
 pub struct HttpDiscovery {
     agent: ureq::Agent,
+    control: Option<std::sync::Arc<crate::run::RunControl>>,
 }
 impl Default for HttpDiscovery {
     fn default() -> Self {
@@ -221,6 +267,24 @@ impl Default for HttpDiscovery {
                 .timeout_global(Some(Duration::from_secs(30)))
                 .build()
                 .new_agent(),
+            control: None,
+        }
+    }
+}
+impl HttpDiscovery {
+    /// Counts Algolia calls against the shared circuit breaker.
+    pub fn with_control(mut self, control: std::sync::Arc<crate::run::RunControl>) -> Self {
+        self.control = Some(control);
+        self
+    }
+
+    fn count(&self, success: bool) {
+        if let Some(control) = &self.control {
+            if success {
+                control.breaker.record_success(crate::run::Api::Algolia);
+            } else {
+                control.breaker.record_failure(crate::run::Api::Algolia);
+            }
         }
     }
 }
@@ -247,6 +311,7 @@ impl Discovery for HttpDiscovery {
         for attempt in 0..3 {
             match self.agent.get(url.as_str()).call() {
                 Ok(mut response) => {
+                    self.count(true);
                     return response
                         .body_mut()
                         .read_json::<Page>()
@@ -262,6 +327,10 @@ impl Discovery for HttpDiscovery {
                             | ureq::Error::HostNotFound
                     );
                     if !retry || attempt == 2 {
+                        // Only an exhausted retryable error counts as a failure.
+                        if retry {
+                            self.count(false);
+                        }
                         return Err(format!("Show HN discovery failed: {error}"));
                     }
                     std::thread::sleep(Duration::from_secs(1 << attempt));
@@ -401,7 +470,44 @@ mod tests {
         assert!(batches.next_batch().unwrap_err().contains("no date"));
     }
     #[test]
-    fn utc_formats_timestamps() {
-        assert_eq!(utc(0), "1970-01-01 00:00:00 UTC");
+    fn utc_day_parses_formats_and_steps() {
+        let day = |s: &str| UtcDay::parse(s).unwrap();
+        for value in [
+            "2026-11-23",
+            "2024-02-29",
+            "2007-02-01",
+            "0001-01-01",
+            "9999-12-31",
+        ] {
+            assert_eq!(day(value).to_string(), value);
+        }
+        for invalid in [
+            "2023-02-29",
+            "2026-13-01",
+            "2026-00-10",
+            "2026-11-00",
+            "2026-11-31",
+            "2026-1-01",
+            "0000-01-01",
+            "20261123",
+            "2026-11-2x",
+            "",
+            "２０２６-11-23",
+        ] {
+            assert!(UtcDay::parse(invalid).is_err(), "{invalid}");
+        }
+        assert_eq!(day("2026-03-01").previous(), Some(day("2026-02-28")));
+        assert_eq!(day("2024-03-01").previous(), Some(day("2024-02-29")));
+        assert_eq!(day("2026-01-01").previous(), Some(day("2025-12-31")));
+        assert_eq!(day("2026-12-31").next(), Some(day("2027-01-01")));
+        assert_eq!(UtcDay::at(0), Some(day("1970-01-01")));
+        assert_eq!(UtcDay::at(-1), Some(day("1969-12-31")));
+        assert_eq!(UtcDay::at(1_794_700_800), Some(day("2026-11-15")));
+        assert_eq!(UtcDay::at(1_794_700_800 + 86_399), Some(day("2026-11-15")));
+        assert_eq!(UtcDay::FLOOR, day("2007-02-01"));
+        assert!(day("2007-01-31") < UtcDay::FLOOR);
+        let range = day("2026-11-15").range();
+        assert_eq!(range.start, 1_794_700_800);
+        assert_eq!(range.end - range.start, 86_400);
     }
 }

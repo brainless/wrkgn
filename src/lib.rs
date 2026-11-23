@@ -10,6 +10,7 @@ pub mod monthly;
 pub mod processing;
 pub mod publication;
 pub mod review_grid;
+pub mod run;
 pub mod show_hn;
 pub mod show_hn_discovery;
 pub mod snapshots;

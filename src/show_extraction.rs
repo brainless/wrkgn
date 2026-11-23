@@ -970,7 +970,12 @@ pub fn process_batch<M: Model + Sync>(
 ) -> Vec<Result<Report, String>> {
     let total = threads.len();
     let workers = options.concurrency.clamp(1, total.max(1));
-    let cooldown = processing::ProviderCooldown::default();
+    // Without a shared control nothing trips: the batch behaves as before.
+    let control = options
+        .control
+        .clone()
+        .unwrap_or_else(|| std::sync::Arc::new(crate::run::RunControl::disabled()));
+    let cooldown = processing::ProviderCooldown::with_control(control.clone());
     let stop = AtomicBool::new(false);
     let (requests, receiver) = mpsc::channel::<(usize, String)>();
     let receiver = Mutex::new(receiver);
@@ -1015,7 +1020,7 @@ pub fn process_batch<M: Model + Sync>(
         }
         let mut next = 0;
         loop {
-            while scheduler.inflight < workers && next < total {
+            while scheduler.inflight < workers && next < total && !control.should_stop() {
                 let i = next;
                 next += 1;
                 match Job::start(scheduler.store, threads[i], model, reprocess) {
@@ -1038,6 +1043,11 @@ pub fn process_batch<M: Model + Sync>(
                 .expect("active job")
                 .respond(conn, result, options);
             scheduler.advance(i);
+        }
+        // Stories not started because the run stopped are reported, not dropped.
+        while next < total {
+            scheduler.complete(next, Err("not attempted: run stopped".into()));
+            next += 1;
         }
         // Dropping the sender ends the workers before the scope joins them.
         let Scheduler { results, .. } = scheduler;

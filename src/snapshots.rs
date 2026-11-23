@@ -44,7 +44,7 @@ fn staging_pid(name: &str) -> Option<u32> {
 }
 
 /// Conservative: only a clearly absent process counts as dead.
-fn process_alive(pid: u32) -> bool {
+pub(crate) fn process_alive(pid: u32) -> bool {
     match Command::new("ps")
         .args(["-p", &pid.to_string()])
         .stdout(Stdio::null())
