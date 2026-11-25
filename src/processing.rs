@@ -162,7 +162,7 @@ fn rig_error(error: &dyn std::error::Error, api_key: &str, base_url: &str) -> St
             .replace(base_url, "[endpoint]")
             .replace(api_key, "[redacted]")
             .chars()
-            .take(512)
+            .take(1024)
             .collect::<String>()
     };
     let mut message = safe(error.to_string());
@@ -197,6 +197,9 @@ pub struct Options {
     pub max_validation_corrections: usize,
     pub initial_backoff: Duration,
     pub max_backoff: Duration,
+    /// Retries per call after a provider concurrency-limit error. These do not
+    /// consume `max_attempts`; past this cap the call counts as exhausted.
+    pub max_concurrency_retries: u32,
     /// Shared stop state and circuit breaker. `None` gives each processed
     /// thread its own breaker with the default threshold.
     pub control: Option<Arc<RunControl>>,
@@ -209,6 +212,7 @@ impl Default for Options {
             max_validation_corrections: 2,
             initial_backoff: Duration::from_secs(1),
             max_backoff: Duration::from_secs(30),
+            max_concurrency_retries: 30,
             control: None,
         }
     }
@@ -241,6 +245,38 @@ pub fn is_transient(error: &str) -> bool {
     ]
     .iter()
     .any(|p| e.contains(p))
+}
+/// The provider has no free concurrent slot. This says nothing about request
+/// rate, so it is handled by lowering in-flight calls rather than by backoff.
+pub fn is_concurrency_limit(error: &str) -> bool {
+    if validation_failure_kind(error).is_some() {
+        return false;
+    }
+    let e = error.to_ascii_lowercase();
+    [
+        "concurrent_budget_exceeded",
+        "concurrent limit",
+        "slots in use",
+    ]
+    .iter()
+    .any(|p| e.contains(p))
+}
+/// Parses `N/M slots in use` into `(in_use, budget)`.
+pub(crate) fn parse_concurrent_slots(error: &str) -> Option<(u32, u32)> {
+    let head = &error[..error.find("slots in use")?];
+    let (used, budget) = head.split_whitespace().last()?.split_once('/')?;
+    let (used, budget) = (used.parse().ok()?, budget.parse().ok()?);
+    (budget > 0).then_some((used, budget))
+}
+/// Parses the provider's `suggested_initial_delay_s` retry hint.
+pub(crate) fn parse_suggested_delay(error: &str) -> Option<Duration> {
+    let key = "suggested_initial_delay_s";
+    let rest = error[error.find(key)? + key.len()..].trim_start_matches(['"', ':', ' ']);
+    let end = rest
+        .find(|c: char| !c.is_ascii_digit() && c != '.')
+        .unwrap_or(rest.len());
+    let seconds: f64 = rest[..end].parse().ok()?;
+    (seconds.is_finite() && seconds >= 0.0).then(|| Duration::from_secs_f64(seconds.min(60.0)))
 }
 pub(crate) fn validation_failure_kind(error: &str) -> Option<&'static str> {
     [
@@ -391,7 +427,7 @@ pub fn process_thread_with<M: Model + Sync>(
         .control
         .clone()
         .unwrap_or_else(|| Arc::new(RunControl::with_threshold(crate::run::BREAKER_THRESHOLD)));
-    let cooldown = ProviderCooldown::with_control(control.clone());
+    let cooldown = ProviderCooldown::with_limit(control.clone(), options.concurrency);
     let mut received = 0;
     std::thread::scope(|scope| -> Result<(), String> {
         let (sender, results) = mpsc::channel();
@@ -475,19 +511,160 @@ pub fn process_thread_with<M: Model + Sync>(
     .map_err(|e| e.to_string())?;
     Ok(report)
 }
-/// A provider failure pauses attempts from every worker in this processing run.
-#[derive(Default)]
+/// Consecutive successful calls needed to raise the permitted concurrency by one.
+const RECOVERY_SUCCESSES: u32 = 5;
+
+/// Counting limiter on in-flight model calls. The permitted count never exceeds
+/// `max`; a provider concurrency-limit error lowers it and successes restore it.
+struct Limiter {
+    state: Mutex<LimiterState>,
+    released: std::sync::Condvar,
+}
+struct LimiterState {
+    max: usize,
+    permitted: usize,
+    in_flight: usize,
+    successes: u32,
+    /// Bumped on every reduction so errors from calls started under an older
+    /// limit do not lower it again.
+    epoch: u64,
+}
+impl Limiter {
+    fn new(max: usize) -> Self {
+        let max = max.max(1);
+        Self {
+            state: Mutex::new(LimiterState {
+                max,
+                permitted: max,
+                in_flight: 0,
+                successes: 0,
+                epoch: 0,
+            }),
+            released: std::sync::Condvar::new(),
+        }
+    }
+}
+
+/// A provider failure pauses attempts from every worker in this processing run,
+/// and a provider concurrency limit lowers how many calls run at once.
 pub(crate) struct ProviderCooldown {
     deadline: Mutex<Option<Instant>>,
     /// Where exhausted and successful model calls are counted.
     control: Option<Arc<RunControl>>,
+    limiter: Limiter,
+}
+impl Default for ProviderCooldown {
+    fn default() -> Self {
+        Self {
+            deadline: Mutex::new(None),
+            control: None,
+            limiter: Limiter::new(usize::MAX),
+        }
+    }
+}
+
+/// An in-flight model call slot. Dropping it frees the slot.
+struct Permit<'a> {
+    cooldown: &'a ProviderCooldown,
+    held: bool,
+    epoch: u64,
+}
+impl Drop for Permit<'_> {
+    fn drop(&mut self) {
+        if self.held {
+            self.cooldown.limiter.state.lock().unwrap().in_flight -= 1;
+            self.cooldown.limiter.released.notify_all();
+        }
+    }
 }
 
 impl ProviderCooldown {
-    pub(crate) fn with_control(control: Arc<RunControl>) -> Self {
+    /// Shares `control` and allows at most `max_in_flight` concurrent model calls.
+    pub(crate) fn with_limit(control: Arc<RunControl>, max_in_flight: usize) -> Self {
         Self {
             deadline: Mutex::new(None),
             control: Some(control),
+            limiter: Limiter::new(max_in_flight),
+        }
+    }
+
+    /// Waits for a free slot, polling so a stop request is noticed. After a stop
+    /// the call proceeds without a slot, as it would without a limiter.
+    fn acquire(&self, stop: &AtomicBool) -> Permit<'_> {
+        let mut state = self.limiter.state.lock().unwrap();
+        loop {
+            if state.in_flight < state.permitted {
+                state.in_flight += 1;
+                return Permit {
+                    cooldown: self,
+                    held: true,
+                    epoch: state.epoch,
+                };
+            }
+            if self.stopped(stop) {
+                return Permit {
+                    cooldown: self,
+                    held: false,
+                    epoch: state.epoch,
+                };
+            }
+            state = self
+                .limiter
+                .released
+                .wait_timeout(state, Duration::from_millis(50))
+                .unwrap()
+                .0;
+        }
+    }
+
+    /// Lowers the permitted concurrency after a concurrency-limit error. With a
+    /// parsed `N/M` it becomes at most `M - 1`, and one less than now if already
+    /// there; otherwise it halves. Never below 1. Errors from calls begun before
+    /// the latest reduction are ignored.
+    fn limit_hit(&self, permit: &Permit<'_>, error: &str) {
+        let mut state = self.limiter.state.lock().unwrap();
+        if permit.epoch != state.epoch {
+            return;
+        }
+        let target = match parse_concurrent_slots(error) {
+            Some((_, budget)) if (budget as usize) <= state.permitted => budget as usize - 1,
+            Some(_) => state.permitted - 1,
+            None => state.permitted / 2,
+        };
+        let lowered = target.clamp(1, state.permitted);
+        if lowered < state.permitted {
+            state.permitted = lowered;
+            state.epoch += 1;
+        }
+        state.successes = 0;
+    }
+
+    /// Raises the permitted concurrency by one per `RECOVERY_SUCCESSES` successes.
+    fn limiter_success(&self) {
+        let mut state = self.limiter.state.lock().unwrap();
+        if state.permitted >= state.max {
+            return;
+        }
+        state.successes += 1;
+        if state.successes >= RECOVERY_SUCCESSES {
+            state.successes = 0;
+            state.permitted += 1;
+            drop(state);
+            self.limiter.released.notify_all();
+        }
+    }
+
+    /// Sleeps `delay` in short slices, returning early on stop.
+    fn pause(&self, delay: Duration, stop: &AtomicBool) {
+        let until = Instant::now() + delay;
+        while !self.stopped(stop) {
+            let Some(left) = until.checked_duration_since(Instant::now()) else {
+                return;
+            };
+            if left.is_zero() {
+                return;
+            }
+            std::thread::sleep(left.min(Duration::from_millis(50)));
         }
     }
 
@@ -550,10 +727,31 @@ pub(crate) fn call_with_retry<T>(
 ) -> Result<T, String> {
     let mut delay = options.initial_backoff.min(options.max_backoff);
     let mut attempt = 1;
+    let mut limit_retries = 0;
     loop {
         cooldown.wait(stop);
-        match call() {
+        // The slot is held only while the request runs, never during sleeps.
+        let permit = cooldown.acquire(stop);
+        let result = call();
+        match result {
+            Err(e) if is_concurrency_limit(&e) => {
+                cooldown.limit_hit(&permit, &e);
+                drop(permit);
+                if limit_retries >= options.max_concurrency_retries {
+                    cooldown.count(false);
+                    return Err(e);
+                }
+                if cooldown.stopped(stop) {
+                    return Err(e);
+                }
+                limit_retries += 1;
+                // A short pause; the limiter, not backoff, resolves the overload.
+                let hint = parse_suggested_delay(&e).unwrap_or(Duration::from_secs(1));
+                let cap = Duration::from_secs(3).min(options.max_backoff);
+                cooldown.pause(jitter(hint.min(cap)), stop);
+            }
             Err(e) if is_transient(&e) => {
+                drop(permit);
                 // An exhausted group must also pause newly claimed groups.
                 cooldown.extend(jitter(delay));
                 if attempt >= options.max_attempts {
@@ -568,8 +766,10 @@ pub(crate) fn call_with_retry<T>(
                 attempt += 1;
             }
             result => {
+                drop(permit);
                 // Validation failures are neither a success nor a failure.
                 if result.is_ok() {
+                    cooldown.limiter_success();
                     cooldown.count(true);
                 }
                 return result;
@@ -587,6 +787,158 @@ fn jitter(delay: Duration) -> Duration {
 #[cfg(test)]
 mod provider_cooldown_tests {
     use super::*;
+
+    const LIMIT_429: &str = "ProviderResponseError: status 429 Too Many Requests: {\"error\":{\"type\":\"rate_limit_error\",\"code\":\"concurrent_budget_exceeded\",\"message\":\"Concurrent limit reached for m: 5/5 slots in use. Wait.\",\"retry_strategy\":{\"type\":\"concurrent_drain\",\"suggested_initial_delay_s\":1.5,\"max_delay_s\":30.0}}}";
+
+    fn fast() -> Options {
+        Options {
+            initial_backoff: Duration::ZERO,
+            max_backoff: Duration::ZERO,
+            ..Options::default()
+        }
+    }
+
+    #[test]
+    fn parses_slots_and_suggested_delay() {
+        assert_eq!(parse_concurrent_slots(LIMIT_429), Some((5, 5)));
+        assert_eq!(parse_concurrent_slots("3/4 slots in use"), Some((3, 4)));
+        assert_eq!(parse_concurrent_slots("slots in use"), None);
+        assert_eq!(parse_concurrent_slots("a/b slots in use"), None);
+        assert_eq!(parse_concurrent_slots("status 429"), None);
+        assert_eq!(
+            parse_suggested_delay(LIMIT_429),
+            Some(Duration::from_millis(1500))
+        );
+        assert_eq!(parse_suggested_delay("no hint"), None);
+    }
+
+    #[test]
+    fn classifies_concurrency_limits_only() {
+        assert!(is_concurrency_limit(LIMIT_429));
+        assert!(is_concurrency_limit("Concurrent limit reached"));
+        assert!(is_concurrency_limit("5/5 SLOTS IN USE"));
+        assert!(!is_concurrency_limit("status 429 Too Many Requests"));
+        assert!(!is_concurrency_limit("status 503"));
+    }
+
+    fn permitted(cooldown: &ProviderCooldown) -> usize {
+        cooldown.limiter.state.lock().unwrap().permitted
+    }
+
+    #[test]
+    fn limiter_drops_on_slots_recovers_and_never_exceeds_max() {
+        let cooldown = ProviderCooldown::with_limit(Arc::new(RunControl::with_threshold(3)), 10);
+        let stop = AtomicBool::new(false);
+        let permit = cooldown.acquire(&stop);
+        cooldown.limit_hit(&permit, LIMIT_429);
+        assert_eq!(permitted(&cooldown), 4);
+        // A stale error from the same epoch generation is ignored once lowered.
+        let stale = Permit {
+            cooldown: &cooldown,
+            held: false,
+            epoch: 0,
+        };
+        cooldown.limit_hit(&stale, LIMIT_429);
+        assert_eq!(permitted(&cooldown), 4);
+        drop(permit);
+        let permit = cooldown.acquire(&stop);
+        cooldown.limit_hit(&permit, LIMIT_429);
+        assert_eq!(permitted(&cooldown), 3);
+        drop(permit);
+        // Without a parsed budget the limit halves, never below one.
+        for _ in 0..5 {
+            let permit = cooldown.acquire(&stop);
+            cooldown.limit_hit(&permit, "concurrent limit");
+        }
+        assert_eq!(permitted(&cooldown), 1);
+        for _ in 0..RECOVERY_SUCCESSES - 1 {
+            cooldown.limiter_success();
+        }
+        assert_eq!(permitted(&cooldown), 1);
+        cooldown.limiter_success();
+        assert_eq!(permitted(&cooldown), 2);
+        for _ in 0..200 {
+            cooldown.limiter_success();
+        }
+        assert_eq!(permitted(&cooldown), 10);
+    }
+
+    #[test]
+    fn acquire_unblocks_on_stop() {
+        let cooldown = ProviderCooldown::with_limit(Arc::new(RunControl::disabled()), 1);
+        let stop = AtomicBool::new(false);
+        let _held = cooldown.acquire(&stop);
+        std::thread::scope(|scope| {
+            let waiter = scope.spawn(|| cooldown.acquire(&stop).held);
+            std::thread::sleep(Duration::from_millis(120));
+            assert!(!waiter.is_finished());
+            stop.store(true, Ordering::Relaxed);
+            assert!(!waiter.join().unwrap());
+        });
+    }
+
+    #[test]
+    fn slot_limited_provider_succeeds_without_exhausting_calls() {
+        let control = Arc::new(RunControl::with_threshold(3));
+        let cooldown = ProviderCooldown::with_limit(control.clone(), 10);
+        let stop = AtomicBool::new(false);
+        let in_flight = AtomicUsize::new(0);
+        let options = fast();
+        let failures = AtomicUsize::new(0);
+        std::thread::scope(|scope| {
+            for _ in 0..10 {
+                scope.spawn(|| {
+                    for _ in 0..6 {
+                        let result = call_with_retry(
+                            || {
+                                let now = in_flight.fetch_add(1, Ordering::SeqCst) + 1;
+                                std::thread::sleep(Duration::from_millis(5));
+                                in_flight.fetch_sub(1, Ordering::SeqCst);
+                                if now > 5 {
+                                    Err(LIMIT_429.to_string())
+                                } else {
+                                    Ok(())
+                                }
+                            },
+                            &options,
+                            &stop,
+                            &cooldown,
+                        );
+                        if result.is_err() {
+                            failures.fetch_add(1, Ordering::SeqCst);
+                        }
+                    }
+                });
+            }
+        });
+        assert_eq!(failures.load(Ordering::SeqCst), 0);
+        assert!(!control.should_stop());
+    }
+
+    #[test]
+    fn concurrency_retries_are_capped_and_then_exhaust() {
+        let control = Arc::new(RunControl::with_threshold(1));
+        let cooldown = ProviderCooldown::with_limit(control.clone(), 4);
+        let stop = AtomicBool::new(false);
+        let calls = AtomicUsize::new(0);
+        let options = Options {
+            max_attempts: 1,
+            max_concurrency_retries: 4,
+            ..fast()
+        };
+        let result: Result<(), String> = call_with_retry(
+            || {
+                calls.fetch_add(1, Ordering::SeqCst);
+                Err(LIMIT_429.into())
+            },
+            &options,
+            &stop,
+            &cooldown,
+        );
+        assert!(result.is_err());
+        assert_eq!(calls.load(Ordering::SeqCst), 5);
+        assert!(control.should_stop());
+    }
 
     #[test]
     fn concurrent_extensions_keep_the_latest_deadline() {

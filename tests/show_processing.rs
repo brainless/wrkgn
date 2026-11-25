@@ -1064,6 +1064,8 @@ struct StoryModel {
     running: AtomicUsize,
     peak: AtomicUsize,
     fail: Vec<i64>,
+    /// Simultaneous calls the fake provider accepts; 0 means unlimited.
+    budget: usize,
 }
 impl Model for StoryModel {
     fn name(&self) -> &str {
@@ -1077,6 +1079,12 @@ impl Model for StoryModel {
         self.peak.fetch_max(now, Ordering::SeqCst);
         std::thread::sleep(std::time::Duration::from_millis(40));
         self.running.fetch_sub(1, Ordering::SeqCst);
+        if self.budget > 0 && now > self.budget {
+            return Err(format!(
+                "ProviderResponseError: status 429 Too Many Requests: concurrent_budget_exceeded {0}/{0} slots in use",
+                self.budget
+            ));
+        }
         let story = serde_json::from_str::<Value>(prompt).unwrap()["story_id"]
             .as_i64()
             .unwrap();
@@ -1178,6 +1186,35 @@ fn concurrent_batch_matches_sequential_results_and_cache() {
     // Story 100 caches three chunks and two consolidations; 200 and 300 one each.
     assert_eq!(sequential.0.len(), 7 + 3);
     assert_eq!(sequential.1.len(), 3);
+}
+#[test]
+fn slot_limited_provider_does_not_fail_stories() {
+    let (_dir, mut store) = multi_store();
+    let model = StoryModel {
+        budget: 2,
+        ..StoryModel::default()
+    };
+    let control = std::sync::Arc::new(wrkgn::run::RunControl::with_threshold(1));
+    let options = Options {
+        concurrency: 3,
+        initial_backoff: std::time::Duration::ZERO,
+        max_backoff: std::time::Duration::ZERO,
+        control: Some(control.clone()),
+        ..Options::default()
+    };
+    let results = wrkgn::show_extraction::process_batch(
+        &mut store,
+        &[100, 200, 300],
+        &model,
+        false,
+        &options,
+        |_| {},
+    );
+    for result in &results {
+        let report = result.as_ref().unwrap();
+        assert!(report.failed.is_empty(), "{:?}", report.failed);
+    }
+    assert!(!control.should_stop());
 }
 #[test]
 fn concurrency_limit_is_respected_and_one_failure_is_isolated() {
