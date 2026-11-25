@@ -162,8 +162,54 @@ fn options(concurrency: usize) -> Options {
         ..Options::default()
     }
 }
-const RATE_LIMITED: &str =
-    "ProviderResponseError: status 429 Too Many Requests: Concurrent limit reached";
+const RATE_LIMITED: &str = "ProviderResponseError: status 429 Too Many Requests: slow down";
+const SLOTS_FULL: &str = "ProviderResponseError: status 429 Too Many Requests: {\"error\":{\"code\":\"concurrent_budget_exceeded\",\"message\":\"Concurrent limit reached: 2/2 slots in use.\"}}";
+
+/// Allows two simultaneous calls and rejects the rest like the provider does.
+struct SlotLimited {
+    in_flight: AtomicUsize,
+    rejected: AtomicUsize,
+}
+impl Model for SlotLimited {
+    fn name(&self) -> &str {
+        "fixture-v1"
+    }
+    fn extract(&self, prompt: &str) -> Result<Extraction, String> {
+        let now = self.in_flight.fetch_add(1, Ordering::SeqCst) + 1;
+        std::thread::sleep(std::time::Duration::from_millis(20));
+        self.in_flight.fetch_sub(1, Ordering::SeqCst);
+        if now > 2 {
+            self.rejected.fetch_add(1, Ordering::SeqCst);
+            return Err(SLOTS_FULL.into());
+        }
+        answer(prompt)
+    }
+}
+#[test]
+fn slot_limited_provider_does_not_fail_groups_or_trip_the_breaker() {
+    let (_dir, mut store) = setup();
+    let model = SlotLimited {
+        in_flight: AtomicUsize::new(0),
+        rejected: AtomicUsize::new(0),
+    };
+    let control = std::sync::Arc::new(wrkgn::run::RunControl::with_threshold(1));
+    let report = process_thread_with(
+        &mut store,
+        100,
+        &model,
+        false,
+        &Options {
+            max_attempts: 1,
+            control: Some(control.clone()),
+            ..options(10)
+        },
+        |_| {},
+    )
+    .unwrap();
+    assert_eq!((report.processed, report.failed.len()), (3, 0));
+    assert!(!report.stopped_early);
+    assert!(!control.should_stop());
+}
 /// Rate-limits the first `failures` calls, then answers normally.
 struct Flaky {
     failures: AtomicUsize,

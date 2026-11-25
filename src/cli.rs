@@ -28,7 +28,7 @@ process reads stored source from the latest complete collect and makes no HN cal
 it calls the LLM provider, using WRKGN_PROVIDER=openai (default) with WRKGN_MODEL and OPENAI_API_KEY,
 or WRKGN_PROVIDER=neuralwatt with NEURALWATT_API_KEY and default model glm-5.3-flash.
 NEURALWATT_BASE_URL optionally overrides https://api.neuralwatt.com/v1.
---concurrency sets how many conversation groups are extracted in parallel (default 10).
+--concurrency sets how many conversation groups are extracted in parallel (default 10, lowered automatically on provider concurrency limits).
 collect is the only command that fetches from HN.
 Review, category normalization, and export make no network calls.
 snapshots prune is explicit and offline (no database): it keeps the version current.json selects

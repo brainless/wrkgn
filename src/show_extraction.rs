@@ -975,7 +975,7 @@ pub fn process_batch<M: Model + Sync>(
         .control
         .clone()
         .unwrap_or_else(|| std::sync::Arc::new(crate::run::RunControl::disabled()));
-    let cooldown = processing::ProviderCooldown::with_control(control.clone());
+    let cooldown = processing::ProviderCooldown::with_limit(control.clone(), options.concurrency);
     let stop = AtomicBool::new(false);
     let (requests, receiver) = mpsc::channel::<(usize, String)>();
     let receiver = Mutex::new(receiver);
