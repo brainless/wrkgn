@@ -72,8 +72,10 @@ forces extraction again. Each chunk of up to --batch-size stories (collected one
 by one, then extracted with up to --concurrency parallel model calls) is
 exported once. A failed story is reported with its full message and the run
 continues. A live status line and an end-of-run Markdown report go to stderr.
-Exit code 0: completed or limit reached without failures; 1: failures or a setup
-error; 2: stopped after 3 consecutive failed calls to one API (LLM provider, HN,
+The header says which limit applied (story cap, more backfill remaining, or
+both). Exit code 0: completed or limit reached without failures; 1: failures
+(including units still needing manual action from earlier runs; the header
+counts them) or a setup error; 2: stopped after 3 consecutive failed calls to one API (LLM provider, HN,
 Algolia); 130: interrupted (Ctrl-C or SIGTERM stops at the next story, exports,
 and reports; a second Ctrl-C exits at once). A second instance exits immediately
 while one is running, so overlapping cron runs are safe.

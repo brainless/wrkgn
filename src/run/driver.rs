@@ -11,7 +11,7 @@ use std::sync::Arc;
 
 use super::control::RunControl;
 use super::errors::ErrorLog;
-use super::report::{Outcome, RunSummary, write_report};
+use super::report::{LimitInfo, Outcome, RunSummary, write_report};
 use super::status::{Clock, Snapshot, StatusLine};
 use super::{RunSession, finish};
 use crate::processing;
@@ -211,6 +211,7 @@ struct Driver<'a, W: Workload, O: Write, K: Clock, E: Write> {
     failed: usize,
     used: usize,
     limit_hit: bool,
+    failed_units_now: BTreeSet<String>,
     dirty: bool,
     export_version: Option<String>,
     fatal: bool,
@@ -247,6 +248,7 @@ pub fn run<W: Workload, O: Write, K: Clock>(
         failed: 0,
         used: 0,
         limit_hit: false,
+        failed_units_now: BTreeSet::new(),
         dirty: false,
         export_version: None,
         fatal: false,
@@ -465,6 +467,7 @@ impl<W: Workload, O: Write, K: Clock, E: Write> Driver<'_, W, O, K, E> {
                 Err(error) => {
                     self.errors.record("discovery", "algolia", None, &error);
                     self.failed += 1;
+                    self.failed_units_now.insert(key.clone());
                     let update = UnitUpdate {
                         command: W::COMMAND,
                         unit: &key,
@@ -567,6 +570,8 @@ impl<W: Workload, O: Write, K: Clock, E: Write> Driver<'_, W, O, K, E> {
             Ok(()) => {
                 if state == UnitState::Done {
                     self.units_done.push(key);
+                } else {
+                    self.failed_units_now.insert(key);
                 }
             }
             Err(error) => self.store_error("finishing a unit", error),
@@ -750,6 +755,17 @@ impl<W: Workload, O: Write, K: Clock, E: Write> Driver<'_, W, O, K, E> {
             pending_units,
             failed_units,
             exhausted_units,
+            failed_this_run: self.failed_units_now.iter().cloned().collect(),
+            limit: if outcome == Outcome::LimitReached {
+                LimitInfo {
+                    cap: self
+                        .limit_hit
+                        .then(|| (self.used, self.cfg.max_items, W::ITEM_LABEL.to_owned())),
+                    backfill_next: plan.backfill_more.map(|unit| unit.to_string()),
+                }
+            } else {
+                LimitInfo::default()
+            },
             killed_runs: self.session.killed_runs.clone(),
             took_over_pid: self.session.took_over_pid,
             tripped_api: control.breaker.tripped_api(),

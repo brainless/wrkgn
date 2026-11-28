@@ -69,8 +69,10 @@ and limits, and re-walking months already done. They cannot be combined with
 Each thread is collected, processed, automatically approved and exported before
 the next. Approval is automatic for each successfully processed thread; this
 command bypasses manual review. A live status line and an end-of-run Markdown
-report go to stderr. Exit code 0: completed or limit reached without failures;
-1: failures or a setup error; 2: stopped after 3 consecutive failed calls to one
+report go to stderr. The header says which limit applied (thread cap, more
+backfill remaining, or both). Exit code 0: completed or limit reached without
+failures; 1: failures (including units still needing manual action from earlier
+runs; the header counts them) or a setup error; 2: stopped after 3 consecutive failed calls to one
 API (LLM provider, HN, Algolia); 130: interrupted (Ctrl-C or SIGTERM stops at the
 next thread, exports, and reports; a second Ctrl-C exits at once). A second
 instance exits immediately while one is running, so overlapping cron runs are safe.

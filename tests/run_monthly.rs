@@ -308,6 +308,15 @@ fn backfill_takes_newest_uncovered_first_and_fills_gaps() {
     );
     assert!(env.state("2026-06").is_none());
     assert_eq!(result.summary.outcome, run::Outcome::LimitReached);
+    assert_eq!(result.summary.limit.cap, None);
+    assert_eq!(
+        result.summary.limit.backfill_next.as_deref(),
+        Some("2026-06")
+    );
+    assert!(
+        report.contains("(more backfill remains (next: 2026-06))"),
+        "{report}"
+    );
     let (_, _) = env.run("--months 1 --backfill-months 2");
     assert!(env.state("2026-06").is_some());
 }
@@ -325,6 +334,8 @@ fn cap_stops_at_an_item_boundary_and_the_next_run_resumes_without_rediscovery() 
         "{report}"
     );
     assert_eq!(first.summary.items_processed, 2);
+    assert_eq!(first.summary.limit.cap, Some((2, 2, "thread".to_owned())));
+    assert!(report.contains("thread cap reached (2/2)"), "{report}");
     // The head (2026-11, empty) and the backfill month 2026-10 were searched.
     assert_eq!(env.searches(), 2);
     assert_eq!(env.state("2026-10"), Some((UnitState::InProgress, 0)));

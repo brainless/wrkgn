@@ -78,7 +78,7 @@ The first Ctrl-C or SIGTERM sets a flag. The run stops at the next item boundary
 ### Exit codes
 
 - 0: completed or limit reached with no failures.
-- 1: failures occurred, or a setup error (as today).
+- 1: failures occurred, or a setup error (as today). Units exhausted in earlier runs keep exit 1 until resolved; the report header explains it, for example `Exit code: 1 (4 units need manual action, all from earlier runs; 0 errors this run)`, distinguishing units exhausted this run from carried-over ones.
 - 2: stopped on failure (circuit breaker).
 - 130: interrupted.
 
@@ -88,7 +88,7 @@ Nonzero only when attention is needed.
 
 1. **Live status.** One line with phase, unit, item and counts. On a TTY it is rewritten in place; otherwise plain lines at most once per item batch or 30 seconds. It composes with the existing processing `Status`.
 2. **End-of-run report**, on every ending, as pasteable Markdown, in this order:
-   - outcome and exit reason;
+   - outcome and exit reason; a `limit_reached` outcome names what applied (`thread cap reached (5/5)`, `more backfill remains (next: 2022-02)`, or both), and remaining backfill is expected on most default runs;
    - errors grouped by normalized signature (digits, IDs and URLs stripped, replacing `failure_kind`'s 80-character fallback) with stage, kind, count, first and last IDs and one full sample;
    - work done: units covered, items collected, processed and approved, exported snapshot;
    - what remains: pending and failed units, and what the next run will do.

@@ -39,6 +39,32 @@ impl Outcome {
     }
 }
 
+/// Why a run ended as `limit_reached`: either condition, or both.
+#[derive(Debug, Clone, Default, PartialEq, Eq)]
+pub struct LimitInfo {
+    /// The per-run item cap was hit: (items used, cap, item label).
+    pub cap: Option<(usize, usize, String)>,
+    /// Older uncovered units remain beyond this run's backfill; the next one.
+    pub backfill_next: Option<String>,
+}
+
+impl LimitInfo {
+    pub fn describe(&self) -> String {
+        let mut parts = Vec::new();
+        if let Some((used, max, label)) = &self.cap {
+            parts.push(format!("{label} cap reached ({used}/{max})"));
+        }
+        if let Some(next) = &self.backfill_next {
+            parts.push(format!("more backfill remains (next: {next})"));
+        }
+        if parts.is_empty() {
+            "run limit reached".into()
+        } else {
+            parts.join("; ")
+        }
+    }
+}
+
 #[derive(Debug, Clone, Default)]
 pub struct RunSummary {
     pub run_id: i64,
@@ -58,6 +84,11 @@ pub struct RunSummary {
     pub failed_units: Vec<(String, u32)>,
     /// Failed units whose attempts are used up.
     pub exhausted_units: Vec<String>,
+    /// Units whose attempt in this run ended failed (a subset of the failed
+    /// and exhausted lists); the rest of those lists carry over from earlier runs.
+    pub failed_this_run: Vec<String>,
+    /// Set for `limit_reached` runs.
+    pub limit: LimitInfo,
     pub killed_runs: Vec<i64>,
     pub took_over_pid: Option<u32>,
     pub tripped_api: Option<Api>,
@@ -73,10 +104,68 @@ impl RunSummary {
         self.outcome.exit_code(self.has_failures())
     }
 
+    /// Number of errors recorded in this run (sum over groups).
+    pub fn error_count(&self) -> usize {
+        self.errors.iter().map(|group| group.count).sum()
+    }
+
+    /// Exhausted units from earlier runs that this run did not touch.
+    pub fn carried_exhausted(&self) -> Vec<&String> {
+        self.exhausted_units
+            .iter()
+            .filter(|unit| !self.failed_this_run.contains(unit))
+            .collect()
+    }
+
+    /// Why the exit code is 1, so a nonzero code never looks unexplained.
+    fn failure_explanation(&self) -> Option<String> {
+        if self.exit_code() != 1 {
+            return None;
+        }
+        let mut parts = Vec::new();
+        let carried = self.carried_exhausted().len();
+        let exhausted = self.exhausted_units.len();
+        if exhausted > 0 {
+            let noun = if exhausted == 1 {
+                "unit needs"
+            } else {
+                "units need"
+            };
+            let origin = if carried == exhausted {
+                "all from earlier runs".to_owned()
+            } else if carried == 0 {
+                "all exhausted this run".to_owned()
+            } else {
+                format!(
+                    "{} exhausted this run, {carried} from earlier runs",
+                    exhausted - carried
+                )
+            };
+            parts.push(format!("{exhausted} {noun} manual action, {origin}"));
+        }
+        if !self.failed_units.is_empty() {
+            let noun = if self.failed_units.len() == 1 {
+                "unit"
+            } else {
+                "units"
+            };
+            parts.push(format!(
+                "{} failed {noun} will be retried next run",
+                self.failed_units.len()
+            ));
+        }
+        let errors = self.error_count();
+        parts.push(format!(
+            "{errors} {} this run",
+            if errors == 1 { "error" } else { "errors" }
+        ));
+        Some(parts.join("; "))
+    }
+
     fn reason(&self) -> Option<String> {
         match self.outcome {
             Outcome::Completed => None,
-            Outcome::LimitReached => Some("run limit reached".into()),
+            Outcome::LimitReached => Some(self.limit.describe()),
             Outcome::Interrupted => Some("interrupt received".into()),
             Outcome::StoppedOnFailure => Some(match self.tripped_api {
                 Some(api) => format!("{BREAKER_THRESHOLD} consecutive {} failures", api.label()),
@@ -149,7 +238,10 @@ pub fn render_report(s: &RunSummary) -> String {
         Some(reason) => out.push_str(&format!("- Outcome: {} ({reason})\n", s.outcome.as_str())),
         None => out.push_str(&format!("- Outcome: {}\n", s.outcome.as_str())),
     }
-    out.push_str(&format!("- Exit code: {}\n", s.exit_code()));
+    match s.failure_explanation() {
+        Some(why) => out.push_str(&format!("- Exit code: {} ({why})\n", s.exit_code())),
+        None => out.push_str(&format!("- Exit code: {}\n", s.exit_code())),
+    }
     out.push_str(&format!(
         "- Started: {}  Finished: {}\n\n",
         iso(s.started_at),

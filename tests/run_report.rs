@@ -140,6 +140,71 @@ fn report_contains_no_secrets_and_samples_with_backticks_stay_fenced() {
 }
 
 #[test]
+fn limit_reason_names_the_condition_that_applied() {
+    let mut s = summary(Outcome::LimitReached, &ErrorLog::default());
+    s.limit.cap = Some((5, 5, "thread".into()));
+    let text = render_report(&s);
+    assert!(text.contains("- Outcome: limit_reached (thread cap reached (5/5))"));
+    assert!(!text.contains("backfill remains"));
+
+    s.limit.cap = None;
+    s.limit.backfill_next = Some("2022-02".into());
+    let text = render_report(&s);
+    assert!(text.contains("(more backfill remains (next: 2022-02))"));
+
+    s.limit.cap = Some((5, 5, "thread".into()));
+    let text = render_report(&s);
+    assert!(text.contains("(thread cap reached (5/5); more backfill remains (next: 2022-02))"));
+    assert!(text.contains("- Exit code: 0\n"));
+}
+
+#[test]
+fn nonzero_exit_code_is_explained_in_the_header() {
+    let mut s = summary(Outcome::LimitReached, &ErrorLog::default());
+    s.exhausted_units = vec![
+        "2026-01".into(),
+        "2026-02".into(),
+        "2026-03".into(),
+        "2026-04".into(),
+    ];
+    let text = render_report(&s);
+    assert!(
+        text.contains(
+            "- Exit code: 1 (4 units need manual action, all from earlier runs; 0 errors this run)"
+        ),
+        "{text}"
+    );
+
+    s.failed_this_run = vec!["2026-04".into()];
+    s.failed_units = vec![("2026-05".into(), 1)];
+    let text = render_report(&s);
+    assert!(text.contains(
+        "- Exit code: 1 (4 units need manual action, 1 exhausted this run, 3 from earlier runs; 1 failed unit will be retried next run; 0 errors this run)"
+    ), "{text}");
+
+    s.failed_this_run = s.exhausted_units.clone();
+    s.exhausted_units.truncate(1);
+    s.failed_units.clear();
+    let text = render_report(&s);
+    assert!(
+        text.contains(
+            "- Exit code: 1 (1 unit needs manual action, all exhausted this run; 0 errors this run)"
+        ),
+        "{text}"
+    );
+
+    let mut log = ErrorLog::default();
+    log.record("collect", "http", None, "status 404");
+    let text = render_report(&summary(Outcome::Completed, &log));
+    assert!(text.contains("- Exit code: 1 (1 error this run)"), "{text}");
+    // Exit 0, 2 and 130 carry no explanation.
+    assert!(
+        !render_report(&summary(Outcome::Completed, &ErrorLog::default()))
+            .contains("Exit code: 0 (")
+    );
+}
+
+#[test]
 fn exit_codes_follow_the_outcome() {
     assert_eq!(Outcome::Completed.exit_code(false), 0);
     assert_eq!(Outcome::LimitReached.exit_code(false), 0);

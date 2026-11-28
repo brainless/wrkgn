@@ -434,6 +434,7 @@ fn story_cap_stops_at_a_story_boundary_and_the_next_run_resumes() {
     assert_eq!(result.exit_code, 0, "{report}");
     assert_eq!(result.summary.outcome, run::Outcome::LimitReached);
     assert_eq!(result.summary.items_processed, 2);
+    assert!(report.contains("story cap reached (2/2)"), "{report}");
     assert_eq!(env.pending("2026-11-14"), 1);
     assert!(report.contains("pending day(s)"), "{report}");
     assert_eq!(env.searches(), 2);
