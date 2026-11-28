@@ -995,12 +995,60 @@ fn validation_compares_against_decoded_text() {
     m.source_excerpt = "I\u{2019}ve built,   also hydrafetch.com. Feedback welcome".into();
     assert_eq!(validated(m), Ok(()));
 }
+fn normalized(urls: &[&str]) -> (Vec<String>, Result<(), String>) {
+    let mut m = escaped_mention();
+    m.urls = urls.iter().map(|u| u.to_string()).collect();
+    let mut extraction = Extraction { mentions: vec![m] };
+    extraction.normalize_urls();
+    let urls = extraction.mentions[0].urls.clone();
+    let (_dir, store) = escaped_store();
+    let items = [
+        store.get_item(301).unwrap().unwrap(),
+        store.get_item(302).unwrap().unwrap(),
+    ];
+    let source = BTreeMap::from([(301, &items[0]), (302, &items[1])]);
+    let result = validate(&extraction, &BTreeSet::from([301, 302]), &source);
+    (urls, result)
+}
+#[test]
+fn tolerant_urls_repair_scheme_whitespace_www_and_slash() {
+    // Bare domain without scheme (reifydb.com case).
+    let (urls, result) = normalized(&["hydrafetch.com"]);
+    assert_eq!(
+        (urls, result),
+        (vec!["https://hydrafetch.com".into()], Ok(()))
+    );
+    // Whitespace inside the scheme (Internet-Places-Database case).
+    let (urls, result) = normalized(&["h ttps://pahunchi.netlify.app/"]);
+    assert_eq!(
+        (urls, result),
+        (vec!["https://pahunchi.netlify.app/".into()], Ok(()))
+    );
+    // Source lacks scheme, www. and trailing slash (coolweird.net case).
+    let (urls, result) = normalized(&["https://www.hydrafetch.com/", "HTTP://Hydrafetch.com"]);
+    assert_eq!(urls.len(), 2);
+    assert_eq!(result, Ok(()));
+    // Duplicates after normalisation collapse.
+    let (urls, _) = normalized(&["hydrafetch.com", "https://hydrafetch.com"]);
+    assert_eq!(urls, vec!["https://hydrafetch.com".to_string()]);
+}
+#[test]
+fn urls_invalid_after_normalisation_are_dropped_and_unsupported_ones_rejected() {
+    let (urls, result) = normalized(&["not a url", "ftp://pahunchi.netlify.app", "localhost"]);
+    assert!(urls.is_empty());
+    assert_eq!(result, Ok(()));
+    let (_, result) = normalized(&["other.test"]);
+    assert_eq!(
+        result,
+        Err("URL absent from source: source 301, url \"https://other.test\"".into())
+    );
+}
 #[test]
 fn validation_still_rejects_unsupported_urls_and_evidence() {
     for url in [
         "https://other.test/",
         "https://pahunchi.netlify.app/x",
-        "http://pahunchi.netlify.app",
+        "https://other.test/pahunchi.netlify.app",
     ] {
         let mut m = escaped_mention();
         m.urls = vec![url.into()];

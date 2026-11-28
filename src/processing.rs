@@ -1051,7 +1051,7 @@ fn extract_validated_batch<M: Model>(
         // They share the provenance correction budget; provider failures remain
         // governed by the separate shared-cooldown retry policy.
         let (error, rejected) = match extract_with_retry(model, &prompt, options, stop, cooldown) {
-            Ok(output) => match policy.validate(&output, batch, unit) {
+            Ok(mut output) => match policy.validate_normalized(&mut output, batch, unit) {
                 Ok(()) => return Ok(output),
                 Err(error) => (
                     error,
