@@ -112,7 +112,8 @@ fn report_lists_what_remains_and_the_killed_run_note() {
     assert!(text.contains("3 consecutive HN Firebase API failures"));
     assert!(text.contains("- Exit code: 2"));
     assert!(text.contains(&format!("2026-08 (2/{MAX_UNIT_ATTEMPTS} attempts)")));
-    assert!(text.contains("2026-07 (try `wrkgn collect --thread <id>`"));
+    assert!(text.contains("- Needs manual action (attempts exhausted):\n  - 2026-07\n"));
+    assert!(text.contains("Fix a item with `wrkgn collect --thread <id>`"));
     assert!(text.contains("previous run 41 was found killed (stale lock, PID 9921)"));
     assert!(text.contains("- Export: 0123456789abcdef"));
 }
@@ -136,6 +137,71 @@ fn report_contains_no_secrets_and_samples_with_backticks_stay_fenced() {
     assert!(
         text.contains("````\n"),
         "fence must outgrow the sample's backticks"
+    );
+}
+
+#[test]
+fn limit_reason_names_the_condition_that_applied() {
+    let mut s = summary(Outcome::LimitReached, &ErrorLog::default());
+    s.limit.cap = Some((5, 5, "thread".into()));
+    let text = render_report(&s);
+    assert!(text.contains("- Outcome: limit_reached (thread cap reached (5/5))"));
+    assert!(!text.contains("backfill remains"));
+
+    s.limit.cap = None;
+    s.limit.backfill_next = Some("2022-02".into());
+    let text = render_report(&s);
+    assert!(text.contains("(more backfill remains (next: 2022-02))"));
+
+    s.limit.cap = Some((5, 5, "thread".into()));
+    let text = render_report(&s);
+    assert!(text.contains("(thread cap reached (5/5); more backfill remains (next: 2022-02))"));
+    assert!(text.contains("- Exit code: 0\n"));
+}
+
+#[test]
+fn nonzero_exit_code_is_explained_in_the_header() {
+    let mut s = summary(Outcome::LimitReached, &ErrorLog::default());
+    s.exhausted_units = vec![
+        "2026-01".into(),
+        "2026-02".into(),
+        "2026-03".into(),
+        "2026-04".into(),
+    ];
+    let text = render_report(&s);
+    assert!(
+        text.contains(
+            "- Exit code: 1 (4 units need manual action, all from earlier runs; 0 errors this run)"
+        ),
+        "{text}"
+    );
+
+    s.failed_this_run = vec!["2026-04".into()];
+    s.failed_units = vec![("2026-05".into(), 1)];
+    let text = render_report(&s);
+    assert!(text.contains(
+        "- Exit code: 1 (4 units need manual action, 1 exhausted this run, 3 from earlier runs; 1 failed unit will be retried next run; 0 errors this run)"
+    ), "{text}");
+
+    s.failed_this_run = s.exhausted_units.clone();
+    s.exhausted_units.truncate(1);
+    s.failed_units.clear();
+    let text = render_report(&s);
+    assert!(
+        text.contains(
+            "- Exit code: 1 (1 unit needs manual action, all exhausted this run; 0 errors this run)"
+        ),
+        "{text}"
+    );
+
+    let mut log = ErrorLog::default();
+    log.record("collect", "http", None, "status 404");
+    let text = render_report(&summary(Outcome::Completed, &log));
+    assert!(text.contains("- Exit code: 1 (1 error this run)"), "{text}");
+    // Exit 0, 2 and 130 carry no explanation.
+    assert!(
+        !render_report(&summary(Outcome::Completed, &ErrorLog::default()))
+            .contains("Exit code: 0 (")
     );
 }
 
@@ -260,4 +326,48 @@ fn interrupted_run_is_recorded_with_counts_and_grouped_errors() {
     // The lock is released when the session is dropped.
     drop(session);
     assert!(run::lock::acquire(&db, "monthly").is_ok());
+}
+
+#[test]
+fn acknowledged_units_are_listed_but_do_not_fail_the_run() {
+    let mut s = summary(Outcome::Completed, &ErrorLog::default());
+    s.acknowledged_units = vec!["2026-03".into(), "2026-05".into()];
+    assert!(!s.has_failures());
+    assert_eq!(s.exit_code(), 0);
+    let text = render_report(&s);
+    assert!(
+        text.contains("- Acknowledged (skipped): 2 units: 2026-03, 2026-05"),
+        "{text}"
+    );
+    assert!(text.contains("- Needs manual action (attempts exhausted): None"));
+    s.acknowledged_units.truncate(1);
+    assert!(render_report(&s).contains("- Acknowledged (skipped): 1 unit: 2026-03"));
+    s.acknowledged_units.clear();
+    assert!(!render_report(&s).contains("Acknowledged"));
+}
+
+#[test]
+fn manual_action_lists_failed_items_with_truncated_errors() {
+    let mut s = summary(Outcome::Completed, &ErrorLog::default());
+    s.item_label = "story".into();
+    s.exhausted_units = vec!["2026-03-04".into()];
+    s.unit_failures.insert(
+        "2026-03-04".into(),
+        vec![
+            wrkgn::run::report::FailedItem {
+                id: Some(47303111),
+                error: format!("URL absent from source: {}", "x".repeat(300)),
+            },
+            wrkgn::run::report::FailedItem {
+                id: Some(47303112),
+                error: "boom".into(),
+            },
+        ],
+    );
+    let text = render_report(&s);
+    let expected = format!(
+        "- Needs manual action (attempts exhausted):\n  - 2026-03-04: story 47303111: URL absent from source: {}...\n  - 2026-03-04: story 47303112: boom\n  Fix a story with",
+        "x".repeat(120 - "URL absent from source: ".len())
+    );
+    assert!(text.contains(&expected), "{text}");
 }

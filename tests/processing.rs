@@ -995,12 +995,60 @@ fn validation_compares_against_decoded_text() {
     m.source_excerpt = "I\u{2019}ve built,   also hydrafetch.com. Feedback welcome".into();
     assert_eq!(validated(m), Ok(()));
 }
+fn normalized(urls: &[&str]) -> (Vec<String>, Result<(), String>) {
+    let mut m = escaped_mention();
+    m.urls = urls.iter().map(|u| u.to_string()).collect();
+    let mut extraction = Extraction { mentions: vec![m] };
+    extraction.normalize_urls();
+    let urls = extraction.mentions[0].urls.clone();
+    let (_dir, store) = escaped_store();
+    let items = [
+        store.get_item(301).unwrap().unwrap(),
+        store.get_item(302).unwrap().unwrap(),
+    ];
+    let source = BTreeMap::from([(301, &items[0]), (302, &items[1])]);
+    let result = validate(&extraction, &BTreeSet::from([301, 302]), &source);
+    (urls, result)
+}
+#[test]
+fn tolerant_urls_repair_scheme_whitespace_www_and_slash() {
+    // Bare domain without scheme (reifydb.com case).
+    let (urls, result) = normalized(&["hydrafetch.com"]);
+    assert_eq!(
+        (urls, result),
+        (vec!["https://hydrafetch.com".into()], Ok(()))
+    );
+    // Whitespace inside the scheme (Internet-Places-Database case).
+    let (urls, result) = normalized(&["h ttps://pahunchi.netlify.app/"]);
+    assert_eq!(
+        (urls, result),
+        (vec!["https://pahunchi.netlify.app/".into()], Ok(()))
+    );
+    // Source lacks scheme, www. and trailing slash (coolweird.net case).
+    let (urls, result) = normalized(&["https://www.hydrafetch.com/", "HTTP://Hydrafetch.com"]);
+    assert_eq!(urls.len(), 2);
+    assert_eq!(result, Ok(()));
+    // Duplicates after normalisation collapse.
+    let (urls, _) = normalized(&["hydrafetch.com", "https://hydrafetch.com"]);
+    assert_eq!(urls, vec!["https://hydrafetch.com".to_string()]);
+}
+#[test]
+fn urls_invalid_after_normalisation_are_dropped_and_unsupported_ones_rejected() {
+    let (urls, result) = normalized(&["not a url", "ftp://pahunchi.netlify.app", "localhost"]);
+    assert!(urls.is_empty());
+    assert_eq!(result, Ok(()));
+    let (_, result) = normalized(&["other.test"]);
+    assert_eq!(
+        result,
+        Err("URL absent from source: source 301, url \"https://other.test\"".into())
+    );
+}
 #[test]
 fn validation_still_rejects_unsupported_urls_and_evidence() {
     for url in [
         "https://other.test/",
         "https://pahunchi.netlify.app/x",
-        "http://pahunchi.netlify.app",
+        "https://other.test/pahunchi.netlify.app",
     ] {
         let mut m = escaped_mention();
         m.urls = vec![url.into()];
@@ -1515,4 +1563,78 @@ fn export_writes_only_the_sqlite_snapshot_manifest_and_pointer() {
         names(&destination.join("snapshots").join(&version)),
         ["manifest.json", "public.sqlite"]
     );
+}
+
+/// HN item 41967936 ends with a URL typed with backslashes.
+struct BackslashApi;
+impl HnApi for BackslashApi {
+    fn fetch_item(&self, id: i64) -> Result<Option<Value>, FetchError> {
+        Ok(Some(match id {
+            41967000 => json!({"id":41967000,"kids":[41967936]}),
+            41967936 => json!({"id":41967936,"parent":41967000,"by":"cw","time":3000,
+                "text":"Works on phones but better on a large screen. https:\\\\www.coolweird.net"}),
+            _ => panic!("unexpected {id}"),
+        }))
+    }
+}
+fn validated_backslash(url: &str) -> Result<(), String> {
+    let dir = tempdir().unwrap();
+    let mut store = Store::open(dir.path().join("db.sqlite")).unwrap();
+    Collector::new(BackslashApi, CollectionConfig::default())
+        .collect(&mut store, 41967000)
+        .unwrap();
+    let item = store.get_item(41967936).unwrap().unwrap();
+    let mut m = mention(41967936, Some("Coolweird"), Some(url), "A weird site");
+    m.source_excerpt = "Works on phones but better on a large screen.".into();
+    let mut extraction = Extraction { mentions: vec![m] };
+    extraction.normalize_urls();
+    let source = BTreeMap::from([(41967936, &item)]);
+    validate(&extraction, &BTreeSet::from([41967936]), &source)
+}
+#[test]
+fn backslash_scheme_in_source_supports_the_normal_url() {
+    assert_eq!(validated_backslash("https://www.coolweird.net/"), Ok(()));
+    assert_eq!(validated_backslash(r"https:\\www.coolweird.net"), Ok(()));
+    assert_eq!(
+        validated_backslash("https://www.other.net/"),
+        Err("URL absent from source: source 41967936, url \"https://www.other.net/\"".into())
+    );
+}
+
+/// Real stored texts: a scheme-less domain after `Name(` and an author's own
+/// `h ttps://` obfuscation.
+struct TextApi(&'static str);
+impl HnApi for TextApi {
+    fn fetch_item(&self, id: i64) -> Result<Option<Value>, FetchError> {
+        Ok(Some(match id {
+            50000 => json!({"id":50000,"kids":[50001]}),
+            50001 => json!({"id":50001,"parent":50000,"by":"a","time":3000,"text":self.0}),
+            _ => panic!("unexpected {id}"),
+        }))
+    }
+}
+fn validated_text(text: &'static str, url: &str) -> Result<(), String> {
+    let dir = tempdir().unwrap();
+    let mut store = Store::open(dir.path().join("db.sqlite")).unwrap();
+    Collector::new(TextApi(text), CollectionConfig::default())
+        .collect(&mut store, 50000)
+        .unwrap();
+    let item = store.get_item(50001).unwrap().unwrap();
+    let mut m = mention(50001, Some("P"), Some(url), "A project");
+    m.source_excerpt = "a".into();
+    let mut extraction = Extraction { mentions: vec![m] };
+    extraction.normalize_urls();
+    let source = BTreeMap::from([(50001, &item)]);
+    validate(&extraction, &BTreeSet::from([50001]), &source)
+}
+#[test]
+fn wrapped_scheme_less_domain_and_split_scheme_support_the_url() {
+    let reify = "a I am building ReifyDB(reifydb.com), a database for live application state.";
+    assert_eq!(validated_text(reify, "https://reifydb.com"), Ok(()));
+    assert!(validated_text(reify, "https://other.com").is_err());
+    assert!(validated_text("a word foo(bar) here", "https://bar.com").is_err());
+    let split = "a - h ttps://github.com/rumca-js/Internet-Places-Database - Internet places ...";
+    let url = "https://github.com/rumca-js/Internet-Places-Database";
+    assert_eq!(validated_text(split, url), Ok(()));
+    assert!(validated_text(split, "https://github.com/rumca-js/Other").is_err());
 }

@@ -50,7 +50,7 @@ New migration 008; `LATEST_SCHEMA_VERSION` becomes 8. `tests/storage.rs` asserts
 
 - **Coverage table**, keyed by command and unit (`YYYY-MM` or `YYYY-MM-DD`): state (`pending`, `in_progress`, `done`, `failed`), attempts, timestamps, last run ID. A unit is `done` only when discovery succeeded and every item in it was collected and processed successfully (approval per policy). Empty units (no discussion, no stories) are marked `done` so they are not searched again. Show HN non-qualifying stories (no `thread_extraction_modes` row) are covered by their day being `done` and are not rescanned. Head units are revisited every run while inside the head window regardless of state; once they leave it, their last state stands and an unfinished one is resumed.
 - **Queue rows** under each unit for items (thread or story IDs), unique key (command, kind, key), so a run killed mid-unit resumes without rediscovery. Existing per-group fingerprints keep redoing work safe.
-- **Retries**: failed units and items are retried on later runs up to a fixed attempt cap (constant, 3). After that they stay `failed` and the end report lists them as needing manual action (for example `wrkgn collect --thread`).
+- **Retries**: failed units and items are retried on later runs up to a fixed attempt cap (constant, 3). After that they stay `failed` and the end report lists them as needing manual action, one line per failed thread (or story for Show HN) with its ID and a truncated error (about 120 characters); `wrkgn runs list` shows the same. The maintainer resolves an exhausted unit locally with `wrkgn runs` (migration 009, below): `retry` resets attempts and failed queue items, `acknowledge` (with an optional note) skips it, and `unacknowledge` reverses that. A unit fixed by hand with `wrkgn collect --thread` then `wrkgn process --thread` is detected and reopened by the next default run.
 - **Run table**: command, timestamps, status (`completed`, `limit_reached`, `interrupted`, `stopped_on_failure`, `killed_detected`) and counts.
 - **Run-error table**: run ID, normalized signature, stage, kind, count, first and last item IDs, one full sample message. Size is capped; no payloads, prompts or credentials.
 - Show HN days with more stories than `--batch-size` use the existing `Batches` inclusive cursor within the day window.
@@ -78,7 +78,7 @@ The first Ctrl-C or SIGTERM sets a flag. The run stops at the next item boundary
 ### Exit codes
 
 - 0: completed or limit reached with no failures.
-- 1: failures occurred, or a setup error (as today).
+- 1: failures occurred, or a setup error (as today). Units exhausted in earlier runs keep exit 1 until resolved (retried, fixed by hand, or acknowledged; acknowledged units no longer count); the report header explains it, for example `Exit code: 1 (4 units need manual action, all from earlier runs; 0 errors this run)`, distinguishing units exhausted this run from carried-over ones.
 - 2: stopped on failure (circuit breaker).
 - 130: interrupted.
 
@@ -88,7 +88,7 @@ Nonzero only when attention is needed.
 
 1. **Live status.** One line with phase, unit, item and counts. On a TTY it is rewritten in place; otherwise plain lines at most once per item batch or 30 seconds. It composes with the existing processing `Status`.
 2. **End-of-run report**, on every ending, as pasteable Markdown, in this order:
-   - outcome and exit reason;
+   - outcome and exit reason; a `limit_reached` outcome names what applied (`thread cap reached (5/5)`, `more backfill remains (next: 2022-02)`, or both), and remaining backfill is expected on most default runs;
    - errors grouped by normalized signature (digits, IDs and URLs stripped, replacing `failure_kind`'s 80-character fallback) with stage, kind, count, first and last IDs and one full sample;
    - work done: units covered, items collected, processed and approved, exported snapshot;
    - what remains: pending and failed units, and what the next run will do.
@@ -144,8 +144,10 @@ Update `MANAGE.md`, `docs/development.md`, the maintainer-workflow paragraph in 
 - Ctrl-C or SIGTERM stops at the next item boundary, exports, reports and exits 130.
 - Every ending prints a report with errors grouped by signature and full samples.
 - Failed units retry up to the attempt cap and are then listed for manual action.
+- `wrkgn runs acknowledge` removes an exhausted unit from failures and the exit code while a separate report line (`Acknowledged (skipped): 2 units: 2026-03, 2026-05`) keeps it visible; resume does not retry it and it is never counted done. `unacknowledge` restores it; `retry` resets attempts and failed queue items so the next default run retries it. Mutations refuse while the command's lock is held.
+- After a manual `wrkgn collect --thread` and `wrkgn process --thread` of every failed thread of an exhausted unit, the next default run reopens the unit (details below).
 - Monthly `--from/--through`, Show HN `--from/--through` and Show HN `--thread` behave as before apart from bypassing head and backfill, coverage, queue use and the report.
-- No log files are written; `LATEST_SCHEMA_VERSION` is 8 and storage tests are updated.
+- No log files are written; `LATEST_SCHEMA_VERSION` is 9 (migration 008 tables; migration 009 adds acknowledgement) and storage tests are updated.
 
 ## Validation
 
@@ -153,7 +155,15 @@ Offline fixtures for automated checks. Before cron, the maintainer runs a short 
 
 Implementation note: offline fixture and fake tests in `tests/run_*.rs` (with `tests/common/`) cover the lock, breaker, report, monthly and Show HN drivers. Gates passed: asset build, `cargo fmt`, `cargo clippy` (only the existing `too_many_arguments` warning at `crates/wrkgn-web/src/server.rs:118`) and `cargo test`. No live collection or LLM calls ran during implementation; the live pilot remains pending before cron.
 
-Implementation decisions: Show HN has no seed of Epic 07 data, so backfill may re-collect those days; `--thread` is item-level and changes no day coverage; monthly `--from` alone keeps its earlier 24-month meaning; a discovery failure fails the whole unit with no partial queue; exhausted units keep exit code 1 until resolved.
+Implementation decisions: Show HN has no seed of Epic 07 data, so backfill may re-collect those days; `--thread` is item-level and changes no day coverage; monthly `--from` alone keeps its earlier 24-month meaning; a discovery failure fails the whole unit with no partial queue; exhausted units keep exit code 1 until resolved, and `wrkgn runs` is the resolution path.
+
+### Resolving exhausted units (migration 009, `wrkgn runs`)
+
+Migration 009 adds `coverage_units.acknowledged_at` and `acknowledged_note` (at most 500 characters). Acknowledgement applies only to `failed` units, leaves state and attempts as they are, and is cleared by any later attempt of the unit (an explicit `--from/--through` run, or `retry`). Acknowledged units are skipped by resume and by the head re-walk, are not backfilled again, are not coverage-done, and do not count toward `has_failures` or the exit code; the report lists them as `Acknowledged (skipped)`.
+
+Syntax: `wrkgn runs list|acknowledge|unacknowledge|retry --command monthly|show-hn [--unit YYYY-MM|YYYY-MM-DD] [--note TEXT] [--db PATH]`. All are local with no network or model calls; `list` is read-only, the others take the command's run lock and fail while a run holds it. Unknown, invalid or wrongly stated units are rejected with a message.
+
+Manual success: `wrkgn collect --thread` and `wrkgn process --thread` write only source and processing tables and never touch `coverage_units` or `run_queue`, so the unit stays exhausted. At the start of a default run (before planning) the driver checks each non-acknowledged exhausted unit: if every failed queue item's thread has a complete latest collection run and a complete latest processing run that started at or after the item's failure time (`process --thread` itself requires a complete collection, and the reopened run re-collects anyway), the unit is reopened exactly like `retry` and a note is printed. The same run then re-collects it, skips already-extracted groups without model calls, approves per policy and exports, so approval is not skipped. Partial fixes (some threads still failing) leave the unit exhausted. Explicit `wrkgn runs retry` remains for causes fixed outside the manual commands, such as a provider issue.
 
 ## Boundaries
 

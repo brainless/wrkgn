@@ -7,6 +7,7 @@ pub mod control;
 pub mod driver;
 pub mod errors;
 pub mod lock;
+pub mod manage;
 pub mod report;
 pub mod signals;
 pub mod status;
@@ -19,7 +20,7 @@ use crate::store::{RunCounts, Store};
 pub use control::{Api, BREAKER_THRESHOLD, Breaker, RunControl};
 pub use errors::{ErrorGroup, ErrorLog};
 pub use lock::{LockError, RunLock};
-pub use report::{Outcome, RunSummary, render_report, write_report};
+pub use report::{LimitInfo, Outcome, RunSummary, render_report, write_report};
 
 /// A unit or item that fails this many attempts stays `failed` and is listed
 /// for manual action.

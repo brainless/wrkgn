@@ -81,7 +81,13 @@ pub struct CoverageUnit {
     pub completed_at: Option<i64>,
     pub last_run_id: Option<i64>,
     pub last_error: Option<String>,
+    /// Set when the maintainer acknowledged (skipped) this failed unit.
+    pub acknowledged_at: Option<i64>,
+    pub acknowledged_note: Option<String>,
 }
+
+/// Longest stored acknowledgement note (characters); matches the column CHECK.
+pub const NOTE_MAX_CHARS: usize = 500;
 
 /// Queue rows of one unit by state.
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Default)]
@@ -179,7 +185,7 @@ pub struct ItemUpdate<'a> {
 }
 
 const UNIT_COLUMNS: &str = "command, unit_key, state, attempts, first_seen_at, updated_at,
-     completed_at, last_run_id, last_error";
+     completed_at, last_run_id, last_error, acknowledged_at, acknowledged_note";
 
 fn read_unit(row: &rusqlite::Row<'_>) -> rusqlite::Result<CoverageUnit> {
     let state: String = row.get(2)?;
@@ -193,6 +199,8 @@ fn read_unit(row: &rusqlite::Row<'_>) -> rusqlite::Result<CoverageUnit> {
         completed_at: row.get(6)?,
         last_run_id: row.get(7)?,
         last_error: row.get(8)?,
+        acknowledged_at: row.get(9)?,
+        acknowledged_note: row.get(10)?,
     })
 }
 
@@ -313,7 +321,8 @@ impl Store {
         ensure_unit(&transaction, command, unit, now)?;
         transaction.execute(
             "UPDATE coverage_units SET state = 'in_progress', attempts = attempts + 1,
-                 updated_at = ?3, last_run_id = ?4
+                 updated_at = ?3, last_run_id = ?4,
+                 acknowledged_at = NULL, acknowledged_note = NULL
              WHERE command = ?1 AND unit_key = ?2",
             params![command, unit, now, run_id],
         )?;
@@ -397,6 +406,22 @@ impl Store {
         Ok(counts)
     }
 
+    /// Failed queue items of a unit as `(item id, last error)`, in queue order.
+    pub fn failed_items(
+        &self,
+        command: &str,
+        unit: &str,
+    ) -> rusqlite::Result<Vec<(i64, Option<String>)>> {
+        let mut statement = self.connection.prepare(
+            "SELECT item_id, last_error FROM run_queue
+             WHERE command = ?1 AND unit_key = ?2 AND state = 'failed'
+             ORDER BY position, item_id",
+        )?;
+        statement
+            .query_map(params![command, unit], |row| Ok((row.get(0)?, row.get(1)?)))?
+            .collect()
+    }
+
     /// Creates a unit with already-known items unless the unit exists. Returns
     /// whether it was created; an existing unit is never changed.
     pub fn seed_unit(
@@ -472,6 +497,7 @@ impl Store {
     }
 
     /// Failed units that used all their attempts and need manual action.
+    /// Acknowledged units are listed by `acknowledged_units` instead.
     pub fn exhausted_units(
         &self,
         command: &str,
@@ -479,11 +505,157 @@ impl Store {
     ) -> rusqlite::Result<Vec<CoverageUnit>> {
         let mut statement = self.connection.prepare(&format!(
             "SELECT {UNIT_COLUMNS} FROM coverage_units
-             WHERE command = ?1 AND state = 'failed' AND attempts >= ?2 ORDER BY unit_key"
+             WHERE command = ?1 AND state = 'failed' AND attempts >= ?2
+               AND acknowledged_at IS NULL ORDER BY unit_key"
         ))?;
         statement
             .query_map(params![command, max_attempts], read_unit)?
             .collect()
+    }
+
+    /// Failed units the maintainer acknowledged, ordered by key.
+    pub fn acknowledged_units(&self, command: &str) -> rusqlite::Result<Vec<CoverageUnit>> {
+        let mut statement = self.connection.prepare(&format!(
+            "SELECT {UNIT_COLUMNS} FROM coverage_units
+             WHERE command = ?1 AND state = 'failed' AND acknowledged_at IS NOT NULL
+             ORDER BY unit_key"
+        ))?;
+        statement.query_map([command], read_unit)?.collect()
+    }
+
+    /// Every unit of a command, ordered by key.
+    pub fn all_units(&self, command: &str) -> rusqlite::Result<Vec<CoverageUnit>> {
+        let mut statement = self.connection.prepare(&format!(
+            "SELECT {UNIT_COLUMNS} FROM coverage_units WHERE command = ?1 ORDER BY unit_key"
+        ))?;
+        statement.query_map([command], read_unit)?.collect()
+    }
+
+    /// Marks a `failed` unit acknowledged (`Some((note, now))`) or clears the
+    /// mark (`None`). Returns whether a failed unit was changed; the state and
+    /// attempts are untouched.
+    pub fn set_unit_acknowledgement(
+        &mut self,
+        command: &str,
+        unit: &str,
+        acknowledgement: Option<(&str, i64)>,
+    ) -> rusqlite::Result<bool> {
+        let (note, at) = match acknowledgement {
+            Some((note, now)) if !note.is_empty() => (Some(cap(note, NOTE_MAX_CHARS)), Some(now)),
+            Some((_, now)) => (None, Some(now)),
+            None => (None, None),
+        };
+        Ok(self.connection.execute(
+            "UPDATE coverage_units SET acknowledged_at = ?3, acknowledged_note = ?4
+             WHERE command = ?1 AND unit_key = ?2 AND state = 'failed'",
+            params![command, unit, at, note],
+        )? > 0)
+    }
+
+    /// Reopens a `failed` unit for the next default run: attempts return to 0,
+    /// the acknowledgement is cleared, its failed queue items become pending
+    /// with no attempts, and the unit is `pending`. Done and pending items are
+    /// untouched. Returns the number of queue items reset, or `None` when the
+    /// unit is not failed.
+    pub fn reset_failed_unit(
+        &mut self,
+        command: &str,
+        unit: &str,
+        now: i64,
+    ) -> rusqlite::Result<Option<usize>> {
+        let transaction = self.connection.transaction()?;
+        let changed = transaction.execute(
+            "UPDATE coverage_units SET state = 'pending', attempts = 0, last_error = NULL,
+                 acknowledged_at = NULL, acknowledged_note = NULL, updated_at = ?3
+             WHERE command = ?1 AND unit_key = ?2 AND state = 'failed'",
+            params![command, unit, now],
+        )?;
+        if changed == 0 {
+            return Ok(None);
+        }
+        let items = transaction.execute(
+            "UPDATE run_queue SET state = 'pending', attempts = 0, last_error = NULL,
+                 updated_at = ?3
+             WHERE command = ?1 AND unit_key = ?2 AND state = 'failed'",
+            params![command, unit, now],
+        )?;
+        transaction.commit()?;
+        Ok(Some(items))
+    }
+
+    /// Detects exhausted units whose failed items were settled by a manual
+    /// `wrkgn collect --thread` then `wrkgn process --thread`: for every failed
+    /// item the latest collection of the thread is complete and the latest
+    /// processing run is complete and started at or after the item last
+    /// failed (`process --thread` itself requires a complete collection). Such
+    /// a unit is reopened like
+    /// `reset_failed_unit`, so the next pass re-collects and approves the
+    /// threads and skips already-extracted groups without model calls.
+    /// Acknowledged units are left alone. Returns the reopened unit keys.
+    pub fn reopen_manually_resolved_units(
+        &mut self,
+        command: &str,
+        max_attempts: u32,
+        now: i64,
+    ) -> rusqlite::Result<Vec<String>> {
+        let candidates = self.exhausted_units(command, max_attempts)?;
+        let mut reopened = Vec::new();
+        for unit in candidates {
+            let mut statement = self.connection.prepare(
+                "SELECT item_id, updated_at FROM run_queue
+                 WHERE command = ?1 AND unit_key = ?2 AND state = 'failed'",
+            )?;
+            let failed = statement
+                .query_map(params![command, unit.unit_key], |row| {
+                    Ok((row.get::<_, i64>(0)?, row.get::<_, i64>(1)?))
+                })?
+                .collect::<rusqlite::Result<Vec<_>>>()?;
+            drop(statement);
+            if failed.is_empty() {
+                continue;
+            }
+            let mut settled = true;
+            for (item, failed_at) in failed {
+                if !self.manually_settled(item, failed_at)? {
+                    settled = false;
+                    break;
+                }
+            }
+            if settled
+                && self
+                    .reset_failed_unit(command, &unit.unit_key, now)?
+                    .is_some()
+            {
+                reopened.push(unit.unit_key);
+            }
+        }
+        Ok(reopened)
+    }
+
+    fn manually_settled(&self, thread: i64, failed_at: i64) -> rusqlite::Result<bool> {
+        let collected: Option<String> = self
+            .connection
+            .query_row(
+                "SELECT status FROM collection_runs
+                 WHERE id = (SELECT MAX(id) FROM collection_runs WHERE thread_id = ?1)",
+                params![thread],
+                |row| row.get(0),
+            )
+            .optional()?;
+        if collected.as_deref() != Some("complete") {
+            return Ok(false);
+        }
+        let processed: Option<String> = self
+            .connection
+            .query_row(
+                "SELECT status FROM processing_runs
+                 WHERE thread_id = ?1 AND started_at >= ?2
+                   AND id = (SELECT MAX(id) FROM processing_runs WHERE thread_id = ?1)",
+                params![thread, failed_at],
+                |row| row.get(0),
+            )
+            .optional()?;
+        Ok(processed.as_deref() == Some("complete"))
     }
 
     /// Ensures the unit exists and queues new items; existing items keep their

@@ -158,3 +158,84 @@ fn invalid_arguments_and_help_do_not_fetch_or_create_database() {
     assert_eq!(api.calls.load(Ordering::SeqCst), 0);
     assert!(!path.exists());
 }
+
+#[test]
+fn runs_commands_manage_a_failed_unit_offline() {
+    let dir = tempdir().unwrap();
+    let db = dir.path().join("runs.sqlite");
+    let db_arg = db.display().to_string();
+    {
+        let mut store = Store::open(&db).unwrap();
+        let run = store.begin_driver_run("show_hn", 1, 10).unwrap();
+        for _ in 0..3 {
+            store
+                .begin_unit_attempt("show_hn", "2026-09-01", run, 11)
+                .unwrap();
+        }
+        store
+            .finish_unit(&wrkgn::store::UnitUpdate {
+                command: "show_hn",
+                unit: "2026-09-01",
+                state: wrkgn::store::UnitState::Failed,
+                run_id: Some(run),
+                error: Some("boom"),
+                now: 12,
+            })
+            .unwrap();
+    }
+    let api = FixtureApi {
+        calls: AtomicUsize::new(0),
+        missing_child: false,
+    };
+    let runs = |extra: &[&str]| {
+        let mut args: Vec<String> = ["runs"].iter().map(|s| s.to_string()).collect();
+        args.extend(extra.iter().map(|s| s.to_string()));
+        args.extend(["--db".into(), db_arg.clone()]);
+        let (mut out, mut err) = (Vec::new(), Vec::new());
+        let code = run_with_api(&args, &api, &mut out, &mut err).unwrap();
+        (
+            code,
+            String::from_utf8(out).unwrap(),
+            String::from_utf8(err).unwrap(),
+        )
+    };
+    let (code, out, _) = runs(&["list", "--command", "show-hn"]);
+    assert_eq!(code, 0);
+    assert!(out.contains("2026-09-01  exhausted"), "{out}");
+    let (code, out, _) = runs(&[
+        "acknowledge",
+        "--command",
+        "show-hn",
+        "--unit",
+        "2026-09-01",
+        "--note",
+        "dead story",
+    ]);
+    assert_eq!(code, 0, "{out}");
+    let (_, out, _) = runs(&["list", "--command", "show-hn"]);
+    assert!(
+        out.contains("acknowledged") && out.contains("note: dead story"),
+        "{out}"
+    );
+    let (code, _, err) = runs(&[
+        "unacknowledge",
+        "--command",
+        "show-hn",
+        "--unit",
+        "2026-13-40",
+    ]);
+    assert_eq!(code, 1);
+    assert!(err.contains("invalid unit"), "{err}");
+    let (code, _, err) = runs(&["retry", "--command", "monthly", "--unit", "2026-09"]);
+    assert_eq!(code, 1);
+    assert!(err.contains("unknown unit"), "{err}");
+    let (code, out, _) = runs(&["retry", "--command", "show-hn", "--unit", "2026-09-01"]);
+    assert_eq!(code, 0, "{out}");
+    let (_, out, _) = runs(&["list", "--command", "show-hn"]);
+    assert!(out.contains("2026-09-01  pending  0/3 attempts"), "{out}");
+    assert_eq!(
+        api.calls.load(Ordering::SeqCst),
+        0,
+        "runs makes no HN calls"
+    );
+}

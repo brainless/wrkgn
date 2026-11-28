@@ -83,6 +83,16 @@ pub trait ExtractionPolicy: Sync {
         batch: &Batch,
         unit: &ProcessingUnit<'_>,
     ) -> Result<(), String>;
+    /// Repair obvious URL artifacts in place, then validate.
+    fn validate_normalized(
+        &self,
+        output: &mut Extraction,
+        batch: &Batch,
+        unit: &ProcessingUnit<'_>,
+    ) -> Result<(), String> {
+        output.normalize_urls();
+        self.validate(output, batch, unit)
+    }
 }
 
 pub struct MonthlyPolicy;
@@ -239,10 +249,74 @@ fn quoted(text: &str, quote: &str) -> bool {
     let quote = fold(quote);
     !quote.is_empty() && fold(text).contains(&quote)
 }
-/// Lowercase scheme (if any) and a key of lowercase host plus the rest of the
-/// URL without a trailing slash.
+/// Repair obvious, safe model artifacts in one URL: remove all whitespace and
+/// add `https://` to a scheme-less value. Returns `None` (the caller drops the
+/// field) when the result is still not an http(s) URL with a dotted host.
+pub(crate) fn normalize_url(raw: &str) -> Option<String> {
+    let compact: String = fix_scheme_backslashes(raw)
+        .chars()
+        .filter(|c| !c.is_whitespace())
+        .collect();
+    let lower = compact.to_ascii_lowercase();
+    let candidate = if lower.starts_with("https://") {
+        format!("https://{}", &compact[8..])
+    } else if lower.starts_with("http://") {
+        format!("http://{}", &compact[7..])
+    } else if compact.contains("://") || compact.starts_with("//") || lower.starts_with("mailto:") {
+        return None;
+    } else {
+        format!("https://{compact}")
+    };
+    let parsed = url::Url::parse(&candidate).ok()?;
+    let host = parsed.host_str()?;
+    (matches!(parsed.scheme(), "http" | "https") && host.contains('.')).then_some(candidate)
+}
+impl Extraction {
+    /// Normalise each mention's URLs, dropping only the ones that remain
+    /// invalid (URLs are optional) and removing duplicates. Provenance is
+    /// still checked afterwards against the source.
+    pub fn normalize_urls(&mut self) {
+        for mention in &mut self.mentions {
+            let mut kept: Vec<String> = Vec::new();
+            for url in mention.urls.iter().filter_map(|u| normalize_url(u)) {
+                if !kept.contains(&url) {
+                    kept.push(url);
+                }
+            }
+            mention.urls = kept;
+        }
+    }
+}
+/// Treat `http:\\`, `https:\\` (any case, one or more backslashes) as
+/// `http://` / `https://`. Only a scheme immediately followed by backslashes
+/// changes; backslashes elsewhere are left alone.
+fn fix_scheme_backslashes(s: &str) -> String {
+    let mut out = String::with_capacity(s.len());
+    let mut rest = s;
+    while let Some(at) = rest.find('\\') {
+        let before = &rest[..at];
+        let is_scheme = ["https:", "http:"].iter().any(|sc| {
+            before.len() >= sc.len()
+                && before.is_char_boundary(before.len() - sc.len())
+                && before[before.len() - sc.len()..].eq_ignore_ascii_case(sc)
+        });
+        let slashes = rest[at..].len() - rest[at..].trim_start_matches('\\').len();
+        out.push_str(before);
+        if is_scheme {
+            out.push_str("//");
+        } else {
+            out.push_str(&rest[at..at + slashes]);
+        }
+        rest = &rest[at + slashes..];
+    }
+    out.push_str(rest);
+    out
+}
+/// Lowercase scheme (if any) and a key of lowercase host (without a leading
+/// `www.`) plus the rest of the URL without a trailing slash.
 fn url_parts(url: &str) -> (Option<String>, String) {
-    let url = url.trim();
+    let fixed = fix_scheme_backslashes(url);
+    let url = fixed.trim();
     let (scheme, rest) = match url.split_once("://") {
         Some((scheme, rest)) if scheme.chars().all(|c| c.is_ascii_alphanumeric()) => {
             (Some(scheme.to_ascii_lowercase()), rest)
@@ -250,9 +324,10 @@ fn url_parts(url: &str) -> (Option<String>, String) {
         _ => (None, url),
     };
     let host_end = rest.find(['/', '?', '#']).unwrap_or(rest.len());
+    let host = rest[..host_end].to_ascii_lowercase();
     let key = format!(
         "{}{}",
-        rest[..host_end].to_ascii_lowercase(),
+        host.strip_prefix("www.").unwrap_or(&host),
         &rest[host_end..]
     );
     (scheme, key.trim_end_matches('/').to_string())
@@ -260,6 +335,10 @@ fn url_parts(url: &str) -> (Option<String>, String) {
 /// URLs and bare domains in plain text, tolerating surrounding punctuation.
 fn text_urls(texts: &[String]) -> Vec<(Option<String>, String)> {
     let mut found = Vec::new();
+    let texts: Vec<String> = texts
+        .iter()
+        .map(|t| fix_split_scheme(&fix_scheme_backslashes(t)))
+        .collect();
     for token in texts.iter().flat_map(|t| t.split_whitespace()) {
         // HN anchors need not have spaces around them: plain_text can produce
         // `Name(https://example.org)` or `[1]https://example.org`. Locate the
@@ -281,21 +360,59 @@ fn text_urls(texts: &[String]) -> Vec<(Option<String>, String)> {
             _ => token,
         };
         let token = token.trim_start_matches(['(', '<', '[', '"', '\'']);
-        found.push(url_parts(token.trim_end_matches([
-            '.', ',', ';', ':', '!', '?', ')', ']', '>', '"', '\'',
-        ])));
-        found.push(url_parts(
-            token.trim_end_matches(['.', ',', ';', ':', '!', '?', '>', '"', '\'']),
-        ));
+        push_token_urls(&mut found, token);
+        // `Name(example.org),` has no scheme to anchor on; also try the text
+        // after the last wrapper. Matching still needs an exact host/path key.
+        if !token.contains("://")
+            && let Some(at) = token.rfind(['(', '[', '<'])
+        {
+            let inner = token[at + 1..].trim_start_matches(['(', '<', '[', '"', '\'']);
+            if inner.contains('.') {
+                push_token_urls(&mut found, inner);
+            }
+        }
     }
     found
 }
+fn push_token_urls(found: &mut Vec<(Option<String>, String)>, token: &str) {
+    found.push(url_parts(token.trim_end_matches([
+        '.', ',', ';', ':', '!', '?', ')', ']', '>', '"', '\'',
+    ])));
+    found.push(url_parts(
+        token.trim_end_matches(['.', ',', ';', ':', '!', '?', '>', '"', '\'']),
+    ));
+}
+/// Join an author's `h ttps://` / `h ttp://` obfuscation into a real scheme.
+/// The `h` must start the text or follow a non-alphanumeric character.
+fn fix_split_scheme(s: &str) -> String {
+    let b = s.as_bytes();
+    let mut out = String::with_capacity(s.len());
+    let (mut i, mut last) = (0, 0);
+    while i < b.len() {
+        if b[i].eq_ignore_ascii_case(&b'h')
+            && (i == 0 || !b[i - 1].is_ascii_alphanumeric())
+            && b.get(i + 1) == Some(&b' ')
+            && let Some(sc) = ["ttps://", "ttp://"].into_iter().find(|sc| {
+                b.len() >= i + 2 + sc.len()
+                    && b[i + 2..i + 2 + sc.len()].eq_ignore_ascii_case(sc.as_bytes())
+            })
+        {
+            out.push_str(&s[last..i + 1]);
+            last = i + 2;
+            i += 2 + sc.len();
+            continue;
+        }
+        i += 1;
+    }
+    out.push_str(&s[last..]);
+    out
+}
 fn url_supported(url: &str, found: &[(Option<String>, String)]) -> bool {
-    let (scheme, key) = url_parts(url);
-    if found
-        .iter()
-        .any(|(s, k)| *k == key && (s.is_none() || *s == scheme))
-    {
+    // http, https and no scheme compare equal; any other prefix (such as the
+    // `prefixhttps` of an embedded URL) is not a link to this URL.
+    let web = |s: &Option<String>| s.as_deref().is_none_or(|s| s == "http" || s == "https");
+    let (_, key) = url_parts(url);
+    if found.iter().any(|(s, k)| *k == key && web(s)) {
         return true;
     }
     // Only permit an origin derived from multiple distinct paths on the same
@@ -318,7 +435,7 @@ fn url_supported(url: &str, found: &[(Option<String>, String)]) -> bool {
     }
     found
         .iter()
-        .filter(|(s, k)| s == &scheme && k.starts_with(&format!("{key}/")))
+        .filter(|(s, k)| web(s) && k.starts_with(&format!("{key}/")))
         .map(|(_, k)| k)
         .collect::<BTreeSet<_>>()
         .len()
@@ -467,6 +584,47 @@ pub fn validate(
 mod tests {
     use super::*;
     #[test]
+    fn backslash_schemes_are_read_as_slashes() {
+        let comment =
+            r"Works on phones but better on a large screen. https:\\www.coolweird.net".to_string();
+        assert!(url_supported_by_text(
+            "https://www.coolweird.net/",
+            std::slice::from_ref(&comment)
+        ));
+        assert!(!url_supported_by_text("https://www.other.net/", &[comment]));
+        for src in [r"HTTP:\\a.test/x\y", r"https:\a.test/x\y"] {
+            assert!(url_supported_by_text(r"https://a.test/x\y", &[src.into()]));
+        }
+        assert_eq!(
+            normalize_url(r"https:\\www.coolweird.net").as_deref(),
+            Some("https://www.coolweird.net")
+        );
+        assert_eq!(fix_scheme_backslashes(r"a\\b c:\d"), r"a\\b c:\d");
+    }
+    #[test]
+    fn scheme_less_domain_after_wrapper_and_split_scheme_are_supported() {
+        let a = "I am building ReifyDB(reifydb.com), a database for live application state.";
+        assert!(url_supported_by_text("https://reifydb.com", &[a.into()]));
+        assert!(!url_supported_by_text("https://other.com", &[a.into()]));
+        assert!(!url_supported_by_text(
+            "https://example.com",
+            &["a word foo(bar) here".into()]
+        ));
+        let b = "- h ttps://github.com/rumca-js/Internet-Places-Database - Internet places";
+        let u = "https://github.com/rumca-js/Internet-Places-Database";
+        assert!(url_supported_by_text(u, &[b.into()]));
+        assert!(!url_supported_by_text(
+            "https://github.com/rumca-js/Other",
+            &[b.into()]
+        ));
+        assert_eq!(
+            fix_split_scheme("H TTP://a.test"),
+            "H TTP://a.test".replace("H TTP", "HTTP")
+        );
+        assert_eq!(fix_split_scheme("ah ttps://a.test"), "ah ttps://a.test");
+        assert_eq!(fix_split_scheme("go h ttp://a.test"), "go http://a.test");
+    }
+    #[test]
     fn links_attached_to_labels_and_footnotes_are_supported() {
         for (source, url) in [
             (
@@ -489,7 +647,8 @@ mod tests {
         }
         let found = text_urls(&["Name(http://example.test/path)".into()]);
         assert!(url_supported("http://example.test/path", &found));
-        assert!(!url_supported("https://example.test/path", &found));
+        assert!(url_supported("https://www.example.test/path/", &found));
+        assert!(!url_supported("https://example.test/other", &found));
     }
     #[test]
     fn embedded_urls_do_not_become_separate_source_links() {
@@ -512,7 +671,7 @@ mod tests {
             text_urls(&["https://example.org/demo https://example.org/examples/one".into()]);
         assert!(url_supported("https://example.org", &found));
         assert!(!url_supported("https://other.org", &found));
-        assert!(!url_supported("http://example.org", &found));
+        assert!(url_supported("http://www.EXAMPLE.org", &found));
         let one = text_urls(&["https://example.org/demo".into()]);
         assert!(!url_supported("https://example.org", &one));
         let hosted =

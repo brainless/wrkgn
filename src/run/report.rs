@@ -2,11 +2,58 @@
 //! It contains only normalized signatures and redacted samples: no payloads,
 //! prompts or credentials.
 
+use std::collections::BTreeMap;
 use std::io::{self, Write};
 
 use super::MAX_UNIT_ATTEMPTS;
 use super::control::{Api, BREAKER_THRESHOLD};
 use super::errors::ErrorGroup;
+
+/// One failed queue item of a unit (`id` is `None` for a unit-level error).
+#[derive(Debug, Clone, PartialEq, Eq)]
+pub struct FailedItem {
+    pub id: Option<i64>,
+    pub error: String,
+}
+
+const ERROR_SHOWN_CHARS: usize = 120;
+const ITEMS_SHOWN_PER_UNIT: usize = 5;
+
+/// Single-line, truncated error text for a manual-action list.
+pub fn short_error(error: &str) -> String {
+    let flat = error.split_whitespace().collect::<Vec<_>>().join(" ");
+    if flat.chars().count() > ERROR_SHOWN_CHARS {
+        let cut: String = flat.chars().take(ERROR_SHOWN_CHARS).collect();
+        format!("{cut}...")
+    } else {
+        flat
+    }
+}
+
+/// One `{unit}: {label} {id}: {error}` line per failed item (at most five per
+/// unit, then a count of the rest), each prefixed with `indent` and `- `.
+pub fn failure_lines(unit: &str, label: &str, failures: &[FailedItem], indent: &str) -> String {
+    let mut out = String::new();
+    if failures.is_empty() {
+        out.push_str(&format!("{indent}- {unit}\n"));
+    }
+    for failure in failures.iter().take(ITEMS_SHOWN_PER_UNIT) {
+        let what = failure
+            .id
+            .map_or_else(String::new, |id| format!("{label} {id}: "));
+        out.push_str(&format!(
+            "{indent}- {unit}: {what}{}\n",
+            inline(&short_error(&failure.error))
+        ));
+    }
+    if failures.len() > ITEMS_SHOWN_PER_UNIT {
+        out.push_str(&format!(
+            "{indent}- {unit}: and {} more failed {label}(s) (`wrkgn runs list`)\n",
+            failures.len() - ITEMS_SHOWN_PER_UNIT
+        ));
+    }
+    out
+}
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Default)]
 pub enum Outcome {
@@ -39,6 +86,32 @@ impl Outcome {
     }
 }
 
+/// Why a run ended as `limit_reached`: either condition, or both.
+#[derive(Debug, Clone, Default, PartialEq, Eq)]
+pub struct LimitInfo {
+    /// The per-run item cap was hit: (items used, cap, item label).
+    pub cap: Option<(usize, usize, String)>,
+    /// Older uncovered units remain beyond this run's backfill; the next one.
+    pub backfill_next: Option<String>,
+}
+
+impl LimitInfo {
+    pub fn describe(&self) -> String {
+        let mut parts = Vec::new();
+        if let Some((used, max, label)) = &self.cap {
+            parts.push(format!("{label} cap reached ({used}/{max})"));
+        }
+        if let Some(next) = &self.backfill_next {
+            parts.push(format!("more backfill remains (next: {next})"));
+        }
+        if parts.is_empty() {
+            "run limit reached".into()
+        } else {
+            parts.join("; ")
+        }
+    }
+}
+
 #[derive(Debug, Clone, Default)]
 pub struct RunSummary {
     pub run_id: i64,
@@ -58,6 +131,18 @@ pub struct RunSummary {
     pub failed_units: Vec<(String, u32)>,
     /// Failed units whose attempts are used up.
     pub exhausted_units: Vec<String>,
+    /// Failed items (or the unit error) per failed or exhausted unit.
+    pub unit_failures: BTreeMap<String, Vec<FailedItem>>,
+    /// What the command's queue items are called (`thread`, `story`).
+    pub item_label: String,
+    /// Failed units the maintainer acknowledged: skipped, not failures, and
+    /// never hidden.
+    pub acknowledged_units: Vec<String>,
+    /// Units whose attempt in this run ended failed (a subset of the failed
+    /// and exhausted lists); the rest of those lists carry over from earlier runs.
+    pub failed_this_run: Vec<String>,
+    /// Set for `limit_reached` runs.
+    pub limit: LimitInfo,
     pub killed_runs: Vec<i64>,
     pub took_over_pid: Option<u32>,
     pub tripped_api: Option<Api>,
@@ -73,10 +158,68 @@ impl RunSummary {
         self.outcome.exit_code(self.has_failures())
     }
 
+    /// Number of errors recorded in this run (sum over groups).
+    pub fn error_count(&self) -> usize {
+        self.errors.iter().map(|group| group.count).sum()
+    }
+
+    /// Exhausted units from earlier runs that this run did not touch.
+    pub fn carried_exhausted(&self) -> Vec<&String> {
+        self.exhausted_units
+            .iter()
+            .filter(|unit| !self.failed_this_run.contains(unit))
+            .collect()
+    }
+
+    /// Why the exit code is 1, so a nonzero code never looks unexplained.
+    fn failure_explanation(&self) -> Option<String> {
+        if self.exit_code() != 1 {
+            return None;
+        }
+        let mut parts = Vec::new();
+        let carried = self.carried_exhausted().len();
+        let exhausted = self.exhausted_units.len();
+        if exhausted > 0 {
+            let noun = if exhausted == 1 {
+                "unit needs"
+            } else {
+                "units need"
+            };
+            let origin = if carried == exhausted {
+                "all from earlier runs".to_owned()
+            } else if carried == 0 {
+                "all exhausted this run".to_owned()
+            } else {
+                format!(
+                    "{} exhausted this run, {carried} from earlier runs",
+                    exhausted - carried
+                )
+            };
+            parts.push(format!("{exhausted} {noun} manual action, {origin}"));
+        }
+        if !self.failed_units.is_empty() {
+            let noun = if self.failed_units.len() == 1 {
+                "unit"
+            } else {
+                "units"
+            };
+            parts.push(format!(
+                "{} failed {noun} will be retried next run",
+                self.failed_units.len()
+            ));
+        }
+        let errors = self.error_count();
+        parts.push(format!(
+            "{errors} {} this run",
+            if errors == 1 { "error" } else { "errors" }
+        ));
+        Some(parts.join("; "))
+    }
+
     fn reason(&self) -> Option<String> {
         match self.outcome {
             Outcome::Completed => None,
-            Outcome::LimitReached => Some("run limit reached".into()),
+            Outcome::LimitReached => Some(self.limit.describe()),
             Outcome::Interrupted => Some("interrupt received".into()),
             Outcome::StoppedOnFailure => Some(match self.tripped_api {
                 Some(api) => format!("{BREAKER_THRESHOLD} consecutive {} failures", api.label()),
@@ -149,7 +292,10 @@ pub fn render_report(s: &RunSummary) -> String {
         Some(reason) => out.push_str(&format!("- Outcome: {} ({reason})\n", s.outcome.as_str())),
         None => out.push_str(&format!("- Outcome: {}\n", s.outcome.as_str())),
     }
-    out.push_str(&format!("- Exit code: {}\n", s.exit_code()));
+    match s.failure_explanation() {
+        Some(why) => out.push_str(&format!("- Exit code: {} ({why})\n", s.exit_code())),
+        None => out.push_str(&format!("- Exit code: {}\n", s.exit_code())),
+    }
     out.push_str(&format!(
         "- Started: {}  Finished: {}\n\n",
         iso(s.started_at),
@@ -206,12 +352,39 @@ pub fn render_report(s: &RunSummary) -> String {
         "- Failed units (retry next run): {}\n",
         list(&failed)
     ));
+    let label = if s.item_label.is_empty() {
+        "item"
+    } else {
+        &s.item_label
+    };
+    for (unit, _) in &s.failed_units {
+        if let Some(failures) = s.unit_failures.get(unit) {
+            out.push_str(&failure_lines(unit, label, failures, "  "));
+        }
+    }
     if s.exhausted_units.is_empty() {
         out.push_str("- Needs manual action (attempts exhausted): None\n");
     } else {
+        let label = if s.item_label.is_empty() {
+            "item"
+        } else {
+            &s.item_label
+        };
+        out.push_str("- Needs manual action (attempts exhausted):\n");
+        for unit in &s.exhausted_units {
+            let failures = s.unit_failures.get(unit).map_or(&[][..], Vec::as_slice);
+            out.push_str(&failure_lines(unit, label, failures, "  "));
+        }
         out.push_str(&format!(
-            "- Needs manual action (attempts exhausted): {} (try `wrkgn collect --thread <id>` then `wrkgn process --thread <id>`)\n",
-            list(&s.exhausted_units)
+            "  Fix a {label} with `wrkgn collect --thread <id>` then `wrkgn process --thread <id>` (the next run detects a complete processing run after the failure), or use `wrkgn runs retry` or `wrkgn runs acknowledge`.\n"
+        ));
+    }
+    if !s.acknowledged_units.is_empty() {
+        let count = s.acknowledged_units.len();
+        out.push_str(&format!(
+            "- Acknowledged (skipped): {count} {}: {} (`wrkgn runs list` shows notes; `unacknowledge` or `retry` reopens)\n",
+            if count == 1 { "unit" } else { "units" },
+            list(&s.acknowledged_units)
         ));
     }
     out.push_str(&format!("- Next run will: {}\n", s.next_run));
