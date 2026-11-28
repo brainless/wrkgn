@@ -3,6 +3,7 @@
 
 use std::path::Path;
 
+use super::report::{FailedItem, failure_lines};
 use super::{MAX_UNIT_ATTEMPTS, lock};
 use crate::monthly::Month;
 use crate::show_hn_discovery::UtcDay;
@@ -147,6 +148,25 @@ pub fn list(store: &Store, command: &str) -> Result<String, String> {
             out.push_str(&format!("  last error: {error}"));
         }
         out.push('\n');
+        if unit.state == UnitState::Failed {
+            let label = if command == "monthly" {
+                "thread"
+            } else {
+                "story"
+            };
+            let failures: Vec<FailedItem> = store
+                .failed_items(command, &unit.unit_key)
+                .map_err(|e| e.to_string())?
+                .into_iter()
+                .map(|(id, error)| FailedItem {
+                    id: Some(id),
+                    error: error.unwrap_or_default(),
+                })
+                .collect();
+            if !failures.is_empty() {
+                out.push_str(&failure_lines(&unit.unit_key, label, &failures, "    "));
+            }
+        }
     }
     if out.is_empty() {
         out.push_str("No pending, failed or acknowledged units.\n");

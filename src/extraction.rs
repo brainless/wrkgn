@@ -392,16 +392,15 @@ fn fix_split_scheme(s: &str) -> String {
         if b[i].eq_ignore_ascii_case(&b'h')
             && (i == 0 || !b[i - 1].is_ascii_alphanumeric())
             && b.get(i + 1) == Some(&b' ')
-        {
-            if let Some(sc) = ["ttps://", "ttp://"].into_iter().find(|sc| {
+            && let Some(sc) = ["ttps://", "ttp://"].into_iter().find(|sc| {
                 b.len() >= i + 2 + sc.len()
                     && b[i + 2..i + 2 + sc.len()].eq_ignore_ascii_case(sc.as_bytes())
-            }) {
-                out.push_str(&s[last..i + 1]);
-                last = i + 2;
-                i += 2 + sc.len();
-                continue;
-            }
+            })
+        {
+            out.push_str(&s[last..i + 1]);
+            last = i + 2;
+            i += 2 + sc.len();
+            continue;
         }
         i += 1;
     }
@@ -614,8 +613,14 @@ mod tests {
         let b = "- h ttps://github.com/rumca-js/Internet-Places-Database - Internet places";
         let u = "https://github.com/rumca-js/Internet-Places-Database";
         assert!(url_supported_by_text(u, &[b.into()]));
-        assert!(!url_supported_by_text("https://github.com/rumca-js/Other", &[b.into()]));
-        assert_eq!(fix_split_scheme("H TTP://a.test"), "H TTP://a.test".replace("H TTP", "HTTP"));
+        assert!(!url_supported_by_text(
+            "https://github.com/rumca-js/Other",
+            &[b.into()]
+        ));
+        assert_eq!(
+            fix_split_scheme("H TTP://a.test"),
+            "H TTP://a.test".replace("H TTP", "HTTP")
+        );
         assert_eq!(fix_split_scheme("ah ttps://a.test"), "ah ttps://a.test");
         assert_eq!(fix_split_scheme("go h ttp://a.test"), "go http://a.test");
     }

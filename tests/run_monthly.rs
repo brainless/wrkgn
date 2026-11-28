@@ -377,7 +377,7 @@ fn failed_month_is_retried_up_to_the_cap_then_left_for_manual_action() {
     }
     let (_, report) = env.run("");
     assert!(
-        report.contains("Needs manual action (attempts exhausted): 2026-09"),
+        report.contains("Needs manual action (attempts exhausted):\n  - 2026-09: thread 900: "),
         "{report}"
     );
     // The fourth run did not touch the exhausted month.
@@ -965,7 +965,7 @@ fn unacknowledge_restores_the_failure_without_retrying() {
     let (result, report) = env.run("");
     assert_eq!(result.exit_code, 1, "{report}");
     assert!(
-        report.contains("Needs manual action (attempts exhausted): 2026-09"),
+        report.contains("Needs manual action (attempts exhausted):\n  - 2026-09: thread 900: "),
         "{report}"
     );
     assert!(!report.contains("Acknowledged (skipped)"), "{report}");
@@ -1012,6 +1012,23 @@ fn manual_collect_and_process_reopen_the_exhausted_unit_without_model_calls() {
     assert!(report.contains("reopened"), "{report}");
     assert_eq!(env.state("2026-09"), Some((UnitState::Done, 0)));
     assert_eq!(env.model.calls(), 0);
+}
+
+#[test]
+fn a_complete_manual_process_after_the_failure_reopens_without_a_new_collect() {
+    let mut env = exhausted_env();
+    let good = ScriptModel::default();
+    let options = wrkgn::processing::Options {
+        concurrency: 1,
+        ..Default::default()
+    };
+    wrkgn::processing::process_thread_with(&mut env.store, 900, &good, false, &options, |_| {})
+        .unwrap();
+    env.model = ScriptModel::failing("must not be called");
+    let (result, report) = env.run("");
+    assert_eq!(result.exit_code, 0, "{report}");
+    assert!(report.contains("reopened"), "{report}");
+    assert_eq!(env.state("2026-09"), Some((UnitState::Done, 0)));
 }
 
 #[test]

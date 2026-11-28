@@ -406,6 +406,22 @@ impl Store {
         Ok(counts)
     }
 
+    /// Failed queue items of a unit as `(item id, last error)`, in queue order.
+    pub fn failed_items(
+        &self,
+        command: &str,
+        unit: &str,
+    ) -> rusqlite::Result<Vec<(i64, Option<String>)>> {
+        let mut statement = self.connection.prepare(
+            "SELECT item_id, last_error FROM run_queue
+             WHERE command = ?1 AND unit_key = ?2 AND state = 'failed'
+             ORDER BY position, item_id",
+        )?;
+        statement
+            .query_map(params![command, unit], |row| Ok((row.get(0)?, row.get(1)?)))?
+            .collect()
+    }
+
     /// Creates a unit with already-known items unless the unit exists. Returns
     /// whether it was created; an existing unit is never changed.
     pub fn seed_unit(
@@ -569,9 +585,10 @@ impl Store {
 
     /// Detects exhausted units whose failed items were settled by a manual
     /// `wrkgn collect --thread` then `wrkgn process --thread`: for every failed
-    /// item the latest collection of the thread is complete and began after the
-    /// item last failed, and the latest processing run began after that
-    /// collection finished and completed. Such a unit is reopened like
+    /// item the latest collection of the thread is complete and the latest
+    /// processing run is complete and started at or after the item last
+    /// failed (`process --thread` itself requires a complete collection). Such
+    /// a unit is reopened like
     /// `reset_failed_unit`, so the next pass re-collects and approves the
     /// threads and skips already-extracted groups without model calls.
     /// Acknowledged units are left alone. Returns the reopened unit keys.
@@ -616,27 +633,25 @@ impl Store {
     }
 
     fn manually_settled(&self, thread: i64, failed_at: i64) -> rusqlite::Result<bool> {
-        let collected: Option<i64> = self
+        let collected: Option<String> = self
             .connection
             .query_row(
-                "SELECT finished_at FROM collection_runs
-                 WHERE thread_id = ?1 AND started_at >= ?2 AND status = 'complete'
-                   AND id = (SELECT MAX(id) FROM collection_runs WHERE thread_id = ?1)",
-                params![thread, failed_at],
+                "SELECT status FROM collection_runs
+                 WHERE id = (SELECT MAX(id) FROM collection_runs WHERE thread_id = ?1)",
+                params![thread],
                 |row| row.get(0),
             )
-            .optional()?
-            .flatten();
-        let Some(collected) = collected else {
+            .optional()?;
+        if collected.as_deref() != Some("complete") {
             return Ok(false);
-        };
+        }
         let processed: Option<String> = self
             .connection
             .query_row(
                 "SELECT status FROM processing_runs
                  WHERE thread_id = ?1 AND started_at >= ?2
                    AND id = (SELECT MAX(id) FROM processing_runs WHERE thread_id = ?1)",
-                params![thread, collected],
+                params![thread, failed_at],
                 |row| row.get(0),
             )
             .optional()?;

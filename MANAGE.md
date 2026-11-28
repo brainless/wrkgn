@@ -61,10 +61,10 @@ MAILTO=you@example.com
 
 ### Resolving units that need manual action
 
-A unit that fails 3 attempts is listed under "Needs manual action" and keeps exit code 1 on every later run until you resolve it. The `wrkgn runs` commands are local (no network, no model) and accept `--command monthly|show-hn` and `--db`; changes take the command's lock and are refused while a run is active.
+A unit that fails 3 attempts is listed under "Needs manual action", one line per failed thread (story for Show HN) such as `- 2026-03: thread 47303111: URL absent from source ...` with the error cut to about 120 characters, and keeps exit code 1 on every later run until you resolve it. The `wrkgn runs` commands are local (no network, no model) and accept `--command monthly|show-hn` and `--db`; changes take the command's lock and are refused while a run is active.
 
 ```sh
-wrkgn runs list --command monthly                  # unfinished units, attempts, notes, last errors
+wrkgn runs list --command monthly                  # unfinished units, attempts, notes, last errors, failed thread IDs
 wrkgn runs retry --command monthly --unit 2026-03   # cause fixed (for example a provider issue): reset attempts and failed items
 wrkgn runs acknowledge --command monthly --unit 2026-05 --note "permanent validation failure"
 wrkgn runs unacknowledge --command monthly --unit 2026-05

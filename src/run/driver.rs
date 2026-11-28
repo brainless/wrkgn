@@ -11,7 +11,7 @@ use std::sync::Arc;
 
 use super::control::RunControl;
 use super::errors::ErrorLog;
-use super::report::{LimitInfo, Outcome, RunSummary, write_report};
+use super::report::{FailedItem, LimitInfo, Outcome, RunSummary, write_report};
 use super::status::{Clock, Snapshot, StatusLine};
 use super::{RunSession, finish};
 use crate::processing;
@@ -738,6 +738,7 @@ impl<W: Workload, O: Write, K: Clock, E: Write> Driver<'_, W, O, K, E> {
         let mut failed_units = Vec::new();
         let mut exhausted_units = Vec::new();
         let mut acknowledged_units = Vec::new();
+        let mut unit_failures = std::collections::BTreeMap::new();
         match self.store.units_in_state(
             W::COMMAND,
             &[UnitState::Pending, UnitState::InProgress, UnitState::Failed],
@@ -750,6 +751,25 @@ impl<W: Workload, O: Write, K: Clock, E: Write> Driver<'_, W, O, K, E> {
                             acknowledged_units.push(row.unit_key);
                         }
                         UnitState::Failed => {
+                            let mut failures: Vec<FailedItem> = self
+                                .store
+                                .failed_items(W::COMMAND, &row.unit_key)
+                                .unwrap_or_default()
+                                .into_iter()
+                                .map(|(id, error)| FailedItem {
+                                    id: Some(id),
+                                    error: error.unwrap_or_default(),
+                                })
+                                .collect();
+                            if failures.is_empty()
+                                && let Some(error) = &row.last_error
+                            {
+                                failures.push(FailedItem {
+                                    id: None,
+                                    error: error.clone(),
+                                });
+                            }
+                            unit_failures.insert(row.unit_key.clone(), failures);
                             if row.attempts >= self.cfg.max_attempts
                                 && !head_keys.contains(&row.unit_key)
                             {
@@ -793,6 +813,8 @@ impl<W: Workload, O: Write, K: Clock, E: Write> Driver<'_, W, O, K, E> {
             pending_units,
             failed_units,
             exhausted_units,
+            unit_failures,
+            item_label: W::ITEM_LABEL.to_owned(),
             acknowledged_units,
             failed_this_run: self.failed_units_now.iter().cloned().collect(),
             limit: if outcome == Outcome::LimitReached {

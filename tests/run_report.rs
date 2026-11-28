@@ -112,7 +112,8 @@ fn report_lists_what_remains_and_the_killed_run_note() {
     assert!(text.contains("3 consecutive HN Firebase API failures"));
     assert!(text.contains("- Exit code: 2"));
     assert!(text.contains(&format!("2026-08 (2/{MAX_UNIT_ATTEMPTS} attempts)")));
-    assert!(text.contains("2026-07 (try `wrkgn collect --thread <id>`"));
+    assert!(text.contains("- Needs manual action (attempts exhausted):\n  - 2026-07\n"));
+    assert!(text.contains("Fix a item with `wrkgn collect --thread <id>`"));
     assert!(text.contains("previous run 41 was found killed (stale lock, PID 9921)"));
     assert!(text.contains("- Export: 0123456789abcdef"));
 }
@@ -343,4 +344,30 @@ fn acknowledged_units_are_listed_but_do_not_fail_the_run() {
     assert!(render_report(&s).contains("- Acknowledged (skipped): 1 unit: 2026-03"));
     s.acknowledged_units.clear();
     assert!(!render_report(&s).contains("Acknowledged"));
+}
+
+#[test]
+fn manual_action_lists_failed_items_with_truncated_errors() {
+    let mut s = summary(Outcome::Completed, &ErrorLog::default());
+    s.item_label = "story".into();
+    s.exhausted_units = vec!["2026-03-04".into()];
+    s.unit_failures.insert(
+        "2026-03-04".into(),
+        vec![
+            wrkgn::run::report::FailedItem {
+                id: Some(47303111),
+                error: format!("URL absent from source: {}", "x".repeat(300)),
+            },
+            wrkgn::run::report::FailedItem {
+                id: Some(47303112),
+                error: "boom".into(),
+            },
+        ],
+    );
+    let text = render_report(&s);
+    let expected = format!(
+        "- Needs manual action (attempts exhausted):\n  - 2026-03-04: story 47303111: URL absent from source: {}...\n  - 2026-03-04: story 47303112: boom\n  Fix a story with",
+        "x".repeat(120 - "URL absent from source: ".len())
+    );
+    assert!(text.contains(&expected), "{text}");
 }
