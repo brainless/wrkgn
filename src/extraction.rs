@@ -335,7 +335,10 @@ fn url_parts(url: &str) -> (Option<String>, String) {
 /// URLs and bare domains in plain text, tolerating surrounding punctuation.
 fn text_urls(texts: &[String]) -> Vec<(Option<String>, String)> {
     let mut found = Vec::new();
-    let texts: Vec<String> = texts.iter().map(|t| fix_scheme_backslashes(t)).collect();
+    let texts: Vec<String> = texts
+        .iter()
+        .map(|t| fix_split_scheme(&fix_scheme_backslashes(t)))
+        .collect();
     for token in texts.iter().flat_map(|t| t.split_whitespace()) {
         // HN anchors need not have spaces around them: plain_text can produce
         // `Name(https://example.org)` or `[1]https://example.org`. Locate the
@@ -357,14 +360,53 @@ fn text_urls(texts: &[String]) -> Vec<(Option<String>, String)> {
             _ => token,
         };
         let token = token.trim_start_matches(['(', '<', '[', '"', '\'']);
-        found.push(url_parts(token.trim_end_matches([
-            '.', ',', ';', ':', '!', '?', ')', ']', '>', '"', '\'',
-        ])));
-        found.push(url_parts(
-            token.trim_end_matches(['.', ',', ';', ':', '!', '?', '>', '"', '\'']),
-        ));
+        push_token_urls(&mut found, token);
+        // `Name(example.org),` has no scheme to anchor on; also try the text
+        // after the last wrapper. Matching still needs an exact host/path key.
+        if !token.contains("://")
+            && let Some(at) = token.rfind(['(', '[', '<'])
+        {
+            let inner = token[at + 1..].trim_start_matches(['(', '<', '[', '"', '\'']);
+            if inner.contains('.') {
+                push_token_urls(&mut found, inner);
+            }
+        }
     }
     found
+}
+fn push_token_urls(found: &mut Vec<(Option<String>, String)>, token: &str) {
+    found.push(url_parts(token.trim_end_matches([
+        '.', ',', ';', ':', '!', '?', ')', ']', '>', '"', '\'',
+    ])));
+    found.push(url_parts(
+        token.trim_end_matches(['.', ',', ';', ':', '!', '?', '>', '"', '\'']),
+    ));
+}
+/// Join an author's `h ttps://` / `h ttp://` obfuscation into a real scheme.
+/// The `h` must start the text or follow a non-alphanumeric character.
+fn fix_split_scheme(s: &str) -> String {
+    let b = s.as_bytes();
+    let mut out = String::with_capacity(s.len());
+    let (mut i, mut last) = (0, 0);
+    while i < b.len() {
+        if b[i].eq_ignore_ascii_case(&b'h')
+            && (i == 0 || !b[i - 1].is_ascii_alphanumeric())
+            && b.get(i + 1) == Some(&b' ')
+        {
+            if let Some(sc) = ["ttps://", "ttp://"].into_iter().find(|sc| {
+                b.len() >= i + 2 + sc.len()
+                    && b[i + 2..i + 2 + sc.len()].eq_ignore_ascii_case(sc.as_bytes())
+            }) {
+                out.push_str(&s[last..i + 1]);
+                last = i + 2;
+                i += 2 + sc.len();
+                continue;
+            }
+        }
+        i += 1;
+    }
+    out.push_str(&s[last..]);
+    out
 }
 fn url_supported(url: &str, found: &[(Option<String>, String)]) -> bool {
     // http, https and no scheme compare equal; any other prefix (such as the
@@ -559,6 +601,23 @@ mod tests {
             Some("https://www.coolweird.net")
         );
         assert_eq!(fix_scheme_backslashes(r"a\\b c:\d"), r"a\\b c:\d");
+    }
+    #[test]
+    fn scheme_less_domain_after_wrapper_and_split_scheme_are_supported() {
+        let a = "I am building ReifyDB(reifydb.com), a database for live application state.";
+        assert!(url_supported_by_text("https://reifydb.com", &[a.into()]));
+        assert!(!url_supported_by_text("https://other.com", &[a.into()]));
+        assert!(!url_supported_by_text(
+            "https://example.com",
+            &["a word foo(bar) here".into()]
+        ));
+        let b = "- h ttps://github.com/rumca-js/Internet-Places-Database - Internet places";
+        let u = "https://github.com/rumca-js/Internet-Places-Database";
+        assert!(url_supported_by_text(u, &[b.into()]));
+        assert!(!url_supported_by_text("https://github.com/rumca-js/Other", &[b.into()]));
+        assert_eq!(fix_split_scheme("H TTP://a.test"), "H TTP://a.test".replace("H TTP", "HTTP"));
+        assert_eq!(fix_split_scheme("ah ttps://a.test"), "ah ttps://a.test");
+        assert_eq!(fix_split_scheme("go h ttp://a.test"), "go http://a.test");
     }
     #[test]
     fn links_attached_to_labels_and_footnotes_are_supported() {

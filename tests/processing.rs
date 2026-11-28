@@ -1600,3 +1600,41 @@ fn backslash_scheme_in_source_supports_the_normal_url() {
         Err("URL absent from source: source 41967936, url \"https://www.other.net/\"".into())
     );
 }
+
+/// Real stored texts: a scheme-less domain after `Name(` and an author's own
+/// `h ttps://` obfuscation.
+struct TextApi(&'static str);
+impl HnApi for TextApi {
+    fn fetch_item(&self, id: i64) -> Result<Option<Value>, FetchError> {
+        Ok(Some(match id {
+            50000 => json!({"id":50000,"kids":[50001]}),
+            50001 => json!({"id":50001,"parent":50000,"by":"a","time":3000,"text":self.0}),
+            _ => panic!("unexpected {id}"),
+        }))
+    }
+}
+fn validated_text(text: &'static str, url: &str) -> Result<(), String> {
+    let dir = tempdir().unwrap();
+    let mut store = Store::open(dir.path().join("db.sqlite")).unwrap();
+    Collector::new(TextApi(text), CollectionConfig::default())
+        .collect(&mut store, 50000)
+        .unwrap();
+    let item = store.get_item(50001).unwrap().unwrap();
+    let mut m = mention(50001, Some("P"), Some(url), "A project");
+    m.source_excerpt = "a".into();
+    let mut extraction = Extraction { mentions: vec![m] };
+    extraction.normalize_urls();
+    let source = BTreeMap::from([(50001, &item)]);
+    validate(&extraction, &BTreeSet::from([50001]), &source)
+}
+#[test]
+fn wrapped_scheme_less_domain_and_split_scheme_support_the_url() {
+    let reify = "a I am building ReifyDB(reifydb.com), a database for live application state.";
+    assert_eq!(validated_text(reify, "https://reifydb.com"), Ok(()));
+    assert!(validated_text(reify, "https://other.com").is_err());
+    assert!(validated_text("a word foo(bar) here", "https://bar.com").is_err());
+    let split = "a - h ttps://github.com/rumca-js/Internet-Places-Database - Internet places ...";
+    let url = "https://github.com/rumca-js/Internet-Places-Database";
+    assert_eq!(validated_text(split, url), Ok(()));
+    assert!(validated_text(split, "https://github.com/rumca-js/Other").is_err());
+}
