@@ -56,7 +56,8 @@ backfill together; the run stops at a thread boundary and the next run continues
 Coverage, the thread queue and runs live in the SQLite database; there are no log
 files. On the first run, months of threads already stored are recorded from their
 titles and not searched again. A month with a failure is retried on later runs up
-to 3 attempts, then listed for manual action. Comments, edits or deletions that
+to 3 attempts, then listed for manual action (resolve with
+`wrkgn runs retry|acknowledge`). Comments, edits or deletions that
 arrive after a thread leaves the head are picked up only by an explicit
 wrkgn collect --thread followed by wrkgn process --thread, or by re-running that
 month with --from M --through M.

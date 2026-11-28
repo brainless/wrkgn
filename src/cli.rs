@@ -19,6 +19,10 @@ const USAGE:&str="Usage:
   wrkgn review match <from-project-id> <to-project-id> [--db <path>]
   wrkgn export [--db <path>] [--export <directory>]
   wrkgn categories normalize [--db <path>]
+  wrkgn runs list --command monthly|show-hn [--db <path>]
+  wrkgn runs acknowledge --command monthly|show-hn --unit <YYYY-MM|YYYY-MM-DD> [--note <text>] [--db <path>]
+  wrkgn runs unacknowledge --command monthly|show-hn --unit <unit> [--db <path>]
+  wrkgn runs retry --command monthly|show-hn --unit <unit> [--db <path>]
   wrkgn snapshots prune [--keep <n>] [--dry-run] [--export <directory>]
   wrkgn --help
 
@@ -30,7 +34,13 @@ or WRKGN_PROVIDER=neuralwatt with NEURALWATT_API_KEY and default model glm-5.3-f
 NEURALWATT_BASE_URL optionally overrides https://api.neuralwatt.com/v1.
 --concurrency sets how many conversation groups are extracted in parallel (default 10, lowered automatically on provider concurrency limits).
 collect is the only command that fetches from HN.
-Review, category normalization, and export make no network calls.
+Review, category normalization, runs and export make no network calls.
+runs manages coverage units of the unattended commands that failed all attempts (shown as
+\"Needs manual action\"): acknowledge skips a failed unit (no exit code 1, still listed in reports),
+unacknowledge undoes it, retry resets attempts and failed queue items so the next default run
+retries the unit, and list shows unfinished units with their notes. Changes are refused while a
+run of that command holds its lock. Units whose threads you fixed with collect and process are
+detected and reopened by the next default run.
 snapshots prune is explicit and offline (no database): it keeps the version current.json selects
 plus the --keep (default 2) most recent others and removes older snapshots and abandoned .staging-*
 directories under <export>/snapshots only. Export never prunes. Use --dry-run first.";
@@ -212,6 +222,9 @@ fn run<C: HnApi>(args: &[String], api: C, out: &mut impl Write) -> Result<(), St
         return crate::snapshots::write_report(out, &export, &report, dry_run)
             .map_err(|e| e.to_string());
     }
+    if args[0] == "runs" {
+        return run_runs(args, out);
+    }
     if args[0] == "collect" || args[0] == "process" {
         let _ = thread_id(args)?;
         let _ = concurrency(args)?;
@@ -355,6 +368,60 @@ fn run<C: HnApi>(args: &[String], api: C, out: &mut impl Write) -> Result<(), St
         _ => return Err(USAGE.into()),
     }
     Ok(())
+}
+fn flag_value<'a>(args: &'a [String], flag: &str) -> Result<Option<&'a str>, String> {
+    match args.iter().position(|a| a == flag) {
+        None => Ok(None),
+        Some(i) => match args.get(i + 1) {
+            Some(value) if !value.starts_with("--") => Ok(Some(value.as_str())),
+            _ => Err(format!("{flag} requires a value")),
+        },
+    }
+}
+/// `wrkgn runs ...`: local, offline management of coverage units.
+fn run_runs(args: &[String], out: &mut impl Write) -> Result<(), String> {
+    use crate::run::manage;
+    let action = args.get(1).map(String::as_str).unwrap_or("");
+    if !["list", "acknowledge", "unacknowledge", "retry"].contains(&action) {
+        return Err(USAGE.into());
+    }
+    let rest = &args[2..];
+    let mut i = 0;
+    while i < rest.len() {
+        if ["--command", "--unit", "--note", "--db"].contains(&rest[i].as_str()) {
+            i += 2;
+        } else {
+            return Err(format!("unexpected argument {:?}\n{USAGE}", rest[i]));
+        }
+    }
+    let command = manage::command_name(
+        flag_value(rest, "--command")?.ok_or("--command monthly|show-hn is required")?,
+    )?;
+    let unit = flag_value(rest, "--unit")?;
+    let note = flag_value(rest, "--note")?;
+    if note.is_some() && action != "acknowledge" {
+        return Err("--note applies only to acknowledge".into());
+    }
+    if action == "list" && unit.is_some() {
+        return Err("list takes no --unit".into());
+    }
+    let unit_required = || unit.ok_or_else(|| "--unit is required".to_owned());
+    let db = path_arg(rest, "--db")?.unwrap_or_else(Store::configured_path);
+    let mut store = open(rest)?;
+    let now = std::time::SystemTime::now()
+        .duration_since(std::time::UNIX_EPOCH)
+        .map_or(0, |d| i64::try_from(d.as_secs()).unwrap_or(i64::MAX));
+    let text = match action {
+        "list" => manage::list(&store, command)?,
+        "acknowledge" => {
+            manage::acknowledge(&mut store, &db, command, unit_required()?, note, now)? + "\n"
+        }
+        "unacknowledge" => {
+            manage::unacknowledge(&mut store, &db, command, unit_required()?)? + "\n"
+        }
+        _ => manage::retry(&mut store, &db, command, unit_required()?, now)? + "\n",
+    };
+    write!(out, "{text}").map_err(|e| e.to_string())
 }
 fn parse_id(s: &str) -> Result<i64, String> {
     let id = s.parse::<i64>().map_err(|_| "invalid ID")?;

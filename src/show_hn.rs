@@ -51,7 +51,7 @@ without rediscovery; pass --reprocess again then if extraction should be forced
 for the rest of it. A day is discovered in Algolia searches of --batch-size
 stories (default 100, at most 1000) using a timestamp cursor; any discovery
 failure fails that day, which is retried on later runs up to 3 attempts and then
-listed for manual action. Coverage, the story queue and runs live in the SQLite
+listed for manual action (resolve with `wrkgn runs retry|acknowledge`). Coverage, the story queue and runs live in the SQLite
 database; there are no log files. Days that already had Show HN data processed
 before coverage existed are not recorded as covered, so backfill may collect
 them again; unchanged extraction is skipped. Stories posted after a day leaves

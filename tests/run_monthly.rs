@@ -15,6 +15,7 @@ use wrkgn::extraction::{Extraction, Mention};
 use wrkgn::monthly::{self, Args};
 use wrkgn::processing::Model;
 use wrkgn::run::driver::{DriverResult, unit_states};
+use wrkgn::run::manage;
 use wrkgn::run::status::StatusLine;
 use wrkgn::run::{self, RunControl, RunSession};
 use wrkgn::store::{QueueKind, Store, UnitState};
@@ -881,4 +882,186 @@ fn report_write_failure_does_not_change_the_exit_code() {
                 .is_some()
         );
     }
+}
+
+/// Fails 2026-09 three times so it is exhausted, with the model then failing.
+fn exhausted_env() -> Env {
+    let mut env = Env::new();
+    env.month("2026-09", &[900]);
+    env.model = ScriptModel::failing("model returned an unusable answer");
+    for _ in 0..3 {
+        let (result, report) = env.run("");
+        assert_eq!(result.exit_code, 1, "{report}");
+    }
+    assert_eq!(env.state("2026-09"), Some((UnitState::Failed, 3)));
+    env
+}
+
+fn manage_now() -> i64 {
+    NOW + 10
+}
+
+fn manual_collect(env: &mut Env, thread: i64) {
+    let cfg = CollectionConfig {
+        max_concurrency: 1,
+        max_attempts: 1,
+        retry_base_delay: Duration::ZERO,
+    };
+    let collector = Collector::new(&env.hn, cfg);
+    assert!(collector.collect(&mut env.store, thread).unwrap().complete);
+}
+
+#[test]
+fn acknowledged_unit_is_skipped_reported_and_exits_zero() {
+    let mut env = exhausted_env();
+    let message = manage::acknowledge(
+        &mut env.store,
+        &env.db,
+        "monthly",
+        "2026-09",
+        Some("permanent validation failure"),
+        manage_now(),
+    )
+    .unwrap();
+    assert!(message.contains("Acknowledged 2026-09"), "{message}");
+    let (result, report) = env.run("");
+    assert_eq!(result.exit_code, 0, "{report}");
+    assert!(!result.summary.has_failures());
+    assert!(
+        report.contains("- Acknowledged (skipped): 1 unit: 2026-09"),
+        "{report}"
+    );
+    assert!(
+        report.contains("- Needs manual action (attempts exhausted): None"),
+        "{report}"
+    );
+    // Not retried, not covered: still failed with all its attempts.
+    assert_eq!(env.hn.calls(900), 3);
+    assert_eq!(env.state("2026-09"), Some((UnitState::Failed, 3)));
+    assert!(!result.summary.units_done.contains(&"2026-09".to_owned()));
+    let listing = manage::list(&env.store, "monthly").unwrap();
+    assert!(listing.contains("2026-09  acknowledged"), "{listing}");
+    assert!(listing.contains("note: permanent validation failure"));
+}
+
+#[test]
+fn unacknowledge_restores_the_failure_without_retrying() {
+    let mut env = exhausted_env();
+    manage::acknowledge(
+        &mut env.store,
+        &env.db,
+        "monthly",
+        "2026-09",
+        None,
+        manage_now(),
+    )
+    .unwrap();
+    manage::unacknowledge(&mut env.store, &env.db, "monthly", "2026-09").unwrap();
+    assert!(
+        manage::unacknowledge(&mut env.store, &env.db, "monthly", "2026-09")
+            .unwrap_err()
+            .contains("not acknowledged")
+    );
+    let (result, report) = env.run("");
+    assert_eq!(result.exit_code, 1, "{report}");
+    assert!(
+        report.contains("Needs manual action (attempts exhausted): 2026-09"),
+        "{report}"
+    );
+    assert!(!report.contains("Acknowledged (skipped)"), "{report}");
+    assert_eq!(env.hn.calls(900), 3);
+}
+
+#[test]
+fn retry_resets_attempts_and_the_next_run_processes_the_unit() {
+    let mut env = exhausted_env();
+    let message =
+        manage::retry(&mut env.store, &env.db, "monthly", "2026-09", manage_now()).unwrap();
+    assert!(message.contains("1 failed queue item(s)"), "{message}");
+    assert_eq!(env.state("2026-09"), Some((UnitState::Pending, 0)));
+    // The cause is fixed: the model now answers.
+    env.model = ScriptModel::default();
+    let (result, report) = env.run("");
+    assert_eq!(result.exit_code, 0, "{report}");
+    assert_eq!(env.state("2026-09"), Some((UnitState::Done, 0)));
+    assert_eq!(env.hn.calls(900), 4);
+    assert!(result.summary.units_done.contains(&"2026-09".to_owned()));
+}
+
+#[test]
+fn manual_collect_and_process_reopen_the_exhausted_unit_without_model_calls() {
+    let mut env = exhausted_env();
+    // The maintainer fixes thread 900 by hand with `collect` then `process`.
+    manual_collect(&mut env, 900);
+    let good = ScriptModel::default();
+    let options = wrkgn::processing::Options {
+        concurrency: 1,
+        ..Default::default()
+    };
+    let processed =
+        wrkgn::processing::process_thread_with(&mut env.store, 900, &good, false, &options, |_| {})
+            .unwrap();
+    assert!(processed.failed.is_empty());
+    // Nothing in the driver's records changed yet.
+    assert_eq!(env.state("2026-09"), Some((UnitState::Failed, 3)));
+    // The next default run notices, re-collects, skips the extracted groups
+    // (the model here would fail if called), approves and covers the month.
+    env.model = ScriptModel::failing("must not be called");
+    let (result, report) = env.run("");
+    assert_eq!(result.exit_code, 0, "{report}");
+    assert!(report.contains("reopened"), "{report}");
+    assert_eq!(env.state("2026-09"), Some((UnitState::Done, 0)));
+    assert_eq!(env.model.calls(), 0);
+}
+
+#[test]
+fn collect_alone_does_not_reopen_an_exhausted_unit() {
+    let mut env = exhausted_env();
+    manual_collect(&mut env, 900);
+    let (result, report) = env.run("");
+    assert_eq!(result.exit_code, 1, "{report}");
+    assert_eq!(env.state("2026-09"), Some((UnitState::Failed, 3)));
+    assert_eq!(env.hn.calls(900), 4, "only the manual collect fetched");
+}
+
+#[test]
+fn manage_commands_validate_units_state_and_the_run_lock() {
+    let mut env = exhausted_env();
+    let now = manage_now();
+    let db = env.db.clone();
+    let store = &mut env.store;
+    assert!(
+        manage::acknowledge(store, &db, "monthly", "2026-9x", None, now)
+            .unwrap_err()
+            .contains("invalid unit")
+    );
+    assert!(
+        manage::retry(store, &db, "monthly", "2025-01", now)
+            .unwrap_err()
+            .contains("unknown unit")
+    );
+    assert!(manage::command_name("weekly").is_err());
+    assert_eq!(manage::command_name("show-hn").unwrap(), "show_hn");
+    assert_eq!(
+        manage::normalize_unit("show_hn", "2026-09-01").unwrap(),
+        "2026-09-01"
+    );
+    assert!(manage::normalize_unit("show_hn", "2026-09").is_err());
+    store
+        .upsert_unit("monthly", "2026-07", UnitState::Done, NOW)
+        .unwrap();
+    assert!(
+        manage::acknowledge(store, &db, "monthly", "2026-07", None, now)
+            .unwrap_err()
+            .contains("only failed units")
+    );
+    // A live run holds the lock, so changes are refused.
+    let held = wrkgn::run::lock::acquire(&db, "monthly").unwrap();
+    assert!(
+        manage::retry(store, &db, "monthly", "2026-09", now)
+            .unwrap_err()
+            .contains("another run")
+    );
+    drop(held);
+    assert!(manage::retry(store, &db, "monthly", "2026-09", now).is_ok());
 }

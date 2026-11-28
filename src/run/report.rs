@@ -84,6 +84,9 @@ pub struct RunSummary {
     pub failed_units: Vec<(String, u32)>,
     /// Failed units whose attempts are used up.
     pub exhausted_units: Vec<String>,
+    /// Failed units the maintainer acknowledged: skipped, not failures, and
+    /// never hidden.
+    pub acknowledged_units: Vec<String>,
     /// Units whose attempt in this run ended failed (a subset of the failed
     /// and exhausted lists); the rest of those lists carry over from earlier runs.
     pub failed_this_run: Vec<String>,
@@ -302,8 +305,16 @@ pub fn render_report(s: &RunSummary) -> String {
         out.push_str("- Needs manual action (attempts exhausted): None\n");
     } else {
         out.push_str(&format!(
-            "- Needs manual action (attempts exhausted): {} (try `wrkgn collect --thread <id>` then `wrkgn process --thread <id>`)\n",
+            "- Needs manual action (attempts exhausted): {} (try `wrkgn collect --thread <id>` then `wrkgn process --thread <id>`, which the next run detects; or `wrkgn runs retry` or `wrkgn runs acknowledge`)\n",
             list(&s.exhausted_units)
+        ));
+    }
+    if !s.acknowledged_units.is_empty() {
+        let count = s.acknowledged_units.len();
+        out.push_str(&format!(
+            "- Acknowledged (skipped): {count} {}: {} (`wrkgn runs list` shows notes; `unacknowledge` or `retry` reopens)\n",
+            if count == 1 { "unit" } else { "units" },
+            list(&s.acknowledged_units)
         ));
     }
     out.push_str(&format!("- Next run will: {}\n", s.next_run));

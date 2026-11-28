@@ -35,7 +35,7 @@ Discovery searches the [HN Algolia index](https://hn.algolia.com/api) for monthl
 
 Each thread refreshes the full reply tree to save new comments and detect edits, deletions, and new replies. Existing fingerprint/version checks skip unchanged successful conversation groups. After the whole thread processes successfully, its pending mentions are automatically approved, including previously pending results for that thread. Pending mentions in other threads remain pending. Corrections, matching, and suppression retain their existing behavior. The exporter writes all approved public records across the database after each thread, retaining earlier threads in the snapshot.
 
-Failures are collected rather than logged as they occur. Every ending prints a Markdown report on stderr (a live status line precedes it) with errors grouped by normalized signature with full samples, the work done, and what remains. A failed thread or month is retried on later runs up to 3 attempts, then listed for manual action: `wrkgn collect --thread <id>` followed by `wrkgn process --thread <id>`. A discovery failure fails only that month. Three consecutive exhausted calls to one API (LLM provider, HN or Algolia) stop the whole run cleanly. Exit codes: 0 completed or cap reached without failures; 1 failures (including units exhausted in earlier runs that still need manual action) or a setup error; 2 stopped by that circuit breaker; 130 interrupted. Ctrl-C or SIGTERM stops at the next thread boundary, exports, reports and exits 130; a second Ctrl-C exits immediately. The report and queue make a rerun safe after any stop, including a kill. Successful groups stay saved. Incomplete processing does not auto-approve that thread, but attempts export using existing approvals and freshness checks to remove stale public results. Approval and export are separate commits: if export fails after approval, rerunning retries export. The command uses the same `.env`, `--db`, `--export`, and `--concurrency` settings as `wrkgn`. It never deploys or publishes. After it succeeds, inspect the export locally, then publish with `scripts/publish-data.sh`.
+Failures are collected rather than logged as they occur. Every ending prints a Markdown report on stderr (a live status line precedes it) with errors grouped by normalized signature with full samples, the work done, and what remains. A failed thread or month is retried on later runs up to 3 attempts, then listed under "Needs manual action" (see [Resolving units that need manual action](#resolving-units-that-need-manual-action)). A discovery failure fails only that month. Three consecutive exhausted calls to one API (LLM provider, HN or Algolia) stop the whole run cleanly. Exit codes: 0 completed or cap reached without failures; 1 failures (including units exhausted in earlier runs that still need manual action) or a setup error; 2 stopped by that circuit breaker; 130 interrupted. Ctrl-C or SIGTERM stops at the next thread boundary, exports, reports and exits 130; a second Ctrl-C exits immediately. The report and queue make a rerun safe after any stop, including a kill. Successful groups stay saved. Incomplete processing does not auto-approve that thread, but attempts export using existing approvals and freshness checks to remove stale public results. Approval and export are separate commits: if export fails after approval, rerunning retries export. The command uses the same `.env`, `--db`, `--export`, and `--concurrency` settings as `wrkgn`. It never deploys or publishes. After it succeeds, inspect the export locally, then publish with `scripts/publish-data.sh`.
 
 Comments, edits or deletions that arrive after a thread leaves the head window are picked up only by an explicit `wrkgn collect --thread <id>` plus `wrkgn process --thread <id>`, or by `wrkgn-monthly --from M --through M`.
 
@@ -58,6 +58,21 @@ MAILTO=you@example.com
 - All output goes to stderr, so cron mails every run. Exit codes 1, 2 and 130 flag problems (the report header explains a 1, such as 4 units needing manual action carried over from earlier runs; `limit_reached` with remaining backfill is normal and exits 0); a wrapper script can mail only on a nonzero exit.
 - Show HN results stay pending for `wrkgn review pending` unless `--auto-approve` is added.
 - Publishing with `scripts/publish-data.sh` is separate and not part of cron.
+
+### Resolving units that need manual action
+
+A unit that fails 3 attempts is listed under "Needs manual action" and keeps exit code 1 on every later run until you resolve it. The `wrkgn runs` commands are local (no network, no model) and accept `--command monthly|show-hn` and `--db`; changes take the command's lock and are refused while a run is active.
+
+```sh
+wrkgn runs list --command monthly                  # unfinished units, attempts, notes, last errors
+wrkgn runs retry --command monthly --unit 2026-03   # cause fixed (for example a provider issue): reset attempts and failed items
+wrkgn runs acknowledge --command monthly --unit 2026-05 --note "permanent validation failure"
+wrkgn runs unacknowledge --command monthly --unit 2026-05
+```
+
+- Fix by hand: `wrkgn collect --thread <id>` then `wrkgn process --thread <id>` for every failing thread of the unit. The next default run notices a complete collection and processing for all of them, reopens the unit, re-collects it, approves and exports without new model calls, and then marks it done. Nothing else is needed. Show HN days work the same way with story IDs.
+- Retry: for causes that are fixed but cannot be seen locally. The next default run retries the unit with a fresh 3 attempts.
+- Acknowledge: for permanent failures you accept. The unit is skipped, no longer fails the exit code, is never marked done, and appears in every report as `Acknowledged (skipped): 2 units: 2026-03, 2026-05`. `unacknowledge` or `retry` reopens it. An explicit `--from/--through` run also retries it.
 - Run the live pilot described in the Show HN section before scheduling.
 
 ## Show HN workflow

@@ -333,6 +333,29 @@ impl<W: Workload, O: Write, K: Clock, E: Write> Driver<'_, W, O, K, E> {
                 backfill_more: None,
             };
         }
+        match self
+            .store
+            .reopen_manually_resolved_units(W::COMMAND, self.cfg.max_attempts, now)
+        {
+            Ok(units) if !units.is_empty() => {
+                let text = format!(
+                    "note: {} {}(s) exhausted earlier now have a complete collection and processing from manual runs; reopened for approval and export: {}",
+                    units.len(),
+                    W::UNIT_LABEL,
+                    units.join(", ")
+                );
+                self.note(&text);
+            }
+            Ok(_) => {}
+            Err(error) => {
+                self.errors.record(
+                    "store",
+                    "sqlite",
+                    None,
+                    &format!("checking manually resolved units: {error}"),
+                );
+            }
+        }
         let head = self.w.head_units(now, self.cfg.head);
         let head_set: BTreeSet<W::Unit> = head.iter().copied().collect();
         let rows = match self.store.units_in_state(
@@ -358,11 +381,18 @@ impl<W: Workload, O: Write, K: Clock, E: Write> Driver<'_, W, O, K, E> {
         };
         let mut known = BTreeSet::new();
         let mut resume = Vec::new();
+        let mut acknowledged = BTreeSet::new();
         for row in &rows {
             let Some(unit) = self.w.parse_unit(&row.unit_key) else {
                 continue;
             };
             known.insert(unit);
+            // An acknowledged unit is skipped by resume and the head until the
+            // maintainer unacknowledges or retries it, or an override runs it.
+            if row.state == UnitState::Failed && row.acknowledged_at.is_some() {
+                acknowledged.insert(unit);
+                continue;
+            }
             let open = match row.state {
                 UnitState::Pending | UnitState::InProgress => true,
                 UnitState::Failed => row.attempts < self.cfg.max_attempts,
@@ -373,6 +403,10 @@ impl<W: Workload, O: Write, K: Clock, E: Write> Driver<'_, W, O, K, E> {
             }
         }
         resume.sort_by(|a, b| b.cmp(a));
+        let head: Vec<W::Unit> = head
+            .into_iter()
+            .filter(|unit| !acknowledged.contains(unit))
+            .collect();
         let mut backfill = Vec::new();
         let mut backfill_more = None;
         let floor = self.w.floor();
@@ -703,6 +737,7 @@ impl<W: Workload, O: Write, K: Clock, E: Write> Driver<'_, W, O, K, E> {
         let mut pending_units = Vec::new();
         let mut failed_units = Vec::new();
         let mut exhausted_units = Vec::new();
+        let mut acknowledged_units = Vec::new();
         match self.store.units_in_state(
             W::COMMAND,
             &[UnitState::Pending, UnitState::InProgress, UnitState::Failed],
@@ -711,6 +746,9 @@ impl<W: Workload, O: Write, K: Clock, E: Write> Driver<'_, W, O, K, E> {
             Ok(rows) => {
                 for row in rows {
                     match row.state {
+                        UnitState::Failed if row.acknowledged_at.is_some() => {
+                            acknowledged_units.push(row.unit_key);
+                        }
                         UnitState::Failed => {
                             if row.attempts >= self.cfg.max_attempts
                                 && !head_keys.contains(&row.unit_key)
@@ -755,6 +793,7 @@ impl<W: Workload, O: Write, K: Clock, E: Write> Driver<'_, W, O, K, E> {
             pending_units,
             failed_units,
             exhausted_units,
+            acknowledged_units,
             failed_this_run: self.failed_units_now.iter().cloned().collect(),
             limit: if outcome == Outcome::LimitReached {
                 LimitInfo {

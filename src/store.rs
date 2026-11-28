@@ -15,7 +15,7 @@ pub use runs::{
     UnitState, UnitUpdate,
 };
 
-const LATEST_SCHEMA_VERSION: i64 = 8;
+const LATEST_SCHEMA_VERSION: i64 = 9;
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub enum ExtractionMode {
@@ -212,6 +212,12 @@ impl Store {
             let transaction = self.connection.transaction()?;
             transaction.execute_batch(include_str!("../migrations/008_runs.sql"))?;
             transaction.pragma_update(None, "user_version", 8)?;
+            transaction.commit()?;
+        }
+        if current < 9 {
+            let transaction = self.connection.transaction()?;
+            transaction.execute_batch(include_str!("../migrations/009_acknowledged_units.sql"))?;
+            transaction.pragma_update(None, "user_version", 9)?;
             transaction.commit()?;
         }
         Ok(())

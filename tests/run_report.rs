@@ -326,3 +326,21 @@ fn interrupted_run_is_recorded_with_counts_and_grouped_errors() {
     drop(session);
     assert!(run::lock::acquire(&db, "monthly").is_ok());
 }
+
+#[test]
+fn acknowledged_units_are_listed_but_do_not_fail_the_run() {
+    let mut s = summary(Outcome::Completed, &ErrorLog::default());
+    s.acknowledged_units = vec!["2026-03".into(), "2026-05".into()];
+    assert!(!s.has_failures());
+    assert_eq!(s.exit_code(), 0);
+    let text = render_report(&s);
+    assert!(
+        text.contains("- Acknowledged (skipped): 2 units: 2026-03, 2026-05"),
+        "{text}"
+    );
+    assert!(text.contains("- Needs manual action (attempts exhausted): None"));
+    s.acknowledged_units.truncate(1);
+    assert!(render_report(&s).contains("- Acknowledged (skipped): 1 unit: 2026-03"));
+    s.acknowledged_units.clear();
+    assert!(!render_report(&s).contains("Acknowledged"));
+}

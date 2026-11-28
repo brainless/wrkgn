@@ -7,6 +7,7 @@ pub mod control;
 pub mod driver;
 pub mod errors;
 pub mod lock;
+pub mod manage;
 pub mod report;
 pub mod signals;
 pub mod status;
