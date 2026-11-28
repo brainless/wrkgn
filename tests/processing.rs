@@ -1564,3 +1564,39 @@ fn export_writes_only_the_sqlite_snapshot_manifest_and_pointer() {
         ["manifest.json", "public.sqlite"]
     );
 }
+
+/// HN item 41967936 ends with a URL typed with backslashes.
+struct BackslashApi;
+impl HnApi for BackslashApi {
+    fn fetch_item(&self, id: i64) -> Result<Option<Value>, FetchError> {
+        Ok(Some(match id {
+            41967000 => json!({"id":41967000,"kids":[41967936]}),
+            41967936 => json!({"id":41967936,"parent":41967000,"by":"cw","time":3000,
+                "text":"Works on phones but better on a large screen. https:\\\\www.coolweird.net"}),
+            _ => panic!("unexpected {id}"),
+        }))
+    }
+}
+fn validated_backslash(url: &str) -> Result<(), String> {
+    let dir = tempdir().unwrap();
+    let mut store = Store::open(dir.path().join("db.sqlite")).unwrap();
+    Collector::new(BackslashApi, CollectionConfig::default())
+        .collect(&mut store, 41967000)
+        .unwrap();
+    let item = store.get_item(41967936).unwrap().unwrap();
+    let mut m = mention(41967936, Some("Coolweird"), Some(url), "A weird site");
+    m.source_excerpt = "Works on phones but better on a large screen.".into();
+    let mut extraction = Extraction { mentions: vec![m] };
+    extraction.normalize_urls();
+    let source = BTreeMap::from([(41967936, &item)]);
+    validate(&extraction, &BTreeSet::from([41967936]), &source)
+}
+#[test]
+fn backslash_scheme_in_source_supports_the_normal_url() {
+    assert_eq!(validated_backslash("https://www.coolweird.net/"), Ok(()));
+    assert_eq!(validated_backslash(r"https:\\www.coolweird.net"), Ok(()));
+    assert_eq!(
+        validated_backslash("https://www.other.net/"),
+        Err("URL absent from source: source 41967936, url \"https://www.other.net/\"".into())
+    );
+}

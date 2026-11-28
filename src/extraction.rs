@@ -253,7 +253,10 @@ fn quoted(text: &str, quote: &str) -> bool {
 /// add `https://` to a scheme-less value. Returns `None` (the caller drops the
 /// field) when the result is still not an http(s) URL with a dotted host.
 pub(crate) fn normalize_url(raw: &str) -> Option<String> {
-    let compact: String = raw.chars().filter(|c| !c.is_whitespace()).collect();
+    let compact: String = fix_scheme_backslashes(raw)
+        .chars()
+        .filter(|c| !c.is_whitespace())
+        .collect();
     let lower = compact.to_ascii_lowercase();
     let candidate = if lower.starts_with("https://") {
         format!("https://{}", &compact[8..])
@@ -284,10 +287,36 @@ impl Extraction {
         }
     }
 }
+/// Treat `http:\\`, `https:\\` (any case, one or more backslashes) as
+/// `http://` / `https://`. Only a scheme immediately followed by backslashes
+/// changes; backslashes elsewhere are left alone.
+fn fix_scheme_backslashes(s: &str) -> String {
+    let mut out = String::with_capacity(s.len());
+    let mut rest = s;
+    while let Some(at) = rest.find('\\') {
+        let before = &rest[..at];
+        let is_scheme = ["https:", "http:"].iter().any(|sc| {
+            before.len() >= sc.len()
+                && before.is_char_boundary(before.len() - sc.len())
+                && before[before.len() - sc.len()..].eq_ignore_ascii_case(sc)
+        });
+        let slashes = rest[at..].len() - rest[at..].trim_start_matches('\\').len();
+        out.push_str(before);
+        if is_scheme {
+            out.push_str("//");
+        } else {
+            out.push_str(&rest[at..at + slashes]);
+        }
+        rest = &rest[at + slashes..];
+    }
+    out.push_str(rest);
+    out
+}
 /// Lowercase scheme (if any) and a key of lowercase host (without a leading
 /// `www.`) plus the rest of the URL without a trailing slash.
 fn url_parts(url: &str) -> (Option<String>, String) {
-    let url = url.trim();
+    let fixed = fix_scheme_backslashes(url);
+    let url = fixed.trim();
     let (scheme, rest) = match url.split_once("://") {
         Some((scheme, rest)) if scheme.chars().all(|c| c.is_ascii_alphanumeric()) => {
             (Some(scheme.to_ascii_lowercase()), rest)
@@ -306,6 +335,7 @@ fn url_parts(url: &str) -> (Option<String>, String) {
 /// URLs and bare domains in plain text, tolerating surrounding punctuation.
 fn text_urls(texts: &[String]) -> Vec<(Option<String>, String)> {
     let mut found = Vec::new();
+    let texts: Vec<String> = texts.iter().map(|t| fix_scheme_backslashes(t)).collect();
     for token in texts.iter().flat_map(|t| t.split_whitespace()) {
         // HN anchors need not have spaces around them: plain_text can produce
         // `Name(https://example.org)` or `[1]https://example.org`. Locate the
@@ -512,6 +542,24 @@ pub fn validate(
 #[cfg(test)]
 mod tests {
     use super::*;
+    #[test]
+    fn backslash_schemes_are_read_as_slashes() {
+        let comment =
+            r"Works on phones but better on a large screen. https:\\www.coolweird.net".to_string();
+        assert!(url_supported_by_text(
+            "https://www.coolweird.net/",
+            std::slice::from_ref(&comment)
+        ));
+        assert!(!url_supported_by_text("https://www.other.net/", &[comment]));
+        for src in [r"HTTP:\\a.test/x\y", r"https:\a.test/x\y"] {
+            assert!(url_supported_by_text(r"https://a.test/x\y", &[src.into()]));
+        }
+        assert_eq!(
+            normalize_url(r"https:\\www.coolweird.net").as_deref(),
+            Some("https://www.coolweird.net")
+        );
+        assert_eq!(fix_scheme_backslashes(r"a\\b c:\d"), r"a\\b c:\d");
+    }
     #[test]
     fn links_attached_to_labels_and_footnotes_are_supported() {
         for (source, url) in [
